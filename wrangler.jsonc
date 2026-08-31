@@ -1,0 +1,8 @@
+{
+  // Cloudflare Workers config — serves the site as static assets, no build step.
+  "name": "findaliens",
+  "compatibility_date": "2026-08-31",
+  "assets": {
+    "directory": "./"
+  }
+}

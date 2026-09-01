@@ -55,10 +55,7 @@
       var dx = Math.max(-1, Math.min(1, (e.clientX - cx) / 300));
       var dy = Math.max(-1, Math.min(1, (e.clientY - cy) / 300));
       for (var i = 0; i < pupils.length; i++) {
-        var p = pupils[i];
-        var baseX = i === 0 ? 48 : 74;
-        p.setAttribute('cx', baseX + dx * 2.5);
-        p.setAttribute('cy', 64 + dy * 2.5);
+        pupils[i].setAttribute('transform', 'translate(' + (dx * 2.4) + ' ' + (dy * 2.4) + ')');
       }
     });
   }

@@ -195,34 +195,98 @@
     <button id="maizey-close" aria-label="Close Maizey's message">✕</button>
   </div>
   <button id="maizey-body" aria-label="Maizey, the site guide" title="Maizey — site guide">
-    <svg viewBox="0 0 120 160" width="86" height="115" xmlns="http://www.w3.org/2000/svg">
-      <!-- husk leaves -->
-      <path d="M38 118 Q10 130 8 156 Q34 150 46 130 Z" fill="#3e9b3e" stroke="#1e5c1e" stroke-width="3"/>
-      <path d="M82 118 Q110 130 112 156 Q86 150 74 130 Z" fill="#4fae4f" stroke="#1e5c1e" stroke-width="3"/>
-      <path d="M50 126 Q52 148 60 158 Q68 148 70 126 Z" fill="#5cbf5c" stroke="#1e5c1e" stroke-width="3"/>
-      <!-- cob -->
-      <ellipse cx="60" cy="72" rx="34" ry="58" fill="#f7c948" stroke="#b8860b" stroke-width="3"/>
-      <!-- kernel grid -->
-      <g fill="none" stroke="#d9a521" stroke-width="2" opacity="0.8">
-        <path d="M60 15 V129"/><path d="M44 20 Q40 72 46 126"/><path d="M76 20 Q80 72 74 126"/>
-        <path d="M28 55 Q60 47 92 55"/><path d="M27 76 Q60 68 93 76"/><path d="M30 97 Q60 89 90 97"/>
-        <path d="M36 33 Q60 27 84 33"/><path d="M36 114 Q60 108 84 114"/>
-      </g>
+    <svg viewBox="0 0 120 172" width="88" height="126" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+      <defs>
+        <radialGradient id="mz-kern" cx="0.35" cy="0.28" r="0.9">
+          <stop offset="0" stop-color="#fff3b8"/>
+          <stop offset="0.45" stop-color="#ffd45e"/>
+          <stop offset="1" stop-color="#f2a71b"/>
+        </radialGradient>
+        <pattern id="mz-kernels" patternUnits="userSpaceOnUse" width="12" height="26">
+          <ellipse cx="6" cy="7" rx="5" ry="6.4" fill="url(#mz-kern)"/>
+          <ellipse cx="0" cy="20" rx="5" ry="6.4" fill="url(#mz-kern)"/>
+          <ellipse cx="12" cy="20" rx="5" ry="6.4" fill="url(#mz-kern)"/>
+        </pattern>
+        <radialGradient id="mz-shade" cx="0.4" cy="0.32" r="0.75">
+          <stop offset="0" stop-color="#ffffff" stop-opacity="0.35"/>
+          <stop offset="0.3" stop-color="#ffffff" stop-opacity="0"/>
+          <stop offset="0.62" stop-color="#784200" stop-opacity="0"/>
+          <stop offset="1" stop-color="#784200" stop-opacity="0.42"/>
+        </radialGradient>
+        <radialGradient id="mz-face" cx="0.45" cy="0.35" r="0.8">
+          <stop offset="0" stop-color="#ffe289"/>
+          <stop offset="1" stop-color="#f4ad2e"/>
+        </radialGradient>
+        <linearGradient id="mz-leaf-back" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#4c8f3d"/>
+          <stop offset="1" stop-color="#2c5d28"/>
+        </linearGradient>
+        <linearGradient id="mz-leaf-front" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#8ed060"/>
+          <stop offset="1" stop-color="#47953c"/>
+        </linearGradient>
+        <linearGradient id="mz-leaf-front2" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#a5dd74"/>
+          <stop offset="1" stop-color="#57a747"/>
+        </linearGradient>
+        <radialGradient id="mz-orb" cx="0.35" cy="0.3" r="0.9">
+          <stop offset="0" stop-color="#dffbff"/>
+          <stop offset="0.6" stop-color="#52d6f4"/>
+          <stop offset="1" stop-color="#1899c9"/>
+        </radialGradient>
+      </defs>
+
+      <!-- ground shadow -->
+      <ellipse cx="60" cy="164" rx="26" ry="5" fill="#000" opacity="0.3"/>
+
+      <!-- back husk leaves -->
+      <path d="M46 100 C24 110 10 132 6 158 C32 150 46 132 52 112 Z" fill="url(#mz-leaf-back)"/>
+      <path d="M74 100 C96 110 110 132 114 158 C88 150 74 132 68 112 Z" fill="url(#mz-leaf-back)"/>
+
+      <!-- cob: dark base, kernel pattern, volume shading -->
+      <ellipse cx="60" cy="82" rx="33" ry="56" fill="#c8820f"/>
+      <ellipse cx="60" cy="82" rx="33" ry="56" fill="url(#mz-kernels)"/>
+      <ellipse cx="60" cy="82" rx="33" ry="56" fill="url(#mz-shade)"/>
+
       <!-- face -->
+      <ellipse cx="60" cy="80" rx="26" ry="24" fill="url(#mz-face)"/>
+      <path d="M40 62 Q47 58 54 62" fill="none" stroke="#c9871a" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M66 62 Q73 58 80 62" fill="none" stroke="#c9871a" stroke-width="2.5" stroke-linecap="round"/>
       <g id="maizey-eyes">
-        <ellipse cx="47" cy="62" rx="7" ry="9" fill="#fff" stroke="#333" stroke-width="2"/>
-        <ellipse cx="73" cy="62" rx="7" ry="9" fill="#fff" stroke="#333" stroke-width="2"/>
-        <circle class="pupil" cx="48" cy="64" r="3.2" fill="#222"/>
-        <circle class="pupil" cx="74" cy="64" r="3.2" fill="#222"/>
+        <g class="eye">
+          <ellipse cx="47" cy="74" rx="6.8" ry="8.8" fill="#fff"/>
+          <g class="pupil">
+            <circle cx="47.5" cy="75.5" r="3.8" fill="#33251a"/>
+            <circle cx="48.9" cy="73.9" r="1.4" fill="#fff"/>
+            <circle cx="46.3" cy="77.4" r="0.7" fill="#fff" opacity="0.8"/>
+          </g>
+        </g>
+        <g class="eye">
+          <ellipse cx="73" cy="74" rx="6.8" ry="8.8" fill="#fff"/>
+          <g class="pupil">
+            <circle cx="73.5" cy="75.5" r="3.8" fill="#33251a"/>
+            <circle cx="74.9" cy="73.9" r="1.4" fill="#fff"/>
+            <circle cx="72.3" cy="77.4" r="0.7" fill="#fff" opacity="0.8"/>
+          </g>
+        </g>
       </g>
-      <path d="M46 88 Q60 100 74 88" fill="none" stroke="#8a5a00" stroke-width="4" stroke-linecap="round"/>
-      <circle cx="38" cy="80" r="5" fill="#f49ac1" opacity="0.55"/>
-      <circle cx="82" cy="80" r="5" fill="#f49ac1" opacity="0.55"/>
+      <path d="M47 92 Q60 104 73 92" fill="none" stroke="#8a4b1f" stroke-width="4" stroke-linecap="round"/>
+      <ellipse cx="37" cy="88" rx="4.8" ry="3.2" fill="#ff8f8f" opacity="0.45"/>
+      <ellipse cx="83" cy="88" rx="4.8" ry="3.2" fill="#ff8f8f" opacity="0.45"/>
+
+      <!-- front husk leaves -->
+      <path d="M32 108 C28 130 38 150 58 158 C50 140 48 122 51 106 C45 112 38 112 32 108 Z" fill="url(#mz-leaf-front)"/>
+      <path d="M88 108 C92 130 82 150 62 158 C70 140 72 122 69 106 C75 112 82 112 88 108 Z" fill="url(#mz-leaf-front2)"/>
+      <path d="M51 118 C53 140 57 152 60 158 C63 152 67 140 69 118 C64 124 56 124 51 118 Z" fill="url(#mz-leaf-front)"/>
+      <path d="M40 118 C38 132 44 146 54 154" fill="none" stroke="#fff" stroke-opacity="0.28" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M80 118 C82 132 76 146 66 154" fill="none" stroke="#fff" stroke-opacity="0.28" stroke-width="1.6" stroke-linecap="round"/>
+
       <!-- antenna -->
-      <line x1="60" y1="14" x2="60" y2="-2" stroke="#9ad1ff" stroke-width="3"/>
-      <circle cx="60" cy="-4" r="5" fill="#7fdcff" stroke="#2a7ea3" stroke-width="2">
-        <animate attributeName="fill" values="#7fdcff;#f7f;#7fdcff" dur="2s" repeatCount="indefinite"/>
+      <path d="M60 26 C60 18 59 14 60 10" fill="none" stroke="#7fb56a" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="60" cy="8" r="7" fill="#52d6f4" opacity="0.25">
+        <animate attributeName="opacity" values="0.15;0.4;0.15" dur="2.4s" repeatCount="indefinite"/>
       </circle>
+      <circle cx="60" cy="8" r="4" fill="url(#mz-orb)"/>
     </svg>
   </button>
 </div>

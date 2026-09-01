@@ -51,7 +51,7 @@ a:hover { color: var(--neon-magenta); }
 .blink { animation: blink 1s steps(2, start) infinite; }
 @keyframes blink { to { visibility: hidden; } }
 @media (prefers-reduced-motion: reduce) {
-  .blink, .ticker, .ufo-fly, #maizey-body { animation: none !important; }
+  .blink, .ticker, .ufo-fly, #maizey-body, #maizey .eye { animation: none !important; }
 }
 
 /* ---------- ticker ---------- */
@@ -305,6 +305,16 @@ a:hover { color: var(--neon-magenta); }
 }
 #maizey-body:hover { filter: drop-shadow(0 0 16px rgba(57,255,20,.8)); }
 #maizey-body svg { overflow: visible; }
+#maizey .eye {
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+  animation: maizey-blink 5.6s ease-in-out infinite;
+}
+@keyframes maizey-blink {
+  0%, 91%, 100% { transform: scaleY(1); }
+  94%           { transform: scaleY(0.06); }
+  97%           { transform: scaleY(1); }
+}
 @keyframes maizey-bob {
   0%, 100% { transform: translateY(0) rotate(-2deg); }
   50%      { transform: translateY(-7px) rotate(2deg); }

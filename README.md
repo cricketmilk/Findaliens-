@@ -23,14 +23,28 @@ It's a static site — open `index.html` in a browser, or serve the folder:
 python -m http.server 8000
 ```
 
-## Deploying
+## Unremarkable Human (merged in)
 
-Cloudflare Workers static assets, no build step:
+The `unremarkable-human/` folder is the old Unremarkable Human website — the
+Express-based parody-site starter that preceded this gazette (See Aliens'
+successor, seealiens.net being long dead). Merged here 2026-08-31 so the whole
+Find Aliens lineage lives in one repo. Run it locally if you ever want it:
 
 ```
-npx wrangler deploy
+cd unremarkable-human
+npm install
+npm start        # Express on :3000
 ```
 
-`findaliens.net` must already be a Cloudflare zone with DNS — `wrangler.jsonc` claims
-it as a custom domain. `robots.txt` and `_redirects` are served as-is; `.assetsignore`
-keeps the config and this README out of the deployed bundle.
+It is excluded from the Cloudflare deployment by `.assetsignore` — the live
+site at findaliens.net is the static gazette in the repo root.
+
+## The trapdoor
+
+`robots.txt` disallows one path that does not exist, and `_redirects` sends that
+path to the labyrinth at `sixoxis.goblinhouse.net`. `index.html` carries one
+matching off-screen `nofollow` link before `</body>`. Both are invisible to
+visitors and to compliant crawlers; only a scraper that ignores robots.txt or
+harvests it for disallowed paths ever reaches them. Nothing else from that system
+is present here — no operational routes, no measurement code. See
+`edge/DEPLOY.md` in the Korn Kult repo for the other side.

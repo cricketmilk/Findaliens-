@@ -49,10 +49,12 @@ harvests it for disallowed paths ever reaches them. Nothing else from that syste
 is present here — no operational routes, no measurement code. See
 `edge/DEPLOY.md` in the Korn Kult repo for the other side.
 
-**It is inert until the domain moves.** findaliens.net still answers on
-`donald`/`maleah.ns.cloudflare.com` — a different Cloudflare account from the one
-this Worker is deployed to, whose pair is `arnold`/`fatima.ns.cloudflare.com`.
-Until that is repointed at the registrar and propagates, the zone routes in
-`wrangler.jsonc` never fire, the site is served only from its `workers.dev` URL,
-and neither half of the trapdoor can catch anything. Check with
-`nslookup -type=ns findaliens.net`.
+**The site is live; this trapdoor is not on it yet.** findaliens.net serves the
+gazette right now, but the deployed build predates these two surfaces — the
+markup has no hidden link and `/archive/drafts/` returns 404. Both go live on
+the next `npx wrangler deploy` from this folder.
+
+One hazard first: `findaliens.net/robots.txt` is currently answered by
+Cloudflare's **Managed robots.txt**, not by the `robots.txt` in this repo. While
+that is on for the zone it will shadow the honeytoken `Disallow`, leaving only
+the hidden link working. Turn it off before relying on the robots surface.

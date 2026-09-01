@@ -18,3 +18,19 @@ It's a static site — open `index.html` in a browser, or serve the folder:
 ```
 python -m http.server 8000
 ```
+
+## Unremarkable Human (merged in)
+
+The `unremarkable-human/` folder is the old Unremarkable Human website — the
+Express-based parody-site starter that preceded this gazette (See Aliens'
+successor, seealiens.net being long dead). Merged here 2026-08-31 so the whole
+Find Aliens lineage lives in one repo. Run it locally if you ever want it:
+
+```
+cd unremarkable-human
+npm install
+npm start        # Express on :3000
+```
+
+It is excluded from the Cloudflare deployment by `.assetsignore` — the live
+site at findaliens.net is the static gazette in the repo root.

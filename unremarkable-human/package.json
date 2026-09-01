@@ -1,0 +1,16 @@
+{
+  "name": "unremarkable-human-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A weird, trippy 90s conspiracy & comedy parody website. Totally unremarkable.",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "marked": "^18.0.9"
+  }
+}

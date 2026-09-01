@@ -1,8 +1,18 @@
 {
   // Cloudflare Workers config — serves the site as static assets, no build step.
+  // Deploy: npx wrangler deploy   (from this folder)
   "name": "findaliens",
   "compatibility_date": "2026-08-31",
   "assets": {
     "directory": "./"
-  }
+  },
+  // Zone routes, not custom_domain: the zone already carries proxied DNS
+  // records (registrar-parked, pointing nowhere), and custom_domain refuses
+  // to coexist with them [code 100117]. A route intercepts every proxied
+  // request before the dead origin is ever consulted — the site is live and
+  // the old records become inert decoration.
+  "routes": [
+    { "pattern": "findaliens.net/*", "zone_name": "findaliens.net" },
+    { "pattern": "www.findaliens.net/*", "zone_name": "findaliens.net" }
+  ]
 }

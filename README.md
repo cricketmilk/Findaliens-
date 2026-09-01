@@ -49,12 +49,29 @@ harvests it for disallowed paths ever reaches them. Nothing else from that syste
 is present here — no operational routes, no measurement code. See
 `edge/DEPLOY.md` in the Korn Kult repo for the other side.
 
-**The site is live; this trapdoor is not on it yet.** findaliens.net serves the
-gazette right now, but the deployed build predates these two surfaces — the
-markup has no hidden link and `/archive/drafts/` returns 404. Both go live on
-the next `npx wrangler deploy` from this folder.
+**This Worker does not serve findaliens.net yet.** It is deployed and correct —
+`https://findaliens.milkingcrickets.workers.dev/` carries the sprite and the
+trapdoor — but the apex domain still answers with an older build from somewhere
+else, and `wrangler deploy` cannot change that.
 
-One hazard first: `findaliens.net/robots.txt` is currently answered by
-Cloudflare's **Managed robots.txt**, not by the `robots.txt` in this repo. While
-that is on for the zone it will shadow the honeytoken `Disallow`, leaving only
-the hidden link working. Turn it off before relying on the robots surface.
+The proof, rather than an inference from DNS: `/img/maizey.png` returns **404 on
+findaliens.net and 200 on the workers.dev URL**. That path has never been cached
+at the apex, so this is not staleness; the request simply is not reaching this
+Worker.
+
+The cause is the account split. findaliens.net answers on
+`donald`/`maleah.ns.cloudflare.com`, while this account's pair — the one
+goblinhouse.net uses — is `arnold`/`fatima.ns.cloudflare.com`. A zone gets the
+nameserver pair of the account holding it, so the *active* findaliens.net zone
+lives on the other account. `wrangler deploy` still reports success and prints
+the `findaliens.net/*` routes, because it binds them to this account's own
+pending copy of the zone; those routes are inert until the registrar (GoDaddy)
+repoints the nameservers to arnold/fatima.
+
+Until then the deploy target is the workers.dev URL, and both trapdoor surfaces
+on the apex are unreachable. `nslookup -type=ns findaliens.net` returning
+arnold/fatima is the signal that this has changed.
+
+One further hazard for afterwards: `findaliens.net/robots.txt` is answered by
+Cloudflare's **Managed robots.txt**. While that is on for the zone it will
+shadow the honeytoken `Disallow`, leaving only the hidden link working.

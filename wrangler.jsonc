@@ -3,8 +3,17 @@
   // Deploy: npx wrangler deploy   (from this folder)
   "name": "findaliens",
   "compatibility_date": "2026-08-31",
+  // Public URL that works TODAY, independent of the domain: the zone routes
+  // below only come alive once findaliens.net's nameservers (currently
+  // donald/maleah — a DIFFERENT Cloudflare account) are repointed at THIS
+  // account's pair: arnold.ns.cloudflare.com + fatima.ns.cloudflare.com
+  // (set at the registrar, GoDaddy). The moment that propagates, the domain
+  // serves this same Worker.
+  "workers_dev": true,
+  "main": "worker.js",
   "assets": {
-    "directory": "./"
+    "directory": "./",
+    "binding": "ASSETS"
   },
   // Zone routes, not custom_domain: the zone already carries proxied DNS
   // records (registrar-parked, pointing nowhere), and custom_domain refuses

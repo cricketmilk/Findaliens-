@@ -43,20 +43,4 @@
 
   // Greet on arrival
   setTimeout(nextLine, 2500);
-
-  // Eyes follow the cursor.
-  var pupils = document.querySelectorAll('#maizey-eyes .pupil');
-  var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if (pupils.length && !reduced) {
-    document.addEventListener('mousemove', function (e) {
-      var rect = body.getBoundingClientRect();
-      var cx = rect.left + rect.width / 2;
-      var cy = rect.top + rect.height / 3;
-      var dx = Math.max(-1, Math.min(1, (e.clientX - cx) / 300));
-      var dy = Math.max(-1, Math.min(1, (e.clientY - cy) / 300));
-      for (var i = 0; i < pupils.length; i++) {
-        pupils[i].setAttribute('transform', 'translate(' + (dx * 2.4) + ' ' + (dy * 2.4) + ')');
-      }
-    });
-  }
 })();

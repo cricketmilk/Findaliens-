@@ -4,5 +4,9 @@
   "compatibility_date": "2026-08-31",
   "assets": {
     "directory": "./"
-  }
+  },
+  "routes": [
+    { "pattern": "findaliens.net", "custom_domain": true },
+    { "pattern": "www.findaliens.net", "custom_domain": true }
+  ]
 }

@@ -48,3 +48,11 @@ visitors and to compliant crawlers; only a scraper that ignores robots.txt or
 harvests it for disallowed paths ever reaches them. Nothing else from that system
 is present here — no operational routes, no measurement code. See
 `edge/DEPLOY.md` in the Korn Kult repo for the other side.
+
+**It is inert until the domain moves.** findaliens.net still answers on
+`donald`/`maleah.ns.cloudflare.com` — a different Cloudflare account from the one
+this Worker is deployed to, whose pair is `arnold`/`fatima.ns.cloudflare.com`.
+Until that is repointed at the registrar and propagates, the zone routes in
+`wrangler.jsonc` never fire, the site is served only from its `workers.dev` URL,
+and neither half of the trapdoor can catch anything. Check with
+`nslookup -type=ns findaliens.net`.

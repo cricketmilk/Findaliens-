@@ -49,29 +49,53 @@ harvests it for disallowed paths ever reaches them. Nothing else from that syste
 is present here — no operational routes, no measurement code. See
 `edge/DEPLOY.md` in the Korn Kult repo for the other side.
 
-**This Worker does not serve findaliens.net yet.** It is deployed and correct —
-`https://findaliens.milkingcrickets.workers.dev/` carries the sprite and the
-trapdoor — but the apex domain still answers with an older build from somewhere
-else, and `wrangler deploy` cannot change that.
+## Where it runs — read this before touching deploys
 
-The proof, rather than an inference from DNS: `/img/maizey.png` returns **404 on
-findaliens.net and 200 on the workers.dev URL**. That path has never been cached
-at the apex, so this is not staleness; the request simply is not reaching this
-Worker.
+| | |
+|---|---|
+| domain | `findaliens.net`, `www.findaliens.net` |
+| Cloudflare account | **Crinkle@goblinhouse.net** (`ba0a42324c7ad9e1be876bb22a75b113`) |
+| nameservers | `donald.ns.cloudflare.com` + `maleah.ns.cloudflare.com` |
+| Worker | `findaliens` (also at `findaliens.crinkle.workers.dev`) |
+| apex DNS | `AAAA 100::`, **Proxied** — the discard address, so Cloudflare fronts the apex with no origin behind it |
 
-The cause is the account split. findaliens.net answers on
-`donald`/`maleah.ns.cloudflare.com`, while this account's pair — the one
-goblinhouse.net uses — is `arnold`/`fatima.ns.cloudflare.com`. A zone gets the
-nameserver pair of the account holding it, so the *active* findaliens.net zone
-lives on the other account. `wrangler deploy` still reports success and prints
-the `findaliens.net/*` routes, because it binds them to this account's own
-pending copy of the zone; those routes are inert until the registrar (GoDaddy)
-repoints the nameservers to arnold/fatima.
+**A Worker can only serve a zone on its own account.** That single fact cost a
+full day of 525s: the Worker was deployed to a different account than the zone,
+and every symptom downstream — phantom DNS records, dashboard edits with no
+effect, routes that bound but never fired — followed from it. `account_id` is
+pinned in `wrangler.jsonc` so a deploy under the wrong login now fails loudly
+instead of succeeding somewhere useless.
 
-Until then the deploy target is the workers.dev URL, and both trapdoor surfaces
-on the apex are unreachable. `nslookup -type=ns findaliens.net` returning
-arnold/fatima is the signal that this has changed.
+The nameserver pair is assigned *by* the account holding the zone, so a pair
+that differs from another domain's proves nothing about correctness. If the pair
+Cloudflare shows for this zone ever disagrees with the live delegation
+(`nslookup -type=ns findaliens.net`), the domain points at some other account's
+zone and nothing here can serve it. Check which account owns the zone before
+changing nameservers — repointing them to match a different domain is what broke
+this in the first place.
 
-One further hazard for afterwards: `findaliens.net/robots.txt` is answered by
-Cloudflare's **Managed robots.txt**. While that is on for the zone it will
-shadow the honeytoken `Disallow`, leaving only the hidden link working.
+## Deploying
+
+```
+npx wrangler deploy
+python check.py
+```
+
+Only `public/` is published. This used to be the repo root, which shipped a
+build source map and `.gitignore` as public assets and left the cached Cloudflare
+account id one glob away from going with them. A directory allowlist cannot
+regress the way an `.assetsignore` blocklist can — anything not in `public/` is
+unreachable by construction.
+
+## Verifying
+
+`check.py` asserts the site serves, the sprite is the pixel one rather than the
+old vector, both trapdoor surfaces are wired, the trap is catching, and that
+nothing outside `public/` is reachable. Exit code is 0 only if every check
+passes, so it can gate a deploy:
+
+```
+python check.py && echo ok
+```
+
+Every assertion in it is a failure this repo actually had.

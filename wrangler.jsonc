@@ -1,25 +1,41 @@
 {
-  // Cloudflare Workers config — serves the site as static assets, no build step.
+  // Cloudflare Workers config — serves public/ as static assets, no build step.
   // Deploy: npx wrangler deploy   (from this folder)
   "name": "findaliens",
   "compatibility_date": "2026-08-31",
-  // Public URL that works TODAY, independent of the domain: the zone routes
-  // below only come alive once findaliens.net's nameservers (currently
-  // donald/maleah — a DIFFERENT Cloudflare account) are repointed at THIS
-  // account's pair: arnold.ns.cloudflare.com + fatima.ns.cloudflare.com
-  // (set at the registrar, GoDaddy). The moment that propagates, the domain
-  // serves this same Worker.
+
+  // PINNED ON PURPOSE. findaliens.net's zone lives on the Crinkle account, and
+  // a Worker can only serve a zone on its own account. Wrangler otherwise takes
+  // the account from whatever it last cached or whoever is logged in, which is
+  // exactly how this got deployed to the wrong account and spent a day serving
+  // 525s. With this set, a deploy under the wrong login fails loudly instead of
+  // succeeding somewhere useless.
+  //
+  //   domain        findaliens.net
+  //   account       Crinkle@goblinhouse.net  (ba0a42324c7ad9e1be876bb22a75b113)
+  //   nameservers   donald.ns.cloudflare.com + maleah.ns.cloudflare.com
+  //
+  // Those nameservers are assigned BY the account that holds the zone. If they
+  // ever disagree with the pair Cloudflare shows for this zone, the domain is
+  // delegated to some other account and nothing here can serve it.
+  "account_id": "ba0a42324c7ad9e1be876bb22a75b113",
+
   "workers_dev": true,
   "main": "worker.js",
+
+  // Only public/ is published. This used to be "./" — the repo root — which
+  // published a build source map and .gitignore, and had the wrangler account
+  // cache one glob away from going public too. An allowlist by directory
+  // cannot regress the way a blocklist in .assetsignore can.
   "assets": {
-    "directory": "./",
+    "directory": "./public",
     "binding": "ASSETS"
   },
-  // Zone routes, not custom_domain: the zone already carries proxied DNS
-  // records (registrar-parked, pointing nowhere), and custom_domain refuses
-  // to coexist with them [code 100117]. A route intercepts every proxied
-  // request before the dead origin is ever consulted — the site is live and
-  // the old records become inert decoration.
+
+  // Zone routes rather than custom_domain: the apex carries a proxied AAAA
+  // (100::, the discard address) so Cloudflare fronts it with no origin behind,
+  // and these routes hand it to the Worker. custom_domain would also work but
+  // needs DNS write scope the deploy token does not carry.
   "routes": [
     { "pattern": "findaliens.net/*", "zone_name": "findaliens.net" },
     { "pattern": "www.findaliens.net/*", "zone_name": "findaliens.net" }

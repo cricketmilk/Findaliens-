@@ -349,3 +349,81 @@ a:hover { color: var(--neon-magenta); }
   font-family: inherit;
 }
 #maizey-close:hover { color: #d40000; }
+
+/* ============================================================
+   CHANNELING — Müt, the Xixoxis shell's familiar, speaking through Maizey.
+   mut/mut.js polls the wire; while a message is live, #maizey carries
+   .channeling and .s-<state>, and she is visibly not herself: his firelight
+   instead of her corn glow, the colour drained from her, a pixel ember over
+   her head, a twitch instead of her bob, and a bubble in his dark stepped
+   style. All of it releases when the message expires.
+   ============================================================ */
+#maizey.channeling { --mut-fire: #f0b830; }
+#maizey.channeling.s-alert, #maizey.channeling.s-angry, #maizey.channeling.s-rage { --mut-fire: #e4562f; }
+#maizey.channeling.s-sick { --mut-fire: #8fb07a; }
+#maizey.channeling.s-lovestruck { --mut-fire: #e86a9b; }
+#maizey.channeling.s-sad, #maizey.channeling.s-confused { --mut-fire: #6e86b8; }
+#maizey.channeling.s-surprised { --mut-fire: #f0d264; }
+#maizey.channeling.s-sleepy, #maizey.channeling.s-sleeping { --mut-fire: #6b5e86; }
+#maizey.channeling.s-channel { --mut-fire: #9b6ee8; }
+
+#maizey.channeling #maizey-body {
+  position: relative;
+  filter: drop-shadow(0 0 14px var(--mut-fire)) saturate(0.55) brightness(0.92);
+  animation: maizey-possessed 1.4s steps(4, end) infinite;
+}
+@keyframes maizey-possessed {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  25%      { transform: translateY(-2px) rotate(-3deg); }
+  50%      { transform: translateY(1px) rotate(0deg); }
+  75%      { transform: translateY(-1px) rotate(3deg); }
+}
+/* The ember: a pixel flame drawn in box-shadow, two cels, sitting on the
+   sprite's top edge. Pixel sizes match the 1:1 sprite. */
+#maizey.channeling #maizey-body::before {
+  content: ""; position: absolute; left: 50%; top: -14px;
+  width: 3px; height: 3px; margin-left: -1.5px;
+  background: transparent; pointer-events: none;
+  box-shadow:
+    0 0 0 0 #fce896, 0 -3px 0 0 #f0b830,
+    -3px 3px 0 0 #f09020, 0 3px 0 0 #f0b830, 3px 3px 0 0 #f09020,
+    -3px 6px 0 0 #f09020, 0 6px 0 0 #f09020, 3px 6px 0 0 #f09020;
+  animation: mut-ember 0.44s steps(1, end) infinite;
+}
+@keyframes mut-ember {
+  0%, 100% {
+    box-shadow:
+      0 0 0 0 #fce896, 0 -3px 0 0 #f0b830,
+      -3px 3px 0 0 #f09020, 0 3px 0 0 #f0b830, 3px 3px 0 0 #f09020,
+      -3px 6px 0 0 #f09020, 0 6px 0 0 #f09020, 3px 6px 0 0 #f09020;
+  }
+  50% {
+    box-shadow:
+      -3px -3px 0 0 #f0b830, 0 0 0 0 #fce896, 0 -3px 0 0 transparent,
+      -3px 3px 0 0 #f09020, 0 3px 0 0 #fce896, 3px 3px 0 0 #f09020,
+      -3px 6px 0 0 #f09020, 0 6px 0 0 #f09020, 3px 6px 0 0 #f09020;
+  }
+}
+#maizey.channeling #maizey-bubble {
+  background: #14111c;
+  color: #f3e9c8;
+  border: 3px solid var(--mut-fire);
+  border-radius: 0;
+  box-shadow: 4px 4px 0 var(--mut-fire);
+  font-family: 'VT323', 'Courier New', monospace;
+  font-size: 17px;
+  line-height: 1.2;
+  animation: mut-bubble 2.6s steps(2, end) infinite;
+}
+@keyframes mut-bubble {
+  0%, 100% { box-shadow: 4px 4px 0 var(--mut-fire); }
+  50%      { box-shadow: 4px 4px 0 color-mix(in srgb, var(--mut-fire) 55%, #000); }
+}
+#maizey.channeling #maizey-bubble::after { border-top-color: var(--mut-fire); }
+#maizey.channeling #maizey-close { color: var(--mut-fire); }
+#maizey .mut-graphic { display: block; max-width: 96px; max-height: 96px; margin: 0 auto 6px; image-rendering: pixelated; }
+@media (prefers-reduced-motion: reduce) {
+  #maizey.channeling #maizey-body,
+  #maizey.channeling #maizey-body::before,
+  #maizey.channeling #maizey-bubble { animation: none !important; }
+}

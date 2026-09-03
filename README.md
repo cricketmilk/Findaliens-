@@ -81,6 +81,23 @@ npx wrangler deploy
 python check.py
 ```
 
+The wire needs its token once per account (it is a Wrangler secret, never a
+file in the repo). Write `{"MUT_WIRE_TOKEN": "…"}` to a file outside the repo
+and run `npx wrangler secret bulk <that file>`; the same value lives in the
+shell's gitignored `shell/secrets.json`. Bulk from a file, never a piped
+`secret put` — on Windows the pipe appends a CR and every request then 401s.
+
+## The wire — Müt speaks here
+
+Müt, the Xixoxis shell's familiar, can say things on this site. He does not
+appear himself: Maizey channels him. `worker.js` answers `POST /mut/say`
+(bearer token, ≤4 KB, timestamp within a minute, replay-proof) by storing the
+message in one SQLite Durable Object (`wire/wire.js`), and `GET /mut/latest`
+(public, edge-cached 2s) hands it to `public/mut/mut.js`, which polls every
+3s and calls `window.MutHost.channel()`. For the message's duration Maizey is
+visibly not herself — his firelight, a pixel ember, his dark stepped bubble —
+then she is released. Text only reaches the page through `textContent`.
+
 Only `public/` is published. This used to be the repo root, which shipped a
 build source map and `.gitignore` as public assets and left the cached Cloudflare
 account id one glob away from going with them. A directory allowlist cannot

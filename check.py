@@ -87,10 +87,27 @@ def main():
           hst in (301, 302) and "sixoxis" in (hh.get("Location") or ""),
           "status=%s -> %s" % (hst, hh.get("Location")))
 
+    print("\nthe wire  (Müt speaking through Maizey)")
+    # The widget is a public asset; the routes are the Worker's; the DO's
+    # source is not published. A stale deploy fails the first line here.
+    wst, _, _ = get(base + "/mut/mut.js")
+    check("widget is served", wst == 200, "status=%s" % wst)
+    lst, latest, lh = get(base + "/mut/latest")
+    ok_json = False
+    try:
+        json.loads(latest); ok_json = True
+    except Exception:
+        pass
+    check("/mut/latest answers JSON", lst == 200 and ok_json, "status=%s" % lst)
+    check("/mut/latest is edge-cacheable", "max-age=2" in (lh.get("Cache-Control") or ""),
+          lh.get("Cache-Control", ""))
+    sst, _, _ = get(base + "/mut/say")
+    check("/mut/say refuses GET", sst == 405, "status=%s" % sst)
+
     print("\nnothing leaked  (the repo root must never be published)")
     for path in ("/wrangler.jsonc", "/README.md", "/worker.js", "/check.py",
                  "/.gitignore", "/.wrangler/cache/wrangler-account.json",
-                 "/unremarkable-human/src/app.js"):
+                 "/wire/wire.js", "/unremarkable-human/src/app.js"):
         s, _, _ = get(base + path)
         check("404: %s" % path, s == 404, "status=%s" % s)
 

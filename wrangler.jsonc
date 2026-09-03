@@ -32,6 +32,20 @@
     "binding": "ASSETS"
   },
 
+  // The Wire: one SQLite-backed Durable Object holding what Müt (the Xixoxis
+  // shell's familiar) last said here, spoken through Maizey — see worker.js
+  // and wire/wire.js. Free plan; costs nothing at rest. Its bearer token is
+  // the MUT_WIRE_TOKEN secret:
+  //   npx wrangler secret bulk <file.json>   with {"MUT_WIRE_TOKEN": "…"}
+  // (bulk from a file, never a piped `secret put` — on Windows the pipe
+  // appends a CR and every token then fails with 401).
+  "durable_objects": {
+    "bindings": [{ "name": "WIRE", "class_name": "Wire" }]
+  },
+  "migrations": [
+    { "tag": "v1", "new_sqlite_classes": ["Wire"] }
+  ],
+
   // Zone routes rather than custom_domain: the apex carries a proxied AAAA
   // (100::, the discard address) so Cloudflare fronts it with no origin behind,
   // and these routes hand it to the Worker. custom_domain would also work but

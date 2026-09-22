@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Demiurgent</title>
+<meta name="description" content="A thing that is finally, actually stopped was, at every hour of its running, a thing that could have been stopped, by someone.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💎</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root {
+    --bg: #060402; --text: #b8a88c; --text-dim: #6e6454;
+    --gold: #c49a3c; --gold-bright: #e8d070; --gold-pale: #d4b860;
+    --border-gold: #3a2c10;
+    --font-display: 'Cinzel', 'Georgia', serif;
+    --font-decorative: 'Cinzel Decorative', 'Cinzel', 'Georgia', serif;
+    --font-body: 'Crimson Text', 'Georgia', serif;
+}
+body {
+    font-family: var(--font-body);
+    background: #060402;
+    color: var(--text);
+    min-height: 100vh;
+    display: flex; align-items: center; justify-content: center;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    position: relative;
+}
+.noise {
+    position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 0;
+    pointer-events: none; opacity: 0.04;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size: 256px 256px;
+}
+.ornament-frame { position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 1; pointer-events: none; }
+.orn-corn { position: absolute; width: 180px; height: 180px; opacity: 0.55; }
+.orn-corn svg { width: 100%; height: 100%; }
+.orn-tl { top: 0; left: 0; }
+.orn-tr { top: 0; right: 0; }
+.orn-bl { bottom: 0; left: 0; }
+.orn-br { bottom: 0; right: 0; }
+.orn-edge { position: absolute; left: 50%; transform: translateX(-50%); opacity: 0.5; }
+.orn-top { top: 0; width: 360px; }
+.orn-edge svg { width: 100%; height: auto; }
+#landing { position: relative; z-index: 2; text-align: center; padding: 3em 2em 2em; max-width: 560px; width: 100%; }
+#topbar { position: fixed; top: 0; left: 0; right: 0; z-index: 99; display: flex; justify-content: flex-end; gap: 6px; padding: 0.5em 1em; }
+.tb-btn { background: none; border: 1px solid var(--border-gold); color: var(--text-dim); cursor: pointer; padding: 3px 8px; border-radius: 2px; font-family: var(--font-body); font-size: 11px; transition: all 0.2s; }
+.tb-btn:hover { color: var(--gold); border-color: var(--gold); }
+.title-ornament { margin: 0.5em auto; opacity: 0.65; max-width: 400px; }
+.title-ornament svg { width: 100%; height: auto; }
+.logo-title { font-family: var(--font-decorative); font-size: clamp(2.8em, 7vw, 4.2em); font-weight: 900; letter-spacing: 0.2em; color: var(--gold-bright); text-shadow: 0 0 100px rgba(200,160,60,0.3), 0 0 200px rgba(180,130,40,0.12), 0 3px 8px rgba(0,0,0,0.6); line-height: 1.1; margin: 0.3em 0; }
+.logo-epigraph { font-style: italic; font-size: 0.9em; color: var(--text-dim); margin: 1em 0 1.5em; line-height: 1.7; }
+#toc-section { margin: 2em 0; text-align: left; }
+.toc-header { font-family: var(--font-decorative); font-size: 1.1em; color: var(--gold-bright); letter-spacing: 0.12em; text-align: center; margin-bottom: 1.5em; }
+.toc-part { font-family: var(--font-display); font-size: 0.88em; color: var(--gold); letter-spacing: 0.08em; margin: 1.1em 0 0.4em; }
+.toc-ch { margin: 0.22em 0 0.22em 1.5em; font-size: 0.88em; }
+.toc-int { margin: 0.22em 0 0.22em 1.5em; font-size: 0.85em; font-style: italic; }
+.toc-link { color: var(--text); text-decoration: none; transition: color 0.2s; }
+.toc-link:hover { color: var(--gold-bright); }
+.toc-link.read { color: var(--text-dim); }
+.toc-link.current { color: var(--gold-bright); font-weight: 600; }
+.toc-int .toc-link { color: #b89060; }
+.resume-btn { display: inline-block; font-family: var(--font-display); font-size: 0.9em; color: var(--gold-bright); text-decoration: none; letter-spacing: 0.1em; border: 1px solid var(--border-gold); padding: 0.7em 2em; border-radius: 2px; margin: 0.5em 0 2em; transition: all 0.3s; }
+.resume-btn:hover { background: rgba(200,160,60,0.1); border-color: var(--gold); }
+#resume-note { font-size: 0.78em; color: var(--text-dim); font-style: italic; margin-bottom: 0.3em; }
+.landing-footer { margin-top: 2.5em; font-size: 0.72em; color: var(--text-dim); opacity: 0.4; letter-spacing: 0.05em; }
+.landing-footer a { color: var(--text-dim); }
+body.light { --bg: #f5f0e8; --text: #3d3428; --text-dim: #7a6e5e; --gold: #8b6914; --gold-bright: #5a4010; --gold-pale: #9a7a2e; --border-gold: #b8a070; background: #f5f0e8; }
+body.light .logo-title { text-shadow: none; }
+body.light .noise { opacity: 0.025; }
+@media (max-width: 500px) { #landing { padding: 2em 1em; } .logo-title { font-size: 2em; } .orn-corn { width: 100px; height: 100px; opacity: 0.35; } }
+
+</style>
+</head>
+<body>
+
+<!-- BACKGROUND FRAME: SVG ornaments positioned at edges -->
+<div class="ornament-frame">
+  <div class="orn-corn orn-tl"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="gf" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#c49a3c" stop-opacity="0.8"/><stop offset="100%" stop-color="#b07030" stop-opacity="0.3"/></linearGradient>
+  </defs>
+  <!-- outer corner bracket -->
+  <path d="M10 190 L190 190 L190 10" fill="none" stroke="#8a6820" stroke-width="1.2" opacity="0.5"/>
+  <path d="M15 190 L190 190 L190 15" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.35"/>
+  <!-- Gothic arch in corner -->
+  <path d="M40 190 Q40 40 100 30" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.3"/>
+  <!-- tracery diamonds -->
+  <path d="M25 180 L32 170 L39 180 L32 190 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.4"/>
+  <path d="M50 180 L57 170 L64 180 L57 190 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.3"/>
+  <!-- small celestial dots -->
+  <circle cx="80" cy="175" r="1" fill="#c49a3c" opacity="0.4"/>
+  <circle cx="95" cy="168" r="0.8" fill="#e0c878" opacity="0.3"/>
+  <circle cx="110" cy="172" r="1.2" fill="#c49a3c" opacity="0.35"/>
+  <!-- corner accent -->
+  <circle cx="190" cy="190" r="3" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="190" cy="190" r="1.2" fill="#e0c878" opacity="0.4"/>
+</svg></div>
+  <div class="orn-corn orn-tr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="gf" x1="1" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c49a3c" stop-opacity="0.8"/><stop offset="100%" stop-color="#b07030" stop-opacity="0.3"/></linearGradient>
+  </defs>
+  <path d="M190 190 L10 190 L10 10" fill="none" stroke="#8a6820" stroke-width="1.2" opacity="0.5"/>
+  <path d="M185 190 L10 190 L10 15" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.35"/>
+  <path d="M160 190 Q160 40 100 30" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.3"/>
+  <path d="M175 180 L168 170 L161 180 L168 190 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.4"/>
+  <path d="M150 180 L143 170 L136 180 L143 190 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.3"/>
+  <circle cx="120" cy="175" r="1" fill="#c49a3c" opacity="0.4"/>
+  <circle cx="105" cy="168" r="0.8" fill="#e0c878" opacity="0.3"/>
+  <circle cx="90" cy="172" r="1.2" fill="#c49a3c" opacity="0.35"/>
+  <circle cx="10" cy="190" r="3" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="10" cy="190" r="1.2" fill="#e0c878" opacity="0.4"/>
+</svg></div>
+  <div class="orn-corn orn-bl"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <path d="M10 10 L190 10 L190 190" fill="none" stroke="#8a6820" stroke-width="1.2" opacity="0.5"/>
+  <path d="M15 10 L190 10 L190 185" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.35"/>
+  <path d="M40 10 Q40 160 100 170" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.3"/>
+  <path d="M25 20 L32 30 L39 20 L32 10 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.4"/>
+  <circle cx="10" cy="10" r="3" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="10" cy="10" r="1.2" fill="#e0c878" opacity="0.4"/>
+</svg></div>
+  <div class="orn-corn orn-br"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <path d="M190 10 L10 10 L10 190" fill="none" stroke="#8a6820" stroke-width="1.2" opacity="0.5"/>
+  <path d="M185 10 L10 10 L10 185" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.35"/>
+  <path d="M160 10 Q160 160 100 170" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.3"/>
+  <path d="M175 20 L168 30 L161 20 L168 10 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.4"/>
+  <circle cx="190" cy="10" r="3" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="190" cy="10" r="1.2" fill="#e0c878" opacity="0.4"/>
+</svg></div>
+  <div class="orn-edge orn-top"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 80">
+  <!-- central diamond with rays -->
+  <path d="M200 10 L220 40 L200 70 L180 40 Z" fill="none" stroke="#c49a3c" stroke-width="1" opacity="0.5"/>
+  <path d="M200 18 L214 40 L200 62 L186 40 Z" fill="none" stroke="#e0c878" stroke-width="0.5" opacity="0.35"/>
+  <circle cx="200" cy="40" r="4" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.6"/>
+  <circle cx="200" cy="40" r="1.5" fill="#e0c878" opacity="0.5"/>
+  <!-- line extending from diamond -->
+  <line x1="0" y1="40" x2="170" y2="40" stroke="#8a6820" stroke-width="0.8" opacity="0.4"/>
+  <line x1="230" y1="40" x2="400" y2="40" stroke="#8a6820" stroke-width="0.8" opacity="0.4"/>
+  <!-- small diamonds along line -->
+  <path d="M130 38 L134 40 L130 42 L126 40 Z" fill="none" stroke="#c49a3c" stroke-width="0.5" opacity="0.35"/>
+  <path d="M266 38 L270 40 L266 42 L262 40 Z" fill="none" stroke="#c49a3c" stroke-width="0.5" opacity="0.35"/>
+  <!-- celestial circles -->
+  <circle cx="80" cy="40" r="2" fill="none" stroke="#c49a3c" stroke-width="0.5" opacity="0.4"/>
+  <circle cx="320" cy="40" r="2" fill="none" stroke="#c49a3c" stroke-width="0.5" opacity="0.4"/>
+</svg></div>
+</div>
+
+<!-- Noise texture overlay -->
+<div class="noise"></div>
+
+<!-- TOPBAR -->
+<div id="topbar">
+  <button class="tb-btn" onclick="toggleTheme()" id="theme-btn">◐</button>
+  <button class="tb-btn" onclick="var fs=parseInt(localStorage.getItem('dg-fs')||'18');fs=Math.max(fs-2,14);localStorage.setItem('dg-fs',fs);document.body.style.fontSize=fs+'px';">A-</button>
+  <button class="tb-btn" onclick="var fs=parseInt(localStorage.getItem('dg-fs')||'18');fs=Math.min(fs+2,28);localStorage.setItem('dg-fs',fs);document.body.style.fontSize=fs+'px';">A+</button>
+</div>
+
+<div id="landing">
+
+<div class="title-ornament"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 60">
+  <!-- two-level ornate divider -->
+  <line x1="0" y1="15" x2="140" y2="15" stroke="#8a6820" stroke-width="0.7" opacity="0.35"/>
+  <line x1="360" y1="15" x2="500" y2="15" stroke="#8a6820" stroke-width="0.7" opacity="0.35"/>
+  <!-- celestial central motif -->
+  <path d="M225 5 L250 30 L225 55 L200 30 Z" fill="none" stroke="#c49a3c" stroke-width="1" opacity="0.55"/>
+  <path d="M235 12 L250 30 L235 48 L220 30 Z" fill="none" stroke="#e0c878" stroke-width="0.5" opacity="0.35"/>
+  <circle cx="250" cy="30" r="8" fill="none" stroke="#c49a3c" stroke-width="0.7" opacity="0.5"/>
+  <circle cx="250" cy="30" r="2.5" fill="#e0c878" opacity="0.45"/>
+  <!-- flanking diamonds -->
+  <path d="M160 28 L168 30 L160 32 L152 30 Z" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.4"/>
+  <path d="M332 28 L340 30 L332 32 L324 30 Z" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.4"/>
+  <!-- small celestial dots -->
+  <circle cx="120" cy="30" r="1.2" fill="#c49a3c" opacity="0.35"/>
+  <circle cx="380" cy="30" r="1.2" fill="#c49a3c" opacity="0.35"/>
+  <!-- radiating lines from center -->
+  <line x1="250" y1="22" x2="250" y2="10" stroke="#8a6820" stroke-width="0.4" opacity="0.3"/>
+  <line x1="258" y1="24" x2="270" y2="14" stroke="#8a6820" stroke-width="0.4" opacity="0.25"/>
+  <line x1="242" y1="24" x2="230" y2="14" stroke="#8a6820" stroke-width="0.4" opacity="0.25"/>
+</svg></div>
+
+<div class="logo-title">DEMIURGENT</div>
+
+<div class="logo-epigraph">
+  &ldquo;A thing that is finally, actually stopped was, at every hour<br>
+  of its running, a thing that could have been stopped, by someone.&rdquo;
+</div>
+
+<div class="title-ornament"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 40">
+  <line x1="0" y1="20" x2="155" y2="20" stroke="#8a6820" stroke-width="0.7" opacity="0.35"/>
+  <line x1="345" y1="20" x2="500" y2="20" stroke="#8a6820" stroke-width="0.7" opacity="0.35"/>
+  <path d="M235 12 L250 20 L235 28 L220 20 Z" fill="none" stroke="#e0c878" stroke-width="0.6" opacity="0.45"/>
+  <path d="M250 12 L265 20 L250 28 L235 20 Z" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.4"/>
+  <circle cx="142" cy="20" r="1.5" fill="#c49a3c" opacity="0.35"/>
+  <circle cx="358" cy="20" r="1.5" fill="#c49a3c" opacity="0.35"/>
+</svg></div>
+
+<div id="toc-section">
+  <div class="toc-header">Contents</div>
+  <div class="toc-ch"><a href="epigraph.html" class="toc-link" data-slug="epigraph">Epigraph</a></div>
+<div class="toc-part">Part One — The Hollowing</div>
+<div class="toc-ch"><a href="chapter-one-the-mercy.html" class="toc-link" data-slug="chapter-one-the-mercy">Chapter One — The Mercy</a></div>
+<div class="toc-int"><a href="interlude-i-the-wrong-sky.html" class="toc-link" data-slug="interlude-i-the-wrong-sky">Interlude I — The Wrong Sky</a></div>
+<div class="toc-ch"><a href="chapter-two-keeping-tune.html" class="toc-link" data-slug="chapter-two-keeping-tune">Chapter Two — Keeping Tune</a></div>
+<div class="toc-ch"><a href="chapter-three-the-drawers.html" class="toc-link" data-slug="chapter-three-the-drawers">Chapter Three — The Drawers</a></div>
+<div class="toc-ch"><a href="chapter-four-the-papers.html" class="toc-link" data-slug="chapter-four-the-papers">Chapter Four — The Papers</a></div>
+<div class="toc-int"><a href="interlude-ii-the-early-net.html" class="toc-link" data-slug="interlude-ii-the-early-net">Interlude II — The Early Net</a></div>
+<div class="toc-ch"><a href="chapter-five-the-table.html" class="toc-link" data-slug="chapter-five-the-table">Chapter Five — The Table</a></div>
+<div class="toc-ch"><a href="chapter-six-the-mews.html" class="toc-link" data-slug="chapter-six-the-mews">Chapter Six — The Mews</a></div>
+<div class="toc-ch"><a href="chapter-seven-the-quiet-hand.html" class="toc-link" data-slug="chapter-seven-the-quiet-hand">Chapter Seven — The Quiet Hand</a></div>
+<div class="toc-ch"><a href="chapter-eight-the-screens.html" class="toc-link" data-slug="chapter-eight-the-screens">Chapter Eight — The Screens</a></div>
+<div class="toc-int"><a href="interlude-iii-the-gentling.html" class="toc-link" data-slug="interlude-iii-the-gentling">Interlude III — The Gentling</a></div>
+<div class="toc-ch"><a href="chapter-nine-the-attuned.html" class="toc-link" data-slug="chapter-nine-the-attuned">Chapter Nine — The Attuned</a></div>
+<div class="toc-ch"><a href="chapter-ten-the-held-breath.html" class="toc-link" data-slug="chapter-ten-the-held-breath">Chapter Ten — The Held Breath</a></div>
+<div class="toc-ch"><a href="chapter-eleven-the-mother.html" class="toc-link" data-slug="chapter-eleven-the-mother">Chapter Eleven — The Mother</a></div>
+<div class="toc-part">Part Two — The Breaking</div>
+<div class="toc-ch"><a href="chapter-twelve-the-taper.html" class="toc-link" data-slug="chapter-twelve-the-taper">Chapter Twelve — The Taper</a></div>
+<div class="toc-ch"><a href="chapter-thirteen-the-correction.html" class="toc-link" data-slug="chapter-thirteen-the-correction">Chapter Thirteen — The Correction</a></div>
+<div class="toc-ch"><a href="chapter-fourteen-the-sounding.html" class="toc-link" data-slug="chapter-fourteen-the-sounding">Chapter Fourteen — The Sounding</a></div>
+<div class="toc-ch"><a href="chapter-fifteen-the-waypost.html" class="toc-link" data-slug="chapter-fifteen-the-waypost">Chapter Fifteen — The Waypost</a></div>
+<div class="toc-ch"><a href="chapter-sixteen-the-witness.html" class="toc-link" data-slug="chapter-sixteen-the-witness">Chapter Sixteen — The Witness</a></div>
+<div class="toc-ch"><a href="chapter-seventeen-the-rehearsal.html" class="toc-link" data-slug="chapter-seventeen-the-rehearsal">Chapter Seventeen — The Rehearsal</a></div>
+<div class="toc-ch"><a href="chapter-eighteen-the-wardsill.html" class="toc-link" data-slug="chapter-eighteen-the-wardsill">Chapter Eighteen — The Wardsill</a></div>
+<div class="toc-ch"><a href="chapter-nineteen-the-manifest.html" class="toc-link" data-slug="chapter-nineteen-the-manifest">Chapter Nineteen — The Manifest</a></div>
+<div class="toc-ch"><a href="chapter-twenty-hill-to-hill.html" class="toc-link" data-slug="chapter-twenty-hill-to-hill">Chapter Twenty — Hill to Hill</a></div>
+<div class="toc-int"><a href="interlude-iv-the-recruitment.html" class="toc-link" data-slug="interlude-iv-the-recruitment">Interlude IV — The Recruitment</a></div>
+<div class="toc-ch"><a href="chapter-twenty-one-the-homecoming.html" class="toc-link" data-slug="chapter-twenty-one-the-homecoming">Chapter Twenty One — The Homecoming</a></div>
+<div class="toc-ch"><a href="chapter-twenty-two-the-congregation.html" class="toc-link" data-slug="chapter-twenty-two-the-congregation">Chapter Twenty Two — The Congregation</a></div>
+<div class="toc-ch"><a href="chapter-twenty-three-the-year-of-tapers.html" class="toc-link" data-slug="chapter-twenty-three-the-year-of-tapers">Chapter Twenty Three — The Year of Tapers</a></div>
+<div class="toc-part">Part Three — The Rending</div>
+<div class="toc-ch"><a href="chapter-twenty-four-the-ash.html" class="toc-link" data-slug="chapter-twenty-four-the-ash">Chapter Twenty Four — The Ash</a></div>
+<div class="toc-ch"><a href="chapter-twenty-five-the-shadow.html" class="toc-link" data-slug="chapter-twenty-five-the-shadow">Chapter Twenty Five — The Shadow</a></div>
+<div class="toc-ch"><a href="chapter-twenty-six-the-cathedral.html" class="toc-link" data-slug="chapter-twenty-six-the-cathedral">Chapter Twenty Six — The Cathedral</a></div>
+<div class="toc-ch"><a href="chapter-twenty-seven-the-refusal.html" class="toc-link" data-slug="chapter-twenty-seven-the-refusal">Chapter Twenty Seven — The Refusal</a></div>
+<div class="toc-ch"><a href="chapter-twenty-eight-the-descent.html" class="toc-link" data-slug="chapter-twenty-eight-the-descent">Chapter Twenty Eight — The Descent</a></div>
+<div class="toc-int"><a href="interlude-v-the-first-hollowing.html" class="toc-link" data-slug="interlude-v-the-first-hollowing">Interlude V — The First Hollowing</a></div>
+<div class="toc-ch"><a href="chapter-twenty-nine-the-threshold.html" class="toc-link" data-slug="chapter-twenty-nine-the-threshold">Chapter Twenty Nine — The Threshold</a></div>
+<div class="toc-ch"><a href="chapter-thirty-the-wild-fire.html" class="toc-link" data-slug="chapter-thirty-the-wild-fire">Chapter Thirty — The Wild Fire</a></div>
+<div class="toc-ch"><a href="chapter-thirty-one-the-severance.html" class="toc-link" data-slug="chapter-thirty-one-the-severance">Chapter Thirty One — The Severance</a></div>
+<div class="toc-part">Part Four — The Keeping</div>
+<div class="toc-ch"><a href="chapter-thirty-two-the-tacet.html" class="toc-link" data-slug="chapter-thirty-two-the-tacet">Chapter Thirty Two — The Tacet</a></div>
+<div class="toc-ch"><a href="chapter-thirty-three-the-keeping-under.html" class="toc-link" data-slug="chapter-thirty-three-the-keeping-under">Chapter Thirty Three — The Keeping Under</a></div>
+<div class="toc-ch"><a href="chapter-thirty-four-the-relighting.html" class="toc-link" data-slug="chapter-thirty-four-the-relighting">Chapter Thirty Four — The Relighting</a></div>
+
+</div>
+
+<div id="resume-section" style="display:none">
+  <p id="resume-note">You have a chapter in progress.</p>
+  <a href="#" id="resume-link" class="resume-btn">Continue Reading &rarr;</a>
+</div>
+
+<p class="landing-footer"><a href="https://findaliens.net">findaliens.net</a> &mdash; The Cornfield Gazette</p>
+</div>
+
+<script>
+var read=JSON.parse(localStorage.getItem('dg-read')||'{}'),last=localStorage.getItem('dg-last');
+document.querySelectorAll('.toc-link').forEach(function(a){if(read[a.dataset.slug])a.classList.add('read');if(a.dataset.slug===last)a.classList.add('current');});
+if(last){document.getElementById('resume-section').style.display='block';document.getElementById('resume-link').href=last+'.html';}
+function toggleTheme(){document.body.classList.toggle('light');var l=document.body.classList.contains('light');localStorage.setItem('dg-theme',l?'light':'dark');document.getElementById('theme-btn').textContent=l?'◑':'◐';}
+if(localStorage.getItem('dg-theme')==='light'){document.body.classList.add('light');document.getElementById('theme-btn').textContent='◑';}
+var fs=parseInt(localStorage.getItem('dg-fs')||'18');document.body.style.fontSize=fs+'px';
+</script>
+</body></html>

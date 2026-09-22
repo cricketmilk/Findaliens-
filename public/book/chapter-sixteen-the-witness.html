@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chapter Sixteen — The Witness — Demiurgent</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💎</text></svg>">
+<style>/* ===== FONTS ===== */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* ===== RESET ===== */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+/* ===== NOISE TEXTURE ===== */
+.noise {
+    position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 0;
+    pointer-events: none; opacity: 0.04;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size: 256px 256px;
+}
+body.light .noise { opacity: 0.025; }
+
+/* ===== ORNAMENTAL FRAME (SVG corners) ===== */
+.ornament-frame { position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 1; pointer-events: none; }
+.orn-corn { position: absolute; width: 160px; height: 160px; opacity: 0.5; }
+.orn-corn svg { width: 100%; height: 100%; }
+.orn-tl { top: 0; left: 0; }
+.orn-tr { top: 0; right: 0; }
+.orn-bl { bottom: 0; left: 0; }
+.orn-br { bottom: 0; right: 0; }
+
+/* FRAME_CSS_PLACEHOLDER */
+
+:root {
+    --bg: #080604;
+    --surface: #100c08;
+    --text: #b8a88c;
+    --text-dim: #6e6454;
+    --gold: #c49a3c;
+    --gold-bright: #e8d070;
+    --gold-pale: #d4b860;
+    --amber: #b07030;
+    --amber-deep: #8b5020;
+    --border: #282018;
+    --border-gold: #3a2c10;
+    --font-display: 'Cinzel', 'Georgia', serif;
+    --font-decorative: 'Cinzel Decorative', 'Cinzel', 'Georgia', serif;
+    --font-body: 'Crimson Text', 'Georgia', serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-body);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.8;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar{width:6px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:var(--border-gold);border-radius:3px}
+
+/* ===== READING PROGRESS BAR ===== */
+#progress-bar {
+    position: fixed; top: 0; left: 0; height: 2px;
+    background: linear-gradient(90deg, var(--amber-deep), var(--gold), var(--gold-bright));
+    z-index: 101;
+}
+
+/* ===== TOP NAVIGATION ===== */
+#topnav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    background: rgba(8,6,4,0.93);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid var(--border-gold);
+    padding: 0 1em; height: 40px;
+    display: flex; align-items: center; justify-content: space-between;
+    font-size: 11px; color: var(--text-dim);
+}
+body.light #topnav { background: rgba(245,240,232,0.93); }
+.tn-title {
+    font-family: var(--font-display);
+    letter-spacing: 0.1em;
+    color: var(--gold-pale);
+    font-size: 10px;
+}
+.tn-btns { display: flex; gap: 6px; align-items: center; }
+#topnav a { color: var(--text-dim); text-decoration: none; transition: color 0.2s; }
+#topnav a:hover { color: var(--gold); }
+
+.nav-btn {
+    background: none; border: 1px solid var(--border);
+    color: var(--text-dim); cursor: pointer;
+    padding: 3px 8px; border-radius: 2px;
+    font-family: var(--font-body); font-size: 11px;
+    transition: all 0.2s;
+}
+.nav-btn:hover { color: var(--gold); border-color: var(--gold); }
+
+/* ===== CONTENT AREA ===== */
+#content {
+    max-width: 660px;
+    margin: 0 auto;
+    padding: 60px 1.5em 5em;
+    position: relative; z-index: 1;
+}
+
+/* ===== ORNAMENTAL CHAPTER HEADER ===== */
+.ch-header {
+    text-align: center;
+    margin-bottom: 3em;
+    padding-top: 0.5em;
+}
+.ch-ornament-inner {
+    max-width: 300px;
+    margin: 0 auto 1em;
+    opacity: 0.55;
+}
+.ch-ornament-inner svg {
+    width: 100%;
+    height: auto;
+}
+.ch-part-label {
+    font-family: var(--font-display);
+    font-size: 0.8em; color: var(--gold);
+    letter-spacing: 0.15em;
+    margin-bottom: 0.3em;
+    text-transform: uppercase;
+}
+.ch-title {
+    font-family: var(--font-decorative);
+    font-size: 1.45em; font-weight: 700; color: var(--gold-bright);
+    letter-spacing: 0.08em; line-height: 1.3;
+    text-shadow: 0 0 40px rgba(200,160,60,0.2);
+}
+.ch-interlude .ch-title {
+    font-style: italic; color: #b89060;
+    font-family: var(--font-display);
+}
+.ch-interlude .ch-header::before { opacity: 0.3; }
+
+/* Ornamental rule after chapter title */
+.ch-header::after {
+    content: '';
+    display: block;
+    width: 180px; height: 12px;
+    margin: 1em auto 0;
+    background:
+        linear-gradient(var(--border-gold), var(--border-gold)) 0 50% / 40px 1px no-repeat,
+        radial-gradient(circle 2px, var(--gold) 50%, transparent 50%) 65px 50% / 6px 6px no-repeat,
+        radial-gradient(circle 1.2px, var(--gold-pale) 50%, transparent 50%) 90px 50% / 4px 4px no-repeat,
+        linear-gradient(var(--border-gold), var(--border-gold)) 140px 50% / 40px 1px no-repeat;
+    opacity: 0.35;
+}
+
+/* ===== PROSE ===== */
+p { margin: 0 0 1.1em; }
+em { color: #d4b860; font-style: italic; }
+strong { color: #e0c878; font-weight: 600; }
+blockquote {
+    border-left: 3px solid #3d2c10;
+    padding: 0.5em 1.2em;
+    margin: 1.8em 0;
+    font-style: italic; color: #a8987c;
+    background: linear-gradient(90deg, rgba(180,140,60,0.04) 0%, transparent 40%);
+}
+body.light blockquote {
+    background: linear-gradient(90deg, rgba(139,105,20,0.06) 0%, transparent 40%);
+    color: #5c4f3c; border-left-color: #b8a070;
+}
+
+/* ===== BOTTOM NAVIGATION ===== */
+.bottom-nav {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-top: 4em; padding-top: 2em;
+    border-top: 1px solid var(--border);
+    position: relative;
+}
+.bottom-nav::before {
+    content: '\25C6';
+    position: absolute; top: -0.55em; left: 50%; transform: translateX(-50%);
+    color: var(--gold-pale); font-size: 9px; opacity: 0.45;
+    background: var(--bg); padding: 0 6px;
+}
+.bottom-nav a {
+    font-family: var(--font-display);
+    color: var(--gold); text-decoration: none;
+    letter-spacing: 0.06em; font-size: 0.85em;
+    padding: 0.3em 0;
+    transition: color 0.2s;
+}
+.bottom-nav a:hover { color: var(--gold-bright); }
+.bn-center {
+    color: var(--text-dim); font-family: var(--font-body);
+    font-style: italic; font-size: 0.83em;
+}
+
+/* ===== TOC OVERLAY ===== */
+#toc-overlay {
+    display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(6,4,2,0.97); z-index: 200;
+    overflow-y: auto; padding: 3em 1.5em;
+}
+#toc-overlay.open { display: block; }
+body.light #toc-overlay { background: rgba(245,240,232,0.97); }
+#toc-close {
+    position: fixed; top: 14px; right: 18px; z-index: 201;
+    background: none; border: 1px solid var(--border-gold); color: var(--gold);
+    cursor: pointer; font-size: 18px; width: 34px; height: 34px;
+    border-radius: 50%; display: flex; align-items: center; justify-content: center;
+}
+#toc-overlay h3 {
+    font-family: var(--font-decorative); color: var(--gold-bright);
+    text-align: center; font-size: 1.4em; margin-bottom: 1.5em;
+    letter-spacing: 0.12em;
+    text-shadow: 0 0 30px rgba(200,160,60,0.2);
+}
+.toc-inner { max-width: 480px; margin: 0 auto; }
+.toc-inner .toc-part {
+    font-family: var(--font-display); color: var(--gold);
+    font-size: 0.88em; margin: 1.3em 0 0.4em; letter-spacing: 0.08em;
+}
+.toc-inner .toc-ch { margin: 0.25em 0 0.25em 1.5em; font-size: 0.88em; }
+.toc-inner .toc-int { margin: 0.25em 0 0.25em 1.5em; font-size: 0.85em; font-style: italic; }
+.toc-inner a { color: var(--text); text-decoration: none; }
+.toc-inner a:hover { color: var(--gold-bright); }
+.toc-inner a.read { color: var(--text-dim); }
+.toc-inner a.current { color: var(--gold-bright); font-weight: 600; }
+.toc-inner .toc-int a { color: #b89060; }
+
+/* ===== LIGHT MODE ===== */
+body.light {
+    --bg: #f5f0e8; --surface: #ede4d6;
+    --text: #3d3428; --text-dim: #7a6e5e;
+    --gold: #8b6914; --gold-bright: #5a4010; --gold-pale: #9a7a2e;
+    --amber: #8b5a2b; --amber-deep: #6b3a10;
+    --border: #c4b8a4; --border-gold: #b8a070;
+}
+body.light .ch-title { text-shadow: none; }
+
+@media (max-width: 500px) {
+    body { font-size: 16px; }
+    #content { padding: 50px 0.8em 4em; }
+    .ch-title { font-size: 1.2em; }
+}
+@media print {
+    #topnav, #progress-bar, #toc-overlay, .frame-0, .frame-1, .frame-2, .frame-3 { display: none !important; }
+    body { background: white; color: black; font-size: 12pt; }
+}</style>
+</head>
+<body>
+<div class="noise"></div>
+<div class="ornament-frame">
+  <div class="orn-corn orn-tl"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="gf" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#c49a3c" stop-opacity="0.8"/><stop offset="100%" stop-color="#b07030" stop-opacity="0.3"/></linearGradient>
+  </defs>
+  <!-- outer corner bracket -->
+  <path d="M10 190 L190 190 L190 10" fill="none" stroke="#8a6820" stroke-width="1.2" opacity="0.5"/>
+  <path d="M15 190 L190 190 L190 15" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.35"/>
+  <!-- Gothic arch in corner -->
+  <path d="M40 190 Q40 40 100 30" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.3"/>
+  <!-- tracery diamonds -->
+  <path d="M25 180 L32 170 L39 180 L32 190 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.4"/>
+  <path d="M50 180 L57 170 L64 180 L57 190 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.3"/>
+  <!-- small celestial dots -->
+  <circle cx="80" cy="175" r="1" fill="#c49a3c" opacity="0.4"/>
+  <circle cx="95" cy="168" r="0.8" fill="#e0c878" opacity="0.3"/>
+  <circle cx="110" cy="172" r="1.2" fill="#c49a3c" opacity="0.35"/>
+  <!-- corner accent -->
+  <circle cx="190" cy="190" r="3" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="190" cy="190" r="1.2" fill="#e0c878" opacity="0.4"/>
+</svg></div>
+  <div class="orn-corn orn-tr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="gf" x1="1" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c49a3c" stop-opacity="0.8"/><stop offset="100%" stop-color="#b07030" stop-opacity="0.3"/></linearGradient>
+  </defs>
+  <path d="M190 190 L10 190 L10 10" fill="none" stroke="#8a6820" stroke-width="1.2" opacity="0.5"/>
+  <path d="M185 190 L10 190 L10 15" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.35"/>
+  <path d="M160 190 Q160 40 100 30" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.3"/>
+  <path d="M175 180 L168 170 L161 180 L168 190 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.4"/>
+  <path d="M150 180 L143 170 L136 180 L143 190 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.3"/>
+  <circle cx="120" cy="175" r="1" fill="#c49a3c" opacity="0.4"/>
+  <circle cx="105" cy="168" r="0.8" fill="#e0c878" opacity="0.3"/>
+  <circle cx="90" cy="172" r="1.2" fill="#c49a3c" opacity="0.35"/>
+  <circle cx="10" cy="190" r="3" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="10" cy="190" r="1.2" fill="#e0c878" opacity="0.4"/>
+</svg></div>
+  <div class="orn-corn orn-bl"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <path d="M10 10 L190 10 L190 190" fill="none" stroke="#8a6820" stroke-width="1.2" opacity="0.5"/>
+  <path d="M15 10 L190 10 L190 185" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.35"/>
+  <path d="M40 10 Q40 160 100 170" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.3"/>
+  <path d="M25 20 L32 30 L39 20 L32 10 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.4"/>
+  <circle cx="10" cy="10" r="3" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="10" cy="10" r="1.2" fill="#e0c878" opacity="0.4"/>
+</svg></div>
+  <div class="orn-corn orn-br"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <path d="M190 10 L10 10 L10 190" fill="none" stroke="#8a6820" stroke-width="1.2" opacity="0.5"/>
+  <path d="M185 10 L10 10 L10 185" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.35"/>
+  <path d="M160 10 Q160 160 100 170" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.3"/>
+  <path d="M175 20 L168 30 L161 20 L168 10 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.4"/>
+  <circle cx="190" cy="10" r="3" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="190" cy="10" r="1.2" fill="#e0c878" opacity="0.4"/>
+</svg></div>
+</div>
+<div id="progress-bar"></div>
+<div id="topnav">
+  <span class="tn-title">DEMIURGENT</span>
+  <div class="tn-btns">
+    <button class="nav-btn" id="theme-btn" onclick="toggleTheme()">◐</button>
+    <button class="nav-btn" onclick="toggleToc()">☷</button>
+    <a href="index.html" class="nav-btn">⌂</a>
+  </div>
+</div>
+<div id="toc-overlay"><button id="toc-close" onclick="toggleToc()">&times;</button><h3>Contents</h3><div class="toc-inner" id="toc-inner"></div></div>
+<div id="content">
+<div class="ch-header ">
+  <div class="ch-ornament-inner"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 50">
+  <!-- outer pillars -->
+  <rect x="60" y="20" width="1.5" height="30" fill="#c49a3c" opacity="0.45"/>
+  <rect x="238" y="20" width="1.5" height="30" fill="#c49a3c" opacity="0.45"/>
+  <!-- pointed arch -->
+  <path d="M60 25 Q150 0 240 25" fill="none" stroke="#c49a3c" stroke-width="1" opacity="0.5"/>
+  <!-- inner arch -->
+  <path d="M75 25 Q150 8 225 25" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.35"/>
+  <!-- tracery circle at apex -->
+  <circle cx="150" cy="14" r="6" fill="none" stroke="#e0c878" stroke-width="0.6" opacity="0.5"/>
+  <circle cx="150" cy="14" r="2" fill="#e0c878" opacity="0.4"/>
+  <!-- base line -->
+  <line x1="40" y1="48" x2="110" y2="48" stroke="#8a6820" stroke-width="0.6" opacity="0.35"/>
+  <line x1="190" y1="48" x2="260" y2="48" stroke="#8a6820" stroke-width="0.6" opacity="0.35"/>
+  <!-- center ornament -->
+  <path d="M140 46 L150 36 L160 46 L150 42 Z" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.5"/>
+  <circle cx="150" cy="48" r="1.5" fill="#c49a3c" opacity="0.4"/>
+</svg></div>
+  <div class="ch-part-label">Part Two — The Breaking</div>
+  <div class="ch-title">Chapter Sixteen — The Witness</div>
+</div>
+<p>By the fifth taper the telling had passed to her.</p>
+<p>That was the mechanism he had failed to predict and should have predicted first, because it was the clinic's own law wearing new clothes: the voice in the room does the work, and as the weight came back, the voice in the room was more and more her own. The early sessions had been him paying, alone, a taper at a time, reading her life back into her at candle speed. Now she paid with him, and then past him. She spoke in the low sleep state as the Mother turned, telling her own impressions as they rose, and each telling returned a little capacity, and each returned capacity told faster, and somewhere in the fourth session he had sat back from his instruments and watched the thing he had not dared hope for arrive on its own: the work catching, the way a fire past a certain heat stops needing the hand. He was no longer restoring her. He was tending a restoration that had begun to burn on its own draft.</p>
+<p>The fifth taper was lit in the last week of the thaw, with the fells running loud outside and the candle in her window standing trimmed and ready, and an hour in, her telling reached the chamber.</p>
+<p>He knew it by the change in her cadence. All evening her voice had moved through the warm strata, wax and soot and her grandmother's kitchen, the long patient sediment of a keeper's life. Then it leveled, and cooled, and began, in the exact flat register of a thing being read aloud, to give back the eighth hour of a winter morning: the chair, taken without being told to. The charges, unlicensed observance, maintenance of beacon fires, four consecutive winters. Her own voice saying <em>the Lamp. That is what they printed.</em> A level voice reading on, and the chalice, and the taste of nothing, and the word <em>warm</em>, said to no one, in a room kept at cellar temperature, and Aurelius sat in her firelight with the taper burning down in its socket and endured the entire session of her hollowing, played back through the instrument of her returning self, in order, complete, with the weight arriving line by line as she spoke, the weight he had watched leave her arriving back like a tide with a season's debt in it, and he did not stop the process, and he did not look away, because someone whose hands had built this should have to hear it, once, all the way, from the inside.</p>
+<p>Her telling crossed the last of it, the drawer, the dark, the eleven seconds.</p>
+<p>And on the far side, in the ordinary firelight of her own house, Thessine opened her eyes.</p>
+<hr />
+<p>The vigil was back in them. That was the first fact in the room. The old settled watchfulness of someone at a long watch in a cold place, entire, arrived, and pointed at him.</p>
+<p>Neither of them moved for a moment. The taper fluttered. Outside, meltwater ran in the lane.</p>
+<p>"How long since the chamber," she said.</p>
+<p>Her voice was her own, low, exact, a voice for saying things once. It was also not her own, not yet; the precision had come back before the warmth, and what spoke from the chair was the shape of her with the winter still in it, a voice like the fells in thaw, running clear over ground still frozen a hand's width down.</p>
+<p>"A season and a half."</p>
+<p>She took that and set it somewhere, visibly, the way she had once set a candle down. Her eyes went around the room, unhurried, cataloguing: the Mother on the table with her stone in its cradle, the field case, the instruments, the taper, the window, the candle in the window. Her own hands, which she turned over once, and studied, and reclaimed.</p>
+<p>"How many," she said.</p>
+<p>He did not pretend to misunderstand. "By my hand, one hundred and nine. By my art, four hundred and six."</p>
+<p>"Four hundred and six." She looked at the stone in the cradle, her own eleven years, glowing faintly with the taper's work. "Write them down."</p>
+<p>"I have them."</p>
+<p>"Not for you." The winter in her voice moved, one degree. "For them. A kept name is a kept soul. You of all men know what a list is. Begin one that serves."</p>
+<p>"It exists," he said. "It has since midwinter. In no hand but mine, in no place but one." And then, because she was owed it, and because his rules were his rules even now, especially now: "You should know the rest of what I know before you decide anything about me. It will take the evening."</p>
+<p>"It will take what it takes." She rose from the chair, steadying once against its arm, refusing with a look the half motion he made toward her, and crossed to her own hearth, and put wood to her own fire, the first freely willed act of her returned life, and stood with her back to him while it caught. "Say the whole of it, Magister. The chamber. The winter. The tea." The word came out with an edge honed all the way down its length. "I heard you, you understand. All season. Like a voice through a wall of ice. You told me the star's name back. You banked my fire, correctly, which surprised me. You washed the cups." She turned, and the firelight stood on a face that was fully hers and had no warmth yet to spend on him, might never have any to spend on him, and her eyes were the eyes from the ledger, from the vigil, from the long cold watch of her whole devoted life. "You also put it in the tea. Say all of it. Aloud. Once. I am owed the account, and you will render it."</p>
+<p>So he rendered it.</p>
+<p>He gave the account standing, in the register the chamber had taught him, level, complete, sparing nothing because sparing was a mercy and mercies from him to her were cancelled instruments: the session and his hands in it; the closure visit and the form falsified by truth; the warrant, the stolen stone, the drugged cup, the choice made over her sleeping body on the authority of two inches of gesture; the tapers; the words as they had returned; tonight. It took the evening, as promised. She heard it the way stone hears rain, without motion, and when it was done she was silent for a long time, and the fire ticked, and the meltwater ran.</p>
+<p>"The gesture," she said at last. "The reach at dusk. That was real? That stayed?"</p>
+<p>"Every evening. At the hour of candles."</p>
+<p>Something crossed her face then, the first thing that was not winter, and it was not directed at him and he made no claim on it. She looked at her own left hand. "My grandmother's mother taught her, and she taught me, at that shelf, at that hour," she said, and stopped, and the weight of it arrived, he watched it arrive, the reasons coming back slower than the names and hurting more, a whole ancestry of dusk hands reaching for tapers landing on her at once, and she gripped the chair's back and bowed her head and stood there while it broke over her, and he moved one step and she said, without looking up, in a voice gone to bedrock:</p>
+<p>"Do not."</p>
+<p>He did not. The fire burned. She wept the way she did everything, exactly, thoroughly, once, and when she raised her head the winter had closed back over it, and she was, he understood, never going to permit him to see that again, and had permitted it now only because her body had outvoted her, and she was already reorganizing her forces around the breach.</p>
+<p>"Understand me," Thessine said. "You will want this to be forgiveness, some late hour. Men who render honest accounts always do; the account starts to feel like payment. It is not payment. What you took cannot be returned; you have returned it; both of those are true, and they will go on being true, together, for as long as I live, and I will not resolve them for your comfort or mine." She came back to the chair and sat, upright, keeper straight, and took up her stone from the cradle and held it in both hands like a thing being weighed for market. "I am not grateful. I am restored. The two have nothing to do with each other, and the man who confuses them in my hearing will learn the difference." A pause, measured. "And I am staying."</p>
+<p>"The village believes you attuned. If you wake in front of them..."</p>
+<p>"I kept fires for eleven years under a censor's nose." The scorn in it was old and settled and almost restful. "I can keep an ember under ash. It is the oldest skill we have; the whole faith is that skill; your Chorus has never understood that what it sees of us has always been the banked layer." She set the stone down. "I will be the mild woman who sells candles at Ketle. I will reach for the shelf at dusk and let them pity me. And under it I will do the work, beginning with Brann's boy, who lights a good heart wrong on the wrong ledge, and who will learn the order now from the person whose office it is to teach him. Widdershins, from the cairn. Not because it is quaint, Magister. Because the order is the count, and the count is how a hill tells the next hill that its fire is tended and not wild. Eleven, hill to hill. A tended fire keeps time. A wild one only burns."</p>
+<p>Aurelius went very still.</p>
+<p>"Eleven," he said.</p>
+<p>"To the count. It has been eleven since before the Empire had a name for the mountains." She looked at him, and read him, the way she had read him across a ledger in another life, entirely, and her eyes narrowed a fraction, vigil sharpening. "Why."</p>
+<p>And so, because the evening had already broken every seal but this one, he told her the rest: the drawers, the four hundred and six, the kinship his own array had made, the pulse in the brass, the beat that led and the stones that answered, hill to hill, eleven seconds, in the cold, in the dark, under the whole blind weight of the tower.</p>
+<p>Thessine sat with her hands in her lap and listened, and as she listened her face did what he had watched no face do in all his years of the Concord, which was to move all the way through fear and past it into something that made the fear look small, something with wind in it, and high places, and the oldest arithmetic there was, and when he had finished she was quiet for the space of four seconds, which he counted, and then she said:</p>
+<p>"They are keeping the vigil. Four hundred and six of them, in your drawers, with no hands and no hills and no wax. Emptied, and they still hold the count." She stood. She went to her window, and looked at her own candle burning in it, and beyond it at the dark fells running with thaw, and when she spoke again it was not to him, and it was not cold at all, and it was the most frightening sentence of the entire winter, because it had joy in it:</p>
+<p>"Then the fire never went out. You only put it in boxes."</p>
+<hr />
+<p>He rode east at first light, and the finding he entered on the road was short, because the night had been long and the true entries were all hers now.</p>
+<p>The Empire had a cantus, and he was written into it somewhere in an unmarked hand. Let it stand. West of the tower, in a cottage at the end of a lane, there was a witness with a list of four hundred and six names being begun in a chandler's exact script, a teacher with her first pupil already chosen, and a woman at a window who had looked at the whole machinery of the age, the drawers, the array, the emptying, the theft of every fire on every hill, and had rendered, in one sentence, the only verdict the Rending's authors had never modeled and could not survive.</p>
+<p>The fire never went out. They had only put it in boxes.</p>
+<p>And every box, he thought, riding down out of the thaw with the case light behind him at last, every single box, was in one building. Filed. Kept at the temperature of the north. Waiting, eleven seconds at a time, for someone whose office it was to teach the order of the lighting.</p>
+<div class="bottom-nav"><a href="chapter-fifteen-the-waypost.html">&larr; Previous</a><span class="bn-center">20 of 40</span><a href="chapter-seventeen-the-rehearsal.html">Next &rarr;</a></div>
+</div>
+<script>
+var slugs=["epigraph", "chapter-one-the-mercy", "interlude-i-the-wrong-sky", "chapter-two-keeping-tune", "chapter-three-the-drawers", "chapter-four-the-papers", "interlude-ii-the-early-net", "chapter-five-the-table", "chapter-six-the-mews", "chapter-seven-the-quiet-hand", "chapter-eight-the-screens", "interlude-iii-the-gentling", "chapter-nine-the-attuned", "chapter-ten-the-held-breath", "chapter-eleven-the-mother", "chapter-twelve-the-taper", "chapter-thirteen-the-correction", "chapter-fourteen-the-sounding", "chapter-fifteen-the-waypost", "chapter-sixteen-the-witness", "chapter-seventeen-the-rehearsal", "chapter-eighteen-the-wardsill", "chapter-nineteen-the-manifest", "chapter-twenty-hill-to-hill", "interlude-iv-the-recruitment", "chapter-twenty-one-the-homecoming", "chapter-twenty-two-the-congregation", "chapter-twenty-three-the-year-of-tapers", "chapter-twenty-four-the-ash", "chapter-twenty-five-the-shadow", "chapter-twenty-six-the-cathedral", "chapter-twenty-seven-the-refusal", "chapter-twenty-eight-the-descent", "interlude-v-the-first-hollowing", "chapter-twenty-nine-the-threshold", "chapter-thirty-the-wild-fire", "chapter-thirty-one-the-severance", "chapter-thirty-two-the-tacet", "chapter-thirty-three-the-keeping-under", "chapter-thirty-four-the-relighting"],titles=["Epigraph", "Chapter One \u2014 The Mercy", "Interlude I \u2014 The Wrong Sky", "Chapter Two \u2014 Keeping Tune", "Chapter Three \u2014 The Drawers", "Chapter Four \u2014 The Papers", "Interlude II \u2014 The Early Net", "Chapter Five \u2014 The Table", "Chapter Six \u2014 The Mews", "Chapter Seven \u2014 The Quiet Hand", "Chapter Eight \u2014 The Screens", "Interlude III \u2014 The Gentling", "Chapter Nine \u2014 The Attuned", "Chapter Ten \u2014 The Held Breath", "Chapter Eleven \u2014 The Mother", "Chapter Twelve \u2014 The Taper", "Chapter Thirteen \u2014 The Correction", "Chapter Fourteen \u2014 The Sounding", "Chapter Fifteen \u2014 The Waypost", "Chapter Sixteen \u2014 The Witness", "Chapter Seventeen \u2014 The Rehearsal", "Chapter Eighteen \u2014 The Wardsill", "Chapter Nineteen \u2014 The Manifest", "Chapter Twenty \u2014 Hill to Hill", "Interlude IV \u2014 The Recruitment", "Chapter Twenty One \u2014 The Homecoming", "Chapter Twenty Two \u2014 The Congregation", "Chapter Twenty Three \u2014 The Year of Tapers", "Chapter Twenty Four \u2014 The Ash", "Chapter Twenty Five \u2014 The Shadow", "Chapter Twenty Six \u2014 The Cathedral", "Chapter Twenty Seven \u2014 The Refusal", "Chapter Twenty Eight \u2014 The Descent", "Interlude V \u2014 The First Hollowing", "Chapter Twenty Nine \u2014 The Threshold", "Chapter Thirty \u2014 The Wild Fire", "Chapter Thirty One \u2014 The Severance", "Chapter Thirty Two \u2014 The Tacet", "Chapter Thirty Three \u2014 The Keeping Under", "Chapter Thirty Four \u2014 The Relighting"],ints=[false, false, true, false, false, false, true, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false],current='chapter-sixteen-the-witness';
+var read=JSON.parse(localStorage.getItem('dg-read')||'{}');read[current]=true;
+localStorage.setItem('dg-read',JSON.stringify(read));localStorage.setItem('dg-last',current);
+function buildToc(){var h='';for(var i=0;i<slugs.length;i++){var c=ints[i]?'toc-int':'toc-ch',a='';if(slugs[i]===current)a='current';else if(read[slugs[i]])a='read';h+='<div class="'+c+'"><a href="'+slugs[i]+'.html" class="'+a+'">'+titles[i]+'</a></div>';}document.getElementById('toc-inner').innerHTML=h;}buildToc();
+function toggleToc(){document.getElementById('toc-overlay').classList.toggle('open');}document.getElementById('toc-overlay').addEventListener('click',function(e){if(e.target===this)this.classList.remove('open');});
+function toggleTheme(){document.body.classList.toggle('light');var l=document.body.classList.contains('light');localStorage.setItem('dg-theme',l?'light':'dark');document.getElementById('theme-btn').textContent=l?'◑':'◐';}
+if(localStorage.getItem('dg-theme')==='light'){document.body.classList.add('light');document.getElementById('theme-btn').textContent='◑';}
+window.addEventListener('scroll',function(){var p=window.scrollY||document.documentElement.scrollTop;var d=document.documentElement.scrollHeight-window.innerHeight;document.getElementById('progress-bar').style.width=d>0?Math.min((p/d)*100,100)+'%':'0';});
+document.addEventListener('keydown',function(e){if(e.key==='ArrowRight'&&'chapter-seventeen-the-rehearsal')window.location='chapter-seventeen-the-rehearsal.html';if(e.key==='ArrowLeft'&&'chapter-fifteen-the-waypost')window.location='chapter-fifteen-the-waypost.html';});
+var fs=parseInt(localStorage.getItem('dg-fs')||'18');document.body.style.fontSize=fs+'px';
+</script>
+</body></html>

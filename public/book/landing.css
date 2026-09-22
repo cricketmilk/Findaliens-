@@ -1,0 +1,162 @@
+/* ===== FONTS ===== */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* ===== RESET ===== */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+/* ===== NOISE TEXTURE ===== */
+body::after {
+    content: '';
+    position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 0;
+    pointer-events: none; opacity: 0.045;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size: 256px 256px;
+}
+
+/* Trove image frame decorations injected here */
+/* FRAME_CSS_PLACEHOLDER */
+
+:root {
+    --bg: #080604; --surface: #100c08;
+    --text: #b8a88c; --text-dim: #6e6454;
+    --gold: #c49a3c; --gold-bright: #e8d070;
+    --gold-pale: #d4b860;
+    --border-gold: #3a2c10;
+    --font-display: 'Cinzel', 'Georgia', serif;
+    --font-decorative: 'Cinzel Decorative', 'Cinzel', 'Georgia', serif;
+    --font-body: 'Crimson Text', 'Georgia', serif;
+}
+body {
+    font-family: var(--font-body);
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex; align-items: center; justify-content: center;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+/* ===== TOPBAR ===== */
+#topbar {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 99;
+    display: flex; justify-content: flex-end; gap: 6px;
+    padding: 0.5em 1em;
+}
+.tb-btn {
+    background: none; border: 1px solid var(--border-gold);
+    color: var(--text-dim); cursor: pointer;
+    padding: 3px 8px; border-radius: 2px;
+    font-family: var(--font-body); font-size: 11px;
+    transition: all 0.2s;
+}
+.tb-btn:hover { color: var(--gold); border-color: var(--gold); }
+
+/* ===== LANDING CONTAINER ===== */
+#landing {
+    position: relative; z-index: 1;
+    text-align: center;
+    padding: 3em 2em 2em;
+    max-width: 560px; width: 100%;
+}
+/* Subtle inner frame */
+#landing::before {
+    content: '';
+    position: absolute; top: 5px; left: 12px; right: 12px; bottom: 5px;
+    border: 1px solid var(--border-gold);
+    opacity: 0.3;
+    pointer-events: none;
+    border-radius: 1px;
+}
+
+/* ===== LOGO ===== */
+.logo-ornament {
+    display: block; margin: 0 auto;
+    opacity: 0.55;
+}
+.logo-title {
+    font-family: var(--font-decorative);
+    font-size: clamp(2.6em, 7vw, 4em);
+    font-weight: 900;
+    letter-spacing: 0.2em;
+    color: var(--gold-bright);
+    text-shadow: 0 0 90px rgba(200,160,60,0.3), 0 0 200px rgba(180,130,40,0.15), 0 3px 8px rgba(0,0,0,0.6);
+    line-height: 1.1;
+    margin: 0.4em 0;
+}
+.logo-epigraph {
+    font-style: italic;
+    font-size: 0.9em;
+    color: var(--text-dim);
+    margin: 1.2em 0 2.2em;
+    line-height: 1.7;
+}
+
+/* ===== TABLE OF CONTENTS ===== */
+#toc-section {
+    margin: 2em 0;
+    text-align: left;
+}
+.toc-header {
+    font-family: var(--font-decorative);
+    font-size: 1.1em; color: var(--gold-bright);
+    letter-spacing: 0.12em;
+    text-align: center;
+    margin-bottom: 1.6em;
+}
+.toc-part {
+    font-family: var(--font-display);
+    font-size: 0.88em; color: var(--gold);
+    letter-spacing: 0.08em;
+    margin: 1.1em 0 0.4em;
+}
+.toc-ch { margin: 0.22em 0 0.22em 1.5em; font-size: 0.88em; }
+.toc-int { margin: 0.22em 0 0.22em 1.5em; font-size: 0.85em; font-style: italic; }
+.toc-link { color: var(--text); text-decoration: none; transition: color 0.2s; }
+.toc-link:hover { color: var(--gold-bright); }
+.toc-link.read { color: var(--text-dim); }
+.toc-link.current { color: var(--gold-bright); font-weight: 600; }
+.toc-int .toc-link { color: #b89060; }
+
+/* ===== RESUME ===== */
+.resume-btn {
+    display: inline-block;
+    font-family: var(--font-display);
+    font-size: 0.9em;
+    color: var(--gold-bright);
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    border: 1px solid var(--border-gold);
+    padding: 0.7em 2em;
+    border-radius: 2px;
+    margin: 0.5em 0 2em;
+    transition: all 0.3s;
+}
+.resume-btn:hover {
+    background: rgba(200,160,60,0.1);
+    border-color: var(--gold);
+    text-shadow: 0 0 20px rgba(200,160,60,0.3);
+}
+#resume-note { font-size: 0.78em; color: var(--text-dim); font-style: italic; margin-bottom: 0.3em; }
+
+.landing-footer {
+    margin-top: 2.5em;
+    font-size: 0.72em;
+    color: var(--text-dim);
+    opacity: 0.45;
+    letter-spacing: 0.05em;
+}
+.landing-footer a { color: var(--text-dim); }
+
+/* ===== LIGHT MODE ===== */
+body.light {
+    --bg: #f5f0e8; --surface: #ede4d6;
+    --text: #3d3428; --text-dim: #7a6e5e;
+    --gold: #8b6914; --gold-bright: #5a4010; --gold-pale: #9a7a2e;
+    --border-gold: #b8a070;
+}
+body.light .logo-title { text-shadow: none; }
+
+@media (max-width: 500px) {
+    #landing { padding: 2em 1em; }
+    .logo-title { font-size: 2em; }
+}

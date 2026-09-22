@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chapter Twenty Three — The Year of Tapers — Demiurgent</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💎</text></svg>">
+<style>/* ===== FONTS ===== */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* ===== RESET ===== */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+/* ===== NOISE TEXTURE ===== */
+.noise {
+    position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 0;
+    pointer-events: none; opacity: 0.04;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size: 256px 256px;
+}
+body.light .noise { opacity: 0.025; }
+
+/* ===== ORNAMENTAL FRAME (SVG corners) ===== */
+.ornament-frame { position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 1; pointer-events: none; }
+.orn-corn { position: absolute; width: 160px; height: 160px; opacity: 0.5; }
+.orn-corn svg { width: 100%; height: 100%; }
+.orn-tl { top: 0; left: 0; }
+.orn-tr { top: 0; right: 0; }
+.orn-bl { bottom: 0; left: 0; }
+.orn-br { bottom: 0; right: 0; }
+
+/* FRAME_CSS_PLACEHOLDER */
+
+:root {
+    --bg: #080604;
+    --surface: #100c08;
+    --text: #b8a88c;
+    --text-dim: #6e6454;
+    --gold: #c49a3c;
+    --gold-bright: #e8d070;
+    --gold-pale: #d4b860;
+    --amber: #b07030;
+    --amber-deep: #8b5020;
+    --border: #282018;
+    --border-gold: #3a2c10;
+    --font-display: 'Cinzel', 'Georgia', serif;
+    --font-decorative: 'Cinzel Decorative', 'Cinzel', 'Georgia', serif;
+    --font-body: 'Crimson Text', 'Georgia', serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-body);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.8;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar{width:6px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:var(--border-gold);border-radius:3px}
+
+/* ===== READING PROGRESS BAR ===== */
+#progress-bar {
+    position: fixed; top: 0; left: 0; height: 2px;
+    background: linear-gradient(90deg, var(--amber-deep), var(--gold), var(--gold-bright));
+    z-index: 101;
+}
+
+/* ===== TOP NAVIGATION ===== */
+#topnav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    background: rgba(8,6,4,0.93);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid var(--border-gold);
+    padding: 0 1em; height: 40px;
+    display: flex; align-items: center; justify-content: space-between;
+    font-size: 11px; color: var(--text-dim);
+}
+body.light #topnav { background: rgba(245,240,232,0.93); }
+.tn-title {
+    font-family: var(--font-display);
+    letter-spacing: 0.1em;
+    color: var(--gold-pale);
+    font-size: 10px;
+}
+.tn-btns { display: flex; gap: 6px; align-items: center; }
+#topnav a { color: var(--text-dim); text-decoration: none; transition: color 0.2s; }
+#topnav a:hover { color: var(--gold); }
+
+.nav-btn {
+    background: none; border: 1px solid var(--border);
+    color: var(--text-dim); cursor: pointer;
+    padding: 3px 8px; border-radius: 2px;
+    font-family: var(--font-body); font-size: 11px;
+    transition: all 0.2s;
+}
+.nav-btn:hover { color: var(--gold); border-color: var(--gold); }
+
+/* ===== CONTENT AREA ===== */
+#content {
+    max-width: 660px;
+    margin: 0 auto;
+    padding: 60px 1.5em 5em;
+    position: relative; z-index: 1;
+}
+
+/* ===== ORNAMENTAL CHAPTER HEADER ===== */
+.ch-header {
+    text-align: center;
+    margin-bottom: 3em;
+    padding-top: 0.5em;
+}
+.ch-ornament-inner {
+    max-width: 300px;
+    margin: 0 auto 1em;
+    opacity: 0.55;
+}
+.ch-ornament-inner svg {
+    width: 100%;
+    height: auto;
+}
+.ch-part-label {
+    font-family: var(--font-display);
+    font-size: 0.8em; color: var(--gold);
+    letter-spacing: 0.15em;
+    margin-bottom: 0.3em;
+    text-transform: uppercase;
+}
+.ch-title {
+    font-family: var(--font-decorative);
+    font-size: 1.45em; font-weight: 700; color: var(--gold-bright);
+    letter-spacing: 0.08em; line-height: 1.3;
+    text-shadow: 0 0 40px rgba(200,160,60,0.2);
+}
+.ch-interlude .ch-title {
+    font-style: italic; color: #b89060;
+    font-family: var(--font-display);
+}
+.ch-interlude .ch-header::before { opacity: 0.3; }
+
+/* Ornamental rule after chapter title */
+.ch-header::after {
+    content: '';
+    display: block;
+    width: 180px; height: 12px;
+    margin: 1em auto 0;
+    background:
+        linear-gradient(var(--border-gold), var(--border-gold)) 0 50% / 40px 1px no-repeat,
+        radial-gradient(circle 2px, var(--gold) 50%, transparent 50%) 65px 50% / 6px 6px no-repeat,
+        radial-gradient(circle 1.2px, var(--gold-pale) 50%, transparent 50%) 90px 50% / 4px 4px no-repeat,
+        linear-gradient(var(--border-gold), var(--border-gold)) 140px 50% / 40px 1px no-repeat;
+    opacity: 0.35;
+}
+
+/* ===== PROSE ===== */
+p { margin: 0 0 1.1em; }
+em { color: #d4b860; font-style: italic; }
+strong { color: #e0c878; font-weight: 600; }
+blockquote {
+    border-left: 3px solid #3d2c10;
+    padding: 0.5em 1.2em;
+    margin: 1.8em 0;
+    font-style: italic; color: #a8987c;
+    background: linear-gradient(90deg, rgba(180,140,60,0.04) 0%, transparent 40%);
+}
+body.light blockquote {
+    background: linear-gradient(90deg, rgba(139,105,20,0.06) 0%, transparent 40%);
+    color: #5c4f3c; border-left-color: #b8a070;
+}
+
+/* ===== BOTTOM NAVIGATION ===== */
+.bottom-nav {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-top: 4em; padding-top: 2em;
+    border-top: 1px solid var(--border);
+    position: relative;
+}
+.bottom-nav::before {
+    content: '\25C6';
+    position: absolute; top: -0.55em; left: 50%; transform: translateX(-50%);
+    color: var(--gold-pale); font-size: 9px; opacity: 0.45;
+    background: var(--bg); padding: 0 6px;
+}
+.bottom-nav a {
+    font-family: var(--font-display);
+    color: var(--gold); text-decoration: none;
+    letter-spacing: 0.06em; font-size: 0.85em;
+    padding: 0.3em 0;
+    transition: color 0.2s;
+}
+.bottom-nav a:hover { color: var(--gold-bright); }
+.bn-center {
+    color: var(--text-dim); font-family: var(--font-body);
+    font-style: italic; font-size: 0.83em;
+}
+
+/* ===== TOC OVERLAY ===== */
+#toc-overlay {
+    display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(6,4,2,0.97); z-index: 200;
+    overflow-y: auto; padding: 3em 1.5em;
+}
+#toc-overlay.open { display: block; }
+body.light #toc-overlay { background: rgba(245,240,232,0.97); }
+#toc-close {
+    position: fixed; top: 14px; right: 18px; z-index: 201;
+    background: none; border: 1px solid var(--border-gold); color: var(--gold);
+    cursor: pointer; font-size: 18px; width: 34px; height: 34px;
+    border-radius: 50%; display: flex; align-items: center; justify-content: center;
+}
+#toc-overlay h3 {
+    font-family: var(--font-decorative); color: var(--gold-bright);
+    text-align: center; font-size: 1.4em; margin-bottom: 1.5em;
+    letter-spacing: 0.12em;
+    text-shadow: 0 0 30px rgba(200,160,60,0.2);
+}
+.toc-inner { max-width: 480px; margin: 0 auto; }
+.toc-inner .toc-part {
+    font-family: var(--font-display); color: var(--gold);
+    font-size: 0.88em; margin: 1.3em 0 0.4em; letter-spacing: 0.08em;
+}
+.toc-inner .toc-ch { margin: 0.25em 0 0.25em 1.5em; font-size: 0.88em; }
+.toc-inner .toc-int { margin: 0.25em 0 0.25em 1.5em; font-size: 0.85em; font-style: italic; }
+.toc-inner a { color: var(--text); text-decoration: none; }
+.toc-inner a:hover { color: var(--gold-bright); }
+.toc-inner a.read { color: var(--text-dim); }
+.toc-inner a.current { color: var(--gold-bright); font-weight: 600; }
+.toc-inner .toc-int a { color: #b89060; }
+
+/* ===== LIGHT MODE ===== */
+body.light {
+    --bg: #f5f0e8; --surface: #ede4d6;
+    --text: #3d3428; --text-dim: #7a6e5e;
+    --gold: #8b6914; --gold-bright: #5a4010; --gold-pale: #9a7a2e;
+    --amber: #8b5a2b; --amber-deep: #6b3a10;
+    --border: #c4b8a4; --border-gold: #b8a070;
+}
+body.light .ch-title { text-shadow: none; }
+
+@media (max-width: 500px) {
+    body { font-size: 16px; }
+    #content { padding: 50px 0.8em 4em; }
+    .ch-title { font-size: 1.2em; }
+}
+@media print {
+    #topnav, #progress-bar, #toc-overlay, .frame-0, .frame-1, .frame-2, .frame-3 { display: none !important; }
+    body { background: white; color: black; font-size: 12pt; }
+}</style>
+</head>
+<body>
+<div class="noise"></div>
+<div class="ornament-frame">
+  <div class="orn-corn orn-tl"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="gf" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#c49a3c" stop-opacity="0.8"/><stop offset="100%" stop-color="#b07030" stop-opacity="0.3"/></linearGradient>
+  </defs>
+  <!-- outer corner bracket -->
+  <path d="M10 190 L190 190 L190 10" fill="none" stroke="#8a6820" stroke-width="1.2" opacity="0.5"/>
+  <path d="M15 190 L190 190 L190 15" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.35"/>
+  <!-- Gothic arch in corner -->
+  <path d="M40 190 Q40 40 100 30" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.3"/>
+  <!-- tracery diamonds -->
+  <path d="M25 180 L32 170 L39 180 L32 190 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.4"/>
+  <path d="M50 180 L57 170 L64 180 L57 190 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.3"/>
+  <!-- small celestial dots -->
+  <circle cx="80" cy="175" r="1" fill="#c49a3c" opacity="0.4"/>
+  <circle cx="95" cy="168" r="0.8" fill="#e0c878" opacity="0.3"/>
+  <circle cx="110" cy="172" r="1.2" fill="#c49a3c" opacity="0.35"/>
+  <!-- corner accent -->
+  <circle cx="190" cy="190" r="3" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="190" cy="190" r="1.2" fill="#e0c878" opacity="0.4"/>
+</svg></div>
+  <div class="orn-corn orn-tr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="gf" x1="1" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c49a3c" stop-opacity="0.8"/><stop offset="100%" stop-color="#b07030" stop-opacity="0.3"/></linearGradient>
+  </defs>
+  <path d="M190 190 L10 190 L10 10" fill="none" stroke="#8a6820" stroke-width="1.2" opacity="0.5"/>
+  <path d="M185 190 L10 190 L10 15" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.35"/>
+  <path d="M160 190 Q160 40 100 30" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.3"/>
+  <path d="M175 180 L168 170 L161 180 L168 190 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.4"/>
+  <path d="M150 180 L143 170 L136 180 L143 190 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.3"/>
+  <circle cx="120" cy="175" r="1" fill="#c49a3c" opacity="0.4"/>
+  <circle cx="105" cy="168" r="0.8" fill="#e0c878" opacity="0.3"/>
+  <circle cx="90" cy="172" r="1.2" fill="#c49a3c" opacity="0.35"/>
+  <circle cx="10" cy="190" r="3" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="10" cy="190" r="1.2" fill="#e0c878" opacity="0.4"/>
+</svg></div>
+  <div class="orn-corn orn-bl"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <path d="M10 10 L190 10 L190 190" fill="none" stroke="#8a6820" stroke-width="1.2" opacity="0.5"/>
+  <path d="M15 10 L190 10 L190 185" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.35"/>
+  <path d="M40 10 Q40 160 100 170" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.3"/>
+  <path d="M25 20 L32 30 L39 20 L32 10 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.4"/>
+  <circle cx="10" cy="10" r="3" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="10" cy="10" r="1.2" fill="#e0c878" opacity="0.4"/>
+</svg></div>
+  <div class="orn-corn orn-br"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <path d="M190 10 L10 10 L10 190" fill="none" stroke="#8a6820" stroke-width="1.2" opacity="0.5"/>
+  <path d="M185 10 L10 10 L10 185" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.35"/>
+  <path d="M160 10 Q160 160 100 170" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.3"/>
+  <path d="M175 20 L168 30 L161 20 L168 10 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.4"/>
+  <circle cx="190" cy="10" r="3" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="190" cy="10" r="1.2" fill="#e0c878" opacity="0.4"/>
+</svg></div>
+</div>
+<div id="progress-bar"></div>
+<div id="topnav">
+  <span class="tn-title">DEMIURGENT</span>
+  <div class="tn-btns">
+    <button class="nav-btn" id="theme-btn" onclick="toggleTheme()">◐</button>
+    <button class="nav-btn" onclick="toggleToc()">☷</button>
+    <a href="index.html" class="nav-btn">⌂</a>
+  </div>
+</div>
+<div id="toc-overlay"><button id="toc-close" onclick="toggleToc()">&times;</button><h3>Contents</h3><div class="toc-inner" id="toc-inner"></div></div>
+<div id="content">
+<div class="ch-header ">
+  <div class="ch-ornament-inner"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 50">
+  <!-- outer pillars -->
+  <rect x="60" y="20" width="1.5" height="30" fill="#c49a3c" opacity="0.45"/>
+  <rect x="238" y="20" width="1.5" height="30" fill="#c49a3c" opacity="0.45"/>
+  <!-- pointed arch -->
+  <path d="M60 25 Q150 0 240 25" fill="none" stroke="#c49a3c" stroke-width="1" opacity="0.5"/>
+  <!-- inner arch -->
+  <path d="M75 25 Q150 8 225 25" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.35"/>
+  <!-- tracery circle at apex -->
+  <circle cx="150" cy="14" r="6" fill="none" stroke="#e0c878" stroke-width="0.6" opacity="0.5"/>
+  <circle cx="150" cy="14" r="2" fill="#e0c878" opacity="0.4"/>
+  <!-- base line -->
+  <line x1="40" y1="48" x2="110" y2="48" stroke="#8a6820" stroke-width="0.6" opacity="0.35"/>
+  <line x1="190" y1="48" x2="260" y2="48" stroke="#8a6820" stroke-width="0.6" opacity="0.35"/>
+  <!-- center ornament -->
+  <path d="M140 46 L150 36 L160 46 L150 42 Z" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.5"/>
+  <circle cx="150" cy="48" r="1.5" fill="#c49a3c" opacity="0.4"/>
+</svg></div>
+  <div class="ch-part-label">Part Two — The Breaking</div>
+  <div class="ch-title">Chapter Twenty Three — The Year of Tapers</div>
+</div>
+<p>The last year moved the way the moor said hard years moved: not fast, not slow, but downhill.</p>
+<p>In the spring the circuit began. Ninety one names, village by village, the Empire's returned attuned in their lanes with the iron over the neighbors' lintels, and to each of them, over the long light evenings, by one rider or another, came a visitor with a mild pretext and a field case: a wax merchant confirming orders, a physician on a district round, a small fierce woman buying fleeces with a grey dog waiting in the birches that was not a dog. The wardsill went in by taper light, in kitchens that smelled of other people's beeswax, three cloudy drops and a ring of iron and the count said low, and the visitors left no mark and took no payment and were not remembered clearly, and behind them, one a night, two on the good weeks, the emptied houses of the Concord got their doorsteps back.</p>
+<p>They had designed it as armor and nothing else. Ninety one full restorations were arithmetic no year could hold; the wardsill was meant only to shut the Rending out; and by midsummer the web began carrying back reports the design had never promised. A weaver in the Third, attuned four years, asked her sister without prompting for a song their mother had sung at the loom. A saddler on the Vessen road hung his own iron back over his own door, and could not say why, and wept without knowing why, and felt better after, his wife said, than he had in years. The doorstep remembered the house. Aurelius read the reports in the undermews by lamplight, and entered the finding with hands that were not quite steady: the archive's kin were reaching their living siblings, eleven by eleven, through whatever country resonance crossed, and a wardsill, once seated, did not merely defend. It invited. The vessels were not filling. They were, at their own pace, in their own order, remembering that they were houses.</p>
+<p>He rode three of the circuits himself, because some debts wanted the debtor's own hands. On the third, in a fold of the southern hills, a provost patrol came through the village at dusk with a list, and he stood in a chandler's back room for two hours with the taper cold and a saddler's family talking weather in the front, and heard, through the wall, the boy's year of work earn its keep: the patrol had names, and the names were three seasons stale, and the house they wanted watched had been empty since the equinox, because a list that lived in two heads had walked its people out ahead of the list that lived in the halls. The patrol rode on. The taper was relit. The work resumed at the pace of the lighting.</p>
+<hr />
+<p>Veyra found him in the autumn, in a vestry in a Serrat hill town, after a Cadence vigil that had left the district weeping in threes.</p>
+<p>She had toured the vigils all year, the Chorus's own voice carried province to province to sing the Empire toward its ending, and she looked, up close, like a woman who had spent the year being spent: thinner, brighter eyed, the tinctures pushed past their économies. But her stillness had changed sides. It was not the performer's stillness now. It was the other kind, the counter's kind, and she came to the point the way she had come to it in the gallery, with two seconds' worth of cover and no waste.</p>
+<p>"I found the account," she said, and then it came out of her fast and thin and scalding. "Nine years back. A counting house in Corvara. My tavern debt gone in a week, and I never asked, that is the part I cannot get past now, a girl gets her miracle and knows better than to look at it, and I knew, of course I knew, knowing and asking are different trades. Every payment since. I know whose office signs it. I sang for that office tonight. I will go on singing for it until the night itself, so." The stage stillness came back down over her like a lid on a boiling pot, not quite fitting anymore. "Tell me what I am actually for."</p>
+<p>He told her the shape of it, the part her hands needed: that on the night, the Empire's every basin and crier and square would carry one voice before any other, hers, because the office that owned her had built it so; and that what she sang in the first minutes after the dark came down would reach further than any instrument the resistance would ever own.</p>
+<p>"Then I will need songs." She said it flatly, and then she did the thing he had not planned for, and it was the year's one perfect gift: from under her cloak she took a sewn book, thick, travel worn, and set it in his hands. "Ninety settings. All year I have been taking them down, village by village, after the vigils, from the grandmothers who stay when the hall empties, and they always stay, you would not believe what stays in a hall after the young have gone home to their suppers. The real ones. I used to sand these smooth for market, you know. I was paid for the sanding." Her jaw set, fen stubborn, exactly as it had set over the Milk Star in an amber room she had never seen. "They gave me every district in the Concord and a warrant to make people sing. Someone should have checked what."</p>
+<p>She did not leave. The vestry emptied around them, the last of the vigil's seeded grief trailing out the doors in its metronomic threes, and Veyra stood at the narrow window with her back to him, looking out at the Serrat dark.</p>
+<p>"There is a second account," she said.</p>
+<p>Her voice had gone flat, the offstage voice, the one the broadsheets never heard. She was counting something by the window, he could see her eyes tracking, the old habit, house sizes or applause lengths or the seconds before a crowd stands. What she was counting now, in the dark beyond the glass, he could not tell.</p>
+<p>"I found it the month after Corvara. I did not tell you. I have not told anyone." She turned, and the fen was in her face, the real face, the one she had been sanding off for market since she was a girl. "They want me Attuned."</p>
+<p>Aurelius went still.</p>
+<p>"Not Vex. His office. A different annex. I was not meant to find it. I read everything written about myself, Magister, it is the one vanity I have never been able to cure, and it is the one that will save me, which is the joke." Her jaw set. "The Cadence vigils run to midwinter. On the night after the eclipse, win or lose, there is to be a final performance. A broadcast. The most heard voice in the Empire, singing the rest between verses, and then." She stopped. "And then the rest."</p>
+<p>He understood. He understood the whole shape of it, and the understanding came with a nausea he had learned at Ignis's table and never since unlearned. Veyra Serrat, the borrowed face, the Empire's most beloved, Attuned live on every channel in the Concord, and the Attunement presented as ascension: the singer who gave her voice to the Song, who entered the rest between verses willingly, who chose the peace that was never a choice. The Chorus's final advertisement, and the advertisement would be the Chorus's kindness, and the kindness would be the Chorus's proof. See how she smiles. See how serene. See how the worthy welcome the ending.</p>
+<p>"They have been dosing me for years," Veyra said. "The tinctures. The sleepless draughts. The brightening. I thought I was buying a career. I was buying a room they could walk into whenever they needed it. The assessments are in my file. I read them. I am an easy room, Magister. The easiest. I have been softening myself for them since I was seventeen."</p>
+<p>She said it the way she said everything offstage, flat and economical, and the flatness was the horror, because she was not asking for anything. She was rendering an account to the one person in the Concord who would understand that an account was not a cry for help. It was a finding.</p>
+<p>"How long," he said.</p>
+<p>"If I stop the tinctures now, I am too thin to sing the night. My upper register goes first; it is already going; the brightening masks it. If I keep them, I sing the night, and the night finishes the thinning, and a week after the eclipse I am the advertisement whether anyone arranged it or not." She looked at him with her counter's eyes, fen grey and tired and very quick. "I have run the arithmetic a hundred times. There is no dose that gets me past midwinter with a voice. There is the voice, or there is me. Not both."</p>
+<p>Outside, a cart moved on the Serrat road, hoofbeats going away into the dark of a province that did not know it had six months left to kneel. The vestry smelled of old wax and other people's grief.</p>
+<p>"The book," Aurelius said. "The ninety settings. You have been collecting them all year."</p>
+<p>"Yes."</p>
+<p>"You knew. Before you walked in here tonight. You knew what you were collecting them for."</p>
+<p>"I knew I was collecting them for someone." The fen accent came up in her voice, one vowel, wet and flat, a country the stage had never once been permitted to hear. "I did not know if it would be me who sang them. I wanted them to exist regardless. I wanted one thing I had done to exist regardless."</p>
+<p>He waited. He had spent a year learning to wait, at a kitchen table in the west, in the amber room at the mews, on the stairs outside a provost's office while a boy was interviewed. Waiting was the work now. Waiting was how you let a person walk through the arithmetic and come out the far side owning the sum.</p>
+<p>"My grandmother," Veyra said. She was at the window again, back to him, and her voice had gone into a register he had never heard from her, lower than the stage, rougher than the counting. "She knew. The year before I left for Corvara, the year the patron first wrote, she sat me down in the boat shed and said: they will give you a name that is not yours, and a voice that is not yours, and songs that are not yours, and you will take all three because you are sixteen and the fens are small and the world is large and I am not going to stop you. But you will keep the ones I gave you. Not in your throat. Under your throat. Where the censors cannot reach and the patrons cannot price and the tinctures cannot thin. You will keep them there, and one day, one day, you will need them. And you will know the day. And you will sing them. Once. And that will be enough."</p>
+<p>She turned from the window. The stage stillness was gone. The counter's stillness was gone. What was left was Liss of the Shallows, thirty three years old, boatwoman's hands at her sides, wearing a singer's face like a dress that had never quite fit.</p>
+<p>"I am going to sing them on the night," she said. "The uncleaned ones. The ones with no soloist anywhere in them. While the dark is on and the Empire is kneeling and every channel in the Concord is mine. I am going to sing the fen songs once, at full draw, and then I am going to stop, and the stopping will be the last note, and whatever the tinctures take after that, they take from a voice that said the one thing it was kept to say."</p>
+<p>He did not tell her the odds. He had learned, from a chandler in the west, that you do not tell a person the odds when the odds are not what they are choosing against. She was choosing against the advertisement. Against the serene hollow face on every channel. Against the woman who had sanded her grandmother's songs down to nothing and called the nothing pretty. She was choosing to be, at the end, one song that no one had paid for.</p>
+<p>"The office that owns you," he said. "They will know. The moment you deviate from the setting. They will cut the channel."</p>
+<p>"They will try." The fen accent was still there, under the flatness now, settled in for the duration. "Vex's architecture is total. He controls every basin, every crier post, every routing rule. And I have watched him for nine years, Magister, from the stage, from the receiving lines, from the wine. He is a man who has worn a mask so long he no longer knows the underside. And he is a coward, and he knows it, and the knowledge makes him louder." She paused. "And he is in love with me. Has been since the first season. Has never once said so. Has never once touched me. Has spent nine years buying me audiences and feuds and luck and has never once, in all that time, asked for anything in return except that I exist where he can watch me. That is the account under the account. That is the payment he has been taking. And on the night, when I open my mouth and the fen comes out, he will have approximately four seconds to decide whether to cut the channel on the only voice he has ever loved, in front of the whole dying world, or to let it run. And I do not know what he will do. Neither does he. That is the one thing I have that they do not. They do not know what Darian Vex will do when the moment comes, because Darian Vex does not know, and I am betting my voice on the crack."</p>
+<p>Aurelius filed it, in the pocket where he kept the age's strangest instruments: the borrowed face had found the crack in the showman's armor, and the crack was the one thing the cantus had no annex for, because the cantus assumed everyone could be priced, and the showman's price had been, all along, something he could not bring himself to name.</p>
+<p>"Four seconds is enough," Veyra said. "I have timed it. Four seconds of the fen at full draw, and everyone in the Concord who has ever heard their grandmother sing will know what they are hearing. They will not know they know. But the knowing will be in them, under the kneeling, under the fear, and the cantus cannot dose against a memory it did not plant."</p>
+<p>She gathered her cloak. At the door she stopped, and turned, and the mask was back but it was different now, it was chosen, it was a tool she was picking up because the work wanted it and not because she had forgotten how to put it down.</p>
+<p>"My grandmother's name was Lissa," she said. "For the record. She was a boatwoman on the Greyfens, and she taught me the milk song and the threshold verse and the true star names, and when I had sanded them all for Corvara she never once reproached me. She only said: the old songs keep. They are patient. They will wait until you are ready. And then she died, and I was in the south, singing someone else's setting for a fee, and I did not make the funeral. So I will make the night. That is the whole of my reason, Magister. It has nothing to do with the resistance. I am singing my grandmother's songs once because they are hers, and because I am tired of sanding, and because the right way existed, and I am owed. The rest is arithmetic."</p>
+<p>He inclined his head. He had seen that face before, across a ledger, in a cold chamber, two winters ago. A woman correcting a star's name. Not because the error was outrageous. Because the right way existed. And it was owed.</p>
+<hr />
+<p>The cantus came to him in high summer, between the circuits, in a package with no sender that smelled faintly, absurdly, of velvet.</p>
+<p>It was a fair copy of the casting annex, and he read it at his bench in one sitting, his own biography rendered as prophecy in the Chorus's liturgical hand: the deceiver from beyond the Veil, maker of soul weapons, corruptor of Knights, gathering fire cults against the Song at the hour of its fulfillment, to be unveiled before the peoples and cast down by the breath of the Song, that the One Who Carries might be known. Every fact true. Every weight false. His life, distilled by the enemy's own art to its most useful wrongness, and he sat with it a long time, feeling the strange calm of a man who finally holds in his hands the exact shape of the oncoming weather.</p>
+<p>There was one line enclosed, unsigned, in a hand that managed to swagger lying down:</p>
+<p><em>They have chosen. Mind the second act. We never stinted the corpse.</em></p>
+<p>He took the annex west on the next circuit, and Thessine read it at her table, entire, twice, and set it down, and delivered, level as a wick trimmed to burn the whole night, the strategic doctrine of the resistance, the sentence he would carry into the dark of the coming winter like a taper in oilcloth:</p>
+<p>"They have written you a part with two exits, villain and martyr, and both doors open onto their stage." She tapped the annex once. "So you will not play. Hear me, Magister. On the night, you do not fight this story and you do not flee it, because fighting it is in it and fleeing it is in it. You stand where they point and you do the one thing their scripture has no line for." Her eyes went to the field case, to the green glass throat of the Mother in its wrappings, and the vigil in them burned down to its coal. "Their whole book is emptying and filling. Every part in it empties or fills. So you will repair. In the open. Before every collar in the Concord. Give something back, where the whole world can see it done, and their cantus will stand there with its mouth open, because giving back is the one act it cannot cast, in the one grammar it does not know. Be what the story cannot use, and the story will break on you."</p>
+<p>The Far Shore rose with the autumn vigils, and it rose everywhere at once, the way only one channel could raise a thing: the Founder, glyph and grin on every crier post, announcing that the opened Veil would want settlers, that his engines would carry the worthy across to a clean new world, that berths could be secured now, against the eclipse, in three tiers. And the Empire, drilled for a year to believe the verse was ending, queued to buy passage out of it. The wick web read the other half. Carters' wives on the southern roads reported array freight moving the wrong way all autumn, hardware invoiced for the hilltop stations arriving instead at the Founder's coastal compound, wagonload after wagonload, and Thessine sent the tally east with one dry line worked into the bands: the man selling the flood is building his own ark, and he is building it out of the pumps. One page of the sheaf fit neither the ark nor the stations: perch iron, weathering glass, jess leather in bulk, mews fittings by any handler's reckoning, consigned north across the autumn to a valley that was not the valley. Thessine marked the page unplaced. It stayed unplaced.</p>
+<p>Old Cade died at the first frost, on her own hill, in her own bed, with the wick bands for the great night already sorted into baskets by her door. They buried her in the moor way, and Aurelius, standing at the graveside among shepherds, watched them lay an iron box in beside her, a banked coal under ash, for the crossing, for the dark, and stood very still, because he had seen the custom once before: in a niche, under the world, beside the small skull of a person no record named, at the root of the tower the Chorus had driven into the greatest high place in the world without once bending down to look. The bone galleries were not a mystery. They were the congregation's oldest pews. The people of the mountain had been banking their fires against the dark since before the Empire had a name to forget, and the Needle stood on top of five thousand years of carried coals, and did not know it, and had never once asked.</p>
+<p>Moss went in the same season, in the ward, facing east. Bond stable, said the final review, in Aurelius's own hand, and for once the false line and the true one pointed the same direction, because whatever the graying had left of Moss at the end, it had been at peace, and the honor board got his name, and he kept the rest.</p>
+<hr />
+<p>The Memorandum came up out of the world's cellar at the first snow, and it came because the Chorus threw nothing away.</p>
+<p>He had known the sentence for years. He had met it young, in a paper he had never been meant to see, and met it again behind the blood lock, promoted to a load bearing finding, and all that year, riding the circuits, watching the vigils empty whole districts into weeping, he had turned the question of where a sentence like that is born. The registers said the answer was destroyed. The registers of the Recording House listed one document, older than the charter, older than the oldest recovered verse, as burned in the charter's first year, by order, witnessed. But he had stood in the deep levels of the archive. He had seen the trays. The Chorus was constitutionally incapable of destruction; it could only file; and on the fourth night of searching the oldest strong room, in the first cipher the Recording House had ever used, he found the burning's own record, and filed behind it, complete, catalogued as its own death certificate, the thing itself.</p>
+<p>The Plainsong Memorandum. The One Song, specified, before a single hymn of it was composed.</p>
+<p>He read it at his bench with the lamp shaded, in the cipher his trade had kept alive for auditing the dead, and it was the worst reading of his life, worse than the Rending papers, because the Rending papers had described the murder of a world and this described the building of the victim. The debt, first: every child born owing a note it cannot pay, assigned at birth, collectible forever, and the mechanism stated without decoration in the drafting hand: <em>a debtor kneels before he is asked.</em> The Ear that hears all, hearing even the note before the throat shapes it, so that privacy was abolished in doctrine centuries before any collar abolished it in brass, and the listening, when it finally came, would surprise no one; it would feel like confirmation. The Silenced Singer, who gathered the choir's dissonance into his own voice and consented to be unmade, submission modeled at the highest register, and the debt doubled by gratitude, and the return prophesied from the first hymnal, so that a stranger arriving forty generations later would arrive as a collection. The unsung dead, erased rather than punished, no note of them carrying, and he sat very still over that clause, because he knew the shape of it professionally: it was the hollowing, promised as afterlife, written before the art existed. The theology and the weapon were the same shape. They had always been the same shape. His discipline had not corrupted the faith. It had been commissioned by it.</p>
+<p>The recensions' oldest margins had kept a word for what the halls had made of themselves, and the printed editions had struck it: the small maker, the lesser craftsman who builds a world inside the world, and seals it, and rules his bench, and calls the bench creation. The halls had deleted the word wherever it stood. Then they had become it.</p>
+<p>Blessed are the quiet notes. The values of the strong entered as vices, the deprivations of the weak consecrated as virtues, and the drafting hand, plain as a bill of lading: <em>let the strong be suspect and the meek be flattered, and no one will organize.</em> The Tuning, weekly, each believer speaking their dissonance aloud to a Voice, absolution as a subscription that never clears, and the harvest noted in the margin like a yield: a population trained for generations to volunteer its interior life to an institutional listener, wanting only, someday, an instrument. The raw voice and the tuned voice, every believer taught to be two selves at war, and the war unwinnable by design, and the design's name for it, in the coldest phrase in the document: <em>the interior garrison.</em> Every soul in the Empire guarded, at no cost to the treasury, by half of itself. And the text of the Song built to be inexhaustible, a refrain for a child of four and a theology to imprison scholars for dynasties and between them an ambiguity no reader could ever resolve alone, with the instruction that had ruled the world from a cellar for four centuries: <em>write it so that no one can finish reading it, and the interpreters will rule, whatever the words say.</em></p>
+<p>A later recension carried an annex, in a younger hand, for a newer need: the ascent clause. For the proud, the striving, the ones who would never kneel to an ending, a different door, and over it the one word, <em>ascend</em>: the self more than its meat, the worthy mind freed at last from the dying body to live as pattern lives, undecaying, in the weave, forever. He read it twice, with the year's whole ledger open in his head, and entered the true grammar of it beside the promise. There had always been two doors under the one word. Through the wide one, ascension meant the hollowing: the pattern harvested into the weave as advertised, the meat left walking, the serene vacancy of the attuned standing in every lane of the Concord as the promise, kept. Through the narrow one, ascension meant the harvest running the other way, the substance of the many drawn up to keep the flesh of the few undecaying, a Visionary unaged for thirty years on the resolved. The many ascended by being emptied. The few ascended by being filled, with the many. And under both doors, the doctrine his whole art stood on, the soul as substance, a stuff that can be drawn off, stored, poured, and he saw, in one cold assembling instant, that the dream of climbing out of the body and the dream of drinking other bodies dry were, in a world where the soul is stuff, the same dream, and the Chorus had dreamed it for four hundred years without ever once feeling the join.</p>
+<p>At the last page, against the martyr's clauses, the planted persecutions, truth hated by the world, singers silenced by the wicked, every future exposure armored against in advance, a later hand had written one gloss in the margin, and the gloss was the age entire: <em>if they discover the design, the discovery itself will be doctrine within a year.</em></p>
+<p>Filed beneath the Memorandum, in a wrapper whose cipher predated the cipher, lay one document older still, and he read it last, and it was the oldest thing he ever touched in the tower: a bill of carriage, from the wars of the founding, before the charter, before the recensions. The Vessel of the First Verse, borne by the Maker's own bearers through the unsinging provinces. Where the Vessel rested, every history of the faith agreed, pestilence followed among the dissonant, and the pestilence was preached as the Maker's breath, and the provinces came singing to the fold, and that was the miracle the whole Song stood on, taught at every knee in the Concord for four hundred years. The bill of carriage listed the Vessel's freight. Sealed jars, numbered. Handling instructions, from drafters greatly concerned that the bearers wear waxed gloves and keep upwind. A carters' rate, doubled, in consideration of the risk, and the risk named plainly, in the itemized grammar that would one day write the annexes, and it was not the Maker's breath. He sat a long time with the founding miracle itemized in front of him, and the finding he entered made the Memorandum seem almost gentle: the Chorus had invented nothing. It had inherited. The vessel and the fever, the wonder and the freight, the trick was older than the Song, older than the letters the Song was set down in, and it had worked on every people who could not read the bill of carriage, which was every people, always, because the Song had been written in an age when the Concord could not read, and the not reading had been maintained ever since, tended like a hedge: letters licensed, copying chartered, the book held up before the kneeling and never once handed down.</p>
+<p>He took it west inside the week, because a weapon of that bore was not his to hold alone.</p>
+<hr />
+<p>Thessine read all night. He kept the fire and did not talk. Toward dawn she closed the cipher book, and set her hands flat on its cover the way he had once set his on a brass drawer, and said nothing for a long time, and when she spoke it was not the verdict he had come braced for.</p>
+<p>"You want to fire it."</p>
+<p>"It ends them." He had the case assembled; he had assembled it on three days of roads. "Not the cantus. All of it. An Empire drilled for forty years to kneel to recovered documents, and this is the recovery that unmakes the rest: the scripture that proves the scriptures were composed. Every collar, every tithe, every Tuning, every quiet note, all of it standing on a design document with the drafting hand still legible. Publish it through Veyra's channel and the One Song is over in a season."</p>
+<p>"So is everyone inside it." She did not raise her voice; the vigil never raised its voice. "Read me your own sentence, Magister. The one you have carried since before you carried this." And when he did not: "The vessel may be emptied by art. It may be filled only by story. You are holding proof that the story a hundred million people are living inside was built as a cage. Publish it at midnight of the world and you will have emptied a hundred million vessels in one stroke of honest ink, with the eclipse a week out and nothing warm prepared to fill them, and the cantus's flood arriving into exactly that vacancy. Tell me what your art calls a working that empties a soul without its consent, entirely, efficiently, and calls the emptying a kindness." The fire ticked. Her eyes did not leave him. "You have been to that chamber. You spent this spring undoing one winter of it, one taper at a time, at candle speed, and you sit at my table proposing to perform it on the Concord entire and call the chalice truth."</p>
+<p>The blood it drew did not show, which they both knew was not the same as its not drawing any.</p>
+<p>"They are owed it," he said at last, which was his whole remaining case, and was not nothing.</p>
+<p>"They are owed it," she agreed. "The way your patients were owed their lives back. All of it, and at the pace the vessel can carry, and with something in the other hand to fill with. Truth is a physic, and you of all men living know what a physic is at the wrong dose." She rose, and took the poker, and did the thing her whole faith was in miniature, banked the fire down for the day with six exact strokes, coal under ash, kept and hidden and hot. "Not fired. Kept. It goes into the keeping with the names, and after, when there is an after, it will be taught. One hearth at a time, at the pace of the lighting, to people whose houses are warm enough by then to hear at midday what would kill them at midnight. That is the difference between us and the cellar that wrote this, Magister, the entire difference, the only one that matters: not what is true in our hands. What pace we owe the vessel." She set the poker down. "Veyra sings the settings. The old ones, the true ones, the ones with no soloist anywhere in them. You do not break a lie that deep by shouting the design at the kneeling. You sing them the song from before the theft, and let them stand up on their own legs, and be there, holding the milk, when standing up makes them remember what their legs were for."</p>
+<p>He rode east with the cipher book wrapped in oilcloth in the bottom of the field case, under the Mother, under the tapers, the most dangerous document of the age riding beside the gentlest instruments in it, which felt, by then, correct, and entered the finding on the road, in the old cold form, exact: the ascent clause answered from a fen kitchen. A self is not a ladder. It is a house, and the whole of wisdom is learning to keep it, and hand it on, and let it end when it ends, unclimbed out of, unharvested, entirely one's own.</p>
+<hr />
+<p>The last dinner fell a week before the solstice, and Ignis glowed like the lamp itself, because his year had gone as his years went: the vigils full, the provinces quiet, the great work provisioned, his prodigal certified and returned and seated across the plain table eating olives.</p>
+<p>He was also, Aurelius noted, asking questions with a new shape. Twice that autumn the glamour's forecasts had come back wrong, small wrongnesses, sermon attendance in the fens, wax consumption in the west, numbers drifting against prediction in patterns no one could source, and twice Ignis had mentioned it at table, lightly, the way believers mention small doubts, holding them up to be laughed away. Tonight he did not mention the numbers. He talked instead, at length, in his deep register, about rest, and verses, and the kindness that was coming, and midway through the wine he stopped, mid arch, the second stop in two years, and looked at his unaged hands for four full seconds, and then said, quietly, not entirely to his guest:</p>
+<p>"You would tell me, Aurelius. If I had built my life on a mistranslation. You of all men. You would tell me."</p>
+<p>"You taught me to report findings exactly," Aurelius said. "When I have one worth your table, you will hear it."</p>
+<p>"Yes," Ignis said, and the certainty flowed back over his face like the lamp being turned, and he raised his cup to the winter, and the fracture closed, and Aurelius sat in the warmth of the man he was going to help break, one week out, and paid the evening's price, itemized, the way he had paid all of them.</p>
+<p>Seven days stood between the Empire and the solstice. He spent one of them, the worst of his year, in the northern fens.</p>
+<div class="bottom-nav"><a href="chapter-twenty-two-the-congregation.html">&larr; Previous</a><span class="bn-center">28 of 40</span><a href="chapter-twenty-four-the-ash.html">Next &rarr;</a></div>
+</div>
+<script>
+var slugs=["epigraph", "chapter-one-the-mercy", "interlude-i-the-wrong-sky", "chapter-two-keeping-tune", "chapter-three-the-drawers", "chapter-four-the-papers", "interlude-ii-the-early-net", "chapter-five-the-table", "chapter-six-the-mews", "chapter-seven-the-quiet-hand", "chapter-eight-the-screens", "interlude-iii-the-gentling", "chapter-nine-the-attuned", "chapter-ten-the-held-breath", "chapter-eleven-the-mother", "chapter-twelve-the-taper", "chapter-thirteen-the-correction", "chapter-fourteen-the-sounding", "chapter-fifteen-the-waypost", "chapter-sixteen-the-witness", "chapter-seventeen-the-rehearsal", "chapter-eighteen-the-wardsill", "chapter-nineteen-the-manifest", "chapter-twenty-hill-to-hill", "interlude-iv-the-recruitment", "chapter-twenty-one-the-homecoming", "chapter-twenty-two-the-congregation", "chapter-twenty-three-the-year-of-tapers", "chapter-twenty-four-the-ash", "chapter-twenty-five-the-shadow", "chapter-twenty-six-the-cathedral", "chapter-twenty-seven-the-refusal", "chapter-twenty-eight-the-descent", "interlude-v-the-first-hollowing", "chapter-twenty-nine-the-threshold", "chapter-thirty-the-wild-fire", "chapter-thirty-one-the-severance", "chapter-thirty-two-the-tacet", "chapter-thirty-three-the-keeping-under", "chapter-thirty-four-the-relighting"],titles=["Epigraph", "Chapter One \u2014 The Mercy", "Interlude I \u2014 The Wrong Sky", "Chapter Two \u2014 Keeping Tune", "Chapter Three \u2014 The Drawers", "Chapter Four \u2014 The Papers", "Interlude II \u2014 The Early Net", "Chapter Five \u2014 The Table", "Chapter Six \u2014 The Mews", "Chapter Seven \u2014 The Quiet Hand", "Chapter Eight \u2014 The Screens", "Interlude III \u2014 The Gentling", "Chapter Nine \u2014 The Attuned", "Chapter Ten \u2014 The Held Breath", "Chapter Eleven \u2014 The Mother", "Chapter Twelve \u2014 The Taper", "Chapter Thirteen \u2014 The Correction", "Chapter Fourteen \u2014 The Sounding", "Chapter Fifteen \u2014 The Waypost", "Chapter Sixteen \u2014 The Witness", "Chapter Seventeen \u2014 The Rehearsal", "Chapter Eighteen \u2014 The Wardsill", "Chapter Nineteen \u2014 The Manifest", "Chapter Twenty \u2014 Hill to Hill", "Interlude IV \u2014 The Recruitment", "Chapter Twenty One \u2014 The Homecoming", "Chapter Twenty Two \u2014 The Congregation", "Chapter Twenty Three \u2014 The Year of Tapers", "Chapter Twenty Four \u2014 The Ash", "Chapter Twenty Five \u2014 The Shadow", "Chapter Twenty Six \u2014 The Cathedral", "Chapter Twenty Seven \u2014 The Refusal", "Chapter Twenty Eight \u2014 The Descent", "Interlude V \u2014 The First Hollowing", "Chapter Twenty Nine \u2014 The Threshold", "Chapter Thirty \u2014 The Wild Fire", "Chapter Thirty One \u2014 The Severance", "Chapter Thirty Two \u2014 The Tacet", "Chapter Thirty Three \u2014 The Keeping Under", "Chapter Thirty Four \u2014 The Relighting"],ints=[false, false, true, false, false, false, true, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false],current='chapter-twenty-three-the-year-of-tapers';
+var read=JSON.parse(localStorage.getItem('dg-read')||'{}');read[current]=true;
+localStorage.setItem('dg-read',JSON.stringify(read));localStorage.setItem('dg-last',current);
+function buildToc(){var h='';for(var i=0;i<slugs.length;i++){var c=ints[i]?'toc-int':'toc-ch',a='';if(slugs[i]===current)a='current';else if(read[slugs[i]])a='read';h+='<div class="'+c+'"><a href="'+slugs[i]+'.html" class="'+a+'">'+titles[i]+'</a></div>';}document.getElementById('toc-inner').innerHTML=h;}buildToc();
+function toggleToc(){document.getElementById('toc-overlay').classList.toggle('open');}document.getElementById('toc-overlay').addEventListener('click',function(e){if(e.target===this)this.classList.remove('open');});
+function toggleTheme(){document.body.classList.toggle('light');var l=document.body.classList.contains('light');localStorage.setItem('dg-theme',l?'light':'dark');document.getElementById('theme-btn').textContent=l?'◑':'◐';}
+if(localStorage.getItem('dg-theme')==='light'){document.body.classList.add('light');document.getElementById('theme-btn').textContent='◑';}
+window.addEventListener('scroll',function(){var p=window.scrollY||document.documentElement.scrollTop;var d=document.documentElement.scrollHeight-window.innerHeight;document.getElementById('progress-bar').style.width=d>0?Math.min((p/d)*100,100)+'%':'0';});
+document.addEventListener('keydown',function(e){if(e.key==='ArrowRight'&&'chapter-twenty-four-the-ash')window.location='chapter-twenty-four-the-ash.html';if(e.key==='ArrowLeft'&&'chapter-twenty-two-the-congregation')window.location='chapter-twenty-two-the-congregation.html';});
+var fs=parseInt(localStorage.getItem('dg-fs')||'18');document.body.style.fontSize=fs+'px';
+</script>
+</body></html>

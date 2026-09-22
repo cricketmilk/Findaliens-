@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interlude IV — The Recruitment — Demiurgent</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💎</text></svg>">
+<style>/* ===== FONTS ===== */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* ===== RESET ===== */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+/* ===== NOISE TEXTURE ===== */
+.noise {
+    position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 0;
+    pointer-events: none; opacity: 0.04;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size: 256px 256px;
+}
+body.light .noise { opacity: 0.025; }
+
+/* ===== ORNAMENTAL FRAME (SVG corners) ===== */
+.ornament-frame { position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 1; pointer-events: none; }
+.orn-corn { position: absolute; width: 160px; height: 160px; opacity: 0.5; }
+.orn-corn svg { width: 100%; height: 100%; }
+.orn-tl { top: 0; left: 0; }
+.orn-tr { top: 0; right: 0; }
+.orn-bl { bottom: 0; left: 0; }
+.orn-br { bottom: 0; right: 0; }
+
+/* FRAME_CSS_PLACEHOLDER */
+
+:root {
+    --bg: #080604;
+    --surface: #100c08;
+    --text: #b8a88c;
+    --text-dim: #6e6454;
+    --gold: #c49a3c;
+    --gold-bright: #e8d070;
+    --gold-pale: #d4b860;
+    --amber: #b07030;
+    --amber-deep: #8b5020;
+    --border: #282018;
+    --border-gold: #3a2c10;
+    --font-display: 'Cinzel', 'Georgia', serif;
+    --font-decorative: 'Cinzel Decorative', 'Cinzel', 'Georgia', serif;
+    --font-body: 'Crimson Text', 'Georgia', serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-body);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.8;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar{width:6px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:var(--border-gold);border-radius:3px}
+
+/* ===== READING PROGRESS BAR ===== */
+#progress-bar {
+    position: fixed; top: 0; left: 0; height: 2px;
+    background: linear-gradient(90deg, var(--amber-deep), var(--gold), var(--gold-bright));
+    z-index: 101;
+}
+
+/* ===== TOP NAVIGATION ===== */
+#topnav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    background: rgba(8,6,4,0.93);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid var(--border-gold);
+    padding: 0 1em; height: 40px;
+    display: flex; align-items: center; justify-content: space-between;
+    font-size: 11px; color: var(--text-dim);
+}
+body.light #topnav { background: rgba(245,240,232,0.93); }
+.tn-title {
+    font-family: var(--font-display);
+    letter-spacing: 0.1em;
+    color: var(--gold-pale);
+    font-size: 10px;
+}
+.tn-btns { display: flex; gap: 6px; align-items: center; }
+#topnav a { color: var(--text-dim); text-decoration: none; transition: color 0.2s; }
+#topnav a:hover { color: var(--gold); }
+
+.nav-btn {
+    background: none; border: 1px solid var(--border);
+    color: var(--text-dim); cursor: pointer;
+    padding: 3px 8px; border-radius: 2px;
+    font-family: var(--font-body); font-size: 11px;
+    transition: all 0.2s;
+}
+.nav-btn:hover { color: var(--gold); border-color: var(--gold); }
+
+/* ===== CONTENT AREA ===== */
+#content {
+    max-width: 660px;
+    margin: 0 auto;
+    padding: 60px 1.5em 5em;
+    position: relative; z-index: 1;
+}
+
+/* ===== ORNAMENTAL CHAPTER HEADER ===== */
+.ch-header {
+    text-align: center;
+    margin-bottom: 3em;
+    padding-top: 0.5em;
+}
+.ch-ornament-inner {
+    max-width: 300px;
+    margin: 0 auto 1em;
+    opacity: 0.55;
+}
+.ch-ornament-inner svg {
+    width: 100%;
+    height: auto;
+}
+.ch-part-label {
+    font-family: var(--font-display);
+    font-size: 0.8em; color: var(--gold);
+    letter-spacing: 0.15em;
+    margin-bottom: 0.3em;
+    text-transform: uppercase;
+}
+.ch-title {
+    font-family: var(--font-decorative);
+    font-size: 1.45em; font-weight: 700; color: var(--gold-bright);
+    letter-spacing: 0.08em; line-height: 1.3;
+    text-shadow: 0 0 40px rgba(200,160,60,0.2);
+}
+.ch-interlude .ch-title {
+    font-style: italic; color: #b89060;
+    font-family: var(--font-display);
+}
+.ch-interlude .ch-header::before { opacity: 0.3; }
+
+/* Ornamental rule after chapter title */
+.ch-header::after {
+    content: '';
+    display: block;
+    width: 180px; height: 12px;
+    margin: 1em auto 0;
+    background:
+        linear-gradient(var(--border-gold), var(--border-gold)) 0 50% / 40px 1px no-repeat,
+        radial-gradient(circle 2px, var(--gold) 50%, transparent 50%) 65px 50% / 6px 6px no-repeat,
+        radial-gradient(circle 1.2px, var(--gold-pale) 50%, transparent 50%) 90px 50% / 4px 4px no-repeat,
+        linear-gradient(var(--border-gold), var(--border-gold)) 140px 50% / 40px 1px no-repeat;
+    opacity: 0.35;
+}
+
+/* ===== PROSE ===== */
+p { margin: 0 0 1.1em; }
+em { color: #d4b860; font-style: italic; }
+strong { color: #e0c878; font-weight: 600; }
+blockquote {
+    border-left: 3px solid #3d2c10;
+    padding: 0.5em 1.2em;
+    margin: 1.8em 0;
+    font-style: italic; color: #a8987c;
+    background: linear-gradient(90deg, rgba(180,140,60,0.04) 0%, transparent 40%);
+}
+body.light blockquote {
+    background: linear-gradient(90deg, rgba(139,105,20,0.06) 0%, transparent 40%);
+    color: #5c4f3c; border-left-color: #b8a070;
+}
+
+/* ===== BOTTOM NAVIGATION ===== */
+.bottom-nav {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-top: 4em; padding-top: 2em;
+    border-top: 1px solid var(--border);
+    position: relative;
+}
+.bottom-nav::before {
+    content: '\25C6';
+    position: absolute; top: -0.55em; left: 50%; transform: translateX(-50%);
+    color: var(--gold-pale); font-size: 9px; opacity: 0.45;
+    background: var(--bg); padding: 0 6px;
+}
+.bottom-nav a {
+    font-family: var(--font-display);
+    color: var(--gold); text-decoration: none;
+    letter-spacing: 0.06em; font-size: 0.85em;
+    padding: 0.3em 0;
+    transition: color 0.2s;
+}
+.bottom-nav a:hover { color: var(--gold-bright); }
+.bn-center {
+    color: var(--text-dim); font-family: var(--font-body);
+    font-style: italic; font-size: 0.83em;
+}
+
+/* ===== TOC OVERLAY ===== */
+#toc-overlay {
+    display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(6,4,2,0.97); z-index: 200;
+    overflow-y: auto; padding: 3em 1.5em;
+}
+#toc-overlay.open { display: block; }
+body.light #toc-overlay { background: rgba(245,240,232,0.97); }
+#toc-close {
+    position: fixed; top: 14px; right: 18px; z-index: 201;
+    background: none; border: 1px solid var(--border-gold); color: var(--gold);
+    cursor: pointer; font-size: 18px; width: 34px; height: 34px;
+    border-radius: 50%; display: flex; align-items: center; justify-content: center;
+}
+#toc-overlay h3 {
+    font-family: var(--font-decorative); color: var(--gold-bright);
+    text-align: center; font-size: 1.4em; margin-bottom: 1.5em;
+    letter-spacing: 0.12em;
+    text-shadow: 0 0 30px rgba(200,160,60,0.2);
+}
+.toc-inner { max-width: 480px; margin: 0 auto; }
+.toc-inner .toc-part {
+    font-family: var(--font-display); color: var(--gold);
+    font-size: 0.88em; margin: 1.3em 0 0.4em; letter-spacing: 0.08em;
+}
+.toc-inner .toc-ch { margin: 0.25em 0 0.25em 1.5em; font-size: 0.88em; }
+.toc-inner .toc-int { margin: 0.25em 0 0.25em 1.5em; font-size: 0.85em; font-style: italic; }
+.toc-inner a { color: var(--text); text-decoration: none; }
+.toc-inner a:hover { color: var(--gold-bright); }
+.toc-inner a.read { color: var(--text-dim); }
+.toc-inner a.current { color: var(--gold-bright); font-weight: 600; }
+.toc-inner .toc-int a { color: #b89060; }
+
+/* ===== LIGHT MODE ===== */
+body.light {
+    --bg: #f5f0e8; --surface: #ede4d6;
+    --text: #3d3428; --text-dim: #7a6e5e;
+    --gold: #8b6914; --gold-bright: #5a4010; --gold-pale: #9a7a2e;
+    --amber: #8b5a2b; --amber-deep: #6b3a10;
+    --border: #c4b8a4; --border-gold: #b8a070;
+}
+body.light .ch-title { text-shadow: none; }
+
+@media (max-width: 500px) {
+    body { font-size: 16px; }
+    #content { padding: 50px 0.8em 4em; }
+    .ch-title { font-size: 1.2em; }
+}
+@media print {
+    #topnav, #progress-bar, #toc-overlay, .frame-0, .frame-1, .frame-2, .frame-3 { display: none !important; }
+    body { background: white; color: black; font-size: 12pt; }
+}</style>
+</head>
+<body>
+<div class="noise"></div>
+<div class="ornament-frame">
+  <div class="orn-corn orn-tl"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="gf" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#c49a3c" stop-opacity="0.8"/><stop offset="100%" stop-color="#b07030" stop-opacity="0.3"/></linearGradient>
+  </defs>
+  <!-- outer corner bracket -->
+  <path d="M10 190 L190 190 L190 10" fill="none" stroke="#8a6820" stroke-width="1.2" opacity="0.5"/>
+  <path d="M15 190 L190 190 L190 15" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.35"/>
+  <!-- Gothic arch in corner -->
+  <path d="M40 190 Q40 40 100 30" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.3"/>
+  <!-- tracery diamonds -->
+  <path d="M25 180 L32 170 L39 180 L32 190 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.4"/>
+  <path d="M50 180 L57 170 L64 180 L57 190 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.3"/>
+  <!-- small celestial dots -->
+  <circle cx="80" cy="175" r="1" fill="#c49a3c" opacity="0.4"/>
+  <circle cx="95" cy="168" r="0.8" fill="#e0c878" opacity="0.3"/>
+  <circle cx="110" cy="172" r="1.2" fill="#c49a3c" opacity="0.35"/>
+  <!-- corner accent -->
+  <circle cx="190" cy="190" r="3" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="190" cy="190" r="1.2" fill="#e0c878" opacity="0.4"/>
+</svg></div>
+  <div class="orn-corn orn-tr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="gf" x1="1" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c49a3c" stop-opacity="0.8"/><stop offset="100%" stop-color="#b07030" stop-opacity="0.3"/></linearGradient>
+  </defs>
+  <path d="M190 190 L10 190 L10 10" fill="none" stroke="#8a6820" stroke-width="1.2" opacity="0.5"/>
+  <path d="M185 190 L10 190 L10 15" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.35"/>
+  <path d="M160 190 Q160 40 100 30" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.3"/>
+  <path d="M175 180 L168 170 L161 180 L168 190 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.4"/>
+  <path d="M150 180 L143 170 L136 180 L143 190 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.3"/>
+  <circle cx="120" cy="175" r="1" fill="#c49a3c" opacity="0.4"/>
+  <circle cx="105" cy="168" r="0.8" fill="#e0c878" opacity="0.3"/>
+  <circle cx="90" cy="172" r="1.2" fill="#c49a3c" opacity="0.35"/>
+  <circle cx="10" cy="190" r="3" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="10" cy="190" r="1.2" fill="#e0c878" opacity="0.4"/>
+</svg></div>
+  <div class="orn-corn orn-bl"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <path d="M10 10 L190 10 L190 190" fill="none" stroke="#8a6820" stroke-width="1.2" opacity="0.5"/>
+  <path d="M15 10 L190 10 L190 185" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.35"/>
+  <path d="M40 10 Q40 160 100 170" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.3"/>
+  <path d="M25 20 L32 30 L39 20 L32 10 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.4"/>
+  <circle cx="10" cy="10" r="3" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="10" cy="10" r="1.2" fill="#e0c878" opacity="0.4"/>
+</svg></div>
+  <div class="orn-corn orn-br"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <path d="M190 10 L10 10 L10 190" fill="none" stroke="#8a6820" stroke-width="1.2" opacity="0.5"/>
+  <path d="M185 10 L10 10 L10 185" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.35"/>
+  <path d="M160 10 Q160 160 100 170" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.3"/>
+  <path d="M175 20 L168 30 L161 20 L168 10 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.4"/>
+  <circle cx="190" cy="10" r="3" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="190" cy="10" r="1.2" fill="#e0c878" opacity="0.4"/>
+</svg></div>
+</div>
+<div id="progress-bar"></div>
+<div id="topnav">
+  <span class="tn-title">DEMIURGENT</span>
+  <div class="tn-btns">
+    <button class="nav-btn" id="theme-btn" onclick="toggleTheme()">◐</button>
+    <button class="nav-btn" onclick="toggleToc()">☷</button>
+    <a href="index.html" class="nav-btn">⌂</a>
+  </div>
+</div>
+<div id="toc-overlay"><button id="toc-close" onclick="toggleToc()">&times;</button><h3>Contents</h3><div class="toc-inner" id="toc-inner"></div></div>
+<div id="content">
+<div class="ch-header ch-interlude">
+  <div class="ch-ornament-inner"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 50">
+  <!-- outer pillars -->
+  <rect x="60" y="20" width="1.5" height="30" fill="#c49a3c" opacity="0.45"/>
+  <rect x="238" y="20" width="1.5" height="30" fill="#c49a3c" opacity="0.45"/>
+  <!-- pointed arch -->
+  <path d="M60 25 Q150 0 240 25" fill="none" stroke="#c49a3c" stroke-width="1" opacity="0.5"/>
+  <!-- inner arch -->
+  <path d="M75 25 Q150 8 225 25" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.35"/>
+  <!-- tracery circle at apex -->
+  <circle cx="150" cy="14" r="6" fill="none" stroke="#e0c878" stroke-width="0.6" opacity="0.5"/>
+  <circle cx="150" cy="14" r="2" fill="#e0c878" opacity="0.4"/>
+  <!-- base line -->
+  <line x1="40" y1="48" x2="110" y2="48" stroke="#8a6820" stroke-width="0.6" opacity="0.35"/>
+  <line x1="190" y1="48" x2="260" y2="48" stroke="#8a6820" stroke-width="0.6" opacity="0.35"/>
+  <!-- center ornament -->
+  <path d="M140 46 L150 36 L160 46 L150 42 Z" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.5"/>
+  <circle cx="150" cy="48" r="1.5" fill="#c49a3c" opacity="0.4"/>
+</svg></div>
+  <div class="ch-part-label">Part Two — The Breaking</div>
+  <div class="ch-title">Interlude IV — The Recruitment</div>
+</div>
+<p>The fourth impression he sealed as happy. That is the fact about it he can no longer forgive: the seals are honest, they keep what the sealing hand believed, and the hand that sealed these believed it was archiving joy. He replays it the night before he goes home, deliberately, at the bench behind his blood lock, the way a man studies the mechanism of a trap he intends to stand in.</p>
+<p>It goes like this.</p>
+<p>He is thirty three, and the clinic's work has begun to travel. Papers copied hand to hand among the border physicians, then the guild halls, then, improbably, invitations: the strange gentling doctor asked to speak at learned societies in towns that would not have fed him as a boy. He lectures badly and does not know it; he reads findings at the lectern in a flat voice, restarts sentences, drifts mid proof; and the audiences, to his permanent bewilderment, lean in. Marrow says it is because he is the only man in alchemy who talks about mercy as if it were a soluble problem. Marrow is not with him the night it happens. It is a guild hall in a river town, forty chairs, lamp smoke, autumn.</p>
+<p>The stone keeps the whole room. That is what stones do; it is why the drawers exist; the sealing hand keeps everything and weights almost nothing, and year after year his mind held this evening as: a good lecture, a good question, the letter that came after. Now he sits at his bench with the impression open and walks the lamplit rows of it like an auditor, and there, in the second to last row, against the wall, where the light goes thin, is a woman.</p>
+<p>Brown hair. Administrator's grey. Hands folded beside a notebook she never opens. A face made of features that occur elsewhere, younger by a decade and a half and already perfected, already still, and his breath goes out of him at the bench in the present tense of an old man, because the socket in his memory has stood empty for a year, a clean space its exact shape, and here she is, kept all along in crystal, in the one archive in the Empire her discipline never reached. The mind was made to lose her. The stone was not.</p>
+<p>He watches her watch the young man at the lectern. She does not move for an hour. And at the end, when the guild men have asked their guild questions, precedence and licensing and fees, a voice from the back, unhurried, gentle, pitched exactly to carry and no further, asks the last question of the evening.</p>
+<p>"Magister. Your gentling, as you practice it, treats one soul in perhaps twenty days. How many are afflicted, would you estimate, in this province alone?"</p>
+<p>And the young man at the lectern, who counts everything, answers at once, because the number lives in him: the waiting room that never empties, the valley's arithmetic, thousands in the province, tens of thousands in the Concord, grief and ruin coming off some loom faster than any two sets of hands can mend, and he says the number, and he hears his own voice break a little on it, in front of forty strangers, because the number is the true name of his life's frustration.</p>
+<p>"And if the number could be reached," says the woman by the wall. "All of it. Every one. What would you give?"</p>
+<p>He answers that too. The stone keeps his answer. He replays it four times, the night before he goes home, and each time his own young voice says it again with the same terrible unguarded speed, no pause, no arithmetic, the answer of a man whose lever has just been found and thrown by an engineer of ten years' patience who came to a river town in the rain to throw it:</p>
+<p>"Anything. Whatever it took."</p>
+<p>What the stone keeps of the two years before that evening, and what he replays now with the auditor's cold interest, is the ghost. He had seen the halls coming, in the traffic, in the grain of the grant renewals, and a man with no army and a valley's worth of children to ransom builds the only weapon such a man can build, which is paper. So he built a dissident who did not exist. Folded fair copies of the halls' own sensitive filings, seeded through three market registries where they had no business standing; a leak with no leaker; a hand with no wrist; and one mark, designed at his bench with a forger's care, to be found by touch and never by eye: a single small fold, pressed flat, near the binding, the same fold on every page. The halls hunted the folded ghost for two years and caught nothing, because there was nothing, and an institution fears no enemy the way it fears its own paper walking. By the evening of the river town, the Concord's quietest corridors had already learned that fear, and he has wondered ever since, without resolving it, which of his prices the fear paid for: whether the exemption and the valley were bought with the gentling alone, or whether the halls also wanted, close, collared to their service in everything but brass, the one reader in the Empire who had ever come near their ghost. He retired the phantom the day he signed. He entered it, privately, as the one wholly invented thing in his life's ledger. He was wrong, and would not learn how until a hundred pages of the world's ending arrived at his own door wearing his own mark.</p>
+<p>In the stone, in the thin light by the wall, the woman's face does not change at the answer. It settles, by one degree, the way a surveyor's face settles when the seam assays out. She had not come to hear medicine. She had come to walk a mine and price it, and the price came back good, and the notebook she never opened stayed shut, because the figures were already where she kept figures, and nothing she kept was ever mislaid.</p>
+<p>The letter from the Needle comes twenty days later. He has never, until this year, connected the two events. The stone had. The stone kept her in the room; the stone kept the question; the stone kept the interview he did not know was an interview, complete, sealed under <em>happy</em>, waiting there all this time for the auditor to come down the rows with a lamp.</p>
+<hr />
+<p>The rest of the impression is the rising, and replaying it is what he expected it to be, which does not make it easier: an exercise in watching his own blindness with the sound turned on.</p>
+<p>Ignis's table, the first night. He is led up through the black tower half certain the summons is a mistake, and a tall grey man rises from a plain table laid with perfect things and says his name, <em>Aurelius</em>, as a completed thought, and quotes the clinic casebook to him, the widow Casse, the eggs, page and line, and asks about Marrow by name and listens to the answer, and the young man who has been strange in the world all his days, who has learned everything and belonged to nothing, sits at that table and feels, for the first time on this side of the sky, expected. As if he had arrived somewhere that had been waiting. He knows now what that feeling is worth and what it costs and who sets the table. The impression does not know. The impression is warm the whole way through, and the warmth is real, that is the finding he came down here to confirm and it confirms itself in every frame: the warmth was never once feigned. It was aimed.</p>
+<p>Then the years, sealed in batches, happy. The funding that arrives before he asks. The laboratories. The program: his people, gathered off the alleys and out of the sickrooms, given wings and wages and a valley; every gift arriving one season after he first wants it, so that each one lands looking like his own idea ripened, and he walks the rows of his own best years with the auditor's lamp and sees, now, at the edge of every frame, what the sealing hand cropped.</p>
+<p>The mandate. It is all there, in the margins, kept by the faithful stone: the queues outside the chapter houses on his ride to the aerie, fitting days, whole villages lined up in the rain. A man arguing with a warden on the road south, and then, in an impression three weeks later, the same man, not arguing. The collars coming up the provinces year by year like a tide line, visible in every street scene he sealed, background, unweighted, nothing, while in the center of every frame a happy man walks to his beautiful work. He had been on the networks before anyone; he had seen the silencing in the traffic at twelve; he had known what the mandate was before it had a name. And then they gave him a valley and a table and a program full of people to save, and for thirteen years he did not look at a queue.</p>
+<p>The exemption is one small frame near the batch's end. A clerk of fittings, apologetic, at the laboratory door with a schedule: every soul in the tower's service to be fitted by the quarter's close, and the senior alchemist is on no list, and the clerk is confused, and wishes to know whether. And the matter resolves before the sentence finishes, a word from the halls, a line in a register somewhere: Aurelius Sol, exempt, service of the Chorus. The young man in the impression feels a mild relief, files it under convenience, and goes back to the bench. He watches himself do it. He watches the leash not being fastened, because it did not need fastening, because they had measured him in a guild hall in the rain and known to the dram what he could not be parted from, and it was never his freedom. It was his work. Collar the work and the man wears it gladly, and calls the wearing purpose, and thanks the harvester at every distribution.</p>
+<p>The impression ends with the aerie: a young volatile bird nobody could deploy, given to him because indulging him was cheap, and the two of them on the crown of the tower in the wind, the beginning of the only bond in his life the Chorus did not build.</p>
+<p>He seals the replay and sits in the dark behind his blood lock, and the finding is already made; he made it a year ago at a dinner; tonight was only the verification pass, and it verifies. The love was real, every frame of it. The trap was real, every frame of it. They were the same frames. There was never a seam between the two where a wiser man could have pried, never a lie to catch, never a moment the warmth flickered and showed the mechanism, because the warmth was the mechanism, and it is not the trap he could not survive knowing about. It is this: that both of those facts have survived his knowing them. The table will still be warm tomorrow. He will still, God help him, be glad to sit at it.</p>
+<p>Tomorrow he goes home, and home will be glad to see him, and he is going to use the gladness, and the stone will keep that too.</p>
+<div class="bottom-nav"><a href="chapter-twenty-hill-to-hill.html">&larr; Previous</a><span class="bn-center">25 of 40</span><a href="chapter-twenty-one-the-homecoming.html">Next &rarr;</a></div>
+</div>
+<script>
+var slugs=["epigraph", "chapter-one-the-mercy", "interlude-i-the-wrong-sky", "chapter-two-keeping-tune", "chapter-three-the-drawers", "chapter-four-the-papers", "interlude-ii-the-early-net", "chapter-five-the-table", "chapter-six-the-mews", "chapter-seven-the-quiet-hand", "chapter-eight-the-screens", "interlude-iii-the-gentling", "chapter-nine-the-attuned", "chapter-ten-the-held-breath", "chapter-eleven-the-mother", "chapter-twelve-the-taper", "chapter-thirteen-the-correction", "chapter-fourteen-the-sounding", "chapter-fifteen-the-waypost", "chapter-sixteen-the-witness", "chapter-seventeen-the-rehearsal", "chapter-eighteen-the-wardsill", "chapter-nineteen-the-manifest", "chapter-twenty-hill-to-hill", "interlude-iv-the-recruitment", "chapter-twenty-one-the-homecoming", "chapter-twenty-two-the-congregation", "chapter-twenty-three-the-year-of-tapers", "chapter-twenty-four-the-ash", "chapter-twenty-five-the-shadow", "chapter-twenty-six-the-cathedral", "chapter-twenty-seven-the-refusal", "chapter-twenty-eight-the-descent", "interlude-v-the-first-hollowing", "chapter-twenty-nine-the-threshold", "chapter-thirty-the-wild-fire", "chapter-thirty-one-the-severance", "chapter-thirty-two-the-tacet", "chapter-thirty-three-the-keeping-under", "chapter-thirty-four-the-relighting"],titles=["Epigraph", "Chapter One \u2014 The Mercy", "Interlude I \u2014 The Wrong Sky", "Chapter Two \u2014 Keeping Tune", "Chapter Three \u2014 The Drawers", "Chapter Four \u2014 The Papers", "Interlude II \u2014 The Early Net", "Chapter Five \u2014 The Table", "Chapter Six \u2014 The Mews", "Chapter Seven \u2014 The Quiet Hand", "Chapter Eight \u2014 The Screens", "Interlude III \u2014 The Gentling", "Chapter Nine \u2014 The Attuned", "Chapter Ten \u2014 The Held Breath", "Chapter Eleven \u2014 The Mother", "Chapter Twelve \u2014 The Taper", "Chapter Thirteen \u2014 The Correction", "Chapter Fourteen \u2014 The Sounding", "Chapter Fifteen \u2014 The Waypost", "Chapter Sixteen \u2014 The Witness", "Chapter Seventeen \u2014 The Rehearsal", "Chapter Eighteen \u2014 The Wardsill", "Chapter Nineteen \u2014 The Manifest", "Chapter Twenty \u2014 Hill to Hill", "Interlude IV \u2014 The Recruitment", "Chapter Twenty One \u2014 The Homecoming", "Chapter Twenty Two \u2014 The Congregation", "Chapter Twenty Three \u2014 The Year of Tapers", "Chapter Twenty Four \u2014 The Ash", "Chapter Twenty Five \u2014 The Shadow", "Chapter Twenty Six \u2014 The Cathedral", "Chapter Twenty Seven \u2014 The Refusal", "Chapter Twenty Eight \u2014 The Descent", "Interlude V \u2014 The First Hollowing", "Chapter Twenty Nine \u2014 The Threshold", "Chapter Thirty \u2014 The Wild Fire", "Chapter Thirty One \u2014 The Severance", "Chapter Thirty Two \u2014 The Tacet", "Chapter Thirty Three \u2014 The Keeping Under", "Chapter Thirty Four \u2014 The Relighting"],ints=[false, false, true, false, false, false, true, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false],current='interlude-iv-the-recruitment';
+var read=JSON.parse(localStorage.getItem('dg-read')||'{}');read[current]=true;
+localStorage.setItem('dg-read',JSON.stringify(read));localStorage.setItem('dg-last',current);
+function buildToc(){var h='';for(var i=0;i<slugs.length;i++){var c=ints[i]?'toc-int':'toc-ch',a='';if(slugs[i]===current)a='current';else if(read[slugs[i]])a='read';h+='<div class="'+c+'"><a href="'+slugs[i]+'.html" class="'+a+'">'+titles[i]+'</a></div>';}document.getElementById('toc-inner').innerHTML=h;}buildToc();
+function toggleToc(){document.getElementById('toc-overlay').classList.toggle('open');}document.getElementById('toc-overlay').addEventListener('click',function(e){if(e.target===this)this.classList.remove('open');});
+function toggleTheme(){document.body.classList.toggle('light');var l=document.body.classList.contains('light');localStorage.setItem('dg-theme',l?'light':'dark');document.getElementById('theme-btn').textContent=l?'◑':'◐';}
+if(localStorage.getItem('dg-theme')==='light'){document.body.classList.add('light');document.getElementById('theme-btn').textContent='◑';}
+window.addEventListener('scroll',function(){var p=window.scrollY||document.documentElement.scrollTop;var d=document.documentElement.scrollHeight-window.innerHeight;document.getElementById('progress-bar').style.width=d>0?Math.min((p/d)*100,100)+'%':'0';});
+document.addEventListener('keydown',function(e){if(e.key==='ArrowRight'&&'chapter-twenty-one-the-homecoming')window.location='chapter-twenty-one-the-homecoming.html';if(e.key==='ArrowLeft'&&'chapter-twenty-hill-to-hill')window.location='chapter-twenty-hill-to-hill.html';});
+var fs=parseInt(localStorage.getItem('dg-fs')||'18');document.body.style.fontSize=fs+'px';
+</script>
+</body></html>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 60">
+  <!-- two-level ornate divider -->
+  <line x1="0" y1="15" x2="140" y2="15" stroke="#8a6820" stroke-width="0.7" opacity="0.35"/>
+  <line x1="360" y1="15" x2="500" y2="15" stroke="#8a6820" stroke-width="0.7" opacity="0.35"/>
+  <!-- celestial central motif -->
+  <path d="M225 5 L250 30 L225 55 L200 30 Z" fill="none" stroke="#c49a3c" stroke-width="1" opacity="0.55"/>
+  <path d="M235 12 L250 30 L235 48 L220 30 Z" fill="none" stroke="#e0c878" stroke-width="0.5" opacity="0.35"/>
+  <circle cx="250" cy="30" r="8" fill="none" stroke="#c49a3c" stroke-width="0.7" opacity="0.5"/>
+  <circle cx="250" cy="30" r="2.5" fill="#e0c878" opacity="0.45"/>
+  <!-- flanking diamonds -->
+  <path d="M160 28 L168 30 L160 32 L152 30 Z" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.4"/>
+  <path d="M332 28 L340 30 L332 32 L324 30 Z" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.4"/>
+  <!-- small celestial dots -->
+  <circle cx="120" cy="30" r="1.2" fill="#c49a3c" opacity="0.35"/>
+  <circle cx="380" cy="30" r="1.2" fill="#c49a3c" opacity="0.35"/>
+  <!-- radiating lines from center -->
+  <line x1="250" y1="22" x2="250" y2="10" stroke="#8a6820" stroke-width="0.4" opacity="0.3"/>
+  <line x1="258" y1="24" x2="270" y2="14" stroke="#8a6820" stroke-width="0.4" opacity="0.25"/>
+  <line x1="242" y1="24" x2="230" y2="14" stroke="#8a6820" stroke-width="0.4" opacity="0.25"/>
+</svg>

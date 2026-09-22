@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chapter Thirty Two — The Tacet — Demiurgent</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💎</text></svg>">
+<style>/* ===== FONTS ===== */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* ===== RESET ===== */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+/* ===== NOISE TEXTURE ===== */
+.noise {
+    position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 0;
+    pointer-events: none; opacity: 0.04;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size: 256px 256px;
+}
+body.light .noise { opacity: 0.025; }
+
+/* ===== ORNAMENTAL FRAME (SVG corners) ===== */
+.ornament-frame { position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 1; pointer-events: none; }
+.orn-corn { position: absolute; width: 160px; height: 160px; opacity: 0.5; }
+.orn-corn svg { width: 100%; height: 100%; }
+.orn-tl { top: 0; left: 0; }
+.orn-tr { top: 0; right: 0; }
+.orn-bl { bottom: 0; left: 0; }
+.orn-br { bottom: 0; right: 0; }
+
+/* FRAME_CSS_PLACEHOLDER */
+
+:root {
+    --bg: #080604;
+    --surface: #100c08;
+    --text: #b8a88c;
+    --text-dim: #6e6454;
+    --gold: #c49a3c;
+    --gold-bright: #e8d070;
+    --gold-pale: #d4b860;
+    --amber: #b07030;
+    --amber-deep: #8b5020;
+    --border: #282018;
+    --border-gold: #3a2c10;
+    --font-display: 'Cinzel', 'Georgia', serif;
+    --font-decorative: 'Cinzel Decorative', 'Cinzel', 'Georgia', serif;
+    --font-body: 'Crimson Text', 'Georgia', serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-body);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.8;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar{width:6px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:var(--border-gold);border-radius:3px}
+
+/* ===== READING PROGRESS BAR ===== */
+#progress-bar {
+    position: fixed; top: 0; left: 0; height: 2px;
+    background: linear-gradient(90deg, var(--amber-deep), var(--gold), var(--gold-bright));
+    z-index: 101;
+}
+
+/* ===== TOP NAVIGATION ===== */
+#topnav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    background: rgba(8,6,4,0.93);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid var(--border-gold);
+    padding: 0 1em; height: 40px;
+    display: flex; align-items: center; justify-content: space-between;
+    font-size: 11px; color: var(--text-dim);
+}
+body.light #topnav { background: rgba(245,240,232,0.93); }
+.tn-title {
+    font-family: var(--font-display);
+    letter-spacing: 0.1em;
+    color: var(--gold-pale);
+    font-size: 10px;
+}
+.tn-btns { display: flex; gap: 6px; align-items: center; }
+#topnav a { color: var(--text-dim); text-decoration: none; transition: color 0.2s; }
+#topnav a:hover { color: var(--gold); }
+
+.nav-btn {
+    background: none; border: 1px solid var(--border);
+    color: var(--text-dim); cursor: pointer;
+    padding: 3px 8px; border-radius: 2px;
+    font-family: var(--font-body); font-size: 11px;
+    transition: all 0.2s;
+}
+.nav-btn:hover { color: var(--gold); border-color: var(--gold); }
+
+/* ===== CONTENT AREA ===== */
+#content {
+    max-width: 660px;
+    margin: 0 auto;
+    padding: 60px 1.5em 5em;
+    position: relative; z-index: 1;
+}
+
+/* ===== ORNAMENTAL CHAPTER HEADER ===== */
+.ch-header {
+    text-align: center;
+    margin-bottom: 3em;
+    padding-top: 0.5em;
+}
+.ch-ornament-inner {
+    max-width: 300px;
+    margin: 0 auto 1em;
+    opacity: 0.55;
+}
+.ch-ornament-inner svg {
+    width: 100%;
+    height: auto;
+}
+.ch-part-label {
+    font-family: var(--font-display);
+    font-size: 0.8em; color: var(--gold);
+    letter-spacing: 0.15em;
+    margin-bottom: 0.3em;
+    text-transform: uppercase;
+}
+.ch-title {
+    font-family: var(--font-decorative);
+    font-size: 1.45em; font-weight: 700; color: var(--gold-bright);
+    letter-spacing: 0.08em; line-height: 1.3;
+    text-shadow: 0 0 40px rgba(200,160,60,0.2);
+}
+.ch-interlude .ch-title {
+    font-style: italic; color: #b89060;
+    font-family: var(--font-display);
+}
+.ch-interlude .ch-header::before { opacity: 0.3; }
+
+/* Ornamental rule after chapter title */
+.ch-header::after {
+    content: '';
+    display: block;
+    width: 180px; height: 12px;
+    margin: 1em auto 0;
+    background:
+        linear-gradient(var(--border-gold), var(--border-gold)) 0 50% / 40px 1px no-repeat,
+        radial-gradient(circle 2px, var(--gold) 50%, transparent 50%) 65px 50% / 6px 6px no-repeat,
+        radial-gradient(circle 1.2px, var(--gold-pale) 50%, transparent 50%) 90px 50% / 4px 4px no-repeat,
+        linear-gradient(var(--border-gold), var(--border-gold)) 140px 50% / 40px 1px no-repeat;
+    opacity: 0.35;
+}
+
+/* ===== PROSE ===== */
+p { margin: 0 0 1.1em; }
+em { color: #d4b860; font-style: italic; }
+strong { color: #e0c878; font-weight: 600; }
+blockquote {
+    border-left: 3px solid #3d2c10;
+    padding: 0.5em 1.2em;
+    margin: 1.8em 0;
+    font-style: italic; color: #a8987c;
+    background: linear-gradient(90deg, rgba(180,140,60,0.04) 0%, transparent 40%);
+}
+body.light blockquote {
+    background: linear-gradient(90deg, rgba(139,105,20,0.06) 0%, transparent 40%);
+    color: #5c4f3c; border-left-color: #b8a070;
+}
+
+/* ===== BOTTOM NAVIGATION ===== */
+.bottom-nav {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-top: 4em; padding-top: 2em;
+    border-top: 1px solid var(--border);
+    position: relative;
+}
+.bottom-nav::before {
+    content: '\25C6';
+    position: absolute; top: -0.55em; left: 50%; transform: translateX(-50%);
+    color: var(--gold-pale); font-size: 9px; opacity: 0.45;
+    background: var(--bg); padding: 0 6px;
+}
+.bottom-nav a {
+    font-family: var(--font-display);
+    color: var(--gold); text-decoration: none;
+    letter-spacing: 0.06em; font-size: 0.85em;
+    padding: 0.3em 0;
+    transition: color 0.2s;
+}
+.bottom-nav a:hover { color: var(--gold-bright); }
+.bn-center {
+    color: var(--text-dim); font-family: var(--font-body);
+    font-style: italic; font-size: 0.83em;
+}
+
+/* ===== TOC OVERLAY ===== */
+#toc-overlay {
+    display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(6,4,2,0.97); z-index: 200;
+    overflow-y: auto; padding: 3em 1.5em;
+}
+#toc-overlay.open { display: block; }
+body.light #toc-overlay { background: rgba(245,240,232,0.97); }
+#toc-close {
+    position: fixed; top: 14px; right: 18px; z-index: 201;
+    background: none; border: 1px solid var(--border-gold); color: var(--gold);
+    cursor: pointer; font-size: 18px; width: 34px; height: 34px;
+    border-radius: 50%; display: flex; align-items: center; justify-content: center;
+}
+#toc-overlay h3 {
+    font-family: var(--font-decorative); color: var(--gold-bright);
+    text-align: center; font-size: 1.4em; margin-bottom: 1.5em;
+    letter-spacing: 0.12em;
+    text-shadow: 0 0 30px rgba(200,160,60,0.2);
+}
+.toc-inner { max-width: 480px; margin: 0 auto; }
+.toc-inner .toc-part {
+    font-family: var(--font-display); color: var(--gold);
+    font-size: 0.88em; margin: 1.3em 0 0.4em; letter-spacing: 0.08em;
+}
+.toc-inner .toc-ch { margin: 0.25em 0 0.25em 1.5em; font-size: 0.88em; }
+.toc-inner .toc-int { margin: 0.25em 0 0.25em 1.5em; font-size: 0.85em; font-style: italic; }
+.toc-inner a { color: var(--text); text-decoration: none; }
+.toc-inner a:hover { color: var(--gold-bright); }
+.toc-inner a.read { color: var(--text-dim); }
+.toc-inner a.current { color: var(--gold-bright); font-weight: 600; }
+.toc-inner .toc-int a { color: #b89060; }
+
+/* ===== LIGHT MODE ===== */
+body.light {
+    --bg: #f5f0e8; --surface: #ede4d6;
+    --text: #3d3428; --text-dim: #7a6e5e;
+    --gold: #8b6914; --gold-bright: #5a4010; --gold-pale: #9a7a2e;
+    --amber: #8b5a2b; --amber-deep: #6b3a10;
+    --border: #c4b8a4; --border-gold: #b8a070;
+}
+body.light .ch-title { text-shadow: none; }
+
+@media (max-width: 500px) {
+    body { font-size: 16px; }
+    #content { padding: 50px 0.8em 4em; }
+    .ch-title { font-size: 1.2em; }
+}
+@media print {
+    #topnav, #progress-bar, #toc-overlay, .frame-0, .frame-1, .frame-2, .frame-3 { display: none !important; }
+    body { background: white; color: black; font-size: 12pt; }
+}</style>
+</head>
+<body>
+<div class="noise"></div>
+<div class="ornament-frame">
+  <div class="orn-corn orn-tl"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="gf" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#c49a3c" stop-opacity="0.8"/><stop offset="100%" stop-color="#b07030" stop-opacity="0.3"/></linearGradient>
+  </defs>
+  <!-- outer corner bracket -->
+  <path d="M10 190 L190 190 L190 10" fill="none" stroke="#8a6820" stroke-width="1.2" opacity="0.5"/>
+  <path d="M15 190 L190 190 L190 15" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.35"/>
+  <!-- Gothic arch in corner -->
+  <path d="M40 190 Q40 40 100 30" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.3"/>
+  <!-- tracery diamonds -->
+  <path d="M25 180 L32 170 L39 180 L32 190 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.4"/>
+  <path d="M50 180 L57 170 L64 180 L57 190 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.3"/>
+  <!-- small celestial dots -->
+  <circle cx="80" cy="175" r="1" fill="#c49a3c" opacity="0.4"/>
+  <circle cx="95" cy="168" r="0.8" fill="#e0c878" opacity="0.3"/>
+  <circle cx="110" cy="172" r="1.2" fill="#c49a3c" opacity="0.35"/>
+  <!-- corner accent -->
+  <circle cx="190" cy="190" r="3" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="190" cy="190" r="1.2" fill="#e0c878" opacity="0.4"/>
+</svg></div>
+  <div class="orn-corn orn-tr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="gf" x1="1" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c49a3c" stop-opacity="0.8"/><stop offset="100%" stop-color="#b07030" stop-opacity="0.3"/></linearGradient>
+  </defs>
+  <path d="M190 190 L10 190 L10 10" fill="none" stroke="#8a6820" stroke-width="1.2" opacity="0.5"/>
+  <path d="M185 190 L10 190 L10 15" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.35"/>
+  <path d="M160 190 Q160 40 100 30" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.3"/>
+  <path d="M175 180 L168 170 L161 180 L168 190 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.4"/>
+  <path d="M150 180 L143 170 L136 180 L143 190 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.3"/>
+  <circle cx="120" cy="175" r="1" fill="#c49a3c" opacity="0.4"/>
+  <circle cx="105" cy="168" r="0.8" fill="#e0c878" opacity="0.3"/>
+  <circle cx="90" cy="172" r="1.2" fill="#c49a3c" opacity="0.35"/>
+  <circle cx="10" cy="190" r="3" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="10" cy="190" r="1.2" fill="#e0c878" opacity="0.4"/>
+</svg></div>
+  <div class="orn-corn orn-bl"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <path d="M10 10 L190 10 L190 190" fill="none" stroke="#8a6820" stroke-width="1.2" opacity="0.5"/>
+  <path d="M15 10 L190 10 L190 185" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.35"/>
+  <path d="M40 10 Q40 160 100 170" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.3"/>
+  <path d="M25 20 L32 30 L39 20 L32 10 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.4"/>
+  <circle cx="10" cy="10" r="3" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="10" cy="10" r="1.2" fill="#e0c878" opacity="0.4"/>
+</svg></div>
+  <div class="orn-corn orn-br"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <path d="M190 10 L10 10 L10 190" fill="none" stroke="#8a6820" stroke-width="1.2" opacity="0.5"/>
+  <path d="M185 10 L10 10 L10 185" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.35"/>
+  <path d="M160 10 Q160 160 100 170" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.3"/>
+  <path d="M175 20 L168 30 L161 20 L168 10 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.4"/>
+  <circle cx="190" cy="10" r="3" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="190" cy="10" r="1.2" fill="#e0c878" opacity="0.4"/>
+</svg></div>
+</div>
+<div id="progress-bar"></div>
+<div id="topnav">
+  <span class="tn-title">DEMIURGENT</span>
+  <div class="tn-btns">
+    <button class="nav-btn" id="theme-btn" onclick="toggleTheme()">◐</button>
+    <button class="nav-btn" onclick="toggleToc()">☷</button>
+    <a href="index.html" class="nav-btn">⌂</a>
+  </div>
+</div>
+<div id="toc-overlay"><button id="toc-close" onclick="toggleToc()">&times;</button><h3>Contents</h3><div class="toc-inner" id="toc-inner"></div></div>
+<div id="content">
+<div class="ch-header ">
+  <div class="ch-ornament-inner"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 50">
+  <!-- outer pillars -->
+  <rect x="60" y="20" width="1.5" height="30" fill="#c49a3c" opacity="0.45"/>
+  <rect x="238" y="20" width="1.5" height="30" fill="#c49a3c" opacity="0.45"/>
+  <!-- pointed arch -->
+  <path d="M60 25 Q150 0 240 25" fill="none" stroke="#c49a3c" stroke-width="1" opacity="0.5"/>
+  <!-- inner arch -->
+  <path d="M75 25 Q150 8 225 25" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.35"/>
+  <!-- tracery circle at apex -->
+  <circle cx="150" cy="14" r="6" fill="none" stroke="#e0c878" stroke-width="0.6" opacity="0.5"/>
+  <circle cx="150" cy="14" r="2" fill="#e0c878" opacity="0.4"/>
+  <!-- base line -->
+  <line x1="40" y1="48" x2="110" y2="48" stroke="#8a6820" stroke-width="0.6" opacity="0.35"/>
+  <line x1="190" y1="48" x2="260" y2="48" stroke="#8a6820" stroke-width="0.6" opacity="0.35"/>
+  <!-- center ornament -->
+  <path d="M140 46 L150 36 L160 46 L150 42 Z" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.5"/>
+  <circle cx="150" cy="48" r="1.5" fill="#c49a3c" opacity="0.4"/>
+</svg></div>
+  <div class="ch-part-label">Part Four — The Keeping</div>
+  <div class="ch-title">Chapter Thirty Two — The Tacet</div>
+</div>
+<p>The quiet lasted four days.</p>
+<p>He spent them the way the whole tower spent them, in the strange loose gentleness of a machine unclenching: the collars coming off in the squares below, the fen songs on Vex's masterless channels, the seven voices of the screens bickering into ordinary humanity, and under all of it, for a man trained to hear the floor of things, a wrongness he could not source. The instruments were quiet. That was the wrongness. He had lived forty years inside an Empire that was never quiet, and he stood at the parapet on the fourth evening with the wire moving in his fingers and understood that he was listening for something specific, and that it was not the grid, and it was not the drawers, and then Cinder came off the rail beside him, hard, at nothing, and faced south with her feathers flat, and he knew what he had been listening for. Wings.</p>
+<p>The cantus had a last page. He would piece its history together over the following days, from Voss's sealed addenda and one leaked provisioning file and the arithmetic he had done all his life, and the history was short, because the halls had written it the way they wrote everything, in advance, with annexes. The handlerless line had never been declined. His refusals, thirteen years of DECLINED, PROGRAM FOUNDER in his own hand, had been filed, and honored in the filing, and circumvented in a second valley he had never been told existed, carried on the provisioning rolls under the drafters' own bloodless name for it, the Aviary, where the wings he would not build had been built without governors, and armed, and taught, and set under a standing order the drafters called, in the cantus's own grammar, the tacet: <em>should the performance fail, the theater is struck.</em> The drafting signatures were two decades old, and the second of them, confident, unhurried, formed in the years before the hand had ever once paused mid arch, was Ignis's. It should not have surprised him, and it broke something in him anyway, quietly, a small load bearing thing he did not have time to name: the clause was not spite. Read in that warm old hand, it was doctrine, the plan carried to its last devoted station. The plan was the mercy. A performance that failed would leave a hundred million vessels open and unfilled, and the man who believed emptiness was the only unbearable outcome had signed, in perfect love, for the fire instead. It did not need the looms. That was the art of it, and the horror, and the reason the burning had not reached it: the thinking had been done years before, at full draw, and cast into the wings as standing orders, the way a will outlives the man. A glamour does not need to think to fall. Autonomy was never a triumph of the machine's mind. It was the machine arranging to survive its own death. The drafting called the line the Seraphim, and the name was provisioning, like everything else: when they rose, they would rise as the heralds the vigils had spent a decade promising. It was also, though no hand in the drafting could have known it, blasphemy of a terrible precision. There were true seraphim. The oldest liturgies had kept the word for the ones who cross from the far side of the sky, beings of pure pattern walking a world of noise, and the word had waited four hundred years in the recensions for the halls to spend it on empty machines, and exactly one of the true kind stood in the Concord that night, at a parapet, listening south, forty years into declining to burn anything. And Cinder, on the rail beside him, feathers flat, was neither: not a far sider, not a made thing, not even of the program's shaped lines, the sunhawks and ashwolves his art had raised. She was the world's own, oldest stock, the country's answer to the country's guest. The made wings the corps flew answered their handlers; the bonded beasts consented; she alone had simply chosen, and everything she had ever done for him had been hers to withhold, which was the only reason it had ever meant anything. The Seraphim of the second valley could do none of these things. They could not refuse. They could not even want. Consent was the art. Autonomy was its corpse.</p>
+<p>And it needed keys, because even the drafters had not trusted a fire with no hands at all, and the keys were the cruelest annex of a cruel age. Nine austringers of the outer wings, taken in the last sweeps of the mandate winter at remote posts, in the severance's confusion, and collared. The corps had believed its people untakeable; the corps had been wrong by nine; and the collar did to a bonded handler what it did to every throat it closed on, which was to make the wearer's inmost channel the property of the halls. Then the halls did the thing his art had always sworn could not be done, and did it without breaking the law of the vessel at all: nothing foreign was poured in. The nine were emptied, and given themselves back wrong, their own lives returned at weights no mind could carry, childhoods priced as threats, the bond priced as hunger, the sky priced as home and the ground as enemy, and what rose from the second valley rode the wings screaming, in voices that had once had provinces, mad in a way this world had no prior word for because madness had never before been manufactured to a specification. The one thing the mews had refused for thirteen years, wings governed without consent, the Chorus achieved in its last week by collaring the governors and scrambling the souls inside them. And the procedure had a lineage he recognized the way one recognizes a family face: the collared bond, the carrying collar, the overhearing fed back into the mind it robbed, all of it first observed in a fen boy in his own valley, entered in his own grounding order, reported in his own petition. The specialized care the halls had recalled Tarn into had been a workshop. The recipe for the riders had been written on a child he had let the wagon take, and the nine names in Edda's hand were the descendants of his one compliance. And the riders were seen. They were meant to be seen: figures in the high dark on impossible wings, keening over the burning provinces, and every soul below who looked up did the arithmetic the decade of manufactured visitations had taught them to do. The heralds had come. The Visitors were real. The sky's own riders were burning the world, exactly as the vigils had warned, and the men who had scrambled nine of the gentlest minds in the Empire into flying nightmares had known, when they wrote the annex, precisely what the silhouettes would be taken for. He read the nine names in Edda's hand and knew four of them, and the wire stopped moving in his fingers, and did not move again for a long time.</p>
+<p>The wings went up from the Aviary on the fifth dawn, and the tacet played.</p>
+<p>There was no battle. He needed the record to hold that plainly, because the criers would spend a generation describing the battle, and there was none: there was delivery. The wings rode too high for arrows and answered no hail, and what they delivered had been waiting in reservoirs under the second valley since before the eclipse, the arrays' undrained stocks and the quicksalt years and the vials the sky ledgers had scheduled for a harsher phase of the Soured Sky, all of it seeded into the high air along the weather lines, patiently, province by province, and then the grey rain began. It did not flatten cities. It made them unlivable at the pace of seasons: water that carried a taste of iron and regret, fields that came up wrong, a winter that arrived in the wrong month and would not keep to any month again, burns that surfaced on the skin of the rain caught weeks after the sky had cleared. The Concord was not killed. It was scoured, slowly, by its own provisioning, delivered by its own stolen wings, under orders written by men who had preferred a dead herd to a freed one.</p>
+<p>The lanterns carried it. He assembled that detail later, from traffic logs smuggled down with the last riders, and it was the one his mind kept returning to. The riders' collars were channels, and the channels were open, and the nine minds the Aviary had scrambled screamed down the bond the whole time they flew. High over the weather, on their fixed roads, the Visionary's lanterns heard the screaming and did what they had been built in love to do with any voice the Song gave them. They carried it. Relay was their whole nature; nobody in the charter years had thought to teach them to ask what they relayed; and so the keening of nine stolen austringers went out from the top of the sky on the Song's oldest circuit, into every basin the severance had left lit, in the very hour the grey rain fell. What the Empire heard was heralds, crying from above the clouds, on the one channel three generations had been taught was incorruptible, and the wings below rode the lantern roads to their delivery lines like carts keeping to a good turnpike. The man the fourth account would cast as the mad architect had built his high fleet so that no soul in the Empire would ever be alone in the dark. In the dark hour, no soul was. The tacet had not needed to seize his lanterns. It had only needed to speak to them, and they, faithful, had answered.</p>
+<p>The story was ready before the ash was.</p>
+<p>That was how he knew, finally and past all argument, whose wings they were. Within a single day the surviving crier web carried one account in three registers, fitted to three audiences with the bespoke tailoring he knew from a cold chamber: for the halls' remnant and the reading towns, a foreign engine, an Osmaran glamour built beyond the Narrow Sea and guided in by the Vael, striking the Concord in its hour of holy weakness, the enemy who could not reply cast one last time in the part written for them. For the chapels and the kneeling lanes, the Veil had opened and the Visitors had come through, exactly as the vigils had always warned, the lights in the sky at last collecting what the dissonant had invited. And for the fens and the moors, nothing, because the fens and the moors had stopped being told things, and knew it, and set their milk out facing the second valley.</p>
+<p>There was a fourth account, and it did not ride the criers. It moved under seal, through what remained of the halls' own channels, for the apparatus alone: the Visionary denounced. Solan Ignis, named in full, charged as the corrupted architect, the enemy of the people, the hand that had rewired the sky's riders and loosed the burning, the one rot in an otherwise faithful instrument, and the denunciation was signed, and the signature was Grisaille's. Aurelius read a smuggled copy of it by taper in the deep courts and sat very still with it for a long time, because he had known that hand for thirty years by exactly one property, which was that it never, under any circumstance, on any paper, appeared. The stillest woman in the Empire had spent a lifetime declining to exist, and here she was, existing, legibly, in the one document the surviving apparatus would keep. It was not a confession and it was not a betrayal. It was composition. The system was being given its scapegoat while its own name was washed, one man fed to the record so the machine could survive its machine, and the whole of it, the wings, the rain, the heralds, the foreign engine, the mad architect, read as one drafting, four stories for four audiences, provisioned like everything else, and the only signature anywhere in the set belonged to a woman whose signature was a costume. He never resolved what she bought with it, or for whom. He entered it under the heading he kept for her alone, which was: performed. The position, once more, had performed. He was no longer certain the position had ever had anyone standing in it.</p>
+<p>Aurelius read the bulletins by taper in a valley filling with refugees and recognized the hand, and the recognition had a taste. Years of dusk flights over dissonant villages. Years of lights seeded into rural sheets, of visitations manufactured on a docket, of a population rehearsed, patiently, at scale, to look at its own government's instruments and report the otherworld. It had never been cover for the flights. The flights had been rehearsal for this bulletin. The Empire had been taught for a decade the grammar of a burning sky, so that on the night the state scoured its own herd, every surviving soul would already know the arsonist's name, and the name was foreign, and the name was otherworldly, and the name was anything at all except the Chorus. The alibi had annexes. Even the lie was lawful: stapled behind the first bulletin, for the halls' remnant, rode an instrument from the Remembrancer's office citing the Accord on Foreign Workings, drafted in advance and dated for the morning after the wings, the man doing to the end what he had always done, which was to make a thing true on paper before it was done to people. The lie was provisioned like the rest, in advance, and delivered on schedule, into the vacancy the grief made, and it seated the way the fill had always seated, because a scoured people wants a story the size of its wound, and <em>we did this to ourselves by our leave</em> is never the size. He entered the finding at the bottom of the age's account, where it has stood ever since:</p>
+<p>The Chorus's first weapon had been a story, and its last weapon was a story, and the fire in between was only ever the story's enforcement arm.</p>
+<hr />
+<p>Word came up from the south with the last riders. Ignis would not come to the mountain. He had been told the way was open, by name, in the first evacuation, and had sent back four lines in a hand that aged as the harvest's arrears arrived in it, and the lines said: <em>An architect stays in the building. I am transcribing the first settings while the light lasts. The error was the correcting; let the correction end above ground, where it was made. Go down, Aurelius. You always did keep better than you emptied.</em> He read the lines differently after he read the drafting signatures, and differently again after the denunciation, and settled at last on the reading that had room for all of it: the man had known what stood over the clause in his own young hand, had known the wings were his in every way that would matter to any honest ledger, and had chosen, with the arrears arriving and the whole apparatus preparing to hang its sins on him, not to contest the hanging. The scapegoat had read his casting and accepted the part, because for once in the age's long theater the part was, in substance if not in particulars, true. He stayed at the plain table, by every account that ever reached the deep, transcribing the unrevised verses into fair copies as the grey rain came to the high chambers, and what became of him no record holds, and Aurelius kept the lines, and never once read them without standing.</p>
+<p>Vex's architecture carried true things at the end, which had never once been its office. Roads. Wind bearings ahead of the rain. The mountain's name, plainly, with directions, on every basin he still held, in the voice every soul in the Concord had been taught its whole life to trust, spending a lifetime's credibility in three days to move the herd he had helped pen. The channels stayed up long past the hour when a man routing them still had anywhere to go. The showman had told him the whole secret once, at a festival, at the wine: no corpse, no miracle. The evacuation was the one production he never appeared in, and it was the miracle, and he stinted nothing.</p>
+<p>And in the deep courts of the undermews, at the bottom of the last stair, the doors to the old galleries stood already open, and inside them, ranked along walls no survey had ever mapped, crates. Grain and wax and salt and seed, tools and cloth and the dull particular furniture of survival, years of it, decades of it, inventoried in a hand with no wrist and no province, the manifests signed in advance, the last line of the last page initialed in a cipher he had seen once on a chit and never since. No record said when it had been laid in. No record said anything; that had always been her office. The position, said the crates, in the only language she had ever fully trusted, has performed. He would find, in time, exactly one error in the whole provision, one entry cased against damp instead of time, and a hungry third winter under the world to remember it by, and he would never decide which frightened him more: that the stillest hand in the Empire had missed something, or that it had not.</p>
+<p>He stood in the opened dark with a taper, at the head of a nation of refugees, at the root of the mountain the Chorus had spent a century mistaking for a foundation, and gave the only order the age had left him. They went down.</p>
+<div class="bottom-nav"><a href="chapter-thirty-one-the-severance.html">&larr; Previous</a><span class="bn-center">38 of 40</span><a href="chapter-thirty-three-the-keeping-under.html">Next &rarr;</a></div>
+</div>
+<script>
+var slugs=["epigraph", "chapter-one-the-mercy", "interlude-i-the-wrong-sky", "chapter-two-keeping-tune", "chapter-three-the-drawers", "chapter-four-the-papers", "interlude-ii-the-early-net", "chapter-five-the-table", "chapter-six-the-mews", "chapter-seven-the-quiet-hand", "chapter-eight-the-screens", "interlude-iii-the-gentling", "chapter-nine-the-attuned", "chapter-ten-the-held-breath", "chapter-eleven-the-mother", "chapter-twelve-the-taper", "chapter-thirteen-the-correction", "chapter-fourteen-the-sounding", "chapter-fifteen-the-waypost", "chapter-sixteen-the-witness", "chapter-seventeen-the-rehearsal", "chapter-eighteen-the-wardsill", "chapter-nineteen-the-manifest", "chapter-twenty-hill-to-hill", "interlude-iv-the-recruitment", "chapter-twenty-one-the-homecoming", "chapter-twenty-two-the-congregation", "chapter-twenty-three-the-year-of-tapers", "chapter-twenty-four-the-ash", "chapter-twenty-five-the-shadow", "chapter-twenty-six-the-cathedral", "chapter-twenty-seven-the-refusal", "chapter-twenty-eight-the-descent", "interlude-v-the-first-hollowing", "chapter-twenty-nine-the-threshold", "chapter-thirty-the-wild-fire", "chapter-thirty-one-the-severance", "chapter-thirty-two-the-tacet", "chapter-thirty-three-the-keeping-under", "chapter-thirty-four-the-relighting"],titles=["Epigraph", "Chapter One \u2014 The Mercy", "Interlude I \u2014 The Wrong Sky", "Chapter Two \u2014 Keeping Tune", "Chapter Three \u2014 The Drawers", "Chapter Four \u2014 The Papers", "Interlude II \u2014 The Early Net", "Chapter Five \u2014 The Table", "Chapter Six \u2014 The Mews", "Chapter Seven \u2014 The Quiet Hand", "Chapter Eight \u2014 The Screens", "Interlude III \u2014 The Gentling", "Chapter Nine \u2014 The Attuned", "Chapter Ten \u2014 The Held Breath", "Chapter Eleven \u2014 The Mother", "Chapter Twelve \u2014 The Taper", "Chapter Thirteen \u2014 The Correction", "Chapter Fourteen \u2014 The Sounding", "Chapter Fifteen \u2014 The Waypost", "Chapter Sixteen \u2014 The Witness", "Chapter Seventeen \u2014 The Rehearsal", "Chapter Eighteen \u2014 The Wardsill", "Chapter Nineteen \u2014 The Manifest", "Chapter Twenty \u2014 Hill to Hill", "Interlude IV \u2014 The Recruitment", "Chapter Twenty One \u2014 The Homecoming", "Chapter Twenty Two \u2014 The Congregation", "Chapter Twenty Three \u2014 The Year of Tapers", "Chapter Twenty Four \u2014 The Ash", "Chapter Twenty Five \u2014 The Shadow", "Chapter Twenty Six \u2014 The Cathedral", "Chapter Twenty Seven \u2014 The Refusal", "Chapter Twenty Eight \u2014 The Descent", "Interlude V \u2014 The First Hollowing", "Chapter Twenty Nine \u2014 The Threshold", "Chapter Thirty \u2014 The Wild Fire", "Chapter Thirty One \u2014 The Severance", "Chapter Thirty Two \u2014 The Tacet", "Chapter Thirty Three \u2014 The Keeping Under", "Chapter Thirty Four \u2014 The Relighting"],ints=[false, false, true, false, false, false, true, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false],current='chapter-thirty-two-the-tacet';
+var read=JSON.parse(localStorage.getItem('dg-read')||'{}');read[current]=true;
+localStorage.setItem('dg-read',JSON.stringify(read));localStorage.setItem('dg-last',current);
+function buildToc(){var h='';for(var i=0;i<slugs.length;i++){var c=ints[i]?'toc-int':'toc-ch',a='';if(slugs[i]===current)a='current';else if(read[slugs[i]])a='read';h+='<div class="'+c+'"><a href="'+slugs[i]+'.html" class="'+a+'">'+titles[i]+'</a></div>';}document.getElementById('toc-inner').innerHTML=h;}buildToc();
+function toggleToc(){document.getElementById('toc-overlay').classList.toggle('open');}document.getElementById('toc-overlay').addEventListener('click',function(e){if(e.target===this)this.classList.remove('open');});
+function toggleTheme(){document.body.classList.toggle('light');var l=document.body.classList.contains('light');localStorage.setItem('dg-theme',l?'light':'dark');document.getElementById('theme-btn').textContent=l?'◑':'◐';}
+if(localStorage.getItem('dg-theme')==='light'){document.body.classList.add('light');document.getElementById('theme-btn').textContent='◑';}
+window.addEventListener('scroll',function(){var p=window.scrollY||document.documentElement.scrollTop;var d=document.documentElement.scrollHeight-window.innerHeight;document.getElementById('progress-bar').style.width=d>0?Math.min((p/d)*100,100)+'%':'0';});
+document.addEventListener('keydown',function(e){if(e.key==='ArrowRight'&&'chapter-thirty-three-the-keeping-under')window.location='chapter-thirty-three-the-keeping-under.html';if(e.key==='ArrowLeft'&&'chapter-thirty-one-the-severance')window.location='chapter-thirty-one-the-severance.html';});
+var fs=parseInt(localStorage.getItem('dg-fs')||'18');document.body.style.fontSize=fs+'px';
+</script>
+</body></html>

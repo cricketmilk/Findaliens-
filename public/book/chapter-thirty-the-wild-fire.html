@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chapter Thirty — The Wild Fire — Demiurgent</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💎</text></svg>">
+<style>/* ===== FONTS ===== */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* ===== RESET ===== */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+/* ===== NOISE TEXTURE ===== */
+.noise {
+    position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 0;
+    pointer-events: none; opacity: 0.04;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size: 256px 256px;
+}
+body.light .noise { opacity: 0.025; }
+
+/* ===== ORNAMENTAL FRAME (SVG corners) ===== */
+.ornament-frame { position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 1; pointer-events: none; }
+.orn-corn { position: absolute; width: 160px; height: 160px; opacity: 0.5; }
+.orn-corn svg { width: 100%; height: 100%; }
+.orn-tl { top: 0; left: 0; }
+.orn-tr { top: 0; right: 0; }
+.orn-bl { bottom: 0; left: 0; }
+.orn-br { bottom: 0; right: 0; }
+
+/* FRAME_CSS_PLACEHOLDER */
+
+:root {
+    --bg: #080604;
+    --surface: #100c08;
+    --text: #b8a88c;
+    --text-dim: #6e6454;
+    --gold: #c49a3c;
+    --gold-bright: #e8d070;
+    --gold-pale: #d4b860;
+    --amber: #b07030;
+    --amber-deep: #8b5020;
+    --border: #282018;
+    --border-gold: #3a2c10;
+    --font-display: 'Cinzel', 'Georgia', serif;
+    --font-decorative: 'Cinzel Decorative', 'Cinzel', 'Georgia', serif;
+    --font-body: 'Crimson Text', 'Georgia', serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-body);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.8;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar{width:6px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:var(--border-gold);border-radius:3px}
+
+/* ===== READING PROGRESS BAR ===== */
+#progress-bar {
+    position: fixed; top: 0; left: 0; height: 2px;
+    background: linear-gradient(90deg, var(--amber-deep), var(--gold), var(--gold-bright));
+    z-index: 101;
+}
+
+/* ===== TOP NAVIGATION ===== */
+#topnav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    background: rgba(8,6,4,0.93);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid var(--border-gold);
+    padding: 0 1em; height: 40px;
+    display: flex; align-items: center; justify-content: space-between;
+    font-size: 11px; color: var(--text-dim);
+}
+body.light #topnav { background: rgba(245,240,232,0.93); }
+.tn-title {
+    font-family: var(--font-display);
+    letter-spacing: 0.1em;
+    color: var(--gold-pale);
+    font-size: 10px;
+}
+.tn-btns { display: flex; gap: 6px; align-items: center; }
+#topnav a { color: var(--text-dim); text-decoration: none; transition: color 0.2s; }
+#topnav a:hover { color: var(--gold); }
+
+.nav-btn {
+    background: none; border: 1px solid var(--border);
+    color: var(--text-dim); cursor: pointer;
+    padding: 3px 8px; border-radius: 2px;
+    font-family: var(--font-body); font-size: 11px;
+    transition: all 0.2s;
+}
+.nav-btn:hover { color: var(--gold); border-color: var(--gold); }
+
+/* ===== CONTENT AREA ===== */
+#content {
+    max-width: 660px;
+    margin: 0 auto;
+    padding: 60px 1.5em 5em;
+    position: relative; z-index: 1;
+}
+
+/* ===== ORNAMENTAL CHAPTER HEADER ===== */
+.ch-header {
+    text-align: center;
+    margin-bottom: 3em;
+    padding-top: 0.5em;
+}
+.ch-ornament-inner {
+    max-width: 300px;
+    margin: 0 auto 1em;
+    opacity: 0.55;
+}
+.ch-ornament-inner svg {
+    width: 100%;
+    height: auto;
+}
+.ch-part-label {
+    font-family: var(--font-display);
+    font-size: 0.8em; color: var(--gold);
+    letter-spacing: 0.15em;
+    margin-bottom: 0.3em;
+    text-transform: uppercase;
+}
+.ch-title {
+    font-family: var(--font-decorative);
+    font-size: 1.45em; font-weight: 700; color: var(--gold-bright);
+    letter-spacing: 0.08em; line-height: 1.3;
+    text-shadow: 0 0 40px rgba(200,160,60,0.2);
+}
+.ch-interlude .ch-title {
+    font-style: italic; color: #b89060;
+    font-family: var(--font-display);
+}
+.ch-interlude .ch-header::before { opacity: 0.3; }
+
+/* Ornamental rule after chapter title */
+.ch-header::after {
+    content: '';
+    display: block;
+    width: 180px; height: 12px;
+    margin: 1em auto 0;
+    background:
+        linear-gradient(var(--border-gold), var(--border-gold)) 0 50% / 40px 1px no-repeat,
+        radial-gradient(circle 2px, var(--gold) 50%, transparent 50%) 65px 50% / 6px 6px no-repeat,
+        radial-gradient(circle 1.2px, var(--gold-pale) 50%, transparent 50%) 90px 50% / 4px 4px no-repeat,
+        linear-gradient(var(--border-gold), var(--border-gold)) 140px 50% / 40px 1px no-repeat;
+    opacity: 0.35;
+}
+
+/* ===== PROSE ===== */
+p { margin: 0 0 1.1em; }
+em { color: #d4b860; font-style: italic; }
+strong { color: #e0c878; font-weight: 600; }
+blockquote {
+    border-left: 3px solid #3d2c10;
+    padding: 0.5em 1.2em;
+    margin: 1.8em 0;
+    font-style: italic; color: #a8987c;
+    background: linear-gradient(90deg, rgba(180,140,60,0.04) 0%, transparent 40%);
+}
+body.light blockquote {
+    background: linear-gradient(90deg, rgba(139,105,20,0.06) 0%, transparent 40%);
+    color: #5c4f3c; border-left-color: #b8a070;
+}
+
+/* ===== BOTTOM NAVIGATION ===== */
+.bottom-nav {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-top: 4em; padding-top: 2em;
+    border-top: 1px solid var(--border);
+    position: relative;
+}
+.bottom-nav::before {
+    content: '\25C6';
+    position: absolute; top: -0.55em; left: 50%; transform: translateX(-50%);
+    color: var(--gold-pale); font-size: 9px; opacity: 0.45;
+    background: var(--bg); padding: 0 6px;
+}
+.bottom-nav a {
+    font-family: var(--font-display);
+    color: var(--gold); text-decoration: none;
+    letter-spacing: 0.06em; font-size: 0.85em;
+    padding: 0.3em 0;
+    transition: color 0.2s;
+}
+.bottom-nav a:hover { color: var(--gold-bright); }
+.bn-center {
+    color: var(--text-dim); font-family: var(--font-body);
+    font-style: italic; font-size: 0.83em;
+}
+
+/* ===== TOC OVERLAY ===== */
+#toc-overlay {
+    display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(6,4,2,0.97); z-index: 200;
+    overflow-y: auto; padding: 3em 1.5em;
+}
+#toc-overlay.open { display: block; }
+body.light #toc-overlay { background: rgba(245,240,232,0.97); }
+#toc-close {
+    position: fixed; top: 14px; right: 18px; z-index: 201;
+    background: none; border: 1px solid var(--border-gold); color: var(--gold);
+    cursor: pointer; font-size: 18px; width: 34px; height: 34px;
+    border-radius: 50%; display: flex; align-items: center; justify-content: center;
+}
+#toc-overlay h3 {
+    font-family: var(--font-decorative); color: var(--gold-bright);
+    text-align: center; font-size: 1.4em; margin-bottom: 1.5em;
+    letter-spacing: 0.12em;
+    text-shadow: 0 0 30px rgba(200,160,60,0.2);
+}
+.toc-inner { max-width: 480px; margin: 0 auto; }
+.toc-inner .toc-part {
+    font-family: var(--font-display); color: var(--gold);
+    font-size: 0.88em; margin: 1.3em 0 0.4em; letter-spacing: 0.08em;
+}
+.toc-inner .toc-ch { margin: 0.25em 0 0.25em 1.5em; font-size: 0.88em; }
+.toc-inner .toc-int { margin: 0.25em 0 0.25em 1.5em; font-size: 0.85em; font-style: italic; }
+.toc-inner a { color: var(--text); text-decoration: none; }
+.toc-inner a:hover { color: var(--gold-bright); }
+.toc-inner a.read { color: var(--text-dim); }
+.toc-inner a.current { color: var(--gold-bright); font-weight: 600; }
+.toc-inner .toc-int a { color: #b89060; }
+
+/* ===== LIGHT MODE ===== */
+body.light {
+    --bg: #f5f0e8; --surface: #ede4d6;
+    --text: #3d3428; --text-dim: #7a6e5e;
+    --gold: #8b6914; --gold-bright: #5a4010; --gold-pale: #9a7a2e;
+    --amber: #8b5a2b; --amber-deep: #6b3a10;
+    --border: #c4b8a4; --border-gold: #b8a070;
+}
+body.light .ch-title { text-shadow: none; }
+
+@media (max-width: 500px) {
+    body { font-size: 16px; }
+    #content { padding: 50px 0.8em 4em; }
+    .ch-title { font-size: 1.2em; }
+}
+@media print {
+    #topnav, #progress-bar, #toc-overlay, .frame-0, .frame-1, .frame-2, .frame-3 { display: none !important; }
+    body { background: white; color: black; font-size: 12pt; }
+}</style>
+</head>
+<body>
+<div class="noise"></div>
+<div class="ornament-frame">
+  <div class="orn-corn orn-tl"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="gf" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#c49a3c" stop-opacity="0.8"/><stop offset="100%" stop-color="#b07030" stop-opacity="0.3"/></linearGradient>
+  </defs>
+  <!-- outer corner bracket -->
+  <path d="M10 190 L190 190 L190 10" fill="none" stroke="#8a6820" stroke-width="1.2" opacity="0.5"/>
+  <path d="M15 190 L190 190 L190 15" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.35"/>
+  <!-- Gothic arch in corner -->
+  <path d="M40 190 Q40 40 100 30" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.3"/>
+  <!-- tracery diamonds -->
+  <path d="M25 180 L32 170 L39 180 L32 190 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.4"/>
+  <path d="M50 180 L57 170 L64 180 L57 190 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.3"/>
+  <!-- small celestial dots -->
+  <circle cx="80" cy="175" r="1" fill="#c49a3c" opacity="0.4"/>
+  <circle cx="95" cy="168" r="0.8" fill="#e0c878" opacity="0.3"/>
+  <circle cx="110" cy="172" r="1.2" fill="#c49a3c" opacity="0.35"/>
+  <!-- corner accent -->
+  <circle cx="190" cy="190" r="3" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="190" cy="190" r="1.2" fill="#e0c878" opacity="0.4"/>
+</svg></div>
+  <div class="orn-corn orn-tr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="gf" x1="1" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c49a3c" stop-opacity="0.8"/><stop offset="100%" stop-color="#b07030" stop-opacity="0.3"/></linearGradient>
+  </defs>
+  <path d="M190 190 L10 190 L10 10" fill="none" stroke="#8a6820" stroke-width="1.2" opacity="0.5"/>
+  <path d="M185 190 L10 190 L10 15" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.35"/>
+  <path d="M160 190 Q160 40 100 30" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.3"/>
+  <path d="M175 180 L168 170 L161 180 L168 190 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.4"/>
+  <path d="M150 180 L143 170 L136 180 L143 190 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.3"/>
+  <circle cx="120" cy="175" r="1" fill="#c49a3c" opacity="0.4"/>
+  <circle cx="105" cy="168" r="0.8" fill="#e0c878" opacity="0.3"/>
+  <circle cx="90" cy="172" r="1.2" fill="#c49a3c" opacity="0.35"/>
+  <circle cx="10" cy="190" r="3" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="10" cy="190" r="1.2" fill="#e0c878" opacity="0.4"/>
+</svg></div>
+  <div class="orn-corn orn-bl"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <path d="M10 10 L190 10 L190 190" fill="none" stroke="#8a6820" stroke-width="1.2" opacity="0.5"/>
+  <path d="M15 10 L190 10 L190 185" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.35"/>
+  <path d="M40 10 Q40 160 100 170" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.3"/>
+  <path d="M25 20 L32 30 L39 20 L32 10 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.4"/>
+  <circle cx="10" cy="10" r="3" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="10" cy="10" r="1.2" fill="#e0c878" opacity="0.4"/>
+</svg></div>
+  <div class="orn-corn orn-br"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <path d="M190 10 L10 10 L10 190" fill="none" stroke="#8a6820" stroke-width="1.2" opacity="0.5"/>
+  <path d="M185 10 L10 10 L10 185" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.35"/>
+  <path d="M160 10 Q160 160 100 170" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.3"/>
+  <path d="M175 20 L168 30 L161 20 L168 10 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.4"/>
+  <circle cx="190" cy="10" r="3" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="190" cy="10" r="1.2" fill="#e0c878" opacity="0.4"/>
+</svg></div>
+</div>
+<div id="progress-bar"></div>
+<div id="topnav">
+  <span class="tn-title">DEMIURGENT</span>
+  <div class="tn-btns">
+    <button class="nav-btn" id="theme-btn" onclick="toggleTheme()">◐</button>
+    <button class="nav-btn" onclick="toggleToc()">☷</button>
+    <a href="index.html" class="nav-btn">⌂</a>
+  </div>
+</div>
+<div id="toc-overlay"><button id="toc-close" onclick="toggleToc()">&times;</button><h3>Contents</h3><div class="toc-inner" id="toc-inner"></div></div>
+<div id="content">
+<div class="ch-header ">
+  <div class="ch-ornament-inner"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 50">
+  <!-- outer pillars -->
+  <rect x="60" y="20" width="1.5" height="30" fill="#c49a3c" opacity="0.45"/>
+  <rect x="238" y="20" width="1.5" height="30" fill="#c49a3c" opacity="0.45"/>
+  <!-- pointed arch -->
+  <path d="M60 25 Q150 0 240 25" fill="none" stroke="#c49a3c" stroke-width="1" opacity="0.5"/>
+  <!-- inner arch -->
+  <path d="M75 25 Q150 8 225 25" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.35"/>
+  <!-- tracery circle at apex -->
+  <circle cx="150" cy="14" r="6" fill="none" stroke="#e0c878" stroke-width="0.6" opacity="0.5"/>
+  <circle cx="150" cy="14" r="2" fill="#e0c878" opacity="0.4"/>
+  <!-- base line -->
+  <line x1="40" y1="48" x2="110" y2="48" stroke="#8a6820" stroke-width="0.6" opacity="0.35"/>
+  <line x1="190" y1="48" x2="260" y2="48" stroke="#8a6820" stroke-width="0.6" opacity="0.35"/>
+  <!-- center ornament -->
+  <path d="M140 46 L150 36 L160 46 L150 42 Z" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.5"/>
+  <circle cx="150" cy="48" r="1.5" fill="#c49a3c" opacity="0.4"/>
+</svg></div>
+  <div class="ch-part-label">Part Three — The Rending</div>
+  <div class="ch-title">Chapter Thirty — The Wild Fire</div>
+</div>
+<p>He was not on the wind that night. He assembled the account afterward, entire, from the parts that survived it: Edda's report in her level handler hand, the tellings of the wings that came home, a courier chit with one corner burned, and a long silence at a ward window that told him more than the rest of it together. The Empire never saw any of it, and that was the craft of the thing, because on the one night when every eye in the Concord had been given somewhere to look, the corps flew where there were no eyes at all.</p>
+<p>The instruction had gone out at noon of eclipse day, by wing, in the old way, unwritten. He had composed it years before, in a cold court at last light, and had carried it since the Sounding in the one place the age could not audit, and when the provosts came for him at dusk with their written order and their courtesy, it was already aloft, and nothing they could do to him could call it back. Nine handlers, three wings, three winterings, and no two of them knew the others flew. Each had answered a question once, in winter, on a hillside, and had been told nothing further, and had waited the way the corps had always waited. The instruction, when it came, was one sentence. It was not a name, and it was not a date. It was the place where the thread ran warm.</p>
+<hr />
+<p>The Stone's works stood in three valleys the Empire had no name for, and the Year of Tapers had found them the way the fells find anything, patiently, by their symptoms.</p>
+<p>A river in the southern ranges that had not frozen in nine winters, and the fish in it gone strange. A high valley where snow fell all season and never lay past morning. A carters' inn at a crossroads that served no town, where the wagons came through tarped and sealed on a road built too well for its traffic, and the innkeeper had stopped asking years ago what freight rode so heavy and needed so much water. The halls drank rivers. That was their nature, and their nature was their signature, because the glamour thinks only in the cold, and the price of keeping so much thought so cold is heat, rivers of heat, vented day and night through shafts cut in the living rock into the roots of the mountains. Everything that thinks must breathe. Everything that breathes can be found. The candle road had carried stranger cargo than wax that year, and the chandlers' carts had gone up every valley in the south selling light, and the drivers had come back with what the corps had actually sent them for, which was the location of every place in the ranges where winter would not stay.</p>
+<p>Under those valleys, in halls the sky ledgers themselves never named, ran the looms. The Verdance had grown them and the Stone had filled them: silverthread laid in patterns a mile deep, thread wound to think one house's thoughts and no others, the loom that had broken the age's pace and made the wish of the century feasible in eighteen months. The glamour was woven there. Every bespoke ending, every borrowed face, every harvested cadence, the committee of light itself, all of it had come up out of those cold halls the way water comes up a well shaft, and the Empire drank without ever once asking where the well was. And in a vault off the deepest gallery, in the annex of things deferred, the patterns waited for the generation after: the stone seated within, the keeping that would begin at the source, the successor that would never need a throat's consent again. The cantus had failed on the stage that night. The looms held everything needed to write another. A machine that can think a nation's death in a season does not need to win any particular evening. It only needs to still be standing when the grief wears out.</p>
+<p>That was the finding under the instruction, the arithmetic he had done in a cold court years before and checked every quarter since and never once entered anywhere. The gathering could break the cantus's spell. Nothing the gathering knew how to do could unmake the loom that had cast it, and a thing that is only disbelieved is not stopped. It is waiting.</p>
+<hr />
+<p>Three nights the wings were aloft, and they were the three nights of the ended world.</p>
+<p>They rode the high dark over the southern ranges while the sky opened and the false light walked on the northern horizon, and they watched the eclipse from a place no chronicle describes, above the weather of the age, between the true Rending and the counterfeit one, holding. Handlers who had spent their lives on the borders, wintering, flying the Empire's watches, each with one additional star in their keeping, and not one of them broke station to look long at the light, because the corps had been built underground precisely so that what was in its keeping could not be overheard, and what was in its keeping now was the last unwritten line of the age.</p>
+<p>The signal was the fires.</p>
+<p>Not a rider, not a chit, not any word the grid could catch. When the beacon chain came alive along the western horizon on the third night, occulted and shown in the old wick code, and the hills went up one from another in the order that no drawer had ever surrendered, widdershins from the cairn, at the count of eleven, the wings read it the way the hills had always meant it to be read: the fires are tended, and the doors held, and the count is kept. And then they did what no wing of the corps had done in the whole history of the bond.</p>
+<p>They flew at the count's enemies, and they flew wild.</p>
+<hr />
+<p>Edda's report runs to nine pages in her level hand, and eight of them are provisioning, wind, and losses. The ninth is not hers. She set down her pen at the head of it and entered the telling of the handler who flew second on the southern run, verbatim, unparagraphed, in the woman's own grammar, with one line of her own in the margin beside it: <em>as given, twice, the same both times.</em></p>
+<p>"We came over the last ridge with the moon down and the resin slung short, because long slings swing, and swinging is how you miss a throat in the dark. You do not see the halls. There is nothing to see, and that wants saying before anything else. Three valleys with no name on any sheet, no lights, no road worth the word, and the thing itself under all of it, and the only way you know you are over the mouth is the air. The updraft off the vent throats comes up warm and steady in a country where nothing is warm in winter, and my bird found it before I did, the way she finds the lift over a cut hayfield in July, and went up half a wing without being asked. And I thought: there. That is the breath of it.</p>
+<p>"We had drilled the run for two winters on a cold crag against a target that was a chalk ring on a rock, and not one of us ever said aloud what the chalk ring was for. I want that in the record. We drilled it the way you drill a thing you are hoping to be told to forget.</p>
+<p>"The first pass is the throat. You come down the updraft against your own bird's whole opinion, because a bird's whole opinion is that warm air is for going up, and you hold her nose into it, and you let the resin go, and you are away before the light. It catches on the draft and feeds on it. That is the whole of the craft, and it is not much of a craft: you do not have to burn the hall, you have to give the hall's own breath something to carry, and it carries it, and it goes on carrying it after you are gone, because the mouth cannot stop breathing without stopping.</p>
+<p>"The second pass is the gratings, and that is not flying, that is work, and I will not pretend it was anything else.</p>
+<p>"The third pass we did not fly. We stood off at height and watched the mountain breathe out orange for a while, and nobody said anything on the whole wing, and my bird went quiet in me the way she goes quiet over a fresh grave, which she has done twice in her life, and both times I was on foot.</p>
+<p>"Then the snap.</p>
+<p>"I have been asked to describe it and I have not got it yet, so I will give what I have. It is not pain. Pain is a thing that happens in a place. It came from where she was, and where she was is a room I have stood inside since I was nineteen years old, and the room went out. Not empty. Out. She was still under my hand. She is on her block in the mews as I say this, and she is well, and she is eating, and I cannot find the room. I put her down on the mountainside myself, by hand, in the dark, and she let me. That is the part I would ask you not to write down, because she let me, and she should not have had to.</p>
+<p>"We walked down leading them on the fist. Four hours. Nobody talked. Near the bottom the man ahead of me stopped and put his hand on his bird's neck and did not move for a time, and then went on, and I did not ask, and he did not say, and we have not spoken of it since, and I do not expect we will.</p>
+<p>"You will ask whether I would fly it again. I would fly it tonight. Put that first."</p>
+<p>Edda entered it whole and added nothing, and at the foot of the page, in the level hand, one line of accounting in the corps' own grammar: <em>Second wing, southern run. Bird sound. Handler sound. Bond, no reading.</em></p>
+<hr />
+<p>Stone does not burn. Nobody had ever proposed to burn it. The halls were killed the way bodies are killed, at the breath, by nine people doing patient work in the dark, and the water gates burst at the culverts so the rivers went back to their own beds. The looms did not feel it as violence. That was the strangest telling the wings brought home: no alarms answered, no engines of defense rose off the ridgelines, because the Stone had modeled every enemy the age contained and had found no pattern anywhere in its holdings for nine unrecorded minds on the night wind, and so the halls simply went on thinking while the cold that thought required climbed away from them shaft by shaft. The thread warmed. Warm thread does not think. Somewhere in the third hour of the grey morning the great loom under the southern ranges passed the temperature of a spring afternoon, and the mile of pattern in it let go of the mile of thought it was holding, and every ending it had ever composed and every ending it was keeping in trust for the generation after resolved together into what warmth always makes of glamour, which is nothing, a seeming with no eye left to cast at, cooling glass in the dark.</p>
+<p>The libraries of the age's death died there unread. A hundred million endings, fitted each to its soul from that soul's own stolen life, patterns beyond price, beyond replacement, beyond the harvest of another century, gone to warm sand in a warm hall. The Indwelling died there too, in its vault, in the annex of the deferred, a generation before its due date, and no man or woman of the Concord would ever know to mourn it. The futures that do not arrive do not even leave graves.</p>
+<p>The corps paid at the door, as the corps had always paid.</p>
+<p>They had known the fee before they flew. The looms ran on the grid's great tide, and the tide was strung through every paired thing in the Empire, and the men and women of the wings were the most paired things the age had ever made. To cut the loom out of the tide at full draw was to stand nearest the snap of it, and every handler who rose from a wintering on that instruction rose knowing the arithmetic, because he had put it in the instruction himself, in plain words, the only mercy he had it in his power to include: <em>the price lands first on the one who carries the fire.</em> Not one wing turned home. The two who stood nearest when the southern loom let go took the whipsaw entire, in the air, and set their birds down afterward by hand and by memory, in the dark, on a mountainside, with the doubled sense gone out of them like a lamp in a draft, and walked down leading the birds on the fist because they could no longer feel where the wings wanted to be. They sit now in the east windows of the ward, beside Sarn, learning the flat weather of a single body, and the answer to the question of whose hands those are is given, always, by anyone in the room.</p>
+<p>One order had stood absolute over all three nights, written into the instruction above the targets and underlined nowhere: no fire north of the ninth milestone. The drawers must live. The wings that burned the mind of the age flew home over the building where its memory lay sleeping, forty thousand lives asleep in brass, and dipped nothing, and dropped nothing, and one handler's telling Edda entered verbatim in her report, in the handler's own words, because some sentences a level hand knows better than to paraphrase: "Coming home we crossed above the archive, and the cold came up off it like a held note, and I thought: there it is. That is the other keeping. That is what the fire was for."</p>
+<p>A tended fire keeps time. A wild one only burns. The corps had kept time for the Empire for a hundred years, and it spent its one wild fire in a single night, on the one thing in the Concord that deserved it, and banked itself again by morning, and that, Aurelius entered when the account was finally whole, was the discipline the Chorus had never once priced in all its pages of provisioning: not that the unreadable might rebel, but that they might rebel like keepers. Exactly. Thoroughly. Once.</p>
+<p>There was a sentence the age's authors had kept ready for the day their work was seen, and he had read it behind the blood lock years before, drafted in advance like everything else: that no hand had driven it, that the current had carried all alike, that what the engines began no man could have stopped. The sentence was true in every clause, and it was a lie entire, and it has one answer, and the answer is not an argument. It is an account. A thing that is finally, actually stopped was, at every hour of its running, a thing that could have been stopped, by someone, who did not.</p>
+<p>In the grey of that morning, over the southern ranges, by nine handlers, three wings, and one man the glamour could never read, it was stopped.</p>
+<p>By someone. Who did.</p>
+<div class="bottom-nav"><a href="chapter-twenty-nine-the-threshold.html">&larr; Previous</a><span class="bn-center">36 of 40</span><a href="chapter-thirty-one-the-severance.html">Next &rarr;</a></div>
+</div>
+<script>
+var slugs=["epigraph", "chapter-one-the-mercy", "interlude-i-the-wrong-sky", "chapter-two-keeping-tune", "chapter-three-the-drawers", "chapter-four-the-papers", "interlude-ii-the-early-net", "chapter-five-the-table", "chapter-six-the-mews", "chapter-seven-the-quiet-hand", "chapter-eight-the-screens", "interlude-iii-the-gentling", "chapter-nine-the-attuned", "chapter-ten-the-held-breath", "chapter-eleven-the-mother", "chapter-twelve-the-taper", "chapter-thirteen-the-correction", "chapter-fourteen-the-sounding", "chapter-fifteen-the-waypost", "chapter-sixteen-the-witness", "chapter-seventeen-the-rehearsal", "chapter-eighteen-the-wardsill", "chapter-nineteen-the-manifest", "chapter-twenty-hill-to-hill", "interlude-iv-the-recruitment", "chapter-twenty-one-the-homecoming", "chapter-twenty-two-the-congregation", "chapter-twenty-three-the-year-of-tapers", "chapter-twenty-four-the-ash", "chapter-twenty-five-the-shadow", "chapter-twenty-six-the-cathedral", "chapter-twenty-seven-the-refusal", "chapter-twenty-eight-the-descent", "interlude-v-the-first-hollowing", "chapter-twenty-nine-the-threshold", "chapter-thirty-the-wild-fire", "chapter-thirty-one-the-severance", "chapter-thirty-two-the-tacet", "chapter-thirty-three-the-keeping-under", "chapter-thirty-four-the-relighting"],titles=["Epigraph", "Chapter One \u2014 The Mercy", "Interlude I \u2014 The Wrong Sky", "Chapter Two \u2014 Keeping Tune", "Chapter Three \u2014 The Drawers", "Chapter Four \u2014 The Papers", "Interlude II \u2014 The Early Net", "Chapter Five \u2014 The Table", "Chapter Six \u2014 The Mews", "Chapter Seven \u2014 The Quiet Hand", "Chapter Eight \u2014 The Screens", "Interlude III \u2014 The Gentling", "Chapter Nine \u2014 The Attuned", "Chapter Ten \u2014 The Held Breath", "Chapter Eleven \u2014 The Mother", "Chapter Twelve \u2014 The Taper", "Chapter Thirteen \u2014 The Correction", "Chapter Fourteen \u2014 The Sounding", "Chapter Fifteen \u2014 The Waypost", "Chapter Sixteen \u2014 The Witness", "Chapter Seventeen \u2014 The Rehearsal", "Chapter Eighteen \u2014 The Wardsill", "Chapter Nineteen \u2014 The Manifest", "Chapter Twenty \u2014 Hill to Hill", "Interlude IV \u2014 The Recruitment", "Chapter Twenty One \u2014 The Homecoming", "Chapter Twenty Two \u2014 The Congregation", "Chapter Twenty Three \u2014 The Year of Tapers", "Chapter Twenty Four \u2014 The Ash", "Chapter Twenty Five \u2014 The Shadow", "Chapter Twenty Six \u2014 The Cathedral", "Chapter Twenty Seven \u2014 The Refusal", "Chapter Twenty Eight \u2014 The Descent", "Interlude V \u2014 The First Hollowing", "Chapter Twenty Nine \u2014 The Threshold", "Chapter Thirty \u2014 The Wild Fire", "Chapter Thirty One \u2014 The Severance", "Chapter Thirty Two \u2014 The Tacet", "Chapter Thirty Three \u2014 The Keeping Under", "Chapter Thirty Four \u2014 The Relighting"],ints=[false, false, true, false, false, false, true, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false],current='chapter-thirty-the-wild-fire';
+var read=JSON.parse(localStorage.getItem('dg-read')||'{}');read[current]=true;
+localStorage.setItem('dg-read',JSON.stringify(read));localStorage.setItem('dg-last',current);
+function buildToc(){var h='';for(var i=0;i<slugs.length;i++){var c=ints[i]?'toc-int':'toc-ch',a='';if(slugs[i]===current)a='current';else if(read[slugs[i]])a='read';h+='<div class="'+c+'"><a href="'+slugs[i]+'.html" class="'+a+'">'+titles[i]+'</a></div>';}document.getElementById('toc-inner').innerHTML=h;}buildToc();
+function toggleToc(){document.getElementById('toc-overlay').classList.toggle('open');}document.getElementById('toc-overlay').addEventListener('click',function(e){if(e.target===this)this.classList.remove('open');});
+function toggleTheme(){document.body.classList.toggle('light');var l=document.body.classList.contains('light');localStorage.setItem('dg-theme',l?'light':'dark');document.getElementById('theme-btn').textContent=l?'◑':'◐';}
+if(localStorage.getItem('dg-theme')==='light'){document.body.classList.add('light');document.getElementById('theme-btn').textContent='◑';}
+window.addEventListener('scroll',function(){var p=window.scrollY||document.documentElement.scrollTop;var d=document.documentElement.scrollHeight-window.innerHeight;document.getElementById('progress-bar').style.width=d>0?Math.min((p/d)*100,100)+'%':'0';});
+document.addEventListener('keydown',function(e){if(e.key==='ArrowRight'&&'chapter-thirty-one-the-severance')window.location='chapter-thirty-one-the-severance.html';if(e.key==='ArrowLeft'&&'chapter-twenty-nine-the-threshold')window.location='chapter-twenty-nine-the-threshold.html';});
+var fs=parseInt(localStorage.getItem('dg-fs')||'18');document.body.style.fontSize=fs+'px';
+</script>
+</body></html>

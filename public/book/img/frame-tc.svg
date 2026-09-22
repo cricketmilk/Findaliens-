@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 80">
+  <!-- central diamond with rays -->
+  <path d="M200 10 L220 40 L200 70 L180 40 Z" fill="none" stroke="#c49a3c" stroke-width="1" opacity="0.5"/>
+  <path d="M200 18 L214 40 L200 62 L186 40 Z" fill="none" stroke="#e0c878" stroke-width="0.5" opacity="0.35"/>
+  <circle cx="200" cy="40" r="4" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.6"/>
+  <circle cx="200" cy="40" r="1.5" fill="#e0c878" opacity="0.5"/>
+  <!-- line extending from diamond -->
+  <line x1="0" y1="40" x2="170" y2="40" stroke="#8a6820" stroke-width="0.8" opacity="0.4"/>
+  <line x1="230" y1="40" x2="400" y2="40" stroke="#8a6820" stroke-width="0.8" opacity="0.4"/>
+  <!-- small diamonds along line -->
+  <path d="M130 38 L134 40 L130 42 L126 40 Z" fill="none" stroke="#c49a3c" stroke-width="0.5" opacity="0.35"/>
+  <path d="M266 38 L270 40 L266 42 L262 40 Z" fill="none" stroke="#c49a3c" stroke-width="0.5" opacity="0.35"/>
+  <!-- celestial circles -->
+  <circle cx="80" cy="40" r="2" fill="none" stroke="#c49a3c" stroke-width="0.5" opacity="0.4"/>
+  <circle cx="320" cy="40" r="2" fill="none" stroke="#c49a3c" stroke-width="0.5" opacity="0.4"/>
+</svg>

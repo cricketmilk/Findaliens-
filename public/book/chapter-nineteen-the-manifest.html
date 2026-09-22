@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chapter Nineteen — The Manifest — Demiurgent</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💎</text></svg>">
+<style>/* ===== FONTS ===== */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* ===== RESET ===== */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+/* ===== NOISE TEXTURE ===== */
+.noise {
+    position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 0;
+    pointer-events: none; opacity: 0.04;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size: 256px 256px;
+}
+body.light .noise { opacity: 0.025; }
+
+/* ===== ORNAMENTAL FRAME (SVG corners) ===== */
+.ornament-frame { position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 1; pointer-events: none; }
+.orn-corn { position: absolute; width: 160px; height: 160px; opacity: 0.5; }
+.orn-corn svg { width: 100%; height: 100%; }
+.orn-tl { top: 0; left: 0; }
+.orn-tr { top: 0; right: 0; }
+.orn-bl { bottom: 0; left: 0; }
+.orn-br { bottom: 0; right: 0; }
+
+/* FRAME_CSS_PLACEHOLDER */
+
+:root {
+    --bg: #080604;
+    --surface: #100c08;
+    --text: #b8a88c;
+    --text-dim: #6e6454;
+    --gold: #c49a3c;
+    --gold-bright: #e8d070;
+    --gold-pale: #d4b860;
+    --amber: #b07030;
+    --amber-deep: #8b5020;
+    --border: #282018;
+    --border-gold: #3a2c10;
+    --font-display: 'Cinzel', 'Georgia', serif;
+    --font-decorative: 'Cinzel Decorative', 'Cinzel', 'Georgia', serif;
+    --font-body: 'Crimson Text', 'Georgia', serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-body);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.8;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar{width:6px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:var(--border-gold);border-radius:3px}
+
+/* ===== READING PROGRESS BAR ===== */
+#progress-bar {
+    position: fixed; top: 0; left: 0; height: 2px;
+    background: linear-gradient(90deg, var(--amber-deep), var(--gold), var(--gold-bright));
+    z-index: 101;
+}
+
+/* ===== TOP NAVIGATION ===== */
+#topnav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    background: rgba(8,6,4,0.93);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid var(--border-gold);
+    padding: 0 1em; height: 40px;
+    display: flex; align-items: center; justify-content: space-between;
+    font-size: 11px; color: var(--text-dim);
+}
+body.light #topnav { background: rgba(245,240,232,0.93); }
+.tn-title {
+    font-family: var(--font-display);
+    letter-spacing: 0.1em;
+    color: var(--gold-pale);
+    font-size: 10px;
+}
+.tn-btns { display: flex; gap: 6px; align-items: center; }
+#topnav a { color: var(--text-dim); text-decoration: none; transition: color 0.2s; }
+#topnav a:hover { color: var(--gold); }
+
+.nav-btn {
+    background: none; border: 1px solid var(--border);
+    color: var(--text-dim); cursor: pointer;
+    padding: 3px 8px; border-radius: 2px;
+    font-family: var(--font-body); font-size: 11px;
+    transition: all 0.2s;
+}
+.nav-btn:hover { color: var(--gold); border-color: var(--gold); }
+
+/* ===== CONTENT AREA ===== */
+#content {
+    max-width: 660px;
+    margin: 0 auto;
+    padding: 60px 1.5em 5em;
+    position: relative; z-index: 1;
+}
+
+/* ===== ORNAMENTAL CHAPTER HEADER ===== */
+.ch-header {
+    text-align: center;
+    margin-bottom: 3em;
+    padding-top: 0.5em;
+}
+.ch-ornament-inner {
+    max-width: 300px;
+    margin: 0 auto 1em;
+    opacity: 0.55;
+}
+.ch-ornament-inner svg {
+    width: 100%;
+    height: auto;
+}
+.ch-part-label {
+    font-family: var(--font-display);
+    font-size: 0.8em; color: var(--gold);
+    letter-spacing: 0.15em;
+    margin-bottom: 0.3em;
+    text-transform: uppercase;
+}
+.ch-title {
+    font-family: var(--font-decorative);
+    font-size: 1.45em; font-weight: 700; color: var(--gold-bright);
+    letter-spacing: 0.08em; line-height: 1.3;
+    text-shadow: 0 0 40px rgba(200,160,60,0.2);
+}
+.ch-interlude .ch-title {
+    font-style: italic; color: #b89060;
+    font-family: var(--font-display);
+}
+.ch-interlude .ch-header::before { opacity: 0.3; }
+
+/* Ornamental rule after chapter title */
+.ch-header::after {
+    content: '';
+    display: block;
+    width: 180px; height: 12px;
+    margin: 1em auto 0;
+    background:
+        linear-gradient(var(--border-gold), var(--border-gold)) 0 50% / 40px 1px no-repeat,
+        radial-gradient(circle 2px, var(--gold) 50%, transparent 50%) 65px 50% / 6px 6px no-repeat,
+        radial-gradient(circle 1.2px, var(--gold-pale) 50%, transparent 50%) 90px 50% / 4px 4px no-repeat,
+        linear-gradient(var(--border-gold), var(--border-gold)) 140px 50% / 40px 1px no-repeat;
+    opacity: 0.35;
+}
+
+/* ===== PROSE ===== */
+p { margin: 0 0 1.1em; }
+em { color: #d4b860; font-style: italic; }
+strong { color: #e0c878; font-weight: 600; }
+blockquote {
+    border-left: 3px solid #3d2c10;
+    padding: 0.5em 1.2em;
+    margin: 1.8em 0;
+    font-style: italic; color: #a8987c;
+    background: linear-gradient(90deg, rgba(180,140,60,0.04) 0%, transparent 40%);
+}
+body.light blockquote {
+    background: linear-gradient(90deg, rgba(139,105,20,0.06) 0%, transparent 40%);
+    color: #5c4f3c; border-left-color: #b8a070;
+}
+
+/* ===== BOTTOM NAVIGATION ===== */
+.bottom-nav {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-top: 4em; padding-top: 2em;
+    border-top: 1px solid var(--border);
+    position: relative;
+}
+.bottom-nav::before {
+    content: '\25C6';
+    position: absolute; top: -0.55em; left: 50%; transform: translateX(-50%);
+    color: var(--gold-pale); font-size: 9px; opacity: 0.45;
+    background: var(--bg); padding: 0 6px;
+}
+.bottom-nav a {
+    font-family: var(--font-display);
+    color: var(--gold); text-decoration: none;
+    letter-spacing: 0.06em; font-size: 0.85em;
+    padding: 0.3em 0;
+    transition: color 0.2s;
+}
+.bottom-nav a:hover { color: var(--gold-bright); }
+.bn-center {
+    color: var(--text-dim); font-family: var(--font-body);
+    font-style: italic; font-size: 0.83em;
+}
+
+/* ===== TOC OVERLAY ===== */
+#toc-overlay {
+    display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(6,4,2,0.97); z-index: 200;
+    overflow-y: auto; padding: 3em 1.5em;
+}
+#toc-overlay.open { display: block; }
+body.light #toc-overlay { background: rgba(245,240,232,0.97); }
+#toc-close {
+    position: fixed; top: 14px; right: 18px; z-index: 201;
+    background: none; border: 1px solid var(--border-gold); color: var(--gold);
+    cursor: pointer; font-size: 18px; width: 34px; height: 34px;
+    border-radius: 50%; display: flex; align-items: center; justify-content: center;
+}
+#toc-overlay h3 {
+    font-family: var(--font-decorative); color: var(--gold-bright);
+    text-align: center; font-size: 1.4em; margin-bottom: 1.5em;
+    letter-spacing: 0.12em;
+    text-shadow: 0 0 30px rgba(200,160,60,0.2);
+}
+.toc-inner { max-width: 480px; margin: 0 auto; }
+.toc-inner .toc-part {
+    font-family: var(--font-display); color: var(--gold);
+    font-size: 0.88em; margin: 1.3em 0 0.4em; letter-spacing: 0.08em;
+}
+.toc-inner .toc-ch { margin: 0.25em 0 0.25em 1.5em; font-size: 0.88em; }
+.toc-inner .toc-int { margin: 0.25em 0 0.25em 1.5em; font-size: 0.85em; font-style: italic; }
+.toc-inner a { color: var(--text); text-decoration: none; }
+.toc-inner a:hover { color: var(--gold-bright); }
+.toc-inner a.read { color: var(--text-dim); }
+.toc-inner a.current { color: var(--gold-bright); font-weight: 600; }
+.toc-inner .toc-int a { color: #b89060; }
+
+/* ===== LIGHT MODE ===== */
+body.light {
+    --bg: #f5f0e8; --surface: #ede4d6;
+    --text: #3d3428; --text-dim: #7a6e5e;
+    --gold: #8b6914; --gold-bright: #5a4010; --gold-pale: #9a7a2e;
+    --amber: #8b5a2b; --amber-deep: #6b3a10;
+    --border: #c4b8a4; --border-gold: #b8a070;
+}
+body.light .ch-title { text-shadow: none; }
+
+@media (max-width: 500px) {
+    body { font-size: 16px; }
+    #content { padding: 50px 0.8em 4em; }
+    .ch-title { font-size: 1.2em; }
+}
+@media print {
+    #topnav, #progress-bar, #toc-overlay, .frame-0, .frame-1, .frame-2, .frame-3 { display: none !important; }
+    body { background: white; color: black; font-size: 12pt; }
+}</style>
+</head>
+<body>
+<div class="noise"></div>
+<div class="ornament-frame">
+  <div class="orn-corn orn-tl"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="gf" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#c49a3c" stop-opacity="0.8"/><stop offset="100%" stop-color="#b07030" stop-opacity="0.3"/></linearGradient>
+  </defs>
+  <!-- outer corner bracket -->
+  <path d="M10 190 L190 190 L190 10" fill="none" stroke="#8a6820" stroke-width="1.2" opacity="0.5"/>
+  <path d="M15 190 L190 190 L190 15" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.35"/>
+  <!-- Gothic arch in corner -->
+  <path d="M40 190 Q40 40 100 30" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.3"/>
+  <!-- tracery diamonds -->
+  <path d="M25 180 L32 170 L39 180 L32 190 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.4"/>
+  <path d="M50 180 L57 170 L64 180 L57 190 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.3"/>
+  <!-- small celestial dots -->
+  <circle cx="80" cy="175" r="1" fill="#c49a3c" opacity="0.4"/>
+  <circle cx="95" cy="168" r="0.8" fill="#e0c878" opacity="0.3"/>
+  <circle cx="110" cy="172" r="1.2" fill="#c49a3c" opacity="0.35"/>
+  <!-- corner accent -->
+  <circle cx="190" cy="190" r="3" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="190" cy="190" r="1.2" fill="#e0c878" opacity="0.4"/>
+</svg></div>
+  <div class="orn-corn orn-tr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="gf" x1="1" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c49a3c" stop-opacity="0.8"/><stop offset="100%" stop-color="#b07030" stop-opacity="0.3"/></linearGradient>
+  </defs>
+  <path d="M190 190 L10 190 L10 10" fill="none" stroke="#8a6820" stroke-width="1.2" opacity="0.5"/>
+  <path d="M185 190 L10 190 L10 15" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.35"/>
+  <path d="M160 190 Q160 40 100 30" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.3"/>
+  <path d="M175 180 L168 170 L161 180 L168 190 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.4"/>
+  <path d="M150 180 L143 170 L136 180 L143 190 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.3"/>
+  <circle cx="120" cy="175" r="1" fill="#c49a3c" opacity="0.4"/>
+  <circle cx="105" cy="168" r="0.8" fill="#e0c878" opacity="0.3"/>
+  <circle cx="90" cy="172" r="1.2" fill="#c49a3c" opacity="0.35"/>
+  <circle cx="10" cy="190" r="3" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="10" cy="190" r="1.2" fill="#e0c878" opacity="0.4"/>
+</svg></div>
+  <div class="orn-corn orn-bl"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <path d="M10 10 L190 10 L190 190" fill="none" stroke="#8a6820" stroke-width="1.2" opacity="0.5"/>
+  <path d="M15 10 L190 10 L190 185" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.35"/>
+  <path d="M40 10 Q40 160 100 170" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.3"/>
+  <path d="M25 20 L32 30 L39 20 L32 10 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.4"/>
+  <circle cx="10" cy="10" r="3" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="10" cy="10" r="1.2" fill="#e0c878" opacity="0.4"/>
+</svg></div>
+  <div class="orn-corn orn-br"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <path d="M190 10 L10 10 L10 190" fill="none" stroke="#8a6820" stroke-width="1.2" opacity="0.5"/>
+  <path d="M185 10 L10 10 L10 185" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.35"/>
+  <path d="M160 10 Q160 160 100 170" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.3"/>
+  <path d="M175 20 L168 30 L161 20 L168 10 Z" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.4"/>
+  <circle cx="190" cy="10" r="3" fill="none" stroke="#c49a3c" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="190" cy="10" r="1.2" fill="#e0c878" opacity="0.4"/>
+</svg></div>
+</div>
+<div id="progress-bar"></div>
+<div id="topnav">
+  <span class="tn-title">DEMIURGENT</span>
+  <div class="tn-btns">
+    <button class="nav-btn" id="theme-btn" onclick="toggleTheme()">◐</button>
+    <button class="nav-btn" onclick="toggleToc()">☷</button>
+    <a href="index.html" class="nav-btn">⌂</a>
+  </div>
+</div>
+<div id="toc-overlay"><button id="toc-close" onclick="toggleToc()">&times;</button><h3>Contents</h3><div class="toc-inner" id="toc-inner"></div></div>
+<div id="content">
+<div class="ch-header ">
+  <div class="ch-ornament-inner"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 50">
+  <!-- outer pillars -->
+  <rect x="60" y="20" width="1.5" height="30" fill="#c49a3c" opacity="0.45"/>
+  <rect x="238" y="20" width="1.5" height="30" fill="#c49a3c" opacity="0.45"/>
+  <!-- pointed arch -->
+  <path d="M60 25 Q150 0 240 25" fill="none" stroke="#c49a3c" stroke-width="1" opacity="0.5"/>
+  <!-- inner arch -->
+  <path d="M75 25 Q150 8 225 25" fill="none" stroke="#8a6820" stroke-width="0.6" opacity="0.35"/>
+  <!-- tracery circle at apex -->
+  <circle cx="150" cy="14" r="6" fill="none" stroke="#e0c878" stroke-width="0.6" opacity="0.5"/>
+  <circle cx="150" cy="14" r="2" fill="#e0c878" opacity="0.4"/>
+  <!-- base line -->
+  <line x1="40" y1="48" x2="110" y2="48" stroke="#8a6820" stroke-width="0.6" opacity="0.35"/>
+  <line x1="190" y1="48" x2="260" y2="48" stroke="#8a6820" stroke-width="0.6" opacity="0.35"/>
+  <!-- center ornament -->
+  <path d="M140 46 L150 36 L160 46 L150 42 Z" fill="none" stroke="#c49a3c" stroke-width="0.6" opacity="0.5"/>
+  <circle cx="150" cy="48" r="1.5" fill="#c49a3c" opacity="0.4"/>
+</svg></div>
+  <div class="ch-part-label">Part Two — The Breaking</div>
+  <div class="ch-title">Chapter Nineteen — The Manifest</div>
+</div>
+<p>The autumn's first circular came down on ordinary grey, not cream, because the halls understood instinctively which enormities wanted ceremony and which wanted furniture. This one wanted furniture. <em>Seasonal adjustment of observance and session schedules</em>, it said, and beneath that plain heading, in the plain numbered paragraphs of the Chorus at its most dangerous, the mandate: session capacity to be doubled at the Needle and trebled in the districts before midwinter; six satellite chambers activated in the provinces, staffed from the Needle's rolls; district sweeps of unlicensed observance to be, the word was, <em>regularized</em>; and the archive, the entire archive, to begin preparation for what paragraph nine called forward placement. Regional custody. Freight schedules to follow.</p>
+<p>Aurelius read paragraph nine four times, standing at his bench in the morning light, and the four readings did not change it. They were going to ship the drawers.</p>
+<p>The war came the same week. He read the two announcements side by side at his bench and understood that they had always been one document.</p>
+<p>For a generation the eastern border had run at its committee simmer, hot enough to fund the watching, never hot enough to require winning. Now someone had opened the flue. The pretext was a poisoned well on the far Sundergrass, laid at the feet of the Vael, and the criers had to repeat it hourly to keep it standing, because every carter in the Concord knew the one fact the charge required forgetting: the Vael poison no wells. They drink from them.</p>
+<p>The legions went east through the town below the tower, four days of boots and wagons and requisitioned grain, and the town cheered them in the rain, as it had been taught. By the month's end Vessen was stripped to seed corn and the Saltmoot convoys sailed under war charter, and bread stopped being priced by the week and began being priced by the morning. The queues at the chapter house doubled, because scarcity is a question factory and every question now cost the sky. And the same channel that had sold the war sold the hunger after it as the enemy's cruelty, and the enemy could not answer. The enemy wore no collar. The enemy reached no channel. That, he understood at last, was what had always made the Vael the perfect enemy: not that they could not be beaten, but that they could not reply.</p>
+<p>The legions went east under a new Marshal, the Marshal Eventide, and the Marshal did not want to win the war. He wanted to end the world with it. A chapel soldier risen on the Cadence vigils, he preached to his own legions from a war altar, in armor, that the fords were not a border but a threshold, that this was the army of the last verse, and that the Emperor, the blessed vacancy on the Stillseat, would usher in the ending itself, the rest between verses arriving on the points of their spears. He said it plainly, in dispatches, in sermons the criers carried whole: blessed were the men who would not grow old, for the verse would end before their beards did. He purged the border command in his first season of every officer who had ever wintered opposite the Vael, experience being contamination in an army whose whole doctrine was that there would be no next winter, and he proved the doctrine in the provisioning, which was the detail Aurelius could not file and could not stop reading: the eastern forts requisitioned no winter quarters. No wool, no salt meat, no second boots. An army supplied for one season only, by a command that had scheduled the world's end into its logistics, and the halls, reviewing the requisitions, approved them, because the schedule was, in fact, correct. He conducted the campaign over open basins, because warding the channels slowed the singing, and every carter on the eastern roads knew the legions' movements a day before the legions did, and it did not matter to him, because armies marching to Armageddon do not require surprise. The fords held that winter anyway. They held because a woman with a failing hand held them, riding the thermals over the panicking grass on the last of herself, and the Marshal reported the holding as prophecy vindicated, and was believed, and promoted, and her name appeared nowhere in the dispatch. He was the one man in the Empire's service who knew nothing of the annexes and had guessed the whole of the schedule anyway, by wanting it, and the halls prized him exactly for that: a believer who longed for the fire would spend armies toward it without ever once needing to be told what it was.</p>
+<p>He read the market tables, and entered the day's finding: a well nobody could find had emptied a thousand real ones.</p>
+<p>And beneath it, in the older, colder hand, the entry the annexes had taught him to write. Grief softens a vessel. Fear softens it. A queue softens it. A nation squeezed between a war it did not choose and a winter it could not afford would arrive at the eclipse already half emptied, wanting only the last small push, and the readiness curves in the papers behind his blood lock had assumed this softness, dated to exactly this autumn, which meant the war had been in the annexes all along, filed under another heading. Not a distraction from the Rending. A pass of the harrow. And on whatever morning the schedule called for peace, the same hands would put the fire out, at a profit, and hold up the bucket, and be thanked for it.</p>
+<p>The relief schedules published with the war charter, and he read those in their turn, and found the age's true prophecy in them, plainer than anything behind his blood lock. Seed corn advanced against the spring, the growers' own corn, leased back to the hands that had grown it, at terms. Tools taken in against chapter house credit, to be maintained, improved, and recalled at the lender's pleasure. Roofs held against arrears by the house that held the paper, which was, four transfers up, always the same house. And below the schedules, absences: two upland districts out of the winter provisioning altogether, not sanctioned, not named, simply no longer written, accounts the house had stopped expecting to collect. He assembled the terms, and the sum stood up off the page and looked at him: a Concord in which, one relief at a time, nobody below the seven would own anything at all. Not the field, not the awl, not the roof. Not the stone at the throat, which had never been theirs. Not the memories, in custody in his drawers; not the name, licensed from the register; not the songs, archived and rented back at the vigils; not grief itself, metered at the chapter house door, every asking costing the sky. Nothing carried, nothing held, nothing handed on, and nothing refused, because refusal is a thing done with property, and there would be none. And it would arrive as mercy, every clause of it, and the sermons would call it freedom, free of the burden of owning, the anxiety of keeping, the loneliness of choosing, and the metrics would confirm the gratitude, and the gratitude would be genuine. That was the finding under the finding, entered in the old cold form on a morning of queues: not slavery. Slavery at least admits what it is. This was a people leased its own life at a fair rate, thanking the landlord, with no deed left anywhere to remember that the house had ever been theirs.</p>
+<p>And the relief had a face, and the face was loved. A young tribune named Larkspur had risen out of the scoured wards of the capital on the people's own anger, warm where the halls were cold, plain spoken where the halls were liturgical, and everything he won for his people was real, and everything he won for them fed them to the machine faster. His Open Hearths went up in every ward the war hunger touched: free kitchens, warm halls, no sermon required, only the stone touched to the counting post at the door, once per soul per meal, for the honest bookkeeping of charity. The wards' poor had been read at census cadence, quarterly, coarse. At the Hearths they were read three times a day, at meal cadence, fine grained, warm, grateful, and the arrays upstream of the kitchens drank a resolution of the hungry that no instrument of the mandate had ever achieved by force. And his proudest victory, the one the criers sang all autumn: the chapter house waiting lists abolished for the scoured wards, priority of session for the poor, the desperate no longer made to wait years for the halls' care. Aurelius met that victory where it arrived, which was his own floor. The sessions came younger from the capital that winter, and faster, and more of them, each file stamped with the tribune's warrant like a blessing, and he performed the procedure on the beneficiaries of the people's champion, one at a time, and entered, in the ledger no hall could audit, the finding that made Larkspur worth every coin of whatever he had or had not been paid: the halls had built the nightmare, and the nightmare had built the need, and the need had raised up a beloved hand to help, and the help was a funnel, and the funnel ended in this chair. He read the schedules' drafting. The Hearth clauses predated the tribune's campaign by two years. The halls kept a rebel for every appetite, the Founder for those who hated the robes and Larkspur for those who hated the gilt, and both revolts arrived pre drafted, and both marched their followers, cheering, through the same door. The old trick was never to forbid the people a champion. The old trick was to write one.</p>
+<p>He had planned his war for the geography he knew: the stones in one building, the kinship in one cold column of air, the lead drawer a flight of stairs away, and a year of nights in which to teach one stone the wardsill and let the family learn it hill to hill. Paragraph nine dissolved the year. Stones crated for freight would be inventoried, sealed, dispersed to provincial array sites where he had no warrants, no pretexts, and no blood locks. The dispersal was not haste and was not carelessness; it was the design arriving on schedule: each province's harvested dead carried home to the array that would play them, the munitions moved forward to the guns, and distance cost the kinship nothing, because paired resonance had never once cared for distance; the wire that carried both ways would still carry. He would simply no longer be able to reach either end of it. The counterwork had been racing an eclipse. It was racing an inventory clerk now, and inventory clerks were faster, and he stood in the grey morning doing the arithmetic he had done all his life, and for the first time since the byre loft, the arithmetic came back: not enough.</p>
+<p>The mandate did not arrive with soldiers. It arrived with the Remembrancer.</p>
+<p>The office was older than the screens, older than the charter it enforced: the halls' keeper of accords, precedents, and lapsed observances, a basement floor of identical ledgers and one plain man Aurelius had seen perhaps twice in his whole service and could not have described an hour later, which was, he understood now, the entire uniform. The Remembrancer did not threaten. Threats were for people who lacked the authority to compel. What the Remembrancer did was send letters. Three paragraphs, in a hand so level it seemed printed, citing a subsection of the Accord on Collars that no living soul had read in sixty years, and the letter did not say stop. It said: your work has been reclassified; your funding now rides a compliance review you will not pass; your junior staff are obligated, under the clause cited, to report you. By the time a recipient finished reading, their ruin was already a matter of record, entered, lawful, and unsigned by anyone in particular. Aurelius had watched the method take a fen village that autumn. The village had declined its collars, and no company came. An auditor came, and found that the village's water rights had stood, for four hundred years, on a tithing observance lapsed since the winter of the great frost, and the water was sealed, lawfully, and by first snow the village was collared, and grateful, and the law had never once raised its voice. And a Voice of the second rank who questioned the mandate's pace in open council was not answered; he was reassigned, within the month, to a border fort above the tree line, his service record quietly acquiring irregular draws he had never drawn, his family struck from the chapter house rolls for arrears they had never owed; and when he died of exposure in the third winter nothing anywhere pointed at anything, because everything was in order, and order was the weapon. Aurelius kept one unwritten ledger against the world. The Remembrancer kept written ones, and the difference was the whole of the age: one of them counted stairs to find what was true, and the other counted infractions to manufacture what was guilty.</p>
+<p>There had been rights, once. The old charter had granted them in plain type, and the subscription generation had known them the way it knew psalms: the assize of neighbors, the sealed hearth, the unread letter, the right to stand unmeasured before the law and unpriced before the Maker. Nobody had repealed them, exactly. Some were erased in sittings no register remembered convening, and the rest were kept, perfectly preserved, as ornaments, read aloud at festivals in the old confident type, protections converted to pageantry, rights to relics. The Chorus had not defeated the Empire's governance. It had eaten it, seat by seat, from inside, and gone on wearing the shell, and the shell still convened, and deliberated, and was applauded, and nothing the old Empire had ever promised its people was left standing behind the applause except the words. Erasure for what could go quietly; corruption for what the people would miss; and between those two instruments, the old evil had made itself the government it had once been merely stronger than.</p>
+<p>The study arrived in the ordinary post, in a wrapper with no return, and he read it at his bench in the grey morning with the queues forming below and the freight schedules still warm from Voss's hand. It was the Measurer's work. He knew the office by reputation and by the quality of its figures, which were the best in the Concord: the melancholy studies, the sorrow census, the whole patient longitudinal machinery that had been tracking, for forty years, the emotional weather of the Empire. The Measurer's office was the one part of the Chorus that had never once lied to him, because the Measurer's office had never once needed to. It did not issue conclusions. It issued graphs. And the graphs were always correct, and the correct thing could be used for anything.</p>
+<p>The study was the most recent cycle of what the discipline called the readiness metrics, and it ran to seventy pages of tables. Pattern-recognition scores, province by province, generation by generation, declining along a curve too smooth to be anything but governed. Emotional-range narrowing, charted in percentiles, the bandwidth of a felt life shrinking decade over decade like a river in a drought year. Veil-sensitivity extinction, a phrase the Measurer had coined and no one else had ever improved upon: the fraction of a population that could still feel a threshold, that still set milk on a sill without being told, that still named stars before the chapter house did. And in the model provinces, the ones the grid and the Song and the collars had reached earliest and deepest, the fraction had fallen below statistical noise. The thinned were not a fen superstition. They were a documented outcome, with error bars.</p>
+<p>The conclusions, as the Measurer's conclusions always did, noted the progress with measured satisfaction. A quiet sentence, in the fourth paragraph of the summary, apologized for the finding before delivering it: the readiness of the Concord had never been higher; the Final Harmony approached with a population prepared to receive it. Aurelius read the sentence twice. The apology was formulaic; the Measurer's office had been apologizing for forty years; and he had never been able to tell, reading those gentle prefaces, whether the apology was a manner or a mask, whether the hand that wrote In sorrow we report was steadying itself or simply observing the forms. The data had always been impeccable. The conclusions had always been, given the data, monstrous. He had filed the office under the category he kept for Voss: a person doing a task that required not asking what the task was for, and doing it immaculately, and never once looking up.</p>
+<p>He nearly closed the study there. The grey morning was full of freight schedules and queues and a boy with a collar at the valley gate, and the Measurer's seventy pages were only confirmation of what he had known since the papers behind his blood lock: the readiness curves were real, the population was thinning on schedule, and every metric the halls tracked tracked toward the eclipse. But he had been an auditor of this Empire since before he could read, and an auditor does not skip the appendix.</p>
+<p>In the back of the study, in the small type the halls preferred for data that would not fit the summary, were the control groups.</p>
+<p>He read them three times before he allowed the finding.</p>
+<p>The model provinces' curves ran straight and smooth and down, decade over decade, the shape of a people being slowly, patiently, expertly unmade. And alongside them, plotted in the Measurer's own hand, ran the fens. The moors. The unroaded districts of the west. Populations the standardization had never quite reached, the chapter houses had never quite covered, the grid had never quite enclosed. The Measurer had charted them for forty years, because the Measurer charted everything, and the lines did not decline. They held. Some of them, in the last cycles, had risen, a fraction of a point, as if the thinning everywhere else had made the world more welcoming to whatever it was these places still knew how to do. The fens were not becoming the thinned. The fens were becoming, if anything, more vivid, and the data said so.</p>
+<p>The Measurer had not commented on the control groups in the summary. The Measurer never commented on the control groups. The data sat in the appendix, year after year, correct, legible, unmentioned, like a witness who has been seated in the back of the court and never once called to the stand.</p>
+<p>Aurelius sat at his bench with the wrapper turning cold in his hands and let the finding assemble, which was this: the Measurer possessed the Empire's only rigorous proof that the damage was environmental, not natural, and therefore reversible. The thinning was not a destiny. It was a treatment protocol, and the protocol had a control arm, and the control arm was proving, quietly, in the ungoverned districts, that a people who kept their own fires and their own names and their own iron over their own doors did not thin. Had never thinned. Would not thin, unless the grid reached them and took what the grid always took. There was no genetic decline. There was no fate of the species. There was an exposure, and there was an unexposed group, and the difference between them was the difference between a people and a herd. The document that could prove it sat in a drawer in the Measurer's office, updated quarterly, for forty years, and the Measurer kept filing it, and kept apologizing, and kept, apparently, not concluding what the data concluded.</p>
+<p>He had no way of knowing, then, whether the Measurer was a coward or a captive or simply a scientist so careful that the finding had not yet crossed the threshold. But he entered the office in the true book that morning, in the pocket where he kept the age's strangest instruments, and the entry was short: a graph in an appendix, proving what the fens had always known. The Empire's own archives held the evidence of its crime, and the keeper of that evidence was either the resistance's most important recruit, or its most dangerous enemy, and there was no third category.</p>
+<p>He put the study in the case with the other papers for the west. Thessine would want to read it. Thessine would, he suspected, read the Measurer the way she read a candle: for what it would burn into, and for how long, and whether the light was true.</p>
+<p>The program's copy of the circular carried a rider, and the rider carried a boy.</p>
+<p>Expansion, the halls called it: the valley to double its intakes inside two years, instructors seconded east to found a second school, and, in a paragraph with the Remembrancer's fingerprints in every clause, a directive with no precedent in the program's life: the corps would accept, effective immediately, its first collared intake. A fen boy named Tarn, collared at fifteen like every child of the mandate, flagged by the arrays a season later, and shipped west with the collar sealed under a rider that made its removal a matter for the halls alone. The articles said consent, renewed aloud, yearly. The rider said accepted as received. He read the two papers side by side and understood that the halls had finally found the seam in his valley: not force, which the articles could refuse, but a child, which they could not.</p>
+<p>Tarn was good. That was the worst of it. Quick, doubled, patient with his hands, a boy who took to the made wings' channel like a fen boat to open water, and for a month the valley let itself hope. Then the instability came, and it came exactly as the memorandum nobody had asked him for had predicted: the collar carried. Everything the bond's channel opened in the boy, the collar carried up the grid the way it carried everything, and a mind learning to be two things was overheard, nightly, by a third, and the overhearing fed back. He began arriving at the morning courts with static in the doubled sense and other people's weather behind his eyes. He startled at birds he was not flown with. He answered questions nobody had asked yet, and not the meant ones, the way his teacher did, but wrong ones, questions from rooms nobody present had ever stood in. He wept without being able to source it. Aurelius grounded him in the fifth week, entered a finding that a collared bond was a wound that could not close, and petitioned for the collar's removal on medical grounds, and the petition came back in nine days bearing one line: petition noted; subject recalled for specialized care.</p>
+<p>The wagon came on a market day. The boy went east in it, collared, waving, trusting the program that had been kind to him and the teacher who had grounded him gently, and Aurelius stood at the gate with the articles folded in his coat and did nothing, because the arithmetic of the many stood where it always stood, and a scene at the gate would have cost the valley more than the valley could spend. He entered the boy's name in the ledger no hall could audit, and did not close the entry. He never learned where the wagon delivered him. What the delivery built, he would learn two winters later, on a fifth dawn, in the sky over a second valley.</p>
+<p>The tower's weather changed inside a week. Provosts on the stairs, in pairs, with lists. The refectories quieter. The visit book at the brass doors withdrawn and replaced by a provost with a slate, who did not know him by name, which after a dozen signatures and a year of nights was its own kind of message. And on the fourth floor a boy cleaning glass that was already clean, all week, steadily, which was what the boy did when the tower's weather changed, except that now Aurelius knew what storm the barometer was reading, and could not tell him, and the not telling was rule three, and rule three, he discovered, had teeth on both ends.</p>
+<hr />
+<p>The dispatch from the mews came on the eighth day, in Edda's careful hand, and it was three lines, because Edda had been a handler and handlers wrote like handlers.</p>
+<p><em>Harl is lost. The sweep took his sister's village on the Vessen flats and he went off roster to lift the boy out. His bird took a bolt from the escort at forty feet, and the severance dropped him in the street, and he did not get up. The provosts' report reads: heart. I am telling you what the report reads.</em></p>
+<p>Aurelius sat with the three lines for a long time, in the amber room in his memory where a broad quiet man had once set down an empty cup and closed a door gently from the far side.</p>
+<p>Harl had answered the question and answered it no, and his no had been arithmetic, a man measuring the reach of the machine against the softness of his sister's children's necks, and the machine, in the end, had reached for them anyway, on a schedule, under a numbered paragraph, and the covenant had held to the last: nothing in his effects, Edda wrote in a fourth line she had crossed out and left legible, nothing anywhere, no letter, no name, no word. He had flown into a regularized sweep with nothing on him but a bird and a purpose, and the purpose had been a boy of nine, and the boy, Edda's postscript said, had been lifted clear before the bolt, was at the mews now, intake pending, flagged long ago by pattern of household resonance and never yet collected.</p>
+<p>So the machine had, after all, delivered Harl's nephew to the one valley in the Empire built to receive him. Aurelius read the postscript three times and declined, deliberately, to file it under mercy. It was not mercy. It was the system's perfect indifference cutting, for once, in the right direction, and the price of the cut stood in the honor boards' new silence, and he entered the price where he entered everything now.</p>
+<p>There was a fifth line, below the crossed out fourth, in a hand that had steadied itself to write it. <em>Wren has taken the boy in charge. She sat with him through the first night, and has given him a length of copper wire, and is teaching him the figures. Hers, the ones nobody taught her. She does not speak to him, and he has stopped needing her to. I thought the fourth floor should know that something in this valley still works.</em> That one he filed under mercy, and let the filing stand.</p>
+<p>A kept name is a kept soul. Harl, of the second wing. Twelve years bonded. He filed his reviews promptly, and he spoke of them to no one, and both of those things were true to the end, and the Empire's ledgers will record a heart, and this one records the rest.</p>
+<hr />
+<p>They interviewed the acolytes in the second week. All of them, alphabetically, floor by floor, a provost and a clerk and a recording stone in a small room off the halls, and Aurelius stood at the top of the stairwell when the fourth floor's turn came, unable to do anything at all, which was the posture the winter had been teaching him and which he had not yet learned to hold.</p>
+<p>Aldric went in fourth. He was in the room for fifty minutes, which was twenty longer than any boy before him, and Aurelius stood in the corridor's cold with his hand around the wire in his pocket and did arithmetic about fifty minutes until the arithmetic was a kind of screaming, and then the door opened and the boy came out, level, blank, dormitory issue, thanked the provost for his time in the flat register the schools had built, and walked back toward the stairs past his own senior with exactly the nod a junior owes a senior, nothing over it, nothing under it.</p>
+<p>In the stairwell, two floors down, out of every sightline Aurelius knew of and he knew them all, the boy stopped. He put one hand flat against the stone wall, the steadiest hand in nine intakes, and it shook, once, hard, like a level finding its bubble, and then it stopped shaking, and he went on down to the fourth floor and took out the quicksalt cloth and began to clean the stands.</p>
+<p>"What did they ask," Aurelius said, that evening, when the floor was theirs.</p>
+<p>"Whether I had noticed irregularities in the conduct of any senior." The boy did not look up from the glass. "Access patterns. The archive. Correspondence." A pause, exact. "The reseating warrants."</p>
+<p>"And you answered."</p>
+<p>"That I clean glass, Magister." The cloth moved, small circles, steady again. "They looked a long time at a person who was not there. The dormitories spent fourteen years building him. It seemed a shame not to send him in."</p>
+<p>Aurelius stood in his own doorway and let the sentence land, the whole cost of it and the whole efficiency, the boy deploying his own erasure as armor, wearing the Chorus's theft of him into the Chorus's interrogation room and walking out unseen inside it, and there was nothing to say that would not spend what could not be spent, so he said what there was.</p>
+<p>"The seventh stand," he said. "There's a residue in the neck I don't like."</p>
+<p>"There's always a residue in the neck of the seventh," said Aldric, and something that was not quite a smile crossed the dormitory blankness, one degree, and was filed away, and the floor filled with the small honest sounds of a careful man cleaning glass.</p>
+<hr />
+<p>Voss came on the last day of the month.</p>
+<p>He looked up from the bench and she was in his doorway, and unlike the other doorway arrival of his year there was no mystery anywhere in it: she had come up the stairs the way freight comes, at her own pace, on schedule, announced by nothing because nothing would have dared. Grey wool, the black ledger under one arm, and her eyes went around his floor once, inventorying, the stands, the benches, the boy at the far cabinet, his own scarred hands, everything weighed and filed at its market rate, and she crossed to the bench and set a single sheet on it, squared to the edge.</p>
+<p>It was a freight manifest. Archive floors, forward placement, first tranche: the current intakes, the recent closures, province by province, crate numbers assigned. The Fourth Province, northern district, was in the second column, third line. She gave him the time it took to read the third line. He would wonder afterward, for longer than he liked, whether she knew what she was giving him time to read.</p>
+<p>"The archive ships from the first of winter," Voss said. "Reseating is concluded. Certify your instruments by then."</p>
+<p>Sixteen words. He counted them without meaning to, the old reflex, and the count arrived with its own finding attached: forty one, then sixteen. The account was closing, entry by entry, at the rate accounts close when the auditor has stopped needing information and started needing only confirmation, and her eyes rested on him for one further moment, scales at rest, a woman who had noticed something in the tower's flows, some bottleneck that should not exist, some pattern in wax or warrants or waypost ledgers, and who did not require it to have a name yet, because everything in her long experience of freight eventually declared itself at a checkpoint.</p>
+<p>"Good day, Magister," she said, and was gone down the stairs at freight's own pace, and the manifest lay on the bench, squared, with the third line of the second column saying, in the plainest furniture language in the world, that Thessine's eleven years, the lead stone, the teacher of the four hundred and six, would be crated for the provinces on the first day of winter.</p>
+<hr />
+<p>The audit that night was short, because the situation had achieved a simplicity his year had not prepared him for.</p>
+<p>He did not know which candle had burned down. The warden's letter, the wax, the wayposts, the warrants; he ran them all and the composition would not resolve, and he let it stand unresolved, because it no longer mattered which thread she was holding. Voss did not hunt. Voss scheduled. The sweep, the interviews, the mandate, the manifest: none of it was aimed at him and all of it was closing on him, not with malice, with administration, and somewhere in her black ledger his account stood at sixteen words and falling.</p>
+<p>Against it, the assets: a wing of five and the Watchfire. A witness in the west with a curriculum. A boy who could be invisible in an interrogation room. A cloudy preparation that could teach a soul its own doorstep, proven once, on one stone, in a sealed hall. And a window, formerly a year wide, now precisely as wide as the days between tonight and the first of winter, in which the lead stone stood in a drawer he could no longer draw, behind a book he could no longer sign, in a tower that had stopped knowing his name at the door.</p>
+<p>He stood at the north window a long time, watching the early snow come down the flanks of the Teeth, wrong again, early again, on schedule.</p>
+<p>There was one way left into the archive that did not run through warrants or porters or provosts. He had known it for exactly as long as he had refused to look at it, and he looked at it now, in the dark, steadily, the way you look at a thing you are going to do.</p>
+<p>The Chorus did not search the men it trusted. It searched the men it doubted, and it had begun, gently, administratively, to doubt him. The one door left was to make them certain again. To go back up the stairs into the warmth, into the screens' good graces, into Ignis's joy, carrying his whole rebellion folded inside him like a stone in a drawer, and be, for as long as the work required, the Chorus's own Aurelius, restored to the fold, grateful, tuned.</p>
+<p>To be believed, he would have to go home. And the home would be glad to see him. That was the part he sat with longest, in the dark, with the snow coming down: it would be glad, and the gladness would be real, and he was going to use it.</p>
+<div class="bottom-nav"><a href="chapter-eighteen-the-wardsill.html">&larr; Previous</a><span class="bn-center">23 of 40</span><a href="chapter-twenty-hill-to-hill.html">Next &rarr;</a></div>
+</div>
+<script>
+var slugs=["epigraph", "chapter-one-the-mercy", "interlude-i-the-wrong-sky", "chapter-two-keeping-tune", "chapter-three-the-drawers", "chapter-four-the-papers", "interlude-ii-the-early-net", "chapter-five-the-table", "chapter-six-the-mews", "chapter-seven-the-quiet-hand", "chapter-eight-the-screens", "interlude-iii-the-gentling", "chapter-nine-the-attuned", "chapter-ten-the-held-breath", "chapter-eleven-the-mother", "chapter-twelve-the-taper", "chapter-thirteen-the-correction", "chapter-fourteen-the-sounding", "chapter-fifteen-the-waypost", "chapter-sixteen-the-witness", "chapter-seventeen-the-rehearsal", "chapter-eighteen-the-wardsill", "chapter-nineteen-the-manifest", "chapter-twenty-hill-to-hill", "interlude-iv-the-recruitment", "chapter-twenty-one-the-homecoming", "chapter-twenty-two-the-congregation", "chapter-twenty-three-the-year-of-tapers", "chapter-twenty-four-the-ash", "chapter-twenty-five-the-shadow", "chapter-twenty-six-the-cathedral", "chapter-twenty-seven-the-refusal", "chapter-twenty-eight-the-descent", "interlude-v-the-first-hollowing", "chapter-twenty-nine-the-threshold", "chapter-thirty-the-wild-fire", "chapter-thirty-one-the-severance", "chapter-thirty-two-the-tacet", "chapter-thirty-three-the-keeping-under", "chapter-thirty-four-the-relighting"],titles=["Epigraph", "Chapter One \u2014 The Mercy", "Interlude I \u2014 The Wrong Sky", "Chapter Two \u2014 Keeping Tune", "Chapter Three \u2014 The Drawers", "Chapter Four \u2014 The Papers", "Interlude II \u2014 The Early Net", "Chapter Five \u2014 The Table", "Chapter Six \u2014 The Mews", "Chapter Seven \u2014 The Quiet Hand", "Chapter Eight \u2014 The Screens", "Interlude III \u2014 The Gentling", "Chapter Nine \u2014 The Attuned", "Chapter Ten \u2014 The Held Breath", "Chapter Eleven \u2014 The Mother", "Chapter Twelve \u2014 The Taper", "Chapter Thirteen \u2014 The Correction", "Chapter Fourteen \u2014 The Sounding", "Chapter Fifteen \u2014 The Waypost", "Chapter Sixteen \u2014 The Witness", "Chapter Seventeen \u2014 The Rehearsal", "Chapter Eighteen \u2014 The Wardsill", "Chapter Nineteen \u2014 The Manifest", "Chapter Twenty \u2014 Hill to Hill", "Interlude IV \u2014 The Recruitment", "Chapter Twenty One \u2014 The Homecoming", "Chapter Twenty Two \u2014 The Congregation", "Chapter Twenty Three \u2014 The Year of Tapers", "Chapter Twenty Four \u2014 The Ash", "Chapter Twenty Five \u2014 The Shadow", "Chapter Twenty Six \u2014 The Cathedral", "Chapter Twenty Seven \u2014 The Refusal", "Chapter Twenty Eight \u2014 The Descent", "Interlude V \u2014 The First Hollowing", "Chapter Twenty Nine \u2014 The Threshold", "Chapter Thirty \u2014 The Wild Fire", "Chapter Thirty One \u2014 The Severance", "Chapter Thirty Two \u2014 The Tacet", "Chapter Thirty Three \u2014 The Keeping Under", "Chapter Thirty Four \u2014 The Relighting"],ints=[false, false, true, false, false, false, true, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false],current='chapter-nineteen-the-manifest';
+var read=JSON.parse(localStorage.getItem('dg-read')||'{}');read[current]=true;
+localStorage.setItem('dg-read',JSON.stringify(read));localStorage.setItem('dg-last',current);
+function buildToc(){var h='';for(var i=0;i<slugs.length;i++){var c=ints[i]?'toc-int':'toc-ch',a='';if(slugs[i]===current)a='current';else if(read[slugs[i]])a='read';h+='<div class="'+c+'"><a href="'+slugs[i]+'.html" class="'+a+'">'+titles[i]+'</a></div>';}document.getElementById('toc-inner').innerHTML=h;}buildToc();
+function toggleToc(){document.getElementById('toc-overlay').classList.toggle('open');}document.getElementById('toc-overlay').addEventListener('click',function(e){if(e.target===this)this.classList.remove('open');});
+function toggleTheme(){document.body.classList.toggle('light');var l=document.body.classList.contains('light');localStorage.setItem('dg-theme',l?'light':'dark');document.getElementById('theme-btn').textContent=l?'◑':'◐';}
+if(localStorage.getItem('dg-theme')==='light'){document.body.classList.add('light');document.getElementById('theme-btn').textContent='◑';}
+window.addEventListener('scroll',function(){var p=window.scrollY||document.documentElement.scrollTop;var d=document.documentElement.scrollHeight-window.innerHeight;document.getElementById('progress-bar').style.width=d>0?Math.min((p/d)*100,100)+'%':'0';});
+document.addEventListener('keydown',function(e){if(e.key==='ArrowRight'&&'chapter-twenty-hill-to-hill')window.location='chapter-twenty-hill-to-hill.html';if(e.key==='ArrowLeft'&&'chapter-eighteen-the-wardsill')window.location='chapter-eighteen-the-wardsill.html';});
+var fs=parseInt(localStorage.getItem('dg-fs')||'18');document.body.style.fontSize=fs+'px';
+</script>
+</body></html>

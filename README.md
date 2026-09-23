@@ -15,6 +15,34 @@ Maizey's sprite (`img/maizey.png`) is 73×96 pixel art displayed at native size,
 one source pixel maps to one CSS pixel. If you resize her, use an integer multiple —
 anything else makes the pixel grid uneven even with `image-rendering: pixelated`.
 
+## Stories from the Trove
+
+Research happens in **The Wilds**, the browser inside the Xixoxis shell:
+right-click anything worth a story and pick *Clip link* or *Clip selection*,
+and the shell's Trove records the source URL, the title, whatever you
+highlighted, the cookie jar and the time.
+
+```
+node from-trove.mjs            # what is new, as <article> stubs for index.html
+node from-trove.mjs --write    # append them to drafts.html instead of printing
+node from-trove.mjs --section disclosure --since 7d
+```
+
+It fills in the mechanical part — the source link, the date, a headline
+starting from the page title, a dek starting from whatever you highlighted —
+and leaves every editorial judgment as a `TODO`: the headline's wording, the
+summary, and the corn rating. Those are what the Gazette is made of, and a
+generated headline would be the one part of it nobody wrote. Sources already
+linked on the page are never offered twice, and the `curio` jar is skipped by
+default because that is where boards get collected, not where reporting is
+read (`--all-jars` to include it).
+
+Nothing is published until you move a stub into `public/index.html` yourself.
+
+```
+node --test from-trove.test.mjs
+```
+
 ## Running it
 
 It's a static site — open `index.html` in a browser, or serve the folder:

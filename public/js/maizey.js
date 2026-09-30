@@ -15,12 +15,12 @@
   if (!root || !body || !bubble || !text) return;
 
   var LINES = [
-    "Hi, I'm Maizey — the site guide. Click any green [READ SOURCE] button to open the original reporting behind a headline.",
-    "Stories are grouped into three sections: Drone Watch, Disclosure Desk, and Crop Circle Corner.",
-    "The corn rating on each story shows how contested it is — five cobs marks the most controversial topics.",
-    "Source links open in a new tab, so you won't lose your place.",
-    "This site aggregates third-party reporting. Headlines and summaries are written here; the facts come from the linked sources.",
-    "Click me again anytime for another tip."
+    "INTEL ADVISORY: Power systems use 'mysticism' and sensationalism to disguise classified aerospace test flights, automated surveillance, and no-bid procurement.",
+    "INVESTIGATIVE TOOL: Click any dossier's [ANALYZE WITH MAIZEY] button to trigger a live breakdown of the mechanism, money trail, and human impact.",
+    "COUNTER-MEASURE: Check the PRIMARY EVIDENCE drawer at the bottom of each file to inspect direct SEC, FEC, or Congressional citations.",
+    "CRITICAL CONTEXT: Stablecoin deregulation (GENIUS Act) authorizes synthetic private banking without FDIC backstops. The cost falls on ordinary depositors.",
+    "ARCHIVAL FACT: Project Mogul balloon microphones in 1947 created the Roswell saucer myth. Classified nuclear detection was the real mission.",
+    "CIVIL SERVICE PURGES: Bypassing civil service protections via 'RAGE' removes independent regulatory inspections across aviation, water, and pharmaceuticals."
   ];
 
   var idx = 0;
@@ -28,12 +28,71 @@
   var channeling = null;   // the message he is speaking through her, or null
   var graphicEl = null;
 
-  function show(line) {
+  function show(line, customTitle, actions) {
     if (channeling) return;                 // his turn
-    text.textContent = line;
+    text.innerHTML = '';
+    
+    var header = document.createElement('div');
+    header.className = 'console-header';
+    header.innerHTML = '<span>🌽</span> ' + (customTitle || 'MAIZEY INTEL CONSOLE');
+    text.appendChild(header);
+
+    var bodyEl = document.createElement('div');
+    bodyEl.className = 'console-body';
+    bodyEl.textContent = line;
+    text.appendChild(bodyEl);
+
+    if (actions && actions.length) {
+      var actWrap = document.createElement('div');
+      actWrap.className = 'console-actions';
+      actions.forEach(function(act) {
+        var btn = document.createElement('button');
+        btn.className = 'console-btn';
+        btn.textContent = act.label;
+        btn.onclick = function(e) {
+          e.stopPropagation();
+          act.onClick();
+        };
+        actWrap.appendChild(btn);
+      });
+      text.appendChild(actWrap);
+    }
+
     bubble.hidden = false;
     clearTimeout(hideTimer);
-    hideTimer = setTimeout(hide, 12000);
+    hideTimer = setTimeout(hide, 16000);
+  }
+
+  function analyzeDossier(id, title, takeaway, sourceUrl) {
+    if (channeling) return;
+    // Highlight the card on page
+    var allCards = document.querySelectorAll('.dossier-card');
+    allCards.forEach(function(c) { c.classList.remove('active-target'); });
+    var target = document.getElementById(id);
+    if (target) {
+      target.classList.add('active-target');
+      target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
+    show(takeaway, 'DOSSIER ANALYSIS: ' + title.slice(0, 24) + '...', [
+      {
+        label: 'OPEN SOURCE ↗',
+        onClick: function() { window.open(sourceUrl, '_blank'); }
+      },
+      {
+        label: 'EXPAND EVIDENCE 🔍',
+        onClick: function() {
+          if (target) {
+            var drawer = target.querySelector('.evidence-drawer');
+            if (drawer) drawer.open = true;
+          }
+        }
+      },
+      {
+        label: 'DISMISS',
+        onClick: hide
+      }
+    ]);
   }
 
   function hide() {
@@ -107,7 +166,22 @@
     hide: hide,
     channel: channel,
     release: release,
+    analyzeDossier: analyzeDossier,
     get busy() { return !!channeling; }
   };
   window.MutHost = window.Maizey;
+
+  // Global scanner listener for [ANALYZE WITH MAIZEY] buttons
+  document.addEventListener('click', function(e) {
+    var btn = e.target.closest('.maizey-scan-btn');
+    if (!btn) return;
+    e.preventDefault();
+    var card = btn.closest('.dossier-card');
+    if (!card) return;
+    var id = card.id;
+    var title = card.dataset.title || 'CLASSIFIED DOSSIER';
+    var takeaway = card.dataset.takeaway || 'Analysis in progress...';
+    var sourceUrl = card.dataset.source || 'https://goblinhouse.net';
+    analyzeDossier(id, title, takeaway, sourceUrl);
+  });
 })();

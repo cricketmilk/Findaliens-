@@ -25,9 +25,9 @@ body {
   margin: 0;
   background: var(--space-black);
   color: #e8e8ff;
-  font-family: 'VT323', 'Courier New', monospace;
-  font-size: 20px;
-  line-height: 1.45;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
   overflow-x: hidden;
 }
 
@@ -138,16 +138,23 @@ a:hover { color: var(--neon-magenta); }
 .kicker-red { background: var(--warn-red); color: #fff; }
 
 .headline {
-  font-size: clamp(22px, 3.4vw, 34px);
-  line-height: 1.15;
-  margin: 4px 0 10px;
+  font-family: 'Press Start 2P', monospace;
+  font-size: clamp(16px, 2.2vw, 22px);
+  line-height: 1.35;
+  margin: 6px 0 12px;
 }
 .headline-sm {
-  font-size: clamp(19px, 2.6vw, 26px);
-  line-height: 1.2;
-  margin: 4px 0 8px;
+  font-family: 'Press Start 2P', monospace;
+  font-size: clamp(12px, 1.6vw, 15px);
+  line-height: 1.4;
+  margin: 6px 0 10px;
 }
-.dek { color: #cfcfe8; margin: 0 0 10px; }
+.dek { 
+  color: #d8d8f0; 
+  margin: 0 0 12px; 
+  font-size: 16px;
+  line-height: 1.6;
+}
 .dek b, .dek i { color: #fff; }
 
 .story-meta {
@@ -316,39 +323,242 @@ a:hover { color: var(--neon-magenta); }
   50%      { transform: translateY(-7px) rotate(2deg); }
 }
 
-#maizey-bubble {
-  max-width: 250px;
-  background: #fffbe8;
-  color: #222;
-  font-family: 'Comic Sans MS', 'Comic Sans', 'VT323', cursive;
+/* ---------- dossier cards & forensic drawers ---------- */
+.dossier-card {
+  background: rgba(8, 7, 24, 0.94);
+  border: 2px solid #3d3b75;
+  border-left: 5px solid var(--neon-green);
+  padding: 16px 20px;
+  margin-bottom: 22px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.dossier-card:hover {
+  border-color: #5d5b99;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.7);
+}
+.dossier-card.demyst {
+  border-left-color: var(--neon-cyan);
+}
+.dossier-card.active-target {
+  border-left-color: var(--corn-gold);
+  background: rgba(22, 18, 48, 0.96);
+  box-shadow: 0 0 25px rgba(247, 201, 72, 0.4);
+}
+
+.dossier-lead {
+  font-size: 16px;
+  line-height: 1.65;
+  color: #e0e0fc;
+  margin-bottom: 14px;
+}
+
+.dossier-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 14px 0;
+}
+@media (max-width: 680px) {
+  .dossier-grid { grid-template-columns: 1fr; }
+}
+
+.dossier-panel {
+  background: rgba(18, 16, 42, 0.7);
+  border: 1px solid #2e2c5e;
+  padding: 10px 14px;
+  border-radius: 4px;
+}
+.dossier-panel-title {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.panel-warn .dossier-panel-title { color: #ff5555; }
+.panel-tech .dossier-panel-title { color: var(--neon-cyan); }
+.panel-human .dossier-panel-title { color: var(--corn-gold); }
+.panel-smoke .dossier-panel-title { color: #ff66cc; }
+
+.dossier-panel p {
+  margin: 0;
+  font-size: 14.5px;
+  line-height: 1.55;
+  color: #cfd0f5;
+}
+
+/* Evidence Drawer */
+.evidence-drawer {
+  background: #060514;
+  border: 1px solid #28264e;
+  border-radius: 4px;
+  margin-top: 14px;
+  overflow: hidden;
+}
+.evidence-summary {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 10px;
+  color: #8c8cd9;
+  padding: 10px 14px;
+  cursor: pointer;
+  background: #0f0d26;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.evidence-summary:hover {
+  background: #18153d;
+  color: var(--neon-green);
+}
+.evidence-content {
+  padding: 12px 16px;
   font-size: 14px;
-  line-height: 1.35;
-  border: 3px solid var(--corn-deep);
-  border-radius: 14px;
-  padding: 10px 26px 10px 12px;
+  line-height: 1.6;
+  color: #b8b8e0;
+  border-top: 1px solid #1a1838;
+}
+.evidence-content ul {
+  margin: 6px 0 0 18px;
+  padding: 0;
+}
+.evidence-content li {
+  margin-bottom: 6px;
+}
+.evidence-content strong {
+  color: #fff;
+}
+.evidence-content code {
+  font-family: 'Courier New', monospace;
+  background: #161430;
+  padding: 1px 5px;
+  color: var(--neon-cyan);
+  border-radius: 3px;
+  font-size: 13px;
+}
+
+/* Custom dossier controls & buttons */
+.dossier-action-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid #26244f;
+}
+.maizey-scan-btn {
+  background: #1c183b;
+  color: var(--corn-gold);
+  border: 1px solid var(--corn-deep);
+  font-family: 'Press Start 2P', monospace;
+  font-size: 9px;
+  padding: 5px 9px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.maizey-scan-btn:hover {
+  background: var(--corn-gold);
+  color: #0b0a1e;
+}
+
+.dossier-tag {
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  font-size: 12px;
+  color: #ff77dd;
+  background: rgba(255,119,221,0.1);
+  border: 1px solid rgba(255,119,221,0.3);
+  padding: 2px 7px;
+  border-radius: 2px;
+}
+
+.record-badge {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 9px;
+  color: #fff;
+  background: #1a4a1a;
+  border: 1px solid #39ff14;
+  padding: 3px 7px;
+  border-radius: 2px;
+  letter-spacing: 0.5px;
+}
+.record-badge.declass {
+  background: #0f3d4a;
+  border-color: #4de8ff;
+  color: #4de8ff;
+}
+
+/* Maizey Intel Console Modal */
+#maizey-bubble {
+  max-width: 380px;
+  background: #0e0c24;
+  color: #e6e6fa;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  border: 2px solid var(--corn-gold);
+  border-radius: 6px;
+  padding: 14px 30px 14px 14px;
   position: relative;
-  box-shadow: 4px 4px 0 rgba(0,0,0,.55);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.8);
 }
 #maizey-bubble::after {
   content: "";
   position: absolute;
-  bottom: -12px;
+  bottom: -10px;
   right: 34px;
-  border: 6px solid transparent;
-  border-top-color: var(--corn-deep);
+  border: 5px solid transparent;
+  border-top-color: var(--corn-gold);
+}
+#maizey-bubble .console-header {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 10px;
+  color: var(--corn-gold);
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #2d2952;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+#maizey-bubble .console-body {
+  margin-bottom: 10px;
+}
+#maizey-bubble .console-actions {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+}
+.console-btn {
+  background: #1c183b;
+  color: var(--neon-cyan);
+  border: 1px solid #3c376e;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 8px;
+  padding: 4px 7px;
+  cursor: pointer;
+}
+.console-btn:hover {
+  background: var(--neon-cyan);
+  color: #0b0a1e;
 }
 #maizey-close {
   position: absolute;
-  top: 3px;
-  right: 5px;
+  top: 6px;
+  right: 8px;
   background: none;
   border: none;
-  font-size: 13px;
+  font-size: 14px;
   cursor: pointer;
-  color: #8a5a00;
-  font-family: inherit;
+  color: var(--corn-gold);
 }
-#maizey-close:hover { color: #d40000; }
+
 
 /* ============================================================
    CHANNELING — Müt, the Xixoxis shell's familiar, speaking through Maizey.

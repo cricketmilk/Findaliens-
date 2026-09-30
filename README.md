@@ -8,6 +8,8 @@ Every headline links to the original third-party reporting. Headlines and summar
 
 - 🚁 **Drone Watch** — airspace incidents and unidentified drone activity
 - 👽 **Disclosure Desk** — government UAP file releases, hearings, and official statements
+- 🏛️ **Digging Up The Deep State** — documented money/power loops from the public record (Palantir–ICE surveillance, stablecoin bank risks, administrative dismantlement, defense-AI procurement monopolies)
+- 🔧 **Demystification Desk** — the documented, declassified aerospace programs behind UFO mythology (Roswell = Project Mogul, Blue Book's actual record, Area 51 = U-2/A-12 test flights, AAWSAP Skinwalker Ranch earmarks). Stripping the mystical cover from classified defense spending.
 - 🌾 **Crop Circle Corner** — crop formation coverage
 - 🌽 **Maizey** — a small site guide in the corner. Click her for navigation tips; each story's corn rating (🌽×1–5) indicates how contested the topic is.
 

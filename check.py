@@ -21,7 +21,7 @@ import urllib.error
 import urllib.request
 
 SITE = "https://findaliens.net"
-TRAP = "https://sixoxis.goblinhouse.net"
+TRAP = "https://wheattodd.com"
 UA = "findaliens-check/1.0 (+repo smoke test)"
 
 _fails = []
@@ -75,7 +75,7 @@ def main():
           "status=%s" % ist)
 
     print("\nthe trapdoor")
-    check("hidden nofollow link present", "sixoxis.goblinhouse.net/maze/root" in body)
+    check("hidden nofollow link present", "wheattodd.com/maze/root" in body)
     rst, robots, _ = get(base + "/robots.txt")
     # Cloudflare's Managed robots.txt silently replaces this file if it is on
     # for the zone, which disables the honeytoken without any error anywhere.
@@ -84,7 +84,7 @@ def main():
           "managed robots.txt is shadowing it" if rst == 200 and "archive/drafts" not in robots else "")
     hst, _, hh = get(base + "/archive/drafts/x", redirect=False)
     check("honeytoken redirects into the maze",
-          hst in (301, 302) and "sixoxis" in (hh.get("Location") or ""),
+          hst in (301, 302) and "wheattodd" in (hh.get("Location") or ""),
           "status=%s -> %s" % (hst, hh.get("Location")))
 
     print("\nthe wire  (Müt speaking through Maizey)")

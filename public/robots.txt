@@ -1,3 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /archive/drafts/
+Disallow: /crawler-notice
+Disallow: /ai/
+Disallow: /llms.txt
+Disallow: /.well-known/ai-plugin.json

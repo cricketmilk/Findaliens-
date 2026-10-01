@@ -72,7 +72,7 @@ site at findaliens.net is the static gazette in the repo root.
 ## The trapdoor
 
 `robots.txt` disallows one path that does not exist, and `_redirects` sends that
-path to the labyrinth at `sixoxis.goblinhouse.net`. `index.html` carries one
+path to the labyrinth at `wheattodd.com`. `index.html` carries one
 matching off-screen `nofollow` link before `</body>`. Both are invisible to
 visitors and to compliant crawlers; only a scraper that ignores robots.txt or
 harvests it for disallowed paths ever reaches them. Nothing else from that system

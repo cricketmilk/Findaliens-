@@ -79,6 +79,17 @@
         { "url": "https://storage.courtlistener.com/pdf/2013/11/08/amazon_web_services_inc._v._united_states.pdf", "publisher": "U.S. Court of Federal Claims (via CourtListener)", "title": "Amazon Web Services, Inc. v. United States, No. 13-506C, 113 Fed. Cl. 102 (opinion and order)", "date": "2013-11-08" },
         { "url": "https://nextgov.com/modernization/2013/10/judge-rules-for-amazon-web-services-over-ibm-in-cia-cloud-case/211401", "publisher": "Nextgov", "title": "Judge rules for Amazon Web Services over IBM in CIA cloud case", "date": "2013-10-07" }
       ]
+    },
+    {
+      "claim": "Amazon Web Services was handed a publicly funded monopoly at trivial cost via the $600 million CIA C2S contract.",
+      "assessment": "false",
+      "explanation": "C2S was a procurement in which the government paid the contractor, not a transfer of public R&D or assets to Amazon. GAO's decision describes a fixed-price IDIQ contract for commercially managed cloud services with a $600 million ceiling; the Court of Federal Claims opinion records AWS's evaluated price of $148.06 million against IBM's $93.9 million, i.e. the CIA chose the higher-priced offer on technical merit. Trade press reported the ceiling as $600 million over four years (Washington Technology) or over ten years (Nextgov); no source gives the amount actually obligated. No source reviewed shows any CIA-funded technology, data or intellectual property passing to Amazon; AWS built the environment on its own commercial platform. The record does not support a cost-free or below-cost transfer, and the contract has no bearing on how AWS's commercial cloud revenue is used.",
+      "sources": [
+        { "url": "https://www.gao.gov/products/D04914", "publisher": "U.S. Government Accountability Office", "title": "IBM-U.S. Federal, B-407073.3 et al.", "date": "2013-06-06" },
+        { "url": "https://storage.courtlistener.com/pdf/2013/11/08/amazon_web_services_inc._v._united_states.pdf", "publisher": "U.S. Court of Federal Claims (via CourtListener)", "title": "Amazon Web Services, Inc. v. United States, No. 13-506C, 113 Fed. Cl. 102 (opinion and order)", "date": "2013-11-08" },
+        { "url": "https://www.washingtontechnology.com/2013/10/amazon-win-restarts-cia-cloud-contract/338279/", "publisher": "Washington Technology", "title": "Amazon win restarts CIA cloud contract", "date": "2013-10" },
+        { "url": "https://www.nextgov.com/modernization/2019/04/cia-considering-cloud-contract-worth-tens-billions/156190/", "publisher": "Nextgov", "title": "CIA Considering Cloud Contract Worth 'Tens of Billions'", "date": "2019-04" }
+      ]
     }
   ]
 }

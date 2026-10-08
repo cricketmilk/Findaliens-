@@ -1,0 +1,141 @@
+{
+  "entity": "agha-hasan-abedi",
+  "name": "Agha Hasan Abedi",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "Agha Hasan Abedi was the Pakistani banker who founded the Bank of Credit and Commerce International in 1972 and was its president. The Senate Foreign Relations Committee report (December 1992) attributes BCCI's corporate structure to a design conceived by Abedi for the purpose of evading regulation. He was indicted in New York in July 1991 and the Federal Reserve sought to bar him from U.S. banking; Pakistan refused extradition requests and he died in Karachi on 5 August 1995 without standing trial in the United States.",
+    "sources": [
+      {
+        "url": "https://irp.fas.org/congress/1992_rpt/bcci/01exec.htm",
+        "publisher": "U.S. Senate Committee on Foreign Relations (hosted by Federation of American Scientists)",
+        "title": "The BCCI Affair: Executive Summary",
+        "date": "1992-12"
+      },
+      {
+        "url": "https://tulsaworld.com/news/ny-indicts-bcci-founder-fed-seeks-200-million-fine/article_4ec31a85-d14a-5846-9cad-0b49abcc38d4.html",
+        "publisher": "Tulsa World (Associated Press)",
+        "title": "NY Indicts BCCI, Founder; Fed Seeks $200 Million Fine",
+        "date": "1991-07-30"
+      },
+      {
+        "url": "https://www.deseret.com/1995/8/6/19185992/bcci-founder-dies-after-seeing-his-empire-collapse-in-fraud/",
+        "publisher": "Deseret News",
+        "title": "BCCI founder dies after seeing his empire collapse in fraud",
+        "date": "1995-08-06"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On July 29, 1991, a New York grand jury indictment announced by Manhattan District Attorney Robert Morgenthau named Agha Hasan Abedi, BCCI's founder and former president, and Swaleh Naqvi, the bank's chief operating officer until October 1990, as individual defendants alongside BCCI and four affiliates, on charges including defrauding investors, falsifying records and stealing more than $30 million.",
+      "status": "reported",
+      "date": "1991-07-29",
+      "quote": "The indictment named Abedi, the founder and former president of BCCI, and Swaleh Naqvi, the bank's chief operating officer until October 1990, as individual defendants.",
+      "sources": [
+        {
+          "url": "https://tulsaworld.com/news/ny-indicts-bcci-founder-fed-seeks-200-million-fine/article_4ec31a85-d14a-5846-9cad-0b49abcc38d4.html",
+          "publisher": "Tulsa World (Associated Press)",
+          "title": "NY Indicts BCCI, Founder; Fed Seeks $200 Million Fine",
+          "date": "1991-07-30"
+        }
+      ]
+    },
+    {
+      "claim": "On July 29, 1991, the Federal Reserve Board announced enforcement proceedings that included actions to bar several individuals, including Agha Hasan Abedi and Swaleh Naqvi, from U.S. banking.",
+      "status": "court",
+      "date": "1991-07-29",
+      "quote": "actions to bar several individuals, including Agha Hasan Abedi and Swaleh Naqvi, from U.S. banking",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/supervisionreg/files/19910729.pdf",
+          "publisher": "Federal Reserve Board",
+          "title": "Press release: enforcement proceedings against BCCI Holdings (Luxembourg) S.A. and related entities",
+          "date": "1991-07-29"
+        }
+      ]
+    },
+    {
+      "claim": "When the court accepted BCCI's corporate guilty plea in January 1992, Attorney General William Barr said the deal left pending charges of grand larceny, fraud and money laundering against BCCI's former executives, including its founder Agha Hasan Abedi and his deputy Swaleh Naqvi.",
+      "status": "reported",
+      "date": "1992-01-24",
+      "quote": "Barr said the deal left pending charges of grand larceny, fraud and money laundering against BCCI's former executives, including the bank's founder, Agha Hasan Abedi and his deputy, Swaleh Naqvi.",
+      "sources": [
+        {
+          "url": "https://www.upi.com/Archives/1992/01/25/Judge-accepts-BCCI-plea/3763696315600/",
+          "publisher": "UPI",
+          "title": "Judge accepts BCCI plea",
+          "date": "1992-01-25"
+        }
+      ]
+    },
+    {
+      "claim": "Pakistan refused extradition requests for Abedi from the United Arab Emirates and from the United States, and he died in Karachi on 5 August 1995 without having been tried in the United States.",
+      "status": "reported",
+      "date": "1995-08-05",
+      "quote": "Pakistan refused extradition requests from the UAE and from the United States",
+      "sources": [
+        {
+          "url": "https://www.deseret.com/1995/8/6/19185992/bcci-founder-dies-after-seeing-his-empire-collapse-in-fraud/",
+          "publisher": "Deseret News",
+          "title": "BCCI founder dies after seeing his empire collapse in fraud",
+          "date": "1995-08-06"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Agha_Hasan_Abedi",
+          "publisher": "Wikipedia",
+          "title": "Agha Hasan Abedi",
+          "date": ""
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "bcci",
+      "toName": "Bank of Credit and Commerce International",
+      "toType": "company",
+      "relation": "founded",
+      "claim": "Abedi founded BCCI in 1972 and was its president; the Senate Foreign Relations Committee report (December 1992) attributes the bank's corporate structure to a design conceived by Abedi and managed by Swaleh Naqvi for the specific purpose of evading regulation or control by governments.",
+      "status": "court",
+      "date": "1972",
+      "quote": "the bank's corporate structure, which was conceived by Abedi and managed by Naqvi for the specific purpose of evading regulation or control by governments",
+      "sources": [
+        {
+          "url": "https://irp.fas.org/congress/1992_rpt/bcci/01exec.htm",
+          "publisher": "U.S. Senate Committee on Foreign Relations (hosted by Federation of American Scientists)",
+          "title": "The BCCI Affair: Executive Summary",
+          "date": "1992-12"
+        },
+        {
+          "url": "https://irp.fas.org/congress/1992_rpt/bcci/03hist.htm",
+          "publisher": "U.S. Senate Committee on Foreign Relations (hosted by Federation of American Scientists)",
+          "title": "The BCCI Affair: The Origin and Early Years of BCCI",
+          "date": "1992-12"
+        }
+      ]
+    },
+    {
+      "to": "federal-reserve",
+      "toName": "Federal Reserve",
+      "toType": "government",
+      "relation": "investigated",
+      "reverse": true,
+      "claim": "On July 29, 1991 the Federal Reserve Board announced enforcement proceedings seeking to bar Agha Hasan Abedi, among others, from U.S. banking.",
+      "status": "court",
+      "date": "1991-07-29",
+      "quote": "actions to bar several individuals, including Agha Hasan Abedi and Swaleh Naqvi, from U.S. banking",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/supervisionreg/files/19910729.pdf",
+          "publisher": "Federal Reserve Board",
+          "title": "Press release: enforcement proceedings against BCCI Holdings (Luxembourg) S.A. and related entities",
+          "date": "1991-07-29"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Wikipedia and the Deseret News obituary indicate a United Arab Emirates court convicted Abedi of fraud (Wikipedia: eight-year sentence) in 1994, in his absence; not confirmed from a primary source and left out.",
+    "The precise charges in the July 1991 New York indictment vary between accounts (AP: fraud, falsified records, theft of more than $30 million; a secondary chronology adds bribery and money laundering)."
+  ]
+}

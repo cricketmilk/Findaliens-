@@ -1,0 +1,178 @@
+{
+  "entity": "coinbase",
+  "name": "Coinbase",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "Coinbase is a U.S. cryptocurrency exchange led by chief executive Brian Armstrong. FactCheck.org identifies it as one of the three largest contributors to the crypto super PAC Fairshake, alongside Ripple Labs and Andreessen Horowitz. It gave Fairshake $25 million in June 2024 and in October 2024 announced a further $25 million for the 2026 midterms. Armstrong has said the company's aim is to elect pro-crypto candidates of both parties and vote anti-crypto candidates out of office.",
+    "sources": [
+      {
+        "url": "https://www.factcheck.org/2026/08/fairshake-2/",
+        "publisher": "FactCheck.org",
+        "title": "Fairshake",
+        "date": "2026-08"
+      },
+      {
+        "url": "https://fortune.com/crypto/2024/06/03/coinbase-donates-25-million-to-super-pac-fairshake-days-after-biden-vetoes-crypto-custody-bill",
+        "publisher": "Fortune",
+        "title": "Coinbase donates $25 million to super PAC Fairshake days after Biden vetoes crypto custody bill",
+        "date": "2024-06-03"
+      },
+      {
+        "url": "https://www.foxbusiness.com/politics/coinbase-ceo-says-company-donated-25m-vote-anti-crypto-politicians-out-congress",
+        "publisher": "Fox Business",
+        "title": "Coinbase CEO says company has donated $25M to vote anti-crypto politicians out of Congress",
+        "date": "2024"
+      },
+      {
+        "url": "https://www.yahoo.com/news/coinbase-gives-another-25-million-184916896.html",
+        "publisher": "Yahoo News (Bloomberg)",
+        "title": "Coinbase Gives Another $25 Million to Crypto Super-PAC Fairshake",
+        "date": "2024-10-30"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In early June 2024 Coinbase gave $25 million to the Fairshake super PAC, days after President Biden vetoed a congressional resolution on crypto custody accounting; Ripple and Andreessen Horowitz had each given $25 million in late May 2024.",
+      "status": "reported",
+      "date": "2024-06-03",
+      "quote": "Coinbase donates $25 million to super PAC Fairshake days after Biden vetoes crypto custody bill",
+      "sources": [
+        {
+          "url": "https://fortune.com/crypto/2024/06/03/coinbase-donates-25-million-to-super-pac-fairshake-days-after-biden-vetoes-crypto-custody-bill",
+          "publisher": "Fortune",
+          "title": "Coinbase donates $25 million to super PAC Fairshake days after Biden vetoes crypto custody bill",
+          "date": "2024-06-03"
+        }
+      ]
+    },
+    {
+      "claim": "Brian Armstrong wrote in 2024 that 'The best way to get regulatory clarity in democratic countries is to elect pro-crypto candidates on both sides of the aisle, and to vote anti-crypto candidates out of office,' in explaining Coinbase's $25 million support for Fairshake.",
+      "status": "words",
+      "date": "2024",
+      "quote": "The best way to get regulatory clarity in democratic countries is to elect pro-crypto candidates on both sides of the aisle, and to vote anti-crypto candidates out of office.",
+      "sources": [
+        {
+          "url": "https://www.foxbusiness.com/politics/coinbase-ceo-says-company-donated-25m-vote-anti-crypto-politicians-out-congress",
+          "publisher": "Fox Business",
+          "title": "Coinbase CEO says company has donated $25M to vote anti-crypto politicians out of Congress",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "claim": "On October 30, 2024 Armstrong announced on X that Coinbase would give Fairshake a further $25 million in 2025 for the 2026 midterms, saying the next Congress 'will be the most pro-crypto' yet and 'we're not slowing down'. On November 4, 2024 Fairshake said it had raised $78 million for 2026 including new commitments from Coinbase and Andreessen Horowitz.",
+      "status": "reported",
+      "date": "2024-10-30",
+      "quote": "Coinbase Gives Another $25 Million to Crypto Super-PAC Fairshake",
+      "sources": [
+        {
+          "url": "https://www.yahoo.com/news/coinbase-gives-another-25-million-184916896.html",
+          "publisher": "Yahoo News (Bloomberg)",
+          "title": "Coinbase Gives Another $25 Million to Crypto Super-PAC Fairshake",
+          "date": "2024-10-30"
+        },
+        {
+          "url": "https://www.cnbc.com/2024/11/04/coinbase-a16z-contribute-78-million-to-pro-crypto-pac-for-2026-election.html",
+          "publisher": "CNBC",
+          "title": "Coinbase, a16z contribute $78 million to pro-crypto PAC for 2026 election",
+          "date": "2024-11-04"
+        }
+      ]
+    },
+    {
+      "claim": "FactCheck.org identifies Coinbase, Ripple Labs and AH Capital Management (Andreessen Horowitz) as Fairshake's largest contributors. Wikipedia, citing FEC data, puts Coinbase's giving to Fairshake since 2023 at $93.5 million; this figure should be checked against FEC filings.",
+      "status": "reported",
+      "date": "2026-08",
+      "quote": "Coinbase at $93.5 million",
+      "sources": [
+        {
+          "url": "https://www.factcheck.org/2026/08/fairshake-2/",
+          "publisher": "FactCheck.org",
+          "title": "Fairshake",
+          "date": "2026-08"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Fairshake",
+          "publisher": "Wikipedia",
+          "title": "Fairshake",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "claim": "The Washington Post reported that the Fairshake-network ads it viewed in the 2024 cycle did not mention crypto and that the super PACs were backed by Coinbase and Ripple.",
+      "status": "reported",
+      "date": "2024",
+      "quote": "none of the ads viewed by The Post actually mention crypto",
+      "sources": [
+        {
+          "url": "https://www.washingtonpost.com/business/interactive/2024/crypto-firms-candidates-house-senate-election-2024/",
+          "publisher": "The Washington Post",
+          "title": "Crypto cash is flooding the 2024 election. Here's who is benefiting.",
+          "date": "2024"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "fairshake",
+      "relation": "donated to",
+      "claim": "Coinbase gave Fairshake $25 million in June 2024 and announced a further $25 million for the 2026 midterms on October 30, 2024; FactCheck.org lists it among Fairshake's largest contributors.",
+      "status": "reported",
+      "date": "2024-10-30",
+      "quote": "Coinbase Gives Another $25 Million to Crypto Super-PAC Fairshake",
+      "sources": [
+        {
+          "url": "https://fortune.com/crypto/2024/06/03/coinbase-donates-25-million-to-super-pac-fairshake-days-after-biden-vetoes-crypto-custody-bill",
+          "publisher": "Fortune",
+          "title": "Coinbase donates $25 million to super PAC Fairshake days after Biden vetoes crypto custody bill",
+          "date": "2024-06-03"
+        },
+        {
+          "url": "https://www.yahoo.com/news/coinbase-gives-another-25-million-184916896.html",
+          "publisher": "Yahoo News (Bloomberg)",
+          "title": "Coinbase Gives Another $25 Million to Crypto Super-PAC Fairshake",
+          "date": "2024-10-30"
+        },
+        {
+          "url": "https://www.factcheck.org/2026/08/fairshake-2/",
+          "publisher": "FactCheck.org",
+          "title": "Fairshake",
+          "date": "2026-08"
+        }
+      ]
+    },
+    {
+      "to": "brian-armstrong",
+      "relation": "executive of",
+      "claim": "Brian Armstrong is Coinbase's chief executive and announced the company's Fairshake contributions in 2024.",
+      "status": "reported",
+      "date": "2024-10-30",
+      "quote": "Coinbase CEO says company has donated $25M to vote anti-crypto politicians out of Congress",
+      "sources": [
+        {
+          "url": "https://www.foxbusiness.com/politics/coinbase-ceo-says-company-donated-25m-vote-anti-crypto-politicians-out-congress",
+          "publisher": "Fox Business",
+          "title": "Coinbase CEO says company has donated $25M to vote anti-crypto politicians out of Congress",
+          "date": "2024"
+        },
+        {
+          "url": "https://www.yahoo.com/news/coinbase-gives-another-25-million-184916896.html",
+          "publisher": "Yahoo News (Bloomberg)",
+          "title": "Coinbase Gives Another $25 Million to Crypto Super-PAC Fairshake",
+          "date": "2024-10-30"
+        }
+      ],
+      "reverse": true
+    }
+  ],
+  "openQuestions": [
+    "Not recorded (search budget exhausted before sec.gov results were obtained): the SEC's June 2023 suit against Coinbase and its February 2025 dismissal. No 'sec' connection is recorded for that reason.",
+    "Basic company facts (founding year, Nasdaq listing in 2021) were not sourced in this run.",
+    "Coinbase's total giving to Fairshake differs by source and period: more than $75 million (NBC/CNBC, 2024 cycle, in fairshake.json), about $93.5 million (Bloomberg Government analysis of FEC data as cited by Wikipedia, 2023-2024), and $52.46 million for the 2026 cycle (Wikipedia). Fortune reported Coinbase had also given more than $20 million in 2023. None of these was verified at the FEC.",
+    "The Armstrong 'regulatory clarity' quote was attributed in search results to a 2024 blog post; the Fox Business article is cited as the carrier. The owner should confirm the original post.",
+    "Reports that Armstrong personally gave $1 million to Fairshake and that a 2025 gift was $24.5 million from Coinbase plus $1 million from Armstrong came from aggregator sites and are not recorded."
+  ]
+}

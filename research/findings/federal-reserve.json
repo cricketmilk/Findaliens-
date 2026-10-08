@@ -70,6 +70,78 @@
           "date": "2014-09-26"
         }
       ]
+    },
+    {
+      "claim": "GAO's July 21, 2011 audit (GAO-11-696), directed by the Dodd-Frank Act and covering Federal Reserve Board emergency actions from December 1, 2007 through July 21, 2010, found that the Reserve Banks, mainly the New York Fed, awarded 103 contracts worth $659.4 million from 2008 through 2010 to support emergency work, that a few contracts accounted for most vendor spending, and that the Reserve Banks relied more extensively on vendors for programs that assisted a single institution than for broad-based programs. (GAO finding.)",
+      "status": "court",
+      "date": "2011-07-21",
+      "quote": "The Dodd-Frank Wall Street Reform and Consumer Protection Act directed GAO to conduct a one-time audit of the emergency loan programs and other assistance authorized by the Board of Governors of the Federal Reserve System / The Reserve Banks relied more extensively on vendors for programs that assisted a single institution than for broad-based programs",
+      "sources": [
+        {
+          "url": "https://www.gao.gov/products/gao-11-696",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Federal Reserve System: Opportunities Exist to Strengthen Policies and Processes for Managing Emergency Assistance (GAO-11-696)",
+          "date": "2011-07-21"
+        },
+        {
+          "url": "https://www.gao.gov/assets/gao-11-696.pdf",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "GAO-11-696 (full report)",
+          "date": "2011-07-21"
+        },
+        {
+          "url": "https://www.gao.gov/assets/gao-11-696-highlights.pdf",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "GAO-11-696 Highlights",
+          "date": "2011-07-21"
+        }
+      ]
+    },
+    {
+      "claim": "GAO-11-696 found that the New York Fed took steps to manage conflicts of interest for its employees, directors and program vendors, but that opportunities exist to strengthen its conflict policies, and that its code did not specifically prohibit investments in certain nonbank institutions that received emergency assistance. (GAO finding.)",
+      "status": "court",
+      "date": "2011-07-21",
+      "quote": "the New York Fed took steps to manage conflicts of interest for its employees, directors, and program vendors, but opportunities exist to strengthen its conflict policies / Its code did not specifically prohibit investments in certain nonbank institutions that received emergency assistance",
+      "sources": [
+        {
+          "url": "https://www.gao.gov/products/gao-11-696",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Federal Reserve System: Opportunities Exist to Strengthen Policies and Processes for Managing Emergency Assistance (GAO-11-696)",
+          "date": "2011-07-21"
+        },
+        {
+          "url": "https://www.gao.gov/assets/gao-11-696.pdf",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "GAO-11-696 (full report)",
+          "date": "2011-07-21"
+        },
+        {
+          "url": "https://www.gao.gov/assets/gao-11-696-highlights.pdf",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "GAO-11-696 Highlights",
+          "date": "2011-07-21"
+        }
+      ]
+    },
+    {
+      "claim": "GAO-11-696 recommended that the Federal Reserve revise its acquisition policies to ensure competition and favorable terms for acquired services. GAO noted that in a few cases the Federal Reserve Board authorized a Reserve Bank to lend to a limited liability corporation to finance the purchase of assets from a single institution, the structure used for the Maiden Lane vehicles. (GAO finding.)",
+      "status": "court",
+      "date": "2011-07-21",
+      "quote": "the Fed should revise their acquisition policies to ensure competition and favorable terms for acquired services / in a few cases, the Federal Reserve Board authorized a Reserve Bank to lend to a limited liability corporation (LLC) to finance the purchase of assets from a single institution",
+      "sources": [
+        {
+          "url": "https://www.gao.gov/products/gao-11-696",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Federal Reserve System: Opportunities Exist to Strengthen Policies and Processes for Managing Emergency Assistance (GAO-11-696)",
+          "date": "2011-07-21"
+        },
+        {
+          "url": "https://www.gao.gov/assets/gao-11-696-highlights.pdf",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "GAO-11-696 Highlights",
+          "date": "2011-07-21"
+        }
+      ]
     }
   ],
   "connections": [
@@ -128,6 +200,31 @@
           "title": "Basel Committee membership"
         }
       ]
+    },
+    {
+      "to": "maiden-lane",
+      "relation": "founded",
+      "claim": "The Federal Reserve Board authorized, and the Federal Reserve Bank of New York created and lent to, Maiden Lane LLC (authorized March 16, 2008; $28.8 billion lent at the June 26, 2008 closing), Maiden Lane II LLC ($19.5 billion) and Maiden Lane III LLC ($24,339 million principal at closing, with a $5.0 billion AIG equity contribution).",
+      "status": "documented",
+      "date": "2008",
+      "quote": "On March 16, 2008, the Board authorized the New York Reserve Bank to make a senior loan to a limited liability company, Maiden Lane LLC",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/monetarypolicy/files/129periodicupdate.pdf",
+          "publisher": "Board of Governors of the Federal Reserve System",
+          "title": "Periodic Report Pursuant to Section 129(b) of the Emergency Economic Stabilization Act"
+        },
+        {
+          "url": "https://www.federalreserve.gov/monetarypolicy/clbs-lending-in-support-of-specific-institutions-201107.htm",
+          "publisher": "Board of Governors of the Federal Reserve System",
+          "title": "Credit and Liquidity Programs and the Balance Sheet: Lending in Support of Specific Institutions (July 2011)",
+          "date": "2011-07"
+        }
+      ]
     }
+  ],
+  "openQuestions": [
+    "The GAO-11-696 passages retrieved in this session do not name BlackRock or state which Maiden Lane contracts were awarded noncompetitively; the report's figure on contracts and fees by procurement method and its vendor conflict-of-interest section should be read directly before any claim about BlackRock's award method is attributed to GAO.",
+    "The recommendation sentence ('revise their acquisition policies to ensure competition and favorable terms') was returned truncated by the search; confirm the wording in the Highlights page."
   ]
 }

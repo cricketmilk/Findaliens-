@@ -95,6 +95,55 @@
       "sources": [
         { "url": "https://nasa.gov/press/2014/april/nasa-signs-agreement-with-spacex-for-use-of-historic-launch-pad", "publisher": "NASA", "title": "NASA Signs Agreement with SpaceX for Use of Historic Launch Pad", "date": "2014-04-15" }
       ]
+    },
+    {
+      "claim": "NASA's COTS and Commercial Crew contracts to SpaceX displaced the public Space Shuttle.",
+      "assessment": "partly-true",
+      "explanation": "True in function, false in sequence and cause. Commercial cargo (from 2012) and crew (from 2020) vehicles now do the ISS transport the shuttle did, and NASA itself described Demo-2 as the first U.S. crew launch since the shuttle's conclusion. But the shuttle's retirement was decided on January 14, 2004, when President Bush's Vision for Space Exploration called for completing the station by 2010 and retiring the shuttle once assembly was complete; NASA Administrator O'Keefe told Congress this would free over $4 billion a year for lunar missions, and it avoided the 2010 recertification called for by the Columbia Accident Investigation Board. That decision came two and a half years before NASA selected SpaceX for COTS (August 2006) and ten years before the Commercial Crew contracts (September 2014, awarded to Boeing as well as SpaceX). The contracts filled a gap the retirement created; they did not cause it.",
+      "sources": [
+        {
+          "url": "https://georgewbush-whitehouse.archives.gov/news/releases/2004/01/print/20040114-1.html",
+          "publisher": "The White House (George W. Bush archives)",
+          "title": "Fact sheet: A Renewed Spirit of Discovery",
+          "date": "2004-01-14"
+        },
+        {
+          "url": "https://georgewbush-whitehouse.archives.gov/news/releases/2004/01/20040114-3.html",
+          "publisher": "The White House (George W. Bush archives)",
+          "title": "President Bush Announces New Vision for Space Exploration Program",
+          "date": "2004-01-14"
+        },
+        {
+          "url": "https://www.globalsecurity.org/space/library/congress/2004_h/040129-o-keefe.htm",
+          "publisher": "GlobalSecurity.org (House Science Committee testimony of NASA Administrator Sean O'Keefe)",
+          "title": "Statement of Sean O'Keefe, January 29, 2004",
+          "date": "2004-01-29"
+        },
+        {
+          "url": "https://www.globalsecurity.org/space/systems/vse.htm",
+          "publisher": "GlobalSecurity.org",
+          "title": "Bush - Project Constellation / Vision for Space Exploration [VSE]",
+          "date": ""
+        },
+        {
+          "url": "https://www.nasa.gov/home/hqnews/2006/aug/HQ_06295_COTS_phase_1.html",
+          "publisher": "NASA",
+          "title": "NASA Selects Crew and Cargo Transportation to Orbit Partners (release 06-295)",
+          "date": "2006-08-18"
+        },
+        {
+          "url": "https://www.nasa.gov/news-release/nasa-chooses-american-companies-to-transport-u-s-astronauts-to-international-space-station/",
+          "publisher": "NASA",
+          "title": "NASA Chooses American Companies to Transport U.S. Astronauts to International Space Station",
+          "date": "2014-09-16"
+        },
+        {
+          "url": "https://www.nasa.gov/news-release/nasa-astronauts-launch-from-america-in-historic-test-flight-of-spacex-crew-dragon/",
+          "publisher": "NASA",
+          "title": "NASA Astronauts Launch from America in Historic Test Flight of SpaceX Crew Dragon",
+          "date": "2020-05-30"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,139 @@
+{
+  "entity": "zip2",
+  "name": "Zip2 Corporation",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "Zip2 Corporation was an online city-guide and mapping software company. Compaq Computer Corporation announced on February 16, 1999 that it had agreed to buy all of Zip2's shares for cash, completed the purchase in April 1999 for about $307 million in cash (about $341 million including employee stock options and costs), and folded it into its AltaVista search business. Tesla's 2010 registration statement lists Zip2 among Elon Musk's earlier roles; secondary accounts describe it as the first company he co-founded.",
+    "sources": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/0000714154/000071415499000005/0000714154-99-000005.txt",
+        "publisher": "U.S. Securities and Exchange Commission (Compaq Computer Corp. Form 8-K)",
+        "title": "Compaq Computer Corp. Form 8-K with February 16, 1999 release on agreement to acquire Zip2",
+        "date": "1999-02"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/0001100862/000101287099004680/0001012870-99-004680.txt",
+        "publisher": "U.S. Securities and Exchange Commission (AltaVista Co. Form S-1)",
+        "title": "AltaVista Company Registration Statement on Form S-1",
+        "date": "1999"
+      },
+      {
+        "url": "https://www.britannica.com/money/Zip2",
+        "publisher": "Encyclopaedia Britannica",
+        "title": "Zip2",
+        "date": ""
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "A Compaq release dated February 16, 1999, filed with the SEC, said Compaq had reached a definitive agreement to acquire Zip2 Corp. in a cash purchase of all outstanding shares, and that Zip2's board had unanimously approved the deal.",
+      "status": "documented",
+      "date": "1999-02-16",
+      "quote": "A Compaq release dated February 16, 1999 said it had reached a definitive agreement to acquire Zip2 Corp. The deal was a cash purchase of all outstanding shares, and Zip2's board had unanimously approved it.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000714154/000071415499000005/0000714154-99-000005.txt",
+          "publisher": "U.S. Securities and Exchange Commission (Compaq Computer Corp. Form 8-K)",
+          "title": "Compaq Computer Corp. Form 8-K with February 16, 1999 release on agreement to acquire Zip2",
+          "date": "1999-02"
+        }
+      ]
+    },
+    {
+      "claim": "Compaq completed the Zip2 acquisition in early April 1999 by cash tender offer; a Compaq release dated April 5, 1999 announced the completion. AltaVista's 1999 S-1 gives an aggregate purchase price of $340.9 million, consisting of $307.2 million in cash, employee stock options with a fair value of $27.7 million and other acquisition costs; Compaq's 1999 annual report gives about $341 million including $307 million in cash and options valued at $28 million. Zip2 became a unit of AltaVista, the search engine Compaq had recently acquired.",
+      "status": "documented",
+      "date": "1999-04",
+      "quote": "aggregate purchase price of $340.9 million consisted of $307.2 million in cash, the issuance of employee stock options with a fair value of $27.7 million and other acquisition costs",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001100862/000101287099004680/0001012870-99-004680.txt",
+          "publisher": "U.S. Securities and Exchange Commission (AltaVista Co. Form S-1)",
+          "title": "AltaVista Company Registration Statement on Form S-1",
+          "date": "1999"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000714154/000091205700008116/0000912057-00-008116.txt",
+          "publisher": "U.S. Securities and Exchange Commission (Compaq Computer Corp. Form 10-K)",
+          "title": "Compaq Computer Corp. Annual Report on Form 10-K for fiscal 1999",
+          "date": "2000"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000714154/000071415499000008/0000714154-99-000008.txt/seq-2",
+          "publisher": "U.S. Securities and Exchange Commission (Compaq Computer Corp. Form 8-K)",
+          "title": "Compaq Computer Corp. Form 8-K with April 5, 1999 release on completion of the Zip2 acquisition",
+          "date": "1999-04"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000714154/000071415499000013/0000714154-99-000013.txt",
+          "publisher": "U.S. Securities and Exchange Commission (Compaq Computer Corp. Form 10-Q)",
+          "title": "Compaq Computer Corp. Form 10-Q for the quarter ended March 31, 1999",
+          "date": "1999-05"
+        },
+        {
+          "url": "https://www.britannica.com/money/Zip2",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Zip2",
+          "date": ""
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "compaq",
+      "toName": "Compaq Computer Corporation",
+      "toType": "company",
+      "relation": "subsidiary of",
+      "claim": "Zip2 was bought by Compaq for about $307 million in cash (agreement announced February 16, 1999; completed April 1999) and became a unit of Compaq's AltaVista search business.",
+      "status": "documented",
+      "date": "1999-04",
+      "quote": "aggregate purchase price of $340.9 million consisted of $307.2 million in cash, the issuance of employee stock options with a fair value of $27.7 million and other acquisition costs",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001100862/000101287099004680/0001012870-99-004680.txt",
+          "publisher": "U.S. Securities and Exchange Commission (AltaVista Co. Form S-1)",
+          "title": "AltaVista Company Registration Statement on Form S-1",
+          "date": "1999"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000714154/000071415499000005/0000714154-99-000005.txt",
+          "publisher": "U.S. Securities and Exchange Commission (Compaq Computer Corp. Form 8-K)",
+          "title": "Compaq Computer Corp. Form 8-K with February 16, 1999 release on agreement to acquire Zip2",
+          "date": "1999-02"
+        }
+      ]
+    },
+    {
+      "to": "elon-musk",
+      "toName": "Elon Musk",
+      "toType": "person",
+      "relation": "founded",
+      "claim": "Tesla Motors' 2010 registration statement lists Zip2, with PayPal, among Elon Musk's earlier roles. Secondary accounts describe Zip2 as the first company Musk co-founded and put his share of the 1999 Compaq sale at about $22 million; no filing with that figure has been found.",
+      "status": "reported",
+      "date": "1995",
+      "quote": "along with his earlier work at PayPal and Zip2",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001318605/000119312510017054/ds1.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Tesla Motors Form S-1)",
+          "title": "Tesla Motors, Inc. Registration Statement on Form S-1",
+          "date": "2010-01-29"
+        },
+        {
+          "url": "https://www.britannica.com/money/Zip2",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Zip2",
+          "date": ""
+        }
+      ],
+      "reverse": true
+    }
+  ],
+  "openQuestions": [
+    "Musk's proceeds from the Zip2 sale (about $22 million, with about $15 million to Kimbal Musk) appear only in secondary accounts citing Ashlee Vance's biography; one X post gives $21 million. No filing, and no contemporaneous NYT, CNET or LA Times coverage, was retrieved this session (the search budget ran out before a major-outlet search could run).",
+    "Zip2's founding date, founders and investors (Mohr Davidow Ventures' 1996 investment) are already recorded in research/findings/elon-musk.json from the Washington Post; they were not re-sourced here.",
+    "The brief's premise that Zip2 or X.com was capitalised with money from Errol Musk's Zambian emerald dealings: the only sources are the Musk family's own, conflicting statements ($28,000 per Vance's biography; 10% of a roughly $200,000 angel round 'much later' per Elon Musk's 2019 tweet), already recorded in elon-musk.json. No source retrieved this session connects emerald proceeds to Zip2's or X.com's funding, or mentions South African exchange controls.",
+    "The AltaVista S-1 gives the Zip2 closing as effective April 1, 1999 in one place and April 2, 1999 in another, per the search summary; the exact closing date should be checked in the filing."
+  ]
+}

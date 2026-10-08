@@ -1,0 +1,94 @@
+{
+  "entity": "kamal-adham",
+  "name": "Kamal Adham",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "Kamal Adham was a former head of Saudi intelligence and, according to the Washington Post, a key figure in the 1982 takeover of First American Bankshares by investors later found to have been fronting for BCCI. In July 1992 he pleaded guilty in New York to violating the state bank holding company act and agreed to pay $105 million to settle charges that he knew First American was illegally controlled, in a plea negotiated by Manhattan District Attorney Robert Morgenthau's office.",
+    "sources": [
+      {
+        "url": "https://www.washingtonpost.com/archive/politics/1992/07/29/key-bcci-investor-enters-guilty-plea/8bd4a39f-b21f-4986-b21c-59be4e53c339/",
+        "publisher": "Washington Post",
+        "title": "Key BCCI Investor Enters Guilty Plea",
+        "date": "1992-07-29"
+      },
+      {
+        "url": "https://www.newsweek.com/false-profits-195514",
+        "publisher": "Newsweek",
+        "title": "False Profits",
+        "date": "1992"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In July 1992 Kamal Adham, former head of Saudi intelligence and a key figure in the 1982 takeover of First American Bankshares Inc., pleaded guilty to violating the New York bank holding company act and agreed to pay $105 million to settle charges that he knew First American was illegally controlled by a group of Arab investors.",
+      "status": "court",
+      "date": "1992-07-29",
+      "quote": "pleaded guilty to violating the New York bank holding company act",
+      "sources": [
+        {
+          "url": "https://www.washingtonpost.com/archive/politics/1992/07/29/key-bcci-investor-enters-guilty-plea/8bd4a39f-b21f-4986-b21c-59be4e53c339/",
+          "publisher": "Washington Post",
+          "title": "Key BCCI Investor Enters Guilty Plea",
+          "date": "1992-07-29"
+        }
+      ]
+    },
+    {
+      "claim": "Newsweek reported that Manhattan District Attorney Robert Morgenthau outlined a plea bargain his office had negotiated with Kamal Adham, under which Adham pledged cooperation with the district attorney and other U.S. authorities.",
+      "status": "reported",
+      "date": "1992",
+      "quote": "Morgenthau outlined a plea bargain his office had negotiated with Kamal Adham",
+      "sources": [
+        {
+          "url": "https://www.newsweek.com/false-profits-195514",
+          "publisher": "Newsweek",
+          "title": "False Profits",
+          "date": "1992"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "saudi-gid",
+      "toName": "Saudi GID",
+      "toType": "government",
+      "relation": "executive of",
+      "claim": "Kamal Adham was a former head of Saudi intelligence, according to the Washington Post's report of his 1992 guilty plea.",
+      "status": "reported",
+      "date": "1992-07-29",
+      "quote": "Adham, former head of Saudi intelligence and a key figure in the 1982 takeover of First American Bankshares Inc.",
+      "sources": [
+        {
+          "url": "https://www.washingtonpost.com/archive/politics/1992/07/29/key-bcci-investor-enters-guilty-plea/8bd4a39f-b21f-4986-b21c-59be4e53c339/",
+          "publisher": "Washington Post",
+          "title": "Key BCCI Investor Enters Guilty Plea",
+          "date": "1992-07-29"
+        }
+      ]
+    },
+    {
+      "to": "First American Bankshares",
+      "toName": "First American Bankshares",
+      "toType": "company",
+      "relation": "other",
+      "claim": "The Washington Post described Kamal Adham as a key figure in the 1982 takeover of First American Bankshares Inc.; in 1992 he pleaded guilty and agreed to pay $105 million to settle charges that he knew First American was illegally controlled by a group of Arab investors.",
+      "status": "court",
+      "date": "1992-07-29",
+      "quote": "agreed to pay $105 million in fines to settle charges that he knew First American was illegally controlled by a group of Arab investors",
+      "sources": [
+        {
+          "url": "https://www.washingtonpost.com/archive/politics/1992/07/29/key-bcci-investor-enters-guilty-plea/8bd4a39f-b21f-4986-b21c-59be4e53c339/",
+          "publisher": "Washington Post",
+          "title": "Key BCCI Investor Enters Guilty Plea",
+          "date": "1992-07-29"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The Senate Foreign Relations Committee report's own treatment of Adham (his role as a CCAH shareholder and nominee for BCCI) was not retrieved this session; the connection to BCCI itself is therefore left to the First American item above rather than asserted directly.",
+    "A peoplepill.com biography says the $105 million was a joint payment with Sayed Al Jawhary and that Adham was barred from the finance sector; neither detail was confirmed in the contemporaneous reporting."
+  ]
+}

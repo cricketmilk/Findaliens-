@@ -1,0 +1,236 @@
+{
+  "entity": "deutsche-bank",
+  "name": "Deutsche Bank",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "Deutsche Bank AG is a Frankfurt-based global bank. On January 30, 2017, the New York State Department of Financial Services fined it $425 million and required an independent monitor over a 'mirror trading' scheme in which clients bought Russian stocks in rubles in Moscow while related parties sold the same stocks for dollars through the bank's London branch, with trades cleared in New York, moving about $10 billion out of Russia. The UK Financial Conduct Authority fined the bank £163 million the same month for anti-money-laundering control failings between 2012 and 2015, its largest AML penalty. In May 2017 the Federal Reserve imposed a $41 million penalty and cease-and-desist order over the U.S. operations' Bank Secrecy Act/AML program, and in July 2023 a further $186 million for violating its 2015 and 2017 orders.",
+    "sources": [
+      {
+        "url": "https://www.dfs.ny.gov/reports_and_publications/press_releases/pr1701301",
+        "publisher": "New York State Department of Financial Services",
+        "title": "DFS Fines Deutsche Bank $425 Million for Russian Mirror-Trading Scheme",
+        "date": "2017-01-30"
+      },
+      {
+        "url": "https://www.fca.org.uk/news/press-releases/fca-fines-deutsche-bank-163-million-anti-money-laundering-controls-failure",
+        "publisher": "UK Financial Conduct Authority",
+        "title": "FCA fines Deutsche Bank £163 million for serious anti-money laundering controls failings",
+        "date": "2017-01"
+      },
+      {
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20170530a.htm",
+        "publisher": "Federal Reserve Board",
+        "title": "Federal Reserve Board announces $41 million penalty and consent cease and desist order against Deutsche Bank AG",
+        "date": "2017-05-30"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/0001159508/000119312518306353/d638467dex991.htm",
+        "publisher": "U.S. Securities and Exchange Commission (Deutsche Bank AG Form 6-K, Exhibit 99.1)",
+        "title": "Deutsche Bank Aktiengesellschaft Form 6-K (FY2018), Exhibit 99.1",
+        "date": "2018"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On January 30, 2017, NYDFS announced a $425 million fine on Deutsche Bank AG and its New York branch, and required the bank to engage an independent monitor, for allowing traders to run a money-laundering scheme using 'mirror trades' among its Moscow, London and New York offices that improperly shifted $10 billion out of Russia. DFS said the bank missed numerous opportunities to detect, investigate and stop the scheme because of extensive compliance failures, and that it occurred while the bank was on notice of serious compliance issues dating back a decade. DFS worked with the UK FCA.",
+      "status": "court",
+      "date": "2017-01-30",
+      "quote": "The bank allowed traders to engage in a money-laundering scheme using \"mirror trades\" that improperly shifted $10 billion out of Russia. [...] DFS's investigation found that the bank missed numerous opportunities to detect, investigate and stop the scheme due to extensive compliance failures.",
+      "sources": [
+        {
+          "url": "https://www.dfs.ny.gov/reports_and_publications/press_releases/pr1701301",
+          "publisher": "New York State Department of Financial Services",
+          "title": "DFS Fines Deutsche Bank $425 Million for Russian Mirror-Trading Scheme",
+          "date": "2017-01-30"
+        }
+      ]
+    },
+    {
+      "claim": "Deutsche Bank's own SEC filing says that under its settlement with DFS it entered into a consent order, agreed to pay civil monetary penalties of $425 million and to engage an independent monitor for up to two years; the filing puts the FCA penalty at about £163 million and records a May 2017 Federal Reserve settlement with a $41 million penalty.",
+      "status": "documented",
+      "date": "2018",
+      "quote": "Under the terms of the settlement agreement with the DFS, Deutsche Bank entered into a consent order, and agreed to pay civil monetary penalties of U.S.$ 425 million and to engage an independent monitor for a term of up to two years.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001159508/000119312518306353/d638467dex991.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Deutsche Bank AG Form 6-K, Exhibit 99.1)",
+          "title": "Deutsche Bank Aktiengesellschaft Form 6-K (FY2018), Exhibit 99.1",
+          "date": "2018"
+        }
+      ]
+    },
+    {
+      "claim": "In January 2017 the UK FCA fined Deutsche Bank £163 million for failing to maintain an adequate anti-money-laundering control framework between 2012 and 2015, the largest penalty the FCA or its predecessor the FSA had imposed for AML control failings. The FCA said the bank was used by unidentified customers to move about $10 billion of unknown origin from Russia to offshore accounts.",
+      "status": "court",
+      "date": "2017-01",
+      "quote": "The bank was used by unidentified customers to move about $10 billion of unknown origin from Russia to offshore accounts.",
+      "sources": [
+        {
+          "url": "https://www.fca.org.uk/news/press-releases/fca-fines-deutsche-bank-163-million-anti-money-laundering-controls-failure",
+          "publisher": "UK Financial Conduct Authority",
+          "title": "FCA fines Deutsche Bank £163 million for serious anti-money laundering controls failings",
+          "date": "2017-01"
+        },
+        {
+          "url": "https://www.fca.org.uk/publication/final-notices/deutsche-bank-2017.pdf",
+          "publisher": "UK Financial Conduct Authority",
+          "title": "Final Notice to Deutsche Bank AG (Firm Reference Number 150018)",
+          "date": "2017-01"
+        }
+      ]
+    },
+    {
+      "claim": "The FCA found that between April 2012 and October 2014 the front office of the Russia-based subsidiary, DB Moscow, executed more than 2,400 pairs of mirrored trades, which customers used to move more than $6 billion from Russia, through Deutsche Bank in the UK, to overseas accounts including in Cyprus, Estonia and Latvia; a further $3.8 billion in suspicious one-sided trades was also identified.",
+      "status": "court",
+      "date": "2017-01",
+      "quote": "Between April 2012 and October 2014, the front office of the Russia-based subsidiary, DB Moscow, executed more than 2,400 pairs of mirrored trades. Customers used these trades to move more than $6 billion from Russia, through Deutsche Bank in the UK, to overseas accounts, including in Cyprus, Estonia, and Latvia.",
+      "sources": [
+        {
+          "url": "https://www.fca.org.uk/news/press-releases/fca-fines-deutsche-bank-163-million-anti-money-laundering-controls-failure",
+          "publisher": "UK Financial Conduct Authority",
+          "title": "FCA fines Deutsche Bank £163 million for serious anti-money laundering controls failings",
+          "date": "2017-01"
+        },
+        {
+          "url": "https://www.fca.org.uk/publication/final-notices/deutsche-bank-2017.pdf",
+          "publisher": "UK Financial Conduct Authority",
+          "title": "Final Notice to Deutsche Bank AG (Firm Reference Number 150018)",
+          "date": "2017-01"
+        }
+      ]
+    },
+    {
+      "claim": "The FCA found breaches of Principle 3 and SYSC rules 6.1.1 R and 6.3.1 R; Deutsche Bank settled at an early stage and received a 30% discount (the penalty would otherwise have been £229,076,224), and £9.1 million of commission earned from the suspicious trading was disgorged within the penalty. The FCA noted that the Central Bank of Russia and NYDFS also took action in December 2016 and January 2017.",
+      "status": "court",
+      "date": "2017-01",
+      "quote": "Without the discount, the penalty would have been £229,076,224. [...] The Central Bank of Russia and the New York Department of Financial Services also took action against the firm in December 2016 and January 2017, respectively.",
+      "sources": [
+        {
+          "url": "https://www.fca.org.uk/news/press-releases/fca-fines-deutsche-bank-163-million-anti-money-laundering-controls-failure",
+          "publisher": "UK Financial Conduct Authority",
+          "title": "FCA fines Deutsche Bank £163 million for serious anti-money laundering controls failings",
+          "date": "2017-01"
+        }
+      ]
+    },
+    {
+      "claim": "On May 30, 2017, the Federal Reserve Board announced a $41 million penalty and a consent cease-and-desist order against Deutsche Bank AG, finding that its U.S. banking operations failed to maintain an effective program to comply with the Bank Secrecy Act and anti-money-laundering laws; the order (signed May 26, 2017) cites deficiencies in transaction monitoring that prevented proper assessment of BSA/AML risk for billions of dollars of potentially suspicious transactions processed between 2011 and 2015 for certain European affiliates.",
+      "status": "court",
+      "date": "2017-05-30",
+      "quote": "Deutsche Bank's U.S. banking operations failed to maintain an effective program to comply with the Bank Secrecy Act and anti-money laundering laws. [...] deficiencies in the U.S. operations' transaction monitoring prevented proper assessment of BSA/AML risk for billions of dollars in potentially suspicious transactions processed between 2011 and 2015 for certain affiliates in Europe.",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20170530a.htm",
+          "publisher": "Federal Reserve Board",
+          "title": "Federal Reserve Board announces $41 million penalty and consent cease and desist order against Deutsche Bank AG",
+          "date": "2017-05-30"
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/files/enf20170530a1.pdf",
+          "publisher": "Federal Reserve Board",
+          "title": "Order to Cease and Desist and Order of Assessment of a Civil Money Penalty, Deutsche Bank AG",
+          "date": "2017-05-26"
+        }
+      ]
+    },
+    {
+      "claim": "In July 2023 the Federal Reserve imposed a $186 million fine and a new consent order on Deutsche Bank for violations of the Board's 2015 and 2017 consent orders relating to sanctions compliance and anti-money-laundering controls.",
+      "status": "court",
+      "date": "2023-07-19",
+      "quote": "Federal Reserve Board announces two enforcement actions against Deutsche Bank AG, its New York branch, and other U.S. affiliates",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20230719a.htm",
+          "publisher": "Federal Reserve Board",
+          "title": "Federal Reserve Board announces two enforcement actions against Deutsche Bank AG, its New York branch, and other U.S. affiliates",
+          "date": "2023-07-19"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "New York State Department of Financial Services",
+      "toName": "New York State Department of Financial Services",
+      "toType": "government",
+      "relation": "regulated",
+      "reverse": true,
+      "claim": "NYDFS fined Deutsche Bank $425 million on January 30, 2017 under a consent order over the Russian mirror-trading scheme and required an independent monitor.",
+      "status": "court",
+      "date": "2017-01-30",
+      "quote": "The bank allowed traders to engage in a money-laundering scheme using \"mirror trades\" that improperly shifted $10 billion out of Russia.",
+      "sources": [
+        {
+          "url": "https://www.dfs.ny.gov/reports_and_publications/press_releases/pr1701301",
+          "publisher": "New York State Department of Financial Services",
+          "title": "DFS Fines Deutsche Bank $425 Million for Russian Mirror-Trading Scheme",
+          "date": "2017-01-30"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001159508/000119312518306353/d638467dex991.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Deutsche Bank AG Form 6-K, Exhibit 99.1)",
+          "title": "Deutsche Bank Aktiengesellschaft Form 6-K (FY2018), Exhibit 99.1",
+          "date": "2018"
+        }
+      ]
+    },
+    {
+      "to": "UK Financial Conduct Authority",
+      "toName": "UK Financial Conduct Authority",
+      "toType": "government",
+      "relation": "regulated",
+      "reverse": true,
+      "claim": "The FCA fined Deutsche Bank £163 million in January 2017 for anti-money-laundering control failings connected to the Russian mirror trades.",
+      "status": "court",
+      "date": "2017-01",
+      "quote": "The bank was used by unidentified customers to move about $10 billion of unknown origin from Russia to offshore accounts.",
+      "sources": [
+        {
+          "url": "https://www.fca.org.uk/news/press-releases/fca-fines-deutsche-bank-163-million-anti-money-laundering-controls-failure",
+          "publisher": "UK Financial Conduct Authority",
+          "title": "FCA fines Deutsche Bank £163 million for serious anti-money laundering controls failings",
+          "date": "2017-01"
+        },
+        {
+          "url": "https://www.fca.org.uk/publication/final-notices/deutsche-bank-2017.pdf",
+          "publisher": "UK Financial Conduct Authority",
+          "title": "Final Notice to Deutsche Bank AG (Firm Reference Number 150018)",
+          "date": "2017-01"
+        }
+      ]
+    },
+    {
+      "to": "Federal Reserve",
+      "toName": "Federal Reserve",
+      "toType": "government",
+      "relation": "regulated",
+      "reverse": true,
+      "claim": "The Federal Reserve Board imposed a $41 million penalty and cease-and-desist order on Deutsche Bank AG on May 30, 2017 over its U.S. BSA/AML program, and a further $186 million penalty in July 2023 for violating its 2015 and 2017 orders.",
+      "status": "court",
+      "date": "2017-05-30",
+      "quote": "Deutsche Bank's U.S. banking operations failed to maintain an effective program to comply with the Bank Secrecy Act and anti-money laundering laws.",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20170530a.htm",
+          "publisher": "Federal Reserve Board",
+          "title": "Federal Reserve Board announces $41 million penalty and consent cease and desist order against Deutsche Bank AG",
+          "date": "2017-05-30"
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20230719a.htm",
+          "publisher": "Federal Reserve Board",
+          "title": "Federal Reserve Board announces two enforcement actions against Deutsche Bank AG, its New York branch, and other U.S. affiliates",
+          "date": "2023-07-19"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Period: the FCA dates the mirror trades to April 2012 - October 2014 (AML framework failings 2012-2015); the Federal Reserve order refers to transactions 2011-2015. The site's '2011-2016' window is wider than either.",
+    "No DOJ outcome on the mirror trades was retrieved this session (search budget exhausted before a source was found).",
+    "Donald Trump: no source stating a specific Deutsche Bank-Trump lending relationship was retrieved this session, so no connection was recorded. The site's entry names Rosemary Vrablic and Justin Kennedy; both would need sources.",
+    "The DFS consent order text itself was not retrieved; the DFS press release and Deutsche Bank's 6-K are cited.",
+    "The $186 million figure and the reference to the 2015 and 2017 consent orders in the July 2023 Federal Reserve action come from the search tool's summary of the Fed's 19 July 2023 release, not from a verbatim passage; confirm against the release."
+  ]
+}

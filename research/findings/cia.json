@@ -97,6 +97,24 @@
           "date": "1954-11-01"
         }
       ]
+    },
+    {
+      "to": "bcci",
+      "toName": "Bank of Credit and Commerce International",
+      "toType": "company",
+      "relation": "other",
+      "claim": "The Senate Foreign Relations Committee report by Senators Kerry and Brown (December 1992) found that, after the CIA knew BCCI was as an institution a fundamentally corrupt criminal enterprise, it continued to use both BCCI and First American, BCCI's secretly held U.S. subsidiary, for CIA operations. The CIA's witness, Kerr, acknowledged the CIA had used BCCI for certain intelligence-gathering operations and called the use limited and routine; former First American president Robert Altman testified the CIA made extensive use of First American; and former Customs Commissioner William von Raab said Customs agents had found several BCCI accounts actually held by the CIA.",
+      "status": "court",
+      "date": "1992-12",
+      "quote": "After the CIA knew that BCCI was as an institution a fundamentally corrupt criminal enterprise, it continued to use both BCCI and First American, BCCI's secretly held U.S. subsidiary, for CIA operations.",
+      "sources": [
+        {
+          "url": "https://irp.fas.org/congress/1992_rpt/bcci/11intel.htm",
+          "publisher": "U.S. Senate Committee on Foreign Relations (hosted by Federation of American Scientists)",
+          "title": "The BCCI Affair: BCCI, the CIA and Foreign Intelligence",
+          "date": "1992-12"
+        }
+      ]
     }
   ]
 }

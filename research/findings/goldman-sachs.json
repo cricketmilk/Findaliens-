@@ -55,7 +55,159 @@
           "date": "2020-10-22"
         }
       ]
+    },
+    {
+      "claim": "After AIG's March 15, 2009 counterparty disclosure, Reuters reported that Goldman Sachs received an aggregate $12.9 billion from AIG through three types of transactions: collateral for credit default swaps, purchases of collateralized debt obligations, and payments to counterparties of a securities lending program. SIGTARP's November 2009 report recorded that Goldman had approximately $22.1 billion notional of CDS with AIG, about $20 billion of it against a portfolio of CDOs, of which approximately $13.9 billion was resolved through Maiden Lane III; Goldman told SIGTARP it did not agree to concessions because it would have realized a loss if it had.",
+      "status": "documented",
+      "date": "2009-03-15",
+      "quote": "Goldman received an aggregate $12.9 billion through three types of transactions / Goldman Sachs had approximately $22.1 billion of notional amount of outstanding credit default swap contracts with AIG, approximately $20 billion of which were against an underlying portfolio of CDOs. ... Goldman Sachs has since explained that it did not agree to concessions because it would have realized a loss if it had.",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/id/wbna29727301",
+          "publisher": "Reuters (via NBC News)",
+          "title": "AIG payments to Goldman, Europe stoke anger",
+          "date": "2009-03"
+        },
+        {
+          "url": "https://www.goldmansachs.com/pressroom/announcements/2009/sigtarp",
+          "publisher": "Goldman Sachs (posting a section of the SIGTARP report)",
+          "title": "Section of SIGTARP Report Related to Goldman Sachs",
+          "date": "2009-11"
+        }
+      ]
+    },
+    {
+      "claim": "In testimony to the Financial Crisis Inquiry Commission on July 1, 2010, Goldman Sachs CFO David Viniar said the firm's clients first came to it to manage exposure on super senior CDOs, that Goldman sold protection to help them hedge and entered offsetting contracts with AIG, that it limited its exposure to AIG through a combination of collateral and market hedges, and that its collateral terms with AIG were consistent with those extended to other major counterparties under collateral arrangements that it tightly managed.",
+      "status": "words",
+      "date": "2010-07-01",
+      "quote": "collateral arrangements that we tightly managed / Goldman limited its exposure to AIG through a combination of collateral and market hedges / Viniar also said Goldman had demanded and received a lot of collateral from AIG and had hedges in place to minimize its risk",
+      "sources": [
+        {
+          "url": "https://fcic-static.law.stanford.edu/cdn_media/fcic-testimony/2010-0701-Viniar.pdf",
+          "publisher": "Financial Crisis Inquiry Commission (testimony)",
+          "title": "Testimony of David A. Viniar, Chief Financial Officer, Goldman Sachs, before the FCIC",
+          "date": "2010-07-01"
+        },
+        {
+          "url": "https://www.nbcnews.com/news/amp/wbna38036688",
+          "publisher": "NBC News (AP)",
+          "title": "Goldman CFO: Firm lost money on risky deals",
+          "date": "2010-07-01"
+        }
+      ]
+    },
+    {
+      "claim": "A September 17, 2010 FCIC staff memo on Goldman's exposure to AIG stated that Goldman terminated all but 10 of its super senior CDS with AIG, retained $8.4 billion of collateral attributable to the terminated swaps and received $5.6 billion from Maiden Lane III, and separately received $2.3 billion of collateral ($1.5 billion as of September 15, 2008 and a further $800 million by November 6, 2008) on the 10 swaps and CMBS-related CDS that were not part of the Maiden Lane III transaction. The FCIC's final report quotes an AIG Financial Products managing director saying Goldman 'was not budging' on its collateral demands.",
+      "status": "documented",
+      "date": "2010-09-17",
+      "quote": "Goldman terminated all but 10 of the SSCDS, retained $8.4 billion of collateral attributable to the terminated SSCDS and received $5.6 billion from Maiden Lane III / Goldman received $2.3 billion of collateral ($1.5 billion as of 9/15/08 and an additional $800 million by 11/6/08) on the 10 SSCDS and CDS purchased on miscellaneous CMBS that were not part of the Maiden Lane III transaction",
+      "sources": [
+        {
+          "url": "https://fcic-static.law.stanford.edu/cdn_media/fcic-docs/2010-09-17_FCIC_Staff_Memo_re_Goldman_Sachs_Exposure_to_AIG.pdf",
+          "publisher": "Financial Crisis Inquiry Commission (staff memo)",
+          "title": "FCIC Staff Memo re Goldman Sachs Exposure to AIG",
+          "date": "2010-09-17"
+        },
+        {
+          "url": "https://fcic-static.law.stanford.edu/cdn_media/fcic-reports/fcic_final_report_chapter12.pdf",
+          "publisher": "Financial Crisis Inquiry Commission (final report)",
+          "title": "The Financial Crisis Inquiry Report, Part IV: The Unraveling (Chapter 12)",
+          "date": "2011-01"
+        }
+      ]
+    },
+    {
+      "claim": "The Senate Permanent Subcommittee on Investigations' April 2011 report (Levin-Coburn) found that from December 2006 Goldman Sachs reversed course on the mortgage market, sold off or wrote down the bulk of its subprime RMBS and CDO inventory and built short positions, and that its net short position peaked at $13.9 billion in 2007. (Senate PSI finding.)",
+      "status": "court",
+      "date": "2011-04-13",
+      "quote": "At its peak, Goldman's net short position totaled $13.9 billion.",
+      "sources": [
+        {
+          "url": "https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/PSI%20REPORT%20-%20Wall%20Street%20&%20the%20Financial%20Crisis-Anatomy%20of%20a%20Financial%20Collapse%20(FINAL%205-10-11).pdf",
+          "publisher": "U.S. Senate Permanent Subcommittee on Investigations",
+          "title": "Wall Street and the Financial Crisis: Anatomy of a Financial Collapse",
+          "date": "2011-04-13"
+        },
+        {
+          "url": "https://www.hsgac.senate.gov/subcommittees/investigations/rep/senate-investigations-subcommittee-releases-levin-coburn-report-on-the-financial-crisis/",
+          "publisher": "U.S. Senate Committee on Homeland Security and Governmental Affairs",
+          "title": "Senate Investigations Subcommittee Releases Levin-Coburn Report On the Financial Crisis",
+          "date": "2011-04-13"
+        }
+      ]
+    },
+    {
+      "claim": "The same Senate PSI report found that while betting against the mortgage market as a whole, Goldman assembled and aggressively marketed to its clients poor quality CDOs (Hudson, Anderson, Timberwolf and Abacus) that it actively bet against by taking large short positions, without fully disclosing its market views or adverse economic interests; in the Hudson deal, the report found, Goldman told investors its interests were 'aligned' with theirs while holding 100% of the short side. Goldman disputed the findings. (Senate PSI finding.)",
+      "status": "court",
+      "date": "2011-04-13",
+      "quote": "while the firm was betting against the mortgage market as a whole, Goldman assembled and aggressively marketed to its clients poor quality CDOs that it actively bet against by taking large short positions in those transactions / Goldman told investors that its interests were \"aligned\" with theirs, but Goldman held 100% of the short side of the CDO and had adverse interests to the investors",
+      "sources": [
+        {
+          "url": "https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/PSI%20REPORT%20-%20Wall%20Street%20&%20the%20Financial%20Crisis-Anatomy%20of%20a%20Financial%20Collapse%20(FINAL%205-10-11).pdf",
+          "publisher": "U.S. Senate Permanent Subcommittee on Investigations",
+          "title": "Wall Street and the Financial Crisis: Anatomy of a Financial Collapse",
+          "date": "2011-04-13"
+        },
+        {
+          "url": "https://www.hsgac.senate.gov/subcommittees/investigations/rep/senate-investigations-subcommittee-releases-levin-coburn-report-on-the-financial-crisis/",
+          "publisher": "U.S. Senate Committee on Homeland Security and Governmental Affairs",
+          "title": "Senate Investigations Subcommittee Releases Levin-Coburn Report On the Financial Crisis",
+          "date": "2011-04-13"
+        }
+      ]
     }
   ],
-  "connections": []
+  "connections": [
+    {
+      "to": "maiden-lane",
+      "relation": "other",
+      "claim": "Goldman Sachs was a counterparty whose CDS with AIG were resolved through Maiden Lane III: SIGTARP recorded about $13.9 billion of Goldman's $22.1 billion notional as resolved through the vehicle, and an FCIC staff memo stated Goldman retained $8.4 billion of previously posted collateral and received $5.6 billion from Maiden Lane III.",
+      "status": "documented",
+      "date": "2008-11",
+      "quote": "of the $22.1 billion of credit default swaps outstanding in November 2008, approximately $13.9 billion was resolved through Maiden Lane III / retained $8.4 billion of collateral attributable to the terminated SSCDS and received $5.6 billion from Maiden Lane III",
+      "sources": [
+        {
+          "url": "https://www.goldmansachs.com/pressroom/announcements/2009/sigtarp",
+          "publisher": "Goldman Sachs (posting a section of the SIGTARP report)",
+          "title": "Section of SIGTARP Report Related to Goldman Sachs",
+          "date": "2009-11"
+        },
+        {
+          "url": "https://fcic-static.law.stanford.edu/cdn_media/fcic-docs/2010-09-17_FCIC_Staff_Memo_re_Goldman_Sachs_Exposure_to_AIG.pdf",
+          "publisher": "Financial Crisis Inquiry Commission (staff memo)",
+          "title": "FCIC Staff Memo re Goldman Sachs Exposure to AIG",
+          "date": "2010-09-17"
+        }
+      ]
+    },
+    {
+      "to": "AIG",
+      "toName": "AIG (American International Group)",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Goldman Sachs held about $22.1 billion notional of credit default swaps with AIG Financial Products; Reuters reported it received an aggregate $12.9 billion from AIG after the September 2008 rescue through CDS collateral, Maiden Lane III CDO purchases and securities-lending payments.",
+      "status": "reported",
+      "date": "2009-03-15",
+      "quote": "Goldman received an aggregate $12.9 billion through three types of transactions",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/id/wbna29727301",
+          "publisher": "Reuters (via NBC News)",
+          "title": "AIG payments to Goldman, Europe stoke anger",
+          "date": "2009-03"
+        },
+        {
+          "url": "https://www.goldmansachs.com/pressroom/announcements/2009/sigtarp",
+          "publisher": "Goldman Sachs (posting a section of the SIGTARP report)",
+          "title": "Section of SIGTARP Report Related to Goldman Sachs",
+          "date": "2009-11"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The PSI (Levin-Coburn) report is recorded with status 'court' as an official inquiry finding of a Senate subcommittee, by analogy with the GAO/SIGTARP/COP/FCIC rule; the owner may prefer 'documented'. Goldman's formal response to the report was not retrieved.",
+    "The brief says Goldman and Morgan Stanley sold synthetic CDOs 'to pension funds'. The PSI report says Goldman marketed the CDOs 'to its clients'; no retrieved source identifies pension funds as the buyers, and no Morgan Stanley source was retrieved in this session.",
+    "Viniar's exact phrase on collateralization was not retrieved; the quote field combines a fragment of his prepared statement ('collateral arrangements that we tightly managed') with the search result's paraphrase of his testimony. The full July 1, 2010 transcript should be checked before approval."
+  ]
 }

@@ -1,0 +1,537 @@
+{
+  "entity": "spacex",
+  "name": "SpaceX",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "SpaceX (Space Exploration Technologies Corp.) is a California launch and satellite company. Tesla's 2010 registration statement lists Elon Musk as its chief executive, chief technology officer and chairman since May 2002. NASA selected it, from a field of 20 applicants, in August 2006 for a funded Commercial Orbital Transportation Services Space Act Agreement; Commercial Resupply Services (2008) and Commercial Crew (2014, alongside Boeing) contracts followed. Founders Fund made a $20 million equity investment in 2008. Its Starlink satellite internet service has been used in Ukraine since 2022: USAID bought terminals from SpaceX in March 2022 and the Pentagon confirmed in June 2023 that it contracts with Starlink for Ukraine. Reuters reported in March 2024 that its Starshield unit holds a $1.8 billion contract, signed in 2021, with the National Reconnaissance Office.",
+    "sources": [
+      {
+        "url": "https://www.nasa.gov/home/hqnews/2006/aug/HQ_06295_COTS_phase_1.html",
+        "publisher": "NASA",
+        "title": "NASA Selects Crew and Cargo Transportation to Orbit Partners (release 06-295)",
+        "date": "2006-08-18"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/0001318605/000119312510017054/ds1.htm",
+        "publisher": "U.S. Securities and Exchange Commission (Tesla Motors Form S-1)",
+        "title": "Tesla Motors, Inc. Registration Statement on Form S-1",
+        "date": "2010-01-29"
+      },
+      {
+        "url": "https://www.space.com/5701-paypal-founders-invest-20-million-spacex.html",
+        "publisher": "Space.com",
+        "title": "PayPal Co-Founders Invest $20 Million in SpaceX",
+        "date": "2008-08-05"
+      },
+      {
+        "url": "https://www.defensenews.com/battlefield-tech/space/2023/06/01/pentagon-confirms-spacex-deal-for-ukraine-starlink-services/",
+        "publisher": "Defense News",
+        "title": "Pentagon confirms SpaceX deal for Ukraine Starlink services",
+        "date": "2023-06-01"
+      },
+      {
+        "url": "https://www.scmp.com/news/world/united-states-canada/article/3255671/elon-musks-spacex-building-spy-satellite-network-us-intelligence-agency-insiders-say",
+        "publisher": "South China Morning Post (Reuters report)",
+        "title": "Elon Musk's SpaceX building spy satellite network for US intelligence agency, insiders say",
+        "date": "2024-03-17"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Tesla Motors' 2010 registration statement describes Elon Musk as chief executive officer, chief technology officer and chairman of Space Exploration Technologies Corporation (SpaceX) since May 2002, and as chairman of SolarCity since July 2006.",
+      "status": "documented",
+      "date": "2002-05",
+      "quote": "chief executive, chief technology officer and chairman of Space Exploration Corporation since May 2002, and as chairman of SolarCity since July 2006",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001318605/000119312510017054/ds1.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Tesla Motors Form S-1)",
+          "title": "Tesla Motors, Inc. Registration Statement on Form S-1",
+          "date": "2010-01-29"
+        }
+      ]
+    },
+    {
+      "claim": "On August 18, 2006 NASA announced that it had selected SpaceX of El Segundo, California, and Rocketplane-Kistler of Oklahoma City for Phase 1 of its Commercial Orbital Transportation Services (COTS) demonstration, signing Space Act Agreements with milestones and objective criteria. NASA said the two were chosen from 20 applicants; its COTS program office recorded 21 proposals from 20 companies and six semi-finalists (Andrews Space, Rocketplane-Kistler, SpaceDev, SpaceX, SPACEHAB and t/Space). NASA said it would buy crew and cargo services competitively in Phase 2 once a capability was demonstrated.",
+      "status": "documented",
+      "date": "2006-08-18",
+      "quote": "NASA and the two companies signed Space Act Agreements that establish milestones and objective criteria to assess their progress throughout Phase 1 of the competition.",
+      "sources": [
+        {
+          "url": "https://www.nasa.gov/home/hqnews/2006/aug/HQ_06295_COTS_phase_1.html",
+          "publisher": "NASA",
+          "title": "NASA Selects Crew and Cargo Transportation to Orbit Partners (release 06-295)",
+          "date": "2006-08-18"
+        },
+        {
+          "url": "https://www.nasa.gov/offices/c3po/about/cots_demo_competition.html",
+          "publisher": "NASA (Commercial Crew and Cargo Program Office)",
+          "title": "COTS 2006 Demo Competition",
+          "date": "2006"
+        },
+        {
+          "url": "https://ntrs.nasa.gov/citations/20060050052",
+          "publisher": "NASA Technical Reports Server",
+          "title": "Commercial Orbital Transportation Services (COTS) Demonstrations",
+          "date": "2006"
+        }
+      ]
+    },
+    {
+      "claim": "Trade press reported the 2006 COTS Phase 1 awards as about $278 million for SpaceX and $207 million for Rocketplane Kistler, paid against development and flight milestones rather than as a conventional procurement contract; Flightglobal put the two companies' combined share at $485 million over four years, and Via Satellite, citing Defense Daily, described SpaceX's award as more than $270 million.",
+      "status": "reported",
+      "date": "2006-08",
+      "quote": "RpK was awarded a $207 million deal. The other winner was SpaceX, which was awarded the remaining $278 million.",
+      "sources": [
+        {
+          "url": "https://www.nasaspaceflight.com/2006/08/nasacots-contracts-two-winners/",
+          "publisher": "NASASpaceFlight.com",
+          "title": "NASA/COTS contracts - two winners",
+          "date": "2006-08"
+        },
+        {
+          "url": "https://www.flightglobal.com/nasa-announces-commercial-orbital-transportation-services-demonstration-programme-winners/69100.article",
+          "publisher": "Flightglobal",
+          "title": "NASA announces Commercial Orbital Transportation Services demonstration programme winners",
+          "date": "2006-08"
+        },
+        {
+          "url": "https://www.satellitetoday.com/finance/2006/08/21/nasa-selects-spacex-rocketplane-kistler-for-cargo-orbiting-demo-2/",
+          "publisher": "Via Satellite",
+          "title": "NASA Selects SpaceX, Rocketplane Kistler For Cargo Orbiting Demo",
+          "date": "2006-08-21"
+        }
+      ]
+    },
+    {
+      "claim": "NASA terminated Rocketplane Kistler's funded COTS agreement on October 18, 2007 after the company missed milestones, and in February 2008 selected Orbital Sciences Corporation as a replacement COTS partner. SpaceX's agreement continued.",
+      "status": "documented",
+      "date": "2007-10-18",
+      "quote": "On Thursday, October 18, 2007, NASA terminated its funded agreement with aerospace firm Rocketplane Kistler after the company missed milestones.",
+      "sources": [
+        {
+          "url": "https://www.nasa.gov/offices/c3po/home/rpk_terminated.html",
+          "publisher": "NASA (Commercial Crew and Cargo Program Office)",
+          "title": "Rocketplane Kistler's (RpK) Space Act Agreement Terminated",
+          "date": "2007-10-18"
+        },
+        {
+          "url": "https://www.nasa.gov/news-release/nasa-partners-with-orbital-sciences-for-space-transport-services/",
+          "publisher": "NASA",
+          "title": "NASA Partners With Orbital Sciences for Space Transport Services",
+          "date": "2008-02-19"
+        }
+      ]
+    },
+    {
+      "claim": "On December 23, 2008 NASA awarded fixed-price Commercial Resupply Services contracts for International Space Station cargo to two companies: 12 flights valued at about $1.6 billion to SpaceX and eight flights valued at about $1.9 billion to Orbital Sciences, each with a maximum potential value of about $3.1 billion.",
+      "status": "documented",
+      "date": "2008-12-23",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/820736/000095013308004154/w72110e8vk.htm",
+          "publisher": "Orbital Sciences Corporation (SEC Form 8-K)",
+          "title": "Form 8-K: Commercial Resupply Services contract with NASA",
+          "date": "2008-12-30"
+        },
+        {
+          "url": "https://spaceflightnow.com/news/n0812/23crsawards/",
+          "publisher": "Spaceflight Now",
+          "title": "NASA calls upon commercial firms to serve space station",
+          "date": "2008-12-23"
+        }
+      ]
+    },
+    {
+      "claim": "On September 16, 2014 NASA selected both Boeing and SpaceX for firm fixed-price Commercial Crew Transportation Capability contracts, with maximum potential values of $4.2 billion (Boeing) and $2.6 billion (SpaceX), to carry NASA astronauts to the International Space Station.",
+      "status": "documented",
+      "date": "2014-09-16",
+      "sources": [
+        {
+          "url": "https://www.nasa.gov/news-release/nasa-chooses-american-companies-to-transport-u-s-astronauts-to-international-space-station/",
+          "publisher": "NASA",
+          "title": "NASA Chooses American Companies to Transport U.S. Astronauts to International Space Station",
+          "date": "2014-09-16"
+        }
+      ]
+    },
+    {
+      "claim": "The decision to retire the Space Shuttle predates NASA's commercial cargo and crew programs. On January 14, 2004 President George W. Bush announced the Vision for Space Exploration at NASA Headquarters; the White House fact sheet committed to completing the International Space Station by 2010, and the plan called for retiring the shuttle when station assembly was complete. NASA Administrator Sean O'Keefe told Congress that retiring the shuttle would free over $4 billion a year for lunar missions, and ending the shuttle also avoided the 2010 recertification called for by the Columbia Accident Investigation Board. The final shuttle mission, STS-135, flew in July 2011.",
+      "status": "documented",
+      "date": "2004-01-14",
+      "quote": "America will complete its work on the International Space Station by 2010, fulfilling our commitment to our 15 partner countries.",
+      "sources": [
+        {
+          "url": "https://georgewbush-whitehouse.archives.gov/news/releases/2004/01/print/20040114-1.html",
+          "publisher": "The White House (George W. Bush archives)",
+          "title": "Fact sheet: A Renewed Spirit of Discovery",
+          "date": "2004-01-14"
+        },
+        {
+          "url": "https://georgewbush-whitehouse.archives.gov/news/releases/2004/01/20040114-3.html",
+          "publisher": "The White House (George W. Bush archives)",
+          "title": "President Bush Announces New Vision for Space Exploration Program",
+          "date": "2004-01-14"
+        },
+        {
+          "url": "https://www.nasa.gov/history/vision-for-space-exploration",
+          "publisher": "NASA History",
+          "title": "Vision for Space Exploration",
+          "date": ""
+        },
+        {
+          "url": "https://www.globalsecurity.org/space/library/congress/2004_h/040129-o-keefe.htm",
+          "publisher": "GlobalSecurity.org (House Science Committee testimony of NASA Administrator Sean O'Keefe)",
+          "title": "Statement of Sean O'Keefe, January 29, 2004",
+          "date": "2004-01-29"
+        },
+        {
+          "url": "https://www.globalsecurity.org/space/systems/vse.htm",
+          "publisher": "GlobalSecurity.org",
+          "title": "Bush - Project Constellation / Vision for Space Exploration [VSE]",
+          "date": ""
+        },
+        {
+          "url": "https://www.nasa.gov/history/10-years-ago-sts-135-the-space-shuttles-grand-finale/",
+          "publisher": "NASA History",
+          "title": "10 Years Ago: STS-135, the Space Shuttle's Grand Finale",
+          "date": "2021-07"
+        }
+      ]
+    },
+    {
+      "claim": "In August 2008 SpaceX received a $20 million equity investment from Founders Fund, a San Francisco venture firm run by Musk's fellow PayPal co-founders; Musk said in an August 4, 2008 statement that SpaceX welcomed managing partner Luke Nosek to its board. Musk had first told employees of an outside investment in an August 2 message sent shortly after a Falcon 1 launch failure.",
+      "status": "reported",
+      "date": "2008-08-04",
+      "quote": "SpaceX received a $20 million equity investment from Founders Fund, a San Francisco-based technology venture capital firm whose management team includes the co-founders of PayPal.",
+      "sources": [
+        {
+          "url": "https://www.space.com/5701-paypal-founders-invest-20-million-spacex.html",
+          "publisher": "Space.com",
+          "title": "PayPal Co-Founders Invest $20 Million in SpaceX",
+          "date": "2008-08-05"
+        },
+        {
+          "url": "https://www.satellitetoday.com/connectivity/2008/08/05/spacex-receives-20-million-investment/",
+          "publisher": "Via Satellite",
+          "title": "SpaceX Receives $20 Million Investment",
+          "date": "2008-08-05"
+        }
+      ]
+    },
+    {
+      "claim": "In the first weeks of Russia's 2022 invasion of Ukraine, USAID bought 175 Starlink terminals from SpaceX on March 2, 2022 and 1,333 more on March 17, 2022, while SpaceX donated 3,667 terminals and the internet service; USAID announced the partnership as 5,000 terminals delivered to Ukraine. A 2025 USAID Inspector General inspection counted 5,175 terminals delivered to Ukraine's State Service of Special Communications and Information Protection.",
+      "status": "documented",
+      "date": "2022-03",
+      "quote": "SpaceX donated 3,667 terminals and the internet service itself, while USAID purchased the remaining 1,333 terminals.",
+      "sources": [
+        {
+          "url": "https://www.space.com/spacex-usaid-starlink-terminals-ukraine",
+          "publisher": "Space.com",
+          "title": "SpaceX and USAID deliver 5,000 Starlink internet terminals to Ukraine",
+          "date": "2022-04"
+        },
+        {
+          "url": "https://oig.usaid.gov/sites/default/files/2025-09/%5BREDACTED%5D%20Final%20Report%20-%20Inspection%20of%20USAID's%20Oversight%20of%20Starlink%20Terminals%20Delivered%20to%20Ukraine.pdf",
+          "publisher": "USAID Office of Inspector General",
+          "title": "Ukraine Response: USAID Did Not Fully Mitigate the Risk of Misuse of the Starlink Terminals Delivered to Ukraine (redacted final report)",
+          "date": "2025"
+        }
+      ]
+    },
+    {
+      "claim": "USAID's Office of Inspector General found in 2025 that USAID did not fully mitigate the risk of misuse of the Starlink terminals it delivered to Ukraine, that nearly half of the active terminals were present in territory Russia fully or partially occupied, and that USAID said tracking the terminals once handed to Ukraine was impractical under wartime conditions.",
+      "status": "documented",
+      "date": "2025",
+      "quote": "nearly half of active terminals were present in territories that Russia fully or partially occupied",
+      "sources": [
+        {
+          "url": "https://oig.usaid.gov/sites/default/files/2025-09/%5BREDACTED%5D%20Final%20Report%20-%20Inspection%20of%20USAID's%20Oversight%20of%20Starlink%20Terminals%20Delivered%20to%20Ukraine.pdf",
+          "publisher": "USAID Office of Inspector General",
+          "title": "Ukraine Response: USAID Did Not Fully Mitigate the Risk of Misuse of the Starlink Terminals Delivered to Ukraine (redacted final report)",
+          "date": "2025"
+        },
+        {
+          "url": "https://kyivindependent.com/nearly-half-of-usaid-starlink-terminals-sent-to-ukraine-found-in-russian-occupied-areas-inspector-general-says/",
+          "publisher": "The Kyiv Independent",
+          "title": "Half of Starlink terminals sent to Ukraine found in Russian-occupied areas, US agency says",
+          "date": "2025"
+        }
+      ]
+    },
+    {
+      "claim": "On June 1, 2023 the Pentagon confirmed that it had contracted with SpaceX for Starlink services for Ukraine, after Bloomberg first reported the contract; it declined to disclose the cost, timing or length of service, citing operational security. SpaceX had said in September 2022 that it could not continue paying for Starlink service in Ukraine and had asked the Pentagon to cover the costs.",
+      "status": "reported",
+      "date": "2023-06-01",
+      "quote": "Satellite communications constitute a vital layer in Ukraine's overall communications network and the department contracts with Starlink for services of this type.",
+      "sources": [
+        {
+          "url": "https://www.defensenews.com/battlefield-tech/space/2023/06/01/pentagon-confirms-spacex-deal-for-ukraine-starlink-services/",
+          "publisher": "Defense News",
+          "title": "Pentagon confirms SpaceX deal for Ukraine Starlink services",
+          "date": "2023-06-01"
+        },
+        {
+          "url": "https://www.washingtonpost.com/national-security/2023/06/01/starlink-ukraine-pentagon-elon-musk/",
+          "publisher": "The Washington Post",
+          "title": "Pentagon says it's paying for Elon Musk's Starlink internet in Ukraine",
+          "date": "2023-06-01"
+        },
+        {
+          "url": "https://www.cnbc.com/2023/06/01/pentagon-awards-spacex-with-ukraine-contract-for-starlink-satellite-internet.html",
+          "publisher": "CNBC",
+          "title": "Pentagon awards SpaceX with Ukraine contract for Starlink satellite internet",
+          "date": "2023-06-01"
+        }
+      ]
+    },
+    {
+      "claim": "Walter Isaacson's 2023 biography of Musk, in an excerpt first reported by CNN, said that in September 2022 Musk secretly told SpaceX engineers to turn off Starlink coverage within 100 kilometers of the Crimean coast, so that Ukrainian drone submarines approaching the Russian fleet at Sevastopol lost connectivity and washed ashore; Isaacson attributed the decision to Musk's fear that Russia would respond to an attack on Crimea with nuclear weapons.",
+      "status": "reported",
+      "date": "2023-09",
+      "quote": "secretly told his engineers to turn off coverage within 100 kilometers of the Crimean coast",
+      "sources": [
+        {
+          "url": "https://www.cbsnews.com/news/elon-musk-ukraine-russia-war-starlink-satellite-denied-major-act-of-war/",
+          "publisher": "CBS News",
+          "title": "Elon Musk says he denied Ukraine satellite request to avoid complicity in \"major act of war\" vs. Russia",
+          "date": "2023-09"
+        },
+        {
+          "url": "https://www.nbcnews.com/news/amp/rcna104019",
+          "publisher": "NBC News",
+          "title": "Musk says he prevented Ukraine from launching attack on Russian ships (Starlink/Crimea)",
+          "date": "2023-09"
+        },
+        {
+          "url": "https://www.cnn.com/2023/09/10/europe/ukraine-starlink-not-active-crimea-intl-hnk/index.html",
+          "publisher": "CNN",
+          "title": "Starlink: Ukraine spy chief says satellite system in use on 'all front lines,' but wasn't active 'for time' over Crimea",
+          "date": "2023-09-10"
+        }
+      ]
+    },
+    {
+      "claim": "Responding to the Isaacson excerpt, Musk posted on X in September 2023 that 'The Starlink regions in question were not activated. SpaceX did not deactivate anything,' that 'There was an emergency request from government authorities to activate Starlink all the way to Sevastopol,' and that complying would have made SpaceX 'explicitly complicit in a major act of war and conflict escalation.'",
+      "status": "words",
+      "date": "2023-09",
+      "quote": "The Starlink regions in question were not activated. SpaceX did not deactivate anything.",
+      "sources": [
+        {
+          "url": "https://www.cbsnews.com/news/elon-musk-ukraine-russia-war-starlink-satellite-denied-major-act-of-war/",
+          "publisher": "CBS News",
+          "title": "Elon Musk says he denied Ukraine satellite request to avoid complicity in \"major act of war\" vs. Russia",
+          "date": "2023-09"
+        },
+        {
+          "url": "https://www.nbcnews.com/news/amp/rcna104019",
+          "publisher": "NBC News",
+          "title": "Musk says he prevented Ukraine from launching attack on Russian ships (Starlink/Crimea)",
+          "date": "2023-09"
+        }
+      ]
+    },
+    {
+      "claim": "CNN reported on September 11, 2023 that Isaacson was walking back the claim that Musk had ordered Starlink coverage near Crimea turned off, saying the claim 'turned out not to be quite as Isaacson had told it.' CNN separately reported that Ukraine's military intelligence chief said Starlink was in use on all front lines but had not been active over Crimea for a time.",
+      "status": "reported",
+      "date": "2023-09-11",
+      "quote": "the explosive claim turned out not to be quite as Isaacson had told it",
+      "sources": [
+        {
+          "url": "https://www.cnn.com/2023/09/11/media/walter-isaacson-elon-musk-reliable-sources/index.html",
+          "publisher": "CNN",
+          "title": "An explosive Elon Musk biography is just hitting shelves. But the book's acclaimed author is already walking back a major claim",
+          "date": "2023-09-11"
+        },
+        {
+          "url": "https://www.cnn.com/2023/09/10/europe/ukraine-starlink-not-active-crimea-intl-hnk/index.html",
+          "publisher": "CNN",
+          "title": "Starlink: Ukraine spy chief says satellite system in use on 'all front lines,' but wasn't active 'for time' over Crimea",
+          "date": "2023-09-10"
+        }
+      ]
+    },
+    {
+      "claim": "Reuters reported on March 17, 2024, citing five unnamed sources, that SpaceX's Starshield unit is building a network of hundreds of Earth-imaging satellites for the National Reconnaissance Office under a $1.8 billion contract signed in 2021; the Wall Street Journal had reported the classified $1.8 billion contract in February 2024 without naming the agency. SpaceX did not respond to Reuters, the Pentagon referred questions to the NRO and SpaceX, and the NRO declined to comment on the extent of SpaceX's role.",
+      "status": "reported",
+      "date": "2024-03-17",
+      "quote": "The work is done by SpaceX's Starshield unit under a $1.8 billion deal from 2021 with the National Reconnaissance Office, the agency that runs U.S. spy satellites.",
+      "sources": [
+        {
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3255671/elon-musks-spacex-building-spy-satellite-network-us-intelligence-agency-insiders-say",
+          "publisher": "South China Morning Post (Reuters report)",
+          "title": "Elon Musk's SpaceX building spy satellite network for US intelligence agency, insiders say",
+          "date": "2024-03-17"
+        },
+        {
+          "url": "https://www.asiafinancial.com/spacex-building-spy-satellite-network-for-us-reconnaissance",
+          "publisher": "Asia Financial (Reuters report)",
+          "title": "SpaceX Building Spy Satellite Network for US Reconnaissance",
+          "date": "2024-03-18"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "elon-musk",
+      "toName": "Elon Musk",
+      "toType": "person",
+      "relation": "founded",
+      "claim": "Elon Musk founded SpaceX in 2002; Tesla Motors' 2010 registration statement lists him as SpaceX's chief executive officer, chief technology officer and chairman since May 2002.",
+      "status": "documented",
+      "date": "2002-05",
+      "quote": "chief executive, chief technology officer and chairman of Space Exploration Corporation since May 2002",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001318605/000119312510017054/ds1.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Tesla Motors Form S-1)",
+          "title": "Tesla Motors, Inc. Registration Statement on Form S-1",
+          "date": "2010-01-29"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "founders-fund",
+      "toName": "Founders Fund",
+      "toType": "fund",
+      "relation": "invested in",
+      "claim": "Founders Fund made a $20 million equity investment in SpaceX announced in August 2008, and its managing partner Luke Nosek joined SpaceX's board.",
+      "status": "reported",
+      "date": "2008-08-04",
+      "quote": "SpaceX received a $20 million equity investment from Founders Fund, a San Francisco-based technology venture capital firm whose management team includes the co-founders of PayPal.",
+      "sources": [
+        {
+          "url": "https://www.space.com/5701-paypal-founders-invest-20-million-spacex.html",
+          "publisher": "Space.com",
+          "title": "PayPal Co-Founders Invest $20 Million in SpaceX",
+          "date": "2008-08-05"
+        },
+        {
+          "url": "https://www.satellitetoday.com/connectivity/2008/08/05/spacex-receives-20-million-investment/",
+          "publisher": "Via Satellite",
+          "title": "SpaceX Receives $20 Million Investment",
+          "date": "2008-08-05"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "nasa",
+      "toName": "NASA",
+      "toType": "government",
+      "relation": "contracted with",
+      "claim": "NASA signed a funded Commercial Orbital Transportation Services Space Act Agreement with SpaceX in August 2006 after a competition with 20 applicants, then awarded it a Commercial Resupply Services contract (December 2008) and a Commercial Crew Transportation Capability contract (September 2014, alongside Boeing).",
+      "status": "documented",
+      "date": "2006-08-18",
+      "quote": "The companies were chosen from 20 applicants.",
+      "sources": [
+        {
+          "url": "https://www.nasa.gov/home/hqnews/2006/aug/HQ_06295_COTS_phase_1.html",
+          "publisher": "NASA",
+          "title": "NASA Selects Crew and Cargo Transportation to Orbit Partners (release 06-295)",
+          "date": "2006-08-18"
+        },
+        {
+          "url": "https://www.nasa.gov/offices/c3po/about/cots_demo_competition.html",
+          "publisher": "NASA (Commercial Crew and Cargo Program Office)",
+          "title": "COTS 2006 Demo Competition",
+          "date": "2006"
+        },
+        {
+          "url": "https://www.nasa.gov/news-release/nasa-chooses-american-companies-to-transport-u-s-astronauts-to-international-space-station/",
+          "publisher": "NASA",
+          "title": "NASA Chooses American Companies to Transport U.S. Astronauts to International Space Station",
+          "date": "2014-09-16"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "pentagon",
+      "toName": "Pentagon",
+      "toType": "government",
+      "relation": "contracted with",
+      "claim": "The Department of Defense confirmed on June 1, 2023 that it contracts with SpaceX's Starlink for satellite communications services for Ukraine; it did not disclose the cost or duration.",
+      "status": "reported",
+      "date": "2023-06-01",
+      "quote": "Satellite communications constitute a vital layer in Ukraine's overall communications network and the department contracts with Starlink for services of this type.",
+      "sources": [
+        {
+          "url": "https://www.defensenews.com/battlefield-tech/space/2023/06/01/pentagon-confirms-spacex-deal-for-ukraine-starlink-services/",
+          "publisher": "Defense News",
+          "title": "Pentagon confirms SpaceX deal for Ukraine Starlink services",
+          "date": "2023-06-01"
+        },
+        {
+          "url": "https://www.washingtonpost.com/national-security/2023/06/01/starlink-ukraine-pentagon-elon-musk/",
+          "publisher": "The Washington Post",
+          "title": "Pentagon says it's paying for Elon Musk's Starlink internet in Ukraine",
+          "date": "2023-06-01"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "usaid",
+      "toName": "USAID",
+      "toType": "government",
+      "relation": "contracted with",
+      "claim": "USAID bought 175 Starlink terminals from SpaceX on March 2, 2022 and 1,333 more on March 17, 2022 for delivery to Ukraine, alongside 3,667 terminals SpaceX donated, according to USAID's Inspector General.",
+      "status": "documented",
+      "date": "2022-03-17",
+      "quote": "USAID bought 175 Starlink terminals from SpaceX on March 2, 2022, and then purchased 1,333 additional terminals on March 17, 2022",
+      "sources": [
+        {
+          "url": "https://oig.usaid.gov/sites/default/files/2025-09/%5BREDACTED%5D%20Final%20Report%20-%20Inspection%20of%20USAID's%20Oversight%20of%20Starlink%20Terminals%20Delivered%20to%20Ukraine.pdf",
+          "publisher": "USAID Office of Inspector General",
+          "title": "Ukraine Response: USAID Did Not Fully Mitigate the Risk of Misuse of the Starlink Terminals Delivered to Ukraine (redacted final report)",
+          "date": "2025"
+        },
+        {
+          "url": "https://www.space.com/spacex-usaid-starlink-terminals-ukraine",
+          "publisher": "Space.com",
+          "title": "SpaceX and USAID deliver 5,000 Starlink internet terminals to Ukraine",
+          "date": "2022-04"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "national-reconnaissance-office",
+      "toName": "National Reconnaissance Office",
+      "toType": "government",
+      "relation": "contracted with",
+      "claim": "Reuters reported in March 2024, citing unnamed sources, that the National Reconnaissance Office signed a $1.8 billion contract with SpaceX's Starshield unit in 2021 for a network of spy satellites; the NRO declined to comment on SpaceX's role.",
+      "status": "reported",
+      "date": "2024-03-17",
+      "quote": "The work is done by SpaceX's Starshield unit under a $1.8 billion deal from 2021 with the National Reconnaissance Office, the agency that runs U.S. spy satellites.",
+      "sources": [
+        {
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3255671/elon-musks-spacex-building-spy-satellite-network-us-intelligence-agency-insiders-say",
+          "publisher": "South China Morning Post (Reuters report)",
+          "title": "Elon Musk's SpaceX building spy satellite network for US intelligence agency, insiders say",
+          "date": "2024-03-17"
+        },
+        {
+          "url": "https://www.asiafinancial.com/spacex-building-spy-satellite-network-for-us-reconnaissance",
+          "publisher": "Asia Financial (Reuters report)",
+          "title": "SpaceX Building Spy Satellite Network for US Reconnaissance",
+          "date": "2024-03-18"
+        }
+      ],
+      "reverse": true
+    }
+  ],
+  "openQuestions": [
+    "How much of Musk's PayPal/eBay proceeds went into SpaceX: the widely repeated figure of about $100 million appeared this session only on fan and content sites (allthings-elon.com, spaceexplored.com), not in a filing, a SpaceX statement or a major outlet. Not recorded as a fact.",
+    "The brief's claim that NASA's COTS and Commercial Crew awards were 'sole-source' is contradicted by NASA's own 2006 release (20 applicants) and COTS program page (21 proposals, six semi-finalists), and by the two-company CRS (2008) and Commercial Crew (2014) awards. Wikipedia's COTS article says SpaceX protested a 2004 sole-source NASA award to Kistler and NASA withdrew it; the GAO decision was not retrieved before the search budget ran out.",
+    "The brief's claim that Errol Musk's Zambian emerald dealings were used to bypass South African exchange controls: no source retrieved this session (News24, MyBroadband, Business Insider via Yahoo, InsideHook) mentions exchange controls or capital flight. Errol Musk's own account, via Isaacson, is that raw emeralds were imported into South Africa and cut in Johannesburg, and that he sold them to jewellers on overseas trips in a 'cloak and dagger thing, because none of it was legal'. Which law he meant is not stated. See research/findings/errol-musk.json.",
+    "COTS total paid to SpaceX ($396 million for 40 milestones, per NASA's 2013 lessons-learned document) is recorded in research/handoffs/nasa-cots-spacex.json; the CRS 2008 and Commercial Crew 2014 facts above reuse that record's sources, which were not re-opened this session.",
+    "Pentagon Starlink-for-Ukraine contract: value and duration were not disclosed. A reported September 2023 U.S. Space Force Starshield contract (about $70 million) and Reuters' own page on the NRO contract were not retrieved; the SCMP and Asia Financial republications are cited instead.",
+    "Crimea 2022: Isaacson's exact clarification wording was cut off in the CNN text retrieved; Musk's X posts were seen only as quoted by CBS and NBC.",
+    "The CRS (2008) and Commercial Crew (2014) facts cite the same sources as the approved handoff records nasa-cots-spacex and shuttle-commercial-crew rather than pages opened for this file."
+  ]
+}

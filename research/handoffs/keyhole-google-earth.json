@@ -123,6 +123,43 @@
           "date": "2003-06-27"
         }
       ]
+    },
+    {
+      "claim": "Google Earth was handed off to Google at trivial cost via In-Q-Tel's Keyhole investment.",
+      "assessment": "partly-true",
+      "explanation": "The lineage is documented: In-Q-Tel invested in Keyhole in February 2003 on behalf of NIMA, Google bought Keyhole in October 2004, launched Google Earth in 2005, and In-Q-Tel calls its investment the foundation for Google Earth. The 'handed off at trivial cost' part is not supported. Keyhole was a private company founded in 2001, not a government program; the government was a minority investor and a customer. Crunchbase News reports Keyhole's total venture funding was only $527,500, from In-Q-Tel and Sony Music Entertainment. Google bought the company from its owners for an undisclosed sum (The Register; Reuters via NBC News), so no source states the price, and no transfer of public assets or intellectual property from a government to Google is on the record. The records opened do not say when or how In-Q-Tel exited its stake.",
+      "sources": [
+        {
+          "url": "https://www.iqt.org/library/in-q-tel-announces-strategic-investment-in-keyhole",
+          "publisher": "In-Q-Tel",
+          "title": "In-Q-Tel Announces Strategic Investment in Keyhole: NIMA Uses Technology to Support the Conflict in Iraq",
+          "date": "2003-06-25"
+        },
+        {
+          "url": "https://www.iqt.org/library/google-acquires-keyhole-corporation",
+          "publisher": "Google Inc. (release reproduced by In-Q-Tel)",
+          "title": "Google Acquires Keyhole Corporation",
+          "date": "2004-10-27"
+        },
+        {
+          "url": "https://www.theregister.com/2004/10/28/google_buys_keyhole/",
+          "publisher": "The Register",
+          "title": "Google buys CIA-backed mapping startup",
+          "date": "2004-10-28"
+        },
+        {
+          "url": "https://www.nbcnews.com/id/wbna6346991",
+          "publisher": "Reuters (via NBC News)",
+          "title": "Google buys online satellite map company",
+          "date": "2004-10-27"
+        },
+        {
+          "url": "https://news.crunchbase.com/liquidity/what-big-tech-has-acquired-from-in-q-tel-the-cias-vc-arm/",
+          "publisher": "Crunchbase News",
+          "title": "What Big Tech Has Acquired From In-Q-Tel, The CIA's VC Arm",
+          "date": ""
+        }
+      ]
     }
   ]
 }

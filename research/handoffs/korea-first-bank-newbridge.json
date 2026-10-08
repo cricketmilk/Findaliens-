@@ -1,0 +1,193 @@
+{
+  "id": "korea-first-bank-newbridge",
+  "title": "Korea First Bank (nationalised 1998) → Newbridge Capital",
+  "pattern": "privatization",
+  "country": "South Korea",
+  "summary": "In January 1998 the Korean government recapitalized Korea First Bank (KFB) and Seoul Bank with 1.5 trillion won each, split equally between the Ministry of Finance and Economy and the Korea Deposit Insurance Corporation, taking about 94% of each bank after existing shareholders' capital was written down. A further 4.2 trillion won went into KFB in July 1999, wiping out legacy shareholders. In December 1999 the government sold 51% of KFB to a consortium led by Newbridge Capital for 500 billion won, with a put-back under which the government repurchased loans that defaulted within two years (three for workout loans). Newbridge sold KFB to Standard Chartered in April 2005 for US$3.3 billion, dragging the KDIC's and ministry's shares along on the same terms.",
+  "public": {
+    "name": "Korea First Bank under government ownership (Ministry of Finance and Economy and Korea Deposit Insurance Corporation)",
+    "funder": "Government of the Republic of Korea (Ministry of Finance and Economy; Korea Deposit Insurance Corporation)",
+    "budget": "KRW 1.5 trillion injected January 1998 (about US$882 million) and KRW 4.2 trillion in July 1999 (about US$3.6 billion), KRW 5.7 trillion in total",
+    "start": {
+      "date": "1998-01",
+      "precision": "month"
+    },
+    "end": {
+      "date": "1999-12",
+      "precision": "month",
+      "kind": "privatized"
+    },
+    "sources": [
+      {
+        "url": "https://newbagehot.yale.edu/docs/korea-korea-first-bank-and-seoul-bank-capital-injections-1997",
+        "publisher": "Yale Program on Financial Stability (New Bagehot)",
+        "title": "Korea: Korea First Bank and Seoul Bank Capital Injections, 1997"
+      },
+      {
+        "url": "https://elischolar.library.yale.edu/cgi/viewcontent.cgi?article=1583&context=journal-of-financial-crises",
+        "publisher": "Yale Journal of Financial Crises",
+        "title": "Korea: Korea First Bank and Seoul Bank Capital Injection, 1997 (Jisoo Park and Owen Heaphy), Journal of Financial Crises vol. 6 iss. 3",
+        "date": "2024"
+      },
+      {
+        "url": "https://www.elibrary.imf.org/view/journals/001/2003/235/article-A001-en.xml",
+        "publisher": "International Monetary Fund (Working Paper 03/235)",
+        "title": "From the Front Lines at Seoul Bank: Restructuring and Reprivatization",
+        "date": "2003"
+      },
+      {
+        "url": "https://ypfsresourcelibrary.blob.core.windows.net/fcic/YPFS/KDIC%20Annual%20Report%201998.pdf",
+        "publisher": "Korea Deposit Insurance Corporation (via Yale Program on Financial Stability resource library)",
+        "title": "KDIC Annual Report 1998: Protecting Depositors and Maintaining the Stability",
+        "date": "1999"
+      }
+    ]
+  },
+  "private": {
+    "name": "Newbridge Capital (consortium)",
+    "founded": {
+      "date": "1994",
+      "precision": "year"
+    },
+    "founders": [
+      "Texas Pacific Group (David Bonderman)",
+      "Blum Capital (Richard C. Blum)"
+    ],
+    "funders": [
+      "Texas Pacific Group",
+      "Blum Capital"
+    ],
+    "outcome": "Newbridge held 48.56% of KFB by 2005 and sold the whole bank to Standard Chartered in a US$3.3 billion transaction completed 15 April 2005, then the largest foreign investment in Korea; the bank was renamed SC First Bank in September 2005. Newbridge itself was later brought under TPG as TPG Asia.",
+    "sources": [
+      {
+        "url": "https://www.forbes.com/global/2007/0312/034.html",
+        "publisher": "Forbes",
+        "title": "Faithful Financier",
+        "date": "2007-03-12"
+      },
+      {
+        "url": "https://www.bain.com/insights/private-equitys-new-asian-recipe/",
+        "publisher": "Bain & Company",
+        "title": "Private Equity's new Asian recipe"
+      },
+      {
+        "url": "https://www.clearygottlieb.com/news-and-insights/news-listing/newbridge-in-$33-billion-sale-of-korea-first-bank-largest-ever-foreign-investment-in-korea10",
+        "publisher": "Cleary Gottlieb Steen & Hamilton (counsel to Newbridge)",
+        "title": "Newbridge in $3.3 Billion Sale of Korea First Bank, Largest-ever Foreign Investment in Korea",
+        "date": "2005-04-15"
+      },
+      {
+        "url": "https://www.standardchartered.co.kr/np/en/cms/cm/bi/EnHistory1.jsp",
+        "publisher": "Standard Chartered Bank Korea",
+        "title": "History"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "asset-transfer",
+      "claim": "Korea First Bank's 1999 annual report records the sale terms: the government buys back loans that default over the next two years (three for workout loans); Newbridge must keep its stake at least two years and planned up to 200 billion won more capital if needed. Non-performing assets of about 3.09 trillion won (banking accounts) and 524.7 billion won (trust accounts) were transferred to the KDIC on 30 December 1999.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "http://asianbanks.net/HTML/Files/Korea/KFB%201999%20AR.pdf",
+          "publisher": "Korea First Bank (annual report, via asianbanks.net)",
+          "title": "Customer is first in everything we do: Korea First Bank Annual Report 1999",
+          "date": "2000"
+        }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "The government sold a 51% stake in Korea First Bank for 500 billion won to Newbridge Capital and agreed to repurchase KFB loans that defaulted within the following two years, or three years for loans already in workout. The KDIC and the Newbridge consortium signed a terms-of-investment agreement in September 1999 and closed in December 1999.",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://elischolar.library.yale.edu/cgi/viewcontent.cgi?article=1583&context=journal-of-financial-crises",
+          "publisher": "Yale Journal of Financial Crises",
+          "title": "Korea: Korea First Bank and Seoul Bank Capital Injection, 1997 (Jisoo Park and Owen Heaphy), Journal of Financial Crises vol. 6 iss. 3",
+          "date": "2024"
+        },
+        {
+          "url": "https://newbagehot.yale.edu/docs/korea-korea-first-bank-and-seoul-bank-capital-injections-1997",
+          "publisher": "Yale Program on Financial Stability (New Bagehot)",
+          "title": "Korea: Korea First Bank and Seoul Bank Capital Injections, 1997"
+        }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "Institutional Investor reported the sale at roughly US$500 million, that Newbridge beat HSBC in a competitive bid, and that the KDIC felt Newbridge's offer was too low and that the buyer wanted too many guarantees against undiscovered bad loans.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.institutionalinvestor.com/article/b15136pllxgchc/cleaning-up-at-korea-first",
+          "publisher": "Institutional Investor",
+          "title": "Cleaning Up at Korea First"
+        }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "On 15 April 2005 Standard Chartered completed the purchase of KFB's entire share capital for US$3.3 billion; Newbridge, holding 48.56%, used its shareholders'-agreement rights to require the KDIC and the Ministry of Finance and Economy to sell on the same terms. Standard Chartered Korea's own history dates completion to 15 April 2005 and the renaming to SC First Bank to September 2005.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.clearygottlieb.com/news-and-insights/news-listing/newbridge-in-$33-billion-sale-of-korea-first-bank-largest-ever-foreign-investment-in-korea10",
+          "publisher": "Cleary Gottlieb Steen & Hamilton (counsel to Newbridge)",
+          "title": "Newbridge in $3.3 Billion Sale of Korea First Bank, Largest-ever Foreign Investment in Korea",
+          "date": "2005-04-15"
+        },
+        {
+          "url": "https://www.standardchartered.co.kr/np/en/cms/cm/bi/EnHistory1.jsp",
+          "publisher": "Standard Chartered Bank Korea",
+          "title": "History"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Newbridge bought Korea First Bank for a fraction of what Korean taxpayers had put into it, with the government guaranteeing its bad loans.",
+      "assessment": "partly-true",
+      "explanation": "The public injections into KFB were 1.5 trillion won (January 1998) and 4.2 trillion won (July 1999); Newbridge paid 500 billion won for 51%, and the government agreed to repurchase loans defaulting within two years (three for workout loans) and took about 3.6 trillion won of non-performing assets onto the KDIC at closing. The government kept 49% and sold it with Newbridge in 2005 at the same price per share in the US$3.3 billion Standard Chartered sale. A research paper summarized in a search put the government's net loss on KFB at KRW 17.6 trillion before interest, with KRW 12.6 trillion recovered by 2011; its URL could not be pinned down, so that figure is unverified.",
+      "sources": [
+        {
+          "url": "https://newbagehot.yale.edu/docs/korea-korea-first-bank-and-seoul-bank-capital-injections-1997",
+          "publisher": "Yale Program on Financial Stability (New Bagehot)",
+          "title": "Korea: Korea First Bank and Seoul Bank Capital Injections, 1997"
+        },
+        {
+          "url": "http://asianbanks.net/HTML/Files/Korea/KFB%201999%20AR.pdf",
+          "publisher": "Korea First Bank (annual report, via asianbanks.net)",
+          "title": "Customer is first in everything we do: Korea First Bank Annual Report 1999",
+          "date": "2000"
+        },
+        {
+          "url": "https://www.clearygottlieb.com/news-and-insights/news-listing/newbridge-in-$33-billion-sale-of-korea-first-bank-largest-ever-foreign-investment-in-korea10",
+          "publisher": "Cleary Gottlieb Steen & Hamilton (counsel to Newbridge)",
+          "title": "Newbridge in $3.3 Billion Sale of Korea First Bank, Largest-ever Foreign Investment in Korea",
+          "date": "2005-04-15"
+        }
+      ]
+    },
+    {
+      "claim": "The sale to Newbridge was required by the IMF programme.",
+      "assessment": "partly-true",
+      "explanation": "Korea's December 1997 stand-by arrangement committed the government to an exit strategy for troubled banks including closures and mergers and acquisitions by domestic and foreign institutions, and to approving foreign purchases of domestic bank stakes above the 4% limit where they strengthened the sector. The documents retrieved do not name KFB or Newbridge; the choice of buyer and the terms were the Korean government's, after a competitive bid that Newbridge won over HSBC.",
+      "sources": [
+        {
+          "url": "https://www.imf.org/external/np/oth/korea.htm",
+          "publisher": "International Monetary Fund",
+          "title": "Republic of Korea: IMF Stand-By Arrangement, December 5, 1997",
+          "date": "1997-12-05"
+        },
+        {
+          "url": "https://www.institutionalinvestor.com/article/b15136pllxgchc/cleaning-up-at-korea-first",
+          "publisher": "Institutional Investor",
+          "title": "Cleaning Up at Korea First"
+        }
+      ]
+    }
+  ]
+}

@@ -194,6 +194,68 @@
           "date": "2023-02-24"
         }
       ]
+    },
+    {
+      "claim": "Moderna's COVID-19 vaccine was handed off to Moderna at trivial cost via NIH patents.",
+      "assessment": "partly-true",
+      "explanation": "NIH co-developed mRNA-1273 with Moderna, and NIAID scientists invented the prefusion-spike stabilization technology (see links above). That technology was licensed, not given away: Moderna's 10-K records a non-exclusive license to NIAID's patents signed in December 2022, a $400 million catch-up royalty paid that month, low single-digit royalties on future sales plus minimum annual royalties and milestones; Fierce Pharma reported the payment would be shared with Dartmouth College and Scripps Research. Public Citizen compared the $400 million with about $36 billion of 2021-22 vaccine sales (about 1.1%), which is the basis for calling the price low; 'trivial' is a judgment no source makes. The mRNA platform is Moderna's, and BARDA separately funded development (about $955 million by July 2020). The record shows a paid, non-exclusive license on NIH-invented technology at a royalty rate critics call low, not a cost-free handoff of 'NIH patents'.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285223000011/mrna-20221231.htm",
+          "publisher": "U.S. Securities and Exchange Commission",
+          "title": "Moderna, Inc. Form 10-K for fiscal year 2022",
+          "date": "2023-02-24"
+        },
+        {
+          "url": "https://www.fiercepharma.com/pharma/moderna-pays-us-government-400m-catch-payment-under-new-covid-19-vaccine-license",
+          "publisher": "Fierce Pharma",
+          "title": "Moderna pays US government $400M 'catch-up payment' under new COVID-19 vaccine license",
+          "date": "2023-02"
+        },
+        {
+          "url": "https://www.citizen.org/news/moderna-nih-agreement-on-publicly-funded-discovery-will-be-dwarfed-by-modernas-unconscionable-price-spike/",
+          "publisher": "Public Citizen",
+          "title": "Moderna-NIH Agreement on Publicly-Funded Discovery Will Be Dwarfed by Moderna's Unconscionable Price Spike",
+          "date": "2023-02-24"
+        },
+        {
+          "url": "https://pharmamanufacturing.com/industrynews/2020/barda-adds-472m-to-moderna-contract",
+          "publisher": "Pharma Manufacturing",
+          "title": "BARDA adds $472M to Moderna contract",
+          "date": "2020-07-27"
+        }
+      ]
+    },
+    {
+      "claim": "The NIH-Moderna inventorship dispute over the mRNA-1273 sequence was resolved.",
+      "assessment": "partly-true",
+      "explanation": "The dispute, which went public in November 2021, was over whether three NIH Vaccine Research Center scientists contributed enough to be named inventors on Moderna's patents; Public Citizen documented that Moderna omitted NIH scientists as co-inventors on three applications covering the spike-protein sequence composition and credited them only on one method-of-use application, and Moderna said the sequence was selected exclusively by its scientists. Roll Call reported in March 2023 that Moderna had abandoned the dispute with NIH, striking the deal to pay $400 million for the molecular stabilization technique plus low single-digit royalties. No source reviewed shows which, if any, patent applications were amended to add NIH inventors, and no court or USPTO ruling on inventorship was found, so the dispute ended by agreement rather than by a finding.",
+      "sources": [
+        {
+          "url": "https://rollcall.com/2023/03/22/moderna-ceo-grilled-by-senate-panel-over-planned-price-hike/",
+          "publisher": "Roll Call",
+          "title": "Moderna CEO grilled by Senate panel over planned price hike",
+          "date": "2023-03-22"
+        },
+        {
+          "url": "https://www.citizen.org/article/the-nih-vaccine/",
+          "publisher": "Public Citizen",
+          "title": "The NIH Vaccine",
+          "date": "2021"
+        },
+        {
+          "url": "https://www.biospace.com/federal-scientists-cry-foul-after-moderna-excludes-them-in-credits-for-its-covid-19-vaccine",
+          "publisher": "BioSpace",
+          "title": "Moderna/NIH Patent Dispute Over COVID-19 Vaccine Goes Public",
+          "date": "2021-11"
+        },
+        {
+          "url": "https://investors.modernatx.com/statements-perspectives/statement-on-intellectual-property",
+          "publisher": "Moderna, Inc.",
+          "title": "Statement on Intellectual Property",
+          "date": "2021-12-17"
+        }
+      ]
     }
   ]
 }

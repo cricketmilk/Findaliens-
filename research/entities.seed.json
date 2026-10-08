@@ -892,6 +892,22 @@
         "Federal Reserve Bank of New York",
         "New York Fed"
       ]
+    },
+    {
+      "name": "BCCI",
+      "type": "bank",
+      "aliases": [
+        "Bank of Credit and Commerce International"
+      ]
+    },
+    {
+      "name": "Federal Reserve",
+      "type": "government",
+      "aliases": [
+        "Federal Reserve Board",
+        "Federal Reserve System",
+        "the Fed"
+      ]
     }
   ]
 }

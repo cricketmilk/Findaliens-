@@ -1,0 +1,64 @@
+{
+  "id": "darpa-tia-programs",
+  "title": "DARPA Total Information Awareness → Palantir (claimed)",
+  "pattern": "claimed-successor",
+  "country": "United States",
+  "summary": "Total Information Awareness (later Terrorism Information Awareness) was a DARPA data-mining research program run by the Information Awareness Office, set up in January 2002 under John Poindexter. Congress barred funding for it in the FY2004 defense appropriations act, signed Sept 30, 2003, while a classified annex kept some counterterrorism analysis tools for foreign intelligence. National Journal reported in 2006 that key TIA projects moved, renamed, to an NSA-linked research office: a government-to-government continuation. Palantir, incorporated in 2003 and backed by Peter Thiel and reportedly In-Q-Tel, is often called TIA's private successor, but no transfer of TIA code, staff or contracts to Palantir is documented.",
+  "public": {
+    "name": "Total Information Awareness / Terrorism Information Awareness (DARPA Information Awareness Office)",
+    "funder": "DARPA",
+    "start": { "date": "2002-01", "precision": "month" },
+    "end": { "date": "2003-09-30", "precision": "day", "kind": "defunded" },
+    "sources": [
+      { "url": "https://www.everycrsreport.com/reports/RL31786.html", "publisher": "Congressional Research Service", "title": "Total Information Awareness Programs: Funding, Composition, and Oversight Issues (RL31786)", "date": "2003-03-21" },
+      { "url": "https://sgp.fas.org/congress/2003/tia.html", "publisher": "Congressional Record (via Federation of American Scientists)", "title": "Terrorism Information Awareness (TIA) Terminated: Conference Report on H.R. 2658, Sec. 8131", "date": "2003-09-24" },
+      { "url": "https://www.govinfo.gov/app/details/PLAW-108publ87", "publisher": "U.S. Government Publishing Office", "title": "Public Law 108-87, Department of Defense Appropriations Act, 2004", "date": "2003-09-30" },
+      { "url": "https://govexec.com/defense/2003/09/congress-funds-defense-kills-terrorism-information-awareness/15051", "publisher": "Government Executive", "title": "Congress funds Defense, kills Terrorism Information Awareness", "date": "2003-09-25" }
+    ]
+  },
+  "private": {
+    "name": "Palantir Technologies",
+    "founded": { "date": "2003", "precision": "year" },
+    "founders": ["Peter Thiel", "Alex Karp"],
+    "funders": ["Peter Thiel", "In-Q-Tel (reportedly about $2 million)"],
+    "outcome": "Data-integration and analysis software company; became a major U.S. intelligence, defense and law-enforcement contractor; listed publicly in 2020.",
+    "sources": [
+      { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000119312520230013/d904406ds1.htm", "publisher": "U.S. Securities and Exchange Commission (Palantir Technologies Inc. Form S-1)", "title": "Palantir Technologies Inc. Form S-1 Registration Statement", "date": "2020-08-25" },
+      { "url": "https://washingtonian.com/2012/01/31/killer-app/", "publisher": "Washingtonian", "title": "Killer App", "date": "2012-01-31" }
+    ]
+  },
+  "links": [
+    {
+      "type": "timing",
+      "claim": "Congress cut off TIA funding in the FY2004 defense appropriations act, signed Sept 30, 2003; Palantir says it was incorporated in Delaware in 2003, and Washingtonian dates its launch to 2004. The overlap in dates is not itself a tie.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.govinfo.gov/app/details/PLAW-108publ87", "publisher": "U.S. Government Publishing Office", "title": "Public Law 108-87, Department of Defense Appropriations Act, 2004", "date": "2003-09-30" },
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000119312520230013/d904406ds1.htm", "publisher": "U.S. Securities and Exchange Commission (Palantir Technologies Inc. Form S-1)", "title": "Palantir Technologies Inc. Form S-1 Registration Statement", "date": "2020-08-25" }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "TIA did not really end in 2003; its research continued inside the government under new names.",
+      "assessment": "partly-true",
+      "explanation": "The statute itself (Sec. 8131 of the FY2004 defense appropriations act) barred TIA funding but exempted 'processing, analysis, and collaboration tools for counterterrorism foreign intelligence' described in a classified annex, and Government Executive reported less controversial technologies were moved elsewhere in DARPA. In February 2006 National Journal (Shane Harris) reported that TIA's core prototype was renamed 'Basketball' and Genoa II renamed 'Topsail', moved to a research office serving NSA, often under the same contracts with SAIC and Hicks & Associates. That continuation is reported, not officially confirmed, and it was public-to-public: it moved to other agencies, not to a private successor.",
+      "sources": [
+        { "url": "https://sgp.fas.org/congress/2003/tia.html", "publisher": "Congressional Record (via Federation of American Scientists)", "title": "Terrorism Information Awareness (TIA) Terminated: Conference Report on H.R. 2658, Sec. 8131", "date": "2003-09-24" },
+        { "url": "https://govexec.com/defense/2003/09/congress-funds-defense-kills-terrorism-information-awareness/15051", "publisher": "Government Executive", "title": "Congress funds Defense, kills Terrorism Information Awareness", "date": "2003-09-25" },
+        { "url": "https://www.democracynow.org/2006/2/27/total_information_awareness_lives_on_inside", "publisher": "Democracy Now!", "title": "Total Information Awareness Lives On Inside the National Security Agency", "date": "2006-02-27" },
+        { "url": "https://www.schneier.com/blog/archives/2006/04/nsa_warrantless.html", "publisher": "Schneier on Security", "title": "NSA Warrantless Wiretapping and Total Information Awareness", "date": "2006-04-28" }
+      ]
+    },
+    {
+      "claim": "Palantir is TIA's private successor: the program was taken out of DARPA and continued as Palantir.",
+      "assessment": "unsupported",
+      "explanation": "Washingtonian (Shane Harris, 2012) reports that soon after Palantir's 2004 launch, Richard Perle arranged for Alex Karp and Peter Thiel to meet John Poindexter, TIA's former head; Karp says Poindexter was one of many experts the founders consulted, and Harris notes Palantir's approach bore 'striking similarities' to TIA's. In-Q-Tel, the CIA's venture arm, reportedly invested about $2 million. None of this shows that TIA's code, staff, contracts or funding went to Palantir: Poindexter is not reported to have taken any role at the company, and In-Q-Tel is a CIA vehicle, not DARPA. The documented continuation of TIA work went to NSA-linked offices and contractors such as SAIC, not to Palantir.",
+      "sources": [
+        { "url": "https://washingtonian.com/2012/01/31/killer-app/", "publisher": "Washingtonian", "title": "Killer App", "date": "2012-01-31" },
+        { "url": "https://www.democracynow.org/2006/2/27/total_information_awareness_lives_on_inside", "publisher": "Democracy Now!", "title": "Total Information Awareness Lives On Inside the National Security Agency", "date": "2006-02-27" },
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000119312520230013/d904406ds1.htm", "publisher": "U.S. Securities and Exchange Commission (Palantir Technologies Inc. Form S-1)", "title": "Palantir Technologies Inc. Form S-1 Registration Statement", "date": "2020-08-25" }
+      ]
+    }
+  ]
+}

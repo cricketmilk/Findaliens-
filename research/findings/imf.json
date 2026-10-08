@@ -1,0 +1,73 @@
+{
+  "entity": "imf",
+  "name": "International Monetary Fund",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "The International Monetary Fund (IMF) is an international financial institution conceived at the July 1944 Bretton Woods conference, with 191 member countries. Each member's quota reflects its size in the world economy and determines its voting power and access to IMF resources. IMF lending is conditional: borrowing governments agree to adjust economic policies, with commitments ranging from fiscal and reserve targets to structural reforms, and funds are typically disbursed in installments tied to those actions.",
+    "sources": [
+      {
+        "url": "https://www.imf.org/en/About/Factsheets/IMF-at-a-Glance",
+        "publisher": "International Monetary Fund",
+        "title": "IMF at a Glance",
+        "date": ""
+      },
+      {
+        "url": "https://www.imf.org/en/About/Factsheets/Sheets/2022/IMF-Quotas",
+        "publisher": "International Monetary Fund",
+        "title": "IMF Quotas",
+        "date": ""
+      },
+      {
+        "url": "https://www.imf.org/en/About/Factsheets/Sheets/2023/IMF-Conditionality",
+        "publisher": "International Monetary Fund",
+        "title": "IMF Conditionality",
+        "date": ""
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In the 1980s Latin American debt crisis, which began when Mexico said in August 1982 it could not service its debt, the IMF and other official lenders lent countries enough to pay interest on their bank loans in return for structural reforms and deficit cuts. Many cut infrastructure, health and education spending and froze wages; the decade saw high unemployment and falling per-capita income.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.federalreservehistory.org/essays/latin-american-debt-crisis",
+          "publisher": "Federal Reserve History (Federal Reserve System)",
+          "title": "Latin American Debt Crisis of the 1980s",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "claim": "In the 1997-98 Asian financial crisis, the IMF-supported programs for Thailand, Indonesia and South Korea called for substantial interest-rate increases to stem currency depreciation, restructuring of financial systems, stronger financial regulation, and opening Asian markets to foreign participants, according to IMF First Deputy Managing Director Stanley Fischer.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.imf.org/external/pubs/ft/fandd/1998/06/fischer.htm",
+          "publisher": "International Monetary Fund, Finance & Development",
+          "title": "The Asian Crisis and the Changing Role of the IMF (Stanley Fischer)",
+          "date": "1998-06"
+        }
+      ]
+    },
+    {
+      "claim": "A 2016 ESMT Berlin study of Greece's first two bailout programmes (about EUR 216 billion from euro-area lenders and the IMF) found that less than 5% (EUR 9.7 billion) went to the Greek fiscal budget. EUR 86.9 billion went to repaying existing debt (including EUR 9.1 billion to the IMF), EUR 52.3 billion to interest payments, EUR 37.3 billion to recapitalizing Greek banks, and EUR 29.7 billion to incentives for private investors to join the 2012 debt restructuring.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://static.esmt.org/publications/whitepapers/WP-16-02.pdf",
+          "publisher": "ESMT Berlin (Rocholl and Stahmer)",
+          "title": "Where did the Greek bailout money go? (ESMT White Paper WP-16-02)",
+          "date": "2016"
+        },
+        {
+          "url": "https://www.dailynewsegypt.com/?p=423622",
+          "publisher": "Deutsche Welle (via Daily News Egypt)",
+          "title": "Most of Greek bailout money went to banks: study",
+          "date": "2016-05-04"
+        }
+      ]
+    }
+  ],
+  "connections": []
+}

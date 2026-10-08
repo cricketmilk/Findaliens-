@@ -1,0 +1,75 @@
+{
+  "id": "nasa-cots-spacex",
+  "title": "Space Shuttle cargo role → COTS and Commercial Resupply (SpaceX, Orbital)",
+  "pattern": "outsourced-successor",
+  "country": "United States",
+  "summary": "Ahead of the Space Shuttle's retirement, NASA funded SpaceX (from August 2006) and Orbital Sciences (from February 2008) under milestone-based Commercial Orbital Transportation Services (COTS) Space Act Agreements to develop cargo vehicles for the International Space Station, paying about $396 million and $288 million respectively. In December 2008 NASA awarded both companies fixed-price Commercial Resupply Services (CRS) contracts. The last shuttle flight, STS-135 in July 2011, was itself a cargo run; since then NASA has relied on these commercial contractors, which own and operate their vehicles, for ISS cargo. This record covers cargo; crew transport is a separate record.",
+  "public": {
+    "name": "Space Shuttle Program (ISS cargo delivery role)",
+    "funder": "NASA",
+    "start": { "date": "1981-04-12", "precision": "day" },
+    "end": { "date": "2011-07-21", "precision": "day", "kind": "completed" },
+    "sources": [
+      { "url": "https://www.nasa.gov/mission/sts-1/", "publisher": "NASA", "title": "STS-1", "date": "1981-04-12" },
+      { "url": "https://www.nasa.gov/mission/sts-135/", "publisher": "NASA", "title": "STS-135", "date": "2011-07-21" }
+    ]
+  },
+  "private": {
+    "name": "SpaceX (Falcon 9 / Dragon) and Orbital Sciences (Antares / Cygnus), under NASA Commercial Resupply Services contracts",
+    "founded": { "date": "2008-12-23", "precision": "day" },
+    "founders": [],
+    "funders": ["NASA (COTS Space Act Agreements, 2006–2013)", "Private investment by the companies"],
+    "outcome": "The date above is the CRS contract award. SpaceX began CRS cargo flights in 2012 and Orbital in 2014. NASA's Inspector General reported in 2018 that CRS-1 had grown to 31 missions worth about $5.9 billion (20 SpaceX, 11 Orbital ATK), with two launch failures (Orb-3 in October 2014 and SpX-7 in June 2015), and that a follow-on CRS-2 round was awarded in January 2016 to Orbital ATK, SpaceX and Sierra Nevada.",
+    "sources": [
+      { "url": "https://oig.nasa.gov/docs/IG-18-016.pdf", "publisher": "NASA Office of Inspector General", "title": "Audit of Commercial Resupply Services to the International Space Station (IG-18-016)", "date": "2018-04-26" },
+      { "url": "https://www.sec.gov/Archives/edgar/data/820736/000095013308004154/w72110e8vk.htm", "publisher": "Orbital Sciences Corporation (SEC Form 8-K)", "title": "Form 8-K: Commercial Resupply Services contract with NASA", "date": "2008-12-30" }
+    ]
+  },
+  "links": [
+    {
+      "type": "funding",
+      "claim": "NASA's COTS program manager reported that SpaceX's COTS Space Act Agreement, awarded August 2006, paid $396 million for 40 completed milestones (Falcon 9, Dragon, and Cape Canaveral launch facility), and Orbital's agreement paid $288 million for 29 milestones completed by November 2013.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://ntrs.nasa.gov/api/citations/20150009324/downloads/20150009324.pdf", "publisher": "NASA Technical Reports Server", "title": "Commercial Orbital Transportation Services (COTS) Program Lessons Learned (HEOMD Knowledge Sharing Forum)", "date": "2013-11-13" },
+        { "url": "https://www.nasa.gov/news-release/nasa-partners-with-orbital-sciences-for-space-transport-services/", "publisher": "NASA", "title": "NASA Partners With Orbital Sciences for Space Transport Services", "date": "2008-02-19" }
+      ]
+    },
+    {
+      "type": "contract",
+      "claim": "On 23 December 2008 NASA awarded fixed-price indefinite-delivery Commercial Resupply Services contracts for ISS cargo: eight flights valued at about $1.9 billion to Orbital Sciences and 12 flights valued at about $1.6 billion to SpaceX, each with a maximum potential value of about $3.1 billion.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/820736/000095013308004154/w72110e8vk.htm", "publisher": "Orbital Sciences Corporation (SEC Form 8-K)", "title": "Form 8-K: Commercial Resupply Services contract with NASA", "date": "2008-12-30" },
+        { "url": "https://spaceflightnow.com/news/n0812/23crsawards/", "publisher": "Spaceflight Now", "title": "NASA calls upon commercial firms to serve space station", "date": "2008-12-23" }
+      ]
+    },
+    {
+      "type": "stated-successor",
+      "claim": "NASA's Inspector General wrote that since the Space Shuttle's final flight in 2011 NASA has relied on commercial contractors to deliver cargo to the ISS through the CRS contracts, a new approach using private companies.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://oig.nasa.gov/docs/IG-18-016.pdf", "publisher": "NASA Office of Inspector General", "title": "Audit of Commercial Resupply Services to the International Space Station (IG-18-016)", "date": "2018-04-26" }
+      ]
+    },
+    {
+      "type": "stated-successor",
+      "claim": "At the award, SpaceX CEO Elon Musk described the contract as a major responsibility given the swiftly approaching retirement of the space shuttle and the station's significant future needs.",
+      "status": "words",
+      "sources": [
+        { "url": "https://spaceflightnow.com/news/n0812/23crsawards/", "publisher": "Spaceflight Now", "title": "NASA calls upon commercial firms to serve space station", "date": "2008-12-23" }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "NASA paid for the development of SpaceX's Falcon 9 and Dragon cargo system.",
+      "assessment": "partly-true",
+      "explanation": "NASA paid SpaceX about $396 million in COTS milestone payments toward Falcon 9 and Dragon. But NASA officials told the Inspector General that Orbital and SpaceX each contributed more than 50 percent of the development costs of their systems, so NASA funding was substantial but not the whole cost.",
+      "sources": [
+        { "url": "https://oig.nasa.gov/docs/IG-18-016.pdf", "publisher": "NASA Office of Inspector General", "title": "Audit of Commercial Resupply Services to the International Space Station (IG-18-016)", "date": "2018-04-26" },
+        { "url": "https://ntrs.nasa.gov/api/citations/20150009324/downloads/20150009324.pdf", "publisher": "NASA Technical Reports Server", "title": "Commercial Orbital Transportation Services (COTS) Program Lessons Learned (HEOMD Knowledge Sharing Forum)", "date": "2013-11-13" }
+      ]
+    }
+  ]
+}

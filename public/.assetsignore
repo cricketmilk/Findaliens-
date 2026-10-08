@@ -1,0 +1,8 @@
+# Never upload these, even if they land in public/ again.
+# (wrangler reads this file; it is not uploaded itself)
+*.py
+*.bak
+*.env
+.env*
+*.md
+*.jsonl

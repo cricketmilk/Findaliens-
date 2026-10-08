@@ -1,0 +1,85 @@
+{
+  "entity": "curtis-yarvin",
+  "name": "Curtis Yarvin",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "Curtis Yarvin is an American software engineer and political writer who, starting in 2007, blogged under the pseudonym Mencius Moldbug and is described as a leading figure in the 'neoreactionary' movement. He argues that American democracy has failed and has laid out how the U.S. government could be replaced by a monarch, CEO or dictator-style executive who would dismantle the existing bureaucracy. He co-founded the company behind the Urbit software project and stepped away from it in 2019.",
+    "sources": [
+      {
+        "url": "https://www.vox.com/policy-and-politics/23373795/curtis-yarvin-neoreaction-redpill-moldbug",
+        "publisher": "Vox",
+        "title": "Curtis Yarvin wants American democracy toppled. He has some prominent Republican fans.",
+        "date": "2022-10-24"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Writing as Mencius Moldbug, Yarvin described 'the Cathedral', meaning elite academic and media institutions that in his account set the bounds of acceptable political discourse. He has proposed that a new leader should 'Retire All Government Employees' (RAGE) of the old regime.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.vox.com/policy-and-politics/23373795/curtis-yarvin-neoreaction-redpill-moldbug",
+          "publisher": "Vox",
+          "title": "Curtis Yarvin wants American democracy toppled. He has some prominent Republican fans.",
+          "date": "2022-10-24"
+        }
+      ]
+    },
+    {
+      "claim": "On the Jack Murphy Live podcast in September 2021, then-Senate candidate JD Vance said Trump should 'fire every single mid level bureaucrat' and replace them with 'our people'. He said that if the courts stopped him, Trump should 'stand before the country like Andrew Jackson did and say, the Chief Justice has made his ruling. Now let him enforce it.' In the same discussion he said, 'there's this guy, Curtis Yarvin, who has written about some of these things.'",
+      "status": "words",
+      "sources": [
+        {
+          "url": "https://www.vox.com/policy-and-politics/23373795/curtis-yarvin-neoreaction-redpill-moldbug",
+          "publisher": "Vox",
+          "title": "Curtis Yarvin wants American democracy toppled. He has some prominent Republican fans.",
+          "date": "2022-10-24"
+        },
+        {
+          "url": "https://reason.com/volokh/2025/01/01/has-j-d-vance-raised-the-specter-of-open-disregard-for-federal-court-rulings/",
+          "publisher": "Reason (The Volokh Conspiracy)",
+          "title": "Has J.D. Vance \"Raised the Specter of Open Disregard for Federal Court Rulings\"?",
+          "date": "2025-01-01"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "jd-vance",
+      "relation": "other",
+      "claim": "In 2021 JD Vance publicly cited Curtis Yarvin as someone who had 'written about' his proposal to replace mid-level federal civil servants. Vox described Yarvin as an 'intellectual inspiration' for Vance.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.vox.com/policy-and-politics/23373795/curtis-yarvin-neoreaction-redpill-moldbug",
+          "publisher": "Vox",
+          "title": "Curtis Yarvin wants American democracy toppled. He has some prominent Republican fans.",
+          "date": "2022-10-24"
+        }
+      ]
+    },
+    {
+      "to": "peter-thiel",
+      "relation": "funded",
+      "claim": "Yarvin's startup Tlon (Urbit) was funded by Peter Thiel's venture firm Founders Fund. Tlon's co-founder said in 2017 that Thiel was not personally involved. Vox reported that Thiel became a friend of Yarvin's and that Yarvin attended Thiel's watch party for the 2016 election.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.vox.com/policy-and-politics/23373795/curtis-yarvin-neoreaction-redpill-moldbug",
+          "publisher": "Vox",
+          "title": "Curtis Yarvin wants American democracy toppled. He has some prominent Republican fans.",
+          "date": "2022-10-24"
+        },
+        {
+          "url": "https://www.theverge.com/2017/2/21/14671978/alt-right-mencius-moldbug-urbit-curtis-yarvin-tlon",
+          "publisher": "The Verge",
+          "title": "Alt-right darling Mencius Moldbug wanted to destroy democracy. Now he wants to sell you web services",
+          "date": "2017-02-21"
+        }
+      ],
+      "reverse": true
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "entity": "palantir",
+  "name": "Palantir Technologies",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "Palantir Technologies is a publicly traded data-analytics and software company. Peter Thiel, Alex Karp and Stephen Cohen are among its co-founders. Thiel has chaired its board since 2003, and Karp has been CEO since 2005. The CIA's venture arm In-Q-Tel was an early investor. Its software is used by U.S. defense, intelligence and law enforcement agencies, including ICE.",
+    "sources": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000019/pltr-20260423.htm",
+        "publisher": "U.S. Securities and Exchange Commission (Palantir filing)",
+        "title": "Palantir Technologies Inc. 2026 Proxy Statement (DEF 14A)",
+        "date": "2026-04-24"
+      },
+      {
+        "url": "https://fastcompany.co.za/business/2025-11-24-the-evolution-of-palantir-from-cia-investments-to-police-partnerships/",
+        "publisher": "Fast Company South Africa (excerpt from Michael Steinberger, The Philosopher in the Valley, Avid Reader Press)",
+        "title": "The evolution of Palantir from CIA investments to police partnerships",
+        "date": "2025-11-24"
+      },
+      {
+        "url": "https://theintercept.com/2017/03/02/palantir-provides-the-engine-for-donald-trumps-deportation-machine/",
+        "publisher": "The Intercept",
+        "title": "Palantir Provides the Engine for Donald Trump's Deportation Machine",
+        "date": "2017-03-02"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In-Q-Tel, the CIA's venture capital arm, made an early equity investment in Palantir. Michael Steinberger's 2025 book puts it at $1.25 million. Palantir engineers worked directly with CIA analysts as they developed the software, and the CIA later became a customer.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://fastcompany.co.za/business/2025-11-24-the-evolution-of-palantir-from-cia-investments-to-police-partnerships/",
+          "publisher": "Fast Company South Africa (excerpt from Michael Steinberger, The Philosopher in the Valley, Avid Reader Press)",
+          "title": "The evolution of Palantir from CIA investments to police partnerships",
+          "date": "2025-11-24"
+        }
+      ]
+    },
+    {
+      "claim": "Palantir built FALCON, a database and analytics platform used by ICE's Homeland Security Investigations, and in 2014 won a $41 million contract to build ICE's Investigative Case Management system (The Intercept, 2017). In January 2026, 404 Media reported that ICE uses a Palantir-built app called ELITE to map potential deportation targets.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://theintercept.com/2017/03/02/palantir-provides-the-engine-for-donald-trumps-deportation-machine/",
+          "publisher": "The Intercept",
+          "title": "Palantir Provides the Engine for Donald Trump's Deportation Machine",
+          "date": "2017-03-02"
+        },
+        {
+          "url": "https://www.404media.co/elite-the-palantir-app-ice-uses-to-find-neighborhoods-to-raid",
+          "publisher": "404 Media",
+          "title": "'ELITE': The Palantir App ICE Uses to Find Neighborhoods to Raid",
+          "date": "2026-01-15"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "peter-thiel",
+      "relation": "co-founded",
+      "claim": "Peter Thiel is a co-founder of Palantir and has chaired its board since 2003. He also invested personally in its early funding.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000019/pltr-20260423.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Palantir filing)",
+          "title": "Palantir Technologies Inc. 2026 Proxy Statement (DEF 14A)",
+          "date": "2026-04-24"
+        },
+        {
+          "url": "https://fastcompany.co.za/business/2025-11-24-the-evolution-of-palantir-from-cia-investments-to-police-partnerships/",
+          "publisher": "Fast Company South Africa (excerpt from Michael Steinberger, The Philosopher in the Valley, Avid Reader Press)",
+          "title": "The evolution of Palantir from CIA investments to police partnerships",
+          "date": "2025-11-24"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "cia",
+      "relation": "contracted with",
+      "claim": "The CIA's venture arm In-Q-Tel invested early in Palantir. After Palantir engineers spent years working with CIA analysts, the agency formally contracted to use its software, according to Michael Steinberger's 2025 book.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://fastcompany.co.za/business/2025-11-24-the-evolution-of-palantir-from-cia-investments-to-police-partnerships/",
+          "publisher": "Fast Company South Africa (excerpt from Michael Steinberger, The Philosopher in the Valley, Avid Reader Press)",
+          "title": "The evolution of Palantir from CIA investments to police partnerships",
+          "date": "2025-11-24"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Handoff Ledger — The Cornfield Gazette</title>
+<meta name="description" content="Publicly funded programs that ended, and the private companies that took their place — graded by documented evidence, not timing.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌽</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #07061a;
+    --panel: #0e0c26;
+    --line: #2e2860;
+    --text: #e4e3fa;
+    --dim: #8f8bb8;
+    --green: #39ff14;
+    --cyan: #4de8ff;
+    --magenta: #ff4dd8;
+    --gold: #ffd84d;
+    --public: #4de8ff;
+    --private: #ff4dd8;
+    --pixel: "Press Start 2P", monospace;
+    --term: "VT323", "Courier New", monospace;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: radial-gradient(ellipse at 50% 0%, #15114d 0%, var(--bg) 60%); color: var(--text); font-family: var(--term); font-size: 20px; line-height: 1.3; }
+  a { color: var(--cyan); }
+  a:hover { color: var(--magenta); }
+  .page { max-width: 1180px; margin: 0 auto; padding: 18px 20px 70px; }
+  .nav { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+  .nav a { font-family: var(--pixel); font-size: 9px; text-decoration: none; border: 1px solid var(--cyan); padding: 6px 9px; }
+  h1 { font-family: var(--pixel); font-size: clamp(18px, 3.4vw, 30px); color: var(--green); text-shadow: 0 0 8px rgba(57, 255, 20, 0.7); margin: 6px 0 10px; line-height: 1.4; }
+  .dek { font-size: 22px; max-width: 900px; margin: 0 0 16px; }
+  .dek b { color: var(--gold); font-weight: 400; }
+  h2 { font-family: var(--pixel); font-size: 13px; color: var(--cyan); margin: 34px 0 12px; }
+
+  .grades { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px; margin-bottom: 8px; }
+  .grade-card { border: 1px solid var(--line); background: var(--panel); padding: 10px 12px; font-size: 18px; }
+  .grade-card .g { font-family: var(--pixel); font-size: 14px; margin-right: 8px; }
+  .grade-card svg { display: block; margin-top: 6px; }
+  .gA { color: var(--green); } .gB { color: var(--cyan); } .gC { color: var(--gold); } .gD { color: var(--dim); }
+
+  .controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 14px 0; }
+  .chip { font-family: var(--term); font-size: 17px; background: transparent; color: var(--text); border: 1px solid var(--line); padding: 2px 9px; cursor: pointer; }
+  .chip.on { border-color: var(--cyan); color: var(--cyan); }
+  select, input[type=search] { background: #050414; color: var(--text); border: 1px solid var(--line); font-family: var(--term); font-size: 18px; padding: 3px 8px; }
+
+  .timeline-box { border: 1px solid var(--line); background: rgba(14, 12, 38, 0.85); padding: 10px 6px 4px; overflow-x: auto; }
+  #timeline { display: block; min-width: 760px; width: 100%; }
+  #timeline text { font-family: var(--term); fill: var(--dim); font-size: 14px; }
+  #timeline .row-label { fill: var(--text); font-size: 15px; cursor: pointer; }
+  #timeline .row:hover .row-label { fill: var(--cyan); }
+  .lanes-key { display: flex; gap: 18px; flex-wrap: wrap; font-size: 17px; color: var(--dim); margin: 6px 4px; }
+  .lanes-key i { display: inline-block; width: 22px; height: 8px; margin-right: 6px; vertical-align: middle; }
+
+  .case { border: 1px solid var(--line); background: var(--panel); margin-bottom: 14px; scroll-margin-top: 14px; }
+  .case-head { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; padding: 10px 14px; border-bottom: 1px solid var(--line); }
+  .case-head h3 { font-family: var(--pixel); font-size: 12px; line-height: 1.6; margin: 0; color: var(--text); }
+  .badge { display: inline-block; font-family: var(--pixel); font-size: 8px; padding: 3px 6px; border: 1px solid currentColor; margin-right: 6px; vertical-align: middle; white-space: nowrap; }
+  .case-body { padding: 12px 14px 14px; }
+  .meta { color: var(--dim); font-size: 17px; }
+  .sides { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 12px 0; }
+  .side { border-left: 3px solid var(--public); padding: 4px 10px; background: rgba(77, 232, 255, 0.05); }
+  .side.priv { border-left-color: var(--private); background: rgba(255, 77, 216, 0.05); }
+  .side b { font-weight: 400; color: var(--text); }
+  .side .lbl { font-family: var(--pixel); font-size: 8px; color: var(--public); }
+  .side.priv .lbl { color: var(--private); }
+  .src { display: block; font-size: 15px; color: var(--dim); }
+  .src a { color: var(--dim); }
+  .ev { list-style: none; margin: 6px 0 0; padding: 0; }
+  .ev li { border-top: 1px dashed var(--line); padding: 7px 0; font-size: 18px; }
+  .type { font-family: var(--pixel); font-size: 8px; color: var(--bg); background: var(--cyan); padding: 2px 5px; margin-right: 6px; vertical-align: middle; }
+  .type.timing { background: var(--dim); }
+  .type.personnel, .type.funding { background: var(--gold); }
+  .st { font-family: var(--pixel); font-size: 7px; color: var(--dim); border: 1px solid var(--line); padding: 2px 4px; margin-right: 6px; vertical-align: middle; }
+  .claim { border: 1px solid var(--line); padding: 8px 10px; margin-top: 8px; background: rgba(255, 216, 77, 0.04); }
+  .as-false { color: #ff5a6e; } .as-unsupported { color: var(--gold); } .as-partly-true { color: var(--cyan); } .as-true { color: var(--green); }
+  .empty { color: var(--dim); padding: 20px; border: 1px dashed var(--line); text-align: center; }
+  .method { border: 1px solid var(--line); background: var(--panel); padding: 12px 16px; font-size: 18px; }
+  .method li { margin-bottom: 6px; }
+
+  @media (max-width: 760px) { .sides { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="page">
+  <nav class="nav">
+    <a href="index.html">◀ GAZETTE</a>
+    <a href="web.html">THE WEB</a>
+    <a href="blind-pool.html">BLIND POOL</a>
+    <a href="transhumanism.html">POST-HUMAN RESOURCES</a>
+  </nav>
+
+  <h1>THE HANDOFF LEDGER</h1>
+  <p class="dek">Public money builds something. The program ends. A private company carries it on. Some of these are <b>documented handoffs</b>: a lab licensed its work, a government sold the asset. Others are <b>only claimed</b>, because a company appeared at about the same time. Every case is graded by the strongest documented link between the two sides, <b>never by timing alone</b>.</p>
+
+  <div class="grades" id="grades"></div>
+
+  <h2>TIMELINE</h2>
+  <div class="controls" id="controls">
+    <span class="meta">grade:</span><span id="grade-chips"></span>
+    <span class="meta" style="margin-left:8px;">type:</span>
+    <select id="pattern"><option value="">all</option></select>
+    <select id="country"><option value="">all countries</option></select>
+    <input id="q" type="search" placeholder="search…" aria-label="Search handoffs">
+  </div>
+  <div class="timeline-box">
+    <div class="lanes-key"><span><i style="background:var(--public)"></i>public program</span><span><i style="background:var(--private)"></i>private successor</span><span>connector style = grade</span></div>
+    <svg id="timeline" role="img" aria-label="Timeline of public programs and their private successors"></svg>
+  </div>
+
+  <h2>CASES</h2>
+  <div id="cases"></div>
+
+  <h2>HOW CASES ARE GRADED</h2>
+  <div class="method">
+    <ul>
+      <li>Each case records the <b>public side</b> from the funder’s own records, the <b>private side</b> from company registries and filings, and each <b>link</b> between them as a separate, sourced item: license, asset transfer, contract, stated successor, personnel, funding, or timing.</li>
+      <li>The grade is calculated from approved links. Grades A and B also require at least two independent publishers. <b>Timing never counts as a link</b>: two dates close together are where an investigation starts, not where it ends.</li>
+      <li>Popular claims are examined separately and assessed as true, partly true, unsupported or false, with the record that decides it.</li>
+      <li>Research is drafted by the Gazette’s research agent and checked against its sources before publication. Something wrong or missing? The sources are listed on every item.</li>
+    </ul>
+  </div>
+</div>
+
+<script>
+const GRADE_TEXT = {
+  A: "Documented handoff: a transfer, contract or official successor is on the record",
+  B: "Strong link: people moved plus another tie, or a reported transfer",
+  C: "Circumstantial: shared people or funders only",
+  D: "Timing only: no documented link",
+};
+const GRADE_COLOR = { A: "#39ff14", B: "#4de8ff", C: "#ffd84d", D: "#8f8bb8" };
+const GRADE_DASH = { A: "", B: "", C: "6 4", D: "1 5" };
+const PATTERN_TEXT = {
+  "spinout": "spinout", "privatization": "privatization", "outsourced-successor": "outsourced successor",
+  "parallel-successor": "parallel successor", "claimed-successor": "claimed successor",
+};
+const TYPE_LABEL = { "ip-license": "IP / LICENSE", "asset-transfer": "ASSET TRANSFER", "contract": "CONTRACT", "stated-successor": "STATED SUCCESSOR", "personnel": "PERSONNEL", "funding": "FUNDING", "timing": "TIMING" };
+const ASSESS = { "false": "FALSE", "unsupported": "UNSUPPORTED", "partly-true": "PARTLY TRUE", "true": "TRUE" };
+
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const srcs = (list) => (list || []).map((s) => `<span class="src">↳ <a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.publisher)}${s.date ? ", " + esc(s.date) : ""}${s.title ? " — " + esc(s.title) : ""}</a></span>`).join("");
+const year = (d) => Number(String(d.date).slice(0, 4)) + (d.precision === "year" ? 0.5 : (Number(String(d.date).slice(5, 7) || 6) - 0.5) / 12);
+const fmtGap = (g) => {
+  if (!g) return "";
+  const yrs = Math.abs(g.days) / 365.25;
+  const plural = (n, unit) => `${n} ${unit}${n === 1 ? "" : "s"}`;
+  const months = Math.max(1, Math.round(Math.abs(g.days) / 30.4));
+  const amount = g.precision === "year" || yrs >= 2 ? `${yrs.toFixed(yrs < 10 ? 1 : 0)} years` : g.precision === "month" || Math.abs(g.days) > 60 ? plural(months, "month") : plural(Math.abs(g.days), "day");
+  if (g.days === 0) return g.precision === "day" ? "both happened on the same day" : `both happened in the same ${g.precision}`;
+  return g.days < 0 ? `private side began ${amount} before the program ended` : `private side began ${amount} after the program ended`;
+};
+
+let DATA = { records: [] };
+const filters = { grades: new Set(["A", "B", "C", "D"]), pattern: "", country: "", q: "" };
+
+function line(grade, w = 60) {
+  return `<svg width="${w}" height="10"><line x1="2" y1="5" x2="${w - 2}" y2="5" stroke="${GRADE_COLOR[grade]}" stroke-width="${grade === "A" ? 3 : 2}" ${GRADE_DASH[grade] ? `stroke-dasharray="${GRADE_DASH[grade]}"` : ""}/></svg>`;
+}
+
+function renderGrades() {
+  document.getElementById("grades").innerHTML = Object.entries(GRADE_TEXT).map(([g, t]) => {
+    const n = DATA.records.filter((r) => r.grade === g).length;
+    return `<div class="grade-card"><span class="g g${g}">${g}</span>${esc(t)} <span class="meta">· ${n}</span>${line(g, 120)}</div>`;
+  }).join("");
+  document.getElementById("grade-chips").innerHTML = ["A", "B", "C", "D"].map((g) => `<button class="chip on g${g}" data-g="${g}">${g}</button>`).join(" ");
+  const pats = [...new Set(DATA.records.map((r) => r.pattern))];
+  document.getElementById("pattern").innerHTML = `<option value="">all</option>` + pats.map((p) => `<option value="${p}">${PATTERN_TEXT[p] || p}</option>`).join("");
+  const countries = [...new Set(DATA.records.map((r) => r.country))].sort();
+  document.getElementById("country").innerHTML = `<option value="">all countries</option>` + countries.map((c) => `<option>${esc(c)}</option>`).join("");
+}
+
+function visible() {
+  const q = filters.q.toLowerCase();
+  return DATA.records.filter((r) => filters.grades.has(r.grade)
+    && (!filters.pattern || r.pattern === filters.pattern)
+    && (!filters.country || r.country === filters.country)
+    && (!q || JSON.stringify(r).toLowerCase().includes(q)));
+}
+
+function renderTimeline(list) {
+  const svg = document.getElementById("timeline");
+  if (!list.length) { svg.setAttribute("viewBox", "0 0 760 40"); svg.innerHTML = `<text x="10" y="25">No cases match.</text>`; return; }
+  // Start just before the earliest program end; older starts run off the left edge.
+  const minY = Math.floor((Math.min(...list.map((r) => year(r.public.end))) - 6) / 10) * 10;
+  const maxY = 2027;
+  const W = 1100, L = 250, R = 20, rowH = 34, top = 26;
+  const H = top + list.length * rowH + 10;
+  const x = (y) => L + ((y - minY) / (maxY - minY)) * (W - L - R);
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  let out = "";
+  for (let y = minY; y <= 2020; y += 10) {
+    out += `<line x1="${x(y)}" x2="${x(y)}" y1="${top - 8}" y2="${H}" stroke="#2e2860" stroke-dasharray="2 4"/>`;
+    out += `<text x="${x(y)}" y="14" text-anchor="middle">${y}</text>`;
+  }
+  list.forEach((r, i) => {
+    const y0 = top + i * rowH;
+    const startY = year(r.public.start), clipped = startY < minY;
+    const ps = x(Math.max(startY, minY)), pe = x(year(r.public.end));
+    const fs = x(year(r.private.founded));
+    const title = r.title.length > 34 ? r.title.slice(0, 33) + "…" : r.title;
+    out += `<g class="row" data-id="${r.id}" style="cursor:pointer">`;
+    out += `<rect x="0" y="${y0 - 2}" width="${W}" height="${rowH - 2}" fill="transparent"/>`;
+    out += `<text class="row-label" x="8" y="${y0 + 17}">${esc(title)}</text>`;
+    out += `<text x="${L - 10}" y="${y0 + 17}" text-anchor="end" style="fill:${GRADE_COLOR[r.grade]};font-size:15px">${r.grade}</text>`;
+    out += `<rect x="${ps}" y="${y0 + 3}" width="${Math.max(pe - ps, 3)}" height="8" fill="#4de8ff" opacity="0.85"><title>${esc(r.public.name)}: ${r.public.start.date}–${r.public.end.date} (${r.public.end.kind})</title></rect>`;
+    if (clipped) out += `<text x="${ps + 2}" y="${y0 + 1}" style="fill:#4de8ff;font-size:12px">◂ since ${String(r.public.start.date).slice(0, 4)}</text>`;
+    out += `<rect x="${fs}" y="${y0 + 17}" width="${Math.max(x(2026.8) - fs, 3)}" height="8" fill="#ff4dd8" opacity="0.6"><title>${esc(r.private.name)}: from ${r.private.founded.date}</title></rect>`;
+    out += `<path d="M${pe} ${y0 + 11} C ${pe} ${y0 + 15}, ${fs} ${y0 + 13}, ${fs} ${y0 + 17}" fill="none" stroke="${GRADE_COLOR[r.grade]}" stroke-width="${r.grade === "A" ? 3 : 2}" ${GRADE_DASH[r.grade] ? `stroke-dasharray="${GRADE_DASH[r.grade]}"` : ""}/>`;
+    out += `</g>`;
+  });
+  svg.innerHTML = out;
+}
+
+function renderCases(list) {
+  const box = document.getElementById("cases");
+  if (!DATA.records.length) { box.innerHTML = `<div class="empty">No cases have been approved yet.</div>`; return; }
+  if (!list.length) { box.innerHTML = `<div class="empty">No cases match these filters.</div>`; return; }
+  box.innerHTML = list.map((r) => {
+    const byType = Object.keys(TYPE_LABEL).flatMap((t) => r.links.filter((l) => l.type === t));
+    return `
+    <article class="case" id="${r.id}">
+      <div class="case-head">
+        <h3>${esc(r.title)}</h3>
+        <span><span class="badge g${r.grade}" title="${esc(GRADE_TEXT[r.grade])}">GRADE ${r.grade}</span><span class="badge" style="color:var(--dim)">${esc((PATTERN_TEXT[r.pattern] || r.pattern).toUpperCase())}</span><span class="meta">${esc(r.country)}</span></span>
+      </div>
+      <div class="case-body">
+        <div class="meta g${r.grade}">${esc(GRADE_TEXT[r.grade])}${r.gap ? ` · ${esc(fmtGap(r.gap))}` : ""}</div>
+        <p style="margin:8px 0 0;">${esc(r.summary)}</p>
+        <div class="sides">
+          <div class="side"><div class="lbl">PUBLIC</div><b>${esc(r.public.name)}</b><br><span class="meta">${esc(r.public.funder)}${r.public.budget ? " · " + esc(r.public.budget) : ""} · ${esc(r.public.start.date)}–${esc(r.public.end.date)} · ${esc(r.public.end.kind)}</span>${srcs(r.public.sources)}</div>
+          <div class="side priv"><div class="lbl">PRIVATE</div><b>${esc(r.private.name)}</b><br><span class="meta">from ${esc(r.private.founded.date)}${r.private.founders?.length ? " · founders: " + r.private.founders.map(esc).join(", ") : ""}${r.private.outcome ? " · " + esc(r.private.outcome) : ""}</span>${srcs(r.private.sources)}</div>
+        </div>
+        <div class="meta">EVIDENCE</div>
+        ${byType.length ? `<ul class="ev">${byType.map((l) => `<li><span class="type ${l.type}">${TYPE_LABEL[l.type]}</span><span class="st">${esc(l.status).toUpperCase()}</span>${esc(l.claim)}${srcs(l.sources)}</li>`).join("")}</ul>` : `<p class="meta">No documented links.</p>`}
+        ${r.claims.length ? `<div class="meta" style="margin-top:12px;">CLAIMS EXAMINED</div>${r.claims.map((c) => `<div class="claim"><span class="badge as-${c.assessment}">${ASSESS[c.assessment]}</span>“${esc(c.claim)}”<br>${esc(c.explanation)}${srcs(c.sources)}</div>`).join("")}` : ""}
+      </div>
+    </article>`;
+  }).join("");
+}
+
+function render() {
+  const list = visible();
+  renderTimeline(list);
+  renderCases(list);
+}
+
+document.getElementById("controls").addEventListener("click", (e) => {
+  const b = e.target.closest("button[data-g]");
+  if (!b) return;
+  const g = b.dataset.g;
+  if (filters.grades.has(g)) filters.grades.delete(g); else filters.grades.add(g);
+  b.classList.toggle("on", filters.grades.has(g));
+  render();
+});
+document.getElementById("pattern").addEventListener("change", (e) => { filters.pattern = e.target.value; render(); });
+document.getElementById("country").addEventListener("change", (e) => { filters.country = e.target.value; render(); });
+document.getElementById("q").addEventListener("input", (e) => { filters.q = e.target.value.trim(); render(); });
+document.getElementById("timeline").addEventListener("click", (e) => {
+  const row = e.target.closest(".row");
+  if (row) document.getElementById(row.dataset.id)?.scrollIntoView({ behavior: "smooth" });
+});
+
+fetch("data/handoffs.json").then((r) => (r.ok ? r.json() : { records: [] })).catch(() => ({ records: [] })).then((d) => {
+  DATA = d;
+  renderGrades();
+  render();
+  if (location.hash) setTimeout(() => document.getElementById(location.hash.slice(1))?.scrollIntoView(), 50);
+});
+</script>
+</body>
+</html>

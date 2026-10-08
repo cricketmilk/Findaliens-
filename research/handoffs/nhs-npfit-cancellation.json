@@ -1,0 +1,76 @@
+{
+  "id": "nhs-npfit-cancellation",
+  "title": "NHS National Programme for IT → local procurement from private vendors",
+  "pattern": "outsourced-successor",
+  "country": "United Kingdom",
+  "summary": "The National Programme for IT (NPfIT), launched in 2002, was a centrally run Department of Health programme that the National Audit Office described as an £11.4 billion investment; its local care-records systems were contracted to private suppliers, of which only BT and CSC remained by 2011. In September 2011 the government announced it would dismantle NPfIT as a centralised programme, keep national systems such as the Spine and N3 network, and let local NHS bodies choose their own systems. A 2012 agreement removed CSC's exclusive rights in the North, Midlands and East, leaving trusts to procure care-records systems themselves. Palantir's 2023 NHS England Federated Data Platform contract is sometimes compared to NPfIT by critics, but no official record presents it as NPfIT's successor.",
+  "public": {
+    "name": "National Programme for IT in the NHS (NPfIT)",
+    "funder": "Department of Health (England)",
+    "budget": "NAO (May 2011): an £11.4 billion programme of investment, with some £6.4 billion spent by 31 March 2011",
+    "start": { "date": "2002", "precision": "year" },
+    "end": { "date": "2011-09-22", "precision": "day", "kind": "cancelled" },
+    "sources": [
+      { "url": "https://www.nao.org.uk/wp-content/uploads/2011/05/1012888es.pdf", "publisher": "National Audit Office", "title": "The National Programme for IT in the NHS: an update on the delivery of detailed care records systems (HC 888, summary)", "date": "2011-05-18" },
+      { "url": "https://www.gov.uk/government/news/dismantling-the-nhs-national-programme-for-it", "publisher": "Department of Health", "title": "Dismantling the NHS National Programme for IT", "date": "2011-09-22" },
+      { "url": "https://api.parliament.uk/committees/publications/9880", "publisher": "House of Commons Public Accounts Committee", "title": "19th Report - The dismantled National Programme for IT in the NHS (HC 294, 2013-14)", "date": "2013-09-18" }
+    ]
+  },
+  "private": {
+    "name": "CSC (renegotiated NPfIT care-records contract) and other privately supplied systems procured locally by NHS trusts",
+    "founded": { "date": "2012-09", "precision": "month" },
+    "founders": [],
+    "funders": ["Department of Health", "Local NHS trusts"],
+    "outcome": "The Department of Health's September 2012 agreement with CSC removed CSC's exclusive rights to provide clinical IT systems in the North, Midlands and East of England and gave local hospitals and NHS organisations the power to decide which IT systems they use. National systems such as the Spine, N3 and NHSmail were kept.",
+    "sources": [
+      { "url": "https://www.gov.uk/government/news/it-agreement-to-save-the-taxpayer-over-1-billion", "publisher": "Department of Health", "title": "IT agreement to save the taxpayer over £1 billion", "date": "2012-09-04" },
+      { "url": "https://www.gov.uk/government/news/dismantling-the-nhs-national-programme-for-it", "publisher": "Department of Health", "title": "Dismantling the NHS National Programme for IT", "date": "2011-09-22" }
+    ]
+  },
+  "links": [
+    {
+      "type": "contract",
+      "claim": "NPfIT's local care-records systems were contracted to private suppliers from 2003-04: the NAO reports five 10-year contracts worth some £5 billion to Accenture, BT, CSC and Fujitsu. By 2011 only BT (London and South) and CSC (North, Midlands and East) remained, delivering Cerner Millennium, RiO, iSoft Lorenzo and TPP SystmOne systems.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.nao.org.uk/wp-content/uploads/2011/05/1012888es.pdf", "publisher": "National Audit Office", "title": "The National Programme for IT in the NHS: an update on the delivery of detailed care records systems (HC 888, summary)", "date": "2011-05-18" }
+      ]
+    },
+    {
+      "type": "stated-successor",
+      "claim": "Announcing the dismantling, the Department of Health said central decision-making on behalf of local organisations would end so local NHS bodies could exercise choice, that it would keep working with existing suppliers, and that national infrastructure and applications would be maintained.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.gov.uk/government/news/dismantling-the-nhs-national-programme-for-it", "publisher": "Department of Health", "title": "Dismantling the NHS National Programme for IT", "date": "2011-09-22" }
+      ]
+    },
+    {
+      "type": "contract",
+      "claim": "The Department of Health's 2012 agreement with CSC, which it said would save over £1 billion, removed CSC's exclusive rights to be the only provider of clinical IT systems in the North, Midlands and East, giving local NHS organisations the power to choose their own IT systems.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.gov.uk/government/news/it-agreement-to-save-the-taxpayer-over-1-billion", "publisher": "Department of Health", "title": "IT agreement to save the taxpayer over £1 billion", "date": "2012-09-04" }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Palantir's NHS Federated Data Platform is the successor to the National Programme for IT ('NPfIT mark II').",
+      "assessment": "unsupported",
+      "explanation": "The comparison is made by critics: in 2022 medConfidential's Phil Booth told The Register that if the platform became the backbone of NHS digital transformation it would be 'NPfIT mark II'. NHS England's award notice, which records a contract with Palantir Technologies UK concluded on 22 November 2023 (initial value £182.2m, forecast up to £330m, not committed), describes a cloud data platform owned and controlled by the NHS and does not refer to NPfIT. The award came 12 years after NPfIT was dismantled, and no official record found presents it as NPfIT's successor.",
+      "sources": [
+        { "url": "https://www.theregister.com/2022/06/13/nhs_england_palantir/", "publisher": "The Register", "title": "Concerns that £360m data platform for NHS England is being set up to fail", "date": "2022-06-13" },
+        { "url": "https://www.find-tender.service.gov.uk/Notice/037776-2023", "publisher": "NHS England (Find a Tender)", "title": "Federated Data Platform and Associated Services - contract award notice 2023/S 000-037776", "date": "2023-12-22" }
+      ]
+    },
+    {
+      "claim": "The National Programme for IT delivered nothing of value.",
+      "assessment": "false",
+      "explanation": "The NAO found the detailed care-records part badly delayed, but said the £2 billion of national systems, including a broadband network and X-ray sharing, was almost complete and mostly providing valuable infrastructure. The government's own review listed the Spine, N3, NHSmail, Choose and Book and PACS as substantial achievements, while concluding the programme could not deliver to its original intent.",
+      "sources": [
+        { "url": "https://www.nao.org.uk/wp-content/uploads/2011/05/1012888es.pdf", "publisher": "National Audit Office", "title": "The National Programme for IT in the NHS: an update on the delivery of detailed care records systems (HC 888, summary)", "date": "2011-05-18" },
+        { "url": "https://www.gov.uk/government/news/dismantling-the-nhs-national-programme-for-it", "publisher": "Department of Health", "title": "Dismantling the NHS National Programme for IT", "date": "2011-09-22" }
+      ]
+    }
+  ]
+}

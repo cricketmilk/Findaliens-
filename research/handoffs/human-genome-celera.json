@@ -1,0 +1,182 @@
+{
+  "id": "human-genome-celera",
+  "title": "Human Genome Project vs Celera Genomics",
+  "pattern": "parallel-successor",
+  "country": "United States",
+  "summary": "The publicly funded, international Human Genome Project (1990–2003) was a race with Celera Genomics, not a hand-over. Celera was announced in May 1998 by Perkin-Elmer (PE Corporation), J. Craig Venter and TIGR, with a plan to finish sequencing in three years and sell genomic information by subscription. At a White House event in June 2000 the President credited both efforts. Celera's own congressional testimony says its early assembly combined its data with the public project's freely released sequence, and HGP leaders later argued Celera's published assembly depended on public data; Celera disputed that. Celera ended its database subscription business in 2005 and put its sequence data in the public domain; Quest Diagnostics acquired Celera in 2011. The public project was not ended or handed to Celera.",
+  "public": {
+    "name": "Human Genome Project (International Human Genome Sequencing Consortium)",
+    "funder": "National Institutes of Health (NHGRI) and U.S. Department of Energy, with international partners",
+    "budget": "Initially projected at $3 billion over 15 years; NHGRI says most agree this rough amount is close to the actual cost",
+    "start": {
+      "date": "1990",
+      "precision": "year"
+    },
+    "end": {
+      "date": "2003-04",
+      "precision": "month",
+      "kind": "completed"
+    },
+    "sources": [
+      {
+        "url": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genome-project",
+        "publisher": "National Human Genome Research Institute",
+        "title": "Human Genome Project Fact Sheet",
+        "date": "2024-06-13"
+      },
+      {
+        "url": "https://clintonwhitehouse5.archives.gov/textonly/WH/EOP/OSTP/html/00314.html",
+        "publisher": "The White House (Clinton administration archive)",
+        "title": "Joint Statement by President Clinton and Prime Minister Tony Blair of the U.K.",
+        "date": "2000-03-14"
+      }
+    ]
+  },
+  "private": {
+    "name": "Celera Genomics Corporation (later Celera Corporation)",
+    "founded": {
+      "date": "1998-05",
+      "precision": "month"
+    },
+    "founders": [
+      "J. Craig Venter",
+      "PE Corporation (Perkin-Elmer)",
+      "The Institute for Genomic Research (TIGR), signatory to letters of intent"
+    ],
+    "funders": [
+      "PE Corporation (Perkin-Elmer)"
+    ],
+    "outcome": "Sold genome data by subscription (Celera Discovery System); ended that business and released its human, mouse and rat sequence to the public domain in 2005; refocused on diagnostics; acquired by Quest Diagnostics on May 17, 2011",
+    "sources": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/77551/000007755198000016/0000077551-98-000016.txt",
+        "publisher": "U.S. Securities and Exchange Commission",
+        "title": "Perkin-Elmer Corp. Form 10-K for fiscal year ended June 30, 1998",
+        "date": "1998-09-25"
+      },
+      {
+        "url": "https://legacy.earlham.edu/~peters/fos/2005/07/celera-moves-genome-data-from-fee-to.html",
+        "publisher": "Open Access News (quoting Bio-IT World)",
+        "title": "Celera moves genome data from fee to free",
+        "date": "2005-07-07"
+      },
+      {
+        "url": "https://ir.questdiagnostics.com/press-releases/press-release-details/2011/Quest-Diagnostics-Successfully-Completes-Acquisition-of-Celera/default.aspx",
+        "publisher": "Quest Diagnostics",
+        "title": "Quest Diagnostics Successfully Completes Acquisition of Celera",
+        "date": "2011-05-17"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "timing",
+      "claim": "Perkin-Elmer's 10-K states that on May 9, 1998 it, Venter and TIGR announced letters of intent to form Celera, with a plan to substantially complete the human genome sequence in three years; Venter testified the federal project was then scheduled to finish in 2005. Celera was a competitor launched mid-project, not a successor to an ended program.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/77551/000007755198000016/0000077551-98-000016.txt",
+          "publisher": "U.S. Securities and Exchange Commission",
+          "title": "Perkin-Elmer Corp. Form 10-K for fiscal year ended June 30, 1998",
+          "date": "1998-09-25"
+        },
+        {
+          "url": "https://clintonwhitehouse4.archives.gov/WH/EOP/OSTP/html/00626_4.html",
+          "publisher": "The White House (Clinton administration archive)",
+          "title": "Prepared Statement of J. Craig Venter, Celera Genomics, before the House Science Subcommittee on Energy and Environment",
+          "date": "2000-04-06"
+        }
+      ]
+    },
+    {
+      "type": "personnel",
+      "claim": "Celera's founder J. Craig Venter was a government scientist at NIH's National Institute of Neurological Disorders and Stroke until 1992, when he left to found TIGR. No source reviewed shows him moving from the Human Genome Project's sequencing consortium itself.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.gairdner.org/winner/j-craig-venter",
+          "publisher": "Gairdner Foundation",
+          "title": "J. Craig Venter"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Celera privatized the human genome.",
+      "assessment": "false",
+      "explanation": "The public project continued to completion in 2003 and released its data openly; the U.S. and U.K. heads of government publicly backed free access to raw sequence in March 2000. Celera sold access to its own data by subscription and sought database protection, but it never controlled the public sequence, and in 2005 it released its own human, mouse and rat data to the public domain.",
+      "sources": [
+        {
+          "url": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genome-project",
+          "publisher": "National Human Genome Research Institute",
+          "title": "Human Genome Project Fact Sheet",
+          "date": "2024-06-13"
+        },
+        {
+          "url": "https://clintonwhitehouse5.archives.gov/textonly/WH/EOP/OSTP/html/00314.html",
+          "publisher": "The White House (Clinton administration archive)",
+          "title": "Joint Statement by President Clinton and Prime Minister Tony Blair of the U.K.",
+          "date": "2000-03-14"
+        },
+        {
+          "url": "https://legacy.earlham.edu/~peters/fos/2005/07/celera-moves-genome-data-from-fee-to.html",
+          "publisher": "Open Access News (quoting Bio-IT World)",
+          "title": "Celera moves genome data from fee to free",
+          "date": "2005-07-07"
+        }
+      ]
+    },
+    {
+      "claim": "Celera tried to patent the human genome.",
+      "assessment": "partly-true",
+      "explanation": "Venter told Congress in 2000 that Celera was not trying to patent the genome, any chromosome or random sequence, but he confirmed the company had filed 6,500 provisional patent applications and planned to develop 100–300 medically important genes as therapeutic targets to license, with preference to subscribers.",
+      "sources": [
+        {
+          "url": "https://clintonwhitehouse4.archives.gov/WH/EOP/OSTP/html/00626_4.html",
+          "publisher": "The White House (Clinton administration archive)",
+          "title": "Prepared Statement of J. Craig Venter, Celera Genomics, before the House Science Subcommittee on Energy and Environment",
+          "date": "2000-04-06"
+        }
+      ]
+    },
+    {
+      "claim": "Celera sequenced the human genome independently of the public project.",
+      "assessment": "false",
+      "explanation": "Venter's own testimony says Celera's January 2000 coverage figure came from its data 'combined with all of the finished and draft human genome sequence data from the public databases.' A 2002 PNAS analysis by HGP leaders concluded Celera's published assembly incorporated the HGP's assembled sequence and maps and was not an independent sequence. Celera scientists, including Venter, published a reply in PNAS two weeks later defending their assembly.",
+      "sources": [
+        {
+          "url": "https://clintonwhitehouse4.archives.gov/WH/EOP/OSTP/html/00626_4.html",
+          "publisher": "The White House (Clinton administration archive)",
+          "title": "Prepared Statement of J. Craig Venter, Celera Genomics, before the House Science Subcommittee on Energy and Environment",
+          "date": "2000-04-06"
+        },
+        {
+          "url": "https://europepmc.org/article/MED/11880605",
+          "publisher": "Proceedings of the National Academy of Sciences (via Europe PMC)",
+          "title": "On the sequencing of the human genome",
+          "date": "2002-03-05"
+        },
+        {
+          "url": "https://europepmc.org/article/MED/11904395",
+          "publisher": "Proceedings of the National Academy of Sciences (via Europe PMC)",
+          "title": "On the sequencing and assembly of the human genome",
+          "date": "2002-03-19"
+        }
+      ]
+    },
+    {
+      "claim": "The race ended with the public and private efforts announcing together.",
+      "assessment": "true",
+      "explanation": "At the White House on June 26, 2000, President Clinton credited both Francis Collins and Celera's Craig Venter, and said public and private teams had committed to publish their genomic data simultaneously later that year.",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/PPP-2000-book1/html/PPP-2000-book1-doc-pg1267.htm",
+          "publisher": "U.S. Government Publishing Office",
+          "title": "Public Papers of the Presidents: William J. Clinton (2000, Book I), remarks on the completion of the first survey of the human genome",
+          "date": "2000-06-26"
+        }
+      ]
+    }
+  ]
+}

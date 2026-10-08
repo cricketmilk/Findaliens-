@@ -1,0 +1,760 @@
+{
+  "note": "Canonical names and aliases for entities that appear in prose across the site. Aliases match case-sensitively as whole words, so only add aliases that are unambiguous on this site. Run node research/extract-entities.mjs after editing.",
+  "entities": [
+    {
+      "name": "Peter Thiel",
+      "type": "person",
+      "aliases": [
+        "Thiel"
+      ]
+    },
+    {
+      "name": "Elon Musk",
+      "type": "person",
+      "aliases": [
+        "Musk"
+      ]
+    },
+    {
+      "name": "Sam Altman",
+      "type": "person",
+      "aliases": [
+        "Altman"
+      ]
+    },
+    {
+      "name": "Marc Andreessen",
+      "type": "person",
+      "aliases": []
+    },
+    {
+      "name": "Jeff Bezos",
+      "type": "person",
+      "aliases": [
+        "Bezos"
+      ]
+    },
+    {
+      "name": "Larry Page",
+      "type": "person",
+      "aliases": []
+    },
+    {
+      "name": "Yuri Milner",
+      "type": "person",
+      "aliases": [
+        "Milner"
+      ]
+    },
+    {
+      "name": "Bryan Johnson",
+      "type": "person",
+      "aliases": []
+    },
+    {
+      "name": "Sam Bankman-Fried",
+      "type": "person",
+      "aliases": [
+        "Bankman-Fried"
+      ]
+    },
+    {
+      "name": "Curtis Yarvin",
+      "type": "person",
+      "aliases": [
+        "Yarvin",
+        "Mencius Moldbug",
+        "Moldbug"
+      ]
+    },
+    {
+      "name": "JD Vance",
+      "type": "person",
+      "aliases": [
+        "Vance"
+      ]
+    },
+    {
+      "name": "Charles Koch",
+      "type": "person",
+      "aliases": []
+    },
+    {
+      "name": "David Koch",
+      "type": "person",
+      "aliases": []
+    },
+    {
+      "name": "Larry Fink",
+      "type": "person",
+      "aliases": [
+        "Fink"
+      ]
+    },
+    {
+      "name": "Henry Paulson",
+      "type": "person",
+      "aliases": [
+        "Hank Paulson"
+      ]
+    },
+    {
+      "name": "Dick Cheney",
+      "type": "person",
+      "aliases": [
+        "Cheney"
+      ]
+    },
+    {
+      "name": "Lee Raymond",
+      "type": "person",
+      "aliases": []
+    },
+    {
+      "name": "Frank Luntz",
+      "type": "person",
+      "aliases": [
+        "Luntz"
+      ]
+    },
+    {
+      "name": "Jeffrey Epstein",
+      "type": "person",
+      "aliases": [
+        "Epstein"
+      ]
+    },
+    {
+      "name": "Nick Bostrom",
+      "type": "person",
+      "aliases": [
+        "Bostrom"
+      ]
+    },
+    {
+      "name": "Ray Kurzweil",
+      "type": "person",
+      "aliases": [
+        "Kurzweil"
+      ]
+    },
+    {
+      "name": "Julian Huxley",
+      "type": "person",
+      "aliases": []
+    },
+    {
+      "name": "Robin Hanson",
+      "type": "person",
+      "aliases": [
+        "Hanson"
+      ]
+    },
+    {
+      "name": "Eliezer Yudkowsky",
+      "type": "person",
+      "aliases": [
+        "Yudkowsky"
+      ]
+    },
+    {
+      "name": "Edward Bernays",
+      "type": "person",
+      "aliases": [
+        "Bernays"
+      ]
+    },
+    {
+      "name": "Smedley Butler",
+      "type": "person",
+      "aliases": []
+    },
+    {
+      "name": "Lewis Powell",
+      "type": "person",
+      "aliases": [
+        "Powell Memo"
+      ]
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "type": "person",
+      "aliases": [
+        "Zuckerberg"
+      ]
+    },
+    {
+      "name": "Greg Brockman",
+      "type": "person",
+      "aliases": [
+        "Brockman"
+      ]
+    },
+    {
+      "name": "Changpeng Zhao",
+      "type": "person",
+      "aliases": []
+    },
+    {
+      "name": "Donald Trump",
+      "type": "person",
+      "aliases": [
+        "Trump"
+      ]
+    },
+    {
+      "name": "George W. Bush",
+      "type": "person",
+      "aliases": []
+    },
+    {
+      "name": "Ken Griffin",
+      "type": "person",
+      "aliases": []
+    },
+    {
+      "name": "ExxonMobil",
+      "type": "company",
+      "aliases": [
+        "Exxon",
+        "Mobil",
+        "Humble Oil"
+      ]
+    },
+    {
+      "name": "Shell",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "name": "BP",
+      "type": "company",
+      "aliases": [
+        "Anglo-Iranian Oil Company"
+      ]
+    },
+    {
+      "name": "Chevron",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "name": "TotalEnergies",
+      "type": "company",
+      "aliases": [
+        "Total’s",
+        "Total's",
+        "Total Information"
+      ]
+    },
+    {
+      "name": "American Petroleum Institute",
+      "type": "trade group",
+      "aliases": [
+        "API"
+      ]
+    },
+    {
+      "name": "Koch network",
+      "type": "network",
+      "aliases": [
+        "Koch Industries",
+        "Americans for Prosperity",
+        "Koch-affiliated foundations",
+        "Koch foundations"
+      ]
+    },
+    {
+      "name": "US Chamber of Commerce",
+      "type": "trade group",
+      "aliases": [
+        "Chamber of Commerce",
+        "US Chamber"
+      ]
+    },
+    {
+      "name": "National Association of Manufacturers",
+      "type": "trade group",
+      "aliases": []
+    },
+    {
+      "name": "Edison Electric Institute",
+      "type": "trade group",
+      "aliases": []
+    },
+    {
+      "name": "ALEC",
+      "type": "trade group",
+      "aliases": []
+    },
+    {
+      "name": "Heritage Foundation",
+      "type": "think tank",
+      "aliases": [
+        "Project 2025"
+      ]
+    },
+    {
+      "name": "Donors Trust",
+      "type": "fund",
+      "aliases": [
+        "Donors Capital Fund"
+      ]
+    },
+    {
+      "name": "Global Climate Coalition",
+      "type": "trade group",
+      "aliases": []
+    },
+    {
+      "name": "Andreessen Horowitz",
+      "type": "fund",
+      "aliases": [
+        "a16z"
+      ]
+    },
+    {
+      "name": "Founders Fund",
+      "type": "fund",
+      "aliases": []
+    },
+    {
+      "name": "Sequoia Capital",
+      "type": "fund",
+      "aliases": [
+        "Sequoia"
+      ]
+    },
+    {
+      "name": "SoftBank",
+      "type": "company",
+      "aliases": [
+        "Vision Fund"
+      ]
+    },
+    {
+      "name": "Saudi Public Investment Fund",
+      "type": "sovereign fund",
+      "aliases": [
+        "PIF",
+        "Public Investment Fund"
+      ]
+    },
+    {
+      "name": "Mubadala",
+      "type": "sovereign fund",
+      "aliases": []
+    },
+    {
+      "name": "MGX",
+      "type": "sovereign fund",
+      "aliases": []
+    },
+    {
+      "name": "Temasek",
+      "type": "sovereign fund",
+      "aliases": []
+    },
+    {
+      "name": "In-Q-Tel",
+      "type": "fund",
+      "aliases": []
+    },
+    {
+      "name": "CalPERS",
+      "type": "pension fund",
+      "aliases": []
+    },
+    {
+      "name": "Ontario Teachers' Pension Plan",
+      "type": "pension fund",
+      "aliases": [
+        "Ontario Teachers’ Pension Plan"
+      ]
+    },
+    {
+      "name": "Blue Owl",
+      "type": "fund",
+      "aliases": []
+    },
+    {
+      "name": "Palantir",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "name": "Anduril",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "name": "OpenAI",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "name": "Anthropic",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "name": "xAI",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "name": "SpaceX",
+      "type": "company",
+      "aliases": [
+        "Starlink"
+      ]
+    },
+    {
+      "name": "Neuralink",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "name": "Google",
+      "type": "company",
+      "aliases": [
+        "Alphabet",
+        "Calico",
+        "Google DeepMind"
+      ]
+    },
+    {
+      "name": "Meta",
+      "type": "company",
+      "aliases": [
+        "Facebook"
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "name": "Amazon",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "name": "Nvidia",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "name": "Tesla",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "name": "Uber",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "name": "WeWork",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "name": "Clearview AI",
+      "type": "company",
+      "aliases": [
+        "Clearview"
+      ]
+    },
+    {
+      "name": "Flock Safety",
+      "type": "company",
+      "aliases": [
+        "Flock"
+      ]
+    },
+    {
+      "name": "Urbit",
+      "type": "project",
+      "aliases": [
+        "Tlon",
+        "Urbit Foundation"
+      ]
+    },
+    {
+      "name": "Próspera",
+      "type": "project",
+      "aliases": [
+        "Prospera",
+        "Pronomos Capital"
+      ]
+    },
+    {
+      "name": "Theranos",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "name": "Enron",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "name": "JPMorgan Chase",
+      "type": "bank",
+      "aliases": [
+        "JPMorgan"
+      ]
+    },
+    {
+      "name": "Goldman Sachs",
+      "type": "bank",
+      "aliases": []
+    },
+    {
+      "name": "BlackRock",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "name": "Morgan Stanley",
+      "type": "bank",
+      "aliases": []
+    },
+    {
+      "name": "Citigroup",
+      "type": "bank",
+      "aliases": [
+        "Citi"
+      ]
+    },
+    {
+      "name": "Deutsche Bank",
+      "type": "bank",
+      "aliases": []
+    },
+    {
+      "name": "Credit Suisse",
+      "type": "bank",
+      "aliases": []
+    },
+    {
+      "name": "Bear Stearns",
+      "type": "bank",
+      "aliases": []
+    },
+    {
+      "name": "Silicon Valley Bank",
+      "type": "bank",
+      "aliases": [
+        "SVB"
+      ]
+    },
+    {
+      "name": "Halliburton",
+      "type": "company",
+      "aliases": [
+        "KBR"
+      ]
+    },
+    {
+      "name": "FTX",
+      "type": "company",
+      "aliases": [
+        "Alameda Research",
+        "FTX Future Fund"
+      ]
+    },
+    {
+      "name": "Binance",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "name": "Tether",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "name": "Coinbase",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "name": "Ripple",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "name": "Fairshake",
+      "type": "super PAC",
+      "aliases": [
+        "Fairshake PAC"
+      ]
+    },
+    {
+      "name": "Verra",
+      "type": "nonprofit",
+      "aliases": []
+    },
+    {
+      "name": "Hill & Knowlton",
+      "type": "PR firm",
+      "aliases": []
+    },
+    {
+      "name": "Burson-Marsteller",
+      "type": "PR firm",
+      "aliases": []
+    },
+    {
+      "name": "Philip Morris",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "name": "United Fruit",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "name": "Sinclair Broadcast Group",
+      "type": "company",
+      "aliases": [
+        "Sinclair"
+      ]
+    },
+    {
+      "name": "Cambridge Analytica",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "name": "Internet Research Agency",
+      "type": "agency",
+      "aliases": []
+    },
+    {
+      "name": "CIA",
+      "type": "government",
+      "aliases": []
+    },
+    {
+      "name": "NSA",
+      "type": "government",
+      "aliases": []
+    },
+    {
+      "name": "NOAA",
+      "type": "government",
+      "aliases": []
+    },
+    {
+      "name": "EPA",
+      "type": "government",
+      "aliases": []
+    },
+    {
+      "name": "SEC",
+      "type": "government",
+      "aliases": []
+    },
+    {
+      "name": "FTC",
+      "type": "government",
+      "aliases": []
+    },
+    {
+      "name": "Pentagon",
+      "type": "government",
+      "aliases": [
+        "Department of Defense",
+        "DARPA"
+      ]
+    },
+    {
+      "name": "IMF",
+      "type": "international",
+      "aliases": []
+    },
+    {
+      "name": "Stanford Research Institute",
+      "type": "research institute",
+      "aliases": [
+        "SRI"
+      ]
+    },
+    {
+      "name": "US Department of Justice",
+      "type": "government",
+      "aliases": [
+        "Justice Department"
+      ]
+    },
+    {
+      "name": "Reid Hoffman",
+      "type": "person",
+      "aliases": [
+        "Hoffman"
+      ]
+    },
+    {
+      "name": "Max Levchin",
+      "type": "person",
+      "aliases": [
+        "Levchin"
+      ]
+    },
+    {
+      "name": "Luke Nosek",
+      "type": "person",
+      "aliases": [
+        "Nosek"
+      ]
+    },
+    {
+      "name": "Ken Howery",
+      "type": "person",
+      "aliases": [
+        "Howery"
+      ]
+    },
+    {
+      "name": "David Sacks",
+      "type": "person",
+      "aliases": [
+        "Sacks"
+      ]
+    },
+    {
+      "name": "Keith Rabois",
+      "type": "person",
+      "aliases": [
+        "Rabois"
+      ]
+    },
+    {
+      "name": "Roelof Botha",
+      "type": "person",
+      "aliases": [
+        "Botha"
+      ]
+    },
+    {
+      "name": "PayPal",
+      "type": "company",
+      "aliases": [
+        "Confinity",
+        "X.com"
+      ]
+    },
+    {
+      "name": "Michael Moritz",
+      "type": "person",
+      "aliases": [
+        "Moritz"
+      ]
+    }
+  ]
+}

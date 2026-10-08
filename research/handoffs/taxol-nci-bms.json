@@ -1,0 +1,83 @@
+{
+  "id": "taxol-nci-bms",
+  "title": "NCI paclitaxel research → Bristol-Myers Squibb's Taxol",
+  "pattern": "outsourced-successor",
+  "country": "United States",
+  "summary": "Paclitaxel was found through the National Cancer Institute's plant-screening program: Research Triangle Institute researchers reported Pacific yew bark activity in 1963 and isolated the compound in 1971, and NCI ran most of its clinical development from 1983. In 1989 NCI publicly invited companies to compete to develop it; Bristol-Myers Squibb was selected and signed a cooperative research and development agreement (CRADA) in January 1991. GAO found five of the six studies BMS submitted for FDA's 1992 approval were conducted or funded by NIH. NIH held no patent on paclitaxel itself; BMS sold over $9 billion of Taxol in 1993–2002 and paid NIH royalties of 0.5% under a 1996 license on three NIH inventions. GAO and Senator Ron Wyden questioned whether NIH secured fair pricing and return.",
+  "public": {
+    "name": "National Cancer Institute paclitaxel discovery and clinical development (Natural Products Program and NCI-sponsored trials)",
+    "funder": "National Institutes of Health (National Cancer Institute)",
+    "budget": "NIH estimates $183 million on paclitaxel-related research 1977–1997 and $484 million 1977–2002 (GAO)",
+    "start": { "date": "1963", "precision": "year" },
+    "end": { "date": "1997-12", "precision": "month", "kind": "transferred" },
+    "sources": [
+      { "url": "https://www.govinfo.gov/content/pkg/GAOREPORTS-GAO-03-829/html/GAOREPORTS-GAO-03-829.htm", "publisher": "U.S. General Accounting Office", "title": "Technology Transfer: NIH-Private Sector Partnership in the Development of Taxol (GAO-03-829)", "date": "2003-06-04" }
+    ]
+  },
+  "private": {
+    "name": "Bristol-Myers Squibb Company",
+    "founded": { "date": "1989-07", "precision": "month" },
+    "founders": ["Merger of Bristol-Myers Company and Squibb Corporation (agreed July 28, 1989)"],
+    "funders": [],
+    "outcome": "Obtained FDA approval for Taxol in December 1992 and launched it in January 1993 with 5 years of marketing exclusivity; worldwide Taxol sales exceeded $9 billion from 1993 through 2002",
+    "sources": [
+      { "url": "https://pmlive.com/pharma_news/this_month_in_1989_the_creation_of_bristol-myers_squibb_589307/", "publisher": "PMLive", "title": "This month in 1989: the creation of Bristol-Myers Squibb", "date": "2014-07-29" },
+      { "url": "https://www.govinfo.gov/content/pkg/GAOREPORTS-GAO-03-829/html/GAOREPORTS-GAO-03-829.htm", "publisher": "U.S. General Accounting Office", "title": "Technology Transfer: NIH-Private Sector Partnership in the Development of Taxol (GAO-03-829)", "date": "2003-06-04" }
+    ]
+  },
+  "links": [
+    {
+      "type": "contract",
+      "claim": "After a 1989 Federal Register announcement inviting companies to compete for the right to develop paclitaxel (four applied), NCI signed a CRADA with Bristol-Myers Squibb in January 1991, later extended through December 1997. GAO reports NIH transferred its research results to BMS for its FDA application, and BMS supplied paclitaxel for NIH trials.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.govinfo.gov/content/pkg/GAOREPORTS-GAO-03-829/html/GAOREPORTS-GAO-03-829.htm", "publisher": "U.S. General Accounting Office", "title": "Technology Transfer: NIH-Private Sector Partnership in the Development of Taxol (GAO-03-829)", "date": "2003-06-04" },
+        { "url": "https://www.webharvest.gov/congress109th/20061114013859/http:/wyden.senate.gov/media/2003/06062003_taxol.html", "publisher": "Office of Senator Ron Wyden", "title": "Wyden Says NIH Failed to Secure Affordability, Fairness for Consumers on Taxpayer-Funded Cancer Drug", "date": "2003-06-06" }
+      ]
+    },
+    {
+      "type": "ip-license",
+      "claim": "In 1996 NIH licensed BMS exclusive rights to three NCI inventions arising from the CRADA (methods for administering paclitaxel and treating side effects) for royalties of 0.5% of worldwide Taxol sales; NIH received $35 million in royalties through 2002. BMS told GAO the inventions were not used in its FDA applications.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.govinfo.gov/content/pkg/GAOREPORTS-GAO-03-829/html/GAOREPORTS-GAO-03-829.htm", "publisher": "U.S. General Accounting Office", "title": "Technology Transfer: NIH-Private Sector Partnership in the Development of Taxol (GAO-03-829)", "date": "2003-06-04" },
+        { "url": "https://www.webharvest.gov/congress109th/20061114013859/http:/wyden.senate.gov/media/2003/06062003_taxol.html", "publisher": "Office of Senator Ron Wyden", "title": "Wyden Says NIH Failed to Secure Affordability, Fairness for Consumers on Taxpayer-Funded Cancer Drug", "date": "2003-06-06" }
+      ]
+    },
+    {
+      "type": "ip-license",
+      "claim": "An NIH grant to Florida State University led to a patented semisynthesis process for producing paclitaxel, which FSU licensed to BMS in 1990 and which FDA later approved for Taxol production.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.govinfo.gov/content/pkg/GAOREPORTS-GAO-03-829/html/GAOREPORTS-GAO-03-829.htm", "publisher": "U.S. General Accounting Office", "title": "Technology Transfer: NIH-Private Sector Partnership in the Development of Taxol (GAO-03-829)", "date": "2003-06-04" }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Taxol was developed with taxpayer money and then handed to a drug company.",
+      "assessment": "true",
+      "explanation": "GAO describes paclitaxel as developed primarily through NIH-funded research and then transferred to BMS, which commercialized it. Five of the six studies BMS submitted for FDA approval were conducted or funded by NIH. BMS told GAO it spent over $1 billion developing Taxol after signing the CRADA.",
+      "sources": [
+        { "url": "https://www.govinfo.gov/content/pkg/GAOREPORTS-GAO-03-829/html/GAOREPORTS-GAO-03-829.htm", "publisher": "U.S. General Accounting Office", "title": "Technology Transfer: NIH-Private Sector Partnership in the Development of Taxol (GAO-03-829)", "date": "2003-06-04" }
+      ]
+    },
+    {
+      "claim": "NIH patented Taxol and licensed the patent to Bristol-Myers Squibb.",
+      "assessment": "false",
+      "explanation": "GAO states NIH did not have a patent on paclitaxel and so could not offer an exclusive patent license. BMS's market protection came from 5 years of statutory exclusivity for a new chemical entity. NIH later licensed BMS three patented NCI inventions on administration and side effects, which BMS said it did not use in FDA filings.",
+      "sources": [
+        { "url": "https://www.govinfo.gov/content/pkg/GAOREPORTS-GAO-03-829/html/GAOREPORTS-GAO-03-829.htm", "publisher": "U.S. General Accounting Office", "title": "Technology Transfer: NIH-Private Sector Partnership in the Development of Taxol (GAO-03-829)", "date": "2003-06-04" }
+      ]
+    },
+    {
+      "claim": "The public got little financial return, and paid again through Medicare.",
+      "assessment": "partly-true",
+      "explanation": "GAO found NIH's financial benefits 'have not been great' relative to BMS's revenue: $35 million in royalties through 2002 against over $9 billion in sales, and Medicare paid $687 million for Taxol in 1994–1999. The CRADA noted NIH's concern about fair pricing but did not require evidence of it. NIH told GAO it concluded Taxol was fairly priced; GAO could not evaluate that judgment. Benefits beyond money, such as patient access, are outside these figures.",
+      "sources": [
+        { "url": "https://www.govinfo.gov/content/pkg/GAOREPORTS-GAO-03-829/html/GAOREPORTS-GAO-03-829.htm", "publisher": "U.S. General Accounting Office", "title": "Technology Transfer: NIH-Private Sector Partnership in the Development of Taxol (GAO-03-829)", "date": "2003-06-04" },
+        { "url": "https://www.webharvest.gov/congress109th/20061114013859/http:/wyden.senate.gov/media/2003/06062003_taxol.html", "publisher": "Office of Senator Ron Wyden", "title": "Wyden Says NIH Failed to Secure Affordability, Fairness for Consumers on Taxpayer-Funded Cancer Drug", "date": "2003-06-06" }
+      ]
+    }
+  ]
+}

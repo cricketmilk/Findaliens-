@@ -1,0 +1,74 @@
+{
+  "id": "royal-mail-privatisation",
+  "title": "Royal Mail → Royal Mail plc (stock market flotation, 2013–2015)",
+  "pattern": "privatization",
+  "country": "United Kingdom",
+  "summary": "The Postal Services Act 2000 vested the Post Office's business in a government-nominated company, and the Postal Services Act 2011 removed the restrictions on its ownership. In October 2013 the Department for Business, Innovation and Skills sold 60% of Royal Mail plc at 330p a share for £1,980 million, after the government had taken over Royal Mail's historic pension liabilities in April 2012. The National Audit Office found that a cautious approach left the shares priced substantially below the level at which they began trading. The government sold its remaining shares in later sales, the last 13% on 13 October 2015, gifting the remaining 1% to employees; total proceeds were £3.3 billion.",
+  "public": {
+    "name": "Royal Mail (state-owned postal company, Royal Mail Holdings plc)",
+    "funder": "HM Government (Department for Business, Innovation and Skills / Shareholder Executive)",
+    "start": { "date": "2000-07-28", "precision": "day" },
+    "end": { "date": "2015-10-13", "precision": "day", "kind": "privatized" },
+    "sources": [
+      { "url": "https://www.legislation.gov.uk/ukpga/2000/26/introduction/enacted", "publisher": "legislation.gov.uk", "title": "Postal Services Act 2000 (c. 26), introduction as enacted", "date": "2000-07-28" },
+      { "url": "https://www.gov.uk/government/news/government-completes-final-sale-of-its-stake-in-royal-mail-at-455p-per-share", "publisher": "GOV.UK (Department for Business, Innovation & Skills)", "title": "Government completes final sale of its stake in Royal Mail at 455p per share", "date": "2015-10-13" }
+    ]
+  },
+  "private": {
+    "name": "Royal Mail plc (private and employee shareholders)",
+    "founded": { "date": "2013-10-11", "precision": "day" },
+    "founders": [],
+    "funders": [],
+    "outcome": "Conditional trading began on 11 October 2013; the shares closed the first day at 455p, 38% above the 330p sale price, and traded between 455p and 615p over the next five months. The NAO calculated that the first-day rise on the 60% stake sold, about £750 million, flowed to the new shareholders, and that almost half the shares allocated to favoured 'priority investors' had been sold within a few weeks. Employees received 10% of the shares in 2013. The government sold its remaining 13% at 455p for £591.1 million in October 2015, bringing proceeds from all its sales to £3.3 billion.",
+    "sources": [
+      { "url": "https://www.nao.org.uk/wp-content/uploads/2014/04/The-privatisation-of-royal-mail.pdf", "publisher": "National Audit Office", "title": "The Privatisation of Royal Mail (HC 1182, Session 2013-14)", "date": "2014-04-01" },
+      { "url": "https://www.gov.uk/government/news/government-completes-final-sale-of-its-stake-in-royal-mail-at-455p-per-share", "publisher": "GOV.UK (Department for Business, Innovation & Skills)", "title": "Government completes final sale of its stake in Royal Mail at 455p per share", "date": "2015-10-13" }
+    ]
+  },
+  "links": [
+    {
+      "type": "asset-transfer",
+      "claim": "The Postal Services Act 2011, which received Royal Assent on 13 June 2011, provides for the restructuring of the Royal Mail group and, in section 1, repeals sections 65 to 67 of the Postal Services Act 2000 that had restricted ownership of Royal Mail Holdings plc.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.legislation.gov.uk/ukpga/2011/5/introduction/enacted", "publisher": "legislation.gov.uk", "title": "Postal Services Act 2011 (c. 5), introduction as enacted", "date": "2011-06-13" },
+        { "url": "https://www.legislation.gov.uk/ukpga/2011/5/section/1/enacted", "publisher": "legislation.gov.uk", "title": "Postal Services Act 2011, section 1: Removal of restrictions on ownership of Royal Mail Holdings plc etc" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "The NAO records that in October 2013 the Shareholder Executive, part of the Department for Business, Innovation and Skills, sold 60% of the government's shares in Royal Mail plc to private investors at 330p each, generating £1,980 million.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.nao.org.uk/wp-content/uploads/2014/04/The-privatisation-of-royal-mail.pdf", "publisher": "National Audit Office", "title": "The Privatisation of Royal Mail (HC 1182, Session 2013-14)", "date": "2014-04-01" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "On 13 October 2015 the government sold its last 13% stake at 455p a share, raising £591.1 million, and said the remaining 1% would be gifted to eligible UK employees; proceeds from all its Royal Mail share sales totalled £3.3 billion.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.gov.uk/government/news/government-completes-final-sale-of-its-stake-in-royal-mail-at-455p-per-share", "publisher": "GOV.UK (Department for Business, Innovation & Skills)", "title": "Government completes final sale of its stake in Royal Mail at 455p per share", "date": "2015-10-13" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "Before the sale, Royal Mail's historic pension liabilities were transferred to the government in April 2012: £37.4 billion of liabilities and £28.8 billion of assets, a deficit of £8.6 billion, after EU State Aid approval. The NAO says the deficit had left the company technically insolvent and unable to be privatised.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.nao.org.uk/wp-content/uploads/2014/04/The-privatisation-of-royal-mail.pdf", "publisher": "National Audit Office", "title": "The Privatisation of Royal Mail (HC 1182, Session 2013-14)", "date": "2014-04-01" }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "The government sold Royal Mail too cheaply.",
+      "assessment": "partly-true",
+      "explanation": "The NAO concluded that the Department's cautious approach resulted in shares priced substantially below the level at which they started trading, and that the £750 million first-day rise on the stake sold went to new shareholders. It also found the Department achieved its key objectives. The government said achieving the highest possible price at any cost was never the aim, and that keeping a 30% stake let taxpayers share in later gains.",
+      "sources": [
+        { "url": "https://www.nao.org.uk/wp-content/uploads/2014/04/The-privatisation-of-royal-mail.pdf", "publisher": "National Audit Office", "title": "The Privatisation of Royal Mail (HC 1182, Session 2013-14)", "date": "2014-04-01" },
+        { "url": "https://www.gov.uk/government/news/government-responds-to-national-audit-office-report-the-privatisation-of-royal-mail", "publisher": "GOV.UK (Department for Business, Innovation & Skills)", "title": "Government responds to National Audit Office report: 'The Privatisation of Royal Mail'", "date": "2014-04-01" }
+      ]
+    }
+  ]
+}

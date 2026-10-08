@@ -1,0 +1,66 @@
+{
+  "id": "darpa-lifelog-facebook",
+  "title": "DARPA LifeLog → Facebook (claimed)",
+  "pattern": "claimed-successor",
+  "country": "United States",
+  "summary": "LifeLog was a DARPA research effort, solicited in 2003, to capture and index the flow of one person's life (email, calls, web browsing, location, sensors). Wired News reported on Feb 4, 2004 that DARPA had dropped it 'late last month', citing only 'a change in priorities'. Thefacebook.com, built by Harvard student Mark Zuckerberg, launched on Wednesday Feb 4, 2004, the same day the cancellation was reported. No record found ties the two: no transfer of code, staff, contracts or funding from LifeLog to Facebook is documented; the link rests on timing and on the two being similar in concept.",
+  "public": {
+    "name": "LifeLog (DARPA Information Processing Technology Office)",
+    "funder": "DARPA",
+    "start": { "date": "2003", "precision": "year" },
+    "end": { "date": "2004-01", "precision": "month", "kind": "cancelled" },
+    "sources": [
+      { "url": "https://reason.com/2003/05/23/my-lifelog-and-yours/printer/", "publisher": "Reason", "title": "My LifeLog, and Yours", "date": "2003-05-23" },
+      { "url": "https://www.wired.com/2004/02/pentagon-kills-lifelog-project/", "publisher": "Wired News", "title": "Pentagon Kills LifeLog Project", "date": "2004-02-04" },
+      { "url": "https://www.military.com/defensetech/2004/02/04/lifelog-dead", "publisher": "Defense Tech (Military.com)", "title": "LIFELOG DEAD", "date": "2004-02-04" },
+      { "url": "https://www.csoonline.com/article/513833/data-protection-pentagon-kills-lifelog-project-questions-raised-on-earlier-ricin-case-rfid-privacy.html", "publisher": "CSO Online", "title": "Pentagon Kills LifeLog Project; Questions Raised on Earlier Ricin Case; RFID Privacy Law Debated in California; Pakistani Scientist Pardoned for Leaking Nuclear Technology", "date": "2004-02-05" },
+      { "url": "https://www.vice.com/en/article/15-years-ago-the-military-tried-to-record-whole-human-lives-it-ended-badly/", "publisher": "Vice", "title": "15 Years Ago, the Military Tried to Record Whole Human Lives. It Ended Badly", "date": "2018-05-21" }
+    ]
+  },
+  "private": {
+    "name": "Facebook (thefacebook.com)",
+    "founded": { "date": "2004-02-04", "precision": "day" },
+    "founders": ["Mark Zuckerberg", "Eduardo Saverin"],
+    "funders": ["Peter Thiel (early angel investor)", "Accel Partners (May 2005)"],
+    "outcome": "Launched at Harvard in February 2004; incorporated in Delaware in July 2004; became Meta Platforms. No DARPA funding, contract or license is documented.",
+    "sources": [
+      { "url": "https://www.thecrimson.com/article/2004/2/9/hundreds-register-for-new-facebook-website/", "publisher": "The Harvard Crimson", "title": "Hundreds Register for New Facebook Website", "date": "2004-02-09" },
+      { "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312512034517/d287954ds1.htm", "publisher": "U.S. Securities and Exchange Commission (Facebook, Inc. Form S-1)", "title": "Facebook, Inc. Form S-1 Registration Statement", "date": "2012-02-01" },
+      { "url": "https://www.cnbc.com/id/47387334", "publisher": "CNBC", "title": "Jim Breyer (via Accel Partners)" },
+      { "url": "https://www.vice.com/en/article/15-years-ago-the-military-tried-to-record-whole-human-lives-it-ended-badly/", "publisher": "Vice", "title": "15 Years Ago, the Military Tried to Record Whole Human Lives. It Ended Badly", "date": "2018-05-21" }
+    ]
+  },
+  "links": [
+    {
+      "type": "timing",
+      "claim": "Wired News reported on Feb 4, 2004 that DARPA dropped LifeLog 'late last month' (January 2004); thefacebook.com launched the same Wednesday, Feb 4, 2004. The cancellation therefore preceded Facebook's launch by days to weeks, and the two only share the date of the news report.",
+      "status": "reported",
+      "sources": [
+        { "url": "https://www.military.com/defensetech/2004/02/04/lifelog-dead", "publisher": "Defense Tech (Military.com)", "title": "LIFELOG DEAD", "date": "2004-02-04" },
+        { "url": "https://www.thecrimson.com/article/2004/2/9/hundreds-register-for-new-facebook-website/", "publisher": "The Harvard Crimson", "title": "Hundreds Register for New Facebook Website", "date": "2004-02-09" }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Facebook was created to replace LifeLog, or absorbed it, when DARPA shut LifeLog down on the day Facebook launched.",
+      "assessment": "unsupported",
+      "explanation": "The dates are close but not identical: Wired's Feb 4, 2004 report says LifeLog was dropped 'late last month' (January 2004), and DARPA gave only 'a change in priorities' as a reason. Thefacebook.com launched Feb 4, 2004, after about a week of coding by Mark Zuckerberg according to the Harvard Crimson. LifeLog's former program lead, Douglas Gage, told Vice in 2018 the cancellation was 'collateral damage' from the Total Information Awareness controversy. No source found documents any transfer of code, staff, data, contracts or money from LifeLog to Facebook. Gage did call Facebook 'the real face of pseudo-LifeLog', but that is a comparison of what the products do, not evidence of a link.",
+      "sources": [
+        { "url": "https://www.military.com/defensetech/2004/02/04/lifelog-dead", "publisher": "Defense Tech (Military.com)", "title": "LIFELOG DEAD", "date": "2004-02-04" },
+        { "url": "https://www.csoonline.com/article/513833/data-protection-pentagon-kills-lifelog-project-questions-raised-on-earlier-ricin-case-rfid-privacy.html", "publisher": "CSO Online", "title": "Pentagon Kills LifeLog Project; Questions Raised on Earlier Ricin Case; RFID Privacy Law Debated in California; Pakistani Scientist Pardoned for Leaking Nuclear Technology", "date": "2004-02-05" },
+        { "url": "https://www.thecrimson.com/article/2004/2/9/hundreds-register-for-new-facebook-website/", "publisher": "The Harvard Crimson", "title": "Hundreds Register for New Facebook Website", "date": "2004-02-09" },
+        { "url": "https://www.vice.com/en/article/15-years-ago-the-military-tried-to-record-whole-human-lives-it-ended-badly/", "publisher": "Vice", "title": "15 Years Ago, the Military Tried to Record Whole Human Lives. It Ended Badly", "date": "2018-05-21" }
+      ]
+    },
+    {
+      "claim": "Facebook's early investors connect it to the intelligence world, which shows it continued LifeLog.",
+      "assessment": "unsupported",
+      "explanation": "Peter Thiel was an early investor in Facebook and separately co-founded Palantir, which In-Q-Tel (the CIA's venture arm) reportedly funded with about $2 million; Accel Partners invested $12.7 million in Facebook in May 2005. These are real investments, but neither Thiel nor Accel had any documented role in LifeLog, and In-Q-Tel is not documented as a Facebook investor. Shared investors with a later defense-tech company are not evidence that DARPA's program was handed to Facebook.",
+      "sources": [
+        { "url": "https://www.cnbc.com/id/47387334", "publisher": "CNBC", "title": "Jim Breyer (via Accel Partners)" },
+        { "url": "https://washingtonian.com/2012/01/31/killer-app/", "publisher": "Washingtonian", "title": "Killer App", "date": "2012-01-31" }
+      ]
+    }
+  ]
+}

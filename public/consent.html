@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manufacturing Consent — The Cornfield Gazette</title>
+<meta name="description" content="Documented cases of media manipulation, war propaganda, bought movements, and religion turned against working people.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌽</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #262527;
+    --bg-2: #2e2d30;
+    --violet: #a15cf0;
+    --violet-dim: #6a3ba3;
+    --violet-ink: #1b1220;
+    --text: #ddd6e6;
+    --dim: #9a92a6;
+    --sans: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    font-size: 16px;
+    line-height: 1.55;
+  }
+
+  /* Risograph paper grain */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 50;
+    opacity: 0.32;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.1' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.75 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  a { color: var(--violet); }
+  a:hover { color: #c79bff; }
+
+  .page { max-width: 1120px; margin: 0 auto; padding: 22px 28px 80px; }
+
+  /* ---------- shared shapes ---------- */
+  .frame { border: 2px solid var(--violet); border-radius: 18px; padding: 20px 22px; }
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid var(--violet);
+    border-radius: 999px;
+    padding: 4px 16px;
+    color: var(--violet);
+    font-size: 14px;
+    text-decoration: none;
+    font-stretch: 110%;
+  }
+  .pill:hover { background: var(--violet); color: var(--violet-ink); }
+  .display {
+    font-family: var(--sans);
+    font-weight: 900;
+    font-stretch: 125%;
+    letter-spacing: -0.01em;
+    line-height: 0.92;
+    color: var(--violet);
+    text-transform: uppercase;
+  }
+  .rules { width: 100%; border-collapse: collapse; font-size: 14px; }
+  .rules td { border-top: 2px solid var(--violet); padding: 6px 4px; color: var(--violet); }
+  .rules tr:last-child td { border-bottom: 2px solid var(--violet); }
+  .rules td:nth-child(2) { text-align: center; }
+  .rules td:last-child { text-align: right; }
+  .glyphs { display: flex; gap: 14px; align-items: center; color: var(--violet); font-size: 20px; }
+
+  /* ---------- top ---------- */
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+    font-size: 13px;
+    color: var(--violet);
+  }
+  .nav { display: flex; flex-wrap: wrap; gap: 8px; }
+
+  /* ---------- hero ---------- */
+  .kicker { font-weight: 700; font-stretch: 125%; color: var(--violet); letter-spacing: 0.3em; font-size: 14px; text-transform: uppercase; }
+  .hero-title { font-size: clamp(64px, 14vw, 168px); margin: 2px 0 18px; text-align: center; }
+  .hero-art { padding: 0; overflow: hidden; height: clamp(220px, 34vw, 340px); position: relative; }
+  #halftone { width: 100%; height: 100%; display: block; }
+  .hero-grid { display: grid; grid-template-columns: 1fr 240px; gap: 22px; margin-top: 20px; align-items: start; }
+  .hero-text { color: var(--violet); font-size: 17px; line-height: 1.45; margin: 0 0 14px; }
+  .hero-text b { font-weight: 800; }
+  .side-stack { display: flex; flex-direction: column; gap: 12px; }
+  .globe-box { padding: 10px; aspect-ratio: 1.15; display: flex; align-items: center; justify-content: center; }
+  .globe-box svg { width: 100%; height: 100%; }
+  .bar-label { display: flex; gap: 8px; align-items: center; font-size: 13px; color: var(--violet); }
+  .bar-label i { flex: 1; height: 16px; background: var(--violet); display: block; border-radius: 2px; }
+  .onair { padding: 12px 14px; text-align: center; }
+  .onair .display { font-size: 34px; }
+  .onair small { display: block; color: var(--violet); font-size: 12px; margin-top: 4px; }
+
+  /* ---------- legend ---------- */
+  .legend { display: flex; flex-wrap: wrap; gap: 8px; }
+  .badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 800;
+    font-stretch: 115%;
+    letter-spacing: 0.06em;
+    padding: 2px 9px;
+    border-radius: 999px;
+    border: 1.5px solid currentColor;
+    white-space: nowrap;
+    vertical-align: middle;
+  }
+  .st-documented { color: var(--violet); }
+  .st-court { color: var(--violet-ink); background: var(--violet); border-color: var(--violet); }
+  .st-peer { color: #c9a7ff; }
+  .st-reported { color: #d6c7e8; }
+  .st-words { color: #e4d4ff; border-style: double; border-width: 3px; }
+  .st-argument { color: var(--dim); border-style: dashed; }
+
+  /* ---------- sections ---------- */
+  section.block { margin-top: 64px; scroll-margin-top: 16px; }
+  .sec-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; flex-wrap: wrap; border-bottom: 2px solid var(--violet); padding-bottom: 10px; margin-bottom: 12px; }
+  .sec-head h2 { margin: 0; font-size: clamp(34px, 6vw, 64px); }
+  .sec-head .num { color: var(--violet); font-weight: 800; font-stretch: 125%; font-size: 15px; }
+  .sec-dek { color: var(--dim); max-width: 820px; margin: 0 0 22px; }
+
+  .index { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin-top: 26px; }
+  .index a { justify-content: space-between; border-radius: 14px; padding: 10px 16px; }
+
+  /* case cards */
+  .cases { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+  .case { border: 2px solid var(--violet-dim); border-radius: 16px; padding: 16px 18px; background: rgba(46, 45, 48, 0.6); display: flex; flex-direction: column; gap: 6px; }
+  .case:hover { border-color: var(--violet); }
+  .case-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .case-year { font-weight: 900; font-stretch: 125%; color: var(--violet); font-size: 22px; line-height: 1; }
+  .case h3 { margin: 2px 0 0; font-size: 18px; line-height: 1.3; font-stretch: 105%; color: var(--text); }
+  .case p { margin: 0; font-size: 15px; color: #cfc6da; }
+  .case .src { font-size: 12.5px; color: var(--dim); margin-top: auto; padding-top: 6px; }
+  .src a { color: var(--dim); }
+  .src a:hover { color: var(--violet); }
+  .topic-tag { font-size: 11px; font-weight: 700; font-stretch: 115%; color: var(--violet); text-transform: uppercase; letter-spacing: 0.08em; }
+  .topic-tag a { color: inherit; text-decoration: none; border-bottom: 1px dotted var(--violet); }
+
+  /* filter pills */
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+  .filters button { background: transparent; font-family: var(--sans); cursor: pointer; }
+  .filters button.active { background: var(--violet); color: var(--violet-ink); }
+
+  /* quote band */
+  .quote-band { margin: 0 0 22px; padding: 18px 22px; }
+  .quote-band blockquote { margin: 0; color: var(--violet); font-size: clamp(18px, 2.4vw, 24px); font-weight: 700; font-stretch: 110%; line-height: 1.3; }
+  .quote-band cite { display: block; margin-top: 8px; font-style: normal; font-size: 13px; color: var(--dim); }
+
+  /* stats */
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin-bottom: 22px; }
+  .stat { padding: 14px 16px; }
+  .stat .n { font-size: 46px; }
+  .stat .t { font-size: 14.5px; margin: 6px 0; }
+  .stat .src { font-size: 12.5px; color: var(--dim); }
+
+  /* grid panel for faith section, like the ref's dotted grid */
+  .grid-panel {
+    border-radius: 18px;
+    padding: 22px;
+    background-color: var(--violet);
+    background-image:
+      linear-gradient(var(--violet-dim) 1.5px, transparent 1.5px),
+      linear-gradient(90deg, var(--violet-dim) 1.5px, transparent 1.5px);
+    background-size: 80px 80px;
+    color: var(--violet-ink);
+    margin-bottom: 22px;
+  }
+  .grid-panel .display { color: var(--violet-ink); font-size: clamp(26px, 4vw, 42px); }
+  .grid-panel p { margin: 10px 0 0; font-weight: 600; max-width: 760px; }
+
+  .checklist { list-style: none; margin: 0; padding: 0; }
+  .checklist li { display: grid; grid-template-columns: 30px 1fr; gap: 8px; padding: 10px 0; border-top: 2px solid var(--violet-dim); }
+  .checklist li::before { content: "✦"; color: var(--violet); font-size: 18px; line-height: 1.2; }
+  .checklist b { color: var(--violet); }
+
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+
+  .foot { margin-top: 64px; display: flex; justify-content: space-between; align-items: center; gap: 18px; flex-wrap: wrap; }
+  .foot .display { font-size: clamp(28px, 5vw, 52px); }
+  .method { color: var(--dim); font-size: 13.5px; margin-top: 14px; }
+
+  @media (max-width: 860px) {
+    .hero-grid, .cases, .two-col { grid-template-columns: 1fr; }
+    .side-stack { flex-direction: row; flex-wrap: wrap; }
+    .side-stack > * { flex: 1 1 200px; }
+    .page { padding: 16px 16px 60px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="top">
+    <nav class="nav">
+      <a class="pill" href="index.html">← Gazette</a>
+      <a class="pill" href="climate.html">Carbon Ledger</a>
+      <a class="pill" href="transhumanism.html">Post-Human Resources</a>
+      <a class="pill" href="crash-conduits.html">Crash Conduits</a>
+      <a class="pill" href="blind-pool.html">Blind Pool</a>
+    </nav>
+    <span>@cornfield_gazette ✦ media desk</span>
+  </div>
+
+  <!-- HERO -->
+  <header>
+    <div class="kicker" style="text-align:center;">Manufacturing</div>
+    <h1 class="display hero-title">Consent</h1>
+
+    <div class="frame hero-art" aria-hidden="true"><svg id="halftone" preserveAspectRatio="xMidYMid slice"></svg></div>
+
+    <div class="hero-grid">
+      <div>
+        <p class="hero-text">The same few forces run through every story in this project. <b>Paid media</b> tells the public a crash can’t happen, the climate isn’t changing, or a war is necessary. <b>Money</b> builds “grassroots” movements from nothing. And again and again, people’s <b>faith</b> is enlisted to turn them against unions, wages and their own neighbors. These are the documented cases.</p>
+        <div class="glyphs" style="margin-bottom:12px;">
+          <span>⊛⊛</span><span>—⊕—</span><span>✺</span>
+          <span style="margin-left:auto;" class="pill">Tune out <span>—✦—</span></span>
+        </div>
+        <table class="rules">
+          <tr><td>Media</td><td>Money</td><td>War</td></tr>
+          <tr><td>Movements</td><td>Faith</td><td>Workers</td></tr>
+        </table>
+      </div>
+      <div class="side-stack">
+        <div class="frame globe-box"><svg id="globe" viewBox="-110 -100 220 200" aria-hidden="true"></svg></div>
+        <div class="bar-label"><span>⊚</span><i></i><span>Signal / Noise</span></div>
+        <div class="frame onair"><div class="display">ON AIR</div><small>++ ⊚ &nbsp; who paid for this?</small></div>
+      </div>
+    </div>
+
+    <div class="index">
+      <a class="pill" href="#media">01 The media <span>✦</span></a>
+      <a class="pill" href="#war">02 War &amp; money <span>✦</span></a>
+      <a class="pill" href="#movements">03 Bought movements <span>✦</span></a>
+      <a class="pill" href="#faith">04 Faith, weaponized <span>✦</span></a>
+      <a class="pill" href="#reclaim">05 Faith with workers <span>✦</span></a>
+      <a class="pill" href="#spot">06 How to spot it <span>✦</span></a>
+    </div>
+  </header>
+
+  <section class="block" id="legend-block" style="margin-top:40px;">
+    <div class="frame">
+      <div class="topic-tag" style="margin-bottom:8px;">How to read the tags</div>
+      <div class="legend" id="legend"></div>
+      <p class="method" style="margin-bottom:0;">Each case is a specific, sourced event. Together they show recurring incentives: profit, power and the cheapest way to win public opinion. They are not evidence of one hidden hand, and wars and movements have many causes. Interpretation is tagged <span class="badge st-argument">ARGUMENT</span>.</p>
+    </div>
+  </section>
+
+  <!-- 01 MEDIA -->
+  <section class="block" id="media">
+    <div class="sec-head"><h2 class="display">The Media</h2><span class="num">01 / across every topic</span></div>
+    <p class="sec-dek">How news coverage, advertising and platforms shaped what the public believed about the economy, the climate and technology, often while being paid by the industries involved.</p>
+    <div class="filters" id="media-filters"></div>
+    <div class="cases" id="media-cases"></div>
+  </section>
+
+  <!-- 02 WAR -->
+  <section class="block" id="war">
+    <div class="sec-head"><h2 class="display">War &amp; Money</h2><span class="num">02 / profits and propaganda</span></div>
+    <div class="frame quote-band">
+      <blockquote>“In the councils of government, we must guard against the acquisition of unwarranted influence, whether sought or unsought, by the military-industrial complex.”</blockquote>
+      <cite>— President Dwight D. Eisenhower, <a href="https://www.archives.gov/milestone-documents/president-dwight-d-eisenhowers-farewell-address" target="_blank" rel="noopener">farewell address, January 17, 1961 ↗</a></cite>
+    </div>
+    <p class="sec-dek">Cases where commercial interests, paid PR or false claims helped push countries into war, and who profited.</p>
+    <div class="stats" id="war-stats"></div>
+    <div class="cases" id="war-cases"></div>
+  </section>
+
+  <!-- 03 MOVEMENTS -->
+  <section class="block" id="movements">
+    <div class="sec-head"><h2 class="display">Bought Movements</h2><span class="num">03 / astroturf</span></div>
+    <p class="sec-dek">“Grassroots” campaigns, think tanks and outrage manufactured or bankrolled by the people who stood to gain, including a whole industry paid to keep workers from organizing.</p>
+    <div class="stats" id="move-stats"></div>
+    <div class="cases" id="move-cases"></div>
+  </section>
+
+  <!-- 04 FAITH -->
+  <section class="block" id="faith">
+    <div class="sec-head"><h2 class="display">Faith, Weaponized</h2><span class="num">04 / god and the payroll</span></div>
+    <div class="grid-panel">
+      <div class="display">Faith · Work · Dignity</div>
+      <p>Religion has comforted and organized working people for centuries. These cases document employers, industrialists, political operatives and foreign trolls using faith to fight unions, block climate action, cut workers’ benefits, or simply get votes.</p>
+    </div>
+    <div class="cases" id="faith-cases"></div>
+  </section>
+
+  <!-- 05 RECLAIM -->
+  <section class="block" id="reclaim">
+    <div class="sec-head"><h2 class="display">Faith With Workers</h2><span class="num">05 / the other tradition</span></div>
+    <p class="sec-dek">The same traditions have long stood with labor.</p>
+    <div class="cases" id="reclaim-cases"></div>
+  </section>
+
+  <!-- 06 SPOT -->
+  <section class="block" id="spot">
+    <div class="sec-head"><h2 class="display">How To Spot It</h2><span class="num">06 / field guide</span></div>
+    <div class="two-col">
+      <ul class="checklist" id="spot-list"></ul>
+      <div class="frame">
+        <div class="topic-tag" style="margin-bottom:8px;">Across this project</div>
+        <table class="rules" id="crosslinks"></table>
+        <p class="method">Each page documents its own topic in depth. This page tracks how the public was persuaded about them.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="foot">
+      <div class="display">Who paid for this?</div>
+      <svg width="110" height="110" viewBox="-50 -50 100 100" aria-hidden="true">
+        <polygon id="star" fill="#a15cf0"></polygon>
+      </svg>
+    </div>
+    <p class="method">Compiled from court records, government documents, congressional reports, peer-reviewed research and investigative reporting. Quotes are reproduced exactly from their sources. Every case was fact-checked against its sources in October 2026.</p>
+  </footer>
+</div>
+
+<script>
+const STATUS = {
+  court: { label: "COURT / OFFICIAL FINDING", desc: "ruled by a court, regulator or government inquiry" },
+  documented: { label: "DOCUMENTED", desc: "public record, declassified files or the organization’s own materials" },
+  peer: { label: "PEER-REVIEWED", desc: "published scholarly study" },
+  reported: { label: "REPORTED", desc: "investigative journalism or history, not tested in court" },
+  words: { label: "IN THEIR WORDS", desc: "direct quote" },
+  argument: { label: "ARGUMENT", desc: "an interpretation of the evidence" }
+};
+
+const TOPIC_LINKS = {
+  climate: { label: "Climate", href: "climate.html" },
+  finance: { label: "Finance", href: "crash-conduits.html" },
+  tech: { label: "Tech", href: "transhumanism.html" },
+  tobacco: { label: "Tobacco" },
+  government: { label: "Government", href: "deep-state.html" }
+};
+
+const MEDIA = [
+  { year: "1969", topic: "tobacco", status: "documented",
+    title: "“Doubt is our product”: the template",
+    body: "A Brown & Williamson tobacco memo states that doubt is the best way to compete with the “body of fact” linking smoking to cancer. The same playbook was later used on climate.",
+    src: "Brown & Williamson memo (1969); Oreskes & Conway, Merchants of Doubt (2010)", url: "https://www.sourcewatch.org/index.php/Smoking_and_Health_Proposal" },
+  { year: "1970–", topic: "climate", status: "peer",
+    title: "Oil company “advertorials” on the opinion page",
+    body: "From 1970, Mobil (later ExxonMobil) bought regular space on the New York Times op-ed page. An analysis found 81% of its climate advertorials expressed doubt, while about 80% of its internal documents and 83% of its scientists’ papers acknowledged human-caused climate change.",
+    src: "Supran & Oreskes, Environmental Research Letters (2017)", url: "https://iopscience.iop.org/article/10.1088/1748-9326/aa815f" },
+  { year: "1988–2002", topic: "climate", status: "peer",
+    title: "False balance in the prestige press",
+    body: "A study of the four leading US papers (NYT, Washington Post, LA Times, Wall Street Journal) found most articles gave roughly equal weight to the scientific consensus and to doubters, misleading readers about the state of the science.",
+    src: "Boykoff & Boykoff, “Balance as bias,” Global Environmental Change (2004)", url: "https://mediawell.ssrc.org/citation/balance-as-bias-global-warming-and-the-us-prestige-press/" },
+  { year: "1996–2001", topic: "finance", status: "documented",
+    title: "Enron, “America’s Most Innovative Company”",
+    body: "Fortune magazine gave Enron the title six years running, right up to its 2001 collapse in fraud.",
+    src: "Fortune “Most Admired Companies” rankings (1996–2001)" },
+  { year: "2008", topic: "finance", status: "words",
+    title: "“Bear Stearns is fine!”",
+    body: "CNBC host Jim Cramer told a viewer: “Bear Stearns is fine! Do not move your money from Bear.” Five days later the bank was sold to JPMorgan for $2 a share, a fraction of its value.",
+    src: "CNBC Mad Money (March 11, 2008); ABC News", url: "https://abcnews.go.com/Business/PersonalFinance/story?id=4524010" },
+  { year: "2022", topic: "finance", status: "court",
+    title: "Celebrity crypto promotions",
+    body: "Kim Kardashian paid $1.26 million to settle SEC charges that she promoted a crypto token without disclosing she was paid. FTX ran Super Bowl ads months before collapsing.",
+    src: "SEC press release (Oct 2022)" },
+  { year: "2014", topic: "tech", status: "peer",
+    title: "Facebook secretly manipulates users’ moods",
+    body: "Facebook altered the news feeds of about 689,000 users to test whether it could make them feel happier or sadder, without their knowledge.",
+    src: "Kramer et al., PNAS (2014)" },
+  { year: "2018–19", topic: "tech", status: "court",
+    title: "Cambridge Analytica",
+    body: "A political consultancy harvested data from up to 87 million Facebook users to target voters. The FTC fined Facebook $5 billion over privacy violations.",
+    src: "FTC settlement (July 2019)" },
+  { year: "2018", topic: "government", status: "documented",
+    title: "Sinclair’s must-run scripts",
+    body: "Sinclair, the largest US local TV station owner, had anchors at dozens of stations read an identical script warning about “fake” news. A montage of the anchors went viral.",
+    src: "Deadspin montage (Mar 31, 2018); NBC News (Apr 2018)", url: "https://www.nbcnews.com/politics/donald-trump/tv-anchors-decrying-fake-news-put-spotlight-sinclair-broadcast-company-n862016" },
+  { year: "1975–76", topic: "government", status: "court",
+    title: "The CIA and the press",
+    body: "The Senate’s Church Committee found the CIA had about 50 covert relationships with American journalists or employees of US media organizations.",
+    src: "Church Committee final report, Book I (1976)", url: "https://www.cia.gov/readingroom/document/cia-rdp99-00498r000100140110-7" }
+];
+
+const WAR_STATS = [
+  { n: "$39.5B", t: "in Iraq war-related contracts to one company, KBR, then a subsidiary of Halliburton, which Vice President Dick Cheney ran from 1995 to 2000.", src: "Financial Times analysis (March 2013)", status: "reported", url: "https://www.iraq-businessnews.com/2013/03/21/contractors-get-138bn-from-iraq-war/" },
+  { n: "935", t: "false statements about Iraq’s threat by top Bush administration officials in the two years after 9/11, by one count.", src: "Center for Public Integrity, “Iraq: The War Card” (2008)", status: "reported", url: "https://publicintegrity.org/politics/search-the-935-iraq-war-false-statements/" },
+  { n: "$1B+", t: "from the US government and defense contractors to the top 50 US think tanks, 2014–2019, most of it to RAND.", src: "Center for International Policy (Oct 2020)", status: "reported", url: "https://responsiblestatecraft.org/2020/10/14/new-report-shows-more-than-1b-from-war-industry-and-govt-going-to-top-50-think-tanks" }
+];
+
+const WAR = [
+  { year: "1934–36", status: "court",
+    title: "The Senate investigates the “merchants of death”",
+    body: "The Nye Committee examined how arms makers and bankers profited from World War I and lobbied for military buildup.",
+    src: "Senate Special Committee Investigating the Munitions Industry (1934–36)" },
+  { year: "1935", status: "words",
+    title: "“War is a racket”",
+    body: "Retired Marine Major General Smedley Butler, who held two Medals of Honor, wrote that he had spent his career as “a high-class muscle man for Big Business, for Wall Street and for the bankers.”",
+    src: "Butler, Common Sense magazine (1935); War Is a Racket (1935)", url: "https://en.wikipedia.org/wiki/Smedley_Butler" },
+  { year: "1953", status: "documented",
+    title: "Iran: a coup after oil was nationalized",
+    body: "After Iran nationalized the Anglo-Iranian Oil Company (later BP), the CIA and British intelligence organized a coup against Prime Minister Mohammad Mossadegh, including planted press stories. The CIA formally acknowledged its role in 2013.",
+    src: "Declassified CIA history (2013); National Security Archive", url: "https://nsarchive.gwu.edu/media/cia-admits-role-1953-iranian-coup" },
+  { year: "1954", status: "documented",
+    title: "Guatemala: a fruit company’s PR war",
+    body: "After land reforms hit United Fruit, the company’s PR adviser Edward Bernays ran a campaign painting Guatemala’s elected government as communist. The CIA then backed a coup.",
+    src: "CIA history of Operation PBSUCCESS; Schlesinger & Kinzer, Bitter Fruit (1982)" },
+  { year: "1964", status: "documented",
+    title: "Gulf of Tonkin: an attack that didn’t happen",
+    body: "Congress authorized escalation in Vietnam after a reported second attack on US ships. A declassified NSA study later concluded the second attack did not occur.",
+    src: "Hanyok, NSA Cryptologic Quarterly, declassified (2005)", url: "https://nsarchive.gwu.edu/NSAEBB/NSAEBB132/press20051201.htm" },
+  { year: "1990", status: "documented",
+    title: "Nayirah: invented testimony sells a war",
+    body: "A teenager told a congressional caucus she saw Iraqi soldiers pull babies from incubators in Kuwait. She was the daughter of Kuwait’s ambassador, coached by PR firm Hill & Knowlton, which was paid about $10.8 million by a Kuwaiti government-funded group. The story was never substantiated, and Amnesty International retracted its support for it.",
+    src: "MacArthur, Second Front (1992); ABC 20/20 & NYT (1992)", url: "https://en.wikipedia.org/wiki/Nayirah_testimony" },
+  { year: "2002–04", status: "documented",
+    title: "Iraq’s missing weapons and the press that repeated them",
+    body: "Claims about Iraqi weapons of mass destruction proved false. The New York Times later published an editors’ note saying its coverage was “not as rigorous as it should have been.”",
+    src: "New York Times, “From the Editors” (May 2004)" },
+  { year: "2008", status: "reported",
+    title: "Pentagon’s hidden TV analysts",
+    body: "Retired military officers presented as independent TV analysts were briefed by the Pentagon to deliver talking points on Iraq, and many had ties to defense contractors.",
+    src: "Barstow, New York Times (April 2008), Pulitzer Prize" }
+];
+
+const MOVE_STATS = [
+  { n: "$433M", t: "an estimated yearly spend by US employers on consultants to fight unionization, likely an undercount.", src: "Economic Policy Institute (March 2023)", status: "reported", url: "https://www.epi.org/publication/union-avoidance/" },
+  { n: "$14.2M", t: "paid by Amazon to anti-union consultants in 2022 alone, roughly triple the year before.", src: "US Department of Labor filings; HuffPost (March 2023)", status: "documented", url: "https://www.huffpost.com/entry/amazon-anti-union-spending-2022_n_6426fd1fe4b02a8d518e7010" }
+];
+
+const MOVEMENTS = [
+  { year: "1971", status: "documented",
+    title: "The Powell Memo",
+    body: "Future Supreme Court Justice Lewis Powell urged the US Chamber of Commerce to fund an organized campaign to shape universities, the media, the courts and politics in business’s favor. Think tanks and legal groups followed.",
+    src: "Powell, “Confidential Memorandum: Attack on American Free Enterprise System” (Aug 23, 1971)", url: "https://scholarlycommons.law.wlu.edu/powellmemo/" },
+  { year: "1993", status: "documented",
+    title: "Big Tobacco’s fake smokers’ movement",
+    body: "PR firm Burson-Marsteller created the “National Smokers Alliance” for Philip Morris to look like a grassroots smokers’ rights group. Tobacco companies were its main funders, with $42 million raised in its first four years.",
+    src: "Tobacco Tactics, University of Bath", url: "https://www.tobaccotactics.org/article/astroturfing/" },
+  { year: "2009", status: "documented",
+    title: "Oil industry “Energy Citizens” rallies",
+    body: "The American Petroleum Institute organized rallies against climate legislation, presented as citizen events. An email from API’s president, leaked by Greenpeace, asked member companies to recruit employees, retirees, vendors and contractors.",
+    src: "API email leaked by Greenpeace; The Guardian (Aug 2009)", url: "https://www.desmog.com/2009/08/13/oil-lobbys-energy-citizens-astroturf-campaign-exposed-launch" },
+  { year: "2009–10", status: "reported",
+    title: "Billionaire fuel for the Tea Party",
+    body: "Groups funded by Charles and David Koch, including Americans for Prosperity, provided money, training and organization to the Tea Party movement. The Kochs denied funding the Tea Party directly.",
+    src: "Mayer, “Covert Operations,” The New Yorker (2010)" },
+  { year: "2016", status: "court",
+    title: "Foreign trolls stage both sides of a protest",
+    body: "Russia’s Internet Research Agency organized a Houston protest against a mosque (May 2016) and, through a second fake page, promoted a rival rally at the same place and time.",
+    src: "Senate Intelligence Committee (2017–2019); NPR", url: "https://www.npr.org/2017/11/01/561427876/how-russia-used-facebook-to-organize-two-sets-of-protesters" },
+  { year: "2004", status: "argument",
+    title: "Culture war as a substitute for wages",
+    body: "Writer Thomas Frank argued that political campaigns rally working-class voters around cultural grievances while delivering economic policies that favor the wealthy.",
+    src: "Frank, What’s the Matter with Kansas? (2004)" }
+];
+
+const FAITH = [
+  { year: "1936–40s", status: "reported",
+    title: "“Right to work” was born in a racist, “Christian” front group",
+    body: "Texas operator Vance Muse’s Christian American Association, funded by Southern planters and industrialists, pushed the first “right to work” laws (Arkansas and Florida, 1944) to weaken unions, using racist and antisemitic propaganda.",
+    src: "Pierce, “The Origins of Right-to-Work,” LAWCHA (2017); Dixon, Journal of Policy History (2007)", url: "https://www.lawcha.org/2017/01/12/origins-right-work-vance-muse-anti-semitism-maintenance-jim-crow-labor-relations/" },
+  { year: "1935–", status: "reported",
+    title: "Prayer breakfasts born from anti-union organizing",
+    body: "In 1935 Methodist minister Abraham Vereide gathered Seattle businessmen into prayer groups, with fighting organized labor among their stated concerns. His network, “the Fellowship,” later launched the National Prayer Breakfast (1953).",
+    src: "Sharlet, The Family (2008)" },
+  { year: "1940s–50s", status: "reported",
+    title: "Industrialists fund “Freedom Under God”",
+    body: "Corporate leaders such as J. Howard Pew of Sun Oil, Harvey Firestone and GM’s Alfred Sloan bankrolled ministers like James Fifield’s Spiritual Mobilization to preach that the New Deal was un-Christian “pagan stateism.” Historian Kevin Kruse traces how this laid groundwork for “under God” in the Pledge (1954) and “In God We Trust” as the national motto (1956).",
+    src: "Kruse, One Nation Under God (2015); NPR (March 2015)", url: "https://www.npr.org/2015/03/30/396365659/how-one-nation-didnt-become-under-god-until-the-50s-religious-revival" },
+  { year: "1979", status: "argument",
+    title: "The religious right’s real starting point",
+    body: "Historian Randall Balmer argues the religious right first organized not around abortion but around the IRS stripping tax exemptions from segregated Christian schools, with strategist Paul Weyrich recruiting Jerry Falwell.",
+    src: "Balmer, Politico Magazine (May 2014); Bad Faith (2021). Some historians dispute this account." },
+  { year: "2010", status: "documented",
+    title: "Climate action as a “false religion”",
+    body: "The Cornwall Alliance, an evangelical group whose leaders have worked with fossil-funded climate-skeptic groups such as CFACT and the Heartland Institute, released “Resisting the Green Dragon,” calling environmentalism a dangerous rival faith.",
+    src: "Cornwall Alliance materials (2010); DeSmog", url: "https://www.desmog.com/cornwall-alliance-stewardship-creation" },
+  { year: "2007–11", status: "court",
+    title: "Televangelists’ jets and mansions",
+    body: "A Senate Finance Committee inquiry examined six prosperity-gospel ministries over private jets, homes and luxury spending funded by donations. It ended in 2011 with no penalties, referring reforms to an evangelical self-regulation body.",
+    src: "Senate Finance Committee, Sen. Chuck Grassley (2007–2011); Christianity Today", url: "https://www.christianitytoday.com/news/2011/january/grassley-investigation-ends-with-no-penalty-for.html" },
+  { year: "2014", status: "court",
+    title: "An employer’s faith limits workers’ benefits",
+    body: "In Burwell v. Hobby Lobby, the Supreme Court ruled 5–4 that closely held companies can be exempted from covering contraceptives their owners object to on religious grounds.",
+    src: "Burwell v. Hobby Lobby, US Supreme Court (2014)" },
+  { year: "2020", status: "court",
+    title: "Religious employers exempt from discrimination suits",
+    body: "In Our Lady of Guadalupe v. Morrissey-Berru, the Supreme Court extended the “ministerial exception,” barring religious-school teachers who teach the faith from suing over age or disability discrimination.",
+    src: "Our Lady of Guadalupe School v. Morrissey-Berru (2020)", url: "https://www.hklaw.com/en/insights/publications/2020/07/supreme-court-ministerial-exception-bars-teachers-age-and-disability" },
+  { year: "2016", status: "court",
+    title: "Foreign trolls pose as Christians",
+    body: "Russia’s Internet Research Agency ran pages like “Army of Jesus,” with more than 216,000 followers, using religious memes to win followers and push election content.",
+    src: "Senate Intelligence Committee report, Vol. 2 (Oct 2019)", url: "https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-documents-report-volume2.pdf" }
+];
+
+const RECLAIM = [
+  { year: "1891", status: "documented",
+    title: "The Pope backs unions",
+    body: "Pope Leo XIII’s encyclical Rerum Novarum defends workers’ right to form unions and earn a just wage.",
+    src: "Rerum Novarum (1891)" },
+  { year: "1907", status: "documented",
+    title: "The Social Gospel",
+    body: "Baptist minister Walter Rauschenbusch’s Christianity and the Social Crisis calls on churches to fight poverty and exploitation of workers.",
+    src: "Rauschenbusch (1907)" },
+  { year: "1966", status: "documented",
+    title: "A farmworkers’ pilgrimage",
+    body: "César Chávez led striking grape workers on a march to Sacramento framed as a religious pilgrimage, during Lent, under a banner of the Virgin of Guadalupe.",
+    src: "National Park Service", url: "https://home.nps.gov/articles/000/mobilizing-support-for-la-causa.htm" },
+  { year: "1968", status: "words",
+    title: "“All labor has dignity”",
+    body: "Martin Luther King Jr. came to Memphis to support striking Black sanitation workers. He was assassinated there weeks later.",
+    src: "King, speech to Memphis sanitation strikers (March 18, 1968)", url: "https://beaconbroadside.com/2018/03/18/the-50th-anniversary-of-martin-luther-king-jrs-all-labor-has-dignity/" },
+  { year: "2015", status: "documented",
+    title: "Climate as a moral issue for the poor",
+    body: "Pope Francis’s Laudato si’ calls climate change a threat that falls hardest on the poor and criticizes an economy that treats people and nature as disposable.",
+    src: "Laudato si’ (2015)" }
+];
+
+const SPOT = [
+  "<b>Who paid?</b> Look for the funder behind a study, ad, “citizens’ group” or expert. Undisclosed money is the most common red flag.",
+  "<b>Is the expert independent?</b> Pundits and analysts often have ties to the companies they talk about.",
+  "<b>Is “both sides” really balanced?</b> Giving equal time to a fringe view can mislead as much as a lie.",
+  "<b>Who benefits from the outrage?</b> Ask whether a fight pits workers against each other instead of against the people setting their wages.",
+  "<b>Is faith being invoked to sell a policy?</b> Check what the tradition itself teaches about workers and the poor.",
+  "<b>Go to the source.</b> Court rulings, filings and original documents beat summaries of them."
+];
+
+const CROSS = [
+  ["Crash Conduits", "crash-conduits.html", "400 years of bubbles"],
+  ["Carbon Ledger", "climate.html", "climate & fossil money"],
+  ["Post-Human Resources", "transhumanism.html", "tech & labor"],
+  ["Deep State Dossiers", "deep-state.html", "government capture"],
+  ["Blind Pool", "blind-pool.html", "venture capital & infrastructure"],
+  ["The Web", "web.html", "every name, connected"]
+];
+
+// ---------- helpers ----------
+function badge(s) { const st = STATUS[s]; return `<span class="badge st-${s}" title="${st.desc}">${st.label}</span>`; }
+function srcHtml(i) { return i.url ? `<a href="${i.url}" target="_blank" rel="noopener">${i.src} ↗</a>` : i.src; }
+function topicTag(t) {
+  const tp = TOPIC_LINKS[t];
+  if (!tp) return "";
+  return `<span class="topic-tag">${tp.href ? `<a href="${tp.href}">${tp.label}</a>` : tp.label}</span>`;
+}
+function caseHtml(c) {
+  return `<article class="case" data-topic="${c.topic || ""}">
+    <div class="case-top"><span class="case-year">${c.year}</span><span>${c.topic ? topicTag(c.topic) + " " : ""}${badge(c.status)}</span></div>
+    <h3>${c.title}</h3>
+    <p>${c.body}</p>
+    <div class="src">Source: ${srcHtml(c)}</div>
+  </article>`;
+}
+function statHtml(s) {
+  return `<div class="frame stat"><div class="display n">${s.n}</div><div class="t">${s.t}</div><div class="src">${badge(s.status)} ${srcHtml(s)}</div></div>`;
+}
+
+document.getElementById("legend").innerHTML = Object.entries(STATUS)
+  .map(([k, s]) => `<span>${badge(k)} <span class="method" style="font-size:12px;">${s.desc}</span></span>`).join(" ");
+
+let mediaTopic = "all";
+function renderMedia() {
+  const topics = ["all", ...new Set(MEDIA.map(m => m.topic))];
+  document.getElementById("media-filters").innerHTML = topics.map(t =>
+    `<button class="pill${t === mediaTopic ? " active" : ""}" data-t="${t}">${t === "all" ? "All" : TOPIC_LINKS[t].label}</button>`).join("");
+  document.getElementById("media-cases").innerHTML = MEDIA.filter(m => mediaTopic === "all" || m.topic === mediaTopic).map(caseHtml).join("");
+}
+document.getElementById("media-filters").addEventListener("click", e => {
+  const b = e.target.closest("button[data-t]");
+  if (!b) return;
+  mediaTopic = b.dataset.t;
+  renderMedia();
+});
+renderMedia();
+
+document.getElementById("war-stats").innerHTML = WAR_STATS.map(statHtml).join("");
+document.getElementById("war-cases").innerHTML = WAR.map(caseHtml).join("");
+document.getElementById("move-stats").innerHTML = MOVE_STATS.map(statHtml).join("");
+document.getElementById("move-cases").innerHTML = MOVEMENTS.map(caseHtml).join("");
+document.getElementById("faith-cases").innerHTML = FAITH.slice().sort((a, b) => parseInt(a.year) - parseInt(b.year)).map(caseHtml).join("");
+document.getElementById("reclaim-cases").innerHTML = RECLAIM.map(caseHtml).join("");
+document.getElementById("spot-list").innerHTML = SPOT.map(s => `<li><span>${s}</span></li>`).join("");
+document.getElementById("crosslinks").innerHTML = CROSS.map(([n, h, d]) =>
+  `<tr><td><a href="${h}" style="color:inherit;">${n}</a></td><td></td><td>${d}</td></tr>`).join("");
+
+// ---------- halftone hero: a broadcast tower radiating into a halo ----------
+(function halftone() {
+  const svg = document.getElementById("halftone");
+  const W = 1000, H = 340, step = 9;
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  const cx = W / 2, cy = H * 0.58;
+  let dots = "";
+  for (let y = step / 2; y < H; y += step) {
+    for (let x = step / 2 + ((y / step) % 2 ? step / 2 : 0); x < W; x += step) {
+      const dx = x - cx, dy = y - cy;
+      const r = Math.sqrt(dx * dx + dy * dy);
+      // concentric broadcast rings that fade outward
+      let v = Math.max(0, Math.cos(r / 22) ) * Math.max(0, 1 - r / 520) * 0.85;
+      // raised arms of the tower: a tall triangle
+      const half = (H - y) * 0.16;
+      if (y > H * 0.18 && Math.abs(dx) < half) v = Math.max(v, 0.9 - Math.abs(dx) / (half + 1) * 0.5);
+      // tower crossbars
+      if (y > H * 0.18 && Math.abs(dx) < half + 2 && Math.round(y / step) % 6 === 0) v = 1;
+      // beacon
+      const bd = Math.hypot(dx, y - H * 0.16);
+      if (bd < 22) v = Math.max(v, 1 - bd / 26);
+      // soft vignette at bottom
+      v *= 0.55 + 0.45 * (1 - y / H);
+      const rad = Math.min(step * 0.62, v * step * 0.62);
+      if (rad > 0.6) dots += `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${rad.toFixed(2)}"/>`;
+    }
+  }
+  svg.innerHTML = `<rect width="${W}" height="${H}" fill="none"/><g fill="#a15cf0">${dots}</g>`;
+})();
+
+// ---------- wireframe globe ----------
+(function globe() {
+  const g = document.getElementById("globe");
+  const R = 90;
+  let out = `<g fill="none" stroke="#a15cf0" stroke-width="1.6">`;
+  out += `<circle r="${R}"/>`;
+  for (let i = 1; i < 6; i++) {
+    const rx = R * Math.cos((i / 6) * Math.PI / 2 * 2 - Math.PI / 2);
+    out += `<ellipse rx="${Math.abs(R * Math.sin((i / 6) * Math.PI))}" ry="${R}"/>`;
+  }
+  for (let i = -4; i <= 4; i++) {
+    const y = (i / 5) * R;
+    const w = Math.sqrt(R * R - y * y);
+    out += `<ellipse cy="${y}" rx="${w}" ry="${w * 0.12}"/>`;
+  }
+  out += `</g>`;
+  g.innerHTML = out;
+})();
+
+// ---------- 8-point star ----------
+(function star() {
+  const pts = [];
+  for (let i = 0; i < 16; i++) {
+    const r = i % 2 === 0 ? 48 : 20;
+    const a = (i / 16) * Math.PI * 2 - Math.PI / 2;
+    pts.push(`${(r * Math.cos(a)).toFixed(1)},${(r * Math.sin(a)).toFixed(1)}`);
+  }
+  document.getElementById("star").setAttribute("points", pts.join(" "));
+})();
+</script>
+</body>
+</html>

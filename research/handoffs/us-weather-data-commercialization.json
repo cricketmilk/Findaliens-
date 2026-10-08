@@ -1,0 +1,77 @@
+{
+  "id": "us-weather-data-commercialization",
+  "title": "NOAA radio occultation → commercial data purchases (Spire, GeoOptics, PlanetiQ)",
+  "pattern": "outsourced-successor",
+  "country": "United States",
+  "summary": "NOAA has long obtained GNSS radio-occultation (RO) weather soundings from government-sponsored satellites: COSMIC/FORMOSAT-3, launched in 2006 under a US–Taiwan arrangement and decommissioned on 1 May 2020, and its follow-on COSMIC-2, launched in 2019 and still listed by NOAA as currently flying. Since 2016 NOAA has also bought RO data from private satellite operators, first through its Commercial Weather Data Pilot, which Congress codified in 2017, and from November 2020 for operational forecasts. The listed end date marks COSMIC-1's decommissioning; the public observing program continues, and commercial data supplements it rather than replacing it.",
+  "public": {
+    "name": "NOAA government-sponsored satellite radio-occultation observations (COSMIC/FORMOSAT-3, 2006–2020; COSMIC-2 from 2019)",
+    "funder": "NOAA, with NASA, NSF, US Air Force and US Navy (COSMIC-1), in partnership with Taiwan's National Space Organization",
+    "start": { "date": "2006", "precision": "year" },
+    "end": { "date": "2020-05-01", "precision": "day", "kind": "ongoing" },
+    "sources": [
+      { "url": "https://nesdis.noaa.gov/news/after-14-years-cosmicformosat-3-ends-service", "publisher": "NOAA NESDIS", "title": "After 14 Years, COSMIC/FORMOSAT-3 Ends Service", "date": "2020-05-01" },
+      { "url": "https://www.nesdis.noaa.gov/our-satellites/currently-flying/cosmic-2", "publisher": "NOAA NESDIS", "title": "COSMIC-2" }
+    ]
+  },
+  "private": {
+    "name": "Spire Global (with GeoOptics and PlanetiQ), commercial radio-occultation data contracts",
+    "founded": { "date": "2016-09-15", "precision": "day" },
+    "founders": [],
+    "funders": ["NOAA (Commercial Weather Data Pilot and Commercial Data Purchase appropriations)"],
+    "outcome": "Pilot contracts to GeoOptics and Spire (2016); two-year operational IDIQ contracts to GeoOptics and Spire with a $23 million ceiling (November 2020); NOAA began using purchased RO data in operational forecasts on 20 May 2021; follow-on RODB-2 IDIQ to PlanetiQ and Spire with a shared maximum of $59,312,954, ordering through March 2028.",
+    "sources": [
+      { "url": "https://www.nesdis.noaa.gov/news/noaa-awards-commercial-weather-data-pilot-contracts", "publisher": "NOAA NESDIS", "title": "NOAA Awards Commercial Weather Data Pilot Contracts", "date": "2016-09-15" },
+      { "url": "https://space.commerce.gov/?p=4093", "publisher": "NOAA Office of Space Commerce", "title": "NOAA Awards First Commercial RO Contracts Supporting Operational Weather Forecasting" },
+      { "url": "https://www.everycrsreport.com/reports/IF12671.html", "publisher": "Congressional Research Service", "title": "NOAA's Commercial Data Program: Background and Considerations for Congress (IF12671)", "date": "2024-05-30" }
+    ]
+  },
+  "links": [
+    {
+      "type": "contract",
+      "claim": "On 15 September 2016 NOAA NESDIS awarded Commercial Weather Data Pilot contracts to GeoOptics, Inc. and Spire Global, Inc. to deliver space-based GNSS radio-occultation data so NOAA could assess its quality and value for weather forecasts.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.nesdis.noaa.gov/news/noaa-awards-commercial-weather-data-pilot-contracts", "publisher": "NOAA NESDIS", "title": "NOAA Awards Commercial Weather Data Pilot Contracts", "date": "2016-09-15" }
+      ]
+    },
+    {
+      "type": "contract",
+      "claim": "On 20 November 2020 NOAA made its first commercial RO purchases for operational forecasting: two-year IDIQ contracts to GeoOptics and Spire Global with a total ceiling of $23 million.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://space.commerce.gov/?p=4093", "publisher": "NOAA Office of Space Commerce", "title": "NOAA Awards First Commercial RO Contracts Supporting Operational Weather Forecasting" },
+        { "url": "https://www.everycrsreport.com/reports/IF12671.html", "publisher": "Congressional Research Service", "title": "NOAA's Commercial Data Program: Background and Considerations for Congress (IF12671)", "date": "2024-05-30" }
+      ]
+    },
+    {
+      "type": "contract",
+      "claim": "In March 2023 NOAA awarded the follow-on Radio Occultation Data Buy II IDIQ contracts to Space Sciences and Engineering LLC (dba PlanetiQ) and Spire Global Subsidiary, Inc., with a shared maximum value of $59,312,954 and an ordering period from 27 March 2023 to 26 March 2028.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.nesdis.noaa.gov/news/noaa-awards-radio-occultation-data-buy-ii-indefinite-deliveryindefinite-quantity-idiq", "publisher": "NOAA NESDIS", "title": "NOAA Awards Radio Occultation Data Buy II Indefinite Delivery/Indefinite Quantity (IDIQ) Contracts Under CWDP", "date": "2023-03-28" }
+      ]
+    },
+    {
+      "type": "funding",
+      "claim": "NOAA funded both lines: it was among the funders of UCAR's COSMIC-1 data processing and ground operations, and Congress appropriated money to NOAA for commercial purchases, including $5 million in FY2020 'to initiate commercial purchase of radio occultation [RO] data for operational use'.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://nesdis.noaa.gov/news/after-14-years-cosmicformosat-3-ends-service", "publisher": "NOAA NESDIS", "title": "After 14 Years, COSMIC/FORMOSAT-3 Ends Service", "date": "2020-05-01" },
+        { "url": "https://www.everycrsreport.com/reports/IF12671.html", "publisher": "Congressional Research Service", "title": "NOAA's Commercial Data Program: Background and Considerations for Congress (IF12671)", "date": "2024-05-30" }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "NOAA has replaced its own radio-occultation satellites with commercial data.",
+      "assessment": "false",
+      "explanation": "COSMIC-1 was decommissioned in May 2020, but its government-sponsored successor COSMIC-2 launched in 2019 and NOAA still lists it as currently flying. CRS describes commercial data as a complement to NOAA's systems. The 2017 Weather Act does let NOAA consider operational commercial purchases as an alternative to future NOAA space systems, so a larger future shift is permitted but has not replaced the public program.",
+      "sources": [
+        { "url": "https://www.nesdis.noaa.gov/our-satellites/currently-flying/cosmic-2", "publisher": "NOAA NESDIS", "title": "COSMIC-2" },
+        { "url": "https://www.everycrsreport.com/reports/IF12671.html", "publisher": "Congressional Research Service", "title": "NOAA's Commercial Data Program: Background and Considerations for Congress (IF12671)", "date": "2024-05-30" },
+        { "url": "https://space.commerce.gov/weather-act-addresses-commercial-satellite-data-and-hosted-payloads/", "publisher": "NOAA Office of Space Commerce", "title": "Weather Act Addresses Commercial Satellite Data and Hosted Payloads", "date": "2017-04-18" }
+      ]
+    }
+  ]
+}

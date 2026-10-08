@@ -1,0 +1,83 @@
+{
+  "id": "telmex-privatization",
+  "title": "Teléfonos de México (Telmex) → Grupo Carso, Southwestern Bell and France Télécom consortium",
+  "pattern": "privatization",
+  "country": "Mexico",
+  "summary": "Telmex was formed in 1947 under private foreign ownership, and the Mexican federal government acquired a majority of its capital stock in 1972. In December 1990 the government sold shares carrying voting control (a 20.4% stake) to a consortium led by Carlos Slim's Grupo Carso with Southwestern Bell and France Télécom, for about US$1.76 billion. The government sold its remaining shares in a series of transactions beginning in May 1991. Telmex remained the dominant operator; a 2012 OECD working paper estimated that low competition in Mexican telecoms cost consumers USD 129.2 billion (PPP) in 2005–2009, a figure Telmex disputed.",
+  "public": {
+    "name": "Teléfonos de México (state-controlled)",
+    "funder": "Government of Mexico",
+    "start": { "date": "1972", "precision": "year" },
+    "end": { "date": "1990-12", "precision": "month", "kind": "privatized" },
+    "sources": [
+      { "url": "https://www.sec.gov/Archives/edgar/data/866213/000119312505132231/d20f.htm", "publisher": "Teléfonos de México (SEC EDGAR, Form 20-F)", "title": "Teléfonos de México, S.A. de C.V., Annual Report on Form 20-F for the fiscal year ended December 31, 2004", "date": "2005-06-28" }
+    ]
+  },
+  "private": {
+    "name": "Consortium of Grupo Carso (Carlos Slim), Southwestern Bell (later SBC) and France Télécom, with Mexican investors",
+    "founded": { "date": "1990-12", "precision": "month" },
+    "founders": ["Carlos Slim Helú"],
+    "funders": ["Grupo Carso", "Southwestern Bell", "France Télécom"],
+    "outcome": "Grupo Carso's own history says it won the bid at the end of 1990 with Southwestern Bell, France Telecom and several Mexican investors. Slim's site says the 20.4% control stake was paid for at about 1.71–1.72 billion dollars and that the bid valued the company at 8.615 billion dollars, against a market value of 1.387 billion that day. By 2005, Telmex's 20-F reported that Carso Global Telecom, controlled by Slim and his family, controlled the company, with SBC International also holding AA (control) shares. The ITU reports total Telmex privatization proceeds of US$7,769 million from sales in 1990–1994, including 4.4% sold to employees in 1990.",
+    "sources": [
+      { "url": "https://carlosslim.com/act_empresarial_ing.html", "publisher": "Carlos Slim Helú (official site)", "title": "Business activity" },
+      { "url": "https://carlosslim.com/07_ing.html", "publisher": "Carlos Slim Helú (official site)", "title": "7. How was Telmex privatized?" },
+      { "url": "https://www.sec.gov/Archives/edgar/data/866213/000119312505132231/d20f.htm", "publisher": "Teléfonos de México (SEC EDGAR, Form 20-F)", "title": "Teléfonos de México, S.A. de C.V., Annual Report on Form 20-F for the fiscal year ended December 31, 2004", "date": "2005-06-28" },
+      { "url": "https://training.itcilo.org/actrav_cdrom1/english/global/frame/itu5bi.htm", "publisher": "International Telecommunication Union (via ILO International Training Centre)", "title": "Telecommunications privatizations raising over US$ 5 billion, 1984-1996" }
+    ]
+  },
+  "links": [
+    {
+      "type": "asset-transfer",
+      "claim": "Telmex's own SEC annual report states that in December 1990 the Mexican government sold shares representing voting control of the company, and sold the balance of its shares in a series of transactions beginning in May 1991.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/866213/000119312505132231/d20f.htm", "publisher": "Teléfonos de México (SEC EDGAR, Form 20-F)", "title": "Teléfonos de México, S.A. de C.V., Annual Report on Form 20-F for the fiscal year ended December 31, 2004", "date": "2005-06-28" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "ITU data record that in 1990 a 20.4% stake was sold to a consortium of Grupo Carso, France Telecom and SBC for US$1,757 million and 4.4% to employees for US$325 million, with total Telmex privatization proceeds of US$7,769 million over 1990–1994.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://training.itcilo.org/actrav_cdrom1/english/global/frame/itu5bi.htm", "publisher": "International Telecommunication Union (via ILO International Training Centre)", "title": "Telecommunications privatizations raising over US$ 5 billion, 1984-1996" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "Contemporary reporting: a U.S.-Mexican-French consortium won controlling interest in Telmex with a $1.76 billion bid.",
+      "status": "reported",
+      "sources": [
+        { "url": "https://digitalrepository.unm.edu/sourcemex/183", "publisher": "SourceMex, Latin America Data Base (University of New Mexico)", "title": "U.S.-Mexican-French Consortium Wins Controlling Interest In Telmex With $1.76 Billion Bid", "date": "1991-01-16" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "Grupo Carso says it won the bid to privatize Teléfonos de México at the end of 1990, together with Southwestern Bell, France Telecom and several Mexican investors.",
+      "status": "words",
+      "sources": [
+        { "url": "https://carlosslim.com/act_empresarial_ing.html", "publisher": "Carlos Slim Helú (official site)", "title": "Business activity" }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Carlos Slim bought Telmex for far less than it was worth.",
+      "assessment": "unsupported",
+      "explanation": "The figure usually cited, about US$1.76 billion, paid for a 20.4% control stake, not the whole company. Slim's own site says the bid implied a company value of 8.615 billion dollars, 16.6% above the market price that day. The sources opened here do not establish an independent valuation showing underpricing.",
+      "sources": [
+        { "url": "https://carlosslim.com/07_ing.html", "publisher": "Carlos Slim Helú (official site)", "title": "7. How was Telmex privatized?" },
+        { "url": "https://training.itcilo.org/actrav_cdrom1/english/global/frame/itu5bi.htm", "publisher": "International Telecommunication Union (via ILO International Training Centre)", "title": "Telecommunications privatizations raising over US$ 5 billion, 1984-1996" }
+      ]
+    },
+    {
+      "claim": "Low competition in Mexican telecoms after privatization cost consumers about $129 billion.",
+      "assessment": "partly-true",
+      "explanation": "An OECD Digital Economy working paper (2012) estimated consumer harm from low competition at USD 129.2 billion PPP over 2005–2009, about 1.8% of GDP a year. It is an econometric estimate of a later period, not a finding about the 1990 sale, and consultants hired by Telmex disputed it; a Stanford working paper by Roger Noll concluded that most of their criticisms were not valid.",
+      "sources": [
+        { "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2012/01/estimation-of-loss-in-consumer-surplus-resulting-from-excessive-pricing-of-telecommunication-services-in-mexico_g17a20cc/5k9gtw51j4vb-en.pdf", "publisher": "OECD", "title": "Estimation of Loss in Consumer Surplus Resulting from Excessive Pricing of Telecommunication Services in Mexico (OECD Digital Economy Papers No. 191, Marta Stryszowska)", "date": "2012-01" },
+        { "url": "https://siepr.stanford.edu/publications/working-paper/assessing-telecommunications-policy-mexico", "publisher": "Stanford Institute for Economic Policy Research", "title": "Assessing Telecommunications Policy in Mexico (Roger Noll)", "date": "2013-07" }
+      ]
+    }
+  ]
+}

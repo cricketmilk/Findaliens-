@@ -1,0 +1,101 @@
+{
+  "id": "british-rail-privatisation",
+  "title": "British Rail → Railtrack, train operators and leasing companies",
+  "pattern": "privatization",
+  "country": "United Kingdom",
+  "summary": "British Rail, run by the state-owned British Railways Board from 1963, was broken up under the Railways Act 1993. Track and stations went to Railtrack, floated on the London Stock Exchange in May 1996; passenger services were let as 25 franchises in 1996–97; and trains went to three rolling-stock leasing companies that were sold and then resold within months at higher prices. Railtrack was put into railway administration in October 2001 and its network passed to Network Rail, a company without shareholders.",
+  "public": {
+    "name": "British Rail (British Railways Board)",
+    "funder": "HM Government",
+    "start": { "date": "1963", "precision": "year" },
+    "end": { "date": "1997", "precision": "year", "kind": "privatized" },
+    "sources": [
+      { "url": "https://beta.nationalarchives.gov.uk/catalogue/id/C12", "publisher": "The National Archives (UK)", "title": "Records created or inherited by the British Transport Commission, the British Railways Board and related bodies (AN)" },
+      { "url": "https://www.legislation.gov.uk/ukpga/1993/43/introduction/enacted", "publisher": "legislation.gov.uk", "title": "Railways Act 1993 (c. 43), introduction as enacted", "date": "1993-11-05" }
+    ]
+  },
+  "private": {
+    "name": "Railtrack Group plc (infrastructure); 25 franchised train operating companies (e.g. Stagecoach, National Express, Virgin, FirstGroup-backed Great Western Holdings); rolling-stock companies Porterbrook, Eversholt and Angel Trains",
+    "founded": { "date": "1996-02", "precision": "month" },
+    "founders": [],
+    "funders": [],
+    "outcome": "The date above is when the first two franchises were handed over. Railtrack Group was floated in May 1996 at £3.80 a share. After the Hatfield crash (October 2000) Railtrack was placed in railway administration by court order on 7 October 2001 after the government withdrew further financial support; Network Rail, a company limited by guarantee, was incorporated in March 2002, and Railtrack's creditors were paid in full with government funding. A suit by 48,105 Railtrack shareholders alleging misfeasance in public office was dismissed in 2005.",
+    "sources": [
+      { "url": "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2005/2192", "publisher": "High Court of England and Wales (The National Archives, Find Case Law)", "title": "Weir & Ors v Secretary of State for Transport & Anor [2005] EWHC 2192 (Ch)", "date": "2005-10-14" },
+      { "url": "https://railwaygazette.com/news/tilt-trains-in-prospect-as-final-franchises-awarded/26802.article", "publisher": "Railway Gazette International", "title": "Tilt trains in prospect as final franchises awarded", "date": "1997-03-01" }
+    ]
+  },
+  "links": [
+    {
+      "type": "asset-transfer",
+      "claim": "The Railways Act 1993 provides for the disposal, transfer and vesting of the property by which railway services are provided, requires a Franchising Director to designate passenger services for franchise agreements (s. 23), and empowers the British Railways Board to form companies to facilitate disposals (s. 84).",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.legislation.gov.uk/ukpga/1993/43/introduction/enacted", "publisher": "legislation.gov.uk", "title": "Railways Act 1993 (c. 43), introduction as enacted", "date": "1993-11-05" },
+        { "url": "https://www.legislation.gov.uk/ukpga/1993/43/section/23/enacted", "publisher": "legislation.gov.uk", "title": "Railways Act 1993, section 23: Passenger services to be subject to franchise agreements" },
+        { "url": "https://www.legislation.gov.uk/ukpga/1993/43/section/84/enacted", "publisher": "legislation.gov.uk", "title": "Railways Act 1993, section 84: Powers of the Board to form companies" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "The National Archives' record of the British Railways Board states that the Board ran all train services until 1997, when they were sold or franchised; privatisation was completed in 1997 and the Board was abolished in 2001 under the Transport Act 2000.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://beta.nationalarchives.gov.uk/catalogue/id/C12", "publisher": "The National Archives (UK)", "title": "Records created or inherited by the British Transport Commission, the British Railways Board and related bodies (AN)" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "The High Court recorded that Railtrack owned the network's lines, signalling and stations, and that its parent Railtrack Group was floated on the London Stock Exchange in May 1996 with shares offered to the public at £3.80.",
+      "status": "court",
+      "sources": [
+        { "url": "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2005/2192", "publisher": "High Court of England and Wales (The National Archives, Find Case Law)", "title": "Weir & Ors v Secretary of State for Transport & Anor [2005] EWHC 2192 (Ch)", "date": "2005-10-14" }
+      ]
+    },
+    {
+      "type": "contract",
+      "claim": "The Office of Passenger Rail Franchising transferred 25 ex-BR train operating companies to private operators in little more than a year: the first two franchises were handed over in February 1996 and the final seven winners were announced from 30 January 1997.",
+      "status": "reported",
+      "sources": [
+        { "url": "https://railwaygazette.com/news/tilt-trains-in-prospect-as-final-franchises-awarded/26802.article", "publisher": "Railway Gazette International", "title": "Tilt trains in prospect as final franchises awarded", "date": "1997-03-01" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "Rolling-stock company Porterbrook was bought by a management buyout team for £527 million in January 1996 and sold to Stagecoach for £825 million that summer; 49 former British Rail managers and employees made a profit of almost £84 million. All three leasing companies were resold (to Stagecoach, Forward Trust and the Royal Bank of Scotland).",
+      "status": "reported",
+      "sources": [
+        { "url": "https://www.irishtimes.com/business/british-rail-row-over-top-pay-deal-1.73601", "publisher": "The Irish Times", "title": "British rail row over top pay deal", "date": "1996-08-03" },
+        { "url": "https://www.railwaygazette.com/news/roscos-under-review/26881.article", "publisher": "Railway Gazette International", "title": "Roscos under review", "date": "1998-03-01" }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "The government's 2001 takeover of Railtrack was ruled an unlawful seizure from its shareholders.",
+      "assessment": "false",
+      "explanation": "About 48,105 Railtrack Group shareholders sued Transport Secretary Stephen Byers for misfeasance in public office over the October 2001 administration. The High Court held that the claimants had not shown he acted with targeted malice against the shareholders, rejected their human-rights claim as well, and dismissed the action in October 2005.",
+      "sources": [
+        { "url": "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2005/2192", "publisher": "High Court of England and Wales (The National Archives, Find Case Law)", "title": "Weir & Ors v Secretary of State for Transport & Anor [2005] EWHC 2192 (Ch)", "date": "2005-10-14" }
+      ]
+    },
+    {
+      "claim": "The leasing companies were sold off cheaply and flipped for big profits.",
+      "assessment": "true",
+      "explanation": "The record supports this for Porterbrook: £527 million in January 1996, then £825 million from Stagecoach a few months later. Railway Gazette reported that all three companies were resold, 'in each case netting huge profits for the original owners'. The National Audit Office reported on the sales in March 1998 (HC 576); its full text was not reviewed here.",
+      "sources": [
+        { "url": "https://www.irishtimes.com/business/british-rail-row-over-top-pay-deal-1.73601", "publisher": "The Irish Times", "title": "British rail row over top pay deal", "date": "1996-08-03" },
+        { "url": "https://www.railwaygazette.com/news/roscos-under-review/26881.article", "publisher": "Railway Gazette International", "title": "Roscos under review", "date": "1998-03-01" },
+        { "url": "https://www.nao.org.uk/reports/department-of-the-environment-transport-and-the-regions-privatisation-of-the-rolling-stock-leasing-companies-2/", "publisher": "National Audit Office", "title": "Department of the Environment, Transport and the Regions – Privatisation of the Rolling Stock Leasing Companies (HC 576, 1997-98)", "date": "1998-03" }
+      ]
+    },
+    {
+      "claim": "Privatisation took the railway off the public purse.",
+      "assessment": "false",
+      "explanation": "Railtrack's 1996 prospectus, quoted by the High Court, said it depended indirectly on large public financial support received by the train operators. The court also records that the government's July 2000 ten-year plan (Transport 2010) put government rail funding to 2010 at £29 billion, and that the government funded payment of Railtrack's creditors in full during the administration.",
+      "sources": [
+        { "url": "https://caselaw.nationalarchives.gov.uk/ewhc/ch/2005/2192", "publisher": "High Court of England and Wales (The National Archives, Find Case Law)", "title": "Weir & Ors v Secretary of State for Transport & Anor [2005] EWHC 2192 (Ch)", "date": "2005-10-14" }
+      ]
+    }
+  ]
+}

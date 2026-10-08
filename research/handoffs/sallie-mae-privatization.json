@@ -1,0 +1,59 @@
+{
+  "id": "sallie-mae-privatization",
+  "title": "Student Loan Marketing Association (Sallie Mae) → SLM Corporation",
+  "pattern": "privatization",
+  "country": "United States",
+  "summary": "Congress chartered the Student Loan Marketing Association in 1972 as a shareholder-owned government-sponsored enterprise (GSE) to provide financing and liquidity to the student loan market. The Student Loan Marketing Association Reorganization Act of 1996 authorized it to give up its federal charter through a corporate reorganization; shareholders approved the plan on 31 July 1997, creating SLM Corporation as a private holding company with the GSE as a subsidiary. On 29 December 2004 Treasury signed documents dissolving the GSE, nearly four years before the statutory deadline of 30 September 2008. This was the end of a federal charter and its implied backing, not a sale of government-owned shares.",
+  "public": {
+    "name": "Student Loan Marketing Association (federally chartered GSE)",
+    "funder": "U.S. Congress (federal charter; shareholder-owned)",
+    "start": { "date": "1972-06-23", "precision": "day" },
+    "end": { "date": "2004-12-29", "precision": "day", "kind": "privatized" },
+    "sources": [
+      { "url": "https://www.govinfo.gov/content/pkg/USCODE-2020-title20/html/USCODE-2020-title20-chap28-subchapIV-partB-sec1087-2.htm", "publisher": "U.S. Government Publishing Office (govinfo)", "title": "20 U.S.C. 1087-2, Student Loan Marketing Association (notes: prior provisions, Pub. L. 92-318, June 23, 1972; Pub. L. 104-208, title VI, §602)" },
+      { "url": "https://home.treasury.gov/news/press-releases/js2173", "publisher": "U.S. Department of the Treasury", "title": "Treasury Announces Successful Privatization of Sallie Mae", "date": "2004-12-29" }
+    ]
+  },
+  "private": {
+    "name": "SLM Corporation (Sallie Mae), Delaware holding company",
+    "founded": { "date": "1997-07-31", "precision": "day" },
+    "founders": [],
+    "funders": [],
+    "outcome": "Shareholders approved the reorganization on 31 July 1997, after which the GSE operated as a subsidiary of the private SLM Corporation. On 29 December 2004 SLM Corporation defeased the GSE's remaining debt and the federal charter was dissolved; Treasury said a trust was set up to cover the GSE's remaining liabilities. SLM's vice chairman and CEO, Lord, said the company was 'satisfied government's helping hand is no longer necessary.'",
+    "sources": [
+      { "url": "https://www.sec.gov/Archives/edgar/data/1032033/000095013305000010/w69682bexv99w1.htm", "publisher": "SLM Corporation (SEC EDGAR, Form 8-K Exhibit 99.1)", "title": "SLM Corporation Completes Privatization of Student Loan Marketing Association", "date": "2004-12-29" },
+      { "url": "https://home.treasury.gov/news/press-releases/js2173", "publisher": "U.S. Department of the Treasury", "title": "Treasury Announces Successful Privatization of Sallie Mae", "date": "2004-12-29" }
+    ]
+  },
+  "links": [
+    {
+      "type": "asset-transfer",
+      "claim": "Section 602 of the Student Loan Marketing Association Reorganization Act of 1996 (Pub. L. 104-208, title VI, enacted 30 September 1996) provided for reorganizing the GSE under a private holding company, with a trust to extinguish its remaining obligations and repeal of its charter section afterwards.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.govinfo.gov/content/pkg/USCODE-2020-title20/html/USCODE-2020-title20-chap28-subchapIV-partB-sec1087-2.htm", "publisher": "U.S. Government Publishing Office (govinfo)", "title": "20 U.S.C. 1087-2, Student Loan Marketing Association (notes: prior provisions, Pub. L. 92-318, June 23, 1972; Pub. L. 104-208, title VI, §602)" },
+        { "url": "https://home.treasury.gov/news/press-releases/js2173", "publisher": "U.S. Department of the Treasury", "title": "Treasury Announces Successful Privatization of Sallie Mae", "date": "2004-12-29" }
+      ]
+    },
+    {
+      "type": "stated-successor",
+      "claim": "Treasury Assistant Secretary Wayne A. Abernathy signed the final documents on 29 December 2004 that Treasury said effectively dissolved Sallie Mae as a GSE and ended the government's ties to it; SLM Corporation said the same day it had completed a seven-year privatization and dissolved SLMA's federal charter.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://home.treasury.gov/news/press-releases/js2173", "publisher": "U.S. Department of the Treasury", "title": "Treasury Announces Successful Privatization of Sallie Mae", "date": "2004-12-29" },
+        { "url": "https://www.sec.gov/Archives/edgar/data/1032033/000095013305000010/w69682bexv99w1.htm", "publisher": "SLM Corporation (SEC EDGAR, Form 8-K Exhibit 99.1)", "title": "SLM Corporation Completes Privatization of Student Loan Marketing Association", "date": "2004-12-29" }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Sallie Mae was a government agency that was sold to private investors.",
+      "assessment": "partly-true",
+      "explanation": "Sallie Mae was created by Congress and held a federal charter with GSE status, but the House committee report on the privatization bill describes it as established as a shareholder-owned financial intermediary. Privatization ended federal sponsorship and the charter; it was not a sale of shares owned by the government.",
+      "sources": [
+        { "url": "https://www.govinfo.gov/content/pkg/CRPT-104hrpt153/html/CRPT-104hrpt153.htm", "publisher": "U.S. House of Representatives (govinfo)", "title": "House Report 104-153, Privatization Act of 1995 (H.R. 1720)", "date": "1995-06-22" },
+        { "url": "https://home.treasury.gov/news/press-releases/js2173", "publisher": "U.S. Department of the Treasury", "title": "Treasury Announces Successful Privatization of Sallie Mae", "date": "2004-12-29" }
+      ]
+    }
+  ]
+}

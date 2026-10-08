@@ -1,0 +1,79 @@
+{
+  "entity": "jpmorgan-chase",
+  "name": "JPMorgan Chase",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "JPMorgan Chase & Co. is a major U.S. bank. In January 2014 it entered a deferred prosecution agreement over two Bank Secrecy Act violations tied to its long banking relationship with Bernard Madoff, whose Ponzi scheme was exposed in 2008, and forfeited $1.7 billion. JPMorgan was Jeffrey Epstein's bank from 1998 until 2013, about five years past his 2008 conviction. In 2023 it agreed to pay $290 million to settle a lawsuit by Epstein's victims and $75 million to settle a suit by the U.S. Virgin Islands, without admitting liability.",
+    "sources": [
+      {
+        "url": "https://www.justice.gov/usao-sdny/pr/manhattan-us-attorney-announces-criminal-charges-against-jpmorgan-chase-bank-na",
+        "publisher": "U.S. Department of Justice, SDNY",
+        "title": "Manhattan U.S. Attorney Announces Criminal Charges Against JPMorgan Chase Bank, N.A.",
+        "date": "2014-01-07"
+      },
+      {
+        "url": "https://www.cbsnews.com/news/jpmorgan-settles-madoff-fraud-claims-for-17b/",
+        "publisher": "CBS News / AP",
+        "title": "JPMorgan to pay over $2 billion in Madoff fraud",
+        "date": "2014-01-07"
+      },
+      {
+        "url": "https://www.cbsnews.com/news/jpmorgan-settlement-jeffrey-epstein-victims/",
+        "publisher": "CBS News",
+        "title": "JPMorgan reaches $290 million settlement with Jeffrey Epstein victims",
+        "date": "2023-06-12"
+      },
+      {
+        "url": "https://www.nbcnews.com/business/business-news/jp-morgan-75-million-settlement-jeffrey-epstein-lawsuit-victims-rcna117378",
+        "publisher": "NBC News",
+        "title": "JPMorgan to pay $75 million to settle lawsuit over ties with Jeffrey Epstein",
+        "date": "2023-09-26"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In January 2014, JPMorgan Chase entered a two-year deferred prosecution agreement resolving two Bank Secrecy Act felony charges, including failure to file a suspicious activity report about Madoff in the U.S., and forfeited $1.7 billion. In October 2008 the bank's London branch had reported to UK authorities that Madoff's returns appeared 'too good to be true'.",
+      "status": "court",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdny/pr/manhattan-us-attorney-announces-criminal-charges-against-jpmorgan-chase-bank-na",
+          "publisher": "U.S. Department of Justice, SDNY",
+          "title": "Manhattan U.S. Attorney Announces Criminal Charges Against JPMorgan Chase Bank, N.A.",
+          "date": "2014-01-07"
+        },
+        {
+          "url": "https://www.cbsnews.com/news/jpmorgan-settles-madoff-fraud-claims-for-17b/",
+          "publisher": "CBS News / AP",
+          "title": "JPMorgan to pay over $2 billion in Madoff fraud",
+          "date": "2014-01-07"
+        },
+        {
+          "url": "https://www.cbsnews.com/news/madoff-trustee-jp-morgan-execs-warned-of-fraud/",
+          "publisher": "CBS News / AP",
+          "title": "Madoff Trustee: JP Morgan Execs Warned Of Fraud",
+          "date": "2011-02-03"
+        }
+      ]
+    },
+    {
+      "claim": "In 2023, JPMorgan Chase agreed to pay $290 million to settle a lawsuit brought on behalf of Jeffrey Epstein's victims and $75 million to settle a suit by the U.S. Virgin Islands alleging that the bank enabled and benefited from Epstein's sex trafficking. The bank did not admit liability.",
+      "status": "court",
+      "sources": [
+        {
+          "url": "https://www.cbsnews.com/news/jpmorgan-settlement-jeffrey-epstein-victims/",
+          "publisher": "CBS News",
+          "title": "JPMorgan reaches $290 million settlement with Jeffrey Epstein victims",
+          "date": "2023-06-12"
+        },
+        {
+          "url": "https://www.nbcnews.com/business/business-news/jp-morgan-75-million-settlement-jeffrey-epstein-lawsuit-victims-rcna117378",
+          "publisher": "NBC News",
+          "title": "JPMorgan to pay $75 million to settle lawsuit over ties with Jeffrey Epstein",
+          "date": "2023-09-26"
+        }
+      ]
+    }
+  ],
+  "connections": []
+}

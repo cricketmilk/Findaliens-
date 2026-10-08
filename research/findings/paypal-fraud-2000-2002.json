@@ -1,0 +1,563 @@
+{
+  "entity": "paypal-fraud-2000-2002",
+  "name": "PayPal's early fraud losses (2000–2002)",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "PayPal's filings show a $11.0M provision for transaction losses in 2000 (0.87% of payment volume) and $14.8M (0.42%) in 2001. The S-1 separately reports $8.9M in gross unauthorized credit-card charge-backs for 2000, $5.7M of them during a July–October 2000 'significant fraud episode'. In a 2004 Stanford talk, a PayPal co-founder named Russian mobsters as the primary culprits; the FBI's 2000 'Invita' sting led to Vasiliy Gorshkov's conviction on 20 counts, including fraud against PayPal using stolen credit cards. No public record found tying the losses to sign-up-bonus abuse, or of insider involvement, payments or arrangements with fraudsters, or losses tolerated on purpose; the available record describes external fraud that the company fought.",
+    "sources": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205701533855/a2059025zs-1.htm",
+        "publisher": "SEC (PayPal, Inc.)",
+        "title": "PayPal, Inc. Form S-1 registration statement",
+        "date": "2001-09-28"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205702009834/a2073071z10-k405.htm",
+        "publisher": "SEC (PayPal, Inc.)",
+        "title": "PayPal, Inc. Form 10-K405 for fiscal year 2001",
+        "date": "2002-03-13"
+      },
+      {
+        "url": "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2001/gorshkovconvict.htm",
+        "publisher": "U.S. Department of Justice (USAO W.D. Wash.)",
+        "title": "Russian Computer Hacker Convicted by Jury",
+        "date": "2001-10-10"
+      },
+      {
+        "url": "https://web.archive.org/web/2020id_/https://ecorner.stanford.edu/wp-content/uploads/sites/2/2004/01/1028.pdf",
+        "publisher": "Stanford eCorner (Internet Archive copy)",
+        "title": "Coping with Fraud — Max Levchin and Peter Thiel (transcript)",
+        "date": "2004-01-21"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "At launch PayPal paid $10 to each person who opened an account and another $10 for each new user that person referred; a co-founder said in a 2004 Stanford talk that this made the average cost per customer $20, which he described as cheaper than advertising alternatives.",
+      "status": "words",
+      "date": "1999",
+      "quote": "So anyone who would join PayPal would give $10 into the PayPal account and for anyone who would recruit, anyone who that person recruit, we give it additional $10 just for the referral.",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/2020id_/https://ecorner.stanford.edu/wp-content/uploads/sites/2/2004/01/1026.pdf",
+          "publisher": "Stanford eCorner (Internet Archive copy)",
+          "title": "Selling Customers -- Getting the Product Out — Max Levchin and Peter Thiel (transcript)",
+          "date": "2004-01-21"
+        }
+      ]
+    },
+    {
+      "claim": "PayPal's S-1 reports $14.9 million in sign-up and referral bonuses (ranging from $5 to $10) expensed in 2000, including $8.6 million in the three months ended June 30, 2000.",
+      "status": "documented",
+      "date": "2000",
+      "quote": "Promotional and marketing expenses for 2000 reflect $14.9 million in sign-up and referral bonuses ranging from $5 to $10",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC (PayPal, Inc.)",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        }
+      ]
+    },
+    {
+      "claim": "Bonus spending fell to $0.2 million in Q2 2001 and $0.9 million for all of 2001 (average $0.12 per new account, versus $2.71 in 2000). The S-1 attributes the decrease to tightened requirements for receiving bonuses; neither the S-1 nor the 10-K405 ties the change to fraud.",
+      "status": "documented",
+      "date": "2001",
+      "quote": "We attribute the decrease to the tightening of our requirements to receive sign-up and referral bonuses",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC (PayPal, Inc.)",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205702009834/a2073071z10-k405.htm",
+          "publisher": "SEC (PayPal, Inc.)",
+          "title": "PayPal, Inc. Form 10-K405 for fiscal year 2001",
+          "date": "2002-03-13"
+        }
+      ]
+    },
+    {
+      "claim": "In the 2004 Stanford talk, the co-founder speaking as CEO said that because each new customer cost $20, expenses grew with the user base, and by early March 2000 the burn rate was about $10 million a month with $15 million in the bank; PayPal closed $100 million in funding on March 31, 2000.",
+      "status": "words",
+      "date": "2000-03",
+      "quote": "But the burn rate was running at about 10 million in a month and when sort of plotted out the whole thing was going to blow up in six weeks.",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/2020id_/https://ecorner.stanford.edu/wp-content/uploads/sites/2/2004/01/1027.pdf",
+          "publisher": "Stanford eCorner (Internet Archive copy)",
+          "title": "Exponential Growth — Max Levchin and Peter Thiel (transcript)",
+          "date": "2004-01-21"
+        }
+      ]
+    },
+    {
+      "claim": "PayPal's provision for transaction losses was $11.0 million in 2000 (0.87% of payment volume): about $13,000 in Q1, $1.34 million in Q2, $5.43 million in Q3 and $4.24 million in Q4 2000.",
+      "status": "documented",
+      "date": "2000",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC (PayPal, Inc.)",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        }
+      ]
+    },
+    {
+      "claim": "PayPal's S-1 discloses a 'significant fraud episode' from July to October 2000 that produced $5.7 million in gross unauthorized credit-card charge-backs, 64% of the year's $8.9 million total. The filing does not identify who was responsible or name any country.",
+      "status": "documented",
+      "date": "2000-07/2000-10",
+      "quote": "During the four months between July and October 2000, we experienced a significant fraud episode",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC (PayPal, Inc.)",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        }
+      ]
+    },
+    {
+      "claim": "The S-1 states that MasterCard found PayPal had violated its operating rules through excessive charge-backs in the second half of 2000 and fined it; the amount was not disclosed.",
+      "status": "documented",
+      "date": "2000",
+      "quote": "MasterCard determined that we violated its operating rules by having excessive charge-backs and fined us.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC (PayPal, Inc.)",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        }
+      ]
+    },
+    {
+      "claim": "PayPal's provision for transaction losses was $14.8 million in 2001 (0.42% of payment volume, down from 0.87% in 2000), by quarter $3.10 million, $2.44 million, $4.16 million and $5.06 million.",
+      "status": "documented",
+      "date": "2001",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205702009834/a2073071z10-k405.htm",
+          "publisher": "SEC (PayPal, Inc.)",
+          "title": "PayPal, Inc. Form 10-K405 for fiscal year 2001",
+          "date": "2002-03-13"
+        }
+      ]
+    },
+    {
+      "claim": "Neither the 2001 S-1 nor the 2001 10-K405 attributes losses to Russia, Eastern Europe or organized rings; the S-1 refers generally to identity thieves and people using stolen card or bank account numbers 'often in bulk'.",
+      "status": "documented",
+      "date": "2001",
+      "quote": "Identity thieves and those committing fraud using stolen credit card or bank account numbers, often in bulk",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC (PayPal, Inc.)",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205702009834/a2073071z10-k405.htm",
+          "publisher": "SEC (PayPal, Inc.)",
+          "title": "PayPal, Inc. Form 10-K405 for fiscal year 2001",
+          "date": "2002-03-13"
+        }
+      ]
+    },
+    {
+      "claim": "Max Levchin later recalled that 2000 was 'the year of fraud' and that at one point PayPal was losing over $10 million a month to fraud. In a 2004 Stanford talk, the speaker (who refers to 'Peter and I') said PayPal was losing something like $12 million a month to fraud in June 2000, that the peak fraud rate was well above 1% of volume, and that it had fallen to about 0.55% by the end of 2001 (the same transcript also gives about 0.37% for end-2001; PayPal's 10-K405 reports a 0.42% loss provision for 2001).",
+      "status": "words",
+      "date": "2000-06",
+      "sources": [
+        {
+          "url": "https://gwern.net/doc/www/www.foundersatwork.com/d4fe8de60430796f9e7d76bd6dbbf8e7e7ce88b1.html",
+          "publisher": "Founders at Work (Jessica Livingston), archived by gwern.net",
+          "title": "Founders at Work — Max Levchin interview excerpt",
+          "date": "2007"
+        },
+        {
+          "url": "https://web.archive.org/web/2020id_/https://ecorner.stanford.edu/wp-content/uploads/sites/2/2004/01/1028.pdf",
+          "publisher": "Stanford eCorner (Internet Archive copy)",
+          "title": "Coping with Fraud — Max Levchin and Peter Thiel (transcript)",
+          "date": "2004-01-21"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205702009834/a2073071z10-k405.htm",
+          "publisher": "SEC (PayPal, Inc.)",
+          "title": "PayPal, Inc. Form 10-K405 for fiscal year 2001",
+          "date": "2002-03-13"
+        }
+      ]
+    },
+    {
+      "claim": "In the 2004 Stanford talk, a PayPal co-founder (the transcript does not label speakers) called Russian mobsters the 'primary culprits' of the fraud, and said their growing skill wiped out PayPal's competitors.",
+      "status": "words",
+      "date": "2004-01-21",
+      "quote": "we have a perverse symbiotic relationship with these Russian mobsters who were the primary culprits",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/2020id_/https://ecorner.stanford.edu/wp-content/uploads/sites/2/2004/01/1028.pdf",
+          "publisher": "Stanford eCorner (Internet Archive copy)",
+          "title": "Coping with Fraud — Max Levchin and Peter Thiel (transcript)",
+          "date": "2004-01-21"
+        }
+      ]
+    },
+    {
+      "claim": "PayPal's fraud-monitoring software, led by Levchin, was named 'Igor'. Contemporary reports describe the namesake as a Russian mobster who plagued the system (Newsweek), a Russian hacker it helped detect (Technology Review), and a Russian fraudster it helped apprehend in 2000 (TR35). None names the person.",
+      "status": "reported",
+      "date": "2001",
+      "quote": "They named the resulting software \"Igor,\" after a Russian mobster who plagued the system last year.",
+      "sources": [
+        {
+          "url": "https://www.newsweek.com/busting-web-bandits-154463",
+          "publisher": "Newsweek",
+          "title": "Busting the Web Bandits (Brad Stone)",
+          "date": "2001-07-16"
+        },
+        {
+          "url": "https://www.technologyreview.com/2001/12/01/235339/digital-cash-payoff/",
+          "publisher": "MIT Technology Review",
+          "title": "Digital Cash Payoff (Evan I. Schwartz)",
+          "date": "2001-12-01"
+        },
+        {
+          "url": "https://www.technologyreview.com/innovator/max-levchin/",
+          "publisher": "MIT Technology Review",
+          "title": "Innovators Under 35: Max Levchin",
+          "date": "2002-06-01"
+        }
+      ]
+    },
+    {
+      "claim": "The 'Gausebeck-Levchin test' asked new users to type distorted letters shown on a patterned background,, to separate human customers from programs opening accounts automatically.",
+      "status": "reported",
+      "date": "2000",
+      "quote": "The 'Gausebeck-Levchin' test imposed an image of black letters set against a yellow background",
+      "sources": [
+        {
+          "url": "https://reason.com/2005/08/01/who-killed-paypal-2/",
+          "publisher": "Reason",
+          "title": "Who Killed PayPal? (Radley Balko)",
+          "date": "2005-08-01"
+        }
+      ]
+    },
+    {
+      "claim": "Technology Review reported that PayPal and the FBI began sharing data and evidence months before the arrests announced in the FBI's Operation Cyber Loss (a sweep of 90 people disclosed in May 2001), and Levchin said FBI agents had been dropping by PayPal's offices regularly.",
+      "status": "reported",
+      "date": "2000",
+      "sources": [
+        {
+          "url": "https://www.technologyreview.com/2001/12/01/235339/digital-cash-payoff/",
+          "publisher": "MIT Technology Review",
+          "title": "Digital Cash Payoff (Evan I. Schwartz)",
+          "date": "2001-12-01"
+        }
+      ]
+    },
+    {
+      "claim": "In 2000 the FBI created a fake Seattle security start-up, 'Invita', contacted Alexey Ivanov of Chelyabinsk, Russia, during the summer and fall of 2000, and arrested Ivanov and Vasiliy Gorshkov after they arrived for a recorded meeting on November 10, 2000.",
+      "status": "documented",
+      "date": "2000-11-10",
+      "quote": "the FBI created a start-up computer security company named \"Invita\" in Seattle, Washington.",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2001/gorshkovconvict.htm",
+          "publisher": "U.S. Department of Justice (USAO W.D. Wash.)",
+          "title": "Russian Computer Hacker Convicted by Jury",
+          "date": "2001-10-10"
+        },
+        {
+          "url": "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2002/gorshkovSent.htm",
+          "publisher": "U.S. Department of Justice (USAO W.D. Wash.)",
+          "title": "Russian Computer Hacker Sentenced To Three Years In Prison",
+          "date": "2002-10-04"
+        }
+      ]
+    },
+    {
+      "claim": "Gorshkov was charged with conspiracy and 19 other crimes involving Speakeasy, Nara Bank, Central National Bank–Waco and PayPal; prosecutors said his programs opened PayPal accounts with random identities and stolen credit cards to generate cash. A jury convicted him on all 20 counts in October 2001.",
+      "status": "court",
+      "date": "2001-10-10",
+      "quote": "GORSHKOV's programs then created associated accounts at PayPal with random identities and stolen credit cards.",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2001/gorshkovconvict.htm",
+          "publisher": "U.S. Department of Justice (USAO W.D. Wash.)",
+          "title": "Russian Computer Hacker Convicted by Jury",
+          "date": "2001-10-10"
+        }
+      ]
+    },
+    {
+      "claim": "On October 4, 2002 Gorshkov was sentenced to 36 months in prison and ordered to pay nearly $700,000 in restitution for losses to Speakeasy and PayPal combined; the release does not separate PayPal's share.",
+      "status": "court",
+      "date": "2002-10-04",
+      "quote": "restitution of nearly $700,000 for the losses he caused to Speakeasy and PayPal",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2002/gorshkovSent.htm",
+          "publisher": "U.S. Department of Justice (USAO W.D. Wash.)",
+          "title": "Russian Computer Hacker Sentenced To Three Years In Prison",
+          "date": "2002-10-04"
+        }
+      ]
+    },
+    {
+      "claim": "Newsweek reported that PayPal told prosecutors the two Russians obtained about $100,000 through PayPal accounts funded with stolen cards before their arrest.",
+      "status": "reported",
+      "date": "2001-07-16",
+      "quote": "PayPal told prosecutors the two Russians got $100,000 using this method before the bust",
+      "sources": [
+        {
+          "url": "https://www.newsweek.com/busting-web-bandits-154463",
+          "publisher": "Newsweek",
+          "title": "Busting the Web Bandits (Brad Stone)",
+          "date": "2001-07-16"
+        }
+      ]
+    },
+    {
+      "claim": "The Seattle Times, citing prosecutors and court documents, reported that the hackers built a bogus copy of PayPal's home page and emailed PayPal customers to collect their usernames and passwords. Ivanov later told CSO that the lure was sent to about 150 PayPal users and yielded about 120 passwords.",
+      "status": "reported",
+      "date": "2001-04-23",
+      "sources": [
+        {
+          "url": "https://archive.seattletimes.com/archive/20010423/hacker23m0/e-sting-nets-2-russian-hackers-fbi-alleges-pair-stole-credit-info",
+          "publisher": "Seattle Times",
+          "title": "E-sting nets 2 Russian hackers; FBI alleges pair stole credit info (Mike Carter)",
+          "date": "2001-04-23"
+        },
+        {
+          "url": "https://www.csoonline.com/article/2118241/alexey-ivanov-and-vasiliy-gorshkov--russian-hacker-roulette.html",
+          "publisher": "CSO Online",
+          "title": "Alexey Ivanov and Vasiliy Gorshkov: Russian Hacker Roulette (Art Jahnke)",
+          "date": "2005-01-01"
+        }
+      ]
+    },
+    {
+      "claim": "Ivanov pleaded guilty in Connecticut and on July 25, 2003 was sentenced to 48 months in prison; the court found an aggregate loss of about $25 million across his victims. The release does not name PayPal.",
+      "status": "court",
+      "date": "2003-07-25",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2003/ivanovSent.htm",
+          "publisher": "U.S. Department of Justice (USAO D. Conn.)",
+          "title": "Russian Man Sentenced for Hacking into Computers in the United States",
+          "date": "2003-07-25"
+        }
+      ]
+    },
+    {
+      "claim": "No public record found of any PayPal employee or insider charged with, or accused of, taking part in the 2000–2002 fraud. The 2001 S-1 and 2001 10-K405 list no such proceeding; the 10-K405's legal proceedings concern account-restriction class actions and a patent suit.",
+      "status": "documented",
+      "date": "2002-03-13",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC (PayPal, Inc.)",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205702009834/a2073071z10-k405.htm",
+          "publisher": "SEC (PayPal, Inc.)",
+          "title": "PayPal, Inc. Form 10-K405 for fiscal year 2001",
+          "date": "2002-03-13"
+        }
+      ]
+    },
+    {
+      "claim": "No public record found of any payment or arrangement between PayPal and the fraudsters, or of losses being tolerated on purpose. Executives' own accounts describe fraud as a threat to the company's survival; Levchin told Newsweek in 2001 that they would 'either defeat fraud or fraud would defeat us'.",
+      "status": "words",
+      "date": "2001-07-16",
+      "quote": "We came to realize that we would either defeat fraud or fraud would defeat us",
+      "sources": [
+        {
+          "url": "https://www.newsweek.com/busting-web-bandits-154463",
+          "publisher": "Newsweek",
+          "title": "Busting the Web Bandits (Brad Stone)",
+          "date": "2001-07-16"
+        },
+        {
+          "url": "https://web.archive.org/web/2020id_/https://ecorner.stanford.edu/wp-content/uploads/sites/2/2004/01/1028.pdf",
+          "publisher": "Stanford eCorner (Internet Archive copy)",
+          "title": "Coping with Fraud — Max Levchin and Peter Thiel (transcript)",
+          "date": "2004-01-21"
+        }
+      ]
+    },
+    {
+      "claim": "Fortune reported in 2007 that early PayPal battled Russian fraudsters who were stealing millions using copied credit card numbers; former PayPal engineer Jawed Karim told the magazine that charge-backs almost killed the company.",
+      "status": "reported",
+      "date": "2007-11-13",
+      "sources": [
+        {
+          "url": "https://fortune.com/2007/11/13/paypal-mafia/",
+          "publisher": "Fortune",
+          "title": "The PayPal Mafia (Jeffrey M. O'Brien)",
+          "date": "2007-11-13"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "paypal",
+      "toName": "PayPal",
+      "toType": "company",
+      "relation": "other",
+      "claim": "PayPal recorded $11.0 million (2000) and $14.8 million (2001) in provisions for transaction losses; its filings say credit-card charge-backs were the largest source of transaction loss expense.",
+      "status": "documented",
+      "date": "2000/2001",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC (PayPal, Inc.)",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205702009834/a2073071z10-k405.htm",
+          "publisher": "SEC (PayPal, Inc.)",
+          "title": "PayPal, Inc. Form 10-K405 for fiscal year 2001",
+          "date": "2002-03-13"
+        }
+      ]
+    },
+    {
+      "to": "max-levchin",
+      "toName": "Max Levchin",
+      "toType": "person",
+      "relation": "other",
+      "claim": "As PayPal's CTO, Levchin led development of the 'Igor' fraud-monitoring software; an account-opening test used against automated sign-ups bears his name (the 'Gausebeck-Levchin' test).",
+      "status": "reported",
+      "date": "2000/2001",
+      "sources": [
+        {
+          "url": "https://www.technologyreview.com/innovator/max-levchin/",
+          "publisher": "MIT Technology Review",
+          "title": "Innovators Under 35: Max Levchin",
+          "date": "2002-06-01"
+        },
+        {
+          "url": "https://reason.com/2005/08/01/who-killed-paypal-2/",
+          "publisher": "Reason",
+          "title": "Who Killed PayPal? (Radley Balko)",
+          "date": "2005-08-01"
+        }
+      ]
+    },
+    {
+      "to": "peter-thiel",
+      "toName": "Peter Thiel",
+      "toType": "person",
+      "relation": "other",
+      "claim": "At a joint January 2004 Stanford talk with Levchin, the co-founders described the 2000 fraud losses; one of them (speakers are not labeled in the transcript) named Russian mobsters as the primary culprits.",
+      "status": "words",
+      "date": "2004-01-21",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/2020id_/https://ecorner.stanford.edu/wp-content/uploads/sites/2/2004/01/1028.pdf",
+          "publisher": "Stanford eCorner (Internet Archive copy)",
+          "title": "Coping with Fraud — Max Levchin and Peter Thiel (transcript)",
+          "date": "2004-01-21"
+        }
+      ]
+    },
+    {
+      "to": "vasiliy-gorshkov",
+      "toName": "Vasiliy Gorshkov",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Gorshkov was convicted in 2001 on 20 counts, including defrauding PayPal with stolen credit cards, and ordered in 2002 to pay nearly $700,000 restitution to Speakeasy and PayPal.",
+      "status": "court",
+      "date": "2001-10-10",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2001/gorshkovconvict.htm",
+          "publisher": "U.S. Department of Justice (USAO W.D. Wash.)",
+          "title": "Russian Computer Hacker Convicted by Jury",
+          "date": "2001-10-10"
+        },
+        {
+          "url": "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2002/gorshkovSent.htm",
+          "publisher": "U.S. Department of Justice (USAO W.D. Wash.)",
+          "title": "Russian Computer Hacker Sentenced To Three Years In Prison",
+          "date": "2002-10-04"
+        }
+      ]
+    },
+    {
+      "to": "alexey-ivanov",
+      "toName": "Alexey Ivanov",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Ivanov was indicted in Seattle with Gorshkov on counts involving PayPal and, after pleading guilty in Connecticut, was sentenced in 2003 to 48 months.",
+      "status": "court",
+      "date": "2003-07-25",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2001/gorshkovconvict.htm",
+          "publisher": "U.S. Department of Justice (USAO W.D. Wash.)",
+          "title": "Russian Computer Hacker Convicted by Jury",
+          "date": "2001-10-10"
+        },
+        {
+          "url": "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2003/ivanovSent.htm",
+          "publisher": "U.S. Department of Justice (USAO D. Conn.)",
+          "title": "Russian Man Sentenced for Hacking into Computers in the United States",
+          "date": "2003-07-25"
+        }
+      ]
+    },
+    {
+      "to": "fbi",
+      "toName": "Federal Bureau of Investigation",
+      "toType": "organization",
+      "relation": "investigated",
+      "claim": "The FBI ran the 'Invita' undercover operation that led to the November 2000 arrests of Ivanov and Gorshkov, whose charges included fraud against PayPal.",
+      "status": "documented",
+      "date": "2000-11-10",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2001/gorshkovconvict.htm",
+          "publisher": "U.S. Department of Justice (USAO W.D. Wash.)",
+          "title": "Russian Computer Hacker Convicted by Jury",
+          "date": "2001-10-10"
+        }
+      ]
+    },
+    {
+      "to": "mastercard",
+      "toName": "MasterCard",
+      "toType": "company",
+      "relation": "other",
+      "claim": "MasterCard fined PayPal for excessive charge-backs in the second half of 2000.",
+      "status": "documented",
+      "date": "2000",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC (PayPal, Inc.)",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Plaid's 'PayPal's history of fighting fraud' and a 2026 Forbes profile (Spanish editions seen in search results) say the Igor namesake taunted Levchin, e.g. by emailing him; could not open them to verify, and no source names the person or links him to Ivanov or Gorshkov.",
+    "Whether the S-1's July–October 2000 'fraud episode' was the Ivanov/Gorshkov activity: the timing overlaps, but no source opened makes the link.",
+    "Levchin's recollections ($10–12M a month in fraud in mid-2000) exceed the quarterly provisions in the S-1 (e.g. $5.4M for all of Q3 2000); the figures may measure different things (gross vs. net losses) and are not reconciled in any source opened.",
+    "Secondary marketing blogs claim the bonuses started at $20 per side and total bonus spending was $60–70M; not verified. The founders' own 2004 account says $10 + $10, and the S-1 gives $5–$10 and $14.9M for 2000.",
+    "Eric Jackson's The PayPal Wars (2004) and Jimmy Soni's The Founders (2022) reportedly describe the fraud fight in detail, including organized foreign rings; the book texts could not be opened in this session.",
+    "Gorshkov's restitution split between Speakeasy and PayPal, and whether PayPal is named in Ivanov's Connecticut plea, could not be determined from the press releases."
+  ]
+}

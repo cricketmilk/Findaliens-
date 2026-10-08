@@ -1,0 +1,101 @@
+{
+  "entity": "darpa",
+  "name": "DARPA",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "The Defense Advanced Research Projects Agency (DARPA) is the research and development agency of the U.S. Department of Defense, created in response to the Soviet Union's 1957 Sputnik launch. DARPA credits its work with leading to the modern internet (via ARPANET), GPS receivers small enough for consumer devices, and automated voice recognition and translation. In January 2002 it established the Information Awareness Office under retired Admiral John Poindexter to develop data-mining and analysis tools for a prototype counterterrorism system called Total Information Awareness (TIA). Congress cut off TIA's funding in 2003 after privacy objections.",
+    "sources": [
+      {
+        "url": "https://www.darpa.mil/about",
+        "publisher": "DARPA",
+        "title": "About DARPA"
+      },
+      {
+        "url": "https://www.everycrsreport.com/reports/RL31786.html",
+        "publisher": "Congressional Research Service",
+        "title": "Total Information Awareness Programs: Funding, Composition, and Oversight Issues (RL31786)",
+        "date": "2003-03-21"
+      },
+      {
+        "url": "https://www.salon.com/2006/02/24/tia_4/",
+        "publisher": "Salon",
+        "title": "The names have been changed to protect the guilty",
+        "date": "2006-02-24"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In January 2002 DARPA established the Information Awareness Office (IAO) under retired Admiral John Poindexter. Its programs linked to Total Information Awareness included Genisys, Evidence Extraction and Link Discovery (EELD), and Human Identification at a Distance (HumanID), which aimed to identify people by face or gait. DARPA's report to Congress described HumanID detection at ranges up to 500 feet.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.everycrsreport.com/reports/RL31786.html",
+          "publisher": "Congressional Research Service",
+          "title": "Total Information Awareness Programs: Funding, Composition, and Oversight Issues (RL31786)",
+          "date": "2003-03-21"
+        },
+        {
+          "url": "https://epic.org/privacy/profiling/tia/may03_report.pdf",
+          "publisher": "U.S. Department of Defense / DARPA (hosted by EPIC)",
+          "title": "Report to Congress regarding the Terrorism Information Awareness Program",
+          "date": "2003-05-20"
+        }
+      ]
+    },
+    {
+      "claim": "National Journal reported in 2006 that after Congress defunded TIA in 2003, key components continued under the National Security Agency's research arm under new names. According to the report, the 'Information Awareness Prototype System' became 'Basketball' and Genoa II became 'Topsail'.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.salon.com/2006/02/24/tia_4/",
+          "publisher": "Salon (citing National Journal)",
+          "title": "The names have been changed to protect the guilty",
+          "date": "2006-02-24"
+        }
+      ]
+    },
+    {
+      "claim": "Wired reported on February 4, 2004 that DARPA had quietly canceled LifeLog, a project to build a database of everything an individual says, sees or does, in late January 2004. Civil libertarians had criticized the project, and a DARPA spokeswoman cited only 'a change in priorities'.",
+      "status": "reported",
+      "date": "2004-02-04",
+      "sources": [
+        {
+          "url": "https://www.wired.com/2004/02/pentagon-kills-lifelog-project/",
+          "publisher": "Wired",
+          "title": "Pentagon Kills LifeLog Project",
+          "date": "2004-02-04"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "cia",
+      "relation": "partnered with",
+      "claim": "DARPA's May 2003 report to Congress listed the Central Intelligence Agency as one of nine organizations participating in the experimental network testing Terrorism Information Awareness tools.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://epic.org/privacy/profiling/tia/may03_report.pdf",
+          "publisher": "U.S. Department of Defense / DARPA (hosted by EPIC)",
+          "title": "Report to Congress regarding the Terrorism Information Awareness Program",
+          "date": "2003-05-20"
+        }
+      ]
+    },
+    {
+      "to": "stanford",
+      "relation": "other",
+      "claim": "In 1969, Doug Engelbart's project at Stanford Research Institute (SRI), then affiliated with Stanford University, provided the second node of DARPA's ARPANET. SRI also ran the network's Network Information Center.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.internetsociety.org/internet/history-internet/brief-history-internet/",
+          "publisher": "Internet Society",
+          "title": "Brief History of the Internet"
+        }
+      ]
+    }
+  ]
+}

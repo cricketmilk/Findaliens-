@@ -1,0 +1,133 @@
+{
+  "entity": "federal-reserve",
+  "name": "Federal Reserve",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "The Federal Reserve is the central bank of the United States. In 2008 the Federal Reserve Bank of New York created the Maiden Lane vehicles to take on assets tied to the Bear Stearns rescue and the AIG bailout, and retained BlackRock to manage them. AIG's credit default swap counterparties, including Goldman Sachs, were effectively paid in full (at par), which drew criticism at a 2010 Congressional Oversight Panel hearing. In 2014, ProPublica and This American Life published secret recordings by former New York Fed examiner Carmen Segarra that they said illustrated a culture of deference to banks at the New York Fed.",
+    "sources": [
+      {
+        "url": "https://www.newyorkfed.org/markets/maidenlane",
+        "publisher": "Federal Reserve Bank of New York",
+        "title": "Maiden Lane Transactions"
+      },
+      {
+        "url": "https://www.govinfo.gov/content/pkg/CHRG-111shrg63515/pdf/CHRG-111shrg63515.pdf",
+        "publisher": "Congressional Oversight Panel (GPO)",
+        "title": "TARP and Other Government Assistance for AIG (S. Hrg. 111-809)",
+        "date": "2010-05-26"
+      },
+      {
+        "url": "https://www.propublica.org/article/carmen-segarras-secret-recordings-from-inside-new-york-fed",
+        "publisher": "ProPublica",
+        "title": "Inside the New York Fed: Secret Recordings and a Culture Clash",
+        "date": "2014-09-26"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In 2008 the New York Fed created Maiden Lane LLC, Maiden Lane II and Maiden Lane III, lending about $28.8 billion, $19.5 billion and $24.3 billion. They bought Bear Stearns mortgage assets, AIG's mortgage-backed securities, and CDOs underlying credit default swaps AIG had written.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.newyorkfed.org/markets/maidenlane",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Maiden Lane Transactions"
+        },
+        {
+          "url": "https://speakeremeritapelosi.house.gov/newsroom/chairman-waxman-requests-details-of-federal-reserves-no-bid-arrangement-with-blackrock",
+          "publisher": "U.S. House of Representatives",
+          "title": "Chairman Waxman Requests Details of Federal Reserve's No-Bid Arrangement with BlackRock",
+          "date": "2008-04-07"
+        }
+      ]
+    },
+    {
+      "claim": "The New York Fed retained BlackRock to manage the Maiden Lane assets. House Oversight Chairman Henry Waxman questioned awarding the role 'without competition'; the Fed cited extreme time constraints.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.newyorkfed.org/markets/maidenlane",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Maiden Lane Transactions"
+        },
+        {
+          "url": "https://speakeremeritapelosi.house.gov/newsroom/chairman-waxman-requests-details-of-federal-reserves-no-bid-arrangement-with-blackrock",
+          "publisher": "U.S. House of Representatives",
+          "title": "Chairman Waxman Requests Details of Federal Reserve's No-Bid Arrangement with BlackRock",
+          "date": "2008-04-07"
+        }
+      ]
+    },
+    {
+      "claim": "In 2014 ProPublica and This American Life reported on about 46 hours of meetings secretly recorded by former New York Fed examiner Carmen Segarra. In one recorded meeting the week before she was fired, her boss repeatedly tried to persuade her to change her conclusion that Goldman Sachs lacked a conflicts-of-interest policy.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.propublica.org/article/carmen-segarras-secret-recordings-from-inside-new-york-fed",
+          "publisher": "ProPublica",
+          "title": "Inside the New York Fed: Secret Recordings and a Culture Clash",
+          "date": "2014-09-26"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "blackrock",
+      "relation": "contracted with",
+      "claim": "The New York Fed retained BlackRock Financial Management to manage the Maiden Lane portfolios in 2008. On March 24, 2020 it retained BlackRock Financial Markets Advisory as investment manager for its Secondary Market Corporate Credit Facility.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.newyorkfed.org/markets/maidenlane",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Maiden Lane Transactions"
+        },
+        {
+          "url": "https://www.newyorkfed.org/markets/secondary-market-corporate-credit-facility",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Secondary Market Corporate Credit Facility"
+        }
+      ]
+    },
+    {
+      "to": "goldman-sachs",
+      "relation": "regulated",
+      "claim": "The Federal Reserve has supervised Goldman Sachs since approving its application to become a bank holding company in September 2008. ProPublica's 2014 reporting on Carmen Segarra's recordings described New York Fed supervisors pressing her to soften a finding that Goldman lacked a conflicts-of-interest policy.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20080921a.htm",
+          "publisher": "Board of Governors of the Federal Reserve System",
+          "title": "Board approves applications of Goldman Sachs and Morgan Stanley to become bank holding companies",
+          "date": "2008-09-21"
+        },
+        {
+          "url": "https://www.propublica.org/article/carmen-segarras-secret-recordings-from-inside-new-york-fed",
+          "publisher": "ProPublica",
+          "title": "Inside the New York Fed: Secret Recordings and a Culture Clash",
+          "date": "2014-09-26"
+        }
+      ]
+    },
+    {
+      "to": "bis",
+      "relation": "partnered with",
+      "claim": "The Board of Governors of the Federal Reserve System is a member central bank of the Bank for International Settlements. The Board and the Federal Reserve Bank of New York are both members of the BIS-hosted Basel Committee on Banking Supervision, which sets international bank capital and liquidity standards.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.bis.org/about/member_cb.htm",
+          "publisher": "Bank for International Settlements",
+          "title": "BIS member central banks"
+        },
+        {
+          "url": "https://www.bis.org/bcbs/membership.htm",
+          "publisher": "Bank for International Settlements",
+          "title": "Basel Committee membership"
+        }
+      ]
+    }
+  ]
+}

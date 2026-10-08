@@ -1,0 +1,63 @@
+{
+  "id": "futuregen-cancellation",
+  "title": "FutureGen and FutureGen 2.0 clean-coal projects cancelled (2008, 2015)",
+  "pattern": "claimed-successor",
+  "country": "United States",
+  "summary": "The Department of Energy announced FutureGen in 2003 as a $1 billion near-zero-emissions coal plant with carbon capture and storage, run with the FutureGen Industrial Alliance, a nonprofit consortium of coal and power companies. In January 2008 DOE ended its agreement with the Alliance and proposed instead to fund carbon capture at multiple commercial plants built by industry; in 2010 it awarded $1 billion in Recovery Act funds for a redesigned FutureGen 2.0 at Meredosia, Illinois. DOE suspended FutureGen 2.0 in February 2015, saying it could not be finished before the stimulus funds expired. No private entity was found to have taken over the project: the Alliance's CO2 injection permits expired in February 2016 after no alternative funding was obtained.",
+  "public": {
+    "name": "FutureGen (2003–2008) and FutureGen 2.0 (2010–2015)",
+    "funder": "U.S. Department of Energy",
+    "budget": "Announced in 2003 as a $1 billion venture; FutureGen 2.0 received a $1 billion Recovery Act award, of which DOE said about $116.5 million had been spent on the power plant work by February 2015",
+    "start": { "date": "2003-02", "precision": "month" },
+    "end": { "date": "2015-02", "precision": "month", "kind": "cancelled" },
+    "sources": [
+      { "url": "https://gao.gov/assets/gao-09-248.pdf", "publisher": "U.S. Government Accountability Office", "title": "Clean Coal: DOE's Decision to Restructure FutureGen Should Be Based on a Comprehensive Analysis of Costs, Benefits, and Risks (GAO-09-248)", "date": "2009-02" },
+      { "url": "https://www.energy.gov/node/605121", "publisher": "U.S. Department of Energy", "title": "Secretary Chu Announces FutureGen 2.0", "date": "2010-08-05" },
+      { "url": "https://www.eenews.net/articles/doe-kills-futuregen-project/", "publisher": "E&E News", "title": "DOE kills FutureGen project", "date": "2015-02-04" },
+      { "url": "https://www.taxpayer.net/wp-content/uploads/ported/user_uploads/file/Energy/Coal/2011/FutureGen%20Timeline%20Nov%20FINAL.pdf", "publisher": "Taxpayers for Common Sense", "title": "FutureGen Project Timeline", "date": "2011" }
+    ]
+  },
+  "private": {
+    "name": "FutureGen Industrial Alliance (the project's private nonprofit partner; no private successor identified)",
+    "founded": { "date": "2005-09", "precision": "month" },
+    "founders": [],
+    "funders": ["Coal producers and electric power companies"],
+    "outcome": "Did not continue the project after DOE suspended funding. Its four Class VI CO2 injection permits for Morgan County, Illinois, which took effect in May 2015, expired on 2 February 2016 after EPA was asked to terminate them; a landowner challenge was then dismissed as moot.",
+    "sources": [
+      { "url": "https://gao.gov/assets/gao-09-248.pdf", "publisher": "U.S. Government Accountability Office", "title": "Clean Coal: DOE's Decision to Restructure FutureGen Should Be Based on a Comprehensive Analysis of Costs, Benefits, and Risks (GAO-09-248)", "date": "2009-02" },
+      { "url": "https://archive.epa.gov/region5/water/uic/futuregen/web/html/index.html", "publisher": "U.S. Environmental Protection Agency, Region 5", "title": "FutureGen Alliance 2.0 Permit Application" },
+      { "url": "https://www.gravel2gavel.com/2016/03/challenges-first-epa-issued-carbon-capture-storage-permits-dismissed-moot.html", "publisher": "Pillsbury Winthrop Shaw Pittman (Gravel2Gavel blog)", "title": "Challenges to First EPA-Issued Carbon Capture and Storage Permits Dismissed as Moot", "date": "2016-03" }
+    ]
+  },
+  "links": [],
+  "claims": [
+    {
+      "claim": "DOE's 2008 restructuring handed FutureGen over to private industry.",
+      "assessment": "partly-true",
+      "explanation": "GAO reports that in January 2008 DOE ended its cooperative agreement with the Alliance and proposed funding carbon capture projects proposed by industry at multiple commercial power plants, with up to $1.3 billion announced in June 2008. GAO said DOE had received only a small number of applications by October 2008. The original FutureGen design was then revived with Recovery Act money in 2009 and redesigned as FutureGen 2.0 in 2010, so no private plant took over the program under the 2008 approach.",
+      "sources": [
+        { "url": "https://gao.gov/assets/gao-09-248.pdf", "publisher": "U.S. Government Accountability Office", "title": "Clean Coal: DOE's Decision to Restructure FutureGen Should Be Based on a Comprehensive Analysis of Costs, Benefits, and Risks (GAO-09-248)", "date": "2009-02" },
+        { "url": "https://www.taxpayer.net/wp-content/uploads/ported/user_uploads/file/Energy/Coal/2011/FutureGen%20Timeline%20Nov%20FINAL.pdf", "publisher": "Taxpayers for Common Sense", "title": "FutureGen Project Timeline", "date": "2011" }
+      ]
+    },
+    {
+      "claim": "After DOE pulled out in 2015, the FutureGen Alliance or its industry partners carried FutureGen 2.0 forward privately.",
+      "assessment": "false",
+      "explanation": "E&E News reported the Alliance said that without DOE funding developers would have to suspend work. A Pillsbury legal analysis reports that no alternative funds were obtained after DOE suspended funding, and that the project's CO2 injection permits expired on 2 February 2016, after which the Seventh Circuit dismissed challenges to them as moot.",
+      "sources": [
+        { "url": "https://www.eenews.net/articles/doe-kills-futuregen-project/", "publisher": "E&E News", "title": "DOE kills FutureGen project", "date": "2015-02-04" },
+        { "url": "https://www.gravel2gavel.com/2016/03/challenges-first-epa-issued-carbon-capture-storage-permits-dismissed-moot.html", "publisher": "Pillsbury Winthrop Shaw Pittman (Gravel2Gavel blog)", "title": "Challenges to First EPA-Issued Carbon Capture and Storage Permits Dismissed as Moot", "date": "2016-03" }
+      ]
+    },
+    {
+      "claim": "DOE cancelled FutureGen 2.0 in 2015 because the Alliance could not secure the required private financing.",
+      "assessment": "partly-true",
+      "explanation": "DOE's stated reason was that there was insufficient time to finish the project before federal funding expired in September 2015. E&E News reported that lawsuits and permit appeals had hurt efforts to raise more than $600 million in nonfederal funding, and Senator Durbin's statement attributed the cancellation to the Alliance's failure to reach agreement with private partners before the deadline.",
+      "sources": [
+        { "url": "https://www.power-eng.com/environmental-emissions/reactions-swift-after-doe-ends-futuregen-2-0/", "publisher": "Power Engineering", "title": "Reactions swift after DOE ends FutureGen 2.0", "date": "2015-02-04" },
+        { "url": "https://www.eenews.net/articles/doe-kills-futuregen-project/", "publisher": "E&E News", "title": "DOE kills FutureGen project", "date": "2015-02-04" },
+        { "url": "https://www.durbin.senate.gov/newsroom/press-releases/durbin-statement-on-futuregen-announcement", "publisher": "Office of U.S. Senator Dick Durbin", "title": "Durbin Statement On FutureGen Announcement", "date": "2015-02-03" }
+      ]
+    }
+  ]
+}

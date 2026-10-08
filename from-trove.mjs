@@ -34,10 +34,20 @@
 // (see C:\xixoxis\docs\separation.md). If the Trove moves, point TROVE at it.
 
 import fs from "node:fs";
+import os from "node:os";
 import path from "node:path";
 
-const TROVE = process.env.TROVE_INDEX ||
-  "C:\\xixoxis\\shell\\data\\trove\\index.jsonl";
+// Where the shell keeps its Trove when TROVE_INDEX does not say: the literal
+// C:\ path on Windows, as it always was; elsewhere the shell in the roost --
+// XIXOXIS_SHELL, else $XIXOXIS_ROOST/xixoxis/shell, else ~/projects/xixoxis/shell,
+// the same default the shell's own lib/roots.js uses off Windows.
+function defaultTrove() {
+  if (process.platform === "win32") return "C:\\xixoxis\\shell\\data\\trove\\index.jsonl";
+  const shell = process.env.XIXOXIS_SHELL ||
+    path.join(process.env.XIXOXIS_ROOST || path.join(os.homedir(), "projects"), "xixoxis", "shell");
+  return path.join(shell, "data", "trove", "index.jsonl");
+}
+const TROVE = process.env.TROVE_INDEX || defaultTrove();
 const PAGE = path.join(import.meta.dirname, "public", "index.html");
 const DRAFTS = path.join(import.meta.dirname, "drafts.html");
 

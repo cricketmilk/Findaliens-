@@ -1,0 +1,55 @@
+{
+  "entity": "credit-suisse",
+  "name": "Credit Suisse",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "Credit Suisse was a Swiss global bank. In March 2021 it lost $5.5 billion when Archegos Capital Management, Bill Hwang's family office, defaulted on margin calls; an independent review attributed the loss to a 'fundamental failure of management and controls' in its investment bank. In March 2023, after a crisis of confidence and large client outflows, UBS took over Credit Suisse with support from the Swiss Confederation, the Swiss National Bank and FINMA. As part of the deal, FINMA ordered a complete write-down of about CHF 16 billion of Credit Suisse's Additional Tier 1 (AT1) bonds.",
+    "sources": [
+      {
+        "url": "https://www.paulweiss.com/insights/client-news/credit-suisse-publishes-independent-review-of-archegos-losses",
+        "publisher": "Paul, Weiss",
+        "title": "Credit Suisse Publishes Independent Review of Archegos Losses",
+        "date": "2021-07-29"
+      },
+      {
+        "url": "https://www.finma.ch/en/news/2023/03/20230319-mm-cs-ubs/",
+        "publisher": "FINMA",
+        "title": "FINMA approves merger of UBS and Credit Suisse",
+        "date": "2023-03-19"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Archegos Capital Management, which used borrowed money from several banks to build large equity positions, defaulted on March 25, 2021 after failing to meet margin calls, costing Credit Suisse $5.5 billion. An independent review by Paul, Weiss for Credit Suisse's board found the losses resulted from 'a fundamental failure of management and controls' in the investment bank, but found no fraud or illegal conduct.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.paulweiss.com/insights/client-news/credit-suisse-publishes-independent-review-of-archegos-losses",
+          "publisher": "Paul, Weiss",
+          "title": "Credit Suisse Publishes Independent Review of Archegos Losses",
+          "date": "2021-07-29"
+        }
+      ]
+    },
+    {
+      "claim": "On March 19, 2023, as part of the government-supported takeover of Credit Suisse by UBS, FINMA announced a complete write-down of the nominal value of all Credit Suisse AT1 bonds, about CHF 16 billion. FINMA said the write-down was based on the bonds' contractual terms and a Federal Council emergency ordinance. Tier 2 bonds were not written down.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.finma.ch/en/news/2023/03/20230319-mm-cs-ubs/",
+          "publisher": "FINMA",
+          "title": "FINMA approves merger of UBS and Credit Suisse",
+          "date": "2023-03-19"
+        },
+        {
+          "url": "https://www.finma.ch/en/news/2023/03/20230323-mm-at1-kapitalinstrumente/",
+          "publisher": "FINMA",
+          "title": "FINMA provides information about the basis for writing down AT1 capital instruments",
+          "date": "2023-03-23"
+        }
+      ]
+    }
+  ],
+  "connections": []
+}

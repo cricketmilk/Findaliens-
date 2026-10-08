@@ -1,0 +1,67 @@
+{
+  "id": "bp-privatisation-uk",
+  "title": "UK government sells its shareholding in BP (1979–1987)",
+  "pattern": "privatization",
+  "country": "United Kingdom",
+  "summary": "The British government acquired a controlling interest in the Anglo-Persian Oil Company (later BP) in 1914 and still held about 51 per cent of BP when the Conservatives took office in 1979. Shares were sold in stages, beginning with a tranche of roughly 5 per cent under Chancellor Geoffrey Howe, and the government's remaining 31 per cent stake was offered at 330p in October 1987. The offer coincided with the October 1987 stock market crash; the Chancellor told the Commons the sale would proceed, with the Bank of England offering to buy back partly-paid shares at 70p. The Kuwait Investment Office then built a stake of over 20 per cent, which the government, on the Monopolies and Mergers Commission's recommendation, required it to reduce.",
+  "public": {
+    "name": "UK government shareholding in BP (originally the Anglo-Persian Oil Company)",
+    "funder": "HM Government (HM Treasury)",
+    "budget": "£2,200,000 invested in 1914 for a controlling interest, as reported at the time",
+    "start": { "date": "1914", "precision": "year" },
+    "end": { "date": "1987-10", "precision": "month", "kind": "privatized" },
+    "sources": [
+      { "url": "https://centuryireland.rte.ie/centuryireland/articles/british-government-buys-anglo-persian-oil-company", "publisher": "RTÉ Century Ireland", "title": "British government buys Anglo-Persian Oil Company", "date": "1914-06-19" },
+      { "url": "https://www.desmog.com/2014/10/02/how-lawson-sold-bp-and-how-arab-state-almost-got-control", "publisher": "DeSmog", "title": "How Lawson Sold BP – And How An Arab State Almost Got Control", "date": "2014-10-02" },
+      { "url": "https://api.parliament.uk/historic-hansard/commons/1987/oct/29/bp-share-issue", "publisher": "UK Parliament (Hansard)", "title": "BP Share Issue, HC Deb 29 October 1987 cc540-53", "date": "1987-10-29" }
+    ]
+  },
+  "private": {
+    "name": "BP plc public shareholders (UK and international retail and institutional investors; the Kuwait Investment Office became the largest holder after the 1987 sale)",
+    "founded": { "date": "1987-10", "precision": "month" },
+    "founders": [],
+    "funders": ["Retail and institutional investors", "Underwriting banks", "Kuwait Investment Office"],
+    "outcome": "BP became a fully privately owned listed company. The Kuwait Investment Office built a stake of about 22 per cent and was ordered to reduce it below 10 per cent after a 1988 Monopolies and Mergers Commission inquiry.",
+    "sources": [
+      { "url": "https://api.parliament.uk/historic-hansard/commons/1987/oct/29/bp-share-issue", "publisher": "UK Parliament (Hansard)", "title": "BP Share Issue, HC Deb 29 October 1987 cc540-53", "date": "1987-10-29" },
+      { "url": "https://www.csmonitor.com/1988/0115/firon.html", "publisher": "The Christian Science Monitor", "title": "Kuwait buys BP stock like `marshmallows': an unwelcome suitor?", "date": "1988-01-15" },
+      { "url": "https://www.desmog.com/2014/10/02/how-lawson-sold-bp-and-how-arab-state-almost-got-control", "publisher": "DeSmog", "title": "How Lawson Sold BP – And How An Arab State Almost Got Control", "date": "2014-10-02" }
+    ]
+  },
+  "links": [
+    {
+      "type": "asset-transfer",
+      "claim": "In the Commons on 29 October 1987, Chancellor Nigel Lawson said the BP offer would proceed and referred to the 330p at which the government had sold its 31 per cent stake, with partly-paid shares at 120p and a Bank of England offer to buy partly-paid shares back at 70p.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://api.parliament.uk/historic-hansard/commons/1987/oct/29/bp-share-issue", "publisher": "UK Parliament (Hansard)", "title": "BP Share Issue, HC Deb 29 October 1987 cc540-53", "date": "1987-10-29" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "Contemporaneous reporting described the sale of the government's remaining 31.5 per cent BP stake, a 70p Bank of England floor for partly-paid stock, and an offer that closed on 6 January 1988 with the Bank buying back only about 1.8 per cent of the issue.",
+      "status": "reported",
+      "sources": [
+        { "url": "https://www.csmonitor.com/1988/0115/firon.html", "publisher": "The Christian Science Monitor", "title": "Kuwait buys BP stock like `marshmallows': an unwelcome suitor?", "date": "1988-01-15" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "DeSmog reports that the state owned 51 per cent of BP in 1979 and that Geoffrey Howe, as Chancellor, began the sales with a tranche of over 80 million shares, about 5 per cent; the sizes and dates of intermediate sales were not confirmed from primary records here.",
+      "status": "reported",
+      "sources": [
+        { "url": "https://www.desmog.com/2014/10/02/how-lawson-sold-bp-and-how-arab-state-almost-got-control", "publisher": "DeSmog", "title": "How Lawson Sold BP – And How An Arab State Almost Got Control", "date": "2014-10-02" }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "The 1987 BP sale was called off after the October 1987 stock market crash.",
+      "assessment": "false",
+      "explanation": "The Chancellor told the House of Commons on 29 October 1987 that the offer should proceed. To support the price, the Bank of England offered to buy back partly-paid shares at 70p.",
+      "sources": [
+        { "url": "https://api.parliament.uk/historic-hansard/commons/1987/oct/29/bp-share-issue", "publisher": "UK Parliament (Hansard)", "title": "BP Share Issue, HC Deb 29 October 1987 cc540-53", "date": "1987-10-29" }
+      ]
+    }
+  ]
+}

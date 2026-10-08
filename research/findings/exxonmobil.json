@@ -1,0 +1,55 @@
+{
+  "entity": "exxonmobil",
+  "name": "ExxonMobil",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "ExxonMobil is an American oil and gas company formed by the 1999 merger of Exxon and Mobil. A 2023 peer-reviewed study in Science found that most global warming projections produced or reported by Exxon and ExxonMobil scientists between 1977 and 2003 accurately forecast later observed warming. It also found that the company's public statements contradicted its own scientific data. Exxon helped found and lead the Global Climate Coalition, an industry alliance that opposed government efforts to curb fossil fuel emissions.",
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36634176/",
+        "publisher": "Science (via PubMed)",
+        "title": "Assessing ExxonMobil's global warming projections",
+        "date": "2023-01-13"
+      },
+      {
+        "url": "https://insideclimatenews.org/news/15092015/exxons-own-research-confirmed-fossil-fuels-role-in-global-warming/",
+        "publisher": "Inside Climate News",
+        "title": "Exxon's Own Research Confirmed Fossil Fuels' Role in Global Warming Decades Ago",
+        "date": "2015-09-16"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "A 2023 study in Science by Harvard and Potsdam researchers found that most of Exxon's global warming projections from 1977 to 2003 accurately forecast subsequent warming and were at least as skillful as independent models. A separate 2017 peer-reviewed study found that 81% of ExxonMobil's New York Times advertorials expressed doubt about climate change, compared with about 12% that acknowledged it as real and human-caused.",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36634176/",
+          "publisher": "Science (via PubMed)",
+          "title": "Assessing ExxonMobil's global warming projections",
+          "date": "2023-01-13"
+        },
+        {
+          "url": "https://iopscience.iop.org/article/10.1088/1748-9326/aa815f",
+          "publisher": "Environmental Research Letters",
+          "title": "Assessing ExxonMobil's climate change communications (1977–2014)",
+          "date": "2017-08-01"
+        }
+      ]
+    },
+    {
+      "claim": "According to a 2007 Union of Concerned Scientists report, ExxonMobil gave nearly $16 million between 1998 and 2005 to a network of 43 advocacy organizations that the report says sought to confuse the public on global warming science.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.ucsusa.org/resources/smoke-mirrors-hot-air",
+          "publisher": "Union of Concerned Scientists",
+          "title": "Smoke, Mirrors & Hot Air",
+          "date": "2007-01"
+        }
+      ]
+    }
+  ],
+  "connections": []
+}

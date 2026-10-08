@@ -1,0 +1,65 @@
+{
+  "id": "conrail-privatization",
+  "title": "Consolidated Rail Corporation (Conrail) → public shareholders via 1987 IPO",
+  "pattern": "privatization",
+  "country": "United States",
+  "summary": "Conrail began operating on 1 April 1976 as a federally owned, for-profit railroad built from the properties of six bankrupt Northeastern railroads; by 1985 the federal government owned 85% and employees 15%. DOT had favored a sale to Norfolk Southern in 1985, but Congress instead passed the Conrail Privatization Act (Pub. L. 99-509, 21 October 1986), directing a public offering of the government's shares. The March 1987 offering was described by the Department of Transportation as the largest initial industrial public offering in U.S. history, and a check for $1,575,087,500 was presented to the Treasury on 3 April 1987. In 1997–1999 CSX and Norfolk Southern bought Conrail for about $9.8 billion and divided its lines.",
+  "public": {
+    "name": "Consolidated Rail Corporation (Conrail), federally owned",
+    "funder": "U.S. federal government (Department of Transportation / U.S. Treasury)",
+    "start": { "date": "1976-04-01", "precision": "day" },
+    "end": { "date": "1987-03", "precision": "month", "kind": "privatized" },
+    "sources": [
+      { "url": "https://digital.library.unt.edu/ark:/67531/metacrs9056/m2/1/high_res_d/IB84142_1985Jul18.pdf", "publisher": "Congressional Research Service (UNT Digital Library)", "title": "Issue Brief IB84142: sale of Conrail (Stephen J. Thompson, Economics Division), update", "date": "1985-07-18" },
+      { "url": "https://rosap.ntl.bts.gov/view/dot/80196/dot_80196_DS1.pdf", "publisher": "U.S. Department of Transportation (ROSA P)", "title": "Talking Points Prepared for Secretary Dole, White House Privatization Ceremony", "date": "1987-04-03" }
+    ]
+  },
+  "private": {
+    "name": "Conrail as a publicly traded company (later acquired by CSX and Norfolk Southern)",
+    "founded": { "date": "1987-03", "precision": "month" },
+    "founders": [],
+    "funders": [],
+    "outcome": "DOT talking points for the 3 April 1987 White House ceremony describe the offering 'last week' as the largest initial industrial public offering in U.S. history and record a check of $1,575,087,500 to the Treasury, plus $300 million already received, for a total over $1.875 billion. In 1997 CSX and Norfolk Southern jointly acquired Conrail's shares for approximately $9.8 billion (42% CSX, 58% NS); the Surface Transportation Board approved the application on 23 July 1998, joint control began 22 August 1998, and integrated operations were planned for 1 June 1999.",
+    "sources": [
+      { "url": "https://rosap.ntl.bts.gov/view/dot/80196/dot_80196_DS1.pdf", "publisher": "U.S. Department of Transportation (ROSA P)", "title": "Talking Points Prepared for Secretary Dole, White House Privatization Ceremony", "date": "1987-04-03" },
+      { "url": "https://www.sec.gov/Archives/edgar/data/0000277948/000027794899000006/0000277948-99-000006.txt", "publisher": "CSX Corporation (SEC EDGAR, Form 10-Q)", "title": "CSX Corporation Form 10-Q for the quarter ended April 2, 1999", "date": "1999-05-04" }
+    ]
+  },
+  "links": [
+    {
+      "type": "asset-transfer",
+      "claim": "The Conrail Privatization Act (title IV of Pub. L. 99-509, 21 October 1986) states its purpose as transferring the interest of the United States in Conrail's common stock to the private sector and directs the Secretary of Transportation to offer the government's shares in a public offering, with a goal of at least $2 billion in gross proceeds.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.govinfo.gov/content/pkg/USCODE-2011-title45/html/USCODE-2011-title45-chap22.htm", "publisher": "U.S. Government Publishing Office (govinfo)", "title": "45 U.S.C. chapter 22, Conrail Privatization (sections 1301-1323)" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "At a White House ceremony on 3 April 1987, Transportation Secretary Elizabeth Dole presented a check of $1,575,087,500 payable to the U.S. Treasury 'for the sale of Conrail to the public', saying Conrail was 'no longer a ward of the state'.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://rosap.ntl.bts.gov/view/dot/80196/dot_80196_DS1.pdf", "publisher": "U.S. Department of Transportation (ROSA P)", "title": "Talking Points Prepared for Secretary Dole, White House Privatization Ceremony", "date": "1987-04-03" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "CSX's SEC filing reports that CSX and Norfolk Southern acquired Conrail's outstanding shares for approximately $9.8 billion (CSX 42%, about $4.1 billion; NS 58%, about $5.7 billion), with STB approval on 23 July 1998 and joint control from 22 August 1998.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/0000277948/000027794899000006/0000277948-99-000006.txt", "publisher": "CSX Corporation (SEC EDGAR, Form 10-Q)", "title": "CSX Corporation Form 10-Q for the quarter ended April 2, 1999", "date": "1999-05-04" }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "The 1987 sale recovered what the federal government had put into Conrail.",
+      "assessment": "false",
+      "explanation": "A 1985 CRS brief says about $3 billion of Treasury money went into new track and equipment in 1976–1980 and roughly another $3 billion was used to buy the bankrupt railroads' property, besides payments to displaced employees. DOT's own figures put the government's receipts at $1,575,087,500 from the offering plus $300 million received earlier, a total of just over $1.875 billion.",
+      "sources": [
+        { "url": "https://digital.library.unt.edu/ark:/67531/metacrs9056/m2/1/high_res_d/IB84142_1985Jul18.pdf", "publisher": "Congressional Research Service (UNT Digital Library)", "title": "Issue Brief IB84142: sale of Conrail (Stephen J. Thompson, Economics Division), update", "date": "1985-07-18" },
+        { "url": "https://rosap.ntl.bts.gov/view/dot/80196/dot_80196_DS1.pdf", "publisher": "U.S. Department of Transportation (ROSA P)", "title": "Talking Points Prepared for Secretary Dole, White House Privatization Ceremony", "date": "1987-04-03" }
+      ]
+    }
+  ]
+}

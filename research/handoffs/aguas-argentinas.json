@@ -1,0 +1,169 @@
+{
+  "id": "aguas-argentinas",
+  "title": "Buenos Aires water and sewerage (Obras Sanitarias de la Nación) conceded to Suez-led Aguas Argentinas",
+  "pattern": "privatization",
+  "country": "Argentina",
+  "summary": "Decree 787 of 22 April 1993 approved a 30-year concession of the water and sewerage services run by the state company Obras Sanitarias de la Nación to the Aguas Argentinas S.A. consortium, with Lyonnaise des Eaux (later Suez) as operator. The contract was signed on 28 April 1993. After the 2002 devaluation, tariff disputes followed, and Decree 303 of 21 March 2006 rescinded the contract for the concessionaire's fault. Service passed to the new state company AySA. An ICSID tribunal later found that Argentina had denied the investors fair and equitable treatment and in 2015 awarded about US$404.5 million. Annulment was refused in 2017, and in 2019 Argentina settled by paying in government bonds.",
+  "public": {
+    "name": "Obras Sanitarias de la Nación (OSN)",
+    "funder": "Argentine national government",
+    "start": {
+      "date": "1912-07-18",
+      "precision": "day"
+    },
+    "end": {
+      "date": "1993-04-28",
+      "precision": "day",
+      "kind": "privatized"
+    },
+    "sources": [
+      {
+        "url": "https://www.argentina.gob.ar/normativa/nacional/norma-259831",
+        "publisher": "Argentina.gob.ar (Ministerio de Justicia, Normativa)",
+        "title": "Ley 8889 - Obras Sanitarias de la Nación (reorganización de Obras de Salubridad de la Capital)",
+        "date": "1912-07-18"
+      },
+      {
+        "url": "https://www.argentina.gob.ar/normativa/nacional/norma-12767",
+        "publisher": "Argentina.gob.ar (Ministerio de Justicia, Normativa)",
+        "title": "Decreto 787/1993 - Obras Sanitarias: concesión, aprobación de adjudicación",
+        "date": "1993-04-22"
+      }
+    ]
+  },
+  "private": {
+    "name": "Aguas Argentinas S.A. (AASA)",
+    "founded": {
+      "date": "1993-04-28",
+      "precision": "day"
+    },
+    "founders": [
+      "Lyonnaise des Eaux-Dumez (operator; later Suez)",
+      "Sociedad General de Aguas de Barcelona",
+      "Compagnie Générale des Eaux (later Vivendi)",
+      "Anglian Water",
+      "Sociedad Comercial del Plata",
+      "Banco de Galicia y Buenos Aires",
+      "Meller S.A."
+    ],
+    "funders": [
+      "International Finance Corporation (loans)",
+      "Inter-American Development Bank (loans)",
+      "European Investment Bank (loans)"
+    ],
+    "outcome": "Concession contract signed 28 April 1993 (the date used here for the private takeover). Concession rescinded by Decree 303/2006 on 21 March 2006, citing the concessionaire's fault (including water-quality violations). The service was transferred to the state-owned Agua y Saneamientos Argentinos S.A. (AySA). ICSID (ARB/03/19) issued a Decision on Liability on 30 July 2010 finding a denial of fair and equitable treatment and an Award on 9 April 2015; together with the parallel AWG case, the awards came to US$404,539,050 plus interest. Annulment was denied on 5 May 2017. In 2019 Argentina agreed to pay about US$380 million in bonds. Reversed (renationalized).",
+    "sources": [
+      {
+        "url": "https://www.argentina.gob.ar/normativa/nacional/norma-114865/texto",
+        "publisher": "Argentina.gob.ar (Ministerio de Justicia, Normativa)",
+        "title": "Decreto 303/2006 - Aguas Argentinas S.A.: rescíndese contrato de concesión (texto original)",
+        "date": "2006-03-21"
+      },
+      {
+        "url": "https://www.italaw.com/sites/default/files/case-documents/italaw4365.pdf",
+        "publisher": "ICSID tribunal (via italaw)",
+        "title": "Suez, Sociedad General de Aguas de Barcelona and Vivendi Universal v. Argentine Republic (ICSID ARB/03/19) and AWG Group v. Argentina, Award",
+        "date": "2015-04-09"
+      },
+      {
+        "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/204412/20190401",
+        "publisher": "Boletín Oficial de la República Argentina",
+        "title": "Decreto 239/2019 (facultades; recitals on Decree 787/1993, Decree 303/2006 and the ICSID award)",
+        "date": "2019-04-01"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "contract",
+      "claim": "Decree 787 of 22 April 1993 approved awarding the concession for water and sewerage services previously provided by Obras Sanitarias de la Nación to the Aguas Argentinas S.A. consortium. The 30-year concession contract was signed on 28 April 1993.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.argentina.gob.ar/normativa/nacional/norma-114865/texto",
+          "publisher": "Argentina.gob.ar (Ministerio de Justicia, Normativa)",
+          "title": "Decreto 303/2006, recitals on Decreto 787/1993 and the 28 April 1993 contract",
+          "date": "2006-03-21"
+        },
+        {
+          "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/204412/20190401",
+          "publisher": "Boletín Oficial de la República Argentina",
+          "title": "Decreto 239/2019",
+          "date": "2019-04-01"
+        }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "In 1993 the claimants invested in the concession through AASA, with initial capitalization of USD 120 million. On termination in 2006, the water and sewage systems were transferred at once to Agua y Saneamientos Argentinos S.A., a company owned, financed and managed by the Argentine State.",
+      "status": "court",
+      "sources": [
+        {
+          "url": "https://www.italaw.com/sites/default/files/case-documents/italaw4365.pdf",
+          "publisher": "ICSID tribunal (via italaw)",
+          "title": "Suez et al. v. Argentine Republic, Award, paras. 2-4",
+          "date": "2015-04-09"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Argentina owed the foreign investors nothing for ending the Aguas Argentinas concession.",
+      "assessment": "false",
+      "explanation": "The ICSID tribunal found in 2010 that Argentina had denied the investors fair and equitable treatment, mainly through its post-2002 tariff measures, and its 2015 awards (including the parallel AWG case) totalled US$404,539,050 plus interest. An ICSID ad hoc committee denied Argentina's annulment application on 5 May 2017. In 2019 Argentina agreed a bond payment of about US$380 million, after a reported 25% reduction, and said this payment did not recognize any facts or rights.",
+      "sources": [
+        {
+          "url": "https://www.italaw.com/sites/default/files/case-documents/italaw4365.pdf",
+          "publisher": "ICSID tribunal (via italaw)",
+          "title": "Suez et al. v. Argentine Republic, Award",
+          "date": "2015-04-09"
+        },
+        {
+          "url": "https://www.italaw.com/sites/default/files/case-documents/italaw8783.pdf",
+          "publisher": "ICSID ad hoc committee (via italaw)",
+          "title": "Suez et al. v. Argentine Republic, Decision on Annulment",
+          "date": "2017-05-05"
+        },
+        {
+          "url": "https://www.baenegocios.com/amp/Acordaron-con-privados-el-pago-con-bonos-por-Aguas-Argentinas-20190510-0006/",
+          "publisher": "BAE Negocios",
+          "title": "Acordaron con privados el pago con bonos por Aguas Argentinas",
+          "date": "2019-05-10"
+        }
+      ]
+    },
+    {
+      "claim": "The concession ended because the private operator failed to meet its obligations.",
+      "assessment": "partly-true",
+      "explanation": "Decree 303/2006 rescinded the contract 'por culpa del Concesionario', citing repeated breaches including systematic violation of the nitrate water-quality standard. The ICSID tribunal described a different cause: Argentina's emergency measures and refusal to revise tariffs after the 2002 devaluation cut off the revenue AASA needed, and it held Argentina liable. Both the government's and the tribunal's accounts are on the record.",
+      "sources": [
+        {
+          "url": "https://www.argentina.gob.ar/normativa/nacional/norma-114865/texto",
+          "publisher": "Argentina.gob.ar (Ministerio de Justicia, Normativa)",
+          "title": "Decreto 303/2006 (texto original)",
+          "date": "2006-03-21"
+        },
+        {
+          "url": "https://www.italaw.com/sites/default/files/case-documents/italaw4365.pdf",
+          "publisher": "ICSID tribunal (via italaw)",
+          "title": "Suez et al. v. Argentine Republic, Award, paras. 3-4",
+          "date": "2015-04-09"
+        }
+      ]
+    },
+    {
+      "claim": "World Bank Group money backed the Buenos Aires water privatization.",
+      "assessment": "true",
+      "explanation": "According to the ICSID award, the International Finance Corporation (part of the World Bank Group), the Inter-American Development Bank and the European Investment Bank all lent to AASA, with the shareholders guaranteeing the loans. When AASA defaulted, the shareholders paid the multilateral lenders a total of US$297.8 million in 2003, 2004 and 2006. No primary document opened for this record shows that an IMF or World Bank loan condition required the concession.",
+      "sources": [
+        {
+          "url": "https://www.italaw.com/sites/default/files/case-documents/italaw4365.pdf",
+          "publisher": "ICSID tribunal (via italaw)",
+          "title": "Suez et al. v. Argentine Republic, Award, paras. 2-3",
+          "date": "2015-04-09"
+        }
+      ]
+    }
+  ]
+}

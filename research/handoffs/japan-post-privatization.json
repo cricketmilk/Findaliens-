@@ -1,0 +1,71 @@
+{
+  "id": "japan-post-privatization",
+  "title": "Japan Post (public corporation) → Japan Post Holdings and listed group companies",
+  "pattern": "privatization",
+  "country": "Japan",
+  "summary": "Japan Post was inaugurated as a state-run public corporation on 1 April 2003. Prime Minister Junichiro Koizumi's postal privatization bills failed in the Diet in 2005, he called an election on the issue, and after winning it the reintroduced bills passed in October 2005. On 1 October 2007 Japan Post's operations were transferred to Japan Post Holdings and four operating companies. The government sold shares in Japan Post Holdings in offerings settled on 4 November 2015, 29 September 2017 and 29 October 2021, the last bringing its stake down to the legal minimum of more than one-third.",
+  "public": {
+    "name": "Japan Post (state-run public corporation)",
+    "funder": "Government of Japan (Ministry of Internal Affairs and Communications)",
+    "start": { "date": "2003-04-01", "precision": "day" },
+    "end": { "date": "2007-10-01", "precision": "day", "kind": "transferred" },
+    "sources": [
+      { "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/eng/WP2003/Chapter3-10.pdf", "publisher": "Ministry of Public Management, Home Affairs, Posts and Telecommunications (Japan)", "title": "Information and Communications in Japan, White Paper 2003, Chapter 3 Section 10: Evolution of Postal Administration" },
+      { "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/eng/WP2008/chapter3-7.pdf", "publisher": "Ministry of Internal Affairs and Communications (Japan)", "title": "Information and Communications in Japan, White Paper 2008, Chapter 3 Section 7: Development of Postal Service Administration" },
+      { "url": "https://www.japanpost.jp/en/group/past/2007_9/pdf/jp/01.pdf", "publisher": "Japan Post Group", "title": "Annual Report: Postal Services in Japan 2007.9 — From Japan Post to JAPAN POST GROUP", "date": "2007-09" }
+    ]
+  },
+  "private": {
+    "name": "Japan Post Holdings Co., Ltd. (Tokyo Stock Exchange listed; private and government shareholders)",
+    "founded": { "date": "2015-11-04", "precision": "day" },
+    "founders": [],
+    "funders": [],
+    "outcome": "The date above is the settlement of the first government share offering (495,000,000 shares at ¥1,400), when private investors first held Japan Post Holdings shares; the holding company and its bank and insurance units listed together, and Fortune reported the three-part offering raised about $11.9 billion. Further offerings followed in September 2017 (990,099,100 shares at ¥1,322) and October 2021 (1,027,477,400 shares at ¥820.6). Japan Post Holdings says the government is legally obliged to hold more than one-third of its shares, and the 2021 offering brought it to that level. Reuters reported that earlier sales had raised ¥3.05 trillion, with proceeds going to reconstruction after the 2011 earthquake.",
+    "sources": [
+      { "url": "https://www.japanpost.jp/en/ir/stock/index09.html", "publisher": "Japan Post Holdings", "title": "Offering of Government-owned Shares" },
+      { "url": "https://www.japanpost.jp/en/ir/faq/index.html", "publisher": "Japan Post Holdings", "title": "Q&A regarding IR" },
+      { "url": "https://www.fortune.com/2015/10/30/japan-post-ipo", "publisher": "Fortune", "title": "What You Need to Know About Japan Post—This Year's Biggest IPO", "date": "2015-10-30" },
+      { "url": "https://www.nippon.com/en/news/reu20211006KBN2GW0E7/", "publisher": "Reuters (via Nippon.com)", "title": "Japan to sell 27% of Japan Post to raise reconstruction funds", "date": "2021-10-06" }
+    ]
+  },
+  "links": [
+    {
+      "type": "asset-transfer",
+      "claim": "Japan's communications ministry records that on 1 October 2007, under the postal privatization laws, operations formerly conducted by Japan Post were transferred to Japan Post Corporation (the holding company) and four business corporations for mail, the post office network, postal savings and insurance; Japan Post was liquidated that day.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.soumu.go.jp/johotsusintokei/whitepaper/eng/WP2008/chapter3-7.pdf", "publisher": "Ministry of Internal Affairs and Communications (Japan)", "title": "Information and Communications in Japan, White Paper 2008, Chapter 3 Section 7: Development of Postal Service Administration" },
+        { "url": "https://www.japanpost.jp/en/group/past/2007_9/pdf/jp/01.pdf", "publisher": "Japan Post Group", "title": "Annual Report: Postal Services in Japan 2007.9 — From Japan Post to JAPAN POST GROUP", "date": "2007-09" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "Japan Post Holdings lists three offerings of government-owned shares: 495,000,000 shares at ¥1,400 settled 4 November 2015; 990,099,100 shares at ¥1,322 settled 29 September 2017; and 1,027,477,400 shares at ¥820.6 settled 29 October 2021.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.japanpost.jp/en/ir/stock/index09.html", "publisher": "Japan Post Holdings", "title": "Offering of Government-owned Shares" },
+        { "url": "https://www.japanpost.jp/en/ir/faq/index.html", "publisher": "Japan Post Holdings", "title": "Q&A regarding IR" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "In October 2005, after Koizumi's election win, the lower house passed the postal privatization bills 338 to 138 and the upper house took them up; the legislation dissolved Japan Post and divided its business among four companies, with the split to be completed by 2017.",
+      "status": "reported",
+      "sources": [
+        { "url": "https://www.voanews.com/amp/a-13-2005-10-12-voa53/305434.html", "publisher": "Voice of America", "title": "Japanese Postal Reform on Express Delivery Through Parliament" },
+        { "url": "https://reason.org/commentary/japan-passes-postal-privatizat/", "publisher": "Reason Foundation", "title": "Japan Passes Postal Privatization", "date": "2005-10-13" }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Japan Post has been fully privatized.",
+      "assessment": "false",
+      "explanation": "Japan Post Holdings says the government is legally obliged to hold more than one-third of its shares; the October 2021 offering reduced the government's stake to that level, not to zero.",
+      "sources": [
+        { "url": "https://www.japanpost.jp/en/ir/faq/index.html", "publisher": "Japan Post Holdings", "title": "Q&A regarding IR" },
+        { "url": "https://www.nippon.com/en/news/reu20211006KBN2GW0E7/", "publisher": "Reuters (via Nippon.com)", "title": "Japan to sell 27% of Japan Post to raise reconstruction funds", "date": "2021-10-06" }
+      ]
+    }
+  ]
+}

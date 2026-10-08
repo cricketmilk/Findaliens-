@@ -1,0 +1,84 @@
+{
+  "id": "healthcare-gov-contract",
+  "title": "HealthCare.gov: CGI Federal contract → Accenture Federal Services",
+  "pattern": "outsourced-successor",
+  "country": "United States",
+  "summary": "The federally facilitated marketplace behind HealthCare.gov was built for the Centers for Medicare & Medicaid Services (CMS) by CGI Federal under a task order awarded on 30 September 2011 (value at award about $93.7 million). After the site's troubled launch on 1 October 2013, CMS awarded Accenture Federal Services a sole-source letter contract on 11 January 2014 to replace CGI, and CGI's contract was not renewed when it ended on 28 February 2014. GAO and the HHS Inspector General later faulted CMS's planning and oversight, reporting cost growth on both the CGI work and the Accenture contract. The site was contractor-built throughout; this record documents the transfer between private contractors, not a move from in-house government work.",
+  "public": {
+    "name": "HealthCare.gov federally facilitated marketplace system (CMS contract FFM1, held by CGI Federal)",
+    "funder": "Centers for Medicare & Medicaid Services (HHS)",
+    "budget": "FFM1 value at award $93,735,469 (OIG); GAO reports FFM obligations rose from $56 million to more than $209 million between September 2011 and February 2014",
+    "start": { "date": "2011-09-30", "precision": "day" },
+    "end": { "date": "2014-02-28", "precision": "day", "kind": "transferred" },
+    "sources": [
+      { "url": "https://oig.hhs.gov/oei/reports/oei-03-14-00230.pdf", "publisher": "HHS Office of Inspector General", "title": "Federal Marketplace: Inadequacies in Contract Planning and Procurement (OEI-03-14-00230)", "date": "2015-01" },
+      { "url": "https://www.gao.gov/products/gao-14-694", "publisher": "U.S. Government Accountability Office", "title": "Healthcare.gov: Ineffective Planning and Oversight Practices Underscore the Need for Improved Contract Management (GAO-14-694)", "date": "2014-07-30" },
+      { "url": "https://www.healthcaredive.com/news/accenture-takes-over-healthcaregov-operations/214567/", "publisher": "Healthcare Dive", "title": "Accenture takes over HealthCare.gov operations", "date": "2014-01-13" }
+    ]
+  },
+  "private": {
+    "name": "Accenture Federal Services LLC",
+    "founded": { "date": "2014-01-11", "precision": "day" },
+    "founders": [],
+    "funders": ["Centers for Medicare & Medicaid Services"],
+    "outcome": "Awarded the FFM2 contract on 11 January 2014 as a sole-source letter contract ($45 million letter contract; estimated value $90 million). GAO reports the January 2014 replacement contract, awarded for $91 million, had grown to over $175 million by June 2014 because of new requirements and enhancements.",
+    "sources": [
+      { "url": "https://oig.hhs.gov/oei/reports/oei-03-14-00230.pdf", "publisher": "HHS Office of Inspector General", "title": "Federal Marketplace: Inadequacies in Contract Planning and Procurement (OEI-03-14-00230)", "date": "2015-01" },
+      { "url": "https://www.gao.gov/products/gao-14-694", "publisher": "U.S. Government Accountability Office", "title": "Healthcare.gov: Ineffective Planning and Oversight Practices Underscore the Need for Improved Contract Management (GAO-14-694)", "date": "2014-07-30" }
+    ]
+  },
+  "links": [
+    {
+      "type": "contract",
+      "claim": "HHS OIG's review of CMS contract files lists FFM2, awarded to Accenture Federal Services on 11 January 2014, as the 'Replacement of the FFM1 contract' and defines it as a contract to replace CGI Federal as the contractor for the federally facilitated marketplace system.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://oig.hhs.gov/oei/reports/oei-03-14-00230.pdf", "publisher": "HHS Office of Inspector General", "title": "Federal Marketplace: Inadequacies in Contract Planning and Procurement (OEI-03-14-00230)", "date": "2015-01" }
+      ]
+    },
+    {
+      "type": "stated-successor",
+      "claim": "CMS's sole-source justification stated that it urgently required a company to take over the work from CGI, and its contract documents said the marketplace developed by CGI had proven problematic and that it did not believe CGI would have been able to deliver specific portions of the work on time. HHS's response to the OIG said CMS had moved to end its largest contract with CGI and move to a new type of contract with Accenture.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://oig.hhs.gov/oei/reports/oei-03-14-00230.pdf", "publisher": "HHS Office of Inspector General", "title": "Federal Marketplace: Inadequacies in Contract Planning and Procurement (OEI-03-14-00230)", "date": "2015-01" }
+      ]
+    },
+    {
+      "type": "contract",
+      "claim": "GAO reports that CMS awarded a new contract to another firm in January 2014 for $91 million to continue the marketplace work, and that its costs had grown to over $175 million by June 2014.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.gao.gov/products/gao-14-694", "publisher": "U.S. Government Accountability Office", "title": "Healthcare.gov: Ineffective Planning and Oversight Practices Underscore the Need for Improved Contract Management (GAO-14-694)", "date": "2014-07-30" }
+      ]
+    },
+    {
+      "type": "timing",
+      "claim": "Trade press reported on 13 January 2014 that CMS had given Accenture a one-year contract to run HealthCare.gov through the next open enrollment, and that CGI Federal's contract would not be renewed and would end on 28 February 2014.",
+      "status": "reported",
+      "sources": [
+        { "url": "https://www.healthcaredive.com/news/accenture-takes-over-healthcaregov-operations/214567/", "publisher": "Healthcare Dive", "title": "Accenture takes over HealthCare.gov operations", "date": "2014-01-13" }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Accenture won the HealthCare.gov takeover in an open competition.",
+      "assessment": "false",
+      "explanation": "The OIG reports that FFM2 was the only key marketplace contract not awarded under CMS's existing IDIQ vehicle and that it was a sole-source award: CMS did not solicit proposals, citing time constraints, and awarded it without competition less than three weeks after the request.",
+      "sources": [
+        { "url": "https://oig.hhs.gov/oei/reports/oei-03-14-00230.pdf", "publisher": "HHS Office of Inspector General", "title": "Federal Marketplace: Inadequacies in Contract Planning and Procurement (OEI-03-14-00230)", "date": "2015-01" }
+      ]
+    },
+    {
+      "claim": "CGI Federal was fired from HealthCare.gov.",
+      "assessment": "partly-true",
+      "explanation": "Records show CMS replaced CGI on the marketplace system and did not renew its contract, which ended on 28 February 2014, and HHS described moving to 'end' its largest contract with CGI. They do not show a termination for default: GAO reports CMS paid nearly all of CGI's fee, declining only about $267,000.",
+      "sources": [
+        { "url": "https://oig.hhs.gov/oei/reports/oei-03-14-00230.pdf", "publisher": "HHS Office of Inspector General", "title": "Federal Marketplace: Inadequacies in Contract Planning and Procurement (OEI-03-14-00230)", "date": "2015-01" },
+        { "url": "https://www.gao.gov/products/gao-14-694", "publisher": "U.S. Government Accountability Office", "title": "Healthcare.gov: Ineffective Planning and Oversight Practices Underscore the Need for Improved Contract Management (GAO-14-694)", "date": "2014-07-30" },
+        { "url": "https://www.healthcaredive.com/news/accenture-takes-over-healthcaregov-operations/214567/", "publisher": "Healthcare Dive", "title": "Accenture takes over HealthCare.gov operations", "date": "2014-01-13" }
+      ]
+    }
+  ]
+}

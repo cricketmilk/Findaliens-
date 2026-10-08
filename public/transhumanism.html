@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Post-Human Resources — The Cornfield Gazette</title>
+<meta name="description" content="The origins of transhumanism, what it promises, who funds it, and the documented case that its vision is hostile to workers.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌽</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Silkscreen:wght@400;700&family=VT323&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --black: #050102;
+    --panel: #0c0305;
+    --red: #d8283c;
+    --red-dim: #7a1422;
+    --maroon: #3b0a12;
+    --cream: #f1c49b;
+    --cream-dim: #b88d6c;
+    --gutter: #3a3a3c;
+    --text: #e9cdb6;
+    --big: "Jersey 10", "Silkscreen", monospace;
+    --label: "Silkscreen", "Courier New", monospace;
+    --body: "VT323", "Courier New", monospace;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: #1b1b1d;
+    color: var(--text);
+    font-family: var(--body);
+    font-size: 21px;
+    line-height: 1.3;
+  }
+
+  a { color: var(--cream); }
+  a:hover { color: var(--red); }
+
+  /* The whole page is one comic-panel sheet with grey gutters */
+  .sheet {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 10px;
+    background: var(--gutter);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .panel {
+    position: relative;
+    background: var(--panel);
+    padding: 22px 24px;
+    overflow: hidden;
+    min-width: 0;
+  }
+  .panel.wide { grid-column: 1 / -1; }
+  /* dithered corner texture */
+  .panel::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 140px;
+    height: 70px;
+    pointer-events: none;
+    opacity: 0.35;
+    background: repeating-conic-gradient(var(--red-dim) 0 25%, transparent 0 50%) 0 0 / 4px 4px;
+    -webkit-mask-image: linear-gradient(135deg, transparent 35%, #000);
+            mask-image: linear-gradient(135deg, transparent 35%, #000);
+  }
+
+  .label { font-family: var(--label); font-size: 11px; letter-spacing: 0.06em; color: var(--red); }
+  .big { font-family: var(--big); font-weight: 400; line-height: 0.9; letter-spacing: 0.02em; }
+
+  /* ---------- Top bar ---------- */
+  .topbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav { display: flex; flex-wrap: wrap; gap: 8px; }
+  .nav a {
+    font-family: var(--label);
+    font-size: 11px;
+    text-decoration: none;
+    color: var(--red);
+    border: 2px solid var(--red-dim);
+    padding: 5px 10px;
+  }
+  .nav a:hover { background: var(--red); color: var(--black); border-color: var(--red); }
+  .hud { display: flex; gap: 14px; align-items: center; font-family: var(--label); font-size: 11px; color: var(--red); }
+  .hearts { color: var(--red); letter-spacing: 3px; font-size: 18px; }
+
+  /* ---------- Hero ---------- */
+  .hero { display: grid; grid-template-columns: 1.1fr 1fr; gap: 24px; align-items: center; }
+  .hero-title { margin: 6px 0 10px; }
+  .hero-title .l1 { display: block; color: var(--red); font-size: clamp(56px, 9vw, 112px); }
+  .hero-title .l2 { display: block; color: var(--cream); font-size: clamp(56px, 9vw, 112px); }
+  .glitch { position: relative; }
+  @media (prefers-reduced-motion: no-preference) {
+    .glitch { animation: glitch 4s steps(1) infinite; }
+    @keyframes glitch {
+      0%, 92%, 100% { text-shadow: none; transform: none; }
+      93% { text-shadow: 3px 0 var(--cream), -3px 0 var(--red-dim); transform: translateX(2px); }
+      95% { text-shadow: -4px 0 var(--red), 2px 0 var(--maroon); transform: translateX(-2px); }
+      97% { text-shadow: 2px 0 var(--cream); transform: none; }
+    }
+  }
+  .hero-dek { font-size: 23px; max-width: 560px; }
+  .hero-dek b { color: var(--cream); font-weight: 400; }
+  .boxed-quote {
+    border: 2px solid var(--red);
+    padding: 10px 14px;
+    margin-top: 16px;
+    font-size: 20px;
+  }
+  .boxed-quote cite { display: block; font-family: var(--label); font-size: 10px; color: var(--cream-dim); font-style: normal; margin-top: 6px; }
+  #monitors { width: 100%; aspect-ratio: 4 / 3; image-rendering: pixelated; display: block; }
+  .hero-caption { font-family: var(--label); font-size: 10px; color: var(--cream-dim); margin-top: 6px; text-align: right; }
+
+  /* ---------- Section headings ---------- */
+  .sec-head { display: flex; align-items: flex-end; gap: 14px; margin-bottom: 6px; flex-wrap: wrap; }
+  .sec-num {
+    font-family: var(--label);
+    font-size: 13px;
+    color: var(--black);
+    background: var(--red);
+    padding: 3px 7px;
+  }
+  .sec-head h2 { margin: 0; font-family: var(--big); font-weight: 400; font-size: clamp(40px, 5.5vw, 64px); color: var(--cream); line-height: 0.85; }
+  .sec-dek { color: var(--cream-dim); max-width: 860px; margin: 8px 0 18px; }
+  .rule { height: 6px; margin: 4px 0 14px; background: repeating-linear-gradient(90deg, var(--red) 0 10px, transparent 10px 14px); }
+
+  /* Status legend & badges */
+  .legend { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 4px; }
+  .badge {
+    display: inline-block;
+    font-family: var(--label);
+    font-size: 9px;
+    padding: 2px 6px;
+    border: 2px solid currentColor;
+    white-space: nowrap;
+    vertical-align: middle;
+  }
+  .st-documented { color: var(--cream); }
+  .st-peer { color: #f5a97f; }
+  .st-reported { color: #ff7a8a; }
+  .st-words { color: var(--black); background: var(--cream); border-color: var(--cream); }
+  .st-argument { color: var(--red); border-style: dashed; }
+  .st-speculative { color: var(--cream-dim); border-style: dotted; }
+
+  /* ---------- Origins timeline ---------- */
+  .timeline { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 10px; }
+  .t-card { border: 2px solid var(--red-dim); background: var(--black); padding: 0; display: flex; flex-direction: column; }
+  .t-year {
+    font-family: var(--big);
+    font-size: 34px;
+    color: var(--black);
+    background: var(--red);
+    padding: 2px 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1;
+  }
+  .t-year .x { font-family: var(--label); font-size: 11px; }
+  .t-body { padding: 10px 12px 12px; flex: 1; }
+  .t-body h3 { margin: 0 0 4px; font-family: var(--label); font-size: 13px; color: var(--cream); line-height: 1.35; }
+  .t-body p { margin: 0 0 8px; font-size: 19px; }
+  .src { font-size: 16px; color: var(--cream-dim); }
+  .src a { color: var(--cream-dim); }
+
+  /* ---------- The stack (modules) ---------- */
+  .stack { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px; }
+  .module { border: 2px solid var(--red-dim); padding: 12px; background: var(--black); }
+  .module h3 { margin: 0 0 6px; font-family: var(--big); font-weight: 400; font-size: 30px; color: var(--red); line-height: 0.9; }
+  .module p { margin: 0 0 10px; font-size: 18px; }
+  .reality { display: flex; align-items: center; gap: 8px; font-family: var(--label); font-size: 10px; color: var(--cream-dim); }
+  .reality .cells { display: flex; gap: 3px; }
+  .reality .cells i { width: 12px; height: 12px; border: 2px solid var(--red-dim); display: block; }
+  .reality .cells i.on { background: var(--red); border-color: var(--red); }
+
+  /* ---------- Funders ---------- */
+  .funders { width: 100%; border-collapse: collapse; font-size: 19px; }
+  .funders th { font-family: var(--label); font-size: 10px; color: var(--red); text-align: left; padding: 6px 8px; border-bottom: 2px solid var(--red); }
+  .funders td { padding: 8px; border-bottom: 1px dashed var(--red-dim); vertical-align: top; }
+  .funders td:first-child { color: var(--cream); white-space: nowrap; }
+  .table-wrap { overflow-x: auto; }
+
+  /* ---------- Charges ---------- */
+  .charges { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .charge { border: 2px solid var(--red); background: var(--black); display: flex; flex-direction: column; }
+  .charge-head { display: flex; gap: 10px; align-items: stretch; border-bottom: 2px solid var(--red); }
+  .charge-letter { font-family: var(--big); font-size: 46px; line-height: 1; background: var(--red); color: var(--black); padding: 4px 12px 0; }
+  .charge-title { font-family: var(--big); font-size: 30px; line-height: 0.95; color: var(--cream); padding: 8px 10px 6px 0; align-self: center; }
+  .charge-body { padding: 10px 14px 14px; }
+  .claim { font-size: 20px; margin: 0 0 10px; color: var(--cream); }
+  .evidence { list-style: none; margin: 0; padding: 0; }
+  .evidence li { padding: 7px 0; border-top: 1px dashed var(--red-dim); font-size: 18px; }
+  .evidence li .badge { margin-right: 6px; }
+  .evidence .src { display: block; margin-top: 2px; }
+  .quote { color: var(--cream); }
+
+  /* ---------- Stat strip ---------- */
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 10px; margin-bottom: 18px; }
+  .stat { border: 2px solid var(--red-dim); padding: 10px 12px; background: var(--black); }
+  .stat .n { font-family: var(--big); font-size: 52px; color: var(--red); line-height: 0.9; }
+  .stat .t { font-size: 18px; }
+  .stat .src { font-size: 15px; }
+
+  /* ---------- Counter panel ---------- */
+  .checklist { list-style: none; margin: 0; padding: 0; }
+  .checklist li { display: grid; grid-template-columns: 26px 1fr; gap: 8px; padding: 8px 0; border-top: 1px dashed var(--red-dim); font-size: 19px; }
+  .checklist li::before { content: "▣"; color: var(--red); font-size: 18px; }
+  .checklist li.open::before { content: "□"; color: var(--cream-dim); }
+  .checklist b { color: var(--cream); font-weight: 400; }
+
+  /* ---------- Footer ---------- */
+  .continue {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+  .continue .big { font-size: 48px; color: var(--cream); }
+  .continue a.btn {
+    font-family: var(--big);
+    font-size: 34px;
+    text-decoration: none;
+    color: var(--red);
+  }
+  .continue a.btn:hover { color: var(--cream); }
+  @media (prefers-reduced-motion: no-preference) {
+    .blink { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  }
+  .method { font-size: 18px; color: var(--cream-dim); }
+
+  @media (max-width: 860px) {
+    .sheet { grid-template-columns: 1fr; }
+    .hero { grid-template-columns: 1fr; }
+    .charges { grid-template-columns: 1fr; }
+    .panel { padding: 16px; }
+  }
+</style>
+</head>
+<body>
+<main class="sheet">
+
+  <!-- Top bar -->
+  <div class="panel wide topbar">
+    <nav class="nav">
+      <a href="index.html">◀ GAZETTE</a>
+      <a href="deep-state.html">DEEP STATE</a>
+      <a href="climate.html">CARBON LEDGER</a>
+      <a href="consent.html">MANUFACTURING CONSENT</a>
+      <a href="blind-pool.html">BLIND POOL</a>
+    </nav>
+    <div class="hud">
+      <span>SYS.HUMAN v1.0</span>
+      <span class="hearts">♥♥♡</span>
+      <span>UPTIME: MORTAL</span>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <header class="panel wide hero">
+    <div>
+      <div class="label">TRANSHUMANISM DOSSIER // ORIGINS · PROMISES · PAYROLL</div>
+      <h1 class="hero-title big"><span class="l1 glitch">POST-HUMAN</span><span class="l2">RESOURCES</span></h1>
+      <p class="hero-dek">Transhumanism promises to <b>upgrade the human body and mind</b> with technology: to end aging, merge with machines, and eventually leave biology behind. This dossier traces where the idea came from, what it includes, who pays for it, and the case that its plans for the future <b>treat working people as a legacy system</b> to be optimized, monitored, or replaced.</p>
+      <div class="boxed-quote">
+        “I no longer believe that freedom and democracy are compatible.”
+        <cite>— PETER THIEL, FUNDER OF LIFE-EXTENSION AND AI GROUPS, <a href="https://www.cato-unbound.org/2009/04/13/peter-thiel/education-libertarian/" target="_blank" rel="noopener">CATO UNBOUND, 2009 ↗</a></cite>
+      </div>
+    </div>
+    <div>
+      <canvas id="monitors" width="96" height="72" aria-hidden="true"></canvas>
+      <div class="hero-caption">WORKSTATION FEED ▸ ALL EYES ACTIVE</div>
+    </div>
+  </header>
+
+  <!-- Legend -->
+  <div class="panel wide">
+    <div class="label" style="margin-bottom:8px;">HOW TO READ THE TAGS</div>
+    <div class="legend" id="legend"></div>
+    <p class="method" style="margin:10px 0 0;">Facts are tagged by how firmly they are established. <span class="badge st-argument">ARGUMENT</span> marks critics’ interpretation, kept separate from the evidence it rests on. Transhumanists disagree among themselves, and some support strong worker protections; see section 05.</p>
+  </div>
+
+  <!-- 01 ORIGINS -->
+  <section class="panel wide" id="origins">
+    <div class="sec-head"><span class="sec-num">01</span><h2>ORIGINS</h2></div>
+    <div class="rule"></div>
+    <p class="sec-dek">From Russian mystics who wanted to resurrect the dead, to a eugenicist biologist who named the movement, to the Silicon Valley billionaires funding it today.</p>
+    <div class="timeline" id="timeline"></div>
+  </section>
+
+  <!-- 02 THE STACK -->
+  <section class="panel wide" id="stack">
+    <div class="sec-head"><span class="sec-num">02</span><h2>WHAT IT ENTAILS</h2></div>
+    <div class="rule"></div>
+    <p class="sec-dek">The main projects under the transhumanist banner, with a reality check on how far each has actually got.</p>
+    <div class="stack" id="stack-grid"></div>
+  </section>
+
+  <!-- 03 FUNDERS -->
+  <section class="panel" id="funders">
+    <div class="sec-head"><span class="sec-num">03</span><h2>WHO PAYS</h2></div>
+    <div class="rule"></div>
+    <p class="sec-dek">The movement moved from mailing lists to billion-dollar labs when tech fortunes arrived.</p>
+    <div class="table-wrap"><table class="funders" id="funders-table"></table></div>
+  </section>
+
+  <section class="panel" id="gap">
+    <div class="sec-head"><span class="sec-num">!!</span><h2>WHO GETS TO LIVE LONGER</h2></div>
+    <div class="rule"></div>
+    <div class="stats" id="gap-stats"></div>
+    <p class="sec-dek" style="margin-bottom:0;">Longevity research is mostly paid for and pursued by the very rich, in a country where money already buys more than a decade of life.</p>
+  </section>
+
+  <!-- 04 CHARGES -->
+  <section class="panel wide" id="workers">
+    <div class="sec-head"><span class="sec-num">04</span><h2>HOSTILE TO WORKERS: THE CASE</h2></div>
+    <div class="rule"></div>
+    <p class="sec-dek">Eight charges. Each starts with the critics’ argument, followed by the evidence it rests on.</p>
+    <div class="stats" id="work-stats"></div>
+    <div class="charges" id="charges"></div>
+  </section>
+
+  <!-- 05 COUNTERPOINT -->
+  <section class="panel" id="counter">
+    <div class="sec-head"><span class="sec-num">05</span><h2>THE OTHER SIDE</h2></div>
+    <div class="rule"></div>
+    <p class="sec-dek">Not every transhumanist shares the billionaire vision.</p>
+    <ul class="checklist" id="counter-list"></ul>
+  </section>
+
+  <section class="panel" id="resist">
+    <div class="sec-head"><span class="sec-num">06</span><h2>WORKERS PUSH BACK</h2></div>
+    <div class="rule"></div>
+    <p class="sec-dek">Contracts and laws that have already drawn lines around AI and body-and-brain monitoring.</p>
+    <ul class="checklist" id="resist-list"></ul>
+  </section>
+
+  <!-- Footer -->
+  <footer class="panel wide">
+    <div class="continue">
+      <div class="big">YOU ARE NOT A LEGACY SYSTEM</div>
+      <a class="btn" href="index.html">CONTINUE <span class="blink">▶▌</span></a>
+    </div>
+    <p class="method">Compiled from books, papers, court and government records, company statements and investigative reporting. Quotes are reproduced exactly from their sources. Every entry was fact-checked against its sources in October 2026.</p>
+  </footer>
+</main>
+
+<script>
+const STATUS = {
+  documented: { label: "DOCUMENTED", desc: "public record, published work or official document" },
+  peer: { label: "PEER-REVIEWED", desc: "published scientific study" },
+  reported: { label: "REPORTED", desc: "investigative journalism" },
+  words: { label: "IN THEIR WORDS", desc: "direct quote from the person or company" },
+  argument: { label: "ARGUMENT", desc: "critics’ interpretation of the evidence" },
+  speculative: { label: "SPECULATIVE", desc: "a proposal or prediction, not yet real" }
+};
+
+const TIMELINE = [
+  { y: "1880s", title: "Russian Cosmism: defeat death, resurrect the dead",
+    body: "Philosopher Nikolai Fyodorov argues humanity’s “common task” is to conquer death and physically resurrect every ancestor. His ideas influence rocket pioneer Konstantin Tsiolkovsky.",
+    status: "documented", src: "Fyodorov, Philosophy of the Common Task (published 1906–1913)", url: "https://www.swarthmore.edu/russian-and-east-european-science-fiction/konstantin-tsiokovsky-and-nikolai-fyodorov" },
+  { y: "1923", title: "Haldane imagines engineered humans",
+    body: "J.B.S. Haldane’s essay “Daedalus” predicts babies grown in artificial wombs and deliberate improvement of the species. It helped inspire Aldous Huxley’s Brave New World.",
+    status: "documented", src: "Haldane, Daedalus, or Science and the Future (lecture 1923; published 1924)", url: "https://embryo.asu.edu/pages/idea-ectogenesis-daedalus-or-science-and-future-1924-john-burdon-sanderson-haldane" },
+  { y: "1929", title: "Bernal: shed the body",
+    body: "J.D. Bernal pictures humans replacing their bodies with machines and living in space colonies.",
+    status: "documented", src: "Bernal, The World, the Flesh and the Devil (1929)" },
+  { y: "1951/57", title: "A eugenicist names the movement",
+    body: "Biologist Julian Huxley, Aldous’s brother, uses the word “transhumanism” in a 1951 lecture and popularizes it in a 1957 essay, for humanity transcending itself through science. Huxley was a prominent eugenicist and later president of Britain’s Eugenics Society (1959–62).",
+    status: "documented", src: "Huxley, “Transhumanism,” in New Bottles for New Wine (1957); Harrison & Wolyniak, Notes and Queries (2015)", url: "https://en.wikipedia.org/wiki/Julian_Huxley" },
+  { y: "1962", title: "Cryonics begins",
+    body: "Robert Ettinger’s The Prospect of Immortality proposes freezing the dead for future revival. The Alcor Life Extension Foundation follows in 1972.",
+    status: "documented", src: "Ettinger (1962/1964); Alcor", url: "https://en.wikipedia.org/wiki/Alcor_Life_Extension_Foundation" },
+  { y: "1986–88", title: "Nanobots and mind uploading",
+    body: "Eric Drexler’s Engines of Creation popularizes nanotechnology; Hans Moravec’s Mind Children argues minds could be transferred into robots.",
+    status: "documented", src: "Drexler (1986); Moravec (1988)" },
+  { y: "1988", title: "Extropians: transhumanism goes libertarian",
+    body: "Max More and Tom Bell (writing as T.O. Morrow) launch Extropy magazine, later the Extropy Institute, pairing human enhancement with free-market, anti-state politics.",
+    status: "documented", src: "Extropy magazine (1988); More, Principles of Extropy", url: "https://en.wikipedia.org/wiki/Extropianism" },
+  { y: "1989", title: "FM-2030: “Are You a Transhuman?”",
+    body: "Futurist FM-2030 (born Fereidoun Esfandiary), who taught at The New School, publishes a manifesto on becoming post-human. He was cryopreserved in 2000.",
+    status: "documented", src: "FM-2030, Are You a Transhuman? (1989)", url: "https://en.wikipedia.org/wiki/FM-2030" },
+  { y: "1993", title: "The Singularity",
+    body: "Mathematician and author Vernor Vinge predicts that within 30 years humans will have the means to create superhuman intelligence, and that “shortly after, the human era will be ended.”",
+    status: "documented", src: "Vinge, “The Coming Technological Singularity” (1993)", url: "https://edoras.sdsu.edu/~vinge/misc/singularity.html" },
+  { y: "1998", title: "An organized movement",
+    body: "Nick Bostrom and David Pearce found the World Transhumanist Association and publish the Transhumanist Declaration. It is renamed Humanity+ in 2008.",
+    status: "documented", src: "Transhumanist Declaration (1998); Humanity+", url: "https://en.wikipedia.org/wiki/Humanity%2B" },
+  { y: "2000", title: "A singularity institute, later funded by Thiel",
+    body: "Eliezer Yudkowsky co-founds the Singularity Institute (now MIRI), first aiming to accelerate superhuman AI; by 2005 it pivots to AI risk. From 2006 Peter Thiel becomes a major donor.",
+    status: "documented", src: "MIRI history; Thiel Foundation", url: "https://en.wikipedia.org/wiki/Machine_Intelligence_Research_Institute" },
+  { y: "2005", title: "Kurzweil sets a date: 2045",
+    body: "Ray Kurzweil’s The Singularity Is Near predicts humans merging with AI by 2045. Bostrom founds Oxford’s Future of Humanity Institute the same year; Oxford closed it in 2024.",
+    status: "documented", src: "Kurzweil (2005); Future of Humanity Institute (2005–2024)", url: "https://en.wikipedia.org/wiki/Future_of_Humanity_Institute" },
+  { y: "2008", title: "Singularity University",
+    body: "Kurzweil and Peter Diamandis found Singularity University at NASA’s Ames campus (public launch 2009), with Google as a founding sponsor, selling executive courses on exponential technology.",
+    status: "documented", src: "TechCrunch (Feb 2009)", url: "https://techcrunch.com/2009/02/02/world-renowned-scientists-team-with-google-and-nasa-to-launch-singularity-university/" },
+  { y: "2013", title: "Google takes on aging",
+    body: "Google launches Calico (California Life Company) to research aging and longevity.",
+    status: "documented", src: "Google announcement (Sept 2013)", url: "https://www.fiercebiotech.com/it/google-announces-calico-a-new-company-focused-on-health-and-well-being" },
+  { y: "2016", title: "Neuralink",
+    body: "Elon Musk co-founds Neuralink. He argues humans will need to merge with machines to keep up with AI. Its first human implant comes in January 2024.",
+    status: "documented", src: "Fortune (Feb 2017); PBS NewsHour (Jan 2024)", url: "https://fortune.com/2017/02/13/elon-musk-human-artificial-intelligence" },
+  { y: "2022–23", title: "Billion-dollar longevity",
+    body: "Altos Labs launches with $3 billion; Sam Altman puts $180 million into Retro Biosciences, aiming to add ten years to healthy human life.",
+    status: "reported", src: "Altos Labs (Jan 2022); MIT Technology Review (Mar 2023)", url: "https://www.technologyreview.com/2023/03/08/1069523/sam-altman-investment-180-million-retro-biosciences-longevity-death/" },
+  { y: "2023", title: "The Techno-Optimist Manifesto",
+    body: "Investor Marc Andreessen publishes a manifesto calling “sustainability,” “trust and safety” and “tech ethics” names for a “mass demoralization campaign,” naming the “precautionary principle” as an enemy, and calling for accelerating technology.",
+    status: "documented", src: "Andreessen, “The Techno-Optimist Manifesto” (Oct 2023)", url: "https://a16z.com/the-techno-optimist-manifesto/" },
+  { y: "2024", title: "Critics name the bundle: TESCREAL",
+    body: "Timnit Gebru and Émile P. Torres argue transhumanism, longtermism and related Silicon Valley ideologies descend from 20th-century eugenics and drive the race to build AGI.",
+    status: "peer", src: "Gebru & Torres, “The TESCREAL bundle,” First Monday (April 2024)", url: "https://firstmonday.org/ojs/index.php/fm/article/view/13636" }
+];
+
+const STACK = [
+  { name: "Radical life extension", body: "Drugs, gene therapies and cell reprogramming to slow or reverse aging. Promising in animals; no treatment has been shown to extend human lifespan.", reality: 2 },
+  { name: "Cryonics", body: "About 500 bodies and brains are stored in liquid nitrogen in the US. No one has ever been revived.", reality: 0 },
+  { name: "Mind uploading", body: "Scanning a brain and running it as software. In 2024 scientists mapped all ~140,000 neurons of a fruit fly. A human brain has about 86 billion.", reality: 0 },
+  { name: "Brain–computer interfaces", body: "Implants that read brain signals. Real and improving for paralysis and speech (BrainGate since 2004, Neuralink, Synchron). Healthy-person “upgrades” remain hype.", reality: 3 },
+  { name: "Genetic enhancement", body: "Editing embryos or picking them by predicted traits. Polygenic embryo screening is sold commercially; He Jiankui was jailed for creating gene-edited babies in 2018.", reality: 2 },
+  { name: "Cognitive enhancement", body: "Stimulants and “nootropics” to boost focus. Effects in healthy people are modest and come with side effects.", reality: 2 },
+  { name: "Superintelligence", body: "Building AI that surpasses humans at everything: the stated goal of OpenAI, Google DeepMind and Meta’s “Superintelligence Labs”; Musk says xAI is chasing it too. Whether and when is fiercely contested.", reality: 1 },
+  { name: "Morphological freedom", body: "The claimed right to modify your body however you like. Mostly hobbyist “biohackers” implanting magnets and RFID chips.", reality: 1 }
+];
+
+const FUNDERS = [
+  { who: "Peter Thiel", what: "Early major donor to MIRI; backed the Methuselah Foundation and SENS anti-aging research; funded seasteading; has said he signed up for cryonics." },
+  { who: "Elon Musk", what: "Neuralink and xAI; argues humans must merge with machines to stay relevant." },
+  { who: "Sam Altman", what: "$180M into Retro Biosciences; CEO of OpenAI, whose stated mission is artificial general intelligence." },
+  { who: "Larry Page / Google", what: "Calico longevity company (2013); early backer of Singularity University." },
+  { who: "Yuri Milner, Jeff Bezos", what: "Reported investors in Altos Labs ($3B, 2022)." },
+  { who: "Bryan Johnson", what: "Spends about $2M a year on his “Blueprint” anti-aging regime, including infusions of plasma from his 17-year-old son (2023)." },
+  { who: "FTX Future Fund", what: "Sam Bankman-Fried’s fund made about $130M in grants and investments for longtermist causes in 2022 before FTX collapsed in fraud." }
+];
+
+const GAP_STATS = [
+  { n: "14.6", t: "more years of life expectancy at age 40 for the richest 1% of American men than the poorest 1%. For women the gap is 10.1 years.", src: "Chetty et al., JAMA (2016)", status: "peer", url: "https://jamanetwork.com/journals/jama/fullarticle/2513561" },
+  { n: "$3B", t: "launch funding for one longevity startup, Altos Labs, in 2022.", src: "Altos Labs (2022)", status: "reported" },
+  { n: "$2M", t: "a year spent by one tech founder on his personal anti-aging program.", src: "Vance, Bloomberg Businessweek (Jan 2023)", status: "reported" }
+];
+
+const WORK_STATS = [
+  { n: "80%", t: "of US workers could have at least 10% of their tasks affected by large language models; 19% could see half their tasks affected.", src: "Eloundou et al. (OpenAI & UPenn), “GPTs are GPTs” (2023; Science 2024)", status: "peer", url: "https://arxiv.org/abs/2303.10130v2" },
+  { n: "300M", t: "full-time jobs’ worth of work worldwide exposed to automation by generative AI.", src: "Goldman Sachs (March 2023)", status: "reported" },
+  { n: "<$2/hr", t: "paid to Kenyan workers labelling violent and abusive content to make ChatGPT safer.", src: "TIME (Jan 2023)", status: "reported", url: "https://www.business-humanrights.org/en/latest-news/openai-and-sama-hired-underpaid-workers-in-kenia-to-filter-toxic-content-for-chatgpt" }
+];
+
+const CHARGES = [
+  { letter: "A", title: "A world without jobs, and only vague plans for workers",
+    claim: "Leading figures openly aim to make human labor unnecessary, while offering only vague promises about how displaced workers would live.",
+    evidence: [
+      { status: "words", text: "Sam Altman: once powerful AI “joins the workforce,” “the price of many kinds of labor … will fall toward zero.” He proposes an “American Equity Fund” paid for by annual 2.5% levies on large companies and on land.", src: "Altman, “Moore’s Law for Everything” (2021)", url: "https://moores.samaltman.com/" },
+      { status: "words", text: "Elon Musk: “There will come a point where no job is needed.” He added that people could still work for personal satisfaction, “but the AI will be able to do everything.”", src: "Conversation with UK PM Rishi Sunak (Nov 2023)", url: "https://www.irishtimes.com/technology/2023/11/03/ai-will-render-all-jobs-obsolete-elon-musk-tells-ai-safety-summit/" },
+      { status: "argument", text: "Proposals like Altman’s depend on governments the same investors lobby against, and none has been enacted.", src: "Critics’ analysis" }
+    ] },
+  { letter: "B", title: "Built on hidden, low-paid human labor",
+    claim: "The machines meant to replace workers are trained and cleaned up by armies of poorly paid people in the Global South.",
+    evidence: [
+      { status: "reported", text: "Kenyan workers employed via contractor Sama were paid less than $2 an hour to label graphic content for OpenAI.", src: "TIME (Jan 2023)", url: "https://www.business-humanrights.org/en/latest-news/openai-and-sama-hired-underpaid-workers-in-kenia-to-filter-toxic-content-for-chatgpt" },
+      { status: "reported", text: "More than 140 former Facebook content moderators in Kenya were diagnosed with PTSD. They are suing Meta and Sama; the case is still in Kenya’s labour court as of 2026.", src: "CNN (Dec 2024); Capital FM (Apr 2026)", url: "https://kvia.com/news/business-technology/cnn-business-consumer/2024/12/22/facebook-inflicted-lifelong-trauma-on-kenyan-content-moderators-campaigners-say-as-more-than-140-are-diagnosed-with-ptsd/" },
+      { status: "documented", text: "Researchers call this invisible workforce “ghost work.”", src: "Gray & Suri, Ghost Work (2019)" }
+    ] },
+  { letter: "C", title: "The optimized body becomes the monitored body",
+    claim: "The transhumanist drive to measure and optimize the human body shows up at work as surveillance of workers’ movements, fatigue and even brain activity.",
+    evidence: [
+      { status: "documented", text: "Amazon was granted patents for a wristband that tracks warehouse workers’ hand movements and buzzes to steer them.", src: "US Patent Office (Jan 2018); NPR", url: "https://www.npr.org/sections/thetwo-way/2018/02/01/582370715/wrist-watching-amazon-patents-system-to-track-guide-employees-hands" },
+      { status: "documented", text: "France’s data regulator fined Amazon €32 million for excessively intrusive monitoring of warehouse workers’ every scan and idle moment. In December 2025 France’s top administrative court upheld the sanction but cut the fine to €15 million.", src: "CNIL (Jan 2024); Conseil d’État (Dec 2025)", url: "https://www.mind.eu.com/rh/en/article/amazon-france-logistique-employee-surveillance-fine-halved-on-appeal/" },
+      { status: "documented", text: "EEG headbands and caps that monitor fatigue and attention, such as SmartCap’s LifeBand, are already sold to employers in mining and trucking.", src: "Farahany, “Neurotech at Work,” Harvard Business Review (2023); The Battle for Your Brain (2023)" }
+    ] },
+  { letter: "D", title: "Enhancement turns into a job requirement",
+    claim: "If some workers take enhancements to compete, the rest come under pressure to follow, turning a personal “choice” into a condition of employment.",
+    evidence: [
+      { status: "reported", text: "In an informal online poll of about 1,400 readers of the journal Nature, mostly scientists, one in five said they had used drugs to boost focus or memory.", src: "Maher, Nature (2008)", url: "https://doi.org/10.1038/452674a" },
+      { status: "documented", text: "Philosopher Michael Sandel warns that enhancement fuels a drive to mastery that erodes solidarity with the less advantaged.", src: "Sandel, The Case Against Perfection (2007)" },
+      { status: "argument", text: "Workers with the least bargaining power would be the last able to refuse.", src: "Critics’ analysis" }
+    ] },
+  { letter: "E", title: "The uploaded worker at subsistence wages",
+    claim: "In the most detailed transhumanist vision of a post-biological economy, digital copies of people work almost constantly for bare survival.",
+    evidence: [
+      { status: "documented", text: "Economist Robin Hanson forecasts a world of brain “emulations” copied from a few highly productive people, with most copies working long hours at near-subsistence wages.", src: "Hanson, The Age of Em (2016)", url: "https://en.wikipedia.org/wiki/The_Age_of_Em" },
+      { status: "speculative", text: "Mind uploading does not exist; the book is a forecast, not a plan anyone is carrying out.", src: "See section 02" }
+    ] },
+  { letter: "F", title: "Longer lives for owners, not workers",
+    claim: "Life extension is financed and first used by the rich, while workers already die years earlier.",
+    evidence: [
+      { status: "peer", text: "At age 40, the richest 1% of American men can expect to live 14.6 years longer than the poorest 1%.", src: "Chetty et al., JAMA (2016)", url: "https://jamanetwork.com/journals/jama/fullarticle/2513561" },
+      { status: "reported", text: "Longevity startups are funded with billions from tech fortunes, and the leading self-experimenter spends about $2 million a year on himself.", src: "See “Who gets to live longer”" }
+    ] },
+  { letter: "G", title: "Exit from democracy and labor law",
+    claim: "Influential backers favor escaping democratic control, including the labor and safety rules that protect workers.",
+    evidence: [
+      { status: "words", text: "Peter Thiel: “I no longer believe that freedom and democracy are compatible.”", src: "Thiel, “The Education of a Libertarian,” Cato Unbound (2009)", url: "https://www.cato-unbound.org/2009/04/13/peter-thiel/education-libertarian/" },
+      { status: "documented", text: "Próspera, a private charter city in Honduras, is suing the country for about $10.8 billion after Honduras repealed the law allowing such zones. The case is still pending.", src: "ICSID Case ARB/23/2 (filed Dec 2022)", url: "https://www.italaw.com/node/20486" },
+      { status: "reported", text: "A biotech startup offered an unapproved gene therapy at Próspera, outside US drug regulation.", src: "MIT Technology Review (Feb 2023)", url: "https://www.technologyreview.com/2023/02/13/1068330/minicircle-prospera-honduras-biohacking-follistatin-gene-therapy/" }
+    ] },
+  { letter: "H", title: "Eugenic roots",
+    claim: "Ranking human worth by traits like IQ has a long history of being used against poor and working people, and it resurfaces in this movement.",
+    evidence: [
+      { status: "documented", text: "Julian Huxley, who popularized the term “transhumanism,” was president of Britain’s Eugenics Society.", src: "Eugenics Society records (1959–62)" },
+      { status: "documented", text: "A 1996 email by Nick Bostrom containing a racial slur and claims about race and intelligence surfaced in 2023; he apologized.", src: "Bostrom statement (Jan 2023)" },
+      { status: "reported", text: "An undercover investigation found a US startup offering wealthy couples embryo screening ranked by predicted IQ.", src: "The Guardian / Hope Not Hate (Oct 2024)", url: "https://humanprogress.org/us-startup-charging-couples-to-screen-embryos-for-iq/" }
+    ] }
+];
+
+const COUNTER = [
+  { text: "<b>Democratic transhumanism.</b> Sociologist James Hughes argues enhancement must be publicly funded and available to all, alongside a strong welfare state.", src: "Hughes, Citizen Cyborg (2004)" },
+  { text: "<b>Support for basic income.</b> Transhumanist Party founder Zoltan Istvan has repeatedly campaigned on basic-income ideas, including a “Federal Land Dividend.”", src: "Istvan campaigns (2016–2026)", url: "https://en.wikipedia.org/wiki/Zoltan_Istvan" },
+  { text: "<b>Medical good.</b> Brain implants are restoring speech and movement to paralyzed people. The technology itself is not the problem; who controls it is.", src: "BrainGate; peer-reviewed trials" },
+  { text: "<b>Diverse movement.</b> Many transhumanists reject libertarian politics, and some disability advocates embrace assistive technology while criticizing “fixing” people.", src: "Humanity+; disability studies literature", open: true }
+];
+
+const RESIST = [
+  { text: "<b>Hollywood writers (2023):</b> the WGA contract bars AI from writing or rewriting scripts and from being treated as source material.", src: "WGA Minimum Basic Agreement (2023)" },
+  { text: "<b>Actors (2023):</b> SAG-AFTRA won consent and pay requirements for digital replicas of performers.", src: "SAG-AFTRA TV/Theatrical contract (2023)" },
+  { text: "<b>Video-game performers (2024–25):</b> an 11-month strike ending in July 2025 with consent and disclosure rules for AI replicas of voices and likenesses.", src: "SAG-AFTRA Interactive Media strike", url: "https://www.awn.com/news/sag-aftra-ratifies-new-deal-video-game-companies" },
+  { text: "<b>Neural privacy laws:</b> Colorado (2024) and California (2024) became the first US states to protect brain data.", src: "Colorado HB24-1058; California SB 1223", url: "https://news.bloomberglaw.com/privacy-and-data-security/colorado-protects-brain-wave-privacy-with-first-neurodata-law" },
+  { text: "<b>EU AI Act:</b> bans AI that infers workers’ emotions in the workplace from February 2025, except for medical or safety reasons.", src: "EU AI Act, Article 5(1)(f)", url: "https://fpf.org/blog/red-lines-under-eu-ai-act-unpacking-the-prohibition-of-emotion-recognition-in-the-workplace-and-education-institutions/" },
+  { text: "<b>Amazon fined:</b> French regulator’s penalty for warehouse surveillance, upheld on appeal (cut from €32M to €15M in Dec 2025).", src: "CNIL (Jan 2024); Conseil d’État (Dec 2025)", url: "https://www.mind.eu.com/rh/en/article/amazon-france-logistique-employee-surveillance-fine-halved-on-appeal/" }
+];
+
+// ---------- helpers ----------
+function badge(s) {
+  const st = STATUS[s];
+  return `<span class="badge st-${s}" title="${st.desc}">${st.label}</span>`;
+}
+function srcHtml(item) {
+  return item.url ? `<a href="${item.url}" target="_blank" rel="noopener">${item.src} ↗</a>` : item.src;
+}
+
+document.getElementById("legend").innerHTML = Object.entries(STATUS)
+  .map(([k, s]) => `<span>${badge(k)} <span class="src">${s.desc}</span></span>`).join(" ");
+
+document.getElementById("timeline").innerHTML = TIMELINE.map(t => `
+  <article class="t-card">
+    <div class="t-year">${t.y}<span class="x">▣ □ □</span></div>
+    <div class="t-body">
+      <h3>${t.title}</h3>
+      <p>${t.body}</p>
+      <div>${badge(t.status)} <span class="src">${srcHtml(t)}</span></div>
+    </div>
+  </article>`).join("");
+
+document.getElementById("stack-grid").innerHTML = STACK.map(m => `
+  <div class="module">
+    <h3>${m.name}</h3>
+    <p>${m.body}</p>
+    <div class="reality">REALITY
+      <span class="cells">${[0, 1, 2, 3, 4].map(i => `<i class="${i < m.reality ? "on" : ""}"></i>`).join("")}</span>
+      ${["NOT REAL", "HYPE", "EARLY", "WORKS (MEDICAL)", "MATURE", "EVERYWHERE"][m.reality]}
+    </div>
+  </div>`).join("");
+
+document.getElementById("funders-table").innerHTML =
+  `<tr><th>WHO</th><th>WHAT THEY FUND</th></tr>` +
+  FUNDERS.map(f => `<tr><td>${f.who}</td><td>${f.what}</td></tr>`).join("");
+
+function stats(id, list) {
+  document.getElementById(id).innerHTML = list.map(s => `
+    <div class="stat">
+      <div class="n">${s.n}</div>
+      <div class="t">${s.t}</div>
+      <div>${badge(s.status)} <span class="src">${srcHtml(s)}</span></div>
+    </div>`).join("");
+}
+stats("gap-stats", GAP_STATS);
+stats("work-stats", WORK_STATS);
+
+document.getElementById("charges").innerHTML = CHARGES.map(c => `
+  <article class="charge">
+    <div class="charge-head"><div class="charge-letter">${c.letter}</div><div class="charge-title">${c.title}</div></div>
+    <div class="charge-body">
+      <p class="claim">${badge("argument")} ${c.claim}</p>
+      <ul class="evidence">
+        ${c.evidence.map(e => `<li>${badge(e.status)}<span class="${e.status === "words" ? "quote" : ""}">${e.text}</span><span class="src">${srcHtml(e)}</span></li>`).join("")}
+      </ul>
+    </div>
+  </article>`).join("");
+
+function checklist(id, list) {
+  document.getElementById(id).innerHTML = list.map(i =>
+    `<li class="${i.open ? "open" : ""}"><span>${i.text} <span class="src">— ${srcHtml(i)}</span></span></li>`).join("");
+}
+checklist("counter-list", COUNTER);
+checklist("resist-list", RESIST);
+
+// ---------- pixel monitor wall with blinking eyes ----------
+(function monitors() {
+  const c = document.getElementById("monitors");
+  const ctx = c.getContext("2d");
+  const W = c.width, H = c.height;
+  const RED = "#d8283c", DIM = "#7a1422", MAROON = "#3b0a12", CREAM = "#f1c49b", BLACK = "#050102";
+  const screens = [];
+  let seed = 7;
+  const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+  // grid of small CRTs, one big central one
+  for (let y = 4; y < H - 12; y += 15) {
+    for (let x = 3; x < W - 12; x += 16) {
+      if (x > 30 && x < 62 && y > 15 && y < 50) continue;
+      if (rnd() < 0.18) continue;
+      screens.push({ x, y, w: 12, h: 10, blink: 0 });
+    }
+  }
+  screens.push({ x: 34, y: 20, w: 28, h: 22, blink: 0, big: true });
+
+  function eye(s, open) {
+    const cx = s.x + s.w / 2, cy = s.y + s.h / 2;
+    const rx = s.big ? 9 : 4, ry = open ? (s.big ? 5 : 2) : 0;
+    ctx.fillStyle = open ? CREAM : RED;
+    if (!open) { ctx.fillRect(cx - rx, cy, rx * 2, 1); return; }
+    for (let dy = -ry; dy <= ry; dy++) {
+      const half = Math.round(rx * Math.sqrt(1 - (dy * dy) / ((ry + 0.5) * (ry + 0.5))));
+      ctx.fillRect(cx - half, cy + dy, half * 2, 1);
+    }
+    ctx.fillStyle = RED;
+    const pr = s.big ? 3 : 1;
+    ctx.fillRect(cx - pr, cy - pr, pr * 2, pr * 2);
+    ctx.fillStyle = BLACK;
+    ctx.fillRect(cx - 1, cy - 1, s.big ? 2 : 1, s.big ? 2 : 1);
+  }
+
+  function draw() {
+    ctx.fillStyle = BLACK;
+    ctx.fillRect(0, 0, W, H);
+    // cables
+    ctx.fillStyle = MAROON;
+    for (let x = 6; x < W; x += 11) ctx.fillRect(x, 0, 1, H);
+    // floor pedestal under big screen
+    ctx.fillStyle = DIM;
+    ctx.fillRect(44, 42, 8, 14);
+    ctx.fillStyle = RED;
+    ctx.fillRect(40, 56, 16, 2);
+    for (let i = 0; i < 6; i++) ctx.fillRect(38 - i * 3, 58 + i * 2, 20 + i * 6, 1);
+    screens.forEach(s => {
+      ctx.fillStyle = s.big ? RED : DIM;
+      ctx.fillRect(s.x - 1, s.y - 1, s.w + 2, s.h + 2);
+      ctx.fillStyle = s.big ? MAROON : BLACK;
+      ctx.fillRect(s.x, s.y, s.w, s.h);
+      eye(s, s.blink <= 0);
+      if (s.blink > 0) s.blink--;
+    });
+  }
+
+  draw();
+  if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    setInterval(() => {
+      screens.forEach(s => { if (s.blink <= 0 && Math.random() < 0.05) s.blink = 2; });
+      draw();
+    }, 150);
+  }
+})();
+</script>
+</body>
+</html>

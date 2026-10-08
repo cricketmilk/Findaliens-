@@ -1,0 +1,74 @@
+{
+  "id": "petro-canada-privatization",
+  "title": "Petro-Canada privatized (1991–2004)",
+  "pattern": "privatization",
+  "country": "Canada",
+  "summary": "Petro-Canada was created as a federal Crown corporation under the Petro-Canada Act of 1975. The Petro-Canada Public Participation Act (assented 1 February 1991) provided for its privatization, and the federal government sold shares in a 1991 initial public offering, further offerings in the 1990s including a 1995 sale of 123.9 million shares, and a final September 2004 offering of its remaining 49.4 million shares at $64.50 each. The Act kept a 20 per cent cap on any one holder's voting shares and required the head office to stay in Calgary. Petro-Canada merged with Suncor Energy in August 2009.",
+  "public": {
+    "name": "Petro-Canada (federal Crown corporation)",
+    "funder": "Government of Canada",
+    "start": { "date": "1975", "precision": "year" },
+    "end": { "date": "2004-09", "precision": "month", "kind": "privatized" },
+    "sources": [
+      { "url": "https://www.thecanadianencyclopedia.ca/en/article/petro-canada", "publisher": "The Canadian Encyclopedia", "title": "Petro-Canada" },
+      { "url": "https://laws-lois.justice.gc.ca/eng/acts/P-11.1/FullText.html", "publisher": "Justice Laws Website, Government of Canada", "title": "Petro-Canada Public Participation Act (S.C. 1991, c. 10)", "date": "1991-02-01" },
+      { "url": "https://www.canada.ca/en/news/archive/2004/09/price-petro-canada-share-offering-set.html", "publisher": "Department of Finance Canada", "title": "Price of Petro-Canada Share Offering Set", "date": "2004-09-23" }
+    ]
+  },
+  "private": {
+    "name": "Petro-Canada (publicly traded company; public shareholders)",
+    "founded": { "date": "2004-09", "precision": "month" },
+    "founders": [],
+    "funders": ["Retail and institutional investors in Canada and abroad"],
+    "outcome": "Fully privately owned from 2004; merged with Suncor Energy on 1 August 2009, with the Petro-Canada brand kept for retail fuel.",
+    "sources": [
+      { "url": "https://www.canada.ca/en/news/archive/2004/09/price-petro-canada-share-offering-set.html", "publisher": "Department of Finance Canada", "title": "Price of Petro-Canada Share Offering Set", "date": "2004-09-23" },
+      { "url": "https://www.sec.gov/Archives/edgar/data/311337/000110465909046983/a09-20082_8ex99d1.htm", "publisher": "Suncor Energy (SEC filing)", "title": "Suncor Energy completes merger with Petro-Canada to create Canada's premier energy company", "date": "2009-08-03" }
+    ]
+  },
+  "links": [
+    {
+      "type": "asset-transfer",
+      "claim": "The Petro-Canada Public Participation Act, 'An Act respecting the privatization of the national petroleum company of Canada', transferred the company's shares to the Minister, allowed them to be sold, capped any holder at 20 per cent of votes, and required the head office to stay in Calgary.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://laws-lois.justice.gc.ca/eng/acts/P-11.1/FullText.html", "publisher": "Justice Laws Website, Government of Canada", "title": "Petro-Canada Public Participation Act (S.C. 1991, c. 10)", "date": "1991-02-01" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "The 1991 initial public offering sold Petro-Canada shares at C$13 each as the first step in privatization; Oil & Gas Journal reported 39.5 million shares and C$513.5 million, but also 42 million shares (about 19.5 per cent), while The Canadian Encyclopedia puts the 1991 sale at about 30 per cent.",
+      "status": "reported",
+      "sources": [
+        { "url": "https://www.ogj.com/home/article/17238800/petrocan-share-sale-complete", "publisher": "Oil & Gas Journal", "title": "PETROCAN SHARE SALE COMPLETE", "date": "1991-07-01" },
+        { "url": "https://www.thecanadianencyclopedia.ca/en/article/petro-canada", "publisher": "The Canadian Encyclopedia", "title": "Petro-Canada" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "The Department of Finance announced in September 1995 that the government had sold 123.9 million Petro-Canada shares for net proceeds above $1.746 billion, leaving it with 49.4 million shares, about 20 per cent.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://bac-lac.wayback.archive-it.org/web/20061129181233/http://www.fin.gc.ca/news95/95-071e.html", "publisher": "Department of Finance Canada (archived by Library and Archives Canada)", "title": "Petro-Canada Share Offering Closes (Release 1995-071)", "date": "1995-09-22" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "The Department of Finance announced it was selling all of its remaining 49,390,104 Petro-Canada shares at $64.50 each, for gross proceeds of $3.2 billion and about $2.6 billion in net budgetary revenue, with $1 billion earmarked for environmental technologies.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.canada.ca/en/news/archive/2004/09/price-petro-canada-share-offering-set.html", "publisher": "Department of Finance Canada", "title": "Price of Petro-Canada Share Offering Set", "date": "2004-09-23" },
+        { "url": "https://bac-lac.wayback.archive-it.org/web/20061129181625/http://www.fin.gc.ca/news04/04-022e.html", "publisher": "Department of Finance Canada (archived by Library and Archives Canada)", "title": "Government Intends to Sell Petro-Canada Shares Next Fiscal Year (Release 2004-022)", "date": "2004-03-23" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "Petroleum News reported that the 2004 offering would end the government's presence in Petro-Canada, and that the Public Participation Act's 20 per cent ownership limit would remain in place.",
+      "status": "reported",
+      "sources": [
+        { "url": "https://www.petroleumnews.com/story/2004/09/26/news/free-at-last/7552.html", "publisher": "Petroleum News", "title": "Free at last", "date": "2004-09-26" }
+      ]
+    }
+  ],
+  "claims": []
+}

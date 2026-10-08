@@ -1,0 +1,102 @@
+{
+  "entity": "in-q-tel",
+  "name": "In-Q-Tel",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "In-Q-Tel (IQT) is a not-for-profit strategic investment firm set up by the CIA in 1999. It describes itself as independent and not part of the CIA, and it works with U.S. government partners including the CIA, NGA, FBI, NSA and DHS. Fortune reported that it receives roughly $100 million a year in taxpayer money. Its investments have included Keyhole, whose technology became Google Earth after Google acquired the company, as well as Palantir and the social-media monitoring firm Dataminr.",
+    "sources": [
+      {
+        "url": "https://www.iqt.org/about-iqt",
+        "publisher": "In-Q-Tel",
+        "title": "About IQT",
+        "date": ""
+      },
+      {
+        "url": "https://fortune.com/2025/07/29/in-q-tel-cia-venture-capital-palantir-anduril/",
+        "publisher": "Fortune",
+        "title": "Inside the CIA-backed venture fund that helped launch Palantir and Google Earth",
+        "date": "2025-07-29"
+      },
+      {
+        "url": "https://theintercept.com/2016/04/14/in-undisclosed-cia-investments-social-media-mining-looms-large",
+        "publisher": "The Intercept",
+        "title": "In Undisclosed CIA Investments, Social Media Mining Looms Large",
+        "date": "2016-04-14"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On September 29, 1999, the CIA announced the launch of In-Q-It, Inc. (later renamed In-Q-Tel), with the backing of CIA Director George Tenet. The release described it as a private, independent, non-profit corporation that would partner with information-technology companies and academia on projects of mutual interest to the CIA and the commercial marketplace.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://irp.fas.org/cia/news/pr093099.htm",
+          "publisher": "Central Intelligence Agency (press release, archived by Federation of American Scientists)",
+          "title": "CIA press release on launch of In-Q-It, Inc.",
+          "date": "1999-09-29"
+        }
+      ]
+    },
+    {
+      "claim": "In-Q-Tel invested about $2 million in Palantir Technologies early in the company's life. Forbes reported that the money was part of an initial roughly $12 million funding round led by Peter Thiel's Founders Fund.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.forbes.com/forbes/2011/0314/technology-facebook-palantir-thinkprogress-super-crunchers.html",
+          "publisher": "Forbes",
+          "title": "Super Crunchers",
+          "date": "2011-02-23"
+        },
+        {
+          "url": "https://www.cnbc.com/2014/06/17/disruptors-in-2014-palantir.html",
+          "publisher": "CNBC",
+          "title": "Disruptors in 2014: Palantir",
+          "date": "2014-06-17"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "cia",
+      "relation": "partnered with",
+      "claim": "In-Q-Tel was set up by the CIA in 1999 as an independent not-for-profit investment firm and lists the CIA among its U.S. government partners. It receives taxpayer funding.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.iqt.org/about-iqt",
+          "publisher": "In-Q-Tel",
+          "title": "About IQT",
+          "date": ""
+        },
+        {
+          "url": "https://fortune.com/2025/07/29/in-q-tel-cia-venture-capital-palantir-anduril/",
+          "publisher": "Fortune",
+          "title": "Inside the CIA-backed venture fund that helped launch Palantir and Google Earth",
+          "date": "2025-07-29"
+        }
+      ]
+    },
+    {
+      "to": "palantir",
+      "relation": "invested in",
+      "claim": "In-Q-Tel was an early investor in Palantir Technologies, putting in about $2 million as the company was getting started.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.forbes.com/forbes/2011/0314/technology-facebook-palantir-thinkprogress-super-crunchers.html",
+          "publisher": "Forbes",
+          "title": "Super Crunchers",
+          "date": "2011-02-23"
+        },
+        {
+          "url": "https://www.cnbc.com/2014/06/17/disruptors-in-2014-palantir.html",
+          "publisher": "CNBC",
+          "title": "Disruptors in 2014: Palantir",
+          "date": "2014-06-17"
+        }
+      ]
+    }
+  ]
+}

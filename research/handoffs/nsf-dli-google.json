@@ -1,0 +1,96 @@
+{
+  "id": "nsf-dli-google",
+  "title": "NSF Digital Libraries Initiative → Google",
+  "pattern": "spinout",
+  "country": "United States",
+  "summary": "The Stanford Integrated Digital Library Project was one of the first six awards of the NSF-led, multi-agency Digital Library Initiative: a $4.5 million NSF cooperative agreement (IRI-9411306) running from September 1994 to August 1999. Larry Page was a graduate student funded under the project, and Sergey Brin, on an NSF graduate fellowship, worked on it; their BackRub prototype ran on equipment paid for by the project and by industry. Page's PageRank patent, owned by Stanford and stating NSF support, was licensed to Google, which was incorporated in September 1998 and raised private venture capital in 1999. The award ran its full course; the research left government through Stanford's standard university licensing, not through the end of the program.",
+  "public": {
+    "name": "Stanford Integrated Digital Library Project (NSF Digital Library Initiative award IRI-9411306)",
+    "funder": "National Science Foundation (multi-agency Digital Library Initiative; co-funded by DARPA and NASA)",
+    "budget": "$4,516,573 NSF cooperative agreement, FY1994–FY1998",
+    "start": { "date": "1994-09", "precision": "month" },
+    "end": { "date": "1999-08", "precision": "month", "kind": "completed" },
+    "sources": [
+      { "url": "https://api.nsf.gov/services/v1/awards/9411306.json", "publisher": "National Science Foundation", "title": "Award 9411306: The Stanford Integrated Digital Library Project" },
+      { "url": "https://www.nsf.gov/news/origins-google", "publisher": "National Science Foundation", "title": "On the Origins of Google", "date": "2004-08-17" }
+    ]
+  },
+  "private": {
+    "name": "Google Inc.",
+    "founded": { "date": "1998-09", "precision": "month" },
+    "founders": ["Larry Page", "Sergey Brin"],
+    "funders": ["Sequoia Capital", "Kleiner Perkins Caufield & Byers", "Andy Bechtolsheim", "Stanford University"],
+    "outcome": "Incorporated in California, September 1998; $25 million equity round led by Sequoia and Kleiner Perkins, June 1999; IPO 2004",
+    "sources": [
+      { "url": "https://www.sec.gov/Archives/edgar/data/1288776/000119312504073639/ds1.htm", "publisher": "U.S. Securities and Exchange Commission", "title": "Google Inc. Form S-1 Registration Statement", "date": "2004-04-29" },
+      { "url": "https://thenextweb.com/news/googles-press-release", "publisher": "The Next Web", "title": "Google's Very First Press Release", "date": "2009-09-27" },
+      { "url": "https://autm.net/about-tech-transfer/better-world-project/bwp-stories/google", "publisher": "AUTM", "title": "Taking a Chance on Google" }
+    ]
+  },
+  "links": [
+    {
+      "type": "ip-license",
+      "claim": "Google's IPO filing states that PageRank was created while Page and Brin attended Stanford, that Stanford owns the PageRank patent, that Google holds a perpetual license to it, and that in October 2003 Google extended its exclusivity through 2011.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/1288776/000119312504073639/ds1.htm", "publisher": "U.S. Securities and Exchange Commission", "title": "Google Inc. Form S-1 Registration Statement", "date": "2004-04-29" }
+      ]
+    },
+    {
+      "type": "ip-license",
+      "claim": "U.S. Patent 6,285,999 ('Method for node ranking in a linked database', inventor Lawrence Page, assigned to Stanford, filed January 1998) states the invention 'was supported in part by the National Science Foundation grant number IRI-9411306-4' and that the government has certain rights in it.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://patents.google.com/patent/US6285999B1/en", "publisher": "Google Patents (USPTO record)", "title": "US6285999B1 - Method for node ranking in a linked database", "date": "2001-09-04" }
+      ]
+    },
+    {
+      "type": "ip-license",
+      "claim": "Stanford's Office of Technology Licensing licensed PageRank to Google after its incorporation and, as patent holder, ended up with more than 1.8 million Google shares; Google's 1999 funding announcement named Stanford University among its investors.",
+      "status": "reported",
+      "sources": [
+        { "url": "https://stanfordmag.org/contents/starting-up", "publisher": "Stanford Magazine", "title": "Starting Up", "date": "2012-01-26" },
+        { "url": "https://autm.net/about-tech-transfer/better-world-project/bwp-stories/google", "publisher": "AUTM", "title": "Taking a Chance on Google" },
+        { "url": "https://thenextweb.com/news/googles-press-release", "publisher": "The Next Web", "title": "Google's Very First Press Release", "date": "2009-09-27" }
+      ]
+    },
+    {
+      "type": "personnel",
+      "claim": "NSF states that Larry Page was one of the graduate students funded under the NSF-supported DLI project at Stanford, and that Sergey Brin, supported by an NSF Graduate Student Fellowship, also worked on the DLI project.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.nsf.gov/news/origins-google", "publisher": "National Science Foundation", "title": "On the Origins of Google", "date": "2004-08-17" }
+      ]
+    },
+    {
+      "type": "funding",
+      "claim": "Brin and Page's 1998 paper describing Google states the research was conducted as part of the Stanford Integrated Digital Library Project, supported by NSF Cooperative Agreement IRI-9411306, with additional funding from DARPA, NASA, Interval Research and the project's industrial partners; NSF says the BackRub prototype's equipment was funded by the DLI project and industrial contributions.",
+      "status": "documented",
+      "sources": [
+        { "url": "http://infolab.stanford.edu/~backrub/google.html", "publisher": "Stanford University InfoLab", "title": "The Anatomy of a Large-Scale Hypertextual Web Search Engine", "date": "1998" },
+        { "url": "https://www.nsf.gov/news/origins-google", "publisher": "National Science Foundation", "title": "On the Origins of Google", "date": "2004-08-17" }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "The government (NSF) created Google.",
+      "assessment": "partly-true",
+      "explanation": "NSF's Digital Library award paid for Page's graduate work and the BackRub prototype's equipment, and the PageRank patent acknowledges the NSF grant. But Google was a private company incorporated in 1998 and financed by private investors, including a $25 million round led by Sequoia Capital and Kleiner Perkins in 1999; the PageRank patent belongs to Stanford, which licensed it to Google in exchange for equity.",
+      "sources": [
+        { "url": "https://www.nsf.gov/news/origins-google", "publisher": "National Science Foundation", "title": "On the Origins of Google", "date": "2004-08-17" },
+        { "url": "https://thenextweb.com/news/googles-press-release", "publisher": "The Next Web", "title": "Google's Very First Press Release", "date": "2009-09-27" },
+        { "url": "https://stanfordmag.org/contents/starting-up", "publisher": "Stanford Magazine", "title": "Starting Up", "date": "2012-01-26" }
+      ]
+    },
+    {
+      "claim": "Google was created with CIA or NSA funding.",
+      "assessment": "unsupported",
+      "explanation": "The funding acknowledged in Brin and Page's 1998 paper and in the PageRank patent is NSF cooperative agreement IRI-9411306, with co-funding from DARPA, NASA, Interval Research and industrial partners. Neither document acknowledges intelligence-agency funding. Later claims that an intelligence-community research program helped fund Brin's graduate work were not verified from primary records here.",
+      "sources": [
+        { "url": "http://infolab.stanford.edu/~backrub/google.html", "publisher": "Stanford University InfoLab", "title": "The Anatomy of a Large-Scale Hypertextual Web Search Engine", "date": "1998" },
+        { "url": "https://patents.google.com/patent/US6285999B1/en", "publisher": "Google Patents (USPTO record)", "title": "US6285999B1 - Method for node ranking in a linked database", "date": "2001-09-04" }
+      ]
+    }
+  ]
+}

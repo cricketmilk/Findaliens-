@@ -1,0 +1,180 @@
+{
+  "id": "cochabamba-water-bechtel",
+  "title": "Cochabamba's water utility (SEMAPA) conceded to the Bechtel-led Aguas del Tunari",
+  "pattern": "privatization",
+  "country": "Bolivia",
+  "summary": "On 3 September 1999 Bolivia's Water Superintendent signed a 40-year concession giving Aguas del Tunari, a consortium 55% owned through a Bechtel subsidiary, the right to run Cochabamba's water and sewer service, including a lease and transfer of the municipal utility SEMAPA's property. The concession took effect on 1 November 1999. After months of protests and a state of emergency, it was terminated in April 2000 and the service went back under public control. Aguas del Tunari filed an ICSID claim. In January 2006 the shareholders agreed to withdraw it with no compensation paid by either side, and ICSID recorded the discontinuance on 28 March 2006.",
+  "public": {
+    "name": "SEMAPA (Servicio Municipal de Agua Potable y Alcantarillado de Cochabamba)",
+    "funder": "Municipality of Cochabamba / Republic of Bolivia",
+    "start": {
+      "date": "1967-07-12",
+      "precision": "day"
+    },
+    "end": {
+      "date": "1999-11-01",
+      "precision": "day",
+      "kind": "privatized"
+    },
+    "sources": [
+      {
+        "url": "https://www.pixilegal.com/normativa/decreto-8048-1967-07-12",
+        "publisher": "PixiLegal (text of Bolivian Supreme Decree 8048)",
+        "title": "Decreto Supremo N° 8048 de 12 de julio de 1967 (creation of SEMAPA)",
+        "date": "1967-07-12"
+      },
+      {
+        "url": "https://www.italaw.com/sites/default/files/case-documents/italaw10957_0.pdf",
+        "publisher": "ICSID tribunal (via italaw)",
+        "title": "Aguas del Tunari, S.A. v. Republic of Bolivia, ICSID Case No. ARB/02/3, Decision on Respondent's Objections to Jurisdiction (paras. 52-55: concession signed 3 Sept 1999, effective 1 Nov 1999)",
+        "date": "2005-10-21"
+      }
+    ]
+  },
+  "private": {
+    "name": "Aguas del Tunari, S.A.",
+    "founded": {
+      "date": "1999-11-01",
+      "precision": "day"
+    },
+    "founders": [
+      "International Water (Tunari) Ltd (Bechtel Enterprise Holding subsidiary, 55%)",
+      "Riverstar International S.A. (25%)",
+      "Four Bolivian companies (20%)"
+    ],
+    "funders": [
+      "Bechtel",
+      "Edison S.p.A.",
+      "Abengoa",
+      "Befesa"
+    ],
+    "outcome": "Concession terminated on 10 April 2000 after protests and a state of emergency; water service returned to public control under SEMAPA. Aguas del Tunari filed an ICSID claim (registered 25 February 2002), and the tribunal upheld its jurisdiction 2-1 in October 2005. In January 2006 the parties agreed that neither would pay compensation, and the case was discontinued on 28 March 2006. Reversed.",
+    "sources": [
+      {
+        "url": "https://www.italaw.com/sites/default/files/case-documents/italaw10957_0.pdf",
+        "publisher": "ICSID tribunal (via italaw)",
+        "title": "Aguas del Tunari v. Bolivia, Decision on Respondent's Objections to Jurisdiction (para. 60: upstream ownership in September 1999; para. 73: termination in early April 2000)",
+        "date": "2005-10-21"
+      },
+      {
+        "url": "https://icsid.worldbank.org/cases/case-database/case-detail?CaseNo=ARB/02/3",
+        "publisher": "ICSID (World Bank Group)",
+        "title": "Aguas del Tunari, S.A. v. Republic of Bolivia (ICSID Case No. ARB/02/3), case details"
+      },
+      {
+        "url": "https://www.bechtel.com/press-releases/cochabamba-water-dispute-settled/",
+        "publisher": "Bechtel",
+        "title": "Cochabamba Water Dispute Settled",
+        "date": "2006-01-19"
+      },
+      {
+        "url": "https://www.pbs.org/frontlineworld/stories/bolivia/timeline.html",
+        "publisher": "PBS Frontline/World",
+        "title": "Timeline: Cochabamba Water Revolt (40-year concession; April 10, 2000 agreement on Aguas del Tunari withdrawal)",
+        "date": "2002-06"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "contract",
+      "claim": "On 3 September 1999 Bolivia's Superintendent of Water and Aguas del Tunari signed the Contract for Concession of Use of Water and for the Public Potable Water and Sewer Service for the City of Cochabamba, ratified by Administrative Resolution SA No. 24/99, which took effect on 1 November 1999.",
+      "status": "court",
+      "sources": [
+        {
+          "url": "https://www.italaw.com/sites/default/files/case-documents/italaw10957_0.pdf",
+          "publisher": "ICSID tribunal (via italaw)",
+          "title": "Aguas del Tunari v. Bolivia, Decision on Respondent's Objections to Jurisdiction, paras. 2, 52-55",
+          "date": "2005-10-21"
+        },
+        {
+          "url": "https://www.bechtel.com/press-releases/cochabamba-water-dispute-settled/",
+          "publisher": "Bechtel",
+          "title": "Cochabamba Water Dispute Settled",
+          "date": "2006-01-19"
+        }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "Alongside the concession, the SEMAPA Property System Contract between Aguas del Tunari and SEMAPA provided for the commercial leasing and transfer of SEMAPA's property to Aguas del Tunari. Separate contracts leased the Misicuni tunnel and sold the Titiri pumping station to the concessionaire.",
+      "status": "court",
+      "sources": [
+        {
+          "url": "https://www.italaw.com/sites/default/files/case-documents/italaw10957_0.pdf",
+          "publisher": "ICSID tribunal (via italaw)",
+          "title": "Aguas del Tunari v. Bolivia, Decision on Respondent's Objections to Jurisdiction, footnote 23 (summarising the Request for Arbitration)",
+          "date": "2005-10-21"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "An IMF loan condition required Bolivia to privatize Cochabamba's water.",
+      "assessment": "partly-true",
+      "explanation": "The ESAF Policy Framework Paper of August 1998, prepared with IMF and World Bank staff, does list selling SEMAPA by December 1998 among the government's privatization plans. But the accompanying letter of intent of 14 August 1998 does not mention water or SEMAPA, and the paper does not show that SEMAPA's sale was a binding performance criterion. What actually happened in 1999 was a negotiated 40-year concession with a lone bidder, not a sale. PBS Frontline/World's timeline presents the sale as a condition of the IMF loan, which goes further than the IMF documents opened here.",
+      "sources": [
+        {
+          "url": "https://www.imf.org/external/np/pfp/bolivia/index.htm",
+          "publisher": "International Monetary Fund",
+          "title": "Bolivia: ESAF Policy Framework Paper, 1998-2001",
+          "date": "1998-08-25"
+        },
+        {
+          "url": "https://www.imf.org/external/np/loi/081498.htm",
+          "publisher": "International Monetary Fund",
+          "title": "Bolivia Letter of Intent",
+          "date": "1998-08-14"
+        },
+        {
+          "url": "https://www.pbs.org/frontlineworld/stories/bolivia/timeline.html",
+          "publisher": "PBS Frontline/World",
+          "title": "Timeline: Cochabamba Water Revolt",
+          "date": "2002-06"
+        }
+      ]
+    },
+    {
+      "claim": "The World Bank pushed the 1999 Bechtel water deal on Cochabamba.",
+      "assessment": "partly-true",
+      "explanation": "Advocacy groups and secondary accounts report that the Bank tied earlier water lending to privatizing the La Paz and Cochabamba utilities. They cite a 2002 World Bank evaluation précis that could not be opened for this record. PBS reports that a June 1999 Bank review said no subsidies should offset Cochabamba tariff rises. In a 2000 letter reproduced by the Democracy Center, however, the Bank said it had advised the government against the privatization plan and the tariff increases and had favored a different project. No primary document opened here shows that the Bank required the specific Aguas del Tunari contract.",
+      "sources": [
+        {
+          "url": "https://www.democracyctr.org/the-world-bank-letters",
+          "publisher": "The Democracy Center",
+          "title": "The World Bank letters (Christopher Neal letter and Shultz/Kruse reply, June 2000)"
+        },
+        {
+          "url": "https://www.pbs.org/frontlineworld/stories/bolivia/timeline.html",
+          "publisher": "PBS Frontline/World",
+          "title": "Timeline: Cochabamba Water Revolt",
+          "date": "2002-06"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cochabamba_Water_War",
+          "publisher": "Wikipedia",
+          "title": "Cochabamba Water War (cites World Bank OED Précis No. 222, 'Bolivia Water Management: A Tale of Three Cities', 2002)"
+        }
+      ]
+    },
+    {
+      "claim": "Bolivia had to pay Bechtel compensation for cancelling the contract.",
+      "assessment": "false",
+      "explanation": "Under the January 2006 settlement, neither the Government of Bolivia nor Aguas del Tunari paid compensation for the termination or for withdrawing the claim, and ICSID recorded the discontinuance on 28 March 2006 without any ruling on the merits.",
+      "sources": [
+        {
+          "url": "https://www.bechtel.com/press-releases/cochabamba-water-dispute-settled/",
+          "publisher": "Bechtel",
+          "title": "Cochabamba Water Dispute Settled",
+          "date": "2006-01-19"
+        },
+        {
+          "url": "https://icsid.worldbank.org/cases/case-database/case-detail?CaseNo=ARB/02/3",
+          "publisher": "ICSID (World Bank Group)",
+          "title": "Aguas del Tunari v. Bolivia, case details"
+        }
+      ]
+    }
+  ]
+}

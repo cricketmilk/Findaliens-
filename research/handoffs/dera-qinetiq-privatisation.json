@@ -1,0 +1,166 @@
+{
+  "id": "dera-qinetiq-privatisation",
+  "title": "Defence Evaluation and Research Agency → QinetiQ",
+  "pattern": "privatization",
+  "country": "United Kingdom",
+  "summary": "The Defence Evaluation and Research Agency (DERA), created on 1 April 1995 by amalgamating Ministry of Defence research establishments, was split on 1 July 2001: the larger part, including most non-nuclear test and evaluation sites, became QinetiQ, while work kept inside government went to the Defence Science and Technology Laboratory (Dstl). The MoD sold a stake to the Carlyle Group (announced December 2002), then floated QinetiQ on the London Stock Exchange in February 2006. The National Audit Office reported in 2007 net proceeds of £576 million to date, with the MoD keeping a 19 per cent stake, and concluded the taxpayer could have received more.",
+  "public": {
+    "name": "Defence Evaluation and Research Agency (DERA)",
+    "funder": "UK Ministry of Defence",
+    "start": {
+      "date": "1995-04-01",
+      "precision": "day"
+    },
+    "end": {
+      "date": "2001-07-01",
+      "precision": "day",
+      "kind": "privatized"
+    },
+    "sources": [
+      {
+        "url": "https://beta.nationalarchives.gov.uk/catalogue/id/C16166",
+        "publisher": "The National Archives (UK)",
+        "title": "Defence Evaluation and Research Agency (DERA) and its immediate predecessors: Reports and Files 1991-2001 (DEFE 75)",
+        "date": "2001"
+      },
+      {
+        "url": "https://api.parliament.uk/historic-hansard/written-answers/2003/feb/20/defence-information-technology-systems",
+        "publisher": "UK Parliament (Hansard)",
+        "title": "HL Deb 20 February 2003: Defence Information Technology Systems (written answer, Lord Bach)",
+        "date": "2003-02-20"
+      }
+    ]
+  },
+  "private": {
+    "name": "QinetiQ (QinetiQ Group plc)",
+    "founded": {
+      "date": "2001-07-01",
+      "precision": "day"
+    },
+    "founders": [],
+    "funders": [
+      "UK Ministry of Defence (original owner)",
+      "The Carlyle Group (minority investor from 2002–03 until the 2006 flotation)"
+    ],
+    "outcome": "QinetiQ was floated on the London Stock Exchange on 10 February 2006 at 200p a share, the top of its range, in an offering The Register described as a £1.3bn IPO. The NAO reported in November 2007 that the MoD had received net proceeds of £576 million and still held a 19 per cent stake.",
+    "sources": [
+      {
+        "url": "https://www.qinetiq.com/en-au/our-company/our-history",
+        "publisher": "QinetiQ",
+        "title": "Our history",
+        "date": "2001-07"
+      },
+      {
+        "url": "https://www.theregister.com/2006/02/10/qinetiq/",
+        "publisher": "The Register",
+        "title": "Qinetiq kicks off £1.3bn IPO",
+        "date": "2006-02-10"
+      },
+      {
+        "url": "https://www.nao.org.uk/reports/the-privatisation-of-qinetiq/",
+        "publisher": "National Audit Office",
+        "title": "The privatisation of QinetiQ (HC 52, 2007-08)",
+        "date": "2007-11-23"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "asset-transfer",
+      "claim": "On 1 July 2001 the MoD split DERA into QinetiQ and Dstl. The National Archives records that the commercialised part of DERA was re-created as the QinetiQ Group; QinetiQ says it took the larger part, including most of the non-nuclear testing and evaluation sites.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://api.parliament.uk/historic-hansard/written-answers/2003/feb/20/defence-information-technology-systems",
+          "publisher": "UK Parliament (Hansard)",
+          "title": "HL Deb 20 February 2003: Defence Information Technology Systems (written answer, Lord Bach)",
+          "date": "2003-02-20"
+        },
+        {
+          "url": "https://beta.nationalarchives.gov.uk/catalogue/id/C16166",
+          "publisher": "The National Archives (UK)",
+          "title": "Defence Evaluation and Research Agency (DERA) and its immediate predecessors: Reports and Files 1991-2001 (DEFE 75)",
+          "date": "2001"
+        },
+        {
+          "url": "https://www.qinetiq.com/en-au/our-company/our-history",
+          "publisher": "QinetiQ",
+          "title": "Our history",
+          "date": "2001-07"
+        }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "In December 2002 the MoD announced the sale of a stake in QinetiQ to the Carlyle Group: Carlyle would acquire a 33.8% economic interest, 3.7% would go to employees, and the MoD would keep 62.5%, planning to sell its whole stake within 3-5 years, probably by flotation. The NAO later reported the MoD received £155 million for the 37.5% stake.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://carlyle.com/ja/node/19281",
+          "publisher": "The Carlyle Group",
+          "title": "Sale of a Stake in QinetiQ PLC to The Carlyle Group",
+          "date": "2002-12-04"
+        },
+        {
+          "url": "https://www.nao.org.uk/reports/the-privatisation-of-qinetiq/",
+          "publisher": "National Audit Office",
+          "title": "The privatisation of QinetiQ (HC 52, 2007-08)",
+          "date": "2007-11-23"
+        }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "QinetiQ shares began trading on the London Stock Exchange on 10 February 2006 at 200p; the NAO reported that the privatisation had produced net proceeds of £576 million to date and that the MoD still held a 19 per cent stake.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.theregister.com/2006/02/10/qinetiq/",
+          "publisher": "The Register",
+          "title": "Qinetiq kicks off £1.3bn IPO",
+          "date": "2006-02-10"
+        },
+        {
+          "url": "https://www.nao.org.uk/reports/the-privatisation-of-qinetiq/",
+          "publisher": "National Audit Office",
+          "title": "The privatisation of QinetiQ (HC 52, 2007-08)",
+          "date": "2007-11-23"
+        }
+      ]
+    },
+    {
+      "type": "contract",
+      "claim": "After privatisation QinetiQ held a Long Term Partnering Agreement with the MoD that The Register, reporting on the NAO study, said could be worth up to £5.6bn to QinetiQ through 2028.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.theregister.com/2007/11/23/qinetiq_stealth_piracy_pillow_bite_deal/",
+          "publisher": "The Register",
+          "title": "Watchdog raps MoD over Qinetiq sell-off bonanza",
+          "date": "2007-11-23"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Taxpayers were short-changed in the privatisation of QinetiQ while Carlyle and managers profited.",
+      "assessment": "partly-true",
+      "explanation": "The NAO found the process well managed and the 2006 flotation well executed, but believed the taxpayer could have received more money from the deal; it found the top ten managers' shares were worth £107 million at flotation from an investment of just over £500,000. The Register reported Carlyle made about £300m profit on a £42m investment, a press figure rather than an audited one.",
+      "sources": [
+        {
+          "url": "https://www.nao.org.uk/reports/the-privatisation-of-qinetiq/",
+          "publisher": "National Audit Office",
+          "title": "The privatisation of QinetiQ (HC 52, 2007-08)",
+          "date": "2007-11-23"
+        },
+        {
+          "url": "https://www.theregister.com/2007/11/23/qinetiq_stealth_piracy_pillow_bite_deal/",
+          "publisher": "The Register",
+          "title": "Watchdog raps MoD over Qinetiq sell-off bonanza",
+          "date": "2007-11-23"
+        }
+      ]
+    }
+  ]
+}

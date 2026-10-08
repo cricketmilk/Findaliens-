@@ -1,0 +1,100 @@
+{
+  "id": "shuttle-commercial-crew",
+  "title": "Space Shuttle → Commercial Crew",
+  "pattern": "outsourced-successor",
+  "country": "United States",
+  "summary": "NASA's Space Shuttle flew from 1981 until Atlantis landed for the last time on 21 July 2011; for the next nine years U.S. astronauts reached the International Space Station only on Russian Soyuz vehicles. In September 2014 NASA awarded firm fixed-price Commercial Crew contracts to Boeing and SpaceX to carry its crews, with the companies owning and operating the vehicles. SpaceX's Crew Dragon first carried NASA astronauts on 30 May 2020, launching from the former shuttle pad 39A, which NASA had handed to SpaceX under a 20-year agreement in 2014.",
+  "public": {
+    "name": "Space Shuttle Program",
+    "funder": "NASA",
+    "start": { "date": "1981-04-12", "precision": "day" },
+    "end": { "date": "2011-07-21", "precision": "day", "kind": "completed" },
+    "sources": [
+      { "url": "https://www.nasa.gov/mission/sts-1/", "publisher": "NASA", "title": "STS-1", "date": "1981-04-12" },
+      { "url": "https://www.nasa.gov/image-article/historic-landing-shuttle-atlantis/", "publisher": "NASA", "title": "Historic Landing for Shuttle Atlantis", "date": "2011-07-21" }
+    ]
+  },
+  "private": {
+    "name": "SpaceX (Crew Dragon) and Boeing (CST-100 Starliner), under NASA's Commercial Crew Program",
+    "founded": { "date": "2014-09-16", "precision": "day" },
+    "founders": [],
+    "funders": ["NASA (Commercial Crew Transportation Capability contracts)"],
+    "outcome": "The date above is the award of the CCtCap contracts. SpaceX's Crew Dragon carried NASA astronauts Robert Behnken and Douglas Hurley to the ISS on the Demo-2 test flight, launched 30 May 2020 from Launch Complex 39A. NASA's Inspector General reported in 2019 that the program was several years behind its planned operational date (the 2014 target had been 2017).",
+    "sources": [
+      { "url": "https://www.nasa.gov/news-release/nasa-chooses-american-companies-to-transport-u-s-astronauts-to-international-space-station/", "publisher": "NASA", "title": "NASA Chooses American Companies to Transport U.S. Astronauts to International Space Station", "date": "2014-09-16" },
+      { "url": "https://www.nasa.gov/news-release/nasa-astronauts-launch-from-america-in-historic-test-flight-of-spacex-crew-dragon/", "publisher": "NASA", "title": "NASA Astronauts Launch from America in Historic Test Flight of SpaceX Crew Dragon", "date": "2020-05-30" },
+      { "url": "https://oig.nasa.gov/docs/IG-20-005.pdf", "publisher": "NASA Office of Inspector General", "title": "NASA's Management of Crew Transportation to the International Space Station (IG-20-005)", "date": "2019-11-14" }
+    ]
+  },
+  "links": [
+    {
+      "type": "contract",
+      "claim": "On 16 September 2014 NASA selected Boeing and SpaceX for FAR-based firm fixed-price Commercial Crew Transportation Capability contracts with maximum potential values of $4.2 billion and $2.6 billion, aiming to end the nation's sole reliance on Russia for crew transport by 2017.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.nasa.gov/news-release/nasa-chooses-american-companies-to-transport-u-s-astronauts-to-international-space-station/", "publisher": "NASA", "title": "NASA Chooses American Companies to Transport U.S. Astronauts to International Space Station", "date": "2014-09-16" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "In April 2014 NASA signed a 20-year agreement letting SpaceX use and operate Launch Complex 39A at its own expense; the pad was last used for Atlantis' final shuttle launch in July 2011. Crew Dragon's first crewed flight launched from 39A, controlled from the former shuttle control room (Firing Room 4) that SpaceX leases.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://nasa.gov/press/2014/april/nasa-signs-agreement-with-spacex-for-use-of-historic-launch-pad", "publisher": "NASA", "title": "NASA Signs Agreement with SpaceX for Use of Historic Launch Pad", "date": "2014-04-15" },
+        { "url": "https://www.nasa.gov/news-release/nasa-astronauts-launch-from-america-in-historic-test-flight-of-spacex-crew-dragon/", "publisher": "NASA", "title": "NASA Astronauts Launch from America in Historic Test Flight of SpaceX Crew Dragon", "date": "2020-05-30" }
+      ]
+    },
+    {
+      "type": "stated-successor",
+      "claim": "NASA described the 30 May 2020 Demo-2 launch as American astronauts launching on an American rocket from U.S. soil for the first time since the conclusion of the Space Shuttle Program in 2011; its spacecraft commander, Douglas Hurley, had piloted the final shuttle mission in July 2011.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.nasa.gov/news-release/nasa-astronauts-launch-from-america-in-historic-test-flight-of-spacex-crew-dragon/", "publisher": "NASA", "title": "NASA Astronauts Launch from America in Historic Test Flight of SpaceX Crew Dragon", "date": "2020-05-30" }
+      ]
+    },
+    {
+      "type": "contract",
+      "claim": "NASA's Inspector General found that since the shuttle ended in 2011 Soyuz had been the sole way to reach the ISS; by August 2019 the Commercial Crew Program had obligated about $5.5 billion of $8.5 billion awarded, and the estimated average seat price was about $90 million for Boeing and $55 million for SpaceX.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://oig.nasa.gov/docs/IG-20-005.pdf", "publisher": "NASA Office of Inspector General", "title": "NASA's Management of Crew Transportation to the International Space Station (IG-20-005)", "date": "2019-11-14" }
+      ]
+    },
+    {
+      "type": "personnel",
+      "claim": "Astronaut Garrett Reisman left NASA in March 2011, as the shuttle fleet was being retired, to work at SpaceX on astronaut safety and mission assurance for Dragon, under former NASA astronaut Ken Bowersox.",
+      "status": "reported",
+      "sources": [
+        { "url": "https://www.space.com/11123-astronaut-reisman-quits-nasa-spacex.html", "publisher": "Space.com", "title": "Astronaut Garrett Reisman Quits NASA to Join Private Spaceship Builder", "date": "2011-03-14" }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "SpaceX took over the Space Shuttle's job as soon as the shuttle retired.",
+      "assessment": "false",
+      "explanation": "The shuttle's last landing was in July 2011, the commercial crew contracts were awarded in 2014, and the first crewed Crew Dragon flight was in May 2020. In between, NASA's Inspector General notes, the Russian Soyuz was the sole means of carrying astronauts to and from the ISS.",
+      "sources": [
+        { "url": "https://oig.nasa.gov/docs/IG-20-005.pdf", "publisher": "NASA Office of Inspector General", "title": "NASA's Management of Crew Transportation to the International Space Station (IG-20-005)", "date": "2019-11-14" },
+        { "url": "https://www.nasa.gov/news-release/nasa-astronauts-launch-from-america-in-historic-test-flight-of-spacex-crew-dragon/", "publisher": "NASA", "title": "NASA Astronauts Launch from America in Historic Test Flight of SpaceX Crew Dragon", "date": "2020-05-30" }
+      ]
+    },
+    {
+      "claim": "Taxpayers paid for SpaceX's crew capsule, which SpaceX now owns.",
+      "assessment": "partly-true",
+      "explanation": "NASA paid for development and test flights under fixed-price contracts (about $1.2 billion of SpaceX's contract as of May 2019, per the Inspector General), and the 2014 award states the companies will own and operate the systems and may sell rides to other customers. But the contracts were for a service at fixed prices, not grants, and they also bought up to six crewed missions.",
+      "sources": [
+        { "url": "https://oig.nasa.gov/docs/IG-20-005.pdf", "publisher": "NASA Office of Inspector General", "title": "NASA's Management of Crew Transportation to the International Space Station (IG-20-005)", "date": "2019-11-14" },
+        { "url": "https://www.nasa.gov/news-release/nasa-chooses-american-companies-to-transport-u-s-astronauts-to-international-space-station/", "publisher": "NASA", "title": "NASA Chooses American Companies to Transport U.S. Astronauts to International Space Station", "date": "2014-09-16" }
+      ]
+    },
+    {
+      "claim": "NASA handed SpaceX the shuttle's launch pad.",
+      "assessment": "true",
+      "explanation": "NASA signed a 20-year agreement in April 2014 for SpaceX to use and operate Launch Complex 39A, the pad of the final shuttle launch, at SpaceX's own expense. It is a use agreement, not a sale.",
+      "sources": [
+        { "url": "https://nasa.gov/press/2014/april/nasa-signs-agreement-with-spacex-for-use-of-historic-launch-pad", "publisher": "NASA", "title": "NASA Signs Agreement with SpaceX for Use of Historic Launch Pad", "date": "2014-04-15" }
+      ]
+    }
+  ]
+}

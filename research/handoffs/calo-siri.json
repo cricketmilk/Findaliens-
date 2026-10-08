@@ -1,0 +1,106 @@
+{
+  "id": "calo-siri",
+  "title": "DARPA CALO → Siri",
+  "pattern": "spinout",
+  "country": "United States",
+  "summary": "CALO (Cognitive Assistant that Learns and Organizes) was SRI International's component of DARPA's Personalized Assistant that Learns (PAL) program, a five-year AI effort begun in 2003 that SRI says involved more than 300 researchers from 22 institutions. In 2007 SRI spun off Siri, Inc. to bring assistant technology from that work to consumers; the startup raised venture capital from Menlo Ventures and Morgenthaler Ventures and was acquired by Apple in April 2010. DARPA and SRI both describe Siri as an outcome of PAL/CALO, and Siri's founding team included SRI's CALO chief architect and an SRI entrepreneur-in-residence. Sources differ on when CALO itself ended (2007 or 2008), and DARPA still listed PAL as an active program in 2011.",
+  "public": {
+    "name": "CALO (Cognitive Assistant that Learns and Organizes), SRI's component of DARPA's Personalized Assistant that Learns (PAL) program",
+    "funder": "DARPA",
+    "budget": "SRI describes it as a five-year, $150 million project",
+    "start": { "date": "2003", "precision": "year" },
+    "end": { "date": "2008", "precision": "year", "kind": "completed" },
+    "sources": [
+      { "url": "https://sri.com/hoi/artificial-intelligence-calo", "publisher": "SRI International", "title": "Artificial intelligence: CALO" },
+      { "url": "https://www.darpa.mil/about/innovation-timeline/personal-assistant-that-learns", "publisher": "DARPA", "title": "Personal Assistant That Learns (PAL)" },
+      { "url": "https://en.wikipedia.org/wiki/CALO", "publisher": "Wikipedia", "title": "CALO" },
+      { "url": "https://www.cmu.edu/homepage/computing/2011/fall/siris-origins.shtml", "publisher": "Carnegie Mellon University", "title": "Siri's Origins", "date": "2011" }
+    ]
+  },
+  "private": {
+    "name": "Siri, Inc.",
+    "founded": { "date": "2007-12", "precision": "month" },
+    "founders": ["Dag Kittlaus", "Adam Cheyer", "Tom Gruber"],
+    "funders": ["Menlo Ventures", "Morgenthaler Ventures"],
+    "outcome": "Acquired by Apple, April 2010; launched as a built-in iPhone 4S feature in October 2011",
+    "sources": [
+      { "url": "https://readwrite.com/?p=73347", "publisher": "ReadWrite", "title": "Semantic Stealth Startup Siri Raises $8.5 Million", "date": "2008-10-13" },
+      { "url": "https://www.sri.com/case-studies/siri/", "publisher": "SRI International", "title": "Siri" },
+      { "url": "https://www.technologyreview.com/2010/04/29/204024/apple-snaps-up-intelligent-assistant-startup/", "publisher": "MIT Technology Review", "title": "Apple Snaps Up Intelligent Assistant Startup", "date": "2010-04-29" }
+    ]
+  },
+  "links": [
+    {
+      "type": "stated-successor",
+      "claim": "DARPA's own program history says PAL advances in voice interaction on handheld devices led to the 2007 launch of Siri Inc., later acquired by Apple, which integrated the 'Siri/PAL technology' into its mobile operating system.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.darpa.mil/about/innovation-timeline/personal-assistant-that-learns", "publisher": "DARPA", "title": "Personal Assistant That Learns (PAL)" }
+      ]
+    },
+    {
+      "type": "ip-license",
+      "claim": "SRI International states that the Siri technology was developed through the SRI-led CALO project within DARPA's PAL program, and that SRI spun off Siri, Inc. in 2007 to bring that technology to consumers. Terms of any license or equity arrangement were not found in public sources.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.sri.com/case-studies/siri/", "publisher": "SRI International", "title": "Siri" },
+        { "url": "https://sri.com/hoi/artificial-intelligence-calo", "publisher": "SRI International", "title": "Artificial intelligence: CALO" }
+      ]
+    },
+    {
+      "type": "ip-license",
+      "claim": "Contemporaneous coverage reported that Siri was spun out of SRI to commercialize the results of the SRI-led CALO project, and that CALO was the source of Siri's core technology for understanding, classifying and responding to user requests.",
+      "status": "reported",
+      "sources": [
+        { "url": "https://readwrite.com/?p=73347", "publisher": "ReadWrite", "title": "Semantic Stealth Startup Siri Raises $8.5 Million", "date": "2008-10-13" },
+        { "url": "https://www.technologyreview.com/2010/04/29/204024/apple-snaps-up-intelligent-assistant-startup/", "publisher": "MIT Technology Review", "title": "Apple Snaps Up Intelligent Assistant Startup", "date": "2010-04-29" }
+      ]
+    },
+    {
+      "type": "personnel",
+      "claim": "Adam Cheyer was a program director in SRI's Artificial Intelligence Center and Chief Architect of the CALO/PAL project, then became Siri's VP of Engineering and a co-founder.",
+      "status": "reported",
+      "sources": [
+        { "url": "https://ontologforum.org/index.php/AdamCheyer", "publisher": "Ontolog Forum", "title": "AdamCheyer (speaker bio)" },
+        { "url": "https://readwrite.com/?p=73347", "publisher": "ReadWrite", "title": "Semantic Stealth Startup Siri Raises $8.5 Million", "date": "2008-10-13" }
+      ]
+    },
+    {
+      "type": "personnel",
+      "claim": "SRI's Norman Winarsky recruited Dag Kittlaus as an entrepreneur-in-residence at SRI when SRI was looking to commercialize CALO technology; Kittlaus became Siri's CEO.",
+      "status": "reported",
+      "sources": [
+        { "url": "https://www.technologyreview.com/2010/04/29/204024/apple-snaps-up-intelligent-assistant-startup/", "publisher": "MIT Technology Review", "title": "Apple Snaps Up Intelligent Assistant Startup", "date": "2010-04-29" }
+      ]
+    },
+    {
+      "type": "personnel",
+      "claim": "Norman Winarsky, who led SRI's venture arm for more than 14 years, is described as a Siri co-founder.",
+      "status": "reported",
+      "sources": [
+        { "url": "https://siliconangle.com/2011/10/24/siri-says-goodbye-to-co-founder-kittklaus/", "publisher": "SiliconANGLE", "title": "Siri Says Goodbye To Co-Founder Kittklaus", "date": "2011-10-24" },
+        { "url": "https://venturebeat.com/technology/siri-cofounder-and-ex-sri-president-norman-winarsky-joins-relay-ventures", "publisher": "VentureBeat", "title": "Siri cofounder and ex-SRI Ventures president Norman Winarsky joins Relay Ventures", "date": "2016-05-09" }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Siri was a DARPA project / the Pentagon built Siri.",
+      "assessment": "partly-true",
+      "explanation": "The underlying research came from CALO, SRI's part of DARPA's PAL program, and DARPA itself credits PAL with leading to Siri Inc. But Siri Inc. was a separate venture-backed startup founded in 2007 that turned the research into a consumer product; DARPA's PAL program was aimed at military command staffs, and DARPA still described PAL as an active military program in 2011.",
+      "sources": [
+        { "url": "https://www.darpa.mil/about/innovation-timeline/personal-assistant-that-learns", "publisher": "DARPA", "title": "Personal Assistant That Learns (PAL)" },
+        { "url": "https://readwrite.com/?p=73347", "publisher": "ReadWrite", "title": "Semantic Stealth Startup Siri Raises $8.5 Million", "date": "2008-10-13" }
+      ]
+    },
+    {
+      "claim": "DARPA spent $150 million (or $200 million) developing Siri.",
+      "assessment": "partly-true",
+      "explanation": "SRI's $150 million figure describes the whole five-year CALO/PAL effort involving more than 300 researchers at 22 institutions, of which Siri was one later commercial outcome; it was not a budget for Siri. Siri, Inc. itself raised $24 million in private financing. The $200 million figure appears in press coverage but was not found in DARPA or SRI records.",
+      "sources": [
+        { "url": "https://sri.com/hoi/artificial-intelligence-calo", "publisher": "SRI International", "title": "Artificial intelligence: CALO" },
+        { "url": "https://www.sri.com/case-studies/siri/", "publisher": "SRI International", "title": "Siri" }
+      ]
+    }
+  ]
+}

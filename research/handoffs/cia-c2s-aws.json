@@ -1,0 +1,84 @@
+{
+  "id": "cia-c2s-aws",
+  "title": "CIA Commercial Cloud Services (C2S) → Amazon Web Services",
+  "pattern": "outsourced-successor",
+  "country": "United States",
+  "summary": "Under the Intelligence Community Information Technology Enterprise (IC ITE) plan, led by the CIA and NSA, the CIA sought commercially managed cloud computing for the intelligence community and awarded the Commercial Cloud Services (C2S) contract, worth up to $600 million over its base period, to Amazon Web Services on 14 February 2013. GAO sustained IBM's bid protest in part in June 2013 and recommended reopening the competition, but the Court of Federal Claims ruled for AWS in October 2013, and the original award stood. Trade press reported the AWS-built cloud went live in mid-2014 as a commercial cloud environment built on private government premises. It changed who builds and operates the agency's cloud computing; the records found do not show the CIA's own data centers being closed, and NSA built its own private cloud.",
+  "public": {
+    "name": "CIA and intelligence-community in-house computing infrastructure under the IC ITE cloud plan",
+    "funder": "Central Intelligence Agency / U.S. Intelligence Community",
+    "start": { "date": "2011", "precision": "year" },
+    "end": { "date": "2013-02-14", "precision": "day", "kind": "ongoing" },
+    "sources": [
+      { "url": "https://www.nextgov.com/it-modernization/2014/08/cias-amazon-built-cloud-goes-live/90347/", "publisher": "Nextgov", "title": "CIA's Amazon-Built Cloud Goes Live", "date": "2014-08-01" },
+      { "url": "https://www.gao.gov/products/D04914", "publisher": "U.S. Government Accountability Office", "title": "IBM-U.S. Federal, B-407073.3 et al.", "date": "2013-06-06" }
+    ]
+  },
+  "private": {
+    "name": "Amazon Web Services, Inc.",
+    "founded": { "date": "2013-02-14", "precision": "day" },
+    "founders": [],
+    "funders": ["Central Intelligence Agency"],
+    "outcome": "AWS performed the C2S contract after the Court of Federal Claims ruled in its favour; the CIA's CIO later described the result as 'essentially a private AWS availability zone' for the intelligence community.",
+    "sources": [
+      { "url": "https://storage.courtlistener.com/pdf/2013/11/08/amazon_web_services_inc._v._united_states.pdf", "publisher": "U.S. Court of Federal Claims (via CourtListener)", "title": "Amazon Web Services, Inc. v. United States, No. 13-506C, 113 Fed. Cl. 102 (opinion and order)", "date": "2013-11-08" },
+      { "url": "https://ctovision.com/ctovision-interviews-cia-cio-doug-wolfe-on-commercial-cloud-services-c2s-lessons-learned-and-road-ahead/", "publisher": "CTOvision", "title": "CTOvision Interviews CIA CIO Doug Wolfe on Commercial Cloud Services (C2S) Lessons Learned and Road Ahead", "date": "2015-04-28" }
+    ]
+  },
+  "links": [
+    {
+      "type": "contract",
+      "claim": "The Court of Federal Claims opinion records that the CIA awarded the C2S cloud computing contract to AWS on 14 February 2013 as the best value, despite an evaluated price of $148.06 million against IBM's $93.9 million, rating AWS's technical proposal superior and its risk low. The court granted AWS judgment on the administrative record, so the agency could go forward with the original award.",
+      "status": "court",
+      "sources": [
+        { "url": "https://storage.courtlistener.com/pdf/2013/11/08/amazon_web_services_inc._v._united_states.pdf", "publisher": "U.S. Court of Federal Claims (via CourtListener)", "title": "Amazon Web Services, Inc. v. United States, No. 13-506C, 113 Fed. Cl. 102 (opinion and order)", "date": "2013-11-08" },
+        { "url": "https://nextgov.com/modernization/2013/10/judge-rules-for-amazon-web-services-over-ibm-in-cia-cloud-case/211401", "publisher": "Nextgov", "title": "Judge rules for Amazon Web Services over IBM in CIA cloud case", "date": "2013-10-07" }
+      ]
+    },
+    {
+      "type": "contract",
+      "claim": "GAO's bid-protest decision describes the CIA solicitation (RFP No. 2012-12041000001) as seeking a single fixed-price IDIQ contract for commercially managed cloud computing services for the intelligence community, with a maximum value of $600 million over the base period, awarded to AWS. GAO sustained IBM's protest in part on pricing and on a security term relaxed only for AWS.",
+      "status": "court",
+      "sources": [
+        { "url": "https://www.gao.gov/products/D04914", "publisher": "U.S. Government Accountability Office", "title": "IBM-U.S. Federal, B-407073.3 et al.", "date": "2013-06-06" }
+      ]
+    },
+    {
+      "type": "contract",
+      "claim": "Nextgov reported that the AWS-built cloud went online in July 2014 and described it as a public-cloud-style environment built on private premises, contrasting its pay-for-use model with costly internal data centers. It reported that the CIA and NSA led IC ITE and that NSA built its own private cloud.",
+      "status": "reported",
+      "sources": [
+        { "url": "https://www.nextgov.com/it-modernization/2014/08/cias-amazon-built-cloud-goes-live/90347/", "publisher": "Nextgov", "title": "CIA's Amazon-Built Cloud Goes Live", "date": "2014-08-01" }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "The CIA moved its data onto Amazon's ordinary public cloud.",
+      "assessment": "false",
+      "explanation": "Reporting describes C2S as a segregated environment built on private premises. CIA CIO Doug Wolfe called it 'essentially a private AWS availability zone', and the interviewer described it as physically separate from the open Internet.",
+      "sources": [
+        { "url": "https://www.nextgov.com/it-modernization/2014/08/cias-amazon-built-cloud-goes-live/90347/", "publisher": "Nextgov", "title": "CIA's Amazon-Built Cloud Goes Live", "date": "2014-08-01" },
+        { "url": "https://ctovision.com/ctovision-interviews-cia-cio-doug-wolfe-on-commercial-cloud-services-c2s-lessons-learned-and-road-ahead/", "publisher": "CTOvision", "title": "CTOvision Interviews CIA CIO Doug Wolfe on Commercial Cloud Services (C2S) Lessons Learned and Road Ahead", "date": "2015-04-28" }
+      ]
+    },
+    {
+      "claim": "Amazon's C2S contract replaced the CIA's in-house computing infrastructure.",
+      "assessment": "partly-true",
+      "explanation": "The solicitation sought commercially managed cloud services, so a contractor took over building and operating the agency's cloud; Nextgov contrasted its pay-for-use model with costly internal data centers and reported the CIA believed it would be as safe as, or safer than, its current data centers. The sources found do not document the closure of CIA data centers or a transfer of government assets, and NSA built its own private cloud under the same IC ITE plan.",
+      "sources": [
+        { "url": "https://www.gao.gov/products/D04914", "publisher": "U.S. Government Accountability Office", "title": "IBM-U.S. Federal, B-407073.3 et al.", "date": "2013-06-06" },
+        { "url": "https://www.nextgov.com/it-modernization/2014/08/cias-amazon-built-cloud-goes-live/90347/", "publisher": "Nextgov", "title": "CIA's Amazon-Built Cloud Goes Live", "date": "2014-08-01" }
+      ]
+    },
+    {
+      "claim": "A court found that Amazon won the CIA cloud contract fairly over IBM.",
+      "assessment": "true",
+      "explanation": "Judge Thomas Wheeler held that GAO's recommendation to reopen the competition was irrational because IBM had not shown prejudice, writing that AWS's offer was superior and the outcome of the competition was not even close. IBM said it planned to appeal.",
+      "sources": [
+        { "url": "https://storage.courtlistener.com/pdf/2013/11/08/amazon_web_services_inc._v._united_states.pdf", "publisher": "U.S. Court of Federal Claims (via CourtListener)", "title": "Amazon Web Services, Inc. v. United States, No. 13-506C, 113 Fed. Cl. 102 (opinion and order)", "date": "2013-11-08" },
+        { "url": "https://nextgov.com/modernization/2013/10/judge-rules-for-amazon-web-services-over-ibm-in-cia-cloud-case/211401", "publisher": "Nextgov", "title": "Judge rules for Amazon Web Services over IBM in CIA cloud case", "date": "2013-10-07" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4516 @@
+{
+  "decisions": {
+    "american-petroleum-institute:summary:2675bd322922": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "american-petroleum-institute:fact:cb8c6a6e7280": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "american-petroleum-institute:fact:3d0af460c929": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "american-petroleum-institute:connection:b4be144adb62": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "american-petroleum-institute:connection:5e7d0cb44343": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "andreessen-horowitz:summary:ac86ee717a96": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "andreessen-horowitz:fact:0db5e0e1a868": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "andreessen-horowitz:fact:33367cf5a38e": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "andreessen-horowitz:connection:d098362b4989": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "bcci:summary:1e64b830353e": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "bcci:fact:5d1d764710c7": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "bcci:fact:bc57f8681b62": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "bcci:connection:d2c64e36ab3a": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "bis:summary:534915949ad9": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "bis:fact:da0dba6c3261": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "bis:fact:c9f9ae316736": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "blackrock:summary:3c8b15c33586": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "blackrock:fact:e7ce8b7e009e": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "blackrock:fact:a1e3370bb785": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "blackrock:connection:95cd9a684323": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "bp:summary:a107f14b9284": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "bp:fact:682ebab090e0": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "bp:fact:83b7e3c91544": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "bp:connection:951fd5af9ab1": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "cia:summary:8ca9bee17bbf": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "cia:fact:4212605bd973": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "cia:fact:fbfe21f753d5": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "cia:connection:65bf7cc47ab2": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "cia:connection:4ce4517cc4dc": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "credit-suisse:summary:a0d49576527b": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "credit-suisse:fact:c7fc235fd6d8": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "credit-suisse:fact:9e4c645ceb69": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "curtis-yarvin:summary:9d0c941e8037": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "curtis-yarvin:fact:674eaff16641": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "curtis-yarvin:fact:0fa7b4edd643": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "curtis-yarvin:connection:6f92cfcf263e": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "curtis-yarvin:connection:09c8b1143a2a": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "darpa:summary:3af0aba9f122": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "darpa:fact:f52e595e9667": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "darpa:fact:b2ee78022482": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "darpa:fact:5da33b373dd4": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "darpa:connection:2d11fb0b7135": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "darpa:connection:e477443c26e9": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "elon-musk:summary:e62a8c30d5db": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "elon-musk:fact:1b2280db1ef4": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "elon-musk:connection:df98c2461ec8": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "elon-musk:connection:d0884c4e502e": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "exxonmobil:summary:027f798b4557": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "exxonmobil:fact:c222de445b99": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "exxonmobil:fact:603515a301e0": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "fairshake:summary:54a095c16d73": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "fairshake:fact:1cf09a2073ab": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "fairshake:fact:2b88bc247570": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "fairshake:connection:9a2a0889baab": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "federal-reserve:summary:aee115a0ca18": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "federal-reserve:fact:dbae2268bb2a": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "federal-reserve:fact:34e2a0be961b": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "federal-reserve:connection:aae64acb95bf": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "federal-reserve:connection:42a55cf0c2dd": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "federal-reserve:connection:c3420a33ce46": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "founders-fund:summary:58b017345915": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "founders-fund:fact:2d193ad89d48": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "founders-fund:fact:5809772f45d9": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "founders-fund:connection:786a4fb042dc": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "founders-fund:connection:ff9b79733cbf": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "founders-fund:connection:bb1f43a7150f": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "ftx:summary:fda420a930f2": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "ftx:fact:01ed31878297": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "ftx:fact:5f7343f72122": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "ftx:connection:70883182eb4b": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "goldman-sachs:summary:68ec7169058e": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "goldman-sachs:fact:0d0c7d30c333": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "goldman-sachs:fact:6725a88f72e8": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "imf:summary:41b588a6c9c5": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "imf:fact:ce40c9f2fe94": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "imf:fact:31f7a7cd831f": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "imf:fact:57f5b3245277": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "in-q-tel:summary:e78d4c9bd896": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "in-q-tel:fact:78a173db5109": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "in-q-tel:fact:1042e3c85c1b": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "in-q-tel:connection:814228b32030": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "in-q-tel:connection:91139b046409": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "jd-vance:summary:cb80def8cd4f": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "jd-vance:fact:2612e0ea3dec": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "jd-vance:connection:81b9bf70f5fa": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "jd-vance:connection:f933b5502745": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "jpmorgan-chase:summary:62f68df83ec4": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "jpmorgan-chase:fact:689e549d6b07": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "jpmorgan-chase:fact:09029543ae55": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "lehman-brothers:summary:4bec99e39a15": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "lehman-brothers:fact:947def57cb3a": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "lehman-brothers:fact:8c6c89af3419": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "marc-andreessen:summary:5960f8350709": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "marc-andreessen:fact:2f9a3b39cd0e": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "marc-andreessen:fact:47a1a5534c90": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "marc-andreessen:connection:fdb942436ca0": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "marc-andreessen:connection:68f71cb182c6": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "marc-andreessen:connection:fcb0b621eaee": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "meta:summary:c222a8d6ec94": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "meta:fact:2ccf74b8bd2a": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "meta:fact:4500ed04ed40": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "meta:connection:27c3abf4f3c9": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "meta:connection:09b8c9ad9e3c": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "palantir:summary:3df0c92074af": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "palantir:fact:6cd20f96be5d": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "palantir:fact:206b92adaf13": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "palantir:connection:11af7dcf72c7": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "palantir:connection:bb74ed47aaa6": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:summary:6fc6f446aa7b": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:fact:b2a80fb295e6": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:fact:43731b617de7": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:connection:d8a1b09e6f30": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:connection:597235b2908c": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:connection:a6a738820084": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:connection:47cefafb7d39": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "prospera:summary:545b7d583a6b": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "prospera:fact:b9e19ed877b6": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "prospera:fact:8ecd4461f8e1": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "prospera:connection:d2cf192b7dab": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "prospera:connection:232392151df5": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:summary:4b912f908435": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:c5a606fe2af2": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:1e162a3a5b76": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:connection:83f0a42ce6b5": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:connection:456bed171bd6": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "sam-altman:summary:4e5204f88b50": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "sam-altman:fact:a55b1a21a08c": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "sam-altman:fact:542797768c98": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "sam-altman:connection:072b82c41804": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "sam-altman:connection:a390ced45a88": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "stanford:summary:6010347349d6": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "stanford:fact:501b06294177": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "stanford:fact:f0db33b22b86": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "stanford:connection:9b0084bd55b9": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "stanford:connection:23f098688cc9": {
+      "decision": "approved",
+      "at": "2026-10-08T18:17:01.297Z",
+      "by": "fact-check"
+    },
+    "federal-reserve:fact:a6000ff5e4c4": {
+      "decision": "approved",
+      "at": "2026-10-08T18:18:54.360Z",
+      "by": "fact-check"
+    },
+    "federal-reserve:fact:e25d89c5afdf": {
+      "decision": "approved",
+      "at": "2026-10-08T18:18:54.360Z",
+      "by": "fact-check"
+    },
+    "goldman-sachs:summary:e2b5729c9eef": {
+      "decision": "approved",
+      "at": "2026-10-08T18:18:54.360Z",
+      "by": "fact-check"
+    },
+    "imf:fact:62fb25875973": {
+      "decision": "approved",
+      "at": "2026-10-08T18:18:54.360Z",
+      "by": "fact-check"
+    },
+    "marc-andreessen:fact:97c58e911423": {
+      "decision": "approved",
+      "at": "2026-10-08T18:18:54.360Z",
+      "by": "fact-check"
+    },
+    "handoff:aguas-argentinas:handoff:5d56399e5e40": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:aguas-argentinas:handoff-link:bb58aaeeaabb": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:aguas-argentinas:handoff-link:4c087a31b846": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:aguas-argentinas:handoff-claim:cc384413606b": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:aguas-argentinas:handoff-claim:2e8435e333dd": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:aguas-argentinas:handoff-claim:9918f831263a": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:bp-privatisation-uk:handoff:8066cd8a77e9": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:bp-privatisation-uk:handoff-link:f048d1ce34a8": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:bp-privatisation-uk:handoff-link:c54ba92c844a": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:bp-privatisation-uk:handoff-link:705712d93319": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:bp-privatisation-uk:handoff-claim:ed306228a7db": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:braingate-blackrock-synchron:handoff:3cdba6d2af11": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:braingate-blackrock-synchron:handoff-link:30b7a2449d22": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:braingate-blackrock-synchron:handoff-link:95d63ddc05ac": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:braingate-blackrock-synchron:handoff-link:b9825199292b": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:braingate-blackrock-synchron:handoff-link:839ff1647a90": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:braingate-blackrock-synchron:handoff-link:b3939e6e3a22": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:braingate-blackrock-synchron:handoff-claim:04022606e07c": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:braingate-blackrock-synchron:handoff-claim:d690327a203d": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:braingate-blackrock-synchron:handoff-claim:f71080119ed6": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:british-rail-privatisation:handoff:6dfd6927541e": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:british-rail-privatisation:handoff-link:b2bbd00a876f": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:british-rail-privatisation:handoff-link:226d572c0616": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:british-rail-privatisation:handoff-link:a440bf740505": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:british-rail-privatisation:handoff-link:d6ed002b254e": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:british-rail-privatisation:handoff-link:966528e9984f": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:british-rail-privatisation:handoff-claim:be0e7b3474d1": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:british-rail-privatisation:handoff-claim:5a37374bebb2": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:british-rail-privatisation:handoff-claim:90a953f90f5b": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:calo-siri:handoff:38e7c9f67a68": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:calo-siri:handoff-link:e1a946023df9": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:calo-siri:handoff-link:8c14c7589ec2": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:calo-siri:handoff-link:98226d9fe9b3": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:calo-siri:handoff-link:4b4604e4dff4": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:calo-siri:handoff-link:3831e92007d1": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:calo-siri:handoff-link:36cf23254110": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:calo-siri:handoff-claim:51b3e71cf281": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:calo-siri:handoff-claim:a6f7b423ee8b": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:chile-pension-privatization-1981:handoff:6295ac93d3dd": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:chile-pension-privatization-1981:handoff-link:f10d97c7c318": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:chile-pension-privatization-1981:handoff-link:f2a162658821": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:chile-pension-privatization-1981:handoff-claim:aa6481b2d00d": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:chile-pension-privatization-1981:handoff-claim:d21b4988a7ab": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:cia-c2s-aws:handoff:1f43ce440c3c": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:cia-c2s-aws:handoff-link:d9e9d744ee7d": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:cia-c2s-aws:handoff-link:136337973f52": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:cia-c2s-aws:handoff-link:080353b33745": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:cia-c2s-aws:handoff-claim:c181aec17b01": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:cia-c2s-aws:handoff-claim:c76aad359ec1": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:cia-c2s-aws:handoff-claim:4a1d08d96529": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:cochabamba-water-bechtel:handoff:98a9217f7d50": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:cochabamba-water-bechtel:handoff-link:602423284329": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:cochabamba-water-bechtel:handoff-link:895df7ba4fbb": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:cochabamba-water-bechtel:handoff-claim:395766eab2f0": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:cochabamba-water-bechtel:handoff-claim:f0f246c332fc": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:cochabamba-water-bechtel:handoff-claim:a55f5c354a17": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:conrail-privatization:handoff:cd388c45e0fb": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:conrail-privatization:handoff-link:02dccaac2769": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:conrail-privatization:handoff-link:4e4a049ebfb2": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:conrail-privatization:handoff-link:9ae7412247b5": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:conrail-privatization:handoff-claim:159b8e1abfcd": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:darpa-grand-challenge-waymo:handoff:d530bb5c584d": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:darpa-grand-challenge-waymo:handoff-link:c563a2ea8207": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:darpa-grand-challenge-waymo:handoff-link:c9a3d6d139ad": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:darpa-grand-challenge-waymo:handoff-claim:480ee7d47279": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:darpa-lifelog-facebook:handoff:38240f35cc92": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:darpa-lifelog-facebook:handoff-link:2a05ba5105b7": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:darpa-lifelog-facebook:handoff-claim:f572060bf377": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:darpa-lifelog-facebook:handoff-claim:3b99b8a05e61": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:darpa-synapse-ibm-truenorth:handoff:46d1b360ce4f": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:darpa-synapse-ibm-truenorth:handoff-link:dcb6b9ce9a84": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:darpa-synapse-ibm-truenorth:handoff-link:5722729b53ae": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:darpa-synapse-ibm-truenorth:handoff-link:b62bc8624202": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:darpa-synapse-ibm-truenorth:handoff-link:46c68d77e7b4": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:darpa-synapse-ibm-truenorth:handoff-claim:7b6aa58b77b3": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:darpa-tia-programs:handoff:4007143e4532": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:darpa-tia-programs:handoff-link:c3202d96d8f3": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:darpa-tia-programs:handoff-claim:25324f7f4028": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:darpa-tia-programs:handoff-claim:ef062357b63c": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:dera-qinetiq-privatisation:handoff:26eda5ae261a": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:dera-qinetiq-privatisation:handoff-link:f41dee683d24": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:dera-qinetiq-privatisation:handoff-link:9a2d56e58cdc": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:dera-qinetiq-privatisation:handoff-link:1775a38ae697": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:dera-qinetiq-privatisation:handoff-link:b1312037af1e": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:dera-qinetiq-privatisation:handoff-claim:d7e7d1308a16": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:futuregen-cancellation:handoff:a534fa965b3c": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:futuregen-cancellation:handoff-claim:304cf7adf952": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:futuregen-cancellation:handoff-claim:b3718f3d293f": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:futuregen-cancellation:handoff-claim:568f7c211844": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:healthcare-gov-contract:handoff:f67e3d630976": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:healthcare-gov-contract:handoff-link:d504a845c971": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:healthcare-gov-contract:handoff-link:bf9ae7e58227": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:healthcare-gov-contract:handoff-link:24747311228f": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:healthcare-gov-contract:handoff-link:87658e7c712d": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:healthcare-gov-contract:handoff-claim:0a1de8d61958": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:healthcare-gov-contract:handoff-claim:d54dd1eddf95": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:human-genome-celera:handoff:c6f87ea61015": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:human-genome-celera:handoff-link:44a53f3e5714": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:human-genome-celera:handoff-link:37a8a2ce5ead": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:human-genome-celera:handoff-claim:c8d2c518c87f": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:human-genome-celera:handoff-claim:7d7d1b53a42b": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:human-genome-celera:handoff-claim:576d110e8614": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:human-genome-celera:handoff-claim:edd2c1d6b6a5": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:iraq-cpa-order-39:handoff:12bd446d80d6": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:iraq-cpa-order-39:handoff-claim:0be2d093f79b": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:iraq-cpa-order-39:handoff-claim:022ff66cacd0": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:iraq-cpa-order-39:handoff-claim:6940a1d70fab": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:japan-post-privatization:handoff:af5efa3e73e2": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:japan-post-privatization:handoff-link:5005c1262af3": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:japan-post-privatization:handoff-link:012639b95355": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:japan-post-privatization:handoff-link:6d3332721c56": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:japan-post-privatization:handoff-claim:b316bff6b764": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:keyhole-google-earth:handoff:dea3467ba275": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:keyhole-google-earth:handoff-link:fe0226783a72": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:keyhole-google-earth:handoff-link:d973562aa0de": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:keyhole-google-earth:handoff-claim:6e8ca2f1eec1": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:landsat-eosat-commercialization:handoff:f25abea91691": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:landsat-eosat-commercialization:handoff-link:168dbc1ca0ea": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:landsat-eosat-commercialization:handoff-link:50a9b61b50a5": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:landsat-eosat-commercialization:handoff-link:feed42cdca6c": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:landsat-eosat-commercialization:handoff-claim:741693ac33e1": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:landsat-eosat-commercialization:handoff-claim:b667b24d6e1e": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:mrc-lmb-cambridge-antibody-technology:handoff:da0d3d40ef0c": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:mrc-lmb-cambridge-antibody-technology:handoff-link:126155014bcc": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:mrc-lmb-cambridge-antibody-technology:handoff-link:5dd7032c64b1": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:mrc-lmb-cambridge-antibody-technology:handoff-link:32eb7ca061b7": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:mrc-lmb-cambridge-antibody-technology:handoff-claim:6435d5fc4911": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:mrc-lmb-cambridge-antibody-technology:handoff-claim:b04980261dad": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nasa-cots-spacex:handoff:6adaa0144dde": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nasa-cots-spacex:handoff-link:965d8e9f59de": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nasa-cots-spacex:handoff-link:f94d880854c1": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nasa-cots-spacex:handoff-link:6af6a74631ce": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nasa-cots-spacex:handoff-link:f292ebafe79b": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nasa-cots-spacex:handoff-claim:afeb744dfec0": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:ncsa-mosaic-netscape:handoff:e4facaea291b": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:ncsa-mosaic-netscape:handoff-link:ad85157caa7e": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:ncsa-mosaic-netscape:handoff-link:64710794f279": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:ncsa-mosaic-netscape:handoff-link:c08557c83815": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:ncsa-mosaic-netscape:handoff-claim:41c1ddbe3d51": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:ncsa-mosaic-netscape:handoff-claim:20ff9b54de02": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nhs-npfit-cancellation:handoff:49df98e059ac": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nhs-npfit-cancellation:handoff-link:23b97f3540ba": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nhs-npfit-cancellation:handoff-link:d1ca69ab9ff4": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nhs-npfit-cancellation:handoff-link:54a213ce9661": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nhs-npfit-cancellation:handoff-claim:213461aa621f": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nhs-npfit-cancellation:handoff-claim:88e6f78fe0d3": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nih-mrna-moderna:handoff:fda93d62e54f": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nih-mrna-moderna:handoff-link:db439fe234e5": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nih-mrna-moderna:handoff-link:0594fc189f26": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nih-mrna-moderna:handoff-link:4f5cb89f8627": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nih-mrna-moderna:handoff-link:80c791597eae": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nih-mrna-moderna:handoff-claim:e455544d5fc4": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nih-mrna-moderna:handoff-claim:6abc3c7cda33": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nih-mrna-moderna:handoff-claim:34ceea9995eb": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nsf-dli-google:handoff:e326953fac21": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nsf-dli-google:handoff-link:b1dada544329": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nsf-dli-google:handoff-link:d03ea2052f21": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nsf-dli-google:handoff-link:f5bf3c5e46d8": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nsf-dli-google:handoff-link:1938846e8d12": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nsf-dli-google:handoff-link:0bb59f94a210": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nsf-dli-google:handoff-claim:76de33de169a": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nsf-dli-google:handoff-claim:bc88219c957c": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nsfnet-commercial-backbone:handoff:da45c8edba2d": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nsfnet-commercial-backbone:handoff-link:8d75839a47da": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nsfnet-commercial-backbone:handoff-link:926b7328da88": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nsfnet-commercial-backbone:handoff-link:223d1892658d": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nsfnet-commercial-backbone:handoff-link:c7e7702ebd67": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nsfnet-commercial-backbone:handoff-link:ea23b8c01d56": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nsfnet-commercial-backbone:handoff-link:fdccbb8ef17e": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nsfnet-commercial-backbone:handoff-claim:9817ee46fd38": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:nsfnet-commercial-backbone:handoff-claim:cb946cdbbcb8": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:petro-canada-privatization:handoff:5e577225dd55": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:petro-canada-privatization:handoff-link:f4c1fbad81f5": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:petro-canada-privatization:handoff-link:3f6225cb40f7": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:petro-canada-privatization:handoff-link:4354b45bcaf5": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:petro-canada-privatization:handoff-link:8edb5c86490f": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:petro-canada-privatization:handoff-link:f8e91617c09f": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:royal-mail-privatisation:handoff:d0a3729c059b": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:royal-mail-privatisation:handoff-link:d4a6398be940": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:royal-mail-privatisation:handoff-link:7618e934d550": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:royal-mail-privatisation:handoff-link:e5136454976f": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:royal-mail-privatisation:handoff-link:efbc7b155a9c": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:royal-mail-privatisation:handoff-claim:8a2ca26d839f": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:russia-loans-for-shares:handoff:f08ba811c593": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:russia-loans-for-shares:handoff-link:6f17c5164712": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:russia-loans-for-shares:handoff-link:f1b26ed4d25c": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:russia-loans-for-shares:handoff-link:e915dc69b657": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:russia-loans-for-shares:handoff-link:654e1067c3ff": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:russia-loans-for-shares:handoff-claim:d2c450810f0d": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:russia-loans-for-shares:handoff-claim:9505cb62ab26": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:sallie-mae-privatization:handoff:ea995d7f99eb": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:sallie-mae-privatization:handoff-link:5558ff9f1106": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:sallie-mae-privatization:handoff-link:bd0cf534bea7": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:sallie-mae-privatization:handoff-claim:e3d66bc8d407": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:shuttle-commercial-crew:handoff:bb879e6a9db1": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:shuttle-commercial-crew:handoff-link:cc1f2b49cd55": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:shuttle-commercial-crew:handoff-link:b29651c32665": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:shuttle-commercial-crew:handoff-link:ada840054af5": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:shuttle-commercial-crew:handoff-link:8f962d588a0b": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:shuttle-commercial-crew:handoff-link:ec9148ccdd27": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:shuttle-commercial-crew:handoff-claim:75f77db5580b": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:shuttle-commercial-crew:handoff-claim:26162069767d": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:shuttle-commercial-crew:handoff-claim:870a0806758f": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:taxol-nci-bms:handoff:03e563e3c778": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:taxol-nci-bms:handoff-link:73417a4817c5": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:taxol-nci-bms:handoff-link:1d83c145ba70": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:taxol-nci-bms:handoff-link:1e1476a5dbeb": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:taxol-nci-bms:handoff-claim:d7a3b6b9f645": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:taxol-nci-bms:handoff-claim:7e9fdf69e4d6": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:taxol-nci-bms:handoff-claim:0712a756438e": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:telmex-privatization:handoff:2c55bcbb5415": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:telmex-privatization:handoff-link:bbc4e9981a32": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:telmex-privatization:handoff-link:03fe2c1e476b": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:telmex-privatization:handoff-link:8c90fe4129ab": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:telmex-privatization:handoff-link:082b7b00682a": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:telmex-privatization:handoff-claim:1fff075ca421": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:telmex-privatization:handoff-claim:7961a01cb976": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:treuhand-east-germany:handoff:f0e2b538392f": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:treuhand-east-germany:handoff-link:90ee96322b2d": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:treuhand-east-germany:handoff-link:fdff955a4519": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:treuhand-east-germany:handoff-link:0dbc3d8a68f7": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:treuhand-east-germany:handoff-link:8049894dce1f": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:treuhand-east-germany:handoff-link:4f1f96d39fe2": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:treuhand-east-germany:handoff-claim:afb6227e06dc": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:treuhand-east-germany:handoff-claim:87063b3656aa": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:treuhand-east-germany:handoff-claim:202e51c1d81b": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:uk-national-air-traffic-services:handoff:0d4b86f0a626": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:uk-national-air-traffic-services:handoff-link:fb4b710d7765": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:uk-national-air-traffic-services:handoff-link:d6d7a809c24a": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:uk-national-air-traffic-services:handoff-link:cc5134735b7f": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:uk-national-air-traffic-services:handoff-claim:551390f4544c": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:uk-national-air-traffic-services:handoff-claim:7d78d570fa20": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:us-weather-data-commercialization:handoff:f20675e9246e": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:us-weather-data-commercialization:handoff-link:3ac788ba9362": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:us-weather-data-commercialization:handoff-link:14a4b9290a9e": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:us-weather-data-commercialization:handoff-link:33698f402142": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:us-weather-data-commercialization:handoff-link:eca658d93c8f": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:us-weather-data-commercialization:handoff-claim:4020e236e9e6": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:ypf-privatization:handoff:41862022db59": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:ypf-privatization:handoff-link:9a9201a8c258": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:ypf-privatization:handoff-link:35a1d549a7da": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:ypf-privatization:handoff-link:9d69db9374d8": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:ypf-privatization:handoff-link:e91a7575782a": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:ypf-privatization:handoff-claim:334c88f1de8c": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:ypf-privatization:handoff-claim:01af5cf75059": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:ypf-privatization:handoff-claim:ce414f16598c": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:zambia-copper-privatization:handoff:6e665dbaff38": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:zambia-copper-privatization:handoff-link:293c9bb53766": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:zambia-copper-privatization:handoff-link:6c9e8c5022cb": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:zambia-copper-privatization:handoff-link:430fff9e0766": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:zambia-copper-privatization:handoff-claim:0d1e5bbe3045": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:zambia-copper-privatization:handoff-claim:79afece3c370": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "handoff:zambia-copper-privatization:handoff-claim:46a89744f7d0": {
+      "decision": "approved",
+      "at": "2026-10-08T21:35:03.701Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:2e64c338bbbb": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:a78925f6f335": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:e7a3233a9336": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:112896596edb": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:1c7aec17225e": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:f4e54686f25a": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:4d97c9600a35": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:8721b3a69124": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "david-sacks:connection:54689c35c74c": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "david-sacks:connection:cc5abd799089": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "david-sacks:connection:5d91f8b34c28": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "david-sacks:connection:c0f8a798e231": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "elon-musk:fact:9a349e515931": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "elon-musk:fact:0d95ddb87efb": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "elon-musk:fact:10e1731fd569": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "elon-musk:fact:6d1746157f0a": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "elon-musk:fact:797a59457001": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "elon-musk:fact:ffecd20b1517": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "elon-musk:fact:8b8eda0d5ab2": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "elon-musk:fact:aff9371ea188": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "elon-musk:fact:6cf29dc44b37": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "elon-musk:connection:eb6ae8e26ddf": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "elon-musk:connection:070354cdc99d": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "elon-musk:connection:368424fa09c6": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "elon-musk:connection:98d575b3529c": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "elon-musk:connection:4b57a2fe1fc4": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "elon-musk:connection:3779bf69f0b2": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "elon-musk:connection:205c710f88ee": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "elon-musk:connection:ddf6e845a440": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "elon-musk:connection:39dc5d6893f4": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:fact:81a19204cb00": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:fact:0218acecfd2f": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:fact:0f5eb47042a7": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:fact:35231a74bf76": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:fact:19860017d252": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:fact:2d8c15dc081e": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:fact:30929a7484a9": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:fact:cc8b40dbcaa1": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:connection:0ad20545c688": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:connection:db79fb421a6a": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:connection:007953c8eed1": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "ken-howery:fact:8ee8d2bfe4c2": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "ken-howery:fact:ec5a41eca46d": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "ken-howery:fact:a1f51ed70c13": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "ken-howery:fact:bfeb9570a2da": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "ken-howery:fact:ef471285397e": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "ken-howery:fact:0d9a4f0cd3aa": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "ken-howery:fact:dfd898e69de0": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "ken-howery:fact:a089ca6e583e": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "ken-howery:connection:5a257683005d": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "ken-howery:connection:9925a1f94740": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "ken-howery:connection:e2c7db222476": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "ken-howery:connection:1324f423638c": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "luke-nosek:fact:69f736c93ccd": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "luke-nosek:fact:e6e2b6d2e3cd": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "luke-nosek:fact:9a4e712697dd": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "luke-nosek:fact:c5e2f84cd287": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "luke-nosek:fact:a31cfd4199ad": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "luke-nosek:fact:98fc0a6eccaa": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "luke-nosek:fact:dff863f117ac": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "luke-nosek:fact:311f99ea6da0": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "luke-nosek:fact:7ac146106924": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "luke-nosek:connection:12d01e3418e8": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "luke-nosek:connection:c0584128fa93": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "luke-nosek:connection:5c68a84ca243": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "luke-nosek:connection:a5c912259490": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "luke-nosek:connection:9f8bde6cd5bf": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "luke-nosek:connection:8858a32e8e04": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "max-levchin:fact:07ab0a03cf30": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "max-levchin:fact:0b970e46496e": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "max-levchin:fact:ceb66add90d9": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "max-levchin:fact:3f72da390196": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "max-levchin:fact:45c1ec141bd3": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "max-levchin:fact:3d8a9d658616": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "max-levchin:fact:be17e9eaa8f1": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "max-levchin:fact:9561a55b0d45": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "max-levchin:fact:6e8af875dad9": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "max-levchin:fact:1b8396267415": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "max-levchin:fact:b68bbbc01b15": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "max-levchin:connection:85dbf8f1e404": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "max-levchin:connection:7dca11cf579e": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "max-levchin:connection:1440cb26189d": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "max-levchin:connection:9bd0fd8fdc48": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:fact:9b829d2c1e8e": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:fact:6973c6bd7691": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:fact:1e9fd52211ce": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:fact:e0164bf646c2": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:fact:3e6c23eb357a": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:fact:80fe33e19618": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:fact:ca4d7cc675c2": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:fact:441e22d6f092": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal:fact:5242f431267f": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal:fact:c88a5de2f507": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal:fact:9ab70e134d35": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal:fact:5e1e0a33b06e": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal:fact:ab5da91536dc": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal:fact:31ed140a70fe": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal:fact:47804f3797c8": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal:fact:21f011f5f975": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal:fact:c7697ae54995": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal:fact:6f2919576527": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal:fact:72fee815dca0": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal:fact:c56de7208ab2": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal:fact:fe75ebeaec1f": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal:connection:a8fb9f6cc5a9": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal:connection:b0a0b0e42585": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal:connection:a3b72da2429b": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal:connection:3799f91c9158": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal:connection:6265e4e572fe": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal:connection:5186fd549154": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal:connection:559d48332c53": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal:connection:faff1730d2b4": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal:connection:7fbf1bd22266": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal:connection:3c55c4c5b0a0": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal:connection:7274aac2fecc": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal:connection:52ab3645b1d6": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:fact:ede7be74c110": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:fact:864b7f5e7645": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:fact:b16d6146c6ec": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:fact:4ac0affbd0db": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:fact:0f03df09ca69": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:fact:b65cf709b936": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:connection:348463e67489": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:connection:82920744846e": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:connection:ef29d9b73acc": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:connection:19193fa66e99": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:connection:58169613fe67": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:connection:e8736864d545": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:connection:6fb18afc60d0": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:98b30c6cf012": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:9ddfef35734c": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:b9378c339369": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:5826a2bc4cfc": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:7367e8bc177e": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:0cd2de540730": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:connection:9acd55a468e7": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:connection:adf1e0f94c45": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:connection:0824850b7159": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:connection:0fc54c5caf1a": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:connection:7aac77036008": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:fact:95b36a2ff1f2": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:fact:a27e5d7168a2": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:fact:fe90f360c9e3": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:fact:8bb5de77fc76": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:connection:c69b9a150f31": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:connection:b221f85a19d5": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:connection:c17e2c973c96": {
+      "decision": "approved",
+      "at": "2026-10-08T21:57:32.114Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:summary:403dd6c7a500": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:fact:e1789f705081": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:fact:1c6b4149f838": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:fact:46614969d5ac": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:fact:5d5211a03d15": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:fact:8711d33d8dc3": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:fact:4653eab737ba": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:fact:23041c6ed4ed": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:fact:1ebd3659b534": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:fact:425ecabe1587": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:fact:901942862989": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:fact:09a5940ace86": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:fact:aee680100682": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:fact:d8397f474da5": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:fact:d9d87a0b1470": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:fact:7964c7c65dfa": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:connection:795205419cca": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:connection:89d2d7f3fe5f": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:connection:a34c4320bd7d": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:connection:9f10e0ee3f67": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:connection:3ab2772edc06": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:connection:304576d77c4d": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal-fraud-2000-2002:connection:1df204318957": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal:summary:aa00a480b95c": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal:fact:94992e0572ab": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal:fact:980beeede218": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal:fact:f993f6930563": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal:fact:97397bc73ab5": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal:fact:035daf92cb4b": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal:fact:b9ec1a4ea2a8": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal:fact:8db875bf8b9f": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal:fact:fd45f7742ee3": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal:fact:ff78716519c1": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal:fact:820afd94f5ba": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal:fact:5c7ead432503": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal:fact:2073bdf8dcd0": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal:fact:da4af3d3e908": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal:connection:6b93c69cdad8": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal:connection:9828446b2a00": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal:connection:e9d65834132a": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal:connection:a6db3d8c8965": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "paypal:connection:5eafa1140f9d": {
+      "decision": "approved",
+      "at": "2026-10-08T22:01:48.422Z",
+      "by": "fact-check"
+    },
+    "elon-musk:fact:53ea2442fc08": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "elon-musk:fact:e8aff9a2ca18": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "elon-musk:fact:944e37275a7a": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "elon-musk:fact:965e40734308": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "elon-musk:fact:32d7f52a3e84": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "elon-musk:fact:fe19c6d31607": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "elon-musk:fact:f6d8bbb26b6e": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "elon-musk:fact:9b0c1158b0a2": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "elon-musk:connection:1d703776417d": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "elon-musk:connection:cbc1c4728a6d": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "max-levchin:summary:516f23e48c23": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "max-levchin:fact:31f0f6c2bd9f": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "max-levchin:fact:3266c50d3fa4": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "max-levchin:fact:740de6a058bb": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "max-levchin:fact:9403a5aae2ba": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "max-levchin:fact:43bb72cae3f0": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "max-levchin:connection:77842fb1806e": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "max-levchin:connection:0c79af3758a0": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:fact:f48f9a688002": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:fact:4d48e0305de9": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:fact:a0441cb2555c": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:fact:b6566c6cf4e1": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:fact:a88ea4e1170f": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:fact:bb351600c5c4": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:fact:974c606848a3": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:fact:374b92439302": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:fact:c0d57a8e1acf": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:fact:2bfe5adf4b40": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:connection:9fb09baa16a3": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "peter-thiel:connection:24548c1674b9": {
+      "decision": "approved",
+      "at": "2026-10-08T22:04:50.413Z",
+      "by": "fact-check"
+    },
+    "david-sacks:summary:ba8f54862124": {
+      "decision": "approved",
+      "at": "2026-10-08T22:05:05.506Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:15b615447e19": {
+      "decision": "approved",
+      "at": "2026-10-08T22:05:05.506Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:e7a40def57ea": {
+      "decision": "approved",
+      "at": "2026-10-08T22:05:05.506Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:0d778c576720": {
+      "decision": "approved",
+      "at": "2026-10-08T22:05:05.506Z",
+      "by": "fact-check"
+    },
+    "david-sacks:connection:da8d90428e69": {
+      "decision": "approved",
+      "at": "2026-10-08T22:05:05.506Z",
+      "by": "fact-check"
+    },
+    "david-sacks:connection:84cc64ab8e9a": {
+      "decision": "approved",
+      "at": "2026-10-08T22:05:05.506Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:summary:ac459fd2c9ac": {
+      "decision": "approved",
+      "at": "2026-10-08T22:05:05.506Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:fact:fae131efea9e": {
+      "decision": "approved",
+      "at": "2026-10-08T22:05:05.506Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:fact:8eab516bfa8e": {
+      "decision": "approved",
+      "at": "2026-10-08T22:05:05.506Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:fact:08468baf5427": {
+      "decision": "approved",
+      "at": "2026-10-08T22:05:05.506Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:connection:61a57a916211": {
+      "decision": "approved",
+      "at": "2026-10-08T22:05:05.506Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:connection:023f7b2aed38": {
+      "decision": "approved",
+      "at": "2026-10-08T22:05:05.506Z",
+      "by": "fact-check"
+    },
+    "ken-howery:summary:de877b06ef8f": {
+      "decision": "approved",
+      "at": "2026-10-08T22:05:05.506Z",
+      "by": "fact-check"
+    },
+    "ken-howery:fact:0b423a236180": {
+      "decision": "approved",
+      "at": "2026-10-08T22:05:05.506Z",
+      "by": "fact-check"
+    },
+    "ken-howery:fact:b27796eaa289": {
+      "decision": "approved",
+      "at": "2026-10-08T22:05:05.506Z",
+      "by": "fact-check"
+    },
+    "ken-howery:connection:b360733ff498": {
+      "decision": "approved",
+      "at": "2026-10-08T22:05:05.506Z",
+      "by": "fact-check"
+    },
+    "luke-nosek:summary:ef18880ce257": {
+      "decision": "approved",
+      "at": "2026-10-08T22:05:05.506Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:0cae42e7720e": {
+      "decision": "approved",
+      "at": "2026-10-08T22:05:05.506Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:e3224a9f3ebb": {
+      "decision": "approved",
+      "at": "2026-10-08T22:05:05.506Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:connection:98a5236807d0": {
+      "decision": "approved",
+      "at": "2026-10-08T22:05:05.506Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:connection:62056d788738": {
+      "decision": "approved",
+      "at": "2026-10-08T22:05:05.506Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:summary:6313ac8c86d9": {
+      "decision": "approved",
+      "at": "2026-10-08T22:05:05.506Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:fact:41b25e0b0249": {
+      "decision": "approved",
+      "at": "2026-10-08T22:05:05.506Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:fact:ad8390502d87": {
+      "decision": "approved",
+      "at": "2026-10-08T22:05:05.506Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:fact:7c41493a34e1": {
+      "decision": "approved",
+      "at": "2026-10-08T22:05:05.506Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:fact:51ff96287ae9": {
+      "decision": "approved",
+      "at": "2026-10-08T22:05:05.506Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:fact:4f48168b28da": {
+      "decision": "approved",
+      "at": "2026-10-08T22:05:05.506Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:connection:8ab93757d67f": {
+      "decision": "approved",
+      "at": "2026-10-08T22:05:05.506Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:connection:db5f5a192c8f": {
+      "decision": "approved",
+      "at": "2026-10-08T22:05:05.506Z",
+      "by": "fact-check"
+    },
+    "andreessen-horowitz:fact:84928fa0333b": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "andreessen-horowitz:fact:0701fc1362b1": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "andreessen-horowitz:fact:2c711ee486d8": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "andreessen-horowitz:fact:065708a0433d": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "andreessen-horowitz:fact:ab2ea7cdb4b1": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "andreessen-horowitz:connection:9deb5049a8dd": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "andreessen-horowitz:connection:61bd28d318cb": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "andreessen-horowitz:connection:d76acb5fffc8": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "andreessen-horowitz:connection:0f83c3d2d398": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "andreessen-horowitz:connection:ea6f03ce14db": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "andreessen-horowitz:connection:0ff42eeb0626": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "andreessen-horowitz:connection:5f5899d8f011": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "andreessen-horowitz:connection:e3840b83f8c7": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:b058bab2e3c3": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:ea552014e7eb": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:e9edf1014519": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:83fafa745d94": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:3d4328415d7b": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:62d284b50c6c": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:3254d410f432": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:bb24e0c3ca16": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:f9a4c315200d": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:7fd027732b85": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:2d46d5126002": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:674c86ae56a0": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:066b53d23cac": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:ef1455bd18e2": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:669f34bf9f9f": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:0a56c6c88764": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:fd2ccc48be01": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:c2a0a4b5e952": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:connection:1cc6e4f5f01f": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:connection:5e3ddfc12825": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:connection:482da03072ea": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:connection:800e818b726c": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:connection:c9b1d0f1c9fc": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:connection:a99292ac4d50": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:connection:dcefc3b5966f": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:connection:603c2fbcc0f0": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:connection:25bec79c3a8c": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:connection:1279532ae5ad": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:connection:2744a9a74703": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "david-sacks:connection:34db51232b54": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:fact:7c4aa1e866df": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:fact:d1ff711d7a7c": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:fact:e7630a4cb85a": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:fact:f66f9dd9a1bf": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:fact:dffcf70314e9": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:fact:f6ab545c0a9f": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:connection:3f1a132652ea": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:connection:8540a9239ac3": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:connection:ab8f6e5f8fc1": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:connection:890cb12808e0": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:connection:bafa544f3122": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:connection:3330b960d0b1": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:connection:56acccd68156": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:connection:494bf6059f9d": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:connection:a3fef3b4479a": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:connection:617ef189410d": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:connection:39c6fca9526b": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:connection:ab50ff8d5d7e": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "marc-andreessen:fact:7d95467be658": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "marc-andreessen:fact:30cbc46a11cb": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "marc-andreessen:fact:27795531bf4d": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "marc-andreessen:fact:075017b51c99": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "marc-andreessen:fact:307cb60972ef": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "marc-andreessen:fact:d6cd207ee421": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "marc-andreessen:connection:640c4899d205": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "marc-andreessen:connection:ba33dd2a4ddf": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "marc-andreessen:connection:4278e82f6573": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:summary:c09611dbbd64": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:fact:5a79f49d4492": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:fact:ed1c08218583": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:fact:cd9729a40651": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:fact:f7d68eabbd23": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:fact:11a21d348226": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:fact:33ed989ac3b3": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:fact:3a611dcb9a3e": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:fact:effcddc3251c": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:fact:c196cedafda1": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:fact:6d53d367541f": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:fact:ed0340584f5e": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:fact:a7e76a5f5bb4": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:fact:8f897a836db3": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:fact:ab514a45781d": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:fact:4a9c7a597be6": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:fact:2725abf592fc": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:fact:0f1ee4b54ceb": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:fact:002fa36fc608": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:fact:dbaa552ca233": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:connection:0d9b9ab2b3f0": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:connection:1b4a02fa1ab0": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:connection:cb6af11c0cab": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:connection:685889711bf9": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:connection:000b247944cf": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:connection:af2df2920de3": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:connection:b47def2fae79": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:connection:d2b91b3abdb8": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:connection:5e58aa60c256": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:connection:f12e5a2fcad8": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:connection:baf4eeca5f15": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:connection:54ebf3237d78": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:connection:b55e03c720fc": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:connection:2882f3f122fa": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:connection:e3563aaef909": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:connection:99c7e3e568a9": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:connection:a85b65abdaac": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:5de6f627d540": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:d0d13132e7ad": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:49eb41e71caa": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:c7547dab10bf": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:2547db52510b": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:6a5fefffb44b": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:a6fd8dca1505": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:e52ca9350a6d": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:d4ed80e45489": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:30c50f0ec93c": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:1067f0c20830": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:3b217eab5c59": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:connection:40304dbf4100": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:connection:ebc06d634f8f": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:connection:39362c5fbf9c": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:connection:ad579eec5140": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:connection:0e6b0749fd54": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:fact:9ca3259196c6": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:fact:1ec66b3cd948": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:fact:8d42bab66d16": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:fact:62a607fcc3dd": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:fact:4abfb25c990b": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:fact:bf5d4dcd5662": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:fact:d7adcc5f3df5": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:fact:6df016f7258f": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:fact:7daf60bc7e3e": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:connection:26f81c5dee32": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:connection:86dd7f590d55": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:connection:e7981b0aff35": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:connection:517d7cf82c8c": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:connection:ad4ca42cac62": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:connection:6de032d5b384": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:connection:c8d1877aa110": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:connection:79b7270fc755": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:connection:bb88ab68a632": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:connection:e10e4e8b6ca6": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:fact:13dc8ecfc812": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:fact:f5c856a8a027": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:fact:58ac15462e59": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:fact:503cb3abf583": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:fact:f3d374603a51": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:fact:28dd1a9843b5": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:fact:d43707e11b5c": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:connection:ae46dbde20bb": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:connection:78104b758957": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:connection:68f37ef57d3b": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:connection:a7df5ea93400": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:connection:556d8455b6c7": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:connection:fc1de91c2c9b": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:connection:9ac97b5cad0c": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:connection:ba86dfbb6f8c": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:connection:dc13ca006e6f": {
+      "decision": "approved",
+      "at": "2026-10-08T22:20:46.594Z",
+      "by": "fact-check"
+    },
+    "michael-moritz:fact:ef84ab5b75e8": {
+      "decision": "approved",
+      "at": "2026-10-08T22:35:16.554Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:fact:bc15bc738d3e": {
+      "decision": "approved",
+      "at": "2026-10-08T22:35:16.554Z",
+      "by": "fact-check"
+    },
+    "roelof-botha:connection:e28dc4bb9e38": {
+      "decision": "approved",
+      "at": "2026-10-08T22:35:16.554Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:summary:c150050e59b4": {
+      "decision": "approved",
+      "at": "2026-10-08T22:35:16.554Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:fact:8d96cbb49d1b": {
+      "decision": "approved",
+      "at": "2026-10-08T22:35:16.554Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:fact:aa461af915e3": {
+      "decision": "approved",
+      "at": "2026-10-08T22:35:16.554Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:fact:ff4149f68cd4": {
+      "decision": "approved",
+      "at": "2026-10-08T22:35:16.554Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:fact:dc160ea64445": {
+      "decision": "approved",
+      "at": "2026-10-08T22:35:16.554Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:fact:edfad4497f09": {
+      "decision": "approved",
+      "at": "2026-10-08T22:35:16.554Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:fact:dce4b38fb237": {
+      "decision": "approved",
+      "at": "2026-10-08T22:35:16.554Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:fact:6017fd087868": {
+      "decision": "approved",
+      "at": "2026-10-08T22:35:16.554Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:fact:e08db5eee73b": {
+      "decision": "approved",
+      "at": "2026-10-08T22:35:16.554Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:fact:0ab719b018e2": {
+      "decision": "approved",
+      "at": "2026-10-08T22:35:16.554Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:fact:7803018fdf6a": {
+      "decision": "approved",
+      "at": "2026-10-08T22:35:16.554Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:fact:49809d626afe": {
+      "decision": "approved",
+      "at": "2026-10-08T22:35:16.554Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:fact:71e32a2ddfa6": {
+      "decision": "approved",
+      "at": "2026-10-08T22:35:16.554Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:fact:3a016a6f839c": {
+      "decision": "approved",
+      "at": "2026-10-08T22:35:16.554Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:fact:2f9a9e26af3e": {
+      "decision": "approved",
+      "at": "2026-10-08T22:35:16.554Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:fact:13ddfe1f0673": {
+      "decision": "approved",
+      "at": "2026-10-08T22:35:16.554Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:connection:23ee56cbe406": {
+      "decision": "approved",
+      "at": "2026-10-08T22:35:16.554Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:connection:ec359cf713ef": {
+      "decision": "approved",
+      "at": "2026-10-08T22:35:16.554Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:connection:b87b50c7ca34": {
+      "decision": "approved",
+      "at": "2026-10-08T22:35:16.554Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:connection:64b0763c2ecf": {
+      "decision": "approved",
+      "at": "2026-10-08T22:35:16.554Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:connection:8d0c7fe4fa7e": {
+      "decision": "approved",
+      "at": "2026-10-08T22:35:16.554Z",
+      "by": "fact-check"
+    },
+    "sequoia-capital:connection:7723aed6c6bc": {
+      "decision": "approved",
+      "at": "2026-10-08T22:35:16.554Z",
+      "by": "fact-check"
+    },
+    "paypal-bonus-abuse:summary:907a128bceae": {
+      "decision": "approved",
+      "at": "2026-10-08T22:58:04.275Z",
+      "by": "fact-check"
+    },
+    "paypal-bonus-abuse:fact:a71263574a69": {
+      "decision": "approved",
+      "at": "2026-10-08T22:58:04.275Z",
+      "by": "fact-check"
+    },
+    "paypal-bonus-abuse:fact:9d5bda052fa6": {
+      "decision": "approved",
+      "at": "2026-10-08T22:58:04.275Z",
+      "by": "fact-check"
+    },
+    "paypal-bonus-abuse:fact:72cff09ac378": {
+      "decision": "approved",
+      "at": "2026-10-08T22:58:04.275Z",
+      "by": "fact-check"
+    },
+    "paypal-bonus-abuse:fact:cde6ea9474a3": {
+      "decision": "approved",
+      "at": "2026-10-08T22:58:04.275Z",
+      "by": "fact-check"
+    },
+    "paypal-bonus-abuse:fact:433f76199305": {
+      "decision": "approved",
+      "at": "2026-10-08T22:58:04.275Z",
+      "by": "fact-check"
+    },
+    "paypal-bonus-abuse:fact:341d048ca4fb": {
+      "decision": "approved",
+      "at": "2026-10-08T22:58:04.275Z",
+      "by": "fact-check"
+    },
+    "paypal-bonus-abuse:fact:0aef3d14f7e8": {
+      "decision": "approved",
+      "at": "2026-10-08T22:58:04.275Z",
+      "by": "fact-check"
+    },
+    "paypal-bonus-abuse:fact:f1acf2fa91fe": {
+      "decision": "approved",
+      "at": "2026-10-08T22:58:04.275Z",
+      "by": "fact-check"
+    },
+    "paypal-bonus-abuse:fact:af2b8507dc0f": {
+      "decision": "approved",
+      "at": "2026-10-08T22:58:04.275Z",
+      "by": "fact-check"
+    },
+    "paypal-bonus-abuse:fact:3fa4f73f3919": {
+      "decision": "approved",
+      "at": "2026-10-08T22:58:04.275Z",
+      "by": "fact-check"
+    },
+    "paypal-bonus-abuse:fact:69efdd76bdd9": {
+      "decision": "approved",
+      "at": "2026-10-08T22:58:04.275Z",
+      "by": "fact-check"
+    },
+    "paypal-bonus-abuse:fact:33de23239d10": {
+      "decision": "approved",
+      "at": "2026-10-08T22:58:04.275Z",
+      "by": "fact-check"
+    },
+    "paypal-bonus-abuse:fact:edb3c7bc6e10": {
+      "decision": "approved",
+      "at": "2026-10-08T22:58:04.275Z",
+      "by": "fact-check"
+    },
+    "paypal-bonus-abuse:fact:3a3d034025b9": {
+      "decision": "approved",
+      "at": "2026-10-08T22:58:04.275Z",
+      "by": "fact-check"
+    },
+    "paypal-bonus-abuse:fact:8eeed0d1ea3f": {
+      "decision": "approved",
+      "at": "2026-10-08T22:58:04.275Z",
+      "by": "fact-check"
+    },
+    "paypal-bonus-abuse:connection:b32dacbade0d": {
+      "decision": "approved",
+      "at": "2026-10-08T22:58:04.275Z",
+      "by": "fact-check"
+    },
+    "paypal-bonus-abuse:connection:718f0e8b9881": {
+      "decision": "approved",
+      "at": "2026-10-08T22:58:04.275Z",
+      "by": "fact-check"
+    },
+    "paypal-bonus-abuse:connection:2475a55964a5": {
+      "decision": "approved",
+      "at": "2026-10-08T22:58:04.275Z",
+      "by": "fact-check"
+    },
+    "paypal-bonus-abuse:connection:fa7a34d25666": {
+      "decision": "approved",
+      "at": "2026-10-08T22:58:04.275Z",
+      "by": "fact-check"
+    },
+    "paypal-bonus-abuse:connection:fb9fccd7df48": {
+      "decision": "approved",
+      "at": "2026-10-08T22:58:04.275Z",
+      "by": "fact-check"
+    },
+    "max-levchin:fact:8acf462e44f3": {
+      "decision": "approved",
+      "at": "2026-10-08T22:58:04.275Z",
+      "by": "fact-check"
+    },
+    "max-levchin:fact:713eae2e3ad7": {
+      "decision": "approved",
+      "at": "2026-10-08T22:58:04.275Z",
+      "by": "fact-check"
+    },
+    "max-levchin:fact:ffbc40afaa16": {
+      "decision": "approved",
+      "at": "2026-10-08T22:58:04.275Z",
+      "by": "fact-check"
+    },
+    "max-levchin:fact:49fd30b2fdc6": {
+      "decision": "approved",
+      "at": "2026-10-08T22:58:04.275Z",
+      "by": "fact-check"
+    },
+    "max-levchin:fact:e46f2e887b22": {
+      "decision": "approved",
+      "at": "2026-10-08T22:58:04.275Z",
+      "by": "fact-check"
+    },
+    "max-levchin:fact:105931ab6adc": {
+      "decision": "approved",
+      "at": "2026-10-08T22:58:04.275Z",
+      "by": "fact-check"
+    },
+    "max-levchin:connection:485539ecd2d1": {
+      "decision": "approved",
+      "at": "2026-10-08T22:58:04.275Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:1bdd89a85818": {
+      "decision": "approved",
+      "at": "2026-10-08T23:04:58.168Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:cf9e277a6499": {
+      "decision": "approved",
+      "at": "2026-10-08T23:04:58.168Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:7be1f1f10ed2": {
+      "decision": "approved",
+      "at": "2026-10-08T23:04:58.168Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:42243ec9f096": {
+      "decision": "approved",
+      "at": "2026-10-08T23:04:58.168Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:6868a6e12a0d": {
+      "decision": "approved",
+      "at": "2026-10-08T23:04:58.168Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:8b11071a1705": {
+      "decision": "approved",
+      "at": "2026-10-08T23:04:58.168Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:3740025a1423": {
+      "decision": "approved",
+      "at": "2026-10-08T23:04:58.168Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:4d393deedd6c": {
+      "decision": "approved",
+      "at": "2026-10-08T23:04:58.168Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:8ec9640028f2": {
+      "decision": "approved",
+      "at": "2026-10-08T23:04:58.168Z",
+      "by": "fact-check"
+    },
+    "david-sacks:fact:3f5c3e2e75d1": {
+      "decision": "approved",
+      "at": "2026-10-08T23:04:58.168Z",
+      "by": "fact-check"
+    },
+    "david-sacks:connection:3f157d8256fe": {
+      "decision": "approved",
+      "at": "2026-10-08T23:04:58.168Z",
+      "by": "fact-check"
+    },
+    "david-sacks:connection:10e3b7780962": {
+      "decision": "approved",
+      "at": "2026-10-08T23:04:58.168Z",
+      "by": "fact-check"
+    },
+    "david-sacks:connection:463c3a57b5f5": {
+      "decision": "approved",
+      "at": "2026-10-08T23:04:58.168Z",
+      "by": "fact-check"
+    },
+    "david-sacks:connection:513174a62c7d": {
+      "decision": "approved",
+      "at": "2026-10-08T23:04:58.168Z",
+      "by": "fact-check"
+    },
+    "david-sacks:connection:bc8229220db9": {
+      "decision": "approved",
+      "at": "2026-10-08T23:04:58.168Z",
+      "by": "fact-check"
+    },
+    "david-sacks:connection:ca4dc449e573": {
+      "decision": "approved",
+      "at": "2026-10-08T23:04:58.168Z",
+      "by": "fact-check"
+    },
+    "andreessen-horowitz:fact:9a293989cacb": {
+      "decision": "approved",
+      "at": "2026-10-08T23:04:58.168Z",
+      "by": "fact-check"
+    },
+    "andreessen-horowitz:fact:5a54aa176726": {
+      "decision": "approved",
+      "at": "2026-10-08T23:04:58.168Z",
+      "by": "fact-check"
+    },
+    "andreessen-horowitz:fact:659d386e298b": {
+      "decision": "approved",
+      "at": "2026-10-08T23:04:58.168Z",
+      "by": "fact-check"
+    },
+    "andreessen-horowitz:fact:6828dd2b966c": {
+      "decision": "approved",
+      "at": "2026-10-08T23:04:58.168Z",
+      "by": "fact-check"
+    },
+    "andreessen-horowitz:fact:42977859df0e": {
+      "decision": "approved",
+      "at": "2026-10-08T23:04:58.168Z",
+      "by": "fact-check"
+    },
+    "marc-andreessen:connection:9fc8715eee36": {
+      "decision": "approved",
+      "at": "2026-10-08T23:04:58.168Z",
+      "by": "fact-check"
+    },
+    "andreessen-horowitz:summary:909658e0ebed": {
+      "decision": "approved",
+      "at": "2026-10-08T23:04:58.168Z",
+      "by": "fact-check"
+    },
+    "marc-andreessen:summary:73024016ab80": {
+      "decision": "approved",
+      "at": "2026-10-08T23:04:58.168Z",
+      "by": "fact-check"
+    },
+    "marc-andreessen:fact:ef801886665a": {
+      "decision": "approved",
+      "at": "2026-10-08T23:04:58.168Z",
+      "by": "fact-check"
+    },
+    "marc-andreessen:connection:27c3de7a9218": {
+      "decision": "approved",
+      "at": "2026-10-08T23:04:58.168Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:fact:b988da5b4c9d": {
+      "decision": "approved",
+      "at": "2026-10-08T23:12:17.021Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:fact:440af1b95ffd": {
+      "decision": "approved",
+      "at": "2026-10-08T23:12:17.021Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:fact:54eff201b1ea": {
+      "decision": "approved",
+      "at": "2026-10-08T23:12:17.021Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:fact:fb901aaa3159": {
+      "decision": "approved",
+      "at": "2026-10-08T23:12:17.021Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:fact:53698f8a5feb": {
+      "decision": "approved",
+      "at": "2026-10-08T23:12:17.021Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:fact:ae3078507e5e": {
+      "decision": "approved",
+      "at": "2026-10-08T23:12:17.021Z",
+      "by": "fact-check"
+    },
+    "keith-rabois:connection:83625983cb2d": {
+      "decision": "approved",
+      "at": "2026-10-08T23:12:17.021Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:1bc1bbbcf903": {
+      "decision": "approved",
+      "at": "2026-10-08T23:12:17.021Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:2cbbb50b3098": {
+      "decision": "approved",
+      "at": "2026-10-08T23:12:17.021Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:fc519b3d06f9": {
+      "decision": "approved",
+      "at": "2026-10-08T23:12:17.021Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:438e6cf7a21e": {
+      "decision": "approved",
+      "at": "2026-10-08T23:12:17.021Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:7b4eb6bccebc": {
+      "decision": "approved",
+      "at": "2026-10-08T23:12:17.021Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:9e64cdc1dd46": {
+      "decision": "approved",
+      "at": "2026-10-08T23:12:17.021Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:04ee168ceb6b": {
+      "decision": "approved",
+      "at": "2026-10-08T23:12:17.021Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:f381541b61f2": {
+      "decision": "approved",
+      "at": "2026-10-08T23:12:17.021Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:fb4625dcdccd": {
+      "decision": "approved",
+      "at": "2026-10-08T23:12:17.021Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:7acc1709fa06": {
+      "decision": "approved",
+      "at": "2026-10-08T23:12:17.021Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:fact:bae6331ad6ae": {
+      "decision": "approved",
+      "at": "2026-10-08T23:12:17.021Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:connection:45a84691f7c4": {
+      "decision": "approved",
+      "at": "2026-10-08T23:12:17.021Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:connection:37b9ee4646e8": {
+      "decision": "approved",
+      "at": "2026-10-08T23:12:17.021Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:connection:27bbbad25b96": {
+      "decision": "approved",
+      "at": "2026-10-08T23:12:17.021Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:connection:6101c4ebd9f7": {
+      "decision": "approved",
+      "at": "2026-10-08T23:12:17.021Z",
+      "by": "fact-check"
+    },
+    "reid-hoffman:connection:ac202a624d92": {
+      "decision": "approved",
+      "at": "2026-10-08T23:12:17.021Z",
+      "by": "fact-check"
+    }
+  },
+  "edits": {},
+  "note": "Rebuilt 2026-10-08 after an independent source-by-source fact-check. Kenoma's earlier bulk self-approval was discarded."
+}

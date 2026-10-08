@@ -1,0 +1,115 @@
+{
+  "entity": "founders-fund",
+  "name": "Founders Fund",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "Founders Fund is a San Francisco venture capital firm founded in 2005 and run by PayPal co-founders including Peter Thiel, Luke Nosek and Ken Howery. Its portfolio includes SpaceX, Palantir, Anduril, Stripe and Facebook. In 2008 its $20 million investment was SpaceX's first outside funding.",
+    "sources": [
+      {
+        "url": "https://foundersfund.com/portfolio/",
+        "publisher": "Founders Fund",
+        "title": "Portfolio"
+      },
+      {
+        "url": "https://www.space.com/5701-paypal-founders-invest-20-million-spacex.html",
+        "publisher": "Space.com",
+        "title": "PayPal Co-Founders Invest $20 Million in SpaceX",
+        "date": "2008-08-05"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1321655/000119312520248369/d904406ds1a.htm",
+        "publisher": "U.S. Securities and Exchange Commission (Palantir Form S-1/A)",
+        "title": "Palantir Technologies Inc. Registration Statement",
+        "date": "2020-08"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Anduril Industries was founded in 2017 by Palmer Luckey, Brian Schimpf, Trae Stephens (a Founders Fund partner), Matt Grimm and Joe Chen, and Founders Fund is an investor. The company is known for autonomous surveillance towers deployed at the U.S. southern border and builds autonomous military systems.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2017/10/19/anduril-trae-stephens-battlefield-vr-ar/",
+          "publisher": "TechCrunch",
+          "title": "Palmer Luckey's new defense company Anduril looks interested in AR and VR on the battlefield",
+          "date": "2017-10-19"
+        },
+        {
+          "url": "https://www.cnbc.com/2022/05/17/anduril-industries-disruptor-50.html",
+          "publisher": "CNBC",
+          "title": "Anduril Industries: 2022 CNBC Disruptor 50",
+          "date": "2022-05-17"
+        },
+        {
+          "url": "https://foundersfund.com/portfolio/",
+          "publisher": "Founders Fund",
+          "title": "Portfolio"
+        }
+      ]
+    },
+    {
+      "claim": "In August 2008, just after SpaceX's third consecutive Falcon 1 launch failure, Founders Fund invested $20 million in SpaceX, and Founders Fund partner Luke Nosek joined SpaceX's board.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.space.com/5701-paypal-founders-invest-20-million-spacex.html",
+          "publisher": "Space.com",
+          "title": "PayPal Co-Founders Invest $20 Million in SpaceX",
+          "date": "2008-08-05"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "peter-thiel",
+      "relation": "co-founded",
+      "claim": "Peter Thiel co-founded Founders Fund with fellow PayPal co-founders and has been a partner of the firm since 2005.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000119312520248369/d904406ds1a.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Palantir Form S-1/A)",
+          "title": "Palantir Technologies Inc. Registration Statement",
+          "date": "2020-08"
+        },
+        {
+          "url": "https://www.space.com/5701-paypal-founders-invest-20-million-spacex.html",
+          "publisher": "Space.com",
+          "title": "PayPal Co-Founders Invest $20 Million in SpaceX",
+          "date": "2008-08-05"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "palantir",
+      "relation": "invested in",
+      "claim": "Founders Fund is a Palantir investor. Palantir's 2020 IPO registration statement says entities affiliated with Founders Fund held more than 5% of its Class A and Class B common stock, and that Founders Fund partner Peter Thiel, a Palantir co-founder, has chaired its board since 2003.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000119312520248369/d904406ds1a.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Palantir Form S-1/A)",
+          "title": "Palantir Technologies Inc. Registration Statement",
+          "date": "2020-08"
+        }
+      ]
+    },
+    {
+      "to": "curtis-yarvin",
+      "relation": "funded",
+      "claim": "Tlon, the company Curtis Yarvin co-founded to develop Urbit, is funded by Founders Fund, according to co-founder Galen Wolfe-Pauly, who said in 2017 that Peter Thiel was not personally involved.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.theverge.com/2017/2/21/14671978/alt-right-mencius-moldbug-urbit-curtis-yarvin-tlon",
+          "publisher": "The Verge",
+          "title": "Alt-right darling Mencius Moldbug wanted to destroy democracy. Now he wants to sell you web services",
+          "date": "2017-02-21"
+        }
+      ]
+    }
+  ]
+}

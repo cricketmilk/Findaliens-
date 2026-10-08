@@ -3,9 +3,12 @@ Generate ornamental SVG assets matching Trove Gothic/alchemical aesthetic.
 Colors: deep near-black backgrounds, warm golds, amber, muted bronze.
 Motifs: pointed arches, tracery, diamonds, celestial circles, filigree.
 """
+import sys
 from pathlib import Path
 
-OUT = Path(r'C:\Find Aliens\public\book\img')
+# The literal path on Windows, as before; off Windows, img/ beside this script.
+OUT = (Path(r'C:\Find Aliens\public\book\img') if sys.platform == 'win32'
+       else Path(__file__).resolve().parent / 'img')
 OUT.mkdir(parents=True, exist_ok=True)
 
 C = {

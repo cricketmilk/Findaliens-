@@ -1,0 +1,77 @@
+{
+  "entity": "fairshake",
+  "name": "Fairshake",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "Fairshake is a U.S. super PAC funded mainly by cryptocurrency companies and investors, including Coinbase, Ripple and Andreessen Horowitz. Together with its affiliates Protect Progress and Defend American Jobs, it spent roughly $195 million in the 2024 cycle supporting pro-crypto congressional candidates and opposing others. It reported a $193 million war chest at the end of 2025 ahead of the 2026 midterms.",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/01/28/crypto-pac-fairshake-bill-vote.html",
+        "publisher": "CNBC",
+        "title": "Crypto PAC Fairshake touts $193 million war chest as regulatory bill faces first vote",
+        "date": "2026-01-28"
+      },
+      {
+        "url": "https://www.nbcnews.com/tech/crypto/tech-bros-crypto-congress-rcna181498",
+        "publisher": "NBC News / CNBC",
+        "title": "How tech bros bought 'America's most pro-crypto Congress ever'",
+        "date": "2024-11-23"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In 2024, crypto industry PACs directed about $40 million at defeating Senate Banking Committee Chair Sherrod Brown in Ohio, largely through Fairshake's affiliate Defend American Jobs. Fairshake itself spent over $10 million on ads against Rep. Katie Porter in California's Senate primary.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2024/11/05/cryptos-245-million-campaign-finance-operation-funded-non-crypto-ads.html",
+          "publisher": "CNBC",
+          "title": "Crypto's $245 million campaign finance operation filled airwaves with ads not about crypto",
+          "date": "2024-11-05"
+        }
+      ]
+    },
+    {
+      "claim": "In the 2024 cycle, Fairshake and its affiliated PACs were funded mainly by crypto companies. Coinbase gave more than $75 million, and Ripple Labs and Andreessen Horowitz were among the other primary contributors.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/tech/crypto/tech-bros-crypto-congress-rcna181498",
+          "publisher": "NBC News / CNBC",
+          "title": "How tech bros bought 'America's most pro-crypto Congress ever'",
+          "date": "2024-11-23"
+        },
+        {
+          "url": "https://www.cnbc.com/2024/11/05/bitcoiners-celebrate-as-bernie-moreno-ousts-sherrod-brown-ohio-upset.html",
+          "publisher": "CNBC",
+          "title": "Bitcoiners celebrate as $40 million campaign brings down Ohio Sen. Sherrod Brown",
+          "date": "2024-11-06"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "andreessen-horowitz",
+      "relation": "funded",
+      "claim": "Andreessen Horowitz was one of Fairshake's primary contributors in the 2024 cycle and gave a further $24 million in the second half of 2025.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/01/28/crypto-pac-fairshake-bill-vote.html",
+          "publisher": "CNBC",
+          "title": "Crypto PAC Fairshake touts $193 million war chest as regulatory bill faces first vote",
+          "date": "2026-01-28"
+        },
+        {
+          "url": "https://www.nbcnews.com/tech/crypto/tech-bros-crypto-congress-rcna181498",
+          "publisher": "NBC News / CNBC",
+          "title": "How tech bros bought 'America's most pro-crypto Congress ever'",
+          "date": "2024-11-23"
+        }
+      ],
+      "reverse": true
+    }
+  ]
+}

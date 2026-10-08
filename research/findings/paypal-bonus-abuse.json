@@ -1,0 +1,374 @@
+{
+  "entity": "paypal-bonus-abuse",
+  "name": "PayPal sign-up bonus abuse (1999–2001)",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "PayPal paid $5–$10 sign-up and referral bonuses from late 1999, then cut them and tightened the rules in 2000–2001. The documented mass fake-account fraud used stolen credit cards: a Russian hacker was convicted for software that opened PayPal accounts under random identities. The only source found that names bonus collection as a purpose of bot-made accounts is author Jimmy Soni, in a 2023 podcast. No source puts a figure on bonus-abuse losses. Levchin listed bonuses apart from fraud losses. No record was found of anyone charged over bonuses, or of insider involvement or any arrangement.",
+    "sources": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205702006471/a2071068z424b4.htm",
+        "publisher": "SEC",
+        "title": "PayPal, Inc. prospectus (Form 424B4)",
+        "date": "2002-02"
+      },
+      {
+        "url": "https://sequoiacap.com/podcast/crucible-moments-paypal",
+        "publisher": "Sequoia Capital (Crucible Moments podcast transcript)",
+        "title": "PayPal: A Merger of Enemies That Reshaped Silicon Valley",
+        "date": "2023-09-07"
+      },
+      {
+        "url": "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2002/gorshkovSent.htm",
+        "publisher": "U.S. Department of Justice (U.S. Attorney, W.D. Washington)",
+        "title": "Russian computer hacker sentenced to three years in prison",
+        "date": "2002-10-04"
+      },
+      {
+        "url": "https://web.archive.org/web/2020id_/https://ecorner.stanford.edu/wp-content/uploads/sites/2/2004/01/1028.pdf",
+        "publisher": "Stanford eCorner (transcript, via Internet Archive)",
+        "title": "Coping with Fraud — Max Levchin and Peter Thiel",
+        "date": "2004-01-21"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "PayPal's IPO prospectus says that in late 1999 and early 2000 it offered qualified new users a $5 to $10 sign-up bonus, automatically credited to their accounts, plus a $5 to $10 referral bonus to the existing user for each qualified new member. It called these bonuses its only significant marketing expense.",
+      "status": "documented",
+      "date": "1999-11/2000",
+      "quote": "we offered qualified new users a $5 to $10 sign up bonus, automatically credited to their respective PayPal accounts",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205702006471/a2071068z424b4.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. prospectus (Form 424B4)",
+          "date": "2002-02"
+        }
+      ]
+    },
+    {
+      "claim": "The prospectus says PayPal spent $5.0 million on promotional bonuses in the three months ended September 30, 2000 while adding 1.5 million accounts ($3.29 per account). Average bonus cost per new account fell from $3.68 in the first nine months of 2000 to $0.13 in the same period of 2001. PayPal attributed the fall to tightening the requirements for sign-up and referral bonuses. It does not say how much, if any, of the bonus spending went to fraudulent accounts.",
+      "status": "documented",
+      "date": "2000-07/2001-09",
+      "quote": "the tightening of our requirements to receive sign-up and referral bonuses",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205702006471/a2071068z424b4.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. prospectus (Form 424B4)",
+          "date": "2002-02"
+        }
+      ]
+    },
+    {
+      "claim": "By the February 2002 IPO, PayPal's $5 new-user bonus required U.S. customers to verify a bank account, add $250 by ACH and sign up for the money market feature. International customers had to confirm a credit card and make a payment of at least $100. The $5 referral bonus was paid only when the referred customer met these conditions. The prospectus says bonus amounts never depended on whether the customer generated revenue.",
+      "status": "documented",
+      "date": "2002-02",
+      "quote": "Currently, we offer a $5 promotional bonus to new U.S. customers who verify with us their bank account",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205702006471/a2071068z424b4.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. prospectus (Form 424B4)",
+          "date": "2002-02"
+        }
+      ]
+    },
+    {
+      "claim": "A September 21, 2000 reply on a hobbyist mailing list quoted a PayPal customer-service response that another member had posted. According to that response, a new user had to register and verify a bank account to receive the new-account bonus, and the referring user earned a referral bonus only if the new user added a credit card or verified a bank account.",
+      "status": "reported",
+      "date": "2000-09-21",
+      "sources": [
+        {
+          "url": "https://buildbotics.com/archive/cad_cam_edm_dro/messages/11682.html",
+          "publisher": "CAD_CAM_EDM_DRO mailing-list archive (buildbotics.com)",
+          "title": "Re: PayPal referral Moneys (Jim Register reply quoting Bob Bachman's post of a PayPal customer-service reply)",
+          "date": "2000-09-21"
+        }
+      ]
+    },
+    {
+      "claim": "Eric M. Jackson, a former PayPal marketing employee, wrote that after the March 2000 merger, X.com CEO Bill Harris told staff the company had realized immediate cost savings by eliminating X.com's $20 new-user bonus and cutting PayPal's bonus in half to $5. The book presents the cuts as cost control, not as a response to abuse. Elsewhere Jackson says X.com had offered new customers a $20 deposit and paid $10 per referral.",
+      "status": "reported",
+      "date": "2000",
+      "sources": [
+        {
+          "url": "https://archive.org/details/paypalwarsbattle0000jack",
+          "publisher": "World Ahead Publishing (Eric M. Jackson; text via Internet Archive full-text search)",
+          "title": "The PayPal Wars: Battles with eBay, the Media, the Mafia, and the Rest of Planet Earth",
+          "date": "2004"
+        }
+      ]
+    },
+    {
+      "claim": "Jackson wrote that one fraud ring opened fraudulent PayPal accounts and used them to take nearly $6 million out of the system in mid-2000. He describes Russian and Nigerian groups running up online card charges for which X.com/PayPal, as the merchant, was liable. The passages found describe stolen-card fraud, not bonus collection.",
+      "status": "reported",
+      "date": "2000",
+      "quote": "opened fraudulent PayPal accounts and used them to siphon nearly $6 million out of the system in mid-2000",
+      "sources": [
+        {
+          "url": "https://archive.org/details/paypalwarsbattle0000jack",
+          "publisher": "World Ahead Publishing (Eric M. Jackson; text via Internet Archive full-text search)",
+          "title": "The PayPal Wars: Battles with eBay, the Media, the Mafia, and the Rest of Planet Earth",
+          "date": "2004"
+        }
+      ]
+    },
+    {
+      "claim": "Jackson describes the Gausebeck-Levchin test, an addition to the sign-up process built by Levchin and engineer David Gausebeck, as making the automated opening of accounts linked to stolen credit cards effectively impossible. He links the test to stolen cards, not to bonus collection.",
+      "status": "reported",
+      "date": "2000",
+      "quote": "accounts linked to stolen credit cards was now effectively impossible",
+      "sources": [
+        {
+          "url": "https://archive.org/details/paypalwarsbattle0000jack",
+          "publisher": "World Ahead Publishing (Eric M. Jackson; text via Internet Archive full-text search)",
+          "title": "The PayPal Wars: Battles with eBay, the Media, the Mafia, and the Rest of Planet Earth",
+          "date": "2004"
+        }
+      ]
+    },
+    {
+      "claim": "In a 2023 Sequoia podcast, author Jimmy Soni said that one kind of fraud PayPal faced was bots creating fake accounts by the hundreds to collect its bonus payments. This was the only source found that names bonus collection as a purpose of the automated accounts. He gave no figure for bonus losses. He said overall fraud at one point exceeded $10 million a month.",
+      "status": "words",
+      "date": "2000",
+      "quote": "creating fake accounts by the hundreds so that they could fleece the company for its bonus payments",
+      "sources": [
+        {
+          "url": "https://sequoiacap.com/podcast/crucible-moments-paypal",
+          "publisher": "Sequoia Capital (Crucible Moments podcast transcript)",
+          "title": "PayPal: A Merger of Enemies That Reshaped Silicon Valley",
+          "date": "2023-09-07"
+        }
+      ]
+    },
+    {
+      "claim": "In the same 2023 podcast, Max Levchin said people were writing scripts to sign up for PayPal. He said a fraudster in Eastern Europe emailed him boasting of mass account creation, and that real-time account creation fell by about 50% once the sign-up test launched, adding that about half the accounts being created had been fraudulent. The episode places this in PayPal's summer-2000 fraud crisis. Levchin did not say there what the scripted accounts were used for. Roelof Botha described the main fraud as stolen cards entered into PayPal.",
+      "status": "words",
+      "date": "2000",
+      "sources": [
+        {
+          "url": "https://sequoiacap.com/podcast/crucible-moments-paypal",
+          "publisher": "Sequoia Capital (Crucible Moments podcast transcript)",
+          "title": "PayPal: A Merger of Enemies That Reshaped Silicon Valley",
+          "date": "2023-09-07"
+        }
+      ]
+    },
+    {
+      "claim": "In a January 2004 Stanford talk, Levchin said PayPal was losing about $12 million a month to fraud in June 2000, separate from costs such as referral bonuses. He listed bonuses as their own expense, not as part of the fraud losses. The transcript does not label speakers; this opening section is attributed to Levchin because the speaker refers to 'Peter and I'.",
+      "status": "words",
+      "date": "2000-06",
+      "quote": "we were bleeding something like 12 million a month in fraud in June 2000. That's in addition to things like referral bonuses",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/2020id_/https://ecorner.stanford.edu/wp-content/uploads/sites/2/2004/01/1028.pdf",
+          "publisher": "Stanford eCorner (transcript, via Internet Archive)",
+          "title": "Coping with Fraud — Max Levchin and Peter Thiel",
+          "date": "2004-01-21"
+        }
+      ]
+    },
+    {
+      "claim": "Federal prosecutors said Russian national Vasiliy Gorshkov's computer programs created thousands of anonymous email accounts and then PayPal accounts with random identities and stolen credit cards. He was convicted on 20 counts in October 2001 and sentenced in October 2002 to 36 months, with nearly $700,000 restitution to Speakeasy and PayPal. The DOJ releases do not mention sign-up or referral bonuses.",
+      "status": "court",
+      "date": "2001-10-10",
+      "quote": "GORSHKOV's programs then created associated accounts at PayPal with random identities and stolen credit cards.",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2001/gorshkovconvict.htm",
+          "publisher": "U.S. Department of Justice (U.S. Attorney, W.D. Washington)",
+          "title": "Russian computer hacker convicted by jury",
+          "date": "2001-10-10"
+        },
+        {
+          "url": "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2002/gorshkovSent.htm",
+          "publisher": "U.S. Department of Justice (U.S. Attorney, W.D. Washington)",
+          "title": "Russian computer hacker sentenced to three years in prison",
+          "date": "2002-10-04"
+        }
+      ]
+    },
+    {
+      "claim": "American Banker reported in 2006 that 'Igor' was the username of a con artist PayPal believed held hundreds of accounts. He staged fake sales, paid one account from another with stolen cards, and withdrew the cash before the card was found to be stolen. It said PayPal never caught him. MIT Technology Review's 2002 Innovators Under 35 profile of Levchin said Igor was named after a Russian fraudster PayPal helped apprehend in 2000. These accounts conflict, and neither mentions bonuses.",
+      "status": "reported",
+      "date": "2000",
+      "sources": [
+        {
+          "url": "https://www.americanbanker.com/news/how-a-scam-artist-helped-the-art-of-monitoring",
+          "publisher": "American Banker",
+          "title": "How a Scam Artist Helped the Art of Monitoring",
+          "date": "2006-08-28"
+        },
+        {
+          "url": "https://www.technologyreview.com/innovator/max-levchin/",
+          "publisher": "MIT Technology Review",
+          "title": "Max Levchin (2002 Innovators Under 35 / Innovator of the Year)",
+          "date": "2002-06-01"
+        }
+      ]
+    },
+    {
+      "claim": "Adam Penenberg's 2009 book Viral Loop says one of Levchin's fraud adversaries was a Russian who had set up thousands of PayPal accounts under the name 'Gregory Stivinson'. The passages found do not say whether those accounts were used for stolen cards or for bonuses.",
+      "status": "reported",
+      "date": "2000",
+      "quote": "a Russian who had set up thousands of accounts under the name Gregory Stivinson",
+      "sources": [
+        {
+          "url": "https://archive.org/details/virallooppowerof0000pene",
+          "publisher": "Sceptre (Adam L. Penenberg; text via Internet Archive full-text search)",
+          "title": "Viral Loop: The Power of Pass-It-On",
+          "date": "2009"
+        }
+      ]
+    },
+    {
+      "claim": "Contemporary coverage of PayPal's fraud work does not describe abuse of sign-up or referral bonuses. Newsweek (July 2001) and MIT Technology Review (December 2001) describe stolen-card fraud, the Igor system and arrests; InfoWorld (December 2002) describes the Igor system. Technology Review noted only that the $10 sign-up incentive had been cut to $5.",
+      "status": "reported",
+      "date": "2001-12-01",
+      "sources": [
+        {
+          "url": "https://www.technologyreview.com/2001/12/01/235339/digital-cash-payoff/",
+          "publisher": "MIT Technology Review",
+          "title": "Digital Cash Payoff",
+          "date": "2001-12-01"
+        },
+        {
+          "url": "https://www.paypalobjects.com/html/newsweek-071601.html",
+          "publisher": "Newsweek (reprint hosted by PayPal)",
+          "title": "Busting the Web Bandits",
+          "date": "2001-07-16"
+        },
+        {
+          "url": "https://www.infoworld.com/article/2232386/max-levchin-paypal.html",
+          "publisher": "InfoWorld",
+          "title": "Max Levchin, PayPal",
+          "date": "2002-12-06"
+        }
+      ]
+    },
+    {
+      "claim": "No public record found of any person charged with, or sued for, collecting PayPal sign-up or referral bonuses through fake accounts in 1999–2002. No record found of insider involvement or of any arrangement between PayPal staff and bonus abusers. The only prosecution found involving PayPal account creation in this period, the Gorshkov case, concerned stolen credit cards.",
+      "status": "documented",
+      "date": "1999-2002",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2001/gorshkovconvict.htm",
+          "publisher": "U.S. Department of Justice (U.S. Attorney, W.D. Washington)",
+          "title": "Russian computer hacker convicted by jury",
+          "date": "2001-10-10"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205702006471/a2071068z424b4.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. prospectus (Form 424B4)",
+          "date": "2002-02"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "paypal",
+      "toName": "PayPal",
+      "toType": "company",
+      "relation": "other",
+      "claim": "PayPal paid $5–$10 sign-up and referral bonuses from late 1999 and cut their amount and tightened eligibility in 2000–2001. Average bonus cost per new account fell from $3.68 (first nine months of 2000) to $0.13 (same period of 2001).",
+      "status": "documented",
+      "date": "1999-11/2001-09",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205702006471/a2071068z424b4.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. prospectus (Form 424B4)",
+          "date": "2002-02"
+        }
+      ]
+    },
+    {
+      "to": "max-levchin",
+      "toName": "Max Levchin",
+      "toType": "person",
+      "relation": "investigated",
+      "reverse": true,
+      "claim": "As CTO, Levchin led PayPal's response to scripted mass sign-ups, co-creating the Gausebeck-Levchin sign-up test during the 2000 fraud crisis, as recounted in a 2023 Sequoia podcast and Eric Jackson's 2004 book. Levchin described the scripted accounts as fraudulent. Author Jimmy Soni, in the same podcast, linked bot-made accounts to bonus collection.",
+      "status": "words",
+      "date": "2000",
+      "sources": [
+        {
+          "url": "https://sequoiacap.com/podcast/crucible-moments-paypal",
+          "publisher": "Sequoia Capital (Crucible Moments podcast transcript)",
+          "title": "PayPal: A Merger of Enemies That Reshaped Silicon Valley",
+          "date": "2023-09-07"
+        },
+        {
+          "url": "https://archive.org/details/paypalwarsbattle0000jack",
+          "publisher": "World Ahead Publishing (Eric M. Jackson; text via Internet Archive full-text search)",
+          "title": "The PayPal Wars: Battles with eBay, the Media, the Mafia, and the Rest of Planet Earth",
+          "date": "2004"
+        }
+      ]
+    },
+    {
+      "to": "david-gausebeck",
+      "toName": "David Gausebeck",
+      "toType": "person",
+      "relation": "investigated",
+      "reverse": true,
+      "claim": "PayPal engineer David Gausebeck built the distorted-text sign-up test with Levchin to block automated account creation; a 2023 Sequoia podcast places it in PayPal's 2000 fraud crisis.",
+      "status": "words",
+      "date": "2000",
+      "sources": [
+        {
+          "url": "https://sequoiacap.com/podcast/crucible-moments-paypal",
+          "publisher": "Sequoia Capital (Crucible Moments podcast transcript)",
+          "title": "PayPal: A Merger of Enemies That Reshaped Silicon Valley",
+          "date": "2023-09-07"
+        }
+      ]
+    },
+    {
+      "to": "vasiliy-gorshkov",
+      "toName": "Vasiliy Gorshkov",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Gorshkov was convicted in 2001 over programs that mass-created PayPal accounts with random identities and stolen credit cards. This is the documented case of automated PayPal account creation; the DOJ did not describe it as bonus collection.",
+      "status": "court",
+      "date": "2001-10-10",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2001/gorshkovconvict.htm",
+          "publisher": "U.S. Department of Justice (U.S. Attorney, W.D. Washington)",
+          "title": "Russian computer hacker convicted by jury",
+          "date": "2001-10-10"
+        }
+      ]
+    },
+    {
+      "to": "x-com",
+      "toName": "X.com",
+      "toType": "company",
+      "relation": "other",
+      "claim": "According to Eric Jackson's book, X.com CEO Bill Harris told staff after the March 2000 merger with Confinity that eliminating X.com's $20 new-user bonus had been an immediate cost saving.",
+      "status": "reported",
+      "date": "2000",
+      "sources": [
+        {
+          "url": "https://archive.org/details/paypalwarsbattle0000jack",
+          "publisher": "World Ahead Publishing (Eric M. Jackson; text via Internet Archive full-text search)",
+          "title": "The PayPal Wars: Battles with eBay, the Media, the Mafia, and the Rest of Planet Earth",
+          "date": "2004"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "No source found that quantifies losses from sign-up/referral bonus abuse; the prospectus gives only total bonus spending ($5.0M in Q3 2000) with no split between legitimate and abusive accounts.",
+    "Jimmy Soni's book The Founders (2022) could not be opened; whether it documents bonus farming beyond his 2023 podcast remark (and with what sourcing) is unverified.",
+    "The Founders at Work (2007) Levchin chapter discusses fraud (pp. 6–11), but an Internet Archive full-text search found 'bonus' only in other chapters. The chapter was not read in full.",
+    "Exact dates of the bonus cut from $10 to $5 and of the bank-verification requirement are not pinned down; evidence brackets them between March 2000 (merger, per Jackson) and September 2000 (customer-service reply).",
+    "Jackson's text was searchable only as Internet Archive snippets (the book is lending-restricted). Passages about bonus changes ('mandating ...') and the full Gausebeck-Levchin test account (pp. 198–199) were seen only in fragments.",
+    "Whether 'Igor' was apprehended (MIT Technology Review 2002) or never caught (American Banker 2006) is unresolved; the 'Gregory Stivinson' accounts (Viral Loop) have no stated purpose in the passages seen.",
+    "No contemporaneous 1999–2001 news report (Wired, CNET, Industry Standard, WSJ, NYT) on PayPal bonus farming was found in web searches."
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "entity": "american-petroleum-institute",
+  "name": "American Petroleum Institute",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "The American Petroleum Institute (API) is the main U.S. trade association for the oil and natural gas industry. It was formed in 1919 and has about 600 members. At API's 1959 'Energy and Man' symposium marking the industry's centennial, physicist Edward Teller warned that carbon dioxide from burning fossil fuels could warm the planet, and a 1968 Stanford Research Institute report commissioned by API warned of significant temperature changes by 2000. In 1998, a group that included API, Exxon, Chevron and Southern Company drafted a communications plan stating: 'Victory will be achieved when average citizens understand uncertainties in climate science.'",
+    "sources": [
+      {
+        "url": "https://www.theguardian.com/environment/climate-consensus-97-per-cent/2018/jan/01/on-its-hundredth-birthday-in-1959-edward-teller-warned-the-oil-industry-about-global-warming",
+        "publisher": "The Guardian",
+        "title": "On its hundredth birthday in 1959, Edward Teller warned the oil industry about global warming",
+        "date": "2018-01-01"
+      },
+      {
+        "url": "https://www.api.org/about",
+        "publisher": "American Petroleum Institute",
+        "title": "About API",
+        "date": ""
+      },
+      {
+        "url": "https://www.climatefiles.com/trade-group/american-petroleum-institute/1998-global-climate-science-communications-team-action-plan/",
+        "publisher": "Climate Files (Climate Investigations Center document archive)",
+        "title": "1998 American Petroleum Institute Global Climate Science Communications Team Action Plan",
+        "date": "1998-04-03"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In April 1998, a group convened by API that included representatives of Exxon, Chevron, Southern Company and conservative policy organizations drafted the 'Global Climate Science Communications Plan'. The plan set out a multimillion-dollar, multi-year budget and stated: 'Victory will be achieved when average citizens understand uncertainties in climate science.'",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.climatefiles.com/trade-group/american-petroleum-institute/1998-global-climate-science-communications-team-action-plan/",
+          "publisher": "Climate Files (Climate Investigations Center document archive)",
+          "title": "1998 American Petroleum Institute Global Climate Science Communications Team Action Plan",
+          "date": "1998-04-03"
+        }
+      ]
+    },
+    {
+      "claim": "Documents obtained by Greenpeace through FOIA requests and reported in 2015 showed that Smithsonian researcher Willie Soon received about $1.25 million over 14 years from ExxonMobil, Southern Company, the American Petroleum Institute (about $274,000) and the Charles G. Koch Foundation. A Center for Astrophysics spokeswoman acknowledged that Soon had not met some journals' funding-disclosure requirements.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/environment/2015/feb/21/climate-change-denier-willie-soon-funded-energy-industry",
+          "publisher": "The Guardian",
+          "title": "Work of prominent climate change denier was funded by energy industry",
+          "date": "2015-02-21"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "exxonmobil",
+      "relation": "lobbied for",
+      "claim": "ExxonMobil is a member company of the American Petroleum Institute, the industry trade association that lobbies on public policy on behalf of its roughly 600 members.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.api.org/membership/members",
+          "publisher": "American Petroleum Institute",
+          "title": "Members",
+          "date": ""
+        },
+        {
+          "url": "https://www.api.org/about",
+          "publisher": "American Petroleum Institute",
+          "title": "About API",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "to": "bp",
+      "relation": "lobbied for",
+      "claim": "BP America is a member company of the American Petroleum Institute, the industry trade association that lobbies on public policy on behalf of its members.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.api.org/membership/members",
+          "publisher": "American Petroleum Institute",
+          "title": "Members",
+          "date": ""
+        },
+        {
+          "url": "https://www.api.org/about",
+          "publisher": "American Petroleum Institute",
+          "title": "About API",
+          "date": ""
+        }
+      ]
+    }
+  ]
+}

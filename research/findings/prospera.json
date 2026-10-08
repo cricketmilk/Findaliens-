@@ -1,0 +1,140 @@
+{
+  "entity": "prospera",
+  "name": "Próspera",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "Próspera is a privately developed charter city on Roatán, Honduras, created under the 2013 ZEDE law, which allowed semi-autonomous zones with their own legal and regulatory frameworks. Its developer has raised about $120 million, including from venture funds backed by Peter Thiel, Sam Altman and Marc Andreessen, among them Pronomos Capital. After Honduras's Congress repealed the ZEDE law in 2022, the developer brought a CAFTA-DR arbitration claim at ICSID seeking up to $10.775 billion. In September 2024 the Honduran Supreme Court declared the ZEDE framework unconstitutional.",
+    "sources": [
+      {
+        "url": "https://www.nytimes.com/2024/08/28/magazine/prospera-honduras-crypto.html",
+        "publisher": "The New York Times Magazine",
+        "title": "The For-Profit City That Might Come Crashing Down",
+        "date": "2024-08-28"
+      },
+      {
+        "url": "https://www.bloomberglinea.com/2022/11/07/honduras-buscara-evitar-demanda-de-us10700-millones-de-zede-prospera/",
+        "publisher": "Bloomberg Línea",
+        "title": "Honduras buscará evitar demanda de US$10.700 millones de ZEDE Próspera",
+        "date": "2022-11-07"
+      },
+      {
+        "url": "https://icsid.worldbank.org/cases/case-database/case-detail?CaseNo=ARB/23/2",
+        "publisher": "International Centre for Settlement of Investment Disputes",
+        "title": "Honduras Próspera Inc. and others v. Republic of Honduras (ICSID Case No. ARB/23/2)",
+        "date": ""
+      },
+      {
+        "url": "https://srnnews.com/honduras-top-court-declares-self-governing-zede-zones-unconstitutional/",
+        "publisher": "Reuters (via SRN News)",
+        "title": "Honduras top court declares self-governing ZEDE zones unconstitutional",
+        "date": "2024-09-20"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "After Honduras's Congress unanimously repealed the ZEDE law in April 2022, Honduras Próspera Inc. and affiliates brought a CAFTA-DR investment arbitration claim against Honduras at ICSID, seeking up to $10.775 billion. ICSID registered it in February 2023 as Case No. ARB/23/2, and it is pending. In October 2025, Honduras's attorney general's office said the claim had been reduced to about $1.63 billion.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://icsid.worldbank.org/cases/case-database/case-detail?CaseNo=ARB/23/2",
+          "publisher": "International Centre for Settlement of Investment Disputes",
+          "title": "Honduras Próspera Inc. and others v. Republic of Honduras (ICSID Case No. ARB/23/2)",
+          "date": ""
+        },
+        {
+          "url": "https://www.bloomberglinea.com/2022/11/07/honduras-buscara-evitar-demanda-de-us10700-millones-de-zede-prospera/",
+          "publisher": "Bloomberg Línea",
+          "title": "Honduras buscará evitar demanda de US$10.700 millones de ZEDE Próspera",
+          "date": "2022-11-07"
+        },
+        {
+          "url": "https://www.revistaeyn.com/empresasymanagement/prosperazede-redujo-85-el-monto-reclamado-en-arbitraje-contra-honduras-IK27873597",
+          "publisher": "Estrategia & Negocios",
+          "title": "Próspera ZEDE redujo 85% el monto reclamado en arbitraje contra Honduras",
+          "date": "2025-10-23"
+        },
+        {
+          "url": "https://www.nytimes.com/2024/08/28/magazine/prospera-honduras-crypto.html",
+          "publisher": "The New York Times Magazine",
+          "title": "The For-Profit City That Might Come Crashing Down",
+          "date": "2024-08-28"
+        }
+      ]
+    },
+    {
+      "claim": "On September 20, 2024, the Supreme Court of Honduras ruled by majority vote that the ZEDE law and related constitutional reforms violated unamendable articles of the constitution. A court spokesman said existing zones would be declared illegal, but the court still had to publish guidance on how to handle them.",
+      "status": "court",
+      "sources": [
+        {
+          "url": "https://srnnews.com/honduras-top-court-declares-self-governing-zede-zones-unconstitutional/",
+          "publisher": "Reuters (via SRN News)",
+          "title": "Honduras top court declares self-governing ZEDE zones unconstitutional",
+          "date": "2024-09-20"
+        },
+        {
+          "url": "https://www.vozdeamerica.com/a/corte-suprema-honduras-declara-inconstitucionales-zonas-economicas-especiales-/7793209.html",
+          "publisher": "Voz de América",
+          "title": "Corte Suprema de Honduras declara inconstitucionales zonas económicas especiales",
+          "date": "2024-09-21"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "peter-thiel",
+      "relation": "funded",
+      "claim": "Peter Thiel is among the backers of Pronomos Capital, a venture fund for charter cities that lists Próspera in its portfolio.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.pronomos.vc/portfolio",
+          "publisher": "Pronomos Capital",
+          "title": "Portfolio",
+          "date": ""
+        },
+        {
+          "url": "https://thedailybeast.com/pronomos-capitals-new-vc-idea-colonies-of-tech-bros",
+          "publisher": "The Daily Beast",
+          "title": "The New VC Idea That Surely Won't Backfire: Colonies of Tech Bros",
+          "date": "2023-12-30"
+        },
+        {
+          "url": "https://www.nytimes.com/2024/08/28/magazine/prospera-honduras-crypto.html",
+          "publisher": "The New York Times Magazine",
+          "title": "The For-Profit City That Might Come Crashing Down",
+          "date": "2024-08-28"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "marc-andreessen",
+      "relation": "funded",
+      "claim": "Marc Andreessen is among the backers of Pronomos Capital, a venture fund for charter cities that lists Próspera in its portfolio.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.pronomos.vc/portfolio",
+          "publisher": "Pronomos Capital",
+          "title": "Portfolio",
+          "date": ""
+        },
+        {
+          "url": "https://thedailybeast.com/pronomos-capitals-new-vc-idea-colonies-of-tech-bros",
+          "publisher": "The Daily Beast",
+          "title": "The New VC Idea That Surely Won't Backfire: Colonies of Tech Bros",
+          "date": "2023-12-30"
+        },
+        {
+          "url": "https://www.nytimes.com/2024/08/28/magazine/prospera-honduras-crypto.html",
+          "publisher": "The New York Times Magazine",
+          "title": "The For-Profit City That Might Come Crashing Down",
+          "date": "2024-08-28"
+        }
+      ],
+      "reverse": true
+    }
+  ]
+}

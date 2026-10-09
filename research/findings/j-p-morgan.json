@@ -1,0 +1,200 @@
+{
+  "entity": "j-p-morgan",
+  "name": "J. P. Morgan",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "John Pierpont Morgan (1837–1913) was an American financier who reorganised railroads and financed the consolidations behind General Electric, U.S. Steel (1901) and International Harvester. In May 1901 his firm, allied with James J. Hill, bought Northern Pacific stock to counter a secret raid by E. H. Harriman's Union Pacific group executed through Kuhn, Loeb & Co.; between them the two sides held about 630,000 of 800,000 shares, short sellers were squeezed, and on 9 May 1901 Northern Pacific was 'put up to 1,000' while other stocks fell 10 to 45 points. The houses agreed not to enforce deliveries and to let shorts settle at $150. The parties then formed the Northern Securities Company in November 1901, which the Supreme Court held unlawful under the Sherman Act in 1904.",
+    "sources": [
+      {
+        "url": "https://www.britannica.com/money/J-P-Morgan",
+        "publisher": "Encyclopaedia Britannica",
+        "title": "J.P. Morgan"
+      },
+      {
+        "url": "https://www.americanheritage.com/jacob-schiff-and-northern-pacific-corner",
+        "publisher": "American Heritage",
+        "title": "Jacob Schiff And The Northern Pacific Corner",
+        "date": "1989-07"
+      },
+      {
+        "url": "https://supreme.justia.com/cases/federal/us/193/197/",
+        "publisher": "Justia (U.S. Supreme Court)",
+        "title": "Northern Securities Co. v. United States, 193 U.S. 197 (1904)",
+        "date": "1904-03-14"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Morgan financed the 1901 merger of Federal Steel, Carnegie Steel and other companies into United States Steel, described as the world's first billion-dollar corporation.",
+      "status": "documented",
+      "date": "1901",
+      "quote": "forming United States Steel, which was the world's first billion-dollar corporation",
+      "sources": [
+        {
+          "url": "https://www.britannica.com/money/J-P-Morgan",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "J.P. Morgan"
+        }
+      ]
+    },
+    {
+      "claim": "Harriman launched a stock raid on Northern Pacific because it controlled almost 49.3 percent of the Burlington's stock; on 6 May 1901 Morgan, then in Europe, was cabled for authority to buy 150,000 Northern Pacific common shares at the market opening.",
+      "status": "reported",
+      "date": "1901-05-06",
+      "quote": "He received a frantic cable asking for authority to buy 150,000 common shares of Northern Pacific at the opening of the market on Monday morning, May 6, 1901.",
+      "sources": [
+        {
+          "url": "https://www.americanheritage.com/jacob-schiff-and-northern-pacific-corner",
+          "publisher": "American Heritage",
+          "title": "Jacob Schiff And The Northern Pacific Corner",
+          "date": "1989-07"
+        }
+      ]
+    },
+    {
+      "claim": "By American Heritage's account, Harriman and Morgan between them held 630,000 of the 800,000 Northern Pacific common shares in existence by the Monday of the corner week.",
+      "status": "reported",
+      "date": "1901-05",
+      "quote": "On Monday morning Harriman and Morgan held between them 630,000 of the 800,000 shares of Northern Pacific common in existence.",
+      "sources": [
+        {
+          "url": "https://www.americanheritage.com/jacob-schiff-and-northern-pacific-corner",
+          "publisher": "American Heritage",
+          "title": "Jacob Schiff And The Northern Pacific Corner",
+          "date": "1989-07"
+        }
+      ]
+    },
+    {
+      "claim": "On 9 May 1901 The Evening Times reported that Northern Pacific was 'put up to 1,000 on the short in the second hour' and that the general list showed declines of 10 to 45 points in nearly all active stocks; Kuhn, Loeb & Co. announced it had agreed with J. P. Morgan & Co. not to enforce deliveries of Northern Pacific that day.",
+      "status": "reported",
+      "date": "1901-05-09",
+      "quote": "The general list then showed declines of from 10 to 45 points in nearly all active stocks",
+      "sources": [
+        {
+          "url": "https://www.loc.gov/resource/sn84024441/1901-05-09/ed-1/?sp=1&st=text",
+          "publisher": "Library of Congress (Chronicling America): The Evening Times, Washington D.C.",
+          "title": "The Evening Times, May 9, 1901, page 1",
+          "date": "1901-05-09"
+        }
+      ]
+    },
+    {
+      "claim": "The Morgan and Kuhn, Loeb houses agreed to buy no more Northern Pacific and to allow short sellers to settle at $150 a share; Harriman obtained board representation while control of the three railroads remained with the Hill–Morgan group.",
+      "status": "reported",
+      "date": "1901-05",
+      "quote": "They would buy no more Northern Pacific for their own accounts or for those of their customers and would allow the shorts to settle at $150 a share.",
+      "sources": [
+        {
+          "url": "https://www.americanheritage.com/jacob-schiff-and-northern-pacific-corner",
+          "publisher": "American Heritage",
+          "title": "Jacob Schiff And The Northern Pacific Corner",
+          "date": "1989-07"
+        }
+      ]
+    },
+    {
+      "claim": "Before 13 November 1901 Hill and Great Northern stockholders and Morgan and Northern Pacific stockholders combined to form the Northern Securities Company under New Jersey law; on 14 March 1904 the Supreme Court held the combination an illegal restraint of interstate commerce under the Sherman Act and affirmed the decree enjoining the holding company from voting the railroad stock, finding that Hill and Morgan led the scheme.",
+      "status": "court",
+      "date": "1904-03-14",
+      "quote": "Prior to November 13, 1901, Hill and associate stockholders of the Great Northern Railway Company, and Morgan and associate stockholders of the Northern Pacific Railway Company, entered into a combination to form a holding corporation under New Jersey law, to be called the Northern Securities Company.",
+      "sources": [
+        {
+          "url": "https://supreme.justia.com/cases/federal/us/193/197/",
+          "publisher": "Justia (U.S. Supreme Court)",
+          "title": "Northern Securities Co. v. United States, 193 U.S. 197 (1904)",
+          "date": "1904-03-14"
+        },
+        {
+          "url": "https://www.britannica.com/topic/Northern-Securities-Company",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Northern Securities Company"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "edward-h-harriman",
+      "toName": "Edward H. Harriman",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Harriman's Union Pacific group raided Northern Pacific stock against the Morgan–Hill group in May 1901; after the truce, on 14 November 1901 Harriman and two other Union Pacific directors were elected directors of Northern Securities alongside Hill and two members of J. P. Morgan & Company, and in 1905 the Supreme Court held Harriman's delivery of Northern Pacific stock to the company was a sale, not a trust.",
+      "status": "court",
+      "date": "1901-11-14",
+      "quote": "on November 14, 1901, fifteen gentlemen, including Harriman and two other Union Pacific directors, along with Hill and two members of J. P. Morgan & Company, were elected directors of the Northern Securities Company.",
+      "sources": [
+        {
+          "url": "https://supreme.justia.com/cases/federal/us/197/244/",
+          "publisher": "Justia (U.S. Supreme Court)",
+          "title": "Harriman v. Northern Securities Co., 197 U.S. 244 (1905)",
+          "date": "1905"
+        },
+        {
+          "url": "https://www.americanheritage.com/jacob-schiff-and-northern-pacific-corner",
+          "publisher": "American Heritage",
+          "title": "Jacob Schiff And The Northern Pacific Corner",
+          "date": "1989-07"
+        },
+        {
+          "url": "https://www.britannica.com/money/Edward-Henry-Harriman",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Edward Henry Harriman"
+        }
+      ]
+    },
+    {
+      "to": "jacob-schiff",
+      "toName": "Jacob Schiff",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Jacob Schiff of Kuhn, Loeb & Co. executed Harriman's Northern Pacific purchases and in May 1901 agreed a truce with J. P. Morgan & Co. not to force deliveries; American Heritage states Kuhn, Loeb fought the Morgan bank to a standstill.",
+      "status": "reported",
+      "date": "1901-05",
+      "quote": "Kuhn, Loeb had fought the Morgan bank to a standstill.",
+      "sources": [
+        {
+          "url": "https://www.americanheritage.com/jacob-schiff-and-northern-pacific-corner",
+          "publisher": "American Heritage",
+          "title": "Jacob Schiff And The Northern Pacific Corner",
+          "date": "1989-07"
+        },
+        {
+          "url": "https://www.britannica.com/topic/Kuhn-Loeb-and-Co",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Kuhn, Loeb & Co."
+        },
+        {
+          "url": "https://www.loc.gov/resource/sn84024441/1901-05-09/ed-1/?sp=1&st=text",
+          "publisher": "Library of Congress (Chronicling America): The Evening Times, Washington D.C.",
+          "title": "The Evening Times, May 9, 1901, page 1",
+          "date": "1901-05-09"
+        }
+      ]
+    },
+    {
+      "to": "James J. Hill",
+      "toName": "James J. Hill",
+      "toType": "person",
+      "relation": "partnered with",
+      "claim": "Morgan was allied with James J. Hill of the Great Northern in the Northern Pacific fight and in forming Northern Securities in 1901.",
+      "status": "court",
+      "date": "1901",
+      "quote": "the Court found it indisputable that Hill and Morgan led the scheme to combine the two competing lines",
+      "sources": [
+        {
+          "url": "https://supreme.justia.com/cases/federal/us/193/197/",
+          "publisher": "Justia (U.S. Supreme Court)",
+          "title": "Northern Securities Co. v. United States, 193 U.S. 197 (1904)",
+          "date": "1904-03-14"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The Morgan side told the press on 9 May 1901 that no definite settlement figure had been agreed; the $150 figure rests on American Heritage. Confirm in a scholarly history or the NYSE record.",
+    "The site frames the corner as 'accidental'; American Heritage describes a deliberate raid and counter-buying, with the short squeeze as a consequence. Dates for the panic's start (8 vs 9 May) vary.",
+    "Losses to 'thousands of small investors' are not quantified in the sources consulted."
+  ]
+}

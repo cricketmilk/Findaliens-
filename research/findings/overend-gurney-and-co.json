@@ -1,0 +1,152 @@
+{
+  "entity": "overend-gurney-and-co",
+  "name": "Overend, Gurney & Co.",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Overend, Gurney & Co. was the largest London discount house of its era. It moved from discounting bills into lending with, in the Bank of England's words, poor lending practices and insufficient risk management, and its partners converted it into a limited liability company in July 1865. On 9 May 1866 it asked the Bank of England for assistance, which was refused on the ground of the firm's insolvency, and it suspended payments at 15.30 on 10 May 1866, a date The Times called 'Black Friday'. The directors were later tried at the Old Bailey over the 1865 prospectus and acquitted. The episode shaped the Bank of England's lender-of-last-resort role and inspired Walter Bagehot's principles.",
+    "sources": [
+      {
+        "url": "https://www.bankofengland.co.uk/quarterly-bulletin/2016/q2/the-demise-of-overend-gurney",
+        "publisher": "Bank of England (Quarterly Bulletin 2016 Q2)",
+        "title": "The demise of Overend Gurney",
+        "date": "2016"
+      },
+      {
+        "url": "https://www.bankofengland.co.uk/about/history",
+        "publisher": "Bank of England",
+        "title": "History"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Overend Gurney was the largest discount house of its era; heavy losses on bad loans forced it to suspend payments on 10 May 1866.",
+      "status": "documented",
+      "date": "1866-05-10",
+      "quote": "heavy losses on bad loans eventually forced it to suspend payments on 10 May 1866",
+      "sources": [
+        {
+          "url": "https://www.bankofengland.co.uk/about/history",
+          "publisher": "Bank of England",
+          "title": "History"
+        }
+      ]
+    },
+    {
+      "claim": "In July 1865 the partners converted Overend Gurney into a limited liability company.",
+      "status": "documented",
+      "date": "1865-07",
+      "quote": "the partners decided to convert Overend Gurney into a limited liability company",
+      "sources": [
+        {
+          "url": "https://www.bankofengland.co.uk/quarterly-bulletin/2016/q2/the-demise-of-overend-gurney",
+          "publisher": "Bank of England (Quarterly Bulletin 2016 Q2)",
+          "title": "The demise of Overend Gurney",
+          "date": "2016"
+        }
+      ]
+    },
+    {
+      "claim": "On 9 May 1866 Overend Gurney asked the Bank of England for assistance, which was refused on the basis of the firm's insolvency; it suspended payments at 15.30 on 10 May 1866.",
+      "status": "documented",
+      "date": "1866-05-09",
+      "quote": "On 9 May 1866, Overend Gurney asked the Bank of England for assistance, which was refused on the basis of the broker's insolvency; it suspended payments at 15.30 on 10 May 1866.",
+      "sources": [
+        {
+          "url": "https://www.bankofengland.co.uk/quarterly-bulletin/2016/q2/the-demise-of-overend-gurney",
+          "publisher": "Bank of England (Quarterly Bulletin 2016 Q2)",
+          "title": "The demise of Overend Gurney",
+          "date": "2016"
+        },
+        {
+          "url": "https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/2016/the-demise-of-overend-gurney.pdf",
+          "publisher": "Bank of England (Quarterly Bulletin 2016 Q2)",
+          "title": "The demise of Overend Gurney (PDF)",
+          "date": "2016"
+        }
+      ]
+    },
+    {
+      "claim": "The Bank of England attributes the collapse to Overend Gurney entering the lending business with poor lending practices and insufficient risk management.",
+      "status": "documented",
+      "date": "1866",
+      "quote": "Overend Gurney entered the lending business but with poor lending practices and insufficient risk management.",
+      "sources": [
+        {
+          "url": "https://www.bankofengland.co.uk/quarterly-bulletin/2016/q2/the-demise-of-overend-gurney",
+          "publisher": "Bank of England (Quarterly Bulletin 2016 Q2)",
+          "title": "The demise of Overend Gurney",
+          "date": "2016"
+        }
+      ]
+    },
+    {
+      "claim": "The directors were tried at the Old Bailey for fraud over statements in the prospectus for the 1865 share offering; Lord Chief Justice Cockburn said they were guilty only of 'grave error' rather than criminal conduct, and the jury acquitted them in 1869.",
+      "status": "court",
+      "date": "1869",
+      "quote": "the Lord Chief Justice Sir Alexander Cockburn said that they were guilty only of \"grave error\" rather than criminal behaviour, and the jury acquitted them.",
+      "sources": [
+        {
+          "url": "https://www.gracesguide.co.uk/Overend,_Gurney_and_Co",
+          "publisher": "Grace's Guide",
+          "title": "Overend, Gurney and Co"
+        },
+        {
+          "url": "https://moneyweek.com/investments/investment-strategy/602238/great-disasters-in-history-the-collapse-of-overend-gurney",
+          "publisher": "MoneyWeek",
+          "title": "Great financial disasters in history: the collapse of Overend Gurney"
+        },
+        {
+          "url": "https://archive.spectator.co.uk/article/30th-january-1869/5/overend-gurney-and-co",
+          "publisher": "The Spectator (archive)",
+          "title": "Overend, Gurney, and Co.",
+          "date": "1869-01-30"
+        }
+      ]
+    },
+    {
+      "claim": "During the 1866 panic the Bank of England raised Bank Rate four times over ten days to 10%, and the Bank states the episode inspired Walter Bagehot's principles for a lender of last resort.",
+      "status": "documented",
+      "date": "1866-05",
+      "quote": "over a ten-day period, the bill discount rate (the Bank Rate of the time) was increased four times to 10%.",
+      "sources": [
+        {
+          "url": "https://www.bankofengland.co.uk/quarterly-bulletin/2016/q2/the-demise-of-overend-gurney",
+          "publisher": "Bank of England (Quarterly Bulletin 2016 Q2)",
+          "title": "The demise of Overend Gurney",
+          "date": "2016"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "bank-of-england",
+      "toName": "Bank of England",
+      "toType": "bank",
+      "relation": "other",
+      "claim": "The Bank of England refused Overend Gurney's request for assistance on 9 May 1866 on the basis of the firm's insolvency, while supporting the refinancing of viable banks and brokers by depleting its own reserves.",
+      "status": "documented",
+      "date": "1866-05-09",
+      "quote": "the Bank of England, a private bank at the time, refused assistance to Overend Gurney but supported the refinancing of viable banks and brokers by depleting its own reserves.",
+      "sources": [
+        {
+          "url": "https://www.bankofengland.co.uk/quarterly-bulletin/2016/q2/the-demise-of-overend-gurney",
+          "publisher": "Bank of England (Quarterly Bulletin 2016 Q2)",
+          "title": "The demise of Overend Gurney",
+          "date": "2016"
+        },
+        {
+          "url": "https://www.bankofengland.co.uk/about/history",
+          "publisher": "Bank of England",
+          "title": "History"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site names John Henry Gurney, Henry Edmund Gurney and Edward Watkin Edwards as insiders; the sources consulted confirm an Old Bailey trial and acquittal of the directors but do not name them. Check the Old Bailey Proceedings (oldbaileyonline.org) for the indictment and defendants.",
+    "The site's 'dozens of banks and some 200 companies failed' was not found in the sources consulted.",
+    "Sources differ on whether the 1869 trial was a private prosecution and on the number of defendants (six per one account)."
+  ]
+}

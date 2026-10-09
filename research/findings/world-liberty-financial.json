@@ -264,6 +264,103 @@
           "date": "2026-08-27"
         }
       ]
+    },
+    {
+      "claim": "The $TRUMP memecoin, a venture separate from World Liberty Financial, was launched on the Solana blockchain on January 17, 2025, when President-elect Trump announced it on Truth Social. The token's official website states that CIC Digital LLC, an affiliate of the Trump Organization, and Fight Fight Fight LLC collectively own 80 percent of the supply, subject to a three-year unlocking schedule, and that CIC Digital and Celebration Cards LLC, which owns Fight Fight Fight LLC, receive trading revenue from the token. A Senate resolution introduced in 2025 put the market value of that stake at $10.5 billion at the time.",
+      "status": "documented",
+      "date": "2025-01-17",
+      "quote": "CIC Digital LLC, an affiliate of The Trump Organization, and Fight Fight Fight LLC collectively own 80% of the Trump Cards, subject to a 3-year unlocking schedule.",
+      "sources": [
+        {
+          "url": "https://gettrumpmemes.com/",
+          "publisher": "gettrumpmemes.com",
+          "title": "The Official Trump Meme"
+        },
+        {
+          "url": "https://www.govinfo.gov/content/pkg/BILLS-119sres245is/html/BILLS-119sres245is.htm",
+          "publisher": "U.S. Government Publishing Office",
+          "title": "S.Res.245, 119th Congress",
+          "date": "2025"
+        },
+        {
+          "url": "https://www.cbsnews.com/news/trump-meme-coin-top-220-buyers-spent-140-million-analysis/",
+          "publisher": "CBS News",
+          "title": "$TRUMP meme coin buyers spent more than $140 million to get dinner invite with Trump, data shows",
+          "date": "2025-05"
+        }
+      ]
+    },
+    {
+      "claim": "NBC News, citing Chainalysis, reported that trading fees collected by the $TRUMP token's creators exceeded $324 million by the time of the May 22, 2025 holders' dinner; other outlets citing Chainalysis put the figure at more than $320 million. CBS News reported that the top 220 holders had spent more than $140 million on the token to qualify for the dinner. The fees arise from the token's liquidity pool, which charges a small fee on each trade.",
+      "status": "reported",
+      "date": "2025-05-22",
+      "quote": "the coin has generated more than $320 million in fees for its creators",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/tech/crypto/trumps-meme-coin-dinner-tuxedos-luxury-suvs-protesters-rcna208647",
+          "publisher": "NBC News",
+          "title": "At Trump's crypto dinner: Tuxedos, luxury cars and a former NBA star",
+          "date": "2025-05-22"
+        },
+        {
+          "url": "https://finance.yahoo.com/news/trump-meme-coin-business-racks-195442227.html",
+          "publisher": "Yahoo Finance",
+          "title": "Trump's meme coin business racks up fees as buyers jump at the chance for access to the president",
+          "date": "2025-05"
+        },
+        {
+          "url": "https://www.cbsnews.com/news/trump-meme-coin-top-220-buyers-spent-140-million-analysis/",
+          "publisher": "CBS News",
+          "title": "$TRUMP meme coin buyers spent more than $140 million to get dinner invite with Trump, data shows",
+          "date": "2025-05"
+        }
+      ]
+    },
+    {
+      "claim": "A governance proposal to make the WLFI token transferable was posted to World Liberty Financial's governance forum on July 4, 2025, with on-chain voting from July 9; it passed on July 16, 2025 with about 99.94 percent of votes (11.1 billion tokens) in favor. The proposal directed the team to activate peer-to-peer transfers and secondary-market listings, with some presale tokens unlocking at launch and the remainder subject to a later vote; WLFI began trading on exchanges in September 2025.",
+      "status": "reported",
+      "date": "2025-07-16",
+      "quote": "Token holders voted 99% in favor for the proposal to allow WLFI tokens to trade on secondary markets and transfer peer-to-peer.",
+      "sources": [
+        {
+          "url": "https://www.coindesk.com/business/2025/07/16/trump-linked-wlfi-token-clears-vote-to-become-tradable",
+          "publisher": "CoinDesk",
+          "title": "World Liberty Financial Token Clears Vote to Become Tradable",
+          "date": "2025-07-16"
+        },
+        {
+          "url": "https://www.theblock.co/news/ecosystems/2025-07-18-world-liberty-plans-to-unlock-wlfi-token-transferability-within-two-months-as-pre-market-trading-pushes-it-to-11th-largest-market-cap-363443",
+          "publisher": "The Block",
+          "title": "World Liberty plans to unlock WLFI token transferability within two months",
+          "date": "2025-07-18"
+        },
+        {
+          "url": "https://cryptobriefing.com/world-liberty-financial-wlfi-tradeable/",
+          "publisher": "Crypto Briefing",
+          "title": "World Liberty Financial's WLFI token becomes tradeable following near-unanimous approval",
+          "date": "2025-07"
+        }
+      ]
+    },
+    {
+      "claim": "On February 19, 2026 World Liberty Financial announced it would tokenize loan revenue interests in the Trump International Hotel & Resort, Maldives, a Dar Global project, with the tokenization platform Securitize. The tokens are offered in a private placement under Rule 506(c) of Regulation D to verified accredited investors, or to non-U.S. persons under Regulation S, and are not registered under the Securities Act.",
+      "status": "documented",
+      "date": "2026-02-19",
+      "quote": "World Liberty Financial to Tokenize Trump International Hotel & Resort, Maldives, in Partnership with DarGlobal and Securitize",
+      "sources": [
+        {
+          "url": "https://www.businesswire.com/news/home/20260218211545/en/World-Liberty-Financial-to-Tokenize-Trump-International-Hotel-Resort-Maldives-in-Partnership-with-DarGlobal-and-Securitize",
+          "publisher": "Business Wire (World Liberty Financial)",
+          "title": "World Liberty Financial to Tokenize Trump International Hotel & Resort, Maldives, in Partnership with DarGlobal and Securitize",
+          "date": "2026-02-19"
+        },
+        {
+          "url": "https://darglobal.co.uk/press/world-liberty-financial-tokenizes-trump-international-hotel-maldives",
+          "publisher": "Dar Global",
+          "title": "WLFI Partners with Securitize & DarGlobal on Trump Maldives Tokenization",
+          "date": "2026-02"
+        }
+      ]
     }
   ],
   "connections": [
@@ -409,6 +506,27 @@
           "date": "2026-08-27"
         }
       ]
+    },
+    {
+      "to": "dar-global",
+      "relation": "partnered with",
+      "claim": "World Liberty Financial, Dar Global and Securitize announced on February 19, 2026 a tokenized private placement of loan revenue interests in the Trump International Hotel & Resort, Maldives, issued through WLFI DAR Maldives Limited.",
+      "status": "documented",
+      "date": "2026-02-19",
+      "quote": "World Liberty Financial to Tokenize Trump International Hotel & Resort, Maldives, in Partnership with DarGlobal and Securitize",
+      "sources": [
+        {
+          "url": "https://www.businesswire.com/news/home/20260218211545/en/World-Liberty-Financial-to-Tokenize-Trump-International-Hotel-Resort-Maldives-in-Partnership-with-DarGlobal-and-Securitize",
+          "publisher": "Business Wire (World Liberty Financial)",
+          "title": "World Liberty Financial to Tokenize Trump International Hotel & Resort, Maldives, in Partnership with DarGlobal and Securitize",
+          "date": "2026-02-19"
+        },
+        {
+          "url": "https://securitize.io/alternative-assets/MALD1",
+          "publisher": "Securitize",
+          "title": "WLFI DAR Maldives Limited Tokenized Asset Offering"
+        }
+      ]
     }
   ],
   "openQuestions": [
@@ -416,6 +534,8 @@
     "The Gold Paper's revenue threshold is reported variously as after the first $30 million (The Defiant) and after the first $15 million (Forbes) of token sales; the whitepaper itself was not opened.",
     "The $500 million January 2025 investment is attributed to different vehicles (StringZ Holding RSC; Aryam Investment 1, reportedly managed with G42 executives) across secondary coverage of the WSJ report; the WSJ original was not reachable.",
     "Any response from the Office of Government Ethics to the Warren-Merkley letter was not found. The Senate Banking minority release says OGE had not responded.",
-    "Trump's 2025 disclosure figures differ by outlet ($515 million, $526.8 million, $550 million for token sales); the OGE filing itself was not opened."
+    "Trump's 2025 disclosure figures differ by outlet ($515 million, $526.8 million, $550 million for token sales); the OGE filing itself was not opened.",
+    "The $TRUMP fee figures attributed to Chainalysis vary by outlet and cutoff date ($320 million, $324 million, $324.5 million through late April 2025); the Chainalysis analysis itself was not opened.",
+    "The WLFI transferability vote took place in July 2025 (forum post July 4, result July 16), not June; the exchange-trading start date of September 2025 was not confirmed against a primary announcement."
   ]
 }

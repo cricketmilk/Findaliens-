@@ -1,0 +1,362 @@
+{
+  "entity": "cambridge-analytica",
+  "name": "Cambridge Analytica",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Cambridge Analytica was a political data and consulting company founded in 2013 as a subsidiary of SCL Group. In December 2019 the U.S. Federal Trade Commission issued an opinion and final order finding that the company had violated Section 5 of the FTC Act by using deceptive practices to obtain personal information from tens of millions of Facebook users, via an app built by Aleksandr Kogan, for voter profiling and targeting, and by making false claims about its participation in the EU-U.S. Privacy Shield. The UK Information Commissioner's Office fined Facebook £500,000 in 2018 for failing to protect users' data from the app, and SCL Elections was fined £15,000 after pleading guilty to failing to comply with an ICO enforcement notice. Cambridge Analytica and SCL Group began insolvency proceedings in the UK and US in May 2018.",
+    "sources": [
+      {
+        "url": "https://www.ftc.gov/news-events/news/press-releases/2019/12/ftc-issues-opinion-order-against-cambridge-analytica-deceiving-consumers-about-collection-facebook",
+        "publisher": "Federal Trade Commission",
+        "title": "FTC Issues Opinion and Order Against Cambridge Analytica For Deceiving Consumers About the Collection of Facebook Data, Compliance with EU-U.S. Privacy Shield",
+        "date": "2019-12-06"
+      },
+      {
+        "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/182-3107-cambridge-analytica-llc-matter",
+        "publisher": "Federal Trade Commission",
+        "title": "Cambridge Analytica, LLC, In the Matter of (182 3107)",
+        "date": "2019-12-18"
+      },
+      {
+        "url": "https://publications.parliament.uk/pa/cm201719/cmselect/cmcumeds/363/36306.htm",
+        "publisher": "UK House of Commons Digital, Culture, Media and Sport Committee",
+        "title": "Disinformation and 'fake news': Interim Report",
+        "date": "2018-07-29"
+      },
+      {
+        "url": "https://www.npr.org/2019/10/30/774749376/facebook-pays-643-000-fine-for-role-in-cambridge-analytica-scandal",
+        "publisher": "NPR",
+        "title": "Facebook Pays $643,000 Fine For Role In Cambridge Analytica Scandal",
+        "date": "2019-10-30"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Cambridge Analytica was founded in 2013 as a subsidiary of SCL Group, a company that marketed itself as a data and strategy provider to governments and militaries.",
+      "status": "reported",
+      "date": "2013",
+      "quote": "Cambridge Analytica was founded in 2013 as a subsidiary of the private intelligence company SCL Group, which marketed itself as a data and strategy provider to governments and militaries.",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/cambridge-analytica/",
+          "publisher": "DeSmog",
+          "title": "Cambridge Analytica"
+        },
+        {
+          "url": "https://publications.parliament.uk/pa/cm201719/cmselect/cmcumeds/363/36306.htm",
+          "publisher": "UK House of Commons Digital, Culture, Media and Sport Committee",
+          "title": "Disinformation and 'fake news': Interim Report",
+          "date": "2018-07-29"
+        }
+      ]
+    },
+    {
+      "claim": "On December 6, 2019, the FTC issued an opinion finding that Cambridge Analytica violated Section 5 of the FTC Act by using deceptive practices to obtain personal information from tens of millions of Facebook users for voter profiling and targeting, and by making false or deceptive claims about its participation in and compliance with the EU-U.S. Privacy Shield framework.",
+      "status": "court",
+      "date": "2019-12-06",
+      "quote": "The Opinion found that the company used deceptive practices to obtain personal information from tens of millions of Facebook users for voter profiling and targeting.",
+      "sources": [
+        {
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2019/12/ftc-issues-opinion-order-against-cambridge-analytica-deceiving-consumers-about-collection-facebook",
+          "publisher": "Federal Trade Commission",
+          "title": "FTC Issues Opinion and Order Against Cambridge Analytica For Deceiving Consumers About the Collection of Facebook Data, Compliance with EU-U.S. Privacy Shield",
+          "date": "2019-12-06"
+        },
+        {
+          "url": "https://www.ftc.gov/business-guidance/blog/2019/12/commission-issues-opinion-cambridge-analytica-case",
+          "publisher": "Federal Trade Commission",
+          "title": "Commission issues opinion in Cambridge Analytica case",
+          "date": "2019-12"
+        }
+      ]
+    },
+    {
+      "claim": "The FTC's administrative complaint alleged that users of an app built by Aleksandr Kogan were told it would not collect their names or other identifiable information, while the app in fact collected Facebook User IDs that tie people to their profiles.",
+      "status": "documented",
+      "date": "2019",
+      "quote": "Users were allegedly told the app would not collect their names or other identifiable information. In practice, the app collected Facebook User IDs, which tie people to their profiles.",
+      "sources": [
+        {
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2019/12/ftc-issues-opinion-order-against-cambridge-analytica-deceiving-consumers-about-collection-facebook",
+          "publisher": "Federal Trade Commission",
+          "title": "FTC Issues Opinion and Order Against Cambridge Analytica For Deceiving Consumers About the Collection of Facebook Data, Compliance with EU-U.S. Privacy Shield",
+          "date": "2019-12-06"
+        },
+        {
+          "url": "https://www.cbsnews.com/amp/news/ftc-finds-cambridge-analytica-deceived-facebook-users-2019-12-06",
+          "publisher": "CBS News",
+          "title": "FTC finds Cambridge Analytica deceived Facebook users",
+          "date": "2019-12-06"
+        }
+      ]
+    },
+    {
+      "claim": "Cambridge Analytica did not file an answer to the FTC complaint, which under FTC rules waived its right to contest the charges; the Commission entered a final order requiring the company to delete the Facebook data it improperly obtained along with associated work product and to meet continuing Privacy Shield obligations.",
+      "status": "court",
+      "date": "2019-12-06",
+      "quote": "The injunction requires, among other things, that the company delete the Facebook data it improperly obtained, along with all associated work product.",
+      "sources": [
+        {
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2019/12/ftc-issues-opinion-order-against-cambridge-analytica-deceiving-consumers-about-collection-facebook",
+          "publisher": "Federal Trade Commission",
+          "title": "FTC Issues Opinion and Order Against Cambridge Analytica For Deceiving Consumers About the Collection of Facebook Data, Compliance with EU-U.S. Privacy Shield",
+          "date": "2019-12-06"
+        },
+        {
+          "url": "https://www.ftc.gov/business-guidance/blog/2019/12/commission-issues-opinion-cambridge-analytica-case",
+          "publisher": "Federal Trade Commission",
+          "title": "Commission issues opinion in Cambridge Analytica case",
+          "date": "2019-12"
+        }
+      ]
+    },
+    {
+      "claim": "Former Cambridge Analytica CEO Alexander Nix and app developer Aleksandr Kogan entered proposed settlements with the FTC, which the Commission gave final approval on December 18, 2019.",
+      "status": "court",
+      "date": "2019-12-18",
+      "quote": "The FTC later gave final approval to the settlement with the former CEO and app developer, on December 18, 2019.",
+      "sources": [
+        {
+          "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/182-3107-cambridge-analytica-llc-matter",
+          "publisher": "Federal Trade Commission",
+          "title": "Cambridge Analytica, LLC, In the Matter of (182 3107)",
+          "date": "2019-12-18"
+        },
+        {
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2019/12/ftc-issues-opinion-order-against-cambridge-analytica-deceiving-consumers-about-collection-facebook",
+          "publisher": "Federal Trade Commission",
+          "title": "FTC Issues Opinion and Order Against Cambridge Analytica For Deceiving Consumers About the Collection of Facebook Data, Compliance with EU-U.S. Privacy Shield",
+          "date": "2019-12-06"
+        }
+      ]
+    },
+    {
+      "claim": "In October 2018 the UK Information Commissioner's Office fined Facebook £500,000, the maximum under the Data Protection Act 1998, finding that Facebook failed to keep users' personal information secure by failing to perform suitable checks on third-party apps and developers, allowing Aleksandr Kogan's app \"This is your digital life,\" developed on behalf of Cambridge Analytica, to scrape data of up to 87 million users.",
+      "status": "court",
+      "date": "2018-10",
+      "quote": "The ICO concluded that Facebook had failed to keep the personal information of its users secure by failing to perform suitable checks on the third-party apps and developers using its platform.",
+      "sources": [
+        {
+          "url": "https://www.infosecurity-magazine.com/news/facebook-fined-500k-cambridge/",
+          "publisher": "Infosecurity Magazine",
+          "title": "Facebook Fined £500K for Cambridge Analytica Failings",
+          "date": "2018-10"
+        },
+        {
+          "url": "https://www.verdict.co.uk/ico-fines-facebook-cambridge-analytica/",
+          "publisher": "Verdict",
+          "title": "ICO fines Facebook £500,000 for part in Cambridge Analytica scandal",
+          "date": "2018-10"
+        },
+        {
+          "url": "https://techcrunch.com/2018/07/10/uks-information-commissioner-will-fine-facebook-the-maximum-500k-over-cambridge-analytica-breach",
+          "publisher": "TechCrunch",
+          "title": "UK's Information Commissioner will fine Facebook the maximum £500K over Cambridge Analytica breach",
+          "date": "2018-07-10"
+        }
+      ]
+    },
+    {
+      "claim": "In October 2019 Facebook agreed to pay the ICO's £500,000 fine after more than a year of appeals, without admitting liability.",
+      "status": "court",
+      "date": "2019-10-30",
+      "quote": "Facebook agreed to pay the fine after more than a year of litigation and back-and-forth appeals between the regulator and the tech giant. As part of the agreement, Facebook made no admission of liability.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2019/10/30/774749376/facebook-pays-643-000-fine-for-role-in-cambridge-analytica-scandal",
+          "publisher": "NPR",
+          "title": "Facebook Pays $643,000 Fine For Role In Cambridge Analytica Scandal",
+          "date": "2019-10-30"
+        }
+      ]
+    },
+    {
+      "claim": "SCL Elections, Cambridge Analytica's parent company, was fined £15,000 in a UK court after pleading guilty to failing to comply with an ICO enforcement notice ordering it to hand over the data it held on U.S. academic David Carroll.",
+      "status": "court",
+      "date": "2019-01",
+      "quote": "Cambridge Analytica's parent company, SCL Elections, has been fined £15,000 in a UK court after pleading guilty to failing to comply with an enforcement notice issued by the national data protection watchdog.",
+      "sources": [
+        {
+          "url": "https://www.verdict.co.uk/ico-fines-facebook-cambridge-analytica/",
+          "publisher": "Verdict",
+          "title": "ICO fines Facebook £500,000 for part in Cambridge Analytica scandal",
+          "date": "2018-10"
+        }
+      ]
+    },
+    {
+      "claim": "Cambridge Analytica and SCL Group started insolvency proceedings in the US and UK on 2 May 2018, according to the House of Commons DCMS Committee; the US entities filed for Chapter 7 bankruptcy in the Southern District of New York around 17 May 2018.",
+      "status": "documented",
+      "date": "2018-05-02",
+      "quote": "Cambridge Analytica and the SCL Group started insolvency proceedings in the US and the UK on 2 May 2018",
+      "sources": [
+        {
+          "url": "https://publications.parliament.uk/pa/cm201719/cmselect/cmcumeds/363/36306.htm",
+          "publisher": "UK House of Commons Digital, Culture, Media and Sport Committee",
+          "title": "Disinformation and 'fake news': Interim Report",
+          "date": "2018-07-29"
+        },
+        {
+          "url": "https://www.theregister.com/2018/05/18/cambridge_analytica_scl_file_for_us_bankruptcy/",
+          "publisher": "The Register",
+          "title": "SCL, Cambridge Analytica file for US bankruptcy",
+          "date": "2018-05-18"
+        }
+      ]
+    },
+    {
+      "claim": "DeSmog reported, citing The New York Times, that hedge fund billionaire Robert Mercer invested a minimum of $15 million in Cambridge Analytica, and that Steve Bannon served as an officer of the company, with a stake estimated at $1 million to $5 million that he later divested.",
+      "status": "reported",
+      "date": "2018",
+      "quote": "A minimum of 15 million dollars has been invested into the company by Mercer, according to The New York Times.",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/cambridge-analytica/",
+          "publisher": "DeSmog",
+          "title": "Cambridge Analytica"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "ftc",
+      "toName": "Federal Trade Commission",
+      "toType": "agency",
+      "relation": "regulated",
+      "reverse": true,
+      "claim": "The FTC found in December 2019 that Cambridge Analytica violated Section 5 of the FTC Act and ordered it to delete improperly obtained Facebook data.",
+      "status": "court",
+      "date": "2019-12-06",
+      "quote": "The Commission concluded that Cambridge Analytica violated Section 5 of the FTC Act.",
+      "sources": [
+        {
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2019/12/ftc-issues-opinion-order-against-cambridge-analytica-deceiving-consumers-about-collection-facebook",
+          "publisher": "Federal Trade Commission",
+          "title": "FTC Issues Opinion and Order Against Cambridge Analytica For Deceiving Consumers About the Collection of Facebook Data, Compliance with EU-U.S. Privacy Shield",
+          "date": "2019-12-06"
+        },
+        {
+          "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/182-3107-cambridge-analytica-llc-matter",
+          "publisher": "Federal Trade Commission",
+          "title": "Cambridge Analytica, LLC, In the Matter of (182 3107)",
+          "date": "2019-12-18"
+        }
+      ]
+    },
+    {
+      "to": "meta",
+      "toName": "Meta Platforms",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Cambridge Analytica obtained personal data of tens of millions of Facebook users through Aleksandr Kogan's app; the UK ICO fined Facebook £500,000 for failing to prevent the app, developed on behalf of Cambridge Analytica, from scraping data of up to 87 million users.",
+      "status": "court",
+      "date": "2018-10",
+      "quote": "their systems allowed Dr Aleksandr Kogan, who developed an app, called \"This is your digital life\" on behalf of Cambridge Analytica, to scrape the data of up to 87 million Facebook users.",
+      "sources": [
+        {
+          "url": "https://www.verdict.co.uk/ico-fines-facebook-cambridge-analytica/",
+          "publisher": "Verdict",
+          "title": "ICO fines Facebook £500,000 for part in Cambridge Analytica scandal",
+          "date": "2018-10"
+        },
+        {
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2019/12/ftc-issues-opinion-order-against-cambridge-analytica-deceiving-consumers-about-collection-facebook",
+          "publisher": "Federal Trade Commission",
+          "title": "FTC Issues Opinion and Order Against Cambridge Analytica For Deceiving Consumers About the Collection of Facebook Data, Compliance with EU-U.S. Privacy Shield",
+          "date": "2019-12-06"
+        }
+      ]
+    },
+    {
+      "to": "SCL Group",
+      "toName": "SCL Group",
+      "toType": "company",
+      "relation": "subsidiary of",
+      "claim": "Cambridge Analytica was founded in 2013 as a subsidiary of SCL Group; both entered insolvency in May 2018.",
+      "status": "documented",
+      "date": "2018-05-02",
+      "quote": "Cambridge Analytica and the SCL Group started insolvency proceedings in the US and the UK on 2 May 2018",
+      "sources": [
+        {
+          "url": "https://publications.parliament.uk/pa/cm201719/cmselect/cmcumeds/363/36306.htm",
+          "publisher": "UK House of Commons Digital, Culture, Media and Sport Committee",
+          "title": "Disinformation and 'fake news': Interim Report",
+          "date": "2018-07-29"
+        },
+        {
+          "url": "https://www.desmog.com/cambridge-analytica/",
+          "publisher": "DeSmog",
+          "title": "Cambridge Analytica"
+        }
+      ]
+    },
+    {
+      "to": "Robert Mercer",
+      "toName": "Robert Mercer",
+      "toType": "person",
+      "relation": "invested in",
+      "reverse": true,
+      "claim": "Robert Mercer invested at least $15 million in Cambridge Analytica, according to DeSmog citing The New York Times.",
+      "status": "reported",
+      "date": "2018",
+      "quote": "A minimum of 15 million dollars has been invested into the company by Mercer, according to The New York Times.",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/cambridge-analytica/",
+          "publisher": "DeSmog",
+          "title": "Cambridge Analytica"
+        }
+      ]
+    },
+    {
+      "to": "Steve Bannon",
+      "toName": "Steve Bannon",
+      "toType": "person",
+      "relation": "executive of",
+      "reverse": true,
+      "claim": "Steve Bannon served as an officer (vice president) of Cambridge Analytica before becoming a senior adviser to Donald Trump.",
+      "status": "reported",
+      "date": "2016",
+      "quote": "Bannon, who later was a senior adviser to Trump, also served as an officer at the company for some time.",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/cambridge-analytica/",
+          "publisher": "DeSmog",
+          "title": "Cambridge Analytica"
+        }
+      ]
+    },
+    {
+      "to": "Alexander Nix",
+      "toName": "Alexander Nix",
+      "toType": "person",
+      "relation": "settled with",
+      "reverse": true,
+      "claim": "Former CEO Alexander Nix settled FTC charges in a proposed settlement finalized December 18, 2019.",
+      "status": "court",
+      "date": "2019-12-18",
+      "quote": "Former CEO Alexander Nix and app developer Aleksandr Kogan signed proposed settlements with the FTC",
+      "sources": [
+        {
+          "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/182-3107-cambridge-analytica-llc-matter",
+          "publisher": "Federal Trade Commission",
+          "title": "Cambridge Analytica, LLC, In the Matter of (182 3107)",
+          "date": "2019-12-18"
+        },
+        {
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2019/12/ftc-issues-opinion-order-against-cambridge-analytica-deceiving-consumers-about-collection-facebook",
+          "publisher": "Federal Trade Commission",
+          "title": "FTC Issues Opinion and Order Against Cambridge Analytica For Deceiving Consumers About the Collection of Facebook Data, Compliance with EU-U.S. Privacy Shield",
+          "date": "2019-12-06"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The Mercer and Bannon figures are from DeSmog's profile; confirm against the underlying New York Times and Guardian reporting.",
+    "Exact date of the SCL Elections guilty plea (reported January 2019) should be confirmed from the ICO's statement.",
+    "The ICO's own penalty notice and final report to Parliament were not among the sources returned; cite them directly if available."
+  ]
+}

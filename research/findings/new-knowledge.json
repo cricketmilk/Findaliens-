@@ -1,0 +1,409 @@
+{
+  "entity": "new-knowledge",
+  "name": "New Knowledge",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "New Knowledge was an Austin, Texas research firm, led by chief executive Jonathon Morgan, that studied social-media disinformation; it was later renamed Yonder. In December 2018 the Senate Select Committee on Intelligence released its analysis of the Russian Internet Research Agency, one of two independent reports prepared with committee-provided data. The same month, press reports of a leaked internal document described an operation called Project Birmingham in the 2017 Alabama Senate special election, funded through American Engagement Technologies, a firm Reid Hoffman had financed. Morgan said he ran a small experiment and knew of no wider project; Facebook suspended five accounts, including his; Hoffman apologized and said he had not known of the tactics; the Alabama attorney general said his office would look into it; and an FEC matter naming New Knowledge was closed as dismissed.",
+    "sources": [
+      {
+        "url": "https://www.statesman.com/news/20190215/who-is-jonathon-morgan-austin-researcher-makes-name----and-finds-controversy----in-cybersecurity-world",
+        "publisher": "Austin American-Statesman",
+        "title": "Austin researcher makes a name -- and finds controversy -- in cybersecurity world",
+        "date": "2019-02-15"
+      },
+      {
+        "url": "https://www.intelligence.senate.gov/2018/12/17/press-new-reports-shed-light-internet-research-agency-e2-80-99s-social-media-tactics/",
+        "publisher": "U.S. Senate Select Committee on Intelligence",
+        "title": "New Reports Shed Light on Internet Research Agency's Social Media Tactics",
+        "date": "2018-12-17"
+      },
+      {
+        "url": "https://www.nbcnews.com/tech/social-media/facebook-suspends-5-accounts-inauthentic-behavior-during-alabama-special-election-n951276",
+        "publisher": "NBC News",
+        "title": "Facebook suspends 5 accounts for 'inauthentic behavior' during Alabama special election",
+        "date": "2018-12-22"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On December 17, 2018 the Senate Select Committee on Intelligence released two independent analyses of the Internet Research Agency's social-media tactics, one by New Knowledge and one by the University of Oxford and Graphika. The committee said the reports were based in part on data it provided through its Technical Advisory Group, and that the findings, interpretations and conclusions were the authors' and not necessarily the committee's.",
+      "status": "documented",
+      "date": "2018-12-17",
+      "quote": "the findings, interpretations, and conclusions presented within are those of the authors and not necessarily the Committee's or its members' views",
+      "sources": [
+        {
+          "url": "https://www.intelligence.senate.gov/2018/12/17/press-new-reports-shed-light-internet-research-agency-e2-80-99s-social-media-tactics/",
+          "publisher": "U.S. Senate Select Committee on Intelligence",
+          "title": "New Reports Shed Light on Internet Research Agency's Social Media Tactics",
+          "date": "2018-12-17"
+        }
+      ]
+    },
+    {
+      "claim": "New Knowledge's report, 'The Tactics & Tropes of the Internet Research Agency', reviewed data that Facebook, Twitter and Alphabet had provided to the Senate committee. It stated that the data 'clearly illustrates that for approximately five years, Russia has waged a propaganda war against American citizens.' The authors were listed as Renee DiResta, Kris Shaffer, Becky Ruppel, David Sullivan, Robert Matney, Ryan Fox, Jonathan Albright and Ben Johnson.",
+      "status": "words",
+      "date": "2018-12-17",
+      "quote": "clearly illustrates that for approximately five years, Russia has waged a propaganda war against American citizens",
+      "sources": [
+        {
+          "url": "https://www.buzzfeednews.com/article/emmaloop/russia-social-media-internet-research-agency-senate-report",
+          "publisher": "BuzzFeed News",
+          "title": "The Senate Released A Report Outlining Russia's \"Propaganda War\" On US Social Media",
+          "date": "2018-12-17"
+        },
+        {
+          "url": "https://library.cyentia.com/report/report_003010.html",
+          "publisher": "Cyentia Library (catalog entry for the New Knowledge report)",
+          "title": "The Tactics & Tropes of the Internet Research Agency",
+          "date": "2018-12-17"
+        }
+      ]
+    },
+    {
+      "claim": "In December 2018 the New York Times reported on an internal document, obtained by the paper, describing an operation in the 2017 Alabama Senate special election. According to the reporting, the document called it a 'false flag' operation that planted the idea that Roy Moore's campaign was amplified on social media by a Russian botnet, with thousands of accounts bearing Russian-sounding names following Moore. The reported budget was $100,000. The Times reported that the project was unlikely to have changed the outcome and that there was no evidence Doug Jones sanctioned or knew of it.",
+      "status": "reported",
+      "date": "2018-12-19",
+      "quote": "calling it a \"false flag\" operation that planted the idea that the Moore campaign was amplified on social media by a Russian botnet",
+      "sources": [
+        {
+          "url": "https://siliconangle.com/2018/12/26/reid-hoffman-apologizes-funding-fake-russian-bot-campaign-alabama-election/",
+          "publisher": "SiliconANGLE",
+          "title": "Reid Hoffman apologizes for funding fake Russian bot campaign in Alabama election",
+          "date": "2018-12-26"
+        },
+        {
+          "url": "https://www.npr.org/2019/01/09/683731977/how-project-birmingham-spread-misinformation-in-the-2017-alabama-senate-election",
+          "publisher": "NPR",
+          "title": "How 'Project Birmingham' Spread Misinformation In The 2017 Alabama Senate Election",
+          "date": "2019-01-09"
+        },
+        {
+          "url": "https://slate.com/technology/2018/12/linkedin-reid-hoffman-funding-disinformation-alabama-special-election.html",
+          "publisher": "Slate",
+          "title": "Co-Founder of LinkedIn acknowledges funding Russian-style disinformation effort during the Alabama special election",
+          "date": "2018-12-26"
+        }
+      ]
+    },
+    {
+      "claim": "BuzzFeed News reported that the Project Birmingham document takes credit for a 'false flag' operation and says the effort 'drove write-in votes to a number of candidates', but that the document does not back up its claims about its influence with relevant data.",
+      "status": "reported",
+      "quote": "drove write-in votes to a number of candidates",
+      "sources": [
+        {
+          "url": "https://www.buzzfeednews.com/article/craigsilverman/alabama-dirty-tricksters-invited-a-new-york-times-reporter",
+          "publisher": "BuzzFeed News",
+          "title": "A NY Times Reporter Spoke At An Event Organized By Alabama Dirty Tricksters",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "claim": "Reporting on the 2017 race also described a separate Facebook page and Twitter account called 'Dry Alabama', which posed as supporters of a statewide alcohol ban who backed Roy Moore; the New York Times reported that its operators hoped the image would push moderate, business-oriented Republicans away from Moore. The page's posts reportedly included images of car wrecks and a call to 'Pray for Roy Moore'. Reports put its funding at $100,000 through a third-party organization.",
+      "status": "reported",
+      "date": "2019-01",
+      "quote": "masqueraded as Baptist teetotalers who wanted a statewide ban on booze and supported Moore",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2019/01/09/683731977/how-project-birmingham-spread-misinformation-in-the-2017-alabama-senate-election",
+          "publisher": "NPR",
+          "title": "How 'Project Birmingham' Spread Misinformation In The 2017 Alabama Senate Election",
+          "date": "2019-01-09"
+        },
+        {
+          "url": "https://www.foxnews.com/us/cyber-group-touted-by-dems-for-bombshell-russia-report-was-behind-disinformation-efforts-in-alabama-senate-race",
+          "publisher": "Fox News",
+          "title": "Group touted by Democrats for 'bombshell' Russia report was behind Alabama Senate race tricks",
+          "date": "2018-12"
+        }
+      ]
+    },
+    {
+      "claim": "Jonathon Morgan, New Knowledge's chief executive, told the Washington Post that he had created a Facebook page under false pretenses to test his ability to appeal to conservative voters, and described the work as 'small-scale, almost like a thought experiment.' He said he acted as a researcher rather than as New Knowledge's leader and that neither tactic was intended to affect the outcome of the race. In a statement to NBC News he said his intention was to better understand and report on the tactics and effects of social-media disinformation.",
+      "status": "words",
+      "date": "2018-12-19",
+      "quote": "small-scale, almost like a thought experiment",
+      "sources": [
+        {
+          "url": "https://www.washingtonpost.com/technology/2018/12/19/researcher-affiliated-with-russian-interference-senate-report-used-questionable-online-tactics-during-alabama-senate-race/",
+          "publisher": "The Washington Post",
+          "title": "Researcher whose firm wrote report on Russian interference used questionable online tactics during Ala. Senate race",
+          "date": "2018-12-19"
+        },
+        {
+          "url": "https://www.nbcnews.com/tech/social-media/facebook-suspends-5-accounts-inauthentic-behavior-during-alabama-special-election-n951276",
+          "publisher": "NBC News",
+          "title": "Facebook suspends 5 accounts for 'inauthentic behavior' during Alabama special election",
+          "date": "2018-12-22"
+        }
+      ]
+    },
+    {
+      "claim": "Morgan told the New York Times the Alabama effort was 'a small experiment' designed 'to have almost no impact', contrary to claims in the leaked document. The Austin American-Statesman reported that he said his only role was creating a Facebook page named 'Alabama Conservative Politics' and that he had no knowledge of any grander project to sway votes or create a bot network. New Knowledge said it had done limited experimentation with such tactics but did not do what the document described.",
+      "status": "words",
+      "date": "2019-02-15",
+      "quote": "says he had no knowledge of any grander project to sway votes or create a bot network",
+      "sources": [
+        {
+          "url": "https://www.statesman.com/news/20190215/who-is-jonathon-morgan-austin-researcher-makes-name----and-finds-controversy----in-cybersecurity-world",
+          "publisher": "Austin American-Statesman",
+          "title": "Austin researcher makes a name -- and finds controversy -- in cybersecurity world",
+          "date": "2019-02-15"
+        },
+        {
+          "url": "https://www.buzzfeednews.com/article/craigsilverman/alabama-dirty-tricksters-invited-a-new-york-times-reporter",
+          "publisher": "BuzzFeed News",
+          "title": "A NY Times Reporter Spoke At An Event Organized By Alabama Dirty Tricksters",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "claim": "In December 2018 Facebook said it had suspended five accounts, run by multiple people, for coordinated inauthentic behavior around the 2017 Alabama special election, and that its investigation was continuing. Facebook did not name the account holders; Morgan confirmed through a New Knowledge spokesperson that his account was among those suspended.",
+      "status": "reported",
+      "date": "2018-12-22",
+      "quote": "Facebook said it had suspended five accounts run by multiple people for coordinated inauthentic behavior around the Alabama special election",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/tech/social-media/facebook-suspends-5-accounts-inauthentic-behavior-during-alabama-special-election-n951276",
+          "publisher": "NBC News",
+          "title": "Facebook suspends 5 accounts for 'inauthentic behavior' during Alabama special election",
+          "date": "2018-12-22"
+        },
+        {
+          "url": "https://www.pbs.org/newshour/amp/nation/facebook-suspends-accounts-over-online-tactics-used-in-alabama-senate-race",
+          "publisher": "PBS NewsHour",
+          "title": "Facebook suspends accounts over online tactics used in Alabama Senate race",
+          "date": "2018-12"
+        }
+      ]
+    },
+    {
+      "claim": "Press reports said the Alabama project's funds came through American Engagement Technologies (AET), a company founded in October 2017 and run by Mikey Dickerson, the founding director of the United States Digital Service, and that Reid Hoffman had invested $750,000 in AET, some of which covered its Alabama work. Slate reported the project's $100,000 budget was presumably part of that $750,000. The Washington Post reported, citing a person familiar with the matter, that Dickerson used $100,000 of it to hire New Knowledge.",
+      "status": "reported",
+      "date": "2018-12-26",
+      "quote": "Hoffman's investment was passed through a company called American Engagement Technologies (AET), which was run by Mikey Dickerson, the founding director of the United States Digital Service",
+      "sources": [
+        {
+          "url": "https://www.salon.com/2018/12/26/linkedin-cofounder-apologizes-for-funding-election-disinformation-campaign-in-alabama/",
+          "publisher": "Salon",
+          "title": "LinkedIn cofounder apologizes for funding election disinformation campaign in Alabama",
+          "date": "2018-12-26"
+        },
+        {
+          "url": "https://slate.com/technology/2018/12/linkedin-reid-hoffman-funding-disinformation-alabama-special-election.html",
+          "publisher": "Slate",
+          "title": "Co-Founder of LinkedIn acknowledges funding Russian-style disinformation effort during the Alabama special election",
+          "date": "2018-12-26"
+        },
+        {
+          "url": "https://www.cnbc.com/2018/12/26/reid-hoffman-apologizes-for-his-role-in-funding-misinformation.html",
+          "publisher": "CNBC",
+          "title": "Reid Hoffman apologizes for funding a group that allegedly spread misinformation in Alabama Senate race",
+          "date": "2018-12-26"
+        }
+      ]
+    },
+    {
+      "claim": "On December 26, 2018 Hoffman published a post on Medium titled 'Truth and Politics' and gave a statement to the Washington Post. He acknowledged funding AET, said he had never heard of the project before reading the Times' coverage, said he had never personally authorized or directed any funding to New Knowledge, said he was embarrassed by his failure to track AET more diligently, supported a federal investigation, and wrote: 'I categorically disavow the use of misinformation to sway an election.'",
+      "status": "words",
+      "date": "2018-12-26",
+      "quote": "I categorically disavow the use of misinformation to sway an election",
+      "sources": [
+        {
+          "url": "https://www.fastcompany.com/90286551/linkedins-reid-hoffman-apologizes-for-ties-to-disinformation-campaign-that-targeted-roy-moore",
+          "publisher": "Fast Company",
+          "title": "LinkedIn cofounder Reid Hoffman addresses disinformation scandal in Alabama race",
+          "date": "2018-12-26"
+        },
+        {
+          "url": "https://techcrunch.com/2018/12/27/reid-hoffman-aet-alabama/",
+          "publisher": "TechCrunch",
+          "title": "Reid Hoffman denies direct knowledge of funding disinformation in the Alabama Senate race",
+          "date": "2018-12-27"
+        },
+        {
+          "url": "https://www.thedailybeast.com/internet-billionaire-reid-hoffman-apologizes-for-funding-group-linked-to-election-disinformation/",
+          "publisher": "The Daily Beast",
+          "title": "Internet Billionaire Reid Hoffman Apologizes for Funding Group Linked to Election Disinformation",
+          "date": "2018-12-26"
+        }
+      ]
+    },
+    {
+      "claim": "Alabama Attorney General Steve Marshall said in December 2018 that the project might have influenced the election outcome and that his office would be 'exploring' the matter; he stopped short of saying a formal investigation had been opened.",
+      "status": "reported",
+      "date": "2018-12",
+      "quote": "Alabama's attorney general said his office would be exploring the matter, but stopped short of saying a formal investigation had been launched",
+      "sources": [
+        {
+          "url": "https://www.thedailybeast.com/alabama-attorney-general-exploring-disinformation-campaign-against-roy-moore/",
+          "publisher": "The Daily Beast",
+          "title": "Alabama Attorney General 'Exploring' Disinformation Campaign Against Roy Moore",
+          "date": "2018-12"
+        }
+      ]
+    },
+    {
+      "claim": "A complaint on file with the Federal Election Commission as Matter Under Review 7562 raised concerns about disinformation in the 2017 Alabama special Senate election, asserting that money flowed through American Engagement Technologies, a firm run by Mikey Dickerson, and that, per news reports it attached, an organization called Investing In Us and a company called New Knowledge funded projects to create two false Facebook pages tied to the race. A law firm letter in the file, on behalf of Morgan and New Knowledge, sought more time to respond to the complaints in MUR 7562 and P-MUR 621.",
+      "status": "documented",
+      "quote": "recent news reports indicate that an organization, Investing In Us, and a company called New Knowledge, funded projects to create two false Facebook pages tied to that race",
+      "sources": [
+        {
+          "url": "https://www.fec.gov/files/legal/murs/7562/7562_01.pdf",
+          "publisher": "Federal Election Commission",
+          "title": "MUR 7562, complaint (document 1)",
+          "date": ""
+        },
+        {
+          "url": "https://www.fec.gov/files/legal/murs/7562/7562_09.pdf",
+          "publisher": "Federal Election Commission",
+          "title": "MUR 7562, letter on behalf of Jonathon Morgan and New Knowledge (document 9)",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "claim": "The FEC's listing of closed matters shows MUR 7562 under the case name New Knowledge, for the 2018 election cycle, with subjects 'Contributions-Prohibited; Contributions-Corporations' and a disposition of 'Dismissed-Other' for three respondents.",
+      "status": "court",
+      "quote": "Subject(s): Contributions-Prohibited; Contributions-Corporations",
+      "sources": [
+        {
+          "url": "https://www.fec.gov/data/legal/search/murs/?search=filing&case_respondents=&case_min_open_date=&case_max_open_date=&case_min_close_date=&case_max_close_date=&offset=420",
+          "publisher": "Federal Election Commission",
+          "title": "Searching Closed Matters Under Review (listing including MUR 7562, New Knowledge)",
+          "date": ""
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "reid-hoffman",
+      "relation": "funded",
+      "reverse": true,
+      "claim": "Hoffman invested $750,000 in American Engagement Technologies, which press reports say paid New Knowledge $100,000 for the Alabama project. Hoffman has said he never personally authorized or directed any funding to New Knowledge and did not know of the project before the Times' coverage.",
+      "status": "words",
+      "date": "2018-12-26",
+      "quote": "he has never personally authorized or directed any funding to New Knowledge",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2018/12/27/reid-hoffman-aet-alabama/",
+          "publisher": "TechCrunch",
+          "title": "Reid Hoffman denies direct knowledge of funding disinformation in the Alabama Senate race",
+          "date": "2018-12-27"
+        },
+        {
+          "url": "https://www.salon.com/2018/12/26/linkedin-cofounder-apologizes-for-funding-election-disinformation-campaign-in-alabama/",
+          "publisher": "Salon",
+          "title": "LinkedIn cofounder apologizes for funding election disinformation campaign in Alabama",
+          "date": "2018-12-26"
+        }
+      ]
+    },
+    {
+      "to": "American Engagement Technologies",
+      "toName": "American Engagement Technologies",
+      "toType": "company",
+      "relation": "funded",
+      "reverse": true,
+      "claim": "American Engagement Technologies, founded in October 2017 and run by Mikey Dickerson, provided the funds used for the Alabama project conducted by New Knowledge, according to press reports and the complaint in FEC MUR 7562.",
+      "status": "reported",
+      "date": "2018-12",
+      "quote": "money flowed through American Engagement Technologies, a firm run by Mikey Dickerson",
+      "sources": [
+        {
+          "url": "https://www.fec.gov/files/legal/murs/7562/7562_01.pdf",
+          "publisher": "Federal Election Commission",
+          "title": "MUR 7562, complaint (document 1)",
+          "date": ""
+        },
+        {
+          "url": "https://www.salon.com/2018/12/26/linkedin-cofounder-apologizes-for-funding-election-disinformation-campaign-in-alabama/",
+          "publisher": "Salon",
+          "title": "LinkedIn cofounder apologizes for funding election disinformation campaign in Alabama",
+          "date": "2018-12-26"
+        }
+      ]
+    },
+    {
+      "to": "Jonathon Morgan",
+      "toName": "Jonathon Morgan",
+      "toType": "person",
+      "relation": "executive of",
+      "reverse": true,
+      "claim": "Jonathon Morgan was New Knowledge's chief executive at the time of the December 2018 reports; he said he took part in the Alabama work as a researcher, not as the firm's leader.",
+      "status": "reported",
+      "date": "2018-12-19",
+      "quote": "Morgan, who was then the chief executive of research firm New Knowledge, had described the work as a test",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/tech/social-media/facebook-suspends-5-accounts-inauthentic-behavior-during-alabama-special-election-n951276",
+          "publisher": "NBC News",
+          "title": "Facebook suspends 5 accounts for 'inauthentic behavior' during Alabama special election",
+          "date": "2018-12-22"
+        }
+      ]
+    },
+    {
+      "to": "internet-research-agency",
+      "relation": "other",
+      "claim": "New Knowledge authored 'The Tactics & Tropes of the Internet Research Agency', one of the two independent analyses of the IRA that the Senate Intelligence Committee released on December 17, 2018.",
+      "status": "documented",
+      "date": "2018-12-17",
+      "quote": "third-party experts released two independent analyses of social media tactics used by Russia's Internet Research Agency",
+      "sources": [
+        {
+          "url": "https://www.intelligence.senate.gov/2018/12/17/press-new-reports-shed-light-internet-research-agency-e2-80-99s-social-media-tactics/",
+          "publisher": "U.S. Senate Select Committee on Intelligence",
+          "title": "New Reports Shed Light on Internet Research Agency's Social Media Tactics",
+          "date": "2018-12-17"
+        }
+      ]
+    },
+    {
+      "to": "U.S. Senate Select Committee on Intelligence",
+      "toName": "U.S. Senate Select Committee on Intelligence",
+      "toType": "agency",
+      "relation": "contracted with",
+      "claim": "New Knowledge prepared its IRA analysis for the Senate Intelligence Committee using data the committee provided, under the committee's Technical Advisory Group arrangement; the committee said the reports' conclusions were the authors' own.",
+      "status": "documented",
+      "date": "2018-12-17",
+      "quote": "The reports were based in part on data provided by the Senate Select Committee on Intelligence",
+      "sources": [
+        {
+          "url": "https://www.intelligence.senate.gov/2018/12/17/press-new-reports-shed-light-internet-research-agency-e2-80-99s-social-media-tactics/",
+          "publisher": "U.S. Senate Select Committee on Intelligence",
+          "title": "New Reports Shed Light on Internet Research Agency's Social Media Tactics",
+          "date": "2018-12-17"
+        }
+      ]
+    },
+    {
+      "to": "meta",
+      "relation": "other",
+      "claim": "Facebook suspended five accounts, including Morgan's, for coordinated inauthentic behavior around the 2017 Alabama special election.",
+      "status": "reported",
+      "date": "2018-12-22",
+      "quote": "Morgan confirmed that his account had been suspended through a New Knowledge spokesperson",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/tech/social-media/facebook-suspends-5-accounts-inauthentic-behavior-during-alabama-special-election-n951276",
+          "publisher": "NBC News",
+          "title": "Facebook suspends 5 accounts for 'inauthentic behavior' during Alabama special election",
+          "date": "2018-12-22"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The ids 'new-knowledge' and 'future-forward' are not in public/data/entities.json as of this draft; the owner may need to re-run extract-entities.mjs or seed them.",
+    "The New York Times article on the leaked document and the Washington Post article on Hoffman's statement could not be opened; their content is recorded as relayed by SiliconANGLE, Slate, Salon, TechCrunch and Fast Company. Confirm the 'false flag' passage and the $100,000 figure against the Times piece.",
+    "Whether the 'Dry Alabama' page was run by New Knowledge is not established: the MUR 7562 complaint attributes two false pages to Investing In Us and New Knowledge; press accounts name other operatives for Dry Alabama. The claim records it as a separate page.",
+    "MUR 7562: the respondents, closing date and the Commission's vote were not seen; the 'Dismissed-Other' disposition comes from the FEC's closed-matters listing. Open fec.gov/data/legal/matter-under-review/7562 to confirm, and whether AET was a respondent. P-MUR 621 was not examined.",
+    "Whether New Knowledge was paid by the Senate committee for the IRA report, or produced it unpaid through the Technical Advisory Group, was not found; the connection is recorded as 'contracted with' per the task but no contract document was seen.",
+    "No outcome of Attorney General Marshall's 'exploring' was found.",
+    "Hoffman's Medium post 'Truth and Politics' was not opened directly; quotes are as reported by Fast Company, TechCrunch and the Daily Beast."
+  ]
+}

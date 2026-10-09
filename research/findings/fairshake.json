@@ -415,6 +415,66 @@
           "date": "2025-07-17"
         }
       ]
+    },
+    {
+      "claim": "In 2024 Fairshake's affiliate Protect Progress, which spends only for Democrats, made independent expenditures of about $10 million each in support of Democratic Senate candidates Ruben Gallego in Arizona and Elissa Slotkin in Michigan, about $20 million in total per Punchbowl News' review of FEC filings. Cointelegraph's filing-by-filing reports in September 2024 put the totals then at more than $7.6 million for Gallego and more than $6.9 million for Slotkin; both won.",
+      "status": "reported",
+      "date": "2024",
+      "quote": "Protect Progress spent about $20 million total to boost Senate Democratic candidates in two other purple states, Ruben Gallego in Arizona and Elissa Slotkin in Michigan",
+      "sources": [
+        {
+          "url": "https://punchbowl.news/article/campaigns/crypto-2026-warchest/",
+          "publisher": "Punchbowl News",
+          "title": "Who benefits from crypto's 2026 warchest",
+          "date": "2026"
+        },
+        {
+          "url": "https://cointelegraph.com/news/crypto-pac-michigan-arizona-senate-election-funding",
+          "publisher": "Cointelegraph",
+          "title": "50 days until US election, crypto Super PAC pours $7.8M into Senate races",
+          "date": "2024-09"
+        },
+        {
+          "url": "https://cointelegraph.com/news/crypto-pacs-spend-targeting-senate-house-races",
+          "publisher": "Cointelegraph",
+          "title": "Crypto PACs spend $14M targeting crucial US Senate and House races",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "claim": "Punchbowl News, analyzing FEC filings, found the Fairshake network spent $53 million on Republicans in competitive House and Senate seats in 2024 against $33.4 million on Democrats, with much of the gap from the roughly $40 million spent in Ohio for Bernie Moreno; in the House battleground it split its funds nearly evenly. CNBC reported that of the network's late-October 2024 House spending, $6.2 million went to Democratic candidates and $2.3 million to Republicans.",
+      "status": "reported",
+      "date": "2024-10-20",
+      "quote": "spent $53 million on House and Senate Republicans in competitive seats, versus only $33.4 million for Democratic candidates in competitive House and Senate races",
+      "sources": [
+        {
+          "url": "https://punchbowl.news/article/campaigns/crypto-2026-warchest/",
+          "publisher": "Punchbowl News",
+          "title": "Who benefits from crypto's 2026 warchest",
+          "date": "2026"
+        },
+        {
+          "url": "https://www.cnbc.com/2024/10/20/crypto-pac-fairshake-targets-close-house-races-as-election-nears-end.html",
+          "publisher": "CNBC",
+          "title": "Top crypto PAC targets close House races as 2024 election hits final stages",
+          "date": "2024-10-20"
+        }
+      ]
+    },
+    {
+      "claim": "FactCheck.org puts Fairshake's own 2024 spending at about $195.8 million, of which more than $86 million was donated to its affiliates Defend American Jobs (Republican races) and Protect Progress (Democratic races) and nearly $40.7 million went to independent expenditures supporting or opposing candidates.",
+      "status": "reported",
+      "date": "2026-08",
+      "quote": "It donated more than $86 million to Defend American Jobs and Protect Progress.",
+      "sources": [
+        {
+          "url": "https://www.factcheck.org/2026/08/fairshake-2/",
+          "publisher": "FactCheck.org",
+          "title": "Fairshake",
+          "date": "2026-08"
+        }
+      ]
     }
   ],
   "connections": [
@@ -502,6 +562,78 @@
         }
       ],
       "reverse": true
+    },
+    {
+      "to": "Protect Progress",
+      "toName": "Protect Progress",
+      "toType": "pac",
+      "relation": "donated to",
+      "claim": "Fairshake funds Protect Progress, its affiliated super PAC that spends in Democratic races; Fairshake gave more than $86 million to Protect Progress and Defend American Jobs combined in 2024.",
+      "status": "reported",
+      "date": "2024",
+      "quote": "Fairshake comprises three affiliated super PACs: Fairshake; Defend American Jobs, which spends in Republican primaries; and Protect Progress, which spends in Democratic primaries.",
+      "sources": [
+        {
+          "url": "https://www.factcheck.org/2026/08/fairshake-2/",
+          "publisher": "FactCheck.org",
+          "title": "Fairshake",
+          "date": "2026-08"
+        },
+        {
+          "url": "https://www.cnbc.com/2024/10/20/crypto-pac-fairshake-targets-close-house-races-as-election-nears-end.html",
+          "publisher": "CNBC",
+          "title": "Top crypto PAC targets close House races as 2024 election hits final stages",
+          "date": "2024-10-20"
+        }
+      ]
+    },
+    {
+      "to": "Ruben Gallego",
+      "toName": "Ruben Gallego",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Protect Progress, the Fairshake affiliate, spent about $10 million in independent expenditures supporting Gallego's 2024 Arizona Senate campaign, per Punchbowl News' review of FEC filings.",
+      "status": "reported",
+      "date": "2024",
+      "quote": "about $10 million each supporting Democratic Senate candidates Ruben Gallego in Arizona and Elissa Slotkin in Michigan",
+      "sources": [
+        {
+          "url": "https://punchbowl.news/article/campaigns/crypto-2026-warchest/",
+          "publisher": "Punchbowl News",
+          "title": "Who benefits from crypto's 2026 warchest",
+          "date": "2026"
+        },
+        {
+          "url": "https://cointelegraph.com/news/crypto-pacs-spend-targeting-senate-house-races",
+          "publisher": "Cointelegraph",
+          "title": "Crypto PACs spend $14M targeting crucial US Senate and House races",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "to": "Elissa Slotkin",
+      "toName": "Elissa Slotkin",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Protect Progress, the Fairshake affiliate, spent about $10 million in independent expenditures supporting Slotkin's 2024 Michigan Senate campaign, per Punchbowl News' review of FEC filings.",
+      "status": "reported",
+      "date": "2024",
+      "quote": "about $10 million each supporting Democratic Senate candidates Ruben Gallego in Arizona and Elissa Slotkin in Michigan",
+      "sources": [
+        {
+          "url": "https://punchbowl.news/article/campaigns/crypto-2026-warchest/",
+          "publisher": "Punchbowl News",
+          "title": "Who benefits from crypto's 2026 warchest",
+          "date": "2026"
+        },
+        {
+          "url": "https://cointelegraph.com/news/crypto-pacs-spend-targeting-senate-house-races",
+          "publisher": "Cointelegraph",
+          "title": "Crypto PACs spend $14M targeting crucial US Senate and House races",
+          "date": "2024"
+        }
+      ]
     }
   ],
   "openQuestions": [
@@ -513,6 +645,8 @@
     "Fairshake's October 2026 list of House candidates it will spend for (CoinDesk, 2026-10-05) and FactCheck.org's August 2026 profile were in results but their passages were not captured; the latest 2026 cash-on-hand figure after January 2026 was not found.",
     "'Securing pro-industry SEC leadership': no source gathered states a causal link between Fairshake spending and Paul Atkins's confirmation, the GENIUS Act or the Clarity Act's House passage. The one sourced statement tying industry political spending to the legislation is from a critic, Americans for Financial Reform's Mark Hays, in CoinDesk's July 17, 2025 round-up. No statement from Fairshake, Brian Armstrong or Brad Garlinghouse dated to the July 17-18, 2025 votes or signing was found; Armstrong's attendance at the signing is recorded. The SEC's February 2025 Coinbase dismissal and the 2025 end of the Ripple case are recorded in coinbase.json and ripple.json.",
     "The GENIUS Act vote tallies (68-30 Senate, 308-122 House) and the Clarity Act tallies (294-134 House, 49-50 Senate cloture) are taken from Congress.gov action records as returned in search results; the owner may wish to confirm them on the roll-call pages.",
-    "Whether Fairshake or its donors issued statements on the Clarity Act's September 15, 2026 Senate failure was not established; the only Fairshake voice found afterwards is spokesman Geoff Vetter confirming the $30 million Ohio commitment."
+    "Whether Fairshake or its donors issued statements on the Clarity Act's September 15, 2026 Senate failure was not established; the only Fairshake voice found afterwards is spokesman Geoff Vetter confirming the $30 million Ohio commitment.",
+    "Party split: the $53 million / $33.4 million figures (Punchbowl) cover competitive races only; Inside Political Money reports $48 million supporting Democrats across the cycle and Wikipedia (not cited) says nearly twice as much went to Republicans. A cycle-wide split from FEC independent-expenditure data for all three PACs was not compiled.",
+    "Protect Progress's exact independent-expenditure totals for Gallego and Slotkin should be read from its FEC filings; the 'about $10 million each' figure is a press rounding."
   ]
 }

@@ -577,6 +577,91 @@
           "title": "Did Reid Hoffman Soft-Play His Role Shielding Epstein at MIT?"
         }
       ]
+    },
+    {
+      "claim": "Press reports in December 2018 said Hoffman's $750,000 went to American Engagement Technologies (AET), a company founded in October 2017 and run by Mikey Dickerson, the founding director of the United States Digital Service, and that AET passed money to the research firm New Knowledge for the Alabama project known as 'Project Birmingham', whose reported budget was $100,000. Hoffman's statement to the Washington Post was the first time he acknowledged financial ties to AET.",
+      "status": "reported",
+      "date": "2018-12-26",
+      "quote": "Hoffman's investment was passed through a company called American Engagement Technologies (AET), which was run by Mikey Dickerson, the founding director of the United States Digital Service",
+      "sources": [
+        {
+          "url": "https://www.salon.com/2018/12/26/linkedin-cofounder-apologizes-for-funding-election-disinformation-campaign-in-alabama/",
+          "publisher": "Salon",
+          "title": "LinkedIn cofounder apologizes for funding election disinformation campaign in Alabama",
+          "date": "2018-12-26"
+        },
+        {
+          "url": "https://slate.com/technology/2018/12/linkedin-reid-hoffman-funding-disinformation-alabama-special-election.html",
+          "publisher": "Slate",
+          "title": "Co-Founder of LinkedIn acknowledges funding Russian-style disinformation effort during the Alabama special election",
+          "date": "2018-12-26"
+        },
+        {
+          "url": "https://www.cnbc.com/2018/12/26/reid-hoffman-apologizes-for-his-role-in-funding-misinformation.html",
+          "publisher": "CNBC",
+          "title": "Reid Hoffman apologizes for funding a group that allegedly spread misinformation in Alabama Senate race",
+          "date": "2018-12-26"
+        }
+      ]
+    },
+    {
+      "claim": "In a Medium post titled 'Truth and Politics' and a statement to the Washington Post on December 26, 2018, Hoffman said he had never heard of the Alabama project before reading the New York Times' coverage, had never personally authorized or directed any funding to New Knowledge, did not know why AET supported it, was embarrassed by his failure to track AET more diligently, and supported a federal investigation.",
+      "status": "words",
+      "date": "2018-12-26",
+      "quote": "he had never even heard of this project before reading about it in the Times' coverage",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2018/12/27/reid-hoffman-aet-alabama/",
+          "publisher": "TechCrunch",
+          "title": "Reid Hoffman denies direct knowledge of funding disinformation in the Alabama Senate race",
+          "date": "2018-12-27"
+        },
+        {
+          "url": "https://www.fastcompany.com/90286551/linkedins-reid-hoffman-apologizes-for-ties-to-disinformation-campaign-that-targeted-roy-moore",
+          "publisher": "Fast Company",
+          "title": "LinkedIn cofounder Reid Hoffman addresses disinformation scandal in Alabama race",
+          "date": "2018-12-26"
+        }
+      ]
+    },
+    {
+      "claim": "A complaint filed with the Federal Election Commission (Matter Under Review 7562) asserted that money for the 2017 Alabama disinformation effort flowed through American Engagement Technologies, the firm Hoffman funded. The FEC's closed-matters listing shows MUR 7562, case name New Knowledge, closed with a disposition of 'Dismissed-Other' for three respondents, on subjects of prohibited and corporate contributions.",
+      "status": "court",
+      "quote": "money flowed through American Engagement Technologies, a firm run by Mikey Dickerson",
+      "sources": [
+        {
+          "url": "https://www.fec.gov/files/legal/murs/7562/7562_01.pdf",
+          "publisher": "Federal Election Commission",
+          "title": "MUR 7562, complaint (document 1)",
+          "date": ""
+        },
+        {
+          "url": "https://www.fec.gov/data/legal/search/murs/?search=filing&case_respondents=&case_min_open_date=&case_max_open_date=&case_min_close_date=&case_max_close_date=&offset=420",
+          "publisher": "Federal Election Commission",
+          "title": "Searching Closed Matters Under Review (listing including MUR 7562, New Knowledge)",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "claim": "After his July 2024 CNN remarks on Lina Khan, Hoffman posted on X that he had never spoken with Vice President Harris about Khan or about the FTC generally, and had never demanded that Harris fire Khan if elected; he told CNN's Jake Tapper his view was offered as an 'expert', not as a donor. Senator Bernie Sanders responded that billionaires should not be telling candidates whom to keep on. Searches for 2025 and 2026 statements by Hoffman on Khan or the FTC found none.",
+      "status": "words",
+      "date": "2024-08-02",
+      "quote": "he had never spoken with Vice President Harris about Lina Khan, or even about the FTC generally",
+      "sources": [
+        {
+          "url": "https://x.com/reidhoffman/status/1819468284602851446?lang=en",
+          "publisher": "Reid Hoffman on X",
+          "title": "Post of August 2, 2024 on Trump, the rule of law and the FTC",
+          "date": "2024-08-02"
+        },
+        {
+          "url": "https://thehill.com/policy/technology/4794568-linkedin-co-founder-asks-harris-to-replace-ftcs-lina-khan/",
+          "publisher": "The Hill",
+          "title": "LinkedIn co-founder asks Kamala Harris to replace FTC's Lina Khan",
+          "date": "2024-07"
+        }
+      ]
     }
   ],
   "connections": [
@@ -1038,6 +1123,68 @@
           "title": "Did Reid Hoffman Soft-Play His Role Shielding Epstein at MIT?"
         }
       ]
+    },
+    {
+      "to": "new-knowledge",
+      "relation": "funded",
+      "claim": "Hoffman's $750,000 investment in American Engagement Technologies was, per press reports, the source of the $100,000 AET paid New Knowledge for the Alabama project. Hoffman has said he never personally authorized or directed any funding to New Knowledge.",
+      "status": "reported",
+      "date": "2018-12-26",
+      "quote": "he has never personally authorized or directed any funding to New Knowledge",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2018/12/27/reid-hoffman-aet-alabama/",
+          "publisher": "TechCrunch",
+          "title": "Reid Hoffman denies direct knowledge of funding disinformation in the Alabama Senate race",
+          "date": "2018-12-27"
+        },
+        {
+          "url": "https://www.salon.com/2018/12/26/linkedin-cofounder-apologizes-for-funding-election-disinformation-campaign-in-alabama/",
+          "publisher": "Salon",
+          "title": "LinkedIn cofounder apologizes for funding election disinformation campaign in Alabama",
+          "date": "2018-12-26"
+        }
+      ]
+    },
+    {
+      "to": "American Engagement Technologies",
+      "toName": "American Engagement Technologies",
+      "toType": "company",
+      "relation": "funded",
+      "claim": "Hoffman invested $750,000 in American Engagement Technologies, run by Mikey Dickerson; he said in December 2018 that he had not known its money was used for disinformation in the 2017 Alabama Senate race.",
+      "status": "words",
+      "date": "2018-12-26",
+      "quote": "This was the first time Hoffman acknowledged investing $750,000 in American Engagement Technologies",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2018/12/26/reid-hoffman-apologizes-for-his-role-in-funding-misinformation.html",
+          "publisher": "CNBC",
+          "title": "Reid Hoffman apologizes for funding a group that allegedly spread misinformation in Alabama Senate race",
+          "date": "2018-12-26"
+        },
+        {
+          "url": "https://www.salon.com/2018/12/26/linkedin-cofounder-apologizes-for-funding-election-disinformation-campaign-in-alabama/",
+          "publisher": "Salon",
+          "title": "LinkedIn cofounder apologizes for funding election disinformation campaign in Alabama",
+          "date": "2018-12-26"
+        }
+      ]
+    },
+    {
+      "to": "future-forward",
+      "relation": "funded",
+      "claim": "Hoffman gave more than $10 million to Future Forward's super PAC in the 2024 cycle, according to CNN.",
+      "status": "reported",
+      "date": "2024-10-30",
+      "quote": "LinkedIn co-founder Reid Hoffman, who has given more than $10 million",
+      "sources": [
+        {
+          "url": "https://www.cnn.com/2024/10/30/politics/democratic-digital-advertising-future-forward",
+          "publisher": "CNN",
+          "title": "If you've been seeing more pro-Harris ads online lately, here's why",
+          "date": "2024-10-30"
+        }
+      ]
     }
   ],
   "openQuestions": [
@@ -1057,6 +1204,9 @@
     "The venue of the August 2015 dinner (Baumé restaurant vs. Hoffman's home): reports differ.",
     "The Christmas Eve 2014 Hoffman-to-Epstein email ('ice cream ... for the girls') and the representative's explanation that 'the girls' were adult staff were found only on advocacy or aggregator sites and were left out.",
     "Hoffman's X post about the island visit is cited through NBC News; the post itself and its date were not located.",
-    "The Wall Street Journal's 2023 story is cited through the Daily Caller's account; verify against the Journal."
+    "The Wall Street Journal's 2023 story is cited through the Daily Caller's account; verify against the Journal.",
+    "The Medium post 'Truth and Politics' and the Washington Post statement were not opened directly; quotes are as reported by TechCrunch, Fast Company and the Daily Beast.",
+    "MUR 7562's respondents and closing date were not seen; whether Hoffman or AET were respondents is unconfirmed. Check fec.gov/data/legal/matter-under-review/7562.",
+    "No 2025 or 2026 statement by Hoffman on Lina Khan or the FTC under Chairman Ferguson surfaced in searches; the file's Khan material remains from July to September 2024."
   ]
 }

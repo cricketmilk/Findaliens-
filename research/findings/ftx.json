@@ -672,6 +672,66 @@
           "date": "2025"
         }
       ]
+    },
+    {
+      "claim": "Bankman-Fried's disclosed contributions in the 2022 cycle came to about $40 million, mostly to Democrats; OpenSecrets ranked him the cycle's second-largest Democratic donor after George Soros. His largest single gift was $27 million to Protect Our Future PAC, which spent $24.2 million supporting 19 Democratic House candidates. His largest disclosed Republican-side contribution was $2 million to the crypto-focused GMI super PAC. TIME noted that FEC receipts show he gave almost exclusively to Democrats, so his claim of matching undisclosed Republican giving is unverified.",
+      "status": "reported",
+      "date": "2022-12",
+      "quote": "federal election receipts show that Bankman-Fried donated almost exclusively to Democrats",
+      "sources": [
+        {
+          "url": "https://cbsnews.com/amp/news/ftx-sam-bankman-fried-political-donations-2022",
+          "publisher": "CBS News",
+          "title": "Sam Bankman-Fried donated over $40 million in the 2022 election cycle. Where did it go?",
+          "date": "2022-12"
+        },
+        {
+          "url": "https://time.com/6241262/sam-bankman-fried-political-donations/",
+          "publisher": "TIME",
+          "title": "Sam Bankman-Fried's Political Donations: What We Know",
+          "date": "2022-12"
+        }
+      ]
+    },
+    {
+      "claim": "FEC data cited by NBC News show that Ryan Salame, FTX's former Bahamas co-chief executive, gave more than $24 million to Republican candidates and causes in the 2022 election cycle. CNBC, citing OpenSecrets, reported that Bankman-Fried, Salame and Nishad Singh together contributed at least $70 million toward the 2022 midterms. Court papers and FEC data identified Singh and Salame as the straw donors in the campaign-finance conspiracy charged against Bankman-Fried.",
+      "status": "reported",
+      "date": "2023-08",
+      "quote": "FEC data showing more than $24 million to Republican candidates and causes in the 2022 election cycle",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/news/us-news/sam-bankman-fried-charged-using-stolen-funds-100-million-political-don-rcna99938",
+          "publisher": "NBC News",
+          "title": "Sam Bankman-Fried charged with using stolen funds for over $100 million in political donations",
+          "date": "2023-08"
+        },
+        {
+          "url": "https://www.cnbc.com/2022/12/19/how-ftx-founder-sbf-and-friends-quietly-donated-to-political-groups-and-relatives.html",
+          "publisher": "CNBC",
+          "title": "How former crypto king Sam Bankman-Fried and friends quietly donated to political groups and relatives",
+          "date": "2022-12-19"
+        }
+      ]
+    },
+    {
+      "claim": "The December 2022 indictment accused Bankman-Fried of conspiring with others to make and receive illegal campaign donations, to hide them, to misuse corporate donations and to use a conduit to hide the donations, including a count of conspiracy to violate the ban on contributions made in another person's name. Axios and Slate reported at the time that the charges put both parties' recipients of his money in a difficult position.",
+      "status": "reported",
+      "date": "2022-12-14",
+      "quote": "conspiring with others to make and receive illegal campaign donations, hide those donations, misuse corporate donations and of improperly using a conduit to hide the donations",
+      "sources": [
+        {
+          "url": "https://www.axios.com/2022/12/14/sbf-campaign-finance-political-donations-charges",
+          "publisher": "Axios",
+          "title": "SBF's \"dirty money\"",
+          "date": "2022-12-14"
+        },
+        {
+          "url": "https://slate.com/news-and-politics/2022/12/sam-bankman-fried-campaign-finance-violations-democrats-republicans-donations.html",
+          "publisher": "Slate",
+          "title": "Sam Bankman-Fried campaign finance violations: The arrest of the FTX founder puts Democratic and Republican political leaders in a sticky situation.",
+          "date": "2022-12"
+        }
+      ]
     }
   ],
   "connections": [
@@ -807,6 +867,22 @@
           "date": "2024-07-02"
         }
       ]
+    },
+    {
+      "to": "future-forward",
+      "relation": "donated to",
+      "claim": "Alameda Research gave about $5.24 million to Future Forward USA in 2020 and Bankman-Fried separately gave $5 million to the super PAC that cycle, according to CNBC citing FEC records.",
+      "status": "reported",
+      "date": "2020",
+      "quote": "Alameda gave about $5.24 million in 2020 to Future Forward USA, the super PAC that backed Biden's win. Bankman-Fried separately donated $5 million to the super PAC that cycle.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2022/12/19/how-ftx-founder-sbf-and-friends-quietly-donated-to-political-groups-and-relatives.html",
+          "publisher": "CNBC",
+          "title": "How former crypto king Sam Bankman-Fried and friends quietly donated to political groups and relatives",
+          "date": "2022-12-19"
+        }
+      ]
     }
   ],
   "openQuestions": [
@@ -819,6 +895,7 @@
     "Time and Salon reported that federal receipts show Bankman-Fried's disclosed giving went almost exclusively to Democrats (about $40 million, second only to George Soros); not recorded because no URL-tied passage was captured.",
     "The NBC News '$100 million' figure refers to a later superseding indictment (reported elsewhere as August 2023) that was not researched; the DOJ's own releases say more than 300 contributions 'totaling tens of millions of dollars'. The February 2023 superseding indictment is now recorded from the court docket, but no Justice Department press release for it was found on justice.gov; the Criminal Division case page and the CourtListener docket are cited instead. The S3 indictment text itself was not read.",
     "Whether the SEC's December 2022 complaint against Bankman-Fried names Silvergate was not verified; the SEC's separate July 2024 action against Silvergate, which names FTX-related accounts, is now recorded. The date of the bankruptcy-docket pleading cited for the 45 accounts was not captured. Whether the court approved the Silvergate settlements was not checked.",
-    "The Terraform judgment figures (more than $4.5 billion in total; $420 million and $80 million civil penalties; June 12, 2024 approval) came from SEC pages returned together in search results; the owner should confirm which SEC page carries each figure. The sources differ on whether the Mashinsky indictment was unsealed on July 11 or July 13, 2023."
+    "The Terraform judgment figures (more than $4.5 billion in total; $420 million and $80 million civil penalties; June 12, 2024 approval) came from SEC pages returned together in search results; the owner should confirm which SEC page carries each figure. The sources differ on whether the Mashinsky indictment was unsealed on July 11 or July 13, 2023.",
+    "Party breakdown by source differs: CBS/OpenSecrets put Bankman-Fried's disclosed 2022 giving at about $40 million (mostly Democrats); Salame's Republican giving is $23 million (OpenSecrets, via Just the News, not cited) to more than $24 million (NBC/FEC); Singh's roughly $14 million to Democrats (OpenSecrets via Just the News) is not recorded for lack of a major-outlet source. No DOJ document stating a party breakdown was found; the DOJ releases describe the contributions only as more than 300 totaling tens of millions of dollars."
   ]
 }

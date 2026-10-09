@@ -1,0 +1,172 @@
+{
+  "entity": "mark-turnbull",
+  "name": "Mark Turnbull",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Mark Turnbull was managing director of the political division of SCL Elections/Cambridge Analytica. He was filmed alongside Alexander Nix in Channel 4 News's undercover investigation, broadcast on 19 and 20 March 2018, in which he described proxy organisations to feed negative material about opponents and said the company was not in the business of entrapment. The DCMS Committee's interim report said the company suspended him after the broadcast.",
+    "sources": [
+      {
+        "url": "https://www.channel4.com/news/cambridge-analytica-revealed-trumps-election-consultants-filmed-saying-they-use-bribes-and-sex-workers-to-entrap-politicians-investigation",
+        "publisher": "Channel 4 News",
+        "title": "Revealed: Trump's election consultants filmed saying they use bribes and sex workers to entrap politicians",
+        "date": "2018-03-19"
+      },
+      {
+        "url": "https://www.channel4.com/news/exposed-undercover-secrets-of-donald-trump-data-firm-cambridge-analytica",
+        "publisher": "Channel 4 News",
+        "title": "Exposed: Undercover secrets of Trump's data firm",
+        "date": "2018-03-20"
+      },
+      {
+        "url": "https://publications.parliament.uk/pa/cm201719/cmselect/cmcumeds/363/36309.htm",
+        "publisher": "House of Commons DCMS Committee",
+        "title": "Disinformation and 'fake news': Interim Report, chapter on SCL influence in foreign elections",
+        "date": "2018-07-29"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Channel 4 News filmed Turnbull, then managing director of SCL Elections' political division, in meetings between November 2017 and January 2018 with a reporter posing as a fixer for a prospective Sri Lankan client.",
+      "status": "reported",
+      "date": "2018-03-19",
+      "quote": "The meetings took place at London hotels over four months, between November 2017 and January 2018.",
+      "sources": [
+        {
+          "url": "https://www.channel4.com/news/cambridge-analytica-revealed-trumps-election-consultants-filmed-saying-they-use-bribes-and-sex-workers-to-entrap-politicians-investigation",
+          "publisher": "Channel 4 News",
+          "title": "Revealed: Trump's election consultants filmed saying they use bribes and sex workers to entrap politicians",
+          "date": "2018-03-19"
+        },
+        {
+          "url": "https://publications.parliament.uk/pa/cm201719/cmselect/cmcumeds/363/36309.htm",
+          "publisher": "House of Commons DCMS Committee",
+          "title": "Disinformation and 'fake news': Interim Report, chapter on SCL influence in foreign elections",
+          "date": "2018-07-29"
+        }
+      ]
+    },
+    {
+      "claim": "In the recordings Turnbull said the firm was 'not in the business of entrapment' and that such practices crossed a line, while also describing the use of proxy organisations such as charities or activist groups to put negative material about opposition candidates onto the internet and social media.",
+      "status": "reported",
+      "date": "2018-03-20",
+      "quote": "proxy organisations to discreetly feed negative material about opposition candidates",
+      "sources": [
+        {
+          "url": "https://www.channel4.com/news/exposed-undercover-secrets-of-donald-trump-data-firm-cambridge-analytica",
+          "publisher": "Channel 4 News",
+          "title": "Exposed: Undercover secrets of Trump's data firm",
+          "date": "2018-03-20"
+        },
+        {
+          "url": "https://www.cbc.ca/1.4590712",
+          "publisher": "CBC News",
+          "title": "Cambridge Analytica suspends CEO after Channel 4 undercover report",
+          "date": "2018-03-20"
+        }
+      ]
+    },
+    {
+      "claim": "The DCMS interim report quoted Turnbull's description of the company's method as being that no one knew it was there: it was 'ghosted in', did the work and 'ghosted out'.",
+      "status": "documented",
+      "date": "2018-07-29",
+      "quote": "no one even knew they were there, they were just ghosted in, did the work, ghosted out",
+      "sources": [
+        {
+          "url": "https://publications.parliament.uk/pa/cm201719/cmselect/cmcumeds/363/36309.htm",
+          "publisher": "House of Commons DCMS Committee",
+          "title": "Disinformation and 'fake news': Interim Report, chapter on SCL influence in foreign elections",
+          "date": "2018-07-29"
+        }
+      ]
+    },
+    {
+      "claim": "In one scenario Nix described to the undercover reporter, Turnbull would pose as a wealthy developer offering to exchange campaign finance for land.",
+      "status": "reported",
+      "date": "2018-03-19",
+      "quote": "Mark Turnbull, would pose as a wealthy developer looking to exchange campaign finance for land",
+      "sources": [
+        {
+          "url": "https://www.cbc.ca/1.4590712",
+          "publisher": "CBC News",
+          "title": "Cambridge Analytica suspends CEO after Channel 4 undercover report",
+          "date": "2018-03-20"
+        },
+        {
+          "url": "https://www.channel4.com/news/cambridge-analytica-revealed-trumps-election-consultants-filmed-saying-they-use-bribes-and-sex-workers-to-entrap-politicians-investigation",
+          "publisher": "Channel 4 News",
+          "title": "Revealed: Trump's election consultants filmed saying they use bribes and sex workers to entrap politicians",
+          "date": "2018-03-19"
+        }
+      ]
+    },
+    {
+      "claim": "The DCMS Committee's interim report recorded that Cambridge Analytica suspended Turnbull after the broadcast, saying his remarks did not represent the firm's values or operations.",
+      "status": "documented",
+      "date": "2018-03",
+      "quote": "do not represent the values or operations of this firm",
+      "sources": [
+        {
+          "url": "https://publications.parliament.uk/pa/cm201719/cmselect/cmcumeds/363/36309.htm",
+          "publisher": "House of Commons DCMS Committee",
+          "title": "Disinformation and 'fake news': Interim Report, chapter on SCL influence in foreign elections",
+          "date": "2018-07-29"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "scl-group",
+      "toName": "SCL Group",
+      "toType": "company",
+      "relation": "executive of",
+      "claim": "Turnbull was managing director of SCL Elections' political division when filmed by Channel 4 News.",
+      "status": "documented",
+      "date": "2018-03",
+      "quote": "then managing director of SCL Elections",
+      "sources": [
+        {
+          "url": "https://publications.parliament.uk/pa/cm201719/cmselect/cmcumeds/363/36309.htm",
+          "publisher": "House of Commons DCMS Committee",
+          "title": "Disinformation and 'fake news': Interim Report, chapter on SCL influence in foreign elections",
+          "date": "2018-07-29"
+        },
+        {
+          "url": "https://www.channel4.com/news/cambridge-analytica-revealed-trumps-election-consultants-filmed-saying-they-use-bribes-and-sex-workers-to-entrap-politicians-investigation",
+          "publisher": "Channel 4 News",
+          "title": "Revealed: Trump's election consultants filmed saying they use bribes and sex workers to entrap politicians",
+          "date": "2018-03-19"
+        }
+      ]
+    },
+    {
+      "to": "channel-4-news",
+      "toName": "Channel 4 News",
+      "toType": "organization",
+      "relation": "other",
+      "reverse": true,
+      "claim": "Channel 4 News secretly recorded Turnbull in late 2017 and early 2018 and broadcast the footage in March 2018.",
+      "status": "reported",
+      "date": "2018-03-19",
+      "quote": "Revealed: Trump's election consultants filmed saying they use bribes and sex workers to entrap politicians",
+      "sources": [
+        {
+          "url": "https://www.channel4.com/news/cambridge-analytica-revealed-trumps-election-consultants-filmed-saying-they-use-bribes-and-sex-workers-to-entrap-politicians-investigation",
+          "publisher": "Channel 4 News",
+          "title": "Revealed: Trump's election consultants filmed saying they use bribes and sex workers to entrap politicians",
+          "date": "2018-03-19"
+        },
+        {
+          "url": "https://www.channel4.com/news/exposed-undercover-secrets-of-donald-trump-data-firm-cambridge-analytica",
+          "publisher": "Channel 4 News",
+          "title": "Exposed: Undercover secrets of Trump's data firm",
+          "date": "2018-03-20"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Did Turnbull make any public statement in his own name about the recordings? Only the company's statements were found."
+  ]
+}

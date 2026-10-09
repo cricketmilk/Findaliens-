@@ -1,0 +1,253 @@
+{
+  "entity": "aggregateiq",
+  "name": "AggregateIQ",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "AggregateIQ Data Services Ltd (AIQ) is a Canadian political data and advertising firm based in Victoria, British Columbia. The UK Electoral Commission found in July 2018 that BeLeave spent more than £675,000 with AIQ under a common plan with Vote Leave. The ICO served AIQ with its first enforcement notice under the GDPR in July 2018, later revised. In November 2019 the Privacy Commissioner of Canada and the BC Information and Privacy Commissioner jointly found that AIQ had not ensured adequate consent for some of its Vote Leave work and had failed to safeguard personal information of over 35 million people; AIQ agreed to implement their recommendations. AIQ has stated that it was never part of Cambridge Analytica or SCL and never contracted with Cambridge Analytica.",
+    "sources": [
+      {
+        "url": "https://www.priv.gc.ca/en/opc-actions-and-decisions/investigations/investigations-into-businesses/2019/pipeda-2019-004/",
+        "publisher": "Office of the Privacy Commissioner of Canada",
+        "title": "PIPEDA Findings #2019-004: Joint investigation of AggregateIQ Data Services Ltd.",
+        "date": "2019-11-26"
+      },
+      {
+        "url": "https://www.priv.gc.ca/en/opc-news/news-and-announcements/2019/nr-c_191126/",
+        "publisher": "Office of the Privacy Commissioner of Canada",
+        "title": "Investigation finds BC firm delivered micro-targeted political ads without ensuring consent",
+        "date": "2019-11-26"
+      },
+      {
+        "url": "https://www.electoralcommission.org.uk/political-registration-and-regulation/our-enforcement-work/investigations/investigation-vote-leave-ltd-mr-darren-grimes-beleave-and-veterans-britain",
+        "publisher": "Electoral Commission",
+        "title": "Investigation: Vote Leave Ltd, Mr Darren Grimes, BeLeave and Veterans for Britain"
+      },
+      {
+        "url": "https://www.arabnews.com/node/1340301",
+        "publisher": "Arab News (AFP)",
+        "title": "UK's official Brexit campaign fined, referred to police",
+        "date": "2018-07-17"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The Electoral Commission found that Vote Leave and BeLeave spent under a common plan and that BeLeave spent more than £675,000 with AggregateIQ, which should have been declared by Vote Leave; the investigation mainly concerned five payments made in June 2016 to AIQ, three of them totalling £675,315.18.",
+      "status": "court",
+      "date": "2018-07-17",
+      "quote": "Three of the payments, totalling £675,315.18, were reported by Mr Grimes as donations from Vote Leave, and as spending by him on services from Aggregate IQ.",
+      "sources": [
+        {
+          "url": "https://www.electoralcommission.org.uk/political-registration-and-regulation/our-enforcement-work/investigations/investigation-vote-leave-ltd-mr-darren-grimes-beleave-and-veterans-britain",
+          "publisher": "Electoral Commission",
+          "title": "Investigation: Vote Leave Ltd, Mr Darren Grimes, BeLeave and Veterans for Britain"
+        },
+        {
+          "url": "https://www.electoralcommission.org.uk/media-centre/vote-leave-fined-and-referred-police-breaking-electoral-law",
+          "publisher": "Electoral Commission",
+          "title": "Vote Leave fined and referred to the police for breaking electoral law",
+          "date": "2018-07-17"
+        }
+      ]
+    },
+    {
+      "claim": "The ICO served AIQ with its first enforcement notice under the GDPR on 6 July 2018, concerning data on UK individuals processed for Vote Leave, BeLeave, Veterans for Britain and the DUP Vote to Leave; a second notice on 24 October 2018 narrowed the scope to UK individuals, and AIQ withdrew its appeal and said it would comply voluntarily.",
+      "status": "documented",
+      "date": "2018-07-06",
+      "quote": "The ICO served a first enforcement notice on AIQ on 6 July 2018",
+      "sources": [
+        {
+          "url": "https://stevens-bolton.com/site/insights/articles/first-gdpr-enforcement-action-against-canadian-data-controller",
+          "publisher": "Stevens & Bolton",
+          "title": "First GDPR enforcement action is against a Canadian data controller",
+          "date": "2018"
+        },
+        {
+          "url": "https://hunton.com/privacy-and-information-security-law/ico-issues-first-enforcement-action-gdpr",
+          "publisher": "Hunton Andrews Kurth",
+          "title": "ICO Issues First Enforcement Action Under GDPR",
+          "date": "2018"
+        }
+      ]
+    },
+    {
+      "claim": "On 5 April 2018 the Privacy Commissioner of Canada announced he would join the BC Information and Privacy Commissioner in investigating AggregateIQ.",
+      "status": "documented",
+      "date": "2018-04-05",
+      "quote": "The Office of the Privacy Commissioner of Canada (OPC) will participate in an investigation into the activities of AggregateIQ Data Services Ltd.",
+      "sources": [
+        {
+          "url": "https://www.priv.gc.ca/en/opc-news/news-and-announcements/2018/an_180405/",
+          "publisher": "Office of the Privacy Commissioner of Canada",
+          "title": "BC, federal Privacy Commissioners initiate joint investigations into AggregateIQ, Facebook",
+          "date": "2018-04-05"
+        }
+      ]
+    },
+    {
+      "claim": "The joint report of findings (PIPEDA Findings #2019-004 / BC Investigation Report P19-03), issued 26 November 2019, examined AIQ's work for campaigns in the UK, US and Canada and found that the consent AIQ relied on for Vote Leave did not adequately cover disclosures to Facebook for custom audience advertising or lookalike audience analysis, while its SMS messaging for BeLeave was authorised by the consent given.",
+      "status": "court",
+      "date": "2019-11-26",
+      "quote": "there was not adequate consent for disclosures to Facebook for custom audience advertising or lookalike audience analysis",
+      "sources": [
+        {
+          "url": "https://www.priv.gc.ca/en/opc-actions-and-decisions/investigations/investigations-into-businesses/2019/pipeda-2019-004/",
+          "publisher": "Office of the Privacy Commissioner of Canada",
+          "title": "PIPEDA Findings #2019-004: Joint investigation of AggregateIQ Data Services Ltd.",
+          "date": "2019-11-26"
+        },
+        {
+          "url": "https://www.oipc.bc.ca/documents/investigation-reports/2227",
+          "publisher": "Office of the Information and Privacy Commissioner for British Columbia",
+          "title": "Investigation Report P19-03 / PIPEDA-035913: AggregateIQ Data Services Ltd.",
+          "date": "2019-11-26"
+        },
+        {
+          "url": "https://www.priv.gc.ca/en/opc-news/news-and-announcements/2019/nr-c_191126/",
+          "publisher": "Office of the Privacy Commissioner of Canada",
+          "title": "Investigation finds BC firm delivered micro-targeted political ads without ensuring consent",
+          "date": "2019-11-26"
+        }
+      ]
+    },
+    {
+      "claim": "The commissioners found that an unsecured GitLab repository put the personal information of over 35 million people at risk and that AIQ failed to take reasonable security measures, contravening section 34 of BC's PIPA and PIPEDA's safeguards principle; AIQ agreed to implement the offices' recommendations and no fine was imposed.",
+      "status": "court",
+      "date": "2019-11-26",
+      "quote": "AIQ agreed to implement the Offices' recommendations",
+      "sources": [
+        {
+          "url": "https://www.priv.gc.ca/en/opc-actions-and-decisions/investigations/investigations-into-businesses/2019/pipeda-2019-004/",
+          "publisher": "Office of the Privacy Commissioner of Canada",
+          "title": "PIPEDA Findings #2019-004: Joint investigation of AggregateIQ Data Services Ltd.",
+          "date": "2019-11-26"
+        },
+        {
+          "url": "https://www.oipc.bc.ca/documents/investigation-reports/2227",
+          "publisher": "Office of the Information and Privacy Commissioner for British Columbia",
+          "title": "Investigation Report P19-03 / PIPEDA-035913: AggregateIQ Data Services Ltd.",
+          "date": "2019-11-26"
+        }
+      ]
+    },
+    {
+      "claim": "AIQ has stated that it has never been part of Cambridge Analytica or SCL, never entered into a contract with Cambridge Analytica and never employed Christopher Wylie; its executives also denied allegations before the Canadian House of Commons ethics committee in April 2018.",
+      "status": "words",
+      "date": "2018-04",
+      "quote": "AggregateIQ insists it has never been part of CA or SCL, never entered into a contract with CA and has never employed Wylie",
+      "sources": [
+        {
+          "url": "https://www.arabnews.com/node/1340301",
+          "publisher": "Arab News (AFP)",
+          "title": "UK's official Brexit campaign fined, referred to police",
+          "date": "2018-07-17"
+        },
+        {
+          "url": "https://thewirereport.ca/2018/04/24/aggregateiq-denies-whistleblower-claims-to-ethics-committee",
+          "publisher": "The Wire Report",
+          "title": "AggregateIQ denies whistleblower claims to ethics committee",
+          "date": "2018-04-24"
+        }
+      ]
+    },
+    {
+      "claim": "The DCMS Committee's final report devoted a chapter to the AggregateIQ matter, focusing on the relationships between AIQ, SCL and Cambridge Analytica and AIQ's work for the EU referendum.",
+      "status": "documented",
+      "date": "2019-02-18",
+      "quote": "data misuse and targeting in respect of the Facebook, Cambridge Analytica and Aggregate IQ matters",
+      "sources": [
+        {
+          "url": "https://publications.parliament.uk/pa/cm201719/cmselect/cmcumeds/1791/1791.pdf",
+          "publisher": "House of Commons DCMS Committee",
+          "title": "Disinformation and 'fake news': Final Report (HC 1791)",
+          "date": "2019-02-18"
+        },
+        {
+          "url": "https://committees.parliament.uk/committee/378/digital-culture-media-and-sport-committee/news/103668/disinformation-and-fake-news-final-report-published/",
+          "publisher": "UK Parliament, DCMS Committee",
+          "title": "Disinformation and 'fake news': Final Report published",
+          "date": "2019-02-18"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "vote-leave",
+      "toName": "Vote Leave",
+      "toType": "organization",
+      "relation": "contracted with",
+      "reverse": true,
+      "claim": "The Electoral Commission found that payments to AIQ reported by Darren Grimes as BeLeave spending were made under a common plan with Vote Leave and should have been declared by Vote Leave.",
+      "status": "court",
+      "date": "2018-07-17",
+      "quote": "BeLeave spent more than £675,000 with AggregateIQ under a common plan with Vote Leave",
+      "sources": [
+        {
+          "url": "https://www.electoralcommission.org.uk/media-centre/vote-leave-fined-and-referred-police-breaking-electoral-law",
+          "publisher": "Electoral Commission",
+          "title": "Vote Leave fined and referred to the police for breaking electoral law",
+          "date": "2018-07-17"
+        },
+        {
+          "url": "https://www.electoralcommission.org.uk/political-registration-and-regulation/our-enforcement-work/investigations/investigation-vote-leave-ltd-mr-darren-grimes-beleave-and-veterans-britain",
+          "publisher": "Electoral Commission",
+          "title": "Investigation: Vote Leave Ltd, Mr Darren Grimes, BeLeave and Veterans for Britain"
+        }
+      ]
+    },
+    {
+      "to": "information-commissioner-s-office",
+      "toName": "Information Commissioner's Office",
+      "toType": "organization",
+      "relation": "regulated",
+      "reverse": true,
+      "claim": "The ICO served AIQ with its first GDPR enforcement notice in July 2018, revised in October 2018.",
+      "status": "documented",
+      "date": "2018-07-06",
+      "quote": "first enforcement notice on AIQ on 6 July 2018",
+      "sources": [
+        {
+          "url": "https://stevens-bolton.com/site/insights/articles/first-gdpr-enforcement-action-against-canadian-data-controller",
+          "publisher": "Stevens & Bolton",
+          "title": "First GDPR enforcement action is against a Canadian data controller",
+          "date": "2018"
+        },
+        {
+          "url": "https://hunton.com/privacy-and-information-security-law/ico-issues-first-enforcement-action-gdpr",
+          "publisher": "Hunton Andrews Kurth",
+          "title": "ICO Issues First Enforcement Action Under GDPR",
+          "date": "2018"
+        }
+      ]
+    },
+    {
+      "to": "cambridge-analytica",
+      "toName": "Cambridge Analytica",
+      "toType": "company",
+      "relation": "other",
+      "claim": "AIQ states it was never part of Cambridge Analytica or SCL and never had a contract with Cambridge Analytica; the DCMS Committee examined the relationships between AIQ, SCL and Cambridge Analytica.",
+      "status": "words",
+      "date": "2018",
+      "quote": "never entered into a contract with CA",
+      "sources": [
+        {
+          "url": "https://www.arabnews.com/node/1340301",
+          "publisher": "Arab News (AFP)",
+          "title": "UK's official Brexit campaign fined, referred to police",
+          "date": "2018-07-17"
+        },
+        {
+          "url": "https://publications.parliament.uk/pa/cm201719/cmselect/cmcumeds/1791/1791.pdf",
+          "publisher": "House of Commons DCMS Committee",
+          "title": "Disinformation and 'fake news': Final Report (HC 1791)",
+          "date": "2019-02-18"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "What did the DCMS final report conclude about the relationship between AIQ and SCL/Cambridge Analytica? Only the chapter heading and scope were seen.",
+    "Has AIQ completed implementation of the Canadian commissioners' recommendations, which the offices treated as conditionally resolved in 2019?"
+  ]
+}

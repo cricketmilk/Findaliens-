@@ -1,0 +1,120 @@
+{
+  "entity": "black-cube",
+  "name": "Black Cube",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Black Cube is an Israeli private intelligence firm. In March 2018 Christopher Wylie told the DCMS Committee that Cambridge Analytica had used Black Cube's services in connection with Nigeria's 2015 election, including obtaining Muhammadu Buhari's medical records and private emails. Black Cube called the testimony a 'flagrant lie', said neither it nor its affiliates had worked for SCL or Cambridge Analytica or operated in Nigeria, and threatened a defamation suit. No official finding on the allegation was located.",
+    "sources": [
+      {
+        "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3735126,00.html",
+        "publisher": "Calcalist (CTech)",
+        "title": "Cambridge Analytica Whistleblower Says Israeli Spy Firm Hacked Nigerian President",
+        "date": "2018-03"
+      },
+      {
+        "url": "https://www.thisdaylive.com/2018/03/28/whistle-blower-names-israeli-firm-that-hacked-buharis-emails/",
+        "publisher": "ThisDay",
+        "title": "Whistle-blower Names Israeli Firm That Hacked Buhari's Emails",
+        "date": "2018-03-28"
+      },
+      {
+        "url": "https://committees.parliament.uk/oralevidence/7803/html/",
+        "publisher": "UK Parliament, DCMS Committee",
+        "title": "Oral evidence: Fake news, HC 363, 27 March 2018 (Christopher Wylie)",
+        "date": "2018-03-27"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Christopher Wylie told the DCMS Committee on 27 March 2018 that Cambridge Analytica used the services of Black Cube to undermine Nigeria's 2015 election, that Black Cube was engaged to hack Muhammadu Buhari for his medical records and private emails, and that the material was shared with AggregateIQ.",
+      "status": "words",
+      "date": "2018-03-27",
+      "quote": "Black Cube was engaged to hack the now-president Buhari to get access to his medical records and private emails",
+      "sources": [
+        {
+          "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3735126,00.html",
+          "publisher": "Calcalist (CTech)",
+          "title": "Cambridge Analytica Whistleblower Says Israeli Spy Firm Hacked Nigerian President",
+          "date": "2018-03"
+        },
+        {
+          "url": "https://www.thisdaylive.com/2018/03/28/whistle-blower-names-israeli-firm-that-hacked-buharis-emails/",
+          "publisher": "ThisDay",
+          "title": "Whistle-blower Names Israeli Firm That Hacked Buhari's Emails",
+          "date": "2018-03-28"
+        },
+        {
+          "url": "https://committees.parliament.uk/oralevidence/7803/html/",
+          "publisher": "UK Parliament, DCMS Committee",
+          "title": "Oral evidence: Fake news, HC 363, 27 March 2018 (Christopher Wylie)",
+          "date": "2018-03-27"
+        }
+      ]
+    },
+    {
+      "claim": "Black Cube called Wylie's testimony a 'flagrant lie', said it was flattered to be linked to every international incident, stated that neither it nor its affiliates or subsidiaries had worked for SCL or Cambridge Analytica or operated in Nigeria or on any Nigeria-connected project, and said it would launch a defamation suit against any entity found involved.",
+      "status": "words",
+      "date": "2018-03-28",
+      "quote": "flagrant lie",
+      "sources": [
+        {
+          "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3735126,00.html",
+          "publisher": "Calcalist (CTech)",
+          "title": "Cambridge Analytica Whistleblower Says Israeli Spy Firm Hacked Nigerian President",
+          "date": "2018-03"
+        },
+        {
+          "url": "https://www.thisdaylive.com/2018/03/28/whistle-blower-names-israeli-firm-that-hacked-buharis-emails/",
+          "publisher": "ThisDay",
+          "title": "Whistle-blower Names Israeli Firm That Hacked Buhari's Emails",
+          "date": "2018-03-28"
+        }
+      ]
+    },
+    {
+      "claim": "Quartz, citing the Guardian, reported that Cambridge Analytica was paid an estimated £2 million for a campaign against Buhari in 2015 and that staff working on the Nigerian election met Israeli hackers in the firm's London offices; SCL Elections denied receiving or using hacked information during the campaign.",
+      "status": "reported",
+      "date": "2018-03",
+      "quote": "SCL Elections denied receiving or using hacked information during the campaign",
+      "sources": [
+        {
+          "url": "https://qz.com/africa/1234916/cambridge-analytica-tried-to-sway-nigerias-last-elections-with-buharis-hacked-emails",
+          "publisher": "Quartz (citing The Guardian)",
+          "title": "Cambridge Analytica tried to sway Nigeria's last elections with Buhari's hacked emails",
+          "date": "2018-03"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "cambridge-analytica",
+      "toName": "Cambridge Analytica",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Wylie alleged in DCMS testimony that Cambridge Analytica used Black Cube in Nigeria in 2015; Black Cube denies ever working for SCL or Cambridge Analytica or operating in Nigeria.",
+      "status": "words",
+      "date": "2018-03-27",
+      "quote": "neither it nor its affiliates and subsidiaries worked for SCL or Cambridge Analytica",
+      "sources": [
+        {
+          "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3735126,00.html",
+          "publisher": "Calcalist (CTech)",
+          "title": "Cambridge Analytica Whistleblower Says Israeli Spy Firm Hacked Nigerian President",
+          "date": "2018-03"
+        },
+        {
+          "url": "https://committees.parliament.uk/oralevidence/7803/html/",
+          "publisher": "UK Parliament, DCMS Committee",
+          "title": "Oral evidence: Fake news, HC 363, 27 March 2018 (Christopher Wylie)",
+          "date": "2018-03-27"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Did Black Cube file the defamation suit it threatened? No record was found.",
+    "Is there any official finding that Buhari's emails were hacked or that Black Cube was involved? The allegation rests on Wylie's testimony and anonymous sources."
+  ]
+}

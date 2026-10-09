@@ -1,0 +1,149 @@
+{
+  "entity": "lukoil",
+  "name": "Lukoil",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Lukoil is a Russian oil company. In March 2018 the Observer and the New York Times reported that Cambridge Analytica/SCL had contacts with Lukoil in 2014-15, including a presentation on the firm's work. Lukoil stated on 19 March 2018 that reports of dealings with SCL Group were false, that its contract database held no agreements with SCL Group, that its representatives never met SCL or Cambridge Analytica staff in London, and that it had no interest in political targeting techniques, while acknowledging that SCL Group had offered its services to LUKOIL Eurasia Petrol in Istanbul. The DCMS Committee's final report noted the pitch occurred while SCL Group was delivering counter-Russian propaganda training for NATO.",
+    "sources": [
+      {
+        "url": "https://www.lukoil.com/PressCenter/Pressreleases/Pressrelease/press-secretary-statement",
+        "publisher": "Lukoil",
+        "title": "Press Secretary statement",
+        "date": "2018-03-19"
+      },
+      {
+        "url": "https://www.unian.info/world/10046702-cambridge-analytica-links-to-moscow-oil-firm-and-st-petersburg-university-media.html",
+        "publisher": "UNIAN (citing The Observer)",
+        "title": "Cambridge Analytica links to Moscow oil firm and St Petersburg university – media",
+        "date": "2018-03"
+      },
+      {
+        "url": "https://www.wral.com/story/17424661/",
+        "publisher": "WRAL (New York Times News Service)",
+        "title": "Cambridge Analytica Talked Business With Russians",
+        "date": "2018-03"
+      },
+      {
+        "url": "https://publications.parliament.uk/pa/cm201719/cmselect/cmcumeds/1791/179110.htm",
+        "publisher": "House of Commons DCMS Committee",
+        "title": "Disinformation and 'fake news': Final Report, chapter 7: SCL influence in foreign elections",
+        "date": "2019-02-18"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Lukoil's press secretary stated on 19 March 2018 that reports published by UK and US media about dealings with SCL Group were false, that its contract database contained no agreements with SCL Group as a counterparty, and that the company had no interest in utilizing political targeting techniques.",
+      "status": "words",
+      "date": "2018-03-19",
+      "quote": "has no interest whatsoever in utilizing political targeting techniques",
+      "sources": [
+        {
+          "url": "https://www.lukoil.com/PressCenter/Pressreleases/Pressrelease/press-secretary-statement",
+          "publisher": "Lukoil",
+          "title": "Press Secretary statement",
+          "date": "2018-03-19"
+        }
+      ]
+    },
+    {
+      "claim": "Lukoil's statement said that SCL Group, like many other consulting firms, had offered its services to LUKOIL Eurasia Petrol (Istanbul), a unit selling petroleum products in Turkey, and that Lukoil representatives never met or attempted to meet SCL or Cambridge Analytica staff in London.",
+      "status": "words",
+      "date": "2018-03-19",
+      "quote": "SCL Group, like many other consulting firms, offered their services to LUKOIL Eurasia Petrol",
+      "sources": [
+        {
+          "url": "https://www.lukoil.com/PressCenter/Pressreleases/Pressrelease/press-secretary-statement",
+          "publisher": "Lukoil",
+          "title": "Press Secretary statement",
+          "date": "2018-03-19"
+        }
+      ]
+    },
+    {
+      "claim": "The Observer reported that Lukoil saw a presentation on Cambridge Analytica's work in 2014 that began with a focus on voter suppression in Nigeria, and that Nix emailed colleagues that Lukoil wanted a clearer explanation of how the firm's services would apply to the petroleum business.",
+      "status": "reported",
+      "date": "2014",
+      "quote": "how our services are going to apply to the petroleum business",
+      "sources": [
+        {
+          "url": "https://www.unian.info/world/10046702-cambridge-analytica-links-to-moscow-oil-firm-and-st-petersburg-university-media.html",
+          "publisher": "UNIAN (citing The Observer)",
+          "title": "Cambridge Analytica links to Moscow oil firm and St Petersburg university – media",
+          "date": "2018-03"
+        }
+      ]
+    },
+    {
+      "claim": "The New York Times reported that two former insiders described at least three meetings with Lukoil executives in London and Turkey; SCL and Lukoil denied the talks were political in nature and SCL said there were no meetings in London.",
+      "status": "reported",
+      "date": "2018-03",
+      "quote": "SCL and Lukoil denied the talks were political in nature",
+      "sources": [
+        {
+          "url": "https://www.wral.com/story/17424661/",
+          "publisher": "WRAL (New York Times News Service)",
+          "title": "Cambridge Analytica Talked Business With Russians",
+          "date": "2018-03"
+        }
+      ]
+    },
+    {
+      "claim": "Christopher Wylie's written evidence to the DCMS Committee said the pitch deck Nix prepared for Lukoil began with slides on rumour campaigns and voter manipulation; the committee's final report noted the pitch came while SCL Group was delivering counter-Russian propaganda training for NATO.",
+      "status": "documented",
+      "date": "2019-02-18",
+      "quote": "SCL Group were delivering counter-Russian propaganda training for NATO",
+      "sources": [
+        {
+          "url": "https://committees.parliament.uk/writtenevidence/89475/html/",
+          "publisher": "UK Parliament, DCMS Committee",
+          "title": "Written evidence submitted by Christopher Wylie (FKN0079)",
+          "date": "2018"
+        },
+        {
+          "url": "https://publications.parliament.uk/pa/cm201719/cmselect/cmcumeds/1791/179110.htm",
+          "publisher": "House of Commons DCMS Committee",
+          "title": "Disinformation and 'fake news': Final Report, chapter 7: SCL influence in foreign elections",
+          "date": "2019-02-18"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "cambridge-analytica",
+      "toName": "Cambridge Analytica",
+      "toType": "company",
+      "relation": "other",
+      "reverse": true,
+      "claim": "Cambridge Analytica/SCL pitched services to Lukoil in 2014-15 according to press reports and DCMS evidence; Lukoil says no agreement was reached and it had no interest in political targeting.",
+      "status": "reported",
+      "date": "2014",
+      "quote": "its contract database holds no records of agreements with SCL Group",
+      "sources": [
+        {
+          "url": "https://www.lukoil.com/PressCenter/Pressreleases/Pressrelease/press-secretary-statement",
+          "publisher": "Lukoil",
+          "title": "Press Secretary statement",
+          "date": "2018-03-19"
+        },
+        {
+          "url": "https://www.unian.info/world/10046702-cambridge-analytica-links-to-moscow-oil-firm-and-st-petersburg-university-media.html",
+          "publisher": "UNIAN (citing The Observer)",
+          "title": "Cambridge Analytica links to Moscow oil firm and St Petersburg university – media",
+          "date": "2018-03"
+        },
+        {
+          "url": "https://publications.parliament.uk/pa/cm201719/cmselect/cmcumeds/1791/179110.htm",
+          "publisher": "House of Commons DCMS Committee",
+          "title": "Disinformation and 'fake news': Final Report, chapter 7: SCL influence in foreign elections",
+          "date": "2019-02-18"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Reports differ on the dates of the Lukoil contacts (2014 per the Observer; 2016 per Senator Feinstein's May 2018 statement).",
+    "No source opened showed that any contract or payment between Lukoil and SCL/Cambridge Analytica existed."
+  ]
+}

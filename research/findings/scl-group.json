@@ -5,8 +5,18 @@
   "summary": {
     "text": "SCL Group Ltd was the British parent of a cluster of companies including SCL Elections Ltd, the entity that traded as Cambridge Analytica from 2016, together with SCL Social, SCL Analytics and SCL Commercial. The UK Information Commissioner's Office (ICO) investigated SCL/Cambridge Analytica's use of personal data in political campaigns from 2017 and, in a final letter to the DCMS Committee dated 2 October 2020, reported that SCL Elections had been prosecuted and fined for failing to comply with an enforcement notice, that its director Alexander Nix had been disqualified for seven years after an ICO referral to the Insolvency Service, and that SCL/CA had purchased very large volumes of commercially available data about U.S. voters. The companies entered compulsory liquidation in April 2019.",
     "sources": [
-      { "url": "https://ico.org.uk/media2/migrated/2618383/20201002_ico-o-ed-l-rtl-0181_to-julian-knight-mp.pdf", "publisher": "Information Commissioner's Office", "title": "Letter to Julian Knight MP, Chair of the DCMS Committee (ICO/O/ED/L/RTL/0181)", "date": "2020-10-02" },
-      { "url": "https://www.aljazeera.com/economy/2020/9/25/uk-bans-ex-cambridge-analytica-boss-for-unethical-services", "publisher": "Al Jazeera", "title": "Ex-Cambridge Analytica head banned from running firms in UK", "date": "2020-09-25" }
+      {
+        "url": "https://ico.org.uk/media2/migrated/2618383/20201002_ico-o-ed-l-rtl-0181_to-julian-knight-mp.pdf",
+        "publisher": "Information Commissioner's Office",
+        "title": "Letter to Julian Knight MP, Chair of the DCMS Committee (ICO/O/ED/L/RTL/0181)",
+        "date": "2020-10-02"
+      },
+      {
+        "url": "https://www.aljazeera.com/economy/2020/9/25/uk-bans-ex-cambridge-analytica-boss-for-unethical-services",
+        "publisher": "Al Jazeera",
+        "title": "Ex-Cambridge Analytica head banned from running firms in UK",
+        "date": "2020-09-25"
+      }
     ]
   },
   "facts": [
@@ -16,7 +26,12 @@
       "date": "2020-10-02",
       "quote": "purchasing significant volumes of commercially available personal data (at one estimate over 130 billion data points), mainly about millions of US voters",
       "sources": [
-        { "url": "https://ico.org.uk/media2/migrated/2618383/20201002_ico-o-ed-l-rtl-0181_to-julian-knight-mp.pdf", "publisher": "Information Commissioner's Office", "title": "Letter to Julian Knight MP, Chair of the DCMS Committee (ICO/O/ED/L/RTL/0181)", "date": "2020-10-02" }
+        {
+          "url": "https://ico.org.uk/media2/migrated/2618383/20201002_ico-o-ed-l-rtl-0181_to-julian-knight-mp.pdf",
+          "publisher": "Information Commissioner's Office",
+          "title": "Letter to Julian Knight MP, Chair of the DCMS Committee (ICO/O/ED/L/RTL/0181)",
+          "date": "2020-10-02"
+        }
       ]
     },
     {
@@ -25,7 +40,12 @@
       "date": "2020-10-02",
       "quote": "SCL Elections was successfully prosecuted for their failure to comply with my Enforcement Notice, with a £18,000 fine",
       "sources": [
-        { "url": "https://ico.org.uk/media2/migrated/2618383/20201002_ico-o-ed-l-rtl-0181_to-julian-knight-mp.pdf", "publisher": "Information Commissioner's Office", "title": "Letter to Julian Knight MP, Chair of the DCMS Committee (ICO/O/ED/L/RTL/0181)", "date": "2020-10-02" }
+        {
+          "url": "https://ico.org.uk/media2/migrated/2618383/20201002_ico-o-ed-l-rtl-0181_to-julian-knight-mp.pdf",
+          "publisher": "Information Commissioner's Office",
+          "title": "Letter to Julian Knight MP, Chair of the DCMS Committee (ICO/O/ED/L/RTL/0181)",
+          "date": "2020-10-02"
+        }
       ]
     },
     {
@@ -34,7 +54,12 @@
       "date": "2020-10-02",
       "quote": "no further evidence to change my earlier view that SCL/CA were not involved in the EU referendum campaign in the UK",
       "sources": [
-        { "url": "https://ico.org.uk/media2/migrated/2618383/20201002_ico-o-ed-l-rtl-0181_to-julian-knight-mp.pdf", "publisher": "Information Commissioner's Office", "title": "Letter to Julian Knight MP, Chair of the DCMS Committee (ICO/O/ED/L/RTL/0181)", "date": "2020-10-02" }
+        {
+          "url": "https://ico.org.uk/media2/migrated/2618383/20201002_ico-o-ed-l-rtl-0181_to-julian-knight-mp.pdf",
+          "publisher": "Information Commissioner's Office",
+          "title": "Letter to Julian Knight MP, Chair of the DCMS Committee (ICO/O/ED/L/RTL/0181)",
+          "date": "2020-10-02"
+        }
       ]
     },
     {
@@ -43,9 +68,24 @@
       "date": "2019-01-09",
       "quote": "the company's administrators entered a guilty plea",
       "sources": [
-        { "url": "https://www.theregister.co.uk/2018/10/04/scl_elections_pleads_not_guilty_data_notice_cambridge_analytica/", "publisher": "The Register", "title": "SCL Elections pleads not guilty to ignoring ICO data notice", "date": "2018-10-04" },
-        { "url": "https://globaldatareview.com/article/cambridge-analytica-fined-in-uk", "publisher": "Global Data Review", "title": "Cambridge Analytica fined in UK", "date": "2019-01" },
-        { "url": "https://www.decisionmarketing.co.uk/tag/scl-elections", "publisher": "Decision Marketing", "title": "Cambridge Analytica firm fined for ignoring ICO demand", "date": "2019-01" }
+        {
+          "url": "https://www.theregister.co.uk/2018/10/04/scl_elections_pleads_not_guilty_data_notice_cambridge_analytica/",
+          "publisher": "The Register",
+          "title": "SCL Elections pleads not guilty to ignoring ICO data notice",
+          "date": "2018-10-04"
+        },
+        {
+          "url": "https://globaldatareview.com/article/cambridge-analytica-fined-in-uk",
+          "publisher": "Global Data Review",
+          "title": "Cambridge Analytica fined in UK",
+          "date": "2019-01"
+        },
+        {
+          "url": "https://www.decisionmarketing.co.uk/tag/scl-elections",
+          "publisher": "Decision Marketing",
+          "title": "Cambridge Analytica firm fined for ignoring ICO demand",
+          "date": "2019-01"
+        }
       ]
     },
     {
@@ -54,8 +94,18 @@
       "date": "2018-11-05",
       "quote": "Investigation into the use of data analytics in political campaigns",
       "sources": [
-        { "url": "https://cy.ico.org.uk/media2/migrated/2260271/investigation-into-the-use-of-data-analytics-in-political-campaigns-final-20181105.pdf", "publisher": "Information Commissioner's Office", "title": "Investigation into the use of data analytics in political campaigns: a report to Parliament", "date": "2018-11-05" },
-        { "url": "https://ico.org.uk/media2/migrated/2259369/democracy-disrupted-110718.pdf", "publisher": "Information Commissioner's Office", "title": "Democracy disrupted? Personal information and political influence", "date": "2018-07-11" }
+        {
+          "url": "https://cy.ico.org.uk/media2/migrated/2260271/investigation-into-the-use-of-data-analytics-in-political-campaigns-final-20181105.pdf",
+          "publisher": "Information Commissioner's Office",
+          "title": "Investigation into the use of data analytics in political campaigns: a report to Parliament",
+          "date": "2018-11-05"
+        },
+        {
+          "url": "https://ico.org.uk/media2/migrated/2259369/democracy-disrupted-110718.pdf",
+          "publisher": "Information Commissioner's Office",
+          "title": "Democracy disrupted? Personal information and political influence",
+          "date": "2018-07-11"
+        }
       ]
     },
     {
@@ -64,8 +114,144 @@
       "date": "2020-09-24",
       "quote": "bribery or honey trap stings, voter disengagement campaigns, obtaining information to discredit political opponents and spreading information anonymously in political campaigns",
       "sources": [
-        { "url": "https://www.aljazeera.com/economy/2020/9/25/uk-bans-ex-cambridge-analytica-boss-for-unethical-services", "publisher": "Al Jazeera", "title": "Ex-Cambridge Analytica head banned from running firms in UK", "date": "2020-09-25" },
-        { "url": "https://lbc.co.uk/business/3cbbfa1a585f4c14a4fdf20a89bc6bc0", "publisher": "LBC", "title": "Ex-Cambridge Analytica boss banned from being a company director", "date": "2020-09-24" }
+        {
+          "url": "https://www.aljazeera.com/economy/2020/9/25/uk-bans-ex-cambridge-analytica-boss-for-unethical-services",
+          "publisher": "Al Jazeera",
+          "title": "Ex-Cambridge Analytica head banned from running firms in UK",
+          "date": "2020-09-25"
+        },
+        {
+          "url": "https://lbc.co.uk/business/3cbbfa1a585f4c14a4fdf20a89bc6bc0",
+          "publisher": "LBC",
+          "title": "Ex-Cambridge Analytica boss banned from being a company director",
+          "date": "2020-09-24"
+        }
+      ]
+    },
+    {
+      "claim": "The DCMS Committee's final report (February 2019) recorded that SCL Group was delivering counter-Russian propaganda training for NATO at the time Cambridge Analytica pitched to Lukoil, that the SCL Group went into administration in 2018, and that many individuals involved in SCL and Cambridge Analytica appeared to have moved to new corporate vehicles.",
+      "status": "documented",
+      "date": "2019-02-18",
+      "quote": "Many of the individuals involved in SCL and Cambridge Analytica appear to have moved onto new corporate vehicles.",
+      "sources": [
+        {
+          "url": "https://publications.parliament.uk/pa/cm201719/cmselect/cmcumeds/1791/179110.htm",
+          "publisher": "House of Commons DCMS Committee",
+          "title": "Disinformation and 'fake news': Final Report, chapter 7: SCL influence in foreign elections",
+          "date": "2019-02-18"
+        },
+        {
+          "url": "https://publications.parliament.uk/pa/cm201719/cmselect/cmcumeds/1791/1791.pdf",
+          "publisher": "House of Commons DCMS Committee",
+          "title": "Disinformation and 'fake news': Final Report (HC 1791)",
+          "date": "2019-02-18"
+        },
+        {
+          "url": "https://publications.parliament.uk/pa/cm201719/cmselect/cmcumeds/363/363.pdf",
+          "publisher": "House of Commons DCMS Committee",
+          "title": "Disinformation and 'fake news': Interim Report (HC 363)",
+          "date": "2018-07-29"
+        }
+      ]
+    },
+    {
+      "claim": "The DCMS interim report (July 2018) stated that Emerdata Limited, incorporated in August 2017, was a new ultimate holding company for the SCL companies and the major creditor of SCL Elections Ltd, owed over £6.3 million, and recommended that the National Crime Agency investigate connections between SCL Elections Ltd and Emerdata Ltd.",
+      "status": "documented",
+      "date": "2018-07-29",
+      "quote": "the National Crime Agency should investigate the connections between the company SCL Elections Ltd and Emerdata Ltd",
+      "sources": [
+        {
+          "url": "https://publications.parliament.uk/pa/cm201719/cmselect/cmcumeds/363/36306.htm",
+          "publisher": "House of Commons DCMS Committee",
+          "title": "Disinformation and 'fake news': Interim Report, chapter on data targeting and the SCL companies",
+          "date": "2018-07-29"
+        },
+        {
+          "url": "https://publications.parliament.uk/pa/cm201719/cmselect/cmcumeds/1791/179110.htm",
+          "publisher": "House of Commons DCMS Committee",
+          "title": "Disinformation and 'fake news': Final Report, chapter 7: SCL influence in foreign elections",
+          "date": "2019-02-18"
+        }
+      ]
+    },
+    {
+      "claim": "On 2 May 2018 SCL Elections Ltd and UK affiliates applied to commence insolvency proceedings, with Crowe Clark Whitehill partners Vince Green and Mark Newman appointed joint administrators; the company's statement cited Julian Malins QC's review as finding that allegations against it were not borne out by the facts.",
+      "status": "documented",
+      "date": "2018-05-02",
+      "quote": "Crowe Clark Whitehill partners Vince Green and Mark Newman were appointed joint administrators in the UK.",
+      "sources": [
+        {
+          "url": "https://www.key4biz.it/wp-content/uploads/2018/05/Cambridge-Analytica-and-Scl-Elections-Commence-Insolvency-Proceedings-and-Release-Results-of-Independent-Investigation-into-Recent-Allegations.pdf",
+          "publisher": "Cambridge Analytica / SCL Elections (press release, hosted by Key4biz)",
+          "title": "Cambridge Analytica and SCL Elections Commence Insolvency Proceedings and Release Results of Independent Investigation into Recent Allegations",
+          "date": "2018-05-02"
+        },
+        {
+          "url": "https://accountancyage.com/2018/05/04/crowe-clark-whitehill-to-administrate-cambridge-analytica-insolvency-but-is-this-really-the-end",
+          "publisher": "Accountancy Age",
+          "title": "Crowe Clark Whitehill to administrate Cambridge Analytica insolvency",
+          "date": "2018-05-04"
+        }
+      ]
+    },
+    {
+      "claim": "In January 2019 District Judge Kenneth Grant at Hendon Magistrates' Court fined SCL Elections £15,000 after its administrators pleaded guilty to failing to comply with an ICO enforcement notice, describing the company's conduct as a wilful disregard of the notice.",
+      "status": "court",
+      "date": "2019-01-09",
+      "quote": "wilful disregard of the enforcement notice",
+      "sources": [
+        {
+          "url": "https://www.computing.co.uk/news/3069069/parent-company-of-cambridge-analytica-fined-gbp15-000",
+          "publisher": "Computing",
+          "title": "Cambridge Analytica parent fined £15,000 for non-compliance with ICO",
+          "date": "2019-01-09"
+        },
+        {
+          "url": "https://guernseypress.com/news/uk-news/2019/01/09/cambridge-analytica-parent-firm-fined-after-ignoring-data-enforcement-notice",
+          "publisher": "Guernsey Press (PA)",
+          "title": "Cambridge Analytica parent firm fined after ignoring data enforcement notice",
+          "date": "2019-01-09"
+        }
+      ]
+    },
+    {
+      "claim": "Channel 4 News recorded Mark Turnbull, then managing director of SCL Elections, alongside Nix in meetings in late 2017 and early 2018; Turnbull described operations in which the company was 'ghosted in' and 'ghosted out' of campaigns, according to the DCMS interim report.",
+      "status": "reported",
+      "date": "2018-03",
+      "quote": "no one even knew they were there, they were just ghosted in, did the work, ghosted out",
+      "sources": [
+        {
+          "url": "https://publications.parliament.uk/pa/cm201719/cmselect/cmcumeds/363/36309.htm",
+          "publisher": "House of Commons DCMS Committee",
+          "title": "Disinformation and 'fake news': Interim Report, chapter on SCL influence in foreign elections",
+          "date": "2018-07-29"
+        },
+        {
+          "url": "https://www.channel4.com/news/cambridge-analytica-revealed-trumps-election-consultants-filmed-saying-they-use-bribes-and-sex-workers-to-entrap-politicians-investigation",
+          "publisher": "Channel 4 News",
+          "title": "Revealed: Trump's election consultants filmed saying they use bribes and sex workers to entrap politicians",
+          "date": "2018-03-19"
+        }
+      ]
+    },
+    {
+      "claim": "Lukoil stated on 19 March 2018 that SCL Group, like other consulting firms, had offered its services to LUKOIL Eurasia Petrol in Istanbul, that no agreements with SCL Group appeared in its contract database, and that its representatives never met SCL or Cambridge Analytica staff in London.",
+      "status": "words",
+      "date": "2018-03-19",
+      "quote": "representatives of LUKOIL never met or attempted to meet in London with SCL or Cambridge Analytica staff",
+      "sources": [
+        {
+          "url": "https://www.lukoil.com/PressCenter/Pressreleases/Pressrelease/press-secretary-statement",
+          "publisher": "Lukoil",
+          "title": "Press Secretary statement",
+          "date": "2018-03-19"
+        },
+        {
+          "url": "https://www.wral.com/story/17424661/",
+          "publisher": "WRAL (New York Times News Service)",
+          "title": "Cambridge Analytica Talked Business With Russians",
+          "date": "2018-03"
+        }
       ]
     }
   ],
@@ -80,7 +266,12 @@
       "date": "2016",
       "quote": "SCL Elections, which was more commonly known as Cambridge Analytica from 2016 after a rebrand",
       "sources": [
-        { "url": "https://www.aljazeera.com/economy/2020/9/25/uk-bans-ex-cambridge-analytica-boss-for-unethical-services", "publisher": "Al Jazeera", "title": "Ex-Cambridge Analytica head banned from running firms in UK", "date": "2020-09-25" }
+        {
+          "url": "https://www.aljazeera.com/economy/2020/9/25/uk-bans-ex-cambridge-analytica-boss-for-unethical-services",
+          "publisher": "Al Jazeera",
+          "title": "Ex-Cambridge Analytica head banned from running firms in UK",
+          "date": "2020-09-25"
+        }
       ]
     },
     {
@@ -94,7 +285,111 @@
       "date": "2020-10-05",
       "quote": "Mr Alexander Nix, a Director of SCL Elections Ltd, is now disqualified from acting as a director for a period of seven years",
       "sources": [
-        { "url": "https://ico.org.uk/media2/migrated/2618383/20201002_ico-o-ed-l-rtl-0181_to-julian-knight-mp.pdf", "publisher": "Information Commissioner's Office", "title": "Letter to Julian Knight MP, Chair of the DCMS Committee (ICO/O/ED/L/RTL/0181)", "date": "2020-10-02" }
+        {
+          "url": "https://ico.org.uk/media2/migrated/2618383/20201002_ico-o-ed-l-rtl-0181_to-julian-knight-mp.pdf",
+          "publisher": "Information Commissioner's Office",
+          "title": "Letter to Julian Knight MP, Chair of the DCMS Committee (ICO/O/ED/L/RTL/0181)",
+          "date": "2020-10-02"
+        }
+      ]
+    },
+    {
+      "to": "emerdata",
+      "toName": "Emerdata",
+      "toType": "company",
+      "relation": "subsidiary of",
+      "claim": "The DCMS interim report described Emerdata Limited (incorporated August 2017) as the new ultimate holding company of the SCL companies and the major creditor of SCL Elections Ltd, owed over £6.3 million.",
+      "status": "documented",
+      "date": "2018-07-29",
+      "quote": "a new ultimate holding company incorporated in August 2017",
+      "sources": [
+        {
+          "url": "https://publications.parliament.uk/pa/cm201719/cmselect/cmcumeds/363/36306.htm",
+          "publisher": "House of Commons DCMS Committee",
+          "title": "Disinformation and 'fake news': Interim Report, chapter on data targeting and the SCL companies",
+          "date": "2018-07-29"
+        },
+        {
+          "url": "https://publications.parliament.uk/pa/cm201719/cmselect/cmcumeds/1791/179110.htm",
+          "publisher": "House of Commons DCMS Committee",
+          "title": "Disinformation and 'fake news': Final Report, chapter 7: SCL influence in foreign elections",
+          "date": "2019-02-18"
+        }
+      ]
+    },
+    {
+      "to": "nigel-oakes",
+      "toName": "Nigel Oakes",
+      "toType": "person",
+      "relation": "founded",
+      "reverse": true,
+      "claim": "Dr Emma Briant's written evidence to the DCMS Committee describes Nigel Oakes as chairman of the Behavioural Dynamics Institute, a research centre of SCL Group; Brittany Kaiser told the committee he was the SCL co-founder in charge of its defence division.",
+      "status": "documented",
+      "date": "2018",
+      "quote": "the co-founder of the SCL Group, who was in charge of our defence division",
+      "sources": [
+        {
+          "url": "https://committees.parliament.uk/writtenevidence/89090/html/",
+          "publisher": "UK Parliament, DCMS Committee",
+          "title": "Written evidence submitted by Dr Emma L Briant (FKN0071)",
+          "date": "2018"
+        },
+        {
+          "url": "https://committees.parliament.uk/oralevidence/7823/html/",
+          "publisher": "UK Parliament, DCMS Committee",
+          "title": "Oral evidence: Fake news, HC 363, 17 April 2018 (Brittany Kaiser)",
+          "date": "2018-04-17"
+        }
+      ]
+    },
+    {
+      "to": "mark-turnbull",
+      "toName": "Mark Turnbull",
+      "toType": "person",
+      "relation": "executive of",
+      "reverse": true,
+      "claim": "Mark Turnbull was managing director of SCL Elections' political division when filmed by Channel 4 News in 2018, according to the DCMS interim report and Channel 4.",
+      "status": "documented",
+      "date": "2018-03",
+      "quote": "then managing director of SCL Elections",
+      "sources": [
+        {
+          "url": "https://publications.parliament.uk/pa/cm201719/cmselect/cmcumeds/363/36309.htm",
+          "publisher": "House of Commons DCMS Committee",
+          "title": "Disinformation and 'fake news': Interim Report, chapter on SCL influence in foreign elections",
+          "date": "2018-07-29"
+        },
+        {
+          "url": "https://www.channel4.com/news/cambridge-analytica-revealed-trumps-election-consultants-filmed-saying-they-use-bribes-and-sex-workers-to-entrap-politicians-investigation",
+          "publisher": "Channel 4 News",
+          "title": "Revealed: Trump's election consultants filmed saying they use bribes and sex workers to entrap politicians",
+          "date": "2018-03-19"
+        }
+      ]
+    },
+    {
+      "to": "digital-culture-media-and-sport-committee",
+      "toName": "Digital, Culture, Media and Sport Committee",
+      "toType": "organization",
+      "relation": "investigated",
+      "reverse": true,
+      "claim": "The DCMS Committee examined the SCL companies in its Disinformation inquiry, devoting a chapter of its 2019 final report to SCL influence in foreign elections.",
+      "status": "documented",
+      "date": "2019-02-18",
+      "quote": "7 SCL influence in foreign elections",
+      "sources": [
+        {
+          "url": "https://publications.parliament.uk/pa/cm201719/cmselect/cmcumeds/1791/179110.htm",
+          "publisher": "House of Commons DCMS Committee",
+          "title": "Disinformation and 'fake news': Final Report, chapter 7: SCL influence in foreign elections",
+          "date": "2019-02-18"
+        },
+        {
+          "url": "https://publications.parliament.uk/pa/cm201719/cmselect/cmcumeds/1791/1791.pdf",
+          "publisher": "House of Commons DCMS Committee",
+          "title": "Disinformation and 'fake news': Final Report (HC 1791)",
+          "date": "2019-02-18"
+        }
       ]
     }
   ],
@@ -102,6 +397,8 @@
     "The ICO letter gives the SCL Elections fine as £18,000; trade press reported £21,000 including over £6,000 costs. The breakdown should be checked against the court record.",
     "The ICO's 2018 fine of £500,000 against Facebook and its earlier enforcement notice to SCL Elections (May 2018) were not opened in this file; they are described in the ICO's November 2018 report.",
     "The corporate structure (which SCL entity owned Cambridge Analytica LLC in the U.S., and the Mercer family's shareholding) was not established from a primary record; see the robert-mercer file.",
-    "The ICO letter's signatory is inferred to be Elizabeth Denham from the reference code; the full letter should be read to confirm."
+    "The ICO letter's signatory is inferred to be Elizabeth Denham from the reference code; the full letter should be read to confirm.",
+    "Did the National Crime Agency act on the DCMS Committee's recommendation to investigate connections between SCL Elections Ltd and Emerdata Ltd?",
+    "Nigel Oakes's reported 2011 Ministry of Defence commendation could not be located in the sources opened; the MoD link rests on Wylie's belief in oral evidence and Briant's written evidence."
   ]
 }

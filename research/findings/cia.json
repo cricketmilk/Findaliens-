@@ -129,6 +129,71 @@
           "date": "2025-06-25"
         }
       ]
+    },
+    {
+      "claim": "The CIA Office of Inspector General's 2005 accountability review of the agency's performance before September 11 was released as a declassified executive summary on August 21, 2007 as required by legislation. It found that the agency and its officers did not discharge their responsibilities in a satisfactory manner on certain issues, including the failure to watchlist future hijackers Nawaf al-Hazmi and Khalid al-Mihdhar after learning in early 2000 that they held U.S. visas, and recommended an accountability board for at least three senior managers. It found no misconduct or breaking of the law; Director Michael Hayden declined to convene the board.",
+      "status": "documented",
+      "date": "2007-08-21",
+      "quote": "the Agency and its officers did not discharge their responsibilities in a satisfactory manner",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2007/08/21/13834381/oig-faults-cia-in-report-on-sept-11-attacks",
+          "publisher": "NPR",
+          "title": "OIG Faults CIA in Report on Sept. 11 Attacks",
+          "date": "2007-08-21"
+        },
+        {
+          "url": "https://www.npr.org/2007/08/21/13827903/cia-chief-haydens-statement-on-sept-11-report",
+          "publisher": "NPR",
+          "title": "CIA Chief Hayden's Statement on Sept. 11 Report",
+          "date": "2007-08-21"
+        },
+        {
+          "url": "https://www.voanews.com/a/a-13-2007-08-22-voa36/348647.html",
+          "publisher": "Voice of America",
+          "title": "Internal Report Faults Ex-CIA Director's Counterterrorism Efforts",
+          "date": "2007-08-22"
+        }
+      ]
+    },
+    {
+      "claim": "The Inspector General's summary said former Director George Tenet was either unwilling or unable to marshal intelligence resources to combat the growing threat from al Qaeda and failed to develop a comprehensive counterterrorism plan; Tenet called many of the conclusions flat wrong and said a robust plan existed before September 11.",
+      "status": "documented",
+      "date": "2007-08-21",
+      "quote": "Tenet called many of the report's conclusions \"flat wrong\" and said a \"robust\" plan existed before 9/11.",
+      "sources": [
+        {
+          "url": "https://www.voanews.com/a/a-13-2007-08-22-voa36/348647.html",
+          "publisher": "Voice of America",
+          "title": "Internal Report Faults Ex-CIA Director's Counterterrorism Efforts",
+          "date": "2007-08-22"
+        },
+        {
+          "url": "https://www.cbsnews.com/news/9-11-accusations-fly-within-cia/",
+          "publisher": "CBS News",
+          "title": "9/11 Accusations Fly Within CIA"
+        }
+      ]
+    },
+    {
+      "claim": "The Iraq Survey Group, reporting to the Director of Central Intelligence under Special Advisor Charles Duelfer, concluded on September 30, 2004 that Iraq had ended its nuclear program in 1991, had destroyed its undeclared chemical stockpile in 1991, and that there was no evidence of plans after 1995 to resume biological weapons production, while judging that Saddam Hussein intended to reconstitute WMD capability once sanctions were lifted.",
+      "status": "documented",
+      "date": "2004-09-30",
+      "quote": "Saddam Husayn ended the nuclear program in 1991 following the Gulf war. ISG found no evidence to suggest concerted efforts to restart the program.",
+      "sources": [
+        {
+          "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB418/docs/11%20-%20Duelfer%20report%20-%20excerpted%20key%20findings%209-30-04.pdf",
+          "publisher": "Iraq Survey Group (via National Security Archive)",
+          "title": "Comprehensive Report of the Special Advisor to the DCI on Iraq's WMD: Key Findings",
+          "date": "2004-09-30"
+        },
+        {
+          "url": "https://www.nbcnews.com/id/wbna6023159",
+          "publisher": "NBC News",
+          "title": "Report: Iraq had no WMD, only intentions",
+          "date": "2004-10-06"
+        }
+      ]
     }
   ],
   "connections": [
@@ -213,9 +278,29 @@
           "date": "2013-08-19"
         }
       ]
+    },
+    {
+      "to": "iraq",
+      "toName": "Iraq",
+      "toType": "government",
+      "relation": "investigated",
+      "claim": "The CIA-led Iraq Survey Group searched Iraq for weapons of mass destruction after the 2003 invasion and reported in September 2004 that it found no chemical, biological or nuclear weapons or active programs at the time of the invasion.",
+      "status": "documented",
+      "date": "2004-09-30",
+      "quote": "Comprehensive Report of the Special Advisor to the DCI on Iraq's WMD",
+      "sources": [
+        {
+          "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB418/docs/11%20-%20Duelfer%20report%20-%20excerpted%20key%20findings%209-30-04.pdf",
+          "publisher": "Iraq Survey Group (via National Security Archive)",
+          "title": "Comprehensive Report of the Special Advisor to the DCI on Iraq's WMD: Key Findings",
+          "date": "2004-09-30"
+        }
+      ]
     }
   ],
   "openQuestions": [
-    "Iran-Contra and 2025 items appended 2026-10-09. The CIA-officer prosecution details come from the Walsh Summary of Prosecutions and Part VI excerpts; Clarridge's indictment concerned the November 1985 HAWK shipment to Iran, per Chapter 18. The Tower Commission's finding that NSC staff rather than the CIA directed the Iran deals appears in Time's 1987 summary but was not captured from the report text itself, so it is not recorded as a fact."
+    "Iran-Contra and 2025 items appended 2026-10-09. The CIA-officer prosecution details come from the Walsh Summary of Prosecutions and Part VI excerpts; Clarridge's indictment concerned the November 1985 HAWK shipment to Iran, per Chapter 18. The Tower Commission's finding that NSC staff rather than the CIA directed the Iran deals appears in Time's 1987 summary but was not captured from the report text itself, so it is not recorded as a fact.",
+    "The site's crash-conduits node says CIA Alec Station withheld intelligence on al-Hazmi and al-Mihdhar from the FBI as a suspected recruitment effort. The Inspector General summary (2007) records the watchlisting failure and recommends accountability for senior managers but finds no misconduct and states no motive; a figure of 50 to 60 officers who read the relevant cables appeared only in a partisan outlet and was not recorded.",
+    "The CIA Inspector General executive summary itself (on cia.gov) was not retrieved; the items rest on NPR, VOA and CBS coverage of its release."
   ]
 }

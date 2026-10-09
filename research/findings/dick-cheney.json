@@ -1,0 +1,79 @@
+{
+  "entity": "dick-cheney",
+  "name": "Dick Cheney",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Richard B. (Dick) Cheney served as U.S. Secretary of Defense (1989-1993), chairman and chief executive officer of Halliburton (1995-2000) and Vice President of the United States (2001-2009). In an August 26, 2002 speech he stated there was no doubt that Saddam Hussein had weapons of mass destruction. The Senate Select Committee on Intelligence found in June 2008 that his description of an alleged Prague meeting between Mohamed Atta and an Iraqi intelligence officer as pretty well confirmed was not substantiated by the intelligence, and the Iraq Survey Group found in 2004 that Iraq had no WMD stockpiles or active programs at the time of the 2003 invasion.",
+    "sources": [
+      { "url": "https://www.foxnews.com/story/fast-facts-dick-cheney", "publisher": "Fox News", "title": "Fast Facts: Dick Cheney" },
+      { "url": "https://georgewbush-whitehouse.archives.gov/news/releases/2002/08/20020826.html", "publisher": "The White House (George W. Bush archives)", "title": "Vice President Speaks at VFW 103rd National Convention", "date": "2002-08-26" },
+      { "url": "https://www.intelligence.senate.gov/2008/06/05/press-senate-intelligence-committee-unveils-final-phase-ii-reports-prewar-iraq-intelligence/", "publisher": "U.S. Senate Select Committee on Intelligence", "title": "Senate Intelligence Committee Unveils Final Phase II Reports on Prewar Iraq Intelligence", "date": "2008-06-05" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Speaking to the Veterans of Foreign Wars 103rd National Convention in Nashville on August 26, 2002, Vice President Cheney said there was no doubt that Saddam Hussein had weapons of mass destruction and no doubt he was amassing them for use against the United States, its allies and friends, citing Iraq's violations of UN Security Council Resolution 687 and defector reporting on nuclear efforts.",
+      "status": "words",
+      "date": "2002-08-26",
+      "quote": "Simply stated, there is no doubt that Saddam Hussein now has weapons of mass destruction.",
+      "sources": [
+        { "url": "https://georgewbush-whitehouse.archives.gov/news/releases/2002/08/20020826.html", "publisher": "The White House (George W. Bush archives)", "title": "Vice President Speaks at VFW 103rd National Convention", "date": "2002-08-26" },
+        { "url": "https://www.americanrhetoric.com/speeches/dickcheney103rdvfw.htm", "publisher": "American Rhetoric", "title": "Dick Cheney - Address to the Veterans of Foreign Wars 103rd National Convention", "date": "2002-08-26" }
+      ]
+    },
+    {
+      "claim": "The Senate Select Committee on Intelligence's June 5, 2008 Phase II report found that the Vice President's public description of the alleged April 2001 Prague meeting between hijacker Mohamed Atta and an Iraqi intelligence officer as pretty well confirmed was not substantiated by the intelligence available at the time; the 9/11 Commission had concluded in 2004 that the meeting did not occur.",
+      "status": "court",
+      "date": "2008-06-05",
+      "quote": "the then-vice president described as \"pretty well confirmed\"; the committee found that claim was not substantiated by the intelligence at the time.",
+      "sources": [
+        { "url": "https://www.intelligence.senate.gov/2008/06/05/press-senate-intelligence-committee-unveils-final-phase-ii-reports-prewar-iraq-intelligence/", "publisher": "U.S. Senate Select Committee on Intelligence", "title": "Senate Intelligence Committee Unveils Final Phase II Reports on Prewar Iraq Intelligence", "date": "2008-06-05" },
+        { "url": "https://www.govinfo.gov/content/pkg/CRPT-110srpt345/pdf/CRPT-110srpt345.pdf", "publisher": "U.S. Senate Select Committee on Intelligence (via GovInfo)", "title": "Report on Whether Public Statements Regarding Iraq by U.S. Government Officials Were Substantiated by Intelligence Information (S. Rept. 110-345)", "date": "2008-06-05" },
+        { "url": "https://www.nbcnews.com/id/wbna5223932", "publisher": "NBC News", "title": "9/11 panel sees no link between Iraq, al-Qaida", "date": "2004-06-16" }
+      ]
+    },
+    {
+      "claim": "In a September 10, 2006 Meet the Press interview, Tim Russert put to Vice President Cheney that the primary rationale given for the Iraq war was that Saddam had weapons of mass destruction and quoted back his August 2002 VFW statement.",
+      "status": "words",
+      "date": "2006-09-10",
+      "quote": "Vice President, the primary rationale given for the war in Iraq was Saddam had weapons of mass destruction. In August of 2002, this is what you told the VFW.",
+      "sources": [
+        { "url": "https://georgewbush-whitehouse.archives.gov/news/releases/2006/09/20060910.html", "publisher": "The White House (George W. Bush archives)", "title": "Interview of the Vice President by Tim Russert, NBC News, Meet the Press", "date": "2006-09-10" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "halliburton",
+      "toName": "Halliburton",
+      "toType": "company",
+      "relation": "executive of",
+      "claim": "Dick Cheney was chairman of the board and chief executive officer of Halliburton from 1995 to 2000, between serving as Secretary of Defense and as Vice President.",
+      "status": "reported",
+      "date": "2000",
+      "quote": "he became chairman of the board and chief executive officer (CEO) of Halliburton Company.",
+      "sources": [
+        { "url": "https://www.foxnews.com/story/fast-facts-dick-cheney", "publisher": "Fox News", "title": "Fast Facts: Dick Cheney" }
+      ]
+    },
+    {
+      "to": "iraq",
+      "toName": "Iraq",
+      "toType": "government",
+      "relation": "other",
+      "claim": "As Vice President, Cheney publicly asserted in August 2002 that Iraq possessed weapons of mass destruction; the Iraq Survey Group reported in September 2004 that Iraq had ended its nuclear program and destroyed its chemical stockpile in 1991 and had no active WMD programs at the time of the 2003 invasion.",
+      "status": "words",
+      "date": "2002-08-26",
+      "quote": "Simply stated, there is no doubt that Saddam Hussein now has weapons of mass destruction.",
+      "sources": [
+        { "url": "https://georgewbush-whitehouse.archives.gov/news/releases/2002/08/20020826.html", "publisher": "The White House (George W. Bush archives)", "title": "Vice President Speaks at VFW 103rd National Convention", "date": "2002-08-26" },
+        { "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB418/docs/11%20-%20Duelfer%20report%20-%20excerpted%20key%20findings%209-30-04.pdf", "publisher": "Iraq Survey Group (via National Security Archive)", "title": "Comprehensive Report of the Special Advisor to the DCI on Iraq's WMD: Key Findings", "date": "2004-09-30" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The Halliburton-Iraq contract facts (the March 2003 no-bid Restore Iraqi Oil award and the Army Corps email describing it as coordinated with the Vice President's office) are recorded in halliburton.json and iraq.json and were not duplicated here.",
+    "The Center for Public Integrity's count of 48 false statements attributed to Cheney in its 2008 War Card study came from a single secondary summary and was not recorded; the owner can check the Center's searchable database.",
+    "Cheney's government service dates in the summary rest on a Fox News fact sheet already used in halliburton.json; an official biography (e.g. the Bush White House archive) would be a stronger source."
+  ]
+}

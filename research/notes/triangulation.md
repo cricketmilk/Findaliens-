@@ -112,3 +112,44 @@ The records support trends; they do not support the specific accusations
 the pages make in their own voice. The safe shape, which the Crash Conduits
 page now has, is: editorial node, then "On The Web" showing which of its
 names carry approved sourced items, then the reader decides.
+
+## Round four verdicts (2026-10-09)
+
+- **Suspicious timing.** Pre-9/11 puts: contradicted by the SEC's 2002 review
+  and the Commission's note 130, statistically supported by Poteshman (2006).
+  October 7 short-selling: the paper's Leumi figure was overstated a
+  hundredfold (agorot for shekels) and corrected; the ISA found no significant
+  abnormalities. Senate COVID sales: documented; DOJ (January 2021) and the SEC
+  (January 2023) closed without action. Paulson and Eton Park: the July 2008
+  meeting is reported; no trade on it was ever documented.
+- **Iran.** The chain runs on primary documents from the 1954 consortium to
+  the June 2025 strikes. The Senate BCCI report states the bank "was
+  incontestably used by key Iran/Contra figures to finance arms shipments to
+  Iran." For 2025 the record holds, dated and side by side, the DNI's "is not
+  building a nuclear weapon," the IAEA's 408.6 kg at 60% and its
+  non-compliance resolution, the "obliterated" statements, the reported DIA
+  "months" assessment, and the 47-53 war-powers vote. It does not adjudicate
+  "warranted".
+- **9/11 and Saudi Arabia.** Every official finding attributes the attacks to
+  al Qaeda. The Commission found no evidence of institutional or senior-
+  official funding; the 28 pages are "unverified leads"; the FBI's 2017 memo
+  calls al-Bayoumi a paid GID cooptee while Encore's closing material says
+  the evidence "did not establish" a knowing conspiracy; the August 2025 SDNY
+  ruling lets the families' case proceed. "It was Saudi Arabia" is partly
+  supported and mostly unsupported as stated; the record's own disagreements
+  are what the page should show.
+- **Iraq.** Supported: SSCI 2004 ("overstated, or were not supported by"),
+  Duelfer, SSCI 2008 ("not substantiated" on al-Qaeda and Prague), Chilcot
+  ("certainty that was not justified"). No inquiry finds officials knew the
+  claims were false; the Downing Street memo is reported, not a finding.
+- **Carlyle and the bin Laden family.** A ~$2M fund investment and an
+  October 2001 mutual severance are sourced. The September 11, 2001 investor
+  conference is unverified from acceptable sources.
+- **Epstein.** The money's sources are documented as client fees (Wexner,
+  Black); the Towers Financial role is documented and he was never charged;
+  "absorbed lost money" rests on Hoffenberg's own assertions; crypto is a
+  ~$3M 2014 Coinbase stake, with no record of client or Towers money
+  converted and none in the estate inventory.
+- **The causal chain "misattributed to start an endless war"** has no source
+  in any of the above. The records support laying the disagreements out,
+  not the conclusion.

@@ -502,6 +502,81 @@
           "date": "2025-11-18"
         }
       ]
+    },
+    {
+      "claim": "NBC News reported in February 2026 that Hoffman said on X that he 'only knew Jeffrey Epstein because of a fundraising relationship' with MIT, 'which I very much regret,' and that he went to Epstein's island 'with Joi Ito, the Director of the MIT Media Lab, who had asked me to help MIT fundraise from Epstein.'",
+      "status": "words",
+      "date": "2026-02",
+      "quote": "Hoffman said on X that he \"only knew Jeffrey Epstein because of a fundraising relationship\" with MIT, \"which I very much regret.\" He also said he went to Epstein's island \"with Joi Ito, the Director of the MIT Media Lab, who had asked me to help MIT fundraise from Epstein.\"",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/tech/tech-news/jeffrey-epstein-files-reveal-deep-tech-ties-musk-gates-rcna257092",
+          "publisher": "NBC News",
+          "title": "Latest Epstein files release rattles Silicon Valley",
+          "date": "2026-02"
+        }
+      ]
+    },
+    {
+      "claim": "The Justice Department's 2026 release includes a July 2013 message in which Epstein asked Joi Ito about the jail; Ito replied that he had talked to Hoffman about it and that Hoffman 'doesn't judge people.' NBC News reported that there is no indication in the documents that Hoffman knew of Epstein's alleged ongoing crimes during their acquaintance.",
+      "status": "reported",
+      "date": "2013-07",
+      "quote": "In a July 2013 message to Joi Ito, then director of MIT's Media Lab, Epstein asked about the jail; Ito replied that he had talked to Hoffman about it and that he doesn't judge people.",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/tech/tech-news/jeffrey-epstein-files-reveal-deep-tech-ties-musk-gates-rcna257092",
+          "publisher": "NBC News",
+          "title": "Latest Epstein files release rattles Silicon Valley",
+          "date": "2026-02"
+        }
+      ]
+    },
+    {
+      "claim": "In February 2026 Hoffman posted on X, over a news headline about the Justice Department's release: 'Fixed your headline: LinkedIn founder Reid Hoffman exonerated by Trump's FBI in newly released Epstein DOJ docs. Release all the files. Prosecute the abusers.' The 'exonerated' characterization is Hoffman's; no official finding to that effect has been reported.",
+      "status": "words",
+      "date": "2026-02",
+      "quote": "Fixed your headline: LinkedIn founder Reid Hoffman exonerated by Trump's FBI in newly released Epstein DOJ docs. Release all the files. Prosecute the abusers.",
+      "sources": [
+        {
+          "url": "https://x.com/reidhoffman/status/2017732426898808921",
+          "publisher": "Reid Hoffman on X",
+          "title": "Fixed your headline: LinkedIn founder Reid Hoffman exonerated by Trump's FBI in newly released Epstein DOJ docs",
+          "date": "2026-02"
+        }
+      ]
+    },
+    {
+      "claim": "The Wall Street Journal reported in August 2023, from Epstein's emails and schedules, that Hoffman introduced Peter Thiel to Epstein and that Epstein then scheduled at least six meetings with Thiel at his townhouse from 2014 to 2016. Hoffman said he made the introduction to fundraise for MIT and regretted the association: 'I trusted MIT's vetting and did not do my own.'",
+      "status": "reported",
+      "date": "2023-08-30",
+      "quote": "Hoffman later said he regretted the association and that he had introduced Thiel in order to fundraise for MIT. \"I trusted MIT's vetting and did not do my own,\" Hoffman said.",
+      "sources": [
+        {
+          "url": "https://dailycaller.com/2023/08/30/mostly-fun-democrat-megadonor-reportedly-introduced-trump-backer-jeffrey-epstein/",
+          "publisher": "Daily Caller (reporting a Wall Street Journal story)",
+          "title": "Democrat Megadonor Reportedly Introduced Trump Backer To Jeffrey Epstein",
+          "date": "2023-08-30"
+        }
+      ]
+    },
+    {
+      "claim": "MIT's Goodwin Procter report states that Epstein visited the MIT campus on July 19, 2013 and met with Joi Ito and Hoffman, and describes Hoffman as a member of the Media Lab Advisory Council.",
+      "status": "court",
+      "date": "2013-07-19",
+      "quote": "on July 19, 2013, Epstein visited the MIT campus and met with then–Media Lab director Joi Ito and Reid Hoffman.",
+      "sources": [
+        {
+          "url": "https://facultygovernance.mit.edu/sites/default/files/20200121GoodwinProcterReport.pdf",
+          "publisher": "Goodwin Procter LLP (for MIT)",
+          "title": "Report Concerning Jeffrey Epstein's Interactions with the Massachusetts Institute of Technology",
+          "date": "2020-01-10"
+        },
+        {
+          "url": "https://nlpc.org/corporate-integrity-project/did-reid-hoffman-soft-play-his-role-shielding-epstein-at-mit/",
+          "publisher": "National Legal and Policy Center (quoting the Goodwin Procter report)",
+          "title": "Did Reid Hoffman Soft-Play His Role Shielding Epstein at MIT?"
+        }
+      ]
     }
   ],
   "connections": [
@@ -899,6 +974,70 @@
           "date": "2019-09-12"
         }
       ]
+    },
+    {
+      "to": "peter-thiel",
+      "toName": "Peter Thiel",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Per the Wall Street Journal's 2023 review of Epstein's records, Hoffman introduced Thiel to Epstein, after which Epstein scheduled at least six meetings with Thiel in 2014-16. Hoffman said the introduction was for MIT fundraising.",
+      "status": "reported",
+      "date": "2014",
+      "quote": "Epstein scheduled at least six meetings with Thiel at his townhouse from 2014-16 following Hoffman's effort to connect Thiel to Epstein",
+      "sources": [
+        {
+          "url": "https://dailycaller.com/2023/08/30/mostly-fun-democrat-megadonor-reportedly-introduced-trump-backer-jeffrey-epstein/",
+          "publisher": "Daily Caller (reporting a Wall Street Journal story)",
+          "title": "Democrat Megadonor Reportedly Introduced Trump Backer To Jeffrey Epstein",
+          "date": "2023-08-30"
+        }
+      ]
+    },
+    {
+      "to": "joi-ito",
+      "toName": "Joi Ito",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Hoffman, a Media Lab Advisory Council member per the Goodwin Procter report, helped Ito fundraise from Epstein, met Epstein with Ito on campus in July 2013, and was consulted by Ito in July 2016 about Epstein attending a lab conference.",
+      "status": "court",
+      "date": "2013-2016",
+      "quote": "in July 2016, Ito sought advice from Reid Hoffman about whether to allow Epstein to attend a conference",
+      "sources": [
+        {
+          "url": "https://facultygovernance.mit.edu/sites/default/files/20200121GoodwinProcterReport.pdf",
+          "publisher": "Goodwin Procter LLP (for MIT)",
+          "title": "Report Concerning Jeffrey Epstein's Interactions with the Massachusetts Institute of Technology",
+          "date": "2020-01-10"
+        },
+        {
+          "url": "https://nlpc.org/corporate-integrity-project/did-reid-hoffman-soft-play-his-role-shielding-epstein-at-mit/",
+          "publisher": "National Legal and Policy Center (quoting the Goodwin Procter report)",
+          "title": "Did Reid Hoffman Soft-Play His Role Shielding Epstein at MIT?"
+        }
+      ]
+    },
+    {
+      "to": "mit-media-lab",
+      "toName": "MIT Media Lab",
+      "toType": "organization",
+      "relation": "other",
+      "claim": "Hoffman was a member of the MIT Media Lab Advisory Council and has said his Epstein contacts were to help the lab fundraise, at Ito's request.",
+      "status": "court",
+      "date": "2013-2016",
+      "quote": "on July 19, 2013, Epstein visited the MIT campus and met with then–Media Lab director Joi Ito and Reid Hoffman.",
+      "sources": [
+        {
+          "url": "https://facultygovernance.mit.edu/sites/default/files/20200121GoodwinProcterReport.pdf",
+          "publisher": "Goodwin Procter LLP (for MIT)",
+          "title": "Report Concerning Jeffrey Epstein's Interactions with the Massachusetts Institute of Technology",
+          "date": "2020-01-10"
+        },
+        {
+          "url": "https://nlpc.org/corporate-integrity-project/did-reid-hoffman-soft-play-his-role-shielding-epstein-at-mit/",
+          "publisher": "National Legal and Policy Center (quoting the Goodwin Procter report)",
+          "title": "Did Reid Hoffman Soft-Play His Role Shielding Epstein at MIT?"
+        }
+      ]
     }
   ],
   "openQuestions": [
@@ -915,6 +1054,9 @@
     "The current status of the FTC inquiry into Microsoft–Inflection: no closing record found.",
     "When Hoffman joined Airbnb's board and whether he is still on it: his O'Reilly bio lists a seat but gives no date.",
     "Ties to David Sacks: no record found of co-investments or shared boards; one data-aggregator page listing Hoffman as a Yammer board member looks unreliable.",
-    "The venue of the August 2015 dinner (Baumé restaurant vs. Hoffman's home): reports differ."
+    "The venue of the August 2015 dinner (Baumé restaurant vs. Hoffman's home): reports differ.",
+    "The Christmas Eve 2014 Hoffman-to-Epstein email ('ice cream ... for the girls') and the representative's explanation that 'the girls' were adult staff were found only on advocacy or aggregator sites and were left out.",
+    "Hoffman's X post about the island visit is cited through NBC News; the post itself and its date were not located.",
+    "The Wall Street Journal's 2023 story is cited through the Daily Caller's account; verify against the Journal."
   ]
 }

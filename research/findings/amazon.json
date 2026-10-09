@@ -1,0 +1,250 @@
+{
+  "entity": "amazon",
+  "name": "Amazon",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Amazon.com, Inc. is a publicly traded retail, logistics and cloud-computing company; its Amazon Web Services unit is a major provider of cloud infrastructure to companies and governments. The Federal Trade Commission's monopolization suit against Amazon, filed in 2023, is scheduled for a bench trial in March 2027; a separate FTC case over Prime enrollment practices was settled in 2025 for $2.5 billion without admission of liability. Amazon is a Pentagon cloud contractor under the Joint Warfighting Cloud Capability contract, has invested $8 billion in Anthropic, and signed a $38 billion cloud agreement with OpenAI in November 2025.",
+    "sources": [
+      {
+        "url": "https://www.courtlistener.com/docket/67828404/federal-trade-commission-v-amazoncom-inc/",
+        "publisher": "CourtListener (U.S. District Court, W.D. Washington docket)",
+        "title": "Federal Trade Commission v. Amazon.com Inc, 2:23-cv-01495"
+      },
+      {
+        "url": "https://www.retaildive.com/news/amazon-prime-settlement-ftc-billion/761186/",
+        "publisher": "Retail Dive",
+        "title": "Amazon to pay $2.5 billion in FTC Prime membership settlement",
+        "date": "2025-09"
+      },
+      {
+        "url": "https://www.aboutamazon.com/news/aws/aws-open-ai-workloads-compute-infrastructure",
+        "publisher": "Amazon (company statement)",
+        "title": "AWS announces new partnership to power OpenAI's AI workloads",
+        "date": "2025-11-03"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The Federal Trade Commission and several states sued Amazon in September 2023 (FTC v. Amazon.com, No. 2:23-cv-01495, W.D. Wash.), alleging monopolization. U.S. District Judge John Chun ruled that Amazon must face the majority of the 20 claims, dismissing some state-law claims while the FTC's Sherman Act and FTC Act claims survived. The complaint's allegations have not been tried.",
+      "status": "court",
+      "date": "2024",
+      "quote": "Judge Chun ruled that Amazon must face the majority of the 20 claims the FTC and several states levied against it, and he dismissed some state-law claims.",
+      "sources": [
+        {
+          "url": "https://www.courthousenews.com/judge-advances-antitrust-suit-against-amazon/",
+          "publisher": "Courthouse News Service",
+          "title": "Judge advances FTC antitrust suit against Amazon",
+          "date": "2024"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/67828404/federal-trade-commission-v-amazoncom-inc/",
+          "publisher": "CourtListener (U.S. District Court, W.D. Washington docket)",
+          "title": "Federal Trade Commission v. Amazon.com Inc, 2:23-cv-01495"
+        }
+      ]
+    },
+    {
+      "claim": "A December 2025 scheduling order set the FTC antitrust trial against Amazon for March 29, 2027, focused on liability; if the FTC prevails, the court will schedule a conference on remedies.",
+      "status": "court",
+      "date": "2025-12",
+      "quote": "the trial is currently scheduled for March 29, 2027",
+      "sources": [
+        {
+          "url": "https://www.mlex.com/mlex/articles/2422758/us-ftc-amazon-antitrust-trial-pushed-back-to-march-2027",
+          "publisher": "MLex",
+          "title": "US FTC-Amazon antitrust trial pushed back to March 2027",
+          "date": "2025-12"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/67828404/federal-trade-commission-v-amazoncom-inc/",
+          "publisher": "CourtListener (U.S. District Court, W.D. Washington docket)",
+          "title": "Federal Trade Commission v. Amazon.com Inc, 2:23-cv-01495"
+        }
+      ]
+    },
+    {
+      "claim": "In September 2025, three days into a jury trial over FTC allegations that it enrolled consumers in Prime without clear disclosure and made cancellation difficult, Amazon agreed to pay $2.5 billion ($1.5 billion in consumer refunds and a $1 billion civil penalty) to settle, without admitting liability. The order was revised in September 2026 to widen eligibility and raise the maximum payment to $200.",
+      "status": "court",
+      "date": "2025-09",
+      "quote": "The split is $1.5 billion in refunds and a $1 billion civil penalty.",
+      "sources": [
+        {
+          "url": "https://www.retaildive.com/news/amazon-prime-settlement-ftc-billion/761186/",
+          "publisher": "Retail Dive",
+          "title": "Amazon to pay $2.5 billion in FTC Prime membership settlement",
+          "date": "2025-09"
+        },
+        {
+          "url": "https://www.cbsnews.com/news/amazon-prime-ftc-settlement-refunds/",
+          "publisher": "CBS News",
+          "title": "Amazon Prime customers could get $200 refunds in expanded FTC deal. See who is eligible.",
+          "date": "2026-09"
+        }
+      ]
+    },
+    {
+      "claim": "Microsoft won the Pentagon's $10 billion JEDI cloud contract in late 2019 and Amazon challenged the award, alleging political interference. The Pentagon cancelled JEDI in July 2021 and in December 2022 awarded the successor Joint Warfighting Cloud Capability contract, with a $9 billion shared ceiling, to Amazon Web Services, Google, Microsoft and Oracle. DISA reported $2.3 billion in JWCC task orders across the four providers as of early 2025.",
+      "status": "reported",
+      "date": "2022-12",
+      "quote": "Microsoft had won JEDI in late 2019, and Amazon challenged that award, alleging that political interference may have affected the outcome.",
+      "sources": [
+        {
+          "url": "https://www.nextgov.com/digital-government/2022/12/amazon-google-microsoft-oracle-awarded-9b-pentagon-cloud-contract/380596/",
+          "publisher": "Nextgov/FCW",
+          "title": "Pentagon Awards $9B Cloud Contract to Amazon, Google, Microsoft, Oracle",
+          "date": "2022-12"
+        },
+        {
+          "url": "https://www.nextgov.com/defense/2025/03/pentagons-next-major-cloud-contract-works/403775/",
+          "publisher": "Nextgov/FCW",
+          "title": "The Pentagon's next major cloud contract is in the works",
+          "date": "2025-03"
+        }
+      ]
+    },
+    {
+      "claim": "On November 22, 2024, Amazon announced an additional $4 billion investment in Anthropic, bringing its total investment to $8 billion. Anthropic confirmed Amazon remains a minority investor without a board seat.",
+      "status": "reported",
+      "date": "2024-11-22",
+      "quote": "The new funding brings the tech giant's total investment to $8 billion.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2024/11/22/amazon-to-invest-another-4-billion-in-anthropic-openais-biggest-rival.html",
+          "publisher": "CNBC",
+          "title": "Amazon to invest another $4 billion in Anthropic, OpenAI's biggest rival",
+          "date": "2024-11-22"
+        },
+        {
+          "url": "https://www.cnbc.com/2025/01/22/google-agrees-to-new-1-billion-investment-in-anthropic.html",
+          "publisher": "CNBC",
+          "title": "Google agrees to new $1 billion investment in Anthropic",
+          "date": "2025-01-22"
+        }
+      ]
+    },
+    {
+      "claim": "On November 3, 2025, Amazon Web Services announced a multi-year $38 billion agreement under which OpenAI will run and scale its core AI workloads on AWS, using hundreds of thousands of Nvidia GPUs, with targeted capacity to be deployed before the end of 2026.",
+      "status": "documented",
+      "date": "2025-11-03",
+      "quote": "a new $38 billion agreement, which will have continued growth over the next seven years, with OpenAI accessing AWS compute comprising hundreds of thousands of state-of-the-art NVIDIA GPUs",
+      "sources": [
+        {
+          "url": "https://www.aboutamazon.com/news/aws/aws-open-ai-workloads-compute-infrastructure",
+          "publisher": "Amazon (company statement)",
+          "title": "AWS announces new partnership to power OpenAI's AI workloads",
+          "date": "2025-11-03"
+        },
+        {
+          "url": "https://www.cnbc.com/2025/11/03/open-ai-amazon-aws-cloud-deal.html",
+          "publisher": "CNBC",
+          "title": "Amazon closes at record after $38 billion OpenAI deal with AWS",
+          "date": "2025-11-03"
+        }
+      ]
+    },
+    {
+      "claim": "According to a Bloomberg analysis of federal lobbying filings, Amazon spent about $17.89 million on U.S. federal lobbying in 2025, second among technology companies to Meta. Axios's quarterly reviews put Amazon at $4.3 million in Q1, $4.4 million in Q3 and $4.6 million in Q4 2025.",
+      "status": "reported",
+      "date": "2025",
+      "quote": "Amazon came next at about $17.89 million, Alphabet at $13.10 million, and Microsoft at $9.36 million.",
+      "sources": [
+        {
+          "url": "https://www.deeplearning.ai/the-batch/meta-amazon-microsoft-google-and-nvidia-pour-millions-into-government-influence",
+          "publisher": "DeepLearning.AI (The Batch), relaying a Bloomberg analysis of federal lobbying filings",
+          "title": "Big AI Spends Big On Lobbying: Meta, Amazon, Microsoft, Google, and Nvidia pour millions into government influence",
+          "date": "2026"
+        },
+        {
+          "url": "https://www.axios.com/2026/01/21/meta-big-tech-lobbying-spending-q4",
+          "publisher": "Axios",
+          "title": "Meta outspends Big Tech peers on lobbying again",
+          "date": "2026-01-21"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "ftc",
+      "relation": "sued by",
+      "claim": "The FTC sued Amazon for monopolization in 2023 (trial set for March 2027) and, in a separate consumer-protection case over Prime enrollment, obtained a $2.5 billion settlement in September 2025.",
+      "status": "court",
+      "date": "2025-09",
+      "quote": "Amazon chose to settle rather than go to trial, and it did not admit liability.",
+      "sources": [
+        {
+          "url": "https://www.retaildive.com/news/amazon-prime-settlement-ftc-billion/761186/",
+          "publisher": "Retail Dive",
+          "title": "Amazon to pay $2.5 billion in FTC Prime membership settlement",
+          "date": "2025-09"
+        },
+        {
+          "url": "https://www.courtlistener.com/docket/67828404/federal-trade-commission-v-amazoncom-inc/",
+          "publisher": "CourtListener (U.S. District Court, W.D. Washington docket)",
+          "title": "Federal Trade Commission v. Amazon.com Inc, 2:23-cv-01495"
+        }
+      ]
+    },
+    {
+      "to": "anthropic",
+      "relation": "invested in",
+      "claim": "Amazon has invested a total of $8 billion in Anthropic as a minority investor without a board seat, per announcements in 2023 and November 2024.",
+      "status": "reported",
+      "date": "2024-11-22",
+      "quote": "The new funding brings the tech giant's total investment to $8 billion.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2024/11/22/amazon-to-invest-another-4-billion-in-anthropic-openais-biggest-rival.html",
+          "publisher": "CNBC",
+          "title": "Amazon to invest another $4 billion in Anthropic, OpenAI's biggest rival",
+          "date": "2024-11-22"
+        }
+      ]
+    },
+    {
+      "to": "openai",
+      "relation": "contracted with",
+      "claim": "AWS and OpenAI announced a $38 billion multi-year compute agreement on November 3, 2025, less than a week after OpenAI revised its partnership with Microsoft.",
+      "status": "documented",
+      "date": "2025-11-03",
+      "quote": "Amazon Web Services (AWS) and OpenAI announced a multi-year, strategic partnership that provides AWS's world-class infrastructure to run and scale OpenAI's core artificial intelligence (AI) workloads starting immediately.",
+      "sources": [
+        {
+          "url": "https://www.aboutamazon.com/news/aws/aws-open-ai-workloads-compute-infrastructure",
+          "publisher": "Amazon (company statement)",
+          "title": "AWS announces new partnership to power OpenAI's AI workloads",
+          "date": "2025-11-03"
+        },
+        {
+          "url": "https://www.cnbc.com/2025/11/03/open-ai-amazon-aws-cloud-deal.html",
+          "publisher": "CNBC",
+          "title": "Amazon closes at record after $38 billion OpenAI deal with AWS",
+          "date": "2025-11-03"
+        }
+      ]
+    },
+    {
+      "to": "pentagon",
+      "relation": "contracted with",
+      "claim": "Amazon Web Services is one of four providers on the Department of Defense's Joint Warfighting Cloud Capability contract awarded in December 2022 with a $9 billion ceiling.",
+      "status": "reported",
+      "date": "2022-12",
+      "quote": "The Pentagon awarded the Joint Warfighting Cloud Capability (JWCC) contract to Amazon Web Services, Google, Microsoft, and Oracle in December 2022.",
+      "sources": [
+        {
+          "url": "https://www.nextgov.com/digital-government/2022/12/amazon-google-microsoft-oracle-awarded-9b-pentagon-cloud-contract/380596/",
+          "publisher": "Nextgov/FCW",
+          "title": "Pentagon Awards $9B Cloud Contract to Amazon, Google, Microsoft, Oracle",
+          "date": "2022-12"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "MLex reported in September 2026 that Amazon would ask to postpone the March 2027 trial; no ruling on that was found.",
+    "Calcalist reported that Israel's Unit 8200 moved data from Microsoft Azure to Amazon Web Services after Microsoft cut off services in September 2025; this is a single-source report and was not recorded as a fact.",
+    "The CIA C2S contract is covered in research/handoffs/cia-c2s-aws.json and was not repeated here.",
+    "An April 2026 report that Amazon agreed to invest up to $25 billion more in Anthropic came only from an aggregator site and was left out."
+  ]
+}

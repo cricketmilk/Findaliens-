@@ -1,0 +1,147 @@
+{
+  "entity": "mgx",
+  "name": "MGX",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "MGX is an Abu Dhabi AI investment company launched in March 2024 by Mubadala Investment Company and the technology group G42, chaired by Sheikh Tahnoon bin Zayed Al Nahyan, the UAE's national security adviser. It has invested in OpenAI and xAI and is a founding partner, with OpenAI, SoftBank and Oracle, of the Stargate data-center project announced in January 2025.",
+    "sources": [
+      {
+        "url": "https://news.crunchbase.com/ai/mgx-role-grows-stargate-openai-g42-tiktok/",
+        "publisher": "Crunchbase News",
+        "title": "MGX's role grows: Stargate, OpenAI, G42, TikTok",
+        "date": "2025"
+      },
+      {
+        "url": "https://www.universalassetowners.com/mgx-abu-dhabi-ai-fund/",
+        "publisher": "Universal Asset Owners",
+        "title": "MGX: Abu Dhabi's AI Investment Vehicle, Explained"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "MGX was launched in March 2024 by Mubadala Investment Company and G42, with Sheikh Tahnoon bin Zayed Al Nahyan, the UAE's national security adviser, as chairman.",
+      "status": "reported",
+      "date": "2024-03",
+      "quote": "Its chairman is Sheikh Tahnoon bin Zayed Al Nahyan, the UAE's national security adviser.",
+      "sources": [
+        {
+          "url": "https://news.crunchbase.com/ai/mgx-role-grows-stargate-openai-g42-tiktok/",
+          "publisher": "Crunchbase News",
+          "title": "MGX's role grows: Stargate, OpenAI, G42, TikTok",
+          "date": "2025"
+        },
+        {
+          "url": "https://www.universalassetowners.com/mgx-abu-dhabi-ai-fund/",
+          "publisher": "Universal Asset Owners",
+          "title": "MGX: Abu Dhabi's AI Investment Vehicle, Explained"
+        }
+      ]
+    },
+    {
+      "claim": "In October 2024 MGX took part in OpenAI's $6.6 billion funding round at a $157 billion valuation, led by Thrive Capital, and in November 2024 it took part in xAI's $6 billion round at a $50 billion valuation.",
+      "status": "reported",
+      "date": "2024-11",
+      "quote": "In October 2024, MGX took part in OpenAI's $6.6 billion round, which valued the company at $157 billion.",
+      "sources": [
+        {
+          "url": "https://news.crunchbase.com/ai/mgx-role-grows-stargate-openai-g42-tiktok/",
+          "publisher": "Crunchbase News",
+          "title": "MGX's role grows: Stargate, OpenAI, G42, TikTok",
+          "date": "2025"
+        }
+      ]
+    },
+    {
+      "claim": "Stargate, announced in January 2025 by OpenAI, SoftBank, Oracle and MGX, is designed to put up to $500 billion into AI data centers in the United States by 2029; MGX's share was reported at about $7 billion.",
+      "status": "reported",
+      "date": "2025-01",
+      "quote": "Stargate was announced in January 2025 by OpenAI, SoftBank, Oracle, and MGX, and is designed to put up to $500 billion into AI data centers in the United States by 2029.",
+      "sources": [
+        {
+          "url": "https://news.crunchbase.com/ai/mgx-role-grows-stargate-openai-g42-tiktok/",
+          "publisher": "Crunchbase News",
+          "title": "MGX's role grows: Stargate, OpenAI, G42, TikTok",
+          "date": "2025"
+        },
+        {
+          "url": "https://www.universalassetowners.com/mgx-abu-dhabi-ai-fund/",
+          "publisher": "Universal Asset Owners",
+          "title": "MGX: Abu Dhabi's AI Investment Vehicle, Explained"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "mubadala",
+      "relation": "co-founded",
+      "reverse": true,
+      "claim": "Mubadala co-founded MGX with G42 in March 2024.",
+      "status": "reported",
+      "date": "2024-03",
+      "quote": "MGX was launched in March 2024 by Mubadala Investment Company and G42, the Abu Dhabi AI group.",
+      "sources": [
+        {
+          "url": "https://news.crunchbase.com/ai/mgx-role-grows-stargate-openai-g42-tiktok/",
+          "publisher": "Crunchbase News",
+          "title": "MGX's role grows: Stargate, OpenAI, G42, TikTok",
+          "date": "2025"
+        }
+      ]
+    },
+    {
+      "to": "openai",
+      "relation": "invested in",
+      "claim": "MGX participated in OpenAI's $6.6 billion funding round in October 2024 and is a founding partner of the Stargate data-center venture announced in January 2025.",
+      "status": "reported",
+      "date": "2024-10",
+      "quote": "In October 2024, MGX took part in OpenAI's $6.6 billion round, which valued the company at $157 billion.",
+      "sources": [
+        {
+          "url": "https://news.crunchbase.com/ai/mgx-role-grows-stargate-openai-g42-tiktok/",
+          "publisher": "Crunchbase News",
+          "title": "MGX's role grows: Stargate, OpenAI, G42, TikTok",
+          "date": "2025"
+        }
+      ]
+    },
+    {
+      "to": "xai",
+      "relation": "invested in",
+      "claim": "MGX participated in xAI's $6 billion funding round in November 2024 at a $50 billion valuation.",
+      "status": "reported",
+      "date": "2024-11",
+      "quote": "In November 2024, MGX took part in xAI's $6 billion funding round valuing it at $50 billion.",
+      "sources": [
+        {
+          "url": "https://news.crunchbase.com/ai/mgx-role-grows-stargate-openai-g42-tiktok/",
+          "publisher": "Crunchbase News",
+          "title": "MGX's role grows: Stargate, OpenAI, G42, TikTok",
+          "date": "2025"
+        }
+      ]
+    },
+    {
+      "to": "softbank",
+      "relation": "partnered with",
+      "claim": "MGX and SoftBank are both founding partners, with OpenAI and Oracle, of the Stargate AI data-center project announced in January 2025.",
+      "status": "reported",
+      "date": "2025-01",
+      "quote": "Stargate was announced in January 2025 by OpenAI, SoftBank, Oracle, and MGX",
+      "sources": [
+        {
+          "url": "https://news.crunchbase.com/ai/mgx-role-grows-stargate-openai-g42-tiktok/",
+          "publisher": "Crunchbase News",
+          "title": "MGX's role grows: Stargate, OpenAI, G42, TikTok",
+          "date": "2025"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "MGX's fund size is reported variously as a $100 billion target and as a $49 billion close (Tech Times, July 2026); neither was confirmed from MGX itself.",
+    "Reports that MGX co-led OpenAI's 2026 round and joined xAI's Series E were not verified.",
+    "The sources here are trade press and explainers; MGX's own announcements should be clipped."
+  ]
+}

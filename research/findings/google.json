@@ -1,0 +1,327 @@
+{
+  "entity": "google",
+  "name": "Google",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Google LLC is the main operating subsidiary of Alphabet Inc., a publicly traded company whose businesses include web search, online advertising, the Android operating system, the Chrome browser, YouTube and Google Cloud. In 2024 and 2025 two U.S. federal courts found that Google unlawfully maintained monopolies, in general search and in advertising technology, and both courts later declined to order divestitures, imposing conduct remedies instead. The European Commission fined Google 2.95 billion euros over adtech in 2025, and the EU Court of Justice upheld the 2018 Android fine in 2026. Google is a Pentagon cloud and AI contractor and a minority investor in Anthropic.",
+    "sources": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+        "publisher": "U.S. Securities and Exchange Commission (Alphabet filing)",
+        "title": "Alphabet Inc. Form 10-K for fiscal year 2025",
+        "date": "2026"
+      },
+      {
+        "url": "https://www.congress.gov/crs_external_products/LSB/HTML/LSB11362.html",
+        "publisher": "Congressional Research Service",
+        "title": "United States v. Google: the search remedies decision"
+      },
+      {
+        "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_25_1992/IP_25_1992_EN.pdf",
+        "publisher": "European Commission",
+        "title": "Commission fines Google €2.95 billion over abusive practices in online advertising technology (IP/25/1992)",
+        "date": "2025-09-05"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In August 2024, U.S. District Judge Amit Mehta ruled in United States v. Google that Google had unlawfully maintained monopoly power in general search services and search text advertising, principally through exclusionary distribution agreements.",
+      "status": "court",
+      "date": "2024-08",
+      "quote": "the court's August 2024 decision, in which Judge Mehta found that Google had unlawfully maintained monopoly power in two relevant markets—general search services and search text advertising—principally through exclusionary agreements with distributors.",
+      "sources": [
+        {
+          "url": "https://www.congress.gov/crs_external_products/LSB/HTML/LSB11362.html",
+          "publisher": "Congressional Research Service",
+          "title": "United States v. Google: the search remedies decision"
+        }
+      ]
+    },
+    {
+      "claim": "In the remedies decision of September 2, 2025, Judge Mehta refused the government's request to make Google divest the Chrome browser and rejected a contingent Android spin-off, calling divestiture a drastic remedy. He barred Google from exclusive distribution agreements for Search, Chrome, Google Assistant and Gemini and required it to share certain search index and user-interaction data with qualified competitors, while allowing it to keep paying for default placement.",
+      "status": "court",
+      "date": "2025-09-02",
+      "quote": "The court barred Google from entering or maintaining exclusive distribution agreements for Google Search, Chrome, Google Assistant, and Gemini.",
+      "sources": [
+        {
+          "url": "https://www.congress.gov/crs_external_products/LSB/HTML/LSB11362.html",
+          "publisher": "Congressional Research Service",
+          "title": "United States v. Google: the search remedies decision"
+        },
+        {
+          "url": "https://searchengineland.com/doj-states-appeal-google-search-antitrust-remedies-ruling-468230",
+          "publisher": "Search Engine Land",
+          "title": "DOJ and states appeal Google search antitrust remedies ruling",
+          "date": "2026-02"
+        }
+      ]
+    },
+    {
+      "claim": "The final judgment in the search case was entered on December 5, 2025 and took effect on February 3, 2026. Google appealed both liability and remedies; the Justice Department and 38 states cross-appealed on February 3, 2026, again seeking structural relief including a Chrome divestiture. In May 2026 Judge Mehta denied Google's motion for a partial stay pending appeal.",
+      "status": "court",
+      "date": "2026-02-03",
+      "quote": "The Justice Department and 38 states cross-appealed on February 3, 2026, pressing again for the structural relief Judge Mehta refused, including the Chrome divestiture.",
+      "sources": [
+        {
+          "url": "https://searchengineland.com/doj-states-appeal-google-search-antitrust-remedies-ruling-468230",
+          "publisher": "Search Engine Land",
+          "title": "DOJ and states appeal Google search antitrust remedies ruling",
+          "date": "2026-02"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000071/goog-20260630.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Alphabet filing)",
+          "title": "Alphabet Inc. Form 10-Q for the quarter ended June 30, 2026",
+          "date": "2026"
+        }
+      ]
+    },
+    {
+      "claim": "In April 2025, U.S. District Judge Leonie Brinkema (E.D. Va.) ruled that Google illegally monopolized the publisher ad-server and ad-exchange markets and unlawfully tied the two products together. The government did not prove a separate monopoly in advertiser-side tools.",
+      "status": "court",
+      "date": "2025-04",
+      "quote": "Brinkema ruled in April 2025 that Google illegally monopolized the publisher ad-server and ad-exchange markets and illegally tied the two products together.",
+      "sources": [
+        {
+          "url": "https://www.stblaw.com/about-us/publications/view/2025/04/25/district-court-rules-google-is-a-monopolist-in-ad-tech",
+          "publisher": "Simpson Thacher & Bartlett",
+          "title": "District Court Rules Google Is a Monopolist in Ad Tech",
+          "date": "2025-04-25"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/09/02/google-defeats-us-bid-to-force-ad-tech-sale.html",
+          "publisher": "CNBC",
+          "title": "Google defeats U.S. bid to force ad tech sale",
+          "date": "2026-09-02"
+        }
+      ]
+    },
+    {
+      "claim": "On September 2, 2026, Judge Brinkema declined to order a breakup of Google's ad-tech business, rejecting the divestiture of AdX, the open-sourcing of DFP's final auction logic and a contingent divestiture of the DFP remainder, and instead adopted behavioral remedies covering interoperability, data sharing and non-discriminatory bidding. The opinion was unsealed on September 16, 2026.",
+      "status": "court",
+      "date": "2026-09-02",
+      "quote": "the divestiture of AdX, the open-sourcing of DFP's final auction logic, and the contingent divestiture of DFP Remainder",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/09/02/google-defeats-us-bid-to-force-ad-tech-sale.html",
+          "publisher": "CNBC",
+          "title": "Google defeats U.S. bid to force ad tech sale",
+          "date": "2026-09-02"
+        },
+        {
+          "url": "https://www.thecurrent.com/ad-tech/google-avoids-ad-tech-breakup-monopoly-case",
+          "publisher": "The Current",
+          "title": "Google avoids ad tech breakup in monopoly case",
+          "date": "2026-09"
+        }
+      ]
+    },
+    {
+      "claim": "On September 5, 2025, the European Commission fined Google 2.95 billion euros for abusing a dominant position in advertising technology between at least 2014 and 2025, in breach of Article 102 TFEU, by favouring its own display advertising technology services, and ordered it to end the self-preferencing practices.",
+      "status": "court",
+      "date": "2025-09-05",
+      "quote": "The Commission fined Google €2.95 billion for breaching EU antitrust rules by distorting competition in the advertising technology industry ('adtech').",
+      "sources": [
+        {
+          "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_25_1992/IP_25_1992_EN.pdf",
+          "publisher": "European Commission",
+          "title": "Commission fines Google €2.95 billion over abusive practices in online advertising technology (IP/25/1992)",
+          "date": "2025-09-05"
+        },
+        {
+          "url": "https://www.cnbc.com/2025/09/05/google-slapped-by-eu-with-3point45-billion-antitrust-fine.html",
+          "publisher": "CNBC",
+          "title": "Google hit with $3.45 billion antitrust EU fine amid U.S. trade tensions",
+          "date": "2025-09-05"
+        }
+      ]
+    },
+    {
+      "claim": "On July 2, 2026, the EU Court of Justice (case C-738/22 P) rejected Google and Alphabet's appeal and upheld the Android antitrust fine of about 4.1 billion euros, which concerned requiring phone makers to pre-install Google Search and Chrome as a condition of licensing the Play Store, anti-fragmentation agreements, and revenue-sharing payments conditioned on not pre-installing rival search engines. The judgment is final.",
+      "status": "court",
+      "date": "2026-07-02",
+      "quote": "In its 2 July judgment in case C-738/22 P, the Court of Justice rejected every ground of Google and Alphabet's appeal.",
+      "sources": [
+        {
+          "url": "https://www.euronews.com/2026/07/02/eu-court-of-justice-rejects-googles-appeal-against-record-41-billion-fine",
+          "publisher": "Euronews",
+          "title": "EU Court of Justice rejects Google's appeal against record €4.1 billion fine",
+          "date": "2026-07-02"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/07/02/alphabet-google-android-eu-antitrust-fine-4-1-billion-euro-appeal.html",
+          "publisher": "CNBC",
+          "title": "Google loses fight over record $4.7 billion EU antitrust fine",
+          "date": "2026-07-02"
+        }
+      ]
+    },
+    {
+      "claim": "On February 4, 2025, Google updated its AI Principles, removing language from its 2018 principles that had ruled out pursuing weapons or technologies whose principal purpose is to cause injury to people. The blog post announcing the change was co-written by Google DeepMind CEO Demis Hassabis and James Manyika, who wrote that democracies should lead in AI development.",
+      "status": "reported",
+      "date": "2025-02-04",
+      "quote": "As global competition for AI leadership increases, we believe democracies should lead in AI development,",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2025/02/04/google-removes-pledge-to-not-use-ai-for-weapons-surveillance.html",
+          "publisher": "CNBC",
+          "title": "Google removes pledge to not use AI for weapons, surveillance",
+          "date": "2025-02-04"
+        }
+      ]
+    },
+    {
+      "claim": "According to a Bloomberg analysis of federal lobbying filings, Alphabet spent about $13.10 million on U.S. federal lobbying in 2025. Axios's quarterly reviews of filings put Google's spending at $3 million in the first quarter, $3.6 million in the third quarter and $3.4 million in the fourth quarter of 2025.",
+      "status": "reported",
+      "date": "2025",
+      "quote": "Amazon came next at about $17.89 million, Alphabet at $13.10 million, and Microsoft at $9.36 million.",
+      "sources": [
+        {
+          "url": "https://www.deeplearning.ai/the-batch/meta-amazon-microsoft-google-and-nvidia-pour-millions-into-government-influence",
+          "publisher": "DeepLearning.AI (The Batch), relaying a Bloomberg analysis of federal lobbying filings",
+          "title": "Big AI Spends Big On Lobbying: Meta, Amazon, Microsoft, Google, and Nvidia pour millions into government influence",
+          "date": "2026"
+        },
+        {
+          "url": "https://www.axios.com/2025/10/21/tech-lobbying-insights-q3",
+          "publisher": "Axios",
+          "title": "Meta tops spending again as AI lobbying heats up",
+          "date": "2025-10-21"
+        },
+        {
+          "url": "https://www.axios.com/2026/01/21/meta-big-tech-lobbying-spending-q4",
+          "publisher": "Axios",
+          "title": "Meta outspends Big Tech peers on lobbying again",
+          "date": "2026-01-21"
+        }
+      ]
+    },
+    {
+      "claim": "In December 2022 the Department of Defense named Google one of four awardees, with Amazon Web Services, Microsoft and Oracle, of the Joint Warfighting Cloud Capability (JWCC), a multiple-award contract with a shared $9 billion ceiling. In July 2025 the Pentagon's Chief Digital and AI Office awarded Google a two-year prototype agreement with a $200 million ceiling for frontier AI work.",
+      "status": "reported",
+      "date": "2022-12",
+      "quote": "Anthropic, Google, OpenAI and xAI were each awarded up to $200 million in two-year contracts.",
+      "sources": [
+        {
+          "url": "https://www.nextgov.com/digital-government/2022/12/amazon-google-microsoft-oracle-awarded-9b-pentagon-cloud-contract/380596/",
+          "publisher": "Nextgov/FCW",
+          "title": "Pentagon Awards $9B Cloud Contract to Amazon, Google, Microsoft, Oracle",
+          "date": "2022-12"
+        },
+        {
+          "url": "https://defensescoop.com/2025/07/14/pentagon-ai-contracts-musk-xai-google-openai-anthropic-cdao/",
+          "publisher": "DefenseScoop",
+          "title": "Pentagon awards mega contracts to Musk-owned company, other firms for new 'frontier AI' projects",
+          "date": "2025-07-14"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "anthropic",
+      "relation": "invested in",
+      "claim": "Court documents reported by The New York Times showed Google owns a 14 percent stake in Anthropic, with an ownership cap of 15 percent, after investing more than $3 billion across several rounds. In January 2025 Google agreed to a further $1 billion investment.",
+      "status": "reported",
+      "date": "2025-01",
+      "quote": "Google owns a 14 percent stake in Anthropic, court documents seen by The New York Times reveal.",
+      "sources": [
+        {
+          "url": "https://www.datacenterdynamics.com/en/news/google-owns-14-percent-of-generative-ai-business-anthropic/",
+          "publisher": "Data Center Dynamics (citing court documents reported by The New York Times)",
+          "title": "Google owns 14 percent of generative AI business Anthropic",
+          "date": "2025"
+        },
+        {
+          "url": "https://www.cnbc.com/2025/01/22/google-agrees-to-new-1-billion-investment-in-anthropic.html",
+          "publisher": "CNBC",
+          "title": "Google agrees to new $1 billion investment in Anthropic",
+          "date": "2025-01-22"
+        }
+      ]
+    },
+    {
+      "to": "pentagon",
+      "relation": "contracted with",
+      "claim": "Google is one of four cloud providers on the Department of Defense's $9 billion-ceiling Joint Warfighting Cloud Capability contract (awarded December 2022) and received a $200 million-ceiling prototype agreement from the Pentagon's Chief Digital and AI Office in July 2025.",
+      "status": "reported",
+      "date": "2025-07",
+      "quote": "The Pentagon awarded the Joint Warfighting Cloud Capability (JWCC) contract to Amazon Web Services, Google, Microsoft, and Oracle in December 2022.",
+      "sources": [
+        {
+          "url": "https://www.nextgov.com/digital-government/2022/12/amazon-google-microsoft-oracle-awarded-9b-pentagon-cloud-contract/380596/",
+          "publisher": "Nextgov/FCW",
+          "title": "Pentagon Awards $9B Cloud Contract to Amazon, Google, Microsoft, Oracle",
+          "date": "2022-12"
+        },
+        {
+          "url": "https://breakingdefense.com/2025/07/anthropic-google-and-xai-win-200m-each-from-pentagon-ai-chief-for-agentic-ai/",
+          "publisher": "Breaking Defense",
+          "title": "Anthropic, Google and xAI win $200M each from Pentagon AI chief for 'agentic AI'",
+          "date": "2025-07"
+        }
+      ]
+    },
+    {
+      "to": "U.S. Department of Justice",
+      "toName": "U.S. Department of Justice",
+      "toType": "agency",
+      "relation": "sued by",
+      "claim": "The Justice Department and state attorneys general sued Google over search distribution and over advertising technology; courts found Google liable in both cases (August 2024 and April 2025) and the search case is on cross-appeal.",
+      "status": "court",
+      "date": "2024-08",
+      "quote": "Google is appealing both liability and remedies.",
+      "sources": [
+        {
+          "url": "https://www.congress.gov/crs_external_products/LSB/HTML/LSB11362.html",
+          "publisher": "Congressional Research Service",
+          "title": "United States v. Google: the search remedies decision"
+        },
+        {
+          "url": "https://www.stblaw.com/about-us/publications/view/2025/04/25/district-court-rules-google-is-a-monopolist-in-ad-tech",
+          "publisher": "Simpson Thacher & Bartlett",
+          "title": "District Court Rules Google Is a Monopolist in Ad Tech",
+          "date": "2025-04-25"
+        },
+        {
+          "url": "https://searchengineland.com/doj-states-appeal-google-search-antitrust-remedies-ruling-468230",
+          "publisher": "Search Engine Land",
+          "title": "DOJ and states appeal Google search antitrust remedies ruling",
+          "date": "2026-02"
+        }
+      ]
+    },
+    {
+      "to": "European Commission",
+      "toName": "European Commission",
+      "toType": "agency",
+      "relation": "regulated",
+      "reverse": true,
+      "claim": "The European Commission fined Google 2.95 billion euros over adtech self-preferencing in September 2025, and its 2018 Android decision was upheld by the EU Court of Justice in July 2026.",
+      "status": "court",
+      "date": "2025-09-05",
+      "quote": "The Commission fined Google €2.95 billion for breaching EU antitrust rules",
+      "sources": [
+        {
+          "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_25_1992/IP_25_1992_EN.pdf",
+          "publisher": "European Commission",
+          "title": "Commission fines Google €2.95 billion over abusive practices in online advertising technology (IP/25/1992)",
+          "date": "2025-09-05"
+        },
+        {
+          "url": "https://www.euronews.com/2026/07/02/eu-court-of-justice-rejects-googles-appeal-against-record-41-billion-fine",
+          "publisher": "Euronews",
+          "title": "EU Court of Justice rejects Google's appeal against record €4.1 billion fine",
+          "date": "2026-07-02"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Alphabet's 10-K and 10-Q filings list the litigation timeline; the exact date of Google's notice of appeal in the search case is given as January 16 or January 22, 2026 by different outlets.",
+    "Whether a final judgment has been entered in the ad-tech case (No. 1:23-cv-108, E.D. Va.) after the September 2026 remedies opinion should be checked on the docket.",
+    "The Google AI Principles change is sourced from CNBC coverage; the original Google blog post should be clipped for the direct wording.",
+    "Full-year 2025 lobbying totals come from a Bloomberg analysis relayed by a secondary site; OpenSecrets or the Senate LDA database should be used to confirm."
+  ]
+}

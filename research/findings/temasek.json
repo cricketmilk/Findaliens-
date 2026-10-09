@@ -1,0 +1,112 @@
+{
+  "entity": "temasek",
+  "name": "Temasek",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Temasek Holdings is a state-owned investment company of Singapore. In November 2022 it wrote off its entire $275 million investment in the cryptocurrency exchange FTX after FTX's bankruptcy filing, and the Singapore government said Temasek had begun an internal review of the investment.",
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2022/11/16/singapores-temasek-writes-down-275m-investment-in-ftx",
+        "publisher": "TechCrunch",
+        "title": "Singapore's Temasek writes down $275M investment in FTX",
+        "date": "2022-11-16"
+      },
+      {
+        "url": "https://www.scmp.com/tech/tech-trends/article/3199942/singapores-temasek-writes-down-us275-million-investment-ftx",
+        "publisher": "South China Morning Post",
+        "title": "Singapore's Temasek writes down US$275 million investment in FTX",
+        "date": "2022-11-17"
+      },
+      {
+        "url": "https://www.euronews.com/next/2022/11/30/fintech-crypto-ftx-singapore",
+        "publisher": "Euronews (Reuters)",
+        "title": "Singapore's Temasek begins internal review of FTX investment",
+        "date": "2022-11-30"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On November 17, 2022, Temasek said it would write down its full $275 million investment in FTX, irrespective of the outcome of FTX's bankruptcy filing. It had invested $210 million for about a 1 percent stake in FTX International and $65 million for about 1.5 percent of FTX US, an amount equal to 0.09 percent of its net portfolio value of S$403 billion as of March 2022.",
+      "status": "documented",
+      "date": "2022-11-17",
+      "quote": "We have decided to write down our full investment in FTX, irrespective of the outcome of FTX's bankruptcy protection filing,",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2022/11/16/singapores-temasek-writes-down-275m-investment-in-ftx",
+          "publisher": "TechCrunch",
+          "title": "Singapore's Temasek writes down $275M investment in FTX",
+          "date": "2022-11-16"
+        },
+        {
+          "url": "https://www.scmp.com/tech/tech-trends/article/3199942/singapores-temasek-writes-down-us275-million-investment-ftx",
+          "publisher": "South China Morning Post",
+          "title": "Singapore's Temasek writes down US$275 million investment in FTX",
+          "date": "2022-11-17"
+        }
+      ]
+    },
+    {
+      "claim": "In its November 2022 statement Temasek said its belief in the actions, judgment and leadership of Sam Bankman-Fried appeared to have been misplaced, and that it had no direct exposure to cryptocurrencies.",
+      "status": "words",
+      "date": "2022-11-17",
+      "quote": "It is apparent from this investment that perhaps our belief in the actions, judgment and leadership of Sam Bankman-Fried, formed from our interactions with him and views expressed in our discussions with others, would appear to have been misplaced,",
+      "sources": [
+        {
+          "url": "https://www.scmp.com/tech/tech-trends/article/3199942/singapores-temasek-writes-down-us275-million-investment-ftx",
+          "publisher": "South China Morning Post",
+          "title": "Singapore's Temasek writes down US$275 million investment in FTX",
+          "date": "2022-11-17"
+        },
+        {
+          "url": "https://techcrunch.com/2022/11/16/singapores-temasek-writes-down-275m-investment-in-ftx",
+          "publisher": "TechCrunch",
+          "title": "Singapore's Temasek writes down $275M investment in FTX",
+          "date": "2022-11-16"
+        }
+      ]
+    },
+    {
+      "claim": "In late November 2022 Singapore's Deputy Prime Minister Lawrence Wong said Temasek had initiated an internal review of its FTX investment, to be conducted by an independent internal team reporting to the board and excluding those who made the investment.",
+      "status": "reported",
+      "date": "2022-11-30",
+      "quote": "The review will be conducted by an independent internal team reporting directly to the board and will not involve those who made the investment.",
+      "sources": [
+        {
+          "url": "https://www.euronews.com/next/2022/11/30/fintech-crypto-ftx-singapore",
+          "publisher": "Euronews (Reuters)",
+          "title": "Singapore's Temasek begins internal review of FTX investment",
+          "date": "2022-11-30"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "ftx",
+      "relation": "invested in",
+      "claim": "Temasek invested $275 million in FTX International and FTX US across two rounds in 2021 and 2022 and wrote the whole investment down to zero on November 17, 2022.",
+      "status": "documented",
+      "date": "2022-11-17",
+      "quote": "The Singapore state investor invested $210 million for a roughly 1% stake in FTX International and $65 million for approximately 1.5% of FTX US.",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2022/11/16/singapores-temasek-writes-down-275m-investment-in-ftx",
+          "publisher": "TechCrunch",
+          "title": "Singapore's Temasek writes down $275M investment in FTX",
+          "date": "2022-11-16"
+        },
+        {
+          "url": "https://www.scmp.com/tech/tech-trends/article/3199942/singapores-temasek-writes-down-us275-million-investment-ftx",
+          "publisher": "South China Morning Post",
+          "title": "Singapore's Temasek writes down US$275 million investment in FTX",
+          "date": "2022-11-17"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Temasek's own statement page was not retrieved; the quotes come from TechCrunch and SCMP coverage.",
+    "The outcome of the internal review (reported later to include pay cuts for staff involved) was not researched."
+  ]
+}

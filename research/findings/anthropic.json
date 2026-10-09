@@ -1,0 +1,235 @@
+{
+  "entity": "anthropic",
+  "name": "Anthropic",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Anthropic is a privately held AI company founded by former OpenAI research executives; it develops the Claude models. Amazon has invested $8 billion as a minority investor without a board seat, Google holds about 14 percent according to court filings, and in November 2025 Microsoft and Nvidia agreed to invest up to $15 billion combined alongside a $30 billion Azure purchase commitment by Anthropic. In July 2025 the Pentagon's Chief Digital and AI Office awarded Anthropic a two-year prototype agreement with a $200 million ceiling.",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2024/11/22/amazon-to-invest-another-4-billion-in-anthropic-openais-biggest-rival.html",
+        "publisher": "CNBC",
+        "title": "Amazon to invest another $4 billion in Anthropic, OpenAI's biggest rival",
+        "date": "2024-11-22"
+      },
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/google-owns-14-percent-of-generative-ai-business-anthropic/",
+        "publisher": "Data Center Dynamics (citing court documents reported by The New York Times)",
+        "title": "Google owns 14 percent of generative AI business Anthropic",
+        "date": "2025"
+      },
+      {
+        "url": "https://anthropic.com/news/anthropic-and-the-department-of-defense-to-advance-responsible-ai-in-defense-operations",
+        "publisher": "Anthropic",
+        "title": "Anthropic and the Department of Defense to advance responsible AI in defense operations",
+        "date": "2025-07-14"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Amazon announced on November 22, 2024 an additional $4 billion investment in Anthropic, bringing its total to $8 billion; Anthropic confirmed Amazon is a minority investor with no board seat.",
+      "status": "reported",
+      "date": "2024-11-22",
+      "quote": "The new funding brings the tech giant's total investment to $8 billion.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2024/11/22/amazon-to-invest-another-4-billion-in-anthropic-openais-biggest-rival.html",
+          "publisher": "CNBC",
+          "title": "Amazon to invest another $4 billion in Anthropic, OpenAI's biggest rival",
+          "date": "2024-11-22"
+        },
+        {
+          "url": "https://www.cnbc.com/2025/01/22/google-agrees-to-new-1-billion-investment-in-anthropic.html",
+          "publisher": "CNBC",
+          "title": "Google agrees to new $1 billion investment in Anthropic",
+          "date": "2025-01-22"
+        }
+      ]
+    },
+    {
+      "claim": "Court documents reported by The New York Times in 2025 showed Google owns 14 percent of Anthropic, is capped at 15 percent, and had invested more than $3 billion across multiple rounds; in January 2025 Google agreed to a further $1 billion investment.",
+      "status": "reported",
+      "date": "2025-01",
+      "quote": "the hyperscaler is only allowed to own up to 15 percent of Anthropic",
+      "sources": [
+        {
+          "url": "https://www.datacenterdynamics.com/en/news/google-owns-14-percent-of-generative-ai-business-anthropic/",
+          "publisher": "Data Center Dynamics (citing court documents reported by The New York Times)",
+          "title": "Google owns 14 percent of generative AI business Anthropic",
+          "date": "2025"
+        },
+        {
+          "url": "https://www.cnbc.com/2025/01/22/google-agrees-to-new-1-billion-investment-in-anthropic.html",
+          "publisher": "CNBC",
+          "title": "Google agrees to new $1 billion investment in Anthropic",
+          "date": "2025-01-22"
+        }
+      ]
+    },
+    {
+      "claim": "On November 18, 2025, Microsoft and Nvidia agreed to invest up to $15 billion combined in Anthropic (up to $5 billion and $10 billion respectively) as part of its next funding round, and Anthropic committed to buy $30 billion of Azure compute and to reserve up to one gigawatt of Nvidia hardware.",
+      "status": "reported",
+      "date": "2025-11-18",
+      "quote": "Anthropic agreed to buy $30 billion of computing capacity from Microsoft's Azure cloud service.",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2025-11-18/microsoft-nvidia-to-invest-up-to-15-billion-in-anthropic",
+          "publisher": "Bloomberg",
+          "title": "Microsoft, Nvidia to Invest Up to $15 Billion in Anthropic",
+          "date": "2025-11-18"
+        },
+        {
+          "url": "https://finance.yahoo.com/news/microsoft-nvidia-invest-anthropic-startup-113316065.html",
+          "publisher": "Yahoo Finance",
+          "title": "Microsoft and Nvidia to Invest in Anthropic as Startup Commits $30 Billion to Azure",
+          "date": "2025-11-18"
+        }
+      ]
+    },
+    {
+      "claim": "On July 14, 2025, the Department of Defense's Chief Digital and Artificial Intelligence Office awarded Anthropic a two-year prototype other transaction agreement with a $200 million ceiling to prototype frontier AI capabilities for national security; Google and xAI received similar awards the same day, following a $200 million award to OpenAI the previous month.",
+      "status": "documented",
+      "date": "2025-07-14",
+      "quote": "The DoD, through the CDAO, awarded Anthropic a two-year prototype other transaction agreement with a $200 million ceiling",
+      "sources": [
+        {
+          "url": "https://anthropic.com/news/anthropic-and-the-department-of-defense-to-advance-responsible-ai-in-defense-operations",
+          "publisher": "Anthropic",
+          "title": "Anthropic and the Department of Defense to advance responsible AI in defense operations",
+          "date": "2025-07-14"
+        },
+        {
+          "url": "https://defensescoop.com/2025/07/14/pentagon-ai-contracts-musk-xai-google-openai-anthropic-cdao/",
+          "publisher": "DefenseScoop",
+          "title": "Pentagon awards mega contracts to Musk-owned company, other firms for new 'frontier AI' projects",
+          "date": "2025-07-14"
+        },
+        {
+          "url": "https://breakingdefense.com/2025/07/anthropic-google-and-xai-win-200m-each-from-pentagon-ai-chief-for-agentic-ai/",
+          "publisher": "Breaking Defense",
+          "title": "Anthropic, Google and xAI win $200M each from Pentagon AI chief for 'agentic AI'",
+          "date": "2025-07"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "amazon",
+      "relation": "invested in",
+      "reverse": true,
+      "claim": "Amazon has invested $8 billion in Anthropic as a minority investor without a board seat.",
+      "status": "reported",
+      "date": "2024-11-22",
+      "quote": "The new funding brings the tech giant's total investment to $8 billion.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2024/11/22/amazon-to-invest-another-4-billion-in-anthropic-openais-biggest-rival.html",
+          "publisher": "CNBC",
+          "title": "Amazon to invest another $4 billion in Anthropic, OpenAI's biggest rival",
+          "date": "2024-11-22"
+        }
+      ]
+    },
+    {
+      "to": "google",
+      "relation": "invested in",
+      "reverse": true,
+      "claim": "Google owns about 14 percent of Anthropic per 2025 court filings, with ownership capped at 15 percent, and agreed to a further $1 billion investment in January 2025.",
+      "status": "reported",
+      "date": "2025-01",
+      "quote": "Google owns a 14 percent stake in Anthropic, court documents seen by The New York Times reveal.",
+      "sources": [
+        {
+          "url": "https://www.datacenterdynamics.com/en/news/google-owns-14-percent-of-generative-ai-business-anthropic/",
+          "publisher": "Data Center Dynamics (citing court documents reported by The New York Times)",
+          "title": "Google owns 14 percent of generative AI business Anthropic",
+          "date": "2025"
+        },
+        {
+          "url": "https://www.cnbc.com/2025/01/22/google-agrees-to-new-1-billion-investment-in-anthropic.html",
+          "publisher": "CNBC",
+          "title": "Google agrees to new $1 billion investment in Anthropic",
+          "date": "2025-01-22"
+        }
+      ]
+    },
+    {
+      "to": "microsoft",
+      "relation": "invested in",
+      "reverse": true,
+      "claim": "Microsoft agreed in November 2025 to invest up to $5 billion in Anthropic, which committed to buy $30 billion of Azure compute.",
+      "status": "reported",
+      "date": "2025-11-18",
+      "quote": "Nvidia's share is up to $10 billion and Microsoft's is up to $5 billion.",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2025-11-18/microsoft-nvidia-to-invest-up-to-15-billion-in-anthropic",
+          "publisher": "Bloomberg",
+          "title": "Microsoft, Nvidia to Invest Up to $15 Billion in Anthropic",
+          "date": "2025-11-18"
+        }
+      ]
+    },
+    {
+      "to": "nvidia",
+      "relation": "invested in",
+      "reverse": true,
+      "claim": "Nvidia agreed in November 2025 to invest up to $10 billion in Anthropic.",
+      "status": "reported",
+      "date": "2025-11-18",
+      "quote": "Nvidia's share is up to $10 billion and Microsoft's is up to $5 billion.",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2025-11-18/microsoft-nvidia-to-invest-up-to-15-billion-in-anthropic",
+          "publisher": "Bloomberg",
+          "title": "Microsoft, Nvidia to Invest Up to $15 Billion in Anthropic",
+          "date": "2025-11-18"
+        }
+      ]
+    },
+    {
+      "to": "pentagon",
+      "relation": "contracted with",
+      "claim": "The Pentagon's Chief Digital and AI Office awarded Anthropic a $200 million-ceiling, two-year prototype agreement in July 2025.",
+      "status": "documented",
+      "date": "2025-07-14",
+      "quote": "Anthropic, Google, OpenAI and xAI were each awarded up to $200 million in two-year contracts.",
+      "sources": [
+        {
+          "url": "https://anthropic.com/news/anthropic-and-the-department-of-defense-to-advance-responsible-ai-in-defense-operations",
+          "publisher": "Anthropic",
+          "title": "Anthropic and the Department of Defense to advance responsible AI in defense operations",
+          "date": "2025-07-14"
+        },
+        {
+          "url": "https://defensescoop.com/2025/07/14/pentagon-ai-contracts-musk-xai-google-openai-anthropic-cdao/",
+          "publisher": "DefenseScoop",
+          "title": "Pentagon awards mega contracts to Musk-owned company, other firms for new 'frontier AI' projects",
+          "date": "2025-07-14"
+        }
+      ]
+    },
+    {
+      "to": "openai",
+      "relation": "other",
+      "claim": "Anthropic was founded by former OpenAI research executives.",
+      "status": "reported",
+      "date": "2021",
+      "quote": "the artificial intelligence startup founded by ex-OpenAI research executives",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2024/11/22/amazon-to-invest-another-4-billion-in-anthropic-openais-biggest-rival.html",
+          "publisher": "CNBC",
+          "title": "Amazon to invest another $4 billion in Anthropic, OpenAI's biggest rival",
+          "date": "2024-11-22"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "A single Japanese blog post claims the Defense Department sought to change the contract terms in 2026 and that a federal judge ruled against a 'supply chain risk' designation of Anthropic in August 2026; no court record or major-outlet coverage was found and the claim was left out.",
+    "Amazon's and Google's percentage stakes after 2026 funding rounds and reports of further multi-billion commitments were not confirmed.",
+    "Anthropic's valuation after the November 2025 deal ($350 billion) appeared only in secondary coverage."
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "entity": "james-baker",
+  "name": "James Baker",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "James Addison Baker III (born 1930) is a Houston lawyer who served as Under Secretary of Commerce under President Ford, White House chief of staff (1981-1985) and Secretary of the Treasury (1985-1988) under President Reagan, and the 61st Secretary of State from January 1989 to August 1992 under President George H.W. Bush, overseeing U.S. foreign policy during the end of the Cold War and the 1991 Gulf War, before returning as White House chief of staff in 1992-1993. He later served as UN envoy on Western Sahara (1997-2004) and co-chaired the Iraq Study Group (2006). The James A. Baker III Institute for Public Policy at Rice University bears his name. Fortune reported in 2002 that he worked for the Carlyle Group; that relationship is recorded in carlyle-group.json.",
+    "sources": [
+      { "url": "https://history.state.gov/departmenthistory/people/baker-james-addison", "publisher": "U.S. Department of State, Office of the Historian", "title": "Biographies of the Secretaries of State: James Addison Baker III (1930-)" },
+      { "url": "https://geraldrfordfoundation.org/senior-advisors/james-baker-iii", "publisher": "Gerald R. Ford Presidential Foundation", "title": "James A. Baker, III" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The State Department's Office of the Historian records that Baker was appointed Secretary of State on January 22, 1989 and served until August 23, 1992, and that he oversaw U.S. foreign policy during the end of the Cold War and the first Persian Gulf War.",
+      "status": "documented",
+      "date": "1989-01-22",
+      "quote": "James A. Baker was appointed Secretary of State on January 22, 1989, and served until August 23, 1992.",
+      "sources": [
+        { "url": "https://history.state.gov/departmenthistory/people/baker-james-addison", "publisher": "U.S. Department of State, Office of the Historian", "title": "Biographies of the Secretaries of State: James Addison Baker III (1930-)" }
+      ]
+    },
+    {
+      "claim": "Before State, Baker graduated from Princeton in 1952, served in the Marine Corps, took his law degree at the University of Texas at Austin in 1957, practised law at Andrews and Kurth until 1975, and then served as Under Secretary of Commerce under President Ford, White House chief of staff and Secretary of the Treasury under President Reagan.",
+      "status": "documented",
+      "date": "1975",
+      "quote": "He then practiced law at Andrews and Kurth until 1975.",
+      "sources": [
+        { "url": "https://history.state.gov/departmenthistory/people/baker-james-addison", "publisher": "U.S. Department of State, Office of the Historian", "title": "Biographies of the Secretaries of State: James Addison Baker III (1930-)" }
+      ]
+    },
+    {
+      "claim": "As Treasury Secretary (1985-1988) Baker chaired the President's Economic Policy Council and arranged the 1985 Plaza Accord and the Baker Plan on developing-country debt, resigning in 1988 to run George H.W. Bush's presidential campaign; he returned as White House chief of staff from August 1992 to January 1993.",
+      "status": "documented",
+      "date": "1985",
+      "quote": "He arranged the Plaza Accord and the Baker Plan, then resigned to run Bush's 1988 campaign.",
+      "sources": [
+        { "url": "https://geraldrfordfoundation.org/senior-advisors/james-baker-iii", "publisher": "Gerald R. Ford Presidential Foundation", "title": "James A. Baker, III" },
+        { "url": "https://abc13.com/post/the-extraordinary-life-of-james-baker/5240039/", "publisher": "ABC13 Houston", "title": "The extraordinary life of James Baker" }
+      ]
+    },
+    {
+      "claim": "After government Baker served as UN Secretary-General Kofi Annan's personal envoy on Western Sahara from 1997 to 2004 and co-chaired the Iraq Study Group with Lee Hamilton in 2006; he is honorary chairman of the James A. Baker III Institute for Public Policy at Rice University.",
+      "status": "documented",
+      "date": "2006",
+      "quote": "co-chaired the Iraq Study Group in 2006 with Lee Hamilton",
+      "sources": [
+        { "url": "https://geraldrfordfoundation.org/senior-advisors/james-baker-iii", "publisher": "Gerald R. Ford Presidential Foundation", "title": "James A. Baker, III" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "carlyle-group",
+      "toName": "Carlyle Group",
+      "toType": "fund",
+      "relation": "advised",
+      "claim": "Fortune reported in March 2002 that former secretary of state James Baker worked for the Carlyle Group alongside George H.W. Bush and Frank Carlucci; the site describes him as senior counselor, a title not confirmed from a primary source.",
+      "status": "reported",
+      "date": "2002-03-18",
+      "quote": "former secretary of state James Baker",
+      "sources": [
+        { "url": "https://money.cnn.com/magazines/fortune/fortune_archive/2002/03/18/319881/index.htm", "publisher": "Fortune (via CNN Money)", "title": "The Big Guys Work For the Carlyle Group", "date": "2002-03-18" }
+      ]
+    },
+    {
+      "to": "george-w-bush",
+      "toName": "George W. Bush",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Baker ran George H.W. Bush's 1988 presidential campaign and served as his Secretary of State (1989-1992) and White House chief of staff (1992-1993); this is a connection to the elder Bush, recorded here because the site has no separate entry for him.",
+      "status": "documented",
+      "date": "1989-01-22",
+      "quote": "James A. Baker was appointed Secretary of State on January 22, 1989, and served until August 23, 1992.",
+      "sources": [
+        { "url": "https://history.state.gov/departmenthistory/people/baker-james-addison", "publisher": "U.S. Department of State, Office of the Historian", "title": "Biographies of the Secretaries of State: James Addison Baker III (1930-)" },
+        { "url": "https://geraldrfordfoundation.org/senior-advisors/james-baker-iii", "publisher": "Gerald R. Ford Presidential Foundation", "title": "James A. Baker, III" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The Carlyle 'senior counselor' title and dates (1993-2005) were not confirmed from a primary source; the Fortune 2002 article is the only reached source.",
+    "Reports that Baker's law firm, Baker Botts, represented Saudi Arabia or Saudi officials in the 9/11 families' litigation could not be confirmed from a reachable source in this session (only an advocacy page surfaced); left out.",
+    "The george-w-bush connection is really to George H.W. Bush; the owner should reject it if the site does not want the elder Bush folded into the son's entry."
+  ]
+}

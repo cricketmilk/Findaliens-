@@ -199,6 +199,92 @@
           "date": "2026-01-21"
         }
       ]
+    },
+    {
+      "claim": "On May 13, 2025 the Commerce Department's Bureau of Industry and Security announced it had initiated rescission of the January 2025 'AI Diffusion Rule', which had imposed a worldwide licensing framework on advanced AI chips and was due to take effect May 15, 2025. Under Secretary Jeffery Kessler instructed BIS enforcement officials not to enforce the rule, BIS said it would publish a Federal Register notice formalizing the rescission and issue a replacement rule later, and it issued guidance stating that using Huawei Ascend chips anywhere in the world risks violating U.S. export controls.",
+      "status": "documented",
+      "date": "2025-05-13",
+      "quote": "Under Secretary of Commerce for Industry and Security Jeffery Kessler has instructed BIS enforcement officials not to enforce the Biden Administration's AI Diffusion Rule",
+      "sources": [
+        {
+          "url": "https://www.bis.gov/press-release/department-commerce-rescinds-biden-era-artificial-intelligence-diffusion-rule-strengthens-chip-related",
+          "publisher": "Bureau of Industry and Security",
+          "title": "Department of Commerce Rescinds Biden-Era Artificial Intelligence Diffusion Rule, Strengthens Chip-Related Export Controls",
+          "date": "2025-05-13"
+        },
+        {
+          "url": "https://www.datacenterdynamics.com/en/news/department-of-commerce-formally-rescinds-ai-diffusion-rule-says-deploying-huawei-ascend-chips-violates-us-export-rules/",
+          "publisher": "Data Center Dynamics",
+          "title": "Department of Commerce formally rescinds AI Diffusion Rule, says deploying Huawei Ascend chips violates US export rules",
+          "date": "2025-05"
+        }
+      ]
+    },
+    {
+      "claim": "During the president's May 2025 visit to Abu Dhabi, Reuters reported that the United States had a preliminary agreement with the UAE allowing it to import up to 500,000 of Nvidia's most advanced AI chips a year, with a draft allocating 20 percent (100,000 a year) to G42 and the rest to U.S. companies building data centers in the UAE; the agreement was still being negotiated. In October 2025 BIS issued export licenses for Nvidia chips under the US-UAE AI Acceleration Partnership framework, with the initial permits reported to exclude G42.",
+      "status": "reported",
+      "date": "2025-10-09",
+      "quote": "The draft called for 20% of the chips, or 100,000 per year, to go to G42.",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/news/us-close-letting-uae-import-204750738.html",
+          "publisher": "Reuters via Yahoo Finance",
+          "title": "US close to letting UAE import millions of Nvidia's AI chips, sources say",
+          "date": "2025-05"
+        },
+        {
+          "url": "https://www.thenationalnews.com/future/technology/2025/10/09/us-approves-first-nvidia-chips-to-uae-to-deepen-ai-partnership/",
+          "publisher": "The National",
+          "title": "US 'approves first Nvidia chips' to the UAE to deepen AI partnership",
+          "date": "2025-10-09"
+        },
+        {
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/u-s-finally-grants-nvidia-license-to-ship-ai-gpus-to-uae-500-000-blackwell-gpus-coming-to-the-gulf-region",
+          "publisher": "Tom's Hardware",
+          "title": "U.S. finally grants Nvidia license to ship AI GPUs to UAE",
+          "date": "2025-10"
+        }
+      ]
+    },
+    {
+      "claim": "On November 19, 2025, following a Washington visit by the Saudi crown prince, the Commerce Department announced it had authorized exports of advanced U.S. semiconductors to G42 in the UAE and Humain in Saudi Arabia, each approved to purchase the equivalent of up to 35,000 Nvidia Blackwell GB300 chips, conditioned on security and reporting requirements monitored by BIS. Commerce said the approvals followed the U.S.-Saudi and U.S.-UAE AI partnership agreements and the July 2025 AI Action Plan.",
+      "status": "documented",
+      "date": "2025-11-19",
+      "quote": "Both companies are receiving approvals to purchase the equivalent of up to 35,000 Nvidia Blackwell chips (GB300s).",
+      "sources": [
+        {
+          "url": "https://www.commerce.gov/news/press-releases/2025/11/statement-uae-and-saudi-chip-exports",
+          "publisher": "U.S. Department of Commerce",
+          "title": "Statement on UAE and Saudi Chip Exports",
+          "date": "2025-11-19"
+        },
+        {
+          "url": "https://www.cnbc.com/2025/11/20/us-approves-ai-chip-exports-to-gulf-after-saudi-crown-prince-visit.html",
+          "publisher": "CNBC",
+          "title": "U.S. greenlights AI chip exports to Gulf tech giants after Saudi Crown Prince's Washington visit",
+          "date": "2025-11-20"
+        }
+      ]
+    },
+    {
+      "claim": "In May 2025 Nvidia joined G42, OpenAI, Oracle, SoftBank Group and Cisco in announcing Stargate UAE, a 1-gigawatt AI cluster in Abu Dhabi to be built by G42's Khazna Data Centers within a 5-gigawatt UAE-U.S. AI campus, with Nvidia supplying Grace Blackwell GB300 systems; the first 200 megawatts were planned to come online in 2026.",
+      "status": "reported",
+      "date": "2025-05-22",
+      "quote": "NVIDIA supplies the latest NVIDIA Grace Blackwell GB300 systems.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2025/05/22/stargate-uae-openai-nvidia-oracle.html",
+          "publisher": "CNBC",
+          "title": "OpenAI, Oracle and NVIDIA will help build Stargate UAE AI campus launching in 2026",
+          "date": "2025-05-22"
+        },
+        {
+          "url": "https://gulfbusiness.com/g42-openai-oracle-nvidia-to-build-stargate-uae/",
+          "publisher": "Gulf Business",
+          "title": "Stargate UAE: G42, OpenAI, Oracle, NVIDIA, SoftBank, Cisco to build AI cluster",
+          "date": "2025-05"
+        }
+      ]
     }
   ],
   "connections": [
@@ -309,11 +395,36 @@
           "date": "2025-05"
         }
       ]
+    },
+    {
+      "to": "g42",
+      "toName": "G42",
+      "toType": "company",
+      "relation": "partnered with",
+      "claim": "Nvidia is a partner in G42's Stargate UAE cluster announced in May 2025, and in November 2025 the Commerce Department authorized G42 to buy the equivalent of up to 35,000 Nvidia Blackwell GB300 chips.",
+      "status": "documented",
+      "date": "2025-11-19",
+      "quote": "Both companies are receiving approvals to purchase the equivalent of up to 35,000 Nvidia Blackwell chips (GB300s).",
+      "sources": [
+        {
+          "url": "https://www.commerce.gov/news/press-releases/2025/11/statement-uae-and-saudi-chip-exports",
+          "publisher": "U.S. Department of Commerce",
+          "title": "Statement on UAE and Saudi Chip Exports",
+          "date": "2025-11-19"
+        },
+        {
+          "url": "https://www.cnbc.com/2025/05/22/stargate-uae-openai-nvidia-oracle.html",
+          "publisher": "CNBC",
+          "title": "OpenAI, Oracle and NVIDIA will help build Stargate UAE AI campus launching in 2026",
+          "date": "2025-05-22"
+        }
+      ]
     }
   ],
   "openQuestions": [
     "The April 2025 H20 license requirement and the related $4.5 billion inventory charge appeared only in secondary sources; Nvidia's Form 8-K or 10-Q for that quarter should be clipped.",
     "A Lawfare analysis says the revenue-share approach was extended in December 2025 to 25 percent for H200 chips; this was not confirmed from an official source.",
-    "How Nvidia's 10-Q for the quarter ended July 2025 characterizes the 15 percent arrangement was not retrieved."
+    "How Nvidia's 10-Q for the quarter ended July 2025 characterizes the 15 percent arrangement was not retrieved.",
+    "The 500,000-chips-a-year UAE framework is known only from Reuters reporting on a draft agreement; no official text of the US-UAE AI Acceleration Partnership was found, and the White House May 15, 2025 UAE fact sheet should be checked for its wording."
   ]
 }

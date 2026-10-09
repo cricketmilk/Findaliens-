@@ -1,0 +1,96 @@
+{
+  "entity": "andy-jassy",
+  "name": "Andy Jassy",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Andy Jassy is chief executive of Amazon. He joined the company in 1997, served as Jeff Bezos's technical assistant, helped launch Amazon Web Services in 2006 and led AWS until he was named Amazon's next CEO in February 2021, taking over on July 5, 2021 while Bezos became executive chairman. AWS won a CIA contract worth about $600 million in early 2013 to build a private cloud for the intelligence community; IBM's protest was partly sustained by the GAO in June 2013, AWS sued in the Court of Federal Claims, and Judge Thomas Wheeler ruled for AWS on October 7, 2013.",
+    "sources": [
+      { "url": "https://www.bloomberg.com/news/articles/2021-05-26/amazon-s-andy-jassy-will-become-ceo-on-july-5-bezos-says", "publisher": "Bloomberg", "title": "Amazon's Andy Jassy Will Become CEO on July 5, Bezos Says", "date": "2021-05-26" },
+      { "url": "https://nextgov.com/modernization/2013/10/judge-rules-for-amazon-web-services-over-ibm-in-cia-cloud-case/211401", "publisher": "Nextgov", "title": "Judge rules for Amazon Web Services over IBM in CIA cloud case", "date": "2013-10" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Jassy, who ran Amazon Web Services, was named Amazon's next CEO in February 2021. Bezos told the May 2021 shareholder meeting that Jassy would take over on July 5, 2021, the 27th anniversary of the company's incorporation, and that Bezos would become executive chairman.",
+      "status": "reported",
+      "date": "2021-07-05",
+      "quote": "Jassy, who now runs the Amazon Web Services cloud computing division, was named the company's next CEO in February.",
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2021-05-26/amazon-s-andy-jassy-will-become-ceo-on-july-5-bezos-says", "publisher": "Bloomberg", "title": "Amazon's Andy Jassy Will Become CEO on July 5, Bezos Says", "date": "2021-05-26" }
+      ]
+    },
+    {
+      "claim": "Jassy joined Amazon in 1997, served as Bezos's technical assistant and helped launch AWS in 2006, leading the division from its inception. Adam Selipsky succeeded him as AWS chief executive.",
+      "status": "reported",
+      "date": "2006",
+      "quote": "has led the Amazon Web Services division since its inception",
+      "sources": [
+        { "url": "https://www.techspot.com/community/topics/andy-jassy-will-become-amazon-ceo-on-july-5-exactly-27-years-to-the-day-that-amazon-was.269415/", "publisher": "TechSpot", "title": "Andy Jassy will become Amazon CEO on July 5, exactly 27 years to the day that Amazon was incorporated", "date": "2021-05" },
+        { "url": "https://www.forbesargentina.com/liderazgo/comienza-una-nueva-era-amazon-andy-jassy-asume-como-ceo-n6352/amp", "publisher": "Forbes Argentina", "title": "Comienza una nueva era para Amazon: Andy Jassy asume como CEO", "date": "2021-07" }
+      ]
+    },
+    {
+      "claim": "In early 2013 the CIA awarded Amazon Web Services a contract worth about $600 million to build a private cloud for the intelligence community. IBM protested, and in June 2013 the GAO sided partly with IBM, faulting the CIA's evaluation of pricing and finding the agency had relaxed a requirement after choosing AWS; it recommended reopening negotiations. GAO also found the CIA chose AWS over a cheaper IBM offer because AWS offered a superior technical solution.",
+      "status": "reported",
+      "date": "2013-06",
+      "quote": "GAO faulted the CIA's evaluation of pricing submitted by IBM and Amazon and it said that the CIA was incorrect in relaxing a requirement after picking Amazon as the winner of the contract.",
+      "sources": [
+        { "url": "https://www.pcworld.com/article/453059/amazon-web-services-files-complaint-in-court-over-cia-contract.html", "publisher": "PCWorld (IDG News Service)", "title": "Amazon Web Services files complaint in court over CIA contract", "date": "2013-07" },
+        { "url": "https://www.washingtontechnology.com/2013/07/amazon-goes-to-court-to-keep-cia-contract/344116/", "publisher": "Washington Technology", "title": "Amazon goes to court to keep CIA contract", "date": "2013-07" }
+      ]
+    },
+    {
+      "claim": "AWS filed a bid-protest complaint in the U.S. Court of Federal Claims in July 2013, under seal, challenging the scope of the CIA's corrective action and calling IBM's protest untimely and meritless. On October 7, 2013 Judge Thomas Wheeler ruled for AWS, allowing the CIA and AWS to proceed under the original contract; IBM said it would appeal and sought a stay.",
+      "status": "court",
+      "date": "2013-10-07",
+      "quote": "U.S. Court of Federal Claims Judge Thomas Wheeler ruled in favor of AWS, which had challenged the scope of and need for corrective action taken by the CIA in response to recommendations made by the Government Accountability office in June.",
+      "sources": [
+        { "url": "https://nextgov.com/modernization/2013/10/judge-rules-for-amazon-web-services-over-ibm-in-cia-cloud-case/211401", "publisher": "Nextgov", "title": "Judge rules for Amazon Web Services over IBM in CIA cloud case", "date": "2013-10" },
+        { "url": "https://washingtontechnology.com/2013/10/amazon-wins-case-versus-ibm/337990", "publisher": "Washington Technology", "title": "Amazon wins case versus IBM", "date": "2013-10" },
+        { "url": "https://www.nextgov.com/modernization/2013/10/ibm-seeks-stay-on-courts-ruling-over-cia-contract/211500/", "publisher": "Nextgov", "title": "IBM seeks stay on court's ruling over CIA contract", "date": "2013-10" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "amazon",
+      "relation": "executive of",
+      "claim": "Jassy led Amazon Web Services from its 2006 launch and became Amazon's chief executive on July 5, 2021.",
+      "status": "reported",
+      "date": "2021-07-05",
+      "quote": "Jassy, who now runs the Amazon Web Services cloud computing division, was named the company's next CEO in February.",
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2021-05-26/amazon-s-andy-jassy-will-become-ceo-on-july-5-bezos-says", "publisher": "Bloomberg", "title": "Amazon's Andy Jassy Will Become CEO on July 5, Bezos Says", "date": "2021-05-26" }
+      ]
+    },
+    {
+      "to": "jeff-bezos",
+      "relation": "other",
+      "claim": "Jassy succeeded Jeff Bezos as Amazon CEO on July 5, 2021, with Bezos becoming executive chairman; earlier in his career Jassy served as Bezos's technical assistant.",
+      "status": "reported",
+      "date": "2021-07-05",
+      "quote": "Bezos, who founded the world's largest online retailer in 1994, will become executive chairman and focus on new projects and initiatives.",
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2021-05-26/amazon-s-andy-jassy-will-become-ceo-on-july-5-bezos-says", "publisher": "Bloomberg", "title": "Amazon's Andy Jassy Will Become CEO on July 5, Bezos Says", "date": "2021-05-26" },
+        { "url": "https://www.forbesargentina.com/liderazgo/comienza-una-nueva-era-amazon-andy-jassy-asume-como-ceo-n6352/amp", "publisher": "Forbes Argentina", "title": "Comienza una nueva era para Amazon: Andy Jassy asume como CEO", "date": "2021-07" }
+      ]
+    },
+    {
+      "to": "cia",
+      "relation": "contracted with",
+      "claim": "Amazon Web Services, the division Jassy led, was awarded a CIA contract worth about $600 million in 2013 to build a private cloud for the intelligence community; the award survived an IBM protest after a Court of Federal Claims ruling for AWS in October 2013. The contract was with AWS, not with Jassy personally.",
+      "status": "reported",
+      "date": "2013",
+      "quote": "AWS secured the four-year contract worth about $600m from CIA to build a private cloud for its intelligence community.",
+      "sources": [
+        { "url": "https://www.techmonitor.ai/?p=118762", "publisher": "Tech Monitor", "title": "AWS CIA cloud contract coverage", "date": "2013" },
+        { "url": "https://nextgov.com/modernization/2013/10/judge-rules-for-amazon-web-services-over-ibm-in-cia-cloud-case/211401", "publisher": "Nextgov", "title": "Judge rules for Amazon Web Services over IBM in CIA cloud case", "date": "2013-10" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (Crash Conduits): the CIA awarded AWS a roughly $600M contract in January 2013, IBM protested, the GAO partly sustained the protest and the Court of Federal Claims ruled for Amazon later in 2013. Supported by Nextgov, Washington Technology and PCWorld coverage; the exact award month and the outcome of IBM's appeal were not confirmed.",
+    "Sources differ on whether the contract was a four-year deal or worth 'up to' $600 million.",
+    "Amazon's own February 2021 announcement of the CEO transition was not among the pages returned; the 2006 AWS launch date rests on secondary reporting."
+  ]
+}

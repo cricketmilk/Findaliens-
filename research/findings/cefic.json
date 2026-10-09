@@ -1,0 +1,69 @@
+{
+  "entity": "cefic",
+  "name": "Cefic",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Cefic, the European Chemical Industry Council, is the Brussels-based trade association of the chemical industry in Europe, founded in 1972. It describes its membership as about 670 members and affiliates, including national chemical federations, corporate members and sector groups, representing roughly 29,000 chemical companies. It is registered in the EU Transparency Register (ID 64879142323-90) and, according to LobbyFacts, declared lobbying costs of 10 million euros or more for 2023 with 93 lobbyists and 166 high-level Commission meetings. In 2009 the European Commission suspended Cefic from the register for eight weeks after Friends of the Earth Europe complained that its declared lobbying budget of under 50,000 euros was understated.",
+    "sources": [
+      { "url": "https://cefic.org/about-us/", "publisher": "Cefic", "title": "The forum of the chemical industry in Europe" },
+      { "url": "https://www.lobbyfacts.eu/representative/df1d877b2a2f4f7fa7df0b9cc4f954d8/european-chemical-industry-council", "publisher": "LobbyFacts (Corporate Europe Observatory and LobbyControl)", "title": "European Chemical Industry Council" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Cefic describes itself as the forum of the chemical industry in Europe, representing about 29,000 chemical companies through 670 members and affiliates that include national federations, corporate members and sector associations.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://cefic.org/about-us/", "publisher": "Cefic", "title": "The forum of the chemical industry in Europe" }
+      ]
+    },
+    {
+      "claim": "Cefic was founded in 1972 and is headquartered in Brussels; it engages with EU institutions on regulation such as REACH and CLP, climate and energy, and innovation, coordinates the Responsible Care programme in Europe and is a member of the International Council of Chemical Associations.",
+      "status": "documented",
+      "date": "1972",
+      "sources": [
+        { "url": "https://www.chemeurope.com/en/associations/19412/european-chemical-industry-council-cefic.html", "publisher": "Chemeurope.com", "title": "About European Chemical Industry Council" },
+        { "url": "https://cefic.org/about-us/", "publisher": "Cefic", "title": "The forum of the chemical industry in Europe" }
+      ]
+    },
+    {
+      "claim": "LobbyFacts records Cefic's EU Transparency Register entry (ID 64879142323-90, first registered in September 2009) as declaring lobbying costs of 10 million euros or more for the 2023 financial year, with 93 declared lobbyists (about 43 full-time equivalents), 14 European Parliament access passes and 166 high-level Commission meetings.",
+      "status": "documented",
+      "date": "2023",
+      "sources": [
+        { "url": "https://www.lobbyfacts.eu/representative/df1d877b2a2f4f7fa7df0b9cc4f954d8/european-chemical-industry-council", "publisher": "LobbyFacts (Corporate Europe Observatory and LobbyControl)", "title": "European Chemical Industry Council" }
+      ]
+    },
+    {
+      "claim": "Cefic's register entry states that its registration covers all of its sector groups' activities aimed at influencing EU policy.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.lobbyfacts.eu/representative/df1d877b2a2f4f7fa7df0b9cc4f954d8/european-chemical-industry-council", "publisher": "LobbyFacts (Corporate Europe Observatory and LobbyControl)", "title": "European Chemical Industry Council" }
+      ]
+    },
+    {
+      "claim": "In July 2009 the European Commission suspended Cefic from the EU lobby register for eight weeks after a complaint by Friends of the Earth Europe that Cefic had declared a lobbying budget under 50,000 euros against an organisational budget of about 37.9 million euros; the Commission found the declared expenditure 'appears to be underestimated' and asked Cefic to correct it.",
+      "status": "documented",
+      "date": "2009-07",
+      "quote": "appears to be underestimated",
+      "sources": [
+        { "url": "https://friendsoftheearth.eu/press-release/cefic-suspended-from-lobby-register-by-commission/", "publisher": "Friends of the Earth Europe", "title": "Cefic suspended from lobby register by Commission", "date": "2009-07" },
+        { "url": "https://corporateeurope.org/en/blog/three-surprising-new-entries-register", "publisher": "Corporate Europe Observatory", "title": "Three surprising new entries on the register", "date": "2009" }
+      ]
+    },
+    {
+      "claim": "When Cefic re-entered the register later in 2009 it declared a lobbying budget of 4 million euros for that year; Corporate Europe Observatory said this was a small share of its total budget, with the remainder attributed to sector groups and research.",
+      "status": "reported",
+      "date": "2009",
+      "sources": [
+        { "url": "https://corporateeurope.org/en/blog/three-surprising-new-entries-register", "publisher": "Corporate Europe Observatory", "title": "Three surprising new entries on the register", "date": "2009" }
+      ]
+    }
+  ],
+  "connections": [],
+  "openQuestions": [
+    "Cefic is named in research/entities.seed.json but is not yet an entity in public/data/entities.json and does not appear on any site page; the owner may want to run the extractor or add it to a page before linking.",
+    "The EU Transparency Register's own page for Cefic was not retrieved; the figures above are LobbyFacts' snapshot of it and should be checked against the live register.",
+    "InfluenceMap published a list of Cefic's executive committee members (March 2019) and older snapshots name BASF's Martin Brudermüller as Cefic president from 2020, but these came from dated secondary pages and were not recorded; a connection to BASF would need Cefic's own governance page."
+  ]
+}

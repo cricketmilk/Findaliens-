@@ -1,0 +1,170 @@
+{
+  "entity": "baron-jacques-de-reinach",
+  "name": "Baron Jacques de Reinach",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Baron Jacques de Reinach was a Paris financier with an interest in the Compagnie Universelle du Canal Interocéanique, the French Panama Canal company. In 1888 he was active in obtaining from the Chamber of Deputies the authorisation for the company's lottery loan, and, according to Britannica, managed the distribution of money to politicians with Léopold Arton and Cornelius Herz. When the affair broke in autumn 1892 he was summoned before a parliamentary committee; a warrant for his arrest was issued on 19 November 1892 and he was found dead, presumed a suicide, on 19 or 20 November.",
+    "sources": [
+      {
+        "url": "https://www.britannica.com/event/Panama-Scandal",
+        "publisher": "Encyclopaedia Britannica",
+        "title": "Panama Scandal"
+      },
+      {
+        "url": "https://jewishencyclopedia.com/articles/12663-reinach",
+        "publisher": "Jewish Encyclopedia (1906)",
+        "title": "Reinach"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Reinach was financially interested in the Panama Canal company and was active in obtaining further concessions for it from the Chamber of Deputies in 1888, the year the company obtained legislative approval for a lottery loan to overcome a financial crisis.",
+      "status": "documented",
+      "date": "1888",
+      "quote": "Reinach had been financially interested in the second Panama Canal Company, and was active in obtaining further concessions for the company from the House of Deputies in 1888.",
+      "sources": [
+        {
+          "url": "https://jewishencyclopedia.com/articles/12663-reinach",
+          "publisher": "Jewish Encyclopedia (1906)",
+          "title": "Reinach"
+        },
+        {
+          "url": "https://www.britannica.com/event/Panama-Scandal",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Panama Scandal"
+        }
+      ]
+    },
+    {
+      "claim": "Britannica states that Reinach managed the bribery with two adventurers, Léopold Arton and Cornélius Herz, who subsequently fled abroad.",
+      "status": "documented",
+      "date": "1888",
+      "quote": "He managed the bribery with two adventurers, Léopold Arton (properly Aaron) and Cornélius Herz, who subsequently fled abroad.",
+      "sources": [
+        {
+          "url": "https://www.britannica.com/event/Panama-Scandal",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Panama Scandal"
+        }
+      ]
+    },
+    {
+      "claim": "In autumn 1892 the newspapers La Libre Parole and La Cocarde accused the government of complicity with the company's directors; Édouard Drumont's paper pressed Reinach to explain the 3,000,000 francs he had received from the company for 'publicity'.",
+      "status": "reported",
+      "date": "1892",
+      "quote": "pressed Reinach to explain the 3,000,000 francs he had received from the company for purposes of \"publicity\"",
+      "sources": [
+        {
+          "url": "https://www.britannica.com/event/Panama-Scandal",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Panama Scandal"
+        }
+      ]
+    },
+    {
+      "claim": "Reinach was summoned before a committee of the Chamber of Deputies on 8 November 1892 and failed to appear; a warrant for his arrest was issued on 19 November, and he was found dead in his bed the next day, suspected of suicide. Britannica gives 19 November 1892 as the date of death.",
+      "status": "documented",
+      "date": "1892-11-19",
+      "quote": "a warrant for his arrest was issued Nov. 19",
+      "sources": [
+        {
+          "url": "https://jewishencyclopedia.com/articles/12663-reinach",
+          "publisher": "Jewish Encyclopedia (1906)",
+          "title": "Reinach"
+        },
+        {
+          "url": "https://www.britannica.com/event/Panama-Scandal",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Panama Scandal"
+        }
+      ]
+    },
+    {
+      "claim": "Royalist deputy Jules Delahaye charged that more than 150 parliamentarians had taken bribes to vote for the 1888 lottery loan; a parliamentary commission of inquiry was set up and Émile Loubet's government resigned on 28 November 1892.",
+      "status": "documented",
+      "date": "1892-11-28",
+      "quote": "on Nov. 28, 1892, Émile Loubet's government was forced to resign",
+      "sources": [
+        {
+          "url": "https://www.britannica.com/event/Panama-Scandal",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Panama Scandal"
+        }
+      ]
+    },
+    {
+      "claim": "Former public works minister Charles Baïhaut confessed to receiving money and was sentenced in March 1893 to five years' imprisonment; the other parliamentarians were acquitted for lack of proof.",
+      "status": "court",
+      "date": "1893-03",
+      "quote": "Charles Baïhaut, a former minister of public works, confessed to having received money and was sentenced in March 1893 to five years' imprisonment",
+      "sources": [
+        {
+          "url": "https://www.britannica.com/event/Panama-Scandal",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Panama Scandal"
+        }
+      ]
+    },
+    {
+      "claim": "The company, sponsored by Ferdinand de Lesseps, collapsed in February 1889 as a result of corruption and mismanagement after French investors had contributed heavily.",
+      "status": "documented",
+      "date": "1889-02",
+      "quote": "the company collapsed in February 1889 as a result of corruption and mismanagement",
+      "sources": [
+        {
+          "url": "https://www.britannica.com/event/Panama-Scandal",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Panama Scandal"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "cornelius-herz",
+      "toName": "Cornelius Herz",
+      "toType": "person",
+      "relation": "partnered with",
+      "claim": "Britannica states that Reinach managed the Panama company's bribery with Léopold Arton and Cornelius Herz, who later fled abroad.",
+      "status": "documented",
+      "date": "1888",
+      "quote": "He managed the bribery with two adventurers, Léopold Arton (properly Aaron) and Cornélius Herz",
+      "sources": [
+        {
+          "url": "https://www.britannica.com/event/Panama-Scandal",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Panama Scandal"
+        }
+      ]
+    },
+    {
+      "to": "ferdinand-de-lesseps",
+      "toName": "Ferdinand de Lesseps",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Reinach was financially interested in and acted for the Panama Canal company sponsored by Ferdinand de Lesseps, obtaining concessions for it from the Chamber of Deputies in 1888.",
+      "status": "documented",
+      "date": "1888",
+      "quote": "was active in obtaining further concessions for the company from the House of Deputies in 1888",
+      "sources": [
+        {
+          "url": "https://jewishencyclopedia.com/articles/12663-reinach",
+          "publisher": "Jewish Encyclopedia (1906)",
+          "title": "Reinach"
+        },
+        {
+          "url": "https://www.britannica.com/event/Panama-Scandal",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Panama Scandal"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: that Reinach 'distributed bribes to legislators' and 'died, reportedly by suicide, in November 1892' — supported by Britannica and the Jewish Encyclopedia.",
+    "Site claim tested: '104 legislators were ultimately found to have been involved' — not supported by the sources opened: Britannica records Delahaye's charge of 'more than 150', one conviction (Baïhaut) and acquittals for lack of proof; the 104 figure appeared only in Wikipedia-derived pages.",
+    "Site claim tested: that Herz 'pressured Reinach' — the sources describe Herz as a co-organiser who fled; the pressure claim was not confirmed.",
+    "Sources differ on the date of death (19 or 20 November 1892). No Gallica document was returned by the searches."
+  ]
+}

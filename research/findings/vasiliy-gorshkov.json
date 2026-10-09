@@ -1,0 +1,153 @@
+{
+  "entity": "vasiliy-gorshkov",
+  "name": "Vasiliy Gorshkov",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Vasiliy Gorshkov is a Russian national from Chelyabinsk who was lured to the United States in November 2000 with Alexey Ivanov in an FBI operation targeting Russian computer intrusions against U.S. internet service providers, e-commerce sites and online banks. He was convicted at trial in Seattle on 20 counts of conspiracy, computer crime and fraud and sentenced in October 2002 to 36 months in prison with restitution of nearly $700,000.",
+    "sources": [
+      {
+        "url": "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2002/gorshkovSent.htm",
+        "publisher": "U.S. Department of Justice",
+        "title": "Russian Computer Hacker Sentenced to Three Years in Prison",
+        "date": "2002-10-04"
+      },
+      {
+        "url": "https://www.nbcnews.com/id/wbna3078748",
+        "publisher": "NBC News",
+        "title": "Russian hacker sentenced in Seattle",
+        "date": "2002-10"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On 4 October 2002 Judge John Coughenour of the U.S. District Court in Seattle sentenced Gorshkov to 36 months in prison following his trial conviction on 20 counts of conspiracy, computer crime and fraud against Speakeasy Network of Seattle, Nara Bank of Los Angeles, Central National Bank of Waco and the online payment company PayPal.",
+      "status": "court",
+      "date": "2002-10-04",
+      "quote": "GORSHKOV also was ordered to pay restitution of nearly $700,000 for the losses he caused to Speakeasy and PayPal.",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2002/gorshkovSent.htm",
+          "publisher": "U.S. Department of Justice",
+          "title": "Russian Computer Hacker Sentenced to Three Years in Prison",
+          "date": "2002-10-04"
+        }
+      ]
+    },
+    {
+      "claim": "The FBI lured Gorshkov and Alexey Ivanov, both from Chelyabinsk, to the United States as part of an investigation into Russian computer intrusions directed at internet service providers, e-commerce sites and online banks; Ivanov had been invited to interview with a Seattle front company, Invita Security, and brought Gorshkov along.",
+      "status": "documented",
+      "date": "2000-11",
+      "quote": "The FBI lured Gorshkov and another man from Chelyabinsk, Alexey Ivanov, 23, to the U.S. as part of an FBI investigation into Russian computer intrusions",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2002/gorshkovSent.htm",
+          "publisher": "U.S. Department of Justice",
+          "title": "Russian Computer Hacker Sentenced to Three Years in Prison",
+          "date": "2002-10-04"
+        },
+        {
+          "url": "https://www.csoonline.com/article/2118241/alexey-ivanov-and-vasiliy-gorshkov--russian-hacker-roulette.html",
+          "publisher": "CSO Online",
+          "title": "Alexey Ivanov and Vasiliy Gorshkov: Russian Hacker Roulette"
+        }
+      ]
+    },
+    {
+      "claim": "The judge rejected prosecutors' request that Gorshkov serve at least 16 years, citing financial and medical problems of his family in Russia, and ordered restitution of about $690,000.",
+      "status": "court",
+      "date": "2002-10",
+      "quote": "the federal judge rejected the prosecutor's request that the hacker serve at least 16 years",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/id/wbna3078748",
+          "publisher": "NBC News",
+          "title": "Russian hacker sentenced in Seattle",
+          "date": "2002-10"
+        }
+      ]
+    },
+    {
+      "claim": "Ivanov was prosecuted separately and pleaded guilty to similar charges and extortion in indictments brought in five federal courts.",
+      "status": "court",
+      "date": "2002",
+      "quote": "Ivanov pleaded guilty in August to similar charges and extortion in separate indictments brought in five different federal courts",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/id/wbna3078748",
+          "publisher": "NBC News",
+          "title": "Russian hacker sentenced in Seattle",
+          "date": "2002-10"
+        },
+        {
+          "url": "https://www.csoonline.com/article/2118241/alexey-ivanov-and-vasiliy-gorshkov--russian-hacker-roulette.html",
+          "publisher": "CSO Online",
+          "title": "Alexey Ivanov and Vasiliy Gorshkov: Russian Hacker Roulette"
+        }
+      ]
+    },
+    {
+      "claim": "The case was described as the first time the FBI successfully enticed suspects in high-tech crimes to come to the United States; the FBI also acknowledged downloading evidence from the suspects' computers in Russia, which the Justice Department described as an extra-territorial seizure of digital evidence.",
+      "status": "reported",
+      "date": "2002",
+      "quote": "extra-territorial seizure of digital evidence",
+      "sources": [
+        {
+          "url": "https://www.csoonline.com/article/2118241/alexey-ivanov-and-vasiliy-gorshkov--russian-hacker-roulette.html",
+          "publisher": "CSO Online",
+          "title": "Alexey Ivanov and Vasiliy Gorshkov: Russian Hacker Roulette"
+        },
+        {
+          "url": "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2002/gorshkovSent.htm",
+          "publisher": "U.S. Department of Justice",
+          "title": "Russian Computer Hacker Sentenced to Three Years in Prison",
+          "date": "2002-10-04"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "paypal",
+      "toName": "PayPal",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Gorshkov was convicted of computer crime and fraud against PayPal and ordered to pay restitution for PayPal's losses.",
+      "status": "court",
+      "date": "2002-10-04",
+      "quote": "GORSHKOV also was ordered to pay restitution of nearly $700,000 for the losses he caused to Speakeasy and PayPal.",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2002/gorshkovSent.htm",
+          "publisher": "U.S. Department of Justice",
+          "title": "Russian Computer Hacker Sentenced to Three Years in Prison",
+          "date": "2002-10-04"
+        }
+      ]
+    },
+    {
+      "to": "us-department-of-justice",
+      "toName": "US Department of Justice",
+      "toType": "government",
+      "relation": "investigated",
+      "claim": "The Justice Department prosecuted Gorshkov in the Western District of Washington after an FBI undercover operation; he was convicted at trial and sentenced in October 2002.",
+      "status": "court",
+      "date": "2002-10-04",
+      "quote": "Judge John Coughenour gave him 36 months in prison",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2002/gorshkovSent.htm",
+          "publisher": "U.S. Department of Justice",
+          "title": "Russian Computer Hacker Sentenced to Three Years in Prison",
+          "date": "2002-10-04"
+        }
+      ],
+      "reverse": true
+    }
+  ],
+  "openQuestions": [
+    "The entity does not appear on any investigation page; it is in the seed list only. No site claim was found to test.",
+    "Ivanov's sentence was not found in the sources opened.",
+    "Reports that Moscow protested the FBI's methods were summarised in the search results but not tied to a specific document."
+  ]
+}

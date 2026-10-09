@@ -1,0 +1,276 @@
+{
+  "entity": "aig",
+  "name": "AIG",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "American International Group (AIG) is a U.S. insurance company whose London-based subsidiary AIG Financial Products (AIGFP), created in 1987, wrote credit default swaps on collateralized debt obligations. In 2008 and 2009 the federal government agreed to make more than $182 billion of assistance available to AIG, citing systemic risk. The Federal Reserve Bank of New York lent about $24.3 billion to Maiden Lane III LLC, which bought multi-sector CDOs from AIGFP's swap counterparties in exchange for terminating the swaps; AIG's 2008 annual report says the vehicle had purchased $62.1 billion in par amount of CDOs by December 31, 2008. SIGTARP concluded in November 2009 that the counterparties were effectively paid par. Maiden Lane III repaid the New York Fed's loan with interest in June 2012.",
+    "sources": [
+      {
+        "url": "https://www.gao.gov/assets/gao-11-616.pdf",
+        "publisher": "U.S. Government Accountability Office",
+        "title": "Financial Crisis: Review of Federal Reserve System Financial Assistance to American International Group (GAO-11-616)",
+        "date": "2011"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/0000005272/000095012309003734/y74794e10vk.htm",
+        "publisher": "SEC EDGAR (AIG filing)",
+        "title": "American International Group Inc. Form 10-K for fiscal year 2008",
+        "date": "2009"
+      },
+      {
+        "url": "https://fraser.stlouisfed.org/title/factors-affecting-efforts-limit-payments-aig-counterparties-5111/fulltext",
+        "publisher": "SIGTARP (via FRASER, Federal Reserve Bank of St. Louis)",
+        "title": "Factors Affecting Efforts to Limit Payments to AIG Counterparties (SIGTARP-10-003)",
+        "date": "2009-11-17"
+      },
+      {
+        "url": "https://www.newyorkfed.org/newsevents/news/markets/2012/an120614",
+        "publisher": "Federal Reserve Bank of New York",
+        "title": "New York Fed Announces Full Repayment of its Loans to Maiden Lane LLC and Maiden Lane III LLC",
+        "date": "2012-06-14"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "GAO reported that in 2008 and 2009 the federal government agreed to make more than $182 billion of federal assistance available to AIG out of concern that an AIG failure would pose systemic risk; a separate GAO update put the authorized amount at $182.3 billion and the outstanding balance at $129.1 billion as of December 31, 2009.",
+      "status": "documented",
+      "date": "2009-12-31",
+      "quote": "in 2008 and 2009 the federal government agreed to make more than $182 billion of federal assistance available to AIG, out of concern that an AIG failure would have posed systemic risk",
+      "sources": [
+        {
+          "url": "https://www.gao.gov/assets/gao-11-616.pdf",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Financial Crisis: Review of Federal Reserve System Financial Assistance to American International Group (GAO-11-616)",
+          "date": "2011"
+        },
+        {
+          "url": "https://www.gao.gov/assets/files.gao.gov/assets/gao-10-475.pdf",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Update of Government Assistance Provided to AIG (GAO-10-475)",
+          "date": "2010"
+        }
+      ]
+    },
+    {
+      "claim": "The Federal Reserve Board authorized the New York Fed to lend up to $30 billion to Maiden Lane III LLC, which bought collateralized debt obligations from AIG counterparties that had bought credit default swaps from AIG; in exchange the counterparties agreed to terminate the swaps, which GAO described as a significant source of AIG's liquidity problems.",
+      "status": "documented",
+      "date": "2008-11",
+      "quote": "In exchange, the counterparties agreed to terminate the swaps, which were a significant source of AIG's liquidity problems.",
+      "sources": [
+        {
+          "url": "https://www.gao.gov/assets/files.gao.gov/assets/gao-10-475.pdf",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Update of Government Assistance Provided to AIG (GAO-10-475)",
+          "date": "2010"
+        },
+        {
+          "url": "https://www.newyorkfed.org/aboutthefed/aig",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Actions Related to AIG"
+        }
+      ]
+    },
+    {
+      "claim": "AIG's Form 10-K for 2008 reports that through December 31, 2008 Maiden Lane III had purchased from counterparties a total of $62.1 billion in par amount of CDO securities; the New York Fed describes the vehicle as purchasing $29.3 billion of multi-sector CDOs with a loan of approximately $24.3 billion.",
+      "status": "documented",
+      "date": "2008-12-31",
+      "quote": "through December 31, 2008, ML III had purchased from counterparties a total of $62.1 billion in par amount of CDO securities",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000005272/000095012309003734/y74794e10vk.htm",
+          "publisher": "SEC EDGAR (AIG filing)",
+          "title": "American International Group Inc. Form 10-K for fiscal year 2008",
+          "date": "2009"
+        },
+        {
+          "url": "https://www.newyorkfed.org/aboutthefed/aig",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Actions Related to AIG"
+        }
+      ]
+    },
+    {
+      "claim": "SIGTARP's November 17, 2009 audit (SIGTARP-10-003) found that because AIG's counterparties were paid the fair market value of the assets underlying the credit default swaps and were allowed to keep collateral previously posted, they were effectively paid the par value of the underlying assets; it criticized the New York Fed's negotiating strategy as offering little opportunity for concessions.",
+      "status": "documented",
+      "date": "2009-11-17",
+      "quote": "Because the counterparties were both paid the fair market value of the assets underlying the credit default swap contracts and permitted to keep the collateral that had previously been posted, the counterparties were effectively paid the par value of the underlying assets.",
+      "sources": [
+        {
+          "url": "https://fraser.stlouisfed.org/title/factors-affecting-efforts-limit-payments-aig-counterparties-5111/fulltext",
+          "publisher": "SIGTARP (via FRASER, Federal Reserve Bank of St. Louis)",
+          "title": "Factors Affecting Efforts to Limit Payments to AIG Counterparties (SIGTARP-10-003)",
+          "date": "2009-11-17"
+        },
+        {
+          "url": "https://oversight.house.gov/wp-content/uploads/2012/02/20100127barofsky.pdf",
+          "publisher": "U.S. House Committee on Oversight and Government Reform",
+          "title": "Testimony of Neil Barofsky, Special Inspector General for TARP, January 27, 2010",
+          "date": "2010-01-27"
+        }
+      ]
+    },
+    {
+      "claim": "An FCIC staff fact sheet states that AIGFP's creation in 1987 was based in part on its ability to take advantage of AIG's AAA credit rating, that after AIG's 2005 downgrade Joseph Cassano's unit expanded its business, and that approximately $50 billion of taxpayer cash was paid to U.S. and foreign financial firms that were AIG's credit default swap counterparties.",
+      "status": "documented",
+      "date": "2010",
+      "quote": "approximately $50 billion of taxpayer cash has been paid to U.S. and foreign financial firms who were AIG's counterparties in its credit default swap business",
+      "sources": [
+        {
+          "url": "http://fcic.law.stanford.edu/documents/view/1953",
+          "publisher": "Financial Crisis Inquiry Commission (Stanford archive)",
+          "title": "Fact Sheet on AIGFP"
+        }
+      ]
+    },
+    {
+      "claim": "Maiden Lane II LLC was created to buy residential mortgage-backed securities from AIG's U.S. securities lending portfolio, which GAO said had placed significant demands on AIG's working capital.",
+      "status": "documented",
+      "date": "2008-12",
+      "quote": "Maiden Lane II LLC was created to purchase RMBS assets from AIG's U.S. securities lending portfolio, which placed significant demands on AIG's working capital.",
+      "sources": [
+        {
+          "url": "https://www.gao.gov/assets/files.gao.gov/assets/gao-10-475.pdf",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Update of Government Assistance Provided to AIG (GAO-10-475)",
+          "date": "2010"
+        }
+      ]
+    },
+    {
+      "claim": "Public disclosure of certain AIG credit default swap counterparty information came in a March 15, 2009 press release, following pressure from government agencies and Congress; a shareholder filing with the SEC characterized the counterparties as having collectively received over $62 billion through Maiden Lane III.",
+      "status": "documented",
+      "date": "2009-03-15",
+      "quote": "continued pressure from government agencies and Congress prompted public disclosure of certain CDS counterparty information in a March 15, 2009 press release",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/comments/s7-07-19/s70719-5858831-188630.pdf",
+          "publisher": "SEC (public comment file)",
+          "title": "Comment letter to the Securities and Exchange Commission, July 23, 2019",
+          "date": "2019-07-23"
+        }
+      ]
+    },
+    {
+      "claim": "On June 14, 2012 the New York Fed announced that Maiden Lane III LLC had repaid its loan from the New York Fed with interest.",
+      "status": "documented",
+      "date": "2012-06-14",
+      "quote": "On June 14, 2012, Maiden Lane LLC and Maiden Lane III LLC repaid the loans made by the New York Fed, with interest.",
+      "sources": [
+        {
+          "url": "https://www.newyorkfed.org/newsevents/news/markets/2012/an120614",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "New York Fed Announces Full Repayment of its Loans to Maiden Lane LLC and Maiden Lane III LLC",
+          "date": "2012-06-14"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "ny-fed",
+      "toName": "NY Fed",
+      "toType": "government",
+      "relation": "funded",
+      "reverse": true,
+      "claim": "The Federal Reserve Bank of New York lent approximately $24.3 billion to Maiden Lane III, which bought CDOs from AIGFP's credit default swap counterparties so the swaps could be terminated; the loan was repaid with interest in June 2012.",
+      "status": "documented",
+      "date": "2012-06-14",
+      "quote": "In exchange, the counterparties agreed to terminate the swaps, which were a significant source of AIG's liquidity problems.",
+      "sources": [
+        {
+          "url": "https://www.gao.gov/assets/files.gao.gov/assets/gao-10-475.pdf",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Update of Government Assistance Provided to AIG (GAO-10-475)",
+          "date": "2010"
+        },
+        {
+          "url": "https://www.newyorkfed.org/aboutthefed/aig",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Actions Related to AIG"
+        },
+        {
+          "url": "https://www.newyorkfed.org/newsevents/news/markets/2012/an120614",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "New York Fed Announces Full Repayment of its Loans to Maiden Lane LLC and Maiden Lane III LLC",
+          "date": "2012-06-14"
+        }
+      ]
+    },
+    {
+      "to": "maiden-lane",
+      "toName": "Maiden Lane",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Maiden Lane II bought RMBS from AIG's securities lending portfolio and Maiden Lane III bought $62.1 billion par of CDOs from AIG's swap counterparties as part of the federal assistance to AIG.",
+      "status": "documented",
+      "date": "2008-12-31",
+      "quote": "through December 31, 2008, ML III had purchased from counterparties a total of $62.1 billion in par amount of CDO securities",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000005272/000095012309003734/y74794e10vk.htm",
+          "publisher": "SEC EDGAR (AIG filing)",
+          "title": "American International Group Inc. Form 10-K for fiscal year 2008",
+          "date": "2009"
+        },
+        {
+          "url": "https://www.gao.gov/assets/files.gao.gov/assets/gao-10-475.pdf",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Update of Government Assistance Provided to AIG (GAO-10-475)",
+          "date": "2010"
+        }
+      ]
+    },
+    {
+      "to": "goldman-sachs",
+      "toName": "Goldman Sachs",
+      "toType": "bank",
+      "relation": "other",
+      "claim": "A 2019 comment letter to the SEC lists Goldman Sachs and Société Générale among the top ten indirect beneficiaries of the AIG bailout, six of which were foreign banks; the letter gives no dollar amounts.",
+      "status": "documented",
+      "date": "2019-07-23",
+      "quote": "The top ten indirect beneficiaries of the AIG bailout, in order, were the following, six of whom were foreign banks",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/comments/s7-07-19/s70719-5858831-188630.pdf",
+          "publisher": "SEC (public comment file)",
+          "title": "Comment letter to the Securities and Exchange Commission, July 23, 2019",
+          "date": "2019-07-23"
+        }
+      ]
+    },
+    {
+      "to": "u-s-department-of-the-treasury",
+      "toName": "U.S. Department of the Treasury",
+      "toType": "government",
+      "relation": "funded",
+      "reverse": true,
+      "claim": "Federal assistance to AIG of more than $182 billion was made available in 2008 and 2009 by the Federal Reserve and the Treasury's TARP, with GAO tracking the government's resulting exposure.",
+      "status": "documented",
+      "date": "2009",
+      "quote": "in 2008 and 2009 the federal government agreed to make more than $182 billion of federal assistance available to AIG",
+      "sources": [
+        {
+          "url": "https://www.gao.gov/assets/gao-11-616.pdf",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Financial Crisis: Review of Federal Reserve System Financial Assistance to American International Group (GAO-11-616)",
+          "date": "2011"
+        },
+        {
+          "url": "https://www.gao.gov/assets/gao-12-574.pdf",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Troubled Asset Relief Program: Government's Exposure to AIG Lessens as Equity Investments Are Sold (GAO-12-574)",
+          "date": "2012"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim that AIG's March 2009 disclosure listed $12.9 billion to Goldman Sachs and $11.9 billion to Société Générale: the March 15, 2009 press release is referenced in an SEC comment file, but the per-bank figures were not found in any source returned; check AIG's release or the SIGTARP report's counterparty tables.",
+    "Site claim that SIGTARP found the New York Fed 'made only limited attempts to negotiate haircuts' and effectively paid par: supported by SIGTARP-10-003.",
+    "Site claim that Maiden Lane III paid $27.1 billion for CDOs while counterparties kept $35 billion in collateral, and that total payments to counterparties reached $93.2 billion: not confirmed. AIG's 10-K gives $62.1 billion par purchased; the New York Fed gives $29.3 billion purchased with a $24.3 billion loan; the FCIC fact sheet cites about $50 billion in cash paid to counterparties.",
+    "Site claim that AIGFP wrote 'over $500 billion of credit protection' and that Cassano received 'roughly $280 million over eight years': not covered by the sources returned.",
+    "Site claim of '$182 billion in total federal assistance': supported by GAO (more than $182 billion authorized; $129.1 billion outstanding at end-2009).",
+    "Site claim that Timothy Geithner 'oversaw the par-value Maiden Lane III payouts' as NY Fed president: SIGTARP interviewed Geithner about the decision, and the New York Fed created the vehicle during his presidency; see timothy-geithner.json."
+  ]
+}

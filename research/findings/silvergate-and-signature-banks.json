@@ -1,0 +1,137 @@
+{
+  "entity": "silvergate-and-signature-banks",
+  "name": "Silvergate & Signature Banks",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Silvergate Bank (La Jolla, California) and Signature Bank (New York) were the two U.S. banks most used by cryptocurrency firms, including FTX, for dollar settlement. On March 8, 2023 Silvergate Capital Corporation announced it would wind down operations and voluntarily liquidate the bank with full repayment of deposits, days after discontinuing its Silvergate Exchange Network. On March 12, 2023 the New York State Department of Financial Services closed Signature Bank and the FDIC was named receiver, transferring deposits to a bridge bank under the systemic risk exception. The Federal Reserve's Office of Inspector General found in September 2023 that supervisors did not act quickly enough on Silvergate's crypto concentration, and in July 2024 the SEC charged Silvergate and two former executives with misleading investors about its anti-money-laundering monitoring of customers including FTX.",
+    "sources": [
+      { "url": "https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/signature-ny.html", "publisher": "FDIC", "title": "Signature Bank, New York, NY (failed bank information)", "date": "2023-03-12" },
+      { "url": "https://www.businesswire.com/news/home/20230308005795/en/Silvergate-Capital-Corporation-Announces-Intent-to-Wind-Down-Operations-and-Voluntarily-Liquidate-Silvergate-Bank", "publisher": "Business Wire (Silvergate Capital Corporation)", "title": "Silvergate Capital Corporation Announces Intent to Wind Down Operations and Voluntarily Liquidate Silvergate Bank", "date": "2023-03-08" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The FDIC records that on March 12, 2023 Signature Bank, New York, was closed by the New York State Department of Financial Services and the FDIC was named receiver. The FDIC transferred all deposits and substantially all assets to Signature Bridge Bank, N.A., which it operated while marketing the institution to bidders; regulators said all depositors would be made whole, an action taken under the systemic risk exception.",
+      "status": "documented",
+      "date": "2023-03-12",
+      "quote": "On March 12, 2023, Signature Bank, New York, NY, was closed by the New York State Department of Financial Services and the Federal Deposit Insurance Corporation (FDIC) was named Receiver.",
+      "sources": [
+        { "url": "https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/signature-ny.html", "publisher": "FDIC", "title": "Signature Bank, New York, NY (failed bank information)", "date": "2023-03-12" },
+        { "url": "https://www.hunton.com/en/insights/signature-bank-what-to-know-about-march-12-2023-closing-fdic-receivership-and-bridge-bank.html", "publisher": "Hunton Andrews Kurth", "title": "Signature Bank: What to Know About March 12, 2023 Closing, FDIC Receivership and Bridge Bank", "date": "2023-03" }
+      ]
+    },
+    {
+      "claim": "Signature Bank had total assets of about $110.36 billion and total deposits of roughly $88.59 billion as of December 31, 2022, according to the New York Department of Financial Services; its closure came amid fallout from Silicon Valley Bank's failure two days earlier.",
+      "status": "documented",
+      "date": "2023-03-12",
+      "quote": "The bank had total assets of about $110.36 billion and total deposits of roughly $88.59 billion as of Dec. 31, according to the New York DFS.",
+      "sources": [
+        { "url": "https://www.bostonglobe.com/2023/03/12/business/signature-bank-closed-by-new-york-state-regulators-us-says", "publisher": "The Boston Globe (Associated Press)", "title": "Signature Bank closed by New York state regulators, US says", "date": "2023-03-12" }
+      ]
+    },
+    {
+      "claim": "On March 8, 2023 Silvergate Capital Corporation announced its intent to wind down operations and voluntarily liquidate Silvergate Bank, stating that an orderly wind-down and voluntary liquidation was the best path forward and that the plan included full repayment of all deposits. On March 3, 2023 it had announced the discontinuation of the Silvergate Exchange Network (SEN).",
+      "status": "documented",
+      "date": "2023-03-08",
+      "quote": "an orderly wind down of Bank operations and a voluntary liquidation of the Bank is the best path forward",
+      "sources": [
+        { "url": "https://www.businesswire.com/news/home/20230308005795/en/Silvergate-Capital-Corporation-Announces-Intent-to-Wind-Down-Operations-and-Voluntarily-Liquidate-Silvergate-Bank", "publisher": "Business Wire (Silvergate Capital Corporation)", "title": "Silvergate Capital Corporation Announces Intent to Wind Down Operations and Voluntarily Liquidate Silvergate Bank", "date": "2023-03-08" },
+        { "url": "https://www.financemagnates.com/cryptocurrency/silvergate-bank-announces-voluntary-liquidation-amid-troubles", "publisher": "Finance Magnates", "title": "Silvergate Bank Announces Voluntary Liquidation amid Troubles", "date": "2023-03-09" }
+      ]
+    },
+    {
+      "claim": "On September 27, 2023 the Federal Reserve Board's Office of Inspector General released the executive summary of its review of the supervision of Silvergate Bank, attributing the bank's self-liquidation to rapid growth in deposits concentrated in the cryptocurrency industry coupled with weaknesses in corporate governance and risk management, finding that supervisors did not act quickly enough, and concluding that Silvergate should have filed an application with the Fed when it pivoted to a crypto-focused business model.",
+      "status": "documented",
+      "date": "2023-09-27",
+      "quote": "rapid growth in deposits concentrated in the cryptocurrency industry, coupled with weaknesses in its corporate governance and risk management",
+      "sources": [
+        { "url": "https://fraser.stlouisfed.org/title/selected-reports-investigations-office-inspector-general-7181/review-supervision-silvergate-bank-655208", "publisher": "Federal Reserve (FRASER, Office of Inspector General)", "title": "Review of the Supervision of Silvergate Bank", "date": "2023-09-27" },
+        { "url": "https://americanbanker.com/news/fed-oig-highlights-shortcomings-in-feds-oversight-of-silvergate-bank", "publisher": "American Banker", "title": "Fed OIG highlights shortcomings in Fed's oversight of Silvergate Bank", "date": "2023-09-27" }
+      ]
+    },
+    {
+      "claim": "On July 1, 2024 the SEC charged Silvergate Capital Corporation, former CEO Alan Lane and former chief risk officer Kathleen Fraher with misleading investors about the bank's anti-money-laundering controls and monitoring of crypto customers including FTX, alleging its automated monitoring system failed to monitor more than $1 trillion of transactions on its payments platform; it separately charged Silvergate and former CFO Antonio Martino over disclosures of expected securities losses after FTX's collapse. Lane and Fraher settled without admitting or denying, with five-year officer-and-director bars and penalties of $1 million and $250,000; Martino contested the charges.",
+      "status": "court",
+      "date": "2024-07-01",
+      "quote": "failed to monitor more than $1 trillion of transactions by customers on the bank's payments platform",
+      "sources": [
+        { "url": "https://www.sec.gov/newsroom/press-releases/2024-82", "publisher": "SEC", "title": "SEC Charges Silvergate Capital Corporation and Former Executives with Misleading Investors", "date": "2024-07-01" },
+        { "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26044", "publisher": "SEC", "title": "Litigation Release No. 26044: SEC v. Silvergate Capital Corporation et al.", "date": "2024-07-02" },
+        { "url": "https://www.sec.gov/files/litigation/complaints/2024/comp26044.pdf", "publisher": "SEC", "title": "Complaint, SEC v. Silvergate Capital Corporation, Alan Lane, Kathleen Fraher and Antonio Martino (S.D.N.Y.)", "date": "2024-07-01" }
+      ]
+    },
+    {
+      "claim": "On January 30, 2023 Senator Elizabeth Warren and colleagues sent a follow-up letter to Silvergate Bank about its crypto exposure and FTX-related activity, after earlier questions about the bank's due diligence.",
+      "status": "documented",
+      "date": "2023-01-30",
+      "quote": "Follow-up Letter to Silvergate Bank re Crypto Exposure and FTX Impropriety",
+      "sources": [
+        { "url": "https://www.warren.senate.gov/imo/media/doc/2023.01.30 Follow-up Letter to Silvergate Bank re Crypto Exposure and FTX Impropriety1.pdf", "publisher": "Office of Senator Elizabeth Warren", "title": "Follow-up Letter to Silvergate Bank re Crypto Exposure and FTX Impropriety", "date": "2023-01-30" },
+        { "url": "https://bankingdive.com/news/silvergate-alan-lane-ftx-warren-senator-due-diligence-risk-management-fail-miserably/641758", "publisher": "Banking Dive", "title": "Senators say Silvergate's due diligence and risk management failed on FTX", "date": "2023-01" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "ftx",
+      "toName": "FTX",
+      "toType": "company",
+      "relation": "other",
+      "claim": "FTX was a crypto customer of Silvergate; the SEC alleged in 2024 that Silvergate's statements about its monitoring were made in part to rebut speculation that FTX had used its Silvergate accounts to facilitate misconduct.",
+      "status": "court",
+      "date": "2024-07-01",
+      "quote": "to rebut public speculation that FTX had used its Silvergate accounts to facilitate its misconduct",
+      "sources": [
+        { "url": "https://www.sec.gov/newsroom/press-releases/2024-82", "publisher": "SEC", "title": "SEC Charges Silvergate Capital Corporation and Former Executives with Misleading Investors", "date": "2024-07-01" }
+      ]
+    },
+    {
+      "to": "sec",
+      "toName": "SEC",
+      "toType": "government",
+      "relation": "sued by",
+      "claim": "The SEC sued Silvergate Capital and three former executives in July 2024; the company, Lane and Fraher settled without admitting or denying the allegations.",
+      "status": "court",
+      "date": "2024-07-01",
+      "quote": "All parties charged, aside from Martino, agreed to settle.",
+      "sources": [
+        { "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26044", "publisher": "SEC", "title": "Litigation Release No. 26044: SEC v. Silvergate Capital Corporation et al.", "date": "2024-07-02" }
+      ]
+    },
+    {
+      "to": "new-york-department-of-financial-services",
+      "toName": "New York Department of Financial Services",
+      "toType": "government",
+      "relation": "regulated",
+      "reverse": true,
+      "claim": "The New York State Department of Financial Services closed Signature Bank on March 12, 2023 and appointed the FDIC as receiver.",
+      "status": "documented",
+      "date": "2023-03-12",
+      "quote": "closed by the New York State Department of Financial Services",
+      "sources": [
+        { "url": "https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/signature-ny.html", "publisher": "FDIC", "title": "Signature Bank, New York, NY (failed bank information)", "date": "2023-03-12" }
+      ]
+    },
+    {
+      "to": "federal-reserve",
+      "toName": "Federal Reserve",
+      "toType": "government",
+      "relation": "regulated",
+      "reverse": true,
+      "claim": "The Federal Reserve supervised Silvergate Bank; its Office of Inspector General found in September 2023 that supervisors did not act quickly enough on the bank's crypto concentration and governance weaknesses.",
+      "status": "documented",
+      "date": "2023-09-27",
+      "quote": "the Fed did not act quickly enough to address the risks building up at Silvergate Bank",
+      "sources": [
+        { "url": "https://fraser.stlouisfed.org/title/selected-reports-investigations-office-inspector-general-7181/review-supervision-silvergate-bank-655208", "publisher": "Federal Reserve (FRASER, Office of Inspector General)", "title": "Review of the Supervision of Silvergate Bank", "date": "2023-09-27" },
+        { "url": "https://americanbanker.com/news/fed-oig-highlights-shortcomings-in-feds-oversight-of-silvergate-bank", "publisher": "American Banker", "title": "Fed OIG highlights shortcomings in Fed's oversight of Silvergate Bank", "date": "2023-09-27" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (Crash Conduits): 'regional crypto banks (Silvergate, Signature) forced into FDIC closure' is partly supported: Signature was closed by NYDFS with the FDIC as receiver, but Silvergate announced a voluntary liquidation and was not placed in FDIC receivership. The wording should distinguish the two.",
+    "The existing ftx file records (from a bankruptcy pleading) that Silvergate maintained 45 accounts for FTX affiliates including the North Dimension account; that pleading was not re-opened here.",
+    "The outcome of the SEC's contested case against former CFO Antonio Martino, and any FDIC or NYDFS post-mortem on Signature's crypto deposits, were not researched.",
+    "The full Fed OIG report was not released publicly; only the executive summary is available."
+  ]
+}

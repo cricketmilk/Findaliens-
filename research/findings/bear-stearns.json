@@ -1,0 +1,280 @@
+{
+  "entity": "bear-stearns",
+  "name": "Bear Stearns",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Bear Stearns was a New York investment bank acquired by JPMorgan Chase in 2008 after a run on the firm. The Federal Reserve Board authorized the Federal Reserve Bank of New York in March 2008 to lend to a special-purpose vehicle, Maiden Lane LLC, which bought roughly $30 billion of Bear Stearns' less liquid assets to facilitate the merger; the New York Fed lent $28.8 billion and JPMorgan Chase $1.1 billion on a subordinated basis. The deal, first announced at $2 a share, closed on May 30, 2008. Two managers of Bear Stearns hedge funds that failed in June 2007 were acquitted of fraud charges by a federal jury in November 2009. The Maiden Lane LLC loan was fully repaid in June 2012 and the vehicle's remaining securities were sold in 2018.",
+    "sources": [
+      {
+        "url": "https://www.federalreserve.gov/regreform/reform-bearstearns.htm",
+        "publisher": "Federal Reserve Board",
+        "title": "Bear Stearns, JPMorgan Chase, and Maiden Lane LLC"
+      },
+      {
+        "url": "https://www.newyorkfed.org/markets/maidenlane.html",
+        "publisher": "Federal Reserve Bank of New York",
+        "title": "Maiden Lane Transactions"
+      },
+      {
+        "url": "https://www.newyorkfed.org/newsevents/news/markets/2012/an120614",
+        "publisher": "Federal Reserve Bank of New York",
+        "title": "New York Fed Announces Full Repayment of its Loans to Maiden Lane LLC and Maiden Lane III LLC",
+        "date": "2012-06-14"
+      },
+      {
+        "url": "https://www.npr.org/2008/03/17/88388277/jp-morgan-snaps-up-bear-stearns-for-2-a-share",
+        "publisher": "NPR",
+        "title": "JP Morgan Snaps Up Bear Stearns for $2 a Share",
+        "date": "2008-03-17"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In March 2008 the Federal Reserve Board authorized the Federal Reserve Bank of New York to make a senior loan to Maiden Lane LLC so the vehicle could buy roughly $30 billion of Bear Stearns' less liquid assets, with the stated purpose of facilitating JPMorgan Chase's purchase of Bear Stearns.",
+      "status": "documented",
+      "date": "2008-03",
+      "quote": "The Fed's Board authorized the New York Fed in March 2008 to make a senior loan to the LLC so it could buy roughly $30 billion of Bear Stearns' less liquid assets.",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/regreform/reform-bearstearns.htm",
+          "publisher": "Federal Reserve Board",
+          "title": "Bear Stearns, JPMorgan Chase, and Maiden Lane LLC"
+        },
+        {
+          "url": "https://www.newyorkfed.org/markets/maidenlane.html",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Maiden Lane Transactions"
+        }
+      ]
+    },
+    {
+      "claim": "The Maiden Lane LLC loan closed on June 26, 2008: the New York Fed lent $28.8 billion as senior lender and JPMorgan Chase lent $1.1 billion on a subordinated basis. The assets bought from Bear Stearns consisted largely of mortgage-related securities, whole mortgage loans held through two grantor trusts, a total return swap with JPMorgan Chase, and to-be-announced mortgage commitments.",
+      "status": "documented",
+      "date": "2008-06-26",
+      "quote": "The New York Reserve Bank lent $28.8 billion, and JPMorgan Chase lent $1.1 billion.",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/regreform/reform-bearstearns.htm",
+          "publisher": "Federal Reserve Board",
+          "title": "Bear Stearns, JPMorgan Chase, and Maiden Lane LLC"
+        },
+        {
+          "url": "https://www.newyorkfed.org/markets/maidenlane.html",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Maiden Lane Transactions"
+        }
+      ]
+    },
+    {
+      "claim": "BlackRock Solutions acted as investment manager for Maiden Lane LLC; the New York Fed said in 2012 that, through BlackRock Solutions, it would continue selling the remaining assets as market conditions warranted and if sales represented good value for the public.",
+      "status": "documented",
+      "date": "2012-06-14",
+      "quote": "the New York Fed, through BlackRock Solutions, would continue selling the remaining assets as market conditions warrant and if the sales represent good value for the public",
+      "sources": [
+        {
+          "url": "https://www.newyorkfed.org/newsevents/news/markets/2012/an120614",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "New York Fed Announces Full Repayment of its Loans to Maiden Lane LLC and Maiden Lane III LLC",
+          "date": "2012-06-14"
+        },
+        {
+          "url": "https://www.newyorkfed.org/markets/maidenlane.html",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Maiden Lane Transactions"
+        }
+      ]
+    },
+    {
+      "claim": "On June 14, 2012 the New York Fed announced that Maiden Lane LLC and Maiden Lane III LLC had repaid its loans with interest; Maiden Lane LLC sold its remaining securities on September 18, 2018, and the New York Fed records a net gain of approximately $2.5 billion for the public from the vehicle.",
+      "status": "documented",
+      "date": "2012-06-14",
+      "quote": "On June 14, 2012, Maiden Lane LLC and Maiden Lane III LLC repaid the loans made by the New York Fed, with interest.",
+      "sources": [
+        {
+          "url": "https://www.newyorkfed.org/newsevents/news/markets/2012/an120614",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "New York Fed Announces Full Repayment of its Loans to Maiden Lane LLC and Maiden Lane III LLC",
+          "date": "2012-06-14"
+        },
+        {
+          "url": "https://www.newyorkfed.org/markets/maidenlane.html",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Maiden Lane Transactions"
+        }
+      ]
+    },
+    {
+      "claim": "JPMorgan Chase's acquisition of Bear Stearns was announced in mid-March 2008 at $2 a share, an all-stock deal valuing the bank at about $236 million, with the Federal Reserve approving the arrangement over the weekend.",
+      "status": "reported",
+      "date": "2008-03-17",
+      "quote": "JP Morgan Chase will acquire the troubled investment bank Bear Stearns at the fire-sale price of $2 a share, with the Federal Reserve approving the arrangement over the weekend.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2008/03/17/88388277/jp-morgan-snaps-up-bear-stearns-for-2-a-share",
+          "publisher": "NPR",
+          "title": "JP Morgan Snaps Up Bear Stearns for $2 a Share",
+          "date": "2008-03-17"
+        }
+      ]
+    },
+    {
+      "claim": "JPMorgan Chase completed the Bear Stearns merger on May 30, 2008; each Bear Stearns share was converted into 0.21753 JPMorgan Chase shares, and between March 24 and May 12, 2008 JPMorgan bought about 24 million Bear Stearns shares in the open market at an average price of $12.37.",
+      "status": "documented",
+      "date": "2008-05-30",
+      "quote": "on May 30, 2008, JPMorgan Chase completed the merger. As a result of the merger, each outstanding share of Bear Stearns common stock (other than shares then held by JPMorgan Chase) was converted into the right to receive 0.21753 shares of common stock of JPMorgan Chase.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000019617/000095012310016029/e82150e10vk.htm",
+          "publisher": "SEC EDGAR (JPMorgan Chase filing)",
+          "title": "JPMorgan Chase & Co. Form 10-K for fiscal year 2009",
+          "date": "2010"
+        }
+      ]
+    },
+    {
+      "claim": "On November 10, 2009 a federal jury in Brooklyn acquitted former Bear Stearns hedge fund managers Ralph Cioffi and Matthew Tannin of securities fraud, wire fraud and conspiracy charges; the fund they managed failed in June 2007 with about $1.6 billion of investor money lost. The SEC later reached a civil settlement with the two men in 2012.",
+      "status": "court",
+      "date": "2009-11-10",
+      "quote": "the fund managed by Cioffi and Tannin failed in June 2007, and $1.6 billion of investors' funds were lost",
+      "sources": [
+        {
+          "url": "https://money.cnn.com/2009/11/10/news/companies/bear_stearns_case/",
+          "publisher": "CNN Money",
+          "title": "Bear Stearns hedge fund managers acquitted",
+          "date": "2009-11-10"
+        },
+        {
+          "url": "https://www.npr.org/2009/11/10/120294330/2-ex-bear-stearns-hedge-fund-managers-acquitted",
+          "publisher": "NPR",
+          "title": "2 Ex-Bear Stearns Hedge Fund Managers Acquitted",
+          "date": "2009-11-10"
+        },
+        {
+          "url": "https://www.cnbc.com/2012/02/10/sec-reaches-settlement-in-bear-stearns-fraud-case.html",
+          "publisher": "CNBC",
+          "title": "SEC Reaches Settlement in Bear Stearns Fraud Case",
+          "date": "2012-02-10"
+        }
+      ]
+    },
+    {
+      "claim": "GAO reported in 2011 that the Reserve Banks, primarily the New York Fed, awarded 103 vendor contracts worth $659.4 million from 2008 through 2010 for their emergency activities, and that most, including 8 of the 10 highest-value contracts, were awarded noncompetitively, primarily due to exigent circumstances.",
+      "status": "documented",
+      "date": "2011-07-21",
+      "quote": "Most of the contracts, including 8 of the 10 highest-value contracts, were awarded noncompetitively, primarily due to exigent circumstances.",
+      "sources": [
+        {
+          "url": "https://www.gao.gov/products/gao-11-696",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Federal Reserve System: Opportunities Exist to Strengthen Policies and Processes for Managing Emergency Assistance (GAO-11-696)",
+          "date": "2011-07-21"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "jpmorgan-chase",
+      "toName": "JPMorgan Chase",
+      "toType": "bank",
+      "relation": "owns",
+      "reverse": true,
+      "claim": "JPMorgan Chase acquired Bear Stearns in a merger announced in March 2008 and completed on May 30, 2008, with Bear Stearns shares converted into JPMorgan Chase stock.",
+      "status": "documented",
+      "date": "2008-05-30",
+      "quote": "on May 30, 2008, JPMorgan Chase completed the merger.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000019617/000095012310016029/e82150e10vk.htm",
+          "publisher": "SEC EDGAR (JPMorgan Chase filing)",
+          "title": "JPMorgan Chase & Co. Form 10-K for fiscal year 2009",
+          "date": "2010"
+        },
+        {
+          "url": "https://www.npr.org/2008/03/17/88388277/jp-morgan-snaps-up-bear-stearns-for-2-a-share",
+          "publisher": "NPR",
+          "title": "JP Morgan Snaps Up Bear Stearns for $2 a Share",
+          "date": "2008-03-17"
+        }
+      ]
+    },
+    {
+      "to": "maiden-lane",
+      "toName": "Maiden Lane",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Maiden Lane LLC, financed by a $28.8 billion senior loan from the New York Fed and a $1.1 billion subordinated loan from JPMorgan Chase, bought roughly $30 billion of Bear Stearns' less liquid assets to facilitate the JPMorgan takeover.",
+      "status": "documented",
+      "date": "2008-06-26",
+      "quote": "The New York Reserve Bank lent $28.8 billion, and JPMorgan Chase lent $1.1 billion.",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/regreform/reform-bearstearns.htm",
+          "publisher": "Federal Reserve Board",
+          "title": "Bear Stearns, JPMorgan Chase, and Maiden Lane LLC"
+        },
+        {
+          "url": "https://www.newyorkfed.org/markets/maidenlane.html",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Maiden Lane Transactions"
+        }
+      ]
+    },
+    {
+      "to": "ny-fed",
+      "toName": "NY Fed",
+      "toType": "government",
+      "relation": "funded",
+      "reverse": true,
+      "claim": "The Federal Reserve Bank of New York was the senior lender to Maiden Lane LLC, the vehicle that took Bear Stearns assets; its loan was secured by a first-priority interest in all of the LLC's assets and was repaid with interest in June 2012.",
+      "status": "documented",
+      "date": "2012-06-14",
+      "quote": "The New York Fed's loan is secured by a first-priority security interest in all of the LLC's assets.",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/regreform/reform-bearstearns.htm",
+          "publisher": "Federal Reserve Board",
+          "title": "Bear Stearns, JPMorgan Chase, and Maiden Lane LLC"
+        },
+        {
+          "url": "https://www.newyorkfed.org/newsevents/news/markets/2012/an120614",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "New York Fed Announces Full Repayment of its Loans to Maiden Lane LLC and Maiden Lane III LLC",
+          "date": "2012-06-14"
+        }
+      ]
+    },
+    {
+      "to": "blackrock",
+      "toName": "BlackRock",
+      "toType": "company",
+      "relation": "contracted with",
+      "reverse": true,
+      "claim": "BlackRock Solutions served as investment manager for the Maiden Lane LLC portfolio of former Bear Stearns assets held by the New York Fed.",
+      "status": "documented",
+      "date": "2012-06-14",
+      "quote": "the New York Fed, through BlackRock Solutions, would continue selling the remaining assets",
+      "sources": [
+        {
+          "url": "https://www.newyorkfed.org/newsevents/news/markets/2012/an120614",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "New York Fed Announces Full Repayment of its Loans to Maiden Lane LLC and Maiden Lane III LLC",
+          "date": "2012-06-14"
+        },
+        {
+          "url": "https://www.newyorkfed.org/markets/maidenlane.html",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Maiden Lane Transactions"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (Clarium entry) that there was a 'Bear Stearns fire sale' in 2008: supported by the $2-a-share announcement reported by NPR and the Fed's Maiden Lane records.",
+    "Site claim (Maiden Lane entry) that BlackRock was granted 'uncompetitive no-bid contracts' to manage Maiden Lane I, II and III: partly supported. The New York Fed names BlackRock Solutions as investment manager for Maiden Lane LLC and Maiden Lane II, and GAO-11-696 found most emergency vendor contracts were awarded noncompetitively, but GAO's summary did not name BlackRock or Maiden Lane specifically; the owner should check the full GAO report's contract table.",
+    "Site claim that the Maiden Lane portfolios held '$130B+ in toxic assets': not supported by the figures found (Maiden Lane LLC about $30 billion; Maiden Lane III bought $62.1 billion par of CDOs for about $29.3 billion; Maiden Lane II figures not retrieved).",
+    "The reported later increase of JPMorgan's offer from $2 to about $10 a share was not covered by the sources returned; the completed exchange ratio of 0.21753 JPMorgan shares is documented.",
+    "The Manufacturing Consent page's 'Bear Stearns is fine!' item (attributed media commentary) was not researched."
+  ]
+}

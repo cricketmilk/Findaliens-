@@ -5,9 +5,23 @@
   "summary": {
     "text": "The London Metal Exchange (LME) is the London futures exchange for base metals. On 8 March 2022, after what its notice called unprecedented overnight increases in the three-month nickel price, the LME suspended nickel trading at 08:15 London time and then cancelled all nickel trades executed on or after 00:00 UK time that day. Elliott Associates and Jane Street challenged the cancellation by judicial review; the High Court dismissed the claims on 29 November 2023, the Court of Appeal dismissed Elliott's appeal on 7 October 2024 and the Supreme Court refused permission to appeal in January 2025. On 19 March 2025 the Financial Conduct Authority fined the LME 9,245,900 pounds for failing to ensure its systems and controls could cope with severe market stress.",
     "sources": [
-      { "url": "https://www.lme.com/-/media/Files/News/Notices/2022/03/TRADING-22-052-SUSPENSION-OF-LME-NICKEL-MARKET.pdf", "publisher": "London Metal Exchange", "title": "Notice 22/052: Suspension of LME Nickel Market", "date": "2022-03-08" },
-      { "url": "https://www.lme.com/lme-nickel-litigation", "publisher": "London Metal Exchange", "title": "LME Nickel litigation" },
-      { "url": "https://www.fca.org.uk/news/press-releases/first-fca-enforcement-action-and-fine-against-recognised-investment-exchange", "publisher": "Financial Conduct Authority", "title": "First FCA enforcement action and fine against a Recognised Investment Exchange", "date": "2025-03-19" }
+      {
+        "url": "https://www.lme.com/-/media/Files/News/Notices/2022/03/TRADING-22-052-SUSPENSION-OF-LME-NICKEL-MARKET.pdf",
+        "publisher": "London Metal Exchange",
+        "title": "Notice 22/052: Suspension of LME Nickel Market",
+        "date": "2022-03-08"
+      },
+      {
+        "url": "https://www.lme.com/lme-nickel-litigation",
+        "publisher": "London Metal Exchange",
+        "title": "LME Nickel litigation"
+      },
+      {
+        "url": "https://www.fca.org.uk/news/press-releases/first-fca-enforcement-action-and-fine-against-recognised-investment-exchange",
+        "publisher": "Financial Conduct Authority",
+        "title": "First FCA enforcement action and fine against a Recognised Investment Exchange",
+        "date": "2025-03-19"
+      }
     ]
   },
   "facts": [
@@ -17,7 +31,12 @@
       "date": "2022-03-08",
       "quote": "further unprecedented overnight increases in the 3 month nickel price",
       "sources": [
-        { "url": "https://www.lme.com/-/media/Files/News/Notices/2022/03/TRADING-22-052-SUSPENSION-OF-LME-NICKEL-MARKET.pdf", "publisher": "London Metal Exchange", "title": "Notice 22/052: Suspension of LME Nickel Market", "date": "2022-03-08" }
+        {
+          "url": "https://www.lme.com/-/media/Files/News/Notices/2022/03/TRADING-22-052-SUSPENSION-OF-LME-NICKEL-MARKET.pdf",
+          "publisher": "London Metal Exchange",
+          "title": "Notice 22/052: Suspension of LME Nickel Market",
+          "date": "2022-03-08"
+        }
       ]
     },
     {
@@ -26,8 +45,18 @@
       "date": "2022-03-08",
       "quote": "take the market back to the last point at which trading was still orderly",
       "sources": [
-        { "url": "https://www.lme.com/-/media/Files/News/Notices/2022/03/22-053-Nickel-Suspension---Further-Information---Delivery-Deferral-and-Trade-Cancellation.pdf", "publisher": "London Metal Exchange", "title": "Notice 22/053: Nickel Suspension - Further Information - Delivery Deferral and Trade Cancellation", "date": "2022-03-08" },
-        { "url": "https://www.lme.com/-/media/Files/News/Notices/2022/03/TRADING-22-057-NICKEL-MARKET-UPDATE_.pdf", "publisher": "London Metal Exchange", "title": "Notice 22/057: Nickel Market Update", "date": "2022-03" }
+        {
+          "url": "https://www.lme.com/-/media/Files/News/Notices/2022/03/22-053-Nickel-Suspension---Further-Information---Delivery-Deferral-and-Trade-Cancellation.pdf",
+          "publisher": "London Metal Exchange",
+          "title": "Notice 22/053: Nickel Suspension - Further Information - Delivery Deferral and Trade Cancellation",
+          "date": "2022-03-08"
+        },
+        {
+          "url": "https://www.lme.com/-/media/Files/News/Notices/2022/03/TRADING-22-057-NICKEL-MARKET-UPDATE_.pdf",
+          "publisher": "London Metal Exchange",
+          "title": "Notice 22/057: Nickel Market Update",
+          "date": "2022-03"
+        }
       ]
     },
     {
@@ -36,8 +65,18 @@
       "date": "2022-03-08",
       "quote": "The aggregate value of the cancelled trades was around US$12 billion.",
       "sources": [
-        { "url": "https://www.stephensonharwood.com/insights/london-metal-exchange-wins-high-court-ruling-over-cancelled-nickel-trades/", "publisher": "Stephenson Harwood", "title": "London Metal Exchange wins High Court ruling over cancelled nickel trades", "date": "2023-12" },
-        { "url": "https://www.nortonrosefulbright.com/en/inside-disputes/blog/202403-london-metal-exchange-wins-high-court-battle-over-us12-billion-cancelled-nickel-trades", "publisher": "Norton Rose Fulbright", "title": "London Metal Exchange wins High Court battle over US$12 billion cancelled nickel trades", "date": "2024-03" }
+        {
+          "url": "https://www.stephensonharwood.com/insights/london-metal-exchange-wins-high-court-ruling-over-cancelled-nickel-trades/",
+          "publisher": "Stephenson Harwood",
+          "title": "London Metal Exchange wins High Court ruling over cancelled nickel trades",
+          "date": "2023-12"
+        },
+        {
+          "url": "https://www.nortonrosefulbright.com/en/inside-disputes/blog/202403-london-metal-exchange-wins-high-court-battle-over-us12-billion-cancelled-nickel-trades",
+          "publisher": "Norton Rose Fulbright",
+          "title": "London Metal Exchange wins High Court battle over US$12 billion cancelled nickel trades",
+          "date": "2024-03"
+        }
       ]
     },
     {
@@ -46,8 +85,18 @@
       "date": "2023-11-29",
       "quote": "On 29 November 2023, the Administrative Court rejected the claim on all grounds, deciding that neither the Cancellation Decision nor the related Margin Decision by LME Clear was unlawful.",
       "sources": [
-        { "url": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2023/2969", "publisher": "The National Archives (Find Case Law)", "title": "R (Elliott Associates LP and others) v London Metal Exchange and LME Clear [2023] EWHC 2969 (Admin)", "date": "2023-11-29" },
-        { "url": "https://www.macfarlanes.com/insights/102loew/lmes-cancellation-of-nickel-trades-was-not-unlawful/", "publisher": "Macfarlanes", "title": "LME's cancellation of nickel trades was not unlawful", "date": "2023-12" }
+        {
+          "url": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2023/2969",
+          "publisher": "The National Archives (Find Case Law)",
+          "title": "R (Elliott Associates LP and others) v London Metal Exchange and LME Clear [2023] EWHC 2969 (Admin)",
+          "date": "2023-11-29"
+        },
+        {
+          "url": "https://www.macfarlanes.com/insights/102loew/lmes-cancellation-of-nickel-trades-was-not-unlawful/",
+          "publisher": "Macfarlanes",
+          "title": "LME's cancellation of nickel trades was not unlawful",
+          "date": "2023-12"
+        }
       ]
     },
     {
@@ -56,9 +105,23 @@
       "date": "2024-10-07",
       "quote": "The Court of Appeal handed down its judgment on 7 October 2024 in Elliott Associates v London Metal Exchange and LME Clear [2024] EWCA Civ 1168, dismissing Elliott's appeal",
       "sources": [
-        { "url": "https://www.lme.com/-/media/Files/News/R-Elliott-Associates-v-London-Metal-Exchange-final-judgment.pdf", "publisher": "Court of Appeal (judgment hosted by the LME)", "title": "R (Elliott Associates) v London Metal Exchange [2024] EWCA Civ 1168", "date": "2024-10-07" },
-        { "url": "https://fountaincourt.uk/2024/10/court-of-appeal-upholds-dismissal-of-claims-for-nickel-trading-losses/", "publisher": "Fountain Court Chambers", "title": "Court of Appeal upholds dismissal of claims for nickel trading losses", "date": "2024-10" },
-        { "url": "https://www.lme.com/lme-nickel-litigation", "publisher": "London Metal Exchange", "title": "LME Nickel litigation" }
+        {
+          "url": "https://www.lme.com/-/media/Files/News/R-Elliott-Associates-v-London-Metal-Exchange-final-judgment.pdf",
+          "publisher": "Court of Appeal (judgment hosted by the LME)",
+          "title": "R (Elliott Associates) v London Metal Exchange [2024] EWCA Civ 1168",
+          "date": "2024-10-07"
+        },
+        {
+          "url": "https://fountaincourt.uk/2024/10/court-of-appeal-upholds-dismissal-of-claims-for-nickel-trading-losses/",
+          "publisher": "Fountain Court Chambers",
+          "title": "Court of Appeal upholds dismissal of claims for nickel trading losses",
+          "date": "2024-10"
+        },
+        {
+          "url": "https://www.lme.com/lme-nickel-litigation",
+          "publisher": "London Metal Exchange",
+          "title": "LME Nickel litigation"
+        }
       ]
     },
     {
@@ -67,8 +130,18 @@
       "date": "2025-03-19",
       "quote": "the FCA's first enforcement action against a Regulated Investment Exchange (RIE)",
       "sources": [
-        { "url": "https://www.fca.org.uk/news/press-releases/first-fca-enforcement-action-and-fine-against-recognised-investment-exchange", "publisher": "Financial Conduct Authority", "title": "First FCA enforcement action and fine against a Recognised Investment Exchange", "date": "2025-03-19" },
-        { "url": "https://www.mishcon.com/news/fca-imposes-92-million-fine-on-london-metal-exchange-for-market-disorder", "publisher": "Mishcon de Reya", "title": "FCA imposes 9.2 million pound fine on London Metal Exchange for market disorder", "date": "2025-03" }
+        {
+          "url": "https://www.fca.org.uk/news/press-releases/first-fca-enforcement-action-and-fine-against-recognised-investment-exchange",
+          "publisher": "Financial Conduct Authority",
+          "title": "First FCA enforcement action and fine against a Recognised Investment Exchange",
+          "date": "2025-03-19"
+        },
+        {
+          "url": "https://www.mishcon.com/news/fca-imposes-92-million-fine-on-london-metal-exchange-for-market-disorder",
+          "publisher": "Mishcon de Reya",
+          "title": "FCA imposes 9.2 million pound fine on London Metal Exchange for market disorder",
+          "date": "2025-03"
+        }
       ]
     },
     {
@@ -77,8 +150,17 @@
       "date": "2023-01-10",
       "quote": "the existence of large, exposed, short positions",
       "sources": [
-        { "url": "https://www.lme.com/-/media/Files/Trading/New-initiatives/Nickel-independent-review/Independent-Review-of-Events-in-the-Nickel-Market-in-March-2022---Final-Report.pdf", "publisher": "Oliver Wyman (for the LME)", "title": "Independent Review of Events in the Nickel Market in March 2022 - Final Report", "date": "2023-01-10" },
-        { "url": "https://www.lme.com/en/trading/initiatives/nickel-market-independent-review", "publisher": "London Metal Exchange", "title": "Independent nickel market review" }
+        {
+          "url": "https://www.lme.com/-/media/Files/Trading/New-initiatives/Nickel-independent-review/Independent-Review-of-Events-in-the-Nickel-Market-in-March-2022---Final-Report.pdf",
+          "publisher": "Oliver Wyman (for the LME)",
+          "title": "Independent Review of Events in the Nickel Market in March 2022 - Final Report",
+          "date": "2023-01-10"
+        },
+        {
+          "url": "https://www.lme.com/en/trading/initiatives/nickel-market-independent-review",
+          "publisher": "London Metal Exchange",
+          "title": "Independent nickel market review"
+        }
       ]
     }
   ],
@@ -93,9 +175,24 @@
       "date": "2022-03-14",
       "quote": "Tsingshan had agreed with banks not to make margin calls on, or close out, its LME nickel positions.",
       "sources": [
-        { "url": "https://www.euronews.com/next/2022/03/14/tsingshan-nickel-lme", "publisher": "Euronews (Reuters)", "title": "China's Tsingshan agrees standstill agreement on LME nickel margins with banks", "date": "2022-03-14" },
-        { "url": "https://spglobal.com/commodityinsights/en/market-insights/latest-news/metals/031522-chinas-tsingshan-enters-deal-with-bankers-to-resolve-nickel-trade-position", "publisher": "S&P Global Commodity Insights", "title": "China's Tsingshan enters deal with bankers to resolve nickel trade position", "date": "2022-03-15" },
-        { "url": "https://www.cnn.com/2022/07/12/economy/nickel-tycoon-lme", "publisher": "CNN", "title": "How a Chinese metal tycoon imploded the nickel market - and walked away with billions", "date": "2022-07-12" }
+        {
+          "url": "https://www.euronews.com/next/2022/03/14/tsingshan-nickel-lme",
+          "publisher": "Euronews (Reuters)",
+          "title": "China's Tsingshan agrees standstill agreement on LME nickel margins with banks",
+          "date": "2022-03-14"
+        },
+        {
+          "url": "https://spglobal.com/commodityinsights/en/market-insights/latest-news/metals/031522-chinas-tsingshan-enters-deal-with-bankers-to-resolve-nickel-trade-position",
+          "publisher": "S&P Global Commodity Insights",
+          "title": "China's Tsingshan enters deal with bankers to resolve nickel trade position",
+          "date": "2022-03-15"
+        },
+        {
+          "url": "https://www.cnn.com/2022/07/12/economy/nickel-tycoon-lme",
+          "publisher": "CNN",
+          "title": "How a Chinese metal tycoon imploded the nickel market - and walked away with billions",
+          "date": "2022-07-12"
+        }
       ]
     },
     {
@@ -108,12 +205,22 @@
       "date": "2024-10-07",
       "quote": "dismissing Elliott's appeal",
       "sources": [
-        { "url": "https://fountaincourt.uk/2024/10/court-of-appeal-upholds-dismissal-of-claims-for-nickel-trading-losses/", "publisher": "Fountain Court Chambers", "title": "Court of Appeal upholds dismissal of claims for nickel trading losses", "date": "2024-10" },
-        { "url": "https://www.stephensonharwood.com/insights/london-metal-exchange-wins-high-court-ruling-over-cancelled-nickel-trades/", "publisher": "Stephenson Harwood", "title": "London Metal Exchange wins High Court ruling over cancelled nickel trades", "date": "2023-12" }
+        {
+          "url": "https://fountaincourt.uk/2024/10/court-of-appeal-upholds-dismissal-of-claims-for-nickel-trading-losses/",
+          "publisher": "Fountain Court Chambers",
+          "title": "Court of Appeal upholds dismissal of claims for nickel trading losses",
+          "date": "2024-10"
+        },
+        {
+          "url": "https://www.stephensonharwood.com/insights/london-metal-exchange-wins-high-court-ruling-over-cancelled-nickel-trades/",
+          "publisher": "Stephenson Harwood",
+          "title": "London Metal Exchange wins High Court ruling over cancelled nickel trades",
+          "date": "2023-12"
+        }
       ]
     },
     {
-      "to": "Jane Street",
+      "to": "jane-street",
       "toName": "Jane Street",
       "toType": "company",
       "relation": "sued by",
@@ -122,8 +229,18 @@
       "date": "2023-11-29",
       "quote": "Jane Street's alleged loss was about US$15 million.",
       "sources": [
-        { "url": "https://www.stephensonharwood.com/insights/london-metal-exchange-wins-high-court-ruling-over-cancelled-nickel-trades/", "publisher": "Stephenson Harwood", "title": "London Metal Exchange wins High Court ruling over cancelled nickel trades", "date": "2023-12" },
-        { "url": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2023/2969", "publisher": "The National Archives (Find Case Law)", "title": "[2023] EWHC 2969 (Admin)", "date": "2023-11-29" }
+        {
+          "url": "https://www.stephensonharwood.com/insights/london-metal-exchange-wins-high-court-ruling-over-cancelled-nickel-trades/",
+          "publisher": "Stephenson Harwood",
+          "title": "London Metal Exchange wins High Court ruling over cancelled nickel trades",
+          "date": "2023-12"
+        },
+        {
+          "url": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2023/2969",
+          "publisher": "The National Archives (Find Case Law)",
+          "title": "[2023] EWHC 2969 (Admin)",
+          "date": "2023-11-29"
+        }
       ]
     },
     {
@@ -136,11 +253,16 @@
       "date": "2022-06",
       "quote": "The LME selected Oliver Wyman in June 2022 (Notice 22/168).",
       "sources": [
-        { "url": "https://www.lme.com/-/media/Files/News/Notices/2022/06/TRADING-22-168--22040-INDEPENDENT-REVIEW-SELECTION--OLIVER-WYMAN.pdf", "publisher": "London Metal Exchange", "title": "Notice 22/168: Independent Review Selection - Oliver Wyman", "date": "2022-06" }
+        {
+          "url": "https://www.lme.com/-/media/Files/News/Notices/2022/06/TRADING-22-168--22040-INDEPENDENT-REVIEW-SELECTION--OLIVER-WYMAN.pdf",
+          "publisher": "London Metal Exchange",
+          "title": "Notice 22/168: Independent Review Selection - Oliver Wyman",
+          "date": "2022-06"
+        }
       ]
     },
     {
-      "to": "Financial Conduct Authority",
+      "to": "financial-conduct-authority",
       "toName": "Financial Conduct Authority",
       "toType": "agency",
       "relation": "regulated",
@@ -150,7 +272,12 @@
       "date": "2025-03-19",
       "quote": "the FCA's first enforcement action against a Regulated Investment Exchange (RIE)",
       "sources": [
-        { "url": "https://www.fca.org.uk/news/press-releases/first-fca-enforcement-action-and-fine-against-recognised-investment-exchange", "publisher": "Financial Conduct Authority", "title": "First FCA enforcement action and fine against a Recognised Investment Exchange", "date": "2025-03-19" }
+        {
+          "url": "https://www.fca.org.uk/news/press-releases/first-fca-enforcement-action-and-fine-against-recognised-investment-exchange",
+          "publisher": "Financial Conduct Authority",
+          "title": "First FCA enforcement action and fine against a Recognised Investment Exchange",
+          "date": "2025-03-19"
+        }
       ]
     }
   ],

@@ -1,0 +1,91 @@
+{
+  "entity": "alfred-p-sloan",
+  "name": "Alfred P. Sloan",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Alfred P. Sloan Jr. (died February 17, 1966) was the long-time head of General Motors. He became president of Hyatt Roller Bearing's successor United Motors Corporation in 1916, joined GM when United Motors was absorbed in 1918, was chosen GM president in 1923, elected chairman in 1937, remained chief executive until 1946 and served as honorary chairman until his death. He is credited with GM's system of decentralized operating divisions under coordinated central policy control. In 1934 he established the Alfred P. Sloan Foundation, which says it has no formal relationship with General Motors.",
+    "sources": [
+      { "url": "https://sloan.org/about/who-was-alfred-p-sloan-jr", "publisher": "Alfred P. Sloan Foundation", "title": "Who was Alfred P. Sloan Jr.?" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In 1916 the Hyatt Roller Bearing Company merged into the United Motors Corporation, of which Sloan became president; two years later that company became part of the General Motors Corporation.",
+      "status": "documented",
+      "date": "1916",
+      "quote": "In 1916 the Hyatt Roller Bearing Company merged with the United Motors Corporation, where Mr. Sloan became president. Two years later that company became part of the General Motors Corporation.",
+      "sources": [
+        { "url": "https://sloan.org/about/who-was-alfred-p-sloan-jr", "publisher": "Alfred P. Sloan Foundation", "title": "Who was Alfred P. Sloan Jr.?" }
+      ]
+    },
+    {
+      "claim": "GM's board chose Sloan as president in 1923. The Sloan Foundation says he had by then developed a system of disciplined, professional management providing for decentralized operations with coordinated centralized policy control, and that applying it to GM set the corporation on its course of industrial leadership.",
+      "status": "documented",
+      "date": "1923",
+      "quote": "decentralized operations with coordinated centralized policy control",
+      "sources": [
+        { "url": "https://sloan.org/about/who-was-alfred-p-sloan-jr", "publisher": "Alfred P. Sloan Foundation", "title": "Who was Alfred P. Sloan Jr.?" }
+      ]
+    },
+    {
+      "claim": "Sloan was elected chairman of GM's board in 1937, continued as chief executive officer until 1946, and on retirement was named honorary chairman, a title he held until his death on February 17, 1966.",
+      "status": "documented",
+      "date": "1937",
+      "quote": "he was elected Chairman of the Board in 1937, and he continued as Chief Executive Officer until 1946",
+      "sources": [
+        { "url": "https://sloan.org/about/who-was-alfred-p-sloan-jr", "publisher": "Alfred P. Sloan Foundation", "title": "Who was Alfred P. Sloan Jr.?" }
+      ]
+    },
+    {
+      "claim": "The Alfred P. Sloan Foundation was established in 1934 by Sloan, then president and chief executive of General Motors; it makes grants in science, technology and economics and states that it has no formal relationship with General Motors.",
+      "status": "documented",
+      "date": "1934",
+      "quote": "It was established by Alfred P. Sloan Jr., then president and chief executive officer of General Motors",
+      "sources": [
+        { "url": "https://sloan.org/about/who-was-alfred-p-sloan-jr", "publisher": "Alfred P. Sloan Foundation", "title": "Who was Alfred P. Sloan Jr.?" },
+        { "url": "https://sloan.org/storage/app/media/files/annual_reports/2025_Highlights.pdf", "publisher": "Alfred P. Sloan Foundation", "title": "2025 Highlights", "date": "2025" }
+      ]
+    },
+    {
+      "claim": "Business-history accounts say Sloan's 1920 reorganization, modeled on the multidivisional structure used at DuPont, placed GM's car companies in five self-contained operating divisions, each a profit center evaluated on return on investment, with a small corporate staff focused on policy, finance and planning. Sloan wrote that GM needed 'a principle for coordination without losing the advantages of decentralization.'",
+      "status": "reported",
+      "date": "1920",
+      "quote": "needs to find a principle for coordination without losing the advantages of decentralization",
+      "sources": [
+        { "url": "https://steveblank.com/2018/04/23/why-the-future-of-tesla-may-depend-on-knowing-what-happened-to-billy-durant/", "publisher": "Steve Blank", "title": "Why the Future of Tesla May Depend on Knowing What Happened to Billy Durant", "date": "2018-04-23" },
+        { "url": "https://ocw.mit.edu/courses/esd-342-advanced-system-architecture-spring-2006/ab1bc35aa71b3572192c7f1cae3c74e9_lecture16.pdf", "publisher": "MIT OpenCourseWare", "title": "ESD.342 Advanced System Architecture, Lecture 16", "date": "2006" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "gm",
+      "relation": "executive of",
+      "claim": "Sloan was president of General Motors from 1923, chairman from 1937, chief executive until 1946 and honorary chairman until 1966.",
+      "status": "documented",
+      "date": "1923",
+      "quote": "he was elected Chairman of the Board in 1937, and he continued as Chief Executive Officer until 1946",
+      "sources": [
+        { "url": "https://sloan.org/about/who-was-alfred-p-sloan-jr", "publisher": "Alfred P. Sloan Foundation", "title": "Who was Alfred P. Sloan Jr.?" }
+      ]
+    },
+    {
+      "to": "Alfred P. Sloan Foundation",
+      "toName": "Alfred P. Sloan Foundation",
+      "toType": "foundation",
+      "relation": "founded",
+      "claim": "Sloan established the Alfred P. Sloan Foundation in 1934 while president and chief executive of General Motors.",
+      "status": "documented",
+      "date": "1934",
+      "quote": "It was established by Alfred P. Sloan Jr., then president and chief executive officer of General Motors",
+      "sources": [
+        { "url": "https://sloan.org/about/who-was-alfred-p-sloan-jr", "publisher": "Alfred P. Sloan Foundation", "title": "Who was Alfred P. Sloan Jr.?" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (Crash Conduits) listing Sloan as an insider of the 1934 'Business Plot' alongside the du Ponts: no primary source was found; a historian's review quoted in search results says the extent of involvement of the du Ponts, Sloan and others in any planning is not established.",
+    "Sloan's relationship to the DuPont-controlled GM board of the 1920s (DuPont's 23% stake) is documented in United States v. du Pont (see research/findings/gm.json) but his personal role in that relationship was not researched.",
+    "Sources differ on whether to call Sloan 'president' or 'CEO' in 1923; the Sloan Foundation describes him as president from 1923 and CEO through 1946."
+  ]
+}

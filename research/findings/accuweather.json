@@ -1,0 +1,113 @@
+{
+  "entity": "accuweather",
+  "name": "AccuWeather",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "AccuWeather, Inc. is a privately held commercial weather forecasting company whose origins trace to November 15, 1962, when Penn State graduate student Joel N. Myers began forecasting winter weather for the Pennsylvania utility Columbia Gas; it is based near State College, Pennsylvania. Federal lobbying disclosures list it as a client lobbying Congress, NOAA and the Department of Commerce on weather data and forecast policy. Its chief executive Barry Myers was nominated to head NOAA in 2017; the nomination was withdrawn in 2019, after Myers had resigned from the company and sold his interest.",
+    "sources": [
+      { "url": "https://encyclopedia.com/books/politics-and-business-magazines/accuweather-inc", "publisher": "Encyclopedia.com (International Directory of Company Histories)", "title": "AccuWeather, Inc." },
+      { "url": "https://amp.cnn.com/cnn/2017/10/14/politics/noaa-nominee-accuweather", "publisher": "CNN", "title": "Trump's NOAA nominee and AccuWeather", "date": "2017-10-14" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "AccuWeather's origins trace to November 15, 1962, when Joel N. Myers, then a graduate student at Penn State, began forecasting winter weather for Columbia Gas, a Pennsylvania gas utility.",
+      "status": "documented",
+      "date": "1962-11-15",
+      "quote": "AccuWeather, Inc.'s origins can be traced back to November 15, 1962, when Dr. Joel N. Myers, then a graduate student at Penn State, began forecasting winter weather for Columbia Gas, a Pennsylvania gas utility.",
+      "sources": [
+        { "url": "https://encyclopedia.com/books/politics-and-business-magazines/accuweather-inc", "publisher": "Encyclopedia.com (International Directory of Company Histories)", "title": "AccuWeather, Inc." },
+        { "url": "https://www.statecollege.com/accuweather-celebrates-60th-anniversary/", "publisher": "StateCollege.com", "title": "AccuWeather Celebrates 60th Anniversary", "date": "2022" }
+      ]
+    },
+    {
+      "claim": "A Senate lobbying disclosure filing lists AccuWeather as a client whose business is described as weather data and forecast services, with lobbying on science and technology issues directed at the Department of Commerce, NOAA, the House and the Senate.",
+      "status": "documented",
+      "quote": "weather data and forecast services",
+      "sources": [
+        { "url": "https://lda.senate.gov/filings/public/filing/490f745f-5ded-4675-8e20-f42cbb654a46/print/", "publisher": "U.S. Senate Lobbying Disclosure Act database", "title": "Lobbying registration listing AccuWeather as client" },
+        { "url": "https://lda.senate.gov/api/v1/filings/7481e611-dce1-4b1e-93fc-1b50290834f8/", "publisher": "U.S. Senate Lobbying Disclosure Act database", "title": "Lobbying filing listing AccuWeather as client" }
+      ]
+    },
+    {
+      "claim": "CNN reported in 2017 that AccuWeather spent $40,000 in 2005 lobbying the House, Senate and Commerce Department through Blank Rome Government Relations on 'commercial weather industry issues', and that more recent disclosures showed it continuing to lobby Congress, NOAA and the Commerce Department on 'federal data policies'.",
+      "status": "reported",
+      "date": "2017-10-14",
+      "quote": "commercial weather industry issues",
+      "sources": [
+        { "url": "https://amp.cnn.com/cnn/2017/10/14/politics/noaa-nominee-accuweather", "publisher": "CNN", "title": "Trump's NOAA nominee and AccuWeather", "date": "2017-10-14" }
+      ]
+    },
+    {
+      "claim": "Senator Rick Santorum introduced S.786, the National Weather Services Duties Act of 2005, on April 14, 2005; it was referred to the Senate Commerce, Science, and Transportation Committee and would have barred the National Weather Service from providing products that the private sector provides or could provide, except severe-weather warnings and forecasts to protect life and property.",
+      "status": "documented",
+      "date": "2005-04-14",
+      "sources": [
+        { "url": "https://USPS.org/images/Exec/Gvt_Partner_Rel/PositionPolicy/Position_National_Weather_Service.pdf", "publisher": "United States Power Squadrons", "title": "Position: National Weather Service", "date": "2005" },
+        { "url": "https://www.informationweek.com/it-leadership/reining-in-the-national-weather-service", "publisher": "InformationWeek", "title": "Reining In The National Weather Service", "date": "2005" }
+      ]
+    },
+    {
+      "claim": "AccuWeather paid $290,000 as part of a federal settlement of sexual harassment claims, a disclosure that drew criticism during Barry Myers's NOAA nomination; Myers was not personally accused of harassment.",
+      "status": "reported",
+      "date": "2019",
+      "sources": [
+        { "url": "https://www.eenews.net/articles/trumps-embattled-nominee-withdraws-cites-health-woes/", "publisher": "E&E News", "title": "Trump's embattled nominee withdraws, cites health woes", "date": "2019-11" }
+      ]
+    },
+    {
+      "claim": "Barry Myers, AccuWeather's chief executive and the younger brother of founder Joel Myers, resigned from the company and sold his interest in 2019 while his NOAA nomination was pending; the nomination was withdrawn in December 2019.",
+      "status": "reported",
+      "date": "2019",
+      "sources": [
+        { "url": "https://www.eenews.net/articles/trumps-embattled-nominee-withdraws-cites-health-woes/", "publisher": "E&E News", "title": "Trump's embattled nominee withdraws, cites health woes", "date": "2019-11" },
+        { "url": "https://www.congress.gov/116/crec/2019/12/02/CREC-2019-12-02-pt1-PgD1307.pdf", "publisher": "Congressional Record (congress.gov)", "title": "Daily Digest, December 2, 2019", "date": "2019-12-02" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "barry-myers",
+      "toName": "Barry Myers",
+      "toType": "person",
+      "relation": "executive of",
+      "reverse": true,
+      "claim": "Barry Myers was AccuWeather's chief executive when nominated to lead NOAA in 2017; he resigned and sold his interest in 2019.",
+      "status": "reported",
+      "date": "2019",
+      "sources": [
+        { "url": "https://www.eenews.net/articles/trumps-embattled-nominee-withdraws-cites-health-woes/", "publisher": "E&E News", "title": "Trump's embattled nominee withdraws, cites health woes", "date": "2019-11" }
+      ]
+    },
+    {
+      "to": "noaa",
+      "toName": "NOAA",
+      "toType": "government",
+      "relation": "other",
+      "claim": "AccuWeather's lobbying disclosures list NOAA among the agencies lobbied on weather data and forecast policy.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://lda.senate.gov/api/v1/filings/7481e611-dce1-4b1e-93fc-1b50290834f8/", "publisher": "U.S. Senate Lobbying Disclosure Act database", "title": "Lobbying filing listing AccuWeather as client" },
+        { "url": "https://amp.cnn.com/cnn/2017/10/14/politics/noaa-nominee-accuweather", "publisher": "CNN", "title": "Trump's NOAA nominee and AccuWeather", "date": "2017-10-14" }
+      ]
+    },
+    {
+      "to": "department-of-commerce",
+      "toName": "Department of Commerce",
+      "toType": "government",
+      "relation": "other",
+      "claim": "AccuWeather lobbied the Department of Commerce, according to its lobbying disclosures, including $40,000 of lobbying in 2005 reported by CNN.",
+      "status": "documented",
+      "date": "2005",
+      "sources": [
+        { "url": "https://amp.cnn.com/cnn/2017/10/14/politics/noaa-nominee-accuweather", "publisher": "CNN", "title": "Trump's NOAA nominee and AccuWeather", "date": "2017-10-14" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim that AccuWeather 'backed' Santorum's 2005 National Weather Services Duties Act was not confirmed by any source opened; the sources establish the bill's content and AccuWeather's 2005 lobbying on commercial weather industry issues, but not an explicit endorsement of S.786. The owner may wish to check contemporaneous reporting.",
+    "Site claim that the bill 'died' is consistent with the sources, which show no action beyond committee referral, but no source states its final disposition.",
+    "AccuWeather's OpenSecrets lobbying profile and annual totals were not retrieved.",
+    "Current leadership (a 2023 report said Steven R. Smith became CEO with Joel Myers as executive chairman) came only from an encyclopedia mirror and was not recorded."
+  ]
+}

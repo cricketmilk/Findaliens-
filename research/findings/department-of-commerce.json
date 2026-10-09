@@ -1,0 +1,126 @@
+{
+  "entity": "department-of-commerce",
+  "name": "Department of Commerce",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The U.S. Department of Commerce is the cabinet department that houses NOAA, whose administrator serves as Under Secretary of Commerce for Oceans and Atmosphere. On this site it appears for its part in the September 2019 Hurricane Dorian statement: the Department's Inspector General found that the unsigned NOAA statement was issued at the request of the White House acting chief of staff to the Department and that the Department displayed poor judgment in requiring it, and the Inspector General complained that the Department delayed the report's release. The Department also appears for issuing export licences in August 2025 for Nvidia's H20 chips to China, which the Financial Times reported were conditioned on a 15 percent revenue payment to the U.S. government.",
+    "sources": [
+      { "url": "https://www.oig.doc.gov/OIGPublications/OIG-20-032-I.pdf", "publisher": "U.S. Department of Commerce Office of Inspector General", "title": "Evaluation of NOAA's September 6, 2019, Statement About Hurricane Dorian Forecasts", "date": "2020-06-26" },
+      { "url": "https://www.everycrsreport.com/reports/R47636.html", "publisher": "Congressional Research Service (via EveryCRSReport)", "title": "National Oceanic and Atmospheric Administration (NOAA): Organization Overview and Issues for Congress" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The Commerce Inspector General's June 26, 2020 evaluation found that NOAA's unsigned September 6, 2019 statement rebuking the National Weather Service Birmingham office was issued in response to a request from the White House acting chief of staff to the Department for a 'correction or an explanation or both', which the IG said raised the possibility of political interference in the Department's and NOAA's handling of events.",
+      "status": "court",
+      "date": "2020-06-26",
+      "quote": "correction or an explanation or both",
+      "sources": [
+        { "url": "https://www.oig.doc.gov/OIGPublications/OIG-20-032-I.pdf", "publisher": "U.S. Department of Commerce Office of Inspector General", "title": "Evaluation of NOAA's September 6, 2019, Statement About Hurricane Dorian Forecasts", "date": "2020-06-26" },
+        { "url": "https://amp.cnn.com/cnn/2020/07/09/politics/trump-map-hurricane-dorian-alabama", "publisher": "CNN", "title": "Commerce inspector general report on Hurricane Dorian statement", "date": "2020-07-09" }
+      ]
+    },
+    {
+      "claim": "The Inspector General's report said the Department displayed poor judgment in exercising its authority over NOAA by requiring an unattributed statement about a five-day-old tweet while an active hurricane was off the East Coast, and that the rebuke could have a chilling effect on forecasters' public-safety messages; a Department official responded that the report's conclusions were unsupported by its findings.",
+      "status": "court",
+      "date": "2020-06-26",
+      "quote": "could have a chilling effect on NWS forecasters' future public safety messages and undercut public trust in NWS forecasts",
+      "sources": [
+        { "url": "https://www.oig.doc.gov/OIGPublications/OIG-20-032-I.pdf", "publisher": "U.S. Department of Commerce Office of Inspector General", "title": "Evaluation of NOAA's September 6, 2019, Statement About Hurricane Dorian Forecasts", "date": "2020-06-26" },
+        { "url": "https://spectrumnews1.com/ap-top-news/2020/07/09/govt-watchdog-politics-caused-sharpiegate-frantic-rebuke", "publisher": "Associated Press (via Spectrum News)", "title": "Govt watchdog: Politics caused 'Sharpiegate' frantic rebuke", "date": "2020-07-09" }
+      ]
+    },
+    {
+      "claim": "On July 1, 2020 the Inspector General wrote to the Secretary of Commerce expressing 'deep concern' that the Department was preventing the release of the Dorian report, which had been due on June 29, 2020.",
+      "status": "documented",
+      "date": "2020-07-01",
+      "quote": "deep concern",
+      "sources": [
+        { "url": "https://www.oig.doc.gov/OIGPublications/Memorandum_from_the_Inspector_General.pdf", "publisher": "U.S. Department of Commerce Office of Inspector General", "title": "Memorandum from the Inspector General", "date": "2020-07-01" },
+        { "url": "https://sej.org/node/36018", "publisher": "Society of Environmental Journalists", "title": "Watchdog Says Commerce Dept. Is Blocking Probe Into Trump's 'Sharpiegate'", "date": "2020-07" }
+      ]
+    },
+    {
+      "claim": "Press reports in 2019 said Commerce Secretary Wilbur Ross threatened to fire NOAA officials after the Birmingham office contradicted the President's statement about Hurricane Dorian; Ross's office denied that he threatened to fire any NOAA staff.",
+      "status": "reported",
+      "date": "2019-09",
+      "quote": "Secretary Ross did not threaten to fire any NOAA staff over forecasting and public statements about Hurricane Dorian",
+      "sources": [
+        { "url": "https://www.axios.com/wilbur-ross-alabama-noaa-trump-tweet-hurricane-906916f7-8ba9-4053-a8df-3d7e8f52c1c3.html", "publisher": "Axios", "title": "NYT: Wilbur Ross threatened NOAA firings after Trump hurricane contradiction", "date": "2019-09" },
+        { "url": "https://climate.law.columbia.edu/content/president-trump-falsely-states-alabama-may-be-under-threat-hurricane-dorian", "publisher": "Sabin Center for Climate Change Law, Columbia Law School", "title": "President Trump Falsely States that Alabama May be Under Threat from Hurricane Dorian" }
+      ]
+    },
+    {
+      "claim": "Bloomberg Government reported in spring 2025 that the Commerce Department was considering cutting 1,029 NOAA positions through reductions in force, after NOAA approved more than 1,000 buyout and early-retirement applications.",
+      "status": "reported",
+      "date": "2025-04",
+      "sources": [
+        { "url": "https://news.bgov.com/bloomberg-government-news/climate-agency-approves-more-than-1-000-staff-exit-requests", "publisher": "Bloomberg Government", "title": "Climate Agency Approves More Than 1,000 Staff Exit Requests", "date": "2025-04" }
+      ]
+    },
+    {
+      "claim": "In August 2025 the Commerce Department began issuing export licences for Nvidia's H20 chip and AMD's MI308 chip to China; the Financial Times reported that the companies had agreed to pay the U.S. government 15 percent of their revenue from those sales as a condition of the licences, and the Department did not immediately respond to requests for comment.",
+      "status": "reported",
+      "date": "2025-08",
+      "sources": [
+        { "url": "https://www.investmentmonitor.ai/news/nvidia-amd-to-remit-15-of-china-chip-sales-to-us-government/", "publisher": "Investment Monitor", "title": "Nvidia, AMD to remit 15% of China chip sales to US government", "date": "2025-08" },
+        { "url": "https://www.koreajoongangdaily.com/business/nvidia-amd-to-pay-15-of-china-chip-sale-revenues-to-us-financial-times-reports/12277060", "publisher": "Korea JoongAng Daily", "title": "Nvidia, AMD to pay 15% of China chip sale revenues to U.S., Financial Times reports", "date": "2025-08" }
+      ]
+    },
+    {
+      "claim": "AccuWeather's federal lobbying disclosures list the Department of Commerce among the agencies it has lobbied; CNN reported in 2017 that AccuWeather spent $40,000 in 2005 lobbying the House, Senate and Commerce Department on commercial weather industry issues.",
+      "status": "documented",
+      "date": "2017-10-14",
+      "sources": [
+        { "url": "https://amp.cnn.com/cnn/2017/10/14/politics/noaa-nominee-accuweather", "publisher": "CNN", "title": "Trump's NOAA nominee and AccuWeather", "date": "2017-10-14" },
+        { "url": "https://lda.senate.gov/api/v1/filings/7481e611-dce1-4b1e-93fc-1b50290834f8/", "publisher": "U.S. Senate Lobbying Disclosure Act database", "title": "Lobbying filing listing AccuWeather as client" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "noaa",
+      "toName": "NOAA",
+      "toType": "government",
+      "relation": "owns",
+      "claim": "NOAA is an agency of the Department of Commerce; the Inspector General found the Department exercised its authority over NOAA with poor judgment in requiring the September 2019 Dorian statement.",
+      "status": "court",
+      "date": "2020-06-26",
+      "sources": [
+        { "url": "https://www.oig.doc.gov/OIGPublications/OIG-20-032-I.pdf", "publisher": "U.S. Department of Commerce Office of Inspector General", "title": "Evaluation of NOAA's September 6, 2019, Statement About Hurricane Dorian Forecasts", "date": "2020-06-26" },
+        { "url": "https://www.everycrsreport.com/reports/R47636.html", "publisher": "Congressional Research Service (via EveryCRSReport)", "title": "National Oceanic and Atmospheric Administration (NOAA): Organization Overview and Issues for Congress" }
+      ]
+    },
+    {
+      "to": "nvidia",
+      "toName": "Nvidia",
+      "toType": "company",
+      "relation": "regulated",
+      "claim": "The Commerce Department began issuing export licences for Nvidia's H20 chips to China in August 2025, after an April 2025 restriction had halted the sales; the Financial Times reported a 15 percent revenue payment to the U.S. government as a condition.",
+      "status": "reported",
+      "date": "2025-08",
+      "sources": [
+        { "url": "https://www.investmentmonitor.ai/news/nvidia-amd-to-remit-15-of-china-chip-sales-to-us-government/", "publisher": "Investment Monitor", "title": "Nvidia, AMD to remit 15% of China chip sales to US government", "date": "2025-08" },
+        { "url": "https://www.fool.com/investing/2025/08/11/nvda-stock-china-ai-chips/", "publisher": "The Motley Fool", "title": "Nvidia stock and China AI chips", "date": "2025-08-11" }
+      ]
+    },
+    {
+      "to": "accuweather",
+      "toName": "AccuWeather",
+      "toType": "company",
+      "relation": "other",
+      "claim": "AccuWeather has lobbied the Department of Commerce, according to its federal lobbying disclosures and CNN's 2017 review of them.",
+      "status": "documented",
+      "date": "2017-10-14",
+      "sources": [
+        { "url": "https://amp.cnn.com/cnn/2017/10/14/politics/noaa-nominee-accuweather", "publisher": "CNN", "title": "Trump's NOAA nominee and AccuWeather", "date": "2017-10-14" },
+        { "url": "https://lda.senate.gov/api/v1/filings/7481e611-dce1-4b1e-93fc-1b50290834f8/", "publisher": "U.S. Senate Lobbying Disclosure Act database", "title": "Lobbying filing listing AccuWeather as client" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim on the Carbon Ledger page that NOAA's Dorian statement was found to violate scientific-integrity policy, listing the Department of Commerce alongside NOAA, is supported by the Commerce OIG report and the NAPA panel.",
+    "The Crash Conduits page's 'GPU Compute Cartel' entry attributes export gatekeeping and a sovereign revenue share to Commerce; the 15 percent arrangement is reported by the Financial Times via secondary outlets and has not been confirmed by an official Commerce statement in the sources opened. The role of the Bureau of Industry and Security specifically was not confirmed.",
+    "Whether the Inspector General made a finding on the reported firing threats by Secretary Ross was not established; the report's appendix includes Ross's written answers."
+  ]
+}

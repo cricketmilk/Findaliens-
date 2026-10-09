@@ -1,0 +1,107 @@
+{
+  "entity": "scl-group",
+  "name": "SCL Group",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "SCL Group Ltd was the British parent of a cluster of companies including SCL Elections Ltd, the entity that traded as Cambridge Analytica from 2016, together with SCL Social, SCL Analytics and SCL Commercial. The UK Information Commissioner's Office (ICO) investigated SCL/Cambridge Analytica's use of personal data in political campaigns from 2017 and, in a final letter to the DCMS Committee dated 2 October 2020, reported that SCL Elections had been prosecuted and fined for failing to comply with an enforcement notice, that its director Alexander Nix had been disqualified for seven years after an ICO referral to the Insolvency Service, and that SCL/CA had purchased very large volumes of commercially available data about U.S. voters. The companies entered compulsory liquidation in April 2019.",
+    "sources": [
+      { "url": "https://ico.org.uk/media2/migrated/2618383/20201002_ico-o-ed-l-rtl-0181_to-julian-knight-mp.pdf", "publisher": "Information Commissioner's Office", "title": "Letter to Julian Knight MP, Chair of the DCMS Committee (ICO/O/ED/L/RTL/0181)", "date": "2020-10-02" },
+      { "url": "https://www.aljazeera.com/economy/2020/9/25/uk-bans-ex-cambridge-analytica-boss-for-unethical-services", "publisher": "Al Jazeera", "title": "Ex-Cambridge Analytica head banned from running firms in UK", "date": "2020-09-25" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In its final written account to Parliament dated 2 October 2020, the Information Commissioner reported that review of the seized material had confirmed and reinforced the findings of her earlier reports, that SCL/CA were purchasing significant volumes of commercially available personal data (at one estimate over 130 billion data points), mainly about millions of U.S. voters, and combining it with Facebook-derived insight data from Dr Aleksandr Kogan.",
+      "status": "documented",
+      "date": "2020-10-02",
+      "quote": "purchasing significant volumes of commercially available personal data (at one estimate over 130 billion data points), mainly about millions of US voters",
+      "sources": [
+        { "url": "https://ico.org.uk/media2/migrated/2618383/20201002_ico-o-ed-l-rtl-0181_to-julian-knight-mp.pdf", "publisher": "Information Commissioner's Office", "title": "Letter to Julian Knight MP, Chair of the DCMS Committee (ICO/O/ED/L/RTL/0181)", "date": "2020-10-02" }
+      ]
+    },
+    {
+      "claim": "The ICO's October 2020 letter states that SCL Elections was successfully prosecuted for failing to comply with the Commissioner's Enforcement Notice and fined £18,000, that the ICO referred conduct concerns to the Insolvency Service, and that Alexander Nix, a director of SCL Elections Ltd, was disqualified from acting as a director for seven years.",
+      "status": "court",
+      "date": "2020-10-02",
+      "quote": "SCL Elections was successfully prosecuted for their failure to comply with my Enforcement Notice, with a £18,000 fine",
+      "sources": [
+        { "url": "https://ico.org.uk/media2/migrated/2618383/20201002_ico-o-ed-l-rtl-0181_to-julian-knight-mp.pdf", "publisher": "Information Commissioner's Office", "title": "Letter to Julian Knight MP, Chair of the DCMS Committee (ICO/O/ED/L/RTL/0181)", "date": "2020-10-02" }
+      ]
+    },
+    {
+      "claim": "The ICO found no further evidence to change its earlier view that SCL/CA were not involved in the EU referendum campaign in the UK, apart from some early enquiries about UKIP data that were not pursued.",
+      "status": "documented",
+      "date": "2020-10-02",
+      "quote": "no further evidence to change my earlier view that SCL/CA were not involved in the EU referendum campaign in the UK",
+      "sources": [
+        { "url": "https://ico.org.uk/media2/migrated/2618383/20201002_ico-o-ed-l-rtl-0181_to-julian-knight-mp.pdf", "publisher": "Information Commissioner's Office", "title": "Letter to Julian Knight MP, Chair of the DCMS Committee (ICO/O/ED/L/RTL/0181)", "date": "2020-10-02" }
+      ]
+    },
+    {
+      "claim": "SCL Elections was charged with one count of failing to comply with an ICO enforcement notice under sections 47(1) and 60(2) of the Data Protection Act 1998, entered a not guilty plea on 3 October 2018 with trial set for 9 January 2019 at Hendon Magistrates' Court; the company's administrators later entered a guilty plea and the court fined the company, with trade press reporting a total of £21,000 including over £6,000 in costs.",
+      "status": "court",
+      "date": "2019-01-09",
+      "quote": "the company's administrators entered a guilty plea",
+      "sources": [
+        { "url": "https://www.theregister.co.uk/2018/10/04/scl_elections_pleads_not_guilty_data_notice_cambridge_analytica/", "publisher": "The Register", "title": "SCL Elections pleads not guilty to ignoring ICO data notice", "date": "2018-10-04" },
+        { "url": "https://globaldatareview.com/article/cambridge-analytica-fined-in-uk", "publisher": "Global Data Review", "title": "Cambridge Analytica fined in UK", "date": "2019-01" },
+        { "url": "https://www.decisionmarketing.co.uk/tag/scl-elections", "publisher": "Decision Marketing", "title": "Cambridge Analytica firm fined for ignoring ICO demand", "date": "2019-01" }
+      ]
+    },
+    {
+      "claim": "The ICO published its November 2018 investigation report and July 2018 'Democracy disrupted?' policy report on the use of data analytics in political campaigns, which set out earlier findings including warning letters to 11 political parties.",
+      "status": "documented",
+      "date": "2018-11-05",
+      "quote": "Investigation into the use of data analytics in political campaigns",
+      "sources": [
+        { "url": "https://cy.ico.org.uk/media2/migrated/2260271/investigation-into-the-use-of-data-analytics-in-political-campaigns-final-20181105.pdf", "publisher": "Information Commissioner's Office", "title": "Investigation into the use of data analytics in political campaigns: a report to Parliament", "date": "2018-11-05" },
+        { "url": "https://ico.org.uk/media2/migrated/2259369/democracy-disrupted-110718.pdf", "publisher": "Information Commissioner's Office", "title": "Democracy disrupted? Personal information and political influence", "date": "2018-07-11" }
+      ]
+    },
+    {
+      "claim": "The UK Insolvency Service found that SCL Elections and associated companies had offered potentially unethical services to prospective clients, including bribery or honey-trap stings, voter disengagement campaigns, obtaining information to discredit opponents and spreading information anonymously; it did not say whether any such services were delivered. The six companies of which Nix was a director, including SCL Group Ltd, SCL Social Ltd, SCL Analytics Ltd and SCL Commercial Ltd, entered compulsory liquidation in April 2019.",
+      "status": "documented",
+      "date": "2020-09-24",
+      "quote": "bribery or honey trap stings, voter disengagement campaigns, obtaining information to discredit political opponents and spreading information anonymously in political campaigns",
+      "sources": [
+        { "url": "https://www.aljazeera.com/economy/2020/9/25/uk-bans-ex-cambridge-analytica-boss-for-unethical-services", "publisher": "Al Jazeera", "title": "Ex-Cambridge Analytica head banned from running firms in UK", "date": "2020-09-25" },
+        { "url": "https://lbc.co.uk/business/3cbbfa1a585f4c14a4fdf20a89bc6bc0", "publisher": "LBC", "title": "Ex-Cambridge Analytica boss banned from being a company director", "date": "2020-09-24" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "cambridge-analytica",
+      "toName": "Cambridge Analytica",
+      "toType": "company",
+      "relation": "other",
+      "claim": "SCL Elections Ltd, part of the SCL group of companies, was more commonly known as Cambridge Analytica from 2016 after a rebrand; both were among the companies that entered compulsory liquidation in April 2019.",
+      "status": "reported",
+      "date": "2016",
+      "quote": "SCL Elections, which was more commonly known as Cambridge Analytica from 2016 after a rebrand",
+      "sources": [
+        { "url": "https://www.aljazeera.com/economy/2020/9/25/uk-bans-ex-cambridge-analytica-boss-for-unethical-services", "publisher": "Al Jazeera", "title": "Ex-Cambridge Analytica head banned from running firms in UK", "date": "2020-09-25" }
+      ]
+    },
+    {
+      "to": "alexander-nix",
+      "toName": "Alexander Nix",
+      "toType": "person",
+      "relation": "executive of",
+      "reverse": true,
+      "claim": "Alexander Nix was a director of SCL Elections Ltd and of SCL Group, SCL Social, SCL Analytics and SCL Commercial; he was disqualified for seven years for his conduct at SCL Elections.",
+      "status": "court",
+      "date": "2020-10-05",
+      "quote": "Mr Alexander Nix, a Director of SCL Elections Ltd, is now disqualified from acting as a director for a period of seven years",
+      "sources": [
+        { "url": "https://ico.org.uk/media2/migrated/2618383/20201002_ico-o-ed-l-rtl-0181_to-julian-knight-mp.pdf", "publisher": "Information Commissioner's Office", "title": "Letter to Julian Knight MP, Chair of the DCMS Committee (ICO/O/ED/L/RTL/0181)", "date": "2020-10-02" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The ICO letter gives the SCL Elections fine as £18,000; trade press reported £21,000 including over £6,000 costs. The breakdown should be checked against the court record.",
+    "The ICO's 2018 fine of £500,000 against Facebook and its earlier enforcement notice to SCL Elections (May 2018) were not opened in this file; they are described in the ICO's November 2018 report.",
+    "The corporate structure (which SCL entity owned Cambridge Analytica LLC in the U.S., and the Mercer family's shareholding) was not established from a primary record; see the robert-mercer file.",
+    "The ICO letter's signatory is inferred to be Elizabeth Denham from the reference code; the full letter should be read to confirm."
+  ]
+}

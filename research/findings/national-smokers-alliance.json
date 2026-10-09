@@ -1,0 +1,86 @@
+{
+  "entity": "national-smokers-alliance",
+  "name": "National Smokers Alliance",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The National Smokers Alliance (NSA) was a U.S. smokers' rights organization created in 1993 by the public relations firm Burson-Marsteller on behalf of Philip Morris, according to the University of Bath's Tobacco Tactics project. A tobacco-industry document in the UCSF Industry Documents Library describes Philip Morris asking Burson-Marsteller to look into forming a smokers' group after receiving letters from smokers, and says the NSA would present itself as an independent body. Tobacco Tactics reports that the Alliance's president was a Burson-Marsteller vice president and that the names of its corporate funders were kept off its materials.",
+    "sources": [
+      { "url": "https://www.tobaccotactics.org/article/astroturfing/", "publisher": "Tobacco Tactics (University of Bath)", "title": "Astroturfing" },
+      { "url": "https://download.industrydocuments.ucsf.edu/q/k/d/m/qkdm0127/qkdm0127.pdf", "publisher": "UCSF Industry Documents Library", "title": "National Smokers Alliance question-and-answer sheet (Bates qkdm0127)" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Tobacco Tactics states that Burson-Marsteller's grassroots unit, the Advocacy Communications Team, created the National Smokers Alliance on behalf of Philip Morris in 1993.",
+      "status": "documented",
+      "date": "1993",
+      "quote": "Burson-Marsteller's grassroots unit, the Advocacy Communications Team, created the National Smokers Alliance on behalf of Philip Morris in 1993",
+      "sources": [
+        { "url": "https://www.tobaccotactics.org/article/astroturfing/", "publisher": "Tobacco Tactics (University of Bath)", "title": "Astroturfing" }
+      ]
+    },
+    {
+      "claim": "According to Tobacco Tactics, the Alliance's president was a vice president of Burson-Marsteller and other Burson-Marsteller executives were actively involved in the organisation, while the names of the NSA's corporate funders and organisers were kept off the group's materials, citing PR Watch.",
+      "status": "reported",
+      "date": "1990s",
+      "quote": "the Alliance's president was the vice president of Burson-Marsteller, and other Burson-Marsteller executives were actively involved in the organisation",
+      "sources": [
+        { "url": "https://www.tobaccotactics.org/article/astroturfing/", "publisher": "Tobacco Tactics (University of Bath)", "title": "Astroturfing" }
+      ]
+    },
+    {
+      "claim": "A National Smokers Alliance question-and-answer document held in the UCSF Industry Documents Library describes how Philip Morris, facing letters from smokers, had Burson-Marsteller look into forming a smokers' group, with the firm reporting back that such an organization was overdue; the document says the NSA would present itself as an independent body.",
+      "status": "documented",
+      "date": "1990s",
+      "quote": "Philip Morris, facing letters from smokers, had Burson-Marsteller look into forming a smokers' group",
+      "sources": [
+        { "url": "https://download.industrydocuments.ucsf.edu/q/k/d/m/qkdm0127/qkdm0127.pdf", "publisher": "UCSF Industry Documents Library", "title": "National Smokers Alliance question-and-answer sheet (Bates qkdm0127)" }
+      ]
+    },
+    {
+      "claim": "SourceWatch, citing a July 1993 Philip Morris presentation on a smokers' alliance (Bates No. 2025771934/1995) and a Philip Morris planning document, reports that Burson-Marsteller suggested ways to use the NSA, including getting NSA members to help Philip Morris fund its lawsuits.",
+      "status": "reported",
+      "date": "1993-07",
+      "quote": "Burson-Marsteller suggested ways to use the NSA, including getting members of the NSA to help PM fund its lawsuits",
+      "sources": [
+        { "url": "https://sourcewatch.org/index.php/Burson-Marsteller_and_the_National_Smokers_Alliance", "publisher": "SourceWatch (Center for Media and Democracy)", "title": "Burson-Marsteller and the National Smokers Alliance" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "burson-marsteller",
+      "toName": "Burson-Marsteller",
+      "toType": "company",
+      "relation": "founded",
+      "reverse": true,
+      "claim": "Burson-Marsteller's Advocacy Communications Team created the National Smokers Alliance in 1993 on behalf of Philip Morris, and the Alliance's president was a Burson-Marsteller vice president.",
+      "status": "documented",
+      "date": "1993",
+      "quote": "created the National Smokers Alliance on behalf of Philip Morris in 1993",
+      "sources": [
+        { "url": "https://www.tobaccotactics.org/article/astroturfing/", "publisher": "Tobacco Tactics (University of Bath)", "title": "Astroturfing" }
+      ]
+    },
+    {
+      "to": "philip-morris",
+      "toName": "Philip Morris",
+      "toType": "company",
+      "relation": "funded",
+      "reverse": true,
+      "claim": "Philip Morris commissioned Burson-Marsteller to form the National Smokers Alliance in 1993; an industry document describes Philip Morris having the firm look into forming a smokers' group.",
+      "status": "documented",
+      "date": "1993",
+      "quote": "had Burson-Marsteller look into forming a smokers' group",
+      "sources": [
+        { "url": "https://download.industrydocuments.ucsf.edu/q/k/d/m/qkdm0127/qkdm0127.pdf", "publisher": "UCSF Industry Documents Library", "title": "National Smokers Alliance question-and-answer sheet (Bates qkdm0127)" },
+        { "url": "https://www.tobaccotactics.org/article/astroturfing/", "publisher": "Tobacco Tactics (University of Bath)", "title": "Astroturfing" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (Manufacturing Consent): 'PR firm Burson-Marsteller created the National Smokers Alliance for Philip Morris to look like a grassroots smokers' rights group' is supported by Tobacco Tactics and the UCSF industry document.",
+    "Site claim (Manufacturing Consent): 'Tobacco companies were its main funders, with $42 million raised in its first four years' was not confirmed; no funding totals appeared in the sources opened. The owner may wish to search the UCSF Industry Documents Library for NSA budget or payment records (1993-1997).",
+    "The date of the UCSF question-and-answer document (qkdm0127) was not established."
+  ]
+}

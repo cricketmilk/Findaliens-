@@ -1,0 +1,89 @@
+{
+  "entity": "american-engagement-technologies",
+  "name": "American Engagement Technologies",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "American Engagement Technologies (AET) was a political-technology organization run by Mikey Dickerson, a former head of the U.S. Digital Service. It received $750,000 that originated with LinkedIn co-founder Reid Hoffman and, according to reporting by The New York Times, The Washington Post and BuzzFeed News in December 2018, spent roughly $100,000 of that on 'Project Birmingham', an effort in the 2017 Alabama Senate special election that used a Facebook page posing as conservative Alabamians and, per an internal report, a 'false flag' suggesting Russian bot support for Roy Moore. Hoffman apologized, said he had not known of the tactics, and said AET had funneled money into the research firm New Knowledge, which acknowledged limited experimentation.",
+    "sources": [
+      { "url": "https://www.buzzfeednews.com/amphtml/craigsilverman/alabama-dirty-tricksters-invited-a-new-york-times-reporter", "publisher": "BuzzFeed News", "title": "Alabama dirty tricksters invited a New York Times reporter", "date": "2019-01" },
+      { "url": "https://www.vpm.org/npr-news/2019-01-09/how-project-birmingham-spread-misinformation-in-the-2017-alabama-senate-election", "publisher": "VPM (NPR)", "title": "How Project Birmingham spread misinformation in the 2017 Alabama Senate election", "date": "2019-01-09" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "BuzzFeed News reported that American Engagement Technologies received $750,000 in funding that originated with Reid Hoffman and spent approximately $100,000 of it on what was dubbed 'Project Birmingham' during the 2017 Alabama Senate special election.",
+      "status": "reported",
+      "date": "2017",
+      "quote": "the organization received $750,000 in funding that originated with Hoffman and spent approximately $100,000 of that on what was dubbed \"Project Birmingham.\"",
+      "sources": [
+        { "url": "https://www.buzzfeednews.com/amphtml/craigsilverman/alabama-dirty-tricksters-invited-a-new-york-times-reporter", "publisher": "BuzzFeed News", "title": "Alabama dirty tricksters invited a New York Times reporter", "date": "2019-01" }
+      ]
+    },
+    {
+      "claim": "NPR reported that Project Birmingham's operators created a Facebook page on which they posed as conservative Alabamians, using it to try to divide Republicans and to endorse a write-in candidate to draw votes from Roy Moore, and that an internal report described a 'false flag' operation that planted the idea that the Moore campaign was amplified by a Russian botnet.",
+      "status": "reported",
+      "date": "2017-12",
+      "quote": "The project's operators created a Facebook page on which they posed as conservative Alabamians",
+      "sources": [
+        { "url": "https://www.vpm.org/npr-news/2019-01-09/how-project-birmingham-spread-misinformation-in-the-2017-alabama-senate-election", "publisher": "VPM (NPR)", "title": "How Project Birmingham spread misinformation in the 2017 Alabama Senate election", "date": "2019-01-09" },
+        { "url": "https://www.arkansasonline.com/news/2018/dec/27/funder-decries-anti-gop-group-in-alabam/", "publisher": "Arkansas Democrat-Gazette (Washington Post)", "title": "Funder decries anti-GOP group in Alabama", "date": "2018-12-27" }
+      ]
+    },
+    {
+      "claim": "On December 26, 2018 Reid Hoffman wrote on Medium that he was embarrassed by his failure to track AET more diligently as it made its own decisions to fund projects he would reject, said he had not known of the tactics, and endorsed a federal investigation.",
+      "status": "words",
+      "date": "2018-12-26",
+      "quote": "I am embarrassed by my failure to track AET – the organization I did support – more diligently as it made its own decisions to perhaps fund projects that I would reject",
+      "sources": [
+        { "url": "https://techcrunch.com/?p=1763318", "publisher": "TechCrunch", "title": "Reid Hoffman denies direct knowledge of funding disinformation in the Alabama Senate race", "date": "2018-12-26" },
+        { "url": "https://www.washingtonexaminer.com/?p=1215874", "publisher": "Washington Examiner", "title": "LinkedIn co-founder apologizes for funding group linked to disinformation efforts in Alabama special election", "date": "2018-12-26" }
+      ]
+    },
+    {
+      "claim": "Hoffman told The Washington Post that AET had funneled money into the research firm New Knowledge, one of the groups reported to be part of Project Birmingham; New Knowledge acknowledged limited experimentation with such tactics but denied doing what the internal document described. Dickerson did not respond to requests for comment.",
+      "status": "reported",
+      "date": "2018-12-26",
+      "quote": "Hoffman told the Post Wednesday that AET had funneled money into research firm New Knowledge, one of the groups allegedly part of the project.",
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/?p=1215874", "publisher": "Washington Examiner", "title": "LinkedIn co-founder apologizes for funding group linked to disinformation efforts in Alabama special election", "date": "2018-12-26" },
+        { "url": "https://www.vpm.org/npr-news/2019-01-09/how-project-birmingham-spread-misinformation-in-the-2017-alabama-senate-election", "publisher": "VPM (NPR)", "title": "How Project Birmingham spread misinformation in the 2017 Alabama Senate election", "date": "2019-01-09" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "reid-hoffman",
+      "toName": "Reid Hoffman",
+      "toType": "person",
+      "relation": "funded",
+      "reverse": true,
+      "claim": "AET received $750,000 that originated with Reid Hoffman; Hoffman said in December 2018 he had not tracked the organization closely and apologized.",
+      "status": "reported",
+      "date": "2018-12-26",
+      "quote": "received $750,000 in funding that originated with Hoffman",
+      "sources": [
+        { "url": "https://www.buzzfeednews.com/amphtml/craigsilverman/alabama-dirty-tricksters-invited-a-new-york-times-reporter", "publisher": "BuzzFeed News", "title": "Alabama dirty tricksters invited a New York Times reporter", "date": "2019-01" },
+        { "url": "https://techcrunch.com/?p=1763318", "publisher": "TechCrunch", "title": "Reid Hoffman denies direct knowledge of funding disinformation in the Alabama Senate race", "date": "2018-12-26" }
+      ]
+    },
+    {
+      "to": "new-knowledge",
+      "toName": "New Knowledge",
+      "toType": "company",
+      "relation": "funded",
+      "claim": "Hoffman told The Washington Post that AET funneled money into New Knowledge, which was reported to be part of Project Birmingham.",
+      "status": "reported",
+      "date": "2017",
+      "quote": "AET had funneled money into research firm New Knowledge",
+      "sources": [
+        { "url": "https://www.washingtonexaminer.com/?p=1215874", "publisher": "Washington Examiner", "title": "LinkedIn co-founder apologizes for funding group linked to disinformation efforts in Alabama special election", "date": "2018-12-26" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "No FEC filings for American Engagement Technologies were found; the organization's legal form (LLC or 501(c)(4)) and whether it reported any spending to the FEC were not established.",
+    "The original New York Times and Washington Post reports could not be opened; the facts rest on NPR, BuzzFeed News and syndicated Post coverage.",
+    "Mikey Dickerson's role as AET's head is reported by several outlets; no statement from Dickerson was found.",
+    "The separate 'Dry Alabama' Facebook effort reported in January 2019 was not confirmed from the sources opened."
+  ]
+}

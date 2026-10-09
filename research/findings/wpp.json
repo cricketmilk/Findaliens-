@@ -1,0 +1,87 @@
+{
+  "entity": "wpp",
+  "name": "WPP",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "WPP plc is a London-based advertising and communications holding company listed in London and New York. On this site it appears as the owner of the public relations firms Hill & Knowlton and Burson Cohn & Wolfe (BCW, the successor of Burson-Marsteller). On January 25, 2024 WPP announced it would unite BCW and Hill & Knowlton into a single agency named Burson, with more than 6,000 employees in 43 markets, operating from July 1, 2024; its 2024 annual report and Form 20-F describe Burson as created in June 2024 from the merger.",
+    "sources": [
+      { "url": "https://www.wpp.com/en/news/2024/01/wpp-unites-bcw-and-hill-knowlton-to-create-burson", "publisher": "WPP", "title": "WPP unites BCW and Hill & Knowlton to create Burson, a global leader built for a new era of communications", "date": "2024-01-25" },
+      { "url": "https://www.sec.gov/Archives/edgar/data/806968/000162828025015363/wpp-20241231.htm", "publisher": "SEC", "title": "WPP plc Form 20-F for fiscal year 2024", "date": "2025" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On January 25, 2024 WPP announced that Hill & Knowlton and BCW would merge into a single agency called Burson, naming BCW global CEO Corey duBrowa as Burson's global CEO and Hill & Knowlton global chair and CEO AnnaMaria DeSalva as its global chair. The merged agency was to begin operating on July 1, 2024, with more than 6,000 employees across 43 markets.",
+      "status": "documented",
+      "date": "2024-01-25",
+      "quote": "WPP unites BCW and Hill & Knowlton to create Burson",
+      "sources": [
+        { "url": "https://www.wpp.com/en/news/2024/01/wpp-unites-bcw-and-hill-knowlton-to-create-burson", "publisher": "WPP", "title": "WPP unites BCW and Hill & Knowlton to create Burson, a global leader built for a new era of communications", "date": "2024-01-25" },
+        { "url": "https://www.axios.com/2024/01/25/wpp-bcw-and-hill-knowlton-merger", "publisher": "Axios", "title": "WPP to merge BCW and Hill & Knowlton to create comms giant", "date": "2024-01-25" }
+      ]
+    },
+    {
+      "claim": "WPP's 2024 Form 20-F and annual report state that Burson was created in June 2024 from the merger of BCW and Hill & Knowlton; the January press release had given July 1, 2024 as the operating start date.",
+      "status": "documented",
+      "date": "2024-06",
+      "quote": "Burson was created in June 2024 from the BCW and Hill & Knowlton merger",
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/806968/000162828025015363/wpp-20241231.htm", "publisher": "SEC", "title": "WPP plc Form 20-F for fiscal year 2024", "date": "2025" },
+        { "url": "https://www.sec.gov/Archives/edgar/data/806968/000162828025015366/wppannualreportaccounts2024.pdf", "publisher": "SEC", "title": "WPP plc Annual Report and Accounts 2024", "date": "2025" }
+      ]
+    },
+    {
+      "claim": "Provoke Media reported that the merged firm would have revenue above $1.1 billion, that the Burson name honours Harold Burson, founder of Burson-Marsteller, and that Hill & Knowlton would continue to operate as a distinct brand within Burson for select clients, including where there may be conflicts. WPP does not disclose fee income by agency.",
+      "status": "reported",
+      "date": "2024-01-25",
+      "quote": "Hill & Knowlton will continue to operate as a distinct brand within Burson, serving select clients, including those where there may be conflicts",
+      "sources": [
+        { "url": "https://www.provokemedia.com/latest/article/hello-burson-wpp-merges-bcw-and-h-k-to-create-$1bn-pr-firm", "publisher": "PRovoke Media", "title": "Hello Burson: WPP merges BCW and H&K to create $1bn PR firm", "date": "2024-01-25" }
+      ]
+    },
+    {
+      "claim": "Axios described the Burson merger as the latest round of mergers within WPP, which has long been consolidating its internal brands to streamline operations. A WPP spokesperson did not rule out job losses, saying the aim was to minimise the impact on jobs to the greatest extent possible.",
+      "status": "reported",
+      "date": "2024-01-25",
+      "quote": "WPP, which has long been consolidating its internal brands to streamline operations",
+      "sources": [
+        { "url": "https://www.axios.com/2024/01/25/wpp-bcw-and-hill-knowlton-merger", "publisher": "Axios", "title": "WPP to merge BCW and Hill & Knowlton to create comms giant", "date": "2024-01-25" },
+        { "url": "https://mumbrella.com.au/?p=813522", "publisher": "Mumbrella", "title": "'This will affect all markets': WPP to merge Hill & Knowlton and BCW Global", "date": "2024-01" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "hill-and-knowlton",
+      "toName": "Hill & Knowlton",
+      "toType": "company",
+      "relation": "owns",
+      "claim": "WPP owned Hill & Knowlton and in January 2024 announced its merger with BCW to form Burson, within which Hill & Knowlton continues as a distinct brand.",
+      "status": "documented",
+      "date": "2024-01-25",
+      "quote": "WPP unites BCW and Hill & Knowlton to create Burson",
+      "sources": [
+        { "url": "https://www.wpp.com/en/news/2024/01/wpp-unites-bcw-and-hill-knowlton-to-create-burson", "publisher": "WPP", "title": "WPP unites BCW and Hill & Knowlton to create Burson, a global leader built for a new era of communications", "date": "2024-01-25" }
+      ]
+    },
+    {
+      "to": "burson-marsteller",
+      "toName": "Burson-Marsteller",
+      "toType": "company",
+      "relation": "owns",
+      "claim": "WPP owned BCW, the successor of Burson-Marsteller, and merged it with Hill & Knowlton in 2024 into Burson, a name that honours Burson-Marsteller founder Harold Burson.",
+      "status": "reported",
+      "date": "2024-01-25",
+      "quote": "The name honors Harold Burson, the founder of Burson-Marsteller.",
+      "sources": [
+        { "url": "https://www.provokemedia.com/latest/article/hello-burson-wpp-merges-bcw-and-h-k-to-create-$1bn-pr-firm", "publisher": "PRovoke Media", "title": "Hello Burson: WPP merges BCW and H&K to create $1bn PR firm", "date": "2024-01-25" },
+        { "url": "https://www.wpp.com/en/news/2024/01/wpp-unites-bcw-and-hill-knowlton-to-create-burson", "publisher": "WPP", "title": "WPP unites BCW and Hill & Knowlton to create Burson, a global leader built for a new era of communications", "date": "2024-01-25" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site's hill-and-knowlton file states H&K 'was owned by WPP'; this is supported by WPP's own January 2024 release. The date WPP acquired Hill & Knowlton (and the 1980s acquisition history) was not researched.",
+    "The 2018 formation of BCW from Burson-Marsteller and Cohn & Wolfe was not confirmed from a WPP document in the sources opened; the connection to burson-marsteller rests on PRovoke's statement about the Burson name and WPP's description of BCW.",
+    "The National Smokers Alliance and Citizens for a Free Kuwait episodes predate the 2024 merger; no WPP document on those matters was opened."
+  ]
+}

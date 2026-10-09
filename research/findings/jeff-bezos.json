@@ -1,0 +1,109 @@
+{
+  "entity": "jeff-bezos",
+  "name": "Jeff Bezos",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Jeff Bezos founded Amazon in 1994 after leaving the investment firm D.E. Shaw, where he had been named its youngest senior vice president. He stepped down as Amazon's chief executive on July 5, 2021, becoming executive chairman, and remained the company's largest individual shareholder. He bought The Washington Post and affiliated publications in 2013. Press reports named Bezos and Yuri Milner as backers of Altos Labs, a longevity company that launched in January 2022 with $3 billion in committed funding, though the company confirmed only ARCH Venture Partners as an investor.",
+    "sources": [
+      { "url": "https://www.britannica.com/money/Jeff-Bezos", "publisher": "Britannica Money", "title": "Jeff Bezos" },
+      { "url": "https://www.bloomberg.com/news/articles/2021-05-26/amazon-s-andy-jassy-will-become-ceo-on-july-5-bezos-says", "publisher": "Bloomberg", "title": "Amazon's Andy Jassy Will Become CEO on July 5, Bezos Says", "date": "2021-05-26" },
+      { "url": "https://www.bisnow.com/news/national/life-sciences/disease-reversing-biotech-startup-altos-111574", "publisher": "Bisnow", "title": "'Disease-Reversing' Biotech Startup Altos Launches With $3B War Chest In 3 Cities", "date": "2022-01" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Britannica records that Bezos was named senior vice president of the investment firm D.E. Shaw, the firm's youngest, and that in 1994 he quit D.E. Shaw and moved to Seattle to open an online bookstore.",
+      "status": "reported",
+      "date": "1994",
+      "quote": "in 1994 he quit D.E. Shaw and moved to Seattle, Washington, to open a virtual bookstore",
+      "sources": [
+        { "url": "https://www.britannica.com/money/Jeff-Bezos", "publisher": "Britannica Money", "title": "Jeff Bezos" }
+      ]
+    },
+    {
+      "claim": "Bezos said at Amazon's May 2021 shareholder meeting that Andy Jassy would become CEO on July 5, 2021, with Bezos becoming executive chairman to focus on new projects. He remained the company's largest individual shareholder and chairman of the board.",
+      "status": "reported",
+      "date": "2021-07-05",
+      "quote": "Bezos, who founded the world's largest online retailer in 1994, will become executive chairman and focus on new projects and initiatives.",
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2021-05-26/amazon-s-andy-jassy-will-become-ceo-on-july-5-bezos-says", "publisher": "Bloomberg", "title": "Amazon's Andy Jassy Will Become CEO on July 5, Bezos Says", "date": "2021-05-26" },
+        { "url": "https://onlinemarketing.de/unternehmensnews/jeff-bezos-ruecktritt-5-juli-amazon-ceo-andy-jassy-start", "publisher": "OnlineMarketing.de", "title": "Jeff Bezos Rücktritt: Andy Jassy startet am 5. Juli als Amazon-CEO", "date": "2021" }
+      ]
+    },
+    {
+      "claim": "Britannica records that Bezos purchased The Washington Post and affiliated publications in 2013.",
+      "status": "reported",
+      "date": "2013",
+      "quote": "the purchase covered The Washington Post and affiliated publications",
+      "sources": [
+        { "url": "https://www.britannica.com/money/Jeff-Bezos", "publisher": "Britannica Money", "title": "Jeff Bezos" }
+      ]
+    },
+    {
+      "claim": "Altos Labs launched in January 2022 with $3 billion in committed funding and institutes in Redwood City, San Diego and Cambridge, England, with Hal Barron as CEO and Rick Klausner as chief scientist. Its announcement did not name Bezos or Milner; press reports described Bezos as a rumored early investor and said an investment vehicle held for the benefit of Milner's Breakthrough Foundation was an early investor, while the company said it was only confirming ARCH Venture Partners.",
+      "status": "reported",
+      "date": "2022-01",
+      "quote": "We are only confirming ARCH as an investor at this time",
+      "sources": [
+        { "url": "https://www.bisnow.com/news/national/life-sciences/disease-reversing-biotech-startup-altos-111574", "publisher": "Bisnow", "title": "'Disease-Reversing' Biotech Startup Altos Launches With $3B War Chest In 3 Cities", "date": "2022-01" },
+        { "url": "https://thepharmaletter.com/biotechnology/altos-labs-launches-with-3b-financing-and-hal-barron-as-ceo", "publisher": "The Pharma Letter", "title": "Altos Labs launches with $3B financing and Hal Barron as CEO", "date": "2022-01" },
+        { "url": "https://www.sfexaminer.com/archives/local-startup-raises-billions-of-dollars-to-reverse-the-aging-process/article_6a4f776e-4920-51fa-994b-fd25b8581b9a.html", "publisher": "San Francisco Examiner", "title": "Local startup raises billions of dollars to reverse the aging process", "date": "2022-01" }
+      ]
+    },
+    {
+      "claim": "In early 2013 the CIA awarded Amazon Web Services a contract worth about $600 million to build a private cloud for the intelligence community; after an IBM protest partly sustained by the GAO, the Court of Federal Claims ruled for AWS on October 7, 2013.",
+      "status": "reported",
+      "date": "2013-10-07",
+      "quote": "AWS secured the four-year contract worth about $600m from CIA to build a private cloud for its intelligence community.",
+      "sources": [
+        { "url": "https://www.techmonitor.ai/?p=118762", "publisher": "Tech Monitor", "title": "AWS CIA cloud contract coverage", "date": "2013" },
+        { "url": "https://nextgov.com/modernization/2013/10/judge-rules-for-amazon-web-services-over-ibm-in-cia-cloud-case/211401", "publisher": "Nextgov", "title": "Judge rules for Amazon Web Services over IBM in CIA cloud case", "date": "2013-10" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "amazon",
+      "relation": "founded",
+      "claim": "Bezos founded Amazon in 1994, was its chief executive until July 5, 2021, and then became executive chairman while remaining the largest individual shareholder.",
+      "status": "reported",
+      "date": "1994",
+      "quote": "Bezos, who founded the world's largest online retailer in 1994, will become executive chairman",
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2021-05-26/amazon-s-andy-jassy-will-become-ceo-on-july-5-bezos-says", "publisher": "Bloomberg", "title": "Amazon's Andy Jassy Will Become CEO on July 5, Bezos Says", "date": "2021-05-26" },
+        { "url": "https://www.britannica.com/money/Jeff-Bezos", "publisher": "Britannica Money", "title": "Jeff Bezos" }
+      ]
+    },
+    {
+      "to": "Altos Labs",
+      "toName": "Altos Labs",
+      "toType": "company",
+      "relation": "invested in",
+      "claim": "Press reports named Bezos as an early investor in Altos Labs, which launched in January 2022 with $3 billion; the company did not confirm him and said it was only confirming ARCH Venture Partners.",
+      "status": "reported",
+      "date": "2022-01",
+      "quote": "long been rumored to be a significant early investor",
+      "sources": [
+        { "url": "https://www.bisnow.com/news/national/life-sciences/disease-reversing-biotech-startup-altos-111574", "publisher": "Bisnow", "title": "'Disease-Reversing' Biotech Startup Altos Launches With $3B War Chest In 3 Cities", "date": "2022-01" },
+        { "url": "https://thepharmaletter.com/biotechnology/altos-labs-launches-with-3b-financing-and-hal-barron-as-ceo", "publisher": "The Pharma Letter", "title": "Altos Labs launches with $3B financing and Hal Barron as CEO", "date": "2022-01" }
+      ]
+    },
+    {
+      "to": "andy-jassy",
+      "relation": "other",
+      "claim": "Bezos handed the Amazon chief executive role to Andy Jassy on July 5, 2021 and became executive chairman.",
+      "status": "reported",
+      "date": "2021-07-05",
+      "quote": "Jassy, who now runs the Amazon Web Services cloud computing division, was named the company's next CEO in February.",
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2021-05-26/amazon-s-andy-jassy-will-become-ceo-on-july-5-bezos-says", "publisher": "Bloomberg", "title": "Amazon's Andy Jassy Will Become CEO on July 5, Bezos Says", "date": "2021-05-26" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (Post-Human Resources): Bezos and Yuri Milner were reported investors in Altos Labs ($3B, 2022). Supported as press reports; the company itself confirmed only ARCH. The site's label 'reported' matches the evidence.",
+    "Site claim (Crash Conduits): Bezos's maternal grandfather Lawrence Preston Gise worked at ARPA in 1958 and later ran the AEC's Albuquerque operations. Not researched; the page itself says no documented link connects Gise's career to the CIA award.",
+    "Site claim: Bezos was a senior vice president at D.E. Shaw. Supported by Britannica; sources differ on the year he was named (1990 versus about 1994).",
+    "The $250 million price for The Washington Post and the 2000 founding of Blue Origin appeared only in Wikipedia-derived results and were not recorded."
+  ]
+}

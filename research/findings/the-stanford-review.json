@@ -1,0 +1,87 @@
+{
+  "entity": "the-stanford-review",
+  "name": "The Stanford Review",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The Stanford Review is a conservative and libertarian student newspaper at Stanford University, founded in 1987 by Peter Thiel and Norman Book. Thiel, who founded the paper at the end of his sophomore year, was its first editor-in-chief through his junior and senior years. The paper's own history notes that an earlier Stanford Review ceased to exist in 1984 and that the current paper has no continuity with it. Later editors-in-chief included Ken Howery and David Sacks, who went on to co-found and run PayPal with Thiel. Fortune reports that a 1990s lawsuit by Stanford students, some of them Review writers, ultimately compelled the university to overturn its campus speech code.",
+    "sources": [
+      { "url": "https://stanfordreview.org/a-brief-and-non-exhaustive-history-of-the-stanford-review/", "publisher": "The Stanford Review", "title": "A Brief and Non-Exhaustive History of The Stanford Review" },
+      { "url": "https://fortune.com/2023/08/24/peter-thiel-student-newspaper-stanford-review", "publisher": "Fortune", "title": "Peter Thiel launched a student newspaper at Stanford. Its alumni now run Silicon Valley", "date": "2023-08-24" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The Stanford Review's own history page says a group of undergraduates founded the paper in 1987 to spark campus debate by presenting alternative viewpoints, and names Peter Thiel as its first editor-in-chief. Thiel's first editor's note described the goals as presenting alternative views on current issues in the Stanford community and creating a forum for rational debate.",
+      "status": "documented",
+      "date": "1987",
+      "quote": "presenting alternative views on a wide range of current issues in the Stanford community and creating a forum for rational debate",
+      "sources": [
+        { "url": "https://stanfordreview.org/a-brief-and-non-exhaustive-history-of-the-stanford-review/", "publisher": "The Stanford Review", "title": "A Brief and Non-Exhaustive History of The Stanford Review" },
+        { "url": "https://stanfordreview.org/editors-note-a-needed-part-of-the-campus-discussion/", "publisher": "The Stanford Review", "title": "Editor's Note: A Needed Part of the Campus Discussion" }
+      ]
+    },
+    {
+      "claim": "Stanford Politics reports that Thiel founded The Review at the end of his sophomore year and was the paper's editor-in-chief in his junior and senior years; Fortune identifies Norman Book as co-founder.",
+      "status": "reported",
+      "date": "1987",
+      "quote": "Having founded The Review at the end of his sophomore year, Thiel was also the paper's editor-in-chief his junior and senior years",
+      "sources": [
+        { "url": "https://stanfordpolitics.org/?p=3875", "publisher": "Stanford Politics", "title": "Peter Thiel and The Stanford Review" },
+        { "url": "https://fortune.com/2023/08/24/peter-thiel-student-newspaper-stanford-review", "publisher": "Fortune", "title": "Peter Thiel launched a student newspaper at Stanford. Its alumni now run Silicon Valley", "date": "2023-08-24" }
+      ]
+    },
+    {
+      "claim": "The paper's site states that the first Stanford Review ceased to exist in 1984 and that the current publication has no continuity with it.",
+      "status": "documented",
+      "date": "1984",
+      "quote": "the first Stanford Review ceased to exist in 1984",
+      "sources": [
+        { "url": "https://stanfordreview.org/the-struggles-and-successes-of-a-disappeared-stanford-review/", "publisher": "The Stanford Review", "title": "The Struggles and Successes of a Disappeared Stanford Review" }
+      ]
+    },
+    {
+      "claim": "Fortune reports that a lawsuit filed in the 1990s by Stanford students, some of them Review writers, ultimately compelled the university to overturn its speech code intended to stop bigoted speech on campus.",
+      "status": "reported",
+      "date": "1990s",
+      "quote": "a lawsuit filed in the 1990s by Stanford students, some of them Review writers, ultimately compelled the university to overturn its speech code",
+      "sources": [
+        { "url": "https://fortune.com/2023/08/24/peter-thiel-student-newspaper-stanford-review", "publisher": "Fortune", "title": "Peter Thiel launched a student newspaper at Stanford. Its alumni now run Silicon Valley", "date": "2023-08-24" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "peter-thiel",
+      "toName": "Peter Thiel",
+      "toType": "person",
+      "relation": "founded",
+      "reverse": true,
+      "claim": "Peter Thiel founded The Stanford Review in 1987 with Norman Book and was its first editor-in-chief.",
+      "status": "documented",
+      "date": "1987",
+      "quote": "names Thiel as the first editor-in-chief",
+      "sources": [
+        { "url": "https://stanfordreview.org/a-brief-and-non-exhaustive-history-of-the-stanford-review/", "publisher": "The Stanford Review", "title": "A Brief and Non-Exhaustive History of The Stanford Review" },
+        { "url": "https://fortune.com/2023/08/24/peter-thiel-student-newspaper-stanford-review", "publisher": "Fortune", "title": "Peter Thiel launched a student newspaper at Stanford. Its alumni now run Silicon Valley", "date": "2023-08-24" }
+      ]
+    },
+    {
+      "to": "stanford",
+      "toName": "Stanford",
+      "toType": "university",
+      "relation": "other",
+      "claim": "The Stanford Review is a student publication at Stanford University; students including Review writers sued the university in the 1990s over its speech code.",
+      "status": "reported",
+      "date": "1990s",
+      "quote": "a lawsuit filed in the 1990s by Stanford students, some of them Review writers",
+      "sources": [
+        { "url": "https://fortune.com/2023/08/24/peter-thiel-student-newspaper-stanford-review", "publisher": "Fortune", "title": "Peter Thiel launched a student newspaper at Stanford. Its alumni now run Silicon Valley", "date": "2023-08-24" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The peter-thiel file records (from The New Republic's summary of Max Chafkin's biography) that the Review was started with grants from the Intercollegiate Studies Institute; no grant amounts or primary record were found and this was not re-verified.",
+    "The Ken Howery and David Sacks editorships are recorded in their own files; they were not duplicated here.",
+    "The speech-code lawsuit (Corry v. Stanford, 1995) was not opened; the claim rests on Fortune's description."
+  ]
+}

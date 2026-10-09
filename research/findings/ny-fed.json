@@ -1,0 +1,302 @@
+{
+  "entity": "ny-fed",
+  "name": "NY Fed",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The Federal Reserve Bank of New York is the Federal Reserve System's New York district bank; its president is a permanent member and vice chairman of the Federal Open Market Committee. In September 1998 its president, William J. McDonough, convened the creditors of Long-Term Capital Management, and fourteen firms recapitalized the fund with about $3.6 billion of private money. In 2008 the New York Fed was senior lender to the Maiden Lane vehicles created for the Bear Stearns and AIG rescues, lending $28.8 billion to Maiden Lane LLC and about $24.3 billion to Maiden Lane III; both were repaid with interest in June 2012. GAO found in 2011 that most of the emergency-program vendor contracts awarded by the Reserve Banks, primarily the New York Fed, were awarded noncompetitively.",
+    "sources": [
+      {
+        "url": "https://www.federalreservehistory.org/essays/ltcm-near-failure",
+        "publisher": "Federal Reserve History",
+        "title": "Near Failure of Long-Term Capital Management"
+      },
+      {
+        "url": "https://www.newyorkfed.org/markets/maidenlane.html",
+        "publisher": "Federal Reserve Bank of New York",
+        "title": "Maiden Lane Transactions"
+      },
+      {
+        "url": "https://www.newyorkfed.org/newsevents/news/markets/2012/an120614",
+        "publisher": "Federal Reserve Bank of New York",
+        "title": "New York Fed Announces Full Repayment of its Loans to Maiden Lane LLC and Maiden Lane III LLC",
+        "date": "2012-06-14"
+      },
+      {
+        "url": "https://www.gao.gov/products/gao-11-696",
+        "publisher": "U.S. Government Accountability Office",
+        "title": "Federal Reserve System: Opportunities Exist to Strengthen Policies and Processes for Managing Emergency Assistance (GAO-11-696)",
+        "date": "2011-07-21"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "New York Fed president William J. McDonough testified to the House Banking Committee on October 1, 1998 that the LTCM rescue was a private-sector solution to a private-sector problem in which not one penny of public money was spent or committed; Chairman Greenspan testified the same day that no Federal Reserve funds were put at risk and no firms were pressured to participate.",
+      "status": "words",
+      "date": "1998-10-01",
+      "quote": "no Federal Reserve funds were put at risk, no promises were made by the Federal Reserve, and no individual firms were pressured to participate",
+      "sources": [
+        {
+          "url": "https://www.newyorkfed.org/newsevents/speeches/1998/mcd981001",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Statement by William J. McDonough before the House Committee on Banking and Financial Services, October 1, 1998",
+          "date": "1998-10-01"
+        },
+        {
+          "url": "https://www.federalreserve.gov/boarddocs/testimony/1998/19981001.htm",
+          "publisher": "Federal Reserve Board",
+          "title": "Testimony of Chairman Alan Greenspan: Private-sector refinancing of the large hedge fund, Long-Term Capital Management",
+          "date": "1998-10-01"
+        }
+      ]
+    },
+    {
+      "claim": "According to Federal Reserve History, fourteen firms put up $3.625 billion in capital in exchange for 90 percent of the ownership of Long-Term Capital Management, with the agreement reached on September 23, 1998 and funds contributed on September 28, 1998; LTCM returned the remaining balance of the consortium's investment on December 16, 1999.",
+      "status": "documented",
+      "date": "1998-09-28",
+      "quote": "fourteen firms put up $3.625 billion in capital in exchange for 90 percent of the fund's ownership",
+      "sources": [
+        {
+          "url": "https://www.federalreservehistory.org/essays/ltcm-near-failure",
+          "publisher": "Federal Reserve History",
+          "title": "Near Failure of Long-Term Capital Management"
+        },
+        {
+          "url": "https://www.gao.gov/assets/ggd-00-3.pdf",
+          "publisher": "U.S. General Accounting Office",
+          "title": "Long-Term Capital Management: Regulators Need to Focus Greater Attention on Systemic Risk (GGD-00-3)",
+          "date": "1999"
+        }
+      ]
+    },
+    {
+      "claim": "The Federal Reserve Board authorized the New York Fed in March 2008 to lend to Maiden Lane LLC to buy roughly $30 billion of Bear Stearns assets; the New York Fed lent $28.8 billion, secured by a first-priority interest in the LLC's assets, with JPMorgan Chase lending $1.1 billion on a subordinated basis.",
+      "status": "documented",
+      "date": "2008-06-26",
+      "quote": "The New York Reserve Bank lent $28.8 billion, and JPMorgan Chase lent $1.1 billion.",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/regreform/reform-bearstearns.htm",
+          "publisher": "Federal Reserve Board",
+          "title": "Bear Stearns, JPMorgan Chase, and Maiden Lane LLC"
+        },
+        {
+          "url": "https://www.newyorkfed.org/markets/maidenlane.html",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Maiden Lane Transactions"
+        }
+      ]
+    },
+    {
+      "claim": "The New York Fed lent approximately $24.3 billion to Maiden Lane III LLC, which purchased $29.3 billion of multi-sector CDOs from AIG Financial Products' counterparties in exchange for termination of their credit default swaps; the Board had authorized lending of up to $30 billion.",
+      "status": "documented",
+      "date": "2008-11",
+      "quote": "Reserve authorized FRBNY to lend up to $30 billion to Maiden Lane III.",
+      "sources": [
+        {
+          "url": "https://www.newyorkfed.org/aboutthefed/aig",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Actions Related to AIG"
+        },
+        {
+          "url": "https://www.gao.gov/assets/files.gao.gov/assets/gao-10-475.pdf",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Update of Government Assistance Provided to AIG (GAO-10-475)",
+          "date": "2010"
+        }
+      ]
+    },
+    {
+      "claim": "SIGTARP concluded in November 2009 that the New York Fed's strategy for pursuing concessions from AIG's counterparties offered little opportunity for success, and that its refusal to use its leverage made the possibility of obtaining concessions extremely remote.",
+      "status": "documented",
+      "date": "2009-11-17",
+      "quote": "made the possibility of obtaining concessions from those counterparties extremely remote",
+      "sources": [
+        {
+          "url": "https://fraser.stlouisfed.org/title/factors-affecting-efforts-limit-payments-aig-counterparties-5111/fulltext",
+          "publisher": "SIGTARP (via FRASER, Federal Reserve Bank of St. Louis)",
+          "title": "Factors Affecting Efforts to Limit Payments to AIG Counterparties (SIGTARP-10-003)",
+          "date": "2009-11-17"
+        }
+      ]
+    },
+    {
+      "claim": "On June 14, 2012 the New York Fed announced that both Maiden Lane LLC and Maiden Lane III LLC had repaid their loans with interest; its records show Maiden Lane LLC's remaining securities were sold on September 18, 2018 for a net gain to the public of approximately $2.5 billion.",
+      "status": "documented",
+      "date": "2012-06-14",
+      "quote": "On June 14, 2012, Maiden Lane LLC and Maiden Lane III LLC repaid the loans made by the New York Fed, with interest.",
+      "sources": [
+        {
+          "url": "https://www.newyorkfed.org/newsevents/news/markets/2012/an120614",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "New York Fed Announces Full Repayment of its Loans to Maiden Lane LLC and Maiden Lane III LLC",
+          "date": "2012-06-14"
+        },
+        {
+          "url": "https://www.newyorkfed.org/markets/maidenlane.html",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Maiden Lane Transactions"
+        }
+      ]
+    },
+    {
+      "claim": "GAO reported in July 2011 that the Reserve Banks, primarily the New York Fed, awarded 103 contracts worth $659.4 million from 2008 through 2010 for emergency activities; most, including 8 of the 10 highest-value contracts, were awarded noncompetitively, and the New York Fed lacked written guidance on vendor conflict-of-interest protections.",
+      "status": "documented",
+      "date": "2011-07-21",
+      "quote": "The Reserve Banks, primarily FRBNY, awarded 103 contracts worth $659.4 million from 2008 through 2010 to help carry out their emergency activities.",
+      "sources": [
+        {
+          "url": "https://www.gao.gov/products/gao-11-696",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Federal Reserve System: Opportunities Exist to Strengthen Policies and Processes for Managing Emergency Assistance (GAO-11-696)",
+          "date": "2011-07-21"
+        }
+      ]
+    },
+    {
+      "claim": "The New York Fed used BlackRock Solutions as investment manager to dispose of the Maiden Lane II securities through a competitive sales process and to sell the remaining Maiden Lane LLC assets.",
+      "status": "documented",
+      "date": "2011-10",
+      "quote": "the New York Fed, through BlackRock Solutions, would continue selling the remaining assets as market conditions warrant",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/monetarypolicy/clbs-lending-in-support-of-specific-institutions-201110.htm",
+          "publisher": "Federal Reserve Board",
+          "title": "CLBS Report, Lending in Support of Specific Institutions, October 2011",
+          "date": "2011-10"
+        },
+        {
+          "url": "https://www.newyorkfed.org/newsevents/news/markets/2012/an120614",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "New York Fed Announces Full Repayment of its Loans to Maiden Lane LLC and Maiden Lane III LLC",
+          "date": "2012-06-14"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "william-j-mcdonough",
+      "toName": "William J. McDonough",
+      "toType": "person",
+      "relation": "executive of",
+      "reverse": true,
+      "claim": "William J. McDonough was president of the Federal Reserve Bank of New York in 1998 and testified to Congress on the bank's role in convening LTCM's creditors.",
+      "status": "documented",
+      "date": "1998-10-01",
+      "quote": "Statement by William J. McDonough",
+      "sources": [
+        {
+          "url": "https://www.newyorkfed.org/newsevents/speeches/1998/mcd981001",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Statement by William J. McDonough before the House Committee on Banking and Financial Services, October 1, 1998",
+          "date": "1998-10-01"
+        },
+        {
+          "url": "https://www.federalreservehistory.org/essays/ltcm-near-failure",
+          "publisher": "Federal Reserve History",
+          "title": "Near Failure of Long-Term Capital Management"
+        }
+      ]
+    },
+    {
+      "to": "timothy-geithner",
+      "toName": "Timothy Geithner",
+      "toType": "person",
+      "relation": "executive of",
+      "reverse": true,
+      "claim": "Timothy Geithner became the ninth president and chief executive of the Federal Reserve Bank of New York on November 17, 2003 and served until becoming Treasury Secretary in January 2009.",
+      "status": "documented",
+      "date": "2003-11-17",
+      "quote": "New York Fed Names Timothy F. Geithner President",
+      "sources": [
+        {
+          "url": "https://www.newyorkfed.org/newsevents/news/aboutthefed/2003/oa031015",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "New York Fed Names Timothy F. Geithner President",
+          "date": "2003-10-15"
+        },
+        {
+          "url": "https://home.treasury.gov/about/history/prior-secretaries/timothy-f-geithner-2009-2013",
+          "publisher": "U.S. Department of the Treasury",
+          "title": "Timothy F. Geithner (2009-2013)"
+        }
+      ]
+    },
+    {
+      "to": "maiden-lane",
+      "toName": "Maiden Lane",
+      "toType": "company",
+      "relation": "funded",
+      "claim": "The New York Fed was senior lender to Maiden Lane LLC ($28.8 billion) and Maiden Lane III LLC (about $24.3 billion), the vehicles created in the Bear Stearns and AIG rescues.",
+      "status": "documented",
+      "date": "2008",
+      "quote": "The New York Reserve Bank lent $28.8 billion, and JPMorgan Chase lent $1.1 billion.",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/regreform/reform-bearstearns.htm",
+          "publisher": "Federal Reserve Board",
+          "title": "Bear Stearns, JPMorgan Chase, and Maiden Lane LLC"
+        },
+        {
+          "url": "https://www.newyorkfed.org/aboutthefed/aig",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Actions Related to AIG"
+        }
+      ]
+    },
+    {
+      "to": "blackrock",
+      "toName": "BlackRock",
+      "toType": "company",
+      "relation": "contracted with",
+      "claim": "The New York Fed engaged BlackRock Solutions as investment manager for the Maiden Lane portfolios.",
+      "status": "documented",
+      "date": "2011-10",
+      "quote": "its investment manager, BlackRock Solutions",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/monetarypolicy/clbs-lending-in-support-of-specific-institutions-201110.htm",
+          "publisher": "Federal Reserve Board",
+          "title": "CLBS Report, Lending in Support of Specific Institutions, October 2011",
+          "date": "2011-10"
+        },
+        {
+          "url": "https://www.newyorkfed.org/newsevents/news/markets/2012/an120614",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "New York Fed Announces Full Repayment of its Loans to Maiden Lane LLC and Maiden Lane III LLC",
+          "date": "2012-06-14"
+        }
+      ]
+    },
+    {
+      "to": "aig",
+      "toName": "AIG",
+      "toType": "company",
+      "relation": "funded",
+      "claim": "The New York Fed financed Maiden Lane II and III to relieve AIG's securities-lending and credit-default-swap liabilities as part of the federal assistance to AIG.",
+      "status": "documented",
+      "date": "2008-11",
+      "quote": "In exchange, the counterparties agreed to terminate the swaps, which were a significant source of AIG's liquidity problems.",
+      "sources": [
+        {
+          "url": "https://www.gao.gov/assets/files.gao.gov/assets/gao-10-475.pdf",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Update of Government Assistance Provided to AIG (GAO-10-475)",
+          "date": "2010"
+        },
+        {
+          "url": "https://www.newyorkfed.org/aboutthefed/aig",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Actions Related to AIG"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (LTCM entry) that the New York Fed brokered a $3.625 billion private recapitalization with no public money: supported by Federal Reserve History and the McDonough and Greenspan testimony.",
+    "Site claim that LTCM held over $1.25 trillion in notional derivatives and was leveraged roughly 25-to-1: not covered by the sources returned; GAO GGD-00-3 may contain these figures.",
+    "Site claim that the Fed 'lacked the software to value toxic mortgage derivatives' and so hired BlackRock: not supported by any source returned; the New York Fed's own pages describe BlackRock Solutions as investment manager without giving that rationale.",
+    "Site claim of 'classified Fed contracts' shutting out congressional oversight: not supported; GAO reviewed the contracts in GAO-11-696 and the New York Fed publishes a vendor information archive."
+  ]
+}

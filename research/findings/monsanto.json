@@ -1,0 +1,95 @@
+{
+  "entity": "monsanto",
+  "name": "Monsanto",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Monsanto Company was a U.S. agricultural biotechnology and seed company. In May 2008 the ETC Group's report 'Patenting the Climate Genes' counted 532 patent documents in 55 patent families filed by Monsanto, BASF, Bayer, Syngenta, DuPont, Dow and biotech partners on genes for tolerance to drought, heat, flood, cold and salt, with Monsanto and BASF, which had announced a $1.5 billion research collaboration in 2007, holding 27 of the 55 families between them. Bayer completed its acquisition of Monsanto on June 7, 2018 at $128 per share, after conditional approval from the U.S. Department of Justice that required divestments to BASF; Monsanto's shares were delisted and the Monsanto name was dropped.",
+    "sources": [
+      { "url": "https://etcgroup.org/sites/www.etcgroup.org/files/publication/687/03/etcgroupclimategenesfinal05_08.pdf", "publisher": "ETC Group", "title": "Patenting the 'Climate Genes'... and Capturing the Climate Agenda (Communiqué 99)", "date": "2008-05" },
+      { "url": "https://www.bayer.com/media/en-us/bayer-closes-monsanto-acquisition/", "publisher": "Bayer", "title": "Bayer closes Monsanto acquisition", "date": "2018-06-07" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The ETC Group's May 2008 Communiqué 99, 'Patenting the Climate Genes', reported that BASF, Monsanto, Bayer, Syngenta, DuPont and biotech partners had filed 532 patent documents, comprising 55 patent families, on so-called climate-ready genes at patent offices around the world; a list of the 55 families was appended to the report.",
+      "status": "reported",
+      "date": "2008-05",
+      "quote": "BASF, Monsanto, Bayer, Syngenta, Dupont and biotech partners have filed 532 patent documents (a total of 55 patent families) on so-called \"climate ready\" genes at patent offices around the world",
+      "sources": [
+        { "url": "https://etcgroup.org/sites/www.etcgroup.org/files/publication/687/03/etcgroupclimategenesfinal05_08.pdf", "publisher": "ETC Group", "title": "Patenting the 'Climate Genes'... and Capturing the Climate Agenda (Communiqué 99)", "date": "2008-05" },
+        { "url": "https://etcgroup.org/node/688", "publisher": "ETC Group", "title": "News release: Patenting the Climate Genes", "date": "2008-05-12" }
+      ]
+    },
+    {
+      "claim": "Press coverage of the ETC report said Monsanto and BASF, which had announced a $1.5 billion collaboration in 2007 to develop new genetically modified crops, had between them filed patents for 27 of the 55 families; a Monsanto spokeswoman said the companies deserved credit for developing crops that can survive climate change.",
+      "status": "reported",
+      "date": "2008-05",
+      "sources": [
+        { "url": "https://grain.org/en/article/2238-firms-seek-patents-on-climate-ready-altered-crops", "publisher": "GRAIN (reprint of press coverage)", "title": "Firms seek patents on 'climate ready' altered crops", "date": "2008-05" },
+        { "url": "https://enn.com/articles/37358", "publisher": "Environmental News Network", "title": "Biotech Giants Demand a High Price for Saving the Planet", "date": "2008-05" }
+      ]
+    },
+    {
+      "claim": "Bayer announced on June 7, 2018 that it had completed the acquisition of Monsanto, paying Monsanto shareholders $128 per share; Monsanto's shares ceased trading on the New York Stock Exchange and Bayer became the sole owner of Monsanto Company.",
+      "status": "documented",
+      "date": "2018-06-07",
+      "quote": "Shares in the U.S. company will no longer be traded on the New York Stock Exchange, with Bayer now the sole owner of Monsanto Company.",
+      "sources": [
+        { "url": "https://www.bayer.com/media/en-us/bayer-closes-monsanto-acquisition/", "publisher": "Bayer", "title": "Bayer closes Monsanto acquisition", "date": "2018-06-07" },
+        { "url": "https://www.sec.gov/Archives/edgar/data/0001110783/000119312518186836/d602943dex991.htm", "publisher": "U.S. Securities and Exchange Commission (Monsanto Form 8-K exhibit)", "title": "Monsanto Co Form 8-K, Exhibit 99.1: Bayer closes Monsanto acquisition", "date": "2018-06-07" }
+      ]
+    },
+    {
+      "claim": "The U.S. Department of Justice conditionally approved Bayer's acquisition of Monsanto on May 29, 2018, with a hold-separate order in place until Bayer completed divestments to BASF; those divestments closed on August 1 and 16, 2018, after which integration of Monsanto into Bayer began.",
+      "status": "documented",
+      "date": "2018-08-16",
+      "sources": [
+        { "url": "https://www.bayer.com/sites/default/files/2020-04/bayer_ir2_18_entire%20(1).pdf", "publisher": "Bayer", "title": "Interim Report Second Quarter of 2018", "date": "2018-08" },
+        { "url": "https://www.bayer.com/media/en-us/bayer-closes-monsanto-acquisition/", "publisher": "Bayer", "title": "Bayer closes Monsanto acquisition", "date": "2018-06-07" }
+      ]
+    },
+    {
+      "claim": "The total cost of the acquisition was reported at about $63 billion including Monsanto's debt; Bayer first announced its intention to acquire Monsanto in May 2016 and retained the Bayer name, with Monsanto ceasing to be a company name.",
+      "status": "reported",
+      "date": "2018-06",
+      "sources": [
+        { "url": "https://www.pharmtech.com/view/bayer-completes-monsanto-acquisition-63-billion-0", "publisher": "Pharmaceutical Technology", "title": "Bayer Completes Monsanto Acquisition for $63 Billion", "date": "2018-06-13" },
+        { "url": "https://www.bayer.com/media/en-us/bayer-completes-biggest-acquisition-in-its-history/", "publisher": "Bayer", "title": "Bayer completes biggest acquisition in its history", "date": "2018-06" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "bayer",
+      "toName": "Bayer",
+      "toType": "company",
+      "relation": "owns",
+      "reverse": true,
+      "claim": "Bayer completed its acquisition of Monsanto on June 7, 2018 at $128 per share and became its sole owner.",
+      "status": "documented",
+      "date": "2018-06-07",
+      "sources": [
+        { "url": "https://www.bayer.com/media/en-us/bayer-closes-monsanto-acquisition/", "publisher": "Bayer", "title": "Bayer closes Monsanto acquisition", "date": "2018-06-07" },
+        { "url": "https://www.sec.gov/Archives/edgar/data/0001110783/000119312518186836/d602943dex991.htm", "publisher": "U.S. Securities and Exchange Commission (Monsanto Form 8-K exhibit)", "title": "Monsanto Co Form 8-K, Exhibit 99.1: Bayer closes Monsanto acquisition", "date": "2018-06-07" }
+      ]
+    },
+    {
+      "to": "basf",
+      "toName": "BASF",
+      "toType": "company",
+      "relation": "partnered with",
+      "claim": "Monsanto and BASF announced a $1.5 billion collaboration in 2007 to develop genetically modified crops and together held 27 of the 55 climate-gene patent families counted by ETC Group in 2008; BASF later acquired the businesses Bayer divested as a condition of the Monsanto acquisition.",
+      "status": "reported",
+      "date": "2008",
+      "sources": [
+        { "url": "https://grain.org/en/article/2238-firms-seek-patents-on-climate-ready-altered-crops", "publisher": "GRAIN (reprint of press coverage)", "title": "Firms seek patents on 'climate ready' altered crops", "date": "2008-05" },
+        { "url": "https://www.bayer.com/sites/default/files/2020-04/bayer_ir2_18_entire%20(1).pdf", "publisher": "Bayer", "title": "Interim Report Second Quarter of 2018", "date": "2018-08" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim that BASF, Monsanto, Bayer, Syngenta, DuPont and partners filed 532 patent documents (55 families) and that BASF and Monsanto held 27 of the 55 is supported by the ETC Group report and press coverage of it; the site's 'reported' status is apt since ETC is an advocacy group and its count has not been independently verified.",
+    "Bayer's own June 7, 2018 release does not state the $63 billion total; that figure comes from trade-press coverage.",
+    "Dow is listed by ETC among the filers but is not named on the site entry."
+  ]
+}

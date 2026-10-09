@@ -1,0 +1,104 @@
+{
+  "entity": "alec",
+  "name": "ALEC",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The American Legislative Exchange Council (ALEC) is a membership organisation of state legislators and corporations that drafts model legislation. In October 2012 its board of state legislators approved the Electricity Freedom Act, a model bill written with the Heartland Institute to repeal state renewable-energy standards; the 2013 repeal push did not succeed in any state, and ALEC later adopted model bills to phase the standards out instead. In September 2014 Google's chairman Eric Schmidt said on NPR's Diane Rehm Show that funding ALEC had been a mistake because of its position on climate change, and Google said it would not renew its membership; ExxonMobil ended its ALEC membership in 2018 after a climate-policy dispute, and American Electric Power left in 2015.",
+    "sources": [
+      { "url": "https://www.prwatch.org/node/12075", "publisher": "Center for Media and Democracy (PRWatch)", "title": "ALEC's Electricity Freedom Act", "date": "2012" },
+      { "url": "https://www.bloomberg.com/news/articles/2014-09-23/google-cuts-ties-with-alec-over-climate-change-lying", "publisher": "Bloomberg", "title": "Google Cuts Ties With Right-Wing Group: 'They're Just Literally Lying'", "date": "2014-09-23" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In October 2012 ALEC's Board of State Legislators approved model text for the Electricity Freedom Act, which describes state renewable-energy standards as 'essentially a tax on consumers of electricity' and would repeal them; at the time 29 states and the District of Columbia had binding renewable standards.",
+      "status": "documented",
+      "date": "2012-10",
+      "quote": "essentially a tax on consumers of electricity",
+      "sources": [
+        { "url": "https://www.prwatch.org/node/12075", "publisher": "Center for Media and Democracy (PRWatch)", "title": "ALEC's Electricity Freedom Act", "date": "2012" },
+        { "url": "https://www.pressherald.com/?p=225450", "publisher": "Portland Press Herald (Washington Post report)", "title": "Climate skeptic group works to reverse renewable energy mandates", "date": "2012-11" }
+      ]
+    },
+    {
+      "claim": "The Heartland Institute joined with ALEC to write the model legislation to reverse state renewable mandates; Heartland's James Taylor said he had persuaded most of ALEC's state legislators and corporate members to push for repeal on economic grounds.",
+      "status": "reported",
+      "date": "2012-11",
+      "sources": [
+        { "url": "https://www.pressherald.com/?p=225450", "publisher": "Portland Press Herald (Washington Post report)", "title": "Climate skeptic group works to reverse renewable energy mandates", "date": "2012-11" },
+        { "url": "https://seia.org/?p=2985", "publisher": "Solar Energy Industries Association", "title": "Climate skeptic group works to reverse renewable energy mandates", "date": "2012-11" }
+      ]
+    },
+    {
+      "claim": "ALEC's spring 2013 push to repeal state renewable energy standards did not repeal any state standard, according to a Union of Concerned Scientists analysis, and ALEC subsequently adopted model bills in late 2013 to phase out or weaken the standards rather than repeal them outright.",
+      "status": "reported",
+      "date": "2013",
+      "sources": [
+        { "url": "https://www.ecowatch.com/alec-reinstates-attack-on-renewable-energy-policies-1881784241.html", "publisher": "EcoWatch", "title": "ALEC Reinstates Attack On Renewable Energy Policies", "date": "2013" },
+        { "url": "https://www.greentechmedia.com/amp/article/solar-industry-and-renewables-face-alec-a-powerful-foe", "publisher": "Greentech Media", "title": "Solar Industry and Renewables Face ALEC, A Powerful Foe" }
+      ]
+    },
+    {
+      "claim": "On September 22, 2014 Google chairman Eric Schmidt, answering a caller on NPR's Diane Rehm Show, said Google had funded ALEC in support of something unrelated, that doing so was a mistake, and that those opposing climate action were 'just literally lying'; Google confirmed it would not renew its ALEC membership when it expired at the end of the year.",
+      "status": "words",
+      "date": "2014-09-22",
+      "quote": "they're just, they're just literally lying",
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2014-09-23/google-cuts-ties-with-alec-over-climate-change-lying", "publisher": "Bloomberg", "title": "Google Cuts Ties With Right-Wing Group: 'They're Just Literally Lying'", "date": "2014-09-23" },
+        { "url": "https://www.business-humanrights.org/en/google-quits-alec-says-link-with-climate-skeptics-wrong", "publisher": "Business & Human Rights Resource Centre", "title": "Google quits ALEC, says link with climate skeptics wrong", "date": "2014-09" }
+      ]
+    },
+    {
+      "claim": "ExxonMobil discontinued its ALEC membership when it expired at the end of June 2018, following a dispute over ALEC's climate policy; company spokesman Scott Silvestri confirmed the decision.",
+      "status": "reported",
+      "date": "2018-07",
+      "sources": [
+        { "url": "https://www.commoncause.org/media/exxonmobil-quits-alec-over-climate-change-disagreement/", "publisher": "Common Cause", "title": "ExxonMobil Quits ALEC Over Climate Change Disagreement", "date": "2018-07" },
+        { "url": "https://www.ucs.org/about/news/exxonmobil-departure-climate-denying-alec-long-overdue", "publisher": "Union of Concerned Scientists", "title": "ExxonMobil Departure From Climate-Denying ALEC Long Overdue", "date": "2018-07" }
+      ]
+    },
+    {
+      "claim": "American Electric Power ended its ALEC membership in 2015, saying it had reviewed its memberships and decided to reallocate resources to working directly with states and stakeholders on issues such as the Clean Power Plan.",
+      "status": "reported",
+      "date": "2015",
+      "quote": "We reviewed our memberships and decided to reallocate resources to other areas of focus including working directly with the states and other stakeholder groups on issues like the Clean Power Plan.",
+      "sources": [
+        { "url": "https://www.utilitydive.com/news/aep-leaves-alec-to-focus-on-clean-power-plan-implementation/410494", "publisher": "Utility Dive", "title": "AEP leaves ALEC to focus on Clean Power Plan implementation", "date": "2015" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "google",
+      "toName": "Google",
+      "toType": "company",
+      "relation": "funded",
+      "reverse": true,
+      "claim": "Google funded ALEC as a member until 2014, when chairman Eric Schmidt called the funding a mistake over ALEC's climate position and Google said it would not renew its membership.",
+      "status": "words",
+      "date": "2014-09-22",
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2014-09-23/google-cuts-ties-with-alec-over-climate-change-lying", "publisher": "Bloomberg", "title": "Google Cuts Ties With Right-Wing Group: 'They're Just Literally Lying'", "date": "2014-09-23" },
+        { "url": "https://www.business-humanrights.org/en/google-quits-alec-says-link-with-climate-skeptics-wrong", "publisher": "Business & Human Rights Resource Centre", "title": "Google quits ALEC, says link with climate skeptics wrong", "date": "2014-09" }
+      ]
+    },
+    {
+      "to": "exxonmobil",
+      "toName": "ExxonMobil",
+      "toType": "company",
+      "relation": "other",
+      "claim": "ExxonMobil was an ALEC member until its membership expired at the end of June 2018, when it declined to renew after a climate-policy disagreement.",
+      "status": "reported",
+      "date": "2018-07",
+      "sources": [
+        { "url": "https://www.commoncause.org/media/exxonmobil-quits-alec-over-climate-change-disagreement/", "publisher": "Common Cause", "title": "ExxonMobil Quits ALEC Over Climate Change Disagreement", "date": "2018-07" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim 'Pushed model bills to repeal renewable-energy standards' is supported (Electricity Freedom Act, October 2012).",
+    "Site claim that Google left in 2014 with its chairman saying ALEC was 'just literally lying' about climate is supported; the claim that 'Facebook, Yahoo and Yelp followed' was not tested in this pass, so no connection to Meta was recorded.",
+    "The task mentioned an 'Exelon ALEC exit'; no source found reports Exelon leaving ALEC (see exelon.json).",
+    "The Heartland Institute is not an entity id on the site, so its co-authorship of the Electricity Freedom Act is recorded only as a fact."
+  ]
+}

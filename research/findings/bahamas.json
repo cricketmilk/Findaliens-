@@ -1,0 +1,192 @@
+{
+  "entity": "bahamas",
+  "name": "Bahamas",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The Commonwealth of The Bahamas was the home jurisdiction of FTX Digital Markets, the Bahamian unit of the FTX exchange. On 10 November 2022 the Securities Commission of The Bahamas froze FTX Digital Markets' assets, suspended its registration and obtained the appointment of joint provisional liquidators from the Supreme Court; on 12 November it directed the transfer of digital assets valued at more than $3.5 billion to Commission-controlled wallets. Sam Bankman-Fried was arrested in Nassau on 12 December 2022 at the request of the United States, was denied bail and was later extradited.",
+    "sources": [
+      {
+        "url": "https://decrypt.co/114179/bahamian-regulator-freezes-ftx-assets",
+        "publisher": "Decrypt",
+        "title": "Bahamas Freezes FTX Assets, Calls for Liquidator",
+        "date": "2022-11-10"
+      },
+      {
+        "url": "https://www.cnbc.com/2022/12/30/bahamas-regulator-seized-3point5-billion-of-ftx-crypto-assets.html",
+        "publisher": "CNBC",
+        "title": "Bahamas regulator seized $3.5 billion of FTX crypto assets",
+        "date": "2022-12-30"
+      },
+      {
+        "url": "https://ewnews.com/former-ftx-ceo-sam-bankman-fried-arrested",
+        "publisher": "Eyewitness News (Bahamas)",
+        "title": "Former FTX CEO Sam Bankman-Fried arrested",
+        "date": "2022-12-12"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On 10 November 2022 the Securities Commission of The Bahamas ordered a freeze on the assets of FTX Digital Markets and related parties, suspended the firm's registration and asked the Supreme Court to appoint a provisional liquidator, stating its aim was to preserve assets and stabilise the company.",
+      "status": "documented",
+      "date": "2022-11-10",
+      "quote": "The agency also suspended FTX's operation registration and asked the Supreme Court of the Bahamas for a provisional liquidator to be appointed.",
+      "sources": [
+        {
+          "url": "https://decrypt.co/114179/bahamian-regulator-freezes-ftx-assets",
+          "publisher": "Decrypt",
+          "title": "Bahamas Freezes FTX Assets, Calls for Liquidator",
+          "date": "2022-11-10"
+        }
+      ]
+    },
+    {
+      "claim": "The Supreme Court of The Bahamas placed FTX Digital Markets into provisional liquidation on 10 November 2022, appointing Brian Simms KC of Lennox Paton, Kevin Cambridge of PwC Bahamas and Peter Greaves of PwC Hong Kong as joint provisional liquidators.",
+      "status": "court",
+      "date": "2022-11-10",
+      "quote": "FTX Digital Markets was placed into provisional liquidation by the Supreme Court of The Bahamas on November 10.",
+      "sources": [
+        {
+          "url": "https://forkast.news/tag/bahamas/",
+          "publisher": "Forkast",
+          "title": "Bahamas coverage (tag page)"
+        },
+        {
+          "url": "https://www.crowdfundinsider.com/?p=200525",
+          "publisher": "Crowdfund Insider",
+          "title": "Securities Commission of The Bahamas Took $3.5 Billion in Crypto from FTX for 'Safekeeping'",
+          "date": "2022-12-30"
+        }
+      ]
+    },
+    {
+      "claim": "The Securities Commission said that on 12 November 2022, acting under a Supreme Court order, it directed the transfer of digital assets under FTX Digital Markets' custody or control, valued at more than US$3.5 billion, to Commission-controlled wallets for safekeeping, citing information from Sam Bankman-Fried about cyberattacks and a significant risk of imminent dissipation.",
+      "status": "documented",
+      "date": "2022-11-12",
+      "quote": "valued at more than US$3.5 billion, to Commission-controlled wallets \"for safekeeping\"",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2022/12/30/bahamas-regulator-seized-3point5-billion-of-ftx-crypto-assets.html",
+          "publisher": "CNBC",
+          "title": "Bahamas regulator seized $3.5 billion of FTX crypto assets",
+          "date": "2022-12-30"
+        },
+        {
+          "url": "https://www.crowdfundinsider.com/?p=200525",
+          "publisher": "Crowdfund Insider",
+          "title": "Securities Commission of The Bahamas Took $3.5 Billion in Crypto from FTX for 'Safekeeping'",
+          "date": "2022-12-30"
+        },
+        {
+          "url": "https://forkast.news/bahamas-regulators-hold-us3-5-billion-ftx-assets-delivered-customers-creditors",
+          "publisher": "Forkast",
+          "title": "Bahamas regulators hold US$3.5 billion FTX assets to be delivered to customers, creditors",
+          "date": "2022-12-30"
+        }
+      ]
+    },
+    {
+      "claim": "The Commission said the assets would be held on a temporary basis until the Supreme Court directed delivery to the customers and creditors who own them; FTX's U.S. lawyers alleged in a 17 November filing that the regulator had coordinated with Bankman-Fried to gain unauthorised access to FTX systems.",
+      "status": "reported",
+      "date": "2022-12-30",
+      "quote": "until such time as The Bahamas Supreme Court directs the Commission to deliver them to the customers and creditors who own them",
+      "sources": [
+        {
+          "url": "https://www.theblock.co/amp/post/198434/bahamian-regulator-holding-3-5-billion-of-ftx-customer-assets",
+          "publisher": "The Block",
+          "title": "Bahamian regulator holding $3.5 billion of FTX customer assets",
+          "date": "2022-12-30"
+        },
+        {
+          "url": "https://forkast.news/bahamas-regulators-hold-us3-5-billion-ftx-assets-delivered-customers-creditors",
+          "publisher": "Forkast",
+          "title": "Bahamas regulators hold US$3.5 billion FTX assets to be delivered to customers, creditors",
+          "date": "2022-12-30"
+        }
+      ]
+    },
+    {
+      "claim": "Bankman-Fried was arrested at the Albany complex in Nassau; police said the charges were offences under U.S. law that are also offences in The Bahamas, and the Attorney General said the arrest followed a formal U.S. request with an extradition request expected.",
+      "status": "documented",
+      "date": "2022-12-12",
+      "quote": "The Attorney General said the arrest followed a formal US request, and a US extradition request was expected.",
+      "sources": [
+        {
+          "url": "https://ewnews.com/former-ftx-ceo-sam-bankman-fried-arrested",
+          "publisher": "Eyewitness News (Bahamas)",
+          "title": "Former FTX CEO Sam Bankman-Fried arrested",
+          "date": "2022-12-12"
+        }
+      ]
+    },
+    {
+      "claim": "The Chief Magistrate remanded Bankman-Fried into custody and refused bail, finding no condition could ensure he would not abscond; extradition proceedings were adjourned to 8 February 2023, after which he signed extradition documents.",
+      "status": "court",
+      "date": "2022-12-13",
+      "quote": "Bankman-Fried's extradition proceedings have been adjourned until February 8, 2023.",
+      "sources": [
+        {
+          "url": "https://ewnews.com/?p=119878",
+          "publisher": "Eyewitness News (Bahamas)",
+          "title": "Former FTX CEO Sam Bankman-Fried fights US extradition, denied bail",
+          "date": "2022-12-13"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "ftx",
+      "toName": "FTX",
+      "toType": "company",
+      "relation": "regulated",
+      "claim": "The Securities Commission of The Bahamas, the regulator of FTX Digital Markets, froze its assets and suspended its registration on 10 November 2022 and later took custody of more than $3.5 billion of its digital assets under a Supreme Court order.",
+      "status": "documented",
+      "date": "2022-11-10",
+      "quote": "The Securities Commission of the West Indies nation issued an order on Thursday to freeze the assets of the embattled cryptocurrency exchange FTX.",
+      "sources": [
+        {
+          "url": "https://decrypt.co/114179/bahamian-regulator-freezes-ftx-assets",
+          "publisher": "Decrypt",
+          "title": "Bahamas Freezes FTX Assets, Calls for Liquidator",
+          "date": "2022-11-10"
+        },
+        {
+          "url": "https://www.cnbc.com/2022/12/30/bahamas-regulator-seized-3point5-billion-of-ftx-crypto-assets.html",
+          "publisher": "CNBC",
+          "title": "Bahamas regulator seized $3.5 billion of FTX crypto assets",
+          "date": "2022-12-30"
+        }
+      ]
+    },
+    {
+      "to": "sam-bankman-fried",
+      "toName": "Sam Bankman-Fried",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Bahamian police arrested Bankman-Fried in Nassau on 12 December 2022 at the formal request of the United States; a magistrate denied bail and he was later extradited.",
+      "status": "court",
+      "date": "2022-12-12",
+      "quote": "Police said the charges were offences against laws of the United States, which are also offences against laws of the Commonwealth of The Bahamas.",
+      "sources": [
+        {
+          "url": "https://ewnews.com/former-ftx-ceo-sam-bankman-fried-arrested",
+          "publisher": "Eyewitness News (Bahamas)",
+          "title": "Former FTX CEO Sam Bankman-Fried arrested",
+          "date": "2022-12-12"
+        },
+        {
+          "url": "https://ewnews.com/?p=119878",
+          "publisher": "Eyewitness News (Bahamas)",
+          "title": "Former FTX CEO Sam Bankman-Fried fights US extradition, denied bail",
+          "date": "2022-12-13"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: FTX's deposits were 'cleared through Deltec Bank' in the Bahamas. Deltec was not researched here; no source on it was opened.",
+    "The Securities Commission's own statements were not opened; the wording above comes from press coverage quoting them.",
+    "Forkast gave 17 November as the date the Commission's wallets were set up, which conflicts with the Commission's stated 12 November transfer date."
+  ]
+}

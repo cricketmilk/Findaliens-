@@ -1,0 +1,200 @@
+{
+  "entity": "koram-bank",
+  "name": "KorAm Bank",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "KorAm Bank was a South Korean commercial bank in which a consortium led by the Carlyle Group, with JPMorgan's Corsair fund, acquired a controlling 40.5 percent stake in October 2000 in the aftermath of the Asian financial crisis. In February 2004 Citigroup agreed to buy the consortium's 36.6 percent holding and launch a tender offer for the remaining shares at KRW 15,500 each, a deal announced at KRW 3.18 trillion ($2.73 billion); on completion Citigroup held about 97.5 percent for about $2.6 billion, the first takeover of a Korean bank by a foreign commercial lender.",
+    "sources": [
+      {
+        "url": "https://www.financeasia.com/article/how-citi-got-koram/31487",
+        "publisher": "FinanceAsia",
+        "title": "How Citi got KorAm",
+        "date": "2004"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/0000831001/000104746904016016/a2135828z10-q.htm",
+        "publisher": "U.S. Securities and Exchange Commission (Citigroup Inc. Form 10-Q)",
+        "title": "Citigroup Inc — Form 10-Q, 2004",
+        "date": "2004"
+      },
+      {
+        "url": "https://www.nbcnews.com/id/wbna4871056",
+        "publisher": "NBC News",
+        "title": "Citigroup buys KorAm for $2.6 billion",
+        "date": "2004-04"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "FinanceAsia reported that the Carlyle-led consortium acquired a controlling 40.5 percent stake in KorAm in October 2000, in an investment internally codenamed 'Project Goldfinger', and that Carlyle approached JPMorgan's Corsair fund to form the partnership.",
+      "status": "reported",
+      "date": "2000-10",
+      "quote": "the Carlyle-led consortium first acquired a controlling 40.5% stake in October 2000",
+      "sources": [
+        {
+          "url": "https://www.financeasia.com/article/how-citi-got-koram/31487",
+          "publisher": "FinanceAsia",
+          "title": "How Citi got KorAm",
+          "date": "2004"
+        },
+        {
+          "url": "https://financeasia.com/article/citigroups-trojan-horse/29842",
+          "publisher": "FinanceAsia",
+          "title": "Citigroup's Trojan Horse",
+          "date": "2004"
+        }
+      ]
+    },
+    {
+      "claim": "In February 2004 Citigroup, KorAm and the consortium signed an agreement for Citigroup to buy the consortium's stake, which Citigroup's 10-Q put at 36.6 percent, and then make a tender offer for the remaining shares at KRW 15,500 per share in cash.",
+      "status": "documented",
+      "date": "2004-02",
+      "quote": "the tender offer price was KRW 15,500 per share in cash",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000831001/000104746904016016/a2135828z10-q.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Citigroup Inc. Form 10-Q)",
+          "title": "Citigroup Inc — Form 10-Q, 2004",
+          "date": "2004"
+        },
+        {
+          "url": "https://carlyle.com/ja/node/20191",
+          "publisher": "The Carlyle Group",
+          "title": "News release: Citigroup to acquire KorAm Bank",
+          "date": "2004-02"
+        },
+        {
+          "url": "https://www.koreajoongangdaily.com/business/citigroup-lays-out-plans-to-acquire-koram/11020780",
+          "publisher": "Korea JoongAng Daily",
+          "title": "Citigroup lays out plans to acquire KorAm",
+          "date": "2004-02"
+        }
+      ]
+    },
+    {
+      "claim": "Carlyle's release put the total value of the consortium stake purchase plus the tender offer at KRW 3.18 trillion (about $2.73 billion).",
+      "status": "documented",
+      "date": "2004-02",
+      "quote": "KRW 3.18 trillion ($2.73 billion) for the consortium's stake plus the tender offer",
+      "sources": [
+        {
+          "url": "https://carlyle.com/ja/node/20191",
+          "publisher": "The Carlyle Group",
+          "title": "News release: Citigroup to acquire KorAm Bank",
+          "date": "2004-02"
+        },
+        {
+          "url": "https://carlyle.com/ja/node/20141",
+          "publisher": "The Carlyle Group",
+          "title": "News release on KorAm Bank tender offer",
+          "date": "2004"
+        }
+      ]
+    },
+    {
+      "claim": "After the tender offer closed, Citigroup's 10-Q put the total purchase price at KRW 3.07 trillion ($2.6 billion) and Citigroup's stake at about 97.5 percent.",
+      "status": "documented",
+      "date": "2004",
+      "quote": "the total purchase price at KRW 3.07 trillion ($2.6 billion), with Citigroup's overall stake at about 97.5%",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000831001/000104746904016016/a2135828z10-q.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Citigroup Inc. Form 10-Q)",
+          "title": "Citigroup Inc — Form 10-Q, 2004",
+          "date": "2004"
+        }
+      ]
+    },
+    {
+      "claim": "NBC News described the purchase as the largest foreign investment in South Korea's financial sector and the first takeover of a local bank by a foreign commercial lender.",
+      "status": "reported",
+      "date": "2004-04",
+      "quote": "the largest foreign investment in South Korea's fragile financial sector and the first takeover of a local bank by a foreign commercial lender",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/id/wbna4871056",
+          "publisher": "NBC News",
+          "title": "Citigroup buys KorAm for $2.6 billion",
+          "date": "2004-04"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "carlyle-group",
+      "toName": "Carlyle Group",
+      "toType": "fund",
+      "relation": "invested in",
+      "claim": "A Carlyle-led consortium acquired a controlling 40.5 percent stake in KorAm in October 2000 and sold its holding to Citigroup in 2004.",
+      "status": "documented",
+      "date": "2000-10",
+      "quote": "the Carlyle-led consortium first acquired a controlling 40.5% stake in October 2000",
+      "sources": [
+        {
+          "url": "https://www.financeasia.com/article/how-citi-got-koram/31487",
+          "publisher": "FinanceAsia",
+          "title": "How Citi got KorAm",
+          "date": "2004"
+        },
+        {
+          "url": "https://carlyle.com/ja/node/20191",
+          "publisher": "The Carlyle Group",
+          "title": "News release: Citigroup to acquire KorAm Bank",
+          "date": "2004-02"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "jpmorgan-chase",
+      "toName": "JPMorgan Chase",
+      "toType": "company",
+      "relation": "invested in",
+      "claim": "JPMorgan's Corsair investment fund joined the Carlyle-led consortium that controlled KorAm from 2000 to 2004.",
+      "status": "reported",
+      "date": "2000",
+      "quote": "Carlyle later approached JPMorgan Corsair, the bank's investment fund, to form the partnership",
+      "sources": [
+        {
+          "url": "https://www.financeasia.com/article/how-citi-got-koram/31487",
+          "publisher": "FinanceAsia",
+          "title": "How Citi got KorAm",
+          "date": "2004"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "citigroup",
+      "toName": "Citigroup",
+      "toType": "company",
+      "relation": "owns",
+      "claim": "Citigroup acquired the consortium's 36.6 percent stake and tendered for the rest of KorAm in 2004, ending with about 97.5 percent for about $2.6 billion.",
+      "status": "documented",
+      "date": "2004",
+      "quote": "Citigroup's overall stake at about 97.5%",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000831001/000104746904016016/a2135828z10-q.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Citigroup Inc. Form 10-Q)",
+          "title": "Citigroup Inc — Form 10-Q, 2004",
+          "date": "2004"
+        },
+        {
+          "url": "https://www.nbcnews.com/id/wbna4871056",
+          "publisher": "NBC News",
+          "title": "Citigroup buys KorAm for $2.6 billion",
+          "date": "2004-04"
+        }
+      ],
+      "reverse": true
+    }
+  ],
+  "openQuestions": [
+    "The brief pairs 'KorAm and Lone Star/Carlyle'; no source found connects Lone Star Funds to KorAm (Lone Star's Korean bank was Korea Exchange Bank). The Carlyle connection is supported.",
+    "The entity is in the seed list only; the site's Carlyle dossier does not name KorAm.",
+    "Carlyle's press-release pages were returned as Japanese-language node URLs; the owner may wish to confirm the English originals."
+  ]
+}

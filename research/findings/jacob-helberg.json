@@ -1,0 +1,116 @@
+{
+  "entity": "jacob-helberg",
+  "name": "Jacob Helberg",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Jacob Helberg is Under Secretary of State for Economic Growth, Energy, and the Environment. President-elect Trump announced his nomination in December 2024; Senator Bill Hagerty introduced him at his Senate Foreign Relations Committee hearing on June 10, 2025. Before government service Helberg was a senior adviser to Palantir chief executive Alex Karp and co-founded the Hill & Valley Forum, a gathering of lawmakers and technology investors. His 2025 financial disclosure listed Palantir stock worth between $100,001 and $250,000, which his ethics agreement pledged to divest within 90 days of confirmation.",
+    "sources": [
+      { "url": "https://www.hagerty.senate.gov/press-releases/2025/06/10/hagerty-introduces-trumps-nominees-andy-puzder-jacob-helberg", "publisher": "Office of Senator Bill Hagerty", "title": "Hagerty Introduces Trump's Nominees Andy Puzder, Jacob Helberg", "date": "2025-06-10" },
+      { "url": "https://www.axios.com/2026/01/29/openai-palantir-headline-hill-valley-forum", "publisher": "Axios", "title": "Exclusive: OpenAI and Palantir execs to headline Hill & Valley Forum", "date": "2026-01-29" },
+      { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "publisher": "Revolving Door Project", "title": "AI Villains and the Trump Administration: Jacob Helberg", "date": "2025" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In December 2024 President-elect Trump announced Helberg as his pick for Under Secretary of State for Economic Growth, Energy, and the Environment, saying Helberg would guide State Department policy on economic statecraft, America's economic security and growth, and American technological dominance abroad.",
+      "status": "documented",
+      "date": "2024-12-10",
+      "quote": "Helberg will guide State Department policy on Economic statecraft, promoting America's Economic security and growth, and American technological dominance abroad",
+      "sources": [
+        { "url": "https://www.foxnews.com/politics/trump-announces-more-picks-nominates-kimberly-guilfoyle-serve-ambassador-greece.amp", "publisher": "Fox News", "title": "Trump announces more picks, nominates Kimberly Guilfoyle to serve as ambassador to Greece", "date": "2024-12-10" },
+        { "url": "https://advocate.com/politics/trump-appoints-jacob-helberg-state", "publisher": "The Advocate", "title": "Trump appoints Jacob Helberg to State Department post", "date": "2024-12" }
+      ]
+    },
+    {
+      "claim": "On June 10, 2025 Senator Bill Hagerty introduced Helberg to the Senate Foreign Relations Committee as President Trump's nominee to be Under Secretary of State for Economic Growth, Energy, and the Environment.",
+      "status": "documented",
+      "date": "2025-06-10",
+      "quote": "Hagerty Introduces Trump's Nominees Andy Puzder, Jacob Helberg",
+      "sources": [
+        { "url": "https://www.hagerty.senate.gov/press-releases/2025/06/10/hagerty-introduces-trumps-nominees-andy-puzder-jacob-helberg", "publisher": "Office of Senator Bill Hagerty", "title": "Hagerty Introduces Trump's Nominees Andy Puzder, Jacob Helberg", "date": "2025-06-10" }
+      ]
+    },
+    {
+      "claim": "In his prepared testimony for the June 10, 2025 hearing, Helberg framed the role around the administration's economic security agenda and said he would work closely with the U.S. International Development Finance Corporation and other departments to build the rails of a secure technology supply chain.",
+      "status": "words",
+      "date": "2025-06-10",
+      "quote": "work closely with the U.S. International Development Finance Corporation and other Departments to build the rails of a secure technology supply chain",
+      "sources": [
+        { "url": "https://www.foreign.senate.gov/download/06/11/2025/061025_helberg_testimonypdf", "publisher": "U.S. Senate Committee on Foreign Relations", "title": "Testimony of Jacob Helberg, June 10, 2025", "date": "2025-06-10" }
+      ]
+    },
+    {
+      "claim": "E&E News reported that the Under Secretary position Helberg was nominated to oversees the State Department's Bureau of Oceans and International Environmental and Scientific Affairs, which it described as having been stripped of its climate work.",
+      "status": "reported",
+      "date": "2025",
+      "quote": "the Bureau of Oceans and International Environmental and Scientific Affairs, which has been gutted of its climate work",
+      "sources": [
+        { "url": "https://www.eenews.net/articles/meet-trumps-energy-pitchman/", "publisher": "E&E News", "title": "Meet Trump's energy pitchman", "date": "2025" }
+      ]
+    },
+    {
+      "claim": "Axios reported in January 2026 that Helberg, by then Under Secretary of State, co-founded the Hill & Valley Forum and previously worked as senior adviser to Palantir CEO Alex Karp. NYSE materials list Christian Garrett of 137 Ventures as a Hill & Valley co-founder.",
+      "status": "reported",
+      "date": "2026-01-29",
+      "quote": "previously worked as senior adviser to Palantir CEO Alex Karp",
+      "sources": [
+        { "url": "https://www.axios.com/2026/01/29/openai-palantir-headline-hill-valley-forum", "publisher": "Axios", "title": "Exclusive: OpenAI and Palantir execs to headline Hill & Valley Forum", "date": "2026-01-29" },
+        { "url": "https://tv.nyse.com/hill-valley/videos/137-ventures-partner-hill-valley-co-founder-christian-garrett", "publisher": "NYSE TV", "title": "137 Ventures Partner & Hill & Valley Co-Founder Christian Garrett" }
+      ]
+    },
+    {
+      "claim": "The Revolving Door Project reported that Helberg's 2025 public financial disclosure listed Palantir stock valued between $100,001 and $250,000, that his ethics agreement pledged to divest those holdings no later than 90 days after Senate confirmation, and that Palantir is a sponsor of the Hill & Valley Forum's annual event.",
+      "status": "reported",
+      "date": "2025",
+      "quote": "owned Palantir stock valued between $100,001 and $250,000 according to his 2025 public financial disclosure report",
+      "sources": [
+        { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "publisher": "Revolving Door Project", "title": "AI Villains and the Trump Administration: Jacob Helberg", "date": "2025" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "palantir",
+      "relation": "advised",
+      "claim": "Helberg worked as senior adviser to Palantir CEO Alex Karp before joining the State Department, and his 2025 financial disclosure listed Palantir stock worth $100,001 to $250,000 that he agreed to divest after confirmation.",
+      "status": "reported",
+      "date": "2025",
+      "quote": "previously worked as senior adviser to Palantir CEO Alex Karp",
+      "sources": [
+        { "url": "https://www.axios.com/2026/01/29/openai-palantir-headline-hill-valley-forum", "publisher": "Axios", "title": "Exclusive: OpenAI and Palantir execs to headline Hill & Valley Forum", "date": "2026-01-29" },
+        { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "publisher": "Revolving Door Project", "title": "AI Villains and the Trump Administration: Jacob Helberg", "date": "2025" }
+      ]
+    },
+    {
+      "to": "alex-karp",
+      "relation": "advised",
+      "claim": "Helberg previously worked as senior adviser to Palantir CEO Alex Karp, according to Axios.",
+      "status": "reported",
+      "date": "2026-01-29",
+      "quote": "previously worked as senior adviser to Palantir CEO Alex Karp",
+      "sources": [
+        { "url": "https://www.axios.com/2026/01/29/openai-palantir-headline-hill-valley-forum", "publisher": "Axios", "title": "Exclusive: OpenAI and Palantir execs to headline Hill & Valley Forum", "date": "2026-01-29" }
+      ]
+    },
+    {
+      "to": "Hill & Valley Forum",
+      "toName": "Hill & Valley Forum",
+      "toType": "organization",
+      "relation": "co-founded",
+      "claim": "Helberg co-founded the Hill & Valley Forum, a gathering of lawmakers and technology investors whose 2026 event featured OpenAI and Palantir executives and which Palantir sponsors.",
+      "status": "reported",
+      "date": "2026-01-29",
+      "quote": "co-founded the forum",
+      "sources": [
+        { "url": "https://www.axios.com/2026/01/29/openai-palantir-headline-hill-valley-forum", "publisher": "Axios", "title": "Exclusive: OpenAI and Palantir execs to headline Hill & Valley Forum", "date": "2026-01-29" },
+        { "url": "https://therevolvingdoorproject.org/ai-villains-and-the-trump-administration-jacob-helberg/", "publisher": "Revolving Door Project", "title": "AI Villains and the Trump Administration: Jacob Helberg", "date": "2025" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Helberg is in the site's approved web data (as Keith Rabois's husband, nominated Under Secretary with a June 10, 2025 hearing) but not in the page entity index. The hearing is supported by Hagerty's release and the committee testimony; the family relationship was not re-sourced here.",
+    "The date Helberg assumed office (October 16, 2025) and his prior service on the U.S.-China Economic and Security Review Commission appeared only in Wikipedia and were not recorded.",
+    "Sources give the post's title differently ('Economic Growth, Energy, and the Environment' per Hagerty and Trump's announcement; 'Economic Affairs' per Wikipedia); an official State Department biography was not among the pages returned.",
+    "Hill & Valley's first convening (reported as March 2023) and its third co-founder Delian Asparouhov were named only in Wikipedia."
+  ]
+}

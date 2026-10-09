@@ -1,0 +1,112 @@
+{
+  "entity": "new-york-attorney-general",
+  "name": "New York Attorney General",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The Office of the New York State Attorney General is the state's chief legal office. On this site it appears through two cases: the securities-fraud suit against ExxonMobil over climate-risk disclosures, filed by Attorney General Barbara Underwood in October 2018 and decided for Exxon by Justice Barry Ostrager in December 2019, and the civil fraud case against Donald Trump, the Trump Organization and senior executives, filed by Attorney General Letitia James in September 2022, which produced a February 2024 judgment of more than $450 million that the Appellate Division, First Department, vacated as an excessive fine in August 2025 while affirming the liability finding.",
+    "sources": [
+      { "url": "https://ag.ny.gov/press-release/2018/ag-underwood-files-lawsuit-against-exxonmobil-defrauding-investors-regarding", "publisher": "New York Attorney General", "title": "A.G. Underwood Files Lawsuit Against Exxonmobil For Defrauding Investors Regarding Financial Risk The Company Faces From Climate Change Regulations", "date": "2018-10-24" },
+      { "url": "https://ag.ny.gov/press-release/2024/attorney-general-james-wins-landmark-victory-case-against-donald-trump", "publisher": "New York Attorney General", "title": "Attorney General James Wins Landmark Victory in Case Against Donald Trump", "date": "2024-02-16" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On October 24, 2018 Attorney General Barbara Underwood sued Exxon Mobil Corporation in New York Supreme Court, alleging the company misled investors about how future climate regulations could affect its assets and value. The complaint invoked the Martin Act, Executive Law 63(12) and common-law fraud, and sought injunctive relief, corrective disclosures and disgorgement.",
+      "status": "documented",
+      "date": "2018-10-24",
+      "quote": "Investigation into Exxon's Business Practices Uncovered an Alleged Fraudulent Scheme to Systematically and Repeatedly Deceive Investors About the Significant Impact That Future Climate Change Regulations Could Have on the Company's Assets and Value",
+      "sources": [
+        { "url": "https://ag.ny.gov/press-release/2018/ag-underwood-files-lawsuit-against-exxonmobil-defrauding-investors-regarding", "publisher": "New York Attorney General", "title": "A.G. Underwood Files Lawsuit Against Exxonmobil For Defrauding Investors Regarding Financial Risk The Company Faces From Climate Change Regulations", "date": "2018-10-24" },
+        { "url": "https://ag.ny.gov/sites/default/files/summons_and_complaint_0.pdf", "publisher": "New York Attorney General", "title": "People of the State of New York v. Exxon Mobil Corporation: Summons and Complaint", "date": "2018-10-24" }
+      ]
+    },
+    {
+      "claim": "On December 10, 2019 Justice Barry Ostrager of the New York Supreme Court ruled for ExxonMobil on all counts, finding that the Attorney General's office had failed to prove by a preponderance of the evidence that Exxon made any material misstatements or omissions that misled a reasonable investor. The judge wrote that the case was a securities fraud case, not a climate change case. Attorney General Letitia James issued a statement criticizing Exxon after the ruling.",
+      "status": "court",
+      "date": "2019-12-10",
+      "quote": "failed to prove, by a preponderance of the evidence, that Exxon Mobil made any material misstatements or omissions about its practices and procedures that misled any reasonable investor",
+      "sources": [
+        { "url": "https://www.npr.org/2019/12/10/780317799/exxon-wins-new-york-climate-change-case", "publisher": "NPR", "title": "Exxon Wins New York Climate Change Fraud Case", "date": "2019-12-10" },
+        { "url": "https://ag.ny.gov/press-release/2019/ag-james-statement-exxonmobil-ruling", "publisher": "New York Attorney General", "title": "AG James' Statement On ExxonMobil Ruling", "date": "2019-12-10" }
+      ]
+    },
+    {
+      "claim": "New York did not appeal its defeat in the Exxon climate-disclosure trial, according to trade-press reports in January 2020.",
+      "status": "reported",
+      "date": "2020-01",
+      "quote": "New York won't appeal its defeat in Exxon climate trial",
+      "sources": [
+        { "url": "https://www.worldoil.com/news/2020/1/10/new-york-won-t-appeal-its-defeat-in-exxon-climate-trial", "publisher": "World Oil", "title": "New York won't appeal its defeat in Exxon climate trial", "date": "2020-01-10" },
+        { "url": "https://amp.insurancejournal.com/news/east/2020/01/13/554643.htm", "publisher": "Insurance Journal", "title": "New York Won't Appeal Its Defeat in Exxon Climate Trial", "date": "2020-01-13" }
+      ]
+    },
+    {
+      "claim": "On February 16, 2024 the Attorney General's office announced that Justice Arthur F. Engoron had ruled in its favor in the civil fraud case filed in September 2022 against Donald Trump, Trump Organization companies and senior executives, ordering more than $450 million including $363.8 million in disgorgement plus pre-judgment interest, barring Trump from serving as an officer or director of a New York company for three years, and keeping an independent monitor over the company's finances.",
+      "status": "court",
+      "date": "2024-02-16",
+      "quote": "$363.8 million in disgorgement and pre-judgment interest",
+      "sources": [
+        { "url": "https://ag.ny.gov/press-release/2024/attorney-general-james-wins-landmark-victory-case-against-donald-trump", "publisher": "New York Attorney General", "title": "Attorney General James Wins Landmark Victory in Case Against Donald Trump", "date": "2024-02-16" },
+        { "url": "https://ag.ny.gov/sites/default/files/decisions/trump-decision.pdf", "publisher": "New York Attorney General", "title": "Trump Decision", "date": "2024-02-16" }
+      ]
+    },
+    {
+      "claim": "On August 21, 2025 a five-judge panel of the Appellate Division, First Department, affirmed the trial court's finding that Donald Trump, his company and two of his children were liable for fraud and upheld the injunctive relief limiting their business activity in New York, but vacated the monetary award, with a majority holding that the order requiring nearly half a billion dollars be paid to the State was an excessive fine under the Eighth Amendment.",
+      "status": "court",
+      "date": "2025-08-21",
+      "quote": "the order requiring nearly half a billion dollars be paid to the State was an excessive fine",
+      "sources": [
+        { "url": "https://ag.ny.gov/press-release/2025/attorney-general-james-releases-statement-first-department-opinion-affirming", "publisher": "New York Attorney General", "title": "Attorney General James Releases Statement on First Department Opinion Affirming Donald Trump is Liable for Fraud", "date": "2025-08-21" },
+        { "url": "https://abc7ny.com/post/appeals-court-throws-massive-civil-fraud-penalty-president-donald-trump/17605416/", "publisher": "WABC (Associated Press)", "title": "Appeals court throws out massive civil fraud penalty against President Donald Trump", "date": "2025-08-21" }
+      ]
+    },
+    {
+      "claim": "Trump appealed the February 2024 judgment, which with interest was reported at about $454 million, and was able to hold off collection by posting a $175 million bond while the appeal proceeded.",
+      "status": "reported",
+      "date": "2024-02-26",
+      "quote": "the president was able to hold off collection of the money by posting a $175 million bond",
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/donald-trump/trump-appeals-civil-fraud-judgment-company-new-york-case-rcna163155", "publisher": "NBC News", "title": "Trump appeals civil fraud judgment against him and his company in New York case", "date": "2024" },
+        { "url": "https://www.kaxe.org/news/2025-08-21/an-appeals-court-throws-out-a-massive-civil-fraud-penalty-against-president-trump", "publisher": "KAXE (NPR)", "title": "An appeals court throws out a massive civil fraud penalty against President Trump", "date": "2025-08-21" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "exxonmobil",
+      "toName": "ExxonMobil",
+      "toType": "company",
+      "relation": "sued",
+      "claim": "The Attorney General sued Exxon Mobil in October 2018 for allegedly misleading investors about climate-regulation risk; the court ruled for Exxon on all counts in December 2019 and New York did not appeal.",
+      "status": "court",
+      "date": "2019-12-10",
+      "quote": "Exxon Wins New York Climate Change Fraud Case",
+      "sources": [
+        { "url": "https://ag.ny.gov/press-release/2018/ag-underwood-files-lawsuit-against-exxonmobil-defrauding-investors-regarding", "publisher": "New York Attorney General", "title": "A.G. Underwood Files Lawsuit Against Exxonmobil For Defrauding Investors Regarding Financial Risk The Company Faces From Climate Change Regulations", "date": "2018-10-24" },
+        { "url": "https://www.npr.org/2019/12/10/780317799/exxon-wins-new-york-climate-change-case", "publisher": "NPR", "title": "Exxon Wins New York Climate Change Fraud Case", "date": "2019-12-10" }
+      ]
+    },
+    {
+      "to": "trump-organization",
+      "toName": "Trump Organization",
+      "toType": "company",
+      "relation": "sued",
+      "claim": "The Attorney General's September 2022 civil fraud suit named Trump Organization companies and senior executives alongside Donald Trump; the February 2024 judgment kept an independent monitor over the company's finances, and the August 2025 appellate ruling affirmed liability while vacating the monetary award.",
+      "status": "court",
+      "date": "2024-02-16",
+      "quote": "kept an independent monitor in place over the company's finances",
+      "sources": [
+        { "url": "https://ag.ny.gov/press-release/2024/attorney-general-james-wins-landmark-victory-case-against-donald-trump", "publisher": "New York Attorney General", "title": "Attorney General James Wins Landmark Victory in Case Against Donald Trump", "date": "2024-02-16" },
+        { "url": "https://ag.ny.gov/press-release/2025/attorney-general-james-releases-statement-first-department-opinion-affirming", "publisher": "New York Attorney General", "title": "Attorney General James Releases Statement on First Department Opinion Affirming Donald Trump is Liable for Fraud", "date": "2025-08-21" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (Carbon Ledger): 'New York's fraud case against Exxon fails ... A judge ruled for Exxon in 2019' is supported by the AG's own statement and NPR's account of the December 10, 2019 ruling.",
+    "Site claim (Carbon Ledger): Peabody Energy's November 2015 settlement with the Attorney General over climate-risk statements was not checked against an ag.ny.gov record.",
+    "Site claim (Crash Conduits): Ernst & Young paid $10 million to the New York Attorney General over Lehman's Repo 105 and Eliot Spitzer's investigation led to the 2003 $1.4 billion Global Research Analyst Settlement were not checked; the owner may wish to locate the 2015 E&Y settlement release and the 2003 SEC/NYAG settlement release.",
+    "Site claim (Blind Pool): the February 2021 $18.5 million Tether/Bitfinex settlement was not checked against ag.ny.gov.",
+    "Whether the Trump defendants or the Attorney General sought review of the August 2025 First Department decision in the New York Court of Appeals, and the outcome, was not established.",
+    "The Appellate Division's August 2025 decision and the 2024 Engoron decision were not read in full; the AG's statements and press accounts were relied on."
+  ]
+}

@@ -55,6 +55,78 @@
           "date": "2026-01-15"
         }
       ]
+    },
+    {
+      "claim": "In April 2025 ICE awarded Palantir roughly $30 million (reported as $29.8 million to $30 million) to deliver the Immigration Lifecycle Operating System ('ImmigrationOS') prototype by September 25, 2025. An ICE spokesperson said the deal was a modification to an existing contract; Business Insider reported it extends a 2022 operations-and-maintenance contract, and the justification document cited an 'urgent and compelling' need and named Palantir as the only source able to deliver in time.",
+      "status": "reported",
+      "date": "2025-04-17",
+      "quote": "ICE awarded Palantir a $30 million contract to deliver a new platform, the Immigration Lifecycle Operating System, by Sept. 25, per federal records.",
+      "sources": [
+        {
+          "url": "https://www.yahoo.com/news/ice-just-ordered-30-million-212445164.html",
+          "publisher": "Business Insider (via Yahoo News)",
+          "title": "ICE just ordered $30 million worth of new technology from Palantir to track immigrants",
+          "date": "2025-04"
+        },
+        {
+          "url": "https://www.executivegov.com/articles/palantir-ice-contract-immigrationos",
+          "publisher": "ExecutiveGov",
+          "title": "Palantir Lands ICE Contract for ImmigrationOS Support",
+          "date": "2025-04"
+        },
+        {
+          "url": "https://immpolicytracking.org/policies/reported-palantir-awarded-30-million-to-build-immigrationos-surveillance-platform-for-ice/",
+          "publisher": "Immigration Policy Tracking Project",
+          "title": "Palantir granted $30 million to build ImmigrationOS surveillance platform for ICE",
+          "date": "2025-04"
+        },
+        {
+          "url": "https://www.axios.com/local/denver/2025/05/01/palantir-deportations-ice-immigration-trump",
+          "publisher": "Axios Denver",
+          "title": "Palantir's partnership with ICE deepens",
+          "date": "2025-05-01"
+        }
+      ]
+    },
+    {
+      "claim": "In 2025 ICE published a sole-source notice for the next version of its Investigative Case Management (ICM) system, inviting industry feedback through June 20, 2025, stating that only Palantir could meet the performance, security and integration standards needed to deploy the next iteration of ICM by a September 2026 deadline. A second task order of about $29.9 million for ImmigrationOS software licenses, operations and maintenance followed in September 2025.",
+      "status": "reported",
+      "date": "2025-06",
+      "quote": "ICE concluded that only Palantir could meet the high-performance, high-security, and integration standards necessary to deploy the next iteration of ICM by its critical September 2026 deadline.",
+      "sources": [
+        {
+          "url": "https://www.biometricupdate.com/202506/ice-advances-sole-source-deal-with-palantir-for-new-surveillance-backbone",
+          "publisher": "Biometric Update",
+          "title": "ICE advances sole source deal with Palantir for new surveillance backbone",
+          "date": "2025-06"
+        },
+        {
+          "url": "https://immpolicytracking.org/policies/reported-palantir-awarded-30-million-to-build-immigrationos-surveillance-platform-for-ice/",
+          "publisher": "Immigration Policy Tracking Project",
+          "title": "Palantir granted $30 million to build ImmigrationOS surveillance platform for ICE",
+          "date": "2025-04"
+        }
+      ]
+    },
+    {
+      "claim": "The Project On Government Oversight reported in June 2025 that White House deputy chief of staff Stephen Miller's OGE Form 278e financial disclosure, released by the White House, listed between $100,001 and $250,000 of Palantir stock held in a brokerage account for one of his minor children, and that at least 11 other White House officials and staffers also reported owning Palantir stock. The White House said Miller had confirmed to ethics officials that he would recuse from official matters that could affect those stocks.",
+      "status": "reported",
+      "date": "2025-06",
+      "quote": "Miller disclosed from $100,001 up to a quarter million dollars of stock in Palantir, a tech company woven into the operations of U.S. Immigration and Customs Enforcement (ICE).",
+      "sources": [
+        {
+          "url": "https://www.pogo.org/investigates/stephen-miller-conflicts-of-interest",
+          "publisher": "Project On Government Oversight",
+          "title": "Stephen Miller's Conflicts of Interest",
+          "date": "2025-06"
+        },
+        {
+          "url": "https://www.whitehouse.gov/wp-content/uploads/2025/06/Miller-Stephen.pdf",
+          "publisher": "The White House (OGE Form 278e)",
+          "title": "Stephen Miller, New Entrant Public Financial Disclosure Report",
+          "date": "2025-06"
+        }
+      ]
     }
   ],
   "connections": [
@@ -92,6 +164,40 @@
           "date": "2025-11-24"
         }
       ]
+    },
+    {
+      "to": "us-immigration-and-customs-enforcement",
+      "toName": "U.S. Immigration and Customs Enforcement",
+      "toType": "government",
+      "relation": "contracted with",
+      "claim": "ICE awarded Palantir about $30 million in April 2025 for the ImmigrationOS prototype as a modification of an existing contract, followed by a further task order of about $29.9 million in September 2025, and issued a 2025 sole-source notice naming Palantir for the next version of its Investigative Case Management system.",
+      "status": "reported",
+      "date": "2025-04-17",
+      "quote": "An ICE spokesperson said the deal is a modification to an existing contract.",
+      "sources": [
+        {
+          "url": "https://www.yahoo.com/news/ice-just-ordered-30-million-212445164.html",
+          "publisher": "Business Insider (via Yahoo News)",
+          "title": "ICE just ordered $30 million worth of new technology from Palantir to track immigrants",
+          "date": "2025-04"
+        },
+        {
+          "url": "https://www.biometricupdate.com/202506/ice-advances-sole-source-deal-with-palantir-for-new-surveillance-backbone",
+          "publisher": "Biometric Update",
+          "title": "ICE advances sole source deal with Palantir for new surveillance backbone",
+          "date": "2025-06"
+        },
+        {
+          "url": "https://immpolicytracking.org/policies/reported-palantir-awarded-30-million-to-build-immigrationos-surveillance-platform-for-ice/",
+          "publisher": "Immigration Policy Tracking Project",
+          "title": "Palantir granted $30 million to build ImmigrationOS surveillance platform for ICE",
+          "date": "2025-04"
+        }
+      ]
     }
+  ],
+  "openQuestions": [
+    "The ImmigrationOS award value is reported as $29.8M or $30M; confirm on USAspending (reported contract ID 70CTD022FR0000170) and the SAM.gov justification. The page's description of the award as 'no-bid' corresponds to the limited-source justification reported here.",
+    "The page's '$15M Super PAC' link runs through Peter Thiel and JD Vance, not Palantir; see peter-thiel.json and jd-vance.json."
   ]
 }

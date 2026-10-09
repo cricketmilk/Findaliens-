@@ -1,0 +1,109 @@
+{
+  "entity": "pentagon",
+  "name": "Pentagon",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The Pentagon (U.S. Department of Defense) is the executive department responsible for the armed forces. Items here cover two matters named on the site: the Replicator initiative announced by Deputy Secretary of Defense Kathleen Hicks on August 28, 2023 to field 'multiple thousands' of attritable autonomous systems within two years, and the department's December 2017 confirmation that the Advanced Aviation Threat Identification Program, funded at about $22 million through the defense budget at Senator Harry Reid's initiative, ended in the 2012 timeframe.",
+    "sources": [
+      {
+        "url": "https://breakingdefense.com/2023/08/replicator-revealed-pentagon-initiative-to-counter-china-with-mass-produced-autonomous-systems/",
+        "publisher": "Breaking Defense",
+        "title": "Replicator revealed: Pentagon initiative to counter China with mass-produced autonomous systems",
+        "date": "2023-08-28"
+      },
+      {
+        "url": "https://www.govexec.com/oversight/2017/12/pentagon-has-confirmed-its-22m-program-investigate-ufos/144632/",
+        "publisher": "Government Executive",
+        "title": "The Pentagon Has Confirmed Its $22M Program To Investigate UFOs",
+        "date": "2017-12"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On August 28, 2023, Deputy Secretary of Defense Kathleen Hicks announced the Replicator initiative at the National Defense Industrial Association's Emerging Technologies for Defense conference, describing a goal of fielding 'multiple thousands' of attritable autonomous systems across multiple domains within two years.",
+      "status": "reported",
+      "date": "2023-08-28",
+      "quote": "Deputy Secretary of Defense Kath Hicks said the new Replicator program is meant to get \"multiple thousands\" of autonomous systems in the hands of servicemembers with two years.",
+      "sources": [
+        {
+          "url": "https://breakingdefense.com/2023/08/replicator-revealed-pentagon-initiative-to-counter-china-with-mass-produced-autonomous-systems/",
+          "publisher": "Breaking Defense",
+          "title": "Replicator revealed: Pentagon initiative to counter China with mass-produced autonomous systems",
+          "date": "2023-08-28"
+        },
+        {
+          "url": "https://defensescoop.com/2023/08/28/hicks-unveils-dods-new-replicator-initiative-to-counter-china-via-autonomous-tech/",
+          "publisher": "DefenseScoop",
+          "title": "Hicks unveils DOD's new Replicator initiative to counter China via autonomous tech",
+          "date": "2023-08-28"
+        }
+      ]
+    },
+    {
+      "claim": "Hicks said Replicator was meant to counter China's numerical advantage ('Replicator is meant to help us overcome the [People's Republic of China]'s biggest advantage, which is mass') and described the intended platforms as 'small, smart, cheap and many'.",
+      "status": "words",
+      "date": "2023-08-28",
+      "quote": "Replicator is meant to help us overcome the [People's Republic of China]'s biggest advantage, which is mass.",
+      "sources": [
+        {
+          "url": "https://www.defensenews.com/pentagon/2023/08/28/pentagon-unveils-replicator-drone-program-to-compete-with-china/",
+          "publisher": "Defense News",
+          "title": "Pentagon unveils Replicator drone program to compete with China",
+          "date": "2023-08-28"
+        },
+        {
+          "url": "https://breakingdefense.com/2023/08/replicator-revealed-pentagon-initiative-to-counter-china-with-mass-produced-autonomous-systems/",
+          "publisher": "Breaking Defense",
+          "title": "Replicator revealed: Pentagon initiative to counter China with mass-produced autonomous systems",
+          "date": "2023-08-28"
+        }
+      ]
+    },
+    {
+      "claim": "Oversight of Replicator was assigned to Hicks and Vice Chairman of the Joint Chiefs of Staff Admiral Christopher Grady, with support from Doug Beck, director of the Defense Innovation Unit. The department later announced a first tranche of Replicator capabilities.",
+      "status": "reported",
+      "date": "2023-08-28",
+      "quote": "Hicks and Vice Chairman of the Joint Chiefs of Staff Adm. Christopher Grady will oversee the program, with support from Doug Beck, director of the Defense Innovation Unit.",
+      "sources": [
+        {
+          "url": "https://defensescoop.com/2023/08/28/hicks-unveils-dods-new-replicator-initiative-to-counter-china-via-autonomous-tech/",
+          "publisher": "DefenseScoop",
+          "title": "Hicks unveils DOD's new Replicator initiative to counter China via autonomous tech",
+          "date": "2023-08-28"
+        },
+        {
+          "url": "https://insideunmannedsystems.com/dod-announces-first-tranche-of-replicator-capabilities-for-advanced-autonomous-systems/",
+          "publisher": "Inside Unmanned Systems",
+          "title": "DoD Announces First Tranche of Replicator Capabilities for Autonomous Systems",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "claim": "In December 2017 the Pentagon confirmed the existence of the Advanced Aviation Threat Identification Program, funded at about $22 million through the defense budget, and said it ended in the 2012 timeframe because other, higher-priority issues merited funding. Outlets differ on whether the statement came from spokesman Tom Crosson or spokeswoman Laura Ochoa.",
+      "status": "documented",
+      "date": "2017-12",
+      "quote": "\"The Advanced Aviation Threat Identification Program ended in the 2012 time frame,\" Pentagon spokeswoman Laura Ochoa said in an email.",
+      "sources": [
+        {
+          "url": "https://www.govexec.com/oversight/2017/12/pentagon-has-confirmed-its-22m-program-investigate-ufos/144632/",
+          "publisher": "Government Executive",
+          "title": "The Pentagon Has Confirmed Its $22M Program To Investigate UFOs",
+          "date": "2017-12"
+        },
+        {
+          "url": "https://www.axios.com/inside-the-pentagons-multi-million-dollar-program-to-explore-ufos-2517965781.html",
+          "publisher": "Axios",
+          "title": "Inside the Pentagon's multi-million dollar program to explore UFOs",
+          "date": "2017-12"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "openQuestions": [
+    "The official defense.gov release for Replicator was not among the results; the quotes are from trade-press coverage of Hicks's speech.",
+    "No source here ties Replicator awards to Anduril, Palantir or Shield AI as the page claims; the first-tranche announcement should be checked for vendor names."
+  ]
+}

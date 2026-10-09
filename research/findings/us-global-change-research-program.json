@@ -1,0 +1,160 @@
+{
+  "entity": "us-global-change-research-program",
+  "name": "US Global Change Research Program",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The U.S. Global Change Research Program (USGCRP) coordinates federal climate research across agencies and produces the congressionally mandated National Climate Assessment. In April 2025 the administration dismissed by email all contributors to the Sixth National Climate Assessment, following staff firings at USGCRP; on June 30, 2025 the program's website, globalchange.gov, which hosted the five published assessments, stopped working without explanation from the White House.",
+    "sources": [
+      {
+        "url": "https://insideclimatenews.org/?p=96592",
+        "publisher": "Inside Climate News",
+        "title": "An Important Archive of Congressionally-Mandated Climate Change Reports Just Went Dark",
+        "date": "2025-07-01"
+      },
+      {
+        "url": "https://www.yahoo.com/news/trump-administration-dismisses-authors-key-205455670.html",
+        "publisher": "Reuters (via Yahoo News)",
+        "title": "US dismisses all authors of National Climate Assessment, email says",
+        "date": "2025-04-29"
+      },
+      {
+        "url": "https://www.notus.org/trump-white-house/federal-website-climate-reports",
+        "publisher": "NOTUS",
+        "title": "Federal website hosting national climate reports goes dark",
+        "date": "2025-07-01"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In late April 2025 the administration dismissed by email all contributors to the Sixth National Climate Assessment, saying the report's scope was being re-evaluated.",
+      "status": "reported",
+      "date": "2025-04-29",
+      "quote": "The email said the scope of the report \"is currently being re-evaluated\" and that all contributors were being dismissed.",
+      "sources": [
+        {
+          "url": "https://www.yahoo.com/news/trump-administration-dismisses-authors-key-205455670.html",
+          "publisher": "Reuters (via Yahoo News)",
+          "title": "US dismisses all authors of National Climate Assessment, email says",
+          "date": "2025-04-29"
+        }
+      ]
+    },
+    {
+      "claim": "The dismissals followed mass firings earlier in April 2025 at the U.S. Global Change Research Program, which oversees the assessment.",
+      "status": "reported",
+      "date": "2025-04",
+      "quote": "The dismissals followed mass firings earlier that month at the US Global Change Research Program (USGCRP), the body that oversees the report.",
+      "sources": [
+        {
+          "url": "https://www.yahoo.com/news/trump-administration-dismisses-authors-key-205455670.html",
+          "publisher": "Reuters (via Yahoo News)",
+          "title": "US dismisses all authors of National Climate Assessment, email says",
+          "date": "2025-04-29"
+        }
+      ]
+    },
+    {
+      "claim": "Nearly 400 contributors were dismissed, leaving the assessment, due in 2028, in doubt.",
+      "status": "reported",
+      "date": "2025-04-29",
+      "quote": "The dismissal of nearly 400 contributors leaves the future of the report in doubt since the multi-year, peer-reviewed analysis is due for publication in 2028.",
+      "sources": [
+        {
+          "url": "https://www.yahoo.com/news/trump-administration-dismisses-authors-key-205455670.html",
+          "publisher": "Reuters (via Yahoo News)",
+          "title": "US dismisses all authors of National Climate Assessment, email says",
+          "date": "2025-04-29"
+        }
+      ]
+    },
+    {
+      "claim": "On Monday June 30, 2025 globalchange.gov, which hosted the five published National Climate Assessments, stopped working; the White House did not explain.",
+      "status": "reported",
+      "date": "2025-06-30",
+      "quote": "The five assessments that have been published so far were previously available through the website globalchange.gov, but the address stopped working Monday afternoon.",
+      "sources": [
+        {
+          "url": "https://www.notus.org/trump-white-house/federal-website-climate-reports",
+          "publisher": "NOTUS",
+          "title": "Federal website hosting national climate reports goes dark",
+          "date": "2025-07-01"
+        },
+        {
+          "url": "https://insideclimatenews.org/?p=96592",
+          "publisher": "Inside Climate News",
+          "title": "An Important Archive of Congressionally-Mandated Climate Change Reports Just Went Dark",
+          "date": "2025-07-01"
+        },
+        {
+          "url": "https://www.commondreams.org/news/climate-assessment-website",
+          "publisher": "Common Dreams",
+          "title": "Climate assessment website taken down",
+          "date": "2025-07-01"
+        }
+      ]
+    },
+    {
+      "claim": "Peter Gleick, who worked on the 2000 assessment, called the takedown 'the modern version of book burning'.",
+      "status": "words",
+      "date": "2025-07",
+      "quote": "Peter Gleick, who worked on the 2000 assessment, called it the modern version of book burning.",
+      "sources": [
+        {
+          "url": "https://www.commondreams.org/news/climate-assessment-website",
+          "publisher": "Common Dreams",
+          "title": "Climate assessment website taken down",
+          "date": "2025-07-01"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "noaa",
+      "toName": "NOAA",
+      "toType": "agency",
+      "relation": "partnered with",
+      "claim": "NOAA is one of the federal agencies participating in USGCRP; the site's entry pairs the program's website takedown with NOAA staff cuts in 2025.",
+      "status": "reported",
+      "date": "2025",
+      "quote": "The dismissals followed mass firings earlier that month at the US Global Change Research Program (USGCRP), the body that oversees the report.",
+      "sources": [
+        {
+          "url": "https://www.yahoo.com/news/trump-administration-dismisses-authors-key-205455670.html",
+          "publisher": "Reuters (via Yahoo News)",
+          "title": "US dismisses all authors of National Climate Assessment, email says",
+          "date": "2025-04-29"
+        }
+      ]
+    },
+    {
+      "to": "donald-trump",
+      "toName": "Donald Trump",
+      "toType": "person",
+      "relation": "other",
+      "claim": "The Trump administration dismissed the National Climate Assessment authors and did not explain the website's removal.",
+      "status": "reported",
+      "date": "2025",
+      "quote": "The administration dismissed all contributors to the U.S. government's signature study by email",
+      "sources": [
+        {
+          "url": "https://www.yahoo.com/news/trump-administration-dismisses-authors-key-205455670.html",
+          "publisher": "Reuters (via Yahoo News)",
+          "title": "US dismisses all authors of National Climate Assessment, email says",
+          "date": "2025-04-29"
+        },
+        {
+          "url": "https://www.notus.org/trump-white-house/federal-website-climate-reports",
+          "publisher": "NOTUS",
+          "title": "Federal website hosting national climate reports goes dark",
+          "date": "2025-07-01"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (documented; NCA6 authors dismissed April 2025; globalchange.gov dark June 30, 2025): supported. The NOAA staff-loss figure and Billion-Dollar Disasters database retirement belong to the NOAA entry and were not covered in this file.",
+    "The NOAA-USGCRP membership link is institutional background; a USGCRP membership source should be added before publishing that connection."
+  ]
+}

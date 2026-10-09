@@ -1,0 +1,200 @@
+{
+  "entity": "kenneth-newcombe",
+  "name": "Kenneth Newcombe",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Kenneth Newcombe is the founder and former chief executive of carbon-credit project developer C-Quest Capital. On October 2, 2024 the U.S. Attorney for the Southern District of New York announced wire fraud, commodities fraud and securities fraud charges against him, alleging a multi-year scheme to inflate emissions reductions from cookstove projects; the CFTC filed a parallel civil complaint. He stepped down as CEO in February 2024. A spokesman denied the allegations.",
+    "sources": [
+      {
+        "url": "https://justice.gov/usao-sdny/pr/us-attorney-announces-criminal-charges-multi-year-fraud-scheme-market-carbon-credits",
+        "publisher": "U.S. Attorney's Office, Southern District of New York",
+        "title": "U.S. Attorney Announces Criminal Charges In Multi-Year Fraud Scheme In The Market For Carbon Credits",
+        "date": "2024-10-02"
+      },
+      {
+        "url": "https://www.cftc.gov/PressRoom/PressReleases/8994-24",
+        "publisher": "CFTC",
+        "title": "CFTC Charges Former CEO of Carbon Credit Project Developer with Fraud Involving Voluntary Carbon Credits",
+        "date": "2024-10-02"
+      },
+      {
+        "url": "https://bnnbloomberg.ca/investing/2024/10/02/former-c-quest-ceo-newcombe-charged-with-carbon-credit-fraud",
+        "publisher": "BNN Bloomberg",
+        "title": "Former C-Quest CEO Newcombe charged with carbon credit fraud",
+        "date": "2024-10-02"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Newcombe was charged by the Southern District of New York with wire fraud, commodities fraud and securities fraud; co-defendant Tridip Goswami was charged with wire and commodities fraud.",
+      "status": "documented",
+      "date": "2024-10-02",
+      "quote": "Newcombe faces wire fraud, commodities fraud, and securities fraud counts, and Goswami faces wire and commodities fraud counts.",
+      "sources": [
+        {
+          "url": "https://justice.gov/usao-sdny/pr/us-attorney-announces-criminal-charges-multi-year-fraud-scheme-market-carbon-credits",
+          "publisher": "U.S. Attorney's Office, Southern District of New York",
+          "title": "U.S. Attorney Announces Criminal Charges In Multi-Year Fraud Scheme In The Market For Carbon Credits",
+          "date": "2024-10-02"
+        }
+      ]
+    },
+    {
+      "claim": "The CFTC filed a civil complaint alleging that from at least 2019 to about December 2023 Newcombe engaged in a fraudulent scheme involving false and misleading reports to at least one carbon-credit registry and third-party reviewers.",
+      "status": "documented",
+      "date": "2024-10-02",
+      "quote": "from at least 2019 to at least in or about Dec. 2023, he engaged in a fraudulent scheme involving false and misleading reports to at least one carbon credit registry and third-party reviewers",
+      "sources": [
+        {
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/8994-24",
+          "publisher": "CFTC",
+          "title": "CFTC Charges Former CEO of Carbon Credit Project Developer with Fraud Involving Voluntary Carbon Credits",
+          "date": "2024-10-02"
+        },
+        {
+          "url": "https://www.cftc.gov/media/11421/enfkennethnewcombecomplaint100224/download",
+          "publisher": "CFTC",
+          "title": "Complaint: Kenneth Newcombe",
+          "date": "2024-10-02"
+        }
+      ]
+    },
+    {
+      "claim": "Prosecutors alleged Newcombe falsified emissions-reduction data to obtain millions of carbon credits and more than $100 million in investment, and covered up lower-than-expected reductions to drive project growth.",
+      "status": "reported",
+      "date": "2024-10-02",
+      "quote": "Prosecutors claim he covered up lower-than-expected emissions reductions to drive aggressive project growth.",
+      "sources": [
+        {
+          "url": "https://bnnbloomberg.ca/investing/2024/10/02/former-c-quest-ceo-newcombe-charged-with-carbon-credit-fraud",
+          "publisher": "BNN Bloomberg",
+          "title": "Former C-Quest CEO Newcombe charged with carbon credit fraud",
+          "date": "2024-10-02"
+        },
+        {
+          "url": "https://channel4.com/news/carbon-credits-pioneer-charged-with-fraud-after-channel-4-news-probe",
+          "publisher": "Channel 4 News",
+          "title": "Carbon credits pioneer charged with fraud after Channel 4 News probe",
+          "date": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "claim": "Newcombe stepped down as C-Quest's CEO in February 2024.",
+      "status": "reported",
+      "date": "2024-02",
+      "quote": "Newcombe stepped down as CEO in February 2024.",
+      "sources": [
+        {
+          "url": "https://bnnbloomberg.ca/investing/2024/10/02/former-c-quest-ceo-newcombe-charged-with-carbon-credit-fraud",
+          "publisher": "BNN Bloomberg",
+          "title": "Former C-Quest CEO Newcombe charged with carbon credit fraud",
+          "date": "2024-10-02"
+        }
+      ]
+    },
+    {
+      "claim": "A spokesman for Newcombe denied the allegations.",
+      "status": "reported",
+      "date": "2024-10-02",
+      "quote": "A spokesman for Newcombe reportedly denied the allegations",
+      "sources": [
+        {
+          "url": "https://bnnbloomberg.ca/investing/2024/10/02/former-c-quest-ceo-newcombe-charged-with-carbon-credit-fraud",
+          "publisher": "BNN Bloomberg",
+          "title": "Former C-Quest CEO Newcombe charged with carbon credit fraud",
+          "date": "2024-10-02"
+        }
+      ]
+    },
+    {
+      "claim": "Channel 4 News reported that the charges followed its own investigation of C-Quest's cookstove credits.",
+      "status": "reported",
+      "date": "2024-10-04",
+      "quote": "Carbon credits pioneer charged with fraud after Channel 4 News probe",
+      "sources": [
+        {
+          "url": "https://channel4.com/news/carbon-credits-pioneer-charged-with-fraud-after-channel-4-news-probe",
+          "publisher": "Channel 4 News",
+          "title": "Carbon credits pioneer charged with fraud after Channel 4 News probe",
+          "date": "2024-10-04"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "c-quest-capital",
+      "toName": "C-Quest Capital",
+      "toType": "company",
+      "relation": "founded",
+      "claim": "Newcombe founded C-Quest Capital and served as its CEO until February 2024.",
+      "status": "reported",
+      "date": "2024-02",
+      "quote": "Ken Newcombe, ex-CEO of carbon credit project developer, C-Quest Capital LLC",
+      "sources": [
+        {
+          "url": "https://bnnbloomberg.ca/investing/2024/10/02/former-c-quest-ceo-newcombe-charged-with-carbon-credit-fraud",
+          "publisher": "BNN Bloomberg",
+          "title": "Former C-Quest CEO Newcombe charged with carbon credit fraud",
+          "date": "2024-10-02"
+        },
+        {
+          "url": "https://justice.gov/usao-sdny/pr/us-attorney-announces-criminal-charges-multi-year-fraud-scheme-market-carbon-credits",
+          "publisher": "U.S. Attorney's Office, Southern District of New York",
+          "title": "U.S. Attorney Announces Criminal Charges In Multi-Year Fraud Scheme In The Market For Carbon Credits",
+          "date": "2024-10-02"
+        }
+      ]
+    },
+    {
+      "to": "sec",
+      "toName": "SEC",
+      "toType": "agency",
+      "relation": "investigated",
+      "claim": "The SEC's October 2024 order against C-Quest found that former senior personnel orchestrated a scheme to inflate carbon credits; the criminal case against Newcombe includes a securities-fraud count.",
+      "status": "documented",
+      "date": "2024-10-02",
+      "quote": "Newcombe faces wire fraud, commodities fraud, and securities fraud counts",
+      "sources": [
+        {
+          "url": "https://justice.gov/usao-sdny/pr/us-attorney-announces-criminal-charges-multi-year-fraud-scheme-market-carbon-credits",
+          "publisher": "U.S. Attorney's Office, Southern District of New York",
+          "title": "U.S. Attorney Announces Criminal Charges In Multi-Year Fraud Scheme In The Market For Carbon Credits",
+          "date": "2024-10-02"
+        },
+        {
+          "url": "https://www.sec.gov/enforcement-litigation/administrative-proceedings/33-11315-s",
+          "publisher": "SEC",
+          "title": "Administrative Proceeding File No. 33-11315 (C-Quest Capital)",
+          "date": "2024-10-02"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "channel-4-news",
+      "toName": "Channel 4 News",
+      "toType": "media",
+      "relation": "investigated",
+      "claim": "Channel 4 News reported that its investigation into C-Quest cookstove credits preceded the US charges against Newcombe.",
+      "status": "reported",
+      "date": "2024-10-04",
+      "quote": "Carbon credits pioneer charged with fraud after Channel 4 News probe",
+      "sources": [
+        {
+          "url": "https://channel4.com/news/carbon-credits-pioneer-charged-with-fraud-after-channel-4-news-probe",
+          "publisher": "Channel 4 News",
+          "title": "Carbon credits pioneer charged with fraud after Channel 4 News probe",
+          "date": "2024-10-04"
+        }
+      ],
+      "reverse": true
+    }
+  ],
+  "openQuestions": [
+    "Charges are allegations; no trial outcome was found. The site says a former executive pleaded guilty and is cooperating; this was not confirmed from the sources opened.",
+    "Newcombe's earlier career (World Bank carbon finance) is widely reported but was not sourced in this file."
+  ]
+}

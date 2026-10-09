@@ -1,0 +1,160 @@
+{
+  "entity": "bonner-and-associates",
+  "name": "Bonner & Associates",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Bonner & Associates is a Washington grassroots-lobbying firm. In 2009, working as a subcontractor to the Hawthorn Group on behalf of the American Coalition for Clean Coal Electricity (ACCCE), it sent letters to members of Congress opposing the Waxman-Markey climate bill, some of which falsely purported to come from groups such as a local NAACP branch and an American Association of University Women branch. The House Select Committee on Energy Independence and Global Warming held a hearing on October 29, 2009.",
+    "sources": [
+      {
+        "url": "https://www.markey.senate.gov/imo/media/globalwarming/files/HRG/102909Letters/maatz.pdf",
+        "publisher": "House Select Committee on Energy Independence and Global Warming (hosted by Sen. Markey)",
+        "title": "Testimony of Lisa Maatz, AAUW, hearing on forged letters, October 29, 2009",
+        "date": "2009-10-29"
+      },
+      {
+        "url": "https://develop.motherjones.com/politics/2009/10/hearing-forged-letters-congress-delayed/",
+        "publisher": "Mother Jones",
+        "title": "Hearing on Forged Letters to Congress Delayed",
+        "date": "2009-10"
+      },
+      {
+        "url": "https://www.motherjones.com/?p=28744",
+        "publisher": "Mother Jones",
+        "title": "Coverage of the October 29, 2009 House hearing on forged letters (Bonner & Associates / ACCCE)",
+        "date": "2009-10-29"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "ACCCE paid the Hawthorn Group nearly $3 million in 2009 for outreach to minority, senior, business and veterans' groups, and Hawthorn in turn hired Bonner & Associates to gather letters from those groups.",
+      "status": "reported",
+      "date": "2009",
+      "quote": "Hawthorn in turn hired Bonner and Associates to drum up letters from those groups.",
+      "sources": [
+        {
+          "url": "https://www.motherjones.com/?p=28744",
+          "publisher": "Mother Jones",
+          "title": "Coverage of the October 29, 2009 House hearing on forged letters (Bonner & Associates / ACCCE)",
+          "date": "2009-10-29"
+        }
+      ]
+    },
+    {
+      "claim": "The AAUW testified that a Bonner employee resurrected a defunct Charlottesville AAUW branch, used the AAUW logo and delivered a letter to a Virginia congressman; Bonner told the AAUW that 58 letters were sent on ACCCE's behalf, as many as 13 of them fraudulent.",
+      "status": "documented",
+      "date": "2009-10-29",
+      "quote": "a total of 58 letters were sent to several members of Congress by Bonner & Associates on behalf of ACCCE; as many as 13 of which were fraudulent",
+      "sources": [
+        {
+          "url": "https://www.markey.senate.gov/imo/media/globalwarming/files/HRG/102909Letters/maatz.pdf",
+          "publisher": "House Select Committee on Energy Independence and Global Warming (hosted by Sen. Markey)",
+          "title": "Testimony of Lisa Maatz, AAUW, hearing on forged letters, October 29, 2009",
+          "date": "2009-10-29"
+        },
+        {
+          "url": "https://www.motherjones.com/?p=28744",
+          "publisher": "Mother Jones",
+          "title": "Coverage of the October 29, 2009 House hearing on forged letters (Bonner & Associates / ACCCE)",
+          "date": "2009-10-29"
+        }
+      ]
+    },
+    {
+      "claim": "ACCCE acknowledged that Bonner worked on its behalf as a Hawthorn subcontractor and said it had not known about or condoned the forged letters.",
+      "status": "reported",
+      "date": "2009",
+      "quote": "ACCCE said it didn't know about the fake letters beforehand, or condone them.",
+      "sources": [
+        {
+          "url": "https://www.motherjones.com/?p=28744",
+          "publisher": "Mother Jones",
+          "title": "Coverage of the October 29, 2009 House hearing on forged letters (Bonner & Associates / ACCCE)",
+          "date": "2009-10-29"
+        }
+      ]
+    },
+    {
+      "claim": "ACCCE said it learned of the forged letters on June 24, 2009, two days before the House passed the climate bill; the affected members were not told until after the vote.",
+      "status": "reported",
+      "date": "2009-06-24",
+      "quote": "ACCCE said it was made aware of the forged letters on June 24, 2009—a full two days before the House narrowly passed the climate bill.",
+      "sources": [
+        {
+          "url": "https://www.motherjones.com/?p=28744",
+          "publisher": "Mother Jones",
+          "title": "Coverage of the October 29, 2009 House hearing on forged letters (Bonner & Associates / ACCCE)",
+          "date": "2009-10-29"
+        }
+      ]
+    },
+    {
+      "claim": "The House Select Committee hearing was first postponed after ranking member Jim Sensenbrenner objected that witness testimony had not been provided 48 hours in advance; ACCCE president Joe Miller testified on October 29, 2009.",
+      "status": "documented",
+      "date": "2009-10-29",
+      "quote": "The delay came after Ranking Minority Member Jim Sensenbrenner (R-Wisc.) raised concerns that the committee had not been provided with witness testimony 48-hours in advance.",
+      "sources": [
+        {
+          "url": "https://develop.motherjones.com/politics/2009/10/hearing-forged-letters-congress-delayed/",
+          "publisher": "Mother Jones",
+          "title": "Hearing on Forged Letters to Congress Delayed",
+          "date": "2009-10"
+        },
+        {
+          "url": "https://www.motherjones.com/?p=28744",
+          "publisher": "Mother Jones",
+          "title": "Coverage of the October 29, 2009 House hearing on forged letters (Bonner & Associates / ACCCE)",
+          "date": "2009-10-29"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "hawthorn-group",
+      "toName": "Hawthorn Group",
+      "toType": "company",
+      "relation": "contracted with",
+      "claim": "Bonner & Associates was hired by the Hawthorn Group as a subcontractor on ACCCE's 2009 outreach campaign.",
+      "status": "reported",
+      "date": "2009",
+      "quote": "Hawthorn in turn hired Bonner and Associates to drum up letters from those groups.",
+      "sources": [
+        {
+          "url": "https://www.motherjones.com/?p=28744",
+          "publisher": "Mother Jones",
+          "title": "Coverage of the October 29, 2009 House hearing on forged letters (Bonner & Associates / ACCCE)",
+          "date": "2009-10-29"
+        }
+      ]
+    },
+    {
+      "to": "american-coalition-for-clean-coal-electricity",
+      "toName": "American Coalition for Clean Coal Electricity",
+      "toType": "nonprofit",
+      "relation": "contracted with",
+      "claim": "Bonner & Associates sent letters to Congress on ACCCE's behalf as a subcontractor to ACCCE's PR firm; ACCCE acknowledged the arrangement.",
+      "status": "documented",
+      "date": "2009",
+      "quote": "a total of 58 letters were sent to several members of Congress by Bonner & Associates on behalf of ACCCE",
+      "sources": [
+        {
+          "url": "https://www.markey.senate.gov/imo/media/globalwarming/files/HRG/102909Letters/maatz.pdf",
+          "publisher": "House Select Committee on Energy Independence and Global Warming (hosted by Sen. Markey)",
+          "title": "Testimony of Lisa Maatz, AAUW, hearing on forged letters, October 29, 2009",
+          "date": "2009-10-29"
+        },
+        {
+          "url": "https://www.motherjones.com/?p=28744",
+          "publisher": "Mother Jones",
+          "title": "Coverage of the October 29, 2009 House hearing on forged letters (Bonner & Associates / ACCCE)",
+          "date": "2009-10-29"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (documented; forged letters to three House Democrats, posing as NAACP, Hispanic community group and AAUW): the AAUW letter and the ACCCE/Hawthorn chain are supported. The NAACP and Hispanic-group letters and the count of three House Democrats were not confirmed from the sources used.",
+    "No source found on any legal consequence for Bonner & Associates."
+  ]
+}

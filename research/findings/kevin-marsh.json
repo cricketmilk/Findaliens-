@@ -1,0 +1,140 @@
+{
+  "entity": "kevin-marsh",
+  "name": "Kevin Marsh",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Kevin Marsh was chairman and chief executive of SCANA Corporation during the construction of two reactors at the V.C. Summer nuclear station, abandoned in 2017. On February 24, 2021 he pleaded guilty in federal court to conspiracy to commit mail and wire fraud, admitting he defrauded ratepayers so SCANA could keep rate increases and qualify for up to $2.2 billion in tax credits; he also pleaded guilty to a state charge. On October 7, 2021 he was sentenced to 24 months, three years of supervision and a $200,000 fine, having forfeited $5 million.",
+    "sources": [
+      {
+        "url": "https://www.justice.gov/usao-sc/pr/former-scana-ceo-pleads-guilty-conspiracy-commit-mail-and-wire-fraud",
+        "publisher": "U.S. Attorney's Office, District of South Carolina",
+        "title": "Former SCANA CEO Pleads Guilty to Conspiracy to Commit Mail and Wire Fraud",
+        "date": "2021-02-24"
+      },
+      {
+        "url": "https://www.justice.gov/usao-sc/pr/former-scana-ceo-sentenced-two-years-defrauding-ratepayers-connection-failed-nuclear",
+        "publisher": "U.S. Attorney's Office, District of South Carolina",
+        "title": "Former SCANA CEO Sentenced to Two Years for Defrauding Ratepayers in Connection with Failed Nuclear Project",
+        "date": "2021-10-07"
+      },
+      {
+        "url": "https://columbiabusinessreport.com/former-scana-ceo-sentenced-to-2-years-in-federal-prison/",
+        "publisher": "Columbia Business Report",
+        "title": "Former SCANA CEO sentenced to 2 years in federal prison",
+        "date": "2021-10-07"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Marsh pleaded guilty to federal conspiracy to commit mail and wire fraud, admitting he intentionally defrauded ratepayers while overseeing the V.C. Summer reactor construction.",
+      "status": "court",
+      "date": "2021-02-24",
+      "quote": "Marsh admits that he intentionally defrauded ratepayers, while he oversaw and managed the company's operations – including the construction of two reactors at the V.C. Summer Nuclear Station",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sc/pr/former-scana-ceo-pleads-guilty-conspiracy-commit-mail-and-wire-fraud",
+          "publisher": "U.S. Attorney's Office, District of South Carolina",
+          "title": "Former SCANA CEO Pleads Guilty to Conspiracy to Commit Mail and Wire Fraud",
+          "date": "2021-02-24"
+        }
+      ]
+    },
+    {
+      "claim": "Judge Mary Lewis sentenced Marsh to 24 months in federal prison, three years of court-ordered supervision and a $200,000 fine.",
+      "status": "court",
+      "date": "2021-10-07",
+      "quote": "United States District Judge Mary Lewis sentenced Marsh to 24 months in federal prison, to be followed by a three-year term of court-ordered supervision. Judge Lewis also imposed a fine of $200,000.",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sc/pr/former-scana-ceo-sentenced-two-years-defrauding-ratepayers-connection-failed-nuclear",
+          "publisher": "U.S. Attorney's Office, District of South Carolina",
+          "title": "Former SCANA CEO Sentenced to Two Years for Defrauding Ratepayers in Connection with Failed Nuclear Project",
+          "date": "2021-10-07"
+        }
+      ]
+    },
+    {
+      "claim": "Under his plea agreement Marsh paid $5 million in federal forfeiture before sentencing.",
+      "status": "court",
+      "date": "2021-10-07",
+      "quote": "Under the terms of his plea agreement, Marsh paid $5 million in federal forfeiture prior to his sentencing.",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sc/pr/former-scana-ceo-sentenced-two-years-defrauding-ratepayers-connection-failed-nuclear",
+          "publisher": "U.S. Attorney's Office, District of South Carolina",
+          "title": "Former SCANA CEO Sentenced to Two Years for Defrauding Ratepayers in Connection with Failed Nuclear Project",
+          "date": "2021-10-07"
+        }
+      ]
+    },
+    {
+      "claim": "Marsh also pleaded guilty to a state grand jury indictment charging obtaining signature or goods by false pretense over $10,000.",
+      "status": "court",
+      "date": "2021",
+      "quote": "He also pleaded guilty to a state grand jury indictment on a charge of obtaining signature or goods by false pretense over $10,000.",
+      "sources": [
+        {
+          "url": "https://columbiabusinessreport.com/former-scana-ceo-sentenced-to-2-years-in-federal-prison/",
+          "publisher": "Columbia Business Report",
+          "title": "Former SCANA CEO sentenced to 2 years in federal prison",
+          "date": "2021-10-07"
+        }
+      ]
+    },
+    {
+      "claim": "A report citing the Bureau of Prisons said Marsh was released on March 1, 2023, before serving his full sentence.",
+      "status": "reported",
+      "date": "2023-03-01",
+      "quote": "Marsh was later released from prison on March 1, 2023, prior to serving a full sentence, according to a federal bureau of prisons search engine.",
+      "sources": [
+        {
+          "url": "https://www.powermag.com/former-scana-ceo-will-land-in-prison-as-result-of-v-c-summer-nuclear-project/",
+          "publisher": "POWER Magazine",
+          "title": "Former SCANA CEO Will Land in Prison as Result of V.C. Summer Nuclear Project"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "scana",
+      "toName": "SCANA",
+      "toType": "company",
+      "relation": "executive of",
+      "claim": "Marsh was SCANA's chief executive during the V.C. Summer expansion.",
+      "status": "court",
+      "date": "2021",
+      "quote": "Former SCANA CEO Pleads Guilty to Conspiracy to Commit Mail and Wire Fraud",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sc/pr/former-scana-ceo-pleads-guilty-conspiracy-commit-mail-and-wire-fraud",
+          "publisher": "U.S. Attorney's Office, District of South Carolina",
+          "title": "Former SCANA CEO Pleads Guilty to Conspiracy to Commit Mail and Wire Fraud",
+          "date": "2021-02-24"
+        }
+      ]
+    },
+    {
+      "to": "us-department-of-justice",
+      "toName": "US Department of Justice",
+      "toType": "agency",
+      "relation": "sued by",
+      "claim": "Marsh was prosecuted by the U.S. Attorney for the District of South Carolina, pleaded guilty and was sentenced to two years.",
+      "status": "court",
+      "date": "2021-10-07",
+      "quote": "Former SCANA CEO Sentenced to Two Years for Defrauding Ratepayers in Connection with Failed Nuclear Project",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sc/pr/former-scana-ceo-sentenced-two-years-defrauding-ratepayers-connection-failed-nuclear",
+          "publisher": "U.S. Attorney's Office, District of South Carolina",
+          "title": "Former SCANA CEO Sentenced to Two Years for Defrauding Ratepayers in Connection with Failed Nuclear Project",
+          "date": "2021-10-07"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (pleaded guilty, two years, 2021): supported."
+  ]
+}

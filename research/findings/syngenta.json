@@ -1,0 +1,171 @@
+{
+  "entity": "syngenta",
+  "name": "Syngenta",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Syngenta is a Swiss agrochemical and seed company. The ETC Group's May 2008 report 'Patenting the Climate Genes' counted 532 patent documents in 55 patent families filed by BASF, Monsanto, Bayer, Syngenta, DuPont and biotech partners on genes for drought, heat, flood and salt tolerance; a report on the study attributed seven of the 55 families to Syngenta. ETC's 2010 update counted 262 families and 1,663 documents.",
+    "sources": [
+      {
+        "url": "https://etcgroup.org/node/688",
+        "publisher": "ETC Group",
+        "title": "News release: Patenting the 'Climate Genes'... and Capturing the Climate Agenda",
+        "date": "2008-05-13"
+      },
+      {
+        "url": "https://etcgroup.org/sites/www.etcgroup.org/files/publication/687/03/etcgroupclimategenesfinal05_08.pdf",
+        "publisher": "ETC Group",
+        "title": "Patenting the 'Climate Genes'... and Capturing the Climate Agenda (Communiqué 99)",
+        "date": "2008-05"
+      },
+      {
+        "url": "https://grain.org/en/article/2238-firms-seek-patents-on-climate-ready-altered-crops",
+        "publisher": "GRAIN",
+        "title": "Firms seek patents on 'climate ready' altered crops",
+        "date": "2008"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "ETC Group reported in May 2008 that BASF, Monsanto, Bayer, Syngenta, DuPont and biotech partners had filed 532 patent documents (55 patent families) on so-called 'climate ready' genes at patent offices around the world.",
+      "status": "documented",
+      "date": "2008-05",
+      "quote": "BASF, Monsanto, Bayer, Syngenta, Dupont and biotech partners have filed 532 patent documents (a total of 55 patent families) on so-called \"climate ready\" genes at patent offices around the world",
+      "sources": [
+        {
+          "url": "https://etcgroup.org/sites/www.etcgroup.org/files/publication/687/03/etcgroupclimategenesfinal05_08.pdf",
+          "publisher": "ETC Group",
+          "title": "Patenting the 'Climate Genes'... and Capturing the Climate Agenda (Communiqué 99)",
+          "date": "2008-05"
+        },
+        {
+          "url": "https://etcgroup.org/node/688",
+          "publisher": "ETC Group",
+          "title": "News release: Patenting the 'Climate Genes'... and Capturing the Climate Agenda",
+          "date": "2008-05-13"
+        }
+      ]
+    },
+    {
+      "claim": "ETC said Monsanto and BASF together held 27 of the 55 patent families (49%).",
+      "status": "documented",
+      "date": "2008-05",
+      "quote": "The ETC communiqué itself puts the Monsanto and BASF share at 27 of the 55 patent families (49%)",
+      "sources": [
+        {
+          "url": "https://etcgroup.org/sites/www.etcgroup.org/files/publication/687/03/etcgroupclimategenesfinal05_08.pdf",
+          "publisher": "ETC Group",
+          "title": "Patenting the 'Climate Genes'... and Capturing the Climate Agenda (Communiqué 99)",
+          "date": "2008-05"
+        }
+      ]
+    },
+    {
+      "claim": "GRAIN's account of the study attributed 21 of the 55 gene families to BASF, seven to Syngenta, six to Monsanto and five to Bayer, with a few dozen patents issued and hundreds pending.",
+      "status": "reported",
+      "date": "2008",
+      "quote": "other major players include Syngenta, seven; Monsanto, six; and Bayer of Germany, five",
+      "sources": [
+        {
+          "url": "https://grain.org/en/article/2238-firms-seek-patents-on-climate-ready-altered-crops",
+          "publisher": "GRAIN",
+          "title": "Firms seek patents on 'climate ready' altered crops",
+          "date": "2008"
+        }
+      ]
+    },
+    {
+      "claim": "ETC's later update identified 262 patent families and 1,663 patent documents published between June 2008 and June 2010.",
+      "status": "documented",
+      "date": "2010",
+      "quote": "It identified 262 patent families and 1663 patent documents published between June 2008 and June 2010.",
+      "sources": [
+        {
+          "url": "https://etcgroup.org/node/688",
+          "publisher": "ETC Group",
+          "title": "News release: Patenting the 'Climate Genes'... and Capturing the Climate Agenda",
+          "date": "2008-05-13"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "basf",
+      "toName": "BASF",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Syngenta and BASF were among the companies whose 'climate ready' gene patents ETC Group catalogued in 2008.",
+      "status": "documented",
+      "date": "2008-05",
+      "quote": "BASF, Monsanto, Bayer, Syngenta, Dupont and biotech partners have filed 532 patent documents",
+      "sources": [
+        {
+          "url": "https://etcgroup.org/sites/www.etcgroup.org/files/publication/687/03/etcgroupclimategenesfinal05_08.pdf",
+          "publisher": "ETC Group",
+          "title": "Patenting the 'Climate Genes'... and Capturing the Climate Agenda (Communiqué 99)",
+          "date": "2008-05"
+        }
+      ]
+    },
+    {
+      "to": "monsanto",
+      "toName": "Monsanto",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Syngenta and Monsanto were among the companies whose 'climate ready' gene patents ETC Group catalogued in 2008.",
+      "status": "documented",
+      "date": "2008-05",
+      "quote": "BASF, Monsanto, Bayer, Syngenta, Dupont and biotech partners have filed 532 patent documents",
+      "sources": [
+        {
+          "url": "https://etcgroup.org/sites/www.etcgroup.org/files/publication/687/03/etcgroupclimategenesfinal05_08.pdf",
+          "publisher": "ETC Group",
+          "title": "Patenting the 'Climate Genes'... and Capturing the Climate Agenda (Communiqué 99)",
+          "date": "2008-05"
+        }
+      ]
+    },
+    {
+      "to": "bayer",
+      "toName": "Bayer",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Syngenta and Bayer were among the companies whose 'climate ready' gene patents ETC Group catalogued in 2008.",
+      "status": "documented",
+      "date": "2008-05",
+      "quote": "BASF, Monsanto, Bayer, Syngenta, Dupont and biotech partners have filed 532 patent documents",
+      "sources": [
+        {
+          "url": "https://etcgroup.org/sites/www.etcgroup.org/files/publication/687/03/etcgroupclimategenesfinal05_08.pdf",
+          "publisher": "ETC Group",
+          "title": "Patenting the 'Climate Genes'... and Capturing the Climate Agenda (Communiqué 99)",
+          "date": "2008-05"
+        }
+      ]
+    },
+    {
+      "to": "dupont",
+      "toName": "DuPont",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Syngenta and DuPont were among the companies whose 'climate ready' gene patents ETC Group catalogued in 2008.",
+      "status": "documented",
+      "date": "2008-05",
+      "quote": "BASF, Monsanto, Bayer, Syngenta, Dupont and biotech partners have filed 532 patent documents",
+      "sources": [
+        {
+          "url": "https://etcgroup.org/sites/www.etcgroup.org/files/publication/687/03/etcgroupclimategenesfinal05_08.pdf",
+          "publisher": "ETC Group",
+          "title": "Patenting the 'Climate Genes'... and Capturing the Climate Agenda (Communiqué 99)",
+          "date": "2008-05"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (reported; 532 documents, 55 families; BASF and Monsanto 27 of 55): supported by the ETC communiqué.",
+    "Per-company counts differ between ETC's and GRAIN's accounts.",
+    "Syngenta's 2017 acquisition by ChemChina was not sourced in this file."
+  ]
+}

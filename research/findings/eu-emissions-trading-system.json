@@ -1,0 +1,135 @@
+{
+  "entity": "eu-emissions-trading-system",
+  "name": "EU Emissions Trading System",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The EU Emissions Trading System, launched in 2005, is the European Union's cap-and-trade market for greenhouse-gas allowances. In December 2009 Europol estimated that VAT 'carousel' fraud on allowance trades had cost European governments about EUR 5 billion over 18 months. After cyber-thefts of allowances from several national registries, the European Commission suspended all registry transactions except allocation and surrender from 19:00 CET on January 19, 2011, reopening registries over the following weeks as they met minimum security requirements.",
+    "sources": [
+      {
+        "url": "https://climate.ec.europa.eu/news-your-voice/news/announcement-transitional-measure-eu-ets-registry-system-2011-01-19_en",
+        "publisher": "European Commission, Climate Action",
+        "title": "Announcement of transitional measure: EU ETS registry system",
+        "date": "2011-01-19"
+      },
+      {
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/memo_11_34",
+        "publisher": "European Commission",
+        "title": "Emissions Trading: Q & As following the suspension of transactions in national ETS registries for at least one week from 19:00 CET on Wednesday 19 January 2011",
+        "date": "2011-01-20"
+      },
+      {
+        "url": "https://www.i4ce.org/wp-content/uploads/11-02-Climate-Brief-4-Closing-the-door-to-fraud-in-the-EU-ETS.pdf",
+        "publisher": "CDC Climat Research (I4CE)",
+        "title": "Climate Brief No. 4: Closing the door to fraud in the EU ETS",
+        "date": "2011-02"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In December 2009 Europol estimated that VAT fraud on carbon-allowance trades had cost European governments about EUR 5 billion over the preceding 18 months; the scheme involved buying allowances without VAT and reselling them with VAT, keeping the tax.",
+      "status": "documented",
+      "date": "2009-12-09",
+      "quote": "Europol announced a loss of 5bn euros for European governments in the 18 months leading up to December 2009",
+      "sources": [
+        {
+          "url": "https://journal.probeinternational.org/2009/12/09/carbon-credit-fraud-causes-more-5-billion-euros-damage-european-taxpayer/",
+          "publisher": "Probe International (Carbon Credit Watch)",
+          "title": "Carbon credit fraud causes more than 5 billion euros damage for European taxpayer",
+          "date": "2009-12-09"
+        },
+        {
+          "url": "https://www.i4ce.org/wp-content/uploads/11-02-Climate-Brief-4-Closing-the-door-to-fraud-in-the-EU-ETS.pdf",
+          "publisher": "CDC Climat Research (I4CE)",
+          "title": "Climate Brief No. 4: Closing the door to fraud in the EU ETS",
+          "date": "2011-02"
+        }
+      ]
+    },
+    {
+      "claim": "A Danish national audit report cited Europol's estimate but noted that the basis of the estimate was uncertain.",
+      "status": "documented",
+      "date": "2011",
+      "quote": "it cites a Europol estimate of DKK 38 billion, but notes the basis of the estimate is uncertain",
+      "sources": [
+        {
+          "url": "https://wgea.org/wp-content/uploads/formidable/2/denmark_s_eng_administration-of-emission-trading-registry.pdf",
+          "publisher": "Rigsrevisionen (Danish National Audit Office), via WGEA",
+          "title": "Report on the administration of the emission trading registry (Denmark)"
+        }
+      ]
+    },
+    {
+      "claim": "From 19:00 CET on January 19, 2011 the Commission suspended transactions, except allocation and surrender of allowances, in all EU ETS registries for at least one week in view of recurring security breaches in national registries over the previous two months.",
+      "status": "documented",
+      "date": "2011-01-19",
+      "quote": "As of today, 19 January 2011, 19:00 Central European Time, the European Commission will suspend transactions, except for allocation and surrender of allowances, in all EU ETS registries at least until 26 January 2011, 19:00 Central European Time.",
+      "sources": [
+        {
+          "url": "https://climate.ec.europa.eu/news-your-voice/news/announcement-transitional-measure-eu-ets-registry-system-2011-01-19_en",
+          "publisher": "European Commission, Climate Action",
+          "title": "Announcement of transitional measure: EU ETS registry system",
+          "date": "2011-01-19"
+        },
+        {
+          "url": "https://ec.europa.eu/commission/presscorner/detail/en/memo_11_34",
+          "publisher": "European Commission",
+          "title": "Emissions Trading: Q & As following the suspension of transactions in national ETS registries for at least one week from 19:00 CET on Wednesday 19 January 2011",
+          "date": "2011-01-20"
+        }
+      ]
+    },
+    {
+      "claim": "The Commission said it would determine with national authorities what minimum security measures had to be in place before a registry's suspension could be lifted; registries resumed gradually, with 21 back in normal operation by March 22, 2011.",
+      "status": "documented",
+      "date": "2011-03-22",
+      "quote": "The Commission will proceed to determine together with national authorities what minimum security measures need to be put in place before the suspension of a registry can be lifted.",
+      "sources": [
+        {
+          "url": "https://climate.ec.europa.eu/news-your-voice/news/announcement-transitional-measure-eu-ets-registry-system-2011-01-19_en",
+          "publisher": "European Commission, Climate Action",
+          "title": "Announcement of transitional measure: EU ETS registry system",
+          "date": "2011-01-19"
+        },
+        {
+          "url": "https://ec.europa.eu/clima/news-your-voice/news/update-transitional-measure-eu-ets-registries-czech-republic-and-italy-resume-operations-o-2011-03-22_en",
+          "publisher": "European Commission, Climate Action",
+          "title": "Update on transitional measure: EU ETS registries of Czech Republic and Italy to resume operations",
+          "date": "2011-03-22"
+        }
+      ]
+    },
+    {
+      "claim": "Reporting at the time said more than two million allowances were stolen in total from registries in Austria, Greece, the Czech Republic, Poland and Estonia.",
+      "status": "reported",
+      "date": "2011",
+      "quote": "the Commission said more than two million carbon credits were stolen in total, from Austria, Greece, the Czech Republic, Poland and Estonia",
+      "sources": [
+        {
+          "url": "https://reddmonitor.substack.com/p/the-case-of-the-missing-carbon-credits",
+          "publisher": "REDD-Monitor",
+          "title": "The case of the missing carbon credits"
+        }
+      ]
+    },
+    {
+      "claim": "The Commission's registry regulation now prohibits disclosure of the serial numbers of stolen allowances, after lists published in early 2011 caused market confusion.",
+      "status": "documented",
+      "date": "2011",
+      "quote": "the Regulation clearly prohibits the disclosure of the serial numbers of stolen allowances",
+      "sources": [
+        {
+          "url": "https://climate.ec.europa.eu/areas-action/carbon-markets/eu-emissions-trading-system-eu-ets/union-registry_en",
+          "publisher": "European Commission, Climate Action",
+          "title": "Union Registry"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "openQuestions": [
+    "Site claim (documented; VAT fraud estimated EUR 5 billion; 2011 thefts forced registries to suspend trading): supported by Europol's reported estimate and the Commission's January 19, 2011 announcement.",
+    "The Europol EUR 5 billion figure was seen only via secondary reproductions; Europol's own December 2009 release should be located.",
+    "Early-phase overallocation of allowances (Phase I, 2005-07) was not covered in this file."
+  ]
+}

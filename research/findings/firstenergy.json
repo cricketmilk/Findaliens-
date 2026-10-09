@@ -1,0 +1,159 @@
+{
+  "entity": "firstenergy",
+  "name": "FirstEnergy",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "FirstEnergy Corp. is an Akron, Ohio electric utility holding company. On July 22, 2021 it was charged with conspiracy to commit honest services wire fraud and signed a deferred prosecution agreement with the U.S. Attorney for the Southern District of Ohio, agreeing to pay a $230 million penalty and admitting that it paid millions of dollars to a 501(c)(4) controlled by then-House Speaker Larry Householder in return for nuclear-bailout legislation (House Bill 6), and that it paid $4.3 million to Ohio's utility regulator chairman. Householder was convicted of racketeering in 2023 and sentenced to 20 years.",
+    "sources": [
+      {
+        "url": "https://www.justice.gov/usao-sdoh/pr/firstenergy-charged-federally-agrees-terms-deferred-prosecution-settlement",
+        "publisher": "U.S. Attorney's Office, Southern District of Ohio",
+        "title": "FirstEnergy Charged Federally, Agrees to Terms of Deferred Prosecution Settlement",
+        "date": "2021-07-22"
+      },
+      {
+        "url": "https://www.justice.gov/usao-sdoh/pr/former-ohio-house-speaker-sentenced-20-years-prison-leading-racketeering-conspiracy",
+        "publisher": "U.S. Attorney's Office, Southern District of Ohio",
+        "title": "Former Ohio House Speaker Sentenced to 20 Years in Prison for Leading Racketeering Conspiracy",
+        "date": "2023-06-29"
+      },
+      {
+        "url": "https://www.blbglaw.com/cases/firstenergy-1",
+        "publisher": "Bernstein Litowitz Berger & Grossmann",
+        "title": "In re FirstEnergy Corp. Securities Litigation (case page)"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On July 22, 2021 FirstEnergy was charged with conspiring to commit honest services wire fraud and signed a deferred prosecution agreement with a $230 million penalty; the charge may be dismissed if the company complies.",
+      "status": "court",
+      "date": "2021-07-22",
+      "quote": "The company was charged with conspiring to commit honest services wire fraud and agreed to a $230 million penalty under a deferred prosecution agreement, which could lead to dismissal of the charge.",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdoh/pr/firstenergy-charged-federally-agrees-terms-deferred-prosecution-settlement",
+          "publisher": "U.S. Attorney's Office, Southern District of Ohio",
+          "title": "FirstEnergy Charged Federally, Agrees to Terms of Deferred Prosecution Settlement",
+          "date": "2021-07-22"
+        }
+      ]
+    },
+    {
+      "claim": "In the agreement FirstEnergy admitted it paid millions of dollars to an elected state official through the official's 501(c)(4) in return for the official pursuing nuclear legislation for the company's benefit.",
+      "status": "court",
+      "date": "2021-07-22",
+      "quote": "FirstEnergy Corp. acknowledged in the deferred prosecution agreement that it paid millions of dollars to an elected state public official through the official's alleged 501(c)(4) in return for the official pursuing nuclear legislation for FirstEnergy Corp.'s benefit.",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdoh/pr/firstenergy-charged-federally-agrees-terms-deferred-prosecution-settlement",
+          "publisher": "U.S. Attorney's Office, Southern District of Ohio",
+          "title": "FirstEnergy Charged Federally, Agrees to Terms of Deferred Prosecution Settlement",
+          "date": "2021-07-22"
+        }
+      ]
+    },
+    {
+      "claim": "The company admitted using the Generation Now nonprofit to hide payments to public officials and to paying $4.3 million to Ohio's then utility-regulator chairman Sam Randazzo, who denied wrongdoing and was not charged at the time.",
+      "status": "court",
+      "date": "2021-07-22",
+      "quote": "the company admitted to using the Generation Now nonprofit to hide payments to public officials, and to a $4.3 million bribe to Ohio's then-utility regulator chairman, Sam Randazzo",
+      "sources": [
+        {
+          "url": "https://www.blbglaw.com/cases/firstenergy-1",
+          "publisher": "Bernstein Litowitz Berger & Grossmann",
+          "title": "In re FirstEnergy Corp. Securities Litigation (case page)"
+        }
+      ]
+    },
+    {
+      "claim": "Prosecutors said the racketeering conspiracy led by Householder involved nearly $61 million in bribes to pass and uphold a billion-dollar nuclear plant bailout.",
+      "status": "court",
+      "date": "2023-06",
+      "quote": "The conspiracy involved nearly $61 million in bribes to pass and uphold a billion-dollar nuclear plant bailout.",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdoh/pr/former-ohio-house-speaker-sentenced-20-years-prison-leading-racketeering-conspiracy",
+          "publisher": "U.S. Attorney's Office, Southern District of Ohio",
+          "title": "Former Ohio House Speaker Sentenced to 20 Years in Prison for Leading Racketeering Conspiracy",
+          "date": "2023-06-29"
+        }
+      ]
+    },
+    {
+      "claim": "The Solicitor General's 2026 brief described FirstEnergy as an Ohio public utility in 'dire financial straits' that sought a taxpayer-funded bailout and agreed to bankroll Householder's bid to become Speaker.",
+      "status": "documented",
+      "date": "2026-03",
+      "quote": "FirstEnergy Corporation, an Ohio public utility that was in \"dire financial straits\" and sought a taxpayer-funded bailout, agreed to bankroll Householder's bid to become Speaker",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/d9/2026-03/householder_and_borges_opp.pdf",
+          "publisher": "U.S. Department of Justice (Office of the Solicitor General)",
+          "title": "Householder v. United States / Borges v. United States, brief in opposition",
+          "date": "2026-03"
+        }
+      ]
+    },
+    {
+      "claim": "FirstEnergy also faced a federal securities class action over the scheme.",
+      "status": "documented",
+      "date": "2021",
+      "quote": "In re FirstEnergy Corp. Securities Litigation",
+      "sources": [
+        {
+          "url": "https://www.blbglaw.com/cases/firstenergy-1",
+          "publisher": "Bernstein Litowitz Berger & Grossmann",
+          "title": "In re FirstEnergy Corp. Securities Litigation (case page)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "larry-householder",
+      "toName": "Larry Householder",
+      "toType": "person",
+      "relation": "donated to",
+      "claim": "FirstEnergy admitted paying millions of dollars through Generation Now, a 501(c)(4) controlled by Speaker Householder, in return for his pursuing House Bill 6; Householder was convicted of racketeering in 2023.",
+      "status": "court",
+      "date": "2021-07-22",
+      "quote": "it paid millions of dollars to an elected state public official through the official's alleged 501(c)(4) in return for the official pursuing nuclear legislation",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdoh/pr/firstenergy-charged-federally-agrees-terms-deferred-prosecution-settlement",
+          "publisher": "U.S. Attorney's Office, Southern District of Ohio",
+          "title": "FirstEnergy Charged Federally, Agrees to Terms of Deferred Prosecution Settlement",
+          "date": "2021-07-22"
+        },
+        {
+          "url": "https://www.justice.gov/usao-sdoh/pr/former-ohio-house-speaker-sentenced-20-years-prison-leading-racketeering-conspiracy",
+          "publisher": "U.S. Attorney's Office, Southern District of Ohio",
+          "title": "Former Ohio House Speaker Sentenced to 20 Years in Prison for Leading Racketeering Conspiracy",
+          "date": "2023-06-29"
+        }
+      ]
+    },
+    {
+      "to": "us-department-of-justice",
+      "toName": "US Department of Justice",
+      "toType": "agency",
+      "relation": "settled with",
+      "claim": "FirstEnergy signed a deferred prosecution agreement with the U.S. Attorney for the Southern District of Ohio in July 2021 and agreed to a $230 million penalty.",
+      "status": "court",
+      "date": "2021-07-22",
+      "quote": "FirstEnergy Corp. signed a deferred prosecution settlement in July 2021, agreeing to pay a $230 million penalty",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdoh/pr/firstenergy-charged-federally-agrees-terms-deferred-prosecution-settlement",
+          "publisher": "U.S. Attorney's Office, Southern District of Ohio",
+          "title": "FirstEnergy Charged Federally, Agrees to Terms of Deferred Prosecution Settlement",
+          "date": "2021-07-22"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (convicted; ~$60 million to Householder for HB6; 20 years; appeals lost; $230 million DPA; 2026 state mistrial of two ex-executives and re-indictment): federal elements supported. The 2026 Ohio state trial and mistrial were not confirmed from the sources used (site cites Cleveland 19).",
+    "Whether the federal charge against FirstEnergy was ultimately dismissed at the end of the DPA term was not confirmed."
+  ]
+}

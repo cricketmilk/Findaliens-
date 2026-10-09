@@ -1,0 +1,151 @@
+{
+  "entity": "western-fuels-association",
+  "name": "Western Fuels Association",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The Western Fuels Association is a not-for-profit cooperative founded in 1973 that supplies coal and transport services to consumer-owned utilities. Under long-time CEO and general counsel Fred Palmer it co-created the 1991 Information Council for the Environment ad campaign and in 1997 set up the Greening Earth Society, an advocacy group on climate change and fossil-fuel use that DeSmog describes as controlled by the association.",
+    "sources": [
+      {
+        "url": "https://www.desmog.com/western-fuels-association/",
+        "publisher": "DeSmog",
+        "title": "Western Fuels Association (WFA)"
+      },
+      {
+        "url": "https://www.desmog.com/fred-palmer",
+        "publisher": "DeSmog",
+        "title": "Fred Palmer"
+      },
+      {
+        "url": "https://www.desmog.com/information-council-environment",
+        "publisher": "DeSmog",
+        "title": "Information Council for the Environment (ICE)"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "DeSmog describes the Western Fuels Association as a not-for-profit cooperative founded in 1973 that supplies coal and transportation services to consumer-owned utilities.",
+      "status": "documented",
+      "date": "1973",
+      "quote": "a not-for-profit cooperative that supplies coal and transportation services to consumer-owned utilities, founded in 1973",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/western-fuels-association/",
+          "publisher": "DeSmog",
+          "title": "Western Fuels Association (WFA)"
+        }
+      ]
+    },
+    {
+      "claim": "Fred Palmer spent about 15 years as the association's CEO and general counsel and represented it on the board of the National Mining Association before moving to Peabody Energy.",
+      "status": "reported",
+      "date": "1990s",
+      "quote": "He spent about 15 years as WFA's CEO and general counsel, and represented WFA on the board of directors of the National Mining Association.",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/fred-palmer",
+          "publisher": "DeSmog",
+          "title": "Fred Palmer"
+        }
+      ]
+    },
+    {
+      "claim": "The Western Fuels Association was one of the three creators of the 1991 Information Council for the Environment campaign.",
+      "status": "documented",
+      "date": "1991",
+      "quote": "created by the National Coal Association, the Western Fuels Association, and Edison Electrical Institute",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/information-council-environment",
+          "publisher": "DeSmog",
+          "title": "Information Council for the Environment (ICE)"
+        },
+        {
+          "url": "https://www.ebsco.com/research-starters/science/information-council-environment-ice",
+          "publisher": "EBSCO Research Starters",
+          "title": "Information Council on the Environment (ICE)"
+        }
+      ]
+    },
+    {
+      "claim": "The Greening Earth Society was set up in 1997 as a vehicle for advocacy on climate change and fossil-fuel use; DeSmog describes it as controlled by the Western Fuels Association, and a 1998 CLEAR report said the two were essentially the same organisation under Palmer.",
+      "status": "reported",
+      "date": "1997",
+      "quote": "The CLEAR report says the two organizations are essentially the same organization, and both shared Palmer as their leader.",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/fred-palmer",
+          "publisher": "DeSmog",
+          "title": "Fred Palmer"
+        },
+        {
+          "url": "https://www.desmog.com/western-fuels-association/",
+          "publisher": "DeSmog",
+          "title": "Western Fuels Association (WFA)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "information-council-on-the-environment",
+      "toName": "Information Council on the Environment",
+      "toType": "campaign",
+      "relation": "founded",
+      "claim": "The Western Fuels Association co-created ICE in 1991 with the National Coal Association and Edison Electric Institute.",
+      "status": "documented",
+      "date": "1991",
+      "quote": "created by the National Coal Association, the Western Fuels Association, and Edison Electrical Institute",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/information-council-environment",
+          "publisher": "DeSmog",
+          "title": "Information Council for the Environment (ICE)"
+        }
+      ]
+    },
+    {
+      "to": "edison-electric-institute",
+      "toName": "Edison Electric Institute",
+      "toType": "trade group",
+      "relation": "partnered with",
+      "claim": "The Western Fuels Association and the Edison Electric Institute were co-founders of the 1991 ICE campaign.",
+      "status": "documented",
+      "date": "1991",
+      "quote": "created by the National Coal Association, the Western Fuels Association, and Edison Electrical Institute",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/information-council-environment",
+          "publisher": "DeSmog",
+          "title": "Information Council for the Environment (ICE)"
+        },
+        {
+          "url": "https://www.ebsco.com/research-starters/science/information-council-environment-ice",
+          "publisher": "EBSCO Research Starters",
+          "title": "Information Council on the Environment (ICE)"
+        }
+      ]
+    },
+    {
+      "to": "peabody-energy",
+      "toName": "Peabody Energy",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Western Fuels' long-time CEO Fred Palmer later moved to Peabody Energy.",
+      "status": "reported",
+      "date": "2000s",
+      "quote": "He later moved to Peabody Energy.",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/fred-palmer",
+          "publisher": "DeSmog",
+          "title": "Fred Palmer"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The 'Greening of Planet Earth' video often attributed to Western Fuels was not sourced in this file.",
+    "Primary WFA documents (e.g. annual reports) were not opened; DeSmog is an advocacy publisher."
+  ]
+}

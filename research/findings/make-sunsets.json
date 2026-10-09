@@ -1,0 +1,138 @@
+{
+  "entity": "make-sunsets",
+  "name": "Make Sunsets",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Make Sunsets is a US startup founded by Luke Iseman that releases sulfur dioxide into the stratosphere by weather balloon and sells 'cooling credits' for the claimed effect. After it launched balloons in Baja California Sur without permission, Mexico's environment ministry Semarnat and science council Conacyt announced on January 13, 2023 that the country would prohibit solar-geoengineering experiments; the company said its launch plans were on hold.",
+    "sources": [
+      {
+        "url": "https://www.nbcnews.com/news/amp/rcna66527",
+        "publisher": "NBC News",
+        "title": "Mexico cracks down on solar geoengineering, forcing startup to pause operations",
+        "date": "2023-01"
+      },
+      {
+        "url": "https://www.popsci.com/technology/mexico-solar-geoengineering-ban/",
+        "publisher": "Popular Science",
+        "title": "Mexico bans solar geoengineering tests after US startup's unsanctioned 'science project'",
+        "date": "2023-01"
+      },
+      {
+        "url": "https://www.geoengineeringmonitor.org/by-prohibiting-solar-geoengineering-experiments-mexico-sets-a-global-example-of-precaution?print=pdf",
+        "publisher": "Geoengineering Monitor",
+        "title": "By prohibiting solar geoengineering experiments, Mexico sets a global example of precaution",
+        "date": "2023-01"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Semarnat and Conacyt issued a joint statement on January 13, 2023 announcing a prohibition on solar-geoengineering experiments, noting the absence of international regulation or supervisory frameworks.",
+      "status": "documented",
+      "date": "2023-01-13",
+      "quote": "Semarnat and Conacyt issued a joint statement on January 13 announcing the prohibition, pointing out that there are no international regulations or supervisory frameworks addressing geoengineering projects.",
+      "sources": [
+        {
+          "url": "https://mexiconewsdaily.com/?p=209477",
+          "publisher": "Mexico News Daily",
+          "title": "Mexico to ban solar geoengineering experiments",
+          "date": "2023-01"
+        },
+        {
+          "url": "https://www.geoengineeringmonitor.org/by-prohibiting-solar-geoengineering-experiments-mexico-sets-a-global-example-of-precaution?print=pdf",
+          "publisher": "Geoengineering Monitor",
+          "title": "By prohibiting solar geoengineering experiments, Mexico sets a global example of precaution",
+          "date": "2023-01"
+        }
+      ]
+    },
+    {
+      "claim": "Make Sunsets ran its balloon experiment in Baja California Sur without government permission or notice to nearby communities, burning sulfur into a helium weather balloon.",
+      "status": "reported",
+      "date": "2022",
+      "quote": "Make Sunsets ran it in Baja California Sur without government permission or notice to nearby communities.",
+      "sources": [
+        {
+          "url": "https://www.popsci.com/technology/mexico-solar-geoengineering-ban/",
+          "publisher": "Popular Science",
+          "title": "Mexico bans solar geoengineering tests after US startup's unsanctioned 'science project'",
+          "date": "2023-01"
+        },
+        {
+          "url": "https://www.nbcnews.com/news/amp/rcna66527",
+          "publisher": "NBC News",
+          "title": "Mexico cracks down on solar geoengineering, forcing startup to pause operations",
+          "date": "2023-01"
+        }
+      ]
+    },
+    {
+      "claim": "Founder Luke Iseman said the company did not track the balloons to confirm they reached altitude and delivered their payloads.",
+      "status": "words",
+      "date": "2023-01",
+      "quote": "Iseman added that Make Sunsets didn't even track the balloons to see if they ascended high enough to successfully deliver their payloads.",
+      "sources": [
+        {
+          "url": "https://www.popsci.com/technology/mexico-solar-geoengineering-ban/",
+          "publisher": "Popular Science",
+          "title": "Mexico bans solar geoengineering tests after US startup's unsanctioned 'science project'",
+          "date": "2023-01"
+        }
+      ]
+    },
+    {
+      "claim": "The company sold 'cooling credits' for future balloon flights at $10 each.",
+      "status": "reported",
+      "date": "2023-01",
+      "quote": "the company was selling \"cooling credits\" for future balloon flights with larger amounts of sulphur dioxide for $10 each",
+      "sources": [
+        {
+          "url": "https://www.thejakartapost.com/world/2023/04/01/how-two-weather-balloons-led-mexico-to-ban-solar-geoengineering",
+          "publisher": "The Jakarta Post (Reuters)",
+          "title": "How two weather balloons led Mexico to ban solar geoengineering",
+          "date": "2023-04-01"
+        }
+      ]
+    },
+    {
+      "claim": "Iseman, a former director of hardware at Y Combinator, has no climate-science training.",
+      "status": "reported",
+      "date": "2023-01",
+      "quote": "He has no climate science training.",
+      "sources": [
+        {
+          "url": "https://www.popsci.com/technology/mexico-solar-geoengineering-ban/",
+          "publisher": "Popular Science",
+          "title": "Mexico bans solar geoengineering tests after US startup's unsanctioned 'science project'",
+          "date": "2023-01"
+        },
+        {
+          "url": "https://www.nbcnews.com/news/amp/rcna66527",
+          "publisher": "NBC News",
+          "title": "Mexico cracks down on solar geoengineering, forcing startup to pause operations",
+          "date": "2023-01"
+        }
+      ]
+    },
+    {
+      "claim": "After Mexico's announcement Iseman said the company's future launch plans were 'indefinitely on hold'.",
+      "status": "words",
+      "date": "2023-01",
+      "quote": "Iseman told The Verge that the company's future launch plans are \"indefinitely on hold\" for the moment.",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/news/amp/rcna66527",
+          "publisher": "NBC News",
+          "title": "Mexico cracks down on solar geoengineering, forcing startup to pause operations",
+          "date": "2023-01"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "openQuestions": [
+    "Site claim (documented; released balloons and sold credits; launches never independently verified; Mexico moved to ban experiments): supported; the company's own statement that it did not track the balloons supports 'never independently verified'.",
+    "Sources differ on when the Baja launch occurred (April vs late 2022).",
+    "No connections recorded: no sourced relationship to another entity on the site was found."
+  ]
+}

@@ -399,3 +399,26 @@ that.
    round, the final BCCI dividend, and anything from Reuters, AP, NYT, FT,
    Guardian or BBC, which the search crawler cannot reach.
 4. Re-run `node research/extract-entities.mjs` if a page changes.
+
+## Coverage after round three (2026-10-09)
+
+Entities named on each page versus entities with a findings file (drafts
+count; approval is still the owner's step):
+
+| page | named | with research |
+|---|---|---|
+| Crash Conduits | 350 | 63 |
+| The Carbon Ledger | 79 | 17 |
+| Post-Human Resources | 28 | 23 |
+| Manufacturing Consent | 31 | 22 |
+| Blind Pool | 56 | 38 |
+| Deep State Dossiers | 8 | 6 |
+| Demystification Desk | 10 | 8 |
+
+Round three added 54 files in five parts: the Deep State and Demystification
+dossiers' names (AAWSAP from the DIA's own memo, Roswell from the 1995 USAF
+report and GAO, Blue Book, the U-2 history, ICE–Palantir, OPM's 2026 rule);
+the platform companies and sovereign funds; the Post-Human funders, labs and
+thinkers; the Consent page's campaign machinery; and the Carbon Ledger's
+uncovered majors. The Crash Conduits count is high because its 68 nodes name
+hundreds of one-off insiders; the ones that recur across nodes are covered.

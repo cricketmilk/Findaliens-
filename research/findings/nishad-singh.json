@@ -1,0 +1,115 @@
+{
+  "entity": "nishad-singh",
+  "name": "Nishad Singh",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Nishad Singh was FTX's director of engineering. He pleaded guilty, cooperated with prosecutors and testified against Sam Bankman-Fried. On October 30, 2024 U.S. District Judge Lewis Kaplan sentenced him to time served and three years of supervised release, with prosecutors saying he had provided 'substantial assistance' to the government.",
+    "sources": [
+      {
+        "url": "https://blockworks.com/news/nishad-singh-sentenced-to-three-years-supervised-release",
+        "publisher": "Blockworks",
+        "title": "Ex-FTX engineering head avoids prison, sentenced to 3 years supervised release",
+        "date": "2024-10-30"
+      },
+      {
+        "url": "https://cointelegraph.com/news/ftx-nishad-singh-sentenced-guilty",
+        "publisher": "Cointelegraph",
+        "title": "FTX's Nishad Singh sentenced",
+        "date": "2024-10-30"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On October 30, 2024 Judge Lewis Kaplan sentenced Singh, FTX's former engineering director, to time served plus three years of supervised release.",
+      "status": "court",
+      "date": "2024-10-30",
+      "sources": [
+        {
+          "url": "https://blockworks.com/news/nishad-singh-sentenced-to-three-years-supervised-release",
+          "publisher": "Blockworks",
+          "title": "Ex-FTX engineering head avoids prison, sentenced to 3 years supervised release",
+          "date": "2024-10-30"
+        },
+        {
+          "url": "https://cointelegraph.com/news/ftx-nishad-singh-sentenced-guilty",
+          "publisher": "Cointelegraph",
+          "title": "FTX's Nishad Singh sentenced",
+          "date": "2024-10-30"
+        }
+      ]
+    },
+    {
+      "claim": "Prosecutors said Singh provided 'substantial assistance' to the government in its case against Bankman-Fried, and the judge credited his cooperation.",
+      "status": "court",
+      "date": "2024-10-30",
+      "quote": "substantial assistance",
+      "sources": [
+        {
+          "url": "https://blockworks.com/news/nishad-singh-sentenced-to-three-years-supervised-release",
+          "publisher": "Blockworks",
+          "title": "Ex-FTX engineering head avoids prison, sentenced to 3 years supervised release",
+          "date": "2024-10-30"
+        }
+      ]
+    },
+    {
+      "claim": "Singh's time-served sentence was later matched by that of FTX co-founder Gary Wang in November 2024.",
+      "status": "reported",
+      "date": "2024-11-20",
+      "sources": [
+        {
+          "url": "https://blockworks.com/news/ftx-co-founder-sentenced-to-time-served",
+          "publisher": "Blockworks",
+          "title": "FTX co-founder won't serve time in prison, judge rules",
+          "date": "2024-11-20"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "ftx",
+      "toName": "FTX",
+      "toType": "company",
+      "relation": "employed by",
+      "claim": "Singh was FTX's director of engineering and was sentenced for his role in the fraud at the exchange.",
+      "status": "court",
+      "date": "2024-10-30",
+      "sources": [
+        {
+          "url": "https://blockworks.com/news/nishad-singh-sentenced-to-three-years-supervised-release",
+          "publisher": "Blockworks",
+          "title": "Ex-FTX engineering head avoids prison, sentenced to 3 years supervised release",
+          "date": "2024-10-30"
+        },
+        {
+          "url": "https://cointelegraph.com/news/ftx-nishad-singh-sentenced-guilty",
+          "publisher": "Cointelegraph",
+          "title": "FTX's Nishad Singh sentenced",
+          "date": "2024-10-30"
+        }
+      ]
+    },
+    {
+      "to": "sam-bankman-fried",
+      "toName": "Sam Bankman-Fried",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Singh cooperated with prosecutors and testified in the case against Bankman-Fried.",
+      "status": "court",
+      "date": "2024-10-30",
+      "sources": [
+        {
+          "url": "https://blockworks.com/news/nishad-singh-sentenced-to-three-years-supervised-release",
+          "publisher": "Blockworks",
+          "title": "Ex-FTX engineering head avoids prison, sentenced to 3 years supervised release",
+          "date": "2024-10-30"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The SDNY sentencing release and the counts of Singh's guilty plea (including any campaign-finance count relevant to the site's political-donation claim) were not confirmed here."
+  ]
+}

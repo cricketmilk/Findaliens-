@@ -1,0 +1,131 @@
+{
+  "entity": "jack-grubman",
+  "name": "Jack Grubman",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Jack Grubman was a telecommunications research analyst at Salomon Smith Barney, Citigroup's brokerage unit. On April 28, 2003, as part of the Global Research Analyst Settlement, the SEC, the New York Attorney General, the NASD and the NYSE announced that Grubman would be censured, permanently barred from the securities industry and pay $15 million, without admitting or denying the findings; half went to a distribution fund for Salomon Smith Barney customers and half was a penalty paid to New York.",
+    "sources": [
+      {
+        "url": "https://www.sec.gov/news/press/2003-55.htm",
+        "publisher": "SEC",
+        "title": "SEC, NY Attorney General, NASD, NYSE Announce Settlement with Jack Grubman",
+        "date": "2003-04-28"
+      },
+      {
+        "url": "https://www.sec.gov/spotlight/globalsettlement.htm",
+        "publisher": "SEC",
+        "title": "Global Research Analyst Settlement",
+        "date": "2003"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On April 28, 2003 the SEC, the New York Attorney General, the NASD and the NYSE announced that Grubman would be censured, permanently barred from the securities industry and pay $15 million; he neither admitted nor denied the findings.",
+      "status": "court",
+      "date": "2003-04-28",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/news/press/2003-55.htm",
+          "publisher": "SEC",
+          "title": "SEC, NY Attorney General, NASD, NYSE Announce Settlement with Jack Grubman",
+          "date": "2003-04-28"
+        }
+      ]
+    },
+    {
+      "claim": "Half of Grubman's $15 million payment ($7.5 million) went to a distribution fund for Salomon Smith Barney customers and the other half was a penalty paid to the New York Attorney General; he may not seek reimbursement or indemnification for the amounts.",
+      "status": "court",
+      "date": "2003-04-28",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/news/press/2003-55.htm",
+          "publisher": "SEC",
+          "title": "SEC, NY Attorney General, NASD, NYSE Announce Settlement with Jack Grubman",
+          "date": "2003-04-28"
+        }
+      ]
+    },
+    {
+      "claim": "The SEC filed its federal court complaint against Grubman the same day, April 28, 2003, as part of the regulators' Global Research Analyst Settlement with ten firms.",
+      "status": "documented",
+      "date": "2003-04-28",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/news/press/2003-55.htm",
+          "publisher": "SEC",
+          "title": "SEC, NY Attorney General, NASD, NYSE Announce Settlement with Jack Grubman",
+          "date": "2003-04-28"
+        },
+        {
+          "url": "https://www.sec.gov/spotlight/globalsettlement.htm",
+          "publisher": "SEC",
+          "title": "Global Research Analyst Settlement",
+          "date": "2003"
+        },
+        {
+          "url": "https://www.sec.gov/litigation/litreleases/lr18438.htm",
+          "publisher": "SEC",
+          "title": "Litigation Release No. 18438: Federal Court Approves Global Research Analyst Settlement",
+          "date": "2003-10-31"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "citigroup",
+      "toName": "Citigroup",
+      "toType": "bank",
+      "relation": "employed by",
+      "claim": "Grubman was a research analyst at Salomon Smith Barney, Citigroup's brokerage unit, whose customers received half of his $15 million payment.",
+      "status": "court",
+      "date": "2003-04-28",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/news/press/2003-55.htm",
+          "publisher": "SEC",
+          "title": "SEC, NY Attorney General, NASD, NYSE Announce Settlement with Jack Grubman",
+          "date": "2003-04-28"
+        }
+      ]
+    },
+    {
+      "to": "sec",
+      "toName": "SEC",
+      "toType": "agency",
+      "relation": "settled with",
+      "claim": "Grubman settled SEC charges in April 2003 with a permanent industry bar and $15 million payment.",
+      "status": "court",
+      "date": "2003-04-28",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/news/press/2003-55.htm",
+          "publisher": "SEC",
+          "title": "SEC, NY Attorney General, NASD, NYSE Announce Settlement with Jack Grubman",
+          "date": "2003-04-28"
+        }
+      ]
+    },
+    {
+      "to": "eliot-spitzer",
+      "toName": "Eliot Spitzer",
+      "toType": "person",
+      "relation": "settled with",
+      "claim": "The New York Attorney General, Eliot Spitzer, was a party to the April 2003 settlement with Grubman and received $7.5 million of the payment as a penalty.",
+      "status": "court",
+      "date": "2003-04-28",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/news/press/2003-55.htm",
+          "publisher": "SEC",
+          "title": "SEC, NY Attorney General, NASD, NYSE Announce Settlement with Jack Grubman",
+          "date": "2003-04-28"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site description 'barred for life from the securities industry over conflicted research': supported (SEC release 2003-55)."
+  ]
+}

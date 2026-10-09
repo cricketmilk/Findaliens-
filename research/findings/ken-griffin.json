@@ -1,0 +1,148 @@
+{
+  "entity": "ken-griffin",
+  "name": "Ken Griffin",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Kenneth Griffin is the founder and chief executive of Citadel, a hedge fund, and founder of the affiliated market maker Citadel Securities. He testified before the House Financial Services Committee on February 18, 2021 at its hearing on the January 2021 trading in GameStop shares, alongside Robinhood chief executive Vlad Tenev. In September 2023 Citadel Securities LLC, not Griffin personally, settled SEC charges that a coding error caused it to mismark millions of sale orders as long or short over about five years, paying a $7 million penalty without admitting or denying the findings.",
+    "sources": [
+      {
+        "url": "https://www.sec.gov/news/press-release/2023-192",
+        "publisher": "SEC",
+        "title": "SEC Charges Citadel Securities for Violating Order Marking Requirements of Short Sale Regulations",
+        "date": "2023-09-22"
+      },
+      {
+        "url": "https://www.bloomberg.com/news/articles/2021-02-13/citadel-s-griffin-robinhood-ceo-to-testify-on-gamestop-feb-18",
+        "publisher": "Bloomberg",
+        "title": "Citadel's Griffin, Robinhood CEO to Testify at GameStop Hearings",
+        "date": "2021-02-13"
+      },
+      {
+        "url": "https://www.nbclosangeles.com/news/business/money-report/sec-slaps-investment-firm-citadel-with-7-million-fine-to-settle-short-selling-charges/3230024/?amp=1",
+        "publisher": "NBC Los Angeles (CNBC)",
+        "title": "SEC slaps investment firm Citadel with $7 million fine to settle short-selling charges",
+        "date": "2023-09-22"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Griffin, Citadel's founder, and Robinhood chief executive Vlad Tenev were among six witnesses at the House Financial Services Committee hearing of February 18, 2021 examining the January 2021 trading in GameStop shares.",
+      "status": "documented",
+      "date": "2021-02-18",
+      "quote": "Ken Griffin, Citadel's billionaire founder, and Robinhood Markets Inc. Chief Executive Officer Vlad Tenev will testify next week at a House hearing on wild swings in GameStop Corp. shares and other stocks.",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2021-02-13/citadel-s-griffin-robinhood-ceo-to-testify-on-gamestop-feb-18",
+          "publisher": "Bloomberg",
+          "title": "Citadel's Griffin, Robinhood CEO to Testify at GameStop Hearings",
+          "date": "2021-02-13"
+        },
+        {
+          "url": "https://www.clickondetroit.com/tech/2021/02/18/live-stream-robinhood-reddit-ceos-testify-in-house-hearing-on-gamestop-stock-saga/",
+          "publisher": "ClickOnDetroit (AP)",
+          "title": "Robinhood, Reddit CEOs testify in House hearing on GameStop stock saga",
+          "date": "2021-02-18"
+        }
+      ]
+    },
+    {
+      "claim": "At the hearing, committee chair Maxine Waters questioned Tenev about Robinhood's relationship with Citadel Securities, which she said posed a conflict of interest; Tenev called such claims 'market-distorting rhetoric'.",
+      "status": "reported",
+      "date": "2021-02-18",
+      "quote": "market-distorting rhetoric",
+      "sources": [
+        {
+          "url": "https://www.clickondetroit.com/tech/2021/02/18/live-stream-robinhood-reddit-ceos-testify-in-house-hearing-on-gamestop-stock-saga/",
+          "publisher": "ClickOnDetroit (AP)",
+          "title": "Robinhood, Reddit CEOs testify in House hearing on GameStop stock saga",
+          "date": "2021-02-18"
+        }
+      ]
+    },
+    {
+      "claim": "On September 22, 2023 the SEC announced settled charges against Citadel Securities LLC for violating the order-marking provision of Regulation SHO; the firm agreed to a $7 million penalty and a censure without admitting or denying the findings. Griffin was not named as a party.",
+      "status": "court",
+      "date": "2023-09-22",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/news/press-release/2023-192",
+          "publisher": "SEC",
+          "title": "SEC Charges Citadel Securities for Violating Order Marking Requirements of Short Sale Regulations",
+          "date": "2023-09-22"
+        },
+        {
+          "url": "https://www.nbclosangeles.com/news/business/money-report/sec-slaps-investment-firm-citadel-with-7-million-fine-to-settle-short-selling-charges/3230024/?amp=1",
+          "publisher": "NBC Los Angeles (CNBC)",
+          "title": "SEC slaps investment firm Citadel with $7 million fine to settle short-selling charges",
+          "date": "2023-09-22"
+        }
+      ]
+    },
+    {
+      "claim": "CNBC described Griffin as Citadel's founder and CEO in its coverage of the 2023 SEC settlement.",
+      "status": "reported",
+      "date": "2023-09-22",
+      "sources": [
+        {
+          "url": "https://www.nbclosangeles.com/news/business/money-report/sec-slaps-investment-firm-citadel-with-7-million-fine-to-settle-short-selling-charges/3230024/?amp=1",
+          "publisher": "NBC Los Angeles (CNBC)",
+          "title": "SEC slaps investment firm Citadel with $7 million fine to settle short-selling charges",
+          "date": "2023-09-22"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "citadel-securities",
+      "toName": "Citadel Securities",
+      "toType": "company",
+      "relation": "founded",
+      "claim": "Griffin founded Citadel and the affiliated market maker Citadel Securities, which settled SEC order-marking charges in 2023.",
+      "status": "documented",
+      "date": "2023-09-22",
+      "sources": [
+        {
+          "url": "https://www.nbclosangeles.com/news/business/money-report/sec-slaps-investment-firm-citadel-with-7-million-fine-to-settle-short-selling-charges/3230024/?amp=1",
+          "publisher": "NBC Los Angeles (CNBC)",
+          "title": "SEC slaps investment firm Citadel with $7 million fine to settle short-selling charges",
+          "date": "2023-09-22"
+        },
+        {
+          "url": "https://www.sec.gov/news/press-release/2023-192",
+          "publisher": "SEC",
+          "title": "SEC Charges Citadel Securities for Violating Order Marking Requirements of Short Sale Regulations",
+          "date": "2023-09-22"
+        }
+      ]
+    },
+    {
+      "to": "robinhood",
+      "toName": "Robinhood",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Griffin and Robinhood's chief executive testified at the same February 2021 House hearing, at which Robinhood's payment-for-order-flow relationship with Citadel Securities was questioned by the committee chair.",
+      "status": "documented",
+      "date": "2021-02-18",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2021-02-13/citadel-s-griffin-robinhood-ceo-to-testify-on-gamestop-feb-18",
+          "publisher": "Bloomberg",
+          "title": "Citadel's Griffin, Robinhood CEO to Testify at GameStop Hearings",
+          "date": "2021-02-13"
+        },
+        {
+          "url": "https://www.clickondetroit.com/tech/2021/02/18/live-stream-robinhood-reddit-ceos-testify-in-house-hearing-on-gamestop-stock-saga/",
+          "publisher": "ClickOnDetroit (AP)",
+          "title": "Robinhood, Reddit CEOs testify in House hearing on GameStop stock saga",
+          "date": "2021-02-18"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claims about 'kickbacks', 'order-book voids' and a 2025 federal lawsuit against HFT firms were not covered by any source returned; the 2025 lawsuit should be located on a court docket before it is repeated.",
+    "Griffin's political donations were not researched (search budget exhausted)."
+  ]
+}

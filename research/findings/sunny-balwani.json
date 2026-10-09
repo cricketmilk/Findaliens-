@@ -1,0 +1,108 @@
+{
+  "entity": "sunny-balwani",
+  "name": "Sunny Balwani",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Ramesh 'Sunny' Balwani was president and chief operating officer of Theranos. In July 2022 a federal jury convicted him on all twelve counts of conspiracy and wire fraud against investors and patients, and on December 7, 2022 U.S. District Judge Edward Davila sentenced him to 155 months (nearly 13 years) in prison and three years of supervised release, with restitution to be decided later; he was ordered to report to prison on March 15, 2023.",
+    "sources": [
+      {
+        "url": "https://www.washingtonexaminer.com/news/sunny-balwani-sentenced-almost-13-years-theranos-conspiracy",
+        "publisher": "Washington Examiner",
+        "title": "Sunny Balwani sentenced to almost 13 years in prison for Theranos conspiracy",
+        "date": "2022-12-07"
+      },
+      {
+        "url": "https://www.nbclosangeles.com/news/business/money-report/former-theranos-ceo-elizabeth-holmes-sentenced-to-more-than-11-years-in-prison/3037546/?amp=1",
+        "publisher": "NBC Los Angeles (CNBC)",
+        "title": "Former Theranos CEO Elizabeth Holmes sentenced to more than 11 years in prison",
+        "date": "2022-11-18"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On December 7, 2022, less than three weeks after Holmes's sentencing, Judge Davila sentenced Balwani to 155 months in prison and three years of supervised release, with restitution to be decided at a later date.",
+      "status": "court",
+      "date": "2022-12-07",
+      "sources": [
+        {
+          "url": "https://www.washingtonexaminer.com/news/sunny-balwani-sentenced-almost-13-years-theranos-conspiracy",
+          "publisher": "Washington Examiner",
+          "title": "Sunny Balwani sentenced to almost 13 years in prison for Theranos conspiracy",
+          "date": "2022-12-07"
+        }
+      ]
+    },
+    {
+      "claim": "Balwani was found guilty on all twelve criminal charges against him, whereas Holmes was convicted on four; the judge calculated the same guideline range of 135 to 168 months for both and prosecutors sought 15 years.",
+      "status": "court",
+      "date": "2022-12-07",
+      "sources": [
+        {
+          "url": "https://www.washingtonexaminer.com/news/sunny-balwani-sentenced-almost-13-years-theranos-conspiracy",
+          "publisher": "Washington Examiner",
+          "title": "Sunny Balwani sentenced to almost 13 years in prison for Theranos conspiracy",
+          "date": "2022-12-07"
+        }
+      ]
+    },
+    {
+      "claim": "Balwani was ordered to report to prison on March 15, 2023.",
+      "status": "court",
+      "date": "2022-12-07",
+      "sources": [
+        {
+          "url": "https://www.washingtonexaminer.com/news/sunny-balwani-sentenced-almost-13-years-theranos-conspiracy",
+          "publisher": "Washington Examiner",
+          "title": "Sunny Balwani sentenced to almost 13 years in prison for Theranos conspiracy",
+          "date": "2022-12-07"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "theranos",
+      "toName": "Theranos",
+      "toType": "company",
+      "relation": "executive of",
+      "claim": "Balwani was Theranos's president and chief operating officer and was convicted of fraud in connection with the company.",
+      "status": "court",
+      "date": "2022-07",
+      "sources": [
+        {
+          "url": "https://www.washingtonexaminer.com/news/sunny-balwani-sentenced-almost-13-years-theranos-conspiracy",
+          "publisher": "Washington Examiner",
+          "title": "Sunny Balwani sentenced to almost 13 years in prison for Theranos conspiracy",
+          "date": "2022-12-07"
+        }
+      ]
+    },
+    {
+      "to": "elizabeth-holmes",
+      "toName": "Elizabeth Holmes",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Balwani served under founder Elizabeth Holmes at Theranos; both were convicted and sentenced by Judge Davila in 2022.",
+      "status": "court",
+      "date": "2022-12-07",
+      "sources": [
+        {
+          "url": "https://www.washingtonexaminer.com/news/sunny-balwani-sentenced-almost-13-years-theranos-conspiracy",
+          "publisher": "Washington Examiner",
+          "title": "Sunny Balwani sentenced to almost 13 years in prison for Theranos conspiracy",
+          "date": "2022-12-07"
+        },
+        {
+          "url": "https://www.nbclosangeles.com/news/business/money-report/former-theranos-ceo-elizabeth-holmes-sentenced-to-more-than-11-years-in-prison/3037546/?amp=1",
+          "publisher": "NBC Los Angeles (CNBC)",
+          "title": "Former Theranos CEO Elizabeth Holmes sentenced to more than 11 years in prison",
+          "date": "2022-11-18"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The DOJ press release on Balwani's conviction and sentencing is cited in research/findings/theranos.json and should be reused here after the owner confirms it."
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "entity": "jon-s-corzine",
+  "name": "Jon S. Corzine",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Jon S. Corzine was chairman and chief executive of MF Global, the futures broker that collapsed in October 2011 leaving a shortfall in segregated customer funds. The CFTC sued him in 2013; on January 5, 2017 a federal court in Manhattan entered a consent order requiring him to pay a $5 million civil penalty, barring him from ever acting as an officer or employee of a futures commission merchant or registering with the CFTC, and prohibiting him from using insurance to cover the penalty. Former assistant treasurer Edith O'Brien was separately ordered to pay $500,000.",
+    "sources": [
+      {
+        "url": "https://www.cftc.gov/PressRoom/PressReleases/7508-17",
+        "publisher": "CFTC",
+        "title": "Release Number 7508-17: Federal Court Orders Jon S. Corzine to Pay $5 Million Penalty in MF Global Case",
+        "date": "2017-01-05"
+      },
+      {
+        "url": "https://www.npr.org/sections/thetwo-way/2017/01/05/508391992/regulators-say-jon-corzine-will-pay-5-million-penalty-over-mf-global-collapse",
+        "publisher": "NPR",
+        "title": "Regulators Say Jon Corzine Will Pay $5 Million Penalty Over MF Global Collapse",
+        "date": "2017-01-05"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On January 5, 2017 the CFTC announced that a federal court in Manhattan had entered a consent order against Corzine in the CFTC's 2013 case over MF Global's misuse of nearly $1 billion in customer funds and his alleged failure to supervise diligently; he was ordered to pay a $5 million civil monetary penalty.",
+      "status": "court",
+      "date": "2017-01-05",
+      "sources": [
+        {
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/7508-17",
+          "publisher": "CFTC",
+          "title": "Release Number 7508-17: Federal Court Orders Jon S. Corzine to Pay $5 Million Penalty in MF Global Case",
+          "date": "2017-01-05"
+        },
+        {
+          "url": "https://www.npr.org/sections/thetwo-way/2017/01/05/508391992/regulators-say-jon-corzine-will-pay-5-million-penalty-over-mf-global-collapse",
+          "publisher": "NPR",
+          "title": "Regulators Say Jon Corzine Will Pay $5 Million Penalty Over MF Global Collapse",
+          "date": "2017-01-05"
+        }
+      ]
+    },
+    {
+      "claim": "Under the order Corzine may not seek or accept reimbursement or indemnification from any insurance policy for the penalty, and he undertook never to act as a principal, agent, officer, director or employee of a futures commission merchant and never to register with the CFTC in any capacity.",
+      "status": "court",
+      "date": "2017-01-05",
+      "sources": [
+        {
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/7508-17",
+          "publisher": "CFTC",
+          "title": "Release Number 7508-17: Federal Court Orders Jon S. Corzine to Pay $5 Million Penalty in MF Global Case",
+          "date": "2017-01-05"
+        }
+      ]
+    },
+    {
+      "claim": "Edith O'Brien, MF Global's former assistant treasurer, was separately ordered to pay $500,000 for aiding and abetting the violations and barred from associating with a futures commission merchant or registering with the CFTC for eighteen months.",
+      "status": "court",
+      "date": "2017-01-05",
+      "sources": [
+        {
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/7508-17",
+          "publisher": "CFTC",
+          "title": "Release Number 7508-17: Federal Court Orders Jon S. Corzine to Pay $5 Million Penalty in MF Global Case",
+          "date": "2017-01-05"
+        },
+        {
+          "url": "https://www.npr.org/sections/thetwo-way/2017/01/05/508391992/regulators-say-jon-corzine-will-pay-5-million-penalty-over-mf-global-collapse",
+          "publisher": "NPR",
+          "title": "Regulators Say Jon Corzine Will Pay $5 Million Penalty Over MF Global Collapse",
+          "date": "2017-01-05"
+        }
+      ]
+    },
+    {
+      "claim": "The consent order ended a legal matter of about five years and avoided a trial that had been set for October; Corzine had denied wrongdoing from the outset.",
+      "status": "reported",
+      "date": "2017-01-05",
+      "sources": [
+        {
+          "url": "https://www.npr.org/sections/thetwo-way/2017/01/05/508391992/regulators-say-jon-corzine-will-pay-5-million-penalty-over-mf-global-collapse",
+          "publisher": "NPR",
+          "title": "Regulators Say Jon Corzine Will Pay $5 Million Penalty Over MF Global Collapse",
+          "date": "2017-01-05"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "edith-o-brien",
+      "toName": "Edith O'Brien",
+      "toType": "person",
+      "relation": "other",
+      "claim": "O'Brien was MF Global's assistant treasurer under Corzine's chairmanship; the same CFTC case resulted in a $500,000 penalty and an eighteen-month bar against her.",
+      "status": "court",
+      "date": "2017-01-05",
+      "sources": [
+        {
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/7508-17",
+          "publisher": "CFTC",
+          "title": "Release Number 7508-17: Federal Court Orders Jon S. Corzine to Pay $5 Million Penalty in MF Global Case",
+          "date": "2017-01-05"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim that Corzine paid a $5 million penalty in 2017 without admitting wrongdoing: supported (CFTC release 7508-17; NPR).",
+    "Site claim that the CFTC 'won a judgment that the firm unlawfully used customer funds' and the $1.6 billion shortfall figure: not tested here; the CFTC release refers to nearly $1 billion in misused customer funds.",
+    "Site claims about the $6.3 billion repo-to-maturity book, the October 28, 2011 $200 million transfer to JPMorgan to cover a London overdraft and JPMorgan's $100 million settlement with the trustee were not verified; no connection to JPMorgan Chase is recorded pending a source.",
+    "Henri Steenkamp's role was not researched."
+  ]
+}

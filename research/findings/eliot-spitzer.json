@@ -1,0 +1,140 @@
+{
+  "entity": "eliot-spitzer",
+  "name": "Eliot Spitzer",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Eliot Spitzer was Attorney General of New York whose investigation into conflicts between Wall Street research and investment banking led to the Global Research Analyst Settlement, announced in principle on December 20, 2002 and finalised on April 28, 2003, under which ten firms agreed to pay about $1.4 billion and to separate research from investment banking. His office was also a party to the April 2003 settlement with Salomon Smith Barney analyst Jack Grubman.",
+    "sources": [
+      {
+        "url": "https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/fixing/settlement.html",
+        "publisher": "PBS Frontline",
+        "title": "The Wall Street Fix: The Global Settlement",
+        "date": "2003"
+      },
+      {
+        "url": "https://www.sec.gov/news/digest/12-20.txt",
+        "publisher": "SEC",
+        "title": "SEC News Digest, December 20, 2002",
+        "date": "2002-12-20"
+      },
+      {
+        "url": "https://www.sec.gov/news/press/2003-55.htm",
+        "publisher": "SEC",
+        "title": "SEC, NY Attorney General, NASD, NYSE Announce Settlement with Jack Grubman",
+        "date": "2003-04-28"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On April 28, 2003 the SEC, the NASD, the NYSE, New York Attorney General Eliot Spitzer and other state regulators announced a final $1.4 billion settlement with ten Wall Street firms over research conflicts.",
+      "status": "court",
+      "date": "2003-04-28",
+      "sources": [
+        {
+          "url": "https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/fixing/settlement.html",
+          "publisher": "PBS Frontline",
+          "title": "The Wall Street Fix: The Global Settlement",
+          "date": "2003"
+        },
+        {
+          "url": "https://www.sec.gov/spotlight/globalsettlement.htm",
+          "publisher": "SEC",
+          "title": "Global Research Analyst Settlement",
+          "date": "2003"
+        }
+      ]
+    },
+    {
+      "claim": "Spitzer spearheaded the investigations into Wall Street research practices that led to the global settlement, first announced on December 20, 2002; the SEC's digest of that date describes a joint investigation begun in April 2002 into the influence of investment banking interests on securities research.",
+      "status": "documented",
+      "date": "2002-12-20",
+      "sources": [
+        {
+          "url": "https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/fixing/settlement.html",
+          "publisher": "PBS Frontline",
+          "title": "The Wall Street Fix: The Global Settlement",
+          "date": "2003"
+        },
+        {
+          "url": "https://www.sec.gov/news/digest/12-20.txt",
+          "publisher": "SEC",
+          "title": "SEC News Digest, December 20, 2002",
+          "date": "2002-12-20"
+        }
+      ]
+    },
+    {
+      "claim": "Under the settlement the firms agreed to structural changes insulating research from investment banking, including providing an independent second source of research on every stock covered.",
+      "status": "court",
+      "date": "2003-04-28",
+      "sources": [
+        {
+          "url": "https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/fixing/settlement.html",
+          "publisher": "PBS Frontline",
+          "title": "The Wall Street Fix: The Global Settlement",
+          "date": "2003"
+        }
+      ]
+    },
+    {
+      "claim": "Spitzer's office received $7.5 million of Jack Grubman's $15 million payment as a penalty under the April 28, 2003 settlement with Grubman.",
+      "status": "court",
+      "date": "2003-04-28",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/news/press/2003-55.htm",
+          "publisher": "SEC",
+          "title": "SEC, NY Attorney General, NASD, NYSE Announce Settlement with Jack Grubman",
+          "date": "2003-04-28"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "new-york-attorney-general",
+      "toName": "New York Attorney General",
+      "toType": "agency",
+      "relation": "executive of",
+      "claim": "Spitzer held the office of New York Attorney General during the 2002–2003 research analyst investigation and settlement.",
+      "status": "documented",
+      "date": "2003-04-28",
+      "sources": [
+        {
+          "url": "https://www.pbs.org/wgbh/pages/frontline/shows/wallstreet/fixing/settlement.html",
+          "publisher": "PBS Frontline",
+          "title": "The Wall Street Fix: The Global Settlement",
+          "date": "2003"
+        },
+        {
+          "url": "https://www.sec.gov/news/press/2003-55.htm",
+          "publisher": "SEC",
+          "title": "SEC, NY Attorney General, NASD, NYSE Announce Settlement with Jack Grubman",
+          "date": "2003-04-28"
+        }
+      ]
+    },
+    {
+      "to": "jack-grubman",
+      "toName": "Jack Grubman",
+      "toType": "person",
+      "relation": "settled with",
+      "claim": "Spitzer's office was a party to the April 2003 settlement under which Grubman was barred and paid $15 million.",
+      "status": "court",
+      "date": "2003-04-28",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/news/press/2003-55.htm",
+          "publisher": "SEC",
+          "title": "SEC, NY Attorney General, NASD, NYSE Announce Settlement with Jack Grubman",
+          "date": "2003-04-28"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site description 'New York Attorney General whose investigation led to the 2003 $1.4 billion Global Research Analyst Settlement': supported (PBS Frontline; SEC global settlement page).",
+    "Spitzer's later election as governor and 2008 resignation were not confirmed in this session (search budget exhausted)."
+  ]
+}

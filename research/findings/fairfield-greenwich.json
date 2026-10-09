@@ -1,0 +1,150 @@
+{
+  "entity": "fairfield-greenwich",
+  "name": "Fairfield Greenwich",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Fairfield Greenwich Group ran the Fairfield Sentry funds, the largest 'feeder' funds into Bernard Madoff's investment business; Massachusetts regulators said more than 95 percent of the Sentry funds' $7.2 billion in assets was placed with Madoff. In 2009 the firm settled a Massachusetts Securities Division action for $8 million without admitting or denying the allegations. In 2011 the Madoff bankruptcy trustee settled with the liquidators of Fairfield Sentry, Sigma and Lambda, reducing Sentry's claim from $1.2 billion to $230 million and recovering $70 million, and in 2012 the firm agreed to a settlement with investors worth up to about $80.3 million.",
+    "sources": [
+      {
+        "url": "https://dev.plansponsor.com/?p=63705",
+        "publisher": "PLANSPONSOR",
+        "title": "MA Gets $8M Settlement over Madoff Investments",
+        "date": "2009-09"
+      },
+      {
+        "url": "https://www.nbcconnecticut.com/news/local/mass-wont-settle-for-settlement-offer/1853207/",
+        "publisher": "NBC Connecticut",
+        "title": "Mass. Won't Settle for Madoff 'Feeder' Offer",
+        "date": "2009"
+      },
+      {
+        "url": "https://www.sipc.org/news-and-media/news-releases/20100509",
+        "publisher": "SIPC",
+        "title": "Settlement Agreement Reached With Joint Liquidators Of Fairfield Sentry, Madoff's Largest Feeder Fund",
+        "date": "2011-05-09"
+      },
+      {
+        "url": "https://www.abi.org/node/30962",
+        "publisher": "American Bankruptcy Institute (Bloomberg)",
+        "title": "Fairfield Greenwich settlement",
+        "date": "2012-11"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Massachusetts Secretary of State William Galvin's office said Fairfield Greenwich placed more than 95 percent of its Sentry funds' $7.2 billion in assets with Madoff's firm; the firm responded that it had made clear to investors that Madoff held substantially all of the Sentry funds' assets.",
+      "status": "documented",
+      "date": "2009",
+      "quote": "more than 95 percent of its Sentry Funds' $7.2 billion in assets into Madoff's firm",
+      "sources": [
+        {
+          "url": "https://www.nbcconnecticut.com/news/local/mass-wont-settle-for-settlement-offer/1853207/",
+          "publisher": "NBC Connecticut",
+          "title": "Mass. Won't Settle for Madoff 'Feeder' Offer",
+          "date": "2009"
+        }
+      ]
+    },
+    {
+      "claim": "In 2009 Fairfield Greenwich Group settled the Massachusetts Securities Division's action for $8 million under a consent order entered without admitting or denying the allegations, which concerned three Sentry funds sold to Massachusetts investors; it was described as the first such agreement with a state regulator.",
+      "status": "court",
+      "date": "2009-09",
+      "sources": [
+        {
+          "url": "https://dev.plansponsor.com/?p=63705",
+          "publisher": "PLANSPONSOR",
+          "title": "MA Gets $8M Settlement over Madoff Investments",
+          "date": "2009-09"
+        },
+        {
+          "url": "https://www.nbcconnecticut.com/news/local/mass-wont-settle-for-settlement-offer/1853207/",
+          "publisher": "NBC Connecticut",
+          "title": "Mass. Won't Settle for Madoff 'Feeder' Offer",
+          "date": "2009"
+        }
+      ]
+    },
+    {
+      "claim": "In May 2011 the Madoff trustee Irving Picard reached a settlement with the liquidators of Fairfield Sentry, Fairfield Sigma and Fairfield Lambda under which Sentry's customer claim was reduced from $1.2 billion to $230 million, the liquidators paid $70 million to the customer fund, and the trustee dropped pursuit of $3.8 billion from the liquidators.",
+      "status": "court",
+      "date": "2011-05-09",
+      "sources": [
+        {
+          "url": "https://www.sipc.org/news-and-media/news-releases/20100509",
+          "publisher": "SIPC",
+          "title": "Settlement Agreement Reached With Joint Liquidators Of Fairfield Sentry, Madoff's Largest Feeder Fund",
+          "date": "2011-05-09"
+        },
+        {
+          "url": "https://www.madofftrustee.com/document/news/000070-may-9-2011-press-release-regarding-settlement-agreement-with-joint-liquidators-of-fairfield-sentry-madoffs-largest-feeder-fund.pdf",
+          "publisher": "Madoff Recovery Initiative (SIPA Trustee)",
+          "title": "Press release regarding settlement agreement with joint liquidators of Fairfield Sentry, Madoff's largest feeder fund",
+          "date": "2011-05-09"
+        },
+        {
+          "url": "https://www.eleconomista.es/global/noticias/3052902/05/11/Madoff-trustee-in-1-billion-pact-with-Fairfield-funds.html",
+          "publisher": "elEconomista (Reuters)",
+          "title": "Madoff trustee in $1 billion pact with Fairfield funds",
+          "date": "2011-05"
+        }
+      ]
+    },
+    {
+      "claim": "A bankruptcy judge approved a $212 million settlement between the trustee and two bankrupt Greenwich Sentry funds; investors in Fairfield Sentry objected and the trustee agreed they could pursue the fund managers to recoup losses.",
+      "status": "court",
+      "date": "2011",
+      "sources": [
+        {
+          "url": "https://www.fa-mag.com/news/madoff-judge-approves-212-million-deal-with-feeder-funds-7638.html",
+          "publisher": "Financial Advisor",
+          "title": "Madoff Judge Approves $212 Million Deal With Feeder Funds",
+          "date": "2011"
+        }
+      ]
+    },
+    {
+      "claim": "In November 2012 Bloomberg reported that Fairfield Greenwich agreed to a settlement with investors that could pay as much as $80.3 million.",
+      "status": "reported",
+      "date": "2012-11",
+      "sources": [
+        {
+          "url": "https://www.abi.org/node/30962",
+          "publisher": "American Bankruptcy Institute (Bloomberg)",
+          "title": "Fairfield Greenwich settlement",
+          "date": "2012-11"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "bernard-madoff",
+      "toName": "Bernard Madoff",
+      "toType": "person",
+      "relation": "invested in",
+      "claim": "Fairfield Greenwich's Sentry funds placed more than 95 percent of their $7.2 billion with Madoff's firm, making Fairfield Sentry Madoff's largest feeder fund.",
+      "status": "documented",
+      "date": "2008",
+      "sources": [
+        {
+          "url": "https://www.nbcconnecticut.com/news/local/mass-wont-settle-for-settlement-offer/1853207/",
+          "publisher": "NBC Connecticut",
+          "title": "Mass. Won't Settle for Madoff 'Feeder' Offer",
+          "date": "2009"
+        },
+        {
+          "url": "https://www.sipc.org/news-and-media/news-releases/20100509",
+          "publisher": "SIPC",
+          "title": "Settlement Agreement Reached With Joint Liquidators Of Fairfield Sentry, Madoff's Largest Feeder Fund",
+          "date": "2011-05-09"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim that feeder funds channelled billions into BLMIS 'without due diligence': the Massachusetts action alleged disclosure failures and settled without admission; no court finding on due diligence was returned.",
+    "Walter Noel's role as a founding partner of Fairfield Greenwich was not confirmed by any source returned (search budget exhausted), so no walter-noel.json was written and no connection to him is recorded.",
+    "The Massachusetts Securities Division's own complaint and consent order should be cited directly."
+  ]
+}

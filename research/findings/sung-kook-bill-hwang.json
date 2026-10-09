@@ -1,0 +1,124 @@
+{
+  "entity": "sung-kook-bill-hwang",
+  "name": "Sung Kook 'Bill' Hwang",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Sung Kook 'Bill' Hwang founded and ran Archegos Capital Management, a family office whose concentrated, swap-financed equity positions collapsed in March 2021, causing large losses at prime brokers including Credit Suisse. In July 2024 a federal jury in Manhattan convicted him of racketeering conspiracy, securities fraud, market manipulation and wire fraud after a nine-week trial; in November 2024 Judge Alvin Hellerstein sentenced him to 18 years in prison, three years of supervised release and more than $9 billion in restitution. Archegos's chief financial officer Patrick Halligan was a codefendant.",
+    "sources": [
+      {
+        "url": "https://www.justice.gov/usao-sdny/pr/founder-and-head-archegos-capital-management-bill-hwang-sentenced-18-years-prison",
+        "publisher": "U.S. Attorney's Office, Southern District of New York",
+        "title": "Founder And Head Of Archegos Capital Management Bill Hwang Sentenced To 18 Years In Prison",
+        "date": "2024-11"
+      },
+      {
+        "url": "https://www.investmentexecutive.com/from-the-regulators/archegos-founder-gets-18-year-sentence-in-the-u-s/",
+        "publisher": "Investment Executive",
+        "title": "Archegos founder gets 18-year sentence in the U.S.",
+        "date": "2024-11"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Hwang was convicted following a nine-week jury trial in July 2024 of racketeering conspiracy, securities fraud, market manipulation and wire fraud; the U.S. Attorney's Office described Archegos as a criminal enterprise that manipulated multiple stocks and defrauded at least nine investment banks.",
+      "status": "court",
+      "date": "2024-07",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdny/pr/founder-and-head-archegos-capital-management-bill-hwang-sentenced-18-years-prison",
+          "publisher": "U.S. Attorney's Office, Southern District of New York",
+          "title": "Founder And Head Of Archegos Capital Management Bill Hwang Sentenced To 18 Years In Prison",
+          "date": "2024-11"
+        }
+      ]
+    },
+    {
+      "claim": "In November 2024 U.S. District Judge Alvin Hellerstein sentenced Hwang to 18 years in prison, with the terms on each count running concurrently; prosecutors had sought 21 years and his lawyers had asked for no prison time.",
+      "status": "court",
+      "date": "2024-11",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdny/pr/founder-and-head-archegos-capital-management-bill-hwang-sentenced-18-years-prison",
+          "publisher": "U.S. Attorney's Office, Southern District of New York",
+          "title": "Founder And Head Of Archegos Capital Management Bill Hwang Sentenced To 18 Years In Prison",
+          "date": "2024-11"
+        },
+        {
+          "url": "https://www.investmentexecutive.com/from-the-regulators/archegos-founder-gets-18-year-sentence-in-the-u-s/",
+          "publisher": "Investment Executive",
+          "title": "Archegos founder gets 18-year sentence in the U.S.",
+          "date": "2024-11"
+        }
+      ]
+    },
+    {
+      "claim": "Hwang was also ordered to pay more than $9 billion in restitution and to serve three years of supervised release.",
+      "status": "court",
+      "date": "2024-11",
+      "quote": "He was also ordered to pay more than US$9 billion in restitution and to three years of supervised release.",
+      "sources": [
+        {
+          "url": "https://www.investmentexecutive.com/from-the-regulators/archegos-founder-gets-18-year-sentence-in-the-u-s/",
+          "publisher": "Investment Executive",
+          "title": "Archegos founder gets 18-year sentence in the U.S.",
+          "date": "2024-11"
+        }
+      ]
+    },
+    {
+      "claim": "The U.S. Attorney's Office said Hwang and co-conspirators, including codefendant Patrick Halligan, Archegos's chief financial officer, used Archegos to run two interrelated schemes beginning in 2020.",
+      "status": "court",
+      "date": "2024-11",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdny/pr/founder-and-head-archegos-capital-management-bill-hwang-sentenced-18-years-prison",
+          "publisher": "U.S. Attorney's Office, Southern District of New York",
+          "title": "Founder And Head Of Archegos Capital Management Bill Hwang Sentenced To 18 Years In Prison",
+          "date": "2024-11"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "patrick-halligan",
+      "toName": "Patrick Halligan",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Halligan was Archegos's chief financial officer and Hwang's codefendant in the federal racketeering and fraud case.",
+      "status": "court",
+      "date": "2024",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdny/pr/founder-and-head-archegos-capital-management-bill-hwang-sentenced-18-years-prison",
+          "publisher": "U.S. Attorney's Office, Southern District of New York",
+          "title": "Founder And Head Of Archegos Capital Management Bill Hwang Sentenced To 18 Years In Prison",
+          "date": "2024-11"
+        }
+      ]
+    },
+    {
+      "to": "credit-suisse",
+      "toName": "Credit Suisse",
+      "toType": "bank",
+      "relation": "other",
+      "claim": "Credit Suisse was among the prime brokers that suffered losses when Archegos's positions collapsed; press coverage of the sentencing linked the episode to the bank's later collapse.",
+      "status": "reported",
+      "date": "2021-03",
+      "sources": [
+        {
+          "url": "https://benzinga.com/z/42100433",
+          "publisher": "Benzinga",
+          "title": "Hedge Funder Linked To Credit Suisse Collapse Gets 18 Year Prison Sentence For Fraud, Market Manipulation",
+          "date": "2024-11"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim that Hwang was 'convicted of federal racketeering and market manipulation': supported (SDNY release).",
+    "Site claim that Halligan was 'convicted alongside Hwang': the SDNY release names him as codefendant; his verdict and sentence were not confirmed from the text returned.",
+    "Site claims about the March 25, 2021 prime-broker meeting, Morgan Stanley's $5 billion sale and Goldman's early block sales were not tested here."
+  ]
+}

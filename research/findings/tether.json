@@ -1,0 +1,142 @@
+{
+  "entity": "tether",
+  "name": "Tether",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Tether is the issuer of USDT, a U.S.-dollar stablecoin, and is affiliated with the Bitfinex exchange. On February 23, 2021 the New York Attorney General announced a settlement under which Bitfinex and Tether paid $18.5 million in penalties, admitted no wrongdoing, agreed to publish quarterly reserve reports and to block New York users; the office said that from at least June 1 to September 15, 2017 USDT was not backed one-to-one by dollars in a bank account. On October 15, 2021 the CFTC ordered Tether to pay a $41 million civil penalty for untrue or misleading statements about its reserves, and Bitfinex $1.5 million for illegal off-exchange retail commodity transactions.",
+    "sources": [
+      {
+        "url": "https://cftc.gov/PressRoom/PressReleases/8450-21",
+        "publisher": "CFTC",
+        "title": "Release Number 8450-21: CFTC Orders Tether and Bitfinex to Pay Fines Totaling $42.5 Million",
+        "date": "2021-10-15"
+      },
+      {
+        "url": "https://huntonak.com/blockchain-legal-resource/new-york-attorney-general-announces-settlement-with-bitfinex",
+        "publisher": "Hunton Andrews Kurth",
+        "title": "New York Attorney General Announces Settlement with Bitfinex",
+        "date": "2021-02"
+      },
+      {
+        "url": "https://www.theblock.co/post/95207/bitfinex-tether-new-york-ag-settlement-lawsuit",
+        "publisher": "The Block",
+        "title": "Bitfinex, Tether settle with New York's Attorney General for $18.5 million",
+        "date": "2021-02-23"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On February 23, 2021 the New York Attorney General announced a settlement under which Bitfinex and Tether agreed to pay $18.5 million in penalties to the state of New York while admitting no wrongdoing.",
+      "status": "court",
+      "date": "2021-02-23",
+      "quote": "Bitfinex and Tether agreed to pay $18.5 million in penalties to the state of New York, and they admitted to no wrongdoing.",
+      "sources": [
+        {
+          "url": "https://huntonak.com/blockchain-legal-resource/new-york-attorney-general-announces-settlement-with-bitfinex",
+          "publisher": "Hunton Andrews Kurth",
+          "title": "New York Attorney General Announces Settlement with Bitfinex",
+          "date": "2021-02"
+        },
+        {
+          "url": "https://www.theblock.co/post/95207/bitfinex-tether-new-york-ag-settlement-lawsuit",
+          "publisher": "The Block",
+          "title": "Bitfinex, Tether settle with New York's Attorney General for $18.5 million",
+          "date": "2021-02-23"
+        }
+      ]
+    },
+    {
+      "claim": "The Attorney General's office said that at least from June 1 until September 15, 2017, USDT was 'not backed 1-to-1 by USD held by Tether in a bank account'.",
+      "status": "court",
+      "date": "2021-02-23",
+      "quote": "not backed '1-to-1' by USD held by Tether in a bank account",
+      "sources": [
+        {
+          "url": "https://huntonak.com/blockchain-legal-resource/new-york-attorney-general-announces-settlement-with-bitfinex",
+          "publisher": "Hunton Andrews Kurth",
+          "title": "New York Attorney General Announces Settlement with Bitfinex",
+          "date": "2021-02"
+        }
+      ]
+    },
+    {
+      "claim": "Under the New York settlement Tether and Bitfinex agreed to publish quarterly reports on their financial holdings and to block New York residents and entities from using their services.",
+      "status": "court",
+      "date": "2021-02-23",
+      "sources": [
+        {
+          "url": "https://huntonak.com/blockchain-legal-resource/new-york-attorney-general-announces-settlement-with-bitfinex",
+          "publisher": "Hunton Andrews Kurth",
+          "title": "New York Attorney General Announces Settlement with Bitfinex",
+          "date": "2021-02"
+        },
+        {
+          "url": "https://www.theblock.co/post/95207/bitfinex-tether-new-york-ag-settlement-lawsuit",
+          "publisher": "The Block",
+          "title": "Bitfinex, Tether settle with New York's Attorney General for $18.5 million",
+          "date": "2021-02-23"
+        }
+      ]
+    },
+    {
+      "claim": "On October 15, 2021 the CFTC ordered Tether to pay a $41 million civil monetary penalty and to cease and desist from further violations of the Commodity Exchange Act, finding it made untrue or misleading statements that USDT was fully backed; Bitfinex was separately ordered to pay $1.5 million for illegal off-exchange financed retail commodity transactions with U.S. persons from 2016 to 2018 and for operating as an unregistered futures commission merchant.",
+      "status": "court",
+      "date": "2021-10-15",
+      "quote": "The order requires Tether to pay a civil monetary penalty of $41 million and to cease and desist from any further violations of the Commodity Exchange Act (CEA) and CFTC regulations, as charged.",
+      "sources": [
+        {
+          "url": "https://cftc.gov/PressRoom/PressReleases/8450-21",
+          "publisher": "CFTC",
+          "title": "Release Number 8450-21: CFTC Orders Tether and Bitfinex to Pay Fines Totaling $42.5 Million",
+          "date": "2021-10-15"
+        }
+      ]
+    },
+    {
+      "claim": "Tether responded to the CFTC order by saying there was no finding that tether tokens were not fully backed at all times, only that the reserves were not all in cash.",
+      "status": "words",
+      "date": "2021-10-15",
+      "quote": "there is no finding that tether tokens were not fully backed at all times, simply that the reserves were not all in cash",
+      "sources": [
+        {
+          "url": "https://www.financemagnates.com/cryptocurrency/news/bitfinex-and-tether-fined-42-5-million-for-misleading-claims-on-usdt/",
+          "publisher": "Finance Magnates",
+          "title": "Bitfinex and Tether Fined $42.5 Million for Misleading Claims on USDT",
+          "date": "2021-10-15"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "new-york-attorney-general",
+      "toName": "New York Attorney General",
+      "toType": "agency",
+      "relation": "settled with",
+      "claim": "Tether and Bitfinex settled the New York Attorney General's investigation of USDT's reserves for $18.5 million in February 2021.",
+      "status": "court",
+      "date": "2021-02-23",
+      "sources": [
+        {
+          "url": "https://huntonak.com/blockchain-legal-resource/new-york-attorney-general-announces-settlement-with-bitfinex",
+          "publisher": "Hunton Andrews Kurth",
+          "title": "New York Attorney General Announces Settlement with Bitfinex",
+          "date": "2021-02"
+        },
+        {
+          "url": "https://www.theblock.co/post/95207/bitfinex-tether-new-york-ag-settlement-lawsuit",
+          "publisher": "The Block",
+          "title": "Bitfinex, Tether settle with New York's Attorney General for $18.5 million",
+          "date": "2021-02-23"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim that Tether and Bitfinex paid $18.5 million without admitting wrongdoing to settle New York charges about misrepresented reserves: supported (Hunton summary of the AG announcement; The Block).",
+    "Site claim that Tether reports more than $4 billion in frozen wallets and the GENIUS Act provisions were not tested here.",
+    "The ag.ny.gov press release itself was not among the sources returned and should be added as the primary citation.",
+    "The site links Tether to Sam Altman; no source returned addresses that."
+  ]
+}

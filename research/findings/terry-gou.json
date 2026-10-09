@@ -1,0 +1,120 @@
+{
+  "entity": "terry-gou",
+  "name": "Terry Gou",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Terry Gou founded Hon Hai Precision Industry (Foxconn), the Taiwanese electronics manufacturer that assembles products for Apple, Google and Amazon and operates factories across China. In April 2019 he announced he would seek the opposition Nationalist Party (KMT) nomination for Taiwan's 2020 presidential election and step back from daily operations; at the June 2019 shareholders' meeting the board elected Young Liu, head of Foxconn's semiconductor division, as his successor, effective July 1, 2019.",
+    "sources": [
+      {
+        "url": "https://fortune.com/2019/06/21/foxconn-chairman-terry-gou",
+        "publisher": "Fortune",
+        "title": "Foxconn chairman Terry Gou steps down",
+        "date": "2019-06-21"
+      },
+      {
+        "url": "https://www.nbcnews.com/news/world/head-foxconn-announces-taiwan-presidential-bid-n995316",
+        "publisher": "NBC News (AP)",
+        "title": "Head of Foxconn announces Taiwan presidential bid",
+        "date": "2019-04-17"
+      },
+      {
+        "url": "https://www.foxbusiness.com/markets/foxconn-head-stepping-back-mulling-presidential-run",
+        "publisher": "Fox Business (AP)",
+        "title": "Foxconn head stepping back, mulling presidential run",
+        "date": "2019-04"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In April 2019 Gou said he would step back from Foxconn's daily operations to prepare younger leaders to take over and to write a book about his management philosophy.",
+      "status": "words",
+      "date": "2019-04",
+      "quote": "prepare a younger generation to eventually take over operations at the company",
+      "sources": [
+        {
+          "url": "https://www.foxbusiness.com/markets/foxconn-head-stepping-back-mulling-presidential-run",
+          "publisher": "Fox Business (AP)",
+          "title": "Foxconn head stepping back, mulling presidential run",
+          "date": "2019-04"
+        },
+        {
+          "url": "https://www.nbcnews.com/news/world/head-foxconn-announces-taiwan-presidential-bid-n995316",
+          "publisher": "NBC News (AP)",
+          "title": "Head of Foxconn announces Taiwan presidential bid",
+          "date": "2019-04-17"
+        }
+      ]
+    },
+    {
+      "claim": "At Foxconn's annual shareholders' meeting in June 2019 the board elected Young Liu, head of the company's semiconductor division, as Gou's successor; Gou's resignation as chairman took effect July 1, 2019.",
+      "status": "documented",
+      "date": "2019-06-21",
+      "sources": [
+        {
+          "url": "https://fortune.com/2019/06/21/foxconn-chairman-terry-gou",
+          "publisher": "Fortune",
+          "title": "Foxconn chairman Terry Gou steps down",
+          "date": "2019-06-21"
+        }
+      ]
+    },
+    {
+      "claim": "In April 2019 Gou announced at Nationalist Party headquarters in Taipei that he would seek the party's nomination for Taiwan's 2020 presidential election, saying 'I am willing to participate in the primary election'.",
+      "status": "words",
+      "date": "2019-04-17",
+      "quote": "I am willing to participate in the primary election",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/news/world/head-foxconn-announces-taiwan-presidential-bid-n995316",
+          "publisher": "NBC News (AP)",
+          "title": "Head of Foxconn announces Taiwan presidential bid",
+          "date": "2019-04-17"
+        }
+      ]
+    },
+    {
+      "claim": "AP reported that Foxconn counted Apple, Google and Amazon among its customers, operated twelve factories in nine Chinese cities, and had said it would build a manufacturing facility in Wisconsin.",
+      "status": "reported",
+      "date": "2019-04",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/news/world/head-foxconn-announces-taiwan-presidential-bid-n995316",
+          "publisher": "NBC News (AP)",
+          "title": "Head of Foxconn announces Taiwan presidential bid",
+          "date": "2019-04-17"
+        },
+        {
+          "url": "https://www.foxbusiness.com/markets/foxconn-head-stepping-back-mulling-presidential-run",
+          "publisher": "Fox Business (AP)",
+          "title": "Foxconn head stepping back, mulling presidential run",
+          "date": "2019-04"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "apple",
+      "toName": "Apple",
+      "toType": "company",
+      "relation": "contracted with",
+      "claim": "Foxconn, founded by Gou, assembles products for Apple, which AP listed among its customers.",
+      "status": "reported",
+      "date": "2019-04",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/news/world/head-foxconn-announces-taiwan-presidential-bid-n995316",
+          "publisher": "NBC News (AP)",
+          "title": "Head of Foxconn announces Taiwan presidential bid",
+          "date": "2019-04-17"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Terry Gou has no entity id in public/data/entities.json; this file uses the seed slug.",
+    "The site's Affinity Partners finding records, from Senate Finance Committee letters, that Gou was one of the foreign investors in Jared Kushner's Affinity Partners fund; those letters were not opened in this session, so no connection is recorded here. The owner can add one citing the letter URLs in research/findings/affinity-partners.json.",
+    "Gou's 2023 independent presidential bid and the renegotiation of Foxconn's Wisconsin contract were not confirmed in this session."
+  ]
+}

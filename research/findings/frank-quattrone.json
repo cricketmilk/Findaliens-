@@ -1,0 +1,144 @@
+{
+  "entity": "frank-quattrone",
+  "name": "Frank Quattrone",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Frank Quattrone headed the technology investment banking group at Credit Suisse First Boston during the late-1990s IPO boom. CSFB settled SEC and NASD charges over IPO allocation practices for $100 million in January 2002 without admitting or denying wrongdoing. Quattrone himself was tried for obstruction of justice over an email urging staff to 'clean up' files during a federal investigation; his first trial ended in a hung jury in 2003, he was convicted in May 2004, and the Second Circuit overturned the conviction in March 2006. The same year the SEC overturned a lifetime industry ban against him and the NASD withdrew its charges.",
+    "sources": [
+      {
+        "url": "https://www.nbcnews.com/id/wbna13083199",
+        "publisher": "NBC News (AP)",
+        "title": "Securities watchdog drops Quattrone charges",
+        "date": "2006"
+      },
+      {
+        "url": "https://www.swissinfo.ch/eng/former-csfb-star-charged-by-us-regulators/3193906",
+        "publisher": "swissinfo.ch",
+        "title": "Former CSFB star charged by US regulators",
+        "date": "2003-03"
+      },
+      {
+        "url": "https://www.pbs.org/wgbh/pages/frontline/shows/dotcon/crying/timelines.html",
+        "publisher": "PBS Frontline",
+        "title": "Dot Con: timeline",
+        "date": "2002"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The SEC's IPO-allocation matter against Credit Suisse First Boston was resolved on January 22, 2002 with a $100 million payment, an injunction against future violations and new procedures, with no admission or denial of wrongdoing; this was a settlement by the firm, not by Quattrone.",
+      "status": "court",
+      "date": "2002-01-22",
+      "sources": [
+        {
+          "url": "https://www.pbs.org/wgbh/pages/frontline/shows/dotcon/crying/timelines.html",
+          "publisher": "PBS Frontline",
+          "title": "Dot Con: timeline",
+          "date": "2002"
+        },
+        {
+          "url": "https://www.swissinfo.ch/eng/former-csfb-star-charged-by-us-regulators/3193906",
+          "publisher": "swissinfo.ch",
+          "title": "Former CSFB star charged by US regulators",
+          "date": "2003-03"
+        }
+      ]
+    },
+    {
+      "claim": "Quattrone's first obstruction-of-justice trial ended in a hung jury in 2003; he was convicted on federal obstruction charges in May 2004.",
+      "status": "court",
+      "date": "2004-05",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/id/wbna13083199",
+          "publisher": "NBC News (AP)",
+          "title": "Securities watchdog drops Quattrone charges",
+          "date": "2006"
+        },
+        {
+          "url": "https://www.pbs.org/newshour/show/former-banker-convicted",
+          "publisher": "PBS NewsHour",
+          "title": "Former banker convicted",
+          "date": "2004-05"
+        }
+      ]
+    },
+    {
+      "claim": "The Second Circuit overturned Quattrone's obstruction conviction in March 2006 and ordered a new trial.",
+      "status": "court",
+      "date": "2006-03",
+      "quote": "The 2nd U.S. Circuit Court of Appeals overturned the conviction in March, granting Quattrone a third trial.",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/id/wbna13083199",
+          "publisher": "NBC News (AP)",
+          "title": "Securities watchdog drops Quattrone charges",
+          "date": "2006"
+        }
+      ]
+    },
+    {
+      "claim": "In March 2006 the SEC overturned a lifetime ban from the securities industry that had been imposed on Quattrone, and the NASD later withdrew its charges against him for procedural reasons.",
+      "status": "court",
+      "date": "2006",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/id/wbna13083199",
+          "publisher": "NBC News (AP)",
+          "title": "Securities watchdog drops Quattrone charges",
+          "date": "2006"
+        }
+      ]
+    },
+    {
+      "claim": "The NASD had charged Quattrone with 'spinning' and undermining research analyst objectivity.",
+      "status": "documented",
+      "date": "2003-03",
+      "sources": [
+        {
+          "url": "https://mondovisione.com/media-and-resources/news/nasd-charges-frank-quattrone-with-spinning-undermining-research-analyst-objectiv-2011124/",
+          "publisher": "Mondo Visione (NASD release)",
+          "title": "NASD Charges Frank Quattrone With Spinning, Undermining Research Analyst Objectivity",
+          "date": "2003-03"
+        },
+        {
+          "url": "https://www.swissinfo.ch/eng/former-csfb-star-charged-by-us-regulators/3193906",
+          "publisher": "swissinfo.ch",
+          "title": "Former CSFB star charged by US regulators",
+          "date": "2003-03"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "credit-suisse",
+      "toName": "Credit Suisse",
+      "toType": "bank",
+      "relation": "employed by",
+      "claim": "Quattrone ran the technology banking group at Credit Suisse First Boston, the Credit Suisse unit that paid $100 million in 2002 to settle IPO-allocation charges.",
+      "status": "documented",
+      "date": "2002-01-22",
+      "sources": [
+        {
+          "url": "https://www.swissinfo.ch/eng/former-csfb-star-charged-by-us-regulators/3193906",
+          "publisher": "swissinfo.ch",
+          "title": "Former CSFB star charged by US regulators",
+          "date": "2003-03"
+        },
+        {
+          "url": "https://www.pbs.org/wgbh/pages/frontline/shows/dotcon/crying/timelines.html",
+          "publisher": "PBS Frontline",
+          "title": "Dot Con: timeline",
+          "date": "2002"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim that Quattrone's '2004 obstruction conviction was overturned on appeal': supported (AP via NBC News).",
+    "Site claim that his group 'steered IPO shares to favored executives': the NASD charged him with spinning in 2003 and later withdrew the charges; no finding against him personally was returned. The claim should be worded as an allegation.",
+    "The outcome of the government's talks on a deferred-prosecution agreement in 2006 was not confirmed here."
+  ]
+}

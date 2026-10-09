@@ -1,0 +1,114 @@
+{
+  "entity": "jes-staley",
+  "name": "Jes Staley",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "James 'Jes' Staley is a former chief executive of Barclays. The U.K. Financial Conduct Authority banned him from senior management roles in financial services and fined him over a letter to the regulator, approved by Staley, that contained misleading statements about his relationship with Jeffrey Epstein. On June 26, 2025 the Upper Tribunal upheld the ban, finding a lack of integrity and failures to be open with the FCA, and reduced the fine from £1.8 million to £1.1 million; the FCA issued its Final Notice on July 23, 2025.",
+    "sources": [
+      {
+        "url": "https://www.fca.org.uk/news/press-releases/upper-tribunal-upholds-jes-staley-ban",
+        "publisher": "Financial Conduct Authority",
+        "title": "Upper Tribunal upholds Jes Staley ban",
+        "date": "2025-06-26"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The Upper Tribunal upheld the FCA's decision to ban Staley, former chief executive of Barclays, from holding senior management roles in the financial services industry; the FCA issued a Final Notice on July 23, 2025 following the Tribunal's June 26, 2025 decision.",
+      "status": "court",
+      "date": "2025-06-26",
+      "quote": "The FCA's decision to ban Jes Staley, former CEO of Barclays, from holding senior management roles in the financial services industry has been upheld by the Upper Tribunal.",
+      "sources": [
+        {
+          "url": "https://www.fca.org.uk/news/press-releases/upper-tribunal-upholds-jes-staley-ban",
+          "publisher": "Financial Conduct Authority",
+          "title": "Upper Tribunal upholds Jes Staley ban",
+          "date": "2025-06-26"
+        }
+      ]
+    },
+    {
+      "claim": "The FCA's case concerned a letter to the regulator approved by Staley that contained misleading statements about the nature of his relationship with Jeffrey Epstein and their last point of contact; the letter said he was not close to Epstein, while in emails Staley had described Epstein as one of his 'deepest' and 'most cherished' friends.",
+      "status": "court",
+      "date": "2025-06-26",
+      "quote": "Mr Staley approved a letter sent to the FCA that contained misleading statements about the nature of his relationship with Jeffrey Epstein and their last point of contact.",
+      "sources": [
+        {
+          "url": "https://www.fca.org.uk/news/press-releases/upper-tribunal-upholds-jes-staley-ban",
+          "publisher": "Financial Conduct Authority",
+          "title": "Upper Tribunal upholds Jes Staley ban",
+          "date": "2025-06-26"
+        }
+      ]
+    },
+    {
+      "claim": "The Tribunal found a lack of integrity, a failure to be open and co-operative with the FCA, and a failure to make appropriate disclosures.",
+      "status": "court",
+      "date": "2025-06-26",
+      "sources": [
+        {
+          "url": "https://www.fca.org.uk/news/press-releases/upper-tribunal-upholds-jes-staley-ban",
+          "publisher": "Financial Conduct Authority",
+          "title": "Upper Tribunal upholds Jes Staley ban",
+          "date": "2025-06-26"
+        }
+      ]
+    },
+    {
+      "claim": "The FCA had proposed a fine of £1.8 million; the Tribunal reduced it to £1.1 million because, after the FCA's Decision Notice, Barclays decided not to permit Staley to receive deferred shares to which he could have been entitled.",
+      "status": "court",
+      "date": "2025-06-26",
+      "quote": "The Tribunal reduced this fine to £1.1m as, after the FCA issued its Decision Notice, Barclays decided not to permit Mr Staley to receive deferred shares to which he could have been entitled.",
+      "sources": [
+        {
+          "url": "https://www.fca.org.uk/news/press-releases/upper-tribunal-upholds-jes-staley-ban",
+          "publisher": "Financial Conduct Authority",
+          "title": "Upper Tribunal upholds Jes Staley ban",
+          "date": "2025-06-26"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "barclays",
+      "toName": "Barclays",
+      "toType": "bank",
+      "relation": "executive of",
+      "claim": "Staley was chief executive of Barclays; the FCA's ban arose from a letter Barclays sent the regulator about his Epstein relationship.",
+      "status": "court",
+      "date": "2025-06-26",
+      "sources": [
+        {
+          "url": "https://www.fca.org.uk/news/press-releases/upper-tribunal-upholds-jes-staley-ban",
+          "publisher": "Financial Conduct Authority",
+          "title": "Upper Tribunal upholds Jes Staley ban",
+          "date": "2025-06-26"
+        }
+      ]
+    },
+    {
+      "to": "jeffrey-epstein",
+      "toName": "Jeffrey Epstein",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Staley described Epstein in emails as one of his 'deepest' and 'most cherished' friends; the FCA found that a letter he approved misled the regulator about that relationship.",
+      "status": "court",
+      "date": "2025-06-26",
+      "quote": "one of his 'deepest' and 'most cherished' friends",
+      "sources": [
+        {
+          "url": "https://www.fca.org.uk/news/press-releases/upper-tribunal-upholds-jes-staley-ban",
+          "publisher": "Financial Conduct Authority",
+          "title": "Upper Tribunal upholds Jes Staley ban",
+          "date": "2025-06-26"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site lists Staley's affiliation as JPMorgan Chase; his JPMorgan roles and the U.S. Virgin Islands and class-action litigation against JPMorgan over Epstein, in which Staley was a third-party defendant, were not covered by the sources returned (search budget exhausted).",
+    "Site claims that JPMorgan and Deutsche Bank 'handled hundreds of millions' for Epstein were not tested."
+  ]
+}

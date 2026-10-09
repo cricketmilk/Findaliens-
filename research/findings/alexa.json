@@ -1,0 +1,88 @@
+{
+  "entity": "alexa",
+  "name": "Alexa",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Alexa is Amazon's voice assistant. At Amazon's re:MARS conference in Las Vegas in June 2022, Rohit Prasad, Alexa's senior vice president and head scientist, demonstrated an in-development feature in which Alexa read a bedtime story to a child in the voice of the child's deceased grandmother, generated from less than a minute of recorded audio. Amazon did not say when or whether the feature would be released.",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2022/06/22/amazon-demonstrates-alexa-mimicking-the-voice-of-a-deceased-relative.html",
+        "publisher": "CNBC",
+        "title": "Amazon demonstrates Alexa mimicking the voice of a deceased relative",
+        "date": "2022-06-22"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "At re:MARS in June 2022 Amazon showed a video in which a child asks Alexa to finish a book in his late grandmother's voice, and Alexa switched from its default voice to one mimicking the family member.",
+      "status": "reported",
+      "date": "2022-06-22",
+      "quote": "Alexa confirmed the request with the default, robotic voice, then immediately switched to a softer, more humanlike tone, seemingly mimicking the child's family member.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2022/06/22/amazon-demonstrates-alexa-mimicking-the-voice-of-a-deceased-relative.html",
+          "publisher": "CNBC",
+          "title": "Amazon demonstrates Alexa mimicking the voice of a deceased relative",
+          "date": "2022-06-22"
+        }
+      ]
+    },
+    {
+      "claim": "Prasad said the Alexa team had developed a model that can produce a high-quality voice from less than a minute of recorded audio, framed as a voice-conversion task rather than speech generation.",
+      "status": "words",
+      "date": "2022-06-22",
+      "quote": "less than a minute of recorded audio",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2022/06/22/amazon-demonstrates-alexa-mimicking-the-voice-of-a-deceased-relative.html",
+          "publisher": "CNBC",
+          "title": "Amazon demonstrates Alexa mimicking the voice of a deceased relative",
+          "date": "2022-06-22"
+        },
+        {
+          "url": "https://mobilesyrup.com/2022/06/22/amazon-shows-off-alexas-new-in-development-ability-to-mimic-anyone-dead-or-alive/",
+          "publisher": "MobileSyrup",
+          "title": "Amazon shows off Alexa's new in-development ability to mimic anyone, dead or alive",
+          "date": "2022-06-22"
+        }
+      ]
+    },
+    {
+      "claim": "Prasad presented the feature as a way to keep memories alive after pandemic losses; Amazon declined to say when it would roll out.",
+      "status": "words",
+      "date": "2022-06-22",
+      "quote": "While AI can't eliminate that pain of loss, it can definitely make the memories last",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2022/06/22/amazon-demonstrates-alexa-mimicking-the-voice-of-a-deceased-relative.html",
+          "publisher": "CNBC",
+          "title": "Amazon demonstrates Alexa mimicking the voice of a deceased relative",
+          "date": "2022-06-22"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "amazon",
+      "toName": "Amazon",
+      "toType": "company",
+      "relation": "subsidiary of",
+      "claim": "Alexa is Amazon's voice assistant; the 2022 voice-mimicry demo was given by Amazon's Alexa head scientist Rohit Prasad.",
+      "status": "reported",
+      "date": "2022-06-22",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2022/06/22/amazon-demonstrates-alexa-mimicking-the-voice-of-a-deceased-relative.html",
+          "publisher": "CNBC",
+          "title": "Amazon demonstrates Alexa mimicking the voice of a deceased relative",
+          "date": "2022-06-22"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "No source found states that the deceased-voice feature was ever released."
+  ]
+}

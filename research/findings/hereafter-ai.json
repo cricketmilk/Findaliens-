@@ -1,0 +1,112 @@
+{
+  "entity": "hereafter-ai",
+  "name": "HereAfter AI",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "HereAfter AI is an El Cerrito, California company founded by journalist James Vlahos with Sonia Talati that records people answering life-story interview questions and turns the recordings into an interactive \"life story avatar\" that relatives can question by app or smart speaker. Vlahos has said the idea came from the \"Dadbot\" he built from his father's recordings after his father's terminal cancer diagnosis in 2016.",
+    "sources": [
+      {
+        "url": "https://www.axios.com/2022/07/13/artificial-intelligence-chatbots-dead-relatives-grandma",
+        "publisher": "Axios",
+        "title": "New AI tools let you chat with your dead relatives",
+        "date": "2022-07-13"
+      },
+      {
+        "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3771789,00.html",
+        "publisher": "Calcalist (CTech)",
+        "title": "After Death, There Is the Bot",
+        "date": "2019-10"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "HereAfter AI, based in El Cerrito, California, pairs photos and audio interviews so family members can talk to recordings of loved ones on computers, phones or smart speakers; co-founder and CEO James Vlahos got the idea after creating \"Dadbot\", a chatbot built from his father's life story after his father's lung cancer diagnosis.",
+      "status": "reported",
+      "date": "2022-07-13",
+      "quote": "Cofounder and CEO James Vlahos got the idea after creating \"Dadbot,\" a chatbot that shared his father's life story and personality when he was diagnosed with terminal lung cancer.",
+      "sources": [
+        {
+          "url": "https://www.axios.com/2022/07/13/artificial-intelligence-chatbots-dead-relatives-grandma",
+          "publisher": "Axios",
+          "title": "New AI tools let you chat with your dead relatives",
+          "date": "2022-07-13"
+        }
+      ]
+    },
+    {
+      "claim": "Calcalist reported in 2019 that Vlahos founded HereAfter with former journalist Sonia Talati, as a startup creating interactive chatbots from recorded life stories, with early interviews conducted by journalists trained as life interviewers.",
+      "status": "reported",
+      "date": "2019-10",
+      "quote": "Vlahos joined forces with former journalist Sonia Talati to found HereAfter, a startup that creates interactive chatbots based on recorded life stories",
+      "sources": [
+        {
+          "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3771789,00.html",
+          "publisher": "Calcalist (CTech)",
+          "title": "After Death, There Is the Bot",
+          "date": "2019-10"
+        }
+      ]
+    },
+    {
+      "claim": "The company's product prompts users with interview questions in an app and assembles the answers into what it brands a \"Life Story Avatar\" or \"Legacy Avatar\" that friends and family can converse with.",
+      "status": "reported",
+      "date": null,
+      "sources": [
+        {
+          "url": "https://www.freethink.com/hard-tech/chatting-with-my-digital-twin",
+          "publisher": "Freethink",
+          "title": "Chatting with my own HereAfter"
+        },
+        {
+          "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3771789,00.html",
+          "publisher": "Calcalist (CTech)",
+          "title": "After Death, There Is the Bot",
+          "date": "2019-10"
+        }
+      ]
+    },
+    {
+      "claim": "Vlahos's father was diagnosed with cancer in 2016 and Vlahos spent nearly a year programming the \"Dadbot\" replica, which later inspired the company.",
+      "status": "reported",
+      "date": "2016",
+      "sources": [
+        {
+          "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3771789,00.html",
+          "publisher": "Calcalist (CTech)",
+          "title": "After Death, There Is the Bot",
+          "date": "2019-10"
+        },
+        {
+          "url": "https://www.axios.com/2022/07/13/artificial-intelligence-chatbots-dead-relatives-grandma",
+          "publisher": "Axios",
+          "title": "New AI tools let you chat with your dead relatives",
+          "date": "2022-07-13"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "digital-afterlife-industry",
+      "toName": "Digital afterlife industry",
+      "toType": "concept",
+      "relation": "other",
+      "claim": "HereAfter AI is cited as an example of the commercial 'grief tech' or digital-afterlife sector in coverage of AI tools for talking to dead relatives.",
+      "status": "reported",
+      "date": "2022",
+      "sources": [
+        {
+          "url": "https://www.axios.com/2022/07/13/artificial-intelligence-chatbots-dead-relatives-grandma",
+          "publisher": "Axios",
+          "title": "New AI tools let you chat with your dead relatives",
+          "date": "2022-07-13"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Founding year is given as 2019 by Calcalist; a German outlet gives 2016, which appears to refer to the Dadbot project rather than incorporation.",
+    "No funding, ownership or regulatory record was found."
+  ]
+}

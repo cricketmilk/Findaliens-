@@ -1,0 +1,204 @@
+{
+  "entity": "project-lazarus",
+  "name": "Project Lazarus",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "\"Project Lazarus\" is the name given in an anonymous post on the 4chan forum, dated February 2023, which claimed that Meta was building an AI to keep deceased users' accounts posting. Vision Times reported in February 2023 that the claim was debunked, and later coverage describes the post's authenticity as unverified. Separately, in December 2025 the USPTO granted Meta Platforms Technologies a patent titled \"Simulation of a user of a social networking system using a language model\", with Andrew Bosworth as inventor, whose abstract contemplates simulating a user who is absent or deceased. In February 2026 social-media posts and some outlets presented the patent as confirmation of the 2023 post. No source reviewed here establishes any link between the 4chan post and the patent, and Meta told Business Insider it has no plans to move forward with the example.",
+    "sources": [
+      {
+        "url": "https://www.visiontimes.com/2023/02/27/facebook-reanimate-deceased-users-deepfake-ai.html",
+        "publisher": "Vision Times",
+        "title": "Claims Facebook Developing AI to 'Reanimate' Deceased Users Debunked, But Cast Light On Deepfake Advancements",
+        "date": "2023-02-27"
+      },
+      {
+        "url": "https://patents.google.com/patent/US12513102B2",
+        "publisher": "Google Patents",
+        "title": "US12513102B2 - Simulation of a user of a social networking system using a language model"
+      },
+      {
+        "url": "https://www.eweek.com/news/meta-ai-patent-digital-afterlife-social-media/",
+        "publisher": "eWeek",
+        "title": "Meta Patents AI That Could Keep Users Posting After Death",
+        "date": "2026-02"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "An anonymous post on 4chan, which later coverage dates to February 23, 2023, claimed that a Meta insider was describing an internal effort called \"Project Lazarus\" to have AI continue posting from deceased users' accounts. The post's author and role were never identified, and its authenticity is unverified.",
+      "status": "reported",
+      "date": "2023-02-23",
+      "sources": [
+        {
+          "url": "https://cryptoast.fr/?p=204093",
+          "publisher": "Cryptoast",
+          "title": "Parler aux morts sur les réseaux sociaux — Ce projet d'IA de Meta va-t-il trop loin ?",
+          "date": "2026-02"
+        },
+        {
+          "url": "https://www.visiontimes.com/2023/02/27/facebook-reanimate-deceased-users-deepfake-ai.html",
+          "publisher": "Vision Times",
+          "title": "Claims Facebook Developing AI to 'Reanimate' Deceased Users Debunked, But Cast Light On Deepfake Advancements",
+          "date": "2023-02-27"
+        }
+      ]
+    },
+    {
+      "claim": "Vision Times reported on February 27, 2023 that claims Facebook was developing AI to \"reanimate\" deceased users had been debunked, while noting that the claim drew attention to advances in deepfake technology.",
+      "status": "reported",
+      "date": "2023-02-27",
+      "quote": "Claims Facebook Developing AI to 'Reanimate' Deceased Users Debunked, But Cast Light On Deepfake Advancements",
+      "sources": [
+        {
+          "url": "https://www.visiontimes.com/2023/02/27/facebook-reanimate-deceased-users-deepfake-ai.html",
+          "publisher": "Vision Times",
+          "title": "Claims Facebook Developing AI to 'Reanimate' Deceased Users Debunked, But Cast Light On Deepfake Advancements",
+          "date": "2023-02-27"
+        }
+      ]
+    },
+    {
+      "claim": "In February 2026, after Business Insider reported Meta's user-simulation patent, posts on X with large followings presented the 2023 4chan post as a vindicated whistleblower account; these posts assert a link that no document reviewed here establishes.",
+      "status": "words",
+      "date": "2026-02",
+      "quote": "An anonymous poster in 2023 on 4chan blew the whistle on Meta planning to create an AI that would post for dead people. They called it \"Project Lazarus.\" Fast forward to today and the patent for it was just approved.",
+      "sources": [
+        {
+          "url": "https://x.com/MarioNawfal/status/2023891457774678521",
+          "publisher": "X (Mario Nawfal)",
+          "title": "An anonymous poster in 2023 on 4chan blew the whistle on Meta planning to create an AI that would post for dead people",
+          "date": "2026-02"
+        },
+        {
+          "url": "https://x.com/digijordan/status/2023579052594860143",
+          "publisher": "X (Jordan Crowder)",
+          "title": "The second image is from an alleged Meta employee 3 years ago blowing the whistle on project Lazarus",
+          "date": "2026-02"
+        }
+      ]
+    },
+    {
+      "claim": "MediaPost headlined its February 2026 coverage of the Meta patent \"Meta's 'Project Lazarus' Would Resurrect The Dead\", adopting the 4chan name for the patent; the patent record itself does not use the name.",
+      "status": "reported",
+      "date": "2026-02",
+      "sources": [
+        {
+          "url": "https://mediapost.com/publications/article/412878/meta-ai-patent-recreates-the-dead.html",
+          "publisher": "MediaPost",
+          "title": "Meta's 'Project Lazarus' Would Resurrect The Dead",
+          "date": "2026-02"
+        },
+        {
+          "url": "https://patents.google.com/patent/US12513102B2",
+          "publisher": "Google Patents",
+          "title": "US12513102B2 - Simulation of a user of a social networking system using a language model"
+        }
+      ]
+    },
+    {
+      "claim": "The real patent, US 12,513,102 B2, \"Simulation of a user of a social networking system using a language model\", lists Andrew Garrod Bosworth as inventor and Meta Platforms Technologies LLC as assignee; the USPTO Official Gazette lists its issue date as December 30, 2025.",
+      "status": "documented",
+      "date": "2025-12-30",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/US12513102B2",
+          "publisher": "Google Patents",
+          "title": "US12513102B2 - Simulation of a user of a social networking system using a language model"
+        },
+        {
+          "url": "https://patentsgazette.uspto.gov/week52/OG/html/1541-5/US12513102-20251230.html",
+          "publisher": "USPTO Official Gazette",
+          "title": "US 12,513,102 - Simulation of a user of a social networking system using a language model",
+          "date": "2025-12-30"
+        }
+      ]
+    },
+    {
+      "claim": "Meta told Business Insider, as quoted by eWeek and other outlets, that it had no plans to move forward with the deceased-user example in the patent.",
+      "status": "words",
+      "date": "2026-02",
+      "quote": "We have no plans to move forward with this example.",
+      "sources": [
+        {
+          "url": "https://www.eweek.com/news/meta-ai-patent-digital-afterlife-social-media/",
+          "publisher": "eWeek",
+          "title": "Meta Patents AI That Could Keep Users Posting After Death",
+          "date": "2026-02"
+        },
+        {
+          "url": "https://www.audacy.com/krld/news/national/meta-patents-ai-system-to-keep-your-social-media-alive",
+          "publisher": "Audacy (KRLD)",
+          "title": "Meta patents AI system to keep your social media alive",
+          "date": "2026-02"
+        }
+      ]
+    },
+    {
+      "claim": "The OECD AI Incidents Monitor logged the patent in February 2026 as covering a model that could imitate users' activity including after death, noting the technology is not deployed.",
+      "status": "documented",
+      "date": "2026-02-12",
+      "sources": [
+        {
+          "url": "https://oecd.ai/en/incidents/2026-02-12-64e6",
+          "publisher": "OECD.AI Incidents Monitor",
+          "title": "Meta Patents AI to Simulate Deceased Users' Social Media Activity",
+          "date": "2026-02-12"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "meta",
+      "toName": "Meta Platforms",
+      "toType": "company",
+      "relation": "other",
+      "claim": "The 4chan post attributed \"Project Lazarus\" to Meta; the attribution is unverified and was reported as debunked by Vision Times in February 2023.",
+      "status": "reported",
+      "date": "2023-02",
+      "sources": [
+        {
+          "url": "https://www.visiontimes.com/2023/02/27/facebook-reanimate-deceased-users-deepfake-ai.html",
+          "publisher": "Vision Times",
+          "title": "Claims Facebook Developing AI to 'Reanimate' Deceased Users Debunked, But Cast Light On Deepfake Advancements",
+          "date": "2023-02-27"
+        },
+        {
+          "url": "https://cryptoast.fr/?p=204093",
+          "publisher": "Cryptoast",
+          "title": "Parler aux morts sur les réseaux sociaux — Ce projet d'IA de Meta va-t-il trop loin ?",
+          "date": "2026-02"
+        }
+      ]
+    },
+    {
+      "to": "andrew-bosworth",
+      "toName": "Andrew Bosworth",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Social-media posts in February 2026 tied the \"Project Lazarus\" name to the patent on which Bosworth is the inventor; the patent record does not use the name and no source documents a connection.",
+      "status": "reported",
+      "date": "2026-02",
+      "sources": [
+        {
+          "url": "https://x.com/MarioNawfal/status/2023891457774678521",
+          "publisher": "X (Mario Nawfal)",
+          "title": "An anonymous poster in 2023 on 4chan blew the whistle on Meta planning to create an AI that would post for dead people",
+          "date": "2026-02"
+        },
+        {
+          "url": "https://patents.google.com/patent/US12513102B2",
+          "publisher": "Google Patents",
+          "title": "US12513102B2 - Simulation of a user of a social networking system using a language model"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "No Snopes fact-check of the \"Project Lazarus\" claim was found; the only identified fact-check is Vision Times (Feb 27, 2023). Which other outlets debunked it?",
+    "The text of the original 4chan post was seen only in screenshots reposted on X; the original thread was not located.",
+    "MediaPost states that Meta itself called the idea \"Project Lazarus\"; no Meta document or statement supports that and it is treated here as unsupported.",
+    "No source links the 2023 post and the December 2025 patent; the two are recorded as separate facts."
+  ]
+}

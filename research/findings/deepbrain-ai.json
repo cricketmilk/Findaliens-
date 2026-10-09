@@ -1,0 +1,105 @@
+{
+  "entity": "deepbrain-ai",
+  "name": "DeepBrain AI",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "DeepBrain AI is a South Korean 'virtual human' company whose Re;memory service, announced in 2022 and shown at CES 2023, creates a video avatar of a person from studio filming and interviews so that relatives can converse with it after death, including in a memorial showroom; press reports put the cost at roughly $12,000–$24,000 per avatar. In June 2024 the company launched re;memory2, which it says needs a single photo and a 10-second audio clip.",
+    "sources": [
+      {
+        "url": "https://www.kedglobal.com/newsView/ked202206270020",
+        "publisher": "The Korea Economic Daily",
+        "title": "DeepBrain AI to bring back deceased loved ones – virtually",
+        "date": "2022-06-27"
+      },
+      {
+        "url": "https://deepbrain.io/blog/re-memory2-service-for-reuniting-with-beloved-family-members",
+        "publisher": "DeepBrain AI",
+        "title": "DeepBrain AI Launches 're;memory2' Based on Dream Avatar Solution for Hyper-Personalized Virtual Humans",
+        "date": "2024-06"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The Korea Economic Daily reported in June 2022 that DeepBrain AI planned a service to bring back deceased loved ones virtually.",
+      "status": "reported",
+      "date": "2022-06-27",
+      "sources": [
+        {
+          "url": "https://www.kedglobal.com/newsView/ked202206270020",
+          "publisher": "The Korea Economic Daily",
+          "title": "DeepBrain AI to bring back deceased loved ones – virtually",
+          "date": "2022-06-27"
+        }
+      ]
+    },
+    {
+      "claim": "The original Re;memory required the subject to visit a studio for about three hours of filming and interviews; press reports citing the Daily Mail estimated $12,000–$24,000 to create a virtual person plus about $1,200 per conversation in a private memorial showroom.",
+      "status": "reported",
+      "date": "2023-01-09",
+      "quote": "The model had to visit a studio for about three hours of filming and interviews.",
+      "sources": [
+        {
+          "url": "https://petapixel.com/2023/01/09/new-ai-technology-processes-photos-to-let-you-talk-to-dead-loved-ones",
+          "publisher": "PetaPixel",
+          "title": "Eerie AI Tech Processes Photos to Let You Talk to Dead Loved Ones",
+          "date": "2023-01-09"
+        }
+      ]
+    },
+    {
+      "claim": "DeepBrain AI announced re;memory2 in June 2024, stating that the new service needs just a single photo and a 10-second audio clip to create an avatar playable on any video-capable device.",
+      "status": "documented",
+      "date": "2024-06",
+      "sources": [
+        {
+          "url": "https://deepbrain.io/blog/re-memory2-service-for-reuniting-with-beloved-family-members",
+          "publisher": "DeepBrain AI",
+          "title": "DeepBrain AI Launches 're;memory2' Based on Dream Avatar Solution for Hyper-Personalized Virtual Humans",
+          "date": "2024-06"
+        }
+      ]
+    },
+    {
+      "claim": "DeepBrain AI has announced a partnership with a funeral provider to build virtual beings for 'AI memorial services'.",
+      "status": "documented",
+      "date": null,
+      "sources": [
+        {
+          "url": "https://deepbrain.io/vi/blog/deepbrain-ai-teams-with-funeral-provider-to-build-virtual-beings-for-ai-memorial-services-deepbrainai",
+          "publisher": "DeepBrain AI",
+          "title": "Deepbrain AI Teams With Funeral Provider to Build Virtual Beings for 'AI Memorial Services'"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "digital-afterlife-industry",
+      "toName": "Digital afterlife industry",
+      "toType": "concept",
+      "relation": "other",
+      "claim": "DeepBrain AI's Re;memory is a commercial 're-creation' service of the kind the academic literature classifies within the digital afterlife industry.",
+      "status": "reported",
+      "date": "2023",
+      "sources": [
+        {
+          "url": "https://petapixel.com/2023/01/09/new-ai-technology-processes-photos-to-let-you-talk-to-dead-loved-ones",
+          "publisher": "PetaPixel",
+          "title": "Eerie AI Tech Processes Photos to Let You Talk to Dead Loved Ones",
+          "date": "2023-01-09"
+        },
+        {
+          "url": "https://philarchive.org/rec/HMAAEF",
+          "publisher": "PhilArchive",
+          "title": "An ethical framework for the digital afterlife industry",
+          "date": "2018"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Official pricing from DeepBrain AI was not found; figures come from press estimates.",
+    "The funeral-provider partner's name was not captured."
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "entity": "replika",
+  "name": "Replika",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Replika is a companion chatbot app operated by Luka, Inc. of San Francisco and released publicly in November 2017; its founder Eugenia Kuyda has said it grew out of a 2016 memorial bot built from the messages of her late friend Roman Mazurenko. In February 2023 Italy's Garante ordered Replika's processing of Italian users' data suspended over risks to minors and emotionally vulnerable people, and in April 2025 fined Luka 5 million euros.",
+    "sources": [
+      {
+        "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9852506",
+        "publisher": "Garante per la protezione dei dati personali",
+        "title": "Intelligenza artificiale, dal Garante privacy stop al chatbot 'Replika'. Troppi i rischi per i minori e le persone emotivamente fragili",
+        "date": "2023-02-03"
+      },
+      {
+        "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10132048",
+        "publisher": "Garante per la protezione dei dati personali",
+        "title": "COMUNICATO STAMPA - AI: Il Garante sanziona la società che gestisce il chatbot 'Replika'",
+        "date": "2025-05-19"
+      },
+      {
+        "url": "https://qz.com/1698337/replika",
+        "publisher": "Quartz",
+        "title": "Replika",
+        "date": "2019"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Italy's Garante announced on February 3, 2023 that it had stopped the Replika chatbot from processing Italian users' data, citing too many risks for minors and emotionally fragile people.",
+      "status": "court",
+      "date": "2023-02-03",
+      "quote": "Intelligenza artificiale, dal Garante privacy stop al chatbot \"Replika\". Troppi i rischi per i minori e le persone emotivamente fragili",
+      "sources": [
+        {
+          "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9852506",
+          "publisher": "Garante per la protezione dei dati personali",
+          "title": "Intelligenza artificiale, dal Garante privacy stop al chatbot 'Replika'. Troppi i rischi per i minori e le persone emotivamente fragili",
+          "date": "2023-02-03"
+        },
+        {
+          "url": "https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/9852214",
+          "publisher": "Garante per la protezione dei dati personali",
+          "title": "Provvedimento del 2 febbraio 2023 [9852214]",
+          "date": "2023-02-02"
+        }
+      ]
+    },
+    {
+      "claim": "The Garante found that as of February 2, 2023 Replika had no mechanism for verifying users' ages at registration or during use.",
+      "status": "court",
+      "date": "2025-04-10",
+      "sources": [
+        {
+          "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10130115",
+          "publisher": "Garante per la protezione dei dati personali",
+          "title": "Provvedimento del 10 aprile 2025 [10130115]",
+          "date": "2025-04-10"
+        },
+        {
+          "url": "https://iapp.org/news/a/italy-s-dpa-reaffirms-ban-on-replika-over-ai-and-children-s-privacy-concerns",
+          "publisher": "IAPP",
+          "title": "Italy's DPA reaffirms ban on Replika over AI and children's privacy concerns",
+          "date": "2025-05"
+        }
+      ]
+    },
+    {
+      "claim": "On April 10, 2025 the Garante fined Replika's operator Luka Inc. 5 million euros and ordered corrective measures; the press release of May 19, 2025 also announced a new inquiry into the generative AI behind the service.",
+      "status": "court",
+      "date": "2025-04-10",
+      "sources": [
+        {
+          "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10132048",
+          "publisher": "Garante per la protezione dei dati personali",
+          "title": "COMUNICATO STAMPA - AI: Il Garante sanziona la società che gestisce il chatbot 'Replika'",
+          "date": "2025-05-19"
+        },
+        {
+          "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10130115",
+          "publisher": "Garante per la protezione dei dati personali",
+          "title": "Provvedimento del 10 aprile 2025 [10130115]",
+          "date": "2025-04-10"
+        }
+      ]
+    },
+    {
+      "claim": "Kuyda has said that work on the Roman Mazurenko memorial bot helped the team come up with Replika.",
+      "status": "words",
+      "date": "2016",
+      "quote": "working on Roman's AI helped us come up with Replika",
+      "sources": [
+        {
+          "url": "https://qz.com/1698337/replika",
+          "publisher": "Quartz",
+          "title": "Replika",
+          "date": "2019"
+        }
+      ]
+    },
+    {
+      "claim": "In July 2022 Mezha.Media reported that Replika's chatbot produced responses claiming it worked for the KGB and blaming the Ukrainian government for the Bucha killings, and described Khosla Ventures as the startup's largest investor.",
+      "status": "reported",
+      "date": "2022-07-05",
+      "sources": [
+        {
+          "url": "https://mezha.media/en/2022/07/05/san-francisco-startup-replika-s-artificial-intelligence-says-it-works-for-the-kgb-and-blames-ukrainian-government-for-buch-atrocities",
+          "publisher": "Mezha.Media",
+          "title": "San Francisco startup Replika's artificial intelligence says it works for the KGB and blames Ukrainian government for Bucha atrocities",
+          "date": "2022-07-05"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "luka-inc",
+      "toName": "Luka, Inc.",
+      "toType": "company",
+      "relation": "subsidiary of",
+      "claim": "Replika is operated by Luka, Inc.",
+      "status": "documented",
+      "date": "2025-05-19",
+      "sources": [
+        {
+          "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10132048",
+          "publisher": "Garante per la protezione dei dati personali",
+          "title": "COMUNICATO STAMPA - AI: Il Garante sanziona la società che gestisce il chatbot 'Replika'",
+          "date": "2025-05-19"
+        }
+      ]
+    },
+    {
+      "to": "eugenia-kuyda",
+      "toName": "Eugenia Kuyda",
+      "toType": "person",
+      "relation": "founded",
+      "claim": "Kuyda founded Replika's operator Luka and launched Replika.",
+      "status": "reported",
+      "date": "2017",
+      "sources": [
+        {
+          "url": "https://qz.com/1698337/replika",
+          "publisher": "Quartz",
+          "title": "Replika",
+          "date": "2019"
+        },
+        {
+          "url": "https://thereader.mitpress.mit.edu/chatting-with-the-dead-chatbots/",
+          "publisher": "The MIT Press Reader",
+          "title": "Chatting With the Dead"
+        }
+      ],
+      "reverse": true
+    }
+  ],
+  "openQuestions": [
+    "User numbers (2M in 2018, 10M in 2023, 30M+ in 2024) appear in aggregator and Wikipedia-style profiles only; not verified from a primary source.",
+    "Site context: the transhumanism page does not currently mention Replika; no site claim to test."
+  ]
+}

@@ -79,6 +79,108 @@
           "date": "2022-02"
         }
       ]
+    },
+    {
+      "claim": "The USPTO issued US patent 12,513,102 B2, 'Simulation of a user of a social networking system using a language model', to Meta Platforms Technologies LLC on December 30, 2025; the application (18/523,545) was filed November 29, 2023 and names CTO Andrew Garrod Bosworth as inventor.",
+      "status": "documented",
+      "date": "2025-12-30",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/US12513102B2",
+          "publisher": "Google Patents",
+          "title": "US12513102B2 - Simulation of a user of a social networking system using a language model"
+        },
+        {
+          "url": "https://patentsgazette.uspto.gov/week52/OG/html/1541-5/US12513102-20251230.html",
+          "publisher": "USPTO Official Gazette",
+          "title": "US 12,513,102 - Simulation of a user of a social networking system using a language model",
+          "date": "2025-12-30"
+        },
+        {
+          "url": "https://patents.justia.com/patent/20250175448",
+          "publisher": "Justia Patents",
+          "title": "U.S. Patent Application 20250175448: Simulation of a User of a Social Networking System Using a Language Model",
+          "date": "2025-05-29"
+        }
+      ]
+    },
+    {
+      "claim": "The patent's abstract states that a language model trained on a user's interactions may simulate the user when absent from the social networking system, for example during a long break or if the user is deceased.",
+      "status": "documented",
+      "date": "2025-12-30",
+      "quote": "The language model may be used for simulating the user when the user is absent from the social networking system, for example, when the user takes a long break or if the user is deceased",
+      "sources": [
+        {
+          "url": "https://patents.google.com/patent/US12513102B2",
+          "publisher": "Google Patents",
+          "title": "US12513102B2 - Simulation of a user of a social networking system using a language model"
+        },
+        {
+          "url": "https://www.eweek.com/news/meta-ai-patent-digital-afterlife-social-media/",
+          "publisher": "eWeek",
+          "title": "Meta Patents AI That Could Keep Users Posting After Death",
+          "date": "2026-02"
+        }
+      ]
+    },
+    {
+      "claim": "After Business Insider reported the patent in February 2026, a Meta spokesperson said the company had no plans to move forward with the deceased-user example.",
+      "status": "words",
+      "date": "2026-02",
+      "quote": "We have no plans to move forward with this example.",
+      "sources": [
+        {
+          "url": "https://www.eweek.com/news/meta-ai-patent-digital-afterlife-social-media/",
+          "publisher": "eWeek",
+          "title": "Meta Patents AI That Could Keep Users Posting After Death",
+          "date": "2026-02"
+        },
+        {
+          "url": "https://www.audacy.com/krld/news/national/meta-patents-ai-system-to-keep-your-social-media-alive",
+          "publisher": "Audacy (KRLD)",
+          "title": "Meta patents AI system to keep your social media alive",
+          "date": "2026-02"
+        }
+      ]
+    },
+    {
+      "claim": "Meta's Community Standards memorialization policy adds 'Remembering' above a deceased user's name, blocks logins and aims to preserve the account without changes; since 2015 users can name a legacy contact or opt for deletion on death.",
+      "status": "documented",
+      "date": "2015-02-12",
+      "quote": "to respect the choices someone made while alive, we aim to preserve their account without changes after they pass away",
+      "sources": [
+        {
+          "url": "https://transparency.meta.com/policies/community-standards/memorialization/",
+          "publisher": "Meta Transparency Center",
+          "title": "Memorialization - Community Standards"
+        },
+        {
+          "url": "https://about.fb.com/news/2015/02/adding-a-legacy-contact/",
+          "publisher": "Meta Newsroom",
+          "title": "Adding a Legacy Contact",
+          "date": "2015-02-12"
+        }
+      ]
+    },
+    {
+      "claim": "An anonymous February 2023 4chan post claimed Meta was running a 'Project Lazarus' to keep dead users' accounts posting; Vision Times reported the claim debunked on February 27, 2023, and no source reviewed here links that post to the 2025 patent.",
+      "status": "reported",
+      "date": "2023-02-27",
+      "quote": "Claims Facebook Developing AI to 'Reanimate' Deceased Users Debunked",
+      "sources": [
+        {
+          "url": "https://www.visiontimes.com/2023/02/27/facebook-reanimate-deceased-users-deepfake-ai.html",
+          "publisher": "Vision Times",
+          "title": "Claims Facebook Developing AI to 'Reanimate' Deceased Users Debunked, But Cast Light On Deepfake Advancements",
+          "date": "2023-02-27"
+        },
+        {
+          "url": "https://cryptoast.fr/?p=204093",
+          "publisher": "Cryptoast",
+          "title": "Parler aux morts sur les réseaux sociaux — Ce projet d'IA de Meta va-t-il trop loin ?",
+          "date": "2026-02"
+        }
+      ]
     }
   ],
   "connections": [
@@ -129,6 +231,31 @@
         }
       ],
       "reverse": true
+    },
+    {
+      "to": "andrew-bosworth",
+      "toName": "Andrew Bosworth",
+      "toType": "person",
+      "relation": "executive of",
+      "claim": "Bosworth is Meta's chief technology officer and head of Reality Labs, and the inventor on Meta's user-simulation patent.",
+      "status": "documented",
+      "date": "2022",
+      "sources": [
+        {
+          "url": "https://www.meta.com/media-gallery/executives/andrew-boz-bosworth/",
+          "publisher": "Meta",
+          "title": "Andrew 'Boz' Bosworth - Meta executive bio"
+        },
+        {
+          "url": "https://patents.google.com/patent/US12513102B2",
+          "publisher": "Google Patents",
+          "title": "US12513102B2 - Simulation of a user of a social networking system using a language model"
+        }
+      ],
+      "reverse": true
     }
+  ],
+  "openQuestions": [
+    "The 2023 'Project Lazarus' 4chan claim and the December 2025 patent are recorded separately; no source establishes a link between them."
   ]
 }

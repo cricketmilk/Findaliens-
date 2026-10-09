@@ -1,0 +1,134 @@
+{
+  "entity": "luciano-floridi",
+  "name": "Luciano Floridi",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Luciano Floridi is a philosopher of information who was Professor of Philosophy and Ethics of Information at the Oxford Internet Institute from May 2013 to July 2023 and director of its Digital Ethics Lab, and from July 2023 founding director of the Digital Ethics Center at Yale University, where he is John K. Castle Professor in the Practice of Cognitive Science. He co-authored the 2018 Nature Human Behaviour paper proposing an ethical framework for the digital afterlife industry.",
+    "sources": [
+      {
+        "url": "https://www.oii.ox.ac.uk/people/luciano-floridi/",
+        "publisher": "Oxford Internet Institute",
+        "title": "Luciano Floridi - people profile"
+      },
+      {
+        "url": "https://www.exeter.ox.ac.uk/luciano-floridi-to-lead-digital-ethics-center-at-yale-university/",
+        "publisher": "Exeter College, Oxford",
+        "title": "Luciano Floridi to lead Digital Ethics Center at Yale University",
+        "date": "2023-01"
+      },
+      {
+        "url": "https://ideas.repec.org/a/nat/nathum/v2y2018i5d10.1038_s41562-018-0335-2.html",
+        "publisher": "IDEAS/RePEc (Nature Human Behaviour record)",
+        "title": "An ethical framework for the digital afterlife industry",
+        "date": "2018-05"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Floridi was Professor of Philosophy and Ethics of Information at the Oxford Internet Institute from May 2013 to July 2023 and director of the Digital Ethics Lab.",
+      "status": "documented",
+      "date": "2013-05",
+      "quote": "Professor of Philosophy and Ethics of Information, May 2013 - July 2023",
+      "sources": [
+        {
+          "url": "https://www.oii.ox.ac.uk/people/luciano-floridi/",
+          "publisher": "Oxford Internet Institute",
+          "title": "Luciano Floridi - people profile"
+        },
+        {
+          "url": "https://www.exeter.ox.ac.uk/luciano-floridi-to-lead-digital-ethics-center-at-yale-university/",
+          "publisher": "Exeter College, Oxford",
+          "title": "Luciano Floridi to lead Digital Ethics Center at Yale University",
+          "date": "2023-01"
+        }
+      ]
+    },
+    {
+      "claim": "From July 2023 Floridi became founding director of the Digital Ethics Center at Yale University and John K. Castle Professor in the Practice of Cognitive Science.",
+      "status": "documented",
+      "date": "2023-07",
+      "quote": "From July 2023, Professor Floridi will be the new Founding Director of the Digital Ethics Center at Yale University.",
+      "sources": [
+        {
+          "url": "https://www.oii.ox.ac.uk/people/luciano-floridi/",
+          "publisher": "Oxford Internet Institute",
+          "title": "Luciano Floridi - people profile"
+        },
+        {
+          "url": "https://dailynous.com/2023/01/09/floridi-to-lead-new-digital-ethics-center-at-yale/",
+          "publisher": "Daily Nous",
+          "title": "Floridi to Lead New Digital Ethics Center at Yale",
+          "date": "2023-01-09"
+        }
+      ]
+    },
+    {
+      "claim": "Floridi also holds a professorship of Sociology of Culture and Communication at the University of Bologna.",
+      "status": "documented",
+      "date": null,
+      "sources": [
+        {
+          "url": "https://www.exeter.ox.ac.uk/luciano-floridi-to-lead-digital-ethics-center-at-yale-university/",
+          "publisher": "Exeter College, Oxford",
+          "title": "Luciano Floridi to lead Digital Ethics Center at Yale University",
+          "date": "2023-01"
+        }
+      ]
+    },
+    {
+      "claim": "Floridi co-authored with Carl Öhman 'An ethical framework for the digital afterlife industry' in Nature Human Behaviour (2018).",
+      "status": "peer",
+      "date": "2018-05",
+      "sources": [
+        {
+          "url": "https://ideas.repec.org/a/nat/nathum/v2y2018i5d10.1038_s41562-018-0335-2.html",
+          "publisher": "IDEAS/RePEc (Nature Human Behaviour record)",
+          "title": "An ethical framework for the digital afterlife industry",
+          "date": "2018-05"
+        },
+        {
+          "url": "https://www.oii.ox.ac.uk/?p=10823",
+          "publisher": "Oxford Internet Institute",
+          "title": "Professor Luciano Floridi and Carl Öhman publish ethical framework for the digital afterlife industry",
+          "date": "2018"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "oxford-internet-institute",
+      "toName": "Oxford Internet Institute",
+      "toType": "organization",
+      "relation": "employed by",
+      "claim": "Floridi was professor at the OII, 2013–2023.",
+      "status": "documented",
+      "date": "2013",
+      "sources": [
+        {
+          "url": "https://www.oii.ox.ac.uk/people/luciano-floridi/",
+          "publisher": "Oxford Internet Institute",
+          "title": "Luciano Floridi - people profile"
+        }
+      ]
+    },
+    {
+      "to": "carl-ohman",
+      "toName": "Carl Öhman",
+      "toType": "person",
+      "relation": "advised",
+      "claim": "Floridi supervised Öhman's DPhil at the OII.",
+      "status": "documented",
+      "date": "2017",
+      "sources": [
+        {
+          "url": "https://www.oii.ox.ac.uk/people/carl-ohman/",
+          "publisher": "Oxford Internet Institute",
+          "title": "Carl Öhman - people profile"
+        }
+      ]
+    }
+  ],
+  "openQuestions": []
+}

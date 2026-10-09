@@ -1,0 +1,98 @@
+{
+  "entity": "somnium-space",
+  "name": "Somnium Space",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Somnium Space is a virtual-reality 'metaverse' platform whose founder and CEO Artur Sychov announced in April 2022 a planned 'Live Forever' mode that would record users' movements and conversations in VR and use the data to build an avatar that could keep talking after their death. Sychov said the idea was prompted by his father's terminal cancer diagnosis and that in 2022 he expected the technology within about five years.",
+    "sources": [
+      {
+        "url": "https://tech.slashdot.org/story/22/04/14/174254/metaverse-company-to-offer-immortality-through-live-forever-mode",
+        "publisher": "Slashdot (excerpting Vice)",
+        "title": "Metaverse Company To Offer Immortality Through 'Live Forever' Mode",
+        "date": "2022-04-14"
+      },
+      {
+        "url": "https://ispr.info/?p=31042",
+        "publisher": "ISPR (reprinting Vice)",
+        "title": "Metaverse company to offer immortality through 'Live Forever' mode",
+        "date": "2022-04"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Vice reported in April 2022 that Somnium Space planned a 'Live Forever' mode that would store users' movements and conversations as data and turn them into an avatar able to keep talking after death.",
+      "status": "reported",
+      "date": "2022-04-14",
+      "sources": [
+        {
+          "url": "https://ispr.info/?p=31042",
+          "publisher": "ISPR (reprinting Vice)",
+          "title": "Metaverse company to offer immortality through 'Live Forever' mode",
+          "date": "2022-04"
+        },
+        {
+          "url": "https://tech.slashdot.org/story/22/04/14/174254/metaverse-company-to-offer-immortality-through-live-forever-mode",
+          "publisher": "Slashdot (excerpting Vice)",
+          "title": "Metaverse Company To Offer Immortality Through 'Live Forever' Mode",
+          "date": "2022-04-14"
+        }
+      ]
+    },
+    {
+      "claim": "Sychov said the idea came after his father's terminal cancer diagnosis and a worry that his young children would not remember their grandfather.",
+      "status": "words",
+      "date": "2022-04",
+      "sources": [
+        {
+          "url": "https://tech.slashdot.org/story/22/04/14/174254/metaverse-company-to-offer-immortality-through-live-forever-mode",
+          "publisher": "Slashdot (excerpting Vice)",
+          "title": "Metaverse Company To Offer Immortality Through 'Live Forever' Mode",
+          "date": "2022-04-14"
+        }
+      ]
+    },
+    {
+      "claim": "The system was described as collecting data from VR use, such as how a person moves and speaks, to build an AI avatar; in 2022 Sychov expected the technology within about five years.",
+      "status": "reported",
+      "date": "2022-04-15",
+      "sources": [
+        {
+          "url": "https://thehustle.co/04152022-digital-afterlives",
+          "publisher": "The Hustle",
+          "title": "Can you live forever on a computer?",
+          "date": "2022-04-15"
+        },
+        {
+          "url": "https://ispr.info/?p=31042",
+          "publisher": "ISPR (reprinting Vice)",
+          "title": "Metaverse company to offer immortality through 'Live Forever' mode",
+          "date": "2022-04"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "digital-afterlife-industry",
+      "toName": "Digital afterlife industry",
+      "toType": "concept",
+      "relation": "other",
+      "claim": "Somnium Space's 'Live Forever' mode is cited in coverage of digital-afterlife products.",
+      "status": "reported",
+      "date": "2022",
+      "sources": [
+        {
+          "url": "https://thehustle.co/04152022-digital-afterlives",
+          "publisher": "The Hustle",
+          "title": "Can you live forever on a computer?",
+          "date": "2022-04-15"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "No source confirms whether 'Live Forever' mode ever launched.",
+    "Vice's original article could not be opened; it is cited via reprints and excerpts."
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "entity": "project-december",
+  "name": "Project December",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Project December is a chatbot service built by independent game developer Jason Rohrer, originally on OpenAI's GPT-3, that let users customise a conversational persona. After a July 2021 San Francisco Chronicle story about a user, Joshua Barbeau, who used it to simulate his late fiancée Jessica Pereira, thousands of people built their own bots; OpenAI then cut off Rohrer's GPT-3 access citing safety and misuse concerns, and he switched to AI21 Labs' model. In 2022 Rohrer relaunched the service as a $10 tool explicitly for simulating the dead.",
+    "sources": [
+      {
+        "url": "https://www.theregister.com/2021/09/08/project_december_openai_gpt_3/",
+        "publisher": "The Register",
+        "title": "Project December: OpenAI cuts off GPT-3 access for chatbot developer",
+        "date": "2021-09-08"
+      },
+      {
+        "url": "https://www.theregister.com/2022/10/15/would_you_pay_10_to",
+        "publisher": "The Register",
+        "title": "Would you pay $10 to create an AI chatbot of a dead loved one?",
+        "date": "2022-10-15"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Rohrer built Project December as a service for users to converse with customised instances of GPT-3; Joshua Barbeau primed a bot with texts and Facebook messages from his fiancée Jessica Pereira, who died in 2012 aged 23.",
+      "status": "reported",
+      "date": "2021",
+      "quote": "Barbeau fed Project December snippets of their texts and Facebook messages to prime his chatbot so it could imitate Pereira, who died in 2012 aged 23 from liver disease.",
+      "sources": [
+        {
+          "url": "https://www.businessinsider.nl/a-man-used-ai-to-bring-back-his-deceased-fiance-but-the-creators-of-the-tech-warn-it-could-be-dangerous-and-used-to-spread-misinformation/",
+          "publisher": "Business Insider Nederland",
+          "title": "A man used AI to bring back his deceased fiancé. But the creators of the tech warn it could be dangerous and used to spread misinformation",
+          "date": "2021"
+        },
+        {
+          "url": "https://www.theregister.com/2021/09/08/project_december_openai_gpt_3/",
+          "publisher": "The Register",
+          "title": "Project December: OpenAI cuts off GPT-3 access for chatbot developer",
+          "date": "2021-09-08"
+        }
+      ]
+    },
+    {
+      "claim": "After a San Francisco Chronicle article in July 2021, thousands of people built their own bots on the site, and OpenAI gave Rohrer an ultimatum to restrict the project or shut it down; he refused and lost GPT-3 access, after which the service ran on AI21 Labs' language model.",
+      "status": "reported",
+      "date": "2021-09-08",
+      "quote": "Rohrer's program is powered by AI21 Lab's language model after he lost access to GPT-3 when OpenAI shut down his developer account citing safety reasons",
+      "sources": [
+        {
+          "url": "https://www.theregister.com/2021/09/08/project_december_openai_gpt_3/",
+          "publisher": "The Register",
+          "title": "Project December: OpenAI cuts off GPT-3 access for chatbot developer",
+          "date": "2021-09-08"
+        },
+        {
+          "url": "https://www.theregister.com/2022/10/15/would_you_pay_10_to",
+          "publisher": "The Register",
+          "title": "Would you pay $10 to create an AI chatbot of a dead loved one?",
+          "date": "2022-10-15"
+        }
+      ]
+    },
+    {
+      "claim": "The Register reported OpenAI was concerned the bots could be misused or cause harm, and that Rohrer's video call with its product safety team did not go well.",
+      "status": "reported",
+      "date": "2021-09-08",
+      "quote": "OpenAI was worried the bots could be misused or cause harm to people. Rohrer's video call with its product safety team didn't go so well.",
+      "sources": [
+        {
+          "url": "https://www.theregister.com/2021/09/08/project_december_openai_gpt_3/",
+          "publisher": "The Register",
+          "title": "Project December: OpenAI cuts off GPT-3 access for chatbot developer",
+          "date": "2021-09-08"
+        }
+      ]
+    },
+    {
+      "claim": "In 2022 Rohrer relaunched Project December as a service where users pay $10 to create a chatbot mimicking someone who has died; he said he built it after seeing demand in the community following the Chronicle story.",
+      "status": "words",
+      "date": "2022-10-15",
+      "quote": "I decided to build a special purpose service when I saw such a desire in the community around Project December after the SF Chronicle story",
+      "sources": [
+        {
+          "url": "https://www.theregister.com/2022/10/15/would_you_pay_10_to",
+          "publisher": "The Register",
+          "title": "Would you pay $10 to create an AI chatbot of a dead loved one?",
+          "date": "2022-10-15"
+        }
+      ]
+    },
+    {
+      "claim": "Rohrer has said Project December was not originally intended to simulate the dead but was an art and entertainment research system that users chose to use that way.",
+      "status": "words",
+      "date": "2024",
+      "sources": [
+        {
+          "url": "https://decrypt.co/214163/ai-developer-refutes-eternal-you-documentary-calls-depiction-of-his-chatbot-misleading?amp=1",
+          "publisher": "Decrypt",
+          "title": "AI Developer Refutes 'Eternal You' Documentary, Calls Foul on Its Depiction of His Chatbot",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "claim": "The 2024 Philosophy & Technology paper by Hollanek and Nowaczyk-Basińska used Project December and the 2021 Barbeau case as a case study, noting OpenAI said the cut-off resulted from the site's failure to follow its safety guidelines.",
+      "status": "peer",
+      "date": "2024-05-09",
+      "sources": [
+        {
+          "url": "https://lcfi.ac.uk/news-events/news/deathbots-griefbots-and-the-digital-afterlife",
+          "publisher": "Leverhulme Centre for the Future of Intelligence, University of Cambridge",
+          "title": "Deathbots, griefbots and the digital afterlife",
+          "date": "2024-05"
+        },
+        {
+          "url": "https://thedebrief.org/future-humans-could-be-haunted-by-digital-ghosts-of-their-dead-loved-ones-researchers-warn/",
+          "publisher": "The Debrief",
+          "title": "Future Humans Could Be Haunted by Digital Ghosts of Their Dead Loved Ones, Researchers Warn",
+          "date": "2024-05"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "openai",
+      "toName": "OpenAI",
+      "toType": "company",
+      "relation": "other",
+      "claim": "OpenAI terminated Project December's GPT-3 developer access in 2021 citing safety reasons after Rohrer declined its conditions.",
+      "status": "reported",
+      "date": "2021-09",
+      "sources": [
+        {
+          "url": "https://www.theregister.com/2021/09/08/project_december_openai_gpt_3/",
+          "publisher": "The Register",
+          "title": "Project December: OpenAI cuts off GPT-3 access for chatbot developer",
+          "date": "2021-09-08"
+        }
+      ]
+    },
+    {
+      "to": "digital-afterlife-industry",
+      "toName": "Digital afterlife industry",
+      "toType": "concept",
+      "relation": "other",
+      "claim": "Project December is analysed as a case study of 'deadbots' in the 2024 Cambridge paper on the digital afterlife industry.",
+      "status": "peer",
+      "date": "2024",
+      "sources": [
+        {
+          "url": "https://lcfi.ac.uk/news-events/news/deathbots-griefbots-and-the-digital-afterlife",
+          "publisher": "Leverhulme Centre for the Future of Intelligence, University of Cambridge",
+          "title": "Deathbots, griefbots and the digital afterlife",
+          "date": "2024-05"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The exact terms of OpenAI's 2021 conditions (reported to include automated monitoring) were not confirmed from the full Register article.",
+    "jason-rohrer is not an entity id on the site; he is named in the facts only."
+  ]
+}

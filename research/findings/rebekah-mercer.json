@@ -1,0 +1,155 @@
+{
+  "entity": "rebekah-mercer",
+  "name": "Rebekah Mercer",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Rebekah Mercer is a daughter of hedge fund executive and Republican donor Robert Mercer. Companies House lists her as a director of Emerdata Limited, a London company formed in 2017 and associated with the Cambridge Analytica and SCL Group executives, appointed on 16 March 2018. Her father said in November 2017 that he was selling his stake in Breitbart News to his daughters, and in August 2016 The Hill reported on the Mercers' links to the Trump campaign's leadership changes.",
+    "sources": [
+      {
+        "url": "https://find-and-update.company-information.service.gov.uk/company/10911848/officers",
+        "publisher": "Companies House",
+        "title": "EMERDATA LIMITED (10911848) - Officers"
+      },
+      {
+        "url": "https://www.mediaite.com/online/robert-mercer-sells-stake-in-breitbart-citing-disagreements-with-bannon-and-milo",
+        "publisher": "Mediaite",
+        "title": "Robert Mercer Sells Stake in Breitbart Citing Disagreements with Bannon and Milo",
+        "date": "2017-11-02"
+      },
+      {
+        "url": "https://thehill.com/homenews/campaign/291772-billionaire-father-and-daughter-linked-to-trump-shakeup/",
+        "publisher": "The Hill",
+        "title": "Billionaire father and daughter linked to Trump shake-up",
+        "date": "2016-08-17"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Companies House records list Rebekah Mercer as an active director of Emerdata Limited (company 10911848), appointed 16 March 2018; her sister Jennifer Mercer was appointed the same day. The register shows the company's status as 'In Administration'.",
+      "status": "documented",
+      "date": "2018-03-16",
+      "quote": "In Administration",
+      "sources": [
+        {
+          "url": "https://find-and-update.company-information.service.gov.uk/company/10911848/officers",
+          "publisher": "Companies House",
+          "title": "EMERDATA LIMITED (10911848) - Officers"
+        }
+      ]
+    },
+    {
+      "claim": "Emerdata Limited was incorporated in August 2017; corporate filings reported in 2018 listed Alexander Nix as a director until his resignation on 28 March 2018, and Johnson Chun Shun Ko among three directors appointed on 23 January 2018.",
+      "status": "reported",
+      "date": "2018",
+      "quote": "Nix resigned as director of Emerdata on 28 March 2018",
+      "sources": [
+        {
+          "url": "https://find-and-update.company-information.service.gov.uk/company/10911848/officers",
+          "publisher": "Companies House",
+          "title": "EMERDATA LIMITED (10911848) - Officers"
+        },
+        {
+          "url": "https://www.benton.org/node/208255",
+          "publisher": "Benton Institute for Broadband & Society",
+          "title": "Cambridge Analytica Closes, Rebranded as Emerdata",
+          "date": "2018-05"
+        }
+      ]
+    },
+    {
+      "claim": "Robert Mercer said in November 2017 that he was selling his stake in Breitbart News to his daughters, Mediaite reported.",
+      "status": "reported",
+      "date": "2017-11-02",
+      "quote": "personal reasons",
+      "sources": [
+        {
+          "url": "https://www.mediaite.com/online/robert-mercer-sells-stake-in-breitbart-citing-disagreements-with-bannon-and-milo",
+          "publisher": "Mediaite",
+          "title": "Robert Mercer Sells Stake in Breitbart Citing Disagreements with Bannon and Milo",
+          "date": "2017-11-02"
+        }
+      ]
+    },
+    {
+      "claim": "The Hill reported in August 2016 on Robert and Rebekah Mercer's links to the Trump campaign shake-up in which Steve Bannon and Kellyanne Conway joined the campaign.",
+      "status": "reported",
+      "date": "2016-08-17",
+      "quote": "Billionaire father and daughter linked to Trump shake-up",
+      "sources": [
+        {
+          "url": "https://thehill.com/homenews/campaign/291772-billionaire-father-and-daughter-linked-to-trump-shakeup/",
+          "publisher": "The Hill",
+          "title": "Billionaire father and daughter linked to Trump shake-up",
+          "date": "2016-08-17"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "emerdata",
+      "toName": "Emerdata",
+      "toType": "company",
+      "relation": "board member of",
+      "claim": "Rebekah Mercer has been a director of Emerdata Limited since 16 March 2018, per Companies House.",
+      "status": "documented",
+      "date": "2018-03-16",
+      "quote": "In Administration",
+      "sources": [
+        {
+          "url": "https://find-and-update.company-information.service.gov.uk/company/10911848/officers",
+          "publisher": "Companies House",
+          "title": "EMERDATA LIMITED (10911848) - Officers"
+        }
+      ]
+    },
+    {
+      "to": "robert-mercer",
+      "toName": "Robert Mercer",
+      "toType": "person",
+      "relation": "family of",
+      "claim": "Rebekah Mercer is Robert Mercer's daughter; he said in 2017 he was selling his Breitbart stake to his daughters.",
+      "status": "reported",
+      "date": "2017-11-02",
+      "quote": "personal reasons",
+      "sources": [
+        {
+          "url": "https://www.mediaite.com/online/robert-mercer-sells-stake-in-breitbart-citing-disagreements-with-bannon-and-milo",
+          "publisher": "Mediaite",
+          "title": "Robert Mercer Sells Stake in Breitbart Citing Disagreements with Bannon and Milo",
+          "date": "2017-11-02"
+        },
+        {
+          "url": "https://thehill.com/homenews/campaign/291772-billionaire-father-and-daughter-linked-to-trump-shakeup/",
+          "publisher": "The Hill",
+          "title": "Billionaire father and daughter linked to Trump shake-up",
+          "date": "2016-08-17"
+        }
+      ]
+    },
+    {
+      "to": "breitbart-news",
+      "toName": "Breitbart News",
+      "toType": "company",
+      "relation": "owns",
+      "claim": "Robert Mercer said in November 2017 he was selling his Breitbart News stake to his daughters.",
+      "status": "reported",
+      "date": "2017-11-02",
+      "quote": "personal reasons",
+      "sources": [
+        {
+          "url": "https://www.mediaite.com/online/robert-mercer-sells-stake-in-breitbart-citing-disagreements-with-bannon-and-milo",
+          "publisher": "Mediaite",
+          "title": "Robert Mercer Sells Stake in Breitbart Citing Disagreements with Bannon and Milo",
+          "date": "2017-11-02"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Reports that Rebekah Mercer sat on Cambridge Analytica's board were not confirmed from a source opened here; record only if the owner finds the underlying New York Times or Companies House record.",
+    "The size of the Mercer stake in Breitbart (reported as nearly 50% for $10 million in 2011) comes from New York Times reporting that was not reached directly.",
+    "Whether Rebekah Mercer took over day-to-day leadership of Make America Number 1 after David Bossie left in 2016 was stated only by tertiary sources."
+  ]
+}

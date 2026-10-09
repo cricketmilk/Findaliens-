@@ -1,0 +1,108 @@
+{
+  "entity": "john-bolton-super-pac",
+  "name": "John Bolton Super PAC",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The John Bolton Super PAC was a political committee led by John Bolton, later national security adviser. The Center for Public Integrity reported from FEC filings that it paid Cambridge Analytica more than $1.1 million from 2014 for research and survey research, and that Robert Mercer gave it $5 million from 2013 and was its largest donor in the 2016 cycle. The Campaign Legal Center filed an FEC complaint over the arrangement; it remains an allegation.",
+    "sources": [
+      {
+        "url": "https://publicintegrity.org/politics/john-bolton-eyed-for-trump-post-leads-super-pac-that-employed-cambridge-analytica/",
+        "publisher": "Center for Public Integrity",
+        "title": "John Bolton, eyed for Trump post, leads super PAC that employed Cambridge Analytica",
+        "date": "2018-03-20"
+      },
+      {
+        "url": "https://campaignlegal.org/press-releases/clc-complaint-alleges-john-bolton-super-pacs-connection-cambridge-analytica-resulted",
+        "publisher": "Campaign Legal Center",
+        "title": "CLC Complaint Alleges John Bolton Super PAC's Connection to Cambridge Analytica Resulted in Campaign Finance Violations"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The Center for Public Integrity reported in March 2018 that the John Bolton Super PAC paid Cambridge Analytica more than $1.1 million since 2014 for 'research' and 'survey research', according to FEC filings.",
+      "status": "reported",
+      "date": "2018-03-20",
+      "quote": "more than $1.1 million since 2014",
+      "sources": [
+        {
+          "url": "https://publicintegrity.org/politics/john-bolton-eyed-for-trump-post-leads-super-pac-that-employed-cambridge-analytica/",
+          "publisher": "Center for Public Integrity",
+          "title": "John Bolton, eyed for Trump post, leads super PAC that employed Cambridge Analytica",
+          "date": "2018-03-20"
+        }
+      ]
+    },
+    {
+      "claim": "Robert Mercer gave $5 million to the John Bolton Super PAC from 2013 and was its largest donor during the 2016 election cycle, the Center for Public Integrity reported.",
+      "status": "reported",
+      "date": "2018-03-20",
+      "quote": "Mercer has given $5 million to Bolton's super PAC since 2013",
+      "sources": [
+        {
+          "url": "https://publicintegrity.org/politics/john-bolton-eyed-for-trump-post-leads-super-pac-that-employed-cambridge-analytica/",
+          "publisher": "Center for Public Integrity",
+          "title": "John Bolton, eyed for Trump post, leads super PAC that employed Cambridge Analytica",
+          "date": "2018-03-20"
+        }
+      ]
+    },
+    {
+      "claim": "The Campaign Legal Center filed an FEC complaint alleging that Cambridge Analytica acted as a conduit to funnel strategic information to the John Bolton Super PAC, which spent on advertisements for Thom Tillis's 2014 Senate campaign. This is an allegation; no FEC finding was located.",
+      "status": "reported",
+      "date": "2018",
+      "quote": "acted as a conduit to funnel strategic information to the John Bolton Super PAC",
+      "sources": [
+        {
+          "url": "https://campaignlegal.org/press-releases/clc-complaint-alleges-john-bolton-super-pacs-connection-cambridge-analytica-resulted",
+          "publisher": "Campaign Legal Center",
+          "title": "CLC Complaint Alleges John Bolton Super PAC's Connection to Cambridge Analytica Resulted in Campaign Finance Violations"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "cambridge-analytica",
+      "toName": "Cambridge Analytica",
+      "toType": "company",
+      "relation": "contracted with",
+      "claim": "The super PAC paid Cambridge Analytica more than $1.1 million from 2014 for research and survey research, per FEC filings analysed by the Center for Public Integrity.",
+      "status": "reported",
+      "date": "2018-03-20",
+      "quote": "more than $1.1 million since 2014",
+      "sources": [
+        {
+          "url": "https://publicintegrity.org/politics/john-bolton-eyed-for-trump-post-leads-super-pac-that-employed-cambridge-analytica/",
+          "publisher": "Center for Public Integrity",
+          "title": "John Bolton, eyed for Trump post, leads super PAC that employed Cambridge Analytica",
+          "date": "2018-03-20"
+        }
+      ]
+    },
+    {
+      "to": "robert-mercer",
+      "toName": "Robert Mercer",
+      "toType": "person",
+      "relation": "funded",
+      "claim": "Mercer gave $5 million to the John Bolton Super PAC from 2013 and was its largest 2016-cycle donor.",
+      "status": "reported",
+      "date": "2018-03-20",
+      "quote": "Mercer has given $5 million to Bolton's super PAC since 2013",
+      "sources": [
+        {
+          "url": "https://publicintegrity.org/politics/john-bolton-eyed-for-trump-post-leads-super-pac-that-employed-cambridge-analytica/",
+          "publisher": "Center for Public Integrity",
+          "title": "John Bolton, eyed for Trump post, leads super PAC that employed Cambridge Analytica",
+          "date": "2018-03-20"
+        }
+      ],
+      "reverse": true
+    }
+  ],
+  "openQuestions": [
+    "Other reports put the total paid to Cambridge Analytica at nearly $1.2 million over two years; confirm from FEC disbursements.",
+    "The DCMS Committee's record of Cambridge Analytica's work for the Bolton super PAC was not reached.",
+    "Extra name wanted as a connection but absent from the entity index: John Bolton (the person)."
+  ]
+}

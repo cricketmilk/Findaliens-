@@ -1,0 +1,141 @@
+{
+  "entity": "giles-parscale",
+  "name": "Giles-Parscale",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Giles-Parscale was a San Antonio web and digital marketing firm run by Brad Parscale. Hired in 2015 to build Donald Trump's exploratory campaign website for $1,500, it became the largest vendor of Trump's 2016 campaign committee, receiving about $94 million from Trump-aligned committees in the 2016 cycle, most of it reported as pass-through advertising spending. Cloud Commerce bought Parscale's digital marketing business in August 2017.",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2017/10/09/donald-trumps-digital-campaign-directors-company-paid-94-million.html",
+        "publisher": "CNBC",
+        "title": "Trump's digital campaign director was paid $1,500 to set up his election website. Then he raked in $94 million when Trump won",
+        "date": "2017-10-09"
+      },
+      {
+        "url": "https://abcnews.go.com/Politics/inside-trumps-100-million-mans-rapid-rise-power/story?id=53413101",
+        "publisher": "ABC News",
+        "title": "Inside Trump's $100 million man's rapid rise to power",
+        "date": "2018-02"
+      },
+      {
+        "url": "https://globalnews.ca/news/4278044/trump-2020-cambridge-analytica-data-propria/",
+        "publisher": "Global News (Associated Press)",
+        "title": "Trump 2020 working with ex-Cambridge Analytica staffers",
+        "date": "2018-06-15"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "CNBC reported, citing FEC filings, that Giles-Parscale was paid about $94 million by the Trump campaign, the RNC and the Trump Make America Great Again committee in the 2016 cycle, with the campaign committee paying nearly $88 million, about $4 million from the joint fundraising committee and over $2 million from the RNC.",
+      "status": "reported",
+      "date": "2017-10-09",
+      "quote": "the campaign shelled out the majority of the money, nearly $88 million",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2017/10/09/donald-trumps-digital-campaign-directors-company-paid-94-million.html",
+          "publisher": "CNBC",
+          "title": "Trump's digital campaign director was paid $1,500 to set up his election website. Then he raked in $94 million when Trump won",
+          "date": "2017-10-09"
+        },
+        {
+          "url": "https://abcnews.go.com/Politics/inside-trumps-100-million-mans-rapid-rise-power/story?id=53413101",
+          "publisher": "ABC News",
+          "title": "Inside Trump's $100 million man's rapid rise to power",
+          "date": "2018-02"
+        }
+      ]
+    },
+    {
+      "claim": "Giles-Parscale was the top vendor of Donald J. Trump for President in the 2016 cycle; an August 2016 filing showed it had become the campaign's biggest vendor with $12.5 million received to date.",
+      "status": "reported",
+      "date": "2016-08",
+      "quote": "receiving $12.5 million to date",
+      "sources": [
+        {
+          "url": "https://abcnews.go.com/Politics/inside-trumps-100-million-mans-rapid-rise-power/story?id=53413101",
+          "publisher": "ABC News",
+          "title": "Inside Trump's $100 million man's rapid rise to power",
+          "date": "2018-02"
+        },
+        {
+          "url": "https://www.cnbc.com/2017/10/09/donald-trumps-digital-campaign-directors-company-paid-94-million.html",
+          "publisher": "CNBC",
+          "title": "Trump's digital campaign director was paid $1,500 to set up his election website. Then he raked in $94 million when Trump won",
+          "date": "2017-10-09"
+        }
+      ]
+    },
+    {
+      "claim": "Parscale said the vast majority of the money paid to Giles-Parscale was passed through the firm to buy digital advertising, so the amount retained by the firm is not known from the filings.",
+      "status": "reported",
+      "date": "2017-10-09",
+      "quote": "the vast majority was simply passed through his firm and went toward buying ads",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2017/10/09/donald-trumps-digital-campaign-directors-company-paid-94-million.html",
+          "publisher": "CNBC",
+          "title": "Trump's digital campaign director was paid $1,500 to set up his election website. Then he raked in $94 million when Trump won",
+          "date": "2017-10-09"
+        }
+      ]
+    },
+    {
+      "claim": "Cloud Commerce bought Parscale's digital marketing business in August 2017, the Associated Press reported.",
+      "status": "reported",
+      "date": "2017-08",
+      "quote": "Cloud Commerce bought Parscale's digital marketing business in August",
+      "sources": [
+        {
+          "url": "https://globalnews.ca/news/4278044/trump-2020-cambridge-analytica-data-propria/",
+          "publisher": "Global News (Associated Press)",
+          "title": "Trump 2020 working with ex-Cambridge Analytica staffers",
+          "date": "2018-06-15"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "donald-j-trump-for-president",
+      "toName": "Donald J. Trump for President",
+      "toType": "organization",
+      "relation": "contracted with",
+      "claim": "Trump's 2016 campaign committee paid Giles-Parscale nearly $88 million, making it the committee's top vendor, per FEC filings reported by CNBC.",
+      "status": "reported",
+      "date": "2016",
+      "quote": "the campaign shelled out the majority of the money, nearly $88 million",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2017/10/09/donald-trumps-digital-campaign-directors-company-paid-94-million.html",
+          "publisher": "CNBC",
+          "title": "Trump's digital campaign director was paid $1,500 to set up his election website. Then he raked in $94 million when Trump won",
+          "date": "2017-10-09"
+        }
+      ]
+    },
+    {
+      "to": "brad-parscale",
+      "toName": "Brad Parscale",
+      "toType": "person",
+      "relation": "owns",
+      "claim": "Brad Parscale ran Giles-Parscale, the San Antonio firm that became the Trump campaign's largest 2016 vendor.",
+      "status": "reported",
+      "date": "2016",
+      "quote": "the campaign shelled out the majority of the money, nearly $88 million",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2017/10/09/donald-trumps-digital-campaign-directors-company-paid-94-million.html",
+          "publisher": "CNBC",
+          "title": "Trump's digital campaign director was paid $1,500 to set up his election website. Then he raked in $94 million when Trump won",
+          "date": "2017-10-09"
+        }
+      ],
+      "reverse": true
+    }
+  ],
+  "openQuestions": [
+    "Primary FEC disbursement records for Giles-Parscale were not opened; totals are from CNBC's and ABC's accounts of the filings.",
+    "The precise structure of the August 2017 Cloud Commerce acquisition (what was sold and for how much) was not found."
+  ]
+}

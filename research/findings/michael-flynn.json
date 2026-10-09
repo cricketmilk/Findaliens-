@@ -1,0 +1,88 @@
+{
+  "entity": "michael-flynn",
+  "name": "Michael Flynn",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Michael Flynn is a retired U.S. Army lieutenant general who served briefly as national security adviser in 2017. An amended financial disclosure released by the White House in August 2017 listed him as an adviser to a Virginia-based SCL Group entity, described by the Associated Press as the parent of Cambridge Analytica; SCL told the AP the advisory work never materialized.",
+    "sources": [
+      {
+        "url": "https://www.foxbusiness.com/markets/flynn-files-new-financial-form-reporting-ties-to-data-firm",
+        "publisher": "Fox Business (Associated Press)",
+        "title": "Flynn files new financial form reporting ties to data firm",
+        "date": "2017-08-04"
+      },
+      {
+        "url": "https://whdh.com/news/data-firm-flynn-advisory-role-never-materialized/",
+        "publisher": "WHDH (Associated Press)",
+        "title": "Data firm: Flynn advisory role never materialized",
+        "date": "2017-08"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Flynn's amended financial disclosure, released by the White House in August 2017 in response to an AP request, listed him as an adviser to a Virginia-based SCL Group entity, which the AP described as the British parent company of Cambridge Analytica.",
+      "status": "documented",
+      "date": "2017-08-04",
+      "quote": "listed Flynn as an adviser to a Virginia-based SCL Group entity",
+      "sources": [
+        {
+          "url": "https://www.foxbusiness.com/markets/flynn-files-new-financial-form-reporting-ties-to-data-firm",
+          "publisher": "Fox Business (Associated Press)",
+          "title": "Flynn files new financial form reporting ties to data firm",
+          "date": "2017-08-04"
+        }
+      ]
+    },
+    {
+      "claim": "SCL told the AP that Flynn signed a 'statement of work' with the company on November 2, 2016 covering 'possible advisory work', and that the position never materialized after Trump won; a person close to Flynn said he never performed any work or accepted payment.",
+      "status": "reported",
+      "date": "2017-08",
+      "quote": "possible advisory work",
+      "sources": [
+        {
+          "url": "https://whdh.com/news/data-firm-flynn-advisory-role-never-materialized/",
+          "publisher": "WHDH (Associated Press)",
+          "title": "Data firm: Flynn advisory role never materialized",
+          "date": "2017-08"
+        },
+        {
+          "url": "https://www.foxbusiness.com/markets/flynn-files-new-financial-form-reporting-ties-to-data-firm",
+          "publisher": "Fox Business (Associated Press)",
+          "title": "Flynn files new financial form reporting ties to data firm",
+          "date": "2017-08-04"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "scl-group",
+      "toName": "SCL Group",
+      "toType": "company",
+      "relation": "advised",
+      "claim": "Flynn's August 2017 amended disclosure listed an advisory role with a Virginia-based SCL Group entity; SCL said a November 2016 statement of work for possible advisory work never materialized.",
+      "status": "reported",
+      "date": "2016-11-02",
+      "quote": "possible advisory work",
+      "sources": [
+        {
+          "url": "https://www.foxbusiness.com/markets/flynn-files-new-financial-form-reporting-ties-to-data-firm",
+          "publisher": "Fox Business (Associated Press)",
+          "title": "Flynn files new financial form reporting ties to data firm",
+          "date": "2017-08-04"
+        },
+        {
+          "url": "https://whdh.com/news/data-firm-flynn-advisory-role-never-materialized/",
+          "publisher": "WHDH (Associated Press)",
+          "title": "Data firm: Flynn advisory role never materialized",
+          "date": "2017-08"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The disclosure form itself (OGE 278e) was not opened; the listing is recorded from AP reporting.",
+    "The AP's description of the Virginia SCL entity's exact name was not captured."
+  ]
+}

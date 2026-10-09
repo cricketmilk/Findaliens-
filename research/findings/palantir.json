@@ -285,6 +285,72 @@
           "date": "2025-04"
         }
       ]
+    },
+    {
+      "claim": "Giving oral evidence to the House of Commons DCMS Committee on 27 March 2018, Christopher Wylie said Palantir did not officially contract with Cambridge Analytica but that Palantir staff helped build the models the firm was working on and had access to the data. He said Alexander Nix was keen on Palantir partly because of an introduction made by Sophie Schmidt, who had worked for Nix before Wylie joined.",
+      "status": "documented",
+      "date": "2018-03-27",
+      "quote": "Palantir did not officially contract with Cambridge Analytica, but there were Palantir staff who helped build the models",
+      "sources": [
+        {
+          "url": "https://committees.parliament.uk/oralevidence/7803/html/",
+          "publisher": "House of Commons Digital, Culture, Media and Sport Committee",
+          "title": "Oral evidence: Fake News, HC 363 (Christopher Wylie), 27 March 2018",
+          "date": "2018-03-27"
+        },
+        {
+          "url": "https://www.parliament.uk/business/committees/committees-a-z/commons-select/digital-culture-media-and-sport-committee/news/fake-news-evidence-wylie-correspondence-17-19/",
+          "publisher": "UK Parliament",
+          "title": "Evidence from Christopher Wylie, Cambridge Analytica whistle-blower, published",
+          "date": "2018-03-28"
+        }
+      ]
+    },
+    {
+      "claim": "Palantir's first response to Wylie's testimony was that it had 'never had a relationship with Cambridge Analytica, nor have we ever worked on any Cambridge Analytica data.' Later the same day it revised its statement, saying that an employee, in 2013-2014, 'engaged in an entirely personal capacity with people associated with Cambridge Analytica,' that it was looking into the matter, and that it knew of no other employees who took part.",
+      "status": "words",
+      "date": "2018-03-27",
+      "quote": "an employee, in 2013-2014, engaged in an entirely personal capacity with people associated with Cambridge Analytica",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2018/03/28/palantir-confirms-a-staff-link-with-cambridge-analytica",
+          "publisher": "TechCrunch",
+          "title": "Palantir confirms a staff link with Cambridge Analytica",
+          "date": "2018-03-28"
+        },
+        {
+          "url": "https://www.cnbc.com/2018/03/27/palantir-worked-with-cambridge-analytica-on-the-facebook-data-whistleblower.html",
+          "publisher": "CNBC",
+          "title": "Palantir worked with Cambridge Analytica on the Facebook data, whistleblower says",
+          "date": "2018-03-27"
+        },
+        {
+          "url": "https://www.businessinsider.nl/emails-peter-thiel-palantir-facebook-cambridge-analytica-2018-3",
+          "publisher": "Business Insider",
+          "title": "Emails show how Peter Thiel's Palantir was linked to Cambridge Analytica",
+          "date": "2018-03"
+        }
+      ]
+    },
+    {
+      "claim": "The employee was identified in reports as Alfredas Chmieliauskas, who according to his LinkedIn profile had worked in business development for Palantir since April 2013. CNBC, citing The New York Times, reported that he gave Cambridge Analytica the idea that it could harvest Facebook users' friends' data through an app. He did not respond to a request for comment.",
+      "status": "reported",
+      "date": "2018-03-28",
+      "quote": "He has worked in business development for Palantir since April 2013, according to his LinkedIn profile.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2018/03/28/new-york-times-digital-peter-thiel-employee-helped-cambridge-analytica-before-it-harvested-data.html",
+          "publisher": "CNBC",
+          "title": "Peter Thiel employee helped Cambridge Analytica before it harvested data, New York Times reports",
+          "date": "2018-03-28"
+        },
+        {
+          "url": "https://www.cbsnews.com/sanfrancisco/news/palantir-peter-thiel-employee-links-cambridge-analytica",
+          "publisher": "CBS News Bay Area",
+          "title": "Palantir, Peter Thiel employee linked to Cambridge Analytica",
+          "date": "2018-03-28"
+        }
+      ]
     }
   ],
   "connections": [
@@ -456,6 +522,73 @@
           "date": "2025-04"
         }
       ]
+    },
+    {
+      "to": "alfredas-chmieliauskas",
+      "toName": "Alfredas Chmieliauskas",
+      "toType": "person",
+      "relation": "employed by",
+      "claim": "Alfredas Chmieliauskas worked in business development for Palantir from April 2013, according to his LinkedIn profile as reported by CNBC; Palantir said his 2013-2014 contacts with people associated with Cambridge Analytica were in an entirely personal capacity.",
+      "status": "reported",
+      "date": "2018-03-28",
+      "quote": "an employee, in 2013-2014, engaged in an entirely personal capacity with people associated with Cambridge Analytica",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2018/03/28/new-york-times-digital-peter-thiel-employee-helped-cambridge-analytica-before-it-harvested-data.html",
+          "publisher": "CNBC",
+          "title": "Peter Thiel employee helped Cambridge Analytica before it harvested data, New York Times reports",
+          "date": "2018-03-28"
+        },
+        {
+          "url": "https://techcrunch.com/2018/03/28/palantir-confirms-a-staff-link-with-cambridge-analytica",
+          "publisher": "TechCrunch",
+          "title": "Palantir confirms a staff link with Cambridge Analytica",
+          "date": "2018-03-28"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "cambridge-analytica",
+      "toName": "Cambridge Analytica",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Christopher Wylie testified that Palantir staff helped build Cambridge Analytica's models without a formal contract; Palantir said it never had a relationship with Cambridge Analytica and that one employee's contacts were personal.",
+      "status": "documented",
+      "date": "2018-03-27",
+      "quote": "Palantir did not officially contract with Cambridge Analytica, but there were Palantir staff who helped build the models",
+      "sources": [
+        {
+          "url": "https://committees.parliament.uk/oralevidence/7803/html/",
+          "publisher": "House of Commons Digital, Culture, Media and Sport Committee",
+          "title": "Oral evidence: Fake News, HC 363 (Christopher Wylie), 27 March 2018",
+          "date": "2018-03-27"
+        },
+        {
+          "url": "https://techcrunch.com/2018/03/28/palantir-confirms-a-staff-link-with-cambridge-analytica",
+          "publisher": "TechCrunch",
+          "title": "Palantir confirms a staff link with Cambridge Analytica",
+          "date": "2018-03-28"
+        }
+      ]
+    },
+    {
+      "to": "sophie-schmidt",
+      "toName": "Sophie Schmidt",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Wylie told the DCMS Committee that Sophie Schmidt, who worked for Alexander Nix, made an introduction that contributed to Nix's interest in Palantir.",
+      "status": "documented",
+      "date": "2018-03-27",
+      "quote": "Sophie Schmidt, daughter of Eric Schmidt, who worked for Alexander Nix before I came on board",
+      "sources": [
+        {
+          "url": "https://committees.parliament.uk/oralevidence/7803/html/",
+          "publisher": "House of Commons Digital, Culture, Media and Sport Committee",
+          "title": "Oral evidence: Fake News, HC 363 (Christopher Wylie), 27 March 2018",
+          "date": "2018-03-27"
+        }
+      ]
     }
   ],
   "openQuestions": [
@@ -463,6 +596,8 @@
     "The page's '$15M Super PAC' link runs through Peter Thiel and JD Vance, not Palantir; see peter-thiel.json and jd-vance.json.",
     "Whether Palantir was subsequently contracted for the IRS 'mega API' after the April 2025 WIRED report was not determined this session.",
     "The Karp 'Mostly terrorists' exchange is dated to April 2025 by Israel Hayom and the Free Beacon, but a Substack post dates a similar protest to 2024; the original Hill and Valley Forum video would settle the date.",
-    "The Army's own release on the $10 billion Enterprise Agreement (army.mil) was not opened; the facts rest on trade-press reports of it."
+    "The Army's own release on the $10 billion Enterprise Agreement (army.mil) was not opened; the facts rest on trade-press reports of it.",
+    "Whether Palantir's internal review of the Chmieliauskas matter reached a conclusion or led to action was not found.",
+    "Facebook said in April 2018 it was investigating whether Palantir had improper access to user data (CNBC, 26 April 2018); the result of that inquiry was not found."
   ]
 }

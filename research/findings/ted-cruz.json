@@ -1,0 +1,114 @@
+{
+  "entity": "ted-cruz",
+  "name": "Ted Cruz",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Ted Cruz is a U.S. Senator from Texas who sought the Republican presidential nomination in 2016. FEC records, as reported by The Texas Tribune citing OpenSecrets, show his campaign committee, Cruz for President, paid Cambridge Analytica about $5.8 million between July 2015 and June 2016. A super PAC funded by Robert Mercer, Keep the Promise I, supported his candidacy before being renamed Make America Number 1.",
+    "sources": [
+      {
+        "url": "https://api.texastribune.org/2018/10/16/texas-beto-orourke-ted-cruz-debate-claims/",
+        "publisher": "The Texas Tribune",
+        "title": "We fact check Ted Cruz and Beto O'Rourke's second debate",
+        "date": "2018-10-16"
+      },
+      {
+        "url": "https://api.texastribune.org/2018/03/20/ted-cruz-campaign-cambridge-analytica/",
+        "publisher": "The Texas Tribune",
+        "title": "Ted Cruz campaign and Cambridge Analytica",
+        "date": "2018-03-20"
+      },
+      {
+        "url": "https://www.cnn.com/2016/06/23/politics/donald-trump-super-pac-fundraising/index.html",
+        "publisher": "CNN",
+        "title": "Yet another Donald Trump super PAC launches, this one with a link to Ted Cruz",
+        "date": "2016-06-23"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Cruz for President paid Cambridge Analytica $5,805,551 over 19 payments between July 2015 and June 2016, according to OpenSecrets' analysis of FEC data cited by The Texas Tribune.",
+      "status": "reported",
+      "date": "2016-06",
+      "quote": "Cruz for President spent $5,805,551 over 19 payments between July 2015 and June 2016",
+      "sources": [
+        {
+          "url": "https://api.texastribune.org/2018/10/16/texas-beto-orourke-ted-cruz-debate-claims/",
+          "publisher": "The Texas Tribune",
+          "title": "We fact check Ted Cruz and Beto O'Rourke's second debate",
+          "date": "2018-10-16"
+        }
+      ]
+    },
+    {
+      "claim": "The Cruz campaign said Cambridge Analytica was an outside vendor hired to assist in data analysis and online advertising, and that the firm's contract represented that all data it used was obtained legally.",
+      "status": "words",
+      "date": "2018-03-20",
+      "quote": "an outside vendor that the campaign hired to assist in data analysis and online advertising",
+      "sources": [
+        {
+          "url": "https://api.texastribune.org/2018/03/20/ted-cruz-campaign-cambridge-analytica/",
+          "publisher": "The Texas Tribune",
+          "title": "Ted Cruz campaign and Cambridge Analytica",
+          "date": "2018-03-20"
+        }
+      ]
+    },
+    {
+      "claim": "The Texas Tribune reported that Robert Mercer, reported to be a part owner of Cambridge Analytica, put $11 million into a super PAC network supporting Cruz's 2016 effort, and that after Cruz left the race Mercer and Cambridge Analytica shifted to Donald Trump's campaign.",
+      "status": "reported",
+      "date": "2016",
+      "quote": "poured $11 million into a super PAC network that supported Cruz's 2016 effort",
+      "sources": [
+        {
+          "url": "https://api.texastribune.org/2018/03/20/ted-cruz-campaign-cambridge-analytica/",
+          "publisher": "The Texas Tribune",
+          "title": "Ted Cruz campaign and Cambridge Analytica",
+          "date": "2018-03-20"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "cambridge-analytica",
+      "toName": "Cambridge Analytica",
+      "toType": "company",
+      "relation": "contracted with",
+      "claim": "Cruz's 2016 presidential campaign paid Cambridge Analytica $5,805,551 in 19 payments between July 2015 and June 2016, per FEC data.",
+      "status": "reported",
+      "date": "2016",
+      "quote": "Cruz for President spent $5,805,551 over 19 payments between July 2015 and June 2016",
+      "sources": [
+        {
+          "url": "https://api.texastribune.org/2018/10/16/texas-beto-orourke-ted-cruz-debate-claims/",
+          "publisher": "The Texas Tribune",
+          "title": "We fact check Ted Cruz and Beto O'Rourke's second debate",
+          "date": "2018-10-16"
+        }
+      ]
+    },
+    {
+      "to": "make-america-number-1",
+      "toName": "Make America Number 1",
+      "toType": "organization",
+      "relation": "other",
+      "claim": "Keep the Promise I, later renamed Make America Number 1, was a Mercer-funded super PAC supporting Cruz's 2016 candidacy.",
+      "status": "reported",
+      "date": "2016-06-23",
+      "quote": "until that Wednesday known as Keep the Promise I",
+      "sources": [
+        {
+          "url": "https://www.cnn.com/2016/06/23/politics/donald-trump-super-pac-fundraising/index.html",
+          "publisher": "CNN",
+          "title": "Yet another Donald Trump super PAC launches, this one with a link to Ted Cruz",
+          "date": "2016-06-23"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The FEC disbursement records themselves were not opened; figures are from The Texas Tribune citing OpenSecrets.",
+    "Mercer's super PAC support for Cruz is reported as $11 million (Texas Tribune) and $13.5 million (CNN); confirm from FEC receipts."
+  ]
+}

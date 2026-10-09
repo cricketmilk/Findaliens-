@@ -1,0 +1,100 @@
+{
+  "entity": "sophie-schmidt",
+  "name": "Sophie Schmidt",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Sophie Schmidt, daughter of former Google CEO Eric Schmidt, worked for SCL Group's Alexander Nix before Christopher Wylie joined the company, according to Wylie's evidence to the House of Commons DCMS Committee, which said her introduction contributed to Nix's interest in Palantir. She did not respond to The New York Times' request for comment in March 2018.",
+    "sources": [
+      {
+        "url": "https://committees.parliament.uk/oralevidence/7803/html/",
+        "publisher": "House of Commons Digital, Culture, Media and Sport Committee",
+        "title": "Oral evidence: Fake News, HC 363 (Christopher Wylie), 27 March 2018",
+        "date": "2018-03-27"
+      },
+      {
+        "url": "https://www.businessinsider.nl/emails-peter-thiel-palantir-facebook-cambridge-analytica-2018-3",
+        "publisher": "Business Insider",
+        "title": "Emails show how Peter Thiel's Palantir was linked to Cambridge Analytica",
+        "date": "2018-03"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Giving evidence to the DCMS Committee on 27 March 2018, Christopher Wylie said Alexander Nix was keen on Palantir partly because of an introduction made by Sophie Schmidt, daughter of Eric Schmidt, who worked for Nix before Wylie came on board.",
+      "status": "documented",
+      "date": "2018-03-27",
+      "quote": "Sophie Schmidt, daughter of Eric Schmidt, who worked for Alexander Nix before I came on board",
+      "sources": [
+        {
+          "url": "https://committees.parliament.uk/oralevidence/7803/html/",
+          "publisher": "House of Commons Digital, Culture, Media and Sport Committee",
+          "title": "Oral evidence: Fake News, HC 363 (Christopher Wylie), 27 March 2018",
+          "date": "2018-03-27"
+        }
+      ]
+    },
+    {
+      "claim": "Business Insider, reporting on The New York Times' account, said Schmidt had been an intern at SCL Group, that a 2013 email cited by the Times showed her urging SCL to work with Palantir, and that she did not respond to the paper's request for comment.",
+      "status": "reported",
+      "date": "2018-03-28",
+      "quote": "Sophie Schmidt did not respond to the paper's request for comment.",
+      "sources": [
+        {
+          "url": "https://www.businessinsider.nl/emails-peter-thiel-palantir-facebook-cambridge-analytica-2018-3",
+          "publisher": "Business Insider",
+          "title": "Emails show how Peter Thiel's Palantir was linked to Cambridge Analytica",
+          "date": "2018-03"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "scl-group",
+      "toName": "SCL Group",
+      "toType": "company",
+      "relation": "employed by",
+      "claim": "Wylie testified that Schmidt worked for SCL's Alexander Nix before he joined; Business Insider described her as a former SCL intern.",
+      "status": "documented",
+      "date": "2018-03-27",
+      "quote": "who worked for Alexander Nix before I came on board",
+      "sources": [
+        {
+          "url": "https://committees.parliament.uk/oralevidence/7803/html/",
+          "publisher": "House of Commons Digital, Culture, Media and Sport Committee",
+          "title": "Oral evidence: Fake News, HC 363 (Christopher Wylie), 27 March 2018",
+          "date": "2018-03-27"
+        },
+        {
+          "url": "https://www.businessinsider.nl/emails-peter-thiel-palantir-facebook-cambridge-analytica-2018-3",
+          "publisher": "Business Insider",
+          "title": "Emails show how Peter Thiel's Palantir was linked to Cambridge Analytica",
+          "date": "2018-03"
+        }
+      ]
+    },
+    {
+      "to": "palantir",
+      "toName": "Palantir",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Wylie told the DCMS Committee that an introduction by Schmidt contributed to Nix's interest in working with Palantir.",
+      "status": "documented",
+      "date": "2018-03-27",
+      "quote": "Sophie Schmidt, daughter of Eric Schmidt, who worked for Alexander Nix before I came on board",
+      "sources": [
+        {
+          "url": "https://committees.parliament.uk/oralevidence/7803/html/",
+          "publisher": "House of Commons Digital, Culture, Media and Sport Committee",
+          "title": "Oral evidence: Fake News, HC 363 (Christopher Wylie), 27 March 2018",
+          "date": "2018-03-27"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "No public statement by Sophie Schmidt on the matter was found; reports say she did not respond to requests for comment.",
+    "Extra name wanted as a connection but absent from the entity index: Eric Schmidt."
+  ]
+}

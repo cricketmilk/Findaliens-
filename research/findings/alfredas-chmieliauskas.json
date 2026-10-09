@@ -1,0 +1,126 @@
+{
+  "entity": "alfredas-chmieliauskas",
+  "name": "Alfredas Chmieliauskas",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Alfredas Chmieliauskas is a Palantir business development employee in London, identified in March 2018 reporting as the Palantir staffer who was in contact with Cambridge Analytica in 2013-2014. Palantir said he engaged 'in an entirely personal capacity' with people associated with Cambridge Analytica. He did not respond to requests for comment.",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2018/03/28/new-york-times-digital-peter-thiel-employee-helped-cambridge-analytica-before-it-harvested-data.html",
+        "publisher": "CNBC",
+        "title": "Peter Thiel employee helped Cambridge Analytica before it harvested data, New York Times reports",
+        "date": "2018-03-28"
+      },
+      {
+        "url": "https://techcrunch.com/2018/03/28/palantir-confirms-a-staff-link-with-cambridge-analytica",
+        "publisher": "TechCrunch",
+        "title": "Palantir confirms a staff link with Cambridge Analytica",
+        "date": "2018-03-28"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "CNBC, citing The New York Times, reported that Chmieliauskas had worked in business development for Palantir since April 2013 according to his LinkedIn profile, and that he gave Cambridge Analytica the idea that it could harvest Facebook users' friends' data through an app. He did not respond to a request for comment.",
+      "status": "reported",
+      "date": "2018-03-28",
+      "quote": "He has worked in business development for Palantir since April 2013, according to his LinkedIn profile.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2018/03/28/new-york-times-digital-peter-thiel-employee-helped-cambridge-analytica-before-it-harvested-data.html",
+          "publisher": "CNBC",
+          "title": "Peter Thiel employee helped Cambridge Analytica before it harvested data, New York Times reports",
+          "date": "2018-03-28"
+        },
+        {
+          "url": "https://www.cbsnews.com/sanfrancisco/news/palantir-peter-thiel-employee-links-cambridge-analytica",
+          "publisher": "CBS News Bay Area",
+          "title": "Palantir, Peter Thiel employee linked to Cambridge Analytica",
+          "date": "2018-03-28"
+        }
+      ]
+    },
+    {
+      "claim": "Palantir said that an employee, in 2013-2014, 'engaged in an entirely personal capacity with people associated with Cambridge Analytica', that it was looking into the matter and would take appropriate action, and that it knew of no other employees who took part.",
+      "status": "words",
+      "date": "2018-03-28",
+      "quote": "an employee, in 2013-2014, engaged in an entirely personal capacity with people associated with Cambridge Analytica",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2018/03/28/palantir-confirms-a-staff-link-with-cambridge-analytica",
+          "publisher": "TechCrunch",
+          "title": "Palantir confirms a staff link with Cambridge Analytica",
+          "date": "2018-03-28"
+        },
+        {
+          "url": "https://www.businessinsider.nl/emails-peter-thiel-palantir-facebook-cambridge-analytica-2018-3",
+          "publisher": "Business Insider",
+          "title": "Emails show how Peter Thiel's Palantir was linked to Cambridge Analytica",
+          "date": "2018-03"
+        }
+      ]
+    },
+    {
+      "claim": "Christopher Wylie told the DCMS Committee on 27 March 2018 that Palantir staff helped build Cambridge Analytica's models and had access to the data, though Palantir did not officially contract with the firm; he did not name the staff in the oral evidence summarised here.",
+      "status": "documented",
+      "date": "2018-03-27",
+      "quote": "Palantir did not officially contract with Cambridge Analytica, but there were Palantir staff who helped build the models",
+      "sources": [
+        {
+          "url": "https://committees.parliament.uk/oralevidence/7803/html/",
+          "publisher": "House of Commons Digital, Culture, Media and Sport Committee",
+          "title": "Oral evidence: Fake News, HC 363 (Christopher Wylie), 27 March 2018",
+          "date": "2018-03-27"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "palantir",
+      "toName": "Palantir",
+      "toType": "company",
+      "relation": "employed by",
+      "claim": "Chmieliauskas worked in business development for Palantir from April 2013, per his LinkedIn profile as reported by CNBC.",
+      "status": "reported",
+      "date": "2018-03-28",
+      "quote": "He has worked in business development for Palantir since April 2013, according to his LinkedIn profile.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2018/03/28/new-york-times-digital-peter-thiel-employee-helped-cambridge-analytica-before-it-harvested-data.html",
+          "publisher": "CNBC",
+          "title": "Peter Thiel employee helped Cambridge Analytica before it harvested data, New York Times reports",
+          "date": "2018-03-28"
+        }
+      ]
+    },
+    {
+      "to": "cambridge-analytica",
+      "toName": "Cambridge Analytica",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Palantir said Chmieliauskas engaged in a personal capacity with people associated with Cambridge Analytica in 2013-2014; The New York Times reported he suggested the app-based data harvesting approach.",
+      "status": "reported",
+      "date": "2018-03-28",
+      "quote": "an employee, in 2013-2014, engaged in an entirely personal capacity with people associated with Cambridge Analytica",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2018/03/28/palantir-confirms-a-staff-link-with-cambridge-analytica",
+          "publisher": "TechCrunch",
+          "title": "Palantir confirms a staff link with Cambridge Analytica",
+          "date": "2018-03-28"
+        },
+        {
+          "url": "https://www.cnbc.com/2018/03/28/new-york-times-digital-peter-thiel-employee-helped-cambridge-analytica-before-it-harvested-data.html",
+          "publisher": "CNBC",
+          "title": "Peter Thiel employee helped Cambridge Analytica before it harvested data, New York Times reports",
+          "date": "2018-03-28"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Whether the DCMS Committee's published evidence names Chmieliauskas was not confirmed; the oral evidence found refers to 'Palantir staff'.",
+    "The outcome of Palantir's internal review was not found."
+  ]
+}

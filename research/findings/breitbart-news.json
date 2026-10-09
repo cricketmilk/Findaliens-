@@ -1,0 +1,143 @@
+{
+  "entity": "breitbart-news",
+  "name": "Breitbart News",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Breitbart News is a conservative news and opinion website founded by Andrew Breitbart. Media Matters reports that the Mercer family invested in the site in 2011, securing a board seat for Steve Bannon, who became executive chairman after Breitbart's death in 2012 and left in January 2018. Robert Mercer said in November 2017 that he was selling his stake to his daughters.",
+    "sources": [
+      {
+        "url": "https://www.mediamatters.org/breitbart-news/breitbart-not-independent-its-communications-arm-mercers-empire",
+        "publisher": "Media Matters for America",
+        "title": "Breitbart Is Not Independent, It's The Communications Arm Of The Mercers' Empire"
+      },
+      {
+        "url": "https://www.mediaite.com/online/robert-mercer-sells-stake-in-breitbart-citing-disagreements-with-bannon-and-milo",
+        "publisher": "Mediaite",
+        "title": "Robert Mercer Sells Stake in Breitbart Citing Disagreements with Bannon and Milo",
+        "date": "2017-11-02"
+      },
+      {
+        "url": "https://www.dailyherald.com/20180110/news/bannon-leaves-breitbart-after-blow-up-over-comments-in-trump-book/",
+        "publisher": "Daily Herald (Associated Press)",
+        "title": "Bannon leaves Breitbart after blow-up over comments in Trump book",
+        "date": "2018-01-10"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Media Matters reported that Steve Bannon introduced the Mercers to Andrew Breitbart, that the Mercers' 2011 investment secured Bannon a board seat, and that Bannon served as executive chairman of Breitbart News from 2012 to 2016.",
+      "status": "reported",
+      "date": "2011",
+      "quote": "Bannon introduced the Mercers to Andrew Breitbart, and the Mercers' investment secured him a board seat",
+      "sources": [
+        {
+          "url": "https://www.mediamatters.org/breitbart-news/breitbart-not-independent-its-communications-arm-mercers-empire",
+          "publisher": "Media Matters for America",
+          "title": "Breitbart Is Not Independent, It's The Communications Arm Of The Mercers' Empire"
+        }
+      ]
+    },
+    {
+      "claim": "Robert Mercer said in November 2017 that he was selling his stake in Breitbart News to his daughters, citing personal reasons and disagreements connected to Milo Yiannopoulos; Mediaite described the stake as originally $11 million.",
+      "status": "reported",
+      "date": "2017-11-02",
+      "quote": "personal reasons",
+      "sources": [
+        {
+          "url": "https://www.mediaite.com/online/robert-mercer-sells-stake-in-breitbart-citing-disagreements-with-bannon-and-milo",
+          "publisher": "Mediaite",
+          "title": "Robert Mercer Sells Stake in Breitbart Citing Disagreements with Bannon and Milo",
+          "date": "2017-11-02"
+        }
+      ]
+    },
+    {
+      "claim": "Bannon left Breitbart News in January 2018 after a public falling-out over comments attributed to him in a book about Trump, the Associated Press reported; he had continued to chair editorial meetings until then.",
+      "status": "reported",
+      "date": "2018-01-10",
+      "quote": "Bannon leaves Breitbart after blow-up over comments in Trump book",
+      "sources": [
+        {
+          "url": "https://www.dailyherald.com/20180110/news/bannon-leaves-breitbart-after-blow-up-over-comments-in-trump-book/",
+          "publisher": "Daily Herald (Associated Press)",
+          "title": "Bannon leaves Breitbart after blow-up over comments in Trump book",
+          "date": "2018-01-10"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "robert-mercer",
+      "toName": "Robert Mercer",
+      "toType": "person",
+      "relation": "funded",
+      "claim": "The Mercer family invested in Breitbart News in 2011 and Robert Mercer held a stake until he said in 2017 he was selling it to his daughters.",
+      "status": "reported",
+      "date": "2011",
+      "quote": "personal reasons",
+      "sources": [
+        {
+          "url": "https://www.mediamatters.org/breitbart-news/breitbart-not-independent-its-communications-arm-mercers-empire",
+          "publisher": "Media Matters for America",
+          "title": "Breitbart Is Not Independent, It's The Communications Arm Of The Mercers' Empire"
+        },
+        {
+          "url": "https://www.mediaite.com/online/robert-mercer-sells-stake-in-breitbart-citing-disagreements-with-bannon-and-milo",
+          "publisher": "Mediaite",
+          "title": "Robert Mercer Sells Stake in Breitbart Citing Disagreements with Bannon and Milo",
+          "date": "2017-11-02"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "steve-bannon",
+      "toName": "Steve Bannon",
+      "toType": "person",
+      "relation": "executive of",
+      "claim": "Bannon joined Breitbart's board after the Mercer investment and was executive chairman from 2012 to 2016 per Media Matters; he left in January 2018.",
+      "status": "reported",
+      "date": "2012",
+      "quote": "Bannon introduced the Mercers to Andrew Breitbart, and the Mercers' investment secured him a board seat",
+      "sources": [
+        {
+          "url": "https://www.mediamatters.org/breitbart-news/breitbart-not-independent-its-communications-arm-mercers-empire",
+          "publisher": "Media Matters for America",
+          "title": "Breitbart Is Not Independent, It's The Communications Arm Of The Mercers' Empire"
+        },
+        {
+          "url": "https://www.dailyherald.com/20180110/news/bannon-leaves-breitbart-after-blow-up-over-comments-in-trump-book/",
+          "publisher": "Daily Herald (Associated Press)",
+          "title": "Bannon leaves Breitbart after blow-up over comments in Trump book",
+          "date": "2018-01-10"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "rebekah-mercer",
+      "toName": "Rebekah Mercer",
+      "toType": "person",
+      "relation": "owns",
+      "claim": "Robert Mercer said in November 2017 he was selling his Breitbart stake to his daughters, including Rebekah Mercer.",
+      "status": "reported",
+      "date": "2017-11-02",
+      "quote": "personal reasons",
+      "sources": [
+        {
+          "url": "https://www.mediaite.com/online/robert-mercer-sells-stake-in-breitbart-citing-disagreements-with-bannon-and-milo",
+          "publisher": "Mediaite",
+          "title": "Robert Mercer Sells Stake in Breitbart Citing Disagreements with Bannon and Milo",
+          "date": "2017-11-02"
+        }
+      ],
+      "reverse": true
+    }
+  ],
+  "openQuestions": [
+    "The reported terms of the 2011 investment (nearly 50% for $10 million, per The New York Times) were not confirmed from the original article; Mediaite gives $11 million.",
+    "Bannon's exact chairmanship dates differ between sources (2012-2016 per Media Matters; he left the site in January 2018 per AP)."
+  ]
+}

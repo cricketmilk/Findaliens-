@@ -422,6 +422,34 @@
           "date": "2025-08-21"
         }
       ]
+    },
+    {
+      "claim": "NPR reported in March 2018 that Trump's 2016 campaign paid Cambridge Analytica a total of $5.9 million, according to FEC data processed by the Center for Responsive Politics, and that the campaign's filings describe the services as data management and survey research.",
+      "status": "reported",
+      "date": "2018-03-21",
+      "quote": "the Trump campaign paid the firm a total of $5.9 million, according to Federal Election Commission data processed by the nonprofit Center for Responsive Politics",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2018/03/21/595535935/cambridge-analyticas-role-in-trump-s-2016-campaign-raises-potential-legal-flags",
+          "publisher": "NPR",
+          "title": "Cambridge Analytica's Role In Trump's 2016 Campaign Raises Potential Legal Flags",
+          "date": "2018-03-21"
+        }
+      ]
+    },
+    {
+      "claim": "A Trump campaign spokesperson told ABC News in March 2018 that the campaign used the RNC for its voter data and not Cambridge Analytica, calling claims of data from another source false.",
+      "status": "words",
+      "date": "2018-03-21",
+      "quote": "used the RNC for its voter data and not Cambridge Analytica",
+      "sources": [
+        {
+          "url": "https://www.cbsnews.com/amp/news/trump-campaign-phased-out-use-of-cambridge-analytica-data-before-election",
+          "publisher": "CBS News",
+          "title": "Trump campaign phased out use of Cambridge Analytica data before election",
+          "date": "2018-03-21"
+        }
+      ]
     }
   ],
   "connections": [
@@ -526,6 +554,30 @@
           "date": "2026-06-30"
         }
       ]
+    },
+    {
+      "to": "donald-j-trump-for-president",
+      "toName": "Donald J. Trump for President",
+      "toType": "organization",
+      "relation": "other",
+      "claim": "Donald J. Trump for President was Trump's 2016 principal campaign committee; its FEC filings record payments to Cambridge Analytica and to Giles-Parscale.",
+      "status": "reported",
+      "date": "2016",
+      "quote": "the Trump campaign paid the firm a total of $5.9 million, according to Federal Election Commission data processed by the nonprofit Center for Responsive Politics",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2018/03/21/595535935/cambridge-analyticas-role-in-trump-s-2016-campaign-raises-potential-legal-flags",
+          "publisher": "NPR",
+          "title": "Cambridge Analytica's Role In Trump's 2016 Campaign Raises Potential Legal Flags",
+          "date": "2018-03-21"
+        },
+        {
+          "url": "https://www.cnbc.com/2017/10/09/donald-trumps-digital-campaign-directors-company-paid-94-million.html",
+          "publisher": "CNBC",
+          "title": "Trump's digital campaign director was paid $1,500 to set up his election website. Then he raked in $94 million when Trump won",
+          "date": "2017-10-09"
+        }
+      ]
     }
   ],
   "openQuestions": [
@@ -536,6 +588,7 @@
     "Whether the Attorney General filed for leave to appeal to the Court of Appeals, and any ruling there, was not researched.",
     "The 2015 disclosure is recorded from the campaign's press release (American Presidency Project copy); the FEC/OGE form itself was not opened. The 2025 and 2026 OGE filings were not opened; figures are from Cointelegraph, Forbes, Fortune, CNBC and CBS reports. Outlets round the 2024 World Liberty figure differently ($57.4M vs $57.7M).",
     "The 2018 New York Times tax investigation could not be opened; it is recorded via CNBC's same-day summaries. The state tax department's investigation outcome was not found.",
-    "The search tool returned some summaries without a per-sentence attribution; quotes in this file were checked against the result text but the owner should confirm them on the cited pages, in particular the Just Security passage on the $168 million figure."
+    "The search tool returned some summaries without a per-sentence attribution; quotes in this file were checked against the result text but the owner should confirm them on the cited pages, in particular the Just Security passage on the $168 million figure.",
+    "Primary FEC disbursement records for the Trump campaign's Cambridge Analytica payments were not opened; the $5.9 million figure rests on NPR's account of Center for Responsive Politics data."
   ]
 }

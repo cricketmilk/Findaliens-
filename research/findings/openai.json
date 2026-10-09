@@ -1,0 +1,321 @@
+{
+  "entity": "openai",
+  "name": "OpenAI",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "OpenAI is an artificial-intelligence developer based in San Francisco. It was announced in December 2015 as a non-profit research company whose funders, including Sam Altman, Elon Musk, Reid Hoffman and Peter Thiel, committed $1 billion. In March 2019 it created a 'capped-profit' subsidiary, OpenAI LP, and took a $1 billion investment from Microsoft, which became its exclusive cloud provider. On October 28, 2025 it completed a recapitalization under which the non-profit, renamed the OpenAI Foundation, controls a Delaware public benefit corporation, OpenAI Group PBC; Microsoft holds a stake it values at about $135 billion, roughly 27% on an as-converted diluted basis. OpenAI is a defendant in copyright litigation brought by The New York Times and other publishers, and was sued by Elon Musk and by xAI.",
+    "sources": [
+      {
+        "url": "https://openai.com/index/introducing-openai/",
+        "publisher": "OpenAI",
+        "title": "Introducing OpenAI",
+        "date": "2015-12-11"
+      },
+      {
+        "url": "https://openai.com/index/openai-lp/",
+        "publisher": "OpenAI",
+        "title": "OpenAI LP",
+        "date": "2019-03-11"
+      },
+      {
+        "url": "https://openai.com/index/built-to-benefit-everyone/",
+        "publisher": "OpenAI",
+        "title": "Built to benefit everyone",
+        "date": "2025-10-28"
+      },
+      {
+        "url": "https://blogs.microsoft.com/blog/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/",
+        "publisher": "Microsoft",
+        "title": "The next chapter of the Microsoft–OpenAI partnership",
+        "date": "2025-10-28"
+      },
+      {
+        "url": "https://news.bloomberglaw.com/ip-law/new-york-times-copyright-claims-survive-in-mixed-openai-ruling",
+        "publisher": "Bloomberg Law",
+        "title": "New York Times Copyright Claims Advance in OpenAI Lawsuit",
+        "date": "2025-03-26"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "OpenAI was announced on December 11, 2015 as a non-profit artificial-intelligence research company. Its launch post named Sam Altman, Greg Brockman, Elon Musk, Reid Hoffman, Jessica Livingston, Peter Thiel, Amazon Web Services, Infosys and YC Research as donors and said they had committed $1 billion in total, of which only a small fraction was expected to be spent in the first few years.",
+      "status": "documented",
+      "date": "2015-12-11",
+      "quote": "Sam, Greg, Elon, Reid Hoffman, Jessica Livingston, Peter Thiel, Amazon Web Services (AWS), Infosys, and YC Research are donating to support OpenAI. In total, these funders have committed $1 billion, although we expect to only spend a tiny fraction of this in the next few years.",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-openai/",
+          "publisher": "OpenAI",
+          "title": "Introducing OpenAI",
+          "date": "2015-12-11"
+        }
+      ]
+    },
+    {
+      "claim": "In March 2019 OpenAI restructured, creating a 'capped-profit' company, OpenAI LP, in which investor returns are capped at 100 times their investment, with any returns beyond the cap owned by the original non-profit. OpenAI said it would need to invest billions of dollars in cloud compute, talent and AI supercomputers.",
+      "status": "documented",
+      "date": "2019-03-11",
+      "quote": "we'll need to invest billions of dollars in upcoming years into large-scale cloud compute, attracting and retaining talented people, and building AI supercomputers",
+      "sources": [
+        {
+          "url": "https://openai.com/index/openai-lp/",
+          "publisher": "OpenAI",
+          "title": "OpenAI LP",
+          "date": "2019-03-11"
+        },
+        {
+          "url": "https://techcrunch.com/2019/03/11/openai-shifts-from-nonprofit-to-capped-profit-to-attract-capital",
+          "publisher": "TechCrunch",
+          "title": "OpenAI shifts from nonprofit to 'capped-profit' to attract capital",
+          "date": "2019-03-11"
+        }
+      ]
+    },
+    {
+      "claim": "In July 2019 Microsoft announced a multiyear partnership with OpenAI that included a $1 billion investment. The companies agreed to build Azure AI supercomputing technology together, OpenAI agreed to run its services on Azure, and Microsoft became OpenAI's preferred partner for commercializing new AI technologies.",
+      "status": "documented",
+      "date": "2019-07-22",
+      "quote": "Microsoft will become OpenAI's preferred partner for commercializing new AI technologies.",
+      "sources": [
+        {
+          "url": "https://news.microsoft.com/source/2019/07/22/openai-forms-exclusive-computing-partnership-with-microsoft-to-build-new-azure-ai-supercomputing-technologies/",
+          "publisher": "Microsoft",
+          "title": "OpenAI forms exclusive computing partnership with Microsoft to build new Azure AI supercomputing technologies",
+          "date": "2019-07-22"
+        }
+      ]
+    },
+    {
+      "claim": "In January 2023 Microsoft announced a third phase of the partnership, described as a 'multiyear, multibillion dollar investment', under which Azure would power all OpenAI workloads as its exclusive cloud provider and Microsoft would deploy OpenAI's models across its consumer and enterprise products. Microsoft did not disclose the amount; press reports put it at about $10 billion.",
+      "status": "documented",
+      "date": "2023-01-23",
+      "quote": "As OpenAI's exclusive cloud provider, Azure will power all OpenAI workloads across research, products and API services.",
+      "sources": [
+        {
+          "url": "https://blogs.microsoft.com/blog/2023/01/23/microsoftandopenaiextendpartnership/",
+          "publisher": "Microsoft",
+          "title": "Microsoft and OpenAI extend partnership",
+          "date": "2023-01-23"
+        },
+        {
+          "url": "https://www.pbs.org/newshour/science/microsoft-announces-major-investment-in-artificial-intelligence-startup-openai",
+          "publisher": "PBS NewsHour (AP)",
+          "title": "Microsoft announces major investment in artificial intelligence startup OpenAI",
+          "date": "2023-01-23"
+        }
+      ]
+    },
+    {
+      "claim": "On October 28, 2025 OpenAI completed a recapitalization. The non-profit was renamed the OpenAI Foundation and controls the for-profit arm, now OpenAI Group Public Benefit Corp, a Delaware PBC; the Foundation holds about 26% of the PBC plus a warrant for additional shares, and appoints its board. OpenAI said the change followed nearly a year of engagement with the attorneys general of California and Delaware.",
+      "status": "documented",
+      "date": "2025-10-28",
+      "quote": "The recapitalization was completed after nearly a year of engaging in constructive dialogue with the offices of the Attorneys General of California and Delaware.",
+      "sources": [
+        {
+          "url": "https://openai.com/index/built-to-benefit-everyone/",
+          "publisher": "OpenAI",
+          "title": "Built to benefit everyone",
+          "date": "2025-10-28"
+        },
+        {
+          "url": "https://techcrunch.com/2025/10/28/openai-completes-its-for-profit-recapitalization",
+          "publisher": "TechCrunch",
+          "title": "OpenAI completes its for-profit recapitalization",
+          "date": "2025-10-28"
+        },
+        {
+          "url": "https://www.aljazeera.com/economy/2025/10/28/openai-restructures-into-public-benefit-firm-microsoft-takes-27-stake",
+          "publisher": "Al Jazeera",
+          "title": "OpenAI restructures into public-benefit firm, Microsoft takes 27% stake",
+          "date": "2025-10-28"
+        }
+      ]
+    },
+    {
+      "claim": "Under the October 2025 agreement, Microsoft said it holds an investment in OpenAI Group PBC valued at approximately $135 billion, about 27% on an as-converted diluted basis; that OpenAI had contracted to buy an incremental $250 billion of Azure services; that Microsoft no longer has a right of first refusal to be OpenAI's compute provider; and that Microsoft's IP rights to OpenAI models extend through 2032.",
+      "status": "documented",
+      "date": "2025-10-28",
+      "quote": "Microsoft holds an investment in OpenAI Group PBC valued at approximately $135 billion, or about 27% on an as-converted diluted basis. OpenAI has contracted to purchase an incremental $250B of Azure services, and Microsoft will no longer have a right of first refusal to be OpenAI's compute provider.",
+      "sources": [
+        {
+          "url": "https://blogs.microsoft.com/blog/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/",
+          "publisher": "Microsoft",
+          "title": "The next chapter of the Microsoft–OpenAI partnership",
+          "date": "2025-10-28"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256310/msft-ex99_2.htm",
+          "publisher": "SEC (Microsoft Form 8-K exhibit 99.2)",
+          "title": "Microsoft Corp Form 8-K, FY2025, exhibit 99.2",
+          "date": "2025-10"
+        }
+      ]
+    },
+    {
+      "claim": "In February 2026 Microsoft and OpenAI issued a joint statement saying the core terms of their partnership were unchanged despite new OpenAI funding and partnerships, and that Microsoft keeps its exclusive role as cloud provider for stateless OpenAI APIs, which are hosted on Azure.",
+      "status": "documented",
+      "date": "2026-02-27",
+      "quote": "Microsoft maintains its exclusive role as the cloud provider for stateless OpenAI APIs, which are hosted on Azure regardless of third-party collaborations.",
+      "sources": [
+        {
+          "url": "https://blogs.microsoft.com/blog/2026/02/27/microsoft-and-openai-joint-statement-on-continuing-partnership/",
+          "publisher": "Microsoft",
+          "title": "Microsoft and OpenAI joint statement on continuing partnership",
+          "date": "2026-02-27"
+        }
+      ]
+    },
+    {
+      "claim": "On March 26, 2025 Judge Sidney Stein of the Southern District of New York denied OpenAI and Microsoft's bid to dismiss The New York Times's direct copyright infringement claims and the contributory infringement claims over end users, while dismissing some Digital Millennium Copyright Act claims and the unfair-competition-by-misappropriation claims. The case (No. 1:23-cv-11195) is consolidated with suits by the Daily News and the Center for Investigative Reporting.",
+      "status": "court",
+      "date": "2025-03-26",
+      "quote": "Stein denied the tech company's bid to partially dismiss direct copyright infringement claims and also declined to ax contributory copyright infringement claims over end-users' alleged infringement.",
+      "sources": [
+        {
+          "url": "https://news.bloomberglaw.com/ip-law/new-york-times-copyright-claims-survive-in-mixed-openai-ruling",
+          "publisher": "Bloomberg Law",
+          "title": "New York Times Copyright Claims Advance in OpenAI Lawsuit",
+          "date": "2025-03-26"
+        },
+        {
+          "url": "https://lunch.publishersmarketplace.com/2025/03/nyts-copyright-infringement-claims-against-openai-will-go-to-trial/",
+          "publisher": "Publishers Lunch",
+          "title": "NYT's copyright infringement claims against OpenAI will go to trial",
+          "date": "2025-03"
+        },
+        {
+          "url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.612697/gov.uscourts.nysd.612697.485.0.pdf",
+          "publisher": "CourtListener (S.D.N.Y. docket 1:23-cv-11195)",
+          "title": "Filing in The New York Times Co. v. Microsoft Corp. et al., No. 1:23-cv-11195 (SHS)",
+          "date": "2025"
+        }
+      ]
+    },
+    {
+      "claim": "xAI sued OpenAI in California federal court in September 2025, alleging OpenAI hired away former xAI employees to obtain trade secrets related to Grok. In February 2026 Judge Rita Lin dismissed the complaint with leave to amend, finding it focused on former employees' conduct rather than OpenAI's; after xAI amended, the court dismissed the case again with prejudice in June 2026. OpenAI had called the suit 'baseless'.",
+      "status": "court",
+      "date": "2026-06-15",
+      "quote": "After xAI amended its complaint, the judge dismissed it again, this time with prejudice, meaning it cannot be refiled.",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/news/musks-xai-accuses-rival-openai-132225818.html",
+          "publisher": "Reuters (via Yahoo Finance)",
+          "title": "Musk's xAI accuses rival OpenAI of stealing trade secrets",
+          "date": "2025-09"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/02/24/judge-dismisses-xai-trade-secrets-lawsuit-against-rival-openai-for-now.html",
+          "publisher": "CNBC",
+          "title": "Judge dismisses xAI trade-secrets lawsuit against rival OpenAI for now",
+          "date": "2026-02-24"
+        },
+        {
+          "url": "https://www.engadget.com/2194592/xai-lawsuit-accusing-openai-of-stealing-trade-secrets-has-been-thrown-out/",
+          "publisher": "Engadget",
+          "title": "xAI's lawsuit accusing OpenAI of stealing trade secrets has been thrown out",
+          "date": "2026-06"
+        },
+        {
+          "url": "https://sigmalawgroup.com/blog/2026-06-20-xai-openai-trade-secrets/",
+          "publisher": "Sigma Law Group",
+          "title": "xAI's Trade Secret Case Against OpenAI Is Dismissed",
+          "date": "2026-06-20"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "microsoft",
+      "relation": "invested in",
+      "reverse": true,
+      "claim": "Microsoft invested $1 billion in OpenAI in July 2019, made a further 'multiyear, multibillion dollar' investment in January 2023, and after OpenAI's October 2025 recapitalization holds a stake it values at about $135 billion (about 27% on an as-converted diluted basis). Azure is OpenAI's exclusive cloud provider for its APIs.",
+      "status": "documented",
+      "date": "2025-10-28",
+      "quote": "Microsoft holds an investment in OpenAI Group PBC valued at approximately $135 billion, or about 27% on an as-converted diluted basis.",
+      "sources": [
+        {
+          "url": "https://news.microsoft.com/source/2019/07/22/openai-forms-exclusive-computing-partnership-with-microsoft-to-build-new-azure-ai-supercomputing-technologies/",
+          "publisher": "Microsoft",
+          "title": "OpenAI forms exclusive computing partnership with Microsoft to build new Azure AI supercomputing technologies",
+          "date": "2019-07-22"
+        },
+        {
+          "url": "https://blogs.microsoft.com/blog/2023/01/23/microsoftandopenaiextendpartnership/",
+          "publisher": "Microsoft",
+          "title": "Microsoft and OpenAI extend partnership",
+          "date": "2023-01-23"
+        },
+        {
+          "url": "https://blogs.microsoft.com/blog/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/",
+          "publisher": "Microsoft",
+          "title": "The next chapter of the Microsoft–OpenAI partnership",
+          "date": "2025-10-28"
+        }
+      ]
+    },
+    {
+      "to": "peter-thiel",
+      "relation": "donated to",
+      "reverse": true,
+      "claim": "OpenAI's December 2015 launch post listed Peter Thiel among the donors supporting the new non-profit.",
+      "status": "documented",
+      "date": "2015-12-11",
+      "quote": "Sam, Greg, Elon, Reid Hoffman, Jessica Livingston, Peter Thiel, Amazon Web Services (AWS), Infosys, and YC Research are donating to support OpenAI.",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-openai/",
+          "publisher": "OpenAI",
+          "title": "Introducing OpenAI",
+          "date": "2015-12-11"
+        }
+      ]
+    },
+    {
+      "to": "sam-altman",
+      "relation": "co-founded",
+      "reverse": true,
+      "claim": "Sam Altman was among the founders and donors named in OpenAI's December 2015 launch announcement and leads the company as CEO.",
+      "status": "documented",
+      "date": "2015-12-11",
+      "quote": "Sam, Greg, Elon, Reid Hoffman, Jessica Livingston, Peter Thiel, Amazon Web Services (AWS), Infosys, and YC Research are donating to support OpenAI.",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-openai/",
+          "publisher": "OpenAI",
+          "title": "Introducing OpenAI",
+          "date": "2015-12-11"
+        }
+      ]
+    },
+    {
+      "to": "xai",
+      "relation": "sued by",
+      "claim": "xAI sued OpenAI for alleged trade-secret misappropriation in September 2025. The case was dismissed with leave to amend in February 2026 and dismissed with prejudice in June 2026.",
+      "status": "court",
+      "date": "2026-06-15",
+      "quote": "In February 2026, Judge Rita Lin dismissed the case but let xAI refile.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/02/24/judge-dismisses-xai-trade-secrets-lawsuit-against-rival-openai-for-now.html",
+          "publisher": "CNBC",
+          "title": "Judge dismisses xAI trade-secrets lawsuit against rival OpenAI for now",
+          "date": "2026-02-24"
+        },
+        {
+          "url": "https://sigmalawgroup.com/blog/2026-06-20-xai-openai-trade-secrets/",
+          "publisher": "Sigma Law Group",
+          "title": "xAI's Trade Secret Case Against OpenAI Is Dismissed",
+          "date": "2026-06-20"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Confirm that CourtListener document 485 on docket 1:23-cv-11195 is the March 26, 2025 order; the Bloomberg Law and Publishers Lunch reports describe the ruling, the docket link was not opened.",
+    "The exact size of Microsoft's January 2023 investment was never disclosed by Microsoft; the $10 billion figure is from press reports.",
+    "The OpenAI Foundation's 26% figure and the warrant terms come from OpenAI's own post and press summaries; check the post for the precise wording.",
+    "Elon Musk's 2024 suit against OpenAI and its May 2026 dismissal are already recorded in the sam-altman and elon-musk findings and were not duplicated here."
+  ]
+}

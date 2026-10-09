@@ -1,0 +1,238 @@
+{
+  "entity": "eliezer-yudkowsky",
+  "name": "Eliezer Yudkowsky",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Eliezer Yudkowsky is an AI researcher who in 2000 co-founded, with Brian and Sabine Atkins, the Singularity Institute for Artificial Intelligence, renamed the Machine Intelligence Research Institute (MIRI) in 2013 and based in Berkeley, California. The institute was set up to accelerate progress toward smarter-than-human AI and shifted around 2003 to the problem of aligning such systems with human values. MIRI lists the Thiel Foundation, funded by Peter Thiel, as its largest past contributor at $1,627,000, and in 2006 co-founded the Singularity Summit with Ray Kurzweil and Thiel. In a March 2023 TIME op-ed Yudkowsky called for an indefinite, worldwide halt to large AI training runs, and in September 2025 he and Nate Soares published If Anyone Builds It, Everyone Dies.",
+    "sources": [
+      {
+        "url": "https://intelligence.org/about/",
+        "publisher": "Machine Intelligence Research Institute",
+        "title": "About the Machine Intelligence Research Institute",
+        "date": ""
+      },
+      {
+        "url": "https://intelligence.org/topcontributors/",
+        "publisher": "Machine Intelligence Research Institute",
+        "title": "Top Contributors",
+        "date": ""
+      },
+      {
+        "url": "https://intelligence.org/singularitysummit/",
+        "publisher": "Machine Intelligence Research Institute",
+        "title": "Singularity Summit",
+        "date": ""
+      },
+      {
+        "url": "https://time.com/6266923/ai-eliezer-yudkowsky-open-letter-not-enough/",
+        "publisher": "TIME",
+        "title": "Pausing AI Developments Isn't Enough. We Need to Shut it All Down",
+        "date": "2023-03-29"
+      },
+      {
+        "url": "https://penguin.co.uk/books/474267/if-anyone-builds-it-everyone-dies-by-soares-eliezer-yudkowsky-and-nate/9781529978704",
+        "publisher": "Penguin Books UK",
+        "title": "If Anyone Builds It, Everyone Dies by Eliezer Yudkowsky and Nate Soares",
+        "date": "2025"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Yudkowsky founded MIRI in 2000, with Brian and Sabine Atkins, as the Singularity Institute for Artificial Intelligence, with the goal of accelerating progress toward smarter-than-human AI. MIRI says that after studying the alignment problem he concluded he had been wrong that greater intelligence implies greater morality, and the institute shifted its focus to alignment around 2003.",
+      "status": "documented",
+      "date": "2000",
+      "quote": "Eliezer Yudkowsky, along with Brian and Sabine Atkins, founded MIRI as the Singularity Institute for Artificial Intelligence with the goal of accelerating progress towards smarter-than-human AI.",
+      "sources": [
+        {
+          "url": "https://intelligence.org/about/",
+          "publisher": "Machine Intelligence Research Institute",
+          "title": "About the Machine Intelligence Research Institute",
+          "date": ""
+        },
+        {
+          "url": "https://intelligence.org/team/eliezer-yudkowsky/",
+          "publisher": "Machine Intelligence Research Institute",
+          "title": "Eliezer Yudkowsky",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "claim": "The organisation changed its name from the Singularity Institute to the Machine Intelligence Research Institute in 2013.",
+      "status": "documented",
+      "date": "2013",
+      "quote": "the organization changed its name from the Singularity Institute to the Machine Intelligence Research Institute",
+      "sources": [
+        {
+          "url": "https://intelligence.org/about/",
+          "publisher": "Machine Intelligence Research Institute",
+          "title": "About the Machine Intelligence Research Institute",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "claim": "The Singularity Summit was founded in 2006 by the Singularity Institute, Ray Kurzweil and Peter Thiel; the first was held at Stanford University, where Yudkowsky gave a talk titled 'The Human Importance of the Intelligence Explosion'. Singularity University acquired the Summit from the institute in December 2012.",
+      "status": "documented",
+      "date": "2006",
+      "quote": "The inaugural conference was held in 2006 at Stanford University.",
+      "sources": [
+        {
+          "url": "https://intelligence.org/singularitysummit/",
+          "publisher": "Machine Intelligence Research Institute",
+          "title": "Singularity Summit",
+          "date": ""
+        },
+        {
+          "url": "https://intelligence.org/2012/12/19/december-2012-newsletter/",
+          "publisher": "Machine Intelligence Research Institute",
+          "title": "December 2012 Newsletter",
+          "date": "2012-12-19"
+        }
+      ]
+    },
+    {
+      "claim": "MIRI's top-contributors page lists the Thiel Foundation, a private foundation funded by Peter Thiel, as its largest contributor, at $1,627,000; Inside Philanthropy reports the same figure.",
+      "status": "documented",
+      "date": "",
+      "quote": "MIRI's own top-contributors page lists the Thiel Foundation as its largest past contributor, at $1,627,000.",
+      "sources": [
+        {
+          "url": "https://intelligence.org/topcontributors/",
+          "publisher": "Machine Intelligence Research Institute",
+          "title": "Top Contributors",
+          "date": ""
+        },
+        {
+          "url": "https://intelligence.org/transparency/",
+          "publisher": "Machine Intelligence Research Institute",
+          "title": "Transparency",
+          "date": ""
+        },
+        {
+          "url": "https://www.insidephilanthropy.com/find-a-grant/grants-t/thiel-foundation",
+          "publisher": "Inside Philanthropy",
+          "title": "Thiel Foundation",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "claim": "In a TIME op-ed published March 29, 2023, responding to an open letter calling for a six-month pause on AI development, Yudkowsky wrote that the pause did not go far enough and called for an indefinite, worldwide moratorium on new large training runs with no exceptions for governments or militaries, shutting down large GPU clusters, tracking all GPUs sold, and multinational agreements to enforce the halt. TIME's later profile summarised the enforcement proposal as allowing governments to 'destroy a rogue datacenter by airstrike'.",
+      "status": "words",
+      "date": "2023-03-29",
+      "quote": "A ban on new large training runs that would last indefinitely and apply worldwide, with no exceptions, including for governments or militaries.",
+      "sources": [
+        {
+          "url": "https://time.com/6266923/ai-eliezer-yudkowsky-open-letter-not-enough/",
+          "publisher": "TIME",
+          "title": "Pausing AI Developments Isn't Enough. We Need to Shut it All Down",
+          "date": "2023-03-29"
+        },
+        {
+          "url": "https://time.com/author/eliezer-yudkowsky/",
+          "publisher": "TIME",
+          "title": "Eliezer Yudkowsky (author page)",
+          "date": ""
+        },
+        {
+          "url": "https://time.com/collections/time100-ai/6309037/eliezer-yudkowsky/",
+          "publisher": "TIME",
+          "title": "Eliezer Yudkowsky: The 100 Most Influential People in AI 2023",
+          "date": "2023-09"
+        }
+      ]
+    },
+    {
+      "claim": "If Anyone Builds It, Everyone Dies: Why Superhuman AI Would Kill Us All, by Yudkowsky and Nate Soares, was published on September 16, 2025 by Little, Brown and Company. Its central claim is that if any group builds an artificial superintelligence using anything like current techniques, everyone on Earth will die, and that this can still be prevented because such a system does not yet exist.",
+      "status": "words",
+      "date": "2025-09-16",
+      "quote": "if any group builds an artificial superintelligence using anything remotely like current techniques, everyone on Earth will die",
+      "sources": [
+        {
+          "url": "https://penguin.co.uk/books/474267/if-anyone-builds-it-everyone-dies-by-soares-eliezer-yudkowsky-and-nate/9781529978704",
+          "publisher": "Penguin Books UK",
+          "title": "If Anyone Builds It, Everyone Dies by Eliezer Yudkowsky and Nate Soares",
+          "date": "2025"
+        },
+        {
+          "url": "https://www.ifanyonebuildsit.com",
+          "publisher": "Yudkowsky and Soares (book site)",
+          "title": "If Anyone Builds It, Everyone Dies",
+          "date": "2025"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "Machine Intelligence Research Institute",
+      "toName": "Machine Intelligence Research Institute",
+      "toType": "organization",
+      "relation": "co-founded",
+      "claim": "Yudkowsky co-founded the Singularity Institute for Artificial Intelligence, now MIRI, in 2000 with Brian and Sabine Atkins.",
+      "status": "documented",
+      "date": "2000",
+      "quote": "Eliezer Yudkowsky, along with Brian and Sabine Atkins, founded MIRI as the Singularity Institute for Artificial Intelligence",
+      "sources": [
+        {
+          "url": "https://intelligence.org/about/",
+          "publisher": "Machine Intelligence Research Institute",
+          "title": "About the Machine Intelligence Research Institute",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "to": "peter-thiel",
+      "relation": "funded",
+      "reverse": true,
+      "claim": "The Thiel Foundation, funded by Peter Thiel, is listed by MIRI as its largest contributor at $1,627,000; Thiel also co-founded the institute's Singularity Summit in 2006.",
+      "status": "documented",
+      "date": "2006",
+      "quote": "The conference was founded by MIRI, Ray Kurzweil, and Peter Thiel in 2006.",
+      "sources": [
+        {
+          "url": "https://intelligence.org/topcontributors/",
+          "publisher": "Machine Intelligence Research Institute",
+          "title": "Top Contributors",
+          "date": ""
+        },
+        {
+          "url": "https://intelligence.org/singularitysummit/",
+          "publisher": "Machine Intelligence Research Institute",
+          "title": "Singularity Summit",
+          "date": ""
+        },
+        {
+          "url": "https://www.insidephilanthropy.com/find-a-grant/grants-t/thiel-foundation",
+          "publisher": "Inside Philanthropy",
+          "title": "Thiel Foundation",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "to": "ray-kurzweil",
+      "relation": "co-founded",
+      "claim": "The Singularity Institute, which Yudkowsky co-founded, founded the Singularity Summit in 2006 together with Ray Kurzweil and Peter Thiel.",
+      "status": "documented",
+      "date": "2006",
+      "quote": "The conference was founded by MIRI, Ray Kurzweil, and Peter Thiel in 2006.",
+      "sources": [
+        {
+          "url": "https://intelligence.org/singularitysummit/",
+          "publisher": "Machine Intelligence Research Institute",
+          "title": "Singularity Summit",
+          "date": ""
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The dates and amounts of individual Thiel gifts (a reported $100,000 match in February 2006 and $200,000 in 2007) appeared only in wiki-style sources and were not recorded.",
+    "Thiel's later remarks about his reasons for funding the institute were found only on blogs and were left out.",
+    "The 'airstrike' wording is from TIME's TIME100 profile summarising the op-ed; the owner should confirm the exact sentence in the op-ed itself."
+  ]
+}

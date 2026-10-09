@@ -1,0 +1,350 @@
+{
+  "entity": "neuralink",
+  "name": "Neuralink",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Neuralink is a brain-computer-interface company founded in 2016 by Elon Musk and a founding team of scientists and engineers. Its PRIME Study, run under an investigational device exemption the FDA granted in May 2023, tests the N1 implant and R1 surgical robot in people with quadriplegia; the first participant was implanted at Barrow Neurological Institute in Phoenix in January 2024. The company's devices are investigational and have not been approved for marketing. It has received FDA Breakthrough Device designations for its Blindsight visual prosthesis and for speech restoration, opened trials in Canada, the United Arab Emirates and the United Kingdom, and closed a $650 million Series E in June 2025 with investors including ARK Invest, Founders Fund, Sequoia Capital and Thrive Capital. Reuters reported in December 2022 that the USDA's inspector general was investigating the company over possible Animal Welfare Act violations.",
+    "sources": [
+      {
+        "url": "https://neuralink.com/updates/first-clinical-trial-open-for-recruitment/",
+        "publisher": "Neuralink",
+        "title": "Neuralink's First-in-Human Clinical Trial is Open for Recruitment",
+        "date": "2023"
+      },
+      {
+        "url": "https://neuralink.com/updates/prime-study-progress-update/",
+        "publisher": "Neuralink",
+        "title": "PRIME Study Progress Update",
+        "date": "2024-05"
+      },
+      {
+        "url": "https://neuralink.com/updates/neuralink-raises-650m-series-e/",
+        "publisher": "Neuralink",
+        "title": "Neuralink raises $650 million Series E",
+        "date": "2025-06-02"
+      },
+      {
+        "url": "https://neuralink.com/trials/device-control/",
+        "publisher": "Neuralink",
+        "title": "Telepathy",
+        "date": ""
+      },
+      {
+        "url": "https://www.euronews.com/next/2022/12/05/neuralink-musk-animal-testing-exclusive",
+        "publisher": "Euronews (Reuters)",
+        "title": "Musk's Neuralink faces federal probe, employee backlash over animal tests",
+        "date": "2022-12-05"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Neuralink's PRIME Study (Precise Robotically Implanted Brain-Computer Interface) is designed to evaluate the safety of its N1 implant and R1 surgical robot and the initial functionality of its interface for people with paralysis. The company says people with quadriplegia from cervical spinal cord injury or ALS may qualify, and that the study runs under the investigational device exemption the FDA awarded in May 2023.",
+      "status": "documented",
+      "date": "2023",
+      "quote": "evaluate the safety of our implant (N1) and surgical robot (R1) and assess the initial functionality of our BCI for enabling people with paralysis to control external devices with their thoughts",
+      "sources": [
+        {
+          "url": "https://neuralink.com/updates/first-clinical-trial-open-for-recruitment/",
+          "publisher": "Neuralink",
+          "title": "Neuralink's First-in-Human Clinical Trial is Open for Recruitment",
+          "date": "2023"
+        },
+        {
+          "url": "https://neuralink.com/updates/prime-study-progress-update/",
+          "publisher": "Neuralink",
+          "title": "PRIME Study Progress Update",
+          "date": "2024-05"
+        }
+      ]
+    },
+    {
+      "claim": "Neuralink's own trial pages state that its devices are investigational and have not been approved by the FDA or other regulatory authorities.",
+      "status": "documented",
+      "date": "2025",
+      "quote": "Neuralink devices are investigational and have not been approved by the FDA or other regulatory authorities.",
+      "sources": [
+        {
+          "url": "https://neuralink.com/trials/device-control/",
+          "publisher": "Neuralink",
+          "title": "Telepathy",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "claim": "The first human implant under the PRIME Study was performed at Barrow Neurological Institute in Phoenix in January 2024; the participant, Noland Arbaugh, went home the next day. In May 2024 Neuralink disclosed that in the weeks after surgery a number of the implant's threads had retracted from the brain, reducing the signal, and that it compensated with software changes rather than a further operation.",
+      "status": "documented",
+      "date": "2024-05",
+      "quote": "The company said that in the weeks after the January surgery, a number of the implant's connective threads retracted from the brain, reducing the signals the device could capture.",
+      "sources": [
+        {
+          "url": "https://neuralink.com/updates/prime-study-progress-update/",
+          "publisher": "Neuralink",
+          "title": "PRIME Study Progress Update",
+          "date": "2024-05"
+        },
+        {
+          "url": "https://www.nbcnews.com/science/science-news/implant-elon-musks-neuralink-suffers-setback-threads-retract-patients-rcna151443",
+          "publisher": "NBC News",
+          "title": "Implant from Elon Musk's Neuralink suffers setback as threads retract from patient's brain",
+          "date": "2024-05"
+        }
+      ]
+    },
+    {
+      "claim": "In September 2024 Neuralink announced that the FDA had granted Breakthrough Device designation to its Blindsight visual prosthesis. The designation gives access to FDA feedback and prioritized review of future submissions; it is not a marketing approval.",
+      "status": "documented",
+      "date": "2024-09",
+      "quote": "The designation makes Neuralink eligible to receive FDA feedback on device development via several options, as well as prioritized review for future regulatory submissions of the device.",
+      "sources": [
+        {
+          "url": "https://www.mobihealthnews.com/news/elon-musks-neuralink-device-blindsight-gets-fda-breakthrough-device-designation",
+          "publisher": "MobiHealthNews",
+          "title": "Elon Musk's Neuralink device Blindsight gets FDA breakthrough device designation",
+          "date": "2024-09"
+        },
+        {
+          "url": "https://neuralink.com/trials/visual-prosthesis/",
+          "publisher": "Neuralink",
+          "title": "Visual Prosthesis (Blindsight)",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "claim": "Health Canada authorized Neuralink's Canadian trial, CAN-PRIME, on November 15, 2024. The study, run at Toronto Western Hospital of the University Health Network, assesses the safety of the implant and surgical robot in Canadian residents with cervical spinal cord injury or ALS.",
+      "status": "documented",
+      "date": "2024-11-15",
+      "quote": "Health Canada confirmed it had issued an authorization on Nov. 15 but did not provide the study protocols.",
+      "sources": [
+        {
+          "url": "https://www.clinicaltrialsarena.com/news/neuralink-health-canada-trial/",
+          "publisher": "Clinical Trials Arena",
+          "title": "Neuralink receives Health Canada approval for brain implant trial",
+          "date": "2024-11"
+        },
+        {
+          "url": "https://www.mobihealthnews.com/news/neuralink-receives-approval-begin-clinical-trial-canada-brain-implant",
+          "publisher": "MobiHealthNews",
+          "title": "Neuralink receives approval to begin clinical trial in Canada on brain implant",
+          "date": "2024-11"
+        }
+      ]
+    },
+    {
+      "claim": "On June 2, 2025 Neuralink announced a $650 million Series E with participation from ARK Invest, DFJ Growth, Founders Fund, G42, Human Capital, Lightspeed, QIA, Sequoia Capital, Thrive Capital, Valor Equity Partners and Vy Capital. It said five people with severe paralysis were using its device and that the money would fund trials at institutions in several countries.",
+      "status": "documented",
+      "date": "2025-06-02",
+      "quote": "We're excited to announce our $650M Series E fundraising with participation from key investors including ARK Invest, DFJ Growth, Founders Fund, G42, Human Capital, Lightspeed, QIA, Sequoia Capital, Thrive Capital, Valor Equity Partners, Vy Capital, amongst others.",
+      "sources": [
+        {
+          "url": "https://neuralink.com/updates/neuralink-raises-650m-series-e/",
+          "publisher": "Neuralink",
+          "title": "Neuralink raises $650 million Series E",
+          "date": "2025-06-02"
+        },
+        {
+          "url": "https://x.com/neuralink/status/1929604804411904096?lang=en",
+          "publisher": "Neuralink (X post)",
+          "title": "We're excited to announce our $650M Series E fundraising...",
+          "date": "2025-06-02"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2025-06-02/neuralink-raises-650-million-in-late-stage-funding-round",
+          "publisher": "Bloomberg",
+          "title": "Musk Brain Chip Company Neuralink Raises $650 Million in Funding",
+          "date": "2025-06-02"
+        },
+        {
+          "url": "https://www.medtechdive.com/news/neuralink-raises-650m-funding/749848/",
+          "publisher": "MedTech Dive",
+          "title": "Neuralink raises $650M to help expand patient access",
+          "date": "2025-06"
+        }
+      ]
+    },
+    {
+      "claim": "Neuralink has registered feasibility studies outside the United States: UAE-PRIME (NCT06992596) and GB-PRIME (NCT07127172). The company says GB-PRIME runs at University College London Hospitals NHS Foundation Trust and The Newcastle upon Tyne Hospitals NHS Foundation Trust.",
+      "status": "documented",
+      "date": "2025",
+      "quote": "launched GB-PRIME at University College London Hospitals NHS Foundation Trust and The Newcastle upon Tyne Hospitals NHS Foundation Trust",
+      "sources": [
+        {
+          "url": "https://neuralink.com/updates/gb-prime-study-launch/",
+          "publisher": "Neuralink",
+          "title": "GB-PRIME Study Launch",
+          "date": "2025"
+        },
+        {
+          "url": "https://clinicaltrials.gov/study/NCT06992596",
+          "publisher": "ClinicalTrials.gov",
+          "title": "UAE-PRIME: A Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for the Control of External Devices (NCT06992596)",
+          "date": "2025"
+        },
+        {
+          "url": "https://clinicaltrials.gov/study/NCT07127172",
+          "publisher": "ClinicalTrials.gov",
+          "title": "GB-PRIME: An Early Feasibility Study of a Precise Robotically Implanted Brain-Computer Interface for the Control of External Devices (NCT07127172)",
+          "date": "2025"
+        }
+      ]
+    },
+    {
+      "claim": "Reuters reported in December 2022 that the US Department of Agriculture's inspector general had opened an investigation, at a federal prosecutor's request, into possible Animal Welfare Act violations at Neuralink, and that employees had complained that pressure to speed development led to botched experiments. Reuters estimated about 1,500 animals had been killed since 2018. Regulatory filings showed Neuralink had passed all USDA inspections of its facilities.",
+      "status": "reported",
+      "date": "2022-12-05",
+      "quote": "The probe was conducted by the U.S. Department of Agriculture's Inspector General at the request of a federal prosecutor, according to unnamed sources familiar with the investigation.",
+      "sources": [
+        {
+          "url": "https://www.euronews.com/next/2022/12/05/neuralink-musk-animal-testing-exclusive",
+          "publisher": "Euronews (Reuters)",
+          "title": "Musk's Neuralink faces federal probe, employee backlash over animal tests",
+          "date": "2022-12-05"
+        },
+        {
+          "url": "https://www.engadget.com/neuralink-federal-investigation-animal-testing-071953787.html",
+          "publisher": "Engadget",
+          "title": "Neuralink is reportedly under federal investigation over animal testing",
+          "date": "2022-12-06"
+        },
+        {
+          "url": "https://www.forbes.com/sites/siladityaray/2022/12/06/musks-neuralink-link-under-federal-investigation-over-alleged-animal-welfare-abuses-report-says/",
+          "publisher": "Forbes",
+          "title": "Musk's Neuralink Under Federal Investigation Over Alleged Animal Welfare Abuses, Report Says",
+          "date": "2022-12-06"
+        }
+      ]
+    },
+    {
+      "claim": "In a July 2023 letter to Congress described by the Physicians Committee for Responsible Medicine, Agriculture Secretary Thomas Vilsack said a 2019 incident at Neuralink involving a macaque would have been recorded as an Animal Welfare Act violation but for a since-rescinded policy that kept such violations out of public records.",
+      "status": "reported",
+      "date": "2023-07-19",
+      "quote": "USDA Secretary Thomas Vilsack confirmed that a 2019 incident would have been recorded as a violation of the law if not for a since-rescinded policy designed to remove violations from public records.",
+      "sources": [
+        {
+          "url": "https://www.businesswire.com/news/home/20230719482434/en/Elon-Musk-Company-Neuralink-Given-Free-Pass-for-Animal-Welfare-Act-Violations-USDA-Reveals-in-Letter-to-Congress",
+          "publisher": "Business Wire (Physicians Committee for Responsible Medicine release)",
+          "title": "Elon Musk Company Neuralink Given Free Pass for Animal Welfare Act Violations USDA Reveals in Letter to Congress",
+          "date": "2023-07-19"
+        }
+      ]
+    },
+    {
+      "claim": "Musk has described Neuralink's long-term aim in terms of symbiosis with artificial intelligence; in a 2019 podcast appearance he said the goal was 'to create a high-bandwidth interface to the brain such that we can be symbiotic with AI'.",
+      "status": "words",
+      "date": "2019",
+      "quote": "to create a high-bandwidth interface to the brain such that we can be symbiotic with AI",
+      "sources": [
+        {
+          "url": "https://www.beckershospitalreview.com/artificial-intelligence/elon-musk-suggests-he-s-only-months-from-merging-the-human-brain-with-ai.html",
+          "publisher": "Becker's Hospital Review",
+          "title": "Elon Musk suggests he's only months from 'merging' the human brain with AI",
+          "date": "2020"
+        },
+        {
+          "url": "https://www.businessinsider.nl/we-spoke-to-2-neuroscientists-about-how-exciting-elon-musks-neuralink-really-is-2019-9/",
+          "publisher": "Business Insider",
+          "title": "We spoke to 2 neuroscientists about how exciting Elon Musk's Neuralink really is",
+          "date": "2019-09"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "elon-musk",
+      "relation": "co-founded",
+      "reverse": true,
+      "claim": "Elon Musk co-founded Neuralink in 2016 with a founding team of scientists and engineers and has described its aim as a high-bandwidth brain interface allowing symbiosis with AI.",
+      "status": "reported",
+      "date": "2016",
+      "quote": "Neuralink was founded in 2016 by Elon Musk and a founding team of seven scientists and engineers.",
+      "sources": [
+        {
+          "url": "https://www.businessinsider.nl/we-spoke-to-2-neuroscientists-about-how-exciting-elon-musks-neuralink-really-is-2019-9/",
+          "publisher": "Business Insider",
+          "title": "We spoke to 2 neuroscientists about how exciting Elon Musk's Neuralink really is",
+          "date": "2019-09"
+        },
+        {
+          "url": "https://www.beckershospitalreview.com/artificial-intelligence/elon-musk-suggests-he-s-only-months-from-merging-the-human-brain-with-ai.html",
+          "publisher": "Becker's Hospital Review",
+          "title": "Elon Musk suggests he's only months from 'merging' the human brain with AI",
+          "date": "2020"
+        }
+      ]
+    },
+    {
+      "to": "founders-fund",
+      "relation": "invested in",
+      "reverse": true,
+      "claim": "Founders Fund participated in Neuralink's $650 million Series E announced in June 2025.",
+      "status": "documented",
+      "date": "2025-06-02",
+      "quote": "with participation from key investors including ARK Invest, DFJ Growth, Founders Fund, G42, Human Capital, Lightspeed, QIA, Sequoia Capital, Thrive Capital, Valor Equity Partners, Vy Capital",
+      "sources": [
+        {
+          "url": "https://neuralink.com/updates/neuralink-raises-650m-series-e/",
+          "publisher": "Neuralink",
+          "title": "Neuralink raises $650 million Series E",
+          "date": "2025-06-02"
+        },
+        {
+          "url": "https://x.com/neuralink/status/1929604804411904096?lang=en",
+          "publisher": "Neuralink (X post)",
+          "title": "We're excited to announce our $650M Series E fundraising...",
+          "date": "2025-06-02"
+        }
+      ]
+    },
+    {
+      "to": "sequoia-capital",
+      "relation": "invested in",
+      "reverse": true,
+      "claim": "Sequoia Capital participated in Neuralink's $650 million Series E announced in June 2025.",
+      "status": "documented",
+      "date": "2025-06-02",
+      "quote": "with participation from key investors including ARK Invest, DFJ Growth, Founders Fund, G42, Human Capital, Lightspeed, QIA, Sequoia Capital, Thrive Capital, Valor Equity Partners, Vy Capital",
+      "sources": [
+        {
+          "url": "https://neuralink.com/updates/neuralink-raises-650m-series-e/",
+          "publisher": "Neuralink",
+          "title": "Neuralink raises $650 million Series E",
+          "date": "2025-06-02"
+        },
+        {
+          "url": "https://x.com/neuralink/status/1929604804411904096?lang=en",
+          "publisher": "Neuralink (X post)",
+          "title": "We're excited to announce our $650M Series E fundraising...",
+          "date": "2025-06-02"
+        }
+      ]
+    },
+    {
+      "to": "Barrow Neurological Institute",
+      "toName": "Barrow Neurological Institute",
+      "toType": "organization",
+      "relation": "partnered with",
+      "claim": "The first PRIME Study implant was performed at Barrow Neurological Institute in Phoenix in January 2024.",
+      "status": "documented",
+      "date": "2024-01",
+      "quote": "The first human implant was performed at Barrow Neurological Institute in Phoenix, Arizona, and the participant was able to go home the following day.",
+      "sources": [
+        {
+          "url": "https://neuralink.com/updates/prime-study-progress-update/",
+          "publisher": "Neuralink",
+          "title": "PRIME Study Progress Update",
+          "date": "2024-05"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The outcome of the USDA inspector general investigation was not found; a 2025 report said the inspector general was removed while the probe was open.",
+    "Which podcast carried Musk's 2019 'symbiotic with AI' remark should be confirmed from the Becker's and Business Insider articles.",
+    "The 2016 founding date and 'seven scientists and engineers' detail should be checked against a company statement; the Neuralink site pages used do not state them.",
+    "Reports of a roughly $9 billion valuation at the Series E came from one outlet and were left out.",
+    "The May 2023 FDA investigational device exemption is already recorded in the elon-musk findings and is only referenced here."
+  ]
+}

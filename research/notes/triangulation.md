@@ -153,3 +153,33 @@ names carry approved sourced items, then the reader decides.
 - **The causal chain "misattributed to start an endless war"** has no source
   in any of the above. The records support laying the disagreements out,
   not the conclusion.
+
+## Round five verdicts (2026-10-09)
+
+- **"Money went to Bush from a UAE account": unsupported.** No source names a
+  UAE account or any transfer from BCCI or its shareholders to Bush or
+  Harken. What the record holds: Harvard Management's ~30% stake, the Saudi
+  investor Bakhsh's stake via Traco with Othman on the board, a 1987 offering
+  placed with "the London subsidiary of Union Bank", the Bahrain
+  production-sharing agreement (Harken 10-K) brokered via Michael Ameen, the
+  June 1990 sale (~$848,560), four late Form 4s, and the SEC's 1993 letter
+  ending the inquiry while stating it "must in no way be construed as
+  indicating that the party has been exonerated". No Harken passage was
+  found in the Senate BCCI report.
+- **Riggs and Bandar.** The OCC's 2003 order and the $25M FinCEN/OCC penalty
+  cite "tens of millions of dollars in cash withdrawals from accounts
+  related to the Saudi Arabian embassy"; the 2005 guilty plea ($16M). The
+  Bandar-specific transactions rest on press. The 28 pages' cashier's checks
+  ($74,000 to Bassnan's wife; a $15,000 Bandar check) are recorded, with the
+  Commission's finding that no evidence shows the funds reached the plot.
+  Al-Yamamah: BAE's 2010 US plea was to false statements and AECA counts,
+  not bribery; no official finding attributes bribery to Bandar.
+- **1954–1977.** The 1974 Treasury "add-on" facility for Saudi purchases
+  outside the auctions is documented by GAO (1979), the Ford Library memcons
+  and FRUS; the "oil for protection" pact is not stated in any released
+  document. The Recurring Cast page's first gap narrows to 1954–1973.
+- **2025–26.** MGX settling its $2B Binance deal in USD1, the chip-rule
+  rescission and the G42/Humain authorizations, the Gulf real-estate
+  projects and the 747 are documented from company, Commerce and Senate
+  records; the senators' letters are allegations. The pattern the earlier
+  joints predict is on the record; its outcome is not.

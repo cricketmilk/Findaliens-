@@ -1,0 +1,132 @@
+{
+  "entity": "us-department-of-justice",
+  "name": "US Department of Justice",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The U.S. Department of Justice is the federal executive department headed by the Attorney General. Its website describes its mission as upholding the rule of law, keeping the country safe and protecting civil rights, and says its 94 U.S. Attorneys' offices, law enforcement agencies, grant-making components and litigating divisions are guided by those priorities. On this site it appears as the prosecutor or plaintiff in several episodes: the 2005 Bank of New York non-prosecution agreement, the 2000-2005 False Claims Act suit against Harvard, Andrei Shleifer and Jonathan Hay, the investigation of Deutsche Bank's Russian mirror trades, the 2023 Binance and Changpeng Zhao guilty pleas, the 2019 Epstein indictment and the 2020-2021 review of Senator Richard Burr's stock sales.",
+    "sources": [
+      { "url": "https://www.justice.gov/about", "publisher": "U.S. Department of Justice", "title": "About DOJ" },
+      { "url": "https://www.justice.gov/our-work", "publisher": "U.S. Department of Justice", "title": "Our Work" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On November 8, 2005 the U.S. Attorneys' Offices for the Eastern and Southern Districts of New York announced that the Bank of New York had agreed to pay $38 million in penalties and victim compensation under a non-prosecution agreement resolving parallel criminal investigations, including the Russian-related funds-transfer activity of the late 1990s.",
+      "status": "court",
+      "date": "2005-11-08",
+      "quote": "the Bank of New York (\"BNY\") has agreed to pay $38 million in penalties and victim compensation to resolve parallel criminal investigations by the U.S. Attorneys' Offices for the Eastern and Southern Districts of New York",
+      "sources": [
+        { "url": "https://www.justice.gov/archive/usao/nye/pr/2005/2005nov08.html", "publisher": "U.S. Department of Justice, U.S. Attorney's Office for the Eastern District of New York", "title": "The Bank of New York Resolves Parallel Criminal Investigations", "date": "2005-11-08" }
+      ]
+    },
+    {
+      "claim": "In September 2000 the Department of Justice sued Harvard University, Andrei Shleifer, Jonathan Hay and others in federal court in Boston over the USAID-funded HIID Russia project. In 2004 Judge Douglas Woodlock found Shleifer and Hay liable under the False Claims Act and found Harvard liable for breach of its USAID contract, while dismissing the fraud claim against the university.",
+      "status": "court",
+      "date": "2004",
+      "quote": "The judge also ruled that Harvard had violated its contract with the U.S. Agency for International Development. But he dismissed the more serious charge that the university had knowingly committed fraud.",
+      "sources": [
+        { "url": "https://www.courtlistener.com/opinion/2492903/united-states-v-president-and-fellows-of-harvard-college/", "publisher": "U.S. District Court for the District of Massachusetts (via CourtListener)", "title": "United States v. President and Fellows of Harvard College", "date": "2004" },
+        { "url": "https://www.thecrimson.com/article/2005/8/5/harvard-settles-suit-for-265-m/", "publisher": "The Harvard Crimson", "title": "Harvard Settles Suit For $26.5 M", "date": "2005-08-05" },
+        { "url": "https://www.harvardmagazine.com/2000/11/russian-fallout-html", "publisher": "Harvard Magazine", "title": "Russian Fallout", "date": "2000-11" }
+      ]
+    },
+    {
+      "claim": "The Harvard case settled in August 2005: Harvard agreed to pay the United States $26.5 million without admitting liability, Shleifer $2 million, and Hay between $1 million and $2 million depending on his future earnings. The settlement also counted $1.5 million already paid by a company owned by Shleifer's wife.",
+      "status": "court",
+      "date": "2005-08-03",
+      "quote": "Harvard agreed to pay the U.S. government $26.5 million, Shleifer $2 million, and Hay between $1 million and $2 million, depending on his earnings over the next decade.",
+      "sources": [
+        { "url": "https://www.thecrimson.com/article/2005/8/5/harvard-settles-suit-for-265-m/", "publisher": "The Harvard Crimson", "title": "Harvard Settles Suit For $26.5 M", "date": "2005-08-05" },
+        { "url": "https://www.chronicle.com/article/harvard-u-will-pay-26-5-million-to-settle-lawsuit-alleging-fraud-in-russia-development-program/", "publisher": "The Chronicle of Higher Education", "title": "Harvard U. Will Pay $26.5-Million to Settle Lawsuit Alleging Fraud in Russia-Development Program", "date": "2005-08" }
+      ]
+    },
+    {
+      "claim": "On November 21, 2023 the Justice Department announced that Binance Holdings Limited pleaded guilty to Bank Secrecy Act violations, operating as an unregistered money transmitter and sanctions violations, and agreed to forfeit $2,510,650,588 and pay a criminal fine of $1,805,475,575, a total of $4,316,126,163, with a three-year independent compliance monitor. The department said it would credit about $1.8 billion toward the parallel FinCEN, OFAC and CFTC resolutions.",
+      "status": "court",
+      "date": "2023-11-21",
+      "quote": "Binance agreed to forfeit $2,510,650,588 and pay a criminal fine of $1,805,475,575, for a total financial penalty of $4,316,126,163.",
+      "sources": [
+        { "url": "https://www.justice.gov/archives/opa/pr/binance-and-ceo-plead-guilty-federal-charges-4b-resolution", "publisher": "U.S. Department of Justice, Office of Public Affairs", "title": "Binance and CEO Plead Guilty to Federal Charges in $4B Resolution", "date": "2023-11-21" },
+        { "url": "https://www.justice.gov/criminal/case/united-states-v-binance-holdings-limited-dba-binancecom", "publisher": "U.S. Department of Justice, Criminal Division", "title": "United States v. Binance Holdings Limited d/b/a Binance.com" }
+      ]
+    },
+    {
+      "claim": "Binance founder Changpeng Zhao pleaded guilty on November 21, 2023 in the U.S. District Court for the Western District of Washington to a Bank Secrecy Act violation for failing to maintain an effective anti-money-laundering program, and resigned as chief executive.",
+      "status": "court",
+      "date": "2023-11-21",
+      "quote": "Binance's founder and CEO, Changpeng Zhao, pleaded guilty on November 21, 2023, to a BSA violation tied to Binance's failure to implement an effective anti-money laundering program.",
+      "sources": [
+        { "url": "https://www.justice.gov/criminal/case/united-states-v-changpeng-zhao", "publisher": "U.S. Department of Justice, Criminal Division", "title": "United States v. Changpeng Zhao" },
+        { "url": "https://www.justice.gov/archives/opa/speech/attorney-general-merrick-b-garland-delivers-remarks-announcing-binance-and-ceo-guilty", "publisher": "U.S. Department of Justice, Office of Public Affairs", "title": "Attorney General Merrick B. Garland Delivers Remarks Announcing Binance and CEO Guilty Pleas", "date": "2023-11-21" }
+      ]
+    },
+    {
+      "claim": "On July 8, 2019 the U.S. Attorney's Office for the Southern District of New York announced that Jeffrey Epstein had been arrested and charged, under a grand jury indictment returned July 2, 2019, with one count of sex trafficking of minors and one count of conspiracy to commit sex trafficking of minors, covering alleged conduct in New York and Palm Beach between 2002 and 2005. The Justice Department's Office of the Inspector General later issued a report on the Bureau of Prisons' custody of Epstein at the Metropolitan Correctional Center.",
+      "status": "documented",
+      "date": "2019-07-08",
+      "quote": "Geoffrey S. Berman, the United States Attorney for the Southern District of New York, William F. Sweeney Jr., the Assistant Director in Charge of the New York Field Office of the FBI, and James P. O'Neill, Commissioner of the NYPD, announced that JEFFREY EPSTEIN was arrested",
+      "sources": [
+        { "url": "https://www.justice.gov/usao-sdny/pr/jeffrey-epstein-charged-manhattan-federal-court-sex-trafficking-minors", "publisher": "U.S. Attorney's Office, Southern District of New York", "title": "Jeffrey Epstein Charged In Manhattan Federal Court With Sex Trafficking Of Minors", "date": "2019-07-08" },
+        { "url": "https://oig.justice.gov/news/doj-oig-releases-report-bops-custody-care-and-supervision-jeffrey-epstein-metropolitan", "publisher": "U.S. Department of Justice, Office of the Inspector General", "title": "DOJ OIG Releases Report on the BOP's Custody, Care, and Supervision of Jeffrey Epstein at the Metropolitan Correctional Center in New York, New York", "date": "2023-06-27" }
+      ]
+    },
+    {
+      "claim": "The Justice Department investigated Deutsche Bank's offsetting Moscow-London equity trades (the 'mirror trades'). Deutsche Bank's Form 20-F for fiscal 2020 described the DOJ investigation as ongoing; CNN reported in November 2017 that the probe had gone quiet, and BuzzFeed News reported in September 2020 that no one at the bank had been charged.",
+      "status": "documented",
+      "date": "2021-03-12",
+      "quote": "state and federal law enforcement authorities have never charged anyone at Deutsche in relation to the mirror trades",
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/1159508/000115950821000008/db2021031220f.htm", "publisher": "U.S. Securities and Exchange Commission (Deutsche Bank AG Form 20-F for fiscal 2020)", "title": "Deutsche Bank Aktiengesellschaft Annual Report on Form 20-F for fiscal 2020", "date": "2021-03-12" },
+        { "url": "https://www.cnn.com/2017/11/15/politics/justice-department-investigation-russian-laundering-deutsche-bank/index.html", "publisher": "CNN", "title": "DOJ probe on Russian trades through Deutsche Bank quiet", "date": "2017-11-15" },
+        { "url": "https://www.buzzfeednews.com/article/tomwarren/deutsche-bank-money-laundering-mirror-trades", "publisher": "BuzzFeed News", "title": "#FinCENFiles: How Deutsche Bank Let Crooked Clients Run Rampant", "date": "2020-09" }
+      ]
+    },
+    {
+      "claim": "The Justice Department reviewed Senator Richard Burr's early-2020 stock sales, including an FBI seizure of his cellphone under a search warrant in May 2020, and informed him in January 2021 that it had concluded the review without bringing charges.",
+      "status": "reported",
+      "date": "2021-01-19",
+      "quote": "the Department of Justice informed him that it has concluded its review of his personal financial transactions conducted early last year. The case is now closed.",
+      "sources": [
+        { "url": "https://www.npr.org/2021/01/19/958622574/doj-drops-insider-trading-investigation-into-sen-richard-burr", "publisher": "NPR", "title": "DOJ Drops Insider Trading Investigation Into Sen. Richard Burr", "date": "2021-01-19" },
+        { "url": "https://www.cnbc.com/2020/05/14/fbi-seizes-sen-richard-burrs-phone-in-coronavirus-stock-sales-probe.html", "publisher": "CNBC", "title": "FBI seizes Senate Intel chairman Richard Burr's cellphone amid probe of coronavirus stock sales", "date": "2020-05-14" }
+      ]
+    },
+    {
+      "claim": "The Department of Justice and state attorneys general sued Google over search distribution and over advertising technology; courts found Google liable in both cases (August 2024 and April 2025), and the search case is on cross-appeal.",
+      "status": "court",
+      "date": "2024-08",
+      "quote": "Google is appealing both liability and remedies.",
+      "sources": [
+        { "url": "https://www.congress.gov/crs_external_products/LSB/HTML/LSB11362.html", "publisher": "Congressional Research Service", "title": "United States v. Google: the search remedies decision" },
+        { "url": "https://www.stblaw.com/about-us/publications/view/2025/04/25/district-court-rules-google-is-a-monopolist-in-ad-tech", "publisher": "Simpson Thacher & Bartlett", "title": "District Court Rules Google Is a Monopolist in Ad Tech", "date": "2025-04-25" }
+      ]
+    },
+    {
+      "claim": "The Department of Justice resolved its Foreign Corrupt Practices Act investigation of Halliburton with a non-prosecution agreement in 2009, while KBR LLC pleaded guilty; Halliburton paid $382 million of the criminal penalty under its indemnity of KBR.",
+      "status": "court",
+      "date": "2009-02",
+      "quote": "The DOJ investigation was resolved with respect to Halliburton with a non-prosecution agreement",
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/0000045012/000004501209000201/edmarch200910q_final.htm", "publisher": "U.S. Securities and Exchange Commission (Halliburton Company filing)", "title": "Halliburton Company Form 10-Q, first quarter 2009", "date": "2009-04" }
+      ]
+    }
+  ],
+  "connections": [
+    { "to": "bank-of-new-york", "toName": "Bank of New York", "toType": "company", "relation": "settled with", "claim": "The U.S. Attorneys' Offices for the Eastern and Southern Districts of New York entered a non-prosecution agreement with the Bank of New York on November 8, 2005 under which the bank paid $38 million in penalties and victim compensation.", "status": "court", "date": "2005-11-08", "quote": "the Bank of New York (\"BNY\") has agreed to pay $38 million in penalties and victim compensation", "sources": [ { "url": "https://www.justice.gov/archive/usao/nye/pr/2005/2005nov08.html", "publisher": "U.S. Department of Justice, U.S. Attorney's Office for the Eastern District of New York", "title": "The Bank of New York Resolves Parallel Criminal Investigations", "date": "2005-11-08" } ] },
+    { "to": "harvard-hiid", "toName": "Harvard Institute for International Development", "toType": "organization", "relation": "sued", "claim": "The Department of Justice sued Harvard University over the HIID Russia project in September 2000; the court found Harvard liable for breach of its USAID contract in 2004 and Harvard paid $26.5 million in a 2005 settlement without admitting liability.", "status": "court", "date": "2005-08-03", "quote": "The University did not admit any liability but agreed to pay the full $26.5 million shortly after signing.", "sources": [ { "url": "https://www.thecrimson.com/article/2005/8/5/harvard-settles-suit-for-265-m/", "publisher": "The Harvard Crimson", "title": "Harvard Settles Suit For $26.5 M", "date": "2005-08-05" }, { "url": "https://www.courtlistener.com/opinion/2492903/united-states-v-president-and-fellows-of-harvard-college/", "publisher": "U.S. District Court for the District of Massachusetts (via CourtListener)", "title": "United States v. President and Fellows of Harvard College", "date": "2004" } ] },
+    { "to": "andrei-shleifer", "toName": "Andrei Shleifer", "toType": "person", "relation": "sued", "claim": "The Department of Justice sued Andrei Shleifer in September 2000; the court found him liable under the False Claims Act in 2004 and he paid $2 million in the 2005 settlement.", "status": "court", "date": "2005-08-03", "quote": "Harvard agreed to pay the U.S. government $26.5 million, Shleifer $2 million, and Hay between $1 million and $2 million", "sources": [ { "url": "https://www.thecrimson.com/article/2005/8/5/harvard-settles-suit-for-265-m/", "publisher": "The Harvard Crimson", "title": "Harvard Settles Suit For $26.5 M", "date": "2005-08-05" } ] },
+    { "to": "jonathan-hay", "toName": "Jonathan Hay", "toType": "person", "relation": "sued", "claim": "The Department of Justice sued Jonathan Hay in September 2000; the court found him liable under the False Claims Act in 2004 and he agreed in 2005 to pay between $1 million and $2 million depending on his earnings.", "status": "court", "date": "2005-08-03", "quote": "Hay between $1 million and $2 million, depending on his earnings over the next decade", "sources": [ { "url": "https://www.thecrimson.com/article/2005/8/5/harvard-settles-suit-for-265-m/", "publisher": "The Harvard Crimson", "title": "Harvard Settles Suit For $26.5 M", "date": "2005-08-05" } ] },
+    { "to": "binance", "toName": "Binance", "toType": "company", "relation": "settled with", "claim": "Binance Holdings Limited pleaded guilty to federal charges on November 21, 2023 and agreed to a total financial penalty of $4,316,126,163 with a three-year compliance monitor.", "status": "court", "date": "2023-11-21", "quote": "for a total financial penalty of $4,316,126,163", "sources": [ { "url": "https://www.justice.gov/archives/opa/pr/binance-and-ceo-plead-guilty-federal-charges-4b-resolution", "publisher": "U.S. Department of Justice, Office of Public Affairs", "title": "Binance and CEO Plead Guilty to Federal Charges in $4B Resolution", "date": "2023-11-21" } ] },
+    { "to": "changpeng-zhao", "toName": "Changpeng Zhao", "toType": "person", "relation": "settled with", "claim": "Changpeng Zhao pleaded guilty on November 21, 2023 to a Bank Secrecy Act violation in the Western District of Washington.", "status": "court", "date": "2023-11-21", "quote": "Changpeng Zhao, pleaded guilty on November 21, 2023, to a BSA violation", "sources": [ { "url": "https://www.justice.gov/criminal/case/united-states-v-changpeng-zhao", "publisher": "U.S. Department of Justice, Criminal Division", "title": "United States v. Changpeng Zhao" } ] },
+    { "to": "jeffrey-epstein", "toName": "Jeffrey Epstein", "toType": "person", "relation": "investigated", "claim": "The U.S. Attorney's Office for the Southern District of New York charged Epstein under a July 2, 2019 indictment with sex trafficking of minors and conspiracy; he was arrested and the charges were announced on July 8, 2019.", "status": "documented", "date": "2019-07-08", "quote": "A federal grand jury indictment charged Epstein with one count of sex trafficking of minors and one count of conspiracy to commit sex trafficking of minors", "sources": [ { "url": "https://www.justice.gov/usao-sdny/pr/jeffrey-epstein-charged-manhattan-federal-court-sex-trafficking-minors", "publisher": "U.S. Attorney's Office, Southern District of New York", "title": "Jeffrey Epstein Charged In Manhattan Federal Court With Sex Trafficking Of Minors", "date": "2019-07-08" } ] },
+    { "to": "deutsche-bank", "toName": "Deutsche Bank", "toType": "bank", "relation": "investigated", "claim": "The Department of Justice investigated Deutsche Bank's Russian mirror trades; the bank's 2020 Form 20-F described the investigation as ongoing and no individual at the bank was charged, per BuzzFeed News.", "status": "documented", "date": "2021-03-12", "quote": "state and federal law enforcement authorities have never charged anyone at Deutsche in relation to the mirror trades", "sources": [ { "url": "https://www.sec.gov/Archives/edgar/data/1159508/000115950821000008/db2021031220f.htm", "publisher": "U.S. Securities and Exchange Commission (Deutsche Bank AG Form 20-F for fiscal 2020)", "title": "Deutsche Bank Aktiengesellschaft Annual Report on Form 20-F for fiscal 2020", "date": "2021-03-12" }, { "url": "https://www.buzzfeednews.com/article/tomwarren/deutsche-bank-money-laundering-mirror-trades", "publisher": "BuzzFeed News", "title": "#FinCENFiles: How Deutsche Bank Let Crooked Clients Run Rampant", "date": "2020-09" } ] },
+    { "to": "richard-burr", "toName": "Richard Burr", "toType": "person", "relation": "investigated", "claim": "The Department of Justice reviewed Senator Burr's early-2020 stock sales and closed the matter without charges in January 2021.", "status": "reported", "date": "2021-01-19", "quote": "The case is now closed.", "sources": [ { "url": "https://www.npr.org/2021/01/19/958622574/doj-drops-insider-trading-investigation-into-sen-richard-burr", "publisher": "NPR", "title": "DOJ Drops Insider Trading Investigation Into Sen. Richard Burr", "date": "2021-01-19" } ] },
+    { "to": "google", "toName": "Google", "toType": "company", "relation": "sued", "claim": "The Department of Justice sued Google over search distribution and advertising technology; courts found Google liable in both cases and the search case is on cross-appeal.", "status": "court", "date": "2024-08", "quote": "Google is appealing both liability and remedies.", "sources": [ { "url": "https://www.congress.gov/crs_external_products/LSB/HTML/LSB11362.html", "publisher": "Congressional Research Service", "title": "United States v. Google: the search remedies decision" } ] },
+    { "to": "halliburton", "toName": "Halliburton", "toType": "company", "relation": "settled with", "claim": "The Department of Justice resolved its FCPA investigation of Halliburton with a 2009 non-prosecution agreement.", "status": "court", "date": "2009-02", "quote": "The DOJ investigation was resolved with respect to Halliburton with a non-prosecution agreement", "sources": [ { "url": "https://www.sec.gov/Archives/edgar/data/0000045012/000004501209000201/edmarch200910q_final.htm", "publisher": "U.S. Securities and Exchange Commission (Halliburton Company filing)", "title": "Halliburton Company Form 10-Q, first quarter 2009", "date": "2009-04" } ] },
+    { "to": "philip-morris", "toName": "Philip Morris", "toType": "company", "relation": "sued", "claim": "The United States sued Philip Morris and other cigarette makers under civil RICO; in 2006 the district court found the defendants liable and ordered corrective statements.", "status": "court", "date": "2006-08-17", "quote": "After a nine-month bench trial, Judge Kessler found in 2006 that the defendants had violated RICO", "sources": [ { "url": "https://www.courtlistener.com/opinion/9407497/united-states-v-philip-morris-usa/", "publisher": "CourtListener (U.S. District Court for D.C.)", "title": "United States v. Philip Morris USA", "date": "2006-08-17" } ] }
+  ],
+  "openQuestions": [
+    "The 2005 Harvard settlement press release from the Civil Division or the District of Massachusetts was not located on justice.gov; the settlement terms here rest on the Crimson and Chronicle reports and the 2004 district court opinion.",
+    "No DOJ statement on the Deutsche Bank mirror-trades investigation was found; its status is known only from the bank's filings and press reports."
+  ]
+}

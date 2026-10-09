@@ -1,0 +1,56 @@
+{
+  "entity": "new-york-department-of-financial-services",
+  "name": "New York Department of Financial Services",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The New York State Department of Financial Services was created in 2011 under the Financial Services Law by merging the state's Banking and Insurance Departments, which were abolished on October 3, 2011. Its website says it regulates more than 3,000 financial institutions with nearly $10 trillion in assets, including more than 1,900 insurers and more than 1,300 banks and other financial institutions such as credit unions, money services businesses and student loan servicers. On this site it appears through its two consent orders with Deutsche Bank: the $425 million penalty of January 30, 2017 over the Russian mirror-trading scheme and the $150 million penalty of July 7, 2020 over the bank's relationships with Jeffrey Epstein, Danske Estonia and FBME Bank.",
+    "sources": [
+      { "url": "https://www.dfs.ny.gov/About_Us", "publisher": "New York State Department of Financial Services", "title": "About Us" },
+      { "url": "https://www.dfs.ny.gov/reports_and_publications/press_releases/st20111003", "publisher": "New York State Department of Financial Services", "title": "Superintendent Lawsky Announces Launch of New Department of Financial Services", "date": "2011-10-03" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "DFS began operations on October 3, 2011, when the former Banking and Insurance Departments were abolished and their functions transferred to the new department under the Financial Services Law.",
+      "status": "documented",
+      "date": "2011-10-03",
+      "quote": "Superintendent Lawsky Announces Launch of New Department of Financial Services",
+      "sources": [
+        { "url": "https://www.dfs.ny.gov/reports_and_publications/press_releases/st20111003", "publisher": "New York State Department of Financial Services", "title": "Superintendent Lawsky Announces Launch of New Department of Financial Services", "date": "2011-10-03" },
+        { "url": "https://www.dfs.ny.gov/About_Us", "publisher": "New York State Department of Financial Services", "title": "About Us" }
+      ]
+    },
+    {
+      "claim": "On January 30, 2017 DFS fined Deutsche Bank $425 million under a consent order over a 'mirror trading' scheme that moved $10 billion out of Russia, and required the bank to engage an independent monitor.",
+      "status": "court",
+      "date": "2017-01-30",
+      "quote": "The bank allowed traders to engage in a money-laundering scheme using \"mirror trades\" that improperly shifted $10 billion out of Russia.",
+      "sources": [
+        { "url": "https://www.dfs.ny.gov/reports_and_publications/press_releases/pr1701301", "publisher": "New York State Department of Financial Services", "title": "DFS Fines Deutsche Bank $425 Million for Russian Mirror-Trading Scheme", "date": "2017-01-30" }
+      ]
+    },
+    {
+      "claim": "On July 7, 2020 DFS announced a $150 million penalty on Deutsche Bank AG, its New York branch and Deutsche Bank Trust Company America under a consent order concerning the bank's relationship with Jeffrey Epstein and its correspondent relationships with Danske Bank Estonia and FBME Bank.",
+      "status": "court",
+      "date": "2020-07-07",
+      "quote": "Deutsche Bank AG, its New York branch, and Deutsche Bank Trust Company America (collectively \"Deutsche Bank\" or the \"Bank\") have agreed to pay $150 million in penalties",
+      "sources": [
+        { "url": "https://www.dfs.ny.gov/reports_and_publications/press_releases/pr202007071", "publisher": "New York State Department of Financial Services", "title": "Superintendent Lacewell Announces DFS Imposes $150 Million Penalty on Deutsche Bank in Connection with Bank's Relationship with Jeffrey Epstein and Correspondent Relationships with Danske Estonia And FBME Bank", "date": "2020-07-07" }
+      ]
+    },
+    {
+      "claim": "Kaitlin Asrow was appointed Acting Superintendent of DFS by Governor Kathy Hochul effective October 18, 2025.",
+      "status": "documented",
+      "date": "2025-10-18",
+      "quote": "Kaitlin Asrow was appointed Acting Superintendent of DFS by Governor Kathy Hochul effective October 18, 2025.",
+      "sources": [
+        { "url": "https://www.dfs.ny.gov/node/11321", "publisher": "New York State Department of Financial Services", "title": "Mission & Leadership" }
+      ]
+    }
+  ],
+  "connections": [
+    { "to": "deutsche-bank", "toName": "Deutsche Bank", "toType": "bank", "relation": "regulated", "claim": "DFS imposed a $425 million penalty on Deutsche Bank on January 30, 2017 over the Russian mirror-trading scheme and a $150 million penalty on July 7, 2020 over its Epstein, Danske Estonia and FBME relationships, each under a consent order.", "status": "court", "date": "2020-07-07", "quote": "have agreed to pay $150 million in penalties", "sources": [ { "url": "https://www.dfs.ny.gov/reports_and_publications/press_releases/pr1701301", "publisher": "New York State Department of Financial Services", "title": "DFS Fines Deutsche Bank $425 Million for Russian Mirror-Trading Scheme", "date": "2017-01-30" }, { "url": "https://www.dfs.ny.gov/reports_and_publications/press_releases/pr202007071", "publisher": "New York State Department of Financial Services", "title": "Superintendent Lacewell Announces DFS Imposes $150 Million Penalty on Deutsche Bank in Connection with Bank's Relationship with Jeffrey Epstein and Correspondent Relationships with Danske Estonia And FBME Bank", "date": "2020-07-07" } ] },
+    { "to": "jeffrey-epstein", "toName": "Jeffrey Epstein", "toType": "person", "relation": "other", "claim": "DFS's July 2020 consent order with Deutsche Bank concerned the bank's handling of its relationship with Jeffrey Epstein.", "status": "court", "date": "2020-07-07", "quote": "in Connection with Bank's Relationship with Jeffrey Epstein", "sources": [ { "url": "https://www.dfs.ny.gov/reports_and_publications/press_releases/pr202007071", "publisher": "New York State Department of Financial Services", "title": "Superintendent Lacewell Announces DFS Imposes $150 Million Penalty on Deutsche Bank in Connection with Bank's Relationship with Jeffrey Epstein and Correspondent Relationships with Danske Estonia And FBME Bank", "date": "2020-07-07" } ] }
+  ],
+  "openQuestions": []
+}

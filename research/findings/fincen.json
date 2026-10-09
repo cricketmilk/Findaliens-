@@ -1,0 +1,71 @@
+{
+  "entity": "fincen",
+  "name": "FinCEN",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The Financial Crimes Enforcement Network is a bureau of the U.S. Department of the Treasury. Its website says its mission is to safeguard the financial system from illicit activity, counter money laundering and the financing of terrorism, and promote national security through strategic use of financial authorities and the collection, analysis and dissemination of financial intelligence, and that its responsibilities flow from its role as administrator of the Bank Secrecy Act. It relies on other federal agencies, including the IRS for casinos and money services businesses, to conduct compliance examinations, and it can assess civil money penalties for negligent or willful violations. On this site FinCEN appears through its penalties against the Trump Taj Mahal (1998 and 2015), Riggs Bank (2004) and Binance (2023).",
+    "sources": [
+      { "url": "https://www.fincen.gov/what-we-do", "publisher": "FinCEN", "title": "About FinCEN: What We Do" },
+      { "url": "https://www.fincen.gov/history-anti-money-laundering-laws", "publisher": "FinCEN", "title": "History of Anti-Money Laundering Laws" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "FinCEN announced a civil money penalty against Trump Taj Mahal Associates in 1998 for currency transaction reporting violations.",
+      "status": "court",
+      "date": "1998",
+      "quote": "FinCEN Announces Penalty Against Trump Taj Mahal Associates",
+      "sources": [
+        { "url": "https://www.fincen.gov/news/news-releases/fincen-announces-penalty-against-trump-taj-mahal-associates", "publisher": "FinCEN", "title": "FinCEN Announces Penalty Against Trump Taj Mahal Associates", "date": "1998" }
+      ]
+    },
+    {
+      "claim": "On May 13, 2004 FinCEN assessed a $25 million civil money penalty against Riggs Bank N.A. for willful violations of the Bank Secrecy Act's anti-money-laundering program, suspicious activity report and currency transaction report requirements, concurrent with the Office of the Comptroller of the Currency's penalty.",
+      "status": "court",
+      "date": "2004-05-13",
+      "quote": "FinCEN has determined that the appropriate penalty amount in this matter is $25 million.",
+      "sources": [
+        { "url": "https://www.fincen.gov/system/files/enforcement_action/riggsassessment3.pdf", "publisher": "FinCEN", "title": "Assessment of Civil Money Penalty No. 2004-01, Riggs Bank N.A.", "date": "2004-05-13" },
+        { "url": "https://www.fincen.gov/news/news-releases/fincen-assesses-25-million-civil-money-penalty-against-riggs-bank-na", "publisher": "FinCEN", "title": "FinCEN Assesses $25 Million Civil Money Penalty Against Riggs Bank N.A.", "date": "2004-05-13" }
+      ]
+    },
+    {
+      "claim": "On March 6, 2015 FinCEN announced a $10 million civil money penalty against the Trump Taj Mahal Casino Resort for willful and repeated violations of the Bank Secrecy Act, under an assessment approved by the bankruptcy court.",
+      "status": "court",
+      "date": "2015-03-06",
+      "quote": "FinCEN Fines Trump Taj Mahal Casino Resort $10 Million for Significant and Long Standing Anti-Money Laundering Violations",
+      "sources": [
+        { "url": "https://www.fincen.gov/news/news-releases/fincen-fines-trump-taj-mahal-casino-resort-10-million-significant-and-long", "publisher": "FinCEN", "title": "FinCEN Fines Trump Taj Mahal Casino Resort $10 Million for Significant and Long Standing Anti-Money Laundering Violations", "date": "2015-03-06" },
+        { "url": "https://www.fincen.gov/system/files/shared/20150302%20Assessment%20of%20Civil%20Money%20Penalty%20Trump%20Taj%20Mahal%20(post-approval%20by%20bankruptcy%20court).pdf", "publisher": "FinCEN", "title": "Assessment of Civil Money Penalty: Trump Taj Mahal Casino Resort (post-approval by bankruptcy court)", "date": "2015-03-02" }
+      ]
+    },
+    {
+      "claim": "On November 21, 2023 FinCEN issued Consent Order 2023-04 assessing a $3.4 billion civil money penalty against Binance Holdings Limited and affiliates, with a five-year monitorship overseen by FinCEN and a $150 million suspended penalty collectable if Binance fails its compliance undertakings. Binance admitted that it willfully violated the Bank Secrecy Act.",
+      "status": "court",
+      "date": "2023-11-21",
+      "quote": "FinCEN's consent order assesses a civil money penalty of $3.4 billion, imposes a multi-faceted five-year monitorship overseen by FinCEN, and requires significant compliance undertakings.",
+      "sources": [
+        { "url": "https://www.fincen.gov/news/news-releases/fincen-announces-largest-settlement-us-treasury-department-history-virtual-asset", "publisher": "FinCEN", "title": "FinCEN Announces Largest Settlement in U.S. Treasury Department History with Virtual Asset Exchange Binance for Violations of U.S. Anti-Money Laundering Laws", "date": "2023-11-21" },
+        { "url": "https://www.fincen.gov/system/files/enforcement_action/2023-11-21/FinCEN_Consent_Order_2023-04_FINAL508.pdf", "publisher": "FinCEN", "title": "FinCEN Consent Order Number 2023-04 (Binance Holdings Limited et al.)", "date": "2023-11-21" }
+      ]
+    },
+    {
+      "claim": "In April 2026 FinCEN and OFAC jointly proposed a rule implementing the GENIUS Act's anti-money-laundering and sanctions compliance requirements for permitted payment stablecoin issuers.",
+      "status": "documented",
+      "date": "2026-04-08",
+      "quote": "The proposed rule would subject PPSIs to requirements applicable to financial institutions relating to prevention of money laundering and impose obligations specified in the GENIUS Act.",
+      "sources": [
+        { "url": "https://home.treasury.gov/news/press-releases/sb0435", "publisher": "U.S. Department of the Treasury", "title": "Treasury Proposes Rule to Implement the GENIUS Act's Requirements to Counter Illicit Finance", "date": "2026-04-08" }
+      ]
+    }
+  ],
+  "connections": [
+    { "to": "u-s-department-of-the-treasury", "toName": "U.S. Department of the Treasury", "toType": "government", "relation": "subsidiary of", "claim": "FinCEN is a bureau of the U.S. Department of the Treasury.", "status": "documented", "date": "2026", "quote": "FinCEN is a bureau of the U.S. Department of the Treasury.", "sources": [ { "url": "https://www.fincen.gov/what-we-do", "publisher": "FinCEN", "title": "About FinCEN: What We Do" } ] },
+    { "to": "riggs-bank", "toName": "Riggs Bank", "toType": "bank", "relation": "regulated", "claim": "FinCEN assessed a $25 million civil money penalty against Riggs Bank N.A. on May 13, 2004 for willful Bank Secrecy Act violations.", "status": "court", "date": "2004-05-13", "quote": "FinCEN has determined that the appropriate penalty amount in this matter is $25 million.", "sources": [ { "url": "https://www.fincen.gov/system/files/enforcement_action/riggsassessment3.pdf", "publisher": "FinCEN", "title": "Assessment of Civil Money Penalty No. 2004-01, Riggs Bank N.A.", "date": "2004-05-13" } ] },
+    { "to": "trump-taj-mahal", "toName": "Trump Taj Mahal", "toType": "company", "relation": "regulated", "claim": "FinCEN penalized Trump Taj Mahal Associates in 1998 for currency transaction reporting violations and assessed a $10 million civil money penalty against the Trump Taj Mahal Casino Resort in 2015 for willful Bank Secrecy Act violations.", "status": "court", "date": "2015-03-06", "quote": "FinCEN Fines Trump Taj Mahal Casino Resort $10 Million for Significant and Long Standing Anti-Money Laundering Violations", "sources": [ { "url": "https://www.fincen.gov/news/news-releases/fincen-fines-trump-taj-mahal-casino-resort-10-million-significant-and-long", "publisher": "FinCEN", "title": "FinCEN Fines Trump Taj Mahal Casino Resort $10 Million for Significant and Long Standing Anti-Money Laundering Violations", "date": "2015-03-06" }, { "url": "https://www.fincen.gov/news/news-releases/fincen-announces-penalty-against-trump-taj-mahal-associates", "publisher": "FinCEN", "title": "FinCEN Announces Penalty Against Trump Taj Mahal Associates", "date": "1998" } ] },
+    { "to": "binance", "toName": "Binance", "toType": "company", "relation": "settled with", "claim": "FinCEN's Consent Order 2023-04 assessed a $3.4 billion civil money penalty against Binance and imposed a five-year monitorship.", "status": "court", "date": "2023-11-21", "quote": "FinCEN's consent order assesses a civil money penalty of $3.4 billion", "sources": [ { "url": "https://www.fincen.gov/news/news-releases/fincen-announces-largest-settlement-us-treasury-department-history-virtual-asset", "publisher": "FinCEN", "title": "FinCEN Announces Largest Settlement in U.S. Treasury Department History with Virtual Asset Exchange Binance for Violations of U.S. Anti-Money Laundering Laws", "date": "2023-11-21" } ] }
+  ],
+  "openQuestions": [
+    "The 1998 Trump Taj Mahal penalty amount is not stated in the search result; the owner should confirm it on the FinCEN release."
+  ]
+}

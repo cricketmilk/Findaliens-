@@ -1,0 +1,71 @@
+{
+  "entity": "nsa",
+  "name": "NSA",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The National Security Agency/Central Security Service describes itself as the U.S. Government's leader in cryptology, encompassing foreign signals intelligence (SIGINT) and cybersecurity, and as a combat support agency of the Department of War (formerly Defense). Its website says its SIGINT mission is limited to gathering information about international terrorists and foreign powers, organizations or persons, under authorities including Executive Order 12333 and Section 702 of the Foreign Intelligence Surveillance Act, with oversight from Congress and the courts. On this site it appears through press reports that components of DARPA's Total Information Awareness programme were transferred to the NSA-affiliated Advanced Research and Development Activity after Congress defunded TIA, and through its August 2013 public account of the Section 215 and Section 702 programmes after the Snowden disclosures.",
+    "sources": [
+      { "url": "https://www.nsa.gov/about/", "publisher": "National Security Agency", "title": "About NSA" },
+      { "url": "https://www.nsa.gov/Signals-Intelligence/Overview/", "publisher": "National Security Agency", "title": "Signals Intelligence: Overview" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "NSA's website states that its SIGINT mission is specifically limited to gathering information about international terrorists and foreign powers, organizations or persons, and that it provides foreign signals intelligence to U.S. policy-makers and military forces.",
+      "status": "documented",
+      "date": "2026",
+      "quote": "Our SIGINT mission is specifically limited to gathering information about international terrorists and foreign powers, organizations, or persons.",
+      "sources": [
+        { "url": "https://www.nsa.gov/Signals-Intelligence/Overview/", "publisher": "National Security Agency", "title": "Signals Intelligence: Overview" },
+        { "url": "https://www.nsa.gov/Culture/Operating-Authorities/Authorities/", "publisher": "National Security Agency", "title": "Operating Authorities" }
+      ]
+    },
+    {
+      "claim": "On August 9, 2013 NSA published 'The National Security Agency: Missions, Authorities, Oversight and Partnerships', which stated that under Section 702 of FISA the Attorney General and Director of National Intelligence certify targeting to the FISA Court and may jointly authorize targeting of non-U.S. persons reasonably believed to be outside the United States for up to a year, with court-approved minimization procedures governing incidentally collected U.S.-person communications.",
+      "status": "documented",
+      "date": "2013-08-09",
+      "quote": "the Attorney General and Director of National Intelligence certify to the FISA Court",
+      "sources": [
+        { "url": "https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/1618729/the-national-security-agency-missions-authorities-oversight-and-partnerships/", "publisher": "National Security Agency", "title": "The National Security Agency: Missions, Authorities, Oversight and Partnerships", "date": "2013-08-09" }
+      ]
+    },
+    {
+      "claim": "The same August 2013 NSA document described the Section 215 'Business Records FISA' programme, first approved by the FISC in 2006, under which specified U.S. carriers were ordered to provide NSA metadata about telephone calls; NSA said queries could be run only for counterterrorism from an approved identifier meeting a 'reasonable, articulable suspicion' standard, and that the programme had been reauthorized under two administrations, four Congresses and 14 federal judges.",
+      "status": "documented",
+      "date": "2013-08-09",
+      "quote": "reasonable, articulable suspicion",
+      "sources": [
+        { "url": "https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/1618729/the-national-security-agency-missions-authorities-oversight-and-partnerships/", "publisher": "National Security Agency", "title": "The National Security Agency: Missions, Authorities, Oversight and Partnerships", "date": "2013-08-09" }
+      ]
+    },
+    {
+      "claim": "In February 2006 the National Journal reported, and Salon and MIT Technology Review followed, that after Congress defunded DARPA's Total Information Awareness programme its research was moved to the Advanced Research and Development Activity, which builds technologies primarily for the NSA: the Information Awareness Prototype System was renamed 'Basketball' and continued under SAIC, and Genoa II was renamed 'Topsail', for which SAIC signed a $3.7 million contract in October 2005. Whether TIA technologies were used in NSA surveillance programmes was not established.",
+      "status": "reported",
+      "date": "2006-02",
+      "quote": "The National Journal reports that TIA was moved from the Pentagon's research-and-development agency–known by its acronym DARPA–to another group, which builds technologies primarily for the NSA.",
+      "sources": [
+        { "url": "https://www.salon.com/2006/02/24/tia_4/", "publisher": "Salon", "title": "The names have been changed to protect the guilty", "date": "2006-02-24" },
+        { "url": "https://www.technologyreview.com/2006/04/26/229286/the-total-information-awareness-project-lives-on/", "publisher": "MIT Technology Review", "title": "The Total Information Awareness Project Lives On", "date": "2006-04-26" }
+      ]
+    },
+    {
+      "claim": "NSA's website describes its cybersecurity mission as preventing and eradicating threats to U.S. national security systems with a focus on the Defense Industrial Base, working through its Cybersecurity Collaboration Center with industry, allies and researchers.",
+      "status": "documented",
+      "date": "2026",
+      "quote": "NSA Cybersecurity prevents and eradicates threats to U.S. national security systems with a focus on the Defense Industrial Base and the improvement of our weapons' security.",
+      "sources": [
+        { "url": "https://www.nsa.gov/about/", "publisher": "National Security Agency", "title": "About NSA" },
+        { "url": "https://www.nsa.gov/About/Mission-Combat-Support/", "publisher": "National Security Agency", "title": "Mission and Combat Support" }
+      ]
+    }
+  ],
+  "connections": [
+    { "to": "darpa", "toName": "DARPA", "toType": "government", "relation": "other", "claim": "Press reports in 2006 said components of DARPA's Total Information Awareness programme were transferred to the Advanced Research and Development Activity, which builds technologies primarily for the NSA, under the names Basketball and Topsail.", "status": "reported", "date": "2006-02", "quote": "TIA was moved from the Pentagon's research-and-development agency–known by its acronym DARPA–to another group, which builds technologies primarily for the NSA", "sources": [ { "url": "https://www.salon.com/2006/02/24/tia_4/", "publisher": "Salon", "title": "The names have been changed to protect the guilty", "date": "2006-02-24" }, { "url": "https://www.technologyreview.com/2006/04/26/229286/the-total-information-awareness-project-lives-on/", "publisher": "MIT Technology Review", "title": "The Total Information Awareness Project Lives On", "date": "2006-04-26" } ] },
+    { "to": "office-of-the-director-of-national-intelligence", "toName": "Office of the Director of National Intelligence", "toType": "government", "relation": "other", "claim": "Under Section 702 of FISA, the Director of National Intelligence and the Attorney General jointly certify NSA's targeting to the FISA Court, according to NSA's 2013 account.", "status": "documented", "date": "2013-08-09", "quote": "the Attorney General and Director of National Intelligence certify to the FISA Court", "sources": [ { "url": "https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/1618729/the-national-security-agency-missions-authorities-oversight-and-partnerships/", "publisher": "National Security Agency", "title": "The National Security Agency: Missions, Authorities, Oversight and Partnerships", "date": "2013-08-09" } ] },
+    { "to": "pentagon", "toName": "Pentagon", "toType": "government", "relation": "subsidiary of", "claim": "NSA describes itself as a combat support agency within the Department of War.", "status": "documented", "date": "2026", "quote": "NSA is part of the U.S. Department of War, serving as a combat support agency.", "sources": [ { "url": "https://www.nsa.gov/About/Mission-Combat-Support/", "publisher": "National Security Agency", "title": "Mission and Combat Support" } ] }
+  ],
+  "openQuestions": [
+    "The original National Journal (Shane Harris, February 2006) article on the TIA transfer was not located; the claim rests on Salon's and Technology Review's accounts of it.",
+    "No official NSA or ODNI record confirming the TIA-to-ARDA transfer was found; the owner may wish to check the DoD Inspector General and CRS RL31786 already cited in the darpa file."
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "entity": "senate-finance-committee",
+  "name": "Senate Finance Committee",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The U.S. Senate Committee on Finance was established as a standing committee on December 10, 1816. Its website says its jurisdiction, derived from Rule XXV of the Standing Rules of the Senate, is defined by subject matter rather than by agency, covering taxation and revenue measures, bonded debt, customs and trade, Social Security, Medicare and Medicaid, among other areas. On this site it appears through its chairman's and ranking member's inquiries into Kushner Companies' 666 Fifth Avenue transaction and U.S. policy toward Qatar (opened December 2020) and into Leon Black's tax planning and payments to Jeffrey Epstein (opened July 2023, referred to the House Oversight Committee in June 2026).",
+    "sources": [
+      { "url": "https://www.finance.senate.gov/about/history", "publisher": "U.S. Senate Committee on Finance", "title": "History" },
+      { "url": "https://www.finance.senate.gov/about/jurisdiction", "publisher": "U.S. Senate Committee on Finance", "title": "Jurisdiction" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The Senate established the Committee on Finance as a standing committee on December 10, 1816; its tariff authority was settled by 1842, appropriations were moved to a separate committee in 1867 and banking and currency matters to a new committee in 1913.",
+      "status": "documented",
+      "date": "1816-12-10",
+      "quote": "The Senate adopted Senator Barbour's motion and on December 10, 1816, established the Committee on Finance as a standing committee of the Senate.",
+      "sources": [
+        { "url": "https://www.finance.senate.gov/about/history", "publisher": "U.S. Senate Committee on Finance", "title": "History" }
+      ]
+    },
+    {
+      "claim": "The committee's jurisdiction derives from Rule XXV of the Standing Rules of the Senate and is defined by subject matter rather than by agency or department.",
+      "status": "documented",
+      "date": "2026",
+      "quote": "The Finance Committee's jurisdiction, which derives from Rule XXV of the Standing Rules of the United States Senate, is defined by subject matter – not by agency or Department.",
+      "sources": [
+        { "url": "https://www.finance.senate.gov/about/jurisdiction", "publisher": "U.S. Senate Committee on Finance", "title": "Jurisdiction" }
+      ]
+    },
+    {
+      "claim": "On December 9, 2020 Senator Ron Wyden, then the committee's ranking member, and Representative Joaquin Castro launched an investigation into whether the Kushner Companies' 666 Fifth Avenue transaction influenced U.S. policy toward Qatar, seeking documents from Brookfield, the State Department and the Defense Department; Wyden continued the inquiry as chairman in October 2022, noting Brookfield had twice declined to provide the information.",
+      "status": "documented",
+      "date": "2020-12-09",
+      "quote": "Brookfield has twice declined to provide the Committee this information.",
+      "sources": [
+        { "url": "https://www.finance.senate.gov/ranking-members-news/wyden-castro-launch-investigation-into-kushner-conflicts-of-interest-influence-on-us-foreign-policy", "publisher": "U.S. Senate Committee on Finance", "title": "Wyden, Castro Launch Investigation Into Kushner Conflicts of Interest, Influence on U.S. Foreign Policy", "date": "2020-12-09" },
+        { "url": "https://www.finance.senate.gov/chairmans-news/wyden-continues-investigation-into-kushner-conflicts-of-interest-influence-on-us-foreign-policy", "publisher": "U.S. Senate Committee on Finance", "title": "Wyden Continues Investigation Into Kushner Conflicts of Interest, Influence on U.S. Foreign Policy", "date": "2022-10-13" }
+      ]
+    },
+    {
+      "claim": "On July 25, 2023 Chairman Wyden unveiled an ongoing committee investigation into Leon Black's tax planning and financial ties to Jeffrey Epstein, saying the trusts and structures Black used aimed to avoid over $1 billion in future gift and estate taxes.",
+      "status": "documented",
+      "date": "2023-07-25",
+      "quote": "Wyden unveiled the ongoing probe in July 2023, saying the trusts and structures Black used aimed to avoid over $1 billion in future gift and estate taxes.",
+      "sources": [
+        { "url": "https://www.finance.senate.gov/chairmans-news/wyden-unveils-ongoing-investigation-into-private-equity-billionaire-leon-blacks-tax-planning-and-financial-ties-with-jeffrey-epstein", "publisher": "U.S. Senate Committee on Finance", "title": "Wyden Unveils Ongoing Investigation into Private Equity Billionaire Leon Black's Tax Planning and Financial Ties with Jeffrey Epstein", "date": "2023-07-25" }
+      ]
+    },
+    {
+      "claim": "On June 4, 2026 Ranking Member Wyden referred the committee's findings on Leon Black's ties to Jeffrey Epstein, including $170 million in payments to Epstein between 2012 and 2017 described in a March 23, 2026 letter, to the House Oversight Committee.",
+      "status": "documented",
+      "date": "2026-06-04",
+      "quote": "Wyden Refers Findings on Leon Black's Epstein Ties to House Oversight Committee",
+      "sources": [
+        { "url": "https://www.finance.senate.gov/ranking-members-news/wyden-refers-findings-on-leon-blacks-epstein-ties-to-house-oversight-committee", "publisher": "U.S. Senate Committee on Finance (Ranking Member)", "title": "Wyden Refers Findings on Leon Black's Epstein Ties to House Oversight Committee", "date": "2026-06-04" }
+      ]
+    }
+  ],
+  "connections": [
+    { "to": "kushner-companies", "toName": "Kushner Companies", "toType": "company", "relation": "investigated", "claim": "The committee's ranking member and later chairman, Ron Wyden, investigated from December 2020 whether the 666 Fifth Avenue transaction influenced U.S. policy toward Qatar.", "status": "documented", "date": "2020-12-09", "quote": "Wyden, Castro Launch Investigation Into Kushner Conflicts of Interest, Influence on U.S. Foreign Policy", "sources": [ { "url": "https://www.finance.senate.gov/ranking-members-news/wyden-castro-launch-investigation-into-kushner-conflicts-of-interest-influence-on-us-foreign-policy", "publisher": "U.S. Senate Committee on Finance", "title": "Wyden, Castro Launch Investigation Into Kushner Conflicts of Interest, Influence on U.S. Foreign Policy", "date": "2020-12-09" } ] },
+    { "to": "leon-black", "toName": "Leon Black", "toType": "person", "relation": "investigated", "claim": "The committee opened an investigation into Black's tax planning and payments to Epstein in July 2023 and referred its findings to the House Oversight Committee in June 2026.", "status": "documented", "date": "2023-07-25", "quote": "Wyden Refers Findings on Leon Black's Epstein Ties to House Oversight Committee", "sources": [ { "url": "https://www.finance.senate.gov/chairmans-news/wyden-unveils-ongoing-investigation-into-private-equity-billionaire-leon-blacks-tax-planning-and-financial-ties-with-jeffrey-epstein", "publisher": "U.S. Senate Committee on Finance", "title": "Wyden Unveils Ongoing Investigation into Private Equity Billionaire Leon Black's Tax Planning and Financial Ties with Jeffrey Epstein", "date": "2023-07-25" }, { "url": "https://www.finance.senate.gov/ranking-members-news/wyden-refers-findings-on-leon-blacks-epstein-ties-to-house-oversight-committee", "publisher": "U.S. Senate Committee on Finance (Ranking Member)", "title": "Wyden Refers Findings on Leon Black's Epstein Ties to House Oversight Committee", "date": "2026-06-04" } ] },
+    { "to": "house-oversight-committee", "toName": "House Oversight Committee", "toType": "government", "relation": "other", "claim": "Ranking Member Wyden referred the committee's findings on Leon Black's Epstein ties to the House Oversight Committee on June 4, 2026.", "status": "documented", "date": "2026-06-04", "quote": "Wyden Refers Findings on Leon Black's Epstein Ties to House Oversight Committee", "sources": [ { "url": "https://www.finance.senate.gov/ranking-members-news/wyden-refers-findings-on-leon-blacks-epstein-ties-to-house-oversight-committee", "publisher": "U.S. Senate Committee on Finance (Ranking Member)", "title": "Wyden Refers Findings on Leon Black's Epstein Ties to House Oversight Committee", "date": "2026-06-04" } ] }
+  ],
+  "openQuestions": [
+    "The Kushner and Black inquiries were conducted by Senator Wyden as ranking member or chairman rather than by committee vote; the owner may wish to note that distinction on the site."
+  ]
+}

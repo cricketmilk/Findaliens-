@@ -1,0 +1,152 @@
+{
+  "entity": "kenneth-lay",
+  "name": "Kenneth Lay",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Kenneth Lay was the founder and chairman of Enron Corporation. On May 25, 2006 a Houston jury found him guilty of six counts of conspiracy and fraud, and Judge Sim Lake found him guilty of four further counts of bank fraud and false statements in a separate bench trial. Lay died on July 5, 2006, before sentencing, and on October 17, 2006 Judge Lake vacated the convictions and dismissed the indictment under the doctrine of abatement, which also removed the government's ability to seize his estate's assets for restitution through the criminal case.",
+    "sources": [
+      {
+        "url": "https://www.nbcnews.com/id/wbna15306994",
+        "publisher": "NBC News",
+        "title": "Judge throws out convictions of Enron's Lay",
+        "date": "2006-10-17"
+      },
+      {
+        "url": "https://www.jurist.org/news/2006/10/federal-judge-vacates-lay-conviction/",
+        "publisher": "JURIST",
+        "title": "Federal judge vacates Lay conviction",
+        "date": "2006-10-17"
+      },
+      {
+        "url": "https://www.justice.gov/archives/opa/pr/former-enron-ceo-jeffrey-skilling-resentenced-168-months-fraud-conspiracy-charges",
+        "publisher": "U.S. Department of Justice",
+        "title": "Former Enron CEO Jeffrey Skilling Resentenced to 168 Months for Fraud, Conspiracy Charges",
+        "date": "2013-06-21"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On May 25, 2006 Lay was convicted in Houston of ten counts of fraud, conspiracy and lying to banks across two cases: six counts by a jury and four by Judge Lake in a bench trial.",
+      "status": "court",
+      "date": "2006-05-25",
+      "quote": "convicted of 10 counts of fraud, conspiracy and lying to banks in two separate cases on May 25",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/id/wbna15306994",
+          "publisher": "NBC News",
+          "title": "Judge throws out convictions of Enron's Lay",
+          "date": "2006-10-17"
+        }
+      ]
+    },
+    {
+      "claim": "Lay died on July 5, 2006, less than two months after the verdict and before sentencing.",
+      "status": "documented",
+      "date": "2006-07-05",
+      "quote": "Enron founder Kenneth Lay's similar convictions were vacated after he died of heart disease less than two months after his trial.",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archives/opa/pr/former-enron-ceo-jeffrey-skilling-resentenced-168-months-fraud-conspiracy-charges",
+          "publisher": "U.S. Department of Justice",
+          "title": "Former Enron CEO Jeffrey Skilling Resentenced to 168 Months for Fraud, Conspiracy Charges",
+          "date": "2013-06-21"
+        },
+        {
+          "url": "https://www.nbcnews.com/id/wbna15306994",
+          "publisher": "NBC News",
+          "title": "Judge throws out convictions of Enron's Lay",
+          "date": "2006-10-17"
+        }
+      ]
+    },
+    {
+      "claim": "On October 17, 2006 Judge Simeon T. Lake III vacated Lay's convictions and dismissed the indictment because his death during the appeal period abated the judgment; the Justice Department had asked the judge to defer so Congress could consider changing the abatement doctrine.",
+      "status": "court",
+      "date": "2006-10-17",
+      "quote": "Judge Simeon T. Lake III issued a short order on Tuesday noting that \"The indictment against Kenneth L. Lay is dismissed.\"",
+      "sources": [
+        {
+          "url": "https://www.jurist.org/news/2006/10/federal-judge-vacates-lay-conviction/",
+          "publisher": "JURIST",
+          "title": "Federal judge vacates Lay conviction",
+          "date": "2006-10-17"
+        },
+        {
+          "url": "https://www.nbcnews.com/id/wbna15306994",
+          "publisher": "NBC News",
+          "title": "Judge throws out convictions of Enron's Lay",
+          "date": "2006-10-17"
+        }
+      ]
+    },
+    {
+      "claim": "With the conviction vacated, the government lost the ability to seize property of the Lay estate through the criminal case to compensate Enron victims; the judge also denied a victim's request for a restitution order, and Lay's lawyer said civil claims against the estate could still proceed.",
+      "status": "court",
+      "date": "2006-10-17",
+      "quote": "With the vacated conviction, the federal government now has no means of seizing property controlled by the Lay estate to compensate victims of the Enron collapse.",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/id/wbna15306994",
+          "publisher": "NBC News",
+          "title": "Judge throws out convictions of Enron's Lay",
+          "date": "2006-10-17"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "enron",
+      "toName": "Enron",
+      "toType": "company",
+      "relation": "founded",
+      "claim": "Lay founded Enron and was its chairman; he was convicted in 2006 of conspiracy and fraud over its collapse before the convictions were vacated on his death.",
+      "status": "court",
+      "date": "2006-05-25",
+      "quote": "Enron founder Kenneth Lay's similar convictions were vacated after he died",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archives/opa/pr/former-enron-ceo-jeffrey-skilling-resentenced-168-months-fraud-conspiracy-charges",
+          "publisher": "U.S. Department of Justice",
+          "title": "Former Enron CEO Jeffrey Skilling Resentenced to 168 Months for Fraud, Conspiracy Charges",
+          "date": "2013-06-21"
+        },
+        {
+          "url": "https://www.nbcnews.com/id/wbna15306994",
+          "publisher": "NBC News",
+          "title": "Judge throws out convictions of Enron's Lay",
+          "date": "2006-10-17"
+        }
+      ]
+    },
+    {
+      "to": "jeffrey-skilling",
+      "toName": "Jeffrey Skilling",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Lay and Skilling were tried together and both convicted on May 25, 2006.",
+      "status": "court",
+      "date": "2006-05-25",
+      "quote": "A federal jury found Skilling guilty in Houston on May 25, 2006",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archives/opa/pr/former-enron-ceo-jeffrey-skilling-resentenced-168-months-fraud-conspiracy-charges",
+          "publisher": "U.S. Department of Justice",
+          "title": "Former Enron CEO Jeffrey Skilling Resentenced to 168 Months for Fraud, Conspiracy Charges",
+          "date": "2013-06-21"
+        },
+        {
+          "url": "https://www.nbcnews.com/id/wbna15306994",
+          "publisher": "NBC News",
+          "title": "Judge throws out convictions of Enron's Lay",
+          "date": "2006-10-17"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The jury's six counts versus the judge's four counts are reported by NBC and JURIST; the DOJ release on Skilling confirms only that Lay's convictions were vacated after his death.",
+    "Site claims about executives cashing out stock options and the Sarbanes-Oxley 'Big 4' legacy were not tested here."
+  ]
+}

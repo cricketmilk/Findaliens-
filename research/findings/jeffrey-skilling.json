@@ -1,0 +1,127 @@
+{
+  "entity": "jeffrey-skilling",
+  "name": "Jeffrey Skilling",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Jeffrey Skilling was chief executive of Enron Corporation before its December 2001 bankruptcy. A federal jury in Houston convicted him on May 25, 2006 of conspiracy, securities fraud, insider trading and making false statements to auditors. He was sentenced to 292 months in October 2006; the Fifth Circuit affirmed the convictions in 2009 but vacated the sentence, and in June 2013 he was resentenced to 168 months and ordered to forfeit about $42 million for victims under an agreement that ended further challenges to his conviction.",
+    "sources": [
+      {
+        "url": "https://www.justice.gov/archives/opa/pr/former-enron-ceo-jeffrey-skilling-resentenced-168-months-fraud-conspiracy-charges",
+        "publisher": "U.S. Department of Justice",
+        "title": "Former Enron CEO Jeffrey Skilling Resentenced to 168 Months for Fraud, Conspiracy Charges",
+        "date": "2013-06-21"
+      },
+      {
+        "url": "https://www.justice.gov/criminal-vns/case/united-states-v-jeffrey-k-skilling",
+        "publisher": "U.S. Department of Justice",
+        "title": "United States v. Jeffrey K. Skilling (Victim Notification)"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On May 25, 2006 a federal jury in Houston found Skilling guilty of one count of conspiracy, 12 counts of securities fraud, one count of insider trading and five counts of making false statements to auditors.",
+      "status": "court",
+      "date": "2006-05-25",
+      "quote": "A federal jury found Skilling guilty in Houston on May 25, 2006, of one count of conspiracy, 12 counts of securities fraud, one count of insider trading, and five counts of making false statements to auditors.",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archives/opa/pr/former-enron-ceo-jeffrey-skilling-resentenced-168-months-fraud-conspiracy-charges",
+          "publisher": "U.S. Department of Justice",
+          "title": "Former Enron CEO Jeffrey Skilling Resentenced to 168 Months for Fraud, Conspiracy Charges",
+          "date": "2013-06-21"
+        }
+      ]
+    },
+    {
+      "claim": "Judge Sim Lake initially sentenced Skilling to 292 months in prison on October 23, 2006.",
+      "status": "court",
+      "date": "2006-10-23",
+      "quote": "Judge Lake initially sentenced Skilling to serve 292 months of imprisonment on Oct. 23, 2006.",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archives/opa/pr/former-enron-ceo-jeffrey-skilling-resentenced-168-months-fraud-conspiracy-charges",
+          "publisher": "U.S. Department of Justice",
+          "title": "Former Enron CEO Jeffrey Skilling Resentenced to 168 Months for Fraud, Conspiracy Charges",
+          "date": "2013-06-21"
+        },
+        {
+          "url": "https://www.nbcnews.com/news/amp/wbna15389150",
+          "publisher": "NBC News",
+          "title": "Former Enron CEO Skilling gets 24 years",
+          "date": "2006-10-23"
+        }
+      ]
+    },
+    {
+      "claim": "On January 6, 2009 the Fifth Circuit affirmed Skilling's convictions but vacated his sentence and remanded for resentencing.",
+      "status": "court",
+      "date": "2009-01-06",
+      "quote": "On Jan. 6, 2009, the United States Court of Appeals for the Fifth Circuit affirmed Skilling's convictions but vacated his sentence and remanded for a new sentencing hearing",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archives/opa/pr/former-enron-ceo-jeffrey-skilling-resentenced-168-months-fraud-conspiracy-charges",
+          "publisher": "U.S. Department of Justice",
+          "title": "Former Enron CEO Jeffrey Skilling Resentenced to 168 Months for Fraud, Conspiracy Charges",
+          "date": "2013-06-21"
+        }
+      ]
+    },
+    {
+      "claim": "In June 2013 Skilling was resentenced to 168 months in prison and ordered to forfeit about $42 million for distribution to Enron victims, under an agreement that barred further challenges to his conviction or sentence.",
+      "status": "court",
+      "date": "2013-06-21",
+      "quote": "Former Enron Chief Executive Officer Jeffrey K. Skilling has been resentenced to 168 months in prison on conspiracy, securities fraud, and other charges related to the collapse of Enron Corporation.",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archives/opa/pr/former-enron-ceo-jeffrey-skilling-resentenced-168-months-fraud-conspiracy-charges",
+          "publisher": "U.S. Department of Justice",
+          "title": "Former Enron CEO Jeffrey Skilling Resentenced to 168 Months for Fraud, Conspiracy Charges",
+          "date": "2013-06-21"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "enron",
+      "toName": "Enron",
+      "toType": "company",
+      "relation": "executive of",
+      "claim": "Skilling was chief executive of Enron and was convicted in 2006 of conspiracy and securities fraud connected to the company's collapse.",
+      "status": "court",
+      "date": "2006-05-25",
+      "quote": "Former Enron Chief Executive Officer Jeffrey K. Skilling has been resentenced to 168 months in prison",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archives/opa/pr/former-enron-ceo-jeffrey-skilling-resentenced-168-months-fraud-conspiracy-charges",
+          "publisher": "U.S. Department of Justice",
+          "title": "Former Enron CEO Jeffrey Skilling Resentenced to 168 Months for Fraud, Conspiracy Charges",
+          "date": "2013-06-21"
+        }
+      ]
+    },
+    {
+      "to": "kenneth-lay",
+      "toName": "Kenneth Lay",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Skilling was tried together with Enron founder Kenneth Lay; both were convicted on May 25, 2006, though Lay's convictions were vacated after his death.",
+      "status": "court",
+      "date": "2006-05-25",
+      "quote": "Enron founder Kenneth Lay's similar convictions were vacated after he died of heart disease less than two months after his trial.",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archives/opa/pr/former-enron-ceo-jeffrey-skilling-resentenced-168-months-fraud-conspiracy-charges",
+          "publisher": "U.S. Department of Justice",
+          "title": "Former Enron CEO Jeffrey Skilling Resentenced to 168 Months for Fraud, Conspiracy Charges",
+          "date": "2013-06-21"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim that Enron executives 'cashed out hundreds of millions in stock options' before bankruptcy: not tested here; Skilling's insider-trading count is documented but amounts were not sourced.",
+    "Site claims about Mahonia/Yosemite prepay transactions and Chewco/LJM debt relate to Fastow and the banks rather than Skilling and were not tested in this file."
+  ]
+}

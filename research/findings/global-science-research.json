@@ -1,0 +1,115 @@
+{
+  "entity": "global-science-research",
+  "name": "Global Science Research",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Global Science Research Ltd (GSR) was a UK private limited company (Companies House number 09060785) incorporated on 29 May 2014 and dissolved on 31 October 2017 after a voluntary strike-off. It was the vehicle through which Aleksandr Kogan built the 'GSRApp', also known as 'thisisyourdigitallife', and entered a 2014 agreement with SCL to collect Facebook-derived personality and demographic data on US voters. The FTC's 2019 complaint against Cambridge Analytica describes the app and the data it collected.",
+    "sources": [
+      { "url": "https://find-and-update.company-information.service.gov.uk:443/company/09060785", "publisher": "Companies House", "title": "Company Overview for GLOBAL SCIENCE RESEARCH LTD (09060785)" },
+      { "url": "https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-sues-cambridge-analytica-settles-former-ceo-app-developer", "publisher": "Federal Trade Commission", "title": "FTC Sues Cambridge Analytica, Settles with Former CEO and App Developer", "date": "2019-07-24" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Companies House records Global Science Research Ltd (09060785) as a private limited company incorporated on 29 May 2014 with a registered office in Manchester and a listed activity of market research and public opinion polling (SIC 73200).",
+      "status": "documented",
+      "date": "2014-05-29",
+      "quote": "The register lists the company as a private limited company, incorporated on 29 May 2014, with its status now dissolved as of 31 October 2017. Its registered office was in Manchester, and its listed business activity is market research and public opinion polling (SIC 73200).",
+      "sources": [
+        { "url": "https://find-and-update.company-information.service.gov.uk:443/company/09060785", "publisher": "Companies House", "title": "Company Overview for GLOBAL SCIENCE RESEARCH LTD (09060785)" }
+      ]
+    },
+    {
+      "claim": "GSR applied for voluntary strike-off on 7 August 2017; a First Gazette notice followed on 15 August 2017 and the company was dissolved on 31 October 2017. Its last accounts were made up to 31 May 2016.",
+      "status": "documented",
+      "date": "2017-10-31",
+      "quote": "The filings show a voluntary strike-off application on 7 August 2017, a First Gazette notice on 15 August 2017, and a Final Gazette dissolution notice on 31 October 2017. The most recent accounts were made up to 31 May 2016.",
+      "sources": [
+        { "url": "https://find-and-update.company-information.service.gov.uk/company/09060785/filing-history", "publisher": "Companies House", "title": "Filing history for GLOBAL SCIENCE RESEARCH LTD (09060785)" }
+      ]
+    },
+    {
+      "claim": "The Companies House filing history shows that Joseph Andrew Chancellor's directorship of GSR was terminated on 23 September 2015 and that a director named Aleksandr Spectre was appointed on 11 September 2015.",
+      "status": "documented",
+      "date": "2015-09",
+      "quote": "Joseph Andrew Chancellor's directorship was terminated on 23 September 2015, according to the filing history. The same history shows a new director, Aleksandr Spectre, appointed on 11 September 2015.",
+      "sources": [
+        { "url": "https://find-and-update.company-information.service.gov.uk/company/09060785/filing-history", "publisher": "Companies House", "title": "Filing history for GLOBAL SCIENCE RESEARCH LTD (09060785)" }
+      ]
+    },
+    {
+      "claim": "The FTC's administrative complaint against Cambridge Analytica describes the Facebook app as the 'GSRApp', also known as the 'thisisyourdigitallife' app, and the FTC's orders against Kogan and Nix require deletion of personal information collected from consumers via the GSRApp.",
+      "status": "documented",
+      "date": "2019-07-24",
+      "quote": "The FTC's complaint describes the app as the \"GSRApp,\" also known as the \"thisisyourdigitallife\" app.",
+      "sources": [
+        { "url": "https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-sues-cambridge-analytica-settles-former-ceo-app-developer", "publisher": "Federal Trade Commission", "title": "FTC Sues Cambridge Analytica, Settles with Former CEO and App Developer", "date": "2019-07-24" },
+        { "url": "https://www.ftc.gov/system/files/documents/cases/182_3107_cambridge_analytica_administrative_complaint_7-24-19.pdf", "publisher": "Federal Trade Commission", "title": "Cambridge Analytica Administrative Complaint", "date": "2019-07-24" }
+      ]
+    },
+    {
+      "claim": "According to press accounts of Kogan's April 2018 evidence to the DCMS Committee, GSR entered a 2014 agreement with SCL to collect demographic and personality data on individuals in 11 US states, for which Kogan said he was paid $800,000.",
+      "status": "reported",
+      "date": "2014",
+      "quote": "Under the 2014 agreement, SCL wanted Kogan's company to collect demographic and personality data of individuals in 11 US states. He was paid $800,000 for the job.",
+      "sources": [
+        { "url": "https://techcrunch.com/?p=1627272", "publisher": "TechCrunch", "title": "Kogan: 'I don't think Facebook has a developer policy that is valid'", "date": "2018-04-24" }
+      ]
+    },
+    {
+      "claim": "The ICO's 2020 closing letter distinguishes data obtained from Facebook or GSR from the UKIP membership data involved in Cambridge Analytica's limited work for Leave.EU.",
+      "status": "documented",
+      "date": "2020-10-02",
+      "quote": "Cambridge Analytica did appear to do a limited amount of work for Leave.EU but this involved the analysis of UKIP membership data rather than data obtained from Facebook or GSR.",
+      "sources": [
+        { "url": "https://ico.org.uk/media2/migrated/2618383/20201002_ico-o-ed-l-rtl-0181_to-julian-knight-mp.pdf", "publisher": "Information Commissioner's Office", "title": "Letter from the Information Commissioner to Julian Knight MP, Chair of the DCMS Committee", "date": "2020-10-02" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "aleksandr-kogan",
+      "toName": "Aleksandr Kogan",
+      "toType": "person",
+      "relation": "founded",
+      "reverse": true,
+      "claim": "Aleksandr Kogan built the GSRApp through Global Science Research, the company he ran; the FTC's orders require him to delete the data collected via the GSRApp.",
+      "status": "documented",
+      "date": "2014",
+      "quote": "they are required to delete or destroy any personal information collected from consumers via the GSRApp and any related work product that originated from the data",
+      "sources": [
+        { "url": "https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-sues-cambridge-analytica-settles-former-ceo-app-developer", "publisher": "Federal Trade Commission", "title": "FTC Sues Cambridge Analytica, Settles with Former CEO and App Developer", "date": "2019-07-24" }
+      ]
+    },
+    {
+      "to": "scl-group",
+      "toName": "SCL Group",
+      "toType": "company",
+      "relation": "contracted with",
+      "claim": "GSR entered a 2014 agreement with SCL to collect demographic and personality data on individuals in 11 US states.",
+      "status": "reported",
+      "date": "2014",
+      "quote": "his company, Global Science Research, did enter an agreement with SCL.",
+      "sources": [
+        { "url": "https://techcrunch.com/?p=1627272", "publisher": "TechCrunch", "title": "Kogan: 'I don't think Facebook has a developer policy that is valid'", "date": "2018-04-24" }
+      ]
+    },
+    {
+      "to": "cambridge-analytica",
+      "toName": "Cambridge Analytica",
+      "toType": "company",
+      "relation": "other",
+      "claim": "The FTC found that Cambridge Analytica obtained Facebook users' personal information through the GSRApp built by Kogan's company.",
+      "status": "documented",
+      "date": "2019-07-24",
+      "quote": "The FTC's complaint describes the app as the \"GSRApp,\" also known as the \"thisisyourdigitallife\" app.",
+      "sources": [
+        { "url": "https://www.ftc.gov/system/files/documents/cases/182_3107_cambridge_analytica_administrative_complaint_7-24-19.pdf", "publisher": "Federal Trade Commission", "title": "Cambridge Analytica Administrative Complaint", "date": "2019-07-24" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The identity of the director recorded as 'Aleksandr Spectre' and the reasons for the 2017 strike-off are not stated in the Companies House record returned.",
+    "The 2014 GSR–SCL agreement itself was not located; the terms are from press accounts of Kogan's DCMS evidence."
+  ]
+}

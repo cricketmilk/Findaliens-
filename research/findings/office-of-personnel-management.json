@@ -125,6 +125,38 @@
           "date": "2025-07-08"
         }
       ]
+    },
+    {
+      "claim": "The Senate confirmed Scott Kupor as Director of the Office of Personnel Management for a four-year term on July 9, 2025 by 49-46, after a 51-46 cloture vote the same day; Sen. Lisa Murkowski was the only Republican to vote no. Kupor had been a managing partner at Andreessen Horowitz since the firm's founding in 2009 and a former board chair of the National Venture Capital Association. Trump named him in December 2024; his hearing was April 3, 2025.",
+      "status": "documented",
+      "date": "2025-07-09",
+      "quote": "Confirmed, 49-46: Confirmation of Executive Calendar #81 Scott Kupor to be Director of the Office of Personnel Management for a term of four years.",
+      "sources": [
+        {
+          "url": "https://www.dailypress.senate.gov/?p=149048",
+          "publisher": "U.S. Senate Daily Press Gallery",
+          "title": "Wednesday, July 9, 2025 (floor log)",
+          "date": "2025-07-09"
+        },
+        {
+          "url": "https://www.govexec.com/management/2025/07/senate-confirms-new-office-personnel-management-head-mostly-party-line-vote/406617",
+          "publisher": "Government Executive",
+          "title": "Senate confirms new Office of Personnel Management head in mostly party-line vote",
+          "date": "2025-07-09"
+        },
+        {
+          "url": "https://www.fedweek.com/fedweek/senate-confirms-scott-kupor-as-opm-director/",
+          "publisher": "FEDweek",
+          "title": "Senate Confirms Scott Kupor as OPM Director",
+          "date": "2025-07"
+        },
+        {
+          "url": "https://nvca.org/press_releases/nvca-statement-on-the-confirmation-of-scott-kupor-as-opm-director/",
+          "publisher": "National Venture Capital Association",
+          "title": "NVCA Statement on the Confirmation of Scott Kupor as OPM Director",
+          "date": "2025-07"
+        }
+      ]
     }
   ],
   "connections": [
@@ -149,6 +181,53 @@
           "publisher": "Just Security",
           "title": "Federal Court Halts Mass Layoffs in the Civil Service",
           "date": "2025-05"
+        }
+      ]
+    },
+    {
+      "to": "Scott Kupor",
+      "toName": "Scott Kupor",
+      "toType": "person",
+      "relation": "executive of",
+      "reverse": true,
+      "claim": "Scott Kupor, formerly managing partner at Andreessen Horowitz, was confirmed as OPM Director on July 9, 2025 by a 49-46 Senate vote.",
+      "status": "documented",
+      "date": "2025-07-09",
+      "quote": "Confirmed, 49-46: Confirmation of Executive Calendar #81 Scott Kupor to be Director of the Office of Personnel Management for a term of four years.",
+      "sources": [
+        {
+          "url": "https://www.dailypress.senate.gov/?p=149048",
+          "publisher": "U.S. Senate Daily Press Gallery",
+          "title": "Wednesday, July 9, 2025 (floor log)",
+          "date": "2025-07-09"
+        },
+        {
+          "url": "https://www.govexec.com/management/2025/07/senate-confirms-new-office-personnel-management-head-mostly-party-line-vote/406617",
+          "publisher": "Government Executive",
+          "title": "Senate confirms new Office of Personnel Management head in mostly party-line vote",
+          "date": "2025-07-09"
+        }
+      ]
+    },
+    {
+      "to": "andreessen-horowitz",
+      "relation": "other",
+      "claim": "OPM's director since July 2025, Scott Kupor, was a longtime managing partner at Andreessen Horowitz, which he helped build from its 2009 founding, according to Government Executive.",
+      "status": "reported",
+      "date": "2025-07-09",
+      "quote": "Kupor served as a longtime managing partner at Andreessen Horowitz, which he helped build from its inception in 2009",
+      "sources": [
+        {
+          "url": "https://www.govexec.com/management/2025/07/senate-confirms-new-office-personnel-management-head-mostly-party-line-vote/406617",
+          "publisher": "Government Executive",
+          "title": "Senate confirms new Office of Personnel Management head in mostly party-line vote",
+          "date": "2025-07-09"
+        },
+        {
+          "url": "https://nvca.org/press_releases/nvca-statement-on-the-confirmation-of-scott-kupor-as-opm-director/",
+          "publisher": "National Venture Capital Association",
+          "title": "NVCA Statement on the Confirmation of Scott Kupor as OPM Director",
+          "date": "2025-07"
         }
       ]
     }

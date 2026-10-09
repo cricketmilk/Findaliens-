@@ -1,0 +1,209 @@
+{
+  "entity": "nso-group",
+  "name": "NSO Group",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "NSO Group is an Israeli company that develops and sells the Pegasus spyware to government clients. In November 2021 the U.S. Commerce Department added it to the Entity List, finding it had supplied spyware to foreign governments that used it to target officials, journalists, activists and others. The 2021 Pegasus Project reporting consortium and Amnesty International's forensic work, peer-reviewed by Citizen Lab, documented infections of journalists' and activists' phones. WhatsApp (Meta) sued NSO in 2019; the Supreme Court declined NSO's immunity appeal in 2023, a federal judge found NSO liable in December 2024, a jury awarded about $167 million in punitive damages in May 2025, later reduced to $4 million with a permanent injunction. Apple sued in 2021 and sought dismissal in 2024. In October 2025 NSO said a U.S. investor group had acquired controlling ownership.",
+    "sources": [
+      { "url": "https://www.commerce.gov/news/press-releases/2021/11/commerce-adds-nso-group-and-other-foreign-companies-entity-list", "publisher": "U.S. Department of Commerce", "title": "Commerce Adds NSO Group and Other Foreign Companies to Entity List for Malicious Cyber Activities", "date": "2021-11-03" },
+      { "url": "https://cyberscoop.com/nso-group-owes-whatsapp-over-spyware-infections-jury/", "publisher": "CyberScoop", "title": "NSO Group owes $168M in damages to WhatsApp over spyware infections, jury says", "date": "2025-05" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On November 3, 2021 the Commerce Department's Bureau of Industry and Security added NSO Group and Candiru (both Israel), Positive Technologies (Russia) and Computer Security Initiative Consultancy PTE (Singapore) to the Entity List. Commerce said NSO and Candiru developed and supplied spyware to foreign governments that used it to maliciously target government officials, journalists, businesspeople, activists, academics and embassy workers.",
+      "status": "documented",
+      "date": "2021-11-03",
+      "quote": "developed and supplied spyware to foreign governments, which used it to maliciously target government officials, journalists, businesspeople, activists, academics, and embassy workers",
+      "sources": [
+        { "url": "https://www.commerce.gov/news/press-releases/2021/11/commerce-adds-nso-group-and-other-foreign-companies-entity-list", "publisher": "U.S. Department of Commerce", "title": "Commerce Adds NSO Group and Other Foreign Companies to Entity List for Malicious Cyber Activities", "date": "2021-11-03" },
+        { "url": "https://2021-2025.state.gov/the-united-states-adds-foreign-companies-to-entity-list-for-malicious-cyber-activities/", "publisher": "U.S. Department of State", "title": "The United States Adds Foreign Companies to Entity List for Malicious Cyber Activities", "date": "2021-11-03" }
+      ]
+    },
+    {
+      "claim": "The final rule, 'Addition of Certain Entities to the Entity List' (86 FR 60759, published November 4, 2021 and effective that day), amended the Export Administration Regulations; the End-User Review Committee relied on 15 CFR 744.11(b) and imposed a license review policy of presumption of denial, with no license exceptions available for exports, reexports or in-country transfers to the four entities.",
+      "status": "documented",
+      "date": "2021-11-04",
+      "quote": "No license exceptions should be available for exports, reexports, or transfers (in-country) to the persons being added to the Entity List in this rule.",
+      "sources": [
+        { "url": "https://regulations.justia.com/regulations/fedreg/2021/11/04/2021-24123.html", "publisher": "Federal Register (via Justia)", "title": "Addition of Certain Entities to the Entity List, 60759-60761 [2021-24123]", "date": "2021-11-04" },
+        { "url": "https://www.commerce.gov/news/press-releases/2021/11/commerce-adds-nso-group-and-other-foreign-companies-entity-list", "publisher": "U.S. Department of Commerce", "title": "Commerce Adds NSO Group and Other Foreign Companies to Entity List for Malicious Cyber Activities", "date": "2021-11-03" }
+      ]
+    },
+    {
+      "claim": "NSO Group said it was 'dismayed by the decision' to add it to the Entity List and that it would advocate for the decision to be reversed.",
+      "status": "words",
+      "date": "2021-11-03",
+      "quote": "dismayed by the decision",
+      "sources": [
+        { "url": "https://www.timesofisrael.com/us-blacklists-israels-nso-group-and-candiru-spyware-firms/", "publisher": "The Times of Israel", "title": "Malicious activities: US blacklists Israel's NSO Group and Candiru spyware firms", "date": "2021-11-03" },
+        { "url": "https://cyberscoop.com/commerce-department-blacklists-controversial-spyware-company-nso-group/", "publisher": "CyberScoop", "title": "Commerce Department blacklists controversial spyware company NSO Group", "date": "2021-11-03" }
+      ]
+    },
+    {
+      "claim": "In July 2021 the Pegasus Project, coordinated by Forbidden Stories with Amnesty International providing forensic analysis and more than 80 journalists from 17 media organizations, reported on a leaked list of more than 50,000 phone numbers believed to have been selected as persons of interest by NSO clients since 2016. Amnesty's Security Lab examined 67 phones; 23 were found to be infected and 14 showed signs of attempted infection.",
+      "status": "reported",
+      "date": "2021-07-18",
+      "quote": "the data contains more than 50,000 phone numbers that are believed to have been identified as those of people of interest by clients of NSO since 2016",
+      "sources": [
+        { "url": "https://www.amnestyusa.org/press-releases/the-pegasus-project-massive-data-leak-reveals-israeli-nso-groups-spyware-used-to-target-activists-journalists-and-political-leaders-globally/", "publisher": "Amnesty International USA", "title": "The Pegasus Project: Massive data leak reveals Israeli NSO Group's spyware used to target activists, journalists, and political leaders globally", "date": "2021-07-18" },
+        { "url": "https://www.washingtonpost.com/investigations/interactive/2021/nso-spyware-pegasus-cellphones/", "publisher": "The Washington Post", "title": "Private spy software sold by NSO Group found on cellphones worldwide", "date": "2021-07-18" },
+        { "url": "https://www.business-humanrights.org/en/latest-news/nso-group-spyware-sold-to-governments-used-to-target-activists-politicians-journalists-according-to-pegasus-project-investigation-company-denies-allegations/", "publisher": "Business & Human Rights Resource Centre", "title": "Investigation finds NSO Group spyware sold to governments used against activists, politicians & journalists; company denies allegations", "date": "2021-07" }
+      ]
+    },
+    {
+      "claim": "Amnesty International reported that its forensic analysis found Pegasus had infected iPhone 11 and iPhone 12 models through iMessage zero-click attacks; it later clarified that thousands of iPhones were listed as potential targets but that it could not confirm how many were successfully hacked.",
+      "status": "reported",
+      "date": "2021-07",
+      "quote": "it was not possible to confirm how many were successfully hacked",
+      "sources": [
+        { "url": "https://www.amnesty.org/en/latest/news/2021/07/pegasus-project-apple-iphones-compromised-by-nso-spyware/", "publisher": "Amnesty International", "title": "Pegasus Project: Apple iPhones compromised by NSO spyware", "date": "2021-07-19" },
+        { "url": "https://securitylab.amnesty.org/latest/2021/07/pegasus-project-apple-iphones-compromised-by-nso-spyware/", "publisher": "Amnesty International Security Lab", "title": "Pegasus Project: Apple iPhones compromised by NSO spyware", "date": "2021-07-19" }
+      ]
+    },
+    {
+      "claim": "Citizen Lab (University of Toronto) published an independent peer review of Amnesty International's forensic methodology on July 18, 2021, stating that it had independently validated that the methodology correctly identified Pegasus infections within four iTunes backups it was given, and that its own research had independently arrived at a number of the same key findings.",
+      "status": "reported",
+      "date": "2021-07-18",
+      "quote": "independently validated that Amnesty's forensic methodology correctly identified infections with Pegasus within four iTunes backups",
+      "sources": [
+        { "url": "https://citizenlab.ca/amnesty-peer-review/", "publisher": "Citizen Lab", "title": "Independent Peer Review of Amnesty International's Forensic Methods for Identifying Pegasus Spyware", "date": "2021-07-18" }
+      ]
+    },
+    {
+      "claim": "NSO Group denied the Pegasus Project's conclusions, saying it 'firmly denies' the 'false claims' in the reporting, that the reports rested on 'wrong assumptions' and 'uncorroborated theories', and that its product is licensed only for investigating terrorists and serious criminals.",
+      "status": "words",
+      "date": "2021-07-18",
+      "quote": "wrong assumptions",
+      "sources": [
+        { "url": "https://www.washingtonpost.com/investigations/2021/07/18/nso-group-response-pegasus-project/", "publisher": "The Washington Post", "title": "Response from NSO Group to the Pegasus Project", "date": "2021-07-18" },
+        { "url": "https://www.business-humanrights.org/en/latest-news/nso-group-spyware-sold-to-governments-used-to-target-activists-politicians-journalists-according-to-pegasus-project-investigation-company-denies-allegations/", "publisher": "Business & Human Rights Resource Centre", "title": "Investigation finds NSO Group spyware sold to governments used against activists, politicians & journalists; company denies allegations", "date": "2021-07" }
+      ]
+    },
+    {
+      "claim": "On January 9, 2023 the U.S. Supreme Court denied NSO Group's petition for certiorari (No. 21-1338) in WhatsApp's lawsuit, leaving in place the Ninth Circuit's ruling that NSO could not claim foreign sovereign immunity as a private company acting for government clients. The Court gave no reasons.",
+      "status": "court",
+      "date": "2023-01-09",
+      "quote": "The Court's refusal ended NSO Group's argument that it could not be held liable under common-law foreign sovereign immunity.",
+      "sources": [
+        { "url": "https://www.supremecourt.gov/docket/docketfiles/html/public/21-1338.html", "publisher": "Supreme Court of the United States", "title": "No. 21-1338, NSO Group Technologies Limited v. WhatsApp Inc. (docket)", "date": "2023-01-09" },
+        { "url": "https://cyberscoop.com/supreme-court-whatsapp-nso-group-spyware/", "publisher": "CyberScoop", "title": "Supreme Court clears way for WhatsApp case against NSO Group, opening spyware firm to more lawsuits", "date": "2023-01-09" },
+        { "url": "https://www.scotusblog.com/cases/case-files/nso-group-technologies-limited-v-whatsapp-inc/", "publisher": "SCOTUSblog", "title": "NSO Group Technologies Limited v. WhatsApp Inc." }
+      ]
+    },
+    {
+      "claim": "On December 20, 2024 Judge Phyllis Hamilton of the Northern District of California granted WhatsApp's motion for summary judgment in WhatsApp Inc. v. NSO Group Technologies Ltd. (No. 4:19-cv-07123), finding NSO liable under the federal Computer Fraud and Abuse Act and California's Comprehensive Computer Data Access and Fraud Act and for breach of WhatsApp's terms of service, in connection with the 2019 Pegasus attack on about 1,400 WhatsApp users. The court also imposed an evidentiary sanction because NSO had not produced Pegasus source code as ordered. Damages were left for trial.",
+      "status": "court",
+      "date": "2024-12-20",
+      "quote": "In short, the court granted partial summary judgment in favor of plaintiffs under the Computer Fraud and Abuse Act.",
+      "sources": [
+        { "url": "https://therecord.media/judge-rules-nso-group-liable-for-hack-of-1400-whatsapp-users", "publisher": "The Record", "title": "Judge rules NSO Group is liable for spyware hacks targeting 1,400 WhatsApp user devices", "date": "2024-12-20" },
+        { "url": "https://www.darkreading.com/cyber-risk/whatsapp-ban-nso-group-legal-battle", "publisher": "Dark Reading", "title": "WhatsApp Secures Ban on NSO Group" },
+        { "url": "https://globalfreedomofexpression.columbia.edu/cases/whatsapp-inc-v-nso-group-technologies-limited-2024/", "publisher": "Columbia Global Freedom of Expression", "title": "WhatsApp Inc. v. NSO Group Technologies Limited (2024)" }
+      ]
+    },
+    {
+      "claim": "On May 6, 2025 a federal jury in Oakland awarded WhatsApp $167,254,000 in punitive damages and $444,719 in compensatory damages against NSO Group over the 2019 Pegasus attack on about 1,400 WhatsApp users.",
+      "status": "court",
+      "date": "2025-05-06",
+      "quote": "$167,254,000 in punitive damages",
+      "sources": [
+        { "url": "https://cyberscoop.com/nso-group-owes-whatsapp-over-spyware-infections-jury/", "publisher": "CyberScoop", "title": "NSO Group owes $168M in damages to WhatsApp over spyware infections, jury says", "date": "2025-05-06" },
+        { "url": "https://www.cyberdaily.au/security/12059-us-jury-directs-israeli-nso-group-to-pay-us-168m-in-damages-to-whatsapp", "publisher": "Cyber Daily", "title": "US jury directs Israeli NSO Group to pay US$168m in damages to WhatsApp", "date": "2025-05" }
+      ]
+    },
+    {
+      "claim": "In October 2025 Judge Hamilton granted WhatsApp a permanent injunction barring NSO Group from targeting WhatsApp users and reduced the jury's punitive award to $4 million, ruling that NSO's conduct did not meet the standard for a larger award; NSO was told it could accept the reduced amount or face a new trial on punitive damages.",
+      "status": "court",
+      "date": "2025-10",
+      "quote": "the punitive damages award should be reduced to $4 million",
+      "sources": [
+        { "url": "https://cyberscoop.com/whatsapp-wins-injunction-against-nso-group-spyware-damages-reduced/", "publisher": "CyberScoop", "title": "Judge forbids NSO Group from targeting WhatsApp users", "date": "2025-10" },
+        { "url": "https://www.securityweek.com/nso-ordered-to-stop-hacking-whatsapp-but-damages-cut-to-4-million/", "publisher": "SecurityWeek", "title": "NSO Ordered to Stop Hacking WhatsApp, but Damages Cut to $4 Million", "date": "2025-10" }
+      ]
+    },
+    {
+      "claim": "On November 23, 2021 Apple sued NSO Group and its parent company in federal court in California, seeking a permanent injunction barring NSO from using Apple software, services or devices, and announced a $10 million contribution to cybersurveillance research and advocacy organizations.",
+      "status": "documented",
+      "date": "2021-11-23",
+      "quote": "Apple sues NSO Group to curb the abuse of state-sponsored spyware",
+      "sources": [
+        { "url": "https://www.apple.com/newsroom/2021/11/apple-sues-nso-group-to-curb-the-abuse-of-state-sponsored-spyware/", "publisher": "Apple", "title": "Apple sues NSO Group to curb the abuse of state-sponsored spyware", "date": "2021-11-23" },
+        { "url": "https://www.axios.com/2021/11/23/apple-sue-nso-group", "publisher": "Axios", "title": "Apple sues Israeli NSO Group over spyware use", "date": "2021-11-23" }
+      ]
+    },
+    {
+      "claim": "In September 2024 Apple asked the court to voluntarily dismiss its suit against NSO Group, saying the threat landscape had changed, that continuing could require disclosing information Apple uses to defeat spyware, and citing a report that Israeli officials had taken files from NSO's headquarters.",
+      "status": "documented",
+      "date": "2024-09-13",
+      "quote": "the combination of these factors is why it now seeks voluntary dismissal of the case",
+      "sources": [
+        { "url": "https://www.washingtonpost.com/technology/2024/09/13/apple-lawsuit-nso-pegasus-spyware/", "publisher": "The Washington Post", "title": "Apple drops its lawsuit against Israeli spyware giant NSO, maker of Pegasus", "date": "2024-09-13" },
+        { "url": "https://www.securityweek.com/apple-suddenly-drops-nso-group-spyware-lawsuit/", "publisher": "SecurityWeek", "title": "Apple Suddenly Drops NSO Group Spyware Lawsuit", "date": "2024-09" }
+      ]
+    },
+    {
+      "claim": "In October 2025 Calcalist reported that a U.S. investor group led by film producer Robert Simonds had agreed to acquire control of NSO Group for tens of millions of dollars, subject to approval by Israel's Defense Export Control Agency; an NSO spokesperson said an American investment group had invested tens of millions of dollars and acquired controlling ownership, that co-founder Omri Lavie was ending his involvement, and that headquarters and core operations remain in Israel under Ministry of Defense supervision.",
+      "status": "reported",
+      "date": "2025-10",
+      "quote": "an American investment group has invested tens of millions of dollars in the company and has acquired controlling ownership",
+      "sources": [
+        { "url": "https://www.calcalistech.com/ctechnews/article/s1jgvmitgx", "publisher": "Calcalist (CTech)", "title": "NSO to be acquired by U.S. investors, ending Israeli control of Pegasus maker", "date": "2025-10" },
+        { "url": "https://www.forbes.com/sites/the-wiretap/2025/10/14/happy-gilmore-producer-buys-israeli-spyware-giant-nso/", "publisher": "Forbes", "title": "Happy Gilmore Producer Buys Israeli Spyware Giant NSO", "date": "2025-10-14" },
+        { "url": "https://www.scworld.com/brief/us-investment-firm-acquires-nso-group", "publisher": "SC Media", "title": "US investment firm acquires NSO Group", "date": "2025-10" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "bis",
+      "toName": "Bureau of Industry and Security",
+      "toType": "government",
+      "relation": "regulated",
+      "reverse": true,
+      "claim": "The Commerce Department's Bureau of Industry and Security added NSO Group to the Entity List by final rule effective November 4, 2021, with a license review policy of presumption of denial.",
+      "status": "documented",
+      "date": "2021-11-04",
+      "quote": "This final rule amends the Export Administration Regulations (EAR) by adding four entities to the Entity List.",
+      "sources": [
+        { "url": "https://regulations.justia.com/regulations/fedreg/2021/11/04/2021-24123.html", "publisher": "Federal Register (via Justia)", "title": "Addition of Certain Entities to the Entity List, 60759-60761 [2021-24123]", "date": "2021-11-04" },
+        { "url": "https://www.commerce.gov/news/press-releases/2021/11/commerce-adds-nso-group-and-other-foreign-companies-entity-list", "publisher": "U.S. Department of Commerce", "title": "Commerce Adds NSO Group and Other Foreign Companies to Entity List for Malicious Cyber Activities", "date": "2021-11-03" }
+      ]
+    },
+    {
+      "to": "meta",
+      "toName": "Meta (WhatsApp)",
+      "toType": "company",
+      "relation": "sued by",
+      "claim": "WhatsApp, owned by Meta, sued NSO Group in 2019 over the Pegasus attack on about 1,400 users; the Supreme Court denied NSO's immunity appeal in January 2023, the court found NSO liable in December 2024, a jury awarded about $167 million in punitive damages in May 2025, and in October 2025 the court issued a permanent injunction and reduced punitive damages to $4 million.",
+      "status": "court",
+      "date": "2024-12-20",
+      "quote": "In short, the court granted partial summary judgment in favor of plaintiffs under the Computer Fraud and Abuse Act.",
+      "sources": [
+        { "url": "https://therecord.media/judge-rules-nso-group-liable-for-hack-of-1400-whatsapp-users", "publisher": "The Record", "title": "Judge rules NSO Group is liable for spyware hacks targeting 1,400 WhatsApp user devices", "date": "2024-12-20" },
+        { "url": "https://cyberscoop.com/nso-group-owes-whatsapp-over-spyware-infections-jury/", "publisher": "CyberScoop", "title": "NSO Group owes $168M in damages to WhatsApp over spyware infections, jury says", "date": "2025-05-06" },
+        { "url": "https://www.supremecourt.gov/docket/docketfiles/html/public/21-1338.html", "publisher": "Supreme Court of the United States", "title": "No. 21-1338, NSO Group Technologies Limited v. WhatsApp Inc. (docket)", "date": "2023-01-09" }
+      ]
+    },
+    {
+      "to": "Apple",
+      "toName": "Apple",
+      "toType": "company",
+      "relation": "sued by",
+      "claim": "Apple sued NSO Group on November 23, 2021 seeking an injunction barring NSO from using Apple products; in September 2024 Apple moved to voluntarily dismiss the case, citing the risk of exposing its threat intelligence.",
+      "status": "documented",
+      "date": "2021-11-23",
+      "quote": "Apple sues NSO Group to curb the abuse of state-sponsored spyware",
+      "sources": [
+        { "url": "https://www.apple.com/newsroom/2021/11/apple-sues-nso-group-to-curb-the-abuse-of-state-sponsored-spyware/", "publisher": "Apple", "title": "Apple sues NSO Group to curb the abuse of state-sponsored spyware", "date": "2021-11-23" },
+        { "url": "https://www.washingtonpost.com/technology/2024/09/13/apple-lawsuit-nso-pegasus-spyware/", "publisher": "The Washington Post", "title": "Apple drops its lawsuit against Israeli spyware giant NSO, maker of Pegasus", "date": "2024-09-13" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Whether NSO accepted the reduced $4 million punitive award or sought a new trial, and the status of its appeal, were not confirmed by the sources found.",
+    "The federalregister.gov page for 86 FR 60759 was not returned by the search; the Justia mirror is cited instead. The Commerce press release and Justia text list different FR document numbers (2021-23980 vs 2021-24123); the owner may want to confirm against federalregister.gov.",
+    "Whether the October 2025 ownership change closed and received Israeli Defense Export Control Agency approval is not confirmed.",
+    "Whether the court formally granted Apple's September 2024 request for dismissal was not confirmed."
+  ]
+}

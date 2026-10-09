@@ -1,0 +1,60 @@
+{
+  "entity": "leonard-read",
+  "name": "Leonard Read",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Leonard E. Read, previously of the National Industrial Conference Board and the Los Angeles Chamber of Commerce, founded the Foundation for Economic Education in 1946 and served as its president; his own account says he raised the founding money and set the foundation up at Irvington, New York.",
+    "sources": [
+      {
+        "url": "https://fee.org/about/history",
+        "publisher": "Foundation for Economic Education",
+        "title": "History"
+      },
+      {
+        "url": "https://fee.org/articles/the-early-history-of-fee/",
+        "publisher": "Foundation for Economic Education",
+        "title": "The Early History of FEE"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Read founded FEE on March 7, 1946 and, per a founding officer, raised the money and set up the foundation at Irvington, inviting the first trustees and officers.",
+      "status": "documented",
+      "date": "1946",
+      "quote": "in 1946 Leonard Read raised the money, set up the Foundation at Irvington",
+      "sources": [
+        {
+          "url": "https://fee.org/articles/the-early-history-of-fee/",
+          "publisher": "Foundation for Economic Education",
+          "title": "The Early History of FEE"
+        },
+        {
+          "url": "https://fee.org/about/history",
+          "publisher": "Foundation for Economic Education",
+          "title": "History"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "foundation-for-economic-education",
+      "toName": "Foundation for Economic Education",
+      "toType": "think tank",
+      "relation": "founded",
+      "claim": "Read founded FEE in 1946.",
+      "status": "documented",
+      "date": "1946",
+      "quote": "Leonard E. Read founded FEE in 1946",
+      "sources": [
+        {
+          "url": "https://fee.org/about/history",
+          "publisher": "Foundation for Economic Education",
+          "title": "History"
+        }
+      ]
+    }
+  ],
+  "openQuestions": []
+}

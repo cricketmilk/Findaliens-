@@ -1,0 +1,145 @@
+{
+  "entity": "vance-muse",
+  "name": "Vance Muse",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Vance Muse, a Texas political operative, incorporated the Christian American Association in Houston in 1936 and, per historian Michael Pierce, was the most important figure in placing 'right-to-work' on the conservative agenda in the early 1940s. Pierce documents that Muse's earlier Southern Committee to Uphold the Constitution was funded by northern industrialists including John J. Raskob, Alfred P. Sloan and the du Pont brothers, and that Arkansas planters funded his anti-strike campaign.",
+    "sources": [
+      {
+        "url": "https://lawcha.org/2017/01/12/origins-right-work-vance-muse-anti-semitism-maintenance-jim-crow-labor-relations/",
+        "publisher": "LAWCHA (Labor and Working-Class History Association)",
+        "title": "The Origins of Right-to-Work: Vance Muse, Anti-Semitism, and the Maintenance of Jim Crow Labor Relations",
+        "date": "2017-01-12"
+      },
+      {
+        "url": "https://www.lawcha.org/2023/08/25/michael-pierce-testifies-about-the-origin-of-right-to-work/",
+        "publisher": "LAWCHA",
+        "title": "Michael Pierce Testifies About the Origin of Right to Work",
+        "date": "2023-08-25"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Pierce writes that the Southern Committee to Uphold the Constitution, which Muse co-organized in 1936 with John Henry Kirby, was funded by northerners including John J. Raskob, Alfred P. Sloan and the du Pont brothers.",
+      "status": "reported",
+      "date": "1936",
+      "quote": "funded by northerners like John J. Raskob, Alfred P. Sloan, and the du Pont brothers",
+      "sources": [
+        {
+          "url": "https://lawcha.org/2017/01/12/origins-right-work-vance-muse-anti-semitism-maintenance-jim-crow-labor-relations/",
+          "publisher": "LAWCHA (Labor and Working-Class History Association)",
+          "title": "The Origins of Right-to-Work: Vance Muse, Anti-Semitism, and the Maintenance of Jim Crow Labor Relations",
+          "date": "2017-01-12"
+        }
+      ]
+    },
+    {
+      "claim": "Pierce says the right-to-work idea came from Dallas Morning News editorial writer William Ruggles in 1941; Muse secured Ruggles's blessing for the Christian American Association to launch a campaign to outlaw contracts requiring union membership, and Ruggles suggested the name.",
+      "status": "reported",
+      "date": "1941",
+      "quote": "The idea for Right-to-Work laws did not originate with Muse. Rather it came from Dallas Morning News editorial writer William Ruggles",
+      "sources": [
+        {
+          "url": "https://lawcha.org/2017/01/12/origins-right-work-vance-muse-anti-semitism-maintenance-jim-crow-labor-relations/",
+          "publisher": "LAWCHA (Labor and Working-Class History Association)",
+          "title": "The Origins of Right-to-Work: Vance Muse, Anti-Semitism, and the Maintenance of Jim Crow Labor Relations",
+          "date": "2017-01-12"
+        }
+      ]
+    },
+    {
+      "claim": "In 2023 testimony summarized by LAWCHA, Pierce said Arkansas planters funded Muse's successful campaign to enact a state 'anti-strike' law and turned to him in the late 1930s and early 1940s to pass what it calls the nation's first right-to-work law.",
+      "status": "reported",
+      "date": "2023-08-25",
+      "quote": "First, Arkansas planters funded Muse's successful campaign to enact a state \"anti-strike\" law.",
+      "sources": [
+        {
+          "url": "https://www.lawcha.org/2023/08/25/michael-pierce-testifies-about-the-origin-of-right-to-work/",
+          "publisher": "LAWCHA",
+          "title": "Michael Pierce Testifies About the Origin of Right to Work",
+          "date": "2023-08-25"
+        }
+      ]
+    },
+    {
+      "claim": "Journalist Chris Kromm writes that Muse founded the Christian American Association in Houston in 1936 with backing from Southern oil companies and industrialists from the Northeast.",
+      "status": "reported",
+      "date": "1936",
+      "quote": "backing from Southern oil companies and industrialists from the Northeast in 1936 in Houston",
+      "sources": [
+        {
+          "url": "https://znetwork.org/zcommentary/the-racist-roots-of-right-to-work-laws-by-chris-kromm/?amp=1",
+          "publisher": "ZNetwork",
+          "title": "The Racist Roots of Right to Work Laws"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "christian-american-association",
+      "toName": "Christian American Association",
+      "toType": "organization",
+      "relation": "founded",
+      "claim": "Muse incorporated the Christian American Association in 1936.",
+      "status": "reported",
+      "date": "1936",
+      "quote": "Muse of the Christian American Association",
+      "sources": [
+        {
+          "url": "https://lawcha.org/2017/01/12/origins-right-work-vance-muse-anti-semitism-maintenance-jim-crow-labor-relations/",
+          "publisher": "LAWCHA (Labor and Working-Class History Association)",
+          "title": "The Origins of Right-to-Work: Vance Muse, Anti-Semitism, and the Maintenance of Jim Crow Labor Relations",
+          "date": "2017-01-12"
+        },
+        {
+          "url": "https://znetwork.org/zcommentary/the-racist-roots-of-right-to-work-laws-by-chris-kromm/?amp=1",
+          "publisher": "ZNetwork",
+          "title": "The Racist Roots of Right to Work Laws"
+        }
+      ]
+    },
+    {
+      "to": "alfred-p-sloan",
+      "toName": "Alfred P. Sloan",
+      "toType": "person",
+      "relation": "funded",
+      "claim": "Pierce says Alfred P. Sloan was among the northern funders of Muse's Southern Committee to Uphold the Constitution (1936).",
+      "status": "reported",
+      "date": "1936",
+      "quote": "funded by northerners like John J. Raskob, Alfred P. Sloan, and the du Pont brothers",
+      "sources": [
+        {
+          "url": "https://lawcha.org/2017/01/12/origins-right-work-vance-muse-anti-semitism-maintenance-jim-crow-labor-relations/",
+          "publisher": "LAWCHA (Labor and Working-Class History Association)",
+          "title": "The Origins of Right-to-Work: Vance Muse, Anti-Semitism, and the Maintenance of Jim Crow Labor Relations",
+          "date": "2017-01-12"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "dupont",
+      "toName": "DuPont",
+      "toType": "company",
+      "relation": "funded",
+      "claim": "Pierce says the du Pont brothers were among the northern funders of Muse's Southern Committee to Uphold the Constitution (1936).",
+      "status": "reported",
+      "date": "1936",
+      "quote": "funded by northerners like John J. Raskob, Alfred P. Sloan, and the du Pont brothers",
+      "sources": [
+        {
+          "url": "https://lawcha.org/2017/01/12/origins-right-work-vance-muse-anti-semitism-maintenance-jim-crow-labor-relations/",
+          "publisher": "LAWCHA (Labor and Working-Class History Association)",
+          "title": "The Origins of Right-to-Work: Vance Muse, Anti-Semitism, and the Maintenance of Jim Crow Labor Relations",
+          "date": "2017-01-12"
+        }
+      ],
+      "reverse": true
+    }
+  ],
+  "openQuestions": [
+    "Site claim that the Christian American Association pushed the first right-to-work laws in Arkansas and Florida in 1944 is partly supported: Pierce credits Muse with the Arkansas law and the Labor Notes piece dates the campaign to the early 1940s, but no opened source names Florida or 1944 specifically. Named funders of the Christian American Association itself (as opposed to the Southern Committee) are not individually identified in the opened sources beyond 'Arkansas planters' and 'Southern oil companies'."
+  ]
+}

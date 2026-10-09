@@ -1,0 +1,75 @@
+{
+  "entity": "jerry-falwell",
+  "name": "Jerry Falwell",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Jerry Falwell, pastor of Thomas Road Baptist Church and host of the Old Time Gospel Hour, founded the Moral Majority with Paul Weyrich in June 1979 after Weyrich, Richard Viguerie, Howard Phillips and Terry Dolan urged him to; the organization drew on Falwell's broadcast mailing list and took over its donor publication, Journal Champion.",
+    "sources": [
+      {
+        "url": "https://www.ebsco.com/research-starters/social-sciences-and-humanities/moral-majority-founded",
+        "publisher": "EBSCO Research Starters",
+        "title": "Moral Majority Founded"
+      },
+      {
+        "url": "https://militarist-monitor.org/?p=5002",
+        "publisher": "Militarist Monitor (Institute for Policy Studies)",
+        "title": "Moral Majority"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Falwell and Weyrich founded the Moral Majority in June 1979; the organization used the mailing list of Falwell's Old Time Gospel Hour and took control of its publication, Journal Champion, which had been sent to the show's donors.",
+      "status": "reported",
+      "date": "1979-06",
+      "quote": "took control of the show's publication, Journal Champion, which had been sent to the show's donors",
+      "sources": [
+        {
+          "url": "https://militarist-monitor.org/?p=5002",
+          "publisher": "Militarist Monitor (Institute for Policy Studies)",
+          "title": "Moral Majority"
+        },
+        {
+          "url": "https://www.ebsco.com/research-starters/social-sciences-and-humanities/moral-majority-founded",
+          "publisher": "EBSCO Research Starters",
+          "title": "Moral Majority Founded"
+        }
+      ]
+    },
+    {
+      "claim": "By 1986 Falwell was claiming 500,000 contributors and a mailing list of six million for the Moral Majority.",
+      "status": "reported",
+      "date": "1986",
+      "quote": "by 1986, Falwell was claiming 500,000 contributors and a mailing list of six million",
+      "sources": [
+        {
+          "url": "https://militarist-monitor.org/?p=5002",
+          "publisher": "Militarist Monitor (Institute for Policy Studies)",
+          "title": "Moral Majority"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "moral-majority",
+      "toName": "Moral Majority",
+      "toType": "organization",
+      "relation": "co-founded",
+      "claim": "Falwell co-founded and led the Moral Majority.",
+      "status": "reported",
+      "date": "1979-06",
+      "quote": "Falwell and Weyrich founded the Moral Majority in June 1979",
+      "sources": [
+        {
+          "url": "https://www.ebsco.com/research-starters/social-sciences-and-humanities/moral-majority-founded",
+          "publisher": "EBSCO Research Starters",
+          "title": "Moral Majority Founded"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim that Weyrich recruited Falwell (Balmer) is supported by the Militarist Monitor/EBSCO accounts of the 1979 meeting."
+  ]
+}

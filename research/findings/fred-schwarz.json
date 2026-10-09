@@ -1,0 +1,53 @@
+{
+  "entity": "fred-schwarz",
+  "name": "Fred Schwarz",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Fred C. Schwarz, an Australian physician, founded the Christian Anti-Communism Crusade in Waterloo, Iowa, in 1953 and ran it, later from Long Beach, California, into the 1990s.",
+    "sources": [
+      {
+        "url": "https://militarist-monitor.org/?p=4982",
+        "publisher": "Militarist Monitor (Institute for Policy Studies)",
+        "title": "Christian Anti-Communism Crusade",
+        "date": "1991"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Schwarz founded the CACC in Waterloo, Iowa, in 1953; it later moved to Long Beach, California.",
+      "status": "reported",
+      "date": "1953",
+      "quote": "founded in Waterloo, Iowa, by Dr. Fred C. Schwarz in l953",
+      "sources": [
+        {
+          "url": "https://militarist-monitor.org/?p=4982",
+          "publisher": "Militarist Monitor (Institute for Policy Studies)",
+          "title": "Christian Anti-Communism Crusade",
+          "date": "1991"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "christian-anti-communism-crusade",
+      "toName": "Christian Anti-Communism Crusade",
+      "toType": "organization",
+      "relation": "founded",
+      "claim": "Schwarz founded the CACC.",
+      "status": "reported",
+      "date": "1953",
+      "quote": "founded in Waterloo, Iowa, by Dr. Fred C. Schwarz in l953",
+      "sources": [
+        {
+          "url": "https://militarist-monitor.org/?p=4982",
+          "publisher": "Militarist Monitor (Institute for Policy Studies)",
+          "title": "Christian Anti-Communism Crusade",
+          "date": "1991"
+        }
+      ]
+    }
+  ],
+  "openQuestions": []
+}

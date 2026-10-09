@@ -1,0 +1,83 @@
+{
+  "entity": "committee-for-constitutional-government",
+  "name": "Committee for Constitutional Government",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The Committee for Constitutional Government began in 1937 as the National Committee to Uphold Constitutional Government, founded by publisher Frank Gannett, Amos Pinchot and Edward Rumely to oppose Roosevelt's court-packing plan; it took its later name in 1941. Historian David Beito writes that Gannett, the official chairman, wrote the checks while Rumely ran operations. In 1950 the House Select Committee on Lobbying Activities (the Buchanan Committee) investigated its book-distribution campaigns, and the House cited Rumely for contempt when he refused to name purchasers; the Supreme Court later upheld reversal of his conviction in United States v. Rumely.",
+    "sources": [
+      {
+        "url": "https://www.nationalreview.com/2013/07/new-deal-witch-hunt-david-t-beito/amp/",
+        "publisher": "National Review",
+        "title": "New Deal Witch Hunt (David T. Beito)",
+        "date": "2013-07"
+      },
+      {
+        "url": "https://law-journals-books.vlex.com/vid/new-deal-witch-hunt-643880217",
+        "publisher": "vLex (law journal)",
+        "title": "New Deal Witch Hunt"
+      },
+      {
+        "url": "https://fee.org/articles/the-day-fee-was-called-before-congress/",
+        "publisher": "Foundation for Economic Education",
+        "title": "The Day FEE Was Called Before Congress"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Beito writes that Gannett, the committee's official chairman, wrote the checks and Rumely ran the day-to-day operations, initially as public-relations director; the group was renamed the Committee for Constitutional Government in 1941.",
+      "status": "reported",
+      "date": "1937–1941",
+      "quote": "Gannett, the official chairman, wrote the checks, and Rumely ran the day-to-day operations",
+      "sources": [
+        {
+          "url": "https://www.nationalreview.com/2013/07/new-deal-witch-hunt-david-t-beito/amp/",
+          "publisher": "National Review",
+          "title": "New Deal Witch Hunt (David T. Beito)",
+          "date": "2013-07"
+        },
+        {
+          "url": "https://law-journals-books.vlex.com/vid/new-deal-witch-hunt-643880217",
+          "publisher": "vLex (law journal)",
+          "title": "New Deal Witch Hunt"
+        }
+      ]
+    },
+    {
+      "claim": "FEE's own account of the 1950 Buchanan Committee says the House Select Committee on Lobbying Activities singled out conservative organizations such as the anti-New Deal Committee for Constitutional Government, with a key aim of identifying buyers of John T. Flynn's book The Road Ahead, which the committee distributed.",
+      "status": "reported",
+      "date": "1950",
+      "quote": "singled out conservative organizations such as the anti-New Deal Committee for Constitutional Government",
+      "sources": [
+        {
+          "url": "https://fee.org/articles/the-day-fee-was-called-before-congress/",
+          "publisher": "Foundation for Economic Education",
+          "title": "The Day FEE Was Called Before Congress"
+        }
+      ]
+    },
+    {
+      "claim": "At his June 1950 testimony Rumely refused, citing the First Amendment, to name purchasers of the committee's books; on the Buchanan Committee's recommendation the House voted to cite him for contempt, and in United States v. Rumely the Supreme Court upheld the reversal of his conviction.",
+      "status": "court",
+      "date": "1950–1953",
+      "quote": "Rumely refused to name the Americans who had purchased a book critical of the New Deal, citing the First Amendment",
+      "sources": [
+        {
+          "url": "https://law-journals-books.vlex.com/vid/new-deal-witch-hunt-643880217",
+          "publisher": "vLex (law journal)",
+          "title": "New Deal Witch Hunt"
+        },
+        {
+          "url": "https://www.nationalreview.com/2013/07/new-deal-witch-hunt-david-t-beito/amp/",
+          "publisher": "National Review",
+          "title": "New Deal Witch Hunt (David T. Beito)",
+          "date": "2013-07"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "openQuestions": [
+    "Frank Gannett is not a seeded entity, so the 'funded' link (Gannett wrote the checks) is recorded here as a fact only. No opened source links Norman Vincent Peale to the committee, so no Peale file was written. The Buchanan Committee hearing transcripts on govinfo were not reached."
+  ]
+}

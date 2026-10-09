@@ -1,0 +1,57 @@
+{
+  "entity": "the-fellowship-foundation",
+  "name": "The Fellowship Foundation",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The Fellowship Foundation (International Christian Leadership; also called the Family) is the organization built by Methodist minister Abraham Vereide whose dedicatory breakfast with President Eisenhower on February 5, 1953 at the Mayflower Hotel began the Presidential, now National, Prayer Breakfast.",
+    "sources": [
+      {
+        "url": "https://www.smithsonianmag.com/history/national-prayer-breakfast-what-does-its-history-reveal-180962017/",
+        "publisher": "Smithsonian Magazine",
+        "title": "National Prayer Breakfast: What Does Its History Reveal?"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The first Presidential Prayer Breakfast was International Christian Leadership's dedicatory breakfast at the Mayflower Hotel on February 5, 1953, attended by Eisenhower and some 400–500 people.",
+      "status": "reported",
+      "date": "1953-02-05",
+      "quote": "held at Hilton's Mayflower Hotel in Washington, D.C. with some 500 people attending",
+      "sources": [
+        {
+          "url": "https://www.smithsonianmag.com/history/national-prayer-breakfast-what-does-its-history-reveal-180962017/",
+          "publisher": "Smithsonian Magazine",
+          "title": "National Prayer Breakfast: What Does Its History Reveal?"
+        },
+        {
+          "url": "https://www.colorado.edu/asmagazine/node/4691",
+          "publisher": "University of Colorado Boulder (A&S Magazine)",
+          "title": "National Prayer Breakfast history"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "national-prayer-breakfast",
+      "toName": "National Prayer Breakfast",
+      "toType": "event",
+      "relation": "other",
+      "claim": "The Fellowship/ICL organizes the National Prayer Breakfast.",
+      "status": "reported",
+      "date": "1953–",
+      "quote": "dedicatory breakfast of the International Christian Leadership",
+      "sources": [
+        {
+          "url": "https://www.smithsonianmag.com/history/national-prayer-breakfast-what-does-its-history-reveal-180962017/",
+          "publisher": "Smithsonian Magazine",
+          "title": "National Prayer Breakfast: What Does Its History Reveal?"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Funding of the 1953 breakfast and of ICL's early operations (the brief's 'Conrad Hilton and other sponsors') was not established from opened sources; Hilton is documented as host in 1956 only."
+  ]
+}

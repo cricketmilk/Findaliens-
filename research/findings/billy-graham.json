@@ -1,0 +1,139 @@
+{
+  "entity": "billy-graham",
+  "name": "Billy Graham",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Evangelist Billy Graham's 1949 Los Angeles tent crusade became a national story after William Randolph Hearst reportedly told his editors to 'Puff Graham'; in 1950 Henry Luce attended Graham's Columbia, South Carolina, crusade and, per Graham's autobiography, decided Time and Life would support the work editorially. After Atlanta newspapers in 1950 printed photographs of Graham beside bags of money from a 'love offering,' he formed the Billy Graham Evangelistic Association with a board of businessmen and put himself on a salary. He was a founder of Christianity Today in 1956, which J. Howard Pew funded.",
+    "sources": [
+      {
+        "url": "https://getreligion.org/2007/09/stories-inside-that-la-tent-revival?format=amp",
+        "publisher": "GetReligion",
+        "title": "Stories inside that L.A. revival tent",
+        "date": "2007-09"
+      },
+      {
+        "url": "https://billygraham.org/?p=141937",
+        "publisher": "Billy Graham Evangelistic Association",
+        "title": "Billy Graham Trivia: What Well-Known Publication Vowed to Support His Ministry?"
+      },
+      {
+        "url": "https://religionnews.com/2018/02/23/billy-graham-made-sure-integrity-never-question/",
+        "publisher": "Religion News Service",
+        "title": "Billy Graham made sure integrity was never in question",
+        "date": "2018-02-23"
+      },
+      {
+        "url": "https://www.cambridge.org/core/journals/enterprise-and-society/article/christianity-today-j-howard-pew-and-the-business-of-conservative-evangelicalism/4813355247B18162CA14D56C5AC74E00",
+        "publisher": "Cambridge University Press (Enterprise & Society)",
+        "title": "Christianity Today, J. Howard Pew, and the Business of Conservative Evangelicalism"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Hearst's newspapers gave Graham's 1949 Los Angeles crusade national exposure after his reported 'Puff Graham' instruction; the crusade was extended from three weeks to eight and Graham later said he heard of the telegram from two of Hearst's sons.",
+      "status": "reported",
+      "date": "1949",
+      "quote": "Puff Graham",
+      "sources": [
+        {
+          "url": "https://getreligion.org/2007/09/stories-inside-that-la-tent-revival?format=amp",
+          "publisher": "GetReligion",
+          "title": "Stories inside that L.A. revival tent",
+          "date": "2007-09"
+        },
+        {
+          "url": "https://billygrahamlibrary.org/blog-looking-back-at-1949-los-angeles-crusade/",
+          "publisher": "Billy Graham Library",
+          "title": "Looking Back at the 1949 Los Angeles Crusade"
+        }
+      ]
+    },
+    {
+      "claim": "Graham's autobiography, quoted by the BGEA, says Henry Luce, after attending a 1950 Columbia crusade meeting and dining with Graham, decided his magazines 'would not only carry newsworthy articles about our work, but would also support us editorially.'",
+      "status": "words",
+      "date": "1950",
+      "quote": "would not only carry newsworthy articles about our work, but would also support us editorially",
+      "sources": [
+        {
+          "url": "https://billygraham.org/?p=141937",
+          "publisher": "Billy Graham Evangelistic Association",
+          "title": "Billy Graham Trivia: What Well-Known Publication Vowed to Support His Ministry?"
+        }
+      ]
+    },
+    {
+      "claim": "After the 1950 Atlanta crusade, local papers printed images of Graham waving goodbye beside a picture of bags of money collected at the meetings; Religion News Service reports he had been given a $9,000 'love offering,' never accepted another, assembled a board of businessmen to oversee the ministry and put himself and his staff on salary.",
+      "status": "reported",
+      "date": "1950",
+      "quote": "assembled a board of businessmen to oversee his ministry and put himself and his staff on salary",
+      "sources": [
+        {
+          "url": "https://religionnews.com/2018/02/23/billy-graham-made-sure-integrity-never-question/",
+          "publisher": "Religion News Service",
+          "title": "Billy Graham made sure integrity was never in question",
+          "date": "2018-02-23"
+        }
+      ]
+    },
+    {
+      "claim": "Biographer William Martin puts Graham's 1952 salary at $15,000; crusade collections were redirected to local crusade committees.",
+      "status": "reported",
+      "date": "1952",
+      "quote": "any money raised at his crusades went to the local crusade committee",
+      "sources": [
+        {
+          "url": "https://religionnews.com/2018/02/23/billy-graham-made-sure-integrity-never-question/",
+          "publisher": "Religion News Service",
+          "title": "Billy Graham made sure integrity was never in question",
+          "date": "2018-02-23"
+        },
+        {
+          "url": "https://www.georgiaencyclopedia.org/articles/arts-culture/billy-graham-crusades",
+          "publisher": "New Georgia Encyclopedia",
+          "title": "Billy Graham Crusades"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "billy-graham-evangelistic-association",
+      "toName": "Billy Graham Evangelistic Association",
+      "toType": "organization",
+      "relation": "founded",
+      "claim": "Graham formed the BGEA with a board of businessmen after the 1950 Atlanta episode.",
+      "status": "reported",
+      "date": "1950",
+      "quote": "assembled a board of businessmen to oversee his ministry",
+      "sources": [
+        {
+          "url": "https://religionnews.com/2018/02/23/billy-graham-made-sure-integrity-never-question/",
+          "publisher": "Religion News Service",
+          "title": "Billy Graham made sure integrity was never in question",
+          "date": "2018-02-23"
+        }
+      ]
+    },
+    {
+      "to": "christianity-today",
+      "toName": "Christianity Today",
+      "toType": "publication",
+      "relation": "co-founded",
+      "claim": "Graham was a founder of Christianity Today (1956).",
+      "status": "peer",
+      "date": "1956",
+      "quote": "founded by Graham, Bell, and others",
+      "sources": [
+        {
+          "url": "https://www.cambridge.org/core/journals/enterprise-and-society/article/christianity-today-j-howard-pew-and-the-business-of-conservative-evangelicalism/4813355247B18162CA14D56C5AC74E00",
+          "publisher": "Cambridge University Press (Enterprise & Society)",
+          "title": "Christianity Today, J. Howard Pew, and the Business of Conservative Evangelicalism"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Hearst and Luce gave press backing, not documented money; no source shows cash from either to Graham. The exact love-offering sum varies between sources ($9,000 in RNS; $25,000 in a podcast blurb)."
+  ]
+}

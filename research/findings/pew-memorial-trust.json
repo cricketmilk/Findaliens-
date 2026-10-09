@@ -1,0 +1,116 @@
+{
+  "entity": "pew-memorial-trust",
+  "name": "Pew Memorial Trust",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The Pew Memorial Foundation was established in 1948 by the four children of Sun Oil founder Joseph Newton Pew (J. Howard Pew, Mary Ethel Pew, Joseph N. Pew Jr. and Mabel Pew Myrin) as a memorial to their parents; its early grants were made anonymously. In 1957 the foundation was reorganized and its assets moved into The Pew Memorial Trust, which is one of the seven funds whose sole beneficiary is The Pew Charitable Trusts. A 1991 Militarist Monitor profile records a series of Pew Memorial Trust grants to the Christian Anti-Communism Crusade between 1969 and 1978.",
+    "sources": [
+      {
+        "url": "https://www.pewtrusts.org/en/about/history",
+        "publisher": "The Pew Charitable Trusts",
+        "title": "History"
+      },
+      {
+        "url": "https://militarist-monitor.org/?p=4982",
+        "publisher": "Militarist Monitor (Institute for Policy Studies)",
+        "title": "Christian Anti-Communism Crusade",
+        "date": "1991"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The Pew Charitable Trusts says it is the sole beneficiary of seven individual charitable funds established between 1948 and 1979 by two sons and two daughters of Sun Oil founder Joseph Newton Pew.",
+      "status": "documented",
+      "date": "1948",
+      "quote": "The Pew Charitable Trusts, an independent nonprofit, is the sole beneficiary of seven individual charitable funds established between 1948 and 1979",
+      "sources": [
+        {
+          "url": "https://www.pewtrusts.org/en/about/history",
+          "publisher": "The Pew Charitable Trusts",
+          "title": "History"
+        }
+      ]
+    },
+    {
+      "claim": "The original Pew Memorial Foundation made its grants anonymously; in 1957 it was reorganized and its assets moved into The Pew Memorial Trust.",
+      "status": "documented",
+      "date": "1957",
+      "quote": "The original Pew Memorial Foundation was a grantmaking organization that made donations anonymously",
+      "sources": [
+        {
+          "url": "https://www.pewtrusts.org/en/about/history",
+          "publisher": "The Pew Charitable Trusts",
+          "title": "History"
+        }
+      ]
+    },
+    {
+      "claim": "The trusts that fund Pew's operations divested their holdings in Sun Company (Sun Oil Co.) in 1997, and the organization became a public charity in 2002.",
+      "status": "documented",
+      "date": "1997",
+      "quote": "the seven trusts that fund Pew operations divested their holdings in Sun Company (Sun Oil Co.) in 1997",
+      "sources": [
+        {
+          "url": "https://www.pewtrusts.org/en/about/history",
+          "publisher": "The Pew Charitable Trusts",
+          "title": "History"
+        }
+      ]
+    },
+    {
+      "claim": "A 1991 Militarist Monitor profile lists Pew Memorial Trust grants to the Christian Anti-Communism Crusade of $30,000 in 1969, $25,000 in 1972, $45,000 in 1974, $50,000 in 1977 and $65,000 in 1977–78.",
+      "status": "reported",
+      "date": "1969–1978",
+      "quote": "Pew Memorial Trust ($30,000 in 1969, $25,000 in 1972, $45,000 in 1974, $50,000 in 1977, and $65,000 from l977-78)",
+      "sources": [
+        {
+          "url": "https://militarist-monitor.org/?p=4982",
+          "publisher": "Militarist Monitor (Institute for Policy Studies)",
+          "title": "Christian Anti-Communism Crusade",
+          "date": "1991"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "christian-anti-communism-crusade",
+      "toName": "Christian Anti-Communism Crusade",
+      "toType": "organization",
+      "relation": "funded",
+      "claim": "Militarist Monitor records Pew Memorial Trust grants to the Christian Anti-Communism Crusade totalling $215,000 between 1969 and 1978.",
+      "status": "reported",
+      "date": "1969–1978",
+      "quote": "Pew Memorial Trust ($30,000 in 1969, $25,000 in 1972, $45,000 in 1974, $50,000 in 1977, and $65,000 from l977-78)",
+      "sources": [
+        {
+          "url": "https://militarist-monitor.org/?p=4982",
+          "publisher": "Militarist Monitor (Institute for Policy Studies)",
+          "title": "Christian Anti-Communism Crusade",
+          "date": "1991"
+        }
+      ]
+    },
+    {
+      "to": "sun-oil",
+      "toName": "Sun Oil",
+      "toType": "company",
+      "relation": "owns",
+      "claim": "The Pew trusts held Sun Company (Sun Oil) stock until divesting it in 1997.",
+      "status": "documented",
+      "date": "until 1997",
+      "quote": "divested their holdings in Sun Company (Sun Oil Co.) in 1997",
+      "sources": [
+        {
+          "url": "https://www.pewtrusts.org/en/about/history",
+          "publisher": "The Pew Charitable Trusts",
+          "title": "History"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The Pew Trusts' own history does not itemize 1950s–70s religious grants; the Christian Anti-Communism Crusade figures rest on a single 1991 advocacy-oriented profile and should be checked against the trust's annual reports or 990s."
+  ]
+}

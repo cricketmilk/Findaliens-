@@ -151,6 +151,20 @@
           "date": "2019"
         }
       ]
+    },
+    {
+      "claim": "Historian Kevin Kruse says the heads of the U.S. Chamber of Commerce were among the heavy funders of James Fifield's Spiritual Mobilization.",
+      "status": "reported",
+      "date": "1940s",
+      "quote": "the heads of the U.S. Chamber of Commerce",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2015/03/30/396365659/how-one-nation-didnt-become-under-god-until-the-50s-religious-revival",
+          "publisher": "NPR (Fresh Air)",
+          "title": "How 'One Nation' Didn't Become 'Under God' Until The '50s Religious Revival",
+          "date": "2015-03-30"
+        }
+      ]
     }
   ],
   "connections": [
@@ -233,12 +247,31 @@
           "date": "2019-04-02"
         }
       ]
+    },
+    {
+      "to": "spiritual-mobilization",
+      "toName": "Spiritual Mobilization",
+      "toType": "organization",
+      "relation": "funded",
+      "claim": "Kruse names the heads of the U.S. Chamber of Commerce among Spiritual Mobilization's funders.",
+      "status": "reported",
+      "date": "1940s",
+      "quote": "the heads of the U.S. Chamber of Commerce",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2015/03/30/396365659/how-one-nation-didnt-become-under-god-until-the-50s-religious-revival",
+          "publisher": "NPR (Fresh Air)",
+          "title": "How 'One Nation' Didn't Become 'Under God' Until The '50s Religious Revival",
+          "date": "2015-03-30"
+        }
+      ]
     }
   ],
   "openQuestions": [
     "OpenSecrets' own pages were not among the results; the lobbying totals are cited through Statista and a trade publication that credit OpenSecrets.",
     "The Chamber's response to the 2009 resignations was not found.",
     "A secondary summary reported the Chamber as the top spender in 2025 at $72.1 million; this was not verified.",
-    "The Chamber's current climate position page has been updated since 2019 and should be read as the company's present stance."
+    "The Chamber's current climate position page has been updated since 2019 and should be read as the company's present stance.",
+    "Kruse's wording ('the heads of') may refer to individual Chamber leaders rather than the Chamber as an institution."
   ]
 }

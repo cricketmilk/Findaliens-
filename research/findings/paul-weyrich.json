@@ -1,0 +1,164 @@
+{
+  "entity": "paul-weyrich",
+  "name": "Paul Weyrich",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Paul Weyrich co-founded the Heritage Foundation with Edwin Feulner and Joseph Coors in 1973 and was its first president, and in June 1979 co-founded the Moral Majority with Jerry Falwell, giving it its name. Historian Randall Balmer argues Weyrich used the IRS's denial of tax exemption to segregated private schools, not abortion, to forge the religious right; critics dispute that account.",
+    "sources": [
+      {
+        "url": "https://modernagejournal.com/paul-weyrich-father-of-a-new-right/236103/",
+        "publisher": "Modern Age",
+        "title": "Paul Weyrich: Father of a New Right"
+      },
+      {
+        "url": "https://www.ebsco.com/research-starters/social-sciences-and-humanities/moral-majority-founded",
+        "publisher": "EBSCO Research Starters",
+        "title": "Moral Majority Founded"
+      },
+      {
+        "url": "https://www.catholicleague.org/the-real-origins-of-the-religious-right-2/",
+        "publisher": "Catholic League",
+        "title": "The Real Origins of the Religious Right"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Weyrich co-founded the Heritage Foundation on February 16, 1973 with Feulner and Coors and served as its first president.",
+      "status": "reported",
+      "date": "1973",
+      "quote": "founded on February 16, 1973 by Paul Weyrich, Edwin Feulner, and Joseph Coors",
+      "sources": [
+        {
+          "url": "https://modernagejournal.com/paul-weyrich-father-of-a-new-right/236103/",
+          "publisher": "Modern Age",
+          "title": "Paul Weyrich: Father of a New Right"
+        }
+      ]
+    },
+    {
+      "claim": "After leaving Christian Voice in 1978, Weyrich, Terry Dolan, Richard Viguerie and Howard Phillips urged Falwell at a 1979 meeting to found the Moral Majority; Falwell and Weyrich founded it in June 1979 and Weyrich is credited with the name.",
+      "status": "reported",
+      "date": "1979-06",
+      "quote": "Falwell and Weyrich founded the Moral Majority in June 1979",
+      "sources": [
+        {
+          "url": "https://www.ebsco.com/research-starters/social-sciences-and-humanities/moral-majority-founded",
+          "publisher": "EBSCO Research Starters",
+          "title": "Moral Majority Founded"
+        },
+        {
+          "url": "https://militarist-monitor.org/?p=5002",
+          "publisher": "Militarist Monitor (Institute for Policy Studies)",
+          "title": "Moral Majority"
+        }
+      ]
+    },
+    {
+      "claim": "Historian Randall Balmer argues that a 1971 federal court decision affirming the IRS's right to deny tax exemption to racially discriminatory private schools, and the 1976 revocation of Bob Jones University's exemption, were seized on by Weyrich to unite evangelicals and Catholics, citing Weyrich's own remarks at a 1990 meeting. The Catholic League, The Gospel Coalition and The Federalist dispute the causal account.",
+      "status": "reported",
+      "date": "2014",
+      "quote": "a federal court decision in 1971 affirming the right of the IRS to deny a tax-exempt status to racially discriminatory private schools was seized upon by Weyrich",
+      "sources": [
+        {
+          "url": "https://www.catholicleague.org/the-real-origins-of-the-religious-right-2/",
+          "publisher": "Catholic League",
+          "title": "The Real Origins of the Religious Right"
+        },
+        {
+          "url": "https://www.thegospelcoalition.org/blogs/evangelical-history/fact-checking-randall-balmers-urban-legend-on-the-real-origin-of-the-religious-right/",
+          "publisher": "The Gospel Coalition",
+          "title": "Fact-Checking Randall Balmer's Urban Legend on the Real Origin of the Religious Right"
+        },
+        {
+          "url": "https://www.sas.upenn.edu/andrea-mitchell-center/sites/www.sas.upenn.edu.andrea-mitchell-center/files/Balmer%20-%20Historian's%20Pickaxe.pdf",
+          "publisher": "University of Pennsylvania (Andrea Mitchell Center)",
+          "title": "Randall Balmer, Historian's Pickaxe"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "heritage-foundation",
+      "toName": "Heritage Foundation",
+      "toType": "think tank",
+      "relation": "co-founded",
+      "claim": "Weyrich co-founded Heritage in 1973.",
+      "status": "reported",
+      "date": "1973",
+      "quote": "founded on February 16, 1973 by Paul Weyrich, Edwin Feulner, and Joseph Coors",
+      "sources": [
+        {
+          "url": "https://modernagejournal.com/paul-weyrich-father-of-a-new-right/236103/",
+          "publisher": "Modern Age",
+          "title": "Paul Weyrich: Father of a New Right"
+        }
+      ]
+    },
+    {
+      "to": "moral-majority",
+      "toName": "Moral Majority",
+      "toType": "organization",
+      "relation": "co-founded",
+      "claim": "Weyrich co-founded the Moral Majority with Falwell in June 1979.",
+      "status": "reported",
+      "date": "1979-06",
+      "quote": "Falwell and Weyrich founded the Moral Majority in June 1979",
+      "sources": [
+        {
+          "url": "https://www.ebsco.com/research-starters/social-sciences-and-humanities/moral-majority-founded",
+          "publisher": "EBSCO Research Starters",
+          "title": "Moral Majority Founded"
+        }
+      ]
+    },
+    {
+      "to": "jerry-falwell",
+      "toName": "Jerry Falwell",
+      "toType": "person",
+      "relation": "partnered with",
+      "claim": "Weyrich recruited Falwell to lead the Moral Majority in 1979.",
+      "status": "reported",
+      "date": "1979",
+      "quote": "urged Falwell to found Moral Majority",
+      "sources": [
+        {
+          "url": "https://militarist-monitor.org/?p=5002",
+          "publisher": "Militarist Monitor (Institute for Policy Studies)",
+          "title": "Moral Majority"
+        },
+        {
+          "url": "https://www.ebsco.com/research-starters/social-sciences-and-humanities/moral-majority-founded",
+          "publisher": "EBSCO Research Starters",
+          "title": "Moral Majority Founded"
+        }
+      ]
+    },
+    {
+      "to": "randall-balmer",
+      "toName": "Randall Balmer",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Balmer's 2014 Politico essay and Bad Faith (2021) make the argument about Weyrich and the IRS; the site records it as an argument with dissent noted.",
+      "status": "reported",
+      "date": "2014",
+      "quote": "seized upon by Weyrich to forge a union between evangelicals and Catholics",
+      "sources": [
+        {
+          "url": "https://www.catholicleague.org/the-real-origins-of-the-religious-right-2/",
+          "publisher": "Catholic League",
+          "title": "The Real Origins of the Religious Right"
+        },
+        {
+          "url": "https://www.sas.upenn.edu/andrea-mitchell-center/sites/www.sas.upenn.edu.andrea-mitchell-center/files/Balmer%20-%20Historian's%20Pickaxe.pdf",
+          "publisher": "University of Pennsylvania (Andrea Mitchell Center)",
+          "title": "Randall Balmer, Historian's Pickaxe"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (Balmer argument) is supported as an argument, with dissent from the Catholic League, Gospel Coalition and Federalist recorded; Politico itself was unreachable so Balmer's wording is taken from critics' quotations and his own Penn paper."
+  ]
+}

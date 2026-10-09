@@ -1,0 +1,60 @@
+{
+  "entity": "robert-welch",
+  "name": "Robert Welch",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Robert W. Welch Jr., a retired candy manufacturer, founded the John Birch Society in Indianapolis on December 9, 1958 and led it until 1983, when he became chairman emeritus.",
+    "sources": [
+      {
+        "url": "https://jbs.org/timeline/robert-welch-founds-jbs-2/",
+        "publisher": "John Birch Society",
+        "title": "Robert Welch Founds JBS"
+      },
+      {
+        "url": "https://jbs.org/about/history/",
+        "publisher": "John Birch Society",
+        "title": "Timeline and History"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Welch founded the John Birch Society on December 9, 1958 in Indianapolis after meeting with eleven business and professional men; Larry McDonald became chairman in March 1983 with Welch as Chairman Emeritus.",
+      "status": "documented",
+      "date": "1958-12-09",
+      "quote": "Robert Welch founded The John Birch Society on December 9, 1958 in Indianapolis, Indiana",
+      "sources": [
+        {
+          "url": "https://jbs.org/timeline/robert-welch-founds-jbs-2/",
+          "publisher": "John Birch Society",
+          "title": "Robert Welch Founds JBS"
+        },
+        {
+          "url": "https://jbs.org/about/history/",
+          "publisher": "John Birch Society",
+          "title": "Timeline and History"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "john-birch-society",
+      "toName": "John Birch Society",
+      "toType": "organization",
+      "relation": "founded",
+      "claim": "Welch founded the society.",
+      "status": "documented",
+      "date": "1958",
+      "quote": "Robert Welch founded The John Birch Society on December 9, 1958",
+      "sources": [
+        {
+          "url": "https://jbs.org/timeline/robert-welch-founds-jbs-2/",
+          "publisher": "John Birch Society",
+          "title": "Robert Welch Founds JBS"
+        }
+      ]
+    }
+  ],
+  "openQuestions": []
+}

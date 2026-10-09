@@ -1,0 +1,92 @@
+{
+  "entity": "abraham-vereide",
+  "name": "Abraham Vereide",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Abraham Vereide, a Methodist minister, built the prayer-group movement (International Christian Leadership, later known as the Fellowship or the Family) that held its dedicatory breakfast with President Eisenhower at Washington's Mayflower Hotel on February 5, 1953 — the first Presidential (now National) Prayer Breakfast. Senator Frank Carlson's prayer group and Billy Graham persuaded Eisenhower to attend.",
+    "sources": [
+      {
+        "url": "https://www.smithsonianmag.com/history/national-prayer-breakfast-what-does-its-history-reveal-180962017/",
+        "publisher": "Smithsonian Magazine",
+        "title": "National Prayer Breakfast: What Does Its History Reveal?"
+      },
+      {
+        "url": "https://www.colorado.edu/asmagazine/node/4691",
+        "publisher": "University of Colorado Boulder (A&S Magazine)",
+        "title": "National Prayer Breakfast history"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Eisenhower attended the dedicatory breakfast of International Christian Leadership on February 5, 1953, about two weeks after his inauguration, at the Mayflower Hotel; the movement was Vereide's and continues under the names the Family or the Fellowship.",
+      "status": "reported",
+      "date": "1953-02-05",
+      "quote": "Eisenhower attended the dedicatory breakfast of the International Christian Leadership on Feb. 5, 1953",
+      "sources": [
+        {
+          "url": "https://www.smithsonianmag.com/history/national-prayer-breakfast-what-does-its-history-reveal-180962017/",
+          "publisher": "Smithsonian Magazine",
+          "title": "National Prayer Breakfast: What Does Its History Reveal?"
+        }
+      ]
+    },
+    {
+      "claim": "Senator Frank Carlson suggested Eisenhower meet his prayer group, and Billy Graham persuaded Eisenhower to attend after he initially declined.",
+      "status": "reported",
+      "date": "1953",
+      "quote": "Billy Graham also persuaded Eisenhower to attend after he initially declined",
+      "sources": [
+        {
+          "url": "https://www.smithsonianmag.com/history/national-prayer-breakfast-what-does-its-history-reveal-180962017/",
+          "publisher": "Smithsonian Magazine",
+          "title": "National Prayer Breakfast: What Does Its History Reveal?"
+        },
+        {
+          "url": "https://www.colorado.edu/asmagazine/node/4691",
+          "publisher": "University of Colorado Boulder (A&S Magazine)",
+          "title": "National Prayer Breakfast history"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "the-fellowship-foundation",
+      "toName": "The Fellowship Foundation",
+      "toType": "organization",
+      "relation": "founded",
+      "claim": "Vereide founded the movement known as the Fellowship / International Christian Leadership.",
+      "status": "reported",
+      "date": "1935–1953",
+      "quote": "The movement was Abraham Vereide's, and it continues today under the names the Family or the Fellowship",
+      "sources": [
+        {
+          "url": "https://www.smithsonianmag.com/history/national-prayer-breakfast-what-does-its-history-reveal-180962017/",
+          "publisher": "Smithsonian Magazine",
+          "title": "National Prayer Breakfast: What Does Its History Reveal?"
+        }
+      ]
+    },
+    {
+      "to": "national-prayer-breakfast",
+      "toName": "National Prayer Breakfast",
+      "toType": "event",
+      "relation": "founded",
+      "claim": "Vereide's ICL held the first Presidential Prayer Breakfast in 1953.",
+      "status": "reported",
+      "date": "1953-02-05",
+      "quote": "dedicatory breakfast of the International Christian Leadership on Feb. 5, 1953",
+      "sources": [
+        {
+          "url": "https://www.smithsonianmag.com/history/national-prayer-breakfast-what-does-its-history-reveal-180962017/",
+          "publisher": "Smithsonian Magazine",
+          "title": "National Prayer Breakfast: What Does Its History Reveal?"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (1935 Seattle prayer groups with anti-labor concerns, per Sharlet) was not tested against an opened source. Conrad Hilton appears as a guest in 1953 and as 'host' of the 1956 breakfast at the Mayflower in a photo caption; no opened source shows who paid for the 1953 breakfast."
+  ]
+}

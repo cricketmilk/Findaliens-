@@ -1,0 +1,95 @@
+{
+  "entity": "religion-in-american-life",
+  "name": "Religion in American Life",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Religion in American Life Inc. was a New York nonprofit of business and professional people, active from 1949, that sponsored the Ad Council's annual 'Religion in American Life' advertising campaign urging church attendance; its president described its aim as interreligious rather than ecumenical. A 1952 trade-press item said the campaign made clergymen more favourably disposed to business and advertising.",
+    "sources": [
+      {
+        "url": "https://www.csmonitor.com/1986/0501/rial-f.html",
+        "publisher": "Christian Science Monitor",
+        "title": "Business investment in faith, tolerance",
+        "date": "1986-05-01"
+      },
+      {
+        "url": "https://trace.tennessee.edu/utk_graddiss/9762",
+        "publisher": "University of Tennessee (TRACE)",
+        "title": "Doctoral dissertation on the Religion in American Life campaign (Henning, 1996)",
+        "date": "1996"
+      },
+      {
+        "url": "https://lantern.mediahist.org/catalog/sponsor52sponno2_0465",
+        "publisher": "Media History Digital Library (Sponsor magazine)",
+        "title": "Sponsor (July–Dec 1952)",
+        "date": "1952"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "RIAL is described in a 1986 Christian Science Monitor report as a nonprofit group of business and professional people based in New York, active since 1949, whose president said its aim was interreligious with no denominational ties.",
+      "status": "reported",
+      "date": "1986-05-01",
+      "quote": "a nonprofit group of business and professional people based here in New York that has been active since 1949",
+      "sources": [
+        {
+          "url": "https://www.csmonitor.com/1986/0501/rial-f.html",
+          "publisher": "Christian Science Monitor",
+          "title": "Business investment in faith, tolerance",
+          "date": "1986-05-01"
+        }
+      ]
+    },
+    {
+      "claim": "A 1952 issue of Sponsor magazine inferred from a survey of clergymen that the 'Religion in American Life' campaign moved them to be more favorably disposed to business and advertising.",
+      "status": "reported",
+      "date": "1952",
+      "quote": "moved these important molders of public opinion to be more favorably disposed to business and advertising",
+      "sources": [
+        {
+          "url": "https://lantern.mediahist.org/catalog/sponsor52sponno2_0465",
+          "publisher": "Media History Digital Library (Sponsor magazine)",
+          "title": "Sponsor (July–Dec 1952)",
+          "date": "1952"
+        }
+      ]
+    },
+    {
+      "claim": "A 1996 University of Tennessee dissertation says the group was primarily concerned with helping houses of worship with membership and fund-raising drives, and that funding problems led the Ad Council to distance itself in 1992.",
+      "status": "reported",
+      "date": "1996",
+      "quote": "primarily concerned with helping houses of worship in their membership and fund-raising drives",
+      "sources": [
+        {
+          "url": "https://trace.tennessee.edu/utk_graddiss/9762",
+          "publisher": "University of Tennessee (TRACE)",
+          "title": "Doctoral dissertation on the Religion in American Life campaign (Henning, 1996)",
+          "date": "1996"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "advertising-council",
+      "toName": "Advertising Council",
+      "toType": "organization",
+      "relation": "partnered with",
+      "claim": "The Ad Council carried RIAL's campaign from 1949.",
+      "status": "reported",
+      "date": "1949",
+      "quote": "under the low-profile sponsorship of Religion in American Life Inc.",
+      "sources": [
+        {
+          "url": "https://www.csmonitor.com/1986/0501/rial-f.html",
+          "publisher": "Christian Science Monitor",
+          "title": "Business investment in faith, tolerance",
+          "date": "1986-05-01"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Who the corporate members and donors of RIAL Inc. were is not in opened sources; the Henning (1996) dissertation and the Duke Ad Council archive would have them."
+  ]
+}

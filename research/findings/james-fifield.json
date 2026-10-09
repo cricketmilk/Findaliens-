@@ -1,0 +1,73 @@
+{
+  "entity": "james-fifield",
+  "name": "James Fifield",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "James W. Fifield Jr., minister of First Congregational Church of Los Angeles, founded Spiritual Mobilization in 1935 and led it as president. Historian Kevin Kruse describes him as a front man for corporate leaders, principally Sun Oil's J. Howard Pew, who funded the group's campaign to enlist ministers against the New Deal.",
+    "sources": [
+      {
+        "url": "https://www.npr.org/2015/03/30/396365659/how-one-nation-didnt-become-under-god-until-the-50s-religious-revival",
+        "publisher": "NPR (Fresh Air)",
+        "title": "How 'One Nation' Didn't Become 'Under God' Until The '50s Religious Revival",
+        "date": "2015-03-30"
+      },
+      {
+        "url": "https://reason.com/2015/03/25/were-libertarians-behind-the-christian-n/",
+        "publisher": "Reason",
+        "title": "Were Libertarians Behind the Christian Nation?",
+        "date": "2015-03-25"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Kruse says Fifield served as a front man for a number of corporate leaders and that within roughly a decade Spiritual Mobilization had about 17,000 'minister representatives.'",
+      "status": "reported",
+      "date": "1935–1950s",
+      "quote": "Fifield served as a front man for a number of corporate leaders",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2015/03/30/396365659/how-one-nation-didnt-become-under-god-until-the-50s-religious-revival",
+          "publisher": "NPR (Fresh Air)",
+          "title": "How 'One Nation' Didn't Become 'Under God' Until The '50s Religious Revival",
+          "date": "2015-03-30"
+        }
+      ]
+    },
+    {
+      "claim": "Kruse argues Fifield's network prepared the way for the prayer breakfasts of Methodist minister Abraham Vereide and the crusades of Billy Graham, and that the movement 'effectively harnessed Cold War anxieties for an already established campaign against the New Deal.'",
+      "status": "reported",
+      "date": "2015-03-30",
+      "quote": "effectively harnessed Cold War anxieties for an already established campaign against the New Deal",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2015/03/30/396365659/how-one-nation-didnt-become-under-god-until-the-50s-religious-revival",
+          "publisher": "NPR (Fresh Air)",
+          "title": "How 'One Nation' Didn't Become 'Under God' Until The '50s Religious Revival",
+          "date": "2015-03-30"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "spiritual-mobilization",
+      "toName": "Spiritual Mobilization",
+      "toType": "organization",
+      "relation": "founded",
+      "claim": "Fifield founded Spiritual Mobilization in 1935.",
+      "status": "reported",
+      "date": "1935",
+      "quote": "Congregationalist minister James Fifield founded it",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2015/03/30/396365659/how-one-nation-didnt-become-under-god-until-the-50s-religious-revival",
+          "publisher": "NPR (Fresh Air)",
+          "title": "How 'One Nation' Didn't Become 'Under God' Until The '50s Religious Revival",
+          "date": "2015-03-30"
+        }
+      ]
+    }
+  ],
+  "openQuestions": []
+}

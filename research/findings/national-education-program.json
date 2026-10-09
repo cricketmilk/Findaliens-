@@ -1,0 +1,84 @@
+{
+  "entity": "national-education-program",
+  "name": "National Education Program",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The National Education Program (NEP) was founded by Harding College president George S. Benson to spread his views on Americanism and free enterprise. Its animated shorts, produced by John Sutherland Productions and funded by the Alfred P. Sloan Foundation, were shown in thousands of theatres through a deal with MGM; the program attracted donations to Harding from companies including Boeing and Gulf Oil.",
+    "sources": [
+      {
+        "url": "https://encyclopediaofarkansas.net/entries/national-education-program-12187/",
+        "publisher": "Encyclopedia of Arkansas",
+        "title": "National Education Program"
+      },
+      {
+        "url": "https://www.filmpreservation.org/sponsored-films/screening-room/albert-in-blunderland-1950",
+        "publisher": "National Film Preservation Foundation",
+        "title": "Albert in Blunderland (1950)"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The Encyclopedia of Arkansas says the NEP was founded by Harding president George S. Benson to spread his views on Americanism and that his deal with MGM put NEP-produced short films in 15,000 theaters nationwide.",
+      "status": "reported",
+      "date": "1940s",
+      "quote": "shown in 15,000 theaters nationwide",
+      "sources": [
+        {
+          "url": "https://encyclopediaofarkansas.net/entries/national-education-program-12187/",
+          "publisher": "Encyclopedia of Arkansas",
+          "title": "National Education Program"
+        }
+      ]
+    },
+    {
+      "claim": "The National Film Preservation Foundation records that the Alfred P. Sloan Foundation funded the Harding College free-enterprise films, including Make Mine Freedom (1948) and Albert in Blunderland (1950), produced by John Sutherland Productions.",
+      "status": "reported",
+      "date": "1948–1950",
+      "quote": "Albert in Blunderland (1950)",
+      "sources": [
+        {
+          "url": "https://www.filmpreservation.org/sponsored-films/screening-room/albert-in-blunderland-1950",
+          "publisher": "National Film Preservation Foundation",
+          "title": "Albert in Blunderland (1950)"
+        }
+      ]
+    },
+    {
+      "claim": "The program attracted donations to Harding including from Boeing and Gulf Oil.",
+      "status": "reported",
+      "date": "1940s–50s",
+      "quote": "attracted many donations to Harding, including from Boeing and Gulf Oil",
+      "sources": [
+        {
+          "url": "https://encyclopediaofarkansas.net/entries/George-Stuart-Benson-3495",
+          "publisher": "Encyclopedia of Arkansas",
+          "title": "George Stuart Benson (1898–1991)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "alfred-p-sloan",
+      "toName": "Alfred P. Sloan",
+      "toType": "person",
+      "relation": "funded",
+      "claim": "The Alfred P. Sloan Foundation funded the NEP/Harding free-enterprise cartoons (a foundation grant, recorded here against the Sloan entity).",
+      "status": "reported",
+      "date": "c. 1947–1950",
+      "quote": "Albert in Blunderland (1950)",
+      "sources": [
+        {
+          "url": "https://www.filmpreservation.org/sponsored-films/screening-room/albert-in-blunderland-1950",
+          "publisher": "National Film Preservation Foundation",
+          "title": "Albert in Blunderland (1950)"
+        }
+      ],
+      "reverse": true
+    }
+  ],
+  "openQuestions": [
+    "Founding date disputed (1936/1941/1948). The Sloan grant amount ($300,000–$600,000) appears only in a tertiary summary; the Sloan Foundation's annual reports would confirm it. General Electric not confirmed."
+  ]
+}

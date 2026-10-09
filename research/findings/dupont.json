@@ -131,6 +131,38 @@
           "date": "2010"
         }
       ]
+    },
+    {
+      "claim": "The Foundation for Economic Education's founding followed a 1945 capital campaign started by DuPont executive Jasper Crane with Alfred Kohlberg; Crane became one of FEE's original trustees.",
+      "status": "reported",
+      "date": "1945",
+      "quote": "Jasper Crane, a DuPont executive, started a capital campaign in 1945 with Alfred Kohlberg",
+      "sources": [
+        {
+          "url": "https://fee.org/articles/the-early-history-of-fee/",
+          "publisher": "Foundation for Economic Education",
+          "title": "The Early History of FEE"
+        },
+        {
+          "url": "https://fee.org/about/history",
+          "publisher": "Foundation for Economic Education",
+          "title": "History"
+        }
+      ]
+    },
+    {
+      "claim": "Historian Michael Pierce writes that the du Pont brothers, with Alfred P. Sloan and John J. Raskob, funded Vance Muse's Southern Committee to Uphold the Constitution (1936).",
+      "status": "reported",
+      "date": "1936",
+      "quote": "funded by northerners like John J. Raskob, Alfred P. Sloan, and the du Pont brothers",
+      "sources": [
+        {
+          "url": "https://lawcha.org/2017/01/12/origins-right-work-vance-muse-anti-semitism-maintenance-jim-crow-labor-relations/",
+          "publisher": "LAWCHA (Labor and Working-Class History Association)",
+          "title": "The Origins of Right-to-Work: Vance Muse, Anti-Semitism, and the Maintenance of Jim Crow Labor Relations",
+          "date": "2017-01-12"
+        }
+      ]
     }
   ],
   "connections": [
@@ -196,11 +228,29 @@
           "date": "2024-02-16"
         }
       ]
+    },
+    {
+      "to": "foundation-for-economic-education",
+      "toName": "Foundation for Economic Education",
+      "toType": "think tank",
+      "relation": "other",
+      "claim": "DuPont executive Jasper Crane led FEE's 1945 capital campaign and sat on its founding board; this is an executive's role, not a documented corporate grant.",
+      "status": "reported",
+      "date": "1945–46",
+      "quote": "Jasper Crane, a DuPont executive",
+      "sources": [
+        {
+          "url": "https://fee.org/articles/the-early-history-of-fee/",
+          "publisher": "Foundation for Economic Education",
+          "title": "The Early History of FEE"
+        }
+      ]
     }
   ],
   "openQuestions": [
     "The 1973 and 1974 plastics-industry documents cited in 'Plastic Wars' are not attributed to DuPont in the coverage found; the full investigation should be checked for their authorship.",
     "The site's Crash Conduits entry on DuPont, General Motors and the 1934 Business Plot was outside the scope of this climate-focused research.",
-    "The Corteva separation date of 1 June 2019 is stated as planned in the filings found; the completion should be confirmed in Corteva's 2019 Form 8-K."
+    "The Corteva separation date of 1 June 2019 is stated as planned in the filings found; the completion should be confirmed in Corteva's 2019 Form 8-K.",
+    "The du Pont money named by Pierce is attributed to the du Pont brothers personally, not the company."
   ]
 }

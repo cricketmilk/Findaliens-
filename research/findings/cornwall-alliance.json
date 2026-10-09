@@ -1,0 +1,130 @@
+{
+  "entity": "cornwall-alliance",
+  "name": "Cornwall Alliance",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The Cornwall Alliance for the Stewardship of Creation, led by E. Calvin Beisner, is an evangelical group opposing climate-change policy; it released the 'Resisting the Green Dragon' video series in 2010. DeSmog reports it operates as a project of the James Partnership, which does not disclose its donors; more than half of the James Partnership's roughly $340,000 of 2012 income came from Donors Trust, and about a quarter of its income went to Beisner's salary. A 2010 report found Cornwall and CFACT shared the fundraising firm ClearWord Communications and that Beisner sat on CFACT's board.",
+    "sources": [
+      {
+        "url": "https://www.desmog.com/cornwall-alliance-stewardship-creation",
+        "publisher": "DeSmog",
+        "title": "Cornwall Alliance for the Stewardship of Creation"
+      },
+      {
+        "url": "https://s3.documentcloud.org/documents/2067683/cornwall-alliance.pdf",
+        "publisher": "DeSmog (via DocumentCloud)",
+        "title": "Cornwall Alliance background document",
+        "date": "2015"
+      },
+      {
+        "url": "https://phys-l.org/archives/2010/10_2010/msg00293.html",
+        "publisher": "Phys-L archive (reposted ThinkProgress report)",
+        "title": "Cornwall Alliance / CFACT report, October 2010",
+        "date": "2010-10"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "DeSmog reports that the James Partnership, which runs the Cornwall Alliance as a project, chooses not to disclose its funding sources, and that per Conservative Transparency more than half of its $340,000 of 2012 income came from Donors Trust.",
+      "status": "reported",
+      "date": "2012",
+      "quote": "more than half of the James Partnership's $340,000 of income in 2012 came from the \"dark money\" funding group known as Donors Trust (DT)",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/cornwall-alliance-stewardship-creation",
+          "publisher": "DeSmog",
+          "title": "Cornwall Alliance for the Stewardship of Creation"
+        },
+        {
+          "url": "https://s3.documentcloud.org/documents/2067683/cornwall-alliance.pdf",
+          "publisher": "DeSmog (via DocumentCloud)",
+          "title": "Cornwall Alliance background document",
+          "date": "2015"
+        }
+      ]
+    },
+    {
+      "claim": "A 2015 DeSmog background document says that, according to US tax records, about a quarter of the James Partnership's income is spent on the salary of Calvin Beisner, the Cornwall Alliance's founder and spokesperson.",
+      "status": "reported",
+      "date": "2015",
+      "quote": "about one quarter of the James Partnership's income is spent on the salary of Calvin Beisner",
+      "sources": [
+        {
+          "url": "https://s3.documentcloud.org/documents/2067683/cornwall-alliance.pdf",
+          "publisher": "DeSmog (via DocumentCloud)",
+          "title": "Cornwall Alliance background document",
+          "date": "2015"
+        }
+      ]
+    },
+    {
+      "claim": "A 2010 ThinkProgress report (reposted) said Washington State filings showed CFACT and the Cornwall Alliance shared a common fundraising firm, ClearWord Communications Group, and that Beisner was a CFACT board member; Cornwall's spokesman denied any relationship with CFACT.",
+      "status": "reported",
+      "date": "2010-10",
+      "quote": "share a common fundraising firm, ClearWord Communications Group",
+      "sources": [
+        {
+          "url": "https://phys-l.org/archives/2010/10_2010/msg00293.html",
+          "publisher": "Phys-L archive (reposted ThinkProgress report)",
+          "title": "Cornwall Alliance / CFACT report, October 2010",
+          "date": "2010-10"
+        }
+      ]
+    },
+    {
+      "claim": "DeSmog reports that CDR Communications, whose head also ran the James Partnership, produced the 'Resisting the Green Dragon' video series for the Cornwall Alliance.",
+      "status": "reported",
+      "date": "2010",
+      "quote": "including the \"Resisting the Green Dragon\" video series",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/cornwall-alliance-stewardship-creation",
+          "publisher": "DeSmog",
+          "title": "Cornwall Alliance for the Stewardship of Creation"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "donors-trust",
+      "toName": "Donors Trust",
+      "toType": "fund",
+      "relation": "funded",
+      "claim": "Donors Trust supplied more than half of the James Partnership's (Cornwall's parent) 2012 income, per DeSmog/Conservative Transparency.",
+      "status": "reported",
+      "date": "2012",
+      "quote": "more than half of the James Partnership's $340,000 of income in 2012 came from",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/cornwall-alliance-stewardship-creation",
+          "publisher": "DeSmog",
+          "title": "Cornwall Alliance for the Stewardship of Creation"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "cfact",
+      "toName": "CFACT",
+      "toType": "organization",
+      "relation": "other",
+      "claim": "Cornwall and CFACT shared a fundraising firm and Beisner sat on CFACT's board, per a 2010 report; Cornwall denied a relationship.",
+      "status": "reported",
+      "date": "2010",
+      "quote": "Beisner is a board member of CFACT",
+      "sources": [
+        {
+          "url": "https://phys-l.org/archives/2010/10_2010/msg00293.html",
+          "publisher": "Phys-L archive (reposted ThinkProgress report)",
+          "title": "Cornwall Alliance / CFACT report, October 2010",
+          "date": "2010-10"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (Cornwall leaders worked with fossil-funded groups CFACT and Heartland) is supported for CFACT by the 2010 report; the Heartland link appears only through Cornwall's listing as a 2009 Heartland conference sponsor in DeSmog's tally, which recorded no Exxon/Scaife/Koch funding for Cornwall itself. Cornwall's own 990s were not opened; all funding figures are from advocacy outlets and are labelled as reported."
+  ]
+}

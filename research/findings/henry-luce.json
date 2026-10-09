@@ -1,0 +1,70 @@
+{
+  "entity": "henry-luce",
+  "name": "Henry Luce",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Time Inc. founder Henry Luce travelled to Columbia, South Carolina, in 1950 to see Billy Graham's crusade and dined with him afterwards; Graham's autobiography says Luce decided his magazines would carry articles about the work and support it editorially. Graham first appeared on Time's cover in 1954.",
+    "sources": [
+      {
+        "url": "https://billygraham.org/?p=141937",
+        "publisher": "Billy Graham Evangelistic Association",
+        "title": "Billy Graham Trivia: What Well-Known Publication Vowed to Support His Ministry?"
+      },
+      {
+        "url": "https://accuracy.org/release/billy-graham-prince-of-war/",
+        "publisher": "Institute for Public Accuracy",
+        "title": "Billy Graham: 'Prince of War' (Cecil Bothwell)"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The Billy Graham Evangelistic Association says Luce attended one of Graham's 1950 Columbia crusade meetings and met Graham for dinner, and quotes Graham's autobiography that Luce decided his magazines 'would not only carry newsworthy articles about our work, but would also support us editorially.'",
+      "status": "words",
+      "date": "1950",
+      "quote": "would not only carry newsworthy articles about our work, but would also support us editorially",
+      "sources": [
+        {
+          "url": "https://billygraham.org/?p=141937",
+          "publisher": "Billy Graham Evangelistic Association",
+          "title": "Billy Graham Trivia: What Well-Known Publication Vowed to Support His Ministry?"
+        }
+      ]
+    },
+    {
+      "claim": "A critical account by Cecil Bothwell says Hearst contacted Luce and Bernard Baruch arranged the Columbia meeting while Graham was staying at Governor Strom Thurmond's mansion, and that Time alone has run more than 600 stories about Graham.",
+      "status": "reported",
+      "date": "1950",
+      "quote": "Time, alone, has run more than 600 stories about Graham",
+      "sources": [
+        {
+          "url": "https://accuracy.org/release/billy-graham-prince-of-war/",
+          "publisher": "Institute for Public Accuracy",
+          "title": "Billy Graham: 'Prince of War' (Cecil Bothwell)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "billy-graham",
+      "toName": "Billy Graham",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Luce's Time and Life magazines gave Graham editorial support from 1950, per Graham's own account (media backing, not a documented cash payment).",
+      "status": "words",
+      "date": "1950",
+      "quote": "would also support us editorially",
+      "sources": [
+        {
+          "url": "https://billygraham.org/?p=141937",
+          "publisher": "Billy Graham Evangelistic Association",
+          "title": "Billy Graham Trivia: What Well-Known Publication Vowed to Support His Ministry?"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Life magazine's 1949 coverage is noted by the Billy Graham Library but no specific 1950 Life or Time article was found; Luce's correspondence was not opened."
+  ]
+}

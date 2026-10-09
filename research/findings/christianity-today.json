@@ -1,0 +1,89 @@
+{
+  "entity": "christianity-today",
+  "name": "Christianity Today",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Christianity Today was founded in 1956 by Billy Graham, L. Nelson Bell and others, with Carl F. H. Henry as first editor. The Philanthropy Roundtable says J. Howard Pew contributed $150,000 to launch it and paid most of the cost of sending it free to nearly every member of the clergy in North America; an Enterprise & Society article describes the magazine as receiving financial support and institutional direction from Pew.",
+    "sources": [
+      {
+        "url": "https://www.philanthropyroundtable.org/almanac/pew-builds-the-evangelical-parachurch/",
+        "publisher": "Philanthropy Roundtable",
+        "title": "Pew Builds the Evangelical Parachurch"
+      },
+      {
+        "url": "https://www.cambridge.org/core/journals/enterprise-and-society/article/christianity-today-j-howard-pew-and-the-business-of-conservative-evangelicalism/4813355247B18162CA14D56C5AC74E00",
+        "publisher": "Cambridge University Press (Enterprise & Society)",
+        "title": "Christianity Today, J. Howard Pew, and the Business of Conservative Evangelicalism"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The Philanthropy Roundtable says J. Howard Pew contributed $150,000 to launch Carl Henry's Christianity Today in 1956 and provided most of the funds to send it free to nearly every member of the Christian clergy in North America.",
+      "status": "reported",
+      "date": "1956",
+      "quote": "contributed $150,000 to launch Carl Henry's Christianity Today magazine in 1956",
+      "sources": [
+        {
+          "url": "https://www.philanthropyroundtable.org/almanac/pew-builds-the-evangelical-parachurch/",
+          "publisher": "Philanthropy Roundtable",
+          "title": "Pew Builds the Evangelical Parachurch"
+        }
+      ]
+    },
+    {
+      "claim": "An Enterprise & Society (Cambridge University Press) article says the magazine, founded by Graham, Bell and others, garnered financial support and institutional direction from oil executive J. Howard Pew.",
+      "status": "peer",
+      "date": "2020s",
+      "quote": "garnered financial support and institutional direction from oil executive J. Howard Pew",
+      "sources": [
+        {
+          "url": "https://www.cambridge.org/core/journals/enterprise-and-society/article/christianity-today-j-howard-pew-and-the-business-of-conservative-evangelicalism/4813355247B18162CA14D56C5AC74E00",
+          "publisher": "Cambridge University Press (Enterprise & Society)",
+          "title": "Christianity Today, J. Howard Pew, and the Business of Conservative Evangelicalism"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "j-howard-pew",
+      "toName": "J. Howard Pew",
+      "toType": "person",
+      "relation": "funded",
+      "claim": "Pew gave $150,000 to launch Christianity Today and funded its free clergy circulation.",
+      "status": "reported",
+      "date": "1956",
+      "quote": "contributed $150,000 to launch Carl Henry's Christianity Today magazine in 1956",
+      "sources": [
+        {
+          "url": "https://www.philanthropyroundtable.org/almanac/pew-builds-the-evangelical-parachurch/",
+          "publisher": "Philanthropy Roundtable",
+          "title": "Pew Builds the Evangelical Parachurch"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "billy-graham",
+      "toName": "Billy Graham",
+      "toType": "person",
+      "relation": "co-founded",
+      "claim": "Billy Graham was a founder of Christianity Today (1956).",
+      "status": "peer",
+      "date": "1956",
+      "quote": "founded by Graham, Bell, and others",
+      "sources": [
+        {
+          "url": "https://www.cambridge.org/core/journals/enterprise-and-society/article/christianity-today-j-howard-pew-and-the-business-of-conservative-evangelicalism/4813355247B18162CA14D56C5AC74E00",
+          "publisher": "Cambridge University Press (Enterprise & Society)",
+          "title": "Christianity Today, J. Howard Pew, and the Business of Conservative Evangelicalism"
+        }
+      ],
+      "reverse": true
+    }
+  ],
+  "openQuestions": [
+    "The Enterprise & Society article's date and author were not captured; the owner should confirm the citation from the Cambridge page."
+  ]
+}

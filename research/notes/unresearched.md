@@ -317,3 +317,16 @@ Already indexed: donald-trump, trump-organization, trump-taj-mahal, deutsche-ban
 
 ### Cross-page agencies that should be seeded once and typed `government`
 U.S. Treasury, FinCEN, FEC, OGE, ODNI, Bank of England, Senate Finance Committee, Senate Intelligence Committee, House Oversight Committee, NY DFS, UK FCA. Several already receive inbound `connections[].to` pointers (section 5), so seeding them closes two gaps at once.
+
+---
+
+## Postscript after round eight (2026-10-09, later)
+
+Round eight added 54 findings files (220 in all) and the counts above moved:
+
+- **549** entities in the index after the round-nine seeds; **197** have a findings file, **352** do not. Of the ~57 slug-noise ids in section 1, none were researched and none should be; they want cleanup in the page prose, not records.
+- **Every one of the 68 Crash Conduits nodes** now carries at least one researched entity. The last gap, the 1720 South Sea node, closed by adding "South Sea" as an alias, because the page never writes "South Sea Company" in full.
+- Section 5's eleven government ids are down to five without a file: New York Attorney General, EPA, NOAA, NY Fed, US Air Force, Defense Intelligence Agency, FTC (round nine covers all of them).
+- Connection targets without a file: **302** distinct (round eight's files point outward more than they close). The top of that list (AIG, the Russian Federation, the USVI government, Apple, FTC, Chubais, Barclays, the National Smokers Alliance, WPP, McKinsey) is round nine's target set across five agents.
+- Three round-eight files (Menatep, Tevfik Arif, Citizens for a Free Kuwait) are seeded but no page names them, so the index leaves them out; 23 files in all sit unindexed for that reason. They surface the moment a page mentions the name.
+- Site claims the round-eight sources contradict, all logged in the files' open questions: Haiti "payments until 1947"; Panama "104 legislators"; the tulip 3.5% "insider conversion"; Kreuger's "$250M missing" and "400 subsidiaries"; the Fukushima "10-metre seawall" and "$200M retrofit"; the flash-crash report naming Waddell & Reed; KBR at "$39.5bn"; Carlucci as USIP chair; FL Group "dissolved 2014"; Miller's "children". These are candidates for page edits once the owner has reviewed the records.

@@ -42,6 +42,7 @@ const PAGES = {
     TOOLKIT: () => "#hidden", INFRA: () => "#untouchable", URBIT: () => "#feudal", FEUDAL: () => "#feudal" } },
   "deep-state": { title: "Deep State Dossiers", color: "#39ff14", html: true },
   "demystification": { title: "Demystification Desk", color: "#4de8ff", html: true },
+  "saudi-911": { title: "Saudi Arabia & 9/11", color: "#4de8ff", html: true },
 };
 
 // Labels in the old lists that describe a crowd, not a nameable entity.

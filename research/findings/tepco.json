@@ -1,0 +1,130 @@
+{
+  "entity": "tepco",
+  "name": "TEPCO",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Tokyo Electric Power Company (TEPCO) operated the Fukushima Daiichi nuclear plant, where three reactors suffered core meltdowns after the 11 March 2011 earthquake and tsunami. TEPCO's own 2012 accident analysis records that a 2008 trial calculation produced a maximum flood height of 15.7 metres on the south side of the site, and that the company treated the estimate as an assumption without basis and referred it to the Japan Society of Civil Engineers. The National Diet's independent investigation commission (NAIIC) concluded in July 2012 that the accident was a profoundly man-made disaster. Three former executives were acquitted of professional negligence by the Tokyo District Court in 2019, a verdict upheld in 2023.",
+    "sources": [
+      { "url": "https://www.nirs.org/wp-content/uploads/fukushima/naiic_report.pdf", "publisher": "National Diet of Japan, Fukushima Nuclear Accident Independent Investigation Commission (NAIIC) (mirror hosted by NIRS)", "title": "The official report of the Fukushima Nuclear Accident Independent Investigation Commission: Executive summary", "date": "2012-07-05" },
+      { "url": "https://www.tepco.co.jp/en/press/corp-com/release/betu12_e/images/120620e0104.pdf", "publisher": "TEPCO", "title": "Fukushima Nuclear Accident Analysis Report", "date": "2012-06-20" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The NAIIC, chaired by Kiyoshi Kurokawa, concluded in its July 2012 report that the Fukushima Daiichi accident, although triggered by the earthquake and tsunami, could not be regarded as a natural disaster but was a profoundly man-made disaster that could and should have been foreseen and prevented.",
+      "status": "court",
+      "date": "2012-07-05",
+      "quote": "Although triggered by these cataclysmic events, the subsequent accident at the Fukushima Daiichi Nuclear Power Plant cannot be regarded as a natural disaster. It was a profoundly manmade disaster – that could and should have been foreseen and prevented.",
+      "sources": [
+        { "url": "https://www.nirs.org/wp-content/uploads/fukushima/naiic_report.pdf", "publisher": "NAIIC (mirror hosted by NIRS)", "title": "The official report of the Fukushima Nuclear Accident Independent Investigation Commission: Executive summary", "date": "2012-07-05" },
+        { "url": "http://large.stanford.edu/courses/2013/ph241/mori1/docs/NAIIC_report_hi_res10.pdf", "publisher": "NAIIC (mirror hosted by Stanford University)", "title": "The official report of the Fukushima Nuclear Accident Independent Investigation Commission: Executive summary", "date": "2012-07-05" }
+      ]
+    },
+    {
+      "claim": "The NAIIC found that regulatory agencies and TEPCO management deliberately postponed decisions, did not take action or took decisions that were convenient for themselves, and described collusion between the government, the regulators and TEPCO.",
+      "status": "court",
+      "date": "2012-07-05",
+      "quote": "regulatory agencies and TEPCO management deliberately postponed decisions, did not take action or took decisions that were convenient for themselves",
+      "sources": [
+        { "url": "https://www.nirs.org/wp-content/uploads/fukushima/naiic_report.pdf", "publisher": "NAIIC (mirror hosted by NIRS)", "title": "The official report of the Fukushima Nuclear Accident Independent Investigation Commission: Executive summary", "date": "2012-07-05" },
+        { "url": "https://www.aljazeera.com/news/2012/7/5/japan-says-fukushima-disaster-was-man-made", "publisher": "Al Jazeera", "title": "Japan says Fukushima disaster was 'man-made'", "date": "2012-07-05" }
+      ]
+    },
+    {
+      "claim": "TEPCO's own June 2012 accident analysis report states that a 2008 trial calculation gave a maximum tsunami wave height of O.P.+8.4 to 10.2 metres at the intake and a maximum flood height of 15.7 metres on the south side of the premises for the main buildings of Units 1 to 4.",
+      "status": "documented",
+      "date": "2008",
+      "quote": "maximum tsunami height of O.P.+8.4m to 10.2m at the front of the intake point and a maximum flood height of 15.7m on the south side of the premises for major buildings of Units 1 – 4",
+      "sources": [
+        { "url": "https://www.tepco.co.jp/en/press/corp-com/release/betu12_e/images/120620e0104.pdf", "publisher": "TEPCO", "title": "Fukushima Nuclear Accident Analysis Report", "date": "2012-06-20" },
+        { "url": "https://www.tepco.co.jp/en/press/corp-com/release/betu11_e/images/111202e16.pdf", "publisher": "TEPCO", "title": "Fukushima Nuclear Accident Investigation Report (Interim Report)", "date": "2011-12-02" }
+      ]
+    },
+    {
+      "claim": "TEPCO's report states that around the summer of 2008 the company considered the calculated estimates to be mere assumptions with no actual basis and decided to ask the Japan Society of Civil Engineers to examine the matter, rather than acting on the 15.7-metre figure.",
+      "status": "documented",
+      "date": "2008",
+      "quote": "around the summer of 2008, TEPCO considered that the calculated estimates were mere assumptions with no actual basis and decided to ask the Japan Society of Civil Engineers to examine the matter",
+      "sources": [
+        { "url": "https://www.tepco.co.jp/en/press/corp-com/release/betu12_e/images/120620e0104.pdf", "publisher": "TEPCO", "title": "Fukushima Nuclear Accident Analysis Report", "date": "2012-06-20" }
+      ]
+    },
+    {
+      "claim": "In its March 2013 reform summary TEPCO acknowledged that it had fallen short in communicating with siting communities and regulators about the necessity of tsunami countermeasures out of fear that it would be required to take excessive measures.",
+      "status": "words",
+      "date": "2013-03-29",
+      "quote": "out of fear that we would be required to take excessive measures",
+      "sources": [
+        { "url": "https://www.tepco.co.jp/en/press/corp-com/release/betu13_e/images/130329e0801.pdf", "publisher": "TEPCO", "title": "Fukushima Nuclear Accident Summary & Nuclear Safety Reform Plan", "date": "2013-03-29" }
+      ]
+    },
+    {
+      "claim": "On October 12, 2012 TEPCO's Nuclear Reform Special Task Force, chaired by president Naomi Hirose, issued a reform policy document; press reports described it as the company's first admission that it had known safety improvements were needed before the 2011 tsunami but had feared the political, economic and legal consequences of making them.",
+      "status": "reported",
+      "date": "2012-10-12",
+      "quote": "said it knew safety improvements were needed before last year's tsunami triggered three meltdowns, but it had feared the political, economic and legal consequences of implementing them",
+      "sources": [
+        { "url": "https://www.npr.org/sections/thetwo-way/2012/10/12/162775916/japanese-utility-admits-for-first-time-that-nuclear-disaster-was-avoidable", "publisher": "NPR", "title": "Japanese Utility Admits For First Time That Nuclear Disaster Was Avoidable", "date": "2012-10-12" },
+        { "url": "https://www.tepco.co.jp/en/nu_reform/index-e.html", "publisher": "TEPCO", "title": "Efforts towards Nuclear Safety Reform" }
+      ]
+    },
+    {
+      "claim": "A third-party panel appointed by TEPCO reported on June 16, 2016 that then-president Masataka Shimizu had instructed staff on March 14, 2011 not to use the words 'core meltdown'; TEPCO did not declare meltdowns at three reactors until May 2011. The panel said that, because TEPCO had released radiation data at the time, not using the term could not be described as a deliberate cover-up; TEPCO president Naomi Hirose later said he would call it a cover-up.",
+      "status": "reported",
+      "date": "2016-06-16",
+      "quote": "\"Since TEPCO released information on radiation levels inside the reactors and other related data at that time, just not using the term meltdown cannot be described as an act of a deliberate cover-up,\" the panel said.",
+      "sources": [
+        { "url": "https://www.neimagazine.com/news/tepco-concealed-core-meltdowns-during-fukushima-accident-4931915/", "publisher": "Nuclear Engineering International", "title": "Tepco concealed core meltdowns during Fukushima accident", "date": "2016-06" },
+        { "url": "https://www.scmp.com/news/asia/east-asia/article/1976562/ex-utility-chief-blamed-delayed-mention-meltdown-fukushima", "publisher": "South China Morning Post", "title": "Ex-utility chief blamed for delayed mention of 'meltdown' in Fukushima incident", "date": "2016-06" }
+      ]
+    },
+    {
+      "claim": "On September 19, 2019 the Tokyo District Court acquitted former TEPCO chairman Tsunehisa Katsumata and former vice-presidents Sakae Muto and Ichiro Takekuro of professional negligence, finding that they could not have predicted a tsunami of the size that struck; the Tokyo High Court upheld the acquittals in January 2023.",
+      "status": "court",
+      "date": "2019-09-19",
+      "quote": "A Japanese court acquitted three former power company executives of professional negligence in the only criminal prosecution stemming from the 2011 Fukushima nuclear meltdown.",
+      "sources": [
+        { "url": "https://www.aljazeera.com/news/2019/9/19/fukushima-japan-court-acquits-three-on-criminal-charges", "publisher": "Al Jazeera", "title": "Fukushima: Japan court acquits three on criminal charges", "date": "2019-09-19" },
+        { "url": "https://www.aljazeera.com/news/2023/1/18/tokyo-court-upholds-not-guilty-ruling-for-ex-fukushima-executives", "publisher": "Al Jazeera", "title": "Tokyo court upholds acquittal of Fukushima disaster executives", "date": "2023-01-18" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "Japan Society of Civil Engineers",
+      "toName": "Japan Society of Civil Engineers",
+      "toType": "organization",
+      "relation": "contracted with",
+      "claim": "In 2008 TEPCO referred its 15.7-metre tsunami flood-height estimate to the Japan Society of Civil Engineers for examination rather than acting on it.",
+      "status": "documented",
+      "date": "2008",
+      "quote": "decided to ask the Japan Society of Civil Engineers to examine the matter",
+      "sources": [
+        { "url": "https://www.tepco.co.jp/en/press/corp-com/release/betu12_e/images/120620e0104.pdf", "publisher": "TEPCO", "title": "Fukushima Nuclear Accident Analysis Report", "date": "2012-06-20" }
+      ]
+    },
+    {
+      "to": "Tsunehisa Katsumata",
+      "toName": "Tsunehisa Katsumata",
+      "toType": "person",
+      "relation": "executive of",
+      "reverse": true,
+      "claim": "Tsunehisa Katsumata, former TEPCO chairman, was prosecuted for professional negligence over the Fukushima accident and acquitted by the Tokyo District Court in September 2019.",
+      "status": "court",
+      "date": "2019-09-19",
+      "quote": "The defendants were Katsumata, Muto and Takekuro, and lawyers prosecuting the case had sought five-year prison sentences for them.",
+      "sources": [
+        { "url": "https://www.aljazeera.com/news/2019/9/19/fukushima-japan-court-acquits-three-on-criminal-charges", "publisher": "Al Jazeera", "title": "Fukushima: Japan court acquits three on criminal charges", "date": "2019-09-19" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site says the 2008 simulation 'proved a 15.7-meter tsunami could strike the plant, exceeding the 10-meter seawall'. TEPCO's report gives 15.7 m as a flood height on the south side of the site with a wave height of 8.4-10.2 m at the intake; one source returned says the seawall was designed for a 5.5 m wave. The seawall height needs checking.",
+    "The site's claim that leadership buried the report 'to avoid a $200M retrofit' was not supported; TEPCO's own 2013 language is that it feared being required to take excessive measures.",
+    "The site says TEPCO concealed meltdowns for over two months 'to protect corporate stock value'. The two-month delay in using the word meltdown is documented; no source returned gives stock value as the motive, and the 2016 panel did not find a deliberate cover-up.",
+    "The site's claims that directors and institutional holders sold shares before disclosure, and the 22 trillion yen cleanup figure, were not covered by the sources returned.",
+    "The site lists Masataka Shimizu among the insiders; he was not among the three executives prosecuted. The prosecuted were Katsumata, Muto and Takekuro.",
+    "The NAIIC executive summary is cited via NIRS and Stanford mirrors because the naiic.go.jp link did not appear verbatim in the results; the owner may prefer to cite the Diet's own copy.",
+    "The October 12, 2012 TEPCO press release exists on tepco.co.jp but its attachment text was not retrieved; the fear-of-consequences wording is from press reports."
+  ]
+}

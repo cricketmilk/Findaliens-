@@ -1,0 +1,149 @@
+{
+  "entity": "basf",
+  "name": "BASF",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "BASF is a German chemical company whose Ludwigshafen complex accounts for about 4% of Germany's total gas consumption, roughly half of it used as chemical feedstock. The lobbying monitor InfluenceMap assesses BASF as actively engaged with European climate policy, taking negative positions on the EU Emissions Trading System and the Carbon Border Adjustment Mechanism, and notes that its executives hold senior roles in industry associations including the German Chemical Industry Association (VCI), the Federation of German Industries (BDI) and Cefic. BASF states that it has cut its greenhouse gas emissions by 50% since 1990 and targets net zero by 2050. ETC Group reported that BASF held 21 of 55 patent families on so-called climate-ready crop genes in its first survey of such patents.",
+    "sources": [
+      {
+        "url": "https://lobbymap.org/company/BASF-9c2526b336864ffb52b43107fe4296b5",
+        "publisher": "InfluenceMap (LobbyMap)",
+        "title": "BASF: InfluenceMap Score",
+        "date": ""
+      },
+      {
+        "url": "https://corporateknights.com/climate/the-climate-blockers-basf-quietly-lobbies-against-strong-climate-policy-while-talking-a-big-game/",
+        "publisher": "Corporate Knights",
+        "title": "The climate blockers: BASF quietly lobbies against strong climate policy while talking a big game",
+        "date": ""
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "InfluenceMap's profile describes BASF as actively and strategically engaged with climate policy in Europe, taking negative positions on the EU Emissions Trading System and the Carbon Border Adjustment Mechanism, and observes that BASF's 2022 annual report, published in February 2023, stated that the EU Green Deal would reduce the competitiveness of the European chemical industry.",
+      "status": "reported",
+      "date": "2023",
+      "quote": "taking negative positions on several key policies such as the EU Emissions Trading System (EU ETS) and the Carbon Border Adjustment Mechanism (CBAM).",
+      "sources": [
+        {
+          "url": "https://lobbymap.org/company/BASF-9c2526b336864ffb52b43107fe4296b5",
+          "publisher": "InfluenceMap (LobbyMap)",
+          "title": "BASF: InfluenceMap Score",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "claim": "InfluenceMap notes that BASF executives hold senior leadership roles in industry associations that it assesses as not supporting key EU climate policies, including the German Chemical Industry Association (VCI), the Federation of German Industries (BDI) and Cefic. BASF's 2025 Climate Advocacy Review disclosed a partial account of its associations' positions, in which InfluenceMap found no misalignments.",
+      "status": "reported",
+      "date": "2025",
+      "quote": "company executives have senior leadership roles in a number of industry associations that do not appear to be supporting key climate change policies in the EU, notably the German Chemical Industry Association (VCI), the Federation of German Industries (BDI), and Cefic.",
+      "sources": [
+        {
+          "url": "https://lobbymap.org/company/BASF-9c2526b336864ffb52b43107fe4296b5",
+          "publisher": "InfluenceMap (LobbyMap)",
+          "title": "BASF: InfluenceMap Score",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "claim": "Corporate Knights reported that BASF uses a lobbying budget of roughly €3.5 million a year in Brussels and has repeatedly asked the European Commission to exempt ammonia, nitric acid and products along its value chain from carbon-border measures; ShareAction reported that chemicals were exempted for the time being following opposition from BASF and industry trade associations.",
+      "status": "reported",
+      "date": "",
+      "quote": "BASF uses its roughly €3.5-million annual lobbying budget in Brussels to repeatedly ask the European Commission to exempt ammonia, nitric acid and the products along its value chain.",
+      "sources": [
+        {
+          "url": "https://corporateknights.com/climate/the-climate-blockers-basf-quietly-lobbies-against-strong-climate-policy-while-talking-a-big-game/",
+          "publisher": "Corporate Knights",
+          "title": "The climate blockers: BASF quietly lobbies against strong climate policy while talking a big game",
+          "date": ""
+        },
+        {
+          "url": "https://shareaction.org/news/spotlight-on-basf-for-undermining-key-climate-policies",
+          "publisher": "ShareAction",
+          "title": "Spotlight on BASF for undermining key climate policies",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "claim": "In response to criticism of its lobbying, BASF has pointed to a 50% reduction in its greenhouse gas emissions since 1990 and its net-zero objective for 2050, and said that constructive criticism of policy and regulation is legitimate and does not mean the company is against climate protection.",
+      "status": "words",
+      "date": "",
+      "quote": "constructive criticism of policy and regulation is legitimate and does not mean we are against climate protection.",
+      "sources": [
+        {
+          "url": "https://corporateknights.com/climate/the-climate-blockers-basf-quietly-lobbies-against-strong-climate-policy-while-talking-a-big-game/",
+          "publisher": "Corporate Knights",
+          "title": "The climate blockers: BASF quietly lobbies against strong climate policy while talking a big game",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "claim": "ETC Group reported that BASF, Monsanto, Bayer, Syngenta, DuPont and their biotech partners had filed 532 patent documents in 55 patent families on so-called climate-ready genes, with BASF accounting for 21 of the 55 families, the largest share. ETC Group is an advocacy organisation and the counts were not independently verified.",
+      "status": "reported",
+      "date": "2008",
+      "quote": "Trellis reports that BASF has filed 21 of the 55 patent families; Syngenta, 7; Monsanto, 6; Bayer, 5; Ceres, 4; Mendel Biotechnology, 3; Dow, 2; Evogene, 2; and DuPont, 1.",
+      "sources": [
+        {
+          "url": "https://etcgroup.org/node/687",
+          "publisher": "ETC Group",
+          "title": "Patenting the 'Climate Genes' ...and Capturing the Climate Agenda",
+          "date": "2008"
+        },
+        {
+          "url": "https://trellis.net/article/patents-crop-genes-tolerant-climate-change-tops-530/",
+          "publisher": "Trellis (formerly GreenBiz)",
+          "title": "Patents on crop genes tolerant to climate change tops 530",
+          "date": ""
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "Cefic",
+      "toName": "Cefic (European Chemical Industry Council)",
+      "toType": "trade group",
+      "relation": "other",
+      "claim": "BASF executives hold senior leadership roles in Cefic, the European chemical industry association, which InfluenceMap assesses as not supporting key EU climate policies.",
+      "status": "reported",
+      "date": "",
+      "quote": "company executives have senior leadership roles in a number of industry associations that do not appear to be supporting key climate change policies in the EU, notably the German Chemical Industry Association (VCI), the Federation of German Industries (BDI), and Cefic.",
+      "sources": [
+        {
+          "url": "https://lobbymap.org/company/BASF-9c2526b336864ffb52b43107fe4296b5",
+          "publisher": "InfluenceMap (LobbyMap)",
+          "title": "BASF: InfluenceMap Score",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "to": "Wintershall Dea",
+      "toName": "Wintershall Dea",
+      "toType": "company",
+      "relation": "owns",
+      "claim": "InfluenceMap's profile describes the oil and gas producer Wintershall Dea as a BASF subsidiary whose advocacy for a continued role for oil and fossil gas contradicts BASF's generally positive position on the energy transition.",
+      "status": "reported",
+      "date": "",
+      "quote": "BASF's generally positive position on the energy transition contradicts that of its subsidiary Wintershall Dea, which advocates for a continued role for fossil fuels, including oil and fossil gas, in the energy mix.",
+      "sources": [
+        {
+          "url": "https://lobbymap.org/company/BASF-9c2526b336864ffb52b43107fe4296b5",
+          "publisher": "InfluenceMap (LobbyMap)",
+          "title": "BASF: InfluenceMap Score",
+          "date": ""
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The InfluenceMap profile is undated and updated over time; the Wintershall Dea description may predate BASF's later sale of that business.",
+    "The date of the first ETC Group patent survey (532 documents, 55 families) was not established from the sources found.",
+    "The site's Crash Conduits reference to BASF concerns IG Farben and was outside the scope of this climate-focused research."
+  ]
+}

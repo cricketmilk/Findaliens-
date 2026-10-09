@@ -3,13 +3,31 @@
   "name": "Koch network",
   "researchedAt": "2026-10-09",
   "summary": {
-    "text": "The Koch network refers to Koch Industries, a privately held Wichita, Kansas conglomerate led by Charles Koch, and the political and philanthropic groups funded by Charles and the late David Koch, principally Americans for Prosperity (AFP), a 501(c)(4) advocacy group formed in 2004 when Citizens for a Sound Economy split into AFP and FreedomWorks. Forbes-based reporting put Koch Industries’ estimated 2019 revenue at $115 billion, the largest of any U.S. private company. In 2010 reporters linked AFP and its foundation to the training and organization of Tea Party activists; Koch Industries said AFP is independent and that neither the company nor the Koch foundations funded the tea parties.",
+    "text": "The Koch network refers to Koch Industries, a privately held conglomerate in Wichita, Kansas, led by chairman and co-CEO Charles Koch, together with the Koch family foundations and the advocacy groups they fund, principally Americans for Prosperity, founded by David Koch (Greenpeace dates it to 2004 with an $850,000 seed grant; DeSmog reports it replaced the Citizens for a Sound Economy Foundation). Greenpeace's tally of IRS filings puts Koch foundation giving to 90 groups that opposed climate science or policy at about $145.5 million from 1997 to 2018. A 2013 peer-reviewed study by Robert Brulle found Koch-affiliated foundations and the ExxonMobil Foundation heavily involved in funding climate counter-movement groups from 2003 to 2007, with no publicly traceable contributions after 2008. In June 2020 the Minnesota Attorney General sued Koch Industries, ExxonMobil and the American Petroleum Institute alleging consumer fraud over climate change; the allegations have not been decided.",
     "sources": [
       {
         "url": "https://www.greenpeace.org/usa/climate/climate-deniers/koch-industries/",
         "publisher": "Greenpeace USA",
         "title": "Koch Industries: Secretly Funding the Climate Denial Machine",
         "date": ""
+      },
+      {
+        "url": "https://www.greenpeace.org/usa/climate/climate-deniers/front-groups/americans-for-prosperity-foundation-afp/",
+        "publisher": "Greenpeace USA",
+        "title": "Americans for Prosperity Foundation (AFP)",
+        "date": ""
+      },
+      {
+        "url": "https://www.desmog.com/americans-prosperity-history-research-background-funding",
+        "publisher": "DeSmog",
+        "title": "Americans for Prosperity – research and background information",
+        "date": ""
+      },
+      {
+        "url": "https://www.factcheck.org/2010/08/americans-for-prosperity",
+        "publisher": "FactCheck.org",
+        "title": "Americans for Prosperity",
+        "date": "2010-08"
       },
       {
         "url": "https://drexel.edu/~/media/Files/now/pdfs/Institutionalizing Delay - Climatic Change.ashx?la=en",
@@ -272,6 +290,7 @@
     "The Center for Climate Integrity reported in May 2026 that the Minnesota Supreme Court allowed the state's case to proceed and that the U.S. Department of Justice then sued Minnesota; this comes from an advocacy group and should be checked against the court docket.",
     "Greenpeace's $145.5 million figure is an advocacy tally from tax filings; a separate Greenpeace page gives $127 million to 92 groups for 1997-2017.",
     "Revenue figures for Koch Industries vary by source and are estimates; the company does not publish them.",
-    "Charles G. Koch Foundation funding of Willie Soon is already recorded in the API findings and was not repeated here."
+    "Charles G. Koch Foundation funding of Willie Soon is already recorded in the API findings and was not repeated here.",
+    "A concurrent draft of this file carried summary text on Americans for Prosperity's 2004 split from Citizens for a Sound Economy, a Forbes-based 2019 revenue estimate of $115 billion, and 2010 reporting linking AFP to Tea Party organising (the Manufacturing Consent page). Those statements had no matching sources in the file and were removed from the summary; the owner may wish to merge them from that draft's sources."
   ]
 }

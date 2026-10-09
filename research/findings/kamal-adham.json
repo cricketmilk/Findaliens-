@@ -47,6 +47,39 @@
           "date": "1992"
         }
       ]
+    },
+    {
+      "claim": "The Senate Foreign Relations Committee report (December 1992) describes Kamal Adham as the CIA's main Middle East liaison from the mid-1960s through 1979, as BCCI's lead front-man in the First American takeover and as an important nominee shareholder in BCCI. It states that he became the lead investor in the CCAH group that took over First American while acting as a nominee for BCCI, that at the Federal Reserve's 1981 hearing he said he wanted to be a passive investor, and that the CIA told the Federal Reserve in 1981 it had no derogatory information on the CCAH shareholders, who included Adham and Abdul Raouf Khalil, both Saudi intelligence liaisons.",
+      "status": "court",
+      "date": "1981",
+      "quote": "the CIA's main Middle East liaison from the mid-1960s through 1979 / BCCI's lead front-man in the First American takeover",
+      "sources": [
+        {
+          "url": "https://irp.fas.org/congress/1992_rpt/bcci/11intel.htm",
+          "publisher": "U.S. Senate Committee on Foreign Relations (hosted by Federation of American Scientists)",
+          "title": "The BCCI Affair: BCCI, the CIA and Foreign Intelligence",
+          "date": "1992-12"
+        }
+      ]
+    },
+    {
+      "claim": "The Senate Foreign Relations Committee report (December 1992) states that Price Waterhouse found BCCI had over $200 million in exposure on loans to Kamal Adham and that many of the First American/CCAH shares in his name were pledged as security for loans BCCI made to others; that a Price Waterhouse list showed BCCI lending to Adham of $323.5 million, the second-highest shareholder total after the Abu Dhabi group; that a 1987 BCCI letter to Adham confirmed he was not liable for loans recorded in his name, including loans secured by his CCAH shares; and that a 1983 $20 million credit line from BCCI to CCAH was later attributed to Adham as lender through documentation created after the fact.",
+      "status": "court",
+      "date": "1992-12",
+      "sources": [
+        {
+          "url": "https://irp.fas.org/congress/1992_rpt/bcci/",
+          "publisher": "U.S. Senate Committee on Foreign Relations (hosted by Federation of American Scientists)",
+          "title": "The BCCI Affair (report index)",
+          "date": "1992-12"
+        },
+        {
+          "url": "https://irp.fas.org/congress/1992_rpt/bcci/11intel.htm",
+          "publisher": "U.S. Senate Committee on Foreign Relations (hosted by Federation of American Scientists)",
+          "title": "The BCCI Affair: BCCI, the CIA and Foreign Intelligence",
+          "date": "1992-12"
+        }
+      ]
     }
   ],
   "connections": [
@@ -85,10 +118,45 @@
           "date": "1992-07-29"
         }
       ]
+    },
+    {
+      "to": "bcci",
+      "toName": "Bank of Credit and Commerce International",
+      "toType": "company",
+      "relation": "other",
+      "claim": "The Senate Foreign Relations Committee report (December 1992) describes Kamal Adham as BCCI's lead front-man in the First American takeover and an important nominee shareholder in BCCI, who became the lead investor in the CCAH group while acting as a nominee for BCCI; it records Price Waterhouse's finding of over $200 million of BCCI exposure on loans to Adham and a 1987 BCCI letter confirming he was not liable for loans recorded in his name.",
+      "status": "court",
+      "date": "1981",
+      "quote": "BCCI's lead front-man in the First American takeover",
+      "sources": [
+        {
+          "url": "https://irp.fas.org/congress/1992_rpt/bcci/11intel.htm",
+          "publisher": "U.S. Senate Committee on Foreign Relations (hosted by Federation of American Scientists)",
+          "title": "The BCCI Affair: BCCI, the CIA and Foreign Intelligence",
+          "date": "1992-12"
+        }
+      ]
+    },
+    {
+      "to": "cia",
+      "relation": "other",
+      "claim": "The Senate Foreign Relations Committee report (December 1992) describes Kamal Adham as the CIA's main Middle East liaison from the mid-1960s through 1979, and states that in 1981 the CIA told the Federal Reserve it had no derogatory information on the CCAH shareholders, who included Adham.",
+      "status": "court",
+      "date": "1981",
+      "quote": "the CIA's main Middle East liaison from the mid-1960s through 1979",
+      "sources": [
+        {
+          "url": "https://irp.fas.org/congress/1992_rpt/bcci/11intel.htm",
+          "publisher": "U.S. Senate Committee on Foreign Relations (hosted by Federation of American Scientists)",
+          "title": "The BCCI Affair: BCCI, the CIA and Foreign Intelligence",
+          "date": "1992-12"
+        }
+      ]
     }
   ],
   "openQuestions": [
-    "The Senate Foreign Relations Committee report's own treatment of Adham (his role as a CCAH shareholder and nominee for BCCI) was not retrieved this session; the connection to BCCI itself is therefore left to the First American item above rather than asserted directly.",
-    "A peoplepill.com biography says the $105 million was a joint payment with Sayed Al Jawhary and that Adham was barred from the finance sector; neither detail was confirmed in the contemporaneous reporting."
+    "The Senate report's treatment of Adham is now recorded from chapter 11 (CIA liaison; lead front-man and nominee in the First American takeover; 1981 Federal Reserve hearing). The lending figures ($200 million exposure; $323.5 million on a Price Waterhouse list; the 1987 letter; the 1983 $20 million credit line) were returned by the same search without the extract saying which chapter holds them, so the report index page is cited with chapter 11; chapters 6, 7 or 14 are likelier homes. The two quoted phrases are taken from the search extract's rendering of the report and should be checked against the page.",
+    "A peoplepill.com biography says the $105 million was a joint payment with Sayed Al Jawhary and that Adham was barred from the finance sector; neither detail was confirmed in the contemporaneous reporting.",
+    "The report itself says the Saudi-intelligence relationships 'require further investigation' and that the U.S. record cannot definitively answer whether BCCI's shareholders performed government services; its findings on Adham are those of a Senate subcommittee, not a court, apart from his own 1992 guilty plea already recorded."
   ]
 }

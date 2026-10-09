@@ -87,6 +87,32 @@
           "date": ""
         }
       ]
+    },
+    {
+      "claim": "On June 14, 1994 a court in the United Arab Emirates sentenced 12 former BCCI executives to a total of 56 years in prison. UPI reported that Agha Hasan Abedi, the bank's founder, and its treasurer Ziauddin Ali Akbar were tried and convicted in absentia, and that Abedi was sentenced by Judge Abdul-Rehman to six years' imprisonment. Later reports give different terms: UPI in January 1995 referred to a nine-year sentence and the Deseret News obituary in August 1995 said the UAE court had convicted Abedi of fraud and sentenced him to eight years.",
+      "status": "court",
+      "date": "1994-06-14",
+      "quote": "The bank's founder, Agha Hassan Abedi, and treasurer, Ziauddin Ali Akbar, were tried and convicted in absentia. / Abedi, who was sentenced by Judge Abdul-Rehman to six years imprisonment, was also tried in absentia / a court in the United Arab Emirates convicted Abedi last year of fraud and sentenced him to eight years in prison",
+      "sources": [
+        {
+          "url": "https://www.upi.com/Archives/1994/06/14/UAE-jails-and-fines-BCCI-executives/7650771566400/",
+          "publisher": "UPI",
+          "title": "UAE jails and fines BCCI executives",
+          "date": "1994-06-14"
+        },
+        {
+          "url": "https://www.upi.com/Archives/1995/01/31/Abu-Dhabi-to-buy-BCCI-share-in-UAE-bank/6991791528400/",
+          "publisher": "UPI",
+          "title": "Abu Dhabi to buy BCCI share in UAE bank",
+          "date": "1995-01-31"
+        },
+        {
+          "url": "https://www.deseret.com/1995/8/6/19185992/bcci-founder-dies-after-seeing-his-empire-collapse-in-fraud/",
+          "publisher": "Deseret News",
+          "title": "BCCI founder dies after seeing his empire collapse in fraud",
+          "date": "1995-08-06"
+        }
+      ]
     }
   ],
   "connections": [
@@ -135,7 +161,8 @@
     }
   ],
   "openQuestions": [
-    "Wikipedia and the Deseret News obituary indicate a United Arab Emirates court convicted Abedi of fraud (Wikipedia: eight-year sentence) in 1994, in his absence; not confirmed from a primary source and left out.",
-    "The precise charges in the July 1991 New York indictment vary between accounts (AP: fraud, falsified records, theft of more than $30 million; a secondary chronology adds bribery and money laundering)."
+    "The UAE conviction in absentia is now sourced to UPI's June 14, 1994 report; the length of the sentence differs between sources (six years per UPI in June 1994; nine years per UPI in January 1995; eight years per the Deseret News obituary and Wikipedia). The original Abu Dhabi court record was not found.",
+    "The precise charges in the July 1991 New York indictment vary between accounts (AP: fraud, falsified records, theft of more than $30 million; a secondary chronology adds bribery and money laundering).",
+    "The Senate report's footnotes cite 'People vs. Abedi' with inconsistent dates (July 29, 1991 in one footnote, July 29, 1992 in another); the AP report cited gives July 29, 1991 for the indictment naming Abedi and Naqvi. The Senate report's chapter 9 states only that the District Attorney indicted BCCI on July 29, 1991."
   ]
 }

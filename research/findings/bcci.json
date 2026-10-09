@@ -620,6 +620,82 @@
           "date": ""
         }
       ]
+    },
+    {
+      "claim": "The Senate Foreign Relations Committee report (December 1992) stated that BCCI was used by key Iran/Contra figures to finance arms shipments to Iran in connection with the Reagan administration's secret initiative, and named BCCI customers Adnan Khashoggi and Manucher Ghorbanifar, former CIA director Richard Helms and the late William Casey, and BCCI shareholders Kamal Adham and Abdul Raouf Khalil among the figures who appear in BCCI's history alongside the arming of Iran.",
+      "status": "court",
+      "date": "1992-12",
+      "quote": "BCCI was incontestably used by key Iran/Contra figures to finance arms shipments to Iran in connection with the secret Reagan Administration initiative.",
+      "sources": [
+        {
+          "url": "https://irp.fas.org/congress/1992_rpt/bcci/11intel.htm",
+          "publisher": "U.S. Senate Committee on Foreign Relations (via FAS)",
+          "title": "The BCCI Affair: Chapter 11, BCCI, The CIA and Foreign Intelligence",
+          "date": "1992-12"
+        }
+      ]
+    },
+    {
+      "claim": "The Senate Foreign Relations Committee report (December 1992) recorded a February 23, 1992 NBC News broadcast alleging that CIA Director William Casey met with BCCI founder Agha Hasan Abedi and discussed U.S. arms deals to Iran and the arming of Afghan rebels; the report treated the Casey-Abedi link as unproven, noting that Casey and the BCCI customers and Iranian arms dealers Ben Banerjee and Cyrus Hashemi were dead.",
+      "status": "court",
+      "date": "1992-02-23",
+      "quote": "some, including former CIA director William Casey, and BCCI customers and Iranian arms dealers Ben Banerjee and Cyrus Hashemi, are dead",
+      "sources": [
+        {
+          "url": "https://irp.fas.org/congress/1992_rpt/bcci/11intel.htm",
+          "publisher": "U.S. Senate Committee on Foreign Relations (via FAS)",
+          "title": "The BCCI Affair: Chapter 11, BCCI, The CIA and Foreign Intelligence",
+          "date": "1992-12"
+        }
+      ]
+    },
+    {
+      "claim": "The Senate Foreign Relations Committee report (December 1992) recorded the CIA's testimony, through Acting Director Richard Kerr, that the agency had not been involved with or had knowledge of any use of BCCI for the sale of arms to Iran or the diversion of funds to the Nicaraguan contras, and that it had never placed Abedi on a watch list; the report also stated that in some cases involving BCCI-linked arms sales to Iran the extent of U.S. official involvement could not be determined.",
+      "status": "court",
+      "date": "1992-12",
+      "quote": "had not been involved with or had knowledge of any use of BCCI for the same of arms to Iran or the diversion of funds for the Nicaraguan Contras",
+      "sources": [
+        {
+          "url": "https://irp.fas.org/congress/1992_rpt/bcci/11intel.htm",
+          "publisher": "U.S. Senate Committee on Foreign Relations (via FAS)",
+          "title": "The BCCI Affair: Chapter 11, BCCI, The CIA and Foreign Intelligence",
+          "date": "1992-12"
+        }
+      ]
+    },
+    {
+      "claim": "The Senate Foreign Relations Committee report (December 1992) stated that documents concerning BCCI's use to finance terrorism, to assist the builders of a Pakistani nuclear bomb, to finance Iranian arms deals and related matters had been sealed in the United Kingdom by British intelligence and remained unavailable to U.S. investigators.",
+      "status": "court",
+      "date": "1992-12",
+      "quote": "Documents pertaining to BCCI's use to finance terrorism, to assist the builders of a Pakistani nuclear bomb, to finance Iranian arms deals, and related matters have been sealed in the United Kingdom by British intelligence and remain unavailable to U.S. investigators.",
+      "sources": [
+        {
+          "url": "https://irp.fas.org/congress/1992_rpt/bcci/11intel.htm",
+          "publisher": "U.S. Senate Committee on Foreign Relations (via FAS)",
+          "title": "The BCCI Affair: Chapter 11, BCCI, The CIA and Foreign Intelligence",
+          "date": "1992-12"
+        }
+      ]
+    },
+    {
+      "claim": "The Senate Foreign Relations Committee report (December 1992) stated that in the course of targeting BCCI for laundering drug money, the CIA learned of BCCI's involvement in manipulating financial markets, in arms trafficking and in supporting international terrorism, including handling finances for the Abu Nidal organization; Chapter 4 records, from press accounts, that BCCI officer Ghassan Qassem held Abu Nidal's accounts and passed account information to British and American intelligence, and that a 1987 State Department report on Abu Nidal's use of BCCI was declassified in 1991 at the Subcommittee's request.",
+      "status": "court",
+      "date": "1992-12",
+      "quote": "In the course of targeting BCCI for laundering drug money, the CIA learned of BCCI's involvement in manipulating certain financial markets, in arms trafficking, and in supporting international terrorism.",
+      "sources": [
+        {
+          "url": "https://irp.fas.org/congress/1992_rpt/bcci/11intel.htm",
+          "publisher": "U.S. Senate Committee on Foreign Relations (via FAS)",
+          "title": "The BCCI Affair: Chapter 11, BCCI, The CIA and Foreign Intelligence",
+          "date": "1992-12"
+        },
+        {
+          "url": "https://irp.fas.org/congress/1992_rpt/bcci/04crime.htm",
+          "publisher": "U.S. Senate Committee on Foreign Relations (via FAS)",
+          "title": "The BCCI Affair: Chapter 4, BCCI's Criminality",
+          "date": "1992-12"
+        }
+      ]
     }
   ],
   "connections": [
@@ -729,6 +805,24 @@
           "date": "1992-12"
         }
       ]
+    },
+    {
+      "to": "iran",
+      "toName": "Iran",
+      "toType": "government",
+      "relation": "other",
+      "claim": "The Senate Foreign Relations Committee report (December 1992) stated that BCCI was used by key Iran/Contra figures, including its customers Adnan Khashoggi and Manucher Ghorbanifar, to finance arms shipments to Iran in connection with the Reagan administration's secret initiative.",
+      "status": "court",
+      "date": "1992-12",
+      "quote": "BCCI was incontestably used by key Iran/Contra figures to finance arms shipments to Iran in connection with the secret Reagan Administration initiative.",
+      "sources": [
+        {
+          "url": "https://irp.fas.org/congress/1992_rpt/bcci/11intel.htm",
+          "publisher": "U.S. Senate Committee on Foreign Relations (via FAS)",
+          "title": "The BCCI Affair: Chapter 11, BCCI, The CIA and Foreign Intelligence",
+          "date": "1992-12"
+        }
+      ]
     }
   ],
   "openQuestions": [
@@ -745,6 +839,7 @@
     "Chapter attribution within the Senate report: the Sandstorm passages and the auditor finding are cited to chapter 10 (BCCI and its Accountants) because that chapter was among the pages returned and the subject matches, but the search extract did not say which page holds each sentence; chapter 4 (BCCI's Criminality, https://irp.fas.org/congress/1992_rpt/bcci/04crime.htm ) was returned alongside it. The 'obstructed and impeded' finding and the 'not the regulatory process itself' sentence are cited to chapters 9 and 1 on the same basis (chapter 12, The Regulators, may hold the latter). Check during review.",
     "The Senate report's footnotes cite 'People vs. BCCI, July 29, 1991' and 'People vs. Abedi, July 29, 1992', while another footnote gives July 29, 1991 for People v. Abedi; the dates are inconsistent within the report. The AP report already cited gives July 29, 1991 for the indictment naming Abedi and Naqvi.",
     "UAE sentences: UPI (June 14, 1994) gives six years for Abedi and 11 years for Naqvi and counts 12 executives; a later UPI report counts 13 executives and gives Naqvi 14 years in absentia; UPI (January 31, 1995, https://www.upi.com/Archives/1995/01/31/Abu-Dhabi-to-buy-BCCI-share-in-UAE-bank/6991791528400/ ) gives Abedi a nine-year sentence; the Deseret News obituary gives eight years. Only the June 14, 1994 figures are recorded in the fact.",
-    "The Abu Dhabi chapter gives both 'over 77 percent' and 'over 78 percent' for the ruling family's post-1990 holding, and records Sheikh Zayed's personal stake at 20 percent in 1972 and 4.11 percent after buying 80,000 shares in 1980; the Deseret News figure of 77.4 percent is a third variant."
+    "The Abu Dhabi chapter gives both 'over 77 percent' and 'over 78 percent' for the ruling family's post-1990 holding, and records Sheikh Zayed's personal stake at 20 percent in 1972 and 4.11 percent after buying 80,000 shares in 1980; the Deseret News figure of 77.4 percent is a third variant.",
+    "Iran-arms items appended 2026-10-09 from Chapter 11 and Chapter 4 search excerpts; the Chapter 4 material on Abu Nidal relies on press accounts of Qassem interviews, which the report itself flags. The NBC Casey-Abedi allegation is recorded as an allegation only."
   ]
 }

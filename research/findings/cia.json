@@ -55,6 +55,80 @@
           "date": "2017"
         }
       ]
+    },
+    {
+      "claim": "The Independent Counsel for Iran/Contra Matters charged three CIA officers. Alan D. Fiers Jr., chief of the Central American Task Force, pleaded guilty in July 1991 to two misdemeanor counts of withholding information from Congress about covert aid to the Nicaraguan contras and was sentenced on January 31, 1992 to one year of probation and 100 hours of community service. Clair E. George, deputy director for operations, was indicted on September 6, 1991 and, after a mistrial, was found guilty on December 9, 1992 of two felony counts of false statements and perjury before Congress.",
+      "status": "court",
+      "date": "1992-12-09",
+      "quote": "found guilty December 9, 1992, of two felony charges of false statements and perjury before Congress",
+      "sources": [
+        {
+          "url": "https://irp.fas.org/offdocs/walsh/summpros.htm",
+          "publisher": "Independent Counsel for Iran/Contra Matters (via FAS)",
+          "title": "Final Report of the Independent Counsel for Iran/Contra Matters: Summary of Prosecutions",
+          "date": "1993-08-04"
+        },
+        {
+          "url": "https://irp.fas.org/offdocs/walsh/part_vi.htm",
+          "publisher": "Independent Counsel for Iran/Contra Matters (via FAS)",
+          "title": "Final Report: Part VI, Investigations and Cases: Officers of the Central Intelligence Agency",
+          "date": "1993-08-04"
+        }
+      ]
+    },
+    {
+      "claim": "Duane R. Clarridge, a former CIA division chief, was indicted on November 26, 1991 on seven counts of perjury and false statements about a secret November 1985 shipment of U.S. HAWK missiles to Iran. On December 24, 1992 President Bush pardoned Clarridge before his trial, Clair George before sentencing and Alan Fiers after sentencing, together with Caspar Weinberger, Elliott Abrams and Robert McFarlane.",
+      "status": "court",
+      "date": "1992-12-24",
+      "quote": "On December 24, 1992, President Bush pardoned Caspar W. Weinberger, Duane R. Clarridge, Clair E. George, Elliott Abrams, Alan D. Fiers, Jr., and Robert C. McFarlane.",
+      "sources": [
+        {
+          "url": "https://irp.fas.org/offdocs/walsh/summpros.htm",
+          "publisher": "Independent Counsel for Iran/Contra Matters (via FAS)",
+          "title": "Final Report of the Independent Counsel for Iran/Contra Matters: Summary of Prosecutions",
+          "date": "1993-08-04"
+        },
+        {
+          "url": "https://irp.fas.org/offdocs/walsh/chap_18.htm",
+          "publisher": "Independent Counsel for Iran/Contra Matters (via FAS)",
+          "title": "Final Report: Chapter 18, United States v. Duane R. Clarridge",
+          "date": "1993-08-04"
+        }
+      ]
+    },
+    {
+      "claim": "The Senate Foreign Relations Committee report on BCCI (December 1992) recorded the CIA's testimony, through Acting Director Richard Kerr, that the agency had not been involved with or had knowledge of any use of BCCI for the sale of arms to Iran or the diversion of funds to the Nicaraguan contras; the report itself stated that BCCI was used by key Iran/Contra figures to finance arms shipments to Iran and that in some cases the extent of U.S. official involvement could not be determined.",
+      "status": "court",
+      "date": "1992-12",
+      "quote": "had not been involved with or had knowledge of any use of BCCI for the same of arms to Iran or the diversion of funds for the Nicaraguan Contras",
+      "sources": [
+        {
+          "url": "https://irp.fas.org/congress/1992_rpt/bcci/11intel.htm",
+          "publisher": "U.S. Senate Committee on Foreign Relations (via FAS)",
+          "title": "The BCCI Affair: Chapter 11, BCCI, The CIA and Foreign Intelligence",
+          "date": "1992-12"
+        }
+      ]
+    },
+    {
+      "claim": "On June 25, 2025, CIA Director John Ratcliffe issued a statement that a body of credible intelligence indicated Iran's nuclear program had been severely damaged by the recent targeted strikes, citing new intelligence from a historically reliable and accurate source/method that several key Iranian nuclear facilities were destroyed and would have to be rebuilt over the course of years. The statement followed press reports of a Defense Intelligence Agency initial assessment that the strikes had set the program back by months; CNN noted it was unclear whether the statement was an official agency assessment or the Director's view.",
+      "status": "words",
+      "date": "2025-06-25",
+      "quote": "CIA can confirm that a body of credible intelligence indicates Iran's Nuclear Program has been severely damaged by the recent, targeted strikes.",
+      "sources": [
+        {
+          "url": "https://www.cia.gov/stories/story/statement-from-director-john-ratcliffe-about-intelligence-on-irans-nuclear-program",
+          "publisher": "Central Intelligence Agency",
+          "title": "Statement from Director John Ratcliffe about Intelligence on Iran's Nuclear Program",
+          "date": "2025-06-25"
+        },
+        {
+          "url": "https://www.cnn.com/2025/06/25/politics/cia-iran-nuclear-strikes-assessments",
+          "publisher": "CNN",
+          "title": "CIA says it has evidence Iran's nuclear program was 'severely damaged' as assessments of US strikes' impact continue",
+          "date": "2025-06-25"
+        }
+      ]
     }
   ],
   "connections": [
@@ -115,6 +189,33 @@
           "date": "1992-12"
         }
       ]
+    },
+    {
+      "to": "iran",
+      "toName": "Iran",
+      "toType": "government",
+      "relation": "other",
+      "claim": "The CIA, with British intelligence, planned and executed Operation TPAJAX, the August 1953 coup that overthrew Iranian Prime Minister Mohammad Mosaddeq after Iran nationalized the Anglo-Iranian Oil Company.",
+      "status": "documented",
+      "date": "1953-08-19",
+      "quote": "CIA Confirms Role in 1953 Iran Coup",
+      "sources": [
+        {
+          "url": "https://history.state.gov/historicaldocuments/frus1951-54Iran/preface",
+          "publisher": "U.S. Department of State, Office of the Historian",
+          "title": "Foreign Relations of the United States, 1952-1954, Iran, 1951-1954 (Retrospective Volume): Preface",
+          "date": "2017"
+        },
+        {
+          "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB435/",
+          "publisher": "National Security Archive",
+          "title": "CIA Confirms Role in 1953 Iran Coup",
+          "date": "2013-08-19"
+        }
+      ]
     }
+  ],
+  "openQuestions": [
+    "Iran-Contra and 2025 items appended 2026-10-09. The CIA-officer prosecution details come from the Walsh Summary of Prosecutions and Part VI excerpts; Clarridge's indictment concerned the November 1985 HAWK shipment to Iran, per Chapter 18. The Tower Commission's finding that NSC staff rather than the CIA directed the Iran deals appears in Time's 1987 summary but was not captured from the report text itself, so it is not recorded as a fact."
   ]
 }

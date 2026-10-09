@@ -78,8 +78,11 @@ findings; one `claims` entry appended to each of the two handoffs.
   three separate facts (Isaacson's claim, Musk's denial, CNN's report of the
   walk-back) and left unresolved.
 
-Still open: a reliable source for Musk's SpaceX stake; the Tesla S-1 passage
-on the 2004 round; the GAO record of the 2004 Kistler protest.
+Round two added: Musk's $100M of his own money into SpaceX (CNBC, 2020) and
+his stake through the 2026 IPO filings; Tesla's S-1 exhibits naming Musk's
+trust among the Series A stockholders (the round's size stays secondary);
+NASA's 2004 sole-source Kistler notice, SpaceX's protest and NASA's withdrawal
+(no GAO ruling exists because NASA withdrew first).
 
 ## 2. HIID / loans-for-shares → Bank of New York → Deutsche mirror trades → Londongrad
 
@@ -124,8 +127,16 @@ appended to the handoff.
 - Berezovsky v Abramovich (2012) — **supported**: the claim to half of Sibneft
   was rejected; payments were for protection.
 
-Still open: IMF July 1998 package and the PwC/FIMACO audit; Deutsche's DOJ
-outcome; the Trump loans; Khodorkovsky/Yukos (no file written).
+Round two added: the July 1998 package from the IMF's own release (SDR 8.5bn,
+first drawing cut by SDR 600m) and its 1999 statements on the PwC audit (the
+Board "took note of the findings that the July 1998 tranche ... had not been
+misappropriated" and "expressed strong disapproval" of the FIMACO
+channelling); the Deutsche mirror-trades probe going dormant with no charge
+ever brought; Deutsche's more than $2 billion of lending to the Trump
+Organization and Trump v. Deutsche Bank (2d Cir. 2019); new `yukos` and
+`mikhail-khodorkovsky` files covering the 1995 auction, the 2004
+Yuganskneftegaz sale, the 2006 bankruptcy, the $50bn PCA award and its
+annulment, reinstatement and final Dutch dismissal (October 2025).
 
 ## 3. Tequilazo and the Asian crisis → Fobaproa / IMF programmes → Lone Star, Newbridge, Carlyle
 
@@ -207,8 +218,11 @@ new `clark-clifford`, `kamal-adham`, `agha-hasan-abedi`.
   What is sourced: the Geneva affiliate was sold in July 1991; BCCI's own
   Cayman/Luxembourg entities were liquidated over two decades.
 
-Still open: verbatim passages for several Senate chapters and the 1991/1998
-Fed releases; the final liquidation dividend.
+Round two added: verbatim Senate chapters 9, 10, 11 and 14 (the Morgenthau
+indictment, the Sandstorm findings, the CIA's accounts and Abu Dhabi's
+stake); the liquidation dividend history to 81% by 2005 (the final 2012
+figure is still an unverified lead); Abedi's 1994 UAE conviction in absentia;
+Kamal Adham's role per the Senate report.
 
 ## 5. 2008 → AIG / Maiden Lane → BlackRock and BGI
 
@@ -250,8 +264,12 @@ facts appended to `blackrock`, `goldman-sachs`, `federal-reserve`.
   per 10-K). The causal "creating" is not sourced.
 - 2020 Fed hiring of BlackRock for corporate-credit facilities — **supported**.
 
-Still open: AIG's March 2009 8-K breakdown; GAO-11-696's BlackRock-specific
-passages; a non-Wikipedia source for Aladdin's scale and BlackRock's origin.
+Round two added: AIG's own March 2009 release and the NY Fed's 2010 statement
+($22.4B collateral, $26.8B paid for $62.1B par CDOs, $12.1B municipal GIAs;
+the components sum to the $93.2B headline, which no source states verbatim);
+GAO-11-696 quoted directly (8 of 10 highest-value contracts awarded
+noncompetitively "due to exigent circumstances"); Aladdin's scale from
+BlackRock's 10-Ks and the Blackstone origin from Blackstone's S-1.
 
 ## 6. FTX → political money → Fairshake
 
@@ -292,9 +310,15 @@ Records: facts appended to `ftx` (now 18) and `fairshake` (now 10); new
   dismissal, Ripple resolution, Atkins, GENIUS Act) were never reached and are
   **not recorded**.
 
-Still open: everything on SEC v. Coinbase and SEC v. Ripple (the two new
-files have no `sec` connection yet); the 2025 regulatory events; the DOJ
-release for the superseding indictment.
+Round two added: SEC v. Coinbase (June 2023 complaint; Judge Failla's March
+2024 ruling; the SEC's dismissal with prejudice in February 2025) and SEC v.
+Ripple (December 2020; the July 2023 and August 2024 Torres rulings; the 2025
+dismissal of cross-appeals with the $125M judgment left standing), each with a
+`sec` connection; Atkins's confirmation, the GENIUS Act and the CLARITY Act's
+House passage as documented facts with no causal language; the SEC's 2024
+Silvergate action naming FTX; Terra, Celsius and Voyager as the crisis
+window. No source states a causal link from Fairshake's spending to any of
+these outcomes; the files say so.
 
 ## 7. Public R&D → venture spin-outs → Próspera and the ICSID claim
 
@@ -369,8 +393,9 @@ that.
    verbatim from search results and none was opened here.
 2. `node research/review.mjs` to approve, edit or reject each item. The
    `openQuestions` in each file are the agent's own doubts; read them first.
-3. A second research round on the gaps above, in order of value: the FTX
-   chain's 2025 regulatory events and the two SEC cases; the IMF 1998 / PwC
-   audit and the Deutsche–Trump loans; AIG's 8-K breakdown and GAO-11-696;
-   the BCCI chapter passages; the Tesla S-1 and SpaceX stake sources.
+3. A second round (three capped agents) has closed the gaps listed under
+   each chain above as "Round two added". What remains is in each file's
+   `openQuestions`; the largest are the Tesla S-1 narrative on the 2004
+   round, the final BCCI dividend, and anything from Reuters, AP, NYT, FT,
+   Guardian or BBC, which the search crawler cannot reach.
 4. Re-run `node research/extract-entities.mjs` if a page changes.

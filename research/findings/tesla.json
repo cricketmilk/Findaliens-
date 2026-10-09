@@ -193,6 +193,66 @@
           "date": "2024-01"
         }
       ]
+    },
+    {
+      "claim": "Tesla's Fifth Amended and Restated Investors' Rights Agreement, filed as an exhibit to its January 2010 Form S-1, lists the Elon Musk Revocable Trust dated July 22, 2003 first among the Series A Stockholders, alongside founders Martin Eberhard and Marc Tarpenning; the S-1's balance sheets show 7,213,000 shares of Series A convertible preferred stock issued and outstanding before the offering, all of which converted to common stock.",
+      "status": "documented",
+      "date": "2010-01-29",
+      "quote": "Elon Musk Revocable Trust dated July 22, 2003",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312510017054/dex42.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Tesla Motors Form S-1, Exhibit 4.2)",
+          "title": "Fifth Amended and Restated Investors' Rights Agreement",
+          "date": "2010-01-29"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001318605/000119312510017054/ds1.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Tesla Motors Form S-1)",
+          "title": "Tesla Motors, Inc. Registration Statement on Form S-1",
+          "date": "2010-01-29"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095013010002906/ds1a.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Tesla Motors Form S-1/A, Amendment No. 4)",
+          "title": "Amendment No. 4 to Registration Statement on Form S-1",
+          "date": "2010-06"
+        }
+      ]
+    },
+    {
+      "claim": "Tesla's 2010 registration statement (Amendment No. 4) describes Elon Musk as its Chief Executive Officer, Product Architect, Chairman of the Board of Directors and largest stockholder, and says he has historically provided a significant amount of the funds required for the company's operations. The related-party disclosures list the Elon Musk Revocable Trust dated July 22, 2003 among the purchasers of the Series D and Series E preferred stock.",
+      "status": "documented",
+      "date": "2010-06",
+      "quote": "Chief Executive Officer, Product Architect, Chairman of our Board of Directors and largest stockholder",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095013010002906/ds1a.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Tesla Motors Form S-1/A, Amendment No. 4)",
+          "title": "Amendment No. 4 to Registration Statement on Form S-1",
+          "date": "2010-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001318605/000119312510017054/ds1.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Tesla Motors Form S-1)",
+          "title": "Tesla Motors, Inc. Registration Statement on Form S-1",
+          "date": "2010-01-29"
+        }
+      ]
+    },
+    {
+      "claim": "Tesla's 2011 Form S-1 (for its follow-on offering) says Elon Musk has been involved with the company since its earliest days in April 2004, including raising capital and bringing in investors.",
+      "status": "documented",
+      "date": "2011",
+      "quote": "since our earliest days in April 2004, including raising capital and bringing in investors",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312511149963/ds1.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Tesla Motors Form S-1, 2011)",
+          "title": "Form S-1 Registration Statement (Tesla Motors, 2011)",
+          "date": "2011"
+        }
+      ]
     }
   ],
   "connections": [
@@ -251,13 +311,43 @@
         }
       ],
       "reverse": true
+    },
+    {
+      "to": "elon-musk",
+      "toName": "Elon Musk",
+      "toType": "person",
+      "relation": "invested in",
+      "reverse": true,
+      "claim": "Tesla's SEC filings list the Elon Musk Revocable Trust dated July 22, 2003 as a Series A stockholder and as a purchaser of Series D and Series E preferred stock, describe Musk as the company's largest stockholder at the 2010 IPO, and say he has been involved since the company's earliest days in April 2004, including raising capital.",
+      "status": "documented",
+      "date": "2010",
+      "quote": "Chief Executive Officer, Product Architect, Chairman of our Board of Directors and largest stockholder",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312510017054/dex42.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Tesla Motors Form S-1, Exhibit 4.2)",
+          "title": "Fifth Amended and Restated Investors' Rights Agreement",
+          "date": "2010-01-29"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095013010002906/ds1a.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Tesla Motors Form S-1/A, Amendment No. 4)",
+          "title": "Amendment No. 4 to Registration Statement on Form S-1",
+          "date": "2010-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312511149963/ds1.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Tesla Motors Form S-1, 2011)",
+          "title": "Form S-1 Registration Statement (Tesla Motors, 2011)",
+          "date": "2011"
+        }
+      ]
     }
   ],
   "openQuestions": [
-    "The 2004 Series A figures ($7.5 million round; $6.5 million or $6.35 million from Musk) come from Wikipedia, Yahoo Finance and CNN's timeline, not from Tesla's S-1 or a contemporaneous filing. The S-1's 'Certain Relationships' and beneficial-ownership sections should be checked.",
     "Which regulatory programs the credits come from (California ZEV, federal GHG/CAFE, EU CO2 pooling) and that buyers are other regulated automakers: the 10-K passage describing this was not retrieved before the search budget ran out, so the brief's phrase 'ZEV credits paid by legacy automakers' is recorded only as 'automotive regulatory credits revenue' here. The fiscal 2024 10-K's attribution to 'other automakers' scaling back BEV plans was returned in paraphrase only.",
     "Tesla's fiscal 2021 10-K narrative (credits of $1.46 billion, $1.58 billion and $594 million for 2021, 2020 and 2019) was returned in a search summary but the filing page itself was not in the results; the 2019 figure is therefore not recorded.",
     "The DOE's own 2010 loan-closing release and the June 2009 award release were not retrieved; the January 20, 2010 date is from Tesla's S-1/A.",
-    "The 2004 Series A figures ($7.5M round, ~$6.5M from Musk) rest on secondary accounts; the Tesla S-1 passage on the 2004 round should be cited directly."
+    "2004 Series A: Tesla's S-1 exhibits establish that Musk's trust is a Series A stockholder and the S-1/A that he was the largest stockholder and a historical funder, but the filing's narrative on the Series A round itself (date, size, Musk's contribution) was not located in the pages returned, so the $7.5 million round / ~$6.5 million from Musk figures remain secondary-source only. The 2011 S-1 dates Musk's involvement to 'April 2004', not the February 2004 given by secondary accounts. The 7,213,000 Series A share count was returned from an S-1 amendment's balance sheet without the amendment being identified; the quoted S-1/A phrases ('largest stockholder'; funds for operations) came from search excerpts and should be confirmed in the filing text."
   ]
 }

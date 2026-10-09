@@ -147,6 +147,203 @@
           "date": "2023-07-19"
         }
       ]
+    },
+    {
+      "claim": "CNN reported on November 15, 2017 that a U.S. Justice Department investigation into Deutsche Bank's role in the $10 billion Russian mirror-trading scheme had gone dormant in the months after the bank's January 2017 settlements with regulators, noting that such criminal investigations can span months or years before a resolution is reached or the department decides there is no case.",
+      "status": "reported",
+      "date": "2017-11-15",
+      "quote": "a Justice Department investigation into Deutsche Bank's role in a $10 billion Russian money laundering scheme has gone dormant months after the bank settled with regulators",
+      "sources": [
+        {
+          "url": "https://www.cnn.com/2017/11/15/politics/justice-department-investigation-russian-laundering-deutsche-bank/index.html",
+          "publisher": "CNN",
+          "title": "DOJ probe on Russian trades through Deutsche Bank quiet",
+          "date": "2017-11-15"
+        }
+      ]
+    },
+    {
+      "claim": "Deutsche Bank's annual reports on Form 20-F describe the matter as equity trades entered into by certain clients with the bank in Moscow and London that offset one another; the filings say the bank's internal review found certain violations of its policies and deficiencies in its control environment, and that it took disciplinary measures against certain individuals.",
+      "status": "documented",
+      "date": "2021-03-12",
+      "quote": "certain violations of Deutsche Bank's policies and deficiencies in Deutsche Bank's control environment",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1159508/000115950821000008/db2021031220f.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Deutsche Bank AG Form 20-F for fiscal 2020)",
+          "title": "Deutsche Bank Aktiengesellschaft Annual Report on Form 20-F for fiscal 2020",
+          "date": "2021-03-12"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1159508/000115950820000012/db2020032020f.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Deutsche Bank AG Form 20-F for fiscal 2019)",
+          "title": "Deutsche Bank Aktiengesellschaft Annual Report on Form 20-F for fiscal 2019",
+          "date": "2020-03-20"
+        },
+        {
+          "url": "https://www.db.com/news/detail/20170131-deutsche-bank-reaches-settlements-over-russian-securities-trades",
+          "publisher": "Deutsche Bank AG",
+          "title": "Deutsche Bank reaches settlements over Russian securities trades",
+          "date": "2017-01-31"
+        }
+      ]
+    },
+    {
+      "claim": "Deutsche Bank's Form 20-F for fiscal 2020 says the bank continued to cooperate with regulators including the U.S. Department of Justice, which had its own ongoing investigation into the offsetting Moscow-London trades, and that the bank had recorded a provision for the remaining investigation without disclosing the amount because disclosure could seriously prejudice the outcome.",
+      "status": "documented",
+      "date": "2021-03-12",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1159508/000115950821000008/db2021031220f.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Deutsche Bank AG Form 20-F for fiscal 2020)",
+          "title": "Deutsche Bank Aktiengesellschaft Annual Report on Form 20-F for fiscal 2020",
+          "date": "2021-03-12"
+        }
+      ]
+    },
+    {
+      "claim": "BuzzFeed News reported in September 2020, in its FinCEN Files series, that state and federal law-enforcement authorities had never charged anyone at Deutsche Bank in relation to the mirror trades.",
+      "status": "reported",
+      "date": "2020-09",
+      "quote": "state and federal law enforcement authorities have never charged anyone at Deutsche in relation to the mirror trades",
+      "sources": [
+        {
+          "url": "https://www.buzzfeednews.com/article/tomwarren/deutsche-bank-money-laundering-mirror-trades",
+          "publisher": "BuzzFeed News",
+          "title": "#FinCENFiles: How Deutsche Bank Let Crooked Clients Run Rampant",
+          "date": "2020-09"
+        }
+      ]
+    },
+    {
+      "claim": "CNBC reported on November 3, 2020, citing unnamed sources, that Deutsche Bank had been the Trump Organization's biggest lender, financing more than $2 billion in loans to Donald Trump during his business career; that the bank first started lending to Trump in the late 1990s; and that he still owed it at least $130 million according to his latest financial disclosures.",
+      "status": "reported",
+      "date": "2020-11-03",
+      "quote": "Deutsche Bank has been the Trump Organization's biggest lender, financing more than $2 billion in loans to the president during his business career",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2020/11/03/tired-of-trump-deutsche-bank-wants-out-but-sees-no-good-options-sources-say.html",
+          "publisher": "CNBC",
+          "title": "Tired of Trump, Deutsche Bank wants out but sees no good options, sources say",
+          "date": "2020-11-03"
+        },
+        {
+          "url": "https://www.npr.org/templates/transcript/transcript.php?storyId=725893104",
+          "publisher": "NPR (Planet Money)",
+          "title": "Trump And Deutsche Bank, A Long Affair",
+          "date": "2019-05"
+        },
+        {
+          "url": "https://www.npr.org/2019/05/09/721723204/deutsche-bank-is-the-rosetta-stone-to-unlock-trump-finances-journalist-says",
+          "publisher": "NPR",
+          "title": "Deutsche Bank Is The 'Rosetta Stone' To Unlock Trump Finances, Journalist Says",
+          "date": "2019-05-09"
+        }
+      ]
+    },
+    {
+      "claim": "In April 2019 Donald Trump, three of his children and the Trump Organization sued Deutsche Bank and Capital One to block them from complying with subpoenas from the House Financial Services and Intelligence Committees for records of Trump's finances; the committees' stated aims included an investigation into Russian money laundering. A federal district judge denied a preliminary injunction.",
+      "status": "court",
+      "date": "2019-04-30",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2019/04/30/donald-trump-files-lawsuit-against-deutsche-bank-and-capital-one.html",
+          "publisher": "CNBC",
+          "title": "Trump sues Deutsche Bank and Capital One to block House subpoenas for his financial information",
+          "date": "2019-04-30"
+        },
+        {
+          "url": "https://law.justia.com/cases/federal/appellate-courts/ca2/19-1540/19-1540-2019-12-03.html",
+          "publisher": "U.S. Court of Appeals for the Second Circuit (via Justia)",
+          "title": "Trump v. Deutsche Bank AG, No. 19-1540 (2d Cir. 2019)",
+          "date": "2019-12-03"
+        }
+      ]
+    },
+    {
+      "claim": "On December 3, 2019 the Second Circuit (Trump v. Deutsche Bank AG, No. 19-1540) affirmed in substantial part the denial of a preliminary injunction, holding that although the plaintiffs showed irreparable injury they had not shown a likelihood of success on their statutory and constitutional claims, and ordered prompt compliance subject to procedures on nondisclosure of sensitive personal information; Judge Livingston dissented in part. The Supreme Court stayed the subpoenas on December 13, 2019 and consolidated the case with two others.",
+      "status": "court",
+      "date": "2019-12-03",
+      "quote": "they did not show a likelihood of success on any of their statutory and constitutional claims",
+      "sources": [
+        {
+          "url": "https://law.justia.com/cases/federal/appellate-courts/ca2/19-1540/19-1540-2019-12-03.html",
+          "publisher": "U.S. Court of Appeals for the Second Circuit (via Justia)",
+          "title": "Trump v. Deutsche Bank AG, No. 19-1540 (2d Cir. 2019)",
+          "date": "2019-12-03"
+        },
+        {
+          "url": "https://www.cnbc.com/2019/12/03/trump-loses-appeal-to-block-deutsche-bank-capital-one-from-handing-his-financial-records-to-congress.html",
+          "publisher": "CNBC",
+          "title": "Trump loses appeal to block Deutsche Bank, Capital One from handing his financial records to Congress",
+          "date": "2019-12-03"
+        },
+        {
+          "url": "https://www.washingtonpost.com/business/2019/12/03/appeals-court-refuses-block-house-subpoena-trumps-financial-records/",
+          "publisher": "The Washington Post",
+          "title": "Deutsche Bank, Capital One must comply with congressional subpoenas for Trump's financial records, appeals court rules",
+          "date": "2019-12-03"
+        },
+        {
+          "url": "https://www.nbcnews.com/politics/congress/trump-asks-supreme-court-block-subpoenas-financial-information-deutsche-bank-n1097246",
+          "publisher": "NBC News",
+          "title": "Ginsburg stays order demanding banks turn over Trump financial records",
+          "date": "2019-12"
+        }
+      ]
+    },
+    {
+      "claim": "On July 9, 2020, in Trump v. Mazars USA, LLP (consolidated with the Deutsche Bank case), the Supreme Court held that presidents are not immune from congressional subpoenas and set out a four-part test for evaluating subpoenas seeking information about the president.",
+      "status": "court",
+      "date": "2020-07-09",
+      "sources": [
+        {
+          "url": "https://www.oyez.org/cases/2019/19-715",
+          "publisher": "Oyez (Cornell LII / Justia / Chicago-Kent)",
+          "title": "Trump v. Mazars USA, LLP",
+          "date": "2020-07-09"
+        },
+        {
+          "url": "https://levin-center.org/deutsche-bank-and-capital-one-case/",
+          "publisher": "Levin Center for Oversight and Democracy",
+          "title": "Deutsche Bank and Capital One Case",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "claim": "CNN reported on December 22, 2020 that Rosemary Vrablic, a Deutsche Bank private banker it described as a trusted contact to the Trump Organization and Jared Kushner, had taken over the bank's lending relationship with Trump on the private-banking side after its commercial lending division stopped doing business with him, and that she and colleague Dominic Scalzi had resigned from the bank effective at the end of 2020. Bloomberg reported in February 2023 that Vrablic, a former managing director who arranged hundreds of millions of dollars in loans to Trump's company, had been subpoenaed by Trump in the New York attorney general's civil fraud suit.",
+      "status": "reported",
+      "date": "2020-12-22",
+      "quote": "took over the bank's lending relationship with Trump on the private side after the commercial lending division stopped doing business with Trump",
+      "sources": [
+        {
+          "url": "https://www.cnn.com/2020/12/22/business/trump-deutsche-bankers-resign",
+          "publisher": "CNN",
+          "title": "Trump's private bankers resign from Deutsche Bank",
+          "date": "2020-12-22"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2023-02-23/trump-subpoenas-ex-deutsche-bank-private-banker-in-ny-fraud-case",
+          "publisher": "Bloomberg",
+          "title": "Trump Subpoenas Ex-Deutsche Bank Private Banker in NY Fraud Case",
+          "date": "2023-02-23"
+        }
+      ]
+    },
+    {
+      "claim": "Forbes reported on August 5, 2020 that Manhattan prosecutors had subpoenaed Deutsche Bank, broadening the scope of the district attorney's criminal inquiry into Donald Trump.",
+      "status": "reported",
+      "date": "2020-08-05",
+      "quote": "Manhattan Prosecutors Subpoenaed Trump's Bank, Broadening Scope Of Criminal Inquiry Into President",
+      "sources": [
+        {
+          "url": "https://www.forbes.com/sites/danielcassady/2020/08/05/manhattan-prosecutors-subpoenaed-trumps-bank-broadening-scope-of-criminal-inquiry-into-president/",
+          "publisher": "Forbes",
+          "title": "Manhattan Prosecutors Subpoenaed Trump's Bank, Broadening Scope Of Criminal Inquiry Into President",
+          "date": "2020-08-05"
+        }
+      ]
     }
   ],
   "connections": [
@@ -224,13 +421,147 @@
           "date": "2023-07-19"
         }
       ]
+    },
+    {
+      "to": "donald-trump",
+      "toName": "Donald Trump",
+      "toType": "person",
+      "relation": "funded",
+      "claim": "Deutsche Bank was the Trump Organization's biggest lender, financing more than $2 billion in loans to Donald Trump over his business career from the late 1990s, with at least $130 million still owed in 2020, according to a November 2020 CNBC report citing unnamed sources; its private-banking arm, through banker Rosemary Vrablic, continued lending after the commercial division stopped.",
+      "status": "reported",
+      "date": "2020-11-03",
+      "quote": "Deutsche Bank has been the Trump Organization's biggest lender, financing more than $2 billion in loans to the president during his business career",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2020/11/03/tired-of-trump-deutsche-bank-wants-out-but-sees-no-good-options-sources-say.html",
+          "publisher": "CNBC",
+          "title": "Tired of Trump, Deutsche Bank wants out but sees no good options, sources say",
+          "date": "2020-11-03"
+        },
+        {
+          "url": "https://www.cnn.com/2020/12/22/business/trump-deutsche-bankers-resign",
+          "publisher": "CNN",
+          "title": "Trump's private bankers resign from Deutsche Bank",
+          "date": "2020-12-22"
+        },
+        {
+          "url": "https://www.npr.org/templates/transcript/transcript.php?storyId=725893104",
+          "publisher": "NPR (Planet Money)",
+          "title": "Trump And Deutsche Bank, A Long Affair",
+          "date": "2019-05"
+        }
+      ]
+    },
+    {
+      "to": "donald-trump",
+      "toName": "Donald Trump",
+      "toType": "person",
+      "relation": "sued by",
+      "claim": "Donald Trump, three of his children and the Trump Organization sued Deutsche Bank (and Capital One) in April 2019 to block compliance with House committee subpoenas for his financial records; the Second Circuit refused to block the subpoenas on December 3, 2019, and the Supreme Court stayed them on December 13, 2019 before deciding Trump v. Mazars on July 9, 2020.",
+      "status": "court",
+      "date": "2019-12-03",
+      "quote": "they did not show a likelihood of success on any of their statutory and constitutional claims",
+      "sources": [
+        {
+          "url": "https://law.justia.com/cases/federal/appellate-courts/ca2/19-1540/19-1540-2019-12-03.html",
+          "publisher": "U.S. Court of Appeals for the Second Circuit (via Justia)",
+          "title": "Trump v. Deutsche Bank AG, No. 19-1540 (2d Cir. 2019)",
+          "date": "2019-12-03"
+        },
+        {
+          "url": "https://www.cnbc.com/2019/04/30/donald-trump-files-lawsuit-against-deutsche-bank-and-capital-one.html",
+          "publisher": "CNBC",
+          "title": "Trump sues Deutsche Bank and Capital One to block House subpoenas for his financial information",
+          "date": "2019-04-30"
+        }
+      ]
+    },
+    {
+      "to": "rosemary-vrablic",
+      "toName": "Rosemary Vrablic",
+      "toType": "person",
+      "relation": "employed by",
+      "reverse": true,
+      "claim": "Rosemary Vrablic was a Deutsche Bank private banker and managing director who, according to CNN and Bloomberg, took over the bank's lending relationship with Donald Trump on the private-banking side and arranged hundreds of millions of dollars in loans to his company; she resigned effective at the end of 2020.",
+      "status": "reported",
+      "date": "2020-12-22",
+      "quote": "took over the bank's lending relationship with Trump on the private side after the commercial lending division stopped doing business with Trump",
+      "sources": [
+        {
+          "url": "https://www.cnn.com/2020/12/22/business/trump-deutsche-bankers-resign",
+          "publisher": "CNN",
+          "title": "Trump's private bankers resign from Deutsche Bank",
+          "date": "2020-12-22"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2023-02-23/trump-subpoenas-ex-deutsche-bank-private-banker-in-ny-fraud-case",
+          "publisher": "Bloomberg",
+          "title": "Trump Subpoenas Ex-Deutsche Bank Private Banker in NY Fraud Case",
+          "date": "2023-02-23"
+        }
+      ]
+    },
+    {
+      "to": "us-department-of-justice",
+      "toName": "US Department of Justice",
+      "toType": "government",
+      "relation": "investigated",
+      "reverse": true,
+      "claim": "The U.S. Department of Justice investigated the offsetting Moscow-London equity trades (the 'mirror trades'); Deutsche Bank's Form 20-F for fiscal 2020 described the DOJ investigation as ongoing and said the bank had recorded an undisclosed provision for it. CNN reported in November 2017 that the probe had gone dormant, and BuzzFeed News reported in September 2020 that no one at the bank had been charged.",
+      "status": "documented",
+      "date": "2021-03-12",
+      "quote": "state and federal law enforcement authorities have never charged anyone at Deutsche in relation to the mirror trades",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1159508/000115950821000008/db2021031220f.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Deutsche Bank AG Form 20-F for fiscal 2020)",
+          "title": "Deutsche Bank Aktiengesellschaft Annual Report on Form 20-F for fiscal 2020",
+          "date": "2021-03-12"
+        },
+        {
+          "url": "https://www.cnn.com/2017/11/15/politics/justice-department-investigation-russian-laundering-deutsche-bank/index.html",
+          "publisher": "CNN",
+          "title": "DOJ probe on Russian trades through Deutsche Bank quiet",
+          "date": "2017-11-15"
+        },
+        {
+          "url": "https://www.buzzfeednews.com/article/tomwarren/deutsche-bank-money-laundering-mirror-trades",
+          "publisher": "BuzzFeed News",
+          "title": "#FinCENFiles: How Deutsche Bank Let Crooked Clients Run Rampant",
+          "date": "2020-09"
+        }
+      ]
+    },
+    {
+      "to": "U.S. House Financial Services and Intelligence Committees",
+      "toName": "U.S. House Financial Services and Intelligence Committees",
+      "toType": "government",
+      "relation": "other",
+      "claim": "In 2019 the House Financial Services and Intelligence Committees subpoenaed Deutsche Bank for records of Donald Trump's loans and finances; the Second Circuit upheld the subpoenas on December 3, 2019.",
+      "status": "court",
+      "date": "2019-12-03",
+      "sources": [
+        {
+          "url": "https://law.justia.com/cases/federal/appellate-courts/ca2/19-1540/19-1540-2019-12-03.html",
+          "publisher": "U.S. Court of Appeals for the Second Circuit (via Justia)",
+          "title": "Trump v. Deutsche Bank AG, No. 19-1540 (2d Cir. 2019)",
+          "date": "2019-12-03"
+        },
+        {
+          "url": "https://www.abajournal.com/news/article/2nd-circuit-refuses-to-block-house-committees-subpoenas-for-trump-bank-records",
+          "publisher": "ABA Journal",
+          "title": "2nd Circuit refuses to block House committees' subpoenas for Trump bank records",
+          "date": "2019-12-03"
+        }
+      ]
     }
   ],
   "openQuestions": [
     "Period: the FCA dates the mirror trades to April 2012 - October 2014 (AML framework failings 2012-2015); the Federal Reserve order refers to transactions 2011-2015. The site's '2011-2016' window is wider than either.",
-    "No DOJ outcome on the mirror trades was retrieved this session (search budget exhausted before a source was found).",
-    "Donald Trump: no source stating a specific Deutsche Bank-Trump lending relationship was retrieved this session, so no connection was recorded. The site's entry names Rosemary Vrablic and Justin Kennedy; both would need sources.",
     "The DFS consent order text itself was not retrieved; the DFS press release and Deutsche Bank's 6-K are cited.",
-    "The $186 million figure and the reference to the 2015 and 2017 consent orders in the July 2023 Federal Reserve action come from the search tool's summary of the Fed's 19 July 2023 release, not from a verbatim passage; confirm against the release."
+    "The $186 million figure and the reference to the 2015 and 2017 consent orders in the July 2023 Federal Reserve action come from the search tool's summary of the Fed's 19 July 2023 release, not from a verbatim passage; confirm against the release.",
+    "DOJ mirror trades: no charging decision, declination or closure announcement was found. The fiscal 2020 Form 20-F still described a DOJ investigation as ongoing with an undisclosed provision; the search tool's summary of the fiscal 2021 20-F indicated that filing no longer refers to an ongoing DOJ investigation and says only that the bank has advised regulatory and law-enforcement authorities in several jurisdictions including the United States. Confirm against the fiscal 2021 and later 20-Fs before stating the investigation ended. A Bloomberg piece carried by Gulf News ('Deutsche Bank wasn't only mirror trader, Russian central bank says') also described the DOJ probe as open; its date was not shown.",
+    "Trump lending: the 'more than $2 billion' figure comes from a November 2020 CNBC report citing unnamed sources, not from a filing or court record; the passage was returned alongside that result and its attribution to that article should be confirmed. The Second Circuit opinion was not opened for its own description of the lending relationship. The site's 'over $300M' figure was not found. Justin Kennedy (named on the site as head of DB real-estate securitization) was not researched; no source for his role was opened.",
+    "Rosemary Vrablic: 'rosemary-vrablic' is an id in public/data/entities.json and is used as the connection target; CNN's description of her role was returned in summary form and should be checked against the article."
   ]
 }

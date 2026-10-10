@@ -1,0 +1,155 @@
+{
+  "entity": "ghaith-pharaon",
+  "name": "Ghaith Pharaon",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Ghaith R. Pharaon was a Saudi businessman whom the Federal Reserve found acted illegally as an undisclosed nominee for BCCI in acquiring the Independence Bank of Encino, California in 1985. The Board assessed a $37 million civil money penalty against him in September 1991 and, after a 1995 administrative hearing, issued a final order in February 1997 permanently barring him from the U.S. banking industry.",
+    "sources": [
+      {
+        "url": "https://www.federalreserve.gov/supervisionreg/files/19910913.pdf",
+        "publisher": "Board of Governors of the Federal Reserve System",
+        "title": "Enforcement action against Ghaith R. Pharaon, September 1991",
+        "date": "1991-09-13"
+      },
+      {
+        "url": "https://federalreserve.gov/boarddocs/press/enforcement/1997/19970204/Attachment.pdf",
+        "publisher": "Board of Governors of the Federal Reserve System",
+        "title": "Final order in the matter of Ghaith R. Pharaon",
+        "date": "1997-02-04"
+      },
+      {
+        "url": "https://irp.fas.org/congress/1992_rpt/bcci/",
+        "publisher": "Federation of American Scientists (hosting Senate Print 102-140)",
+        "title": "The BCCI Affair: A Report to the Committee on Foreign Relations, United States Senate (Kerry and Brown)",
+        "date": "1992-12"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The Federal Reserve found that Pharaon acted illegally as a secret nominee for BCCI when he acquired the Independence Bank of Encino, California in 1985, with BCCI holding an 85 percent interest.",
+      "status": "documented",
+      "date": "1985",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/supervisionreg/files/19910913.pdf",
+          "publisher": "Board of Governors of the Federal Reserve System",
+          "title": "Enforcement action against Ghaith R. Pharaon, September 1991",
+          "date": "1991-09-13"
+        },
+        {
+          "url": "https://federalreserve.gov/boarddocs/press/enforcement/1997/19970204/Attachment.pdf",
+          "publisher": "Board of Governors of the Federal Reserve System",
+          "title": "Final order in the matter of Ghaith R. Pharaon",
+          "date": "1997-02-04"
+        }
+      ]
+    },
+    {
+      "claim": "On 17 September 1991 the Federal Reserve Board announced a $37 million civil money penalty against Ghaith R. Pharaon.",
+      "status": "documented",
+      "date": "1991-09-17",
+      "quote": "The Federal Reserve Board announced it had assessed a $37 million civil money penalty against Ghaith R. Pharaon.",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/supervisionreg/files/19910913.pdf",
+          "publisher": "Board of Governors of the Federal Reserve System",
+          "title": "Enforcement action against Ghaith R. Pharaon, September 1991",
+          "date": "1991-09-13"
+        }
+      ]
+    },
+    {
+      "claim": "A February 1997 final order of the Board permanently barred Pharaon from the U.S. banking industry following a 1995 administrative hearing.",
+      "status": "court",
+      "date": "1997-02-04",
+      "sources": [
+        {
+          "url": "https://federalreserve.gov/boarddocs/press/enforcement/1997/19970204/Attachment.pdf",
+          "publisher": "Board of Governors of the Federal Reserve System",
+          "title": "Final order in the matter of Ghaith R. Pharaon",
+          "date": "1997-02-04"
+        }
+      ]
+    },
+    {
+      "claim": "The Independence Bank of Encino failed in January 1992.",
+      "status": "documented",
+      "date": "1992-01",
+      "sources": [
+        {
+          "url": "https://www.gao.gov/assets/ggd-92-96.pdf",
+          "publisher": "U.S. General Accounting Office",
+          "title": "GGD-92-96: BCCI",
+          "date": "1992"
+        }
+      ]
+    },
+    {
+      "claim": "The Kerry-Brown report on the BCCI affair was issued to the Senate Foreign Relations Committee in December 1992 as Senate Print 102-140.",
+      "status": "documented",
+      "date": "1992-12",
+      "sources": [
+        {
+          "url": "https://irp.fas.org/congress/1992_rpt/bcci/",
+          "publisher": "Federation of American Scientists (hosting Senate Print 102-140)",
+          "title": "The BCCI Affair: A Report to the Committee on Foreign Relations, United States Senate (Kerry and Brown)",
+          "date": "1992-12"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "bcci",
+      "toName": "BCCI",
+      "toType": "company",
+      "relation": "other",
+      "claim": "The Federal Reserve found Pharaon acted as an undisclosed nominee for BCCI in acquiring Independence Bank.",
+      "status": "documented",
+      "date": "1985",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/supervisionreg/files/19910913.pdf",
+          "publisher": "Board of Governors of the Federal Reserve System",
+          "title": "Enforcement action against Ghaith R. Pharaon, September 1991",
+          "date": "1991-09-13"
+        },
+        {
+          "url": "https://federalreserve.gov/boarddocs/press/enforcement/1997/19970204/Attachment.pdf",
+          "publisher": "Board of Governors of the Federal Reserve System",
+          "title": "Final order in the matter of Ghaith R. Pharaon",
+          "date": "1997-02-04"
+        }
+      ]
+    },
+    {
+      "to": "federal-reserve",
+      "toName": "Federal Reserve",
+      "toType": "institution",
+      "relation": "regulated",
+      "claim": "The Federal Reserve Board penalised Pharaon $37 million in 1991 and barred him from U.S. banking in 1997.",
+      "status": "documented",
+      "date": "1997-02-04",
+      "reverse": true,
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/supervisionreg/files/19910913.pdf",
+          "publisher": "Board of Governors of the Federal Reserve System",
+          "title": "Enforcement action against Ghaith R. Pharaon, September 1991",
+          "date": "1991-09-13"
+        },
+        {
+          "url": "https://federalreserve.gov/boarddocs/press/enforcement/1997/19970204/Attachment.pdf",
+          "publisher": "Board of Governors of the Federal Reserve System",
+          "title": "Final order in the matter of Ghaith R. Pharaon",
+          "date": "1997-02-04"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: the page places Pharaon in a 'Harken Energy insider sale and BCCI financing nexus'. His BCCI nominee role is documented, but no source returned links Pharaon to Harken Energy, CenTrust or a 17 percent Harken stake; those links remain unsupported here.",
+    "First American Bankshares and CenTrust connections were not tested."
+  ]
+}

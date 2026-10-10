@@ -1,0 +1,68 @@
+{
+  "entity": "ghislaine-maxwell",
+  "name": "Ghislaine Maxwell",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Ghislaine Maxwell is a British-born associate of Jeffrey Epstein who was convicted by a federal jury in Manhattan in December 2021 on five counts including sex trafficking of minors, and sentenced in June 2022 by U.S. District Judge Alison Nathan to 20 years in prison, a $750,000 fine and five years of supervised release. On this site she appears as one of the 'insiders' in the Epstein entry.",
+    "sources": [
+      { "url": "https://www.axios.com/2022/06/28/ghislaine-maxwell-sentencing-jeffrey-epstein", "publisher": "Axios", "title": "Ghislaine Maxwell sentenced to 20 years in prison for sex trafficking", "date": "2022-06-28" },
+      { "url": "https://www.jurist.org/news/2022/06/ghislaine-maxwell-receives-20-years-in-prison-for-role-in-epstein-sex-trafficking-scheme", "publisher": "JURIST", "title": "Ghislaine Maxwell receives 20 years in prison for role in Epstein sex trafficking scheme", "date": "2022-06" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "A federal jury in Manhattan found Ghislaine Maxwell guilty in December 2021 of five counts, including sex trafficking of minors.",
+      "status": "court",
+      "date": "2021-12",
+      "quote": "A federal jury in December 2021 found Maxwell guilty of five counts, including sex trafficking of minors.",
+      "sources": [
+        { "url": "https://www.axios.com/2022/06/28/ghislaine-maxwell-sentencing-jeffrey-epstein", "publisher": "Axios", "title": "Ghislaine Maxwell sentenced to 20 years in prison for sex trafficking", "date": "2022-06-28" }
+      ]
+    },
+    {
+      "claim": "On June 28, 2022 U.S. District Judge Alison Nathan sentenced Maxwell to 20 years in prison, a $750,000 fine and five years of supervised release following her release.",
+      "status": "court",
+      "date": "2022-06-28",
+      "quote": "Maxwell received 20 years in prison, plus a $750,000 fine, according to the Justice Department, and she will be supervised for five years upon release.",
+      "sources": [
+        { "url": "https://www.axios.com/2022/06/28/ghislaine-maxwell-sentencing-jeffrey-epstein", "publisher": "Axios", "title": "Ghislaine Maxwell sentenced to 20 years in prison for sex trafficking", "date": "2022-06-28" },
+        { "url": "https://www.jurist.org/news/2022/06/ghislaine-maxwell-receives-20-years-in-prison-for-role-in-epstein-sex-trafficking-scheme", "publisher": "JURIST", "title": "Ghislaine Maxwell receives 20 years in prison for role in Epstein sex trafficking scheme", "date": "2022-06" }
+      ]
+    },
+    {
+      "claim": "Federal prosecutors had asked for a sentence of 30 to 55 years; Maxwell's lawyers asked for no more than five years.",
+      "status": "documented",
+      "date": "2022-06",
+      "quote": "Federal prosecutors had sought 30 to 55 years, while Maxwell asked for no more than five years.",
+      "sources": [
+        { "url": "https://www.jurist.org/news/2022/06/ghislaine-maxwell-receives-20-years-in-prison-for-role-in-epstein-sex-trafficking-scheme", "publisher": "JURIST", "title": "Ghislaine Maxwell receives 20 years in prison for role in Epstein sex trafficking scheme", "date": "2022-06" }
+      ]
+    },
+    {
+      "claim": "The sentence was announced by the U.S. Attorney's Office for the Southern District of New York, which prosecuted the case.",
+      "status": "documented",
+      "date": "2022-06-28",
+      "sources": [
+        { "url": "https://www.axios.com/2022/06/28/ghislaine-maxwell-sentencing-jeffrey-epstein", "publisher": "Axios", "title": "Ghislaine Maxwell sentenced to 20 years in prison for sex trafficking", "date": "2022-06-28" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "jeffrey-epstein",
+      "toName": "Jeffrey Epstein",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Maxwell was convicted of sex trafficking of minors for her role in Jeffrey Epstein's abuse of underage girls.",
+      "status": "court",
+      "date": "2021-12",
+      "sources": [
+        { "url": "https://www.jurist.org/news/2022/06/ghislaine-maxwell-receives-20-years-in-prison-for-role-in-epstein-sex-trafficking-scheme", "publisher": "JURIST", "title": "Ghislaine Maxwell receives 20 years in prison for role in Epstein sex trafficking scheme", "date": "2022-06" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site's Epstein entry describes a 'kompromat' and intelligence role; nothing in the sentencing record reviewed here addresses that, so that part of the page remains unsupported by the court record.",
+    "The SDNY press release on justice.gov for the sentencing was not located; the owner may wish to add it as the primary source."
+  ]
+}

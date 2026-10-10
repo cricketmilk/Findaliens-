@@ -1,0 +1,133 @@
+{
+  "entity": "pierre-s-du-pont",
+  "name": "Pierre S. du Pont",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Pierre S. du Pont led E. I. du Pont de Nemours & Co. and, after du Pont invested about $50 million in General Motors in 1917-1919 to become its largest shareholder, served as GM's president from 1920 to 1923 and chairman from 1923 to 1929. In 1957 the Supreme Court held in United States v. E. I. du Pont de Nemours & Co. that du Pont's GM stockholding violated Section 7 of the Clayton Act.",
+    "sources": [
+      {
+        "url": "https://www.law.cornell.edu/supremecourt/text/353/586",
+        "publisher": "Legal Information Institute, Cornell Law School",
+        "title": "United States v. E. I. du Pont de Nemours & Co., 353 U.S. 586 (1957)",
+        "date": "1957-06-03"
+      },
+      {
+        "url": "https://ebsco.com/research-starters/law/us-supreme-court-orders-du-pont-disburse-gm-holdings",
+        "publisher": "EBSCO Research Starters",
+        "title": "U.S. Supreme Court Orders Du Pont to Disburse GM Holdings"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Between 1917 and 1919 du Pont invested about $50 million in General Motors, becoming its largest stockholder (about 23 percent).",
+      "status": "reported",
+      "date": "1919",
+      "quote": "between 1917 and 1919, Du Pont invested $50 million in GM, becoming the automaker's largest stockholder",
+      "sources": [
+        {
+          "url": "https://ebsco.com/research-starters/law/us-supreme-court-orders-du-pont-disburse-gm-holdings",
+          "publisher": "EBSCO Research Starters",
+          "title": "U.S. Supreme Court Orders Du Pont to Disburse GM Holdings"
+        }
+      ]
+    },
+    {
+      "claim": "Pierre S. du Pont served as president of General Motors from 1920 to 1923 and as chairman of its board from 1923 to 1929.",
+      "status": "reported",
+      "date": "1920",
+      "quote": "Pierre S. Du Pont served as GM's president from 1920 to 1923 and as chairman of the company's board from 1923 to 1929.",
+      "sources": [
+        {
+          "url": "https://ebsco.com/research-starters/law/us-supreme-court-orders-du-pont-disburse-gm-holdings",
+          "publisher": "EBSCO Research Starters",
+          "title": "U.S. Supreme Court Orders Du Pont to Disburse GM Holdings"
+        }
+      ]
+    },
+    {
+      "claim": "In 1949 the Justice Department sued du Pont under Section 15 of the Clayton Act to enjoin violations of Section 7, alleging its GM stockholding gave it an illegal advantage in automotive finishes and fabrics; the district court dismissed the case and the government appealed directly to the Supreme Court.",
+      "status": "court",
+      "date": "1949",
+      "quote": "a civil action brought by the Government in 1949 under § 15 of the Clayton Act to enjoin violations of § 7 of that Act",
+      "sources": [
+        {
+          "url": "https://www.law.cornell.edu/supremecourt/text/353/586",
+          "publisher": "Legal Information Institute, Cornell Law School",
+          "title": "United States v. E. I. du Pont de Nemours & Co., 353 U.S. 586 (1957)",
+          "date": "1957-06-03"
+        }
+      ]
+    },
+    {
+      "claim": "On June 3, 1957 the Supreme Court (Brennan, J.) reversed, holding that the government had proved a violation of Section 7 and that du Pont had purposely employed its GM stock to entrench itself as the primary supplier of GM's automotive finishes and fabrics.",
+      "status": "court",
+      "date": "1957-06-03",
+      "quote": "purposely employed the stock... to entrench itself as the primary supplier of General Motors' requirements for automotive finishes and fabrics",
+      "sources": [
+        {
+          "url": "https://www.law.cornell.edu/supremecourt/text/353/586",
+          "publisher": "Legal Information Institute, Cornell Law School",
+          "title": "United States v. E. I. du Pont de Nemours & Co., 353 U.S. 586 (1957)",
+          "date": "1957-06-03"
+        },
+        {
+          "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep353/usrep353586/usrep353586.pdf",
+          "publisher": "Library of Congress (U.S. Reports)",
+          "title": "United States v. E. I. du Pont de Nemours & Co., 353 U.S. 586",
+          "date": "1957-06-03"
+        }
+      ]
+    },
+    {
+      "claim": "The divestiture remedy followed later: in 1961 the Supreme Court ordered du Pont to distribute its GM shares to du Pont shareholders.",
+      "status": "court",
+      "date": "1961",
+      "sources": [
+        {
+          "url": "https://ebsco.com/research-starters/law/us-supreme-court-orders-du-pont-disburse-gm-holdings",
+          "publisher": "EBSCO Research Starters",
+          "title": "U.S. Supreme Court Orders Du Pont to Disburse GM Holdings"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "gm",
+      "toName": "General Motors",
+      "toType": "company",
+      "relation": "executive of",
+      "claim": "Pierre S. du Pont was president of General Motors 1920-23 and chairman 1923-29.",
+      "status": "reported",
+      "date": "1920",
+      "sources": [
+        {
+          "url": "https://ebsco.com/research-starters/law/us-supreme-court-orders-du-pont-disburse-gm-holdings",
+          "publisher": "EBSCO Research Starters",
+          "title": "U.S. Supreme Court Orders Du Pont to Disburse GM Holdings"
+        }
+      ]
+    },
+    {
+      "to": "dupont",
+      "toName": "DuPont",
+      "toType": "company",
+      "relation": "executive of",
+      "claim": "Pierre S. du Pont led E. I. du Pont de Nemours & Co. during its 1917-19 investment in General Motors.",
+      "status": "reported",
+      "date": "1917",
+      "sources": [
+        {
+          "url": "https://ebsco.com/research-starters/law/us-supreme-court-orders-du-pont-disburse-gm-holdings",
+          "publisher": "EBSCO Research Starters",
+          "title": "U.S. Supreme Court Orders Du Pont to Disburse GM Holdings"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: du Pont's control of GM is supported (23 percent stake, presidency and chairmanship, Clayton Act ruling). The page's '1130% wartime gunpowder profit', the Opel/Wehrmacht truck and IG Farben patent-sharing statements, and any link to the 'Business Plot' were not addressed by sources found.",
+    "No source returned mentions Irénée du Pont specifically; no file was written for him."
+  ]
+}

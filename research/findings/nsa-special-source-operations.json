@@ -1,0 +1,91 @@
+{
+  "entity": "nsa-special-source-operations",
+  "name": "NSA Special Source Operations",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Special Source Operations is the NSA division that, according to the June 2013 Washington Post and Guardian reporting on documents leaked by Edward Snowden, runs the PRISM programme of collection from U.S. internet companies under Section 702 of FISA. Press descriptions of the leaked slides say 'Special Source Operations' refers to the agency's alliances with trusted U.S. companies, and that a slide titled 'Dates When PRISM Collection Began For Each Provider' lists Microsoft first, with a start date of September 11, 2007. Microsoft has said it provides customer data only in response to legally binding orders.",
+    "sources": [
+      { "url": "https://rcpmag.com/blogs/scott-bekker/2013/06/prism-and-microsoft.aspx", "publisher": "Redmond Channel Partner", "title": "PRISM and Microsoft: What We Know So Far", "date": "2013-06" },
+      { "url": "https://redmondmag.com/Articles/2014/03/20/NSA-Contradicts-MS.aspx", "publisher": "Redmond Magazine", "title": "NSA Contradicts Assertions by Microsoft and Other Service Providers", "date": "2014-03-20" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Press accounts of the leaked NSA slides describe 'Special Source Operations' as the term for the agency's alliances with trusted U.S. companies.",
+      "status": "reported",
+      "date": "2013-06",
+      "quote": "the term refers to alliances with trusted U.S. companies",
+      "sources": [
+        { "url": "https://rcpmag.com/blogs/scott-bekker/2013/06/prism-and-microsoft.aspx", "publisher": "Redmond Channel Partner", "title": "PRISM and Microsoft: What We Know So Far", "date": "2013-06" }
+      ]
+    },
+    {
+      "claim": "A leaked slide titled 'Dates When PRISM Collection Began For Each Provider' lists Microsoft first, with a collection start date of September 11, 2007, followed in later years by Yahoo, Google, Facebook, Paltalk, Skype, AOL and Apple.",
+      "status": "reported",
+      "date": "2007-09-11",
+      "quote": "lists Microsoft first, with a collection start date of Sept. 11, 2007",
+      "sources": [
+        { "url": "https://rcpmag.com/blogs/scott-bekker/2013/06/prism-and-microsoft.aspx", "publisher": "Redmond Channel Partner", "title": "PRISM and Microsoft: What We Know So Far", "date": "2013-06" },
+        { "url": "https://kotaku.com/microsoft-denies-participation-in-prism-data-gathering-511932845", "publisher": "Kotaku", "title": "Microsoft Denies Participation in PRISM Data Gathering", "date": "2013-06" }
+      ]
+    },
+    {
+      "claim": "Microsoft responded to the PRISM reports by saying it provides customer data only when it receives a legally binding order or subpoena and that it did not take part in any broader voluntary national security programme.",
+      "status": "words",
+      "date": "2013-06",
+      "quote": "Microsoft said it provides customer data only when it receives a legally binding order or subpoena and that it did not take part in any broader voluntary national security program.",
+      "sources": [
+        { "url": "https://kotaku.com/microsoft-denies-participation-in-prism-data-gathering-511932845", "publisher": "Kotaku", "title": "Microsoft Denies Participation in PRISM Data Gathering", "date": "2013-06" }
+      ]
+    },
+    {
+      "claim": "At a March 2014 Privacy and Civil Liberties Oversight Board hearing, NSA General Counsel Rajesh De said service providers know of and receive legal compulsion for the NSA's collection of communications data under Section 702, including collection in transit.",
+      "status": "words",
+      "date": "2014-03",
+      "quote": "service providers also know and receive legal compulsions surrounding NSA's harvesting of communications data directly in transit under Section 702",
+      "sources": [
+        { "url": "https://redmondmag.com/Articles/2014/03/20/NSA-Contradicts-MS.aspx", "publisher": "Redmond Magazine", "title": "NSA Contradicts Assertions by Microsoft and Other Service Providers", "date": "2014-03-20" }
+      ]
+    },
+    {
+      "claim": "Director of National Intelligence James Clapper said in June 2013 that the Washington Post and Guardian articles on PRISM contained numerous inaccuracies.",
+      "status": "words",
+      "date": "2013-06",
+      "quote": "contain numerous inaccuracies",
+      "sources": [
+        { "url": "https://rcpmag.com/blogs/scott-bekker/2013/06/prism-and-microsoft.aspx", "publisher": "Redmond Channel Partner", "title": "PRISM and Microsoft: What We Know So Far", "date": "2013-06" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "nsa",
+      "toName": "NSA",
+      "toType": "government",
+      "relation": "subsidiary of",
+      "claim": "Special Source Operations is a division of the National Security Agency, described in leaked slides as managing its partnerships with U.S. companies.",
+      "status": "reported",
+      "date": "2013-06",
+      "sources": [
+        { "url": "https://rcpmag.com/blogs/scott-bekker/2013/06/prism-and-microsoft.aspx", "publisher": "Redmond Channel Partner", "title": "PRISM and Microsoft: What We Know So Far", "date": "2013-06" }
+      ]
+    },
+    {
+      "to": "microsoft",
+      "toName": "Microsoft",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Leaked NSA slides list Microsoft as the first PRISM provider, with collection beginning September 11, 2007; Microsoft says it complies only with legally binding orders.",
+      "status": "reported",
+      "date": "2007-09-11",
+      "sources": [
+        { "url": "https://rcpmag.com/blogs/scott-bekker/2013/06/prism-and-microsoft.aspx", "publisher": "Redmond Channel Partner", "title": "PRISM and Microsoft: What We Know So Far", "date": "2013-06" },
+        { "url": "https://kotaku.com/microsoft-denies-participation-in-prism-data-gathering-511932845", "publisher": "Kotaku", "title": "Microsoft Denies Participation in PRISM Data Gathering", "date": "2013-06" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site's statement that Microsoft was the first company listed as a PRISM provider in September 2007 is supported by press descriptions of the leaked slide. The slides themselves (Washington Post, June 2013) and the PCLOB's July 2014 Section 702 report were not reachable and should be added as primary sources.",
+    "The site also lists 'PRISM program office' as a separate entity; the sources treat PRISM as a programme run within Special Source Operations rather than as a distinct office."
+  ]
+}

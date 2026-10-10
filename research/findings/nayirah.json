@@ -1,0 +1,89 @@
+{
+  "entity": "nayirah",
+  "name": "Nayirah",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "'Nayirah' was the name under which a 15-year-old Kuwaiti girl testified on October 10, 1990 before the Congressional Human Rights Caucus, co-chaired by Reps. Tom Lantos and John Porter, that she had seen Iraqi soldiers remove infants from incubators in a Kuwait City hospital. Her testimony was arranged by the public-relations firm Hill & Knowlton, working for Citizens for a Free Kuwait, a Kuwaiti-government-funded campaign. In 1992 it emerged that she was Nayirah al-Sabah, daughter of Kuwait's ambassador to the United States, Saud Nasir al-Sabah; human-rights investigators later could not substantiate the incubator account.",
+    "sources": [
+      { "url": "https://democracynow.org/2003/12/2/a_debate_on_one_of_the", "publisher": "Democracy Now!", "title": "A Debate On One Of The Most Infamous Pieces of Propaganda: The Nayirah Testimony", "date": "2003-12-02" },
+      { "url": "https://www.prwatch.org/node/2318", "publisher": "PR Watch (Center for Media and Democracy)", "title": "Former H&K Exec Still Defends Iraqi Baby Killing Stories", "date": "2003" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On October 10, 1990 a 15-year-old Kuwaiti girl identified only as Nayirah testified before the Congressional Human Rights Caucus that she had personally seen Iraqi forces take infants from incubators; Rep. Tom Lantos said her identity was withheld to protect her family.",
+      "status": "documented",
+      "date": "1990-10-10",
+      "sources": [
+        { "url": "https://democracynow.org/2003/12/2/a_debate_on_one_of_the", "publisher": "Democracy Now!", "title": "A Debate On One Of The Most Infamous Pieces of Propaganda: The Nayirah Testimony", "date": "2003-12-02" }
+      ]
+    },
+    {
+      "claim": "Hill & Knowlton, working with Reps. Lantos and Porter, introduced Nayirah at the hearing; according to John MacArthur's book Second Front, the firm had prepared her for the presentation.",
+      "status": "reported",
+      "date": "1990-10-10",
+      "quote": "H&K had prepped Nayirah for her presentation",
+      "sources": [
+        { "url": "https://www.prwatch.org/node/2318", "publisher": "PR Watch (Center for Media and Democracy)", "title": "Former H&K Exec Still Defends Iraqi Baby Killing Stories", "date": "2003" },
+        { "url": "https://democracynow.org/2003/12/2/a_debate_on_one_of_the", "publisher": "Democracy Now!", "title": "A Debate On One Of The Most Infamous Pieces of Propaganda: The Nayirah Testimony", "date": "2003-12-02" }
+      ]
+    },
+    {
+      "claim": "In 1992 it was revealed that Nayirah's surname was al-Sabah and that she was the daughter of Saud Nasir al-Sabah, Kuwait's ambassador to the United States.",
+      "status": "reported",
+      "date": "1992",
+      "sources": [
+        { "url": "https://democracynow.org/2003/12/2/a_debate_on_one_of_the", "publisher": "Democracy Now!", "title": "A Debate On One Of The Most Infamous Pieces of Propaganda: The Nayirah Testimony", "date": "2003-12-02" }
+      ]
+    },
+    {
+      "claim": "Citizens for a Free Kuwait was a campaign established by the Kuwaiti government to win American support for military action, and Hill & Knowlton was its main contractor.",
+      "status": "reported",
+      "date": "1990",
+      "quote": "a Kuwaiti government-established campaign to win American favor for military action, and its main contractor was Hill & Knowlton",
+      "sources": [
+        { "url": "https://www.prwatch.org/node/2318", "publisher": "PR Watch (Center for Media and Democracy)", "title": "Former H&K Exec Still Defends Iraqi Baby Killing Stories", "date": "2003" }
+      ]
+    },
+    {
+      "claim": "President George H.W. Bush repeatedly cited the incubator allegations, and several senators used them in debate on the January 1991 resolution authorising force; later investigations by Amnesty International, Physicians for Human Rights and others could not document the incubator claims, and Amnesty retracted its earlier report in 1991.",
+      "status": "reported",
+      "date": "1991",
+      "quote": "When human rights organizations investigated, they could not find any connection between Nayirah and the hospital.",
+      "sources": [
+        { "url": "https://democracynow.org/2003/12/2/a_debate_on_one_of_the", "publisher": "Democracy Now!", "title": "A Debate On One Of The Most Infamous Pieces of Propaganda: The Nayirah Testimony", "date": "2003-12-02" },
+        { "url": "https://www.prwatch.org/node/2318", "publisher": "PR Watch (Center for Media and Democracy)", "title": "Former H&K Exec Still Defends Iraqi Baby Killing Stories", "date": "2003" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "hill-and-knowlton",
+      "toName": "Hill & Knowlton",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Hill & Knowlton arranged and, according to MacArthur's Second Front, prepared Nayirah's October 1990 testimony to the Congressional Human Rights Caucus.",
+      "status": "reported",
+      "date": "1990-10-10",
+      "sources": [
+        { "url": "https://www.prwatch.org/node/2318", "publisher": "PR Watch (Center for Media and Democracy)", "title": "Former H&K Exec Still Defends Iraqi Baby Killing Stories", "date": "2003" }
+      ]
+    },
+    {
+      "to": "citizens-for-a-free-kuwait",
+      "toName": "Citizens for a Free Kuwait",
+      "toType": "organization",
+      "relation": "other",
+      "claim": "Nayirah's testimony was part of the Citizens for a Free Kuwait campaign, for which Hill & Knowlton was the main contractor.",
+      "status": "reported",
+      "date": "1990-10-10",
+      "sources": [
+        { "url": "https://www.prwatch.org/node/2318", "publisher": "PR Watch (Center for Media and Democracy)", "title": "Former H&K Exec Still Defends Iraqi Baby Killing Stories", "date": "2003" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site's headline calls the testimony 'invented'. Sources found say investigators could not substantiate the incubator account and that Nayirah was the ambassador's daughter; whether she fabricated or repeated what she was told is contested, and the 1992 ABC 20/20 and New York Times reports the site cites were not reachable.",
+    "The Congressional Human Rights Caucus was not a formal committee, so there is no official hearing transcript in the congressional record; the owner may wish to cite C-SPAN's video archive."
+  ]
+}

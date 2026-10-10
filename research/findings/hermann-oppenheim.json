@@ -1,0 +1,84 @@
+{
+  "entity": "hermann-oppenheim",
+  "name": "Hermann Oppenheim",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Hermann Oppenheim was a Prussian-born banker with houses in Paris and Alexandria whose firm, Oppenheim, Neveu & Co., arranged several of Khedive Ismail's loans. U.S. diplomatic correspondence of 1874 records the firm taking half of a £32 million Egyptian loan in 1873 at 75 and the balance in 1874 after public subscription largely failed.",
+    "sources": [
+      {
+        "url": "https://history.state.gov/historicaldocuments/frus1874/d805",
+        "publisher": "U.S. Department of State, Office of the Historian (FRUS 1874)",
+        "title": "Document 805",
+        "date": "1874"
+      },
+      {
+        "url": "https://www.marxists.org/subject/arab-world/lutsky/ch15.htm",
+        "publisher": "Marxists Internet Archive (V. B. Lutsky, Modern History of the Arab Countries, 1969)",
+        "title": "Chapter 15: Egypt under Ismail"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "U.S. diplomatic correspondence reports that Oppenheim, Neveu & Co. took £16 million of the 1873 Egyptian loan at 75 with an option on the rest after public subscription largely failed, and took the balance of the £32 million loan in 1874.",
+      "status": "documented",
+      "date": "1874",
+      "sources": [
+        {
+          "url": "https://history.state.gov/historicaldocuments/frus1874/d805",
+          "publisher": "U.S. Department of State, Office of the Historian (FRUS 1874)",
+          "title": "Document 805",
+          "date": "1874"
+        }
+      ]
+    },
+    {
+      "claim": "A 1874 U.S. State Department document lists an 1868 Egyptian government loan at a nominal £11,890,000.",
+      "status": "documented",
+      "date": "1868",
+      "sources": [
+        {
+          "url": "https://history.state.gov/historicaldocuments/frus1874/d804",
+          "publisher": "U.S. Department of State, Office of the Historian (FRUS 1874)",
+          "title": "Document 804",
+          "date": "1874"
+        }
+      ]
+    },
+    {
+      "claim": "A 1969 Soviet history describes Oppenheim as Prussian-born, treated as a British subject, owning banks in Paris and Alexandria, and as having arranged most of the loans of Said and Ismail; the same work states that of an 1864 loan of £5.7 million the Egyptian Treasury received about £4.86 million.",
+      "status": "reported",
+      "date": "1864",
+      "sources": [
+        {
+          "url": "https://www.marxists.org/subject/arab-world/lutsky/ch15.htm",
+          "publisher": "Marxists Internet Archive (V. B. Lutsky, Modern History of the Arab Countries, 1969)",
+          "title": "Chapter 15: Egypt under Ismail"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "khedive-ismail",
+      "toName": "Khedive Ismail",
+      "toType": "person",
+      "relation": "contracted with",
+      "claim": "Oppenheim's firm took up the 1873 Egyptian government loan at a discount under Khedive Ismail.",
+      "status": "documented",
+      "date": "1873",
+      "sources": [
+        {
+          "url": "https://history.state.gov/historicaldocuments/frus1874/d805",
+          "publisher": "U.S. Department of State, Office of the Historian (FRUS 1874)",
+          "title": "Document 805",
+          "date": "1874"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: 'arranged several of Ismail's loans' is supported by the FRUS correspondence and Lutsky. The page's totals (£68 million nominal, £46 million received, 1862-73) were not found in any source returned; an 1870s Egyptian government summary quoted in a library scan gives about £26.9 million of proceeds for the decade to September 1873, which does not match either figure.",
+    "Lutsky's history is a Soviet-era work with a strong interpretive frame; treat its characterisations with caution."
+  ]
+}

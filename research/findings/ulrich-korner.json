@@ -1,0 +1,153 @@
+{
+  "entity": "ulrich-korner",
+  "name": "Ulrich Körner",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Ulrich Körner became Group CEO of Credit Suisse on 1 August 2022, succeeding Thomas Gottstein, after rejoining the bank in April 2021 to head asset management following eleven years at UBS. He was chief executive when, on 19 March 2023, the Swiss authorities arranged Credit Suisse's takeover by UBS and the write-down of its AT1 capital.",
+    "sources": [
+      {
+        "url": "https://www.bankingdive.com/news/credit-suisse-ceo-change-gottstein-korner-lehmann-review-job-cuts/628232/",
+        "publisher": "Banking Dive",
+        "title": "Credit Suisse CEO change: Gottstein out, Körner in, strategic review",
+        "date": "2022-07-27"
+      },
+      {
+        "url": "https://www.fintechfutures.com/credit-scoring/new-group-ceo-and-comprehensive-strategic-review-at-credit-suisse",
+        "publisher": "FinTech Futures",
+        "title": "New group CEO and comprehensive strategic review at Credit Suisse",
+        "date": "2022-07-27"
+      },
+      {
+        "url": "https://www.finma.ch/en/news/2025/10/20251015-meldung-bvger-at1/",
+        "publisher": "FINMA (Swiss Financial Market Supervisory Authority)",
+        "title": "FINMA to appeal Federal Administrative Court judgment on AT1 write-down",
+        "date": "2025-10-15"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Credit Suisse announced on 27 July 2022 that Ulrich Körner would succeed Thomas Gottstein as Group CEO effective 1 August 2022, alongside a comprehensive strategic review.",
+      "status": "documented",
+      "date": "2022-07-27",
+      "quote": "according to a statement issued by Credit Suisse on 27 July 2022",
+      "sources": [
+        {
+          "url": "https://www.bankingdive.com/news/credit-suisse-ceo-change-gottstein-korner-lehmann-review-job-cuts/628232/",
+          "publisher": "Banking Dive",
+          "title": "Credit Suisse CEO change: Gottstein out, Körner in, strategic review",
+          "date": "2022-07-27"
+        },
+        {
+          "url": "https://www.fintechfutures.com/credit-scoring/new-group-ceo-and-comprehensive-strategic-review-at-credit-suisse",
+          "publisher": "FinTech Futures",
+          "title": "New group CEO and comprehensive strategic review at Credit Suisse",
+          "date": "2022-07-27"
+        }
+      ]
+    },
+    {
+      "claim": "Körner rejoined Credit Suisse in April 2021 to lead asset management after eleven years at UBS, the last six as head of its asset management business.",
+      "status": "reported",
+      "date": "2021-04",
+      "quote": "He rejoined Credit Suisse in April 2021 having previously worked at UBS for 11 years, the last six as head of the firm's asset management business.",
+      "sources": [
+        {
+          "url": "https://www.bankingdive.com/news/credit-suisse-ceo-change-gottstein-korner-lehmann-review-job-cuts/628232/",
+          "publisher": "Banking Dive",
+          "title": "Credit Suisse CEO change: Gottstein out, Körner in, strategic review",
+          "date": "2022-07-27"
+        }
+      ]
+    },
+    {
+      "claim": "On 19 March 2023 the Swiss Federal Council amended its emergency ordinance of 16 March 2023 to add Article 5a, authorising FINMA to order the write-down of Credit Suisse's AT1 capital; FINMA directed the write-down the same day.",
+      "status": "documented",
+      "date": "2023-03-19",
+      "quote": "the Federal Council amended the emergency ordinance of 16 March 2023 to include a provision (Art. 5a) authorising FINMA to order the write-down of AT1 capital",
+      "sources": [
+        {
+          "url": "https://www.dlapiper.com/en-gb/insights/publications/2025/11/swiss-court-strikes-down-at1-bond-write-off",
+          "publisher": "DLA Piper",
+          "title": "Swiss court strikes down AT1 bond write-off",
+          "date": "2025-11-24"
+        },
+        {
+          "url": "https://www.finma.ch/en/news/2025/10/20251015-meldung-bvger-at1/",
+          "publisher": "FINMA (Swiss Financial Market Supervisory Authority)",
+          "title": "FINMA to appeal Federal Administrative Court judgment on AT1 write-down",
+          "date": "2025-10-15"
+        }
+      ]
+    },
+    {
+      "claim": "Roughly CHF 16 billion (one source: about CHF 16.5 billion) of Credit Suisse AT1 bonds were written down to zero as part of the package stabilising Credit Suisse through a merger with UBS, which FINMA said required extraordinary state support.",
+      "status": "documented",
+      "date": "2023-03-19",
+      "sources": [
+        {
+          "url": "https://www.finma.ch/en/news/2025/10/20251015-meldung-bvger-at1/",
+          "publisher": "FINMA (Swiss Financial Market Supervisory Authority)",
+          "title": "FINMA to appeal Federal Administrative Court judgment on AT1 write-down",
+          "date": "2025-10-15"
+        },
+        {
+          "url": "https://www.dlapiper.com/en-gb/insights/publications/2025/11/swiss-court-strikes-down-at1-bond-write-off",
+          "publisher": "DLA Piper",
+          "title": "Swiss court strikes down AT1 bond write-off",
+          "date": "2025-11-24"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "credit-suisse",
+      "toName": "Credit Suisse",
+      "toType": "company",
+      "relation": "executive of",
+      "claim": "Körner was Credit Suisse Group CEO from 1 August 2022 through the March 2023 takeover.",
+      "status": "documented",
+      "date": "2022-08-01",
+      "sources": [
+        {
+          "url": "https://www.bankingdive.com/news/credit-suisse-ceo-change-gottstein-korner-lehmann-review-job-cuts/628232/",
+          "publisher": "Banking Dive",
+          "title": "Credit Suisse CEO change: Gottstein out, Körner in, strategic review",
+          "date": "2022-07-27"
+        },
+        {
+          "url": "https://www.caproasia.com/?p=33825",
+          "publisher": "Caproasia",
+          "title": "Report on the Credit Suisse-UBS merger announcement"
+        }
+      ]
+    },
+    {
+      "to": "thomas-gottstein",
+      "toName": "Thomas Gottstein",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Körner succeeded Gottstein as Credit Suisse CEO in August 2022.",
+      "status": "documented",
+      "date": "2022-08-01",
+      "sources": [
+        {
+          "url": "https://www.bankingdive.com/news/credit-suisse-ceo-change-gottstein-korner-lehmann-review-job-cuts/628232/",
+          "publisher": "Banking Dive",
+          "title": "Credit Suisse CEO change: Gottstein out, Körner in, strategic review",
+          "date": "2022-07-27"
+        },
+        {
+          "url": "https://www.fintechfutures.com/credit-scoring/new-group-ceo-and-comprehensive-strategic-review-at-credit-suisse",
+          "publisher": "FinTech Futures",
+          "title": "New group CEO and comprehensive strategic review at Credit Suisse",
+          "date": "2022-07-27"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: 'CEO who presided over the terminal capital run' is supported as to his tenure; the deposit-outflow figures were not tested."
+  ]
+}

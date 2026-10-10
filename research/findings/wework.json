@@ -1,0 +1,80 @@
+{
+  "entity": "wework",
+  "name": "WeWork",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "WeWork is a flexible-office company co-founded by Adam Neumann. Valued at about $47 billion in 2019 when it first attempted an IPO, it withdrew the offering after investors balked at its losses and debt, Neumann was ousted, and SoftBank took majority control, later taking the company public through a 2021 SPAC merger at an $8 billion valuation. WeWork filed for Chapter 11 in New Jersey in November 2023 for its U.S. and Canadian operations, and emerged in 2024 under a plan backed by SoftBank and Yardi Systems after a bankruptcy judge rejected Neumann's bid to buy the company back.",
+    "sources": [
+      { "url": "https://www.pbs.org/newshour/nation/wework-files-for-bankruptcy-in-stunning-turn-for-company-once-valued-at-nearly-50-billion", "publisher": "PBS NewsHour (AP)", "title": "WeWork files for bankruptcy in stunning turn for company once valued at nearly $50 billion", "date": "2023-11-07" },
+      { "url": "https://www.fortune.com/2024/05/28/wework-flow-adam-neumann-bankruptcy-judge-chapter-11-flow", "publisher": "Fortune", "title": "WeWork bankruptcy judge rejects Adam Neumann's bid", "date": "2024-05-28" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "WeWork filed for Chapter 11 bankruptcy protection in New Jersey in November 2023; the petition covered its locations in the United States and Canada.",
+      "status": "court",
+      "date": "2023-11-06",
+      "quote": "The bankruptcy petition is limited to WeWork's locations in the US and Canada.",
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/nation/wework-files-for-bankruptcy-in-stunning-turn-for-company-once-valued-at-nearly-50-billion", "publisher": "PBS NewsHour (AP)", "title": "WeWork files for bankruptcy in stunning turn for company once valued at nearly $50 billion", "date": "2023-11-07" },
+        { "url": "https://cybernews.com/tech/wework-files-for-bankruptcy/", "publisher": "Cybernews", "title": "WeWork files for bankruptcy with debts of $19 billion", "date": "2023-11" }
+      ]
+    },
+    {
+      "claim": "At filing, WeWork had a restructuring support agreement with holders of about 92% of its secured notes and sought to reject leases at largely non-operational locations.",
+      "status": "court",
+      "date": "2023-11",
+      "quote": "holders representing approximately 92% of its secured notes",
+      "sources": [
+        { "url": "https://cybernews.com/tech/wework-files-for-bankruptcy/", "publisher": "Cybernews", "title": "WeWork files for bankruptcy with debts of $19 billion", "date": "2023-11" }
+      ]
+    },
+    {
+      "claim": "WeWork was valued at an estimated $47 billion in 2019 when it first tried to go public; the IPO was abandoned after investors balked at its debt and losses, and founder-CEO Adam Neumann was ousted.",
+      "status": "reported",
+      "date": "2019",
+      "quote": "The IPO effort was scrapped after investors balked at the firm's high levels of debt and massive losses.",
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/nation/wework-files-for-bankruptcy-in-stunning-turn-for-company-once-valued-at-nearly-50-billion", "publisher": "PBS NewsHour (AP)", "title": "WeWork files for bankruptcy in stunning turn for company once valued at nearly $50 billion", "date": "2023-11-07" }
+      ]
+    },
+    {
+      "claim": "SoftBank stepped in to keep WeWork afloat after the failed IPO, acquiring majority control, and in 2021 took the company public through a merger with a blank-check company at an $8 billion valuation.",
+      "status": "reported",
+      "date": "2021",
+      "quote": "In 2021, SoftBank cut a deal to take WeWork public through a merger with a blank-check acquisition company at an $8 billion valuation.",
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/nation/wework-files-for-bankruptcy-in-stunning-turn-for-company-once-valued-at-nearly-50-billion", "publisher": "PBS NewsHour (AP)", "title": "WeWork files for bankruptcy in stunning turn for company once valued at nearly $50 billion", "date": "2023-11-07" }
+      ]
+    },
+    {
+      "claim": "In May 2024 a New Jersey bankruptcy judge rejected Neumann's effort to buy WeWork back, which lost out to a $450 million bid led by SoftBank and Yardi Systems; the judge said Neumann's bid did not address $4 billion of debt on the balance sheet.",
+      "status": "court",
+      "date": "2024-05-28",
+      "quote": "lost out to a $450 million bid led by longtime WeWork backer SoftBank and software provider Yardi Systems",
+      "sources": [
+        { "url": "https://www.fortune.com/2024/05/28/wework-flow-adam-neumann-bankruptcy-judge-chapter-11-flow", "publisher": "Fortune", "title": "WeWork bankruptcy judge rejects Adam Neumann's bid", "date": "2024-05-28" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "softbank",
+      "toName": "SoftBank",
+      "toType": "company",
+      "relation": "invested in",
+      "reverse": true,
+      "claim": "SoftBank acquired majority control of WeWork after its failed 2019 IPO, took it public via a 2021 SPAC merger, and co-led the $450 million bid under which it emerged from bankruptcy in 2024.",
+      "status": "reported",
+      "date": "2019",
+      "sources": [
+        { "url": "https://www.pbs.org/newshour/nation/wework-files-for-bankruptcy-in-stunning-turn-for-company-once-valued-at-nearly-50-billion", "publisher": "PBS NewsHour (AP)", "title": "WeWork files for bankruptcy in stunning turn for company once valued at nearly $50 billion", "date": "2023-11-07" },
+        { "url": "https://www.fortune.com/2024/05/28/wework-flow-adam-neumann-bankruptcy-judge-chapter-11-flow", "publisher": "Fortune", "title": "WeWork bankruptcy judge rejects Adam Neumann's bid", "date": "2024-05-28" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "WeWork's 2019 S-1 (sec.gov) and the bankruptcy docket (D.N.J. No. 23-19865) were not retrieved and should be cited for the valuation, losses and plan terms.",
+    "Reports of Neumann's bid amount vary ($500m–$650m)."
+  ]
+}

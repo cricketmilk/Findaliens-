@@ -1,0 +1,62 @@
+{
+  "entity": "calpers",
+  "name": "CalPERS",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "The California Public Employees' Retirement System (CalPERS) is the largest public pension fund in the United States. Its Public Employees' Retirement Fund had a market value of about $563 billion at June 30, 2025, after an 11.6% return for fiscal year 2024–25. Public equity made up roughly 39% of the fund; private equity returned about 14.3% for the year and the board's target allocation to private equity was raised to 17% from 13%.",
+    "sources": [
+      { "url": "https://www.calpers.ca.gov/documents/facts-investments/download", "publisher": "CalPERS", "title": "Facts at a Glance: Investments", "date": "2025" },
+      { "url": "https://www.calpers.ca.gov/newsroom/calpers-news/2025/calpers-announces-preliminary-116-return-for-2024-25-fiscal-year", "publisher": "CalPERS", "title": "CalPERS Announces Preliminary 11.6% Return for 2024-25 Fiscal Year", "date": "2025-07-14" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "CalPERS reported an 11.6% total-fund return for fiscal year 2024–25 and a Public Employees' Retirement Fund market value of $563.0 billion at fiscal year-end.",
+      "status": "documented",
+      "date": "2025-06-30",
+      "sources": [
+        { "url": "https://www.calpers.ca.gov/documents/facts-investments/download", "publisher": "CalPERS", "title": "Facts at a Glance: Investments", "date": "2025" }
+      ]
+    },
+    {
+      "claim": "CalPERS's July 2025 preliminary announcement estimated fund assets at approximately $556.2 billion; the final year-end figure was $563.0 billion.",
+      "status": "documented",
+      "date": "2025-07-14",
+      "sources": [
+        { "url": "https://www.calpers.ca.gov/newsroom/calpers-news/2025/calpers-announces-preliminary-116-return-for-2024-25-fiscal-year", "publisher": "CalPERS", "title": "CalPERS Announces Preliminary 11.6% Return for 2024-25 Fiscal Year", "date": "2025-07-14" },
+        { "url": "https://www.calpers.ca.gov/documents/facts-investments/download", "publisher": "CalPERS", "title": "Facts at a Glance: Investments", "date": "2025" }
+      ]
+    },
+    {
+      "claim": "CalPERS said its private equity portfolio returned 14.3% in fiscal 2024–25, which it attributed partly to a 2022 strategy change adding co-investments; public equity made up about 39% of the fund.",
+      "status": "documented",
+      "date": "2025-07-14",
+      "quote": "Private equity earned a 14.3% return",
+      "sources": [
+        { "url": "https://www.calpers.ca.gov/newsroom/calpers-news/2025/calpers-announces-preliminary-116-return-for-2024-25-fiscal-year", "publisher": "CalPERS", "title": "CalPERS Announces Preliminary 11.6% Return for 2024-25 Fiscal Year", "date": "2025-07-14" }
+      ]
+    },
+    {
+      "claim": "The CalPERS board raised the fund's target allocation to private equity to 17% from 13%.",
+      "status": "documented",
+      "date": "2024",
+      "sources": [
+        { "url": "https://news.calpers.ca.gov/7-things-to-know-about-our-financial-report/", "publisher": "CalPERS", "title": "7 Things to Know About Our Financial Report", "date": "2025" },
+        { "url": "https://www.calpers.ca.gov/documents/annual-investment-report-fy-2024/download", "publisher": "CalPERS", "title": "Annual Investment Report, Fiscal Year 2023-24", "date": "2024" }
+      ]
+    },
+    {
+      "claim": "At June 30, 2024 CalPERS held about $79.7 billion in private equity within a $551.4 billion portfolio, according to its annual investment report.",
+      "status": "documented",
+      "date": "2024-06-30",
+      "sources": [
+        { "url": "https://www.calpers.ca.gov/documents/annual-investment-report-fy-2024/download", "publisher": "CalPERS", "title": "Annual Investment Report, Fiscal Year 2023-24", "date": "2024" }
+      ]
+    }
+  ],
+  "connections": [],
+  "openQuestions": [
+    "The site's Blind Pool page lists CalPERS among public pension funds supplying capital to venture and private-equity managers; which specific managers or funds the page has in mind was not identified, so no connection is recorded. CalPERS's annual investment report lists its private-equity commitments by manager and could support such links.",
+    "The 2024-25 ACFR (calpers.ca.gov/documents/acfr-2025/download) was not opened; figures come from CalPERS's fact sheet and press release."
+  ]
+}

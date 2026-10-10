@@ -1,0 +1,65 @@
+{
+  "entity": "boies-schiller",
+  "name": "Boies Schiller",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Boies, Schiller & Flexner is a U.S. litigation firm founded by David Boies. It served as outside counsel to Theranos from 2011, was reported to have been paid in Theranos stock for patent work, and withdrew from representing the company in 2016 amid a disagreement, according to Wall Street Journal reporting by John Carreyrou as summarised by secondary sources.",
+    "sources": [
+      { "url": "https://telecareaware.com/the-theranos-story-ch-26-counsel-boies-schiller-flexner-departs-disagreeing/", "publisher": "Telehealth & Telecare Aware", "title": "The Theranos Story, ch. 26: counsel Boies, Schiller & Flexner departs, disagreeing", "date": "2016" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Boies, Schiller & Flexner acted as outside counsel to Theranos after its chairman David Boies was approached by two Palo Alto investors in 2011.",
+      "status": "reported",
+      "date": "2011",
+      "quote": "Boies became outside counsel after two Palo Alto investors approached him in 2011.",
+      "sources": [
+        { "url": "https://telecareaware.com/the-theranos-story-ch-26-counsel-boies-schiller-flexner-departs-disagreeing/", "publisher": "Telehealth & Telecare Aware", "title": "The Theranos Story, ch. 26: counsel Boies, Schiller & Flexner departs, disagreeing", "date": "2016" }
+      ]
+    },
+    {
+      "claim": "The firm was reported to have been paid in Theranos stock for its work on a patent case, on the account of one person familiar with the matter.",
+      "status": "reported",
+      "date": "2016",
+      "quote": "The law firm was paid in Theranos stock for its work on the patent case, according to a person familiar with the matter.",
+      "sources": [
+        { "url": "https://telecareaware.com/the-theranos-story-ch-26-counsel-boies-schiller-flexner-departs-disagreeing/", "publisher": "Telehealth & Telecare Aware", "title": "The Theranos Story, ch. 26: counsel Boies, Schiller & Flexner departs, disagreeing", "date": "2016" }
+      ]
+    },
+    {
+      "claim": "The firm departed as Theranos's counsel in 2016 after a disagreement with the company.",
+      "status": "reported",
+      "date": "2016",
+      "sources": [
+        { "url": "https://telecareaware.com/the-theranos-story-ch-26-counsel-boies-schiller-flexner-departs-disagreeing/", "publisher": "Telehealth & Telecare Aware", "title": "The Theranos Story, ch. 26: counsel Boies, Schiller & Flexner departs, disagreeing", "date": "2016" }
+      ]
+    },
+    {
+      "claim": "Through David Boies, Theranos pursued former employees Tyler Shultz and Erika Cheung with threatened defamation and trade-secret claims after they raised concerns about its testing.",
+      "status": "reported",
+      "date": "2015",
+      "sources": [
+        { "url": "https://muddyrivernews.com/top-stories/theranos-whistleblower-tells-culver-stockton-students-to-find-that-thing-worth-doing/20260221071832/", "publisher": "Muddy River News", "title": "Theranos whistleblower tells Culver-Stockton students to find 'that thing worth doing'", "date": "2026-02-21" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "theranos",
+      "toName": "Theranos",
+      "toType": "company",
+      "relation": "advised",
+      "claim": "Boies, Schiller & Flexner was Theranos's outside counsel from 2011 until 2016.",
+      "status": "reported",
+      "date": "2011",
+      "sources": [
+        { "url": "https://telecareaware.com/the-theranos-story-ch-26-counsel-boies-schiller-flexner-departs-disagreeing/", "publisher": "Telehealth & Telecare Aware", "title": "The Theranos Story, ch. 26: counsel Boies, Schiller & Flexner departs, disagreeing", "date": "2016" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site's figure of '$30M+ in fees and stock' for Boies Schiller was not found in any source; unsupported here.",
+    "The site says the firm 'liquidated' gains; no source addresses whether the stock was ever sold or had value after Theranos's collapse."
+  ]
+}

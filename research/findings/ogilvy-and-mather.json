@@ -1,0 +1,78 @@
+{
+  "entity": "ogilvy-and-mather",
+  "name": "Ogilvy & Mather",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Ogilvy & Mather is the advertising agency (part of WPP) that created BP's 2000 'Beyond Petroleum' rebrand, including the Helios sunflower logo and lowercase 'bp' wordmark, launched by then chief executive John Browne as a campaign reported to have cost about $200 million. Ogilvy's creative team also conceived and pitched BP's individual carbon-footprint calculator, which ran on BP's website from 2004–2005.",
+    "sources": [
+      { "url": "https://www.desmog.com/ogilvy/", "publisher": "DeSmog", "title": "Ogilvy", "date": "2021" },
+      { "url": "https://www.openmindmag.org/articles/deconstructing-the-carbon-footprint/republish", "publisher": "OpenMind Magazine", "title": "Deconstructing the Carbon Footprint", "date": "2022" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "BP launched a roughly $200 million campaign in 2000 under chief executive John Browne to rebrand itself as environmentally friendly, adopting the 'Beyond Petroleum' slogan and the Helios logo, unveiled in August 2000.",
+      "status": "reported",
+      "date": "2000-08",
+      "quote": "repositioned itself as 'Beyond Petroleum' in an attempt to establish its green credentials",
+      "sources": [
+        { "url": "https://www.spiked-online.com/2010/06/17/bp-the-dangers-of-going-beyond-petroleum", "publisher": "Spiked", "title": "BP: the dangers of going Beyond Petroleum", "date": "2010-06-17" },
+        { "url": "https://www.desmog.com/ogilvy/", "publisher": "DeSmog", "title": "Ogilvy", "date": "2021" }
+      ]
+    },
+    {
+      "claim": "Ogilvy created the Beyond Petroleum rebrand for BP, with the Helios logo replacing the old shield mark in its advertising.",
+      "status": "reported",
+      "date": "2000",
+      "quote": "Ogilvy created the Beyond Petroleum rebrand for British Petroleum",
+      "sources": [
+        { "url": "https://www.desmog.com/ogilvy/", "publisher": "DeSmog", "title": "Ogilvy", "date": "2021" }
+      ]
+    },
+    {
+      "claim": "A scholarly account records that the lowercase 'bp' wordmark was chosen because focus groups found it friendlier than the old 'BP'.",
+      "status": "peer",
+      "date": "2000",
+      "quote": "because focus groups say bp is friendlier than the old imperialistic BP",
+      "sources": [
+        { "url": "https://ro.uow.edu.au/artspapers/49", "publisher": "University of Wollongong Research Online", "title": "Paper on BP's 'Beyond Petroleum' rebranding", "date": "2000s" }
+      ]
+    },
+    {
+      "claim": "Ogilvy's creative staff conceived of and pitched BP's individual carbon-footprint calculator; an archived BP page says nearly 300,000 people calculated their footprint on BP's website in 2004.",
+      "status": "reported",
+      "date": "2004",
+      "quote": "in 2004 alone, nearly 300,000 people worldwide calculated their carbon footprint on BP's website",
+      "sources": [
+        { "url": "https://www.openmindmag.org/articles/deconstructing-the-carbon-footprint/republish", "publisher": "OpenMind Magazine", "title": "Deconstructing the Carbon Footprint", "date": "2022" }
+      ]
+    },
+    {
+      "claim": "Ogilvy and BP won PRWeek's 2001 'Campaign of the Year' award for the rebrand, and Ogilvy won a gold Effie award for BP work in 2007.",
+      "status": "reported",
+      "date": "2001",
+      "sources": [
+        { "url": "https://www.desmog.com/ogilvy/", "publisher": "DeSmog", "title": "Ogilvy", "date": "2021" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "bp",
+      "toName": "BP",
+      "toType": "company",
+      "relation": "contracted with",
+      "claim": "Ogilvy was BP's agency for the 2000 'Beyond Petroleum' rebrand and the carbon-footprint calculator campaign.",
+      "status": "reported",
+      "date": "2000",
+      "sources": [
+        { "url": "https://www.desmog.com/ogilvy/", "publisher": "DeSmog", "title": "Ogilvy", "date": "2021" },
+        { "url": "https://www.openmindmag.org/articles/deconstructing-the-carbon-footprint/republish", "publisher": "OpenMind Magazine", "title": "Deconstructing the Carbon Footprint", "date": "2022" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site dates the carbon-footprint calculator to 2004; sources give 2004 and 2005. Sources also differ on whether the work was by Ogilvy & Mather or Ogilvy Public Relations Worldwide.",
+    "DeSmog and Spiked are advocacy or opinion outlets; the owner may prefer to cite BP's own campaign materials or Marketing Week's contemporary coverage (marketingweek.com/ogilvy-mather-creates-global-campaign/)."
+  ]
+}

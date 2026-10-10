@@ -1,0 +1,95 @@
+{
+  "entity": "dany-dattel",
+  "name": "Dany Dattel",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Dany Dattel was head of the foreign-exchange department of Bankhaus Herstatt, whose speculative positions on the dollar against the Deutsche Mark produced the losses that led regulators to close the bank on 26 June 1974. He was later declared unfit to stand trial and was never convicted; the bank's co-owner Iwan D. Herstatt received a two-year suspended sentence.",
+    "sources": [
+      {
+        "url": "https://www.boeckler.de/de/magazin-mitbestimmung-2744-die-herstatt-pleite-68129.htm",
+        "publisher": "Hans-Böckler-Stiftung (Magazin Mitbestimmung)",
+        "title": "Die Herstatt-Pleite"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Dattel headed Herstatt's foreign-exchange department, which the Hans-Böckler-Stiftung describes as working largely without control, circumventing trader limits and hiding losses from the accounting department.",
+      "status": "reported",
+      "date": "1974",
+      "quote": "Die Devisenabteilung arbeitete weitgehend ohne Kontrolle, Händlerlimits wurden umgangen, Verluste vor der Buchhaltung verheimlicht.",
+      "sources": [
+        {
+          "url": "https://www.boeckler.de/de/magazin-mitbestimmung-2744-die-herstatt-pleite-68129.htm",
+          "publisher": "Hans-Böckler-Stiftung (Magazin Mitbestimmung)",
+          "title": "Die Herstatt-Pleite"
+        }
+      ]
+    },
+    {
+      "claim": "Dattel was declared unfit to stand trial and no judgment was ever entered against him.",
+      "status": "reported",
+      "date": "1980s",
+      "sources": [
+        {
+          "url": "https://www.boeckler.de/de/magazin-mitbestimmung-2744-die-herstatt-pleite-68129.htm",
+          "publisher": "Hans-Böckler-Stiftung (Magazin Mitbestimmung)",
+          "title": "Die Herstatt-Pleite"
+        }
+      ]
+    },
+    {
+      "claim": "Iwan D. Herstatt, co-owner and namesake of the bank, was sentenced to two years' imprisonment, suspended.",
+      "status": "court",
+      "quote": "wird der Miteigentümer und Namensgeber Iwan D. Herstatt zu zwei Jahren auf Bewährung verurteilt",
+      "sources": [
+        {
+          "url": "https://www.boeckler.de/de/magazin-mitbestimmung-2744-die-herstatt-pleite-68129.htm",
+          "publisher": "Hans-Böckler-Stiftung (Magazin Mitbestimmung)",
+          "title": "Die Herstatt-Pleite"
+        }
+      ]
+    },
+    {
+      "claim": "The bank's losses from speculative foreign-exchange positions reached about DM 470 million against capital of DM 44 million when it was closed on 26 June 1974.",
+      "status": "documented",
+      "date": "1974-06-26",
+      "sources": [
+        {
+          "url": "https://www.bis.org/publ/qtrpdf/r_qt0212f.pdf",
+          "publisher": "Bank for International Settlements",
+          "title": "BIS Quarterly Review, December 2002: Herstatt and settlement risk",
+          "date": "2002-12"
+        },
+        {
+          "url": "https://ECB.eu/pub/financial-stability/fsr/focus/2007/pdf/ecb~ccda416def.fsrbox200712_19.pdf",
+          "publisher": "European Central Bank",
+          "title": "Financial Stability Review, December 2007, Box: Herstatt",
+          "date": "2007-12"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "iwan-david-herstatt",
+      "toName": "Iwan David Herstatt",
+      "toType": "person",
+      "relation": "employed by",
+      "claim": "Dattel ran the FX desk of Herstatt's bank.",
+      "status": "reported",
+      "date": "1974",
+      "sources": [
+        {
+          "url": "https://www.boeckler.de/de/magazin-mitbestimmung-2744-die-herstatt-pleite-68129.htm",
+          "publisher": "Hans-Böckler-Stiftung (Magazin Mitbestimmung)",
+          "title": "Die Herstatt-Pleite"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: 'declared unfit to stand trial' is supported; the 'gold boys' nickname and the DM 470-500 million range were not confirmed beyond the DM 470 million figure.",
+    "The year of Iwan Herstatt's sentence was not confirmed."
+  ]
+}

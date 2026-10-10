@@ -1,0 +1,88 @@
+{
+  "entity": "charles-de-lesseps",
+  "name": "Charles de Lesseps",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Charles de Lesseps, son of Ferdinand de Lesseps, was a director of the Compagnie Universelle du Canal Interocéanique de Panama. In 1893 he, his father, other managers and the engineer Gustave Eiffel were sentenced to prison terms in the Panama affair; the sentences were later annulled and not served.",
+    "sources": [
+      {
+        "url": "https://www.universalis.fr/encyclopedie/affaire-de-panama/",
+        "publisher": "Encyclopaedia Universalis",
+        "title": "Panama, affaire de"
+      },
+      {
+        "url": "https://www.herodote.net/20_mars_1893-evenement-18930320.php",
+        "publisher": "Herodote.net",
+        "title": "20 mars 1893 - Le scandale de Panama"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Ferdinand and Charles de Lesseps, members of the company's management and Gustave Eiffel were given long prison sentences in 1893 which were later annulled.",
+      "status": "reported",
+      "date": "1893",
+      "quote": "Lesseps, his son Charles, members of the management as well as the engineer Gustave Eiffel, were at first given long jail sentences, later annulled.",
+      "sources": [
+        {
+          "url": "https://www.universalis.fr/encyclopedie/affaire-de-panama/",
+          "publisher": "Encyclopaedia Universalis",
+          "title": "Panama, affaire de"
+        },
+        {
+          "url": "https://www.herodote.net/20_mars_1893-evenement-18930320.php",
+          "publisher": "Herodote.net",
+          "title": "20 mars 1893 - Le scandale de Panama"
+        }
+      ]
+    },
+    {
+      "claim": "The sentences passed on the de Lesseps and Eiffel were never served.",
+      "status": "reported",
+      "date": "1893",
+      "quote": "Ferdinand and Charles De Lesseps and Gustave Eiffel were sentenced to prison terms (which they never served)",
+      "sources": [
+        {
+          "url": "https://www.herodote.net/20_mars_1893-evenement-18930320.php",
+          "publisher": "Herodote.net",
+          "title": "20 mars 1893 - Le scandale de Panama"
+        }
+      ]
+    },
+    {
+      "claim": "Investigations into the Panama affair were resumed in 1897, and the defendants were acquitted.",
+      "status": "reported",
+      "date": "1897",
+      "quote": "the investigations into the Panama affair were resumed in 1897, but the defendants were acquitted",
+      "sources": [
+        {
+          "url": "https://www.universalis.fr/encyclopedie/affaire-de-panama/",
+          "publisher": "Encyclopaedia Universalis",
+          "title": "Panama, affaire de"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "ferdinand-de-lesseps",
+      "toName": "Ferdinand de Lesseps",
+      "toType": "person",
+      "relation": "family of",
+      "claim": "Charles de Lesseps was the son of Ferdinand de Lesseps and was sentenced alongside him in 1893.",
+      "status": "reported",
+      "date": "1893",
+      "quote": "Lesseps, his son Charles, members of the management as well as the engineer Gustave Eiffel, were at first given long jail sentences, later annulled.",
+      "sources": [
+        {
+          "url": "https://www.universalis.fr/encyclopedie/affaire-de-panama/",
+          "publisher": "Encyclopaedia Universalis",
+          "title": "Panama, affaire de"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: the page says Charles was 'convicted of bribery in 1893' while 'an earlier fraud conviction was annulled'. The sources found describe the 1893 sentences as annulled and never served and do not distinguish a separate bribery conviction; owner should check the Cour de cassation record of 1893."
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "entity": "yasuo-hamanaka",
+  "name": "Yasuo Hamanaka",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Yasuo Hamanaka was Sumitomo Corporation's chief copper trader. In June 1996 Sumitomo disclosed losses from his unauthorised trading, initially $1.8 billion and later $2.6 billion. In May 1998 Sumitomo settled CFTC charges that it manipulated copper prices in 1995-96 through LME trading, paying $150 million; Hamanaka admitted forgery and fraud charges in Tokyo and was sentenced to eight years in prison.",
+    "sources": [
+      {
+        "url": "https://www.cftc.gov/opa/enf98/opa4144-98.htm",
+        "publisher": "U.S. Commodity Futures Trading Commission",
+        "title": "Release #4144-98: CFTC settles with Sumitomo Corporation",
+        "date": "1998-05-11"
+      },
+      {
+        "url": "https://newsfeed.time.com/2012/05/11/top-10-biggest-trading-losses-in-history/slide/5-sumitomo-corp-3-5b",
+        "publisher": "Time",
+        "title": "Top 10 Biggest Trading Losses in History: Sumitomo Corp.",
+        "date": "2012-05-11"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On 11 May 1998 the CFTC announced that Sumitomo Corporation, without admitting or denying the findings, consented to an order finding it had manipulated copper prices in 1995 and 1996 through LME trading, and agreed to pay a total of $150 million: a $125 million civil penalty paid immediately and $25 million placed in escrow for up to four years to fund restitution.",
+      "status": "court",
+      "date": "1998-05-11",
+      "quote": "to cease and desist from further violations of those provisions of the Act and to pay a total of $150 million",
+      "sources": [
+        {
+          "url": "https://www.cftc.gov/opa/enf98/opa4144-98.htm",
+          "publisher": "U.S. Commodity Futures Trading Commission",
+          "title": "Release #4144-98: CFTC settles with Sumitomo Corporation",
+          "date": "1998-05-11"
+        },
+        {
+          "url": "https://www.cftc.gov/anr/anryir98.htm",
+          "publisher": "U.S. Commodity Futures Trading Commission",
+          "title": "1998 Annual Report: The Year in Review",
+          "date": "1998"
+        }
+      ]
+    },
+    {
+      "claim": "The CFTC described the Sumitomo penalty as believed to be the largest ever imposed by a U.S. government agency at that time.",
+      "status": "documented",
+      "date": "1998-05-11",
+      "quote": "believed to be the largest ever imposed by an agency of the U.S. government",
+      "sources": [
+        {
+          "url": "https://www.cftc.gov/opa/enf98/opa4144-98.htm",
+          "publisher": "U.S. Commodity Futures Trading Commission",
+          "title": "Release #4144-98: CFTC settles with Sumitomo Corporation",
+          "date": "1998-05-11"
+        }
+      ]
+    },
+    {
+      "claim": "Sumitomo first announced a $1.8 billion loss in June 1996; by September 1996 the disclosed loss was $2.6 billion.",
+      "status": "reported",
+      "date": "1996-09",
+      "sources": [
+        {
+          "url": "https://northernminer.com/news/1996-a-look-back-1996-a-year-metals-traders-would-like-to-forget/1000097929",
+          "publisher": "The Northern Miner",
+          "title": "1996: A look back - a year metals traders would like to forget",
+          "date": "1996"
+        },
+        {
+          "url": "https://newsfeed.time.com/2012/05/11/top-10-biggest-trading-losses-in-history/slide/5-sumitomo-corp-3-5b",
+          "publisher": "Time",
+          "title": "Top 10 Biggest Trading Losses in History: Sumitomo Corp.",
+          "date": "2012-05-11"
+        }
+      ]
+    },
+    {
+      "claim": "Hamanaka admitted charges of forgery and fraud in court in Tokyo.",
+      "status": "reported",
+      "date": "1997",
+      "sources": [
+        {
+          "url": "https://newsfeed.time.com/2012/05/11/top-10-biggest-trading-losses-in-history/slide/5-sumitomo-corp-3-5b",
+          "publisher": "Time",
+          "title": "Top 10 Biggest Trading Losses in History: Sumitomo Corp.",
+          "date": "2012-05-11"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "london-metal-exchange",
+      "toName": "London Metal Exchange",
+      "toType": "institution",
+      "relation": "other",
+      "claim": "The CFTC found Sumitomo's 1995-96 copper manipulation was carried out through trading on the LME.",
+      "status": "court",
+      "date": "1998-05-11",
+      "sources": [
+        {
+          "url": "https://www.cftc.gov/opa/enf98/opa4144-98.htm",
+          "publisher": "U.S. Commodity Futures Trading Commission",
+          "title": "Release #4144-98: CFTC settles with Sumitomo Corporation",
+          "date": "1998-05-11"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: conviction for fraud and forgery is supported; sources returned give the sentence as eight years (Time/Wikipedia) and one as seven years, and the Tokyo District Court date (26 March 1998) rests on a single informal source. The page's statements on J.P. Morgan/Chase and UBS settlements ($125 million in 2002; about ¥10 billion) were not tested here.",
+    "No entity id exists for Sumitomo Corporation; a connection could not be recorded."
+  ]
+}

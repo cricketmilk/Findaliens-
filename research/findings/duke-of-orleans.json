@@ -1,0 +1,122 @@
+{
+  "entity": "duke-of-orleans",
+  "name": "Philippe II, Duke of Orléans",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Philippe II, Duke of Orléans, was Regent of France for the young Louis XV from 1715. He backed John Law's bank (chartered 1716, made the Banque Royale in 1718) and Law's Compagnie d'Occident (1717), later the Compagnie des Indes, which acquired tax-farming and other privileges and was merged with the royal bank in 1720 before the system collapsed.",
+    "sources": [
+      {
+        "url": "https://ebsco.com/research-starters/history/financial-collapse-john-law-system",
+        "publisher": "EBSCO Research Starters",
+        "title": "Financial Collapse of the John Law System"
+      },
+      {
+        "url": "https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/mississippi-scheme",
+        "publisher": "Encyclopedia.com",
+        "title": "Mississippi Scheme"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The Regent accepted Law's proposal for a bank, chartered to Law for 20 years and financed by stockholders, rather than cutting royal spending.",
+      "status": "reported",
+      "date": "1716",
+      "quote": "the bank would be private and chartered to Law for 20 years financed by stockholders",
+      "sources": [
+        {
+          "url": "https://ebsco.com/research-starters/history/financial-collapse-john-law-system",
+          "publisher": "EBSCO Research Starters",
+          "title": "Financial Collapse of the John Law System"
+        }
+      ]
+    },
+    {
+      "claim": "In April 1717 the Regent made the bank's notes legal tender for the payment of taxes; in 1718 the bank became the Banque Royale with its notes guaranteed by the king.",
+      "status": "reported",
+      "date": "1718",
+      "quote": "By April, 1717, the regent, impressed with the bank's success, made its notes legal tender for payment of taxes.",
+      "sources": [
+        {
+          "url": "https://ebsco.com/research-starters/history/financial-collapse-john-law-system",
+          "publisher": "EBSCO Research Starters",
+          "title": "Financial Collapse of the John Law System"
+        },
+        {
+          "url": "https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/mississippi-scheme",
+          "publisher": "Encyclopedia.com",
+          "title": "Mississippi Scheme"
+        }
+      ]
+    },
+    {
+      "claim": "Law's Compagnie d'Occident was formed in 1717 with the Regent's sanction; in 1719 it absorbed rival companies and was renamed the Compagnie des Indes, acquiring among other privileges the right of farming the taxes, and in 1720 it was amalgamated with the royal bank.",
+      "status": "reported",
+      "date": "1719",
+      "quote": "It was given, among other privileges, the right of farming the taxes.",
+      "sources": [
+        {
+          "url": "https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/mississippi-scheme",
+          "publisher": "Encyclopedia.com",
+          "title": "Mississippi Scheme"
+        }
+      ]
+    },
+    {
+      "claim": "Over-issue of the bank's notes led to devaluation and a run when the value of the paper currency was halved.",
+      "status": "reported",
+      "date": "1720",
+      "quote": "a bank run when the value of the new paper currency was halved",
+      "sources": [
+        {
+          "url": "https://ebsco.com/research-starters/history/financial-collapse-john-law-system",
+          "publisher": "EBSCO Research Starters",
+          "title": "Financial Collapse of the John Law System"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "john-law",
+      "toName": "John Law",
+      "toType": "person",
+      "relation": "other",
+      "claim": "As Regent, the Duke of Orléans chartered Law's bank and sanctioned his Compagnie d'Occident.",
+      "status": "reported",
+      "date": "1716",
+      "sources": [
+        {
+          "url": "https://ebsco.com/research-starters/history/financial-collapse-john-law-system",
+          "publisher": "EBSCO Research Starters",
+          "title": "Financial Collapse of the John Law System"
+        },
+        {
+          "url": "https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/mississippi-scheme",
+          "publisher": "Encyclopedia.com",
+          "title": "Mississippi Scheme"
+        }
+      ]
+    },
+    {
+      "to": "mississippi-company",
+      "toName": "Mississippi Company",
+      "toType": "company",
+      "relation": "regulated",
+      "claim": "The Regent's government granted the Compagnie d'Occident (Mississippi Company) its charter and privileges, including tax farming.",
+      "status": "reported",
+      "date": "1717",
+      "sources": [
+        {
+          "url": "https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/mississippi-scheme",
+          "publisher": "Encyclopedia.com",
+          "title": "Mississippi Scheme"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: the grant of tax farming is supported; the royal mint appears only in a Spanish-language summary of the company's 1720 holdings, and 'total monopoly over French overseas colonies' is not stated in the sources found.",
+    "Dates for Law's appointment as Controller General vary across the sources returned."
+  ]
+}

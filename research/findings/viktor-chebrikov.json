@@ -1,0 +1,71 @@
+{
+  "entity": "viktor-chebrikov",
+  "name": "Viktor Chebrikov",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Viktor Chebrikov was Chairman of the KGB and a member of the Soviet Politburo in 1986. The protocol of the first meeting of the CC CPSU Politburo Operational Group on the consequences of the Chernobyl accident, dated 29 April 1986 and published by the National Security Archive, lists him among the Politburo members present.",
+    "sources": [
+      {
+        "url": "https://nsarchive.gwu.edu/sites/default/files/documents/6279039/National-Security-Archive-Doc-6-CC-CPSU.pdf",
+        "publisher": "National Security Archive (George Washington University)",
+        "title": "Document 6: Protocol #1 of the CC CPSU Politburo Operational Group on the consequences of the Chernobyl accident, 29 April 1986",
+        "date": "1986-04-29"
+      },
+      {
+        "url": "https://nsarchive.gwu.edu/node/3330",
+        "publisher": "National Security Archive (George Washington University)",
+        "title": "Top Secret Chernobyl: The Nuclear Disaster through the Eyes of the Soviet Politburo, KGB, and U.S. Intelligence"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Protocol #1 of the CC CPSU Politburo Operational Group on the Chernobyl accident, dated 29 April 1986, lists Chebrikov among the Politburo members present, alongside Ryzhkov, Ligachev and Vorotnikov.",
+      "status": "documented",
+      "date": "1986-04-29",
+      "sources": [
+        {
+          "url": "https://nsarchive.gwu.edu/sites/default/files/documents/6279039/National-Security-Archive-Doc-6-CC-CPSU.pdf",
+          "publisher": "National Security Archive (George Washington University)",
+          "title": "Document 6: Protocol #1 of the CC CPSU Politburo Operational Group on the consequences of the Chernobyl accident, 29 April 1986",
+          "date": "1986-04-29"
+        }
+      ]
+    },
+    {
+      "claim": "The National Security Archive's 'Top Secret Chernobyl' collection publishes Politburo Operational Group protocols (first published in Russian by Alla Yaroshinskaya in 1992), Politburo diaries and notes, and Ukrainian KGB reporting through July 1986.",
+      "status": "documented",
+      "date": "1986",
+      "sources": [
+        {
+          "url": "https://nsarchive.gwu.edu/node/3330",
+          "publisher": "National Security Archive (George Washington University)",
+          "title": "Top Secret Chernobyl: The Nuclear Disaster through the Eyes of the Soviet Politburo, KGB, and U.S. Intelligence"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "mikhail-gorbachev",
+      "toName": "Mikhail Gorbachev",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Chebrikov sat on the Politburo under Gorbachev and attended the Politburo Operational Group on Chernobyl from 29 April 1986.",
+      "status": "documented",
+      "date": "1986-04-29",
+      "sources": [
+        {
+          "url": "https://nsarchive.gwu.edu/sites/default/files/documents/6279039/National-Security-Archive-Doc-6-CC-CPSU.pdf",
+          "publisher": "National Security Archive (George Washington University)",
+          "title": "Document 6: Protocol #1 of the CC CPSU Politburo Operational Group on the consequences of the Chernobyl accident, 29 April 1986",
+          "date": "1986-04-29"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: the page says 'KGB and Politburo leadership confirmed fatal radiation levels within hours but suppressed alerts for 72 hours'. The sources found establish Chebrikov's presence at the Operational Group from 29 April 1986 but no document naming his role in any suppression decision was retrieved; the claim is untested as to Chebrikov personally.",
+    "This file is thin (two facts); treat as a stub."
+  ]
+}

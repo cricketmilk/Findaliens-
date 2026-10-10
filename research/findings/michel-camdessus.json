@@ -1,0 +1,141 @@
+{
+  "entity": "michel-camdessus",
+  "name": "Michel Camdessus",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Michel Camdessus was Managing Director of the International Monetary Fund from January 1987 to February 2000, after serving as Governor of the Banque de France (1984-87) and director of the French Treasury. During the Asian financial crisis he visited Jakarta on 14-15 January 1998, where President Suharto signed a new letter of intent for a 50-point reform programme under the IMF's November 1997 Stand-By Arrangement.",
+    "sources": [
+      {
+        "url": "https://orbilu.uni.lu/bitstream/10993/31656/2/Short%20biography%20Michel%20Camdessus_%20en.pdf",
+        "publisher": "University of Luxembourg (ORBilu)",
+        "title": "Short biography: Michel Camdessus"
+      },
+      {
+        "url": "https://www.cvce.eu/en/histoire-orale/unit-content/-/unit/faa8d4b0-0dc3-4dd0-beca-2c81a61e1742",
+        "publisher": "CVCE (University of Luxembourg)",
+        "title": "Camdessus (Michel): oral history"
+      },
+      {
+        "url": "https://imf.org/en/News/Articles/2015/09/28/04/53/so012698",
+        "publisher": "International Monetary Fund (IMF Survey)",
+        "title": "IMF Survey: Indonesia letter of intent, January 1998",
+        "date": "1998-01-26"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Camdessus was director of the French Treasury from 1982 and chaired the Paris Club and the EEC Monetary Committee in 1982-84 before becoming Governor of the Banque de France.",
+      "status": "documented",
+      "date": "1984",
+      "sources": [
+        {
+          "url": "https://www.cvce.eu/en/histoire-orale/unit-content/-/unit/faa8d4b0-0dc3-4dd0-beca-2c81a61e1742",
+          "publisher": "CVCE (University of Luxembourg)",
+          "title": "Camdessus (Michel): oral history"
+        },
+        {
+          "url": "https://orbilu.uni.lu/bitstream/10993/31656/2/Short%20biography%20Michel%20Camdessus_%20en.pdf",
+          "publisher": "University of Luxembourg (ORBilu)",
+          "title": "Short biography: Michel Camdessus"
+        }
+      ]
+    },
+    {
+      "claim": "On 22 May 1996 the IMF Executive Board unanimously selected Camdessus for a third five-year term as Managing Director beginning in 1997.",
+      "status": "documented",
+      "date": "1996-05-22",
+      "quote": "On May 22, 1996, the Executive Board of the IMF unanimously selected Camdessus to serve a third five-year term as Managing Director in 1997.",
+      "sources": [
+        {
+          "url": "https://orbilu.uni.lu/bitstream/10993/31656/2/Short%20biography%20Michel%20Camdessus_%20en.pdf",
+          "publisher": "University of Luxembourg (ORBilu)",
+          "title": "Short biography: Michel Camdessus"
+        }
+      ]
+    },
+    {
+      "claim": "The IMF's own publication records that Camdessus visited Jakarta on 14-15 January 1998, after First Deputy Managing Director Stanley Fischer met Suharto on 12 January, and that on 15 January Suharto signed a new letter of intent in a meeting with Camdessus, following the November 1997 Stand-By Arrangement.",
+      "status": "documented",
+      "date": "1998-01-15",
+      "quote": "Then, on January 15, President Suharto, in a meeting with Camdessus, signed a new letter of intent for Indonesia.",
+      "sources": [
+        {
+          "url": "https://imf.org/en/News/Articles/2015/09/28/04/53/so012698",
+          "publisher": "International Monetary Fund (IMF Survey)",
+          "title": "IMF Survey: Indonesia letter of intent, January 1998",
+          "date": "1998-01-26"
+        }
+      ]
+    },
+    {
+      "claim": "The signing took place at Suharto's residence in Menteng; a photograph of Camdessus standing with arms folded as Suharto signed the 50-point programme became widely reproduced.",
+      "status": "reported",
+      "date": "1998-01-15",
+      "quote": "standing and staring at Soeharto with both his arms folded when Soeharto signed the LoI to implement a 50-point economic reform package",
+      "sources": [
+        {
+          "url": "https://www.thejakartapost.com/news/2013/04/25/the-beginning-end",
+          "publisher": "The Jakarta Post",
+          "title": "The beginning of the end",
+          "date": "2013-04-25"
+        }
+      ]
+    },
+    {
+      "claim": "A former World Bank country director for Indonesia who attended the signing has argued the photograph misrepresents the situation, writing that by January 1998 neither the IMF nor Indonesia nor Suharto had many options.",
+      "status": "reported",
+      "date": "1998",
+      "sources": [
+        {
+          "url": "https://www.cgdev.org/node/1423494",
+          "publisher": "Center for Global Development",
+          "title": "CGD in the News: on the Camdessus-Suharto photograph"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "imf",
+      "toName": "IMF",
+      "toType": "organization",
+      "relation": "executive of",
+      "claim": "Camdessus was IMF Managing Director from January 1987 to February 2000.",
+      "status": "documented",
+      "date": "1987-01",
+      "sources": [
+        {
+          "url": "https://orbilu.uni.lu/bitstream/10993/31656/2/Short%20biography%20Michel%20Camdessus_%20en.pdf",
+          "publisher": "University of Luxembourg (ORBilu)",
+          "title": "Short biography: Michel Camdessus"
+        },
+        {
+          "url": "https://www.cvce.eu/en/histoire-orale/unit-content/-/unit/faa8d4b0-0dc3-4dd0-beca-2c81a61e1742",
+          "publisher": "CVCE (University of Luxembourg)",
+          "title": "Camdessus (Michel): oral history"
+        }
+      ]
+    },
+    {
+      "to": "suharto-family-and-cronies",
+      "toName": "Suharto family and associates",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Camdessus oversaw the January 1998 letter of intent President Suharto signed with the IMF in Jakarta.",
+      "status": "documented",
+      "date": "1998-01-15",
+      "sources": [
+        {
+          "url": "https://imf.org/en/News/Articles/2015/09/28/04/53/so012698",
+          "publisher": "International Monetary Fund (IMF Survey)",
+          "title": "IMF Survey: Indonesia letter of intent, January 1998",
+          "date": "1998-01-26"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: 'Managing Director of the IMF who oversaw the rescue programs' is supported. The page's statements on closures of 56 Thai finance companies and 16 Indonesian banks and on fire-sale acquisitions were not addressed by the sources found."
+  ]
+}

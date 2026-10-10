@@ -1,0 +1,132 @@
+{
+  "entity": "edward-h-harriman",
+  "name": "Edward H. Harriman",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Edward H. Harriman was the head of the Union Pacific Railroad who in April-May 1901, financed through Jacob Schiff's Kuhn, Loeb & Co., bought Northern Pacific stock in an attempt to wrest control of the road from James J. Hill and J. P. Morgan; the resulting corner produced the Wall Street panic of May 1901.",
+    "sources": [
+      {
+        "url": "https://dwkcommentaries.com/tag/edward-h-harriman/",
+        "publisher": "dwkcommentaries (Duane W. Krohnke)",
+        "title": "The 1901 Contest for Control of the Northern Pacific Railway"
+      },
+      {
+        "url": "https://americanheritage.com/jacob-schiff-and-northern-pacific-corner",
+        "publisher": "American Heritage",
+        "title": "Jacob Schiff and the Northern Pacific Corner"
+      },
+      {
+        "url": "https://muse.jhu.edu/book/27303",
+        "publisher": "Project MUSE / University of Minnesota Press",
+        "title": "Harriman vs. Hill: Wall Street's Great Railroad War (Larry Haeg)"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In April-May 1901 Edward H. Harriman, backed by Jacob Schiff of Kuhn, Loeb & Co., bought Northern Pacific common and preferred stock on the open market in an attempt to gain control of the Northern Pacific and, through it, the Chicago, Burlington & Quincy; James J. Hill and J. P. Morgan's firm responded by buying shares as well.",
+      "status": "reported",
+      "date": "1901-05",
+      "quote": "Harriman with the backing of Schiff of the Wall Street banking firm of Kuehn Loeb in April-May 1901 then surreptitiously started to buy Northern Pacific common and preferred stock on the open market in an effort to gain control of the Northern Pacific and thereby the Quincy. Once Hill and Morgan realized what was happening, they started to buy Northern Pacific shares.",
+      "sources": [
+        {
+          "url": "https://dwkcommentaries.com/tag/edward-h-harriman/",
+          "publisher": "dwkcommentaries (Duane W. Krohnke)",
+          "title": "The 1901 Contest for Control of the Northern Pacific Railway"
+        },
+        {
+          "url": "https://americanheritage.com/jacob-schiff-and-northern-pacific-corner",
+          "publisher": "American Heritage",
+          "title": "Jacob Schiff and the Northern Pacific Corner"
+        }
+      ]
+    },
+    {
+      "claim": "With both camps holding most of the stock, short sellers could not obtain shares to deliver; Northern Pacific common rose from about $110 to $1,000 a share before firms postponed delivery and the price settled at $325.",
+      "status": "reported",
+      "date": "1901-05",
+      "quote": "Finally, at the last minute, firms postponed the delivery of Northern Pacific stock. It offered a brief relief to short sellers and the price eventually settled at $325.",
+      "sources": [
+        {
+          "url": "https://americanheritage.com/jacob-schiff-and-northern-pacific-corner",
+          "publisher": "American Heritage",
+          "title": "Jacob Schiff and the Northern Pacific Corner"
+        },
+        {
+          "url": "https://dwkcommentaries.com/tag/edward-h-harriman/",
+          "publisher": "dwkcommentaries (Duane W. Krohnke)",
+          "title": "The 1901 Contest for Control of the Northern Pacific Railway"
+        }
+      ]
+    },
+    {
+      "claim": "On May 6, 1901 the Morgan bank cabled Morgan in Europe for authority to buy 150,000 Northern Pacific common shares; by the following days the panic was threatening the wider market and the Morgan bank and Kuhn, Loeb called a truce under which Hill and Morgan helped the shorts and Harriman and Schiff ended their bid for control.",
+      "status": "reported",
+      "date": "1901-05-06",
+      "quote": "By noon the panic was threatening to engulf in ruin not just the shorts but the Street itself. The Morgan bank and Kuhn, Loeb called a hasty truce.",
+      "sources": [
+        {
+          "url": "https://americanheritage.com/jacob-schiff-and-northern-pacific-corner",
+          "publisher": "American Heritage",
+          "title": "Jacob Schiff and the Northern Pacific Corner"
+        },
+        {
+          "url": "https://dwkcommentaries.com/tag/edward-h-harriman/",
+          "publisher": "dwkcommentaries (Duane W. Krohnke)",
+          "title": "The 1901 Contest for Control of the Northern Pacific Railway"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "jacob-schiff",
+      "toName": "Jacob Schiff",
+      "toType": "person",
+      "relation": "partnered with",
+      "claim": "Harriman's 1901 Northern Pacific purchases were made with the backing and through the firm of Jacob Schiff of Kuhn, Loeb & Co.",
+      "status": "reported",
+      "date": "1901",
+      "quote": "Harriman with the backing of Schiff of the Wall Street banking firm of Kuehn Loeb in April-May 1901 then surreptitiously started to buy Northern Pacific common and preferred stock",
+      "sources": [
+        {
+          "url": "https://dwkcommentaries.com/tag/edward-h-harriman/",
+          "publisher": "dwkcommentaries (Duane W. Krohnke)",
+          "title": "The 1901 Contest for Control of the Northern Pacific Railway"
+        },
+        {
+          "url": "https://americanheritage.com/jacob-schiff-and-northern-pacific-corner",
+          "publisher": "American Heritage",
+          "title": "Jacob Schiff and the Northern Pacific Corner"
+        }
+      ]
+    },
+    {
+      "to": "j-p-morgan",
+      "toName": "J. P. Morgan",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Harriman's Northern Pacific raid was opposed by J. P. Morgan's firm, which bought shares for the Hill camp; the two sides agreed a truce in May 1901.",
+      "status": "reported",
+      "date": "1901-05",
+      "quote": "The Morgan bank and Kuhn, Loeb called a hasty truce.",
+      "sources": [
+        {
+          "url": "https://americanheritage.com/jacob-schiff-and-northern-pacific-corner",
+          "publisher": "American Heritage",
+          "title": "Jacob Schiff and the Northern Pacific Corner"
+        },
+        {
+          "url": "https://dwkcommentaries.com/tag/edward-h-harriman/",
+          "publisher": "dwkcommentaries (Duane W. Krohnke)",
+          "title": "The 1901 Contest for Control of the Northern Pacific Railway"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: the Harriman/Kuhn Loeb purchases, the Hill-Morgan counter-buying, the short squeeze and the $1,000 peak are supported by the sources found; the sources differ on whether May 9 was the day the panic began or the day it ended.",
+    "Site claim tested: the page's description of 'collateral fire-sale spillover' (traders dumping other stocks) is consistent with the sources' description of a market-wide panic, but the sources found do not quantify it.",
+    "Larry Haeg's 'Harriman vs. Hill' (University of Minnesota Press) is the full-length account; its text was not consulted."
+  ]
+}

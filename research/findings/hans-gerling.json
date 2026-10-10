@@ -1,0 +1,126 @@
+{
+  "entity": "hans-gerling",
+  "name": "Hans Gerling",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Hans Gerling was the head of the Cologne insurance group Gerling-Konzern and, with Herbert Quandt and Emil Georg Bührle, a financier of Iwan David Herstatt's Bankhaus Herstatt, in which Gerling held the majority of the shares. After the bank was closed by German regulators on 26 June 1974 with foreign-exchange losses far exceeding its capital, Gerling was forced to sell his majority stake in the insurance group and give up his post as chief executive.",
+    "sources": [
+      {
+        "url": "https://www.boeckler.de/de/magazin-mitbestimmung-2744-die-herstatt-pleite-68129.htm",
+        "publisher": "Hans-Böckler-Stiftung (Magazin Mitbestimmung)",
+        "title": "Die Herstatt-Pleite"
+      },
+      {
+        "url": "https://www.proquest.com/docview/209739038",
+        "publisher": "ProQuest (newspaper archive)",
+        "title": "Obituary/report on Hans Gerling"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Hans Gerling, together with Herbert Quandt and Emil Georg Bührle, financed Iwan David Herstatt's bank and held a majority share in it.",
+      "status": "reported",
+      "date": "1974",
+      "sources": [
+        {
+          "url": "https://www.boeckler.de/de/magazin-mitbestimmung-2744-die-herstatt-pleite-68129.htm",
+          "publisher": "Hans-Böckler-Stiftung (Magazin Mitbestimmung)",
+          "title": "Die Herstatt-Pleite"
+        },
+        {
+          "url": "https://www.proquest.com/docview/209739038",
+          "publisher": "ProQuest (newspaper archive)",
+          "title": "Obituary/report on Hans Gerling"
+        }
+      ]
+    },
+    {
+      "claim": "German regulators forced Bankhaus Herstatt into liquidation on 26 June 1974 after speculative foreign-exchange positions produced losses of about DM 470 million against capital of DM 44 million.",
+      "status": "documented",
+      "date": "1974-06-26",
+      "sources": [
+        {
+          "url": "https://www.bis.org/publ/qtrpdf/r_qt0212f.pdf",
+          "publisher": "Bank for International Settlements",
+          "title": "BIS Quarterly Review, December 2002: Herstatt and settlement risk",
+          "date": "2002-12"
+        },
+        {
+          "url": "https://ECB.eu/pub/financial-stability/fsr/focus/2007/pdf/ecb~ccda416def.fsrbox200712_19.pdf",
+          "publisher": "European Central Bank",
+          "title": "Financial Stability Review, December 2007, Box: Herstatt",
+          "date": "2007-12"
+        }
+      ]
+    },
+    {
+      "claim": "After the collapse Gerling was forced to sell his majority stake in the insurance company and relinquish his post as chief executive.",
+      "status": "reported",
+      "date": "1974",
+      "quote": "he was forced to sell his majority stake in the insurance company and relinquish his post as chief executive",
+      "sources": [
+        {
+          "url": "https://www.proquest.com/docview/209739038",
+          "publisher": "ProQuest (newspaper archive)",
+          "title": "Obituary/report on Hans Gerling"
+        }
+      ]
+    },
+    {
+      "claim": "The Hans-Böckler-Stiftung's account states that the bank's foreign-exchange department worked largely without control, trader limits were circumvented and losses were hidden from the accounting department.",
+      "status": "reported",
+      "date": "1974",
+      "quote": "Die Devisenabteilung arbeitete weitgehend ohne Kontrolle, Händlerlimits wurden umgangen, Verluste vor der Buchhaltung verheimlicht.",
+      "sources": [
+        {
+          "url": "https://www.boeckler.de/de/magazin-mitbestimmung-2744-die-herstatt-pleite-68129.htm",
+          "publisher": "Hans-Böckler-Stiftung (Magazin Mitbestimmung)",
+          "title": "Die Herstatt-Pleite"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "iwan-david-herstatt",
+      "toName": "Iwan David Herstatt",
+      "toType": "person",
+      "relation": "funded",
+      "claim": "Gerling financed Herstatt's bank and was its majority shareholder.",
+      "status": "reported",
+      "date": "1974",
+      "sources": [
+        {
+          "url": "https://www.boeckler.de/de/magazin-mitbestimmung-2744-die-herstatt-pleite-68129.htm",
+          "publisher": "Hans-Böckler-Stiftung (Magazin Mitbestimmung)",
+          "title": "Die Herstatt-Pleite"
+        },
+        {
+          "url": "https://www.proquest.com/docview/209739038",
+          "publisher": "ProQuest (newspaper archive)",
+          "title": "Obituary/report on Hans Gerling"
+        }
+      ]
+    },
+    {
+      "to": "dany-dattel",
+      "toName": "Dany Dattel",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Dattel headed the foreign-exchange department of the bank in which Gerling held the majority.",
+      "status": "reported",
+      "date": "1974",
+      "sources": [
+        {
+          "url": "https://www.boeckler.de/de/magazin-mitbestimmung-2744-die-herstatt-pleite-68129.htm",
+          "publisher": "Hans-Böckler-Stiftung (Magazin Mitbestimmung)",
+          "title": "Die Herstatt-Pleite"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: 'majority shareholder' is supported; 'supervisory-board chairman' was not confirmed by sources found."
+  ]
+}

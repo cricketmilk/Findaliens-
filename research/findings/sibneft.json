@@ -1,0 +1,120 @@
+{
+  "entity": "sibneft",
+  "name": "Sibneft",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Sibneft was a Russian oil company created in 1995 and acquired through the loans-for-shares programme by financial structures linked to Boris Berezovsky, with Roman Abramovich. The 2012 English High Court judgment in Berezovsky v Abramovich found that Berezovsky had no binding agreement to an interest in Sibneft and that Abramovich and Sibneft paid him for political patronage.",
+    "sources": [
+      {
+        "url": "https://www.judiciary.uk/wp-content/uploads/JCO/Documents/Judgments/berezovsky-abramovich-summary.pdf",
+        "publisher": "Judiciary of England and Wales",
+        "title": "Berezovsky v Abramovich: summary of judgment",
+        "date": "2012-08-31"
+      },
+      {
+        "url": "https://jamestown.org/?p=57533",
+        "publisher": "Jamestown Foundation",
+        "title": "Monitor item on loans-for-shares results"
+      },
+      {
+        "url": "https://www.nber.org/system/files/working_papers/w15819/w15819.pdf",
+        "publisher": "National Bureau of Economic Research",
+        "title": "Daniel Treisman, 'Loans for Shares' Revisited (NBER Working Paper 15819)",
+        "date": "2010"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "A Jamestown Monitor item on the 1995 loans-for-shares results lists Sibneft among the oil companies acquired by Berezovsky, alongside Yukos (Khodorkovsky) and Sidanco (Potanin).",
+      "status": "reported",
+      "date": "1995-12",
+      "quote": "he, Mikhail Khodorkovskii of Menatep, and Boris Berezovskii acquired the oil giants Sidanco, Yukos, and Sibneft",
+      "sources": [
+        {
+          "url": "https://jamestown.org/?p=57533",
+          "publisher": "Jamestown Foundation",
+          "title": "Monitor item on loans-for-shares results"
+        }
+      ]
+    },
+    {
+      "claim": "The English High Court found in 2012 that Abramovich and Sibneft made substantial cash payments to Berezovsky in return for his political patronage, and that Berezovsky had no binding agreement to half of Sibneft's shares.",
+      "status": "court",
+      "date": "2012-08-31",
+      "quote": "the deal was that, for substantial cash payments, Abramovich and Sibneft would enjoy Berezovsky's political patronage and influence",
+      "sources": [
+        {
+          "url": "https://www.judiciary.uk/wp-content/uploads/JCO/Documents/Judgments/berezovsky-abramovich-summary.pdf",
+          "publisher": "Judiciary of England and Wales",
+          "title": "Berezovsky v Abramovich: summary of judgment",
+          "date": "2012-08-31"
+        },
+        {
+          "url": "https://caselaw.nationalarchives.gov.uk/ewhc/comm/2012/2463",
+          "publisher": "The National Archives (Find Case Law)",
+          "title": "Berezovsky v Abramovich [2012] EWHC 2463 (Comm)",
+          "date": "2012-08-31"
+        }
+      ]
+    },
+    {
+      "claim": "Treisman's NBER paper argues that the loans-for-shares scheme's execution appeared corrupt but that the stakes were a small fraction of the market and pricing was mostly in line with international practice.",
+      "status": "peer",
+      "date": "2010",
+      "quote": "appeared corrupt, but that the stakes involved represented a small fraction of the market; the pricing in most cases was in line with international practice",
+      "sources": [
+        {
+          "url": "https://www.nber.org/system/files/working_papers/w15819/w15819.pdf",
+          "publisher": "National Bureau of Economic Research",
+          "title": "Daniel Treisman, 'Loans for Shares' Revisited (NBER Working Paper 15819)",
+          "date": "2010"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "boris-berezovsky",
+      "toName": "Boris Berezovsky",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Sibneft was acquired in 1995 by structures linked to Berezovsky, who was later found to have been paid by Sibneft for political patronage.",
+      "status": "reported",
+      "date": "1995",
+      "sources": [
+        {
+          "url": "https://jamestown.org/?p=57533",
+          "publisher": "Jamestown Foundation",
+          "title": "Monitor item on loans-for-shares results"
+        },
+        {
+          "url": "https://www.judiciary.uk/wp-content/uploads/JCO/Documents/Judgments/berezovsky-abramovich-summary.pdf",
+          "publisher": "Judiciary of England and Wales",
+          "title": "Berezovsky v Abramovich: summary of judgment",
+          "date": "2012-08-31"
+        }
+      ]
+    },
+    {
+      "to": "roman-abramovich",
+      "toName": "Roman Abramovich",
+      "toType": "person",
+      "relation": "other",
+      "claim": "The High Court found Abramovich and Sibneft paid Berezovsky for political protection.",
+      "status": "court",
+      "date": "2012-08-31",
+      "sources": [
+        {
+          "url": "https://www.judiciary.uk/wp-content/uploads/JCO/Documents/Judgments/berezovsky-abramovich-summary.pdf",
+          "publisher": "Judiciary of England and Wales",
+          "title": "Berezovsky v Abramovich: summary of judgment",
+          "date": "2012-08-31"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: the $100 million auction price implied by the page was not confirmed; the loans-for-shares acquisition is supported."
+  ]
+}

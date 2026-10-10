@@ -1,0 +1,68 @@
+{
+  "entity": "flock-safety",
+  "name": "Flock Safety",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Flock Safety is an Atlanta-based maker of automated licence-plate-reader cameras and related surveillance software sold to police departments, municipalities and private customers. In March 2025 Andreessen Horowitz led a funding round of about $275 million that valued the company at roughly $7.5 billion; the company says it serves more than 5,000 law-enforcement agencies. In 2025–2026 a number of U.S. cities ended or paused Flock contracts over privacy concerns and fears the data could be used for federal immigration enforcement.",
+    "sources": [
+      { "url": "https://www.bloomberg.com/news/articles/2025-03-05/andreessen-leads-funding-valuing-flock-safety-at-7-5-billion", "publisher": "Bloomberg", "title": "Andreessen Leads Funding Valuing Flock Safety at $7.5 Billion", "date": "2025-03-05" },
+      { "url": "https://axios.com/pro/all-deals/2026/04/13/flock-safety-fundraising-surveillance-tech", "publisher": "Axios Pro", "title": "Flock Safety fundraising, surveillance tech", "date": "2026-04-13" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In March 2025 Bloomberg reported that Andreessen Horowitz was set to lead a funding round of about $250 million valuing Flock Safety at roughly $7.5 billion; Axios later reported the round closed at $275 million at that valuation.",
+      "status": "reported",
+      "date": "2025-03",
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2025-03-05/andreessen-leads-funding-valuing-flock-safety-at-7-5-billion", "publisher": "Bloomberg", "title": "Andreessen Leads Funding Valuing Flock Safety at $7.5 Billion", "date": "2025-03-05" },
+        { "url": "https://axios.com/pro/all-deals/2026/04/13/flock-safety-fundraising-surveillance-tech", "publisher": "Axios Pro", "title": "Flock Safety fundraising, surveillance tech", "date": "2026-04-13" }
+      ]
+    },
+    {
+      "claim": "Flock says it serves more than 5,000 law-enforcement agencies.",
+      "status": "words",
+      "date": "2026-04",
+      "quote": "Flock says it serves more than 5,000 law enforcement agencies",
+      "sources": [
+        { "url": "https://axios.com/pro/all-deals/2026/04/13/flock-safety-fundraising-surveillance-tech", "publisher": "Axios Pro", "title": "Flock Safety fundraising, surveillance tech", "date": "2026-04-13" }
+      ]
+    },
+    {
+      "claim": "TechSpot counted 38 U.S. cities that rejected or switched off Flock cameras over a six-month period, mainly citing privacy concerns and fears of federal immigration use; Flock says many cities have since signed new contracts.",
+      "status": "reported",
+      "date": "2025",
+      "sources": [
+        { "url": "https://www.techspot.com/news/111728-number-us-cities-pulling-plug-flock-safety-ai.html", "publisher": "TechSpot", "title": "A growing number of US cities are pulling the plug on Flock Safety's AI cameras", "date": "2025" },
+        { "url": "https://axios.com/pro/all-deals/2026/04/13/flock-safety-fundraising-surveillance-tech", "publisher": "Axios Pro", "title": "Flock Safety fundraising, surveillance tech", "date": "2026-04-13" }
+      ]
+    },
+    {
+      "claim": "In April 2026 a secondary share sale reportedly valued Flock at close to $8.4 billion.",
+      "status": "reported",
+      "date": "2026-04",
+      "sources": [
+        { "url": "https://axios.com/pro/all-deals/2026/04/13/flock-safety-fundraising-surveillance-tech", "publisher": "Axios Pro", "title": "Flock Safety fundraising, surveillance tech", "date": "2026-04-13" },
+        { "url": "https://sacra.com/c/flock-safety/", "publisher": "Sacra", "title": "Flock Safety", "date": "2026" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "andreessen-horowitz",
+      "toName": "Andreessen Horowitz",
+      "toType": "fund",
+      "relation": "invested in",
+      "reverse": true,
+      "claim": "Andreessen Horowitz led Flock Safety's March 2025 funding round at a valuation of about $7.5 billion.",
+      "status": "reported",
+      "date": "2025-03",
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2025-03-05/andreessen-leads-funding-valuing-flock-safety-at-7-5-billion", "publisher": "Bloomberg", "title": "Andreessen Leads Funding Valuing Flock Safety at $7.5 Billion", "date": "2025-03-05" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Sources disagree on the date of the $7.5 billion round (March vs September 2025) and on the community count (5,000 agencies vs 5,000–6,000 communities). Specific municipal contracts were not retrieved; the owner may wish to cite individual city council records."
+  ]
+}

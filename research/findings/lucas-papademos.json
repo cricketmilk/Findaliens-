@@ -1,0 +1,91 @@
+{
+  "entity": "lucas-papademos",
+  "name": "Lucas Papademos",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Lucas Papademos was Vice-President of the European Central Bank from June 2002 to May 2010 and served as Prime Minister of Greece from November 2011 to May 2012 at the head of a national unity government formed during the debt crisis.",
+    "sources": [
+      {
+        "url": "https://cepr.org/about/people/lucas-papademos",
+        "publisher": "Centre for Economic Policy Research",
+        "title": "Lucas Papademos"
+      },
+      {
+        "url": "https://euobserver.com/19/114250",
+        "publisher": "EUobserver",
+        "title": "Papademos to take over Greek premiership",
+        "date": "2011-11-10"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Papademos was Vice-President of the European Central Bank from 1 June 2002 to 31 May 2010.",
+      "status": "documented",
+      "date": "2002-06-01",
+      "quote": "June 1, 2002-May 31, 2010 - Vice President of the European Central Bank.",
+      "sources": [
+        {
+          "url": "https://cepr.org/about/people/lucas-papademos",
+          "publisher": "Centre for Economic Policy Research",
+          "title": "Lucas Papademos"
+        }
+      ]
+    },
+    {
+      "claim": "Greek party negotiations agreed on 10 November 2011 that Papademos would take over the premiership.",
+      "status": "reported",
+      "date": "2011-11-10",
+      "quote": "it was agreed on Thursday (10 November) that Papademos would take over the premiership.",
+      "sources": [
+        {
+          "url": "https://euobserver.com/19/114250",
+          "publisher": "EUobserver",
+          "title": "Papademos to take over Greek premiership",
+          "date": "2011-11-10"
+        }
+      ]
+    },
+    {
+      "claim": "He served as Prime Minister of Greece from November 2011 to May 2012, leading a national unity government during the debt crisis.",
+      "status": "reported",
+      "date": "2012-05",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2011/11/07/can-a-technocrat-save-greece.html",
+          "publisher": "CNBC",
+          "title": "Can a Technocrat Save Greece?",
+          "date": "2011-11-07"
+        },
+        {
+          "url": "https://euobserver.com/19/114250",
+          "publisher": "EUobserver",
+          "title": "Papademos to take over Greek premiership",
+          "date": "2011-11-10"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "european-central-bank",
+      "toName": "European Central Bank",
+      "toType": "institution",
+      "relation": "executive of",
+      "claim": "Papademos was ECB Vice-President 2002-2010.",
+      "status": "documented",
+      "date": "2002",
+      "sources": [
+        {
+          "url": "https://cepr.org/about/people/lucas-papademos",
+          "publisher": "Centre for Economic Policy Research",
+          "title": "Lucas Papademos"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: 'former ECB Vice-President appointed technocratic Greek Prime Minister in 2011' is supported. That his appointment was 'to secure the second bailout' is a characterisation not tested here.",
+    "The id 'european-central-bank' is not in entities.json or the seed; owner may wish to map it to an existing ECB entity if one is added."
+  ]
+}

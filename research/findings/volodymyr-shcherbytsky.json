@@ -1,0 +1,88 @@
+{
+  "entity": "volodymyr-shcherbytsky",
+  "name": "Volodymyr Shcherbytsky",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Volodymyr Shcherbytsky was First Secretary of the Communist Party of Ukraine in 1986. Journalistic accounts drawing on declassified Ukrainian KGB files state that the Kyiv May Day demonstration of 1 May 1986 went ahead to avoid panic and disclosure of the Chernobyl accident, that Shcherbytsky opposed holding it but was ordered to by Gorbachev, and that he attended with his grandchildren.",
+    "sources": [
+      {
+        "url": "https://euromaidanpress.com/2021/05/06/10-things-kgb-didnt-want-you-to-know-about-chernobyl/",
+        "publisher": "Euromaidan Press",
+        "title": "10 things the KGB didn't want you to know about Chernobyl",
+        "date": "2021-05-06"
+      },
+      {
+        "url": "https://euromaidanpress.com/2018/06/12/chernobyl-nuclear-plant-was-doomed-declassified-kgb-documents-reveal/",
+        "publisher": "Euromaidan Press",
+        "title": "Chernobyl nuclear plant was doomed, declassified KGB documents reveal",
+        "date": "2018-06-12"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Euromaidan Press reports that the Kyiv May Day demonstration of 1986 was held to avoid panic and to avoid disclosing the disaster, that Shcherbytsky opposed the rally but Gorbachev ordered it held, and that Shcherbytsky attended with his grandchildren.",
+      "status": "reported",
+      "date": "1986-05-01",
+      "quote": "It is a well-known fact that the head of the republic Volodymyr Shcherbytsky was against the rally, but his Moscow boss Mikhail Gorbachev ordered it to be held at any cost. Shcherbytsky was forced to obey, and, in addition, personally came to the demo together with his grandchildren.",
+      "sources": [
+        {
+          "url": "https://euromaidanpress.com/2021/05/06/10-things-kgb-didnt-want-you-to-know-about-chernobyl/",
+          "publisher": "Euromaidan Press",
+          "title": "10 things the KGB didn't want you to know about Chernobyl",
+          "date": "2021-05-06"
+        }
+      ]
+    },
+    {
+      "claim": "Declassified Ukrainian-held KGB files reportedly show the KGB had informed the leadership about the circumstances before 1 May 1986, and that high radiation readings had been found on a vehicle near Kyiv and on children's parade costumes.",
+      "status": "reported",
+      "date": "1986-05",
+      "quote": "the KGB had informed the regime about the circumstances even before the first of May",
+      "sources": [
+        {
+          "url": "https://euromaidanpress.com/2018/06/12/chernobyl-nuclear-plant-was-doomed-declassified-kgb-documents-reveal/",
+          "publisher": "Euromaidan Press",
+          "title": "Chernobyl nuclear plant was doomed, declassified KGB documents reveal",
+          "date": "2018-06-12"
+        }
+      ]
+    },
+    {
+      "claim": "Ukraine's SBU has declassified Soviet-era documents on Chernobyl covering construction errors, accidents and emergency interruptions at the plant from 1971 to the day of the disaster.",
+      "status": "reported",
+      "date": "2018",
+      "sources": [
+        {
+          "url": "https://euromaidanpress.com/2018/06/12/chernobyl-nuclear-plant-was-doomed-declassified-kgb-documents-reveal/",
+          "publisher": "Euromaidan Press",
+          "title": "Chernobyl nuclear plant was doomed, declassified KGB documents reveal",
+          "date": "2018-06-12"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "mikhail-gorbachev",
+      "toName": "Mikhail Gorbachev",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Journalistic accounts state Gorbachev ordered the Kyiv May Day parade held over Shcherbytsky's objection.",
+      "status": "reported",
+      "date": "1986-05-01",
+      "quote": "his Moscow boss Mikhail Gorbachev ordered it to be held at any cost",
+      "sources": [
+        {
+          "url": "https://euromaidanpress.com/2021/05/06/10-things-kgb-didnt-want-you-to-know-about-chernobyl/",
+          "publisher": "Euromaidan Press",
+          "title": "10 things the KGB didn't want you to know about Chernobyl",
+          "date": "2021-05-06"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: the May Day parade proceeding under fallout is supported by journalistic accounts of the KGB files; the claim that party bosses flew their children out of Kyiv while Shcherbytsky marched with his grandchildren is partly contradicted (the source has Shcherbytsky bringing his grandchildren to the parade). The 'ordered by Gorbachev' claim is a journalistic account not tied to a cited document."
+  ]
+}

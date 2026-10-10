@@ -1,0 +1,178 @@
+{
+  "entity": "boris-berezovsky",
+  "name": "Boris Berezovsky",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Boris Berezovsky was a Russian businessman and, in 1996-97, deputy secretary of Russia's Security Council. In the 1995 loans-for-shares programme financial structures linked to him acquired the oil company Sibneft. In 2012 the English High Court (Gloster J) dismissed his claim against Roman Abramovich for more than $5 billion, finding no binding agreement entitled him to Sibneft or RusAl shares and that Abramovich's payments to him were for political patronage.",
+    "sources": [
+      {
+        "url": "https://www.judiciary.uk/wp-content/uploads/JCO/Documents/Judgments/berezovsky-abramovich-summary.pdf",
+        "publisher": "Judiciary of England and Wales",
+        "title": "Berezovsky v Abramovich: summary of judgment",
+        "date": "2012-08-31"
+      },
+      {
+        "url": "https://caselaw.nationalarchives.gov.uk/ewhc/comm/2012/2463",
+        "publisher": "The National Archives (Find Case Law)",
+        "title": "Berezovsky v Abramovich [2012] EWHC 2463 (Comm)",
+        "date": "2012-08-31"
+      },
+      {
+        "url": "https://www.rferl.org/a/1086084.html",
+        "publisher": "RFE/RL",
+        "title": "Newsline item on loans-for-shares auction won by Berezovsky-linked structures",
+        "date": "1995-12"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In Berezovsky v Abramovich [2012] EWHC 2463 (Comm), handed down 31 August 2012, Gloster J dismissed Berezovsky's claim, which alleged a 1995 arrangement giving him and an associate half of Sibneft's shares, a 1996 supplementary agreement, and coerced sale at an undervalue in 2001, with losses claimed at more than $5 billion.",
+      "status": "court",
+      "date": "2012-08-31",
+      "quote": "He failed to prove any binding agreement that he was to have an interest in a Russian oil company or a Russian aluminium company.",
+      "sources": [
+        {
+          "url": "https://caselaw.nationalarchives.gov.uk/ewhc/comm/2012/2463",
+          "publisher": "The National Archives (Find Case Law)",
+          "title": "Berezovsky v Abramovich [2012] EWHC 2463 (Comm)",
+          "date": "2012-08-31"
+        },
+        {
+          "url": "https://www.judiciary.uk/wp-content/uploads/JCO/Documents/Judgments/berezovsky-abramovich-summary.pdf",
+          "publisher": "Judiciary of England and Wales",
+          "title": "Berezovsky v Abramovich: summary of judgment",
+          "date": "2012-08-31"
+        }
+      ]
+    },
+    {
+      "claim": "The judge concluded that the arrangement was that, for substantial cash payments, Abramovich and Sibneft would enjoy Berezovsky's political patronage and influence ('krysha').",
+      "status": "court",
+      "date": "2012-08-31",
+      "quote": "the deal was that, for substantial cash payments, Abramovich and Sibneft would enjoy Berezovsky's political patronage and influence",
+      "sources": [
+        {
+          "url": "https://www.judiciary.uk/wp-content/uploads/JCO/Documents/Judgments/berezovsky-abramovich-summary.pdf",
+          "publisher": "Judiciary of England and Wales",
+          "title": "Berezovsky v Abramovich: summary of judgment",
+          "date": "2012-08-31"
+        }
+      ]
+    },
+    {
+      "claim": "The court rejected Berezovsky's claims that he was threatened by Putin and Alexander Voloshin to coerce him into selling his Sibneft interest, and found there was never an agreement entitling him to RusAl shares.",
+      "status": "court",
+      "date": "2012-08-31",
+      "quote": "There was never any agreement that entitled Berezovsky to shares in the aluminum company Rusal.",
+      "sources": [
+        {
+          "url": "https://www.judiciary.uk/wp-content/uploads/JCO/Documents/Judgments/berezovsky-abramovich-summary.pdf",
+          "publisher": "Judiciary of England and Wales",
+          "title": "Berezovsky v Abramovich: summary of judgment",
+          "date": "2012-08-31"
+        }
+      ]
+    },
+    {
+      "claim": "Gloster J described Berezovsky as 'an unimpressive, and inherently unreliable, witness'.",
+      "status": "court",
+      "date": "2012-08-31",
+      "quote": "an unimpressive, and inherently unreliable, witness",
+      "sources": [
+        {
+          "url": "https://www.judiciary.uk/wp-content/uploads/JCO/Documents/Judgments/berezovsky-abramovich-summary.pdf",
+          "publisher": "Judiciary of England and Wales",
+          "title": "Berezovsky v Abramovich: summary of judgment",
+          "date": "2012-08-31"
+        },
+        {
+          "url": "https://www.judiciary.uk/wp-content/uploads/JCO/Documents/Judgments/berezovsky-judgment.pdf",
+          "publisher": "Judiciary of England and Wales",
+          "title": "Berezovsky v Abramovich [2012] EWHC 2463 (Comm), judgment of Gloster J",
+          "date": "2012-08-31"
+        }
+      ]
+    },
+    {
+      "claim": "RFE/RL reported in December 1995 that financial structures linked to Security Council deputy secretary Boris Berezovsky won a loans-for-shares auction; a Jamestown Monitor item lists Berezovsky as having acquired Sibneft alongside Khodorkovsky's Yukos and Potanin's Sidanco and Norilsk Nickel.",
+      "status": "reported",
+      "date": "1995-12",
+      "quote": "he, Mikhail Khodorkovskii of Menatep, and Boris Berezovskii acquired the oil giants Sidanco, Yukos, and Sibneft",
+      "sources": [
+        {
+          "url": "https://www.rferl.org/a/1086084.html",
+          "publisher": "RFE/RL",
+          "title": "Newsline item on loans-for-shares auction won by Berezovsky-linked structures",
+          "date": "1995-12"
+        },
+        {
+          "url": "https://jamestown.org/?p=57533",
+          "publisher": "Jamestown Foundation",
+          "title": "Monitor item on loans-for-shares results"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "roman-abramovich",
+      "toName": "Roman Abramovich",
+      "toType": "person",
+      "relation": "sued",
+      "claim": "Berezovsky sued Abramovich in London over Sibneft and RusAl; the claim was dismissed in August 2012.",
+      "status": "court",
+      "date": "2012-08-31",
+      "sources": [
+        {
+          "url": "https://caselaw.nationalarchives.gov.uk/ewhc/comm/2012/2463",
+          "publisher": "The National Archives (Find Case Law)",
+          "title": "Berezovsky v Abramovich [2012] EWHC 2463 (Comm)",
+          "date": "2012-08-31"
+        },
+        {
+          "url": "https://www.judiciary.uk/wp-content/uploads/JCO/Documents/Judgments/berezovsky-abramovich-summary.pdf",
+          "publisher": "Judiciary of England and Wales",
+          "title": "Berezovsky v Abramovich: summary of judgment",
+          "date": "2012-08-31"
+        }
+      ]
+    },
+    {
+      "to": "sibneft",
+      "toName": "Sibneft",
+      "toType": "company",
+      "relation": "other",
+      "claim": "The High Court found Berezovsky had no binding agreement to an interest in Sibneft but received payments from Abramovich and Sibneft for political patronage.",
+      "status": "court",
+      "date": "2012-08-31",
+      "sources": [
+        {
+          "url": "https://www.judiciary.uk/wp-content/uploads/JCO/Documents/Judgments/berezovsky-abramovich-summary.pdf",
+          "publisher": "Judiciary of England and Wales",
+          "title": "Berezovsky v Abramovich: summary of judgment",
+          "date": "2012-08-31"
+        }
+      ]
+    },
+    {
+      "to": "mikhail-khodorkovsky",
+      "toName": "Mikhail Khodorkovsky",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Berezovsky and Khodorkovsky were among the winners of the 1995 loans-for-shares auctions (Sibneft and Yukos respectively).",
+      "status": "reported",
+      "date": "1995",
+      "sources": [
+        {
+          "url": "https://jamestown.org/?p=57533",
+          "publisher": "Jamestown Foundation",
+          "title": "Monitor item on loans-for-shares results"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: that Sibneft went to insiders in the 1995 loans-for-shares auctions 'for virtually nothing' in exchange for funding Yeltsin's 1996 campaign: Berezovsky's acquisition of Sibneft in 1995 is supported; the price (the page implies about $100 million) and the campaign-funding quid pro quo were not confirmed by sources found. Treisman (NBER 2010) argues the auctions appeared corrupt in execution but that pricing was mostly in line with international practice."
+  ]
+}

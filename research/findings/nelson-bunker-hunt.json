@@ -1,0 +1,118 @@
+{
+  "entity": "nelson-bunker-hunt",
+  "name": "Nelson Bunker Hunt",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Nelson Bunker Hunt was a Texas oilman who, with his brother William Herbert Hunt and associates, accumulated very large silver positions in 1979-80 before the price collapse of 27 March 1980 ('Silver Thursday'). In 1988 a federal jury found the brothers liable for conspiring to corner the silver market in a suit by Minpeco, and in 1989 they settled CFTC manipulation charges with trading bans and a $10 million penalty.",
+    "sources": [
+      {
+        "url": "https://www.deseret.com/1988/8/21/18775716/3-hunt-guilty-in-plot-to-corner-silver-market",
+        "publisher": "Deseret News",
+        "title": "3 Hunts guilty in plot to corner silver market",
+        "date": "1988-08-21"
+      },
+      {
+        "url": "https://www.nbcnews.com/business/business-news/famed-texas-oil-tycoon-nelson-bunker-hunt-dies-88-n231371",
+        "publisher": "NBC News (AP)",
+        "title": "Famed Texas Oil Tycoon Nelson Bunker Hunt Dies at 88",
+        "date": "2014-10-21"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In August 1988 a federal jury in New York found Nelson Bunker Hunt, William Herbert Hunt, Lamar Hunt and other defendants liable in the civil suit brought by Minpeco, a Peruvian mineral marketing company, concluding they had conspired to corner the silver market; Nelson Bunker and William Herbert were also found liable on racketeering counts while Lamar was not.",
+      "status": "court",
+      "date": "1988-08-20",
+      "quote": "Nelson and William were found guilty of racketeering charges, but the civil case verdict carries no criminal penalties. Only Lamar, the owner of the Kansas City Chiefs football team, was found not guilty of racketeering.",
+      "sources": [
+        {
+          "url": "https://www.deseret.com/1988/8/21/18775716/3-hunt-guilty-in-plot-to-corner-silver-market",
+          "publisher": "Deseret News",
+          "title": "3 Hunts guilty in plot to corner silver market",
+          "date": "1988-08-21"
+        },
+        {
+          "url": "https://web.pdx.edu/~jjackson/HuntSilver.html",
+          "publisher": "Portland State University (J. Jackson course page)",
+          "title": "The Hunt Family Silver Venture"
+        }
+      ]
+    },
+    {
+      "claim": "The jury awarded Minpeco $192 million; after trebling and offsets for earlier settlements the judgment was reported at about $134 million.",
+      "status": "court",
+      "date": "1988",
+      "quote": "The jury found for Minpeco, and awarded $192,000,000 to them.",
+      "sources": [
+        {
+          "url": "https://web.pdx.edu/~jjackson/HuntSilver.html",
+          "publisher": "Portland State University (J. Jackson course page)",
+          "title": "The Hunt Family Silver Venture"
+        }
+      ]
+    },
+    {
+      "claim": "By September 1988 Nelson Bunker Hunt and William Herbert Hunt had filed for personal bankruptcy protection to avoid posting a $225 million bond required to appeal the verdict.",
+      "status": "reported",
+      "date": "1988-09",
+      "quote": "filed for personal bankruptcy protection to avoid having to post a $225 million bond required for appealing a federal jury verdict against them",
+      "sources": [
+        {
+          "url": "https://web.pdx.edu/~jjackson/HuntSilver.html",
+          "publisher": "Portland State University (J. Jackson course page)",
+          "title": "The Hunt Family Silver Venture"
+        }
+      ]
+    },
+    {
+      "claim": "In 1989 the Hunt brothers settled with the CFTC, which alleged they manipulated the price of silver; AP reported they agreed to lifetime bans from trading commodity futures and a $10 million penalty.",
+      "status": "court",
+      "date": "1989-12",
+      "quote": "The brothers agreed to lifetime bans from trading in commodities futures and a $10 million penalty with the Commodity Futures Trading Commission, which alleged that they manipulated the price of silver.",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/business/business-news/famed-texas-oil-tycoon-nelson-bunker-hunt-dies-88-n231371",
+          "publisher": "NBC News (AP)",
+          "title": "Famed Texas Oil Tycoon Nelson Bunker Hunt Dies at 88",
+          "date": "2014-10-21"
+        },
+        {
+          "url": "https://wtop.com/news/2014/10/oilman-nelson-bunker-hunt-dies-at-88",
+          "publisher": "WTOP (AP)",
+          "title": "Oilman Nelson Bunker Hunt dies at 88",
+          "date": "2014-10"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "william-herbert-hunt",
+      "toName": "William Herbert Hunt",
+      "toType": "person",
+      "relation": "family of",
+      "claim": "The brothers were co-defendants found liable in Minpeco v. Hunt (1988) and settled jointly with the CFTC in 1989.",
+      "status": "court",
+      "date": "1988",
+      "sources": [
+        {
+          "url": "https://www.deseret.com/1988/8/21/18775716/3-hunt-guilty-in-plot-to-corner-silver-market",
+          "publisher": "Deseret News",
+          "title": "3 Hunts guilty in plot to corner silver market",
+          "date": "1988-08-21"
+        },
+        {
+          "url": "https://www.nbcnews.com/business/business-news/famed-texas-oil-tycoon-nelson-bunker-hunt-dies-88-n231371",
+          "publisher": "NBC News (AP)",
+          "title": "Famed Texas Oil Tycoon Nelson Bunker Hunt Dies at 88",
+          "date": "2014-10-21"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: 'Texas billionaire who led the silver accumulation' is supported in substance. The 1988 verdict is supported. The page's figures (195 million ounces; COMEX rule changes of 7 and 21 January 1980; Bache's $122 million debit; the $1.1 billion Placid Oil loan) were not addressed by sources found.",
+    "The page links the Hunts to Paul Volcker's Federal Reserve over a $1.1 billion Placid Oil loan; no source returned addresses this, so no connection was recorded."
+  ]
+}

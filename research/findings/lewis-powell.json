@@ -1,0 +1,66 @@
+{
+  "entity": "lewis-powell",
+  "name": "Lewis Powell",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Lewis F. Powell, Jr., a Richmond corporate lawyer later appointed to the U.S. Supreme Court, wrote the memorandum 'Attack on American Free Enterprise System' on August 23, 1971, addressed to Eugene B. Sydnor, Jr., chair of the Education Committee of the U.S. Chamber of Commerce, less than two months before his Supreme Court nomination. The memo set out how business should defend against what it called a broad attack on the economic system, and became public after columnist Jack Anderson reported on it in 1972. The typescript is held in the Powell Archives at Washington and Lee University School of Law.",
+    "sources": [
+      { "url": "https://scholarlycommons.law.wlu.edu/powellmemo", "publisher": "Washington and Lee University School of Law, Scholarly Commons", "title": "The Powell Memorandum: Attack on American Free Enterprise System", "date": "1971-08-23" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Powell mailed the memorandum on August 23, 1971, less than two months before he was nominated to the Supreme Court, to his friend Eugene B. Sydnor, Jr., chair of the Education Committee of the U.S. Chamber of Commerce.",
+      "status": "documented",
+      "date": "1971-08-23",
+      "quote": "less than two months before he was nominated to the Supreme Court, to his friend Eugene B. Sydnor, Jr., Chair of the Education Committee of the U.S. Chamber of Commerce",
+      "sources": [
+        { "url": "https://scholarlycommons.law.wlu.edu/powellmemo", "publisher": "Washington and Lee University School of Law, Scholarly Commons", "title": "The Powell Memorandum: Attack on American Free Enterprise System", "date": "1971-08-23" }
+      ]
+    },
+    {
+      "claim": "The Washington and Lee archive describes the memo as outlining ways in which business should defend and counter-attack against what it called a broad attack on the economic system.",
+      "status": "documented",
+      "date": "1971-08-23",
+      "quote": "outlined ways in which business should defend and counter attack against what it called a broad attack on the economic system",
+      "sources": [
+        { "url": "https://scholarlycommons.law.wlu.edu/powellmemo", "publisher": "Washington and Lee University School of Law, Scholarly Commons", "title": "The Powell Memorandum: Attack on American Free Enterprise System", "date": "1971-08-23" }
+      ]
+    },
+    {
+      "claim": "The memo was prepared as a basis for a discussion at the Chamber on August 24, 1971, and stated its purpose as identifying the problem and suggesting possible avenues of action for further consideration.",
+      "status": "words",
+      "date": "1971-08-23",
+      "quote": "identify the problem, and suggest possible avenues of action for further consideration",
+      "sources": [
+        { "url": "https://ia800607.us.archive.org/2/items/PowellMemorandum-AttackOnAmericanFreeEnterpriseSystem/PowellMemorandumTypescript.pdf", "publisher": "Internet Archive (Powell memorandum typescript)", "title": "Powell Memorandum typescript: Attack on American Free Enterprise System", "date": "1971-08-23" }
+      ]
+    },
+    {
+      "claim": "The memo was initially seen by only a few people within the Chamber; it became public after Washington Post columnist Jack Anderson reported on its contents about a year later, after which the Chamber published it in full in its newsletter Washington Report.",
+      "status": "documented",
+      "date": "1972",
+      "quote": "the Chamber then published it in full in Washington Report, the Chamber's newsletter",
+      "sources": [
+        { "url": "https://scalar.usc.edu/works/growing-apart-a-political-history-of-american-inequality/the-powell-memorandum", "publisher": "University of Southern California (Scalar), Growing Apart", "title": "The Powell Memorandum", "date": "2014" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "us-chamber-of-commerce",
+      "toName": "US Chamber of Commerce",
+      "toType": "organization",
+      "relation": "advised",
+      "claim": "Powell's 1971 memorandum was written for the U.S. Chamber of Commerce, addressed to the chair of its Education Committee, and later published by the Chamber.",
+      "status": "documented",
+      "date": "1971-08-23",
+      "sources": [
+        { "url": "https://scholarlycommons.law.wlu.edu/powellmemo", "publisher": "Washington and Lee University School of Law, Scholarly Commons", "title": "The Powell Memorandum: Attack on American Free Enterprise System", "date": "1971-08-23" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site says the memo urged the Chamber to fund a campaign to shape universities, the media, the courts and politics, and that think tanks and legal groups followed. The archive description supports the first part in general terms; the causal claim about later organisations is historians' interpretation and is not recorded as a fact here."
+  ]
+}

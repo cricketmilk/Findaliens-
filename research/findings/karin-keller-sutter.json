@@ -1,0 +1,157 @@
+{
+  "entity": "karin-keller-sutter",
+  "name": "Karin Keller-Sutter",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Karin Keller-Sutter was Switzerland's Federal Councillor for Finance in March 2023, when the Federal Council used emergency ordinances of 16 and 19 March 2023 to support UBS's takeover of Credit Suisse, including a federal default guarantee for Swiss National Bank liquidity assistance and a provision authorising FINMA to write down Credit Suisse's AT1 capital.",
+    "sources": [
+      {
+        "url": "https://www.caproasia.com/?p=33825",
+        "publisher": "Caproasia",
+        "title": "Report on the Credit Suisse-UBS merger announcement"
+      },
+      {
+        "url": "https://www.dlapiper.com/en-gb/insights/publications/2025/11/swiss-court-strikes-down-at1-bond-write-off",
+        "publisher": "DLA Piper",
+        "title": "Swiss court strikes down AT1 bond write-off",
+        "date": "2025-11-24"
+      },
+      {
+        "url": "https://www.finma.ch/en/news/2025/10/20251015-meldung-bvger-at1/",
+        "publisher": "FINMA (Swiss Financial Market Supervisory Authority)",
+        "title": "FINMA to appeal Federal Administrative Court judgment on AT1 write-down",
+        "date": "2025-10-15"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On 19 March 2023 the Swiss Federal Council amended its emergency ordinance of 16 March 2023 to add Article 5a, authorising FINMA to order the write-down of Credit Suisse's AT1 capital; FINMA directed the write-down the same day.",
+      "status": "documented",
+      "date": "2023-03-19",
+      "quote": "the Federal Council amended the emergency ordinance of 16 March 2023 to include a provision (Art. 5a) authorising FINMA to order the write-down of AT1 capital",
+      "sources": [
+        {
+          "url": "https://www.dlapiper.com/en-gb/insights/publications/2025/11/swiss-court-strikes-down-at1-bond-write-off",
+          "publisher": "DLA Piper",
+          "title": "Swiss court strikes down AT1 bond write-off",
+          "date": "2025-11-24"
+        },
+        {
+          "url": "https://www.finma.ch/en/news/2025/10/20251015-meldung-bvger-at1/",
+          "publisher": "FINMA (Swiss Financial Market Supervisory Authority)",
+          "title": "FINMA to appeal Federal Administrative Court judgment on AT1 write-down",
+          "date": "2025-10-15"
+        }
+      ]
+    },
+    {
+      "claim": "Roughly CHF 16 billion (one source: about CHF 16.5 billion) of Credit Suisse AT1 bonds were written down to zero as part of the package stabilising Credit Suisse through a merger with UBS, which FINMA said required extraordinary state support.",
+      "status": "documented",
+      "date": "2023-03-19",
+      "sources": [
+        {
+          "url": "https://www.finma.ch/en/news/2025/10/20251015-meldung-bvger-at1/",
+          "publisher": "FINMA (Swiss Financial Market Supervisory Authority)",
+          "title": "FINMA to appeal Federal Administrative Court judgment on AT1 write-down",
+          "date": "2025-10-15"
+        },
+        {
+          "url": "https://www.dlapiper.com/en-gb/insights/publications/2025/11/swiss-court-strikes-down-at1-bond-write-off",
+          "publisher": "DLA Piper",
+          "title": "Swiss court strikes down AT1 bond write-off",
+          "date": "2025-11-24"
+        }
+      ]
+    },
+    {
+      "claim": "On 14 October 2025 the Swiss Federal Administrative Court, in a partial decision, overturned FINMA's AT1 write-down ruling, finding no contractual trigger event and holding Article 5a of the emergency ordinance unconstitutional; FINMA announced it would appeal to the Federal Supreme Court.",
+      "status": "court",
+      "date": "2025-10-14",
+      "quote": "FINMA said it will contest the judgment of 1 October 2025 and appeal to the Federal Supreme Court",
+      "sources": [
+        {
+          "url": "https://www.finma.ch/en/news/2025/10/20251015-meldung-bvger-at1/",
+          "publisher": "FINMA (Swiss Financial Market Supervisory Authority)",
+          "title": "FINMA to appeal Federal Administrative Court judgment on AT1 write-down",
+          "date": "2025-10-15"
+        },
+        {
+          "url": "https://www.dlapiper.com/en-gb/insights/publications/2025/11/swiss-court-strikes-down-at1-bond-write-off",
+          "publisher": "DLA Piper",
+          "title": "Swiss court strikes down AT1 bond write-off",
+          "date": "2025-11-24"
+        }
+      ]
+    },
+    {
+      "claim": "Keller-Sutter is identified as Swiss finance minister in reporting of the 19 March 2023 announcement alongside Credit Suisse CEO Ulrich Körner and UBS chairman Colm Kelleher.",
+      "status": "reported",
+      "date": "2023-03-19",
+      "sources": [
+        {
+          "url": "https://www.caproasia.com/?p=33825",
+          "publisher": "Caproasia",
+          "title": "Report on the Credit Suisse-UBS merger announcement"
+        }
+      ]
+    },
+    {
+      "claim": "The Federal Council backed the takeover with a federal default guarantee for Swiss National Bank liquidity assistance.",
+      "status": "documented",
+      "date": "2023-03-19",
+      "sources": [
+        {
+          "url": "https://www.dlapiper.com/en-gb/insights/publications/2025/11/swiss-court-strikes-down-at1-bond-write-off",
+          "publisher": "DLA Piper",
+          "title": "Swiss court strikes down AT1 bond write-off",
+          "date": "2025-11-24"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "credit-suisse",
+      "toName": "Credit Suisse",
+      "toType": "company",
+      "relation": "regulated",
+      "claim": "As finance minister Keller-Sutter was part of the Federal Council that issued the March 2023 emergency ordinances governing Credit Suisse's rescue.",
+      "status": "documented",
+      "date": "2023-03-19",
+      "sources": [
+        {
+          "url": "https://www.dlapiper.com/en-gb/insights/publications/2025/11/swiss-court-strikes-down-at1-bond-write-off",
+          "publisher": "DLA Piper",
+          "title": "Swiss court strikes down AT1 bond write-off",
+          "date": "2025-11-24"
+        },
+        {
+          "url": "https://www.caproasia.com/?p=33825",
+          "publisher": "Caproasia",
+          "title": "Report on the Credit Suisse-UBS merger announcement"
+        }
+      ]
+    },
+    {
+      "to": "colm-kelleher",
+      "toName": "Colm Kelleher",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Keller-Sutter and UBS chairman Kelleher appeared together at the 19 March 2023 announcement of the takeover.",
+      "status": "reported",
+      "date": "2023-03-19",
+      "sources": [
+        {
+          "url": "https://www.caproasia.com/?p=33825",
+          "publisher": "Caproasia",
+          "title": "Report on the Credit Suisse-UBS merger announcement"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: the use of emergency law to bypass shareholder votes and the FINMA AT1 write-down are supported in substance (Articles 184/185 of the Constitution not confirmed by sources found). 'Orchestrated the shotgun marriage' is a characterisation; the sources found identify her role but do not describe her personal part in negotiations.",
+    "The page's bonus and loss figures (Tages-Anzeiger calculation) were not tested."
+  ]
+}

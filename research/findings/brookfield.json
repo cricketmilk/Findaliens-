@@ -1,0 +1,104 @@
+{
+  "entity": "brookfield",
+  "name": "Brookfield",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Brookfield Asset Management is a Toronto-based alternative asset manager. In August 2018 Brookfield took a 99-year lease on 666 Fifth Avenue in Manhattan from Kushner Companies, paying the rent for the full term upfront (reported at $1.1–1.3 billion), which allowed Kushner Companies to pay down the debt from its 2007 purchase of the building for $1.8 billion. The funds came through Brookfield Property Partners, in which the Qatar Investment Authority was a major investor; Brookfield has said Qatari representatives had no involvement in the transaction. Senator Ron Wyden and Rep. Joaquin Castro opened inquiries into whether the deal influenced U.S. policy toward Qatar.",
+    "sources": [
+      { "url": "https://www.finance.senate.gov/chairmans-news/wyden-continues-investigation-into-kushner-conflicts-of-interest-influence-on-us-foreign-policy", "publisher": "U.S. Senate Committee on Finance", "title": "Wyden Continues Investigation into Kushner Conflicts of Interest, Influence on US Foreign Policy", "date": "2022-10-13" },
+      { "url": "https://www.bisnow.com/news/national/capital-markets/house-democrats-investigating-666-fifth-ave-deal-kushner-cos-brookfield-97890", "publisher": "Bisnow", "title": "House Democrats Might Investigate Kushner, Brookfield's 666 Fifth Ave. Deal", "date": "2019-02" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In August 2018 Brookfield took a 99-year lease on 666 Fifth Avenue and paid the rent for the entire term upfront; financial terms were not disclosed, with reports putting the payment at $1.1 billion to $1.3 billion and a Senate Finance Committee release at $1.2 billion.",
+      "status": "documented",
+      "date": "2018-08",
+      "quote": "when it took a 99-year lease on the property, paying the rent for 99 years upfront",
+      "sources": [
+        { "url": "https://www.pressreader.com/israel/jerusalem-post/20190212/281891594533098", "publisher": "The Jerusalem Post (via PressReader)", "title": "Qatar revamps investment strategy after unwitting Kushner bailout", "date": "2019-02-12" },
+        { "url": "https://www.finance.senate.gov/chairmans-news/wyden-continues-investigation-into-kushner-conflicts-of-interest-influence-on-us-foreign-policy", "publisher": "U.S. Senate Committee on Finance", "title": "Wyden Continues Investigation into Kushner Conflicts of Interest, Influence on US Foreign Policy", "date": "2022-10-13" }
+      ]
+    },
+    {
+      "claim": "Kushner Companies had bought 666 Fifth Avenue in 2007 for $1.8 billion while Jared Kushner was its chief executive; the building became a financial strain and the Brookfield lease payment helped pay down its debt. Kushner Companies retained ownership of the land.",
+      "status": "reported",
+      "date": "2007",
+      "sources": [
+        { "url": "https://www.bisnow.com/news/new-york/construction-development/666-fifth-ave-brookfield-kushner-101308", "publisher": "Bisnow", "title": "666 Fifth Ave: Brookfield and Kushner", "date": "2019" },
+        { "url": "https://www.wral.com/archive/17746276/", "publisher": "WRAL (AP)", "title": "Brookfield takes 99-year lease on Kushner building at 666 Fifth Avenue", "date": "2018-08" }
+      ]
+    },
+    {
+      "claim": "According to the Senate Finance Committee, the Qatar Investment Authority had invested $1.8 billion in the Brookfield Property Partners fund that financed the lease and was that fund's second-largest investor.",
+      "status": "documented",
+      "date": "2022-10-13",
+      "quote": "the QIA had invested $1.8 billion in the BPY fund and was the fund's second largest investor",
+      "sources": [
+        { "url": "https://www.finance.senate.gov/chairmans-news/wyden-continues-investigation-into-kushner-conflicts-of-interest-influence-on-us-foreign-policy", "publisher": "U.S. Senate Committee on Finance", "title": "Wyden Continues Investigation into Kushner Conflicts of Interest, Influence on US Foreign Policy", "date": "2022-10-13" }
+      ]
+    },
+    {
+      "claim": "Brookfield has said Qatari representatives had no involvement in the 666 Fifth Avenue transaction.",
+      "status": "words",
+      "date": "2019-02",
+      "quote": "Brookfield has said Qatari representatives had no involvement in the transaction.",
+      "sources": [
+        { "url": "https://www.bisnow.com/news/national/capital-markets/house-democrats-investigating-666-fifth-ave-deal-kushner-cos-brookfield-97890", "publisher": "Bisnow", "title": "House Democrats Might Investigate Kushner, Brookfield's 666 Fifth Ave. Deal", "date": "2019-02" }
+      ]
+    },
+    {
+      "claim": "In an October 2022 letter, Senate Finance Committee chairman Ron Wyden said Brookfield had twice declined to provide the committee information about the deal's financing and its investors.",
+      "status": "documented",
+      "date": "2022-10-13",
+      "quote": "has twice declined to provide the Committee this information",
+      "sources": [
+        { "url": "https://www.finance.senate.gov/chairmans-news/wyden-continues-investigation-into-kushner-conflicts-of-interest-influence-on-us-foreign-policy", "publisher": "U.S. Senate Committee on Finance", "title": "Wyden Continues Investigation into Kushner Conflicts of Interest, Influence on US Foreign Policy", "date": "2022-10-13" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "kushner-companies",
+      "toName": "Kushner Companies",
+      "toType": "company",
+      "relation": "contracted with",
+      "claim": "Brookfield took a 99-year lease on Kushner Companies' 666 Fifth Avenue in August 2018, paying the rent upfront.",
+      "status": "documented",
+      "date": "2018-08",
+      "sources": [
+        { "url": "https://www.finance.senate.gov/chairmans-news/wyden-continues-investigation-into-kushner-conflicts-of-interest-influence-on-us-foreign-policy", "publisher": "U.S. Senate Committee on Finance", "title": "Wyden Continues Investigation into Kushner Conflicts of Interest, Influence on US Foreign Policy", "date": "2022-10-13" }
+      ]
+    },
+    {
+      "to": "qatar-investment-authority",
+      "toName": "Qatar Investment Authority",
+      "toType": "fund",
+      "relation": "invested in",
+      "reverse": true,
+      "claim": "The Qatar Investment Authority invested $1.8 billion in the Brookfield Property Partners fund that financed the 666 Fifth Avenue lease, according to the Senate Finance Committee.",
+      "status": "documented",
+      "date": "2018",
+      "sources": [
+        { "url": "https://www.finance.senate.gov/chairmans-news/wyden-continues-investigation-into-kushner-conflicts-of-interest-influence-on-us-foreign-policy", "publisher": "U.S. Senate Committee on Finance", "title": "Wyden Continues Investigation into Kushner Conflicts of Interest, Influence on US Foreign Policy", "date": "2022-10-13" }
+      ]
+    },
+    {
+      "to": "senate-finance-committee",
+      "toName": "Senate Finance Committee",
+      "toType": "government",
+      "relation": "investigated",
+      "reverse": true,
+      "claim": "Senate Finance Committee chairman Ron Wyden sought information from Brookfield about the 666 Fifth Avenue deal's financing as part of an inquiry into Kushner conflicts of interest.",
+      "status": "documented",
+      "date": "2022-10-13",
+      "sources": [
+        { "url": "https://www.finance.senate.gov/chairmans-news/wyden-continues-investigation-into-kushner-conflicts-of-interest-influence-on-us-foreign-policy", "publisher": "U.S. Senate Committee on Finance", "title": "Wyden Continues Investigation into Kushner Conflicts of Interest, Influence on US Foreign Policy", "date": "2022-10-13" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site's headline ('a $1.8 billion tower rescued by a 99-year lease from a fund whose second-largest investor was Qatar') is supported by the Senate Finance Committee release and press reports. Reported figures for the upfront payment vary ($1.1bn–$1.3bn).",
+    "Whether the deal influenced U.S. policy toward Qatar was the subject of congressional inquiry; no finding was located."
+  ]
+}

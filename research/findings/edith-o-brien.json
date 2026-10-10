@@ -1,0 +1,161 @@
+{
+  "entity": "edith-o-brien",
+  "name": "Edith O'Brien",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Edith O'Brien was Assistant Treasurer of MF Global. On 28 October 2011, the last business day before the firm's bankruptcy, about $200 million was moved from a customer segregated account to a house account and $175 million on to a London affiliate's account at JPMorgan; a congressional memo quoted her email saying the transfer was made 'per JC's direct instructions'. The CFTC charged her in June 2013 with aiding and abetting MF Global's misuse of customer funds; in January 2017 a court entered a consent order requiring a $500,000 penalty and an 18-month bar, with no admission or denial.",
+    "sources": [
+      {
+        "url": "https://www.cftc.gov/PressRoom/PressReleases/6626-13",
+        "publisher": "U.S. Commodity Futures Trading Commission",
+        "title": "Release 6626-13: CFTC Charges MF Global Inc., MF Global Holdings Ltd., Former CEO Jon S. Corzine, and Former Employee Edith O'Brien",
+        "date": "2013-06-27"
+      },
+      {
+        "url": "https://www.feedstuffs.com/agribusiness-news/corzine-ordered-to-pay-5m-in-mf-global-aftermath",
+        "publisher": "Feedstuffs",
+        "title": "Corzine ordered to pay $5m in MF Global aftermath",
+        "date": "2017-01"
+      },
+      {
+        "url": "https://treasuryandrisk.com/2012/03/23/corzine-ordered-funds-move",
+        "publisher": "Treasury & Risk",
+        "title": "Corzine Ordered Funds Move",
+        "date": "2012-03-23"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On 27 June 2013 the CFTC filed an enforcement action in the Southern District of New York against MF Global Inc., MF Global Holdings, former CEO Jon Corzine and former Assistant Treasurer Edith O'Brien; an amended complaint was filed on 6 December 2013.",
+      "status": "documented",
+      "date": "2013-06-27",
+      "sources": [
+        {
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/6626-13",
+          "publisher": "U.S. Commodity Futures Trading Commission",
+          "title": "Release 6626-13: CFTC Charges MF Global Inc., MF Global Holdings Ltd., Former CEO Jon S. Corzine, and Former Employee Edith O'Brien",
+          "date": "2013-06-27"
+        },
+        {
+          "url": "https://cftc.gov/idc/groups/public/%40lrenforcementactions/documents/legalpleading/enfmfglobalorder062713.pdf",
+          "publisher": "U.S. Commodity Futures Trading Commission",
+          "title": "Consent order, MF Global Inc. (June 27, 2013)",
+          "date": "2013-06-27"
+        }
+      ]
+    },
+    {
+      "claim": "A congressional memo prepared for a House Financial Services subcommittee described a $200 million transfer on 28 October 2011 from a segregated customer account to a house account, followed by $175 million to a London subsidiary's account at JPMorgan, and quoted O'Brien's email stating the transfer was 'Per JC's direct instructions'.",
+      "status": "documented",
+      "date": "2011-10-28",
+      "quote": "Per JC's [Jon Corzine's] direct instructions",
+      "sources": [
+        {
+          "url": "https://treasuryandrisk.com/2012/03/23/corzine-ordered-funds-move",
+          "publisher": "Treasury & Risk",
+          "title": "Corzine Ordered Funds Move",
+          "date": "2012-03-23"
+        }
+      ]
+    },
+    {
+      "claim": "Corzine's spokesman denied that he directed customer funds to be used to cover the overdraft.",
+      "status": "reported",
+      "date": "2012-03",
+      "quote": "he never directed customer funds to make up for a $200 million overdraft",
+      "sources": [
+        {
+          "url": "https://treasuryandrisk.com/2012/03/23/corzine-ordered-funds-move",
+          "publisher": "Treasury & Risk",
+          "title": "Corzine Ordered Funds Move",
+          "date": "2012-03-23"
+        }
+      ]
+    },
+    {
+      "claim": "JPMorgan sought written assurance that the transfer was permissible; reporting indicates the assurance was to come from O'Brien or her office and that the letter was never sent.",
+      "status": "reported",
+      "date": "2011-10-28",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2011/12/21/email-clues-in-tracking-mf-global-client-funds.html",
+          "publisher": "CNBC",
+          "title": "Email Clues in Tracking MF Global Client Funds",
+          "date": "2011-12-21"
+        },
+        {
+          "url": "https://treasuryandrisk.com/2012/03/23/corzine-ordered-funds-move",
+          "publisher": "Treasury & Risk",
+          "title": "Corzine Ordered Funds Move",
+          "date": "2012-03-23"
+        }
+      ]
+    },
+    {
+      "claim": "On 5 January 2017 Judge Victor Marrero entered consent orders requiring O'Brien to pay a $500,000 civil penalty for aiding and abetting MF Global's violations and barring her from associating with a futures commission merchant or registering with the CFTC for 18 months; she neither admitted nor denied the allegations. Corzine was ordered to pay $5 million and never again act as a principal, officer or employee of an FCM.",
+      "status": "court",
+      "date": "2017-01-05",
+      "quote": "a $500,000 civil monetary penalty for aiding and abetting MF Global's violations",
+      "sources": [
+        {
+          "url": "https://www.feedstuffs.com/agribusiness-news/corzine-ordered-to-pay-5m-in-mf-global-aftermath",
+          "publisher": "Feedstuffs",
+          "title": "Corzine ordered to pay $5m in MF Global aftermath",
+          "date": "2017-01"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "jon-s-corzine",
+      "toName": "Jon S. Corzine",
+      "toType": "person",
+      "relation": "employed by",
+      "claim": "O'Brien served under CEO Corzine at MF Global and was co-defendant in the CFTC's 2013 action; her email attributed the 28 October 2011 transfer to his instructions, which he denied.",
+      "status": "documented",
+      "date": "2013-06-27",
+      "sources": [
+        {
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/6626-13",
+          "publisher": "U.S. Commodity Futures Trading Commission",
+          "title": "Release 6626-13: CFTC Charges MF Global Inc., MF Global Holdings Ltd., Former CEO Jon S. Corzine, and Former Employee Edith O'Brien",
+          "date": "2013-06-27"
+        },
+        {
+          "url": "https://treasuryandrisk.com/2012/03/23/corzine-ordered-funds-move",
+          "publisher": "Treasury & Risk",
+          "title": "Corzine Ordered Funds Move",
+          "date": "2012-03-23"
+        }
+      ]
+    },
+    {
+      "to": "jpmorgan-chase",
+      "toName": "JPMorgan Chase",
+      "toType": "company",
+      "relation": "other",
+      "claim": "The 28 October 2011 transfer went to a London affiliate's account at JPMorgan, which sought assurance of its propriety from O'Brien's office.",
+      "status": "reported",
+      "date": "2011-10-28",
+      "sources": [
+        {
+          "url": "https://treasuryandrisk.com/2012/03/23/corzine-ordered-funds-move",
+          "publisher": "Treasury & Risk",
+          "title": "Corzine Ordered Funds Move",
+          "date": "2012-03-23"
+        },
+        {
+          "url": "https://www.cnbc.com/2011/12/21/email-clues-in-tracking-mf-global-client-funds.html",
+          "publisher": "CNBC",
+          "title": "Email Clues in Tracking MF Global Client Funds",
+          "date": "2011-12-21"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: 'Assistant Treasurer who executed the emergency transfers of funds from customer accounts' is supported by the CFTC action and the congressional memo; the $200 million/$175 million figures match. The page's $5 million Corzine penalty is supported; the JPMorgan trustee settlement was not tested."
+  ]
+}

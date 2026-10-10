@@ -1,0 +1,82 @@
+{
+  "entity": "csrb",
+  "name": "CSRB",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "The Cyber Safety Review Board (CSRB) was a Department of Homeland Security review body, chaired by DHS Under Secretary Robert Silvers, that examined major cyber incidents. Its report on the 2023 Microsoft Exchange Online intrusion by the China-linked actor Storm-0558, dated March 20, 2024 and released April 2, 2024, found the intrusion was preventable and resulted from a 'cascade of security failures' at Microsoft, and judged the company's security culture 'inadequate'.",
+    "sources": [
+      { "url": "https://www.techtarget.com/cybersecurity/news/366577765/Cyber-Safety-Review-Board-slams-Microsoft-security-failures", "publisher": "TechTarget", "title": "Cyber Safety Review Board slams Microsoft security failures", "date": "2024-04" },
+      { "url": "https://www.infosecurity-magazine.com/news/microsoft-security-failures/", "publisher": "Infosecurity Magazine", "title": "Cyber Safety Review Board Report Slams Microsoft Security Failures in Government Email Breach", "date": "2024-04" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The CSRB's Storm-0558 report, dated March 20, 2024 and released publicly on April 2, 2024, concluded that the Microsoft Online Exchange intrusion was preventable and should never have occurred.",
+      "status": "court",
+      "date": "2024-04-02",
+      "quote": "was preventable and should never have occurred",
+      "sources": [
+        { "url": "https://www.techtarget.com/cybersecurity/news/366577765/Cyber-Safety-Review-Board-slams-Microsoft-security-failures", "publisher": "TechTarget", "title": "Cyber Safety Review Board slams Microsoft security failures", "date": "2024-04" },
+        { "url": "https://industrialcyber.co/reports/csrb-reports-microsoft-exchange-breach-by-storm-0558-urges-security-reforms-following-espionage-incident/", "publisher": "Industrial Cyber", "title": "CSRB reports Microsoft Exchange breach by Storm-0558, urges security reforms following espionage incident", "date": "2024-04" }
+      ]
+    },
+    {
+      "claim": "The Board wrote that the intrusion succeeded because of a cascade of security failures at Microsoft.",
+      "status": "court",
+      "date": "2024-04-02",
+      "quote": "a cascade of security failures at Microsoft, as outlined in this report",
+      "sources": [
+        { "url": "https://news.risky.biz/csrb-lashes-microsofts-cascade-of-security-failures/", "publisher": "Risky Business News", "title": "CSRB Lashes Microsoft's 'Cascade of Security Failures'", "date": "2024-04" },
+        { "url": "https://www.infosecurity-magazine.com/news/microsoft-security-failures/", "publisher": "Infosecurity Magazine", "title": "Cyber Safety Review Board Report Slams Microsoft Security Failures in Government Email Breach", "date": "2024-04" }
+      ]
+    },
+    {
+      "claim": "The Board found that Microsoft's security culture was inadequate and required an overhaul, attributing a set of decisions to a corporate culture that deprioritised enterprise security investments and rigorous risk management.",
+      "status": "court",
+      "date": "2024-04-02",
+      "quote": "inadequate and requires an overhaul",
+      "sources": [
+        { "url": "https://www.infosecurity-magazine.com/news/microsoft-security-failures/", "publisher": "Infosecurity Magazine", "title": "Cyber Safety Review Board Report Slams Microsoft Security Failures in Government Email Breach", "date": "2024-04" },
+        { "url": "https://www.computing.co.uk/news/4192192/microsofts-lax-security-blasted-investigators-breach", "publisher": "Computing", "title": "Microsoft's lax security blasted by investigators after serious breach", "date": "2024-04" }
+      ]
+    },
+    {
+      "claim": "The Board said Microsoft did not detect the compromise itself but relied on a customer to report the anomalies, and criticised Microsoft for inaccurate public statements about the incident.",
+      "status": "court",
+      "date": "2024-04-02",
+      "quote": "It relied on a customer to reach out and identify the anomalies.",
+      "sources": [
+        { "url": "https://www.techtarget.com/cybersecurity/news/366577765/Cyber-Safety-Review-Board-slams-Microsoft-security-failures", "publisher": "TechTarget", "title": "Cyber Safety Review Board slams Microsoft security failures", "date": "2024-04" },
+        { "url": "https://cyberinsider.com/?p=11093", "publisher": "CyberInsider", "title": "CSRB report on Microsoft Storm-0558 breach", "date": "2024-04" }
+      ]
+    },
+    {
+      "claim": "The review drew on data from and interviews with 20 organisations and experts, and the Board issued recommendations to Microsoft and to all cloud service providers.",
+      "status": "documented",
+      "date": "2024-04-02",
+      "quote": "The review drew on data from and interviews with 20 organizations and experts.",
+      "sources": [
+        { "url": "https://industrialcyber.co/reports/csrb-reports-microsoft-exchange-breach-by-storm-0558-urges-security-reforms-following-espionage-incident/", "publisher": "Industrial Cyber", "title": "CSRB reports Microsoft Exchange breach by Storm-0558, urges security reforms following espionage incident", "date": "2024-04" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "microsoft",
+      "toName": "Microsoft",
+      "toType": "company",
+      "relation": "investigated",
+      "claim": "The CSRB reviewed the Storm-0558 intrusion into Microsoft Exchange Online and found it resulted from a cascade of security failures at Microsoft.",
+      "status": "court",
+      "date": "2024-04-02",
+      "sources": [
+        { "url": "https://www.techtarget.com/cybersecurity/news/366577765/Cyber-Safety-Review-Board-slams-Microsoft-security-failures", "publisher": "TechTarget", "title": "Cyber Safety Review Board slams Microsoft security failures", "date": "2024-04" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site's phrases 'a cascade of security failures' and 'inadequate' security culture are supported by press accounts of the report. The report itself on cisa.gov/dhs.gov was not reachable; the owner should cite it directly.",
+    "The site labels the body 'CISA Cyber Safety Review Board'. Press coverage describes the CSRB as a DHS body distinct from CISA (CISA provided its secretariat). The two site ids csrb and cisa-cyber-safety-review-board refer to the same organisation and could be merged.",
+    "Sources differ on whether 22 or 25 organisations' email accounts were affected by Storm-0558."
+  ]
+}

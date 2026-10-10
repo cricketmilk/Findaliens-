@@ -1,0 +1,66 @@
+{
+  "entity": "ontario-teachers-pension-plan",
+  "name": "Ontario Teachers' Pension Plan",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "The Ontario Teachers' Pension Plan is a Canadian public pension fund that reported net assets of C$266.3 billion at the end of 2024, up from C$247.5 billion in 2023, with a 9.4% total-fund net return that trailed its 12.9% benchmark. Private equity was about C$60.4 billion, or 23% of the portfolio. In November 2022 the plan wrote down to zero its US$95 million investment in FTX and FTX.US.",
+    "sources": [
+      { "url": "https://otpp.com/en-ca/about-us/news-and-insights/2025/ontario-teachers-announces-positive-2024-results/", "publisher": "Ontario Teachers' Pension Plan", "title": "Ontario Teachers' announces positive 2024 results", "date": "2025-03" },
+      { "url": "https://thelogic.co/briefing/ontario-teachers-writes-down-value-of-ftx-investment-to-0/", "publisher": "The Logic", "title": "Ontario Teachers' writes down value of FTX investment to $0", "date": "2022-11" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Ontario Teachers' reported net assets of C$266.3 billion at December 31, 2024, up from C$247.5 billion a year earlier.",
+      "status": "documented",
+      "date": "2024-12-31",
+      "quote": "Its net assets grew to $266.3 billion, up from $247.5 billion in 2023.",
+      "sources": [
+        { "url": "https://otpp.com/en-ca/about-us/news-and-insights/2025/ontario-teachers-announces-positive-2024-results/", "publisher": "Ontario Teachers' Pension Plan", "title": "Ontario Teachers' announces positive 2024 results", "date": "2025-03" }
+      ]
+    },
+    {
+      "claim": "The plan's 2024 total-fund net return was 9.4%, below its 12.9% benchmark, implying negative value added of about C$7.6 billion.",
+      "status": "documented",
+      "date": "2024",
+      "sources": [
+        { "url": "https://www.benefitsandpensionsmonitor.com/news/industry-news/ontario-teachers-posts-2663bn-in-assets-despite-missing-benchmark-by-35/391746", "publisher": "Benefits and Pensions Monitor", "title": "Ontario Teachers' posts $266.3bn in assets despite missing benchmark by 3.5%", "date": "2025-03" }
+      ]
+    },
+    {
+      "claim": "Private equity accounted for about C$60.4 billion, or 23% of the portfolio, at year-end 2024 and returned 11.7% against a 23.7% benchmark; real estate returned -0.7% against a 5% benchmark.",
+      "status": "documented",
+      "date": "2024",
+      "sources": [
+        { "url": "https://www.benefitsandpensionsmonitor.com/news/industry-news/ontario-teachers-posts-2663bn-in-assets-despite-missing-benchmark-by-35/391746", "publisher": "Benefits and Pensions Monitor", "title": "Ontario Teachers' posts $266.3bn in assets despite missing benchmark by 3.5%", "date": "2025-03" }
+      ]
+    },
+    {
+      "claim": "In November 2022 the plan wrote down its US$95 million investment in FTX International and FTX.US to zero, saying it represented less than 0.05% of its net assets.",
+      "status": "documented",
+      "date": "2022-11",
+      "quote": "the plan's US$95 million investment in both the troubled Bahamas-based crypto-trading platform and its U.S. arm represents less than 0.05 per cent of its total net assets",
+      "sources": [
+        { "url": "https://thelogic.co/briefing/ontario-teachers-writes-down-value-of-ftx-investment-to-0/", "publisher": "The Logic", "title": "Ontario Teachers' writes down value of FTX investment to $0", "date": "2022-11" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "ftx",
+      "toName": "FTX",
+      "toType": "company",
+      "relation": "invested in",
+      "claim": "Ontario Teachers' invested US$95 million in FTX International and FTX.US in 2021–2022 and wrote the investment down to zero in November 2022.",
+      "status": "documented",
+      "date": "2022-11",
+      "sources": [
+        { "url": "https://thelogic.co/briefing/ontario-teachers-writes-down-value-of-ftx-investment-to-0/", "publisher": "The Logic", "title": "Ontario Teachers' writes down value of FTX investment to $0", "date": "2022-11" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The split of the FTX investment (US$75 million in FTX International and US$20 million in FTX.US) appears in secondary summaries; the plan's own November 2022 statement should be cited for the breakdown.",
+    "The plan's 2024 annual report PDF was not opened; figures are from its results release and trade-press coverage of it."
+  ]
+}

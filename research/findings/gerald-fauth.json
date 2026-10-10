@@ -1,0 +1,90 @@
+{
+  "entity": "gerald-fauth",
+  "name": "Gerald Fauth",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Gerald Fauth is a member of the National Mediation Board, appointed by President Trump in 2017, and the brother-in-law of Senator Richard Burr. SEC court filings made public in October 2021 showed that Burr called Fauth on February 13, 2020, shortly after Burr sold more than $1.6 million in stock, and that Fauth began selling shares within minutes; the SEC said it was investigating both men's trades and sought to enforce a subpoena against Fauth.",
+    "sources": [
+      { "url": "https://www.propublica.org/article/burrs-brother-in-law-called-stock-broker-one-minute-after-getting-off-phone-with-senator", "publisher": "ProPublica", "title": "Burr's Brother-In-Law Called Stock Broker, One Minute After Getting Off Phone With Senator", "date": "2021-10-28" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "According to SEC filings, Senator Richard Burr called Fauth on February 13, 2020, shortly after selling more than $1.6 million in stock; the call lasted about 50 seconds, and Fauth then began the process of selling his own shares.",
+      "status": "documented",
+      "date": "2020-02-13",
+      "quote": "It was previously unknown that Burr and Fauth spoke that day, and that their contact came just before Fauth began the process of dumping stock himself.",
+      "sources": [
+        { "url": "https://www.propublica.org/article/burrs-brother-in-law-called-stock-broker-one-minute-after-getting-off-phone-with-senator", "publisher": "ProPublica", "title": "Burr's Brother-In-Law Called Stock Broker, One Minute After Getting Off Phone With Senator", "date": "2021-10-28" }
+      ]
+    },
+    {
+      "claim": "Fauth sold between $97,000 and $280,000 worth of shares in six companies, several of which fell sharply in the subsequent market downturn.",
+      "status": "documented",
+      "date": "2020-02",
+      "quote": "Fauth sold between $97,000 and $280,000 worth of shares in six companies, several of which were hit hard in the downturn.",
+      "sources": [
+        { "url": "https://www.propublica.org/article/burrs-brother-in-law-called-stock-broker-one-minute-after-getting-off-phone-with-senator", "publisher": "ProPublica", "title": "Burr's Brother-In-Law Called Stock Broker, One Minute After Getting Off Phone With Senator", "date": "2021-10-28" }
+      ]
+    },
+    {
+      "claim": "Fauth is a member of the National Mediation Board, to which President Donald Trump appointed him in 2017.",
+      "status": "documented",
+      "date": "2017",
+      "quote": "He is a member of the National Mediation Board, to which President Donald Trump appointed him in 2017.",
+      "sources": [
+        { "url": "https://www.propublica.org/article/burrs-brother-in-law-called-stock-broker-one-minute-after-getting-off-phone-with-senator", "publisher": "ProPublica", "title": "Burr's Brother-In-Law Called Stock Broker, One Minute After Getting Off Phone With Senator", "date": "2021-10-28" }
+      ]
+    },
+    {
+      "claim": "In 2021 the SEC asked a court to force Fauth to comply with a subpoena he had not complied with for more than a year; Fauth cited a medical condition. The SEC said it had an ongoing insider-trading investigation into both Burr's and Fauth's trades.",
+      "status": "documented",
+      "date": "2021-10",
+      "quote": "The SEC also revealed that there is an ongoing insider trading investigation into both Burr and Fauth's trades.",
+      "sources": [
+        { "url": "https://www.propublica.org/article/burrs-brother-in-law-called-stock-broker-one-minute-after-getting-off-phone-with-senator", "publisher": "ProPublica", "title": "Burr's Brother-In-Law Called Stock Broker, One Minute After Getting Off Phone With Senator", "date": "2021-10-28" },
+        { "url": "https://www.wunc.org/news/2021-10-28/burrs-brother-in-law-called-stock-broker-one-minute-after-getting-off-phone-with-the-nc-senator", "publisher": "WUNC", "title": "Burr's brother-in-law called stock broker one minute after getting off phone with the NC senator", "date": "2021-10-28" }
+      ]
+    },
+    {
+      "claim": "Federal prosecutors had earlier decided not to bring criminal charges against Senator Burr over his February 2020 stock sales.",
+      "status": "reported",
+      "date": "2021-01",
+      "quote": "It had previously been reported that federal prosecutors had decided not to charge Burr.",
+      "sources": [
+        { "url": "https://www.propublica.org/article/burrs-brother-in-law-called-stock-broker-one-minute-after-getting-off-phone-with-senator", "publisher": "ProPublica", "title": "Burr's Brother-In-Law Called Stock Broker, One Minute After Getting Off Phone With Senator", "date": "2021-10-28" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "richard-burr",
+      "toName": "Richard Burr",
+      "toType": "person",
+      "relation": "family of",
+      "claim": "Fauth is Senator Richard Burr's brother-in-law; SEC filings show Burr called him on February 13, 2020 shortly before Fauth sold stock.",
+      "status": "documented",
+      "date": "2020-02-13",
+      "sources": [
+        { "url": "https://www.propublica.org/article/burrs-brother-in-law-called-stock-broker-one-minute-after-getting-off-phone-with-senator", "publisher": "ProPublica", "title": "Burr's Brother-In-Law Called Stock Broker, One Minute After Getting Off Phone With Senator", "date": "2021-10-28" }
+      ]
+    },
+    {
+      "to": "sec",
+      "toName": "SEC",
+      "toType": "government",
+      "relation": "investigated",
+      "reverse": true,
+      "claim": "The SEC disclosed in 2021 an ongoing insider-trading investigation into Fauth's and Burr's February 2020 trades and sought court enforcement of a subpoena to Fauth.",
+      "status": "documented",
+      "date": "2021-10",
+      "sources": [
+        { "url": "https://www.propublica.org/article/burrs-brother-in-law-called-stock-broker-one-minute-after-getting-off-phone-with-senator", "publisher": "ProPublica", "title": "Burr's Brother-In-Law Called Stock Broker, One Minute After Getting Off Phone With Senator", "date": "2021-10-28" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Whether the SEC investigation of Fauth ended in a settlement, enforcement action or closure was not established from the sources found; the owner should check the SEC's litigation releases.",
+    "The site lists Fauth among 'insiders' of the January 2020 Senate stock sales. Records show his sales were in February 2020 after a call from Burr; no finding of wrongdoing against Fauth was located."
+  ]
+}

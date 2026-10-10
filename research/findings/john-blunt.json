@@ -1,0 +1,105 @@
+{
+  "entity": "john-blunt",
+  "name": "Sir John Blunt",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Sir John Blunt was a director of the South Sea Company and is described by historians as the principal architect of the 1720 scheme and its collapse. After the crash Parliament ordered inventories of the directors' estates; a printed inventory of Blunt's estate and a petition by him to the House of Lords for an allowance both date from 1721.",
+    "sources": [
+      {
+        "url": "https://www.grubstreetproject.net/people/13088/",
+        "publisher": "Grub Street Project",
+        "title": "Sir John Blunt (1665-1733)"
+      },
+      {
+        "url": "https://ebooks.mpdl.mpg.de/ebooks/Record/EB000518880",
+        "publisher": "Max Planck Digital Library (ebooks catalogue)",
+        "title": "The particular and inventory of Sir John Blunt, Bart., one of the late directors of the South-Sea Company",
+        "date": "1721"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Blunt is described as the principal architect of the South Sea scheme, first in founding the company and then in overseeing its expansion before the crash.",
+      "status": "reported",
+      "date": "1720",
+      "quote": "the principal architect of the financial disaster, first in founding the South Sea Company and then in overseeing its expansion before the crash",
+      "sources": [
+        {
+          "url": "https://www.grubstreetproject.net/people/13088/",
+          "publisher": "Grub Street Project",
+          "title": "Sir John Blunt (1665-1733)"
+        }
+      ]
+    },
+    {
+      "claim": "A printed 'particular and inventory' of Blunt's estate, as one of the late directors of the South Sea Company, was published in London in 1721.",
+      "status": "documented",
+      "date": "1721",
+      "quote": "The particular and inventory of Sir John Blunt, Bart. One of the Late Directors of the South-Sea Company. Together with the Abstract of the same.",
+      "sources": [
+        {
+          "url": "https://ebooks.mpdl.mpg.de/ebooks/Record/EB000518880",
+          "publisher": "Max Planck Digital Library (ebooks catalogue)",
+          "title": "The particular and inventory of Sir John Blunt, Bart., one of the late directors of the South-Sea Company",
+          "date": "1721"
+        }
+      ]
+    },
+    {
+      "claim": "In 1721 Blunt petitioned the House of Lords for an allowance after the collapse of the South Sea Company; the catalogue record does not state the amount.",
+      "status": "documented",
+      "date": "1721",
+      "sources": [
+        {
+          "url": "https://wellcomecollection.org/works/at36jvg3",
+          "publisher": "Wellcome Collection",
+          "title": "Petition of Sir John Blunt to the House of Lords for an allowance after the collapse of the South Sea Company",
+          "date": "1721"
+        }
+      ]
+    },
+    {
+      "claim": "A contemporary pamphlet, 'The case of Sir John Blunt', refers to a bill before the House of Commons affecting his estate and states he had acquired a plentiful estate before Christmas 1719.",
+      "status": "documented",
+      "date": "1721",
+      "sources": [
+        {
+          "url": "https://ebooks.mpdl.mpg.de/ebooks/Record/EB000501094",
+          "publisher": "Max Planck Digital Library (ebooks catalogue)",
+          "title": "The case of Sir John Blunt, Bart.",
+          "date": "1721"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "south-sea-company",
+      "toName": "South Sea Company",
+      "toType": "company",
+      "relation": "board member of",
+      "claim": "Blunt was one of the directors of the South Sea Company at the time of the 1720 bubble.",
+      "status": "documented",
+      "date": "1720",
+      "quote": "One of the Late Directors of the South-Sea Company",
+      "sources": [
+        {
+          "url": "https://ebooks.mpdl.mpg.de/ebooks/Record/EB000518880",
+          "publisher": "Max Planck Digital Library (ebooks catalogue)",
+          "title": "The particular and inventory of Sir John Blunt, Bart., one of the late directors of the South-Sea Company",
+          "date": "1721"
+        },
+        {
+          "url": "https://www.grubstreetproject.net/people/13088/",
+          "publisher": "Grub Street Project",
+          "title": "Sir John Blunt (1665-1733)"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: the figure of £574,500 in fictitious stock distributed to ministers and MPs was not found in any source returned; the Committee of Secrecy's 1721 reports should be consulted directly.",
+    "The amount of the allowance Parliament left Blunt out of his confiscated estate was not confirmed; the History of Parliament biography would settle it."
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "entity": "chancellor-john-aislabie",
+  "name": "John Aislabie",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "John Aislabie was Chancellor of the Exchequer during the South Sea Bubble of 1720. The House of Commons Committee of Secrecy investigated him in 1721, and a Commons committee member reported an attempt by Aislabie's son-in-law Thomas Vernon MP to bribe him on Aislabie's behalf, for which Vernon was expelled from the House.",
+    "sources": [
+      {
+        "url": "https://resolve.cambridge.org/core/journals/camden-third-series/article/parliamentary-diary-of-sir-edward-knatchbull-17221730/7AC70F6E2ED0E491F68C489426253752",
+        "publisher": "Cambridge University Press (Camden Third Series)",
+        "title": "The Parliamentary Diary of Sir Edward Knatchbull 1722-1730"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Ross, a member of the Commons Secret Committee investigating the South Sea Bubble, reported that Thomas Vernon MP had attempted to bribe him to favour Vernon's father-in-law John Aislabie; Vernon was consequently expelled from the Commons.",
+      "status": "documented",
+      "date": "1721",
+      "quote": "Ross, who served on the Secret Committee investigating the South Sea Bubble, had reported an attempt by Thomas Vernon, M.P., to bribe him to favour Vernon's father-in-law, John Aislabie.",
+      "sources": [
+        {
+          "url": "https://resolve.cambridge.org/core/journals/camden-third-series/article/parliamentary-diary-of-sir-edward-knatchbull-17221730/7AC70F6E2ED0E491F68C489426253752",
+          "publisher": "Cambridge University Press (Camden Third Series)",
+          "title": "The Parliamentary Diary of Sir Edward Knatchbull 1722-1730"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "south-sea-company",
+      "toName": "South Sea Company",
+      "toType": "company",
+      "relation": "other",
+      "claim": "As Chancellor of the Exchequer Aislabie was investigated by the Commons Secret Committee over the South Sea Company's 1720 scheme.",
+      "status": "documented",
+      "date": "1721",
+      "sources": [
+        {
+          "url": "https://resolve.cambridge.org/core/journals/camden-third-series/article/parliamentary-diary-of-sir-edward-knatchbull-17221730/7AC70F6E2ED0E491F68C489426253752",
+          "publisher": "Cambridge University Press (Camden Third Series)",
+          "title": "The Parliamentary Diary of Sir Edward Knatchbull 1722-1730"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: Aislabie's expulsion from the Commons, his committal to the Tower and the committee's finding of corruption are widely stated but were found only in tertiary summaries; the Commons Journals or History of Parliament entry should be cited before publication.",
+    "The 1721 report on the estates of the directors, Aislabie and Craggs senior (presented 6 February 1721) was listed in catalogues but not opened.",
+    "This file is thin (one sourced fact); treat as a stub."
+  ]
+}

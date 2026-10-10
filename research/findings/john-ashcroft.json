@@ -1,0 +1,80 @@
+{
+  "entity": "john-ashcroft",
+  "name": "John Ashcroft",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "John Ashcroft was U.S. Attorney General from 2001 to 2005. On November 2, 2001 he announced at a Justice Department news conference that the United States had reached a settlement with Microsoft in the government's antitrust case; the Department stipulated to entry of a proposed consent decree that day, after a federal appeals court had earlier in 2001 set aside the district court's break-up order.",
+    "sources": [
+      { "url": "https://www.justice.gov/archive/ag/speeches/2001/1102newsconference.htm", "publisher": "U.S. Department of Justice", "title": "Attorney General news conference on the Microsoft settlement, November 2, 2001", "date": "2001-11-02" },
+      { "url": "https://www.justice.gov/atr/department-justice-7", "publisher": "U.S. Department of Justice, Antitrust Division", "title": "Statement of the Department of Justice to the Senate Judiciary Committee on the Microsoft settlement", "date": "2001-12" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On November 2, 2001 Attorney General Ashcroft announced the Microsoft antitrust settlement, presenting it as ending Microsoft's unlawful conduct and giving consumers more choices; the settlement was filed with the district court that day in line with the court's directive.",
+      "status": "documented",
+      "date": "2001-11-02",
+      "sources": [
+        { "url": "https://www.justice.gov/archive/ag/speeches/2001/1102newsconference.htm", "publisher": "U.S. Department of Justice", "title": "Attorney General news conference on the Microsoft settlement, November 2, 2001", "date": "2001-11-02" },
+        { "url": "https://transcripts.cnn.com/show/se/date/2001-11-02/segment/02", "publisher": "CNN", "title": "Transcript: Attorney General Ashcroft announces Microsoft settlement", "date": "2001-11-02" }
+      ]
+    },
+    {
+      "claim": "Ashcroft said the settlement would allow computer makers to contract freely with competing software developers, ship competing middleware such as browsers and media players on Windows, and deal with Microsoft's rivals without fear of retaliation.",
+      "status": "words",
+      "date": "2001-11-02",
+      "sources": [
+        { "url": "https://transcripts.cnn.com/show/se/date/2001-11-02/segment/02", "publisher": "CNN", "title": "Transcript: Attorney General Ashcroft announces Microsoft settlement", "date": "2001-11-02" }
+      ]
+    },
+    {
+      "claim": "The Justice Department told the Senate Judiciary Committee that on November 2, 2001 it stipulated to entry of a proposed consent decree resolving the Microsoft case; a revised proposed final judgment was filed November 6 and the competitive impact statement on November 15, 2001.",
+      "status": "documented",
+      "date": "2001-11",
+      "quote": "stipulated to entry of a proposed consent decree that would resolve the case on November 2, 2001",
+      "sources": [
+        { "url": "https://www.justice.gov/atr/department-justice-7", "publisher": "U.S. Department of Justice, Antitrust Division", "title": "Statement of the Department of Justice to the Senate Judiciary Committee on the Microsoft settlement", "date": "2001-12" },
+        { "url": "https://www.nbcnews.com/news/amp/wbna3072746", "publisher": "NBC News", "title": "Memorandum Opinion, United States v. Microsoft", "date": "2002-11" }
+      ]
+    },
+    {
+      "claim": "Microsoft described the consent decree as a five-year agreement and noted that the 18 states in the suit had not yet decided whether to join; nine states and the District of Columbia later sought tougher remedies, and the court approved the decree while rejecting most of their demands.",
+      "status": "documented",
+      "date": "2001-11-02",
+      "sources": [
+        { "url": "https://news.microsoft.com/2001/11/02/microsoft-signs-consent-decree-with-u-s-government-to-settle-antitrust-case/", "publisher": "Microsoft", "title": "Microsoft Signs Consent Decree with U.S. Government to Settle Antitrust Case", "date": "2001-11-02" },
+        { "url": "https://www.dawn.com/news/64701", "publisher": "Dawn", "title": "Court approves Microsoft-govt deal", "date": "2002-11" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "microsoft",
+      "toName": "Microsoft",
+      "toType": "company",
+      "relation": "settled with",
+      "claim": "As Attorney General, Ashcroft announced the Justice Department's November 2001 consent-decree settlement of the Microsoft antitrust case.",
+      "status": "documented",
+      "date": "2001-11-02",
+      "sources": [
+        { "url": "https://www.justice.gov/archive/ag/speeches/2001/1102newsconference.htm", "publisher": "U.S. Department of Justice", "title": "Attorney General news conference on the Microsoft settlement, November 2, 2001", "date": "2001-11-02" }
+      ]
+    },
+    {
+      "to": "us-department-of-justice",
+      "toName": "US Department of Justice",
+      "toType": "government",
+      "relation": "executive of",
+      "claim": "Ashcroft headed the Department of Justice as Attorney General when the Microsoft settlement was filed in November 2001.",
+      "status": "documented",
+      "date": "2001-11-02",
+      "sources": [
+        { "url": "https://www.justice.gov/archive/ag/speeches/2001/1102newsconference.htm", "publisher": "U.S. Department of Justice", "title": "Attorney General news conference on the Microsoft settlement, November 2, 2001", "date": "2001-11-02" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site's claim that 'after an appeals court threw out the breakup order in 2001, the Bush Justice Department settled the antitrust case without a breakup' is supported by the DOJ record of the November 2001 consent decree.",
+    "The consent decree text itself (U.S. v. Microsoft, D.D.C. No. 98-1232) was not retrieved and should be cited for terms."
+  ]
+}

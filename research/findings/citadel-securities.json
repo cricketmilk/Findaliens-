@@ -1,0 +1,173 @@
+{
+  "entity": "citadel-securities",
+  "name": "Citadel Securities",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Citadel Securities LLC is a Miami-based broker-dealer and market maker founded by Ken Griffin that executes a large share of U.S. retail order flow, including orders routed by Robinhood under payment-for-order-flow arrangements. In September 2023 it settled SEC charges that, because of a coding error, it incorrectly marked millions of sale orders as long or short over about five years and supplied the inaccurate data to regulators; it paid a $7 million penalty without admitting or denying the findings.",
+    "sources": [
+      {
+        "url": "https://www.sec.gov/news/press-release/2023-192",
+        "publisher": "SEC",
+        "title": "SEC Charges Citadel Securities for Violating Order Marking Requirements of Short Sale Regulations",
+        "date": "2023-09-22"
+      },
+      {
+        "url": "https://www.nbclosangeles.com/news/business/money-report/sec-slaps-investment-firm-citadel-with-7-million-fine-to-settle-short-selling-charges/3230024/?amp=1",
+        "publisher": "NBC Los Angeles (CNBC)",
+        "title": "SEC slaps investment firm Citadel with $7 million fine to settle short-selling charges",
+        "date": "2023-09-22"
+      },
+      {
+        "url": "https://www.clickondetroit.com/tech/2021/02/18/live-stream-robinhood-reddit-ceos-testify-in-house-hearing-on-gamestop-stock-saga/",
+        "publisher": "ClickOnDetroit (AP)",
+        "title": "Robinhood, Reddit CEOs testify in House hearing on GameStop stock saga",
+        "date": "2021-02-18"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On September 22, 2023 the SEC announced settled charges against Citadel Securities for violating the order-marking provision of Regulation SHO, which requires broker-dealers to mark sale orders as long, short or short exempt; the firm agreed to a $7 million penalty, a censure and undertakings including certification that the coding error had been remediated.",
+      "status": "court",
+      "date": "2023-09-22",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/news/press-release/2023-192",
+          "publisher": "SEC",
+          "title": "SEC Charges Citadel Securities for Violating Order Marking Requirements of Short Sale Regulations",
+          "date": "2023-09-22"
+        }
+      ]
+    },
+    {
+      "claim": "According to the SEC's order, over about five years Citadel Securities incorrectly marked millions of orders, denoting some short sales as long sales and vice versa, because of a coding error in its automated trading system, and provided the incorrect data to regulators during that period.",
+      "status": "court",
+      "date": "2023-09-22",
+      "quote": "over a five-year period, it is estimated that Citadel Securities incorrectly marked millions of orders, inaccurately denoting certain short sales as long sales and vice versa",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/news/press-release/2023-192",
+          "publisher": "SEC",
+          "title": "SEC Charges Citadel Securities for Violating Order Marking Requirements of Short Sale Regulations",
+          "date": "2023-09-22"
+        },
+        {
+          "url": "https://www.nbclosangeles.com/news/business/money-report/sec-slaps-investment-firm-citadel-with-7-million-fine-to-settle-short-selling-charges/3230024/?amp=1",
+          "publisher": "NBC Los Angeles (CNBC)",
+          "title": "SEC slaps investment firm Citadel with $7 million fine to settle short-selling charges",
+          "date": "2023-09-22"
+        }
+      ]
+    },
+    {
+      "claim": "Citadel Securities said a coding change made while updating systems for certain client requests affected a de minimis percentage of its order markings and that it had detected and fixed the issue more than three years earlier.",
+      "status": "words",
+      "date": "2023-09-22",
+      "sources": [
+        {
+          "url": "https://www.nbclosangeles.com/news/business/money-report/sec-slaps-investment-firm-citadel-with-7-million-fine-to-settle-short-selling-charges/3230024/?amp=1",
+          "publisher": "NBC Los Angeles (CNBC)",
+          "title": "SEC slaps investment firm Citadel with $7 million fine to settle short-selling charges",
+          "date": "2023-09-22"
+        }
+      ]
+    },
+    {
+      "claim": "At the House Financial Services Committee's February 18, 2021 GameStop hearing, chair Maxine Waters questioned Robinhood's chief executive about the broker's close relationship with Citadel Securities, which she maintained posed a conflict of interest.",
+      "status": "documented",
+      "date": "2021-02-18",
+      "sources": [
+        {
+          "url": "https://www.clickondetroit.com/tech/2021/02/18/live-stream-robinhood-reddit-ceos-testify-in-house-hearing-on-gamestop-stock-saga/",
+          "publisher": "ClickOnDetroit (AP)",
+          "title": "Robinhood, Reddit CEOs testify in House hearing on GameStop stock saga",
+          "date": "2021-02-18"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2021-02-13/citadel-s-griffin-robinhood-ceo-to-testify-on-gamestop-feb-18",
+          "publisher": "Bloomberg",
+          "title": "Citadel's Griffin, Robinhood CEO to Testify at GameStop Hearings",
+          "date": "2021-02-13"
+        }
+      ]
+    },
+    {
+      "claim": "Reporting on Robinhood's 2021 IPO described payment for order flow, in which a broker routes customer trades to a market maker such as Citadel Securities in return for payments, as making up about 75% of Robinhood's revenue in 2020 and 81% in the first quarter of 2021; those figures cover all market makers, not Citadel alone.",
+      "status": "reported",
+      "date": "2021",
+      "sources": [
+        {
+          "url": "https://gfmag.com/features/robinhood-ipo-finra-sec",
+          "publisher": "Global Finance",
+          "title": "Testing Robinhood's Mettle",
+          "date": "2021"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "ken-griffin",
+      "toName": "Ken Griffin",
+      "toType": "person",
+      "relation": "founded",
+      "reverse": true,
+      "claim": "Ken Griffin founded Citadel Securities and the affiliated hedge fund Citadel.",
+      "status": "reported",
+      "date": "2023",
+      "sources": [
+        {
+          "url": "https://www.nbclosangeles.com/news/business/money-report/sec-slaps-investment-firm-citadel-with-7-million-fine-to-settle-short-selling-charges/3230024/?amp=1",
+          "publisher": "NBC Los Angeles (CNBC)",
+          "title": "SEC slaps investment firm Citadel with $7 million fine to settle short-selling charges",
+          "date": "2023-09-22"
+        }
+      ]
+    },
+    {
+      "to": "robinhood",
+      "toName": "Robinhood",
+      "toType": "company",
+      "relation": "partnered with",
+      "claim": "Robinhood routes customer orders to market makers including Citadel Securities in exchange for payment for order flow, a relationship questioned at the February 2021 House hearing.",
+      "status": "documented",
+      "date": "2021-02-18",
+      "sources": [
+        {
+          "url": "https://www.clickondetroit.com/tech/2021/02/18/live-stream-robinhood-reddit-ceos-testify-in-house-hearing-on-gamestop-stock-saga/",
+          "publisher": "ClickOnDetroit (AP)",
+          "title": "Robinhood, Reddit CEOs testify in House hearing on GameStop stock saga",
+          "date": "2021-02-18"
+        },
+        {
+          "url": "https://gfmag.com/features/robinhood-ipo-finra-sec",
+          "publisher": "Global Finance",
+          "title": "Testing Robinhood's Mettle",
+          "date": "2021"
+        }
+      ]
+    },
+    {
+      "to": "sec",
+      "toName": "SEC",
+      "toType": "agency",
+      "relation": "settled with",
+      "claim": "Citadel Securities settled SEC Regulation SHO order-marking charges for $7 million in September 2023.",
+      "status": "court",
+      "date": "2023-09-22",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/news/press-release/2023-192",
+          "publisher": "SEC",
+          "title": "SEC Charges Citadel Securities for Violating Order Marking Requirements of Short Sale Regulations",
+          "date": "2023-09-22"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim of 'kickbacks (PFOF)' diverting retail flow: payment for order flow to Citadel Securities is documented; 'kickbacks' is the site's characterisation.",
+    "Site claims about 'order-book voids', microwave towers and a 2025 federal lawsuit were not covered by any source returned.",
+    "Jane Street and Virtu Financial were not researched."
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "entity": "billy-graham-evangelistic-association",
+  "name": "Billy Graham Evangelistic Association",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The Billy Graham Evangelistic Association was formed in 1950 after Atlanta newspapers printed photographs of money bags from a crusade 'love offering'; Graham assembled a board of businessmen, put himself and his staff on salary and routed crusade collections to local committees. The Philanthropy Roundtable lists the BGEA among the evangelical bodies J. Howard Pew supported.",
+    "sources": [
+      {
+        "url": "https://religionnews.com/2018/02/23/billy-graham-made-sure-integrity-never-question/",
+        "publisher": "Religion News Service",
+        "title": "Billy Graham made sure integrity was never in question",
+        "date": "2018-02-23"
+      },
+      {
+        "url": "https://www.georgiaencyclopedia.org/articles/arts-culture/billy-graham-crusades",
+        "publisher": "New Georgia Encyclopedia",
+        "title": "Billy Graham Crusades"
+      },
+      {
+        "url": "https://www.philanthropyroundtable.org/almanac/pew-builds-the-evangelical-parachurch/",
+        "publisher": "Philanthropy Roundtable",
+        "title": "Pew Builds the Evangelical Parachurch"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The New Georgia Encyclopedia dates the BGEA's founding to 1950; RNS says Graham formed a board of businessmen and took a fixed salary after the Atlanta love-offering photographs.",
+      "status": "reported",
+      "date": "1950",
+      "quote": "assembled a board of businessmen to oversee his ministry and put himself and his staff on salary",
+      "sources": [
+        {
+          "url": "https://religionnews.com/2018/02/23/billy-graham-made-sure-integrity-never-question/",
+          "publisher": "Religion News Service",
+          "title": "Billy Graham made sure integrity was never in question",
+          "date": "2018-02-23"
+        },
+        {
+          "url": "https://www.georgiaencyclopedia.org/articles/arts-culture/billy-graham-crusades",
+          "publisher": "New Georgia Encyclopedia",
+          "title": "Billy Graham Crusades"
+        }
+      ]
+    },
+    {
+      "claim": "The Philanthropy Roundtable says J. Howard Pew supported the Billy Graham Evangelistic Association.",
+      "status": "reported",
+      "date": "1950s–60s",
+      "quote": "Pew supported the Billy Graham Evangelistic Association",
+      "sources": [
+        {
+          "url": "https://www.philanthropyroundtable.org/almanac/pew-builds-the-evangelical-parachurch/",
+          "publisher": "Philanthropy Roundtable",
+          "title": "Pew Builds the Evangelical Parachurch"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "j-howard-pew",
+      "toName": "J. Howard Pew",
+      "toType": "person",
+      "relation": "funded",
+      "claim": "Pew supported the BGEA, per the Philanthropy Roundtable.",
+      "status": "reported",
+      "date": "1950s–60s",
+      "quote": "Pew supported the Billy Graham Evangelistic Association",
+      "sources": [
+        {
+          "url": "https://www.philanthropyroundtable.org/almanac/pew-builds-the-evangelical-parachurch/",
+          "publisher": "Philanthropy Roundtable",
+          "title": "Pew Builds the Evangelical Parachurch"
+        }
+      ],
+      "reverse": true
+    }
+  ],
+  "openQuestions": [
+    "Amounts of Pew's BGEA support were not found. A 2018 blog reports the BGEA later changed its IRS status to a church and stopped filing public 990s; this needs confirmation from ProPublica's Nonprofit Explorer."
+  ]
+}

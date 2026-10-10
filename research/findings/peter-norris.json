@@ -1,0 +1,137 @@
+{
+  "entity": "peter-norris",
+  "name": "Peter Norris",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Peter Norris was chief executive of Barings' investment banking arm when Nick Leeson's unauthorised trading in Singapore brought down Barings in February 1995. A Singapore inspectors' report said Norris tried to conceal Leeson's unauthorised dealing and played down its significance; the UK Securities and Futures Authority imposed a three-year ban; and on 3 March 1998 the Chancery Division disqualified him as a company director for four years in Re Barings plc.",
+    "sources": [
+      {
+        "url": "https://vlex.co.uk/vid/re-barings-plc-803304621",
+        "publisher": "vLex (law report)",
+        "title": "Re Barings plc (Chancery Division, disqualification of Peter Norris)",
+        "date": "1998-03-03"
+      },
+      {
+        "url": "https://www.scmp.com/article/163525/bax-escapes-barings-prosecution",
+        "publisher": "South China Morning Post",
+        "title": "Bax escapes Barings prosecution"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In Re Barings plc the Vice-Chancellor found that Norris had not given highly significant events arising from Leeson's Singapore trading the attention that his senior position and the events merited, and on 3 March 1998 disqualified him as a company director for four years.",
+      "status": "court",
+      "date": "1998-03-03",
+      "quote": "had not given highly significant events arising out of Nick Leeson's trading activities in Singapore the attention that the responsibilities of his senior position within Barings and the events themselves had merited",
+      "sources": [
+        {
+          "url": "https://vlex.co.uk/vid/re-barings-plc-803304621",
+          "publisher": "vLex (law report)",
+          "title": "Re Barings plc (Chancery Division, disqualification of Peter Norris)",
+          "date": "1998-03-03"
+        }
+      ]
+    },
+    {
+      "claim": "Norris later sought and obtained leave to act as a non-executive director of certain companies.",
+      "status": "court",
+      "date": "1998",
+      "sources": [
+        {
+          "url": "https://vlex.co.uk/vid/re-barings-plc-803304621",
+          "publisher": "vLex (law report)",
+          "title": "Re Barings plc (Chancery Division, disqualification of Peter Norris)",
+          "date": "1998-03-03"
+        }
+      ]
+    },
+    {
+      "claim": "A Singapore government inquiry conducted by Price Waterhouse said Norris tried to conceal unauthorised dealing by Leeson and played down its significance.",
+      "status": "reported",
+      "date": "1995",
+      "quote": "tried to conceal unauthorised dealing by Leeson and had played down its significance",
+      "sources": [
+        {
+          "url": "https://www.scmp.com/article/163525/bax-escapes-barings-prosecution",
+          "publisher": "South China Morning Post",
+          "title": "Bax escapes Barings prosecution"
+        }
+      ]
+    },
+    {
+      "claim": "The Securities and Futures Authority reported that Norris accepted responsibility and agreed penalties including a three-year ban from its register of directors.",
+      "status": "reported",
+      "date": "1996",
+      "sources": [
+        {
+          "url": "https://www.scmp.com/article/163525/bax-escapes-barings-prosecution",
+          "publisher": "South China Morning Post",
+          "title": "Bax escapes Barings prosecution"
+        }
+      ]
+    },
+    {
+      "claim": "The Bank of England's Board of Banking Supervision began its investigation on the day Barings was declared insolvent; its report emphasised Leeson but recognised that leadership failures enabled his activities.",
+      "status": "reported",
+      "date": "1995",
+      "sources": [
+        {
+          "url": "https://humanfactors101.com/incidents/barings-bank/",
+          "publisher": "Human Factors 101",
+          "title": "Barings Bank"
+        },
+        {
+          "url": "https://taipeitimes.com/News/biz/archives/2005/02/21/2003224023",
+          "publisher": "Taipei Times",
+          "title": "Barings collapse ten years on",
+          "date": "2005-02-21"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "nick-leeson",
+      "toName": "Nick Leeson",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Norris was the senior Barings executive whose failure to attend to Leeson's trading was the basis of his 1998 disqualification.",
+      "status": "court",
+      "date": "1998-03-03",
+      "sources": [
+        {
+          "url": "https://vlex.co.uk/vid/re-barings-plc-803304621",
+          "publisher": "vLex (law report)",
+          "title": "Re Barings plc (Chancery Division, disqualification of Peter Norris)",
+          "date": "1998-03-03"
+        }
+      ]
+    },
+    {
+      "to": "baring-brothers",
+      "toName": "Baring Brothers",
+      "toType": "company",
+      "relation": "executive of",
+      "claim": "Norris was chief executive of Barings' investment bank at its collapse in 1995.",
+      "status": "reported",
+      "date": "1995",
+      "sources": [
+        {
+          "url": "https://www.scmp.com/article/163525/bax-escapes-barings-prosecution",
+          "publisher": "South China Morning Post",
+          "title": "Bax escapes Barings prosecution"
+        },
+        {
+          "url": "https://vlex.co.uk/vid/re-barings-plc-803304621",
+          "publisher": "vLex (law report)",
+          "title": "Re Barings plc (Chancery Division, disqualification of Peter Norris)",
+          "date": "1998-03-03"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: 'CEO of Barings Investment Bank who failed to enforce internal controls' is supported by the Chancery Division's findings and the SFA penalty. Sources differ on his exact title (Barings Investment Banking Group vs Barings Investment Bank)."
+  ]
+}

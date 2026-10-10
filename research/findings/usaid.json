@@ -1,0 +1,102 @@
+{
+  "entity": "usaid",
+  "name": "USAID",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The U.S. Agency for International Development was the lead U.S. foreign development assistance agency. According to the Congressional Research Service, Executive Order 14169 of January 20, 2025 ordered a review of foreign assistance with a 90-day pause; in March 2025 Secretary of State Rubio announced that 83% of USAID programs would be terminated, and he later announced that as of July 1, 2025 USAID would cease to implement foreign assistance, with the State Department assuming its remaining functions. On this site USAID appears as the funder of the Harvard Institute for International Development's Russia advisory project (suspended and terminated in 1997) and as the buyer of Starlink terminals from SpaceX for Ukraine in 2022.",
+    "sources": [
+      { "url": "https://www.congress.gov/crs-product/IF10261", "publisher": "Congressional Research Service", "title": "U.S. Agency for International Development: An Overview (IF10261)", "date": "2025-09-05" },
+      { "url": "https://www.congress.gov/crs-product/IN12567", "publisher": "Congressional Research Service", "title": "The Trump Administration's Foreign Assistance Review: Nuts and Bolts Issues and Congress's Role (IN12567)", "date": "2025-06-20" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "USAID awarded the Harvard Institute for International Development cooperative agreements for work in Russia and Ukraine. GAO reported in 1996 that USAID turned to private organizations including HIID because it lacked the organization, contacts and expertise for the task, and that HIID had supplied personnel for key managerial positions at the Russian Privatization Center and the Russian Securities and Exchange Commission, raising conflict-of-interest questions about proposal evaluations.",
+      "status": "documented",
+      "date": "1996-11",
+      "quote": "USAID did not have the established organization, contacts, and expertise to accomplish this unprecedented task. Therefore, it turned to U.S. private organizations, including the Harvard Institute for International Development.",
+      "sources": [
+        { "url": "https://www.gao.gov/products/nsiad-97-27", "publisher": "U.S. General Accounting Office", "title": "Foreign Assistance: Harvard Institute for International Development's Work in Russia and Ukraine (NSIAD-97-27)", "date": "1996-11" },
+        { "url": "https://www.gao.gov/assets/nsiad-97-27.pdf", "publisher": "U.S. General Accounting Office", "title": "Foreign Assistance: Harvard Institute for International Development's Work in Russia and Ukraine (NSIAD-97-27), full report", "date": "1996-11" }
+      ]
+    },
+    {
+      "claim": "USAID's Inspector General opened an investigation into alleged conflicts of interest by Jonathan Hay and Andrei Shleifer in early 1997; USAID suspended the HIID Russia project around May 20, 1997 and permanently terminated it on June 6, 1997, according to the federal district court's later opinion in the government's suit against Harvard.",
+      "status": "court",
+      "date": "1997-06-06",
+      "quote": "USAID suspended the project around May 20, 1997, and the Russian government halted it the same or next day.",
+      "sources": [
+        { "url": "https://www.courtlistener.com/opinion/2492903/united-states-v-president-and-fellows-of-harvard-college/", "publisher": "U.S. District Court for the District of Massachusetts (via CourtListener)", "title": "United States v. President and Fellows of Harvard College", "date": "2004" },
+        { "url": "https://www.thecrimson.com/article/1997/9/10/usaid-terminates-hiid-contract-pthe-us/", "publisher": "The Harvard Crimson", "title": "USAID Terminates HIID Contract", "date": "1997-09-10" }
+      ]
+    },
+    {
+      "claim": "In a letter to HIID, USAID said Shleifer and Hay had 'abused the trust of the United States government by using personal relationships, on occasion, for private gain', according to the Harvard Crimson's account of the letter.",
+      "status": "reported",
+      "date": "1997",
+      "quote": "abused the trust of the United States government by using personal relationships, on occasion, for private gain",
+      "sources": [
+        { "url": "https://www.thecrimson.com/article/2024/3/30/hiid-scrut/", "publisher": "The Harvard Crimson", "title": "Harvard Princes, Russian Reformers: When Harvard Ran Moscow", "date": "2024-03-30" }
+      ]
+    },
+    {
+      "claim": "Under the 2005 settlement of the government's suit, Shleifer was barred from USAID projects for two years and Hay for five years.",
+      "status": "court",
+      "date": "2005-08",
+      "quote": "Shleifer has also been disbarred from USAID work for two years, and Hay for five.",
+      "sources": [
+        { "url": "https://www.harvardmagazine.com/2005/11/russia-case-and-dust-set-html", "publisher": "Harvard Magazine", "title": "Russia Case (and Dust) Settle", "date": "2005-11" },
+        { "url": "https://www.institutionalinvestor.com/article/2btfpiwkwid6fq6qrokcg/home/how-harvard-lost-russia", "publisher": "Institutional Investor", "title": "How Harvard Lost Russia (David McClintick)", "date": "2006-01" }
+      ]
+    },
+    {
+      "claim": "USAID bought 175 Starlink terminals from SpaceX on March 2, 2022 and 1,333 more on March 17, 2022 for delivery to Ukraine, alongside 3,667 terminals SpaceX donated; USAID's Inspector General found in 2025 that the agency did not fully mitigate the risk of misuse of the terminals.",
+      "status": "documented",
+      "date": "2022-03-17",
+      "quote": "USAID bought 175 Starlink terminals from SpaceX on March 2, 2022, and then purchased 1,333 additional terminals on March 17, 2022",
+      "sources": [
+        { "url": "https://oig.usaid.gov/sites/default/files/2025-09/%5BREDACTED%5D%20Final%20Report%20-%20Inspection%20of%20USAID's%20Oversight%20of%20Starlink%20Terminals%20Delivered%20to%20Ukraine.pdf", "publisher": "USAID Office of Inspector General", "title": "Ukraine Response: USAID Did Not Fully Mitigate the Risk of Misuse of the Starlink Terminals Delivered to Ukraine (redacted final report)", "date": "2025" }
+      ]
+    },
+    {
+      "claim": "Executive Order 14169 of January 20, 2025 directed a review of all U.S. foreign development assistance with a 90-day pause in obligations and disbursements. In March 2025 Secretary of State Rubio announced that 83% of USAID programs would be terminated and that State would administer those remaining.",
+      "status": "documented",
+      "date": "2025-03",
+      "quote": "In March, Secretary Rubio announced that 83% of USAID programs would be terminated, and State would administer those remaining.",
+      "sources": [
+        { "url": "https://www.congress.gov/crs-product/IN12567", "publisher": "Congressional Research Service", "title": "The Trump Administration's Foreign Assistance Review: Nuts and Bolts Issues and Congress's Role (IN12567)", "date": "2025-06-20" },
+        { "url": "https://www.congress.gov/crs-product/IF10261", "publisher": "Congressional Research Service", "title": "U.S. Agency for International Development: An Overview (IF10261)", "date": "2025-09-05" }
+      ]
+    },
+    {
+      "claim": "According to CRS, a March 28, 2025 notice told USAID personnel that most employees would be separated by July 1, 2025 and the remainder by September 2, 2025; Secretary Rubio announced that as of July 1, 2025 USAID would officially cease to implement foreign assistance, and the State Department assumed certain former USAID functions. In July 2025 Congress rescinded $7.9 billion of enacted FY2024 and FY2025 foreign-operations funding, most of which would have funded USAID-administered programs.",
+      "status": "documented",
+      "date": "2025-07-01",
+      "quote": "as of July 1st, USAID will officially cease to implement foreign assistance",
+      "sources": [
+        { "url": "https://www.congress.gov/crs-product/IF10261", "publisher": "Congressional Research Service", "title": "U.S. Agency for International Development: An Overview (IF10261)", "date": "2025-09-05" },
+        { "url": "https://www.congress.gov/crs-product/IF10183", "publisher": "Congressional Research Service", "title": "U.S. Foreign Assistance (IF10183)", "date": "2025-08-20" }
+      ]
+    },
+    {
+      "claim": "USAID's Inspector General raised concerns in May 2025 about the loss of specialized expertise and potential data loss or corruption as USAID data systems were transferred to the State Department; CRS also noted that materials on USAID's website and its document repository had been taken down.",
+      "status": "documented",
+      "date": "2025-05",
+      "quote": "USAID's Inspector General raised concerns in May 2025 about the loss of specialized expertise, and potential data loss or corruption as certain USAID data management systems are transferred to State.",
+      "sources": [
+        { "url": "https://www.congress.gov/crs-product/IF10261", "publisher": "Congressional Research Service", "title": "U.S. Agency for International Development: An Overview (IF10261)", "date": "2025-09-05" }
+      ]
+    }
+  ],
+  "connections": [
+    { "to": "harvard-hiid", "toName": "Harvard Institute for International Development", "toType": "organization", "relation": "funded", "claim": "USAID funded HIID's Russia advisory project under cooperative agreements and suspended and then terminated the project in May-June 1997 after its Inspector General investigated alleged conflicts of interest.", "status": "court", "date": "1997-06-06", "quote": "USAID suspended the project around May 20, 1997", "sources": [ { "url": "https://www.courtlistener.com/opinion/2492903/united-states-v-president-and-fellows-of-harvard-college/", "publisher": "U.S. District Court for the District of Massachusetts (via CourtListener)", "title": "United States v. President and Fellows of Harvard College", "date": "2004" }, { "url": "https://www.gao.gov/products/nsiad-97-27", "publisher": "U.S. General Accounting Office", "title": "Foreign Assistance: Harvard Institute for International Development's Work in Russia and Ukraine (NSIAD-97-27)", "date": "1996-11" } ] },
+    { "to": "andrei-shleifer", "toName": "Andrei Shleifer", "toType": "person", "relation": "other", "claim": "USAID's Inspector General investigated Shleifer's alleged conflicts of interest in 1997, and under the 2005 settlement he was barred from USAID work for two years.", "status": "court", "date": "2005-08", "quote": "Shleifer has also been disbarred from USAID work for two years, and Hay for five.", "sources": [ { "url": "https://www.harvardmagazine.com/2005/11/russia-case-and-dust-set-html", "publisher": "Harvard Magazine", "title": "Russia Case (and Dust) Settle", "date": "2005-11" } ] },
+    { "to": "jonathan-hay", "toName": "Jonathan Hay", "toType": "person", "relation": "other", "claim": "USAID's Inspector General investigated Hay's alleged conflicts of interest in 1997, and under the 2005 settlement he was barred from USAID work for five years.", "status": "court", "date": "2005-08", "quote": "Shleifer has also been disbarred from USAID work for two years, and Hay for five.", "sources": [ { "url": "https://www.harvardmagazine.com/2005/11/russia-case-and-dust-set-html", "publisher": "Harvard Magazine", "title": "Russia Case (and Dust) Settle", "date": "2005-11" } ] },
+    { "to": "spacex", "toName": "SpaceX", "toType": "company", "relation": "contracted with", "claim": "USAID bought 1,508 Starlink terminals from SpaceX in March 2022 for delivery to Ukraine, according to USAID's Inspector General.", "status": "documented", "date": "2022-03-17", "quote": "USAID bought 175 Starlink terminals from SpaceX on March 2, 2022, and then purchased 1,333 additional terminals on March 17, 2022", "sources": [ { "url": "https://oig.usaid.gov/sites/default/files/2025-09/%5BREDACTED%5D%20Final%20Report%20-%20Inspection%20of%20USAID's%20Oversight%20of%20Starlink%20Terminals%20Delivered%20to%20Ukraine.pdf", "publisher": "USAID Office of Inspector General", "title": "Ukraine Response: USAID Did Not Fully Mitigate the Risk of Misuse of the Starlink Terminals Delivered to Ukraine (redacted final report)", "date": "2025" } ] },
+    { "to": "us-department-of-justice", "toName": "US Department of Justice", "toType": "government", "relation": "other", "claim": "The Department of Justice sued Harvard, Shleifer and Hay in 2000 on USAID's behalf over the HIID cooperative agreements; the 2004 ruling found Harvard in breach of its USAID contract.", "status": "court", "date": "2004", "quote": "The judge also ruled that Harvard had violated its contract with the U.S. Agency for International Development.", "sources": [ { "url": "https://www.thecrimson.com/article/2005/8/5/harvard-settles-suit-for-265-m/", "publisher": "The Harvard Crimson", "title": "Harvard Settles Suit For $26.5 M", "date": "2005-08-05" } ] }
+  ],
+  "openQuestions": [
+    "USAID's own 1997 letter terminating the HIID agreement was not located; its wording is known only through the Crimson's 2024 account.",
+    "usaid.gov pages were taken down in 2025 per CRS, so the agency's own mission statement could not be cited; the summary relies on CRS."
+  ]
+}

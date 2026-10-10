@@ -1,0 +1,412 @@
+{
+  "entity": "anduril",
+  "name": "Anduril",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Anduril Industries is a privately held defense technology company founded in 2017 by Palmer Luckey and partners including Trae Stephens, a partner at Founders Fund, which has backed the company since its start. Its products include the Lattice software platform and autonomous sensor towers deployed for U.S. Customs and Border Protection. In 2025 it raised $2.5 billion at a $30.5 billion valuation, took over Microsoft's IVAS mixed-reality program for the U.S. Army, and won a $159 million Army prototype award under the Soldier Borne Mission Command program.",
+    "sources": [
+      {
+        "url": "https://finance.yahoo.com/news/anduril-talks-funding-round-possible-225652548.html",
+        "publisher": "Reuters (via Yahoo Finance)",
+        "title": "Founders Fund in talks to back defense firm Anduril at $28 billion valuation, sources say",
+        "date": "2025-02"
+      },
+      {
+        "url": "https://finance.yahoo.com/news/anduril-secures-30-5-billion-170551242.html",
+        "publisher": "Reuters (via Yahoo Finance)",
+        "title": "Anduril secures $30.5 billion valuation in latest fund raise",
+        "date": "2025-06-05"
+      },
+      {
+        "url": "https://defensescoop.com/2025/09/08/army-sbmc-contract-awards-anduril-rivet-soldier-borne-mission-command/",
+        "publisher": "DefenseScoop",
+        "title": "Army awards more than $350M in contracts for Soldier Borne Mission Command system prototypes",
+        "date": "2025-09-08"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Founders Fund has backed Anduril since the company's start in 2017. Anduril co-founder Trae Stephens is a partner at Founders Fund.",
+      "status": "reported",
+      "date": "2017",
+      "quote": "Founders Fund has been a backer of Anduril since its start in 2017, and one of Anduril's co-founders, Trae Stephens, is a partner at the firm.",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/news/anduril-talks-funding-round-possible-225652548.html",
+          "publisher": "Reuters (via Yahoo Finance)",
+          "title": "Founders Fund in talks to back defense firm Anduril at $28 billion valuation, sources say",
+          "date": "2025-02"
+        }
+      ]
+    },
+    {
+      "claim": "In June 2025 Anduril raised $2.5 billion in a Series G round at a $30.5 billion valuation, more than doubling its $14 billion valuation from its $1.5 billion raise the year before. The round included a $1 billion investment from Founders Fund, the largest single check the company had received.",
+      "status": "reported",
+      "date": "2025-06-05",
+      "quote": "Anduril secured the $30.5 billion valuation in its latest round, where it raised $2.5 billion... The round included a $1 billion investment from Founders Fund, the largest individual check the company has received to date.",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/news/anduril-secures-30-5-billion-170551242.html",
+          "publisher": "Reuters (via Yahoo Finance)",
+          "title": "Anduril secures $30.5 billion valuation in latest fund raise",
+          "date": "2025-06-05"
+        },
+        {
+          "url": "https://news.crunchbase.com/venture/defense-tech-unicorn-anduril-doubles-valuation/",
+          "publisher": "Crunchbase News",
+          "title": "Defense tech unicorn Anduril doubles valuation",
+          "date": "2025-06"
+        }
+      ]
+    },
+    {
+      "claim": "In February 2025 Microsoft announced a plan to transfer its U.S. Army IVAS (Integrated Visual Augmentation System) production contract, a 10-year deal valued at up to $22 billion, to Anduril. Breaking Defense reported in April 2025 that Anduril had assumed oversight of the production deal.",
+      "status": "reported",
+      "date": "2025-02",
+      "quote": "In February 2025, Microsoft said it wanted to move its IVAS production contract to Anduril... The original deal was a 10-year production contract valued up to $22 billion.",
+      "sources": [
+        {
+          "url": "https://breakingdefense.com/2025/02/microsoft-announces-plan-to-slide-22-billion-ivas-contract-over-to-anduril/",
+          "publisher": "Breaking Defense",
+          "title": "Microsoft announces plan to slide $22 billion IVAS contract over to Anduril",
+          "date": "2025-02"
+        },
+        {
+          "url": "https://breakingdefense.com/2025/04/anduril-gets-green-light-from-army-to-take-over-microsofts-ivas-project-exec/",
+          "publisher": "Breaking Defense",
+          "title": "Anduril gets green light from Army to take over Microsoft's IVAS project: Exec",
+          "date": "2025-04"
+        }
+      ]
+    },
+    {
+      "claim": "In May 2025 Anduril and Meta teamed up to pursue the Army's Soldier Borne Mission Command (SBMC) competition, the successor to IVAS, and submitted a white paper to the service. Anduril is expected to develop the program's network portion in part with its Lattice software platform.",
+      "status": "reported",
+      "date": "2025-05",
+      "quote": "Anduril is expected to develop the network portion of the program, in part, with its Lattice software platform. Anduril and Meta also teamed up to pursue the SBMC competition, and they have already submitted a white paper to the service.",
+      "sources": [
+        {
+          "url": "https://breakingdefense.com/2025/05/anduril-meta-team-up-for-army-ivas-recompete/",
+          "publisher": "Breaking Defense",
+          "title": "Anduril, Meta team up for Army IVAS recompete",
+          "date": "2025-05"
+        }
+      ]
+    },
+    {
+      "claim": "In September 2025 the Army awarded more than $350 million in prototype contracts under the Soldier Borne Mission Command program; Anduril announced a $159 million deal and Rivet a $195 million agreement.",
+      "status": "reported",
+      "date": "2025-09-08",
+      "quote": "The Army has awarded a total of more than $350 million in contracts to industry teams for the SBMC program. Anduril announced a $159 million deal, and Rivet announced a $195 million agreement.",
+      "sources": [
+        {
+          "url": "https://defensescoop.com/2025/09/08/army-sbmc-contract-awards-anduril-rivet-soldier-borne-mission-command/",
+          "publisher": "DefenseScoop",
+          "title": "Army awards more than $350M in contracts for Soldier Borne Mission Command system prototypes",
+          "date": "2025-09-08"
+        }
+      ]
+    },
+    {
+      "claim": "U.S. Customs and Border Protection awarded Anduril a $363 million contract for more than 200 Extended Range Sentry Towers, 80-foot towers that integrate with existing Sentry tower networks and Anduril's Lattice software. The relationship began in 2019 with five test towers, became a program of record in 2020, and Anduril said in late 2024 it had deployed its 300th tower to CBP.",
+      "status": "reported",
+      "quote": "The XRST integrates with existing Sentry tower networks and Anduril's Lattice software to enhance counter-intrusion capabilities... The award expands a relationship that began in 2019 with five test towers.",
+      "sources": [
+        {
+          "url": "https://www.executivebiz.com/articles/cbp-anduril-extended-range-sentry-towers-363m",
+          "publisher": "ExecutiveBiz",
+          "title": "CBP awards Anduril $363M contract for Extended Range Sentry Towers"
+        }
+      ]
+    },
+    {
+      "claim": "CBP awarded Anduril $25 million in July 2020 and a further $36 million in September 2020 for its sensor towers. Data from the towers feeds into Lattice, which alerts operators; in a border scenario the system sends location data to Border Patrol agents' phones when it believes it has detected a person crossing.",
+      "status": "reported",
+      "date": "2020-09",
+      "quote": "In a border scenario, the system sends location data to Border Patrol agents' phones when it believes it has detected a human crossing.",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2020/09/10/anduril-cbp-ghost-2020",
+          "publisher": "TechCrunch",
+          "title": "Anduril wins CBP contract for Ghost surveillance towers",
+          "date": "2020-09-10"
+        },
+        {
+          "url": "https://www.aibusiness.com/verticals/anduril-raises-200m-wins-contract-for-autonomous-surveillance-towers-along-us-mexico-border",
+          "publisher": "AI Business",
+          "title": "Anduril raises $200m, wins contract for autonomous surveillance towers along US-Mexico border",
+          "date": "2020-09"
+        }
+      ]
+    },
+    {
+      "claim": "In May 2026 Anduril raised $5 billion in a round led by Thrive Capital and Andreessen Horowitz, doubling its valuation to about $61 billion.",
+      "status": "reported",
+      "date": "2026-05-13",
+      "quote": "Anduril raised $5 billion in a funding round led by Thrive Capital and Andreessen Horowitz, doubling its valuation to $61 billion.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/05/13/anduril-valuation-defense-tech-funding-boom.html",
+          "publisher": "CNBC",
+          "title": "Anduril doubles valuation to over $60 billion as defense tech funding boom continues",
+          "date": "2026-05-13"
+        }
+      ]
+    },
+    {
+      "claim": "In February 2025 Microsoft announced plans to transfer its Army IVAS production contract to Anduril, and on April 10, 2025 the Army approved a contract novation making Anduril the contractor. Anduril said it did not plan to make more of the physical IVAS headsets but would compete for the follow-on program.",
+      "status": "documented",
+      "date": "2025-04-10",
+      "quote": "On April 10, 2025, the Army reportedly approved a \"contract novation,\" a legal action in which one party replaces another party in a contract, that effectively transferred Microsoft's contract for IVAS to Anduril.",
+      "sources": [
+        {
+          "url": "https://www.congress.gov/crs-product/IF13022",
+          "publisher": "Congressional Research Service",
+          "title": "Army's Integrated Visual Augmentation System (IVAS)/Soldier Borne Mission Command (SBMC)",
+          "date": "2026-07-20"
+        },
+        {
+          "url": "https://breakingdefense.com/2025/04/anduril-gets-green-light-from-army-to-take-over-microsofts-ivas-project-exec/",
+          "publisher": "Breaking Defense",
+          "title": "Anduril gets green light from Army to take over Microsoft's IVAS project: Exec",
+          "date": "2025-04"
+        }
+      ]
+    },
+    {
+      "claim": "Anduril holds U.S. Customs and Border Protection's SBIR Phase III Autonomous Surveillance Towers IDIQ contract (70B02C20D00000019), issued in July 2020 with a $2 billion ceiling and an ordering period extended to July 2029. In December 2025 CBP awarded Anduril a one-year $363 million task order, announced in June 2026, for more than 200 Extended Range Sentry Towers on the southwest border. CBP already operates more than 350 standard-range Sentry systems.",
+      "status": "reported",
+      "date": "2025-12",
+      "quote": "The one-year contract was awarded in December 2025, and it sits under the SBIR Phase III Autonomous Surveillance Towers IDIQ Contract.",
+      "sources": [
+        {
+          "url": "https://www.defensedaily.com/cbp-awards-anduril-363-million-for-extended-range-surveillance-towers/homeland-security/",
+          "publisher": "Defense Daily",
+          "title": "CBP Awards Anduril $363 Million For Extended Range Surveillance Towers",
+          "date": "2026-06"
+        },
+        {
+          "url": "https://www.highergov.com/idv/70B02C20D00000019/",
+          "publisher": "HigherGov (federal contract data)",
+          "title": "SBIR-Autonomous Surveillance Towers IDIQ Contract (70B02C20D00000019)"
+        }
+      ]
+    },
+    {
+      "claim": "On December 6, 2024, Palantir and Anduril announced a consortium to speed Defense Department AI adoption, pairing Palantir's Maven Smart System and AI Platform with Anduril's Lattice software, and said they planned to include other contractors. The same week Anduril announced a separate agreement with OpenAI on counter-drone capabilities.",
+      "status": "reported",
+      "date": "2024-12-06",
+      "quote": "The consortium is led by Anduril and Palantir and comes amid a flurry of recent partnership announcements involving the two firms.",
+      "sources": [
+        {
+          "url": "https://defensescoop.com/2024/12/06/palantir-anduril-consortium-ai-new-alliance-merge-capabilities/",
+          "publisher": "DefenseScoop",
+          "title": "Palantir, Anduril form new alliance to merge AI capabilities for defense customers",
+          "date": "2024-12-06"
+        },
+        {
+          "url": "https://www.defensenews.com/pentagon/2024/12/06/defense-tech-firms-establish-ai-focused-consortium/",
+          "publisher": "Defense News",
+          "title": "Defense tech firms establish AI-focused consortium",
+          "date": "2024-12-06"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "founders-fund",
+      "relation": "invested in",
+      "reverse": true,
+      "claim": "Founders Fund has backed Anduril since 2017 and invested $1 billion in Anduril's June 2025 Series G round, the largest single check the company had received.",
+      "status": "reported",
+      "date": "2025-06-05",
+      "quote": "The round included a $1 billion investment from Founders Fund, the largest individual check the company has received to date.",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/news/anduril-secures-30-5-billion-170551242.html",
+          "publisher": "Reuters (via Yahoo Finance)",
+          "title": "Anduril secures $30.5 billion valuation in latest fund raise",
+          "date": "2025-06-05"
+        },
+        {
+          "url": "https://finance.yahoo.com/news/anduril-talks-funding-round-possible-225652548.html",
+          "publisher": "Reuters (via Yahoo Finance)",
+          "title": "Founders Fund in talks to back defense firm Anduril at $28 billion valuation, sources say",
+          "date": "2025-02"
+        }
+      ]
+    },
+    {
+      "to": "microsoft",
+      "relation": "other",
+      "claim": "Microsoft announced in February 2025 that it would transfer its U.S. Army IVAS production contract, valued at up to $22 billion over 10 years, to Anduril; Anduril assumed oversight of the program in April 2025.",
+      "status": "reported",
+      "date": "2025-02",
+      "quote": "In February 2025, Microsoft said it wanted to move its IVAS production contract to Anduril.",
+      "sources": [
+        {
+          "url": "https://breakingdefense.com/2025/02/microsoft-announces-plan-to-slide-22-billion-ivas-contract-over-to-anduril/",
+          "publisher": "Breaking Defense",
+          "title": "Microsoft announces plan to slide $22 billion IVAS contract over to Anduril",
+          "date": "2025-02"
+        },
+        {
+          "url": "https://breakingdefense.com/2025/04/anduril-gets-green-light-from-army-to-take-over-microsofts-ivas-project-exec/",
+          "publisher": "Breaking Defense",
+          "title": "Anduril gets green light from Army to take over Microsoft's IVAS project: Exec",
+          "date": "2025-04"
+        }
+      ]
+    },
+    {
+      "to": "meta",
+      "relation": "partnered with",
+      "claim": "Anduril and Meta teamed up in 2025 to pursue the Army's Soldier Borne Mission Command competition and jointly submitted a white paper to the service.",
+      "status": "reported",
+      "date": "2025-05",
+      "quote": "Anduril and Meta also teamed up to pursue the SBMC competition, and they have already submitted a white paper to the service.",
+      "sources": [
+        {
+          "url": "https://breakingdefense.com/2025/05/anduril-meta-team-up-for-army-ivas-recompete/",
+          "publisher": "Breaking Defense",
+          "title": "Anduril, Meta team up for Army IVAS recompete",
+          "date": "2025-05"
+        }
+      ]
+    },
+    {
+      "to": "pentagon",
+      "relation": "contracted with",
+      "claim": "The U.S. Army awarded Anduril a $159 million prototype contract in September 2025 under the Soldier Borne Mission Command program.",
+      "status": "reported",
+      "date": "2025-09-08",
+      "quote": "Anduril announced a $159 million deal, and Rivet announced a $195 million agreement.",
+      "sources": [
+        {
+          "url": "https://defensescoop.com/2025/09/08/army-sbmc-contract-awards-anduril-rivet-soldier-borne-mission-command/",
+          "publisher": "DefenseScoop",
+          "title": "Army awards more than $350M in contracts for Soldier Borne Mission Command system prototypes",
+          "date": "2025-09-08"
+        }
+      ]
+    },
+    {
+      "to": "us-customs-and-border-protection",
+      "toName": "U.S. Customs and Border Protection",
+      "toType": "government",
+      "relation": "contracted with",
+      "claim": "CBP has bought Anduril sensor towers since 2019 ($25 million in July 2020, $36 million in September 2020) and awarded a $363 million contract for more than 200 Extended Range Sentry Towers.",
+      "status": "reported",
+      "date": "2020-09",
+      "quote": "Anduril received $36 million from CBP in September 2020 for its AI-powered towers. In July 2020, CBP awarded Anduril $25 million for a previous set of towers.",
+      "sources": [
+        {
+          "url": "https://www.aibusiness.com/verticals/anduril-raises-200m-wins-contract-for-autonomous-surveillance-towers-along-us-mexico-border",
+          "publisher": "AI Business",
+          "title": "Anduril raises $200m, wins contract for autonomous surveillance towers along US-Mexico border",
+          "date": "2020-09"
+        },
+        {
+          "url": "https://techcrunch.com/2020/09/10/anduril-cbp-ghost-2020",
+          "publisher": "TechCrunch",
+          "title": "Anduril wins CBP contract for Ghost surveillance towers",
+          "date": "2020-09-10"
+        },
+        {
+          "url": "https://www.executivebiz.com/articles/cbp-anduril-extended-range-sentry-towers-363m",
+          "publisher": "ExecutiveBiz",
+          "title": "CBP awards Anduril $363M contract for Extended Range Sentry Towers"
+        }
+      ]
+    },
+    {
+      "to": "andreessen-horowitz",
+      "relation": "invested in",
+      "reverse": true,
+      "claim": "Andreessen Horowitz co-led, with Thrive Capital, Anduril's $5 billion funding round in May 2026 at a valuation of about $61 billion.",
+      "status": "reported",
+      "date": "2026-05-13",
+      "quote": "Anduril raised $5 billion in a funding round led by Thrive Capital and Andreessen Horowitz, doubling its valuation to $61 billion.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/05/13/anduril-valuation-defense-tech-funding-boom.html",
+          "publisher": "CNBC",
+          "title": "Anduril doubles valuation to over $60 billion as defense tech funding boom continues",
+          "date": "2026-05-13"
+        }
+      ]
+    },
+    {
+      "to": "palantir",
+      "relation": "partnered with",
+      "claim": "Anduril and Palantir announced a defense-AI consortium on December 6, 2024 to combine Palantir's Maven and AI Platform with Anduril's Lattice software.",
+      "status": "reported",
+      "date": "2024-12-06",
+      "quote": "The companies intend to pair Palantir's Maven Smart System with Anduril's Lattice software",
+      "sources": [
+        {
+          "url": "https://defensescoop.com/2024/12/06/palantir-anduril-consortium-ai-new-alliance-merge-capabilities/",
+          "publisher": "DefenseScoop",
+          "title": "Palantir, Anduril form new alliance to merge AI capabilities for defense customers",
+          "date": "2024-12-06"
+        },
+        {
+          "url": "https://www.defensenews.com/pentagon/2024/12/06/defense-tech-firms-establish-ai-focused-consortium/",
+          "publisher": "Defense News",
+          "title": "Defense tech firms establish AI-focused consortium",
+          "date": "2024-12-06"
+        }
+      ]
+    },
+    {
+      "to": "openai",
+      "relation": "partnered with",
+      "claim": "In December 2024 Anduril announced an agreement with OpenAI to use AI algorithms to improve the U.S. military's counter-drone capabilities.",
+      "status": "reported",
+      "date": "2024-12",
+      "quote": "Anduril announced a separate deal the same week, with ChatGPT-maker OpenAI to use AI algorithms to improve the military's counter-drone capabilities.",
+      "sources": [
+        {
+          "url": "https://www.defensenews.com/pentagon/2024/12/06/defense-tech-firms-establish-ai-focused-consortium/",
+          "publisher": "Defense News",
+          "title": "Defense tech firms establish AI-focused consortium",
+          "date": "2024-12-06"
+        }
+      ]
+    },
+    {
+      "to": "u-s-customs-and-border-protection",
+      "toName": "U.S. Customs and Border Protection",
+      "toType": "agency",
+      "relation": "contracted with",
+      "claim": "Anduril supplies autonomous surveillance towers to CBP under a 2020 IDIQ contract with a $2 billion ceiling, including a $363 million task order awarded in December 2025 for more than 200 Extended Range Sentry Towers.",
+      "status": "reported",
+      "date": "2025-12",
+      "quote": "CBP had given it a $363 million contract for more than 200 Extended Range Sentry Towers (XRST) for the southwest border.",
+      "sources": [
+        {
+          "url": "https://www.defensedaily.com/cbp-awards-anduril-363-million-for-extended-range-surveillance-towers/homeland-security/",
+          "publisher": "Defense Daily",
+          "title": "CBP Awards Anduril $363 Million For Extended Range Surveillance Towers",
+          "date": "2026-06"
+        },
+        {
+          "url": "https://www.highergov.com/idv/70B02C20D00000019/",
+          "publisher": "HigherGov (federal contract data)",
+          "title": "SBIR-Autonomous Surveillance Towers IDIQ Contract (70B02C20D00000019)"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The $363 million Extended Range Sentry Tower award is reported without a clear date; confirm the award date and value on CBP or USAspending records.",
+    "The page links Anduril to Peter Thiel personally; sources here only establish Founders Fund (Thiel's firm) as an investor and Trae Stephens as a Founders Fund partner. A direct Thiel–Anduril relationship needs its own source.",
+    "No source was found tying Anduril to the Pentagon's Replicator initiative specifically; the page's claim that Replicator contracts went to Anduril, Palantir and Shield AI is unsourced here.",
+    "The $363 million figure and delivery counts come from Anduril's announcement; the CBP award record on USAspending or SAM.gov should be clipped.",
+    "Peter Thiel is connected to Anduril through Founders Fund, which is covered in research/findings/founders-fund.json; no direct personal investment by Thiel was sourced here.",
+    "A late-2024 Financial Times report that SpaceX, OpenAI, Scale AI and Saronic might join the Palantir-Anduril consortium was not confirmed by an official announcement.",
+    "Reports of talks at a $100 billion valuation (Reuters via Yahoo Finance, citing anonymous sources) were left out."
+  ]
+}

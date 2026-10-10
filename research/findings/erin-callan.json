@@ -1,0 +1,148 @@
+{
+  "entity": "erin-callan",
+  "name": "Erin Callan",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Erin Callan was chief financial officer of Lehman Brothers in the period before its September 2008 bankruptcy. The court-appointed bankruptcy examiner, Anton Valukas, reported in March 2010 that colorable claims of breach of fiduciary duty existed against her, chief executive Richard Fuld and two other former chief financial officers over the non-disclosure of the firm's Repo 105 transactions, which the examiner said removed up to $50 billion from the balance sheet at quarter-ends. Former Lehman officers settled a shareholder class action for $90 million in 2011.",
+    "sources": [
+      {
+        "url": "https://www.dandodiary.com/2010/03/articles/subprime-litigation/lehman-bankruptcy-examiner-cites-companys-balance-sheet-manipulation/",
+        "publisher": "D&O Diary",
+        "title": "Lehman Bankruptcy Examiner Cites Company's Balance Sheet Manipulation",
+        "date": "2010-03"
+      },
+      {
+        "url": "https://www.nbcnews.com/id/wbna35828326",
+        "publisher": "NBC News",
+        "title": "Report details how Lehman hid its woes",
+        "date": "2010-03-11"
+      },
+      {
+        "url": "https://www.ai-cio.com/?p=10084",
+        "publisher": "Chief Investment Officer (ai-cio.com)",
+        "title": "Lehman Execs Aim to Settle Investor Lawsuit for $90 Million",
+        "date": "2011-08"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The Lehman bankruptcy examiner found colorable claims of breach of fiduciary duty against Erin Callan, alongside Richard Fuld, Chris O'Meara and Ian Lowitt, in connection with Repo 105.",
+      "status": "documented",
+      "date": "2010-03-11",
+      "quote": "colorable claims of breach of fiduciary duty exist against Richard Fuld, Chris O'Meara, Erin Callan, and Ian Lowitt",
+      "sources": [
+        {
+          "url": "https://www.dandodiary.com/2010/03/articles/subprime-litigation/lehman-bankruptcy-examiner-cites-companys-balance-sheet-manipulation/",
+          "publisher": "D&O Diary",
+          "title": "Lehman Bankruptcy Examiner Cites Company's Balance Sheet Manipulation",
+          "date": "2010-03"
+        },
+        {
+          "url": "https://www.nbcnews.com/id/wbna35828326",
+          "publisher": "NBC News",
+          "title": "Report details how Lehman hid its woes",
+          "date": "2010-03-11"
+        }
+      ]
+    },
+    {
+      "claim": "The examiner defined a 'colorable claim' as one supported by evidence that would support a finding by a trier of fact, and said the claims arose from the decision not to disclose the effects of Repo 105 in certified financial statements.",
+      "status": "documented",
+      "date": "2010-03-11",
+      "quote": "decision not to disclose the effects of these judgments does give rise to colorable claims against the senior officers who oversaw and certified misleading financial statements",
+      "sources": [
+        {
+          "url": "https://complianceweek.com/lehman-examiner-alleges-misleading-accounting/19253.article",
+          "publisher": "Compliance Week",
+          "title": "Lehman Examiner Alleges Misleading Accounting",
+          "date": "2010-03"
+        },
+        {
+          "url": "https://www.banking.senate.gov/download/040611valukas-testimony&download=1",
+          "publisher": "U.S. Senate Committee on Banking, Housing and Urban Affairs",
+          "title": "Testimony of Anton R. Valukas, Examiner, Lehman Brothers Holdings Inc.",
+          "date": "2010-04-20"
+        }
+      ]
+    },
+    {
+      "claim": "According to the examiner, Repo 105 removed about $49 billion from Lehman's balance sheet in the first quarter of 2008 and $50 billion in the second quarter of 2008, the quarters in which Callan was chief financial officer.",
+      "status": "documented",
+      "date": "2010-03-11",
+      "quote": "$49 billion in the first quarter of 2008 and $50 billion in the second quarter",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/id/wbna35828326",
+          "publisher": "NBC News",
+          "title": "Report details how Lehman hid its woes",
+          "date": "2010-03-11"
+        }
+      ]
+    },
+    {
+      "claim": "Former Lehman officers settled the shareholder class action begun in June 2008 for $90 million in 2011, paid from insurance.",
+      "status": "court",
+      "date": "2011",
+      "quote": "The pending settlement would end a class-action suit that began in June 2008.",
+      "sources": [
+        {
+          "url": "https://www.ai-cio.com/?p=10084",
+          "publisher": "Chief Investment Officer (ai-cio.com)",
+          "title": "Lehman Execs Aim to Settle Investor Lawsuit for $90 Million",
+          "date": "2011-08"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "lehman-brothers",
+      "toName": "Lehman Brothers",
+      "toType": "company",
+      "relation": "executive of",
+      "claim": "Callan was chief financial officer of Lehman Brothers and was named by the bankruptcy examiner among officers against whom colorable claims existed.",
+      "status": "documented",
+      "date": "2010-03-11",
+      "quote": "colorable claims of breach of fiduciary duty exist against Richard Fuld, Chris O'Meara, Erin Callan, and Ian Lowitt",
+      "sources": [
+        {
+          "url": "https://www.dandodiary.com/2010/03/articles/subprime-litigation/lehman-bankruptcy-examiner-cites-companys-balance-sheet-manipulation/",
+          "publisher": "D&O Diary",
+          "title": "Lehman Bankruptcy Examiner Cites Company's Balance Sheet Manipulation",
+          "date": "2010-03"
+        }
+      ]
+    },
+    {
+      "to": "anton-valukas",
+      "toName": "Anton Valukas",
+      "toType": "person",
+      "relation": "investigated",
+      "reverse": true,
+      "claim": "Examiner Anton Valukas's report identified colorable claims against Callan over Repo 105 disclosures.",
+      "status": "documented",
+      "date": "2010-03-11",
+      "quote": "colorable claims of breach of fiduciary duty exist against Richard Fuld, Chris O'Meara, Erin Callan, and Ian Lowitt",
+      "sources": [
+        {
+          "url": "https://www.dandodiary.com/2010/03/articles/subprime-litigation/lehman-bankruptcy-examiner-cites-companys-balance-sheet-manipulation/",
+          "publisher": "D&O Diary",
+          "title": "Lehman Bankruptcy Examiner Cites Company's Balance Sheet Manipulation",
+          "date": "2010-03"
+        },
+        {
+          "url": "https://www.banking.senate.gov/download/040611valukas-testimony&download=1",
+          "publisher": "U.S. Senate Committee on Banking, Housing and Urban Affairs",
+          "title": "Testimony of Anton R. Valukas, Examiner, Lehman Brothers Holdings Inc.",
+          "date": "2010-04-20"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim that Callan 'publicly touted Lehman's reduced balance sheet leverage': not directly tested; no source quoting her public statements on leverage was found.",
+    "Callan's dates as CFO and her departure in June 2008 were not confirmed from a primary source.",
+    "No regulator or court made a finding against Callan personally; the examiner's 'colorable claim' is not a ruling."
+  ]
+}

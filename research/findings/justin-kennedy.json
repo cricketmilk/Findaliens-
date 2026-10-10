@@ -1,0 +1,79 @@
+{
+  "entity": "justin-kennedy",
+  "name": "Justin Kennedy",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Justin Kennedy, a son of retired Supreme Court Justice Anthony Kennedy, ran Deutsche Bank's real estate capital markets business during a period when, according to New York Times reporting cited by other outlets, the bank became Donald Trump's most important lender and extended well over $1 billion in loans for his New York and Chicago skyscraper projects. He worked in the commercial real estate division, not the private wealth unit that later lent to Trump.",
+    "sources": [
+      { "url": "https://salon.com/2018/06/29/did-anthony-kennedys-son-loan-donald-trump-1-billion", "publisher": "Salon", "title": "Did Anthony Kennedy's son loan Donald Trump $1 billion?", "date": "2018-06-29" },
+      { "url": "https://democracynow.org/2018/7/2/headlines/at_deutsche_bank_anthony_kennedys_son_loaned_trump_1_billion", "publisher": "Democracy Now!", "title": "At Deutsche Bank, Anthony Kennedy's Son Loaned Trump $1 Billion", "date": "2018-07-02" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Justin Kennedy ran Deutsche Bank's real estate capital markets work; during his tenure the bank became Donald Trump's most important lender, extending well over $1 billion in loans for skyscraper projects in New York and Chicago, according to reporting originating with the New York Times.",
+      "status": "reported",
+      "date": "2018-06",
+      "quote": "During his tenure, Deutsche Bank became Mr. Trump's most important lender, dispensing well over $1 billion in loans to him for the renovation and construction of skyscrapers in New York and Chicago.",
+      "sources": [
+        { "url": "https://salon.com/2018/06/29/did-anthony-kennedys-son-loan-donald-trump-1-billion", "publisher": "Salon", "title": "Did Anthony Kennedy's son loan Donald Trump $1 billion?", "date": "2018-06-29" },
+        { "url": "https://democracynow.org/2018/7/2/headlines/at_deutsche_bank_anthony_kennedys_son_loaned_trump_1_billion", "publisher": "Democracy Now!", "title": "At Deutsche Bank, Anthony Kennedy's Son Loaned Trump $1 Billion", "date": "2018-07-02" }
+      ]
+    },
+    {
+      "claim": "Former Deutsche Bank employee Stephanie Ruhle said much of the Trump lending came from the bank's private bank, where Kennedy did not work, and that most of the recent private-bank lending occurred after Kennedy had left the bank.",
+      "status": "words",
+      "date": "2018-06",
+      "quote": "A lot of this comes from multiple sides of the bank, specifically the private bank, and that was not where Mr. Kennedy worked.",
+      "sources": [
+        { "url": "https://salon.com/2018/06/29/did-anthony-kennedys-son-loan-donald-trump-1-billion", "publisher": "Salon", "title": "Did Anthony Kennedy's son loan Donald Trump $1 billion?", "date": "2018-06-29" }
+      ]
+    },
+    {
+      "claim": "Justin Kennedy is the son of Anthony Kennedy, the Supreme Court justice who announced his retirement in June 2018.",
+      "status": "reported",
+      "date": "2018-06",
+      "sources": [
+        { "url": "https://democracynow.org/2018/7/2/headlines/at_deutsche_bank_anthony_kennedys_son_loaned_trump_1_billion", "publisher": "Democracy Now!", "title": "At Deutsche Bank, Anthony Kennedy's Son Loaned Trump $1 Billion", "date": "2018-07-02" }
+      ]
+    },
+    {
+      "claim": "In October 2020 Salon reported, citing a new book, that Kennedy had helped Trump obtain Deutsche Bank loans.",
+      "status": "reported",
+      "date": "2020-10-28",
+      "sources": [
+        { "url": "https://salon.com/2020/10/28/former-supreme-court-justices-son-helped-trump-get-deutsche-bank-loans-report", "publisher": "Salon", "title": "Former Supreme Court justice's son helped Trump get Deutsche Bank loans: report", "date": "2020-10-28" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "deutsche-bank",
+      "toName": "Deutsche Bank",
+      "toType": "company",
+      "relation": "executive of",
+      "claim": "Kennedy ran Deutsche Bank's real estate capital markets business.",
+      "status": "reported",
+      "date": "2018-06",
+      "sources": [
+        { "url": "https://salon.com/2018/06/29/did-anthony-kennedys-son-loan-donald-trump-1-billion", "publisher": "Salon", "title": "Did Anthony Kennedy's son loan Donald Trump $1 billion?", "date": "2018-06-29" }
+      ]
+    },
+    {
+      "to": "donald-trump",
+      "toName": "Donald Trump",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Deutsche Bank's commercial real estate unit, which Kennedy led, lent Trump well over $1 billion for skyscraper projects, according to New York Times reporting relayed by Salon and Democracy Now.",
+      "status": "reported",
+      "date": "2018-06",
+      "sources": [
+        { "url": "https://salon.com/2018/06/29/did-anthony-kennedys-son-loan-donald-trump-1-billion", "publisher": "Salon", "title": "Did Anthony Kennedy's son loan Donald Trump $1 billion?", "date": "2018-06-29" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site labels Kennedy 'Head of DB Real Estate Securitization' and groups him with the private-wealth lending of 2011–2016. Sources describe him as running real estate capital markets and say the private-bank lending largely post-dated his departure; the exact title and dates of his tenure were not confirmed.",
+    "The original New York Times article (June 2018) is the primary account; it was not reachable from this environment."
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "entity": "christian-american-association",
+  "name": "Christian American Association",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The Christian American Association was incorporated in Houston in 1936 by Vance Muse to continue his campaign against the New Deal. Historian Michael Pierce describes it as the vehicle through which Muse, with Dallas Morning News writer William Ruggles's blessing, launched the 'right-to-work' campaign in the early 1940s; Pierce's testimony says Arkansas planters funded Muse's anti-strike campaign, and journalist Chris Kromm says the group was backed by Southern oil companies and Northeastern industrialists.",
+    "sources": [
+      {
+        "url": "https://lawcha.org/2017/01/12/origins-right-work-vance-muse-anti-semitism-maintenance-jim-crow-labor-relations/",
+        "publisher": "LAWCHA (Labor and Working-Class History Association)",
+        "title": "The Origins of Right-to-Work: Vance Muse, Anti-Semitism, and the Maintenance of Jim Crow Labor Relations",
+        "date": "2017-01-12"
+      },
+      {
+        "url": "https://www.lawcha.org/2023/08/25/michael-pierce-testifies-about-the-origin-of-right-to-work/",
+        "publisher": "LAWCHA",
+        "title": "Michael Pierce Testifies About the Origin of Right to Work",
+        "date": "2023-08-25"
+      },
+      {
+        "url": "https://znetwork.org/zcommentary/the-racist-roots-of-right-to-work-laws-by-chris-kromm/?amp=1",
+        "publisher": "ZNetwork",
+        "title": "The Racist Roots of Right to Work Laws"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Pierce writes that Muse visited Ruggles soon after his 1941 editorial and secured his blessing for the Christian American Association to launch a campaign to outlaw contracts requiring union membership; Ruggles suggested the 'Right-to-Work' name.",
+      "status": "reported",
+      "date": "1941",
+      "quote": "secured the writer's blessing for the Christian American Association to launch a campaign to outlaw contracts that required employees to belong to unions",
+      "sources": [
+        {
+          "url": "https://lawcha.org/2017/01/12/origins-right-work-vance-muse-anti-semitism-maintenance-jim-crow-labor-relations/",
+          "publisher": "LAWCHA (Labor and Working-Class History Association)",
+          "title": "The Origins of Right-to-Work: Vance Muse, Anti-Semitism, and the Maintenance of Jim Crow Labor Relations",
+          "date": "2017-01-12"
+        }
+      ]
+    },
+    {
+      "claim": "Pierce's 2023 testimony, as summarized by LAWCHA, says Arkansas planters funded Muse's campaign for a state anti-strike law and turned to him to pass what it calls the nation's first right-to-work law.",
+      "status": "reported",
+      "date": "2023-08-25",
+      "quote": "Arkansas planters funded Muse's successful campaign to enact a state \"anti-strike\" law",
+      "sources": [
+        {
+          "url": "https://www.lawcha.org/2023/08/25/michael-pierce-testifies-about-the-origin-of-right-to-work/",
+          "publisher": "LAWCHA",
+          "title": "Michael Pierce Testifies About the Origin of Right to Work",
+          "date": "2023-08-25"
+        }
+      ]
+    },
+    {
+      "claim": "Labor Notes (Pierce) says the pre-packaged anti-strike law sold first in Texas, then Mississippi and Arkansas, making strikers rather than strikebreakers or management criminally liable for picket-line violence.",
+      "status": "reported",
+      "date": "1940s",
+      "quote": "made strikers, not strikebreakers or management, criminally liable for picket-line violence",
+      "sources": [
+        {
+          "url": "https://labornotes.org/node/5620",
+          "publisher": "Labor Notes",
+          "title": "The Racist Origins of Right to Work"
+        }
+      ]
+    },
+    {
+      "claim": "Chris Kromm writes that Muse founded the association in Houston in 1936 with backing from Southern oil companies and industrialists from the Northeast.",
+      "status": "reported",
+      "date": "1936",
+      "quote": "backing from Southern oil companies and industrialists from the Northeast in 1936 in Houston",
+      "sources": [
+        {
+          "url": "https://znetwork.org/zcommentary/the-racist-roots-of-right-to-work-laws-by-chris-kromm/?amp=1",
+          "publisher": "ZNetwork",
+          "title": "The Racist Roots of Right to Work Laws"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "vance-muse",
+      "toName": "Vance Muse",
+      "toType": "person",
+      "relation": "founded",
+      "claim": "Muse founded the association in 1936.",
+      "status": "reported",
+      "date": "1936",
+      "quote": "Muse of the Christian American Association",
+      "sources": [
+        {
+          "url": "https://lawcha.org/2017/01/12/origins-right-work-vance-muse-anti-semitism-maintenance-jim-crow-labor-relations/",
+          "publisher": "LAWCHA (Labor and Working-Class History Association)",
+          "title": "The Origins of Right-to-Work: Vance Muse, Anti-Semitism, and the Maintenance of Jim Crow Labor Relations",
+          "date": "2017-01-12"
+        },
+        {
+          "url": "https://znetwork.org/zcommentary/the-racist-roots-of-right-to-work-laws-by-chris-kromm/?amp=1",
+          "publisher": "ZNetwork",
+          "title": "The Racist Roots of Right to Work Laws"
+        }
+      ],
+      "reverse": true
+    }
+  ],
+  "openQuestions": [
+    "Site claim: 'funded by Southern planters and industrialists' is supported; 'Arkansas and Florida, 1944' is only partly supported (Arkansas yes; Florida and 1944 not in opened sources). Named individual donors to the association were not found; the Dixon 2007 Journal of Policy History article cited by the site was not opened."
+  ]
+}

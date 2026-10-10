@@ -1,0 +1,99 @@
+{
+  "entity": "u-s-customs-and-border-protection",
+  "name": "U.S. Customs and Border Protection",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "U.S. Customs and Border Protection (CBP) is the Department of Homeland Security agency responsible for border security and customs enforcement. On this site it appears as a customer of Anduril Industries, whose autonomous surveillance towers CBP designated a program of record in July 2020 with plans for up to 200 towers under a five-year contract whose value was not disclosed, and of Palantir Technologies, whose role in CBP's Analytical Framework for Intelligence (AFI), a system that assigns risk-assessment scores to travelers, was uncovered by the Electronic Privacy Information Center through a Freedom of Information Act lawsuit.",
+    "sources": [
+      { "url": "https://nextgov.com/acquisition/2020/07/cbp-taps-anduril-for-virtual-border-sentinel-system/257835", "publisher": "Nextgov", "title": "CBP taps Anduril for virtual border sentinel system", "date": "2020-07" },
+      { "url": "https://epic.org/2017/09/cbp-plans-to-exempt-social-med.html", "publisher": "Electronic Privacy Information Center", "title": "CBP Plans to Exempt Social Media Data from Legal Protections", "date": "2017-09" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In July 2020 CBP declared Anduril's autonomous surveillance tower system a program of record, moving it from a research and development effort to a budget line item, with plans to deploy up to 200 autonomous surveillance towers; FedScoop reported the designation granted Anduril a five-year project.",
+      "status": "reported",
+      "date": "2020-07",
+      "quote": "CBP declared a relatively new border security surveillance tower system a program of record, which moved it from a research and development effort to a line item in the budget",
+      "sources": [
+        { "url": "https://nextgov.com/acquisition/2020/07/cbp-taps-anduril-for-virtual-border-sentinel-system/257835", "publisher": "Nextgov", "title": "CBP taps Anduril for virtual border sentinel system", "date": "2020-07" },
+        { "url": "https://defensedaily.com/cbp-makes-autonomous-surveillance-tower-system-program-record/homeland-security", "publisher": "Defense Daily", "title": "CBP Makes Autonomous Surveillance Tower System Program of Record", "date": "2020-07" },
+        { "url": "https://www.fedscoop.com/anduril-sentry-towers-cbp/", "publisher": "FedScoop", "title": "Anduril Sentry towers get CBP program-of-record status", "date": "2020-07" }
+      ]
+    },
+    {
+      "claim": "The value of the five-year Anduril tower contract was not disclosed; Anduril executives told The Washington Post it would be several hundred million dollars. Defense Daily reported CBP's plans for extensive deployment of autonomous surveillance towers on the southern border.",
+      "status": "reported",
+      "date": "2020-07",
+      "quote": "it is not known how much the five-year contract is worth, though Anduril executives told the Washington Post it would be several hundred million dollars",
+      "sources": [
+        { "url": "https://www.aibusiness.com/verticals/anduril-raises-200m-wins-contract-for-autonomous-surveillance-towers-along-us-mexico-border", "publisher": "AI Business", "title": "Anduril raises $200m, wins contract for autonomous surveillance towers along US-Mexico border", "date": "2020-07" },
+        { "url": "https://defensedaily.com/cbp-plans-extensive-deployment-of-autonomous-surveillance-towers-on-southern-border/homeland-security", "publisher": "Defense Daily", "title": "CBP Plans Extensive Deployment of Autonomous Surveillance Towers on Southern Border" }
+      ]
+    },
+    {
+      "claim": "An investigation reported that deaths of border crossers occurred within the advertised detection range of nearly two-thirds of the Anduril towers it analysed; Anduril responded that proximity does not prove a missed detection.",
+      "status": "reported",
+      "date": "2025",
+      "quote": "Anduril responded that proximity does not prove a missed detection",
+      "sources": [
+        { "url": "https://runtimewire.com/article/anduril-border-towers-deaths-investigation", "publisher": "Runtime", "title": "Investigation finds more than 110 deaths within range of Anduril border towers" }
+      ]
+    },
+    {
+      "claim": "The Electronic Privacy Information Center reports that CBP's Analytical Framework for Intelligence assigns risk-assessment scores to travelers, and that EPIC uncovered Palantir's role in the system through a Freedom of Information Act lawsuit; in 2017 CBP proposed to exempt social-media data in the system from Privacy Act protections.",
+      "status": "documented",
+      "date": "2017-09",
+      "quote": "CBP Plans to Exempt Social Media Data from Legal Protections",
+      "sources": [
+        { "url": "https://epic.org/2017/09/cbp-plans-to-exempt-social-med.html", "publisher": "Electronic Privacy Information Center", "title": "CBP Plans to Exempt Social Media Data from Legal Protections", "date": "2017-09" }
+      ]
+    },
+    {
+      "claim": "Wired reporting relayed by The Motley Fool described a five-year DHS blanket purchase agreement with Palantir allowing agencies including CBP and ICE to make purchases of up to $1 billion without the normal competitive bidding process; this is a department-wide ceiling, not a CBP-specific award value.",
+      "status": "reported",
+      "date": "2022-06",
+      "quote": "allows agencies, including Customs and Border Protection (CBP) and Immigration and Customs Enforcement (ICE), to bypass the normal competitive bidding process for purchases of up to $1 billion",
+      "sources": [
+        { "url": "https://www.fool.com/investing/2022/06/02/why-palantir-stock-popped-on-thursday", "publisher": "The Motley Fool", "title": "Why Palantir Stock Popped on Thursday", "date": "2022-06-02" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "anduril",
+      "toName": "Anduril",
+      "toType": "company",
+      "relation": "contracted with",
+      "claim": "CBP designated Anduril's autonomous surveillance towers a program of record in July 2020 under a five-year contract of undisclosed value, with plans for up to 200 towers.",
+      "status": "reported",
+      "date": "2020-07",
+      "quote": "CBP plans to deploy up to 200 autonomous surveillance towers",
+      "sources": [
+        { "url": "https://nextgov.com/acquisition/2020/07/cbp-taps-anduril-for-virtual-border-sentinel-system/257835", "publisher": "Nextgov", "title": "CBP taps Anduril for virtual border sentinel system", "date": "2020-07" },
+        { "url": "https://www.fedscoop.com/anduril-sentry-towers-cbp/", "publisher": "FedScoop", "title": "Anduril Sentry towers get CBP program-of-record status", "date": "2020-07" }
+      ]
+    },
+    {
+      "to": "palantir",
+      "toName": "Palantir",
+      "toType": "company",
+      "relation": "contracted with",
+      "claim": "Palantir's role in CBP's Analytical Framework for Intelligence was uncovered by EPIC through a FOIA lawsuit; a DHS-wide blanket purchase agreement with Palantir covers purchases by CBP and ICE.",
+      "status": "reported",
+      "date": "2017",
+      "quote": "EPIC uncovered Palantir's role in it through a FOIA lawsuit",
+      "sources": [
+        { "url": "https://epic.org/2017/09/cbp-plans-to-exempt-social-med.html", "publisher": "Electronic Privacy Information Center", "title": "CBP Plans to Exempt Social Media Data from Legal Protections", "date": "2017-09" },
+        { "url": "https://www.fool.com/investing/2022/06/02/why-palantir-stock-popped-on-thursday", "publisher": "The Motley Fool", "title": "Why Palantir Stock Popped on Thursday", "date": "2022-06-02" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (Deep State): 'Anduril Industries Lattice OS contracts and Autonomous Surveillance Towers (AST) deployed along domestic borders' is supported in substance by the 2020 program-of-record reporting; the anduril file additionally records a $363 million Extended Range Sentry Tower award and 300 towers deployed by late 2024, which were not re-verified here.",
+    "Site claim (Deep State): the 'ICE ImmigrationOS ($30M no-bid sole source award)' concerns ICE, not CBP, and was not checked here.",
+    "No cbp.gov page, USAspending record or FPDS entry was opened; the Palantir AFI award value and the Anduril contract value remain undocumented. A DHS Privacy Impact Assessment for AFI would be the primary source for Palantir's role.",
+    "The Runtime investigation into deaths near Anduril towers is a single secondary source; its methodology and date were not examined.",
+    "The web search budget was exhausted before cbp.gov and USAspending could be searched."
+  ]
+}

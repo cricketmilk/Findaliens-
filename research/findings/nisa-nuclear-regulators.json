@@ -1,0 +1,126 @@
+{
+  "entity": "nisa-nuclear-regulators",
+  "name": "Nuclear and Industrial Safety Agency (NISA)",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "The Nuclear and Industrial Safety Agency (NISA) was Japan's nuclear regulator, housed within the Ministry of Economy, Trade and Industry, at the time of the March 2011 Fukushima Daiichi accident. The Diet's independent investigation commission (NAIIC) reported on 5 July 2012 that the accident was man-made and that regulators had become captive of the operators they oversaw.",
+    "sources": [
+      {
+        "url": "https://jdarchive.org/api/item/1517163",
+        "publisher": "Japan Disasters Digital Archive (Harvard)",
+        "title": "Diet investigative panel: Fukushima nuclear accident was man-made",
+        "date": "2012-07-05"
+      },
+      {
+        "url": "https://www.scientificamerican.com/article/fukushima-blame-utilities-goverment-leaders-regulators/",
+        "publisher": "Scientific American",
+        "title": "Fukushima Disaster Blame Belongs with Top Leaders at Utilities, Government and Regulators",
+        "date": "2012-07"
+      },
+      {
+        "url": "https://www.tepco.co.jp/en/nu/fukushima-np/info/12042401-e.html",
+        "publisher": "Tokyo Electric Power Company",
+        "title": "TEPCO statement on tsunami assessment history (24 April 2012)",
+        "date": "2012-04-24"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "TEPCO states that in 2008, while reviewing its seismic safety evaluation, it ran a trial calculation using the Meiji Sanriku-oki earthquake wave-source model off Fukushima that produced a 15.7 m tsunami, and that the validity of that source model was in question.",
+      "status": "documented",
+      "date": "2008",
+      "quote": "While reviewing the seismic safety evaluation, in 2008, TEPCO conducted another trial calculation utilizing the wave source model of the Meiji Sanriku-oki Earthquake along the trench off-shore Fukushima (the result: 15.7 m).",
+      "sources": [
+        {
+          "url": "https://www.tepco.co.jp/en/nu/fukushima-np/info/12042401-e.html",
+          "publisher": "Tokyo Electric Power Company",
+          "title": "TEPCO statement on tsunami assessment history (24 April 2012)",
+          "date": "2012-04-24"
+        }
+      ]
+    },
+    {
+      "claim": "TEPCO sent the 15.7 m trial calculation results in writing to NISA on 7 March 2011; a NISA office director verbally told TEPCO to submit a report soon and take appropriate measures, and no immediate action followed before the 11 March tsunami.",
+      "status": "reported",
+      "date": "2011-03-07",
+      "quote": "TEPCO sent the trial calculation results in writing to NISA on March 7. An office director at NISA verbally told TEPCO to submit a report soon and to take appropriate measures. No immediate action was taken, however.",
+      "sources": [
+        {
+          "url": "https://jdarchive.org/api/item/1531476",
+          "publisher": "Japan Disasters Digital Archive (Harvard)",
+          "title": "TEPCO warned of big tsunami 4 days prior to March 11",
+          "date": "2011"
+        }
+      ]
+    },
+    {
+      "claim": "The NAIIC final report of 5 July 2012 called the accident a man-made disaster, found that the prime minister's crisis management system and the regulators did not function, and said government, regulators and TEPCO 'effectively betrayed the nation's right to be safe from nuclear accidents'.",
+      "status": "documented",
+      "date": "2012-07-05",
+      "quote": "effectively betrayed the nation's right to be safe from nuclear accidents",
+      "sources": [
+        {
+          "url": "https://jdarchive.org/api/item/1517163",
+          "publisher": "Japan Disasters Digital Archive (Harvard)",
+          "title": "Diet investigative panel: Fukushima nuclear accident was man-made",
+          "date": "2012-07-05"
+        },
+        {
+          "url": "https://www.hiroshimapeacemedia.jp/?p=20370",
+          "publisher": "Hiroshima Peace Media Center (Chugoku Shimbun)",
+          "title": "Editorial: Commission investigating Fukushima concludes accident was 'man-made' disaster",
+          "date": "2012-07"
+        }
+      ]
+    },
+    {
+      "claim": "The NAIIC report described long-standing collusion between regulators and industry, including a section titled 'Regulatory Agency Made Captive of TEPCO and FEPCO', and said METI's regulatory authorities had become allies of the operators.",
+      "status": "documented",
+      "date": "2012-07-05",
+      "sources": [
+        {
+          "url": "https://www.scientificamerican.com/article/fukushima-blame-utilities-goverment-leaders-regulators/",
+          "publisher": "Scientific American",
+          "title": "Fukushima Disaster Blame Belongs with Top Leaders at Utilities, Government and Regulators",
+          "date": "2012-07"
+        },
+        {
+          "url": "https://www.hiroshimapeacemedia.jp/?p=20370",
+          "publisher": "Hiroshima Peace Media Center (Chugoku Shimbun)",
+          "title": "Editorial: Commission investigating Fukushima concludes accident was 'man-made' disaster",
+          "date": "2012-07"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "tepco",
+      "toName": "TEPCO",
+      "toType": "company",
+      "relation": "regulated",
+      "claim": "NISA was TEPCO's nuclear safety regulator; TEPCO sent it the 15.7 m tsunami calculation on 7 March 2011, and NAIIC found the regulator had become captive of the operator.",
+      "status": "documented",
+      "date": "2011-03-07",
+      "sources": [
+        {
+          "url": "https://jdarchive.org/api/item/1531476",
+          "publisher": "Japan Disasters Digital Archive (Harvard)",
+          "title": "TEPCO warned of big tsunami 4 days prior to March 11",
+          "date": "2011"
+        },
+        {
+          "url": "https://www.scientificamerican.com/article/fukushima-blame-utilities-goverment-leaders-regulators/",
+          "publisher": "Scientific American",
+          "title": "Fukushima Disaster Blame Belongs with Top Leaders at Utilities, Government and Regulators",
+          "date": "2012-07"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: the 2008 15.7 m simulation is supported by TEPCO's own statement. The page's '$200M retrofit' figure was not found (an Asahi report cites about 8 billion yen for a barrier against a 20 m wave). The page's claim that meltdowns were concealed for over two months 'to protect corporate stock value' was not addressed by sources found.",
+    "Tsunehisa Katsumata and Masataka Shimizu: no source returned named them in retrieved text (a Spanish-language report mentions the 2019 acquittal of three former TEPCO executives without names in the excerpt); no files were written."
+  ]
+}

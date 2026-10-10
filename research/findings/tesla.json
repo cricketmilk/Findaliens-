@@ -1,0 +1,353 @@
+{
+  "entity": "tesla",
+  "name": "Tesla",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "Tesla, Inc. (Tesla Motors until 2017) is an electric-vehicle and energy-storage maker founded by Martin Eberhard and Marc Tarpenning. Secondary accounts say Elon Musk supplied most of its $7.5 million Series A round in February 2004 and became chairman and largest shareholder. It went public on Nasdaq on June 29, 2010 at $17 a share, raising about $226 million. The U.S. Department of Energy's Advanced Technology Vehicles Manufacturing program made $465 million in loan facilities available to it from January 2010; Tesla repaid the loan in full on May 22, 2013. Its annual reports show automotive regulatory credits revenue of $1.58 billion (2020), $1.47 billion (2021), $1.78 billion (2022), $1.79 billion (2023), $2.76 billion (2024) and $1.99 billion (2025).",
+    "sources": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/0001318605/000095013010002906/ds1a.htm",
+        "publisher": "U.S. Securities and Exchange Commission (Tesla Motors Form S-1/A)",
+        "title": "Tesla Motors, Inc. Amendment to Registration Statement on Form S-1",
+        "date": "2010"
+      },
+      {
+        "url": "https://www.csmonitor.com/From-the-news-wires/2010/0629/Tesla-IPO-2010-Tesla-Motors-stocks-rise-in-public-trading-debut",
+        "publisher": "The Christian Science Monitor (wire report)",
+        "title": "Tesla IPO 2010: Tesla Motors stocks rise in public trading debut",
+        "date": "2010-06-29"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/0001318605/000156459015001031/tsla-10k_20141231.htm",
+        "publisher": "U.S. Securities and Exchange Commission (Tesla Motors Form 10-K)",
+        "title": "Tesla Motors, Inc. Annual Report on Form 10-K for fiscal 2014",
+        "date": "2015-02"
+      },
+      {
+        "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026003952/tsla-20251231-gen.pdf",
+        "publisher": "Tesla, Inc. (Form 10-K for fiscal 2025, investor relations copy)",
+        "title": "Tesla, Inc. Annual Report on Form 10-K for fiscal 2025",
+        "date": "2026"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/History_of_Tesla,_Inc.",
+        "publisher": "Wikipedia",
+        "title": "History of Tesla, Inc.",
+        "date": "2026"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Tesla was founded by Martin Eberhard and Marc Tarpenning; Elon Musk was not an original founder. Secondary accounts say Tesla raised about $7.5 million in a Series A round in February 2004, including about $6.5 million (some accounts say $6.35 million) from Musk, drawn from his PayPal proceeds, after which he became chairman of the board and the largest shareholder.",
+      "status": "reported",
+      "date": "2004-02",
+      "quote": "Including $6.5 million from Musk, who had received $176 million from the sale of his PayPal interest two years earlier.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/History_of_Tesla,_Inc.",
+          "publisher": "Wikipedia",
+          "title": "History of Tesla, Inc.",
+          "date": "2026"
+        },
+        {
+          "url": "https://finance.yahoo.com/news/how-elon-musk-changed-tesla-173233602.html",
+          "publisher": "Yahoo Finance",
+          "title": "How Elon Musk changed Tesla",
+          "date": ""
+        },
+        {
+          "url": "https://edition.cnn.com/interactive/2019/03/business/tesla-history-timeline/index.html",
+          "publisher": "CNN Business",
+          "title": "The history of Tesla and Elon Musk: A radical vision for the future of autos",
+          "date": "2019-03"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001318605/000119312510017054/ds1.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Tesla Motors Form S-1)",
+          "title": "Tesla Motors, Inc. Registration Statement on Form S-1",
+          "date": "2010-01-29"
+        }
+      ]
+    },
+    {
+      "claim": "Tesla priced its initial public offering at $17 per share on June 28, 2010, above the expected $14 to $16 range, and its shares began trading on Nasdaq as TSLA on June 29, 2010; the sale of 13.3 million shares raised about $226.1 million.",
+      "status": "reported",
+      "date": "2010-06-29",
+      "quote": "the offering raised $226.1 million after selling 13.3 million shares for $17 apiece",
+      "sources": [
+        {
+          "url": "https://www.csmonitor.com/From-the-news-wires/2010/0629/Tesla-IPO-2010-Tesla-Motors-stocks-rise-in-public-trading-debut",
+          "publisher": "The Christian Science Monitor (wire report)",
+          "title": "Tesla IPO 2010: Tesla Motors stocks rise in public trading debut",
+          "date": "2010-06-29"
+        },
+        {
+          "url": "https://techcrunch.com/2010/06/28/tesla-prices-ipo-at-17-per-share/amp/",
+          "publisher": "TechCrunch",
+          "title": "Tesla Prices IPO At $17 Per Share",
+          "date": "2010-06-28"
+        },
+        {
+          "url": "https://www.forbes.com/2010/07/02/cboe-ipo-oasis-petroleum-intelligent-investing-tesla.html",
+          "publisher": "Forbes",
+          "title": "Tesla Electrifies The IPO Market",
+          "date": "2010-07-02"
+        }
+      ]
+    },
+    {
+      "claim": "Under the Department of Energy's Advanced Technology Vehicles Manufacturing (ATVM) loan program, the Federal Financing Bank made two multi-draw term loan facilities totaling $465.0 million available to Tesla beginning January 20, 2010, to fund the planned Model S factory and an electric powertrain facility; the loan had been announced in June 2009. Contemporary reports said $365 million was earmarked for the Model S factory and $100 million for the battery-pack and drivetrain facility.",
+      "status": "documented",
+      "date": "2010-01-20",
+      "quote": "The Federal Financing Bank made two multi-draw term loan facilities totaling $465.0 million available beginning on January 20, 2010.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001318605/000095013010002906/ds1a.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Tesla Motors Form S-1/A)",
+          "title": "Tesla Motors, Inc. Amendment to Registration Statement on Form S-1",
+          "date": "2010"
+        },
+        {
+          "url": "https://www.energy.gov/sites/prod/files/2015/02/f19/ATVM_Program_Overview_2015.pdf",
+          "publisher": "U.S. Department of Energy Loan Programs Office",
+          "title": "ATVM Program Overview (2015)",
+          "date": "2015-02"
+        },
+        {
+          "url": "https://www.fastcompany.com/1299342/tesla-hits-jackpot-465-million-doe-loans",
+          "publisher": "Fast Company",
+          "title": "Tesla Hits the Jackpot: $465 Million in DOE Loans",
+          "date": "2009-06"
+        },
+        {
+          "url": "https://www.greencarreports.com/news/1084340_tesla-repays-465-million-doe-loan-chrysler-bites-back-at-claim",
+          "publisher": "Green Car Reports",
+          "title": "Tesla Repays $465-Million DoE Loan, Chrysler Bites Back At Claim",
+          "date": "2013-05"
+        }
+      ]
+    },
+    {
+      "claim": "On May 22, 2013 Tesla paid $451.8 million to retire the DOE loan facility nine years ahead of schedule: $441.0 million of outstanding principal and interest plus a $10.8 million early-repayment penalty, according to its fiscal 2014 annual report. The Department of Energy said Tesla elected to repay the entire remaining balance early, and CNBC reported it was the first automaker to repay an ATVM loan.",
+      "status": "documented",
+      "date": "2013-05-22",
+      "quote": "paid $451.8 million to settle all outstanding loan amounts of $441.0 million, including principal and interest, as well as an early repayment penalty of $10.8 million",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001318605/000156459015001031/tsla-10k_20141231.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Tesla Motors Form 10-K)",
+          "title": "Tesla Motors, Inc. Annual Report on Form 10-K for fiscal 2014",
+          "date": "2015-02"
+        },
+        {
+          "url": "https://www.energy.gov/edf/articles/electric-vehicle-manufacturing-taking-us",
+          "publisher": "U.S. Department of Energy",
+          "title": "Electric Vehicle Manufacturing Taking Off in the U.S.",
+          "date": ""
+        },
+        {
+          "url": "https://www.cnbc.com/2013/05/22/tesla-repays-465-million-loan-from-federal-program.html",
+          "publisher": "CNBC",
+          "title": "Tesla Repays $465 Million Loan from Federal Program",
+          "date": "2013-05-22"
+        }
+      ]
+    },
+    {
+      "claim": "Tesla's income statement in its fiscal 2022 annual report lists automotive regulatory credits revenue of $1,776 million for 2022, $1,465 million for 2021 and $1,580 million for 2020; the company says sales of these credits are recognized within automotive regulatory credits revenue in its consolidated financial statements.",
+      "status": "documented",
+      "date": "2022-12-31",
+      "quote": "Sales of these credits are recognized within automotive regulatory credits revenue in our consolidated financial statements.",
+      "sources": [
+        {
+          "url": "https://ir.tesla.com/_flysystem/s3/sec/000095017023001409/tsla-20221231-gen.pdf",
+          "publisher": "Tesla, Inc. (Form 10-K for fiscal 2022, investor relations copy)",
+          "title": "Tesla, Inc. Annual Report on Form 10-K for fiscal 2022",
+          "date": "2023-01"
+        }
+      ]
+    },
+    {
+      "claim": "Tesla's annual reports show automotive regulatory credits revenue of $1,790 million in 2023, $2,763 million in 2024 and $1,993 million in 2025. The fiscal 2024 report says the line rose $973 million, or 54%, from 2023, citing stronger demand for credits in North America as other automakers scaled back battery-electric plans; the fiscal 2025 report says it fell $770 million, or 28%, from 2024, and cites governmental and regulatory actions, such as the OBBBA, restricting certain credit programs.",
+      "status": "documented",
+      "date": "2025-12-31",
+      "quote": "Automotive regulatory credits revenue increased $973 million, or 54%, in the year ended December 31, 2024 as compared to the year ended December 31, 2023.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828025003063/tsla-20241231.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Tesla, Inc. Form 10-K)",
+          "title": "Tesla, Inc. Annual Report on Form 10-K for fiscal 2024",
+          "date": "2025-01"
+        },
+        {
+          "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026003952/tsla-20251231-gen.pdf",
+          "publisher": "Tesla, Inc. (Form 10-K for fiscal 2025, investor relations copy)",
+          "title": "Tesla, Inc. Annual Report on Form 10-K for fiscal 2025",
+          "date": "2026"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828024002390/tsla-20231231.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Tesla, Inc. Form 10-K)",
+          "title": "Tesla, Inc. Annual Report on Form 10-K for fiscal 2023",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "claim": "Tesla's Fifth Amended and Restated Investors' Rights Agreement, filed as an exhibit to its January 2010 Form S-1, lists the Elon Musk Revocable Trust dated July 22, 2003 first among the Series A Stockholders, alongside founders Martin Eberhard and Marc Tarpenning; the S-1's balance sheets show 7,213,000 shares of Series A convertible preferred stock issued and outstanding before the offering, all of which converted to common stock.",
+      "status": "documented",
+      "date": "2010-01-29",
+      "quote": "Elon Musk Revocable Trust dated July 22, 2003",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312510017054/dex42.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Tesla Motors Form S-1, Exhibit 4.2)",
+          "title": "Fifth Amended and Restated Investors' Rights Agreement",
+          "date": "2010-01-29"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001318605/000119312510017054/ds1.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Tesla Motors Form S-1)",
+          "title": "Tesla Motors, Inc. Registration Statement on Form S-1",
+          "date": "2010-01-29"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095013010002906/ds1a.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Tesla Motors Form S-1/A, Amendment No. 4)",
+          "title": "Amendment No. 4 to Registration Statement on Form S-1",
+          "date": "2010-06"
+        }
+      ]
+    },
+    {
+      "claim": "Tesla's 2010 registration statement (Amendment No. 4) describes Elon Musk as its Chief Executive Officer, Product Architect, Chairman of the Board of Directors and largest stockholder, and says he has historically provided a significant amount of the funds required for the company's operations. The related-party disclosures list the Elon Musk Revocable Trust dated July 22, 2003 among the purchasers of the Series D and Series E preferred stock.",
+      "status": "documented",
+      "date": "2010-06",
+      "quote": "Chief Executive Officer, Product Architect, Chairman of our Board of Directors and largest stockholder",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095013010002906/ds1a.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Tesla Motors Form S-1/A, Amendment No. 4)",
+          "title": "Amendment No. 4 to Registration Statement on Form S-1",
+          "date": "2010-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001318605/000119312510017054/ds1.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Tesla Motors Form S-1)",
+          "title": "Tesla Motors, Inc. Registration Statement on Form S-1",
+          "date": "2010-01-29"
+        }
+      ]
+    },
+    {
+      "claim": "Tesla's 2011 Form S-1 (for its follow-on offering) says Elon Musk has been involved with the company since its earliest days in April 2004, including raising capital and bringing in investors.",
+      "status": "documented",
+      "date": "2011",
+      "quote": "since our earliest days in April 2004, including raising capital and bringing in investors",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312511149963/ds1.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Tesla Motors Form S-1, 2011)",
+          "title": "Form S-1 Registration Statement (Tesla Motors, 2011)",
+          "date": "2011"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "elon-musk",
+      "toName": "Elon Musk",
+      "toType": "person",
+      "relation": "invested in",
+      "claim": "Secondary accounts say Elon Musk invested about $6.5 million of his PayPal proceeds in Tesla's February 2004 Series A round and became chairman of the board and its largest shareholder; he was not one of the company's original founders.",
+      "status": "reported",
+      "date": "2004-02",
+      "quote": "Afterward, Musk became the chairman of the board of directors and the largest shareholder of Tesla.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/History_of_Tesla,_Inc.",
+          "publisher": "Wikipedia",
+          "title": "History of Tesla, Inc.",
+          "date": "2026"
+        },
+        {
+          "url": "https://finance.yahoo.com/news/how-elon-musk-changed-tesla-173233602.html",
+          "publisher": "Yahoo Finance",
+          "title": "How Elon Musk changed Tesla",
+          "date": ""
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "department-of-energy",
+      "toName": "U.S. Department of Energy",
+      "toType": "government",
+      "relation": "funded",
+      "claim": "The U.S. Department of Energy lent Tesla $465 million under its Advanced Technology Vehicles Manufacturing program (loan facilities available from January 20, 2010, via the Federal Financing Bank); Tesla repaid the loan in full, with a $10.8 million early-repayment penalty, on May 22, 2013.",
+      "status": "documented",
+      "date": "2010-01-20",
+      "quote": "The Federal Financing Bank made two multi-draw term loan facilities totaling $465.0 million available beginning on January 20, 2010.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001318605/000095013010002906/ds1a.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Tesla Motors Form S-1/A)",
+          "title": "Tesla Motors, Inc. Amendment to Registration Statement on Form S-1",
+          "date": "2010"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001318605/000156459015001031/tsla-10k_20141231.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Tesla Motors Form 10-K)",
+          "title": "Tesla Motors, Inc. Annual Report on Form 10-K for fiscal 2014",
+          "date": "2015-02"
+        },
+        {
+          "url": "https://www.energy.gov/edf/articles/electric-vehicle-manufacturing-taking-us",
+          "publisher": "U.S. Department of Energy",
+          "title": "Electric Vehicle Manufacturing Taking Off in the U.S.",
+          "date": ""
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "elon-musk",
+      "toName": "Elon Musk",
+      "toType": "person",
+      "relation": "invested in",
+      "reverse": true,
+      "claim": "Tesla's SEC filings list the Elon Musk Revocable Trust dated July 22, 2003 as a Series A stockholder and as a purchaser of Series D and Series E preferred stock, describe Musk as the company's largest stockholder at the 2010 IPO, and say he has been involved since the company's earliest days in April 2004, including raising capital.",
+      "status": "documented",
+      "date": "2010",
+      "quote": "Chief Executive Officer, Product Architect, Chairman of our Board of Directors and largest stockholder",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312510017054/dex42.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Tesla Motors Form S-1, Exhibit 4.2)",
+          "title": "Fifth Amended and Restated Investors' Rights Agreement",
+          "date": "2010-01-29"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095013010002906/ds1a.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Tesla Motors Form S-1/A, Amendment No. 4)",
+          "title": "Amendment No. 4 to Registration Statement on Form S-1",
+          "date": "2010-06"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000119312511149963/ds1.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Tesla Motors Form S-1, 2011)",
+          "title": "Form S-1 Registration Statement (Tesla Motors, 2011)",
+          "date": "2011"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Which regulatory programs the credits come from (California ZEV, federal GHG/CAFE, EU CO2 pooling) and that buyers are other regulated automakers: the 10-K passage describing this was not retrieved before the search budget ran out, so the brief's phrase 'ZEV credits paid by legacy automakers' is recorded only as 'automotive regulatory credits revenue' here. The fiscal 2024 10-K's attribution to 'other automakers' scaling back BEV plans was returned in paraphrase only.",
+    "Tesla's fiscal 2021 10-K narrative (credits of $1.46 billion, $1.58 billion and $594 million for 2021, 2020 and 2019) was returned in a search summary but the filing page itself was not in the results; the 2019 figure is therefore not recorded.",
+    "The DOE's own 2010 loan-closing release and the June 2009 award release were not retrieved; the January 20, 2010 date is from Tesla's S-1/A.",
+    "2004 Series A: Tesla's S-1 exhibits establish that Musk's trust is a Series A stockholder and the S-1/A that he was the largest stockholder and a historical funder, but the filing's narrative on the Series A round itself (date, size, Musk's contribution) was not located in the pages returned, so the $7.5 million round / ~$6.5 million from Musk figures remain secondary-source only. The 2011 S-1 dates Musk's involvement to 'April 2004', not the February 2004 given by secondary accounts. The 7,213,000 Series A share count was returned from an S-1 amendment's balance sheet without the amendment being identified; the quoted S-1/A phrases ('largest stockholder'; funds for operations) came from search excerpts and should be confirmed in the filing text."
+  ]
+}

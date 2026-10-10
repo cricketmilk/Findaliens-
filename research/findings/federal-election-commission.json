@@ -1,0 +1,67 @@
+{
+  "entity": "federal-election-commission",
+  "name": "Federal Election Commission",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The Federal Election Commission is an independent regulatory agency created by the 1974 amendments to the Federal Election Campaign Act of 1971; its first commissioners were sworn in on April 14, 1975. It is directed by six commissioners appointed by the President with Senate consent, no more than three from the same party, and its stated mission is to protect the integrity of the federal campaign finance process by providing transparency and fairly enforcing and administering federal campaign finance laws. It has exclusive jurisdiction over civil enforcement of those laws and no jurisdiction over voting, ballot access or election results. On this site it appears as the keeper of filings by Fairshake and Future Forward and as the body that dismissed Matter Under Review 7562 concerning New Knowledge and the 2017 Alabama Senate election.",
+    "sources": [
+      { "url": "https://www.fec.gov/about/fec-historical-timeline/", "publisher": "Federal Election Commission", "title": "FEC historical timeline" },
+      { "url": "https://www.fec.gov/resources/cms-content/documents/FEC_strategic_plan_FY_2022-2026.pdf", "publisher": "Federal Election Commission", "title": "Federal Election Commission FY 2022-2026 Strategic Plan" },
+      { "url": "https://www.fec.gov/introduction-campaign-finance/", "publisher": "Federal Election Commission", "title": "Introduction to campaign finance and elections" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The 1974 amendments to the Federal Election Campaign Act established the FEC with civil enforcement jurisdiction, rulemaking authority and responsibility for monitoring compliance; the first commissioners were sworn in on April 14, 1975, and after Buckley v. Valeo the commission's executive powers were suspended from March 22, 1976 until President Ford reappointed the commissioners on May 21, 1976.",
+      "status": "documented",
+      "date": "1975-04-14",
+      "quote": "The first Commissioners were sworn in on April 14, 1975.",
+      "sources": [
+        { "url": "https://www.fec.gov/about/fec-historical-timeline/", "publisher": "Federal Election Commission", "title": "FEC historical timeline" }
+      ]
+    },
+    {
+      "claim": "A complaint on file with the FEC as Matter Under Review 7562 alleged that money for a disinformation effort in the 2017 Alabama special Senate election flowed through American Engagement Technologies to New Knowledge; the FEC's closed-matters listing shows MUR 7562, case name New Knowledge, 2018 election cycle, subjects 'Contributions-Prohibited; Contributions-Corporations', with a disposition of 'Dismissed-Other' for three respondents.",
+      "status": "court",
+      "date": "2018",
+      "quote": "Dismissed-Other",
+      "sources": [
+        { "url": "https://www.fec.gov/files/legal/murs/7562/7562_01.pdf", "publisher": "Federal Election Commission", "title": "MUR 7562, complaint (document 1)" },
+        { "url": "https://www.fec.gov/files/legal/murs/7562/7562_09.pdf", "publisher": "Federal Election Commission", "title": "MUR 7562, letter on behalf of Jonathon Morgan and New Knowledge (document 9)" },
+        { "url": "https://www.fec.gov/data/legal/search/murs/?search=filing&case_respondents=&case_min_open_date=&case_max_open_date=&case_min_close_date=&case_max_close_date=&offset=420", "publisher": "Federal Election Commission", "title": "Searching Closed Matters Under Review (listing including MUR 7562, New Knowledge)" }
+      ]
+    },
+    {
+      "claim": "FEC records for Fairshake (committee C00835959) show total receipts of $137,923,215.69 for January 1, 2025 through August 31, 2026, about $99.1 million of it from individual contributions, and about $13.3 million in independent expenditures; FEC tables ranked it first among super PACs by receipts for January-June 2025 (about $59.1 million) and show about $40.66 million in independent expenditures in the 2023-2024 cycle.",
+      "status": "documented",
+      "date": "2026-08-31",
+      "quote": "FAIRSHAKE - committee overview",
+      "sources": [
+        { "url": "https://www.fec.gov/data/committee/C00835959/", "publisher": "Federal Election Commission", "title": "FAIRSHAKE - committee overview" },
+        { "url": "https://www.fec.gov/resources/campaign-finance-statistics/2026/tables/pac/PAC12a_2025_6m.pdf", "publisher": "Federal Election Commission", "title": "Top 50 PACs by receipts, January 1 - June 30, 2025 (table generated 9/4/25)", "date": "2025-09-04" },
+        { "url": "https://www.fec.gov/resources/campaign-finance-statistics/2024/tables/ie/IE1_2024_24m.pdf", "publisher": "Federal Election Commission", "title": "PAC independent expenditures, 2023-2024 (table generated 3/27/2025)", "date": "2025-03-27" }
+      ]
+    },
+    {
+      "claim": "The committee registered with the FEC in February 2018 as Future Forward USA PAC (C00669259) is now listed as FF PAC, an active quarterly hybrid PAC with a non-contribution account; its July 2024 Form 3X reported year-to-date receipts of about $138.6 million and cash on hand of about $124.3 million, while its 2025-2026 overview shows about $9.9 million in receipts through June 30, 2026.",
+      "status": "documented",
+      "date": "2024-07",
+      "quote": "FF PAC - committee overview",
+      "sources": [
+        { "url": "https://www.fec.gov/data/committee/C00669259/", "publisher": "Federal Election Commission", "title": "FF PAC - committee overview" },
+        { "url": "https://docquery.fec.gov/cgi-bin/forms/C00669259/1812370/", "publisher": "Federal Election Commission", "title": "FEC Disclosure Form 3X for FF PAC" },
+        { "url": "https://www.fec.gov/resources/campaign-finance-statistics/2024/tables/pac/PAC3b_2024_18m.pdf", "publisher": "Federal Election Commission", "title": "PAC financial activity, January 1, 2023 - June 30, 2024 (table generated 8/30/24)", "date": "2024-08-30" }
+      ]
+    }
+  ],
+  "connections": [
+    { "to": "new-knowledge", "toName": "New Knowledge", "toType": "company", "relation": "investigated", "claim": "The FEC processed a complaint against New Knowledge and others as MUR 7562 over the 2017 Alabama special election and closed it with a disposition of 'Dismissed-Other'.", "status": "court", "date": "2018", "quote": "Dismissed-Other", "sources": [ { "url": "https://www.fec.gov/data/legal/search/murs/?search=filing&case_respondents=&case_min_open_date=&case_max_open_date=&case_min_close_date=&case_max_close_date=&offset=420", "publisher": "Federal Election Commission", "title": "Searching Closed Matters Under Review (listing including MUR 7562, New Knowledge)" }, { "url": "https://www.fec.gov/files/legal/murs/7562/7562_01.pdf", "publisher": "Federal Election Commission", "title": "MUR 7562, complaint (document 1)" } ] },
+    { "to": "reid-hoffman", "toName": "Reid Hoffman", "toType": "person", "relation": "other", "claim": "The MUR 7562 complaint asserted that funds for the 2017 Alabama effort flowed through American Engagement Technologies, the firm Hoffman funded; the matter was dismissed.", "status": "court", "date": "2018", "quote": "Dismissed-Other", "sources": [ { "url": "https://www.fec.gov/files/legal/murs/7562/7562_01.pdf", "publisher": "Federal Election Commission", "title": "MUR 7562, complaint (document 1)" }, { "url": "https://www.fec.gov/data/legal/search/murs/?search=filing&case_respondents=&case_min_open_date=&case_max_open_date=&case_min_close_date=&case_max_close_date=&offset=420", "publisher": "Federal Election Commission", "title": "Searching Closed Matters Under Review (listing including MUR 7562, New Knowledge)" } ] },
+    { "to": "fairshake", "toName": "Fairshake", "toType": "organization", "relation": "regulated", "claim": "Fairshake files its receipts and independent expenditures with the FEC as committee C00835959; FEC tables ranked it first among super PACs by receipts for January-June 2025.", "status": "documented", "date": "2025-06-30", "quote": "FAIRSHAKE - committee overview", "sources": [ { "url": "https://www.fec.gov/data/committee/C00835959/", "publisher": "Federal Election Commission", "title": "FAIRSHAKE - committee overview" }, { "url": "https://www.fec.gov/resources/campaign-finance-statistics/2026/tables/pac/PAC12a_2025_6m.pdf", "publisher": "Federal Election Commission", "title": "Top 50 PACs by receipts, January 1 - June 30, 2025 (table generated 9/4/25)", "date": "2025-09-04" } ] },
+    { "to": "future-forward", "toName": "Future Forward", "toType": "organization", "relation": "regulated", "claim": "Future Forward USA PAC, now listed by the FEC as FF PAC (C00669259), files with the FEC as a hybrid PAC; its July 2024 Form 3X reported year-to-date receipts of about $138.6 million.", "status": "documented", "date": "2024-07", "quote": "FF PAC - committee overview", "sources": [ { "url": "https://www.fec.gov/data/committee/C00669259/", "publisher": "Federal Election Commission", "title": "FF PAC - committee overview" }, { "url": "https://docquery.fec.gov/cgi-bin/forms/C00669259/1812370/", "publisher": "Federal Election Commission", "title": "FEC Disclosure Form 3X for FF PAC" } ] }
+  ],
+  "openQuestions": [
+    "The FEC's reasoning for dismissing MUR 7562 (e.g. a factual and legal analysis or statement of reasons) was not retrieved; only the closed-case listing and the complaint were available.",
+    "Senator Burr's own campaign committee filings were not researched; the FEC's role in the Burr episode on this site is limited."
+  ]
+}

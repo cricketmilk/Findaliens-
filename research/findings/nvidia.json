@@ -1,0 +1,430 @@
+{
+  "entity": "nvidia",
+  "name": "Nvidia",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Nvidia Corporation is a publicly traded designer of graphics processors and AI accelerators, and its data-center chips are the main hardware used to train and run large AI models. Its sales to China have been subject to U.S. export licensing requirements since October 2023, and in August 2025 it agreed to remit 15 percent of licensed H20 China sales to the U.S. government. In 2025 it signed a non-binding letter of intent to invest up to $100 billion in OpenAI and agreed to invest up to $10 billion in Anthropic. Its CEO is Jensen Huang.",
+    "sources": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000217/nvda-20231017.htm",
+        "publisher": "U.S. Securities and Exchange Commission (Nvidia filing)",
+        "title": "NVIDIA Corp. Form 8-K",
+        "date": "2023-10-17"
+      },
+      {
+        "url": "https://nvidianews.nvidia.com/news/openai-and-nvidia-announce-strategic-partnership-to-deploy-10gw-of-nvidia-systems",
+        "publisher": "Nvidia (company statement)",
+        "title": "OpenAI and NVIDIA Announce Strategic Partnership to Deploy 10 Gigawatts of NVIDIA Systems",
+        "date": "2025-09-22"
+      },
+      {
+        "url": "https://www.cnn.com/2025/08/11/china/us-china-trade-nvidia-chips-intl-hnk",
+        "publisher": "CNN",
+        "title": "Nvidia and AMD will give US 15% of China sales. But Chinese state media warns about their chips",
+        "date": "2025-08-11"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In a Form 8-K filed October 17, 2023, Nvidia disclosed that a U.S. interim final rule amending export control classifications 3A090 and 4A090 imposed additional licensing requirements for exports to China and Country Groups D1, D4 and D5, covering its A100, A800, H100, H800, L40, L40S and RTX 4090 chips and systems containing them.",
+      "status": "documented",
+      "date": "2023-10-17",
+      "quote": "The rule amends ECCN 3A090 and 4A090 and imposes additional licensing requirements for exports to China and Country Groups D1, D4, and D5.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000217/nvda-20231017.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Nvidia filing)",
+          "title": "NVIDIA Corp. Form 8-K",
+          "date": "2023-10-17"
+        }
+      ]
+    },
+    {
+      "claim": "In a Form 8-K filed October 23, 2023, Nvidia said the U.S. government had informed it that the licensing requirements took effect immediately rather than after the 30-day period first described, affecting shipments of its A100, A800, H100, H800 and L40S products.",
+      "status": "documented",
+      "date": "2023-10-23",
+      "quote": "This impacted shipments of the Company's A100, A800, H100, H800, and L40S products.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000221/nvda-20231023.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Nvidia filing)",
+          "title": "NVIDIA Corp. Form 8-K",
+          "date": "2023-10-23"
+        }
+      ]
+    },
+    {
+      "claim": "In its CFO commentary for the third quarter of fiscal 2024, Nvidia said sales to China and other affected destinations had consistently contributed approximately 20-25 percent of Data Center revenue over the preceding quarters and were expected to decline significantly in the fourth quarter, more than offset by growth elsewhere.",
+      "status": "documented",
+      "date": "2023-11",
+      "quote": "sales to China and other affected destinations have consistently contributed approximately 20-25% of Data Center revenue over the past few quarters",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000225/q3fy24cfocommentary.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Nvidia filing)",
+          "title": "NVIDIA Corp. CFO Commentary on Third Quarter Fiscal 2024 Results (Form 8-K exhibit)",
+          "date": "2023-11"
+        }
+      ]
+    },
+    {
+      "claim": "In August 2025, Nvidia and AMD agreed to give the U.S. government 15 percent of their China chip revenue (from Nvidia's H20 and AMD's MI308) in return for export licenses, following a meeting between Jensen Huang and President Trump; the Commerce Department began issuing H20 licenses two days after the meeting. On its second-quarter earnings call Nvidia's CFO said no regulation codifying the requirement had been published.",
+      "status": "reported",
+      "date": "2025-08-11",
+      "quote": "Nvidia and AMD agreed to give the U.S. government 15% of their China chip revenue in return for export licenses.",
+      "sources": [
+        {
+          "url": "https://www.cnn.com/2025/08/11/china/us-china-trade-nvidia-chips-intl-hnk",
+          "publisher": "CNN",
+          "title": "Nvidia and AMD will give US 15% of China sales. But Chinese state media warns about their chips",
+          "date": "2025-08-11"
+        },
+        {
+          "url": "https://www.cbsnews.com/news/nvidia-amd-chip-sales-china-15-percent-h20-mi308",
+          "publisher": "CBS News",
+          "title": "Nvidia and AMD to pay U.S. 15% of China chip sales in exchange for export licenses",
+          "date": "2025-08"
+        },
+        {
+          "url": "https://finance.yahoo.com/news/nvidia-still-hasnt-finalized-deal-to-kick-15-of-h20-china-chip-sales-back-to-the-us-government-230229161.html",
+          "publisher": "Yahoo Finance",
+          "title": "Nvidia still hasn't finalized deal to kick 15% of H20 China chip sales back to the US government",
+          "date": "2025-08"
+        }
+      ]
+    },
+    {
+      "claim": "On September 22, 2025, Nvidia and OpenAI announced a letter of intent for a partnership to deploy at least 10 gigawatts of Nvidia systems, under which Nvidia intends to invest up to $100 billion in OpenAI progressively as each gigawatt is deployed, with the first gigawatt planned for the second half of 2026 on the Vera Rubin platform.",
+      "status": "documented",
+      "date": "2025-09-22",
+      "quote": "NVIDIA intends to invest up to $100 billion in OpenAI as the new NVIDIA systems are deployed.",
+      "sources": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/openai-and-nvidia-announce-strategic-partnership-to-deploy-10gw-of-nvidia-systems",
+          "publisher": "Nvidia (company statement)",
+          "title": "OpenAI and NVIDIA Announce Strategic Partnership to Deploy 10 Gigawatts of NVIDIA Systems",
+          "date": "2025-09-22"
+        },
+        {
+          "url": "https://openai.com/index/openai-nvidia-systems-partnership/",
+          "publisher": "OpenAI (company statement)",
+          "title": "OpenAI and NVIDIA announce strategic partnership to deploy 10 gigawatts of NVIDIA systems",
+          "date": "2025-09-22"
+        }
+      ]
+    },
+    {
+      "claim": "In February 2026 Jensen Huang said the pledge to invest $100 billion in OpenAI was never a commitment and that Nvidia's contribution to OpenAI's funding round would not approach $100 billion, after a Wall Street Journal report that the plan had stalled.",
+      "status": "reported",
+      "date": "2026-02-02",
+      "quote": "Huang said that Nvidia's contribution to OpenAI's current funding round wouldn't approach $100 billion.",
+      "sources": [
+        {
+          "url": "https://fortune.com/2026/02/02/jensen-huang-nvidia-ceo-on-openai-investment-never-a-commitment/",
+          "publisher": "Fortune",
+          "title": "Pledge to invest $100 billion in OpenAI was 'never a commitment,' says Nvidia's Huang",
+          "date": "2026-02-02"
+        }
+      ]
+    },
+    {
+      "claim": "On November 18, 2025, Nvidia agreed to invest up to $10 billion in Anthropic as part of a joint commitment with Microsoft; Anthropic planned to reserve up to one gigawatt of compute on Nvidia's Grace Blackwell and Vera Rubin hardware.",
+      "status": "reported",
+      "date": "2025-11-18",
+      "quote": "Nvidia's share is up to $10 billion and Microsoft's is up to $5 billion.",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2025-11-18/microsoft-nvidia-to-invest-up-to-15-billion-in-anthropic",
+          "publisher": "Bloomberg",
+          "title": "Microsoft, Nvidia to Invest Up to $15 Billion in Anthropic",
+          "date": "2025-11-18"
+        },
+        {
+          "url": "https://finance.yahoo.com/news/microsoft-nvidia-invest-anthropic-startup-113316065.html",
+          "publisher": "Yahoo Finance",
+          "title": "Microsoft and Nvidia to Invest in Anthropic as Startup Commits $30 Billion to Azure",
+          "date": "2025-11-18"
+        }
+      ]
+    },
+    {
+      "claim": "In May 2025, during a Riyadh investment forum held alongside a visit by President Trump, Nvidia agreed to supply chips to Humain, a company launched by Saudi Arabia's Public Investment Fund, for AI data centers with up to 500 megawatts of computing power, starting with 18,000 GB300 Grace Blackwell processors.",
+      "status": "reported",
+      "date": "2025-05",
+      "quote": "The first phase includes 18,000 units of the GB300 Grace Blackwell processor, along with InfiniBand networking technology.",
+      "sources": [
+        {
+          "url": "https://www.datacenterdynamics.com/en/news/saudi-arabian-ai-venture-humain-buys-18000-nvidia-gb300-chips-several-hundred-thousand-more-on-the-way/",
+          "publisher": "Data Center Dynamics",
+          "title": "Saudi Arabian AI venture Humain buys 18,000 Nvidia GB300 chips, 'several hundred thousand' more on the way",
+          "date": "2025-05"
+        },
+        {
+          "url": "https://www.networkworld.com/article/3986905/amd-nvidia-partner-with-saudi-startup-to-build-multi-billion-dollar-ai-service-centers.html",
+          "publisher": "Network World",
+          "title": "AMD, Nvidia partner with Saudi startup to build multi-billion dollar AI service centers",
+          "date": "2025-05"
+        },
+        {
+          "url": "https://www.cnbc.com/2025/08/27/saudi-arabia-wants-to-be-worlds-third-largest-ai-provider-humain.html",
+          "publisher": "CNBC",
+          "title": "Saudi AI firm Humain is pouring billions into data centers. Will it pay off?",
+          "date": "2025-08-27"
+        }
+      ]
+    },
+    {
+      "claim": "According to a Bloomberg analysis of federal lobbying filings, Nvidia's U.S. federal lobbying spending reached about $4.9 million in 2025, roughly seven times its 2024 level; Axios reported $1.9 million in the third quarter and $1.4 million in the fourth quarter.",
+      "status": "reported",
+      "date": "2025",
+      "quote": "Nvidia's budget reached $4.9 million, roughly seven times its 2024 level",
+      "sources": [
+        {
+          "url": "https://www.deeplearning.ai/the-batch/meta-amazon-microsoft-google-and-nvidia-pour-millions-into-government-influence",
+          "publisher": "DeepLearning.AI (The Batch), relaying a Bloomberg analysis of federal lobbying filings",
+          "title": "Big AI Spends Big On Lobbying: Meta, Amazon, Microsoft, Google, and Nvidia pour millions into government influence",
+          "date": "2026"
+        },
+        {
+          "url": "https://www.axios.com/2025/10/21/tech-lobbying-insights-q3",
+          "publisher": "Axios",
+          "title": "Meta tops spending again as AI lobbying heats up",
+          "date": "2025-10-21"
+        },
+        {
+          "url": "https://www.axios.com/2026/01/21/meta-big-tech-lobbying-spending-q4",
+          "publisher": "Axios",
+          "title": "Meta outspends Big Tech peers on lobbying again",
+          "date": "2026-01-21"
+        }
+      ]
+    },
+    {
+      "claim": "On May 13, 2025 the Commerce Department's Bureau of Industry and Security announced it had initiated rescission of the January 2025 'AI Diffusion Rule', which had imposed a worldwide licensing framework on advanced AI chips and was due to take effect May 15, 2025. Under Secretary Jeffery Kessler instructed BIS enforcement officials not to enforce the rule, BIS said it would publish a Federal Register notice formalizing the rescission and issue a replacement rule later, and it issued guidance stating that using Huawei Ascend chips anywhere in the world risks violating U.S. export controls.",
+      "status": "documented",
+      "date": "2025-05-13",
+      "quote": "Under Secretary of Commerce for Industry and Security Jeffery Kessler has instructed BIS enforcement officials not to enforce the Biden Administration's AI Diffusion Rule",
+      "sources": [
+        {
+          "url": "https://www.bis.gov/press-release/department-commerce-rescinds-biden-era-artificial-intelligence-diffusion-rule-strengthens-chip-related",
+          "publisher": "Bureau of Industry and Security",
+          "title": "Department of Commerce Rescinds Biden-Era Artificial Intelligence Diffusion Rule, Strengthens Chip-Related Export Controls",
+          "date": "2025-05-13"
+        },
+        {
+          "url": "https://www.datacenterdynamics.com/en/news/department-of-commerce-formally-rescinds-ai-diffusion-rule-says-deploying-huawei-ascend-chips-violates-us-export-rules/",
+          "publisher": "Data Center Dynamics",
+          "title": "Department of Commerce formally rescinds AI Diffusion Rule, says deploying Huawei Ascend chips violates US export rules",
+          "date": "2025-05"
+        }
+      ]
+    },
+    {
+      "claim": "During the president's May 2025 visit to Abu Dhabi, Reuters reported that the United States had a preliminary agreement with the UAE allowing it to import up to 500,000 of Nvidia's most advanced AI chips a year, with a draft allocating 20 percent (100,000 a year) to G42 and the rest to U.S. companies building data centers in the UAE; the agreement was still being negotiated. In October 2025 BIS issued export licenses for Nvidia chips under the US-UAE AI Acceleration Partnership framework, with the initial permits reported to exclude G42.",
+      "status": "reported",
+      "date": "2025-10-09",
+      "quote": "The draft called for 20% of the chips, or 100,000 per year, to go to G42.",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/news/us-close-letting-uae-import-204750738.html",
+          "publisher": "Reuters via Yahoo Finance",
+          "title": "US close to letting UAE import millions of Nvidia's AI chips, sources say",
+          "date": "2025-05"
+        },
+        {
+          "url": "https://www.thenationalnews.com/future/technology/2025/10/09/us-approves-first-nvidia-chips-to-uae-to-deepen-ai-partnership/",
+          "publisher": "The National",
+          "title": "US 'approves first Nvidia chips' to the UAE to deepen AI partnership",
+          "date": "2025-10-09"
+        },
+        {
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/u-s-finally-grants-nvidia-license-to-ship-ai-gpus-to-uae-500-000-blackwell-gpus-coming-to-the-gulf-region",
+          "publisher": "Tom's Hardware",
+          "title": "U.S. finally grants Nvidia license to ship AI GPUs to UAE",
+          "date": "2025-10"
+        }
+      ]
+    },
+    {
+      "claim": "On November 19, 2025, following a Washington visit by the Saudi crown prince, the Commerce Department announced it had authorized exports of advanced U.S. semiconductors to G42 in the UAE and Humain in Saudi Arabia, each approved to purchase the equivalent of up to 35,000 Nvidia Blackwell GB300 chips, conditioned on security and reporting requirements monitored by BIS. Commerce said the approvals followed the U.S.-Saudi and U.S.-UAE AI partnership agreements and the July 2025 AI Action Plan.",
+      "status": "documented",
+      "date": "2025-11-19",
+      "quote": "Both companies are receiving approvals to purchase the equivalent of up to 35,000 Nvidia Blackwell chips (GB300s).",
+      "sources": [
+        {
+          "url": "https://www.commerce.gov/news/press-releases/2025/11/statement-uae-and-saudi-chip-exports",
+          "publisher": "U.S. Department of Commerce",
+          "title": "Statement on UAE and Saudi Chip Exports",
+          "date": "2025-11-19"
+        },
+        {
+          "url": "https://www.cnbc.com/2025/11/20/us-approves-ai-chip-exports-to-gulf-after-saudi-crown-prince-visit.html",
+          "publisher": "CNBC",
+          "title": "U.S. greenlights AI chip exports to Gulf tech giants after Saudi Crown Prince's Washington visit",
+          "date": "2025-11-20"
+        }
+      ]
+    },
+    {
+      "claim": "In May 2025 Nvidia joined G42, OpenAI, Oracle, SoftBank Group and Cisco in announcing Stargate UAE, a 1-gigawatt AI cluster in Abu Dhabi to be built by G42's Khazna Data Centers within a 5-gigawatt UAE-U.S. AI campus, with Nvidia supplying Grace Blackwell GB300 systems; the first 200 megawatts were planned to come online in 2026.",
+      "status": "reported",
+      "date": "2025-05-22",
+      "quote": "NVIDIA supplies the latest NVIDIA Grace Blackwell GB300 systems.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2025/05/22/stargate-uae-openai-nvidia-oracle.html",
+          "publisher": "CNBC",
+          "title": "OpenAI, Oracle and NVIDIA will help build Stargate UAE AI campus launching in 2026",
+          "date": "2025-05-22"
+        },
+        {
+          "url": "https://gulfbusiness.com/g42-openai-oracle-nvidia-to-build-stargate-uae/",
+          "publisher": "Gulf Business",
+          "title": "Stargate UAE: G42, OpenAI, Oracle, NVIDIA, SoftBank, Cisco to build AI cluster",
+          "date": "2025-05"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "openai",
+      "relation": "invested in",
+      "claim": "Nvidia signed a letter of intent in September 2025 to invest up to $100 billion in OpenAI as 10 gigawatts of Nvidia systems are deployed; in February 2026 Jensen Huang said this was never a commitment.",
+      "status": "documented",
+      "date": "2025-09-22",
+      "quote": "NVIDIA intends to invest up to $100 billion in OpenAI as the new NVIDIA systems are deployed.",
+      "sources": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/openai-and-nvidia-announce-strategic-partnership-to-deploy-10gw-of-nvidia-systems",
+          "publisher": "Nvidia (company statement)",
+          "title": "OpenAI and NVIDIA Announce Strategic Partnership to Deploy 10 Gigawatts of NVIDIA Systems",
+          "date": "2025-09-22"
+        },
+        {
+          "url": "https://fortune.com/2026/02/02/jensen-huang-nvidia-ceo-on-openai-investment-never-a-commitment/",
+          "publisher": "Fortune",
+          "title": "Pledge to invest $100 billion in OpenAI was 'never a commitment,' says Nvidia's Huang",
+          "date": "2026-02-02"
+        }
+      ]
+    },
+    {
+      "to": "anthropic",
+      "relation": "invested in",
+      "claim": "Nvidia agreed in November 2025 to invest up to $10 billion in Anthropic.",
+      "status": "reported",
+      "date": "2025-11-18",
+      "quote": "Nvidia's share is up to $10 billion and Microsoft's is up to $5 billion.",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2025-11-18/microsoft-nvidia-to-invest-up-to-15-billion-in-anthropic",
+          "publisher": "Bloomberg",
+          "title": "Microsoft, Nvidia to Invest Up to $15 Billion in Anthropic",
+          "date": "2025-11-18"
+        }
+      ]
+    },
+    {
+      "to": "bis",
+      "relation": "regulated",
+      "reverse": true,
+      "claim": "The Commerce Department's Bureau of Industry and Security has required licenses for Nvidia's advanced chip exports to China since October 2023, and in 2025 export licenses for the H20 were tied to a 15 percent revenue remittance to the U.S. government.",
+      "status": "documented",
+      "date": "2023-10-17",
+      "quote": "imposes additional licensing requirements for exports to China and Country Groups D1, D4, and D5",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000217/nvda-20231017.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Nvidia filing)",
+          "title": "NVIDIA Corp. Form 8-K",
+          "date": "2023-10-17"
+        },
+        {
+          "url": "https://www.cnn.com/2025/08/11/china/us-china-trade-nvidia-chips-intl-hnk",
+          "publisher": "CNN",
+          "title": "Nvidia and AMD will give US 15% of China sales. But Chinese state media warns about their chips",
+          "date": "2025-08-11"
+        }
+      ]
+    },
+    {
+      "to": "softbank",
+      "relation": "invested in",
+      "reverse": true,
+      "claim": "SoftBank's Vision Fund built a stake in Nvidia worth about $4 billion in 2017 and divested it in January 2019; SoftBank again held 32.1 million Nvidia shares until selling them in October 2025 for about $5.83 billion to fund its OpenAI investment.",
+      "status": "reported",
+      "date": "2025-11-11",
+      "quote": "SoftBank disclosed with its earnings report that it had sold its whole Nvidia position, 32.1 million shares, in October for about $5.83 billion.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2025/11/11/softbank-sells-its-entire-stake-in-nvidia-for-5point83-billion.html",
+          "publisher": "CNBC",
+          "title": "SoftBank sells its entire stake in Nvidia for $5.83 billion",
+          "date": "2025-11-11"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2025-11-11/softbank-s-profit-surges-after-boost-from-soaring-ai-valuations",
+          "publisher": "Bloomberg",
+          "title": "SoftBank Sells Nvidia Stake for $5.8 Billion to Fund AI Bets",
+          "date": "2025-11-11"
+        }
+      ]
+    },
+    {
+      "to": "humain",
+      "toName": "Humain",
+      "toType": "company",
+      "relation": "partnered with",
+      "claim": "Nvidia agreed in May 2025 to supply Humain, the AI company launched by Saudi Arabia's Public Investment Fund, with chips for up to 500 megawatts of AI data centers, beginning with 18,000 GB300 processors.",
+      "status": "reported",
+      "date": "2025-05",
+      "quote": "Nvidia agreed to supply chips for \"AI factories\" with up to 500 megawatts of computing power.",
+      "sources": [
+        {
+          "url": "https://www.datacenterdynamics.com/en/news/saudi-arabian-ai-venture-humain-buys-18000-nvidia-gb300-chips-several-hundred-thousand-more-on-the-way/",
+          "publisher": "Data Center Dynamics",
+          "title": "Saudi Arabian AI venture Humain buys 18,000 Nvidia GB300 chips, 'several hundred thousand' more on the way",
+          "date": "2025-05"
+        },
+        {
+          "url": "https://www.networkworld.com/article/3986905/amd-nvidia-partner-with-saudi-startup-to-build-multi-billion-dollar-ai-service-centers.html",
+          "publisher": "Network World",
+          "title": "AMD, Nvidia partner with Saudi startup to build multi-billion dollar AI service centers",
+          "date": "2025-05"
+        }
+      ]
+    },
+    {
+      "to": "g42",
+      "toName": "G42",
+      "toType": "company",
+      "relation": "partnered with",
+      "claim": "Nvidia is a partner in G42's Stargate UAE cluster announced in May 2025, and in November 2025 the Commerce Department authorized G42 to buy the equivalent of up to 35,000 Nvidia Blackwell GB300 chips.",
+      "status": "documented",
+      "date": "2025-11-19",
+      "quote": "Both companies are receiving approvals to purchase the equivalent of up to 35,000 Nvidia Blackwell chips (GB300s).",
+      "sources": [
+        {
+          "url": "https://www.commerce.gov/news/press-releases/2025/11/statement-uae-and-saudi-chip-exports",
+          "publisher": "U.S. Department of Commerce",
+          "title": "Statement on UAE and Saudi Chip Exports",
+          "date": "2025-11-19"
+        },
+        {
+          "url": "https://www.cnbc.com/2025/05/22/stargate-uae-openai-nvidia-oracle.html",
+          "publisher": "CNBC",
+          "title": "OpenAI, Oracle and NVIDIA will help build Stargate UAE AI campus launching in 2026",
+          "date": "2025-05-22"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The April 2025 H20 license requirement and the related $4.5 billion inventory charge appeared only in secondary sources; Nvidia's Form 8-K or 10-Q for that quarter should be clipped.",
+    "A Lawfare analysis says the revenue-share approach was extended in December 2025 to 25 percent for H200 chips; this was not confirmed from an official source.",
+    "How Nvidia's 10-Q for the quarter ended July 2025 characterizes the 15 percent arrangement was not retrieved.",
+    "The 500,000-chips-a-year UAE framework is known only from Reuters reporting on a draft agreement; no official text of the US-UAE AI Acceleration Partnership was found, and the White House May 15, 2025 UAE fact sheet should be checked for its wording."
+  ]
+}

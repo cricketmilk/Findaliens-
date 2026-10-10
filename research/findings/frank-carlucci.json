@@ -1,0 +1,99 @@
+{
+  "entity": "frank-carlucci",
+  "name": "Frank Carlucci",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Frank C. Carlucci III (1930-2018) was a U.S. foreign service officer and official who served as ambassador to Portugal, deputy director of the CIA (1978-1981), deputy secretary of defense, national security adviser, and secretary of defense from November 1987 to January 1989. After leaving government he joined the Carlyle Group in 1989 and, by the firm's own account, was vice chairman and then chairman from 1989 to 2003, becoming chairman emeritus. He and his wife were longtime members of the U.S. Institute of Peace's International Advisory Council. He died on June 3, 2018. The Carlyle Group page on this site records his Carlyle role; this file holds his public career and the firm's own statement.",
+    "sources": [
+      { "url": "https://history.defense.gov/Multimedia/Biographies/Article-View/article/571285/frank-c-carlucci/", "publisher": "U.S. Department of Defense, Historical Office", "title": "Frank C. Carlucci" },
+      { "url": "https://carlyle.com/ja/node/29546", "publisher": "The Carlyle Group", "title": "Statement on the Passing of Frank Carlucci", "date": "2018-06" },
+      { "url": "https://usip.org/node/111061", "publisher": "United States Institute of Peace", "title": "In Memoriam: Frank C. Carlucci III", "date": "2018-06" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Carlucci was deputy director of the CIA from 1978 to 1981 under President Carter, then deputy secretary of defense and later national security adviser in the Reagan administration; when Caspar Weinberger resigned in 1987 he became secretary of defense and served until January 20, 1989.",
+      "status": "documented",
+      "date": "1987-11",
+      "quote": "He served as Secretary of Defense until the end of the Reagan administration on January 20, 1989.",
+      "sources": [
+        { "url": "https://history.defense.gov/Multimedia/Biographies/Article-View/article/571285/frank-c-carlucci/", "publisher": "U.S. Department of Defense, Historical Office", "title": "Frank C. Carlucci" },
+        { "url": "https://www.heritage.org/node/5171703/print-display", "publisher": "The Heritage Foundation", "title": "Remembering Frank Carlucci, Reagan's Secretary of Defense", "date": "2018-06-11" }
+      ]
+    },
+    {
+      "claim": "The Carlyle Group's statement on Carlucci's death, signed by Daniel D'Aniello, William Conway and David Rubenstein, says he was vice chairman and then chairman of the firm from 1989 to 2003 and credits him with helping turn it from a boutique investment house into a global institution.",
+      "status": "documented",
+      "date": "2018-06",
+      "quote": "he was Vice Chairman and then Chairman from 1989 to 2003",
+      "sources": [
+        { "url": "https://carlyle.com/ja/node/29546", "publisher": "The Carlyle Group", "title": "Statement on the Passing of Frank Carlucci", "date": "2018-06" }
+      ]
+    },
+    {
+      "claim": "Carlucci served as U.S. ambassador to Portugal in the mid-1970s; sources differ on the exact dates, giving 1974-1977 or 1975-1978.",
+      "status": "documented",
+      "date": "1975",
+      "quote": "Ambassador to Portugal",
+      "sources": [
+        { "url": "https://history.defense.gov/Multimedia/Biographies/Article-View/article/571285/frank-c-carlucci/", "publisher": "U.S. Department of Defense, Historical Office", "title": "Frank C. Carlucci" },
+        { "url": "https://www.academyofdiplomacy.org/members-1/carlucci/frank-c.", "publisher": "American Academy of Diplomacy", "title": "Frank C. Carlucci" }
+      ]
+    },
+    {
+      "claim": "The U.S. Institute of Peace said on his death that Carlucci and his wife Marcia were early and steadfast supporters of the Institute, that both were longtime members of its International Advisory Council, and that its auditorium is named for him; he died on June 3, 2018 at age 87.",
+      "status": "documented",
+      "date": "2018-06-03",
+      "quote": "together with his wife Marcia, was an early and steadfast supporter of the U.S. Institute of Peace",
+      "sources": [
+        { "url": "https://usip.org/node/111061", "publisher": "United States Institute of Peace", "title": "In Memoriam: Frank C. Carlucci III", "date": "2018-06" },
+        { "url": "https://www.bloombergquint.com/markets/frank-carlucci-carlyle-chairman-who-led-pentagon-dies-at-87", "publisher": "Bloomberg (via BloombergQuint)", "title": "Frank Carlucci, Carlyle Chairman Who Led Pentagon, Dies at 87", "date": "2018-06-04" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "carlyle-group",
+      "toName": "Carlyle Group",
+      "toType": "fund",
+      "relation": "executive of",
+      "claim": "Carlucci joined the Carlyle Group in 1989 and, by the firm's own statement, was vice chairman and then chairman from 1989 to 2003, becoming chairman emeritus.",
+      "status": "documented",
+      "date": "1989",
+      "quote": "he was Vice Chairman and then Chairman from 1989 to 2003",
+      "sources": [
+        { "url": "https://carlyle.com/ja/node/29546", "publisher": "The Carlyle Group", "title": "Statement on the Passing of Frank Carlucci", "date": "2018-06" },
+        { "url": "https://www.bloombergquint.com/markets/frank-carlucci-carlyle-chairman-who-led-pentagon-dies-at-87", "publisher": "Bloomberg (via BloombergQuint)", "title": "Frank Carlucci, Carlyle Chairman Who Led Pentagon, Dies at 87", "date": "2018-06-04" }
+      ]
+    },
+    {
+      "to": "cia",
+      "toName": "CIA",
+      "toType": "agency",
+      "relation": "executive of",
+      "claim": "Carlucci was deputy director of the Central Intelligence Agency from 1978 to 1981.",
+      "status": "documented",
+      "date": "1978",
+      "quote": "deputy director of the CIA from 1978 to 1981",
+      "sources": [
+        { "url": "https://history.defense.gov/Multimedia/Biographies/Article-View/article/571285/frank-c-carlucci/", "publisher": "U.S. Department of Defense, Historical Office", "title": "Frank C. Carlucci" }
+      ]
+    },
+    {
+      "to": "pentagon",
+      "toName": "Pentagon",
+      "toType": "agency",
+      "relation": "executive of",
+      "claim": "Carlucci was U.S. secretary of defense from November 1987 to January 20, 1989, after serving as deputy secretary of defense earlier in the Reagan administration.",
+      "status": "documented",
+      "date": "1987-11",
+      "quote": "He served as Secretary of Defense until the end of the Reagan administration on January 20, 1989.",
+      "sources": [
+        { "url": "https://history.defense.gov/Multimedia/Biographies/Article-View/article/571285/frank-c-carlucci/", "publisher": "U.S. Department of Defense, Historical Office", "title": "Frank C. Carlucci" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Whether Carlucci chaired USIP's board, as the site's recurring-cast page implies, was not confirmed: USIP's notice describes him as an advisory council member and supporter, not board chair."
+  ]
+}

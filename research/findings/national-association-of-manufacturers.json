@@ -1,0 +1,173 @@
+{
+  "entity": "national-association-of-manufacturers",
+  "name": "National Association of Manufacturers",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The National Association of Manufacturers (NAM) is a Washington, D.C. trade association that describes itself as the largest manufacturing association in the United States; Jay Timmons has been its president and chief executive since January 2011. The Global Climate Coalition, an industry group formed in 1989 to oppose regulation of greenhouse gases, was housed within NAM at its formation. In November 2017 NAM launched the Manufacturers' Accountability Project, a project of its Manufacturers' Center for Legal Action, to push back against climate-change lawsuits, initially those brought against major oil companies.",
+    "sources": [
+      {
+        "url": "https://nam.org/senior-management/jay-timmons",
+        "publisher": "National Association of Manufacturers",
+        "title": "Jay Timmons"
+      },
+      {
+        "url": "https://www.climatefiles.com/?p=2788",
+        "publisher": "Climate Files",
+        "title": "1989 GCC Membership"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "NAM's website describes Jay Timmons as president and CEO of the National Association of Manufacturers, 'the largest manufacturing association in the United States', representing manufacturers in every industrial sector and every state; NAM announced in 2010 that Timmons would take the post in January 2011, succeeding former Michigan governor John Engler.",
+      "status": "documented",
+      "date": "2011-01",
+      "quote": "the largest manufacturing association in the United States",
+      "sources": [
+        {
+          "url": "https://nam.org/senior-management/jay-timmons",
+          "publisher": "National Association of Manufacturers",
+          "title": "Jay Timmons"
+        },
+        {
+          "url": "https://www.manufacturing.net/home/news/13229234/nam-names-jay-timmons-its-new-ceo-and-president",
+          "publisher": "Manufacturing.net",
+          "title": "NAM Names Jay Timmons Its New CEO And President",
+          "date": "2010"
+        }
+      ]
+    },
+    {
+      "claim": "The Global Climate Coalition was housed within the National Association of Manufacturers at its formation in 1989, with a NAM support staffer among its small initial staff; its founding trade-association members included the American Petroleum Institute, the Edison Electric Institute, the American Gas Association, the National Coal Association and the Petroleum Marketers Association of America.",
+      "status": "documented",
+      "date": "1989",
+      "quote": "At its formation the, GCC was housed within the National Association of Manufacturers (NAM)",
+      "sources": [
+        {
+          "url": "https://www.climatefiles.com/?p=2788",
+          "publisher": "Climate Files",
+          "title": "1989 GCC Membership"
+        },
+        {
+          "url": "https://www.desmog.com/global-climate-coalition-files",
+          "publisher": "DeSmog",
+          "title": "The Global Climate Coalition Files: How Big Business Funded Climate Science Denial and Regulatory Delay"
+        }
+      ]
+    },
+    {
+      "claim": "NAM launched the Manufacturers' Accountability Project (MAP) in November 2017 as a project of its Manufacturers' Center for Legal Action to push back against climate-change lawsuits, with an initial focus on suits against major oil companies; NAM says MAP highlights what it calls a coordinated campaign by plaintiffs' lawyers, public officials, foundations and activists.",
+      "status": "documented",
+      "date": "2017-11",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/manufacturers-accountability-project/",
+          "publisher": "DeSmog",
+          "title": "Manufacturers' Accountability Project (MAP)"
+        },
+        {
+          "url": "https://nam.org/?p=1112",
+          "publisher": "National Association of Manufacturers",
+          "title": "NAM Statement on Dismissal of Lawsuits Targeting Manufacturers"
+        }
+      ]
+    },
+    {
+      "claim": "NAM issued a statement welcoming the dismissal of climate lawsuits targeting manufacturers, and in 2019 MAP's director said taxpayer resources should not be used for what the project called baseless lawsuits, responding to Rhode Island's climate suit.",
+      "status": "words",
+      "date": "2019",
+      "sources": [
+        {
+          "url": "https://nam.org/?p=1112",
+          "publisher": "National Association of Manufacturers",
+          "title": "NAM Statement on Dismissal of Lawsuits Targeting Manufacturers"
+        },
+        {
+          "url": "https://www.desmog.com/2019/02/27/oil-manufacturers-accountability-project-trade-group-climate-suits",
+          "publisher": "DeSmog",
+          "title": "Battling for Big Oil: Manufacturing Trade Group Leads Assault on Climate Suits",
+          "date": "2019-02-27"
+        }
+      ]
+    },
+    {
+      "claim": "Sources differ on when the Global Climate Coalition ceased operating: DeSmog's collection of its documents runs from 1989 to 2002, when it says the group disbanded, while a SourceWatch summary quoted by DeSmog says it operated out of NAM's offices until 1997.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/global-climate-coalition-files",
+          "publisher": "DeSmog",
+          "title": "The Global Climate Coalition Files: How Big Business Funded Climate Science Denial and Regulatory Delay"
+        },
+        {
+          "url": "https://www.desmog.com/2006/07/17/manufacturer-associations-legacy-of-spin",
+          "publisher": "DeSmog",
+          "title": "Manufacturer Association's legacy of spin",
+          "date": "2006-07-17"
+        }
+      ]
+    },
+    {
+      "claim": "Historian Kevin Kruse says the heads of the National Association of Manufacturers were among the heavy funders of James Fifield's Spiritual Mobilization, which recruited ministers to preach 'faith, freedom and free enterprise' against the New Deal.",
+      "status": "reported",
+      "date": "1940s",
+      "quote": "the heads of the U.S. Chamber of Commerce, the National Association of Manufacturers",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2015/03/30/396365659/how-one-nation-didnt-become-under-god-until-the-50s-religious-revival",
+          "publisher": "NPR (Fresh Air)",
+          "title": "How 'One Nation' Didn't Become 'Under God' Until The '50s Religious Revival",
+          "date": "2015-03-30"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "global-climate-coalition",
+      "toName": "Global Climate Coalition",
+      "toType": "trade group",
+      "relation": "other",
+      "claim": "The Global Climate Coalition was housed within NAM when it was formed in 1989, with a NAM staffer among its initial support staff.",
+      "status": "documented",
+      "date": "1989",
+      "sources": [
+        {
+          "url": "https://www.climatefiles.com/?p=2788",
+          "publisher": "Climate Files",
+          "title": "1989 GCC Membership"
+        },
+        {
+          "url": "https://www.desmog.com/global-climate-coalition-files",
+          "publisher": "DeSmog",
+          "title": "The Global Climate Coalition Files: How Big Business Funded Climate Science Denial and Regulatory Delay"
+        }
+      ]
+    },
+    {
+      "to": "spiritual-mobilization",
+      "toName": "Spiritual Mobilization",
+      "toType": "organization",
+      "relation": "funded",
+      "claim": "Kruse names the heads of the NAM among Spiritual Mobilization's funders.",
+      "status": "reported",
+      "date": "1940s",
+      "quote": "the National Association of Manufacturers",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2015/03/30/396365659/how-one-nation-didnt-become-under-god-until-the-50s-religious-revival",
+          "publisher": "NPR (Fresh Air)",
+          "title": "How 'One Nation' Didn't Become 'Under God' Until The '50s Religious Revival",
+          "date": "2015-03-30"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim 'Housed the Global Climate Coalition at its founding (1989)' is supported by the 1989 membership document on Climate Files.",
+    "Site claim 'Runs a project defending oil companies in climate lawsuits (2017-)' is supported: the Manufacturers' Accountability Project was launched in November 2017 with an initial focus on suits against oil companies.",
+    "Site claim that a 1995 GCC primer from its technical advisers said the basic science could not be denied was not tested in this pass.",
+    "NAM does not publish its membership list; the frequently cited figure of about 14,000 member companies comes from encyclopaedic sources and was not recorded. Critics' statements that NAM's board includes oil and gas executives were not verified against NAM's own board list.",
+    "Kruse attributes the money to the heads of the NAM, which may mean individual executives rather than the association; no NAM-funded clergy programme of 1946–50 was found in opened sources."
+  ]
+}

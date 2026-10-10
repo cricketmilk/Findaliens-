@@ -1,0 +1,344 @@
+{
+  "entity": "bank-of-new-york",
+  "name": "Bank of New York",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "The Bank of New York (BNY, now BNY Mellon) was the bank through which, from February 1996 to July 1999, about $7 billion originating in Russia passed via accounts opened at a retail branch in the names of Benex International Co., Inc. and BECS International LLC by Peter Berlin, with the help of his wife Lucy Edwards, a BNY vice president. Benex, BECS and Torfinex operated as front companies for a Russian bank, DKB, running an unlicensed money-transfer business. Berlin and Edwards pleaded guilty in February 2000; BNY entered a regulatory agreement with the Federal Reserve and New York State the same month. In November 2005 BNY entered a non-prosecution agreement with the U.S. Attorneys for the Eastern and Southern Districts of New York, paying $38 million. Russia's Federal Customs Service sued BNY in Moscow in 2007 for $22.5 billion; the suit was settled in October 2009 for $14 million in trial costs with no admission of liability.",
+    "sources": [
+      {
+        "url": "https://www.justice.gov/archive/usao/nye/pr/2005/2005nov08.html",
+        "publisher": "U.S. Department of Justice, U.S. Attorney's Office for the Eastern District of New York",
+        "title": "The Bank of New York Resolves Parallel Criminal Investigations (press release)",
+        "date": "2005-11-08"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/0000009626/000000962605000235/ex991.txt",
+        "publisher": "U.S. Securities and Exchange Commission (Bank of New York Co. Form 8-K, Exhibit 99.1)",
+        "title": "Bank of New York Co. Inc. Form 8-K, Exhibit 99.1: non-prosecution agreement and statement of facts",
+        "date": "2005-11"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1390777/000119312509212950/dex991.htm",
+        "publisher": "U.S. Securities and Exchange Commission (Bank of New York Mellon Form 8-K, Exhibit 99.1)",
+        "title": "Joint press release: Federal Customs Service of the Russian Federation and The Bank of New York Mellon settle litigation",
+        "date": "2009-10-22"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Accounts opened in 1996 at a BNY retail branch in the names of Benex International Co., Inc. and BECS International LLC were opened by Peter Berlin, a Russian emigre, with the assistance of his wife Lucy Edwards, a BNY vice president; according to the Justice Department the network moved $7 billion through BNY accounts.",
+      "status": "documented",
+      "date": "1996",
+      "quote": "The accounts were opened by Peter Berlin, a Russian émigré, with the assistance of his wife, Lucy Edwards, also a Russian émigré, who was a BNY vice president.",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/nye/pr/2005/2005nov08.html",
+          "publisher": "U.S. Department of Justice, U.S. Attorney's Office for the Eastern District of New York",
+          "title": "The Bank of New York Resolves Parallel Criminal Investigations (press release)",
+          "date": "2005-11-08"
+        }
+      ]
+    },
+    {
+      "claim": "The non-prosecution agreement's statement of facts (filed with the SEC as an 8-K exhibit) says the Benex and BECS accounts received approximately $7 billion in deposits between February 1996 and July 1999, that Benex, BECS and Torfinex operated as front companies on behalf of the Russian bank Depozitarno Kliringovy Bank (DKB) in an unlicensed money-transfer business, and that the accounts stayed open after April 1999 at the U.S. Attorney's Office's request as part of the bank's cooperation.",
+      "status": "documented",
+      "date": "2005-11",
+      "quote": "the accounts received approximately $7 billion in deposits [...] Benex, BECS, and Torfinex operated as front companies on behalf of Depozitarno Kliringovy Bank",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000009626/000000962605000235/ex991.txt",
+          "publisher": "U.S. Securities and Exchange Commission (Bank of New York Co. Form 8-K, Exhibit 99.1)",
+          "title": "Bank of New York Co. Inc. Form 8-K, Exhibit 99.1: non-prosecution agreement and statement of facts",
+          "date": "2005-11"
+        }
+      ]
+    },
+    {
+      "claim": "In October 1999 federal prosecutors unsealed an indictment naming Peter Berlin, former BNY vice president Lucy Edwards, Aleksey Volkov and the companies Benex International, BECS International and Torfinex, alleging that $7 billion was illegally funnelled from Russia through accounts at the Bank of New York. Berlin was president of Benex and BECS; Edwards had been a vice president in BNY's Eastern European Division.",
+      "status": "reported",
+      "date": "1999-10",
+      "quote": "The charges allege that $7 billion was illegally funneled from Russia through accounts at The Bank of New York. Berlin was the president of both Benex and Becs and was married to Edwards, who was a vice president in the Eastern European Division at the Bank of New York.",
+      "sources": [
+        {
+          "url": "https://www.cbsnews.com/news/money-laundering-indictments/",
+          "publisher": "CBS News",
+          "title": "Money Laundering Indictments",
+          "date": "1999-10"
+        }
+      ]
+    },
+    {
+      "claim": "In February 2000 Berlin and Edwards pleaded guilty to, among other crimes, conspiring to conduct unauthorized and unregulated banking activities, operate an illegal money transmitting business and launder money tied to the Benex and BECS accounts; they admitted the network was designed in part to let Russian individuals and businesses wire funds in and out of Russia in violation of Russian currency controls.",
+      "status": "court",
+      "date": "2000-02",
+      "quote": "In February 2000, Berlin and Edwards pled guilty to, among other crimes, conspiring to conduct unauthorized and unregulated banking activities, operate an illegal money transmitting business, and launder money tied to the Benex and BECS accounts. They also admitted that the network was designed, in part, to allow Russian individuals and businesses to wire transfer funds in and out of Russia in violation of Russian currency controls.",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/nye/pr/2005/2005nov08.html",
+          "publisher": "U.S. Department of Justice, U.S. Attorney's Office for the Eastern District of New York",
+          "title": "The Bank of New York Resolves Parallel Criminal Investigations (press release)",
+          "date": "2005-11-08"
+        },
+        {
+          "url": "https://www.npr.org/2000/02/16/1070433/russian-money-laundering",
+          "publisher": "NPR",
+          "title": "Russian Money Laundering",
+          "date": "2000-02-16"
+        }
+      ]
+    },
+    {
+      "claim": "In February 2000 BNY entered a separate regulatory agreement with the Federal Reserve and the New York State Banking Department as a result of the investigation into the Benex and BECS accounts.",
+      "status": "documented",
+      "date": "2000-02",
+      "quote": "the bank entered a separate regulatory agreement with the Federal Reserve and New York State regulators (NYSBD) as a result of the investigation into these accounts.",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/nye/pr/2005/2005nov08.html",
+          "publisher": "U.S. Department of Justice, U.S. Attorney's Office for the Eastern District of New York",
+          "title": "The Bank of New York Resolves Parallel Criminal Investigations (press release)",
+          "date": "2005-11-08"
+        }
+      ]
+    },
+    {
+      "claim": "On November 8, 2005, BNY agreed to pay $38 million in penalties and victim compensation to resolve parallel criminal investigations by the U.S. Attorneys' Offices for the Eastern and Southern Districts of New York, under a non-prosecution agreement that also required reforms addressing Bank Secrecy Act reporting failures and weaknesses in its anti-money-laundering safeguards, and oversight by an independent examiner for three years.",
+      "status": "court",
+      "date": "2005-11-08",
+      "quote": "the Bank of New York (\"BNY\") has agreed to pay $38 million in penalties and victim compensation to resolve parallel criminal investigations by the U.S. Attorneys' Offices for the Eastern and Southern Districts of New York [...] BNY's agreement with U.S. authorities in 2005 requires BNY to continue and enhance its money laundering compliance programs and subjects BNY to oversight by an independent examiner for a period of three years.",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/nye/pr/2005/2005nov08.html",
+          "publisher": "U.S. Department of Justice, U.S. Attorney's Office for the Eastern District of New York",
+          "title": "The Bank of New York Resolves Parallel Criminal Investigations (press release)",
+          "date": "2005-11-08"
+        },
+        {
+          "url": "https://www.nbcnews.com/id/wbna9973702",
+          "publisher": "NBC News",
+          "title": "Bank of New York to pay $38 million in fines",
+          "date": "2005-11"
+        }
+      ]
+    },
+    {
+      "claim": "BNY's own November 2005 news release described the agreement as resolving investigations related to actions by bank employees that facilitated a fraudulent scheme involving funds transfers to and from Russia from 1996 to 1999, and said the agreement set out measures to enhance the bank's procedures for monitoring and reporting suspicious activity.",
+      "status": "documented",
+      "date": "2005-11",
+      "quote": "the Company has been cooperating with their investigations related to actions by bank employees that facilitated a fraudulent scheme [...] the non-prosecution agreement outlines a series of measures to enhance the Company's procedures for monitoring and reporting suspicious activity",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000009626/000000962605000235/ex99.txt",
+          "publisher": "U.S. Securities and Exchange Commission (Bank of New York Co. Form 8-K, Exhibit 99)",
+          "title": "Bank of New York Co. Inc. Form 8-K, Exhibit 99: news release on the non-prosecution agreement",
+          "date": "2005-11"
+        }
+      ]
+    },
+    {
+      "claim": "Fortune reported that the U.S. Attorney's Office for the Southern District of New York, which investigated the scheme from 1999 to 2006, said in a July 29, 2008 letter that the bank had never admitted criminal culpability with respect to the Edwards matter; in August 2008 prosecutors amended their 2005 press release, which had said the bank \"has admitted its criminal conduct\", to clarify that the admission related only to an unrelated loan-fraud inquiry at a Long Island branch (the Island Park matter).",
+      "status": "reported",
+      "date": "2008-08",
+      "quote": "The original release had stated that the bank, by entering into the agreement, \"has admitted its criminal conduct.\" [...] the Bank did not admit criminal culpability with respect to the subject of the SDNY USAO investigation",
+      "sources": [
+        {
+          "url": "https://fortune.com/2008/10/01/u-s-prosecutors-refute-russian-claim-in-suit-against-bank-of-new-york/",
+          "publisher": "Fortune",
+          "title": "U.S. prosecutors refute Russian claim in suit against Bank of New York (Roger Parloff)",
+          "date": "2008-10-01"
+        }
+      ]
+    },
+    {
+      "claim": "Russia's Federal Customs Service filed suit against BNY in the Moscow City Arbitration Court in May 2007 seeking $22.5 billion in damages, based on the actions of former employee Lucy Edwards; Fortune reported in October 2008 that the case appeared to hinge on the prosecutors' earlier misstatement about an admission of criminal conduct.",
+      "status": "reported",
+      "date": "2007-05",
+      "quote": "Lucy Edwards pleaded guilty in February 2000, yet Russia did not file its suit until May 2007. [...] Russia's $22.5 billion case against the Bank of New York Mellon now appears to hinge upon the earlier misstatement",
+      "sources": [
+        {
+          "url": "https://fortune.com/2008/10/01/u-s-prosecutors-refute-russian-claim-in-suit-against-bank-of-new-york/",
+          "publisher": "Fortune",
+          "title": "U.S. prosecutors refute Russian claim in suit against Bank of New York (Roger Parloff)",
+          "date": "2008-10-01"
+        },
+        {
+          "url": "https://fortune.com/2008/10/09/russia-v-bank-of-new-york-how-weak-can-a-case-get/",
+          "publisher": "Fortune",
+          "title": "Russia v Bank of New York: How weak can a case get? (Roger Parloff)",
+          "date": "2008-10-09"
+        }
+      ]
+    },
+    {
+      "claim": "On October 22, 2009, the Federal Customs Service of the Russian Federation and BNY Mellon announced the settlement of the $22.5 billion Moscow suit: without admitting liability, the bank agreed to pay $14 million in trial costs, an amount the joint release said equalled what the bank paid the U.S. government in 2005 under the non-prosecution agreement. The Customs Service said that, taking into account an official explanation from U.S. law-enforcement authorities, it concluded there was no basis to hold the bank civilly liable.",
+      "status": "court",
+      "date": "2009-10-22",
+      "quote": "announced the settlement of the litigation filed by the Customs Service against The Bank in the Moscow City Arbitration Court seeking $22.5 billion in damages. [...] taking into consideration an official explanation made by the U.S. law enforcement authorities, the Federal Customs Service of the Russian Federation concluded that there is no basis to hold The Bank of New York Mellon civilly liable. [...] Without any admission of liability, the Bank agreed to pay $14 million in trial costs and expenses, which were previously accrued, to the Customs Service in consideration for the settlement.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1390777/000119312509212950/dex991.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Bank of New York Mellon Form 8-K, Exhibit 99.1)",
+          "title": "Joint press release: Federal Customs Service of the Russian Federation and The Bank of New York Mellon settle litigation",
+          "date": "2009-10-22"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001390777/000119312510042948/dex131.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Bank of New York Mellon Form 10-K FY2009, Exhibit 13.1)",
+          "title": "Bank of New York Mellon 2009 Annual Report (Form 10-K Exhibit 13.1)",
+          "date": "2010-02"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "benex-worldwide",
+      "toName": "Benex Worldwide",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Accounts in the names of Benex International Co., Inc. and BECS International LLC, opened in 1996 at a BNY retail branch by Peter Berlin, received approximately $7 billion in deposits between February 1996 and July 1999; the NPA statement of facts describes Benex, BECS and Torfinex as front companies for the Russian bank DKB.",
+      "status": "documented",
+      "date": "1996",
+      "quote": "the accounts received approximately $7 billion in deposits [...] Benex, BECS, and Torfinex operated as front companies on behalf of Depozitarno Kliringovy Bank",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000009626/000000962605000235/ex991.txt",
+          "publisher": "U.S. Securities and Exchange Commission (Bank of New York Co. Form 8-K, Exhibit 99.1)",
+          "title": "Bank of New York Co. Inc. Form 8-K, Exhibit 99.1: non-prosecution agreement and statement of facts",
+          "date": "2005-11"
+        },
+        {
+          "url": "https://www.justice.gov/archive/usao/nye/pr/2005/2005nov08.html",
+          "publisher": "U.S. Department of Justice, U.S. Attorney's Office for the Eastern District of New York",
+          "title": "The Bank of New York Resolves Parallel Criminal Investigations (press release)",
+          "date": "2005-11-08"
+        }
+      ]
+    },
+    {
+      "to": "peter-berlin-and-lucy-edwards",
+      "toName": "Peter Berlin & Lucy Edwards",
+      "toType": "person",
+      "relation": "employed by",
+      "reverse": true,
+      "claim": "Lucy Edwards was a BNY vice president (in its Eastern European Division) who helped her husband Peter Berlin open the Benex and BECS accounts; both pleaded guilty in February 2000 to conspiracy charges including money laundering tied to those accounts.",
+      "status": "court",
+      "date": "2000-02",
+      "quote": "The accounts were opened by Peter Berlin, a Russian émigré, with the assistance of his wife, Lucy Edwards, also a Russian émigré, who was a BNY vice president.",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/nye/pr/2005/2005nov08.html",
+          "publisher": "U.S. Department of Justice, U.S. Attorney's Office for the Eastern District of New York",
+          "title": "The Bank of New York Resolves Parallel Criminal Investigations (press release)",
+          "date": "2005-11-08"
+        },
+        {
+          "url": "https://www.cbsnews.com/news/money-laundering-indictments/",
+          "publisher": "CBS News",
+          "title": "Money Laundering Indictments",
+          "date": "1999-10"
+        }
+      ]
+    },
+    {
+      "to": "us-department-of-justice",
+      "toName": "US Department of Justice",
+      "toType": "government",
+      "relation": "settled with",
+      "claim": "On November 8, 2005, BNY entered a non-prosecution agreement with the U.S. Attorneys' Offices for the Eastern and Southern Districts of New York, agreeing to pay $38 million in penalties and victim compensation.",
+      "status": "court",
+      "date": "2005-11-08",
+      "quote": "the Bank of New York (\"BNY\") has agreed to pay $38 million in penalties and victim compensation to resolve parallel criminal investigations by the U.S. Attorneys' Offices for the Eastern and Southern Districts of New York",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/nye/pr/2005/2005nov08.html",
+          "publisher": "U.S. Department of Justice, U.S. Attorney's Office for the Eastern District of New York",
+          "title": "The Bank of New York Resolves Parallel Criminal Investigations (press release)",
+          "date": "2005-11-08"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000009626/000000962605000235/ex99.txt",
+          "publisher": "U.S. Securities and Exchange Commission (Bank of New York Co. Form 8-K, Exhibit 99)",
+          "title": "Bank of New York Co. Inc. Form 8-K, Exhibit 99: news release on the non-prosecution agreement",
+          "date": "2005-11"
+        }
+      ]
+    },
+    {
+      "to": "federal-reserve",
+      "toName": "Federal Reserve",
+      "toType": "government",
+      "relation": "regulated",
+      "reverse": true,
+      "claim": "In February 2000 the Federal Reserve and the New York State Banking Department entered a regulatory agreement with BNY as a result of the investigation into the Benex and BECS accounts.",
+      "status": "documented",
+      "date": "2000-02",
+      "quote": "the bank entered a separate regulatory agreement with the Federal Reserve and New York State regulators (NYSBD) as a result of the investigation into these accounts.",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/nye/pr/2005/2005nov08.html",
+          "publisher": "U.S. Department of Justice, U.S. Attorney's Office for the Eastern District of New York",
+          "title": "The Bank of New York Resolves Parallel Criminal Investigations (press release)",
+          "date": "2005-11-08"
+        }
+      ]
+    },
+    {
+      "to": "federal-customs-service-of-the-russian-federation",
+      "toName": "Federal Customs Service of the Russian Federation",
+      "toType": "government",
+      "relation": "sued by",
+      "claim": "The Federal Customs Service of the Russian Federation sued BNY in the Moscow City Arbitration Court in May 2007 seeking $22.5 billion in damages over the 1996-1999 Edwards/Benex transfers.",
+      "status": "reported",
+      "date": "2007-05",
+      "quote": "the litigation filed by the Customs Service against The Bank in the Moscow City Arbitration Court seeking $22.5 billion in damages",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1390777/000119312509212950/dex991.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Bank of New York Mellon Form 8-K, Exhibit 99.1)",
+          "title": "Joint press release: Federal Customs Service of the Russian Federation and The Bank of New York Mellon settle litigation",
+          "date": "2009-10-22"
+        },
+        {
+          "url": "https://fortune.com/2008/10/01/u-s-prosecutors-refute-russian-claim-in-suit-against-bank-of-new-york/",
+          "publisher": "Fortune",
+          "title": "U.S. prosecutors refute Russian claim in suit against Bank of New York (Roger Parloff)",
+          "date": "2008-10-01"
+        }
+      ]
+    },
+    {
+      "to": "federal-customs-service-of-the-russian-federation",
+      "toName": "Federal Customs Service of the Russian Federation",
+      "toType": "government",
+      "relation": "settled with",
+      "claim": "On October 22, 2009, BNY Mellon and the Federal Customs Service settled the Moscow suit: the bank paid $14 million in trial costs without admitting liability, and the Customs Service said it had concluded there was no basis to hold the bank civilly liable.",
+      "status": "court",
+      "date": "2009-10-22",
+      "quote": "Without any admission of liability, the Bank agreed to pay $14 million in trial costs and expenses, which were previously accrued, to the Customs Service in consideration for the settlement.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001390777/000119312510042948/dex131.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Bank of New York Mellon Form 10-K FY2009, Exhibit 13.1)",
+          "title": "Bank of New York Mellon 2009 Annual Report (Form 10-K Exhibit 13.1)",
+          "date": "2010-02"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1390777/000119312509212950/dex991.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Bank of New York Mellon Form 8-K, Exhibit 99.1)",
+          "title": "Joint press release: Federal Customs Service of the Russian Federation and The Bank of New York Mellon settle litigation",
+          "date": "2009-10-22"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Period: the sourced window for the Benex/BECS flows is February 1996 to July 1999 (about $7 billion in total), not a burst just before the August 1998 default. No source opened this session ties the flows to advance knowledge of the default or to IMF loan proceeds.",
+    "Cyprus and Liechtenstein: no source opened this session names either as a destination of the Benex/BECS transfers; Torfinex is named in the indictment and the NPA statement of facts.",
+    "The site's entity is named 'Benex Worldwide'; the DOJ release, the indictment and the NPA refer to Benex International Co., Inc. Confirm the intended entity.",
+    "The $38 million is broken down differently across filings: one BNY Mellon filing describes a $26 million forfeiture plus $12 million restitution and an independent examiner for three years, the 2009 joint release says the bank paid $14 million to the U.S. government under the 2005 NPA, and Fortune describes a $14 million fine. Check the NPA text (SEC exhibit 99.1).",
+    "A figure of about $10 billion for the total flows appears in 1999 press coverage as an investigators' estimate; the DOJ and NPA figure is about $7 billion.",
+    "The Federal Reserve/NYSBD written agreement of February 2000 was not retrieved from federalreserve.gov this session; it is cited via the DOJ release."
+  ]
+}

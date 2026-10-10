@@ -1,0 +1,84 @@
+{
+  "entity": "miguel-juarez-celman",
+  "name": "Miguel Juárez Celman",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Miguel Juárez Celman was President of Argentina from 1886 until his resignation on 6 August 1890 following the Revolution of the Park. His presidency coincided with a credit and investment boom that ended in the largest Argentine financial crisis of the nineteenth century and the London Baring crisis.",
+    "sources": [
+      {
+        "url": "https://www.argentina.gob.ar/secretariageneral/museo-casa-rosada/institutionalization-power",
+        "publisher": "Argentina.gob.ar (Museo Casa Rosada)",
+        "title": "Institutionalization of Power"
+      },
+      {
+        "url": "https://e-revistas.uca.edu.ar/index.php/THAA/article/download/5474/6090/19157",
+        "publisher": "Universidad Católica Argentina (Temas de Historia Argentina y Americana)",
+        "title": "Article on the 1890 crisis"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The Revolution of the Park, which began with the seizure of the Buenos Aires Artillery Park in July 1890, was militarily defeated but achieved Juárez Celman's resignation on 6 August 1890; Vice-President Carlos Pellegrini succeeded him.",
+      "status": "documented",
+      "date": "1890-08-06",
+      "quote": "The financial crisis led to a deep recession, unemployment, and social discontent.",
+      "sources": [
+        {
+          "url": "https://www.argentina.gob.ar/secretariageneral/museo-casa-rosada/institutionalization-power",
+          "publisher": "Argentina.gob.ar (Museo Casa Rosada)",
+          "title": "Institutionalization of Power"
+        }
+      ]
+    },
+    {
+      "claim": "An Argentine academic article describes the boom unleashed during Juárez Celman's presidency as being followed by the largest Argentine financial crisis of the nineteenth century.",
+      "status": "peer",
+      "date": "1890",
+      "quote": "A partir de ese año cumbre del \"boom\" desatado durante la presidencia de Miguel Juárez Celman, sobreviene la mayor crisis financiera argentina del siglo XIX.",
+      "sources": [
+        {
+          "url": "https://e-revistas.uca.edu.ar/index.php/THAA/article/download/5474/6090/19157",
+          "publisher": "Universidad Católica Argentina (Temas de Historia Argentina y Americana)",
+          "title": "Article on the 1890 crisis"
+        }
+      ]
+    },
+    {
+      "claim": "Barings helped channel about £140 million of investment to Argentina between 1885 and 1890, the period covering Juárez Celman's presidency.",
+      "status": "reported",
+      "date": "1890",
+      "quote": "Serving as the leading investment bank for Argentina, Barings helped to channel £140 million of investment to Argentina between 1885 and 1890.",
+      "sources": [
+        {
+          "url": "https://bankunderground.co.uk/2016/02/10/rescuing-a-sifi-halting-a-panic-the-barings-crisis-of-1890/",
+          "publisher": "Bank Underground (Bank of England staff blog)",
+          "title": "Rescuing a SIFI, Halting a Panic: the Barings Crisis of 1890",
+          "date": "2016-02-10"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "baring-brothers",
+      "toName": "Baring Brothers",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Baring Brothers was the leading investment bank channelling British capital to Argentina during Juárez Celman's presidency.",
+      "status": "reported",
+      "date": "1885-1890",
+      "sources": [
+        {
+          "url": "https://bankunderground.co.uk/2016/02/10/rescuing-a-sifi-halting-a-panic-the-barings-crisis-of-1890/",
+          "publisher": "Bank Underground (Bank of England staff blog)",
+          "title": "Rescuing a SIFI, Halting a Panic: the Barings Crisis of 1890",
+          "date": "2016-02-10"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: his resignation after the 1890 Revolution of the Park is supported. The page's statements on paper-money expansion, inflation and a falling peso under his government were not addressed by the sources found."
+  ]
+}

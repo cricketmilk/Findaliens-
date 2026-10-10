@@ -1,0 +1,92 @@
+{
+  "entity": "lord-cromer",
+  "name": "Lord Cromer (Evelyn Baring)",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Lord Cromer is the title of Evelyn Baring, British commissioner on Egypt's Caisse de la Dette from 1877 and British agent and consul-general in Egypt 1883-1907. See the file for evelyn-baring; this entry records the same person under the title used on the Crash Conduits page.",
+    "sources": [
+      {
+        "url": "https://www.universalis.fr/encyclopedie/evelyn-cromer/",
+        "publisher": "Encyclopaedia Universalis",
+        "title": "Cromer, Evelyn Baring, 1er comte (1841-1917)"
+      },
+      {
+        "url": "https://reviews.history.ac.uk/review/414/print",
+        "publisher": "Reviews in History (Institute of Historical Research)",
+        "title": "Review of Roger Owen, Lord Cromer: Victorian Imperialist, Edwardian Proconsul"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "He served as British agent and consul-general in Egypt from 1883 to 1907, having been financial member of the Viceroy's council in India from 1880 to 1883.",
+      "status": "reported",
+      "date": "1883",
+      "quote": "He remained there till 1883, and was then appointed British agent and consul-general in Egypt.",
+      "sources": [
+        {
+          "url": "https://www.universalis.fr/encyclopedie/evelyn-cromer/",
+          "publisher": "Encyclopaedia Universalis",
+          "title": "Cromer, Evelyn Baring, 1er comte (1841-1917)"
+        },
+        {
+          "url": "https://www.egyptstudycircle.org.uk/ESCmembers/1882/Baring2.pdf",
+          "publisher": "Egypt Study Circle",
+          "title": "Evelyn Baring (biographical note)"
+        }
+      ]
+    },
+    {
+      "claim": "He was raised to the peerage as Baron Cromer in 1892 and became Earl of Cromer in 1901; he died in London on 29 January 1917.",
+      "status": "reported",
+      "date": "1917-01-29",
+      "sources": [
+        {
+          "url": "https://www.universalis.fr/encyclopedie/evelyn-cromer/",
+          "publisher": "Encyclopaedia Universalis",
+          "title": "Cromer, Evelyn Baring, 1er comte (1841-1917)"
+        },
+        {
+          "url": "https://www.egyptstudycircle.org.uk/ESCmembers/1882/Baring2.pdf",
+          "publisher": "Egypt Study Circle",
+          "title": "Evelyn Baring (biographical note)"
+        }
+      ]
+    },
+    {
+      "claim": "Roger Owen's biography, as reviewed, describes Cromer as the effective ruler of Egypt from 1883 to 1907 while formally only consul-general, backed by British troops and some 400 British officials.",
+      "status": "reported",
+      "date": "1907",
+      "sources": [
+        {
+          "url": "https://reviews.history.ac.uk/review/414/print",
+          "publisher": "Reviews in History (Institute of Historical Research)",
+          "title": "Review of Roger Owen, Lord Cromer: Victorian Imperialist, Edwardian Proconsul"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "evelyn-baring",
+      "toName": "Evelyn Baring",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Lord Cromer and Evelyn Baring are the same person.",
+      "status": "reported",
+      "date": "1892",
+      "sources": [
+        {
+          "url": "https://www.universalis.fr/encyclopedie/evelyn-cromer/",
+          "publisher": "Encyclopaedia Universalis",
+          "title": "Cromer, Evelyn Baring, 1er comte (1841-1917)"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Evelyn Baring and Lord Cromer are the same person (Evelyn Baring, 1st Earl of Cromer); the site lists them as two entities.",
+    "Site claim tested: 'British commissioner of the Caisse de la Dette 1877-79' is supported in substance; sources differ on whether he was Controller-General in 1878-79 or 1879-80.",
+    "Site claim tested: 'ran Egyptian finances 1883-1907' is consistent with the biographical sources' description of his consul-generalship."
+  ]
+}

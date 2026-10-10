@@ -1,0 +1,609 @@
+{
+  "entity": "maiden-lane",
+  "name": "Maiden Lane LLCs",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "Maiden Lane LLC, Maiden Lane II LLC and Maiden Lane III LLC were three limited liability companies created by the Federal Reserve Bank of New York in 2008 with Federal Reserve Board authorization. Maiden Lane LLC (March 2008) borrowed about $28.82 billion from the New York Fed to hold roughly $30 billion of Bear Stearns assets in connection with JPMorgan Chase's acquisition of Bear Stearns. Maiden Lane II LLC (December 2008) borrowed $19.5 billion to buy residential mortgage-backed securities from the securities lending portfolios of AIG insurance subsidiaries. Maiden Lane III LLC (November 2008) borrowed about $24.3 billion, with a $5 billion AIG equity contribution, to buy multi-sector CDOs from AIG Financial Products' credit default swap counterparties, which then terminated the swaps. BlackRock managed the portfolios. All three loans were repaid with interest; the New York Fed reported net gains of about $2.5 billion (ML), $2.8 billion (ML II) and $6.6 billion (ML III).",
+    "sources": [
+      {
+        "url": "https://www.newyorkfed.org/markets/maidenlane.html",
+        "publisher": "Federal Reserve Bank of New York",
+        "title": "Maiden Lane Transactions"
+      },
+      {
+        "url": "https://www.newyorkfed.org/newsevents/news/markets/2012/an120614.html",
+        "publisher": "Federal Reserve Bank of New York",
+        "title": "New York Fed Announces Full Repayment of its Loans to Maiden Lane LLC and Maiden Lane III LLC",
+        "date": "2012-06-14"
+      },
+      {
+        "url": "https://www.newyorkfed.org/newsevents/news/markets/2012/an120823.html",
+        "publisher": "Federal Reserve Bank of New York",
+        "title": "New York Fed Sells Remainder of Maiden Lane III LLC Securities; Marks End of AIG-Related Assistance; Approximately $6.6 Billion Net Gain Generated for U.S. Public from the Portfolio",
+        "date": "2012-08-23"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On March 16, 2008 the Federal Reserve Board authorized the New York Fed to make a senior loan to Maiden Lane LLC to buy about $30 billion of less liquid Bear Stearns assets, to facilitate JPMorgan Chase's acquisition of Bear Stearns. At closing on June 26, 2008 the New York Fed lent $28.8 billion and JPMorgan Chase lent $1.1 billion, subordinated for repayment to the New York Fed's loan. The New York Fed gives the original loan amount as $28.82 billion.",
+      "status": "documented",
+      "date": "2008-03-16",
+      "quote": "On March 16, 2008, the Board authorized the New York Reserve Bank to make a senior loan to a limited liability company, Maiden Lane LLC ... at closing on June 26, 2008 ... the New York Reserve Bank actually lent $28.8 billion to Maiden Lane, and JPMorgan Chase actually lent $1.1 billion. / The original amounts of these loans were $28.82 billion and $24.3 billion respectively.",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/monetarypolicy/files/129periodicupdate.pdf",
+          "publisher": "Board of Governors of the Federal Reserve System",
+          "title": "Periodic Report Pursuant to Section 129(b) of the Emergency Economic Stabilization Act"
+        },
+        {
+          "url": "https://www.newyorkfed.org/newsevents/news/markets/2012/an120614.html",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "New York Fed Announces Full Repayment of its Loans to Maiden Lane LLC and Maiden Lane III LLC",
+          "date": "2012-06-14"
+        }
+      ]
+    },
+    {
+      "claim": "Maiden Lane II LLC borrowed $19.5 billion from the New York Fed on December 12, 2008 to purchase residential mortgage-backed securities from the securities lending portfolios of several regulated U.S. insurance subsidiaries of AIG. The New York Fed put the securities' face value at about $39.3 billion and their fair value at about $20.8 billion as of October 31, 2008.",
+      "status": "documented",
+      "date": "2008-12-12",
+      "quote": "The New York Fed extended credit to ML II to purchase residential mortgage-backed securities from the securities lending portfolio of several regulated U.S. insurance subsidiaries of AIG. / ... full repayment of the $19.5 billion loan extended by the New York Fed to ML II",
+      "sources": [
+        {
+          "url": "https://www.newyorkfed.org/aboutthefed/aig/ml23.html",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Maiden Lane II"
+        },
+        {
+          "url": "https://www.newyorkfed.org/newsevents/news/markets/2012/an120228.html",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "New York Fed Sells Remainder of Maiden Lane II LLC Securities; Approximately $2.8 Billion Net Gain Generated for U.S. Public from the Portfolio",
+          "date": "2012-02-28"
+        }
+      ]
+    },
+    {
+      "claim": "Maiden Lane III LLC borrowed approximately $24.3 billion from the New York Fed (principal balance at closing $24,339 million), alongside a $5.0 billion equity contribution from AIG, to purchase multi-sector CDOs from AIG Financial Products' credit default swap counterparties. The New York Fed put the CDOs' estimated fair value at about $29.6 billion against a face value of about $62.1 billion as of October 31, 2008; the Federal Reserve Board described that valuation as substantially below par.",
+      "status": "documented",
+      "date": "2008-11",
+      "quote": "estimated fair value of approximately $29.6 billion and a face value of approximately $62.1 billion, as of October 31, 2008 / the CDOs had an aggregate par value of approximately $62.1 billion but were valued at about $29.6 billion, which was substantially below par",
+      "sources": [
+        {
+          "url": "https://www.newyorkfed.org/markets/maidenlane.html",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Maiden Lane Transactions"
+        },
+        {
+          "url": "https://www.federalreserve.gov/monetarypolicy/clbs-lending-in-support-of-specific-institutions-201107.htm",
+          "publisher": "Board of Governors of the Federal Reserve System",
+          "title": "Credit and Liquidity Programs and the Balance Sheet: Lending in Support of Specific Institutions (July 2011)",
+          "date": "2011-07"
+        }
+      ]
+    },
+    {
+      "claim": "The New York Fed states that Maiden Lane III LLC paid AIG Financial Products' counterparties $26.8 billion and AIGFP $2.5 billion in connection with the CDO purchases and the termination of the related credit derivative contracts, and describes the purchase as $29.3 billion of multi-sector CDOs from certain AIGFP counterparties.",
+      "status": "documented",
+      "date": "2008-11",
+      "quote": "ML III LLC paid AIGFP's counterparties $26.8 billion and AIGFP $2.5 billion in connection with the purchases and the termination of the related credit derivative contracts",
+      "sources": [
+        {
+          "url": "https://www.newyorkfed.org/markets/maidenlane.html",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Maiden Lane Transactions"
+        }
+      ]
+    },
+    {
+      "claim": "SIGTARP's November 17, 2009 audit found that after limited efforts to negotiate concessions from AIG's counterparties failed, the New York Fed decided to pay them at what was effectively face or 'par value': the counterparties kept about $35 billion in collateral already posted and terminated their CDS contracts with AIGFP, bringing the total to $62.1 billion, effectively the par value of the swaps. SIGTARP concluded that FRBNY's negotiating strategy offered little opportunity for success even though one counterparty (UBS) was willing to make a 2 percent concession if the others did. SIGTARP noted no TARP funds were directly used in the Maiden Lane III transaction. (SIGTARP audit finding.)",
+      "status": "court",
+      "date": "2009-11-17",
+      "quote": "FRBNY's negotiating strategy to pursue concessions from counterparties offered little opportunity for success, even in light of the willingness of one counterparty to agree to concessions. / after limited efforts to negotiate concessions from the counterparties failed, FRBNY decided to pay AIG's counterparties at what was effectively face or 'par value'",
+      "sources": [
+        {
+          "url": "http://fcic-static.law.stanford.edu/cdn_media/fcic-docs/2009-11-17%20SIGTARP%20Factors%20affecting%20efforts%20to%20limit%20payment%20to%20AIG%20counterparties.pdf",
+          "publisher": "SIGTARP (Office of the Special Inspector General for TARP), via FCIC archive",
+          "title": "Factors Affecting Efforts to Limit Payments to AIG Counterparties (SIGTARP-10-003)",
+          "date": "2009-11-17"
+        },
+        {
+          "url": "https://fraser.stlouisfed.org/title/factors-affecting-efforts-limit-payments-aig-counterparties-5111/fulltext",
+          "publisher": "SIGTARP, via FRASER (Federal Reserve Bank of St. Louis)",
+          "title": "Factors Affecting Efforts to Limit Payments to AIG Counterparties",
+          "date": "2009-11-17"
+        },
+        {
+          "url": "https://oversight.house.gov/wp-content/uploads/2012/01/20100127barofsky.pdf",
+          "publisher": "U.S. House Committee on Oversight and Government Reform",
+          "title": "Testimony of Neil Barofsky, Special Inspector General for TARP",
+          "date": "2010-01-27"
+        }
+      ]
+    },
+    {
+      "claim": "According to SIGTARP, FRBNY contacted eight of AIG's largest counterparties by telephone over a two-day period to seek concessions; only UBS was willing to make a modest 2 percent concession if the others did so, and the rest refused. SIGTARP also reported that Mr. Geithner and Mr. Bernanke did not participate in the counterparty payment negotiations, and that Geithner and the FRBNY general counsel told SIGTARP that the counterparties' financial condition was not a relevant factor in the decision to create Maiden Lane III and pay counterparties effectively at par. A January 2010 House Oversight staff report said internal FRBNY communications contradicted that account.",
+      "status": "documented",
+      "date": "2009-11-17",
+      "quote": "FRBNY contacted by telephone eight of AIG's largest counterparties over a two-day period and attempted to obtain such concessions from the counterparties. / Mr. Geithner and Mr. Bernanke did not participate in the counterparty payment negotiations.",
+      "sources": [
+        {
+          "url": "https://oversight.house.gov/wp-content/uploads/2012/01/20100125aigstaffreportwithcover.pdf",
+          "publisher": "U.S. House Committee on Oversight and Government Reform (staff report)",
+          "title": "Public Disclosure As A Last Resort: How the Federal Reserve Fought to Cover Up the Details of the AIG Counterparties Bailout From the American People (staff report)",
+          "date": "2010-01-25"
+        },
+        {
+          "url": "https://oversight.house.gov/wp-content/uploads/2012/02/20100127barofsky.pdf",
+          "publisher": "U.S. House Committee on Oversight and Government Reform",
+          "title": "Testimony of Neil Barofsky, Special Inspector General for TARP",
+          "date": "2010-01-27"
+        }
+      ]
+    },
+    {
+      "claim": "The Congressional Oversight Panel's June 10, 2010 report on the AIG rescue concluded that the government did not use its negotiating leverage with AIG's counterparties, that every counterparty received exactly the same deal, a complete rescue at taxpayer expense, and that the government averted a financial collapse but put billions of taxpayer dollars at risk, changed the marketplace and adversely affected public confidence in the market. The panel recorded that Secretary Geithner later testified he believed payment in full to all AIG counterparties was necessary to stop a panic. (Congressional Oversight Panel finding.)",
+      "status": "court",
+      "date": "2010-06-10",
+      "quote": "every counterparty received exactly the same deal: a complete rescue at taxpayer expense / Secretary Geithner later testified that he believed that payment in full to all AIG counterparties was necessary to stop a panic",
+      "sources": [
+        {
+          "url": "https://fcic-static.law.stanford.edu/cdn_media/fcic-docs/2010-06-10%20COP%20AIG%20Rescue.pdf",
+          "publisher": "Congressional Oversight Panel, via FCIC archive",
+          "title": "June Oversight Report: The AIG Rescue, Its Impact on Markets, and the Government's Exit Strategy",
+          "date": "2010-06-10"
+        },
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CPRT-111JPRT56698/html/CPRT-111JPRT56698.htm",
+          "publisher": "Congressional Oversight Panel (GPO govinfo)",
+          "title": "June Oversight Report: The AIG Rescue, Its Impact on Markets, and the Government's Exit Strategy",
+          "date": "2010-06-10"
+        }
+      ]
+    },
+    {
+      "claim": "On March 15, 2009, after public and congressional pressure and after consultation with the Federal Reserve, AIG disclosed the identities of its counterparties. Reuters reported that Goldman Sachs and a group of European banks were the major beneficiaries of $93 billion in payments from AIG; Goldman received an aggregate $12.9 billion through three types of transactions (collateral for credit default swaps, purchases of CDOs, and payments to counterparties of a securities lending program); Société Générale received $11.9 billion, Deutsche Bank $11.8 billion and Barclays $8.5 billion.",
+      "status": "reported",
+      "date": "2009-03-15",
+      "quote": "Goldman Sachs Group Inc and a parade of European banks were the major beneficiaries of $93 billion in payments from AIG / Goldman received an aggregate $12.9 billion through three types of transactions",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/id/wbna29727301",
+          "publisher": "Reuters (via NBC News)",
+          "title": "AIG payments to Goldman, Europe stoke anger",
+          "date": "2009-03"
+        },
+        {
+          "url": "https://fraser.stlouisfed.org/title/factors-affecting-efforts-limit-payments-aig-counterparties-5111/fulltext",
+          "publisher": "SIGTARP, via FRASER (Federal Reserve Bank of St. Louis)",
+          "title": "Factors Affecting Efforts to Limit Payments to AIG Counterparties",
+          "date": "2009-11-17"
+        }
+      ]
+    },
+    {
+      "claim": "AIG's disclosure showed that AIG Financial Products paid out a total of $22.4 billion in collateral on credit default swap trades with its top 20 financial counterparties between September 16 and December 31, 2008, with just under half concentrated among Deutsche Bank, Goldman Sachs, Merrill Lynch and Société Générale.",
+      "status": "reported",
+      "date": "2009-03-15",
+      "quote": "AIG's disclosure shows that between September 16 and December 31, 2008, AIG Financial Products paid out a total of $22.4 billion in collateral on credit default swap (CDS) trades with its top 20 financial counterparties. Just under half of this was concentrated between four firms, including Deutsche Bank, Goldman Sachs, Merrill Lynch and Societe Generale.",
+      "sources": [
+        {
+          "url": "https://www.risk.net/risk-management/credit-risk/1506685/aig-fallout-increases-calls-counterparty-disclosure",
+          "publisher": "Risk.net",
+          "title": "AIG fallout increases calls for counterparty disclosure",
+          "date": "2009"
+        }
+      ]
+    },
+    {
+      "claim": "In a January 2013 SEC filing, AIG's board stated that, in view of the positions of the counterparties, the time pressures posed by the November 10 deadline and the limited bargaining power that could be employed without regulatory abuse, the only workable course was to pay essentially par to the counterparties. The same filing quoted a GAO report stating that all counterparties were paid effectively par value for the credit default swaps.",
+      "status": "documented",
+      "date": "2013-01",
+      "quote": "in view of the positions of the counterparties, the time pressures posed by the November 10 deadline and the limited bargaining power that could be employed without regulatory abuse, the only workable course was to pay essentially par to the counterparties / all counterparties were paid effectively par value for the credit default swaps",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000005272/000119312513021601/d472125dex991.htm",
+          "publisher": "SEC (AIG Form 8-K, Exhibit 99.1)",
+          "title": "AIG Form 8-K Exhibit 99.1",
+          "date": "2013-01"
+        }
+      ]
+    },
+    {
+      "claim": "Maiden Lane III LLC repaid the New York Fed's loan with interest on June 14, 2012; proceeds from further sales repaid AIG's equity contribution plus accrued interest by July 16, 2012; and on August 23, 2012 the New York Fed announced the sale of ML III's remaining securities, estimating a net gain of about $6.6 billion for the public, including $737 million in accrued interest on the loan. The New York Fed said the sales were conducted by BlackRock Solutions. New York Fed President William Dudley described the sale as closing an important chapter, the Fed's assistance to AIG.",
+      "status": "documented",
+      "date": "2012-08-23",
+      "quote": "Net proceeds from past sales, conducted by BlackRock Solutions, as well as cash flow the securities generated while held by ML III, enabled the full repayment of the loan and AIG's equity / closing an important chapter—our assistance to AIG—that was undertaken to stabilize the financial system in the midst of the financial crisis",
+      "sources": [
+        {
+          "url": "https://www.newyorkfed.org/newsevents/news/markets/2012/an120823.html",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "New York Fed Sells Remainder of Maiden Lane III LLC Securities; Marks End of AIG-Related Assistance; Approximately $6.6 Billion Net Gain Generated for U.S. Public from the Portfolio",
+          "date": "2012-08-23"
+        },
+        {
+          "url": "https://www.newyorkfed.org/newsevents/news/markets/2012/an120614.html",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "New York Fed Announces Full Repayment of its Loans to Maiden Lane LLC and Maiden Lane III LLC",
+          "date": "2012-06-14"
+        }
+      ]
+    },
+    {
+      "claim": "On February 28, 2012 the New York Fed announced the sale of the remaining Maiden Lane II LLC securities, which it said would fully repay its $19.5 billion loan and generate a net gain for the public of approximately $2.8 billion, including $580 million in accrued interest on the loan.",
+      "status": "documented",
+      "date": "2012-02-28",
+      "quote": "The New York Fed's management of the ML II portfolio will result in full repayment of the $19.5 billion loan extended by the New York Fed to ML II and generate a net gain for the benefit of the public of approximately $2.8 billion, including $580 million in accrued interest on the loan.",
+      "sources": [
+        {
+          "url": "https://www.newyorkfed.org/newsevents/news/markets/2012/an120228.html",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "New York Fed Sells Remainder of Maiden Lane II LLC Securities; Approximately $2.8 Billion Net Gain Generated for U.S. Public from the Portfolio",
+          "date": "2012-02-28"
+        }
+      ]
+    },
+    {
+      "claim": "Bloomberg Law reported that the final securities in Maiden Lane LLC, the Bear Stearns vehicle, were sold on September 18, 2018, and quoted the New York Fed's statement that its management of the ML LLC portfolio resulted in a net gain of $2.5 billion, including $765 million of interest paid to the New York Fed, for the benefit of the public. The Maiden Lane LLC loan itself had been repaid on June 14, 2012.",
+      "status": "reported",
+      "date": "2018-09-18",
+      "quote": "the New York Fed's management of the ML LLC portfolio resulted in a net gain of $2.5 billion, including interest paid to the New York Fed of $765 million, for the benefit of the public",
+      "sources": [
+        {
+          "url": "https://news.bloomberglaw.com/mergers-and-acquisitions/fed-sells-last-of-bear-stearns-assets-closing-chapter-of-crisis",
+          "publisher": "Bloomberg Law",
+          "title": "Fed Sells Last of Bear Stearns Assets, Closing Chapter of Crisis",
+          "date": "2018-09"
+        },
+        {
+          "url": "https://www.newyorkfed.org/newsevents/news/markets/2012/an120614.html",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "New York Fed Announces Full Repayment of its Loans to Maiden Lane LLC and Maiden Lane III LLC",
+          "date": "2012-06-14"
+        }
+      ]
+    },
+    {
+      "claim": "On March 15, 2009, after consulting the Federal Reserve about the public benefit of disclosure and the potential for competitive harm, AIG published a release identifying certain credit default swap counterparties, municipal counterparties and securities lending counterparties. It stated that CDS counterparties received a total of $22.4 billion in collateral from AIG Financial Products between September 16 and December 31, 2008, funds provided after AIG began receiving government assistance, and that municipalities in the states listed received a total of $12.1 billion from AIGFP in the same period in satisfaction of Guaranteed Investment Agreements.",
+      "status": "documented",
+      "date": "2009-03-15",
+      "quote": "Counterparties received a total of $22.4 billion in collateral relating to CDS transactions from AIGFP between September 16, 2008 and December 31, 2008. This amount represents funds provided to such counterparties after the date on which AIG began receiving government assistance. / Municipalities in the states listed on Attachment C received a total of $12.1 billion from AIGFP between September 16, 2008 and December 31, 2008 in satisfaction of Guaranteed Investment Agreements.",
+      "sources": [
+        {
+          "url": "http://media.corporate-ir.net/media_files/irol/76/76115/releases/031509.pdf",
+          "publisher": "AIG (American International Group)",
+          "title": "AIG Discloses Counterparties to CDS, GIA and Securities Lending Transactions",
+          "date": "2009-03-15"
+        }
+      ]
+    },
+    {
+      "claim": "AIG's March 15, 2009 release stated that on November 10, 2008 AIG and the Federal Reserve Bank of New York established Maiden Lane III, a financing entity, to purchase the securities underlying certain CDS contracts from the counterparties, allowing the contracts to be cancelled. The New York Fed stated in January 2010 that Maiden Lane III bought CDOs with an aggregate par value of $62.1 billion from AIGFP's counterparties in multiple transactions in November and December 2008, paid the counterparties approximately $26.8 billion for title to the CDOs, and allowed them to retain approximately $35.1 billion in collateral previously posted by AIGFP.",
+      "status": "documented",
+      "date": "2010-01-19",
+      "quote": "On November 10, 2008, AIG and the FRBNY established Maiden Lane III, a financing entity, to purchase the securities underlying certain CDS contracts from the counterparties to such contracts, allowing the cancellation of the contracts. / Maiden Lane III paid counterparties approximately $26.8 billion for title to these CDOs. The counterparties were also allowed to retain approximately $35.1 billion in collateral previously posted by AIGFP",
+      "sources": [
+        {
+          "url": "http://media.corporate-ir.net/media_files/irol/76/76115/releases/031509.pdf",
+          "publisher": "AIG (American International Group)",
+          "title": "AIG Discloses Counterparties to CDS, GIA and Securities Lending Transactions",
+          "date": "2009-03-15"
+        },
+        {
+          "url": "https://resources.newyorkfed.org/markets/st100119.html",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Statement Regarding Public Disclosures of AIG Concerning Maiden Lane III LLC",
+          "date": "2010-01-19"
+        }
+      ]
+    },
+    {
+      "claim": "Reporting on AIG's March 2009 disclosure, Risk.net stated that Maiden Lane III paid out $27.1 billion to counterparties through the end of 2008, most of it to Deutsche Bank, Goldman Sachs, Merrill Lynch and Société Générale, and that securities lending counterparties received $43.7 billion. CNBC reported the same $43.7 billion securities-lending total, with Barclays receiving $7 billion, Deutsche Bank $6.4 billion, BNP Paribas $4.9 billion and Goldman Sachs $4.8 billion within it. A January 2010 House Oversight staff report described the direct payment of $27.1 billion of taxpayer money to large banks along with the waiver of about $35 billion in collateral.",
+      "status": "reported",
+      "date": "2009-03",
+      "quote": "Securities lending counterparties received another $43.7 billion. / the direct payment of $27.1 billion of taxpayer money to large banks, along with the waiver of about $35 billion in collateral",
+      "sources": [
+        {
+          "url": "https://www.risk.net/risk-management/credit-risk/1506685/aig-fallout-increases-calls-counterparty-disclosure",
+          "publisher": "Risk.net",
+          "title": "AIG fallout increases calls for counterparty disclosure",
+          "date": "2009"
+        },
+        {
+          "url": "https://www.cnbc.com/2009/03/16/big-european-banks-benefit-from-aig-bailout.html",
+          "publisher": "CNBC",
+          "title": "Big European Banks Benefit from AIG Bailout",
+          "date": "2009-03-16"
+        },
+        {
+          "url": "https://oversight.house.gov/wp-content/uploads/2012/01/20100125aigstaffreportwithcover.pdf",
+          "publisher": "U.S. House Committee on Oversight and Government Reform (staff report)",
+          "title": "Public Disclosure As A Last Resort: How the Federal Reserve Fought to Cover Up the Details of the AIG Counterparties Bailout From the American People (staff report)",
+          "date": "2010-01-25"
+        }
+      ]
+    },
+    {
+      "claim": "CNBC reported on March 16, 2009 that the biggest recipients of the AIG money were Goldman Sachs at $12.9 billion, through three types of transactions, and three European banks: Société Générale at $11.9 billion, Deutsche Bank at $11.8 billion and Barclays at $8.5 billion; Merrill Lynch received $6.8 billion as of December 31, 2008. Société Générale said the collateral and payments were consistent with its agreements with AIG. Bloomberg reported that AIG's release detailed recipients of about $100 billion of bailout funds, about $44 billion of it to counterparties headquartered in the United States, including Goldman Sachs and states such as California and Virginia.",
+      "status": "reported",
+      "date": "2009-03-16",
+      "quote": "Some of the biggest recipients of the AIG money were Goldman Sachs at $12.9 billion, and three European banks - France's Societe Generale at $11.9 billion, Germany's Deutsche Bank at $11.8 billion, and Britain's Barclays PLC at $8.5 billion. / Merrill Lynch, which was also under federal scrutiny over its bonus plans, received $6.8 billion as of Dec. 31.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2009/03/16/big-european-banks-benefit-from-aig-bailout.html",
+          "publisher": "CNBC",
+          "title": "Big European Banks Benefit from AIG Bailout",
+          "date": "2009-03-16"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2009-03-14/german-and-french-banks-got-36-billion-from-aig-bailout",
+          "publisher": "Bloomberg",
+          "title": "German and French Banks Got $36 Billion From AIG Bailout",
+          "date": "2009-03-14"
+        }
+      ]
+    },
+    {
+      "claim": "AIG's Form 8-K/A (Amendment No. 2), filed in March 2009, attached the Shortfall Agreement between Maiden Lane III LLC and AIG Financial Products (dated November 25, 2008, amended December 18, 2008) and supplemental information from its Schedule A giving, per listed counterparty, the aggregate notional value of the credit default swaps, total collateral posted and aggregate negative mark to market; the Deutsche Bank row shows about $8.52 billion notional, $5.72 billion collateral posted and $3.64 billion negative mark to market.",
+      "status": "documented",
+      "date": "2009-03-16",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/5272/000095012309004684/y75292be8vkza.htm",
+          "publisher": "SEC (AIG Form 8-K/A, Amendment No. 2)",
+          "title": "AIG Form 8-K/A (Amendment No. 2): Shortfall Agreement and Schedule A counterparty information",
+          "date": "2009-03"
+        }
+      ]
+    },
+    {
+      "claim": "AIG's Form 10-K for 2008 describes the termination of $62.1 billion net notional amount of CDS transactions in respect of the Maiden Lane III transaction, with AIG Financial Products paying $32.5 billion, net of a $2.5 billion shortfall receipt, by surrendering posted collateral.",
+      "status": "documented",
+      "date": "2009-03",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/5272/000095012309003734/y74794e10vk.htm",
+          "publisher": "SEC (AIG Form 10-K)",
+          "title": "AIG Form 10-K for fiscal year 2008",
+          "date": "2009-03"
+        }
+      ]
+    },
+    {
+      "claim": "On March 24, 2008 the New York Fed published a summary of terms for its financing of JPMorgan Chase's acquisition of Bear Stearns: a $29 billion loan backed by a $30 billion portfolio of Bear Stearns assets valued as of March 14, 2008, plus a $1 billion subordinated note from JPMorgan Chase absorbing the first losses. Both loans went to a Delaware limited liability company, each with a 10-year term renewable by the New York Fed; the Fed loan carried the primary credit rate (then 2.5 percent), the JPMorgan note that rate plus 450 basis points. BlackRock Financial Management was retained by the New York Fed to manage and liquidate the assets.",
+      "status": "documented",
+      "date": "2008-03-24",
+      "sources": [
+        {
+          "url": "https://www.newyorkfed.org/newsevents/news/markets/2008/rp080324b",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Press release of March 24, 2008: terms and conditions of the New York Fed financing in the JPMorgan Chase acquisition of Bear Stearns",
+          "date": "2008-03-24"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "ny-fed",
+      "relation": "founded",
+      "reverse": true,
+      "claim": "The Federal Reserve Bank of New York created and lent to Maiden Lane LLC (2008, about $28.82 billion), Maiden Lane II LLC ($19.5 billion) and Maiden Lane III LLC (about $24.3 billion); all three loans were repaid with interest in 2012.",
+      "status": "documented",
+      "date": "2008",
+      "quote": "its loans to Maiden Lane LLC and Maiden Lane III LLC have been fully repaid with interest / The original amounts of these loans were $28.82 billion and $24.3 billion respectively.",
+      "sources": [
+        {
+          "url": "https://www.newyorkfed.org/markets/maidenlane.html",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Maiden Lane Transactions"
+        },
+        {
+          "url": "https://www.newyorkfed.org/newsevents/news/markets/2012/an120614.html",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "New York Fed Announces Full Repayment of its Loans to Maiden Lane LLC and Maiden Lane III LLC",
+          "date": "2012-06-14"
+        }
+      ]
+    },
+    {
+      "to": "federal-reserve",
+      "relation": "other",
+      "reverse": true,
+      "claim": "The Federal Reserve Board authorized the New York Fed's loans to the Maiden Lane vehicles: on March 16, 2008 a senior loan to Maiden Lane LLC for the Bear Stearns assets, and in 2008 lending to Maiden Lane II LLC and Maiden Lane III LLC for AIG-related assets, which the Board reports in its disclosures on lending in support of specific institutions.",
+      "status": "documented",
+      "date": "2008-03-16",
+      "quote": "On March 16, 2008, the Board authorized the New York Reserve Bank to make a senior loan to a limited liability company, Maiden Lane LLC",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/monetarypolicy/files/129periodicupdate.pdf",
+          "publisher": "Board of Governors of the Federal Reserve System",
+          "title": "Periodic Report Pursuant to Section 129(b) of the Emergency Economic Stabilization Act"
+        },
+        {
+          "url": "https://www.federalreserve.gov/monetarypolicy/clbs-lending-in-support-of-specific-institutions-201107.htm",
+          "publisher": "Board of Governors of the Federal Reserve System",
+          "title": "Credit and Liquidity Programs and the Balance Sheet: Lending in Support of Specific Institutions (July 2011)",
+          "date": "2011-07"
+        }
+      ]
+    },
+    {
+      "to": "blackrock",
+      "relation": "contracted with",
+      "claim": "BlackRock Financial Management was hired by the New York Fed in March 2008 to manage the Maiden Lane LLC portfolio of about $30 billion of former Bear Stearns assets; American Banker reported in July 2009 that BlackRock would receive at least $71 million in the first year of its contracts to oversee the Maiden Lane, Maiden Lane II and Maiden Lane III assets; the New York Fed stated in 2012 that Maiden Lane III's securities sales were conducted by BlackRock Solutions.",
+      "status": "documented",
+      "date": "2008-03",
+      "quote": "BlackRock Financial Management was hired to manage the portfolio. / BlackRock Inc. will get at least $71 million in the first year of contracts to oversee assets previously owned by Bear Stearns Cos. and American International Group Inc. / Net proceeds from past sales, conducted by BlackRock Solutions",
+      "sources": [
+        {
+          "url": "https://speakeremeritapelosi.house.gov/newsroom/chairman-waxman-requests-details-of-federal-reserves-no-bid-arrangement-with-blackrock",
+          "publisher": "U.S. House of Representatives (Office of Speaker Emerita Pelosi, archived release)",
+          "title": "Chairman Waxman Requests Details of Federal Reserve's No-Bid Arrangement with BlackRock",
+          "date": "2008-04-07"
+        },
+        {
+          "url": "https://www.americanbanker.com/news/blackrock-to-get-71m-on-maiden-lane",
+          "publisher": "American Banker",
+          "title": "BlackRock to Get $71M on Maiden Lane",
+          "date": "2009-07-15"
+        },
+        {
+          "url": "https://www.newyorkfed.org/newsevents/news/markets/2012/an120823.html",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "New York Fed Sells Remainder of Maiden Lane III LLC Securities",
+          "date": "2012-08-23"
+        }
+      ]
+    },
+    {
+      "to": "aig",
+      "toName": "AIG (American International Group)",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Maiden Lane II LLC bought residential mortgage-backed securities from the securities lending portfolios of AIG's regulated U.S. insurance subsidiaries; Maiden Lane III LLC, funded by the New York Fed's $24.3 billion loan and a $5 billion AIG equity contribution, bought CDOs from AIG Financial Products' CDS counterparties, allowing the swaps to be terminated. AIG's equity contribution was repaid with interest by July 16, 2012.",
+      "status": "documented",
+      "date": "2008-11",
+      "quote": "FRBNY lent $24.3 billion to Maiden Lane III, which, in combination with a $5 billion equity investment from AIG, was used to fund the purchase of assets from counterparties of AIGFP / net proceeds from additional sales of securities in Maiden Lane III LLC enabled the full repayment of AIG's equity contribution plus accrued interest",
+      "sources": [
+        {
+          "url": "https://fcic-static.law.stanford.edu/cdn_media/fcic-docs/2010-06-10%20COP%20AIG%20Rescue.pdf",
+          "publisher": "Congressional Oversight Panel, via FCIC archive",
+          "title": "June Oversight Report: The AIG Rescue, Its Impact on Markets, and the Government's Exit Strategy",
+          "date": "2010-06-10"
+        },
+        {
+          "url": "https://www.newyorkfed.org/markets/maidenlane.html",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Maiden Lane Transactions"
+        },
+        {
+          "url": "https://www.newyorkfed.org/aboutthefed/aig/ml23.html",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Maiden Lane II"
+        }
+      ]
+    },
+    {
+      "to": "goldman-sachs",
+      "relation": "other",
+      "claim": "SIGTARP recorded that Goldman Sachs had approximately $22.1 billion notional of credit default swaps with AIG, about $20 billion of them against a portfolio of CDOs, and that approximately $13.9 billion was resolved through Maiden Lane III; Goldman told SIGTARP it had one telephone conversation with FRBNY staff in which concessions were mentioned and did not agree to concessions because it would have realized a loss. An FCIC staff memo stated Goldman retained $8.4 billion of collateral attributable to the terminated swaps and received $5.6 billion from Maiden Lane III.",
+      "status": "documented",
+      "date": "2008-11",
+      "quote": "Goldman Sachs had approximately $22.1 billion of notional amount of outstanding credit default swap contracts with AIG, approximately $20 billion of which were against an underlying portfolio of CDOs. According to Goldman Sachs, it had one telephone conversation with FRBNY staff in which the possibility of concessions was mentioned. Goldman Sachs has since explained that it did not agree to concessions because it would have realized a loss if it had.",
+      "sources": [
+        {
+          "url": "https://www.goldmansachs.com/pressroom/announcements/2009/sigtarp",
+          "publisher": "Goldman Sachs (posting a section of the SIGTARP report)",
+          "title": "Section of SIGTARP Report Related to Goldman Sachs",
+          "date": "2009-11"
+        },
+        {
+          "url": "https://fcic-static.law.stanford.edu/cdn_media/fcic-docs/2010-09-17_FCIC_Staff_Memo_re_Goldman_Sachs_Exposure_to_AIG.pdf",
+          "publisher": "Financial Crisis Inquiry Commission (staff memo)",
+          "title": "FCIC Staff Memo re Goldman Sachs Exposure to AIG",
+          "date": "2010-09-17"
+        }
+      ]
+    },
+    {
+      "to": "timothy-geithner",
+      "relation": "other",
+      "claim": "Timothy Geithner was president of the Federal Reserve Bank of New York, which created the three Maiden Lane vehicles in 2008, until his confirmation as Treasury Secretary on January 26, 2009. House Oversight Chairman Henry Waxman's April 7, 2008 letter questioning BlackRock's selection to manage the Bear Stearns portfolio was addressed to Geithner. SIGTARP reported that Geithner did not participate in the AIG counterparty payment negotiations; the Congressional Oversight Panel recorded that he later testified that payment in full to all AIG counterparties was necessary to stop a panic.",
+      "status": "documented",
+      "date": "2008",
+      "quote": "Geithner served as the President of the FRBNY until he was confirmed by the Senate on January 26, 2009 / Secretary Geithner later testified that he believed that payment in full to all AIG counterparties was necessary to stop a panic",
+      "sources": [
+        {
+          "url": "https://oversight.house.gov/wp-content/uploads/2012/01/20100125aigstaffreportwithcover.pdf",
+          "publisher": "U.S. House Committee on Oversight and Government Reform (staff report)",
+          "title": "Staff report on the AIG counterparty payments and disclosure",
+          "date": "2010-01-25"
+        },
+        {
+          "url": "https://speakeremeritapelosi.house.gov/newsroom/chairman-waxman-requests-details-of-federal-reserves-no-bid-arrangement-with-blackrock",
+          "publisher": "U.S. House of Representatives (Office of Speaker Emerita Pelosi, archived release)",
+          "title": "Chairman Waxman Requests Details of Federal Reserve's No-Bid Arrangement with BlackRock",
+          "date": "2008-04-07"
+        },
+        {
+          "url": "https://fcic-static.law.stanford.edu/cdn_media/fcic-docs/2010-06-10%20COP%20AIG%20Rescue.pdf",
+          "publisher": "Congressional Oversight Panel, via FCIC archive",
+          "title": "June Oversight Report: The AIG Rescue",
+          "date": "2010-06-10"
+        }
+      ]
+    },
+    {
+      "to": "bear-stearns",
+      "relation": "other",
+      "claim": "Maiden Lane LLC was formed in March 2008 to hold about $30 billion of less liquid Bear Stearns assets in order to facilitate JPMorgan Chase's acquisition of Bear Stearns; the final securities in the vehicle were sold in September 2018.",
+      "status": "documented",
+      "date": "2008-03",
+      "quote": "On March 16, 2008, the Board authorized the New York Reserve Bank to make a senior loan to a limited liability company, Maiden Lane LLC",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/monetarypolicy/files/129periodicupdate.pdf",
+          "publisher": "Board of Governors of the Federal Reserve System",
+          "title": "Periodic Report Pursuant to Section 129(b) of the Emergency Economic Stabilization Act"
+        },
+        {
+          "url": "https://news.bloomberglaw.com/mergers-and-acquisitions/fed-sells-last-of-bear-stearns-assets-closing-chapter-of-crisis",
+          "publisher": "Bloomberg Law",
+          "title": "Fed Sells Last of Bear Stearns Assets, Closing Chapter of Crisis",
+          "date": "2018-09"
+        }
+      ]
+    },
+    {
+      "to": "jpmorgan-chase",
+      "relation": "funded",
+      "reverse": true,
+      "claim": "JPMorgan Chase lent Maiden Lane LLC about $1.1 billion at the June 26, 2008 closing, subordinated for repayment purposes to the New York Fed's senior loan.",
+      "status": "documented",
+      "date": "2008-06-26",
+      "quote": "JPMorgan Chase lent $1 billion to Maiden Lane that is subordinated for repayment purposes to the New York Reserve Bank's loan / JPMorgan Chase actually lent $1.1 billion",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/monetarypolicy/files/129periodicupdate.pdf",
+          "publisher": "Board of Governors of the Federal Reserve System",
+          "title": "Periodic Report Pursuant to Section 129(b) of the Emergency Economic Stabilization Act"
+        }
+      ]
+    },
+    {
+      "to": "aig",
+      "relation": "other",
+      "claim": "AIG disclosed on March 15, 2009, after consulting the Federal Reserve, the counterparties it paid between September 16 and December 31, 2008: $22.4 billion of CDS collateral from AIG Financial Products and $12.1 billion to municipalities under Guaranteed Investment Agreements, alongside its securities lending and Maiden Lane III counterparties. AIG and the New York Fed established Maiden Lane III on November 10, 2008; the New York Fed states that the vehicle paid AIGFP's counterparties approximately $26.8 billion for CDOs with a $62.1 billion par value and let them retain about $35.1 billion of collateral previously posted by AIGFP.",
+      "status": "documented",
+      "date": "2009-03-15",
+      "quote": "AIG consulted with the Federal Reserve about the potential public benefit of counterparty disclosure and the potential that such disclosure would cause competitive harm to AIG or its counterparties. / Maiden Lane III paid counterparties approximately $26.8 billion for title to these CDOs.",
+      "sources": [
+        {
+          "url": "http://media.corporate-ir.net/media_files/irol/76/76115/releases/031509.pdf",
+          "publisher": "AIG (American International Group)",
+          "title": "AIG Discloses Counterparties to CDS, GIA and Securities Lending Transactions",
+          "date": "2009-03-15"
+        },
+        {
+          "url": "https://resources.newyorkfed.org/markets/st100119.html",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Statement Regarding Public Disclosures of AIG Concerning Maiden Lane III LLC",
+          "date": "2010-01-19"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The brief's '$93.2 billion' total was not found verbatim in any source. The components reported from AIG's March 15, 2009 disclosure are now recorded: $22.4 billion CDS collateral and $12.1 billion municipal GIAs (AIG release), $27.1 billion Maiden Lane III payments and $43.7 billion securities lending (Risk.net, CNBC, House Oversight staff report). The three non-municipal components sum to $93.2 billion and all four to $105.3 billion, which would account for both the Reuters '$93 billion' and the Bloomberg-sourced '$105 billion' headlines; Bloomberg's own March 2009 report says 'about $100 billion'. The owner should confirm the sums against Attachments A-D of the release (the attachments were not retrieved) and note that the securities-lending window differs between sources (September 18 to December 12 per Risk.net; September 18 to December 31 per an AIG chart reproduced on Scribd).",
+    "The New York Fed's Maiden Lane page and its January 19, 2010 statement give ML III payments to counterparties as $26.8 billion (plus $2.5 billion to AIGFP); SIGTARP and COP summaries give a fair market value of about $27.1 billion, and Risk.net and the House Oversight staff report also use $27.1 billion. All are recorded as their sources state them; the owner may want to reconcile.",
+    "The New York Fed's own September 2018 press release on the final Maiden Lane LLC sale was not retrieved (only Bloomberg Law's report and third-party reprints); the Bloomberg Law report is cited.",
+    "The Maiden Lane II borrowing date (December 12, 2008) and the $22.5 billion authorization appeared in search results tied to the New York Fed's Maiden Lane II page and AIG subsidiary filings; the page attribution should be checked with check-links.mjs and a read of the page.",
+    "The exact Maiden Lane III closing date (November 2008) was not quoted by a retrieved page; the date field is left at month precision.",
+    "Geithner's start date as New York Fed president (November 2003) was not confirmed by a retrieved source; only the January 26, 2009 end of his tenure is sourced.",
+    "The Schedule A figures for Deutsche Bank in AIG's 8-K/A (Amendment No. 2) come from a search extract showing only two rows of the table (the other row was Landesbank Baden-Württemberg, with about $89 million notional); the full table, which should list Goldman Sachs and Société Générale, was not retrieved. The 8-K/A's filing date (March 16, 2009) and the 2008 10-K passage on the $32.5 billion collateral surrender were read from search extracts without a verbatim quote and should be checked against the documents.",
+    "The March 24, 2008 terms were attributed by the search result to the New York Fed page rp080324b; a companion page, https://www.newyorkfed.org/newsevents/news/markets/2008/rp080324 , also exists and may be the press release proper. Confirm which page holds the summary of terms and conditions. The Federal Reserve's Section 129 report gives the JPMorgan subordinated loan as $1.1 billion against the $1 billion in the March 24 summary.",
+    "Bloomberg's 'Who's Who on AIG's List of Counterparties' (https://www.bloomberg.com/news/articles/2009-03-17/whos-who-on-aigs-list-of-counterparties) and ProPublica's 'Which Hedge Funds Are Collecting Under the AIG Bailout?' (https://www.propublica.org/article/which-hedge-funds-are-collecting-under-the-aig-bailout-0319) appeared in results; no passages were retrieved. The Washington Post later put Goldman's total from AIG at $14 billion 'over months' (http://www.washingtonpost.com/wp-dyn/content/article/2009/10/27/AR2009102703963.html), a different period from the $12.9 billion figure.",
+    "A connection to the 'aig' entity id was added alongside the earlier connection to 'AIG' by name; the owner may wish to approve only one."
+  ]
+}

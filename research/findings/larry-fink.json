@@ -1,0 +1,95 @@
+{
+  "entity": "larry-fink",
+  "name": "Larry Fink",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "Laurence D. (Larry) Fink co-founded BlackRock in 1988 and serves as its Chairman and Chief Executive Officer. Before BlackRock he worked at the investment bank First Boston, where CNBC describes him as a pioneer in the mortgage bond market and the firm's youngest managing director; in 1986 his mortgage department lost $100 million in a single quarter and he left the bank two years later. BlackRock began under the corporate umbrella of The Blackstone Group before separating in the 1990s.",
+    "sources": [
+      { "url": "https://www.sec.gov/Archives/edgar/data/1364742/000119312521118007/d73637ddef14a.htm", "publisher": "SEC (BlackRock Form DEF 14A)", "title": "BlackRock, Inc. 2021 proxy statement", "date": "2021-04" },
+      { "url": "https://www.cnbc.com/2012/11/29/blackrock-ahead-of-the-street.html", "publisher": "CNBC", "title": "BlackRock: Ahead of the Street", "date": "2012-11-29" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "BlackRock's proxy statements state that Larry Fink co-founded BlackRock in 1988; he is the company's Chairman and Chief Executive Officer.",
+      "status": "documented",
+      "date": "1988",
+      "quote": "Mr. Fink co-founded BlackRock in 1988",
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/1364742/000119312521118007/d73637ddef14a.htm", "publisher": "SEC (BlackRock Form DEF 14A)", "title": "BlackRock, Inc. 2021 proxy statement", "date": "2021-04" },
+        { "url": "https://www.sec.gov/Archives/edgar/data/1364742/000119312519104809/d632173ddef14a.htm", "publisher": "SEC (BlackRock Form DEF 14A)", "title": "BlackRock, Inc. 2019 proxy statement", "date": "2019-04" }
+      ]
+    },
+    {
+      "claim": "CNBC reported that at First Boston Fink became the bank's youngest managing director and was a pioneer in the mortgage bond market, but that in 1986 his mortgage department lost $100 million in a single quarter, and that two years later he was out.",
+      "status": "reported",
+      "date": "1986",
+      "quote": "He might have been fitted for the crown at the investment bank, now owned by Credit Suisse, but in 1986 his mortgage department lost $100 million in a single quarter. Two years later he was out.",
+      "sources": [
+        { "url": "https://www.cnbc.com/2012/11/29/blackrock-ahead-of-the-street.html", "publisher": "CNBC", "title": "BlackRock: Ahead of the Street", "date": "2012-11-29" }
+      ]
+    },
+    {
+      "claim": "A 2010 Vanity Fair profile, as quoted by AOL, said that Fink's mortgage business had added, by some estimates, about $1 billion to First Boston's bottom line before the 1986 loss.",
+      "status": "reported",
+      "date": "2010",
+      "quote": "added, by some estimates, about $1 billion to First Boston's bottom line",
+      "sources": [
+        { "url": "https://www.aol.com/billionaire-blackrock-ceo-larry-fink-095902728.html", "publisher": "AOL (quoting Vanity Fair)", "title": "Billionaire BlackRock CEO Larry Fink (AOL)", "date": "" }
+      ]
+    },
+    {
+      "claim": "Wikipedia states that in 1988, under the corporate umbrella of The Blackstone Group, Fink co-founded BlackRock and became its director and CEO, that BlackRock split from Blackstone in 1994, and that Fink became chairman in 1998 after BlackRock became independent. (Wikipedia; the owner should replace this with a primary source before approval.)",
+      "status": "reported",
+      "date": "1988",
+      "quote": "in 1988, under the corporate umbrella of The Blackstone Group, Fink co-founded BlackRock and became its director and CEO / when BlackRock split from Blackstone in 1994, Fink retained his positions, becoming chairman in 1998 after BlackRock became independent",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Larry_Fink", "publisher": "Wikipedia", "title": "Larry Fink", "date": "" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "blackrock",
+      "relation": "co-founded",
+      "claim": "Larry Fink co-founded BlackRock in 1988.",
+      "status": "documented",
+      "date": "1988",
+      "quote": "Mr. Fink co-founded BlackRock in 1988",
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/1364742/000119312521118007/d73637ddef14a.htm", "publisher": "SEC (BlackRock Form DEF 14A)", "title": "BlackRock, Inc. 2021 proxy statement", "date": "2021-04" }
+      ]
+    },
+    {
+      "to": "blackrock",
+      "relation": "executive of",
+      "claim": "Larry Fink is Chairman and Chief Executive Officer of BlackRock, the only CEO the company has had since its founding in 1988.",
+      "status": "documented",
+      "date": "2021",
+      "quote": "Mr. Fink co-founded BlackRock in 1988",
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/1364742/000119312521118007/d73637ddef14a.htm", "publisher": "SEC (BlackRock Form DEF 14A)", "title": "BlackRock, Inc. 2021 proxy statement", "date": "2021-04" },
+        { "url": "https://www.cnbc.com/2012/11/29/blackrock-ahead-of-the-street.html", "publisher": "CNBC", "title": "BlackRock: Ahead of the Street", "date": "2012-11-29" }
+      ]
+    },
+    {
+      "to": "Blackstone Group",
+      "toName": "The Blackstone Group",
+      "toType": "fund",
+      "relation": "funded",
+      "reverse": true,
+      "claim": "BlackRock began in 1988 under the corporate umbrella of The Blackstone Group and separated from it in 1994 (Wikipedia; primary source needed).",
+      "status": "reported",
+      "date": "1988",
+      "quote": "in 1988, under the corporate umbrella of The Blackstone Group, Fink co-founded BlackRock and became its director and CEO",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Larry_Fink", "publisher": "Wikipedia", "title": "Larry Fink", "date": "" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The Blackstone origin of BlackRock (reported $5 million credit line from Blackstone, 'Blackstone Financial Management' name, 1994-95 sale to PNC for about $240 million) appeared only in Wikipedia, Substack and Medium posts in this session; the Vanity Fair 2010 profile ('Larry Fink's $12 Trillion Shadow') and BlackRock's own history page were not retrieved with passages. Replace the Wikipedia-sourced items with one of those before approval.",
+    "The 'only CEO since 1988' phrasing in the executive-of connection is supported by the proxy statement's co-founder language and CNBC's account; a source that says it directly was not retrieved.",
+    "The AOL item's publication date was not returned by the search; the date field is blank."
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "entity": "george-s-benson",
+  "name": "George S. Benson",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "George Stuart Benson (1898–1991), president of Harding College, founded the National Education Program to promote his views on Americanism and free enterprise and arranged for its films to be distributed by MGM; the program drew corporate donations including from Boeing and Gulf Oil.",
+    "sources": [
+      {
+        "url": "https://encyclopediaofarkansas.net/entries/George-Stuart-Benson-3495",
+        "publisher": "Encyclopedia of Arkansas",
+        "title": "George Stuart Benson (1898–1991)"
+      },
+      {
+        "url": "https://encyclopediaofarkansas.net/entries/national-education-program-12187/",
+        "publisher": "Encyclopedia of Arkansas",
+        "title": "National Education Program"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Benson founded the National Education Program and made a deal with MGM under which NEP-produced short films, including cartoons by former Walt Disney employees, were shown in 15,000 theaters; the program attracted donations to Harding including from Boeing and Gulf Oil.",
+      "status": "reported",
+      "date": "1940s–50s",
+      "quote": "attracted many donations to Harding, including from Boeing and Gulf Oil",
+      "sources": [
+        {
+          "url": "https://encyclopediaofarkansas.net/entries/George-Stuart-Benson-3495",
+          "publisher": "Encyclopedia of Arkansas",
+          "title": "George Stuart Benson (1898–1991)"
+        },
+        {
+          "url": "https://encyclopediaofarkansas.net/entries/national-education-program-12187/",
+          "publisher": "Encyclopedia of Arkansas",
+          "title": "National Education Program"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "national-education-program",
+      "toName": "National Education Program",
+      "toType": "organization",
+      "relation": "founded",
+      "claim": "Benson founded the NEP.",
+      "status": "reported",
+      "date": "1940s",
+      "quote": "founded by Harding College (now Harding University) president George S. Benson",
+      "sources": [
+        {
+          "url": "https://encyclopediaofarkansas.net/entries/national-education-program-12187/",
+          "publisher": "Encyclopedia of Arkansas",
+          "title": "National Education Program"
+        }
+      ]
+    }
+  ],
+  "openQuestions": []
+}

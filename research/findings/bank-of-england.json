@@ -1,0 +1,431 @@
+{
+  "entity": "bank-of-england",
+  "name": "Bank of England",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The Bank of England is the United Kingdom's central bank, founded in 1694 as banker to the Government. Its website describes its purpose as promoting the good of the people of the UK by maintaining monetary and financial stability: its Monetary Policy Committee sets Bank Rate against the Government's 2% inflation target, its Financial Policy Committee monitors system-wide risks, its Prudential Regulation Authority supervises firms, and it acts as the UK resolution authority and provides banking services to around 140 other central banks. On this site it appears as the supervisor that led the 5 July 1991 closure of BCCI, the supervisor examined by the 1995 Board of Banking Supervision report on Barings, and the buyer of £19.3 billion of gilts in the September-October 2022 liability-driven-investment intervention.",
+    "sources": [
+      {
+        "url": "https://www.bankofengland.co.uk/about",
+        "publisher": "Bank of England",
+        "title": "What does the Bank of England do?"
+      },
+      {
+        "url": "https://www.bankofengland.co.uk/financial-stability",
+        "publisher": "Bank of England",
+        "title": "Financial stability"
+      },
+      {
+        "url": "https://www.bankofengland.co.uk/quarterly-bulletin/2016/q2/the-demise-of-overend-gurney",
+        "publisher": "Bank of England (Quarterly Bulletin 2016 Q2)",
+        "title": "The demise of Overend Gurney",
+        "date": "2016"
+      },
+      {
+        "url": "https://bankunderground.co.uk/2016/02/10/rescuing-a-sifi-halting-a-panic-the-barings-crisis-of-1890/",
+        "publisher": "Bank Underground (Bank of England staff blog)",
+        "title": "Rescuing a SIFI, Halting a Panic: the Barings Crisis of 1890",
+        "date": "2016-02-10"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The Bank of England's Banking Act report for 1991/92 describes the 5 July 1991 closure of BCCI as a coordinated worldwide operation by banking supervisors in which the Bank obtained a court order appointing provisional liquidators for BCCI SA, with similar action in Luxembourg and Grand Cayman. The Bank stated that information in a Price Waterhouse report commissioned under Section 41 of the Banking Act made it necessary to freeze BCCI's assets to protect depositors.",
+      "status": "documented",
+      "date": "1991-07-05",
+      "quote": "Banking Act Report 1991/92",
+      "sources": [
+        {
+          "url": "https://www.bankofengland.co.uk/-/media/boe/files/archive/banking-act-report/1991-1992.pdf",
+          "publisher": "Bank of England",
+          "title": "Banking Act Report 1991/92",
+          "date": "1992"
+        }
+      ]
+    },
+    {
+      "claim": "The U.S. Senate Foreign Relations Committee's December 1992 BCCI report found that the Bank of England withheld important information from the Federal Reserve in the spring of 1990 about the size and scope of BCCI's lending on CCAH/First American shares, delaying the Federal Reserve's full investigation.",
+      "status": "court",
+      "date": "1992-12",
+      "quote": "The BCCI Affair: The Regulators",
+      "sources": [
+        {
+          "url": "https://irp.fas.org/congress/1992_rpt/bcci/12reg.htm",
+          "publisher": "U.S. Senate Committee on Foreign Relations (hosted by Federation of American Scientists)",
+          "title": "The BCCI Affair: The Regulators",
+          "date": "1992-12"
+        }
+      ]
+    },
+    {
+      "claim": "The Bingham inquiry into the supervision of BCCI, commissioned by HM Treasury after the July 1991 closure, reported on 22 October 1992 and examined the Bank of England's supervision of BCCI under the Banking Acts and whether the UK authorities' action was appropriate and timely.",
+      "status": "court",
+      "date": "1992-10-22",
+      "quote": "BCCI (Bingham Report)",
+      "sources": [
+        {
+          "url": "https://api.parliament.uk/historic-hansard/commons/1992/oct/22/bcci-bingham-report",
+          "publisher": "UK Parliament (Hansard, House of Commons)",
+          "title": "BCCI (Bingham Report)",
+          "date": "1992-10-22"
+        }
+      ]
+    },
+    {
+      "claim": "The Board of Banking Supervision's inquiry report into the collapse of Barings, published 18 July 1995, found the losses came from unauthorised and concealed trading at Barings Futures Singapore. On the Bank of England, the Board judged that it reasonably relied on local regulators of the overseas operations, but found that the Bank took almost two years to reimpose the 25 per cent large-exposure limit, which it considered unacceptable, and that an error of judgment was made in 1993 in giving Barings an informal concession on notifying exposures above 25 per cent of capital. The Bank accepted all the recommendations relevant to it.",
+      "status": "court",
+      "date": "1995-07-18",
+      "quote": "The Bank took almost two years to reimpose the 25 per cent large-exposure limit, which the Board considered unacceptable.",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/government/publications/report-into-the-collapse-of-barings-bank",
+          "publisher": "HM Treasury / Board of Banking Supervision (GOV.UK)",
+          "title": "Report into the collapse of Barings Bank",
+          "date": "1995-07-18"
+        },
+        {
+          "url": "https://api.parliament.uk/historic-hansard/commons/1995/jul/18/barings",
+          "publisher": "UK Parliament (Hansard, House of Commons)",
+          "title": "Barings",
+          "date": "1995-07-18"
+        },
+        {
+          "url": "https://api.parliament.uk/historic-hansard/lords/1995/jul/21/banking-supervision",
+          "publisher": "UK Parliament (Hansard, House of Lords)",
+          "title": "Banking Supervision",
+          "date": "1995-07-21"
+        }
+      ]
+    },
+    {
+      "claim": "On 28 September 2022 the Bank of England announced temporary and targeted purchases of long-dated UK government bonds, after its Financial Policy Committee noted risks to UK financial stability from dysfunction in the gilt market. The Bank stood ready to buy conventional gilts with a residual maturity of more than 20 years in daily reverse auctions of up to £5 billion, and postponed the start of its planned Asset Purchase Facility gilt sales to 31 October 2022.",
+      "status": "documented",
+      "date": "2022-09-28",
+      "quote": "Gilt Market Operations - Market Notice 28 September 2022",
+      "sources": [
+        {
+          "url": "https://www.bankofengland.co.uk/news/2022/september/bank-of-england-announces-gilt-market-operation",
+          "publisher": "Bank of England",
+          "title": "Bank of England announces gilt market operation",
+          "date": "2022-09-28"
+        },
+        {
+          "url": "https://www.bankofengland.co.uk/markets/market-notices/2022/september/market-notice-28-september-2022-gilt-market-operations",
+          "publisher": "Bank of England",
+          "title": "Gilt Market Operations - Market Notice 28 September 2022",
+          "date": "2022-09-28"
+        }
+      ]
+    },
+    {
+      "claim": "In a 5 October 2022 letter, Deputy Governor Jon Cunliffe said liability-driven investment fund managers had warned the Bank that they would have to sell large volumes of long-term gilts into an illiquid market, which could have meant sales of at least £50 billion in a short period.",
+      "status": "documented",
+      "date": "2022-10-05",
+      "quote": "Letter from Jon Cunliffe on LDI, 5 October 2022",
+      "sources": [
+        {
+          "url": "https://www.bankofengland.co.uk/-/media/boe/files/letter/2022/october/letter-from-jon-cunliffe-ldi-5-october-2022",
+          "publisher": "Bank of England",
+          "title": "Letter from Jon Cunliffe to the Treasury Committee on liability driven investment funds",
+          "date": "2022-10-05"
+        }
+      ]
+    },
+    {
+      "claim": "The Bank raised the maximum daily auction size from £5 billion to £10 billion on 10 October 2022, added index-linked gilts on 11 October, and ended the operations on 14 October 2022. In total it bought £19.3 billion of gilts (£12.1 billion conventional and £7.2 billion index-linked), which it later sold back to the market, beginning on 29 November 2022 and completing the sales in January 2023.",
+      "status": "documented",
+      "date": "2022-10-14",
+      "quote": "In total, the Bank purchased £19.3 billion of gilts, split between £12.1 billion of conventional long-dated gilts and £7.2 billion of index-linked gilts.",
+      "sources": [
+        {
+          "url": "https://www.bankofengland.co.uk/news/2022/october/statement-on-end-of-gilt-market-operations",
+          "publisher": "Bank of England",
+          "title": "Bank of England statement on end of gilt market operations",
+          "date": "2022-10-14"
+        },
+        {
+          "url": "https://www.bankofengland.co.uk/news/2022/november/boe-demand-led-approach-to-unwind-recent-financial-stability-gilt-purchases",
+          "publisher": "Bank of England",
+          "title": "Bank of England sets out plans for a demand-led approach to unwind recent financial stability gilt purchases in a timely but orderly way",
+          "date": "2022-11"
+        },
+        {
+          "url": "https://www.bankofengland.co.uk/quarterly-bulletin/2023/2023/financial-stability-buy-sell-tools-a-gilt-market-case-study",
+          "publisher": "Bank of England",
+          "title": "Financial stability buy/sell tools: a gilt market case study (Quarterly Bulletin)",
+          "date": "2023"
+        }
+      ]
+    },
+    {
+      "claim": "On 9 May 1866 the Bank refused Overend Gurney's request for assistance on the basis of insolvency, but supported the refinancing of viable banks and brokers by depleting its own reserves.",
+      "status": "documented",
+      "date": "1866-05-09",
+      "quote": "refused assistance to Overend Gurney but supported the refinancing of viable banks and brokers by depleting its own reserves",
+      "sources": [
+        {
+          "url": "https://www.bankofengland.co.uk/quarterly-bulletin/2016/q2/the-demise-of-overend-gurney",
+          "publisher": "Bank of England (Quarterly Bulletin 2016 Q2)",
+          "title": "The demise of Overend Gurney",
+          "date": "2016"
+        }
+      ]
+    },
+    {
+      "claim": "On 11 May 1866 the Chancellor of the Exchequer wrote to the Governor relaxing the constraints of the 1844 Bank Charter Act by granting an indemnity to allow the issue of unbacked currency, on condition that loans were made at not less than 10 percent; the Bank did not in the event exceed the note-issue limit.",
+      "status": "documented",
+      "date": "1866-05-11",
+      "quote": "the Chancellor's reply relaxed the constraints of the 1844 Bank Charter Act, by granting an indemnity to allow the issue of unbacked currency.",
+      "sources": [
+        {
+          "url": "https://bankunderground.co.uk/2016/12/21/unto-us-a-lender-of-last-resort-is-born-overend-gurney-goes-bust-in-1866/",
+          "publisher": "Bank Underground (Bank of England staff blog)",
+          "title": "Unto us a lender of last resort is born: Overend Gurney goes bust in 1866",
+          "date": "2016-12-21"
+        },
+        {
+          "url": "https://elischolar.library.yale.edu/cgi/viewcontent.cgi?article=1337&context=journal-of-financial-crises",
+          "publisher": "Yale Journal of Financial Crises",
+          "title": "Journal of Financial Crises Volume 4 Issue 2 (2022)",
+          "date": "2022"
+        }
+      ]
+    },
+    {
+      "claim": "A Bank of England speech states that in 1866 the Bank was forced to lend £4 million, ten times the initial sum, to support other banks.",
+      "status": "documented",
+      "date": "1866",
+      "quote": "the Bank was forced to lend £4 million – ten times the initial sum – to support other banks.",
+      "sources": [
+        {
+          "url": "https://www.bankofengland.co.uk/-/media/boe/files/speech/2012/the-bank-and-the-banks.pdf",
+          "publisher": "Bank of England (speech by Andrew Haldane)",
+          "title": "The Bank and the banks",
+          "date": "2012"
+        }
+      ]
+    },
+    {
+      "claim": "The Bank's own history states that the 1866 failure and its aftermath led to a policy debate that helped shape the Bank as a lender of last resort; a 2017 Bank staff working paper cautions that there is no definitive evidence that an explicit set of lender-of-last-resort principles was accepted at the top of the Bank.",
+      "status": "documented",
+      "date": "1866",
+      "quote": "there is no definitive evidence that an explicit set of Lender of Last Resort (LOLR) principles was accepted by the top of the Bank and its directors.",
+      "sources": [
+        {
+          "url": "https://www.bankofengland.co.uk/about/history",
+          "publisher": "Bank of England",
+          "title": "History"
+        },
+        {
+          "url": "https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2017/the-bank-of-england-as-lender-of-last-resort-a-new-historical-evidence-from-daily-transactional-data.pdf?la=en&hash=173967C0B9499B9B2E3792E82D484863C7DF3760",
+          "publisher": "Bank of England (Staff Working Paper No. 691)",
+          "title": "The Bank of England as lender of last resort: new historical evidence from daily transactional data",
+          "date": "2017"
+        }
+      ]
+    },
+    {
+      "claim": "On Saturday 8 November 1890 Governor William Lidderdale summoned the Bank's directors over Barings; he ordered an accountant's report, which showed Barings solvent but illiquid.",
+      "status": "documented",
+      "date": "1890-11-08",
+      "quote": "on Saturday 8 November 1890 the Bank Governor of the day, William Lidderdale, summoned his Directors.",
+      "sources": [
+        {
+          "url": "https://www.bankofengland.co.uk/-/media/boe/files/speech/2012/the-bank-and-the-banks.pdf",
+          "publisher": "Bank of England (speech by Andrew Haldane)",
+          "title": "The Bank and the banks",
+          "date": "2012"
+        },
+        {
+          "url": "https://bankunderground.co.uk/2016/02/10/rescuing-a-sifi-halting-a-panic-the-barings-crisis-of-1890/",
+          "publisher": "Bank Underground (Bank of England staff blog)",
+          "title": "Rescuing a SIFI, Halting a Panic: the Barings Crisis of 1890",
+          "date": "2016-02-10"
+        }
+      ]
+    },
+    {
+      "claim": "In November 1890 the Bank obtained £3 million in gold from the Banque de France against Treasury bills and bought £1.5 million of gold from Russia with Exchequer bonds, and the Russian government agreed not to withdraw its £2.4 million deposit at Barings.",
+      "status": "documented",
+      "date": "1890-11",
+      "quote": "The Bank of England also bought £1.5 million of gold from Russia with Exchequer bonds; and the Russian government promised not to withdraw its deposit of £2.4 million at Baring Brothers.",
+      "sources": [
+        {
+          "url": "https://bankunderground.co.uk/2016/02/10/rescuing-a-sifi-halting-a-panic-the-barings-crisis-of-1890/",
+          "publisher": "Bank Underground (Bank of England staff blog)",
+          "title": "Rescuing a SIFI, Halting a Panic: the Barings Crisis of 1890",
+          "date": "2016-02-10"
+        }
+      ]
+    },
+    {
+      "claim": "The Barings guarantee fund announced on 15 November 1890 reached £3.25 million within half an hour, £10 million by mid-afternoon and about £17.1 million the following week, with contributions from all major institutions.",
+      "status": "documented",
+      "date": "1890-11-15",
+      "quote": "Within half an hour, the City's top institutions had put themselves down for £3.25m, and by mid-afternoon the fund was up to £10m, climbing further to £17m by the following week.",
+      "sources": [
+        {
+          "url": "https://bankunderground.co.uk/2016/02/10/rescuing-a-sifi-halting-a-panic-the-barings-crisis-of-1890/",
+          "publisher": "Bank Underground (Bank of England staff blog)",
+          "title": "Rescuing a SIFI, Halting a Panic: the Barings Crisis of 1890",
+          "date": "2016-02-10"
+        }
+      ]
+    },
+    {
+      "claim": "Chancellor George Goschen offered a Chancellor's letter in 1890 to relax the gold-reserve requirement; Lidderdale refused, fearing it would trigger a 'dual crisis' of runs on banks and on sterling.",
+      "status": "documented",
+      "date": "1890-11",
+      "quote": "Lidderdale refused, fearing that such an announcement would trigger a \"dual crisis\"",
+      "sources": [
+        {
+          "url": "https://bankunderground.co.uk/2016/02/10/rescuing-a-sifi-halting-a-panic-the-barings-crisis-of-1890/",
+          "publisher": "Bank Underground (Bank of England staff blog)",
+          "title": "Rescuing a SIFI, Halting a Panic: the Barings Crisis of 1890",
+          "date": "2016-02-10"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "bcci",
+      "toName": "BCCI",
+      "toType": "bank",
+      "relation": "regulated",
+      "claim": "The Bank of England supervised BCCI under the Banking Acts and led the coordinated closure of the bank on 5 July 1991, obtaining a court order appointing provisional liquidators for BCCI SA.",
+      "status": "documented",
+      "date": "1991-07-05",
+      "quote": "Banking Act Report 1991/92",
+      "sources": [
+        {
+          "url": "https://www.bankofengland.co.uk/-/media/boe/files/archive/banking-act-report/1991-1992.pdf",
+          "publisher": "Bank of England",
+          "title": "Banking Act Report 1991/92",
+          "date": "1992"
+        },
+        {
+          "url": "https://irp.fas.org/congress/1992_rpt/bcci/01exec.htm",
+          "publisher": "U.S. Senate Committee on Foreign Relations (hosted by Federation of American Scientists)",
+          "title": "The BCCI Affair: Executive Summary",
+          "date": "1992-12"
+        }
+      ]
+    },
+    {
+      "to": "federal-reserve",
+      "toName": "Federal Reserve",
+      "toType": "government",
+      "relation": "other",
+      "claim": "The Senate Foreign Relations Committee found that the Bank of England withheld information from the Federal Reserve in spring 1990 about BCCI's lending on First American shares.",
+      "status": "court",
+      "date": "1992-12",
+      "quote": "The BCCI Affair: The Regulators",
+      "sources": [
+        {
+          "url": "https://irp.fas.org/congress/1992_rpt/bcci/12reg.htm",
+          "publisher": "U.S. Senate Committee on Foreign Relations (hosted by Federation of American Scientists)",
+          "title": "The BCCI Affair: The Regulators",
+          "date": "1992-12"
+        }
+      ]
+    },
+    {
+      "to": "baring-brothers",
+      "toName": "Barings",
+      "toType": "bank",
+      "relation": "regulated",
+      "claim": "The Bank of England supervised Barings; the 1995 Board of Banking Supervision report found the Bank took almost two years to reimpose the 25 per cent large-exposure limit and had made an error of judgment in granting an informal concession in 1993.",
+      "status": "court",
+      "date": "1995-07-18",
+      "quote": "The Bank took almost two years to reimpose the 25 per cent large-exposure limit, which the Board considered unacceptable.",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/government/publications/report-into-the-collapse-of-barings-bank",
+          "publisher": "HM Treasury / Board of Banking Supervision (GOV.UK)",
+          "title": "Report into the collapse of Barings Bank",
+          "date": "1995-07-18"
+        },
+        {
+          "url": "https://api.parliament.uk/historic-hansard/commons/1995/jul/18/barings",
+          "publisher": "UK Parliament (Hansard, House of Commons)",
+          "title": "Barings",
+          "date": "1995-07-18"
+        }
+      ]
+    },
+    {
+      "to": "overend-gurney-and-co",
+      "toName": "Overend, Gurney & Co.",
+      "toType": "bank",
+      "relation": "other",
+      "claim": "The Bank of England refused Overend Gurney's 9 May 1866 request for assistance on the basis of the firm's insolvency.",
+      "status": "documented",
+      "date": "1866-05-09",
+      "quote": "On 9 May 1866, Overend Gurney asked the Bank of England for assistance, which was refused on the basis of the broker's insolvency",
+      "sources": [
+        {
+          "url": "https://www.bankofengland.co.uk/quarterly-bulletin/2016/q2/the-demise-of-overend-gurney",
+          "publisher": "Bank of England (Quarterly Bulletin 2016 Q2)",
+          "title": "The demise of Overend Gurney",
+          "date": "2016"
+        }
+      ]
+    },
+    {
+      "to": "baring-brothers",
+      "toName": "Baring Brothers",
+      "toType": "bank",
+      "relation": "other",
+      "claim": "In November 1890 the Bank of England organised the rescue of Barings: the old firm's assets were placed in liquidation under the Bank's management, backed by a guarantee fund of about £17 million, while a new Baring Brothers & Co. Ltd took over the trade-finance business.",
+      "status": "documented",
+      "date": "1890-11",
+      "quote": "a recapitalized \"good bank\", Baring Brothers & Co. Ltd., which took over the still profitable trade finance and a \"bad bank\" that retained its name and its toxic assets, managed by the Bank of England.",
+      "sources": [
+        {
+          "url": "https://bankunderground.co.uk/2016/02/10/rescuing-a-sifi-halting-a-panic-the-barings-crisis-of-1890/",
+          "publisher": "Bank Underground (Bank of England staff blog)",
+          "title": "Rescuing a SIFI, Halting a Panic: the Barings Crisis of 1890",
+          "date": "2016-02-10"
+        },
+        {
+          "url": "https://baringarchive.org.uk/history/timeline/",
+          "publisher": "The Baring Archive",
+          "title": "Timeline"
+        }
+      ]
+    },
+    {
+      "to": "william-lidderdale",
+      "toName": "William Lidderdale",
+      "toType": "person",
+      "relation": "executive of",
+      "reverse": true,
+      "claim": "William Lidderdale was Governor of the Bank of England during the 1890 Barings crisis and negotiated a one-year extension of the guarantee in 1893.",
+      "status": "documented",
+      "date": "1890",
+      "quote": "approaching end of the period of the guarantee; slow progress of liquidation, with an extension for one year negotiated by Lidderdale",
+      "sources": [
+        {
+          "url": "https://www.bankofengland.co.uk/-/media/boe/files/speech/2012/the-bank-and-the-banks.pdf",
+          "publisher": "Bank of England (speech by Andrew Haldane)",
+          "title": "The Bank and the banks",
+          "date": "2012"
+        },
+        {
+          "url": "https://www.bankofengland.co.uk/CalmView/Record.aspx?id=G15%2F250",
+          "publisher": "Bank of England Archive (catalogue)",
+          "title": "Record G15/250"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Quotes for the BCCI items are document titles rather than passages, because the Banking Act report and Hansard pages were not opened in this session; the owner should verify the passages when reviewing.",
+    "The Deloitte (BCCI liquidators) misfeasance case against the Bank of England, dropped in 2005, is covered in the bcci file and not repeated here.",
+    "1866/1890 episodes: Bank Underground describes a Bank advance of £7.5 million to Barings; a reader's comment citing Clapham argues the Bank refused any advance until the private guarantee fund was in place. Check the sequencing in Clapham's history.",
+    "1890: Britannica gives Barings' liabilities taken over as £21,000,000; Bank Underground gives the guarantee fund as £17.1 million.",
+    "1866: whether the Chancellor's letter is properly a 'suspension' of the Bank Charter Act: Bank Underground describes an indemnity for unbacked issue; the Yale account says the Bank requested suspension and the Chancellor approved it the same day; the note-issue limit was not breached."
+  ]
+}

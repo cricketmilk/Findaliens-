@@ -1,0 +1,89 @@
+{
+  "entity": "tevfik-arif",
+  "name": "Tevfik Arif",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Tevfik Arif is a Kazakhstan-born businessman who founded the Bayrock Group, a New York real-estate development and investment firm, in 2001, with offices in Trump Tower, and who with Felix Sater was the firm's principal; Bayrock was the Trump Organization's partner on Trump SoHo. In September 2010 Turkish authorities detained him after a raid on the yacht Savarona and prosecutors charged him in connection with an alleged prostitution ring; he denied the charges, calling them imaginary, and was acquitted of all charges, with sources giving the date as 2011 or 2012. He was a defendant in Kriss v. Bayrock Group (S.D.N.Y. No. 10 Civ. 3959), a RICO suit by a former Bayrock finance director that settled in 2018 without adjudication of its allegations. The Bayrock and Felix Sater files on this site hold the firm's record.",
+    "sources": [
+      { "url": "https://www.huffpost.com/entry/tevfik-arif-kazakh-busine_n_799765", "publisher": "HuffPost", "title": "Tevfik Arif, Kazakh Businessman, Slams Turkey Yacht Sex Party Allegations As 'Imaginary'", "date": "2010-12" },
+      { "url": "https://www.bloomberg.com/news/articles/2018-02-22/trump-linked-real-estate-firm-settles-suit-by-former-executive", "publisher": "Bloomberg", "title": "Trump-Linked Real Estate Firm Settles Suit by Former Executive", "date": "2018-02-22" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Arif set up the Bayrock Group in New York in 2001, opening an office in Trump Tower two floors below the Trump Organization; the firm described itself as an international real estate development and investment company.",
+      "status": "reported",
+      "date": "2001",
+      "quote": "opened an office in Trump Tower, two floors down from the Trump Organization",
+      "sources": [
+        { "url": "https://theblacksea.eu/investigations/football-leaks/donald-trumps-disastrous-relationship-with-the-dodgy-kazakh-business-world/", "publisher": "The Black Sea", "title": "Donald Trump's disastrous relationship with the dodgy Kazakh business world" },
+        { "url": "https://investigaterussia.org/players/tevfik-arif", "publisher": "Investigate Russia", "title": "Tevfik Arif" }
+      ]
+    },
+    {
+      "claim": "On the night of September 28, 2010 Turkish police raided the yacht Savarona and detained Arif; prosecutors alleged he ran and financed a prostitution ring involving underage girls, with charges including trade in human beings, inducement to prostitution and creation of a criminal organization. Arif denied the charges, calling them imaginary.",
+      "status": "reported",
+      "date": "2010-09-28",
+      "quote": "Tevfik Arif, Kazakh Businessman, Slams Turkey Yacht Sex Party Allegations As 'Imaginary'",
+      "sources": [
+        { "url": "https://www.huffpost.com/entry/tevfik-arif-kazakh-busine_n_799765", "publisher": "HuffPost", "title": "Tevfik Arif, Kazakh Businessman, Slams Turkey Yacht Sex Party Allegations As 'Imaginary'", "date": "2010-12" },
+        { "url": "https://theblacksea.eu/investigations/football-leaks/donald-trumps-disastrous-relationship-with-the-dodgy-kazakh-business-world/", "publisher": "The Black Sea", "title": "Donald Trump's disastrous relationship with the dodgy Kazakh business world" }
+      ]
+    },
+    {
+      "claim": "A Turkish court acquitted Arif of all charges in the Savarona case; HuffPost, citing The Guardian, dates the acquittal to April 2011, while an Investigate Russia profile gives 2012.",
+      "status": "court",
+      "date": "2011-04",
+      "quote": "Tevfik Arif was acquitted of all charges in April 2011",
+      "sources": [
+        { "url": "https://www.huffpost.com/entry/tevfik-arif-kazakh-busine_n_799765", "publisher": "HuffPost", "title": "Tevfik Arif, Kazakh Businessman, Slams Turkey Yacht Sex Party Allegations As 'Imaginary'", "date": "2010-12" },
+        { "url": "https://investigaterussia.org/players/tevfik-arif", "publisher": "Investigate Russia", "title": "Tevfik Arif" }
+      ]
+    },
+    {
+      "claim": "Arif was a defendant in Kriss v. Bayrock Group LLC, S.D.N.Y. No. 10 Civ. 3959, in which former Bayrock finance director Jody Kriss alleged that the Arif/Sater agreement created a RICO enterprise; Bloomberg reported on February 22, 2018 that the firm settled the suit. The allegations were not adjudicated.",
+      "status": "court",
+      "date": "2018-02-22",
+      "quote": "Trump-Linked Real Estate Firm Settles Suit by Former Executive",
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2018-02-22/trump-linked-real-estate-firm-settles-suit-by-former-executive", "publisher": "Bloomberg", "title": "Trump-Linked Real Estate Firm Settles Suit by Former Executive", "date": "2018-02-22" },
+        { "url": "https://case-law.vlex.com/vid/kriss-v-bayrock-grp-893069938", "publisher": "vLex (S.D.N.Y. opinion)", "title": "Kriss v. Bayrock Group LLC, opinion of December 2, 2016", "date": "2016-12-02" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "bayrock-group",
+      "toName": "Bayrock Group",
+      "toType": "company",
+      "relation": "founded",
+      "claim": "Arif founded the Bayrock Group in New York in 2001; Bloomberg describes Bayrock as Felix Sater and Tevfik Arif's real estate firm.",
+      "status": "reported",
+      "date": "2001",
+      "quote": "He called his firm the Bayrock Group.",
+      "sources": [
+        { "url": "https://theblacksea.eu/investigations/football-leaks/donald-trumps-disastrous-relationship-with-the-dodgy-kazakh-business-world/", "publisher": "The Black Sea", "title": "Donald Trump's disastrous relationship with the dodgy Kazakh business world" },
+        { "url": "https://www.bloomberg.com/news/articles/2018-02-22/trump-linked-real-estate-firm-settles-suit-by-former-executive", "publisher": "Bloomberg", "title": "Trump-Linked Real Estate Firm Settles Suit by Former Executive", "date": "2018-02-22" }
+      ]
+    },
+    {
+      "to": "felix-sater",
+      "toName": "Felix Sater",
+      "toType": "person",
+      "relation": "partnered with",
+      "claim": "Arif and Sater were the principals of Bayrock Group; the Kriss complaint alleged their agreement set up the firm's enterprise, an allegation that was settled, not adjudicated.",
+      "status": "reported",
+      "date": "2010",
+      "quote": "the Arif/Sater agreement",
+      "sources": [
+        { "url": "https://case-law.vlex.com/vid/kriss-v-bayrock-grp-893069938", "publisher": "vLex (S.D.N.Y. opinion)", "title": "Kriss v. Bayrock Group LLC, opinion of December 2, 2016", "date": "2016-12-02" },
+        { "url": "https://www.bloomberg.com/news/articles/2018-02-22/trump-linked-real-estate-firm-settles-suit-by-former-executive", "publisher": "Bloomberg", "title": "Trump-Linked Real Estate Firm Settles Suit by Former Executive", "date": "2018-02-22" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The id tevfik-arif is in research/entities.seed.json but not yet in public/data/entities.json; the owner should run extract-entities.mjs before review.",
+    "The acquittal date (2011 vs 2012) should be checked against the Guardian's 2011 report, which was not reachable.",
+    "The Bloomberg and vLex URLs come from bayrock-group.json and were not re-opened in this session beyond the Bloomberg headline in search results."
+  ]
+}

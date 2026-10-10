@@ -1,0 +1,138 @@
+{
+  "entity": "urbit",
+  "name": "Urbit",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Urbit is a software project founded by Curtis Yarvin that aims to build a personal server and network with its own operating system and identity layer. Its identity registry, Azimuth, was deployed to Ethereum in January 2019; identities are organized in tiers of 256 galaxies, about 65,000 stars and about 4 billion planets, each held as an ERC-721 token. Development was carried out by the company Tlon, which Yarvin co-founded in 2013, and later by the Urbit Foundation. In August 2024 the Foundation's board replaced its executive director and Yarvin returned without a formal title to lead strategy, prompting resignations of senior engineers.",
+    "sources": [
+      {
+        "url": "https://sg.finance.yahoo.com/news/wartime-ceo-urbits-founder-returns-120000696.html",
+        "publisher": "Yahoo Finance (syndicating CoinDesk)",
+        "title": "'Wartime CEO': Urbit's Founder Returns in Shakeup at Moonshot Software Project",
+        "date": "2024-08"
+      },
+      {
+        "url": "https://urbit.org/blog/azimuth-is-on-chain",
+        "publisher": "Urbit (project blog)",
+        "title": "Azimuth is On-Chain",
+        "date": "2019-01-13"
+      },
+      {
+        "url": "https://urbit.org/overview/running-urbit/get-urbit-id",
+        "publisher": "Urbit (project site)",
+        "title": "Urbit — Get an Urbit ID"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Urbit's identity registry, called Azimuth, was deployed to Ethereum in January 2019 (announced January 13, 2019). The Azimuth contract holds the ownership ledger and the Ecliptic contract handles transfers and upgrades; galaxies can vote to upgrade Ecliptic but cannot change the ownership database.",
+      "status": "documented",
+      "date": "2019-01-13",
+      "quote": "Galaxies can vote to upgrade the Ecliptic contract, but they cannot change the ownership database.",
+      "sources": [
+        {
+          "url": "https://urbit.org/blog/azimuth-is-on-chain",
+          "publisher": "Urbit (project blog)",
+          "title": "Azimuth is On-Chain",
+          "date": "2019-01-13"
+        }
+      ]
+    },
+    {
+      "claim": "Urbit's address space is a sponsorship hierarchy of 256 galaxies, about 65,000 stars and about 4 billion planets; each galaxy can spawn 256 stars and each star about 65,000 planets. Galaxies vote on protocol upgrades and route packets, stars act as local hubs, and planets are the identities most users hold. Each galaxy, star and planet is an ERC-721 token on Ethereum.",
+      "status": "documented",
+      "date": "2019",
+      "quote": "Every galaxy, star, and planet is an ERC-721 NFT.",
+      "sources": [
+        {
+          "url": "https://urbit.org/overview/running-urbit/get-urbit-id",
+          "publisher": "Urbit (project site)",
+          "title": "Urbit — Get an Urbit ID"
+        },
+        {
+          "url": "https://urbit.org/blog/value-of-address-space-pt1",
+          "publisher": "Urbit (project blog)",
+          "title": "The Value of Urbit Address Space (1 of 3)"
+        },
+        {
+          "url": "https://urbit.org/blog/azimuth-is-on-chain",
+          "publisher": "Urbit (project blog)",
+          "title": "Azimuth is On-Chain",
+          "date": "2019-01-13"
+        }
+      ]
+    },
+    {
+      "claim": "On August 14, 2024, the Urbit Foundation's board removed executive director Josh Lehman, who had held the role since 2021, and installed Christopher Colby as interim head. Curtis Yarvin, who had left Tlon in 2019 while keeping significant ownership of the network's namespace, returned without a formal title saying he would lead strategy; CoinDesk described the role as a 'wartime CEO'.",
+      "status": "reported",
+      "date": "2024-08-14",
+      "quote": "Yarvin had left Tlon in 2019 but kept significant ownership of the network's namespace.",
+      "sources": [
+        {
+          "url": "https://sg.finance.yahoo.com/news/wartime-ceo-urbits-founder-returns-120000696.html",
+          "publisher": "Yahoo Finance (syndicating CoinDesk)",
+          "title": "'Wartime CEO': Urbit's Founder Returns in Shakeup at Moonshot Software Project",
+          "date": "2024-08"
+        },
+        {
+          "url": "https://www.compactmag.com/article/the-rise-and-fall-of-urbit/",
+          "publisher": "Compact Magazine",
+          "title": "The Rise and Fall of Urbit",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "claim": "After Yarvin's return, Urbit Foundation chief technology officer Ted Blackman and senior software engineer Liam Fitzgerald resigned; Fitzgerald criticized how the board communicated the changes. Compact Magazine reported that the foundation had acknowledged running out of capital and that a board member had described a mass exodus of users and developers in 2023.",
+      "status": "reported",
+      "date": "2024-08",
+      "quote": "Chief Technology Officer Ted Blackman and senior software engineer Liam Fitzgerald quit the foundation.",
+      "sources": [
+        {
+          "url": "https://sg.finance.yahoo.com/news/wartime-ceo-urbits-founder-returns-120000696.html",
+          "publisher": "Yahoo Finance (syndicating CoinDesk)",
+          "title": "'Wartime CEO': Urbit's Founder Returns in Shakeup at Moonshot Software Project",
+          "date": "2024-08"
+        },
+        {
+          "url": "https://www.compactmag.com/article/the-rise-and-fall-of-urbit/",
+          "publisher": "Compact Magazine",
+          "title": "The Rise and Fall of Urbit",
+          "date": "2024"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "curtis-yarvin",
+      "relation": "founded",
+      "reverse": true,
+      "claim": "Curtis Yarvin founded Urbit and co-founded Tlon in 2013 to develop it; he left Tlon in 2019, retained significant ownership of the network's address space, and returned in August 2024 to lead strategy without a formal title.",
+      "status": "reported",
+      "date": "2024-08",
+      "quote": "Yarvin had left Tlon in 2019 but kept significant ownership of the network's namespace.",
+      "sources": [
+        {
+          "url": "https://sg.finance.yahoo.com/news/wartime-ceo-urbits-founder-returns-120000696.html",
+          "publisher": "Yahoo Finance (syndicating CoinDesk)",
+          "title": "'Wartime CEO': Urbit's Founder Returns in Shakeup at Moonshot Software Project",
+          "date": "2024-08"
+        },
+        {
+          "url": "https://www.compactmag.com/article/the-rise-and-fall-of-urbit/",
+          "publisher": "Compact Magazine",
+          "title": "The Rise and Fall of Urbit",
+          "date": "2024"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Founders Fund's and Andreessen Horowitz's seed investment in Tlon is already recorded in research/findings/founders-fund.json and curtis-yarvin.json (The Verge, 2017) and was not duplicated here; no new primary source for the $1.1 million figure was found.",
+    "Sources differ on whether the 2024 resignations were at Tlon or at the Urbit Foundation; CoinDesk places them at the foundation.",
+    "Wikipedia gives April 2024 for the executive director's removal, but the Foundation's own account and Compact Magazine say August 14, 2024.",
+    "How many galaxies and stars Yarvin personally holds was not sourced."
+  ]
+}

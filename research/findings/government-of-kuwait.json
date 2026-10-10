@@ -1,0 +1,182 @@
+{
+  "entity": "government-of-kuwait",
+  "name": "Government of Kuwait",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "After Iraq's August 1990 invasion, the government of Kuwait funded Citizens for a Free Kuwait, a group whose main contractor was the public-relations firm Hill & Knowlton. Accounts by Stauber and Rampton say the Kuwaiti government channelled $11.9 million to the group over six months, that its only other funding was $17,861 from 78 individuals, and that $10.8 million went to Hill & Knowlton in fees. The firm's campaign included the October 1990 testimony of 'Nayirah', later identified as the daughter of Kuwait's ambassador to the United States, to a congressional caucus. Hill & Knowlton denied wrongdoing.",
+    "sources": [
+      {
+        "url": "https://www.connexions.org/CxLibrary/CX22227.htm",
+        "publisher": "Connexions (Stauber and Rampton, 'How PR Sold the War in the Persian Gulf')",
+        "title": "How PR Sold the War in the Persian Gulf"
+      },
+      {
+        "url": "https://www.csmonitor.com/2002/0906/p25s02-cogn.html",
+        "publisher": "The Christian Science Monitor",
+        "title": "When contemplating war, beware of babies in incubators",
+        "date": "2002-09-06"
+      },
+      {
+        "url": "https://www.rferl.org/amp/1093997.html",
+        "publisher": "RFE/RL",
+        "title": "World: What Is Public Relations? Part 2"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Stauber and Rampton wrote that over six months the Kuwaiti government channelled $11.9 million to Citizens for a Free Kuwait, whose only other funding totalled $17,861 from 78 individuals, and that virtually all of the group's budget, $10.8 million, went to Hill & Knowlton in fees.",
+      "status": "reported",
+      "date": "1990",
+      "quote": "Over the next six months, the Kuwaiti government channeled $11.9 million dollars to Citizens for a Free Kuwait, whose only other funding totalled $17,861 from 78 individuals.",
+      "sources": [
+        {
+          "url": "https://www.connexions.org/CxLibrary/CX22227.htm",
+          "publisher": "Connexions (Stauber and Rampton, 'How PR Sold the War in the Persian Gulf')",
+          "title": "How PR Sold the War in the Persian Gulf"
+        }
+      ]
+    },
+    {
+      "claim": "Other accounts give different figures for the campaign's cost: $11.5 million paid to Hill & Knowlton, an estimated $12 million, or close to $12 million from the Emir.",
+      "status": "reported",
+      "date": "1990",
+      "quote": "the group paid Hill and Knowlton $11.5 million",
+      "sources": [
+        {
+          "url": "https://www.rferl.org/amp/1093997.html",
+          "publisher": "RFE/RL",
+          "title": "World: What Is Public Relations? Part 2"
+        },
+        {
+          "url": "https://www.csmonitor.com/2002/0906/p25s02-cogn.html",
+          "publisher": "The Christian Science Monitor",
+          "title": "When contemplating war, beware of babies in incubators",
+          "date": "2002-09-06"
+        },
+        {
+          "url": "https://www.thenation.com/?p=74843",
+          "publisher": "The Nation",
+          "title": "Seems Like Old Times"
+        }
+      ]
+    },
+    {
+      "claim": "Hill & Knowlton helped prepare the October 1990 testimony of a fifteen-year-old identified only as 'Nayirah' who said she had seen Iraqi soldiers remove babies from incubators; in 1992 it emerged that she was the daughter of Saud Al-Sabah, Kuwait's ambassador to the United States.",
+      "status": "reported",
+      "date": "1992",
+      "quote": "she was the daughter of Saud Al-Sabah, the Kuwaiti ambassador to the United States",
+      "sources": [
+        {
+          "url": "https://www.csmonitor.com/2002/0906/p25s02-cogn.html",
+          "publisher": "The Christian Science Monitor",
+          "title": "When contemplating war, beware of babies in incubators",
+          "date": "2002-09-06"
+        },
+        {
+          "url": "https://www.rferl.org/amp/1093997.html",
+          "publisher": "RFE/RL",
+          "title": "World: What Is Public Relations? Part 2"
+        }
+      ]
+    },
+    {
+      "claim": "Hill & Knowlton denied any wrongdoing in the Kuwait campaign and sued in a German court seeking a retraction from the public-affairs programme 'Monitor', which had reported the story.",
+      "status": "reported",
+      "date": "1992",
+      "quote": "Hill and Knowlton has denied any wrongdoing",
+      "sources": [
+        {
+          "url": "https://www.rferl.org/amp/1093997.html",
+          "publisher": "RFE/RL",
+          "title": "World: What Is Public Relations? Part 2"
+        },
+        {
+          "url": "https://www.csmonitor.com/2002/0906/p25s02-cogn.html",
+          "publisher": "The Christian Science Monitor",
+          "title": "When contemplating war, beware of babies in incubators",
+          "date": "2002-09-06"
+        }
+      ]
+    },
+    {
+      "claim": "O'Dwyer's reported in June 2025 that Hill & Knowlton terminated its Foreign Agents Registration Act registration with the Justice Department, listing Citizens for a Free Kuwait among its past clients.",
+      "status": "reported",
+      "date": "2025-06-26",
+      "quote": "Hill & Knowlton has terminated its FARA registration at the Justice Dept",
+      "sources": [
+        {
+          "url": "https://www.odwyerpr.com/story/public/23211/2025-06-26/hk-closes-its-fara-books.html",
+          "publisher": "O'Dwyer's PR News",
+          "title": "H&K Closes Its FARA Books",
+          "date": "2025-06-26"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "citizens-for-a-free-kuwait",
+      "toName": "Citizens for a Free Kuwait",
+      "toType": "organization",
+      "relation": "funded",
+      "claim": "According to Stauber and Rampton, the Kuwaiti government channelled $11.9 million to Citizens for a Free Kuwait over six months after the Iraqi invasion.",
+      "status": "reported",
+      "date": "1990",
+      "quote": "the Kuwaiti government channeled $11.9 million dollars to Citizens for a Free Kuwait",
+      "sources": [
+        {
+          "url": "https://www.connexions.org/CxLibrary/CX22227.htm",
+          "publisher": "Connexions (Stauber and Rampton, 'How PR Sold the War in the Persian Gulf')",
+          "title": "How PR Sold the War in the Persian Gulf"
+        }
+      ]
+    },
+    {
+      "to": "hill-and-knowlton",
+      "toName": "Hill & Knowlton",
+      "toType": "company",
+      "relation": "contracted with",
+      "claim": "Hill & Knowlton was the main contractor of the Kuwaiti-funded Citizens for a Free Kuwait and, by Stauber and Rampton's account, received $10.8 million of the group's budget in fees; the firm later listed the group among its past FARA clients.",
+      "status": "reported",
+      "date": "1990",
+      "quote": "Virtually all of CFK's budget - $10.8 million - went to Hill & Knowlton in the form of fees",
+      "sources": [
+        {
+          "url": "https://www.connexions.org/CxLibrary/CX22227.htm",
+          "publisher": "Connexions (Stauber and Rampton, 'How PR Sold the War in the Persian Gulf')",
+          "title": "How PR Sold the War in the Persian Gulf"
+        },
+        {
+          "url": "https://www.odwyerpr.com/story/public/23211/2025-06-26/hk-closes-its-fara-books.html",
+          "publisher": "O'Dwyer's PR News",
+          "title": "H&K Closes Its FARA Books",
+          "date": "2025-06-26"
+        }
+      ]
+    },
+    {
+      "to": "nayirah",
+      "toName": "Nayirah",
+      "toType": "person",
+      "relation": "other",
+      "claim": "The witness known as 'Nayirah' whose testimony Hill & Knowlton prepared was later identified as the daughter of Kuwait's ambassador to the United States.",
+      "status": "reported",
+      "date": "1992",
+      "quote": "she was the daughter of Saud Al-Sabah, the Kuwaiti ambassador to the United States",
+      "sources": [
+        {
+          "url": "https://www.csmonitor.com/2002/0906/p25s02-cogn.html",
+          "publisher": "The Christian Science Monitor",
+          "title": "When contemplating war, beware of babies in incubators",
+          "date": "2002-09-06"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: 'Kuwait's government began channelling $11.9 million to a front group whose only other money was $17,861' — supported by Stauber and Rampton's account only; the underlying FARA filings were not located. Figures in other outlets range from $10 million to $12 million.",
+    "Site claim tested: that Nayirah 'had been coached' — the sources say Hill & Knowlton helped write her statement and practise its delivery; the word 'coached' is the site's.",
+    "No Justice Department FARA record for Hill & Knowlton's Kuwait account was opened; the owner may wish to check the FARA eFile database."
+  ]
+}

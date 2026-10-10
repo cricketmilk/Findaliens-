@@ -1,0 +1,99 @@
+{
+  "entity": "advertising-council",
+  "name": "Advertising Council",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The Advertising Council, formed in wartime as the War Advertising Council, resumed its peacetime name after President Truman asked it to continue as a public-service organization. From 1949 it ran the 'Religion in American Life' campaign, under the sponsorship of Religion in American Life Inc., a New York group of business and professional people; the campaign continued until the Ad Council distanced itself in 1992.",
+    "sources": [
+      {
+        "url": "https://www.adcouncil.org/our-story/our-history",
+        "publisher": "Ad Council",
+        "title": "Our History"
+      },
+      {
+        "url": "https://www.csmonitor.com/1986/0501/rial-f.html",
+        "publisher": "Christian Science Monitor",
+        "title": "Business investment in faith, tolerance",
+        "date": "1986-05-01"
+      },
+      {
+        "url": "https://trace.tennessee.edu/utk_graddiss/9762",
+        "publisher": "University of Tennessee (TRACE)",
+        "title": "Doctoral dissertation on the Religion in American Life campaign (Henning, 1996)",
+        "date": "1996"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The Ad Council's history says that after President Truman asked it to continue as a peacetime public-service organization, the War Advertising Council changed its name back to the Ad Council.",
+      "status": "documented",
+      "date": "1945",
+      "quote": "the War Advertising Council changed its name back to the Ad Council",
+      "sources": [
+        {
+          "url": "https://www.adcouncil.org/our-story/our-history",
+          "publisher": "Ad Council",
+          "title": "Our History"
+        }
+      ]
+    },
+    {
+      "claim": "A 1986 Christian Science Monitor report says the Religion in American Life ads ran under the low-profile sponsorship of Religion in American Life Inc., a nonprofit group of business and professional people based in New York active since 1949.",
+      "status": "reported",
+      "date": "1986-05-01",
+      "quote": "under the low-profile sponsorship of Religion in American Life Inc.",
+      "sources": [
+        {
+          "url": "https://www.csmonitor.com/1986/0501/rial-f.html",
+          "publisher": "Christian Science Monitor",
+          "title": "Business investment in faith, tolerance",
+          "date": "1986-05-01"
+        }
+      ]
+    },
+    {
+      "claim": "A 1996 University of Tennessee dissertation on the campaign says funding was a long-standing problem and contributed to the Ad Council distancing itself from RIAL in 1992.",
+      "status": "reported",
+      "date": "1996",
+      "quote": "funding for the campaign was a long-standing problem",
+      "sources": [
+        {
+          "url": "https://trace.tennessee.edu/utk_graddiss/9762",
+          "publisher": "University of Tennessee (TRACE)",
+          "title": "Doctoral dissertation on the Religion in American Life campaign (Henning, 1996)",
+          "date": "1996"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "religion-in-american-life",
+      "toName": "Religion in American Life",
+      "toType": "organization",
+      "relation": "partnered with",
+      "claim": "The Ad Council produced the Religion in American Life campaign from 1949 under RIAL Inc.'s sponsorship.",
+      "status": "reported",
+      "date": "1949–1992",
+      "quote": "under the low-profile sponsorship of Religion in American Life Inc.",
+      "sources": [
+        {
+          "url": "https://www.csmonitor.com/1986/0501/rial-f.html",
+          "publisher": "Christian Science Monitor",
+          "title": "Business investment in faith, tolerance",
+          "date": "1986-05-01"
+        },
+        {
+          "url": "https://trace.tennessee.edu/utk_graddiss/9762",
+          "publisher": "University of Tennessee (TRACE)",
+          "title": "Doctoral dissertation on the Religion in American Life campaign (Henning, 1996)",
+          "date": "1996"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The Ad Council's own history page did not surface the RIAL campaign; the Duke University Ad Council records list it. Named corporate backers of RIAL were not found in opened sources."
+  ]
+}

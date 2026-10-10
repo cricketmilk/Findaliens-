@@ -1,0 +1,93 @@
+{
+  "entity": "cornelius-herz",
+  "name": "Cornelius Herz",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Cornelius Herz was a financier and intermediary in the Panama Canal Company affair. When the scandal broke in 1892 he fled to Bournemouth, England, where he resisted extradition to France on grounds of illness, and he died there in 1898. Georges Clemenceau's association with Herz, who had helped fund his newspaper, cost Clemenceau his seat in 1893.",
+    "sources": [
+      {
+        "url": "https://www.universalis.fr/encyclopedie/affaire-de-panama/",
+        "publisher": "Encyclopaedia Universalis",
+        "title": "Panama, affaire de"
+      },
+      {
+        "url": "https://www.herodote.net/20_mars_1893-evenement-18930320.php",
+        "publisher": "Herodote.net",
+        "title": "20 mars 1893 - Le scandale de Panama"
+      },
+      {
+        "url": "https://wellcomecollection.org/works/srfgf4zx",
+        "publisher": "Wellcome Collection",
+        "title": "Cornelius Herz in Bournemouth (drawings)"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "When the Panama affair broke, Reinach was found dead and Cornelius Herz and Léopold Aaron ('Arton') had fled abroad.",
+      "status": "reported",
+      "date": "1892",
+      "quote": "Reinach fut retrouvé mort, Cornélius Herz et Léopold Aaron, dit Arton, s'étaient enfuis à l'étranger",
+      "sources": [
+        {
+          "url": "https://www.herodote.net/20_mars_1893-evenement-18930320.php",
+          "publisher": "Herodote.net",
+          "title": "20 mars 1893 - Le scandale de Panama"
+        }
+      ]
+    },
+    {
+      "claim": "Herz lived at Bournemouth and was described as simulating illness to avoid extradition to France; later medical examination suggested his illness was real. He died in 1898.",
+      "status": "reported",
+      "date": "1898",
+      "quote": "Subsequent investigation by physicians suggested that Herz's illness was real and not simulated.",
+      "sources": [
+        {
+          "url": "https://wellcomecollection.org/works/srfgf4zx",
+          "publisher": "Wellcome Collection",
+          "title": "Cornelius Herz in Bournemouth (drawings)"
+        }
+      ]
+    },
+    {
+      "claim": "Georges Clemenceau was defeated in the 1893 election because of his association with Herz, who had helped fund Clemenceau's newspaper.",
+      "status": "reported",
+      "date": "1893",
+      "quote": "Georges Clemenceau was defeated in the 1893 election because of his association with Cornelius Herz",
+      "sources": [
+        {
+          "url": "https://www.universalis.fr/encyclopedie/affaire-de-panama/",
+          "publisher": "Encyclopaedia Universalis",
+          "title": "Panama, affaire de"
+        },
+        {
+          "url": "https://www.herodote.net/20_mars_1893-evenement-18930320.php",
+          "publisher": "Herodote.net",
+          "title": "20 mars 1893 - Le scandale de Panama"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "baron-jacques-de-reinach",
+      "toName": "Baron Jacques de Reinach",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Herz and Reinach were both intermediaries in the Panama company's payments; Reinach was found dead as the scandal broke while Herz fled abroad.",
+      "status": "reported",
+      "date": "1892",
+      "quote": "Reinach fut retrouvé mort, Cornélius Herz et Léopold Aaron, dit Arton, s'étaient enfuis à l'étranger",
+      "sources": [
+        {
+          "url": "https://www.herodote.net/20_mars_1893-evenement-18930320.php",
+          "publisher": "Herodote.net",
+          "title": "20 mars 1893 - Le scandale de Panama"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: Herz's flight to England is supported. The page's statement that Herz 'pressured Reinach' is widely repeated but no source returned states it; left unsupported."
+  ]
+}

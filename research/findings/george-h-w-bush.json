@@ -1,0 +1,120 @@
+{
+  "entity": "george-h-w-bush",
+  "name": "George H. W. Bush",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "George H. W. Bush, the 41st president of the United States (1989–1993), served after leaving office as a senior adviser to the Carlyle Group, reportedly from 1998, with a focus on Asia; he sat on the firm's Asia advisory board for about five years and retired from Carlyle in October 2003. On this site he appears in the Carlyle dossier and is listed in the Harken Energy entry, which concerns his son George W. Bush's 1990 stock sale.",
+    "sources": [
+      {
+        "url": "https://democracynow.org/2003/10/22/headlines/former_president_bush_retires_from_carlyle_group",
+        "publisher": "Democracy Now!",
+        "title": "Former President Bush retires from Carlyle Group",
+        "date": "2003-10-22"
+      },
+      {
+        "url": "https://www.privatefundscfo.com/spring-boards/",
+        "publisher": "Private Funds CFO",
+        "title": "Spring boards"
+      },
+      {
+        "url": "https://www.thenation.com/article/archive/crony-capitalism-goes-global/tnamp/",
+        "publisher": "The Nation",
+        "title": "Crony Capitalism Goes Global",
+        "date": "2002"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Journalist Dan Briody said in a 2003 interview that Bush had been working for the Carlyle Group as a senior adviser since 1998.",
+      "status": "reported",
+      "date": "1998",
+      "quote": "Bush has been working for the Carlyle group as a senior advisor since 1998",
+      "sources": [
+        {
+          "url": "https://www.democracynow.org/2003/7/3/democracy_now_exclusive_why_the_carlyle",
+          "publisher": "Democracy Now!",
+          "title": "Why the Carlyle Group matters (interview with Dan Briody)",
+          "date": "2003-07-03"
+        }
+      ]
+    },
+    {
+      "claim": "The Nation described Bush in 2002 as Carlyle's senior adviser on Asia, with his income from the firm coming largely from speeches at its investment conferences.",
+      "status": "reported",
+      "date": "2002",
+      "quote": "Carlyle's senior adviser on Asia",
+      "sources": [
+        {
+          "url": "https://www.thenation.com/article/archive/crony-capitalism-goes-global/tnamp/",
+          "publisher": "The Nation",
+          "title": "Crony Capitalism Goes Global",
+          "date": "2002"
+        }
+      ]
+    },
+    {
+      "claim": "In October 2003 Bush relinquished his five-year tenure on the Carlyle Group's Asia advisory board.",
+      "status": "reported",
+      "date": "2003-10",
+      "quote": "former President George Bush relinquished his five-year tenure on the Washington DC-based buyout group's Asia advisory board",
+      "sources": [
+        {
+          "url": "https://www.privatefundscfo.com/spring-boards/",
+          "publisher": "Private Funds CFO",
+          "title": "Spring boards"
+        }
+      ]
+    },
+    {
+      "claim": "Democracy Now reported in October 2003, citing the Financial Times, that Bush was retiring as a senior adviser to Carlyle and that the firm offered no explanation other than his age and his desire to move on.",
+      "status": "reported",
+      "date": "2003-10-22",
+      "quote": "former US President George Bush is retiring as a senior adviser to the Carlyle Group",
+      "sources": [
+        {
+          "url": "https://democracynow.org/2003/10/22/headlines/former_president_bush_retires_from_carlyle_group",
+          "publisher": "Democracy Now!",
+          "title": "Former President Bush retires from Carlyle Group",
+          "date": "2003-10-22"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "carlyle-group",
+      "toName": "Carlyle Group",
+      "toType": "fund",
+      "relation": "advised",
+      "claim": "Bush served as a senior adviser to the Carlyle Group, focused on Asia, from about 1998 until his retirement in October 2003.",
+      "status": "reported",
+      "date": "1998",
+      "quote": "former US President George Bush is retiring as a senior adviser to the Carlyle Group",
+      "sources": [
+        {
+          "url": "https://democracynow.org/2003/10/22/headlines/former_president_bush_retires_from_carlyle_group",
+          "publisher": "Democracy Now!",
+          "title": "Former President Bush retires from Carlyle Group",
+          "date": "2003-10-22"
+        },
+        {
+          "url": "https://www.democracynow.org/2003/7/3/democracy_now_exclusive_why_the_carlyle",
+          "publisher": "Democracy Now!",
+          "title": "Why the Carlyle Group matters (interview with Dan Briody)",
+          "date": "2003-07-03"
+        },
+        {
+          "url": "https://www.privatefundscfo.com/spring-boards/",
+          "publisher": "Private Funds CFO",
+          "title": "Spring boards"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: 'George H.W. Bush advised its Asian funds until 2003' — supported (senior adviser on Asia; Asia advisory board tenure ended October 2003).",
+    "Site context tested: the Harken Energy entry lists George H.W. Bush alongside George W. Bush. No source opened in this research connects George H.W. Bush to Harken Energy; the Harken facts concern George W. Bush (see harken-energy file).",
+    "The 1998 start date rests on Briody's interview; Carlyle's own announcement was not found."
+  ]
+}

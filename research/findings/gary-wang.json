@@ -1,0 +1,145 @@
+{
+  "entity": "gary-wang",
+  "name": "Gary Wang",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Gary Wang co-founded the FTX cryptocurrency exchange with Sam Bankman-Fried and served as its chief technology officer. He pleaded guilty to four counts, cooperated with prosecutors and testified against Bankman-Fried. On November 20, 2024 U.S. District Judge Lewis Kaplan sentenced him to time served, three years of supervised release on each count and forfeiture of $11 billion, the last sentencing of the FTX executives; Wang had faced a maximum of 50 years.",
+    "sources": [
+      {
+        "url": "https://www.nbcnewyork.com/news/business/money-report/ftx-co-founder-gary-wang-avoids-prison-time-for-role-in-crypto-fraud/6002582/",
+        "publisher": "NBC New York (CNBC)",
+        "title": "FTX co-founder Gary Wang avoids prison time for role in crypto fraud",
+        "date": "2024-11-20"
+      },
+      {
+        "url": "https://blockworks.com/news/ftx-co-founder-sentenced-to-time-served",
+        "publisher": "Blockworks",
+        "title": "FTX co-founder won't serve time in prison, judge rules",
+        "date": "2024-11-20"
+      },
+      {
+        "url": "https://cointelegraph.com/news/ftx-co-founder-gary-wang-sentenced-time-served",
+        "publisher": "Cointelegraph",
+        "title": "FTX co-founder Gary Wang sentenced to time served",
+        "date": "2024-11-20"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On November 20, 2024 Judge Lewis Kaplan sentenced Wang to time served and three years of supervised release on each of four counts, and ordered forfeiture of $11 billion, the same figure as his co-defendants.",
+      "status": "court",
+      "date": "2024-11-20",
+      "sources": [
+        {
+          "url": "https://www.nbcnewyork.com/news/business/money-report/ftx-co-founder-gary-wang-avoids-prison-time-for-role-in-crypto-fraud/6002582/",
+          "publisher": "NBC New York (CNBC)",
+          "title": "FTX co-founder Gary Wang avoids prison time for role in crypto fraud",
+          "date": "2024-11-20"
+        },
+        {
+          "url": "https://blockworks.com/news/ftx-co-founder-sentenced-to-time-served",
+          "publisher": "Blockworks",
+          "title": "FTX co-founder won't serve time in prison, judge rules",
+          "date": "2024-11-20"
+        },
+        {
+          "url": "https://cointelegraph.com/news/ftx-co-founder-gary-wang-sentenced-time-served",
+          "publisher": "Cointelegraph",
+          "title": "FTX co-founder Gary Wang sentenced to time served",
+          "date": "2024-11-20"
+        }
+      ]
+    },
+    {
+      "claim": "Judge Kaplan said Wang 'immediately did the right thing' and was 'entitled to a world of credit' for cooperating; Wang had faced a maximum of 50 years on the counts to which he pleaded guilty.",
+      "status": "court",
+      "date": "2024-11-20",
+      "quote": "entitled to a world of credit",
+      "sources": [
+        {
+          "url": "https://www.nbcnewyork.com/news/business/money-report/ftx-co-founder-gary-wang-avoids-prison-time-for-role-in-crypto-fraud/6002582/",
+          "publisher": "NBC New York (CNBC)",
+          "title": "FTX co-founder Gary Wang avoids prison time for role in crypto fraud",
+          "date": "2024-11-20"
+        },
+        {
+          "url": "https://blockworks.com/news/ftx-co-founder-sentenced-to-time-served",
+          "publisher": "Blockworks",
+          "title": "FTX co-founder won't serve time in prison, judge rules",
+          "date": "2024-11-20"
+        }
+      ]
+    },
+    {
+      "claim": "Wang's sentencing was described as the final one in the FTX executive cases, and his sentence matched the time-served sentence given to Nishad Singh.",
+      "status": "reported",
+      "date": "2024-11-20",
+      "sources": [
+        {
+          "url": "https://blockworks.com/news/ftx-co-founder-sentenced-to-time-served",
+          "publisher": "Blockworks",
+          "title": "FTX co-founder won't serve time in prison, judge rules",
+          "date": "2024-11-20"
+        },
+        {
+          "url": "https://cointelegraph.com/news/ftx-co-founder-gary-wang-sentenced-time-served",
+          "publisher": "Cointelegraph",
+          "title": "FTX co-founder Gary Wang sentenced to time served",
+          "date": "2024-11-20"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "ftx",
+      "toName": "FTX",
+      "toType": "company",
+      "relation": "co-founded",
+      "claim": "Wang co-founded FTX and was sentenced in November 2024 for his role in the fraud at the exchange.",
+      "status": "court",
+      "date": "2024-11-20",
+      "sources": [
+        {
+          "url": "https://www.nbcnewyork.com/news/business/money-report/ftx-co-founder-gary-wang-avoids-prison-time-for-role-in-crypto-fraud/6002582/",
+          "publisher": "NBC New York (CNBC)",
+          "title": "FTX co-founder Gary Wang avoids prison time for role in crypto fraud",
+          "date": "2024-11-20"
+        },
+        {
+          "url": "https://blockworks.com/news/ftx-co-founder-sentenced-to-time-served",
+          "publisher": "Blockworks",
+          "title": "FTX co-founder won't serve time in prison, judge rules",
+          "date": "2024-11-20"
+        }
+      ]
+    },
+    {
+      "to": "sam-bankman-fried",
+      "toName": "Sam Bankman-Fried",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Wang co-founded FTX with Bankman-Fried and cooperated with prosecutors in the case against him.",
+      "status": "court",
+      "date": "2024-11-20",
+      "sources": [
+        {
+          "url": "https://www.nbcnewyork.com/news/business/money-report/ftx-co-founder-gary-wang-avoids-prison-time-for-role-in-crypto-fraud/6002582/",
+          "publisher": "NBC New York (CNBC)",
+          "title": "FTX co-founder Gary Wang avoids prison time for role in crypto fraud",
+          "date": "2024-11-20"
+        },
+        {
+          "url": "https://cointelegraph.com/news/ftx-co-founder-gary-wang-sentenced-time-served",
+          "publisher": "Cointelegraph",
+          "title": "FTX co-founder Gary Wang sentenced to time served",
+          "date": "2024-11-20"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The SDNY sentencing release for Wang was not among the sources returned; the counts to which he pleaded guilty should be confirmed from it."
+  ]
+}

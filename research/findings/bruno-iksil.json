@@ -1,0 +1,170 @@
+{
+  "entity": "bruno-iksil",
+  "name": "Bruno Iksil",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Bruno Iksil was a trader in JPMorgan Chase's Chief Investment Office in London whose large synthetic credit index positions earned him the nickname 'the London Whale' when they lost more than $6 billion in 2012. In August 2013 he signed a non-prosecution agreement with the U.S. Attorney's Office for the Southern District of New York in exchange for cooperation, and prosecutors instead charged his supervisor Javier Martin-Artajo and junior trader Julien Grout with scheming to inflate the marks on the portfolio. Prosecutors later dropped that case, saying they could no longer rely on Iksil's testimony.",
+    "sources": [
+      {
+        "url": "https://beta.theglobeandmail.com/report-on-business/international-business/prosecutors-strike-unusual-deal-with-london-whale/article13760749/",
+        "publisher": "The Globe and Mail",
+        "title": "Prosecutors strike unusual deal with 'London Whale'",
+        "date": "2013-08"
+      },
+      {
+        "url": "https://www.upi.com/Business_News/2013/08/13/The-London-Whale-dodges-the-bullet/UPI-84101376420483/",
+        "publisher": "UPI",
+        "title": "The London Whale dodges the bullet",
+        "date": "2013-08-13"
+      },
+      {
+        "url": "https://gulfnews.com/business/london-whale-prosecution-falls-apart-as-us-drops-charges-1.2062668",
+        "publisher": "Gulf News",
+        "title": "'London Whale' prosecution falls apart as US drops charges",
+        "date": "2017"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In August 2013 Iksil signed a non-prosecution agreement with U.S. prosecutors that prevents him from being charged in exchange for his cooperation; press reports said the CFTC also agreed not to pursue civil charges against him.",
+      "status": "documented",
+      "date": "2013-08",
+      "quote": "The former trader signed a non-prosecution agreement that prevents him from being charged by U.S. prosecutors in exchange for his cooperation",
+      "sources": [
+        {
+          "url": "https://beta.theglobeandmail.com/report-on-business/international-business/prosecutors-strike-unusual-deal-with-london-whale/article13760749/",
+          "publisher": "The Globe and Mail",
+          "title": "Prosecutors strike unusual deal with 'London Whale'",
+          "date": "2013-08"
+        },
+        {
+          "url": "https://www.upi.com/Business_News/2013/08/13/The-London-Whale-dodges-the-bullet/UPI-84101376420483/",
+          "publisher": "UPI",
+          "title": "The London Whale dodges the bullet",
+          "date": "2013-08-13"
+        }
+      ]
+    },
+    {
+      "claim": "In August 2013 the U.S. Attorney's Office for the Southern District of New York filed criminal charges against Javier Martin-Artajo, who oversaw trading strategy for the synthetic portfolio in the CIO's London office, and Julien Grout, a trader who worked for him, accusing them of scheming to inflate the value of position marks.",
+      "status": "documented",
+      "date": "2013-08-14",
+      "quote": "Martin-Artajo, who oversaw trading strategy for the synthetic portfolio at the bank's chief investment office in London, and Grout, a trader who worked for him, were accused of scheming to inflate the value of position markings.",
+      "sources": [
+        {
+          "url": "https://beta.theglobeandmail.com/report-on-business/international-business/prosecutors-strike-unusual-deal-with-london-whale/article13760749/",
+          "publisher": "The Globe and Mail",
+          "title": "Prosecutors strike unusual deal with 'London Whale'",
+          "date": "2013-08"
+        }
+      ]
+    },
+    {
+      "claim": "Former prosecutors described the decision not to charge Iksil or require a guilty plea as 'extraordinarily unusual'.",
+      "status": "reported",
+      "date": "2013-08",
+      "quote": "extraordinarily unusual",
+      "sources": [
+        {
+          "url": "https://www.upi.com/Business_News/2013/08/13/The-London-Whale-dodges-the-bullet/UPI-84101376420483/",
+          "publisher": "UPI",
+          "title": "The London Whale dodges the bullet",
+          "date": "2013-08-13"
+        },
+        {
+          "url": "https://beta.theglobeandmail.com/report-on-business/international-business/prosecutors-strike-unusual-deal-with-london-whale/article13760749/",
+          "publisher": "The Globe and Mail",
+          "title": "Prosecutors strike unusual deal with 'London Whale'",
+          "date": "2013-08"
+        }
+      ]
+    },
+    {
+      "claim": "Prosecutors eventually dropped the case against Martin-Artajo and Grout, saying 'the government no longer believes that it can rely on the testimony of Iksil in prosecuting this case'.",
+      "status": "documented",
+      "date": "2017",
+      "quote": "the government no longer believes that it can rely on the testimony of Iksil in prosecuting this case",
+      "sources": [
+        {
+          "url": "https://gulfnews.com/business/london-whale-prosecution-falls-apart-as-us-drops-charges-1.2062668",
+          "publisher": "Gulf News",
+          "title": "'London Whale' prosecution falls apart as US drops charges",
+          "date": "2017"
+        }
+      ]
+    },
+    {
+      "claim": "The Senate Permanent Subcommittee on Investigations' 2013 report on the trades found that the Chief Investment Office mismarked its trading book to hide losses and used the Synthetic Credit Portfolio for high-risk trading.",
+      "status": "documented",
+      "date": "2013-03-15",
+      "sources": [
+        {
+          "url": "https://www.hsgac.senate.gov/subcommittees/investigations/rep/senate-investigations-subcommittee-holds-hearing-and-releases-report-on-jpmorgan-chase-whale-trades/",
+          "publisher": "U.S. Senate Permanent Subcommittee on Investigations",
+          "title": "Senate Investigations Subcommittee Holds Hearing and Releases Report on JPMorgan Chase Whale Trades",
+          "date": "2013-03-14"
+        },
+        {
+          "url": "https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/REPORT%20-%20JPMorgan%20Chase%20Whale%20Trades%20%283-15-13%29.pdf",
+          "publisher": "U.S. Senate Permanent Subcommittee on Investigations",
+          "title": "JPMorgan Chase Whale Trades: A Case History of Derivatives Risks and Abuses",
+          "date": "2013-03-15"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "jpmorgan-chase",
+      "toName": "JPMorgan Chase",
+      "toType": "bank",
+      "relation": "employed by",
+      "claim": "Iksil traded in JPMorgan Chase's Chief Investment Office in London, where the 2012 synthetic credit losses occurred.",
+      "status": "documented",
+      "date": "2012",
+      "sources": [
+        {
+          "url": "https://beta.theglobeandmail.com/report-on-business/international-business/prosecutors-strike-unusual-deal-with-london-whale/article13760749/",
+          "publisher": "The Globe and Mail",
+          "title": "Prosecutors strike unusual deal with 'London Whale'",
+          "date": "2013-08"
+        },
+        {
+          "url": "https://www.hsgac.senate.gov/subcommittees/investigations/rep/senate-investigations-subcommittee-holds-hearing-and-releases-report-on-jpmorgan-chase-whale-trades/",
+          "publisher": "U.S. Senate Permanent Subcommittee on Investigations",
+          "title": "Senate Investigations Subcommittee Holds Hearing and Releases Report on JPMorgan Chase Whale Trades",
+          "date": "2013-03-14"
+        }
+      ]
+    },
+    {
+      "to": "ina-drew",
+      "toName": "Ina Drew",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Iksil worked in the Chief Investment Office that Ina Drew headed as Chief Investment Officer; Drew testified about the office's trades at the March 2013 Senate hearing.",
+      "status": "documented",
+      "date": "2013-03-15",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CHRG-113shrg80222/html/CHRG-113shrg80222.htm",
+          "publisher": "U.S. Government Publishing Office",
+          "title": "Senate Hearing 113-96, JPMorgan Chase Whale Trades: A Case History of Derivatives Risks and Abuses, Volume 1",
+          "date": "2013-03-15"
+        },
+        {
+          "url": "https://www.cnbc.com/2013/03/14/senate-report-blasts-jpmorgan-executives-including-dimon-over-whale.html",
+          "publisher": "CNBC",
+          "title": "Senate report blasts JPMorgan executives including Dimon over Whale",
+          "date": "2013-03-14"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site description of Iksil as 'the London Whale trader who built the massive CDX index positions': supported in general terms by press coverage; the Senate report body text was not read for the specific position details.",
+    "The exact date the charges against Martin-Artajo and Grout were dropped was not confirmed; the Gulf News report describes the case as about five years old, consistent with 2017.",
+    "No SEC or DOJ primary document naming Iksil was returned; the SDNY press release and SEC litigation release for the Martin-Artajo/Grout case should be located."
+  ]
+}

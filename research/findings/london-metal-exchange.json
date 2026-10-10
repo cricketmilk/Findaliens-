@@ -1,0 +1,292 @@
+{
+  "entity": "london-metal-exchange",
+  "name": "London Metal Exchange",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The London Metal Exchange (LME) is the London futures exchange for base metals. On 8 March 2022, after what its notice called unprecedented overnight increases in the three-month nickel price, the LME suspended nickel trading at 08:15 London time and then cancelled all nickel trades executed on or after 00:00 UK time that day. Elliott Associates and Jane Street challenged the cancellation by judicial review; the High Court dismissed the claims on 29 November 2023, the Court of Appeal dismissed Elliott's appeal on 7 October 2024 and the Supreme Court refused permission to appeal in January 2025. On 19 March 2025 the Financial Conduct Authority fined the LME 9,245,900 pounds for failing to ensure its systems and controls could cope with severe market stress.",
+    "sources": [
+      {
+        "url": "https://www.lme.com/-/media/Files/News/Notices/2022/03/TRADING-22-052-SUSPENSION-OF-LME-NICKEL-MARKET.pdf",
+        "publisher": "London Metal Exchange",
+        "title": "Notice 22/052: Suspension of LME Nickel Market",
+        "date": "2022-03-08"
+      },
+      {
+        "url": "https://www.lme.com/lme-nickel-litigation",
+        "publisher": "London Metal Exchange",
+        "title": "LME Nickel litigation"
+      },
+      {
+        "url": "https://www.fca.org.uk/news/press-releases/first-fca-enforcement-action-and-fine-against-recognised-investment-exchange",
+        "publisher": "Financial Conduct Authority",
+        "title": "First FCA enforcement action and fine against a Recognised Investment Exchange",
+        "date": "2025-03-19"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "LME Notice 22/052, signed by chief executive Matthew Chamberlain, suspended nickel trading from 08:15 London time on 8 March 2022 on orderly-market grounds, citing further unprecedented overnight increases in the three-month nickel price.",
+      "status": "documented",
+      "date": "2022-03-08",
+      "quote": "further unprecedented overnight increases in the 3 month nickel price",
+      "sources": [
+        {
+          "url": "https://www.lme.com/-/media/Files/News/Notices/2022/03/TRADING-22-052-SUSPENSION-OF-LME-NICKEL-MARKET.pdf",
+          "publisher": "London Metal Exchange",
+          "title": "Notice 22/052: Suspension of LME Nickel Market",
+          "date": "2022-03-08"
+        }
+      ]
+    },
+    {
+      "claim": "LME Notice 22/053 cancelled all nickel trades executed on or after 00:00 UK time on 8 March 2022 in the inter-office market and on LMEselect, and deferred deliveries that could not be made during the suspension; the LME later said the cancellations took the market back to the last point at which trading was still orderly.",
+      "status": "documented",
+      "date": "2022-03-08",
+      "quote": "take the market back to the last point at which trading was still orderly",
+      "sources": [
+        {
+          "url": "https://www.lme.com/-/media/Files/News/Notices/2022/03/22-053-Nickel-Suspension---Further-Information---Delivery-Deferral-and-Trade-Cancellation.pdf",
+          "publisher": "London Metal Exchange",
+          "title": "Notice 22/053: Nickel Suspension - Further Information - Delivery Deferral and Trade Cancellation",
+          "date": "2022-03-08"
+        },
+        {
+          "url": "https://www.lme.com/-/media/Files/News/Notices/2022/03/TRADING-22-057-NICKEL-MARKET-UPDATE_.pdf",
+          "publisher": "London Metal Exchange",
+          "title": "Notice 22/057: Nickel Market Update",
+          "date": "2022-03"
+        }
+      ]
+    },
+    {
+      "claim": "The cancelled trades had an aggregate value of about US$12 billion; the cancellation notice was published at 12:05 on 8 March 2022, after the 08:15 suspension.",
+      "status": "reported",
+      "date": "2022-03-08",
+      "quote": "The aggregate value of the cancelled trades was around US$12 billion.",
+      "sources": [
+        {
+          "url": "https://www.stephensonharwood.com/insights/london-metal-exchange-wins-high-court-ruling-over-cancelled-nickel-trades/",
+          "publisher": "Stephenson Harwood",
+          "title": "London Metal Exchange wins High Court ruling over cancelled nickel trades",
+          "date": "2023-12"
+        },
+        {
+          "url": "https://www.nortonrosefulbright.com/en/inside-disputes/blog/202403-london-metal-exchange-wins-high-court-battle-over-us12-billion-cancelled-nickel-trades",
+          "publisher": "Norton Rose Fulbright",
+          "title": "London Metal Exchange wins High Court battle over US$12 billion cancelled nickel trades",
+          "date": "2024-03"
+        }
+      ]
+    },
+    {
+      "claim": "On 29 November 2023 the High Court (Administrative Court) dismissed the judicial review claims of Elliott Associates and Jane Street on all grounds, holding that neither the LME's cancellation decision nor LME Clear's related margin decision was unlawful and that the LME could cancel trades in exceptional circumstances without consulting market participants first.",
+      "status": "court",
+      "date": "2023-11-29",
+      "quote": "On 29 November 2023, the Administrative Court rejected the claim on all grounds, deciding that neither the Cancellation Decision nor the related Margin Decision by LME Clear was unlawful.",
+      "sources": [
+        {
+          "url": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2023/2969",
+          "publisher": "The National Archives (Find Case Law)",
+          "title": "R (Elliott Associates LP and others) v London Metal Exchange and LME Clear [2023] EWHC 2969 (Admin)",
+          "date": "2023-11-29"
+        },
+        {
+          "url": "https://www.macfarlanes.com/insights/102loew/lmes-cancellation-of-nickel-trades-was-not-unlawful/",
+          "publisher": "Macfarlanes",
+          "title": "LME's cancellation of nickel trades was not unlawful",
+          "date": "2023-12"
+        }
+      ]
+    },
+    {
+      "claim": "On 7 October 2024 the Court of Appeal dismissed Elliott's appeal in Elliott Associates v London Metal Exchange and LME Clear [2024] EWCA Civ 1168, finding the cancellation lawful and rejecting the argument that cancelling trades was irrational compared with letting them stand; on 29 January 2025 the Supreme Court refused Elliott permission to appeal.",
+      "status": "court",
+      "date": "2024-10-07",
+      "quote": "The Court of Appeal handed down its judgment on 7 October 2024 in Elliott Associates v London Metal Exchange and LME Clear [2024] EWCA Civ 1168, dismissing Elliott's appeal",
+      "sources": [
+        {
+          "url": "https://www.lme.com/-/media/Files/News/R-Elliott-Associates-v-London-Metal-Exchange-final-judgment.pdf",
+          "publisher": "Court of Appeal (judgment hosted by the LME)",
+          "title": "R (Elliott Associates) v London Metal Exchange [2024] EWCA Civ 1168",
+          "date": "2024-10-07"
+        },
+        {
+          "url": "https://fountaincourt.uk/2024/10/court-of-appeal-upholds-dismissal-of-claims-for-nickel-trading-losses/",
+          "publisher": "Fountain Court Chambers",
+          "title": "Court of Appeal upholds dismissal of claims for nickel trading losses",
+          "date": "2024-10"
+        },
+        {
+          "url": "https://www.lme.com/lme-nickel-litigation",
+          "publisher": "London Metal Exchange",
+          "title": "LME Nickel litigation"
+        }
+      ]
+    },
+    {
+      "claim": "On 19 March 2025 the FCA issued a Final Notice fining the LME 9,245,900 pounds, its first enforcement action against a Recognised Investment Exchange, for failing to ensure its systems and controls could cope with severe market stress in March 2022; the penalty was reduced by 30 percent from 13.2 million pounds for cooperation.",
+      "status": "court",
+      "date": "2025-03-19",
+      "quote": "the FCA's first enforcement action against a Regulated Investment Exchange (RIE)",
+      "sources": [
+        {
+          "url": "https://www.fca.org.uk/news/press-releases/first-fca-enforcement-action-and-fine-against-recognised-investment-exchange",
+          "publisher": "Financial Conduct Authority",
+          "title": "First FCA enforcement action and fine against a Recognised Investment Exchange",
+          "date": "2025-03-19"
+        },
+        {
+          "url": "https://www.mishcon.com/news/fca-imposes-92-million-fine-on-london-metal-exchange-for-market-disorder",
+          "publisher": "Mishcon de Reya",
+          "title": "FCA imposes 9.2 million pound fine on London Metal Exchange for market disorder",
+          "date": "2025-03"
+        }
+      ]
+    },
+    {
+      "claim": "The independent review of the March 2022 nickel events commissioned by the LME from Oliver Wyman, published on 10 January 2023, identified large exposed short positions and basis risk from hedging Class 2 nickel sales with LME nickel among the causes, and found that the LME's price volatility controls did not control price volatility during the events; the review's scope excluded the LME's own decision-making, which was left to the FCA and Bank of England reviews.",
+      "status": "documented",
+      "date": "2023-01-10",
+      "quote": "the existence of large, exposed, short positions",
+      "sources": [
+        {
+          "url": "https://www.lme.com/-/media/Files/Trading/New-initiatives/Nickel-independent-review/Independent-Review-of-Events-in-the-Nickel-Market-in-March-2022---Final-Report.pdf",
+          "publisher": "Oliver Wyman (for the LME)",
+          "title": "Independent Review of Events in the Nickel Market in March 2022 - Final Report",
+          "date": "2023-01-10"
+        },
+        {
+          "url": "https://www.lme.com/en/trading/initiatives/nickel-market-independent-review",
+          "publisher": "London Metal Exchange",
+          "title": "Independent nickel market review"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "tsingshan",
+      "toName": "Tsingshan",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Tsingshan Holding Group, controlled by Xiang Guangda, held a large short position in nickel that faced multibillion-dollar margin losses in the March 2022 squeeze; on 14 March 2022 Tsingshan announced a standstill under which a group of banks including JPMorgan Chase agreed not to make margin calls on or close out its LME nickel positions while a secured liquidity facility was arranged, after which the LME announced trading would resume on 16 March.",
+      "status": "reported",
+      "date": "2022-03-14",
+      "quote": "Tsingshan had agreed with banks not to make margin calls on, or close out, its LME nickel positions.",
+      "sources": [
+        {
+          "url": "https://www.euronews.com/next/2022/03/14/tsingshan-nickel-lme",
+          "publisher": "Euronews (Reuters)",
+          "title": "China's Tsingshan agrees standstill agreement on LME nickel margins with banks",
+          "date": "2022-03-14"
+        },
+        {
+          "url": "https://spglobal.com/commodityinsights/en/market-insights/latest-news/metals/031522-chinas-tsingshan-enters-deal-with-bankers-to-resolve-nickel-trade-position",
+          "publisher": "S&P Global Commodity Insights",
+          "title": "China's Tsingshan enters deal with bankers to resolve nickel trade position",
+          "date": "2022-03-15"
+        },
+        {
+          "url": "https://www.cnn.com/2022/07/12/economy/nickel-tycoon-lme",
+          "publisher": "CNN",
+          "title": "How a Chinese metal tycoon imploded the nickel market - and walked away with billions",
+          "date": "2022-07-12"
+        }
+      ]
+    },
+    {
+      "to": "Elliott Associates",
+      "toName": "Elliott Associates",
+      "toType": "fund",
+      "relation": "sued by",
+      "claim": "Elliott Associates brought judicial review proceedings against the LME and LME Clear over the 8 March 2022 cancellation, claiming losses of around US$456 million; the claim was dismissed by the High Court in November 2023, the Court of Appeal in October 2024 and refused permission by the Supreme Court in January 2025.",
+      "status": "court",
+      "date": "2024-10-07",
+      "quote": "dismissing Elliott's appeal",
+      "sources": [
+        {
+          "url": "https://fountaincourt.uk/2024/10/court-of-appeal-upholds-dismissal-of-claims-for-nickel-trading-losses/",
+          "publisher": "Fountain Court Chambers",
+          "title": "Court of Appeal upholds dismissal of claims for nickel trading losses",
+          "date": "2024-10"
+        },
+        {
+          "url": "https://www.stephensonharwood.com/insights/london-metal-exchange-wins-high-court-ruling-over-cancelled-nickel-trades/",
+          "publisher": "Stephenson Harwood",
+          "title": "London Metal Exchange wins High Court ruling over cancelled nickel trades",
+          "date": "2023-12"
+        }
+      ]
+    },
+    {
+      "to": "jane-street",
+      "toName": "Jane Street",
+      "toType": "company",
+      "relation": "sued by",
+      "claim": "Jane Street joined the judicial review of the LME's cancellation decision, claiming a loss of about US$15 million; the High Court dismissed the claim in November 2023.",
+      "status": "court",
+      "date": "2023-11-29",
+      "quote": "Jane Street's alleged loss was about US$15 million.",
+      "sources": [
+        {
+          "url": "https://www.stephensonharwood.com/insights/london-metal-exchange-wins-high-court-ruling-over-cancelled-nickel-trades/",
+          "publisher": "Stephenson Harwood",
+          "title": "London Metal Exchange wins High Court ruling over cancelled nickel trades",
+          "date": "2023-12"
+        },
+        {
+          "url": "https://caselaw.nationalarchives.gov.uk/ewhc/admin/2023/2969",
+          "publisher": "The National Archives (Find Case Law)",
+          "title": "[2023] EWHC 2969 (Admin)",
+          "date": "2023-11-29"
+        }
+      ]
+    },
+    {
+      "to": "Oliver Wyman",
+      "toName": "Oliver Wyman",
+      "toType": "company",
+      "relation": "contracted with",
+      "claim": "The LME selected Oliver Wyman in June 2022 to conduct the independent review of the March 2022 nickel market events; the final report was published on 10 January 2023.",
+      "status": "documented",
+      "date": "2022-06",
+      "quote": "The LME selected Oliver Wyman in June 2022 (Notice 22/168).",
+      "sources": [
+        {
+          "url": "https://www.lme.com/-/media/Files/News/Notices/2022/06/TRADING-22-168--22040-INDEPENDENT-REVIEW-SELECTION--OLIVER-WYMAN.pdf",
+          "publisher": "London Metal Exchange",
+          "title": "Notice 22/168: Independent Review Selection - Oliver Wyman",
+          "date": "2022-06"
+        }
+      ]
+    },
+    {
+      "to": "financial-conduct-authority",
+      "toName": "Financial Conduct Authority",
+      "toType": "agency",
+      "relation": "regulated",
+      "reverse": true,
+      "claim": "The FCA fined the LME 9,245,900 pounds on 19 March 2025 over its handling of the March 2022 nickel market stress.",
+      "status": "court",
+      "date": "2025-03-19",
+      "quote": "the FCA's first enforcement action against a Regulated Investment Exchange (RIE)",
+      "sources": [
+        {
+          "url": "https://www.fca.org.uk/news/press-releases/first-fca-enforcement-action-and-fine-against-recognised-investment-exchange",
+          "publisher": "Financial Conduct Authority",
+          "title": "First FCA enforcement action and fine against a Recognised Investment Exchange",
+          "date": "2025-03-19"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site says the LME cited about $19.7 billion in margin calls and reset the price to a prior close of $48,078; neither figure appeared in the sources returned (they are likely in the High Court judgment, which should be opened directly).",
+    "The site says nickel spiked 'above $100,000 a tonne'; the sources returned describe unprecedented overnight increases without a price in the extracts retrieved.",
+    "The site says Elliott sought about $456 million; sources give $456 million in one place and $471 million in another.",
+    "The site lists Nicolas Aguzin of HKEX as an insider; the LME's ownership by Hong Kong Exchanges and Clearing was not confirmed from a non-Wikipedia source in the results returned.",
+    "The site says the Tsingshan standstill group included BNP Paribas and Standard Chartered; the Reuters report via Euronews names JPMorgan Chase and CCBI Global Markets, and the full bank list was not confirmed.",
+    "The Oliver Wyman review did not assess the LME's suspension and cancellation decisions; the site's 'clearinghouse rescue' characterization is the claimants' argument, which the courts rejected."
+  ]
+}

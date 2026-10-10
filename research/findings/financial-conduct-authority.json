@@ -1,0 +1,128 @@
+{
+  "entity": "financial-conduct-authority",
+  "name": "Financial Conduct Authority",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The Financial Conduct Authority is the United Kingdom's conduct regulator for financial services. Its website says it regulates the conduct of around 35,500 firms, sets standards for firms and holds them to account, acts as the prudential regulator for firms not supervised by the Prudential Regulation Authority, and is an independent public body funded entirely by fees from the firms it regulates, operating under the Financial Services and Markets Act 2000 and accountable to HM Treasury and Parliament. On this site it appears through its January 2017 £163 million fine of Deutsche Bank for anti-money-laundering control failings connected to the Russian mirror trades and its March 2025 £9.2 million fine of the London Metal Exchange over the March 2022 nickel market suspension.",
+    "sources": [
+      {
+        "url": "https://www.fca.org.uk/about/what-we-do/the-fca",
+        "publisher": "Financial Conduct Authority",
+        "title": "About the FCA"
+      },
+      {
+        "url": "https://www.fca.org.uk/about",
+        "publisher": "Financial Conduct Authority",
+        "title": "About us"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The FCA's strategic objective is to ensure that relevant markets function well, and its three operational objectives are protecting consumers, protecting the integrity of the UK financial system and promoting effective competition in consumers' interests; it is funded entirely by fees charged to regulated firms.",
+      "status": "documented",
+      "date": "2026",
+      "quote": "It's an independent public body funded entirely by the fees it charges regulated firms.",
+      "sources": [
+        {
+          "url": "https://www.fca.org.uk/about/what-we-do/the-fca",
+          "publisher": "Financial Conduct Authority",
+          "title": "About the FCA"
+        }
+      ]
+    },
+    {
+      "claim": "In January 2017 the FCA fined Deutsche Bank £163 million for serious anti-money-laundering control failings, after the bank was used by unidentified customers to move about $10 billion of unknown origin from Russia to offshore accounts through mirror trades.",
+      "status": "court",
+      "date": "2017-01",
+      "quote": "The bank was used by unidentified customers to move about $10 billion of unknown origin from Russia to offshore accounts.",
+      "sources": [
+        {
+          "url": "https://www.fca.org.uk/news/press-releases/fca-fines-deutsche-bank-163-million-anti-money-laundering-controls-failure",
+          "publisher": "Financial Conduct Authority",
+          "title": "FCA fines Deutsche Bank £163 million for serious anti-money laundering controls failings",
+          "date": "2017-01"
+        },
+        {
+          "url": "https://www.fca.org.uk/publication/final-notices/deutsche-bank-2017.pdf",
+          "publisher": "Financial Conduct Authority",
+          "title": "Final Notice to Deutsche Bank AG (Firm Reference Number 150018)",
+          "date": "2017-01"
+        }
+      ]
+    },
+    {
+      "claim": "On 20 March 2025 the FCA published a final notice fining the London Metal Exchange £9,245,900 (reduced by 30% from £13,208,400 for early settlement) for inadequate systems and controls to ensure orderly trading under severe market stress, after the nickel price rose above $100,000 on 8 March 2022 and trading was suspended from 8 to 16 March 2022. The FCA described it as its first enforcement action against a UK recognised investment exchange.",
+      "status": "court",
+      "date": "2025-03-20",
+      "quote": "First FCA enforcement action and fine against a Recognised Investment Exchange",
+      "sources": [
+        {
+          "url": "https://www.fca.org.uk/news/press-releases/first-fca-enforcement-action-and-fine-against-recognised-investment-exchange",
+          "publisher": "Financial Conduct Authority",
+          "title": "First FCA enforcement action and fine against a Recognised Investment Exchange",
+          "date": "2025-03-20"
+        },
+        {
+          "url": "https://www.fca.org.uk/publication/final-notices/london-metal-exchange-2025.pdf",
+          "publisher": "Financial Conduct Authority",
+          "title": "Final Notice to The London Metal Exchange (RIE), Reference Number 207387",
+          "date": "2025-03-19"
+        }
+      ]
+    },
+    {
+      "claim": "The FCA found that on 8 March 2022 LME trading operations staff took steps to accommodate the price rises, including disabling the price bands, during the most extreme period of volatility, and that processes for escalating unusual or hazardous conditions to senior managers were inadequate.",
+      "status": "court",
+      "date": "2025-03-19",
+      "quote": "On 8 March 2022, trading operations staff took steps to accommodate the price rises, including disabling the price bands, during the most extreme period of volatility.",
+      "sources": [
+        {
+          "url": "https://www.fca.org.uk/publication/final-notices/london-metal-exchange-2025.pdf",
+          "publisher": "Financial Conduct Authority",
+          "title": "Final Notice to The London Metal Exchange (RIE), Reference Number 207387",
+          "date": "2025-03-19"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "deutsche-bank",
+      "toName": "Deutsche Bank",
+      "toType": "bank",
+      "relation": "regulated",
+      "claim": "The FCA fined Deutsche Bank £163 million in January 2017 for anti-money-laundering control failings connected to the Russian mirror trades.",
+      "status": "court",
+      "date": "2017-01",
+      "quote": "FCA fines Deutsche Bank £163 million for serious anti-money laundering controls failings",
+      "sources": [
+        {
+          "url": "https://www.fca.org.uk/news/press-releases/fca-fines-deutsche-bank-163-million-anti-money-laundering-controls-failure",
+          "publisher": "Financial Conduct Authority",
+          "title": "FCA fines Deutsche Bank £163 million for serious anti-money laundering controls failings",
+          "date": "2017-01"
+        }
+      ]
+    },
+    {
+      "to": "london-metal-exchange",
+      "toName": "London Metal Exchange",
+      "toType": "company",
+      "relation": "regulated",
+      "claim": "The FCA fined the London Metal Exchange £9,245,900 in March 2025 over its systems and controls during the March 2022 nickel market disruption.",
+      "status": "court",
+      "date": "2025-03-20",
+      "quote": "First FCA enforcement action and fine against a Recognised Investment Exchange",
+      "sources": [
+        {
+          "url": "https://www.fca.org.uk/news/press-releases/first-fca-enforcement-action-and-fine-against-recognised-investment-exchange",
+          "publisher": "Financial Conduct Authority",
+          "title": "First FCA enforcement action and fine against a Recognised Investment Exchange",
+          "date": "2025-03-20"
+        }
+      ]
+    }
+  ],
+  "openQuestions": []
+}

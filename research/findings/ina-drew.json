@@ -1,0 +1,146 @@
+{
+  "entity": "ina-drew",
+  "name": "Ina Drew",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Ina Drew was Chief Investment Officer of JPMorgan Chase, heading the Chief Investment Office whose Synthetic Credit Portfolio lost more than $6 billion in 2012. She testified as a former CIO at the Senate Permanent Subcommittee on Investigations' March 15, 2013 hearing on the trades, and press coverage of the subcommittee's report said it singled her out, with former CFO Doug Braunstein, for particular criticism.",
+    "sources": [
+      {
+        "url": "https://www.govinfo.gov/content/pkg/CHRG-113shrg80222/html/CHRG-113shrg80222.htm",
+        "publisher": "U.S. Government Publishing Office",
+        "title": "Senate Hearing 113-96, JPMorgan Chase Whale Trades: A Case History of Derivatives Risks and Abuses, Volume 1",
+        "date": "2013-03-15"
+      },
+      {
+        "url": "https://www.cnbc.com/2013/03/14/senate-report-blasts-jpmorgan-executives-including-dimon-over-whale.html",
+        "publisher": "CNBC",
+        "title": "Senate report blasts JPMorgan executives including Dimon over Whale",
+        "date": "2013-03-14"
+      },
+      {
+        "url": "https://www.hsgac.senate.gov/subcommittees/investigations/rep/senate-investigations-subcommittee-holds-hearing-and-releases-report-on-jpmorgan-chase-whale-trades/",
+        "publisher": "U.S. Senate Permanent Subcommittee on Investigations",
+        "title": "Senate Investigations Subcommittee Holds Hearing and Releases Report on JPMorgan Chase Whale Trades",
+        "date": "2013-03-14"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Drew testified at the Senate Permanent Subcommittee on Investigations hearing of March 15, 2013 as former Chief Investment Officer of JPMorgan Chase Bank NA, alongside the bank's acting chief risk officer and former head of market risk.",
+      "status": "documented",
+      "date": "2013-03-15",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CHRG-113shrg80222/html/CHRG-113shrg80222.htm",
+          "publisher": "U.S. Government Publishing Office",
+          "title": "Senate Hearing 113-96, JPMorgan Chase Whale Trades: A Case History of Derivatives Risks and Abuses, Volume 1",
+          "date": "2013-03-15"
+        },
+        {
+          "url": "https://www.hsgac.senate.gov/subcommittees/investigations/rep/senate-investigations-subcommittee-holds-hearing-and-releases-report-on-jpmorgan-chase-whale-trades/",
+          "publisher": "U.S. Senate Permanent Subcommittee on Investigations",
+          "title": "Senate Investigations Subcommittee Holds Hearing and Releases Report on JPMorgan Chase Whale Trades",
+          "date": "2013-03-14"
+        }
+      ]
+    },
+    {
+      "claim": "CNBC reported that the subcommittee's report singled out Drew, who ran the Chief Investment Office where the trades occurred, and former CFO Doug Braunstein for particular criticism.",
+      "status": "reported",
+      "date": "2013-03-14",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2013/03/14/senate-report-blasts-jpmorgan-executives-including-dimon-over-whale.html",
+          "publisher": "CNBC",
+          "title": "Senate report blasts JPMorgan executives including Dimon over Whale",
+          "date": "2013-03-14"
+        }
+      ]
+    },
+    {
+      "claim": "The subcommittee found that the Chief Investment Office used its Synthetic Credit Portfolio for high-risk trading, mismarked the trading book to hide losses, manipulated risk models, dodged regulatory oversight and misinformed outside parties.",
+      "status": "documented",
+      "date": "2013-03-15",
+      "sources": [
+        {
+          "url": "https://www.hsgac.senate.gov/subcommittees/investigations/rep/senate-investigations-subcommittee-holds-hearing-and-releases-report-on-jpmorgan-chase-whale-trades/",
+          "publisher": "U.S. Senate Permanent Subcommittee on Investigations",
+          "title": "Senate Investigations Subcommittee Holds Hearing and Releases Report on JPMorgan Chase Whale Trades",
+          "date": "2013-03-14"
+        },
+        {
+          "url": "https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/REPORT%20-%20JPMorgan%20Chase%20Whale%20Trades%20%283-15-13%29.pdf",
+          "publisher": "U.S. Senate Permanent Subcommittee on Investigations",
+          "title": "JPMorgan Chase Whale Trades: A Case History of Derivatives Risks and Abuses",
+          "date": "2013-03-15"
+        }
+      ]
+    },
+    {
+      "claim": "At a PBS NewsHour segment on the hearing, a former JPMorgan executive was reported as deflecting blame for the losses onto others.",
+      "status": "reported",
+      "date": "2013-03-15",
+      "sources": [
+        {
+          "url": "https://www.pbs.org/newshour/show/former-jp-morgan-executive-deflects-blame-for-mistake",
+          "publisher": "PBS NewsHour",
+          "title": "Former JP Morgan executive deflects blame for mistake",
+          "date": "2013-03-15"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "jpmorgan-chase",
+      "toName": "JPMorgan Chase",
+      "toType": "bank",
+      "relation": "executive of",
+      "claim": "Drew was JPMorgan Chase's Chief Investment Officer, heading the office responsible for the 2012 synthetic credit losses.",
+      "status": "documented",
+      "date": "2012",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CHRG-113shrg80222/html/CHRG-113shrg80222.htm",
+          "publisher": "U.S. Government Publishing Office",
+          "title": "Senate Hearing 113-96, JPMorgan Chase Whale Trades: A Case History of Derivatives Risks and Abuses, Volume 1",
+          "date": "2013-03-15"
+        },
+        {
+          "url": "https://www.cnbc.com/2013/03/14/senate-report-blasts-jpmorgan-executives-including-dimon-over-whale.html",
+          "publisher": "CNBC",
+          "title": "Senate report blasts JPMorgan executives including Dimon over Whale",
+          "date": "2013-03-14"
+        }
+      ]
+    },
+    {
+      "to": "bruno-iksil",
+      "toName": "Bruno Iksil",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Bruno Iksil traded in the Chief Investment Office that Drew headed.",
+      "status": "documented",
+      "date": "2012",
+      "sources": [
+        {
+          "url": "https://beta.theglobeandmail.com/report-on-business/international-business/prosecutors-strike-unusual-deal-with-london-whale/article13760749/",
+          "publisher": "The Globe and Mail",
+          "title": "Prosecutors strike unusual deal with 'London Whale'",
+          "date": "2013-08"
+        },
+        {
+          "url": "https://www.govinfo.gov/content/pkg/CHRG-113shrg80222/html/CHRG-113shrg80222.htm",
+          "publisher": "U.S. Government Publishing Office",
+          "title": "Senate Hearing 113-96, JPMorgan Chase Whale Trades: A Case History of Derivatives Risks and Abuses, Volume 1",
+          "date": "2013-03-15"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site description of Drew as 'Chief Investment Officer who supervised the speculative credit trading strategy': supported as to her title and office; the word 'speculative' is the site's characterisation, though the subcommittee did find the portfolio was used for high-risk trading rather than hedging.",
+    "Drew's departure date from JPMorgan and any compensation clawback were not confirmed in this session (search budget exhausted)."
+  ]
+}

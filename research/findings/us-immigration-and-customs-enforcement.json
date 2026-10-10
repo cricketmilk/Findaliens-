@@ -1,0 +1,72 @@
+{
+  "entity": "us-immigration-and-customs-enforcement",
+  "name": "US Immigration and Customs Enforcement",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "U.S. Immigration and Customs Enforcement (ICE) is the Department of Homeland Security agency responsible for interior immigration enforcement. In April 2025 ICE awarded Palantir Technologies a roughly $30 million sole-source task to build an 'Immigration Lifecycle Operating System' (ImmigrationOS) on top of its existing Palantir-built Investigative Case Management platform, citing urgency and a September 2025 prototype deadline; the task was renewed in September 2025, bringing the total to about $60 million.",
+    "sources": [
+      { "url": "https://www.theregister.com/2025/04/21/ice_enlists_palantir_to_develop/", "publisher": "The Register", "title": "ICE enlists Palantir to develop all-seeing 'ImmigrationOS' eye to speed up deportations", "date": "2025-04-21" },
+      { "url": "https://orangeslices.ai/dhs-ice-awards-30m-immigration-lifecycle-operating-system-immigrationos-sole-source-support-task-to-palantir/", "publisher": "OrangeSlices AI", "title": "DHS ICE awards $30M Immigration Lifecycle Operating System (ImmigrationOS) sole source support task to Palantir", "date": "2025" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "ICE awarded Palantir a contract valued at about $30 million on April 11, 2025 to build an 'Immigration Lifecycle Operating System' (ImmigrationOS).",
+      "status": "documented",
+      "date": "2025-04-11",
+      "quote": "ICE awarded Palantir a $30 million contract on April 11 to build an \"Immigration Lifecycle Operating System,\" or Immigration OS for short.",
+      "sources": [
+        { "url": "https://www.theregister.com/2025/04/21/ice_enlists_palantir_to_develop/", "publisher": "The Register", "title": "ICE enlists Palantir to develop all-seeing 'ImmigrationOS' eye to speed up deportations", "date": "2025-04-21" }
+      ]
+    },
+    {
+      "claim": "ICE's justification said the award had to be made without competition because the agency wanted a prototype ready by September 25, 2025 and argued Palantir was the only firm able to meet the timeline.",
+      "status": "documented",
+      "date": "2025-04",
+      "quote": "the deal had to be awarded quickly, with no opportunity for competing bids, because the immigration agency wants a prototype ready by September 25",
+      "sources": [
+        { "url": "https://www.theregister.com/2025/04/21/ice_enlists_palantir_to_develop/", "publisher": "The Register", "title": "ICE enlists Palantir to develop all-seeing 'ImmigrationOS' eye to speed up deportations", "date": "2025-04-21" },
+        { "url": "https://biometricupdate.com/202506/ice-Advances-Sole-Source-Deal-With-Palantir-For-New-Surveillance-Backbone", "publisher": "Biometric Update", "title": "ICE Advances Sole Source Deal With Palantir For New Surveillance Backbone", "date": "2025-06" }
+      ]
+    },
+    {
+      "claim": "ICE renewed the ImmigrationOS task on September 25, 2025, bringing its total value to about $60 million; the renewal's procurement listing shows a base-and-options value of $29,898,236 issued under a limited-source justification.",
+      "status": "documented",
+      "date": "2025-09-25",
+      "quote": "ICE renewed the contract on Sept. 25, bringing its total value to about $60 million.",
+      "sources": [
+        { "url": "https://www.inquirer.com/politics/nation/palantir-20251204.html", "publisher": "The Philadelphia Inquirer", "title": "Palantir and ICE", "date": "2025-12-04" },
+        { "url": "https://orangeslices.ai/dhs-ice-awards-30m-immigration-lifecycle-operating-system-immigrationos-sole-source-support-task-to-palantir/", "publisher": "OrangeSlices AI", "title": "DHS ICE awards $30M Immigration Lifecycle Operating System (ImmigrationOS) sole source support task to Palantir", "date": "2025" }
+      ]
+    },
+    {
+      "claim": "Procurement filings describe ImmigrationOS as supporting selection and apprehension operations and as built on top of ICE's existing Investigative Case Management platform.",
+      "status": "documented",
+      "date": "2025-04",
+      "quote": "ImmigrationOS is built on top of ICE's Investigative Case Management platform",
+      "sources": [
+        { "url": "https://www.executivegov.com/articles/palantir-ice-contract-immigrationos", "publisher": "ExecutiveGov", "title": "Palantir ICE contract: ImmigrationOS", "date": "2025-04" },
+        { "url": "https://www.theregister.com/2025/04/21/ice_enlists_palantir_to_develop/", "publisher": "The Register", "title": "ICE enlists Palantir to develop all-seeing 'ImmigrationOS' eye to speed up deportations", "date": "2025-04-21" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "palantir",
+      "toName": "Palantir",
+      "toType": "company",
+      "relation": "contracted with",
+      "claim": "ICE awarded Palantir a sole-source task worth about $30 million in April 2025 for ImmigrationOS, renewed in September 2025 for a total of about $60 million.",
+      "status": "documented",
+      "date": "2025-04-11",
+      "sources": [
+        { "url": "https://www.theregister.com/2025/04/21/ice_enlists_palantir_to_develop/", "publisher": "The Register", "title": "ICE enlists Palantir to develop all-seeing 'ImmigrationOS' eye to speed up deportations", "date": "2025-04-21" },
+        { "url": "https://www.inquirer.com/politics/nation/palantir-20251204.html", "publisher": "The Philadelphia Inquirer", "title": "Palantir and ICE", "date": "2025-12-04" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site's 'no-bid ICE contracts' description is supported for the April 2025 ImmigrationOS award, which ICE justified as sole-source. The justification document on SAM.gov or ice.gov was not retrieved; the wording above is as reported.",
+    "ICE's wider biometric programmes referenced in the dossier were not researched in this session."
+  ]
+}

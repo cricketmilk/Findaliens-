@@ -1,0 +1,135 @@
+{
+  "entity": "dow",
+  "name": "Dow",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Dow is a Michigan-based chemical and plastics producer. An NPR and PBS Frontline investigation published in September 2020, based on internal industry documents and interviews with former officials, reported that plastics makers knew for years that recycling plastic was not economically viable while spending millions promoting it. A 1989 document described in the report called executives from Exxon, Chevron, Amoco, Dow, DuPont, Procter & Gamble and others to a private meeting in Washington as the industry's image deteriorated.",
+    "sources": [
+      {
+        "url": "https://www.npr.org/2020/09/11/897692090/how-big-oil-misled-the-public-into-believing-plastic-would-be-recycled",
+        "publisher": "NPR",
+        "title": "How Big Oil Misled The Public Into Believing Plastic Would Be Recycled",
+        "date": "2020-09-11"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "NPR and PBS Frontline reported in September 2020 that the nation's largest oil and gas companies, as the makers of plastic, knew for years that recycling plastic was not valuable while spending millions telling the public the opposite.",
+      "status": "reported",
+      "date": "2020-09-11",
+      "quote": "the makers of plastic, the nation's largest oil and gas companies, knew for years that recycling plastic was not valuable, even as they spent millions telling the public the opposite",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2020/09/11/897692090/how-big-oil-misled-the-public-into-believing-plastic-would-be-recycled",
+          "publisher": "NPR",
+          "title": "How Big Oil Misled The Public Into Believing Plastic Would Be Recycled",
+          "date": "2020-09-11"
+        }
+      ]
+    },
+    {
+      "claim": "A 1989 document described in the report shows an industry official calling executives at Exxon, Chevron, Amoco, Dow, DuPont, Procter & Gamble and others to a private meeting at the Ritz-Carlton in Washington.",
+      "status": "reported",
+      "date": "1989",
+      "quote": "It shows Thomas calling executives at Exxon, Chevron, Amoco, Dow, DuPont, Procter & Gamble and others to a private meeting at the Ritz-Carlton in Washington.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2020/09/11/897692090/how-big-oil-misled-the-public-into-believing-plastic-would-be-recycled",
+          "publisher": "NPR",
+          "title": "How Big Oil Misled The Public Into Believing Plastic Would Be Recycled",
+          "date": "2020-09-11"
+        }
+      ]
+    },
+    {
+      "claim": "The 1989 memo said the image of plastics was deteriorating at an alarming rate and that 'we are approaching a point of no return'.",
+      "status": "documented",
+      "date": "1989",
+      "quote": "the image of plastics is deteriorating at an alarming rate, and \"we are approaching a point of no return.\"",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2020/09/11/897692090/how-big-oil-misled-the-public-into-believing-plastic-would-be-recycled",
+          "publisher": "NPR",
+          "title": "How Big Oil Misled The Public Into Believing Plastic Would Be Recycled",
+          "date": "2020-09-11"
+        }
+      ]
+    },
+    {
+      "claim": "The investigation drew on months of digging into internal industry documents and interviews with top former officials.",
+      "status": "reported",
+      "date": "2020-09-11",
+      "quote": "It was produced with PBS Frontline, which spent months digging into internal industry documents and interviews with top former officials.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2020/09/11/897692090/how-big-oil-misled-the-public-into-believing-plastic-would-be-recycled",
+          "publisher": "NPR",
+          "title": "How Big Oil Misled The Public Into Believing Plastic Would Be Recycled",
+          "date": "2020-09-11"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "dupont",
+      "toName": "DuPont",
+      "toType": "company",
+      "relation": "partnered with",
+      "claim": "Dow and DuPont executives were among those called to the 1989 industry meeting on plastics' image described by NPR.",
+      "status": "reported",
+      "date": "1989",
+      "quote": "calling executives at Exxon, Chevron, Amoco, Dow, DuPont, Procter & Gamble and others to a private meeting",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2020/09/11/897692090/how-big-oil-misled-the-public-into-believing-plastic-would-be-recycled",
+          "publisher": "NPR",
+          "title": "How Big Oil Misled The Public Into Believing Plastic Would Be Recycled",
+          "date": "2020-09-11"
+        }
+      ]
+    },
+    {
+      "to": "exxonmobil",
+      "toName": "ExxonMobil",
+      "toType": "company",
+      "relation": "partnered with",
+      "claim": "Dow and Exxon executives were among those called to the 1989 industry meeting on plastics' image described by NPR.",
+      "status": "reported",
+      "date": "1989",
+      "quote": "calling executives at Exxon, Chevron, Amoco, Dow, DuPont, Procter & Gamble and others to a private meeting",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2020/09/11/897692090/how-big-oil-misled-the-public-into-believing-plastic-would-be-recycled",
+          "publisher": "NPR",
+          "title": "How Big Oil Misled The Public Into Believing Plastic Would Be Recycled",
+          "date": "2020-09-11"
+        }
+      ]
+    },
+    {
+      "to": "chevron",
+      "toName": "Chevron",
+      "toType": "company",
+      "relation": "partnered with",
+      "claim": "Dow and Chevron executives were among those called to the 1989 industry meeting on plastics' image described by NPR.",
+      "status": "reported",
+      "date": "1989",
+      "quote": "calling executives at Exxon, Chevron, Amoco, Dow, DuPont, Procter & Gamble and others to a private meeting",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2020/09/11/897692090/how-big-oil-misled-the-public-into-believing-plastic-would-be-recycled",
+          "publisher": "NPR",
+          "title": "How Big Oil Misled The Public Into Believing Plastic Would Be Recycled",
+          "date": "2020-09-11"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (documented; industry doubted recycling from the 1970s yet promoted it): supported by NPR's reporting; the 1970s dating comes from documents described in the full NPR piece, not in the excerpts in the sources used.",
+    "The trade group employing 'Thomas' (reported elsewhere as the Society of the Plastics Industry) was not confirmed from the excerpts; the site entity 'plastics-industry-trade-groups' could be linked once confirmed.",
+    "Dow-specific statements about recycling were not found."
+  ]
+}

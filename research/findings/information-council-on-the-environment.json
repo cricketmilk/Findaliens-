@@ -1,0 +1,213 @@
+{
+  "entity": "information-council-on-the-environment",
+  "name": "Information Council on the Environment",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The Information Council for the Environment (ICE) was a 1991 public-relations campaign created by the National Coal Association, the Western Fuels Association and the Edison Electric Institute, with Southern Company also described as part of the coalition. Internal planning documents, archived by Climate Files, listed as its first goal to 'reposition global warming as theory (not fact)' through radio and newspaper advertisements test-marketed in several US cities. The campaign was short-lived.",
+    "sources": [
+      {
+        "url": "https://www.desmog.com/information-council-environment",
+        "publisher": "DeSmog",
+        "title": "Information Council for the Environment (ICE)"
+      },
+      {
+        "url": "https://www.ebsco.com/research-starters/science/information-council-environment-ice",
+        "publisher": "EBSCO Research Starters",
+        "title": "Information Council on the Environment (ICE)"
+      },
+      {
+        "url": "https://www.climatefiles.com/tag/ice",
+        "publisher": "Climate Files",
+        "title": "1991 Information Council for the Environment Climate Denial Ad Campaign (document archive)",
+        "date": "1991"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "ICE was created in 1991 by the National Coal Association, the Western Fuels Association and the Edison Electric Institute; DeSmog reports Southern Company was also part of the coalition.",
+      "status": "documented",
+      "date": "1991",
+      "quote": "DeSmog adds that Southern Company was also part of the coalition.",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/information-council-environment",
+          "publisher": "DeSmog",
+          "title": "Information Council for the Environment (ICE)"
+        },
+        {
+          "url": "https://www.ebsco.com/research-starters/science/information-council-environment-ice",
+          "publisher": "EBSCO Research Starters",
+          "title": "Information Council on the Environment (ICE)"
+        }
+      ]
+    },
+    {
+      "claim": "ICE's internal planning documents listed 'reposition global warming as theory (not fact)' first among its goals, to be accomplished through radio and newspaper advertisements.",
+      "status": "documented",
+      "date": "1991",
+      "quote": "The phrase \"reposition global warming as theory (not fact)\" was listed first among its internally documented goals.",
+      "sources": [
+        {
+          "url": "https://www.climatefiles.com/tag/ice",
+          "publisher": "Climate Files",
+          "title": "1991 Information Council for the Environment Climate Denial Ad Campaign (document archive)",
+          "date": "1991"
+        },
+        {
+          "url": "https://www.desmog.com/information-council-environment",
+          "publisher": "DeSmog",
+          "title": "Information Council for the Environment (ICE)"
+        }
+      ]
+    },
+    {
+      "claim": "Internal documents from ICE's polling firm, Cambridge Reports, described a $500,000 advertising budget and a timeline from test-market execution in early 1991 to going national in late 1991.",
+      "status": "documented",
+      "date": "1991",
+      "quote": "The planned timeline ran from \"Test Market\" execution in early 1991 to going national in late fall 1991.",
+      "sources": [
+        {
+          "url": "https://www.climatefiles.com/tag/ice",
+          "publisher": "Climate Files",
+          "title": "1991 Information Council for the Environment Climate Denial Ad Campaign (document archive)",
+          "date": "1991"
+        },
+        {
+          "url": "https://www.ebsco.com/research-starters/science/information-council-environment-ice",
+          "publisher": "EBSCO Research Starters",
+          "title": "Information Council on the Environment (ICE)"
+        }
+      ]
+    },
+    {
+      "claim": "ICE was to be guided by a science advisory panel including Robert Balling, Patrick Michaels and Sherwood Idso.",
+      "status": "documented",
+      "date": "1991",
+      "quote": "a \"Science Advisory Panel\" made up of scientists such as Robert Balling, Patrick Michaels, and Sherwood Idso",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/information-council-environment",
+          "publisher": "DeSmog",
+          "title": "Information Council for the Environment (ICE)"
+        },
+        {
+          "url": "https://www.ebsco.com/research-starters/science/information-council-environment-ice",
+          "publisher": "EBSCO Research Starters",
+          "title": "Information Council on the Environment (ICE)"
+        }
+      ]
+    },
+    {
+      "claim": "The campaign was short-lived; EBSCO says it disbanded within months amid media scrutiny, and Western Fuels' Fred Palmer later said 'it is unfortunate that ICE did not go forward.'",
+      "status": "reported",
+      "date": "1991",
+      "quote": "it is unfortunate that ICE did not go forward",
+      "sources": [
+        {
+          "url": "https://www.ebsco.com/research-starters/science/information-council-environment-ice",
+          "publisher": "EBSCO Research Starters",
+          "title": "Information Council on the Environment (ICE)"
+        },
+        {
+          "url": "https://www.desmog.com/information-council-environment",
+          "publisher": "DeSmog",
+          "title": "Information Council for the Environment (ICE)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "western-fuels-association",
+      "toName": "Western Fuels Association",
+      "toType": "trade group",
+      "relation": "founded",
+      "claim": "The Western Fuels Association was one of the three organisations that created ICE in 1991.",
+      "status": "documented",
+      "date": "1991",
+      "quote": "created by the National Coal Association, the Western Fuels Association, and Edison Electrical Institute",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/information-council-environment",
+          "publisher": "DeSmog",
+          "title": "Information Council for the Environment (ICE)"
+        },
+        {
+          "url": "https://www.ebsco.com/research-starters/science/information-council-environment-ice",
+          "publisher": "EBSCO Research Starters",
+          "title": "Information Council on the Environment (ICE)"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "national-coal-association",
+      "toName": "National Coal Association",
+      "toType": "trade group",
+      "relation": "founded",
+      "claim": "The National Coal Association was one of the three organisations that created ICE in 1991.",
+      "status": "documented",
+      "date": "1991",
+      "quote": "created by the National Coal Association, the Western Fuels Association, and Edison Electrical Institute",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/information-council-environment",
+          "publisher": "DeSmog",
+          "title": "Information Council for the Environment (ICE)"
+        },
+        {
+          "url": "https://www.ebsco.com/research-starters/science/information-council-environment-ice",
+          "publisher": "EBSCO Research Starters",
+          "title": "Information Council on the Environment (ICE)"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "edison-electric-institute",
+      "toName": "Edison Electric Institute",
+      "toType": "trade group",
+      "relation": "founded",
+      "claim": "The Edison Electric Institute was one of the three organisations that created ICE in 1991.",
+      "status": "documented",
+      "date": "1991",
+      "quote": "created by the National Coal Association, the Western Fuels Association, and Edison Electrical Institute",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/information-council-environment",
+          "publisher": "DeSmog",
+          "title": "Information Council for the Environment (ICE)"
+        },
+        {
+          "url": "https://www.ebsco.com/research-starters/science/information-council-environment-ice",
+          "publisher": "EBSCO Research Starters",
+          "title": "Information Council on the Environment (ICE)"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "southern-company",
+      "toName": "Southern Company",
+      "toType": "company",
+      "relation": "funded",
+      "claim": "DeSmog reports Southern Company was part of the coalition behind ICE.",
+      "status": "reported",
+      "date": "1991",
+      "quote": "DeSmog adds that Southern Company was also part of the coalition.",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/information-council-environment",
+          "publisher": "DeSmog",
+          "title": "Information Council for the Environment (ICE)"
+        }
+      ],
+      "reverse": true
+    }
+  ],
+  "openQuestions": [
+    "Site claim (documented; set up by coal and utility interests, strategy to 'reposition global warming as theory (not fact)'): supported by the archived ICE planning documents as described by Climate Files, DeSmog and EBSCO. The site cites Wikipedia; the primary documents are on climatefiles.com.",
+    "Whether the ads ran beyond the test markets is disputed between sources."
+  ]
+}

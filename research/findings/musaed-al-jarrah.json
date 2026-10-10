@@ -1,0 +1,89 @@
+{
+  "entity": "musaed-al-jarrah",
+  "name": "Musaed al-Jarrah",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Musaed al-Jarrah was a Saudi diplomat at the Saudi embassy in Washington, D.C., where he led Islamic affairs, and one of the three main subjects of the FBI's Operation Encore investigation into possible Saudi government support for the September 11 hijackers. His name became public in May 2020 when it was included in an FBI court declaration by mistake. FBI records released under Executive Order 14040 describe him as an influence on Sunni extremist activity in Southern California, while a 2021 FBI memo said there was no evidence he had direct contact with the two hijackers; the casefile's closing material states that the evidence did not establish that he, Fahad al-Thumairy and Omar al-Bayoumi knowingly conspired to assist the hijackers. He has not been charged.",
+    "sources": [
+      { "url": "https://www.cbsnews.com/amp/news/fbi-declassified-documents-september-11-saudi-government/", "publisher": "CBS News", "title": "FBI releases declassified documents about investigating ties between Saudi government and Sept. 11 attacks", "date": "2021-11" },
+      { "url": "https://www.nbcnews.com/politics/national-security/families-9-11-victims-seek-more-info-saudi-official-mistakenly-n1206416", "publisher": "NBC News", "title": "Families of 9/11 victims seek more info on Saudi official mistakenly outed by the FBI", "date": "2020-05" },
+      { "url": "https://vault.fbi.gov/9-11-attacks-investigation-and-related-materials/9-11-material-released-in-response-to-executive-order-14040/documents-responsive-to-executive-order-14040-section-2-b-ii-part-01-of-01/at_download/file", "publisher": "FBI (The Vault)", "title": "Documents responsive to Executive Order 14040, section 2(b)(ii)", "date": "2022" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Al-Jarrah's name became public in May 2020 when the FBI included it by mistake in a court declaration filed in the 9/11 families' lawsuit; 9/11 families then sought more information about him.",
+      "status": "reported",
+      "date": "2020-05",
+      "quote": "Families of 9/11 victims seek more info on Saudi official mistakenly outed by the FBI",
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/national-security/families-9-11-victims-seek-more-info-saudi-official-mistakenly-n1206416", "publisher": "NBC News", "title": "Families of 9/11 victims seek more info on Saudi official mistakenly outed by the FBI", "date": "2020-05" },
+        { "url": "https://www.timesofisrael.com/fbi-accidentally-names-saudi-embassy-official-linked-to-9-11-attackers/", "publisher": "The Times of Israel", "title": "FBI accidentally names Saudi embassy official linked to 9/11 terrorists", "date": "2020-05" }
+      ]
+    },
+    {
+      "claim": "FBI records released in November 2021 under Executive Order 14040 described al-Jarrah, a Saudi embassy official in Washington, as a controlling, guiding and directing influence on Sunni extremist activity in Southern California; a September 2021 FBI memo in the same release said there was no evidence that he had direct contact with the two hijackers. These are FBI assessments, not findings of fact.",
+      "status": "documented",
+      "date": "2021-11",
+      "quote": "a \"controlling, guiding, and directing influence\" on Sunni extremist activity in Southern California",
+      "sources": [
+        { "url": "https://www.cbsnews.com/amp/news/fbi-declassified-documents-september-11-saudi-government/", "publisher": "CBS News", "title": "FBI releases declassified documents about investigating ties between Saudi government and Sept. 11 attacks", "date": "2021-11" },
+        { "url": "https://ny1.com/nyc/all-boroughs/news/2021/11/04/fbi-unclassified-documents-saudi-arabia-september-11", "publisher": "NY1", "title": "FBI releases declassified documents on Sept. 11 attacks", "date": "2021-11-04" }
+      ]
+    },
+    {
+      "claim": "The FBI's Operation Encore closing material states that the evidence did not establish that al-Thumairy, al-Bayoumi and al-Jarrah knowingly conspired to assist the al Qaeda hijackers; none of the three was charged and all have left the United States.",
+      "status": "documented",
+      "date": "2022",
+      "quote": "the evidence did not establish that Thumairy, Bayoumi, and Al-Jarrah knowingly conspired to assist the AQ hijackers in furtherance of the 9/11 attack.",
+      "sources": [
+        { "url": "https://vault.fbi.gov/9-11-attacks-investigation-and-related-materials/9-11-material-released-in-response-to-executive-order-14040/documents-responsive-to-executive-order-14040-section-2-b-ii-part-01-of-01/at_download/file", "publisher": "FBI (The Vault)", "title": "Documents responsive to Executive Order 14040, section 2(b)(ii)", "date": "2022" },
+        { "url": "https://www.cbsnews.com/amp/news/fbi-declassified-documents-september-11-saudi-government/", "publisher": "CBS News", "title": "FBI releases declassified documents about investigating ties between Saudi government and Sept. 11 attacks", "date": "2021-11" }
+      ]
+    },
+    {
+      "claim": "ProPublica reported that the focus of the 9/11 families' lawsuit against Saudi Arabia turned to al-Jarrah and the embassy network the FBI investigated, and that the Saudi government disputes the characterisation of that network as government-backed.",
+      "status": "reported",
+      "date": "2020",
+      "quote": "Focus of 9/11 Families' Lawsuit Against Saudi Arabia Turns to a Saudi Student Who May Have Been a Spy",
+      "sources": [
+        { "url": "https://www.propublica.org/article/sept-11-family-lawsuit-saudi-spy", "publisher": "ProPublica", "title": "Focus of 9/11 Families' Lawsuit Against Saudi Arabia Turns to a Saudi Student Who May Have Been a Spy" },
+        { "url": "https://www.floridabulldog.org/2022/01/fbi-tied-saudi-embassy-diplomat-jarrah-who-aided-9-11-hijackers-to-saudi-sunni-extremists-operating-inside-the-u-s/", "publisher": "Florida Bulldog", "title": "Saudi embassy diplomat who aided 9/11 hijackers tied to extremists in U.S.", "date": "2022-01" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "saudi-arabia",
+      "toName": "Saudi Arabia",
+      "toType": "country",
+      "relation": "employed by",
+      "claim": "Al-Jarrah was a Saudi diplomat at the Saudi embassy in Washington, D.C., where he led Islamic affairs, according to FBI records released under Executive Order 14040 and reporting on them.",
+      "status": "documented",
+      "date": "2021-11",
+      "quote": "a Saudi embassy official in Washington",
+      "sources": [
+        { "url": "https://www.cbsnews.com/amp/news/fbi-declassified-documents-september-11-saudi-government/", "publisher": "CBS News", "title": "FBI releases declassified documents about investigating ties between Saudi government and Sept. 11 attacks", "date": "2021-11" },
+        { "url": "https://www.nbcnews.com/politics/national-security/families-9-11-victims-seek-more-info-saudi-official-mistakenly-n1206416", "publisher": "NBC News", "title": "Families of 9/11 victims seek more info on Saudi official mistakenly outed by the FBI", "date": "2020-05" }
+      ]
+    },
+    {
+      "to": "fahad-al-thumairy",
+      "toName": "Fahad al-Thumairy",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Florida Bulldog reported that the FBI's Operation Encore records say al-Jarrah directed al-Thumairy and al-Bayoumi to help the two hijackers after they reached Los Angeles in 2000; the casefile's closing material states that the evidence did not establish a knowing conspiracy among the three. The direction claim was not confirmed from the FBI documents themselves.",
+      "status": "reported",
+      "date": "2023-09",
+      "quote": "The FBI's Encore records say he directed Fahad al-Thumairy and Omar al-Bayoumi to help hijackers Nawaf al-Hazmi and Khalid al-Mihdhar after they reached Los Angeles in 2000",
+      "sources": [
+        { "url": "https://www.floridabulldog.org/2023/09/saudi-arabia-ally-or-perfidious-ally-calls-new-9-11-investigation/", "publisher": "Florida Bulldog", "title": "Saudi Arabia: Ally or 'perfidious ally'? Calls for new 9/11 investigation", "date": "2023-09" },
+        { "url": "https://vault.fbi.gov/9-11-attacks-investigation-and-related-materials/9-11-material-released-in-response-to-executive-order-14040/documents-responsive-to-executive-order-14040-section-2-b-ii-part-01-of-01/at_download/file", "publisher": "FBI (The Vault)", "title": "Documents responsive to Executive Order 14040, section 2(b)(ii)", "date": "2022" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "No statement or denial by al-Jarrah himself was found in the sources reached; the Saudi government's general denial is recorded in saudi-arabia.json.",
+    "The claim that al-Jarrah directed al-Thumairy and al-Bayoumi rests on Florida Bulldog's reading of the FBI's 2021 report; the owner should check the FBI Vault document before approving the connection."
+  ]
+}

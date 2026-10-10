@@ -1,0 +1,163 @@
+{
+  "entity": "renaissance-technologies",
+  "name": "Renaissance Technologies",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Renaissance Technologies is a quantitative hedge fund firm founded by James Simons; Robert Mercer was its co-chief executive until 2017. A 2014 Senate Permanent Subcommittee on Investigations report found the firm used 'basket options' sold by Deutsche Bank and Barclays to treat short-term trading profits in its Medallion fund as long-term gains, with estimated tax savings of $6.8 billion. In September 2021 the firm's executives and board members agreed to pay the IRS as much as about $7 billion to settle the dispute.",
+    "sources": [
+      {
+        "url": "https://www.hsgac.senate.gov/subcommittees/investigations/rep/subcommittee-finds-basket-options-misused-to-dodge-billions-in-taxes-and-bypass-federal-leverage-limits/",
+        "publisher": "U.S. Senate Permanent Subcommittee on Investigations",
+        "title": "Subcommittee finds 'basket options' misused to dodge billions in taxes and bypass federal leverage limits",
+        "date": "2014-07-21"
+      },
+      {
+        "url": "https://www.cnbc.com/2021/09/03/renaissance-executives-agree-to-pay-7-billion-to-settle-tax-dispute.html",
+        "publisher": "CNBC (Reuters)",
+        "title": "Renaissance executives agree to pay around $7 billion to settle tax dispute with IRS: Source",
+        "date": "2021-09-03"
+      },
+      {
+        "url": "https://www.wealthmanagement.com/high-net-worth/jim-simons-rentech-insiders-to-pay-billions-in-back-taxes",
+        "publisher": "WealthManagement.com (Bloomberg)",
+        "title": "Jim Simons, RenTech Insiders to Pay Billions in Back Taxes",
+        "date": "2021-09-02"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In July 2014 the Senate Permanent Subcommittee on Investigations found that over more than a decade Renaissance used basket options sold by Deutsche Bank and Barclays to shelter some $34 billion of income in its Medallion Fund, cutting the tax rate paid by investors by as much as 20 percentage points, with estimated tax savings of $6.8 billion. The subcommittee said the trades were ordered by the firm's computers and executed by the banks in milliseconds; Renaissance said its use of the options was not driven by tax benefits.",
+      "status": "documented",
+      "date": "2014-07-22",
+      "quote": "used basket options sold by Deutsche Bank and Barclays Plc to shelter some $34 billion of income",
+      "sources": [
+        {
+          "url": "https://www.hsgac.senate.gov/subcommittees/investigations/rep/subcommittee-finds-basket-options-misused-to-dodge-billions-in-taxes-and-bypass-federal-leverage-limits/",
+          "publisher": "U.S. Senate Permanent Subcommittee on Investigations",
+          "title": "Subcommittee finds 'basket options' misused to dodge billions in taxes and bypass federal leverage limits",
+          "date": "2014-07-21"
+        },
+        {
+          "url": "https://www.hsgac.senate.gov/wp-content/uploads/imo/media/doc/OPENING - Carl Levin (July 22 2014)1.pdf",
+          "publisher": "U.S. Senate Permanent Subcommittee on Investigations",
+          "title": "Opening Statement of Senator Carl Levin, hearing on abuse of structured financial products (basket options)",
+          "date": "2014-07-22"
+        },
+        {
+          "url": "https://www.fa-mag.com/news/hedge-fund-dodged-more-than--6-billion-tax--senators-say-18657.html",
+          "publisher": "Financial Advisor (Bloomberg News)",
+          "title": "Hedge Fund Dodged More Than $6 Billion Tax, Senators Say",
+          "date": "2014-07"
+        }
+      ]
+    },
+    {
+      "claim": "In September 2021 Renaissance CEO Peter Brown told investors in a letter that the firm's executives would pay as much as $7 billion in back taxes, interest and penalties to settle the IRS dispute over Medallion's 2005-2015 trades; the seven individuals who sat on the board during those years, and their spouses, pay tax, interest and penalties, while other Medallion investors pay 80% of additional tax plus interest without penalties. James Simons agreed to an additional $670 million payment.",
+      "status": "reported",
+      "date": "2021-09-02",
+      "quote": "the seven individuals who were members of Renaissance's board during those years, and their spouses, will be required to pay the tax and interest and penalties",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2021/09/03/renaissance-executives-agree-to-pay-7-billion-to-settle-tax-dispute.html",
+          "publisher": "CNBC (Reuters)",
+          "title": "Renaissance executives agree to pay around $7 billion to settle tax dispute with IRS: Source",
+          "date": "2021-09-03"
+        },
+        {
+          "url": "https://www.wealthmanagement.com/high-net-worth/jim-simons-rentech-insiders-to-pay-billions-in-back-taxes",
+          "publisher": "WealthManagement.com (Bloomberg)",
+          "title": "Jim Simons, RenTech Insiders to Pay Billions in Back Taxes",
+          "date": "2021-09-02"
+        }
+      ]
+    },
+    {
+      "claim": "Bloomberg reported that the board members liable under the 2021 settlement include CEO Peter Brown and former co-CEO Robert Mercer.",
+      "status": "reported",
+      "date": "2021-09-02",
+      "quote": "the group includes Brown as well as Robert Mercer, a former co-CEO and noted conservative political donor",
+      "sources": [
+        {
+          "url": "https://www.wealthmanagement.com/high-net-worth/jim-simons-rentech-insiders-to-pay-billions-in-back-taxes",
+          "publisher": "WealthManagement.com (Bloomberg)",
+          "title": "Jim Simons, RenTech Insiders to Pay Billions in Back Taxes",
+          "date": "2021-09-02"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "robert-mercer",
+      "toName": "Robert Mercer",
+      "toType": "person",
+      "relation": "executive of",
+      "claim": "Robert Mercer was co-CEO of Renaissance Technologies until 2017 and is among the former board members liable under the 2021 IRS settlement, Bloomberg reported.",
+      "status": "reported",
+      "date": "2021-09-02",
+      "quote": "the group includes Brown as well as Robert Mercer, a former co-CEO and noted conservative political donor",
+      "sources": [
+        {
+          "url": "https://www.wealthmanagement.com/high-net-worth/jim-simons-rentech-insiders-to-pay-billions-in-back-taxes",
+          "publisher": "WealthManagement.com (Bloomberg)",
+          "title": "Jim Simons, RenTech Insiders to Pay Billions in Back Taxes",
+          "date": "2021-09-02"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "deutsche-bank",
+      "toName": "Deutsche Bank",
+      "toType": "company",
+      "relation": "contracted with",
+      "claim": "The Senate subcommittee found Renaissance bought basket options from Deutsche Bank and Barclays to shelter Medallion Fund income.",
+      "status": "documented",
+      "date": "2014-07-22",
+      "quote": "used basket options sold by Deutsche Bank and Barclays Plc",
+      "sources": [
+        {
+          "url": "https://www.hsgac.senate.gov/subcommittees/investigations/rep/subcommittee-finds-basket-options-misused-to-dodge-billions-in-taxes-and-bypass-federal-leverage-limits/",
+          "publisher": "U.S. Senate Permanent Subcommittee on Investigations",
+          "title": "Subcommittee finds 'basket options' misused to dodge billions in taxes and bypass federal leverage limits",
+          "date": "2014-07-21"
+        },
+        {
+          "url": "https://www.fa-mag.com/news/hedge-fund-dodged-more-than--6-billion-tax--senators-say-18657.html",
+          "publisher": "Financial Advisor (Bloomberg News)",
+          "title": "Hedge Fund Dodged More Than $6 Billion Tax, Senators Say",
+          "date": "2014-07"
+        }
+      ]
+    },
+    {
+      "to": "barclays",
+      "toName": "Barclays",
+      "toType": "company",
+      "relation": "contracted with",
+      "claim": "The Senate subcommittee found Renaissance bought basket options from Barclays and Deutsche Bank to shelter Medallion Fund income.",
+      "status": "documented",
+      "date": "2014-07-22",
+      "quote": "used basket options sold by Deutsche Bank and Barclays Plc",
+      "sources": [
+        {
+          "url": "https://www.hsgac.senate.gov/subcommittees/investigations/rep/subcommittee-finds-basket-options-misused-to-dodge-billions-in-taxes-and-bypass-federal-leverage-limits/",
+          "publisher": "U.S. Senate Permanent Subcommittee on Investigations",
+          "title": "Subcommittee finds 'basket options' misused to dodge billions in taxes and bypass federal leverage limits",
+          "date": "2014-07-21"
+        },
+        {
+          "url": "https://www.fa-mag.com/news/hedge-fund-dodged-more-than--6-billion-tax--senators-say-18657.html",
+          "publisher": "Financial Advisor (Bloomberg News)",
+          "title": "Hedge Fund Dodged More Than $6 Billion Tax, Senators Say",
+          "date": "2014-07"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The final amount paid under the 2021 settlement was not disclosed in the sources; $7 billion is an upper estimate including interest and penalties.",
+    "Extra name wanted as a connection but absent from the entity index: James Simons."
+  ]
+}

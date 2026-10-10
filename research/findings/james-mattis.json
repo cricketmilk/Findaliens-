@@ -1,0 +1,67 @@
+{
+  "entity": "james-mattis",
+  "name": "James Mattis",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "James Mattis, a retired Marine Corps general and U.S. Secretary of Defense from 2017 to 2019, joined the Theranos board of directors after retiring from the military in 2013 and, while at U.S. Central Command, had advocated testing Theranos devices in the field. The SEC's March 2018 fraud complaint against Theranos and Elizabeth Holmes alleged that claims that Theranos products were deployed by the Department of Defense in Afghanistan and on medevac helicopters were false.",
+    "sources": [
+      { "url": "https://www.cnbc.com/2018/03/16/james-mattis-is-linked-to-a-massive-corporate-fraud-and-nobody-wants-to-talk-about-it.html", "publisher": "CNBC", "title": "James Mattis is linked to a massive corporate fraud and nobody wants to talk about it", "date": "2018-03-16" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Mattis sat on the Theranos board and advocated for using Theranos products on the battlefield.",
+      "status": "reported",
+      "date": "2013",
+      "quote": "sat on the company's board and advocated for using Theranos products on the battlefield",
+      "sources": [
+        { "url": "https://www.cnbc.com/2018/03/16/james-mattis-is-linked-to-a-massive-corporate-fraud-and-nobody-wants-to-talk-about-it.html", "publisher": "CNBC", "title": "James Mattis is linked to a massive corporate fraud and nobody wants to talk about it", "date": "2018-03-16" }
+      ]
+    },
+    {
+      "claim": "At the time of the SEC's March 2018 charges against Theranos, Mattis was the sitting U.S. Secretary of Defense.",
+      "status": "reported",
+      "date": "2018-03-16",
+      "sources": [
+        { "url": "https://www.cnbc.com/2018/03/16/james-mattis-is-linked-to-a-massive-corporate-fraud-and-nobody-wants-to-talk-about-it.html", "publisher": "CNBC", "title": "James Mattis is linked to a massive corporate fraud and nobody wants to talk about it", "date": "2018-03-16" }
+      ]
+    },
+    {
+      "claim": "The SEC's 2018 complaint alleged that Theranos and Holmes falsely claimed the company's products were deployed by the U.S. Department of Defense on the battlefield in Afghanistan and on medevac helicopters, and that Holmes knew or was reckless in not knowing the statements were false.",
+      "status": "court",
+      "date": "2018-03-14",
+      "quote": "deployed by the U.S. Department of Defense on the battlefield in Afghanistan and on medevac helicopters",
+      "sources": [
+        { "url": "https://news.crunchbase.com/startups/sec-charges-theranos-execs-elaborate-years-long-fraud", "publisher": "Crunchbase News", "title": "SEC Charges Theranos Execs With Elaborate, Years-Long Fraud", "date": "2018-03-14" },
+        { "url": "https://www.axios.com/2018/03/14/theranos-fraud", "publisher": "Axios", "title": "SEC charges Theranos CEO Elizabeth Holmes with 'massive fraud'", "date": "2018-03-14" }
+      ]
+    },
+    {
+      "claim": "Holmes settled the SEC charges by paying a $500,000 penalty, accepting a bar from serving as an officer or director of a public company until 2028, surrendering voting control and returning shares; Ramesh Balwani did not settle, and in June 2018 federal prosecutors in Northern California indicted Holmes and Balwani for wire fraud and conspiracy.",
+      "status": "court",
+      "date": "2018-06",
+      "sources": [
+        { "url": "https://news.crunchbase.com/startups/sec-charges-theranos-execs-elaborate-years-long-fraud", "publisher": "Crunchbase News", "title": "SEC Charges Theranos Execs With Elaborate, Years-Long Fraud", "date": "2018-03-14" },
+        { "url": "https://www.knobbe.com/blog/theranos-charges-provide-perspective-medical-device-companies-biotechnology-companies/", "publisher": "Knobbe Martens", "title": "Theranos charges provide perspective for medical device and biotechnology companies", "date": "2018" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "theranos",
+      "toName": "Theranos",
+      "toType": "company",
+      "relation": "board member of",
+      "claim": "Mattis served on the Theranos board of directors.",
+      "status": "reported",
+      "date": "2013",
+      "sources": [
+        { "url": "https://www.cnbc.com/2018/03/16/james-mattis-is-linked-to-a-massive-corporate-fraud-and-nobody-wants-to-talk-about-it.html", "publisher": "CNBC", "title": "James Mattis is linked to a massive corporate fraud and nobody wants to talk about it", "date": "2018-03-16" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Mattis was not charged or named as a defendant by the SEC or DOJ; the site's description of directors providing 'regulatory immunity in exchange for equity' is not supported by the records found. Mattis's board compensation was not located.",
+    "Mattis's 2012 emails as CENTCOM commander pressing for Theranos field trials (reported by the Washington Post in 2015) were not retrieved."
+  ]
+}

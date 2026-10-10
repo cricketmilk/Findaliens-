@@ -1,0 +1,69 @@
+{
+  "entity": "norilsk-nickel",
+  "name": "Norilsk Nickel",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Norilsk Nickel is a Russian metals producer. In November 1995 a 38 percent stake was auctioned under the loans-for-shares programme in an auction run by Oneximbank; the winning bid, by Vladimir Potanin's Interros group, was about $170.1 million, and the government's loan was never repaid, so Oneximbank kept the collateral shares. Analysts criticised the sale as an insider deal.",
+    "sources": [
+      {
+        "url": "https://jamestown.org/?p=57533",
+        "publisher": "Jamestown Foundation",
+        "title": "Monitor item on loans-for-shares results"
+      },
+      {
+        "url": "https://www.nber.org/system/files/working_papers/w15819/w15819.pdf",
+        "publisher": "National Bureau of Economic Research",
+        "title": "Daniel Treisman, 'Loans for Shares' Revisited (NBER Working Paper 15819)",
+        "date": "2010"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Analysts criticised the sale of 38 percent of Norilsk Nickel in the 1995 loans-for-shares auction as an insider deal fixed in favour of Oneximbank.",
+      "status": "reported",
+      "date": "1995-11",
+      "quote": "Analysts later criticized the sale of 38 percent of Norilsk Nickel as an insider deal fixed in favor of Oneximbank.",
+      "sources": [
+        {
+          "url": "https://jamestown.org/?p=57533",
+          "publisher": "Jamestown Foundation",
+          "title": "Monitor item on loans-for-shares results"
+        }
+      ]
+    },
+    {
+      "claim": "The government's loans under the scheme were never repaid, so Oneximbank received ownership of the collateral shares in the privatised enterprises.",
+      "status": "reported",
+      "date": "1996",
+      "quote": "The government's loans were never repaid, so Onexim received ownership of the collateral, which was the shares in the privatized enterprises.",
+      "sources": [
+        {
+          "url": "https://jamestown.org/?p=57533",
+          "publisher": "Jamestown Foundation",
+          "title": "Monitor item on loans-for-shares results"
+        }
+      ]
+    },
+    {
+      "claim": "Treisman's NBER paper argues the scheme's execution appeared corrupt but that pricing was in most cases in line with international practice.",
+      "status": "peer",
+      "date": "2010",
+      "quote": "the pricing in most cases was in line with international practice",
+      "sources": [
+        {
+          "url": "https://www.nber.org/system/files/working_papers/w15819/w15819.pdf",
+          "publisher": "National Bureau of Economic Research",
+          "title": "Daniel Treisman, 'Loans for Shares' Revisited (NBER Working Paper 15819)",
+          "date": "2010"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "openQuestions": [
+    "Site claim tested: Norilsk Nickel's acquisition for a low price via loans-for-shares is supported ($170.1 million for 38 percent, per a non-academic profile that also claims a $355 million rival bid was disqualified; not cross-checked). The Yeltsin campaign-funding quid pro quo was not confirmed.",
+    "Extra names wanted but no id exists: Vladimir Potanin, Oneximbank/Interros, Mikhail Prokhorov.",
+    "No source returned ties Anatoly Chubais or Harvard HIID specifically to the Norilsk sale; no connection recorded."
+  ]
+}

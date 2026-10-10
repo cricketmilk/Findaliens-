@@ -1,0 +1,100 @@
+{
+  "entity": "storyfile",
+  "name": "StoryFile",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "StoryFile is a Los Angeles company co-founded by oral historian Stephen Smith, formerly head of the USC Shoah Foundation, whose \"Conversa\" platform records a person answering many questions on video and plays back matching answers to later questions. Initially conceived to preserve Holocaust survivors' testimony, its videos have been used at funerals: in 2022 mourners at the funeral of Smith's mother, Holocaust educator Marina Smith, put questions to a pre-recorded interactive video of her.",
+    "sources": [
+      {
+        "url": "https://dot.la/storyfile-ai-talk-to-dead-people-2657797420.html",
+        "publisher": "dot.LA",
+        "title": "Meet the LA Startup That Lets People Talk to the Dead",
+        "date": "2022"
+      },
+      {
+        "url": "https://www.storyfile.com/news/the-telegraph-grandmother-talks-to-mourners-at-her-own-funeral",
+        "publisher": "StoryFile (reposting The Telegraph)",
+        "title": "Grandmother talks to mourners at her own funeral",
+        "date": "2022-08"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "StoryFile was co-founded by oral historian Stephen Smith, who previously ran the Shoah Foundation and specialises in preserving Holocaust survivors' memories; the company's videos, initially conceived for survivors and historical figures, have appeared at funerals.",
+      "status": "reported",
+      "date": "2022",
+      "quote": "The company was co-founded by oral historian Stephen Smith, who used to run Steven Spielberg's Shoah Foundation and specializes in preserving the memories of Holocaust survivors.",
+      "sources": [
+        {
+          "url": "https://dot.la/storyfile-ai-talk-to-dead-people-2657797420.html",
+          "publisher": "dot.LA",
+          "title": "Meet the LA Startup That Lets People Talk to the Dead",
+          "date": "2022"
+        }
+      ]
+    },
+    {
+      "claim": "Marina Smith, a Holocaust educator and Stephen Smith's mother, died in June 2022 aged 87; attendees at her funeral watched her answer their questions via a StoryFile video made from an interview recorded before her death and processed with the company's Conversa platform.",
+      "status": "reported",
+      "date": "2022-08",
+      "quote": "She had taken part in an extensive interview with StoryFile before her death, and her responses were processed using the company's Conversa AI platform so she could \"answer\" questions from attendees.",
+      "sources": [
+        {
+          "url": "https://www.storyfile.com/news/the-telegraph-grandmother-talks-to-mourners-at-her-own-funeral",
+          "publisher": "StoryFile (reposting The Telegraph)",
+          "title": "Grandmother talks to mourners at her own funeral",
+          "date": "2022-08"
+        },
+        {
+          "url": "https://dot.la/storyfile-ai-talk-to-dead-people-2657797420.html",
+          "publisher": "dot.LA",
+          "title": "Meet the LA Startup That Lets People Talk to the Dead",
+          "date": "2022"
+        }
+      ]
+    },
+    {
+      "claim": "Reports of the funeral video state the interview used 20 cameras and recorded her answering around 250 questions.",
+      "status": "reported",
+      "date": "2022",
+      "sources": [
+        {
+          "url": "https://www.storyfile.com/news/the-telegraph-grandmother-talks-to-mourners-at-her-own-funeral",
+          "publisher": "StoryFile (reposting The Telegraph)",
+          "title": "Grandmother talks to mourners at her own funeral",
+          "date": "2022-08"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "digital-afterlife-industry",
+      "toName": "Digital afterlife industry",
+      "toType": "concept",
+      "relation": "other",
+      "claim": "StoryFile is cited in coverage as an example of commercial services that let people interact with recordings of the deceased.",
+      "status": "reported",
+      "date": "2022",
+      "sources": [
+        {
+          "url": "https://dot.la/storyfile-ai-talk-to-dead-people-2657797420.html",
+          "publisher": "dot.LA",
+          "title": "Meet the LA Startup That Lets People Talk to the Dead",
+          "date": "2022"
+        },
+        {
+          "url": "https://www.axios.com/2022/07/13/artificial-intelligence-chatbots-dead-relatives-grandma",
+          "publisher": "Axios",
+          "title": "New AI tools let you chat with your dead relatives",
+          "date": "2022-07-13"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Whether StoryFile filed for Chapter 11 bankruptcy (reported elsewhere for 2024) could not be sourced in this research; the owner should check court records.",
+    "Corporate ownership and funding (CB Insights lists a profile) were not verified."
+  ]
+}

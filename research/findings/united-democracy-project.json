@@ -1,0 +1,85 @@
+{
+  "entity": "united-democracy-project",
+  "name": "United Democracy Project",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "United Democracy Project (UDP) is the super PAC affiliated with the American Israel Public Affairs Committee (AIPAC), registered with the Federal Election Commission as committee C00799031. In the 2024 cycle it reported roughly $37.9 million in independent expenditures supporting or opposing House candidates, out of almost $61 million in total disbursements, according to analyses of FEC data. Its largest interventions were in Democratic primaries: about $9.9 million opposing Rep. Jamaal Bowman and $4.8 million supporting George Latimer in New York's 16th District, and more than $5.2 million against Rep. Cori Bush plus $3.3 million backing Wesley Bell in Missouri's 1st District.",
+    "sources": [
+      { "url": "https://projects.propublica.org/itemizer/committee/C00799031/2024/independent-expenditures", "publisher": "ProPublica (FEC Itemizer)", "title": "United Democracy Project (UDP) Independent Expenditures - 2024 cycle" },
+      { "url": "https://readsludge.com/2025/01/24/here-is-all-the-money-aipac-spent-on-the-2024-elections/", "publisher": "Sludge", "title": "Here Is All the Money AIPAC Spent on the 2024 Elections", "date": "2025-01-24" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Sludge's analysis of FEC data found that United Democracy Project made almost $61 million in disbursements in the 2023-2024 cycle, of which around $37.9 million was independent expenditures supporting or opposing candidates for the U.S. House; combined, AIPAC's PAC and UDP spent nearly $126.9 million during the cycle.",
+      "status": "documented",
+      "date": "2025-01-24",
+      "quote": "UDP made almost $61 million in disbursements last election cycle, of which around $37.9 million was independent expenditures supporting or opposing candidates for U.S. House",
+      "sources": [
+        { "url": "https://readsludge.com/2025/01/24/here-is-all-the-money-aipac-spent-on-the-2024-elections/", "publisher": "Sludge", "title": "Here Is All the Money AIPAC Spent on the 2024 Elections", "date": "2025-01-24" },
+        { "url": "https://projects.propublica.org/itemizer/committee/C00799031/2024/independent-expenditures", "publisher": "ProPublica (FEC Itemizer)", "title": "United Democracy Project (UDP) Independent Expenditures - 2024 cycle" }
+      ]
+    },
+    {
+      "claim": "FactCheck.org's review of FEC data found that United Democracy Project spent almost $9.9 million opposing Rep. Jamaal Bowman and nearly $4.8 million supporting George Latimer in the June 2024 Democratic primary in New York's 16th District, which Bowman lost.",
+      "status": "documented",
+      "date": "2024-06",
+      "quote": "United Democracy Project spent almost $9.9 million to oppose Bowman and nearly $4.8 million to support Latimer",
+      "sources": [
+        { "url": "https://www.factcheck.org/2024/09/united-democracy-project-2/", "publisher": "FactCheck.org", "title": "United Democracy Project", "date": "2024-09" }
+      ]
+    },
+    {
+      "claim": "In Missouri's 1st District, UDP spent more than $5.2 million against Rep. Cori Bush and an additional $3.3 million on independent expenditures backing Wesley Bell, who defeated Bush in the August 2024 Democratic primary.",
+      "status": "documented",
+      "date": "2024-08",
+      "quote": "UDP spent more than $5.2 million against Democratic Rep. Cori Bush, and spent an additional $3.3 million on independent expenditures backing Bell's candidacy",
+      "sources": [
+        { "url": "https://www.factcheck.org/2024/09/united-democracy-project-2/", "publisher": "FactCheck.org", "title": "United Democracy Project", "date": "2024-09" },
+        { "url": "https://www.commondreams.org/news/cori-bush-primary", "publisher": "Common Dreams", "title": "Cori Bush primary", "date": "2024-08" }
+      ]
+    },
+    {
+      "claim": "By late August 2024 Sludge reported, citing the FEC, that UDP had spent about $55.4 million in the cycle, more than $35 million of it on independent expenditures, with the rest going to operating costs and transfers to other groups. In May 2024 UDP placed a $1.9 million ad buy against Bowman.",
+      "status": "documented",
+      "date": "2024-08-27",
+      "quote": "UDP has spent about $55.4 million so far this election cycle, according to the FEC",
+      "sources": [
+        { "url": "https://readsludge.com/2024/08/27/aipac-officially-surpasses-100-million-in-spending-on-2024-elections/", "publisher": "Sludge", "title": "AIPAC Officially Surpasses $100 Million in Spending on 2024 Elections", "date": "2024-08-27" },
+        { "url": "https://readsludge.com/2024/05/15/aipac-places-1-9-million-ad-buy-to-oust-bowman", "publisher": "Sludge", "title": "AIPAC Places $1.9 Million Ad Buy to Oust Bowman", "date": "2024-05-15" }
+      ]
+    },
+    {
+      "claim": "Axios reported in June 2024 that some Democrats regarded AIPAC's spending against Bowman as overkill; KQED reported on how AIPAC-linked money appeared in California congressional races in 2024.",
+      "status": "reported",
+      "date": "2024-06-26",
+      "quote": "Democrats groan at AIPAC \"overkill\" against Jamaal Bowman",
+      "sources": [
+        { "url": "https://www.axios.com/2024/06/26/democrats-aipac-jamaal-bowman-george-latimer", "publisher": "Axios", "title": "Democrats groan at AIPAC 'overkill' against Jamaal Bowman", "date": "2024-06-26" },
+        { "url": "https://www.kqed.org/news/12016915/aipac-spent-big-in-the-2024-election-how-did-the-money-show-up-in-californias-congressional-races", "publisher": "KQED", "title": "AIPAC spent big in the 2024 election. How did the money show up in California's congressional races?", "date": "2024" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "aipac",
+      "toName": "AIPAC",
+      "toType": "trade group",
+      "relation": "other",
+      "claim": "United Democracy Project is AIPAC's affiliated super PAC; analyses of FEC filings treat UDP's independent expenditures and AIPAC PAC's contributions as the two arms of AIPAC's 2024 election spending.",
+      "status": "documented",
+      "date": "2024",
+      "quote": "AIPAC's PAC and UDP spent nearly $126.9 million combined during the 2023-2024 election cycle, according to the FEC",
+      "sources": [
+        { "url": "https://readsludge.com/2025/01/24/here-is-all-the-money-aipac-spent-on-the-2024-elections/", "publisher": "Sludge", "title": "Here Is All the Money AIPAC Spent on the 2024 Elections", "date": "2025-01-24" },
+        { "url": "https://www.factcheck.org/2024/09/united-democracy-project-2/", "publisher": "FactCheck.org", "title": "United Democracy Project", "date": "2024-09" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "OpenSecrets blocks the crawler; the roughly $37.86 million outside-spending figure attributed to OpenSecrets ($14.07 million supporting and $20.79 million opposing Democrats) was seen only through a third-party summary and should be confirmed on OpenSecrets or fec.gov.",
+    "The FEC committee page for C00799031 was not opened directly; the ProPublica FEC Itemizer page is the closest primary-data source cited.",
+    "UDP's donors (reported to include Republican donors) and its January 3, 2022 registration date, recorded in the aipac file, were not re-verified here.",
+    "The exact source of the Cori Bush figures should be checked; they are reported consistently across the FactCheck.org and Common Dreams pages cited."
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "entity": "alexander-acosta",
+  "name": "Alexander Acosta",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "R. Alexander Acosta was the U.S. Attorney for the Southern District of Florida when his office resolved the federal investigation of Jeffrey Epstein through a 2007–2008 non-prosecution agreement, and later served as U.S. Secretary of Labor. In November 2020 the Justice Department's Office of Professional Responsibility (OPR) published its review of that decision, finding that Acosta exercised poor judgment but did not commit professional misconduct.",
+    "sources": [
+      { "url": "https://www.justice.gov/opr/page/file/1336471/dl", "publisher": "U.S. Department of Justice, Office of Professional Responsibility", "title": "Executive Summary: Investigation into the U.S. Attorney's Office for the Southern District of Florida's Resolution of its 2006–2008 Federal Criminal Investigation of Jeffrey Epstein", "date": "2020-11" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "OPR concluded that Acosta exercised poor judgment in resolving the federal Epstein investigation through a non-prosecution agreement, but did not find that he engaged in professional misconduct.",
+      "status": "court",
+      "date": "2020-11",
+      "quote": "OPR does not find that Acosta engaged in professional misconduct by resolving the federal investigation of Epstein in the way he did",
+      "sources": [
+        { "url": "https://www.justice.gov/opr/page/file/1336471/dl", "publisher": "U.S. Department of Justice, Office of Professional Responsibility", "title": "Executive Summary of OPR's Epstein investigation report", "date": "2020-11" }
+      ]
+    },
+    {
+      "claim": "OPR described the non-prosecution agreement as a flawed mechanism for satisfying the federal interest that led the government to open its investigation, while finding the decision was within Acosta's broad discretion and not driven by improper factors.",
+      "status": "court",
+      "date": "2020-11",
+      "quote": "a flawed mechanism for satisfying the federal interest that caused the government to open its investigation of Epstein",
+      "sources": [
+        { "url": "https://www.justice.gov/opr/page/file/1336471/dl", "publisher": "U.S. Department of Justice, Office of Professional Responsibility", "title": "Executive Summary of OPR's Epstein investigation report", "date": "2020-11" }
+      ]
+    },
+    {
+      "claim": "OPR also found that Acosta exercised poor judgment by not making certain that the State of Florida intended to and would notify identified victims of the state plea hearing.",
+      "status": "court",
+      "date": "2020-11",
+      "quote": "he failed to make certain that the state of Florida intended to and would notify victims",
+      "sources": [
+        { "url": "https://www.justice.gov/opr/page/file/1336471/dl", "publisher": "U.S. Department of Justice, Office of Professional Responsibility", "title": "Executive Summary of OPR's Epstein investigation report", "date": "2020-11" }
+      ]
+    },
+    {
+      "claim": "OPR concluded that the victims were not treated with the forthrightness and sensitivity expected of the Department, while finding no professional misconduct in prosecutors' dealings with victims.",
+      "status": "court",
+      "date": "2020-11",
+      "quote": "OPR concluded that the victims were not treated with the forthrightness and sensitivity expected by the Department.",
+      "sources": [
+        { "url": "https://www.justice.gov/opr/page/file/1336471/dl", "publisher": "U.S. Department of Justice, Office of Professional Responsibility", "title": "Executive Summary of OPR's Epstein investigation report", "date": "2020-11" }
+      ]
+    },
+    {
+      "claim": "OPR did not find that a 2007 breakfast meeting between Acosta and one of Epstein's attorneys led to the non-prosecution agreement or to any other significant decision that benefited Epstein.",
+      "status": "court",
+      "date": "2020-11",
+      "quote": "or to any other significant decision that benefited Epstein.",
+      "sources": [
+        { "url": "https://www.justice.gov/opr/page/file/1336471/dl", "publisher": "U.S. Department of Justice, Office of Professional Responsibility", "title": "Executive Summary of OPR's Epstein investigation report", "date": "2020-11" }
+      ]
+    },
+    {
+      "claim": "After the OPR report was released, Acosta said it 'fully debunks' allegations that he had cut a sweetheart deal for Epstein; lawyers for Epstein's victims criticized the finding.",
+      "status": "reported",
+      "date": "2020-11-12",
+      "quote": "The finding by Justice Department's internal disciplinary unit was criticized by lawyers for Epstein's victims.",
+      "sources": [
+        { "url": "https://www.uppermichiganssource.com/2020/11/12/justice-dept-poor-judgment-used-in-jeffrey-epstein-plea-deal", "publisher": "Associated Press (via Upper Michigan's Source)", "title": "Justice Dept.: 'Poor judgment' used in Epstein plea deal", "date": "2020-11-12" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "jeffrey-epstein",
+      "toName": "Jeffrey Epstein",
+      "toType": "person",
+      "relation": "other",
+      "claim": "As U.S. Attorney for the Southern District of Florida, Acosta resolved the federal criminal investigation of Jeffrey Epstein through a non-prosecution agreement, a decision OPR later found reflected poor judgment but not misconduct.",
+      "status": "court",
+      "date": "2020-11",
+      "sources": [
+        { "url": "https://www.justice.gov/opr/page/file/1336471/dl", "publisher": "U.S. Department of Justice, Office of Professional Responsibility", "title": "Executive Summary of OPR's Epstein investigation report", "date": "2020-11" }
+      ]
+    },
+    {
+      "to": "us-department-of-justice",
+      "toName": "US Department of Justice",
+      "toType": "government",
+      "relation": "employed by",
+      "claim": "Acosta led the U.S. Attorney's Office for the Southern District of Florida, a Justice Department office, during the 2006–2008 Epstein investigation that OPR reviewed.",
+      "status": "documented",
+      "date": "2007",
+      "sources": [
+        { "url": "https://www.justice.gov/opr/page/file/1336471/dl", "publisher": "U.S. Department of Justice, Office of Professional Responsibility", "title": "Executive Summary of OPR's Epstein investigation report", "date": "2020-11" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site says Acosta 'granted total immunity in 2008 stating Epstein \"belonged to intelligence\"'. The OPR executive summary records a non-prosecution agreement and a poor-judgment finding; it does not record any statement about intelligence. The 'belonged to intelligence' remark is attributed in press accounts to an unnamed source describing Acosta's 2017 transition interview and is not in the OPR record. The site claim is unsupported by the documents found.",
+    "The full OPR report (roughly 350 pages) was not reviewed; only the executive summary on justice.gov."
+  ]
+}

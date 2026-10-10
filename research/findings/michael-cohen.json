@@ -1,0 +1,111 @@
+{
+  "entity": "michael-cohen",
+  "name": "Michael Cohen",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Michael Cohen was a Trump Organization executive and Donald Trump's personal attorney. On August 21, 2018 he pleaded guilty in the Southern District of New York to an eight-count information charging tax evasion, false statements to a bank and campaign finance violations arising from payments to two women during the 2016 campaign. On November 29, 2018 he pleaded guilty before the Special Counsel to making false statements to Congress about the Trump Tower Moscow project, which the Mueller report records he had discussed with the Kremlin press office in January 2016. He was sentenced on December 12, 2018 to three years in prison. In 2024 he was the prosecution's central witness at Trump's New York trial, which ended in conviction on 34 counts of falsifying business records. The Felix Sater file on this site holds the Moscow project record; this file holds Cohen's pleas and sentence.",
+    "sources": [
+      { "url": "https://www.justice.gov/usao-sdny/pr/michael-cohen-sentenced-3-years-prison", "publisher": "U.S. Attorney's Office, Southern District of New York", "title": "Michael Cohen Sentenced To 3 Years In Prison", "date": "2018-12-12" },
+      { "url": "https://www.justice.gov/archives/sco/file/1373816/dl", "publisher": "U.S. Department of Justice, Special Counsel's Office", "title": "Report on the Investigation into Russian Interference in the 2016 Presidential Election, vol. I", "date": "2019-03" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On August 21, 2018 Cohen pleaded guilty before Judge William H. Pauley III to an eight-count information charging tax evasion, making false statements to a federally insured bank and campaign finance violations; the campaign finance counts concerned payments made or arranged to Stormy Daniels and Karen McDougal during the 2016 campaign.",
+      "status": "court",
+      "date": "2018-08-21",
+      "quote": "He entered his plea on August 21, 2018, to an eight-count information before Judge William H. Pauley III",
+      "sources": [
+        { "url": "https://www.justice.gov/usao-sdny/pr/michael-cohen-sentenced-3-years-prison", "publisher": "U.S. Attorney's Office, Southern District of New York", "title": "Michael Cohen Sentenced To 3 Years In Prison", "date": "2018-12-12" },
+        { "url": "https://www.pbs.org/newshour/politics/how-michael-cohen-broke-campaign-finance-law", "publisher": "PBS NewsHour", "title": "How Michael Cohen broke campaign finance law", "date": "2018-08" }
+      ]
+    },
+    {
+      "claim": "On November 29, 2018 Cohen pleaded guilty in Manhattan federal court to one count of making false statements to Congress, admitting that his August 2017 letter to the House and Senate intelligence committees falsely said the Trump Tower Moscow project ended in January 2016 and was not discussed extensively within the company, when discussions continued into June 2016; the information said the lies were meant to minimize links between the project and Individual 1.",
+      "status": "court",
+      "date": "2018-11-29",
+      "quote": "The Moscow Project ended in January 2016 and was not discussed extensively with others in the Company.",
+      "sources": [
+        { "url": "https://www.nbcnews.com/politics/politics-news/former-trump-attorney-michael-cohen-pleads-guilty-lying-congress-n941616", "publisher": "NBC News", "title": "Former Trump attorney Michael Cohen pleads guilty to lying to Congress", "date": "2018-11-29" },
+        { "url": "https://justice.gov/archives/sco/file/1115596/dl?inline=", "publisher": "U.S. Department of Justice, Special Counsel's Office", "title": "United States v. Michael Cohen, criminal information", "date": "2018-11-29" }
+      ]
+    },
+    {
+      "claim": "On December 12, 2018 Judge Pauley sentenced Cohen to three years in prison: 36 months on the Southern District case and two months on the Special Counsel's case, served concurrently, with restitution of $1.4 million, forfeiture of $500,000 and a fine.",
+      "status": "court",
+      "date": "2018-12-12",
+      "quote": "Michael Cohen Sentenced To 3 Years In Prison",
+      "sources": [
+        { "url": "https://www.justice.gov/usao-sdny/pr/michael-cohen-sentenced-3-years-prison", "publisher": "U.S. Attorney's Office, Southern District of New York", "title": "Michael Cohen Sentenced To 3 Years In Prison", "date": "2018-12-12" },
+        { "url": "https://www.npr.org/2018/12/12/676040070/michael-cohen-sentenced-to-3-years-in-prison-following-plea-that-implicated-trum", "publisher": "NPR", "title": "Michael Cohen Sentenced To 3 Years In Prison Following Plea That Implicated Trump", "date": "2018-12-12" }
+      ]
+    },
+    {
+      "claim": "The Mueller report (volume I) records that candidate Trump signed a letter of intent for Trump Tower Moscow by November 2015 and that in January 2016 Trump Organization executive Michael Cohen emailed and spoke about the project with the office of Russian government press secretary Dmitry Peskov.",
+      "status": "court",
+      "date": "2016-01",
+      "quote": "in January 2016 Trump Organization executive Michael Cohen emailed and spoke about the project with the office of Russian government press secretary Dmitry Peskov",
+      "sources": [
+        { "url": "https://www.justice.gov/archives/sco/file/1373816/dl", "publisher": "U.S. Department of Justice, Special Counsel's Office", "title": "Report on the Investigation into Russian Interference in the 2016 Presidential Election, vol. I", "date": "2019-03" }
+      ]
+    },
+    {
+      "claim": "In May 2024 Cohen testified for several days as the prosecution's central witness at Donald Trump's New York criminal trial, describing the Stormy Daniels payment he made and said Trump directed and later reimbursed; the defense attacked his credibility over his 2017 false statement to Congress. The jury found Trump guilty on all 34 counts of falsifying business records.",
+      "status": "court",
+      "date": "2024-05",
+      "quote": "Trump was found guilty on all 34 counts of falsifying business records.",
+      "sources": [
+        { "url": "https://sourcenm.com/2024/05/21/prosecution-rests-in-trump-hush-money-trial-after-former-fixer-cohen-is-grilled/", "publisher": "Source NM (States Newsroom)", "title": "Prosecution rests in Trump hush money trial, after former fixer Cohen is grilled", "date": "2024-05-21" },
+        { "url": "https://nbcnewyork.com/news/local/michael-cohen-donald-trump-trial-witness-speaks-msnbc/5462936", "publisher": "NBC New York", "title": "Michael Cohen speaks after Trump verdict", "date": "2024-05-30" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "trump-organization",
+      "toName": "Trump Organization",
+      "toType": "company",
+      "relation": "executive of",
+      "claim": "The Mueller report describes Cohen as a Trump Organization executive who in January 2016 corresponded with the Kremlin press office about the Trump Tower Moscow project.",
+      "status": "court",
+      "date": "2016-01",
+      "quote": "Trump Organization executive Michael Cohen",
+      "sources": [
+        { "url": "https://www.justice.gov/archives/sco/file/1373816/dl", "publisher": "U.S. Department of Justice, Special Counsel's Office", "title": "Report on the Investigation into Russian Interference in the 2016 Presidential Election, vol. I", "date": "2019-03" }
+      ]
+    },
+    {
+      "to": "donald-trump",
+      "toName": "Donald Trump",
+      "toType": "person",
+      "relation": "advised",
+      "claim": "Cohen was Trump's personal attorney; he pleaded guilty in 2018 to campaign finance violations over payments made during Trump's 2016 campaign and in 2024 testified against Trump at the New York trial that ended in Trump's conviction on 34 counts.",
+      "status": "court",
+      "date": "2018-08-21",
+      "quote": "Cohen pleaded guilty in a Manhattan US attorney's case to two campaign-finance violations tied to payments he made or orchestrated to women during the campaign",
+      "sources": [
+        { "url": "https://www.justice.gov/usao-sdny/pr/michael-cohen-sentenced-3-years-prison", "publisher": "U.S. Attorney's Office, Southern District of New York", "title": "Michael Cohen Sentenced To 3 Years In Prison", "date": "2018-12-12" },
+        { "url": "https://edition.cnn.com/2018/12/12/politics/michael-cohen-sentencing", "publisher": "CNN", "title": "Michael Cohen sentenced to three years in prison", "date": "2018-12-12" }
+      ]
+    },
+    {
+      "to": "felix-sater",
+      "toName": "Felix Sater",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Sater sent Cohen the Trump Tower Moscow letter of intent in October 2015 and corresponded with him about the project through 2016, as reported from the emails and recorded in the Senate Intelligence Committee's volume 5.",
+      "status": "reported",
+      "date": "2015-10",
+      "quote": "Sater sent Cohen a 17-page letter of intent on October 13, 2015",
+      "reverse": true,
+      "sources": [
+        { "url": "https://www.buzzfeednews.com/article/anthonycormier/trump-moscow-micheal-cohen-felix-sater-campaign", "publisher": "BuzzFeed News", "title": "Trump Moscow: the inside story", "date": "2018" },
+        { "url": "https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf", "publisher": "U.S. Senate Select Committee on Intelligence", "title": "Report on Russian Active Measures, volume 5", "date": "2020-08-18" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The Sater connection and its sources are carried over from felix-sater.json; the BuzzFeed and Senate URLs were not re-opened in this session.",
+    "Exact fine amount at sentencing differs across outlets ($50,000 reported by some); check the judgment."
+  ]
+}

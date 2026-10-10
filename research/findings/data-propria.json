@@ -1,0 +1,115 @@
+{
+  "entity": "data-propria",
+  "name": "Data Propria",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Data Propria is a voter and consumer targeting firm whose publicly traded parent, Cloud Commerce, was part-owned by Brad Parscale. The Associated Press reported in June 2018 that it was led by former Cambridge Analytica head of product Matt Oczkowski and that at least four former Cambridge Analytica employees were affiliated with it; Oczkowski denied a link to the Trump campaign but acknowledged a 2018 contract with the Republican National Committee.",
+    "sources": [
+      {
+        "url": "https://globalnews.ca/news/4278044/trump-2020-cambridge-analytica-data-propria/",
+        "publisher": "Global News (Associated Press)",
+        "title": "Trump 2020 working with ex-Cambridge Analytica staffers",
+        "date": "2018-06-15"
+      },
+      {
+        "url": "https://www.fox4news.com/news/ap-trump-2020-working-with-ex-cambridge-analytica-staffers",
+        "publisher": "FOX 4 (Associated Press)",
+        "title": "AP: Trump 2020 working with ex-Cambridge Analytica staffers",
+        "date": "2018-06-15"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The Associated Press reported on June 15, 2018 that at least four former Cambridge Analytica employees were affiliated with Data Propria, which was led by Matt Oczkowski, Cambridge Analytica's former head of product, who had led the Cambridge Analytica data team that worked on Trump's 2016 campaign.",
+      "status": "reported",
+      "date": "2018-06-15",
+      "quote": "At least four former Cambridge Analytica employees are affiliated with Data Propria",
+      "sources": [
+        {
+          "url": "https://globalnews.ca/news/4278044/trump-2020-cambridge-analytica-data-propria/",
+          "publisher": "Global News (Associated Press)",
+          "title": "Trump 2020 working with ex-Cambridge Analytica staffers",
+          "date": "2018-06-15"
+        },
+        {
+          "url": "https://www.fox4news.com/news/ap-trump-2020-working-with-ex-cambridge-analytica-staffers",
+          "publisher": "FOX 4 (Associated Press)",
+          "title": "AP: Trump 2020 working with ex-Cambridge Analytica staffers",
+          "date": "2018-06-15"
+        }
+      ]
+    },
+    {
+      "claim": "Oczkowski denied a link to the Trump campaign but acknowledged that the firm had agreed to do 2018 midterm work for the Republican National Committee; both he and Parscale said no Trump re-election work had been planned. AP reporters said they overheard Oczkowski describing himself and Parscale as working on the president's 2020 effort.",
+      "status": "reported",
+      "date": "2018-06-15",
+      "quote": "Oczkowski denied a link to the Trump campaign, but acknowledged that his new firm has agreed to do 2018 campaign work for the Republican National Committee.",
+      "sources": [
+        {
+          "url": "https://globalnews.ca/news/4278044/trump-2020-cambridge-analytica-data-propria/",
+          "publisher": "Global News (Associated Press)",
+          "title": "Trump 2020 working with ex-Cambridge Analytica staffers",
+          "date": "2018-06-15"
+        }
+      ]
+    },
+    {
+      "claim": "Data Propria's parent, Cloud Commerce, is publicly traded and was part-owned by Brad Parscale; Cloud Commerce bought Parscale's digital marketing business in August 2017.",
+      "status": "reported",
+      "date": "2018-06-15",
+      "quote": "Parscale is a part owner of Cloud Commerce, Data Propria's publicly traded parent company",
+      "sources": [
+        {
+          "url": "https://globalnews.ca/news/4278044/trump-2020-cambridge-analytica-data-propria/",
+          "publisher": "Global News (Associated Press)",
+          "title": "Trump 2020 working with ex-Cambridge Analytica staffers",
+          "date": "2018-06-15"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "cambridge-analytica",
+      "toName": "Cambridge Analytica",
+      "toType": "company",
+      "relation": "other",
+      "claim": "At least four former Cambridge Analytica employees, including its former head of product who led the firm, were affiliated with Data Propria, the AP reported.",
+      "status": "reported",
+      "date": "2018-06-15",
+      "quote": "At least four former Cambridge Analytica employees are affiliated with Data Propria",
+      "sources": [
+        {
+          "url": "https://globalnews.ca/news/4278044/trump-2020-cambridge-analytica-data-propria/",
+          "publisher": "Global News (Associated Press)",
+          "title": "Trump 2020 working with ex-Cambridge Analytica staffers",
+          "date": "2018-06-15"
+        }
+      ]
+    },
+    {
+      "to": "brad-parscale",
+      "toName": "Brad Parscale",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Brad Parscale was a part owner of Data Propria's parent company Cloud Commerce, per the AP.",
+      "status": "reported",
+      "date": "2018-06-15",
+      "quote": "Parscale is a part owner of Cloud Commerce, Data Propria's publicly traded parent company",
+      "sources": [
+        {
+          "url": "https://globalnews.ca/news/4278044/trump-2020-cambridge-analytica-data-propria/",
+          "publisher": "Global News (Associated Press)",
+          "title": "Trump 2020 working with ex-Cambridge Analytica staffers",
+          "date": "2018-06-15"
+        }
+      ],
+      "reverse": true
+    }
+  ],
+  "openQuestions": [
+    "Whether Data Propria ultimately worked on the Trump 2020 campaign was not confirmed; the AP's June 2018 report predates the campaign's vendor filings.",
+    "Extra names wanted as connections but absent from the entity index: Matt Oczkowski, Cloud Commerce, Republican National Committee."
+  ]
+}

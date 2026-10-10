@@ -1,0 +1,116 @@
+{
+  "entity": "lee-raymond",
+  "name": "Lee Raymond",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Lee Raymond was chairman and chief executive of Exxon Corporation and, after the 1999 merger, of ExxonMobil until 2005. On October 13, 1997, two months before the Kyoto climate conference, he told the World Petroleum Congress in Beijing that the case for global warming was 'far from air tight', questioned whether the Earth was warming and whether fossil fuels were the cause, and called for an open debate on the science before policy choices were made.",
+    "sources": [
+      {
+        "url": "https://www.climatefiles.com/exxonmobil/1997-exxon-lee-raymond-speech-at-world-petroleum-congress/",
+        "publisher": "Climate Files",
+        "title": "1997 Exxon's Lee Raymond Speech at World Petroleum Congress",
+        "date": "1997-10-13"
+      },
+      {
+        "url": "https://www.desmog.com/lee-raymond",
+        "publisher": "DeSmog",
+        "title": "Lee R. Raymond"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On October 13, 1997 Raymond addressed the World Petroleum Congress in Beijing, two months before the third Conference of the Parties in Kyoto.",
+      "status": "documented",
+      "date": "1997-10-13",
+      "quote": "Lee Raymond was speaking two months in advance of the Third Session of the Conference of the Parties (COP 3), in Kyoto, Japan.",
+      "sources": [
+        {
+          "url": "https://www.climatefiles.com/exxonmobil/1997-exxon-lee-raymond-speech-at-world-petroleum-congress/",
+          "publisher": "Climate Files",
+          "title": "1997 Exxon's Lee Raymond Speech at World Petroleum Congress",
+          "date": "1997-10-13"
+        }
+      ]
+    },
+    {
+      "claim": "Raymond said the case for 'so called global warming' was 'far from air tight' and that an open debate on the science was needed before choices about global climate policies.",
+      "status": "words",
+      "date": "1997-10-13",
+      "quote": "So the case for so called global warming is far from air tight… Let's agree there's a lot we really don't know about how climate will change in the 21st century and beyond… Before we make choices about global climate policies, we need an open debate on the science…",
+      "sources": [
+        {
+          "url": "https://www.climatefiles.com/exxonmobil/1997-exxon-lee-raymond-speech-at-world-petroleum-congress/",
+          "publisher": "Climate Files",
+          "title": "1997 Exxon's Lee Raymond Speech at World Petroleum Congress",
+          "date": "1997-10-13"
+        }
+      ]
+    },
+    {
+      "claim": "The speech was framed around three questions: whether the Earth is warming, whether burning fossil fuels causes it, and whether there is a reasonable scientific basis for predicting future temperature.",
+      "status": "words",
+      "date": "1997-10-13",
+      "quote": "Is the Earth really warming? Does burning fossil fuels cause global warming? And do we now have a reasonable scientific basis for predicting future temperature?",
+      "sources": [
+        {
+          "url": "https://www.climatefiles.com/exxonmobil/1997-exxon-lee-raymond-speech-at-world-petroleum-congress/",
+          "publisher": "Climate Files",
+          "title": "1997 Exxon's Lee Raymond Speech at World Petroleum Congress",
+          "date": "1997-10-13"
+        }
+      ]
+    },
+    {
+      "claim": "DeSmog quotes Raymond as saying 'First, the world isn't warming. Second, even if it were, oil and gas wouldn't be the cause.'",
+      "status": "words",
+      "date": "1997",
+      "quote": "First, the world isn't warming. Second, even if it were, oil and gas wouldn't be the cause.",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/lee-raymond",
+          "publisher": "DeSmog",
+          "title": "Lee R. Raymond"
+        }
+      ]
+    },
+    {
+      "claim": "The Ecologist characterised the Beijing speech as timed to undermine the Clinton administration's negotiating position at Kyoto.",
+      "status": "reported",
+      "date": "2018-10-01",
+      "quote": "The Beijing speech was perfectly timed to undermine the Clinton administration and its negotiating position at Kyoto.",
+      "sources": [
+        {
+          "url": "https://theecologist.org/2018/oct/01/exxon-man-who-declared-war-climate-science",
+          "publisher": "The Ecologist",
+          "title": "The Exxon man who declared war on climate science",
+          "date": "2018-10-01"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "exxonmobil",
+      "toName": "ExxonMobil",
+      "toType": "company",
+      "relation": "executive of",
+      "claim": "Raymond was chairman and CEO of Exxon when he gave the 1997 Beijing speech.",
+      "status": "documented",
+      "date": "1997-10-13",
+      "quote": "Exxon Corporation's Lee Raymond, chairman and CEO, spoke at the World Petroleum Congress in Beijing, China.",
+      "sources": [
+        {
+          "url": "https://www.climatefiles.com/exxonmobil/1997-exxon-lee-raymond-speech-at-world-petroleum-congress/",
+          "publisher": "Climate Files",
+          "title": "1997 Exxon's Lee Raymond Speech at World Petroleum Congress",
+          "date": "1997-10-13"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (documented; 'far from air tight', questions warming, developing countries should not be held back): the first two are supported by the Climate Files transcript excerpts; the developing-countries passage was not in the source passages used and should be checked against the full transcript.",
+    "Raymond's exact tenure dates were not sourced in this file."
+  ]
+}

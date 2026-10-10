@@ -1,0 +1,87 @@
+{
+  "entity": "jean-claude-trichet",
+  "name": "Jean-Claude Trichet",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Jean-Claude Trichet was President of the European Central Bank from 2003 to 2011. Press reports in 2011 described him opposing a restructuring of Greek debt, arguing it could trigger a confidence crisis across the eurozone, and stating in June 2011 that the ECB was not in favour of restructuring and would reject private-sector involvement that was not voluntary.",
+    "sources": [
+      {
+        "url": "https://investinglive.com/news/!/update-trichet-reject-greek-credit-event-selective-default-20110609/",
+        "publisher": "MNI (via investinglive)",
+        "title": "Update: Trichet: Reject Greek Credit Event, Selective Default",
+        "date": "2011-06-09"
+      },
+      {
+        "url": "https://investinglive.com/news/!/several-emu-fin-mins-favor-greek-debt-restructuring-press-20110410/",
+        "publisher": "MNI (via investinglive), citing Der Spiegel",
+        "title": "Several EMU Fin Mins Favor Greek Debt Restructuring: Press",
+        "date": "2011-04-10"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Der Spiegel, as relayed by MNI in April 2011, reported that Trichet fiercely opposed a Greek restructuring in a finance ministers' telephone conference, arguing it could prompt a confidence crisis for the whole eurozone.",
+      "status": "reported",
+      "date": "2011-04-10",
+      "quote": "ECB president Jean-Claude Trichet, who also took part in the telephone conference, fiercely opposed a restructuring, arguing that it could prompt a confidence crisis for the whole Eurozone",
+      "sources": [
+        {
+          "url": "https://investinglive.com/news/!/several-emu-fin-mins-favor-greek-debt-restructuring-press-20110410/",
+          "publisher": "MNI (via investinglive), citing Der Spiegel",
+          "title": "Several EMU Fin Mins Favor Greek Debt Restructuring: Press",
+          "date": "2011-04-10"
+        }
+      ]
+    },
+    {
+      "claim": "In June 2011 Trichet said the ECB was 'not in favour of restructuring' and would reject private-sector involvement that was not voluntary.",
+      "status": "words",
+      "date": "2011-06-09",
+      "quote": "not in favour of restructuring",
+      "sources": [
+        {
+          "url": "https://investinglive.com/news/!/update-trichet-reject-greek-credit-event-selective-default-20110609/",
+          "publisher": "MNI (via investinglive)",
+          "title": "Update: Trichet: Reject Greek Credit Event, Selective Default",
+          "date": "2011-06-09"
+        }
+      ]
+    },
+    {
+      "claim": "Eichengreen and Wyplosz have argued that Trichet's objection was to Emergency Liquidity Assistance rather than to debt restructuring as such, given the ECB's mandate to lend only against good collateral.",
+      "status": "reported",
+      "date": "2016",
+      "sources": [
+        {
+          "url": "https://equitablegrowth.org/must-read-24/",
+          "publisher": "Washington Center for Equitable Growth",
+          "title": "Must-read: Eichengreen and Wyplosz, 'How the Euro Crisis Was Successfully Resolved'"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "european-central-bank",
+      "toName": "European Central Bank",
+      "toType": "institution",
+      "relation": "executive of",
+      "claim": "Trichet was President of the ECB during the 2010-11 Greek programme.",
+      "status": "reported",
+      "date": "2011",
+      "sources": [
+        {
+          "url": "https://investinglive.com/news/!/update-trichet-reject-greek-credit-event-selective-default-20110609/",
+          "publisher": "MNI (via investinglive)",
+          "title": "Update: Trichet: Reject Greek Credit Event, Selective Default",
+          "date": "2011-06-09"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: 'opposed early private debt restructuring' is supported by 2011 press reports, with a dissenting academic reading (Eichengreen and Wyplosz). Trichet's 2010 position specifically was not documented by sources found; the IMF IEO 2016 report was not reached.",
+    "The id 'european-central-bank' is not in entities.json or the seed."
+  ]
+}

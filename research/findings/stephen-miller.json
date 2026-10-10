@@ -1,0 +1,85 @@
+{
+  "entity": "stephen-miller",
+  "name": "Stephen Miller",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Stephen Miller is White House Deputy Chief of Staff for Policy and Homeland Security Advisor in the second Trump administration, appointed January 20, 2025, after serving as a senior adviser in the first. His OGE Form 278e financial disclosure, signed March 14, 2025 and released by the White House in June 2025, listed between $100,001 and $250,000 of Palantir Technologies stock held in a brokerage account for one of his minor children, which the Project On Government Oversight reported on June 24, 2025 as a potential conflict given Palantir's immigration-enforcement contracts. The White House said he had confirmed to ethics officials that he recuses from matters that could affect the holding. The Palantir file on this site records the POGO report; this file holds the disclosure itself.",
+    "sources": [
+      { "url": "https://www.whitehouse.gov/wp-content/uploads/2025/06/Miller-Stephen.pdf", "publisher": "The White House", "title": "OGE Form 278e: Miller, Stephen", "date": "2025-03-14" },
+      { "url": "https://www.pogo.org/investigates/stephen-miller-conflicts-of-interest", "publisher": "Project On Government Oversight", "title": "Stephen Miller's Financial Stake in ICE Contractor Palantir", "date": "2025-06-24" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Miller's OGE Form 278e lists his title as Deputy Chief of Staff for Policy and Homeland Security Advisor, a date of appointment of January 20, 2025, and was electronically signed on March 14, 2025 after a 30-day filing extension.",
+      "status": "documented",
+      "date": "2025-03-14",
+      "quote": "Deputy Chief of Staff for Policy and Homeland Security Advisor",
+      "sources": [
+        { "url": "https://www.whitehouse.gov/wp-content/uploads/2025/06/Miller-Stephen.pdf", "publisher": "The White House", "title": "OGE Form 278e: Miller, Stephen", "date": "2025-03-14" }
+      ]
+    },
+    {
+      "claim": "POGO reported on June 24, 2025 that Miller's disclosure, approved by a White House ethics official in early June, listed between $100,001 and $250,000 in Palantir Technologies stock held in a brokerage account for one of his minor children, and that his January 2021 disclosure, filed when he left the first Trump administration, listed no Palantir holdings.",
+      "status": "reported",
+      "date": "2025-06-24",
+      "quote": "it listed between $100,001 and $250,000 in Palantir Technologies stock",
+      "sources": [
+        { "url": "https://www.pogo.org/investigates/stephen-miller-conflicts-of-interest", "publisher": "Project On Government Oversight", "title": "Stephen Miller's Financial Stake in ICE Contractor Palantir", "date": "2025-06-24" },
+        { "url": "https://www.whitehouse.gov/wp-content/uploads/2025/06/Miller-Stephen.pdf", "publisher": "The White House", "title": "OGE Form 278e: Miller, Stephen", "date": "2025-03-14" }
+      ]
+    },
+    {
+      "claim": "The Office of Government Ethics treats an asset owned by a spouse or minor child as if the employee owns it for purposes of the conflict-of-interest statute, 18 U.S.C. 208, according to POGO's report; the White House said Miller had confirmed to ethics officials that he has recused and will continue to recuse from official matters that could affect the stock, and a Homeland Security spokesperson called the report very silly.",
+      "status": "reported",
+      "date": "2025-06-24",
+      "quote": "Miller confirmed to ethics officials that he has and will continue to recuse from official matters that could affect those stocks",
+      "sources": [
+        { "url": "https://www.pogo.org/investigates/stephen-miller-conflicts-of-interest", "publisher": "Project On Government Oversight", "title": "Stephen Miller's Financial Stake in ICE Contractor Palantir", "date": "2025-06-24" },
+        { "url": "https://www.rollingstone.com/politics/politics-news/stephen-miller-financial-stake-palantir-ice-contractor-1235371343/", "publisher": "Rolling Stone", "title": "Stephen Miller Has Financial Stake in Company Helping ICE With Deportations: Report", "date": "2025-06" }
+      ]
+    },
+    {
+      "claim": "POGO's analysis found that at least 11 other White House officials and staffers besides Miller reported owning Palantir stock, including Gregory Barbaccia, the administration's Chief Information Officer.",
+      "status": "reported",
+      "date": "2025-06-24",
+      "quote": "Miller and at least 11 other White House officials and staffers own Palantir stock, including Gregory Barbaccia",
+      "sources": [
+        { "url": "https://www.pogo.org/investigates/stephen-miller-conflicts-of-interest", "publisher": "Project On Government Oversight", "title": "Stephen Miller's Financial Stake in ICE Contractor Palantir", "date": "2025-06-24" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "palantir",
+      "toName": "Palantir",
+      "toType": "company",
+      "relation": "invested in",
+      "claim": "Miller's 2025 financial disclosure listed $100,001-$250,000 of Palantir stock held in a brokerage account for one of his minor children; the White House says he recuses from matters that could affect it.",
+      "status": "reported",
+      "date": "2025-06",
+      "quote": "The stake was held in a brokerage account for one of his three young children.",
+      "sources": [
+        { "url": "https://www.pogo.org/investigates/stephen-miller-conflicts-of-interest", "publisher": "Project On Government Oversight", "title": "Stephen Miller's Financial Stake in ICE Contractor Palantir", "date": "2025-06-24" },
+        { "url": "https://www.whitehouse.gov/wp-content/uploads/2025/06/Miller-Stephen.pdf", "publisher": "The White House", "title": "OGE Form 278e: Miller, Stephen", "date": "2025-03-14" }
+      ]
+    },
+    {
+      "to": "donald-trump",
+      "toName": "Donald Trump",
+      "toType": "person",
+      "relation": "employed by",
+      "claim": "Miller was appointed White House Deputy Chief of Staff for Policy and Homeland Security Advisor on January 20, 2025, per his OGE Form 278e.",
+      "status": "documented",
+      "date": "2025-01-20",
+      "quote": "Date of Appointment 01/20/2025",
+      "sources": [
+        { "url": "https://www.whitehouse.gov/wp-content/uploads/2025/06/Miller-Stephen.pdf", "publisher": "The White House", "title": "OGE Form 278e: Miller, Stephen", "date": "2025-03-14" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "A Substack post says the Palantir holding was sold on August 14, 2025; not confirmed from a second source and left out.",
+    "The site's deep-state page says Miller's 'children' held the stock; POGO's report says one child's account."
+  ]
+}

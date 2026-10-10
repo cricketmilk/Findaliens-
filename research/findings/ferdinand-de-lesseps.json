@@ -1,0 +1,190 @@
+{
+  "entity": "ferdinand-de-lesseps",
+  "name": "Ferdinand de Lesseps",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Ferdinand de Lesseps (1805–1894), the French diplomat who promoted the Suez Canal, headed the Compagnie Universelle du Canal Interocéanique de Panama. In financial difficulty by 1888, the company obtained parliamentary approval for a lottery bond issue (Chamber of Deputies, April 1888; Senate, June 1888); it collapsed in early 1889 and went into receivership. In autumn 1892 accusations of parliamentary bribery broke, Baron Jacques de Reinach, the company's financial adviser and agent for the bribes, died, and the Loubet government fell on 28 November 1892. In 1893 Ferdinand and his son Charles de Lesseps were found guilty and sentenced to five years; former minister Charles Baïhaut confessed and was sentenced to five years in March 1893.",
+    "sources": [
+      {
+        "url": "https://www.britannica.com/event/Panama-Scandal",
+        "publisher": "Encyclopaedia Britannica",
+        "title": "Panama Scandal"
+      },
+      {
+        "url": "https://www.britannica.com/topic/French-Panama-Canal-Company",
+        "publisher": "Encyclopaedia Britannica",
+        "title": "French Panama Canal Company"
+      },
+      {
+        "url": "https://pancanal.com/en/the-french-canal-construction/",
+        "publisher": "Autoridad del Canal de Panamá",
+        "title": "The French Canal Construction"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The company's 1888 lottery loan was approved by the Chamber of Deputies in April 1888 and by the Senate in June 1888.",
+      "status": "documented",
+      "date": "1888-06",
+      "quote": "The Chamber of Deputies gave its approval in April 1888, and the Senate followed in June.",
+      "sources": [
+        {
+          "url": "https://www.britannica.com/topic/French-Panama-Canal-Company",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "French Panama Canal Company"
+        },
+        {
+          "url": "https://pancanal.com/en/the-french-canal-construction/",
+          "publisher": "Autoridad del Canal de Panamá",
+          "title": "The French Canal Construction"
+        }
+      ]
+    },
+    {
+      "claim": "Shareholders decided in January 1889 to dissolve the Compagnie Universelle and place it under legal receivership; all activity on the Isthmus had ceased by 15 May 1889, with about 40 percent of the canal work completed.",
+      "status": "documented",
+      "date": "1889-05-15",
+      "quote": "by May 15, 1889, all activity on the Isthmus had ceased",
+      "sources": [
+        {
+          "url": "https://pancanal.com/en/the-french-canal-construction/",
+          "publisher": "Autoridad del Canal de Panamá",
+          "title": "The French Canal Construction"
+        },
+        {
+          "url": "https://www.loc.gov/resource/law.ltf91029421/?st=gallery",
+          "publisher": "Library of Congress",
+          "title": "Canal de Panama, actes de concession"
+        },
+        {
+          "url": "https://www.britannica.com/event/Panama-Scandal",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Panama Scandal"
+        }
+      ]
+    },
+    {
+      "claim": "In autumn 1892 two newspapers accused the government of complicity with the company's directors, and deputy Jules Delahaye charged that 'more than 150' parliamentarians had taken bribes to vote for the 1888 lottery loan; on 28 November 1892 Émile Loubet's government was forced to resign.",
+      "status": "documented",
+      "date": "1892-11-28",
+      "quote": "on November 28, 1892, Émile Loubet's government was forced to resign",
+      "sources": [
+        {
+          "url": "https://www.britannica.com/event/Panama-Scandal",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Panama Scandal"
+        }
+      ]
+    },
+    {
+      "claim": "Baron Jacques de Reinach, the company's financial adviser and agent for the bribes, died in November 1892; Britannica records his death as suicide.",
+      "status": "documented",
+      "date": "1892-11",
+      "quote": "Baron Reinach, the financial adviser of the Canal Company and agent for the various bribes, committed suicide",
+      "sources": [
+        {
+          "url": "https://www.britannica.com/event/Panama-Scandal",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Panama Scandal"
+        }
+      ]
+    },
+    {
+      "claim": "Ferdinand and Charles de Lesseps were prosecuted for fraud and maladministration and in 1893 were found guilty and given five-year prison sentences; Ferdinand's age and ill health excused him from appearing in court.",
+      "status": "court",
+      "date": "1893",
+      "quote": "both were found guilty and given five-year prison sentences",
+      "sources": [
+        {
+          "url": "https://www.britannica.com/event/Panama-Scandal",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Panama Scandal"
+        }
+      ]
+    },
+    {
+      "claim": "Charles Baïhaut, a former minister of public works, confessed to having received money and was sentenced in March 1893 to five years' imprisonment.",
+      "status": "court",
+      "date": "1893-03",
+      "quote": "Charles Baïhaut, a former minister of public works, confessed to having received money and was sentenced in March 1893 to five years' imprisonment.",
+      "sources": [
+        {
+          "url": "https://www.britannica.com/event/Panama-Scandal",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Panama Scandal"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "cornelius-herz",
+      "toName": "Cornelius Herz",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Cornelius Herz, associated with Reinach in the Panama bribery network, fled to Bournemouth, England; a Scotland Yard warrant was executed but in 1893 Paris physicians Charcot and Brouardel, consulted at the French government's request, judged him unfit for extradition, and he remained in Bournemouth until his death.",
+      "status": "peer",
+      "date": "1893",
+      "quote": "Paris physicians Jean-Martin Charcot and Paul Brouardel, consulted at the French government's request in 1893, judged him unfit for extradition",
+      "sources": [
+        {
+          "url": "https://www.cambridge.org/core/journals/journal-of-law-medicine-and-ethics/article/person-under-investigation-detecting-malingering-and-a-diagnostics-of-suspicion-in-findesiecle-britain/65D3A1E1D3AD344B6E26CDD8C8678548",
+          "publisher": "Journal of Law, Medicine & Ethics (Cambridge)",
+          "title": "Person Under Investigation: Detecting Malingering and a Diagnostics of Suspicion in Fin-de-Siècle Britain"
+        },
+        {
+          "url": "https://blog.wellcomelibrary.org/2016/04/a-great-deal-of-dying-in-dr-herz",
+          "publisher": "Wellcome Library blog",
+          "title": "A great deal of dying in Dr Herz",
+          "date": "2016-04"
+        },
+        {
+          "url": "https://wellcomecollection.org/works/srfgf4zx",
+          "publisher": "Wellcome Collection",
+          "title": "The Panama Canal: Dr Cornelius Herz, having fled to Bournemouth..., simulates illness to avoid extradition to France. Watercolour drawing by H.S. Robert, ca. 1897"
+        }
+      ]
+    },
+    {
+      "to": "charles-de-lesseps",
+      "toName": "Charles de Lesseps",
+      "toType": "person",
+      "relation": "family of",
+      "claim": "Charles de Lesseps, Ferdinand's son and a company director, was found guilty with his father in 1893 and sentenced to five years.",
+      "status": "court",
+      "date": "1893",
+      "quote": "Officials including Ferdinand and Charles de Lesseps were prosecuted for fraud and maladministration.",
+      "sources": [
+        {
+          "url": "https://www.britannica.com/event/Panama-Scandal",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Panama Scandal"
+        }
+      ]
+    },
+    {
+      "to": "Georges Clemenceau",
+      "toName": "Georges Clemenceau",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Britannica states Clemenceau was an associate of Herz, through whom he was alleged to have received British money, and was discredited and temporarily withdrew from political life.",
+      "status": "documented",
+      "date": "1893",
+      "quote": "Clemenceau was an associate of Herz, through whom he was alleged to have received British money. He was discredited and temporarily withdrew from political life.",
+      "sources": [
+        {
+          "url": "https://www.britannica.com/event/Panama-Scandal",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Panama Scandal"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site's '104 legislators were ultimately found to have been involved': Britannica records Delahaye's allegation of 'more than 150'; the 104 figure appears only in a magazine piece. Check the Chamber of Deputies' commission of inquiry report (assemblee-nationale.fr).",
+    "A secondary source says the Lesseps convictions were overturned by the Cour de cassation in June 1893 on limitation grounds; this was not confirmed by Britannica and should be checked in the Cour de cassation record.",
+    "The site's '800,000 small investors', '1.4–1.8 billion gold francs' and '22,000 worker deaths' were not confirmed by the sources consulted (one secondary source gives 1.5 billion francs).",
+    "Whether Herz 'pressured Reinach' and when he reached Bournemouth (Wellcome says January 1892) remain to be checked."
+  ]
+}

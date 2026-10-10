@@ -1,0 +1,110 @@
+{
+  "entity": "ivar-kreuger",
+  "name": "Ivar Kreuger",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Ivar Kreuger was a Swedish industrialist who built a group of match companies and holding companies (Kreuger & Toll, Swedish Match, International Match Corporation) that raised large sums from American investors through the Boston investment bank Lee, Higginson & Co. He died in Paris in March 1932. Price Waterhouse & Co., called in by the Swedish government, reported within weeks that the 1930 balance sheet of Kreuger & Toll misrepresented the company's position, and Swedish authorities reported finding forged Italian treasury bills among his papers.",
+    "sources": [
+      { "url": "https://time.com/archive/6749148/business-kreugers-books/", "publisher": "Time (archive)", "title": "Business: Kreuger's Books", "date": "1932" },
+      { "url": "https://archive.spectator.co.uk/article/23rd-april-1932/3/the-kreuger-affair-it-is-no-longer-possible-to-dou", "publisher": "The Spectator (archive)", "title": "The Kreuger Affair: It is no longer possible to doubt", "date": "1932-04-23" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Price Waterhouse & Co. began auditing the Kreuger books eleven days after Kreuger's death in Paris in March 1932 and within a month concluded that he had falsified them.",
+      "status": "documented",
+      "date": "1932",
+      "quote": "Eleven days after a pistol shot in Paris put an end to Ivar Kreuger's fantastic dreams of a match empire, Price, Waterhouse & Co. sat down to audit the Kreuger books. Within a month they pronounced Ivar Kreuger a crook.",
+      "sources": [
+        { "url": "https://time.com/archive/6749148/business-kreugers-books/", "publisher": "Time (archive)", "title": "Business: Kreuger's Books", "date": "1932" },
+        { "url": "https://time.com/archive/6750538/business-finance-greatest-crook/", "publisher": "Time (archive)", "title": "Business & Finance: Greatest Crook", "date": "1932" }
+      ]
+    },
+    {
+      "claim": "Price Waterhouse's April 1932 report concluded that the 1930 balance sheet of Kreuger & Toll misrepresented the true financial position of the company.",
+      "status": "peer",
+      "date": "1932-04",
+      "quote": "The April 1932 report concluded that its 1930 Balance Sheet: 'misrepresented the true financial position of the company'.",
+      "sources": [
+        { "url": "https://www.tandfonline.com/doi/abs/10.1080/21552851.2022.2059531", "publisher": "Accounting History Review (Taylor & Francis)", "title": "Corporate capers, group accounting reforms", "date": "2022" }
+      ]
+    },
+    {
+      "claim": "Price Waterhouse traced Kreuger's manipulations back to 1917 through the ledgers of about a dozen holding companies and 140 operating subsidiaries and trading concerns, and estimated that Kreuger had diverted about $115 million.",
+      "status": "documented",
+      "date": "1932",
+      "quote": "Threading their way through the ledgers of a dozen holding companies, 140 operating subsidiaries and trading concerns, Price, Waterhouse traced his manipulations back to 1917.",
+      "sources": [
+        { "url": "https://time.com/archive/6749148/business-kreugers-books/", "publisher": "Time (archive)", "title": "Business: Kreuger's Books", "date": "1932" },
+        { "url": "https://time.com/archive/6750538/business-finance-greatest-crook/", "publisher": "Time (archive)", "title": "Business & Finance: Greatest Crook", "date": "1932" }
+      ]
+    },
+    {
+      "claim": "In April 1932 The Spectator reported that Swedish authorities had found among Kreuger's papers forged Italian Treasury bills, carried as assets in the books of Kreuger & Toll, and a forged contract for a Spanish loan of 180 million pesetas.",
+      "status": "reported",
+      "date": "1932-04-23",
+      "quote": "The Swedish authorities have found among his papers a forged contract for a Spanish loan of 180,000,000 pesetas, and forged Italian Treasury bills",
+      "sources": [
+        { "url": "https://archive.spectator.co.uk/article/23rd-april-1932/3/the-kreuger-affair-it-is-no-longer-possible-to-dou", "publisher": "The Spectator (archive)", "title": "The Kreuger Affair: It is no longer possible to doubt", "date": "1932-04-23" }
+      ]
+    },
+    {
+      "claim": "A reference-work biography states that after a proposed Italian match-monopoly deal fell through, Kreuger counterfeited forty-two Italian bonds, each with a face value of 500,000 pounds, bearing a forged signature of the Italian finance minister.",
+      "status": "reported",
+      "date": "1930",
+      "quote": "he counterfeited forty-two Italian bonds, each with a face value of £500,000 and a forged signature of the Italian finance minister",
+      "sources": [
+        { "url": "https://www.ebsco.com/research-starters/biography/ivar-kreuger", "publisher": "EBSCO Research Starters", "title": "Ivar Kreuger" }
+      ]
+    },
+    {
+      "claim": "Lee, Higginson & Co., Kreuger's American banking house, accepted audits by Swedish firms rather than requiring a United States audit of Kreuger's companies.",
+      "status": "documented",
+      "date": "1932",
+      "quote": "It was persuaded by Ivar Kreuger... that it was not necessary for a U. S. firm to audit his vast affairs. He had not only one but three great Swedish firms of auditors... So great was Sweden's reputation for honesty that Lee, Higginson decided, as a practical matter, to accept a Swedish audit of the greatest Swede.",
+      "sources": [
+        { "url": "https://time.com/archive/6749148/business-kreugers-books/", "publisher": "Time (archive)", "title": "Business: Kreuger's Books", "date": "1932" },
+        { "url": "https://time.com/archive/6750538/business-finance-greatest-crook/", "publisher": "Time (archive)", "title": "Business & Finance: Greatest Crook", "date": "1932" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "Lee, Higginson & Co.",
+      "toName": "Lee, Higginson & Co.",
+      "toType": "bank",
+      "relation": "partnered with",
+      "claim": "Lee, Higginson & Co. of Boston acted as Kreuger's American banking house and accepted Swedish audits of his companies instead of commissioning a United States audit.",
+      "status": "documented",
+      "date": "1932",
+      "quote": "So great was Sweden's reputation for honesty that Lee, Higginson decided, as a practical matter, to accept a Swedish audit of the greatest Swede.",
+      "sources": [
+        { "url": "https://time.com/archive/6749148/business-kreugers-books/", "publisher": "Time (archive)", "title": "Business: Kreuger's Books", "date": "1932" },
+        { "url": "https://time.com/archive/6750538/business-finance-greatest-crook/", "publisher": "Time (archive)", "title": "Business & Finance: Greatest Crook", "date": "1932" }
+      ]
+    },
+    {
+      "to": "Price Waterhouse & Co.",
+      "toName": "Price Waterhouse & Co.",
+      "toType": "company",
+      "relation": "investigated",
+      "reverse": true,
+      "claim": "Price Waterhouse & Co. audited the Kreuger companies after Kreuger's death in 1932 and reported that the books had been falsified.",
+      "status": "documented",
+      "date": "1932",
+      "quote": "Within a month they pronounced Ivar Kreuger a crook.",
+      "sources": [
+        { "url": "https://time.com/archive/6749148/business-kreugers-books/", "publisher": "Time (archive)", "title": "Business: Kreuger's Books", "date": "1932" },
+        { "url": "https://time.com/archive/6750538/business-finance-greatest-crook/", "publisher": "Time (archive)", "title": "Business & Finance: Greatest Crook", "date": "1932" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site says Kreuger forged 42 Italian treasury bills with a face value of about 28.7 million pounds (about $142 million). Sources differ: EBSCO gives 42 bills of 500,000 pounds each (21 million pounds); The Spectator's 1932 report gives a figure of about 21 million; a popular site gives 500 million lire (about $142 million). The count and value need a scholarly biography or the 1932 Swedish inquiry record.",
+    "The site's figure of 'some 400 subsidiaries' was not confirmed. Time's 1932 account of the Price Waterhouse audit refers to a dozen holding companies and 140 operating subsidiaries and trading concerns; one popular source refers to 400 companies.",
+    "The site's claim that auditors found 'at least $250 million' of reported assets missing or fictitious was not confirmed; Time reported Price Waterhouse's figure of $115 million.",
+    "The claim that Lee, Higginson & Co. was dissolved in 1932 and reorganized as Lee Higginson Corporation, and the role of partner Donald Durant, were not found in the sources returned.",
+    "Two Time archive pieces ('Kreuger's Books' and 'Greatest Crook') were returned together; the owner should check which of the two carries each quoted passage.",
+    "The Accounting History Review quote on the April 1932 report is attributed on the basis of the search summary; confirm against the article abstract or full text."
+  ]
+}

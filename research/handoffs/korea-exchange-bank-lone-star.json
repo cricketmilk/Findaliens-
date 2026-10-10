@@ -1,0 +1,215 @@
+{
+  "id": "korea-exchange-bank-lone-star",
+  "title": "Korea Exchange Bank public shareholdings → Lone Star Funds",
+  "pattern": "privatization",
+  "country": "South Korea",
+  "summary": "Korea Exchange Bank (KEB) was partly privatized in 1989 with the government keeping 51%; Commerzbank became a large shareholder in 1998 and the state-run Export-Import Bank of Korea (KEXIM) held a stake. On 27 August 2003 Lone Star Funds agreed to acquire 51% of KEB for 1.38 trillion won through a new share issue plus shares sold by Commerzbank and KEXIM; regulators approved in September 2003. Lone Star bought more shares from the two in 2006, was ordered by the FSC in 2011 to cut its 51.02% stake, and sold to Hana Financial Group in February 2012 (4.4 trillion won including KEXIM's shares). Korean courts tried the KEB Card share-price case and cleared a finance-ministry official accused of lowering the sale price. An ICSID award of US$216.5 million against Korea (2022) was annulled in full in November 2025.",
+  "public": {
+    "name": "Public-sector shareholdings in Korea Exchange Bank (Export-Import Bank of Korea; a Bank of Korea stake named in the owner's draft was not confirmed)",
+    "funder": "Government of the Republic of Korea (Export-Import Bank of Korea)",
+    "budget": "Not retrieved; the 2003 sale price for 51% was 1.38 trillion won (Korea Herald)",
+    "start": {
+      "date": "1989",
+      "precision": "year"
+    },
+    "end": {
+      "date": "2003-08",
+      "precision": "month",
+      "kind": "privatized"
+    },
+    "sources": [
+      {
+        "url": "https://www.researchgate.net/publication/228120267_Bank_Nationalization_Restructuring_and_Reprivatization_The_Case_of_Korea_Since_the_Asian_Financial_Crisis",
+        "publisher": "ResearchGate (working paper)",
+        "title": "Bank Nationalization, Restructuring and Reprivatization: The Case of Korea Since the Asian Financial Crisis"
+      },
+      {
+        "url": "https://www.researchgate.net/publication/273576731_South_Korea's_Experience_with_Banking_Sector_Liberalisation",
+        "publisher": "ResearchGate (working paper)",
+        "title": "South Korea's Experience with Banking Sector Liberalisation"
+      },
+      {
+        "url": "https://www.koreatimes.co.kr/business/companies/20111118/lone-star-faces-forced-sale-of-majority-keb-stake",
+        "publisher": "The Korea Times",
+        "title": "Lone Star faces forced sale of majority KEB stake",
+        "date": "2011-11-18"
+      },
+      {
+        "url": "https://www.koreaherald.com/article/10619280",
+        "publisher": "The Korea Herald",
+        "title": "Timeline of key events in Lone Star vs. South Korea investor-state dispute",
+        "date": "2025-11"
+      }
+    ]
+  },
+  "private": {
+    "name": "Lone Star Funds (investing through LSF-KEB Holdings SCA, Belgium)",
+    "founded": {
+      "date": "1995",
+      "precision": "year"
+    },
+    "founders": [
+      "John Grayken"
+    ],
+    "funders": [],
+    "outcome": "Held 51.02% of KEB from 2003 to February 2012, when Hana Financial Group completed a 4.4 trillion won purchase of KEB from Lone Star and the Export-Import Bank of Korea (Lone Star's stake: 3.9 trillion won). Lone Star's ICSID claim against Korea (ARB/12/37) produced a US$216.5 million award in August 2022 that an ad hoc committee annulled in full on 18 November 2025.",
+    "sources": [
+      {
+        "url": "https://lonestarfunds.com/about-us/team/",
+        "publisher": "Lone Star Funds",
+        "title": "Team: John Grayken, Founder"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Lone_Star_Funds",
+        "publisher": "Wikipedia",
+        "title": "Lone Star Funds"
+      },
+      {
+        "url": "https://www.bloomberg.com/news/articles/2012-02-09/hana-completes-3-9-billion-takeover-of-korea-exchange-bank-from-lone-star",
+        "publisher": "Bloomberg",
+        "title": "Hana Finishes $3.9 Billion Korea Exchange Bank Takeover",
+        "date": "2012-02-09"
+      },
+      {
+        "url": "https://www.korea.net/NewsFocus/Business/view?articleId=282580",
+        "publisher": "Korea.net (Korean Culture and Information Service)",
+        "title": "Successful appeal overturns Lone Star's KRW 400B award",
+        "date": "2025-11"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "asset-transfer",
+      "claim": "On 27 August 2003 Lone Star acquired 51% of Korea Exchange Bank for 1.38 trillion won (about US$1.4 billion at the time).",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.koreaherald.com/article/10619280",
+          "publisher": "The Korea Herald",
+          "title": "Timeline of key events in Lone Star vs. South Korea investor-state dispute",
+          "date": "2025-11"
+        }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "In the 2003 transaction Commerzbank and the Export-Import Bank of Korea sold KEB shares to Lone Star and a new share issue recapitalized the bank; Korean regulators approved the deal as of September 2003, with the FSC and FSS requiring pre-notification before options were exercised.",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://businessperspectives.org/journals?controller=pdfview&task=download&item_id=1623",
+          "publisher": "Business Perspectives (Banks and Bank Systems journal)",
+          "title": "Private Equity Investments in the Banking Industry: The Case of Lone Star and Korea Exchange Bank"
+        }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "In 2006 Lone Star bought a further 14.1% of KEB from Commerzbank and the state-run Export-Import Bank of Korea, taking its holding above the 51% acquired in 2003.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.koreatimes.co.kr/business/companies/20111118/lone-star-faces-forced-sale-of-majority-keb-stake",
+          "publisher": "The Korea Times",
+          "title": "Lone Star faces forced sale of majority KEB stake",
+          "date": "2011-11-18"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Lone Star acquired Korea Exchange Bank at 10-20 cents on the dollar.",
+      "assessment": "unsupported",
+      "explanation": "Lone Star paid 1.38 trillion won for 51%, part of it as new capital into the bank. No source retrieved gives KEB's book value or a price-to-book ratio. Prosecutors alleged a former finance-ministry official conspired to lower the price by up to 825 billion won below fair market value; in November 2008 a Korean court cleared him, saying it could not judge that the capital-ratio estimate had been manipulated to lower the price or to make Lone Star eligible. A 2022 ICSID tribunal later found Korea liable only for delaying the 2012 sale approval, and that award was annulled in 2025.",
+      "sources": [
+        {
+          "url": "https://www.koreatimes.co.kr/southkorea/20081124/lone-star-cleared-of-legal-disputes",
+          "publisher": "The Korea Times",
+          "title": "Lone Star Cleared of Legal Disputes",
+          "date": "2008-11-24"
+        },
+        {
+          "url": "https://www.koreaherald.com/article/10619280",
+          "publisher": "The Korea Herald",
+          "title": "Timeline of key events in Lone Star vs. South Korea investor-state dispute",
+          "date": "2025-11"
+        },
+        {
+          "url": "https://www.kedglobal.com/legal-disputes/newsView/ked202511180007",
+          "publisher": "The Korea Economic Daily (KED Global)",
+          "title": "South Korea scores rare complete win as ICSID overturns Lone Star award",
+          "date": "2025-11-18"
+        }
+      ]
+    },
+    {
+      "claim": "Korea Exchange Bank was a Tier-1 national bank.",
+      "assessment": "partly-true",
+      "explanation": "The Korea Times described KEB as the country's fifth-largest lender in 2008 and again in 2011. It was a nationwide commercial bank, but the 2003 purchase was structured around an assessment that the bank's capital ratio was below the threshold that would otherwise have barred a non-financial buyer, and the Korea Times called it 'then-fragile'. 'Tier-1' is not a term the sources use.",
+      "sources": [
+        {
+          "url": "https://www.koreatimes.co.kr/southkorea/20081124/lone-star-cleared-of-legal-disputes",
+          "publisher": "The Korea Times",
+          "title": "Lone Star Cleared of Legal Disputes",
+          "date": "2008-11-24"
+        },
+        {
+          "url": "https://www.koreatimes.co.kr/business/companies/20111118/lone-star-faces-forced-sale-of-majority-keb-stake",
+          "publisher": "The Korea Times",
+          "title": "Lone Star faces forced sale of majority KEB stake",
+          "date": "2011-11-18"
+        }
+      ]
+    },
+    {
+      "claim": "Lone Star bought a bank that had been recapitalized on the backs of Korean taxpayers.",
+      "assessment": "unsupported",
+      "explanation": "Korea committed 168.7 trillion won of public funds to its financial sector after 1997 (about half through the KDIC for deposits and recapitalization, a quarter through KAMCO for bad loans), and had recovered 72.5% by the time of the FSC report cited. But no source retrieved shows a KDIC or KAMCO injection into KEB before 2003; the sources describe Commerzbank's 1998 investment and Lone Star's own 2003 new-share injection as KEB's recapitalizations. The system-wide figure does not establish the claim for KEB.",
+      "sources": [
+        {
+          "url": "https://www.koreajoongangdaily.com/business/korea-recovers-over-72-percent-of-asian-financial-crisis-bailout-funds/12458337",
+          "publisher": "Korea JoongAng Daily",
+          "title": "Korea recovers over 72 percent of Asian financial crisis bailout funds"
+        },
+        {
+          "url": "https://www.imf.org/external/np/seminars/eng/2006/cpem/pdf/kihwan.pdf",
+          "publisher": "International Monetary Fund (seminar paper by Kihwan Kim)",
+          "title": "The 1997-98 Korean Financial Crisis: Causes, Policy Response, and Lessons",
+          "date": "2006"
+        },
+        {
+          "url": "https://businessperspectives.org/journals?controller=pdfview&task=download&item_id=1623",
+          "publisher": "Business Perspectives (Banks and Bank Systems journal)",
+          "title": "Private Equity Investments in the Banking Industry: The Case of Lone Star and Korea Exchange Bank"
+        }
+      ]
+    },
+    {
+      "claim": "Lone Star manipulated KEB Card's share price in 2003 to absorb it cheaply.",
+      "assessment": "partly-true",
+      "explanation": "The Seoul Central District Court convicted Paul Yoo, Lone Star and KEB on 1 February 2008; the Seoul High Court acquitted on the manipulation charge on 24 June 2008; the Supreme Court reversed that acquittal on 10 March 2011 and remanded; on retrial in October 2011 the High Court sentenced Yoo to three years and ordered Lone Star to pay 25 billion won, and Yoo appealed again. The outcome of that final appeal is not recorded here.",
+      "sources": [
+        {
+          "url": "https://jusmundi.com/en/document/decision/en-lsf-keb-holdings-sca-v-hana-financial-group-inc-final-award-monday-13th-may-2019",
+          "publisher": "Jus Mundi (ICC arbitration award, LSF-KEB Holdings v. Hana Financial Group)",
+          "title": "LSF-KEB v. Hana Financial Group, Final Award, 13 May 2019",
+          "date": "2019-05-13"
+        },
+        {
+          "url": "https://www.forbes.com/2008/06/24/keb-lonestar-appeal-markets-equity-cx_vk_0624markets05.html",
+          "publisher": "Forbes",
+          "title": "Lone Star Wins A Round In Korean Court",
+          "date": "2008-06-24"
+        },
+        {
+          "url": "https://www.avcj.com/avcj/news/53145/lone-star-koreas-former-head-paul-yoo-files-court-appeal",
+          "publisher": "Asian Venture Capital Journal",
+          "title": "Lone Star Korea's former head Paul Yoo files court appeal",
+          "date": "2011"
+        }
+      ]
+    }
+  ]
+}

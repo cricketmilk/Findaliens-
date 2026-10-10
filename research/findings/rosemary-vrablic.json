@@ -1,0 +1,101 @@
+{
+  "entity": "rosemary-vrablic",
+  "name": "Rosemary Vrablic",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Rosemary Vrablic was a managing director and private banker at Deutsche Bank who became Donald Trump's longtime banker and the Trump Organization's main contact at the bank after its commercial lending division stopped doing business with him, arranging hundreds of millions of dollars in loans on the private-banking side. She resigned effective December 31, 2020, after the bank opened an internal review of a real estate investment she and a colleague had made in a building partly owned by Jared Kushner. In 2023 she testified in New York's civil fraud case against Trump, describing the bank's pursuit of very wealthy clients as whale hunting and estimating the bank earned more than $6.8 million in fees from the Trump Organization in 2014. The Deutsche Bank file on this site records the lending relationship; this file holds what is specific to her.",
+    "sources": [
+      { "url": "https://www.cnn.com/2020/12/22/business/trump-deutsche-bankers-resign", "publisher": "CNN", "title": "Trump's Deutsche Bank bankers resign", "date": "2020-12-22" },
+      { "url": "https://www.courthousenews.com/at-trump-org-fraud-trial-ex-banker-recalls-hunting-for-trumps-business/", "publisher": "Courthouse News Service", "title": "At Trump Org fraud trial, ex-banker recalls 'hunting' for Trump's business", "date": "2023-11" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Vrablic, a Deutsche Bank private banker and managing director, took over the bank's lending relationship with Donald Trump on the private-banking side after its commercial lending division stopped doing business with him, and she and colleague Dominic Scalzi resigned from the bank effective the end of 2020.",
+      "status": "reported",
+      "date": "2020-12-22",
+      "quote": "Deutsche Bank and she announced she was resigning effective December 31",
+      "sources": [
+        { "url": "https://www.cnn.com/2020/12/22/business/trump-deutsche-bankers-resign", "publisher": "CNN", "title": "Trump's Deutsche Bank bankers resign", "date": "2020-12-22" },
+        { "url": "https://news.yahoo.com/trumps-longtime-deutsche-bank-private-105217116.html?fr=sycsrp_catchall", "publisher": "Yahoo News (citing The New York Times)", "title": "Trump's longtime Deutsche Bank private banker and her close colleague abruptly resign", "date": "2020-12-22" }
+      ]
+    },
+    {
+      "claim": "Before her resignation Deutsche Bank had opened an internal investigation into a real estate deal in which Vrablic and a colleague invested in an apartment building partly owned by Jared Kushner, according to reporting; the reasons for her departure were not stated at the time.",
+      "status": "reported",
+      "date": "2020-12",
+      "quote": "The bank had opened an internal investigation into a real estate deal in which she and a colleague invested in an apartment building partly owned by Jared Kushner.",
+      "sources": [
+        { "url": "https://news.yahoo.com/trumps-longtime-deutsche-bank-private-105217116.html?fr=sycsrp_catchall", "publisher": "Yahoo News (citing The New York Times)", "title": "Trump's longtime Deutsche Bank private banker and her close colleague abruptly resign", "date": "2020-12-22" }
+      ]
+    },
+    {
+      "claim": "In November 2023 Vrablic testified in the New York attorney general's civil fraud case against Trump, describing the bank's pursuit of very high-net-worth clients as whale hunting, saying Deutsche Bank was the Trump Organization's largest single lender from 2011 to 2021, and estimating the bank earned more than $6.8 million in fees from the Trump Organization in 2014; she also described a Scotland golf-course loan the bank declined as Trump was about to take office.",
+      "status": "court",
+      "date": "2023-11",
+      "quote": "she estimated the bank earned more than $6.8 million in fees from the Trump Organization in 2014",
+      "sources": [
+        { "url": "https://www.courthousenews.com/at-trump-org-fraud-trial-ex-banker-recalls-hunting-for-trumps-business/", "publisher": "Courthouse News Service", "title": "At Trump Org fraud trial, ex-banker recalls 'hunting' for Trump's business", "date": "2023-11" },
+        { "url": "https://www.cbsnews.com/news/deutsche-bank-trump-business/", "publisher": "CBS News", "title": "\"Whale hunting\": Inside Deutsche Bank's pursuit of business with Trump", "date": "2023-11" },
+        { "url": "https://abcnews.go.com/US/live-updates/trump-fraud-trial/deutsche-bank-made-money-from-trump-defense-emphasizes-105251468?id=103642561", "publisher": "ABC News", "title": "Deutsche Bank made money from Trump, defense emphasizes", "date": "2023-11" }
+      ]
+    },
+    {
+      "claim": "Trump's lawyers used Vrablic's testimony to argue that Deutsche Bank was eager for his business and knew to discount his statements of financial condition; Justice Engoron nonetheless found in February 2024 that Trump's statements to lenders were inflated, a finding the Appellate Division left standing in August 2025.",
+      "status": "court",
+      "date": "2023-11",
+      "quote": "Trump's lawyers used her testimony to argue that Deutsche Bank was eager for his business and knew to discount his financial statements.",
+      "sources": [
+        { "url": "https://www.chicagobusiness.com/commercial-real-estate/deutsche-bank-loved-trump-his-trial-lawyers-plan-argue", "publisher": "Crain's Chicago Business (Bloomberg)", "title": "Deutsche Bank loved Trump, his trial lawyers plan to argue", "date": "2023" },
+        { "url": "https://abcnews.go.com/US/live-updates/trump-fraud-trial/deutsche-bank-made-money-from-trump-defense-emphasizes-105251468?id=103642561", "publisher": "ABC News", "title": "Deutsche Bank made money from Trump, defense emphasizes", "date": "2023-11" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "deutsche-bank",
+      "toName": "Deutsche Bank",
+      "toType": "bank",
+      "relation": "employed by",
+      "claim": "Vrablic was a managing director and private banker at Deutsche Bank who handled the Trump relationship on the private-banking side; she resigned effective December 31, 2020.",
+      "status": "reported",
+      "date": "2020-12-22",
+      "quote": "Trump's longtime Deutsche Bank private banker and her close colleague abruptly resign",
+      "sources": [
+        { "url": "https://www.cnn.com/2020/12/22/business/trump-deutsche-bankers-resign", "publisher": "CNN", "title": "Trump's Deutsche Bank bankers resign", "date": "2020-12-22" },
+        { "url": "https://news.yahoo.com/trumps-longtime-deutsche-bank-private-105217116.html?fr=sycsrp_catchall", "publisher": "Yahoo News (citing The New York Times)", "title": "Trump's longtime Deutsche Bank private banker and her close colleague abruptly resign", "date": "2020-12-22" }
+      ]
+    },
+    {
+      "to": "trump-organization",
+      "toName": "Trump Organization",
+      "toType": "company",
+      "relation": "funded",
+      "claim": "As Trump's private banker Vrablic arranged Deutsche Bank's loans to the Trump Organization, which she testified was the bank's client with Deutsche Bank as its largest single lender from 2011 to 2021.",
+      "status": "court",
+      "date": "2023-11",
+      "quote": "Deutsche Bank was the largest single lender to the Trump Organization from 2011 to 2021",
+      "sources": [
+        { "url": "https://www.courthousenews.com/at-trump-org-fraud-trial-ex-banker-recalls-hunting-for-trumps-business/", "publisher": "Courthouse News Service", "title": "At Trump Org fraud trial, ex-banker recalls 'hunting' for Trump's business", "date": "2023-11" },
+        { "url": "https://www.cnn.com/2020/12/22/business/trump-deutsche-bankers-resign", "publisher": "CNN", "title": "Trump's Deutsche Bank bankers resign", "date": "2020-12-22" }
+      ]
+    },
+    {
+      "to": "jared-kushner",
+      "toName": "Jared Kushner",
+      "toType": "person",
+      "relation": "invested in",
+      "claim": "Reporting at the time of her resignation said Deutsche Bank had opened an internal review of an investment Vrablic and a colleague made in an apartment building partly owned by Jared Kushner; the outcome of the review was not reported in the sources reached.",
+      "status": "reported",
+      "date": "2020-12",
+      "quote": "invested in an apartment building partly owned by Jared Kushner",
+      "sources": [
+        { "url": "https://news.yahoo.com/trumps-longtime-deutsche-bank-private-105217116.html?fr=sycsrp_catchall", "publisher": "Yahoo News (citing The New York Times)", "title": "Trump's longtime Deutsche Bank private banker and her close colleague abruptly resign", "date": "2020-12-22" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The CNN 2020 URL is carried from deutsche-bank.json; it was not returned by a search in this session, and the Yahoo/NYT syndication is the reached source for the resignation and the Kushner-building review.",
+    "Bloomberg's February 2023 report on Trump subpoenaing Vrablic is cited in deutsche-bank.json and was not re-opened here."
+  ]
+}

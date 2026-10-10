@@ -1,0 +1,85 @@
+{
+  "entity": "harding-college",
+  "name": "Harding College",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Harding College (now Harding University) in Searcy, Arkansas, was led by president George S. Benson, who created the National Education Program to spread his free-enterprise 'Americanism' views. The program attracted donations to Harding including from Boeing and Gulf Oil, and the Alfred P. Sloan Foundation funded its animated free-enterprise films, which were shown in thousands of theatres under a deal with MGM.",
+    "sources": [
+      {
+        "url": "https://encyclopediaofarkansas.net/entries/national-education-program-12187/",
+        "publisher": "Encyclopedia of Arkansas",
+        "title": "National Education Program"
+      },
+      {
+        "url": "https://encyclopediaofarkansas.net/entries/George-Stuart-Benson-3495",
+        "publisher": "Encyclopedia of Arkansas",
+        "title": "George Stuart Benson (1898–1991)"
+      },
+      {
+        "url": "https://www.filmpreservation.org/sponsored-films/screening-room/albert-in-blunderland-1950",
+        "publisher": "National Film Preservation Foundation",
+        "title": "Albert in Blunderland (1950)"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The Encyclopedia of Arkansas says the National Education Program, founded by Harding president George S. Benson, attracted many donations to Harding, including from Boeing and Gulf Oil.",
+      "status": "reported",
+      "date": "1940s–50s",
+      "quote": "attracted many donations to Harding, including from Boeing and Gulf Oil",
+      "sources": [
+        {
+          "url": "https://encyclopediaofarkansas.net/entries/George-Stuart-Benson-3495",
+          "publisher": "Encyclopedia of Arkansas",
+          "title": "George Stuart Benson (1898–1991)"
+        },
+        {
+          "url": "https://encyclopediaofarkansas.net/entries/national-education-program-12187/",
+          "publisher": "Encyclopedia of Arkansas",
+          "title": "National Education Program"
+        }
+      ]
+    },
+    {
+      "claim": "The National Film Preservation Foundation lists Harding's cartoons among the free-enterprise films funded by the Alfred P. Sloan Foundation; Benson's deal with MGM resulted in NEP-produced shorts being shown in 15,000 theaters.",
+      "status": "reported",
+      "date": "1948–1950",
+      "quote": "shown in 15,000 theaters nationwide",
+      "sources": [
+        {
+          "url": "https://www.filmpreservation.org/sponsored-films/screening-room/albert-in-blunderland-1950",
+          "publisher": "National Film Preservation Foundation",
+          "title": "Albert in Blunderland (1950)"
+        },
+        {
+          "url": "https://encyclopediaofarkansas.net/entries/national-education-program-12187/",
+          "publisher": "Encyclopedia of Arkansas",
+          "title": "National Education Program"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "national-education-program",
+      "toName": "National Education Program",
+      "toType": "organization",
+      "relation": "founded",
+      "claim": "Harding's president founded the NEP, which operated from the college.",
+      "status": "reported",
+      "date": "1940s",
+      "quote": "founded by Harding College (now Harding University) president George S. Benson",
+      "sources": [
+        {
+          "url": "https://encyclopediaofarkansas.net/entries/national-education-program-12187/",
+          "publisher": "Encyclopedia of Arkansas",
+          "title": "National Education Program"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Sources disagree on the NEP's founding date (1936, 1941 or 1948). The size of the Sloan Foundation grant is given as between $300,000 and $600,000 only in a tertiary summary. General Electric was not confirmed as a sponsor in any opened source."
+  ]
+}

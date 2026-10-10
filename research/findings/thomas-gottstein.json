@@ -1,0 +1,142 @@
+{
+  "entity": "thomas-gottstein",
+  "name": "Thomas Gottstein",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Thomas Gottstein was Group CEO of Credit Suisse from 2020 until he stepped down on 1 August 2022, citing personal and health-related considerations. During his tenure the bank lost more than $5 billion on the March 2021 collapse of Archegos Capital Management, and an outside review by Paul, Weiss commissioned by the bank was published in July 2021.",
+    "sources": [
+      {
+        "url": "https://fortune.com/2021/07/29/credit-suisse-report-archegos-loss-bank-massive-culture-problem",
+        "publisher": "Fortune",
+        "title": "Credit Suisse report on Archegos loss points to a massive culture problem",
+        "date": "2021-07-29"
+      },
+      {
+        "url": "https://www.bankingdive.com/news/credit-suisse-ceo-change-gottstein-korner-lehmann-review-job-cuts/628232/",
+        "publisher": "Banking Dive",
+        "title": "Credit Suisse CEO change: Gottstein out, Körner in, strategic review",
+        "date": "2022-07-27"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Credit Suisse's exposure to Archegos was about $20 billion; Gottstein and chief risk officer Lara Warner became aware of the exposure in the days before the forced liquidation of March 2021.",
+      "status": "reported",
+      "date": "2021-03",
+      "quote": "Gottstein and Lara Warner, the bank's recently departed chief risk officer, became aware of the Archegos exposure in the days leading up to the forced liquidation",
+      "sources": [
+        {
+          "url": "https://fortune.com/2021/07/29/credit-suisse-report-archegos-loss-bank-massive-culture-problem",
+          "publisher": "Fortune",
+          "title": "Credit Suisse report on Archegos loss points to a massive culture problem",
+          "date": "2021-07-29"
+        }
+      ]
+    },
+    {
+      "claim": "In April 2021 Gottstein called the Archegos loss 'unacceptable' and said the bank had to take actions in terms of management changes.",
+      "status": "words",
+      "date": "2021-04-22",
+      "quote": "unacceptable",
+      "sources": [
+        {
+          "url": "https://www.fortune.com/2021/04/22/unacceptable-credit-suisse-mega-losses-archegos",
+          "publisher": "Fortune",
+          "title": "'Unacceptable': Credit Suisse mega-losses from Archegos",
+          "date": "2021-04-22"
+        }
+      ]
+    },
+    {
+      "claim": "The 172-page Paul, Weiss review of Credit Suisse's Archegos business, released in late July 2021, found it likely that Archegos deceived the bank and obscured the extent of its positions, placed much of the blame on junior staff and found no evidence of fraud or malicious intent inside the bank.",
+      "status": "documented",
+      "date": "2021-07-29",
+      "quote": "likely that Archegos deceived CS and obfuscated the true extent of its positions",
+      "sources": [
+        {
+          "url": "https://fortune.com/2021/07/29/credit-suisse-report-archegos-loss-bank-massive-culture-problem",
+          "publisher": "Fortune",
+          "title": "Credit Suisse report on Archegos loss points to a massive culture problem",
+          "date": "2021-07-29"
+        }
+      ]
+    },
+    {
+      "claim": "Credit Suisse's Archegos losses exceeded $5 billion, just over half of the total losses suffered by Archegos's prime brokers.",
+      "status": "reported",
+      "date": "2021",
+      "sources": [
+        {
+          "url": "https://www.finews.asia/finance/35023-archegos-credit-suisse-litigation-bill-hwang",
+          "publisher": "finews.asia",
+          "title": "Credit Suisse Gearing Up for Archegos Legal Battle"
+        }
+      ]
+    },
+    {
+      "claim": "Gottstein stepped down as Group CEO effective 1 August 2022, citing personal and health-related considerations; Ulrich Körner succeeded him.",
+      "status": "documented",
+      "date": "2022-08-01",
+      "quote": "personal and health-related considerations",
+      "sources": [
+        {
+          "url": "https://www.bankingdive.com/news/credit-suisse-ceo-change-gottstein-korner-lehmann-review-job-cuts/628232/",
+          "publisher": "Banking Dive",
+          "title": "Credit Suisse CEO change: Gottstein out, Körner in, strategic review",
+          "date": "2022-07-27"
+        },
+        {
+          "url": "https://www.fintechfutures.com/credit-scoring/new-group-ceo-and-comprehensive-strategic-review-at-credit-suisse",
+          "publisher": "FinTech Futures",
+          "title": "New group CEO and comprehensive strategic review at Credit Suisse",
+          "date": "2022-07-27"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "credit-suisse",
+      "toName": "Credit Suisse",
+      "toType": "company",
+      "relation": "executive of",
+      "claim": "Gottstein was Credit Suisse Group CEO until 1 August 2022.",
+      "status": "documented",
+      "date": "2022",
+      "sources": [
+        {
+          "url": "https://www.bankingdive.com/news/credit-suisse-ceo-change-gottstein-korner-lehmann-review-job-cuts/628232/",
+          "publisher": "Banking Dive",
+          "title": "Credit Suisse CEO change: Gottstein out, Körner in, strategic review",
+          "date": "2022-07-27"
+        }
+      ]
+    },
+    {
+      "to": "sung-kook-bill-hwang",
+      "toName": "Sung Kook 'Bill' Hwang",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Credit Suisse under Gottstein was the prime broker with the largest losses when Hwang's Archegos collapsed in March 2021.",
+      "status": "reported",
+      "date": "2021-03",
+      "sources": [
+        {
+          "url": "https://fortune.com/2021/07/29/credit-suisse-report-archegos-loss-bank-massive-culture-problem",
+          "publisher": "Fortune",
+          "title": "Credit Suisse report on Archegos loss points to a massive culture problem",
+          "date": "2021-07-29"
+        },
+        {
+          "url": "https://www.finews.asia/finance/35023-archegos-credit-suisse-litigation-bill-hwang",
+          "publisher": "finews.asia",
+          "title": "Credit Suisse Gearing Up for Archegos Legal Battle"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: 'CEO who presided over the catastrophic risk management failure' is supported in substance by the Paul, Weiss review as reported; the page's $5.5 billion figure is close to the 'more than $5 billion' reported."
+  ]
+}

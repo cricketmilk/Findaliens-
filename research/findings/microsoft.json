@@ -1,0 +1,337 @@
+{
+  "entity": "microsoft",
+  "name": "Microsoft",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Microsoft Corporation is a publicly traded software and cloud-computing company. It holds the Army's original 2018 IVAS headset agreement (transferred to Anduril in 2025), is a provider on the Pentagon's Joint Warfighting Cloud Capability contract, and is the largest outside investor in OpenAI, holding about 27 percent of OpenAI Group PBC after the October 2025 recapitalization. In 2024 the U.S. Cyber Safety Review Board found that the 2023 Storm-0558 intrusion into Exchange Online was preventable and that Microsoft's security culture was inadequate. In 2025 Microsoft said it had ceased some cloud and AI services to a unit of Israel's Ministry of Defense after a review.",
+    "sources": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/msft-20250930.htm",
+        "publisher": "U.S. Securities and Exchange Commission (Microsoft filing)",
+        "title": "Microsoft Corp. Form 10-Q for the quarter ended September 30, 2025",
+        "date": "2025-10"
+      },
+      {
+        "url": "https://www.cisa.gov/sites/default/files/2025-03/CSRBReviewOfTheSummer2023MEOIntrusion508.pdf",
+        "publisher": "Cyber Safety Review Board (U.S. Department of Homeland Security / CISA)",
+        "title": "Review of the Summer 2023 Microsoft Exchange Online Intrusion",
+        "date": "2024-03-20"
+      },
+      {
+        "url": "https://www.congress.gov/crs-product/IF13022",
+        "publisher": "Congressional Research Service",
+        "title": "Army's Integrated Visual Augmentation System (IVAS)/Soldier Borne Mission Command (SBMC)",
+        "date": "2026-07-20"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In November 2018 the Army awarded Microsoft an Other Transaction Agreement worth up to $22 billion over ten years to develop the Integrated Visual Augmentation System (IVAS). In April 2025 the Army approved a contract novation transferring the IVAS production contract from Microsoft to Anduril. A July 2026 GAO report, summarized by CRS, said the Army determined none of the 10,000 developed IVAS units will be fielded.",
+      "status": "documented",
+      "date": "2018-11",
+      "quote": "In November 2018, the Army awarded an Other Transaction Agreement (OTA), worth up to $22 billion over 10 years, to Microsoft for the development of IVAS.",
+      "sources": [
+        {
+          "url": "https://www.congress.gov/crs-product/IF13022",
+          "publisher": "Congressional Research Service",
+          "title": "Army's Integrated Visual Augmentation System (IVAS)/Soldier Borne Mission Command (SBMC)",
+          "date": "2026-07-20"
+        },
+        {
+          "url": "https://www.congress.gov/crs_external_products/IF/PDF/IF13022/IF13022.4.pdf",
+          "publisher": "Congressional Research Service",
+          "title": "Army's Integrated Visual Augmentation System (IVAS)/Soldier Borne Mission Command (SBMC), In Focus IF13022 (updated July 20, 2026)",
+          "date": "2026-07-20"
+        },
+        {
+          "url": "https://breakingdefense.com/2025/04/anduril-gets-green-light-from-army-to-take-over-microsofts-ivas-project-exec/",
+          "publisher": "Breaking Defense",
+          "title": "Anduril gets green light from Army to take over Microsoft's IVAS project: Exec",
+          "date": "2025-04"
+        }
+      ]
+    },
+    {
+      "claim": "The Cyber Safety Review Board's review of the summer 2023 Microsoft Exchange Online intrusion by the China-linked group Storm-0558 (report dated March 20, 2024, released April 2, 2024) concluded the intrusion was preventable, attributed it to a cascade of security failures at Microsoft, and said Microsoft's security culture was inadequate and requires an overhaul. The stolen signing key allowed access to Exchange Online mailboxes of more than 500 people and 22 organizations, including senior U.S. officials.",
+      "status": "court",
+      "date": "2024-03-20",
+      "quote": "Microsoft's security culture was inadequate and requires an overhaul.",
+      "sources": [
+        {
+          "url": "https://www.cisa.gov/sites/default/files/2025-03/CSRBReviewOfTheSummer2023MEOIntrusion508.pdf",
+          "publisher": "Cyber Safety Review Board (U.S. Department of Homeland Security / CISA)",
+          "title": "Review of the Summer 2023 Microsoft Exchange Online Intrusion",
+          "date": "2024-03-20"
+        },
+        {
+          "url": "https://cyberscoop.com/microsoft-csrb-china-hacking/",
+          "publisher": "CyberScoop",
+          "title": "Cyber review board blames cascading Microsoft failures for Chinese hack",
+          "date": "2024-04"
+        },
+        {
+          "url": "https://www.geekwire.com/2024/cyber-safety-review-board-finds-microsoft-security-culture-inadequate-calls-for-internal-accountability/",
+          "publisher": "GeekWire",
+          "title": "Cyber Safety Review Board finds Microsoft security culture 'inadequate,' calls for accountability",
+          "date": "2024-04"
+        }
+      ]
+    },
+    {
+      "claim": "The CSRB found that as of its report Microsoft did not know how or when Storm-0558 obtained the signing key, and that Microsoft took months, and repeated prompting from the board, to amend a public blog post after concluding it lacked evidence the key had been exposed in a crash dump.",
+      "status": "court",
+      "date": "2024-03-20",
+      "quote": "As of the date of this report, Microsoft does not know how or when Storm-0558 obtained the signing key.",
+      "sources": [
+        {
+          "url": "https://www.cisa.gov/sites/default/files/2025-03/CSRBReviewOfTheSummer2023MEOIntrusion508.pdf",
+          "publisher": "Cyber Safety Review Board (U.S. Department of Homeland Security / CISA)",
+          "title": "Review of the Summer 2023 Microsoft Exchange Online Intrusion",
+          "date": "2024-03-20"
+        },
+        {
+          "url": "https://cyberscoop.com/microsoft-csrb-china-hacking/",
+          "publisher": "CyberScoop",
+          "title": "Cyber review board blames cascading Microsoft failures for Chinese hack",
+          "date": "2024-04"
+        }
+      ]
+    },
+    {
+      "claim": "Following OpenAI's recapitalization announced October 28, 2025, Microsoft holds an investment in OpenAI Group PBC valued at approximately $135 billion, roughly 27 percent on an as-converted diluted basis (down from 32.5 percent before recent funding rounds). Microsoft continues to account for its $13 billion of total funding commitments under the equity method, its IP rights to OpenAI models run through 2032, OpenAI contracted to buy an additional $250 billion of Azure services, and Microsoft gave up its right of first refusal as OpenAI's compute provider.",
+      "status": "documented",
+      "date": "2025-10-28",
+      "quote": "Following the recapitalization, Microsoft holds an investment in OpenAI Group PBC valued at approximately $135B, representing roughly 27% on an as-converted diluted basis",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/msft-20250930.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Microsoft filing)",
+          "title": "Microsoft Corp. Form 10-Q for the quarter ended September 30, 2025",
+          "date": "2025-10"
+        },
+        {
+          "url": "https://www.aljazeera.com/economy/2025/10/28/openai-restructures-into-public-benefit-firm-microsoft-takes-27-stake",
+          "publisher": "Al Jazeera",
+          "title": "OpenAI restructures into public-benefit firm, Microsoft takes 27% stake",
+          "date": "2025-10-28"
+        }
+      ]
+    },
+    {
+      "claim": "Microsoft won the Pentagon's $10 billion JEDI cloud contract in late 2019; the Pentagon cancelled JEDI in July 2021 and in December 2022 named Microsoft one of four providers on the $9 billion-ceiling Joint Warfighting Cloud Capability contract.",
+      "status": "reported",
+      "date": "2022-12",
+      "quote": "Microsoft had won JEDI in late 2019, and Amazon challenged that award, alleging that political interference may have affected the outcome.",
+      "sources": [
+        {
+          "url": "https://www.nextgov.com/digital-government/2022/12/amazon-google-microsoft-oracle-awarded-9b-pentagon-cloud-contract/380596/",
+          "publisher": "Nextgov/FCW",
+          "title": "Pentagon Awards $9B Cloud Contract to Amazon, Google, Microsoft, Oracle",
+          "date": "2022-12"
+        }
+      ]
+    },
+    {
+      "claim": "On September 25, 2025, Microsoft vice chair Brad Smith said the company had ceased and disabled a set of services, including cloud storage and AI services, to a unit within the Israel Ministry of Defense, after an external review led by Covington & Burling found evidence supporting elements of an August 2025 Guardian report that Unit 8200 used Azure to store and analyze civilian phone calls from the West Bank and Gaza. Microsoft said its cybersecurity work for Israel was not affected and the review was ongoing.",
+      "status": "reported",
+      "date": "2025-09-25",
+      "quote": "ceased and disabled a set of services to a unit within the Israel ministry of defense",
+      "sources": [
+        {
+          "url": "https://www.calcalistech.com/ctechnews/article/gzlnr9rg2",
+          "publisher": "Calcalist (CTech)",
+          "title": "Microsoft cuts off Israel's Unit 8200 from cloud services after surveillance revelations",
+          "date": "2025-09-25"
+        },
+        {
+          "url": "https://www.business-humanrights.org/en/latest-news/israelopt-microsoft-terminates-idfs-access-to-technology-used-to-operate-mass-surveillance-system-in-gaza-the-west-bank/",
+          "publisher": "Business & Human Rights Resource Centre",
+          "title": "Israel/OPT: Microsoft terminates Israeli military's access to technology used to operate mass surveillance system in Gaza & the West Bank",
+          "date": "2025-09"
+        }
+      ]
+    },
+    {
+      "claim": "On November 18, 2025, Microsoft and Nvidia agreed to invest up to $15 billion combined in Anthropic (up to $5 billion from Microsoft and up to $10 billion from Nvidia), and Anthropic committed to purchase $30 billion of Azure compute capacity.",
+      "status": "reported",
+      "date": "2025-11-18",
+      "quote": "Anthropic agreed to buy $30 billion of computing capacity from Microsoft's Azure cloud service.",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2025-11-18/microsoft-nvidia-to-invest-up-to-15-billion-in-anthropic",
+          "publisher": "Bloomberg",
+          "title": "Microsoft, Nvidia to Invest Up to $15 Billion in Anthropic",
+          "date": "2025-11-18"
+        },
+        {
+          "url": "https://finance.yahoo.com/news/microsoft-nvidia-invest-anthropic-startup-113316065.html",
+          "publisher": "Yahoo Finance",
+          "title": "Microsoft and Nvidia to Invest in Anthropic as Startup Commits $30 Billion to Azure",
+          "date": "2025-11-18"
+        }
+      ]
+    },
+    {
+      "claim": "According to a Bloomberg analysis of federal lobbying filings, Microsoft spent about $9.36 million on U.S. federal lobbying in 2025, slightly less than in 2024. Axios put its quarterly spending at $2.4 million in Q1, $2 million in Q3 and $2.4 million in Q4 2025.",
+      "status": "reported",
+      "date": "2025",
+      "quote": "Amazon came next at about $17.89 million, Alphabet at $13.10 million, and Microsoft at $9.36 million.",
+      "sources": [
+        {
+          "url": "https://www.deeplearning.ai/the-batch/meta-amazon-microsoft-google-and-nvidia-pour-millions-into-government-influence",
+          "publisher": "DeepLearning.AI (The Batch), relaying a Bloomberg analysis of federal lobbying filings",
+          "title": "Big AI Spends Big On Lobbying: Meta, Amazon, Microsoft, Google, and Nvidia pour millions into government influence",
+          "date": "2026"
+        },
+        {
+          "url": "https://www.axios.com/2026/01/21/meta-big-tech-lobbying-spending-q4",
+          "publisher": "Axios",
+          "title": "Meta outspends Big Tech peers on lobbying again",
+          "date": "2026-01-21"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "openai",
+      "relation": "invested in",
+      "claim": "Microsoft has committed $13 billion in funding to OpenAI and, after the October 2025 recapitalization, holds roughly 27 percent of OpenAI Group PBC, valued at about $135 billion, with model IP rights through 2032.",
+      "status": "documented",
+      "date": "2025-10-28",
+      "quote": "The company will continue to account for its $13 billion of total funding commitments to OpenAI as an investment under the equity method of accounting.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525256321/msft-20250930.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Microsoft filing)",
+          "title": "Microsoft Corp. Form 10-Q for the quarter ended September 30, 2025",
+          "date": "2025-10"
+        },
+        {
+          "url": "https://www.aljazeera.com/economy/2025/10/28/openai-restructures-into-public-benefit-firm-microsoft-takes-27-stake",
+          "publisher": "Al Jazeera",
+          "title": "OpenAI restructures into public-benefit firm, Microsoft takes 27% stake",
+          "date": "2025-10-28"
+        }
+      ]
+    },
+    {
+      "to": "anthropic",
+      "relation": "invested in",
+      "claim": "Microsoft agreed in November 2025 to invest up to $5 billion in Anthropic as part of a joint commitment with Nvidia, alongside Anthropic's $30 billion Azure purchase commitment.",
+      "status": "reported",
+      "date": "2025-11-18",
+      "quote": "Nvidia's share is up to $10 billion and Microsoft's is up to $5 billion.",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2025-11-18/microsoft-nvidia-to-invest-up-to-15-billion-in-anthropic",
+          "publisher": "Bloomberg",
+          "title": "Microsoft, Nvidia to Invest Up to $15 Billion in Anthropic",
+          "date": "2025-11-18"
+        },
+        {
+          "url": "https://finance.yahoo.com/news/microsoft-nvidia-invest-anthropic-startup-113316065.html",
+          "publisher": "Yahoo Finance",
+          "title": "Microsoft and Nvidia to Invest in Anthropic as Startup Commits $30 Billion to Azure",
+          "date": "2025-11-18"
+        }
+      ]
+    },
+    {
+      "to": "pentagon",
+      "relation": "contracted with",
+      "claim": "Microsoft held the Army's 2018 IVAS agreement (up to $22 billion over ten years) until its novation to Anduril in April 2025, won the JEDI cloud contract in 2019 before its cancellation, and is a provider on the Joint Warfighting Cloud Capability contract awarded in December 2022.",
+      "status": "documented",
+      "date": "2018-11",
+      "quote": "On April 10, 2025, the Army reportedly approved a \"contract novation,\" a legal action in which one party replaces another party in a contract, that effectively transferred Microsoft's contract for IVAS to Anduril.",
+      "sources": [
+        {
+          "url": "https://www.congress.gov/crs-product/IF13022",
+          "publisher": "Congressional Research Service",
+          "title": "Army's Integrated Visual Augmentation System (IVAS)/Soldier Borne Mission Command (SBMC)",
+          "date": "2026-07-20"
+        },
+        {
+          "url": "https://breakingdefense.com/2025/04/anduril-gets-green-light-from-army-to-take-over-microsofts-ivas-project-exec/",
+          "publisher": "Breaking Defense",
+          "title": "Anduril gets green light from Army to take over Microsoft's IVAS project: Exec",
+          "date": "2025-04"
+        },
+        {
+          "url": "https://www.nextgov.com/digital-government/2022/12/amazon-google-microsoft-oracle-awarded-9b-pentagon-cloud-contract/380596/",
+          "publisher": "Nextgov/FCW",
+          "title": "Pentagon Awards $9B Cloud Contract to Amazon, Google, Microsoft, Oracle",
+          "date": "2022-12"
+        }
+      ]
+    },
+    {
+      "to": "anduril",
+      "relation": "other",
+      "claim": "Microsoft's Army IVAS production contract was transferred to Anduril through a contract novation approved by the Army in April 2025, after Microsoft announced the plan in February 2025.",
+      "status": "documented",
+      "date": "2025-04-10",
+      "quote": "In February, Microsoft announced plans to slide the production contract over to the tech company.",
+      "sources": [
+        {
+          "url": "https://breakingdefense.com/2025/04/anduril-gets-green-light-from-army-to-take-over-microsofts-ivas-project-exec/",
+          "publisher": "Breaking Defense",
+          "title": "Anduril gets green light from Army to take over Microsoft's IVAS project: Exec",
+          "date": "2025-04"
+        },
+        {
+          "url": "https://www.congress.gov/crs-product/IF13022",
+          "publisher": "Congressional Research Service",
+          "title": "Army's Integrated Visual Augmentation System (IVAS)/Soldier Borne Mission Command (SBMC)",
+          "date": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "to": "nvidia",
+      "relation": "partnered with",
+      "claim": "Microsoft and Nvidia jointly agreed in November 2025 to invest up to $15 billion in Anthropic.",
+      "status": "reported",
+      "date": "2025-11-18",
+      "quote": "Microsoft and Nvidia agreed to invest up to $15 billion combined in Anthropic",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2025-11-18/microsoft-nvidia-to-invest-up-to-15-billion-in-anthropic",
+          "publisher": "Bloomberg",
+          "title": "Microsoft, Nvidia to Invest Up to $15 Billion in Anthropic",
+          "date": "2025-11-18"
+        }
+      ]
+    },
+    {
+      "to": "israel",
+      "toName": "Israel Ministry of Defense",
+      "toType": "agency",
+      "relation": "other",
+      "claim": "Microsoft said in September 2025 that it had ceased and disabled specified Israel Ministry of Defense subscriptions and services, including cloud storage and AI services used by a unit within the ministry, to enforce its terms of service against mass surveillance of civilians.",
+      "status": "reported",
+      "date": "2025-09-25",
+      "quote": "ensuring our services are not used for mass surveillance of civilians",
+      "sources": [
+        {
+          "url": "https://www.calcalistech.com/ctechnews/article/gzlnr9rg2",
+          "publisher": "Calcalist (CTech)",
+          "title": "Microsoft cuts off Israel's Unit 8200 from cloud services after surveillance revelations",
+          "date": "2025-09-25"
+        },
+        {
+          "url": "https://www.business-humanrights.org/en/latest-news/israelopt-microsoft-terminates-idfs-access-to-technology-used-to-operate-mass-surveillance-system-in-gaza-the-west-bank/",
+          "publisher": "Business & Human Rights Resource Centre",
+          "title": "Israel/OPT: Microsoft terminates Israeli military's access to technology used to operate mass surveillance system in Gaza & the West Bank",
+          "date": "2025-09"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The Storm-0558 and PRISM topics are already summarized on the Crash Conduits page; the CSRB report PDF on cisa.gov is the primary source for the findings recorded here.",
+    "Brad Smith's September 25, 2025 statement is quoted here via Calcalist and the Business & Human Rights Resource Centre; the original Microsoft On the Issues post should be clipped.",
+    "Microsoft's percentage of OpenAI after the 2026 funding round has not been published."
+  ]
+}

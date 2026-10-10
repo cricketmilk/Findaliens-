@@ -1,0 +1,125 @@
+{
+  "entity": "robin-hanson",
+  "name": "Robin Hanson",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Robin Hanson is an associate professor of economics at George Mason University, where he joined the faculty in 1999 after a PhD in social sciences from Caltech (1997) and a post-doc at UC Berkeley. His 2016 book The Age of Em (Oxford University Press) describes a scenario in which human brains are scanned and run as software 'emulations' that can be copied cheaply, driving their wages toward subsistence.",
+    "sources": [
+      {
+        "url": "https://economics.gmu.edu/people/full_time_faculty",
+        "publisher": "George Mason University, Department of Economics",
+        "title": "Full-time Faculty",
+        "date": ""
+      },
+      {
+        "url": "https://idia.gmu.edu/faculty_directory/robin-hanson/",
+        "publisher": "George Mason University (IDIA)",
+        "title": "Robin Hanson, PhD",
+        "date": ""
+      },
+      {
+        "url": "https://ageofem.com/",
+        "publisher": "Robin Hanson (book site)",
+        "title": "The Age of Em: Work, Love and Life when Robots Rule the Earth",
+        "date": "2016"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "George Mason University's economics department lists Hanson as an associate professor with research interests in health economics and political economy. He received a PhD in social sciences from Caltech in 1997, completed a two-year post-doc at UC Berkeley, and joined George Mason's economics faculty in 1999 as an assistant professor.",
+      "status": "documented",
+      "date": "1999",
+      "quote": "Robin D Hanson. Associate Professor. Health economics, political economy.",
+      "sources": [
+        {
+          "url": "https://economics.gmu.edu/people/full_time_faculty",
+          "publisher": "George Mason University, Department of Economics",
+          "title": "Full-time Faculty",
+          "date": ""
+        },
+        {
+          "url": "https://idia.gmu.edu/faculty_directory/robin-hanson/",
+          "publisher": "George Mason University (IDIA)",
+          "title": "Robin Hanson, PhD",
+          "date": ""
+        },
+        {
+          "url": "https://econfaculty.gmu.edu/hanson/home.html",
+          "publisher": "George Mason University (Robin Hanson's home page)",
+          "title": "Robin Hanson's Home Page",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "claim": "The Age of Em: Work, Love and Life when Robots Rule the Earth was published by Oxford University Press in 2016. It assumes brain emulation rather than artificial general intelligence, and argues that because emulations can be copied cheaply their wages fall to near subsistence, with most ems working in virtual reality and biological humans living off investments in the em economy.",
+      "status": "reported",
+      "date": "2016",
+      "quote": "cheap copying drives em wages to near subsistence",
+      "sources": [
+        {
+          "url": "https://ageofem.com/",
+          "publisher": "Robin Hanson (book site)",
+          "title": "The Age of Em: Work, Love and Life when Robots Rule the Earth",
+          "date": "2016"
+        },
+        {
+          "url": "https://bayesianinvestor.com/blog/index.php/2016/05/24/the-age-of-em",
+          "publisher": "Bayesian Investor Blog",
+          "title": "The Age of Em (review)",
+          "date": "2016-05-24"
+        },
+        {
+          "url": "https://econlib.org/archives/2016/06/whats_wrong_in.html",
+          "publisher": "EconLib (Bryan Caplan)",
+          "title": "What's Wrong in Robin Hanson's The Age of Em",
+          "date": "2016-06"
+        }
+      ]
+    },
+    {
+      "claim": "Economist Bryan Caplan, Hanson's George Mason colleague, wrote in 2016 that the book 'greatly displeases' him and that its reasoning 'simply isn't very rigorous'.",
+      "status": "words",
+      "date": "2016-06",
+      "quote": "the reasoning simply isn't very rigorous",
+      "sources": [
+        {
+          "url": "https://econlib.org/archives/2016/06/whats_wrong_in.html",
+          "publisher": "EconLib (Bryan Caplan)",
+          "title": "What's Wrong in Robin Hanson's The Age of Em",
+          "date": "2016-06"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "George Mason University",
+      "toName": "George Mason University",
+      "toType": "university",
+      "relation": "employed by",
+      "claim": "Hanson has taught economics at George Mason University since 1999 and is an associate professor there.",
+      "status": "documented",
+      "date": "1999",
+      "quote": "he joined George Mason's economics faculty in 1999 after completing a two-year post-doc at U.C Berkeley",
+      "sources": [
+        {
+          "url": "https://idia.gmu.edu/faculty_directory/robin-hanson/",
+          "publisher": "George Mason University (IDIA)",
+          "title": "Robin Hanson, PhD",
+          "date": ""
+        },
+        {
+          "url": "https://economics.gmu.edu/people/full_time_faculty",
+          "publisher": "George Mason University, Department of Economics",
+          "title": "Full-time Faculty",
+          "date": ""
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Hanson's affiliation as a research associate of Oxford's Future of Humanity Institute appeared only in Wikipedia-derived text and was not recorded."
+  ]
+}

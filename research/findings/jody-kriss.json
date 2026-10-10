@@ -1,0 +1,212 @@
+{
+  "entity": "jody-kriss",
+  "name": "Jody Kriss",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Jody Kriss was the Bayrock Group's director of finance from 2003 to 2007. In 2010 he sued Bayrock, its principals Tevfik Arif and Felix Sater, and related entities and professional firms in the Southern District of New York under the civil RICO statute, alleging the firm laundered money, evaded taxes and defrauded him of money he was owed, and that Arif and Sater concealed Sater's 1998 racketeering conviction from the Trump Organization. Bayrock denied the claims. In February 2018 the parties agreed in principle to settle on undisclosed terms.",
+    "sources": [
+      {
+        "url": "https://case-law.vlex.com/vid/kriss-v-bayrock-grp-893069938",
+        "publisher": "vLex (U.S. District Court, S.D.N.Y. opinion)",
+        "title": "Kriss v. Bayrock Grp. LLC"
+      },
+      {
+        "url": "https://therealdeal.com/2018/02/22/kriss-bayrock-agree-to-settle-lawsuit-after-8-years",
+        "publisher": "The Real Deal",
+        "title": "Kriss, Bayrock agree to settle lawsuit after 8 years",
+        "date": "2018-02-22"
+      },
+      {
+        "url": "https://www.bloomberg.com/news/articles/2018-02-22/trump-linked-real-estate-firm-settles-suit-by-former-executive",
+        "publisher": "Bloomberg",
+        "title": "Trump-Linked Real Estate Firm Settles Suit by Ex-Employee",
+        "date": "2018-02-22"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The court record describes Kriss as Bayrock Group's director of finance from 2003 to 2007 and names Tevfik Arif, Felix Sater and numerous Bayrock-linked entities and professional firms as defendants in his suit.",
+      "status": "documented",
+      "date": "2010-05",
+      "quote": "Kriss served as Bayrock Group's director of finance from 2003 to 2007",
+      "sources": [
+        {
+          "url": "https://case-law.vlex.com/vid/kriss-v-bayrock-grp-893069938",
+          "publisher": "vLex (U.S. District Court, S.D.N.Y. opinion)",
+          "title": "Kriss v. Bayrock Grp. LLC"
+        },
+        {
+          "url": "https://cases.justia.com/federal/district-courts/new-york/nysdce/1:2010cv03959/362805/523/0.pdf",
+          "publisher": "Justia (S.D.N.Y. docket 1:10-cv-03959, document 523)",
+          "title": "Kriss v. Bayrock Group LLC — court filing"
+        }
+      ]
+    },
+    {
+      "claim": "Kriss's 2010 suit alleged that Sater and Arif's real-estate firm laundered money, evaded taxes and cheated him out of millions, and that Arif and Sater defrauded the Trump Organization by not disclosing Sater's 1998 racketeering conviction.",
+      "status": "documented",
+      "date": "2010",
+      "quote": "alleging that Felix Sater and Tevfik Arif's real estate firm laundered money, evaded taxes and bilked him out of millions",
+      "sources": [
+        {
+          "url": "https://therealdeal.com/2018/02/22/kriss-bayrock-agree-to-settle-lawsuit-after-8-years",
+          "publisher": "The Real Deal",
+          "title": "Kriss, Bayrock agree to settle lawsuit after 8 years",
+          "date": "2018-02-22"
+        },
+        {
+          "url": "https://s3.documentcloud.org/documents/2638421/Kriss-v-Bayrock-Complaint.txt",
+          "publisher": "DocumentCloud (court filing)",
+          "title": "Kriss v. Bayrock complaint"
+        }
+      ]
+    },
+    {
+      "claim": "Sater's side denied the accusations and described Kriss as a disgruntled former employee.",
+      "status": "reported",
+      "date": "2016",
+      "quote": "labeled the former Bayrock finance director as a disgruntled ex-employee",
+      "sources": [
+        {
+          "url": "https://therealdeal.com/2018/02/22/kriss-bayrock-agree-to-settle-lawsuit-after-8-years",
+          "publisher": "The Real Deal",
+          "title": "Kriss, Bayrock agree to settle lawsuit after 8 years",
+          "date": "2018-02-22"
+        }
+      ]
+    },
+    {
+      "claim": "In February 2018 Bayrock agreed in principle to settle the suit, according to a federal court filing; Bloomberg reported the two sides worked out the settlement over several months and neither source disclosed the terms.",
+      "status": "court",
+      "date": "2018-02-22",
+      "quote": "In February 2018, Bayrock agreed in principle to settle the suit filed in 2010 by former finance director Jody Kriss",
+      "sources": [
+        {
+          "url": "https://therealdeal.com/2018/02/22/kriss-bayrock-agree-to-settle-lawsuit-after-8-years",
+          "publisher": "The Real Deal",
+          "title": "Kriss, Bayrock agree to settle lawsuit after 8 years",
+          "date": "2018-02-22"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2018-02-22/trump-linked-real-estate-firm-settles-suit-by-former-executive",
+          "publisher": "Bloomberg",
+          "title": "Trump-Linked Real Estate Firm Settles Suit by Ex-Employee",
+          "date": "2018-02-22"
+        }
+      ]
+    },
+    {
+      "claim": "Several Second Circuit appeals tied to the case were docketed in 2016, 2017 and 2018.",
+      "status": "documented",
+      "date": "2016",
+      "quote": "Kriss v. BayRock Group LLC",
+      "sources": [
+        {
+          "url": "https://dockets.justia.com/docket/circuit-courts/ca2/16-3524",
+          "publisher": "Justia Dockets",
+          "title": "Kriss v. BayRock Group LLC (2d Cir. No. 16-3524)",
+          "date": "2016"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "bayrock-group",
+      "toName": "Bayrock Group",
+      "toType": "company",
+      "relation": "sued",
+      "claim": "Kriss, Bayrock's former director of finance, sued the firm under RICO in 2010; the parties agreed in principle to settle in February 2018.",
+      "status": "court",
+      "date": "2010",
+      "quote": "Bayrock agreed in principle to settle the suit filed in 2010 by former finance director Jody Kriss",
+      "sources": [
+        {
+          "url": "https://therealdeal.com/2018/02/22/kriss-bayrock-agree-to-settle-lawsuit-after-8-years",
+          "publisher": "The Real Deal",
+          "title": "Kriss, Bayrock agree to settle lawsuit after 8 years",
+          "date": "2018-02-22"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2018-02-22/trump-linked-real-estate-firm-settles-suit-by-former-executive",
+          "publisher": "Bloomberg",
+          "title": "Trump-Linked Real Estate Firm Settles Suit by Ex-Employee",
+          "date": "2018-02-22"
+        },
+        {
+          "url": "https://case-law.vlex.com/vid/kriss-v-bayrock-grp-893069938",
+          "publisher": "vLex (U.S. District Court, S.D.N.Y. opinion)",
+          "title": "Kriss v. Bayrock Grp. LLC"
+        }
+      ]
+    },
+    {
+      "to": "bayrock-group",
+      "toName": "Bayrock Group",
+      "toType": "company",
+      "relation": "employed by",
+      "claim": "Kriss served as Bayrock Group's director of finance from 2003 to 2007.",
+      "status": "documented",
+      "date": "2003",
+      "quote": "Kriss served as Bayrock Group's director of finance from 2003 to 2007",
+      "sources": [
+        {
+          "url": "https://case-law.vlex.com/vid/kriss-v-bayrock-grp-893069938",
+          "publisher": "vLex (U.S. District Court, S.D.N.Y. opinion)",
+          "title": "Kriss v. Bayrock Grp. LLC"
+        }
+      ]
+    },
+    {
+      "to": "felix-sater",
+      "toName": "Felix Sater",
+      "toType": "person",
+      "relation": "sued",
+      "claim": "Kriss named Felix Sater as a defendant in his 2010 RICO suit against Bayrock; Sater denied the accusations.",
+      "status": "documented",
+      "date": "2010",
+      "quote": "Felix Satter (Sater), and numerous Bayrock-linked entities and professional firms as defendants",
+      "sources": [
+        {
+          "url": "https://case-law.vlex.com/vid/kriss-v-bayrock-grp-893069938",
+          "publisher": "vLex (U.S. District Court, S.D.N.Y. opinion)",
+          "title": "Kriss v. Bayrock Grp. LLC"
+        },
+        {
+          "url": "https://therealdeal.com/2018/02/22/kriss-bayrock-agree-to-settle-lawsuit-after-8-years",
+          "publisher": "The Real Deal",
+          "title": "Kriss, Bayrock agree to settle lawsuit after 8 years",
+          "date": "2018-02-22"
+        }
+      ]
+    },
+    {
+      "to": "tevfik-arif",
+      "toName": "Tevfik Arif",
+      "toType": "person",
+      "relation": "sued",
+      "claim": "Kriss named Bayrock founder Tevfik Arif as a defendant in his 2010 RICO suit.",
+      "status": "documented",
+      "date": "2010",
+      "quote": "Tevfik Arif, Felix Satter (Sater), and numerous Bayrock-linked entities",
+      "sources": [
+        {
+          "url": "https://case-law.vlex.com/vid/kriss-v-bayrock-grp-893069938",
+          "publisher": "vLex (U.S. District Court, S.D.N.Y. opinion)",
+          "title": "Kriss v. Bayrock Grp. LLC"
+        },
+        {
+          "url": "https://therealdeal.com/2018/02/22/kriss-bayrock-agree-to-settle-lawsuit-after-8-years",
+          "publisher": "The Real Deal",
+          "title": "Kriss, Bayrock agree to settle lawsuit after 8 years",
+          "date": "2018-02-22"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The entity is in the seed list only; the site's Sater dossier does not name Kriss. The allegations in his complaint were never adjudicated; the case settled.",
+    "The settlement amount and the final disposition of the related appeals were not found."
+  ]
+}

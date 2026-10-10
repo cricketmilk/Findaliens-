@@ -1,0 +1,130 @@
+{
+  "entity": "spiritual-mobilization",
+  "name": "Spiritual Mobilization",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Spiritual Mobilization was founded in 1935 by Los Angeles Congregationalist minister James W. Fifield Jr. to recruit ministers against the New Deal and for 'faith, freedom and free enterprise.' Historian Kevin Kruse says it was funded by Sun Oil's J. Howard Pew (its main sponsor), Alfred Sloan of General Motors and the heads of the U.S. Chamber of Commerce and the National Association of Manufacturers; The Nation adds Harvey Firestone. On July 1, 1951 it organized the CBS broadcast 'Freedom Under God,' sponsored by its Committee to Proclaim Liberty.",
+    "sources": [
+      {
+        "url": "https://www.npr.org/2015/03/30/396365659/how-one-nation-didnt-become-under-god-until-the-50s-religious-revival",
+        "publisher": "NPR (Fresh Air)",
+        "title": "How 'One Nation' Didn't Become 'Under God' Until The '50s Religious Revival",
+        "date": "2015-03-30"
+      },
+      {
+        "url": "https://www.thenation.com/?p=131186",
+        "publisher": "The Nation",
+        "title": "How Long Have We Really Been 'One Nation Under God'?",
+        "date": "2015"
+      },
+      {
+        "url": "https://asset.library.wisc.edu/1711.dl/NCLQEOUED2EHK8K/R/file-03725.pdf",
+        "publisher": "University of Wisconsin–Madison Libraries",
+        "title": "Freedom Under God program file (Spiritual Mobilization, 1951)"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Kruse says business groups chafing at New Deal regulation recruited and funded conservative clergy to preach 'faith, freedom and free enterprise'; Spiritual Mobilization's funders included Pew, Sloan and the heads of the Chamber of Commerce and NAM, and within about a decade Fifield had about 17,000 'minister representatives.'",
+      "status": "reported",
+      "date": "1935–1950s",
+      "quote": "recruited and funded conservative clergy to preach faith, freedom and free enterprise",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2015/03/30/396365659/how-one-nation-didnt-become-under-god-until-the-50s-religious-revival",
+          "publisher": "NPR (Fresh Air)",
+          "title": "How 'One Nation' Didn't Become 'Under God' Until The '50s Religious Revival",
+          "date": "2015-03-30"
+        }
+      ]
+    },
+    {
+      "claim": "A program file held by the University of Wisconsin–Madison Libraries records that CBS carried a live nationwide broadcast on 'Independence Sunday,' July 1, 1951, titled 'Freedom Under God,' sponsored by the Committee to Proclaim Liberty and organized by Spiritual Mobilization; James Ingebretsen, the group's executive vice-president, chaired the committee and Jimmy Stewart was master of ceremonies.",
+      "status": "documented",
+      "date": "1951-07-01",
+      "quote": "sponsored by the Committee to Proclaim Liberty and titled \"Freedom Under God\"",
+      "sources": [
+        {
+          "url": "https://asset.library.wisc.edu/1711.dl/NCLQEOUED2EHK8K/R/file-03725.pdf",
+          "publisher": "University of Wisconsin–Madison Libraries",
+          "title": "Freedom Under God program file (Spiritual Mobilization, 1951)"
+        }
+      ]
+    },
+    {
+      "claim": "Reason, reviewing Kruse, summarizes his argument that corporate leaders and business lobbies promoted a blend of Christianity and anti-federal libertarianism, with Fifield as an early evangelist.",
+      "status": "reported",
+      "date": "2015-03-25",
+      "quote": "corporate leaders and business lobbies promoted a blend of Christianity and anti-federal libertarianism, with Fifield as an early evangelist",
+      "sources": [
+        {
+          "url": "https://reason.com/2015/03/25/were-libertarians-behind-the-christian-n/",
+          "publisher": "Reason",
+          "title": "Were Libertarians Behind the Christian Nation?",
+          "date": "2015-03-25"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "james-fifield",
+      "toName": "James Fifield",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Fifield founded Spiritual Mobilization in 1935 and was its president.",
+      "status": "reported",
+      "date": "1935",
+      "quote": "Congregationalist minister James Fifield founded it",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2015/03/30/396365659/how-one-nation-didnt-become-under-god-until-the-50s-religious-revival",
+          "publisher": "NPR (Fresh Air)",
+          "title": "How 'One Nation' Didn't Become 'Under God' Until The '50s Religious Revival",
+          "date": "2015-03-30"
+        }
+      ]
+    },
+    {
+      "to": "j-howard-pew",
+      "toName": "J. Howard Pew",
+      "toType": "person",
+      "relation": "funded",
+      "claim": "Kruse identifies Pew as Spiritual Mobilization's main sponsor.",
+      "status": "reported",
+      "date": "1940s",
+      "quote": "Sun Oil President J. Howard Pew",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2015/03/30/396365659/how-one-nation-didnt-become-under-god-until-the-50s-religious-revival",
+          "publisher": "NPR (Fresh Air)",
+          "title": "How 'One Nation' Didn't Become 'Under God' Until The '50s Religious Revival",
+          "date": "2015-03-30"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "kevin-kruse",
+      "toName": "Kevin Kruse",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Historian Kevin Kruse's One Nation Under God (2015) is the principal account of Spiritual Mobilization's corporate funding.",
+      "status": "reported",
+      "date": "2015",
+      "quote": "Fifield served as a front man for a number of corporate leaders",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2015/03/30/396365659/how-one-nation-didnt-become-under-god-until-the-50s-religious-revival",
+          "publisher": "NPR (Fresh Air)",
+          "title": "How 'One Nation' Didn't Become 'Under God' Until The '50s Religious Revival",
+          "date": "2015-03-30"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim dates the broadcast as a July 4 observance; the Wisconsin program file gives July 1, 1951 ('Independence Sunday'). Who paid for the broadcast and the Committee to Proclaim Liberty's named sponsors are not identified in opened sources; Kruse's book lists them."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "entity": "lawrence-preston-gise",
+  "name": "Lawrence Preston Gise",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Lawrence Preston Gise was a career official of the U.S. Atomic Energy Commission who served as Deputy Manager of its Albuquerque Operations Office from May 1957 to January 1961 and was later appointed Manager of that office, which oversaw the nuclear-weapons laboratories and production complex. He is the maternal grandfather of Amazon founder Jeff Bezos. Accounts that he helped found or direct ARPA in 1958 rest on secondary sources and are disputed.",
+    "sources": [
+      { "url": "https://www.govinfo.gov/content/pkg/CHRG-89shrg67082O/pdf/CHRG-89shrg67082O.pdf", "publisher": "U.S. Senate (GovInfo hearing record)", "title": "Senate hearing record, 89th Congress, including biographical statement of L.P. Gise", "date": "1965" },
+      { "url": "https://archivecollections.uea.ac.uk/sz.csa.128.24", "publisher": "University of East Anglia Archives", "title": "Appointment of L.P. Gise as Manager, Albuquerque Operations Office, AEC", "date": "1964" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "A Senate hearing record lists Gise as Deputy Manager of the Atomic Energy Commission's Albuquerque Operations Office from May 1957 to January 1961.",
+      "status": "documented",
+      "date": "1957-05",
+      "quote": "Deputy Manager of the Albuquerque Operations Office from May 1957 to January 1961",
+      "sources": [
+        { "url": "https://www.govinfo.gov/content/pkg/CHRG-89shrg67082O/pdf/CHRG-89shrg67082O.pdf", "publisher": "U.S. Senate (GovInfo hearing record)", "title": "Senate hearing record, 89th Congress, including biographical statement of L.P. Gise", "date": "1965" }
+      ]
+    },
+    {
+      "claim": "A 1964 archival item records Gise's appointment as Manager of the AEC's Albuquerque Operations Office.",
+      "status": "documented",
+      "date": "1964",
+      "sources": [
+        { "url": "https://archivecollections.uea.ac.uk/sz.csa.128.24", "publisher": "University of East Anglia Archives", "title": "Appointment of L.P. Gise as Manager, Albuquerque Operations Office, AEC", "date": "1964" }
+      ]
+    },
+    {
+      "claim": "Jeff Bezos's mother, Jacklyn Bezos (née Gise), is the daughter of Lawrence Preston Gise.",
+      "status": "reported",
+      "date": "2021",
+      "quote": "Jeffrey Preston Bezos' mother, Jacklyn Bezos (nee' Gise) was the daughter of Lawrence Preston Gise (L.P. Gise.)",
+      "sources": [
+        { "url": "https://billtaylor.substack.com/p/before-jeff-bezos-grandfather-helped", "publisher": "Bill Taylor (Substack)", "title": "Before Jeff Bezos, grandfather helped...", "date": "2021" }
+      ]
+    },
+    {
+      "claim": "A secondary account states that Gise worked for the Atomic Energy Commission from 1949 and served in an administrative role at ARPA in the late 1950s focused on programme control, but that he was not a founder of ARPA, whose first director was Roy Johnson.",
+      "status": "reported",
+      "date": "1958",
+      "sources": [
+        { "url": "https://zososcorner.substack.com/p/s01e158", "publisher": "Zoso's Corner (Substack)", "title": "S01E158: We'll See", "date": "2026" },
+        { "url": "https://billtaylor.substack.com/p/before-jeff-bezos-grandfather-helped", "publisher": "Bill Taylor (Substack)", "title": "Before Jeff Bezos, grandfather helped...", "date": "2021" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "jeff-bezos",
+      "toName": "Jeff Bezos",
+      "toType": "person",
+      "relation": "family of",
+      "claim": "Gise was the maternal grandfather of Jeff Bezos.",
+      "status": "reported",
+      "date": "1964",
+      "sources": [
+        { "url": "https://billtaylor.substack.com/p/before-jeff-bezos-grandfather-helped", "publisher": "Bill Taylor (Substack)", "title": "Before Jeff Bezos, grandfather helped...", "date": "2021" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site's 'Gise-ARPA lineage' rests on Gise's ARPA role. No primary ARPA or DARPA record of his position was found; the AEC roles are documented in congressional and archival records, while the ARPA role appears only in blogs and is disputed as to its extent. Partly unsupported.",
+    "The family link is sourced here only to a Substack post; a mainstream biography of Bezos should be substituted."
+  ]
+}

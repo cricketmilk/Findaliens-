@@ -1,0 +1,64 @@
+{
+  "entity": "blackstone",
+  "name": "Blackstone",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Blackstone Inc. (formerly The Blackstone Group) is a New York-based alternative asset manager. On this site it appears as the corporate umbrella under which BlackRock was founded in 1988 before the two separated in the 1990s, and through its Saudi relationship: on May 20, 2017 Blackstone and Saudi Arabia's Public Investment Fund (PIF) announced a non-binding memorandum of understanding for a new infrastructure investment vehicle with an anchor $20 billion commitment from PIF, which Blackstone expected to reach $40 billion in equity commitments and, with debt, more than $100 billion of projects principally in the United States. PIF announced the signing of definitive documentation at the Future Investment Initiative in Riyadh on October 25, 2017.",
+    "sources": [
+      { "url": "https://www.blackstone.com/press-releases/article/blackstone-to-launch-40-billion-infrastructure-investment-vehicle-and-new-infrastructure-business/", "publisher": "Blackstone", "title": "Blackstone to Launch $40 Billion Infrastructure Investment Vehicle and New Infrastructure Business", "date": "2017-05-20" },
+      { "url": "https://pif.gov.sa/en/news-and-insights/press-releases/2017/blackstone-infrastructure-business", "publisher": "Public Investment Fund", "title": "PIF and Blackstone sign definitive documentation for new infrastructure business - Vehicle Will Invest in Enhancement of United States Infrastructure Assets", "date": "2017-10-25" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On May 20, 2017 Blackstone and the Public Investment Fund of Saudi Arabia announced a memorandum of understanding for a new infrastructure investment vehicle with an anchor $20 billion contribution from PIF. Blackstone said it anticipated $40 billion in total equity commitments in a permanent capital vehicle, including $20 billion from other investors, and with debt expected to invest in more than $100 billion of infrastructure projects, principally in the United States. The release stated the MOU was non-binding.",
+      "status": "documented",
+      "date": "2017-05-20",
+      "quote": "Blackstone anticipates $40 billion in total equity commitments in a permanent capital vehicle, including $20 billion to be raised from other investors",
+      "sources": [
+        { "url": "https://www.blackstone.com/press-releases/article/blackstone-to-launch-40-billion-infrastructure-investment-vehicle-and-new-infrastructure-business/", "publisher": "Blackstone", "title": "Blackstone to Launch $40 Billion Infrastructure Investment Vehicle and New Infrastructure Business", "date": "2017-05-20" },
+        { "url": "https://www.axios.com/2017/12/15/saudis-pledge-20-billion-to-us-focused-infrastructure-fund-1513302461", "publisher": "Axios", "title": "Saudis pledge $20 billion to U.S.-focused infrastructure fund", "date": "2017-05-20" }
+      ]
+    },
+    {
+      "claim": "PIF announced on October 25, 2017 that Blackstone and PIF had signed definitive documentation at the Future Investment Initiative in Riyadh for a new Blackstone business primarily dedicated to investing in U.S. infrastructure, with an anchor commitment of up to $20 billion by PIF.",
+      "status": "documented",
+      "date": "2017-10-25",
+      "quote": "an anchor commitment of up to $20 billion by PIF",
+      "sources": [
+        { "url": "https://pif.gov.sa/en/news-and-insights/press-releases/2017/blackstone-infrastructure-business", "publisher": "Public Investment Fund", "title": "PIF and Blackstone sign definitive documentation for new infrastructure business - Vehicle Will Invest in Enhancement of United States Infrastructure Assets", "date": "2017-10-25" }
+      ]
+    },
+    {
+      "claim": "The Asset reported that M. Klein and Company advised PIF on the creation of its strategic partnership with Blackstone; Bloomberg, via Business Standard, reported Blackstone's ambition of a $100 billion U.S. infrastructure programme.",
+      "status": "reported",
+      "date": "2017-05-22",
+      "quote": "M. Klein and Company advised PIF on the creation of this strategic partnership with Blackstone",
+      "sources": [
+        { "url": "https://www.theasset.com/article/32902/theasset.com", "publisher": "The Asset", "title": "Blackstone and PIF infrastructure partnership", "date": "2017-05" },
+        { "url": "https://www.business-standard.com/amp/article/international/blackstone-unveils-100-billion-ambition-for-infrastructure-117052200106_1.html", "publisher": "Business Standard (Bloomberg)", "title": "Blackstone unveils $100-billion ambition for infrastructure", "date": "2017-05-22" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "saudi-public-investment-fund",
+      "toName": "Saudi Public Investment Fund",
+      "toType": "fund",
+      "relation": "partnered with",
+      "claim": "PIF agreed in 2017 to anchor Blackstone's new U.S.-focused infrastructure business with a commitment of up to $20 billion, under an MOU of May 20, 2017 and definitive documents signed October 25, 2017.",
+      "status": "documented",
+      "date": "2017-10-25",
+      "quote": "an anchor $20 billion contribution from PIF",
+      "sources": [
+        { "url": "https://www.blackstone.com/press-releases/article/blackstone-to-launch-40-billion-infrastructure-investment-vehicle-and-new-infrastructure-business/", "publisher": "Blackstone", "title": "Blackstone to Launch $40 Billion Infrastructure Investment Vehicle and New Infrastructure Business", "date": "2017-05-20" },
+        { "url": "https://pif.gov.sa/en/news-and-insights/press-releases/2017/blackstone-infrastructure-business", "publisher": "Public Investment Fund", "title": "PIF and Blackstone sign definitive documentation for new infrastructure business - Vehicle Will Invest in Enhancement of United States Infrastructure Assets", "date": "2017-10-25" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The larry-fink file records, from Wikipedia, that BlackRock was founded in 1988 under The Blackstone Group's corporate umbrella and split from Blackstone in 1994; a primary source (Blackstone's 2007 S-1 or BlackRock's filings) was not opened because the web search budget was exhausted, so no Blackstone-BlackRock connection is recorded here.",
+    "How much of the $40 billion target Blackstone Infrastructure Partners ultimately raised, and how much PIF actually funded, was not researched.",
+    "The Axios link's URL date (December 15, 2017) differs from the article's subject (the May 2017 pledge); the Blackstone and PIF releases are the primary record."
+  ]
+}

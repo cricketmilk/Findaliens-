@@ -1,0 +1,152 @@
+{
+  "entity": "joel-gilbert",
+  "name": "Joel Gilbert",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Joel Iverson Gilbert was a partner at the Birmingham law firm Balch & Bingham. In July 2018 a federal jury convicted him and Drummond Company executive David Roberson of bribery, honest services wire fraud, conspiracy and money laundering for paying Alabama representative Oliver Robinson, through a consulting contract with Robinson's foundation, to oppose EPA Superfund action in north Birmingham. Gilbert drafted the talking points Robinson used with EPA and an anti-EPA state resolution. He was sentenced to five years; the Eleventh Circuit affirmed in 2020.",
+    "sources": [
+      {
+        "url": "https://www.justice.gov/usao-ndal/pr/federal-jury-convicts-lawyer-and-coal-company-executive-bribing-state-legislator",
+        "publisher": "U.S. Attorney's Office, Northern District of Alabama",
+        "title": "Federal Jury Convicts Lawyer and Coal Company Executive for Bribing State Legislator",
+        "date": "2018-07"
+      },
+      {
+        "url": "https://www.justice.gov/usao-ndal/pr/birmingham-lawyer-sentenced-5-years-prison-bribing-state-legislator",
+        "publisher": "U.S. Attorney's Office, Northern District of Alabama",
+        "title": "Birmingham Lawyer Sentenced to 5 Years in Prison for Bribing State Legislator",
+        "date": "2018-10"
+      },
+      {
+        "url": "https://www.justice.gov/usao-ndal/pr/appellate-court-affirms-convictions-lawyer-and-coal-company-executive-bribing-state",
+        "publisher": "U.S. Attorney's Office, Northern District of Alabama",
+        "title": "Appellate Court Affirms Convictions of Lawyer and Coal Company Executive for Bribing State Legislator",
+        "date": "2020-05"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "A federal jury convicted Gilbert of bribery, honest services wire fraud, conspiracy and money laundering in 2018.",
+      "status": "court",
+      "date": "2018-07",
+      "quote": "A jury found former Balch & Bingham partner Joel Iverson Gilbert and former Drummond Company Vice President of Government and Regulatory Affairs David Lynn Roberson guilty of bribery, honest services wire fraud, conspiracy, and money laundering.",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndal/pr/federal-jury-convicts-lawyer-and-coal-company-executive-bribing-state-legislator",
+          "publisher": "U.S. Attorney's Office, Northern District of Alabama",
+          "title": "Federal Jury Convicts Lawyer and Coal Company Executive for Bribing State Legislator",
+          "date": "2018-07"
+        }
+      ]
+    },
+    {
+      "claim": "Gilbert drafted the talking points Robinson used in a meeting with the EPA and the anti-EPA resolution Robinson voted to advance in the Alabama House Rules Committee.",
+      "status": "court",
+      "date": "2018",
+      "quote": "He also voted, as a member of the Alabama House Rules Committee, to send to the floor an anti-EPA resolution that Gilbert had drafted.",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndal/pr/former-alabama-legislator-pleads-guilty-bribery-conspiracy-fraud-and-tax-evasion",
+          "publisher": "U.S. Attorney's Office, Northern District of Alabama",
+          "title": "Former Alabama Legislator Pleads Guilty to Bribery, Conspiracy, Fraud and Tax Evasion",
+          "date": "2017-09"
+        }
+      ]
+    },
+    {
+      "claim": "Gilbert was sentenced to five years in prison.",
+      "status": "court",
+      "date": "2018-10",
+      "quote": "Gilbert was later sentenced to 5 years in prison",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndal/pr/birmingham-lawyer-sentenced-5-years-prison-bribing-state-legislator",
+          "publisher": "U.S. Attorney's Office, Northern District of Alabama",
+          "title": "Birmingham Lawyer Sentenced to 5 Years in Prison for Bribing State Legislator",
+          "date": "2018-10"
+        }
+      ]
+    },
+    {
+      "claim": "The Eleventh Circuit affirmed Gilbert's conviction on May 27, 2020.",
+      "status": "court",
+      "date": "2020-05-27",
+      "quote": "The 11th Circuit disagreed in its May 27 decision.",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndal/pr/appellate-court-affirms-convictions-lawyer-and-coal-company-executive-bribing-state",
+          "publisher": "U.S. Attorney's Office, Northern District of Alabama",
+          "title": "Appellate Court Affirms Convictions of Lawyer and Coal Company Executive for Bribing State Legislator",
+          "date": "2020-05"
+        },
+        {
+          "url": "https://abajournal.com/news/article/appeals-court-confirms-bribery-convictions-of-birmingham-lawyer-coal-company-executive",
+          "publisher": "ABA Journal",
+          "title": "Appeals court confirms bribery convictions of Birmingham lawyer, coal company executive",
+          "date": "2020-05"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "balch-and-bingham",
+      "toName": "Balch & Bingham",
+      "toType": "law firm",
+      "relation": "employed by",
+      "claim": "Gilbert was a partner at Balch & Bingham when he committed the offences.",
+      "status": "court",
+      "date": "2018",
+      "quote": "former Balch & Bingham partner Joel Iverson Gilbert",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndal/pr/federal-jury-convicts-lawyer-and-coal-company-executive-bribing-state-legislator",
+          "publisher": "U.S. Attorney's Office, Northern District of Alabama",
+          "title": "Federal Jury Convicts Lawyer and Coal Company Executive for Bribing State Legislator",
+          "date": "2018-07"
+        }
+      ]
+    },
+    {
+      "to": "drummond-company",
+      "toName": "Drummond Company",
+      "toType": "company",
+      "relation": "advised",
+      "claim": "Gilbert represented Drummond's position in opposing EPA action in north Birmingham; the bribe was paid to advance that position.",
+      "status": "court",
+      "date": "2018",
+      "quote": "advocating the Balch and Drummond position in a meeting with the EPA, using talking points drafted by Gilbert",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndal/pr/former-alabama-legislator-pleads-guilty-bribery-conspiracy-fraud-and-tax-evasion",
+          "publisher": "U.S. Attorney's Office, Northern District of Alabama",
+          "title": "Former Alabama Legislator Pleads Guilty to Bribery, Conspiracy, Fraud and Tax Evasion",
+          "date": "2017-09"
+        }
+      ]
+    },
+    {
+      "to": "david-roberson",
+      "toName": "David Roberson",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Gilbert and Drummond's David Roberson were convicted together in 2018.",
+      "status": "court",
+      "date": "2018-07",
+      "quote": "A jury found former Balch & Bingham partner Joel Iverson Gilbert and former Drummond Company Vice President of Government and Regulatory Affairs David Lynn Roberson guilty",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndal/pr/federal-jury-convicts-lawyer-and-coal-company-executive-bribing-state-legislator",
+          "publisher": "U.S. Attorney's Office, Northern District of Alabama",
+          "title": "Federal Jury Convicts Lawyer and Coal Company Executive for Bribing State Legislator",
+          "date": "2018-07"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim: supported.",
+    "Note: this Joel Gilbert is the Alabama lawyer; the site's entity index should not be confused with any other person of the same name. The Matrix LLC entry concerns Jeff Pitts and Joe Perkins, not Gilbert."
+  ]
+}

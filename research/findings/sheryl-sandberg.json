@@ -1,0 +1,69 @@
+{
+  "entity": "sheryl-sandberg",
+  "name": "Sheryl Sandberg",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Sheryl Sandberg was chief operating officer of Facebook (Meta). In April 2018, ahead of Mark Zuckerberg's congressional testimony, she gave interviews about the Cambridge Analytica episode, telling NBC's Today show that after receiving legal assurances in 2015 that the firm had deleted improperly obtained data, Facebook should have taken the further step of an audit.",
+    "sources": [
+      {
+        "url": "https://www.mprnews.org/story/2018/04/06/facebook-says-it-should-have-audited-cambridge-analytica",
+        "publisher": "MPR News (Associated Press)",
+        "title": "Facebook says it should have audited Cambridge Analytica",
+        "date": "2018-04-06"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Sandberg said on NBC's Today show in April 2018 that Facebook should have audited Cambridge Analytica after learning nearly three years earlier that it had improperly accessed user data: 'What we didn't do is the next step of an audit and we're trying to that now.' At the time Facebook had received legal assurances that the firm had deleted the data.",
+      "status": "words",
+      "date": "2018-04-06",
+      "quote": "What we didn't do is the next step of an audit and we're trying to that now",
+      "sources": [
+        {
+          "url": "https://www.mprnews.org/story/2018/04/06/facebook-says-it-should-have-audited-cambridge-analytica",
+          "publisher": "MPR News (Associated Press)",
+          "title": "Facebook says it should have audited Cambridge Analytica",
+          "date": "2018-04-06"
+        }
+      ]
+    },
+    {
+      "claim": "The Associated Press reported that Facebook's audit of Cambridge Analytica was on hold in deference to a UK investigation, that Facebook was separately reviewing how third-party apps use data, and that Sandberg gave several interviews that week ahead of Zuckerberg's congressional testimony while the company faced an FTC investigation.",
+      "status": "reported",
+      "date": "2018-04-06",
+      "quote": "The audit of Cambridge Analytica is on hold, in deference to a U.K. investigation.",
+      "sources": [
+        {
+          "url": "https://www.mprnews.org/story/2018/04/06/facebook-says-it-should-have-audited-cambridge-analytica",
+          "publisher": "MPR News (Associated Press)",
+          "title": "Facebook says it should have audited Cambridge Analytica",
+          "date": "2018-04-06"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "meta",
+      "toName": "Meta",
+      "toType": "company",
+      "relation": "executive of",
+      "claim": "Sandberg was Facebook's chief operating officer when she gave the April 2018 interviews on Cambridge Analytica.",
+      "status": "reported",
+      "date": "2018-04-06",
+      "quote": "Facebook's No. 2 executive",
+      "sources": [
+        {
+          "url": "https://www.mprnews.org/story/2018/04/06/facebook-says-it-should-have-audited-cambridge-analytica",
+          "publisher": "MPR News (Associated Press)",
+          "title": "Facebook says it should have audited Cambridge Analytica",
+          "date": "2018-04-06"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Sandberg's other April 2018 interviews (CNBC, PBS) were not reached; only the AP account of the Today show interview is recorded."
+  ]
+}

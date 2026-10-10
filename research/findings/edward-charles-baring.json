@@ -1,0 +1,163 @@
+{
+  "entity": "edward-charles-baring",
+  "name": "Edward Charles Baring, 1st Baron Revelstoke",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Edward Charles Baring, created Baron Revelstoke in 1885, was the senior partner of Baring Brothers when the firm faced failure in November 1890 over its Argentine commitments. He and Francis Baring disclosed the firm's position to Bank of England Governor William Lidderdale on 8 November 1890, after which Lidderdale organised a guarantee fund.",
+    "sources": [
+      {
+        "url": "https://bankunderground.co.uk/2016/02/10/rescuing-a-sifi-halting-a-panic-the-barings-crisis-of-1890/",
+        "publisher": "Bank Underground (Bank of England staff blog)",
+        "title": "Rescuing a SIFI, Halting a Panic: the Barings Crisis of 1890",
+        "date": "2016-02-10"
+      },
+      {
+        "url": "https://www.cambridge.org/core/product/E11AB1895A2F6C4FB2372934F44475BC",
+        "publisher": "Cambridge University Press",
+        "title": "The Baring Crisis Revisited (journal article)"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On 8 November 1890 Bank of England Governor William Lidderdale met Lord Revelstoke and Francis Baring and learned that Barings was the house subject of market rumour and would have to stop without help; he then asked Chancellor Goschen for a meeting.",
+      "status": "documented",
+      "date": "1890-11-08",
+      "quote": "Lidderdale met Lord Revelstoke and Francis Baring to learn that it was indeed the House of Baring that was the subject of the rumour, and that without help they would have to stop.",
+      "sources": [
+        {
+          "url": "https://bankunderground.co.uk/2016/02/10/rescuing-a-sifi-halting-a-panic-the-barings-crisis-of-1890/",
+          "publisher": "Bank Underground (Bank of England staff blog)",
+          "title": "Rescuing a SIFI, Halting a Panic: the Barings Crisis of 1890",
+          "date": "2016-02-10"
+        }
+      ]
+    },
+    {
+      "claim": "Lidderdale assembled a consortium including Rothschilds and most of the major London banks that created a fund to guarantee Barings' debts.",
+      "status": "documented",
+      "date": "1890-11",
+      "quote": "An international consortium assembled by William Lidderdale, governor of the Bank of England, including Rothschilds and most of the other major London banks, created a fund to guarantee Barings' debts",
+      "sources": [
+        {
+          "url": "https://bankunderground.co.uk/2016/02/10/rescuing-a-sifi-halting-a-panic-the-barings-crisis-of-1890/",
+          "publisher": "Bank Underground (Bank of England staff blog)",
+          "title": "Rescuing a SIFI, Halting a Panic: the Barings Crisis of 1890",
+          "date": "2016-02-10"
+        }
+      ]
+    },
+    {
+      "claim": "A contemporary report put Barings' liabilities at about £21 million; the collapse of Argentine securities in mid-1890 had pushed the firm into difficulties.",
+      "status": "reported",
+      "date": "1890-11",
+      "sources": [
+        {
+          "url": "https://dynamic-rsnz.natlib.govt.nz/newspapers/FS18901118.2.21",
+          "publisher": "Papers Past (National Library of New Zealand)",
+          "title": "Contemporary report on the Baring failure, 18 November 1890",
+          "date": "1890-11-18"
+        }
+      ]
+    },
+    {
+      "claim": "Barings was the leading investment bank for Argentina and helped channel about £140 million of investment there between 1885 and 1890.",
+      "status": "reported",
+      "date": "1890",
+      "quote": "Serving as the leading investment bank for Argentina, Barings helped to channel £140 million of investment to Argentina between 1885 and 1890.",
+      "sources": [
+        {
+          "url": "https://bankunderground.co.uk/2016/02/10/rescuing-a-sifi-halting-a-panic-the-barings-crisis-of-1890/",
+          "publisher": "Bank Underground (Bank of England staff blog)",
+          "title": "Rescuing a SIFI, Halting a Panic: the Barings Crisis of 1890",
+          "date": "2016-02-10"
+        }
+      ]
+    },
+    {
+      "claim": "A Cambridge journal article argues Barings did not fail by underwriting a government loan for Buenos Aires water and sewage but by promoting a private enterprise that took over the Buenos Aires water and sewage system, which failed.",
+      "status": "peer",
+      "date": "1890",
+      "quote": "They promoted a private enterprise which took over the water and sewage system of Buenos Aires, and this failed for a number of reasons.",
+      "sources": [
+        {
+          "url": "https://www.cambridge.org/core/product/E11AB1895A2F6C4FB2372934F44475BC",
+          "publisher": "Cambridge University Press",
+          "title": "The Baring Crisis Revisited (journal article)"
+        }
+      ]
+    },
+    {
+      "claim": "The subsequent liquidation of Baring Brothers, including the personal fortunes of the Baring family, covered the firm's liabilities so the guarantors did not have to pay.",
+      "status": "reported",
+      "date": "1890s",
+      "quote": "the subsequent liquidation of Baring Brothers, including the personal fortunes of the Baring family, covered the firm's liabilities and freed the outsiders from having to pay",
+      "sources": [
+        {
+          "url": "https://assets.cambridge.org/97805215/53520/excerpt/9780521553520_excerpt.pdf",
+          "publisher": "Cambridge University Press",
+          "title": "Excerpt, ISBN 9780521553520"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "baring-brothers",
+      "toName": "Baring Brothers",
+      "toType": "company",
+      "relation": "executive of",
+      "claim": "Baring (Lord Revelstoke) led Baring Brothers at the time of the November 1890 crisis.",
+      "status": "documented",
+      "date": "1890",
+      "quote": "Lidderdale met Lord Revelstoke and Francis Baring to learn that it was indeed the House of Baring that was the subject of the rumour",
+      "sources": [
+        {
+          "url": "https://bankunderground.co.uk/2016/02/10/rescuing-a-sifi-halting-a-panic-the-barings-crisis-of-1890/",
+          "publisher": "Bank Underground (Bank of England staff blog)",
+          "title": "Rescuing a SIFI, Halting a Panic: the Barings Crisis of 1890",
+          "date": "2016-02-10"
+        }
+      ]
+    },
+    {
+      "to": "william-lidderdale",
+      "toName": "William Lidderdale",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Revelstoke met Governor Lidderdale on 8 November 1890 to disclose that Barings would have to stop without help.",
+      "status": "documented",
+      "date": "1890-11-08",
+      "sources": [
+        {
+          "url": "https://bankunderground.co.uk/2016/02/10/rescuing-a-sifi-halting-a-panic-the-barings-crisis-of-1890/",
+          "publisher": "Bank Underground (Bank of England staff blog)",
+          "title": "Rescuing a SIFI, Halting a Panic: the Barings Crisis of 1890",
+          "date": "2016-02-10"
+        }
+      ]
+    },
+    {
+      "to": "lord-revelstoke",
+      "toName": "Lord Revelstoke",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Edward Charles Baring and Lord Revelstoke are the same person; the site lists them separately.",
+      "status": "documented",
+      "date": "1885",
+      "sources": [
+        {
+          "url": "https://bankunderground.co.uk/2016/02/10/rescuing-a-sifi-halting-a-panic-the-barings-crisis-of-1890/",
+          "publisher": "Bank Underground (Bank of England staff blog)",
+          "title": "Rescuing a SIFI, Halting a Panic: the Barings Crisis of 1890",
+          "date": "2016-02-10"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: the page says Barings 'took on financing the Buenos Aires Water Supply and Drainage Company' in 1888 and was left with unsold paper; the Cambridge article found describes a private water-and-sewage enterprise promoted by Barings, consistent in substance, but the £10 million issue size on the page was not found.",
+    "Site claim tested: liabilities 'over £20 million' is consistent with the contemporary report of about £21 million.",
+    "Edward Charles Baring and Lord Revelstoke are the same person (Edward Baring, 1st Baron Revelstoke); the site lists them as two entities."
+  ]
+}

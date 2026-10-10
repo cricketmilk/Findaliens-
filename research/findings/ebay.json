@@ -1,0 +1,97 @@
+{
+  "entity": "ebay",
+  "name": "eBay",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "eBay Inc. is an online marketplace company. It announced on July 8, 2002 an agreement (dated July 7) to acquire PayPal, Inc. in a tax-free stock-for-stock deal at a fixed ratio of 0.39 eBay shares per PayPal share, valued at about $1.5 billion on eBay's July 5 closing price. PayPal shareholders approved the merger on October 3, 2002 and it closed that day, making PayPal a wholly owned eBay subsidiary; Peter Thiel resigned as PayPal's CEO the same day. Biographies and reference works report that Elon Musk, PayPal's largest shareholder, received about $176 million in the deal and Thiel about $55 million; these figures are not from filings.",
+    "sources": [
+      { "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205702026650/a2084015zex-99_1.htm", "publisher": "U.S. Securities and Exchange Commission (PayPal Form 8-K, Exhibit 99.1)", "title": "eBay and PayPal joint press release announcing merger agreement", "date": "2002-07-08" },
+      { "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205702037693/a2090698zex-99_1.htm", "publisher": "U.S. Securities and Exchange Commission (PayPal Form 8-K, Exhibit 99.1)", "title": "eBay press release: eBay completes acquisition of PayPal", "date": "2002-10-03" },
+      { "url": "https://edition.cnn.com/2002/BUSINESS/07/08/ebay.paypal/index.html", "publisher": "CNN", "title": "eBay buys PayPal for $1.5 billion", "date": "2002-07-08" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "eBay announced on July 8, 2002 that it had agreed to acquire PayPal, Inc. in a tax-free, stock-for-stock transaction at a fixed exchange ratio of 0.39 of an eBay share for each PayPal share, valued at about $1.5 billion using eBay's July 5, 2002 closing price, with estimated acquisition-related costs of $18 million; the merger agreement was dated July 7, 2002 and closing was expected around year-end 2002.",
+      "status": "documented",
+      "date": "2002-07-08",
+      "quote": "eBay Inc. (Nasdaq: EBAY) today announced that it has agreed to acquire PayPal, Inc. (Nasdaq: PYPL), the global payments platform.",
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205702026650/a2084015zex-99_1.htm", "publisher": "U.S. Securities and Exchange Commission (PayPal Form 8-K, Exhibit 99.1)", "title": "eBay and PayPal joint press release announcing merger agreement", "date": "2002-07-08" },
+        { "url": "https://edition.cnn.com/2002/BUSINESS/07/08/ebay.paypal/index.html", "publisher": "CNN", "title": "eBay buys PayPal for $1.5 billion", "date": "2002-07-08" },
+        { "url": "https://www.bloomberg.com/news/articles/2002-07-07/ebay-agrees-to-acquire-paypal", "publisher": "Bloomberg", "title": "EBay Agrees to Acquire PayPal", "date": "2002-07-07" }
+      ]
+    },
+    {
+      "claim": "PayPal shareholders approved the merger on October 3, 2002 and eBay completed the acquisition later that day, making PayPal a wholly owned subsidiary; eBay's completion release valued the deal using eBay's average closing price from two days before to two days after the announcement and put acquisition costs at about $17 million. Peter Thiel resigned as PayPal's CEO on completion and Matt Bannick took over his responsibilities.",
+      "status": "documented",
+      "date": "2002-10-03",
+      "quote": "Shareholders of PayPal approved the merger that day, and the merger was completed later that day, making PayPal a wholly owned eBay subsidiary.",
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205702037693/a2090698zex-99_1.htm", "publisher": "U.S. Securities and Exchange Commission (PayPal Form 8-K, Exhibit 99.1)", "title": "eBay press release: eBay completes acquisition of PayPal", "date": "2002-10-03" },
+        { "url": "https://www.telecompaper.com/news/ebay-completes-paypal-acquisition--304147", "publisher": "Telecompaper", "title": "eBay completes PayPal acquisition", "date": "2002-10" }
+      ]
+    },
+    {
+      "claim": "Reported proceeds from the eBay deal: Elon Musk, PayPal's largest shareholder (11.7% before the June 2002 secondary offering), is reported to have received about $176 million, a figure that comes from Ashlee Vance's biography; Peter Thiel is reported to have made about $55 million. These figures are from biographies and reference works, not from a filing; eBay's Form S-4 and S-4/A for the merger give the 0.39 exchange ratio and the holders' share counts, and the value realised depended on eBay's share price and when shares were sold.",
+      "status": "reported",
+      "date": "2002-10",
+      "quote": "reportedly made $55 million from the total $1.5 billion sale",
+      "sources": [
+        { "url": "https://www.ebsco.com/research-starters/biography/peter-thiel/", "publisher": "EBSCO Research Starters", "title": "Peter Thiel (biography)", "date": "" },
+        { "url": "https://en.wikipedia.org/wiki/Business_career_of_Elon_Musk", "publisher": "Wikipedia", "title": "Business career of Elon Musk", "date": "2026" },
+        { "url": "https://www.sec.gov/Archives/edgar/data/0001065088/000089161802003554/f83130orsv4.htm", "publisher": "U.S. Securities and Exchange Commission (eBay Inc. Form S-4)", "title": "eBay Inc. Form S-4 (PayPal merger)", "date": "2002-08-06" },
+        { "url": "https://www.sec.gov/Archives/edgar/data/0001065088/000089161802004121/f83130a1sv4za.htm", "publisher": "U.S. Securities and Exchange Commission (eBay Inc. Form S-4/A)", "title": "eBay Inc. Form S-4/A (PayPal merger)", "date": "2002" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "paypal",
+      "toName": "PayPal",
+      "toType": "company",
+      "relation": "owns",
+      "claim": "eBay acquired PayPal in a stock-for-stock deal (0.39 eBay shares per PayPal share, about $1.5 billion) announced July 8, 2002 and completed October 3, 2002, after which PayPal was a wholly owned eBay subsidiary.",
+      "status": "documented",
+      "date": "2002-10-03",
+      "quote": "eBay acquired all of the outstanding shares of PayPal in a tax-free, stock-for-stock transaction using a fixed exchange ratio of 0.39 of an eBay share for each PayPal share.",
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205702037693/a2090698zex-99_1.htm", "publisher": "U.S. Securities and Exchange Commission (PayPal Form 8-K, Exhibit 99.1)", "title": "eBay press release: eBay completes acquisition of PayPal", "date": "2002-10-03" },
+        { "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205702026650/a2084015zex-99_1.htm", "publisher": "U.S. Securities and Exchange Commission (PayPal Form 8-K, Exhibit 99.1)", "title": "eBay and PayPal joint press release announcing merger agreement", "date": "2002-07-08" }
+      ]
+    },
+    {
+      "to": "elon-musk",
+      "toName": "Elon Musk",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Elon Musk, PayPal's largest shareholder, exchanged his PayPal shares for eBay stock at 0.39 eBay shares per PayPal share when eBay completed the acquisition on October 3, 2002; his proceeds are reported at about $176 million, a figure from Vance's biography rather than a filing.",
+      "status": "reported",
+      "date": "2002-10-03",
+      "quote": "Musk received $176 million after PayPal acquired eBay as the company's largest shareholder",
+      "sources": [
+        { "url": "https://en.wikipedia.org/wiki/Business_career_of_Elon_Musk", "publisher": "Wikipedia", "title": "Business career of Elon Musk", "date": "2026" },
+        { "url": "https://www.sec.gov/Archives/edgar/data/0001065088/000089161802003554/f83130orsv4.htm", "publisher": "U.S. Securities and Exchange Commission (eBay Inc. Form S-4)", "title": "eBay Inc. Form S-4 (PayPal merger)", "date": "2002-08-06" }
+      ]
+    },
+    {
+      "to": "peter-thiel",
+      "toName": "Peter Thiel",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Peter Thiel resigned as PayPal's chief executive on October 3, 2002, the day eBay completed its acquisition of PayPal; he is reported to have made about $55 million from the sale.",
+      "status": "reported",
+      "date": "2002-10-03",
+      "quote": "reportedly made $55 million from the total $1.5 billion sale",
+      "sources": [
+        { "url": "https://www.ebsco.com/research-starters/biography/peter-thiel/", "publisher": "EBSCO Research Starters", "title": "Peter Thiel (biography)", "date": "" },
+        { "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205702037693/a2090698zex-99_1.htm", "publisher": "U.S. Securities and Exchange Commission (PayPal Form 8-K, Exhibit 99.1)", "title": "eBay press release: eBay completes acquisition of PayPal", "date": "2002-10-03" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The brief says the deal netted 'the Musk syndicate over $175M+' and 'the Thiel network hundreds of millions'. The sourced figures are about $176 million for Musk personally (Vance via Wikipedia; consistent with the brief) and about $55 million for Thiel personally (EBSCO). No source retrieved supports 'hundreds of millions' for Thiel or a defined 'Thiel network'; eBay's S-4 says PayPal insiders and investors holding about 28.1% signed the July 7, 2002 voting agreement (recorded in elon-musk.json), but no source aggregates their proceeds.",
+    "The eBay S-4/A beneficial-ownership table (share counts for Thiel, Musk and other holders at the record date) was in the search results but its content was not returned; the search budget ran out before a targeted query could run. It would give filing-based share counts to multiply by the exchange ratio.",
+    "Whether Musk or Thiel sold eBay shares immediately after closing, and at what price, is not established; the $176 million and $55 million figures are value estimates, not realised cash."
+  ]
+}

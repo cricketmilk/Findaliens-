@@ -1,0 +1,111 @@
+{
+  "entity": "mercer-family-foundation",
+  "name": "Mercer Family Foundation",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The Mercer Family Foundation is a private grant-making foundation based in Waltham, Massachusetts (EIN 20-1982204), recognised as a 501(c)(3) in June 2005, which files Form 990-PF. Analyses of its tax filings by the Center for Public Integrity and DeSmog identify the Media Research Center as its largest grantee and list grants to the Heartland Institute and the Government Accountability Institute among others.",
+    "sources": [
+      {
+        "url": "https://projects.propublica.org/nonprofits/organizations/201982204",
+        "publisher": "ProPublica Nonprofit Explorer",
+        "title": "Mercer Family Foundation"
+      },
+      {
+        "url": "https://publicintegrity.org/politics/mercer-familys-charitable-giving-skyrocketed-in-2015-new-filing-shows/",
+        "publisher": "Center for Public Integrity",
+        "title": "Mercer family's charitable giving skyrocketed in 2015, new filing shows",
+        "date": "2017-04-28"
+      },
+      {
+        "url": "https://www.desmog.com/mercer-family-foundation",
+        "publisher": "DeSmog",
+        "title": "Mercer Family Foundation"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "ProPublica's Nonprofit Explorer lists the Mercer Family Foundation as a 501(c)(3) private foundation in Waltham, Massachusetts, EIN 20-1982204, with exemption issued in June 2005, classified as philanthropy/grantmaking, filing Form 990-PF; officer compensation is reported as $0.",
+      "status": "documented",
+      "date": "2024-11",
+      "quote": "Donations to this organization are tax deductible.",
+      "sources": [
+        {
+          "url": "https://projects.propublica.org/nonprofits/organizations/201982204",
+          "publisher": "ProPublica Nonprofit Explorer",
+          "title": "Mercer Family Foundation"
+        },
+        {
+          "url": "https://projects.propublica.org/nonprofits/organizations/201982204/201803199349105420/IRS990PF",
+          "publisher": "ProPublica Nonprofit Explorer",
+          "title": "Mercer Family Foundation - Form 990PF"
+        }
+      ]
+    },
+    {
+      "claim": "ProPublica's extracted financial data for the foundation show charitable disbursements of about $18.30 million (2015 filing), $15.22 million (2018 fiscal year), $19.29 million (filed November 2022), $31.15 million (filed November 2023) and $3.78 million (filed November 2024).",
+      "status": "documented",
+      "date": "2024-11",
+      "quote": "Extracted Financial Data",
+      "sources": [
+        {
+          "url": "https://projects.propublica.org/nonprofits/organizations/201982204",
+          "publisher": "ProPublica Nonprofit Explorer",
+          "title": "Mercer Family Foundation"
+        }
+      ]
+    },
+    {
+      "claim": "The Center for Public Integrity's analysis of the foundation's tax filings found that the Media Research Center had received about $16.5 million since 2008, more than any other recipient, and that the Heartland Institute received $100,000 from the foundation in 2015.",
+      "status": "reported",
+      "date": "2017-04-28",
+      "quote": "about $16.5 million since 2008 a larger amount than any other recipient of Mercer foundation dollars",
+      "sources": [
+        {
+          "url": "https://publicintegrity.org/politics/mercer-familys-charitable-giving-skyrocketed-in-2015-new-filing-shows/",
+          "publisher": "Center for Public Integrity",
+          "title": "Mercer family's charitable giving skyrocketed in 2015, new filing shows",
+          "date": "2017-04-28"
+        }
+      ]
+    },
+    {
+      "claim": "DeSmog, using Form 990 data and the Conservative Transparency project, reports that the foundation gave $20,466,420 to the Media Research Center between 2008 and 2017, and $34.6 million to 30 nonprofits including the Government Accountability Institute between 2011 and 2014.",
+      "status": "reported",
+      "date": "2017",
+      "quote": "$34.6 million to 30 nonprofits including The Government Accountability Institute between 2011 and 2014",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/mercer-family-foundation",
+          "publisher": "DeSmog",
+          "title": "Mercer Family Foundation"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "robert-mercer",
+      "toName": "Robert Mercer",
+      "toType": "person",
+      "relation": "other",
+      "claim": "The Center for Public Integrity describes the Mercer Family Foundation's grants as the Mercer family's charitable giving, analysed from the foundation's tax filings.",
+      "status": "reported",
+      "date": "2017-04-28",
+      "quote": "Mercer family's charitable giving skyrocketed in 2015, new filing shows",
+      "sources": [
+        {
+          "url": "https://publicintegrity.org/politics/mercer-familys-charitable-giving-skyrocketed-in-2015-new-filing-shows/",
+          "publisher": "Center for Public Integrity",
+          "title": "Mercer family's charitable giving skyrocketed in 2015, new filing shows",
+          "date": "2017-04-28"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Grant-level detail (recipients and amounts by year) should be confirmed from the Form 990-PF documents on ProPublica's page; the per-grantee totals here come from Public Integrity and DeSmog analyses that differ on the Media Research Center total.",
+    "The foundation's officers (Robert and Rebekah Mercer are commonly named) were not confirmed from a filing opened here.",
+    "Extra names wanted as connections but absent from the entity index: Media Research Center, Heartland Institute, Government Accountability Institute."
+  ]
+}

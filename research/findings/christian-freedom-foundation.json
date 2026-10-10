@@ -1,0 +1,112 @@
+{
+  "entity": "christian-freedom-foundation",
+  "name": "Christian Freedom Foundation",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The Christian Freedom Foundation was launched in 1950 by Howard E. Kershner, who edited its publication Christian Economics for most of its 25-year run. The Philanthropy Roundtable says J. Howard Pew was instrumental in the foundation, which distributed the newsletter to about 180,000 ministers. Its records are held at California State University, Fullerton.",
+    "sources": [
+      {
+        "url": "https://digitalcommons.liberty.edu/gov_fac_pubs/498",
+        "publisher": "Liberty University Digital Commons",
+        "title": "Faculty publication on the Christian Freedom Foundation"
+      },
+      {
+        "url": "https://www.philanthropyroundtable.org/almanac/pew-builds-the-evangelical-parachurch/",
+        "publisher": "Philanthropy Roundtable",
+        "title": "Pew Builds the Evangelical Parachurch"
+      },
+      {
+        "url": "https://archives.fullerton.edu/repositories/5/archival_objects/14562",
+        "publisher": "California State University, Fullerton Archives",
+        "title": "Christian Freedom Foundation (CFF)"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "A Liberty University faculty publication says Howard Kershner launched the Christian Freedom Foundation in 1950 and edited Christian Economics during most of its 25 years of publication.",
+      "status": "reported",
+      "date": "1950",
+      "quote": "launched the Christian Freedom Foundation in 1950 and edited Christian Economics during most of its 25 years of publication",
+      "sources": [
+        {
+          "url": "https://digitalcommons.liberty.edu/gov_fac_pubs/498",
+          "publisher": "Liberty University Digital Commons",
+          "title": "Faculty publication on the Christian Freedom Foundation"
+        }
+      ]
+    },
+    {
+      "claim": "The Philanthropy Roundtable says J. Howard Pew was instrumental in the Christian Freedom Foundation, which distributed a 'Christian Economics' newsletter to about 180,000 ministers.",
+      "status": "reported",
+      "date": "1950s",
+      "quote": "distributed a \"Christian Economics\" newsletter to about 180,000 ministers",
+      "sources": [
+        {
+          "url": "https://www.philanthropyroundtable.org/almanac/pew-builds-the-evangelical-parachurch/",
+          "publisher": "Philanthropy Roundtable",
+          "title": "Pew Builds the Evangelical Parachurch"
+        }
+      ]
+    },
+    {
+      "claim": "California State University, Fullerton holds Christian Freedom Foundation materials including 1950s issues of Christian Economics; the Hagley finding aid for the J. Howard Pew papers has a separate series on the foundation.",
+      "status": "documented",
+      "date": "1950s",
+      "quote": "Christian Freedom Foundation (CFF)",
+      "sources": [
+        {
+          "url": "https://archives.fullerton.edu/repositories/5/archival_objects/14562",
+          "publisher": "California State University, Fullerton Archives",
+          "title": "Christian Freedom Foundation (CFF)"
+        },
+        {
+          "url": "https://findingaids.hagley.org/repositories/3/resources/890",
+          "publisher": "Hagley Museum and Library",
+          "title": "J. Howard Pew papers (finding aid)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "j-howard-pew",
+      "toName": "J. Howard Pew",
+      "toType": "person",
+      "relation": "funded",
+      "claim": "Pew was instrumental in (and, per the Roundtable, funded) the Christian Freedom Foundation.",
+      "status": "reported",
+      "date": "1950s",
+      "quote": "instrumental in the Christian Freedom Foundation",
+      "sources": [
+        {
+          "url": "https://www.philanthropyroundtable.org/almanac/pew-builds-the-evangelical-parachurch/",
+          "publisher": "Philanthropy Roundtable",
+          "title": "Pew Builds the Evangelical Parachurch"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "howard-kershner",
+      "toName": "Howard Kershner",
+      "toType": "person",
+      "relation": "founded",
+      "claim": "Kershner launched the foundation in 1950 and was its president and editor.",
+      "status": "reported",
+      "date": "1950",
+      "quote": "launched the Christian Freedom Foundation in 1950",
+      "sources": [
+        {
+          "url": "https://digitalcommons.liberty.edu/gov_fac_pubs/498",
+          "publisher": "Liberty University Digital Commons",
+          "title": "Faculty publication on the Christian Freedom Foundation"
+        }
+      ],
+      "reverse": true
+    }
+  ],
+  "openQuestions": [
+    "Amounts of Pew's support were not found; the Hagley series on the foundation in the Pew papers is the place to check."
+  ]
+}

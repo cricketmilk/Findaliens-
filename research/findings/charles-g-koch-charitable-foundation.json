@@ -1,0 +1,198 @@
+{
+  "entity": "charles-g-koch-charitable-foundation",
+  "name": "Charles G. Koch Charitable Foundation",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The Charles G. Koch Charitable Foundation is one of the private foundations of Charles Koch, chairman of Koch Industries. Greenpeace's 2010 report counted more than $48.5 million from Koch foundations to organisations aligned with the Kochs' agenda between 1997 and 2008, with the Mercatus Center, Cato Institute and Americans for Prosperity among the largest recipients. The foundation made grants to climate researcher Willie Soon in 2005/6 and 2010, and Peabody's and others' funding of contrarian research later became public through document releases.",
+    "sources": [
+      {
+        "url": "https://theecologist.org/2010/mar/30/us-oil-giant-pumps-48m-climate-sceptic-groups",
+        "publisher": "The Ecologist",
+        "title": "US oil giant pumps $48m into climate sceptic groups",
+        "date": "2010-03-30"
+      },
+      {
+        "url": "https://www.desmog.com/2011/06/28/denial-hire-willie-soon-s-career-fueled-big-oil-coal-and-koch-money",
+        "publisher": "DeSmog",
+        "title": "Denial For Hire: Willie Soon's Career Fueled by Big Oil, Coal and Koch Money",
+        "date": "2011-06-28"
+      },
+      {
+        "url": "https://publicintegrity.org/politics/koch-brothers-pour-more-cash-into-think-tanks-alec/",
+        "publisher": "Center for Public Integrity",
+        "title": "Koch brothers pour more cash into think tanks, ALEC",
+        "date": "2013-03-20"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Greenpeace's 2010 report counted more than $48.5 million channelled from Koch foundations to organisations aligned with the Kochs' agenda between 1997 and 2008.",
+      "status": "reported",
+      "date": "2010-03-30",
+      "quote": "From 1997 to 2008, the Kochs funneled more than US$48.5 million to organisations aligned with the Kochs' agenda",
+      "sources": [
+        {
+          "url": "https://clips.cato.org/sites/default/files/cato-greenpeace%20news_1.pdf",
+          "publisher": "Cato Institute clippings (reproducing Greenpeace report coverage)",
+          "title": "Greenpeace report on Koch Industries climate funding, 1997-2008",
+          "date": "2010"
+        },
+        {
+          "url": "https://theecologist.org/2010/mar/30/us-oil-giant-pumps-48m-climate-sceptic-groups",
+          "publisher": "The Ecologist",
+          "title": "US oil giant pumps $48m into climate sceptic groups",
+          "date": "2010-03-30"
+        }
+      ]
+    },
+    {
+      "claim": "Greenpeace counted $9,247,500 to the Mercatus Center, $5,176,500 to Americans for Prosperity and $1,028,400 to the Cato Institute from Koch foundations between 2005 and 2008.",
+      "status": "reported",
+      "date": "2010",
+      "quote": "$5,176,500 received from Koch foundations 2005-2008",
+      "sources": [
+        {
+          "url": "https://clips.cato.org/sites/default/files/cato-greenpeace%20news_1.pdf",
+          "publisher": "Cato Institute clippings (reproducing Greenpeace report coverage)",
+          "title": "Greenpeace report on Koch Industries climate funding, 1997-2008",
+          "date": "2010"
+        }
+      ]
+    },
+    {
+      "claim": "DeSmog reported that Americans for Prosperity was the third-largest recipient of Koch family foundation funding, behind the Cato Institute and the George Mason University Foundation.",
+      "status": "reported",
+      "date": "2009-02-26",
+      "quote": "AFP is the third largest recipient of funding from the Koch Family Foundations, behind the Cato Institute and the George Mason University Foundation",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/2009/02/26/big-money-behind-americans-prosperity/",
+          "publisher": "DeSmog",
+          "title": "The Big Money behind Americans for Prosperity",
+          "date": "2009-02-26"
+        }
+      ]
+    },
+    {
+      "claim": "The Charles G. Koch Foundation made two grants to Willie Soon totalling $175,000, in 2005/6 and 2010, according to Greenpeace's analysis of Smithsonian records.",
+      "status": "reported",
+      "date": "2010",
+      "quote": "The Charles G. Koch Foundation figures are also given as two grants totaling $175,000, in 2005/6 and again in 2010.",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/2011/06/28/denial-hire-willie-soon-s-career-fueled-big-oil-coal-and-koch-money",
+          "publisher": "DeSmog",
+          "title": "Denial For Hire: Willie Soon's Career Fueled by Big Oil, Coal and Koch Money",
+          "date": "2011-06-28"
+        }
+      ]
+    },
+    {
+      "claim": "A 2013 Center for Public Integrity analysis found that four foundations run by Charles and David Koch held a combined $310 million in assets, and that George Mason University was the largest recipient of Koch foundation money since 1985.",
+      "status": "reported",
+      "date": "2013-03-20",
+      "quote": "four foundations run by billionaire industrialists Charles and David Koch hold a combined $310 million in assets",
+      "sources": [
+        {
+          "url": "https://publicintegrity.org/politics/koch-brothers-pour-more-cash-into-think-tanks-alec/",
+          "publisher": "Center for Public Integrity",
+          "title": "Koch brothers pour more cash into think tanks, ALEC",
+          "date": "2013-03-20"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "willie-soon",
+      "toName": "Willie Soon",
+      "toType": "person",
+      "relation": "funded",
+      "claim": "The foundation made two grants to Willie Soon totalling $175,000 (2005/6 and 2010).",
+      "status": "reported",
+      "date": "2010",
+      "quote": "two grants totaling $175,000, in 2005/6 and again in 2010",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/2011/06/28/denial-hire-willie-soon-s-career-fueled-big-oil-coal-and-koch-money",
+          "publisher": "DeSmog",
+          "title": "Denial For Hire: Willie Soon's Career Fueled by Big Oil, Coal and Koch Money",
+          "date": "2011-06-28"
+        }
+      ]
+    },
+    {
+      "to": "americans-for-prosperity",
+      "toName": "Americans for Prosperity",
+      "toType": "nonprofit",
+      "relation": "funded",
+      "claim": "Koch foundations gave Americans for Prosperity $5,176,500 between 2005 and 2008, per Greenpeace's tally.",
+      "status": "reported",
+      "date": "2008",
+      "quote": "$5,176,500 received from Koch foundations 2005-2008",
+      "sources": [
+        {
+          "url": "https://clips.cato.org/sites/default/files/cato-greenpeace%20news_1.pdf",
+          "publisher": "Cato Institute clippings (reproducing Greenpeace report coverage)",
+          "title": "Greenpeace report on Koch Industries climate funding, 1997-2008",
+          "date": "2010"
+        },
+        {
+          "url": "https://www.desmog.com/2009/02/26/big-money-behind-americans-prosperity/",
+          "publisher": "DeSmog",
+          "title": "The Big Money behind Americans for Prosperity",
+          "date": "2009-02-26"
+        }
+      ]
+    },
+    {
+      "to": "charles-koch",
+      "toName": "Charles Koch",
+      "toType": "person",
+      "relation": "founded",
+      "claim": "The foundation bears Charles Koch's name and is one of the foundations he and David Koch ran, per the Center for Public Integrity.",
+      "status": "reported",
+      "date": "2013",
+      "quote": "four foundations run by billionaire industrialists Charles and David Koch",
+      "sources": [
+        {
+          "url": "https://publicintegrity.org/politics/koch-brothers-pour-more-cash-into-think-tanks-alec/",
+          "publisher": "Center for Public Integrity",
+          "title": "Koch brothers pour more cash into think tanks, ALEC",
+          "date": "2013-03-20"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "koch-network",
+      "toName": "Koch network",
+      "toType": "network",
+      "relation": "other",
+      "claim": "The foundation is one of the Koch family foundations whose grants Greenpeace and the Center for Public Integrity tallied.",
+      "status": "reported",
+      "date": "2010",
+      "quote": "Koch Family Foundations",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/2009/02/26/big-money-behind-americans-prosperity/",
+          "publisher": "DeSmog",
+          "title": "The Big Money behind Americans for Prosperity",
+          "date": "2009-02-26"
+        },
+        {
+          "url": "https://publicintegrity.org/politics/koch-brothers-pour-more-cash-into-think-tanks-alec/",
+          "publisher": "Center for Public Integrity",
+          "title": "Koch brothers pour more cash into think tanks, ALEC",
+          "date": "2013-03-20"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (Soon funder): supported by Greenpeace document analysis as reported by DeSmog and Inside Climate News.",
+    "Totals mix several Koch foundations; a foundation-specific climate grant total was not found. The current Charles Koch Foundation (EIN 48-0918408) files Form 990-PFs that could give exact grant figures.",
+    "Greenpeace and DeSmog are advocacy publishers; treat their tallies accordingly."
+  ]
+}

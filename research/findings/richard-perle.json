@@ -1,0 +1,84 @@
+{
+  "entity": "richard-perle",
+  "name": "Richard Perle",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Richard Perle, an Assistant Secretary of Defense under President Reagan, chaired the Pentagon's Defense Policy Board advisory committee from 2001 until he stepped down as chairman in late March 2003 amid conflict-of-interest allegations over his paid advisory work for Global Crossing, a bankrupt telecommunications company seeking U.S. government approval for a sale to foreign buyers. He remained a board member after resigning the chair.",
+    "sources": [
+      { "url": "https://publicintegrity.org/national-security/advisors-of-influence-nine-members-of-the-defense-policy-board-have-ties-to-defense-contractors/", "publisher": "Center for Public Integrity", "title": "Advisors of Influence: Nine Members of the Defense Policy Board Have Ties to Defense Contractors", "date": "2003-03-28" },
+      { "url": "https://cbsnews.com/news/top-hawk-leaves-pentagon-nest", "publisher": "CBS News", "title": "Top Hawk Leaves Pentagon Nest", "date": "2003-03-27" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Perle resigned as chairman of the Defense Policy Board in a letter to Defense Secretary Donald Rumsfeld dated March 26, 2003, made public by the Pentagon, in which he said he had followed the rules governing board members; he remained a member of the board.",
+      "status": "documented",
+      "date": "2003-03-26",
+      "quote": "The letter, made public by the Pentagon and dated March 26, assured Rumsfeld he had followed the rules for board members.",
+      "sources": [
+        { "url": "https://cbsnews.com/news/top-hawk-leaves-pentagon-nest", "publisher": "CBS News", "title": "Top Hawk Leaves Pentagon Nest", "date": "2003-03-27" },
+        { "url": "https://publicintegrity.org/national-security/advisors-of-influence-nine-members-of-the-defense-policy-board-have-ties-to-defense-contractors/", "publisher": "Center for Public Integrity", "title": "Advisors of Influence: Nine Members of the Defense Policy Board Have Ties to Defense Contractors", "date": "2003-03-28" }
+      ]
+    },
+    {
+      "claim": "Global Crossing had hired Perle to help win Defense Department support for the sale of the company to foreign buyers, a transaction requiring approval from the Committee on Foreign Investment in the United States, of which Rumsfeld was a member; reports put his fee at $750,000 with a further $600,000 if the sale was approved.",
+      "status": "reported",
+      "date": "2003-03",
+      "quote": "The company needed approval from the Committee on Foreign Investment in the United States for a sale of overseas subsidiaries, and Rumsfeld is a member of the Committee.",
+      "sources": [
+        { "url": "https://cbsnews.com/news/top-hawk-leaves-pentagon-nest", "publisher": "CBS News", "title": "Top Hawk Leaves Pentagon Nest", "date": "2003-03-27" }
+      ]
+    },
+    {
+      "claim": "On March 24, 2003 Rep. John Conyers, ranking Democrat on the House Judiciary Committee, asked the Pentagon's inspector general to investigate Perle's paid advisory role for Global Crossing.",
+      "status": "documented",
+      "date": "2003-03-24",
+      "sources": [
+        { "url": "https://cbsnews.com/news/top-hawk-leaves-pentagon-nest", "publisher": "CBS News", "title": "Top Hawk Leaves Pentagon Nest", "date": "2003-03-27" }
+      ]
+    },
+    {
+      "claim": "Perle said he was stepping aside as chairman so that the controversy would not distract from the Iraq war, and that any fee from Global Crossing would go to families of service members killed or injured in Iraq.",
+      "status": "words",
+      "date": "2003-03-27",
+      "sources": [
+        { "url": "https://cbsnews.com/news/top-hawk-leaves-pentagon-nest", "publisher": "CBS News", "title": "Top Hawk Leaves Pentagon Nest", "date": "2003-03-27" }
+      ]
+    },
+    {
+      "claim": "Shortly before resigning the chair, Perle called journalist Seymour Hersh a 'terrorist' and threatened a libel suit in Britain after Hersh's March 17, 2003 New Yorker article on Perle's business interests.",
+      "status": "reported",
+      "date": "2003-03",
+      "quote": "described the respected journalist Seymour Hersh as a \"terrorist,\" and threatened to sue Hersh for libel in Britain",
+      "sources": [
+        { "url": "https://fair.org/extra/when-journalism-becomes-terrorism/", "publisher": "FAIR", "title": "When Journalism Becomes Terrorism", "date": "2003-05" }
+      ]
+    },
+    {
+      "claim": "A March 2003 Center for Public Integrity study found that nine of the Defense Policy Board's 30 members had ties to companies with defense contracts, Perle among them.",
+      "status": "reported",
+      "date": "2003-03-28",
+      "sources": [
+        { "url": "https://publicintegrity.org/national-security/advisors-of-influence-nine-members-of-the-defense-policy-board-have-ties-to-defense-contractors/", "publisher": "Center for Public Integrity", "title": "Advisors of Influence: Nine Members of the Defense Policy Board Have Ties to Defense Contractors", "date": "2003-03-28" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "pentagon",
+      "toName": "Pentagon",
+      "toType": "government",
+      "relation": "advised",
+      "claim": "Perle chaired the Defense Policy Board, the Pentagon's outside advisory committee, until resigning the chairmanship in March 2003.",
+      "status": "documented",
+      "date": "2003-03-27",
+      "sources": [
+        { "url": "https://publicintegrity.org/national-security/advisors-of-influence-nine-members-of-the-defense-policy-board-have-ties-to-defense-contractors/", "publisher": "Center for Public Integrity", "title": "Advisors of Influence: Nine Members of the Defense Policy Board Have Ties to Defense Contractors", "date": "2003-03-28" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site says Perle 'reportedly introduced Palantir's founders to Poindexter'. No source found in this session addresses that; it remains unsupported here and rests on secondary accounts the owner should identify.",
+    "Perle's Trireme Partners venture, and the outcome of the Pentagon inspector general inquiry requested by Conyers, were not found in the sources returned."
+  ]
+}

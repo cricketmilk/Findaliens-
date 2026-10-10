@@ -1,7 +1,7 @@
 {
   "entity": "founders-fund",
   "name": "Founders Fund",
-  "researchedAt": "2026-10-08",
+  "researchedAt": "2026-10-09",
   "summary": {
     "text": "Founders Fund is a San Francisco venture capital firm founded in 2005 and run by PayPal co-founders including Peter Thiel, Luke Nosek and Ken Howery. Its portfolio includes SpaceX, Palantir, Anduril, Stripe and Facebook. In 2008 its $20 million investment was SpaceX's first outside funding.",
     "sources": [
@@ -59,6 +59,52 @@
           "date": "2008-08-05"
         }
       ]
+    },
+    {
+      "claim": "In April 2025 CNBC reported, citing an SEC filing, that Founders Fund had closed Founders Fund Growth III, a $4.6 billion late-stage venture fund with capital from 270 investors, up from a $3.4 billion growth fund closed in early 2022. A person familiar with the matter told CNBC that a substantial amount of the capital came from the firm's general partners. Cooley LLP, which advised on the fund, announced the close in August 2025.",
+      "status": "reported",
+      "date": "2025-04",
+      "quote": "The fund, Founders Fund Growth III, includes capital from 270 investors, the filing said.",
+      "sources": [
+        {
+          "url": "https://www.nbcsandiego.com/news/business/money-report/peter-thiels-founders-fund-closes-4-6-billion-growth-fund/3802209/?os=http",
+          "publisher": "CNBC (via NBC San Diego)",
+          "title": "Peter Thiel's Founders Fund closes $4.6 billion growth fund",
+          "date": "2025-04"
+        },
+        {
+          "url": "https://techcrunch.com/2025/04/15/founders-funds-new-4-6b-fund-indicates-an-era-of-big-vc-spending/",
+          "publisher": "TechCrunch",
+          "title": "Founders Fund's new $4.6B fund indicates an era of big VC spending",
+          "date": "2025-04-15"
+        },
+        {
+          "url": "https://www.cooley.com/news/coverage/2025/2025-08-04-founders-fund-closes-4-6-billion-growth-iii-fund",
+          "publisher": "Cooley LLP",
+          "title": "Founders Fund Closes $4.6 Billion Growth III Fund",
+          "date": "2025-08-04"
+        }
+      ]
+    },
+    {
+      "claim": "Founders Fund joined Carbyne's $15 million Series B round in August 2018, which Calcalist described as the firm's first investment in Israel; Carbyne's backers at the time included former Israeli prime minister Ehud Barak. In January 2021 Carbyne raised a $25 million Series B1 led by Hanaco Ventures and Elsted Capital Partners, with participation from former CIA Director David Petraeus and all existing investors including Founders Fund.",
+      "status": "reported",
+      "date": "2018-08; 2021-01",
+      "quote": "This was the first investment in Israel for San Francisco-based Founders Fund.",
+      "sources": [
+        {
+          "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3744302,00.html",
+          "publisher": "Calcalist (CTech)",
+          "title": "Founders Fund Invests in a 911 Startup Backed by Ehud Barak",
+          "date": "2018-08"
+        },
+        {
+          "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3887697,00.html",
+          "publisher": "Calcalist (CTech)",
+          "title": "Carbyne raises $25 million to expand emergency call center response solution",
+          "date": "2021-01"
+        }
+      ]
     }
   ],
   "connections": [
@@ -110,6 +156,64 @@
           "date": "2017-02-21"
         }
       ]
+    },
+    {
+      "to": "carbyne",
+      "relation": "invested in",
+      "claim": "Founders Fund invested in Carbyne's $15 million Series B in August 2018, its first investment in Israel according to Calcalist, and took part as an existing investor in the $25 million Series B1 in January 2021.",
+      "status": "reported",
+      "date": "2018-08",
+      "quote": "This was the first investment in Israel for San Francisco-based Founders Fund.",
+      "sources": [
+        {
+          "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3744302,00.html",
+          "publisher": "Calcalist (CTech)",
+          "title": "Founders Fund Invests in a 911 Startup Backed by Ehud Barak",
+          "date": "2018-08"
+        },
+        {
+          "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3887697,00.html",
+          "publisher": "Calcalist (CTech)",
+          "title": "Carbyne raises $25 million to expand emergency call center response solution",
+          "date": "2021-01"
+        }
+      ]
+    },
+    {
+      "to": "anduril",
+      "relation": "invested in",
+      "claim": "Founders Fund has backed Anduril since 2017 and invested $1 billion in Anduril's June 2025 Series G round at a $30.5 billion valuation, the largest single check the company had received, Reuters reported.",
+      "status": "reported",
+      "date": "2025-06-05",
+      "quote": "The round included a $1 billion investment from Founders Fund, the largest individual check the company has received to date.",
+      "sources": [
+        {
+          "url": "https://finance.yahoo.com/news/anduril-secures-30-5-billion-170551242.html",
+          "publisher": "Reuters (via Yahoo Finance)",
+          "title": "Anduril secures $30.5 billion valuation in latest fund raise",
+          "date": "2025-06-05"
+        }
+      ]
+    },
+    {
+      "to": "spacex",
+      "relation": "invested in",
+      "claim": "Founders Fund invested $20 million in SpaceX in August 2008, after the third Falcon 1 launch failure, and partner Luke Nosek joined SpaceX's board.",
+      "status": "reported",
+      "date": "2008-08",
+      "quote": "PayPal Co-Founders Invest $20 Million in SpaceX",
+      "sources": [
+        {
+          "url": "https://www.space.com/5701-paypal-founders-invest-20-million-spacex.html",
+          "publisher": "Space.com",
+          "title": "PayPal Co-Founders Invest $20 Million in SpaceX",
+          "date": "2008-08-05"
+        }
+      ]
     }
+  ],
+  "openQuestions": [
+    "Whether Founders Fund took part in Carbyne's later rounds (a reported $56 million Series C and a 2025 $100 million round) or held a stake at Axon's reported 2025 acquisition was not determined.",
+    "The Form D for Founders Fund Growth III on EDGAR was not opened; the $4.6 billion figure rests on CNBC and TechCrunch citing the filing."
   ]
 }

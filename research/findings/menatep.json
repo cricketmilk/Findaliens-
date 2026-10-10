@@ -1,0 +1,101 @@
+{
+  "entity": "menatep",
+  "name": "Menatep",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Bank Menatep was a Moscow commercial bank created by Mikhail Khodorkovsky in the late Soviet period (sources give 1988-1989 for its founding) that processed the bids in the 1995 loans-for-shares auction of the oil company Yukos, won by a company controlled by Khodorkovsky and his partners. After the 1998 Russian financial crisis Menatep defaulted on a $136 million foreign loan, pledged a 15 percent Yukos stake as collateral, and moved its branch network to its subsidiary Menatep St Petersburg; by May 1999 it had ceased operating and in September 1999 creditors voted for its bankruptcy. The related holding company Group Menatep, later renamed GML, held the controlling stake in Yukos; in July 2014 an arbitration tribunal at The Hague ordered Russia to pay its former Yukos shareholders more than $50 billion, an award annulled in 2016, reinstated in 2020 and upheld by the Dutch Supreme Court. The Khodorkovsky and Yukos files on this site hold the auction record.",
+    "sources": [
+      { "url": "https://elischolar.library.yale.edu/cgi/viewcontent.cgi?article=14312&context=ypfs-documents", "publisher": "Yale Program on Financial Stability", "title": "Russian banking crisis case materials (Menatep)" },
+      { "url": "https://www.rferl.org/a/russia-yukos-khodorkovsky/25472373.html", "publisher": "RFE/RL", "title": "Hague Court Rules Against Russia In Yukos Case", "date": "2014-07-28" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Khodorkovsky's bank Menatep processed the bids in the December 1995 loans-for-shares auction of Yukos; the winner was a company controlled by Khodorkovsky and his partners, and a rival bid from three large Russian banks offering more money was disqualified on technical grounds. In April 1996 Khodorkovsky stepped down as Menatep's chief executive while remaining its chairman.",
+      "status": "reported",
+      "date": "1995-12",
+      "quote": "Khodorkovsky was stepping down as Menatep's chief executive while remaining its chairman",
+      "sources": [
+        { "url": "https://www.pbs.org/frontlineworld/stories/moscow/khodorkovsky.html", "publisher": "PBS Frontline/World", "title": "Mikhail Khodorkovsky" },
+        { "url": "https://www.bloomberg.com/news/articles/1996-04-28/this-russian-oil-giant-is-refining-its-act-intl-edition", "publisher": "Bloomberg Businessweek", "title": "This Russian oil giant is refining its act", "date": "1996-04-28" }
+      ]
+    },
+    {
+      "claim": "After the 1998 crisis Menatep defaulted on the repayment of a $136 million foreign loan because of Yukos's financial difficulties and pledged a 15 percent stake of Yukos shares as collateral; it then moved its business and branch network to its subsidiary Menatep St Petersburg, so that by May 1999 all 46 of its Moscow branches were operated by that subsidiary, which was sold back to Rosprom members, Menatep's main shareholders.",
+      "status": "documented",
+      "date": "1999-05",
+      "quote": "By May 1999, all 46 of Menatep's Moscow branches were owned and operated by Menatep St Petersburg.",
+      "sources": [
+        { "url": "https://elischolar.library.yale.edu/cgi/viewcontent.cgi?article=14312&context=ypfs-documents", "publisher": "Yale Program on Financial Stability", "title": "Russian banking crisis case materials (Menatep)" }
+      ]
+    },
+    {
+      "claim": "In September 1999 Menatep's creditors voted for its bankruptcy; the bank's temporary manager, Alexei Karmanov, said that assets had been hidden in accounts abroad and were very difficult to trace.",
+      "status": "documented",
+      "date": "1999-09",
+      "quote": "In September 1999 creditors finally voted for Menatep's bankruptcy",
+      "sources": [
+        { "url": "https://elischolar.library.yale.edu/cgi/viewcontent.cgi?article=14312&context=ypfs-documents", "publisher": "Yale Program on Financial Stability", "title": "Russian banking crisis case materials (Menatep)" }
+      ]
+    },
+    {
+      "claim": "On July 18, 2014 the Permanent Court of Arbitration tribunal at The Hague ordered Russia to pay former Yukos shareholders, including the Group Menatep successor GML, in excess of $50 billion, finding that Russia had forced Yukos into bankruptcy and sold its assets to state-owned companies for political purposes; the claimants had sought about $100-114 billion.",
+      "status": "court",
+      "date": "2014-07-18",
+      "quote": "Hague Court Rules Against Russia In Yukos Case",
+      "sources": [
+        { "url": "https://www.rferl.org/a/russia-yukos-khodorkovsky/25472373.html", "publisher": "RFE/RL", "title": "Hague Court Rules Against Russia In Yukos Case", "date": "2014-07-28" },
+        { "url": "https://www.voanews.com/a/hague-court-expected-to-rule-for-yukos-shareholders-/1966321.html", "publisher": "VOA", "title": "Hague Court: Russia Must Pay Yukos Shareholders $50 Billion", "date": "2014-07-28" },
+        { "url": "https://www.aljazeera.com/news/2014/7/28/russia-ordered-to-pay-50bn-in-yukos-case", "publisher": "Al Jazeera", "title": "Russia ordered to pay $50bn in Yukos case", "date": "2014-07-28" }
+      ]
+    },
+    {
+      "claim": "The Hague District Court annulled the $50 billion award in 2016; the Hague Court of Appeal reinstated it in February 2020, and the Dutch Supreme Court later rejected Russia's final appeal. Russia argues the award is invalid because it never ratified the Energy Charter Treaty on which it rests.",
+      "status": "court",
+      "date": "2020-02",
+      "quote": "Court reinstates order for Russia to pay $50 billion over Yukos",
+      "sources": [
+        { "url": "https://www.nbcnews.com/news/world/court-reinstates-order-russia-pay-50-billion-over-yukos-n1137846", "publisher": "NBC News", "title": "Court reinstates order for Russia to pay $50 billion over Yukos", "date": "2020-02-18" },
+        { "url": "https://www.foxnews.com/world/dutch-court-quashes-50-billion-yukos-shareholders-award.amp", "publisher": "Fox News (AP)", "title": "Dutch court quashes $50 billion Yukos shareholders' award", "date": "2016-04-20" },
+        { "url": "https://www.yahoo.com/news/articles/dutch-supreme-court-rejects-russias-114347285.html", "publisher": "Yahoo News (AP)", "title": "Dutch Supreme Court rejects Russia's final appeal in $50B Yukos case" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "mikhail-khodorkovsky",
+      "toName": "Mikhail Khodorkovsky",
+      "toType": "person",
+      "relation": "founded",
+      "claim": "Khodorkovsky created Bank Menatep and headed it until April 1996, when he stepped down as chief executive while remaining chairman.",
+      "status": "reported",
+      "date": "1996-04-28",
+      "quote": "Khodorkovsky was stepping down as Menatep's chief executive while remaining its chairman",
+      "reverse": true,
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/1996-04-28/this-russian-oil-giant-is-refining-its-act-intl-edition", "publisher": "Bloomberg Businessweek", "title": "This Russian oil giant is refining its act", "date": "1996-04-28" },
+        { "url": "https://www.pbs.org/frontlineworld/stories/moscow/khodorkovsky.html", "publisher": "PBS Frontline/World", "title": "Mikhail Khodorkovsky" }
+      ]
+    },
+    {
+      "to": "yukos",
+      "toName": "Yukos",
+      "toType": "company",
+      "relation": "owns",
+      "claim": "Menatep processed the bids in the 1995 loans-for-shares auction of Yukos, won by a company controlled by Khodorkovsky and his partners, and in 1998-99 pledged a 15 percent Yukos stake as collateral on a defaulted loan; Group Menatep (later GML) was the holding company for the controlling Yukos stake whose shareholders won the 2014 Hague award.",
+      "status": "reported",
+      "date": "1995-12",
+      "quote": "Menatep then used a 15% stake of Yukos shares as collateral for the defaulted loan",
+      "sources": [
+        { "url": "https://elischolar.library.yale.edu/cgi/viewcontent.cgi?article=14312&context=ypfs-documents", "publisher": "Yale Program on Financial Stability", "title": "Russian banking crisis case materials (Menatep)" },
+        { "url": "https://www.pbs.org/frontlineworld/stories/moscow/khodorkovsky.html", "publisher": "PBS Frontline/World", "title": "Mikhail Khodorkovsky" },
+        { "url": "https://www.rferl.org/a/russia-yukos-khodorkovsky/25472373.html", "publisher": "RFE/RL", "title": "Hague Court Rules Against Russia In Yukos Case", "date": "2014-07-28" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The id menatep is in research/entities.seed.json but not yet in public/data/entities.json; the owner should run extract-entities.mjs before review.",
+    "The founding date (1988 vs 1989) and the Central Bank's license-revocation date (reported as May 1999) were not confirmed from a primary source.",
+    "The relationship between Bank Menatep and Group Menatep/GML as distinct entities is stated on secondary sources only; the owner may prefer to split them."
+  ]
+}

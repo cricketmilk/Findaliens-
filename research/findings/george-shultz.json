@@ -1,0 +1,70 @@
+{
+  "entity": "george-shultz",
+  "name": "George Shultz",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "George P. Shultz, U.S. Secretary of State under President Reagan, served on the board of directors of Theranos from 2011 to 2015. His grandson Tyler Shultz worked at Theranos and became one of the whistleblowers whose reports to regulators and to Wall Street Journal reporter John Carreyrou exposed problems with the company's technology.",
+    "sources": [
+      { "url": "https://www.cnbc.com/2018/03/16/james-mattis-is-linked-to-a-massive-corporate-fraud-and-nobody-wants-to-talk-about-it.html", "publisher": "CNBC", "title": "James Mattis is linked to a massive corporate fraud and nobody wants to talk about it", "date": "2018-03-16" },
+      { "url": "https://scu.edu/ethics/focus-areas/business-ethics/resources/teaching-note-interview-of-theranos-whistleblower-tyler-shultz", "publisher": "Santa Clara University, Markkula Center for Applied Ethics", "title": "Teaching Note: Interview of Theranos Whistleblower Tyler Shultz", "date": "2019" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "George Shultz, Secretary of State under President Reagan, served on the Theranos board from 2011 to 2015.",
+      "status": "reported",
+      "date": "2011",
+      "quote": "George Shultz, who served as secretary of state for President Ronald Reagan, served on the board from 2011-2015.",
+      "sources": [
+        { "url": "https://www.cnbc.com/2018/03/16/james-mattis-is-linked-to-a-massive-corporate-fraud-and-nobody-wants-to-talk-about-it.html", "publisher": "CNBC", "title": "James Mattis is linked to a massive corporate fraud and nobody wants to talk about it", "date": "2018-03-16" }
+      ]
+    },
+    {
+      "claim": "Theranos's board at various times also included former Secretary of State Henry Kissinger and former Senate Majority Leader Bill Frist.",
+      "status": "reported",
+      "date": "2018-03",
+      "quote": "former U.S. Secretaries of State Henry Kissinger and George Schultz, plus former Senate Majority Leader Bill Frist",
+      "sources": [
+        { "url": "https://www.cnbc.com/2018/03/16/james-mattis-is-linked-to-a-massive-corporate-fraud-and-nobody-wants-to-talk-about-it.html", "publisher": "CNBC", "title": "James Mattis is linked to a massive corporate fraud and nobody wants to talk about it", "date": "2018-03-16" }
+      ]
+    },
+    {
+      "claim": "Shultz's grandson Tyler Shultz worked at Theranos and, after leaving, used an alias to contact regulators and spoke with Wall Street Journal reporter John Carreyrou, whose articles from 2015 exposed problems with the company's testing; the family spent about $400,000 on legal fees defending against Theranos's threats.",
+      "status": "reported",
+      "date": "2015",
+      "quote": "Tyler's family had to spend $400,000 on legal fees to defend against Theranos's threats.",
+      "sources": [
+        { "url": "https://scu.edu/ethics/focus-areas/business-ethics/resources/teaching-note-interview-of-theranos-whistleblower-tyler-shultz", "publisher": "Santa Clara University, Markkula Center for Applied Ethics", "title": "Teaching Note: Interview of Theranos Whistleblower Tyler Shultz", "date": "2019" },
+        { "url": "https://muddyrivernews.com/top-stories/theranos-whistleblower-tells-culver-stockton-students-to-find-that-thing-worth-doing/20260221071832/", "publisher": "Muddy River News", "title": "Theranos whistleblower tells Culver-Stockton students to find 'that thing worth doing'", "date": "2026-02-21" }
+      ]
+    },
+    {
+      "claim": "In March 2018 the SEC charged Theranos and Elizabeth Holmes with an elaborate, years-long fraud; Holmes settled, paying a $500,000 penalty and accepting a ten-year bar from serving as an officer or director of a public company, without admitting or denying the allegations.",
+      "status": "court",
+      "date": "2018-03-14",
+      "quote": "an elaborate, years-long fraud in which they exaggerated or made false statements about the company's technology, business, and financial performance",
+      "sources": [
+        { "url": "https://www.axios.com/2018/03/14/theranos-fraud", "publisher": "Axios", "title": "SEC charges Theranos CEO Elizabeth Holmes with 'massive fraud'", "date": "2018-03-14" },
+        { "url": "https://news.crunchbase.com/startups/sec-charges-theranos-execs-elaborate-years-long-fraud", "publisher": "Crunchbase News", "title": "SEC Charges Theranos Execs With Elaborate, Years-Long Fraud", "date": "2018-03-14" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "theranos",
+      "toName": "Theranos",
+      "toType": "company",
+      "relation": "board member of",
+      "claim": "Shultz served on the Theranos board of directors from 2011 to 2015.",
+      "status": "reported",
+      "date": "2011",
+      "sources": [
+        { "url": "https://www.cnbc.com/2018/03/16/james-mattis-is-linked-to-a-massive-corporate-fraud-and-nobody-wants-to-talk-about-it.html", "publisher": "CNBC", "title": "James Mattis is linked to a massive corporate fraud and nobody wants to talk about it", "date": "2018-03-16" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site says the board 'provided institutional legitimacy and regulatory immunity in exchange for equity'. Board membership is documented; the SEC's 2018 complaint did not charge any director, and no source found states what compensation Shultz received. The 'regulatory immunity' claim is unsupported.",
+    "The SEC's complaint and press release (sec.gov, March 14, 2018) should be cited directly."
+  ]
+}

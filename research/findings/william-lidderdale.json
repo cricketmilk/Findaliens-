@@ -1,0 +1,127 @@
+{
+  "entity": "william-lidderdale",
+  "name": "William Lidderdale",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "William Lidderdale was Governor of the Bank of England in 1890. When Baring Brothers disclosed on 8 November 1890 that it would fail without help, he sought a meeting with Chancellor Goschen and assembled a consortium of London banks, including Rothschilds, that created a fund guaranteeing Barings' debts and averted a wider panic.",
+    "sources": [
+      {
+        "url": "https://bankunderground.co.uk/2016/02/10/rescuing-a-sifi-halting-a-panic-the-barings-crisis-of-1890/",
+        "publisher": "Bank Underground (Bank of England staff blog)",
+        "title": "Rescuing a SIFI, Halting a Panic: the Barings Crisis of 1890",
+        "date": "2016-02-10"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On 8 November 1890 Bank of England Governor William Lidderdale met Lord Revelstoke and Francis Baring and learned that Barings was the house subject of market rumour and would have to stop without help; he then asked Chancellor Goschen for a meeting.",
+      "status": "documented",
+      "date": "1890-11-08",
+      "quote": "Lidderdale met Lord Revelstoke and Francis Baring to learn that it was indeed the House of Baring that was the subject of the rumour, and that without help they would have to stop.",
+      "sources": [
+        {
+          "url": "https://bankunderground.co.uk/2016/02/10/rescuing-a-sifi-halting-a-panic-the-barings-crisis-of-1890/",
+          "publisher": "Bank Underground (Bank of England staff blog)",
+          "title": "Rescuing a SIFI, Halting a Panic: the Barings Crisis of 1890",
+          "date": "2016-02-10"
+        }
+      ]
+    },
+    {
+      "claim": "Lidderdale assembled a consortium including Rothschilds and most of the major London banks that created a fund to guarantee Barings' debts.",
+      "status": "documented",
+      "date": "1890-11",
+      "quote": "An international consortium assembled by William Lidderdale, governor of the Bank of England, including Rothschilds and most of the other major London banks, created a fund to guarantee Barings' debts",
+      "sources": [
+        {
+          "url": "https://bankunderground.co.uk/2016/02/10/rescuing-a-sifi-halting-a-panic-the-barings-crisis-of-1890/",
+          "publisher": "Bank Underground (Bank of England staff blog)",
+          "title": "Rescuing a SIFI, Halting a Panic: the Barings Crisis of 1890",
+          "date": "2016-02-10"
+        }
+      ]
+    },
+    {
+      "claim": "A contemporary report put Barings' liabilities at about £21 million; the collapse of Argentine securities in mid-1890 had pushed the firm into difficulties.",
+      "status": "reported",
+      "date": "1890-11",
+      "sources": [
+        {
+          "url": "https://dynamic-rsnz.natlib.govt.nz/newspapers/FS18901118.2.21",
+          "publisher": "Papers Past (National Library of New Zealand)",
+          "title": "Contemporary report on the Baring failure, 18 November 1890",
+          "date": "1890-11-18"
+        }
+      ]
+    },
+    {
+      "claim": "Barings was the leading investment bank for Argentina and helped channel about £140 million of investment there between 1885 and 1890.",
+      "status": "reported",
+      "date": "1890",
+      "quote": "Serving as the leading investment bank for Argentina, Barings helped to channel £140 million of investment to Argentina between 1885 and 1890.",
+      "sources": [
+        {
+          "url": "https://bankunderground.co.uk/2016/02/10/rescuing-a-sifi-halting-a-panic-the-barings-crisis-of-1890/",
+          "publisher": "Bank Underground (Bank of England staff blog)",
+          "title": "Rescuing a SIFI, Halting a Panic: the Barings Crisis of 1890",
+          "date": "2016-02-10"
+        }
+      ]
+    },
+    {
+      "claim": "Eugene White's Bank of England archival study argues the 1890 rescue was more significant than standard accounts that describe the Bank as simply following Bagehot's rule to lend freely at a high rate.",
+      "status": "reported",
+      "date": "2016-02-10",
+      "quote": "Financial historians have argued that, when faced with a crisis in the nineteenth century, the Bank of England simply followed Bagehot's Rule to lend freely at a high rate to preserve market liquidity.",
+      "sources": [
+        {
+          "url": "https://bankunderground.co.uk/2016/02/10/rescuing-a-sifi-halting-a-panic-the-barings-crisis-of-1890/",
+          "publisher": "Bank Underground (Bank of England staff blog)",
+          "title": "Rescuing a SIFI, Halting a Panic: the Barings Crisis of 1890",
+          "date": "2016-02-10"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "bank-of-england",
+      "toName": "Bank of England",
+      "toType": "institution",
+      "relation": "executive of",
+      "claim": "Lidderdale was Governor of the Bank of England during the 1890 Baring crisis.",
+      "status": "documented",
+      "date": "1890",
+      "sources": [
+        {
+          "url": "https://bankunderground.co.uk/2016/02/10/rescuing-a-sifi-halting-a-panic-the-barings-crisis-of-1890/",
+          "publisher": "Bank Underground (Bank of England staff blog)",
+          "title": "Rescuing a SIFI, Halting a Panic: the Barings Crisis of 1890",
+          "date": "2016-02-10"
+        }
+      ]
+    },
+    {
+      "to": "baring-brothers",
+      "toName": "Baring Brothers",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Lidderdale organised the guarantee fund that supported Baring Brothers' liabilities in November 1890.",
+      "status": "documented",
+      "date": "1890-11",
+      "quote": "An international consortium assembled by William Lidderdale, governor of the Bank of England, including Rothschilds and most of the other major London banks, created a fund to guarantee Barings' debts",
+      "sources": [
+        {
+          "url": "https://bankunderground.co.uk/2016/02/10/rescuing-a-sifi-halting-a-panic-the-barings-crisis-of-1890/",
+          "publisher": "Bank Underground (Bank of England staff blog)",
+          "title": "Rescuing a SIFI, Halting a Panic: the Barings Crisis of 1890",
+          "date": "2016-02-10"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: Lidderdale 'organized the private bank guarantee syndicate' is supported."
+  ]
+}

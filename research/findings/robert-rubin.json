@@ -1,0 +1,173 @@
+{
+  "entity": "robert-rubin",
+  "name": "Robert Rubin",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Robert E. Rubin was U.S. Secretary of the Treasury from 1995 to 1999, succeeding Lloyd Bentsen, after twenty-six years at Goldman Sachs where he rose to co-chairman. The Treasury's official history says he led efforts with the IMF, the Federal Reserve and others to keep the Mexican and Asian financial crises from overwhelming the global financial system. In 1999 he joined Citigroup as chairman of its executive committee and later sat on its board; he was called before the Financial Crisis Inquiry Commission in 2010.",
+    "sources": [
+      {
+        "url": "https://home.treasury.gov/about/history/prior-secretaries/robert-e-rubin-1995-1999",
+        "publisher": "U.S. Department of the Treasury",
+        "title": "Robert E. Rubin (1995 - 1999)"
+      },
+      {
+        "url": "https://ibscdc.org/Case_Studies/Entrepreneurship/Entrepreneurship/ENT0004.htm",
+        "publisher": "IBS Center for Management Research",
+        "title": "Robert E. Rubin: Executive Entrepreneur"
+      },
+      {
+        "url": "https://nakedcapitalism.com/2010/02/rubin-greenspan-prince-to-be-grilled-by-financial-crisis-inquiry-commission.html",
+        "publisher": "Naked Capitalism",
+        "title": "Rubin, Greenspan, Prince to be Grilled by Financial Crisis Inquiry Commission",
+        "date": "2010-02"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Rubin succeeded Lloyd Bentsen as Treasury Secretary in 1995 and served until 1999; the Treasury's history says he faced financial crises in Mexico and Asia that posed real risks to global financial stability and led efforts with the IMF, the Federal Reserve and others to stop them from overwhelming the global financial system.",
+      "status": "documented",
+      "date": "1995",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/about/history/prior-secretaries/robert-e-rubin-1995-1999",
+          "publisher": "U.S. Department of the Treasury",
+          "title": "Robert E. Rubin (1995 - 1999)"
+        }
+      ]
+    },
+    {
+      "claim": "Before government service Rubin worked for twenty-six years at Goldman Sachs, rising to co-chairman.",
+      "status": "documented",
+      "date": "1992",
+      "quote": "worked for twenty-six years at Goldman Sachs & Company, one of Wall Street's venerable investment firms, where he rose to the position of Co-Chairman",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/about/history/prior-secretaries/robert-e-rubin-1995-1999",
+          "publisher": "U.S. Department of the Treasury",
+          "title": "Robert E. Rubin (1995 - 1999)"
+        }
+      ]
+    },
+    {
+      "claim": "In 1999 Rubin joined Citigroup as chairman of its executive committee and later served as a board member.",
+      "status": "reported",
+      "date": "1999",
+      "sources": [
+        {
+          "url": "https://ibscdc.org/Case_Studies/Entrepreneurship/Entrepreneurship/ENT0004.htm",
+          "publisher": "IBS Center for Management Research",
+          "title": "Robert E. Rubin: Executive Entrepreneur"
+        },
+        {
+          "url": "https://nakedcapitalism.com/2010/02/rubin-greenspan-prince-to-be-grilled-by-financial-crisis-inquiry-commission.html",
+          "publisher": "Naked Capitalism",
+          "title": "Rubin, Greenspan, Prince to be Grilled by Financial Crisis Inquiry Commission",
+          "date": "2010-02"
+        }
+      ]
+    },
+    {
+      "claim": "The Center for Economic and Policy Research, a critic of the Treasury's Asian-crisis policy, argued that the roughly $120 billion in IMF-led loan packages had the taxpayers of Indonesia, South Korea and other affected countries guarantee bad debt held by foreign corporations and banks; this is an advocacy group's assessment.",
+      "status": "reported",
+      "date": "2002-01-18",
+      "sources": [
+        {
+          "url": "https://cepr.net/publications/rubin-shouldnt-escape-enron-investigation/",
+          "publisher": "Center for Economic and Policy Research",
+          "title": "Rubin Shouldn't Escape Enron Investigation",
+          "date": "2002-01-18"
+        }
+      ]
+    },
+    {
+      "claim": "Rubin was summoned to testify before the Financial Crisis Inquiry Commission in 2010 in his capacity as a former Citigroup executive.",
+      "status": "reported",
+      "date": "2010",
+      "sources": [
+        {
+          "url": "https://nakedcapitalism.com/2010/02/rubin-greenspan-prince-to-be-grilled-by-financial-crisis-inquiry-commission.html",
+          "publisher": "Naked Capitalism",
+          "title": "Rubin, Greenspan, Prince to be Grilled by Financial Crisis Inquiry Commission",
+          "date": "2010-02"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "u-s-department-of-the-treasury",
+      "toName": "U.S. Department of the Treasury",
+      "toType": "agency",
+      "relation": "executive of",
+      "claim": "Rubin was Secretary of the Treasury from 1995 to 1999.",
+      "status": "documented",
+      "date": "1995",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/about/history/prior-secretaries/robert-e-rubin-1995-1999",
+          "publisher": "U.S. Department of the Treasury",
+          "title": "Robert E. Rubin (1995 - 1999)"
+        }
+      ]
+    },
+    {
+      "to": "goldman-sachs",
+      "toName": "Goldman Sachs",
+      "toType": "bank",
+      "relation": "executive of",
+      "claim": "Rubin spent twenty-six years at Goldman Sachs and was its co-chairman before joining the Clinton administration.",
+      "status": "documented",
+      "date": "1992",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/about/history/prior-secretaries/robert-e-rubin-1995-1999",
+          "publisher": "U.S. Department of the Treasury",
+          "title": "Robert E. Rubin (1995 - 1999)"
+        }
+      ]
+    },
+    {
+      "to": "citigroup",
+      "toName": "Citigroup",
+      "toType": "bank",
+      "relation": "executive of",
+      "claim": "Rubin joined Citigroup in 1999 as chairman of its executive committee and later sat on its board.",
+      "status": "reported",
+      "date": "1999",
+      "sources": [
+        {
+          "url": "https://ibscdc.org/Case_Studies/Entrepreneurship/Entrepreneurship/ENT0004.htm",
+          "publisher": "IBS Center for Management Research",
+          "title": "Robert E. Rubin: Executive Entrepreneur"
+        },
+        {
+          "url": "https://nakedcapitalism.com/2010/02/rubin-greenspan-prince-to-be-grilled-by-financial-crisis-inquiry-commission.html",
+          "publisher": "Naked Capitalism",
+          "title": "Rubin, Greenspan, Prince to be Grilled by Financial Crisis Inquiry Commission",
+          "date": "2010-02"
+        }
+      ]
+    },
+    {
+      "to": "imf",
+      "toName": "IMF",
+      "toType": "organization",
+      "relation": "partnered with",
+      "claim": "As Treasury Secretary, Rubin led efforts with the IMF and the Federal Reserve to respond to the Mexican and Asian financial crises.",
+      "status": "documented",
+      "date": "1997",
+      "sources": [
+        {
+          "url": "https://home.treasury.gov/about/history/prior-secretaries/robert-e-rubin-1995-1999",
+          "publisher": "U.S. Department of the Treasury",
+          "title": "Robert E. Rubin (1995 - 1999)"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site description 'U.S. Treasury Secretary who pushed for tough IMF conditionality and market-opening terms': his leading role with the IMF is documented by Treasury's history; the characterisation of the terms as 'tough' comes from critics (CEPR, Weisbrot) rather than from an official record.",
+    "Site claims about the closure of 56 Thai finance companies and 16 Indonesian banks and about Carlyle, Newbridge and Lone Star acquisitions were not tested here."
+  ]
+}

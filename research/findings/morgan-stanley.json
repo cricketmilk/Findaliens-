@@ -1,0 +1,273 @@
+{
+  "entity": "morgan-stanley",
+  "name": "Morgan Stanley",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Morgan Stanley is a New York-based investment bank. On September 21, 2008 the Federal Reserve Board approved its application, alongside Goldman Sachs's, to become a bank holding company, giving it ongoing access to the discount window; it received $10 billion under the TARP Capital Purchase Program in October 2008 and repaid it in June 2009. In March 2021 it was one of the prime brokers to Archegos Capital Management: it sold about $5 billion of Archegos-related shares on the evening of March 25, 2021 and reported $911 million of related losses, while Credit Suisse and Nomura absorbed far larger losses. Archegos founder Bill Hwang was convicted in July 2024 and sentenced to 18 years in prison.",
+    "sources": [
+      {
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20080921a.htm",
+        "publisher": "Federal Reserve Board",
+        "title": "Board approves, pending a statutory five-day antitrust waiting period, the applications of Goldman Sachs and Morgan Stanley to become bank holding companies",
+        "date": "2008-09-21"
+      },
+      {
+        "url": "https://www.morganstanley.com/press-releases/morgan-stanley-statement-on-tarp-repayment-and-regulatory-reforms_b7cf5f77-5b47-11de-96f6-3f25a44c9933",
+        "publisher": "Morgan Stanley",
+        "title": "Morgan Stanley Statement on TARP Repayment and Regulatory Reforms",
+        "date": "2009-06-17"
+      },
+      {
+        "url": "https://www.cnbc.com/2021/04/16/morgan-stanley-had-911-million-in-losses-tied-to-archegos-fund-meltdown-.html",
+        "publisher": "CNBC",
+        "title": "Morgan Stanley had $911 million in first-quarter losses tied to Archegos fund meltdown",
+        "date": "2021-04-16"
+      },
+      {
+        "url": "https://www.justice.gov/usao-sdny/pr/founder-and-head-archegos-capital-management-bill-hwang-sentenced-18-years-prison",
+        "publisher": "U.S. Attorney's Office, Southern District of New York",
+        "title": "Founder And Head Of Archegos Capital Management Bill Hwang Sentenced To 18 Years In Prison",
+        "date": "2024-11"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On September 21, 2008 the Federal Reserve Board approved the applications of Goldman Sachs and Morgan Stanley to become bank holding companies, pending a statutory five-day antitrust waiting period, and authorized the New York Fed to extend credit to the London broker-dealer subsidiaries of Goldman Sachs, Morgan Stanley and Merrill Lynch; on September 22 the Board said the transactions could be consummated immediately.",
+      "status": "documented",
+      "date": "2008-09-21",
+      "quote": "Board approves, pending a statutory five-day antitrust waiting period, the applications of Goldman Sachs and Morgan Stanley to become bank holding companies",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20080921a.htm",
+          "publisher": "Federal Reserve Board",
+          "title": "Board approves, pending a statutory five-day antitrust waiting period, the applications of Goldman Sachs and Morgan Stanley to become bank holding companies",
+          "date": "2008-09-21"
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20080922a.htm",
+          "publisher": "Federal Reserve Board",
+          "title": "Board announces that Goldman Sachs and Morgan Stanley transactions may be consummated immediately",
+          "date": "2008-09-22"
+        }
+      ]
+    },
+    {
+      "claim": "Morgan Stanley's 2008 annual report says the bank holding company status provides it ongoing access to the Federal Reserve Bank discount window and expanded funding opportunities, and that in October 2008 the Treasury announced its intention to inject capital into nine large U.S. financial institutions, including Morgan Stanley, under the TARP Capital Purchase Program.",
+      "status": "documented",
+      "date": "2008-10",
+      "quote": "the U.S. Treasury announced its intention to inject capital into nine large U.S. financial institutions, including the Company, under the TARP Capital Purchase Program in October 2008",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000895421/000119312509013429/d10k.htm",
+          "publisher": "SEC EDGAR (Morgan Stanley filing)",
+          "title": "Morgan Stanley Form 10-K for fiscal year 2008",
+          "date": "2009"
+        }
+      ]
+    },
+    {
+      "claim": "Morgan Stanley repaid $10 billion of TARP capital to the U.S. Treasury in June 2009; its quarterly report shows it repurchased $10.0 billion of Series D preferred stock during the quarter ended June 30, 2009.",
+      "status": "documented",
+      "date": "2009-06-17",
+      "quote": "during the quarter ended June 30, 2009, the Company repurchased $10.0 billion of its Series D Preferred Stock",
+      "sources": [
+        {
+          "url": "https://www.morganstanley.com/press-releases/morgan-stanley-statement-on-tarp-repayment-and-regulatory-reforms_b7cf5f77-5b47-11de-96f6-3f25a44c9933",
+          "publisher": "Morgan Stanley",
+          "title": "Morgan Stanley Statement on TARP Repayment and Regulatory Reforms",
+          "date": "2009-06-17"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/895421/000119312509169269/d10q.htm",
+          "publisher": "SEC EDGAR (Morgan Stanley filing)",
+          "title": "Morgan Stanley Quarterly Report for the period ended June 30, 2009",
+          "date": "2009"
+        }
+      ]
+    },
+    {
+      "claim": "CNBC reported that on the evening of Thursday March 25, 2021 Morgan Stanley sold about $5 billion of Archegos-related shares at a discount to a small group of hedge funds, telling them the shares were part of a margin call that could prevent the collapse of an unnamed client, ahead of block sales by other banks the next day.",
+      "status": "reported",
+      "date": "2021-03-25",
+      "quote": "Morgan Stanley sold about $5 billion of Archegos-related shares to a small group of hedge funds late on Thursday, March 25.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2021/04/06/morgan-stanley-dumped-5-billion-in-archegos-stocks-before-fire-sale.html",
+          "publisher": "CNBC",
+          "title": "Morgan Stanley dumped $5 billion in Archegos' stocks the night before massive fire sale hit rivals",
+          "date": "2021-04-06"
+        }
+      ]
+    },
+    {
+      "claim": "Morgan Stanley reported $911 million of first-quarter 2021 losses tied to Archegos: a $644 million loss from a credit event representing what the client owed under the transactions and failed to pay, plus $267 million in related trading losses.",
+      "status": "documented",
+      "date": "2021-04-16",
+      "quote": "That resulted in a net loss of $644 million which represents the amount the client owed us under the transactions that they failed to pay us.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2021/04/16/morgan-stanley-had-911-million-in-losses-tied-to-archegos-fund-meltdown-.html",
+          "publisher": "CNBC",
+          "title": "Morgan Stanley had $911 million in first-quarter losses tied to Archegos fund meltdown",
+          "date": "2021-04-16"
+        }
+      ]
+    },
+    {
+      "claim": "CNBC reported that Goldman Sachs sold most of the stock related to its Archegos margin calls on Friday March 26, 2021 and avoided losses, while Credit Suisse took a hit of more than $4.7 billion and Nomura about $2.9 billion; global banks' Archegos losses were later put at more than $10 billion.",
+      "status": "reported",
+      "date": "2021-04-27",
+      "quote": "Goldman managed to sell most of the stock related to its Archegos margin calls on Friday, helping the firm avoid any losses in the episode",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2021/03/29/goldman-morgan-stanley-avoided-losses-after-fund-meltdown-hit-nomura.html",
+          "publisher": "CNBC",
+          "title": "How Goldman and Morgan Stanley avoided losses after fund meltdown burned Nomura, Credit Suisse",
+          "date": "2021-03-29"
+        },
+        {
+          "url": "https://www.cnbc.com/2021/04/27/ubs-nomura-push-global-banks-archegos-losses-over-10-billion.html",
+          "publisher": "CNBC",
+          "title": "UBS, Nomura push global banks' Archegos losses over $10 billion",
+          "date": "2021-04-27"
+        }
+      ]
+    },
+    {
+      "claim": "A jury convicted Archegos founder Bill Hwang in July 2024 of racketeering conspiracy, securities fraud, market manipulation and wire fraud after a nine-week trial; Judge Alvin Hellerstein sentenced him to 18 years in prison, and prosecutors said the scheme defrauded at least nine investment banks.",
+      "status": "court",
+      "date": "2024-11",
+      "quote": "a jury convicted Hwang in July 2024 following a nine-week jury trial of racketeering conspiracy, securities fraud, market manipulation, and wire fraud",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdny/pr/founder-and-head-archegos-capital-management-bill-hwang-sentenced-18-years-prison",
+          "publisher": "U.S. Attorney's Office, Southern District of New York",
+          "title": "Founder And Head Of Archegos Capital Management Bill Hwang Sentenced To 18 Years In Prison",
+          "date": "2024-11"
+        }
+      ]
+    },
+    {
+      "claim": "The SEC said in 2004 that its review of more than 9.5 million securities transactions in the weeks before September 11, 2001 did not develop any evidence suggesting that anyone with advance knowledge of the attacks traded on that information; Poteshman's 2006 Journal of Business study found the put-volume indicator before the attacks was unusually high relative to his benchmarks.",
+      "status": "documented",
+      "date": "2004-07",
+      "quote": "it did not develop any evidence suggesting that anyone with advance knowledge of the attacks traded on that information",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/news/press/2004-98.htm",
+          "publisher": "SEC",
+          "title": "Statement Concerning SEC Terrorist Attack Trading Investigation",
+          "date": "2004-07"
+        },
+        {
+          "url": "https://ideas.repec.org/a/ucp/jnlbus/v79y2006i4p1703-1726.html",
+          "publisher": "Journal of Business (via IDEAS/RePEc)",
+          "title": "Unusual Option Market Activity and the Terrorist Attacks of September 11, 2001",
+          "date": "2006"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "federal-reserve",
+      "toName": "Federal Reserve",
+      "toType": "government",
+      "relation": "regulated",
+      "reverse": true,
+      "claim": "The Federal Reserve Board approved Morgan Stanley's conversion to a bank holding company on September 21, 2008, bringing it under Fed supervision with discount-window access.",
+      "status": "documented",
+      "date": "2008-09-21",
+      "quote": "Board approves, pending a statutory five-day antitrust waiting period, the applications of Goldman Sachs and Morgan Stanley to become bank holding companies",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20080921a.htm",
+          "publisher": "Federal Reserve Board",
+          "title": "Board approves, pending a statutory five-day antitrust waiting period, the applications of Goldman Sachs and Morgan Stanley to become bank holding companies",
+          "date": "2008-09-21"
+        }
+      ]
+    },
+    {
+      "to": "u-s-department-of-the-treasury",
+      "toName": "U.S. Department of the Treasury",
+      "toType": "government",
+      "relation": "funded",
+      "reverse": true,
+      "claim": "The Treasury invested $10 billion in Morgan Stanley preferred stock under the TARP Capital Purchase Program in October 2008; Morgan Stanley repaid it in June 2009.",
+      "status": "documented",
+      "date": "2009-06-17",
+      "quote": "during the quarter ended June 30, 2009, the Company repurchased $10.0 billion of its Series D Preferred Stock",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/895421/000119312509169269/d10q.htm",
+          "publisher": "SEC EDGAR (Morgan Stanley filing)",
+          "title": "Morgan Stanley Quarterly Report for the period ended June 30, 2009",
+          "date": "2009"
+        },
+        {
+          "url": "https://www.morganstanley.com/press-releases/morgan-stanley-statement-on-tarp-repayment-and-regulatory-reforms_b7cf5f77-5b47-11de-96f6-3f25a44c9933",
+          "publisher": "Morgan Stanley",
+          "title": "Morgan Stanley Statement on TARP Repayment and Regulatory Reforms",
+          "date": "2009-06-17"
+        }
+      ]
+    },
+    {
+      "to": "sung-kook-bill-hwang",
+      "toName": "Sung Kook 'Bill' Hwang",
+      "toType": "person",
+      "relation": "contracted with",
+      "claim": "Morgan Stanley was a prime broker to Hwang's Archegos Capital Management; it sold about $5 billion of Archegos positions on March 25, 2021 and booked a $644 million loss on amounts Archegos failed to pay.",
+      "status": "reported",
+      "date": "2021-03-25",
+      "quote": "Morgan Stanley sold about $5 billion of Archegos-related shares to a small group of hedge funds late on Thursday, March 25.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2021/04/06/morgan-stanley-dumped-5-billion-in-archegos-stocks-before-fire-sale.html",
+          "publisher": "CNBC",
+          "title": "Morgan Stanley dumped $5 billion in Archegos' stocks the night before massive fire sale hit rivals",
+          "date": "2021-04-06"
+        },
+        {
+          "url": "https://www.cnbc.com/2021/04/16/morgan-stanley-had-911-million-in-losses-tied-to-archegos-fund-meltdown-.html",
+          "publisher": "CNBC",
+          "title": "Morgan Stanley had $911 million in first-quarter losses tied to Archegos fund meltdown",
+          "date": "2021-04-16"
+        }
+      ]
+    },
+    {
+      "to": "credit-suisse",
+      "toName": "Credit Suisse",
+      "toType": "bank",
+      "relation": "other",
+      "claim": "Morgan Stanley and Credit Suisse were both prime brokers to Archegos; Morgan Stanley sold early and lost $911 million while Credit Suisse reported a loss of more than $4.7 billion from unwinding Archegos positions.",
+      "status": "reported",
+      "date": "2021-04",
+      "quote": "Credit Suisse said Tuesday that it took a $4.7 billion hit after unwinding losing Archegos positions",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2021/03/29/goldman-morgan-stanley-avoided-losses-after-fund-meltdown-hit-nomura.html",
+          "publisher": "CNBC",
+          "title": "How Goldman and Morgan Stanley avoided losses after fund meltdown burned Nomura, Credit Suisse",
+          "date": "2021-03-29"
+        },
+        {
+          "url": "https://www.cnbc.com/2021/04/16/morgan-stanley-had-911-million-in-losses-tied-to-archegos-fund-meltdown-.html",
+          "publisher": "CNBC",
+          "title": "Morgan Stanley had $911 million in first-quarter losses tied to Archegos fund meltdown",
+          "date": "2021-04-16"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (Archegos entry) that Morgan Stanley sold about $5 billion of shares on the evening of March 25, 2021 and, with Goldman Sachs, moved early leaving Credit Suisse and Nomura with the biggest losses: supported by CNBC reporting.",
+    "Site claim that Morgan Stanley 'escaped with little or no loss': partly contradicted; Morgan Stanley reported $911 million of Archegos-related losses, though far less than Credit Suisse or Nomura.",
+    "Site claim that Credit Suisse lost 'about $5.5 billion': CNBC reported $4.7 billion initially and 'more than $5 billion' later; the exact figure should be checked against Credit Suisse filings.",
+    "Site claim (9/11 entry) that Poteshman 2006 and Chesney 2010 identified anomalous put spikes on Morgan Stanley: Poteshman's abstract does not name individual firms; Snopes notes reports of accelerated bets against Morgan Stanley and Merrill Lynch, while the SEC said it found no evidence of trading on advance knowledge. Chesney 2010 was not retrieved.",
+    "The site's claim that a March 25, 2021 prime-broker meeting ended without agreement was not covered by the sources returned."
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "entity": "william-j-mcdonough",
+  "name": "William J. McDonough",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "William J. McDonough was President of the Federal Reserve Bank of New York from 1993 to 2003. In September 1998 he convened the heads of major banks and securities firms at the New York Fed after Long-Term Capital Management (LTCM) approached him about its difficulties; on September 23, 1998 fourteen firms agreed to recapitalise the hedge fund with $3.625 billion in exchange for 90% of its equity. The Fed described its role as an 'honest broker' and lent no public money. McDonough testified about the episode to the House Committee on Banking and Financial Services on October 1, 1998.",
+    "sources": [
+      { "url": "https://www.federalreservehistory.org/essays/ltcm-near-failure", "publisher": "Federal Reserve History", "title": "Near Failure of Long-Term Capital Management", "date": "2013" },
+      { "url": "https://www.gao.gov/assets/ggd-00-67r.pdf", "publisher": "U.S. General Accounting Office", "title": "Responses to Questions Concerning Long-Term Capital Management and Related Events (GGD-00-67R)", "date": "2000-02" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On September 18, 1998 LTCM officials contacted New York Fed President William McDonough about the fund's financial problems.",
+      "status": "documented",
+      "date": "1998-09-18",
+      "quote": "On September 18, LTCM officials contacted Federal Reserve Bank of New York President William McDonough about its financial problems.",
+      "sources": [
+        { "url": "https://www.federalreservehistory.org/essays/ltcm-near-failure", "publisher": "Federal Reserve History", "title": "Near Failure of Long-Term Capital Management", "date": "2013" }
+      ]
+    },
+    {
+      "claim": "On September 23, 1998 fourteen domestic and foreign banks and securities firms agreed to recapitalise LTCM through a consortium; the capital was contributed on September 28, 1998.",
+      "status": "documented",
+      "date": "1998-09-23",
+      "quote": "14 domestic and foreign banks and securities firms agreed to recapitalize LTCM through the creation of a consortium",
+      "sources": [
+        { "url": "https://www.gao.gov/assets/ggd-00-67r.pdf", "publisher": "U.S. General Accounting Office", "title": "Responses to Questions Concerning Long-Term Capital Management and Related Events (GGD-00-67R)", "date": "2000-02" }
+      ]
+    },
+    {
+      "claim": "The fourteen firms put up $3.625 billion in exchange for 90 percent of LTCM's equity; two firms included in the talks declined to participate. The Federal Reserve lent none of its own funds.",
+      "status": "documented",
+      "date": "1998-09-28",
+      "quote": "fourteen firms put up $3.625 billion in capital in exchange for 90 percent of the fund's ownership (two firms included in the talks declined to participate)",
+      "sources": [
+        { "url": "https://www.federalreservehistory.org/essays/ltcm-near-failure", "publisher": "Federal Reserve History", "title": "Near Failure of Long-Term Capital Management", "date": "2013" }
+      ]
+    },
+    {
+      "claim": "GAO listed the consortium members as Chase Manhattan, Goldman Sachs, Merrill Lynch, J.P. Morgan, Morgan Stanley Dean Witter, Salomon Smith Barney, Credit Suisse First Boston, Barclays, Deutsche Bank, UBS, Bankers Trust, Société Générale, Paribas and Lehman Brothers.",
+      "status": "documented",
+      "date": "1998-09",
+      "sources": [
+        { "url": "https://www.gao.gov/assets/ggd-00-67r.pdf", "publisher": "U.S. General Accounting Office", "title": "Responses to Questions Concerning Long-Term Capital Management and Related Events (GGD-00-67R)", "date": "2000-02" }
+      ]
+    },
+    {
+      "claim": "The New York Fed described itself as an 'honest broker' facilitating a private-sector resolution of a market event with potential systemic implications, and said it did not negotiate the consortium's terms; critics raised moral-hazard concerns.",
+      "status": "documented",
+      "date": "1998-10",
+      "quote": "\"honest broker\" in facilitating a private-sector resolution of a market event with potential systemic implications",
+      "sources": [
+        { "url": "https://www.federalreservehistory.org/essays/ltcm-near-failure", "publisher": "Federal Reserve History", "title": "Near Failure of Long-Term Capital Management", "date": "2013" }
+      ]
+    },
+    {
+      "claim": "McDonough gave a statement on the New York Fed's role in the LTCM recapitalisation before the House Committee on Banking and Financial Services on October 1, 1998.",
+      "status": "documented",
+      "date": "1998-10-01",
+      "sources": [
+        { "url": "https://fraser.stlouisfed.org/title/statements-speeches-william-j-mcdonough-6748/statement-committee-banking-financial-services-us-house-representatives-619143", "publisher": "Federal Reserve Bank of St. Louis (FRASER)", "title": "Statement before the Committee on Banking and Financial Services, U.S. House of Representatives", "date": "1998-10-01" },
+        { "url": "https://www.bis.org/speeches/19981012-mr-mcdonough-describes-role-frbny-events-leading-private-sector-recapitalization-long-term-capital-management-central", "publisher": "Bank for International Settlements", "title": "Mr. McDonough describes the role of the FRBNY in the events leading to the private sector recapitalization of Long-Term Capital Management", "date": "1998-10-12" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "ny-fed",
+      "toName": "NY Fed",
+      "toType": "government",
+      "relation": "executive of",
+      "claim": "McDonough was President of the Federal Reserve Bank of New York during the September 1998 LTCM recapitalisation.",
+      "status": "documented",
+      "date": "1998-09",
+      "sources": [
+        { "url": "https://www.federalreservehistory.org/essays/ltcm-near-failure", "publisher": "Federal Reserve History", "title": "Near Failure of Long-Term Capital Management", "date": "2013" }
+      ]
+    },
+    {
+      "to": "goldman-sachs",
+      "toName": "Goldman Sachs",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Goldman Sachs was among the fourteen firms that, at meetings McDonough convened at the New York Fed, agreed to recapitalise LTCM in September 1998.",
+      "status": "documented",
+      "date": "1998-09-23",
+      "sources": [
+        { "url": "https://www.gao.gov/assets/ggd-00-67r.pdf", "publisher": "U.S. General Accounting Office", "title": "Responses to Questions Concerning Long-Term Capital Management and Related Events (GGD-00-67R)", "date": "2000-02" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site describes a 'Fed-engineered bailout'. The record shows the New York Fed convened and facilitated the private recapitalisation and lent no public funds; whether 'engineered' is fair is a matter of characterisation. The Fed also cut interest rates in autumn 1998, which some accounts link to LTCM.",
+    "The full text of McDonough's October 1, 1998 testimony was not opened; only catalogue entries were available."
+  ]
+}

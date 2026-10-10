@@ -1,0 +1,64 @@
+{
+  "entity": "errol-musk",
+  "name": "Errol Musk",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "Errol Musk is a South African engineer and the father of Elon Musk. He has given several interviews about emerald dealings in Zambia in the 1980s; his accounts, and Walter Isaacson's 2023 biography of Elon Musk, say he traded a light aircraft in 1986 for a share of the output of three small, unregistered Zambian emerald mines owned by another businessman, imported raw stones into South Africa to be cut in Johannesburg, and sold them to jewellers on overseas trips. He has said the mine was in Zambia and that apartheid 'did not apply'. The conflicting statements by Errol and Elon Musk about whether he ever owned a mine, and about his funding of Zip2, are recorded in research/findings/elon-musk.json.",
+    "sources": [
+      {
+        "url": "https://www.news24.com/business/companies/musks-dad-the-emerald-mine-and-the-blacks-truth-revealed-in-new-biography-20230915",
+        "publisher": "News24",
+        "title": "Musk's dad, the emerald mine and 'the blacks' - truth revealed in new biography",
+        "date": "2023-09-15"
+      },
+      {
+        "url": "https://mybroadband.co.za/news/technology/563364-big-lie-about-elon-musks-childhood-in-south-africa.html",
+        "publisher": "MyBroadband",
+        "title": "Big lie about Elon Musk's childhood in South Africa",
+        "date": ""
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "According to News24's account of Walter Isaacson's biography, Errol Musk traded a plane in 1986 for emeralds that came from a portion of the output of three small mines an entrepreneur owned in Zambia; he never held an ownership stake, confirmed to Isaacson that the mine was never registered, imported raw emeralds into South Africa and had them cut in Johannesburg, and sold them to jewellers on overseas trips, which he described as a 'cloak and dagger thing, because none of it was legal'. The quote does not say which law was broken.",
+      "status": "reported",
+      "date": "1986",
+      "quote": "cloak and dagger thing, because none of it was legal",
+      "sources": [
+        {
+          "url": "https://www.news24.com/business/companies/musks-dad-the-emerald-mine-and-the-blacks-truth-revealed-in-new-biography-20230915",
+          "publisher": "News24",
+          "title": "Musk's dad, the emerald mine and 'the blacks' - truth revealed in new biography",
+          "date": "2023-09-15"
+        }
+      ]
+    },
+    {
+      "claim": "Errol Musk told MyBroadband that the emerald mine was in Zambia, so apartheid 'did not apply' to it. Business Insider South Africa's 2018 articles, based on an interview with him, did not themselves draw a connection to apartheid; that connection was made by social-media users responding to the articles.",
+      "status": "words",
+      "date": "2025 (MyBroadband article date unverified)",
+      "quote": "The mine was in Zambia, so Apartheid did not apply. It had no meaning or use.",
+      "sources": [
+        {
+          "url": "https://mybroadband.co.za/news/technology/563364-big-lie-about-elon-musks-childhood-in-south-africa.html",
+          "publisher": "MyBroadband",
+          "title": "Big lie about Elon Musk's childhood in South Africa",
+          "date": ""
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Errol_Musk",
+          "publisher": "Wikipedia",
+          "title": "Errol Musk",
+          "date": "2026"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "openQuestions": [
+    "The brief's claim that Zambian emerald operations 'controlled by Errol Musk and local syndicates' were 'operated to bypass South African foreign exchange restrictions' and moved mineral wealth into cash outside the jurisdiction: none of the sources retrieved this session (News24, MyBroadband, Business Insider via Yahoo, InsideHook, Teslarati, Daily Investor) mentions exchange controls, capital flight or syndicates. Errol Musk's own account describes the opposite direction of flow (raw stones imported into South Africa) plus sales abroad, with no figures. The claim rests on no source beyond Errol Musk's own statements, which do not say this.",
+    "No registration, contract, ownership or customs record for the Zambian emerald arrangement has been published; the sole sources are Errol Musk's interviews and Isaacson's interviews with him.",
+    "News24's and MyBroadband's full articles were seen only in search-result excerpts; the direct quotes should be checked against the pages."
+  ]
+}

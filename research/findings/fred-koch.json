@@ -1,0 +1,80 @@
+{
+  "entity": "fred-koch",
+  "name": "Fred Koch",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Fred C. Koch, founder of the company that became Koch Industries, was one of the original members of the John Birch Society at its founding in Indianapolis in December 1958; Brown University's library lists him among the twelve founding members and Mother Jones calls him a charter member.",
+    "sources": [
+      {
+        "url": "https://library.brown.edu/create/libnews/john-birch-society-records-at-the-john-hay-library/",
+        "publisher": "Brown University Library",
+        "title": "John Birch Society records at the John Hay Library"
+      },
+      {
+        "url": "https://fullsite.motherjones.com/?p=263206",
+        "publisher": "Mother Jones",
+        "title": "The Koch 130"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Brown University's John Hay Library, which holds the John Birch Society records, lists Fred Koch, founder of Koch Industries, among the society's original twelve founding members, alongside Robert Waring Stoddard of Wyman-Gordon.",
+      "status": "documented",
+      "date": "1958",
+      "quote": "original twelve founding members",
+      "sources": [
+        {
+          "url": "https://library.brown.edu/create/libnews/john-birch-society-records-at-the-john-hay-library/",
+          "publisher": "Brown University Library",
+          "title": "John Birch Society records at the John Hay Library"
+        }
+      ]
+    },
+    {
+      "claim": "Mother Jones describes Fred Koch as a charter member of the John Birch Society; The American Conservative says he attended the 1958 meeting at which Welch laid out his plan to fight Communism and roll back the New Deal.",
+      "status": "reported",
+      "date": "1958",
+      "quote": "charter member",
+      "sources": [
+        {
+          "url": "https://fullsite.motherjones.com/?p=263206",
+          "publisher": "Mother Jones",
+          "title": "The Koch 130"
+        },
+        {
+          "url": "https://www.theamericanconservative.com/koch-brothers-the-real-thing/",
+          "publisher": "The American Conservative",
+          "title": "Koch Brothers: The Real Thing"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "john-birch-society",
+      "toName": "John Birch Society",
+      "toType": "organization",
+      "relation": "co-founded",
+      "claim": "Fred Koch was one of the original founding members of the John Birch Society (December 1958).",
+      "status": "documented",
+      "date": "1958-12",
+      "quote": "original twelve founding members",
+      "sources": [
+        {
+          "url": "https://library.brown.edu/create/libnews/john-birch-society-records-at-the-john-hay-library/",
+          "publisher": "Brown University Library",
+          "title": "John Birch Society records at the John Hay Library"
+        },
+        {
+          "url": "https://fullsite.motherjones.com/?p=263206",
+          "publisher": "Mother Jones",
+          "title": "The Koch 130"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Sources differ on whether 11 or 12 men attended the founding meeting (the JBS booklet says Welch met with eleven). No source opened gives an amount Koch contributed to the society."
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "entity": "khedive-ismail",
+  "name": "Khedive Ismail",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Ismāʿīl Pasha was Khedive of Egypt from 1863 to 1879. Britannica states that Egypt's national debt stood at £7 million when he took power and had risen to almost £100 million by 1876. In November 1875, facing default, he sold Egypt's shares in the Suez Canal Company to the British government for £4 million, financed by N M Rothschild & Sons. In 1876 he defaulted and, by decree of 2 May 1876, the Caisse de la Dette Publique was created with commissioners named by France, Britain, Austria and Italy to service the debt; Evelyn Baring served as a commissioner from 1877 to 1879. Ismail was deposed in 1879.",
+    "sources": [
+      {
+        "url": "https://www.britannica.com/biography/Ismail-Pasha",
+        "publisher": "Encyclopaedia Britannica",
+        "title": "Ismāʿīl Pasha"
+      },
+      {
+        "url": "https://www.britannica.com/topic/Caisse-de-la-Dette-Publique",
+        "publisher": "Encyclopaedia Britannica",
+        "title": "Caisse de la Dette Publique"
+      },
+      {
+        "url": "https://www.britannica.com/biography/Evelyn-Baring-1st-Earl-of-Cromer",
+        "publisher": "Encyclopaedia Britannica",
+        "title": "Evelyn Baring, 1st earl of Cromer"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Britannica states that the Egyptian national debt stood at £7,000,000 when Ismail took power in 1863 and had risen to almost £100,000,000 by 1876.",
+      "status": "documented",
+      "date": "1876",
+      "quote": "the Egyptian national debt stood at £7,000,000 when Ismāʿīl took power, and by 1876 it had risen to almost £100,000,000.",
+      "sources": [
+        {
+          "url": "https://www.britannica.com/biography/Ismail-Pasha",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Ismāʿīl Pasha"
+        }
+      ]
+    },
+    {
+      "claim": "In an 1884 Commons debate, Egypt's nine loans of 1862–1879 were put at a nominal £77 million with net proceeds of about £55.6 million; the contractors of the 1862–1873 loans were criticised for indulging Ismail's extravagance.",
+      "status": "documented",
+      "date": "1884-06-13",
+      "quote": "the loans from 1862 to 1873 drew heavy criticism for the contractors who indulged Ismail Pasha's extravagance.",
+      "sources": [
+        {
+          "url": "https://hansard.parliament.uk/Commons/1884-06-13/debates/c9738a36-989b-4037-89d3-dd6660d0a7dc/Egypt(Finance)%E2%80%94LoanOperaTions",
+          "publisher": "Hansard (UK Parliament)",
+          "title": "Egypt (Finance)—Loan Operations, House of Commons",
+          "date": "1884-06-13"
+        }
+      ]
+    },
+    {
+      "claim": "In November 1875, owing to Ismail's bankruptcy, Disraeli's government bought nearly half the shares in the Suez Canal Company; because Parliament was not sitting, the £4,000,000 was borrowed from the Rothschilds.",
+      "status": "documented",
+      "date": "1875-11",
+      "quote": "Since Parliament was not in session at the time, Disraeli borrowed £4,000,000 from the Rothschilds",
+      "sources": [
+        {
+          "url": "https://victorianweb.org/history/polspeech/suez.html",
+          "publisher": "The Victorian Web",
+          "title": "Suez Canal Shares"
+        },
+        {
+          "url": "https://www.rothschildarchive.org/business/n_m_rothschild_and_sons_london/lionel_de_rothschild_and_the_suez_canal",
+          "publisher": "The Rothschild Archive",
+          "title": "Lionel de Rothschild and the Suez Canal"
+        }
+      ]
+    },
+    {
+      "claim": "On 21 February 1876 the House of Commons took a supply vote of £4,080,000 for the Suez Canal shares.",
+      "status": "documented",
+      "date": "1876-02-21",
+      "quote": "Supply—£4,080,000 Suez Canal Shares",
+      "sources": [
+        {
+          "url": "https://hansard.parliament.uk/Commons/1876-02-21/debates/90976a6d-a67a-4483-a385-ad4e6890e5c1/Supply%E2%80%94%C2%A34080000SuezCanalShares",
+          "publisher": "Hansard (UK Parliament)",
+          "title": "Supply—£4,080,000 Suez Canal Shares, House of Commons",
+          "date": "1876-02-21"
+        }
+      ]
+    },
+    {
+      "claim": "The Caisse de la Dette Publique was created in 1876 to service Egypt's debt, with members named by France, Britain, Austria and Italy.",
+      "status": "documented",
+      "date": "1876",
+      "quote": "The Caisse de la Dette Publique was created in 1876 to service Egypt's debt, and its members were named by France, Britain, Austria, and Italy.",
+      "sources": [
+        {
+          "url": "https://www.britannica.com/topic/Caisse-de-la-Dette-Publique",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Caisse de la Dette Publique"
+        }
+      ]
+    },
+    {
+      "claim": "The House of Commons debated Egyptian finance and Mr Cave's mission on 5 August 1876, following Ismail's default.",
+      "status": "documented",
+      "date": "1876-08-05",
+      "quote": "EGYPT—MR. CAVE'S MISSION—EGYPTIAN FINANCE.—RESOLUTION.",
+      "sources": [
+        {
+          "url": "https://api.parliament.uk/historic-hansard/commons/1876/aug/05/egypt-mr-caves-mission-egyptian-finance",
+          "publisher": "Hansard (UK Parliament, historic)",
+          "title": "Egypt—Mr. Cave's Mission—Egyptian Finance.—Resolution",
+          "date": "1876-08-05"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "evelyn-baring",
+      "toName": "Evelyn Baring",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Evelyn Baring went to Egypt in 1877 as representative of the British holders of Egyptian bonds on the Egyptian Public Debt Commission (Caisse de la Dette), serving as commissioner 1877–1879; he was the prime mover behind a Commission of Inquiry into Egyptian finances, resigned when Ismail rejected his advice, and returned as British controller of the debt after Ismail was deposed in 1879.",
+      "status": "documented",
+      "date": "1877",
+      "quote": "he served as representative of the British holders of Egyptian bonds on the recently created Egyptian Public Debt Commission.",
+      "sources": [
+        {
+          "url": "https://www.britannica.com/biography/Evelyn-Baring-1st-Earl-of-Cromer",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Evelyn Baring, 1st earl of Cromer"
+        },
+        {
+          "url": "https://discovery.nationalarchives.gov.uk/details/c/F256872",
+          "publisher": "The National Archives (Discovery)",
+          "title": "Baring, Evelyn, (1841-1917), 1st Earl of Cromer, statesman"
+        }
+      ]
+    },
+    {
+      "to": "N M Rothschild & Sons",
+      "toName": "N M Rothschild & Sons",
+      "toType": "bank",
+      "relation": "other",
+      "claim": "Lionel de Rothschild alerted Disraeli to the chance of buying the Khedive's Suez Canal shares and N M Rothschild & Sons lent the British government the £4 million for the 1875 purchase.",
+      "status": "documented",
+      "date": "1875-11",
+      "quote": "Lionel Rothschild alerted Disraeli to the chance of buying up shares in the Suez Canal Company.",
+      "sources": [
+        {
+          "url": "https://www.rothschildarchive.org/business/n_m_rothschild_and_sons_london/lionel_de_rothschild_and_the_suez_canal",
+          "publisher": "The Rothschild Archive",
+          "title": "Lionel de Rothschild and the Suez Canal"
+        },
+        {
+          "url": "https://victorianweb.org/history/polspeech/suez.html",
+          "publisher": "The Victorian Web",
+          "title": "Suez Canal Shares"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site's '£68 million nominal, £46 million received, 1862–1873' was not found; Hansard 1884 gives £77 million nominal and about £55.6 million net for nine loans 1862–1879. Check Landes, 'Bankers and Pashas' (1958).",
+    "The site says Britain joined the Caisse in 1877; Britannica lists Britain among the four naming powers from 1876, while Baring's own appointment dates from 1877.",
+    "The site names Hermann Oppenheim as arranger of several loans; no source consulted addressed this.",
+    "The 1880 Law of Liquidation, the corvée and the muqabala were not covered by the sources consulted.",
+    "The exact share count (176,602, about 44%) appeared only in an AI-generated encyclopedia and is not relied on."
+  ]
+}

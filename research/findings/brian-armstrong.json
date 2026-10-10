@@ -1,0 +1,87 @@
+{
+  "entity": "brian-armstrong",
+  "name": "Brian Armstrong",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Brian Armstrong is the chief executive of Coinbase, the U.S. cryptocurrency exchange. In 2024 he announced on the company's blog that Coinbase was contributing $25 million to the crypto super PAC Fairshake, followed by a further $25 million later that year that brought the company's reported 2024 election spending to more than $76 million, and in 2025 Coinbase pledged another $25 million for the 2026 midterms. Public Citizen and researcher Molly White filed an FEC complaint arguing that much of the Coinbase spending was unlawful because the company is a federal contractor. The SEC sued Coinbase in June 2023, accusing it of operating an unregistered exchange, broker and clearing agency, and on February 27, 2025 moved to dismiss the case with prejudice.",
+    "sources": [
+      { "url": "https://www.bloomberg.com/news/articles/2024-06-03/coinbase-gives-another-25-million-to-crypto-super-pac-fairshake", "publisher": "Bloomberg", "title": "Coinbase Gives Another $25 Million to Crypto Super-PAC Fairshake", "date": "2024-06-03" },
+      { "url": "https://www.theblock.co/post/343835/coinbase-case-officially-dropped-by-sec", "publisher": "The Block", "title": "Coinbase case officially dropped by SEC", "date": "2025-02-27" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In June 2024 Coinbase gave a further $25 million to the super PAC Fairshake; CEO Brian Armstrong announced the donation in a post on the company's blog. The donor was Coinbase, not Armstrong personally.",
+      "status": "documented",
+      "date": "2024-06-03",
+      "quote": "Chief Executive Officer Brian Armstrong said in a post on the company's blog that the donation was made.",
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2024-06-03/coinbase-gives-another-25-million-to-crypto-super-pac-fairshake", "publisher": "Bloomberg", "title": "Coinbase Gives Another $25 Million to Crypto Super-PAC Fairshake", "date": "2024-06-03" },
+        { "url": "https://decrypt.co/233571/coinbase-donates-25-million-fairshake-anti-crypto-candidates?amp=1", "publisher": "Decrypt", "title": "Coinbase Donates $25 Million to Fairshake to Defeat 'Anti-Crypto Candidates'", "date": "2024-06-03" }
+      ]
+    },
+    {
+      "claim": "Public Citizen reported that a later 2024 pledge of another $25 million, announced by Armstrong, brought Coinbase's total spending in the 2024 election to more than $76 million, and that Public Citizen and Molly White filed an FEC complaint arguing that a large portion of the contributions was illegal because Coinbase is a federal contractor. The FEC had not responded at the time of publication.",
+      "status": "reported",
+      "date": "2024",
+      "quote": "a large portion of these contributions are illegal because Coinbase is a federal contractor",
+      "sources": [
+        { "url": "https://www.citizen.org/news/fec-snoozes-through-the-election-while-allegedly-illegal-coinbase-spending-reaches-50m/", "publisher": "Public Citizen", "title": "FEC Snoozes Through the Election While Allegedly Illegal Coinbase Spending Reaches $50M", "date": "2024" }
+      ]
+    },
+    {
+      "claim": "Coinbase pledged a further $25 million to Fairshake for the 2026 midterm elections, writing in a blog post that it was committed to helping Fairshake and its affiliates remain a force in the next election cycle.",
+      "status": "documented",
+      "date": "2025",
+      "quote": "helping Fairshake and its affiliates remain a force in the next election cycle",
+      "sources": [
+        { "url": "https://www.theblock.co/post/323881/coinbase-pledges-25-million-to-fairshake-pac-in-2026-midterms", "publisher": "The Block", "title": "Coinbase pledges $25 million to Fairshake PAC for pro-crypto candidates in 2026 midterms", "date": "2025" }
+      ]
+    },
+    {
+      "claim": "The SEC sued Coinbase in June 2023, accusing it of operating an illegal exchange, broker and clearing agency. On February 27, 2025 the SEC filed in the Southern District of New York to dismiss the case with prejudice, stating that the dismissal rested on its judgment that it would facilitate the Commission's efforts to reform its regulatory approach to crypto and not on any assessment of the merits; Coinbase waived claims against the SEC for fees or costs.",
+      "status": "court",
+      "date": "2025-02-27",
+      "quote": "the dismissal will facilitate the Commission's ongoing efforts to reform and renew its regulatory approach to the crypto industry, not on any assessment of the merits of the claims alleged",
+      "sources": [
+        { "url": "https://www.theblock.co/post/343835/coinbase-case-officially-dropped-by-sec", "publisher": "The Block", "title": "Coinbase case officially dropped by SEC", "date": "2025-02-27" },
+        { "url": "https://www.aoshearman.com/en/insights/ao-shearman-on-fintech-and-digital-assets/sec-pivots-what-it-means-for-crypto", "publisher": "A&O Shearman", "title": "SEC pivots: what it means for crypto", "date": "2025" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "coinbase",
+      "toName": "Coinbase",
+      "toType": "company",
+      "relation": "executive of",
+      "claim": "Armstrong is Coinbase's chief executive officer and announced the company's Fairshake contributions on its blog.",
+      "status": "documented",
+      "date": "2024-06-03",
+      "quote": "Chief Executive Officer Brian Armstrong said in a post on the company's blog",
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2024-06-03/coinbase-gives-another-25-million-to-crypto-super-pac-fairshake", "publisher": "Bloomberg", "title": "Coinbase Gives Another $25 Million to Crypto Super-PAC Fairshake", "date": "2024-06-03" }
+      ]
+    },
+    {
+      "to": "fairshake",
+      "toName": "Fairshake",
+      "toType": "pac",
+      "relation": "other",
+      "claim": "Armstrong announced Coinbase's $25 million contributions to Fairshake in 2024; the contributions were made by Coinbase as a corporation, and Public Citizen challenged their legality at the FEC.",
+      "status": "documented",
+      "date": "2024-06-03",
+      "quote": "Coinbase Gives Another $25 Million to Crypto Super-PAC Fairshake",
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2024-06-03/coinbase-gives-another-25-million-to-crypto-super-pac-fairshake", "publisher": "Bloomberg", "title": "Coinbase Gives Another $25 Million to Crypto Super-PAC Fairshake", "date": "2024-06-03" },
+        { "url": "https://www.citizen.org/news/fec-snoozes-through-the-election-while-allegedly-illegal-coinbase-spending-reaches-50m/", "publisher": "Public Citizen", "title": "FEC Snoozes Through the Election While Allegedly Illegal Coinbase Spending Reaches $50M", "date": "2024" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (Crash Conduits): the Fairshake entry lists 'Brian Armstrong (Coinbase)' among insiders who 'pooled $260M into Fairshake Super PAC'; the sources opened document Coinbase's corporate contributions of $50 million-plus in 2024, not personal contributions by Armstrong, and the $260 million total and the '33 of 35 primaries' figure were not checked here (see the fairshake file).",
+    "No FEC filing was opened; whether Armstrong made any personal contributions to Fairshake or affiliated PACs was not established.",
+    "The Coinbase blog posts announcing the contributions could not be opened; the claims rest on Bloomberg, Decrypt and The Block's accounts of them.",
+    "The FEC's disposition of the Public Citizen complaint was not found."
+  ]
+}

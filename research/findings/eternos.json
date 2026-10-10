@@ -1,0 +1,97 @@
+{
+  "entity": "eternos",
+  "name": "Eternos",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Eternos (Eternos.Life) is a 'legacy AI' company led by CEO Robert LoCascio that builds interactive text-and-voice AI versions of individuals from their recordings and writings. Its first widely reported case, in 2024, was Berlin entrepreneur Michael Bommer, who, dying of colon cancer, worked with the company to build an AI version of himself for his family.",
+    "sources": [
+      {
+        "url": "https://www.npr.org/2024/06/12/1198912621/does-artificial-intelligence-deliver-immortality",
+        "publisher": "NPR",
+        "title": "Does artificial intelligence deliver immortality?",
+        "date": "2024-06-12"
+      },
+      {
+        "url": "https://interestingengineering.com/innovation/man-digital-identity-engage-family",
+        "publisher": "Interesting Engineering",
+        "title": "Man with terminal cancer builds digital identity to engage with family after death",
+        "date": "2024"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In 2024 Michael Bommer, a Berlin entrepreneur with terminal colon cancer, worked with Eternos, whose CEO is Robert LoCascio, to build an interactive AI version of himself for his family, as reported by the AP and NPR.",
+      "status": "reported",
+      "date": "2024-06",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2024/06/12/1198912621/does-artificial-intelligence-deliver-immortality",
+          "publisher": "NPR",
+          "title": "Does artificial intelligence deliver immortality?",
+          "date": "2024-06-12"
+        },
+        {
+          "url": "https://interestingengineering.com/innovation/man-digital-identity-engage-family",
+          "publisher": "Interesting Engineering",
+          "title": "Man with terminal cancer builds digital identity to engage with family after death",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "claim": "The Bommer AI was built from his voice recordings, writings and reflections and operates as a text and voice chatbot; his wife tested it before his death.",
+      "status": "reported",
+      "date": "2024",
+      "sources": [
+        {
+          "url": "https://interestingengineering.com/innovation/man-digital-identity-engage-family",
+          "publisher": "Interesting Engineering",
+          "title": "Man with terminal cancer builds digital identity to engage with family after death",
+          "date": "2024"
+        },
+        {
+          "url": "https://www.npr.org/2024/06/12/1198912621/does-artificial-intelligence-deliver-immortality",
+          "publisher": "NPR",
+          "title": "Does artificial intelligence deliver immortality?",
+          "date": "2024-06-12"
+        }
+      ]
+    },
+    {
+      "claim": "A SABRE Awards case study states the Eternos/Bommer campaign reached over 30 million people in Germany.",
+      "status": "reported",
+      "date": "2024",
+      "sources": [
+        {
+          "url": "https://www.warc.com/content/article/SABRE-AWARDS/EternosLife_Michael_Bommer_becomes_immortal/160476",
+          "publisher": "WARC (SABRE Awards)",
+          "title": "Eternos.Life: Michael Bommer becomes immortal"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "digital-afterlife-industry",
+      "toName": "Digital afterlife industry",
+      "toType": "concept",
+      "relation": "other",
+      "claim": "Eternos is covered as a commercial 'legacy AI' provider in reporting on AI and immortality.",
+      "status": "reported",
+      "date": "2024",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2024/06/12/1198912621/does-artificial-intelligence-deliver-immortality",
+          "publisher": "NPR",
+          "title": "Does artificial intelligence deliver immortality?",
+          "date": "2024-06-12"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "No ownership, funding or regulatory record for Eternos was found.",
+    "Bommer's date of death was not confirmed from the sources used."
+  ]
+}

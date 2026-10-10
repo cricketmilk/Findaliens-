@@ -1,0 +1,159 @@
+{
+  "entity": "apple",
+  "name": "Apple",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Apple Inc. is a U.S. consumer electronics and software company. On this site it appears for its October 2009 resignation from the U.S. Chamber of Commerce over the Chamber's opposition to climate legislation: Catherine Novelli, Apple's vice president of worldwide government affairs, wrote to Chamber president Tom Donohue that Apple was resigning 'effective immediately' because it supported regulating greenhouse gas emissions. Utilities PG&E, Exelon and PNM Resources had quit the Chamber shortly before, and Nike left its board.",
+    "sources": [
+      {
+        "url": "https://www.rollcall.com/2009/10/05/apple-leaves-u-s-chamber-over-climate-change-spat/",
+        "publisher": "Roll Call",
+        "title": "Apple Leaves U.S. Chamber Over Climate Change Spat",
+        "date": "2009-10-05"
+      },
+      {
+        "url": "https://www.npr.org/2009/10/06/113548724/companies-quit-u-s-chamber-over-climate-policy",
+        "publisher": "NPR",
+        "title": "Companies Quit U.S. Chamber Over Climate Policy",
+        "date": "2009-10-06"
+      },
+      {
+        "url": "https://fortune.com/2009/10/05/apple-quits-chamber-of-commerce",
+        "publisher": "Fortune",
+        "title": "Apple quits Chamber of Commerce",
+        "date": "2009-10-05"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In October 2009 Apple resigned from the U.S. Chamber of Commerce 'effective immediately' in a letter from Catherine Novelli, its vice president of worldwide government affairs, to Chamber president Tom Donohue, which said 'Apple supports regulating greenhouse gas emissions, and it's frustrating to find the chamber at odds with us in this effort.'",
+      "status": "words",
+      "date": "2009-10-05",
+      "quote": "Apple supports regulating greenhouse gas emissions, and it's frustrating to find the chamber at odds with us in this effort.",
+      "sources": [
+        {
+          "url": "https://www.rollcall.com/2009/10/05/apple-leaves-u-s-chamber-over-climate-change-spat/",
+          "publisher": "Roll Call",
+          "title": "Apple Leaves U.S. Chamber Over Climate Change Spat",
+          "date": "2009-10-05"
+        },
+        {
+          "url": "https://fortune.com/2009/10/05/apple-quits-chamber-of-commerce",
+          "publisher": "Fortune",
+          "title": "Apple quits Chamber of Commerce",
+          "date": "2009-10-05"
+        }
+      ]
+    },
+    {
+      "claim": "Three utilities, PG&E Corp., Exelon Corp. and PNM Resources, had announced they were leaving the Chamber before Apple did, and Nike quit the Chamber's board of directors while keeping its membership.",
+      "status": "reported",
+      "date": "2009-10",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2009/10/06/113548724/companies-quit-u-s-chamber-over-climate-policy",
+          "publisher": "NPR",
+          "title": "Companies Quit U.S. Chamber Over Climate Policy",
+          "date": "2009-10-06"
+        },
+        {
+          "url": "https://blogs.edf.org/climate411/2009/10/06/apple-joins-list-of-former-u-s-chamber-members/",
+          "publisher": "Environmental Defense Fund",
+          "title": "Apple Joins List of Former U.S. Chamber Members",
+          "date": "2009-10-06"
+        }
+      ]
+    },
+    {
+      "claim": "Exelon's chief executive said the company would not renew its Chamber membership because of the Chamber's opposition to climate change legislation.",
+      "status": "reported",
+      "date": "2009-09",
+      "sources": [
+        {
+          "url": "https://blogs.edf.org/climate411/2009/10/06/apple-joins-list-of-former-u-s-chamber-members/",
+          "publisher": "Environmental Defense Fund",
+          "title": "Apple Joins List of Former U.S. Chamber Members",
+          "date": "2009-10-06"
+        },
+        {
+          "url": "https://www.npr.org/2009/10/06/113548724/companies-quit-u-s-chamber-over-climate-policy",
+          "publisher": "NPR",
+          "title": "Companies Quit U.S. Chamber Over Climate Policy",
+          "date": "2009-10-06"
+        }
+      ]
+    },
+    {
+      "claim": "The Chamber had opposed the cap-and-trade climate bill passed by the House earlier in 2009 and had fought the EPA's move to regulate greenhouse gases.",
+      "status": "reported",
+      "date": "2009",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2009/10/06/113548724/companies-quit-u-s-chamber-over-climate-policy",
+          "publisher": "NPR",
+          "title": "Companies Quit U.S. Chamber Over Climate Policy",
+          "date": "2009-10-06"
+        },
+        {
+          "url": "https://www.rollcall.com/2009/10/05/apple-leaves-u-s-chamber-over-climate-change-spat/",
+          "publisher": "Roll Call",
+          "title": "Apple Leaves U.S. Chamber Over Climate Change Spat",
+          "date": "2009-10-05"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "us-chamber-of-commerce",
+      "toName": "US Chamber of Commerce",
+      "toType": "organization",
+      "relation": "other",
+      "claim": "Apple was a member of the U.S. Chamber of Commerce until it resigned in October 2009 over the Chamber's climate policy stance.",
+      "status": "documented",
+      "date": "2009-10-05",
+      "sources": [
+        {
+          "url": "https://www.rollcall.com/2009/10/05/apple-leaves-u-s-chamber-over-climate-change-spat/",
+          "publisher": "Roll Call",
+          "title": "Apple Leaves U.S. Chamber Over Climate Change Spat",
+          "date": "2009-10-05"
+        },
+        {
+          "url": "https://fortune.com/2009/10/05/apple-quits-chamber-of-commerce",
+          "publisher": "Fortune",
+          "title": "Apple quits Chamber of Commerce",
+          "date": "2009-10-05"
+        }
+      ]
+    },
+    {
+      "to": "exelon",
+      "toName": "Exelon",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Exelon and Apple both left the U.S. Chamber of Commerce in autumn 2009 over its opposition to climate legislation, Exelon announcing first.",
+      "status": "reported",
+      "date": "2009-10",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2009/10/06/113548724/companies-quit-u-s-chamber-over-climate-policy",
+          "publisher": "NPR",
+          "title": "Companies Quit U.S. Chamber Over Climate Policy",
+          "date": "2009-10-06"
+        },
+        {
+          "url": "https://blogs.edf.org/climate411/2009/10/06/apple-joins-list-of-former-u-s-chamber-members/",
+          "publisher": "Environmental Defense Fund",
+          "title": "Apple Joins List of Former U.S. Chamber Members",
+          "date": "2009-10-06"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim that 'Apple, PG&E and Exelon quit the Chamber in 2009 over its climate stance': supported (Roll Call; NPR; EDF).",
+    "Sources differ on whether Apple was the fourth or fifth company to leave, depending on whether Nike's board departure is counted."
+  ]
+}

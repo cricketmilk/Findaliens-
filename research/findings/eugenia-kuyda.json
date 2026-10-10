@@ -1,0 +1,152 @@
+{
+  "entity": "eugenia-kuyda",
+  "name": "Eugenia Kuyda",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Eugenia Kuyda is a former Moscow journalist who founded the San Francisco chatbot company Luka, Inc. After her close friend Roman Mazurenko was killed by a hit-and-run driver in Moscow in late 2015, she had her team feed thousands of his text messages into a neural network to build a bot that replied in his voice, which The Verge profiled in October 2016. She has said that project led to Replika, Luka's companion-chatbot app.",
+    "sources": [
+      {
+        "url": "https://thereader.mitpress.mit.edu/chatting-with-the-dead-chatbots/",
+        "publisher": "The MIT Press Reader",
+        "title": "Chatting With the Dead"
+      },
+      {
+        "url": "https://tech.slashdot.org/story/16/10/09/0113234/when-her-best-friend-died-she-rebuilt-him-using-artificial-intelligence?sdsrc=prev",
+        "publisher": "Slashdot (summarizing The Verge)",
+        "title": "When Her Best Friend Died, She Rebuilt Him Using Artificial Intelligence",
+        "date": "2016-10-09"
+      },
+      {
+        "url": "https://qz.com/1698337/replika",
+        "publisher": "Quartz",
+        "title": "Replika",
+        "date": "2019"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Kuyda had been a lifestyle reporter in Moscow and became close friends with Roman Mazurenko; she later founded Luka with friends she had met through him.",
+      "status": "reported",
+      "date": null,
+      "quote": "Kuyda had been a Moscow lifestyle reporter who became close friends with Roman Mazurenko, and she later founded Luka, a chatbot-based virtual assistant, with some of the friends she had met through Mazurenko.",
+      "sources": [
+        {
+          "url": "https://thereader.mitpress.mit.edu/chatting-with-the-dead-chatbots/",
+          "publisher": "The MIT Press Reader",
+          "title": "Chatting With the Dead"
+        }
+      ]
+    },
+    {
+      "claim": "Mazurenko was killed crossing a street in Moscow by a hit-and-run driver in late 2015, aged 34.",
+      "status": "reported",
+      "date": "2015",
+      "quote": "In late 2015, while Mazurenko was back in Moscow for a brief visit, he was killed crossing the street by a hit-and-run driver. He was 34.",
+      "sources": [
+        {
+          "url": "https://thereader.mitpress.mit.edu/chatting-with-the-dead-chatbots/",
+          "publisher": "The MIT Press Reader",
+          "title": "Chatting With the Dead"
+        }
+      ]
+    },
+    {
+      "claim": "Kuyda's team fed Mazurenko's messages into a neural network to create a bot that could reply as him; The Verge's October 2016 profile, 'Speak, Memory', described a bot built from thousands of lines of texts he had sent to friends and family.",
+      "status": "reported",
+      "date": "2016-10",
+      "quote": "Kuyda's team poured all of Mazurenko's messages into a Google-built neural network to create a Mazurenko bot she could interact with.",
+      "sources": [
+        {
+          "url": "https://thereader.mitpress.mit.edu/chatting-with-the-dead-chatbots/",
+          "publisher": "The MIT Press Reader",
+          "title": "Chatting With the Dead"
+        },
+        {
+          "url": "https://tech.slashdot.org/story/16/10/09/0113234/when-her-best-friend-died-she-rebuilt-him-using-artificial-intelligence?sdsrc=prev",
+          "publisher": "Slashdot (summarizing The Verge)",
+          "title": "When Her Best Friend Died, She Rebuilt Him Using Artificial Intelligence",
+          "date": "2016-10-09"
+        }
+      ]
+    },
+    {
+      "claim": "Kuyda told the BBC she used more than 10,000 texts written by her friend to create the bot.",
+      "status": "words",
+      "date": "2018",
+      "sources": [
+        {
+          "url": "https://thereader.mitpress.mit.edu/chatting-with-the-dead-chatbots/",
+          "publisher": "The MIT Press Reader",
+          "title": "Chatting With the Dead"
+        }
+      ]
+    },
+    {
+      "claim": "Kuyda has described the memorial bot as a message sent rather than received, and said the work led to Replika.",
+      "status": "words",
+      "date": "2016",
+      "quote": "For me it's more about sending a message in a bottle than getting one in return.",
+      "sources": [
+        {
+          "url": "https://qz.com/1698337/replika",
+          "publisher": "Quartz",
+          "title": "Replika",
+          "date": "2019"
+        },
+        {
+          "url": "https://softwareengineeringdaily.com/2016/12/06/bot-memorial-with-eugenia-kuyda/",
+          "publisher": "Software Engineering Daily",
+          "title": "Bot Memorial with Eugenia Kuyda",
+          "date": "2016-12-06"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "luka-inc",
+      "toName": "Luka, Inc.",
+      "toType": "company",
+      "relation": "founded",
+      "claim": "Kuyda founded Luka, the company behind Replika.",
+      "status": "reported",
+      "date": null,
+      "sources": [
+        {
+          "url": "https://thereader.mitpress.mit.edu/chatting-with-the-dead-chatbots/",
+          "publisher": "The MIT Press Reader",
+          "title": "Chatting With the Dead"
+        },
+        {
+          "url": "https://qz.com/1698337/replika",
+          "publisher": "Quartz",
+          "title": "Replika",
+          "date": "2019"
+        }
+      ]
+    },
+    {
+      "to": "replika",
+      "toName": "Replika",
+      "toType": "company",
+      "relation": "founded",
+      "claim": "Kuyda founded Replika, which she has said grew from the Mazurenko memorial bot.",
+      "status": "words",
+      "date": "2017",
+      "quote": "working on Roman's AI helped us come up with Replika",
+      "sources": [
+        {
+          "url": "https://qz.com/1698337/replika",
+          "publisher": "Quartz",
+          "title": "Replika",
+          "date": "2019"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The Verge's original article could not be opened by the crawler; its content is cited through secondary pages.",
+    "Reports that Kuyda has since left the CEO role at Luka were not verified."
+  ]
+}

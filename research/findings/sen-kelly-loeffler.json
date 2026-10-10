@@ -1,0 +1,133 @@
+{
+  "entity": "sen-kelly-loeffler",
+  "name": "Sen. Kelly Loeffler",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Kelly Loeffler served as a U.S. Senator from Georgia in 2020. After she and her husband sold between $1.2 million and $3.1 million in stock following a closed-door Senate coronavirus briefing on January 24, 2020, the Justice Department opened and, in May 2020, closed an investigation, and on June 16, 2020 the Senate Select Committee on Ethics dismissed its inquiry, writing that it found no evidence her actions violated federal law, Senate rules or standards of conduct. Loeffler said third-party advisers made the trades without her knowledge.",
+    "sources": [
+      {
+        "url": "https://www.rollcall.com/2020/06/16/sen-loeffler-ethics-inquiry-dismissed",
+        "publisher": "Roll Call",
+        "title": "Sen. Loeffler ethics inquiry dismissed",
+        "date": "2020-06-16"
+      },
+      {
+        "url": "https://cbsnews.com/news/senate-ethics-committee-kelly-loeffler-insider-trading-investigation-dismissed",
+        "publisher": "CBS News",
+        "title": "Senate Ethics Committee dismisses probe into Kelly Loeffler over insider trading allegations",
+        "date": "2020-06-16"
+      },
+      {
+        "url": "https://www.fox5atlanta.com/news/senate-ethics-panel-drops-inquiry-into-loeffler-stock-trades",
+        "publisher": "FOX 5 Atlanta (AP)",
+        "title": "Senate ethics panel drops inquiry into Loeffler stock trades",
+        "date": "2020-06-16"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On June 16, 2020 the Senate Select Committee on Ethics wrote to Loeffler that it had found no evidence that her actions violated federal law, Senate rules or standards of conduct and that it 'has dismissed this matter' and would take no further action.",
+      "status": "documented",
+      "date": "2020-06-16",
+      "quote": "has dismissed this matter",
+      "sources": [
+        {
+          "url": "https://www.rollcall.com/2020/06/16/sen-loeffler-ethics-inquiry-dismissed",
+          "publisher": "Roll Call",
+          "title": "Sen. Loeffler ethics inquiry dismissed",
+          "date": "2020-06-16"
+        },
+        {
+          "url": "https://cbsnews.com/news/senate-ethics-committee-kelly-loeffler-insider-trading-investigation-dismissed",
+          "publisher": "CBS News",
+          "title": "Senate Ethics Committee dismisses probe into Kelly Loeffler over insider trading allegations",
+          "date": "2020-06-16"
+        }
+      ]
+    },
+    {
+      "claim": "The Justice Department closed its investigation into Loeffler's stock trades in May 2020.",
+      "status": "reported",
+      "date": "2020-05",
+      "sources": [
+        {
+          "url": "https://www.fox5atlanta.com/news/senate-ethics-panel-drops-inquiry-into-loeffler-stock-trades",
+          "publisher": "FOX 5 Atlanta (AP)",
+          "title": "Senate ethics panel drops inquiry into Loeffler stock trades",
+          "date": "2020-06-16"
+        },
+        {
+          "url": "https://cbsnews.com/news/senate-ethics-committee-kelly-loeffler-insider-trading-investigation-dismissed",
+          "publisher": "CBS News",
+          "title": "Senate Ethics Committee dismisses probe into Kelly Loeffler over insider trading allegations",
+          "date": "2020-06-16"
+        }
+      ]
+    },
+    {
+      "claim": "Loeffler and her husband sold between $1.2 million and $3.1 million in stock after the January 24, 2020 Senate coronavirus briefing; she said third-party advisers made the decisions without her knowledge.",
+      "status": "reported",
+      "date": "2020-01-24",
+      "quote": "Loeffler and her husband sold between $1.2 million and $3.1 million in stocks following the January 24 meeting.",
+      "sources": [
+        {
+          "url": "https://cbsnews.com/news/senate-ethics-committee-kelly-loeffler-insider-trading-investigation-dismissed",
+          "publisher": "CBS News",
+          "title": "Senate Ethics Committee dismisses probe into Kelly Loeffler over insider trading allegations",
+          "date": "2020-06-16"
+        },
+        {
+          "url": "https://www.fox5atlanta.com/news/senate-ethics-panel-drops-inquiry-into-loeffler-stock-trades",
+          "publisher": "FOX 5 Atlanta (AP)",
+          "title": "Senate ethics panel drops inquiry into Loeffler stock trades",
+          "date": "2020-06-16"
+        }
+      ]
+    },
+    {
+      "claim": "Loeffler's office said the Ethics Committee had reached the same conclusion as the Justice Department and that she had been 'completely exonerated'.",
+      "status": "words",
+      "date": "2020-06-16",
+      "quote": "The Senate Ethics Committee has come to the exact same conclusion as the U.S. Department of Justice: Senator Loeffler did absolutely nothing wrong and has been completely exonerated",
+      "sources": [
+        {
+          "url": "https://www.fox5atlanta.com/news/senate-ethics-panel-drops-inquiry-into-loeffler-stock-trades",
+          "publisher": "FOX 5 Atlanta (AP)",
+          "title": "Senate ethics panel drops inquiry into Loeffler stock trades",
+          "date": "2020-06-16"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "jeffrey-sprecher",
+      "toName": "Jeffrey Sprecher",
+      "toType": "person",
+      "relation": "family of",
+      "claim": "Loeffler's husband, Jeffrey Sprecher, jointly sold stock with her after the January 2020 briefing; press coverage of the ethics inquiry refers to the couple's trades.",
+      "status": "reported",
+      "date": "2020-01-24",
+      "sources": [
+        {
+          "url": "https://cbsnews.com/news/senate-ethics-committee-kelly-loeffler-insider-trading-investigation-dismissed",
+          "publisher": "CBS News",
+          "title": "Senate Ethics Committee dismisses probe into Kelly Loeffler over insider trading allegations",
+          "date": "2020-06-16"
+        },
+        {
+          "url": "https://www.fox5atlanta.com/news/senate-ethics-panel-drops-inquiry-into-loeffler-stock-trades",
+          "publisher": "FOX 5 Atlanta (AP)",
+          "title": "Senate ethics panel drops inquiry into Loeffler stock trades",
+          "date": "2020-06-16"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim that the DOJ and SEC 'closed all inquiries' into Loeffler without charges: the DOJ closure and the Senate Ethics dismissal are documented; no SEC statement was returned.",
+    "Site claim that Loeffler 'dumped $3M+ in retail while buying Citrix': coverage puts the sales at $1.2–3.1 million; the Citrix purchase was not covered by the sources returned.",
+    "The Sprecher connection relies on press references to 'her husband'; Sprecher's name and NYSE chairmanship were not in the text returned and should be confirmed from the Senate financial disclosure or a named source."
+  ]
+}

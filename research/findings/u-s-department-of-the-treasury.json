@@ -1,0 +1,95 @@
+{
+  "entity": "u-s-department-of-the-treasury",
+  "name": "U.S. Department of the Treasury",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The U.S. Department of the Treasury was established by Act of Congress on September 2, 1789, with Alexander Hamilton as its first Secretary. Its website states that its mission is to maintain a strong economy and create economic and job opportunities by promoting the conditions that enable economic growth and stability at home and abroad, and that it also strengthens national security by combating threats and protecting the integrity of the financial system; its functions include producing coin and currency, collecting revenue, borrowing to fund the government and implementing economic sanctions. On this site it appears through the 1974 U.S.-Saudi Joint Commission and the Treasury securities 'add-on' facility, the 1995 Mexico support package from the Exchange Stabilization Fund, the 2008 Fannie Mae and Freddie Mac conservatorships, and its rulemaking under the 2025 GENIUS Act.",
+    "sources": [
+      { "url": "https://home.treasury.gov/about/general-information/role-of-the-treasury", "publisher": "U.S. Department of the Treasury", "title": "Role of the Treasury" },
+      { "url": "https://home.treasury.gov/about/history/history-overview/history-of-the-treasury", "publisher": "U.S. Department of the Treasury", "title": "History of the Treasury" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The Joint Commission on Economic Cooperation established with Saudi Arabia on June 8, 1974 was co-chaired by the U.S. Treasury Secretary and the Saudi Minister of Finance and National Economy, and its U.S. technical assistance was funded almost entirely from the Saudi Arabian Trust Account held at the U.S. Treasury, according to GAO.",
+      "status": "documented",
+      "date": "1974-06-08",
+      "quote": "U.S. technical assistance is funded almost entirely from the Saudi Arabian Trust Account in the U.S. Treasury.",
+      "sources": [
+        { "url": "https://www.gao.gov/products/id-79-7", "publisher": "U.S. General Accounting Office", "title": "The U.S.-Saudi Arabian Joint Commission on Economic Cooperation (ID-79-7)", "date": "1979-03-22" }
+      ]
+    },
+    {
+      "claim": "GAO reported in 1979 that the Treasury's noncompetitive 'add-on' facility for purchasing Treasury securities outside the competitive auctions was first offered to Saudi Arabia and was by then available to all governments and central banks.",
+      "status": "documented",
+      "date": "1979-06",
+      "quote": "The noncompetitive 'add-on' purchase facility for Treasury securities was first offered to Saudi Arabia, and it is now available to all governments and central banks.",
+      "sources": [
+        { "url": "https://www.gao.gov/assets/emd-79-45.pdf", "publisher": "U.S. General Accounting Office", "title": "Are OPEC Financial Holdings a Danger to U.S. Banks or the Economy? (EMD-79-45)", "date": "1979-06" }
+      ]
+    },
+    {
+      "claim": "On January 31, 1995 the United States announced it would provide Mexico up to $20 billion through the Exchange Stabilization Fund and the Federal Reserve swap network, as part of a $48.8 billion multilateral package, combining short-term swaps, medium-term swaps of up to five years and securities guarantees of up to ten years. By December 22, 1995, $13.5 billion had been disbursed and no securities guarantees had been extended.",
+      "status": "documented",
+      "date": "1995-01-31",
+      "quote": "The package was a combination of short-term swaps with renewals allowed, medium-term swaps of up to 5 years, and securities guarantees with terms of up to 10 years.",
+      "sources": [
+        { "url": "https://www.gao.gov/assets/ggd-96-56.pdf", "publisher": "U.S. Government Accountability Office", "title": "Mexico's Financial Crisis: Origins, Awareness, Assistance, and Initial Efforts to Recover (GGD-96-56)", "date": "1996-02" },
+        { "url": "https://home.treasury.gov/policy-issues/international/exchange-stabilization-fund/finances-and-operations", "publisher": "U.S. Department of the Treasury", "title": "Exchange Stabilization Fund: Finances and Operations" }
+      ]
+    },
+    {
+      "claim": "Treasury's own account of the Exchange Stabilization Fund says that when the ESF provided financial support for Mexico in 1995 it was through a medium-term credit, and that the ESF has historically been used to buy and sell foreign currencies, extend short-term swaps to foreign countries and guarantee obligations of foreign governments.",
+      "status": "documented",
+      "date": "1995",
+      "quote": "when the ESF provided financial support for Mexico in 1995, it was through a medium-term credit",
+      "sources": [
+        { "url": "https://home.treasury.gov/policy-issues/international/exchange-stabilization-fund/finances-and-operations", "publisher": "U.S. Department of the Treasury", "title": "Exchange Stabilization Fund: Finances and Operations" }
+      ]
+    },
+    {
+      "claim": "On September 7, 2008 Treasury announced that the Federal Housing Finance Agency had placed Fannie Mae and Freddie Mac into conservatorship and that Treasury had entered Preferred Stock Purchase Agreements committing it to keep each company's net worth positive in exchange for senior preferred shares and warrants.",
+      "status": "documented",
+      "date": "2008-09-07",
+      "quote": "Statement by Secretary Henry M. Paulson, Jr. on Treasury and Federal Housing Finance Agency Action to Protect Financial Markets and Taxpayers",
+      "sources": [
+        { "url": "https://home.treasury.gov/news/press-releases/hp1129", "publisher": "U.S. Department of the Treasury", "title": "Statement by Secretary Henry M. Paulson, Jr. on Treasury and Federal Housing Finance Agency Action to Protect Financial Markets and Taxpayers", "date": "2008-09-07" },
+        { "url": "https://www.fhfa.gov/conservatorship/history", "publisher": "Federal Housing Finance Agency", "title": "History of Fannie Mae and Freddie Mac Conservatorships" }
+      ]
+    },
+    {
+      "claim": "Following enactment of the GENIUS Act (Public Law 119-27) on July 18, 2025, Treasury issued a request for comment that it said fulfilled its obligation under section 9(a) of the Act, and on September 18, 2025 an advance notice of proposed rulemaking on implementation; in 2026 it proposed rules on state-level regulatory regimes, on illicit-finance requirements (jointly through FinCEN and OFAC) and on the issuance of payment stablecoins.",
+      "status": "documented",
+      "date": "2025-09-18",
+      "quote": "Today's request for comment fulfills Treasury's obligation pursuant to section 9(a) of the GENIUS Act, which creates a comprehensive regulatory framework for stablecoin issuers in the United States.",
+      "sources": [
+        { "url": "https://home.treasury.gov/news/press-releases/sb0228", "publisher": "U.S. Department of the Treasury", "title": "Treasury Issues Request for Comment Related to the Guiding and Establishing National Innovation for U.S. Stablecoins (GENIUS) Act", "date": "2025" },
+        { "url": "https://home.treasury.gov/news/press-releases/sb0254", "publisher": "U.S. Department of the Treasury", "title": "Treasury Seeks Public Comment on Implementation of the GENIUS Act", "date": "2025-09-18" },
+        { "url": "https://home.treasury.gov/news/press-releases/sb0435", "publisher": "U.S. Department of the Treasury", "title": "Treasury Proposes Rule to Implement the GENIUS Act's Requirements to Counter Illicit Finance", "date": "2026-04-08" },
+        { "url": "https://www.congress.gov/crs_external_products/R/PDF/R49351/R49351.2.pdf", "publisher": "Congressional Research Service", "title": "GENIUS Act (P.L. 119-27): Creating a Regulatory Framework for Stablecoins" }
+      ]
+    },
+    {
+      "claim": "On November 21, 2023 Treasury announced settlements with Binance that it described as the largest in its history: a $3.4 billion FinCEN civil money penalty and an OFAC settlement of about $968 million, alongside the Justice Department's criminal resolution.",
+      "status": "court",
+      "date": "2023-11-21",
+      "quote": "U.S. Treasury Announces Largest Settlements in History with World's Largest Virtual Currency Exchange Binance for Violations of U.S. Anti-Money Laundering and Sanctions Laws",
+      "sources": [
+        { "url": "https://home.treasury.gov/news/press-releases/jy1925", "publisher": "U.S. Department of the Treasury", "title": "U.S. Treasury Announces Largest Settlements in History with World's Largest Virtual Currency Exchange Binance for Violations of U.S. Anti-Money Laundering and Sanctions Laws", "date": "2023-11-21" }
+      ]
+    }
+  ],
+  "connections": [
+    { "to": "saudi-arabia", "toName": "Saudi Arabia", "toType": "government", "relation": "partnered with", "claim": "The Treasury Secretary co-chaired the U.S.-Saudi Arabian Joint Commission on Economic Cooperation established June 8, 1974, funded almost entirely from a Saudi trust account at the Treasury.", "status": "documented", "date": "1974-06-08", "quote": "U.S. technical assistance is funded almost entirely from the Saudi Arabian Trust Account in the U.S. Treasury.", "sources": [ { "url": "https://www.gao.gov/products/id-79-7", "publisher": "U.S. General Accounting Office", "title": "The U.S.-Saudi Arabian Joint Commission on Economic Cooperation (ID-79-7)", "date": "1979-03-22" } ] },
+    { "to": "saudi-arabian-monetary-agency", "toName": "Saudi Arabian Monetary Agency", "toType": "government", "relation": "partnered with", "claim": "Treasury first offered its noncompetitive 'add-on' facility for buying Treasury securities to Saudi Arabia, according to GAO's 1979 report.", "status": "documented", "date": "1979", "quote": "The noncompetitive 'add-on' purchase facility for Treasury securities was first offered to Saudi Arabia", "sources": [ { "url": "https://www.gao.gov/assets/emd-79-45.pdf", "publisher": "U.S. General Accounting Office", "title": "Are OPEC Financial Holdings a Danger to U.S. Banks or the Economy? (EMD-79-45)", "date": "1979-06" } ] },
+    { "to": "fobaproa", "toName": "Fobaproa", "toType": "government", "relation": "other", "claim": "Treasury's 1995 Exchange Stabilization Fund support of up to $20 billion went to the Mexican government, not to Fobaproa directly.", "status": "documented", "date": "1995-02-21", "quote": "the United States would provide up to $20 billion to Mexico through the use of ESF and the Federal Reserve swap network", "sources": [ { "url": "https://www.gao.gov/assets/ggd-96-56.pdf", "publisher": "U.S. Government Accountability Office", "title": "Mexico's Financial Crisis: Origins, Awareness, Assistance, and Initial Efforts to Recover (GGD-96-56)", "date": "1996-02" } ] },
+    { "to": "henry-paulson", "toName": "Henry Paulson", "toType": "person", "relation": "executive of", "reverse": true, "claim": "Henry Paulson served as the 74th Secretary of the Treasury from July 2006 to January 2009 and announced the 2008 conservatorship of Fannie Mae and Freddie Mac.", "status": "documented", "date": "2008-09-07", "quote": "Statement by Secretary Henry M. Paulson, Jr. on Treasury and Federal Housing Finance Agency Action to Protect Financial Markets and Taxpayers", "sources": [ { "url": "https://home.treasury.gov/news/press-releases/hp1129", "publisher": "U.S. Department of the Treasury", "title": "Statement by Secretary Henry M. Paulson, Jr. on Treasury and Federal Housing Finance Agency Action to Protect Financial Markets and Taxpayers", "date": "2008-09-07" }, { "url": "https://home.treasury.gov/about/history/prior-secretaries/henry-m-paulson-jr-2006-2009", "publisher": "U.S. Department of the Treasury", "title": "Henry M. Paulson, Jr. (2006 - 2009)" } ] },
+    { "to": "fincen", "toName": "FinCEN", "toType": "government", "relation": "owns", "claim": "FinCEN is a bureau of the Department of the Treasury and administers the Bank Secrecy Act.", "status": "documented", "date": "2026", "quote": "FinCEN is a bureau of the U.S. Department of the Treasury.", "sources": [ { "url": "https://www.fincen.gov/what-we-do", "publisher": "FinCEN", "title": "About FinCEN: What We Do" } ] },
+    { "to": "binance", "toName": "Binance", "toType": "company", "relation": "settled with", "claim": "Treasury's FinCEN and OFAC settled with Binance on November 21, 2023 for $3.4 billion and about $968 million respectively.", "status": "court", "date": "2023-11-21", "quote": "U.S. Treasury Announces Largest Settlements in History with World's Largest Virtual Currency Exchange Binance", "sources": [ { "url": "https://home.treasury.gov/news/press-releases/jy1925", "publisher": "U.S. Department of the Treasury", "title": "U.S. Treasury Announces Largest Settlements in History with World's Largest Virtual Currency Exchange Binance for Violations of U.S. Anti-Money Laundering and Sanctions Laws", "date": "2023-11-21" } ] },
+    { "to": "world-liberty-financial", "toName": "World Liberty Financial", "toType": "company", "relation": "regulated", "claim": "Treasury is the rule-writing agency under the GENIUS Act, the 2025 stablecoin law under which CRS notes debate over a stablecoin issued by a company sponsored by President Trump.", "status": "documented", "date": "2025-07-18", "quote": "Today's request for comment fulfills Treasury's obligation pursuant to section 9(a) of the GENIUS Act", "sources": [ { "url": "https://home.treasury.gov/news/press-releases/sb0228", "publisher": "U.S. Department of the Treasury", "title": "Treasury Issues Request for Comment Related to the Guiding and Establishing National Innovation for U.S. Stablecoins (GENIUS) Act", "date": "2025" }, { "url": "https://www.congress.gov/crs_external_products/R/PDF/R49351/R49351.2.pdf", "publisher": "Congressional Research Service", "title": "GENIUS Act (P.L. 119-27): Creating a Regulatory Framework for Stablecoins" } ] }
+  ],
+  "openQuestions": [
+    "The exact date of the Treasury GENIUS Act request for comment (sb0228) was not shown in search results; the owner should confirm it on the press release.",
+    "Whether World Liberty Financial's stablecoin has applied for or obtained a GENIUS licence is not established here; the connection records only Treasury's rulemaking role."
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "entity": "us-air-force",
+  "name": "US Air Force",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The United States Air Force is the air service branch of the U.S. armed forces. On this site it appears through its official UFO history: Project Blue Book, under which the Air Force investigated 12,618 reported sightings between 1947 and 1969 and concluded that none of the unidentified cases was an extraterrestrial vehicle, and the two Roswell reports, in which the Air Force attributed the 1947 debris to the balloon-borne Project Mogul (1994 report) and later reports of bodies to anthropomorphic test dummies (The Roswell Report: Case Closed, June 1997).",
+    "sources": [
+      { "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104590/unidentified-flying-objects-and-air-force-project-blue-book/", "publisher": "U.S. Air Force", "title": "Unidentified Flying Objects and Air Force Project Blue Book (fact sheet)" },
+      { "url": "https://www.af.mil/The-Roswell-Report/", "publisher": "U.S. Air Force", "title": "The Roswell Report" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The Air Force's fact sheet states that from 1947 to 1969 it investigated unidentified flying objects under Project Blue Book; of 12,618 sightings reported, 701 remained unidentified. The project ended on December 17, 1969, with the conclusion that no sighting categorized as unidentified was an extraterrestrial vehicle.",
+      "status": "documented",
+      "date": "1969-12-17",
+      "quote": "Of a total of 12,618 sightings reported to Project Blue Book, 701 remained \"unidentified.\"",
+      "sources": [
+        { "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104590/unidentified-flying-objects-and-air-force-project-blue-book/", "publisher": "U.S. Air Force", "title": "Unidentified Flying Objects and Air Force Project Blue Book (fact sheet)" },
+        { "url": "https://www.secretsdeclassified.af.mil/Fact-Sheets/Display/Article/459832/project-blue-book", "publisher": "U.S. Air Force Declassification Office", "title": "Project Blue Book" }
+      ]
+    },
+    {
+      "claim": "The Air Force's 1994 Roswell review concluded that its predecessor, the U.S. Army Air Forces, recovered debris in 1947 from a balloon-borne research project code-named MOGUL, not from an extraterrestrial craft. The Air Force published the full report, with supporting documentation, as 'The Roswell Report: Fact vs. Fiction in the New Mexico Desert'.",
+      "status": "documented",
+      "date": "1994",
+      "quote": "the U.S. Army Air Forces, recovered debris from an Army Air Forces balloon-borne research project code named MOGUL",
+      "sources": [
+        { "url": "https://www.af.mil/The-Roswell-Report/", "publisher": "U.S. Air Force", "title": "The Roswell Report" },
+        { "url": "https://webharvest.gov/peth04/20041015143707/http://www.af.mil/library/roswell/", "publisher": "U.S. Air Force (archived via webharvest.gov)", "title": "Roswell Report library page", "date": "2004-10-15" }
+      ]
+    },
+    {
+      "claim": "On June 24, 1997 the Air Force released 'The Roswell Report: Case Closed', a 232-page follow-up addressing claims that bodies had been recovered, noting that the Air Force had conducted many tests in the desert involving instrumented dummies dropped from aircraft and later recovered on the ground.",
+      "status": "documented",
+      "date": "1997-06-24",
+      "quote": "the Air Force had conducted many tests in the desert involving instrumented dummies dropped from aircraft and later recovered on the ground",
+      "sources": [
+        { "url": "https://noticias.foxnews.com/lifestyle/this-day-history-june-24-1997-air-force-releases-roswell-report-case-closed", "publisher": "Fox News", "title": "This day in history, June 24, 1997: Air Force releases Roswell report 'Case Closed'" },
+        { "url": "https://thespacereview.com/article/5169/1", "publisher": "The Space Review", "title": "Roswell and the Air Force reports" }
+      ]
+    },
+    {
+      "claim": "The National Archives holds the Project Blue Book records and the Department of Defense FOIA reading room publishes Air Force UFO/UAP documents, including a 1995 USAF fact sheet reproduced in NSA's declassified UFO collection.",
+      "status": "documented",
+      "date": "1995",
+      "quote": "Project BLUE BOOK - Unidentified Flying Objects",
+      "sources": [
+        { "url": "https://www.archives.gov/research/military/air-force/ufos", "publisher": "National Archives", "title": "Project BLUE BOOK - Unidentified Flying Objects" },
+        { "url": "https://www.nsa.gov/news-features/declassified-documents/ufo/assets/files/usaf_fact_sheet_95_03.pdf", "publisher": "National Security Agency (USAF fact sheet 95-03)", "title": "USAF Fact Sheet 95-03", "date": "1995" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "project-blue-book",
+      "toName": "Project Blue Book",
+      "toType": "program",
+      "relation": "other",
+      "claim": "The Air Force ran Project Blue Book from 1947 to 1969, investigating 12,618 reported sightings, and terminated it on December 17, 1969.",
+      "status": "documented",
+      "date": "1969-12-17",
+      "quote": "The project was ended on Dec. 17, 1969.",
+      "sources": [
+        { "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104590/unidentified-flying-objects-and-air-force-project-blue-book/", "publisher": "U.S. Air Force", "title": "Unidentified Flying Objects and Air Force Project Blue Book (fact sheet)" }
+      ]
+    },
+    {
+      "to": "project-mogul",
+      "toName": "Project Mogul",
+      "toType": "program",
+      "relation": "other",
+      "claim": "The Air Force's 1994 report attributed the 1947 Roswell debris to the Army Air Forces' balloon-borne Project MOGUL.",
+      "status": "documented",
+      "date": "1994",
+      "quote": "recovered debris from an Army Air Forces balloon-borne research project code named MOGUL",
+      "sources": [
+        { "url": "https://www.af.mil/The-Roswell-Report/", "publisher": "U.S. Air Force", "title": "The Roswell Report" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (Demystification): 'Between 1952 and 1969, the United States Air Force investigated 12,618 reported sightings under Project Blue Book' — the Air Force fact sheet gives 1947 to 1969 as the span of its UFO investigations and 12,618 as the total; the start year differs from the site's 1952.",
+    "Site claim (Demystification): 'In 1994, the Secretary of the Air Force released Report of Air Force Research Regarding the Roswell Incident' is supported in substance by the af.mil Roswell Report page; sources differ on whether the full report was published in 1994 or 1995.",
+    "Site claim (Demystification): that the Air Force 'exploited extraterrestrial folklore to deflect scrutiny' from U-2 and A-12 flights, and that 'Air Force investigators knew exact flight schedules', was not checked; the CIA's 1997 U-2 history is the usual source and was not opened.",
+    "Site claim (Demystification): that the Condon Report (1968) was commissioned by the Air Force and conducted by the University of Colorado was not confirmed from the pages opened.",
+    "Whether the 1994 Roswell review was signed by the Secretary of the Air Force, as the site says, was not confirmed."
+  ]
+}

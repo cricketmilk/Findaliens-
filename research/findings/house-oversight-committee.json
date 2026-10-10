@@ -1,0 +1,68 @@
+{
+  "entity": "house-oversight-committee",
+  "name": "House Oversight Committee",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The U.S. House Committee on Oversight and Government Reform describes itself as the principal oversight committee of the House, with legislative jurisdiction over the District of Columbia, federal procurement, federal personnel systems and the Postal Service, and oversight jurisdiction that its website says covers virtually everything government does; House Rule X allows it to investigate any matter at any time. On this site it appears through its 2025 subpoena and release of records from Jeffrey Epstein's estate and as the recipient of the Senate Finance Committee ranking member's June 2026 referral on Leon Black's Epstein ties.",
+    "sources": [
+      { "url": "https://oversight.house.gov/about-the-committee/", "publisher": "U.S. House Committee on Oversight and Government Reform", "title": "About the Committee" },
+      { "url": "https://oversight.house.gov/wp-content/uploads/2025/01/119th-Committee-Rules.pdf", "publisher": "U.S. House Committee on Oversight and Government Reform", "title": "Committee on Oversight and Government Reform, 119th Congress Rules", "date": "2025-01" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The committee's website states that it has legislative jurisdiction over the District of Columbia, the government procurement process, federal personnel systems and the Postal Service, and that its primary responsibility is oversight of virtually everything government does.",
+      "status": "documented",
+      "date": "2026",
+      "quote": "its primary responsibility is oversight of virtually everything government does",
+      "sources": [
+        { "url": "https://oversight.house.gov/about-the-committee/", "publisher": "U.S. House Committee on Oversight and Government Reform", "title": "About the Committee" }
+      ]
+    },
+    {
+      "claim": "Under its 119th Congress rules the committee has seven subcommittees, including Health Care and Financial Services (covering monetary policy, banking and tax policy) and Delivering on Government Efficiency (covering the federal civil service and government reorganizations).",
+      "status": "documented",
+      "date": "2025-01",
+      "quote": "Committee on Oversight and Government Reform 119th Congress Rule 1 — General",
+      "sources": [
+        { "url": "https://oversight.house.gov/wp-content/uploads/2025/01/119th-Committee-Rules.pdf", "publisher": "U.S. House Committee on Oversight and Government Reform", "title": "Committee on Oversight and Government Reform, 119th Congress Rules", "date": "2025-01" }
+      ]
+    },
+    {
+      "claim": "In 2025 the committee released records obtained from Jeffrey Epstein's estate under an August 25, 2025 subpoena, including a further 20,000 pages on November 12, 2025 comprising court records, financial documents, text messages and emails; Chairman Comer said the committee had obtained information about Epstein's bank accounts and would pursue those records.",
+      "status": "documented",
+      "date": "2025-11-12",
+      "quote": "The Committee also obtained information about Epstein's bank accounts. The Committee will pursue these bank records.",
+      "sources": [
+        { "url": "https://oversight.house.gov/release/oversight-committee-releases-records-provided-by-the-epstein-estate-chairman-comer-provides-statement/", "publisher": "U.S. House Committee on Oversight and Government Reform", "title": "Oversight Committee Releases Records Provided by the Epstein Estate, Chairman Comer Provides Statement", "date": "2025-09-08" },
+        { "url": "https://oversight.house.gov/release/oversight-committee-releases-additional-epstein-estate-documents/", "publisher": "U.S. House Committee on Oversight and Government Reform", "title": "Oversight Committee Releases Additional Epstein Estate Documents", "date": "2025-11-12" }
+      ]
+    },
+    {
+      "claim": "On June 4, 2026 the Senate Finance Committee's ranking member referred his findings on Leon Black's financial ties to Jeffrey Epstein to the House Oversight Committee.",
+      "status": "documented",
+      "date": "2026-06-04",
+      "quote": "Wyden Refers Findings on Leon Black's Epstein Ties to House Oversight Committee",
+      "sources": [
+        { "url": "https://www.finance.senate.gov/ranking-members-news/wyden-refers-findings-on-leon-blacks-epstein-ties-to-house-oversight-committee", "publisher": "U.S. Senate Committee on Finance (Ranking Member)", "title": "Wyden Refers Findings on Leon Black's Epstein Ties to House Oversight Committee", "date": "2026-06-04" }
+      ]
+    },
+    {
+      "claim": "The committee published a transcript of its June 2026 interview with Attorney General Pam Bondi, in which the committee's counsel stated that House Rule X grants the committee broad jurisdiction to conduct investigations of any matter at any time.",
+      "status": "documented",
+      "date": "2026-06",
+      "quote": "House rule X grants the Committee broad jurisdiction to conduct investigations of any matter at any time",
+      "sources": [
+        { "url": "https://oversight.house.gov/wp-content/uploads/2026/06/Final-Bondi-Transcript.pdf", "publisher": "U.S. House Committee on Oversight and Government Reform", "title": "Transcript: Committee on Oversight and Government Reform interview of Attorney General Pamela Bondi", "date": "2026-06" }
+      ]
+    }
+  ],
+  "connections": [
+    { "to": "jeffrey-epstein", "toName": "Jeffrey Epstein", "toType": "person", "relation": "investigated", "claim": "The committee subpoenaed Epstein's estate on August 25, 2025 and released the records it obtained, including 20,000 further pages on November 12, 2025.", "status": "documented", "date": "2025-11-12", "quote": "Oversight Committee Releases Additional Epstein Estate Documents", "sources": [ { "url": "https://oversight.house.gov/release/oversight-committee-releases-additional-epstein-estate-documents/", "publisher": "U.S. House Committee on Oversight and Government Reform", "title": "Oversight Committee Releases Additional Epstein Estate Documents", "date": "2025-11-12" } ] },
+    { "to": "leon-black", "toName": "Leon Black", "toType": "person", "relation": "other", "claim": "The committee received the Senate Finance Committee ranking member's June 2026 referral of findings on Black's payments to Epstein.", "status": "documented", "date": "2026-06-04", "quote": "Wyden Refers Findings on Leon Black's Epstein Ties to House Oversight Committee", "sources": [ { "url": "https://www.finance.senate.gov/ranking-members-news/wyden-refers-findings-on-leon-blacks-epstein-ties-to-house-oversight-committee", "publisher": "U.S. Senate Committee on Finance (Ranking Member)", "title": "Wyden Refers Findings on Leon Black's Epstein Ties to House Oversight Committee", "date": "2026-06-04" } ] },
+    { "to": "senate-finance-committee", "toName": "Senate Finance Committee", "toType": "government", "relation": "other", "claim": "The Senate Finance Committee's ranking member referred findings on Leon Black to the House Oversight Committee on June 4, 2026.", "status": "documented", "date": "2026-06-04", "quote": "Wyden Refers Findings on Leon Black's Epstein Ties to House Oversight Committee", "sources": [ { "url": "https://www.finance.senate.gov/ranking-members-news/wyden-refers-findings-on-leon-blacks-epstein-ties-to-house-oversight-committee", "publisher": "U.S. Senate Committee on Finance (Ranking Member)", "title": "Wyden Refers Findings on Leon Black's Epstein Ties to House Oversight Committee", "date": "2026-06-04" } ] }
+  ],
+  "openQuestions": [
+    "Whether the House Oversight Committee acted on the June 2026 Black referral was not researched here."
+  ]
+}

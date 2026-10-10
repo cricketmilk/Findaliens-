@@ -1,0 +1,160 @@
+{
+  "entity": "larry-householder",
+  "name": "Larry Householder",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Larry Householder was Speaker of the Ohio House of Representatives. In March 2023 a federal jury convicted him of leading a racketeering conspiracy in which FirstEnergy paid nearly $61 million through the nonprofit Generation Now to secure his speakership and pass House Bill 6, a nuclear-plant bailout. He was sentenced to 20 years, the statutory maximum. The Sixth Circuit affirmed in May 2025, denied rehearing in July 2025, and the Supreme Court denied review on April 27, 2026.",
+    "sources": [
+      {
+        "url": "https://www.justice.gov/usao-sdoh/pr/former-ohio-house-speaker-sentenced-20-years-prison-leading-racketeering-conspiracy",
+        "publisher": "U.S. Attorney's Office, Southern District of Ohio",
+        "title": "Former Ohio House Speaker Sentenced to 20 Years in Prison for Leading Racketeering Conspiracy",
+        "date": "2023-06-29"
+      },
+      {
+        "url": "https://www.opn.ca6.uscourts.gov/opinions.pdf/25a0114p-06.pdf",
+        "publisher": "U.S. Court of Appeals for the Sixth Circuit",
+        "title": "United States v. Householder / Borges, No. 25a0114p (published opinion)",
+        "date": "2025-05"
+      },
+      {
+        "url": "https://ohiocapitaljournal.com/2026/05/04/supreme-court-wont-hear-appeal-in-ohio-utility-bribery-case/",
+        "publisher": "Ohio Capital Journal",
+        "title": "Supreme Court won't hear appeal in Ohio utility bribery case",
+        "date": "2026-05-04"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Householder was sentenced to 240 months (20 years) for leading a racketeering conspiracy involving nearly $61 million in bribes to pass and uphold a billion-dollar nuclear plant bailout.",
+      "status": "court",
+      "date": "2023-06",
+      "quote": "Former Ohio House Speaker Larry Householder received 240 months (20 years) for leading a racketeering conspiracy",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdoh/pr/former-ohio-house-speaker-sentenced-20-years-prison-leading-racketeering-conspiracy",
+          "publisher": "U.S. Attorney's Office, Southern District of Ohio",
+          "title": "Former Ohio House Speaker Sentenced to 20 Years in Prison for Leading Racketeering Conspiracy",
+          "date": "2023-06-29"
+        }
+      ]
+    },
+    {
+      "claim": "Former Ohio Republican Party chair Matthew Borges, convicted alongside Householder, was sentenced to 60 months followed by three years of supervised release.",
+      "status": "court",
+      "date": "2023-06",
+      "quote": "Borges was sentenced to 60 months of imprisonment, to be followed by three years of supervised release.",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdoh/pr/former-chair-ohio-republican-party-sentenced-5-years-prison-role-racketeering",
+          "publisher": "U.S. Attorney's Office, Southern District of Ohio",
+          "title": "Former Chair of Ohio Republican Party Sentenced to 5 Years in Prison for Role in Racketeering Conspiracy",
+          "date": "2023-06-30"
+        }
+      ]
+    },
+    {
+      "claim": "The Sixth Circuit affirmed both convictions in a published May 2025 opinion, finding no reversible error; it called the explanation for the sentencing loss enhancement cursory but held the error harmless.",
+      "status": "court",
+      "date": "2025-05",
+      "quote": "The court found no reversible error and affirmed their convictions.",
+      "sources": [
+        {
+          "url": "https://www.opn.ca6.uscourts.gov/opinions.pdf/25a0114p-06.pdf",
+          "publisher": "U.S. Court of Appeals for the Sixth Circuit",
+          "title": "United States v. Householder / Borges, No. 25a0114p (published opinion)",
+          "date": "2025-05"
+        },
+        {
+          "url": "https://ohiocapitaljournal.com/2025/05/06/federal-appeals-court-upholds-conviction-of-householder-in-public-corruption-case/",
+          "publisher": "Ohio Capital Journal",
+          "title": "Federal appeals court upholds conviction of Householder in public corruption case",
+          "date": "2025-05-06"
+        }
+      ]
+    },
+    {
+      "claim": "The Sixth Circuit refused rehearing on July 25, 2025, and the U.S. Supreme Court denied review on April 27, 2026, ending the direct appeals.",
+      "status": "court",
+      "date": "2026-04-27",
+      "quote": "The Supreme Court's April 27 order is the end point of the Householder and Borges appeals process.",
+      "sources": [
+        {
+          "url": "https://ohiocapitaljournal.com/2026/05/04/supreme-court-wont-hear-appeal-in-ohio-utility-bribery-case/",
+          "publisher": "Ohio Capital Journal",
+          "title": "Supreme Court won't hear appeal in Ohio utility bribery case",
+          "date": "2026-05-04"
+        }
+      ]
+    },
+    {
+      "claim": "Householder's appeal argued that the bribe payments were protected by the First Amendment; the Solicitor General opposed certiorari in March 2026.",
+      "status": "documented",
+      "date": "2026-03",
+      "quote": "Householder v. United States/Borges",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/d9/2026-03/householder_and_borges_opp.pdf",
+          "publisher": "U.S. Department of Justice (Office of the Solicitor General)",
+          "title": "Householder v. United States / Borges v. United States, brief in opposition",
+          "date": "2026-03"
+        },
+        {
+          "url": "https://ohiocapitaljournal.com/2024/02/28/former-ohio-speaker-householder-files-appeal-says-bribe-payment-was-within-first-amendment-rights/",
+          "publisher": "Ohio Capital Journal",
+          "title": "Former Ohio Speaker Householder files appeal, says bribe payment was within First Amendment rights",
+          "date": "2024-02-28"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "firstenergy",
+      "toName": "FirstEnergy",
+      "toType": "company",
+      "relation": "other",
+      "claim": "FirstEnergy admitted in its deferred prosecution agreement that it paid millions of dollars through Householder's 501(c)(4) in return for his pursuing nuclear legislation; Householder was convicted of racketeering for the scheme.",
+      "status": "court",
+      "date": "2023",
+      "quote": "it paid millions of dollars to an elected state public official through the official's alleged 501(c)(4)",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdoh/pr/firstenergy-charged-federally-agrees-terms-deferred-prosecution-settlement",
+          "publisher": "U.S. Attorney's Office, Southern District of Ohio",
+          "title": "FirstEnergy Charged Federally, Agrees to Terms of Deferred Prosecution Settlement",
+          "date": "2021-07-22"
+        },
+        {
+          "url": "https://www.justice.gov/usao-sdoh/pr/former-ohio-house-speaker-sentenced-20-years-prison-leading-racketeering-conspiracy",
+          "publisher": "U.S. Attorney's Office, Southern District of Ohio",
+          "title": "Former Ohio House Speaker Sentenced to 20 Years in Prison for Leading Racketeering Conspiracy",
+          "date": "2023-06-29"
+        }
+      ]
+    },
+    {
+      "to": "us-department-of-justice",
+      "toName": "US Department of Justice",
+      "toType": "agency",
+      "relation": "sued by",
+      "claim": "Householder was prosecuted by the U.S. Attorney for the Southern District of Ohio and convicted of racketeering conspiracy in 2023.",
+      "status": "court",
+      "date": "2023",
+      "quote": "Former Ohio House Speaker Sentenced to 20 Years in Prison for Leading Racketeering Conspiracy",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-sdoh/pr/former-ohio-house-speaker-sentenced-20-years-prison-leading-racketeering-conspiracy",
+          "publisher": "U.S. Attorney's Office, Southern District of Ohio",
+          "title": "Former Ohio House Speaker Sentenced to 20 Years in Prison for Leading Racketeering Conspiracy",
+          "date": "2023-06-29"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (20 years, lost appeals): supported through the Supreme Court's April 2026 denial.",
+    "The exact sentencing date in June 2023 was not stated in the DOJ release text seen."
+  ]
+}

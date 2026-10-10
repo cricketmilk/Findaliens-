@@ -1,0 +1,73 @@
+{
+  "entity": "harvey-firestone",
+  "name": "Harvey Firestone",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Harvey Firestone, founder of the Firestone Tire and Rubber Company, is named in accounts of Kevin Kruse's One Nation Under God as a donor to James Fifield's Spiritual Mobilization alongside Sun Oil's J. Howard Pew.",
+    "sources": [
+      {
+        "url": "https://www.thenation.com/?p=131186",
+        "publisher": "The Nation",
+        "title": "How Long Have We Really Been 'One Nation Under God'?",
+        "date": "2015"
+      },
+      {
+        "url": "https://commonwealmagazine.org/node/33512",
+        "publisher": "Commonweal",
+        "title": "Review of Kevin M. Kruse, One Nation Under God"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The Nation, summarizing Kruse, says Spiritual Mobilization channeled donations from tire magnate Harvey Firestone and Sun Oil's J. Howard Pew.",
+      "status": "reported",
+      "date": "1930s–40s",
+      "quote": "channeled donations from tire magnate Harvey Firestone and Sun Oil's J. Howard Pew",
+      "sources": [
+        {
+          "url": "https://www.thenation.com/?p=131186",
+          "publisher": "The Nation",
+          "title": "How Long Have We Really Been 'One Nation Under God'?",
+          "date": "2015"
+        }
+      ]
+    },
+    {
+      "claim": "Commonweal's review of Kruse names Firestone, oilmen Sid Richardson and J. Howard Pew, and entertainment figures Cecil B. DeMille and Walt Disney among businessmen who pushed back against the New Deal through the movement Kruse describes.",
+      "status": "reported",
+      "date": "2015",
+      "quote": "Firestone, oilmen Sid Richardson and J. Howard Pew, plus entertainment figures such as Cecil B. DeMille and Walt Disney",
+      "sources": [
+        {
+          "url": "https://commonwealmagazine.org/node/33512",
+          "publisher": "Commonweal",
+          "title": "Review of Kevin M. Kruse, One Nation Under God"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "spiritual-mobilization",
+      "toName": "Spiritual Mobilization",
+      "toType": "organization",
+      "relation": "funded",
+      "claim": "Per Kruse (as summarized by The Nation), Spiritual Mobilization received donations from Harvey Firestone.",
+      "status": "reported",
+      "date": "1930s–40s",
+      "quote": "channeled donations from tire magnate Harvey Firestone",
+      "sources": [
+        {
+          "url": "https://www.thenation.com/?p=131186",
+          "publisher": "The Nation",
+          "title": "How Long Have We Really Been 'One Nation Under God'?",
+          "date": "2015"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (Firestone bankrolled Fifield) is supported only at the level of Kruse's narrative; no amount or date for Firestone's gifts was found, and it is unclear whether Harvey Firestone Sr. (d. 1938) or Jr. is meant."
+  ]
+}

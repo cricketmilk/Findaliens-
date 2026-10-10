@@ -1,0 +1,61 @@
+{
+  "entity": "senate-intelligence-committee",
+  "name": "Senate Intelligence Committee",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The U.S. Senate Select Committee on Intelligence was created by Senate Resolution 400 of the 94th Congress on May 19, 1976, following the Church Committee's investigation of intelligence activities, with a mandate to provide vigilant legislative oversight over the intelligence activities of the United States. It has 17 members, nine from the majority and eight from the minority. On this site it appears through its 2018 release of commissioned analyses of the Internet Research Agency's social-media activity, including one prepared by New Knowledge, and through its chairman Richard Burr, who stepped aside in May 2020 during the Justice Department's review of his stock sales.",
+    "sources": [
+      { "url": "https://www.intelligence.senate.gov/about-the-committee/", "publisher": "U.S. Senate Select Committee on Intelligence", "title": "About The Committee" },
+      { "url": "https://www.senate.gov/artandhistory/senate-stories/senate-creates-the-select-committee-on-intelligence.htm", "publisher": "U.S. Senate (Senate Historical Office)", "title": "The Senate Creates the Select Committee on Intelligence" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The Senate voted on May 19, 1976 to create a permanent intelligence oversight committee under Senate Resolution 400 (94th Congress), after the Church Committee published its final report on April 29, 1976; the resolution's mandate was 'vigilant legislative oversight over the intelligence activities of the United States'.",
+      "status": "documented",
+      "date": "1976-05-19",
+      "quote": "vigilant legislative oversight over the intelligence activities of the United States to assure that such activities are in conformity with the Constitution and laws of the United States",
+      "sources": [
+        { "url": "https://www.senate.gov/artandhistory/senate-stories/senate-creates-the-select-committee-on-intelligence.htm", "publisher": "U.S. Senate (Senate Historical Office)", "title": "The Senate Creates the Select Committee on Intelligence" },
+        { "url": "https://www.intelligence.senate.gov/about-the-committee/", "publisher": "U.S. Senate Select Committee on Intelligence", "title": "About The Committee" }
+      ]
+    },
+    {
+      "claim": "On December 17, 2018 the committee released two independent reports on the Internet Research Agency's social-media tactics, prepared under its Technical Advisory Group arrangement and based in part on data the committee provided; the committee said the reports' conclusions were the authors' own. One of the reports was prepared by New Knowledge.",
+      "status": "documented",
+      "date": "2018-12-17",
+      "quote": "The reports were based in part on data provided by the Senate Select Committee on Intelligence",
+      "sources": [
+        { "url": "https://www.intelligence.senate.gov/2018/12/17/press-new-reports-shed-light-internet-research-agency-e2-80-99s-social-media-tactics/", "publisher": "U.S. Senate Select Committee on Intelligence", "title": "New Reports Shed Light on Internet Research Agency's Social Media Tactics", "date": "2018-12-17" }
+      ]
+    },
+    {
+      "claim": "Senator Richard Burr became chairman of the committee in January 2015 and, on May 14, 2020, announced he would step aside as chairman until the investigation of his stock sales was resolved, saying the committee's work was too important to risk hindering; Majority Leader McConnell said the change was effective at the end of the following day.",
+      "status": "words",
+      "date": "2020-05-14",
+      "quote": "step aside as Chairman of the Senate Intelligence Committee until this investigation is resolved",
+      "sources": [
+        { "url": "https://www.burr.senate.gov/2020/5/statement-from-senator-burr-on-senate-intel-committee-chairmanship", "publisher": "Office of Senator Richard Burr", "title": "Statement from Senator Burr on Senate Intel Committee Chairmanship", "date": "2020-05-14" },
+        { "url": "https://www.mcconnell.senate.gov/public/index.cfm/pressreleases?ID=35C06032-B288-41E1-B474-B031E8E40E45", "publisher": "Office of Senator Mitch McConnell", "title": "McConnell Statement on Senator Richard Burr", "date": "2020-05-14" },
+        { "url": "https://burr.senate.gov/press/releases/senator-richard-burr-names-chairman-of-the-us-senate-select-committee-on-intelligence", "publisher": "Office of Senator Richard Burr", "title": "Senator Richard Burr Named Chairman of the U.S. Senate Select Committee on Intelligence", "date": "2015-01" }
+      ]
+    },
+    {
+      "claim": "A closed-door Senate Intelligence Committee briefing on the coronavirus was held on January 24, 2020; Senate disclosure records show Burr and his wife made at least 30 stock sales between January 31 and February 13, 2020, worth between $600,000 and $1.7 million.",
+      "status": "reported",
+      "date": "2020-02-13",
+      "quote": "Senate disclosure records show Burr and his wife made at least 30 stock sales between January 31 and February 13, 2020, worth from $600,000 to $1.7 million.",
+      "sources": [
+        { "url": "https://www.cbsnews.com/news/doj-closes-insider-trading-investigation-into-richard-burr/", "publisher": "CBS News", "title": "Justice Department closes investigation into Senator Richard Burr over stock sales", "date": "2021-01-19" }
+      ]
+    }
+  ],
+  "connections": [
+    { "to": "new-knowledge", "toName": "New Knowledge", "toType": "company", "relation": "contracted with", "claim": "New Knowledge prepared one of the committee's December 2018 Internet Research Agency analyses using data the committee provided under its Technical Advisory Group arrangement.", "status": "documented", "date": "2018-12-17", "quote": "The reports were based in part on data provided by the Senate Select Committee on Intelligence", "sources": [ { "url": "https://www.intelligence.senate.gov/2018/12/17/press-new-reports-shed-light-internet-research-agency-e2-80-99s-social-media-tactics/", "publisher": "U.S. Senate Select Committee on Intelligence", "title": "New Reports Shed Light on Internet Research Agency's Social Media Tactics", "date": "2018-12-17" } ] },
+    { "to": "internet-research-agency", "toName": "Internet Research Agency", "toType": "company", "relation": "investigated", "claim": "The committee commissioned and released analyses of the Internet Research Agency's social-media tactics in December 2018.", "status": "documented", "date": "2018-12-17", "quote": "New Reports Shed Light on Internet Research Agency's Social Media Tactics", "sources": [ { "url": "https://www.intelligence.senate.gov/2018/12/17/press-new-reports-shed-light-internet-research-agency-e2-80-99s-social-media-tactics/", "publisher": "U.S. Senate Select Committee on Intelligence", "title": "New Reports Shed Light on Internet Research Agency's Social Media Tactics", "date": "2018-12-17" } ] },
+    { "to": "richard-burr", "toName": "Richard Burr", "toType": "person", "relation": "executive of", "reverse": true, "claim": "Richard Burr chaired the committee from January 2015 until he stepped aside on May 15, 2020 during the Justice Department's review of his stock sales.", "status": "words", "date": "2020-05-14", "quote": "step aside as Chairman of the Senate Intelligence Committee until this investigation is resolved", "sources": [ { "url": "https://www.burr.senate.gov/2020/5/statement-from-senator-burr-on-senate-intel-committee-chairmanship", "publisher": "Office of Senator Richard Burr", "title": "Statement from Senator Burr on Senate Intel Committee Chairmanship", "date": "2020-05-14" } ] }
+  ],
+  "openQuestions": [
+    "The committee's own account of the January 24, 2020 coronavirus briefing was not located; the date rests on press reporting."
+  ]
+}

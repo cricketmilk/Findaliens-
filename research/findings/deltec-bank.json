@@ -1,0 +1,90 @@
+{
+  "entity": "deltec-bank",
+  "name": "Deltec Bank",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Deltec Bank & Trust is a Bahamas-based bank chaired by Jean Chalopin that served as a banking partner to FTX and Alameda Research. Court filings in the FTX bankruptcy describe a $50 million loan to Deltec's parent whose ultimate source was Alameda Research, and a 2024 amended class-action complaint in the FTX multidistrict litigation in Florida alleges Deltec extended secret credit lines to Alameda; Deltec denies wrongdoing and says it had no prior knowledge of FTX misconduct.",
+    "sources": [
+      { "url": "https://tribune242.com/news/2023/mar/31/deltec-agrees-50m-ftx-loan-resolution", "publisher": "The Tribune (Bahamas)", "title": "Deltec agrees $50m FTX loan resolution", "date": "2023-03-31" },
+      { "url": "https://ewnews.com/?p=137626", "publisher": "Eyewitness News (Bahamas)", "title": "Deltec denounces 'meritless' allegations in new lawsuit, asserts it had no prior knowledge of FTX misconduct", "date": "2024" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Court papers filed in the Delaware bankruptcy court identified Alameda Research as the ultimate source of a $50 million loan to Deltec's parent, which Deltec sought court permission to repay.",
+      "status": "documented",
+      "date": "2023-03",
+      "quote": "identify the ultimate source of the $50m financing as Alameda Research",
+      "sources": [
+        { "url": "https://tribune242.com/news/2023/mar/31/deltec-agrees-50m-ftx-loan-resolution", "publisher": "The Tribune (Bahamas)", "title": "Deltec agrees $50m FTX loan resolution", "date": "2023-03-31" }
+      ]
+    },
+    {
+      "claim": "The $50 million loan was signed through Norton Hall, an Antigua entity, and the filings raised questions about whether Ryan Salame, former chief executive of FTX Digital Markets, had authority to enter into the transaction.",
+      "status": "documented",
+      "date": "2023-03",
+      "quote": "raise questions as to whether Ryan Salame, ex-chief executive of FTX Digital Markets, had the necessary authority to enter into the transaction",
+      "sources": [
+        { "url": "https://tribune242.com/news/2023/mar/31/deltec-agrees-50m-ftx-loan-resolution", "publisher": "The Tribune (Bahamas)", "title": "Deltec agrees $50m FTX loan resolution", "date": "2023-03-31" },
+        { "url": "https://www.forbes.com.au/news/investing/ftx-secretly-used-an-execs-company-for-loan-to-its-bahamian-bank/", "publisher": "Forbes Australia", "title": "FTX secretly used an exec's company for loan to its Bahamian bank", "date": "2023" }
+      ]
+    },
+    {
+      "claim": "A February 2024 amended complaint in the FTX multidistrict litigation in Florida alleged that Alameda Research artificially inflated the growth of Tether using a secret short-term line of credit from Deltec; Deltec and its chairman Jean Chalopin denied wrongdoing and argued the court lacked jurisdiction over them.",
+      "status": "reported",
+      "date": "2024-02",
+      "quote": "Alameda Research artificially inflated the growth of the cryptocurrency Tether using a secret short-term line of credit worth billions of dollars from the Bahamas-based Deltec Bank",
+      "sources": [
+        { "url": "https://fintelegram.com/deltec-bank-faces-accusations-of-secretly-funding-sam-bankman-fried-in-tether-purchase-scheme", "publisher": "FinTelegram", "title": "Deltec Bank faces accusations of secretly funding Sam Bankman-Fried in Tether purchase scheme", "date": "2024" },
+        { "url": "https://ewnews.com/?p=137626", "publisher": "Eyewitness News (Bahamas)", "title": "Deltec denounces 'meritless' allegations in new lawsuit, asserts it had no prior knowledge of FTX misconduct", "date": "2024" }
+      ]
+    },
+    {
+      "claim": "Deltec publicly described the allegations in the 2024 lawsuit as meritless and said it had no prior knowledge of FTX misconduct.",
+      "status": "words",
+      "date": "2024",
+      "sources": [
+        { "url": "https://ewnews.com/?p=137626", "publisher": "Eyewitness News (Bahamas)", "title": "Deltec denounces 'meritless' allegations in new lawsuit, asserts it had no prior knowledge of FTX misconduct", "date": "2024" }
+      ]
+    },
+    {
+      "claim": "Deltec's chairman Jean Chalopin also owns Moonstone Bank in Washington state; Bahamas liquidators said in a court filing that Moonstone held nearly $50 million in FTX funds across two accounts.",
+      "status": "documented",
+      "date": "2022-12",
+      "quote": "Moonstone held nearly US$50 million in FTX funds across two accounts",
+      "sources": [
+        { "url": "https://www.forbes.com.au/news/investing/ftx-secretly-used-an-execs-company-for-loan-to-its-bahamian-bank/", "publisher": "Forbes Australia", "title": "FTX secretly used an exec's company for loan to its Bahamian bank", "date": "2023" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "ftx",
+      "toName": "FTX",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Deltec was a Bahamas banking partner of FTX; bankruptcy filings describe a $50 million loan to Deltec's parent ultimately sourced from Alameda Research, which Deltec agreed to repay.",
+      "status": "documented",
+      "date": "2023-03",
+      "sources": [
+        { "url": "https://tribune242.com/news/2023/mar/31/deltec-agrees-50m-ftx-loan-resolution", "publisher": "The Tribune (Bahamas)", "title": "Deltec agrees $50m FTX loan resolution", "date": "2023-03-31" }
+      ]
+    },
+    {
+      "to": "tether",
+      "toName": "Tether",
+      "toType": "company",
+      "relation": "other",
+      "claim": "A 2024 class-action complaint alleged Deltec provided Alameda a secret credit line used to buy Tether; this is an allegation in a civil suit that Deltec denies, not a finding.",
+      "status": "reported",
+      "date": "2024-02",
+      "sources": [
+        { "url": "https://fintelegram.com/deltec-bank-faces-accusations-of-secretly-funding-sam-bankman-fried-in-tether-purchase-scheme", "publisher": "FinTelegram", "title": "Deltec Bank faces accusations of secretly funding Sam Bankman-Fried in Tether purchase scheme", "date": "2024" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site says FTX customer deposits were 'cleared through Deltec Bank'. The records found show Deltec as FTX's banker and a $50m Alameda-sourced loan to Deltec's parent; the clearing mechanics are alleged in civil litigation, not established. Partly supported, partly unsupported.",
+    "No Senate Finance Committee material on Deltec was found; the owner may wish to check the FTX bankruptcy docket (D. Del.) and the Moore v. FTX MDL (S.D. Fla.) directly."
+  ]
+}

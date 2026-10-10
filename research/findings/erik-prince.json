@@ -1,0 +1,108 @@
+{
+  "entity": "erik-prince",
+  "name": "Erik Prince",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Erik Prince is the founder of the private security company Blackwater. The Mueller report describes him as a Trump campaign supporter and friend of Stephen Bannon who met Kirill Dmitriev, head of Russia's sovereign wealth fund, in the Seychelles in January 2017 after being introduced through George Nader. In April 2019 House Intelligence chairman Adam Schiff sent the Justice Department a criminal referral citing differences between Prince's committee testimony and the report.",
+    "sources": [
+      {
+        "url": "https://justice.gov/archives/sco/file/1373816/dl?inline=",
+        "publisher": "U.S. Department of Justice",
+        "title": "Report on the Investigation into Russian Interference in the 2016 Presidential Election (Special Counsel Robert S. Mueller, III)",
+        "date": "2019-03"
+      },
+      {
+        "url": "https://www.cnn.com/2019/04/19/politics/prince-mueller-report",
+        "publisher": "CNN",
+        "title": "Fact check: Erik Prince's public claims vs. the Mueller report",
+        "date": "2019-04-19"
+      },
+      {
+        "url": "https://edition.cnn.com/2019/04/30/politics/criminal-referral-erik-prince-adam-schiff",
+        "publisher": "CNN",
+        "title": "Adam Schiff sends criminal referral to Justice Department for Erik Prince",
+        "date": "2019-04-30"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The Mueller report states that a business associate steered Kirill Dmitriev, CEO of Russia's sovereign wealth fund, to Erik Prince, whom it describes as a Trump campaign supporter and friend of Trump adviser Stephen K. Bannon, and that Dmitriev met Prince in the Seychelles in January 2017 after being assured by George Nader that Prince was a trusted associate of the transition team.",
+      "status": "documented",
+      "date": "2017-01",
+      "quote": "A business associate steered Dmitriev to Erik Prince, a Trump campaign supporter and friend of Trump adviser Stephen K. Bannon",
+      "sources": [
+        {
+          "url": "https://justice.gov/archives/sco/file/1373816/dl?inline=",
+          "publisher": "U.S. Department of Justice",
+          "title": "Report on the Investigation into Russian Interference in the 2016 Presidential Election (Special Counsel Robert S. Mueller, III)",
+          "date": "2019-03"
+        },
+        {
+          "url": "https://www.cnn.com/2019/04/19/politics/prince-mueller-report",
+          "publisher": "CNN",
+          "title": "Fact check: Erik Prince's public claims vs. the Mueller report",
+          "date": "2019-04-19"
+        }
+      ]
+    },
+    {
+      "claim": "CNN reported that, according to the Mueller report, Prince met UAE emissary George Nader several times in New York before the Seychelles trip and discussed Dmitriev, whereas Prince had publicly described the encounter as casual.",
+      "status": "reported",
+      "date": "2019-04-19",
+      "quote": "discussed Dmitriev",
+      "sources": [
+        {
+          "url": "https://www.cnn.com/2019/04/19/politics/prince-mueller-report",
+          "publisher": "CNN",
+          "title": "Fact check: Erik Prince's public claims vs. the Mueller report",
+          "date": "2019-04-19"
+        },
+        {
+          "url": "https://www.washingtonpost.com/world/national-security/mueller-gathers-evidence-that-2016-seychelles-meeting-was-effort-to-establish-back-channel-to-kremlin/2018/03/07/b6a5fb8c-224b-11e8-94da-ebf9d112159c_story.html",
+          "publisher": "The Washington Post",
+          "title": "Mueller gathers evidence that 2017 Seychelles meeting was effort to establish back channel to Kremlin",
+          "date": "2018-03-07"
+        }
+      ]
+    },
+    {
+      "claim": "On April 30, 2019 House Intelligence Committee chairman Adam Schiff sent a criminal referral for Prince to the Justice Department, citing six instances from Prince's testimony that he said were contradicted by the Mueller report. A referral is not a charge.",
+      "status": "reported",
+      "date": "2019-04-30",
+      "quote": "six instances from Prince's testimony that he said were contradicted by the Mueller report",
+      "sources": [
+        {
+          "url": "https://edition.cnn.com/2019/04/30/politics/criminal-referral-erik-prince-adam-schiff",
+          "publisher": "CNN",
+          "title": "Adam Schiff sends criminal referral to Justice Department for Erik Prince",
+          "date": "2019-04-30"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "steve-bannon",
+      "toName": "Steve Bannon",
+      "toType": "person",
+      "relation": "other",
+      "claim": "The Mueller report describes Prince as a friend of Trump adviser Stephen K. Bannon.",
+      "status": "documented",
+      "date": "2019-03",
+      "quote": "a Trump campaign supporter and friend of Trump adviser Stephen K. Bannon",
+      "sources": [
+        {
+          "url": "https://justice.gov/archives/sco/file/1373816/dl?inline=",
+          "publisher": "U.S. Department of Justice",
+          "title": "Report on the Investigation into Russian Interference in the 2016 Presidential Election (Special Counsel Robert S. Mueller, III)",
+          "date": "2019-03"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Prince's reported link to Emerdata through Johnson Chun Shun Ko (Emerdata director from January 2018 and described as Prince's business partner and Frontier Services Group deputy chairman) was found only in blog and wiki sources; confirm from Companies House and FSG's Hong Kong filings before recording.",
+    "Prince's chairmanship of Frontier Services Group (reported to have ended April 2021) was not confirmed from a primary or major-outlet source; no frontier-services-group file was created."
+  ]
+}

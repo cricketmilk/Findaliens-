@@ -1,0 +1,123 @@
+{
+  "entity": "national-coal-association",
+  "name": "National Coal Association",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The National Coal Association was the US coal industry's Washington trade association, formed in 1917. In 1991 it co-created the Information Council for the Environment advertising campaign with the Western Fuels Association and the Edison Electric Institute. In 1995 it merged with the American Mining Congress to form the National Mining Association.",
+    "sources": [
+      {
+        "url": "https://www.desmog.com/information-council-environment",
+        "publisher": "DeSmog",
+        "title": "Information Council for the Environment (ICE)"
+      },
+      {
+        "url": "https://onemine.org/documents/interview-with-richard-l-lawson-president-of-the-national-mining-association",
+        "publisher": "Society for Mining, Metallurgy & Exploration (OneMine)",
+        "title": "Interview With Richard L. Lawson, President of the National Mining Association",
+        "date": "1995"
+      },
+      {
+        "url": "https://www.ebsco.com/research-starters/mining-and-mineral-resources/national-mining-association-nma",
+        "publisher": "EBSCO Research Starters",
+        "title": "National Mining Association (NMA)"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The National Coal Association was one of the three organisations that created the Information Council for the Environment in 1991.",
+      "status": "documented",
+      "date": "1991",
+      "quote": "created by the National Coal Association, the Western Fuels Association, and Edison Electrical Institute",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/information-council-environment",
+          "publisher": "DeSmog",
+          "title": "Information Council for the Environment (ICE)"
+        },
+        {
+          "url": "https://www.ebsco.com/research-starters/science/information-council-environment-ice",
+          "publisher": "EBSCO Research Starters",
+          "title": "Information Council on the Environment (ICE)"
+        }
+      ]
+    },
+    {
+      "claim": "The National Coal Association, formed in 1917, merged with the American Mining Congress (founded 1897) to form the National Mining Association; NMA president Richard Lawson said in 1995 that the merger negotiations were consummated in February of that year.",
+      "status": "documented",
+      "date": "1995-02",
+      "quote": "negotiations toward a merger began after that and were consummated in February of this year",
+      "sources": [
+        {
+          "url": "https://onemine.org/documents/interview-with-richard-l-lawson-president-of-the-national-mining-association",
+          "publisher": "Society for Mining, Metallurgy & Exploration (OneMine)",
+          "title": "Interview With Richard L. Lawson, President of the National Mining Association",
+          "date": "1995"
+        },
+        {
+          "url": "https://www.ebsco.com/research-starters/mining-and-mineral-resources/national-mining-association-nma",
+          "publisher": "EBSCO Research Starters",
+          "title": "National Mining Association (NMA)"
+        }
+      ]
+    },
+    {
+      "claim": "Fred Palmer of the Western Fuels Association later sat on the board of the successor National Mining Association.",
+      "status": "reported",
+      "date": "1990s",
+      "quote": "represented WFA on the board of directors of the National Mining Association",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/fred-palmer",
+          "publisher": "DeSmog",
+          "title": "Fred Palmer"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "information-council-on-the-environment",
+      "toName": "Information Council on the Environment",
+      "toType": "campaign",
+      "relation": "founded",
+      "claim": "The National Coal Association co-created ICE in 1991.",
+      "status": "documented",
+      "date": "1991",
+      "quote": "created by the National Coal Association, the Western Fuels Association, and Edison Electrical Institute",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/information-council-environment",
+          "publisher": "DeSmog",
+          "title": "Information Council for the Environment (ICE)"
+        }
+      ]
+    },
+    {
+      "to": "western-fuels-association",
+      "toName": "Western Fuels Association",
+      "toType": "trade group",
+      "relation": "partnered with",
+      "claim": "The National Coal Association and the Western Fuels Association were co-founders of the 1991 ICE campaign.",
+      "status": "documented",
+      "date": "1991",
+      "quote": "created by the National Coal Association, the Western Fuels Association, and Edison Electrical Institute",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/information-council-environment",
+          "publisher": "DeSmog",
+          "title": "Information Council for the Environment (ICE)"
+        },
+        {
+          "url": "https://www.ebsco.com/research-starters/science/information-council-environment-ice",
+          "publisher": "EBSCO Research Starters",
+          "title": "Information Council on the Environment (ICE)"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (ICE co-founder): supported.",
+    "Thin record: the association no longer exists; its own documents were not found. The 1917 founding date comes from a secondary source."
+  ]
+}

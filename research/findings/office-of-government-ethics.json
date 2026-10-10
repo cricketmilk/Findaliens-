@@ -1,0 +1,54 @@
+{
+  "entity": "office-of-government-ethics",
+  "name": "Office of Government Ethics",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "The U.S. Office of Government Ethics (OGE) administers the executive-branch ethics programme, including the public financial disclosure system created by the Ethics in Government Act of 1978. Its OGE Form 278e collects financial information from senior executive-branch officials and presidential nominees for conflict-of-interest review and public disclosure, under 5 U.S.C. 13104 and OGE's regulations at 5 CFR part 2634.",
+    "sources": [
+      { "url": "https://www.govinfo.gov/content/pkg/FR-2018-10-01/pdf/2018-21270.pdf", "publisher": "Federal Register (via GovInfo)", "title": "Office of Government Ethics: Agency Information Collection Activities; OGE Form 278e", "date": "2018-10-01" },
+      { "url": "https://www.obamalibrary.gov/digital-research-room/finding-aids/executive-branch-personnel-public-financial-disclosure-reports", "publisher": "Barack Obama Presidential Library", "title": "Executive Branch Personnel Public Financial Disclosure Reports (OGE Form 278e)", "date": "2015" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "OGE's Form 278e collects information from certain officers and high-level executive-branch employees for conflict-of-interest review and public disclosure, including individuals nominated by the President for Senate-confirmed positions.",
+      "status": "documented",
+      "date": "2018",
+      "quote": "certain officers and high-level employees in the executive branch for conflicts of interest review and public disclosure",
+      "sources": [
+        { "url": "https://www.govinfo.gov/content/pkg/FR-2018-10-01/pdf/2018-21270.pdf", "publisher": "Federal Register (via GovInfo)", "title": "Office of Government Ethics: Agency Information Collection Activities; OGE Form 278e", "date": "2018-10-01" }
+      ]
+    },
+    {
+      "claim": "The public financial disclosure collection is authorised by 5 U.S.C. 13104 and implemented by OGE's regulations at 5 CFR part 2634.",
+      "status": "documented",
+      "date": "2024",
+      "sources": [
+        { "url": "https://public-inspection.federalregister.gov/2024-03814.pdf", "publisher": "Federal Register", "title": "Office of Government Ethics information collection notice, OGE Form 278e", "date": "2024" }
+      ]
+    },
+    {
+      "claim": "Senior U.S. government officials are required to make detailed public financial disclosures under the Ethics in Government Act; the reports prepared in 2015 for Obama administration officials are held by the Obama Presidential Library.",
+      "status": "documented",
+      "date": "2015",
+      "quote": "senior United States Government officials must follow detailed requirements regarding public financial disclosures",
+      "sources": [
+        { "url": "https://www.obamalibrary.gov/digital-research-room/finding-aids/executive-branch-personnel-public-financial-disclosure-reports", "publisher": "Barack Obama Presidential Library", "title": "Executive Branch Personnel Public Financial Disclosure Reports (OGE Form 278e)", "date": "2015" }
+      ]
+    },
+    {
+      "claim": "Beginning in 2016 executive-branch public filers were required to use only the OGE Form 278e, which replaced the older OGE Form 278, with most filers submitting through an electronic filing system.",
+      "status": "documented",
+      "date": "2016",
+      "quote": "Beginning in 2016, executive branch public filers will use only the OGE Form 278e.",
+      "sources": [
+        { "url": "https://www.fedweek.com/issue-briefs/revised-policies-on-disclosure-forms-described/", "publisher": "FedWeek", "title": "Revised Policies on Disclosure Forms Described", "date": "2016" }
+      ]
+    }
+  ],
+  "connections": [],
+  "openQuestions": [
+    "The site's Palantir dossier mentions OGE alongside Peter Thiel, JD Vance and Stephen Miller; no OGE record specific to those individuals was located in this session. The owner may wish to search OGE's public disclosure portal for the relevant 278e filings.",
+    "OGE's own mission statement page on oge.gov was not returned by the search and should be cited directly."
+  ]
+}

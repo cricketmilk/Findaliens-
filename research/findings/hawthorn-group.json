@@ -1,0 +1,79 @@
+{
+  "entity": "hawthorn-group",
+  "name": "Hawthorn Group",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "The Hawthorn Group is an Alexandria, Virginia communications firm that in 2009 was engaged by the American Coalition for Clean Coal Electricity (ACCCE) and in turn hired the grassroots-lobbying firm Bonner & Associates to generate constituent letters against the Waxman-Markey climate bill. Thirteen of the letters Bonner produced were forgeries purporting to come from groups such as the NAACP and veterans' organisations; the House Select Committee on Energy Independence and Global Warming examined the episode in October 2009.",
+    "sources": [
+      { "url": "https://practice.motherjones.com/politics/2009/10/forged-letters-controversy-takes-center-stage/", "publisher": "Mother Jones", "title": "The Latest in the Bonner Forged Letters Controversy", "date": "2009-10" },
+      { "url": "https://fullsite.motherjones.com/?p=28698", "publisher": "Mother Jones", "title": "Inside Bonner's Climate Letter Forgeries", "date": "2009-10" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Documents provided to the House Select Committee show Bonner & Associates was hired on June 10, 2009 by the Hawthorn Group, which had itself been engaged by the American Coalition for Clean Coal Electricity.",
+      "status": "documented",
+      "date": "2009-06-10",
+      "quote": "Bonner was officially hired on June 10 by the Hawthorn Group, a communications firm which had in turn been enlisted by the American Coalition for Clean Coal Electricity (ACCCE), a coal industry lobby.",
+      "sources": [
+        { "url": "https://fullsite.motherjones.com/?p=28698", "publisher": "Mother Jones", "title": "Inside Bonner's Climate Letter Forgeries", "date": "2009-10" }
+      ]
+    },
+    {
+      "claim": "The arrangement between Hawthorn and Bonner was a verbal contract; according to material Bonner gave the committee, nothing was committed to paper.",
+      "status": "documented",
+      "date": "2009-06",
+      "quote": "the contract was verbal, according to material Bonner provided to the House Select Committee for Energy Independence and Global Warming. Nothing was committed to paper.",
+      "sources": [
+        { "url": "https://fullsite.motherjones.com/?p=28698", "publisher": "Mother Jones", "title": "Inside Bonner's Climate Letter Forgeries", "date": "2009-10" }
+      ]
+    },
+    {
+      "claim": "Bonner generated 58 known letters to House members before the June 26, 2009 vote on Waxman-Markey; thirteen, received by three lawmakers, were confirmed forgeries.",
+      "status": "documented",
+      "date": "2009-06",
+      "quote": "Thirteen were confirmed forgeries, received by three lawmakers.",
+      "sources": [
+        { "url": "https://fullsite.motherjones.com/?p=28698", "publisher": "Mother Jones", "title": "Inside Bonner's Climate Letter Forgeries", "date": "2009-10" }
+      ]
+    },
+    {
+      "claim": "Mother Jones reported that Bonner, Hawthorn and ACCCE knew of the forgeries at least 48 hours before the House vote, and that affected members were not contacted until July 13, 2009; ACCCE and Hawthorn said they expected Bonner to inform the representatives.",
+      "status": "reported",
+      "date": "2009-07-13",
+      "sources": [
+        { "url": "https://practice.motherjones.com/politics/2009/10/forged-letters-controversy-takes-center-stage/", "publisher": "Mother Jones", "title": "The Latest in the Bonner Forged Letters Controversy", "date": "2009-10" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "american-coalition-for-clean-coal-electricity",
+      "toName": "American Coalition for Clean Coal Electricity",
+      "toType": "organization",
+      "relation": "contracted with",
+      "reverse": true,
+      "claim": "ACCCE engaged the Hawthorn Group for its 2009 campaign against the Waxman-Markey bill.",
+      "status": "documented",
+      "date": "2009-06",
+      "sources": [
+        { "url": "https://fullsite.motherjones.com/?p=28698", "publisher": "Mother Jones", "title": "Inside Bonner's Climate Letter Forgeries", "date": "2009-10" }
+      ]
+    },
+    {
+      "to": "bonner-and-associates",
+      "toName": "Bonner & Associates",
+      "toType": "company",
+      "relation": "contracted with",
+      "claim": "Hawthorn hired Bonner & Associates on June 10, 2009 under a verbal contract to generate constituent letters to Congress.",
+      "status": "documented",
+      "date": "2009-06-10",
+      "sources": [
+        { "url": "https://fullsite.motherjones.com/?p=28698", "publisher": "Mother Jones", "title": "Inside Bonner's Climate Letter Forgeries", "date": "2009-10" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site's description of Hawthorn as the 'clean coal lobby's contractor' whose subcontractor sent forged letters is supported. The House Select Committee hearing record (October 29, 2009) itself was not reachable; all facts rest on Mother Jones's reporting of committee documents."
+  ]
+}

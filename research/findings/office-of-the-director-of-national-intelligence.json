@@ -1,0 +1,60 @@
+{
+  "entity": "office-of-the-director-of-national-intelligence",
+  "name": "Office of the Director of National Intelligence",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The Office of the Director of National Intelligence was established by the Intelligence Reform and Terrorism Prevention Act of 2004 (Public Law 108-458), signed December 17, 2004, following the 9/11 Commission's recommendation of a national intelligence director; its first director, John Negroponte, was sworn in on April 21, 2005 and the office began operations on April 22, 2005. The DNI heads the 18-member Intelligence Community, serves as principal intelligence adviser to the President, the National Security Council and the Homeland Security Council, and oversees the National Intelligence Program budget. On this site it appears through its 2025 Annual Threat Assessment, which stated that the intelligence community continued to assess that Iran was not building a nuclear weapon.",
+    "sources": [
+      { "url": "https://www.dni.gov/index.php/who-we-are", "publisher": "Office of the Director of National Intelligence", "title": "Who We Are" },
+      { "url": "https://archive.dni.gov/index.php/who-we-are/history", "publisher": "Office of the Director of National Intelligence", "title": "History" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "ODNI was established with enactment of the Intelligence Reform and Terrorism Prevention Act of 2004 on December 17, 2004 (Public Law 108-458); in February 2005 the President nominated John Negroponte as the first DNI and Lt. Gen. Michael Hayden as principal deputy, they took their oaths on April 21, 2005, and ODNI began operations on April 22, 2005.",
+      "status": "documented",
+      "date": "2005-04-22",
+      "quote": "the ODNI was established with enactment of the Intelligence Reform and Terrorism Prevention Act of 2004 on December 17, 2004, Public Law 108-458",
+      "sources": [
+        { "url": "https://archive.dni.gov/index.php/who-we-are/history", "publisher": "Office of the Director of National Intelligence", "title": "History" },
+        { "url": "https://archive.dni.gov/index.php/newsroom/news-articles/news-articles-2022/3606-celebrating-17-years-of-odni", "publisher": "Office of the Director of National Intelligence", "title": "Celebrating 17 Years of ODNI", "date": "2022" }
+      ]
+    },
+    {
+      "claim": "The DNI serves as head of the Intelligence Community, a coalition of 18 agencies and organizations, and as principal advisor to the President, the National Security Council and the Homeland Security Council for intelligence matters related to national security; the DNI is appointed by the President with Senate consent and oversees the National Intelligence Program budget.",
+      "status": "documented",
+      "date": "2026",
+      "quote": "principal advisor to the President, the National Security Council, and the Homeland Security Council for intelligence matters related to national security",
+      "sources": [
+        { "url": "https://www.dni.gov/index.php/who-we-are", "publisher": "Office of the Director of National Intelligence", "title": "Who We Are" },
+        { "url": "https://www.dni.gov/index.php/who-we-are/leadership/director-of-national-intelligence", "publisher": "Office of the Director of National Intelligence", "title": "Director of National Intelligence (Leadership)" }
+      ]
+    },
+    {
+      "claim": "ODNI's 2025 Annual Threat Assessment (March 2025) stated that the intelligence community continued to assess that Iran was not building a nuclear weapon and that the Supreme Leader had not authorized the nuclear weapons program he suspended in 2003; DNI Tulsi Gabbard delivered that assessment to the House Permanent Select Committee on Intelligence on March 26, 2025.",
+      "status": "documented",
+      "date": "2025-03-26",
+      "quote": "DNI Gabbard Opening Statement as Delivered to the HPSCI on the 2025 Annual Threat Assessment",
+      "sources": [
+        { "url": "https://archive.dni.gov/files/ODNI/documents/assessments/ATA-2025-Unclassified-Report.pdf", "publisher": "Office of the Director of National Intelligence", "title": "Annual Threat Assessment of the U.S. Intelligence Community, 2025", "date": "2025-03" },
+        { "url": "https://www.dni.gov/index.php/newsroom/congressional-testimonies/congressional-testimonies-2025/4061-ata-hpsci-opening-statement-as-delivered", "publisher": "Office of the Director of National Intelligence", "title": "DNI Gabbard Opening Statement as Delivered to the HPSCI on the 2025 Annual Threat Assessment", "date": "2025-03-26" }
+      ]
+    },
+    {
+      "claim": "Jay Clayton was sworn in as the ninth Director of National Intelligence on August 3, 2026, according to ODNI's leadership page.",
+      "status": "documented",
+      "date": "2026-08-03",
+      "quote": "The current DNI, Jay Clayton, was sworn in as the ninth Director of National Intelligence on August 3, 2026.",
+      "sources": [
+        { "url": "https://www.dni.gov/index.php/who-we-are/leadership/director-of-national-intelligence", "publisher": "Office of the Director of National Intelligence", "title": "Director of National Intelligence (Leadership)" }
+      ]
+    }
+  ],
+  "connections": [
+    { "to": "iran", "toName": "Iran", "toType": "government", "relation": "other", "claim": "ODNI's 2025 Annual Threat Assessment stated that the intelligence community continued to assess that Iran was not building a nuclear weapon.", "status": "documented", "date": "2025-03", "quote": "Annual Threat Assessment of the U.S. Intelligence Community, 2025", "sources": [ { "url": "https://archive.dni.gov/files/ODNI/documents/assessments/ATA-2025-Unclassified-Report.pdf", "publisher": "Office of the Director of National Intelligence", "title": "Annual Threat Assessment of the U.S. Intelligence Community, 2025", "date": "2025-03" } ] },
+    { "to": "nsa", "toName": "NSA", "toType": "government", "relation": "other", "claim": "The NSA is one of the 18 Intelligence Community elements that the DNI heads; under Section 702 of FISA the Attorney General and DNI jointly certify targeting to the FISA Court.", "status": "documented", "date": "2013-08-09", "quote": "the Attorney General and Director of National Intelligence certify to the FISA Court", "sources": [ { "url": "https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/1618729/the-national-security-agency-missions-authorities-oversight-and-partnerships/", "publisher": "National Security Agency", "title": "The National Security Agency: Missions, Authorities, Oversight and Partnerships", "date": "2013-08-09" } ] }
+  ],
+  "openQuestions": [
+    "The claim that Jay Clayton became DNI on August 3, 2026 comes from a search summary of the ODNI leadership page and should be confirmed by opening the page."
+  ]
+}

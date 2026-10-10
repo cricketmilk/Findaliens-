@@ -1,0 +1,165 @@
+{
+  "entity": "david-roberson",
+  "name": "David Roberson",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "David Lynn Roberson was Drummond Company's vice president of government and regulatory affairs. In July 2018 a federal jury in Birmingham convicted him and Balch & Bingham partner Joel Gilbert of bribery, honest services wire fraud, conspiracy and money laundering for paying state representative Oliver Robinson through a consulting contract to oppose EPA Superfund action in north Birmingham. He was sentenced to 30 months in prison; the Eleventh Circuit affirmed in May 2020. He has maintained his innocence.",
+    "sources": [
+      {
+        "url": "https://www.justice.gov/usao-ndal/pr/federal-jury-convicts-lawyer-and-coal-company-executive-bribing-state-legislator",
+        "publisher": "U.S. Attorney's Office, Northern District of Alabama",
+        "title": "Federal Jury Convicts Lawyer and Coal Company Executive for Bribing State Legislator",
+        "date": "2018-07"
+      },
+      {
+        "url": "https://www.justice.gov/usao-ndal/pr/coal-company-executive-sentenced-30-months-prison-bribing-state-legislator",
+        "publisher": "U.S. Attorney's Office, Northern District of Alabama",
+        "title": "Coal Company Executive Sentenced to 30 Months in Prison for Bribing State Legislator",
+        "date": "2018-10"
+      },
+      {
+        "url": "https://www.justice.gov/usao-ndal/pr/appellate-court-affirms-convictions-lawyer-and-coal-company-executive-bribing-state",
+        "publisher": "U.S. Attorney's Office, Northern District of Alabama",
+        "title": "Appellate Court Affirms Convictions of Lawyer and Coal Company Executive for Bribing State Legislator",
+        "date": "2020-05"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "A federal jury convicted Roberson of bribery, honest services wire fraud, conspiracy and money laundering in 2018.",
+      "status": "court",
+      "date": "2018-07",
+      "quote": "former Drummond Company Vice President of Government and Regulatory Affairs David Lynn Roberson guilty of bribery, honest services wire fraud, conspiracy, and money laundering",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndal/pr/federal-jury-convicts-lawyer-and-coal-company-executive-bribing-state-legislator",
+          "publisher": "U.S. Attorney's Office, Northern District of Alabama",
+          "title": "Federal Jury Convicts Lawyer and Coal Company Executive for Bribing State Legislator",
+          "date": "2018-07"
+        }
+      ]
+    },
+    {
+      "claim": "Roberson was sentenced to 30 months in prison.",
+      "status": "court",
+      "date": "2018-10",
+      "quote": "Roberson received 30 months in prison.",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndal/pr/coal-company-executive-sentenced-30-months-prison-bribing-state-legislator",
+          "publisher": "U.S. Attorney's Office, Northern District of Alabama",
+          "title": "Coal Company Executive Sentenced to 30 Months in Prison for Bribing State Legislator",
+          "date": "2018-10"
+        }
+      ]
+    },
+    {
+      "claim": "The Eleventh Circuit affirmed Roberson's conviction on May 27, 2020.",
+      "status": "court",
+      "date": "2020-05-27",
+      "quote": "The 11th Circuit disagreed in its May 27 decision.",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndal/pr/appellate-court-affirms-convictions-lawyer-and-coal-company-executive-bribing-state",
+          "publisher": "U.S. Attorney's Office, Northern District of Alabama",
+          "title": "Appellate Court Affirms Convictions of Lawyer and Coal Company Executive for Bribing State Legislator",
+          "date": "2020-05"
+        },
+        {
+          "url": "https://abajournal.com/news/article/appeals-court-confirms-bribery-convictions-of-birmingham-lawyer-coal-company-executive",
+          "publisher": "ABA Journal",
+          "title": "Appeals court confirms bribery convictions of Birmingham lawyer, coal company executive",
+          "date": "2020-05"
+        }
+      ]
+    },
+    {
+      "claim": "Roberson and Gilbert have maintained their innocence.",
+      "status": "reported",
+      "date": "2020",
+      "quote": "Roberson and Gilbert have maintained their innocence.",
+      "sources": [
+        {
+          "url": "https://www.sierraclub.org/sierra/birmingham-superfund-scandal-leads-prison-time-for-coal-lobbyist-lawyer-drummond",
+          "publisher": "Sierra Club (Sierra magazine)",
+          "title": "Superfund Scandal Leads to Prison Time for Coal Lobbyist, Lawyer"
+        }
+      ]
+    },
+    {
+      "claim": "A federal grand jury indicted Roberson, Gilbert and a second Balch lawyer in September 2017 for conspiracy to bribe a legislator.",
+      "status": "documented",
+      "date": "2017-09",
+      "quote": "Federal Grand Jury Indicts Two Lawyers and Coal Company VP for Conspiracy to Bribe Legislator",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndal/pr/federal-grand-jury-indicts-two-lawyers-and-coal-company-vp-conspiracy-bribe-legislator",
+          "publisher": "U.S. Attorney's Office, Northern District of Alabama",
+          "title": "Federal Grand Jury Indicts Two Lawyers and Coal Company VP for Conspiracy to Bribe Legislator",
+          "date": "2017-09"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "drummond-company",
+      "toName": "Drummond Company",
+      "toType": "company",
+      "relation": "executive of",
+      "claim": "Roberson was Drummond Company's vice president of government and regulatory affairs.",
+      "status": "documented",
+      "date": "2018",
+      "quote": "former Drummond Company Vice President of Government and Regulatory Affairs David Lynn Roberson",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndal/pr/federal-jury-convicts-lawyer-and-coal-company-executive-bribing-state-legislator",
+          "publisher": "U.S. Attorney's Office, Northern District of Alabama",
+          "title": "Federal Jury Convicts Lawyer and Coal Company Executive for Bribing State Legislator",
+          "date": "2018-07"
+        }
+      ]
+    },
+    {
+      "to": "joel-gilbert",
+      "toName": "Joel Gilbert",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Roberson and Balch & Bingham partner Joel Gilbert were tried and convicted together in 2018 for bribing Oliver Robinson.",
+      "status": "court",
+      "date": "2018-07",
+      "quote": "A jury found former Balch & Bingham partner Joel Iverson Gilbert and former Drummond Company Vice President of Government and Regulatory Affairs David Lynn Roberson guilty",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndal/pr/federal-jury-convicts-lawyer-and-coal-company-executive-bribing-state-legislator",
+          "publisher": "U.S. Attorney's Office, Northern District of Alabama",
+          "title": "Federal Jury Convicts Lawyer and Coal Company Executive for Bribing State Legislator",
+          "date": "2018-07"
+        }
+      ]
+    },
+    {
+      "to": "us-department-of-justice",
+      "toName": "US Department of Justice",
+      "toType": "agency",
+      "relation": "sued by",
+      "claim": "Roberson was prosecuted by the US Attorney's Office for the Northern District of Alabama and convicted in 2018.",
+      "status": "court",
+      "date": "2018",
+      "quote": "Coal Company Executive Sentenced to 30 Months in Prison for Bribing State Legislator",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/usao-ndal/pr/coal-company-executive-sentenced-30-months-prison-bribing-state-legislator",
+          "publisher": "U.S. Attorney's Office, Northern District of Alabama",
+          "title": "Coal Company Executive Sentenced to 30 Months in Prison for Bribing State Legislator",
+          "date": "2018-10"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim: supported (conviction, sentence and affirmance on appeal).",
+    "Roberson later sued Drummond and Balch over his legal fees, per press reports; not sourced in this file."
+  ]
+}

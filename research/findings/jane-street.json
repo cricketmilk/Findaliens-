@@ -1,0 +1,261 @@
+{
+  "entity": "jane-street",
+  "name": "Jane Street",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Jane Street is a proprietary trading firm. After the London Metal Exchange cancelled nickel trades executed after midnight on March 8, 2022, Jane Street Global Trading filed a judicial review claim in the English High Court seeking $15.3 million, alongside Elliott Associates' $456 million claim; the Divisional Court dismissed both on November 29, 2023, the Court of Appeal dismissed Elliott's appeal in October 2024, and the claims were discontinued after the Supreme Court refused permission to appeal. FTX founder Sam Bankman-Fried testified that he worked as a trader on Jane Street's international desk for over three years after graduating from MIT in 2014 before founding Alameda Research in 2017. In July 2025 India's securities regulator SEBI issued an interim order barring Jane Street from Indian markets and impounding about 48.4 billion rupees over alleged Bank Nifty index manipulation; Jane Street disputed the findings and was allowed to resume trading after depositing the funds.",
+    "sources": [
+      {
+        "url": "https://www.lme.com/en/lme-nickel-litigation",
+        "publisher": "London Metal Exchange",
+        "title": "LME Nickel litigation"
+      },
+      {
+        "url": "https://www.cnbc.com/2022/06/07/london-metal-exchange-hit-with-two-us-lawsuits-over-nickel-trading-chaos.html",
+        "publisher": "CNBC",
+        "title": "London Metal Exchange hit with two U.S. lawsuits over nickel trading chaos",
+        "date": "2022-06-07"
+      },
+      {
+        "url": "https://www.cnbc.com/amp/2023/10/27/ftxs-sam-bankman-fried-testifies-before-the-jury-in-fraud-trial.html",
+        "publisher": "CNBC",
+        "title": "Here's what Sam Bankman Fried said in his first full day on the stand in his $8 billion fraud trial",
+        "date": "2023-10-27"
+      },
+      {
+        "url": "https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1751584518593.pdf",
+        "publisher": "Securities and Exchange Board of India",
+        "title": "Interim Order in the matter of Index manipulation by Jane Street Group",
+        "date": "2025-07-03"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Jane Street Global Trading filed a judicial review claim in the English High Court against the London Metal Exchange seeking $15.3 million over nickel trades cancelled on March 8, 2022, following Elliott Associates' $456 million claim; HKEX, the LME's owner, confirmed the filings.",
+      "status": "documented",
+      "date": "2022-06-07",
+      "quote": "A second U.S. firm has sued the London Metal Exchange for $15.3 million over canceled nickel trades in March.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2022/06/07/london-metal-exchange-hit-with-two-us-lawsuits-over-nickel-trading-chaos.html",
+          "publisher": "CNBC",
+          "title": "London Metal Exchange hit with two U.S. lawsuits over nickel trading chaos",
+          "date": "2022-06-07"
+        },
+        {
+          "url": "https://www.cnbc.com/2022/06/06/elliott-associates-sues-lme-for-456-mln-over-nickel-trading-halt-hkex.html",
+          "publisher": "CNBC",
+          "title": "Elliott Associates sues LME for $456 mln over nickel trading halt: HKEX",
+          "date": "2022-06-06"
+        }
+      ]
+    },
+    {
+      "claim": "On November 29, 2023 the Divisional Court ruled for the LME and LME Clear on all grounds, holding that the actions taken in the nickel market in March 2022 were lawful, rational and in accordance with the LME's rules, and dismissed the challenges by both Elliott and Jane Street.",
+      "status": "court",
+      "date": "2023-11-29",
+      "quote": "The Divisional court ruled in favour of the LME and LME Clear on all grounds, confirming that the actions taken in the nickel market in 2022 were lawful, rational and in accordance with the LME's rules.",
+      "sources": [
+        {
+          "url": "https://www.lme.com/en/lme-nickel-litigation",
+          "publisher": "London Metal Exchange",
+          "title": "LME Nickel litigation"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2023-11-29/lme-wins-nickel-crisis-case-as-uk-rules-against-elliott",
+          "publisher": "Bloomberg",
+          "title": "LME Wins Nickel Crisis Case as UK Rules Against Elliott",
+          "date": "2023-11-29"
+        }
+      ]
+    },
+    {
+      "claim": "The Court of Appeal dismissed Elliott's appeal on October 7, 2024; the LME states that the Supreme Court refused Elliott permission to appeal on January 29, 2025 and that all three claimant groups then discontinued their claims.",
+      "status": "court",
+      "date": "2025-01-29",
+      "quote": "Following the Supreme Court's decision refusing Elliott permission to appeal further, all three claimant groups have discontinued their claims.",
+      "sources": [
+        {
+          "url": "https://www.lme.com/en/lme-nickel-litigation",
+          "publisher": "London Metal Exchange",
+          "title": "LME Nickel litigation"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2024-10-07/elliott-loses-uk-appeal-over-lme-s-nickel-market-shutdown",
+          "publisher": "Bloomberg",
+          "title": "Elliott Loses UK Appeal Over LME's Nickel Market Shutdown",
+          "date": "2024-10-07"
+        }
+      ]
+    },
+    {
+      "claim": "Sam Bankman-Fried testified at his 2023 fraud trial that after graduating from MIT in 2014 he worked for over three years as a trader on Jane Street's international desk before leaving in 2017 to start the cryptocurrency trading firm Alameda Research; he later recruited former Jane Street colleague Caroline Ellison, who became Alameda's CEO.",
+      "status": "words",
+      "date": "2023-10-27",
+      "quote": "He then worked as a trader on the international desk at Jane Street for over three years, managing tens of billions of dollars a day in trading.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/amp/2023/10/27/ftxs-sam-bankman-fried-testifies-before-the-jury-in-fraud-trial.html",
+          "publisher": "CNBC",
+          "title": "Here's what Sam Bankman Fried said in his first full day on the stand in his $8 billion fraud trial",
+          "date": "2023-10-27"
+        },
+        {
+          "url": "https://us.cnn.com/2023/11/03/investing/who-is-sam-bankman-fried-ftx-fraud-trial/",
+          "publisher": "CNN",
+          "title": "Who is Sam Bankman-Fried, the crypto king who had a stunning downfall?",
+          "date": "2023-11-03"
+        }
+      ]
+    },
+    {
+      "claim": "A jury found Bankman-Fried guilty on all seven criminal counts on November 2, 2023; he was sentenced to 25 years in prison on March 28, 2024.",
+      "status": "court",
+      "date": "2023-11-02",
+      "quote": "Sam Bankman-Fried, the former head of the cryptocurrency exchange FTX, was found guilty of each of the seven criminal charges he faced.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2023/11/02/1210100678/sam-bankman-fried-trial-verdict-ftx-crypto",
+          "publisher": "NPR",
+          "title": "Guilty verdict for Sam Bankman-Fried in FTX's fraud trial",
+          "date": "2023-11-02"
+        },
+        {
+          "url": "https://www.cnbc.com/2024/03/28/live-updates-ftx-founder-sam-bankman-fried-sentencing.html",
+          "publisher": "CNBC",
+          "title": "FTX founder Sam Bankman-Fried sentenced to 25 years for crypto fraud, to pay $11 billion in forfeiture",
+          "date": "2024-03-28"
+        }
+      ]
+    },
+    {
+      "claim": "On July 3, 2025 SEBI issued an interim order restraining Jane Street Group entities from accessing the Indian securities market and directing the impounding of about 48.4 billion rupees it called unlawful gains, describing a prima facie strategy of manipulating indices to benefit the group's Bank Nifty index options positions; SEBI said the trades were not a breach of any regulation as such but were manipulative because of their intensity and scale.",
+      "status": "documented",
+      "date": "2025-07-03",
+      "quote": "the entities are restrained from accessing the securities market and are further barred from buying, selling or otherwise dealing in securities, directly or indirectly",
+      "sources": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1751584518593.pdf",
+          "publisher": "Securities and Exchange Board of India",
+          "title": "Interim Order in the matter of Index manipulation by Jane Street Group",
+          "date": "2025-07-03"
+        },
+        {
+          "url": "https://www.cnbc.com/2025/07/04/indian-regulator-bars-us-trading-firm-jane-street-from-accessing-securities-market.html",
+          "publisher": "CNBC",
+          "title": "Jane Street barred from Indian markets as regulator freezes $566 million over Nifty 50 manipulation claims",
+          "date": "2025-07-04"
+        }
+      ]
+    },
+    {
+      "claim": "Jane Street disputed SEBI's findings, saying its activity was basic arbitrage and that SEBI's order disregarded the role of liquidity providers and arbitrageurs; Bloomberg reported on July 21, 2025 that SEBI allowed Jane Street to resume trading after it deposited the 48.4 billion rupees in escrow.",
+      "status": "words",
+      "date": "2025-07-08",
+      "quote": "SEBI's order that this activity is \"prima facie manipulative\" disregards the role of liquidity providers and arbitrageurs in markets, Jane Street added.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2025/07/08/jane-street-to-challenge-india-ban-says-it-engaged-in-basic-arbitrage.html",
+          "publisher": "CNBC",
+          "title": "Jane Street to challenge India ban, says it engaged in basic arbitrage",
+          "date": "2025-07-08"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2025-07-21/india-s-sebi-allows-jane-street-to-resume-trading-report-says",
+          "publisher": "Bloomberg",
+          "title": "Jane Street Allowed to Resume Trading in India, SEBI Says",
+          "date": "2025-07-21"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "london-metal-exchange",
+      "toName": "London Metal Exchange",
+      "toType": "company",
+      "relation": "sued",
+      "claim": "Jane Street Global Trading brought a $15.3 million judicial review claim against the LME over the March 2022 nickel trade cancellations; the Divisional Court dismissed it in November 2023.",
+      "status": "court",
+      "date": "2023-11-29",
+      "quote": "Challenges by both Elliott and trading firm Jane Street were dismissed, according to a ruling on Wednesday.",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2023-11-29/lme-wins-nickel-crisis-case-as-uk-rules-against-elliott",
+          "publisher": "Bloomberg",
+          "title": "LME Wins Nickel Crisis Case as UK Rules Against Elliott",
+          "date": "2023-11-29"
+        },
+        {
+          "url": "https://www.lme.com/en/lme-nickel-litigation",
+          "publisher": "London Metal Exchange",
+          "title": "LME Nickel litigation"
+        },
+        {
+          "url": "https://www.cnbc.com/2022/06/07/london-metal-exchange-hit-with-two-us-lawsuits-over-nickel-trading-chaos.html",
+          "publisher": "CNBC",
+          "title": "London Metal Exchange hit with two U.S. lawsuits over nickel trading chaos",
+          "date": "2022-06-07"
+        }
+      ]
+    },
+    {
+      "to": "sam-bankman-fried",
+      "toName": "Sam Bankman-Fried",
+      "toType": "person",
+      "relation": "employed by",
+      "reverse": true,
+      "claim": "Sam Bankman-Fried worked as a trader on Jane Street's international desk for over three years from 2014 before founding Alameda Research in 2017.",
+      "status": "words",
+      "date": "2017",
+      "quote": "In 2017, he left Jane Street to strike out on his own, starting a cryptocurrency hedge fund he called Alameda Research.",
+      "sources": [
+        {
+          "url": "https://us.cnn.com/2023/11/03/investing/who-is-sam-bankman-fried-ftx-fraud-trial/",
+          "publisher": "CNN",
+          "title": "Who is Sam Bankman-Fried, the crypto king who had a stunning downfall?",
+          "date": "2023-11-03"
+        },
+        {
+          "url": "https://www.cnbc.com/amp/2023/10/27/ftxs-sam-bankman-fried-testifies-before-the-jury-in-fraud-trial.html",
+          "publisher": "CNBC",
+          "title": "Here's what Sam Bankman Fried said in his first full day on the stand in his $8 billion fraud trial",
+          "date": "2023-10-27"
+        }
+      ]
+    },
+    {
+      "to": "Securities and Exchange Board of India",
+      "toName": "Securities and Exchange Board of India",
+      "toType": "government",
+      "relation": "regulated",
+      "reverse": true,
+      "claim": "SEBI issued a July 2025 interim order barring Jane Street from Indian markets and impounding about 48.4 billion rupees over alleged index manipulation, then allowed it to resume trading after the deposit.",
+      "status": "documented",
+      "date": "2025-07-03",
+      "quote": "Interim Order in the matter of Index manipulation by Jane Street Group",
+      "sources": [
+        {
+          "url": "https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1751584518593.pdf",
+          "publisher": "Securities and Exchange Board of India",
+          "title": "Interim Order in the matter of Index manipulation by Jane Street Group",
+          "date": "2025-07-03"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2025-07-21/india-s-sebi-allows-jane-street-to-resume-trading-report-says",
+          "publisher": "Bloomberg",
+          "title": "Jane Street Allowed to Resume Trading in India, SEBI Says",
+          "date": "2025-07-21"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (LME entry) that Elliott sought about $456 million and Jane Street about $15.3 million and that UK courts dismissed both claims: supported by the LME's litigation page, CNBC and Bloomberg.",
+    "Site claim (HFT entry) that Jane Street engages in payment for order flow, 'order-book voids' or front-running, and the referenced '2025 federal lawsuit': no source returned covers Jane Street in connection with PFOF or such a lawsuit; the SEBI order concerns Indian index options, not U.S. retail order flow.",
+    "Jane Street's connection to FTX is limited in the sources to Bankman-Fried's and Ellison's prior employment there; no source returned describes any Jane Street role in FTX or Alameda.",
+    "Bloomberg reported a Supreme Court refusal on March 20, 2025 while the LME's page gives January 29, 2025; the LME page is treated as the primary record here.",
+    "Bloomberg reported in September 2026 that Elliott filed a new competition claim against the LME at the Competition Appeal Tribunal; Jane Street is not mentioned in that report."
+  ]
+}

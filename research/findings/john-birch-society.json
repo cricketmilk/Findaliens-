@@ -1,0 +1,112 @@
+{
+  "entity": "john-birch-society",
+  "name": "John Birch Society",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The John Birch Society was founded by retired candy manufacturer Robert Welch in Indianapolis on December 9, 1958, after a two-day meeting with eleven business and professional men, most of whom became founding members; Brown University's library, which holds the society's records, lists Fred Koch of Koch Industries and Robert Waring Stoddard of Wyman-Gordon among the original twelve founding members. The society describes itself as chartered under Massachusetts law as a not-for-profit educational organization.",
+    "sources": [
+      {
+        "url": "https://jbs.org/timeline/robert-welch-founds-jbs-2/",
+        "publisher": "John Birch Society",
+        "title": "Robert Welch Founds JBS"
+      },
+      {
+        "url": "https://jbs.org/assets/pdf/Birchn-Booklet-2023.pdf",
+        "publisher": "John Birch Society",
+        "title": "John Birch Society booklet (2023)"
+      },
+      {
+        "url": "https://library.brown.edu/create/libnews/john-birch-society-records-at-the-john-hay-library/",
+        "publisher": "Brown University Library",
+        "title": "John Birch Society records at the John Hay Library"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The society's own timeline says Robert Welch founded it on December 9, 1958 in Indianapolis, Indiana; a JBS booklet says Welch met with eleven business and professional men, most of whom became founding members.",
+      "status": "documented",
+      "date": "1958-12-09",
+      "quote": "Robert Welch founded The John Birch Society on December 9, 1958 in Indianapolis, Indiana",
+      "sources": [
+        {
+          "url": "https://jbs.org/timeline/robert-welch-founds-jbs-2/",
+          "publisher": "John Birch Society",
+          "title": "Robert Welch Founds JBS"
+        },
+        {
+          "url": "https://jbs.org/assets/pdf/Birchn-Booklet-2023.pdf",
+          "publisher": "John Birch Society",
+          "title": "John Birch Society booklet (2023)"
+        }
+      ]
+    },
+    {
+      "claim": "Brown University's John Hay Library, holder of the society's records, lists the original twelve founding members including Fred Koch, founder of Koch Industries, and Robert Waring Stoddard, president of Wyman-Gordon.",
+      "status": "documented",
+      "date": "1958",
+      "quote": "original twelve founding members",
+      "sources": [
+        {
+          "url": "https://library.brown.edu/create/libnews/john-birch-society-records-at-the-john-hay-library/",
+          "publisher": "Brown University Library",
+          "title": "John Birch Society records at the John Hay Library"
+        }
+      ]
+    },
+    {
+      "claim": "The society says it is chartered under Massachusetts general law as a not-for-profit educational organization; Welch led it until 1983, when Congressman Larry McDonald became chairman.",
+      "status": "documented",
+      "date": "1983-03",
+      "quote": "chartered under Massachusetts general law as a not-for-profit educational organization",
+      "sources": [
+        {
+          "url": "https://jbs.org/about/history/",
+          "publisher": "John Birch Society",
+          "title": "Timeline and History"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "robert-welch",
+      "toName": "Robert Welch",
+      "toType": "person",
+      "relation": "founded",
+      "claim": "Welch founded the society in 1958 and led it until 1983.",
+      "status": "documented",
+      "date": "1958",
+      "quote": "Robert Welch founded The John Birch Society on December 9, 1958",
+      "sources": [
+        {
+          "url": "https://jbs.org/timeline/robert-welch-founds-jbs-2/",
+          "publisher": "John Birch Society",
+          "title": "Robert Welch Founds JBS"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "fred-koch",
+      "toName": "Fred Koch",
+      "toType": "person",
+      "relation": "co-founded",
+      "claim": "Fred Koch was among the original founding members.",
+      "status": "documented",
+      "date": "1958",
+      "quote": "original twelve founding members",
+      "sources": [
+        {
+          "url": "https://library.brown.edu/create/libnews/john-birch-society-records-at-the-john-hay-library/",
+          "publisher": "Brown University Library",
+          "title": "John Birch Society records at the John Hay Library"
+        }
+      ],
+      "reverse": true
+    }
+  ],
+  "openQuestions": [
+    "No opened source gives the founders' financial contributions or the society's early budget."
+  ]
+}

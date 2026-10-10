@@ -1,0 +1,116 @@
+{
+  "entity": "cfact",
+  "name": "CFACT",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The Committee for a Constructive Tomorrow (CFACT) was founded in 1985 by David Rothbard and Craig Rucker. DeSmog reports it received $582,000 from ExxonMobil (1998–2012) and $1.84 million from the Carthage and Sarah Scaife foundations since 1991, and, citing Greenpeace, over $4.1 million from Donors Trust and Donors Capital Fund between 2002 and 2011; the Energy and Policy Institute gives higher Donors Trust totals for 2008–2012.",
+    "sources": [
+      {
+        "url": "https://www.desmog.com/2013/09/10/climate-denial-playbook-marc-morano-s-history-bullying-scientists",
+        "publisher": "DeSmog",
+        "title": "Climate Denial Playbook: Marc Morano's History of Bullying Scientists",
+        "date": "2013-09-10"
+      },
+      {
+        "url": "https://www.desmog.com/heartland-denial-palooza-sponsors-have-received-67-million-exxonmobil-koch-and-scaife-foundations",
+        "publisher": "DeSmog",
+        "title": "Heartland Denial-a-Palooza Sponsors Have Received $67 Million From ExxonMobil, Koch and Scaife Foundations"
+      },
+      {
+        "url": "https://energyandpolicy.org/committee-for-a-constructive-tomorrow-2/",
+        "publisher": "Energy and Policy Institute",
+        "title": "Committee For A Constructive Tomorrow"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "DeSmog's tally of Heartland conference sponsors says CFACT received $582,000 from ExxonMobil since 1998 and $1,840,000 from the Carthage and Sarah Scaife foundations since 1991.",
+      "status": "reported",
+      "date": "1991–2012",
+      "quote": "Received $582,000 from ExxonMobil since 1998. Received $1,840,000 from Scaife Foundations (Carthage and Sarah Scaife) since 1991.",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/heartland-denial-palooza-sponsors-have-received-67-million-exxonmobil-koch-and-scaife-foundations",
+          "publisher": "DeSmog",
+          "title": "Heartland Denial-a-Palooza Sponsors Have Received $67 Million From ExxonMobil, Koch and Scaife Foundations"
+        }
+      ]
+    },
+    {
+      "claim": "DeSmog, citing Greenpeace's Dealing in Doubt, reports CFACT received over $4.1 million from Donors Trust and Donors Capital Fund between 2002 and 2011 plus $582,000 from ExxonMobil between 1998 and 2012.",
+      "status": "reported",
+      "date": "2013-09-10",
+      "quote": "has received over $4.1 million in funds from the shadowy Donors Trust and Donors Capital Fund between 2002-2011, plus an additional $582,000 from ExxonMobil between 1998-2012",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/2013/09/10/climate-denial-playbook-marc-morano-s-history-bullying-scientists",
+          "publisher": "DeSmog",
+          "title": "Climate Denial Playbook: Marc Morano's History of Bullying Scientists",
+          "date": "2013-09-10"
+        }
+      ]
+    },
+    {
+      "claim": "The Energy and Policy Institute says CFACT was founded in 1985 by David Rothbard and Craig Rucker and reports $7,839,387 from DonorsTrust for 2008–2012 and $345,000 from Donors Capital Fund for 2005–2010, figures higher than DeSmog's.",
+      "status": "reported",
+      "date": "2005–2012",
+      "quote": "$7,839,387 from DonorsTrust",
+      "sources": [
+        {
+          "url": "https://energyandpolicy.org/committee-for-a-constructive-tomorrow-2/",
+          "publisher": "Energy and Policy Institute",
+          "title": "Committee For A Constructive Tomorrow"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "exxonmobil",
+      "toName": "ExxonMobil",
+      "toType": "company",
+      "relation": "funded",
+      "claim": "ExxonMobil gave CFACT $582,000 between 1998 and 2012, per DeSmog.",
+      "status": "reported",
+      "date": "1998–2012",
+      "quote": "$582,000 from ExxonMobil between 1998-2012",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/2013/09/10/climate-denial-playbook-marc-morano-s-history-bullying-scientists",
+          "publisher": "DeSmog",
+          "title": "Climate Denial Playbook: Marc Morano's History of Bullying Scientists",
+          "date": "2013-09-10"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "donors-trust",
+      "toName": "Donors Trust",
+      "toType": "fund",
+      "relation": "funded",
+      "claim": "Donors Trust and Donors Capital Fund gave CFACT over $4.1 million 2002–2011 per DeSmog/Greenpeace; EPI reports higher figures.",
+      "status": "reported",
+      "date": "2002–2012",
+      "quote": "over $4.1 million in funds from the shadowy Donors Trust and Donors Capital Fund between 2002-2011",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/2013/09/10/climate-denial-playbook-marc-morano-s-history-bullying-scientists",
+          "publisher": "DeSmog",
+          "title": "Climate Denial Playbook: Marc Morano's History of Bullying Scientists",
+          "date": "2013-09-10"
+        },
+        {
+          "url": "https://energyandpolicy.org/committee-for-a-constructive-tomorrow-2/",
+          "publisher": "Energy and Policy Institute",
+          "title": "Committee For A Constructive Tomorrow"
+        }
+      ],
+      "reverse": true
+    }
+  ],
+  "openQuestions": [
+    "All figures are from advocacy outlets reading 990s and foundation reports and disagree with each other (DeSmog's older report gives $542,000 Exxon / $1.28m Scaife to 2006); the owner should check ProPublica Nonprofit Explorer and the foundations' own grant databases before publishing amounts."
+  ]
+}

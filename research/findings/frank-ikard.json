@@ -1,0 +1,140 @@
+{
+  "entity": "frank-ikard",
+  "name": "Frank Ikard",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Frank Ikard, a former Texas congressman, was president of the American Petroleum Institute. In a November 1965 speech to the API annual meeting, 'Meeting the Challenges of 1966', he summarised the President's Science Advisory Committee report 'Restoring the Quality of Our Environment', telling members that carbon dioxide from burning coal, oil and gas could modify the Earth's heat balance by 2000 and that 'time is running out'. Historian Benjamin Franta brought the speech to attention in a 2018 letter in Nature.",
+    "sources": [
+      {
+        "url": "https://www.climatefiles.com/?p=2331",
+        "publisher": "Climate Files",
+        "title": "1965 API President 'Meeting the Challenges of 1966'",
+        "date": "1965-11"
+      },
+      {
+        "url": "https://www.desmog.com/?p=11416",
+        "publisher": "DeSmog",
+        "title": "'Time is Running Out,' American Petroleum Institute Chief Said in 1965 Speech on Climate Change",
+        "date": "2018-11-20"
+      },
+      {
+        "url": "https://theecologist.org/2018/nov/28/time-running-out-says-oil-chief-1965",
+        "publisher": "The Ecologist",
+        "title": "'Time is running out' says oil chief - in 1965",
+        "date": "2018-11-28"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "At the API's 1965 annual meeting, president Frank Ikard described the findings of the President's Science Advisory Committee report 'Restoring the Quality of Our Environment'.",
+      "status": "documented",
+      "date": "1965-11",
+      "quote": "The report was titled \"Restoring the Quality of Our Environment,\" and Ikard described its findings at that year's annual API meeting.",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/?p=11416",
+          "publisher": "DeSmog",
+          "title": "'Time is Running Out,' American Petroleum Institute Chief Said in 1965 Speech on Climate Change",
+          "date": "2018-11-20"
+        },
+        {
+          "url": "https://www.climatefiles.com/?p=2331",
+          "publisher": "Climate Files",
+          "title": "1965 API President 'Meeting the Challenges of 1966'",
+          "date": "1965-11"
+        }
+      ]
+    },
+    {
+      "claim": "Ikard told members that carbon dioxide was being added to the atmosphere by burning coal, oil and natural gas at such a rate that by 2000 the heat balance would be modified, potentially causing climate changes beyond local or national control.",
+      "status": "words",
+      "date": "1965-11",
+      "quote": "carbon dioxide is being added to the Earth's atmosphere by the burning of coal, oil, and natural gas at such a rate that by the year 2000 the heat balance will be so modified, potentially causing climate changes beyond local or national efforts",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/?p=11416",
+          "publisher": "DeSmog",
+          "title": "'Time is Running Out,' American Petroleum Institute Chief Said in 1965 Speech on Climate Change",
+          "date": "2018-11-20"
+        },
+        {
+          "url": "https://theecologist.org/2018/nov/28/time-running-out-says-oil-chief-1965",
+          "publisher": "The Ecologist",
+          "title": "'Time is running out' says oil chief - in 1965",
+          "date": "2018-11-28"
+        }
+      ]
+    },
+    {
+      "claim": "Ikard conveyed the report's conclusion that there was still time to address pollution's consequences but that 'time is running out', and said the report would fan emotions, raise fears and bring demands for action.",
+      "status": "words",
+      "date": "1965-11",
+      "quote": "Ikard also said the report would fan emotions, raise fears, and bring demands for action, and he urged members to study its recommendations.",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/?p=11416",
+          "publisher": "DeSmog",
+          "title": "'Time is Running Out,' American Petroleum Institute Chief Said in 1965 Speech on Climate Change",
+          "date": "2018-11-20"
+        },
+        {
+          "url": "https://theecologist.org/2018/nov/28/time-running-out-says-oil-chief-1965",
+          "publisher": "The Ecologist",
+          "title": "'Time is running out' says oil chief - in 1965",
+          "date": "2018-11-28"
+        }
+      ]
+    },
+    {
+      "claim": "Stanford historian Benjamin Franta surfaced the speech in a letter published in Nature in 2018; the full text is hosted by Climate Files.",
+      "status": "documented",
+      "date": "2018",
+      "quote": "Benjamin Franta, a Stanford historian, surfaced the speech in a letter published in Nature in 2018.",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/?p=11416",
+          "publisher": "DeSmog",
+          "title": "'Time is Running Out,' American Petroleum Institute Chief Said in 1965 Speech on Climate Change",
+          "date": "2018-11-20"
+        },
+        {
+          "url": "https://www.climatefiles.com/?p=2331",
+          "publisher": "Climate Files",
+          "title": "1965 API President 'Meeting the Challenges of 1966'",
+          "date": "1965-11"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "american-petroleum-institute",
+      "toName": "American Petroleum Institute",
+      "toType": "trade group",
+      "relation": "executive of",
+      "claim": "Ikard was president of the American Petroleum Institute when he gave the 1965 annual-meeting speech.",
+      "status": "documented",
+      "date": "1965",
+      "quote": "Frank Ikard, then API president, described the 1965 President's Science Advisory Committee report at the association's annual meeting",
+      "sources": [
+        {
+          "url": "https://www.desmog.com/?p=11416",
+          "publisher": "DeSmog",
+          "title": "'Time is Running Out,' American Petroleum Institute Chief Said in 1965 Speech on Climate Change",
+          "date": "2018-11-20"
+        },
+        {
+          "url": "https://www.climatefiles.com/?p=2331",
+          "publisher": "Climate Files",
+          "title": "1965 API President 'Meeting the Challenges of 1966'",
+          "date": "1965-11"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (documented; PSAC warning relayed by Ikard): supported.",
+    "Quotes above are as reproduced in DeSmog and The Ecologist from Franta's Nature letter; the Climate Files transcript should be checked for exact wording. Ikard's earlier congressional career was not sourced in this file."
+  ]
+}

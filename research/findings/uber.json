@@ -1,0 +1,85 @@
+{
+  "entity": "uber",
+  "name": "Uber",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Uber Technologies is a ride-hailing and delivery company. In June 2016 it raised $3.5 billion from Saudi Arabia's Public Investment Fund, its largest single investment to date, at a $62.5 billion valuation, and PIF managing director Yasir Al Rumayyan joined its board. Its 2023 annual report on Form 10-K recorded income from operations of $1.11 billion, against a loss of $1.83 billion in 2022, which press coverage described as its first full-year operating profit.",
+    "sources": [
+      { "url": "https://qz.com/697401/uber-just-got-its-single-biggest-investment-from-saudi-arabia", "publisher": "Quartz", "title": "Uber just got its single biggest investment from Saudi Arabia", "date": "2016-06-01" },
+      { "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315124000012/uber-20231231.htm", "publisher": "SEC", "title": "Uber Technologies, Inc. Form 10-K for fiscal year 2023", "date": "2024-02" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On June 1, 2016 Uber said it had raised $3.5 billion in cash from Saudi Arabia's Public Investment Fund, its biggest single investment to date. The investment was counted in Uber's existing financing round and kept its valuation at $62.5 billion.",
+      "status": "reported",
+      "date": "2016-06-01",
+      "quote": "Uber said Wednesday (June 1) that it had raised $3.5 billion in cash—its biggest single investment to date—from Saudi Arabia's Public Investment Fund.",
+      "sources": [
+        { "url": "https://qz.com/697401/uber-just-got-its-single-biggest-investment-from-saudi-arabia", "publisher": "Quartz", "title": "Uber just got its single biggest investment from Saudi Arabia", "date": "2016-06-01" },
+        { "url": "https://www.argaam.com/en/article/articledetail/id/429589", "publisher": "Argaam", "title": "Saudi Arabia's sovereign wealth fund invests $3.5 bln in Uber", "date": "2016-06" }
+      ]
+    },
+    {
+      "claim": "As part of the 2016 investment, PIF managing director Yasir Al Rumayyan joined Uber's board of directors. Fortune commented that the appointment brought the Saudi government into Uber's boardroom, while Uber sources said Al Rumayyan's responsibilities were purely financial.",
+      "status": "reported",
+      "date": "2016-06-02",
+      "quote": "PIF managing director Yasir Al Rumayyan will join its board of directors.",
+      "sources": [
+        { "url": "https://www.argaam.com/en/article/articledetail/id/429589", "publisher": "Argaam", "title": "Saudi Arabia's sovereign wealth fund invests $3.5 bln in Uber", "date": "2016-06" },
+        { "url": "https://fortune.com/2016/06/02/ubers-no-good-very-bad-deal-with-saudi-arabia", "publisher": "Fortune", "title": "Uber's No Good, Very Bad Deal With Saudi Arabia", "date": "2016-06-02" }
+      ]
+    },
+    {
+      "claim": "Uber's Form 10-K for 2023 reports income from operations of $1,110 million in 2023, compared with a loss from operations of $1,832 million in 2022, and revenue of $37,281 million in 2023 against $31,877 million in 2022.",
+      "status": "documented",
+      "date": "2023-12-31",
+      "quote": "Income (loss) from operations (1,832) in 2022 and 1,110 in 2023",
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315124000012/uber-20231231.htm", "publisher": "SEC", "title": "Uber Technologies, Inc. Form 10-K for fiscal year 2023", "date": "2024-02" }
+      ]
+    },
+    {
+      "claim": "Uber reported net income attributable to the company of $1,887 million for 2023, compared with a loss of $9,141 million in 2022. Its fourth-quarter 2023 results release noted a $1.0 billion pre-tax tailwind primarily from net unrealized gains on the revaluation of its equity investments.",
+      "status": "documented",
+      "date": "2024-02-07",
+      "quote": "a $1.0 billion net tailwind (pre-tax) primarily due to net unrealized gains related to the revaluation of Uber's equity investments",
+      "sources": [
+        { "url": "https://investor.uber.com/news-events/news/press-release-details/2024/Uber-Announces-Results-for-Fourth-Quarter-and-Full-Year-2023/default.aspx", "publisher": "Uber Technologies (investor relations)", "title": "Uber Announces Results for Fourth Quarter and Full Year 2023", "date": "2024-02-07" },
+        { "url": "https://www.sec.gov/Archives/edgar/data/1543151/000154315124000012/uber-20231231.htm", "publisher": "SEC", "title": "Uber Technologies, Inc. Form 10-K for fiscal year 2023", "date": "2024-02" }
+      ]
+    },
+    {
+      "claim": "City A.M. described Uber's 2023 result as its first ever full-year operating profit, with income from operations of $1.1 billion and adjusted EBITDA up 137 percent to $4.1 billion.",
+      "status": "reported",
+      "date": "2024-02-07",
+      "quote": "income from its operations hit $1.1bn in the year ending December 31, up from a prior year loss of $1.8bn",
+      "sources": [
+        { "url": "https://www.cityam.com/uber-reports-first-ever-full-year-operating-profit-as-chief-hails-an-inflection-point/", "publisher": "City A.M.", "title": "Uber reports first ever full-year operating profit as chief hails an 'inflection point'", "date": "2024-02-07" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "saudi-public-investment-fund",
+      "relation": "invested in",
+      "reverse": true,
+      "claim": "Saudi Arabia's Public Investment Fund invested $3.5 billion in Uber in June 2016 at a $62.5 billion valuation, and its managing director Yasir Al Rumayyan joined Uber's board.",
+      "status": "reported",
+      "date": "2016-06-01",
+      "quote": "PIF managing director Yasir Al Rumayyan will join its board of directors.",
+      "sources": [
+        { "url": "https://www.argaam.com/en/article/articledetail/id/429589", "publisher": "Argaam", "title": "Saudi Arabia's sovereign wealth fund invests $3.5 bln in Uber", "date": "2016-06" },
+        { "url": "https://qz.com/697401/uber-just-got-its-single-biggest-investment-from-saudi-arabia", "publisher": "Quartz", "title": "Uber just got its single biggest investment from Saudi Arabia", "date": "2016-06-01" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (Blind Pool): PIF's $3.5B investment in Uber in 2016 is supported (Quartz, Argaam). The site labels it 'documented' citing Uber; Uber's own 2016 statement was not among the sources opened.",
+    "Site claim (Blind Pool): Uber lost more than $30B over a decade before its first annual operating profit in 2023. The 2023 operating profit is supported by the 10-K; the cumulative $30B figure was not checked against the filings.",
+    "Site claim: gig companies spent about $200M on California's Prop 22 (California Secretary of State). Not tested here.",
+    "Site lists SoftBank, Benchmark and Sequoia as Uber funders; no source for those stakes was opened in this research.",
+    "Whether Yasir Al Rumayyan still sits on Uber's board was not checked.",
+    "The brief mentioned a Próspera-style arbitration involving Uber; the site pages do not make that claim about Uber and no such case was found."
+  ]
+}

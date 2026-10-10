@@ -1,0 +1,541 @@
+{
+  "entity": "world-liberty-financial",
+  "name": "World Liberty Financial",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "World Liberty Financial (WLF) is a cryptocurrency venture unveiled in September 2024 and affiliated with Donald Trump and members of his family through DT Marks DEFI LLC. It sells a governance token, WLFI, and in March 2025 launched a dollar-pegged stablecoin, USD1. Its whitepaper, as reported, entitles DT Marks DEFI LLC to 75 percent of net protocol revenue while stating that no Trump family member is an officer, director, founder or employee. In May 2025 the company said Abu Dhabi investment firm MGX would use USD1 to settle its $2 billion investment in Binance, prompting letters from Senate Democrats to WLF, MGX, Binance and the Office of Government Ethics. The GENIUS Act, a federal stablecoin framework, became law on July 18, 2025. Justin Sun bought about $75 million of WLFI and later sued the company; in 2026 the Wall Street Journal reported that Sheikh Tahnoon bin Zayed and co-investors hold 49 percent of WLF's planned bank holding company.",
+    "sources": [
+      {
+        "url": "https://www.cnbc.com/2026/08/27/uae-spy-sheikh-trump-family-crypto-bank.html",
+        "publisher": "CNBC",
+        "title": "UAE 'spy sheikh' takes 49% stake in Trump family crypto bank venture",
+        "date": "2026-08-27"
+      },
+      {
+        "url": "https://thedefiant.io/news/people/trump-company-can-claim-75-of-world-liberty-financial-revenue",
+        "publisher": "The Defiant",
+        "title": "Trump Company Can Claim 75% of World Liberty Financial Revenue"
+      },
+      {
+        "url": "https://www.congress.gov/crs_external_products/R/PDF/R49351/R49351.2.pdf",
+        "publisher": "Congressional Research Service",
+        "title": "GENIUS Act (P.L. 119-27): Creating a Regulatory Framework for Stablecoins"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "World Liberty Financial's whitepaper, referred to as the Gold Paper, states that DT Marks DEFI LLC, an entity affiliated with Donald Trump and members of his family, is entitled to 75 percent of net protocol revenue in exchange for promotional services and rights, and is allocated 22.5 billion WLFI tokens. The document lists Trump as 'chief crypto advocate' and his sons as 'Web3 Ambassadors' while stating that no members of the Trump family or DT Marks DEFI LLC are officers, directors, founders or employees of the project.",
+      "status": "reported",
+      "date": "2024-10",
+      "quote": "the whitepaper emphasizes that no members of the Trump family or DT Marks DEFI LLC are \"officers, directors, founders, or employees\" of the project.",
+      "sources": [
+        {
+          "url": "https://thedefiant.io/news/people/trump-company-can-claim-75-of-world-liberty-financial-revenue",
+          "publisher": "The Defiant",
+          "title": "Trump Company Can Claim 75% of World Liberty Financial Revenue"
+        },
+        {
+          "url": "https://benzinga.com/z/41395007",
+          "publisher": "Benzinga",
+          "title": "World Liberty Financial revenue terms"
+        }
+      ]
+    },
+    {
+      "claim": "In January 2025 the project created WLF Holdco LLC, and its website stated that DT Marks DEFI LLC owned approximately 60 percent of the equity interests in the holding company. Forbes reported in June 2025 that the website then showed DT Marks DEFI holding a 40 percent equity interest, a 20-point reduction from the 60 percent stake disclosed earlier.",
+      "status": "reported",
+      "date": "2025-06-19",
+      "quote": "\"DT Marks DEFI LLC, an entity affiliated with Donald J. Trump and certain of his family members, own approximately 60% of the equity interests in WLF Holdco LLC\", according to the project's website.",
+      "sources": [
+        {
+          "url": "https://www.forbes.com/sites/danalexander/2025/06/19/trump-company-reduces-its-stake-in-crypto-venture/",
+          "publisher": "Forbes",
+          "title": "Trump Company Reduces Stake In Crypto Venture",
+          "date": "2025-06-19"
+        },
+        {
+          "url": "https://www.theblock.co/post/348917/trump-family-now-controls-at-least-60-stake-over-world-liberty-financial-through-new-holding-company-reuters",
+          "publisher": "The Block",
+          "title": "Trump family now controls at least 60% stake over World Liberty Financial through new holding company: Reuters"
+        }
+      ]
+    },
+    {
+      "claim": "World Liberty Financial was unveiled in September 2024 and raised about $550 million through sales of its WLFI governance token, according to reporting; Benzinga put the total raised through the governance token sale at over $590 million.",
+      "status": "reported",
+      "date": "2025",
+      "quote": "raised $550 million in its WLFI token sale the following month",
+      "sources": [
+        {
+          "url": "https://www.theblock.co/post/356871/world-liberty-financial-airdrops-usd1-stablecoins-wlfi-token-holders",
+          "publisher": "The Block",
+          "title": "World Liberty Financial airdrops USD1 tokens to WLFI token holders"
+        },
+        {
+          "url": "https://cryptobriefing.com/usd1-stablecoin-launch-ethereum-binance/",
+          "publisher": "Crypto Briefing",
+          "title": "Trump-backed World Liberty Financial confirms plans to debut USD1 stablecoin on Ethereum, BNB Chain"
+        }
+      ]
+    },
+    {
+      "claim": "World Liberty Financial's USD1 stablecoin went live in March 2025 on Ethereum and BNB Chain, described by the company as backed one-to-one by U.S. dollar deposits and short-term Treasury bills with custody by BitGo Trust. Forbes reported that USD1 launched on March 25, 2025.",
+      "status": "reported",
+      "date": "2025-03-25",
+      "quote": "Forbes also reports that USD1 didn't launch until March 25, so it had little track record when the deal was announced.",
+      "sources": [
+        {
+          "url": "https://www.forbes.com/sites/zacheverson/2025/10/02/mgx-usd1-binance-trump-stablecoin-world-liberty-financial/",
+          "publisher": "Forbes",
+          "title": "MGX Says $2 Billion Binance Investment Used USD1 Because Of 'Compliance History'",
+          "date": "2025-10-02"
+        },
+        {
+          "url": "https://cryptobriefing.com/usd1-stablecoin-launch-ethereum-binance/",
+          "publisher": "Crypto Briefing",
+          "title": "Trump-backed World Liberty Financial confirms plans to debut USD1 stablecoin on Ethereum, BNB Chain"
+        }
+      ]
+    },
+    {
+      "claim": "On May 1, 2025, at the Token2049 conference in Dubai, Eric Trump, executive vice president of the Trump Organization, said on a panel with WLF co-founder Zach Witkoff and Tron founder Justin Sun that MGX would use USD1 to settle its $2 billion investment in Binance. MGX had announced the investment on March 12, 2025, saying it would be paid in stablecoins without naming which one.",
+      "status": "reported",
+      "date": "2025-05-01",
+      "quote": "Eric Trump said Abu Dhabi firm MGX would use World Liberty Financial's USD1 stablecoin to settle its $2 billion investment in Binance.",
+      "sources": [
+        {
+          "url": "https://www.coindesk.com/business/2025/05/01/world-liberty-s-stablecoin-will-be-used-to-close-mgx-s-usd2b-binance-investment-eric-trump",
+          "publisher": "CoinDesk",
+          "title": "World Liberty's USD1 Will Integrate With Tron; WLFI's Witkoff Teases More Partnerships",
+          "date": "2025-05-01"
+        },
+        {
+          "url": "https://cointelegraph.com/news/eric-trump-usd1-used-2-b-mgx-investment-binance",
+          "publisher": "Cointelegraph",
+          "title": "USD1 will be used for $2B MGX investment in Binance",
+          "date": "2025-05-01"
+        }
+      ]
+    },
+    {
+      "claim": "Forbes reported in October 2025 that MGX said it used USD1 for the Binance investment because of the stablecoin's 'compliance history', although USD1 had launched only on March 25, 2025, about two weeks after the investment was announced.",
+      "status": "reported",
+      "date": "2025-10-02",
+      "quote": "MGX Says $2 Billion Binance Investment Used USD1 Because Of 'Compliance History'—But The Trump-Linked Stablecoin Was Brand New",
+      "sources": [
+        {
+          "url": "https://www.forbes.com/sites/zacheverson/2025/10/02/mgx-usd1-binance-trump-stablecoin-world-liberty-financial/",
+          "publisher": "Forbes",
+          "title": "MGX Says $2 Billion Binance Investment Used USD1 Because Of 'Compliance History'",
+          "date": "2025-10-02"
+        }
+      ]
+    },
+    {
+      "claim": "In May 2025 Senators Elizabeth Warren and Jeff Merkley wrote to WLF co-founder Zach Witkoff asking the company to preserve and produce records about USD1 and its dealings with federal agencies, and wrote separately to the Office of Government Ethics about the MGX-Binance transaction. On June 10, 2025 they wrote to MGX CEO Ahmed Yahia Al Idrissi and Binance CEO Richard Teng asking who proposed using USD1 and whether any inducements were offered. The senators asserted that the President's financial stake in WLF made the use of USD1 a conflict of interest; these are the senators' allegations, not findings.",
+      "status": "documented",
+      "date": "2025-06-10",
+      "quote": "They asked the companies to preserve and provide documents on questions including who proposed using USD1 in the transaction and whether any inducements or incentives were offered",
+      "sources": [
+        {
+          "url": "https://www.banking.senate.gov/newsroom/minority/warren-merkley-seek-records-on-2-billion-trump-stablecoin-deal-from-uae-firm-and-binance",
+          "publisher": "Senate Banking Committee (minority)",
+          "title": "Warren, Merkley Seek Records on $2 Billion Trump Stablecoin Deal from UAE Firm and Binance",
+          "date": "2025-06-10"
+        },
+        {
+          "url": "https://www.banking.senate.gov/imo/media/doc/warren_merkley_letter_to_mgx_binance_re__wlf_response.pdf",
+          "publisher": "Senate Banking Committee (minority)",
+          "title": "Warren-Merkley letter to MGX and Binance"
+        },
+        {
+          "url": "https://www.banking.senate.gov/newsroom/minority/warren-merkley-seek-world-liberty-financial-records-on-2-billion-trump-stablecoin-deal-involving-uae-firm-and-binance",
+          "publisher": "Senate Banking Committee (minority)",
+          "title": "Warren, Merkley Seek World Liberty Financial Records on $2 Billion Trump Stablecoin Deal Involving UAE Firm and Binance",
+          "date": "2025-05"
+        }
+      ]
+    },
+    {
+      "claim": "On May 6, 2025 Senator Richard Blumenthal, as ranking member of the Senate Permanent Subcommittee on Investigations, opened a preliminary inquiry and wrote to Zach Witkoff requesting information on WLF's ownership and financial structure, its agreements with other firms, and its handling of conflicts of interest and national security risks. WLF's attorneys called the inquiry 'fundamentally flawed'; Blumenthal later called the company's response 'seriously inadequate'. The letter states allegations and requests, not findings.",
+      "status": "documented",
+      "date": "2025-05-06",
+      "quote": "It requests information on WLFI's ownership and financial structure, its cryptocurrency investments and agreements with other firms, and the steps it has taken to address conflicts of interest and national security risks.",
+      "sources": [
+        {
+          "url": "https://www.hsgac.senate.gov/wp-content/uploads/2025-05-06-Letter-from-Sen.-Richard-Blumenthal-to-WLFI.pdf",
+          "publisher": "Senate Homeland Security and Governmental Affairs Committee",
+          "title": "Letter from Sen. Richard Blumenthal to WLFI",
+          "date": "2025-05-06"
+        },
+        {
+          "url": "https://www.blumenthal.senate.gov/newsroom/press/release/permanent-subcommittee-on-investigations-opens-inquiry-into-trump-crypto-corruption",
+          "publisher": "Office of Sen. Richard Blumenthal",
+          "title": "Permanent Subcommittee on Investigations Opens Inquiry into Trump Crypto Corruption",
+          "date": "2025-05-06"
+        },
+        {
+          "url": "https://decrypt.co/320565/senator-slams-trump-world-liberty-financial-seriously-inadequate",
+          "publisher": "Decrypt",
+          "title": "Senator Slams Trump's World Liberty Financial Over 'Seriously Inadequate' Response to Inquiry"
+        }
+      ]
+    },
+    {
+      "claim": "The GENIUS Act, S. 1582, passed the Senate 68-30 on June 17, 2025 and the House 308-122 on July 17, 2025, and was signed into law as Public Law 119-27 on July 18, 2025. The Congressional Research Service notes that controversy over a stablecoin issued by a company sponsored by President Trump led to debate over whether companies tied to government officials should be permitted to issue stablecoins, and that the act references but does not change existing government ethics laws.",
+      "status": "documented",
+      "date": "2025-07-18",
+      "quote": "controversy over a stablecoin issued by a company sponsored by President Trump led to debate about whether companies with ties to government officials and Members of Congress should be permitted to issue stablecoins",
+      "sources": [
+        {
+          "url": "https://www.congress.gov/crs_external_products/R/PDF/R49351/R49351.2.pdf",
+          "publisher": "Congressional Research Service",
+          "title": "GENIUS Act (P.L. 119-27): Creating a Regulatory Framework for Stablecoins"
+        },
+        {
+          "url": "https://www.everycrsreport.com/reports/R49351.html",
+          "publisher": "EveryCRSReport",
+          "title": "GENIUS Act (P.L. 119-27): Creating a Regulatory Framework for Stablecoins"
+        }
+      ]
+    },
+    {
+      "claim": "Tron founder Justin Sun bought $30 million of WLFI tokens in November 2024 and was named an adviser to the project the next day; in January 2025 he announced a further $45 million purchase, bringing his total to about $75 million. In September 2025 WLF used a blacklist function in its smart contract to freeze Sun's wallet. Sun sued WLF on April 21, 2026 in the Northern District of California alleging fraud and breach of contract, and WLF sued Sun for defamation in May 2026, alleging short selling and straw purchases; Sun denied the allegations. Neither suit had been decided per these sources.",
+      "status": "reported",
+      "date": "2026-05-04",
+      "quote": "He announced the additional $45 million on January 19, and the new funds brought his total investment in the platform to $75 million, making him its largest investor.",
+      "sources": [
+        {
+          "url": "https://cryptopotato.com/justin-sun-raises-stake-in-world-liberty-financial-to-75m/",
+          "publisher": "CryptoPotato",
+          "title": "Justin Sun Raises Stake in World Liberty Financial to $75M"
+        },
+        {
+          "url": "https://unchainedcrypto.com/justin-sun-sues-world-liberty-financial-alleging-fraud-and-unlawful-token-freeze-in-75-million-dispute/",
+          "publisher": "Unchained",
+          "title": "Justin Sun Sues World Liberty Financial, Alleging Fraud and Unlawful Token Freeze in $75 Million Dispute",
+          "date": "2026-04"
+        },
+        {
+          "url": "https://www.forbes.com/sites/alisondurkee/2026/05/04/trumps-world-liberty-financial-sues-billionaire-justin-sun-for-defamation/",
+          "publisher": "Forbes",
+          "title": "Trump's World Liberty Financial Sues Billionaire Justin Sun For Defamation",
+          "date": "2026-05-04"
+        }
+      ]
+    },
+    {
+      "claim": "Donald Trump's public financial disclosure filed in June 2025, covering 2024, reported $57,437,927 in income from World Liberty Financial token sales and holdings of 15.75 billion WLFI governance tokens. His disclosure for 2025, released in June 2026, reported about $515 million from sales of WLF tokens and about $65 million from the sale of equity in WLF's holding company, according to CNBC.",
+      "status": "reported",
+      "date": "2026-06-30",
+      "quote": "CNBC reports about $515 million from the sale of tokens released by the firm World Liberty Financial, and $65 million from sales of equity in WLF's holding company.",
+      "sources": [
+        {
+          "url": "https://cointelegraph.com/news/trump-reports-57m-crypto-income-from-world-liberty-financial",
+          "publisher": "Cointelegraph",
+          "title": "Trump Reports $57M Crypto Income From WLFI Venture",
+          "date": "2025-06"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/06/30/trump-financial-disclosure-released.html",
+          "publisher": "CNBC",
+          "title": "Trump's annual financial disclosure shows more than $580M in crypto-related income",
+          "date": "2026-06-30"
+        }
+      ]
+    },
+    {
+      "claim": "The Wall Street Journal reported, as relayed by CNBC and The Block in August 2026, that Sheikh Tahnoon bin Zayed Al Nahyan, the UAE's national security adviser, and co-investors invested $500 million in World Liberty Financial in January 2025 for a 49 percent stake, and that an entity they use, StringZ Holding RSC, holds 49 percent of WLTC Holdings, the holding company for WLF's planned national trust bank, with a Trump-family-affiliated entity holding 38 percent. The Office of the Comptroller of the Currency granted WLF preliminary conditional approval for the trust bank.",
+      "status": "reported",
+      "date": "2026-08-27",
+      "quote": "Tahnoon and other investors invested $500 million in World Liberty Financial in January 2025, the month Trump began his second term, receiving a 49% stake in the company.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/08/27/uae-spy-sheikh-trump-family-crypto-bank.html",
+          "publisher": "CNBC",
+          "title": "UAE 'spy sheikh' takes 49% stake in Trump family crypto bank venture",
+          "date": "2026-08-27"
+        },
+        {
+          "url": "https://www.theblock.co/news/regulation/2026-08-27-uae-spy-sheikh-takes-49-stake-in-trump-familys-bank-venture-wsj-412971",
+          "publisher": "The Block",
+          "title": "UAE 'spy sheikh' takes 49% stake in Trump family's bank venture: WSJ",
+          "date": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "claim": "The $TRUMP memecoin, a venture separate from World Liberty Financial, was launched on the Solana blockchain on January 17, 2025, when President-elect Trump announced it on Truth Social. The token's official website states that CIC Digital LLC, an affiliate of the Trump Organization, and Fight Fight Fight LLC collectively own 80 percent of the supply, subject to a three-year unlocking schedule, and that CIC Digital and Celebration Cards LLC, which owns Fight Fight Fight LLC, receive trading revenue from the token. A Senate resolution introduced in 2025 put the market value of that stake at $10.5 billion at the time.",
+      "status": "documented",
+      "date": "2025-01-17",
+      "quote": "CIC Digital LLC, an affiliate of The Trump Organization, and Fight Fight Fight LLC collectively own 80% of the Trump Cards, subject to a 3-year unlocking schedule.",
+      "sources": [
+        {
+          "url": "https://gettrumpmemes.com/",
+          "publisher": "gettrumpmemes.com",
+          "title": "The Official Trump Meme"
+        },
+        {
+          "url": "https://www.govinfo.gov/content/pkg/BILLS-119sres245is/html/BILLS-119sres245is.htm",
+          "publisher": "U.S. Government Publishing Office",
+          "title": "S.Res.245, 119th Congress",
+          "date": "2025"
+        },
+        {
+          "url": "https://www.cbsnews.com/news/trump-meme-coin-top-220-buyers-spent-140-million-analysis/",
+          "publisher": "CBS News",
+          "title": "$TRUMP meme coin buyers spent more than $140 million to get dinner invite with Trump, data shows",
+          "date": "2025-05"
+        }
+      ]
+    },
+    {
+      "claim": "NBC News, citing Chainalysis, reported that trading fees collected by the $TRUMP token's creators exceeded $324 million by the time of the May 22, 2025 holders' dinner; other outlets citing Chainalysis put the figure at more than $320 million. CBS News reported that the top 220 holders had spent more than $140 million on the token to qualify for the dinner. The fees arise from the token's liquidity pool, which charges a small fee on each trade.",
+      "status": "reported",
+      "date": "2025-05-22",
+      "quote": "the coin has generated more than $320 million in fees for its creators",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/tech/crypto/trumps-meme-coin-dinner-tuxedos-luxury-suvs-protesters-rcna208647",
+          "publisher": "NBC News",
+          "title": "At Trump's crypto dinner: Tuxedos, luxury cars and a former NBA star",
+          "date": "2025-05-22"
+        },
+        {
+          "url": "https://finance.yahoo.com/news/trump-meme-coin-business-racks-195442227.html",
+          "publisher": "Yahoo Finance",
+          "title": "Trump's meme coin business racks up fees as buyers jump at the chance for access to the president",
+          "date": "2025-05"
+        },
+        {
+          "url": "https://www.cbsnews.com/news/trump-meme-coin-top-220-buyers-spent-140-million-analysis/",
+          "publisher": "CBS News",
+          "title": "$TRUMP meme coin buyers spent more than $140 million to get dinner invite with Trump, data shows",
+          "date": "2025-05"
+        }
+      ]
+    },
+    {
+      "claim": "A governance proposal to make the WLFI token transferable was posted to World Liberty Financial's governance forum on July 4, 2025, with on-chain voting from July 9; it passed on July 16, 2025 with about 99.94 percent of votes (11.1 billion tokens) in favor. The proposal directed the team to activate peer-to-peer transfers and secondary-market listings, with some presale tokens unlocking at launch and the remainder subject to a later vote; WLFI began trading on exchanges in September 2025.",
+      "status": "reported",
+      "date": "2025-07-16",
+      "quote": "Token holders voted 99% in favor for the proposal to allow WLFI tokens to trade on secondary markets and transfer peer-to-peer.",
+      "sources": [
+        {
+          "url": "https://www.coindesk.com/business/2025/07/16/trump-linked-wlfi-token-clears-vote-to-become-tradable",
+          "publisher": "CoinDesk",
+          "title": "World Liberty Financial Token Clears Vote to Become Tradable",
+          "date": "2025-07-16"
+        },
+        {
+          "url": "https://www.theblock.co/news/ecosystems/2025-07-18-world-liberty-plans-to-unlock-wlfi-token-transferability-within-two-months-as-pre-market-trading-pushes-it-to-11th-largest-market-cap-363443",
+          "publisher": "The Block",
+          "title": "World Liberty plans to unlock WLFI token transferability within two months",
+          "date": "2025-07-18"
+        },
+        {
+          "url": "https://cryptobriefing.com/world-liberty-financial-wlfi-tradeable/",
+          "publisher": "Crypto Briefing",
+          "title": "World Liberty Financial's WLFI token becomes tradeable following near-unanimous approval",
+          "date": "2025-07"
+        }
+      ]
+    },
+    {
+      "claim": "On February 19, 2026 World Liberty Financial announced it would tokenize loan revenue interests in the Trump International Hotel & Resort, Maldives, a Dar Global project, with the tokenization platform Securitize. The tokens are offered in a private placement under Rule 506(c) of Regulation D to verified accredited investors, or to non-U.S. persons under Regulation S, and are not registered under the Securities Act.",
+      "status": "documented",
+      "date": "2026-02-19",
+      "quote": "World Liberty Financial to Tokenize Trump International Hotel & Resort, Maldives, in Partnership with DarGlobal and Securitize",
+      "sources": [
+        {
+          "url": "https://www.businesswire.com/news/home/20260218211545/en/World-Liberty-Financial-to-Tokenize-Trump-International-Hotel-Resort-Maldives-in-Partnership-with-DarGlobal-and-Securitize",
+          "publisher": "Business Wire (World Liberty Financial)",
+          "title": "World Liberty Financial to Tokenize Trump International Hotel & Resort, Maldives, in Partnership with DarGlobal and Securitize",
+          "date": "2026-02-19"
+        },
+        {
+          "url": "https://darglobal.co.uk/press/world-liberty-financial-tokenizes-trump-international-hotel-maldives",
+          "publisher": "Dar Global",
+          "title": "WLFI Partners with Securitize & DarGlobal on Trump Maldives Tokenization",
+          "date": "2026-02"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "mgx",
+      "toName": "MGX",
+      "toType": "fund",
+      "relation": "other",
+      "claim": "MGX used World Liberty Financial's USD1 stablecoin to settle its $2 billion investment in Binance, as announced by Eric Trump and Zach Witkoff on May 1, 2025; MGX later told Forbes it chose USD1 for its 'compliance history'.",
+      "status": "reported",
+      "date": "2025-05-01",
+      "quote": "Eric Trump said Abu Dhabi firm MGX would use World Liberty Financial's USD1 stablecoin to settle its $2 billion investment in Binance.",
+      "sources": [
+        {
+          "url": "https://www.coindesk.com/business/2025/05/01/world-liberty-s-stablecoin-will-be-used-to-close-mgx-s-usd2b-binance-investment-eric-trump",
+          "publisher": "CoinDesk",
+          "title": "World Liberty's USD1 Will Integrate With Tron; WLFI's Witkoff Teases More Partnerships",
+          "date": "2025-05-01"
+        },
+        {
+          "url": "https://www.forbes.com/sites/zacheverson/2025/10/02/mgx-usd1-binance-trump-stablecoin-world-liberty-financial/",
+          "publisher": "Forbes",
+          "title": "MGX Says $2 Billion Binance Investment Used USD1 Because Of 'Compliance History'",
+          "date": "2025-10-02"
+        }
+      ]
+    },
+    {
+      "to": "binance",
+      "toName": "Binance",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Binance received MGX's $2 billion investment, which was settled in World Liberty Financial's USD1 stablecoin; USD1 was also launched on Binance's BNB Chain.",
+      "status": "reported",
+      "date": "2025-05-01",
+      "quote": "Binance Lands $2 Billion From MGX, Deal Done Entirely in USD1 Stablecoin",
+      "sources": [
+        {
+          "url": "https://coinedition.com/trump-usd1-binance-2billion-mgx-stablecoin-deal-token2049/",
+          "publisher": "Coin Edition",
+          "title": "Binance Lands $2 Billion From MGX, Deal Done Entirely in USD1 Stablecoin"
+        },
+        {
+          "url": "https://cointelegraph.com/news/eric-trump-usd1-used-2-b-mgx-investment-binance",
+          "publisher": "Cointelegraph",
+          "title": "USD1 will be used for $2B MGX investment in Binance",
+          "date": "2025-05-01"
+        }
+      ]
+    },
+    {
+      "to": "donald-trump",
+      "toName": "Donald Trump",
+      "toType": "person",
+      "relation": "other",
+      "claim": "DT Marks DEFI LLC, an entity affiliated with Donald Trump and members of his family, is entitled under WLF's whitepaper to 75 percent of net protocol revenue and held an equity stake in WLF Holdco LLC reported at 60 percent in January 2025 and 40 percent by June 2025; Trump's financial disclosures reported $57.4 million of WLF income for 2024 and about $580 million for 2025.",
+      "status": "reported",
+      "date": "2026-06-30",
+      "quote": "DT Marks DEFI LLC, an entity affiliated with Donald J. Trump and certain of his family members, own approximately 60% of the equity interests in WLF Holdco LLC",
+      "sources": [
+        {
+          "url": "https://www.forbes.com/sites/danalexander/2025/06/19/trump-company-reduces-its-stake-in-crypto-venture/",
+          "publisher": "Forbes",
+          "title": "Trump Company Reduces Stake In Crypto Venture",
+          "date": "2025-06-19"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/06/30/trump-financial-disclosure-released.html",
+          "publisher": "CNBC",
+          "title": "Trump's annual financial disclosure shows more than $580M in crypto-related income",
+          "date": "2026-06-30"
+        }
+      ]
+    },
+    {
+      "to": "trump-organization",
+      "toName": "Trump Organization",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Eric Trump, executive vice president of the Trump Organization, announced at Token2049 on May 1, 2025 that MGX would use WLF's USD1 to settle its Binance investment; WLF's whitepaper lists Trump's sons as 'Web3 Ambassadors' while stating they are not officers or employees of the project.",
+      "status": "reported",
+      "date": "2025-05-01",
+      "quote": "Eric Trump, executive vice president of the Trump Organization, made the remarks on a panel with Zach Witkoff, the co-founder of World Liberty Financial, and Justin Sun, the founder of Tron.",
+      "sources": [
+        {
+          "url": "https://cointelegraph.com/news/eric-trump-usd1-used-2-b-mgx-investment-binance",
+          "publisher": "Cointelegraph",
+          "title": "USD1 will be used for $2B MGX investment in Binance",
+          "date": "2025-05-01"
+        },
+        {
+          "url": "https://thedefiant.io/news/people/trump-company-can-claim-75-of-world-liberty-financial-revenue",
+          "publisher": "The Defiant",
+          "title": "Trump Company Can Claim 75% of World Liberty Financial Revenue"
+        }
+      ]
+    },
+    {
+      "to": "justin-sun",
+      "toName": "Justin Sun",
+      "toType": "person",
+      "relation": "invested in",
+      "reverse": true,
+      "claim": "Justin Sun bought about $75 million of WLFI tokens between November 2024 and January 2025 and was named an adviser to the project; in 2026 he and WLF sued each other after WLF froze his wallet.",
+      "status": "reported",
+      "date": "2025-01-19",
+      "quote": "the new funds brought his total investment in the platform to $75 million, making him its largest investor.",
+      "sources": [
+        {
+          "url": "https://cryptopotato.com/justin-sun-raises-stake-in-world-liberty-financial-to-75m/",
+          "publisher": "CryptoPotato",
+          "title": "Justin Sun Raises Stake in World Liberty Financial to $75M"
+        },
+        {
+          "url": "https://unchainedcrypto.com/justin-sun-sues-world-liberty-financial-alleging-fraud-and-unlawful-token-freeze-in-75-million-dispute/",
+          "publisher": "Unchained",
+          "title": "Justin Sun Sues World Liberty Financial, Alleging Fraud and Unlawful Token Freeze in $75 Million Dispute",
+          "date": "2026-04"
+        }
+      ]
+    },
+    {
+      "to": "Sheikh Tahnoon bin Zayed Al Nahyan",
+      "toName": "Sheikh Tahnoon bin Zayed Al Nahyan",
+      "toType": "person",
+      "relation": "invested in",
+      "reverse": true,
+      "claim": "The Wall Street Journal reported that Sheikh Tahnoon bin Zayed, the UAE's national security adviser, and co-investors put $500 million into World Liberty Financial in January 2025 for a 49 percent stake, and in 2026 hold 49 percent of WLTC Holdings, the holding company for WLF's planned bank, through StringZ Holding RSC.",
+      "status": "reported",
+      "date": "2026-08-27",
+      "quote": "They operate through StringZ Holding RSC, which owns that 49% interest, according to the Journal.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/08/27/uae-spy-sheikh-trump-family-crypto-bank.html",
+          "publisher": "CNBC",
+          "title": "UAE 'spy sheikh' takes 49% stake in Trump family crypto bank venture",
+          "date": "2026-08-27"
+        },
+        {
+          "url": "https://www.theblock.co/news/regulation/2026-08-27-uae-spy-sheikh-takes-49-stake-in-trump-familys-bank-venture-wsj-412971",
+          "publisher": "The Block",
+          "title": "UAE 'spy sheikh' takes 49% stake in Trump family's bank venture: WSJ",
+          "date": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "to": "dar-global",
+      "relation": "partnered with",
+      "claim": "World Liberty Financial, Dar Global and Securitize announced on February 19, 2026 a tokenized private placement of loan revenue interests in the Trump International Hotel & Resort, Maldives, issued through WLFI DAR Maldives Limited.",
+      "status": "documented",
+      "date": "2026-02-19",
+      "quote": "World Liberty Financial to Tokenize Trump International Hotel & Resort, Maldives, in Partnership with DarGlobal and Securitize",
+      "sources": [
+        {
+          "url": "https://www.businesswire.com/news/home/20260218211545/en/World-Liberty-Financial-to-Tokenize-Trump-International-Hotel-Resort-Maldives-in-Partnership-with-DarGlobal-and-Securitize",
+          "publisher": "Business Wire (World Liberty Financial)",
+          "title": "World Liberty Financial to Tokenize Trump International Hotel & Resort, Maldives, in Partnership with DarGlobal and Securitize",
+          "date": "2026-02-19"
+        },
+        {
+          "url": "https://securitize.io/alternative-assets/MALD1",
+          "publisher": "Securitize",
+          "title": "WLFI DAR Maldives Limited Tokenized Asset Offering"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Eric Trump's exact words at Token2049 on May 1, 2025 were not captured verbatim by the sources reached; the item is recorded as reported rather than as a quote. CoinDesk's piece attributes one passage to Donald Trump while other outlets name Eric Trump.",
+    "The Gold Paper's revenue threshold is reported variously as after the first $30 million (The Defiant) and after the first $15 million (Forbes) of token sales; the whitepaper itself was not opened.",
+    "The $500 million January 2025 investment is attributed to different vehicles (StringZ Holding RSC; Aryam Investment 1, reportedly managed with G42 executives) across secondary coverage of the WSJ report; the WSJ original was not reachable.",
+    "Any response from the Office of Government Ethics to the Warren-Merkley letter was not found. The Senate Banking minority release says OGE had not responded.",
+    "Trump's 2025 disclosure figures differ by outlet ($515 million, $526.8 million, $550 million for token sales); the OGE filing itself was not opened.",
+    "The $TRUMP fee figures attributed to Chainalysis vary by outlet and cutoff date ($320 million, $324 million, $324.5 million through late April 2025); the Chainalysis analysis itself was not opened.",
+    "The WLFI transferability vote took place in July 2025 (forum post July 4, result July 16), not June; the exchange-trading start date of September 2025 was not confirmed against a primary announcement."
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "entity": "noaa",
+  "name": "NOAA",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The National Oceanic and Atmospheric Administration is a scientific and regulatory agency within the U.S. Department of Commerce whose functions are divided among six line offices, including the National Weather Service, the National Ocean Service, the National Marine Fisheries Service, NESDIS, OAR and OMAO. It appears on this site through the 2017-2019 nomination of AccuWeather chief executive Barry Myers to lead it, which was withdrawn in December 2019; the September 2019 unsigned statement about Hurricane Dorian that the Commerce Inspector General and a scientific-integrity panel found was issued under political pressure; and the 2025 staff reductions and retirement of its Billion-Dollar Weather and Climate Disasters database.",
+    "sources": [
+      { "url": "https://www.everycrsreport.com/reports/R47636.html", "publisher": "Congressional Research Service (via EveryCRSReport)", "title": "National Oceanic and Atmospheric Administration (NOAA): Organization Overview and Issues for Congress" },
+      { "url": "https://www.oig.doc.gov/OIGPublications/OIG-20-032-I.pdf", "publisher": "U.S. Department of Commerce Office of Inspector General", "title": "Evaluation of NOAA's September 6, 2019, Statement About Hurricane Dorian Forecasts", "date": "2020-06-26" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "NOAA's responsibilities are divided among six line offices: NESDIS, the National Marine Fisheries Service, the National Ocean Service, the National Weather Service, Oceanic and Atmospheric Research, and the Office of Marine and Aviation Operations, supported by cross-cutting Mission Support functions.",
+      "status": "documented",
+      "quote": "NOAA's responsibilities or functions are divided among six subagencies, or line offices",
+      "sources": [
+        { "url": "https://www.everycrsreport.com/reports/R47636.html", "publisher": "Congressional Research Service (via EveryCRSReport)", "title": "National Oceanic and Atmospheric Administration (NOAA): Organization Overview and Issues for Congress" },
+        { "url": "https://www.noaa.gov/about/organization", "publisher": "National Oceanic and Atmospheric Administration", "title": "Our organization" }
+      ]
+    },
+    {
+      "claim": "The Commerce Department Inspector General's evaluation (OIG-20-032-I, dated June 26, 2020) found that NOAA's unsigned September 6, 2019 statement on Hurricane Dorian forecasts was issued in response to a request from the White House acting chief of staff to the Commerce Department, and that the Department displayed poor judgment in requiring an unattributed statement about a five-day-old tweet while an active hurricane was off the East Coast.",
+      "status": "court",
+      "date": "2020-06-26",
+      "quote": "poor judgment in exercising its authority over NOAA by requiring an unattributed statement about a then-5-day-old tweet while an active hurricane was still off the East Coast",
+      "sources": [
+        { "url": "https://www.oig.doc.gov/OIGPublications/OIG-20-032-I.pdf", "publisher": "U.S. Department of Commerce Office of Inspector General", "title": "Evaluation of NOAA's September 6, 2019, Statement About Hurricane Dorian Forecasts", "date": "2020-06-26" },
+        { "url": "https://amp.cnn.com/cnn/2020/07/09/politics/trump-map-hurricane-dorian-alabama", "publisher": "CNN", "title": "Commerce inspector general report on Hurricane Dorian statement", "date": "2020-07-09" }
+      ]
+    },
+    {
+      "claim": "On July 1, 2020 the Commerce Inspector General wrote to the Secretary of Commerce expressing deep concern that the Department was preventing release of the Dorian report, which had been due to be released on June 29; the report was released in early July 2020.",
+      "status": "documented",
+      "date": "2020-07-01",
+      "sources": [
+        { "url": "https://www.oig.doc.gov/OIGPublications/Memorandum_from_the_Inspector_General.pdf", "publisher": "U.S. Department of Commerce Office of Inspector General", "title": "Memorandum from the Inspector General", "date": "2020-07-01" },
+        { "url": "https://spectrumnews1.com/ap-top-news/2020/07/09/govt-watchdog-politics-caused-sharpiegate-frantic-rebuke", "publisher": "Associated Press (via Spectrum News)", "title": "Govt watchdog: Politics caused 'Sharpiegate' frantic rebuke", "date": "2020-07-09" }
+      ]
+    },
+    {
+      "claim": "A panel convened through the National Academy of Public Administration reported on June 15, 2020 that acting NOAA administrator Neil Jacobs and communications director Julie Kay Roberts had violated NOAA's scientific integrity policy by issuing the Dorian statement without consulting the Birmingham forecasters and under political pressure; according to a memo by NOAA official Stephen Volz, the panel concluded they acted 'intentionally, knowingly, or in reckless disregard' of the code of conduct. Both disputed the findings and neither was disciplined.",
+      "status": "court",
+      "date": "2020-06-15",
+      "quote": "intentionally, knowingly, or in reckless disregard",
+      "sources": [
+        { "url": "https://amp.cnn.com/cnn/2020/06/15/politics/noaa-leadership-trump-sharpie-hurrican-dorian", "publisher": "CNN", "title": "NOAA leaders violated scientific integrity policy over Dorian statement", "date": "2020-06-15" },
+        { "url": "https://www.news4jax.com/news/politics/2020/06/16/panel-noaa-bowed-to-political-pressure-in-dorian-dispute/", "publisher": "Associated Press (via News4Jax)", "title": "Panel: NOAA bowed to political pressure in Dorian dispute", "date": "2020-06-16" }
+      ]
+    },
+    {
+      "claim": "On February 27, 2025 hundreds of NOAA employees, most of them probationary staff including National Weather Service meteorologists, were terminated in the agency's first round of personnel cuts; a temporary restraining order briefly halted the firings in March before they resumed in April 2025.",
+      "status": "reported",
+      "date": "2025-02-27",
+      "sources": [
+        { "url": "https://climate.law.columbia.edu/content/hundreds-noaa-nws-employees-terminated", "publisher": "Sabin Center for Climate Change Law, Columbia Law School", "title": "Hundreds of NOAA, NWS Employees Terminated", "date": "2025" },
+        { "url": "https://www.redriverradio.org/news/2025-03-05/mass-firings-of-federal-workforce-hit-noaa-fueling-concerns", "publisher": "NPR (Red River Radio)", "title": "Mass firings of federal workforce hit NOAA, fueling concerns", "date": "2025-03-05" }
+      ]
+    },
+    {
+      "claim": "In April 2025 NOAA approved more than 1,000 applications from employees for early retirement or buyouts, and Bloomberg Government reported that the Commerce Department was considering cutting 1,029 NOAA positions through reductions in force.",
+      "status": "reported",
+      "date": "2025-04",
+      "sources": [
+        { "url": "https://news.bgov.com/bloomberg-government-news/climate-agency-approves-more-than-1-000-staff-exit-requests", "publisher": "Bloomberg Government", "title": "Climate Agency Approves More Than 1,000 Staff Exit Requests", "date": "2025-04" },
+        { "url": "https://cbsnews.com/news/noaa-potentially-cut-more-than-1000-additional-employees-doge", "publisher": "CBS News", "title": "NOAA could potentially cut more than 1,000 additional employees", "date": "2025" }
+      ]
+    },
+    {
+      "claim": "On May 8, 2025 NOAA's National Centers for Environmental Information announced that the Billion-Dollar Weather and Climate Disasters product would be retired with no updates beyond calendar year 2024, citing 'evolving priorities, statutory mandates, and staffing changes'; the database had recorded 403 disasters costing at least $1 billion since 1980.",
+      "status": "documented",
+      "date": "2025-05-08",
+      "quote": "In alignment with evolving priorities, statutory mandates, and staffing changes",
+      "sources": [
+        { "url": "https://www.nesdis.noaa.gov/about/documents-reports/notice-of-changes/2025-notice-of-changes/billion-dollar-weather-and-climate-disasters", "publisher": "NOAA NESDIS", "title": "Notice of changes: Billion-Dollar Weather and Climate Disasters", "date": "2025-05-08" },
+        { "url": "https://cnn.com/2025/05/08/climate/noaa-ends-disaster-database", "publisher": "CNN", "title": "Trump admin ends extreme weather database that has tracked cost of disasters since 1980", "date": "2025-05-08" }
+      ]
+    },
+    {
+      "claim": "The Senate's Daily Digest for December 2, 2019 records that the Senate received notification of the withdrawal of Barry Lee Myers's nomination to be Under Secretary of Commerce for Oceans and Atmosphere; the full Senate never voted on the nomination.",
+      "status": "documented",
+      "date": "2019-12-02",
+      "sources": [
+        { "url": "https://www.congress.gov/116/crec/2019/12/02/CREC-2019-12-02-pt1-PgD1307.pdf", "publisher": "Congressional Record (congress.gov)", "title": "Daily Digest, December 2, 2019", "date": "2019-12-02" },
+        { "url": "https://www.eenews.net/articles/trumps-embattled-nominee-withdraws-cites-health-woes/", "publisher": "E&E News", "title": "Trump's embattled nominee withdraws, cites health woes", "date": "2019-11" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "department-of-commerce",
+      "toName": "Department of Commerce",
+      "toType": "government",
+      "relation": "subsidiary of",
+      "claim": "NOAA is an agency within the U.S. Department of Commerce; its administrator holds the post of Under Secretary of Commerce for Oceans and Atmosphere.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.everycrsreport.com/reports/R47636.html", "publisher": "Congressional Research Service (via EveryCRSReport)", "title": "National Oceanic and Atmospheric Administration (NOAA): Organization Overview and Issues for Congress" },
+        { "url": "https://www.govinfo.gov/content/pkg/CREC-2017-12-13/html/CREC-2017-12-13-pt1-PgS8006.htm", "publisher": "Congressional Record (GovInfo)", "title": "Congressional Record, December 13, 2017", "date": "2017-12-13" }
+      ]
+    },
+    {
+      "to": "barry-myers",
+      "toName": "Barry Myers",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Barry Lee Myers was nominated to be Under Secretary of Commerce for Oceans and Atmosphere, the post that heads NOAA, in the 115th and 116th Congresses; the nomination was withdrawn in December 2019 without a Senate floor vote.",
+      "status": "documented",
+      "date": "2019-12-02",
+      "sources": [
+        { "url": "https://www.congress.gov/116/crec/2019/12/02/CREC-2019-12-02-pt1-PgD1307.pdf", "publisher": "Congressional Record (congress.gov)", "title": "Daily Digest, December 2, 2019", "date": "2019-12-02" },
+        { "url": "https://congress.gov/115/chrg/CHRG-115shrg37230/CHRG-115shrg37230.htm", "publisher": "U.S. Senate Committee on Commerce, Science, and Transportation (congress.gov)", "title": "Senate Hearing 115-647: Nomination hearing", "date": "2017-11-29" }
+      ]
+    },
+    {
+      "to": "accuweather",
+      "toName": "AccuWeather",
+      "toType": "company",
+      "relation": "other",
+      "claim": "AccuWeather's federal lobbying disclosures list NOAA among the agencies it has lobbied, alongside the Department of Commerce, the House and the Senate.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://lda.senate.gov/api/v1/filings/7481e611-dce1-4b1e-93fc-1b50290834f8/", "publisher": "U.S. Senate Lobbying Disclosure Act database", "title": "Lobbying filing listing AccuWeather as client" },
+        { "url": "https://amp.cnn.com/cnn/2017/10/14/politics/noaa-nominee-accuweather", "publisher": "CNN", "title": "Trump's NOAA nominee and AccuWeather", "date": "2017-10-14" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim 'Sharpiegate: NOAA statement bent to back a political claim' and that a scientific-integrity panel found NOAA's acting chief and communications director violated agency policy is supported (NAPA panel, June 15, 2020; Commerce OIG, June 26, 2020).",
+    "Site claim 'More than 2,000 NOAA staff left through firings, buyouts and early retirements' is only partly supported: sources give roughly 700-880 terminations plus more than 1,000 approved buyouts and early retirements, and none of the sources opened confirms a total above 2,000. The owner may wish to find a consolidated figure.",
+    "Site claim that NOAA retired its Billion-Dollar Disasters database in May 2025 is supported by NOAA's own May 8, 2025 notice.",
+    "Site claims about the dismissal of Sixth National Climate Assessment authors (April 2025), globalchange.gov going dark (June 30, 2025) and Project 2025's proposal to break up NOAA were not tested in this pass.",
+    "A source reported that Neil Jacobs was confirmed as NOAA administrator on October 7, 2025, but this came only from an encyclopedia mirror and was not recorded."
+  ]
+}

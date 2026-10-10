@@ -70,3 +70,9 @@ Each case's grade comes from its **approved, typed links**, never from timing:
 
 A and B also need at least two independent publishers. Approved cases appear on
 `public/handoffs.html`.
+
+## Notes
+
+`research/notes/` holds working memos for the owner, never site content.
+`hot-money-conduits.md` maps the seven-chain "hot money" analysis onto the
+Crash Conduits nodes and the records that test it, with a verdict per claim.

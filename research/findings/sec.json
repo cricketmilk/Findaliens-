@@ -1,0 +1,134 @@
+{
+  "entity": "sec",
+  "name": "SEC",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The US Securities and Exchange Commission is the federal securities regulator. On September 12, 2001 it opened an investigation into whether anyone with advance knowledge of the September 11 attacks traded on it, reviewing more than 9.5 million transactions; its 2002 review, released under FOIA in 2010, found no evidence that those with advance knowledge traded on it, and the 9/11 Commission reached the same conclusion in 2004, attributing the United and American put-option spikes to a single US institutional investor and an options newsletter. Later academic papers (Poteshman 2006; Wong, Thompson and Teh 2011) found the pre-attack option activity statistically unusual without identifying any trader. The SEC also conducted the civil investigation into Senator Richard Burr's February 2020 stock sales, closed with no action in January 2023.",
+    "sources": [
+      { "url": "https://www.sec.gov/news/press/2004-98.htm", "publisher": "SEC", "title": "Statement Concerning SEC Terrorist Attack Trading Investigation", "date": "2004-07-22" },
+      { "url": "https://www.govinfo.gov/app/details/GPO-911REPORT", "publisher": "GovInfo", "title": "The 9/11 Commission Report: Final Report of the National Commission on Terrorist Attacks Upon the United States", "date": "2004-07-22" },
+      { "url": "https://www.cnbc.com/2023/01/06/sec-ends-richard-burr-insider-trading-probe.html", "publisher": "CNBC", "title": "SEC ends insider trading probe of ex-Sen. Richard Burr and brother-in-law without taking action, lawyers say", "date": "2023-01-06" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On September 12, 2001 the SEC began an investigation to determine whether anyone with advance knowledge of the September 11 attacks sought to profit by trading in US securities markets, working with the Department of Justice, the FBI and regulators in the US and abroad.",
+      "status": "documented",
+      "date": "2001-09-12",
+      "quote": "on Sept. 12, 2001, the Securities and Exchange Commission began an investigation to determine whether there was evidence that anyone who had advance knowledge of the terrorist attacks on September 11 sought to profit from that knowledge by trading in United States securities markets",
+      "sources": [
+        { "url": "https://www.sec.gov/news/press/2004-98.htm", "publisher": "SEC", "title": "Statement Concerning SEC Terrorist Attack Trading Investigation", "date": "2004-07-22" }
+      ]
+    },
+    {
+      "claim": "The SEC's May 2002 'Pre-September 11, 2001 Trading Review', released to the National Security Archive under FOIA in 2010, examined more than 9.5 million transactions in the weeks before the attacks, covering 103 companies in six industry groups, seven markets, and 32 exchange-traded funds and indices, and concluded that it had not developed evidence that those with advance knowledge of the attacks traded on that information.",
+      "status": "documented",
+      "date": "2002-05-15",
+      "quote": "We have not developed any evidence suggesting that those who had advance knowledge of the September 11 attacks traded on the basis of that information.",
+      "sources": [
+        { "url": "https://unredacted.com/2010/04/30/document-friday-terrorist-insider-trading-the-secs-pre-september-11-2001-trading-review/", "publisher": "National Security Archive (Unredacted)", "title": "Document Friday: \"Terrorist-Insider-Trading?\" The SEC's Pre-September 11, 2001 Trading Review", "date": "2010-04-30" },
+        { "url": "https://www.sec.gov/news/press/2004-98.htm", "publisher": "SEC", "title": "Statement Concerning SEC Terrorist Attack Trading Investigation", "date": "2004-07-22" }
+      ]
+    },
+    {
+      "claim": "The SEC review attributed the increases in United Airlines and American Airlines put-option volume before September 11 to the release of weak airline-industry figures and a recommendation from Options Hotline, a market newsletter; the SEC interviewed 28 purchasers of those options.",
+      "status": "documented",
+      "date": "2002-05-15",
+      "quote": "these upticks were due to the release of lackluster airline industry figures and a recommendation from Options Hotline, a market newsletter",
+      "sources": [
+        { "url": "https://unredacted.com/2010/04/30/document-friday-terrorist-insider-trading-the-secs-pre-september-11-2001-trading-review/", "publisher": "National Security Archive (Unredacted)", "title": "Document Friday: \"Terrorist-Insider-Trading?\" The SEC's Pre-September 11, 2001 Trading Review", "date": "2010-04-30" }
+      ]
+    },
+    {
+      "claim": "The 9/11 Commission Report (2004) found that exhaustive investigation by the SEC, FBI and other agencies uncovered no evidence that anyone with advance knowledge of the attacks profited through securities transactions. In chapter 5 note 130 it states that a single US-based institutional investor with no conceivable ties to al Qaeda bought 95 percent of the United Airlines puts on September 6, 2001 as part of a broader strategy, and that much of the American Airlines put buying on September 10 was traced to a US options newsletter faxed to subscribers on September 9.",
+      "status": "court",
+      "date": "2004-07-22",
+      "quote": "much of the suspicious trading in American on September 10 was traced to a specific U.S.-based options trading newsletter, faxed to its subscribers on Sunday, September 9, which recommended these trades",
+      "sources": [
+        { "url": "https://9-11commission.gov/report/911Report_Notes.htm", "publisher": "National Commission on Terrorist Attacks Upon the United States", "title": "9-11 Commission Report: Notes", "date": "2004-07-22" },
+        { "url": "https://www.govinfo.gov/app/details/GPO-911REPORT", "publisher": "GovInfo", "title": "The 9/11 Commission Report", "date": "2004-07-22" }
+      ]
+    },
+    {
+      "claim": "The 9/11 Commission Report stated that the SEC and FBI, working with other agencies and the securities industry, devoted enormous resources to investigating pre-attack trading, including securing the cooperation of many foreign governments.",
+      "status": "court",
+      "date": "2004-07-22",
+      "quote": "The SEC and FBI, working with other agencies and the securities industry, devoted enormous resources to investigating this issue, including securing the cooperation of many foreign governments.",
+      "sources": [
+        { "url": "https://9-11commission.gov/report/911Report_Notes.htm", "publisher": "National Commission on Terrorist Attacks Upon the United States", "title": "9-11 Commission Report: Notes", "date": "2004-07-22" }
+      ]
+    },
+    {
+      "claim": "Allen Poteshman's 2006 Journal of Business paper found an unusually high level of put buying in the option market before September 11, concentrated in American Airlines (AMR) and United Airlines (UAL) options, which he described as consistent with informed investors having traded ahead of the attacks; the paper's evidence is statistical and does not identify any trader or the source of their information.",
+      "status": "peer",
+      "date": "2006",
+      "quote": "Examination of the option trading leading up to September 11 reveals that there was an unusually high level of put buying. This finding is consistent with informed investors having traded options in advance of the attacks.",
+      "sources": [
+        { "url": "https://www.jstor.org/stable/10.1086/503645", "publisher": "Journal of Business (University of Chicago Press)", "title": "Unusual Option Market Activity and the Terrorist Attacks of September 11, 2001", "date": "2006" },
+        { "url": "https://ideas.repec.org/a/ucp/jnlbus/v79y2006i4p1703-1726.html", "publisher": "RePEc", "title": "Unusual Option Market Activity and the Terrorist Attacks of September 11, 2001", "date": "2006" }
+      ]
+    },
+    {
+      "claim": "Wong, Thompson and Teh, in a 2011 Multinational Finance Journal paper, applied t-tests and non-parametric tests to S&P 500 index options and rejected the null hypothesis of no abnormal trading in out-of-the-money, at-the-money and in-the-money SPX puts and in-the-money SPX calls before September 11, 2001; the abstract does not establish who traded or why.",
+      "status": "peer",
+      "date": "2011",
+      "quote": "They used Student's t-statistics and several non-parametric statistics to test whether there was abnormal trading in S&P 500 (SPX) index options prior to the September 11 attacks.",
+      "sources": [
+        { "url": "https://ideas.repec.org/a/mfj/journl/v15y2011i1-2p1-46.html", "publisher": "RePEc", "title": "Was there Abnormal Trading in the S&P 500 Index Options Prior to the September 11 Attacks?", "date": "2011" },
+        { "url": "https://sites.uwasa.fi/mfjuva/?p=894", "publisher": "Multinational Finance Journal", "title": "Was there Abnormal Trading in the S&P 500 Index Options Prior to the September 11 Attacks?", "date": "2011" }
+      ]
+    },
+    {
+      "claim": "In response to a later FOIA request for the records behind the 9/11 Commission's footnote 130, the SEC replied that the potentially responsive records had been destroyed, according to a blog reproducing the letter.",
+      "status": "reported",
+      "date": "2010-06",
+      "quote": "We have been advised that the potentially responsive records have been destroyed.",
+      "sources": [
+        { "url": "https://www.philstockworld.com/2010/06/15/sec-government-destroyed-documents-regarding-pre911-put-options/", "publisher": "Phil's Stock World (reproducing SEC FOIA letter)", "title": "SEC: Government Destroyed Documents Regarding Pre-9/11 Put Options", "date": "2010-06-15" }
+      ]
+    },
+    {
+      "claim": "The SEC investigated whether Senator Richard Burr sold stocks on February 13, 2020 on the basis of material nonpublic information and sought testimony from his brother-in-law Gerald Fauth; in November 2021 a federal judge in the Southern District of New York ordered Fauth to comply with the SEC's subpoena. The SEC closed the investigation of both men with no action in January 2023.",
+      "status": "court",
+      "date": "2023-01-06",
+      "quote": "SEC staff served Fauth with an investigative subpoena in May 2020 seeking his testimony",
+      "sources": [
+        { "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-25261", "publisher": "SEC", "title": "SEC Obtains Court Order to Enforce Investigative Subpoena for Testimony (Gerald Fauth)", "date": "2021-11" },
+        { "url": "https://www.cnbc.com/2023/01/06/sec-ends-richard-burr-insider-trading-probe.html", "publisher": "CNBC", "title": "SEC ends insider trading probe of ex-Sen. Richard Burr and brother-in-law without taking action, lawyers say", "date": "2023-01-06" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "richard-burr",
+      "relation": "investigated",
+      "claim": "The SEC investigated Richard Burr's February 13, 2020 stock sales in a civil insider-trading inquiry that continued after the Justice Department closed its criminal case, and closed it with no action in January 2023.",
+      "status": "court",
+      "date": "2023-01-06",
+      "quote": "Burr said the SEC informed him that they had concluded their investigation with no action.",
+      "sources": [
+        { "url": "https://www.cnbc.com/2023/01/06/sec-ends-richard-burr-insider-trading-probe.html", "publisher": "CNBC", "title": "SEC ends insider trading probe of ex-Sen. Richard Burr and brother-in-law without taking action, lawyers say", "date": "2023-01-06" },
+        { "url": "https://www.cnn.com/2023/01/06/politics/richard-burr-insider-trading-investigation-sec", "publisher": "CNN", "title": "SEC closes insider trading probe into former Republican senator", "date": "2023-01-06" }
+      ]
+    },
+    {
+      "to": "Allen Poteshman",
+      "toName": "Allen Poteshman",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Poteshman's 2006 Journal of Business study of pre-September 11 option trading reached a statistical finding (unusually high put buying consistent with informed trading) that differs in emphasis from the SEC's and the 9/11 Commission's conclusion that no evidence of trading on advance knowledge was found.",
+      "status": "peer",
+      "date": "2006",
+      "quote": "This finding is consistent with informed investors having traded options in advance of the attacks.",
+      "sources": [
+        { "url": "https://www.jstor.org/stable/10.1086/503645", "publisher": "Journal of Business (University of Chicago Press)", "title": "Unusual Option Market Activity and the Terrorist Attacks of September 11, 2001", "date": "2006" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The exact wording of 9/11 Commission chapter 5 note 130 could not be opened directly; the quotes are taken from search excerpts of the Commission's notes page and secondary summaries. The owner should verify against page 499 of the report on govinfo.",
+    "The 'records destroyed' FOIA reply is known only from a blog reproduction; the original SEC letter was not located.",
+    "The site attributes the Deutsche Bank Alex. Brown / Krongard angle and 'Chesney 2010' to this episode; neither was researched here. The WTC 7 / SEC Northeast Regional Office records claim was not researched.",
+    "No SEC action on the October 7, 2023 short-selling paper was found; that material is filed under israel-securities-authority."
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "entity": "henry-edmund-gurney",
+  "name": "Henry Edmund Gurney",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Henry Edmund Gurney was a partner and director of Overend, Gurney & Co., the London discount house that suspended payment on 10 May 1866. He was among the directors prosecuted for conspiracy and fraud over the firm's 1865 flotation; the case, The Queen v. Gurney and Others, was heard in the Court of Queen's Bench and a report of it was published in 1870.",
+    "sources": [
+      {
+        "url": "https://sclqld.org.au/catalogue/records/7710",
+        "publisher": "Supreme Court Library Queensland catalogue",
+        "title": "Report of the case of The Queen v. Gurney and Others in the Court of Queen's Bench (London: Stevens & Haynes, 1870)",
+        "date": "1870"
+      },
+      {
+        "url": "https://slbrartest.natlib.govt.nz/newspapers/CROMARG18700112.2.32.1",
+        "publisher": "Papers Past (National Library of New Zealand)",
+        "title": "Cromwell Argus, 12 January 1870",
+        "date": "1870-01-12"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "A report of The Queen v. Gurney and Others in the Court of Queen's Bench was published in London by Stevens & Haynes in 1870, with Henry Edmund Gurney as a named subject.",
+      "status": "documented",
+      "date": "1870",
+      "quote": "A Report of the case of The Queen v Gurney and Others in the Court of Queen's Bench.",
+      "sources": [
+        {
+          "url": "https://sclqld.org.au/catalogue/records/7710",
+          "publisher": "Supreme Court Library Queensland catalogue",
+          "title": "Report of the case of The Queen v. Gurney and Others in the Court of Queen's Bench (London: Stevens & Haynes, 1870)",
+          "date": "1870"
+        }
+      ]
+    },
+    {
+      "claim": "In early 1870 the prosecutor of the Overend Gurney directors, Dr Thom, applied for funds to continue the prosecution for conspiracy and fraud, shareholders being reluctant to keep paying.",
+      "status": "reported",
+      "date": "1870-01",
+      "sources": [
+        {
+          "url": "https://slbrartest.natlib.govt.nz/newspapers/CROMARG18700112.2.32.1",
+          "publisher": "Papers Past (National Library of New Zealand)",
+          "title": "Cromwell Argus, 12 January 1870",
+          "date": "1870-01-12"
+        }
+      ]
+    },
+    {
+      "claim": "A contemporary newspaper reported that nearly a year elapsed between the first steps in the prosecution and the case coming before the Queen's Bench.",
+      "status": "reported",
+      "date": "1869",
+      "quote": "Nearly a year has elapsed since the first steps in the prosecution were taken.",
+      "sources": [
+        {
+          "url": "https://trove.nla.gov.au/newspaper/page/525734",
+          "publisher": "Trove (National Library of Australia)",
+          "title": "Newspaper page, Overend Gurney prosecution"
+        }
+      ]
+    },
+    {
+      "claim": "The solicitor George Henry Lewis first made his name prosecuting the directors of Overend, Gurney & Co.",
+      "status": "reported",
+      "date": "1869",
+      "quote": "he first made his name in prosecuting the directors of the Overend and Gurney Bank",
+      "sources": [
+        {
+          "url": "https://www.jewishencyclopedia.com/articles/9926",
+          "publisher": "Jewish Encyclopedia",
+          "title": "Lewis, Sir George Henry"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "overend-gurney-and-co",
+      "toName": "Overend, Gurney & Co.",
+      "toType": "company",
+      "relation": "board member of",
+      "claim": "Henry Edmund Gurney was a director of Overend, Gurney & Co. and a defendant in The Queen v. Gurney and Others.",
+      "status": "documented",
+      "date": "1866",
+      "sources": [
+        {
+          "url": "https://sclqld.org.au/catalogue/records/7710",
+          "publisher": "Supreme Court Library Queensland catalogue",
+          "title": "Report of the case of The Queen v. Gurney and Others in the Court of Queen's Bench (London: Stevens & Haynes, 1870)",
+          "date": "1870"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: the page says the directors were 'tried at the Old Bailey over the 1865 prospectus and acquitted'. The sources found place the case in the Court of Queen's Bench (Guildhall sittings) and do not state the verdict; the acquittal is widely recorded but was not confirmed here. Owner should check the 1870 Stevens & Haynes report.",
+    "No source was found naming John Henry Gurney or Edward Watkin Edwards in connection with the trial; no files were written for them."
+  ]
+}

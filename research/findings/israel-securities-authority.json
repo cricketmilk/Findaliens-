@@ -1,0 +1,102 @@
+{
+  "entity": "israel-securities-authority",
+  "name": "Israel Securities Authority",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The Israel Securities Authority (ISA) is Israel's securities regulator. In December 2023 it responded to 'Trading on Terror?', an SSRN working paper by Robert J. Jackson Jr. (NYU) and Joshua Mitts (Columbia) reporting a spike in short selling of the MSCI Israel ETF and of Israeli companies including Bank Leumi days before the October 7, 2023 Hamas attack. The ISA said its routine surveillance and a review carried out immediately after October 7 found no significant trading abnormalities requiring further investigation, and the Tel Aviv Stock Exchange said the paper had overstated short-sale profits on Bank Leumi about a hundredfold by treating prices quoted in agorot as shekels. The authors corrected the currency error and said it did not affect their findings on the ETF and short-dated options.",
+    "sources": [
+      { "url": "https://www.timesofisrael.com/israel-regulator-finds-no-suspicious-or-abnormal-trading-ahead-of-hamas-assault/", "publisher": "Times of Israel", "title": "Israeli regulator finds no 'suspicious' or abnormal trading ahead of Hamas assault", "date": "2023-12" },
+      { "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4652027", "publisher": "SSRN", "title": "Trading on Terror? by Robert J. Jackson, Jr., Joshua Mitts", "date": "2023-12-04" },
+      { "url": "https://en.globes.co.il/en/article-1001464319", "publisher": "Globes", "title": "ISA: No suspicious short selling before Hamas attack", "date": "2023-12" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "'Trading on Terror?', a working paper by Robert J. Jackson Jr. (NYU School of Law, a former SEC commissioner) and Joshua Mitts (Columbia Law School), was posted on SSRN on December 4, 2023 and last revised December 7, 2023. It reports that short interest in the MSCI Israel ETF spiked on October 2, 2023, five days before the Hamas attack, and reports increases in short selling before the attack in dozens of Israeli companies traded in Tel Aviv.",
+      "status": "documented",
+      "date": "2023-12-04",
+      "quote": "On October 2, short interest in the MSCI Israel Exchange Traded Fund (ETF) suddenly, and significantly, spiked.",
+      "sources": [
+        { "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4652027", "publisher": "SSRN", "title": "Trading on Terror? by Robert J. Jackson, Jr., Joshua Mitts", "date": "2023-12-04" },
+        { "url": "https://www.cnn.com/2023/12/04/business/some-traders-appear-to-have-anticipated-october-7-hamas-attack-research-finds/index.html", "publisher": "CNN", "title": "Unknown traders appear to have anticipated October 7 Hamas attack, research finds", "date": "2023-12-04" }
+      ]
+    },
+    {
+      "claim": "The ISA said in December 2023 that its surveillance system, which monitors trading routinely, did not detect significant trading abnormalities requiring further investigation in the days before the Hamas attack, that a proactive examination carried out immediately after October 7 did not yield findings suggesting suspicious trading, and that average short balances on Tel Aviv Stock Exchange shares declined in the period before October 7.",
+      "status": "documented",
+      "date": "2023-12-05",
+      "quote": "In the days preceding the Hamas terrorist attack, no significant trading abnormalities that necessitate further investigation were detected",
+      "sources": [
+        { "url": "https://www.timesofisrael.com/israel-regulator-finds-no-suspicious-or-abnormal-trading-ahead-of-hamas-assault/", "publisher": "Times of Israel", "title": "Israeli regulator finds no 'suspicious' or abnormal trading ahead of Hamas assault", "date": "2023-12" },
+        { "url": "https://en.globes.co.il/en/article-1001464319", "publisher": "Globes", "title": "ISA: No suspicious short selling before Hamas attack", "date": "2023-12" }
+      ]
+    },
+    {
+      "claim": "The ISA said the Bank Leumi short position before October 7 was estimated at several tens of millions of shekels rather than the three billion shekels stated in the paper's first version, and noted that the paper relied heavily on short selling of a New York-listed fund, which Israeli regulators had not reviewed.",
+      "status": "documented",
+      "date": "2023-12-05",
+      "quote": "It also said the Bank Leumi short position was estimated in several tens of millions of shekels, rather than three billion shekels.",
+      "sources": [
+        { "url": "https://www.timesofisrael.com/israel-regulator-finds-no-suspicious-or-abnormal-trading-ahead-of-hamas-assault/", "publisher": "Times of Israel", "title": "Israeli regulator finds no 'suspicious' or abnormal trading ahead of Hamas assault", "date": "2023-12" },
+        { "url": "https://abc17news.com/money/cnn-business-consumer/2023/12/05/israeli-regulators-are-looking-into-unusual-trading-prior-to-october-7-attack/", "publisher": "CNN (via ABC17)", "title": "Israeli regulators are looking into unusual trading prior to October 7 attack", "date": "2023-12-05" }
+      ]
+    },
+    {
+      "claim": "The Tel Aviv Stock Exchange called the paper flawed and said its authors had assumed Bank Leumi shares were quoted in shekels rather than agorot (100 agorot to the shekel), overstating short-sale profits by a factor of about 100; the paper's original figure of 3.2 billion shekels was reported as corrected to roughly 30 million shekels. TASE's head of trading, Yaniv Pagot, said the Leumi short position was taken by an Israeli bank known to the exchange.",
+      "status": "reported",
+      "date": "2023-12-06",
+      "quote": "the research assumed that shares in Bank Leumi were quoted in shekels, instead of agorots (1 shekel is worth 100 agorots)",
+      "sources": [
+        { "url": "https://www.nbcnewyork.com/news/business/money-report/israel-exchange-says-no-abnormal-trading-ahead-of-oct-7-attack-calls-short-seller-report-flawed/4925992/", "publisher": "CNBC (via NBC New York)", "title": "Israel exchange says no abnormal trading ahead of Oct. 7 attack, calls short seller report 'flawed'", "date": "2023-12-06" },
+        { "url": "https://finance.yahoo.com/news/tel-aviv-bourse-says-no-134147320.html", "publisher": "Reuters (via Yahoo Finance)", "title": "Tel Aviv bourse says no unusual trading ahead of Oct 7 Hamas attack", "date": "2023-12-06" },
+        { "url": "https://www.institutionalinvestor.com/article/2cki5x5eoic5m5xkuxq0w/culture/josh-mitts-tries-to-prove-short-sellers-profited-from-war-in-the-middle-east-but-he-made-a-big-mistake", "publisher": "Institutional Investor", "title": "Josh Mitts Tries to Prove Short Sellers Profited From War in the Middle East — But He Made a Big Mistake", "date": "2023-12" }
+      ]
+    },
+    {
+      "claim": "Joshua Mitts said the paper was updated to correct the currency error and that the correction did not affect its claims about highly unusual activity in exchange-traded funds and short-dated options; the authors stood by the rest of the paper.",
+      "status": "words",
+      "date": "2023-12-07",
+      "quote": "The currency issue had been corrected, but that this did not affect the paper's claims regarding \"highly unusual\" activity with exchange traded funds (ETF) and short-dated options.",
+      "sources": [
+        { "url": "https://www.timesofisrael.com/israel-regulator-finds-no-suspicious-or-abnormal-trading-ahead-of-hamas-assault/", "publisher": "Times of Israel", "title": "Israeli regulator finds no 'suspicious' or abnormal trading ahead of Hamas assault", "date": "2023-12" },
+        { "url": "https://www.nbcnewyork.com/news/business/money-report/israel-exchange-says-no-abnormal-trading-ahead-of-oct-7-attack-calls-short-seller-report-flawed/4925992/", "publisher": "CNBC (via NBC New York)", "title": "Israel exchange says no abnormal trading ahead of Oct. 7 attack, calls short seller report 'flawed'", "date": "2023-12-06" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "Joshua Mitts",
+      "toName": "Joshua Mitts",
+      "toType": "person",
+      "relation": "other",
+      "claim": "The ISA publicly responded to Joshua Mitts and Robert J. Jackson Jr.'s working paper 'Trading on Terror?', stating that its reviews found no significant trading abnormalities before October 7, 2023.",
+      "status": "documented",
+      "date": "2023-12-05",
+      "quote": "In the days preceding the Hamas terrorist attack, no significant trading abnormalities that necessitate further investigation were detected",
+      "sources": [
+        { "url": "https://www.timesofisrael.com/israel-regulator-finds-no-suspicious-or-abnormal-trading-ahead-of-hamas-assault/", "publisher": "Times of Israel", "title": "Israeli regulator finds no 'suspicious' or abnormal trading ahead of Hamas assault", "date": "2023-12" },
+        { "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4652027", "publisher": "SSRN", "title": "Trading on Terror? by Robert J. Jackson, Jr., Joshua Mitts", "date": "2023-12-04" }
+      ]
+    },
+    {
+      "to": "Tel Aviv Stock Exchange",
+      "toName": "Tel Aviv Stock Exchange",
+      "toType": "company",
+      "relation": "regulated",
+      "claim": "The ISA supervises trading on the Tel Aviv Stock Exchange; both bodies issued statements in December 2023 saying no abnormal trading was found before October 7.",
+      "status": "reported",
+      "date": "2023-12-06",
+      "quote": "The regulator also reviewed trading again after it learned of the forthcoming research, and that review \"did not raise any concerns regarding suspicious activity on the stock exchange in Israel during the relevant days.\"",
+      "sources": [
+        { "url": "https://abc17news.com/money/cnn-business-consumer/2023/12/05/israeli-regulators-are-looking-into-unusual-trading-prior-to-october-7-attack/", "publisher": "CNN (via ABC17)", "title": "Israeli regulators are looking into unusual trading prior to October 7 attack", "date": "2023-12-05" },
+        { "url": "https://finance.yahoo.com/news/tel-aviv-bourse-says-no-134147320.html", "publisher": "Reuters (via Yahoo Finance)", "title": "Tel Aviv bourse says no unusual trading ahead of Oct 7 Hamas attack", "date": "2023-12-06" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The ISA's own statement on isa.gov.il was not located; quotations come from Times of Israel, Globes and CNN coverage.",
+    "No evidence was found that 'Trading on Terror?' has been published in a peer-reviewed journal; SSRN lists it as last revised December 7, 2023. Whether a further 2024 revision exists should be checked on SSRN.",
+    "No source was found for the site's claim that short interest in EIS exceeded levels seen in 2008 or the 2014 Gaza war, nor for the identity of any trader; the TASE said the Leumi short was taken by an Israeli bank it did not name.",
+    "The site attributes the paper to former SEC commissioner Robert Jackson Jr. and Joshua Mitts; SSRN lists Jackson as the first author."
+  ]
+}

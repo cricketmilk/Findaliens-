@@ -1,0 +1,161 @@
+{
+  "entity": "keith-mccoy",
+  "name": "Keith McCoy",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Keith McCoy was ExxonMobil's senior director for federal relations. In May 2021 an investigator for Greenpeace UK's Unearthed, posing as a recruiter, recorded him on a Zoom call discussing the company's lobbying; Channel 4 News aired the footage on June 30, 2021. McCoy said Exxon had joined 'shadow groups' to work against early climate efforts and described the company's public support for a carbon tax as an 'easy talking point' unlikely to pass Congress. ExxonMobil CEO Darren Woods apologised and said the comments did not represent the company's position.",
+    "sources": [
+      {
+        "url": "https://www.gpb.org/node/611911",
+        "publisher": "GPB (NPR)",
+        "title": "Exxon lobbyist caught on video discussing company's climate lobbying",
+        "date": "2021-07"
+      },
+      {
+        "url": "https://electrek.co/2021/07/02/this-secret-video-reveals-exxons-tricks-to-thwart-clean-energy/",
+        "publisher": "Electrek",
+        "title": "This secret video reveals Exxon's tricks to thwart clean energy",
+        "date": "2021-07-02"
+      },
+      {
+        "url": "https://www.business-humanrights.org/de/neuste-meldungen/usa-exxonmobil-ceo-apologizes-for-lobbyists-comments-on-us-climate-legislation/",
+        "publisher": "Business & Human Rights Resource Centre",
+        "title": "USA: ExxonMobil CEO apologizes for lobbyist's comments on US climate legislation",
+        "date": "2021-07"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Video released by Greenpeace's Unearthed showed McCoy, Exxon's senior director for federal relations, discussing the company's lobbying strategies to an investigator posing as a head hunter; the Zoom meeting took place in May 2021 and was aired by Channel 4.",
+      "status": "reported",
+      "date": "2021-06-30",
+      "quote": "An Unearthed investigator posed as a head hunter when speaking with McCoy. The Zoom meeting took place in May and was aired by Channel 4 on a Wednesday.",
+      "sources": [
+        {
+          "url": "https://www.gpb.org/node/611911",
+          "publisher": "GPB (NPR)",
+          "title": "Exxon lobbyist caught on video discussing company's climate lobbying",
+          "date": "2021-07"
+        }
+      ]
+    },
+    {
+      "claim": "McCoy said Exxon had joined 'shadow groups' to work against early efforts on climate, adding that there was nothing illegal about it.",
+      "status": "words",
+      "date": "2021-05",
+      "quote": "McCoy said Exxon had joined some shadow groups to work against some of the early efforts on climate, adding \"Yes, that's true.\" He also said there was nothing illegal about it.",
+      "sources": [
+        {
+          "url": "https://www.gpb.org/node/611911",
+          "publisher": "GPB (NPR)",
+          "title": "Exxon lobbyist caught on video discussing company's climate lobbying",
+          "date": "2021-07"
+        },
+        {
+          "url": "https://electrek.co/2021/07/02/this-secret-video-reveals-exxons-tricks-to-thwart-clean-energy/",
+          "publisher": "Electrek",
+          "title": "This secret video reveals Exxon's tricks to thwart clean energy",
+          "date": "2021-07-02"
+        }
+      ]
+    },
+    {
+      "claim": "McCoy described Exxon's public support for a carbon tax as an 'easy talking point' with little chance of passing Congress.",
+      "status": "words",
+      "date": "2021-05",
+      "quote": "McCoy described the company's public support for a carbon tax as an \"easy talking point\" with little chance of ever passing Congress.",
+      "sources": [
+        {
+          "url": "https://www.gpb.org/node/611911",
+          "publisher": "GPB (NPR)",
+          "title": "Exxon lobbyist caught on video discussing company's climate lobbying",
+          "date": "2021-07"
+        }
+      ]
+    },
+    {
+      "claim": "ExxonMobil CEO Darren Woods said the company condemned the statements and was 'deeply apologetic', calling them inconsistent with Exxon's commitments and its position that carbon pricing is important.",
+      "status": "words",
+      "date": "2021-07",
+      "quote": "Woods said the company condemns the statements and is deeply apologetic for them, including comments about interactions with elected officials.",
+      "sources": [
+        {
+          "url": "https://www.business-humanrights.org/de/neuste-meldungen/usa-exxonmobil-ceo-apologizes-for-lobbyists-comments-on-us-climate-legislation/",
+          "publisher": "Business & Human Rights Resource Centre",
+          "title": "USA: ExxonMobil CEO apologizes for lobbyist's comments on US climate legislation",
+          "date": "2021-07"
+        },
+        {
+          "url": "https://www.gpb.org/node/611911",
+          "publisher": "GPB (NPR)",
+          "title": "Exxon lobbyist caught on video discussing company's climate lobbying",
+          "date": "2021-07"
+        }
+      ]
+    },
+    {
+      "claim": "McCoy wrote on LinkedIn that he was deeply embarrassed and had fallen for Greenpeace's deception; the Channel 4 report did not allege illegal conduct.",
+      "status": "words",
+      "date": "2021-07",
+      "quote": "McCoy later posted on LinkedIn that he was deeply embarrassed and had allowed himself to fall for Greenpeace's deception.",
+      "sources": [
+        {
+          "url": "https://www.gpb.org/node/611911",
+          "publisher": "GPB (NPR)",
+          "title": "Exxon lobbyist caught on video discussing company's climate lobbying",
+          "date": "2021-07"
+        },
+        {
+          "url": "https://electrek.co/2021/07/02/this-secret-video-reveals-exxons-tricks-to-thwart-clean-energy/",
+          "publisher": "Electrek",
+          "title": "This secret video reveals Exxon's tricks to thwart clean energy",
+          "date": "2021-07-02"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "exxonmobil",
+      "toName": "ExxonMobil",
+      "toType": "company",
+      "relation": "employed by",
+      "claim": "McCoy was ExxonMobil's senior director for federal relations when recorded in May 2021.",
+      "status": "reported",
+      "date": "2021",
+      "quote": "Keith McCoy, the oil giant's senior director for federal relations",
+      "sources": [
+        {
+          "url": "https://www.gpb.org/node/611911",
+          "publisher": "GPB (NPR)",
+          "title": "Exxon lobbyist caught on video discussing company's climate lobbying",
+          "date": "2021-07"
+        }
+      ]
+    },
+    {
+      "to": "channel-4-news",
+      "toName": "Channel 4 News",
+      "toType": "media",
+      "relation": "investigated",
+      "claim": "Channel 4 News aired Unearthed's undercover recording of McCoy in June 2021.",
+      "status": "reported",
+      "date": "2021-06-30",
+      "quote": "The Zoom meeting took place in May and was aired by Channel 4 on a Wednesday.",
+      "sources": [
+        {
+          "url": "https://www.gpb.org/node/611911",
+          "publisher": "GPB (NPR)",
+          "title": "Exxon lobbyist caught on video discussing company's climate lobbying",
+          "date": "2021-07"
+        }
+      ],
+      "reverse": true
+    }
+  ],
+  "openQuestions": [
+    "Site claim (documented; 'shadow groups', carbon-tax talking point): supported.",
+    "Whether McCoy left ExxonMobil afterwards was not confirmed from the sources used."
+  ]
+}

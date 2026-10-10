@@ -1,0 +1,101 @@
+{
+  "entity": "lunate",
+  "name": "Lunate",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Lunate is an Abu Dhabi-based alternative investment manager launched in September 2023 by Chimera Investment LLC with more than $50 billion of assets under management. It is headquartered in Abu Dhabi Global Market, is owned by Chimera and its senior management, and is led by managing partners Khalifa Al Suwaidi, Murtaza Hussain and Seif Fikry; Chimera sits within a group overseen by Sheikh Tahnoon bin Zayed Al Nahyan, and Bloomberg reported in November 2023 that Chimera and the state fund ADQ planned to commit more capital to take it toward $100 billion. Later coverage puts its assets at $105-115 billion. In December 2024 Lunate and the Qatar Investment Authority committed a further $1.5 billion to Jared Kushner's Affinity Partners, which is recorded in affinity-partners.json; this file holds what is specific to the firm.",
+    "sources": [
+      { "url": "https://wam.ae/en/details/1395303197697", "publisher": "Emirates News Agency (WAM)", "title": "Lunate launches in Abu Dhabi with over $50bn of AuM", "date": "2023-09" },
+      { "url": "https://www.bloomberg.com/news/articles/2023-11-15/abu-dhabi-s-adq-chimera-set-to-commit-billions-more-to-new-fund", "publisher": "Bloomberg", "title": "Abu Dhabi's ADQ, Chimera Set to Commit Billions More to New Fund", "date": "2023-11-15" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Lunate launched in Abu Dhabi in September 2023 with more than $50 billion of assets under management, as an independent entity owned by Chimera Investment LLC and Lunate's senior management, headquartered in Abu Dhabi Global Market and focused on private markets including private equity, venture capital, private credit and real assets.",
+      "status": "documented",
+      "date": "2023-09",
+      "quote": "It is an independent entity owned by Chimera Investment LLC and Lunate's senior management.",
+      "sources": [
+        { "url": "https://wam.ae/en/details/1395303197697", "publisher": "Emirates News Agency (WAM)", "title": "Lunate launches in Abu Dhabi with over $50bn of AuM", "date": "2023-09" },
+        { "url": "https://gulfbusiness.com/en/2023/finance/chimera-launches-lunate-with-over-50bn-in-assets", "publisher": "Gulf Business", "title": "Chimera launches Lunate, an alternative investment management firm with over $50bn in AUM", "date": "2023-09" }
+      ]
+    },
+    {
+      "claim": "At launch Lunate's managing partners were Khalifa Al Suwaidi, chief executive of the Abu Dhabi Growth Fund, Murtaza Hussain, chief investment officer of ADQ's alternatives arm, and Chimera chief risk officer Seif Fikry; Chimera sits within a business group overseen by Sheikh Tahnoon bin Zayed Al Nahyan.",
+      "status": "reported",
+      "date": "2023-09",
+      "quote": "Chimera sits within a business overseen by Sheikh Tahnoon bin Zayed Al Nahyan",
+      "sources": [
+        { "url": "https://www.agbi.com/finance/2023/09/abu-dhabi-firm-launches-50bn-asset-manager/", "publisher": "AGBI", "title": "Abu Dhabi firm launches $50bn asset manager", "date": "2023-09" },
+        { "url": "https://gulfnews.com/business/markets/abu-dhabis-chimera-sets-up-50-billion-asset-manager-1.98136420", "publisher": "Gulf News", "title": "Abu Dhabi's Chimera sets up $50 billion asset manager", "date": "2023-09" }
+      ]
+    },
+    {
+      "claim": "Bloomberg reported in November 2023 that Chimera Investment and the Abu Dhabi state fund ADQ were in talks to commit more capital to Lunate and lift its assets under management to $100 billion over time; later coverage put its assets at about $105 billion, including roughly $47 billion of commitments from ADQ, and a 2025 release cited $110 billion.",
+      "status": "reported",
+      "date": "2023-11-15",
+      "quote": "Abu Dhabi's ADQ, Chimera Set to Commit Billions More to New Fund",
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2023-11-15/abu-dhabi-s-adq-chimera-set-to-commit-billions-more-to-new-fund", "publisher": "Bloomberg", "title": "Abu Dhabi's ADQ, Chimera Set to Commit Billions More to New Fund", "date": "2023-11-15" },
+        { "url": "https://www.themiddlemarket.com/latest-news/chimera-backed-lunate-eyes-larger-2026-funds", "publisher": "The Middle Market", "title": "Chimera-Backed Lunate Eyes Larger 2026 Funds", "date": "2026" }
+      ]
+    },
+    {
+      "claim": "Lunate has launched ALTERRA, a private climate investment vehicle, and Axight, an Asia-Pacific mid-market platform, and in 2025 announced a long-term partnership with Brevan Howard with an initial $2 billion commitment.",
+      "status": "reported",
+      "date": "2025",
+      "quote": "In 2025, Lunate announced a long-term partnership with Brevan Howard, with an initial USD 2 billion commitment",
+      "sources": [
+        { "url": "https://www.presseportal.de/en/pdf.htx?nr=6104222", "publisher": "Presseportal (company release)", "title": "Lunate press release", "date": "2025" },
+        { "url": "https://propertyinvestmentsdubai.com/abu-dhabi-s-lunate-launches-new-venture-axight-1184/", "publisher": "Property Investments Dubai", "title": "Abu Dhabi's Lunate Launches Axight to Expand Private Equity Investments in Asia-Pacific" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "affinity-partners",
+      "toName": "Affinity Partners",
+      "toType": "fund",
+      "relation": "funded",
+      "claim": "In December 2024 Lunate and the Qatar Investment Authority committed a further $1.5 billion to Jared Kushner's Affinity Partners, extending the fund's investment period to 2029; the individual amounts were not disclosed.",
+      "status": "reported",
+      "date": "2024-12-20",
+      "quote": "Affinity Partners had raised an additional $1.5 billion from the Qatar Investment Authority and Abu Dhabi's Lunate",
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2024-12-20/jared-kushner-s-affinity-gets-1-5-billion-more-from-qatar-abu-dhabi-s-lunate", "publisher": "Bloomberg", "title": "Jared Kushner's Affinity Gets $1.5 Billion More From Qatar, Abu Dhabi's Lunate", "date": "2024-12-20" },
+        { "url": "https://www.agbi.com/finance/2024/12/kushners-affinity-raises-new-capital-from-qia-and-lunate/", "publisher": "AGBI", "title": "Kushner's Affinity raises new capital from QIA and Lunate", "date": "2024-12" }
+      ]
+    },
+    {
+      "to": "Chimera Investment LLC",
+      "toName": "Chimera Investment LLC",
+      "toType": "company",
+      "relation": "subsidiary of",
+      "claim": "Lunate was launched by Chimera Investment LLC and is owned by Chimera and Lunate's senior management.",
+      "status": "documented",
+      "date": "2023-09",
+      "quote": "It is an independent entity owned by Chimera Investment LLC and Lunate's senior management.",
+      "sources": [
+        { "url": "https://wam.ae/en/details/1395303197697", "publisher": "Emirates News Agency (WAM)", "title": "Lunate launches in Abu Dhabi with over $50bn of AuM", "date": "2023-09" }
+      ]
+    },
+    {
+      "to": "ADQ",
+      "toName": "ADQ",
+      "toType": "fund",
+      "relation": "funded",
+      "claim": "Bloomberg reported that the Abu Dhabi state fund ADQ, with Chimera, planned to commit billions more to Lunate; later coverage described about $47 billion of ADQ commitments within Lunate's assets.",
+      "status": "reported",
+      "date": "2023-11-15",
+      "quote": "Abu Dhabi's ADQ, Chimera Set to Commit Billions More to New Fund",
+      "reverse": true,
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2023-11-15/abu-dhabi-s-adq-chimera-set-to-commit-billions-more-to-new-fund", "publisher": "Bloomberg", "title": "Abu Dhabi's ADQ, Chimera Set to Commit Billions More to New Fund", "date": "2023-11-15" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Lunate's own site (lunate.com) was not returned by search; the WAM release is the closest to a company statement.",
+    "The site links Lunate to MGX and Sheikh Tahnoon via Chimera; the Tahnoon oversight of Chimera is reported (AGBI), not a company statement."
+  ]
+}

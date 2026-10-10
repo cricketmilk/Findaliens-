@@ -1,0 +1,78 @@
+{
+  "entity": "mary-maxwell-gates",
+  "name": "Mary Maxwell Gates",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Mary Maxwell Gates (1929–1994) was a Seattle civic leader, University of Washington regent and the mother of Microsoft co-founder Bill Gates. She joined the national board of United Way in 1980 and in 1983 became the first woman to chair its national executive committee. IBM chief executive John Opel served with her on that board, and she is credited with helping cement Microsoft's early connection with IBM.",
+    "sources": [
+      { "url": "https://archive.seattletimes.com/archive/19940610/1914904/mary-gates-dies----cancer-claims-longtime-seattle-civic-leader-and-mother-of-microsoft-founder-bill-gates", "publisher": "The Seattle Times", "title": "Mary Gates Dies -- Cancer Claims Longtime Seattle Civic Leader And Mother Of Microsoft Founder Bill Gates", "date": "1994-06-10" },
+      { "url": "https://archive.seattletimes.com/archive/19940109/1888770/mary-gates----shes-much-more-than-just-the-mother-of-billionaire-bill-this-former-uw-regent-has-made-a-career-of-community-service", "publisher": "The Seattle Times", "title": "Mary Gates -- She's Much More Than Just The Mother Of Billionaire Bill", "date": "1994-01-09" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In 1983 Mary Gates was named the first woman to chair the national United Way's executive committee.",
+      "status": "reported",
+      "date": "1983",
+      "quote": "In 1983 she was named the first woman to chair the national United Way's executive committee.",
+      "sources": [
+        { "url": "https://archive.seattletimes.com/archive/19940610/1914904/mary-gates-dies----cancer-claims-longtime-seattle-civic-leader-and-mother-of-microsoft-founder-bill-gates", "publisher": "The Seattle Times", "title": "Mary Gates Dies -- Cancer Claims Longtime Seattle Civic Leader And Mother Of Microsoft Founder Bill Gates", "date": "1994-06-10" }
+      ]
+    },
+    {
+      "claim": "IBM chief John Opel served with Mary Gates on United Way's national board in 1980, and the Seattle Times reported that she helped cement Microsoft's early connection with IBM.",
+      "status": "reported",
+      "date": "1980",
+      "quote": "Opel served with Mrs. Gates on United Way's national board at the time.",
+      "sources": [
+        { "url": "https://archive.seattletimes.com/archive/19940610/1914904/mary-gates-dies----cancer-claims-longtime-seattle-civic-leader-and-mother-of-microsoft-founder-bill-gates", "publisher": "The Seattle Times", "title": "Mary Gates Dies -- Cancer Claims Longtime Seattle Civic Leader And Mother Of Microsoft Founder Bill Gates", "date": "1994-06-10" }
+      ]
+    },
+    {
+      "claim": "Mary Gates was a former University of Washington regent who made a career of community service in Seattle.",
+      "status": "reported",
+      "date": "1994-01-09",
+      "sources": [
+        { "url": "https://archive.seattletimes.com/archive/19940109/1888770/mary-gates----shes-much-more-than-just-the-mother-of-billionaire-bill-this-former-uw-regent-has-made-a-career-of-community-service", "publisher": "The Seattle Times", "title": "Mary Gates -- She's Much More Than Just The Mother Of Billionaire Bill", "date": "1994-01-09" }
+      ]
+    },
+    {
+      "claim": "Mary Gates died of cancer in June 1994.",
+      "status": "reported",
+      "date": "1994-06-10",
+      "sources": [
+        { "url": "https://archive.seattletimes.com/archive/19940610/1914904/mary-gates-dies----cancer-claims-longtime-seattle-civic-leader-and-mother-of-microsoft-founder-bill-gates", "publisher": "The Seattle Times", "title": "Mary Gates Dies -- Cancer Claims Longtime Seattle Civic Leader And Mother Of Microsoft Founder Bill Gates", "date": "1994-06-10" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "bill-gates",
+      "toName": "Bill Gates",
+      "toType": "person",
+      "relation": "family of",
+      "claim": "Mary Gates was the mother of Microsoft co-founder Bill Gates.",
+      "status": "reported",
+      "date": "1994",
+      "sources": [
+        { "url": "https://archive.seattletimes.com/archive/19940610/1914904/mary-gates-dies----cancer-claims-longtime-seattle-civic-leader-and-mother-of-microsoft-founder-bill-gates", "publisher": "The Seattle Times", "title": "Mary Gates Dies -- Cancer Claims Longtime Seattle Civic Leader And Mother Of Microsoft Founder Bill Gates", "date": "1994-06-10" }
+      ]
+    },
+    {
+      "to": "john-opel",
+      "toName": "John Opel",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Mary Gates and IBM's John Opel served together on United Way's national board around 1980.",
+      "status": "reported",
+      "date": "1980",
+      "sources": [
+        { "url": "https://archive.seattletimes.com/archive/19940610/1914904/mary-gates-dies----cancer-claims-longtime-seattle-civic-leader-and-mother-of-microsoft-founder-bill-gates", "publisher": "The Seattle Times", "title": "Mary Gates Dies -- Cancer Claims Longtime Seattle Civic Leader And Mother Of Microsoft Founder Bill Gates", "date": "1994-06-10" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site says she served on United Way's national executive committee 'alongside IBM chairman John Opel' in 1980; the obituary places both on the national board in 1980 and dates her executive-committee chairmanship to 1983. Broadly supported, with the timing nuance.",
+    "The site's claim that this relationship was the quid pro quo for IBM's choice of Microsoft is characterisation; the sources describe her as having 'helped cement' the connection."
+  ]
+}

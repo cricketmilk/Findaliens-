@@ -1,0 +1,165 @@
+{
+  "entity": "benex-worldwide",
+  "name": "Benex Worldwide",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Benex (Benex International Co., Inc.) was one of the fund-transfer companies set up by Peter Berlin whose accounts at a Manhattan branch of the Bank of New York, opened in 1996 with the help of his wife Lucy Edwards, a bank vice president, received about $7 billion from Russia over roughly three and a half years. The accounts were the subject of a 1999 federal indictment, 2000 guilty pleas by Berlin and Edwards, the bank's 2005 non-prosecution agreement, and a 2007 suit by Russia's Federal Customs Service against the bank that was settled in 2009.",
+    "sources": [
+      {
+        "url": "https://www.justice.gov/archive/usao/nye/pr/2005/2005nov08.html",
+        "publisher": "U.S. Department of Justice, U.S. Attorney's Office for the Eastern District of New York",
+        "title": "Bank of New York agrees to pay $38 million to resolve criminal investigations",
+        "date": "2005-11-08"
+      },
+      {
+        "url": "https://www.kyivpost.com/content/ukraine/a-native-son-and-the-bank-of-new-york-scandal-1279.html",
+        "publisher": "Kyiv Post",
+        "title": "A native son and the Bank of New York scandal"
+      },
+      {
+        "url": "https://www.insidearm.com/news/00025237-russias-customs-agency-sues-bank-of-ny-fo/",
+        "publisher": "insideARM",
+        "title": "Russia's Customs Agency Sues Bank of NY for $22.5 billion",
+        "date": "2007"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Accounts in the names of Benex International Co., Inc. and BECS International LLC were opened in 1996 at a Manhattan retail branch of the Bank of New York; over roughly three and a half years about $7 billion from Russia moved through them to transferees worldwide.",
+      "status": "documented",
+      "date": "1996",
+      "quote": "The accounts were opened in 1996 at a Manhattan retail branch in the names of Benex International Co., Inc. and BECS International LLC",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/nye/pr/2005/2005nov08.html",
+          "publisher": "U.S. Department of Justice, U.S. Attorney's Office for the Eastern District of New York",
+          "title": "Bank of New York agrees to pay $38 million to resolve criminal investigations",
+          "date": "2005-11-08"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/9626/000000962605000235/ex99.txt",
+          "publisher": "U.S. Securities and Exchange Commission (Bank of New York Co. Form 8-K, Exhibit 99)",
+          "title": "Non-prosecution agreement exhibit",
+          "date": "2005-11"
+        }
+      ]
+    },
+    {
+      "claim": "Benex was one of three fund-transfer companies, with BECS and Lowland, set up and operated by Peter Berlin while Lucy Edwards worked in the bank's Eastern European division.",
+      "status": "reported",
+      "date": "1999",
+      "quote": "Berlin set up three fund-transfer companies, called Benex, BECS and Lowland",
+      "sources": [
+        {
+          "url": "https://www.kyivpost.com/content/ukraine/a-native-son-and-the-bank-of-new-york-scandal-1279.html",
+          "publisher": "Kyiv Post",
+          "title": "A native son and the Bank of New York scandal"
+        }
+      ]
+    },
+    {
+      "claim": "The Bank of New York resolved the investigations relating to the Benex and BECS accounts and a separate Eastern District fraud matter in November 2005 by paying $38 million, of which $12 million was earmarked to reimburse lenders in the Eastern District matter.",
+      "status": "court",
+      "date": "2005-11-08",
+      "quote": "Twelve million dollars of the BNY payments are earmarked to reimburse those lenders",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/nye/pr/2005/2005nov08.html",
+          "publisher": "U.S. Department of Justice, U.S. Attorney's Office for the Eastern District of New York",
+          "title": "Bank of New York agrees to pay $38 million to resolve criminal investigations",
+          "date": "2005-11-08"
+        },
+        {
+          "url": "https://www.jurist.org/news/2005/11/bank-of-new-york-settles-fraud-money",
+          "publisher": "JURIST",
+          "title": "Bank of New York settles fraud, money laundering charges",
+          "date": "2005-11"
+        }
+      ]
+    },
+    {
+      "claim": "In 2007 Russia's Federal Customs Service sued the Bank of New York in Moscow for $22.5 billion, claiming the bank helped move $7.5 billion out of Russia in the 1990s, relying on the U.S. civil RICO statute's treble-damages provision.",
+      "status": "documented",
+      "date": "2007",
+      "quote": "The Federal Customs Service sought $22.5 billion from the bank beginning in May 2007, claiming it helped move $7.5 billion out of Russia in the 1990s",
+      "sources": [
+        {
+          "url": "https://www.insidearm.com/news/00025237-russias-customs-agency-sues-bank-of-ny-fo/",
+          "publisher": "insideARM",
+          "title": "Russia's Customs Agency Sues Bank of NY for $22.5 billion",
+          "date": "2007"
+        },
+        {
+          "url": "https://www.jurist.org/news/2008/07/russia-resumes-racketeering-lawsuit",
+          "publisher": "JURIST",
+          "title": "Russia resumes racketeering lawsuit against US bank",
+          "date": "2008-07"
+        }
+      ]
+    },
+    {
+      "claim": "Fortune reported in 2008 that U.S. prosecutors stated the bank had not admitted criminal culpability with respect to the Southern District investigation into the Russian accounts, contradicting the premise of the Russian suit.",
+      "status": "reported",
+      "date": "2008-10-01",
+      "quote": "the Bank did not admit criminal culpability with respect to the subject of the SDNY USAO investigation",
+      "sources": [
+        {
+          "url": "https://fortune.com/2008/10/01/u-s-prosecutors-refute-russian-claim-in-suit-against-bank-of-new-york",
+          "publisher": "Fortune",
+          "title": "U.S. prosecutors refute Russian claim in suit against Bank of New York",
+          "date": "2008-10-01"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "peter-berlin-and-lucy-edwards",
+      "toName": "Peter Berlin & Lucy Edwards",
+      "toType": "person",
+      "relation": "founded",
+      "claim": "Peter Berlin set up and operated Benex; the Benex and BECS accounts were opened with the help of Lucy Edwards, a Bank of New York vice president.",
+      "status": "documented",
+      "date": "1996",
+      "quote": "Peter Berlin, a Russian émigré, opened these accounts with the help of his wife, Lucy Edwards, who was a BNY vice president",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/nye/pr/2005/2005nov08.html",
+          "publisher": "U.S. Department of Justice, U.S. Attorney's Office for the Eastern District of New York",
+          "title": "Bank of New York agrees to pay $38 million to resolve criminal investigations",
+          "date": "2005-11-08"
+        },
+        {
+          "url": "https://www.kyivpost.com/content/ukraine/a-native-son-and-the-bank-of-new-york-scandal-1279.html",
+          "publisher": "Kyiv Post",
+          "title": "A native son and the Bank of New York scandal"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "bank-of-new-york",
+      "toName": "Bank of New York",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Benex held accounts at a Manhattan branch of the Bank of New York through which about $7 billion from Russia passed between 1996 and 1999.",
+      "status": "documented",
+      "date": "1996",
+      "quote": "about $7 billion from Russia moved through those accounts to transferees worldwide",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/archive/usao/nye/pr/2005/2005nov08.html",
+          "publisher": "U.S. Department of Justice, U.S. Attorney's Office for the Eastern District of New York",
+          "title": "Bank of New York agrees to pay $38 million to resolve criminal investigations",
+          "date": "2005-11-08"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site's entity name 'Benex Worldwide' did not appear in the sources; the DOJ release names Benex International Co., Inc. The owner may wish to confirm the intended entity.",
+    "Site claim tested: that Benex and BECS wire transfers 'stripped Russian federal reserves into private offshore entities'. The sources document the volume and the pleas, not the origin of the funds; this characterisation is unsupported.",
+    "The non-prosecution agreement's statement of facts (SEC Form 8-K Exhibit 99) is listed as a source for the accounts but its text was not quoted in this research; the owner may wish to verify its wording."
+  ]
+}

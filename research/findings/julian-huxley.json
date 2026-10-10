@@ -1,0 +1,132 @@
+{
+  "entity": "julian-huxley",
+  "name": "Julian Huxley",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Julian Huxley (1887-1975) was a British biologist who served as Secretary of the Zoological Society of London from 1935 to 1942, as the first Director-General of UNESCO from 1946 to 1948, and as president of the British Eugenics Society from 1959 to 1962. His 1957 essay 'Transhumanism', in the collection New Bottles for New Wine, is generally credited with coining the term.",
+    "sources": [
+      {
+        "url": "https://zsl-archive.maxarchiveservices.co.uk/index.php/huxley-julian-sorell-1887-1975-zsl-secretary-1935-1942",
+        "publisher": "Zoological Society of London Archive",
+        "title": "Huxley, Julian Sorell (1887-1975), ZSL Secretary 1935-1942",
+        "date": ""
+      },
+      {
+        "url": "https://www.huxley.net/transhumanism/",
+        "publisher": "huxley.net",
+        "title": "Julian Huxley and Transhumanism (text of the 1957 essay)",
+        "date": "1957"
+      },
+      {
+        "url": "https://anthroholic.com/?p=10885",
+        "publisher": "Anthroholic",
+        "title": "Julian Huxley",
+        "date": ""
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Huxley's essay 'Transhumanism' appears in New Bottles for New Wine, published in London by Chatto & Windus in 1957, at pages 13-17, and is where he uses the term.",
+      "status": "documented",
+      "date": "1957",
+      "quote": "Huxley's essay \"Transhumanism\" appears in New Bottles for New Wine, published in London by Chatto & Windus, and it is where he uses the term.",
+      "sources": [
+        {
+          "url": "https://www.huxley.net/transhumanism/",
+          "publisher": "huxley.net",
+          "title": "Julian Huxley and Transhumanism (text of the 1957 essay)",
+          "date": "1957"
+        },
+        {
+          "url": "https://pressto.amu.edu.pl/index.php/eip/article/download/9303/9014",
+          "publisher": "Ethics in Progress (Adam Mickiewicz University)",
+          "title": "Julian Huxley, 'Transhumanism' (reprint)",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "claim": "Huxley was Secretary of the Zoological Society of London from 1935 to 1942 and president of the British Eugenics Society from 1959 to 1962.",
+      "status": "documented",
+      "date": "1959",
+      "quote": "Huxley, Julian Sorell (1887-1975), ZSL Secretary 1935-1942",
+      "sources": [
+        {
+          "url": "https://zsl-archive.maxarchiveservices.co.uk/index.php/huxley-julian-sorell-1887-1975-zsl-secretary-1935-1942",
+          "publisher": "Zoological Society of London Archive",
+          "title": "Huxley, Julian Sorell (1887-1975), ZSL Secretary 1935-1942",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "claim": "Huxley was the first Director-General of UNESCO, serving from 1946 to 1948, and wrote the 1946 pamphlet UNESCO: Its Purpose and Its Philosophy.",
+      "status": "reported",
+      "date": "1946",
+      "quote": "He also wrote the 1946 book UNESCO: Its Purpose and Its Philosophy",
+      "sources": [
+        {
+          "url": "https://anthroholic.com/?p=10885",
+          "publisher": "Anthroholic",
+          "title": "Julian Huxley",
+          "date": ""
+        },
+        {
+          "url": "https://zsl-archive.maxarchiveservices.co.uk/index.php/huxley-julian-sorell-1887-1975-zsl-secretary-1935-1942",
+          "publisher": "Zoological Society of London Archive",
+          "title": "Huxley, Julian Sorell (1887-1975), ZSL Secretary 1935-1942",
+          "date": ""
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "UNESCO",
+      "toName": "UNESCO",
+      "toType": "agency",
+      "relation": "executive of",
+      "claim": "Huxley was UNESCO's first Director-General, 1946-1948.",
+      "status": "reported",
+      "date": "1946",
+      "quote": "first Director-General UNESCO",
+      "sources": [
+        {
+          "url": "https://anthroholic.com/?p=10885",
+          "publisher": "Anthroholic",
+          "title": "Julian Huxley",
+          "date": ""
+        },
+        {
+          "url": "https://zsl-archive.maxarchiveservices.co.uk/index.php/huxley-julian-sorell-1887-1975-zsl-secretary-1935-1942",
+          "publisher": "Zoological Society of London Archive",
+          "title": "Huxley, Julian Sorell (1887-1975), ZSL Secretary 1935-1942",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "to": "British Eugenics Society",
+      "toName": "British Eugenics Society",
+      "toType": "organization",
+      "relation": "executive of",
+      "claim": "Huxley was president of the British Eugenics Society from 1959 to 1962.",
+      "status": "documented",
+      "date": "1959",
+      "quote": "Sources agree he led the society from 1959 to 1962",
+      "sources": [
+        {
+          "url": "https://zsl-archive.maxarchiveservices.co.uk/index.php/huxley-julian-sorell-1887-1975-zsl-secretary-1935-1942",
+          "publisher": "Zoological Society of London Archive",
+          "title": "Huxley, Julian Sorell (1887-1975), ZSL Secretary 1935-1942",
+          "date": ""
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The UNESCO dates should be checked against UNESCO's own list of Directors-General; the sources used are a biographical archive entry and a secondary site.",
+    "Whether the ZSL archive entry itself states the Eugenics Society presidency should be confirmed when links are checked."
+  ]
+}

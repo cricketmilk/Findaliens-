@@ -1,0 +1,163 @@
+{
+  "entity": "eton-park",
+  "name": "Eton Park",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Eton Park Capital Management was a New York hedge fund founded by former Goldman Sachs partner Eric Mindich. Bloomberg Markets reported in November 2011 that on July 21, 2008 Treasury Secretary Henry Paulson met about a dozen hedge fund managers at Eton Park's Manhattan offices, including Mindich and at least five Goldman Sachs alumni, and described a possible 'conservatorship' of Fannie Mae and Freddie Mac that would effectively wipe out common and preferred shareholders, seven weeks before the government did so. No charges were brought; commentators disagreed on whether the disclosures were improper.",
+    "sources": [
+      {
+        "url": "https://www.fa-mag.com/news/how-paulson-gave-hedge-funds-advance-word-of-fannie-mae-rescue--9042.html?print",
+        "publisher": "Financial Advisor (Bloomberg Markets)",
+        "title": "How Paulson Gave Hedge Funds Advance Word of Fannie Mae Rescue",
+        "date": "2011-11-29"
+      },
+      {
+        "url": "https://www.hedgeco.net/news/12/2011/paulson-hedge-fund-chat-not-a-crime-william-d-cohan.html",
+        "publisher": "HedgeCo.net (Bloomberg View)",
+        "title": "Paulson Hedge-Fund Chat Not a Crime: William D. Cohan",
+        "date": "2011-12-05"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Bloomberg Markets reported that on July 21, 2008 Treasury Secretary Henry Paulson met about a dozen people at Eton Park's Manhattan offices, including the fund's founder Eric Mindich, and that at least five attendees were alumni of Goldman Sachs, where Paulson had been chief executive.",
+      "status": "reported",
+      "date": "2008-07-21",
+      "quote": "At least five of them were alumni of Goldman Sachs Group Inc., where Paulson had led the firm.",
+      "sources": [
+        {
+          "url": "https://www.fa-mag.com/news/how-paulson-gave-hedge-funds-advance-word-of-fannie-mae-rescue--9042.html?print",
+          "publisher": "Financial Advisor (Bloomberg Markets)",
+          "title": "How Paulson Gave Hedge Funds Advance Word of Fannie Mae Rescue",
+          "date": "2011-11-29"
+        }
+      ]
+    },
+    {
+      "claim": "According to a fund manager who attended, Paulson described a path to 'conservatorship' for Fannie Mae and Freddie Mac and indicated that the companies' common and preferred stock would be effectively wiped out; the government placed both into conservatorship seven weeks later.",
+      "status": "reported",
+      "date": "2008-07-21",
+      "quote": "Paulson described a path to \"conservatorship,\" a government seizure designed to let the firms keep operating despite heavy mortgage losses.",
+      "sources": [
+        {
+          "url": "https://www.fa-mag.com/news/how-paulson-gave-hedge-funds-advance-word-of-fannie-mae-rescue--9042.html?print",
+          "publisher": "Financial Advisor (Bloomberg Markets)",
+          "title": "How Paulson Gave Hedge Funds Advance Word of Fannie Mae Rescue",
+          "date": "2011-11-29"
+        }
+      ]
+    },
+    {
+      "claim": "Bloomberg reported that shortly before the meeting Paulson had told the New York Times that regulators' inspections would signal confidence in the two companies, a message that differed from what he told the Eton Park group.",
+      "status": "reported",
+      "date": "2008-07-21",
+      "sources": [
+        {
+          "url": "https://www.fa-mag.com/news/how-paulson-gave-hedge-funds-advance-word-of-fannie-mae-rescue--9042.html?print",
+          "publisher": "Financial Advisor (Bloomberg Markets)",
+          "title": "How Paulson Gave Hedge Funds Advance Word of Fannie Mae Rescue",
+          "date": "2011-11-29"
+        }
+      ]
+    },
+    {
+      "claim": "Other attendees named in the report included Stephen Mandel of Lone Pine, Dinakar Singh of TPG-Axon and Daniel Och of Och-Ziff.",
+      "status": "reported",
+      "date": "2008-07-21",
+      "sources": [
+        {
+          "url": "https://www.truthdig.com/?p=51082",
+          "publisher": "Truthdig",
+          "title": "How Paulson gave hedge funds advance word",
+          "date": "2011-11"
+        }
+      ]
+    },
+    {
+      "claim": "William Black, a former general counsel at the Federal Home Loan Bank of San Francisco, said 'There were no legitimate reasons for those disclosures'; Bloomberg View columnist William Cohan wrote that the conversation was not a crime, while questioning whether it amounted to 'crony capitalism'.",
+      "status": "reported",
+      "date": "2011-12-05",
+      "quote": "There were no legitimate reasons for those disclosures.",
+      "sources": [
+        {
+          "url": "https://www.fa-mag.com/news/how-paulson-gave-hedge-funds-advance-word-of-fannie-mae-rescue--9042.html?print",
+          "publisher": "Financial Advisor (Bloomberg Markets)",
+          "title": "How Paulson Gave Hedge Funds Advance Word of Fannie Mae Rescue",
+          "date": "2011-11-29"
+        },
+        {
+          "url": "https://www.hedgeco.net/news/12/2011/paulson-hedge-fund-chat-not-a-crime-william-d-cohan.html",
+          "publisher": "HedgeCo.net (Bloomberg View)",
+          "title": "Paulson Hedge-Fund Chat Not a Crime: William D. Cohan",
+          "date": "2011-12-05"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "eric-mindich",
+      "toName": "Eric Mindich",
+      "toType": "person",
+      "relation": "founded",
+      "reverse": true,
+      "claim": "Eric Mindich founded Eton Park and attended the July 2008 meeting with Paulson at the fund's offices.",
+      "status": "reported",
+      "date": "2008-07-21",
+      "sources": [
+        {
+          "url": "https://www.fa-mag.com/news/how-paulson-gave-hedge-funds-advance-word-of-fannie-mae-rescue--9042.html?print",
+          "publisher": "Financial Advisor (Bloomberg Markets)",
+          "title": "How Paulson Gave Hedge Funds Advance Word of Fannie Mae Rescue",
+          "date": "2011-11-29"
+        }
+      ]
+    },
+    {
+      "to": "henry-paulson",
+      "toName": "Henry Paulson",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Paulson, as Treasury Secretary, met hedge fund managers at Eton Park's offices on July 21, 2008 and discussed a possible conservatorship of Fannie Mae and Freddie Mac.",
+      "status": "reported",
+      "date": "2008-07-21",
+      "sources": [
+        {
+          "url": "https://www.fa-mag.com/news/how-paulson-gave-hedge-funds-advance-word-of-fannie-mae-rescue--9042.html?print",
+          "publisher": "Financial Advisor (Bloomberg Markets)",
+          "title": "How Paulson Gave Hedge Funds Advance Word of Fannie Mae Rescue",
+          "date": "2011-11-29"
+        },
+        {
+          "url": "https://www.hedgeco.net/news/12/2011/paulson-hedge-fund-chat-not-a-crime-william-d-cohan.html",
+          "publisher": "HedgeCo.net (Bloomberg View)",
+          "title": "Paulson Hedge-Fund Chat Not a Crime: William D. Cohan",
+          "date": "2011-12-05"
+        }
+      ]
+    },
+    {
+      "to": "goldman-sachs",
+      "toName": "Goldman Sachs",
+      "toType": "bank",
+      "relation": "other",
+      "claim": "At least five of the roughly dozen attendees at the Eton Park meeting, and Paulson himself, were Goldman Sachs alumni.",
+      "status": "reported",
+      "date": "2008-07-21",
+      "sources": [
+        {
+          "url": "https://www.fa-mag.com/news/how-paulson-gave-hedge-funds-advance-word-of-fannie-mae-rescue--9042.html?print",
+          "publisher": "Financial Advisor (Bloomberg Markets)",
+          "title": "How Paulson Gave Hedge Funds Advance Word of Fannie Mae Rescue",
+          "date": "2011-11-29"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim that Paulson 'explicitly warned' attendees of the conservatorship plan: Bloomberg's account, from one attendee, says he described conservatorship as a possible path; the site's wording is stronger than the source.",
+    "Site claim that attendees 'shorted Fannie and Freddie shares to pennies, capturing billions': no source returned documents any attendee's trades. Bloomberg's report does not establish that anyone traded on the information.",
+    "Site claim that no charges were brought: consistent with the coverage returned, but no official statement closing an inquiry was found."
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "entity": "digital-afterlife-industry",
+  "name": "Digital afterlife industry",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "'Digital afterlife industry' is the term used by Carl Öhman and Luciano Floridi in a 2018 Nature Human Behaviour paper for firms that manage, memorialise or re-create the data of the dead; they proposed treating digital remains as part of a person's 'informational body' and borrowing ethics codes for human remains. A 2019 Big Data & Society paper by Öhman and David Watson projected at least 1.4 billion Facebook users dying before 2100. A 2024 Philosophy & Technology paper by Tomasz Hollanek and Katarzyna Nowaczyk-Basińska of Cambridge's Leverhulme Centre defined 'deadbots' and warned of commercial exploitation. Governance touching the sector includes Meta's memorialisation policy, Article 50 of the EU AI Act on deepfake disclosure, Tennessee's ELVIS Act (2024) and California's AB 1836 (2024).",
+    "sources": [
+      {
+        "url": "https://ideas.repec.org/a/nat/nathum/v2y2018i5d10.1038_s41562-018-0335-2.html",
+        "publisher": "IDEAS/RePEc (Nature Human Behaviour record)",
+        "title": "An ethical framework for the digital afterlife industry",
+        "date": "2018-05"
+      },
+      {
+        "url": "https://papers.ssrn.com/abstract=3392812",
+        "publisher": "SSRN",
+        "title": "Are the Dead Taking Over Facebook? A Big Data Approach to the Future of Online Death",
+        "date": "2019"
+      },
+      {
+        "url": "https://lcfi.ac.uk/news-events/news/deathbots-griefbots-and-the-digital-afterlife",
+        "publisher": "Leverhulme Centre for the Future of Intelligence, University of Cambridge",
+        "title": "Deathbots, griefbots and the digital afterlife",
+        "date": "2024-05"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Öhman and Floridi's 'An ethical framework for the digital afterlife industry' was published in Nature Human Behaviour, vol. 2(5), pp. 318–320, in May 2018.",
+      "status": "peer",
+      "date": "2018-05",
+      "quote": "Carl Öhman & Luciano Floridi, 2018. \"An ethical framework for the digital afterlife industry,\" Nature Human Behaviour, Nature, vol. 2(5), pages 318-320, May.",
+      "sources": [
+        {
+          "url": "https://ideas.repec.org/a/nat/nathum/v2y2018i5d10.1038_s41562-018-0335-2.html",
+          "publisher": "IDEAS/RePEc (Nature Human Behaviour record)",
+          "title": "An ethical framework for the digital afterlife industry",
+          "date": "2018-05"
+        },
+        {
+          "url": "https://philarchive.org/rec/HMAAEF",
+          "publisher": "PhilArchive",
+          "title": "An ethical framework for the digital afterlife industry",
+          "date": "2018"
+        }
+      ]
+    },
+    {
+      "claim": "The 2018 paper divides the industry into information management services, posthumous messaging services, online memorial services and 're-creation services', and argues digital remains should be treated as constitutive of personhood rather than as chattel, with the commercial manipulation of an 'informational corpse' as the main ethical concern.",
+      "status": "peer",
+      "date": "2018",
+      "quote": "the main ethical concern of the DAI emerges as a consequence of the commercially motivated manipulation of one's informational corpse",
+      "sources": [
+        {
+          "url": "https://philarchive.org/rec/HMAAEF",
+          "publisher": "PhilArchive",
+          "title": "An ethical framework for the digital afterlife industry",
+          "date": "2018"
+        },
+        {
+          "url": "https://ideas.repec.org/a/nat/nathum/v2y2018i5d10.1038_s41562-018-0335-2.html",
+          "publisher": "IDEAS/RePEc (Nature Human Behaviour record)",
+          "title": "An ethical framework for the digital afterlife industry",
+          "date": "2018-05"
+        }
+      ]
+    },
+    {
+      "claim": "The 2018 paper proposes the International Council of Museums' code of ethics on human remains as a model and argues digital remains should not be used solely for profit.",
+      "status": "peer",
+      "date": "2018",
+      "quote": "the regulatory conventions guiding archaeological exhibitions could provide the basis for such a framework",
+      "sources": [
+        {
+          "url": "https://www.oii.ox.ac.uk/?p=10823",
+          "publisher": "Oxford Internet Institute",
+          "title": "Professor Luciano Floridi and Carl Öhman publish ethical framework for the digital afterlife industry",
+          "date": "2018"
+        },
+        {
+          "url": "https://www.exeter.ox.ac.uk/professor-luciano-floridi-carl-ohman-publish-ethical-framework-digital-afterlife-industry-nature/",
+          "publisher": "Exeter College, Oxford",
+          "title": "Professor Luciano Floridi and Carl Öhman publish ethical framework for the digital afterlife industry in Nature",
+          "date": "2018"
+        }
+      ]
+    },
+    {
+      "claim": "Öhman and David Watson's 'Are the Dead Taking Over Facebook?' (Big Data & Society, 2019, DOI 10.1177/2053951719842540) estimates that at least 1.4 billion Facebook users will die before 2100 if the platform stopped attracting new users in 2018, rising past 4.9 billion if growth continued, with most profiles belonging to non-Western users.",
+      "status": "peer",
+      "date": "2019",
+      "quote": "a minimum of 1.4 billion users will pass away before 2100 if Facebook ceases to attract new users as of 2018",
+      "sources": [
+        {
+          "url": "https://papers.ssrn.com/abstract=3392812",
+          "publisher": "SSRN",
+          "title": "Are the Dead Taking Over Facebook? A Big Data Approach to the Future of Online Death",
+          "date": "2019"
+        },
+        {
+          "url": "https://ora.ox.ac.uk/objects/uuid:7f8a03cd-ed2e-4bac-95e3-fa6dd85e79b2",
+          "publisher": "Oxford University Research Archive",
+          "title": "Are the dead taking over Facebook? A big data approach to the future of death online",
+          "date": "2019"
+        },
+        {
+          "url": "https://discovery-pp.ucl.ac.uk/id/eprint/10118987",
+          "publisher": "UCL Discovery",
+          "title": "Are the dead taking over Facebook? A Big Data approach to the future of death online",
+          "date": "2019"
+        }
+      ]
+    },
+    {
+      "claim": "The 2019 paper argues a purely commercial approach to preserving the data of the dead carries ethical and political risks and calls for a curation model serving multiple stakeholders.",
+      "status": "peer",
+      "date": "2019",
+      "sources": [
+        {
+          "url": "https://papers.ssrn.com/abstract=3392812",
+          "publisher": "SSRN",
+          "title": "Are the Dead Taking Over Facebook? A Big Data Approach to the Future of Online Death",
+          "date": "2019"
+        },
+        {
+          "url": "https://discovery-pp.ucl.ac.uk/id/eprint/10118987",
+          "publisher": "UCL Discovery",
+          "title": "Are the dead taking over Facebook? A Big Data approach to the future of death online",
+          "date": "2019"
+        }
+      ]
+    },
+    {
+      "claim": "Hollanek and Nowaczyk-Basińska's 'Griefbots, Deadbots, Postmortem Avatars: on Responsible Applications of Generative AI in the Digital Afterlife Industry' (Philosophy & Technology 37(2), art. 63, DOI 10.1007/s13347-024-00744-w) was published May 9, 2024; it defines deadbots as AI that mimics the deceased using their digital traces and uses three speculative design scenarios around data donors, data recipients and service interactants.",
+      "status": "peer",
+      "date": "2024-05-09",
+      "quote": "Deadbots\" or \"Griefbots\" as AI that mimic the deceased by using digital traces left behind by these individuals",
+      "sources": [
+        {
+          "url": "https://lcfi.ac.uk/news-events/news/deathbots-griefbots-and-the-digital-afterlife",
+          "publisher": "Leverhulme Centre for the Future of Intelligence, University of Cambridge",
+          "title": "Deathbots, griefbots and the digital afterlife",
+          "date": "2024-05"
+        },
+        {
+          "url": "https://thedebrief.org/future-humans-could-be-haunted-by-digital-ghosts-of-their-dead-loved-ones-researchers-warn/",
+          "publisher": "The Debrief",
+          "title": "Future Humans Could Be Haunted by Digital Ghosts of Their Dead Loved Ones, Researchers Warn",
+          "date": "2024-05"
+        }
+      ]
+    },
+    {
+      "claim": "The 2024 paper warns that companies could exploit deadbots for advertising and that users, particularly children, could be harmed by the suggestion that a deceased loved one is still present.",
+      "status": "peer",
+      "date": "2024-05-09",
+      "quote": "Companies could exploit chatbots for commercial purposes including advertisement, and some users, particularly children, could be confused or harmed by the apparent suggestion that a deceased loved one is still with them.",
+      "sources": [
+        {
+          "url": "https://www.popsci.com/technology/digital-haunting-chatbots/",
+          "publisher": "Popular Science",
+          "title": "AI ethicists warn of 'digital hauntings' from dead loved ones",
+          "date": "2024-05"
+        },
+        {
+          "url": "https://lcfi.ac.uk/news-events/news/deathbots-griefbots-and-the-digital-afterlife",
+          "publisher": "Leverhulme Centre for the Future of Intelligence, University of Cambridge",
+          "title": "Deathbots, griefbots and the digital afterlife",
+          "date": "2024-05"
+        }
+      ]
+    },
+    {
+      "claim": "Article 50 of the EU AI Act sets transparency obligations: providers of generative systems must mark output in machine-readable form (Art. 50(2)) and deployers of deepfakes must disclose that content is artificially generated (Art. 50(4)).",
+      "status": "documented",
+      "date": null,
+      "sources": [
+        {
+          "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+          "publisher": "European Commission AI Act Service Desk",
+          "title": "Article 50: Transparency obligations for providers and deployers of certain AI systems"
+        },
+        {
+          "url": "https://www.gtlaw.com/en/insights/2026/6/deepfakes-chatbots-ai-generated-text-european-commission-details-transparency-obligations-under-the-ai-act",
+          "publisher": "Greenberg Traurig",
+          "title": "Deepfakes, Chatbots, AI-Generated Text: European Commission Details Transparency Obligations Under the AI Act",
+          "date": "2026-06"
+        }
+      ]
+    },
+    {
+      "claim": "Tennessee's Ensuring Likeness Voice and Image Security (ELVIS) Act, HB 2091, was signed by Governor Bill Lee on March 21, 2024 and took effect July 1, 2024, extending the state's personal-rights law to cover voice and reaching providers of tools used to create unauthorised replicas.",
+      "status": "documented",
+      "date": "2024-03-21",
+      "sources": [
+        {
+          "url": "https://news.pollstar.com/2024/03/22/tennessee-enacts-elvis-act-first-of-its-kind-protection-for-musicians-against-ai-abuse/",
+          "publisher": "Pollstar",
+          "title": "Tennessee Enacts ELVIS Act, First-Of-Its-Kind Protection For Musicians Against AI Abuse",
+          "date": "2024-03-22"
+        },
+        {
+          "url": "https://www.dataguidance.com/news/tennessee-governor-signs-elvis-act-law",
+          "publisher": "DataGuidance",
+          "title": "Tennessee: Governor signs ELVIS Act into law",
+          "date": "2024-03"
+        }
+      ]
+    },
+    {
+      "claim": "California's AB 1836, signed September 17, 2024 and effective January 1, 2025, amends Civil Code §3344.1 to bar use of a deceased personality's digital replica without the estate's consent, with liability of the greater of $10,000 or actual damages.",
+      "status": "documented",
+      "date": "2024-09-17",
+      "quote": "violators are liable to the injured party in an amount equal to the greater of $10,000 or the actual damages suffered by the rightsholder",
+      "sources": [
+        {
+          "url": "https://a16.asmdc.org/press-releases/20240916-governor-newsom-signs-ab-1836-protect-deceased-performers-ai-exploitation",
+          "publisher": "California State Assembly (Assemblymember Rebecca Bauer-Kahan)",
+          "title": "Governor Newsom Signs AB 1836 to Protect Deceased Performers from AI Exploitation",
+          "date": "2024-09-16"
+        },
+        {
+          "url": "https://cdas.com/california-expands-its-post-mortem-right-of-publicity-law-to-cover-ai-digital-replicas/",
+          "publisher": "Cowan, DeBaets, Abrahams & Sheppard LLP",
+          "title": "California Expands Its Post-Mortem Right of Publicity Law to Cover AI Digital Replicas",
+          "date": "2024-09"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "carl-ohman",
+      "toName": "Carl Öhman",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Öhman co-authored the 2018 paper that named the digital afterlife industry and the 2019 Facebook mortality paper.",
+      "status": "peer",
+      "date": "2018",
+      "sources": [
+        {
+          "url": "https://ideas.repec.org/a/nat/nathum/v2y2018i5d10.1038_s41562-018-0335-2.html",
+          "publisher": "IDEAS/RePEc (Nature Human Behaviour record)",
+          "title": "An ethical framework for the digital afterlife industry",
+          "date": "2018-05"
+        },
+        {
+          "url": "https://papers.ssrn.com/abstract=3392812",
+          "publisher": "SSRN",
+          "title": "Are the Dead Taking Over Facebook? A Big Data Approach to the Future of Online Death",
+          "date": "2019"
+        }
+      ]
+    },
+    {
+      "to": "luciano-floridi",
+      "toName": "Luciano Floridi",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Floridi co-authored the 2018 Nature Human Behaviour framework paper.",
+      "status": "peer",
+      "date": "2018",
+      "sources": [
+        {
+          "url": "https://ideas.repec.org/a/nat/nathum/v2y2018i5d10.1038_s41562-018-0335-2.html",
+          "publisher": "IDEAS/RePEc (Nature Human Behaviour record)",
+          "title": "An ethical framework for the digital afterlife industry",
+          "date": "2018-05"
+        }
+      ]
+    },
+    {
+      "to": "facebook-memorialization",
+      "toName": "Facebook memorialization",
+      "toType": "concept",
+      "relation": "other",
+      "claim": "The 2019 Big Data & Society paper projects the growth of dead users' profiles on Facebook and argues against a purely commercial approach to their preservation.",
+      "status": "peer",
+      "date": "2019",
+      "sources": [
+        {
+          "url": "https://papers.ssrn.com/abstract=3392812",
+          "publisher": "SSRN",
+          "title": "Are the Dead Taking Over Facebook? A Big Data Approach to the Future of Online Death",
+          "date": "2019"
+        }
+      ]
+    },
+    {
+      "to": "project-december",
+      "toName": "Project December",
+      "toType": "company",
+      "relation": "other",
+      "claim": "The 2024 Cambridge paper uses Project December as a case study of deadbots.",
+      "status": "peer",
+      "date": "2024",
+      "sources": [
+        {
+          "url": "https://lcfi.ac.uk/news-events/news/deathbots-griefbots-and-the-digital-afterlife",
+          "publisher": "Leverhulme Centre for the Future of Intelligence, University of Cambridge",
+          "title": "Deathbots, griefbots and the digital afterlife",
+          "date": "2024-05"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The journal pages at nature.com, journals.sagepub.com and link.springer.com were not returned by search; records are cited via RePEc, PhilArchive, SSRN/ORA/UCL and the Leverhulme Centre.",
+    "Whether Article 50 obligations apply from 2 August 2026 or are deferred by the 'AI Omnibus' is reported as unsettled.",
+    "Site check: the transhumanism page's 'Mind uploading' entry does not mention the digital-afterlife industry; no site claim to test."
+  ]
+}

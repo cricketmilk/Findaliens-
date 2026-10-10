@@ -1,0 +1,150 @@
+{
+  "entity": "james-jim-fisk-jr",
+  "name": "James 'Jim' Fisk Jr.",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "James Fisk Jr. was a director of the Erie Railroad who, with Jay Gould and Daniel Drew, issued new Erie shares in 1868 to defeat Cornelius Vanderbilt's bid for control and then took refuge with Gould at the Taylor Hotel in Jersey City, beyond the reach of a New York injunction.",
+    "sources": [
+      {
+        "url": "https://fhmagazine.org/financial-history-156-winter-2026/0734925001770208941/p12",
+        "publisher": "Financial History (Museum of American Finance)",
+        "title": "Financial History 156, Winter 2026, p. 12",
+        "date": "2026"
+      },
+      {
+        "url": "https://american-rails.com/erwr.html",
+        "publisher": "American-Rails.com",
+        "title": "The Erie War: Vanderbilt vs Gould, Titans Fight For Control"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In February 1868 the Erie Railroad board, controlled by Daniel Drew, Jay Gould and James Fisk, authorized about $5 million in convertible bonds that were quickly exchanged for new shares, diluting Cornelius Vanderbilt's attempt to buy control of the road.",
+      "status": "reported",
+      "date": "1868-02",
+      "quote": "Drew, Gould, and Fisk executed a brilliant financial maneuver by converting Erie Railroad bonds into new shares of stock. The Erie board authorized $5 million in convertible bonds",
+      "sources": [
+        {
+          "url": "https://fhmagazine.org/financial-history-156-winter-2026/0734925001770208941/p12",
+          "publisher": "Financial History (Museum of American Finance)",
+          "title": "Financial History 156, Winter 2026, p. 12",
+          "date": "2026"
+        },
+        {
+          "url": "https://american-rails.com/erwr.html",
+          "publisher": "American-Rails.com",
+          "title": "The Erie War: Vanderbilt vs Gould, Titans Fight For Control"
+        }
+      ]
+    },
+    {
+      "claim": "The newly issued Erie shares were sold on the market and bought by Vanderbilt's own agents before their origin was suspected.",
+      "status": "reported",
+      "date": "1868",
+      "quote": "Fisk's new shares were thrown upon the market, and bought by Vanderbilt's agents before their origin was suspected.",
+      "sources": [
+        {
+          "url": "https://www.americanheritage.com/way-contrast-uncle-dan-drew",
+          "publisher": "American Heritage",
+          "title": "Way Contrast: Uncle Dan Drew"
+        }
+      ]
+    },
+    {
+      "claim": "In March 1868 Judge George Barnard issued an injunction freezing Erie's stock issuance and appointing a receiver; Drew left for New Jersey, and Gould and Fisk crossed the Hudson by rowboat with several million dollars removed from the Erie vault and took refuge at the Taylor Hotel in Jersey City, nicknamed 'Fort Taylor'.",
+      "status": "reported",
+      "date": "1868-03",
+      "quote": "Drew fled immediately for the safety of New Jersey. Gould and Fisk delayed, but when it became clear that their arrest was imminent, they rushed to Canal Street and secured a rowboat and crew. After nearly capsizing in choppy waters with several million dollars hastily removed from the Erie Railway's vault, they crossed the Hudson and took refuge at the Taylor Hotel",
+      "sources": [
+        {
+          "url": "https://fhmagazine.org/financial-history-156-winter-2026/0734925001770208941/p12",
+          "publisher": "Financial History (Museum of American Finance)",
+          "title": "Financial History 156, Winter 2026, p. 12",
+          "date": "2026"
+        },
+        {
+          "url": "https://american-rails.com/erwr.html",
+          "publisher": "American-Rails.com",
+          "title": "The Erie War: Vanderbilt vs Gould, Titans Fight For Control"
+        }
+      ]
+    },
+    {
+      "claim": "Accounts of the financial outcome differ: one history estimates the Erie was 'milked' of no less than $9 million in the final settlement, while another states Vanderbilt lost more than $7 million but recovered most of it from Gould under threat of litigation.",
+      "status": "reported",
+      "date": "1868",
+      "quote": "Vanderbilt lost more than $7 million in his attempt to gain control over Erie Railway Company, although Gould later returned most of the money under threat of litigation.",
+      "sources": [
+        {
+          "url": "https://www.americanheritage.com/way-contrast-uncle-dan-drew",
+          "publisher": "American Heritage",
+          "title": "Way Contrast: Uncle Dan Drew"
+        },
+        {
+          "url": "https://american-rails.com/erwr.html",
+          "publisher": "American-Rails.com",
+          "title": "The Erie War: Vanderbilt vs Gould, Titans Fight For Control"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "jay-gould",
+      "toName": "Jay Gould",
+      "toType": "person",
+      "relation": "partnered with",
+      "claim": "Fisk and Gould crossed the Hudson together in March 1868 and took refuge at the Taylor Hotel in Jersey City with money removed from the Erie vault.",
+      "status": "reported",
+      "date": "1868-03",
+      "quote": "Gould and Fisk delayed, but when it became clear that their arrest was imminent, they rushed to Canal Street and secured a rowboat and crew.",
+      "sources": [
+        {
+          "url": "https://american-rails.com/erwr.html",
+          "publisher": "American-Rails.com",
+          "title": "The Erie War: Vanderbilt vs Gould, Titans Fight For Control"
+        }
+      ]
+    },
+    {
+      "to": "daniel-drew",
+      "toName": "Daniel Drew",
+      "toType": "person",
+      "relation": "partnered with",
+      "claim": "Fisk, Drew and Gould executed the 1868 Erie bond conversion.",
+      "status": "reported",
+      "date": "1868",
+      "sources": [
+        {
+          "url": "https://fhmagazine.org/financial-history-156-winter-2026/0734925001770208941/p12",
+          "publisher": "Financial History (Museum of American Finance)",
+          "title": "Financial History 156, Winter 2026, p. 12",
+          "date": "2026"
+        }
+      ]
+    },
+    {
+      "to": "cornelius-vanderbilt",
+      "toName": "Cornelius Vanderbilt",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Fisk's newly issued Erie shares were bought by Vanderbilt's agents in 1868.",
+      "status": "reported",
+      "date": "1868",
+      "quote": "Fisk's new shares were thrown upon the market, and bought by Vanderbilt's agents before their origin was suspected.",
+      "sources": [
+        {
+          "url": "https://www.americanheritage.com/way-contrast-uncle-dan-drew",
+          "publisher": "American Heritage",
+          "title": "Way Contrast: Uncle Dan Drew"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: the page says $10 million of convertible bonds were converted into roughly 100,000 shares; the sources found give $5 million of bonds and about 50,000 shares (Financial History magazine, American-Rails). Figures differ by a factor of two; owner should check against a documented history of the 1868 issues.",
+    "Site claim tested: the Albany bribery account (Gould with a satchel of $500,000) traces to Gustavus Myers and appears in the sources only as a quotation of Myers; no legislative record, bill number or vote count was found.",
+    "Site claim tested: the flight to Jersey City and 'Fort Taylor' is supported; the amount taken ($6-7 million on the page) is given only as 'several million dollars' in the sources found."
+  ]
+}

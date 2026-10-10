@@ -1,0 +1,69 @@
+{
+  "entity": "patrick-halligan",
+  "name": "Patrick Halligan",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Patrick Halligan was chief financial officer of Archegos Capital Management, the family office of Sung Kook (Bill) Hwang whose March 2021 collapse caused about $10 billion of losses at its prime brokers. In July 2024 a Manhattan federal jury convicted Halligan of securities fraud, wire fraud and racketeering conspiracy alongside Hwang; in January 2025 he was sentenced to eight years in prison and remained free on bail pending appeal. Hwang was sentenced to 18 years in November 2024.",
+    "sources": [
+      { "url": "https://www.justice.gov/usao-sdny/pr/founder-and-head-archegos-capital-management-bill-hwang-sentenced-18-years-prison", "publisher": "U.S. Department of Justice, U.S. Attorney's Office SDNY", "title": "Founder And Head Of Archegos Capital Management Bill Hwang Sentenced To 18 Years In Prison", "date": "2024-11-20" },
+      { "url": "https://finance.yahoo.com/news/former-archegos-cfo-halligan-gets-183755718.html", "publisher": "Reuters (via Yahoo Finance)", "title": "Former Archegos CFO Halligan gets 8-year prison sentence", "date": "2025-01-27" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Halligan was convicted by a Manhattan federal jury in July 2024 of securities fraud, wire fraud and racketeering conspiracy for his role in the collapse of Archegos.",
+      "status": "court",
+      "date": "2024-07",
+      "quote": "He was convicted of securities fraud, wire fraud and racketeering conspiracy by a Manhattan federal jury in July 2024.",
+      "sources": [
+        { "url": "https://finance.yahoo.com/news/former-archegos-cfo-halligan-gets-183755718.html", "publisher": "Reuters (via Yahoo Finance)", "title": "Former Archegos CFO Halligan gets 8-year prison sentence", "date": "2025-01-27" }
+      ]
+    },
+    {
+      "claim": "On January 27, 2025 Halligan was sentenced to eight years in prison, a term he and prosecutors had agreed on for sentencing purposes; he was expected to remain free on bail while appealing.",
+      "status": "court",
+      "date": "2025-01-27",
+      "quote": "sentenced on Monday to eight years in prison over his role in the firm's 2021 collapse",
+      "sources": [
+        { "url": "https://finance.yahoo.com/news/former-archegos-cfo-halligan-gets-183755718.html", "publisher": "Reuters (via Yahoo Finance)", "title": "Former Archegos CFO Halligan gets 8-year prison sentence", "date": "2025-01-27" },
+        { "url": "https://www.businessday.co.za/bd/world/americas/2025-01-27-former-archegos-cfo-gets-eight-years-for-his-role-in-collapse/", "publisher": "Business Day", "title": "Former Archegos CFO gets eight years for his role in collapse", "date": "2025-01-27" }
+      ]
+    },
+    {
+      "claim": "Prosecutors said Halligan played a leadership role in helping Hwang obtain loans and amass trading capacity that distorted markets, and in concealing the risks from counterparties.",
+      "status": "documented",
+      "date": "2025-01",
+      "quote": "played a leadership role in helping Hwang obtain loans and amass trading capacity that distorted markets, and concealing the risks from counterparties and others",
+      "sources": [
+        { "url": "https://finance.yahoo.com/news/former-archegos-cfo-halligan-gets-183755718.html", "publisher": "Reuters (via Yahoo Finance)", "title": "Former Archegos CFO Halligan gets 8-year prison sentence", "date": "2025-01-27" }
+      ]
+    },
+    {
+      "claim": "The SDNY press release on Hwang's sentencing identifies Halligan as a co-defendant who worked with Hwang on the scheme; Hwang was sentenced by Judge Alvin K. Hellerstein to 18 years in prison after a July 2024 conviction for racketeering conspiracy, securities fraud, market manipulation and wire fraud.",
+      "status": "court",
+      "date": "2024-11-20",
+      "quote": "was sentenced by U.S. District Judge Alvin K. Hellerstein to 18 years in prison",
+      "sources": [
+        { "url": "https://www.justice.gov/usao-sdny/pr/founder-and-head-archegos-capital-management-bill-hwang-sentenced-18-years-prison", "publisher": "U.S. Department of Justice, U.S. Attorney's Office SDNY", "title": "Founder And Head Of Archegos Capital Management Bill Hwang Sentenced To 18 Years In Prison", "date": "2024-11-20" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "sung-kook-bill-hwang",
+      "toName": "Sung Kook (Bill) Hwang",
+      "toType": "person",
+      "relation": "employed by",
+      "claim": "Halligan was CFO of Hwang's Archegos Capital Management and was convicted as his co-defendant.",
+      "status": "court",
+      "date": "2024-07",
+      "sources": [
+        { "url": "https://www.justice.gov/usao-sdny/pr/founder-and-head-archegos-capital-management-bill-hwang-sentenced-18-years-prison", "publisher": "U.S. Department of Justice, U.S. Attorney's Office SDNY", "title": "Founder And Head Of Archegos Capital Management Bill Hwang Sentenced To 18 Years In Prison", "date": "2024-11-20" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The SDNY press release for Halligan's own sentencing was not found; the Hwang release and Reuters coverage are cited instead.",
+    "The status of Halligan's appeal was not established."
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "entity": "cofer-black",
+  "name": "Cofer Black",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "J. Cofer Black is a former CIA officer who directed the Director of Central Intelligence's Counterterrorist Center (CTC) from 1999 until May 2002, including at the time of the September 11, 2001 attacks, and later served as the State Department's Coordinator for Counterterrorism. He testified before the Joint Inquiry of the congressional intelligence committees in September 2002 and before the 9/11 Commission in April 2004.",
+    "sources": [
+      { "url": "https://irp.fas.org/congress/2004_hr/black_statement.pdf", "publisher": "Federation of American Scientists (9/11 Commission statement)", "title": "Statement of J. Cofer Black to the National Commission on Terrorist Attacks Upon the United States", "date": "2004-04-13" },
+      { "url": "https://irp.fas.org/congress/2002_hr/092602black.html", "publisher": "Federation of American Scientists (Joint Inquiry testimony)", "title": "Testimony of Cofer Black before the Joint Inquiry", "date": "2002-09-26" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In his prepared statement to the 9/11 Commission, Black said he was Director of the DCI's Counterterrorist Center from 1999 until 2002.",
+      "status": "words",
+      "date": "2004-04-13",
+      "quote": "From 1999 until 2002 I was the Director of the DCI's Counterterrorist Center.",
+      "sources": [
+        { "url": "https://irp.fas.org/congress/2004_hr/black_statement.pdf", "publisher": "Federation of American Scientists (9/11 Commission statement)", "title": "Statement of J. Cofer Black to the National Commission on Terrorist Attacks Upon the United States", "date": "2004-04-13" }
+      ]
+    },
+    {
+      "claim": "In September 2002 testimony to the congressional Joint Inquiry, Black said he served as Director of the CIA's Counterterrorist Center from 1999 until May 2002.",
+      "status": "words",
+      "date": "2002-09-26",
+      "quote": "I served as the Director of the CIA's Counterterrorist Center from 1999 until May of 2002.",
+      "sources": [
+        { "url": "https://irp.fas.org/congress/2002_hr/092602black.html", "publisher": "Federation of American Scientists (Joint Inquiry testimony)", "title": "Testimony of Cofer Black before the Joint Inquiry", "date": "2002-09-26" }
+      ]
+    },
+    {
+      "claim": "In his 2002 Joint Inquiry testimony Black said the CIA provided strategic warning before 9/11 but was unable to provide tactical warning of the attacks.",
+      "status": "words",
+      "date": "2002-09-26",
+      "quote": "We provided strategic warning. Despite our intense efforts we were unable to provide tactical warning on 9/11.",
+      "sources": [
+        { "url": "https://irp.fas.org/congress/2002_hr/092602black.html", "publisher": "Federation of American Scientists (Joint Inquiry testimony)", "title": "Testimony of Cofer Black before the Joint Inquiry", "date": "2002-09-26" }
+      ]
+    },
+    {
+      "claim": "Black appeared before the 9/11 Commission on April 13, 2004, where his prepared statement was published.",
+      "status": "documented",
+      "date": "2004-04-13",
+      "sources": [
+        { "url": "https://www.nbcnews.com/id/wbna4732793", "publisher": "NBC News", "title": "J. Cofer Black 9/11 commission statement", "date": "2004-04-13" },
+        { "url": "https://irp.fas.org/congress/2004_hr/black_statement.pdf", "publisher": "Federation of American Scientists (9/11 Commission statement)", "title": "Statement of J. Cofer Black to the National Commission on Terrorist Attacks Upon the United States", "date": "2004-04-13" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "cia",
+      "toName": "CIA",
+      "toType": "government",
+      "relation": "employed by",
+      "claim": "Black directed the CIA's Counterterrorist Center from 1999 to May 2002, by his own testimony.",
+      "status": "words",
+      "date": "1999",
+      "sources": [
+        { "url": "https://irp.fas.org/congress/2002_hr/092602black.html", "publisher": "Federation of American Scientists (Joint Inquiry testimony)", "title": "Testimony of Cofer Black before the Joint Inquiry", "date": "2002-09-26" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Black's later role as vice chairman of Blackwater USA (2005–2008) was not confirmed by any source found in this session and is left out.",
+    "The site places Black among those who 'withheld intelligence from the FBI' on Hazmi and Mihdhar. No source found attributes that decision to Black personally; the DOJ Inspector General's 2004/2006 review (oig.justice.gov/special/s0606) attributes the non-notification to CIA personnel without naming him. Unsupported as to Black individually.",
+    "A 2005 Los Angeles Times report, relayed by a partisan blog, said Black's 2002 testimony about an FBI memo was misleading; it was not verified and is left out."
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "entity": "william-randolph-hearst",
+  "name": "William Randolph Hearst",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Newspaper publisher William Randolph Hearst is credited in Billy Graham's own accounts and in later reporting with ordering his editors to 'Puff Graham' during the 1949 Los Angeles tent crusade, giving the campaign national exposure. Graham said he learned of the telegram from two of Hearst's sons; the two men never met.",
+    "sources": [
+      {
+        "url": "https://getreligion.org/2007/09/stories-inside-that-la-tent-revival?format=amp",
+        "publisher": "GetReligion",
+        "title": "Stories inside that L.A. revival tent",
+        "date": "2007-09"
+      },
+      {
+        "url": "https://billygrahamlibrary.org/blog-looking-back-at-1949-los-angeles-crusade/",
+        "publisher": "Billy Graham Library",
+        "title": "Looking Back at the 1949 Los Angeles Crusade"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Hearst is reported to have told his editors to 'Puff Graham' during the 1949 Los Angeles crusade; the Billy Graham Library says his newspapers gave the campaign national exposure and the crusade was extended from three weeks to eight.",
+      "status": "reported",
+      "date": "1949",
+      "quote": "his newspapers gave the campaign national exposure",
+      "sources": [
+        {
+          "url": "https://billygrahamlibrary.org/blog-looking-back-at-1949-los-angeles-crusade/",
+          "publisher": "Billy Graham Library",
+          "title": "Looking Back at the 1949 Los Angeles Crusade"
+        },
+        {
+          "url": "https://getreligion.org/2007/09/stories-inside-that-la-tent-revival?format=amp",
+          "publisher": "GetReligion",
+          "title": "Stories inside that L.A. revival tent",
+          "date": "2007-09"
+        }
+      ]
+    },
+    {
+      "claim": "Graham told the Los Angeles Times in 2004 that he heard of the 'Puff Graham' directive from two of Hearst's sons, and that Hearst and Graham never met.",
+      "status": "reported",
+      "date": "2004",
+      "quote": "Puff Graham",
+      "sources": [
+        {
+          "url": "https://getreligion.org/2007/09/stories-inside-that-la-tent-revival?format=amp",
+          "publisher": "GetReligion",
+          "title": "Stories inside that L.A. revival tent",
+          "date": "2007-09"
+        }
+      ]
+    },
+    {
+      "claim": "A critical account by biographer Cecil Bothwell says Hearst contacted fellow publisher Henry Luce, and that Bernard Baruch arranged Luce's 1950 meeting with Graham in Columbia, South Carolina.",
+      "status": "reported",
+      "date": "1950",
+      "quote": "Bernard Baruch arranged a meeting between Luce and Graham while the preacher was staying with the segregationist Governor Strom Thurmond in the official mansion in Columbia",
+      "sources": [
+        {
+          "url": "https://accuracy.org/release/billy-graham-prince-of-war/",
+          "publisher": "Institute for Public Accuracy",
+          "title": "Billy Graham: 'Prince of War' (Cecil Bothwell)"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "billy-graham",
+      "toName": "Billy Graham",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Hearst's newspapers promoted Graham's 1949 Los Angeles crusade after his reported 'Puff Graham' instruction (press backing, not a documented cash payment).",
+      "status": "reported",
+      "date": "1949",
+      "quote": "Puff Graham",
+      "sources": [
+        {
+          "url": "https://getreligion.org/2007/09/stories-inside-that-la-tent-revival?format=amp",
+          "publisher": "GetReligion",
+          "title": "Stories inside that L.A. revival tent",
+          "date": "2007-09"
+        },
+        {
+          "url": "https://billygrahamlibrary.org/blog-looking-back-at-1949-los-angeles-crusade/",
+          "publisher": "Billy Graham Library",
+          "title": "Looking Back at the 1949 Los Angeles Crusade"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "No primary document of the 'Puff Graham' telegram was found; the story rests on Graham's recollection of what Hearst's sons told him. No source shows Hearst money going to Graham."
+  ]
+}

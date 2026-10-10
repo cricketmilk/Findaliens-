@@ -1,0 +1,65 @@
+{
+  "entity": "saudi-gid",
+  "name": "Saudi GID",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The General Intelligence Presidency (also referred to as the General Intelligence Directorate, GID, or Saudi General Intelligence) is Saudi Arabia's principal foreign intelligence agency. Saudipedia, a Saudi reference site, states it was established in 1956 under King Saud bin Abdulaziz, that its basic law was issued by Royal Decree M-5 in December 1982, and that in 2018 a ministerial committee chaired by Crown Prince Mohammed bin Salman was formed to restructure it. On this site it appears through Kamal Adham, its former head and a BCCI investor; Prince Bandar bin Sultan, its head from July 2012 to April 2014; and a 2017 FBI memo describing Omar al-Bayoumi as a paid cooptee of the agency.",
+    "sources": [
+      { "url": "https://saudipedia.com/en/general-intelligence-presidency", "publisher": "Saudipedia", "title": "General Intelligence Presidency" },
+      { "url": "https://english.alarabiya.net/News/gulf/2018/10/25/Saudi-Crown-Prince-chairs-first-meeting-to-restructure-intelligence-agency", "publisher": "Al Arabiya English", "title": "Saudi Crown Prince presides over committee to restructure intelligence agency", "date": "2018-10-25" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Kamal Adham, described by the Washington Post as a former head of Saudi intelligence, pleaded guilty in 1992 in the BCCI case and was a key figure in the 1982 takeover of First American Bankshares.",
+      "status": "court",
+      "date": "1992-07-29",
+      "quote": "Adham, former head of Saudi intelligence and a key figure in the 1982 takeover of First American Bankshares Inc.",
+      "sources": [
+        { "url": "https://www.washingtonpost.com/archive/politics/1992/07/29/key-bcci-investor-enters-guilty-plea/8bd4a39f-b21f-4986-b21c-59be4e53c339/", "publisher": "Washington Post", "title": "Key BCCI Investor Enters Guilty Plea", "date": "1992-07-29" }
+      ]
+    },
+    {
+      "claim": "Prince Bandar bin Sultan, formerly Saudi ambassador to Washington, was appointed head of Saudi General Intelligence in July 2012. On April 15, 2014 a royal decree published by the Saudi Press Agency relieved him of the post 'at his own request' and asked his deputy, General Youssef al-Idrissi, to carry out the duties of head of general intelligence.",
+      "status": "reported",
+      "date": "2014-04-15",
+      "quote": "was relieved of his post at his own request and General Youssef Al Idrissi was asked to carry out the duties of the head of general intelligence",
+      "sources": [
+        { "url": "https://edition.cnn.com/2014/04/16/world/meast/saudi-prince", "publisher": "CNN", "title": "Saudi intelligence chief Prince Bandar relieved of post", "date": "2014-04-16" },
+        { "url": "https://eng-archive.aawsat.com/?p=55331261", "publisher": "Asharq Al-Awsat", "title": "Saudi Arabia: Prince Bandar relieved of intelligence post", "date": "2014-04" },
+        { "url": "https://hurriyetdailynews.com/saudi-intelligence-chief-replaced-by-his-deputy-65111", "publisher": "Hurriyet Daily News", "title": "Saudi intelligence chief replaced by his deputy", "date": "2014-04" }
+      ]
+    },
+    {
+      "claim": "A June 2017 FBI communication, declassified in 2022, states that Omar al-Bayoumi was paid a monthly stipend from the late 1990s until September 2001 as a cooptee of the Saudi General Intelligence Presidency, and that the FBI had confirmed this involvement, which was not established at the time of the 9/11 Commission report. ProPublica reported that FBI documents say he reported to Prince Bandar. Saudi Arabia denies that al-Bayoumi was its asset.",
+      "status": "documented",
+      "date": "2017-06",
+      "quote": "was paid a monthly stipend as a cooptee of the Saudi General Intelligence Presidency (GIP)",
+      "sources": [
+        { "url": "https://www.propublica.org/article/sept-11-family-lawsuit-saudi-spy", "publisher": "ProPublica", "title": "Sept. 11 family lawsuit: Saudi spy", "date": "2024" },
+        { "url": "https://www.cbsnews.com/news/911-hijackers-video-saudi-intelligence-official-omar-al-bayoumi/", "publisher": "CBS News", "title": "Newly released video shows 9/11 hijackers with alleged Saudi intelligence operative" },
+        { "url": "https://vault.fbi.gov/9-11-attacks-investigation-and-related-materials/9-11-material-released-in-response-to-executive-order-14040/documents-responsive-to-executive-order-14040-2-c-release-note-1", "publisher": "FBI (The Vault)", "title": "9/11 material released in response to Executive Order 14040: documents responsive to section 2(c), release note 1" }
+      ]
+    },
+    {
+      "claim": "In October 2018 Crown Prince Mohammed bin Salman chaired the first meeting of a ministerial committee formed to restructure the General Intelligence Presidency; reported measures included new departments for strategy and development, legal affairs and performance appraisal.",
+      "status": "reported",
+      "date": "2018-10-25",
+      "quote": "Saudi Crown Prince presides over committee to restructure intelligence agency",
+      "sources": [
+        { "url": "https://english.alarabiya.net/News/gulf/2018/10/25/Saudi-Crown-Prince-chairs-first-meeting-to-restructure-intelligence-agency", "publisher": "Al Arabiya English", "title": "Saudi Crown Prince presides over committee to restructure intelligence agency", "date": "2018-10-25" },
+        { "url": "https://english.aawsat.com/node/1514001", "publisher": "Asharq Al-Awsat", "title": "KSA: Urgent Solutions to Restructure General Intelligence Presidency", "date": "2018-12" }
+      ]
+    }
+  ],
+  "connections": [
+    { "to": "kamal-adham", "toName": "Kamal Adham", "toType": "person", "relation": "executive of", "reverse": true, "claim": "Kamal Adham was a former head of Saudi intelligence, according to the Washington Post's report of his 1992 guilty plea in the BCCI case.", "status": "reported", "date": "1992-07-29", "quote": "Adham, former head of Saudi intelligence", "sources": [ { "url": "https://www.washingtonpost.com/archive/politics/1992/07/29/key-bcci-investor-enters-guilty-plea/8bd4a39f-b21f-4986-b21c-59be4e53c339/", "publisher": "Washington Post", "title": "Key BCCI Investor Enters Guilty Plea", "date": "1992-07-29" } ] },
+    { "to": "prince-bandar-bin-sultan", "toName": "Prince Bandar bin Sultan", "toType": "person", "relation": "executive of", "reverse": true, "claim": "Prince Bandar bin Sultan headed Saudi General Intelligence from July 2012 until a royal decree relieved him on April 15, 2014.", "status": "reported", "date": "2014-04-15", "quote": "was relieved of his post at his own request", "sources": [ { "url": "https://edition.cnn.com/2014/04/16/world/meast/saudi-prince", "publisher": "CNN", "title": "Saudi intelligence chief Prince Bandar relieved of post", "date": "2014-04-16" } ] },
+    { "to": "saudi-arabia", "toName": "Saudi Arabia", "toType": "government", "relation": "subsidiary of", "claim": "The General Intelligence Presidency is a Saudi state agency, established in 1956 under King Saud and restructured by a ministerial committee chaired by the Crown Prince from 2018.", "status": "reported", "date": "2018-10-25", "quote": "Saudi Crown Prince presides over committee to restructure intelligence agency", "sources": [ { "url": "https://saudipedia.com/en/general-intelligence-presidency", "publisher": "Saudipedia", "title": "General Intelligence Presidency" }, { "url": "https://english.alarabiya.net/News/gulf/2018/10/25/Saudi-Crown-Prince-chairs-first-meeting-to-restructure-intelligence-agency", "publisher": "Al Arabiya English", "title": "Saudi Crown Prince presides over committee to restructure intelligence agency", "date": "2018-10-25" } ] }
+  ],
+  "openQuestions": [
+    "The agency's official website (gip.gov.sa) was not reachable; the founding and legal-basis details rest on Saudipedia and should be checked against an official page.",
+    "Adham's exact tenure (commonly given as 1965-1979) and Turki al-Faisal's 1979-2001 tenure were found only on Wikipedia and are not recorded here.",
+    "The quoted 'cooptee' passage comes from press summaries of the 2017 FBI communication; the FBI Vault release should be checked for the document itself."
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "entity": "gm",
+  "name": "GM",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "General Motors is a U.S. automaker. Between 1917 and 1919 E.I. du Pont de Nemours & Co. acquired a 23 percent stock interest in GM; in 1957 the Supreme Court held in United States v. E.I. du Pont de Nemours & Co. that the acquisition violated Section 7 of the Clayton Act. Alfred P. Sloan became GM's president in 1923 and applied a system of decentralized operations with coordinated central policy control. GM acquired Germany's Adam Opel AG in 1929 and, according to historian Henry Ashby Turner's study of GM's internal records, Opel produced trucks for the German military and parts for Junkers bombers during the Second World War, with GM losing control of the subsidiary after mid-1941.",
+    "sources": [
+      { "url": "https://supreme.justia.com/cases/federal/us/353/586/case.html", "publisher": "Justia (U.S. Supreme Court)", "title": "United States v. E. I. du Pont de Nemours & Co., 353 U.S. 586 (1957)", "date": "1957-06-03" },
+      { "url": "https://sloan.org/about/who-was-alfred-p-sloan-jr", "publisher": "Alfred P. Sloan Foundation", "title": "Who was Alfred P. Sloan Jr.?" },
+      { "url": "https://yalebooks.yale.edu/9780300106343/general-motors-and-the-nazis", "publisher": "Yale University Press", "title": "General Motors and the Nazis: The Struggle for Control of Opel, Europe's Biggest Carmaker", "date": "2005" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In 1949 the United States sued under Section 15 of the Clayton Act to enjoin violations of Section 7 resulting from du Pont's purchase in 1917-1919 of a 23 percent stock interest in General Motors. The government charged that the close relationship gave du Pont an illegal preference over competitors in selling automotive finishes and fabrics to GM.",
+      "status": "court",
+      "date": "1949",
+      "quote": "to enjoin violations of § 7 of that Act resulting from the purchase by du Pont in 1917-1919 of a 23% stock interest in General Motors",
+      "sources": [
+        { "url": "https://supreme.justia.com/cases/federal/us/353/586/case.html", "publisher": "Justia (U.S. Supreme Court)", "title": "United States v. E. I. du Pont de Nemours & Co., 353 U.S. 586 (1957)", "date": "1957-06-03" },
+        { "url": "https://www.law.cornell.edu/supremecourt/text/353/586", "publisher": "Cornell Legal Information Institute", "title": "United States v. E. I. du Pont de Nemours & Co., 353 U.S. 586 (1957)", "date": "1957-06-03" }
+      ]
+    },
+    {
+      "claim": "On June 3, 1957 the Supreme Court, in an opinion by Justice Brennan, reversed the district court's dismissal and held that du Pont's stock acquisition violated Section 7 of the Clayton Act, remanding for a determination of the equitable relief needed to eliminate the effects of the acquisition.",
+      "status": "court",
+      "date": "1957-06-03",
+      "quote": "The judgment is reversed, and the cause is remanded to the District Court for a determination, after further hearing, of the equitable relief necessary and appropriate in the public interest to eliminate the effects of the stock acquisition offensive to the statute.",
+      "sources": [
+        { "url": "https://supreme.justia.com/cases/federal/us/353/586/case.html", "publisher": "Justia (U.S. Supreme Court)", "title": "United States v. E. I. du Pont de Nemours & Co., 353 U.S. 586 (1957)", "date": "1957-06-03" }
+      ]
+    },
+    {
+      "claim": "The case returned to the Supreme Court in 1961 (366 U.S. 316) on the question of remedy; that opinion describes the 1957 ruling as holding that the stock acquisition had led to the insulation from free competition of most of the General Motors market in automobile finishes and fabrics.",
+      "status": "court",
+      "date": "1961",
+      "quote": "the insulation from free competition of most of the General Motors market in automobile finishes and fabrics",
+      "sources": [
+        { "url": "https://www.govinfo.gov/content/pkg/USREPORTS-366/pdf/USREPORTS-366-316.pdf", "publisher": "GovInfo (U.S. Reports)", "title": "United States v. E. I. du Pont de Nemours & Co., 366 U.S. 316 (1961)", "date": "1961" }
+      ]
+    },
+    {
+      "claim": "General Motors acquired Germany's Adam Opel AG in 1929; a statement by GM's president on the acquisition is preserved in the German History in Documents and Images collection. Opel had become Germany's largest carmaker in 1928. A review of Turner's study states that GM held all shares of Adam Opel AG from early 1931.",
+      "status": "reported",
+      "date": "1929",
+      "quote": "General Motors President on the Acquisition of Adam Opel AG (1929)",
+      "sources": [
+        { "url": "https://germanhistorydocs.org/en/weimar-germany-1918-1933/general-motors-president-on-the-acquisition-of-adam-opel-ag-1929", "publisher": "German History in Documents and Images (GHDI)", "title": "General Motors President on the Acquisition of Adam Opel AG (1929)" },
+        { "url": "https://muse.jhu.edu/article/203325/pdf", "publisher": "Project MUSE (journal review)", "title": "Review of General Motors and the Nazis" }
+      ]
+    },
+    {
+      "claim": "Henry Ashby Turner Jr.'s 'General Motors and the Nazis' (Yale University Press, 2005), based on access to GM's internal records assembled during a 1999-2000 GM research project, reports that most Opel trucks went to the German military, that by the end of 1940 more than 10,000 employees at Opel's Rüsselsheim plant were producing parts for Junkers bombers, and that after mid-1941 GM no longer held control over Opel. Turner describes the book as an independent undertaking not commissioned by GM.",
+      "status": "reported",
+      "date": "2005",
+      "quote": "by the end of 1940 more than 10,000 employees at Opel's Russelsheim plant were engaged in producing parts for the Junkers bombers",
+      "sources": [
+        { "url": "https://yalebooks.yale.edu/9780300106343/general-motors-and-the-nazis", "publisher": "Yale University Press", "title": "General Motors and the Nazis: The Struggle for Control of Opel, Europe's Biggest Carmaker", "date": "2005" },
+        { "url": "https://muse.jhu.edu/article/203325/pdf", "publisher": "Project MUSE (journal review)", "title": "Review of General Motors and the Nazis" }
+      ]
+    },
+    {
+      "claim": "The Alfred P. Sloan Foundation's biography states that GM's board chose Sloan as president in 1923, by which time he had developed a system of disciplined, professional management providing for decentralized operations with coordinated centralized policy control, and that he was elected chairman in 1937 and remained chief executive until 1946.",
+      "status": "documented",
+      "date": "1923",
+      "quote": "decentralized operations with coordinated centralized policy control",
+      "sources": [
+        { "url": "https://sloan.org/about/who-was-alfred-p-sloan-jr", "publisher": "Alfred P. Sloan Foundation", "title": "Who was Alfred P. Sloan Jr.?" }
+      ]
+    },
+    {
+      "claim": "Business-history accounts say Sloan's 1920 reorganization placed GM's car companies in self-contained operating divisions (Chevrolet, Pontiac, Oldsmobile, Buick and Cadillac), each evaluated as a profit center on return on investment, a multidivisional structure modeled on DuPont's; at the time almost every other large corporation was organized by function.",
+      "status": "reported",
+      "date": "1920",
+      "quote": "in 1920, other than DuPont, almost every large corporation was organized by function",
+      "sources": [
+        { "url": "https://steveblank.com/2018/04/23/why-the-future-of-tesla-may-depend-on-knowing-what-happened-to-billy-durant/", "publisher": "Steve Blank", "title": "Why the Future of Tesla May Depend on Knowing What Happened to Billy Durant", "date": "2018-04-23" },
+        { "url": "https://ocw.mit.edu/courses/esd-342-advanced-system-architecture-spring-2006/ab1bc35aa71b3572192c7f1cae3c74e9_lecture16.pdf", "publisher": "MIT OpenCourseWare", "title": "ESD.342 Advanced System Architecture, Lecture 16", "date": "2006" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "dupont",
+      "relation": "invested in",
+      "reverse": true,
+      "claim": "E.I. du Pont de Nemours & Co. acquired a 23 percent stock interest in General Motors in 1917-1919; the Supreme Court held in 1957 that the acquisition violated Section 7 of the Clayton Act.",
+      "status": "court",
+      "date": "1957-06-03",
+      "quote": "the purchase by du Pont in 1917-1919 of a 23% stock interest in General Motors",
+      "sources": [
+        { "url": "https://supreme.justia.com/cases/federal/us/353/586/case.html", "publisher": "Justia (U.S. Supreme Court)", "title": "United States v. E. I. du Pont de Nemours & Co., 353 U.S. 586 (1957)", "date": "1957-06-03" }
+      ]
+    },
+    {
+      "to": "alfred-p-sloan",
+      "relation": "executive of",
+      "reverse": true,
+      "claim": "Alfred P. Sloan Jr. was president of General Motors from 1923, chairman from 1937, chief executive until 1946 and honorary chairman until his death in 1966.",
+      "status": "documented",
+      "date": "1923",
+      "quote": "he was elected Chairman of the Board in 1937, and he continued as Chief Executive Officer until 1946",
+      "sources": [
+        { "url": "https://sloan.org/about/who-was-alfred-p-sloan-jr", "publisher": "Alfred P. Sloan Foundation", "title": "Who was Alfred P. Sloan Jr.?" }
+      ]
+    },
+    {
+      "to": "Adam Opel AG",
+      "toName": "Adam Opel AG",
+      "toType": "company",
+      "relation": "owns",
+      "claim": "General Motors acquired Adam Opel AG in 1929 and, according to a review of Turner's study, held all of its shares from early 1931.",
+      "status": "reported",
+      "date": "1929",
+      "quote": "General Motors President on the Acquisition of Adam Opel AG (1929)",
+      "sources": [
+        { "url": "https://germanhistorydocs.org/en/weimar-germany-1918-1933/general-motors-president-on-the-acquisition-of-adam-opel-ag-1929", "publisher": "German History in Documents and Images (GHDI)", "title": "General Motors President on the Acquisition of Adam Opel AG (1929)" },
+        { "url": "https://muse.jhu.edu/article/203325/pdf", "publisher": "Project MUSE (journal review)", "title": "Review of General Motors and the Nazis" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (Crash Conduits): DuPont parlayed an '1130% wartime gunpowder profit' into controlling GM. The 23% stake acquired 1917-1919 is supported by the Supreme Court record; the 1130% figure was not found.",
+    "Site claim: GM's Opel made Wehrmacht Blitz trucks. Turner's study (via reviews) supports that most Opel trucks went to the German military; the Blitz production figures seen were from Wikipedia and not recorded.",
+    "Site claim: GM shared tetraethyl lead and synthetic rubber patents with IG Farben. Not found in any source opened.",
+    "Site claim: DuPont/GM funded the 1934 'Business Plot'. The sources returned on the McCormack-Dickstein committee were Wikipedia, blogs and a MuckRock piece; the committee's February 1935 report and the extent of any du Pont or Sloan involvement were not confirmed from a primary document, and historians quoted in those pieces say the extent of involvement is not established.",
+    "Site claim (Manufacturing Consent) that GM industrialists funded 'Freedom Under God' was not researched.",
+    "Sources differ on the Opel acquisition date (1928 per a summary of Turner; March 1929 per other accounts) and price (about $33.3 million per Turner's summary)."
+  ]
+}

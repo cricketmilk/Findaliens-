@@ -1,0 +1,57 @@
+{
+  "entity": "howard-kershner",
+  "name": "Howard Kershner",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Howard E. Kershner (1891–1990) launched the Christian Freedom Foundation in 1950, served as its president and edited its newsletter Christian Economics for most of its 25 years; his 1957 book God, Gold, and Government grew out of lectures at Fuller Theological Seminary.",
+    "sources": [
+      {
+        "url": "https://digitalcommons.liberty.edu/gov_fac_pubs/498",
+        "publisher": "Liberty University Digital Commons",
+        "title": "Faculty publication on the Christian Freedom Foundation"
+      },
+      {
+        "url": "https://archives.fullerton.edu/repositories/5/archival_objects/14562",
+        "publisher": "California State University, Fullerton Archives",
+        "title": "Christian Freedom Foundation (CFF)"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Kershner launched the Christian Freedom Foundation in 1950 and edited Christian Economics during most of its 25 years of publication.",
+      "status": "reported",
+      "date": "1950",
+      "quote": "launched the Christian Freedom Foundation in 1950 and edited Christian Economics during most of its 25 years of publication",
+      "sources": [
+        {
+          "url": "https://digitalcommons.liberty.edu/gov_fac_pubs/498",
+          "publisher": "Liberty University Digital Commons",
+          "title": "Faculty publication on the Christian Freedom Foundation"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "christian-freedom-foundation",
+      "toName": "Christian Freedom Foundation",
+      "toType": "organization",
+      "relation": "founded",
+      "claim": "Kershner founded and led the Christian Freedom Foundation.",
+      "status": "reported",
+      "date": "1950",
+      "quote": "launched the Christian Freedom Foundation in 1950",
+      "sources": [
+        {
+          "url": "https://digitalcommons.liberty.edu/gov_fac_pubs/498",
+          "publisher": "Liberty University Digital Commons",
+          "title": "Faculty publication on the Christian Freedom Foundation"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "No opened source directly ties Kershner's foundation to Pew's money except the Philanthropy Roundtable's statement that Pew was 'instrumental' in it."
+  ]
+}

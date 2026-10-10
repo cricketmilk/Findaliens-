@@ -1,0 +1,182 @@
+{
+  "entity": "john-law",
+  "name": "John Law",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "John Law (1671–1729) was a Scottish-born financier who, under the Regent Philippe, duc d'Orléans, established the Banque Générale in 1716 with authority to issue notes and, in 1717, the Compagnie d'Occident (the Mississippi Company) with exclusive rights over France's Mississippi Valley territories. The bank became the Banque Royale under state control, and in 1720 it was merged with the company while Law was named controller-general of finances. Share prices rose roughly tenfold in 1719–20 and collapsed in 1720 after notes were over-issued; Law fled France at the end of 1720 and died in Venice in 1729.",
+    "sources": [
+      {
+        "url": "https://www.britannica.com/money/John-Law",
+        "publisher": "Encyclopaedia Britannica",
+        "title": "John Law"
+      },
+      {
+        "url": "https://www.britannica.com/place/Banque-Generale",
+        "publisher": "Encyclopaedia Britannica",
+        "title": "Banque Générale"
+      },
+      {
+        "url": "https://www.nber.org/system/files/working_papers/w21693/revisions/w21693.rev1.pdf",
+        "publisher": "NBER (working paper)",
+        "title": "Bubble Investing: Learning from History"
+      },
+      {
+        "url": "https://guides.loc.gov/business-booms-busts/mississippi-company",
+        "publisher": "Library of Congress (research guide)",
+        "title": "Mississippi Company & the South Sea Bubble - Business Booms, Busts, & Bubbles"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In 1716 Law established the Banque Générale, a bank with authority to issue notes, and a year later the Compagnie d'Occident, which held exclusive rights to develop France's Mississippi Valley territories.",
+      "status": "documented",
+      "date": "1716",
+      "quote": "In 1716 Law established the Banque Générale, a bank with the authority to issue notes.",
+      "sources": [
+        {
+          "url": "https://www.britannica.com/money/John-Law",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "John Law"
+        },
+        {
+          "url": "https://www.britannica.com/place/Banque-Generale",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Banque Générale"
+        }
+      ]
+    },
+    {
+      "claim": "By the NBER's account, Mississippi Company share prices rose roughly tenfold between 1719 and 1720, and the bubble burst in spring 1720 once shares were made convertible into paper currency at a fixed rate.",
+      "status": "reported",
+      "date": "1720",
+      "quote": "the bubble burst in spring 1720, once shares were made convertible into paper currency at a fixed rate.",
+      "sources": [
+        {
+          "url": "https://www.nber.org/system/files/working_papers/w21693/revisions/w21693.rev1.pdf",
+          "publisher": "NBER (working paper)",
+          "title": "Bubble Investing: Learning from History"
+        }
+      ]
+    },
+    {
+      "claim": "Law was named controller-general of finance in 1720; the Library of Congress guide treats this appointment as the beginning of the collapse, and by November 1720 Law had fled France.",
+      "status": "documented",
+      "date": "1720",
+      "quote": "His appointment as controller-general in 1720 seem to be the beginning of the collapse by that November and Law fled France.",
+      "sources": [
+        {
+          "url": "https://guides.loc.gov/business-booms-busts/mississippi-company",
+          "publisher": "Library of Congress (research guide)",
+          "title": "Mississippi Company & the South Sea Bubble - Business Booms, Busts, & Bubbles"
+        },
+        {
+          "url": "https://kids.britannica.com/students/article/Mississippi-Bubble/330220",
+          "publisher": "Britannica (Students)",
+          "title": "Mississippi Bubble"
+        }
+      ]
+    },
+    {
+      "claim": "A Library of Congress catalogue note on a 1720 account of the company states that the issue of excessive quantities of bank notes weakened confidence and Law's system collapsed.",
+      "status": "documented",
+      "date": "1720",
+      "quote": "the issue of excessive quantities of bank notes weakened confidence, however, and Law's system collapsed.",
+      "sources": [
+        {
+          "url": "https://www.loc.gov/item/2021667017/",
+          "publisher": "Library of Congress",
+          "title": "A Full and Impartial Account of the Company of Mississippi, Otherwise called the French East-India Company. Projected and Settled by Mister Law."
+        }
+      ]
+    },
+    {
+      "claim": "Secondary accounts put the peak share price at 10,000 livres and state that by summer 1720 about 2.5 billion livres of paper money were in circulation against roughly 300 million livres of specie held by the bank.",
+      "status": "reported",
+      "date": "1720",
+      "quote": "By the summer of 1720, there were 2.5 billion livres of paper money in circulation, while the bank held only 300 million in specie",
+      "sources": [
+        {
+          "url": "https://www.ebsco.com/research-starters/history/financial-collapse-john-law-system",
+          "publisher": "EBSCO Research Starters",
+          "title": "Financial Collapse of the John Law System"
+        },
+        {
+          "url": "https://mises.org/mises-wire/john-law-and-mississippi-bubble-300-years-later",
+          "publisher": "Mises Institute",
+          "title": "John Law and the Mississippi Bubble, 300 Years Later"
+        }
+      ]
+    },
+    {
+      "claim": "Britannica states that Law, as the author of the programme, was held responsible and was forced to flee France in 1720, and that the Mississippi scheme largely destroyed the French chartered companies.",
+      "status": "documented",
+      "date": "1720",
+      "quote": "as the author of the program, he was responsible and was forced to flee France in 1720",
+      "sources": [
+        {
+          "url": "https://www.britannica.com/money/John-Law",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "John Law"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "mississippi-company",
+      "toName": "Mississippi Company",
+      "toType": "company",
+      "relation": "founded",
+      "claim": "Law founded the Compagnie d'Occident (Mississippi Company) in 1717; in February 1720 it was merged with the Banque Royale.",
+      "status": "documented",
+      "date": "1717",
+      "quote": "On 22nd February 1720, the Mississippi Company and the Banque Royale merged.",
+      "sources": [
+        {
+          "url": "https://www.britannica.com/money/John-Law",
+          "publisher": "Encyclopaedia Britannica",
+          "title": "John Law"
+        },
+        {
+          "url": "https://www.winton.com/news/the-mississippi-bubble",
+          "publisher": "Winton",
+          "title": "The Mississippi Bubble"
+        }
+      ]
+    },
+    {
+      "to": "duke-of-orleans",
+      "toName": "Duke of Orléans",
+      "toType": "person",
+      "relation": "other",
+      "claim": "The Regent, the duc d'Orléans, turned to Law to repair a state that was nearly bankrupt after decades of war, approved his 1716 bank, and authorised a 300,000-share issue whose proceeds could be used to pay off the national debt.",
+      "status": "reported",
+      "date": "1716",
+      "quote": "the regent authorised a much larger issue of 300,000 shares, whose proceeds could be used to pay off the whole of the national debt",
+      "sources": [
+        {
+          "url": "https://www.historytoday.com/archive/john-law-and-mississippi-bubble",
+          "publisher": "History Today",
+          "title": "John Law and the Mississippi Bubble"
+        },
+        {
+          "url": "https://www.winton.com/news/the-mississippi-bubble",
+          "publisher": "Winton",
+          "title": "The Mississippi Bubble"
+        },
+        {
+          "url": "https://www.ebsco.com/research-starters/history/financial-collapse-john-law-system",
+          "publisher": "EBSCO Research Starters",
+          "title": "Financial Collapse of the John Law System"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site says the Regent granted Law a monopoly over colonies, the royal mint and tax collection; the sources consulted confirm the colonial trading rights and the note-issuing bank but not the mint and tax-farming grants.",
+    "The site's phrase 'capital controls and banned gold' was not confirmed; the NBER paper describes shares being made convertible into paper at a fixed rate, and the 21 May 1720 edict's terms were not found.",
+    "Sources disagree on the date of Law's flight (November vs 28 December 1720) and on the size of the first share issue (50,000 vs 300,000 shares).",
+    "The site's 'tens of thousands wiped out by hyperinflation' and 'billions in sovereign war debt' are not quantified in the sources consulted."
+  ]
+}

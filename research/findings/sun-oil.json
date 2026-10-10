@@ -1,0 +1,97 @@
+{
+  "entity": "sun-oil",
+  "name": "Sun Oil",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Sun Oil Company (later Sun Company, now Sunoco) was founded by Joseph Newton Pew; his son J. Howard Pew was president from 1912 to 1947. The Pew family's charitable funds, set up from 1948, held Sun Company stock until 1997. Kruse's account of Spiritual Mobilization names 'Sun Oil President J. Howard Pew' as its principal funder.",
+    "sources": [
+      {
+        "url": "https://findingaids.hagley.org/repositories/3/resources/890",
+        "publisher": "Hagley Museum and Library",
+        "title": "J. Howard Pew papers (finding aid)"
+      },
+      {
+        "url": "https://www.pewtrusts.org/en/about/history",
+        "publisher": "The Pew Charitable Trusts",
+        "title": "History"
+      },
+      {
+        "url": "https://www.npr.org/2015/03/30/396365659/how-one-nation-didnt-become-under-god-until-the-50s-religious-revival",
+        "publisher": "NPR (Fresh Air)",
+        "title": "How 'One Nation' Didn't Become 'Under God' Until The '50s Religious Revival",
+        "date": "2015-03-30"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "J. Howard Pew was president of the Sun Oil Company from 1912, on his father's death, until 1947.",
+      "status": "documented",
+      "date": "1912–1947",
+      "quote": "When his father died in 1912, he became president of the Sun Oil Company a position he was to hold until 1947.",
+      "sources": [
+        {
+          "url": "https://findingaids.hagley.org/repositories/3/resources/890",
+          "publisher": "Hagley Museum and Library",
+          "title": "J. Howard Pew papers (finding aid)"
+        }
+      ]
+    },
+    {
+      "claim": "The Pew Charitable Trusts says the seven family trusts that fund it divested their holdings in Sun Company (Sun Oil Co.) in 1997.",
+      "status": "documented",
+      "date": "1997",
+      "quote": "divested their holdings in Sun Company (Sun Oil Co.) in 1997",
+      "sources": [
+        {
+          "url": "https://www.pewtrusts.org/en/about/history",
+          "publisher": "The Pew Charitable Trusts",
+          "title": "History"
+        }
+      ]
+    },
+    {
+      "claim": "Kruse identifies 'Sun Oil President J. Howard Pew' as a funder of Spiritual Mobilization; The Nation's summary of his book says the group channeled donations from Pew and tire magnate Harvey Firestone.",
+      "status": "reported",
+      "date": "1940s",
+      "quote": "Its funders included Sun Oil President J. Howard Pew",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2015/03/30/396365659/how-one-nation-didnt-become-under-god-until-the-50s-religious-revival",
+          "publisher": "NPR (Fresh Air)",
+          "title": "How 'One Nation' Didn't Become 'Under God' Until The '50s Religious Revival",
+          "date": "2015-03-30"
+        },
+        {
+          "url": "https://www.thenation.com/?p=131186",
+          "publisher": "The Nation",
+          "title": "How Long Have We Really Been 'One Nation Under God'?",
+          "date": "2015"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "j-howard-pew",
+      "toName": "J. Howard Pew",
+      "toType": "person",
+      "relation": "executive of",
+      "claim": "J. Howard Pew was Sun Oil's president, 1912–1947.",
+      "status": "documented",
+      "date": "1912–1947",
+      "quote": "he became president of the Sun Oil Company a position he was to hold until 1947",
+      "sources": [
+        {
+          "url": "https://findingaids.hagley.org/repositories/3/resources/890",
+          "publisher": "Hagley Museum and Library",
+          "title": "J. Howard Pew papers (finding aid)"
+        }
+      ],
+      "reverse": true
+    }
+  ],
+  "openQuestions": [
+    "The sources attribute the Spiritual Mobilization money to Pew personally; no source opened shows a corporate Sun Oil contribution as distinct from Pew's own."
+  ]
+}

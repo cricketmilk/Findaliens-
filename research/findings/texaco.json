@@ -1,0 +1,176 @@
+{
+  "entity": "texaco",
+  "name": "Texaco",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Texaco was a major US oil company, merged into Chevron in 2001. Inside Climate News reported in December 2015 that Texaco was among the members of the American Petroleum Institute's CO2 and Climate Task Force, which in February 1980 heard Stanford's John Laurmann project 2.5 C of warming with 'major economic consequences' and 5 C by 2067 with 'globally catastrophic effects'. Minutes archived by Climate Files record a Texaco representative proposing that the task force help develop ground rules for fuels in relation to CO2.",
+    "sources": [
+      {
+        "url": "https://www.climatefiles.com/climate-change-evidence/1980-api-climate-task-force-co2-problem",
+        "publisher": "Climate Files",
+        "title": "1980 API CO2 and Climate Task Force, 'The CO2 Problem; Addressing Research Agenda Development'",
+        "date": "1980-02-29"
+      },
+      {
+        "url": "https://www.ecowatch.com/it-wasnt-only-exxon-that-knew-about-global-warming-since-the-1970s-1882135574.html",
+        "publisher": "EcoWatch (republishing Inside Climate News)",
+        "title": "It Wasn't Only Exxon That Knew About Global Warming Since the 1970s",
+        "date": "2015-12"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The API's CO2 and Climate Task Force, renamed the Climate and Energy Task Force in 1980, included scientists and engineers from Exxon, Mobil, Amoco, Phillips, Texaco, Shell, Sunoco and Sohio, according to internal documents and interviews reported by Inside Climate News.",
+      "status": "reported",
+      "date": "1980",
+      "quote": "Its members included senior scientists and engineers from nearly every major U.S. and multinational oil and gas company, including Exxon, Mobil, Amoco, Phillips, Texaco, Shell, Sunoco, Sohio",
+      "sources": [
+        {
+          "url": "https://www.ecowatch.com/it-wasnt-only-exxon-that-knew-about-global-warming-since-the-1970s-1882135574.html",
+          "publisher": "EcoWatch (republishing Inside Climate News)",
+          "title": "It Wasn't Only Exxon That Knew About Global Warming Since the 1970s",
+          "date": "2015-12"
+        }
+      ]
+    },
+    {
+      "claim": "At the task force's February 1980 meeting in New York, Stanford's John Laurmann projected a 2.5 C rise with 'major economic consequences' and a 5 C rise by 2067 with 'globally catastrophic effects'.",
+      "status": "documented",
+      "date": "1980-02-29",
+      "quote": "He then told the task force that models showed a 5 degrees Celsius rise by 2067, with 'globally catastrophic effects'.",
+      "sources": [
+        {
+          "url": "https://www.climatefiles.com/climate-change-evidence/1980-api-climate-task-force-co2-problem",
+          "publisher": "Climate Files",
+          "title": "1980 API CO2 and Climate Task Force, 'The CO2 Problem; Addressing Research Agenda Development'",
+          "date": "1980-02-29"
+        },
+        {
+          "url": "https://www.ecowatch.com/it-wasnt-only-exxon-that-knew-about-global-warming-since-the-1970s-1882135574.html",
+          "publisher": "EcoWatch (republishing Inside Climate News)",
+          "title": "It Wasn't Only Exxon That Knew About Global Warming Since the 1970s",
+          "date": "2015-12"
+        }
+      ]
+    },
+    {
+      "claim": "Minutes of the February 29, 1980 meeting record Texaco's Bruce S. Bailey offering for consideration that an overall goal of the task force should be to help develop ground rules for energy release of fuels and the cleanup of fuels as they relate to CO2 creation.",
+      "status": "documented",
+      "date": "1980-02-29",
+      "quote": "an overall goal of the Task Force should be to help develop ground rules for energy release of fuels and the cleanup of fuels as they relate to CO2 creation",
+      "sources": [
+        {
+          "url": "https://www.climatefiles.com/climate-change-evidence/1980-api-climate-task-force-co2-problem",
+          "publisher": "Climate Files",
+          "title": "1980 API CO2 and Climate Task Force, 'The CO2 Problem; Addressing Research Agenda Development'",
+          "date": "1980-02-29"
+        }
+      ]
+    },
+    {
+      "claim": "Inside Climate News reported that by the 1990s API had joined Exxon and other companies in the Global Climate Coalition, which opposed international efforts to curb emissions.",
+      "status": "reported",
+      "date": "1990s",
+      "quote": "It joined Exxon, other fossil fuel companies and major manufacturers in the Global Climate Coalition (GCC), a lobbying group whose objective was to derail international efforts to curb heat-trapping emissions.",
+      "sources": [
+        {
+          "url": "https://www.ecowatch.com/it-wasnt-only-exxon-that-knew-about-global-warming-since-the-1970s-1882135574.html",
+          "publisher": "EcoWatch (republishing Inside Climate News)",
+          "title": "It Wasn't Only Exxon That Knew About Global Warming Since the 1970s",
+          "date": "2015-12"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "american-petroleum-institute",
+      "toName": "American Petroleum Institute",
+      "toType": "trade group",
+      "relation": "other",
+      "claim": "Texaco was a member of API's CO2 and Climate Task Force around 1980.",
+      "status": "reported",
+      "date": "1980",
+      "quote": "including Exxon, Mobil, Amoco, Phillips, Texaco, Shell, Sunoco, Sohio",
+      "sources": [
+        {
+          "url": "https://www.ecowatch.com/it-wasnt-only-exxon-that-knew-about-global-warming-since-the-1970s-1882135574.html",
+          "publisher": "EcoWatch (republishing Inside Climate News)",
+          "title": "It Wasn't Only Exxon That Knew About Global Warming Since the 1970s",
+          "date": "2015-12"
+        },
+        {
+          "url": "https://www.climatefiles.com/climate-change-evidence/1980-api-climate-task-force-co2-problem",
+          "publisher": "Climate Files",
+          "title": "1980 API CO2 and Climate Task Force, 'The CO2 Problem; Addressing Research Agenda Development'",
+          "date": "1980-02-29"
+        }
+      ]
+    },
+    {
+      "to": "exxonmobil",
+      "toName": "ExxonMobil",
+      "toType": "company",
+      "relation": "partnered with",
+      "claim": "Texaco and Exxon were both members of API's CO2 and Climate Task Force; Exxon's Henry Shaw urged the Laurmann briefing.",
+      "status": "reported",
+      "date": "1980",
+      "quote": "At the urging of task force member Henry Shaw, Exxon's lead climate researcher in the late 1970s, the task force invited Professor John A. Laurmann of Stanford University",
+      "sources": [
+        {
+          "url": "https://www.ecowatch.com/it-wasnt-only-exxon-that-knew-about-global-warming-since-the-1970s-1882135574.html",
+          "publisher": "EcoWatch (republishing Inside Climate News)",
+          "title": "It Wasn't Only Exxon That Knew About Global Warming Since the 1970s",
+          "date": "2015-12"
+        }
+      ]
+    },
+    {
+      "to": "shell",
+      "toName": "Shell",
+      "toType": "company",
+      "relation": "partnered with",
+      "claim": "Texaco and Shell were both members of API's CO2 and Climate Task Force.",
+      "status": "reported",
+      "date": "1980",
+      "quote": "including Exxon, Mobil, Amoco, Phillips, Texaco, Shell, Sunoco, Sohio",
+      "sources": [
+        {
+          "url": "https://www.ecowatch.com/it-wasnt-only-exxon-that-knew-about-global-warming-since-the-1970s-1882135574.html",
+          "publisher": "EcoWatch (republishing Inside Climate News)",
+          "title": "It Wasn't Only Exxon That Knew About Global Warming Since the 1970s",
+          "date": "2015-12"
+        }
+      ]
+    },
+    {
+      "to": "stanford",
+      "toName": "Stanford",
+      "toType": "university",
+      "relation": "other",
+      "claim": "Stanford professor John Laurmann briefed the API task force, of which Texaco was a member, in February 1980.",
+      "status": "documented",
+      "date": "1980-02-29",
+      "quote": "the task force invited Professor John A. Laurmann of Stanford University to brief members at the February 1980 meeting in New York",
+      "sources": [
+        {
+          "url": "https://www.ecowatch.com/it-wasnt-only-exxon-that-knew-about-global-warming-since-the-1970s-1882135574.html",
+          "publisher": "EcoWatch (republishing Inside Climate News)",
+          "title": "It Wasn't Only Exxon That Knew About Global Warming Since the 1970s",
+          "date": "2015-12"
+        },
+        {
+          "url": "https://www.climatefiles.com/climate-change-evidence/1980-api-climate-task-force-co2-problem",
+          "publisher": "Climate Files",
+          "title": "1980 API CO2 and Climate Task Force, 'The CO2 Problem; Addressing Research Agenda Development'",
+          "date": "1980-02-29"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (documented; task force with Exxon, Texaco and Shell told of 2.5 C by 2038 'major economic consequences' and 5 C by 2067 'globally catastrophic effects'): supported; the 2038 date was not in the source passages used and should be checked against the minutes.",
+    "The Chevron merger date is from general knowledge and not sourced in this file; add a source before publishing."
+  ]
+}

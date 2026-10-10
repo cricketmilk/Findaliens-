@@ -1,0 +1,78 @@
+{
+  "entity": "iaea",
+  "name": "IAEA",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "The International Atomic Energy Agency is the Vienna-based UN-system body that verifies states' nuclear safeguards obligations. On June 12, 2025 its Board of Governors adopted a resolution drafted by France, Germany and the United Kingdom and backed by the United States finding Iran in non-compliance with its safeguards obligations, the first such finding in two decades; the vote was 19 in favour, three against (Russia, China and Burkina Faso), with 11 abstentions. The IAEA's preceding quarterly report put Iran's stockpile of uranium enriched to 60% at 408.6 kg.",
+    "sources": [
+      { "url": "https://www.rudaw.net/english/middleeast/iran/120620251", "publisher": "Rudaw", "title": "IAEA says Iran in breach of nuclear commitments, Tehran launches new enrichment center", "date": "2025-06-12" },
+      { "url": "https://www.globalsecurity.org/wmd/library/news/iran/2025/iran-250606-rferl01.htm", "publisher": "RFE/RL (via GlobalSecurity.org)", "title": "Iran Vows Repercussions As West Seeks Rare IAEA Rebuke Over Noncompliance", "date": "2025-06-06" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On June 12, 2025 the IAEA Board of Governors adopted a resolution finding Iran in non-compliance with its safeguards obligations and citing a lack of cooperation with IAEA inspectors.",
+      "status": "documented",
+      "date": "2025-06-12",
+      "quote": "accused Iran of non-compliance with its safeguards obligations and a lack of cooperation with the IAEA inspectors",
+      "sources": [
+        { "url": "https://www.rudaw.net/english/middleeast/iran/120620251", "publisher": "Rudaw", "title": "IAEA says Iran in breach of nuclear commitments, Tehran launches new enrichment center", "date": "2025-06-12" }
+      ]
+    },
+    {
+      "claim": "The June 2025 resolution was drafted by the E3 (France, Germany and the United Kingdom) and backed by the United States; nineteen countries voted for it, Russia, China and Burkina Faso voted against, eleven abstained and two did not vote.",
+      "status": "documented",
+      "date": "2025-06-12",
+      "quote": "nineteen countries voting for, Russia, China, and Burkina Faso opposed, eleven abstentions, and two not voting",
+      "sources": [
+        { "url": "https://theowp.org/iaea-board-condemns-irans-lack-of-nuclear-cooperation-amid-regional-tensions/", "publisher": "The Organization for World Peace", "title": "IAEA Board Condemns Iran's Lack Of Nuclear Cooperation Amid Regional Tensions", "date": "2025-06" },
+        { "url": "https://www.rudaw.net/english/middleeast/iran/120620251", "publisher": "Rudaw", "title": "IAEA says Iran in breach of nuclear commitments, Tehran launches new enrichment center", "date": "2025-06-12" }
+      ]
+    },
+    {
+      "claim": "The IAEA's quarterly report issued before the June 2025 Board meeting said Iran held 408.6 kg of uranium enriched to 60%, up from just under 275 kg in February 2025.",
+      "status": "documented",
+      "date": "2025-05-31",
+      "quote": "Iran was stockpiling 408.6 kilograms enriched to 60 percent -- up from just under 275 kilograms in February",
+      "sources": [
+        { "url": "https://www.globalsecurity.org/wmd/library/news/iran/2025/iran-250606-rferl01.htm", "publisher": "RFE/RL (via GlobalSecurity.org)", "title": "Iran Vows Repercussions As West Seeks Rare IAEA Rebuke Over Noncompliance", "date": "2025-06-06" }
+      ]
+    },
+    {
+      "claim": "After the June 2025 strikes on Iranian nuclear sites, the IAEA estimated Iran's stockpile of uranium enriched up to 60% at 440.9 kg and later said it could not provide information on the stockpile's current size, composition or whereabouts.",
+      "status": "documented",
+      "date": "2025",
+      "quote": "cannot provide any information on the current size, composition or whereabouts of the stockpile",
+      "sources": [
+        { "url": "https://www.khaleejtimes.com/world/mena/iaea-board-iran-un-security-council-nuclear-non-compliance", "publisher": "Khaleej Times", "title": "IAEA board refers Iran to UN Security Council over nuclear 'non-compliance'", "date": "2026-09" }
+      ]
+    },
+    {
+      "claim": "In September 2026 the IAEA Board adopted a follow-up resolution reporting Iran's non-compliance to the UN Security Council, described as the first such referral in 20 years.",
+      "status": "documented",
+      "date": "2026-09",
+      "sources": [
+        { "url": "https://al-monitor.com/originals/2026/09/iaea-board-passes-resolution-reporting-iran-un-security-council", "publisher": "Al-Monitor", "title": "IAEA board passes resolution reporting Iran to UN Security Council", "date": "2026-09" },
+        { "url": "https://www.khaleejtimes.com/world/mena/iaea-board-iran-un-security-council-nuclear-non-compliance", "publisher": "Khaleej Times", "title": "IAEA board refers Iran to UN Security Council over nuclear 'non-compliance'", "date": "2026-09" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "iran",
+      "toName": "Iran",
+      "toType": "government",
+      "relation": "regulated",
+      "claim": "The IAEA verifies Iran's safeguards obligations and in June 2025 its Board found Iran in non-compliance with them.",
+      "status": "documented",
+      "date": "2025-06-12",
+      "sources": [
+        { "url": "https://www.rudaw.net/english/middleeast/iran/120620251", "publisher": "Rudaw", "title": "IAEA says Iran in breach of nuclear commitments, Tehran launches new enrichment center", "date": "2025-06-12" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site's statement that the IAEA reported 408.6 kg of uranium at 60% and found Iran in non-compliance on 12 June is supported; the 408.6 kg figure comes from the quarterly report preceding the vote rather than the resolution text.",
+    "The IAEA Board document (GOV/2025 series) and the May 2025 safeguards report on iaea.org were not reachable and should be cited directly; vote counts for later resolutions differ across sources."
+  ]
+}

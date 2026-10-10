@@ -1,0 +1,80 @@
+{
+  "entity": "david-boies",
+  "name": "David Boies",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "David Boies is a litigator and chairman of Boies, Schiller & Flexner. According to John Carreyrou's reporting, Boies became outside counsel to Theranos after two Palo Alto investors approached him in 2011 and also sat on the Theranos board; his firm was reported, on the account of one unnamed source, to have been paid in Theranos stock for patent work. Theranos, through Boies, pursued former employees Tyler Shultz and Erika Cheung with legal threats after they raised concerns about the company's testing.",
+    "sources": [
+      { "url": "https://telecareaware.com/the-theranos-story-ch-26-counsel-boies-schiller-flexner-departs-disagreeing/", "publisher": "Telehealth & Telecare Aware", "title": "The Theranos Story, ch. 26: counsel Boies, Schiller & Flexner departs, disagreeing", "date": "2016" },
+      { "url": "https://scu.edu/ethics/focus-areas/business-ethics/resources/teaching-note-interview-of-theranos-whistleblower-tyler-shultz", "publisher": "Santa Clara University, Markkula Center for Applied Ethics", "title": "Teaching Note: Interview of Theranos Whistleblower Tyler Shultz", "date": "2019" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Boies became outside counsel to Theranos after two Palo Alto investors approached him in 2011, and he also sat on the Theranos board, according to Carreyrou's Wall Street Journal reporting as summarised by Telecare Aware.",
+      "status": "reported",
+      "date": "2011",
+      "quote": "Boies became outside counsel after two Palo Alto investors approached him in 2011. Boies also sits on the Theranos board.",
+      "sources": [
+        { "url": "https://telecareaware.com/the-theranos-story-ch-26-counsel-boies-schiller-flexner-departs-disagreeing/", "publisher": "Telehealth & Telecare Aware", "title": "The Theranos Story, ch. 26: counsel Boies, Schiller & Flexner departs, disagreeing", "date": "2016" }
+      ]
+    },
+    {
+      "claim": "Boies's law firm was reported to have been paid in Theranos stock for its work on a patent case, according to a single person familiar with the matter.",
+      "status": "reported",
+      "date": "2016",
+      "quote": "The law firm was paid in Theranos stock for its work on the patent case, according to a person familiar with the matter.",
+      "sources": [
+        { "url": "https://telecareaware.com/the-theranos-story-ch-26-counsel-boies-schiller-flexner-departs-disagreeing/", "publisher": "Telehealth & Telecare Aware", "title": "The Theranos Story, ch. 26: counsel Boies, Schiller & Flexner departs, disagreeing", "date": "2016" }
+      ]
+    },
+    {
+      "claim": "Boies, Schiller & Flexner ended its representation of Theranos in 2016 amid a disagreement with the company, according to Carreyrou's reporting.",
+      "status": "reported",
+      "date": "2016",
+      "sources": [
+        { "url": "https://telecareaware.com/the-theranos-story-ch-26-counsel-boies-schiller-flexner-departs-disagreeing/", "publisher": "Telehealth & Telecare Aware", "title": "The Theranos Story, ch. 26: counsel Boies, Schiller & Flexner departs, disagreeing", "date": "2016" }
+      ]
+    },
+    {
+      "claim": "After Tyler Shultz and Erika Cheung left Theranos, the company engaged Boies to pursue them with threatened defamation and trade-secret claims; Shultz's family spent about $400,000 on legal fees in response.",
+      "status": "reported",
+      "date": "2015",
+      "quote": "Holmes hired David Boies to go after them with defamation lawsuits that accused them of leaking trade secrets",
+      "sources": [
+        { "url": "https://muddyrivernews.com/top-stories/theranos-whistleblower-tells-culver-stockton-students-to-find-that-thing-worth-doing/20260221071832/", "publisher": "Muddy River News", "title": "Theranos whistleblower tells Culver-Stockton students to find 'that thing worth doing'", "date": "2026-02-21" },
+        { "url": "https://scu.edu/ethics/focus-areas/business-ethics/resources/teaching-note-interview-of-theranos-whistleblower-tyler-shultz", "publisher": "Santa Clara University, Markkula Center for Applied Ethics", "title": "Teaching Note: Interview of Theranos Whistleblower Tyler Shultz", "date": "2019" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "theranos",
+      "toName": "Theranos",
+      "toType": "company",
+      "relation": "advised",
+      "claim": "Boies was outside counsel to Theranos from 2011 and sat on its board, per Carreyrou's reporting.",
+      "status": "reported",
+      "date": "2011",
+      "sources": [
+        { "url": "https://telecareaware.com/the-theranos-story-ch-26-counsel-boies-schiller-flexner-departs-disagreeing/", "publisher": "Telehealth & Telecare Aware", "title": "The Theranos Story, ch. 26: counsel Boies, Schiller & Flexner departs, disagreeing", "date": "2016" }
+      ]
+    },
+    {
+      "to": "boies-schiller",
+      "toName": "Boies Schiller",
+      "toType": "company",
+      "relation": "founded",
+      "claim": "Boies is the founding chairman of Boies, Schiller & Flexner, the firm that represented Theranos.",
+      "status": "reported",
+      "date": "2016",
+      "sources": [
+        { "url": "https://telecareaware.com/the-theranos-story-ch-26-counsel-boies-schiller-flexner-departs-disagreeing/", "publisher": "Telehealth & Telecare Aware", "title": "The Theranos Story, ch. 26: counsel Boies, Schiller & Flexner departs, disagreeing", "date": "2016" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site says Boies Schiller received '$30M+ in fees and stock'. The only source found says the firm was paid in stock for patent work, on one unnamed source's account; no dollar figure was located. Unsupported as to the amount.",
+    "The underlying Wall Street Journal articles by John Carreyrou (2015–2016) were not reachable; the facts here rest on a secondary summary and should be checked against them."
+  ]
+}

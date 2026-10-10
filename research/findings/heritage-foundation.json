@@ -1,0 +1,84 @@
+{
+  "entity": "heritage-foundation",
+  "name": "Heritage Foundation",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The Heritage Foundation was founded on February 16, 1973 by Paul Weyrich, Edwin Feulner and brewer Joseph Coors; its own Feulner timeline credits the founding to donors including Joseph Coors, Edward E. Noble and Richard M. Scaife. Under Frank J. Walton it adopted direct-mail fundraising and its annual income reached $1 million in 1976.",
+    "sources": [
+      {
+        "url": "https://www.heritage.org/feulner-timeline",
+        "publisher": "The Heritage Foundation",
+        "title": "Feulner Timeline"
+      },
+      {
+        "url": "https://modernagejournal.com/paul-weyrich-father-of-a-new-right/236103/",
+        "publisher": "Modern Age",
+        "title": "Paul Weyrich: Father of a New Right"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Heritage's own Feulner timeline credits the foundation's 1973 founding to donors including Joseph Coors, Edward E. Noble and Richard M. Scaife.",
+      "status": "documented",
+      "date": "1973",
+      "quote": "donors including Joseph Coors, Edward E. Noble, and Richard M. Scaife",
+      "sources": [
+        {
+          "url": "https://www.heritage.org/feulner-timeline",
+          "publisher": "The Heritage Foundation",
+          "title": "Feulner Timeline"
+        }
+      ]
+    },
+    {
+      "claim": "Modern Age's profile of Weyrich says Heritage was founded on February 16, 1973 by Weyrich, Feulner and Coors as a conservative counterpart to the Brookings Institution; Weyrich was its first president.",
+      "status": "reported",
+      "date": "1973-02-16",
+      "quote": "The Heritage Foundation was founded on February 16, 1973 by Paul Weyrich, Edwin Feulner, and Joseph Coors",
+      "sources": [
+        {
+          "url": "https://modernagejournal.com/paul-weyrich-father-of-a-new-right/236103/",
+          "publisher": "Modern Age",
+          "title": "Paul Weyrich: Father of a New Right"
+        }
+      ]
+    },
+    {
+      "claim": "Under Frank J. Walton the foundation began direct-mail fundraising and its annual income grew to $1 million per year in 1976.",
+      "status": "reported",
+      "date": "1976",
+      "quote": "Heritage's annual income grew to $1 million per year in 1976",
+      "sources": [
+        {
+          "url": "https://modernagejournal.com/paul-weyrich-father-of-a-new-right/236103/",
+          "publisher": "Modern Age",
+          "title": "Paul Weyrich: Father of a New Right"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "paul-weyrich",
+      "toName": "Paul Weyrich",
+      "toType": "person",
+      "relation": "co-founded",
+      "claim": "Weyrich co-founded Heritage and was its first president.",
+      "status": "reported",
+      "date": "1973",
+      "quote": "founded on February 16, 1973 by Paul Weyrich, Edwin Feulner, and Joseph Coors",
+      "sources": [
+        {
+          "url": "https://modernagejournal.com/paul-weyrich-father-of-a-new-right/236103/",
+          "publisher": "Modern Age",
+          "title": "Paul Weyrich: Father of a New Right"
+        }
+      ],
+      "reverse": true
+    }
+  ],
+  "openQuestions": [
+    "Coors's seed gift is usually put at $250,000 and Scaife's later giving at 'tens of millions,' but those figures appeared only in tertiary summaries; Heritage's own timeline names Coors, Noble and Scaife without amounts. Koch-family grants to Heritage were not found in opened sources. Joseph Coors and Richard Mellon Scaife are not seeded entities."
+  ]
+}

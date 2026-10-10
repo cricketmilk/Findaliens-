@@ -1,0 +1,150 @@
+{
+  "entity": "colm-kelleher",
+  "name": "Colm Kelleher",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Colm Kelleher, formerly President of Morgan Stanley until June 2019, was nominated by the UBS board on 20 November 2021 and elected Chairman of UBS Group at the Annual General Meeting of 6 April 2022, succeeding Axel Weber. He was UBS chairman when UBS agreed on 19 March 2023 to take over Credit Suisse with Swiss state support.",
+    "sources": [
+      {
+        "url": "https://www.ubs.com/global/en/media/display-page-ndp/en-20211120-ubs-board-of-directors.html",
+        "publisher": "UBS",
+        "title": "Colm Kelleher to be nominated for election to the UBS Board of Directors to succeed Axel A. Weber as Chairman",
+        "date": "2021-11-20"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1610520/000111444621010073/newsrelease6k20211122.htm",
+        "publisher": "SEC EDGAR (UBS Group AG Form 6-K)",
+        "title": "UBS Group AG Form 6-K news release, November 2021",
+        "date": "2021-11-22"
+      },
+      {
+        "url": "https://www.caproasia.com/?p=33825",
+        "publisher": "Caproasia",
+        "title": "Report on the Credit Suisse-UBS merger announcement"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On 20 November 2021 UBS's board announced it would nominate Kelleher for election as Chairman at the AGM on 6 April 2022 to succeed Axel A. Weber, who had reached the maximum term limit after ten years.",
+      "status": "documented",
+      "date": "2021-11-20",
+      "quote": "nominate Colm Kelleher as Chairman for election at the Annual General Meeting on 6 April 2022",
+      "sources": [
+        {
+          "url": "https://www.ubs.com/global/en/media/display-page-ndp/en-20211120-ubs-board-of-directors.html",
+          "publisher": "UBS",
+          "title": "Colm Kelleher to be nominated for election to the UBS Board of Directors to succeed Axel A. Weber as Chairman",
+          "date": "2021-11-20"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1610520/000111444621010073/newsrelease6k20211122.htm",
+          "publisher": "SEC EDGAR (UBS Group AG Form 6-K)",
+          "title": "UBS Group AG Form 6-K news release, November 2021",
+          "date": "2021-11-22"
+        }
+      ]
+    },
+    {
+      "claim": "Kelleher retired from Morgan Stanley in June 2019 as President, having earlier been CFO (2007-09) and President of Institutional Securities (2010-15).",
+      "status": "documented",
+      "date": "2019-06",
+      "quote": "He retired from Morgan Stanley in June 2019 as President of the firm, overseeing both the Institutional Securities Business and Wealth Management.",
+      "sources": [
+        {
+          "url": "https://www.ubs.com/global/en/media/display-page-ndp/en-20211120-ubs-board-of-directors.html",
+          "publisher": "UBS",
+          "title": "Colm Kelleher to be nominated for election to the UBS Board of Directors to succeed Axel A. Weber as Chairman",
+          "date": "2021-11-20"
+        }
+      ]
+    },
+    {
+      "claim": "UBS shareholders elected Kelleher Chairman at the April 2022 AGM.",
+      "status": "reported",
+      "date": "2022-04-06",
+      "sources": [
+        {
+          "url": "https://fxnewsgroup.com/forex-news/executives/ubs-shareholders-elect-colm-kelleher-as-new-chairman/",
+          "publisher": "FX News Group",
+          "title": "UBS shareholders elect Colm Kelleher as new Chairman",
+          "date": "2022-04-06"
+        }
+      ]
+    },
+    {
+      "claim": "Kelleher appeared as UBS Group chairman at the 19 March 2023 announcement of the Credit Suisse takeover with Swiss finance minister Karin Keller-Sutter and Credit Suisse CEO Ulrich Körner.",
+      "status": "reported",
+      "date": "2023-03-19",
+      "sources": [
+        {
+          "url": "https://www.caproasia.com/?p=33825",
+          "publisher": "Caproasia",
+          "title": "Report on the Credit Suisse-UBS merger announcement"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "ubs",
+      "toName": "UBS",
+      "toType": "company",
+      "relation": "board member of",
+      "claim": "Kelleher has been Chairman of UBS Group since April 2022.",
+      "status": "documented",
+      "date": "2022-04-06",
+      "sources": [
+        {
+          "url": "https://www.ubs.com/global/en/media/display-page-ndp/en-20211120-ubs-board-of-directors.html",
+          "publisher": "UBS",
+          "title": "Colm Kelleher to be nominated for election to the UBS Board of Directors to succeed Axel A. Weber as Chairman",
+          "date": "2021-11-20"
+        },
+        {
+          "url": "https://fxnewsgroup.com/forex-news/executives/ubs-shareholders-elect-colm-kelleher-as-new-chairman/",
+          "publisher": "FX News Group",
+          "title": "UBS shareholders elect Colm Kelleher as new Chairman",
+          "date": "2022-04-06"
+        }
+      ]
+    },
+    {
+      "to": "morgan-stanley",
+      "toName": "Morgan Stanley",
+      "toType": "company",
+      "relation": "executive of",
+      "claim": "Kelleher was President of Morgan Stanley until June 2019.",
+      "status": "documented",
+      "date": "2019-06",
+      "sources": [
+        {
+          "url": "https://www.ubs.com/global/en/media/display-page-ndp/en-20211120-ubs-board-of-directors.html",
+          "publisher": "UBS",
+          "title": "Colm Kelleher to be nominated for election to the UBS Board of Directors to succeed Axel A. Weber as Chairman",
+          "date": "2021-11-20"
+        }
+      ]
+    },
+    {
+      "to": "credit-suisse",
+      "toName": "Credit Suisse",
+      "toType": "company",
+      "relation": "other",
+      "claim": "As UBS chairman Kelleher led the acquirer in the March 2023 Credit Suisse takeover.",
+      "status": "reported",
+      "date": "2023-03-19",
+      "sources": [
+        {
+          "url": "https://www.caproasia.com/?p=33825",
+          "publisher": "Caproasia",
+          "title": "Report on the Credit Suisse-UBS merger announcement"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: 'Chairman of UBS who negotiated the fire-sale acquisition and state guarantees' is supported as to his role; the CHF 3 billion price and the guarantee terms were not confirmed by sources found.",
+    "The id 'ubs' is not in entities.json or the seed; owner may wish to add it."
+  ]
+}

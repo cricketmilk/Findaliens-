@@ -1,0 +1,112 @@
+{
+  "entity": "foundation-for-economic-education",
+  "name": "Foundation for Economic Education",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The Foundation for Economic Education (FEE) was founded on March 7, 1946 by Leonard E. Read with Henry Hazlitt and others at Irvington, New York. Its founding followed a 1945 capital campaign led by DuPont executive Jasper Crane with Alfred Kohlberg; Harold Luhnow of the William Volker Fund was an early trustee and supporter, and the founding trustees included B.F. Goodrich's David Goodrich and General Motors' Donaldson Brown.",
+    "sources": [
+      {
+        "url": "https://fee.org/about/history",
+        "publisher": "Foundation for Economic Education",
+        "title": "History"
+      },
+      {
+        "url": "https://fee.org/articles/the-early-history-of-fee/",
+        "publisher": "Foundation for Economic Education",
+        "title": "The Early History of FEE"
+      },
+      {
+        "url": "https://mises.org/library/postwar-renaissance-i-libertarianism",
+        "publisher": "Mises Institute",
+        "title": "The Postwar Renaissance I: Libertarianism (Murray Rothbard)"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "FEE's own history dates its founding to March 7, 1946 by Leonard E. Read and Henry Hazlitt with associates, in Irvington, New York, where its first headquarters was purchased that year.",
+      "status": "documented",
+      "date": "1946-03-07",
+      "quote": "Leonard E. Read founded FEE in 1946 as the first \"think tank\" dedicated to free markets",
+      "sources": [
+        {
+          "url": "https://fee.org/about/history",
+          "publisher": "Foundation for Economic Education",
+          "title": "History"
+        },
+        {
+          "url": "https://fee.org/articles/timeline-of-the-foundation-for-economic-education/",
+          "publisher": "Foundation for Economic Education",
+          "title": "Timeline of the Foundation for Economic Education"
+        }
+      ]
+    },
+    {
+      "claim": "A founding officer's recollection published by FEE says Read raised the money and set up the foundation in 1946; the original officers included Goodrich as board chairman, Read as president and Fairchild as secretary, and H. W. Luhnow, president of William Volker & Company, was among the trustees.",
+      "status": "documented",
+      "date": "1946",
+      "quote": "H. W. Luhnow, president of William Volker & Company, was among the trustees",
+      "sources": [
+        {
+          "url": "https://fee.org/articles/the-early-history-of-fee/",
+          "publisher": "Foundation for Economic Education",
+          "title": "The Early History of FEE"
+        }
+      ]
+    },
+    {
+      "claim": "Murray Rothbard's account for the Mises Institute says Luhnow (of the Volker Fund) became an active supporter of FEE after the war.",
+      "status": "reported",
+      "date": "1946",
+      "quote": "Luhnow became an active supporter of FEE after the war",
+      "sources": [
+        {
+          "url": "https://mises.org/library/postwar-renaissance-i-libertarianism",
+          "publisher": "Mises Institute",
+          "title": "The Postwar Renaissance I: Libertarianism (Murray Rothbard)"
+        }
+      ]
+    },
+    {
+      "claim": "FEE's founding followed a 1945 capital campaign started by DuPont executive Jasper Crane with Alfred Kohlberg; founding trustees included Dave Goodrich of B.F. Goodrich, Donaldson Brown of General Motors, Henry Hazlitt, Fred Fairchild, Leo Wolman and Claude Robinson.",
+      "status": "reported",
+      "date": "1945–46",
+      "quote": "Jasper Crane, a DuPont executive, started a capital campaign in 1945 with Alfred Kohlberg",
+      "sources": [
+        {
+          "url": "https://fee.org/articles/the-early-history-of-fee/",
+          "publisher": "Foundation for Economic Education",
+          "title": "The Early History of FEE"
+        },
+        {
+          "url": "https://fee.org/about/history",
+          "publisher": "Foundation for Economic Education",
+          "title": "History"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "leonard-read",
+      "toName": "Leonard Read",
+      "toType": "person",
+      "relation": "founded",
+      "claim": "Leonard Read founded FEE in 1946 and was its first president.",
+      "status": "documented",
+      "date": "1946",
+      "quote": "Leonard E. Read founded FEE in 1946",
+      "sources": [
+        {
+          "url": "https://fee.org/about/history",
+          "publisher": "Foundation for Economic Education",
+          "title": "History"
+        }
+      ],
+      "reverse": true
+    }
+  ],
+  "openQuestions": [
+    "J. Howard Pew, Inland Steel, Quaker Oats and Sears are named as early contributors only in a tertiary summary; FEE's own pages opened do not name them, so this needs a primary source before being recorded. In 1950 the Buchanan Committee also called FEE before Congress (FEE's own account)."
+  ]
+}

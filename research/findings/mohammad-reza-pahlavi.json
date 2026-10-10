@@ -1,0 +1,114 @@
+{
+  "entity": "mohammad-reza-pahlavi",
+  "name": "Mohammad Reza Pahlavi",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Mohammad Reza Pahlavi was Shah of Iran. In December 1973 he pressed the Persian Gulf members of OPEC, meeting in Tehran on 22-23 December, to abandon the posted-price system; the Gulf producers raised the marker crude price from $5.12 to about $11.65 a barrel effective 1 January 1974. Contemporary reporting described Saudi offers to restrain the increase that the Nixon administration did not take up.",
+    "sources": [
+      {
+        "url": "https://history.state.gov/historicaldocuments/frus1969-76v36/d271",
+        "publisher": "U.S. Department of State, Office of the Historian (FRUS 1969-76, vol. XXXVI)",
+        "title": "Document 271: Telegram From the Embassy in Iran to the Department of State",
+        "date": "1973-12"
+      },
+      {
+        "url": "https://ineteconomics.org/perspectives/blog/oil-and-the-energy-crisis-of-the-1970s-a-reanalysis",
+        "publisher": "Institute for New Economic Thinking",
+        "title": "Oil and the Energy Crisis of the 1970s: A Reanalysis"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "A U.S. Embassy Tehran telegram reported that the Shah wanted the Persian Gulf members of OPEC, meeting in Tehran on 22-23 December 1973, to do away with the posted price system; the document gives the announced figure as $11.60.",
+      "status": "documented",
+      "date": "1973-12",
+      "quote": "the Shah wanted the Persian Gulf members of OPEC, who were to meet in Tehran December 22-23, to do away with the posted price system",
+      "sources": [
+        {
+          "url": "https://history.state.gov/historicaldocuments/frus1969-76v36/d271",
+          "publisher": "U.S. Department of State, Office of the Historian (FRUS 1969-76, vol. XXXVI)",
+          "title": "Document 271: Telegram From the Embassy in Iran to the Department of State",
+          "date": "1973-12"
+        }
+      ]
+    },
+    {
+      "claim": "The OPEC Gulf producers decided on 22-24 December 1973 to raise the posted price of marker crude from $5.12 to $11.65 per barrel effective 1 January 1974.",
+      "status": "reported",
+      "date": "1973-12-24",
+      "quote": "Dec 22-24 OPEC Gulf Six decides to raise the posted price of marker crude from $5.12 to $11.65 per barrel effective January 1, 1974.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1970%E2%80%931979_world_oil_market_chronology",
+          "publisher": "Wikipedia (chronology; follow citations)",
+          "title": "1970-1979 world oil market chronology"
+        }
+      ]
+    },
+    {
+      "claim": "An INET essay, citing Jack Anderson's Washington Post reporting, states that Saudi Arabia secretly offered to restrain OPEC price increases if the Nixon administration pressed the Shah to hold prices down, and that the offer was rebuffed.",
+      "status": "reported",
+      "date": "1974",
+      "quote": "The Saudis offered to restrain OPEC price increases and communicated this to the Nixon administration—which rebuffed the offer.",
+      "sources": [
+        {
+          "url": "https://ineteconomics.org/perspectives/blog/oil-and-the-energy-crisis-of-the-1970s-a-reanalysis",
+          "publisher": "Institute for New Economic Thinking",
+          "title": "Oil and the Energy Crisis of the 1970s: A Reanalysis"
+        }
+      ]
+    },
+    {
+      "claim": "The same essay quotes Treasury Secretary William Simon in 1974 saying of the Shah that no one would confront him.",
+      "status": "reported",
+      "date": "1974",
+      "sources": [
+        {
+          "url": "https://ineteconomics.org/perspectives/blog/oil-and-the-energy-crisis-of-the-1970s-a-reanalysis",
+          "publisher": "Institute for New Economic Thinking",
+          "title": "Oil and the Energy Crisis of the 1970s: A Reanalysis"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "saudi-arabia",
+      "toName": "Saudi Arabia",
+      "toType": "state",
+      "relation": "other",
+      "claim": "Saudi Arabia reportedly offered in 1973-74 to restrain the OPEC price rise the Shah was pushing, if Washington pressed the Shah.",
+      "status": "reported",
+      "date": "1974",
+      "quote": "The Saudis offered to restrain OPEC price increases and communicated this to the Nixon administration—which rebuffed the offer.",
+      "sources": [
+        {
+          "url": "https://ineteconomics.org/perspectives/blog/oil-and-the-energy-crisis-of-the-1970s-a-reanalysis",
+          "publisher": "Institute for New Economic Thinking",
+          "title": "Oil and the Energy Crisis of the 1970s: A Reanalysis"
+        }
+      ]
+    },
+    {
+      "to": "opec",
+      "toName": "OPEC",
+      "toType": "organization",
+      "relation": "other",
+      "claim": "The Shah pressed OPEC's Gulf members at the December 1973 Tehran meeting to abandon posted prices.",
+      "status": "documented",
+      "date": "1973-12",
+      "sources": [
+        {
+          "url": "https://history.state.gov/historicaldocuments/frus1969-76v36/d271",
+          "publisher": "U.S. Department of State, Office of the Historian (FRUS 1969-76, vol. XXXVI)",
+          "title": "Document 271: Telegram From the Embassy in Iran to the Department of State",
+          "date": "1973-12"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: 'the Shah pushes the price up' is supported by the FRUS telegram and the price chronology. The page's statement that Saudi Arabia was offered a confidential way to buy Treasuries outside the auctions (the 1974 Simon arrangement) was not found in any source returned; the Wikipedia chronology is cited only for the price dates and should be replaced by its underlying source."
+  ]
+}

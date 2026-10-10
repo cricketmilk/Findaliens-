@@ -1,0 +1,83 @@
+{
+  "entity": "nicholas-brady",
+  "name": "Nicholas Brady",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Nicholas F. Brady was U.S. Treasury Secretary from 1988 to 1993. On March 10, 1989, at a Brookings Institution and Bretton Woods Committee conference, he announced the initiative that became the Brady Plan, which departed from the Baker Plan by accepting that commercial-bank debt of heavily indebted countries would be reduced, with the IMF and World Bank supporting the exchange of bank loans for new bonds.",
+    "sources": [
+      { "url": "https://www.csmonitor.com/layout/set/amphtml/1989/0313/oowe.html", "publisher": "The Christian Science Monitor", "title": "US Third-World Debt Plan Praised. Treasury proposal includes debt forgiveness; IMF and World Bank would ease losses", "date": "1989-03-13" },
+      { "url": "https://revistas.usp.br/ee/article/view/159130", "publisher": "Estudos Econômicos (Universidade de São Paulo)", "title": "Plano Brady: da retórica à realidade", "date": "1990s" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On March 10, 1989 Treasury Secretary Brady announced a new initiative to deal with Latin America's debt problem in a speech at a Brookings Institution / Bretton Woods Committee conference.",
+      "status": "documented",
+      "date": "1989-03-10",
+      "quote": "on March 10 U.S. Secretary of the Treasury Nicholas Brady announced a new initiative to deal with Latin America's debt problem",
+      "sources": [
+        { "url": "https://revistas.usp.br/ee/article/view/159130", "publisher": "Estudos Econômicos (Universidade de São Paulo)", "title": "Plano Brady: da retórica à realidade", "date": "1990s" },
+        { "url": "https://www.csmonitor.com/layout/set/amphtml/1989/0313/oowe.html", "publisher": "The Christian Science Monitor", "title": "US Third-World Debt Plan Praised", "date": "1989-03-13" }
+      ]
+    },
+    {
+      "claim": "The Brady approach departed from the earlier Baker Plan, under which Treasury policy had held that all commercial-bank debt should eventually be repaid on market terms and which avoided debt forgiveness; the new plan accepted debt reduction supported by the IMF and World Bank.",
+      "status": "documented",
+      "date": "1989-03",
+      "quote": "eventually all of the commercial bank debt should be repaid on market terms",
+      "sources": [
+        { "url": "https://www.csmonitor.com/layout/set/amphtml/1989/0313/oowe.html", "publisher": "The Christian Science Monitor", "title": "US Third-World Debt Plan Praised", "date": "1989-03-13" },
+        { "url": "https://www.boell.de/sites/default/files/2021-10/E-PAPER%20-%20Debt%20Relief%20by%20Private%20Creditors%20-%20Lessons%20from%20theBrady%20Plan.epub", "publisher": "Heinrich Böll Foundation", "title": "Debt Relief by Private Creditors: Lessons from the Brady Plan", "date": "2021-10" }
+      ]
+    },
+    {
+      "claim": "Under Brady Plan deals, debtor countries exchanged commercial-bank loans for new bonds covering principal and in some cases unpaid interest, with creditors choosing among options including discount bonds with reduced face value.",
+      "status": "peer",
+      "date": "1990s",
+      "quote": "In exchange for commercial bank loans, the countries issued new bonds for the principal sum and, in some cases, unpaid interest.",
+      "sources": [
+        { "url": "https://www.boell.de/sites/default/files/2021-10/E-PAPER%20-%20Debt%20Relief%20by%20Private%20Creditors%20-%20Lessons%20from%20theBrady%20Plan.epub", "publisher": "Heinrich Böll Foundation", "title": "Debt Relief by Private Creditors: Lessons from the Brady Plan", "date": "2021-10" }
+      ]
+    },
+    {
+      "claim": "Former Citicorp chairman Walter Wriston, whose view that countries do not go bankrupt had underpinned bank lending to developing countries, called the Brady plan 'a constructive contribution' in a 1989 interview while objecting to taxpayers bailing out banks.",
+      "status": "reported",
+      "date": "1989",
+      "quote": "a constructive contribution",
+      "sources": [
+        { "url": "https://m.csmonitor.com/1989/0407/a1imf.html", "publisher": "The Christian Science Monitor", "title": "Flight of Capital Lies at Root of Latin America Debt Crisis", "date": "1989-04-07" },
+        { "url": "https://www.foreignaffairs.com/node/1109634", "publisher": "Foreign Affairs", "title": "Article on the Latin American debt crisis", "date": "1989" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "u-s-department-of-the-treasury",
+      "toName": "U.S. Department of the Treasury",
+      "toType": "government",
+      "relation": "executive of",
+      "claim": "Brady was Secretary of the Treasury when he announced the Brady Plan in March 1989.",
+      "status": "documented",
+      "date": "1989-03-10",
+      "sources": [
+        { "url": "https://www.csmonitor.com/layout/set/amphtml/1989/0313/oowe.html", "publisher": "The Christian Science Monitor", "title": "US Third-World Debt Plan Praised", "date": "1989-03-13" }
+      ]
+    },
+    {
+      "to": "imf",
+      "toName": "IMF",
+      "toType": "international",
+      "relation": "partnered with",
+      "claim": "The Brady Plan relied on the IMF and World Bank to support debt-reduction deals between debtor countries and commercial banks.",
+      "status": "documented",
+      "date": "1989-03",
+      "sources": [
+        { "url": "https://www.csmonitor.com/layout/set/amphtml/1989/0313/oowe.html", "publisher": "The Christian Science Monitor", "title": "US Third-World Debt Plan Praised", "date": "1989-03-13" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The Treasury News transcript of Brady's March 10, 1989 speech was referenced but not opened; it should be cited as the primary source.",
+    "The exact Wriston phrasing 'countries don't go bankrupt' was not found verbatim in any source; Foreign Affairs paraphrases the view. No separate file was written for Walter Wriston."
+  ]
+}

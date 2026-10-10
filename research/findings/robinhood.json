@@ -1,0 +1,197 @@
+{
+  "entity": "robinhood",
+  "name": "Robinhood",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Robinhood is a U.S. retail brokerage whose largest revenue source has been payment for order flow from market makers such as Citadel Securities. In December 2020 it agreed to pay $65 million to settle SEC charges that from 2015 to 2018 it misled customers about this revenue and failed its duty of best execution, depriving customers of $34.1 million in aggregate even after accounting for zero commissions. In June 2021 FINRA ordered it to pay about $70 million, the regulator's largest penalty to date, and it listed on Nasdaq under the symbol HOOD in 2021.",
+    "sources": [
+      {
+        "url": "https://www.cbsnews.com/news/robinhood-sec-fine-65-million/",
+        "publisher": "CBS News",
+        "title": "Robinhood to pay $65 million to settle SEC charges it misled customers",
+        "date": "2020-12-17"
+      },
+      {
+        "url": "https://lawstreetmedia.com/tech/sec-charges-robinhood-for-its-misleading-statements-omissions-and-inferior-order-execution-quality-settles-for-65m/",
+        "publisher": "Law Street Media",
+        "title": "SEC Charges Robinhood for its Misleading Statements, Omissions, and Inferior Order Execution Quality, Settles for $65M",
+        "date": "2020-12"
+      },
+      {
+        "url": "https://www.bankingdive.com/news/robinhood-agrees-to-pay-nearly-70m-in-finra-settlement/602702/",
+        "publisher": "Banking Dive",
+        "title": "Robinhood agrees to pay nearly $70M in FINRA settlement",
+        "date": "2021-06-30"
+      },
+      {
+        "url": "https://gfmag.com/features/robinhood-ipo-finra-sec",
+        "publisher": "Global Finance",
+        "title": "Testing Robinhood's Mettle",
+        "date": "2021"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On December 17, 2020 Robinhood Financial agreed to pay $65 million to settle SEC charges that from 2015 to 2018 it made misleading statements and omissions about how it made money, including omitting payment for order flow from its FAQ pages, and that it failed its duty of best execution; it settled without admitting or denying the findings.",
+      "status": "court",
+      "date": "2020-12-17",
+      "sources": [
+        {
+          "url": "https://www.cbsnews.com/news/robinhood-sec-fine-65-million/",
+          "publisher": "CBS News",
+          "title": "Robinhood to pay $65 million to settle SEC charges it misled customers",
+          "date": "2020-12-17"
+        },
+        {
+          "url": "https://lawstreetmedia.com/tech/sec-charges-robinhood-for-its-misleading-statements-omissions-and-inferior-order-execution-quality-settles-for-65m/",
+          "publisher": "Law Street Media",
+          "title": "SEC Charges Robinhood for its Misleading Statements, Omissions, and Inferior Order Execution Quality, Settles for $65M",
+          "date": "2020-12"
+        }
+      ]
+    },
+    {
+      "claim": "The SEC found that Robinhood's inferior trade prices deprived customers of $34.1 million in aggregate even after accounting for the savings from not paying commissions, and that between October 2018 and June 2019 it falsely claimed in an FAQ that it matched or beat competitors' execution quality.",
+      "status": "court",
+      "date": "2020-12-17",
+      "quote": "deprived customers of $34.1 million even after taking into account the savings from not paying a commission",
+      "sources": [
+        {
+          "url": "https://lawstreetmedia.com/tech/sec-charges-robinhood-for-its-misleading-statements-omissions-and-inferior-order-execution-quality-settles-for-65m/",
+          "publisher": "Law Street Media",
+          "title": "SEC Charges Robinhood for its Misleading Statements, Omissions, and Inferior Order Execution Quality, Settles for $65M",
+          "date": "2020-12"
+        },
+        {
+          "url": "https://www.cbsnews.com/news/robinhood-sec-fine-65-million/",
+          "publisher": "CBS News",
+          "title": "Robinhood to pay $65 million to settle SEC charges it misled customers",
+          "date": "2020-12-17"
+        }
+      ]
+    },
+    {
+      "claim": "Robinhood agreed to retain an independent consultant to review its policies on payment for order flow, best execution and disclosure; its chief legal officer said the settlement related to historical practices that did not reflect Robinhood today.",
+      "status": "documented",
+      "date": "2020-12-17",
+      "sources": [
+        {
+          "url": "https://www.cbsnews.com/news/robinhood-sec-fine-65-million/",
+          "publisher": "CBS News",
+          "title": "Robinhood to pay $65 million to settle SEC charges it misled customers",
+          "date": "2020-12-17"
+        },
+        {
+          "url": "https://lawstreetmedia.com/tech/sec-charges-robinhood-for-its-misleading-statements-omissions-and-inferior-order-execution-quality-settles-for-65m/",
+          "publisher": "Law Street Media",
+          "title": "SEC Charges Robinhood for its Misleading Statements, Omissions, and Inferior Order Execution Quality, Settles for $65M",
+          "date": "2020-12"
+        }
+      ]
+    },
+    {
+      "claim": "On June 30, 2021 FINRA ordered Robinhood to pay about $70 million, comprising a $57 million fine and about $12.6 million in restitution, the largest penalty FINRA had levied.",
+      "status": "court",
+      "date": "2021-06-30",
+      "sources": [
+        {
+          "url": "https://www.bankingdive.com/news/robinhood-agrees-to-pay-nearly-70m-in-finra-settlement/602702/",
+          "publisher": "Banking Dive",
+          "title": "Robinhood agrees to pay nearly $70M in FINRA settlement",
+          "date": "2021-06-30"
+        }
+      ]
+    },
+    {
+      "claim": "Robinhood filed to go public shortly after the FINRA settlement and listed on Nasdaq under the symbol HOOD; reporting put payment for order flow at about 75% of its 2020 revenue and 81% in the first quarter of 2021.",
+      "status": "reported",
+      "date": "2021",
+      "sources": [
+        {
+          "url": "https://gfmag.com/features/robinhood-ipo-finra-sec",
+          "publisher": "Global Finance",
+          "title": "Testing Robinhood's Mettle",
+          "date": "2021"
+        },
+        {
+          "url": "https://www.bankingdive.com/news/robinhood-agrees-to-pay-nearly-70m-in-finra-settlement/602702/",
+          "publisher": "Banking Dive",
+          "title": "Robinhood agrees to pay nearly $70M in FINRA settlement",
+          "date": "2021-06-30"
+        }
+      ]
+    },
+    {
+      "claim": "Robinhood chief executive Vlad Tenev testified at the House Financial Services Committee's February 18, 2021 hearing on GameStop trading, where committee chair Maxine Waters questioned Robinhood's relationship with Citadel Securities.",
+      "status": "documented",
+      "date": "2021-02-18",
+      "sources": [
+        {
+          "url": "https://www.clickondetroit.com/tech/2021/02/18/live-stream-robinhood-reddit-ceos-testify-in-house-hearing-on-gamestop-stock-saga/",
+          "publisher": "ClickOnDetroit (AP)",
+          "title": "Robinhood, Reddit CEOs testify in House hearing on GameStop stock saga",
+          "date": "2021-02-18"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2021-02-13/citadel-s-griffin-robinhood-ceo-to-testify-on-gamestop-feb-18",
+          "publisher": "Bloomberg",
+          "title": "Citadel's Griffin, Robinhood CEO to Testify at GameStop Hearings",
+          "date": "2021-02-13"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "sec",
+      "toName": "SEC",
+      "toType": "agency",
+      "relation": "settled with",
+      "claim": "Robinhood paid $65 million to settle SEC charges over misleading disclosures and best execution in December 2020.",
+      "status": "court",
+      "date": "2020-12-17",
+      "sources": [
+        {
+          "url": "https://www.cbsnews.com/news/robinhood-sec-fine-65-million/",
+          "publisher": "CBS News",
+          "title": "Robinhood to pay $65 million to settle SEC charges it misled customers",
+          "date": "2020-12-17"
+        },
+        {
+          "url": "https://lawstreetmedia.com/tech/sec-charges-robinhood-for-its-misleading-statements-omissions-and-inferior-order-execution-quality-settles-for-65m/",
+          "publisher": "Law Street Media",
+          "title": "SEC Charges Robinhood for its Misleading Statements, Omissions, and Inferior Order Execution Quality, Settles for $65M",
+          "date": "2020-12"
+        }
+      ]
+    },
+    {
+      "to": "citadel-securities",
+      "toName": "Citadel Securities",
+      "toType": "company",
+      "relation": "partnered with",
+      "claim": "Robinhood sells customer order flow to market makers including Citadel Securities under payment-for-order-flow arrangements.",
+      "status": "documented",
+      "date": "2021",
+      "sources": [
+        {
+          "url": "https://gfmag.com/features/robinhood-ipo-finra-sec",
+          "publisher": "Global Finance",
+          "title": "Testing Robinhood's Mettle",
+          "date": "2021"
+        },
+        {
+          "url": "https://www.clickondetroit.com/tech/2021/02/18/live-stream-robinhood-reddit-ceos-testify-in-house-hearing-on-gamestop-stock-saga/",
+          "publisher": "ClickOnDetroit (AP)",
+          "title": "Robinhood, Reddit CEOs testify in House hearing on GameStop stock saga",
+          "date": "2021-02-18"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim that retail brokerages receive 'kickbacks' (PFOF) to divert flow from lit exchanges: Robinhood's reliance on payment for order flow is documented by the SEC settlement and IPO coverage; 'kickbacks' and 'dark pools' are the site's characterisation.",
+    "The SEC's own December 2020 press release was not among the sources returned; its number and URL should be added."
+  ]
+}

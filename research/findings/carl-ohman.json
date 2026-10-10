@@ -1,0 +1,147 @@
+{
+  "entity": "carl-ohman",
+  "name": "Carl Öhman",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Carl Öhman is a Swedish researcher who completed a DPhil at the Oxford Internet Institute (2017–2020) under Luciano Floridi, co-authored the 2018 Nature Human Behaviour paper that framed the 'digital afterlife industry' and the 2019 Big Data & Society paper projecting Facebook's dead users, and published The Afterlife of Data with the University of Chicago Press in 2024.",
+    "sources": [
+      {
+        "url": "https://www.oii.ox.ac.uk/people/carl-ohman/",
+        "publisher": "Oxford Internet Institute",
+        "title": "Carl Öhman - people profile"
+      },
+      {
+        "url": "https://chicagoreference.com/ucp/books/book/chicago/A/bo209942751.html",
+        "publisher": "University of Chicago Press",
+        "title": "The Afterlife of Data: What Happens to Your Information When You Die and Why You Should Care",
+        "date": "2024"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Öhman was a doctoral candidate at the Oxford Internet Institute from October 2017 to October 2020, supervised by Luciano Floridi; his 2016 MSc thesis on the political economy of death in the age of information won the OII MSc thesis prize.",
+      "status": "documented",
+      "date": "2017-10",
+      "quote": "Carl Öhman was a doctoral candidate at the Oxford Internet Institute, supervised by Professor Luciano Floridi.",
+      "sources": [
+        {
+          "url": "https://www.oii.ox.ac.uk/people/carl-ohman/",
+          "publisher": "Oxford Internet Institute",
+          "title": "Carl Öhman - people profile"
+        }
+      ]
+    },
+    {
+      "claim": "Öhman studied sociology and comparative literature at Uppsala University before Oxford.",
+      "status": "documented",
+      "date": null,
+      "sources": [
+        {
+          "url": "https://www.oii.ox.ac.uk/people/carl-ohman/",
+          "publisher": "Oxford Internet Institute",
+          "title": "Carl Öhman - people profile"
+        }
+      ]
+    },
+    {
+      "claim": "Öhman co-authored 'An ethical framework for the digital afterlife industry' (Nature Human Behaviour, 2018) with Floridi and 'Are the Dead Taking Over Facebook?' (Big Data & Society, 2019) with David Watson.",
+      "status": "peer",
+      "date": "2019",
+      "sources": [
+        {
+          "url": "https://ideas.repec.org/a/nat/nathum/v2y2018i5d10.1038_s41562-018-0335-2.html",
+          "publisher": "IDEAS/RePEc (Nature Human Behaviour record)",
+          "title": "An ethical framework for the digital afterlife industry",
+          "date": "2018-05"
+        },
+        {
+          "url": "https://papers.ssrn.com/abstract=3392812",
+          "publisher": "SSRN",
+          "title": "Are the Dead Taking Over Facebook? A Big Data Approach to the Future of Online Death",
+          "date": "2019"
+        }
+      ]
+    },
+    {
+      "claim": "The University of Chicago Press published Öhman's The Afterlife of Data: What Happens to Your Information When You Die and Why You Should Care in 2024.",
+      "status": "documented",
+      "date": "2024",
+      "sources": [
+        {
+          "url": "https://chicagoreference.com/ucp/books/book/chicago/A/bo209942751.html",
+          "publisher": "University of Chicago Press",
+          "title": "The Afterlife of Data: What Happens to Your Information When You Die and Why You Should Care",
+          "date": "2024"
+        },
+        {
+          "url": "https://newbooksnetwork.com/the-afterlife-of-data",
+          "publisher": "New Books Network",
+          "title": "The Afterlife of Data",
+          "date": "2024"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "oxford-internet-institute",
+      "toName": "Oxford Internet Institute",
+      "toType": "organization",
+      "relation": "employed by",
+      "claim": "Öhman was a DPhil student at the Oxford Internet Institute, 2017–2020.",
+      "status": "documented",
+      "date": "2017",
+      "sources": [
+        {
+          "url": "https://www.oii.ox.ac.uk/people/carl-ohman/",
+          "publisher": "Oxford Internet Institute",
+          "title": "Carl Öhman - people profile"
+        }
+      ]
+    },
+    {
+      "to": "luciano-floridi",
+      "toName": "Luciano Floridi",
+      "toType": "person",
+      "relation": "advised",
+      "claim": "Floridi supervised Öhman's DPhil and co-authored the 2018 paper with him.",
+      "status": "documented",
+      "date": "2017",
+      "sources": [
+        {
+          "url": "https://www.oii.ox.ac.uk/people/carl-ohman/",
+          "publisher": "Oxford Internet Institute",
+          "title": "Carl Öhman - people profile"
+        },
+        {
+          "url": "https://ideas.repec.org/a/nat/nathum/v2y2018i5d10.1038_s41562-018-0335-2.html",
+          "publisher": "IDEAS/RePEc (Nature Human Behaviour record)",
+          "title": "An ethical framework for the digital afterlife industry",
+          "date": "2018-05"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "digital-afterlife-industry",
+      "toName": "Digital afterlife industry",
+      "toType": "concept",
+      "relation": "other",
+      "claim": "Öhman's 2018 paper with Floridi defined and categorised the digital afterlife industry.",
+      "status": "peer",
+      "date": "2018",
+      "sources": [
+        {
+          "url": "https://philarchive.org/rec/HMAAEF",
+          "publisher": "PhilArchive",
+          "title": "An ethical framework for the digital afterlife industry",
+          "date": "2018"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "A CV hosted by Uppsala lists Öhman as senior lecturer in its Department of Government; current affiliation not independently verified."
+  ]
+}

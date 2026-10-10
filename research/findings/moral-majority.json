@@ -1,0 +1,107 @@
+{
+  "entity": "moral-majority",
+  "name": "Moral Majority",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The Moral Majority was founded in June 1979 by Jerry Falwell and Paul Weyrich, after Weyrich, Terry Dolan, Richard Viguerie and Howard Phillips left Christian Voice and urged Falwell to lead a new group. It was primarily a direct-mail organization, built on Falwell's Old Time Gospel Hour list and Viguerie's direct-mail operation; a Militarist Monitor profile says start-up cash came from the Coors family. By 1986 Falwell claimed 500,000 contributors.",
+    "sources": [
+      {
+        "url": "https://www.ebsco.com/research-starters/social-sciences-and-humanities/moral-majority-founded",
+        "publisher": "EBSCO Research Starters",
+        "title": "Moral Majority Founded"
+      },
+      {
+        "url": "https://militarist-monitor.org/?p=5002",
+        "publisher": "Militarist Monitor (Institute for Policy Studies)",
+        "title": "Moral Majority"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Falwell and Weyrich founded the Moral Majority in June 1979 after a 1979 meeting at which Weyrich, Dolan, Viguerie and Phillips urged Falwell to found it; Weyrich supplied the name.",
+      "status": "reported",
+      "date": "1979-06",
+      "quote": "Falwell and Weyrich founded the Moral Majority in June 1979",
+      "sources": [
+        {
+          "url": "https://www.ebsco.com/research-starters/social-sciences-and-humanities/moral-majority-founded",
+          "publisher": "EBSCO Research Starters",
+          "title": "Moral Majority Founded"
+        },
+        {
+          "url": "https://militarist-monitor.org/?p=5002",
+          "publisher": "Militarist Monitor (Institute for Policy Studies)",
+          "title": "Moral Majority"
+        }
+      ]
+    },
+    {
+      "claim": "Militarist Monitor says start-up cash was provided by the Coors family while Viguerie used the old Goldwater mailing list for a large direct-mail fund-raising effort.",
+      "status": "reported",
+      "date": "1979",
+      "quote": "startup cash was provided by the Coors family, while Viguerie, their direct-mail guru, used the old Goldwater mailing list to launch a massive fund-raising effort",
+      "sources": [
+        {
+          "url": "https://militarist-monitor.org/?p=5002",
+          "publisher": "Militarist Monitor (Institute for Policy Studies)",
+          "title": "Moral Majority"
+        }
+      ]
+    },
+    {
+      "claim": "Reported revenue totals are inconsistent: some sources claim up to $500 million a year or a million dollars a day at its peak; by 1986 Falwell claimed 500,000 contributors and a six-million-name mailing list.",
+      "status": "reported",
+      "date": "1980s",
+      "quote": "by 1986, Falwell was claiming 500,000 contributors and a mailing list of six million",
+      "sources": [
+        {
+          "url": "https://militarist-monitor.org/?p=5002",
+          "publisher": "Militarist Monitor (Institute for Policy Studies)",
+          "title": "Moral Majority"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "jerry-falwell",
+      "toName": "Jerry Falwell",
+      "toType": "person",
+      "relation": "founded",
+      "claim": "Falwell co-founded and led the Moral Majority.",
+      "status": "reported",
+      "date": "1979-06",
+      "quote": "Falwell and Weyrich founded the Moral Majority in June 1979",
+      "sources": [
+        {
+          "url": "https://www.ebsco.com/research-starters/social-sciences-and-humanities/moral-majority-founded",
+          "publisher": "EBSCO Research Starters",
+          "title": "Moral Majority Founded"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "paul-weyrich",
+      "toName": "Paul Weyrich",
+      "toType": "person",
+      "relation": "co-founded",
+      "claim": "Weyrich co-founded the Moral Majority.",
+      "status": "reported",
+      "date": "1979-06",
+      "quote": "Falwell and Weyrich founded the Moral Majority in June 1979",
+      "sources": [
+        {
+          "url": "https://www.ebsco.com/research-starters/social-sciences-and-humanities/moral-majority-founded",
+          "publisher": "EBSCO Research Starters",
+          "title": "Moral Majority Founded"
+        }
+      ],
+      "reverse": true
+    }
+  ],
+  "openQuestions": [
+    "The Coors start-up money rests on a single advocacy profile and gives no amount; revenue figures are unreliable and should not be published without the organization's filings."
+  ]
+}

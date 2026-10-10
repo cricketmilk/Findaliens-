@@ -1,0 +1,352 @@
+{
+  "entity": "xai",
+  "name": "xAI",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "xAI is an artificial-intelligence company announced by Elon Musk in July 2023 that develops the Grok models and states its mission as understanding the true nature of the universe. In March 2025 it acquired Musk's social network X in an all-stock deal that valued xAI at $80 billion and X at $33 billion. It closed an upsized $20 billion Series E in January 2026 with investors including Valor Equity Partners, Fidelity, the Qatar Investment Authority, MGX, Nvidia and Cisco, and in early 2026 was merged into SpaceX. xAI's Colossus data centers in Memphis, Tennessee and Southaven, Mississippi have drawn complaints from the Southern Environmental Law Center and the NAACP over gas turbines run without Clean Air Act permits, and its 2025 trade-secrets suit against OpenAI was dismissed with prejudice in June 2026.",
+    "sources": [
+      {
+        "url": "https://x.ai/company",
+        "publisher": "xAI",
+        "title": "Company: Accelerating Scientific Discovery",
+        "date": ""
+      },
+      {
+        "url": "https://x.ai/news/series-e",
+        "publisher": "xAI",
+        "title": "xAI Raises $20B Series E",
+        "date": "2026-01-06"
+      },
+      {
+        "url": "https://siliconangle.com/2025/03/28/elon-musks-xai-acquires-x-33b-valuation/",
+        "publisher": "SiliconANGLE",
+        "title": "Elon Musk's xAI acquires X at $33B valuation",
+        "date": "2025-03-28"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/humain-backs-xai-with-3-billion-series-e-investment-ahead-of-historic-spacex-merger-302691510.html",
+        "publisher": "PR Newswire (HUMAIN press release)",
+        "title": "HUMAIN Backs xAI with $3 Billion Series E Investment Ahead of Historic SpaceX Merger",
+        "date": "2026"
+      },
+      {
+        "url": "https://www.cnbc.com/2025/04/10/elon-musks-xai-accused-polluting-air-in-memphis-selc-says-in-letter.html",
+        "publisher": "CNBC",
+        "title": "Elon Musk's xAI is polluting air in Memphis, using more gas turbines than permitted, advocacy group says",
+        "date": "2025-04-10"
+      },
+      {
+        "url": "https://www.cnbc.com/2026/02/24/judge-dismisses-xai-trade-secrets-lawsuit-against-rival-openai-for-now.html",
+        "publisher": "CNBC",
+        "title": "Judge dismisses xAI trade-secrets lawsuit against rival OpenAI for now",
+        "date": "2026-02-24"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "xAI's company page dates its company announcement to July 12, 2023, and its later funding announcements describe its mission as 'to understand the true nature of the universe'.",
+      "status": "documented",
+      "date": "2023-07-12",
+      "quote": "the company's mission is to understand the true nature of the universe",
+      "sources": [
+        {
+          "url": "https://x.ai/company",
+          "publisher": "xAI",
+          "title": "Company: Accelerating Scientific Discovery",
+          "date": ""
+        },
+        {
+          "url": "https://x.ai/news/series-b",
+          "publisher": "xAI",
+          "title": "Series B funding round",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "claim": "On March 28, 2025 Elon Musk said xAI had acquired X in an all-stock transaction valuing xAI at $80 billion and X at $33 billion ($45 billion less $12 billion of debt). Musk said the deal would combine the companies' data, models, compute, distribution and talent. Both companies were privately held and controlled by Musk.",
+      "status": "reported",
+      "date": "2025-03-28",
+      "quote": "The deal values the artificial intelligence company at $80 billion and the social media company at $33 billion.",
+      "sources": [
+        {
+          "url": "https://www.nbcchicago.com/news/business/money-report/elon-musk-says-xai-has-acquired-x-in-deal-that-values-social-media-site-at-33-billion/3708833/",
+          "publisher": "CNBC (via NBC Chicago)",
+          "title": "Elon Musk says xAI has acquired X in deal that values social media site at $33 billion",
+          "date": "2025-03-28"
+        },
+        {
+          "url": "https://siliconangle.com/2025/03/28/elon-musks-xai-acquires-x-33b-valuation/",
+          "publisher": "SiliconANGLE",
+          "title": "Elon Musk's xAI acquires X at $33B valuation",
+          "date": "2025-03-28"
+        }
+      ]
+    },
+    {
+      "claim": "On January 6, 2026 xAI announced it had closed a Series E round of $20 billion, upsized from a $15 billion target. Participants included Valor Equity Partners, StepStone, Fidelity, the Qatar Investment Authority, MGX and Baron Capital, with Nvidia and Cisco Investments as strategic investors. xAI did not disclose a valuation; CNBC had earlier reported a figure of about $230 billion.",
+      "status": "documented",
+      "date": "2026-01-06",
+      "quote": "Valor Equity Partners, StepStone, Fidelity, Qatar Investment Authority, MGX, and Baron Capital participated, with Nvidia and Cisco Investments as strategic backers.",
+      "sources": [
+        {
+          "url": "https://x.ai/news/series-e",
+          "publisher": "xAI",
+          "title": "xAI Raises $20B Series E",
+          "date": "2026-01-06"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/01/06/elon-musk-xai-raises-20-billion-from-nvidia-cisco-investors.html",
+          "publisher": "CNBC",
+          "title": "Elon Musk's xAI raises $20 billion from investors including Nvidia, Cisco, Fidelity",
+          "date": "2026-01-06"
+        },
+        {
+          "url": "https://finance.yahoo.com/news/musks-xai-raises-20-billion-204608497.html",
+          "publisher": "Reuters (via Yahoo Finance)",
+          "title": "Musk's xAI raises $20 billion in upsized Series E funding round",
+          "date": "2026-01-06"
+        }
+      ]
+    },
+    {
+      "claim": "Saudi AI company HUMAIN said in a press release that it invested $3 billion in xAI's Series E ahead of xAI's merger with SpaceX, and that its holding converted into SpaceX shares.",
+      "status": "documented",
+      "date": "2026",
+      "quote": "The Saudi company put $3 billion into the Series E, and its holdings subsequently converted into shares in SpaceX.",
+      "sources": [
+        {
+          "url": "https://www.prnewswire.com/news-releases/humain-backs-xai-with-3-billion-series-e-investment-ahead-of-historic-spacex-merger-302691510.html",
+          "publisher": "PR Newswire (HUMAIN press release)",
+          "title": "HUMAIN Backs xAI with $3 Billion Series E Investment Ahead of Historic SpaceX Merger",
+          "date": "2026"
+        },
+        {
+          "url": "https://seekingalpha.com/news/4553146-humain-unveils-3b-investment-in-xai-ahead-of-spacex-merger",
+          "publisher": "Seeking Alpha",
+          "title": "Humain unveils $3B investment in xAI ahead of SpaceX merger",
+          "date": "2026"
+        }
+      ]
+    },
+    {
+      "claim": "In April 2025 the Southern Environmental Law Center wrote to the Shelby County Health Department alleging that xAI had installed 35 gas turbines at its Colossus data center in South Memphis while applying for permits for only 15. The health department later approved a permit for 15 turbines, and the temporary turbines were removed. xAI argued an 'operational waiver' allowed 364 days of operation without a permit; SELC said no Clean Air Act provision supports that reading.",
+      "status": "reported",
+      "date": "2025-04-10",
+      "quote": "SELC's April 2025 letter said xAI had installed 35 gas turbines but had applied for permits for only 15.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2025/04/10/elon-musks-xai-accused-polluting-air-in-memphis-selc-says-in-letter.html",
+          "publisher": "CNBC",
+          "title": "Elon Musk's xAI is polluting air in Memphis, using more gas turbines than permitted, advocacy group says",
+          "date": "2025-04-10"
+        },
+        {
+          "url": "https://www.scientificamerican.com/article/spacexais-colossus-data-center-is-fueling-a-massive-backlash/",
+          "publisher": "Scientific American",
+          "title": "SpaceXAI's Colossus data center is fueling a massive backlash",
+          "date": "2026"
+        },
+        {
+          "url": "https://insideclimatenews.org/news/17072025/elon-musk-xai-data-center-gas-turbines-memphis/",
+          "publisher": "Inside Climate News",
+          "title": "In South Memphis, Elon Musk's Colossus Operated Gas Turbines Without Appropriate Permits, Residents and Activists Claim",
+          "date": "2025-07-17"
+        }
+      ]
+    },
+    {
+      "claim": "The NAACP announced in June 2025 that it intended to sue xAI over pollution from the Memphis site. SELC and Earthjustice later sent a notice of intent to sue on behalf of the NAACP alleging that xAI was running 27 unpermitted gas turbines, with capacity of up to 495 megawatts, to power its second Colossus data center in Southaven, Mississippi.",
+      "status": "reported",
+      "date": "2025",
+      "quote": "SELC and Earthjustice sent a notice of intent to sue on behalf of the NAACP, alleging xAI was running 27 unpermitted gas turbines to power the data center.",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/news/us-news/naacp-musk-xai-supercomputer-colossus-memphis-tennessee-rcna213490",
+          "publisher": "NBC News",
+          "title": "NAACP announces plans to sue Musk's xAI over pollution concerns",
+          "date": "2025-06"
+        },
+        {
+          "url": "https://www.selc.org/press-release/groups-threaten-lawsuit-over-xais-unpermitted-gas-turbines-in-mississippi/",
+          "publisher": "Southern Environmental Law Center",
+          "title": "Groups threaten lawsuit over xAI's unpermitted gas turbines in Mississippi",
+          "date": "2025"
+        }
+      ]
+    },
+    {
+      "claim": "xAI sued OpenAI in September 2025 alleging it hired former xAI employees to obtain Grok trade secrets. Judge Rita Lin dismissed the complaint in February 2026 with leave to amend, and in June 2026 dismissed the amended complaint with prejudice. A separate xAI suit against former engineer Xuechen Li was not covered by the dismissal.",
+      "status": "court",
+      "date": "2026-06-15",
+      "quote": "She said the complaint focused on former employees' conduct and lacked allegations about OpenAI itself.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/02/24/judge-dismisses-xai-trade-secrets-lawsuit-against-rival-openai-for-now.html",
+          "publisher": "CNBC",
+          "title": "Judge dismisses xAI trade-secrets lawsuit against rival OpenAI for now",
+          "date": "2026-02-24"
+        },
+        {
+          "url": "https://www.engadget.com/2194592/xai-lawsuit-accusing-openai-of-stealing-trade-secrets-has-been-thrown-out/",
+          "publisher": "Engadget",
+          "title": "xAI's lawsuit accusing OpenAI of stealing trade secrets has been thrown out",
+          "date": "2026-06"
+        },
+        {
+          "url": "https://sigmalawgroup.com/blog/2026-06-20-xai-openai-trade-secrets/",
+          "publisher": "Sigma Law Group",
+          "title": "xAI's Trade Secret Case Against OpenAI Is Dismissed",
+          "date": "2026-06-20"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "elon-musk",
+      "relation": "founded",
+      "reverse": true,
+      "claim": "Elon Musk announced xAI in July 2023 and controls it; in March 2025 he said xAI had acquired his social network X.",
+      "status": "reported",
+      "date": "2025-03-28",
+      "quote": "Because both companies are privately held and controlled by Musk, the transaction likely amounts to a stock swap",
+      "sources": [
+        {
+          "url": "https://www.nbcchicago.com/news/business/money-report/elon-musk-says-xai-has-acquired-x-in-deal-that-values-social-media-site-at-33-billion/3708833/",
+          "publisher": "CNBC (via NBC Chicago)",
+          "title": "Elon Musk says xAI has acquired X in deal that values social media site at $33 billion",
+          "date": "2025-03-28"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/01/06/elon-musk-xai-raises-20-billion-from-nvidia-cisco-investors.html",
+          "publisher": "CNBC",
+          "title": "Elon Musk's xAI raises $20 billion from investors including Nvidia, Cisco, Fidelity",
+          "date": "2026-01-06"
+        }
+      ]
+    },
+    {
+      "to": "openai",
+      "relation": "sued",
+      "claim": "xAI sued OpenAI for alleged trade-secret theft in September 2025; the suit was dismissed with prejudice in June 2026.",
+      "status": "court",
+      "date": "2026-06-15",
+      "quote": "After xAI amended its complaint, the judge dismissed it again, this time with prejudice, meaning it cannot be refiled.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/02/24/judge-dismisses-xai-trade-secrets-lawsuit-against-rival-openai-for-now.html",
+          "publisher": "CNBC",
+          "title": "Judge dismisses xAI trade-secrets lawsuit against rival OpenAI for now",
+          "date": "2026-02-24"
+        },
+        {
+          "url": "https://sigmalawgroup.com/blog/2026-06-20-xai-openai-trade-secrets/",
+          "publisher": "Sigma Law Group",
+          "title": "xAI's Trade Secret Case Against OpenAI Is Dismissed",
+          "date": "2026-06-20"
+        }
+      ]
+    },
+    {
+      "to": "spacex",
+      "relation": "subsidiary of",
+      "claim": "xAI was merged into SpaceX in early 2026; HUMAIN's press release describes its xAI Series E holding converting into SpaceX shares after the merger.",
+      "status": "reported",
+      "date": "2026-02",
+      "quote": "its holdings subsequently converted into shares in SpaceX",
+      "sources": [
+        {
+          "url": "https://www.prnewswire.com/news-releases/humain-backs-xai-with-3-billion-series-e-investment-ahead-of-historic-spacex-merger-302691510.html",
+          "publisher": "PR Newswire (HUMAIN press release)",
+          "title": "HUMAIN Backs xAI with $3 Billion Series E Investment Ahead of Historic SpaceX Merger",
+          "date": "2026"
+        },
+        {
+          "url": "https://seekingalpha.com/news/4553146-humain-unveils-3b-investment-in-xai-ahead-of-spacex-merger",
+          "publisher": "Seeking Alpha",
+          "title": "Humain unveils $3B investment in xAI ahead of SpaceX merger",
+          "date": "2026"
+        }
+      ]
+    },
+    {
+      "to": "nvidia",
+      "relation": "invested in",
+      "reverse": true,
+      "claim": "Nvidia was a strategic investor in xAI's $20 billion Series E announced in January 2026.",
+      "status": "documented",
+      "date": "2026-01-06",
+      "quote": "Strategic investors included NVIDIA and Cisco Investments.",
+      "sources": [
+        {
+          "url": "https://x.ai/news/series-e",
+          "publisher": "xAI",
+          "title": "xAI Raises $20B Series E",
+          "date": "2026-01-06"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/01/06/elon-musk-xai-raises-20-billion-from-nvidia-cisco-investors.html",
+          "publisher": "CNBC",
+          "title": "Elon Musk's xAI raises $20 billion from investors including Nvidia, Cisco, Fidelity",
+          "date": "2026-01-06"
+        }
+      ]
+    },
+    {
+      "to": "mgx",
+      "relation": "invested in",
+      "reverse": true,
+      "claim": "MGX participated in xAI's $20 billion Series E announced in January 2026.",
+      "status": "documented",
+      "date": "2026-01-06",
+      "quote": "Participants included Valor Equity Partners, Stepstone Group, Fidelity Management & Research Company, Qatar Investment Authority, MGX, and Baron Capital Group.",
+      "sources": [
+        {
+          "url": "https://x.ai/news/series-e",
+          "publisher": "xAI",
+          "title": "xAI Raises $20B Series E",
+          "date": "2026-01-06"
+        },
+        {
+          "url": "https://finance.yahoo.com/news/musks-xai-raises-20-billion-204608497.html",
+          "publisher": "Reuters (via Yahoo Finance)",
+          "title": "Musk's xAI raises $20 billion in upsized Series E funding round",
+          "date": "2026-01-06"
+        }
+      ]
+    },
+    {
+      "to": "qatar-investment-authority",
+      "toName": "Qatar Investment Authority",
+      "toType": "fund",
+      "relation": "invested in",
+      "reverse": true,
+      "claim": "The Qatar Investment Authority participated in xAI's $20 billion Series E announced in January 2026.",
+      "status": "documented",
+      "date": "2026-01-06",
+      "quote": "Participants included Valor Equity Partners, Stepstone Group, Fidelity Management & Research Company, Qatar Investment Authority, MGX, and Baron Capital Group.",
+      "sources": [
+        {
+          "url": "https://x.ai/news/series-e",
+          "publisher": "xAI",
+          "title": "xAI Raises $20B Series E",
+          "date": "2026-01-06"
+        },
+        {
+          "url": "https://finance.yahoo.com/news/musks-xai-raises-20-billion-204608497.html",
+          "publisher": "Reuters (via Yahoo Finance)",
+          "title": "Musk's xAI raises $20 billion in upsized Series E funding round",
+          "date": "2026-01-06"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The SpaceX merger terms (reported as one xAI share for 0.1433 SpaceX shares, closing February 2, 2026, with xAI as a wholly owned subsidiary) are said to appear in SpaceX's S-1/A; the filing itself was not retrieved and should be checked on sec.gov before the terms are used.",
+    "Reports that Tesla committed about $2 billion to the Series E, subject to regulatory approval, came only from aggregator sites and were left out.",
+    "Whether HUMAIN is owned by the Saudi Public Investment Fund was not stated in the sources used; a PIF link would connect xAI to that entity on the site.",
+    "Whether SELC filed the threatened Colossus 2 lawsuit, and the status of the Southaven permit for 41 permanent turbines, was not established."
+  ]
+}

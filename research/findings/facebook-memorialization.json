@@ -1,0 +1,172 @@
+{
+  "entity": "facebook-memorialization",
+  "name": "Facebook memorialization",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Meta's memorialization policy, published in its Community Standards, lets friends and family request that a deceased person's Facebook or Instagram account be memorialized: the word 'Remembering' is added above the name, logins are blocked and the account is preserved without changes. Since February 2015 Facebook users can name a 'legacy contact' to manage a memorialized account, or ask that their account be deleted on death; in April 2019 Facebook added a tributes section that legacy contacts can moderate.",
+    "sources": [
+      {
+        "url": "https://transparency.meta.com/policies/community-standards/memorialization/",
+        "publisher": "Meta Transparency Center",
+        "title": "Memorialization - Community Standards"
+      },
+      {
+        "url": "https://about.fb.com/news/2015/02/adding-a-legacy-contact/",
+        "publisher": "Meta Newsroom",
+        "title": "Adding a Legacy Contact",
+        "date": "2015-02-12"
+      },
+      {
+        "url": "https://about.fb.com/news/2019/04/updates-to-memorialization/",
+        "publisher": "Meta Newsroom",
+        "title": "Making It Easier to Honor a Loved One on Facebook After They Pass Away",
+        "date": "2019-04"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Meta's Community Standards state that when someone dies, friends and family can request memorialization; once memorialized, 'Remembering' appears above the name and the account is treated as a memorial site.",
+      "status": "documented",
+      "date": null,
+      "quote": "Once memorialized, the word \"Remembering\" appears above the name on the person's profile so that the account is now a memorial site.",
+      "sources": [
+        {
+          "url": "https://transparency.meta.com/policies/community-standards/memorialization/",
+          "publisher": "Meta Transparency Center",
+          "title": "Memorialization - Community Standards"
+        }
+      ]
+    },
+    {
+      "claim": "Meta states that memorialization protects against attempted logins and fraudulent activity and that it aims to preserve the account without changes to respect the choices the person made while alive.",
+      "status": "documented",
+      "date": null,
+      "quote": "Memorializing accounts helps create a space for remembering loved ones and protects against attempted logins and fraudulent activity.",
+      "sources": [
+        {
+          "url": "https://transparency.meta.com/policies/community-standards/memorialization/",
+          "publisher": "Meta Transparency Center",
+          "title": "Memorialization - Community Standards"
+        }
+      ]
+    },
+    {
+      "claim": "Facebook introduced the legacy contact in February 2015: a person chosen in advance who can post a pinned message, respond to friend requests and update profile and cover photos, but cannot log in as the deceased or read their private messages; users may instead choose permanent deletion on death.",
+      "status": "documented",
+      "date": "2015-02-12",
+      "quote": "The legacy contact will not be able to log in as the person who passed away or see that person's private messages.",
+      "sources": [
+        {
+          "url": "https://about.fb.com/news/2015/02/adding-a-legacy-contact/",
+          "publisher": "Meta Newsroom",
+          "title": "Adding a Legacy Contact",
+          "date": "2015-02-12"
+        }
+      ]
+    },
+    {
+      "claim": "In April 2019 Facebook added a tributes section on memorialized profiles and gave legacy contacts the ability to moderate posts there by changing tagging settings, removing tags and editing who can post and see posts.",
+      "status": "documented",
+      "date": "2019-04",
+      "quote": "Legacy contacts can now moderate the posts shared to the new tributes section by changing tagging settings, removing tags and editing who can post and see posts.",
+      "sources": [
+        {
+          "url": "https://about.fb.com/news/2019/04/updates-to-memorialization/",
+          "publisher": "Meta Newsroom",
+          "title": "Making It Easier to Honor a Loved One on Facebook After They Pass Away",
+          "date": "2019-04"
+        }
+      ]
+    },
+    {
+      "claim": "Meta's policy allows removal of certain content from a deceased person's profile at the request of family or a legacy contact, including content related to the death and imagery of an alleged or convicted murderer in cases of murder.",
+      "status": "documented",
+      "date": null,
+      "sources": [
+        {
+          "url": "https://transparency.meta.com/policies/community-standards/memorialization/",
+          "publisher": "Meta Transparency Center",
+          "title": "Memorialization - Community Standards"
+        }
+      ]
+    },
+    {
+      "claim": "In a 2017 'Hard Questions' post, Facebook said its standard process is to add 'Remembering' above the name and stop new login attempts, and that if no choice was made it tries to leave the account as the person left it.",
+      "status": "documented",
+      "date": "2017-08",
+      "quote": "Our standard process is to add \"Remembering\" above the name on the person's profile, and to stop any new attempts to log into the account.",
+      "sources": [
+        {
+          "url": "https://about.fb.com/news/2017/08/what-should-happen-to-online-identity/",
+          "publisher": "Meta Newsroom",
+          "title": "Hard Questions: What Should Happen to People's Online Identity When They Die?",
+          "date": "2017-08"
+        }
+      ]
+    },
+    {
+      "claim": "Öhman and Watson's 2019 Big Data & Society paper projected at least 1.4 billion Facebook users dying before 2100 and argued against a purely commercial approach to preserving their data.",
+      "status": "peer",
+      "date": "2019",
+      "sources": [
+        {
+          "url": "https://papers.ssrn.com/abstract=3392812",
+          "publisher": "SSRN",
+          "title": "Are the Dead Taking Over Facebook? A Big Data Approach to the Future of Online Death",
+          "date": "2019"
+        },
+        {
+          "url": "https://discovery-pp.ucl.ac.uk/id/eprint/10118987",
+          "publisher": "UCL Discovery",
+          "title": "Are the dead taking over Facebook? A Big Data approach to the future of death online",
+          "date": "2019"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "meta",
+      "toName": "Meta Platforms",
+      "toType": "company",
+      "relation": "other",
+      "claim": "The memorialization and legacy-contact policy is Meta's own, published in its Community Standards and Newsroom.",
+      "status": "documented",
+      "date": "2015",
+      "sources": [
+        {
+          "url": "https://transparency.meta.com/policies/community-standards/memorialization/",
+          "publisher": "Meta Transparency Center",
+          "title": "Memorialization - Community Standards"
+        },
+        {
+          "url": "https://about.fb.com/news/2015/02/adding-a-legacy-contact/",
+          "publisher": "Meta Newsroom",
+          "title": "Adding a Legacy Contact",
+          "date": "2015-02-12"
+        }
+      ]
+    },
+    {
+      "to": "digital-afterlife-industry",
+      "toName": "Digital afterlife industry",
+      "toType": "concept",
+      "relation": "other",
+      "claim": "Facebook's memorialized profiles are the subject of the 2019 Big Data & Society projection of dead users.",
+      "status": "peer",
+      "date": "2019",
+      "sources": [
+        {
+          "url": "https://papers.ssrn.com/abstract=3392812",
+          "publisher": "SSRN",
+          "title": "Are the Dead Taking Over Facebook? A Big Data Approach to the Future of Online Death",
+          "date": "2019"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Whether Meta's memorialization policy says anything about AI simulation of memorialized accounts was not found; the policy text reviewed speaks only of preserving accounts without changes."
+  ]
+}

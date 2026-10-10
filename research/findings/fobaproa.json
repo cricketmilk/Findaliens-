@@ -1,0 +1,499 @@
+{
+  "entity": "fobaproa",
+  "name": "Fobaproa (Fondo Bancario de Protección al Ahorro)",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "Fobaproa (Fondo Bancario de Protección al Ahorro) was the Mexican government's bank-savings protection fund. After the December 1994 peso devaluation its programs, including the Loan Purchase and Recapitalization Program, took loans from commercial banks in exchange for promissory notes. In 1998 President Zedillo asked Congress to recognize those notes as public debt, about 15 percent of GDP; banking legislation passed in December 1998 replaced Fobaproa with the Instituto para la Protección al Ahorro Bancario (IPAB), which assumed the liabilities. A 1999 Federal Reserve Bank of Atlanta review put the cost of the rescue programs at more than US$55 billion. Legally, the notes became public debt in 2005. The federal government is still servicing the debt.",
+    "sources": [
+      {
+        "url": "https://manifold.bfi.uchicago.edu/read/the-case-of-mexico/section/0cb5d103-804a-4a74-af5c-d117e255d7de",
+        "publisher": "University of Chicago, Becker Friedman Institute (A Monetary and Fiscal History of Latin America)",
+        "title": "The Case of Mexico"
+      },
+      {
+        "url": "https://ideas.repec.org/a/fip/fedaer/y1999iq3p14-29nv.84no.3.html",
+        "publisher": "Federal Reserve Bank of Atlanta",
+        "title": "The banking sector rescue in Mexico (Elizabeth McQuerry), Economic Review vol. 84 no. 3, pp. 14-29",
+        "date": "1999"
+      },
+      {
+        "url": "https://digitalrepository.unm.edu/cgi/viewcontent.cgi?article=5103&context=sourcemex",
+        "publisher": "SourceMex, Latin America Data Base (University of New Mexico)",
+        "title": "SourceMex report on the banking-reform legislation and the Mackey report"
+      },
+      {
+        "url": "https://elischolar.library.yale.edu/journal-of-financial-crises/vol4/iss4/13/",
+        "publisher": "Yale Journal of Financial Crises",
+        "title": "Mexico: FOBAPROA Blanket Guarantee, 1993-1994"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Banking-reform legislation passed in December 1998 replaced Fobaproa with the Instituto para la Protección al Ahorro Bancario (IPAB). SourceMex reported that the law established a formula for the government to assume more than 600 billion pesos (about US$60.4 billion) in Fobaproa liabilities.",
+      "status": "reported",
+      "date": "1998-12",
+      "quote": "the banking-reform legislation replaced FOBAPROA with the Instituto de Proteccion al Ahorro Bancario (IPAB) in December 1998 ... the law established a formula for the government to assume more than 600 billion pesos (US$60.4 billion) in FOBAPROA liabilities",
+      "sources": [
+        {
+          "url": "https://digitalrepository.unm.edu/cgi/viewcontent.cgi?article=5103&context=sourcemex",
+          "publisher": "SourceMex, Latin America Data Base (University of New Mexico)",
+          "title": "SourceMex report on the banking-reform legislation and the Mackey report"
+        },
+        {
+          "url": "https://digitalrepository.unm.edu/cgi/viewcontent.cgi?article=5042&context=sourcemex",
+          "publisher": "SourceMex, Latin America Data Base (University of New Mexico)",
+          "title": "Mexican Congress Delays Launch of New Savings Protection Institute"
+        }
+      ]
+    },
+    {
+      "claim": "In 1998 President Zedillo sent Congress an initiative to approve recognition of the Fobaproa debt (the promissory notes it had issued) as public debt, which represented 15 percent of GDP. IPAB, created in 1999, assumed the liabilities of the banking rescue; from a legal point of view they were not public debt until 2005, when, after a long legal process, the Fobaproa notes became public debt.",
+      "status": "peer",
+      "date": "1998",
+      "quote": "in 1998 President Zedillo sent Congress an initiative to approve the recognition of Fobaproa debt, the promissory notes it issued, as public debt, which represented 15 percent of GDP ... from a legal point of view, these liabilities were not public debt ... in 2005, after a long legal process, the Fobaproa pagarés became public debt",
+      "sources": [
+        {
+          "url": "https://manifold.bfi.uchicago.edu/read/the-case-of-mexico/section/0cb5d103-804a-4a74-af5c-d117e255d7de",
+          "publisher": "University of Chicago, Becker Friedman Institute (A Monetary and Fiscal History of Latin America)",
+          "title": "The Case of Mexico"
+        },
+        {
+          "url": "https://bfi.uchicago.edu/wp-content/uploads/The-Case-of-Mexico.pdf",
+          "publisher": "University of Chicago, Becker Friedman Institute",
+          "title": "The Case of Mexico (PDF)"
+        }
+      ]
+    },
+    {
+      "claim": "A 1999 Federal Reserve Bank of Atlanta review concluded that the Mexican government's rescue programs prevented a systemic collapse of the banking sector but cost more than US$55 billion, and were not entirely successful in restoring the banking sector's credit functions.",
+      "status": "documented",
+      "date": "1999",
+      "quote": "the governmental rescue programs prevented a systemic collapse of the banking sector but cost more than $55 billion dollars",
+      "sources": [
+        {
+          "url": "https://ideas.repec.org/a/fip/fedaer/y1999iq3p14-29nv.84no.3.html",
+          "publisher": "Federal Reserve Bank of Atlanta",
+          "title": "The banking sector rescue in Mexico (Elizabeth McQuerry), Economic Review vol. 84 no. 3, pp. 14-29",
+          "date": "1999"
+        },
+        {
+          "url": "https://www.fedinprint.org/item/fedaer/30644",
+          "publisher": "Federal Reserve Bank of Atlanta (Fed in Print)",
+          "title": "The banking sector rescue in Mexico",
+          "date": "1999"
+        },
+        {
+          "url": "https://ypfsresourcelibrary.blob.core.windows.net/fcic/YPFS/vol84no3_mcquerry.pdf",
+          "publisher": "Federal Reserve Bank of Atlanta (via Yale Program on Financial Stability resource library)",
+          "title": "The Banking Sector Rescue in Mexico (Elizabeth McQuerry)",
+          "date": "1999"
+        }
+      ]
+    },
+    {
+      "claim": "The 1999 report of Michael W. Mackey, the auditor commissioned by Mexico's Chamber of Deputies, concluded that about US$7.3 billion of the loans transferred to Fobaproa did not meet the criteria established for inclusion in the Loan Purchase and Recapitalization Program, and that just over US$600,000 of those loans was of illegal origin, according to the Federal Reserve Bank of Atlanta's summary.",
+      "status": "documented",
+      "date": "1999",
+      "quote": "the Mackey Report concluded that about $7.3 billion of the loans transferred to FOBAPROA did not meet the criteria established for inclusion in the Loan Purchase and Recapitalization Program, and that just over $600,000 of those loans was of illegal origin",
+      "sources": [
+        {
+          "url": "https://ypfsresourcelibrary.blob.core.windows.net/fcic/YPFS/vol84no3_mcquerry.pdf",
+          "publisher": "Federal Reserve Bank of Atlanta (via Yale Program on Financial Stability resource library)",
+          "title": "The Banking Sector Rescue in Mexico (Elizabeth McQuerry)",
+          "date": "1999"
+        },
+        {
+          "url": "https://elischolar.library.yale.edu/ypfs-documents/3937/",
+          "publisher": "Yale Program on Financial Stability (document archive)",
+          "title": "Report of Michael W. Mackey on the Comprehensive Evaluation of the Operations and Functions of The Fund for the Protection of Bank Savings \"FOBAPROA\" and Quality of Supervision of the FOBAPROA Program 1995-1998",
+          "date": "1999"
+        }
+      ]
+    },
+    {
+      "claim": "La Jornada reported in 2001 that the operations in the Mackey review classified as illegal (violating a law and possibly constituting crimes) amounted to approximately 6 billion pesos and were located at Banco Unión, Confía and Banpaís.",
+      "status": "reported",
+      "date": "2001-07-28",
+      "quote": "operations classified as illegal, meaning they violated a law and could constitute crimes, amount to approximately 6 billion pesos and are located at Banco Unión, Confía and Banpaís",
+      "sources": [
+        {
+          "url": "https://www.jornada.com.mx/2001/07/28/019n3eco.html",
+          "publisher": "La Jornada",
+          "title": "Economía (28 July 2001)",
+          "date": "2001-07-28"
+        }
+      ]
+    },
+    {
+      "claim": "A study of related lending in Mexico (La Porta, López-de-Silanes and Zamarripa, NBER Working Paper 8848) cites the auditor commissioned by the Mexican Congress as finding that some related-party loans were granted without appropriate reference to the debtors' capacity to repay, and that loan officers accepted collateral they knew was worthless. In the study's own sample, related borrowers were 33-35% more likely to default than unrelated ones after controlling for loan characteristics.",
+      "status": "peer",
+      "date": "2002",
+      "quote": "The auditor commissioned by the Mexican congress found that some related loans \"...were granted without any appropriate reference to the capacity of the debtors to repay\"",
+      "sources": [
+        {
+          "url": "https://www.nber.org/system/files/working_papers/w8848/w8848.pdf",
+          "publisher": "National Bureau of Economic Research",
+          "title": "Related Lending (Rafael La Porta, Florencio López-de-Silanes, Guillermo Zamarripa), NBER Working Paper 8848",
+          "date": "2002"
+        }
+      ]
+    },
+    {
+      "claim": "Press coverage of the Mackey report said it confirmed opposition-party allegations that the Comisión Nacional Bancaria y de Valores (CNBV) and other regulators had allowed corrupt practices, that Fobaproa's staffing and resources were insufficient for the magnitude of the crisis until April 1997, and that the report was initially released only to the Chamber of Deputies. The report also said Fobaproa's Technical Committee generally appeared to have operated in consideration of due process.",
+      "status": "reported",
+      "date": "1999",
+      "quote": "the report confirmed allegations by opposition parties that the Comision Nacional Bancaria y de Valores (CNBV) and other regulators had allowed corrupt practices ... FOBAPROA's staffing and resources were \"insufficient in dealing with the magnitude of the crisis\" until April 1997 ... the Technical Committee ... generally \"appeared to have operated in consideration of due process\"",
+      "sources": [
+        {
+          "url": "https://digitalrepository.unm.edu/cgi/viewcontent.cgi?article=5103&context=sourcemex",
+          "publisher": "SourceMex, Latin America Data Base (University of New Mexico)",
+          "title": "SourceMex report on the banking-reform legislation and the Mackey report"
+        },
+        {
+          "url": "https://elischolar.library.yale.edu/cgi/viewcontent.cgi?article=1222&context=journal-of-financial-crises",
+          "publisher": "Yale Journal of Financial Crises",
+          "title": "Journal of Financial Crises, Volume 3 Issue 3 (2021), Mexico FOBAPROA case",
+          "date": "2021"
+        }
+      ]
+    },
+    {
+      "claim": "In 2025 Mexican outlets, reporting on the Auditoría Superior de la Federación's review, said that by the Mackey report's own words the 1998-1999 reviews of Fobaproa liabilities were a set of procedures not sufficient to be considered a financial audit, citing restrictions on access to information, delays, and obstacles from the CNBV, Fobaproa and the banks; the review was based on specific questions agreed with the Chamber of Deputies' committee.",
+      "status": "reported",
+      "date": "2025-05",
+      "quote": "the 1998–1999 reviews of FOBAPROA liabilities resulted in a set of procedures that were not sufficient to be considered a financial audit, according to the Mackey report's own words, citing restrictions on information access, delays, and obstacles from the CNBV, FOBAPROA, and the banks",
+      "sources": [
+        {
+          "url": "https://ljz.mx/05/05/2025/revision-a-pasivos-del-fobaproa-no-fue-una-auditoria-informe-mackey/",
+          "publisher": "La Jornada Zacatecas",
+          "title": "Revisión a pasivos del Fobaproa no fue una auditoría: informe Mackey",
+          "date": "2025-05-05"
+        },
+        {
+          "url": "https://sprinforma.mx/ver/destacados/las-revisiones-al-fobaproa-no-fueron-una-auditoria-de-acuerdo-con-el-reporte-de-michael-w-mackey",
+          "publisher": "SPR Informa (Sistema Público de Radiodifusión del Estado Mexicano)",
+          "title": "Las revisiones al Fobaproa no fueron una auditoría, de acuerdo con el reporte de Michael W. Mackey",
+          "date": "2025-05"
+        }
+      ]
+    },
+    {
+      "claim": "The Auditoría Superior de la Federación's integral report on the 1995-2004 bank rescue, presented publicly in May 2025, found that the Fobaproa technical committee acted without rules or general policies that would have given transparency to its decisions. The report also records that Mexico's Supreme Court (SCJN) concluded the ASF lacked the power to review operations carried out by Fobaproa.",
+      "status": "reported",
+      "date": "2025-05-09",
+      "quote": "the Fobaproa technical committee acted without rules or general policies that would have allowed it to give transparency to its decisions ... the SCJN concluded that the ASF lacks the power to review operations carried out by FOBAPROA",
+      "sources": [
+        {
+          "url": "https://www.jornada.com.mx/noticia/2025/05/09/politica/destaca-sheinbaum-acuerdo-en-convencion-bancaria-de-dar-acceso-crediticio-a-pequenas-industrias",
+          "publisher": "La Jornada",
+          "title": "Fobaproa operó sin reglas y abrió paso a la corrupción: Informe de la ASF, destaca Sheinbaum",
+          "date": "2025-05-09"
+        },
+        {
+          "url": "https://www.infobae.com/mexico/2025/05/09/sheinbaum-exhibe-informe-de-la-asf-sobre-fobaproa-y-afirma-que-se-actuo-sin-reglas-alista-reporte-sobre-pago-de-deuda/",
+          "publisher": "Infobae",
+          "title": "Sheinbaum exhibe informe de la ASF sobre Fobaproa y afirma que se actuó sin reglas",
+          "date": "2025-05-09"
+        },
+        {
+          "url": "https://www.asf.gob.mx/Trans/Informes/ir2004i/Tomos/Ipab.pdf",
+          "publisher": "Auditoría Superior de la Federación",
+          "title": "Informe Integral sobre la Fiscalización del Rescate Bancario de 1995-2004"
+        }
+      ]
+    },
+    {
+      "claim": "On February 1, 1995 the IMF approved an 18-month stand-by credit for Mexico of up to SDR 12,070.2 million (about US$17.8 billion) in support of the government's 1995-96 economic and financial program, of which US$7.8 billion was made available immediately. The IMF's managing director described a further US$10 billion of short-term support from G-10 central banks through the Bank for International Settlements.",
+      "status": "documented",
+      "date": "1995-02-01",
+      "quote": "The International Monetary Fund approved an 18-month stand-by credit for Mexico of up to the equivalent of SDR 12,070.2 million (about US$17.8 billion) in support of the Government's 1995-96 economic and financial program",
+      "sources": [
+        {
+          "url": "https://www.imf.org/en/news/articles/2015/09/14/01/49/pr9510",
+          "publisher": "International Monetary Fund",
+          "title": "Press Release: IMF Approves US$17.8 Billion Stand-By Credit for Mexico",
+          "date": "1995-02-01"
+        },
+        {
+          "url": "https://www.imf.org/en/news/articles/2015/09/28/04/53/spmds9508",
+          "publisher": "International Monetary Fund",
+          "title": "Drawing Lessons from the Mexican Crisis: Preventing and Resolving Financial Crises, the Role of the IMF (Address by Michel Camdessus)",
+          "date": "1995"
+        }
+      ]
+    },
+    {
+      "claim": "After Congress did not act on a US$40 billion loan-guarantee request, President Clinton withdrew it on January 30, 1995 and announced a package of up to US$20 billion in loans and loan guarantees for Mexico through the Treasury's Exchange Stabilization Fund, as part of a US$48.8 billion multilateral package announced January 31. The Treasury Secretary signed the implementing agreements with Mexico on February 21, 1995; a Justice Department Office of Legal Counsel memorandum of March 2, 1995 concluded the President and the Secretary had authority to use the ESF for the package.",
+      "status": "documented",
+      "date": "1995-02",
+      "quote": "the President withdrew his request on January 30 and announced that he would use his authority to provide Mexico with a much-reduced package of up to $20 billion in loans and loan guarantees through the Exchange Stabilization Fund ... On February 21, 1995, the Treasury Secretary signed a series of agreements with the Mexican government implementing the support package",
+      "sources": [
+        {
+          "url": "https://www.gao.gov/assets/ggd-96-56.pdf",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Mexico's Financial Crisis: Origins, Awareness, Assistance, and Initial Efforts to Recover (GGD-96-56)",
+          "date": "1996-02"
+        },
+        {
+          "url": "https://www.justice.gov/file/21406/download",
+          "publisher": "U.S. Department of Justice, Office of Legal Counsel",
+          "title": "Memorandum on the use of the Exchange Stabilization Fund for the Mexico support package",
+          "date": "1995-03-02"
+        }
+      ]
+    },
+    {
+      "claim": "The GAO found that before the December 1994 devaluation Mexican government officials continued to assure investors that the peso would not be devalued, that Mexico's outstanding dollar-indexed tesobono obligations reached US$30 billion with all coming due in 1995, and that U.S. officials were aware investors in Mexican government securities perceived relatively small risk.",
+      "status": "documented",
+      "date": "1996-02",
+      "quote": "Mexican government officials continued to assure investors that the peso would not be devalued ... Mexico's outstanding tesobono obligations reached $30 billion, with all coming due in 1995",
+      "sources": [
+        {
+          "url": "https://www.gao.gov/assets/ggd-96-56.pdf",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Mexico's Financial Crisis: Origins, Awareness, Assistance, and Initial Efforts to Recover (GGD-96-56)",
+          "date": "1996-02"
+        }
+      ]
+    },
+    {
+      "claim": "The IMF's official history of the period states that much of the capital outflow in the days after the December 20, 1994 devaluation announcement apparently derived from Mexican residents sending money abroad, in all probability led by those who had received early warning of the magnitude of the situation at the Pacto meeting on the Monday night (December 19). The history places the early warning the night before the announcement and the outflow in the days that followed, not before December 20.",
+      "status": "documented",
+      "date": "1994-12",
+      "quote": "much of the capital outflow in the days that followed apparently derived from Mexican residents sending their money abroad, in all probability led by those who had received early warning of the magnitude of the situation at the Pacto meeting Monday night",
+      "sources": [
+        {
+          "url": "https://www.imf.org/external/pubs/ft/history/2012/pdf/c10.pdf",
+          "publisher": "International Monetary Fund (James M. Boughton, Tearing Down Walls: The International Monetary Fund 1990-1999)",
+          "title": "Chapter 10: Tequila Hangover: The Mexican Peso Crisis and Its Aftermath",
+          "date": "2012"
+        },
+        {
+          "url": "https://www.elibrary.imf.org/display/book/9781616350840/ch010.xml",
+          "publisher": "International Monetary Fund (eLibrary)",
+          "title": "10 Tequila Hangover: The Mexican Peso Crisis and Its Aftermath, in: Tearing Down Walls",
+          "date": "2012"
+        }
+      ]
+    },
+    {
+      "claim": "The U.S. Senate Committee on Banking, Housing, and Urban Affairs, chaired by Senator Alfonse D'Amato, held hearings on the Mexican peso crisis on January 31, March 9, March 10, May 24 and July 14, 1995. The IMF's history records that D'Amato initially suggested a US$40 billion package would better discourage a speculative attack, and that in March 1995 he wrote that the bailout would go down as one of the President's biggest blunders.",
+      "status": "documented",
+      "date": "1995",
+      "quote": "The Mexican Peso Crisis: Hearings Before the Committee on Banking, Housing, and Urban Affairs, United States Senate, One Hundred Fourth Congress, First Session ... January 31, March 9, March 10, May 24, and July 14, 1995",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/app/details/GOVPUB-Y4_B22_3-f6b4d874a487cadd2fa8f89d6d32a5f2",
+          "publisher": "U.S. Government Publishing Office (govinfo)",
+          "title": "The Mexican Peso Crisis: Hearings Before the Committee on Banking, Housing, and Urban Affairs, United States Senate, 104th Congress, First Session",
+          "date": "1995"
+        },
+        {
+          "url": "https://www.imf.org/external/pubs/ft/history/2012/pdf/c10.pdf",
+          "publisher": "International Monetary Fund (James M. Boughton, Tearing Down Walls: The International Monetary Fund 1990-1999)",
+          "title": "Chapter 10: Tequila Hangover: The Mexican Peso Crisis and Its Aftermath",
+          "date": "2012"
+        }
+      ]
+    },
+    {
+      "claim": "An NBER study of the D'Amato inquiry's documents says the investigation drew on well over 3,000 pages of classified and unclassified internal Treasury memoranda on Mexican financial and exchange-rate policy, released a report with several hundred pages of documents in late June 1995, and concluded that the administration was aware of the looming crisis but failed to alert Congress or the public. The study says the documents show the Treasury tracked Mexico's reserves through 1994 (a mid-May 1994 memorandum reported about US$10 billion spent defending the peso since the Colosio assassination) and argues private analysts could have estimated reserves about as accurately.",
+      "status": "peer",
+      "date": "1995-06",
+      "quote": "His central conclusion was that the administration was aware of the looming crisis, but failed to alert the Congress or the American people ... the U.S. Treasury was able to keep track of the evolution of Mexico's international reserves throughout 1994",
+      "sources": [
+        {
+          "url": "https://www.nber.org/system/files/chapters/c8693/c8693.pdf",
+          "publisher": "National Bureau of Economic Research (conference volume chapter)",
+          "title": "Chapter on the U.S. Treasury, the D'Amato inquiry and the 1994 Mexican reserves (NBER out-of-print volume)"
+        }
+      ]
+    },
+    {
+      "claim": "Later cost estimates: the University of Chicago fiscal history puts the total cost of the rescue at 13.3 percent of GDP and the debt originated by the rescue of banks and borrowers at 11.7 percent of GDP in 1999, decreasing steadily afterwards. A World Bank public-expenditure review put total debts including off-balance-sheet Fobaproa obligations inherited by IPAB and toll-road debts at about 20 percent of GDP. SourceMex reported an estimate that Fobaproa and new IPAB rescue operations could total 951 billion pesos (US$101.8 billion), almost 22 percent of annual GDP.",
+      "status": "peer",
+      "date": "1999",
+      "quote": "The debt originated by the rescue of banks and borrowers was 11.7 percent of GDP in 1999 and decreased steadily over time ... total debts, including off-balance-sheet Fobaproa obligations inherited by IPAB and toll-road debts, were about 20 percent of GDP",
+      "sources": [
+        {
+          "url": "https://manifold.bfi.uchicago.edu/read/the-case-of-mexico/section/0cb5d103-804a-4a74-af5c-d117e255d7de",
+          "publisher": "University of Chicago, Becker Friedman Institute (A Monetary and Fiscal History of Latin America)",
+          "title": "The Case of Mexico"
+        },
+        {
+          "url": "https://documents1.worldbank.org/curated/en/751261468049745533/pdf/MXPER0Main0Report.pdf",
+          "publisher": "World Bank",
+          "title": "Mexico Public Expenditure Review, Main Report"
+        },
+        {
+          "url": "https://digitalrepository.unm.edu/cgi/viewcontent.cgi?article=5103&context=sourcemex",
+          "publisher": "SourceMex, Latin America Data Base (University of New Mexico)",
+          "title": "SourceMex report on the banking-reform legislation and the Mackey report"
+        }
+      ]
+    },
+    {
+      "claim": "La Jornada, citing Finance Ministry (Hacienda) figures adjusted for inflation, reported in September 2026 that interest and administrative expenses on the Fobaproa/IPAB debt had reached about 2.18 trillion pesos (2 billones 181 mil 485.6 millones) by July 2026, with more than one trillion pesos still to be paid. By law 75% of the fees banks pay to IPAB are used to service the debt from the 1990s bank rescue, with 25% funding the current deposit-insurance scheme.",
+      "status": "reported",
+      "date": "2026-09-07",
+      "quote": "interest and administrative expenses on the debt reached 2 billones 181 mil 485.6 millones de pesos in July 2026 ... more than one trillion pesos still remains to be paid ... 75% of IPAB fees are, by law, used to service the debt generated by Mexico's bank rescue of the 1990s",
+      "sources": [
+        {
+          "url": "https://www.jornada.com.mx/noticia/2026/09/07/economia/el-barril-sin-fondo-del-fobaproa-lleva-mas-de-2-billones-y-falta-por-pagar-un-billon",
+          "publisher": "La Jornada",
+          "title": "El barril sin fondo del Fobaproa lleva más de $2 billones y falta por pagar un billón",
+          "date": "2026-09-07"
+        },
+        {
+          "url": "https://mexicobusiness.news/finance/news/mexican-banks-increase-ipab-contributions-mx285-billion",
+          "publisher": "Mexico Business News",
+          "title": "Mexican Banks Increase IPAB Contributions to MX$28.5 Billion"
+        }
+      ]
+    },
+    {
+      "claim": "The banks whose loans Fobaproa later purchased had been privatized in 1991-92: the Mexican government sold its eighteen commercial banks in fourteen months, June 1991 through July 1992, at an average price-to-book ratio of 3.49, mostly to financial groups and brokerage houses; the IMF's account gives total proceeds of US$13.5 billion and says prices exceeded external advisers' valuations in every case. Foreign banks were not allowed to participate in the auctions.",
+      "status": "documented",
+      "date": "1992",
+      "quote": "sold its eighteen banks in fourteen months—June 1991 through July 1992 ... thirteen months after the selling process was initiated, control of all 18 banks had been sold for $13.5 billion ... in all cases, the prices were higher than the valuations obtained by the external advisors",
+      "sources": [
+        {
+          "url": "https://www.dallasfed.org/~/media/documents/research/er/1997/er9701c.pdf",
+          "publisher": "Federal Reserve Bank of Dallas",
+          "title": "Economic Review, First Quarter 1997 (Mexican bank privatization)",
+          "date": "1997"
+        },
+        {
+          "url": "https://www.elibrary.imf.org/display/book/9781557753809/ch010.xml",
+          "publisher": "International Monetary Fund (eLibrary)",
+          "title": "10 Lessons from Bank Privatization in Mexico, in: Building Sound Finance in Emerging Market Economies"
+        },
+        {
+          "url": "https://www.dallasfed.org/~/media/documents/research/papers/1999/wp9904.pdf",
+          "publisher": "Federal Reserve Bank of Dallas",
+          "title": "Privatization, Competition, and Supercompetition in the Mexican Commercial Banking System (Working Paper 9904)",
+          "date": "1999"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "ernesto-zedillo",
+      "toName": "Ernesto Zedillo",
+      "toType": "person",
+      "relation": "other",
+      "reverse": true,
+      "claim": "As president, Ernesto Zedillo sent Congress in 1998 an initiative to recognize the Fobaproa promissory notes as public debt, representing 15 percent of GDP; the December 1998 banking legislation then replaced Fobaproa with IPAB.",
+      "status": "peer",
+      "date": "1998",
+      "quote": "in 1998 President Zedillo sent Congress an initiative to approve the recognition of Fobaproa debt, the promissory notes it issued, as public debt, which represented 15 percent of GDP",
+      "sources": [
+        {
+          "url": "https://manifold.bfi.uchicago.edu/read/the-case-of-mexico/section/0cb5d103-804a-4a74-af5c-d117e255d7de",
+          "publisher": "University of Chicago, Becker Friedman Institute (A Monetary and Fiscal History of Latin America)",
+          "title": "The Case of Mexico"
+        },
+        {
+          "url": "https://digitalrepository.unm.edu/cgi/viewcontent.cgi?article=5103&context=sourcemex",
+          "publisher": "SourceMex, Latin America Data Base (University of New Mexico)",
+          "title": "SourceMex report on the banking-reform legislation and the Mackey report"
+        }
+      ]
+    },
+    {
+      "to": "carlos-salinas-de-gortari",
+      "toName": "Carlos Salinas de Gortari",
+      "toType": "person",
+      "relation": "other",
+      "reverse": true,
+      "claim": "President Carlos Salinas submitted a bill to Congress on May 2, 1990 to amend Articles 28 and 123 of the Constitution, permitting full private ownership of commercial banks; his government then sold controlling stakes in the 18 state-owned banks between June 1991 and July 1992 (US$12.4-13.5 billion by different accounts). Loans from the privatized banks were later transferred to Fobaproa under the Loan Purchase and Recapitalization Program.",
+      "status": "documented",
+      "date": "1990-05-02",
+      "quote": "a bill was submitted to Congress on May 2, 1990, to amend Articles 28 and 123 of the Constitution, permitting full private ownership of the commercial banks ... in the course of fifteen months, controlling shares of 18 banks with aggregate assets of $128 billion were auctioned for $12.4 billion",
+      "sources": [
+        {
+          "url": "https://www.elibrary.imf.org/display/book/9781557753120/ch05.xml",
+          "publisher": "International Monetary Fund (eLibrary)",
+          "title": "V Financial Liberalization and Reform in Mexico, in: Mexico (IMF Occasional Paper)"
+        },
+        {
+          "url": "https://www.elibrary.imf.org/display/book/9781557753809/ch010.xml",
+          "publisher": "International Monetary Fund (eLibrary)",
+          "title": "10 Lessons from Bank Privatization in Mexico, in: Building Sound Finance in Emerging Market Economies"
+        },
+        {
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=54460",
+          "publisher": "SSRN (Haluk Unal and Miguel Navarro)",
+          "title": "The Technical Process of Bank Privatization in Mexico",
+          "date": "1997"
+        },
+        {
+          "url": "https://repositorio-digital.cide.edu/handle/11651/6258",
+          "publisher": "CIDE (Centro de Investigación y Docencia Económicas)",
+          "title": "The making of a new alliance: the privatization of the banks in Mexico"
+        },
+        {
+          "url": "https://ypfsresourcelibrary.blob.core.windows.net/fcic/YPFS/vol84no3_mcquerry.pdf",
+          "publisher": "Federal Reserve Bank of Atlanta (via Yale Program on Financial Stability resource library)",
+          "title": "The Banking Sector Rescue in Mexico (Elizabeth McQuerry)",
+          "date": "1999"
+        }
+      ]
+    },
+    {
+      "to": "imf",
+      "toName": "International Monetary Fund",
+      "toType": "international",
+      "relation": "funded",
+      "reverse": true,
+      "claim": "The IMF approved an 18-month stand-by credit of about US$17.8 billion for the Government of Mexico on February 1, 1995 in support of its 1995-96 economic and financial program, the period in which Fobaproa's bank-support programs ran. The credit was to the government, not to Fobaproa.",
+      "status": "documented",
+      "date": "1995-02-01",
+      "quote": "The International Monetary Fund approved an 18-month stand-by credit for Mexico of up to the equivalent of SDR 12,070.2 million (about US$17.8 billion) in support of the Government's 1995-96 economic and financial program",
+      "sources": [
+        {
+          "url": "https://www.imf.org/en/news/articles/2015/09/14/01/49/pr9510",
+          "publisher": "International Monetary Fund",
+          "title": "Press Release: IMF Approves US$17.8 Billion Stand-By Credit for Mexico",
+          "date": "1995-02-01"
+        }
+      ]
+    },
+    {
+      "to": "u-s-department-of-the-treasury",
+      "toName": "U.S. Department of the Treasury",
+      "toType": "government",
+      "relation": "funded",
+      "reverse": true,
+      "claim": "The U.S. Treasury provided Mexico with up to US$20 billion in loans and loan guarantees through the Exchange Stabilization Fund under agreements signed February 21, 1995, using short-term swaps, medium-term swaps of up to five years and securities guarantees of up to ten years. The support went to the Mexican government, not to Fobaproa.",
+      "status": "documented",
+      "date": "1995-02-21",
+      "quote": "a much-reduced package of up to $20 billion in loans and loan guarantees through the Exchange Stabilization Fund ... short-term swaps with renewals allowed, medium-term swaps of up to 5 years, and securities guarantees with terms of up to 10 years",
+      "sources": [
+        {
+          "url": "https://www.gao.gov/assets/ggd-96-56.pdf",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Mexico's Financial Crisis: Origins, Awareness, Assistance, and Initial Efforts to Recover (GGD-96-56)",
+          "date": "1996-02"
+        },
+        {
+          "url": "https://www.justice.gov/file/21406/download",
+          "publisher": "U.S. Department of Justice, Office of Legal Counsel",
+          "title": "Memorandum on the use of the Exchange Stabilization Fund for the Mexico support package",
+          "date": "1995-03-02"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Fobaproa's founding details (the year it was set up and its status as a trust administered by Banco de México) were not retrieved in this session; the Yale 'FOBAPROA Blanket Guarantee, 1993-1994' article should supply them.",
+    "The two SourceMex articles cited for the December 1998 law: the search returned the passages but did not say which article carries which sentence; confirm before approval. The exact peso amount assumed under the December 1998 law also differs by source (a 1998 WSWS article says 552 billion pesos in guarantees; SourceMex says more than 600 billion pesos).",
+    "McQuerry gives the Mackey finding as 'about $7.3 billion' of non-qualifying loans and 'just over $600,000' of illegal origin; Spanish-language coverage gives 73,775 million pesos of operations breaching Fobaproa rules and about 6 billion pesos of illegal operations. The dollar figures may be currency mix-ups; check the Mackey report itself (Yale YPFS copy).",
+    "The owner's draft says insiders 'dumped billions of pesos for dollars days before the December 20 devaluation'. No source retrieved supports pre-December 20 conversions by named insiders. The IMF's official history places the early warning at the Pacto meeting on the night of December 19 and the resident outflows in the days after the announcement, with hedged language. The D'Amato inquiry's conclusions concerned the U.S. Treasury's knowledge, not Mexican insiders. Mexican-press reporting on this question (1995) was not retrieved.",
+    "'The 'about 15 percent of 1997 GDP' figure for the $55 billion estimate appeared in a search summary without a clear attribution; it was left out. The 15 percent of GDP figure recorded here is the University of Chicago chapter's figure for the 1998 Zedillo initiative.",
+    "Pedro Aspe (finance minister under Salinas) and the 'Mexican Banking Oligarchs' entry: no source retrieved in this session ties either to Fobaproa specifically; nothing recorded.",
+    "The web-search budget for this session ran out before the IPAB law text (Ley de Protección al Ahorro Bancario, December 1998) could be located on an official site."
+  ]
+}

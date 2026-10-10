@@ -1,0 +1,103 @@
+{
+  "entity": "christian-anti-communism-crusade",
+  "name": "Christian Anti-Communism Crusade",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The Christian Anti-Communism Crusade (CACC) was founded in Waterloo, Iowa, in 1953 by Australian physician Fred C. Schwarz and later moved to Long Beach, California. A 1991 Militarist Monitor profile says it received funds from the Schick razor company, Richfield Oil and the Lilly Endowment, and lists Pew Memorial Trust grants totalling $215,000 between 1969 and 1978.",
+    "sources": [
+      {
+        "url": "https://militarist-monitor.org/?p=4982",
+        "publisher": "Militarist Monitor (Institute for Policy Studies)",
+        "title": "Christian Anti-Communism Crusade",
+        "date": "1991"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The CACC was founded in Waterloo, Iowa, by Dr. Fred C. Schwarz in 1953 and later moved to Long Beach, California.",
+      "status": "reported",
+      "date": "1953",
+      "quote": "founded in Waterloo, Iowa, by Dr. Fred C. Schwarz in l953",
+      "sources": [
+        {
+          "url": "https://militarist-monitor.org/?p=4982",
+          "publisher": "Militarist Monitor (Institute for Policy Studies)",
+          "title": "Christian Anti-Communism Crusade",
+          "date": "1991"
+        }
+      ]
+    },
+    {
+      "claim": "Militarist Monitor says the CACC received funds from the Schick razor company, Richfield Oil and the Lilly Endowment.",
+      "status": "reported",
+      "date": "1960s–70s",
+      "quote": "has also received funds from the Schick razor company, Richfield Oil, and the Lilly Endowment",
+      "sources": [
+        {
+          "url": "https://militarist-monitor.org/?p=4982",
+          "publisher": "Militarist Monitor (Institute for Policy Studies)",
+          "title": "Christian Anti-Communism Crusade",
+          "date": "1991"
+        }
+      ]
+    },
+    {
+      "claim": "Militarist Monitor lists Pew Memorial Trust grants to the CACC of $30,000 (1969), $25,000 (1972), $45,000 (1974), $50,000 (1977) and $65,000 (1977–78).",
+      "status": "reported",
+      "date": "1969–1978",
+      "quote": "Pew Memorial Trust ($30,000 in 1969, $25,000 in 1972, $45,000 in 1974, $50,000 in 1977, and $65,000 from l977-78)",
+      "sources": [
+        {
+          "url": "https://militarist-monitor.org/?p=4982",
+          "publisher": "Militarist Monitor (Institute for Policy Studies)",
+          "title": "Christian Anti-Communism Crusade",
+          "date": "1991"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "fred-schwarz",
+      "toName": "Fred Schwarz",
+      "toType": "person",
+      "relation": "founded",
+      "claim": "Schwarz founded the CACC in 1953 and led it until the late 1990s.",
+      "status": "reported",
+      "date": "1953",
+      "quote": "founded in Waterloo, Iowa, by Dr. Fred C. Schwarz in l953",
+      "sources": [
+        {
+          "url": "https://militarist-monitor.org/?p=4982",
+          "publisher": "Militarist Monitor (Institute for Policy Studies)",
+          "title": "Christian Anti-Communism Crusade",
+          "date": "1991"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "pew-memorial-trust",
+      "toName": "Pew Memorial Trust",
+      "toType": "foundation",
+      "relation": "funded",
+      "claim": "Pew Memorial Trust grants to the CACC, 1969–78, per Militarist Monitor.",
+      "status": "reported",
+      "date": "1969–1978",
+      "quote": "Pew Memorial Trust ($30,000 in 1969",
+      "sources": [
+        {
+          "url": "https://militarist-monitor.org/?p=4982",
+          "publisher": "Militarist Monitor (Institute for Policy Studies)",
+          "title": "Christian Anti-Communism Crusade",
+          "date": "1991"
+        }
+      ],
+      "reverse": true
+    }
+  ],
+  "openQuestions": [
+    "Patrick Frawley (who controlled Schick and Technicolor) and Walter Knott are named as funders of Schwarz's rallies only in a tertiary summary; the Schick corporate money is in Militarist Monitor. Hubert Villeneuve's Teaching Anticommunism (2020) covers CACC funding in detail and was not opened. The Richfield Oil link rests on the single Militarist Monitor profile."
+  ]
+}

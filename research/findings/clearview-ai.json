@@ -1,0 +1,69 @@
+{
+  "entity": "clearview-ai",
+  "name": "Clearview AI",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Clearview AI is a New York facial-recognition company that built a searchable database of faceprints scraped from public web images. In May 2022 it settled a 2020 lawsuit brought by the ACLU under Illinois's Biometric Information Privacy Act, agreeing to a permanent nationwide ban on selling its faceprint database to most private companies. About two weeks later the UK Information Commissioner's Office fined it £7,552,800 after a joint investigation with Australia's regulator, finding it had collected UK residents' data without their knowledge or a lawful basis.",
+    "sources": [
+      { "url": "https://aclu.org/press-releases/big-win-settlement-ensures-clearview-ai-complies-with-groundbreaking-illinois", "publisher": "ACLU", "title": "In Big Win, Settlement Ensures Clearview AI Complies With Groundbreaking Illinois Biometric Privacy Law", "date": "2022-05-09" },
+      { "url": "https://www.hothardware.com/news/clearview-ai-slapped-huge-fine-illegally-scraping-facial-recognition-images", "publisher": "HotHardware", "title": "Clearview AI Slapped With A Huge Fine For Illegally Scraping Facial Recognition Images", "date": "2022-05" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In May 2022 Clearview AI settled the ACLU's 2020 lawsuit under the Illinois Biometric Information Privacy Act, agreeing to a court-enforced settlement that permanently bans it from selling its faceprint database to most private companies and individuals across the United States.",
+      "status": "court",
+      "date": "2022-05-09",
+      "quote": "a restriction on selling the faceprint database not just in Illinois, but across the United States",
+      "sources": [
+        { "url": "https://aclu.org/press-releases/big-win-settlement-ensures-clearview-ai-complies-with-groundbreaking-illinois", "publisher": "ACLU", "title": "In Big Win, Settlement Ensures Clearview AI Complies With Groundbreaking Illinois Biometric Privacy Law", "date": "2022-05-09" },
+        { "url": "https://etcentric.org/?p=167793", "publisher": "ETCentric", "title": "Clearview to Limit Sales After Settling Illinois Privacy Lawsuit", "date": "2022-05" }
+      ]
+    },
+    {
+      "claim": "The ACLU filed its suit in 2020 over Clearview's collection of facial-recognition data without consent; the settlement also bars further ACLU claims under BIPA.",
+      "status": "court",
+      "date": "2020",
+      "sources": [
+        { "url": "https://aclu.org/press-releases/big-win-settlement-ensures-clearview-ai-complies-with-groundbreaking-illinois", "publisher": "ACLU", "title": "In Big Win, Settlement Ensures Clearview AI Complies With Groundbreaking Illinois Biometric Privacy Law", "date": "2022-05-09" }
+      ]
+    },
+    {
+      "claim": "Clearview's chief executive framed the post-settlement business as an offering focused on security for private clients, while continuing to serve government and law-enforcement customers.",
+      "status": "words",
+      "date": "2022-05",
+      "sources": [
+        { "url": "https://idtechwire.com/clearview-reaches-settlement-aclu-lawsuit-051101", "publisher": "ID Tech Wire", "title": "Clearview Reaches Settlement in ACLU Lawsuit", "date": "2022-05-11" }
+      ]
+    },
+    {
+      "claim": "In May 2022 the UK Information Commissioner's Office fined Clearview £7,552,800 (about $9.5 million) following a joint investigation with the Office of the Australian Information Commissioner, concluding the company breached UK data-protection law by gathering UK residents' images without their knowledge or a lawful reason.",
+      "status": "court",
+      "date": "2022-05-23",
+      "quote": "the ICO concluded that Clearview breached UK data protection laws by gathering the information of UK residents without their knowledge or a lawful reason",
+      "sources": [
+        { "url": "https://www.hothardware.com/news/clearview-ai-slapped-huge-fine-illegally-scraping-facial-recognition-images", "publisher": "HotHardware", "title": "Clearview AI Slapped With A Huge Fine For Illegally Scraping Facial Recognition Images", "date": "2022-05" },
+        { "url": "https://www.regulatoryoversight.com/?p=21544", "publisher": "Regulatory Oversight (Troutman Pepper)", "title": "Clearview AI fined by UK ICO", "date": "2022-05" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "information-commissioner-s-office",
+      "toName": "Information Commissioner's Office",
+      "toType": "government",
+      "relation": "regulated",
+      "reverse": true,
+      "claim": "The UK ICO fined Clearview AI £7,552,800 in May 2022 for unlawfully collecting UK residents' facial images.",
+      "status": "court",
+      "date": "2022-05-23",
+      "sources": [
+        { "url": "https://www.hothardware.com/news/clearview-ai-slapped-huge-fine-illegally-scraping-facial-recognition-images", "publisher": "HotHardware", "title": "Clearview AI Slapped With A Huge Fine For Illegally Scraping Facial Recognition Images", "date": "2022-05" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Clearview appealed the ICO fine; the First-tier Tribunal's October 2023 ruling that the ICO lacked jurisdiction and the ICO's subsequent Upper Tribunal appeal were not covered by any source found, so the fine's current enforceability is unresolved here.",
+    "The ICO's own monetary penalty notice and the Illinois court's settlement order were not retrieved and should be cited as primary records."
+  ]
+}

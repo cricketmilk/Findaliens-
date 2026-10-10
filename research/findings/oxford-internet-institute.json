@@ -1,0 +1,105 @@
+{
+  "entity": "oxford-internet-institute",
+  "name": "Oxford Internet Institute",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "The Oxford Internet Institute (OII) is a department of the University of Oxford. Its Digital Ethics Lab, directed by Luciano Floridi until 2023, produced the 2018 Nature Human Behaviour paper by Floridi and doctoral student Carl Öhman that proposed an ethical framework for the 'digital afterlife industry', and the OII publicised the 2019 projection that dead Facebook users could outnumber the living within decades.",
+    "sources": [
+      {
+        "url": "https://www.oii.ox.ac.uk/?p=10823",
+        "publisher": "Oxford Internet Institute",
+        "title": "Professor Luciano Floridi and Carl Öhman publish ethical framework for the digital afterlife industry",
+        "date": "2018"
+      },
+      {
+        "url": "https://www.oii.ox.ac.uk/people/luciano-floridi/",
+        "publisher": "Oxford Internet Institute",
+        "title": "Luciano Floridi - people profile"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The OII announced in 2018 that Professor Luciano Floridi and Carl Öhman had published an ethical framework for the digital afterlife industry, calling for dialogue between policymakers, industry and academics.",
+      "status": "documented",
+      "date": "2018",
+      "sources": [
+        {
+          "url": "https://www.oii.ox.ac.uk/?p=10823",
+          "publisher": "Oxford Internet Institute",
+          "title": "Professor Luciano Floridi and Carl Öhman publish ethical framework for the digital afterlife industry",
+          "date": "2018"
+        },
+        {
+          "url": "https://www.exeter.ox.ac.uk/professor-luciano-floridi-carl-ohman-publish-ethical-framework-digital-afterlife-industry-nature/",
+          "publisher": "Exeter College, Oxford",
+          "title": "Professor Luciano Floridi and Carl Öhman publish ethical framework for the digital afterlife industry in Nature",
+          "date": "2018"
+        }
+      ]
+    },
+    {
+      "claim": "Floridi served as Professor of Philosophy and Ethics of Information at the OII from May 2013 to July 2023 and directed its Digital Ethics Lab.",
+      "status": "documented",
+      "date": "2013",
+      "sources": [
+        {
+          "url": "https://www.oii.ox.ac.uk/people/luciano-floridi/",
+          "publisher": "Oxford Internet Institute",
+          "title": "Luciano Floridi - people profile"
+        }
+      ]
+    },
+    {
+      "claim": "Öhman was a DPhil student at the OII from 2017 to 2020 and won its 2016 MSc thesis prize for work on the digital afterlife industry.",
+      "status": "documented",
+      "date": "2016",
+      "sources": [
+        {
+          "url": "https://www.oii.ox.ac.uk/people/carl-ohman/",
+          "publisher": "Oxford Internet Institute",
+          "title": "Carl Öhman - people profile"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "luciano-floridi",
+      "toName": "Luciano Floridi",
+      "toType": "person",
+      "relation": "employed by",
+      "claim": "Floridi was an OII professor from 2013 to 2023.",
+      "status": "documented",
+      "date": "2013",
+      "sources": [
+        {
+          "url": "https://www.oii.ox.ac.uk/people/luciano-floridi/",
+          "publisher": "Oxford Internet Institute",
+          "title": "Luciano Floridi - people profile"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "carl-ohman",
+      "toName": "Carl Öhman",
+      "toType": "person",
+      "relation": "employed by",
+      "claim": "Öhman was an OII doctoral candidate, 2017–2020.",
+      "status": "documented",
+      "date": "2017",
+      "sources": [
+        {
+          "url": "https://www.oii.ox.ac.uk/people/carl-ohman/",
+          "publisher": "Oxford Internet Institute",
+          "title": "Carl Öhman - people profile"
+        }
+      ],
+      "reverse": true
+    }
+  ],
+  "openQuestions": [
+    "The OII's own page on the 2019 Big Data & Society paper was not retrieved; the paper is cited from ORA and SSRN."
+  ]
+}

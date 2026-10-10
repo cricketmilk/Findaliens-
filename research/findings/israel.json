@@ -1,0 +1,163 @@
+{
+  "entity": "israel",
+  "name": "Israel",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "This record covers only specific, documented dealings between the Israeli government (including its Ministry of Defense) and U.S. technology companies already on this site. In April 2021 Israel's Finance Ministry selected Amazon Web Services and Google for Project Nimbus, a government cloud project with an initial investment of about 4 billion shekels ($1.2 billion). In January 2024 Palantir, after a board meeting in Tel Aviv, announced a strategic partnership with the Ministry of Defense. In September 2025 Microsoft said it had ceased and disabled specified services to a unit within the Ministry of Defense following an external review.",
+    "sources": [
+      { "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3905654,00.html", "publisher": "Calcalist (CTech)", "title": "Amazon's AWS and Google big winners of Israel's $1.2 billion milestone cloud project", "date": "2021-04-21" },
+      { "url": "https://www.calcalistech.com/ctechnews/article/rymy7ret6", "publisher": "Calcalist (CTech)", "title": "Palantir supplying Israel with technology to help in war effort", "date": "2024-01-13" },
+      { "url": "https://www.calcalistech.com/ctechnews/article/gzlnr9rg2", "publisher": "Calcalist (CTech)", "title": "Microsoft cuts off Israel's Unit 8200 from cloud services after surveillance revelations", "date": "2025-09-25" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On April 21, 2021 Israel's Finance Ministry announced that Amazon Web Services and Google had won the Project Nimbus tender to build local cloud sites for the government, with an initial investment of 4 billion shekels (about $1.2 billion); Microsoft, Oracle and IBM lost out. The ministry described the project as a multi-year flagship project providing cloud services to the government, the defense system and other groups in the economy.",
+      "status": "reported",
+      "date": "2021-04-21",
+      "quote": "The initial investment is 4 billion shekels ($1.2 billion).",
+      "sources": [
+        { "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3905654,00.html", "publisher": "Calcalist (CTech)", "title": "Amazon's AWS and Google big winners of Israel's $1.2 billion milestone cloud project", "date": "2021-04-21" },
+        { "url": "https://www.timesofisrael.com/google-aws-win-1-2-billion-israel-tender-for-cloud-services/", "publisher": "The Times of Israel", "title": "Google, AWS win $1.2 billion Israel tender for cloud services", "date": "2021-04" },
+        { "url": "https://www.ynetnews.com/business/article/B1D1q3pL00", "publisher": "Ynetnews", "title": "Israel picks Amazon, Google for flagship cloud project", "date": "2021-04" }
+      ]
+    },
+    {
+      "claim": "Google has said the Nimbus contract covers workloads running on its commercial cloud by Israeli government ministries that agree to its terms of service and acceptable use policy, and that the work is not directed at highly sensitive, classified or military workloads relevant to weapons or intelligence services.",
+      "status": "words",
+      "date": "2024",
+      "quote": "not directed at highly sensitive, classified, or military workloads relevant to weapons or intelligence services",
+      "sources": [
+        { "url": "https://time.com/7013685/google-ai-deepmind-military-contracts-israel/", "publisher": "Time", "title": "Exclusive: Workers at Google DeepMind Push Company to Drop Military Contracts", "date": "2024-08" }
+      ]
+    },
+    {
+      "claim": "The Intercept reported in 2024 and 2025, citing internal Google documents and the contract, that the Israeli government 'may make any use of any service included in the supplier's catalog of services' under Nimbus and that Google was not permitted to restrict the types of services and information that the government, including the Ministry of Defense and the Israeli Security Agency, chose to migrate to the cloud.",
+      "status": "reported",
+      "date": "2024-12-02",
+      "quote": "not permitted to restrict the types of services and information that the Government (including the Ministry of Defense and Israeli Security Agency) chooses to migrate",
+      "sources": [
+        { "url": "https://theintercept.com/2024/12/02/google-project-nimbus-ai-israel/", "publisher": "The Intercept", "title": "Documents Contradict Google's Claims About Its Project Nimbus Contract With Israel", "date": "2024-12-02" },
+        { "url": "https://theintercept.com/2025/05/12/google-nimbus-israel-military-ai-human-rights/", "publisher": "The Intercept", "title": "Google Worried It Couldn't Control How Israel Uses Project Nimbus, Files Reveal", "date": "2025-05-12" }
+      ]
+    },
+    {
+      "claim": "On April 16, 2024 employees organized by the No Tech for Apartheid campaign held sit-ins at Google's New York office and Google Cloud offices in Sunnyvale, California, protesting Project Nimbus; nine were arrested. Google then fired 28 employees, saying in an internal memo that investigations had resulted in the terminations and that protesters had taken over office spaces, defaced property and impeded other employees' work. The campaign called the firings retaliation and said some of those fired had not participated.",
+      "status": "reported",
+      "date": "2024-04-17",
+      "quote": "individual investigations that resulted in the termination of employment for 28 employees, and will continue to investigate and take action as needed.",
+      "sources": [
+        { "url": "https://fortune.com/2024/04/18/sundar-pichai-fires-28-google-workers-protest-over-israeli-contract", "publisher": "Fortune", "title": "Sundar Pichai fires 28 Google workers after protest over Israeli contract", "date": "2024-04-18" },
+        { "url": "https://www.theregister.com/2024/04/18/google_firings_israel/", "publisher": "The Register", "title": "Google fires 28 staff after Project Nimbus protest", "date": "2024-04-18" },
+        { "url": "https://www.aljazeera.com/economy/2024/4/19/google-fires-28-staff-after-protests-against-cloud-contract-with-israel", "publisher": "Al Jazeera", "title": "Google fires 28 staff after protests against cloud contract with Israel", "date": "2024-04-19" }
+      ]
+    },
+    {
+      "claim": "In January 2024 Palantir held its first board meeting of the year in Tel Aviv and announced a strategic partnership with the Israeli Ministry of Defense to supply technology to assist in the war; Palantir's 2024 quarterly report to the SEC describes the agreement in the same terms.",
+      "status": "documented",
+      "date": "2024-01",
+      "quote": "agreed to a strategic partnership with the Israeli Defense Ministry to supply technology to Israel to assist in the ongoing war",
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000071/pltr-20240331.htm", "publisher": "SEC (Palantir Form 10-Q)", "title": "Palantir Technologies Inc. - Form 10-Q, quarter ended March 31, 2024", "date": "2024-05" },
+        { "url": "https://www.calcalistech.com/ctechnews/article/rymy7ret6", "publisher": "Calcalist (CTech)", "title": "Palantir supplying Israel with technology to help in war effort", "date": "2024-01-13" },
+        { "url": "https://www.linkedin.com/posts/palantir-technologies_thiels-palantir-israel-agree-strategic-activity-7151602590311456768-F5-a", "publisher": "Palantir Technologies (LinkedIn)", "title": "Thiel's Palantir, Israel Agree Strategic Partnership for Battle Tech", "date": "2024-01" }
+      ]
+    },
+    {
+      "claim": "Palantir CEO Alex Karp told CNBC in March 2024 that within weeks of October 7, 2023 the company was on the ground in Israel and involved in operationally crucial operations, and that his outspoken pro-Israel views had led some employees to leave the company.",
+      "status": "words",
+      "date": "2024-03-13",
+      "quote": "within weeks, we are on the ground and we are involved in operationally crucial operations in Israel",
+      "sources": [
+        { "url": "https://www.cnbc.com/2024/03/13/palantir-ceo-says-outspoken-pro-israel-views-led-employees-to-leave-.html", "publisher": "CNBC", "title": "Palantir CEO says his outspoken pro-Israel views have caused employees to leave company", "date": "2024-03-13" }
+      ]
+    },
+    {
+      "claim": "On September 25, 2025 Microsoft vice chair Brad Smith said the company had ceased and disabled a set of services, including cloud storage and AI services, to a unit within the Israel Ministry of Defense, after an external review led by Covington & Burling found evidence supporting elements of an August 2025 Guardian report that Unit 8200 had used Azure to store and analyze civilian phone calls from the West Bank and Gaza. Microsoft said its cybersecurity work for Israel was not affected.",
+      "status": "reported",
+      "date": "2025-09-25",
+      "quote": "ceased and disabled a set of services to a unit within the Israel ministry of defense",
+      "sources": [
+        { "url": "https://www.calcalistech.com/ctechnews/article/gzlnr9rg2", "publisher": "Calcalist (CTech)", "title": "Microsoft cuts off Israel's Unit 8200 from cloud services after surveillance revelations", "date": "2025-09-25" },
+        { "url": "https://www.business-humanrights.org/en/latest-news/israelopt-microsoft-terminates-idfs-access-to-technology-used-to-operate-mass-surveillance-system-in-gaza-the-west-bank/", "publisher": "Business & Human Rights Resource Centre", "title": "Israel/OPT: Microsoft terminates Israeli military's access to technology used to operate mass surveillance system in Gaza & the West Bank", "date": "2025-09" }
+      ]
+    },
+    {
+      "claim": "A Calcalist-reported study of nearly 200 Israeli cybersecurity companies acquired over 15 years found that nearly half of the founders whose companies were acquired for more than $100 million in the past decade had served in the army's signals-intelligence Unit 8200.",
+      "status": "reported",
+      "date": "2025",
+      "quote": "nearly 50% of founders whose companies were acquired for over $100 million in the last decade served in the unit",
+      "sources": [
+        { "url": "https://www.calcalistech.com/ctechnews/article/sjltwsk2kg", "publisher": "Calcalist (CTech)", "title": "Study of Israeli cybersecurity founders and acquisitions", "date": "2025" },
+        { "url": "https://www.securityweek.com/idf-inc-israeli-cybersecurity-startup-conveyor-belt/amp/", "publisher": "SecurityWeek", "title": "IDF Inc.: The Israeli cybersecurity startup conveyor belt" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "palantir",
+      "toName": "Palantir",
+      "toType": "company",
+      "relation": "contracted with",
+      "reverse": true,
+      "claim": "Palantir agreed to a strategic partnership with Israel's Ministry of Defense in January 2024, announced after a board meeting in Tel Aviv, to supply technology to assist in the war; the agreement is described in Palantir's 2024 Form 10-Q.",
+      "status": "documented",
+      "date": "2024-01",
+      "quote": "agreed to a strategic partnership with the Israeli Defense Ministry to supply technology to Israel to assist in the ongoing war",
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000071/pltr-20240331.htm", "publisher": "SEC (Palantir Form 10-Q)", "title": "Palantir Technologies Inc. - Form 10-Q, quarter ended March 31, 2024", "date": "2024-05" },
+        { "url": "https://www.calcalistech.com/ctechnews/article/rymy7ret6", "publisher": "Calcalist (CTech)", "title": "Palantir supplying Israel with technology to help in war effort", "date": "2024-01-13" }
+      ]
+    },
+    {
+      "to": "microsoft",
+      "toName": "Microsoft",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Microsoft said in September 2025 that it had ceased and disabled specified Israel Ministry of Defense subscriptions and services, including cloud storage and AI, after an external review into reporting on Unit 8200's use of Azure; it said its cybersecurity work for Israel continued.",
+      "status": "reported",
+      "date": "2025-09-25",
+      "quote": "ceased and disabled a set of services to a unit within the Israel ministry of defense",
+      "sources": [
+        { "url": "https://www.calcalistech.com/ctechnews/article/gzlnr9rg2", "publisher": "Calcalist (CTech)", "title": "Microsoft cuts off Israel's Unit 8200 from cloud services after surveillance revelations", "date": "2025-09-25" },
+        { "url": "https://www.business-humanrights.org/en/latest-news/israelopt-microsoft-terminates-idfs-access-to-technology-used-to-operate-mass-surveillance-system-in-gaza-the-west-bank/", "publisher": "Business & Human Rights Resource Centre", "title": "Israel/OPT: Microsoft terminates Israeli military's access to technology used to operate mass surveillance system in Gaza & the West Bank", "date": "2025-09" }
+      ]
+    },
+    {
+      "to": "google",
+      "toName": "Google",
+      "toType": "company",
+      "relation": "contracted with",
+      "reverse": true,
+      "claim": "Google was selected with Amazon Web Services in April 2021 for Israel's Project Nimbus government cloud contract, with an initial investment of about $1.2 billion. Google says the work is not directed at highly sensitive, classified or military workloads relevant to weapons or intelligence services.",
+      "status": "reported",
+      "date": "2021-04-21",
+      "quote": "The initial investment is 4 billion shekels ($1.2 billion).",
+      "sources": [
+        { "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3905654,00.html", "publisher": "Calcalist (CTech)", "title": "Amazon's AWS and Google big winners of Israel's $1.2 billion milestone cloud project", "date": "2021-04-21" },
+        { "url": "https://time.com/7013685/google-ai-deepmind-military-contracts-israel/", "publisher": "Time", "title": "Exclusive: Workers at Google DeepMind Push Company to Drop Military Contracts", "date": "2024-08" }
+      ]
+    },
+    {
+      "to": "amazon",
+      "toName": "Amazon",
+      "toType": "company",
+      "relation": "contracted with",
+      "reverse": true,
+      "claim": "Amazon Web Services was selected with Google in April 2021 for Israel's Project Nimbus government cloud contract, with an initial investment of about 4 billion shekels ($1.2 billion), to build local cloud sites keeping government data within Israel.",
+      "status": "reported",
+      "date": "2021-04-21",
+      "quote": "The initial investment is 4 billion shekels ($1.2 billion).",
+      "sources": [
+        { "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3905654,00.html", "publisher": "Calcalist (CTech)", "title": "Amazon's AWS and Google big winners of Israel's $1.2 billion milestone cloud project", "date": "2021-04-21" },
+        { "url": "https://www.timesofisrael.com/google-aws-win-1-2-billion-israel-tender-for-cloud-services/", "publisher": "The Times of Israel", "title": "Google, AWS win $1.2 billion Israel tender for cloud services", "date": "2021-04" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The Israeli Finance Ministry's own April 2021 Nimbus announcement was not returned by the search; the record relies on Calcalist, Times of Israel and Ynet coverage of it.",
+    "A statement from Amazon on Project Nimbus was not found; sources note Amazon has said little publicly.",
+    "The Palantir 10-Q wording is as returned by the search summary; the owner should confirm the exact sentence in the filing (Q1 2024 10-Q cited; the Q3 2024 10-Q may carry the same language).",
+    "The Calcalist Unit 8200 study article's title and date were not fully returned by the search; the quoted figure should be checked against the article."
+  ]
+}

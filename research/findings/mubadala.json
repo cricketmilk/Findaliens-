@@ -1,0 +1,119 @@
+{
+  "entity": "mubadala",
+  "name": "Mubadala",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Mubadala Investment Company is a sovereign investment company owned by the government of Abu Dhabi. It committed $15 billion to the SoftBank Vision Fund at its 2017 first close and in March 2024 co-founded the Abu Dhabi AI investment vehicle MGX with the technology group G42.",
+    "sources": [
+      {
+        "url": "https://www.pif.gov.sa/en/news-and-insights/press-releases/2017/pif-softbank-group-and-mubadala/",
+        "publisher": "Public Investment Fund (press release)",
+        "title": "The Public Investment Fund, SoftBank Group and Mubadala joined by initial investors in Vision Fund including Apple, Foxconn, Qualcomm and Sharp",
+        "date": "2017-05-20"
+      },
+      {
+        "url": "https://www.bloomberg.com/news/articles/2017-05-20/japan-s-softbank-says-93-billion-committed-to-technology-fund",
+        "publisher": "Bloomberg",
+        "title": "SoftBank Closes Funding For Record $93 Billion Investment Fund",
+        "date": "2017-05-20"
+      },
+      {
+        "url": "https://news.crunchbase.com/ai/mgx-role-grows-stargate-openai-g42-tiktok/",
+        "publisher": "Crunchbase News",
+        "title": "MGX's role grows: Stargate, OpenAI, G42, TikTok",
+        "date": "2025"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Mubadala committed $15 billion to the SoftBank Vision Fund, disclosed at the fund's May 2017 first close alongside up to $45 billion from Saudi Arabia's Public Investment Fund.",
+      "status": "documented",
+      "date": "2017-05-20",
+      "quote": "Mubadala committed $15 billion, according to a separate statement.",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2017-05-20/japan-s-softbank-says-93-billion-committed-to-technology-fund",
+          "publisher": "Bloomberg",
+          "title": "SoftBank Closes Funding For Record $93 Billion Investment Fund",
+          "date": "2017-05-20"
+        },
+        {
+          "url": "https://www.pif.gov.sa/en/news-and-insights/press-releases/2017/pif-softbank-group-and-mubadala/",
+          "publisher": "Public Investment Fund (press release)",
+          "title": "The Public Investment Fund, SoftBank Group and Mubadala joined by initial investors in Vision Fund including Apple, Foxconn, Qualcomm and Sharp",
+          "date": "2017-05-20"
+        },
+        {
+          "url": "https://globalventuring.com/blog/2017/05/20/softbank-closes-vision-fund-at-93bn/",
+          "publisher": "Global Venturing",
+          "title": "Softbank closes Vision fund at $93bn",
+          "date": "2017-05-20"
+        }
+      ]
+    },
+    {
+      "claim": "MGX, an Abu Dhabi AI investment company, was launched in March 2024 by Mubadala Investment Company and G42, with Sheikh Tahnoon bin Zayed Al Nahyan, the UAE's national security adviser, as chairman.",
+      "status": "reported",
+      "date": "2024-03",
+      "quote": "MGX was launched in March 2024 by Mubadala Investment Company and G42, the Abu Dhabi AI group.",
+      "sources": [
+        {
+          "url": "https://news.crunchbase.com/ai/mgx-role-grows-stargate-openai-g42-tiktok/",
+          "publisher": "Crunchbase News",
+          "title": "MGX's role grows: Stargate, OpenAI, G42, TikTok",
+          "date": "2025"
+        },
+        {
+          "url": "https://www.universalassetowners.com/mgx-abu-dhabi-ai-fund/",
+          "publisher": "Universal Asset Owners",
+          "title": "MGX: Abu Dhabi's AI Investment Vehicle, Explained"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "softbank",
+      "relation": "funded",
+      "claim": "Mubadala committed $15 billion to the SoftBank Vision Fund in 2017.",
+      "status": "documented",
+      "date": "2017-05-20",
+      "quote": "Mubadala committed $15 billion, according to a separate statement.",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2017-05-20/japan-s-softbank-says-93-billion-committed-to-technology-fund",
+          "publisher": "Bloomberg",
+          "title": "SoftBank Closes Funding For Record $93 Billion Investment Fund",
+          "date": "2017-05-20"
+        },
+        {
+          "url": "https://www.pif.gov.sa/en/news-and-insights/press-releases/2017/pif-softbank-group-and-mubadala/",
+          "publisher": "Public Investment Fund (press release)",
+          "title": "The Public Investment Fund, SoftBank Group and Mubadala joined by initial investors in Vision Fund including Apple, Foxconn, Qualcomm and Sharp",
+          "date": "2017-05-20"
+        }
+      ]
+    },
+    {
+      "to": "mgx",
+      "relation": "co-founded",
+      "claim": "Mubadala and G42 launched the AI investment vehicle MGX in March 2024.",
+      "status": "reported",
+      "date": "2024-03",
+      "quote": "MGX was launched in March 2024 by Mubadala Investment Company and G42, the Abu Dhabi AI group.",
+      "sources": [
+        {
+          "url": "https://news.crunchbase.com/ai/mgx-role-grows-stargate-openai-g42-tiktok/",
+          "publisher": "Crunchbase News",
+          "title": "MGX's role grows: Stargate, OpenAI, G42, TikTok",
+          "date": "2025"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Mubadala's own statement on the Vision Fund commitment and its assets under management were not retrieved; figures for its assets vary widely by source.",
+    "One blog claims part of Mubadala's $15 billion went to a second SoftBank vehicle (the Delta Fund); unverified."
+  ]
+}

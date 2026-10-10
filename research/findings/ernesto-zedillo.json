@@ -1,0 +1,99 @@
+{
+  "entity": "ernesto-zedillo",
+  "name": "Ernesto Zedillo",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Ernesto Zedillo took office as President of Mexico on 1 December 1994. On 20 December 1994 his government's central bank widened the peso's band, an effective devaluation of about 15 percent, and floated the peso two days later, setting off a financial crisis that was met by a roughly $50 billion package from the United States, Canada, the IMF and the BIS.",
+    "sources": [
+      {
+        "url": "https://www.govinfo.gov/content/pkg/GAOREPORTS-GGD-96-56/html/GAOREPORTS-GGD-96-56.htm",
+        "publisher": "U.S. Government Accountability Office",
+        "title": "Mexico's Financial Crisis: Origins, Awareness, Assistance, and Initial Efforts to Recover (GAO/GGD-96-56)",
+        "date": "1996-02-23"
+      },
+      {
+        "url": "https://cs.uwaterloo.ca/~alopez-o/politics/puntos.html",
+        "publisher": "University of Waterloo (A. López-Ortiz, timeline of the Mexican crisis)",
+        "title": "Chronology of the Mexican peso crisis"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Zedillo's government took office on 1 December 1994; on 15 December his finance minister Jaime Serra Puche denied in a Wall Street Journal interview that Mexico would devalue.",
+      "status": "reported",
+      "date": "1994-12-15",
+      "quote": "The Wall Street Journal publishes an interview with the new Finance Minister Jaime Serra Puche, in which he denies that Mexico will devaluate the peso.",
+      "sources": [
+        {
+          "url": "https://cs.uwaterloo.ca/~alopez-o/politics/puntos.html",
+          "publisher": "University of Waterloo (A. López-Ortiz, timeline of the Mexican crisis)",
+          "title": "Chronology of the Mexican peso crisis"
+        }
+      ]
+    },
+    {
+      "claim": "On 20 December 1994 the Bank of Mexico lifted the upper band of the exchange rate by 15 percent, an effective devaluation; about $4.6 billion left the country in the following two days and the peso was floated on 22 December.",
+      "status": "reported",
+      "date": "1994-12-20",
+      "quote": "In the two days after the announcement, USD 4.6 bn leaves the country, half of the foreign exchange reserves.",
+      "sources": [
+        {
+          "url": "https://cs.uwaterloo.ca/~alopez-o/politics/puntos.html",
+          "publisher": "University of Waterloo (A. López-Ortiz, timeline of the Mexican crisis)",
+          "title": "Chronology of the Mexican peso crisis"
+        }
+      ]
+    },
+    {
+      "claim": "GAO found that the December 1994 devaluation set off a crisis in Mexico's financial institutions and markets that lasted into 1995, that Bank of Mexico reserves were too small to meet investors converting pesos to dollars, and that the U.S., Canada, the IMF and the BIS assembled nearly $50 billion in assistance.",
+      "status": "documented",
+      "date": "1996-02-23",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/GAOREPORTS-GGD-96-56/html/GAOREPORTS-GGD-96-56.htm",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Mexico's Financial Crisis: Origins, Awareness, Assistance, and Initial Efforts to Recover (GAO/GGD-96-56)",
+          "date": "1996-02-23"
+        }
+      ]
+    },
+    {
+      "claim": "GAO reported that the Federal Reserve and Treasury did not foresee how large the crisis would become, and that the crisis began in 1994 amid concern about Mexico's fiscal and monetary policies and exchange-rate system.",
+      "status": "documented",
+      "date": "1996-02-23",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/GAOREPORTS-GGD-96-56/html/GAOREPORTS-GGD-96-56.htm",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Mexico's Financial Crisis: Origins, Awareness, Assistance, and Initial Efforts to Recover (GAO/GGD-96-56)",
+          "date": "1996-02-23"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "imf",
+      "toName": "IMF",
+      "toType": "organization",
+      "relation": "other",
+      "claim": "The IMF was part of the nearly $50 billion assistance package assembled for Mexico after the December 1994 devaluation.",
+      "status": "documented",
+      "date": "1995",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/GAOREPORTS-GGD-96-56/html/GAOREPORTS-GGD-96-56.htm",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Mexico's Financial Crisis: Origins, Awareness, Assistance, and Initial Efforts to Recover (GAO/GGD-96-56)",
+          "date": "1996-02-23"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim tested: the page says cabinet insiders and banking families were tipped off in early December 1994 and moved billions abroad before the devaluation. No source returned supports a tip-off; GAO's report addresses origins and U.S. awareness, not insider flows. Treat as unsupported pending a documented source.",
+    "Carlos Salinas de Gortari and Pedro Aspe: no sourced facts specific to them were found beyond a secondary note of friction between Zedillo and Aspe; no files were written.",
+    "Fobaproa is not addressed by the sources found."
+  ]
+}

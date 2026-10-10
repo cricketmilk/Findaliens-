@@ -1,0 +1,105 @@
+{
+  "entity": "bbn-technologies",
+  "name": "BBN Technologies",
+  "researchedAt": "2026-10-09",
+  "summary": {
+    "text": "Bolt Beranek and Newman (BBN) was founded in 1948 in Cambridge, Massachusetts as an acoustics consultancy by MIT physicist Richard Bolt, acoustics expert Leo Beranek and Robert Newman, and moved into computing research in 1957. In late 1968 the Pentagon's Advanced Research Projects Agency awarded BBN a competitively procured contract to build the Interface Message Processors, the packet switches of the ARPANET; the first was installed at UCLA in September 1969. BBN was later owned by GTE and Verizon, had assets acquired by Accel Partners and General Catalyst in 2004, and was bought by Raytheon on October 26, 2009 for about $350 million, becoming Raytheon BBN Technologies.",
+    "sources": [
+      { "url": "https://ethw.org/Bolt_Beranek_and_Newman_Inc.", "publisher": "Engineering and Technology History Wiki (IEEE)", "title": "Bolt Beranek and Newman Inc." },
+      { "url": "https://livinginternet.com:443/i/ii_imp_walden.htm", "publisher": "Living Internet (David Walden)", "title": "Looking back at the ARPANET effort, 34 years later" },
+      { "url": "https://raytheon.mediaroom.com/index.php?item=1424", "publisher": "Raytheon Company", "title": "Raytheon Completes Acquisition of BBN Technologies", "date": "2009-10-26" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "BBN was founded in 1948 by MIT physicist Richard Bolt and acoustics expert Leo Beranek, who brought in Robert Newman, an MIT architecture graduate student and former student of Bolt's, early enough to include him in the company name. In 1957 the company began moving into computing research and development, focusing on man-machine interaction.",
+      "status": "documented",
+      "date": "1948",
+      "quote": "In 1957 the company began to move into the computing R&D area, particularly focusing on man-machine interactions.",
+      "sources": [
+        { "url": "https://ethw.org/Bolt_Beranek_and_Newman_Inc.", "publisher": "Engineering and Technology History Wiki (IEEE)", "title": "Bolt Beranek and Newman Inc." }
+      ]
+    },
+    {
+      "claim": "According to BBN engineer David Walden, in late 1968 ARPA announced the award to Bolt Beranek and Newman of a competitively procured contract to develop the backbone of packet switches for the ARPANET.",
+      "status": "documented",
+      "date": "1968",
+      "quote": "In late 1968, the Advanced Research Projects Agency (ARPA) of the US Department of Defense announced the award to Bolt Beranek and Newman Inc. (BBN) of a competitively procured contract to develop the backbone of packet switches for the ARPANET.",
+      "sources": [
+        { "url": "https://livinginternet.com:443/i/ii_imp_walden.htm", "publisher": "Living Internet (David Walden)", "title": "Looking back at the ARPANET effort, 34 years later" }
+      ]
+    },
+    {
+      "claim": "BBN was contracted to build four Interface Message Processors, the first due at UCLA by Labor Day 1969 and the rest at one-month intervals. An IMP was a ruggedized Honeywell DDP-516 minicomputer with special-purpose interfaces and software; the BBN team, led by Frank Heart, called itself the 'IMP Guys'. The first IMP was installed at UCLA in September 1969 and three more followed by December, forming the ARPANET's first four nodes.",
+      "status": "documented",
+      "date": "1969-09",
+      "quote": "An IMP was a ruggedized Honeywell DDP-516 minicomputer with special-purpose interfaces and software.",
+      "sources": [
+        { "url": "https://ethw.org/ARPANET", "publisher": "Engineering and Technology History Wiki (IEEE)", "title": "ARPANET" },
+        { "url": "https://www.olografix.org/gubi/estate/libri/wizards/imp.html", "publisher": "Where Wizards Stay Up Late (excerpt, Hafner and Lyon)", "title": "The IMP" }
+      ]
+    },
+    {
+      "claim": "Xconomy reported that BBN was acquired by GTE in 1997, which became part of Verizon in 2000; some BBN networking assets were spun off as Genuity, and in 2004 BBN assets were acquired by the venture firms Accel Partners and General Catalyst Partners.",
+      "status": "reported",
+      "date": "2004",
+      "quote": "In 2004, BBN assets were acquired by venture capital firms Accel Partners and General Catalyst Partners.",
+      "sources": [
+        { "url": "https://legacy.xconomy.com/?p=39864", "publisher": "Xconomy", "title": "40 Years After Sparking the Internet, BBN's Long Search for a Home Ends…At Home", "date": "2009" }
+      ]
+    },
+    {
+      "claim": "Raytheon announced on October 26, 2009 that it had completed its acquisition of BBN Technologies for approximately $350 million, subject to post-closing adjustments, placing BBN within its Network Centric Systems business as Raytheon BBN Technologies. Raytheon said the deal would not materially affect fourth-quarter 2009 sales or earnings and expected it to be accretive in 2010.",
+      "status": "documented",
+      "date": "2009-10-26",
+      "quote": "Raytheon Company (NYSE: RTN) announced today that it has completed its acquisition of BBN Technologies",
+      "sources": [
+        { "url": "https://raytheon.mediaroom.com/index.php?item=1424", "publisher": "Raytheon Company", "title": "Raytheon Completes Acquisition of BBN Technologies", "date": "2009-10-26" },
+        { "url": "https://www.washingtontechnology.com/2009/10/raytheon-completes-purchase-of-bbn-technologies/325079", "publisher": "Washington Technology", "title": "Raytheon completes purchase of BBN Technologies", "date": "2009-10" }
+      ]
+    },
+    {
+      "claim": "Raytheon's 2009 Form 10-K records the BBN purchase as $334 million in cash, net of $22 million of cash acquired and exclusive of retention and management incentive payments, with $254 million of goodwill and $70 million of intangible assets recognized.",
+      "status": "documented",
+      "date": "2009",
+      "quote": "$334 million in cash, net of $22 million of cash acquired",
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/0001047122/000119312510038391/d10k.htm", "publisher": "SEC", "title": "Raytheon Co. Form 10-K for fiscal year 2009", "date": "2010-02" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "darpa",
+      "relation": "contracted with",
+      "claim": "ARPA awarded BBN a competitively procured contract in late 1968 to build the ARPANET's packet switches (Interface Message Processors); the first was installed at UCLA in September 1969.",
+      "status": "documented",
+      "date": "1968",
+      "quote": "the award to Bolt Beranek and Newman Inc. (BBN) of a competitively procured contract to develop the backbone of packet switches for the ARPANET",
+      "sources": [
+        { "url": "https://livinginternet.com:443/i/ii_imp_walden.htm", "publisher": "Living Internet (David Walden)", "title": "Looking back at the ARPANET effort, 34 years later" },
+        { "url": "https://ethw.org/ARPANET", "publisher": "Engineering and Technology History Wiki (IEEE)", "title": "ARPANET" }
+      ]
+    },
+    {
+      "to": "Raytheon",
+      "toName": "Raytheon",
+      "toType": "company",
+      "relation": "subsidiary of",
+      "claim": "Raytheon completed its acquisition of BBN Technologies on October 26, 2009 for about $350 million and operates it as Raytheon BBN Technologies.",
+      "status": "documented",
+      "date": "2009-10-26",
+      "quote": "Raytheon Company (NYSE: RTN) announced today that it has completed its acquisition of BBN Technologies",
+      "sources": [
+        { "url": "https://raytheon.mediaroom.com/index.php?item=1424", "publisher": "Raytheon Company", "title": "Raytheon Completes Acquisition of BBN Technologies", "date": "2009-10-26" },
+        { "url": "https://www.sec.gov/Archives/edgar/data/0001047122/000119312510038391/d10k.htm", "publisher": "SEC", "title": "Raytheon Co. Form 10-K for fiscal year 2009", "date": "2010-02" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Site claim (Crash Conduits): DARPA 'divested the network to private contractors without retaining public royalties' by 1971, and BBN was among the gainers. No source describing such a divestiture was found; BBN's IMP contract and its later sale to Raytheon are documented.",
+    "A figure of about $1 million for the IMP contract appeared in search summaries without a clear source and was not recorded.",
+    "Sources differ on the IMP award date (late 1968 per Walden; 1969 per other accounts) and on the GTE acquisition date.",
+    "No connection to Stanford Research Institute was recorded: both built parts of the ARPANET but no source stated a direct relationship between them."
+  ]
+}

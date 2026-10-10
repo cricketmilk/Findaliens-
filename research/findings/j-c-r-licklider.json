@@ -1,0 +1,81 @@
+{
+  "entity": "j-c-r-licklider",
+  "name": "J.C.R. Licklider",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "J.C.R. Licklider was a psychologist and computer scientist who in 1962 became the first head of ARPA's computer research programme, which he named the Information Processing Techniques Office (IPTO). In 1962–63 he circulated memos describing an 'Intergalactic Computer Network', a concept that influenced the later ARPANET. He left IPTO in 1963–64; his successors Ivan Sutherland and Robert Taylor funded the ARPANET, managed by Larry Roberts.",
+    "sources": [
+      { "url": "https://www.computerhistory.org/internethistory/1960s", "publisher": "Computer History Museum", "title": "Internet History of 1960s", "date": "2020" },
+      { "url": "https://www.ebsco.com/research-starters/history/j-c-r-licklider", "publisher": "EBSCO Research Starters", "title": "J. C. R. Licklider", "date": "2023" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Licklider was the first head of ARPA's computer research programme, which he called the Information Processing Techniques Office, and wrote about his 'Intergalactic Network' concept in 1962.",
+      "status": "documented",
+      "date": "1962",
+      "quote": "Licklider was the first head of ARPA's computer research program, which he called the Information Processing Techniques Office",
+      "sources": [
+        { "url": "https://www.computerhistory.org/internethistory/1960s", "publisher": "Computer History Museum", "title": "Internet History of 1960s", "date": "2020" }
+      ]
+    },
+    {
+      "claim": "A 1963 Licklider memorandum was addressed to the 'Members and Affiliates of the Intergalactic Computer Network'.",
+      "status": "documented",
+      "date": "1963-04",
+      "quote": "members and affiliates of the Intergalactic Computer Network",
+      "sources": [
+        { "url": "https://www.columbia.edu/~hauben/book-pdf/CHAPTER%208.pdf", "publisher": "Columbia University (Hauben, Netizens, ch. 8)", "title": "Netizens: Chapter 8", "date": "1997" }
+      ]
+    },
+    {
+      "claim": "Sources differ on Licklider's IPTO tenure: one gives 1962–1964, another says he left IPTO in 1963 to run ARPA's behavioural sciences and command-and-control work.",
+      "status": "reported",
+      "date": "1964",
+      "sources": [
+        { "url": "https://www.ebsco.com/research-starters/history/j-c-r-licklider", "publisher": "EBSCO Research Starters", "title": "J. C. R. Licklider", "date": "2023" },
+        { "url": "https://www3.cs.stonybrook.edu/~tony/comphist/301slides/Internet.pdf", "publisher": "Stony Brook University (course history slides)", "title": "History of the Internet", "date": "2010s" }
+      ]
+    },
+    {
+      "claim": "Robert Taylor, who became IPTO director after Licklider and Ivan Sutherland, decided in 1966 that the time was right for a network and is credited with funding the ARPANET project.",
+      "status": "reported",
+      "date": "1966",
+      "quote": "it wasn't until 1966 that he decided the time was right for a network",
+      "sources": [
+        { "url": "https://www.computerhistory.org/internethistory/1960s", "publisher": "Computer History Museum", "title": "Internet History of 1960s", "date": "2020" },
+        { "url": "https://www.ebsco.com/research-starters/biography/larry-roberts/", "publisher": "EBSCO Research Starters", "title": "Larry Roberts", "date": "2023" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "darpa",
+      "toName": "DARPA",
+      "toType": "government",
+      "relation": "employed by",
+      "claim": "Licklider headed ARPA's Information Processing Techniques Office from 1962.",
+      "status": "documented",
+      "date": "1962",
+      "sources": [
+        { "url": "https://www.computerhistory.org/internethistory/1960s", "publisher": "Computer History Museum", "title": "Internet History of 1960s", "date": "2020" }
+      ]
+    },
+    {
+      "to": "larry-roberts",
+      "toName": "Larry Roberts",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Roberts, who managed the ARPANET project at IPTO, was influenced by Licklider's network concept.",
+      "status": "reported",
+      "date": "1966",
+      "sources": [
+        { "url": "https://www.ebsco.com/research-starters/biography/larry-roberts/", "publisher": "EBSCO Research Starters", "title": "Larry Roberts", "date": "2023" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site's 'DARPA Node 0' entry dates the IPTO story to 1971; Licklider's first IPTO tenure was 1962–64 (he returned in 1974–75). The owner should check which period the page means.",
+    "No darpa.mil or IEEE page was returned; the Computer History Museum timeline is the strongest source found."
+  ]
+}

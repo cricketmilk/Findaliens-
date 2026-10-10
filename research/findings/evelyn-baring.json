@@ -1,0 +1,132 @@
+{
+  "entity": "evelyn-baring",
+  "name": "Evelyn Baring, 1st Earl of Cromer",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Evelyn Baring (1841-1917), later Earl of Cromer, was a British administrator who went to Egypt in 1877 as British commissioner on the Caisse de la Dette Publique after Khedive Ismail's bankruptcy, served in India 1880-83, and was British agent and consul-general in Egypt from 1883 to 1907, a period in which biographers describe him as the effective ruler of the country.",
+    "sources": [
+      {
+        "url": "https://www.universalis.fr/encyclopedie/evelyn-cromer/",
+        "publisher": "Encyclopaedia Universalis",
+        "title": "Cromer, Evelyn Baring, 1er comte (1841-1917)"
+      },
+      {
+        "url": "https://reviews.history.ac.uk/review/414/print",
+        "publisher": "Reviews in History (Institute of Historical Research)",
+        "title": "Review of Roger Owen, Lord Cromer: Victorian Imperialist, Edwardian Proconsul"
+      },
+      {
+        "url": "https://www.egyptstudycircle.org.uk/ESCmembers/1882/Baring2.pdf",
+        "publisher": "Egypt Study Circle",
+        "title": "Evelyn Baring (biographical note)"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Baring went to Cairo in 1877 as British commissioner on the Caisse de la Dette Publique, set up to protect the interests of European creditors after Khedive Ismail's borrowing bankrupted Egypt.",
+      "status": "reported",
+      "date": "1877",
+      "quote": "Khedive Ismail had plunged Egypt into bankruptcy, and the Caisse was set up to protect the interests of European creditors.",
+      "sources": [
+        {
+          "url": "https://reviews.history.ac.uk/review/414/print",
+          "publisher": "Reviews in History (Institute of Historical Research)",
+          "title": "Review of Roger Owen, Lord Cromer: Victorian Imperialist, Edwardian Proconsul"
+        },
+        {
+          "url": "https://www.egyptstudycircle.org.uk/ESCmembers/1882/Baring2.pdf",
+          "publisher": "Egypt Study Circle",
+          "title": "Evelyn Baring (biographical note)"
+        }
+      ]
+    },
+    {
+      "claim": "He served as British agent and consul-general in Egypt from 1883 to 1907, having been financial member of the Viceroy's council in India from 1880 to 1883.",
+      "status": "reported",
+      "date": "1883",
+      "quote": "He remained there till 1883, and was then appointed British agent and consul-general in Egypt.",
+      "sources": [
+        {
+          "url": "https://www.universalis.fr/encyclopedie/evelyn-cromer/",
+          "publisher": "Encyclopaedia Universalis",
+          "title": "Cromer, Evelyn Baring, 1er comte (1841-1917)"
+        },
+        {
+          "url": "https://www.egyptstudycircle.org.uk/ESCmembers/1882/Baring2.pdf",
+          "publisher": "Egypt Study Circle",
+          "title": "Evelyn Baring (biographical note)"
+        }
+      ]
+    },
+    {
+      "claim": "He was raised to the peerage as Baron Cromer in 1892 and became Earl of Cromer in 1901; he died in London on 29 January 1917.",
+      "status": "reported",
+      "date": "1917-01-29",
+      "sources": [
+        {
+          "url": "https://www.universalis.fr/encyclopedie/evelyn-cromer/",
+          "publisher": "Encyclopaedia Universalis",
+          "title": "Cromer, Evelyn Baring, 1er comte (1841-1917)"
+        },
+        {
+          "url": "https://www.egyptstudycircle.org.uk/ESCmembers/1882/Baring2.pdf",
+          "publisher": "Egypt Study Circle",
+          "title": "Evelyn Baring (biographical note)"
+        }
+      ]
+    },
+    {
+      "claim": "Roger Owen's biography, as reviewed, describes Cromer as the effective ruler of Egypt from 1883 to 1907 while formally only consul-general, backed by British troops and some 400 British officials.",
+      "status": "reported",
+      "date": "1907",
+      "sources": [
+        {
+          "url": "https://reviews.history.ac.uk/review/414/print",
+          "publisher": "Reviews in History (Institute of Historical Research)",
+          "title": "Review of Roger Owen, Lord Cromer: Victorian Imperialist, Edwardian Proconsul"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "khedive-ismail",
+      "toName": "Khedive Ismail",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Baring's appointment to the Caisse de la Dette in 1877 followed the bankruptcy produced by Khedive Ismail's borrowing.",
+      "status": "reported",
+      "date": "1877",
+      "quote": "Khedive Ismail had plunged Egypt into bankruptcy, and the Caisse was set up to protect the interests of European creditors.",
+      "sources": [
+        {
+          "url": "https://reviews.history.ac.uk/review/414/print",
+          "publisher": "Reviews in History (Institute of Historical Research)",
+          "title": "Review of Roger Owen, Lord Cromer: Victorian Imperialist, Edwardian Proconsul"
+        }
+      ]
+    },
+    {
+      "to": "lord-cromer",
+      "toName": "Lord Cromer",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Evelyn Baring and Lord Cromer are the same person.",
+      "status": "reported",
+      "date": "1892",
+      "sources": [
+        {
+          "url": "https://www.universalis.fr/encyclopedie/evelyn-cromer/",
+          "publisher": "Encyclopaedia Universalis",
+          "title": "Cromer, Evelyn Baring, 1er comte (1841-1917)"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Evelyn Baring and Lord Cromer are the same person (Evelyn Baring, 1st Earl of Cromer); the site lists them as two entities.",
+    "Site claim tested: 'British commissioner of the Caisse de la Dette 1877-79' is supported in substance; sources differ on whether he was Controller-General in 1878-79 or 1879-80.",
+    "Site claim tested: 'ran Egyptian finances 1883-1907' is consistent with the biographical sources' description of his consul-generalship."
+  ]
+}

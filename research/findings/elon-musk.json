@@ -358,6 +358,74 @@
           "date": "2026"
         }
       ]
+    },
+    {
+      "claim": "On September 26, 2025, Democrats on the House Oversight Committee released daily calendars obtained from Epstein's estate under subpoena. One entry dated December 6, 2014 reads: 'Reminder: Elon Musk to island December 6 (is this still happening?).' NBC News noted the document gives no information about how the entry came about or whether the anticipated visit ever occurred.",
+      "status": "documented",
+      "date": "2025-09-26",
+      "quote": "One calendar entry dated December 6, 2014, reads: \"Reminder: Elon Musk to island December 6 (is this still happening?).\" ... The document gives no information about how the entry came about, what level of planning was involved or whether the anticipated visit ever occurred.",
+      "sources": [
+        {
+          "url": "https://oversightdemocrats.house.gov/news/press-releases/oversight-democrats-release-third-batch-documents-jeffrey-epstein-estate",
+          "publisher": "House Oversight Committee Democrats",
+          "title": "Oversight Democrats Release Third Batch of Documents from Jeffrey Epstein Estate, Includes Elon Musk, Peter Thiel, Steve Bannon, Prince Andrew Mentions",
+          "date": "2025-09-26"
+        },
+        {
+          "url": "https://www.nbcnews.com/tech/elon-musk/epstein-calendar-democrats-elon-musk-denies-visiting-island-rcna233955",
+          "publisher": "NBC News",
+          "title": "Epstein calendar released by Democrats mentions Elon Musk, who denies visiting his island",
+          "date": "2025-09-26"
+        }
+      ]
+    },
+    {
+      "claim": "Responding on X to a post about the September 2025 calendar release, Musk wrote 'This is false' without elaborating. NBC News reported that Musk has said he declined repeated invitations to visit Epstein's island and has never visited it.",
+      "status": "words",
+      "date": "2025-09-26",
+      "quote": "He wrote \"This is false\" without elaborating. ... Musk has said that he declined repeated invitations to visit the island owned by the convicted sex offender.",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/tech/elon-musk/epstein-calendar-democrats-elon-musk-denies-visiting-island-rcna233955",
+          "publisher": "NBC News",
+          "title": "Epstein calendar released by Democrats mentions Elon Musk, who denies visiting his island",
+          "date": "2025-09-26"
+        }
+      ]
+    },
+    {
+      "claim": "The Justice Department's Epstein file release in January 2026 included emails between Musk and Epstein from 2012 and 2013; Time counted 16. CBS News reported that in a November 25, 2012 email Epstein asked Musk how many people he would bring for the helicopter ride to the island, that Musk replied the group would be small and asked about party plans on the island, and that in a 2013 email Epstein asked whether Musk would come to the Caribbean for Christmas.",
+      "status": "documented",
+      "date": "2012-11-25",
+      "quote": "in a Nov. 25, 2012 email, Epstein asked Musk how many people he would be bringing for the helicopter ride to the island. Musk replied that the group would be small, and he also asked about the party plans on the island. In a later 2013 email, Epstein asked Musk if he would come to the Caribbean for Christmas.",
+      "sources": [
+        {
+          "url": "https://www.cbsnews.com/news/bill-gates-elon-musk-epstein-files-what-documents-show/",
+          "publisher": "CBS News",
+          "title": "Bill Gates, Elon Musk among big names in Epstein files. Here's what the latest documents show.",
+          "date": "2026-01"
+        },
+        {
+          "url": "https://time.com/7362868/elon-musk-epstein-emails/",
+          "publisher": "Time",
+          "title": "Elon Musk's Emails to Jeffrey Epstein Revealed in Latest File Release",
+          "date": "2026-01"
+        }
+      ]
+    },
+    {
+      "claim": "After the January 2026 release, Musk posted on X that he had 'very little correspondence' with Epstein and did not go to his island, that he 'declined repeated invitations to go to his island or fly on his Lolita Express,' and that he was aware some emails 'could be misinterpreted and used by detractors to smear my name.' He called the release 'a distraction' and wrote, 'No one pushed harder than me to have the Epstein files released.'",
+      "status": "words",
+      "date": "2026-01-31",
+      "quote": "he wrote that he declined repeated invitations to go to his island or fly on his 'Lolita Express', and that he was aware some emails could be misinterpreted and used by detractors to smear my name. He called the release \"a distraction\" and said \"No one pushed harder than me to have the Epstein files released.\"",
+      "sources": [
+        {
+          "url": "https://www.forbes.com/sites/mikestunson/2026/01/31/elon-musk-says-his-emails-with-jeffrey-epstein-are-misinterpreted-calls-release-of-files-a-distraction/",
+          "publisher": "Forbes",
+          "title": "Elon Musk Says His Emails With Jeffrey Epstein Are 'Misinterpreted'—Calls Release Of Files 'A Distraction'",
+          "date": "2026-01-31"
+        }
+      ]
     }
   ],
   "connections": [
@@ -606,6 +674,36 @@
           "date": "2022-07-15"
         }
       ]
+    },
+    {
+      "to": "jeffrey-epstein",
+      "toName": "Jeffrey Epstein",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Released records show Epstein corresponded with Musk in 2012-2013, including invitations to his island, and a December 2014 calendar reminder about a Musk island trip. Musk has said he declined the invitations and never visited the island; the records do not show whether any visit occurred.",
+      "status": "reported",
+      "date": "2012-2014",
+      "quote": "The document gives no information about how the entry came about, what level of planning was involved or whether the anticipated visit ever occurred.",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/tech/elon-musk/epstein-calendar-democrats-elon-musk-denies-visiting-island-rcna233955",
+          "publisher": "NBC News",
+          "title": "Epstein calendar released by Democrats mentions Elon Musk, who denies visiting his island",
+          "date": "2025-09-26"
+        },
+        {
+          "url": "https://www.cbsnews.com/news/bill-gates-elon-musk-epstein-files-what-documents-show/",
+          "publisher": "CBS News",
+          "title": "Bill Gates, Elon Musk among big names in Epstein files. Here's what the latest documents show.",
+          "date": "2026-01"
+        },
+        {
+          "url": "https://www.forbes.com/sites/mikestunson/2026/01/31/elon-musk-says-his-emails-with-jeffrey-epstein-are-misinterpreted-calls-release-of-files-a-distraction/",
+          "publisher": "Forbes",
+          "title": "Elon Musk Says His Emails With Jeffrey Epstein Are 'Misinterpreted'—Calls Release Of Files 'A Distraction'",
+          "date": "2026-01-31"
+        }
+      ]
     }
   ],
   "openQuestions": [
@@ -616,6 +714,8 @@
     "Date of arrival in Canada: Queen's Alumni Review says both 'came in 1990' and 'from 1989 to 1991' at Queen's; Wikipedia says June 1989 arrival. Birth date/place (28 June 1971, Pretoria) not opened in a source this session.",
     "X.com December 1999-January 2000 unauthorized ACH transfers (CNN/Computerworld Feb 2000, ~$10,000 reported) could not be opened (HTTP 451).",
     "Sequoia's direct investment amount in X.com's 1999 Series A (beyond the $5M secondary purchase from Musk) not confirmed from a filing.",
-    "Musk's 1994-95 internships (Pinnacle Research Institute, Rocket Science Games) not researched for any government or defense ties; no record found of any government or intelligence tie before 1999."
+    "Musk's 1994-95 internships (Pinnacle Research Institute, Rocket Science Games) not researched for any government or defense ties; no record found of any government or intelligence tie before 1999.",
+    "The CBS and Time articles on the 2012-13 Musk emails are undated in the search results; confirm publication dates and the DOJ release date (reported as January 30, 2026).",
+    "Musk's exact X post wording after the September 2025 calendar release beyond 'This is false' was not found in a citable source."
   ]
 }

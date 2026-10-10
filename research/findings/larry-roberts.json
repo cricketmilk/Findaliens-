@@ -1,0 +1,59 @@
+{
+  "entity": "larry-roberts",
+  "name": "Larry Roberts",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Lawrence G. (Larry) Roberts was the ARPA Information Processing Techniques Office scientist who served as programme manager for the ARPANET, responsible for its management and design from 1966–67; the initial four-node network was deployed in late 1969. He was influenced by J.C.R. Licklider's network concept and worked under IPTO director Robert Taylor, who funded the project.",
+    "sources": [
+      { "url": "https://www.ebsco.com/research-starters/biography/larry-roberts/", "publisher": "EBSCO Research Starters", "title": "Larry Roberts", "date": "2023" },
+      { "url": "https://www.computerhistory.org/internethistory/1960s", "publisher": "Computer History Museum", "title": "Internet History of 1960s", "date": "2020" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Roberts was the ARPA programme manager responsible for all aspects of the management and design of the ARPANET.",
+      "status": "documented",
+      "date": "1967",
+      "quote": "the program manager responsible for all aspects of the management and design of the ARPANET",
+      "sources": [
+        { "url": "https://www.ebsco.com/research-starters/biography/larry-roberts/", "publisher": "EBSCO Research Starters", "title": "Larry Roberts", "date": "2023" },
+        { "url": "https://honoraryunsubscribe.com/lawrence-roberts/", "publisher": "Honorary Unsubscribe", "title": "ARPAnet Project Manager Lawrence Roberts", "date": "2019" }
+      ]
+    },
+    {
+      "claim": "Roberts was influenced by Licklider's 'Intergalactic Network' concept in designing the ARPANET.",
+      "status": "reported",
+      "date": "1966",
+      "sources": [
+        { "url": "https://www.ebsco.com/research-starters/biography/larry-roberts/", "publisher": "EBSCO Research Starters", "title": "Larry Roberts", "date": "2023" }
+      ]
+    },
+    {
+      "claim": "The initial ARPANET was deployed in late 1969 with four host sites.",
+      "status": "documented",
+      "date": "1969-12",
+      "quote": "the initial ARPANET was deployed in late 1969 with four hosts",
+      "sources": [
+        { "url": "https://www.computerhistory.org/internethistory/1960s", "publisher": "Computer History Museum", "title": "Internet History of 1960s", "date": "2020" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "darpa",
+      "toName": "DARPA",
+      "toType": "government",
+      "relation": "employed by",
+      "claim": "Roberts worked at ARPA's Information Processing Techniques Office as programme manager of the ARPANET.",
+      "status": "documented",
+      "date": "1967",
+      "sources": [
+        { "url": "https://www.ebsco.com/research-starters/biography/larry-roberts/", "publisher": "EBSCO Research Starters", "title": "Larry Roberts", "date": "2023" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Roberts's exact start date at ARPA (December 1966) and his later tenure as IPTO director (1969–1973) were not confirmed by sources found; the Computer History Museum's Roberts oral history or DARPA's own history would settle them.",
+    "The site frames IPTO as 'enclosure of the digital commons'; the sources record the ARPANET as a government-funded research network and do not address that characterisation."
+  ]
+}

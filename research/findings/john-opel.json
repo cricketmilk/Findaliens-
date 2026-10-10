@@ -1,0 +1,95 @@
+{
+  "entity": "john-opel",
+  "name": "John Opel",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "John R. Opel was President and then Chief Executive of IBM during the launch of the IBM Personal Computer in 1981. He served on the national board of United Way alongside Mary Gates, the mother of Microsoft co-founder Bill Gates, and is reported to have remarked in 1980, when Microsoft was mentioned, that it was run by 'Mary Gates' son'.",
+    "sources": [
+      {
+        "url": "https://archive.seattletimes.com/archive/19940610/1914904/mary-gates-dies----cancer-claims-longtime-seattle-civic-leader-and-mother-of-microsoft-founder-bill-gates",
+        "publisher": "The Seattle Times",
+        "title": "Mary Gates Dies -- Cancer Claims Longtime Seattle Civic Leader And Mother Of Microsoft Founder Bill Gates",
+        "date": "1994-06-10"
+      },
+      {
+        "url": "https://www.pcworld.com/article/478039/former_ibm_ceo_john_opel_dies.html",
+        "publisher": "PCWorld",
+        "title": "Former IBM CEO John Opel dies",
+        "date": "2011-11"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Opel served with Mary Gates on United Way's national board at the time of IBM's 1980 search for a PC operating system.",
+      "status": "reported",
+      "date": "1980",
+      "quote": "Opel served with Mrs. Gates on United Way's national board at the time.",
+      "sources": [
+        {
+          "url": "https://archive.seattletimes.com/archive/19940610/1914904/mary-gates-dies----cancer-claims-longtime-seattle-civic-leader-and-mother-of-microsoft-founder-bill-gates",
+          "publisher": "The Seattle Times",
+          "title": "Mary Gates Dies -- Cancer Claims Longtime Seattle Civic Leader And Mother Of Microsoft Founder Bill Gates",
+          "date": "1994-06-10"
+        }
+      ]
+    },
+    {
+      "claim": "According to the Seattle Times, when someone mentioned Microsoft to IBM President John Opel in 1980, he responded that it was run by Bill Gates, Mary Gates' son.",
+      "status": "reported",
+      "date": "1980",
+      "quote": "\"Oh, that's run by Bill Gates, Mary Gates' son.\"",
+      "sources": [
+        {
+          "url": "https://archive.seattletimes.com/archive/19940610/1914904/mary-gates-dies----cancer-claims-longtime-seattle-civic-leader-and-mother-of-microsoft-founder-bill-gates",
+          "publisher": "The Seattle Times",
+          "title": "Mary Gates Dies -- Cancer Claims Longtime Seattle Civic Leader And Mother Of Microsoft Founder Bill Gates",
+          "date": "1994-06-10"
+        }
+      ]
+    },
+    {
+      "claim": "Obituaries in 2011 described Opel as the IBM chief executive under whom the company launched the IBM PC and reported that he set up a meeting with Microsoft at the request of Mary Gates.",
+      "status": "reported",
+      "date": "2011-11",
+      "quote": "Opel set up the meeting at the request of Gates' mother, Mary Maxwell Gates.",
+      "sources": [
+        {
+          "url": "https://www.pcworld.com/article/478039/former_ibm_ceo_john_opel_dies.html",
+          "publisher": "PCWorld",
+          "title": "Former IBM CEO John Opel dies",
+          "date": "2011-11"
+        },
+        {
+          "url": "https://www.infoworld.com/article/2265025/former-ibm-ceo-john-opel-dies-2.html",
+          "publisher": "InfoWorld",
+          "title": "Under Opel, IBM ushered the world into the PC era",
+          "date": "2011-11"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "mary-maxwell-gates",
+      "toName": "Mary Maxwell Gates",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Opel and Mary Gates served together on United Way's national board around 1980.",
+      "status": "reported",
+      "date": "1980",
+      "sources": [
+        {
+          "url": "https://archive.seattletimes.com/archive/19940610/1914904/mary-gates-dies----cancer-claims-longtime-seattle-civic-leader-and-mother-of-microsoft-founder-bill-gates",
+          "publisher": "The Seattle Times",
+          "title": "Mary Gates Dies -- Cancer Claims Longtime Seattle Civic Leader And Mother Of Microsoft Founder Bill Gates",
+          "date": "1994-06-10"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Accounts differ on how much the United Way acquaintance mattered to IBM's choice of Microsoft: the Seattle Times obituary says Mary Gates 'helped cement' the connection, while PCWorld says Opel set up the meeting at her request. The site's stronger framing (a quid pro quo) is not supported by either.",
+    "Opel's exact IBM titles and dates were not confirmed by an IBM source in this session; the 2011 obituaries describe him as the chief executive under whom the PC launched."
+  ]
+}

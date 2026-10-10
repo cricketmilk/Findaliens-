@@ -1,0 +1,75 @@
+{
+  "entity": "william-mcchesney-martin",
+  "name": "William McChesney Martin",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "William McChesney Martin, Jr. was Chairman of the Federal Reserve Board from 1951 to 1970. During the March 1968 run on the London gold market he helped secure U.S. commitments to the London Gold Pool and, with Treasury Secretary Henry Fowler, issued the March 14, 1968 statement asking the United Kingdom to close the London gold market, after which a two-tier gold market was adopted.",
+    "sources": [
+      { "url": "https://www.gold.org/sites/default/files/documents/after-the-gold-standard/1968mar14.pdf", "publisher": "World Gold Council (archive of U.S. Treasury/Federal Reserve statement)", "title": "Joint statement by Secretary Fowler and Chairman Martin, March 14, 1968", "date": "1968-03-14" },
+      { "url": "https://history.state.gov/historicaldocuments/frus1964-68v08/d188", "publisher": "U.S. Department of State, Office of the Historian (FRUS 1964–68, vol. VIII)", "title": "Memorandum From the President's Special Assistant (Rostow) to President Johnson", "date": "1968-03-12" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On March 14, 1968 Treasury Secretary Fowler and Federal Reserve Chairman Martin issued a joint statement saying the United States had asked the United Kingdom to close the London gold market, while the United States stood ready to buy and sell gold at $35 an ounce with monetary authorities.",
+      "status": "documented",
+      "date": "1968-03-14",
+      "quote": "requested that the Government of the United Kingdom close the London Gold Market",
+      "sources": [
+        { "url": "https://www.gold.org/sites/default/files/documents/after-the-gold-standard/1968mar14.pdf", "publisher": "World Gold Council (archive of U.S. Treasury/Federal Reserve statement)", "title": "Joint statement by Secretary Fowler and Chairman Martin, March 14, 1968", "date": "1968-03-14" }
+      ]
+    },
+    {
+      "claim": "A March 12, 1968 memorandum to President Johnson recorded that Martin had secured a commitment to back the Gold Pool with $500 million, with a further $500 million contingent, and warned that at the rate the London market was going this would last only a matter of days.",
+      "status": "documented",
+      "date": "1968-03-12",
+      "quote": "at the rate the market in London is going, this will only last a matter of days",
+      "sources": [
+        { "url": "https://history.state.gov/historicaldocuments/frus1964-68v08/d188", "publisher": "U.S. Department of State, Office of the Historian (FRUS 1964–68, vol. VIII)", "title": "Memorandum From the President's Special Assistant (Rostow) to President Johnson", "date": "1968-03-12" }
+      ]
+    },
+    {
+      "claim": "The London Gold Pool, formed in 1961 to defend the $35 gold price, broke down in March 1968 after runs on gold, sterling and the dollar; France had withdrawn from the pool, and the 1967 devaluation of sterling was among the final triggers.",
+      "status": "reported",
+      "date": "1968-03",
+      "sources": [
+        { "url": "https://learn.apmex.com/learning-guide/history/london-gold-pool/", "publisher": "APMEX Learning Guide", "title": "The London Gold Pool Collapse of 1968", "date": "2023" }
+      ]
+    },
+    {
+      "claim": "The London gold market stayed closed for about two weeks after March 15, 1968, and the collapse of the pool led to the adoption of a two-tier gold market separating official and private gold prices.",
+      "status": "reported",
+      "date": "1968-03",
+      "quote": "resulted in the official adoption of a two-tiered gold market",
+      "sources": [
+        { "url": "https://learn.apmex.com/learning-guide/history/london-gold-pool/", "publisher": "APMEX Learning Guide", "title": "The London Gold Pool Collapse of 1968", "date": "2023" }
+      ]
+    },
+    {
+      "claim": "Martin's statements and speeches as Fed chairman, including those on the 1968 gold crisis, are archived by the Federal Reserve Bank of St. Louis's FRASER collection.",
+      "status": "documented",
+      "date": "1968",
+      "sources": [
+        { "url": "https://fraser.stlouisfed.org/title/statements-speeches-william-mcchesney-martin-jr-448/facing-problem-7931", "publisher": "Federal Reserve Bank of St. Louis (FRASER)", "title": "Statements and Speeches of William McChesney Martin, Jr.: Facing the Problem", "date": "1968" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "federal-reserve",
+      "toName": "Federal Reserve",
+      "toType": "government",
+      "relation": "executive of",
+      "claim": "Martin was Chairman of the Federal Reserve Board, serving from 1951 to 1970, and acted in that capacity during the 1968 gold crisis.",
+      "status": "documented",
+      "date": "1968-03-14",
+      "sources": [
+        { "url": "https://www.gold.org/sites/default/files/documents/after-the-gold-standard/1968mar14.pdf", "publisher": "World Gold Council (archive of U.S. Treasury/Federal Reserve statement)", "title": "Joint statement by Secretary Fowler and Chairman Martin, March 14, 1968", "date": "1968-03-14" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Martin's exact tenure dates (April 1951–January 1970) were not confirmed by a Federal Reserve history page in this session; federalreservehistory.org's biography should be cited.",
+    "APMEX is a bullion dealer's educational page; the owner may prefer the Federal Reserve History essay on the gold pool."
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "entity": "yuri-milner-jeff-bezos",
+  "name": "Yuri Milner, Jeff Bezos",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "This entry covers Yuri Milner, the technology investor who founded Mail.ru Group in 1999, took it public in 2010 and founded DST Global, whose portfolio has included Facebook, Twitter, WhatsApp, Spotify and Alibaba. With his wife Julia he co-founded the Breakthrough Prize in 2012 with Sergey Brin, Priscilla Chan, Mark Zuckerberg and Anne Wojcicki, and funded the $100 million Breakthrough Listen (2015) and Breakthrough Starshot (2016) science programmes. Jeff Bezos is covered in a separate file.",
+    "sources": [
+      { "url": "https://Breakthroughprize.org/Yuri_Milner", "publisher": "Breakthrough Prize", "title": "Yuri Milner", "date": "2025" },
+      { "url": "https://nextbigfuture.com/2016/04/billion-yuri-milner-is-spending-100.html", "publisher": "Next Big Future", "title": "Billionaire Yuri Milner is spending $100 million on Breakthrough Starshot", "date": "2016-04" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Milner founded Mail.ru Group in 1999, took it public in 2010 and then founded DST Global to focus on global internet investments.",
+      "status": "words",
+      "date": "2010",
+      "quote": "He took the firm public in 2010 and founded DST Global to focus on global internet investments.",
+      "sources": [
+        { "url": "https://Breakthroughprize.org/Yuri_Milner", "publisher": "Breakthrough Prize", "title": "Yuri Milner", "date": "2025" }
+      ]
+    },
+    {
+      "claim": "DST Global's portfolio has included Facebook, Twitter, WhatsApp, Snapchat, Spotify, Alibaba and JD, according to Milner's Breakthrough Prize biography.",
+      "status": "words",
+      "date": "2025",
+      "quote": "such as Facebook, Twitter, WhatsApp, Snapchat, Spotify, Alibaba, JD, and others",
+      "sources": [
+        { "url": "https://Breakthroughprize.org/Yuri_Milner", "publisher": "Breakthrough Prize", "title": "Yuri Milner", "date": "2025" }
+      ]
+    },
+    {
+      "claim": "Yuri and Julia Milner launched the Breakthrough Prize in 2012 together with Sergey Brin, Priscilla Chan, Mark Zuckerberg and Anne Wojcicki; the prizes honour achievements in fundamental physics, life sciences and mathematics.",
+      "status": "words",
+      "date": "2012",
+      "sources": [
+        { "url": "https://Breakthroughprize.org/Yuri_Milner", "publisher": "Breakthrough Prize", "title": "Yuri Milner", "date": "2025" }
+      ]
+    },
+    {
+      "claim": "In July 2015 Milner and Stephen Hawking announced Breakthrough Listen, a $100 million, ten-year search for evidence of civilisations beyond Earth.",
+      "status": "documented",
+      "date": "2015-07",
+      "quote": "will invest $100 million over 10 years in the most comprehensive and sensitive search ever undertaken for evidence of civilizations beyond Earth",
+      "sources": [
+        { "url": "https://Breakthroughprize.org/Yuri_Milner", "publisher": "Breakthrough Prize", "title": "Yuri Milner", "date": "2025" }
+      ]
+    },
+    {
+      "claim": "In April 2016 Milner announced Breakthrough Starshot, a $100 million research programme to develop technology for a light-propelled probe that could reach Alpha Centauri within about 20 years.",
+      "status": "reported",
+      "date": "2016-04",
+      "quote": "Milner wants his $100 million to fund research that will culminate in a prototype of a probe that can beam images back to Earth",
+      "sources": [
+        { "url": "https://nextbigfuture.com/2016/04/billion-yuri-milner-is-spending-100.html", "publisher": "Next Big Future", "title": "Billionaire Yuri Milner is spending $100 million on Breakthrough Starshot", "date": "2016-04" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "meta",
+      "toName": "Meta",
+      "toType": "company",
+      "relation": "invested in",
+      "claim": "Milner's DST Global invested in Facebook (now Meta), which it lists among its portfolio companies.",
+      "status": "words",
+      "date": "2009",
+      "sources": [
+        { "url": "https://Breakthroughprize.org/Yuri_Milner", "publisher": "Breakthrough Prize", "title": "Yuri Milner", "date": "2025" }
+      ]
+    },
+    {
+      "to": "yuri-milner",
+      "toName": "Yuri Milner",
+      "toType": "person",
+      "relation": "other",
+      "claim": "This combined entry duplicates the separate yuri-milner entity already on the site.",
+      "status": "documented",
+      "date": "2026",
+      "sources": [
+        { "url": "https://Breakthroughprize.org/Yuri_Milner", "publisher": "Breakthrough Prize", "title": "Yuri Milner", "date": "2025" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The date of DST's first Facebook investment (May 2009, $200 million) was not confirmed by any source found; the figure in the connection date field is provisional.",
+    "The Transhumanism page lists Milner and Bezos together as funders; what they jointly funded was not identified. Bezos's own funding activity is in the jeff-bezos file.",
+    "The 2022 reporting on Milner's distancing from the Russian government (infobae) was not used."
+  ]
+}

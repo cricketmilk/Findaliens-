@@ -1,0 +1,122 @@
+{
+  "entity": "gary-kildall",
+  "name": "Gary Kildall",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Gary Kildall (1942–1994) created the CP/M operating system and founded Digital Research Inc. When IBM sought an operating system for its Personal Computer in 1980, Digital Research's attorney declined to sign IBM's non-disclosure agreement and the company did not agree to IBM's terms; IBM instead licensed from Microsoft an operating system derived from Seattle Computer Products' 86-DOS (QDOS), which became PC-DOS. Kildall regarded 86-DOS as copied from CP/M, calling it 'plain and simple theft', and attributed CP/M-86's commercial failure to IBM pricing it at $240 against $60 for PC-DOS.",
+    "sources": [
+      {
+        "url": "https://www.landley.net/history/mirror/cpm/history.html",
+        "publisher": "Landley.net history mirror",
+        "title": "A Short History of CP/M",
+        "date": "2000s"
+      },
+      {
+        "url": "https://archive.seattletimes.com/archive/19940714/1920286/a-career-spent-in-gates-shadow----computer-pioneer-dies-at-52",
+        "publisher": "The Seattle Times",
+        "title": "A Career Spent In Gates' Shadow -- Computer Pioneer Dies At 52",
+        "date": "1994-07-14"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "When Seattle Computer Products asked about an 8086 version of CP/M, Kildall and Digital Research showed no interest in 16-bit systems at the time.",
+      "status": "reported",
+      "date": "1980",
+      "quote": "DR founder and software manager Gary Kildall had no interest in 16-bit systems.",
+      "sources": [
+        {
+          "url": "https://www.landley.net/history/mirror/cpm/history.html",
+          "publisher": "Landley.net history mirror",
+          "title": "A Short History of CP/M",
+          "date": "2000s"
+        }
+      ]
+    },
+    {
+      "claim": "In IBM's 1980 approach to Digital Research, DRI's attorney refused to sign IBM's non-disclosure agreement, the company declined to modify CP/M-86 and sought a higher royalty than IBM proposed.",
+      "status": "reported",
+      "date": "1980",
+      "quote": "DRI's attorney refused to sign the IBM non-disclosure agreement, refused to make any modifications to CP/M-86 and insisted on a higher royalty than what IBM proposed",
+      "sources": [
+        {
+          "url": "https://www.landley.net/history/mirror/cpm/history.html",
+          "publisher": "Landley.net history mirror",
+          "title": "A Short History of CP/M",
+          "date": "2000s"
+        }
+      ]
+    },
+    {
+      "claim": "Kildall described 86-DOS/QDOS as copied from CP/M, calling it 'plain and simple theft'; its author Tim Paterson has said it was his original work written to CP/M's published interface.",
+      "status": "words",
+      "date": "1990s",
+      "quote": "Kildall, by contrast, calls it \"plain and simple theft.\"",
+      "sources": [
+        {
+          "url": "https://archive.seattletimes.com/archive/19940714/1920286/a-career-spent-in-gates-shadow----computer-pioneer-dies-at-52",
+          "publisher": "The Seattle Times",
+          "title": "A Career Spent In Gates' Shadow -- Computer Pioneer Dies At 52",
+          "date": "1994-07-14"
+        }
+      ]
+    },
+    {
+      "claim": "IBM offered CP/M-86 for the PC at $240 against $60 for PC-DOS; Kildall wrote that the pricing difference set by IBM killed CP/M-86.",
+      "status": "words",
+      "date": "1981",
+      "quote": "The pricing difference set by IBM killed CP/M-86.",
+      "sources": [
+        {
+          "url": "https://www.landley.net/history/mirror/cpm/history.html",
+          "publisher": "Landley.net history mirror",
+          "title": "A Short History of CP/M",
+          "date": "2000s"
+        }
+      ]
+    },
+    {
+      "claim": "Kildall died in July 1994 at the age of 52.",
+      "status": "reported",
+      "date": "1994-07",
+      "sources": [
+        {
+          "url": "https://archive.seattletimes.com/archive/19940714/1920286/a-career-spent-in-gates-shadow----computer-pioneer-dies-at-52",
+          "publisher": "The Seattle Times",
+          "title": "A Career Spent In Gates' Shadow -- Computer Pioneer Dies At 52",
+          "date": "1994-07-14"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "microsoft",
+      "toName": "Microsoft",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Microsoft licensed and then bought 86-DOS, which Kildall said was copied from his CP/M, and supplied it to IBM as PC-DOS.",
+      "status": "reported",
+      "date": "1981",
+      "sources": [
+        {
+          "url": "https://www.landley.net/history/mirror/cpm/history.html",
+          "publisher": "Landley.net history mirror",
+          "title": "A Short History of CP/M",
+          "date": "2000s"
+        },
+        {
+          "url": "https://archive.seattletimes.com/archive/19940714/1920286/a-career-spent-in-gates-shadow----computer-pioneer-dies-at-52",
+          "publisher": "The Seattle Times",
+          "title": "A Career Spent In Gates' Shadow -- Computer Pioneer Dies At 52",
+          "date": "1994-07-14"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "No Computer History Museum or IEEE page was returned; the Landley.net page is a mirror of an enthusiast history and the owner may prefer the CHM's Kildall oral history and its 2014 release of the CP/M source.",
+    "Whether 86-DOS copied CP/M code, as opposed to its published interface, has never been established in court; has any independent code comparison been published that the owner could cite?"
+  ]
+}

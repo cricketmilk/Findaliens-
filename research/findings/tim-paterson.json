@@ -1,0 +1,70 @@
+{
+  "entity": "tim-paterson",
+  "name": "Tim Paterson",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Tim Paterson is the programmer who, at Seattle Computer Products in 1980, wrote QDOS (later 86-DOS), an operating system for the Intel 8086 that reproduced the application interface of Digital Research's CP/M. Microsoft licensed 86-DOS non-exclusively in December 1980 and bought all rights in July 1981 for a reported $50,000, then adapted it for the IBM PC, where it shipped as PC-DOS 1.0. Paterson later worked for Microsoft and has maintained that 86-DOS was his original work.",
+    "sources": [
+      { "url": "https://landley.net/history/mirror/ms/paterson04_10_98.htm", "publisher": "Landley.net history mirror (Seattle Times/Microsoft profile)", "title": "Father of DOS Still Having Fun at Microsoft", "date": "1998-04-10" },
+      { "url": "https://www.landley.net/history/mirror/cpm/history.html", "publisher": "Landley.net history mirror", "title": "A Short History of CP/M", "date": "2000s" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Paterson began writing QDOS in 1980 as a stand-in for CP/M on the 8086, copying CP/M's application programming interfaces from published references including the CP/M manual so that software would be compatible.",
+      "status": "reported",
+      "date": "1980",
+      "quote": "He copied the APIs of CP/M from references, including the published CP/M manual, so that it would be highly compatible.",
+      "sources": [
+        { "url": "https://www.landley.net/history/mirror/cpm/history.html", "publisher": "Landley.net history mirror", "title": "A Short History of CP/M", "date": "2000s" }
+      ]
+    },
+    {
+      "claim": "Microsoft first obtained a non-exclusive licence to 86-DOS in December 1980 and in July 1981 bought all rights from Seattle Computer Products for a reported $50,000; some accounts give the initial licence fee as $25,000 and the final price as between $50,000 and $75,000.",
+      "status": "reported",
+      "date": "1981-07",
+      "quote": "in July 1981 Microsoft purchased all rights to 86-DOS from SCP for $50,000",
+      "sources": [
+        { "url": "https://www.landley.net/history/mirror/cpm/history.html", "publisher": "Landley.net history mirror", "title": "A Short History of CP/M", "date": "2000s" },
+        { "url": "https://landley.net/history/mirror/ms/paterson04_10_98.htm", "publisher": "Landley.net history mirror (Seattle Times/Microsoft profile)", "title": "Father of DOS Still Having Fun at Microsoft", "date": "1998-04-10" }
+      ]
+    },
+    {
+      "claim": "Microsoft ported 86-DOS to the 8088 for the IBM PC and licensed it to IBM, where it shipped as PC-DOS 1.0.",
+      "status": "reported",
+      "date": "1981-08",
+      "quote": "Microsoft licensed QDOS to IBM, and it became PC-DOS 1.0.",
+      "sources": [
+        { "url": "https://www.landley.net/history/mirror/cpm/history.html", "publisher": "Landley.net history mirror", "title": "A Short History of CP/M", "date": "2000s" }
+      ]
+    },
+    {
+      "claim": "Paterson has maintained that 86-DOS was his original work and denied referring to CP/M source code while writing it; Gary Kildall called it theft.",
+      "status": "words",
+      "date": "1998",
+      "quote": "Paterson has maintained that the 86-DOS program was his original work and has denied allegations that he referred to CP/M code while writing it.",
+      "sources": [
+        { "url": "https://landley.net/history/mirror/ms/paterson04_10_98.htm", "publisher": "Landley.net history mirror (Seattle Times/Microsoft profile)", "title": "Father of DOS Still Having Fun at Microsoft", "date": "1998-04-10" },
+        { "url": "https://archive.seattletimes.com/archive/19940714/1920286/a-career-spent-in-gates-shadow----computer-pioneer-dies-at-52", "publisher": "The Seattle Times", "title": "A Career Spent In Gates' Shadow -- Computer Pioneer Dies At 52", "date": "1994-07-14" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "microsoft",
+      "toName": "Microsoft",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Microsoft licensed Paterson's 86-DOS in December 1980, bought all rights in July 1981, and later employed Paterson.",
+      "status": "reported",
+      "date": "1981-07",
+      "sources": [
+        { "url": "https://landley.net/history/mirror/ms/paterson04_10_98.htm", "publisher": "Landley.net history mirror (Seattle Times/Microsoft profile)", "title": "Father of DOS Still Having Fun at Microsoft", "date": "1998-04-10" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site's '$50,000 QDOS' figure is supported by most accounts but sources vary between $50,000 and $75,000 for the July 1981 purchase.",
+    "The sources are mirrored enthusiast histories and a 1998 profile; the Computer History Museum's Paterson oral history would be a better primary source."
+  ]
+}

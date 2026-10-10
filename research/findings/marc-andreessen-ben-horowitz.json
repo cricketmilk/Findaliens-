@@ -1,0 +1,83 @@
+{
+  "entity": "marc-andreessen-ben-horowitz",
+  "name": "Marc Andreessen / Ben Horowitz",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Marc Andreessen and Ben Horowitz are the co-founders of the venture firm Andreessen Horowitz (a16z, legally AH Capital Management). In 2023 the firm gave $19 million to the pro-crypto super PAC Fairshake, recorded in FEC filings under AH Capital Management and attributed to its founders, and in May 2024 it announced a further $25 million; a16z's Chris Dixon said the firm had by then given $47 million in campaign contributions. FactCheck.org in 2026 described Andreessen and Horowitz as two of the super PAC's biggest individual donors.",
+    "sources": [
+      { "url": "https://www.bloomberg.com/news/articles/2024-05-30/andreessen-horowitz-a16z-donates-25-million-to-crypto-pac-fairshake", "publisher": "Bloomberg", "title": "Andreessen Horowitz Donates $25 Million to Fairshake PAC", "date": "2024-05-30" },
+      { "url": "https://www.factcheck.org/2026/08/fairshake-2/", "publisher": "FactCheck.org", "title": "Fairshake", "date": "2026-08" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On May 30, 2024 Andreessen Horowitz announced a $25 million donation to the super PAC Fairshake, disclosed by Chris Dixon, managing partner of its crypto arm.",
+      "status": "documented",
+      "date": "2024-05-30",
+      "quote": "Venture capital firm Andreessen Horowitz donated $25 million to the political action committee Fairshake",
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2024-05-30/andreessen-horowitz-a16z-donates-25-million-to-crypto-pac-fairshake", "publisher": "Bloomberg", "title": "Andreessen Horowitz Donates $25 Million to Fairshake PAC", "date": "2024-05-30" },
+        { "url": "https://www.blockworks.com/news/a16z-crypto-super-pac-donation-2024", "publisher": "Blockworks", "title": "A16z backs crypto super PACs with $25M donation", "date": "2024-05-30" }
+      ]
+    },
+    {
+      "claim": "FEC records show the firm gave $19 million to Fairshake in 2023 under the name AH Capital Management, a contribution attributed to its founders; Blockworks described it as $19 million donated by Marc Andreessen and Ben Horowitz under their own names.",
+      "status": "documented",
+      "date": "2023",
+      "quote": "the firm donated $19 million to Fairshake under the name AH Capital Management, FEC records show",
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2024-05-30/andreessen-horowitz-a16z-donates-25-million-to-crypto-pac-fairshake", "publisher": "Bloomberg", "title": "Andreessen Horowitz Donates $25 Million to Fairshake PAC", "date": "2024-05-30" },
+        { "url": "https://www.blockworks.com/news/a16z-crypto-super-pac-donation-2024", "publisher": "Blockworks", "title": "A16z backs crypto super PACs with $25M donation", "date": "2024-05-30" }
+      ]
+    },
+    {
+      "claim": "Chris Dixon said in May 2024 that the firm had by then given $47 million in campaign contributions.",
+      "status": "words",
+      "date": "2024-05-30",
+      "quote": "Dixon said the firm has now given $47 million in campaign contributions.",
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2024-05-30/andreessen-horowitz-a16z-donates-25-million-to-crypto-pac-fairshake", "publisher": "Bloomberg", "title": "Andreessen Horowitz Donates $25 Million to Fairshake PAC", "date": "2024-05-30" }
+      ]
+    },
+    {
+      "claim": "A 2026 FactCheck.org profile of Fairshake identifies AH Capital Management (Andreessen Horowitz) among its top donors and describes Marc Andreessen and Ben Horowitz as two of the super PAC's biggest individual donors.",
+      "status": "reported",
+      "date": "2026-08",
+      "quote": "Marc Andreessen and Ben Horowitz, the co-founders of Andreessen Horowitz, remain two of the super PAC's biggest individual donors.",
+      "sources": [
+        { "url": "https://www.factcheck.org/2026/08/fairshake-2/", "publisher": "FactCheck.org", "title": "Fairshake", "date": "2026-08" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "fairshake",
+      "toName": "Fairshake",
+      "toType": "organization",
+      "relation": "donated to",
+      "claim": "Andreessen and Horowitz, personally and through AH Capital Management, gave Fairshake $19 million in 2023 and $25 million in 2024.",
+      "status": "documented",
+      "date": "2024-05-30",
+      "sources": [
+        { "url": "https://www.bloomberg.com/news/articles/2024-05-30/andreessen-horowitz-a16z-donates-25-million-to-crypto-pac-fairshake", "publisher": "Bloomberg", "title": "Andreessen Horowitz Donates $25 Million to Fairshake PAC", "date": "2024-05-30" },
+        { "url": "https://www.factcheck.org/2026/08/fairshake-2/", "publisher": "FactCheck.org", "title": "Fairshake", "date": "2026-08" }
+      ]
+    },
+    {
+      "to": "andreessen-horowitz",
+      "toName": "Andreessen Horowitz",
+      "toType": "fund",
+      "relation": "co-founded",
+      "claim": "Marc Andreessen and Ben Horowitz are the co-founders of Andreessen Horowitz.",
+      "status": "documented",
+      "date": "2009",
+      "sources": [
+        { "url": "https://www.factcheck.org/2026/08/fairshake-2/", "publisher": "FactCheck.org", "title": "Fairshake", "date": "2026-08" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site's Fairshake entry speaks of '$260M' raised; the a16z-specific total found is $44–47 million through mid-2024 ($19m + $25m, plus Dixon's $47m figure). Later contributions for the 2026 cycle were not quantified here; FEC filings for Fairshake (C00835959) should be checked.",
+    "The site treats the two founders as one entity; separate files exist for marc-andreessen and andreessen-horowitz."
+  ]
+}

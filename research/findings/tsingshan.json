@@ -1,0 +1,71 @@
+{
+  "entity": "tsingshan",
+  "name": "Tsingshan",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Tsingshan Holding Group is a Chinese stainless-steel and nickel producer controlled by Xiang Guangda. In March 2022 a sharp spike in LME nickel prices left Tsingshan, which held a large short position, facing very large margin calls; on March 8, 2022 the London Metal Exchange suspended trading and cancelled about $12 billion of trades. Hedge funds Elliott and Jane Street sued the LME, arguing among other things that the cancellation rescued Tsingshan; the High Court (November 2023) and Court of Appeal (October 2024) upheld the LME's decisions.",
+    "sources": [
+      { "url": "https://www.mining.com/web/lme-had-options-to-avoid-quashing-nickel-trades-hedge-fund-tells-high-court/", "publisher": "Mining.com (Reuters syndication)", "title": "LME cancelled nickel trades to 'save' Tsingshan, London court told", "date": "2023-06" },
+      { "url": "https://www.stephensonharwood.com/insights/london-metal-exchange-wins-high-court-ruling-over-cancelled-nickel-trades/", "publisher": "Stephenson Harwood", "title": "London Metal Exchange wins High Court ruling over cancelled nickel trades", "date": "2023-11" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "At the High Court in 2023, Elliott argued that the LME's cancellation of nickel trades on March 8, 2022 served to rescue Tsingshan, controlled by Xiang Guangda, and its banks from ruinous margin calls; this was a claimant's allegation, not a court finding.",
+      "status": "reported",
+      "date": "2023-06",
+      "quote": "including serving as a bailout of nickel tycoon Xiang Guangda's Tsingshan and its banks",
+      "sources": [
+        { "url": "https://www.mining.com/web/lme-had-options-to-avoid-quashing-nickel-trades-hedge-fund-tells-high-court/", "publisher": "Mining.com (Reuters syndication)", "title": "LME cancelled nickel trades to 'save' Tsingshan, London court told", "date": "2023-06" }
+      ]
+    },
+    {
+      "claim": "The LME told the court that without the cancellation, $19.7 billion of margin calls would have led to the default of multiple clearing members and created systemic risk.",
+      "status": "documented",
+      "date": "2023-06",
+      "quote": "$19.7 billion of margin calls would otherwise have led to the defaults of multiple clearing members and created systemic risk",
+      "sources": [
+        { "url": "https://www.stephensonharwood.com/insights/london-metal-exchange-wins-high-court-ruling-over-cancelled-nickel-trades/", "publisher": "Stephenson Harwood", "title": "London Metal Exchange wins High Court ruling over cancelled nickel trades", "date": "2023-11" }
+      ]
+    },
+    {
+      "claim": "On November 29, 2023 the High Court (Bright and Swift JJ) rejected Elliott's and Jane Street's claims on all grounds, finding neither the cancellation decision nor LME Clear's margin decision unlawful; Elliott had claimed about $456 million and Jane Street about $15 million.",
+      "status": "court",
+      "date": "2023-11-29",
+      "quote": "finding that neither the Cancellation Decision nor the related Margin Decision by LME Clear was unlawful",
+      "sources": [
+        { "url": "https://www.stephensonharwood.com/insights/london-metal-exchange-wins-high-court-ruling-over-cancelled-nickel-trades/", "publisher": "Stephenson Harwood", "title": "London Metal Exchange wins High Court ruling over cancelled nickel trades", "date": "2023-11" }
+      ]
+    },
+    {
+      "claim": "In October 2024 the Court of Appeal unanimously dismissed Elliott's appeal, with Lord Justice Males describing the March 2022 price spike as a 'once-in-a-generation event' that warranted the LME's decisions.",
+      "status": "court",
+      "date": "2024-10-07",
+      "quote": "once-in-a-generation event",
+      "sources": [
+        { "url": "https://www.expressandstar.com/uk-news/court-of-appeal-dismisses-challenge-against-london-metal-exchange-nickel-ruling-5757487", "publisher": "Express & Star (PA)", "title": "Court of Appeal dismisses challenge against London Metal Exchange nickel ruling", "date": "2024-10-07" },
+        { "url": "https://bnnbloomberg.ca/investing/2024/10/07/elliott-loses-uk-appeal-over-lmes-nickel-market-shutdown", "publisher": "BNN Bloomberg", "title": "Elliott loses UK appeal over LME's nickel market shutdown", "date": "2024-10-07" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "london-metal-exchange",
+      "toName": "London Metal Exchange",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Tsingshan's large short nickel position on the LME was at the centre of the March 2022 price spike; the LME's cancellation of trades, which claimants said rescued Tsingshan, was upheld by the English courts.",
+      "status": "court",
+      "date": "2022-03-08",
+      "sources": [
+        { "url": "https://www.mining.com/web/lme-had-options-to-avoid-quashing-nickel-trades-hedge-fund-tells-high-court/", "publisher": "Mining.com (Reuters syndication)", "title": "LME cancelled nickel trades to 'save' Tsingshan, London court told", "date": "2023-06" },
+        { "url": "https://www.stephensonharwood.com/insights/london-metal-exchange-wins-high-court-ruling-over-cancelled-nickel-trades/", "publisher": "Stephenson Harwood", "title": "London Metal Exchange wins High Court ruling over cancelled nickel trades", "date": "2023-11" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The size of Tsingshan's short position and its subsequent standstill agreement with its banks were not covered by sources found; the judgments ([2023] EWHC 2969 and [2024] EWCA Civ 1168) should be cited directly.",
+    "A reported March 2025 FCA fine of £9.2 million on the LME was not confirmed against an FCA notice.",
+    "LME chief executive Matthew Chamberlain was not named in any source returned, so no file was written for him."
+  ]
+}

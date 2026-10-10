@@ -1,0 +1,79 @@
+{
+  "entity": "richard-breeden",
+  "name": "Richard Breeden",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Richard C. Breeden was chairman of the Securities and Exchange Commission from 1989 to 1993, appointed by President George H.W. Bush. During his tenure the SEC examined George W. Bush's June 1990 sale of Harken Energy stock, which Bush reported late, and closed the inquiry in 1992 without enforcement action, saying it had seen no evidence of insider trading while noting that the closing did not amount to exoneration.",
+    "sources": [
+      { "url": "https://www.thenation.com/article/archive/bush-and-harken/tnamp/", "publisher": "The Nation", "title": "Bush and Harken", "date": "2002-07" },
+      { "url": "https://publicintegrity.org/environment/further-harken-documents/", "publisher": "Center for Public Integrity", "title": "Further Harken documents", "date": "2002" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Breeden chaired the SEC at the time of the Harken Energy inquiry and had been appointed by President George H.W. Bush.",
+      "status": "reported",
+      "date": "1991",
+      "sources": [
+        { "url": "https://www.thenation.com/article/archive/bush-and-harken/tnamp/", "publisher": "The Nation", "title": "Bush and Harken", "date": "2002-07" },
+        { "url": "https://www.ocweekly.com/?p=153939", "publisher": "OC Weekly", "title": "George Bush, Failed Corporate Crook", "date": "2002" }
+      ]
+    },
+    {
+      "claim": "George W. Bush sold his Harken Energy shares in June 1990 and filed the required insider-sale report with the SEC months late, in early 1991; the SEC opened an inquiry into the sale in 1991.",
+      "status": "reported",
+      "date": "1990-06",
+      "sources": [
+        { "url": "https://www.thenation.com/article/archive/bush-and-harken/tnamp/", "publisher": "The Nation", "title": "Bush and Harken", "date": "2002-07" },
+        { "url": "https://www.ocweekly.com/?p=153939", "publisher": "OC Weekly", "title": "George Bush, Failed Corporate Crook", "date": "2002" }
+      ]
+    },
+    {
+      "claim": "In 1992 Rep. John Dingell wrote to Breeden about the SEC's handling of the Harken matter; the correspondence is among the Harken documents published by the Center for Public Integrity.",
+      "status": "documented",
+      "date": "1992",
+      "sources": [
+        { "url": "https://publicintegrity.org/environment/further-harken-documents/", "publisher": "Center for Public Integrity", "title": "Further Harken documents", "date": "2002" }
+      ]
+    },
+    {
+      "claim": "The SEC closed the Harken inquiry in 1992 without bringing an enforcement action; in 2002, as President, Bush declined to authorise release of the SEC's full Harken file.",
+      "status": "reported",
+      "date": "1992",
+      "sources": [
+        { "url": "https://www.thenation.com/article/archive/bush-and-harken/tnamp/", "publisher": "The Nation", "title": "Bush and Harken", "date": "2002-07" },
+        { "url": "https://salon.com/2002/07/14/harken_whitewater", "publisher": "Salon", "title": "Bush rides the Whitewater", "date": "2002-07-14" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "sec",
+      "toName": "SEC",
+      "toType": "government",
+      "relation": "executive of",
+      "claim": "Breeden was chairman of the SEC when it reviewed and closed the Harken Energy inquiry.",
+      "status": "reported",
+      "date": "1991",
+      "sources": [
+        { "url": "https://www.thenation.com/article/archive/bush-and-harken/tnamp/", "publisher": "The Nation", "title": "Bush and Harken", "date": "2002-07" }
+      ]
+    },
+    {
+      "to": "george-h-w-bush",
+      "toName": "George H.W. Bush",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Breeden was appointed SEC chairman by President George H.W. Bush, whose son's Harken stock sale the SEC then examined.",
+      "status": "reported",
+      "date": "1989",
+      "sources": [
+        { "url": "https://www.thenation.com/article/archive/bush-and-harken/tnamp/", "publisher": "The Nation", "title": "Bush and Harken", "date": "2002-07" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The SEC's March 1992 closing memorandum, which said it had found no evidence of insider trading but that this did not exonerate Bush, was described only in a Wikipedia-derived page and is not recorded as a fact here; the memo itself (released 2002) should be cited.",
+    "The site places Breeden in a 'BCCI financing nexus'; nothing found connects Breeden to BCCI."
+  ]
+}

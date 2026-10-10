@@ -1,0 +1,65 @@
+{
+  "entity": "waddell-and-reed",
+  "name": "Waddell & Reed",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Waddell & Reed Financial was a Kansas-based mutual fund company. The September 30, 2010 joint SEC–CFTC staff report on the May 6, 2010 'flash crash' described a large automated sell programme by a mutual fund complex to sell 75,000 E-Mini S&P 500 futures contracts (about $4.1 billion) as a trigger of the afternoon's liquidity crisis; the report did not name the firm, but press reports identified it as Waddell & Reed, which said it had been managing downside risk in its portfolios.",
+    "sources": [
+      { "url": "https://SEC.GOV/files/marketevents-report.pdf", "publisher": "SEC and CFTC", "title": "Findings Regarding the Market Events of May 6, 2010: Report of the Staffs of the CFTC and SEC to the Joint Advisory Committee on Emerging Regulatory Issues", "date": "2010-09-30" },
+      { "url": "https://www.plansponsor.com/regulators-release-flash-crash-probe-report/", "publisher": "PLANSPONSOR", "title": "Regulators Release Flash Crash Probe Report", "date": "2010-10-01" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The joint SEC–CFTC staff report of September 30, 2010 described a large, programmed effort by a mutual fund complex to sell 75,000 E-Mini futures contracts worth about $4.1 billion on May 6, 2010.",
+      "status": "documented",
+      "date": "2010-09-30",
+      "quote": "a large, programmed effort by a mutual fund complex to sell 75,000 E-Mini futures contracts, worth $4.1 billion",
+      "sources": [
+        { "url": "https://SEC.GOV/files/marketevents-report.pdf", "publisher": "SEC and CFTC", "title": "Findings Regarding the Market Events of May 6, 2010", "date": "2010-09-30" },
+        { "url": "https://www.plansponsor.com/regulators-release-flash-crash-probe-report/", "publisher": "PLANSPONSOR", "title": "Regulators Release Flash Crash Probe Report", "date": "2010-10-01" }
+      ]
+    },
+    {
+      "claim": "The report did not name the seller; press reports citing the Associated Press identified it as Waddell & Reed of Shawnee Mission, Kansas.",
+      "status": "reported",
+      "date": "2010-10-01",
+      "sources": [
+        { "url": "https://www.plansponsor.com/regulators-release-flash-crash-probe-report/", "publisher": "PLANSPONSOR", "title": "Regulators Release Flash Crash Probe Report", "date": "2010-10-01" },
+        { "url": "https://attrition.org/pipermail/infowarrior/2010-September/005978.html", "publisher": "Bloomberg (via Infowarrior list archive)", "title": "Waddell & Reed E-Mini Trades Said to Help Trigger May 6 Crash", "date": "2010-09" }
+      ]
+    },
+    {
+      "claim": "A Waddell & Reed spokesman said the firm had merely been trying to manage downside risk in its portfolios.",
+      "status": "words",
+      "date": "2010",
+      "quote": "We were merely trying to manage downside risk in our portfolios.",
+      "sources": [
+        { "url": "https://www.plansponsor.com/regulators-release-flash-crash-probe-report/", "publisher": "PLANSPONSOR", "title": "Regulators Release Flash Crash Probe Report", "date": "2010-10-01" }
+      ]
+    },
+    {
+      "claim": "The joint report states that it reflects the findings of the CFTC and SEC staffs and that the Commissions expressed no view on its analysis, findings or conclusions.",
+      "status": "documented",
+      "date": "2010-09-30",
+      "quote": "The Commissions have expressed no view regarding the analysis, findings or conclusions contained herein.",
+      "sources": [
+        { "url": "https://SEC.GOV/files/marketevents-report.pdf", "publisher": "SEC and CFTC", "title": "Findings Regarding the Market Events of May 6, 2010", "date": "2010-09-30" }
+      ]
+    },
+    {
+      "claim": "Market data firm Nanex, which obtained raw data on the trade, challenged elements of the report's account of the sell programme.",
+      "status": "reported",
+      "date": "2010-10",
+      "quote": "some elements of this story have already been challenged by market research firm Nanex",
+      "sources": [
+        { "url": "https://www.plansponsor.com/regulators-release-flash-crash-probe-report/", "publisher": "PLANSPONSOR", "title": "Regulators Release Flash Crash Probe Report", "date": "2010-10-01" }
+      ]
+    }
+  ],
+  "connections": [],
+  "openQuestions": [
+    "The site attributes the flash crash to high-frequency trading; the joint report attributes the trigger to the large sell programme interacting with HFT liquidity withdrawal, while Nanex disputed the emphasis. The 2015 CFTC/DOJ action against Navinder Sarao (already on the site) is a further strand.",
+    "Eric Hunsader of Nanex was not named in any source returned, so no file was written for him."
+  ]
+}

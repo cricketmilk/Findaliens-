@@ -1,0 +1,86 @@
+{
+  "entity": "william-simon",
+  "name": "William Simon",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "William E. Simon, a former Salomon Brothers bond trader, was U.S. Treasury Secretary from 1974 to 1977. According to Bloomberg's 2016 account based on documents released under the Freedom of Information Act, Simon travelled to Jeddah in July 1974 on a mission to persuade Saudi Arabia to finance U.S. deficits with its petrodollar revenues in exchange for preferential access to Treasury securities, an arrangement the Saudis insisted be kept secret; Treasury disclosed Saudi holdings, then about $117 billion, for the first time in 2016.",
+    "sources": [
+      { "url": "https://www.malaymail.com/news/money/2016/05/31/the-untold-story-behind-saudi-arabias-41-year-us-debt-secret/1130991", "publisher": "Malay Mail (Bloomberg syndication)", "title": "The untold story behind Saudi Arabia's 41-year US debt secret", "date": "2016-05-31" },
+      { "url": "https://www.fa-mag.com/news/secret-deal-with-saudis-made-after--74-oil-embargo-haunts-the-u-s--today-27190.html", "publisher": "Financial Advisor (Bloomberg syndication)", "title": "Secret Deal With Saudis Made After '74 Oil Embargo Haunts The U.S. Today", "date": "2016-05-31" }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In July 1974 Treasury Secretary Simon travelled to Saudi Arabia on what was officially a diplomacy tour, with the goal of neutralising crude oil as an economic weapon and persuading the kingdom to finance America's widening deficit with its petrodollar wealth.",
+      "status": "reported",
+      "date": "1974-07",
+      "quote": "neutralize crude oil as an economic weapon and find a way to persuade a hostile kingdom to finance America's widening deficit with its newfound petrodollar wealth",
+      "sources": [
+        { "url": "https://www.malaymail.com/news/money/2016/05/31/the-untold-story-behind-saudi-arabias-41-year-us-debt-secret/1130991", "publisher": "Malay Mail (Bloomberg syndication)", "title": "The untold story behind Saudi Arabia's 41-year US debt secret", "date": "2016-05-31" }
+      ]
+    },
+    {
+      "claim": "Under the arrangement Bloomberg described, Saudi Arabia would invest oil revenue in U.S. debt in exchange for preferential access to Treasury securities, and insisted the arrangement be kept secret for fear of being seen as supporting U.S. aid to Israel.",
+      "status": "reported",
+      "date": "1974",
+      "quote": "insisted it be kept secret due to fears that it would be perceived to being \"directly or indirectly\" supporting US financial aid to Israel",
+      "sources": [
+        { "url": "https://www.fa-mag.com/news/secret-deal-with-saudis-made-after--74-oil-embargo-haunts-the-u-s--today-27190.html", "publisher": "Financial Advisor (Bloomberg syndication)", "title": "Secret Deal With Saudis Made After '74 Oil Embargo Haunts The U.S. Today", "date": "2016-05-31" }
+      ]
+    },
+    {
+      "claim": "Simon had been a bond trader at Salomon Brothers before joining the Treasury.",
+      "status": "reported",
+      "date": "1974",
+      "sources": [
+        { "url": "https://benzinga.com/z/8050745", "publisher": "Benzinga", "title": "How A Legendary Salomon Brothers Bond Trader Negotiated A Secret Deal With Saudi Arabia To Save The U.S. Economy", "date": "2016-05" }
+      ]
+    },
+    {
+      "claim": "The Treasury disclosed Saudi Arabia's holdings of U.S. Treasury securities for the first time in 2016 following a Freedom of Information Act request; the holdings were then about $117 billion.",
+      "status": "reported",
+      "date": "2016-05",
+      "sources": [
+        { "url": "https://www.fa-mag.com/news/secret-deal-with-saudis-made-after--74-oil-embargo-haunts-the-u-s--today-27190.html", "publisher": "Financial Advisor (Bloomberg syndication)", "title": "Secret Deal With Saudis Made After '74 Oil Embargo Haunts The U.S. Today", "date": "2016-05-31" }
+      ]
+    },
+    {
+      "claim": "A Gulf News opinion piece argued that Bloomberg's account overcomplicated the story and disputed its framing of the 1973–74 market crash.",
+      "status": "reported",
+      "date": "2016-06",
+      "sources": [
+        { "url": "https://gulfnews.com/amp/story/world%2Fgulf%2Fsaudi%2Fbloomberg-piece-on-us-debt-to-saudi-arabia-overreaches-1.1840643", "publisher": "Gulf News", "title": "Bloomberg piece on US debt to Saudi Arabia overreaches", "date": "2016-06" }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "u-s-department-of-the-treasury",
+      "toName": "U.S. Department of the Treasury",
+      "toType": "government",
+      "relation": "executive of",
+      "claim": "Simon was Secretary of the Treasury when he travelled to Jeddah in July 1974.",
+      "status": "reported",
+      "date": "1974-07",
+      "sources": [
+        { "url": "https://www.malaymail.com/news/money/2016/05/31/the-untold-story-behind-saudi-arabias-41-year-us-debt-secret/1130991", "publisher": "Malay Mail (Bloomberg syndication)", "title": "The untold story behind Saudi Arabia's 41-year US debt secret", "date": "2016-05-31" }
+      ]
+    },
+    {
+      "to": "saudi-arabia",
+      "toName": "Saudi Arabia",
+      "toType": "government",
+      "relation": "other",
+      "claim": "Simon negotiated with Saudi Arabia in 1974 an arrangement under which the kingdom would buy U.S. Treasury securities with oil revenue, according to Bloomberg's account of FOIA-released documents.",
+      "status": "reported",
+      "date": "1974-07",
+      "sources": [
+        { "url": "https://www.fa-mag.com/news/secret-deal-with-saudis-made-after--74-oil-embargo-haunts-the-u-s--today-27190.html", "publisher": "Financial Advisor (Bloomberg syndication)", "title": "Secret Deal With Saudis Made After '74 Oil Embargo Haunts The U.S. Today", "date": "2016-05-31" }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The site says Saudi Arabia was offered 'a confidential way to buy Treasuries outside the auctions' (add-on purchases). The sources found describe 'preferential access' without specifying the add-on mechanism; that detail is in Bloomberg's original article (bloomberg.com, May 30, 2016), which was unreachable.",
+    "Sources used are syndications of the Bloomberg article; the original should be cited."
+  ]
+}

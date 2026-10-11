@@ -4,17 +4,21 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Handoff Ledger — The Cornfield Gazette</title>
-<meta name="description" content="Publicly funded programs that ended, and the private companies that took their place — graded by documented evidence, not timing.">
+<meta name="description" content="Publicly funded programs that ended, and the private companies that took their place — graded by documented evidence, not timing, with what the public put in and what the new owners got.">
+<meta name="theme-color" content="#07061a">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌽</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
     --bg: #07061a;
     --panel: #0e0c26;
+    --panel-2: #0a0920;
     --line: #2e2860;
+    --line-2: #3d3680;
     --text: #e4e3fa;
+    --read: #cfcdea;
     --dim: #8f8bb8;
     --green: #39ff14;
     --cyan: #4de8ff;
@@ -24,65 +28,209 @@
     --private: #ff4dd8;
     --pixel: "Press Start 2P", monospace;
     --term: "VT323", "Courier New", monospace;
+    --mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+    --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   }
   * { box-sizing: border-box; }
-  body { margin: 0; background: radial-gradient(ellipse at 50% 0%, #15114d 0%, var(--bg) 60%); color: var(--text); font-family: var(--term); font-size: 20px; line-height: 1.3; }
+  body { margin: 0; background: radial-gradient(ellipse at 50% 0%, #15114d 0%, var(--bg) 60%) fixed; background-color: var(--bg); color: var(--text); font-family: var(--term); font-size: 20px; line-height: 1.3; }
   a { color: var(--cyan); }
   a:hover { color: var(--magenta); }
-  .page { max-width: 1180px; margin: 0 auto; padding: 18px 20px 70px; }
-  .nav { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+  .page { max-width: 1180px; margin: 0 auto; padding: 18px 20px 80px; }
+  .nav { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px; }
   .nav a { font-family: var(--pixel); font-size: 9px; text-decoration: none; border: 1px solid var(--cyan); padding: 6px 9px; }
-  h1 { font-family: var(--pixel); font-size: clamp(18px, 3.4vw, 30px); color: var(--green); text-shadow: 0 0 8px rgba(57, 255, 20, 0.7); margin: 6px 0 10px; line-height: 1.4; }
-  .dek { font-size: 22px; max-width: 900px; margin: 0 0 16px; }
-  .dek b { color: var(--gold); font-weight: 400; }
-  h2 { font-family: var(--pixel); font-size: 13px; color: var(--cyan); margin: 34px 0 12px; }
+  .nav a:hover { background: var(--cyan); color: var(--bg); }
+  .kicker { margin: 0; font-family: var(--mono); font-size: 12px; letter-spacing: 0.16em; color: var(--dim); }
+  h1 { font-family: var(--pixel); font-size: clamp(20px, 3.8vw, 34px); color: var(--green); text-shadow: 0 0 8px rgba(57, 255, 20, 0.7); margin: 10px 0 14px; line-height: 1.4; }
+  .dek { font-family: var(--sans); font-size: 19px; line-height: 1.6; color: var(--read); max-width: 50em; margin: 0 0 22px; }
+  .dek b { color: var(--gold); font-weight: 500; }
 
-  .grades { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px; margin-bottom: 8px; }
-  .grade-card { border: 1px solid var(--line); background: var(--panel); padding: 10px 12px; font-size: 18px; }
-  .grade-card .g { font-family: var(--pixel); font-size: 14px; margin-right: 8px; }
-  .grade-card svg { display: block; margin-top: 6px; }
+  /* section heads: a number, a name, and a rule of blocks */
+  h2 { display: flex; align-items: center; gap: 14px; font-family: var(--pixel); font-size: 13px; color: var(--cyan); margin: 58px 0 18px; line-height: 1.5; }
+  h2 .n { color: var(--bg); background: var(--cyan); padding: 4px 6px; font-size: 10px; }
+  h2::after { content: ""; flex: 1; height: 8px; background: repeating-linear-gradient(90deg, var(--line-2) 0 7px, transparent 7px 10px); }
+
+  /* the ledger printer: continuous greenbar paper out of a line printer */
+  .printer { position: relative; margin: 6px 0 0; }
+  .paper-window { position: relative; height: 440px; overflow: hidden;
+    -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 80px); mask-image: linear-gradient(180deg, transparent 0, #000 80px); }
+  .paper { position: absolute; left: 14px; right: 14px; bottom: 0; padding: 0 58px;
+    background-color: #eef3e6;
+    background-image:
+      radial-gradient(circle at 22px 50%, var(--bg) 0 7px, transparent 7.5px),
+      radial-gradient(circle at calc(100% - 22px) 50%, var(--bg) 0 7px, transparent 7.5px),
+      linear-gradient(90deg, transparent 43px, rgba(0, 0, 0, 0.18) 43px 44px, transparent 44px calc(100% - 44px), rgba(0, 0, 0, 0.18) calc(100% - 44px) calc(100% - 43px), transparent calc(100% - 43px)),
+      repeating-linear-gradient(180deg, #d6ead0 0 54px, transparent 54px 108px);
+    background-size: 100% 18px, 100% 18px, 100% 100%, 100% 108px;
+    background-position: 0 var(--feed, 0px), 0 var(--feed, 0px), 0 0, 0 var(--feed, 0px);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25), 0 30px 60px -20px rgba(0, 0, 0, 0.8);
+    color: #1d2a6b; font-family: var(--mono); font-weight: 600; font-size: 13.5px; line-height: 18px; }
+  .paper .line { white-space: pre; height: 18px; overflow: hidden; text-shadow: 0 0 0.6px rgba(29, 42, 107, 0.55); }
+  .paper .line.banner { color: #23305f; font-weight: 700; }
+  .paper .line .a { color: #0f6f2a; } .paper .line .b { color: #0f6f86; } .paper .line .c { color: #8a6a00; } .paper .line .x { color: #9b1d76; }
+  .paper .perf { height: 18px; background: repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.28) 0 6px, transparent 6px 11px) 0 50% / 100% 1px no-repeat; }
+  .printer-body { position: relative; height: 74px; margin-top: -6px; background: linear-gradient(180deg, #2a2560 0%, #1a1745 30%, #120f33 100%); border: 1px solid var(--line-2); border-radius: 4px 4px 10px 10px; box-shadow: 0 20px 40px -18px rgba(77, 232, 255, 0.25); }
+  .slot { position: absolute; left: 40px; right: 40px; top: 10px; height: 10px; background: #050414; border-radius: 3px; box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.9); }
+  .head { position: absolute; top: -6px; left: 0; width: 34px; height: 22px; background: linear-gradient(180deg, #8f8bb8, #4b4790); border-radius: 3px; box-shadow: 0 0 10px rgba(77, 232, 255, 0.4); transition: left 90ms linear; }
+  .printer-body .model { position: absolute; left: 44px; bottom: 14px; font-family: var(--pixel); font-size: 9px; color: var(--dim); letter-spacing: 0.06em; }
+  .lamps { position: absolute; right: 48px; bottom: 16px; display: flex; gap: 14px; font-family: var(--pixel); font-size: 8px; color: var(--dim); }
+  .lamps i { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 6px; background: var(--green); box-shadow: 0 0 8px var(--green); vertical-align: -1px; }
+  .lamps i.busy { background: var(--gold); box-shadow: 0 0 8px var(--gold); }
+  @media (max-width: 760px) {
+    .paper-window { height: 380px; }
+    .paper { left: 0; right: 0; padding: 0 40px; font-size: 12px; background-image:
+      radial-gradient(circle at 15px 50%, var(--bg) 0 5px, transparent 5.5px),
+      radial-gradient(circle at calc(100% - 15px) 50%, var(--bg) 0 5px, transparent 5.5px),
+      linear-gradient(90deg, transparent 30px, rgba(0, 0, 0, 0.18) 30px 31px, transparent 31px calc(100% - 31px), rgba(0, 0, 0, 0.18) calc(100% - 31px) calc(100% - 30px), transparent calc(100% - 30px)),
+      repeating-linear-gradient(180deg, #d6ead0 0 54px, transparent 54px 108px); }
+    .printer-body .model { display: none; }
+    .lamps { right: 20px; }
+  }
+
+  /* the tally */
+  .tally { display: grid; gap: 14px; }
+  .tally-block { border: 1px solid var(--line); background: var(--panel); padding: 20px 22px 18px; }
+  .tally-block > .k { font-family: var(--mono); font-size: 12px; letter-spacing: 0.14em; color: var(--dim); }
+  .big { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 18px; margin: 8px 0 6px; }
+  .big .num { font-family: var(--term); font-size: clamp(56px, 9vw, 104px); line-height: 0.85; color: var(--gold); text-shadow: 0 0 18px rgba(255, 216, 77, 0.35); letter-spacing: 0.02em; }
+  .big .unit { font-family: var(--pixel); font-size: 12px; color: var(--gold); }
+  .tally-block .sub { font-family: var(--sans); font-size: 15.5px; line-height: 1.55; color: var(--read); max-width: 52em; margin: 6px 0 14px; }
+  .bars { display: grid; gap: 2px; }
+  .bar-row { display: grid; grid-template-columns: minmax(0, 340px) minmax(0, 1fr) 150px; gap: 18px; align-items: center; padding: 10px 0; border-top: 1px dashed var(--line); }
+  .bar-row .who { font-family: var(--sans); font-size: 14px; line-height: 1.3; color: var(--text); }
+  .bar-row .who small { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; font-family: var(--sans); font-size: 12.5px; line-height: 1.45; color: var(--dim); margin-top: 3px; cursor: help; }
+  .bar-row .who .src { display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }
+  .bar { height: 14px; min-width: 9px; background: repeating-linear-gradient(90deg, var(--c, var(--gold)) 0 7px, transparent 7px 9px); }
+  .bar-row .v { text-align: right; font-family: var(--term); font-size: 22px; color: var(--c, var(--gold)); line-height: 1; }
+  .bar-row .v small { display: block; font-family: var(--mono); font-size: 10.5px; color: var(--dim); }
+  .bar-row a { color: inherit; text-decoration: none; }
+  .bar-row a:hover { color: var(--cyan); }
+  .pairs { display: grid; gap: 0; }
+  .pair { display: grid; grid-template-columns: minmax(0, 300px) 1fr; gap: 18px; align-items: start; padding: 12px 0; border-top: 1px dashed var(--line); }
+  .pair .who a { font-family: var(--sans); font-size: 14.5px; line-height: 1.4; color: var(--text); text-decoration: none; }
+  .pair .who a:hover { color: var(--cyan); }
+  .pair .flow { display: grid; gap: 4px; }
+  .pair .fl { display: grid; grid-template-columns: 30px 100px minmax(0, 1fr); align-items: baseline; gap: 0 10px; font-family: var(--term); font-size: 22px; line-height: 1.15; }
+  .pair .flow .mark { color: var(--cyan); font-size: 15px; }
+  .pair .flow .sold { color: var(--cyan); }
+  .pair .flow .later { color: var(--magenta); }
+  .pair .flow .disc { color: var(--gold); }
+  .pair .flow .arrow { color: var(--dim); font-size: 18px; }
+  .pair .flow small { font-family: var(--sans); font-size: 13px; line-height: 1.4; color: var(--dim); }
+  .quotes { list-style: none; margin: 0; padding: 0; }
+  .quotes li { padding: 10px 0; border-top: 1px dashed var(--line); font-family: var(--sans); font-size: 15px; line-height: 1.55; color: var(--read); }
+  .quotes li b { font-weight: 600; color: var(--text); }
+  .quotes .src, .tally .src { display: block; margin-top: 4px; font-family: var(--mono); font-size: 11.5px; color: var(--dim); }
+  .tally .src a { color: var(--dim); }
+  .note { font-family: var(--sans); font-size: 13.5px; line-height: 1.55; color: var(--dim); margin: 12px 0 0; }
+
+  /* grades */
+  .grades { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px; }
+  .grade-card { border: 1px solid var(--line); background: var(--panel); padding: 12px 14px; font-family: var(--sans); font-size: 14.5px; line-height: 1.45; color: var(--read); }
+  .grade-card .g { font-family: var(--pixel); font-size: 15px; margin-right: 8px; }
+  .grade-card .meta { font-family: var(--term); font-size: 18px; }
+  .grade-card svg { display: block; margin-top: 8px; }
   .gA { color: var(--green); } .gB { color: var(--cyan); } .gC { color: var(--gold); } .gD { color: var(--dim); }
 
-  .controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 14px 0; }
+  /* timeline */
+  .controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 0 0 12px; }
   .chip { font-family: var(--term); font-size: 17px; background: transparent; color: var(--text); border: 1px solid var(--line); padding: 2px 9px; cursor: pointer; }
   .chip.on { border-color: var(--cyan); color: var(--cyan); }
   select, input[type=search] { background: #050414; color: var(--text); border: 1px solid var(--line); font-family: var(--term); font-size: 18px; padding: 3px 8px; }
-
-  .timeline-box { border: 1px solid var(--line); background: rgba(14, 12, 38, 0.85); padding: 10px 6px 4px; overflow-x: auto; }
-  #timeline { display: block; min-width: 760px; width: 100%; }
-  #timeline text { font-family: var(--term); fill: var(--dim); font-size: 14px; }
-  #timeline .row-label { fill: var(--text); font-size: 15px; cursor: pointer; }
-  #timeline .row:hover .row-label { fill: var(--cyan); }
-  .lanes-key { display: flex; gap: 18px; flex-wrap: wrap; font-size: 17px; color: var(--dim); margin: 6px 4px; }
-  .lanes-key i { display: inline-block; width: 22px; height: 8px; margin-right: 6px; vertical-align: middle; }
-
-  .case { border: 1px solid var(--line); background: var(--panel); margin-bottom: 14px; scroll-margin-top: 14px; }
-  .case-head { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; padding: 10px 14px; border-bottom: 1px solid var(--line); }
-  .case-head h3 { font-family: var(--pixel); font-size: 12px; line-height: 1.6; margin: 0; color: var(--text); }
-  .badge { display: inline-block; font-family: var(--pixel); font-size: 8px; padding: 3px 6px; border: 1px solid currentColor; margin-right: 6px; vertical-align: middle; white-space: nowrap; }
-  .case-body { padding: 12px 14px 14px; }
   .meta { color: var(--dim); font-size: 17px; }
-  .sides { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 12px 0; }
-  .side { border-left: 3px solid var(--public); padding: 4px 10px; background: rgba(77, 232, 255, 0.05); }
+  .timeline-box { border: 1px solid var(--line); background: rgba(14, 12, 38, 0.85); padding: 12px 16px 8px; }
+  .lanes-key { display: flex; gap: 8px 22px; flex-wrap: wrap; align-items: center; margin: 0 0 12px; font-family: var(--mono); font-size: 12px; color: var(--dim); }
+  .lanes-key span { display: inline-flex; align-items: center; gap: 8px; }
+  .k-pub { width: 26px; height: 4px; background: rgba(77, 232, 255, 0.55); }
+  .k-end { width: 9px; height: 9px; background: var(--cyan); }
+  .k-succ { width: 9px; height: 9px; background: var(--magenta); transform: rotate(45deg); }
+  .k-line { width: 26px; height: 0; border-top: 3px solid var(--green); }
+  .k-line.c { border-top: 2px dashed var(--gold); }
+  .k-line.d { border-top: 2px dotted var(--dim); }
+  /* the chart: a name column, a grade, and a track per case on one shared axis */
+  .tl { --dec: 6; }
+  .tl-head, .tl-row { display: grid; grid-template-columns: minmax(0, 300px) 26px minmax(0, 1fr); gap: 0 14px; align-items: center; }
+  .tl-axis { position: relative; height: 22px; }
+  .tl-axis span { position: absolute; bottom: 4px; transform: translateX(-50%); font-family: var(--term); font-size: 17px; color: var(--dim); }
+  .tl-axis span:first-child { transform: none; }
+  .tl-row { min-height: 38px; padding: 4px 0; border-top: 1px solid rgba(46, 40, 96, 0.55); text-decoration: none; color: inherit; }
+  .tl-row:hover { background: rgba(77, 232, 255, 0.05); }
+  .tl-row:hover .tl-name { color: var(--cyan); }
+  .tl-name { font-family: var(--sans); font-size: 13.5px; line-height: 1.3; color: var(--text); padding-left: 2px; }
+  .tl-g { font-family: var(--pixel); font-size: 11px; text-align: center; }
+  .tl-track { position: relative; height: 30px; align-self: stretch;
+    background: repeating-linear-gradient(90deg, rgba(61, 54, 128, 0.7) 0 1px, transparent 1px calc(100% / var(--dec))); }
+  .tl-track i { position: absolute; display: block; }
+  .tl-track .pub { top: calc(50% - 9px); height: 4px; background: rgba(77, 232, 255, 0.55); }
+  .tl-track .link { top: 50%; height: 0; transform: translateY(-50%); border-top: 3px solid var(--green); }
+  .tl-track .link.lB { border-top: 2px solid var(--cyan); }
+  .tl-track .link.lC { border-top: 2px dashed var(--gold); }
+  .tl-track .link.lD { border-top: 2px dotted var(--dim); }
+  .tl-track .end { top: 50%; width: 9px; height: 9px; background: var(--cyan); transform: translate(-50%, -50%); box-shadow: 0 0 6px rgba(77, 232, 255, 0.6); }
+  .tl-track .succ { top: 50%; width: 9px; height: 9px; background: var(--magenta); transform: translate(-50%, -50%) rotate(45deg); box-shadow: 0 0 6px rgba(255, 77, 216, 0.6); }
+  /* a program older than the axis: its bar runs out of a small tag giving the real start */
+  .tl-track .since { position: absolute; left: 0; top: calc(50% - 14px); padding: 0 4px; font-family: var(--mono); font-size: 10px; line-height: 14px; font-style: normal; color: var(--bg); background: rgba(77, 232, 255, 0.85); }
+
+  /* cases as transfer orders */
+  .case { position: relative; border: 3px double var(--line-2); background: var(--panel); margin-bottom: 16px; scroll-margin-top: 14px; }
+  .case:target { border-color: var(--cyan); box-shadow: 0 0 0 1px var(--cyan), 0 0 30px rgba(77, 232, 255, 0.25); }
+  .order-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; padding: 9px 14px; border-bottom: 1px dashed var(--line-2); background: var(--panel-2); font-family: var(--mono); font-size: 12px; letter-spacing: 0.08em; color: var(--dim); }
+  .order-head .no { color: var(--text); }
+  .order-head .stamp { font-family: var(--pixel); font-size: 9px; letter-spacing: 0; padding: 4px 6px; border: 2px solid currentColor; transform: rotate(-2deg); }
+  .order-head .country { margin-left: auto; }
+  .case h3 { margin: 0; padding: 14px 16px 0; font-family: var(--sans); font-size: 20px; line-height: 1.32; font-weight: 600; color: var(--text); }
+  .case .summary { margin: 10px 16px 0; font-family: var(--sans); font-size: 15.5px; line-height: 1.62; color: var(--read); }
+  .case .gapline { margin: 8px 16px 0; font-family: var(--term); font-size: 18px; }
+  .transfer { display: grid; grid-template-columns: minmax(0, 1fr) 58px minmax(0, 1fr); gap: 0; margin: 14px 16px 0; }
+  .side { padding: 10px 12px 12px; border-left: 3px solid var(--public); background: rgba(77, 232, 255, 0.05); }
   .side.priv { border-left-color: var(--private); background: rgba(255, 77, 216, 0.05); }
-  .side b { font-weight: 400; color: var(--text); }
   .side .lbl { font-family: var(--pixel); font-size: 8px; color: var(--public); }
   .side.priv .lbl { color: var(--private); }
-  .src { display: block; font-size: 15px; color: var(--dim); }
+  .side .name { display: block; margin-top: 6px; font-family: var(--sans); font-size: 15px; font-weight: 600; line-height: 1.35; color: var(--text); }
+  .side .facts { margin-top: 4px; font-family: var(--mono); font-size: 12px; line-height: 1.55; color: var(--dim); }
+  .side .outcome { margin-top: 8px; font-family: var(--sans); font-size: 14px; line-height: 1.55; color: var(--read); }
+  .src { display: block; font-family: var(--mono); font-size: 11.5px; line-height: 1.5; color: var(--dim); margin-top: 4px; }
   .src a { color: var(--dim); }
-  .ev { list-style: none; margin: 6px 0 0; padding: 0; }
-  .ev li { border-top: 1px dashed var(--line); padding: 7px 0; font-size: 18px; }
-  .type { font-family: var(--pixel); font-size: 8px; color: var(--bg); background: var(--cyan); padding: 2px 5px; margin-right: 6px; vertical-align: middle; }
+  .src a:hover { color: var(--cyan); }
+  .pipe { display: grid; place-items: center; font-family: var(--term); font-size: 26px; color: var(--dim); }
+  .pipe span { writing-mode: horizontal-tb; }
+  .money { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 16px 0; }
+  .money span { font-family: var(--term); font-size: 18px; line-height: 1.1; padding: 4px 8px; border: 1px solid var(--line-2); color: var(--gold); }
+  .money span small { font-family: var(--mono); font-size: 10.5px; color: var(--dim); }
+  .money span.sold { color: var(--cyan); } .money span.later { color: var(--magenta); } .money span.paid { color: var(--green); }
+  .quotes i { color: var(--text); }
+  details.ev { margin: 14px 16px 16px; border-top: 1px dashed var(--line-2); }
+  details.ev summary { cursor: pointer; padding: 10px 0 2px; font-family: var(--mono); font-size: 12px; letter-spacing: 0.1em; color: var(--cyan); list-style: none; }
+  details.ev summary::-webkit-details-marker { display: none; }
+  details.ev summary::before { content: "▸ "; }
+  details.ev[open] summary::before { content: "▾ "; }
+  .ev-list { list-style: none; margin: 8px 0 0; padding: 0; }
+  .ev-list li { border-top: 1px dashed var(--line); padding: 9px 0; font-family: var(--sans); font-size: 14.5px; line-height: 1.55; color: var(--read); }
+  .type { font-family: var(--pixel); font-size: 8px; color: var(--bg); background: var(--cyan); padding: 2px 5px; margin-right: 6px; vertical-align: 2px; }
   .type.timing { background: var(--dim); }
   .type.personnel, .type.funding { background: var(--gold); }
-  .st { font-family: var(--pixel); font-size: 7px; color: var(--dim); border: 1px solid var(--line); padding: 2px 4px; margin-right: 6px; vertical-align: middle; }
-  .claim { border: 1px solid var(--line); padding: 8px 10px; margin-top: 8px; background: rgba(255, 216, 77, 0.04); }
+  .st { font-family: var(--pixel); font-size: 7px; color: var(--dim); border: 1px solid var(--line); padding: 2px 4px; margin-right: 6px; vertical-align: 2px; }
+  .claim { border: 1px solid var(--line); padding: 9px 11px; margin-top: 8px; background: rgba(255, 216, 77, 0.04); font-family: var(--sans); font-size: 14.5px; line-height: 1.55; color: var(--read); }
+  .badge { display: inline-block; font-family: var(--pixel); font-size: 8px; padding: 3px 6px; border: 1px solid currentColor; margin-right: 6px; vertical-align: 2px; white-space: nowrap; }
   .as-false { color: #ff5a6e; } .as-unsupported { color: var(--gold); } .as-partly-true { color: var(--cyan); } .as-true { color: var(--green); }
   .empty { color: var(--dim); padding: 20px; border: 1px dashed var(--line); text-align: center; }
-  .method { border: 1px solid var(--line); background: var(--panel); padding: 12px 16px; font-size: 18px; }
-  .method li { margin-bottom: 6px; }
+  .method { border: 1px solid var(--line); background: var(--panel); padding: 14px 18px; font-family: var(--sans); font-size: 15px; line-height: 1.6; color: var(--read); }
+  .method li { margin-bottom: 8px; }
+  .method b { color: var(--text); font-weight: 600; }
 
-  @media (max-width: 760px) { .sides { grid-template-columns: 1fr; } }
+  @media (max-width: 760px) {
+    .tl-head { grid-template-columns: 1fr; }
+    .tl-head > span { display: none; }
+    .tl-row { grid-template-columns: minmax(0, 1fr) 26px; gap: 4px 10px; padding: 8px 0; }
+    .tl-track { grid-column: 1 / -1; }
+    .transfer { grid-template-columns: 1fr; }
+    .pipe { padding: 4px 0; }
+    .pipe span { display: inline-block; transform: rotate(90deg); }
+    .bar-row { grid-template-columns: 1fr 110px; }
+    .bar-row .bar { grid-column: 1 / -1; grid-row: 2; }
+    .pair { grid-template-columns: 1fr; gap: 4px; }
+    .order-head .country { margin-left: 0; }
+  }
+  @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
 </style>
 </head>
 <body>
@@ -91,15 +239,28 @@
     <a href="index.html">◀ GAZETTE</a>
     <a href="web.html">THE WEB</a>
     <a href="blind-pool.html">BLIND POOL</a>
+    <a href="crash-conduits.html">CRASH CONDUITS</a>
     <a href="transhumanism.html">POST-HUMAN RESOURCES</a>
   </nav>
 
+  <p class="kicker">THE CORNFIELD GAZETTE · PUBLIC MONEY ▸ PRIVATE HANDS</p>
   <h1>THE HANDOFF LEDGER</h1>
   <p class="dek">Public money builds something. The program ends. A private company carries it on. Some of these are <b>documented handoffs</b>: a lab licensed its work, a government sold the asset. Others are <b>only claimed</b>, because a company appeared at about the same time. Every case is graded by the strongest documented link between the two sides, <b>never by timing alone</b>.</p>
 
+  <div class="printer" aria-hidden="true">
+    <div class="paper-window"><div class="paper" id="paper"></div></div>
+    <div class="printer-body"><div class="slot"><div class="head" id="head"></div></div><div class="model">GAZETTE LINE PRINTER · MODEL 1636</div><div class="lamps"><span><i></i>ON LINE</span><span><i class="busy" id="busy"></i>PRINTING</span></div></div>
+  </div>
+
+  <section id="tally-sec" hidden>
+    <h2><span class="n">01</span>THE TALLY</h2>
+    <div class="tally" id="tally"></div>
+  </section>
+
+  <h2><span class="n">02</span>HOW SURE</h2>
   <div class="grades" id="grades"></div>
 
-  <h2>TIMELINE</h2>
+  <h2><span class="n">03</span>TIMELINE</h2>
   <div class="controls" id="controls">
     <span class="meta">grade:</span><span id="grade-chips"></span>
     <span class="meta" style="margin-left:8px;">type:</span>
@@ -108,19 +269,20 @@
     <input id="q" type="search" placeholder="search…" aria-label="Search handoffs">
   </div>
   <div class="timeline-box">
-    <div class="lanes-key"><span><i style="background:var(--public)"></i>public program</span><span><i style="background:var(--private)"></i>private successor</span><span>connector style = grade</span></div>
-    <svg id="timeline" role="img" aria-label="Timeline of public programs and their private successors"></svg>
+    <div class="lanes-key"><span><i class="k-pub"></i>public program running</span><span><i class="k-end"></i>program ends</span><span><i class="k-succ"></i>private successor begins</span><span><i class="k-line"></i>documented (A, B)</span><span><i class="k-line c"></i>circumstantial (C)</span><span><i class="k-line d"></i>timing only (D)</span></div>
+    <div class="tl" id="timeline" role="list" aria-label="Timeline of public programs and their private successors"></div>
   </div>
 
-  <h2>CASES</h2>
+  <h2><span class="n">04</span>THE TRANSFER ORDERS</h2>
   <div id="cases"></div>
 
-  <h2>HOW CASES ARE GRADED</h2>
+  <h2><span class="n">05</span>HOW CASES ARE GRADED</h2>
   <div class="method">
     <ul>
       <li>Each case records the <b>public side</b> from the funder’s own records, the <b>private side</b> from company registries and filings, and each <b>link</b> between them as a separate, sourced item: license, asset transfer, contract, stated successor, personnel, funding, or timing.</li>
       <li>The grade is calculated from approved links. Grades A and B also require at least two independent publishers. <b>Timing never counts as a link</b>: two dates close together are where an investigation starts, not where it ends.</li>
       <li>Popular claims are examined separately and assessed as true, partly true, unsupported or false, with the record that decides it.</li>
+      <li id="spend-method" hidden></li>
       <li>Research is drafted by the Gazette’s research agent and checked against its sources before publication. Something wrong or missing? The sources are listed on every item.</li>
     </ul>
   </div>
@@ -154,8 +316,20 @@ const fmtGap = (g) => {
   if (g.days === 0) return g.precision === "day" ? "both happened on the same day" : `both happened in the same ${g.precision}`;
   return g.days < 0 ? `private side began ${amount} before the program ended` : `private side began ${amount} after the program ended`;
 };
+// money, compact: $412.3B, £6.4B, DM 256B
+const SYM = { USD: "$", GBP: "£", EUR: "€", JPY: "¥", CAD: "C$", DEM: "DM ", MXN: "MX$", ARS: "ARS ", CLP: "CLP ", RUB: "RUB ", BOB: "BOB ", ZMW: "ZMW " };
+function money(n, cur = "USD") {
+  const a = Math.abs(n), s = SYM[cur] ?? cur + " ";
+  const f = (v, u) => `${s}${v >= 100 ? v.toFixed(0) : v >= 10 ? v.toFixed(1) : v.toFixed(2)}${u}`;
+  if (a >= 1e12) return f(n / 1e12, "T");
+  if (a >= 1e9) return f(n / 1e9, "B");
+  if (a >= 1e6) return f(n / 1e6, "M");
+  if (a >= 1e3) return f(n / 1e3, "K");
+  return s + n.toFixed(0);
+}
 
 let DATA = { records: [] };
+let SPEND = null;
 const filters = { grades: new Set(["A", "B", "C", "D"]), pattern: "", country: "", q: "" };
 
 function line(grade, w = 60) {
@@ -183,64 +357,177 @@ function visible() {
 }
 
 function renderTimeline(list) {
-  const svg = document.getElementById("timeline");
-  if (!list.length) { svg.setAttribute("viewBox", "0 0 760 40"); svg.innerHTML = `<text x="10" y="25">No cases match.</text>`; return; }
-  // Start just before the earliest program end; older starts run off the left edge.
+  const box = document.getElementById("timeline");
+  if (!list.length) { box.innerHTML = `<p class="empty">No cases match.</p>`; return; }
+  // the axis starts the decade before the earliest program end; older starts run off its left edge
   const minY = Math.floor((Math.min(...list.map((r) => year(r.public.end))) - 6) / 10) * 10;
-  const maxY = 2027;
-  const W = 1100, L = 250, R = 20, rowH = 34, top = 26;
-  const H = top + list.length * rowH + 10;
-  const x = (y) => L + ((y - minY) / (maxY - minY)) * (W - L - R);
-  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
-  let out = "";
-  for (let y = minY; y <= 2020; y += 10) {
-    out += `<line x1="${x(y)}" x2="${x(y)}" y1="${top - 8}" y2="${H}" stroke="#2e2860" stroke-dasharray="2 4"/>`;
-    out += `<text x="${x(y)}" y="14" text-anchor="middle">${y}</text>`;
+  const maxY = Math.ceil(2027 / 10) * 10;
+  const dec = (maxY - minY) / 10;
+  box.style.setProperty("--dec", dec);
+  const X = (y) => ((Math.min(Math.max(y, minY), maxY) - minY) / (maxY - minY)) * 100;
+  const axis = [];
+  for (let y = minY; y < maxY; y += 10) axis.push(`<span style="left:${X(y)}%">${y}</span>`);
+  box.innerHTML = `<div class="tl-head" aria-hidden="true"><span></span><span></span><div class="tl-axis">${axis.join("")}</div></div>` +
+    list.map((r) => {
+      const s0 = year(r.public.start), e = year(r.public.end), f = year(r.private.founded);
+      const a = X(Math.min(e, f)), b = X(Math.max(e, f));
+      return `<a class="tl-row" role="listitem" href="#${r.id}" title="${esc(r.public.name)}: ${esc(r.public.start.date)} to ${esc(r.public.end.date)} · ${esc(r.private.name)} from ${esc(r.private.founded.date)}">
+        <span class="tl-name">${esc(r.title)}</span>
+        <span class="tl-g g${r.grade}">${r.grade}</span>
+        <span class="tl-track">
+          <i class="pub" style="left:${X(s0)}%;width:${Math.max(0.4, X(e) - X(s0))}%"></i>
+          ${s0 < minY ? `<em class="since">◂ ${String(r.public.start.date).slice(0, 4)}</em>` : ""}
+          <i class="link l${r.grade}" style="left:${a}%;width:${b - a}%"></i>
+          <i class="end" style="left:${X(e)}%"></i>
+          <i class="succ" style="left:${X(f)}%"></i>
+        </span>
+      </a>`;
+    }).join("");
+}
+
+// the money a case carries, from the verified tally
+const CHIP = [
+  ["public-in", "PUBLIC MONEY IN", "in"], ["prior-program-cost", "THE PUBLIC PROGRAM COST", "in"],
+  ["net-public-cost", "COST OF THE HANDOFF", "in"], ["paid-to-successor", "PAID TO SUCCESSOR", "paid"],
+  ["paid-back", "PAID BACK TO THE PUBLIC", "sold"], ["sale-proceeds", "SOLD FOR", "sold"],
+  ["discount", "UNDERPRICED BY", "later"], ["later-value", "LATER WORTH", "later"], ["successor-revenue", "SUCCESSOR'S SALES", "later"],
+];
+function moneyChips(id) {
+  if (!SPEND) return "";
+  const mine = SPEND.byCase[id] || [];
+  const out = [];
+  for (const [kind, label, cls] of CHIP) for (const m of mine.filter((x) => x.kind === kind)) {
+    const conv = m.usd != null && (m.currency !== "USD" || Number(m.money_year) !== SPEND.base_year) ? ` · ${money(m.usd)} in ${SPEND.base_year} $` : "";
+    out.push(`<span class="${cls}" title="${esc(m.what)}${m.note ? " (" + esc(m.note) + ")" : ""}">${m.ceiling ? "UP TO " : ""}${label} ${money(m.amount, m.currency)} <small>${esc(m.period || m.money_year)}${conv}</small></span>`);
   }
-  list.forEach((r, i) => {
-    const y0 = top + i * rowH;
-    const startY = year(r.public.start), clipped = startY < minY;
-    const ps = x(Math.max(startY, minY)), pe = x(year(r.public.end));
-    const fs = x(year(r.private.founded));
-    const title = r.title.length > 34 ? r.title.slice(0, 33) + "…" : r.title;
-    out += `<g class="row" data-id="${r.id}" style="cursor:pointer">`;
-    out += `<rect x="0" y="${y0 - 2}" width="${W}" height="${rowH - 2}" fill="transparent"/>`;
-    out += `<text class="row-label" x="8" y="${y0 + 17}">${esc(title)}</text>`;
-    out += `<text x="${L - 10}" y="${y0 + 17}" text-anchor="end" style="fill:${GRADE_COLOR[r.grade]};font-size:15px">${r.grade}</text>`;
-    out += `<rect x="${ps}" y="${y0 + 3}" width="${Math.max(pe - ps, 3)}" height="8" fill="#4de8ff" opacity="0.85"><title>${esc(r.public.name)}: ${r.public.start.date}–${r.public.end.date} (${r.public.end.kind})</title></rect>`;
-    if (clipped) out += `<text x="${ps + 2}" y="${y0 + 1}" style="fill:#4de8ff;font-size:12px">◂ since ${String(r.public.start.date).slice(0, 4)}</text>`;
-    out += `<rect x="${fs}" y="${y0 + 17}" width="${Math.max(x(2026.8) - fs, 3)}" height="8" fill="#ff4dd8" opacity="0.6"><title>${esc(r.private.name)}: from ${r.private.founded.date}</title></rect>`;
-    out += `<path d="M${pe} ${y0 + 11} C ${pe} ${y0 + 15}, ${fs} ${y0 + 13}, ${fs} ${y0 + 17}" fill="none" stroke="${GRADE_COLOR[r.grade]}" stroke-width="${r.grade === "A" ? 3 : 2}" ${GRADE_DASH[r.grade] ? `stroke-dasharray="${GRADE_DASH[r.grade]}"` : ""}/>`;
-    out += `</g>`;
-  });
-  svg.innerHTML = out;
+  return out.length ? `<div class="money">${out.join("")}</div>` : "";
 }
 
 function renderCases(list) {
   const box = document.getElementById("cases");
   if (!DATA.records.length) { box.innerHTML = `<div class="empty">No cases have been approved yet.</div>`; return; }
   if (!list.length) { box.innerHTML = `<div class="empty">No cases match these filters.</div>`; return; }
+  const order = new Map(DATA.records.map((r, i) => [r.id, i + 1]));
   box.innerHTML = list.map((r) => {
     const byType = Object.keys(TYPE_LABEL).flatMap((t) => r.links.filter((l) => l.type === t));
+    const evCount = `${byType.length} link${byType.length === 1 ? "" : "s"}${r.claims.length ? ` · ${r.claims.length} claim${r.claims.length === 1 ? "" : "s"} examined` : ""}`;
     return `
     <article class="case" id="${r.id}">
-      <div class="case-head">
-        <h3>${esc(r.title)}</h3>
-        <span><span class="badge g${r.grade}" title="${esc(GRADE_TEXT[r.grade])}">GRADE ${r.grade}</span><span class="badge" style="color:var(--dim)">${esc((PATTERN_TEXT[r.pattern] || r.pattern).toUpperCase())}</span><span class="meta">${esc(r.country)}</span></span>
+      <div class="order-head"><span class="no">TRANSFER ORDER Nº ${String(order.get(r.id)).padStart(4, "0")}</span><span class="stamp g${r.grade}" title="${esc(GRADE_TEXT[r.grade])}">GRADE ${r.grade}</span><span>${esc((PATTERN_TEXT[r.pattern] || r.pattern).toUpperCase())}</span><span class="country">${esc(r.country).toUpperCase()}</span></div>
+      <h3>${esc(r.title)}</h3>
+      <div class="gapline g${r.grade}">${esc(GRADE_TEXT[r.grade])}${r.gap ? ` · ${esc(fmtGap(r.gap))}` : ""}</div>
+      <p class="summary">${esc(r.summary)}</p>
+      <div class="transfer">
+        <div class="side"><div class="lbl">▣ PUBLIC</div><span class="name">${esc(r.public.name)}</span><div class="facts">${esc(r.public.funder)}${r.public.budget ? " · " + esc(r.public.budget) : ""}<br>${esc(r.public.start.date)} – ${esc(r.public.end.date)} · ${esc(r.public.end.kind)}</div>${srcs(r.public.sources)}</div>
+        <div class="pipe" aria-hidden="true"><span>══▶</span></div>
+        <div class="side priv"><div class="lbl">▣ PRIVATE</div><span class="name">${esc(r.private.name)}</span><div class="facts">from ${esc(r.private.founded.date)}${r.private.founders?.length ? " · founders: " + r.private.founders.map(esc).join(", ") : ""}</div>${r.private.outcome ? `<div class="outcome">${esc(r.private.outcome)}</div>` : ""}${srcs(r.private.sources)}</div>
       </div>
-      <div class="case-body">
-        <div class="meta g${r.grade}">${esc(GRADE_TEXT[r.grade])}${r.gap ? ` · ${esc(fmtGap(r.gap))}` : ""}</div>
-        <p style="margin:8px 0 0;">${esc(r.summary)}</p>
-        <div class="sides">
-          <div class="side"><div class="lbl">PUBLIC</div><b>${esc(r.public.name)}</b><br><span class="meta">${esc(r.public.funder)}${r.public.budget ? " · " + esc(r.public.budget) : ""} · ${esc(r.public.start.date)}–${esc(r.public.end.date)} · ${esc(r.public.end.kind)}</span>${srcs(r.public.sources)}</div>
-          <div class="side priv"><div class="lbl">PRIVATE</div><b>${esc(r.private.name)}</b><br><span class="meta">from ${esc(r.private.founded.date)}${r.private.founders?.length ? " · founders: " + r.private.founders.map(esc).join(", ") : ""}${r.private.outcome ? " · " + esc(r.private.outcome) : ""}</span>${srcs(r.private.sources)}</div>
-        </div>
-        <div class="meta">EVIDENCE</div>
-        ${byType.length ? `<ul class="ev">${byType.map((l) => `<li><span class="type ${l.type}">${TYPE_LABEL[l.type]}</span><span class="st">${esc(l.status).toUpperCase()}</span>${esc(l.claim)}${srcs(l.sources)}</li>`).join("")}</ul>` : `<p class="meta">No documented links.</p>`}
+      ${moneyChips(r.id)}
+      <details class="ev"><summary>EVIDENCE · ${evCount}</summary>
+        ${byType.length ? `<ul class="ev-list">${byType.map((l) => `<li><span class="type ${l.type}">${TYPE_LABEL[l.type]}</span><span class="st">${esc(l.status).toUpperCase()}</span>${esc(l.claim)}${srcs(l.sources)}</li>`).join("")}</ul>` : `<p class="meta">No documented links.</p>`}
         ${r.claims.length ? `<div class="meta" style="margin-top:12px;">CLAIMS EXAMINED</div>${r.claims.map((c) => `<div class="claim"><span class="badge as-${c.assessment}">${ASSESS[c.assessment]}</span>“${esc(c.claim)}”<br>${esc(c.explanation)}${srcs(c.sources)}</div>`).join("")}` : ""}
-      </div>
+      </details>
     </article>`;
   }).join("");
+}
+
+// ---- the tally: what went in, what was paid out, what it was worth ----
+function renderTally() {
+  const sec = document.getElementById("tally-sec");
+  if (!SPEND) { sec.hidden = true; return; }
+  sec.hidden = false;
+  const live = new Map(DATA.records.map((r) => [r.id, r]));
+  const T = SPEND.totals, Y = SPEND.base_year;
+  const title = (id) => esc(live.get(id)?.title || id);
+  const clip = (t, n) => (String(t).length > n ? String(t).slice(0, n - 1).replace(/\s+\S*$/, "") + "…" : String(t));
+  const orig = (m) => m.amount != null && m.currency ? `${money(m.amount, m.currency)} · ${esc(m.period || m.money_year)}` : esc(m.period || m.money_year);
+  const srcList = (m) => (m.sources || [{ url: m.url, publisher: m.publisher, date: m.date }]).map((x) => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.publisher)}${x.date ? ", " + esc(x.date) : ""}</a>`).join("; ");
+  const barList = (items, color) => {
+    const max = Math.max(...items.map((m) => m.usd));
+    return `<div class="bars">${items.map((m) => `
+      <div class="bar-row" style="--c:${color}">
+        <div class="who"><a href="#${m.id}">${title(m.id)}</a><small title="${esc(m.detail || m.what)}">${esc(m.what)}</small><span class="src">↳ ${srcList(m)}</span></div>
+        <div class="bar" style="width:${Math.max(0.8, (m.usd / max) * 100)}%"></div>
+        <div class="v">${money(m.usd)}<small>${orig(m)}</small></div>
+      </div>`).join("")}</div>`;
+  };
+  let html = "";
+  if (T.in.items.length) {
+    const top = T.in.items[0], rest = T.in.usd - top.usd;
+    html += `
+    <div class="tally-block">
+      <div class="k">PUBLIC MONEY IN, BEFORE PRIVATE OWNERS TOOK OVER</div>
+      <div class="big"><span class="num" data-odo="${T.in.usd}">${money(T.in.usd)}</span><span class="unit">IN ${Y} DOLLARS</span></div>
+      <p class="sub">What governments are documented to have put into ${T.in.items.length} of the ${T.in.of} documented handoffs (grades A and B) before or while handing them over. ${title(top.id)} is most of it, at ${money(top.usd)}; the other ${T.in.items.length - 1} come to ${money(rest)}. It is a floor: ${T.in.of - T.in.items.length} documented handoffs have no figure that passed the check, and many of the figures here are partial counts.</p>
+      ${barList(T.in.items, "#4de8ff")}
+    </div>`;
+  }
+  if (T.net.items.length) html += `
+    <div class="tally-block">
+      <div class="k">WHAT THE HANDOFF ITSELF COST THE PUBLIC</div>
+      <div class="big"><span class="num" data-odo="${T.net.usd}">${money(T.net.usd)}</span><span class="unit">IN ${Y} DOLLARS</span></div>
+      <p class="sub">Debts, deficits, liabilities, fees and buy-backs the state is documented to have carried to make a sale happen, or to undo one. This overlaps the money that went in (a deficit is what was spent less what came back), so the two are never added.</p>
+      ${barList(T.net.items, "#ffd84d")}
+    </div>`;
+  if (T.paid.items.length) html += `
+    <div class="tally-block">
+      <div class="k">PAID TO THE PRIVATE SUCCESSORS AFTERWARDS</div>
+      <div class="big"><span class="num" data-odo="${T.paid.usd}">${money(T.paid.usd)}</span><span class="unit">IN ${Y} DOLLARS</span></div>
+      <p class="sub">Where the public job went to a company, what the government is documented to have paid it for doing that job. Contract ceilings (“up to”) are shown on the case but never counted here.${T.back.items.length ? ` Paid back to the public in royalties on the same cases: ${money(T.back.usd)}.` : ""}</p>
+      ${barList(T.paid.items, "#39ff14")}
+    </div>`;
+  if (T.worth.length) html += `
+    <div class="tally-block">
+      <div class="k">WHAT THE STATE GOT ▸ WHAT IT BECAME</div>
+      <p class="sub">What the state was paid, beside each documented later price, valuation or underpricing, all in ${Y} dollars. There is no multiplier, because a sale and a later price rarely cover exactly the same thing; each line says what it covers.</p>
+      <div class="pairs">${T.worth.map((p) => `
+        <div class="pair"><div class="who"><a href="#${p.id}">${title(p.id)}</a></div>
+          <div class="flow">
+            <div class="fl"><span class="arrow mark">▣</span>${p.sold ? `<span class="sold">${money(p.sold.usd)}</span><small>the state was paid · ${orig(p.sold)}</small>` : `<span class="sold">—</span><small>what the state was paid is not documented</small>`}</div>
+            ${p.later.map((m) => `<div class="fl"><span class="arrow">══▶</span><span class="later">${m.usd != null ? money(m.usd) : money(m.amount, m.currency)}</span><small title="${esc(m.what)}">${esc(clip(m.what, 110))} · ${esc(m.money_year)}</small></div>`).join("")}
+            ${p.discount.map((m) => `<div class="fl"><span class="arrow">▼</span><span class="disc">${m.usd != null ? money(m.usd) : money(m.amount, m.currency)}</span><small title="${esc(m.what)}">underpriced: ${esc(clip(m.what, 100))} · ${esc(m.money_year)}</small></div>`).join("")}
+          </div>
+        </div>`).join("")}</div>
+    </div>`;
+  if (SPEND.benefited.length) html += `
+    <div class="tally-block">
+      <div class="k">WHO GAINED, BY THE RECORD</div>
+      <p class="sub">Where an auditor, court, scholar or major outlet says who came out ahead. Insider dealing is named only where a source names it.</p>
+      <ul class="quotes">${SPEND.benefited.map((b) => `<li><b>${title(b.id)}.</b> ${esc(b.what)} <i>“${esc(b.quote)}”</i><span class="src">↳ <a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.publisher)}${b.date ? ", " + esc(b.date) : ""}</a></span></li>`).join("")}</ul>
+    </div>`;
+  html += `<p class="note">${esc(SPEND.method)}</p>`;
+  document.getElementById("tally").innerHTML = html;
+  const sm = document.getElementById("spend-method");
+  sm.hidden = false;
+  sm.innerHTML = `<b>The tally</b> uses only figures found on their cited page: the page is fetched, the quote must be on it, and the amount must be one the quote states. Kinds of money are never added together, and a case counts once in each. ${esc(SPEND.method)}`;
+  odometers();
+}
+
+// the big totals roll in like a mechanical counter the first time they are seen
+function odometers() {
+  const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const nums = [...document.querySelectorAll("[data-odo]")];
+  if (reduced || !("IntersectionObserver" in window)) return;
+  const io = new IntersectionObserver((es) => {
+    for (const e of es) {
+      if (!e.isIntersecting) continue;
+      io.unobserve(e.target);
+      const el = e.target, target = Number(el.dataset.odo), final = el.textContent;
+      const t0 = performance.now(), dur = 1400;
+      const glyphs = "0123456789$#%&";
+      const tick = (now) => {
+        const k = Math.min(1, (now - t0) / dur), ease = 1 - Math.pow(1 - k, 3);
+        if (k < 1) {
+          const shown = money(target * ease);
+          // digits not yet settled flicker through the counter's glyphs
+          el.textContent = shown.replace(/\d/g, (d, i) => (Math.random() < (1 - k) * 0.5 ? glyphs[(Math.random() * glyphs.length) | 0] : d));
+          requestAnimationFrame(tick);
+        } else el.textContent = final;
+      };
+      requestAnimationFrame(tick);
+    }
+  }, { threshold: 0.6 });
+  nums.forEach((n) => io.observe(n));
 }
 
 function render() {
@@ -260,17 +547,25 @@ document.getElementById("controls").addEventListener("click", (e) => {
 document.getElementById("pattern").addEventListener("change", (e) => { filters.pattern = e.target.value; render(); });
 document.getElementById("country").addEventListener("change", (e) => { filters.country = e.target.value; render(); });
 document.getElementById("q").addEventListener("input", (e) => { filters.q = e.target.value.trim(); render(); });
-document.getElementById("timeline").addEventListener("click", (e) => {
-  const row = e.target.closest(".row");
-  if (row) document.getElementById(row.dataset.id)?.scrollIntoView({ behavior: "smooth" });
-});
 
-fetch("data/handoffs.json").then((r) => (r.ok ? r.json() : { records: [] })).catch(() => ({ records: [] })).then((d) => {
-  DATA = d;
+const load = (u) => fetch(u).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+Promise.all([load("data/handoffs.json"), load("data/handoff-spend.json")]).then(([d, s]) => {
+  DATA = d || { records: [] };
+  if (s) {
+    // index the verified figures by case, for the transfer orders
+    s.byCase = {};
+    for (const m of s.measures) (s.byCase[m.id] ||= []).push(m);
+    SPEND = s;
+  }
   renderGrades();
+  renderTally();
   render();
+  // the printer reads the same cases, and prints the documented total last
+  const total = SPEND && SPEND.totals.in.items.length ? `PUBLIC MONEY IN, DOCUMENTED (${SPEND.base_year} $) .... ${money(SPEND.totals.in.usd)}` : "";
+  window.dispatchEvent(new CustomEvent("handoffs-ready", { detail: { records: DATA.records, total } }));
   if (location.hash) setTimeout(() => document.getElementById(location.hash.slice(1))?.scrollIntoView(), 50);
 });
 </script>
+<script src="js/handoff-printer.js" defer></script>
 </body>
 </html>

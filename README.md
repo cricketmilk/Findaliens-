@@ -134,6 +134,31 @@ account id one glob away from going with them. A directory allowlist cannot
 regress the way an `.assetsignore` blocklist can — anything not in `public/` is
 unreachable by construction.
 
+## Crash Conduits
+
+`public/crash-conduits.html` keeps the legacy atlas and loads seventeen source-linked
+financial-engineering entries from `public/js/crash-finance-data.js` (85 entries total).
+These include petrodollar recycling, U.S.–Saudi economic cooperation, the end of gold
+convertibility, offshore dollar funding, benchmark manipulation, leveraged lending,
+BEPS, repo stress, AIG, municipal swaps, sovereign holdouts, trade finance and backstops.
+Each addition includes exact source links and limits on what those sources establish.
+The same data file holds whole-object legacy replacements in `auditedLegacyNodes`,
+including historical bubbles, bank rescues, sovereign debt crises and enforcement cases.
+Corrections identify source-supported participant roles and distinguish dated charging
+accounts, settlements, supervisory findings, sentencing reports and historical synthesis.
+Run `node research/audit-crash.mjs` for current coverage or add `--pending` for the
+remaining queue; its schema checks are not factual verification. `applyLegacyAudits(nodes)` runs before indexing
+in both the browser and extractor, preserving IDs while removing unsupported narratives.
+Sources include historical research and explicitly labeled secondary references; a linked
+source does not mean every underlying primary record has been independently verified.
+Older entries without item-level citations are marked **source audit pending**;
+recurring participant counts measure mentions, not culpability. Coverage is not exhaustive.
+
+After changing atlas data, run `node research/extract-entities.mjs` to regenerate
+The Web's entity/co-mention index; this does not approve researched connections.
+Run `node --test crash-conduits.test.mjs from-trove.test.mjs` for offline regression
+checks. For repeat audit passes, read `research/CRASH-AUDIT.md`. Preview by serving `public/`, not the repository root. No deploy is automatic.
+
 ## Verifying
 
 `check.py` asserts the site serves, the sprite is the pixel one rather than the

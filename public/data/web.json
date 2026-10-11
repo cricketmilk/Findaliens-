@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T23:12:18.099Z",
+  "updated": "2026-10-11T22:44:55.819Z",
   "note": "Approved by a person in research/review.mjs. Every item carries its sources.",
   "summaries": {
     "american-petroleum-institute": {
@@ -1251,21 +1251,6 @@
     },
     {
       "entity": "andreessen-horowitz",
-      "claim": "FEC filings show that AH Capital Management, Andreessen Horowitz's management company, contributed $67 million to the Fairshake super PAC between October 2023 and November 2024, attributed in memo entries equally to Marc Andreessen and Ben Horowitz. It contributed a further $23.8 million in December 2025.",
-      "status": "documented",
-      "date": null,
-      "sources": [
-        {
-          "url": "https://www.fec.gov/data/receipts/?committee_id=C00835959&contributor_name=AH+Capital+Management",
-          "publisher": "Federal Election Commission",
-          "title": "Individual contributions to Fairshake from AH Capital Management",
-          "date": ""
-        }
-      ],
-      "approvedAt": "2026-10-08T18:17:01.297Z"
-    },
-    {
-      "entity": "andreessen-horowitz",
       "claim": "On October 16, 2023, Marc Andreessen published 'The Techno-Optimist Manifesto' on a16z's website. It states that 'any deceleration of AI will cost lives' and that 'Deaths that were preventable by the AI that was prevented from existing is a form of murder.' It also names ideas including 'existential risk', 'trust and safety', 'tech ethics' and the 'Precautionary Principle' as 'enemies', and states 'Our enemy is deceleration'.",
       "status": "words",
       "date": null,
@@ -1950,33 +1935,6 @@
     },
     {
       "entity": "david-sacks",
-      "claim": "Sacks founded the genealogy site Geni in June 2006. It raised $16.5 million from Founders Fund and Charles River Ventures. Yammer was developed inside Geni. Sacks stepped down as Geni CEO in 2011, and MyHeritage bought Geni in November 2012 in what TechCrunch, citing MyHeritage investor Index, called an eight-figure cash-and-equity deal. Sacks joined MyHeritage's board.",
-      "status": "reported",
-      "date": "2006-06",
-      "sources": [
-        {
-          "url": "https://venturebeat.com/ai/myheritage-acquires-geni-and-25m-to-build-family-tree-of-the-whole-world",
-          "publisher": "VentureBeat",
-          "title": "MyHeritage acquires Geni and $25M to build family tree of the whole world",
-          "date": "2012-11-28"
-        },
-        {
-          "url": "https://techcrunch.com/2012/11/28/all-in-the-family-myheritage-buys-former-yammer-stablemate-geni-com-raises-25m",
-          "publisher": "TechCrunch",
-          "title": "All In The Family: MyHeritage Buys Former Yammer Stablemate Geni.com In An 8-Figure Deal, Raises $25M",
-          "date": "2012-11-28"
-        },
-        {
-          "url": "https://techcrunch.com/2007/01/12/paypal-pulp-fiction-and-geni/",
-          "publisher": "TechCrunch",
-          "title": "PayPal, Pulp Fiction and Geni",
-          "date": "2007-01-12"
-        }
-      ],
-      "approvedAt": "2026-10-08T22:20:46.594Z"
-    },
-    {
-      "entity": "david-sacks",
       "claim": "Yammer, launched in 2008, raised an $85 million round led by DFJ Growth in February 2012. Earlier backers named in the report were Founders Fund, Charles River Ventures, Emergence Capital, Social+Capital Partnership and U.S. Venture Partners; individuals included Max Levchin and Bill Lee. The company had raised $142 million in total and did not disclose its valuation.",
       "status": "reported",
       "date": "2012-02-29",
@@ -2276,40 +2234,19 @@
       "date": "2025-03-05",
       "sources": [
         {
-          "url": "https://www.whitehouse.gov/wp-content/uploads/2025/03/Memo-David-Sacks-3.5.2025-1.pdf",
-          "publisher": "The White House",
-          "title": "Memorandum for David O. Sacks: Limited Waiver Pursuant to 18 U.S.C. § 208(b)(1)",
-          "date": "2025-03-05"
-        },
-        {
           "url": "https://www.levernews.com/trump-issues-ethics-waiver-for-his-ai-crypto-czar/",
           "publisher": "The Lever",
           "title": "Trump Issues Ethics Waiver For His AI/Crypto Czar",
           "date": "2025-03-13"
-        }
-      ],
-      "approvedAt": "2026-10-08T23:04:58.168Z"
-    },
-    {
-      "entity": "david-sacks",
-      "claim": "The waiver memo lists the divestments: he and Craft sold all liquid cryptocurrency, including Bitcoin, Ethereum and Solana, before January 20, 2025, and he sold his Bitwise 10 Crypto Index Fund position on January 22. He sold his Coinbase and Robinhood stock and sold, or began selling, his shares in private digital-asset companies. He sold LP interests in Multicoin Capital and Blockchain Capital, and Craft sold its interests in Multicoin Capital and Bitwise Asset Management. He also began selling his LP interests in Sequoia funds and about 90 other venture funds as a precaution.",
-      "status": "documented",
-      "date": "2025-03-05",
-      "sources": [
+        },
         {
           "url": "https://www.whitehouse.gov/wp-content/uploads/2025/03/Memo-David-Sacks-3.5.2025-1.pdf",
           "publisher": "The White House",
           "title": "Memorandum for David O. Sacks: Limited Waiver Pursuant to 18 U.S.C. § 208(b)(1)",
           "date": "2025-03-05"
-        },
-        {
-          "url": "https://kakapo.decrypt.co/308437/white-house-crypto-czar-david-sacks-confirms-he-sold-digital-assets-before-taking-role",
-          "publisher": "Decrypt",
-          "title": "White House Crypto Czar David Sacks Confirms He Sold Digital Assets Before Taking Role",
-          "date": "2025-03-03"
         }
       ],
-      "approvedAt": "2026-10-08T23:04:58.168Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "entity": "david-sacks",
@@ -2468,19 +2405,19 @@
       "date": "1986",
       "sources": [
         {
-          "url": "https://www.insidehook.com/culture/errol-musk-elon-father-myths",
-          "publisher": "InsideHook",
-          "title": "Everything to Know About Errol Musk, Elon Musk's \"Brilliant,\" \"Terrible\" Father",
-          "date": "2022-08-01"
-        },
-        {
           "url": "https://ca.news.yahoo.com/elon-musk-really-telling-truth-105244327.html",
           "publisher": "Business Insider (via Yahoo News)",
           "title": "Elon Musk really was telling the truth by saying his father Errol never owned an emerald mine, biographer says",
           "date": "2023-09-12"
+        },
+        {
+          "url": "https://www.insidehook.com/culture/errol-musk-elon-father-myths",
+          "publisher": "InsideHook",
+          "title": "Everything to Know About Errol Musk, Elon Musk's \"Brilliant,\" \"Terrible\" Father",
+          "date": "2022-08-01"
         }
       ],
-      "approvedAt": "2026-10-08T22:04:50.413Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "entity": "elon-musk",
@@ -2514,15 +2451,9 @@
           "publisher": "Entrepreneur",
           "title": "Who Is Elon Musk's Dad, Errol Musk? (by Gabrielle Bienasz)",
           "date": "2022-07-15"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Zip2",
-          "publisher": "Wikipedia",
-          "title": "Zip2",
-          "date": "2026"
         }
       ],
-      "approvedAt": "2026-10-08T22:04:50.413Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "entity": "elon-musk",
@@ -2573,19 +2504,19 @@
           "date": "2022-11-03"
         },
         {
-          "url": "https://stanforddaily.com/2024/11/11/elon-musk-stanford-work-status/",
-          "publisher": "The Stanford Daily",
-          "title": "Elon Musk's brief Stanford affiliation raises questions about previous immigration status",
-          "date": "2024-11-11"
-        },
-        {
           "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205701533855/a2059025zs-1.htm",
           "publisher": "U.S. Securities and Exchange Commission",
           "title": "PayPal, Inc. Form S-1 registration statement",
           "date": "2001"
+        },
+        {
+          "url": "https://stanforddaily.com/2024/11/11/elon-musk-stanford-work-status/",
+          "publisher": "The Stanford Daily",
+          "title": "Elon Musk's brief Stanford affiliation raises questions about previous immigration status",
+          "date": "2024-11-11"
         }
       ],
-      "approvedAt": "2026-10-08T21:57:32.114Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "entity": "elon-musk",
@@ -2625,30 +2556,9 @@
           "publisher": "U.S. Securities and Exchange Commission",
           "title": "AltaVista Co. Form S-1",
           "date": "1999"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Zip2",
-          "publisher": "Wikipedia",
-          "title": "Zip2",
-          "date": "2026"
         }
       ],
-      "approvedAt": "2026-10-08T21:57:32.114Z"
-    },
-    {
-      "entity": "elon-musk",
-      "claim": "Musk received about $22 million from the Zip2 sale for his roughly 7% stake, according to Ashlee Vance's biography as cited by Wikipedia.",
-      "status": "reported",
-      "date": "1999",
-      "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Business_career_of_Elon_Musk",
-          "publisher": "Wikipedia",
-          "title": "Business career of Elon Musk",
-          "date": "2026"
-        }
-      ],
-      "approvedAt": "2026-10-08T21:57:32.114Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "entity": "elon-musk",
@@ -2718,15 +2628,9 @@
           "publisher": "Fox Business",
           "title": "Elon Musk was dethroned by Peter Thiel in a coup led by the 'PayPal Mafia'",
           "date": "2023-09-15"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Business_career_of_Elon_Musk",
-          "publisher": "Wikipedia",
-          "title": "Business career of Elon Musk",
-          "date": "2026"
         }
       ],
-      "approvedAt": "2026-10-08T21:57:32.114Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "entity": "elon-musk",
@@ -2787,15 +2691,9 @@
           "publisher": "U.S. Securities and Exchange Commission",
           "title": "PayPal, Inc. Form 8-K, Exhibit 99.1: eBay Completes PayPal Acquisition",
           "date": "2002-10-03"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Business_career_of_Elon_Musk",
-          "publisher": "Wikipedia",
-          "title": "Business career of Elon Musk",
-          "date": "2026"
         }
       ],
-      "approvedAt": "2026-10-08T22:04:50.413Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "entity": "exxonmobil",
@@ -4425,19 +4323,19 @@
           "date": "2020-12-09"
         },
         {
-          "url": "https://ag.ny.gov/press-release/2020/attorney-general-james-leads-multistate-lawsuit-seeking-end-facebooks-illegal",
-          "publisher": "New York State Attorney General",
-          "title": "Attorney General James Leads Multistate Lawsuit Seeking to End Facebook's Illegal Monopoly",
-          "date": "2020-12-09"
-        },
-        {
           "url": "https://siliconangle.com/2025/11/18/judge-rules-whatsapp-instagram-acquisitions-arent-monopolization/",
           "publisher": "SiliconANGLE",
           "title": "Judge rules WhatsApp, Instagram acquisitions aren't monopolization",
           "date": "2025-11-18"
+        },
+        {
+          "url": "https://ag.ny.gov/press-release/2020/attorney-general-james-leads-multistate-lawsuit-seeking-end-facebooks-illegal",
+          "publisher": "New York State Attorney General",
+          "title": "Attorney General James Leads Multistate Lawsuit Seeking to End Facebook's Illegal Monopoly",
+          "date": "2020-12-09"
         }
       ],
-      "approvedAt": "2026-10-08T18:17:01.297Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "entity": "meta",
@@ -4905,51 +4803,6 @@
     },
     {
       "entity": "paypal-bonus-abuse",
-      "claim": "Eric M. Jackson, a former PayPal marketing employee, wrote that after the March 2000 merger, X.com CEO Bill Harris told staff the company had realized immediate cost savings by eliminating X.com's $20 new-user bonus and cutting PayPal's bonus in half to $5. The book presents the cuts as cost control, not as a response to abuse. Elsewhere Jackson says X.com had offered new customers a $20 deposit and paid $10 per referral.",
-      "status": "reported",
-      "date": "2000",
-      "sources": [
-        {
-          "url": "https://archive.org/details/paypalwarsbattle0000jack",
-          "publisher": "World Ahead Publishing (Eric M. Jackson; text via Internet Archive full-text search)",
-          "title": "The PayPal Wars: Battles with eBay, the Media, the Mafia, and the Rest of Planet Earth",
-          "date": "2004"
-        }
-      ],
-      "approvedAt": "2026-10-08T22:58:04.275Z"
-    },
-    {
-      "entity": "paypal-bonus-abuse",
-      "claim": "Jackson wrote that one fraud ring opened fraudulent PayPal accounts and used them to take nearly $6 million out of the system in mid-2000. He describes Russian and Nigerian groups running up online card charges for which X.com/PayPal, as the merchant, was liable. The passages found describe stolen-card fraud, not bonus collection.",
-      "status": "reported",
-      "date": "2000",
-      "sources": [
-        {
-          "url": "https://archive.org/details/paypalwarsbattle0000jack",
-          "publisher": "World Ahead Publishing (Eric M. Jackson; text via Internet Archive full-text search)",
-          "title": "The PayPal Wars: Battles with eBay, the Media, the Mafia, and the Rest of Planet Earth",
-          "date": "2004"
-        }
-      ],
-      "approvedAt": "2026-10-08T22:58:04.275Z"
-    },
-    {
-      "entity": "paypal-bonus-abuse",
-      "claim": "Jackson describes the Gausebeck-Levchin test, an addition to the sign-up process built by Levchin and engineer David Gausebeck, as making the automated opening of accounts linked to stolen credit cards effectively impossible. He links the test to stolen cards, not to bonus collection.",
-      "status": "reported",
-      "date": "2000",
-      "sources": [
-        {
-          "url": "https://archive.org/details/paypalwarsbattle0000jack",
-          "publisher": "World Ahead Publishing (Eric M. Jackson; text via Internet Archive full-text search)",
-          "title": "The PayPal Wars: Battles with eBay, the Media, the Mafia, and the Rest of Planet Earth",
-          "date": "2004"
-        }
-      ],
-      "approvedAt": "2026-10-08T22:58:04.275Z"
-    },
-    {
-      "entity": "paypal-bonus-abuse",
       "claim": "In a 2023 Sequoia podcast, author Jimmy Soni said that one kind of fraud PayPal faced was bots creating fake accounts by the hundreds to collect its bonus payments. This was the only source found that names bonus collection as a purpose of the automated accounts. He gave no figure for bonus losses. He said overall fraud at one point exceeded $10 million a month.",
       "status": "words",
       "date": "2000",
@@ -5021,61 +4874,19 @@
       "date": "2000",
       "sources": [
         {
-          "url": "https://www.americanbanker.com/news/how-a-scam-artist-helped-the-art-of-monitoring",
-          "publisher": "American Banker",
-          "title": "How a Scam Artist Helped the Art of Monitoring",
-          "date": "2006-08-28"
-        },
-        {
           "url": "https://www.technologyreview.com/innovator/max-levchin/",
           "publisher": "MIT Technology Review",
           "title": "Max Levchin (2002 Innovators Under 35 / Innovator of the Year)",
           "date": "2002-06-01"
-        }
-      ],
-      "approvedAt": "2026-10-08T22:58:04.275Z"
-    },
-    {
-      "entity": "paypal-bonus-abuse",
-      "claim": "Adam Penenberg's 2009 book Viral Loop says one of Levchin's fraud adversaries was a Russian who had set up thousands of PayPal accounts under the name 'Gregory Stivinson'. The passages found do not say whether those accounts were used for stolen cards or for bonuses.",
-      "status": "reported",
-      "date": "2000",
-      "sources": [
-        {
-          "url": "https://archive.org/details/virallooppowerof0000pene",
-          "publisher": "Sceptre (Adam L. Penenberg; text via Internet Archive full-text search)",
-          "title": "Viral Loop: The Power of Pass-It-On",
-          "date": "2009"
-        }
-      ],
-      "approvedAt": "2026-10-08T22:58:04.275Z"
-    },
-    {
-      "entity": "paypal-bonus-abuse",
-      "claim": "Contemporary coverage of PayPal's fraud work does not describe abuse of sign-up or referral bonuses. Newsweek (July 2001) and MIT Technology Review (December 2001) describe stolen-card fraud, the Igor system and arrests; InfoWorld (December 2002) describes the Igor system. Technology Review noted only that the $10 sign-up incentive had been cut to $5.",
-      "status": "reported",
-      "date": "2001-12-01",
-      "sources": [
-        {
-          "url": "https://www.technologyreview.com/2001/12/01/235339/digital-cash-payoff/",
-          "publisher": "MIT Technology Review",
-          "title": "Digital Cash Payoff",
-          "date": "2001-12-01"
         },
         {
-          "url": "https://www.paypalobjects.com/html/newsweek-071601.html",
-          "publisher": "Newsweek (reprint hosted by PayPal)",
-          "title": "Busting the Web Bandits",
-          "date": "2001-07-16"
-        },
-        {
-          "url": "https://www.infoworld.com/article/2232386/max-levchin-paypal.html",
-          "publisher": "InfoWorld",
-          "title": "Max Levchin, PayPal",
-          "date": "2002-12-06"
+          "url": "https://www.americanbanker.com/news/how-a-scam-artist-helped-the-art-of-monitoring",
+          "publisher": "American Banker",
+          "title": "How a Scam Artist Helped the Art of Monitoring",
+          "date": "2006-08-28"
         }
       ],
-      "approvedAt": "2026-10-08T22:58:04.275Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "entity": "paypal-bonus-abuse",
@@ -5994,33 +5805,6 @@
     },
     {
       "entity": "peter-thiel",
-      "claim": "Founders Fund, where Thiel is a partner, invested $20 million in SpaceX in 2008. Separately, in 2006 Thiel pledged $3.5 million to the Methuselah Foundation, a nonprofit, for anti-aging research.",
-      "status": "reported",
-      "date": null,
-      "sources": [
-        {
-          "url": "https://www.satellitetoday.com/connectivity/2008/08/05/spacex-receives-20-million-investment/",
-          "publisher": "Via Satellite",
-          "title": "SpaceX Receives $20 Million Investment",
-          "date": "2008-08-05"
-        },
-        {
-          "url": "https://www.philanthropy.com/news/entrepreneur-gives-35-million-for-anti-aging-research/",
-          "publisher": "The Chronicle of Philanthropy",
-          "title": "Entrepreneur Gives $3.5-Million for Anti-Aging Research",
-          "date": "2006-09-18"
-        },
-        {
-          "url": "https://foundersfund.com/team/peter-thiel/",
-          "publisher": "Founders Fund",
-          "title": "Peter Thiel (team biography)",
-          "date": ""
-        }
-      ],
-      "approvedAt": "2026-10-08T18:17:01.297Z"
-    },
-    {
-      "entity": "peter-thiel",
       "claim": "Thiel was born in Frankfurt in 1967. His father, Klaus, was a chemical engineer whose work took the family abroad, and Thiel attended seven elementary schools in California, Namibia, Ohio and South Africa. The family settled in Foster City, California; Fortune puts the move to the Bay Area in 1977, when he was 10.",
       "status": "reported",
       "date": "1967-1977",
@@ -6137,18 +5921,6 @@
       "date": "1995",
       "sources": [
         {
-          "url": "https://openlibrary.org/books/OL824238M",
-          "publisher": "Open Library",
-          "title": "The diversity myth (1995 edition record, LCCN 95080321)",
-          "date": "1995"
-        },
-        {
-          "url": "https://independent.org/store/book.asp?f=hc&id=38",
-          "publisher": "The Independent Institute",
-          "title": "The Diversity Myth (publisher's book page)",
-          "date": "1995"
-        },
-        {
           "url": "https://newrepublic.com/article/164768/peter-thiel-networks-contrarian-book-review",
           "publisher": "The New Republic",
           "title": "The Making of Peter Thiel's Networks: A Review of Max Chafkin's 'The Contrarian'",
@@ -6159,36 +5931,21 @@
           "publisher": "Philanthropy Daily",
           "title": "The Contrarian, his Fellows, and boldness (by Michael E. Hartmann)",
           "date": "2021-09-27"
-        }
-      ],
-      "approvedAt": "2026-10-08T22:04:50.413Z"
-    },
-    {
-      "entity": "peter-thiel",
-      "claim": "Thiel has been managing member of Thiel Capital Management, LLC since September 1996. Bloomberg Markets reports that he started it as a macro fund with $1 million raised from friends and family, struggled to attract investors without a track record, and had more than $4 million under management by early 1998. No public record found of its investors' names or its trades during the 1997 Asian crisis or the 1998 Russian default and LTCM collapse.",
-      "status": "reported",
-      "date": "1996-1998",
-      "sources": [
-        {
-          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205702006471/a2071068z424b4.htm",
-          "publisher": "U.S. Securities and Exchange Commission (PayPal filing)",
-          "title": "PayPal, Inc. Prospectus (Form 424B4), initial public offering",
-          "date": "2002-02-14"
         },
         {
-          "url": "https://celestri.org/wp-content/uploads/2011/01/peter_thiel1.pdf",
-          "publisher": "Bloomberg Markets",
-          "title": "Macro Man, by Deepak Gopinath (copy hosted by celestri.org)",
-          "date": "2007-01"
+          "url": "https://openlibrary.org/books/OL824238M",
+          "publisher": "Open Library",
+          "title": "The diversity myth (1995 edition record, LCCN 95080321)",
+          "date": "1995"
         },
         {
-          "url": "https://fortune.com/2014/09/04/peter-thiels-contrarian-strategy/",
-          "publisher": "Fortune",
-          "title": "Peter Thiel disagrees with you",
-          "date": "2014-09-04"
+          "url": "https://independent.org/store/book.asp?f=hc&id=38",
+          "publisher": "The Independent Institute",
+          "title": "The Diversity Myth (publisher's book page)",
+          "date": "1995"
         }
       ],
-      "approvedAt": "2026-10-08T21:57:32.114Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "entity": "peter-thiel",
@@ -6432,27 +6189,6 @@
           "publisher": "Greylock",
           "title": "Reid Hoffman (partner biography)",
           "date": ""
-        }
-      ],
-      "approvedAt": "2026-10-08T18:17:01.297Z"
-    },
-    {
-      "entity": "reid-hoffman",
-      "claim": "In 2004, Sean Parker contacted Hoffman about investing in Facebook. Hoffman has said he chose not to lead the round because of how his roles at LinkedIn and Friendster might look, suggested that Peter Thiel lead it instead, and invested himself. TechCrunch reported his stake as $37,500.",
-      "status": "reported",
-      "date": "2004-06-01",
-      "sources": [
-        {
-          "url": "https://achievement.org/video/reid-hoffman-31/",
-          "publisher": "Academy of Achievement",
-          "title": "Reid Hoffman interview (on the 2004 Facebook round)",
-          "date": ""
-        },
-        {
-          "url": "https://techcrunch.com/2012/09/10/reid-hoffman-invested-37500-into-facebook-at-a-5m-valuation/",
-          "publisher": "TechCrunch",
-          "title": "Reid Hoffman Invested $37,500 Into Facebook At A $5M Valuation",
-          "date": "2012-09-10"
         }
       ],
       "approvedAt": "2026-10-08T18:17:01.297Z"
@@ -6766,19 +6502,19 @@
       "date": "2024-09-04",
       "sources": [
         {
-          "url": "https://www.gov.uk/cma-cases/microsoft-slash-inflection-ai-inquiry",
-          "publisher": "UK Competition and Markets Authority",
-          "title": "Microsoft / Inflection inquiry (case page)",
-          "date": "2024-09-04"
-        },
-        {
           "url": "https://techcrunch.com/2024/09/04/uk-regulator-greenlights-microsofts-inflection-acquihire-but-also-designates-it-a-merger",
           "publisher": "TechCrunch",
           "title": "UK regulator greenlights Microsoft's Inflection acquihire, but also designates it a merger",
           "date": "2024-09-04"
+        },
+        {
+          "url": "https://www.gov.uk/cma-cases/microsoft-slash-inflection-ai-inquiry",
+          "publisher": "UK Competition and Markets Authority",
+          "title": "Microsoft / Inflection inquiry (case page)",
+          "date": "2024-09-04"
         }
       ],
-      "approvedAt": "2026-10-08T22:20:46.594Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "entity": "reid-hoffman",
@@ -7356,19 +7092,19 @@
       "date": "2026-02-05",
       "sources": [
         {
-          "url": "https://www.sec.gov/Archives/edgar/data/1906948/000206235726000016/xslFormDX01/primary_doc.xml",
-          "publisher": "SEC",
-          "title": "Form D/A: Sequoia Capital Fund, L.P.",
-          "date": "2026-02-05"
-        },
-        {
           "url": "https://www.sec.gov/Archives/edgar/data/1906966/000206235726000018/xslFormDX01/primary_doc.xml",
           "publisher": "SEC",
           "title": "Form D/A: Sequoia Capital Fund Feeder, L.P.",
           "date": "2026-02-05"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1906948/000206235726000016/xslFormDX01/primary_doc.xml",
+          "publisher": "SEC",
+          "title": "Form D/A: Sequoia Capital Fund, L.P.",
+          "date": "2026-02-05"
         }
       ],
-      "approvedAt": "2026-10-08T22:20:46.594Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "entity": "sequoia-capital",
@@ -7398,6 +7134,12 @@
       "date": "2018-04",
       "sources": [
         {
+          "url": "https://www.sib.wa.gov/docs/reports/annual/ar23.pdf",
+          "publisher": "Washington State Investment Board",
+          "title": "Forty-Second Annual Report, fiscal year ended June 30, 2023",
+          "date": "2023"
+        },
+        {
           "url": "https://www.buyoutsinsider.com/to-reach-lofty-fund-goal-sequoia-needs-big-lps-it-once-shunned-public-pensions/",
           "publisher": "Buyouts / PE Hub",
           "title": "To reach lofty fund goal, Sequoia needs big LPs it once-shunned: public pensions",
@@ -7408,15 +7150,9 @@
           "publisher": "Buyouts",
           "title": "Washington looks to be first public pension LP to back Sequoia's megafund",
           "date": "2018-04-23"
-        },
-        {
-          "url": "https://www.sib.wa.gov/docs/reports/annual/ar23.pdf",
-          "publisher": "Washington State Investment Board",
-          "title": "Forty-Second Annual Report, fiscal year ended June 30, 2023",
-          "date": "2023"
         }
       ],
-      "approvedAt": "2026-10-08T22:20:46.594Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "entity": "sequoia-capital",
@@ -7545,20 +7281,6 @@
     },
     {
       "entity": "sequoia-capital",
-      "claim": "Sequoia's lobbying reports list $360,000 in fees for 2024, $240,000 for 2025 and $120,000 for the first half of 2026, a total of $720,000. The federal lobbying database shows no filings for a client named Sequoia Capital before 2024.",
-      "status": "documented",
-      "date": "2026-07-16",
-      "sources": [
-        {
-          "url": "https://lda.gov/api/v1/filings/?client_name=Sequoia%20Capital",
-          "publisher": "Lobbying Disclosure Act database (lda.gov)",
-          "title": "Filings with client name 'Sequoia Capital' (11 filings, 2024 Q1 to 2026 Q2)"
-        }
-      ],
-      "approvedAt": "2026-10-08T22:35:16.554Z"
-    },
-    {
-      "entity": "sequoia-capital",
       "claim": "Sequoia told its limited partners in November 2022 that it was marking its $214 million FTX investment, made in July 2021, down to $0. About $150 million was in Global Growth Fund III and $63.5 million in its SCGE public-equities fund. The letter said the loss was offset by about $7.5 billion in gains in the same growth fund.",
       "status": "reported",
       "date": "2022-11-10",
@@ -7645,19 +7367,19 @@
       "date": "2024-05-31",
       "sources": [
         {
-          "url": "https://www.timeslive.co.za/news/world/2024-05-31-trump-guilty-verdict-fires-up-republican-donors-who-pledge-millions/",
-          "publisher": "Reuters (via TimesLIVE)",
-          "title": "Trump guilty verdict fires up Republican donors, who pledge millions",
-          "date": "2024-05-31"
-        },
-        {
           "url": "https://www.yahoo.com/news/shaun-maguire-vc-partner-facing-205941199.html",
           "publisher": "Business Insider (via Yahoo News)",
           "title": "Who is Shaun Maguire, the VC partner facing backlash over his remarks about Zohran Mamdani",
           "date": "2025-07-08"
+        },
+        {
+          "url": "https://www.timeslive.co.za/news/world/2024-05-31-trump-guilty-verdict-fires-up-republican-donors-who-pledge-millions/",
+          "publisher": "Reuters (via TimesLIVE)",
+          "title": "Trump guilty verdict fires up Republican donors, who pledge millions",
+          "date": "2024-05-31"
         }
       ],
-      "approvedAt": "2026-10-08T22:35:16.554Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "entity": "sequoia-capital",
@@ -7886,19 +7608,19 @@
       "date": "2015-05-06; 2016-04-12",
       "sources": [
         {
-          "url": "https://fortune.com/2015/05/06/affirm-raises-275-million",
-          "publisher": "Fortune",
-          "title": "PayPal co-founder raises $275 million to reinvent credit",
-          "date": "2015-05-06"
-        },
-        {
           "url": "https://fortune.com/2016/04/12/affirm-funding",
           "publisher": "Fortune",
           "title": "PayPal Co-Founder’s Affirm Raises $100 Million To Reinvent Credit",
           "date": "2016-04-12"
+        },
+        {
+          "url": "https://fortune.com/2015/05/06/affirm-raises-275-million",
+          "publisher": "Fortune",
+          "title": "PayPal co-founder raises $275 million to reinvent credit",
+          "date": "2015-05-06"
         }
       ],
-      "approvedAt": "2026-10-08T22:20:46.594Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "from": "andreessen-horowitz",
@@ -8280,19 +8002,19 @@
           "date": "2019-10-15"
         },
         {
-          "url": "https://pulse2.com/craft-ventures-1-32-billion-closed-for-craft-ventures-iv-and-growth-ii",
-          "publisher": "Pulse 2.0",
-          "title": "Craft Ventures: $1.32 Billion Closed For Craft Ventures IV and Growth II",
-          "date": "2023-11-21"
-        },
-        {
           "url": "https://www.insurancejournal.com/news/national/2024/12/06/803861.htm",
           "publisher": "Insurance Journal",
           "title": "Trump Names David Sacks as White House AI and Crypto Czar",
           "date": "2024-12-06"
+        },
+        {
+          "url": "https://pulse2.com/craft-ventures-1-32-billion-closed-for-craft-ventures-iv-and-growth-ii",
+          "publisher": "Pulse 2.0",
+          "title": "Craft Ventures: $1.32 Billion Closed For Craft Ventures IV and Growth II",
+          "date": "2023-11-21"
         }
       ],
-      "approvedAt": "2026-10-08T22:20:46.594Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "from": "david-sacks",
@@ -8360,19 +8082,19 @@
       "date": "2016-02-08",
       "sources": [
         {
-          "url": "https://fortune.com/2016/02/08/zenefits-parker-conrad-resigns/",
-          "publisher": "Fortune",
-          "title": "Zenefits CEO Steps Down Over Regulatory Problems",
-          "date": "2016-02-08"
-        },
-        {
           "url": "https://www.sec.gov/files/litigation/admin/2017/33-10429.pdf",
           "publisher": "SEC",
           "title": "In the Matter of YourPeople, Inc., dba Zenefits FTW Insurance Services and Parker Conrad (Release No. 33-10429)",
           "date": "2017-10-26"
+        },
+        {
+          "url": "https://fortune.com/2016/02/08/zenefits-parker-conrad-resigns/",
+          "publisher": "Fortune",
+          "title": "Zenefits CEO Steps Down Over Regulatory Problems",
+          "date": "2016-02-08"
         }
       ],
-      "approvedAt": "2026-10-08T23:04:58.168Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "from": "founders-fund",
@@ -8410,29 +8132,6 @@
           "publisher": "SEC",
           "title": "eBay Inc. Amendment No. 1 to Form S-4 (PayPal merger proxy statement/prospectus)",
           "date": "2002-08-28"
-        }
-      ],
-      "approvedAt": "2026-10-08T22:20:46.594Z"
-    },
-    {
-      "from": "david-sacks",
-      "to": "bitgo",
-      "relation": "board member of",
-      "claim": "Invested in BitGo's December 2017 round and joined its board. BitGo was still a Craft holding in March 2025, at under 2.5% of his assets.",
-      "status": "reported",
-      "date": "2017-12-11",
-      "sources": [
-        {
-          "url": "https://fortune.com/2017/12/11/bitcoin-price-btc-ethereum-cryptocurrency-wallet/",
-          "publisher": "Fortune",
-          "title": "Bitcoin: Cryptocurrency Wallet Startup BitGo Raises $42.5 Million",
-          "date": "2017-12-11"
-        },
-        {
-          "url": "https://www.whitehouse.gov/wp-content/uploads/2025/03/Memo-David-Sacks-3.5.2025-1.pdf",
-          "publisher": "The White House",
-          "title": "Memorandum for David O. Sacks: Limited Waiver Pursuant to 18 U.S.C. § 208(b)(1)",
-          "date": "2025-03-05"
         }
       ],
       "approvedAt": "2026-10-08T22:20:46.594Z"
@@ -8492,19 +8191,19 @@
       "date": "2020",
       "sources": [
         {
-          "url": "https://allin.com/about",
-          "publisher": "All-In",
-          "title": "About",
-          "date": "n.d."
-        },
-        {
           "url": "https://fortune.com/2025/07/23/all-in-podcast-trump-ai-action-plan-david-sacks-jd-vance-jensen-huang",
           "publisher": "Fortune",
           "title": "Silicon Valley's elite descend on D.C. to celebrate Trump's AI Action Plan in a surreal fusion of podcast and policy",
           "date": "2025-07-23"
+        },
+        {
+          "url": "https://allin.com/about",
+          "publisher": "All-In",
+          "title": "About",
+          "date": "n.d."
         }
       ],
-      "approvedAt": "2026-10-08T22:20:46.594Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "from": "david-sacks",
@@ -8550,12 +8249,6 @@
       "date": "2022-04",
       "sources": [
         {
-          "url": "https://venturebeat.com/ai/myheritage-acquires-geni-and-25m-to-build-family-tree-of-the-whole-world",
-          "publisher": "VentureBeat",
-          "title": "MyHeritage acquires Geni and $25M to build family tree of the whole world",
-          "date": "2012-11-28"
-        },
-        {
           "url": "https://techcrunch.com/2010/11/30/enterprise-social-networking-platform-yammer-grabs-25-million-in-new-funding",
           "publisher": "TechCrunch",
           "title": "Enterprise Social Networking Platform Yammer Grabs $25 Million In New Funding",
@@ -8572,9 +8265,15 @@
           "publisher": "SFist (citing The New Republic)",
           "title": "Wealthy SF recall backer pumping millions to DeSantis and J.D. Vance",
           "date": "2022-10-20"
+        },
+        {
+          "url": "https://venturebeat.com/ai/myheritage-acquires-geni-and-25m-to-build-family-tree-of-the-whole-world",
+          "publisher": "VentureBeat",
+          "title": "MyHeritage acquires Geni and $25M to build family tree of the whole world",
+          "date": "2012-11-28"
         }
       ],
-      "approvedAt": "2026-10-08T23:04:58.168Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "from": "david-sacks",
@@ -8584,6 +8283,12 @@
       "status": "reported",
       "date": "2022-11",
       "sources": [
+        {
+          "url": "https://fortune.com/2023/05/25/twitter-spaces-ron-desantis-campaign-launch-elon-musk-david-sacks",
+          "publisher": "Fortune",
+          "title": "Twitter promises to 'keep experimenting' with Spaces—even after Ron DeSantis' glitchy campaign kick off",
+          "date": "2023-05-25"
+        },
         {
           "url": "https://www.bostonglobe.com/2022/11/19/business/musks-twitter-fix-it-team-fades-out-billionaire-says-transition-is-almost-done",
           "publisher": "Bloomberg (via The Boston Globe)",
@@ -8595,15 +8300,9 @@
           "publisher": "Fortune",
           "title": "A member of Elon Musk's 'PayPal Mafia' says in court that Twitter is harassing his companies",
           "date": "2022-08-26"
-        },
-        {
-          "url": "https://fortune.com/2023/05/25/twitter-spaces-ron-desantis-campaign-launch-elon-musk-david-sacks",
-          "publisher": "Fortune",
-          "title": "Twitter promises to 'keep experimenting' with Spaces—even after Ron DeSantis' glitchy campaign kick off",
-          "date": "2023-05-25"
         }
       ],
-      "approvedAt": "2026-10-08T23:04:58.168Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "from": "david-sacks",
@@ -8630,29 +8329,6 @@
           "publisher": "The Hill",
           "title": "David Sacks says he's no longer White House AI, crypto czar",
           "date": "2026-03-27"
-        }
-      ],
-      "approvedAt": "2026-10-08T22:20:46.594Z"
-    },
-    {
-      "from": "david-sacks",
-      "to": "sriram-krishnan",
-      "relation": "partnered with",
-      "claim": "Krishnan, an Andreessen Horowitz general partner from 2021, joined Sacks in the informal Twitter advisory group in 2022. Trump named him White House senior AI policy adviser in December 2024 to work closely with Sacks.",
-      "status": "reported",
-      "date": "2024-12-22",
-      "sources": [
-        {
-          "url": "https://www.bostonglobe.com/2022/11/19/business/musks-twitter-fix-it-team-fades-out-billionaire-says-transition-is-almost-done",
-          "publisher": "Bloomberg (via The Boston Globe)",
-          "title": "Musk's Twitter fix-it team fades out as billionaire says transition is almost done",
-          "date": "2022-11-19"
-        },
-        {
-          "url": "https://newsonair.gov.in/us-president-elect-trump-appoints-indian-american-sriram-krishnan-as-policy-advisor-on-ai",
-          "publisher": "All India Radio News",
-          "title": "US President-elect Trump appoints Indian-American Sriram Krishnan as policy advisor on AI",
-          "date": "2024-12-23"
         }
       ],
       "approvedAt": "2026-10-08T22:20:46.594Z"
@@ -8752,36 +8428,13 @@
       "date": "1995",
       "sources": [
         {
-          "url": "https://en.wikipedia.org/wiki/Zip2",
-          "publisher": "Wikipedia",
-          "title": "Zip2",
-          "date": "2026"
-        },
-        {
           "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205701533855/a2059025zs-1.htm",
           "publisher": "U.S. Securities and Exchange Commission",
           "title": "PayPal, Inc. Form S-1 registration statement",
           "date": "2001"
         }
       ],
-      "approvedAt": "2026-10-08T21:57:32.114Z"
-    },
-    {
-      "from": "elon-musk",
-      "to": "greg-kouri",
-      "relation": "co-founded",
-      "claim": "Greg Kouri co-founded Zip2 with Elon and Kimbal Musk in 1995. Musk tweeted in 2019 that Kouri contributed about $8,000 in early funding.",
-      "status": "reported",
-      "date": "1995",
-      "sources": [
-        {
-          "url": "https://en.wikipedia.org/wiki/Zip2",
-          "publisher": "Wikipedia",
-          "title": "Zip2",
-          "date": "2026"
-        }
-      ],
-      "approvedAt": "2026-10-08T21:57:32.114Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "from": "mohr-davidow-ventures",
@@ -8940,19 +8593,13 @@
           "date": "2022-08-01"
         },
         {
-          "url": "https://en.wikipedia.org/wiki/Zip2",
-          "publisher": "Wikipedia",
-          "title": "Zip2",
-          "date": "2026"
-        },
-        {
           "url": "https://www.entrepreneur.com/article/431538",
           "publisher": "Entrepreneur",
           "title": "Who Is Elon Musk's Dad, Errol Musk? (by Gabrielle Bienasz)",
           "date": "2022-07-15"
         }
       ],
-      "approvedAt": "2026-10-08T22:04:50.413Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "from": "andreessen-horowitz",
@@ -9280,19 +8927,19 @@
       "date": "2000-11",
       "sources": [
         {
-          "url": "https://techcrunch.com/2019/02/20/keith-rabois-is-leaving-khosla-ventures-for-founders-fund/",
-          "publisher": "TechCrunch",
-          "title": "Keith Rabois joins Founders Fund amid transition at the firm",
-          "date": "2019-02-20"
-        },
-        {
           "url": "https://delian.substack.com/p/operators-ep-14-transcript",
           "publisher": "Operators podcast (Substack)",
           "title": "Operators Ep 14 Transcript",
           "date": "2020-11-09"
+        },
+        {
+          "url": "https://techcrunch.com/2019/02/20/keith-rabois-is-leaving-khosla-ventures-for-founders-fund/",
+          "publisher": "TechCrunch",
+          "title": "Keith Rabois joins Founders Fund amid transition at the firm",
+          "date": "2019-02-20"
         }
       ],
-      "approvedAt": "2026-10-08T22:05:05.506Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "from": "keith-rabois",
@@ -9330,27 +8977,6 @@
     },
     {
       "from": "keith-rabois",
-      "to": "khosla-ventures",
-      "relation": "employed by",
-      "claim": "Rabois joined Khosla Ventures in 2013, left in 2019, and returned in January 2024; Opendoor identified him as a Khosla Managing Director in 2025.",
-      "status": "reported",
-      "date": "2013-02",
-      "sources": [
-        {
-          "url": "https://www.fortune.com/2013/02/26/ex-square-executive-keith-rabois-joining-khosla-ventures",
-          "publisher": "Fortune",
-          "date": "2013-02-26"
-        },
-        {
-          "url": "https://techcrunch.com/2024/01/09/keith-rabois-dishes-on-his-surprising-return-to-khosla-ventures-after-leaving-the-firm-in-2019-for-founders-fund",
-          "publisher": "TechCrunch",
-          "date": "2024-01-09"
-        }
-      ],
-      "approvedAt": "2026-10-08T22:20:46.594Z"
-    },
-    {
-      "from": "keith-rabois",
       "to": "opendoor",
       "relation": "co-founded",
       "claim": "Rabois co-founded Opendoor, whose first round was led by Khosla Ventures, and returned to its board as Chairman in September 2025.",
@@ -9380,17 +9006,17 @@
       "date": "2019-02",
       "sources": [
         {
-          "url": "https://techcrunch.com/2019/02/20/keith-rabois-is-leaving-khosla-ventures-for-founders-fund/",
-          "publisher": "TechCrunch",
-          "date": "2019-02-20"
-        },
-        {
           "url": "https://fortune.com/2021/02/08/founders-fund-signs-up-for-a-miami-office",
           "publisher": "Fortune",
           "date": "2021-02-08"
+        },
+        {
+          "url": "https://techcrunch.com/2019/02/20/keith-rabois-is-leaving-khosla-ventures-for-founders-fund/",
+          "publisher": "TechCrunch",
+          "date": "2019-02-20"
         }
       ],
-      "approvedAt": "2026-10-08T22:20:46.594Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "from": "keith-rabois",
@@ -9532,28 +9158,6 @@
           "publisher": "Federal Election Commission",
           "title": "Schedule A individual contributions, contributor name Rabois",
           "date": "2026-10-08"
-        }
-      ],
-      "approvedAt": "2026-10-08T22:20:46.594Z"
-    },
-    {
-      "from": "keith-rabois",
-      "to": "jacob-helberg",
-      "relation": "family of",
-      "claim": "Rabois's husband Jacob Helberg, described in 2024 as a Trump evangelist who watched the Republican National Convention from a private box, was nominated as Under Secretary of State for Economic Growth, Energy, and the Environment and had his Senate Foreign Relations hearing on June 10, 2025.",
-      "status": "documented",
-      "date": "2025-06-10",
-      "sources": [
-        {
-          "url": "https://techcrunch.com/2024/07/20/parties-dilemmas-4-days-with-silicon-valley-maga-tech-elite-rnc",
-          "publisher": "TechCrunch",
-          "date": "2024-07-20"
-        },
-        {
-          "url": "https://www.foreign.senate.gov/hearings/nominations-06-10-2025",
-          "publisher": "U.S. Senate Foreign Relations Committee",
-          "title": "Nominations, June 10, 2025",
-          "date": "2025-06-10"
         }
       ],
       "approvedAt": "2026-10-08T22:20:46.594Z"
@@ -10085,12 +9689,6 @@
       "date": null,
       "sources": [
         {
-          "url": "https://foundersfund.com/team/peter-thiel/",
-          "publisher": "Founders Fund",
-          "title": "Peter Thiel (team biography)",
-          "date": ""
-        },
-        {
           "url": "https://foxbusiness.com/markets/peter-thiel-sells-most-of-remaining-facebook-stake",
           "publisher": "Reuters (via Fox Business)",
           "title": "Peter Thiel sells most of remaining Facebook stake",
@@ -10101,32 +9699,15 @@
           "publisher": "Meta Platforms",
           "title": "Peter Thiel to Retire from Meta Board of Directors at 2022 Annual Shareholder Meeting",
           "date": "2022-02-07"
-        }
-      ],
-      "approvedAt": "2026-10-08T18:17:01.297Z"
-    },
-    {
-      "from": "reid-hoffman",
-      "to": "meta",
-      "relation": "invested in",
-      "claim": "Reid Hoffman invested in Facebook's first outside funding round in 2004. TechCrunch reported his stake as $37,500 at a $5 million valuation. Hoffman has said he declined to lead the round because of his other social-networking roles and suggested that Peter Thiel lead it instead.",
-      "status": "reported",
-      "date": null,
-      "sources": [
-        {
-          "url": "https://achievement.org/video/reid-hoffman-31/",
-          "publisher": "Academy of Achievement",
-          "title": "Reid Hoffman interview (on the 2004 Facebook round)",
-          "date": ""
         },
         {
-          "url": "https://techcrunch.com/2012/09/10/reid-hoffman-invested-37500-into-facebook-at-a-5m-valuation/",
-          "publisher": "TechCrunch",
-          "title": "Reid Hoffman Invested $37,500 Into Facebook At A $5M Valuation",
-          "date": "2012-09-10"
+          "url": "https://foundersfund.com/team/peter-thiel/",
+          "publisher": "Founders Fund",
+          "title": "Peter Thiel (team biography)",
+          "date": ""
         }
       ],
-      "approvedAt": "2026-10-08T18:17:01.297Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "from": "michael-moritz",
@@ -10567,23 +10148,6 @@
           "publisher": "U.S. Department of Justice (U.S. Attorney, W.D. Washington)",
           "title": "Russian computer hacker convicted by jury",
           "date": "2001-10-10"
-        }
-      ],
-      "approvedAt": "2026-10-08T22:58:04.275Z"
-    },
-    {
-      "from": "paypal-bonus-abuse",
-      "to": "x-com",
-      "relation": "other",
-      "claim": "According to Eric Jackson's book, X.com CEO Bill Harris told staff after the March 2000 merger with Confinity that eliminating X.com's $20 new-user bonus had been an immediate cost saving.",
-      "status": "reported",
-      "date": "2000",
-      "sources": [
-        {
-          "url": "https://archive.org/details/paypalwarsbattle0000jack",
-          "publisher": "World Ahead Publishing (Eric M. Jackson; text via Internet Archive full-text search)",
-          "title": "The PayPal Wars: Battles with eBay, the Media, the Mafia, and the Rest of Planet Earth",
-          "date": "2004"
         }
       ],
       "approvedAt": "2026-10-08T22:58:04.275Z"
@@ -11095,19 +10659,19 @@
       "date": null,
       "sources": [
         {
-          "url": "https://www.fec.gov/data/receipts/?committee_id=C00770495&contributor_name=thiel",
-          "publisher": "Federal Election Commission",
-          "title": "Receipts: Protect Ohio Values PAC (C00770495), contributor Peter Thiel",
-          "date": "2021-2022"
-        },
-        {
           "url": "https://fortune.com/2024/07/26/jd-vance-peter-thiel-venture-capital-mithril",
           "publisher": "Fortune",
           "title": "A colleague who worked with J.D. Vance at Mithril doesn't remember seeing him in the office",
           "date": "2024-07-26"
+        },
+        {
+          "url": "https://www.fec.gov/data/receipts/?committee_id=C00770495&contributor_name=thiel",
+          "publisher": "Federal Election Commission",
+          "title": "Receipts: Protect Ohio Values PAC (C00770495), contributor Peter Thiel",
+          "date": "2021-2022"
         }
       ],
-      "approvedAt": "2026-10-08T18:17:01.297Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "from": "peter-thiel",
@@ -11144,35 +10708,6 @@
           "url": "https://foundersfund.com/team/peter-thiel/",
           "publisher": "Founders Fund",
           "title": "Peter Thiel (team biography)",
-          "date": ""
-        }
-      ],
-      "approvedAt": "2026-10-08T18:17:01.297Z"
-    },
-    {
-      "from": "peter-thiel",
-      "to": "reid-hoffman",
-      "relation": "partnered with",
-      "claim": "Thiel and Reid Hoffman were both PayPal executives, Thiel as CEO and Hoffman as executive vice president. Both invested in Facebook's first outside round in 2004, which Thiel led after Hoffman, by his own account, suggested Thiel lead it.",
-      "status": "reported",
-      "date": null,
-      "sources": [
-        {
-          "url": "https://foundersfund.com/team/peter-thiel/",
-          "publisher": "Founders Fund",
-          "title": "Peter Thiel (team biography)",
-          "date": ""
-        },
-        {
-          "url": "https://greylock.com/team/reid-hoffman/",
-          "publisher": "Greylock",
-          "title": "Reid Hoffman (partner biography)",
-          "date": ""
-        },
-        {
-          "url": "https://achievement.org/video/reid-hoffman-31/",
-          "publisher": "Academy of Achievement",
-          "title": "Reid Hoffman interview (on the 2004 Facebook round)",
           "date": ""
         }
       ],
@@ -11416,58 +10951,6 @@
     {
       "from": "reid-hoffman",
       "to": "peter-thiel",
-      "relation": "partnered with",
-      "claim": "Hoffman (executive vice president) and Thiel (CEO) worked together at PayPal. Both invested in Facebook's 2004 first outside round, which Thiel led after Hoffman, by his own account, suggested he lead it.",
-      "status": "reported",
-      "date": null,
-      "sources": [
-        {
-          "url": "https://greylock.com/team/reid-hoffman/",
-          "publisher": "Greylock",
-          "title": "Reid Hoffman (partner biography)",
-          "date": ""
-        },
-        {
-          "url": "https://foundersfund.com/team/peter-thiel/",
-          "publisher": "Founders Fund",
-          "title": "Peter Thiel (team biography)",
-          "date": ""
-        },
-        {
-          "url": "https://achievement.org/video/reid-hoffman-31/",
-          "publisher": "Academy of Achievement",
-          "title": "Reid Hoffman interview (on the 2004 Facebook round)",
-          "date": ""
-        }
-      ],
-      "approvedAt": "2026-10-08T18:17:01.297Z"
-    },
-    {
-      "from": "reid-hoffman",
-      "to": "meta",
-      "relation": "invested in",
-      "claim": "Hoffman invested $37,500 in Facebook's first outside round in 2004, which Peter Thiel led.",
-      "status": "reported",
-      "date": null,
-      "sources": [
-        {
-          "url": "https://techcrunch.com/2012/09/10/reid-hoffman-invested-37500-into-facebook-at-a-5m-valuation/",
-          "publisher": "TechCrunch",
-          "title": "Reid Hoffman Invested $37,500 Into Facebook At A $5M Valuation",
-          "date": "2012-09-10"
-        },
-        {
-          "url": "https://achievement.org/video/reid-hoffman-31/",
-          "publisher": "Academy of Achievement",
-          "title": "Reid Hoffman interview (on the 2004 Facebook round)",
-          "date": ""
-        }
-      ],
-      "approvedAt": "2026-10-08T18:17:01.297Z"
-    },
-    {
-      "from": "reid-hoffman",
-      "to": "peter-thiel",
       "relation": "other",
       "claim": "Hoffman and Thiel met in a philosophy class at Stanford in the 1980s; Hoffman later called Thiel 'a good friend of mine from Stanford.'",
       "status": "reported",
@@ -11698,23 +11181,6 @@
         }
       ],
       "approvedAt": "2026-10-08T23:12:17.021Z"
-    },
-    {
-      "from": "reid-hoffman",
-      "to": "founders-fund",
-      "relation": "other",
-      "claim": "Greylock XIII funds (Hoffman's firm), Founders Fund II–IV (co-founded by Peter Thiel) and Andreessen Horowitz Fund II were all investor parties to Airbnb's April 2020 investors' rights agreement.",
-      "status": "documented",
-      "date": "2020-04-17",
-      "sources": [
-        {
-          "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520294801/d81668dex43.htm",
-          "publisher": "SEC",
-          "title": "Airbnb, Inc. Form S-1 Exhibit 4.3: Amended and Restated Investors' Rights Agreement (April 17, 2020)",
-          "date": "2020-11-16"
-        }
-      ],
-      "approvedAt": "2026-10-08T22:20:46.594Z"
     },
     {
       "from": "reid-hoffman",
@@ -12230,18 +11696,18 @@
       "date": "2025-11-04",
       "sources": [
         {
-          "url": "https://www.gsb.stanford.edu/index%2Ephp/programs/mba/life-community/alumni/voices/roelof-botha",
-          "publisher": "Stanford Graduate School of Business",
-          "title": "Alumni Voices: Roelof Botha"
-        },
-        {
           "url": "https://fortune.com/2025/11/04/roelof-botha-steps-aside-as-sequoias-steward-passing-the-role-to-alfred-lin-and-pat-grady",
           "publisher": "Fortune",
           "title": "Roelof Botha steps aside as Sequoia's steward, passing the role to Alfred Lin and Pat Grady",
           "date": "2025-11-04"
+        },
+        {
+          "url": "https://www.gsb.stanford.edu/index%2Ephp/programs/mba/life-community/alumni/voices/roelof-botha",
+          "publisher": "Stanford Graduate School of Business",
+          "title": "Alumni Voices: Roelof Botha"
         }
       ],
-      "approvedAt": "2026-10-08T22:20:46.594Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "from": "sequoia-capital",
@@ -12286,18 +11752,18 @@
       "date": "2022-07",
       "sources": [
         {
+          "url": "https://www.calpers.ca.gov/page/investments/about-investment-office/investment-organization/pep-fund-performance",
+          "publisher": "CalPERS",
+          "title": "Private Equity Program (PEP) Fund Performance Review (data as of March 31, 2026)"
+        },
+        {
           "url": "https://www.calpers.ca.gov/docs/board-agendas/202211/invest/item04d-01_a.pdf",
           "publisher": "CalPERS",
           "title": "Quarterly Update: Investment Controls, quarter ended September 30, 2022 (Investment Committee item 4d, attachment 1)",
           "date": "2022-11"
-        },
-        {
-          "url": "https://www.calpers.ca.gov/page/investments/about-investment-office/investment-organization/pep-fund-performance",
-          "publisher": "CalPERS",
-          "title": "Private Equity Program (PEP) Fund Performance Review (data as of March 31, 2026)"
         }
       ],
-      "approvedAt": "2026-10-08T22:35:16.554Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "from": "washington-state-investment-board",
@@ -12308,19 +11774,19 @@
       "date": "2018-04",
       "sources": [
         {
-          "url": "https://www.buyoutsinsider.com/washington-looks-first-public-pension-lp-back-sequoias-megafund/",
-          "publisher": "Buyouts",
-          "title": "Washington looks to be first public pension LP to back Sequoia's megafund",
-          "date": "2018-04-23"
-        },
-        {
           "url": "https://www.sib.wa.gov/docs/reports/annual/ar23.pdf",
           "publisher": "Washington State Investment Board",
           "title": "Forty-Second Annual Report, fiscal year ended June 30, 2023",
           "date": "2023"
+        },
+        {
+          "url": "https://www.buyoutsinsider.com/washington-looks-first-public-pension-lp-back-sequoias-megafund/",
+          "publisher": "Buyouts",
+          "title": "Washington looks to be first public pension LP to back Sequoia's megafund",
+          "date": "2018-04-23"
         }
       ],
-      "approvedAt": "2026-10-08T22:20:46.594Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "from": "massachusetts-prim",
@@ -12428,18 +11894,18 @@
       "date": "2024-01-12",
       "sources": [
         {
+          "url": "https://lda.gov/api/v1/filings/?client_name=Sequoia%20Capital",
+          "publisher": "Lobbying Disclosure Act database (lda.gov)",
+          "title": "Filings with client name 'Sequoia Capital' (11 filings, 2024 Q1 to 2026 Q2)"
+        },
+        {
           "url": "https://lda.gov/filings/public/filing/aee59be0-67c9-4054-868e-aa89fc619add/print/",
           "publisher": "Lobbying Disclosure Act database (lda.gov)",
           "title": "LD-1 registration: Brownstein Hyatt Farber Schreck for Sequoia Capital Operations LLC",
           "date": "2024-02-22"
-        },
-        {
-          "url": "https://lda.gov/api/v1/filings/?client_name=Sequoia%20Capital",
-          "publisher": "Lobbying Disclosure Act database (lda.gov)",
-          "title": "Filings with client name 'Sequoia Capital' (11 filings, 2024 Q1 to 2026 Q2)"
         }
       ],
-      "approvedAt": "2026-10-08T22:35:16.554Z"
+      "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
       "from": "sequoia-capital",
@@ -12536,10 +12002,6 @@
       "name": "eBay",
       "type": "company"
     },
-    "bitgo": {
-      "name": "BitGo",
-      "type": "organization"
-    },
     "lightning-labs": {
       "name": "Lightning Labs",
       "type": "organization"
@@ -12552,16 +12014,8 @@
       "name": "All-In podcast",
       "type": "organization"
     },
-    "sriram-krishnan": {
-      "name": "Sriram Krishnan",
-      "type": "person"
-    },
     "kimbal-musk": {
       "name": "Kimbal Musk",
-      "type": "person"
-    },
-    "greg-kouri": {
-      "name": "Greg Kouri",
       "type": "person"
     },
     "compaq": {
@@ -12576,20 +12030,12 @@
       "name": "First Western National Bank",
       "type": "organization"
     },
-    "federal-reserve": {
-      "name": "Federal Reserve",
-      "type": "unknown"
-    },
     "voter-com": {
       "name": "voter.com",
       "type": "company"
     },
     "square": {
       "name": "Square (Block)",
-      "type": "company"
-    },
-    "khosla-ventures": {
-      "name": "Khosla Ventures",
       "type": "company"
     },
     "opendoor": {
@@ -12615,10 +12061,6 @@
     "trump-47-committee": {
       "name": "Trump 47 Committee",
       "type": "organization"
-    },
-    "jacob-helberg": {
-      "name": "Jacob Helberg",
-      "type": "person"
     },
     "ken-howery": {
       "name": "Ken Howery",
@@ -12656,10 +12098,6 @@
       "name": "PayPal sign-up bonus abuse (1999–2001)",
       "type": "unknown"
     },
-    "reid-hoffman": {
-      "name": "Reid Hoffman",
-      "type": "unknown"
-    },
     "michael-moritz": {
       "name": "Michael Moritz",
       "type": "person"
@@ -12671,6 +12109,10 @@
     "california-forever": {
       "name": "California Forever (Flannery Associates)",
       "type": "company"
+    },
+    "reid-hoffman": {
+      "name": "Reid Hoffman",
+      "type": "unknown"
     },
     "crankstart-foundation": {
       "name": "Crankstart Foundation",
@@ -12708,10 +12150,6 @@
       "name": "Vasiliy Gorshkov",
       "type": "person"
     },
-    "x-com": {
-      "name": "X.com",
-      "type": "company"
-    },
     "paypal-fraud-2000-2002": {
       "name": "PayPal's early fraud losses (2000–2002)",
       "type": "unknown"
@@ -12719,10 +12157,6 @@
     "alexey-ivanov": {
       "name": "Alexey Ivanov",
       "type": "person"
-    },
-    "fbi": {
-      "name": "Federal Bureau of Investigation",
-      "type": "organization"
     },
     "mastercard": {
       "name": "MasterCard",

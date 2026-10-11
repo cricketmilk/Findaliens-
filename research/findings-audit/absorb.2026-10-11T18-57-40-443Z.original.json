@@ -1,0 +1,188 @@
+{
+  "entity": "carbon-class-absorb",
+  "name": "Carbon Class: absorb",
+  "researchedAt": "2026-10-11",
+  "facts": [
+    {
+      "claim": "Oxfam and SEI estimate that from 1990 to 2015 the richest 10% of the world's population (c.630 million people) were responsible for 52% of cumulative carbon emissions, while the poorest 50% (c.3.1 billion people) were responsible for just 7%.",
+      "quote": "From 1990 to 2015, a critical period in which annual emissions grew 60% and cumulative emissions doubled, we estimate that: • The richest 10% of the world’s population (c.630 million people) were responsible for 52% of the cumulative carbon emissions – depleting the global carbon budget by nearly a third (31%) in those 25 years alone (see Figure 1); • The poorest 50% (c.3.1 billion people) were responsible for just 7% of cumulative emissions",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://oxfamilibrary.openrepository.com/bitstreams/0cd412d3-e9e9-4298-b80d-e95514e6329d/download",
+          "publisher": "Oxfam International (research with SEI)",
+          "title": "Confronting Carbon Inequality: Putting climate justice at the heart of the COVID-19 recovery (Oxfam Media Briefing)"
+        }
+      ],
+      "id": "oxfam-sei-2020-52pct-1990-2015",
+      "section": "split",
+      "big": "52% vs 7%",
+      "date": "2020-09-21",
+      "notes": "The English PDF of the media briefing, linked as 'English paper' from Oxfam's own record at https://policy-practice.oxfam.org/resources/confronting-carbon-inequality-putting-climate-justice-at-the-heart-of-the-covid-621052/ (author Tim Gore). The cover reads 'OXFAM MEDIA BRIEFING 21 SEPTEMBER 2020'. These are consumption-based carbon emissions attributed by income group (Box 2: national consumption emissions for 117 countries, 1990-2015). The same briefing gives the richest 1% over 15% of cumulative emissions. Its separate figure of 46% is the richest 10%'s share of emissions GROWTH over 1990-2015, not of cumulative emissions, so do not swap the two. The oi-files S3 copy of the same PDF returned HTTP 403.",
+      "value": 52,
+      "unit": "%",
+      "year": 2015
+    },
+    {
+      "claim": "Governments still plan to produce more than double the fossil fuels in 2030 that would be consistent with the median 1.5 °C pathway: more than 120% above it, and 77% above the median 2 °C pathway (up from 110% and 69% in the 2023 report).",
+      "quote": "The resulting analysis, summarized in Chapter 2, finds that governments still plan to produce more than double the amount of fossil fuels in 2030 than would be consistent with the median 1.5ºC pathway, as Figure ES.1 shows. The 2030 gap has increased, to more than 120% above the median 1.5ºC pathway and 77% above the median 2ºC pathway (compared to 110% and 69%, respectively, in the 2023 PGR).",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://productiongap.org/wp-content/uploads/2025/09/PGR2025_full_web.pdf",
+          "publisher": "Stockholm Environment Institute, Climate Analytics and IISD",
+          "title": "The Production Gap Report 2025"
+        }
+      ],
+      "id": "production-gap-2025-120pct",
+      "section": "forecast",
+      "big": "+120%",
+      "date": "2025-09-23",
+      "notes": "UNEP is NOT a co-publisher of the 2025 edition. The report's own citation line reads 'SEI, Climate Analytics, & IISD. (2025). The Production Gap Report 2025.' UNEP co-published earlier editions (2019, 2020, 2021, 2023). The figure is 'more than 120%', with no ceiling given; the report also says 'more than double'. The report states that it is externally peer-reviewed, but it is an institutional report rather than a journal article. Its PDF is dated '© September 2025', and SEI's publication page (https://www.sei.org/publications/production-gap-report-2025/) says 'Published on 23 September 2025', DOI 10.51414/sei2025.044. Report landing page: https://productiongap.org/2025report/",
+      "value": 120,
+      "unit": "%",
+      "year": 2030
+    },
+    {
+      "claim": "The IPCC finds that every additional 0.5 °C of global warming causes clearly discernible increases in the intensity and frequency of hot extremes, including heatwaves, and heavy precipitation, as well as agricultural and ecological droughts in some regions.",
+      "quote": "every additional 0.5°C of global warming causes clearly discernible increases in the intensity and frequency of hot extremes, including heatwaves (very likely), and heavy precipitation (high confidence), as well as agricultural and ecological droughts in some regions (high confidence).",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM.pdf",
+          "publisher": "Intergovernmental Panel on Climate Change (IPCC) Working Group I",
+          "title": "Climate Change 2021: The Physical Science Basis, Summary for Policymakers (AR6 WGI SPM)"
+        }
+      ],
+      "id": "ipcc-every-half-degree",
+      "section": "forecast",
+      "big": "every +0.5 °C",
+      "date": "2021-08-09",
+      "notes": "Statement B.2.2 of the SPM. It opens: 'With every additional increment of global warming, changes in extremes continue to become larger. For example, ...'. The quote is verbatim except that footnote marker 30 after 'droughts' is left out. The confidence levels are part of the finding: heatwaves (very likely), heavy precipitation (high confidence), agricultural and ecological droughts in some regions (high confidence). The same text is on the web version at https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/. The date is the public release; the SPM was approved on 6 August 2021.",
+      "value": 0.5,
+      "unit": "°C",
+      "year": null
+    },
+    {
+      "claim": "From the start of 2026, the remaining carbon budget for a 50% chance of limiting warming to 1.5 °C is 130 GtCO2, which would be used up in a little more than 3 years if global CO2 emissions stay at 2025 levels (42 GtCO2 per year).",
+      "quote": "Table 8 Estimates of the remaining carbon budget for 1.5–2.0 °C temperature increase, for five levels of likelihood, considering only uncertainty in TCRE. Estimates are expressed relative to the start of 2026. […] Note that the RCB estimate of 130 GtCO 2 (50 % likelihood) would be exhausted in a little more than 3 years if global CO 2 emissions remain at 2025 levels (42 GtCO 2 yr −1 , from Table 1 with additional accounting for cement carbonation sink).",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://essd.copernicus.org/articles/18/3889/2026/",
+          "publisher": "Earth System Science Data (Copernicus), Forster et al.",
+          "title": "Indicators of Global Climate Change 2025: annual update of key indicators of the state of the climate system and human influence"
+        }
+      ],
+      "id": "forster-2026-budget-130gt",
+      "section": "forecast",
+      "big": "130 GtCO₂ ≈ 3 years",
+      "date": "2026-06-11",
+      "notes": "Forster, P. M., Walsh, T., Smith, C., et al. (2026), ESSD 18, 3889-3933, https://doi.org/10.5194/essd-18-3889-2026. It is labelled 'Data description article | Highlight paper' and was published on 11 Jun 2026. The figure is the 50%-likelihood value for 1.5 °C from Table 8, rounded to the nearest 10 GtCO2. The paper says it can be higher or lower 'by around 200 GtCO 2' depending on non-CO2 reductions. The quote joins two passages from Section 9, the Table 8 caption and a later paragraph, marked with […]. The page text renders subscripts as 'GtCO 2'. Do not confuse this with last year's edition, Indicators of Global Climate Change 2024 (Forster et al. 2025, ESSD 17, 2641-2680). Its budgets ran from the start of 2025, and a corrigendum published on 3 June 2026 (https://doi.org/10.5194/essd-17-2641-2025-corrigendum) revised its Table 8. Cite this 2026 paper for a budget counted from 2026.",
+      "value": 130,
+      "unit": "GtCO₂",
+      "year": 2026
+    },
+    {
+      "claim": "Human-induced warming reached 1.37 °C above 1850–1900 in 2025, rising at 0.27 °C per decade over 2016–2025.",
+      "quote": "Human-induced warming reached 1.37 °C relative to 1850–1900 in the year 2025, increasing at a rate of 0.27 [0.2–0.4] °C per decade over 2016–2025.",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://essd.copernicus.org/articles/18/3889/2026/",
+          "publisher": "Earth System Science Data (Copernicus), Forster et al.",
+          "title": "Indicators of Global Climate Change 2025: annual update of key indicators of the state of the climate system and human influence"
+        }
+      ],
+      "id": "forster-2026-warming-1.37",
+      "section": "hero",
+      "big": "1.37 °C",
+      "date": "2026-06-11",
+      "notes": "From the abstract of Forster et al. (2026), ESSD 18, 3889-3933, https://doi.org/10.5194/essd-18-3889-2026. This is human-induced (attributed) warming for the single year 2025. It differs from observed warming: the 2016-2025 decade averaged 1.26 [1.13 to 1.36] °C observed, of which 1.24 [1.0 to 1.5] °C was human-induced. Section 9 repeats 1.37 °C and projects human-induced warming reaching 1.5 °C 'around the year 2030'.",
+      "value": 1.37,
+      "unit": "°C",
+      "year": 2025
+    },
+    {
+      "claim": "NOAA's annual mean CO2 at Mauna Loa for 2025 is 427.35 ppm.",
+      "quote": "CO2 expressed as a mole fraction in dry air, micromol/mol, abbreviated as ppm […] 2025 427.35 0.12",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_annmean_mlo.txt",
+          "publisher": "NOAA Global Monitoring Laboratory",
+          "title": "Mauna Loa CO2 annual mean data (co2_annmean_mlo.txt)"
+        }
+      ],
+      "id": "noaa-co2-2025",
+      "section": "hero",
+      "big": "427.4 ppm",
+      "date": "2026-10-09",
+      "notes": "The file's columns are 'year mean unc'. The 2025 row is '2025 427.35 0.12', so 427.4 ppm on the page is this value rounded to one decimal; the uncertainty is ±0.12 ppm. The date is the file's 'File Creation: Fri Oct 9 13:08:13 2026' stamp. NOAA warns in the file that 'the data presented for the last year are subject to change', so re-check this row after recalibrations. The same file gives 2024 as 424.61 ppm, which matches the 424.6 used elsewhere on the page. The quote joins the units line and the 2025 row, marked with […].",
+      "value": 427.35,
+      "unit": "ppm",
+      "year": 2025
+    },
+    {
+      "claim": "NOAA's annual mean CO2 at Mauna Loa for 1959, the first year in the record, is 315.98 ppm.",
+      "quote": "CO2 expressed as a mole fraction in dry air, micromol/mol, abbreviated as ppm […] year mean unc 1959 315.98 0.12",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_annmean_mlo.txt",
+          "publisher": "NOAA Global Monitoring Laboratory",
+          "title": "Mauna Loa CO2 annual mean data (co2_annmean_mlo.txt)"
+        }
+      ],
+      "id": "noaa-co2-1959",
+      "section": "hero",
+      "big": "316.0 ppm",
+      "date": "2026-10-09",
+      "notes": "The 1959 row is '1959 315.98 0.12', so 316.0 ppm on the page is this value rounded. It is the first row of the annual file. The file says 'Data from March 1958 through April 1974 have been obtained by C. David Keeling of the Scripps Institution of Oceanography', so the 1959 value is Scripps (SIO) data carried in NOAA's file; credit Keeling/Scripps alongside NOAA if space allows. The quote joins the units line and the header plus 1959 row, which are contiguous, marked with […].",
+      "value": 315.98,
+      "unit": "ppm",
+      "year": 1959
+    },
+    {
+      "claim": "WMO's State of the Global Climate report confirmed that 2024 was likely the first calendar year more than 1.5 °C above the pre-industrial era, with a global mean near-surface temperature of 1.55 ± 0.13 °C above the 1850–1900 average.",
+      "quote": "WMO’s State of the Global Climate report confirmed that 2024 was likely the first calendar year to be more than 1.5°C above the pre-industrial era, with a global mean near-surface temperature of 1.55 ± 0.13 °C above the 1850-1900 average. This is the warmest year in the 175-year observational record.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://wmo.int/news/media-centre/wmo-report-documents-spiralling-weather-and-climate-impacts",
+          "publisher": "World Meteorological Organization (WMO)",
+          "title": "WMO report documents spiralling weather and climate impacts (press release for State of the Global Climate 2024)"
+        }
+      ],
+      "id": "wmo-2024-1.55",
+      "section": "hero",
+      "big": "1.55 °C",
+      "date": "2025-03-19",
+      "notes": "WMO press release of 19 March 2025 for the State of the Global Climate 2024 (WMO-No. 1368). The same sentence is on the report's publication page, https://wmo.int/publication-series/state-of-global-climate-2024, and the full report is at https://library.wmo.int/idurl/4/69455. WMO says 'likely' the first calendar year above 1.5 °C. The same release stresses that long-term warming averaged over decades remains below 1.5 °C, so one year above 1.5 °C is not a breach of the Paris goal.",
+      "value": 1.55,
+      "unit": "°C",
+      "year": 2024
+    },
+    {
+      "claim": "WMO's State of the Global Climate 2025 reports that 2025 was the second or third warmest year on record, with an annually averaged global near-surface temperature of about 1.43 ± 0.13 °C above the 1850–1900 average.",
+      "quote": "2025 was the second or third warmest year (depending on the dataset) in the 176-year observational record, reflecting the shift to La Niña conditions that temporarily cool the planet. The annually averaged global near-surface temperature was about 1.43 ± 0.13 °C above the 1850–1900 pre-industrial average.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://wmo.int/news/media-centre/earths-climate-swings-increasingly-out-of-balance",
+          "publisher": "World Meteorological Organization (WMO)",
+          "title": "Earth's climate swings increasingly out of balance (press release for State of the Global Climate 2025)"
+        }
+      ],
+      "id": "wmo-2025",
+      "section": "hero",
+      "big": "1.43 °C",
+      "date": "2026-03-23",
+      "notes": "WMO press release of 23 March 2026 for the State of the Global Climate 2025. The publication page, https://wmo.int/publication-series/state-of-global-climate/state-of-global-climate-2025, says 'at about 1.43 °C above the 1850-1900 average'. WMO's earlier consolidated release of 14 January 2026 (https://wmo.int/news/media-centre/wmo-confirms-2025-was-one-of-warmest-years-record) gave 1.44 °C ± 0.13 °C from eight datasets. The March report's 1.43 is the later figure, and the difference is within the uncertainty. 2024 remains the warmest year at about 1.55 °C.",
+      "value": 1.43,
+      "unit": "°C",
+      "year": 2025
+    }
+  ],
+  "connections": []
+}

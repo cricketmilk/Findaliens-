@@ -1,0 +1,30 @@
+{
+ "file": "michael-moritz.json",
+ "kind": "finding",
+ "at": "2026-10-11T16:47:53.991Z",
+ "kept": 37,
+ "removed": [],
+ "unchecked": [
+  {
+   "where": "facts[5]",
+   "claim": "Moritz joined Google's board in 1999, when Sequoia invested, and resigned in March 2007.",
+   "why": "could not re-open any cited page to confirm it: https://venturebeat.com/business/moritz-steps-down-from-googles-board (HTTP 429)"
+  },
+  {
+   "where": "facts[6]",
+   "claim": "Moritz signed the Giving Pledge in 2012 and was knighted in 2013 for promoting British economic interests and for philanthropy.",
+   "why": "could not re-open any cited page to confirm it: https://carnegie.org/great-immigrants/michael-moritz/ (page came back nearly empty)"
+  },
+  {
+   "where": "connections[5]",
+   "claim": "Moritz was on Google's board from Sequoia's 1999 investment until March 2007.",
+   "why": "could not re-open any cited page to confirm it: https://venturebeat.com/business/moritz-steps-down-from-googles-board (HTTP 429)"
+  }
+ ],
+ "resourced": [],
+ "wikiSourcesDropped": 0,
+ "notes": [],
+ "pagesOpened": 21,
+ "pagesRefused": 1,
+ "empty": false
+}

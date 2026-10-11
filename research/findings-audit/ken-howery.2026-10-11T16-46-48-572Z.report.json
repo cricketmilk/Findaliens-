@@ -1,0 +1,46 @@
+{
+ "file": "ken-howery.json",
+ "kind": "finding",
+ "at": "2026-10-11T16:46:48.572Z",
+ "kept": 14,
+ "removed": [
+  {
+   "where": "facts[9]",
+   "claim": "The U.S. Senate confirmed Howery as U.S. ambassador to Denmark on the night of October 7, 2025, months after President Trump's statements about acquiring Greenland.",
+   "why": "the cited pages do not contain the claim's figures and names; missing: denmark, greenland"
+  }
+ ],
+ "unchecked": [
+  {
+   "where": "facts[0]",
+   "claim": "Howery earned a B.A. in Economics from Stanford University.",
+   "why": "could not re-open any cited page to confirm it: https://trumpwhitehouse.archives.gov/presidential-actions/president-donald-j-trump-announces-intent-nominate-personnel-key-administration-posts-65 (page came back nearly empty)"
+  },
+  {
+   "where": "facts[3]",
+   "claim": "The White House nomination announcement says Howery co-founded PayPal and served as its first Chief Financial Officer; his World Economic Forum profile adds that he worked on fundraising, the public o",
+   "why": "could not re-open any cited page to confirm it: https://trumpwhitehouse.archives.gov/presidential-actions/president-donald-j-trump-announces-intent-nominate-personnel-key-administration-posts-65 (page came back nearly empty); https://weforum.org/people/ken-howery (page came back nearly empty)"
+  },
+  {
+   "where": "facts[5]",
+   "claim": "Howery's World Economic Forum profile says he was a partner with Peter Thiel in Thiel's private venture investing and led or co-led investments including Facebook, Quantcast, Geni and ZocDoc.",
+   "why": "could not re-open any cited page to confirm it: https://weforum.org/people/ken-howery (page came back nearly empty)"
+  },
+  {
+   "where": "facts[7]",
+   "claim": "On October 16, 2018 the White House announced President Trump's intent to nominate Howery as Ambassador to the Kingdom of Sweden.",
+   "why": "could not re-open any cited page to confirm it: https://trumpwhitehouse.archives.gov/presidential-actions/president-donald-j-trump-announces-intent-nominate-personnel-key-administration-posts-65 (page came back nearly empty)"
+  },
+  {
+   "where": "connections[1]",
+   "claim": "Howery co-founded PayPal and was its first Chief Financial Officer, per the 2018 White House nomination announcement.",
+   "why": "could not re-open any cited page to confirm it: https://trumpwhitehouse.archives.gov/presidential-actions/president-donald-j-trump-announces-intent-nominate-personnel-key-administration-posts-65 (page came back nearly empty)"
+  }
+ ],
+ "resourced": [],
+ "wikiSourcesDropped": 0,
+ "notes": [],
+ "pagesOpened": 9,
+ "pagesRefused": 0,
+ "empty": false
+}

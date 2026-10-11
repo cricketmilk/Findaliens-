@@ -1,0 +1,30 @@
+{
+ "file": "peter-thiel.json",
+ "kind": "finding",
+ "at": "2026-10-11T18:10:31.167Z",
+ "kept": 28,
+ "removed": [
+  {
+   "where": "facts[1]",
+   "claim": "Founders Fund, where Thiel is a partner, invested $20 million in SpaceX in 2008. Separately, in 2006 Thiel pledged $3.5 million to the Methuselah Foundation, a nonprofit, for anti-aging research.",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 2006, 3.5, thiel, methuselah foundation, separately"
+  },
+  {
+   "where": "facts[8]",
+   "claim": "Thiel has been managing member of Thiel Capital Management, LLC since September 1996. Bloomberg Markets reports that he started it as a macro fund with $1 million raised from friends and family, strug",
+   "why": "the cited pages do not contain the claim's figures and names; missing: asian, ltcm"
+  },
+  {
+   "where": "connections[3]",
+   "claim": "Thiel and Reid Hoffman were both PayPal executives, Thiel as CEO and Hoffman as executive vice president. Both invested in Facebook's first outside round in 2004, which Thiel led after Hoffman, by his",
+   "why": "the cited pages do not contain the claim's figures and names; missing: (subject) thiel, 2004, thiel"
+  }
+ ],
+ "unchecked": [],
+ "resourced": [],
+ "wikiSourcesDropped": 0,
+ "notes": [],
+ "pagesOpened": 26,
+ "pagesRefused": 0,
+ "empty": false
+}

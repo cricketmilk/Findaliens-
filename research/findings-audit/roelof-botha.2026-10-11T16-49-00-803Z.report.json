@@ -1,0 +1,20 @@
+{
+ "file": "roelof-botha.json",
+ "kind": "finding",
+ "at": "2026-10-11T16:49:00.803Z",
+ "kept": 35,
+ "removed": [],
+ "unchecked": [
+  {
+   "where": "facts[15]",
+   "claim": "In November 2022 Sequoia told its limited partners it had marked its FTX investments down to zero: $150 million held in Global Growth Fund III and $63.5 million in its SCGE public-equities fund, $213.",
+   "why": "could not re-open any cited page to confirm it: https://www.theblock.co/post/185136/sequoia-says-its-investment-in-ftx-is-now-worthless (HTTP 403)"
+  }
+ ],
+ "resourced": [],
+ "wikiSourcesDropped": 0,
+ "notes": [],
+ "pagesOpened": 17,
+ "pagesRefused": 1,
+ "empty": false
+}

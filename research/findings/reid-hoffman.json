@@ -39,25 +39,6 @@
       ]
     },
     {
-      "claim": "In 2004, Sean Parker contacted Hoffman about investing in Facebook. Hoffman has said he chose not to lead the round because of how his roles at LinkedIn and Friendster might look, suggested that Peter Thiel lead it instead, and invested himself. TechCrunch reported his stake as $37,500.",
-      "status": "reported",
-      "date": "2004-06-01",
-      "sources": [
-        {
-          "url": "https://achievement.org/video/reid-hoffman-31/",
-          "publisher": "Academy of Achievement",
-          "title": "Reid Hoffman interview (on the 2004 Facebook round)",
-          "date": ""
-        },
-        {
-          "url": "https://techcrunch.com/2012/09/10/reid-hoffman-invested-37500-into-facebook-at-a-5m-valuation/",
-          "publisher": "TechCrunch",
-          "title": "Reid Hoffman Invested $37,500 Into Facebook At A $5M Valuation",
-          "date": "2012-09-10"
-        }
-      ]
-    },
-    {
       "claim": "Hoffman received a B.S. in Symbolic Systems from Stanford University in 1990 and an M.S. in Philosophy from Oxford University in 1993, according to PayPal's annual report.",
       "status": "documented",
       "date": "1990",
@@ -333,15 +314,15 @@
       "date": "2024-09-04",
       "sources": [
         {
-          "url": "https://www.gov.uk/cma-cases/microsoft-slash-inflection-ai-inquiry",
-          "publisher": "UK Competition and Markets Authority",
-          "title": "Microsoft / Inflection inquiry (case page)",
-          "date": "2024-09-04"
-        },
-        {
           "url": "https://techcrunch.com/2024/09/04/uk-regulator-greenlights-microsofts-inflection-acquihire-but-also-designates-it-a-merger",
           "publisher": "TechCrunch",
           "title": "UK regulator greenlights Microsoft's Inflection acquihire, but also designates it a merger",
+          "date": "2024-09-04"
+        },
+        {
+          "url": "https://www.gov.uk/cma-cases/microsoft-slash-inflection-ai-inquiry",
+          "publisher": "UK Competition and Markets Authority",
+          "title": "Microsoft / Inflection inquiry (case page)",
           "date": "2024-09-04"
         }
       ]
@@ -505,52 +486,6 @@
     }
   ],
   "connections": [
-    {
-      "to": "peter-thiel",
-      "relation": "partnered with",
-      "claim": "Hoffman (executive vice president) and Thiel (CEO) worked together at PayPal. Both invested in Facebook's 2004 first outside round, which Thiel led after Hoffman, by his own account, suggested he lead it.",
-      "status": "reported",
-      "sources": [
-        {
-          "url": "https://greylock.com/team/reid-hoffman/",
-          "publisher": "Greylock",
-          "title": "Reid Hoffman (partner biography)",
-          "date": ""
-        },
-        {
-          "url": "https://foundersfund.com/team/peter-thiel/",
-          "publisher": "Founders Fund",
-          "title": "Peter Thiel (team biography)",
-          "date": ""
-        },
-        {
-          "url": "https://achievement.org/video/reid-hoffman-31/",
-          "publisher": "Academy of Achievement",
-          "title": "Reid Hoffman interview (on the 2004 Facebook round)",
-          "date": ""
-        }
-      ]
-    },
-    {
-      "to": "meta",
-      "relation": "invested in",
-      "claim": "Hoffman invested $37,500 in Facebook's first outside round in 2004, which Peter Thiel led.",
-      "status": "reported",
-      "sources": [
-        {
-          "url": "https://techcrunch.com/2012/09/10/reid-hoffman-invested-37500-into-facebook-at-a-5m-valuation/",
-          "publisher": "TechCrunch",
-          "title": "Reid Hoffman Invested $37,500 Into Facebook At A $5M Valuation",
-          "date": "2012-09-10"
-        },
-        {
-          "url": "https://achievement.org/video/reid-hoffman-31/",
-          "publisher": "Academy of Achievement",
-          "title": "Reid Hoffman interview (on the 2004 Facebook round)",
-          "date": ""
-        }
-      ]
-    },
     {
       "to": "peter-thiel",
       "toName": "Peter Thiel",
@@ -786,23 +721,6 @@
       ]
     },
     {
-      "to": "founders-fund",
-      "toName": "Founders Fund",
-      "toType": "organization",
-      "relation": "other",
-      "claim": "Greylock XIII funds (Hoffman's firm), Founders Fund II–IV (co-founded by Peter Thiel) and Andreessen Horowitz Fund II were all investor parties to Airbnb's April 2020 investors' rights agreement.",
-      "status": "documented",
-      "date": "2020-04-17",
-      "sources": [
-        {
-          "url": "https://www.sec.gov/Archives/edgar/data/1559720/000119312520294801/d81668dex43.htm",
-          "publisher": "SEC",
-          "title": "Airbnb, Inc. Form S-1 Exhibit 4.3: Amended and Restated Investors' Rights Agreement (April 17, 2020)",
-          "date": "2020-11-16"
-        }
-      ]
-    },
-    {
       "to": "andreessen-horowitz",
       "toName": "Andreessen Horowitz",
       "toType": "organization",
@@ -915,6 +833,10 @@
     "The current status of the FTC inquiry into Microsoft–Inflection: no closing record found.",
     "When Hoffman joined Airbnb's board and whether he is still on it: his O'Reilly bio lists a seat but gives no date.",
     "Ties to David Sacks: no record found of co-investments or shared boards; one data-aggregator page listing Hoffman as a Yammer board member looks unreliable.",
-    "The venue of the August 2015 dinner (Baumé restaurant vs. Hoffman's home): reports differ."
+    "The venue of the August 2015 dinner (Baumé restaurant vs. Hoffman's home): reports differ.",
+    "Removed in audit (the cited pages do not contain the claim's figures and names; missing: 2004, sean parker, friendster, peter thiel): In 2004, Sean Parker contacted Hoffman about investing in Facebook. Hoffman has said he chose not to lead the round because of how his roles at LinkedIn and Friendster might look, suggested that Peter Thiel lead it instead, and invested himself. TechCrunch reported his stake as $37,500.",
+    "Removed in audit (the cited pages do not contain the claim's figures and names; missing: 2004, thiel): Hoffman (executive vice president) and Thiel (CEO) worked together at PayPal. Both invested in Facebook's 2004 first outside round, which Thiel led after Hoffman, by his own account, suggested he lead it.",
+    "Removed in audit (the cited pages do not contain the claim's figures and names; missing: 2004, peter thiel): Hoffman invested $37,500 in Facebook's first outside round in 2004, which Peter Thiel led.",
+    "Removed in audit (the cited pages do not contain the claim's figures and names; missing: hoffman, peter thiel): Greylock XIII funds (Hoffman's firm), Founders Fund II–IV (co-founded by Peter Thiel) and Andreessen Horowitz Fund II were all investor parties to Airbnb's April 2020 investors' rights agreement."
   ]
 }

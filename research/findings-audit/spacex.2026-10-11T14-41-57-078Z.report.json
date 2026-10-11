@@ -1,0 +1,26 @@
+{
+ "file": "spacex.json",
+ "at": "2026-10-11T14:41:57.078Z",
+ "kept": 27,
+ "removed": [
+  {
+   "where": "facts[4]",
+   "claim": "SpaceX filed a Form 8-K current report with the SEC dated June 16, 2026, listed on its investor relations site.",
+   "why": "could not re-open any cited page to confirm it: https://ir.spacex.com/financials/sec-filings-details/default.aspx?FilingId=19540210 (page came back nearly empty)"
+  },
+  {
+   "where": "facts[18]",
+   "claim": "Ira Ehrenpreis, Randy Glein, Antonio J. Gracias, Steve Jurvetson, Luke Nosek and Roelof Botha are listed on SpaceX's investor relations site as members of its board of directors, with Ehrenpreis and G",
+   "why": "could not re-open any cited page to confirm it: https://ir.spacex.com/leadership/default.aspx (page came back nearly empty)"
+  },
+  {
+   "where": "connections[6]",
+   "claim": "Roelof Botha is listed as an Independent Director on SpaceX's board.",
+   "why": "could not re-open any cited page to confirm it: https://ir.spacex.com/leadership/default.aspx (page came back nearly empty)"
+  }
+ ],
+ "wikiSourcesDropped": 0,
+ "pagesOpened": 12,
+ "pagesRefused": 0,
+ "empty": false
+}

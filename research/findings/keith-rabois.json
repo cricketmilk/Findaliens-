@@ -461,16 +461,16 @@
       "date": "2000-11",
       "sources": [
         {
-          "url": "https://techcrunch.com/2019/02/20/keith-rabois-is-leaving-khosla-ventures-for-founders-fund/",
-          "publisher": "TechCrunch",
-          "title": "Keith Rabois joins Founders Fund amid transition at the firm",
-          "date": "2019-02-20"
-        },
-        {
           "url": "https://delian.substack.com/p/operators-ep-14-transcript",
           "publisher": "Operators podcast (Substack)",
           "title": "Operators Ep 14 Transcript",
           "date": "2020-11-09"
+        },
+        {
+          "url": "https://techcrunch.com/2019/02/20/keith-rabois-is-leaving-khosla-ventures-for-founders-fund/",
+          "publisher": "TechCrunch",
+          "title": "Keith Rabois joins Founders Fund amid transition at the firm",
+          "date": "2019-02-20"
         }
       ]
     },
@@ -509,27 +509,6 @@
       ]
     },
     {
-      "to": "khosla-ventures",
-      "toName": "Khosla Ventures",
-      "toType": "company",
-      "relation": "employed by",
-      "claim": "Rabois joined Khosla Ventures in 2013, left in 2019, and returned in January 2024; Opendoor identified him as a Khosla Managing Director in 2025.",
-      "status": "reported",
-      "date": "2013-02",
-      "sources": [
-        {
-          "url": "https://www.fortune.com/2013/02/26/ex-square-executive-keith-rabois-joining-khosla-ventures",
-          "publisher": "Fortune",
-          "date": "2013-02-26"
-        },
-        {
-          "url": "https://techcrunch.com/2024/01/09/keith-rabois-dishes-on-his-surprising-return-to-khosla-ventures-after-leaving-the-firm-in-2019-for-founders-fund",
-          "publisher": "TechCrunch",
-          "date": "2024-01-09"
-        }
-      ]
-    },
-    {
       "to": "opendoor",
       "toName": "Opendoor",
       "toType": "company",
@@ -561,14 +540,14 @@
       "date": "2019-02",
       "sources": [
         {
-          "url": "https://techcrunch.com/2019/02/20/keith-rabois-is-leaving-khosla-ventures-for-founders-fund/",
-          "publisher": "TechCrunch",
-          "date": "2019-02-20"
-        },
-        {
           "url": "https://fortune.com/2021/02/08/founders-fund-signs-up-for-a-miami-office",
           "publisher": "Fortune",
           "date": "2021-02-08"
+        },
+        {
+          "url": "https://techcrunch.com/2019/02/20/keith-rabois-is-leaving-khosla-ventures-for-founders-fund/",
+          "publisher": "TechCrunch",
+          "date": "2019-02-20"
         }
       ]
     },
@@ -715,28 +694,6 @@
           "date": "2026-10-08"
         }
       ]
-    },
-    {
-      "to": "jacob-helberg",
-      "toName": "Jacob Helberg",
-      "toType": "person",
-      "relation": "family of",
-      "claim": "Rabois's husband Jacob Helberg, described in 2024 as a Trump evangelist who watched the Republican National Convention from a private box, was nominated as Under Secretary of State for Economic Growth, Energy, and the Environment and had his Senate Foreign Relations hearing on June 10, 2025.",
-      "status": "documented",
-      "date": "2025-06-10",
-      "sources": [
-        {
-          "url": "https://techcrunch.com/2024/07/20/parties-dilemmas-4-days-with-silicon-valley-maga-tech-elite-rnc",
-          "publisher": "TechCrunch",
-          "date": "2024-07-20"
-        },
-        {
-          "url": "https://www.foreign.senate.gov/hearings/nominations-06-10-2025",
-          "publisher": "U.S. Senate Foreign Relations Committee",
-          "title": "Nominations, June 10, 2025",
-          "date": "2025-06-10"
-        }
-      ]
     }
   ],
   "openQuestions": [
@@ -752,6 +709,8 @@
     "The Real Deal reported a $50,000 gift from Rabois to Miami Mayor Francis Suarez's PAC (2021); page returned 403, not verified.",
     "FWD.us (2013 immigration lobbying group) listed Rabois as a major contributor per an archived page cited by Wikipedia; archive not reachable.",
     "FEC pull covered the top 25 contributions by size only (1,095 records total); smaller and pre-2020 gifts, including any to Democrats, were not reviewed because of API rate limits.",
-    "Ties to Musk and Andreessen after 2002 not documented in sources opened here."
+    "Ties to Musk and Andreessen after 2002 not documented in sources opened here.",
+    "Removed in audit (the cited pages do not contain the claim's figures and names; missing: 2024, 2025, opendoor): Rabois joined Khosla Ventures in 2013, left in 2019, and returned in January 2024; Opendoor identified him as a Khosla Managing Director in 2025.",
+    "Removed in audit (the cited pages do not contain the claim's figures and names; missing: 2024, state, economic growth, energy, environment): Rabois's husband Jacob Helberg, described in 2024 as a Trump evangelist who watched the Republican National Convention from a private box, was nominated as Under Secretary of State for Economic Growth, Energy, and the Environment and had his Senate Foreign Relations hearing on June 10, 2025."
   ]
 }

@@ -1,0 +1,61 @@
+{
+ "file": "microsoft.json",
+ "at": "2026-10-11T14:41:24.422Z",
+ "kept": 13,
+ "removed": [
+  {
+   "where": "facts[5]",
+   "claim": "Paul Allen left Microsoft in 1983 after being diagnosed with Hodgkin's lymphoma, and remained on the board as vice-chairman according to Wikipedia's history of the company.",
+   "why": "only Wikipedia cited; needs the primary source it points to"
+  },
+  {
+   "where": "facts[8]",
+   "claim": "On April 3, 2000, a federal judgment in United States v. Microsoft Corp. called the company an 'abusive monopoly' and ordered it split into two units; part of that ruling was later overturned on appea",
+   "why": "only Wikipedia cited; needs the primary source it points to"
+  },
+  {
+   "where": "facts[9]",
+   "claim": "In 2004 the European Union fined Microsoft €497 million (US$613 million) for alleged abuse of market dominance and ordered it to divulge certain protocols to competitors, according to Wikipedia's hist",
+   "why": "only Wikipedia cited; needs the primary source it points to"
+  },
+  {
+   "where": "facts[10]",
+   "claim": "Paul Allen died on October 15, 2018, after complications of non-Hodgkin's lymphoma, per Wikipedia's history of the company.",
+   "why": "only Wikipedia cited; needs the primary source it points to"
+  },
+  {
+   "where": "facts[13]",
+   "claim": "Microsoft's employee-funded political action committee, Microsoft Corporation Stakeholders Voluntary PAC (MSVPAC, FEC ID C00227546), reported $2,050,316.80 in contributions and $2,072,360.72 in disbur",
+   "why": "the quoted passage is not on the cited page"
+  },
+  {
+   "where": "facts[15]",
+   "claim": "Microsoft Corporation reported lobbying expenses of $2,278,000 in the first quarter of 2024 and $2,350,000 in the first quarter of 2025 in federal lobbying disclosures, filed through the registrant's ",
+   "why": "the quoted passage is not on the cited page"
+  },
+  {
+   "where": "facts[16]",
+   "claim": "The Integrated Visual Augmentation System (IVAS), an augmented reality headset for the US Army, was initially developed by Microsoft; in February 2025 Anduril announced it would take over oversight of",
+   "why": "only Wikipedia cited; needs the primary source it points to"
+  },
+  {
+   "where": "facts[17]",
+   "claim": "Microsoft was named among the companies in leaked NSA PRISM slides, which listed Microsoft from 2007; Microsoft said it provides customer data only under legally binding orders or subpoenas.",
+   "why": "only Wikipedia cited; needs the primary source it points to"
+  },
+  {
+   "where": "connections[1]",
+   "claim": "Digital Research developed CP/M, which IBM asked to supply as the PC operating system in 1980; Digital Research refused, and Microsoft then supplied an operating system (PC DOS, developed from 86-DOS)",
+   "why": "only Wikipedia cited; needs the primary source it points to"
+  },
+  {
+   "where": "connections[2]",
+   "claim": "Wikipedia's Anthropic article reports that Nvidia and Microsoft were expected to invest in Anthropic, and that Anthropic would buy computing capacity from Microsoft Azure; recorded as reported, not co",
+   "why": "only Wikipedia cited; needs the primary source it points to"
+  }
+ ],
+ "wikiSourcesDropped": 9,
+ "pagesOpened": 9,
+ "pagesRefused": 0,
+ "empty": false
+}

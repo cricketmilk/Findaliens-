@@ -1,0 +1,61 @@
+{
+  "entity": "goldman-sachs",
+  "name": "Goldman Sachs",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "Goldman Sachs is a multinational investment bank. In 2010 it paid $550 million to settle SEC charges that it did not disclose hedge fund Paulson & Co.'s role in selecting the Abacus 2007-AC1 CDO portfolio, which Paulson was betting against. It received about $12.9 billion in AIG counterparty payments after the 2008 rescue. In 2020 it paid more than $2.9 billion to resolve the 1MDB bribery investigations; the parent entered a deferred prosecution agreement and its Malaysian subsidiary pleaded guilty.",
+    "sources": [
+      {
+        "url": "https://www.sec.gov/news/press/2010/2010-123.htm",
+        "publisher": "U.S. Securities and Exchange Commission",
+        "title": "Goldman Sachs to Pay Record $550 Million to Settle SEC Charges Related to Subprime Mortgage CDO",
+        "date": "2010-07-15"
+      },
+      {
+        "url": "https://www.justice.gov/opa/pr/goldman-sachs-charged-foreign-bribery-case-and-agrees-pay-over-29-billion",
+        "publisher": "U.S. Department of Justice",
+        "title": "Goldman Sachs Charged in Foreign Bribery Case and Agrees to Pay Over $2.9 Billion",
+        "date": "2020-10-22"
+      },
+      {
+        "url": "https://www.cbsnews.com/news/90b-of-aigs-federal-rescue-went-to-banks/",
+        "publisher": "CBS News / AP",
+        "title": "$90B Of AIG's Federal Rescue Went To Banks",
+        "date": "2009-03-16"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In April 2010 the SEC charged Goldman Sachs with fraud, alleging that marketing materials for the Abacus 2007-AC1 CDO represented that ACA Management selected the reference portfolio while failing to disclose that hedge fund Paulson & Co., which took a short position against it, played a significant role in the selection. In July 2010 Goldman paid $550 million to settle and acknowledged that the materials were incomplete and that it was a mistake not to disclose Paulson's role.",
+      "status": "court",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/news/press/2010/2010-59.htm",
+          "publisher": "U.S. Securities and Exchange Commission",
+          "title": "SEC Charges Goldman Sachs With Fraud in Structuring and Marketing of CDO Tied to Subprime Mortgages",
+          "date": "2010-04-16"
+        },
+        {
+          "url": "https://www.sec.gov/news/press/2010/2010-123.htm",
+          "publisher": "U.S. Securities and Exchange Commission",
+          "title": "Goldman Sachs to Pay Record $550 Million to Settle SEC Charges Related to Subprime Mortgage CDO",
+          "date": "2010-07-15"
+        }
+      ]
+    },
+    {
+      "claim": "In October 2020, Goldman Sachs entered a deferred prosecution agreement and its Malaysian subsidiary pleaded guilty to conspiring to violate the Foreign Corrupt Practices Act, in connection with more than $1 billion in bribes to Malaysian and Abu Dhabi officials tied to 1MDB bond deals. Goldman agreed to pay more than $2.9 billion in a coordinated resolution with authorities in the United States, the United Kingdom, Singapore and elsewhere.",
+      "status": "court",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/goldman-sachs-charged-foreign-bribery-case-and-agrees-pay-over-29-billion",
+          "publisher": "U.S. Department of Justice",
+          "title": "Goldman Sachs Charged in Foreign Bribery Case and Agrees to Pay Over $2.9 Billion",
+          "date": "2020-10-22"
+        }
+      ]
+    }
+  ],
+  "connections": []
+}

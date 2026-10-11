@@ -1,0 +1,199 @@
+{
+  "id": "nih-mrna-moderna",
+  "title": "NIH Vaccine Research Center → Moderna mRNA-1273 (Spikevax)",
+  "pattern": "parallel-successor",
+  "country": "United States",
+  "summary": "NIAID Vaccine Research Center (VRC) scientists and academic collaborators published a method in 2017 for holding coronavirus spike proteins in their prefusion shape. In January 2020 the VRC and Moderna, a Flagship Pioneering company incorporated in 2009, finalized the sequence of the mRNA-1273 COVID-19 vaccine, which NIH says was developed by NIAID scientists and Moderna; NIH ran the first human trial and Moderna commercialized it as Spikevax. In December 2022 Moderna licensed NIAID's spike-stabilization patents non-exclusively and paid a $400 million catch-up royalty. A separate 2021 dispute over naming NIH scientists as co-inventors on Moderna's mRNA-sequence patent application had no resolution in the sources reviewed. NIH research continued: this is co-development, not a hand-over.",
+  "public": {
+    "name": "NIAID Vaccine Research Center prefusion-spike research and mRNA-1273 co-development",
+    "funder": "National Institutes of Health (National Institute of Allergy and Infectious Diseases)",
+    "start": {
+      "date": "2017",
+      "precision": "year"
+    },
+    "end": {
+      "date": "2022-12",
+      "precision": "month",
+      "kind": "ongoing"
+    },
+    "sources": [
+      {
+        "url": "https://europepmc.org/article/MED/28807998",
+        "publisher": "Proceedings of the National Academy of Sciences (via Europe PMC)",
+        "title": "Immunogenicity and structures of a rationally designed prefusion MERS-CoV spike antigen",
+        "date": "2017-08-14"
+      },
+      {
+        "url": "https://www.nih.gov/news-events/news-releases/nih-clinical-trial-investigational-vaccine-covid-19-begins",
+        "publisher": "National Institutes of Health",
+        "title": "NIH clinical trial of investigational vaccine for COVID-19 begins",
+        "date": "2020-03-16"
+      },
+      {
+        "url": "https://europepmc.org/article/MED/32756549",
+        "publisher": "Nature (via Europe PMC)",
+        "title": "SARS-CoV-2 mRNA vaccine design enabled by prototype pathogen preparedness",
+        "date": "2020-08-05"
+      }
+    ]
+  },
+  "private": {
+    "name": "Moderna, Inc.",
+    "founded": {
+      "date": "2009",
+      "precision": "year"
+    },
+    "founders": [
+      "Flagship Pioneering (incorporated it as Newco LS18, Inc.)"
+    ],
+    "funders": [
+      "Flagship Pioneering",
+      "BARDA (mRNA-1273 development contract, approximately $955 million as of July 2020)",
+      "CEPI (Phase 1 manufacturing)"
+    ],
+    "outcome": "Commercialized mRNA-1273 as Spikevax; pays NIAID royalties under a non-exclusive patent license signed December 2022",
+    "sources": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285223000011/mrna-20221231.htm",
+        "publisher": "U.S. Securities and Exchange Commission",
+        "title": "Moderna, Inc. Form 10-K for fiscal year 2022",
+        "date": "2023-02-24"
+      },
+      {
+        "url": "https://www.techtransfer.nih.gov/showcase/spikevax-r",
+        "publisher": "NIH Office of Technology Transfer",
+        "title": "Spikevax®"
+      },
+      {
+        "url": "https://pharmamanufacturing.com/industrynews/2020/barda-adds-472m-to-moderna-contract",
+        "publisher": "Pharma Manufacturing",
+        "title": "BARDA adds $472M to Moderna contract",
+        "date": "2020-07-27"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "ip-license",
+      "claim": "Moderna's 10-K states that in December 2022 it entered a non-exclusive patent license with NIAID covering patent rights on stabilizing prefusion coronavirus spike proteins for COVID-19 vaccines, agreed to low single-digit royalties on future net sales plus minimum annual royalties and milestones, and made a $400 million catch-up royalty payment to NIAID that month.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285223000011/mrna-20221231.htm",
+          "publisher": "U.S. Securities and Exchange Commission",
+          "title": "Moderna, Inc. Form 10-K for fiscal year 2022",
+          "date": "2023-02-24"
+        }
+      ]
+    },
+    {
+      "type": "funding",
+      "claim": "NIH states mRNA-1273 'was developed by NIAID scientists and their collaborators' at Moderna; Moderna states the VRC and its team finalized the vaccine sequence on January 13, 2020, and that the first trial ran under NIH's own IND. NIH's tech-transfer office lists Spikevax (ModernaTX) as a product of NIAID research, inventors 'Graham, B. et al.'",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.nih.gov/news-events/news-releases/nih-clinical-trial-investigational-vaccine-covid-19-begins",
+          "publisher": "National Institutes of Health",
+          "title": "NIH clinical trial of investigational vaccine for COVID-19 begins",
+          "date": "2020-03-16"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1682852/000119312520074867/d884510dex992.htm",
+          "publisher": "Moderna, Inc. (SEC exhibit)",
+          "title": "Moderna Announces First Participant Dosed in NIH-led Phase 1 Study of mRNA Vaccine (mRNA-1273) Against Novel Coronavirus",
+          "date": "2020-03-16"
+        },
+        {
+          "url": "https://www.techtransfer.nih.gov/showcase/spikevax-r",
+          "publisher": "NIH Office of Technology Transfer",
+          "title": "Spikevax®"
+        }
+      ]
+    },
+    {
+      "type": "personnel",
+      "claim": "The peer-reviewed paper describing mRNA-1273's design lists authors affiliated with both the NIAID Vaccine Research Center and Moderna, and states the vaccine applies prefusion-stabilizing spike mutations developed in earlier structural work.",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://europepmc.org/article/MED/32756549",
+          "publisher": "Nature (via Europe PMC)",
+          "title": "SARS-CoV-2 mRNA vaccine design enabled by prototype pathogen preparedness",
+          "date": "2020-08-05"
+        }
+      ]
+    },
+    {
+      "type": "funding",
+      "claim": "BARDA, an HHS agency, funded Moderna's mRNA-1273 development; a July 2020 contract modification added up to $472 million, bringing the award to approximately $955 million.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://pharmamanufacturing.com/industrynews/2020/barda-adds-472m-to-moderna-contract",
+          "publisher": "Pharma Manufacturing",
+          "title": "BARDA adds $472M to Moderna contract",
+          "date": "2020-07-27"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "The government (NIH) invented the Moderna COVID-19 vaccine.",
+      "assessment": "partly-true",
+      "explanation": "NIH describes mRNA-1273 as developed by NIAID scientists together with Moderna, and Moderna licensed NIAID's spike-stabilization patents. But the mRNA platform is Moderna's, and inventorship of the vaccine's mRNA sequence was disputed: Moderna said its scientists invented the sequence, while NIH maintained its scientists should be co-inventors for work on the protein sequence.",
+      "sources": [
+        {
+          "url": "https://www.nih.gov/news-events/news-releases/nih-clinical-trial-investigational-vaccine-covid-19-begins",
+          "publisher": "National Institutes of Health",
+          "title": "NIH clinical trial of investigational vaccine for COVID-19 begins",
+          "date": "2020-03-16"
+        },
+        {
+          "url": "https://investors.modernatx.com/statements-perspectives/statement-on-intellectual-property",
+          "publisher": "Moderna, Inc.",
+          "title": "Statement on Intellectual Property",
+          "date": "2021-12-17"
+        }
+      ]
+    },
+    {
+      "claim": "Moderna's $400 million payment settled its inventorship dispute with NIH.",
+      "assessment": "unsupported",
+      "explanation": "Moderna's 10-K describes the $400 million as a catch-up royalty under a license to NIAID's prefusion spike-stabilization patents. The inventorship dispute concerned a different application, on the vaccine's mRNA sequence, which Moderna said in December 2021 it would not pursue for now while talks continued. No source reviewed shows the payment resolving that dispute.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285223000011/mrna-20221231.htm",
+          "publisher": "U.S. Securities and Exchange Commission",
+          "title": "Moderna, Inc. Form 10-K for fiscal year 2022",
+          "date": "2023-02-24"
+        },
+        {
+          "url": "https://investors.modernatx.com/statements-perspectives/statement-on-intellectual-property",
+          "publisher": "Moderna, Inc.",
+          "title": "Statement on Intellectual Property",
+          "date": "2021-12-17"
+        }
+      ]
+    },
+    {
+      "claim": "The $400 million payment was small relative to Moderna's COVID-19 vaccine revenue.",
+      "assessment": "true",
+      "explanation": "Moderna's 10-K reports COVID-19 vaccine product sales of $17.7 billion in 2021 and $18.4 billion in 2022 (about $36.1 billion), so the $400 million catch-up royalty was roughly 1.1% of those two years' sales. Public Citizen, an advocacy group, made the same comparison. Ongoing royalties are described only as low single digits.",
+      "sources": [
+        {
+          "url": "https://www.citizen.org/news/moderna-nih-agreement-on-publicly-funded-discovery-will-be-dwarfed-by-modernas-unconscionable-price-spike/",
+          "publisher": "Public Citizen",
+          "title": "Moderna-NIH Agreement on Publicly-Funded Discovery Will Be Dwarfed by Moderna's Unconscionable Price Spike",
+          "date": "2023-02-24"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285223000011/mrna-20221231.htm",
+          "publisher": "U.S. Securities and Exchange Commission",
+          "title": "Moderna, Inc. Form 10-K for fiscal year 2022",
+          "date": "2023-02-24"
+        }
+      ]
+    }
+  ]
+}

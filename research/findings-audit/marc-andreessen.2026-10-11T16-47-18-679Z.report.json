@@ -1,0 +1,25 @@
+{
+ "file": "marc-andreessen.json",
+ "kind": "finding",
+ "at": "2026-10-11T16:47:18.679Z",
+ "kept": 17,
+ "removed": [],
+ "unchecked": [
+  {
+   "where": "facts[4]",
+   "claim": "On November 24, 1998, America Online announced it would acquire Netscape Communications in a stock-for-stock transaction valued at $4.2 billion, with Netscape shareholders receiving 0.45 AOL shares pe",
+   "why": "could not re-open any cited page to confirm it: https://www.computerhistory.org/tdih/november/24/ (page came back nearly empty)"
+  },
+  {
+   "where": "connections[6]",
+   "claim": "On March 25, 2026, the White House named Andreessen (listed first) among the first appointees to the President's Council of Advisors on Science and Technology, which is co-chaired by David Sacks and M",
+   "why": "could not re-open any cited page to confirm it: https://www.whitehouse.gov/releases/2026/03/president-trump-announces-appointments-to-presidents-council-of-advisors-on-science-and-technology (page came back nearly empty)"
+  }
+ ],
+ "resourced": [],
+ "wikiSourcesDropped": 0,
+ "notes": [],
+ "pagesOpened": 20,
+ "pagesRefused": 0,
+ "empty": false
+}

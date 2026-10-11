@@ -1,0 +1,20 @@
+{
+ "file": "sequoia-capital.json",
+ "kind": "finding",
+ "at": "2026-10-11T18:11:59.549Z",
+ "kept": 36,
+ "removed": [
+  {
+   "where": "facts[13]",
+   "claim": "Sequoia's lobbying reports list $360,000 in fees for 2024, $240,000 for 2025 and $120,000 for the first half of 2026, a total of $720,000. The federal lobbying database shows no filings for a client n",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 360,000, 240,000, 120,000, 720,000"
+  }
+ ],
+ "unchecked": [],
+ "resourced": [],
+ "wikiSourcesDropped": 0,
+ "notes": [],
+ "pagesOpened": 35,
+ "pagesRefused": 0,
+ "empty": false
+}

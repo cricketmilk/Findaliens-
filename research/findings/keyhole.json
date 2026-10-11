@@ -1,0 +1,85 @@
+{
+  "entity": "keyhole",
+  "name": "Keyhole, Inc.",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Keyhole, Inc. was a 3D geospatial software company founded in 2001 that developed EarthViewer 3D. In February 2003, In-Q-Tel made a minority strategic investment on behalf of the National Imagery and Mapping Agency (NIMA, later NGA), which deployed the software during military operations in Iraq. In 2004, Google acquired Keyhole, integrating its geospatial technology and team to launch Google Earth in 2005.",
+    "sources": [
+      {
+        "url": "https://www.iqt.org/library/in-q-tel-announces-strategic-investment-in-keyhole",
+        "publisher": "In-Q-Tel",
+        "title": "In-Q-Tel Announces Strategic Investment in Keyhole",
+        "date": "2003-06-01"
+      },
+      {
+        "url": "https://www.govexec.com/defense/2006/12/advicedissent-intelligence-file-worldly-view/23301/",
+        "publisher": "Government Executive",
+        "title": "Intelligence File: Worldly View",
+        "date": "2006-12-01"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In February 2003, In-Q-Tel made a strategic investment in Keyhole on behalf of NIMA, supporting operational deployment in Iraq.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.iqt.org/library/in-q-tel-announces-strategic-investment-in-keyhole",
+          "publisher": "In-Q-Tel",
+          "title": "In-Q-Tel Announces Strategic Investment in Keyhole",
+          "date": "2003-06-01"
+        }
+      ]
+    },
+    {
+      "claim": "Google acquired Keyhole in 2004, transforming EarthViewer 3D into Google Earth; In-Q-Tel converted its minority stake into Google stock.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.govexec.com/defense/2006/12/advicedissent-intelligence-file-worldly-view/23301/",
+          "publisher": "Government Executive",
+          "title": "Intelligence File: Worldly View",
+          "date": "2006-12-01"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "in-q-tel",
+      "relation": "funded",
+      "claim": "In-Q-Tel invested in Keyhole in 2003 on behalf of NIMA.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.iqt.org/library/in-q-tel-announces-strategic-investment-in-keyhole",
+          "publisher": "In-Q-Tel",
+          "title": "In-Q-Tel Investment Notice",
+          "date": "2003-06-01"
+        }
+      ]
+    },
+    {
+      "to": "google",
+      "relation": "subsidiary of",
+      "claim": "Acquired by Google in 2004 and rebranded as Google Earth.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.govexec.com/defense/2006/12/advicedissent-intelligence-file-worldly-view/23301/",
+          "publisher": "Government Executive",
+          "title": "Intelligence File: Worldly View",
+          "date": "2006-12-01"
+        }
+      ]
+    }
+  ],
+  "branching_entities": [
+    {
+      "slug": "niantic",
+      "name": "Niantic, Inc.",
+      "relationship": "alumni_venture"
+    }
+  ]
+}

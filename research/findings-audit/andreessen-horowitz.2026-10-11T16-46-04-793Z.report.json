@@ -1,0 +1,30 @@
+{
+ "file": "andreessen-horowitz.json",
+ "kind": "finding",
+ "at": "2026-10-11T16:46:04.793Z",
+ "kept": 17,
+ "removed": [
+  {
+   "where": "facts[0]",
+   "claim": "FEC filings show that AH Capital Management, Andreessen Horowitz's management company, contributed $67 million to the Fairshake super PAC between October 2023 and November 2024, attributed in memo ent",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 67, 23.8, capital management, andreessen horowitz, fairshake, marc andreessen, ben horowitz"
+  },
+  {
+   "where": "facts[8]",
+   "claim": "A16Z Capital Management's in-house lobbying reports for 2025 list expenses of $650,000 (Q1), $840,000 (Q2, as amended), $1,330,000 (Q3) and $710,000 (Q4), $3.53 million in total. The Q1 report covered",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 3.53, fy2026 ndaa"
+  },
+  {
+   "where": "facts[10]",
+   "claim": "On December 22, 2024, President-elect Trump named Scott Kupor, described as Andreessen Horowitz's first employee and a managing partner, to lead the Office of Personnel Management. The Senate confirme",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 2024, trump, andreessen horowitz"
+  }
+ ],
+ "unchecked": [],
+ "resourced": [],
+ "wikiSourcesDropped": 0,
+ "notes": [],
+ "pagesOpened": 21,
+ "pagesRefused": 0,
+ "empty": false
+}

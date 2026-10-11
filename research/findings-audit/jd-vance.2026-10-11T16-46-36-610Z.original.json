@@ -1,0 +1,78 @@
+{
+  "entity": "jd-vance",
+  "name": "JD Vance",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "JD Vance is the Vice President of the United States and was elected U.S. Senator from Ohio in 2022. Before entering office he worked at Mithril Capital, a venture firm co-founded by Peter Thiel. In 2020 he launched the Cincinnati-based venture firm Narya Capital, whose reported backers included Thiel and Marc Andreessen.",
+    "sources": [
+      {
+        "url": "https://www.whitehouse.gov/administration/jd-vance/",
+        "publisher": "The White House",
+        "title": "JD Vance",
+        "date": ""
+      },
+      {
+        "url": "https://www.foxbusiness.com/money/venture-capital-jd-vance-narya",
+        "publisher": "Fox Business",
+        "title": "'Hillbilly Elegy' author, Peter Thiel partner on VC fund",
+        "date": "2020-01-13"
+      },
+      {
+        "url": "https://newrepublic.com/article/183971/jd-vance-weird-terrifying-techno-authoritarian-ideas",
+        "publisher": "The New Republic",
+        "title": "Where J.D. Vance Gets His Weird, Terrifying Techno-Authoritarian Ideas",
+        "date": "2024"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In January 2020, Vance and partners were reported to have raised $93 million for Narya Capital, a new Cincinnati-based venture firm, with Peter Thiel and Marc Andreessen among the fund's backers.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.foxbusiness.com/money/venture-capital-jd-vance-narya",
+          "publisher": "Fox Business",
+          "title": "'Hillbilly Elegy' author, Peter Thiel partner on VC fund",
+          "date": "2020-01-13"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "peter-thiel",
+      "relation": "other",
+      "claim": "Vance worked at Mithril Capital, a firm Peter Thiel co-founded. During Vance's 2022 Ohio Senate campaign, Thiel spent about $15 million supporting him, largely through the super PAC Protect Ohio Values.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://newrepublic.com/article/183971/jd-vance-weird-terrifying-techno-authoritarian-ideas",
+          "publisher": "The New Republic",
+          "title": "Where J.D. Vance Gets His Weird, Terrifying Techno-Authoritarian Ideas",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "to": "curtis-yarvin",
+      "relation": "other",
+      "claim": "In a 2021 podcast interview, Vance mentioned Curtis Yarvin while arguing that a future Trump administration should replace federal bureaucrats with 'our people', according to reporting by Vox cited by NBC News.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/the-reidout/reidout-blog/jd-vance-curtis-yarvin-2024-election-rcna162222",
+          "publisher": "NBC News",
+          "title": "JD Vance has spoken favorably about an anti-government race pseudoscientist",
+          "date": "2024-07-16"
+        },
+        {
+          "url": "https://newrepublic.com/article/183971/jd-vance-weird-terrifying-techno-authoritarian-ideas",
+          "publisher": "The New Republic",
+          "title": "Where J.D. Vance Gets His Weird, Terrifying Techno-Authoritarian Ideas",
+          "date": "2024"
+        }
+      ]
+    }
+  ]
+}

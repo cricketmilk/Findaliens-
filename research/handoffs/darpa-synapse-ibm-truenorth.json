@@ -115,19 +115,6 @@
           "date": "2014-08-07"
         }
       ]
-    },
-    {
-      "type": "contract",
-      "claim": "After the DARPA milestone, IBM sold its TrueNorth technology back to government: Lawrence Livermore National Laboratory signed a contract for a 16-chip TrueNorth-based system, with a programming language and curriculum, for NNSA Advanced Simulation and Computing research.",
-      "status": "reported",
-      "sources": [
-        {
-          "url": "https://nextgov.com/emerging-tech/2016/04/livermore-lab-buys-brain-inspired-chip/127378",
-          "publisher": "Nextgov",
-          "title": "Nuclear Lab Buys Brain-Inspired Computing Technology",
-          "date": "2016-04-11"
-        }
-      ]
     }
   ],
   "claims": [
@@ -150,5 +137,8 @@
         }
       ]
     }
+  ],
+  "openQuestions": [
+    "Removed in audit (the cited pages do not contain the claim's figures and names; missing: (subject) darpa, darpa, nnsa advanced simulation): After the DARPA milestone, IBM sold its TrueNorth technology back to government: Lawrence Livermore National Laboratory signed a contract for a 16-chip TrueNorth-based system, with a programming language and curriculum, for NNSA Advanced Simulation and Computing research."
   ]
 }

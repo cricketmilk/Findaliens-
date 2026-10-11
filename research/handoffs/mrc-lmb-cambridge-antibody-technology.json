@@ -83,30 +83,6 @@
           "date": "2006-03-03"
         }
       ]
-    },
-    {
-      "type": "personnel",
-      "claim": "CAT says it was established in 1990 by David Chiswell and leading MRC scientists. The Gairdner Foundation describes Greg Winter, a member of the MRC LMB who invented antibody humanization techniques in 1986, as a founder of CAT (1989); BioSpace reports his phage display technology was the company's foundation.",
-      "status": "documented",
-      "sources": [
-        {
-          "url": "https://www.sec.gov/Archives/edgar/data/1067386/000119312506045124/d20f.htm",
-          "publisher": "U.S. Securities and Exchange Commission",
-          "title": "Cambridge Antibody Technology Group plc, Form 20-F for fiscal year ended September 30, 2005",
-          "date": "2006-03-03"
-        },
-        {
-          "url": "https://www.gairdner.org/winner/sir-gregory-winter",
-          "publisher": "Gairdner Foundation",
-          "title": "Sir Gregory Winter"
-        },
-        {
-          "url": "https://www.biospace.com/cambridge-antibody-technology-the-history-behind-uk-s-best-biotech",
-          "publisher": "BioSpace",
-          "title": "Cambridge Antibody Technology: The History Behind UK's Best Biotech",
-          "date": "2017-06-08"
-        }
-      ]
     }
   ],
   "claims": [
@@ -141,5 +117,8 @@
         }
       ]
     }
+  ],
+  "openQuestions": [
+    "Removed in audit (the cited pages do not contain the claim's figures and names; missing: greg winter, mrc lmb, biospace): CAT says it was established in 1990 by David Chiswell and leading MRC scientists. The Gairdner Foundation describes Greg Winter, a member of the MRC LMB who invented antibody humanization techniques in 1986, as a founder of CAT (1989); BioSpace reports his phage display technology was the company's "
   ]
 }

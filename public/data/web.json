@@ -1,7 +1,20 @@
 {
-  "updated": "2026-10-11T22:44:55.819Z",
+  "updated": "2026-10-11T22:51:51.827Z",
   "note": "Approved by a person in research/review.mjs. Every item carries its sources.",
   "summaries": {
+    "amazon": {
+      "text": "Amazon.com, Inc. is a US-listed (NASDAQ: AMZN) multinational technology and retail company. Its segments include North America and International retail and Amazon Web Services (AWS). In its Q4 2025 results release, Amazon reported net sales of $213.4 billion for the quarter, up 14% year over year, and AWS segment sales of $35.6 billion, up 24%.",
+      "sources": [
+        {
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Fourth-Quarter-Results/",
+          "publisher": "Amazon Investor Relations",
+          "title": "Amazon.com Announces Fourth Quarter Results",
+          "date": "2026-02-05"
+        }
+      ],
+      "researchedAt": "2026-10-10",
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
     "american-petroleum-institute": {
       "text": "The American Petroleum Institute (API) is the main U.S. trade association for the oil and natural gas industry. It was formed in 1919 and has about 600 members. At API's 1959 'Energy and Man' symposium marking the industry's centennial, physicist Edward Teller warned that carbon dioxide from burning fossil fuels could warm the planet, and a 1968 Stanford Research Institute report commissioned by API warned of significant temperature changes by 2000. In 1998, a group that included API, Exxon, Chevron and Southern Company drafted a communications plan stating: 'Victory will be achieved when average citizens understand uncertainties in climate science.'",
       "sources": [
@@ -93,6 +106,38 @@
       ],
       "researchedAt": "2026-10-08",
       "approvedAt": "2026-10-08T23:04:58.168Z"
+    },
+    "anduril-industries": {
+      "text": "Anduril Industries is a defense technology contractor specializing in autonomous systems, counter-UAS (Lattice OS), and maritime robotics. Founded in 2017 by Palmer Luckey and Trae Stephens (Founders Fund), it scaled rapidly via venture syndicates and defense procurement awards, surpassing a $30B valuation by 2025. Its relationship with sovereign capital bridges early strategic investment from In-Q-Tel with multi-billion-dollar enterprise contracts across the U.S. Army, SOCOM, and the Defense Innovation Unit (DIU).",
+      "sources": [
+        {
+          "url": "https://www.defense.gov",
+          "publisher": "U.S. Department of Defense",
+          "title": "DoD Contract Award Notices",
+          "date": "2026-03-13"
+        },
+        {
+          "url": "https://www.reuters.com",
+          "publisher": "Reuters",
+          "title": "Anduril Valuation and Funding Rounds",
+          "date": "2025-06-05"
+        }
+      ],
+      "researchedAt": "2026-10-10",
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    "anduril": {
+      "text": "Anduril Industries is a US defence technology company. Its CEO said it was founded in 2017. Its revenue doubled to $2.2 billion in 2025, according to the company's own announcement as reported by TechCrunch.",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/05/13/anduril-raises-5b-doubles-valuation-to-61b/",
+          "publisher": "TechCrunch",
+          "title": "Anduril raises $5B, doubles valuation to $61B",
+          "date": "2026-05-13"
+        }
+      ],
+      "researchedAt": "2026-10-10",
+      "approvedAt": "2026-10-11T22:51:51.550Z"
     },
     "bcci": {
       "text": "The Bank of Credit and Commerce International (BCCI) was an international bank founded in 1972 by Pakistani banker Agha Hasan Abedi, with Abu Dhabi's ruling family as founding and majority shareholders. A December 1992 report to the U.S. Senate Foreign Relations Committee by Senators John Kerry and Hank Brown found that BCCI operated in 73 countries through a structure designed to evade regulation. The report documented fraud, money laundering, bribery and support of arms trafficking, and found that the CIA used BCCI and its secretly owned U.S. subsidiary First American for operations. BCCI was closed by regulators on July 5, 1991.",
@@ -319,6 +364,25 @@
       "researchedAt": "2026-10-08",
       "approvedAt": "2026-10-08T18:17:01.297Z"
     },
+    "eric-schmidt": {
+      "text": "Eric Schmidt is the former CEO and executive chairman of Google/Alphabet who transitioned into defense-tech venture capital and federal advisory leadership. Between 2016 and 2021, he chaired the Defense Innovation Board (DIB) and the National Security Commission on Artificial Intelligence (NSCAI), shaping federal AI procurement priorities and software acquisition standards. Concurrently, his investment arms (Schmidt Futures, Innovation Endeavors) and personal equity funded defense and dual-use software startups including Rebellion Defense.",
+      "sources": [
+        {
+          "url": "https://prospect.org/power/silicon-valley-takes-battlespace-eric-schmidt-rebellion/",
+          "publisher": "The American Prospect",
+          "title": "Silicon Valley Takes the Battlespace",
+          "date": "2021-03-01"
+        },
+        {
+          "url": "https://www.techtransparencyproject.org/articles/eric-schmidts-unseen-influence-over-us-defense-spending",
+          "publisher": "Tech Transparency Project",
+          "title": "Eric Schmidt's Hidden Influence Over US Defense Spending",
+          "date": "2021-04-15"
+        }
+      ],
+      "researchedAt": "2026-10-10",
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
     "exxonmobil": {
       "text": "ExxonMobil is an American oil and gas company formed by the 1999 merger of Exxon and Mobil. A 2023 peer-reviewed study in Science found that most global warming projections produced or reported by Exxon and ExxonMobil scientists between 1977 and 2003 accurately forecast later observed warming. It also found that the company's public statements contradicted its own scientific data. Exxon helped found and lead the Global Climate Coalition, an industry alliance that opposed government efforts to curb fossil fuel emissions.",
       "sources": [
@@ -454,6 +518,37 @@
       ],
       "researchedAt": "2026-10-08",
       "approvedAt": "2026-10-08T18:18:54.360Z"
+    },
+    "google": {
+      "text": "Google was founded in 1998 by Stanford students Larry Page and Sergey Brin and reorganized in 2015 under a new holding company, Alphabet Inc., of which the core Google business is the largest subsidiary. Alphabet has faced the most sustained antitrust and regulatory pressure of any American technology company: the US Justice Department and states sued it over search (2020) and digital advertising technology (2023); courts found it liable in both (2024, 2025) and later issued remedies orders (2025, 2026), both appealed. In Europe, the Commission fined Google for its Shopping service (2.42 billion euros, 2017), Android practices (4.34 billion euros, 2018) and AdSense search advertising (1.49 billion euros, 2019); the EU courts upheld the Shopping fine and annulled the AdSense fine. Alphabet also paid a $22.5 million FTC penalty in 2012 over privacy claims and was fined 325 million euros by France's CNIL in 2025 over advertising cookies.",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/technology/2015/aug/10/google-alphabet-parent-company",
+          "publisher": "The Guardian",
+          "title": "Google to restructure into new holding company called Alphabet",
+          "date": "2015-08-10"
+        },
+        {
+          "url": "https://www.klobuchar.senate.gov/public/index.cfm/2024/8/google-has-an-illegal-monopoly-on-search-us-judge-finds",
+          "publisher": "Reuters (via Sen. Klobuchar)",
+          "title": "Google has an illegal monopoly on search, US judge finds",
+          "date": "2024-08-05"
+        },
+        {
+          "url": "https://curia.europa.eu/jcms/upload/docs/application/pdf/2024-09/cp240135en.pdf",
+          "publisher": "Court of Justice of the European Union",
+          "title": "The Court of Justice upholds the fine of 2.4 billion euros imposed on Google",
+          "date": "2024-09-10"
+        },
+        {
+          "url": "https://www.cnil.fr/en/cookies-and-advertisements-inserted-between-emails-google-fined-325-million-euros-cnil",
+          "publisher": "CNIL (French data protection authority)",
+          "title": "Cookies and advertisements inserted between emails: GOOGLE fined 325 million euros by the CNIL",
+          "date": "2025-09-03"
+        }
+      ],
+      "researchedAt": "2026-10-10",
+      "approvedAt": "2026-10-11T22:51:51.550Z"
     },
     "imf": {
       "text": "The International Monetary Fund (IMF) is an international financial institution conceived at the July 1944 Bretton Woods conference, with 191 member countries. Each member's quota reflects its size in the world economy and determines its voting power and access to IMF resources. IMF lending is conditional: borrowing governments agree to adjust economic policies, with commitments ranging from fiscal and reserve targets to structural reforms, and funds are typically disbursed in installments tied to those actions.",
@@ -634,6 +729,25 @@
       ],
       "researchedAt": "2026-10-08",
       "approvedAt": "2026-10-08T22:05:05.506Z"
+    },
+    "keyhole": {
+      "text": "Keyhole, Inc. was a 3D geospatial software company founded in 2001 that developed EarthViewer 3D. In February 2003, In-Q-Tel made a minority strategic investment on behalf of the National Imagery and Mapping Agency (NIMA, later NGA), which deployed the software during military operations in Iraq. In 2004, Google acquired Keyhole, integrating its geospatial technology and team to launch Google Earth in 2005.",
+      "sources": [
+        {
+          "url": "https://www.iqt.org/library/in-q-tel-announces-strategic-investment-in-keyhole",
+          "publisher": "In-Q-Tel",
+          "title": "In-Q-Tel Announces Strategic Investment in Keyhole",
+          "date": "2003-06-01"
+        },
+        {
+          "url": "https://www.govexec.com/defense/2006/12/advicedissent-intelligence-file-worldly-view/23301/",
+          "publisher": "Government Executive",
+          "title": "Intelligence File: Worldly View",
+          "date": "2006-12-01"
+        }
+      ],
+      "researchedAt": "2026-10-10",
+      "approvedAt": "2026-10-11T22:51:51.550Z"
     },
     "lehman-brothers": {
       "text": "Lehman Brothers filed for bankruptcy on September 15, 2008. With $639 billion in consolidated assets, it was the largest financial bankruptcy in U.S. history and a central event of the 2008 financial crisis. The court-appointed examiner, Anton Valukas, issued a roughly 2,200-page report in 2010. It found that Lehman used 'Repo 105' transactions to temporarily remove up to about $50 billion of securities from its balance sheet at quarter-ends to lower its reported net leverage, without disclosing the practice, and that there were colorable claims against senior executives and its auditor.",
@@ -847,6 +961,69 @@
       ],
       "researchedAt": "2026-10-08",
       "approvedAt": "2026-10-08T22:20:46.594Z"
+    },
+    "microsoft": {
+      "text": "Microsoft Corporation is a computer technology company founded on April 4, 1975, by Bill Gates and Paul Allen, originally in Albuquerque, New Mexico, and based in Redmond, Washington after 1986. It is best known for the Windows operating system, the Office software suite, the Xbox brand, and the Azure cloud platform. It has been a public company since its 1986 IPO and files annual (10-K) and quarterly (10-Q) reports with the SEC.",
+      "sources": [
+        {
+          "url": "https://www.history.com/this-day-in-history/April-4/microsoft-founded",
+          "publisher": "HISTORY",
+          "title": "Microsoft founded | April 4, 1975",
+          "date": "2025-05-28"
+        },
+        {
+          "url": "https://microsoft.gcs-web.com/financial-information/sec-filings",
+          "publisher": "Microsoft Investor Relations (Kaleidoscope listing)",
+          "title": "SEC Filings | Microsoft Corporation",
+          "date": "2026-09-17"
+        }
+      ],
+      "researchedAt": "2026-10-10",
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    "nvidia": {
+      "text": "Nvidia Corporation (NASDAQ: NVDA) designs graphics processors and AI accelerated-computing platforms for data centers, gaming, professional visualization and automotive. Jen-Hsun (Jensen) Huang founded it in 1993 and is its President, CEO and a director. Its FY2026 revenue was $215.9 billion. Its sales of advanced chips to China depend on U.S. government licenses and Commerce Department rules.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+          "publisher": "SEC (Nvidia 2026 proxy statement, DEF 14A)",
+          "title": "NVIDIA Corporation Proxy Statement, filed 2026-05-12",
+          "date": "2026-05-12"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "SEC (Nvidia FY2026 annual report, Form 10-K)",
+          "title": "NVIDIA Corporation Form 10-K for fiscal year ended January 25, 2026, filed 2026-02-25",
+          "date": "2026-02-25"
+        }
+      ],
+      "researchedAt": "2026-10-10",
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    "openai": {
+      "text": "OpenAI is a California-based artificial intelligence company that develops ChatGPT and other AI models. Public records checked here show it lobbies Congress through an outside firm, Miller Strategies, LLC, and holds a federal OneGov agreement with the General Services Administration (GSA) offering discounted ChatGPT access to government agencies. Microsoft announced in October 2025 a recapitalization of OpenAI into a public benefit corporation, with Microsoft holding an investment valued at about $135 billion, roughly 27 percent on an as-converted diluted basis.",
+      "sources": [
+        {
+          "url": "https://congress.wiki/map/money/lobbying/clients/openai",
+          "publisher": "Congress.wiki",
+          "title": "OpenAI — Lobbying Disclosures ($900K disclosed through 2026)",
+          "date": "2026-07-20"
+        },
+        {
+          "url": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-expands-onegov-ai-offerings-with-discounted-openais-chatgpt-09102026",
+          "publisher": "GSA",
+          "title": "GSA Expands OneGov AI Offerings with Discounted, Consumption-Based Access to OpenAI's ChatGPT",
+          "date": "2026-09-10"
+        },
+        {
+          "url": "https://news.microsoft.com/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/",
+          "publisher": "Microsoft",
+          "title": "The next chapter of the Microsoft–OpenAI partnership",
+          "date": "2025-10-28"
+        }
+      ],
+      "researchedAt": "2026-10-10",
+      "approvedAt": "2026-10-11T22:51:51.550Z"
     },
     "palantir": {
       "text": "Palantir Technologies is a publicly traded data-analytics and software company. Peter Thiel, Alex Karp and Stephen Cohen are among its co-founders. Thiel has chaired its board since 2003, and Karp has been CEO since 2005. The CIA's venture arm In-Q-Tel was an early investor. Its software is used by U.S. defense, intelligence and law enforcement agencies, including ICE.",
@@ -1180,6 +1357,25 @@
       "researchedAt": "2026-10-08",
       "approvedAt": "2026-10-08T22:35:16.554Z"
     },
+    "spacex": {
+      "text": "Space Exploration Technologies Corp., founded in 2002 by Elon Musk and based in Hawthorne, California (listed as Starbase, Texas by one aggregator), designs, manufactures and launches rockets and spacecraft and operates the Starlink satellite internet service. It holds federal contracts with NASA and the Department of Defense and is among the largest U.S. launch providers. Its SEC S-1 was publicly filed on May 20, 2026, and an IPO on Nasdaq under ticker SPCX was reported to be priced on June 11, 2026, under a dual-class structure that gives Musk most of the voting power.",
+      "sources": [
+        {
+          "url": "https://fundbat.com/company/spacex/",
+          "publisher": "FundBat",
+          "title": "SpaceX (SPCX) - Funding Rounds, Valuation & Investors",
+          "date": "2026-06-11"
+        },
+        {
+          "url": "https://fed-spend.com/contractor/spacex",
+          "publisher": "Fed-Spend",
+          "title": "Space Exploration Technologies Corp. Federal Contracts",
+          "date": "2026"
+        }
+      ],
+      "researchedAt": "2026-10-10",
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
     "stanford": {
       "text": "Stanford University is a private research university in California closely tied to the growth of Silicon Valley. Frederick Terman, its dean of engineering and later provost, developed the university-owned industrial park where companies such as Hewlett-Packard located. The Stanford Research Institute (SRI), founded by Stanford in 1946 and independent since 1970, was the second node of ARPANET in 1969. From 2002 to 2019 Stanford ran the Global Climate and Energy Project, funded by corporate sponsors led by ExxonMobil.",
       "sources": [
@@ -1216,9 +1412,148 @@
       ],
       "researchedAt": "2026-10-08",
       "approvedAt": "2026-10-08T18:17:01.297Z"
+    },
+    "xai": {
+      "text": "xAI is the artificial intelligence company that builds the Grok models and operates the Colossus data centers in Memphis. It was organized as X.AI Holdings Corp. and its Series B, C and E financings were announced by the company or disclosed in SpaceX's 2026 registration statement. SpaceX acquired X.AI Holdings Corp. in a share exchange effective February 2, 2026 (the 'xAI Merger'). SpaceX's filings state that Elon Musk controls SpaceX.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm",
+          "publisher": "SEC EDGAR (SpaceX, Space Exploration Technologies Corp.)",
+          "title": "Form S-1/A Amendment No. 2",
+          "date": "2026-06-03"
+        },
+        {
+          "url": "https://x.ai/news/series-c",
+          "publisher": "xAI",
+          "title": "xAI raises $6B Series C",
+          "date": "2024-12-23"
+        }
+      ],
+      "researchedAt": "2026-10-11",
+      "approvedAt": "2026-10-11T22:51:51.550Z"
     }
   },
   "facts": [
+    {
+      "entity": "amazon",
+      "claim": "Amazon reported Q4 2025 net sales of $213.4 billion, up 14% year over year, with AWS segment sales of $35.6 billion, up 24%.",
+      "status": "documented",
+      "date": "2026-02-05",
+      "sources": [
+        {
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Fourth-Quarter-Results/",
+          "publisher": "Amazon Investor Relations",
+          "title": "Amazon.com Announces Fourth Quarter Results",
+          "date": "2026-02-05"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "amazon",
+      "claim": "Amazon Web Services is reported as a separate segment of Amazon; its Q4 2025 segment sales were $35.6 billion, up 24% year over year.",
+      "status": "documented",
+      "date": "2026-02-05",
+      "sources": [
+        {
+          "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Fourth-Quarter-Results/",
+          "publisher": "Amazon Investor Relations",
+          "title": "Amazon.com Announces Fourth Quarter Results",
+          "date": "2026-02-05"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "amazon",
+      "claim": "In July 2021, Luxembourg's National Commission for Data Protection (CNPD) fined Amazon Europe Core S.à r.l. €746 million over its processing of personal data under the EU GDPR; the appeal was dismissed in March 2025 and Amazon appealed further in April 2025.",
+      "status": "documented",
+      "date": "2021-07",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/R16.htm",
+          "publisher": "U.S. SEC (Amazon.com, Inc. Form 10-K, FY2025, Note: Commitments and Contingencies)",
+          "title": "Commitments and Contingencies (XBRL R16, Form 10-K filed 2026-02-06)",
+          "date": "2026-02-06"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "amazon",
+      "claim": "In December 2021, Italy's Competition Authority (ICA) fined Amazon entities €1.13 billion over marketplace and logistics practices in Italy; the Italian Administrative Tribunal reduced the fine to €752 million in September 2025, and Amazon appealed that ruling in December 2025.",
+      "status": "documented",
+      "date": "2021-12",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/R16.htm",
+          "publisher": "U.S. SEC (Amazon.com, Inc. Form 10-K, FY2025, Note: Commitments and Contingencies)",
+          "title": "Commitments and Contingencies (XBRL R16, Form 10-K filed 2026-02-06)",
+          "date": "2026-02-06"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "amazon",
+      "claim": "Since March 2020, private litigants, state Attorneys General and the Federal Trade Commission have filed cases alleging, among other things, price fixing, abuse of dominance and monopolization by Amazon; Amazon says it disputes the allegations.",
+      "status": "documented",
+      "date": "2020-03",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/R16.htm",
+          "publisher": "U.S. SEC (Amazon.com, Inc. Form 10-K, FY2025, Note: Commitments and Contingencies)",
+          "title": "Commitments and Contingencies (XBRL R16, Form 10-K filed 2026-02-06)",
+          "date": "2026-02-06"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "amazon",
+      "claim": "In April 2024, a jury found that Amazon infringed patents owned by Kove IO and awarded Kove $525 million in damages; Amazon filed a notice of appeal in September 2024.",
+      "status": "documented",
+      "date": "2024-04",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/R16.htm",
+          "publisher": "U.S. SEC (Amazon.com, Inc. Form 10-K, FY2025, Note: Commitments and Contingencies)",
+          "title": "Commitments and Contingencies (XBRL R16, Form 10-K filed 2026-02-06)",
+          "date": "2026-02-06"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "amazon",
+      "claim": "Amazon announced on April 20, 2026 that it is investing $5 billion in Anthropic today, with up to an additional $20 billion in the future, building on $8 billion previously invested.",
+      "status": "documented",
+      "date": "2026-04-20",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
+          "publisher": "Anthropic",
+          "title": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
+          "date": "2026-04-20"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "amazon",
+      "claim": "Anthropic has committed more than $100 billion over ten years to AWS technologies, and states that it continues to choose AWS as its primary training and cloud provider for mission-critical workloads.",
+      "status": "documented",
+      "date": "2026-04-20",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
+          "publisher": "Anthropic",
+          "title": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
+          "date": "2026-04-20"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
     {
       "entity": "american-petroleum-institute",
       "claim": "In April 1998, a group convened by API that included representatives of Exxon, Chevron, Southern Company and conservative policy organizations drafted the 'Global Climate Science Communications Plan'. The plan set out a multimillion-dollar, multi-year budget and stated: 'Victory will be achieved when average citizens understand uncertainties in climate science.'",
@@ -1425,6 +1760,36 @@
         }
       ],
       "approvedAt": "2026-10-08T22:20:46.594Z"
+    },
+    {
+      "entity": "anduril",
+      "claim": "In 2025 Anduril raised $2.5 billion at a $30.5 billion valuation, led by Founders Fund.",
+      "status": "reported",
+      "date": "2025",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/05/13/anduril-raises-5b-doubles-valuation-to-61b/",
+          "publisher": "TechCrunch",
+          "title": "Anduril raises $5B, doubles valuation to $61B",
+          "date": "2026-05-13"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "anduril",
+      "claim": "In May 2026 Anduril raised $5 billion at a $61 billion valuation, led by Thrive Capital and Andreessen Horowitz.",
+      "status": "reported",
+      "date": "2026-05",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/05/13/anduril-raises-5b-doubles-valuation-to-61b/",
+          "publisher": "TechCrunch",
+          "title": "Anduril raises $5B, doubles valuation to $61B",
+          "date": "2026-05-13"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
     },
     {
       "entity": "bcci",
@@ -2696,6 +3061,36 @@
       "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
+      "entity": "eric-schmidt",
+      "claim": "Schmidt served as Chair of the Defense Innovation Board from 2016 to 2020 and Chair of the National Security Commission on AI (NSCAI) from 2018 to 2021.",
+      "status": "documented",
+      "date": null,
+      "sources": [
+        {
+          "url": "https://www.techtransparencyproject.org/articles/eric-schmidts-unseen-influence-over-us-defense-spending",
+          "publisher": "Tech Transparency Project",
+          "title": "Eric Schmidt's Hidden Influence Over US Defense Spending",
+          "date": "2021-04-15"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "eric-schmidt",
+      "claim": "While chairing NSCAI, Schmidt served on the board and as an early investor in Rebellion Defense, which raised $63M in Series A funding.",
+      "status": "reported",
+      "date": null,
+      "sources": [
+        {
+          "url": "https://prospect.org/power/silicon-valley-takes-battlespace-eric-schmidt-rebellion/",
+          "publisher": "The American Prospect",
+          "title": "Silicon Valley Takes the Battlespace",
+          "date": "2021-03-01"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
       "entity": "exxonmobil",
       "claim": "A 2023 study in Science by Harvard and Potsdam researchers found that most of Exxon's global warming projections from 1977 to 2003 accurately forecast subsequent warming and were at least as skillful as independent models. A separate 2017 peer-reviewed study found that 81% of ExxonMobil's New York Times advertorials expressed doubt about climate change, compared with about 12% that acknowledged it as real and human-caused.",
       "status": "peer",
@@ -2928,6 +3323,171 @@
         }
       ],
       "approvedAt": "2026-10-08T18:17:01.297Z"
+    },
+    {
+      "entity": "google",
+      "claim": "In August 2015 Google announced it would become a subsidiary of a new holding company called Alphabet, with Sundar Pichai becoming CEO of Google and co-founder Larry Page moving up to Alphabet.",
+      "status": "documented",
+      "date": "2015-08-10",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/technology/2015/aug/10/google-alphabet-parent-company",
+          "publisher": "The Guardian",
+          "title": "Google to restructure into new holding company called Alphabet",
+          "date": "2015-08-10"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "google",
+      "claim": "In September 2013 Google launched Calico (California Life Company), a company focused on aging and longevity, with former Genentech CEO Art Levinson as its chief executive.",
+      "status": "documented",
+      "date": "2013-09-18",
+      "sources": [
+        {
+          "url": "https://www.theverge.com/2013/9/18/4744650/google-launches-calico-as-separate-company-to-improve-human-health",
+          "publisher": "The Verge",
+          "title": "Google launches Calico, a new company tasked with extending human life",
+          "date": "2013-09-18"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "google",
+      "claim": "In January 2014 Google acquired London-based artificial intelligence company DeepMind Technologies for more than $500 million.",
+      "status": "reported",
+      "date": "2014-01-26",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2014/01/26/google-deepmind/",
+          "publisher": "TechCrunch",
+          "title": "Google Acquires Artificial Intelligence Startup DeepMind For More Than $500M",
+          "date": "2014-01-26"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "google",
+      "claim": "On October 20, 2020, the US Department of Justice and 11 states filed a civil antitrust lawsuit alleging Google illegally maintained monopolies in search and search advertising through exclusionary agreements, the first US government monopolization case against a major company in a generation.",
+      "status": "documented",
+      "date": "2020-10-20",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260927110200/https://www.justice.gov/archives/opa/pr/justice-department-sues-monopolist-google-violating-antitrust-laws",
+          "publisher": "US Department of Justice",
+          "title": "Justice Department Sues Monopolist Google For Violating Antitrust Laws",
+          "date": "2020-10-20"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "google",
+      "claim": "On August 5, 2024, US District Judge Amit Mehta ruled that Google violated Section 2 of the Sherman Act by illegally maintaining a monopoly in online search and search advertising, writing that 'Google is a monopolist, and it has acted as one to maintain its monopoly.' The judge noted Google paid $26.3 billion in 2021 alone to ensure its search engine is the default on smartphones and browsers.",
+      "status": "court",
+      "date": "2024-08-05",
+      "sources": [
+        {
+          "url": "https://www.klobuchar.senate.gov/public/index.cfm/2024/8/google-has-an-illegal-monopoly-on-search-us-judge-finds",
+          "publisher": "Reuters (via Sen. Klobuchar)",
+          "title": "Google has an illegal monopoly on search, US judge finds",
+          "date": "2024-08-05"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "google",
+      "claim": "On September 2, 2025, Judge Mehta declined to force Google to sell Chrome or Android, but ordered Google to share data with rivals to open up online search competition; both Google and the Justice Department filed competing appeals.",
+      "status": "court",
+      "date": "2025-09-02",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250903213855/https://www.reuters.com/sustainability/boards-policy-regulation/google-keeps-chrome-apple-deal-must-share-data-big-antitrust-ruling-2025-09-02/",
+          "publisher": "Reuters",
+          "title": "Google keeps Chrome and Apple deal but must share data in big antitrust ruling",
+          "date": "2025-09-02"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "google",
+      "claim": "On January 24, 2023, the US Department of Justice and eight states filed a civil antitrust suit alleging Google monopolized digital advertising technology markets, seeking equitable relief and treble damages for federal agencies that overpaid for web display advertising.",
+      "status": "documented",
+      "date": "2023-01-24",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260928000227/https://www.justice.gov/archives/opa/pr/justice-department-sues-google-monopolizing-digital-advertising-technologies",
+          "publisher": "US Department of Justice",
+          "title": "Justice Department Sues Google for Monopolizing Digital Advertising Technologies",
+          "date": "2023-01-24"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "google",
+      "claim": "On April 17, 2025, US District Judge Leonie Brinkema in Virginia ruled that Google illegally maintained monopolies in two ad-tech markets — publisher ad servers and ad exchanges — clearing the way for prosecutors to seek a breakup of its ad products.",
+      "status": "court",
+      "date": "2025-04-17",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250426094150/https://www.reuters.com/technology/us-judge-finds-google-holds-illegal-online-ad-tech-monopolies-2025-04-17/",
+          "publisher": "Reuters",
+          "title": "Google holds illegal monopolies in ad tech, US judge finds",
+          "date": "2025-04-17"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "google",
+      "claim": "On September 2, 2026, Judge Brinkema rejected the Justice Department's request to break up Google's advertising technology business, instead ordering Google to change auction practices and appoint an internal antitrust compliance monitor; Google was also told to relax some of its ad auction rules.",
+      "status": "court",
+      "date": "2026-09-02",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260918015846/https://money.usnews.com/investing/news/articles/2026-09-16/google-should-appoint-antitrust-compliance-officer-us-judge-says-in-ad-tech-case",
+          "publisher": "Reuters (via US News)",
+          "title": "Google Should Relax Ad Tech Rules, Appoint Antitrust Monitor, US Judge Finds",
+          "date": "2026-09-16"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "google",
+      "claim": "In August 2012 Google agreed to pay a $22.5 million civil penalty to settle US Federal Trade Commission charges that it misrepresented to users of Apple's Safari browser that it would not place tracking cookies or serve targeted ads to them.",
+      "status": "court",
+      "date": "2012-08-09",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260919071154/https://www.ftc.gov/news-events/news/press-releases/2012/08/google-will-pay-225-million-settle-ftc-charges-it-misrepresented-privacy-assurances-users-apples",
+          "publisher": "US Federal Trade Commission",
+          "title": "Google Will Pay $22.5 Million to Settle FTC Charges it Misrepresented Privacy Assurances to Users of Apple's Safari Internet Browser",
+          "date": "2012-08-09"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "google",
+      "claim": "On September 1, 2025, France's data protection authority CNIL fined Google 325 million euros for displaying advertisements between Gmail users' emails without valid consent and for placing cookies during Google account creation without valid consent.",
+      "status": "court",
+      "date": "2025-09-01",
+      "sources": [
+        {
+          "url": "https://www.cnil.fr/en/cookies-and-advertisements-inserted-between-emails-google-fined-325-million-euros-cnil",
+          "publisher": "CNIL (French data protection authority)",
+          "title": "Cookies and advertisements inserted between emails: GOOGLE fined 325 million euros by the CNIL",
+          "date": "2025-09-03"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
     },
     {
       "entity": "imf",
@@ -3630,6 +4190,36 @@
         }
       ],
       "approvedAt": "2026-10-08T21:57:32.114Z"
+    },
+    {
+      "entity": "keyhole",
+      "claim": "In February 2003, In-Q-Tel made a strategic investment in Keyhole on behalf of NIMA, supporting operational deployment in Iraq.",
+      "status": "documented",
+      "date": null,
+      "sources": [
+        {
+          "url": "https://www.iqt.org/library/in-q-tel-announces-strategic-investment-in-keyhole",
+          "publisher": "In-Q-Tel",
+          "title": "In-Q-Tel Announces Strategic Investment in Keyhole",
+          "date": "2003-06-01"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "keyhole",
+      "claim": "Google acquired Keyhole in 2004, transforming EarthViewer 3D into Google Earth; In-Q-Tel converted its minority stake into Google stock.",
+      "status": "documented",
+      "date": null,
+      "sources": [
+        {
+          "url": "https://www.govexec.com/defense/2006/12/advicedissent-intelligence-file-worldly-view/23301/",
+          "publisher": "Government Executive",
+          "title": "Intelligence File: Worldly View",
+          "date": "2006-12-01"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
     },
     {
       "entity": "lehman-brothers",
@@ -4704,6 +5294,585 @@
         }
       ],
       "approvedAt": "2026-10-08T22:20:46.594Z"
+    },
+    {
+      "entity": "microsoft",
+      "claim": "Microsoft was founded on April 4, 1975, by childhood friends Bill Gates and Paul Allen.",
+      "status": "documented",
+      "date": "1975-04-04",
+      "sources": [
+        {
+          "url": "https://www.history.com/this-day-in-history/April-4/microsoft-founded",
+          "publisher": "HISTORY",
+          "title": "Microsoft founded | April 4, 1975",
+          "date": "2025-05-28"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "microsoft",
+      "claim": "Paul Allen and Bill Gates developed BASIC for the MITS Altair 8800 after the January 1975 Popular Electronics cover inspired them, and sold Altair BASIC to MITS of Albuquerque, which Microsoft's own timeline describes as its first customer.",
+      "status": "documented",
+      "date": "1975-02-01",
+      "sources": [
+        {
+          "url": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1975",
+          "publisher": "Microsoft Learn",
+          "title": "The History of Microsoft - 1975",
+          "date": "1975"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "microsoft",
+      "claim": "Microsoft's company history in its own timeline states that Gates and Allen signed a licensing agreement with MITS on July 22, 1975, before the name Microsoft was chosen and before it was an official partnership.",
+      "status": "documented",
+      "date": "1975-07-22",
+      "sources": [
+        {
+          "url": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1975",
+          "publisher": "Microsoft Learn",
+          "title": "The History of Microsoft - 1975",
+          "date": "1975"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "microsoft",
+      "claim": "The company was originally called Micro-Soft, a portmanteau of microprocessors and software, and was based in Albuquerque, New Mexico, before relocating to Washington State in 1979.",
+      "status": "documented",
+      "date": "1979",
+      "sources": [
+        {
+          "url": "https://www.history.com/this-day-in-history/April-4/microsoft-founded",
+          "publisher": "HISTORY",
+          "title": "Microsoft founded | April 4, 1975",
+          "date": "2025-05-28"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "microsoft",
+      "claim": "In 1981, Microsoft licensed its MS-DOS operating system to IBM for IBM's first personal computer.",
+      "status": "documented",
+      "date": "1981",
+      "sources": [
+        {
+          "url": "https://www.history.com/this-day-in-history/April-4/microsoft-founded",
+          "publisher": "HISTORY",
+          "title": "Microsoft founded | April 4, 1975",
+          "date": "2025-05-28"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "microsoft",
+      "claim": "Microsoft went public in 1986 at $21 a share, raising $61 million, and moved its headquarters to Redmond, Washington.",
+      "status": "documented",
+      "date": "1986",
+      "sources": [
+        {
+          "url": "https://www.history.com/this-day-in-history/April-4/microsoft-founded",
+          "publisher": "HISTORY",
+          "title": "Microsoft founded | April 4, 1975",
+          "date": "2025-05-28"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "microsoft",
+      "claim": "In 1998, the U.S. Department of Justice and 20 state attorneys general charged Microsoft with violating antitrust laws; in 2001 the company reached a settlement with the government that imposed restrictions on its corporate practices.",
+      "status": "court",
+      "date": "2001",
+      "sources": [
+        {
+          "url": "https://www.history.com/this-day-in-history/April-4/microsoft-founded",
+          "publisher": "HISTORY",
+          "title": "Microsoft founded | April 4, 1975",
+          "date": "2025-05-28"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "microsoft",
+      "claim": "Microsoft's investor relations site lists its recent quarterly and annual SEC filings for fiscal years 2025 and 2026, including Forms 10-Q and 10-K.",
+      "status": "documented",
+      "date": "2026",
+      "sources": [
+        {
+          "url": "https://www.microsoft.com/en-us/investor/sec-filings",
+          "publisher": "Microsoft Investor Relations",
+          "title": "Microsoft SEC Filings",
+          "date": "2026"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "microsoft",
+      "claim": "Microsoft filed a Form 10-K annual report on July 29, 2026, which Microsoft's SEC filings index describes as a comprehensive overview of the company for the past year.",
+      "status": "documented",
+      "date": "2026-07-29",
+      "sources": [
+        {
+          "url": "https://microsoft.gcs-web.com/financial-information/sec-filings",
+          "publisher": "Microsoft Investor Relations (Kaleidoscope listing)",
+          "title": "SEC Filings | Microsoft Corporation",
+          "date": "2026-09-17"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "microsoft",
+      "claim": "Microsoft's security team reported that Storm-0558, a China-based threat actor that Microsoft assessed with moderate confidence, used forged authentication tokens to access email of about 25 organizations, including government agencies, beginning May 15, 2023; Microsoft said no other environment was impacted.",
+      "status": "documented",
+      "date": "2023-07-14",
+      "sources": [
+        {
+          "url": "https://www.microsoft.com/en-us/security/blog/2023/07/14/analysis-of-storm-0558-techniques-for-unauthorized-email-access/",
+          "publisher": "Microsoft Threat Intelligence",
+          "title": "Analysis of Storm-0558 techniques for unauthorized email access",
+          "date": "2023-07-14"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "microsoft",
+      "claim": "Under the January 23, 2023 extended partnership announced by OpenAI, Microsoft made a multi-year, multi-billion dollar investment in OpenAI, following earlier investments in 2019 and 2021, and Azure remains the exclusive cloud provider for all OpenAI workloads.",
+      "status": "documented",
+      "date": "2023-01-23",
+      "sources": [
+        {
+          "url": "https://openai.com/index/openai-and-microsoft-extend-partnership/",
+          "publisher": "OpenAI",
+          "title": "OpenAI and Microsoft extend partnership",
+          "date": "2023-01-23"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "nvidia",
+      "claim": "Jen-Hsun Huang founded NVIDIA in 1993 and has served since its inception as President, Chief Executive Officer, and a member of the Board.",
+      "status": "documented",
+      "date": "2026-05-12",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+          "publisher": "SEC (Nvidia 2026 proxy statement, DEF 14A)",
+          "title": "NVIDIA Corporation Proxy Statement, filed 2026-05-12",
+          "date": "2026-05-12"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "nvidia",
+      "claim": "As of the April 27, 2026 record date, Jen-Hsun Huang was reported as beneficially owning 870,604,104 shares of Nvidia common stock, or 3.58% of the outstanding shares; 24,220,525,225 shares were outstanding on that date.",
+      "status": "documented",
+      "date": "2026-04-27",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+          "publisher": "SEC (Nvidia 2026 proxy statement, DEF 14A)",
+          "title": "NVIDIA Corporation Proxy Statement, filed 2026-05-12",
+          "date": "2026-05-12"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "nvidia",
+      "claim": "The proxy statement reports that Huang's beneficial ownership includes 528,531,547 shares held by Jen-Hsun and Lori Huang as co-trustees of the Huang Trust, and 58,683,830 shares held by the Jen-Hsun & Lori Huang Foundation, of which Mr. Huang and his wife are board members.",
+      "status": "documented",
+      "date": "2026-05-12",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+          "publisher": "SEC (Nvidia 2026 proxy statement, DEF 14A)",
+          "title": "NVIDIA Corporation Proxy Statement, filed 2026-05-12",
+          "date": "2026-05-12"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "nvidia",
+      "claim": "The proxy statement reports 5% stockholders BlackRock, Inc. (1,805,935,550 shares, 7.43%) and Vanguard Capital Management (1,777,408,252 shares, 7.31%) as of the 2026 record date.",
+      "status": "documented",
+      "date": "2026-04-27",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+          "publisher": "SEC (Nvidia 2026 proxy statement, DEF 14A)",
+          "title": "NVIDIA Corporation Proxy Statement, filed 2026-05-12",
+          "date": "2026-05-12"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "nvidia",
+      "claim": "Nvidia nominates ten directors for election at its 2026 annual meeting: Tench Coxe, John O. Dabiri, Jen-Hsun Huang, Dawn Hudson, Harvey C. Jones, Melissa B. Lora, Stephen C. Neal (Lead Director), A. Brooke Seawell, Aarti Shah and Mark A. Stevens.",
+      "status": "documented",
+      "date": "2026-05-12",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+          "publisher": "SEC (Nvidia 2026 proxy statement, DEF 14A)",
+          "title": "NVIDIA Corporation Proxy Statement, filed 2026-05-12",
+          "date": "2026-05-12"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "nvidia",
+      "claim": "Nvidia's 10-K states that it is defending a securities class action brought by shareholders who allege false or misleading statements about channel inventory and the impact of cryptocurrency mining on GPU demand in 2017 and 2018.",
+      "status": "reported",
+      "date": "2026-02-25",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "SEC (Nvidia FY2026 annual report, Form 10-K)",
+          "title": "NVIDIA Corporation Form 10-K for fiscal year ended January 25, 2026, filed 2026-02-25",
+          "date": "2026-02-25"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "nvidia",
+      "claim": "Nvidia's 10-K states that in August 2025 the U.S. government granted licenses allowing shipments of certain H20 products to certain China-based customers, generating approximately $60 million in H20 revenue, and that U.S. officials expected the government to receive 15% or more of licensed sales revenue, which was not published as a regulation.",
+      "status": "documented",
+      "date": "2026-02-25",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "SEC (Nvidia FY2026 annual report, Form 10-K)",
+          "title": "NVIDIA Corporation Form 10-K for fiscal year ended January 25, 2026, filed 2026-02-25",
+          "date": "2026-02-25"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "nvidia",
+      "claim": "Nvidia's 10-K states that in February 2026 the U.S. government granted a license allowing small H200 shipments to specific China-based customers, and that Nvidia had not yet generated revenue under the H200 licensing program.",
+      "status": "documented",
+      "date": "2026-02-25",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "SEC (Nvidia FY2026 annual report, Form 10-K)",
+          "title": "NVIDIA Corporation Form 10-K for fiscal year ended January 25, 2026, filed 2026-02-25",
+          "date": "2026-02-25"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "nvidia",
+      "claim": "Nvidia's 10-K states that under current rules it is unable to create and deliver a competitive product for China's data center market that receives approval from both the U.S. and Chinese governments.",
+      "status": "documented",
+      "date": "2026-02-25",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "SEC (Nvidia FY2026 annual report, Form 10-K)",
+          "title": "NVIDIA Corporation Form 10-K for fiscal year ended January 25, 2026, filed 2026-02-25",
+          "date": "2026-02-25"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "nvidia",
+      "claim": "Nvidia reported full-year fiscal 2026 revenue of $215.9 billion, up 65%, and stated that it is not assuming any Data Center compute revenue from China in its outlook.",
+      "status": "documented",
+      "date": "2026-02-25",
+      "sources": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026",
+          "publisher": "NVIDIA",
+          "title": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026",
+          "date": "2026-02-25"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "nvidia",
+      "claim": "In December 2025 Nvidia entered into a non-exclusive license agreement with Groq, Inc. for its language processing unit technology; the 10-K cash-flow statement records a $13,000 million payment to Groq, Inc.",
+      "status": "documented",
+      "date": "2025-12-31",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "SEC (Nvidia FY2026 annual report, Form 10-K)",
+          "title": "NVIDIA Corporation Form 10-K for fiscal year ended January 25, 2026, filed 2026-02-25",
+          "date": "2026-02-25"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "nvidia",
+      "claim": "Nvidia's 10-K states it is finalizing an investment and partnership agreement with OpenAI, and that there is no assurance it will enter into the agreement or that a transaction will be completed.",
+      "status": "documented",
+      "date": "2026-02-25",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "SEC (Nvidia FY2026 annual report, Form 10-K)",
+          "title": "NVIDIA Corporation Form 10-K for fiscal year ended January 25, 2026, filed 2026-02-25",
+          "date": "2026-02-25"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "nvidia",
+      "claim": "Nvidia's 10-K names Alibaba, Alphabet (Google), Amazon, Baidu, Huawei and Microsoft among companies that incorporate accelerated or AI computing in their own internal solutions, in its competition risk disclosures.",
+      "status": "documented",
+      "date": "2026-02-25",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "SEC (Nvidia FY2026 annual report, Form 10-K)",
+          "title": "NVIDIA Corporation Form 10-K for fiscal year ended January 25, 2026, filed 2026-02-25",
+          "date": "2026-02-25"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "nvidia",
+      "claim": "Under Nvidia's agreement with Microsoft for the Xbox, Microsoft may have first and last rights of refusal to buy Nvidia stock if someone offers to purchase at least 30% of the outstanding common stock.",
+      "status": "documented",
+      "date": "2026-02-25",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "SEC (Nvidia FY2026 annual report, Form 10-K)",
+          "title": "NVIDIA Corporation Form 10-K for fiscal year ended January 25, 2026, filed 2026-02-25",
+          "date": "2026-02-25"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "nvidia",
+      "claim": "The Bureau of Industry and Security published a rule on January 15, 2026 changing its license review policy for certain advanced computing chips to China and Macau from a presumption of denial to case-by-case review; the rule names the Nvidia H200 and its equivalents, subject to conditions.",
+      "status": "documented",
+      "date": "2026-01-15",
+      "sources": [
+        {
+          "url": "https://www.federalregister.gov/documents/2026/01/15/2026-00789/revision-to-license-review-policy-for-advanced-computing-commodities",
+          "publisher": "Federal Register (Bureau of Industry and Security)",
+          "title": "Revision to License Review Policy for Advanced Computing Commodities (Doc. 2026-00789)",
+          "date": "2026-01-15"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "nvidia",
+      "claim": "BIS issued an interim final rule on January 16, 2025 adding due-diligence measures for advanced computing integrated circuits for foundries and OSATs, amending its December 2, 2024 foreign-produced direct product rule.",
+      "status": "documented",
+      "date": "2025-01-16",
+      "sources": [
+        {
+          "url": "https://www.federalregister.gov/documents/2025/01/16/2025-00711/implementation-of-additional-due-diligence-measures-for-advanced-computing-integrated-circuits",
+          "publisher": "Federal Register (Bureau of Industry and Security)",
+          "title": "Implementation of Additional Due Diligence Measures for Advanced Computing Integrated Circuits (Doc. 2025-00711)",
+          "date": "2025-01-16"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "nvidia",
+      "claim": "Nvidia's own LD-2 lobbying disclosures report expenses of $940,000 (Q1 2025), $620,000 (Q2 2025), $1,900,000 (Q3 2025) and $1,440,000 (Q4 2025).",
+      "status": "documented",
+      "date": "2026-01-18",
+      "sources": [
+        {
+          "url": "https://lda.gov/filings/public/filing/ded7018b-7ab1-48f6-a144-fe1f88924dfe/print/",
+          "publisher": "U.S. Senate Office of Public Records (LDA)",
+          "title": "LD-2 Lobbying Disclosure, NVIDIA Corporation, Q1 2025",
+          "date": "2025-04-25"
+        },
+        {
+          "url": "https://lda.gov/filings/public/filing/65879724-313e-4683-a5e5-95c3dbc310e0/print/",
+          "publisher": "U.S. Senate Office of Public Records (LDA)",
+          "title": "LD-2 Lobbying Disclosure, NVIDIA Corporation, Q2 2025",
+          "date": "2025-07-18"
+        },
+        {
+          "url": "https://lda.gov/filings/public/filing/5970151e-1f21-4cec-a20a-4596046aec34/print/",
+          "publisher": "U.S. Senate Office of Public Records (LDA)",
+          "title": "LD-2 Lobbying Disclosure, NVIDIA Corporation, Q3 2025",
+          "date": "2025-10-20"
+        },
+        {
+          "url": "https://lda.gov/filings/public/filing/ade7c6b4-395e-472b-8eae-224087b0eed8/print/",
+          "publisher": "U.S. Senate Office of Public Records (LDA)",
+          "title": "LD-2 Lobbying Disclosure, NVIDIA Corporation, Q4 2025",
+          "date": "2026-01-18"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "openai",
+      "claim": "The Department of Defense's Chief Digital and Artificial Intelligence Office awarded OpenAI a one-year, up to $200 million contract for frontier AI prototype work, with the contract held by OpenAI Public Sector LLC and most work in the National Capital Region.",
+      "status": "documented",
+      "date": "2025-06-16",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2025/06/16/openai-wins-200-million-us-defense-contract.html",
+          "publisher": "CNBC",
+          "title": "OpenAI wins $200 million U.S. defense contract",
+          "date": "2025-06-16"
+        },
+        {
+          "url": "https://www.govconwire.com/articles/openai-dod-ota-frontier-ai-prototyping-work",
+          "publisher": "GovConWire",
+          "title": "OpenAI Books $200M DOD OTA for Frontier AI Prototyping Work",
+          "date": "2025-06-17"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "openai",
+      "claim": "GSA announced a new OneGov agreement with OpenAI making its ChatGPT models available to the federal government through discounted, consumption-based pricing.",
+      "status": "documented",
+      "date": "2026-09-10",
+      "sources": [
+        {
+          "url": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-expands-onegov-ai-offerings-with-discounted-openais-chatgpt-09102026",
+          "publisher": "GSA",
+          "title": "GSA Expands OneGov AI Offerings with Discounted, Consumption-Based Access to OpenAI's ChatGPT",
+          "date": "2026-09-10"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "openai",
+      "claim": "The GSA–OpenAI agreement gives federal agencies a 50% discount on token-based usage across ChatGPT models, including those in FedRAMP-authorized environments, with no platform-access fee, no minimum orders and no spend commitment.",
+      "status": "documented",
+      "date": "2026-09-10",
+      "sources": [
+        {
+          "url": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-expands-onegov-ai-offerings-with-discounted-openais-chatgpt-09102026",
+          "publisher": "GSA",
+          "title": "GSA Expands OneGov AI Offerings with Discounted, Consumption-Based Access to OpenAI's ChatGPT",
+          "date": "2026-09-10"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "openai",
+      "claim": "The first agreement under the next phase of GSA's OneGov AI strategy with OpenAI is a 27-month offer expected to take effect October 1, 2026, and agencies can procure it through GSA's Multiple Award Schedule once it takes effect.",
+      "status": "documented",
+      "date": "2026-10-01",
+      "sources": [
+        {
+          "url": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-expands-onegov-ai-offerings-with-discounted-openais-chatgpt-09102026",
+          "publisher": "GSA",
+          "title": "GSA Expands OneGov AI Offerings with Discounted, Consumption-Based Access to OpenAI's ChatGPT",
+          "date": "2026-09-10"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "openai",
+      "claim": "OpenAI CEO Sam Altman said OpenAI is honored to continue collaborating with GSA to advance key goals of America's AI Action Plan.",
+      "status": "words",
+      "date": "2026-09-10",
+      "sources": [
+        {
+          "url": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-expands-onegov-ai-offerings-with-discounted-openais-chatgpt-09102026",
+          "publisher": "GSA",
+          "title": "GSA Expands OneGov AI Offerings with Discounted, Consumption-Based Access to OpenAI's ChatGPT",
+          "date": "2026-09-10"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "openai",
+      "claim": "Miller Strategies, LLC is the lobbying firm that OpenAI's disclosures list as leading by reported spend; the page reports about $900K in total disclosed lobbying spend, $450K in 2025 and $450K in 2026.",
+      "status": "documented",
+      "date": "2026-07-20",
+      "sources": [
+        {
+          "url": "https://congress.wiki/map/money/lobbying/clients/openai",
+          "publisher": "Congress.wiki",
+          "title": "OpenAI — Lobbying Disclosures ($900K disclosed through 2026)",
+          "date": "2026-07-20"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "openai",
+      "claim": "OpenAI's lobbying disclosures name the House of Representatives, the Department of Commerce and the Executive Office of the President among the government entities in its reported activity, on issues including Computer Industry, Copyright/Patent/Trademark, Energy/Nuclear and Science/Technology.",
+      "status": "documented",
+      "date": "2026-07-20",
+      "sources": [
+        {
+          "url": "https://congress.wiki/map/money/lobbying/clients/openai",
+          "publisher": "Congress.wiki",
+          "title": "OpenAI — Lobbying Disclosures ($900K disclosed through 2026)",
+          "date": "2026-07-20"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "openai",
+      "claim": "Microsoft announced that, following OpenAI's recapitalization into a public benefit corporation, Microsoft holds an investment in OpenAI Group PBC valued at approximately $135 billion, roughly 27 percent on an as-converted diluted basis.",
+      "status": "documented",
+      "date": "2025-10-28",
+      "sources": [
+        {
+          "url": "https://news.microsoft.com/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/",
+          "publisher": "Microsoft",
+          "title": "The next chapter of the Microsoft–OpenAI partnership",
+          "date": "2025-10-28"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "openai",
+      "claim": "Under the restructured Microsoft–OpenAI agreement, OpenAI contracted to purchase an incremental $250 billion of Azure services, and Microsoft no longer has a right of first refusal to be OpenAI's compute provider.",
+      "status": "documented",
+      "date": "2025-10-28",
+      "sources": [
+        {
+          "url": "https://news.microsoft.com/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/",
+          "publisher": "Microsoft",
+          "title": "The next chapter of the Microsoft–OpenAI partnership",
+          "date": "2025-10-28"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
     },
     {
       "entity": "palantir",
@@ -7424,6 +8593,306 @@
       "approvedAt": "2026-10-08T22:35:16.554Z"
     },
     {
+      "entity": "spacex",
+      "claim": "Google and Fidelity invested $1 billion in SpaceX in January 2015, taking an ownership stake just shy of 10%.",
+      "status": "reported",
+      "date": "2015-01-20",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2015/01/20/spacex-raises-1-billion-in-new-funding-from-google-and-fidelity/",
+          "publisher": "TechCrunch",
+          "title": "SpaceX Raises $1 Billion In New Funding From Google And Fidelity",
+          "date": "2015-01-20"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "spacex",
+      "claim": "SpaceX's Series F round of $1.0 billion in January 2015 was led by Alphabet and Fidelity Management & Research, at a $12.0 billion valuation.",
+      "status": "documented",
+      "date": "2015-01-20",
+      "sources": [
+        {
+          "url": "https://fundbat.com/company/spacex/",
+          "publisher": "FundBat",
+          "title": "SpaceX (SPCX) - Funding Rounds, Valuation & Investors",
+          "date": "2026-06-11"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "spacex",
+      "claim": "SpaceX's IPO was priced at $135 per share, selling 555,555,555 Class A shares for about $75 billion, implying a valuation of roughly $1.77 trillion.",
+      "status": "reported",
+      "date": "2026-06-11",
+      "sources": [
+        {
+          "url": "https://fundbat.com/company/spacex/",
+          "publisher": "FundBat",
+          "title": "SpaceX (SPCX) - Funding Rounds, Valuation & Investors",
+          "date": "2026-06-11"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "spacex",
+      "claim": "SpaceX publicly filed its S-1 with the SEC on May 20, 2026, under the proposed Nasdaq ticker SPCX, targeting a base valuation of $1.75 trillion.",
+      "status": "reported",
+      "date": "2026-05-20",
+      "sources": [
+        {
+          "url": "https://fundbat.com/company/spacex/",
+          "publisher": "FundBat",
+          "title": "SpaceX (SPCX) - Funding Rounds, Valuation & Investors",
+          "date": "2026-05-20"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "spacex",
+      "claim": "The dual-class share structure gives Elon Musk about 85.1% of voting power after the IPO (Class A shares carry one vote, Class B shares ten votes).",
+      "status": "reported",
+      "date": "2026-05-20",
+      "sources": [
+        {
+          "url": "https://fundbat.com/company/spacex/",
+          "publisher": "FundBat",
+          "title": "SpaceX (SPCX) - Funding Rounds, Valuation & Investors",
+          "date": "2026-05-20"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "spacex",
+      "claim": "SpaceX absorbed xAI in an all-stock merger on May 6, 2026, valuing xAI at roughly $250 billion and SpaceX at roughly $1 trillion before the merger; Grok and X now sit in a 'SpaceXAI' division.",
+      "status": "reported",
+      "date": "2026-05-06",
+      "sources": [
+        {
+          "url": "https://fundbat.com/company/spacex/",
+          "publisher": "FundBat",
+          "title": "SpaceX (SPCX) - Funding Rounds, Valuation & Investors",
+          "date": "2026-05-06"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "spacex",
+      "claim": "Anthropic agreed to rent the full capacity of SpaceX's Colossus 1 supercluster in Memphis, paying $1.25 billion per month through May 2029 (roughly $45 billion total contract value).",
+      "status": "reported",
+      "date": "2026-05-06",
+      "sources": [
+        {
+          "url": "https://fundbat.com/company/spacex/",
+          "publisher": "FundBat",
+          "title": "SpaceX (SPCX) - Funding Rounds, Valuation & Investors",
+          "date": "2026-05-06"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "spacex",
+      "claim": "SpaceX completed a secondary tender offer at $421 per share in December 2025, implying an $800 billion post-money valuation.",
+      "status": "reported",
+      "date": "2025-12-13",
+      "sources": [
+        {
+          "url": "https://fundbat.com/company/spacex/",
+          "publisher": "FundBat",
+          "title": "SpaceX (SPCX) - Funding Rounds, Valuation & Investors",
+          "date": "2025-12-13"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "spacex",
+      "claim": "SpaceX raised $1.6 billion in a Series J round in February 2021 at a $74.0 billion valuation, led by Sequoia Capital, alongside Valor Equity Partners, Coatue Management, D1 Capital Partners and Fidelity Management & Research.",
+      "status": "documented",
+      "date": "2021-02-16",
+      "sources": [
+        {
+          "url": "https://fundbat.com/company/spacex/",
+          "publisher": "FundBat",
+          "title": "SpaceX (SPCX) - Funding Rounds, Valuation & Investors",
+          "date": "2026-06-11"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "spacex",
+      "claim": "Andreessen Horowitz led a $750 million round in January 2023 at a $137 billion valuation, with Founders Fund, Sequoia Capital, Gigafund and Fidelity Management & Research also listed as participants.",
+      "status": "documented",
+      "date": "2023-01-02",
+      "sources": [
+        {
+          "url": "https://fundbat.com/company/spacex/",
+          "publisher": "FundBat",
+          "title": "SpaceX (SPCX) - Funding Rounds, Valuation & Investors",
+          "date": "2026-06-11"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "spacex",
+      "claim": "NASA's Commercial Crew contract was awarded to SpaceX in September 2014, valued at about $2.6 billion, to develop and operate Crew Dragon for ISS astronaut transport.",
+      "status": "documented",
+      "date": "2014-09",
+      "sources": [
+        {
+          "url": "https://fed-spend.com/blog/spacex-government-contracts-nasa-dod-space-force",
+          "publisher": "Fed-Spend",
+          "title": "SpaceX Government Contracts: $16.7B Obligated and $29.7B in Ceilings",
+          "date": "2026-03-17"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "spacex",
+      "claim": "SpaceX received $2.89 billion in April 2021 (Option A) and $1.15 billion in November 2022 (Option B) under NASA's Human Landing System contract, totaling $4.04 billion.",
+      "status": "documented",
+      "date": "2022-11",
+      "sources": [
+        {
+          "url": "https://fed-spend.com/blog/spacex-government-contracts-nasa-dod-space-force",
+          "publisher": "Fed-Spend",
+          "title": "SpaceX Government Contracts: $16.7B Obligated and $29.7B in Ceilings",
+          "date": "2026-03-17"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "spacex",
+      "claim": "SpaceX has $16.68 billion in cumulative federal contract obligations against $29.68 billion in ceilings across 270 prime awards, FY2008 to FY2026, according to Fed-Spend's analysis of federal data.",
+      "status": "reported",
+      "date": "2026-03-17",
+      "sources": [
+        {
+          "url": "https://fed-spend.com/blog/spacex-government-contracts-nasa-dod-space-force",
+          "publisher": "Fed-Spend",
+          "title": "SpaceX Government Contracts: $16.7B Obligated and $29.7B in Ceilings",
+          "date": "2026-03-17"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "spacex",
+      "claim": "SpaceX won $739 million in January 2026 to launch five batches of Tranche 2 satellites for the Space Development Agency.",
+      "status": "reported",
+      "date": "2026-01",
+      "sources": [
+        {
+          "url": "https://fed-spend.com/blog/spacex-government-contracts-nasa-dod-space-force",
+          "publisher": "Fed-Spend",
+          "title": "SpaceX Government Contracts: $16.7B Obligated and $29.7B in Ceilings",
+          "date": "2026-03-17"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "spacex",
+      "claim": "SpaceX won 5 of 7 FY2026 National Security Space Launch missions for $714 million, and 7 of 9 FY2025 missions for $845.8 million.",
+      "status": "reported",
+      "date": "2025",
+      "sources": [
+        {
+          "url": "https://fed-spend.com/blog/spacex-government-contracts-nasa-dod-space-force",
+          "publisher": "Fed-Spend",
+          "title": "SpaceX Government Contracts: $16.7B Obligated and $29.7B in Ceilings",
+          "date": "2026-03-17"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "spacex",
+      "claim": "SpaceX received $3.3 billion in unclassified government revenue in 2024.",
+      "status": "reported",
+      "date": "2024",
+      "sources": [
+        {
+          "url": "https://fed-spend.com/blog/spacex-government-contracts-nasa-dod-space-force",
+          "publisher": "Fed-Spend",
+          "title": "SpaceX Government Contracts: $16.7B Obligated and $29.7B in Ceilings",
+          "date": "2026-03-17"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "spacex",
+      "claim": "The Pentagon's Proliferated LEO (PLEO) program ceiling for Starshield rose from $900 million to $13 billion.",
+      "status": "reported",
+      "date": "2026-03-17",
+      "sources": [
+        {
+          "url": "https://fed-spend.com/blog/spacex-government-contracts-nasa-dod-space-force",
+          "publisher": "Fed-Spend",
+          "title": "SpaceX Government Contracts: $16.7B Obligated and $29.7B in Ceilings",
+          "date": "2026-03-17"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "spacex",
+      "claim": "The FAA announced on September 17, 2024 a proposed civil penalty of $633,009 against SpaceX for two 2023 launch-license violations (a June 2023 Falcon 9 launch of PSN Satria and a July 2023 Falcon Heavy launch of EchoStar-24/Jupiter-3); Musk said SpaceX would contest it in court. The final outcome was not found.",
+      "status": "reported",
+      "date": "2024-09-17",
+      "sources": [
+        {
+          "url": "https://spacenews.com/faa-fines-spacex-for-launch-license-violations/",
+          "publisher": "SpaceNews",
+          "title": "FAA fines SpaceX for launch license violations",
+          "date": "2024-09-17"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "spacex",
+      "claim": "The U.S. Department of Justice sued SpaceX in August 2023 over alleged hiring discrimination against asylees and refugees, and moved to drop the case in February 2025.",
+      "status": "reported",
+      "date": "2025-02-20",
+      "sources": [
+        {
+          "url": "https://thehill.com/policy/technology/5157088-doj-drops-space-x-lawsuit/",
+          "publisher": "The Hill",
+          "title": "DOJ dropping immigration case against Musk's SpaceX",
+          "date": "2025-02-21"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "spacex",
+      "claim": "A conflict-of-interest complaint regarding FAA oversight and Starlink was filed in March 2025, while Elon Musk led the Department of Government Efficiency.",
+      "status": "reported",
+      "date": "2025-03",
+      "sources": [
+        {
+          "url": "https://fed-spend.com/blog/spacex-government-contracts-nasa-dod-space-force",
+          "publisher": "Fed-Spend",
+          "title": "SpaceX Government Contracts: $16.7B Obligated and $29.7B in Ceilings",
+          "date": "2026-03-17"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
       "entity": "stanford",
       "claim": "On October 29, 1969, the first host-to-host ARPANET connection was made from UCLA, the first node, to the Stanford Research Institute (SRI), the second node, which had been founded by Stanford and became independent in 1970.",
       "status": "documented",
@@ -7470,9 +8939,270 @@
         }
       ],
       "approvedAt": "2026-10-08T18:17:01.297Z"
+    },
+    {
+      "entity": "xai",
+      "claim": "SpaceX acquired X.AI Holdings Corp. effective February 2, 2026 in what SpaceX's filing calls the 'xAI Merger'; each outstanding xAI common share converted into 0.1433 SpaceX shares.",
+      "status": "documented",
+      "date": "2026-02-02",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm",
+          "publisher": "SEC EDGAR (SpaceX)",
+          "title": "Form S-1/A Amendment No. 2",
+          "date": "2026-06-03"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "xai",
+      "claim": "SpaceX's registration statement defines 'xAI' as X.AI Holdings LLC or, before the xAI Merger, X.AI Holdings Corp., together with its subsidiaries.",
+      "status": "documented",
+      "date": "2026-06-03",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm",
+          "publisher": "SEC EDGAR (SpaceX)",
+          "title": "Form S-1/A Amendment No. 2",
+          "date": "2026-06-03"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "xai",
+      "claim": "SpaceX's registration statement says Elon Musk will hold about 82.4% of SpaceX's voting power after its IPO; SpaceX now owns xAI following the merger. The filing does not state Musk's personal stake in xAI.",
+      "status": "documented",
+      "date": "2026-06-03",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm",
+          "publisher": "SEC EDGAR (SpaceX)",
+          "title": "Form S-1/A Amendment No. 2",
+          "date": "2026-06-03"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "xai",
+      "claim": "Under the xAI Merger, SpaceX's registration statement says xAI's Series E preferred purchase by Tesla ($2,000 million, agreed January 2026) was converted into a right to acquire SpaceX Class A common stock.",
+      "status": "documented",
+      "date": "2026-01",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm",
+          "publisher": "SEC EDGAR (SpaceX)",
+          "title": "Form S-1/A Amendment No. 2",
+          "date": "2026-06-03"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "xai",
+      "claim": "SpaceX's registration statement reports carrying values for xAI redeemable convertible preferred stock of $7,001 million for Series B and $6,000 million for Series C (not the announced round sizes).",
+      "status": "documented",
+      "date": "2025-12-31",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm",
+          "publisher": "SEC EDGAR (SpaceX)",
+          "title": "Form S-1/A Amendment No. 2",
+          "date": "2026-06-03"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "xai",
+      "claim": "Subsidiaries of xAI lease computing equipment from Valor under agreements with aggregate cash payments of $6,986 million, $6,633 million and $6,587 million over the lives of the leases; xAI subsidiaries paid $885 million under them in 2025.",
+      "status": "documented",
+      "date": "2025-12-31",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm",
+          "publisher": "SEC EDGAR (SpaceX)",
+          "title": "Form S-1/A Amendment No. 2",
+          "date": "2026-06-03"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "xai",
+      "claim": "Antonio J. Gracias, a member of SpaceX's board, is founder, CEO and Chief Investment Officer of Valor Equity Partners.",
+      "status": "documented",
+      "date": "2026-06-03",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm",
+          "publisher": "SEC EDGAR (SpaceX)",
+          "title": "Form S-1/A Amendment No. 2",
+          "date": "2026-06-03"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "xai",
+      "claim": "SEC Form D filed by X.AI Holdings Corp. (Nevada) on January 6, 2026 lists Elon Musk and Jared Birchall as related persons, with total offering amount $19,999,999,972, amount sold $16,599,961,030 and 131 investors already invested.",
+      "status": "documented",
+      "date": "2026-01-06",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2079267/000089183626000001/primary_doc.xml",
+          "publisher": "SEC EDGAR",
+          "title": "Form D, X.AI Holdings Corp. (accession 0000891836-26-000001)",
+          "date": "2026-01-06"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "xai",
+      "claim": "SEC Form D filed by X.AI Holdings Corp. (Nevada) on August 6, 2025 records $5,318,549,402 sold and 7 investors already invested.",
+      "status": "documented",
+      "date": "2025-08-06",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2079267/000089183625000046/primary_doc.xml",
+          "publisher": "SEC EDGAR",
+          "title": "Form D, X.AI Holdings Corp. (accession 0000891836-25-000046)",
+          "date": "2025-08-06"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "xai",
+      "claim": "xAI announced that it had closed a $6 billion Series C round, with participation from investors including A16Z, Blackrock, Fidelity, Kingdom Holdings, Lightspeed, MGX, Morgan Stanley, OIA, QIA, Sequoia Capital, Valor Equity Partners and Vy Capital.",
+      "status": "documented",
+      "date": "2024-12-23",
+      "sources": [
+        {
+          "url": "https://x.ai/news/series-c",
+          "publisher": "xAI",
+          "title": "xAI raises $6B Series C",
+          "date": "2024-12-23"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "xai",
+      "claim": "NVIDIA and AMD participated as strategic investors in xAI's Series C round.",
+      "status": "documented",
+      "date": "2024-12-23",
+      "sources": [
+        {
+          "url": "https://x.ai/news/series-c",
+          "publisher": "xAI",
+          "title": "xAI raises $6B Series C",
+          "date": "2024-12-23"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "xai",
+      "claim": "xAI and Saudi Arabia's HUMAIN, which is backed by the Public Investment Fund, announced in November 2025 a 500MW data center in Saudi Arabia, with Grok to be deployed in the Kingdom.",
+      "status": "reported",
+      "date": "2025-11-20",
+      "sources": [
+        {
+          "url": "https://www.datacenterdynamics.com/en/news/xai-humain-data-center-elon-musk/",
+          "publisher": "Data Center Dynamics",
+          "title": "xAI and Humain to build 500MW Saudi Arabia data center",
+          "date": "2025-11-20"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "xai",
+      "claim": "Daniel Rowland is listed as overseeing xAI's data center operations, including the Memphis facility.",
+      "status": "reported",
+      "date": "2025",
+      "sources": [
+        {
+          "url": "https://exa.ai/websets/directory/xai-executives",
+          "publisher": "Exa (Websets directory)",
+          "title": "X.AI Corp Leadership and Executive Team",
+          "date": "2025"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "entity": "xai",
+      "claim": "CB Insights lists Elon Musk as xAI's Founder and Chief Executive Officer.",
+      "status": "reported",
+      "date": "2026-10-11",
+      "sources": [
+        {
+          "url": "https://www.cbinsights.com/company/xai/people",
+          "publisher": "CB Insights",
+          "title": "xAI CEO, Founder, Key Executive Team, Board of Directors & Employees",
+          "date": "2026-10-11"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
     }
   ],
   "connections": [
+    {
+      "from": "amazon",
+      "to": "federal-trade-commission",
+      "relation": "sued",
+      "claim": "The Federal Trade Commission has filed antitrust-related cases against Amazon since March 2020, as stated in Amazon's FY2025 Form 10-K; Amazon disputes the allegations.",
+      "status": "reported",
+      "date": "2020-03",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/R16.htm",
+          "publisher": "U.S. SEC (Amazon.com, Inc. Form 10-K, FY2025, Note: Commitments and Contingencies)",
+          "title": "Commitments and Contingencies (XBRL R16, Form 10-K filed 2026-02-06)",
+          "date": "2026-02-06"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "amazon",
+      "to": "anthropic",
+      "relation": "invested in",
+      "claim": "Amazon announced it is investing $5 billion in Anthropic, with up to an additional $20 billion in the future, building on $8 billion previously invested.",
+      "status": "documented",
+      "date": "2026-04-20",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
+          "publisher": "Anthropic",
+          "title": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
+          "date": "2026-04-20"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "amazon",
+      "to": "anthropic",
+      "relation": "partnered with",
+      "claim": "Anthropic states that it continues to choose AWS as its primary training and cloud provider, and that over 100,000 customers run Claude on Amazon Bedrock.",
+      "status": "documented",
+      "date": "2026-04-20",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
+          "publisher": "Anthropic",
+          "title": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
+          "date": "2026-04-20"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
     {
       "from": "american-petroleum-institute",
       "to": "exxonmobil",
@@ -7684,6 +9414,41 @@
         }
       ],
       "approvedAt": "2026-10-08T22:20:46.594Z"
+    },
+    {
+      "from": "anduril-industries",
+      "to": "defense-innovation-unit",
+      "relation": "contracted with",
+      "claim": "DIU awarded Anduril a 5-year Production Other Transaction (P-OT) agreement for counter-UAS with a $99M ceiling in 2021.",
+      "status": "documented",
+      "date": null,
+      "sources": [
+        {
+          "url": "https://fedscoop.com/anduril-counter-drone-tech-diu/",
+          "publisher": "fedscoop.com",
+          "title": "Anduril scores $99M contract with DIU for counter-drone tech",
+          "accessed": "2026-10-11",
+          "addedBy": "audit: found when the cited page did not carry the claim"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "anduril",
+      "to": "founders-fund",
+      "relation": "invested in",
+      "claim": "Founders Fund invested a $1 billion check in Anduril's 2025 round, the largest check it has written, according to TechCrunch.",
+      "status": "reported",
+      "date": "2025",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/05/13/anduril-raises-5b-doubles-valuation-to-61b/",
+          "publisher": "TechCrunch",
+          "title": "Anduril raises $5B, doubles valuation to $61B",
+          "date": "2026-05-13"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
     },
     {
       "from": "bcci",
@@ -8602,6 +10367,40 @@
       "approvedAt": "2026-10-11T22:44:55.645Z"
     },
     {
+      "from": "eric-schmidt",
+      "to": "google",
+      "relation": "executive of",
+      "claim": "CEO of Google from 2001 to 2011 and Executive Chairman of Alphabet until 2018.",
+      "status": "documented",
+      "date": null,
+      "sources": [
+        {
+          "url": "https://www.techtransparencyproject.org/articles/eric-schmidts-unseen-influence-over-us-defense-spending",
+          "publisher": "Tech Transparency Project",
+          "title": "Eric Schmidt's Hidden Influence Over US Defense Spending",
+          "date": "2021-04-15"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "eric-schmidt",
+      "to": "defense-innovation-unit",
+      "relation": "advised",
+      "claim": "Chaired the Defense Innovation Board advising the Secretary of Defense on software acquisition and AI deployment.",
+      "status": "documented",
+      "date": null,
+      "sources": [
+        {
+          "url": "https://www.techtransparencyproject.org/articles/eric-schmidts-unseen-influence-over-us-defense-spending",
+          "publisher": "Tech Transparency Project",
+          "title": "Eric Schmidt's Hidden Influence Over US Defense Spending",
+          "date": "2021-04-15"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
       "from": "andreessen-horowitz",
       "to": "fairshake",
       "relation": "funded",
@@ -8768,6 +10567,125 @@
         }
       ],
       "approvedAt": "2026-10-08T18:17:01.297Z"
+    },
+    {
+      "from": "google",
+      "to": "spacex",
+      "relation": "invested in",
+      "claim": "Google and Fidelity invested $1 billion in SpaceX in January 2015, taking an ownership stake just shy of 10%.",
+      "status": "documented",
+      "date": "2015-01-20",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2015/01/20/spacex-raises-1-billion-in-new-funding-from-google-and-fidelity/",
+          "publisher": "TechCrunch",
+          "title": "SpaceX Raises $1 Billion In New Funding From Google And Fidelity",
+          "date": "2015-01-20"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "google",
+      "to": "nvidia",
+      "relation": "contracted with",
+      "claim": "Google is a customer of Nvidia's GPU chips for AI training while also competing with Nvidia through its in-house Tensor Processing Units (TPUs); Nvidia's CEO said Google was a customer and that Gemini can run on Nvidia's technology.",
+      "status": "documented",
+      "date": "2025-11-25",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2025/11/25/nvidia-says-its-gpus-are-a-generation-ahead-of-googles-ai-chips.html",
+          "publisher": "CNBC",
+          "title": "Nvidia says its GPUs are a 'generation ahead' of Google's AI chips",
+          "date": "2025-11-25"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "google",
+      "to": "nvidia",
+      "relation": "partnered with",
+      "claim": "In December 2025 Reuters reported that Google was building an initiative called TorchTPU, with Meta's help, to make its AI chips run PyTorch better, a move aimed at weakening Nvidia's dominance of the AI computing market.",
+      "status": "reported",
+      "date": "2025-12-17",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20251217162134/https://www.reuters.com/business/google-works-erode-nvidias-software-advantage-with-metas-help-2025-12-17/",
+          "publisher": "Reuters",
+          "title": "Exclusive: Google works to erode Nvidia's software advantage with Meta's help",
+          "date": "2025-12-17"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "google",
+      "to": "openai",
+      "relation": "contracted with",
+      "claim": "Reuters reported in June 2025 that OpenAI planned to add Alphabet's Google Cloud to meet its computing needs, a cloud infrastructure deal finalized in May 2025 between two AI competitors.",
+      "status": "reported",
+      "date": "2025-06-10",
+      "sources": [
+        {
+          "url": "https://hk.marketscreener.com/quote/stock/MICROSOFT-CORPORATION-4835/news/Exclusive-OpenAI-taps-Google-in-unprecedented-cloud-deal-despite-AI-rivalry-sources-say-50202846/",
+          "publisher": "Reuters (via MarketScreener)",
+          "title": "Exclusive-OpenAI taps Google in unprecedented cloud deal despite AI rivalry, sources say",
+          "date": "2025-06-10"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "google",
+      "to": "alec",
+      "relation": "funded",
+      "claim": "In September 2014 Google cut ties with the American Legislative Exchange Council over its climate stance; executive chairman Eric Schmidt said the company's support was a 'mistake' and that ALEC was 'literally lying' on climate change.",
+      "status": "documented",
+      "date": "2014-09-22",
+      "sources": [
+        {
+          "url": "https://www.usatoday.com/story/money/business/2014/09/26/tech-titans-bolt-conservative-alec-over-climate-flap/16233881/",
+          "publisher": "USA Today",
+          "title": "Google cites climate change as tech titans quit ALEC",
+          "date": "2014-09-26"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "google",
+      "to": "meta",
+      "relation": "partnered with",
+      "claim": "Reuters reported in December 2025 that Google was working with Meta on TorchTPU, an initiative to make Google's AI chips better at running PyTorch, and that Meta was in talks to spend billions of dollars on Google's TPU chips from 2027.",
+      "status": "reported",
+      "date": "2025-12-17",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20251217162134/https://www.reuters.com/business/google-works-erode-nvidias-software-advantage-with-metas-help-2025-12-17/",
+          "publisher": "Reuters",
+          "title": "Exclusive: Google works to erode Nvidia's software advantage with Meta's help",
+          "date": "2025-12-17"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "google",
+      "to": "us-department-of-justice",
+      "relation": "sued by",
+      "claim": "The US Department of Justice sued Google twice: in October 2020 over search and search advertising monopolies, and in January 2023 over digital advertising technology monopolies; the DOJ also sought and won remedies orders after both liability rulings.",
+      "status": "documented",
+      "date": "2023-01-24",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260928000227/https://www.justice.gov/archives/opa/pr/justice-department-sues-google-monopolizing-digital-advertising-technologies",
+          "publisher": "US Department of Justice",
+          "title": "Justice Department Sues Google for Monopolizing Digital Advertising Technologies",
+          "date": "2023-01-24"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
     },
     {
       "from": "in-q-tel",
@@ -9269,6 +11187,40 @@
         }
       ],
       "approvedAt": "2026-10-08T21:57:32.114Z"
+    },
+    {
+      "from": "keyhole",
+      "to": "in-q-tel",
+      "relation": "funded",
+      "claim": "In-Q-Tel invested in Keyhole in 2003 on behalf of NIMA.",
+      "status": "documented",
+      "date": null,
+      "sources": [
+        {
+          "url": "https://www.iqt.org/library/in-q-tel-announces-strategic-investment-in-keyhole",
+          "publisher": "In-Q-Tel",
+          "title": "In-Q-Tel Investment Notice",
+          "date": "2003-06-01"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "keyhole",
+      "to": "google",
+      "relation": "subsidiary of",
+      "claim": "Acquired by Google in 2004 and rebranded as Google Earth.",
+      "status": "documented",
+      "date": null,
+      "sources": [
+        {
+          "url": "https://www.govexec.com/defense/2006/12/advicedissent-intelligence-file-worldly-view/23301/",
+          "publisher": "Government Executive",
+          "title": "Intelligence File: Worldly View",
+          "date": "2006-12-01"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
     },
     {
       "from": "luke-nosek",
@@ -10037,6 +11989,278 @@
         }
       ],
       "approvedAt": "2026-10-08T22:20:46.594Z"
+    },
+    {
+      "from": "microsoft",
+      "to": "bill-gates-and-paul-allen",
+      "relation": "co-founded",
+      "claim": "Bill Gates and Paul Allen co-founded Microsoft on April 4, 1975.",
+      "status": "documented",
+      "date": "1975-04-04",
+      "sources": [
+        {
+          "url": "https://www.history.com/this-day-in-history/April-4/microsoft-founded",
+          "publisher": "HISTORY",
+          "title": "Microsoft founded | April 4, 1975",
+          "date": "2025-05-28"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "microsoft",
+      "to": "openai",
+      "relation": "invested in",
+      "claim": "Microsoft made a multi-year, multi-billion dollar investment in OpenAI in January 2023, extending a partnership in which Azure is the exclusive cloud provider for OpenAI workloads.",
+      "status": "documented",
+      "date": "2023-01-23",
+      "sources": [
+        {
+          "url": "https://openai.com/index/openai-and-microsoft-extend-partnership/",
+          "publisher": "OpenAI",
+          "title": "OpenAI and Microsoft extend partnership",
+          "date": "2023-01-23"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "jensen-huang",
+      "to": "nvidia",
+      "relation": "founded",
+      "claim": "Jen-Hsun (Jensen) Huang founded NVIDIA in 1993 and serves as its President, CEO and a director.",
+      "status": "documented",
+      "date": "2026-05-12",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+          "publisher": "SEC (Nvidia 2026 proxy statement, DEF 14A)",
+          "title": "NVIDIA Corporation Proxy Statement, filed 2026-05-12",
+          "date": "2026-05-12"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "nvidia",
+      "to": "meta",
+      "relation": "partnered with",
+      "claim": "Nvidia announced a multiyear, multigenerational strategic partnership with Meta.",
+      "status": "documented",
+      "date": "2026-02-25",
+      "sources": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026",
+          "publisher": "NVIDIA",
+          "title": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026",
+          "date": "2026-02-25"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "nvidia",
+      "to": "anthropic",
+      "relation": "invested in",
+      "claim": "Nvidia announced an investment in Anthropic and a deep technology partnership with it.",
+      "status": "documented",
+      "date": "2026-02-25",
+      "sources": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026",
+          "publisher": "NVIDIA",
+          "title": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026",
+          "date": "2026-02-25"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "nvidia",
+      "to": "microsoft",
+      "relation": "partnered with",
+      "claim": "Nvidia's 10-K describes an agreement with Microsoft for the Xbox that gives Microsoft first and last rights of refusal if a 30% offer is made for Nvidia stock.",
+      "status": "documented",
+      "date": "2026-02-25",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "SEC (Nvidia FY2026 annual report, Form 10-K)",
+          "title": "NVIDIA Corporation Form 10-K for fiscal year ended January 25, 2026, filed 2026-02-25",
+          "date": "2026-02-25"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "nvidia",
+      "to": "google",
+      "relation": "other",
+      "claim": "Nvidia's 10-K names Alphabet Inc. among companies that incorporate accelerated or AI computing into their own internal solutions; Nvidia's results release names Google Cloud among providers to deploy Vera Rubin-based instances.",
+      "status": "documented",
+      "date": "2026-02-25",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "SEC (Nvidia FY2026 annual report, Form 10-K)",
+          "title": "NVIDIA Corporation Form 10-K for fiscal year ended January 25, 2026, filed 2026-02-25",
+          "date": "2026-02-25"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "nvidia",
+      "to": "amazon",
+      "relation": "partnered with",
+      "claim": "Nvidia's results release states that it expanded its AWS partnership with new technology integrations.",
+      "status": "documented",
+      "date": "2026-02-25",
+      "sources": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026",
+          "publisher": "NVIDIA",
+          "title": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026",
+          "date": "2026-02-25"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "nvidia",
+      "to": "openai",
+      "relation": "other",
+      "claim": "Nvidia's 10-K says it is finalizing an investment and partnership agreement with OpenAI, with no assurance it will be completed.",
+      "status": "reported",
+      "date": "2026-02-25",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "SEC (Nvidia FY2026 annual report, Form 10-K)",
+          "title": "NVIDIA Corporation Form 10-K for fiscal year ended January 25, 2026, filed 2026-02-25",
+          "date": "2026-02-25"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "nvidia",
+      "to": "bis",
+      "relation": "regulated",
+      "claim": "The Bureau of Industry and Security regulates exports of Nvidia's advanced computing chips to China, including the January 2026 rule covering the Nvidia H200 and its equivalents.",
+      "status": "documented",
+      "date": "2026-01-15",
+      "sources": [
+        {
+          "url": "https://www.federalregister.gov/documents/2026/01/15/2026-00789/revision-to-license-review-policy-for-advanced-computing-commodities",
+          "publisher": "Federal Register (Bureau of Industry and Security)",
+          "title": "Revision to License Review Policy for Advanced Computing Commodities (Doc. 2026-00789)",
+          "date": "2026-01-15"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "nvidia",
+      "to": "department-of-commerce",
+      "relation": "regulated",
+      "claim": "The Department of Commerce, through BIS, issued the January 2026 license-review rule covering Nvidia's H200 chips to China.",
+      "status": "documented",
+      "date": "2026-01-15",
+      "sources": [
+        {
+          "url": "https://www.federalregister.gov/documents/2026/01/15/2026-00789/revision-to-license-review-policy-for-advanced-computing-commodities",
+          "publisher": "Federal Register (Bureau of Industry and Security)",
+          "title": "Revision to License Review Policy for Advanced Computing Commodities (Doc. 2026-00789)",
+          "date": "2026-01-15"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "nvidia",
+      "to": "department-of-energy",
+      "relation": "partnered with",
+      "claim": "Nvidia joined the U.S. Department of Energy's Genesis Mission as a private industry partner.",
+      "status": "documented",
+      "date": "2026-02-25",
+      "sources": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026",
+          "publisher": "NVIDIA",
+          "title": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026",
+          "date": "2026-02-25"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "openai",
+      "to": "microsoft",
+      "relation": "invested in",
+      "claim": "Microsoft holds an investment in OpenAI Group PBC valued at approximately $135 billion, about 27 percent on an as-converted diluted basis, after OpenAI's recapitalization.",
+      "status": "documented",
+      "date": "2025-10-28",
+      "sources": [
+        {
+          "url": "https://news.microsoft.com/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/",
+          "publisher": "Microsoft",
+          "title": "The next chapter of the Microsoft–OpenAI partnership",
+          "date": "2025-10-28"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "openai",
+      "to": "microsoft",
+      "relation": "partnered with",
+      "claim": "Microsoft and OpenAI's October 2025 agreement keeps OpenAI as Microsoft's frontier model partner and keeps Microsoft's exclusive IP rights and Azure API exclusivity until AGI, with Microsoft's IP rights extended through 2032.",
+      "status": "documented",
+      "date": "2025-10-28",
+      "sources": [
+        {
+          "url": "https://news.microsoft.com/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/",
+          "publisher": "Microsoft",
+          "title": "The next chapter of the Microsoft–OpenAI partnership",
+          "date": "2025-10-28"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "openai",
+      "to": "miller-strategies",
+      "relation": "lobbied for",
+      "claim": "Miller Strategies, LLC filed quarterly lobbying reports on behalf of OpenAI, with each quarterly report listed at $150K; Jeffrey Miller is the lobbyist who appears most prominently on OpenAI's filings.",
+      "status": "documented",
+      "date": "2026-07-20",
+      "sources": [
+        {
+          "url": "https://congress.wiki/map/money/lobbying/clients/openai",
+          "publisher": "Congress.wiki",
+          "title": "OpenAI — Lobbying Disclosures ($900K disclosed through 2026)",
+          "date": "2026-07-20"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "openai",
+      "to": "gsa",
+      "relation": "contracted with",
+      "claim": "The General Services Administration announced a OneGov agreement with OpenAI for discounted, consumption-based federal access to ChatGPT models.",
+      "status": "documented",
+      "date": "2026-09-10",
+      "sources": [
+        {
+          "url": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-expands-onegov-ai-offerings-with-discounted-openais-chatgpt-09102026",
+          "publisher": "GSA",
+          "title": "GSA Expands OneGov AI Offerings with Discounted, Consumption-Based Access to OpenAI's ChatGPT",
+          "date": "2026-09-10"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
     },
     {
       "from": "peter-thiel",
@@ -11925,6 +14149,131 @@
       "approvedAt": "2026-10-08T22:20:46.594Z"
     },
     {
+      "from": "google",
+      "to": "spacex",
+      "relation": "invested in",
+      "claim": "Google invested in SpaceX as part of a $1 billion round in January 2015, alongside Fidelity, taking an ownership stake just shy of 10%.",
+      "status": "reported",
+      "date": "2015-01-20",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2015/01/20/spacex-raises-1-billion-in-new-funding-from-google-and-fidelity/",
+          "publisher": "TechCrunch",
+          "title": "SpaceX Raises $1 Billion In New Funding From Google And Fidelity",
+          "date": "2015-01-20"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "elon-musk",
+      "to": "spacex",
+      "relation": "founded",
+      "claim": "Elon Musk is described as the helmer and CEO of SpaceX; SpaceX's founders are listed as Elon Musk, Tom Mueller and Chris Thompson.",
+      "status": "documented",
+      "date": "2002",
+      "sources": [
+        {
+          "url": "https://fundbat.com/company/spacex/",
+          "publisher": "FundBat",
+          "title": "SpaceX (SPCX) - Funding Rounds, Valuation & Investors",
+          "date": "2026-06-11"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "elon-musk",
+      "to": "spacex",
+      "relation": "owns",
+      "claim": "Elon Musk controls most of SpaceX's voting power after the IPO under a dual-class structure (Class A shares carry one vote, Class B shares ten votes), reported at 85.1%.",
+      "status": "reported",
+      "date": "2026-05-20",
+      "sources": [
+        {
+          "url": "https://fundbat.com/company/spacex/",
+          "publisher": "FundBat",
+          "title": "SpaceX (SPCX) - Funding Rounds, Valuation & Investors",
+          "date": "2026-05-20"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "peter-thiel",
+      "to": "spacex",
+      "relation": "invested in",
+      "claim": "Founders Fund and entities under Peter Thiel's control held 427,306,025 Class A shares of SpaceX (about 5.5% of Class A shares) as of June 30, 2026, according to a Schedule 13G (as reproduced by StockTitan).",
+      "status": "documented",
+      "date": "2026-06-30",
+      "sources": [
+        {
+          "url": "https://www.stocktitan.net/sec-filings/SPCX/schedule-13g-space-exploration-technologies-corp-passive-investment-d-c4c38f2c12ba.html",
+          "publisher": "StockTitan (reproducing SEC Schedule 13G)",
+          "title": "Founders Fund, Thiel report 5.5% stake in SpaceX",
+          "date": "2026"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "spacex",
+      "to": "amazon",
+      "relation": "other",
+      "claim": "Amazon Leo (formerly Project Kuiper), an Amazon satellite constellation that competes with Starlink, filed a petition on March 6, 2026 asking the FCC to deny SpaceX's application for a constellation of up to a million satellites; SpaceX later filed an FCC complaint against Amazon Leo over launch altitudes (April 2026).",
+      "status": "documented",
+      "date": "2026-03-06",
+      "sources": [
+        {
+          "url": "https://payloadspace.com/spacex-v-amazon-heats-up-at-the-fcc/",
+          "publisher": "Payload",
+          "title": "SpaceX v. Amazon Heats Up at the FCC",
+          "date": "2026-03-22"
+        },
+        {
+          "url": "https://arstechnica.com/tech-policy/2026/04/spacex-claims-amazon-leo-launches-could-crash-into-starlink-satellites/",
+          "publisher": "Ars Technica",
+          "title": "SpaceX tries to convince FCC that Amazon put satellites into wrong altitude",
+          "date": "2026-04-02"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "anthropic",
+      "to": "spacex",
+      "relation": "contracted with",
+      "claim": "Anthropic confirmed it agreed with SpaceX to use all of the compute capacity at SpaceX's Colossus 1 data center (more than 300 megawatts, over 220,000 NVIDIA GPUs). Anthropic's announcement does not state dollar terms; a reported figure of $1.25 billion per month is not yet verified against a primary source.",
+      "status": "documented",
+      "date": "2026-05-06",
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/news/higher-limits-spacex",
+          "publisher": "Anthropic",
+          "title": "Higher usage limits for Claude and a compute deal with SpaceX",
+          "date": "2026-05-06"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "spacex",
+      "to": "tesla",
+      "relation": "other",
+      "claim": "Elon Musk is described in a 2022 TechCrunch report as the chief executive of both Tesla and SpaceX.",
+      "status": "reported",
+      "date": "2022-05-05",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/?p=2312669",
+          "publisher": "TechCrunch",
+          "title": "Sequoia, Binance and a16z back Elon Musk's $44 billion Twitter bid",
+          "date": "2022-05-05"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
       "from": "stanford",
       "to": "exxonmobil",
       "relation": "partnered with",
@@ -11963,9 +14312,140 @@
         }
       ],
       "approvedAt": "2026-10-08T18:17:01.297Z"
+    },
+    {
+      "from": "xai",
+      "to": "spacex",
+      "relation": "owns",
+      "claim": "SpaceX acquired X.AI Holdings Corp. (xAI) effective February 2, 2026 in the xAI Merger, a share exchange.",
+      "status": "documented",
+      "date": "2026-02-02",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm",
+          "publisher": "SEC EDGAR (SpaceX)",
+          "title": "Form S-1/A Amendment No. 2",
+          "date": "2026-06-03"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "xai",
+      "to": "valor-equity-partners",
+      "relation": "contracted with",
+      "claim": "Subsidiaries of xAI lease computing equipment from Valor Equity Partners and its affiliates under agreements totalling billions of dollars in aggregate payments.",
+      "status": "documented",
+      "date": "2025-12-31",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm",
+          "publisher": "SEC EDGAR (SpaceX)",
+          "title": "Form S-1/A Amendment No. 2",
+          "date": "2026-06-03"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "xai",
+      "to": "tesla",
+      "relation": "invested in",
+      "claim": "Tesla agreed in January 2026 to invest $2,000 million in xAI's Series E preferred stock.",
+      "status": "documented",
+      "date": "2026-01",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm",
+          "publisher": "SEC EDGAR (SpaceX)",
+          "title": "Form S-1/A Amendment No. 2",
+          "date": "2026-06-03"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "xai",
+      "to": "mgx",
+      "relation": "invested in",
+      "claim": "MGX was named among investors in xAI's Series C round, announced December 23, 2024.",
+      "status": "documented",
+      "date": "2024-12-23",
+      "sources": [
+        {
+          "url": "https://x.ai/news/series-c",
+          "publisher": "xAI",
+          "title": "xAI raises $6B Series C",
+          "date": "2024-12-23"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "xai",
+      "to": "saudi-public-investment-fund",
+      "relation": "partnered with",
+      "claim": "Saudi Arabia's HUMAIN, which is backed by the Public Investment Fund, announced a 500MW data center partnership with xAI in November 2025.",
+      "status": "reported",
+      "date": "2025-11-20",
+      "sources": [
+        {
+          "url": "https://www.datacenterdynamics.com/en/news/xai-humain-data-center-elon-musk/",
+          "publisher": "Data Center Dynamics",
+          "title": "xAI and Humain to build 500MW Saudi Arabia data center",
+          "date": "2025-11-20"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "xai",
+      "to": "valor-equity-partners",
+      "relation": "invested in",
+      "claim": "Valor Equity Partners was named as an investor in xAI's Series B and Series C rounds.",
+      "status": "documented",
+      "date": "2024-12-23",
+      "sources": [
+        {
+          "url": "https://x.ai/news/series-c",
+          "publisher": "xAI",
+          "title": "xAI raises $6B Series C",
+          "date": "2024-12-23"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
+    },
+    {
+      "from": "xai",
+      "to": "nvidia",
+      "relation": "invested in",
+      "claim": "NVIDIA participated as a strategic investor in xAI's Series C round.",
+      "status": "documented",
+      "date": "2024-12-23",
+      "sources": [
+        {
+          "url": "https://x.ai/news/series-c",
+          "publisher": "xAI",
+          "title": "xAI raises $6B Series C",
+          "date": "2024-12-23"
+        }
+      ],
+      "approvedAt": "2026-10-11T22:51:51.550Z"
     }
   ],
   "newEntities": {
+    "federal-trade-commission": {
+      "name": "Federal Trade Commission",
+      "type": "agency"
+    },
+    "defense-innovation-unit": {
+      "name": "defense-innovation-unit",
+      "type": "unknown"
+    },
+    "anduril-industries": {
+      "name": "Anduril Industries, Inc.",
+      "type": "unknown"
+    },
     "bcci": {
       "name": "Bank of Credit and Commerce International",
       "type": "unknown"
@@ -12030,6 +14510,10 @@
       "name": "First Western National Bank",
       "type": "organization"
     },
+    "eric-schmidt": {
+      "name": "Eric Schmidt",
+      "type": "unknown"
+    },
     "voter-com": {
       "name": "voter.com",
       "type": "company"
@@ -12073,6 +14557,10 @@
     "u-s-department-of-state": {
       "name": "U.S. Department of State",
       "type": "agency"
+    },
+    "keyhole": {
+      "name": "Keyhole, Inc.",
+      "type": "unknown"
     },
     "gigafund": {
       "name": "Gigafund",
@@ -12141,6 +14629,14 @@
     "mark-farrell": {
       "name": "Mark Farrell",
       "type": "person"
+    },
+    "miller-strategies": {
+      "name": "Miller Strategies, LLC",
+      "type": "firm"
+    },
+    "gsa": {
+      "name": "General Services Administration (GSA)",
+      "type": "agency"
     },
     "david-gausebeck": {
       "name": "David Gausebeck",
@@ -12265,6 +14761,10 @@
     "twitter": {
       "name": "Twitter (X)",
       "type": "company"
+    },
+    "valor-equity-partners": {
+      "name": "Valor Equity Partners",
+      "type": "fund"
     }
   }
 }

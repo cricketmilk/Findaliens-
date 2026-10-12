@@ -4,244 +4,279 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Manufacturing Consent — The Cornfield Gazette</title>
-<meta name="description" content="Paid media, war propaganda, bought movements and faith used against workers: the documented cases, each checked against its sources.">
-<meta name="theme-color" content="#262527">
+<meta name="description" content="Paid media, war propaganda, bought movements, faith used against workers, Hollywood's borrowed carriers and paid influencers: the documented cases, each checked against its sources.">
+<meta name="theme-color" content="#0b0814">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌽</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=IBM+Plex+Mono:wght@400;500;600;700&family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #262527;
-    --bg-2: #2e2d30;
-    --panel: #1f1e21;
+    --night: #0b0814;
+    --card: #161025;
+    --card-hi: #1c1430;
+    --line: rgba(161, 92, 240, 0.28);
+    --line-hi: rgba(161, 92, 240, 0.6);
+    --text: #ede6ff;
+    --read: #d3c8ec;
+    --dim: #a596c4;
+    --mute: #8476a3;
     --violet: #a15cf0;
-    --violet-hi: #c79bff;
-    --violet-dim: #6a3ba3;
-    --violet-ink: #1b1220;
+    --lav: #cdb4ff;
     --gold: #ffd84d;
-    --text: #ddd6e6;
-    --read: #d2cadc;
-    --dim: #9a92a6;
-    --sans: "Archivo", "Helvetica Neue", Arial, sans-serif;
-    --mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+    --pink: #ff7ac8;
+    --mint: #9af0d5;
     --pixel: "Press Start 2P", monospace;
-    --term: "VT323", monospace;
+    --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
   }
-  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--sans); font-size: 16px; line-height: 1.55; }
-  /* risograph paper grain */
-  body::before {
-    content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 50; opacity: 0.28; mix-blend-mode: overlay;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.1' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.75 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-  }
-  a { color: var(--violet); }
-  a:hover { color: var(--violet-hi); }
-  .page { max-width: 1120px; margin: 0 auto; padding: 22px 28px 80px; }
-  .frame { border: 2px solid var(--violet); border-radius: 12px; padding: 20px 22px; }
-  .pill { display: inline-flex; align-items: center; gap: 10px; border: 2px solid var(--violet); border-radius: 4px; padding: 7px 11px; color: var(--violet); font-family: var(--pixel); font-size: 9px; line-height: 1.3; text-transform: uppercase; text-decoration: none; }
-  .pill:hover { background: var(--violet); color: var(--violet-ink); }
-  .display { font-family: var(--sans); font-weight: 900; font-stretch: 125%; letter-spacing: -0.01em; line-height: 0.92; color: var(--violet); text-transform: uppercase; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body { margin: 0; background: var(--night); color: var(--text); font-family: var(--sans); font-size: 16px; line-height: 1.6; }
+  canvas { display: block; image-rendering: pixelated; image-rendering: crisp-edges; }
+  a { color: var(--lav); text-decoration-color: rgba(205, 180, 255, 0.4); text-underline-offset: 3px; }
+  a:hover { color: #fff; text-decoration-color: var(--lav); }
+  .page { max-width: 1180px; margin: 0 auto; padding: 22px 28px 90px; }
 
-  /* ---------- top + hero ---------- */
-  .top { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 18px; font-size: 13px; color: var(--violet); }
-  .nav { display: flex; flex-wrap: wrap; gap: 8px; }
-  .board { position: relative; padding: 14px 12px 10px; margin: 4px 0 20px; background: radial-gradient(ellipse at 50% 40%, #241634 0%, #120c18 75%); box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.7), 0 30px 70px -40px rgba(161, 92, 240, 0.6); }
-  .board canvas { display: block; width: 100%; }
-  .board-meta { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin: 6px 6px 0; padding-top: 8px; border-top: 1px solid rgba(161, 92, 240, 0.3); font-family: var(--pixel); font-size: 8px; line-height: 1.6; color: #8a6bb8; letter-spacing: 0.04em; }
-  .board-meta .air { color: #ff5a6e; }
-  @media (prefers-reduced-motion: no-preference) { .board-meta .air { animation: air 1.6s steps(1) infinite; } }
-  @keyframes air { 50% { opacity: 0.35; } }
-  .wall { padding: 16px 18px 12px; background: var(--panel); box-shadow: 0 30px 70px -40px rgba(161, 92, 240, 0.55); }
-  .wall canvas, .signoff canvas { display: block; width: 100%; }
-  .hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 36px; margin-top: 28px; align-items: start; }
-  .hero-text { color: var(--text); font-size: 19px; line-height: 1.6; margin: 0; }
-  .hero-text b { color: var(--violet); font-weight: 800; }
-  /* the channel guide: the sections, as a listings card */
-  .guide { padding: 14px 18px 10px; }
-  .guide .k { font-family: var(--mono); font-size: 11px; letter-spacing: 0.16em; color: var(--dim); }
-  .guide a { display: grid; grid-template-columns: 52px 1fr auto; gap: 10px; align-items: baseline; padding: 8px 0; border-top: 1px solid rgba(161, 92, 240, 0.35); text-decoration: none; color: var(--text); }
-  .guide a:first-of-type { border-top: 0; }
-  .guide a:hover { color: var(--violet-hi); }
-  .guide .ch { font-family: var(--mono); font-size: 12px; font-weight: 600; color: var(--violet); }
-  .guide .nm { font-weight: 700; font-stretch: 110%; font-size: 15px; }
-  .guide .ct { font-family: var(--mono); font-size: 11.5px; color: var(--dim); }
+  .nav { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px; }
+  .nav a { font-family: var(--pixel); font-size: 8.5px; line-height: 1.3; color: var(--lav); text-decoration: none; border: 1.5px solid var(--line-hi); padding: 7px 10px; }
+  .nav a:hover { background: var(--lav); color: var(--night); border-color: var(--lav); }
 
-  /* ---------- legend ---------- */
-  .legend-box { margin-top: 44px; }
-  .legend { display: flex; flex-wrap: wrap; gap: 10px 16px; }
-  .legend span { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; font-size: 13.5px; color: var(--read); }
-  .badge { display: inline-block; font-size: 10px; font-weight: 800; font-stretch: 115%; letter-spacing: 0.06em; padding: 2px 9px; border-radius: 999px; border: 1.5px solid currentColor; white-space: nowrap; vertical-align: middle; }
-  .st-documented { color: var(--violet); }
-  .st-court { color: var(--violet-ink); background: var(--violet); border-color: var(--violet); }
-  .st-peer { color: #c9a7ff; }
-  .st-reported { color: #d6c7e8; }
-  .st-words { color: #e4d4ff; border-style: double; border-width: 3px; }
+  /* ---------- the factory ---------- */
+  .yard { margin: 0; border: 2px solid var(--violet); box-shadow: 8px 8px 0 #2a1d42; background: var(--night); }
+  .yard-cap { display: flex; justify-content: space-between; gap: 6px 12px; flex-wrap: wrap; padding: 8px 14px; border-top: 2px solid var(--violet); font-family: var(--mono); font-size: 11px; letter-spacing: 0.14em; color: var(--dim); }
+  .yard-cap .on { color: var(--gold); }
+
+  .head { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 44px; align-items: center; margin: 44px 0 38px; }
+  .kicker { margin: 0 0 16px; font-family: var(--mono); font-size: 12px; letter-spacing: 0.16em; color: var(--dim); }
+  h1 { margin: 0; font-family: var(--pixel); font-weight: 400; font-size: clamp(22px, 3.3vw, 40px); line-height: 1.2; color: var(--text); text-shadow: 4px 4px 0 #3b2a5c; }
+  h1 span { display: block; }
+  h1 span + span { color: var(--pink); }
+  .dek { margin: 0; font-size: 18px; line-height: 1.6; color: var(--read); }
+  .dek b { color: var(--text); font-weight: 600; }
+
+  /* ---------- the floor plan ---------- */
+  .plan { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin: 0 0 14px; }
+  .plan a { display: flex; flex-direction: column; gap: 6px; padding: 14px 14px 12px; background: var(--card); border: 1px solid var(--line); text-decoration: none; color: var(--text); }
+  .plan a:hover { border-color: var(--violet); background: var(--card-hi); }
+  .plan .no { font-family: var(--pixel); font-size: 9px; color: var(--violet); }
+  .plan .nm { font-weight: 600; font-size: 16.5px; line-height: 1.3; }
+  .plan .ct { margin-top: auto; font-family: var(--mono); font-size: 11.5px; color: var(--mute); }
+  .legend { display: flex; flex-wrap: wrap; gap: 8px 20px; padding: 12px 16px; margin: 0 0 56px; border: 1px dashed var(--line); font-size: 13px; color: var(--dim); }
+  .legend > span { display: inline-flex; align-items: center; gap: 8px; }
+  .badge { display: inline-block; font-family: var(--mono); font-size: 10px; font-weight: 600; letter-spacing: 0.08em; padding: 1px 6px; line-height: 1.55; border: 1.5px solid currentColor; white-space: nowrap; }
+  .st-court { color: var(--night); background: var(--violet); border-color: var(--violet); }
+  .st-documented { color: var(--lav); }
+  .st-peer { color: var(--mint); }
+  .st-reported { color: var(--gold); }
+  .st-words { color: var(--pink); }
   .st-argument { color: var(--dim); border-style: dashed; }
-  .method { color: var(--dim); font-size: 14px; line-height: 1.6; margin: 14px 0 0; }
 
-  /* ---------- sections: a slate, then the rundown ---------- */
-  section.block { margin-top: 84px; scroll-margin-top: 16px; }
-  .slate { display: grid; grid-template-columns: auto 1fr auto; gap: 18px; align-items: end; border-bottom: 2px solid var(--violet); padding-bottom: 12px; }
-  .slate .ch { font-family: var(--pixel); font-size: 9px; font-weight: 400; color: var(--violet-ink); background: var(--violet); padding: 4px 9px; border-radius: 6px; align-self: center; }
-  .slate h2 { margin: 0; font-family: var(--pixel); font-weight: 400; font-stretch: normal; font-size: clamp(18px, 3.2vw, 32px); line-height: 1.35; letter-spacing: 0; color: var(--violet); text-shadow: 3px 3px 0 var(--violet-ink), 0 0 22px rgba(161, 92, 240, 0.45); }
-  .slate .num { color: #8a6bb8; font-family: var(--term); font-size: 20px; text-transform: uppercase; text-align: right; }
-  .sec-dek { color: var(--read); font-size: 17.5px; line-height: 1.6; max-width: 46em; margin: 16px 0 24px; }
-  .filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 22px; }
-  .filters button { background: transparent; font-family: var(--sans); cursor: pointer; }
-  .filters button.active { background: var(--violet); color: var(--violet-ink); }
+  /* ---------- the floor: a rail of lines beside the lines ---------- */
+  .floor { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 44px; align-items: start; }
+  .rail { position: sticky; top: 18px; padding-top: 14px; border-top: 2px solid var(--violet); }
+  .rail .k { font-family: var(--mono); font-size: 11px; letter-spacing: 0.16em; color: var(--mute); margin-bottom: 8px; }
+  .rail a { display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 4px; padding: 7px 0; font-size: 14px; line-height: 1.35; color: var(--dim); text-decoration: none; border-bottom: 1px solid rgba(161, 92, 240, 0.14); transition: padding 0.15s; }
+  .rail a .n { font-family: var(--mono); font-size: 11px; color: var(--mute); padding-top: 1px; }
+  .rail a:hover, .rail a.here { color: var(--text); }
+  .rail a.here { box-shadow: inset 3px 0 0 var(--gold); padding-left: 10px; }
+  .rail a.here .n { color: var(--gold); }
 
-  .rundown { position: relative; }
-  .rundown::before { content: ""; position: absolute; left: 119px; top: 6px; bottom: 6px; border-left: 2px dotted var(--violet-dim); }
-  .seg { position: relative; display: grid; grid-template-columns: 104px minmax(0, 1fr); gap: 0 34px; padding: 0 0 34px; }
-  .seg::before { content: ""; position: absolute; left: 114px; top: 8px; width: 12px; height: 12px; border-radius: 50%; background: var(--bg); border: 2px solid var(--violet); }
-  .seg.court::before { background: var(--violet); }
-  .seg-year { overflow-wrap: anywhere; text-align: right; font-family: var(--term); font-weight: 400; color: var(--violet); font-size: 34px; line-height: 0.9; text-shadow: 0 0 14px rgba(161, 92, 240, 0.4); }
-  .seg-year.long { font-size: 26px; }
-  .seg-tags { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
-  .topic-tag { font-size: 11px; font-weight: 700; font-stretch: 115%; color: var(--violet); text-transform: uppercase; letter-spacing: 0.08em; }
-  .topic-tag a { color: inherit; text-decoration: none; border-bottom: 1px dotted var(--violet); }
-  .seg h3 { margin: 8px 0 6px; font-size: 21px; line-height: 1.28; font-weight: 700; font-stretch: 105%; color: var(--text); }
-  .seg p { margin: 0; font-size: 16.5px; line-height: 1.62; color: var(--read); max-width: 44em; }
-  .src { margin-top: 10px; font-family: var(--mono); font-size: 12px; line-height: 1.55; color: var(--dim); }
-  .src a { color: var(--dim); text-decoration-color: rgba(154, 146, 166, 0.5); text-underline-offset: 3px; }
-  .src a:hover { color: var(--violet-hi); }
-  .src span + span::before { content: " · "; }
+  .line { margin: 0 0 84px; scroll-margin-top: 16px; }
+  .lh { display: flex; align-items: center; gap: 14px; padding-bottom: 12px; border-bottom: 2px solid var(--violet); margin-bottom: 14px; }
+  .lh .no { font-family: var(--pixel); font-size: 9px; color: var(--night); background: var(--gold); padding: 7px 8px 6px; white-space: nowrap; }
+  .lh h2 { margin: 0; font-family: var(--pixel); font-weight: 400; font-size: clamp(15px, 2.1vw, 21px); line-height: 1.4; color: var(--text); }
+  .lh .ct { margin-left: auto; font-family: var(--mono); font-size: 11.5px; color: var(--mute); white-space: nowrap; }
+  .ldek { margin: 0 0 22px; max-width: 780px; font-size: 16.5px; color: var(--read); }
 
-  .quote-band { margin: 0 0 26px; padding: 20px 24px; }
-  .quote-band blockquote { margin: 0; color: var(--violet); font-size: clamp(19px, 2.4vw, 25px); font-weight: 700; font-stretch: 110%; line-height: 1.3; }
-  .quote-band cite { display: block; margin-top: 10px; font-style: normal; font-size: 13px; color: var(--dim); }
+  .cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+  .case { position: relative; display: flex; flex-direction: column; padding: 16px 18px 15px 22px; background: var(--card); border: 1px solid var(--line); }
+  .case:last-child:nth-child(odd) { grid-column: 1 / -1; }
+  .case::before { content: ""; position: absolute; left: -1px; top: -1px; bottom: -1px; width: 4px; background: var(--lav); }
+  .case.court::before { background: var(--violet); }
+  .case.reported::before { background: var(--gold); }
+  .case.words::before { background: var(--pink); }
+  .case.peer::before { background: var(--mint); }
+  .case.argument::before { background: repeating-linear-gradient(180deg, var(--dim) 0 6px, transparent 6px 10px); }
+  .case .top { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; margin-bottom: 9px; }
+  .case .yr { font-family: var(--pixel); font-size: 10px; line-height: 1.5; color: var(--gold); margin-right: 4px; }
+  .topic { font-family: var(--mono); font-size: 11.5px; color: var(--dim); }
+  .topic a { color: var(--dim); }
+  .case h3 { margin: 0 0 6px; font-size: 18px; line-height: 1.32; font-weight: 600; color: var(--text); }
+  .case p { margin: 0 0 12px; font-size: 15px; line-height: 1.62; color: var(--read); }
+  .src { margin-top: auto; font-family: var(--mono); font-size: 11.5px; line-height: 1.6; color: var(--mute); overflow-wrap: anywhere; }
+  .src a { color: var(--dim); }
+  .src a + a::before { content: " · "; color: var(--mute); display: inline-block; padding: 0 2px; }
 
-  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin: 0 0 34px; }
-  .stat { padding: 16px 18px; }
-  .stat .n { font-family: var(--term); font-weight: 400; font-stretch: normal; font-size: 64px; line-height: 0.85; text-shadow: 0 0 18px rgba(161, 92, 240, 0.45); }
-  .stat .t { font-size: 15.5px; line-height: 1.5; margin: 8px 0 0; color: var(--read); }
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; }
+  .pill { font-family: var(--mono); font-size: 12px; color: var(--dim); background: none; border: 1px solid var(--line); padding: 4px 11px; cursor: pointer; }
+  .pill:hover { color: var(--text); border-color: var(--violet); }
+  .pill.active { color: var(--night); background: var(--lav); border-color: var(--lav); }
 
-  .grid-panel { border-radius: 18px; padding: 22px 24px; margin: 22px 0 30px; background-color: var(--violet); color: var(--violet-ink);
-    background-image: linear-gradient(var(--violet-dim) 1.5px, transparent 1.5px), linear-gradient(90deg, var(--violet-dim) 1.5px, transparent 1.5px); background-size: 80px 80px; }
-  .grid-panel .display { color: var(--violet-ink); font-family: var(--pixel); font-weight: 400; font-stretch: normal; font-size: clamp(16px, 2.6vw, 26px); line-height: 1.4; }
-  .grid-panel p { margin: 10px 0 0; font-weight: 600; font-size: 16.5px; max-width: 46em; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; margin: 0 0 14px; }
+  .stat { display: flex; flex-direction: column; padding: 18px 20px 16px; background: var(--card-hi); border: 1px solid var(--line-hi); }
+  .stat .n { font-family: var(--pixel); font-size: clamp(20px, 2.6vw, 27px); line-height: 1.2; color: var(--gold); margin-bottom: 12px; }
+  .stat .t { font-size: 15px; line-height: 1.55; color: var(--read); margin-bottom: 10px; }
 
-  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; margin-top: 18px; }
+  .quote { margin: 0 0 18px; padding: 18px 22px; border-left: 4px solid var(--gold); background: var(--card); }
+  .quote blockquote { margin: 0 0 8px; font-size: 18px; line-height: 1.55; font-style: italic; color: var(--text); }
+  .quote cite { font-style: normal; font-family: var(--mono); font-size: 12px; color: var(--dim); }
+
+  .myth { margin: 0 0 16px; border: 2px solid var(--violet); background: var(--card); }
+  .myth .mh { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; padding: 14px 20px 12px; border-bottom: 1px solid var(--line-hi); }
+  .myth .mh b { font-family: var(--mono); font-size: 11px; letter-spacing: 0.16em; color: var(--lav); }
+  .myth .mh h3 { margin: 0; font-size: 20px; line-height: 1.3; }
+  .myth .cols { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .myth .col { display: flex; flex-direction: column; padding: 16px 20px 18px; }
+  .myth .col + .col { border-left: 1px dashed var(--line-hi); }
+  .myth .k { align-self: flex-start; margin-bottom: 10px; font-family: var(--mono); font-size: 11px; font-weight: 700; letter-spacing: 0.14em; padding: 2px 8px; }
+  .myth .story .k { color: var(--night); background: var(--gold); }
+  .myth .record .k { color: var(--text); border: 1px solid var(--lav); }
+  .myth p { margin: 0 0 12px; font-size: 15.5px; color: var(--read); }
+
+  .spot { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 28px; }
   .checklist { list-style: none; margin: 0; padding: 0; }
-  .checklist li { display: grid; grid-template-columns: 30px 1fr; gap: 8px; padding: 12px 0; border-top: 2px solid var(--violet-dim); font-size: 16px; color: var(--read); }
-  .checklist li::before { content: "✦"; color: var(--violet); font-size: 18px; line-height: 1.2; }
-  .checklist b { color: var(--violet); }
-  .rules { width: 100%; border-collapse: collapse; font-size: 14.5px; }
-  .rules td { border-top: 2px solid var(--violet-dim); padding: 9px 4px; color: var(--text); }
-  .rules tr:last-child td { border-bottom: 2px solid var(--violet-dim); }
-  .rules td:last-child { text-align: right; color: var(--dim); }
-  .rules a { color: var(--violet); text-decoration: none; font-weight: 700; }
+  .checklist li { display: grid; grid-template-columns: 24px minmax(0, 1fr); padding: 11px 0; border-bottom: 1px dashed var(--line); font-size: 15px; color: var(--read); }
+  .checklist li::before { content: "▸"; color: var(--gold); }
+  .checklist b { color: var(--text); font-weight: 600; }
+  .cross { align-self: start; padding: 16px 18px; background: var(--card); border: 1px solid var(--line); }
+  .cross .k { font-family: var(--mono); font-size: 11px; letter-spacing: 0.16em; color: var(--mute); margin-bottom: 6px; }
+  .cross table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  .cross td { padding: 8px 0; border-bottom: 1px solid rgba(161, 92, 240, 0.14); vertical-align: top; }
+  .cross td + td { color: var(--dim); text-align: right; padding-left: 12px; }
+  .cross p { margin: 12px 0 0; font-size: 13.5px; color: var(--mute); }
+  .method { margin: 0; font-size: 13.5px; line-height: 1.65; color: var(--mute); max-width: 860px; }
+  footer { margin-top: 28px; padding-top: 18px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px; font-family: var(--mono); font-size: 12px; color: var(--mute); }
 
-  /* ---------- sign-off ---------- */
-  .signoff { margin-top: 84px; padding: 0; overflow: hidden; background: var(--panel); }
-  footer .method { max-width: 52em; }
-
-  @media (max-width: 860px) {
-    .hero-grid, .two-col { grid-template-columns: 1fr; }
-    .page { padding: 16px 16px 60px; }
-    .slate { grid-template-columns: auto 1fr; }
-    .slate .num { grid-column: 1 / -1; text-align: left; }
+  @media (max-width: 1000px) {
+    .floor { grid-template-columns: minmax(0, 1fr); gap: 0; }
+    .rail { display: none; }
+    .plan { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .head { grid-template-columns: minmax(0, 1fr); gap: 20px; }
   }
-  @media (max-width: 600px) {
-    /* on a phone the year sits above its segment, on the same rail */
-    .rundown::before { left: 6px; }
-    .seg { grid-template-columns: minmax(0, 1fr); padding: 0 0 30px 30px; }
-    .seg::before { left: 1px; top: 4px; }
-    .seg-year, .seg-year.long { text-align: left; font-size: 28px; margin-bottom: 4px; overflow-wrap: normal; }
-    .top > span { display: none; }
-    .seg h3 { font-size: 19px; }
-    .wall { padding: 10px; }
+  @media (max-width: 760px) {
+    .page { padding: 16px 16px 70px; }
+    .nav a { font-size: 8px; padding: 6px 8px; }
+    .yard { box-shadow: 5px 5px 0 #2a1d42; }
+    .yard-cap { font-size: 10px; padding: 7px 10px; }
+    .head { margin: 30px 0 28px; }
+    .dek { font-size: 16.5px; }
+    .plan { grid-template-columns: minmax(0, 1fr); gap: 6px; }
+    .plan a { flex-direction: row; align-items: baseline; gap: 12px; padding: 10px 12px; }
+    .plan .nm { font-size: 15px; }
+    .plan .ct { margin: 0 0 0 auto; white-space: nowrap; }
+    .legend { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 14px; padding: 12px; margin-bottom: 44px; font-size: 12.5px; line-height: 1.4; }
+    .legend > span { flex-direction: column; align-items: flex-start; gap: 5px; }
+    .legend .badge { white-space: normal; }
+    .cards { grid-template-columns: minmax(0, 1fr); }
+    .myth .cols, .spot { grid-template-columns: minmax(0, 1fr); }
+    .myth .col + .col { border-left: 0; border-top: 1px dashed var(--line-hi); }
+    .lh { flex-wrap: wrap; gap: 10px 12px; }
+    .lh .ct { margin-left: 0; flex-basis: 100%; }
+    .line { margin-bottom: 64px; }
   }
 </style>
 </head>
 <body>
-<div class="page">
+<div class="page" id="top">
+  <nav class="nav" aria-label="The Gazette">
+    <a href="index.html">◂ GAZETTE</a>
+    <a href="deep-state.html">DEEP STATE</a>
+    <a href="demystification.html">DEMYSTIFICATION</a>
+    <a href="transhumanism.html">POST-HUMAN</a>
+    <a href="blind-pool.html">BLIND POOL</a>
+    <a href="crash-conduits.html">CRASH CONDUITS</a>
+    <a href="carbon-class.html">CARBON CLASS</a>
+    <a href="handoffs.html">HANDOFF LEDGER</a>
+    <a href="web.html">THE WEB</a>
+  </nav>
 
-  <div class="top">
-    <nav class="nav">
-      <a class="pill" href="index.html">← Gazette</a>
-      <a class="pill" href="carbon-class.html">Carbon Class</a>
-      <a class="pill" href="transhumanism.html">Post-Human Resources</a>
-      <a class="pill" href="crash-conduits.html">Crash Conduits</a>
-      <a class="pill" href="handoffs.html">Handoff Ledger</a>
-      <a class="pill" href="blind-pool.html">Blind Pool</a>
-    </nav>
-  </div>
+  <figure class="yard">
+    <canvas id="factory" role="img" aria-label="Pixel art: a factory at night called Consent Co. Raw events ride a conveyor in at the left; identical smiling screens come out at the right, each stamped by a press, while the stacks smoke and a billboard scrolls lines from the cases on this page."></canvas>
+    <figcaption class="yard-cap"><span>CONSENT CO. · NIGHT SHIFT</span><span class="on">● EIGHT LINES RUNNING</span></figcaption>
+  </figure>
 
-  <header>
-    <h1 class="sr-only">Manufacturing Consent</h1>
-    <div class="frame board" aria-hidden="true"><canvas id="ledsign"></canvas><div class="board-meta"><span class="air">● ON AIR</span><span>THE CORNFIELD GAZETTE · MEDIA DESK</span><span>SIX CHANNELS · ONE SCRIPT</span></div></div>
-    <div class="frame wall" aria-hidden="true"><canvas id="tvwall"></canvas></div>
-    <div class="hero-grid">
-      <p class="hero-text">The same few forces run through every story in this project. <b>Paid media</b> tells the public a crash can’t happen, the climate isn’t changing, or a war is necessary. <b>Money</b> builds “grassroots” movements from nothing. And again and again, people’s <b>faith</b> is enlisted to turn them against unions, wages and their own neighbors. These are the documented cases.</p>
-      <nav class="frame guide" aria-label="Sections"><div class="k">TONIGHT’S LISTINGS</div><div id="guide"></div></nav>
+  <header class="head">
+    <div>
+      <p class="kicker">THE CORNFIELD GAZETTE · MEDIA DESK</p>
+      <h1><span>MANUFACTURING</span><span>CONSENT</span></h1>
     </div>
+    <p class="dek">The same few forces run through every story in this project. <b>Paid media</b> tells the public a crash can’t happen, the climate isn’t changing, or a war is necessary. <b>Money</b> builds “grassroots” movements from nothing. <b>Studios and spy agencies</b> trade script notes for access, and <b>the feed</b> sells paid messages as a friend’s opinion. And again and again, people’s <b>faith</b> is enlisted to turn them against unions, wages and their own neighbors. These are the documented cases.</p>
   </header>
 
-  <section class="frame legend-box">
-    <div class="topic-tag" style="margin-bottom:10px;">How to read the tags</div>
-    <div class="legend" id="legend"></div>
-    <p class="method">Each case is a specific, sourced event. Together they show recurring incentives: profit, power and the cheapest way to win public opinion. They are not evidence of one hidden hand, and wars and movements have many causes. Interpretation is tagged <span class="badge st-argument">ARGUMENT</span>.</p>
-  </section>
+  <nav class="plan" id="plan" aria-label="The production lines"></nav>
+  <aside class="legend" id="legend" aria-label="How each case is sourced"></aside>
 
-  <section class="block" id="media">
-    <div class="slate"><span class="ch">CH 01</span><h2 class="display">The Media</h2><span class="num">across every topic</span></div>
-    <p class="sec-dek">How news coverage, advertising and platforms shaped what the public believed about the economy, the climate and technology, often while being paid by the industries involved.</p>
-    <div class="filters" id="media-filters"></div>
-    <div class="rundown" id="media-cases"></div>
-  </section>
+  <div class="floor">
+    <nav class="rail" id="rail" aria-label="Lines"></nav>
+    <main>
+      <section class="line" id="media">
+        <div class="lh"><span class="no">LINE 01</span><h2>The Media</h2><span class="ct" data-ct="media"></span></div>
+        <p class="ldek">How news coverage, advertising and platforms shaped what the public believed about the economy, the climate and technology, often while being paid by the industries involved.</p>
+        <div class="filters" id="media-filters"></div>
+        <div class="cards" id="media-cases"></div>
+      </section>
 
-  <section class="block" id="war">
-    <div class="slate"><span class="ch">CH 02</span><h2 class="display">War &amp; Money</h2><span class="num">profits and propaganda</span></div>
-    <p class="sec-dek">Cases where commercial interests, paid PR or false claims helped push countries into war, and who profited.</p>
-    <div class="frame quote-band">
-      <blockquote>“In the councils of government, we must guard against the acquisition of unwarranted influence, whether sought or unsought, by the military-industrial complex.”</blockquote>
-      <cite>— President Dwight D. Eisenhower, <a href="https://www.archives.gov/milestone-documents/president-dwight-d-eisenhowers-farewell-address" target="_blank" rel="noopener">farewell address, January 17, 1961 ↗</a></cite>
-    </div>
-    <div class="stats" id="war-stats"></div>
-    <div class="rundown" id="war-cases"></div>
-  </section>
+      <section class="line" id="war">
+        <div class="lh"><span class="no">LINE 02</span><h2>War &amp; Money</h2><span class="ct" data-ct="war"></span></div>
+        <p class="ldek">Cases where commercial interests, paid PR or false claims helped push countries into war, and who profited.</p>
+        <div class="quote">
+          <blockquote>“In the councils of government, we must guard against the acquisition of unwarranted influence, whether sought or unsought, by the military-industrial complex.”</blockquote>
+          <cite>President Dwight D. Eisenhower, <a href="https://www.archives.gov/milestone-documents/president-dwight-d-eisenhowers-farewell-address" target="_blank" rel="noopener">farewell address, January 17, 1961 ↗</a></cite>
+        </div>
+        <div class="stats" id="war-stats"></div>
+        <div class="cards" id="war-cases"></div>
+      </section>
 
-  <section class="block" id="movements">
-    <div class="slate"><span class="ch">CH 03</span><h2 class="display">Bought Movements</h2><span class="num">astroturf</span></div>
-    <p class="sec-dek">“Grassroots” campaigns, think tanks and outrage manufactured or bankrolled by the people who stood to gain, including a whole industry paid to keep workers from organizing.</p>
-    <div class="stats" id="move-stats"></div>
-    <div class="rundown" id="move-cases"></div>
-  </section>
+      <section class="line" id="movements">
+        <div class="lh"><span class="no">LINE 03</span><h2>Bought Movements</h2><span class="ct" data-ct="movements"></span></div>
+        <p class="ldek">“Grassroots” campaigns, think tanks and outrage manufactured or bankrolled by the people who stood to gain, including a whole industry paid to keep workers from organizing.</p>
+        <div class="stats" id="move-stats"></div>
+        <div class="cards" id="move-cases"></div>
+      </section>
 
-  <section class="block" id="faith">
-    <div class="slate"><span class="ch">CH 04</span><h2 class="display">Faith, Weaponized</h2><span class="num">god and the payroll</span></div>
-    <div class="grid-panel">
-      <div class="display">Faith · Work · Dignity</div>
-      <p>Religion has comforted and organized working people for centuries. These cases document employers, industrialists, political operatives and foreign trolls using faith to fight unions, block climate action, cut workers’ benefits, or simply get votes.</p>
-    </div>
-    <div class="rundown" id="faith-cases"></div>
-  </section>
+      <section class="line" id="faith">
+        <div class="lh"><span class="no">LINE 04</span><h2>Faith, Weaponized</h2><span class="ct" data-ct="faith"></span></div>
+        <p class="ldek">Religion has comforted and organized working people for centuries. These cases document employers, industrialists, political operatives and foreign trolls using faith to fight unions, block climate action, cut workers’ benefits, or simply get votes.</p>
+        <div class="cards" id="faith-cases"></div>
+      </section>
 
-  <section class="block" id="reclaim">
-    <div class="slate"><span class="ch">CH 05</span><h2 class="display">Faith With Workers</h2><span class="num">the other tradition</span></div>
-    <p class="sec-dek">The same traditions have long stood with labor.</p>
-    <div class="rundown" id="reclaim-cases"></div>
-  </section>
+      <section class="line" id="reclaim">
+        <div class="lh"><span class="no">LINE 05</span><h2>Faith With Workers</h2><span class="ct" data-ct="reclaim"></span></div>
+        <p class="ldek">The same traditions have long stood with labor.</p>
+        <div class="cards" id="reclaim-cases"></div>
+      </section>
 
-  <section class="block" id="spot">
-    <div class="slate"><span class="ch">CH 06</span><h2 class="display">How To Spot It</h2><span class="num">field guide</span></div>
-    <div class="two-col">
-      <ul class="checklist" id="spot-list"></ul>
-      <div class="frame">
-        <div class="topic-tag" style="margin-bottom:10px;">Across this project</div>
-        <table class="rules" id="crosslinks"></table>
-        <p class="method">Each page documents its own topic in depth. This page tracks how the public was persuaded about them.</p>
-      </div>
-    </div>
-  </section>
+      <section class="line" id="hollywood">
+        <div class="lh"><span class="no">LINE 06</span><h2>The Dream Factory</h2><span class="ct" data-ct="hollywood"></span></div>
+        <p class="ldek">Films carry a country’s idea of itself. These cases document the military, the CIA and a foreign government trading access and markets for changes to what audiences saw, and a mogul and a tabloid paying to keep stories from being told.</p>
+        <div class="cards" id="holly-cases"></div>
+      </section>
 
-  <footer>
-    <div class="frame signoff" aria-hidden="true"><canvas id="signoff"></canvas></div>
-    <p class="method">Compiled from court records, government documents, congressional reports, peer-reviewed research and investigative reporting. Quotes are reproduced exactly from their sources. Every case was re-checked against its sources in October 2026: each source page was fetched and the passage that states the case’s facts was found on it.</p>
-  </footer>
+      <section class="line" id="influencers">
+        <div class="lh"><span class="no">LINE 07</span><h2>Paid to Post</h2><span class="ct" data-ct="influencers"></span></div>
+        <p class="ldek">The feed looks like people talking. Behind some of it are governments, campaigns, industries and platforms paying for the message, often without saying so. And an old story can be rewritten for it in a weekend.</p>
+        <div class="myth" id="myth"></div>
+        <div class="cards" id="infl-cases"></div>
+      </section>
+
+      <section class="line" id="spot">
+        <div class="lh"><span class="no">LINE 08</span><h2>How To Spot It</h2><span class="ct">field guide</span></div>
+        <div class="spot">
+          <ul class="checklist" id="spot-list"></ul>
+          <div class="cross">
+            <div class="k">ACROSS THIS PROJECT</div>
+            <table id="crosslinks"></table>
+            <p>Each page documents its own topic in depth. This page tracks how the public was persuaded about them.</p>
+          </div>
+        </div>
+      </section>
+
+      <p class="method">Each case is a specific, sourced event. Together they show recurring incentives: profit, power and the cheapest way to win public opinion. They are not evidence of one hidden hand, and wars and movements have many causes. Interpretation is tagged <span class="badge st-argument">ARGUMENT</span>. Compiled from court records, government documents, congressional reports, peer-reviewed research and investigative reporting; quotes are reproduced exactly from their sources. Every case was re-checked against its sources in October 2026: each source page was fetched and the passage that states the case’s facts was found on it.</p>
+      <footer><span>THE CORNFIELD GAZETTE · MEDIA DESK</span><a href="#top">BACK TO THE GATE ▲</a></footer>
+    </main>
+  </div>
 </div>
 
 <script>
@@ -1215,6 +1250,373 @@ const RECLAIM = [
   ]
  }
 ];
+const HOLLY = [
+ {
+  "year": "1986",
+  "topic": "government",
+  "status": "reported",
+  "title": "Top Gun, courtesy of the Navy",
+  "body": "The producers paid the military $1.8 million for the use of four aircraft carriers and about two dozen F-14 Tomcats, F-5 Tigers and A-4 Skyhawks, some flown by real Navy pilots, and theaters in cities such as Los Angeles and Detroit set up Navy recruiting exhibits outside cinemas showing the film.",
+  "sources": [
+   {
+    "url": "https://content.time.com/time/subscriber/article/0,33009,962933-1,00.html",
+    "publisher": "Time",
+    "date": "1986-11"
+   }
+  ],
+  "tv": "TOP GUN, COURTESY OF THE NAVY"
+ },
+ {
+  "year": "2022",
+  "topic": "government",
+  "status": "documented",
+  "title": "Maverick’s talking points",
+  "body": "The Pentagon’s production agreement for Top Gun: Maverick let the Navy assign a senior officer to “review with public affairs the script’s thematics and weave in key talking points relevant to the aviation community.”",
+  "sources": [
+   {
+    "url": "https://www.spyculture.com/weave-in-key-talking-points-pentagon-contract-for-top-gun-maverick/",
+    "publisher": "Spy Culture",
+    "date": ""
+   },
+   {
+    "url": "https://shadowproof.com/2022/05/26/how-pentagon-turned-top-gun-maverick-recruitment-pr-vehicle/",
+    "publisher": "Shadowproof",
+    "date": "2022-05"
+   }
+  ],
+  "tv": "WEAVE IN KEY TALKING POINTS"
+ },
+ {
+  "year": "2015",
+  "topic": "government",
+  "status": "documented",
+  "title": "The price of a borrowed carrier",
+  "body": "Pentagon policy lends troops, bases and equipment to film and television productions only when they portray the military feasibly and help public understanding of it or its recruiting, and the department reviews the production in return.",
+  "sources": [
+   {
+    "url": "https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/541016p.pdf",
+    "publisher": "U.S. Department of Defense",
+    "date": "2015-07"
+   },
+   {
+    "url": "https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/541019_vol1.PDF?ver=Z1RFpk7KOWIH2XIzEz3T7g%3d%3d",
+    "publisher": "U.S. Department of Defense",
+    "date": "2021"
+   }
+  ]
+ },
+ {
+  "year": "2017",
+  "topic": "government",
+  "status": "reported",
+  "title": "Hundreds of films, one reviewer",
+  "body": "Researchers who obtained more than 60,000 internal Pentagon and CIA documents through Freedom of Information Act requests describe the military’s editorial control over thousands of Hollywood films and television programs.",
+  "sources": [
+   {
+    "url": "https://hass.uq.edu.au/article/2024/10/theaters-war-how-pentagon-and-cia-took-hollywood",
+    "publisher": "The University of Queensland, Faculty of…",
+    "date": "2024-10"
+   }
+  ]
+ },
+ {
+  "year": "2012",
+  "topic": "government",
+  "status": "documented",
+  "title": "Zero Dark Thirty",
+  "body": "The CIA gave the makers of Zero Dark Thirty access to its officials, and Senators Dianne Feinstein, Carl Levin and John McCain wrote to Sony that the film was \"grossly inaccurate and misleading\" in suggesting torture led to Osama bin Laden.",
+  "sources": [
+   {
+    "url": "https://deadline.com/2012/12/zero-dark-thirty-grossly-inaccurate-senators-tell-sony-392075/",
+    "publisher": "Deadline",
+    "date": "2012-12"
+   },
+   {
+    "url": "https://www.politico.com/blogs/on-congress/2012/12/3-senators-slam-zero-dark-thirty-152476",
+    "publisher": "Politico",
+    "date": "2012"
+   },
+   {
+    "url": "https://www.theguardian.com/world/2022/apr/21/zero-dark-thirty-ex-cia-agent-alfreda-scheuer",
+    "publisher": "The Guardian",
+    "date": "2022"
+   }
+  ]
+ },
+ {
+  "year": "2020",
+  "status": "reported",
+  "title": "Made for Beijing",
+  "body": "A 2020 PEN America report documented Hollywood studios changing films to keep access to China's market, such as recasting Doctor Strange's Tibetan mentor as a Celtic character.",
+  "sources": [
+   {
+    "url": "https://pen.org/report/made-in-hollywood-censored-by-beijing/",
+    "publisher": "PEN America",
+    "date": "2020-08"
+   },
+   {
+    "url": "https://pen.org/censorship-free-speech-issues-china/",
+    "publisher": "PEN America",
+    "date": "2021-07"
+   }
+  ]
+ },
+ {
+  "year": "2019",
+  "status": "reported",
+  "title": "Maverick’s jacket",
+  "body": "Top Gun: Maverick’s 2019 trailer replaced the Japan and Taiwan flags on Maverick’s jacket, a change widely seen as appeasing China’s censors; both flags appeared to be back in the cut of the film screened in Taiwan in 2022.",
+  "sources": [
+   {
+    "url": "https://www.businessinsider.com/top-gun-maverick-china-anger-taiwan-flag-jacket-cross-strait-2022-6?op=1",
+    "publisher": "Business Insider",
+    "date": "2022-06"
+   }
+  ]
+ },
+ {
+  "year": "2017",
+  "status": "reported",
+  "title": "Weinstein’s private spies",
+  "body": "Harvey Weinstein hired private investigators, including Black Cube, an agency run largely by former officers of Mossad and other Israeli intelligence agencies, to gather information on women and journalists trying to expose the allegations against him.",
+  "sources": [
+   {
+    "url": "https://www.newyorker.com/news/news-desk/harvey-weinsteins-army-of-spies",
+    "publisher": "The New Yorker",
+    "date": "2017-11"
+   },
+   {
+    "url": "https://www.newyorker.com/news/annals-of-espionage/the-black-cube-chronicles-the-double-agent",
+    "publisher": "The New Yorker",
+    "date": "2019-10"
+   }
+  ]
+ },
+ {
+  "year": "2016",
+  "status": "documented",
+  "title": "Catch and kill",
+  "body": "The National Enquirer’s publisher, American Media Inc., paid former Playboy model Karen McDougal $150,000 before the 2016 election for her story about an alleged affair with Donald Trump, so it would not be published, and admitted it in a 2018 non-prosecution agreement with federal prosecutors.",
+  "sources": [
+   {
+    "url": "https://www.cnbc.com/2018/12/12/federal-prosecutors-give-national-enquirer-publisher-immunity.html",
+    "publisher": "CNBC",
+    "date": "2018-12"
+   },
+   {
+    "url": "https://www.justice.gov/usao-sdny/pr/michael-cohen-sentenced-3-years-prison",
+    "publisher": "U.S. Attorney's Office, Southern District…",
+    "date": "2018-12"
+   }
+  ]
+ }
+];
+const INFL = [
+ {
+  "year": "2020",
+  "status": "reported",
+  "title": "Bloomberg’s memes",
+  "body": "Michael Bloomberg's 2020 presidential campaign paid popular Instagram meme accounts to post jokes promoting him.",
+  "sources": [
+   {
+    "url": "https://www.businessinsider.com/mike-bloomberg-2020-meme-accounts-parody-sponsored-memes-instagram-posts-2020-2?op=1",
+    "publisher": "Business Insider",
+    "date": "2020-02"
+   }
+  ]
+ },
+ {
+  "year": "2022",
+  "topic": "government",
+  "status": "reported",
+  "title": "The TikTok briefing",
+  "body": "On March 10, 2022, White House and National Security Council staffers briefed about 30 social media creators, including TikTok stars, on the war in Ukraine.",
+  "sources": [
+   {
+    "url": "https://www.washingtonpost.com/technology/2022/03/11/tik-tok-ukraine-white-house/",
+    "publisher": "The Washington Post",
+    "date": "2022-03"
+   },
+   {
+    "url": "https://www.cbsnews.com/news/ukraine-russia-tiktok-white-house/",
+    "publisher": "CBS News",
+    "date": "2022-03"
+   }
+  ]
+ },
+ {
+  "year": "2022",
+  "topic": "finance",
+  "status": "court",
+  "title": "A $250,000 post, undisclosed",
+  "body": "In 2022 Kim Kardashian paid $1.26 million to settle SEC charges that she promoted the crypto token EthereumMax on Instagram without disclosing that she was paid $250,000 to do it.",
+  "sources": [
+   {
+    "url": "https://www.sec.gov/newsroom/press-releases/2022-183",
+    "publisher": "U.S. Securities and Exchange Commission",
+    "date": "2022-10"
+   },
+   {
+    "url": "https://www.sec.gov/news/press-release/2022-183",
+    "publisher": "U.S. Securities and Exchange Commission",
+    "date": "2022-10"
+   }
+  ]
+ },
+ {
+  "year": "2022",
+  "topic": "finance",
+  "status": "documented",
+  "title": "Eight influencers, $100 million",
+  "body": "In December 2022 the SEC charged eight social media influencers in a $100 million stock manipulation scheme promoted on Twitter and Discord.",
+  "sources": [
+   {
+    "url": "https://www.sec.gov/newsroom/press-releases/2022-221",
+    "publisher": "U.S. Securities and Exchange Commission",
+    "date": "2022-12"
+   },
+   {
+    "url": "https://www.cnbc.com/2022/12/14/sec-charges-social-media-influencers-in-alleged-100-million-fraud-scheme.html",
+    "publisher": "CNBC",
+    "date": "2022-12"
+   }
+  ]
+ },
+ {
+  "year": "2023",
+  "status": "documented",
+  "title": "Paid posts for sugar and sweeteners",
+  "body": "In November 2023 the FTC warned a dozen health influencers and two trade groups, the American Beverage Association and the Canadian Sugar Institute, over Instagram and TikTok posts that did not disclose the groups had paid for them.",
+  "sources": [
+   {
+    "url": "https://www.ftc.gov/news-events/news/press-releases/2023/11/ftc-warns-two-trade-associations-dozen-influencers-about-social-media-posts-promoting-consumption",
+    "publisher": "Federal Trade Commission",
+    "date": "2023-11"
+   },
+   {
+    "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/warning-letter-american-bev.pdf",
+    "publisher": "Federal Trade Commission",
+    "date": "2023-11"
+   }
+  ]
+ },
+ {
+  "year": "2024",
+  "topic": "government",
+  "status": "documented",
+  "title": "Moscow’s money, American voices",
+  "body": "In September 2024 the Justice Department charged two RT employees with funneling nearly $10 million to a Tennessee company that paid American online commentators; the company never disclosed to its viewers that the funding came from RT.",
+  "sources": [
+   {
+    "url": "https://www.justice.gov/usao-sdny/pr/two-rt-employees-indicted-covertly-funding-and-directing-us-company-published",
+    "publisher": "U.S. Department of Justice, U.S. Attorney's…",
+    "date": "2024-09"
+   },
+   {
+    "url": "https://www.justice.gov/archives/opa/pr/two-rt-employees-indicted-covertly-funding-and-directing-us-company-published-thousands",
+    "publisher": "U.S. Department of Justice",
+    "date": "2024-09"
+   }
+  ]
+ },
+ {
+  "year": "2020",
+  "topic": "government",
+  "status": "reported",
+  "title": "The Pentagon’s fake accounts",
+  "body": "During the pandemic the U.S. military ran a secret campaign, using phony internet accounts meant to impersonate Filipinos, to sow doubt about China's Sinovac vaccine and other aid in the Philippines, a Reuters investigation found.",
+  "sources": [
+   {
+    "url": "https://www.usatoday.com/story/news/world/2024/06/14/pentagon-vaccine-china-covid/74096177007/",
+    "publisher": "USA TODAY",
+    "date": "2024"
+   }
+  ]
+ },
+ {
+  "year": "2025",
+  "status": "reported",
+  "title": "Paid to stay on message",
+  "body": "In 2025 Chorus, the nonprofit arm of a liberal influencer marketing agency, offered left-leaning influencers up to $8,000 a month under contracts that barred them from disclosing the arrangement or their payments.",
+  "sources": [
+   {
+    "url": "https://www.wired.com/story/dark-money-group-secret-funding-democrat-influencers/",
+    "publisher": "WIRED",
+    "date": "2025-08"
+   }
+  ]
+ },
+ {
+  "year": "2021",
+  "topic": "tech",
+  "status": "documented",
+  "title": "Instagram’s own research",
+  "body": "An internal Facebook presentation, reported in 2021, said: “We make body image issues worse for one in three teen girls.”",
+  "sources": [
+   {
+    "url": "https://www.theverge.com/2021/9/15/22675130/facebook-instagram-teens-mental-health-damage-internal-research",
+    "publisher": "The Verge",
+    "date": "2021-09"
+   }
+  ],
+  "tv": "WE MAKE BODY IMAGE ISSUES WORSE"
+ },
+ {
+  "year": "2025",
+  "topic": "tech",
+  "status": "reported",
+  "title": "Clavicular: looks for sale",
+  "body": "Clavicular (Braden Peters), the streamer who took “looksmaxxing” mainstream, earned more than $100,000 from the platform Kick in one month and sells coaching to followers. He has described years of steroid abuse and using methamphetamine to suppress his appetite, has endorsed “bone smashing” the jaw with a hammer, and says he will endorse whichever party gives him “the fattest bag.” In September 2026 Peters was charged in Massachusetts with rape, drugging a person for sex and providing alcohol to someone under the drinking age; a spokesperson called the charges “bogus.”",
+  "sources": [
+   {
+    "url": "https://www.theguardian.com/society/2026/feb/18/foid-looksmaxxer-manosphere-influencer-braden-peters-aka-clavicular",
+    "publisher": "The Guardian",
+    "date": "2026"
+   },
+   {
+    "url": "https://www.usatoday.com/story/life/health-wellness/2026/09/23/clavicular-rape-drugging-charges-looksmaxxing-manosphere/91903499007/",
+    "publisher": "USA TODAY",
+    "date": "2026-09"
+   },
+   {
+    "url": "https://www.bbc.com/news/articles/c914dyx88233o",
+    "publisher": "BBC",
+    "date": "2026-09"
+   }
+  ],
+  "tv": "THE FATTEST BAG"
+ }
+];
+const MYTH = {
+ "year": "1912 · 2018 · 2023",
+ "title": "J.P. Morgan and the Titanic: a 1912 disaster, rewritten for the feed",
+ "tv": "J.P. MORGAN SANK THE TITANIC",
+ "story": {
+  "text": "A theory that J.P. Morgan sank the Titanic to kill wealthy opponents of the Federal Reserve spread through QAnon posts in 2018 and through Instagram posts in 2023; fact-checkers found no evidence for it.",
+  "sources": [
+   {
+    "url": "https://www.washingtonpost.com/news/retropolis/wp/2018/08/04/how-j-p-morgan-didnt-sink-the-titanic-and-other-qanon-conspiracy-theories-debunked/",
+    "publisher": "The Washington Post",
+    "date": "2018-08"
+   },
+   {
+    "url": "https://www.politifact.com/factchecks/2023/jan/26/instagram-posts/titanic-sinking-was-accident-caused-over-1500-deat/",
+    "publisher": "PolitiFact",
+    "date": "2023-01"
+   }
+  ]
+ },
+ "record": {
+  "text": "J.P. Morgan owned the companies that managed the Titanic and cancelled his passage, and John Jacob Astor, Benjamin Guggenheim and Isidor Straus died in the sinking, but there is no record that they opposed creating the Federal Reserve, and the ship sank after striking an iceberg.",
+  "sources": [
+   {
+    "url": "https://www.snopes.com/fact-check/titanic-inside-job/",
+    "publisher": "Snopes",
+    "date": "2022-09"
+   }
+  ]
+ }
+};
 
 const SPOT = [
   "<b>Who paid?</b> Look for the funder behind a study, ad, “citizens’ group” or expert. Undisclosed money is the most common red flag.",
@@ -1222,6 +1624,9 @@ const SPOT = [
   "<b>Is “both sides” really balanced?</b> Giving equal time to a fringe view can mislead as much as a lie.",
   "<b>Who benefits from the outrage?</b> Ask whether a fight pits workers against each other instead of against the people setting their wages.",
   "<b>Is faith being invoked to sell a policy?</b> Check what the tradition itself teaches about workers and the poor.",
+  "<b>Is it an ad?</b> Look for #ad, “paid partnership” or a sponsor tag. Their absence proves little: regulators fine people for leaving them off.",
+  "<b>Who pays the creator?</b> A platform payout, a sponsor, a campaign or a foreign government can all sit behind a voice that sounds independent.",
+  "<b>Was the film made with help?</b> Check the end credits: productions that borrowed equipment or advice from the Defense Department, the CIA or a branch of the military often thank them there.",
   "<b>Go to the source.</b> Court rulings, filings and original documents beat summaries of them."
 ];
 const CROSS = [
@@ -1230,48 +1635,54 @@ const CROSS = [
   ["Post-Human Resources", "transhumanism.html", "tech & labor"],
   ["The Handoff Ledger", "handoffs.html", "public money, private hands"],
   ["Deep State Dossiers", "deep-state.html", "government capture"],
+  ["Demystification Desk", "demystification.html", "UFO legends and their paperwork"],
   ["Blind Pool", "blind-pool.html", "venture capital & infrastructure"],
   ["The Web", "web.html", "every name, connected"]
 ];
 
 // ---------- helpers ----------
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-function badge(s) { const st = STATUS[s]; return `<span class="badge st-${s}" title="${st.desc}">${st.label}</span>`; }
+const badge = (s) => `<span class="badge st-${s}" title="${STATUS[s].desc}">${STATUS[s].label}</span>`;
 function srcHtml(i) {
-  const list = (i.sources || []).map((x) => x.url ? `<span><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.publisher)}${x.date ? ", " + esc(String(x.date).slice(0, 7)) : ""} ↗</a></span>` : `<span>${esc(x.publisher)}</span>`);
+  const list = (i.sources || []).map((x) => x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.publisher)}${x.date ? ", " + esc(String(x.date).slice(0, 7)) : ""} ↗</a>` : `<span>${esc(x.publisher)}</span>`);
   return list.length ? list.join("") : `<span>${esc(i.src || "")}</span>`;
 }
 function topicTag(t) {
   const tp = TOPIC_LINKS[t];
-  if (!tp) return "";
-  return `<span class="topic-tag">${tp.href ? `<a href="${tp.href}">${tp.label}</a>` : tp.label}</span>`;
+  return tp ? `<span class="topic">${tp.href ? `<a href="${tp.href}">${tp.label}</a>` : tp.label}</span>` : "";
 }
 const startYear = (y) => parseInt(String(y), 10) || 0;
-function segHtml(c) {
-  return `<article class="seg ${c.status}" data-topic="${c.topic || ""}">
-    <div class="seg-year${String(c.year).length > 5 ? " long" : ""}">${esc(c.year)}</div>
-    <div>
-      <div class="seg-tags">${c.topic ? topicTag(c.topic) : ""}${badge(c.status)}</div>
-      <h3>${c.title}</h3>
-      <p>${c.body}</p>
-      <div class="src">↳ ${srcHtml(c)}</div>
-    </div>
-  </article>`;
-}
-function statHtml(s) {
-  return `<div class="frame stat"><div class="display n">${s.n}</div><div class="t">${s.t}</div><div class="src">${badge(s.status)} ↳ ${srcHtml(s)}</div></div>`;
-}
 const byYear = (list) => list.slice().sort((a, b) => startYear(a.year) - startYear(b.year));
+const card = (c) => `<article class="case ${c.status}">
+  <div class="top"><span class="yr">${esc(c.year)}</span>${badge(c.status)}${c.topic ? topicTag(c.topic) : ""}</div>
+  <h3>${c.title}</h3>
+  <p>${c.body}</p>
+  <div class="src">↳ ${srcHtml(c)}</div>
+</article>`;
+const stat = (s) => `<div class="stat"><div class="n">${s.n}</div><div class="t">${s.t}</div><div class="src">${badge(s.status)} ↳ ${srcHtml(s)}</div></div>`;
 
+// ---------- the floor plan, the rail and the counts all read one list ----------
+const LINES = [
+  ["01", "The Media", "media", MEDIA.length],
+  ["02", "War & Money", "war", WAR.length + WAR_STATS.length],
+  ["03", "Bought Movements", "movements", MOVEMENTS.length + MOVE_STATS.length],
+  ["04", "Faith, Weaponized", "faith", FAITH.length],
+  ["05", "Faith With Workers", "reclaim", RECLAIM.length],
+  ["06", "The Dream Factory", "hollywood", HOLLY.length],
+  ["07", "Paid to Post", "influencers", INFL.length + (MYTH ? 1 : 0)],
+  ["08", "How To Spot It", "spot", 0]
+];
+const ct = (n) => (n ? `${n} case${n === 1 ? "" : "s"}` : "field guide");
+document.getElementById("plan").innerHTML = LINES.map(([n, name, id, k]) => `<a href="#${id}"><span class="no">LINE ${n}</span><span class="nm">${esc(name)}</span><span class="ct">${ct(k)}</span></a>`).join("");
+document.getElementById("rail").innerHTML = `<div class="k">THE FLOOR</div>` + LINES.map(([n, name, id]) => `<a href="#${id}" data-line="${id}"><span class="n">${n}</span><span>${esc(name)}</span></a>`).join("");
+for (const [, , id, k] of LINES) { const el = document.querySelector(`[data-ct="${id}"]`); if (el) el.textContent = ct(k); }
 document.getElementById("legend").innerHTML = Object.entries(STATUS).map(([k, s]) => `<span>${badge(k)} ${s.desc}</span>`).join("");
-const GUIDE = [["01", "The Media", "media", MEDIA.length], ["02", "War & Money", "war", WAR.length + WAR_STATS.length], ["03", "Bought Movements", "movements", MOVEMENTS.length + MOVE_STATS.length], ["04", "Faith, Weaponized", "faith", FAITH.length], ["05", "Faith With Workers", "reclaim", RECLAIM.length], ["06", "How To Spot It", "spot", 0]];
-document.getElementById("guide").innerHTML = GUIDE.map(([n, name, id, count]) => `<a href="#${id}"><span class="ch">CH ${n}</span><span class="nm">${esc(name)}</span><span class="ct">${count ? count + " segments" : "field guide"}</span></a>`).join("");
 
 let mediaTopic = "all";
 function renderMedia() {
-  const topics = ["all", ...new Set(MEDIA.map((m) => m.topic))];
+  const topics = ["all", ...new Set(MEDIA.map((m) => m.topic).filter(Boolean))];
   document.getElementById("media-filters").innerHTML = topics.map((t) => `<button class="pill${t === mediaTopic ? " active" : ""}" data-t="${t}">${t === "all" ? "All" : TOPIC_LINKS[t].label}</button>`).join("");
-  document.getElementById("media-cases").innerHTML = byYear(MEDIA.filter((m) => mediaTopic === "all" || m.topic === mediaTopic)).map(segHtml).join("");
+  document.getElementById("media-cases").innerHTML = byYear(MEDIA.filter((m) => mediaTopic === "all" || m.topic === mediaTopic)).map(card).join("");
 }
 document.getElementById("media-filters").addEventListener("click", (e) => {
   const b = e.target.closest("button[data-t]");
@@ -1280,17 +1691,33 @@ document.getElementById("media-filters").addEventListener("click", (e) => {
   renderMedia();
 });
 renderMedia();
-document.getElementById("war-stats").innerHTML = WAR_STATS.map(statHtml).join("");
-document.getElementById("war-cases").innerHTML = byYear(WAR).map(segHtml).join("");
-document.getElementById("move-stats").innerHTML = MOVE_STATS.map(statHtml).join("");
-document.getElementById("move-cases").innerHTML = byYear(MOVEMENTS).map(segHtml).join("");
-document.getElementById("faith-cases").innerHTML = byYear(FAITH).map(segHtml).join("");
-document.getElementById("reclaim-cases").innerHTML = byYear(RECLAIM).map(segHtml).join("");
+document.getElementById("war-stats").innerHTML = WAR_STATS.map(stat).join("");
+document.getElementById("war-cases").innerHTML = byYear(WAR).map(card).join("");
+document.getElementById("move-stats").innerHTML = MOVE_STATS.map(stat).join("");
+document.getElementById("move-cases").innerHTML = byYear(MOVEMENTS).map(card).join("");
+document.getElementById("faith-cases").innerHTML = byYear(FAITH).map(card).join("");
+document.getElementById("reclaim-cases").innerHTML = byYear(RECLAIM).map(card).join("");
+document.getElementById("holly-cases").innerHTML = byYear(HOLLY).map(card).join("");
+document.getElementById("infl-cases").innerHTML = byYear(INFL).map(card).join("");
+// the Titanic: what the feed says, beside what the record shows
+if (MYTH) document.getElementById("myth").innerHTML = `<div class="mh"><b>MYTH ANATOMY · ${esc(MYTH.year)}</b><h3>${MYTH.title}</h3></div>
+  <div class="cols"><div class="col story"><span class="k">THE STORY</span><p>${MYTH.story.text}</p><div class="src">↳ ${srcHtml(MYTH.story)}</div></div>
+  <div class="col record"><span class="k">THE RECORD</span><p>${MYTH.record.text}</p><div class="src">↳ ${srcHtml(MYTH.record)}</div></div></div>`;
+else document.getElementById("myth").remove();
 document.getElementById("spot-list").innerHTML = SPOT.map((s) => `<li><span>${s}</span></li>`).join("");
 document.getElementById("crosslinks").innerHTML = CROSS.map(([n, h, d]) => `<tr><td><a href="${h}">${n}</a></td><td>${d}</td></tr>`).join("");
-// the prompter reads the page's own headlines
-window.TV_LINES = [...MEDIA, ...WAR, ...MOVEMENTS, ...FAITH].filter((c) => c.tv).map((c) => c.tv);
+
+// the rail lights the line you are reading
+if ("IntersectionObserver" in window) {
+  const links = new Map([...document.querySelectorAll("#rail a[data-line]")].map((a) => [a.dataset.line, a]));
+  const io = new IntersectionObserver((entries) => {
+    for (const e of entries) if (e.isIntersecting) { links.forEach((a) => a.classList.remove("here")); links.get(e.target.id)?.classList.add("here"); }
+  }, { rootMargin: "-35% 0px -60% 0px" });
+  document.querySelectorAll("main .line").forEach((s) => io.observe(s));
+}
+// the billboard runs the cases' own lines
+window.FACTORY_LINES = [...MEDIA, ...WAR, ...MOVEMENTS, ...FAITH, ...HOLLY, ...INFL, ...(MYTH && MYTH.tv ? [MYTH] : [])].filter((c) => c.tv).map((c) => c.tv);
 </script>
-<script src="js/consent-tv.js" defer></script>
+<script src="js/consent-factory.js" defer></script>
 </body>
 </html>

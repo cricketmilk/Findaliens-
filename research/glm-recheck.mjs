@@ -18,6 +18,7 @@
 // $4.3 billion did), and so does a stale figure.
 import fs from "node:fs";
 import { createRequire } from "node:module";
+import { cleanDate, cleanPub } from "./source-labels.mjs";
 const require = createRequire(import.meta.url);
 // The Forge's fetcher reads PDFs and asks the phone when this address is
 // refused; its audit owns the quote and claim matching; its config holds the
@@ -36,7 +37,8 @@ fs.mkdirSync(OUT, { recursive: true });
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const fold = (x) => String(x || "").normalize("NFKC").replace(/--/g, "—").replace(/\u00a0/g, " ");
 const BAD = /(^|\.)(wikipedia\.org|wikiwand\.com|wikimili\.com|dbpedia\.org|everybodywiki\.com|alchetron\.com|grokipedia\.com|handwiki\.org|explained\.today|reddit\.com|quora\.com|x\.com|twitter\.com|facebook\.com|instagram\.com|tiktok\.com|youtube\.com|linkedin\.com|pinterest\.com|scribd\.com|coursehero\.com|studocu\.com|answers\.com|merriam-webster\.com|cambridge\.org|dictionary\.com|calculator\.net|gitlab\.com|secsports\.com|nerdwallet\.com|investopedia\.com|ground\.news|comicskingdom\.com|seattletimes\.com|rescue\.org|w3\.org|ontheworldmap\.com|britannica\.com|msn\.com|yahoo\.com)$/i;
-const refused = (u) => { try { const h = new URL(u).hostname; return BAD.test(h) || isWiki(u) || isFrontPage(u); } catch { return true; } };
+// any wiki is out, not only Wikipedia and its copies: WikiDisc turned up for the UFO pages
+const refused = (u) => { try { const h = new URL(u).hostname; return BAD.test(h) || /wiki/i.test(h) || isWiki(u) || isFrontPage(u); } catch { return true; } };
 
 // ---- the model -------------------------------------------------------------
 let spent = 0, calls = 0;
@@ -87,7 +89,7 @@ function page(url) {
     const local = localOf.get(url);
     if (local) { const t = fold(fs.readFileSync(local, "utf8")); if (t.length > text.length * 1.5 || text.length < 1500) { text = t; via = "saved copy"; } }
     if (text.length < 1500) {
-      for (const ts of ["2026", "2024", "2020"]) {
+      for (const ts of ["2026", "2024", "2020", "2015", "2010"]) {
         try { const r = await fetchText(`https://web.archive.org/web/${ts}id_/${url}`, { max: 8_000_000 }); const t = fold(r.text); if (t.length > text.length) { text = t; via = `archive ${ts}`; } } catch {}
         if (text.length >= 1500) break;
       }
@@ -117,7 +119,7 @@ function windows(text, claim, budget = 60000) {
 }
 
 // ---- prompts ---------------------------------------------------------------
-const PLAN = `You plan web research for a fact-checker. Given a claim, return JSON {"urls": [up to six full URLs of specific pages you are confident exist and state the claim's facts: the law's text (uscode.house.gov, law.cornell.edu, govinfo.gov), the agency's own page (irs.gov, sec.gov, fincen.gov, federalregister.gov...), a court opinion, the company's own press release, or a reputable news article], "queries": [two or three search-engine queries that would find such pages]}. Use the claim's distinctive names and numbers. Never Wikipedia, never a site's front page.`;
+const PLAN = `You plan web research for a fact-checker. Given a claim, return JSON {"urls": [up to six full URLs of specific pages you are confident exist and state the claim's facts: the law's text (uscode.house.gov, law.cornell.edu, govinfo.gov), the agency's own page (irs.gov, sec.gov, fincen.gov, federalregister.gov...), a court opinion, the company's own press release, or a reputable news article], "queries": [two or three search-engine queries that would find such pages]}. Use the claim's distinctive names and numbers. Never Wikipedia, never a site's front page, never crypto or SEO content sites; prefer the primary record, then major newsrooms (Reuters, AP, the New York Times, Bloomberg, NPR...) and recognised watchdogs.`;
 const READ = `You are a meticulous fact-checker. You are given a CLAIM and the TEXT of one web page. Decide whether the page states the claim's facts, and copy the exact sentences that show it.
 Return JSON:
 {"supports": "yes" | "partly" | "no",
@@ -140,8 +142,66 @@ const FORMAT = {
   stat: `This line is a statistic: "n" is the headline figure shown big (like "$100B" or "23.8%") and "text" is the sentence fragment that follows it, starting lower-case. "n" must appear in the quotes.`,
   ven: `This line must keep the exact shape "Funders: A, B, C. <one or two sentences of example> Hidden: <what is not disclosed>." Funders must be named as investors in the quotes. The Hidden clause may restate, in general terms, what such companies are not required to disclose; keep it short.`,
   plain: `Return "n" as an empty string.`,
+  argument: `This line is an argument, an interpretation, not a fact. Keep it as an argument and say whose it is ("Critics argue...", "Watchdogs warn..."): the quotes must show someone making it. Return "n" as an empty string.`,
 };
-const formatFor = (f) => (f.kind === "stat" ? FORMAT.stat : /^VEN-/.test(f.id) ? FORMAT.ven : FORMAT.plain);
+const formatFor = (f) => (f.kind === "stat" ? FORMAT.stat : f.status === "argument" ? FORMAT.argument : /^VEN-/.test(f.id) ? FORMAT.ven : FORMAT.plain);
+// A cheap rewrite drops the point as readily as it drops a wrong figure: the
+// SEC item kept the rule's adoption and lost the court that struck it down.
+// A second look flags that for the person reading the rewrites; it never
+// passes or fails a fact on its own.
+const KEEP = `You compare an ORIGINAL line from an explainer page with its fact-checked REWRITE. Return JSON {"kept": true or false, "lost": "the main point of the original that the rewrite no longer makes, or empty", "corrected": "any fact the rewrite corrected, or empty"}. "kept" is false only when the rewrite drops what the original was mainly saying, not when it trims detail or fixes a figure.`;
+
+// ---- whose word it is ---------------------------------------------------------
+// A quote can be found on a content farm as easily as in the Federal Register.
+// With --strict-sources a source counts only if it is rated: a government,
+// court, international or university site, a recognised newsroom, watchdog or
+// law firm, or the subject's own site (a fact about Anduril on anduril.com).
+// Unrated pages are hidden when a rated one says the same thing; a fact that
+// only unrated pages state fails, and --retry goes looking for better.
+const STRICT = ARGV.includes("--strict-sources");
+const RATED_TLD = /\.(gov|mil|edu|int)(\.[a-z]{2})?$|\.gov\.[a-z]{2}$|\.gc\.ca$|\.europa\.eu$/;
+const RATED_HOSTS = new Set(("nytimes.com washingtonpost.com wsj.com reuters.com apnews.com bloomberg.com news.bloomberglaw.com news.bloombergtax.com ft.com economist.com " +
+  "cnbc.com cbsnews.com nbcnews.com abcnews.go.com cnn.com npr.org wbur.org pbs.org bbc.com bbc.co.uk theguardian.com latimes.com usatoday.com time.com " +
+  "politico.com axios.com propublica.org theatlantic.com newyorker.com vox.com wired.com techcrunch.com theverge.com arstechnica.com 404media.co " +
+  "businessinsider.com forbes.com fortune.com marketwatch.com barrons.com nature.com science.org scientificamerican.com statnews.com " +
+  "federalnewsnetwork.com govexec.com defensescoop.com defenseone.com breakingdefense.com fedscoop.com lawfaremedia.org justsecurity.org " +
+  "coindesk.com theblock.co pogo.org aclu.org eff.org brennancenter.org epic.org consumerreports.org ourfinancialsecurity.org brookings.edu cfr.org rand.org urban.org " +
+  "law.cornell.edu courtlistener.com oyez.org supremecourt.gov congress.gov archives.gov loc.gov ballotpedia.org opensecrets.org " +
+  "mintz.com foley.com debevoise.com gibsondunn.com ballardspahr.com hunton.com sullcrom.com skadden.com wilmerhale.com lw.com davispolk.com " +
+  "telegeography.com nber.org imf.org worldbank.org bis.org oecd.org un.org " +
+  // libraries that hold the primary documents themselves
+  "archive.org gutenberg.org").split(" "));
+function rated(url, claim) {
+  let h = "";
+  try { h = new URL(url).hostname.toLowerCase().replace(/^www\./, ""); } catch { return false; }
+  if (RATED_TLD.test(h) || RATED_HOSTS.has(h) || [...RATED_HOSTS].some((r) => h.endsWith("." + r))) return true;
+  // the subject's own site: a name in the claim that the host is built from
+  const names = (claimTokens(claim).names || []).map((n) => n.toLowerCase().replace(/[^a-z0-9]/g, "")).filter((n) => n.length >= 4);
+  const bare = h.split(".").slice(0, -1).join("").replace(/[^a-z0-9]/g, "");
+  return names.some((n) => bare.includes(n) || (bare.length >= 5 && n.includes(bare)));
+}
+
+// ---- the Brain, asked before the web ------------------------------------------
+// Goblin Brain already holds what the roost has verified (its `evidence`
+// index, which reads every page's research/*-sources.json) and searches the
+// records' own APIs (`sources`: Federal Register, GovInfo, CourtListener,
+// EDGAR) with no search engine between. Both are asked first; a Bing query
+// from this address mostly returned dictionaries. The Brain being down costs
+// nothing but this head start; --no-brain skips it.
+const BRAIN = process.env.GOBLIN_BRAIN_URL || "http://127.0.0.1:3001";
+const BRAIN_DIR = process.env.GOBLIN_BRAIN_DIR || "C:/Goblin Brain";
+let brainToken = process.env.GOBLIN_BRAIN_TOKEN || "";
+try { if (!brainToken) brainToken = fs.readFileSync(BRAIN_DIR + "/.brain-dev-token", "utf8").trim(); } catch {}
+let brainUp = !ARGV.includes("--no-brain");
+async function brain(id, verb, body) {
+  if (!brainUp) return null;
+  try {
+    const r = await fetch(`${BRAIN}/api/powers/${id}/${verb}`, { method: "POST", headers: { authorization: `Bearer ${brainToken}`, "content-type": "application/json" }, body: JSON.stringify(body), signal: AbortSignal.timeout(30000) });
+    if (!r.ok) return null;
+    return await r.json();
+  } catch (e) { if (/ECONNREFUSED|fetch failed/i.test(String(e && (e.cause?.code || e.message)))) brainUp = false; return null; }
+}
+const RECORD_KINDS = ["federalRegister", "govinfo", "courtlistener", "edgar"];
 
 // ---- one fact --------------------------------------------------------------
 const HINTS = opt("hints") ? JSON.parse(fs.readFileSync(opt("hints"), "utf8")) : {};
@@ -160,7 +220,17 @@ async function research(f) {
   const add = (u, why) => { if (u && !refused(u) && !cands.some((c) => c.url === u)) cands.push({ url: u, why }); };
   if (f.url) add(f.url, "cited");
   for (const u of HINTS[f.id] || []) add(u, "hint");
+  // what the roost already verified, then the records themselves
+  const held = await brain("evidence", "search", { q: claim, limit: 6 });
+  // the index matches any shared word; a row counts only if it carries the
+  // claim's own names and figures
+  for (const row of (held?.rows || []).filter((x) => x.url && /verified|fact|connection|clip/.test(x.kind) && claimCheck(claim, x.text || "").score >= 0.45).sort((a, b) => (b.kind === "verified") - (a.kind === "verified")).slice(0, 3)) add(row.url, "roost");
+  if (held) log.tried.push({ brain: "evidence", hits: (held.rows || []).length });
   const plan = await glm(PLAN, `CLAIM: ${claim}\nCurrently cited: ${f.src || "nothing"}`, 900);
+  for (const q of (plan?.queries || []).slice(0, 2)) {
+    const rec = await brain("sources", "search", { q, kinds: RECORD_KINDS, limit: 3 });
+    if (rec) { log.tried.push({ brain: "sources", q, hits: (rec.results || []).length }); for (const x of (rec.results || []).slice(0, 4)) add(x.url, "records"); }
+  }
   for (const u of (plan?.urls || []).slice(0, 6)) add(u, "suggested");
   for (const u of corpusFor(claim)) add(u, "saved");
   for (const q of (plan?.queries || []).slice(0, 3)) {
@@ -195,24 +265,58 @@ async function research(f) {
   }
   if (!w?.text) { log.pass = false; log.why = "no rewrite"; return log; }
   log.text = w.text; log.n = f.kind === "stat" ? w.n || "" : ""; log.dropped = w.dropped || "";
+  const k = await glm(KEEP, `ORIGINAL: ${claim}\n\nREWRITE: ${(log.n ? log.n + " " : "") + log.text}`, 500);
+  if (k && k.kept === false) log.lost = k.lost || "the original's point";
+  if (k?.corrected) log.corrected = k.corrected;
   return judge(log, f);
 }
+
+// "not more than one hundred persons" is the claim's "100": spelled-out numbers
+// become digits on both sides before figures are compared.
+const SMALL = { zero: 0, one: 1, two: 2, three: 3, four: 4, five: 5, six: 6, seven: 7, eight: 8, nine: 9, ten: 10, eleven: 11, twelve: 12, thirteen: 13, fourteen: 14, fifteen: 15, sixteen: 16, seventeen: 17, eighteen: 18, nineteen: 19, twenty: 20, thirty: 30, forty: 40, fifty: 50, sixty: 60, seventy: 70, eighty: 80, ninety: 90 };
+const WORD = "(?:" + Object.keys(SMALL).join("|") + "|hundred|thousand)";
+const NUMRUN = new RegExp(`\\b${WORD}(?:[\\s-]+(?:and[\\s-]+)?${WORD})*\\b`, "gi");
+function numberWords(text) {
+  return String(text).replace(NUMRUN, (m) => {
+    let total = 0, cur = 0;
+    for (const t of m.toLowerCase().split(/[\s-]+/)) {
+      if (t === "and") continue;
+      if (t === "hundred") cur = (cur || 1) * 100;
+      else if (t === "thousand") { total += (cur || 1) * 1000; cur = 0; }
+      else cur += SMALL[t];
+    }
+    return String(total + cur);
+  });
+}
+// The model describing its evidence instead of the world ("Funders: not named
+// in the sources reviewed") is a failed rewrite, whatever the checks say.
+const META = /\b(not (?:named|specified|stated|identified|mentioned|given)(?: in the (?:sources?|quotes?)(?: reviewed)?)|in the (?:sources?|quotes?) reviewed|the quotes? (?:do not|don't|say|state)|according to the quotes?)\b/i;
 
 // Every figure the line states must be inside a verified quote; every name
 // (the audit's strong names, not the words that open a sentence) must be on a
 // cited page.
 async function judge(log, f) {
+  if (STRICT) {
+    for (const s of log.sources) s.rated = rated(s.url, log.claim || f.text);
+    const good = log.sources.filter((s) => s.rated);
+    log.unrated = log.sources.filter((s) => !s.rated).map((s) => s.url);
+    if (good.length) log.sources = good;
+    log.weak = !good.length;
+  }
   const said = (log.n ? log.n + " " : "") + log.text;
   const quoted = log.sources.flatMap((s) => s.quotes).join(" ");
-  const onQuotes = claimCheck(said, quoted);
+  const onQuotes = claimCheck(numberWords(said), numberWords(quoted));
   const pagesText = norm((await Promise.all(log.sources.map(async (s) => (await page(s.url)).text))).join("\n"));
   log.numbersNotQuoted = (onQuotes.missing || []).filter((m) => /\d/.test(m));
-  log.namesNotOnPages = (claimTokens(said).names || []).filter((nm) => !pagesText.includes(norm(nm)));
-  log.namesNotQuoted = (claimTokens(said).names || []).filter((nm) => !norm(quoted).includes(norm(nm)));
+  // a line's own labels ("Funders:", "Hidden:") are not names
+  const named = claimTokens(said.replace(/\b(?:Funders|Hidden|Critics argue|Watchdogs warn):/g, "")).names || [];
+  log.namesNotOnPages = named.filter((nm) => !pagesText.includes(norm(nm)));
+  log.namesNotQuoted = named.filter((nm) => !norm(quoted).includes(norm(nm)));
   log.unitClash = unitClash(said, quoted);
   const short = String(log.text || "").replace(/[^A-Za-z0-9]/g, "").length < 20;
-  log.pass = !short && !log.unitClash.length && !log.numbersNotQuoted.length && !log.namesNotOnPages.length && (f.kind !== "stat" || !!log.n);
-  log.why = log.pass ? "" : short ? "rewrite too short" : log.unitClash.length ? "unit differs from the quote: " + log.unitClash.join(", ") : log.numbersNotQuoted.length ? "figures not in any quote" : log.namesNotOnPages.length ? "names not on the cited pages" : "no headline figure";
+  const meta = META.test(String(log.text || ""));
+  log.pass = !log.weak && !short && !meta && !log.unitClash.length && !log.numbersNotQuoted.length && !log.namesNotOnPages.length && (f.kind !== "stat" || !!log.n);
+  log.why = log.pass ? "" : log.weak ? "only unrated sources state it" : short ? "rewrite too short" : meta ? "the rewrite talks about its sources, not the subject" : log.unitClash.length ? "unit differs from the quote: " + log.unitClash.join(", ") : log.numbersNotQuoted.length ? "figures not in any quote" : log.namesNotOnPages.length ? "names not on the cited pages" : "no headline figure";
   return log;
 }
 
@@ -249,16 +353,25 @@ async function worker() {
 await Promise.all(Array.from({ length: Number(process.env.WORKERS || 3) }, worker));
 
 // ---- collect: build.mjs's verified.json and a report ------------------------
+// short publisher names and month dates: research/source-labels.mjs
 const verified = [], report = [];
 for (const f of facts) {
   const p = OUT + f.id + ".json";
   if (!fs.existsSync(p)) continue;
   const r = JSON.parse(fs.readFileSync(p, "utf8"));
-  report.push({ id: r.id, pass: r.pass, why: r.why || "", was: r.claim, now: r.text ? (r.n ? r.n + " " : "") + r.text : "", dropped: r.dropped || "", sources: (r.sources || []).map((s) => `${s.supports} ${s.url} (${s.via})`), namesNotQuoted: r.namesNotQuoted || [] });
+  report.push({ id: r.id, pass: r.pass, why: r.why || "", was: r.claim, now: r.text ? (r.n ? r.n + " " : "") + r.text : "", dropped: r.dropped || "", lost: r.lost || "", corrected: r.corrected || "", sources: (r.sources || []).map((s) => `${s.supports} ${s.url} (${s.via})`), namesNotQuoted: r.namesNotQuoted || [] });
   if (!r.pass) continue;
   const label = r.sources.map((s) => [s.publisher, s.date && `(${s.date})`].filter(Boolean).join(" ")).filter(Boolean).join("; ");
-  verified.push({ id: r.id, text: r.text, ...(r.n ? { n: r.n } : {}), status: f.status, src_label: label || f.src, sources: r.sources.map(({ url, publisher, date, quotes }) => ({ url, publisher, date, quotes })) });
+  verified.push({ id: r.id, text: r.text, ...(r.n ? { n: r.n } : {}), status: f.status, src_label: label || f.src, ...(r.lost ? { lost: r.lost } : {}), sources: r.sources.map(({ url, publisher, date, quotes }) => ({ url, publisher: cleanPub(url, publisher), date: cleanDate(date), publisherFull: publisher, dateText: date, quotes })) });
 }
+// The digest is what a person reads before anything ships: the rewrites that
+// lost their point first, then the failures, then everything that changed.
+const digest = ["# Re-check digest", ""];
+const line = (r) => `## ${r.id} ${r.pass ? "PASS" : "FAIL: " + r.why}\n- was: ${r.was}\n- now: ${r.now || "(none)"}${r.lost ? "\n- LOST: " + r.lost : ""}${r.corrected ? "\n- corrected: " + r.corrected : ""}${r.dropped ? "\n- dropped: " + r.dropped : ""}\n- sources: ${r.sources.join(" ; ") || "none"}\n`;
+for (const r of report.filter((x) => x.pass && x.lost)) digest.push(line(r));
+for (const r of report.filter((x) => !x.pass)) digest.push(line(r));
+for (const r of report.filter((x) => x.pass && !x.lost && x.now.replace(/\s+/g, " ") !== x.was.replace(/\s+/g, " "))) digest.push(line(r));
+fs.writeFileSync(OUT + "digest.md", digest.join("\n"));
 fs.writeFileSync(OUT + "verified.json", JSON.stringify(verified, null, 1));
 fs.writeFileSync(OUT + "report.json", JSON.stringify(report, null, 1));
 console.log(`\n${verified.length} verified of ${report.length} researched; ${calls} model calls, $${spent.toFixed(3)}`);

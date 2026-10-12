@@ -149,7 +149,18 @@ const formatFor = (f) => (f.kind === "stat" ? FORMAT.stat : f.status === "argume
 // SEC item kept the rule's adoption and lost the court that struck it down.
 // A second look flags that for the person reading the rewrites; it never
 // passes or fails a fact on its own.
-const KEEP = `You compare an ORIGINAL line from an explainer page with its fact-checked REWRITE. Return JSON {"kept": true or false, "lost": "the main point of the original that the rewrite no longer makes, or empty", "corrected": "any fact the rewrite corrected, or empty"}. "kept" is false only when the rewrite drops what the original was mainly saying, not when it trims detail or fixes a figure.`;
+const KEEP = `You compare an ORIGINAL line from an explainer page with its fact-checked REWRITE. Return JSON {"kept": true or false, "lost": "the main point of the original that the rewrite no longer makes, or empty", "removed": [each specific claim of the original that the rewrite left out, as a short standalone sentence naming who and what], "corrected": "any fact the rewrite corrected, or empty"}. "kept" is false only when the rewrite drops what the original was mainly saying, not when it trims detail or fixes a figure.`;
+// A dropped claim is often on the page after all, a sentence or two from the
+// quote that was taken. Vox has Blake Masters say "one of my friends has this
+// acronym he calls RAGE" and, in the next sentence, "You've probably guessed
+// who the friend is": Yarvin. The quote stopped before the answer, and the
+// rewrite dropped that Yarvin coined RAGE, which two sources state outright.
+// So a removed claim gets one more read of the same pages, asked for directly,
+// on a tight window: this model always reasons, and handed the whole Vox page
+// it thought through 5,000 tokens and answered nothing; 12,000 characters
+// around the claim's words come back in about 700.
+const RECOVER = `You are a meticulous fact-checker. You are given one CLAIM and the TEXT of a page that was already found to support related facts. Decide whether this page states the CLAIM, and copy the exact sentences that show it. People in quotes are often named a sentence or two away ("one of my friends", "he", "the founder"): when the claim turns on who someone is, copy the sentence that names them too.
+Return JSON {"supports": "yes" | "partly" | "no", "quotes": [1 to 3 passages copied character for character from the page text, each a contiguous run]}.`;
 
 // ---- whose word it is ---------------------------------------------------------
 // A quote can be found on a content farm as easily as in the Federal Register.
@@ -251,21 +262,45 @@ async function research(f) {
     if (ok.length) log.sources.push({ url: c.url, publisher: r.publisher || "", date: r.date || "", quotes: ok, supports: r.supports, covers: r.covers || "", contradicts: r.contradicts || "", via: pg.via });
   }
   if (!log.sources.length) { log.pass = false; log.why = "no source with a verified quote"; return log; }
-  const quotes = log.sources.flatMap((s, i) => s.quotes.map((q) => `[${i + 1}] ${q}`)).join("\n");
-  const quoted = log.sources.flatMap((s) => s.quotes).join(" ");
-  let w = null, missing = [];
-  for (let a = 0; a < 2; a++) {
-    const nudge = a && missing.length ? `\nYour last version stated ${missing.join(", ")}, which no quote contains. Remove or correct them.` : "";
-    w = await glm(WRITE + "\n" + formatFor(f), `ORIGINAL: ${claim}\n\nVERIFIED QUOTES:\n${quotes}${nudge}`, 1200);
-    if (!w?.text) continue;
-    const said = (f.kind === "stat" && w.n ? w.n + " " : "") + w.text;
-    const T = claimCheck(said, quoted);
-    missing = (T.missing || []).filter((m) => /\d/.test(m));
-    if (!missing.length) break;
-  }
+  const write = async () => {
+    const quotes = log.sources.flatMap((s, i) => s.quotes.map((q) => `[${i + 1}] ${q}`)).join("\n");
+    const quoted = log.sources.flatMap((s) => s.quotes).join(" ");
+    let w = null, missing = [];
+    for (let a = 0; a < 2; a++) {
+      const nudge = a && missing.length ? `\nYour last version stated ${missing.join(", ")}, which no quote contains. Remove or correct them.` : "";
+      w = await glm(WRITE + "\n" + formatFor(f), `ORIGINAL: ${claim}\n\nVERIFIED QUOTES:\n${quotes}${nudge}`, 1200);
+      if (!w?.text) continue;
+      const said = (f.kind === "stat" && w.n ? w.n + " " : "") + w.text;
+      const T = claimCheck(said, quoted);
+      missing = (T.missing || []).filter((m) => /\d/.test(m));
+      if (!missing.length) break;
+    }
+    return w;
+  };
+  let w = await write();
   if (!w?.text) { log.pass = false; log.why = "no rewrite"; return log; }
   log.text = w.text; log.n = f.kind === "stat" ? w.n || "" : ""; log.dropped = w.dropped || "";
-  const k = await glm(KEEP, `ORIGINAL: ${claim}\n\nREWRITE: ${(log.n ? log.n + " " : "") + log.text}`, 500);
+  let k = await glm(KEEP, `ORIGINAL: ${claim}\n\nREWRITE: ${(log.n ? log.n + " " : "") + log.text}`, 700);
+  // what the rewrite left out gets one direct look on the pages already found
+  const removed = (k?.removed || []).filter((x) => typeof x === "string" && x.length > 12).slice(0, 2);
+  if (removed.length) {
+    let found = 0;
+    for (const part of removed) for (const src of log.sources) {
+      const pg = await page(src.url);
+      const r = await glm(RECOVER, `CLAIM: ${part}\n\nPAGE URL: ${src.url}\nPAGE TEXT:\n${windows(pg.text, part, 12000)}`, 3000);
+      if (!r || r.supports === "no") continue;
+      const ok = (r.quotes || []).filter((q) => quoteFound(fold(q), pg.text) >= 0.9 && !src.quotes.includes(q));
+      if (ok.length) { src.quotes.push(...ok); found += ok.length; }
+    }
+    log.recovered = { asked: removed, quotes: found };
+    if (found) {
+      const w2 = await write();
+      if (w2?.text) {
+        w = w2; log.text = w.text; log.n = f.kind === "stat" ? w.n || "" : ""; log.dropped = w.dropped || "";
+        k = await glm(KEEP, `ORIGINAL: ${claim}\n\nREWRITE: ${(log.n ? log.n + " " : "") + log.text}`, 700);
+      }
+    }
+  }
   if (k && k.kept === false) log.lost = k.lost || "the original's point";
   if (k?.corrected) log.corrected = k.corrected;
   return judge(log, f);

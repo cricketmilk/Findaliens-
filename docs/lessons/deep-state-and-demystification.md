@@ -36,6 +36,18 @@ second, cheap call (`KEEP`) compares the original and the rewrite and records
 what was lost. It never passes or fails a fact; `digest.md` lists those
 first, because that is where a person's reading pays most.
 
+**`research/glm-recheck.mjs` takes a claim the rewrite removed back to the pages it came from.**
+The re-check dropped that Curtis Yarvin coined "RAGE" (Retire All Government
+Employees), and it was wrong: Vox quotes Blake Masters, "One of my friends has
+this acronym he calls RAGE," and the very next sentence is "You've probably
+guessed who the friend is." The quote stopped one sentence short, and The
+Conversation says outright that Yarvin coined it. KEEP now lists each claim a
+rewrite removed, and RECOVER asks the same pages for that claim directly,
+told that people are often named a sentence away from what they said; found
+quotes go back in and the line is rewritten. The model always reasons (it
+refuses `effort: "none"`), and on the whole Vox page it spent 5,000 tokens
+thinking and answered nothing, so RECOVER reads a 12,000-character window.
+
 **`research/glm-recheck.mjs` tries Internet Archive captures from 2015 and 2010 too.**
 The CIA's own UFO history lives at an old CSI address that later captures
 record only as a redirect. The 2015 capture has the whole article, and with

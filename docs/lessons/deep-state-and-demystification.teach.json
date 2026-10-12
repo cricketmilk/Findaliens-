@@ -1,0 +1,33 @@
+{
+ "_why": "Fed to Goblin Brain with `node \"C:/Goblin Brain/scripts/teach.mjs\" \"C:/Find Aliens/docs/lessons/deep-state-and-demystification.teach.json\"` from C:\\xixoxis. lessons -> per-file rules Kenoma reads with the file; lore -> facts brain_lore serves; traces -> playbooks handed to later turns with a matching goal.",
+ "app": "findaliens",
+ "model": "claude-opus-5-5",
+ "tier": "strong",
+ "lessons": ["C:/Find Aliens/docs/lessons/deep-state-and-demystification.md"],
+ "lore": [
+  { "subject": "research/glm-recheck.mjs", "fact": "Run research/glm-recheck.mjs with --strict-sources for any new page: only .gov/.mil/.edu/.int sites, recognised newsrooms, watchdogs, law firms or the subject's own site count as sources, and a fact only unrated pages state fails.", "confidence": 0.95 },
+  { "subject": "research/glm-recheck.mjs", "fact": "research/glm-recheck.mjs asks Goblin Brain first (evidence.search for lines the roost already verified, sources.search for Federal Register, GovInfo, CourtListener and EDGAR records) and skips that when the Brain is down or --no-brain is passed.", "confidence": 0.95 },
+  { "subject": "research/glm-recheck.mjs", "fact": "research/glm-recheck.mjs writes <out>/digest.md: rewrites that lost the original's point first, then failures, then every changed line; a person reads it before a page is built.", "confidence": 0.95 },
+  { "subject": "research/source-labels.mjs", "fact": "research/source-labels.mjs (cleanPub, cleanDate, cleanSources) is the one place a source's label is shortened to a publisher and a month for Find Aliens pages.", "confidence": 0.95 },
+  { "subject": "public/deep-state.html", "fact": "Deep State (public/deep-state.html, js/deep-state.js) is a pixel print of an eye in a pyramid in a stipple forest above four dossiers; its 19 facts and their quotes are in research/deep-state-sources.json.", "confidence": 0.95 },
+  { "subject": "public/demystification.html", "fact": "The Demystification Desk (public/demystification.html, js/demystify.js) is a lavender pixel poster with four kanji-labelled UFO cases; its 17 verified facts and quotes are in research/demystification-sources.json.", "confidence": 0.95 }
+ ],
+ "traces": [
+  {
+   "ref": "findaliens:recheck-page:2026-10-12",
+   "prompt": "Re-research a Find Aliens investigation page and rebuild it from verified facts only (no Wikipedia, every claim checked against its source)",
+   "outcome": "verified",
+   "steps": [
+    { "tool": "read_file", "args": "path=public/<page>.html", "result": "list every factual claim the page makes; phrase each the way a source would state it, with a status (law, documented, reported, words, argument)", "ok": true },
+    { "tool": "write_file", "args": "path=<scratch>/facts.json and hints.json", "result": "facts as [{id, status, text}]; hints map an id to primary-source URLs (Federal Register, the agency's page, the court opinion, the company's release)", "ok": true },
+    { "tool": "run_command", "args": "node research/glm-recheck.mjs --facts facts.json --out glm --hints hints.json --strict-sources", "result": "GLM-5.3-flash reads pages; a quote counts only if it is on the fetched page; figures must be in a quote in the same unit; names on a cited page; rated sources only. About $0.04 for 19 facts.", "ok": true },
+    { "tool": "read_file", "args": "path=glm/digest.md", "result": "read the LOST rewrites first, then the failures, then every change; a source's own typo and a stale figure pass every mechanical check", "ok": true },
+    { "tool": "run_command", "args": "node research/glm-recheck.mjs ... --strict-sources --retry", "result": "with better hints: the primary record, or the Internet Archive copy of an old government URL (2015 and 2010 captures)", "ok": true },
+    { "tool": "write_file", "args": "path=<scratch>/overrides.json", "result": "accept near-misses only with a why (a sum of receipts, a number spelled out, a name written in full); reword only to what the quotes state", "ok": true },
+    { "tool": "run_command", "args": "node <scratch>/build.mjs", "result": "the page is built from verified facts only; unconfirmed lines are left out, and research/<page>-sources.json keeps every quote", "ok": true },
+    { "tool": "run_command", "args": "node shot.js <page> at 1440 and 390 wide", "result": "judge the page from full-size screenshots and fix overlaps at phone width before committing", "ok": true }
+   ],
+   "receipt": { "filesChanged": ["public/deep-state.html", "public/demystification.html", "research/deep-state-sources.json", "research/demystification-sources.json"], "testsResult": { "command": "node --test crash-conduits.test.mjs from-trove.test.mjs", "passed": true } }
+  }
+ ]
+}

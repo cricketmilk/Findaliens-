@@ -1,291 +1,492 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Digging Up The Deep State — The Cornfield Gazette</title>
-  <meta name="description" content="Documented closed loops, regulatory dismantling, and procurement concentration with severe consequences for regular citizens.">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌽</text></svg>">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <style>
-    .subpage-nav {
-      margin-bottom: 24px;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      font-family: 'Press Start 2P', monospace;
-      font-size: 11px;
-    }
-    .subpage-nav a {
-      color: var(--neon-green);
-      text-decoration: none;
-      padding: 6px 12px;
-      background: #0f1026;
-      border: 1px solid var(--neon-green);
-    }
-    .subpage-nav a:hover {
-      background: var(--neon-green);
-      color: #050414;
-    }
-    .dossier-full-summary {
-      background: #0d0c24;
-      border-left: 3px solid var(--neon-gold);
-      padding: 16px 20px;
-      margin-bottom: 24px;
-      font-size: 15px;
-      line-height: 1.6;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digging Up the Deep State — The Cornfield Gazette</title>
+<meta name="description" content="Four places where public power is passing into private hands: the civil service, surveillance contracts, the money itself and autonomous machines. What is documented, and what is argued.">
+<meta name="theme-color" content="#050505">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌽</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #050505;
+    --well: #0e0e0e;
+    --panel: #121212;
+    --line: #2a2a2a;
+    --paper: #ffffff;
+    --text: #f2f2f2;
+    --read: #d9d9d9;
+    --dim: #a3a3a3;
+    --mute: #767676;
+    --cyan: #00f0ff;
+    --magenta: #ff2fd0;
+    --blue: #3b4bff;
+    --pixel: "Press Start 2P", monospace;
+    --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--ink); color: var(--text); font-family: var(--sans); font-size: 16.5px; line-height: 1.62; }
+  canvas { display: block; image-rendering: pixelated; image-rendering: crisp-edges; }
+  a { color: var(--paper); text-decoration-color: var(--mute); text-underline-offset: 3px; }
+  a:hover { color: var(--cyan); text-decoration-color: var(--cyan); }
+  .page { max-width: 1120px; margin: 0 auto; padding: 22px 28px 90px; }
+  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+  .nav { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px; }
+  .nav a { font-family: var(--pixel); font-size: 8.5px; line-height: 1.3; color: var(--paper); text-decoration: none; border: 1.5px solid #444; padding: 7px 10px; }
+  .nav a:hover { border-color: var(--paper); background: var(--paper); color: var(--ink); }
+
+  /* ---------- the picture, framed like a print ---------- */
+  .print { border: 2px solid var(--paper); padding: 8px; background: var(--paper); box-shadow: 8px 8px 0 #1c1c1c; }
+  .print canvas { cursor: crosshair; }
+  .print-cap { display: flex; justify-content: space-between; gap: 12px; padding: 7px 2px 0; font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; color: #111; }
+
+  /* ---------- title ---------- */
+  .head { margin: 40px 0 34px; }
+  .kicker { font-family: var(--mono); font-size: 12px; letter-spacing: 0.16em; color: var(--dim); margin: 0 0 14px; }
+  h1 { margin: 0; font-family: var(--pixel); font-weight: 400; font-size: clamp(26px, 5.4vw, 58px); line-height: 1.12; color: var(--paper); text-shadow: -3px 0 var(--cyan), 3px 0 var(--magenta); }
+  h1 span { display: block; }
+  .dek { max-width: 760px; margin: 22px 0 0; font-size: 19px; line-height: 1.55; color: var(--read); }
+  .dek b { color: var(--paper); font-weight: 600; }
+
+  .legend { display: flex; flex-wrap: wrap; gap: 10px 22px; margin: 0 0 54px; padding: 16px 20px; border: 1px solid var(--line); background: var(--well); }
+  .legend > span { display: inline-flex; align-items: center; gap: 8px; font-size: 13.5px; color: var(--dim); }
+  .badge { display: inline-block; font-family: var(--mono); font-size: 10.5px; font-weight: 600; letter-spacing: 0.07em; padding: 1px 6px; margin-right: 8px; vertical-align: 1px; line-height: 1.5; border: 1.5px solid currentColor; text-transform: uppercase; }
+  .st-law { color: var(--ink); background: var(--paper); border-color: var(--paper); }
+  .st-documented { color: var(--paper); }
+  .st-reported { color: var(--cyan); }
+  .st-words { color: var(--magenta); }
+  .st-argument { color: var(--dim); border-style: dashed; }
+
+  /* ---------- the dossiers ---------- */
+  .dossier { display: grid; grid-template-columns: 132px minmax(0, 1fr); gap: 0 32px; padding: 0 0 56px; margin: 0 0 56px; border-bottom: 1px solid var(--line); }
+  .dossier:last-of-type { border-bottom: 0; }
+  .side { position: relative; }
+  .side .n { font-family: var(--pixel); font-size: 11px; color: var(--ink); background: var(--paper); display: inline-block; padding: 7px 8px 6px; margin-bottom: 14px; }
+  .side canvas { width: 132px; height: 132px; border: 1.5px solid #333; background: var(--paper); }
+  .side .cmd { margin-top: 10px; font-family: var(--mono); font-size: 11px; line-height: 1.5; color: var(--mute); word-break: break-word; }
+  .dossier h2 { margin: 2px 0 10px; font-family: var(--pixel); font-weight: 400; font-size: clamp(16px, 2.4vw, 24px); line-height: 1.4; color: var(--paper); }
+  .dossier .what { margin: 0 0 22px; font-size: 18px; line-height: 1.55; color: var(--read); max-width: 760px; }
+  .facts { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+  .facts li { padding: 16px 0 17px; border-bottom: 1px dashed #2f2f2f; font-size: 16px; line-height: 1.62; color: var(--text); }
+  .src { display: block; margin-top: 6px; font-family: var(--mono); font-size: 12px; line-height: 1.5; color: var(--mute); }
+  .src a { color: var(--dim); }
+  .src a + a::before { content: " · "; color: var(--mute); }
+  .argue { margin-top: 18px; padding: 15px 18px 16px; border-left: 3px solid var(--magenta); background: linear-gradient(90deg, rgba(255, 47, 208, 0.08), transparent 70%); font-size: 15.5px; line-height: 1.6; color: var(--read); }
+  .argue b { display: block; margin-bottom: 4px; font-family: var(--mono); font-size: 11px; letter-spacing: 0.12em; color: var(--magenta); font-weight: 600; }
+
+  /* ---------- how to check ---------- */
+  .sh { display: flex; align-items: baseline; gap: 16px; margin: 0 0 16px; padding-bottom: 12px; border-bottom: 2px solid var(--paper); }
+  .sh h2 { margin: 0; font-family: var(--pixel); font-weight: 400; font-size: clamp(16px, 2.6vw, 24px); color: var(--paper); text-shadow: -2px 0 var(--cyan), 2px 0 var(--magenta); }
+  .howto { list-style: none; margin: 0 0 40px; padding: 0; }
+  .howto li { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 4px 24px; padding: 14px 0; border-bottom: 1px dashed #2f2f2f; }
+  .howto code { font-family: var(--mono); font-size: 14px; color: var(--cyan); }
+  .howto span { color: var(--read); font-size: 15.5px; }
+  .note { font-size: 14px; line-height: 1.6; color: var(--mute); max-width: 820px; }
+  .footer { margin-top: 30px; padding-top: 20px; border-top: 1px solid var(--line); font-family: var(--mono); font-size: 12px; color: var(--mute); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px; }
+
+  @media (max-width: 760px) {
+    .page { padding: 16px 16px 70px; }
+    .print { padding: 5px; box-shadow: 5px 5px 0 #1c1c1c; }
+    .print-cap span:first-child { display: none; }
+    .head { margin: 30px 0 26px; }
+    .dek { font-size: 17px; }
+    .dossier { grid-template-columns: 1fr; gap: 14px; }
+    .side { display: flex; align-items: center; gap: 14px; }
+    .side .n { margin: 0; }
+    .side canvas { width: 72px; height: 72px; }
+    .side .cmd { margin: 0; }
+    .howto li { grid-template-columns: 1fr; }
+  }
+</style>
 </head>
 <body>
+<div class="page" id="top">
+  <nav class="nav" aria-label="The Gazette">
+    <a href="index.html">◂ GAZETTE</a>
+    <a href="demystification.html">DEMYSTIFICATION</a>
+    <a href="consent.html">CONSENT</a>
+    <a href="transhumanism.html">POST-HUMAN</a>
+    <a href="blind-pool.html">BLIND POOL</a>
+    <a href="crash-conduits.html">CRASH CONDUITS</a>
+    <a href="handoffs.html">HANDOFF LEDGER</a>
+    <a href="web.html">THE WEB</a>
+  </nav>
 
-<!-- ============ TICKER ============ -->
-<div class="ticker-wrap" aria-label="Breaking news ticker">
-  <div class="ticker-content">
-    <span>✦&nbsp; 🏛️ SPECIAL INVESTIGATION: DIGGING UP THE DEEP STATE &nbsp;✦&nbsp; 📄 PRIMARY EVIDENCE DOCKETS &amp; CONTRACT RECORDS &nbsp;✦&nbsp; ⚖️ SCHEDULE F CIVIL SERVICE DECAPITATION &nbsp;✦&nbsp; 👁️ PALANTIR NO-BID IMMIGRATION SURVEILLANCE &nbsp;✦&nbsp; 💵 GENIUS ACT STABLECOIN DEPOSIT RUN RISKS &nbsp;✦&nbsp; 🚁 AUTONOMOUS DRONE PROCUREMENT CARTELS &nbsp;✦&nbsp;</span>
-  </div>
+  <figure class="print" style="margin:0">
+    <canvas id="eye" role="img" aria-label="Pixel art: a clearing in a black-and-white forest, an eye inside a black pyramid that drips ink, the forest's edge breaking into squares, and a road of glitching colour. The eye's spiral iris turns and follows the pointer."></canvas>
+    <figcaption class="print-cap"><span>THE CLEARING</span><span>it watches the pointer · tap the road</span></figcaption>
+  </figure>
+
+  <header class="head">
+    <p class="kicker">THE CORNFIELD GAZETTE · INVESTIGATIONS</p>
+    <h1><span>DIGGING UP</span><span>THE DEEP STATE</span></h1>
+    <p class="dek">“Deep state” usually means a hidden government. The record shows something plainer: <b>four places where public power is being handed to private hands</b> — the civil service, the surveillance contracts, the money itself, and the machines. Here is what is documented, and what is only argued.</p>
+  </header>
+
+  <aside class="legend" id="legend" aria-label="How each item is sourced"></aside>
+
+  <main id="dossiers"></main>
+
+  <section aria-labelledby="howto-h">
+    <div class="sh"><h2 id="howto-h">HOW TO CHECK</h2></div>
+    <ul class="howto" id="howto"></ul>
+    <p class="note">Every item on this page was checked in October 2026 against the page it cites: the passage stating it was found on the source, and its figures were checked against that passage. All 19 items researched were confirmed.</p>
+  </section>
+
+  <div class="footer"><span>© 2026 THE CORNFIELD GAZETTE · DEEP STATE DESK</span><a href="#top">TOP ▲</a></div>
 </div>
 
-<!-- ============ MASTHEAD ============ -->
-<header class="masthead">
-  <div class="masthead-inner">
-    <div class="ufo-fly">🛸</div>
-    <h1 class="site-title"><span class="glow-green">FIND</span><span class="glow-gold">ALIENS</span></h1>
-    <p class="tagline">✦ SPECIAL INVESTIGATIVE DOSSIER ✦</p>
-    <p class="subtag"><b>DIGGING UP THE DEEP STATE</b>: Closed Loops, Capital Flight &amp; The Anatomy of Institutional Capture</p>
-  </div>
-</header>
-
-<div class="page">
-  <main class="main-col">
-    <div class="subpage-nav">
-      <a href="index.html">← RETURN TO MAIN GAZETTE</a>
-      <a href="crash-conduits.html" style="background:#0f172a; border-color:var(--neon-gold); color:var(--neon-gold);">🌐 CRASH CONDUITS: 400-YR BUBBLES MAP &rarr;</a>
-      <a href="demystification.html">DEMYSTIFICATION DESK →</a>
-      <a href="carbon-class.html" style="border-color:#cc9fe0; color:#cc9fe0;">🌍 CARBON CLASS →</a>
-      <a href="transhumanism.html" style="border-color:#ff5a6e; color:#ff5a6e;">🤖 POST-HUMAN RESOURCES →</a>
-      <a href="consent.html" style="border-color:#a15cf0; color:#a15cf0;">📡 MANUFACTURING CONSENT →</a>
-      <a href="blind-pool.html" style="border-color:#f4b6f1; color:#f4b6f1;">💾 BLIND POOL →</a>
-      <a href="web.html" style="border-color:#39ff14; color:#39ff14;">🕸️ THE WEB →</a>
+<script>
+const STATUS = {
+  law: { label: "LAW", desc: "the text of a statute, regulation or executive order" },
+  documented: { label: "DOCUMENTED", desc: "official records, filings or the organisation’s own statements" },
+  reported: { label: "REPORTED", desc: "investigative or financial journalism" },
+  words: { label: "IN THEIR WORDS", desc: "the person’s own published writing or speech" },
+  argument: { label: "ARGUMENT", desc: "an interpretation, with whose it is" },
+};
+const DOSSIERS = [
+ {
+  "key": "civil-service",
+  "n": "01",
+  "glyph": "columns",
+  "cmd": "C:\\OPM> RECLASS /ALL",
+  "title": "THE CIVIL SERVICE",
+  "what": "Who can be fired for the advice they give. A reclassification turns career experts into employees who can be dismissed like political appointees.",
+  "facts": [
+   {
+    "status": "law",
+    "text": "Schedule F was created by an executive order in October 2020, revoked in 2021, and restored by executive order on January 20, 2025. It lets career federal employees in policy-influencing jobs be reclassified so they can be dismissed like political appointees.",
+    "sources": [
+     {
+      "url": "https://www.federalregister.gov/documents/2020/10/26/2020-23780/creating-schedule-f-in-the-excepted-service",
+      "publisher": "Federal Register",
+      "date": "2020-10"
+     },
+     {
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/01/restoring-accountability-to-policy-influencing-positions-within-the-federal-workforce/",
+      "publisher": "The White House",
+      "date": "2025-01"
+     },
+     {
+      "url": "https://www.govinfo.gov/content/pkg/DCPD-202000792/pdf/DCPD-202000792.pdf",
+      "publisher": "U.S. Government Publishing Office",
+      "date": "2020-10"
+     },
+     {
+      "url": "https://trumpwhitehouse.archives.gov/presidential-actions/executive-order-creating-schedule-f-excepted-service/",
+      "publisher": "Trump White House Archives",
+      "date": "2020-10"
+     },
+     {
+      "url": "https://www.govinfo.gov/content/pkg/DCPD-202500138/pdf/DCPD-202500138.pdf",
+      "publisher": "U.S. Government Publishing Office",
+      "date": "2025-01"
+     }
+    ]
+   },
+   {
+    "status": "documented",
+    "text": "The Office of Personnel Management estimated that about 50,000 positions, roughly 2% of the federal workforce, would be moved into the new category, renamed Schedule Policy/Career.",
+    "sources": [
+     {
+      "url": "https://federalnewsnetwork.com/workforce/2026/03/federal-employees-face-looming-finalization-of-schedule-policy-career/",
+      "publisher": "Federal News Network",
+      "date": "2026-03"
+     }
+    ]
+   },
+   {
+    "status": "law",
+    "text": "Employees moved into the category are excepted from the adverse action procedures of Chapter 75 of Title 5, which require agencies to follow extensive procedures before taking adverse action against an employee.",
+    "sources": [
+     {
+      "url": "https://www.federalregister.gov/documents/2020/10/26/2020-23780/creating-schedule-f-in-the-excepted-service",
+      "publisher": "Federal Register",
+      "date": "2020-10"
+     },
+     {
+      "url": "https://www.govinfo.gov/content/pkg/DCPD-202600378/pdf/DCPD-202600378.pdf",
+      "publisher": "U.S. Government Publishing Office",
+      "date": "2026-06"
+     }
+    ]
+   },
+   {
+    "status": "words",
+    "text": "Curtis Yarvin has written about firing the federal workforce wholesale, and in 2021 JD Vance cited Yarvin while saying the next president should fire every mid-level civil servant and replace them with \"our people.\"",
+    "sources": [
+     {
+      "url": "https://www.wbur.org/onpoint/2025/04/05/jd-vance-new-right-curtis-yarvin",
+      "publisher": "WBUR",
+      "date": "2025-04"
+     },
+     {
+      "url": "https://www.vox.com/policy-and-politics/23373795/curtis-yarvin-mencius-moldbug-conservative",
+      "publisher": "Vox",
+      "date": "2022-10"
+     }
+    ]
+   }
+  ],
+  "argument": {
+   "status": "argument",
+   "text": "Critics argue that removing job protections from scientists, inspectors and enforcement staff exposes safety and enforcement decisions to political pressure.",
+   "sources": [
+    {
+     "url": "https://www.scientificamerican.com/article/white-house-reclassifies-federal-epidemiologists-and-other-scientists-from-civil-servants-to-at-will-hires/",
+     "publisher": "Scientific American",
+     "date": "2026-06"
+    },
+    {
+     "url": "https://www.statnews.com/2026/02/06/nih-grant-reviewers-schedule-f-designation-politicizes-science/",
+     "publisher": "STAT",
+     "date": "2026-02"
+    }
+   ]
+  }
+ },
+ {
+  "key": "surveillance",
+  "n": "02",
+  "glyph": "eye",
+  "cmd": "C:\\ICE> TRACK /PRIORITIZE",
+  "title": "THE SURVEILLANCE CONTRACTS",
+  "what": "A system to find and sort people for deportation, built by a company whose co-founder funds the politicians around it.",
+  "facts": [
+   {
+    "status": "documented",
+    "text": "Immigration and Customs Enforcement is paying Palantir $30 million to build “ImmigrationOS,” a system to watch people leaving the country and help choose who to deport, according to ICE’s own contract justification.",
+    "sources": [
+     {
+      "url": "https://www.wired.com/story/ice-palantir-immigrationos/",
+      "publisher": "WIRED",
+      "date": "2025-04"
+     }
+    ]
+   },
+   {
+    "status": "documented",
+    "text": "ICE awarded the ImmigrationOS work to Palantir without competitive bidding, as a sole-source modification of an existing contract.",
+    "sources": [
+     {
+      "url": "https://www.wired.com/story/ice-palantir-immigrationos/",
+      "publisher": "WIRED",
+      "date": "2025-04"
+     }
+    ]
+   },
+   {
+    "status": "documented",
+    "text": "Federal Election Commission records show Peter Thiel gave $15 million to Protect Ohio Values, the super PAC behind JD Vance’s 2022 Senate run: $10 million in March 2021 and $5 million in April 2022.",
+    "sources": [
+     {
+      "url": "https://www.fec.gov/data/receipts/?committee_id=C00770495&contributor_name=thiel",
+      "publisher": "FEC",
+      "date": "2022-04"
+     },
+     {
+      "url": "https://www.wbur.org/onpoint/2025/04/05/jd-vance-new-right-curtis-yarvin",
+      "publisher": "WBUR",
+      "date": "2025-04"
+     }
+    ]
+   },
+   {
+    "status": "reported",
+    "text": "Stephen Miller’s financial disclosure, released by the White House, listed from $100,001 up to a quarter of a million dollars in Palantir stock.",
+    "sources": [
+     {
+      "url": "https://www.pogo.org/investigates/stephen-miller-conflicts-of-interest",
+      "publisher": "POGO",
+      "date": "2025-06"
+     }
+    ]
+   }
+  ],
+  "argument": {
+   "status": "argument",
+   "text": "Civil-liberties groups warn that combining government and commercial data lets agencies track people’s movements and associations without a warrant.",
+   "sources": [
+    {
+     "url": "https://www.aclu.org/issues/privacy-technology/location-tracking",
+     "publisher": "American Civil Liberties Union",
+     "date": ""
+    },
+    {
+     "url": "https://www.npr.org/2026/03/25/nx-s1-5752369/ice-surveillance-data-brokers-congress-anthropic",
+     "publisher": "NPR",
+     "date": "2026-03"
+    }
+   ]
+  }
+ },
+ {
+  "key": "money",
+  "n": "03",
+  "glyph": "coin",
+  "cmd": "C:\\TREASURY> MINT /PRIVATE",
+  "title": "THE MONEY ITSELF",
+  "what": "Private dollars under a new federal law: who may issue them, what must back them, and what does not protect the people who hold them.",
+  "facts": [
+   {
+    "status": "law",
+    "text": "The GENIUS Act creates a federal framework for permitted issuers to issue dollar-pegged \"payment stablecoins.\"",
+    "sources": [
+     {
+      "url": "https://www.cbsnews.com/news/trump-signs-genius-act-crypto-bill",
+      "publisher": "CBS News",
+      "date": "2025-07"
+     },
+     {
+      "url": "https://www.govinfo.gov/content/pkg/BILLS-119s1582enr/html/BILLS-119s1582enr.htm",
+      "publisher": "U.S. Government Publishing Office",
+      "date": ""
+     }
+    ]
+   },
+   {
+    "status": "law",
+    "text": "Issuers must hold reserves of at least one dollar for every coin, in cash, bank deposits or short-term Treasury bills.",
+    "sources": [
+     {
+      "url": "https://www.govinfo.gov/content/pkg/BILLS-119s1582enr/html/BILLS-119s1582enr.htm",
+      "publisher": "U.S. Government Publishing Office",
+      "date": ""
+     }
+    ]
+   },
+   {
+    "status": "law",
+    "text": "Payment stablecoins are not backed by the full faith and credit of the United States, are not guaranteed by the government, and are not covered by Federal Deposit Insurance Corporation deposit insurance.",
+    "sources": [
+     {
+      "url": "https://www.govinfo.gov/content/pkg/BILLS-119s1582enr/html/BILLS-119s1582enr.htm",
+      "publisher": "U.S. Government Publishing Office",
+      "date": ""
+     }
+    ]
+   },
+   {
+    "status": "reported",
+    "text": "World Liberty Financial, a crypto venture backed by President Donald Trump and his family, launched its own dollar stablecoin, USD1, in March 2025.",
+    "sources": [
+     {
+      "url": "https://www.cnbc.com/2025/03/25/trumps-world-liberty-financial-jumps-into-stablecoin-game-with-usd1-reveal.html",
+      "publisher": "CNBC",
+      "date": "2025-03"
+     }
+    ]
+   }
+  ],
+  "argument": {
+   "status": "argument",
+   "text": "With no deposit insurance, holders would bear the loss if an issuer failed. The FDIC’s chairman has said stablecoin users will get no government guarantee of their money.",
+   "sources": [
+    {
+     "url": "https://www.coindesk.com/policy/2026/03/11/stablecoins-won-t-get-any-kind-of-deposit-insurance-under-genius-rules-says-fdic-chief",
+     "publisher": "CoinDesk",
+     "date": "2026-03"
+    }
+   ]
+  }
+ },
+ {
+  "key": "machines",
+  "n": "04",
+  "glyph": "drone",
+  "cmd": "C:\\DOD> REPLICATE /THOUSANDS",
+  "title": "THE MACHINES",
+  "what": "Autonomous systems bought by the thousand for the battlefield and the border, and what was really flying over New Jersey.",
+  "facts": [
+   {
+    "status": "documented",
+    "text": "In August 2023 the Pentagon unveiled Replicator, a plan to field thousands of uncrewed systems by August 2025. By then, a former defense official noted, it had fielded only hundreds.",
+    "sources": [
+     {
+      "url": "https://www.congress.gov/crs_external_products/IF/PDF/IF12611/IF12611.10.pdf",
+      "publisher": "Congress.gov",
+      "date": "2025-09"
+     },
+     {
+      "url": "https://www.diu.mil/latest/implementing-the-department-of-defense-replicator-initiative-to-accelerate",
+      "publisher": "Defense Innovation Unit, U.S. Department of…",
+      "date": "2023-11"
+     }
+    ]
+   },
+   {
+    "status": "documented",
+    "text": "Customs and Border Protection uses Anduril's Autonomous Surveillance Towers, solar-powered towers that use AI to detect and track people and vehicles near the border.",
+    "sources": [
+     {
+      "url": "https://www.cbp.gov/document/foia-record/anduril-surveillance-towers",
+      "publisher": "U.S. Customs and Border Protection",
+      "date": "2021-10"
+     },
+     {
+      "url": "https://www.cbp.gov/frontline/watchful-eye",
+      "publisher": "U.S. Customs and Border Protection",
+      "date": "2022-01"
+     },
+     {
+      "url": "https://www.cbp.gov/newsroom/national-media-release/cbp-s-autonomous-surveillance-towers-declared-program-record-along",
+      "publisher": "U.S. Customs and Border Protection",
+      "date": "2020-07"
+     }
+    ]
+   },
+   {
+    "status": "documented",
+    "text": "In January 2025 the White House said the drones reported over New Jersey had been authorized by the FAA to fly for research and other reasons.",
+    "sources": [
+     {
+      "url": "https://www.nbcnews.com/news/us-news/white-house-says-new-jersey-drones-authorized-faa-was-not-enemy-rcna189646",
+      "publisher": "NBC News",
+      "date": "2025-01"
+     },
+     {
+      "url": "https://www.nytimes.com/2025/01/28/nyregion/new-jersey-drones-faa.html",
+      "publisher": "The New York Times",
+      "date": "2025-01"
+     }
+    ]
+   }
+  ],
+  "argument": {
+   "status": "argument",
+   "text": "Critics say these systems invade privacy and violate civil rights, and researchers note that battlefield technologies such as drones and biometric surveillance are increasingly migrating into domestic policing.",
+   "sources": [
+    {
+     "url": "https://www.cbsnews.com/pittsburgh/news/surveillance-technology-flock-debate/",
+     "publisher": "CBS News / KDKA-TV",
+     "date": "2026-09"
+    }
+   ]
+  }
+ }
+];
+const HOWTO = [["Federal Register","Executive orders and agency rules, with the public comments on them. Search “Schedule F” or “Schedule Policy/Career”."],["USAspending.gov","Federal contract awards by company: what each agency paid, and whether the award was competed."],["FEC.gov","Who gave to which campaign or super PAC, by name and amount."],["OGE disclosures","Senior officials’ financial disclosures, released by the Office of Government Ethics on request."],["Congress.gov","Bill text and history. The GENIUS Act is S.1582 of the 119th Congress."]];
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const badge = (s) => `<span class="badge st-${s}" title="${STATUS[s].desc}">${STATUS[s].label}</span>`;
+const srcHtml = (i) => (i.sources || []).length ? `<span class="src">${i.sources.map((x) => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.publisher)}${x.date ? ", " + esc(x.date) : ""} ↗</a>`).join("")}</span>` : "";
+document.getElementById("legend").innerHTML = Object.entries(STATUS).map(([k, s]) => `<span>${badge(k)} ${s.desc}</span>`).join("");
+document.getElementById("dossiers").innerHTML = DOSSIERS.map((d) => `
+  <article class="dossier" id="${d.key}">
+    <div class="side"><span class="n">${d.n}</span><canvas class="glyph" data-glyph="${d.glyph}" aria-hidden="true"></canvas><div class="cmd">${d.cmd}</div></div>
+    <div>
+      <h2>${d.title}</h2>
+      <p class="what">${d.what}</p>
+      <ul class="facts">${d.facts.map((f) => `<li>${badge(f.status)}${f.text}${srcHtml(f)}</li>`).join("")}</ul>
+      ${d.argument ? `<div class="argue"><b>ARGUMENT ▸</b>${d.argument.text}${srcHtml(d.argument)}</div>` : ""}
     </div>
-
-    <section id="deep-state">
-      <h3 class="section-head"><span class="section-icon">🏛️</span> DIGGING UP THE DEEP STATE: THE ANATOMY OF CAPTURE</h3>
-      <div class="dossier-full-summary">
-        <strong>FORENSIC SCOPE:</strong> This investigative dossier tracks documented capital flows, political donor loops, and statutory reclassifications from the public record (FEC filings, federal procurement awards, OGE financial disclosures, and Congressional statutes). Rather than sensational theatre or mystical distractions, these files detail direct financial and legal mechanisms with tangible impact on working citizens.
-        <div style="margin-top:12px; padding-top:12px; border-top:1px dashed rgba(245, 158, 11, 0.3);">
-          ⚡ <strong>NEW INTERACTIVE INVESTIGATION:</strong> Explore <a href="crash-conduits.html" style="color:var(--neon-gold); font-weight:bold; text-decoration:underline;">The Crash Conduits (1636–2026)</a> — an expanding atlas of financial engineering, from monetary systems and petrodollar recycling to leverage, benchmark manipulation and crisis backstops. Source-linked entries distinguish documented mechanisms from claims still awaiting a source audit.
-        </div>
-      </div>
-
-      <!-- DOSSIER 1: CIVIL SERVICE -->
-      <article class="dossier-card" id="dossier-civil-service"
-               data-title="PURGING CAREER CIVIL SERVICE"
-               data-takeaway="Executive Order Schedule F reclassifications strip merit protections from 50,000+ career experts, replacing safety, food, labor, and transport inspectors with political loyalists. Direct impact: deregulated contamination, uninspected aviation failures, and unchecked corporate fraud."
-               data-source="https://goblinhouse.net/findings/">
-        <div class="story-kicker kicker-red">▓▓ EXECUTIVE DECAPITATION ▓▓</div>
-        <h4 class="headline glow-green">PURGING THE CIVIL SERVICE: THE "RAGE" MECHANISM &amp; SYSTEMIC REGULATORY COLLAPSE</h4>
-        <p class="dossier-lead">The strategy to decimate career civil servants originated directly in Curtis Yarvin's "RAGE" framework (Retire All Government Employees). Reclassifying career federal scientists and auditors into at-will political appointees removes statutory firewalls across aviation, toxic chemical safety, pharmaceutical validation, and nuclear stewardship.</p>
-
-        <div class="dossier-grid">
-          <div class="dossier-panel panel-warn">
-            <div class="dossier-panel-title"><span>⚠️</span> THE HUMAN COST</div>
-            <p>Inspection regimes are dismantled from within. Workplace safety inspectors, environmental toxin monitors, and drug trial auditors are replaced by industry-friendly political loyalists, directly accelerating consumer hazard exposure.</p>
-          </div>
-          <div class="dossier-panel panel-smoke">
-            <div class="dossier-panel-title"><span>🎭</span> THE SMOKESCREEN</div>
-            <p>Packaged in media narratives as "eliminating wasteful bureaucracy and deep state dead weight," while opening federal research, testing, and regulatory validation to captured corporate interests.</p>
-          </div>
-        </div>
-
-        <details class="evidence-drawer" open>
-          <summary class="evidence-summary"><span>[+] PRIMARY EVIDENCE DOCKET: SCHEDULE F &amp; YARVIN FRAMEWORK</span> <span>VERIFIED 📄</span></summary>
-          <div class="evidence-content">
-            <ul>
-              <li><strong>Ideological Blueprint:</strong> Curtis Yarvin essays (2008–2024) proposing sovereign monarchism via corporate restructuring and federal employee liquidation ("RAGE").</li>
-              <li><strong>Statutory Mechanism:</strong> Executive Order reclassifying Title 5 civil service positions into Schedule F, removing Chapter 75 due process protections.</li>
-              <li><strong>Targeted Agencies:</strong> FDA, EPA, CFPB, OSHA, and civil division DOJ attorneys managing anti-trust and consumer fraud prosecutions.</li>
-            </ul>
-          </div>
-        </details>
-
-        <div class="dossier-action-bar">
-          <span class="record-badge">RECORD: 📄 DOCUMENTED FACT</span>
-          <span class="dossier-tag">#ADMIN_STATE</span>
-          <span class="dossier-tag">#SCHEDULE_F</span>
-          <button class="maizey-scan-btn">🌽 ANALYZE WITH MAIZEY</button>
-          <a class="src-btn" href="https://goblinhouse.net/findings/" target="_blank" rel="noopener">[ EXAMINE DOSSIER ➤ ]</a>
-        </div>
-      </article>
-
-      <!-- DOSSIER 2: SURVEILLANCE GRID -->
-      <article class="dossier-card" id="dossier-palantir"
-               data-title="PALANTIR IMMIGRATION SURVEILLANCE LOOP"
-               data-takeaway="Peter Thiel's $15M Super PAC contributions to key figures coincided with Palantir receiving $30M+ no-bid ImmigrationOS contracts. Real-time domestic location tracking and biometric data brokers bypass Fourth Amendment judicial warrants."
-               data-source="https://goblinhouse.net/case-files/thiel-vance-ice-palantir/">
-        <div class="story-kicker kicker-red">▓▓ BIOMETRIC SURVEILLANCE ▓▓</div>
-        <h4 class="headline glow-green">THE SURVEILLANCE LOOP: NO-BID ICE CONTRACTS, PALANTIR &amp; THE DOMESTIC BIOMETRIC GRID</h4>
-        <p class="dossier-lead">The construction of the nationwide biometric dragnet operates through a documented closed-loop financial system: billionaire tech founders seed federal executive campaigns, followed by executive agencies awarding sole-source contracts to their surveillance companies without public procurement tenders.</p>
-
-        <div class="dossier-grid">
-          <div class="dossier-panel panel-warn">
-            <div class="dossier-panel-title"><span>⚠️</span> THE HUMAN COST</div>
-            <p>Everyday domestic movements, utility records, and commercial purchase histories are aggregated into actionable tracking profiles without Fourth Amendment search warrants or judicial oversight.</p>
-          </div>
-          <div class="dossier-panel panel-money">
-            <div class="dossier-panel-title"><span>💸</span> THE FINANCIAL TRAIL</div>
-            <p>Peter Thiel provided $15M in Super PAC funding to secure JD Vance's Senate seat; Stephen Miller's children held six figures in Palantir stock during policy execution. Palantir gets no-bid contracts to run the system.</p>
-          </div>
-        </div>
-
-        <details class="evidence-drawer" open>
-          <summary class="evidence-summary"><span>[+] PRIMARY EVIDENCE DOCKET: CONTRACTS &amp; ETHICS DISCLOSURES</span> <span>VERIFIED 📄</span></summary>
-          <div class="evidence-content">
-            <ul>
-              <li><strong>Procurement Award:</strong> USASpending.gov Award ID for ICE ImmigrationOS ($30M no-bid sole source award).</li>
-              <li><strong>Ethics Filings:</strong> OGE Form 278e financial disclosure obtained by POGO (Project On Government Oversight) documenting Stephen Miller's Palantir stock holdings held under minor children.</li>
-              <li><strong>Campaign Finance:</strong> FEC filings for Protect Ohio Values Super PAC ($15M contribution from Peter Thiel).</li>
-            </ul>
-          </div>
-        </details>
-
-        <div class="dossier-action-bar">
-          <span class="record-badge">RECORD: 📄 DOCUMENTED FACT</span>
-          <span class="dossier-tag">#PALANTIR</span>
-          <span class="dossier-tag">#BIOMETRIC_GRID</span>
-          <button class="maizey-scan-btn">🌽 ANALYZE WITH MAIZEY</button>
-          <a class="src-btn" href="https://goblinhouse.net/case-files/thiel-vance-ice-palantir/" target="_blank" rel="noopener">[ EXAMINE LOOP ➤ ]</a>
-        </div>
-      </article>
-
-      <!-- DOSSIER 3: STABLECOIN TRAP -->
-      <article class="dossier-card" id="dossier-stablecoin"
-               data-title="STABLECOIN FINANCIAL DEREGULATION"
-               data-takeaway="The GENIUS Act allows private tech firms to mint synthetic dollars without FDIC insurance or traditional bank capital reserve requirements. If a stablecoin run occurs, ordinary depositors lose everything while issuers enjoy sovereign bailout protections."
-               data-source="https://en.wikipedia.org/wiki/GENIUS_Act">
-        <div class="story-kicker kicker-red">▓▓ MONETARY CAPTURE ▓▓</div>
-        <h4 class="headline glow-green">PRIVATIZING THE MONEY PRINTER: THE GENIUS ACT &amp; THE STABLECOIN DEPOSITS TRAP</h4>
-        <p class="dossier-lead">Enacted as Public Law 119-27, the GENIUS Act creates federal charter pathways for private entities to issue dollar-pegged stablecoins. By exempting issuers from standard prudential banking regulations, it legalizes fractional reserve issuance by tech companies while stripping consumer deposit protections.</p>
-
-        <div class="dossier-grid">
-          <div class="dossier-panel panel-warn">
-            <div class="dossier-panel-title"><span>⚠️</span> THE HUMAN COST</div>
-            <p>Retail savings placed in fintech and crypto apps are vulnerable to sudden liquidity freezes. When synthetic tokens de-peg, ordinary families have zero FDIC insurance recourse.</p>
-          </div>
-          <div class="dossier-panel panel-smoke">
-            <div class="dossier-panel-title"><span>🎭</span> THE SMOKESCREEN</div>
-            <p>Promoted as "financial freedom and American dollar supremacy," while key sponsors and presidential family ventures concurrently launched commercial crypto platforms to profit directly.</p>
-          </div>
-        </div>
-
-        <details class="evidence-drawer" open>
-          <summary class="evidence-summary"><span>[+] PRIMARY EVIDENCE DOCKET: STATUTE MAP &amp; CONSUMER WARNINGS</span> <span>VERIFIED 📄</span></summary>
-          <div class="evidence-content">
-            <ul>
-              <li><strong>Statute Reference:</strong> United States Public Law 119-27 (GENIUS Act) - S. 1582 / 119th Congress.</li>
-              <li><strong>Regulatory Opposition:</strong> Consumer Reports formal analysis warning of non-bank financial systemic contagion risks.</li>
-              <li><strong>Executive Conflict:</strong> Launch of World Liberty Financial by the presidential family in parallel with stablecoin legislative acceleration.</li>
-            </ul>
-          </div>
-        </details>
-
-        <div class="dossier-action-bar">
-          <span class="record-badge">RECORD: 📄 CONGRESSIONAL RECORD</span>
-          <span class="dossier-tag">#GENIUS_ACT</span>
-          <span class="dossier-tag">#BANK_RUN_RISK</span>
-          <button class="maizey-scan-btn">🌽 ANALYZE WITH MAIZEY</button>
-          <a class="src-btn" href="https://en.wikipedia.org/wiki/GENIUS_Act" target="_blank" rel="noopener">[ READ LEGISLATION ➤ ]</a>
-        </div>
-      </article>
-
-      <!-- DOSSIER 4: AUTONOMOUS DRONE MONOPOLY -->
-      <article class="dossier-card" id="dossier-drones"
-               data-title="DEFENSE-AI DRONE OLIGOPOLY"
-               data-takeaway="Anduril, Palantir, and Shield AI have consolidated autonomous weapon contracts. Drone swarms with automated edge-AI target recognition are transitioning from border zones into municipal police surveillance grids."
-               data-source="https://goblinhouse.net/case-files/">
-        <div class="story-kicker kicker-red">▓▓ AUTONOMOUS WEAPONRY ▓▓</div>
-        <h4 class="headline glow-green">DEFENSE-AI PROCUREMENT MONOPOLY: AUTONOMOUS DRONE SWARMS OVER DOMESTIC AIRSPACE</h4>
-        <p class="dossier-lead">The Pentagon's "Replicator" program and uncrewed autonomous systems (UAS) contracts have been captured by a narrow cartel of venture-backed defense startups. These systems feature onboard machine-vision targeting algorithms capable of persistent tracking without continuous human control.</p>
-
-        <div class="dossier-grid">
-          <div class="dossier-panel panel-warn">
-            <div class="dossier-panel-title"><span>⚠️</span> THE HUMAN COST</div>
-            <p>Warzone automated surveillance platforms are being repurposed for domestic law enforcement and border patrol. Autonomous tracking without warrants turns public movement into an active target database.</p>
-          </div>
-          <div class="dossier-panel panel-tech">
-            <div class="dossier-panel-title"><span>📡</span> THE HARDWARE REALITY</div>
-            <p>Mystery drones reported near Langley AFB and rural New Jersey mirror private contractor field-testing of low-observable loitering systems and sensor suites, not otherworldly craft.</p>
-          </div>
-        </div>
-
-        <details class="evidence-drawer" open>
-          <summary class="evidence-summary"><span>[+] PRIMARY EVIDENCE DOCKET: REPLICATOR INITIATIVE &amp; PATENTS</span> <span>VERIFIED 📄</span></summary>
-          <div class="evidence-content">
-            <ul>
-              <li><strong>DoD Initiative:</strong> Deputy Secretary of Defense Replicator Initiative memoranda authorizing thousands of autonomous attritable UAS.</li>
-              <li><strong>Procurement concentration:</strong> Anduril Industries Lattice OS contracts and Autonomous Surveillance Towers (AST) deployed along domestic borders.</li>
-              <li><strong>FAA Disclosures:</strong> Special government airspace waivers granted for uncrewed defense contractor validation tests.</li>
-            </ul>
-          </div>
-        </details>
-
-        <div class="dossier-action-bar">
-          <span class="record-badge">RECORD: 📄 DEFENSE PROCUREMENT</span>
-          <span class="dossier-tag">#AUTONOMOUS_SWARMS</span>
-          <span class="dossier-tag">#LATTICE_OS</span>
-          <button class="maizey-scan-btn">🌽 ANALYZE WITH MAIZEY</button>
-          <a class="src-btn" href="https://goblinhouse.net/case-files/" target="_blank" rel="noopener">[ PROCUREMENT DOSSIER ➤ ]</a>
-        </div>
-      </article>
-
-    </section>
-  </main>
-
-  <aside class="sidebar">
-    <div class="side-box">
-      <div class="side-box-title">📑 DOSSIER INDEX</div>
-      <ul class="link-list">
-        <li><a href="#dossier-civil-service">1. Civil Service &amp; Schedule F</a></li>
-        <li><a href="#dossier-palantir">2. Palantir &amp; Biometric Grid</a></li>
-        <li><a href="#dossier-stablecoin">3. GENIUS Act &amp; Stablecoins</a></li>
-        <li><a href="#dossier-drones">4. Defense-AI Drone Swarms</a></li>
-      </ul>
-    </div>
-
-    <div class="side-box">
-      <div class="side-box-title">🔗 CITATION SOURCES</div>
-      <ul class="link-list">
-        <li><a href="https://goblinhouse.net/case-files/" target="_blank" rel="noopener">Goblin House — case files</a></li>
-        <li><a href="https://www.usaspending.gov" target="_blank" rel="noopener">USASpending.gov — Awards</a></li>
-        <li><a href="https://www.fec.gov" target="_blank" rel="noopener">FEC.gov — Campaign Finance</a></li>
-      </ul>
-    </div>
-  </aside>
-</div>
-
-<footer class="footer">
-  <div class="corn-rows" role="presentation"></div>
-  <p class="footer-line">© 2026 FINDALIENS — DIGGING UP THE DEEP STATE</p>
-  <p class="footer-line footer-links">
-    <a href="index.html">RETURN HOME</a> · <a href="#top">TOP</a>
-  </p>
-</footer>
-
-<!-- ============ MAIZEY ============ -->
-<div id="maizey" aria-live="polite">
-  <div id="maizey-bubble" hidden>
-    <span id="maizey-text"></span>
-    <button id="maizey-close" aria-label="Close Maizey's message">✕</button>
-  </div>
-  <button id="maizey-body" aria-label="Maizey, the site guide" title="Maizey — site guide">
-    <img src="img/maizey.png" width="73" height="96" alt="" aria-hidden="true">
-  </button>
-</div>
-
-<script src="js/starfield.js"></script>
-<script src="js/maizey.js"></script>
-<script src="mut/mut.js" defer></script>
+  </article>`).join("");
+document.getElementById("howto").innerHTML = HOWTO.map(([k, v]) => `<li><code>${k}</code><span>${v}</span></li>`).join("");
+</script>
+<script src="js/deep-state.js" defer></script>
 </body>
 </html>

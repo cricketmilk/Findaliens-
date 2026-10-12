@@ -180,6 +180,10 @@ const RATED_HOSTS = new Set(("nytimes.com washingtonpost.com wsj.com reuters.com
   "law.cornell.edu courtlistener.com oyez.org supremecourt.gov congress.gov archives.gov loc.gov ballotpedia.org opensecrets.org " +
   "mintz.com foley.com debevoise.com gibsondunn.com ballardspahr.com hunton.com sullcrom.com skadden.com wilmerhale.com lw.com davispolk.com " +
   "telegeography.com nber.org imf.org worldbank.org bis.org oecd.org un.org " +
+  // fact-checkers, the film and culture trades, and outlets that publish the documents themselves
+  "snopes.com politifact.com factcheck.org fullfact.org pen.org variety.com hollywoodreporter.com deadline.com rollingstone.com vanityfair.com vice.com theconversation.com " +
+  // defence journalism and the scholarly publishers
+  "twz.com thedrive.com journals.sagepub.com tandfonline.com jstor.org academic.oup.com link.springer.com muse.jhu.edu " +
   // libraries that hold the primary documents themselves
   "archive.org gutenberg.org").split(" "));
 function rated(url, claim) {

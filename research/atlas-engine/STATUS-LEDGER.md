@@ -257,7 +257,44 @@
      pill + index link clicks swap the inspector, file:// mounts nothing and
      reveals the fallback note. Gates: crash-conduits tests 26/26, wrangler
      dry-run exit 0. Live at /atlas.html after `npx wrangler deploy`, which
-     stays the operator's call. -->
+     stays the operator's call.
+     ACTUAL 2026-10-15: ATLAS PAGE REDESIGNED TO THE BANKNOTE BRIEF (art
+     direction from the operator's Gemini thread, round 2 — closing message
+     landed, thread left alone). Atlas before: 9,778px of page scroll with
+     the whole index inline; after: 3,528px. CHANGES, all page-local in
+     public/atlas.html (no tab page touched — grep proved only atlas.html
+     links atlas-ui.css, so the skin rides shared classes): era-first ticker
+     bar under the masthead (35 era codes, 64s marquee, off on
+     prefers-reduced-motion); banknote-framed head (double-inset hairline,
+     ink-2 field, gold corner denominations 108/Ω, red serials
+     CC·1636A·2026 / 330-YEAR LEDGER); index ledger grouped under 35 sticky
+     era headers with 4-col rows inside a 720px capped scrollbox with its
+     own scrollbar (the 6,196px index scrolls inside it); asymmetric grid
+     minmax(320px,1fr) minmax(420px,1.25fr) with a sticky inspector column;
+     atlas-ui.css linked BEFORE the page style block so page overrides win.
+     COHERENCE BUGS FIXED: (1) atlas-ui.css line 19 declares
+     --paper: var(--paper, #161813) expecting dark, but the Gazette token is
+     --paper: #e9efe9 (light), so every atlas-ui mounted panel rendered
+     LIGHT on the dark site — fixed by scoping --paper: #161813 onto the
+     three mount containers in atlas.html (page-local; no test pins the CSS,
+     no tab page consumes it). (2) the index is year-sorted but atlas-ui
+     auto-opened its own array order, so the marked first row (CC-1636-TULIP
+     by year) disagreed with the shown dossier (CC-1720-SOUTHSEA by array);
+     fixed with a no-hash default of '#'+dossiers[0].code so first paint
+     agrees. ART (FLUX.2 Klein via OpenRouter image API, black-forest-labs/
+     flux.2-klein-4b, C:\Forge\config.json models.fast): public/img/
+     atlas-seal.jpg (1024px guilloche seal, 112px, half-cut on the frame's
+     bottom edge) + atlas-vignette.jpg (1600x683 intaglio cornfield, 15%
+     cover layer behind the title); corners pure black to blend into ink;
+     key read from config at runtime, generated via throwaway atlas-art.mjs
+     (deleted); preload + og/twitter meta added. NOTE: *.jpg is
+     repo-ignored (.gitignore line 5, maizey-carbon.jpg precedent) so the
+     art lives on disk only — it ships in deploys from this machine (dry-run
+     read 110 public files incl. both) but is NOT in git; force-adding is
+     the operator's call. Gates: functional probe 21/21 (pills, cards, 108
+     rows, 35 era headers, ticker, sticky headers, hash routing, seal/
+     vignette loaded), node --test crash-conduits from-trove 37/37,
+     wrangler dry-run exit 0. Deploy stays the operator's call. -->
 
 # THE CORNFIELD GAZETTE — MASTER NODE STATUS LEDGER
 

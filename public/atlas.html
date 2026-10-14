@@ -9,6 +9,12 @@
 <title>Atlas · The Cornfield Gazette</title>
 <meta name="description" content="The compiled public atlas: every dossier in the Gazette's five investigations, 1636–2026, with its mechanism, five-stage extraction loop, closed-loop ratchet, adversarial audit and primary citations.">
 <meta name="theme-color" content="#050807">
+<link rel="preload" as="image" href="img/atlas-vignette.jpg">
+<meta property="og:title" content="The Atlas — The Cornfield Gazette">
+<meta property="og:description" content="Every dossier 1636–2026: the ten machinery classes, the eight cross-generational lineages, and all 108 entries with their extraction loops, ratchets, decoy audits and primary citations.">
+<meta property="og:image" content="https://findaliens.net/img/atlas-seal.jpg">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="atlas-ui.css">
 <style>
   :root {
     --ink: #050807; --ink-2: #08100c; --ink-3: #0c1611;
@@ -53,14 +59,35 @@
   .sections a:hover { color: var(--text); }
   .sections a[aria-current] { color: var(--gold); border-bottom-color: var(--gold); }
 
+  /* ---- the ticker: the running register under the masthead ---- */
+  .ticker-bar { overflow: hidden; border-bottom: 1px solid var(--rule); background: var(--ink-2); }
+  .ticker-inner { display: flex; width: max-content; padding: 7px 0; white-space: nowrap; animation: ticker 64s linear infinite; }
+  .ticker-inner span { font-family: var(--mono); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--faint); padding: 0 30px; }
+  .ticker-inner span b { font-weight: 500; color: var(--note-dim); }
+  @keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  @media (prefers-reduced-motion: reduce) { .ticker-inner { animation: none; } }
+
+  /* ---- the note: framed, cornered atlas head ---- */
+  .banknote-frame { position: relative; margin: 26px 0 10px; padding: 46px 110px 40px; text-align: center;
+    border: 1px solid var(--rule-2); background: radial-gradient(rgba(95, 224, 138, 0.05), transparent 72%), var(--ink-2);
+    box-shadow: inset 0 0 0 4px var(--ink), inset 0 0 0 5px var(--rule-2), 0 18px 44px rgba(0, 0, 0, 0.5); }
+  @media (max-width: 860px) { .banknote-frame { padding: 46px 24px 40px; } }
+  .corner { position: absolute; z-index: 2; font-family: var(--term); line-height: 1; }
+  .corner.denom { font-size: 46px; color: var(--gold); padding: 14px 18px; }
+  .corner.serial { font-size: 19px; letter-spacing: 0.18em; color: var(--red); padding: 20px 22px; }
+  .corner.tl { top: 0; left: 0; } .corner.tr { top: 0; right: 0; } .corner.bl { bottom: 0; left: 0; } .corner.br { bottom: 0; right: 0; }
+  .atlas-head { padding: 0; position: relative; z-index: 1; }
+  .frame-vignette { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 42%; opacity: 0.15; pointer-events: none; }
+  .atlas-seal { position: absolute; left: 50%; bottom: -56px; transform: translateX(-50%); z-index: 3;
+    width: 112px; height: 112px; border-radius: 50%; box-shadow: 0 0 0 1px var(--rule-2), 0 10px 30px rgba(0, 0, 0, 0.6); }
+
   /* ---- page title ---- */
-  .atlas-head { padding: 52px 0 8px; }
   .kicker { font-family: var(--mono); font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--note-dim); }
   h1.page-title { margin-top: 18px; font-family: var(--pixel); font-weight: 400; font-size: clamp(26px, 4.2vw, 54px); line-height: 1.14; letter-spacing: 0.02em;
     background: repeating-linear-gradient(180deg, var(--gold) 0 3px, #9c7a22 3px 4px);
     -webkit-background-clip: text; background-clip: text; color: transparent;
     filter: drop-shadow(4px 4px 0 rgba(95, 224, 138, 0.22)); }
-  .page-dek { margin-top: 22px; max-width: 38em; font-size: 18px; line-height: 1.55; color: var(--text); }
+  .page-dek { margin: 22px auto 0; max-width: 40em; font-size: 18px; line-height: 1.55; color: var(--text); }
 
   /* ---- sections ---- */
   section.sec { padding: 34px 0 6px; }
@@ -70,17 +97,25 @@
   .sec-head p { margin-top: 8px; max-width: 52em; font-size: 14px; color: var(--muted); }
 
   /* ---- dossier index + inspector two-column ---- */
-  .atlas-grid { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 40px; align-items: start; padding-bottom: 60px; }
+  .atlas-grid { display: grid; grid-template-columns: minmax(320px, 1fr) minmax(420px, 1.25fr); gap: 40px; align-items: start; padding-bottom: 60px; }
   @media (max-width: 1080px) { .atlas-grid { grid-template-columns: minmax(0, 1fr); } }
 
-  .atlas-index { list-style: none; margin-top: 14px; border-top: 1px solid var(--rule); }
+  /* ---- the index: a compact era-grouped ledger, not a 7,739px wall ---- */
+  .atlas-index-container { margin-top: 14px; max-height: 720px; overflow-y: auto;
+    border-top: 1px solid var(--rule); scrollbar-width: thin; scrollbar-color: var(--rule-2) transparent; }
+  .atlas-index-container::-webkit-scrollbar { width: 8px; }
+  .atlas-index-container::-webkit-scrollbar-thumb { background: var(--rule-2); }
+  @media (max-width: 1080px) { .atlas-index-container { max-height: 480px; } }
+  .atlas-index { list-style: none; }
   .atlas-index li { border-bottom: 1px solid var(--rule); }
-  .atlas-index a { display: grid; grid-template-columns: 64px 40px minmax(0, 1fr); gap: 12px; align-items: baseline; padding: 9px 10px; font-size: 13.5px; line-height: 1.45; color: var(--text); }
+  .atlas-index a { display: grid; grid-template-columns: 46px 128px minmax(0, 1fr) 32px; gap: 12px; align-items: baseline; padding: 7px 12px; font-size: 13px; line-height: 1.4; color: var(--text); }
   .atlas-index a:hover { background: var(--ink-2); }
-  .idx-year { font-family: var(--term); font-size: 19px; font-weight: 400; color: var(--gold); }
+  .idx-era { position: sticky; top: 0; z-index: 1; background: var(--ink); border-bottom: 1px solid var(--rule-2); padding: 8px 12px;
+    font-family: var(--mono); font-size: 10.5px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold-dim); }
+  .idx-year { font-family: var(--term); font-size: 18px; font-weight: 400; color: var(--gold); }
   .idx-code { font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.04em; color: var(--faint); }
-  .idx-title { color: var(--text); }
-  .idx-tier { font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em; margin-left: 8px; color: var(--muted); }
+  .idx-title { color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .idx-tier { font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em; color: var(--muted); text-align: right; }
   .idx-tier[data-tier="TIER_1_STATUTE_COURT"] { color: var(--gold); }
   .idx-tier[data-tier="TIER_2_INQUIRY"] { color: var(--note); }
   .idx-tier[data-tier="TIER_3_PRIMARY_LEDGER"] { color: var(--text); }
@@ -91,17 +126,32 @@
   /* ---- the dossier inspector column ---- */
   .atlas-dossier-col { position: sticky; top: 16px; }
   @media (max-width: 1080px) { .atlas-dossier-col { position: static; } }
-  .atlas-dossier-frame { border: 1px solid rgba(95, 224, 138, 0.38); background: linear-gradient(180deg, rgba(8, 16, 12, 0.92), rgba(5, 8, 7, 0.92)); padding: 20px 22px 24px; }
-  .atlas-dossier-frame::before { content: ""; display: block; border-bottom: 1px solid var(--rule); margin: -12px -14px 14px; height: 4px; }
+  .atlas-dossier-frame { position: relative; border: 1px solid var(--rule-2); background: var(--ink-2); padding: 24px 26px 28px;
+    box-shadow: inset 0 0 0 4px var(--ink), inset 0 0 0 5px var(--rule-2), 0 18px 44px rgba(0, 0, 0, 0.5); }
   .atlas-dossier-body { margin-top: 10px; font-size: 14px; }
   .atlas-dossier-body .dek { font-size: 14px; color: var(--muted); }
+
+  /* ---- banknote skin for the mounted atlas-ui regions (page-local) ----
+     atlas-ui.css's --paper is a dark PANEL color with a light-house-name collision;
+     scope the dark value to the mount containers, then dress the shared classes. */
+  [data-atlas-mechanisms], [data-atlas-lineages], .atlas-dossier-frame { --paper: #161813; }
+  [data-atlas-mechanisms] { display: flex; flex-wrap: wrap; gap: 8px; }
+  .atlas-mech-pill { background: var(--ink-3); border: 1px solid var(--rule-2); color: var(--muted);
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.5); transition: border-color 0.15s, color 0.15s, background 0.15s; }
+  .atlas-mech-pill:hover, .atlas-mech-pill[aria-pressed="true"] {
+    border-color: var(--gold); color: var(--gold); background: var(--rule); box-shadow: inset 0 0 12px rgba(247, 201, 72, 0.15); }
+  .atlas-lineage-card { background: var(--ink-2); border: 1px solid var(--rule-2); border-top: 2px solid var(--gold-dim);
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.35); }
+  .atlas-lineage-title { font-family: var(--pixel); font-size: 11px; line-height: 1.7; color: var(--gold); }
+  .atlas-ratchet-box { background: var(--ink-3); border: 1px solid var(--rule-2); border-left: 2px solid var(--gold-dim); }
+  .stamp { border-color: var(--red); color: var(--red); text-shadow: 0 0 6px rgba(255, 90, 79, 0.25); }
 
   /* ---- file:// fallback note ---- */
   .atlas-file-note { margin: 6px 0 60px; padding: 16px 20px; border: 1px solid var(--gold-dim); background: rgba(247, 201, 72, 0.06); font-size: 14px; color: var(--text); }
   .atlas-file-note b { color: var(--gold); font-family: var(--pixel); font-size: 10px; letter-spacing: 0.06em; }
   .atlas-file-note code { font-family: var(--mono); font-size: 12.5px; color: var(--note); background: var(--ink-2); padding: 1px 6px; border: 1px solid var(--rule); }
 </style>
-<link rel="stylesheet" href="atlas-ui.css">
 </head>
 <body>
 
@@ -119,12 +169,26 @@
   </div>
 </header>
 
+<div class="ticker-bar" aria-hidden="true">
+  <div class="ticker-inner" id="atlas-ticker">
+    <span><b>THE CORNFIELD GAZETTE</b>&nbsp;·&nbsp;THE 330-YEAR EXTRACTION LEDGER</span>
+  </div>
+</div>
+
 <main class="wrap">
-  <section class="atlas-head" aria-labelledby="atlas-title">
+  <div class="banknote-frame">
+    <img class="frame-vignette" src="img/atlas-vignette.jpg" alt="" aria-hidden="true">
+    <div class="corner denom tl" aria-hidden="true">108</div>
+    <div class="corner serial tr" aria-hidden="true">CC·1636A·2026</div>
+    <div class="corner serial bl" aria-hidden="true">330-YEAR LEDGER</div>
+    <div class="corner denom br" aria-hidden="true">Ω</div>
+    <img class="atlas-seal" src="img/atlas-seal.jpg" alt="" aria-hidden="true">
+    <section class="atlas-head" aria-labelledby="atlas-title">
     <p class="kicker">The Cornfield Gazette — the compiled atlas</p>
     <h1 class="page-title" id="atlas-title">THE&nbsp;ATLAS</h1>
     <p class="page-dek">Every dossier in the Gazette's investigations on one page — the ten machinery classes, the eight cross-generational lineages, and all 108 entries with their five-stage extraction loops, closed-loop ratchets, decoy-versus-ledger audits and primary citations.</p>
   </section>
+  </div>
 
   <section class="sec" aria-labelledby="mech-title">
     <div class="sec-head">
@@ -148,7 +212,9 @@
         <h2 id="idx-title"><span class="num">03</span>The dossier index</h2>
         <p>Every entry by year. Click one to open it in the dossier inspector.</p>
       </div>
-      <ol id="atlas-index-list" class="atlas-index" aria-label="All dossiers by year"></ol>
+      <div class="atlas-index-container">
+        <ol id="atlas-index-list" class="atlas-index" aria-label="All dossiers by year"></ol>
+      </div>
     </section>
 
     <section class="sec atlas-dossier-col" aria-labelledby="dossier-title">
@@ -201,18 +267,39 @@
     const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
     const TIER_SHORT = { TIER_1_STATUTE_COURT: 'T1', TIER_2_INQUIRY: 'T2', TIER_3_PRIMARY_LEDGER: 'T3', TIER_4_CONTEMPORARY_PRESS: 'T4' };
     if (list) {
-      list.innerHTML = dossiers.map((d) => `
+      let era = null;
+      list.innerHTML = dossiers.map((d) => {
+        let out = '';
+        if (d.eraId && d.eraId !== era) {
+          era = d.eraId;
+          out += `<li class="idx-era" aria-hidden="true">${esc(String(d.eraId).replace(/_/g, ' '))}</li>`;
+        }
+        out += `
         <li>
           <a href="#${esc(d.code)}">
             <b class="idx-year">${esc(d.yearStart ?? d.eraId)}</b>
             <span class="idx-code">${esc(d.code)}</span>
-            <span>
-              <span class="idx-title">${esc(d.title)}</span>
-              <span class="idx-tier" data-tier="${esc(d.tier)}">${esc(TIER_SHORT[d.tier] || '')}</span>
-            </span>
+            <span class="idx-title">${esc(d.title)}</span>
+            <span class="idx-tier" data-tier="${esc(d.tier)}">${esc(TIER_SHORT[d.tier] || '')}</span>
           </a>
-        </li>
-      `).join('');
+        </li>`;
+        return out;
+      }).join('');
+      const ticker = document.getElementById('atlas-ticker');
+      if (ticker) {
+        const seen = new Set();
+        const items = ['<span><b>THE CORNFIELD GAZETTE</b>&nbsp;·&nbsp;THE 330-YEAR EXTRACTION LEDGER</span>'];
+        for (const d of dossiers) {
+          const k = d.eraId || '—';
+          if (seen.has(k)) continue;
+          seen.add(k);
+          items.push(`<span><b>${esc(d.yearStart ?? '')}</b>&nbsp; ${esc(d.code)}</span>`);
+        }
+        ticker.innerHTML = items.join('') + items.join('');
+      }
+      // The index is sorted by year, so its first row is not atlas-ui's default dossier.
+      // Sync the hash so the inspector and the marked row agree from the first paint.
+      if (!window.location.hash && dossiers[0]?.code) window.location.hash = '#' + dossiers[0].code;
       const markActive = () => {
         const code = window.location.hash.replace(/^#/, '') || dossiers[0]?.code;
         list.querySelectorAll('a').forEach((a) => {

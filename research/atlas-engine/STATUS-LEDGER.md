@@ -296,6 +296,64 @@
      vignette loaded), node --test crash-conduits from-trove 37/37,
      wrangler dry-run exit 0. Deploy stays the operator's call. -->
 
+<!-- ACTUAL 2026-10-15 (later the same day): BANKNOTE SKIN ABANDONED FOR
+     THE CLEARING'S INK. The operator pasted a reference image (the pasted
+     upload landed in C:\Forge\data\uploads\1198ead7e85b128c.png); vision
+     (gemini-2.5-flash via the OpenRouter key, throwaway describe script,
+     deleted) identified it as THE CLEARING — the pixel-art hero of
+     public/deep-state.html: canvas #eye rendered by public/js/deep-state.js
+     (Bayer 8x8 dither, GLITCH palette, ink-dripping pyramid eye, glitch
+     road, square-outline forest edge, 50ms ticker honoring reduced-motion).
+     The atlas was re-skinned to that ink. CHANGES: (1) NEW
+     public/js/atlas-art.js (~275 lines): a DOM-free cornField() core — the
+     corn sibling of the Clearing (row-banded stipple, stalks/tassels,
+     square outlines, glitch pixels, two bobbing $-coins, eye pyramid,
+     drips, road) mounted onto #atlas-hero via globalThis.__atlasArt.cornField
+     (repo package.json is type:module, so the export rides globalThis),
+     50ms ticker, pointer aim, tap->tear. (2) public/atlas.html re-skinned:
+     tokens -> --ink #050505 / --well #0e0e0e / --panel #141414 / --line
+     #262626 / --line-2 #333 / --cyan #00f0ff / --cyan-dim #0b8b9b / --magenta
+     #ff2fd0 / --red #ff3355 / --paper #fff / --read #d9d9d9 / --text #e6e6e6 /
+     --dim #a3a3a3 / --mute #767676 (gold and green gone); canvas
+     image-rendering: pixelated; banknote frame -> figure.print + canvas
+     #atlas-hero + caption; h1 white with -3px cyan / +3px magenta split;
+     index tiers T1 cyan / T2 magenta / T3 read / T4 mute; mounts scoped
+     --paper: #141414; the two FLUX jpgs removed from markup and preload,
+     og:image -> the rendered PNG (see 4). (3) TOKEN-COLLISION FIX: the
+     mount-scoped --paper (#141414, which makes --paper mean "dark panel"
+     where atlas-ui expects light) ate two rules that reached for it from
+     inside the mounts — .atlas-mech-pill:hover/aria-pressed rendered dark
+     (its "invert to paper" bg came back dark) and .atlas-lineage-title
+     rendered #141414-on-#141414 invisible; both now use literals #ffffff /
+     #050505, and the probe grew a lineage-title contrast assertion so the
+     miss cannot recur. (4) NEW public/img/atlas-og.png (1200x720, 39,264 B):
+     rendered from the same cornField core (x5 nearest-neighbour, minimal
+     PNG encoder, throwaway script, deleted) — ink 45.1% / paper 41.3% /
+     colour 13.6%. PNG is NOT git-ignored, so the art is committable and
+     the banknote entry's "disk-only art" concern is dissolved. The two
+     unreferenced jpgs (atlas-seal.jpg, atlas-vignette.jpg — grep found no
+     markup reference, only this ledger's own prose) were DELETED: *.jpg is
+     .gitignore'd (line 5), and they were still inside public/, i.e.
+     shipping to the edge as dead assets (dry-run read 112 files incl.
+     both; after deletion 110). Gates: functional probe 30/30 against a
+     tmp static server rooted at public/ (page errors, hero canvas 280x162
+     with 10 distinct colours, zero .jpg requests, 11 pills, 8 lineage
+     cards, 108 rows, 35 era headers, ticker era-first, sticky headers,
+     720px index scrollbox, hash routing incl. the _1636-suffixed first
+     paint, RGB-split title, print frame + hard shadow, og:image, mount
+     --paper, lineage-title contrast, art script 200, tap raises no
+     error; the "scroll <4200" assertion was re-aimed: hero print is
+     intentionally ~703px tall — the Clearing's own aspect — and the
+     3,869px dossier column is atlas-ui's own ESTATES rendering, so the
+     probe now measures the default-dossier page <5000 = 4427px);
+     node --test crash-conduits from-trove 37/37; wrangler dry-run exit 0
+     (110 public files). Throwaway scripts (tmp-serve/probe/measure/og.mjs
+     in the repo root, tmp-vision-describe.mjs in C:\xixoxis) deleted.
+     Legacy pages NOT touched (pre-existing unstaged changes elsewhere
+     left unstaged). Commit by filename only: public/atlas.html,
+     public/js/atlas-art.js, public/img/atlas-og.png, this ledger.
+     Deploy stays the operator's call. -->
+
 # THE CORNFIELD GAZETTE — MASTER NODE STATUS LEDGER
 
 | Node Code | Title / Scope | Era | Evidence Tier | Seeding Providers | Verify Pass | UI Wired | Done |

@@ -1,0 +1,51 @@
+{
+  "code": "PH-2001-ESPEED",
+  "eraId": "ERA-09-2001",
+  "yearStart": 1999,
+  "yearEnd": 2011,
+  "title": "Grief as Leverage: The Firm That Died on 9/11 Patented the Treasury Market's Pipes",
+  "primaryTab": "transhumanism",
+  "secondaryTabs": ["crash-conduits", "deep-state"],
+  "mechanism": "PATENT_CHOKE_POINT",
+  "tier": "TIER_1_STATUTE_COURT",
+  "auditDisposition": "DOCUMENTED",
+  "participants": ["Cantor Fitzgerald", "eSpeed Inc.", "BrokerTec USA", "American Airlines", "U.S. District Court for the District of Delaware", "U.S. Court of Appeals for the Federal Circuit"],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "Cantor Fitzgerald spun off eSpeed in a 1999 Nasdaq IPO, monetizing its dominant Treasury brokerage position by attaching patent claims to the basic act of electronic matching of financial instruments.",
+    "stage2_structuralCompromise": "Patent law was converted from protection of invention into a toll booth over market infrastructure: whoever owned matching patents owned the electronic plumbing of the deepest bond market on earth.",
+    "stage3_informationFog": "The 9/11 catastrophe — 658 Cantor employees killed in the North Tower — enveloped the firm in an aura of pure victimhood that rendered its aggressive IP enforcement and infrastructure claims socially and judicially unassailable.",
+    "stage4_monopolyWindfall": "eSpeed litigated BrokerTec through the Delaware courts from 2004 into the Federal Circuit's 2007 ruling, contesting infringement and validity of matching patents while collecting positional rents on Treasury trading's electronic migration.",
+    "stage5_merseyWhitewash": "The Cantor Fitzgerald v. American Airlines negligence suit (S.D.N.Y. 2011) and the firm's canonization as 9/11's greatest corporate martyr sealed the record on loss, while the patent choke point over Treasury plumbing receded from public accounting."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "eSpeed inherited Cantor Fitzgerald's decades-old interdealer dominance in US Treasury trading and the 1990s patent regime governing software-era business methods.",
+    "newFrameworkCreated": "The litigation established patent licensing as a durable control layer over electronic fixed-income markets, outliving eSpeed's absorption into BGC Partners.",
+    "closedLoopRecirculation": "Patent enforcement revenue and licensing leverage over rivals like BrokerTec flowed back to the Cantor/BGC complex, funding further acquisition of trading infrastructure.",
+    "enablesNextDossier": "The model — proprietary control of matching engines for sovereign-debt cash markets — prefigured the exchange and platform monopolies that structured the 2008-era derivatives and Treasury clearing landscape."
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "Cantor Fitzgerald made billions from 9/11 compensation or traded on insider foreknowledge of the attacks.",
+    "whyDecoyFails": "The firm's human, physical, and business losses on 9/11 are exhaustively documented, and its post-attack recoveries came through open-court litigation such as the American Airlines negligence suit, not hidden windfalls.",
+    "documentedLedger": "The real ledger is the patent portfolio over electronic matching — a choke point on the Treasury market's infrastructure enforced in court from 2004 to 2007, monetizing the pipes of bond trading regardless of who died defending the building."
+  },
+  "citationIds": [
+    "CIT-2001-SEC-0001125282-01-000852",
+    "CIT-2001-SEC-0001125282-01-500926",
+    "CIT-2001-SEC-0001125282-01-500480",
+    "CIT-2001-CL-2379843",
+    "CIT-2001-CL-2315728",
+    "CIT-2001-CL-2458173",
+    "CIT-2001-CL-210724",
+    "CIT-2001-CL-8707309"
+  ],
+  "citations": [
+    { "id": "CIT-2001-SEC-0001125282-01-000852", "tier": "TIER_3_PRIMARY_LEDGER", "title": "SEC Form 10-K — ESPEED INC (BGC) (CIK 0001094831) (2001-03-06)", "url": "https://www.sec.gov/Archives/edgar/data/1094831/000112528201000852/0001125282-01-000852-index.htm", "quoteOrFact": "SEC EDGAR Accession 0001125282-01-000852 filed 2001-03-06 by ESPEED INC (BGC) (CIK 0001094831)." },
+    { "id": "CIT-2001-SEC-0001125282-01-500926", "tier": "TIER_3_PRIMARY_LEDGER", "title": "SEC Form 10-K/A — ESPEED INC (BGC) (CIK 0001094831) (2001-06-15)", "url": "https://www.sec.gov/Archives/edgar/data/1094831/000112528201500926/0001125282-01-500926-index.htm", "quoteOrFact": "SEC EDGAR Accession 0001125282-01-500926 filed 2001-06-15 by ESPEED INC (BGC) (CIK 0001094831)." },
+    { "id": "CIT-2001-SEC-0001125282-01-500480", "tier": "TIER_3_PRIMARY_LEDGER", "title": "SEC Form 10-Q — ESPEED INC (BGC) (CIK 0001094831) (2001-05-15)", "url": "https://www.sec.gov/Archives/edgar/data/1094831/000112528201500480/0001125282-01-500480-index.htm", "quoteOrFact": "SEC EDGAR Accession 0001125282-01-500480 filed 2001-05-15 by ESPEED INC (BGC) (CIK 0001094831)." },
+    { "id": "CIT-2001-CL-2379843", "tier": "TIER_1_STATUTE_COURT", "title": "eSpeed, Inc. v. BrokerTec USA, L.L.C. (342 F. Supp. 2d 244, 2004-10-25)", "url": "https://www.courtlistener.com/opinion/2379843/espeed-inc-v-brokertec-usa-llc/", "quoteOrFact": "Filed 2004-10-25 in District Court, D. Delaware" },
+    { "id": "CIT-2001-CL-2315728", "tier": "TIER_1_STATUTE_COURT", "title": "Espeed, Inc. v. Brokertec USA, L.L.C. (404 F. Supp. 2d 575, 2005-12-05)", "url": "https://www.courtlistener.com/opinion/2315728/espeed-inc-v-brokertec-usa-llc/", "quoteOrFact": "Filed 2005-12-05 in District Court, D. Delaware" },
+    { "id": "CIT-2001-CL-2458173", "tier": "TIER_1_STATUTE_COURT", "title": "eSpeed, Inc. v. BrokerTec USA, L.L.C. (417 F. Supp. 2d 580, 2006-02-22)", "url": "https://www.courtlistener.com/opinion/2458173/espeed-inc-v-brokertec-usa-llc/", "quoteOrFact": "Filed 2006-02-22 in District Court, D. Delaware" },
+    { "id": "CIT-2001-CL-210724", "tier": "TIER_1_STATUTE_COURT", "title": "eSpeed, Inc. v. BrokerTec USA, L.L.C. (480 F.3d 1129, 2007-03-20)", "url": "https://www.courtlistener.com/opinion/210724/espeed-inc-v-brokertec-usa-llc/", "quoteOrFact": "Filed 2007-03-20 in Court of Appeals for the Federal Circuit" },
+    { "id": "CIT-2001-CL-8707309", "tier": "TIER_1_STATUTE_COURT", "title": "Cantor Fitzgerald & Co. v. American Airlines, Inc. (760 F. Supp. 2d 433, 2011-01-19)", "url": "https://www.courtlistener.com/opinion/8707309/cantor-fitzgerald-co-v-american-airlines-inc/", "quoteOrFact": "Filed 2011-01-19 in District Court, S.D. New York" }
+  ]
+}

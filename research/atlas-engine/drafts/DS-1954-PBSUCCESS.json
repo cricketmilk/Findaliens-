@@ -1,0 +1,72 @@
+{
+  "code": "DS-1954-PBSUCCESS",
+  "eraId": "ERA-08-1953",
+  "yearStart": 1954,
+  "yearEnd": 1954,
+  "title": "United Fruit, the Dulles Brothers, and the CIA's Land-Grab Coup: PBSuccess",
+  "primaryTab": "deep-state",
+  "secondaryTabs": [
+    "crash-conduits",
+    "consent"
+  ],
+  "mechanism": "OFFSHORE_BLACK_LEDGER",
+  "tier": "TIER_3_PRIMARY_LEDGER",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "Jacobo Árbenz",
+    "United Fruit Company",
+    "Allen Dulles",
+    "John Foster Dulles",
+    "Sullivan & Cromwell",
+    "Carlos Castillo Armas",
+    "CIA",
+    "Nick Cullather",
+    "Czechoslovakia (arms supplier)"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "United Fruit Company stood to profit up front by keeping its vast Guatemalan land holdings intact and undistributed. Árbenz's Decree 900 (1952) threatened to redistribute unused UFC land, with compensation pegged to the company's own declared tax valuations — far below market — making the company's understated tax declarations the core of the dispute.",
+    "stage2_structuralCompromise": "The structural arrangement was the fusion of corporate counsel and state power: the Dulles brothers held UFC-linked interests and Sullivan & Cromwell had represented United Fruit, while Allen Dulles ran the CIA. United Fruit lobbied Washington intensively, and the company's private land dispute gained access to covert state machinery.",
+    "stage3_informationFog": "The March 1953 Czechoslovak arms purchase by Guatemala supplied the 'communist penetration' framing that masked a land dispute as a Cold War necessity. PBSuccess planning (1952–53) proceeded covertly, invisible to the public and to any accountability process, under cover of anti-communist justification.",
+    "stage4_monopolyWindfall": "After the June 1954 coup, Carlos Castillo Armas became president and UFC lands were largely returned. The windfall — restoration of the company's Guatemalan land monopoly and the cheap-declaration tax baseline — was captured by United Fruit and its shareholders.",
+    "stage5_merseyWhitewash": "The operation was laundered as a Cold War victory against communist penetration rather than a corporate land recovery. The CIA's own declassified history (Nick Cullather, 1994) eventually documented the operation, but the decades of civil conflict that followed were never truly accounted for by the beneficiaries."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "It inherited the early Cold War national-security state framework, in which anti-communist framing justified covert intervention anywhere perceived Soviet influence appeared.",
+    "newFrameworkCreated": "It created the template for CIA-directed covert regime change under a communist-penetration justification, formally documented only decades later in declassified histories.",
+    "closedLoopRecirculation": "United Fruit's restored lands and protected low tax valuations rolled into continued extraction from Guatemala, while the Dulles-era fusion of corporate counsel and intelligence power carried into subsequent interventions.",
+    "enablesNextDossier": "By demonstrating that a private land dispute could be converted into a covert state operation, PBSuccess established the playbook of corporate-captured foreign policy that subsequent dossiers in this lineage trace."
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "The pop-culture version: a thrilling Cold War spy story of brave American agents stopping a communist beachhead in Latin America, with Árbenz as a Soviet pawn and the coup as a regrettable necessity.",
+    "whyDecoyFails": "That frame erases the documented mechanism: the dispute's core was compensation pegged to United Fruit's own understated tax valuations, and the Dulles brothers' UFC-linked interests and Sullivan & Cromwell's representation of the company are documented in scholarship. The Cold War framing was the fog, not the motive.",
+    "documentedLedger": "In 1952, Árbenz's Decree 900 redistributed unused land including United Fruit Company holdings, with compensation pegged to UFC's own declared tax valuations, far below market. After Guatemala's March 1953 arms purchase from Czechoslovakia supplied the 'communist penetration' framing, the CIA planned PBSuccess in 1952–53 and directed the operation that overthrew Árbenz in June 1954, as documented in the CIA's declassified history by Nick Cullather (1994). Carlos Castillo Armas became president; UFC lands were largely returned, and decades of civil conflict followed. The Dulles brothers' UFC-linked interests and Sullivan & Cromwell's representation of the company are documented in scholarship."
+  },
+  "citationIds": [
+    "CIT-1954-WD-Q976887",
+    "CIT-1954-WD-Q65591387",
+    "CIT-1954-WD-Q216943"
+  ],
+  "citations": [
+    {
+      "id": "CIT-1954-WD-Q976887",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Corporate Lineage Entity: 1954 Guatemalan coup d'état (Q976887)",
+      "url": "https://www.wikidata.org/entity/Q976887",
+      "quoteOrFact": "1954 Guatemalan coup d'état"
+    },
+    {
+      "id": "CIT-1954-WD-Q65591387",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Corporate Lineage Entity: United Fruit Company Infrastructure (Q65591387)",
+      "url": "https://www.wikidata.org/entity/Q65591387",
+      "quoteOrFact": "United Fruit Company Infrastructure"
+    },
+    {
+      "id": "CIT-1954-WD-Q216943",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Corporate Lineage Entity: Jacobo Árbenz (Q216943)",
+      "url": "https://www.wikidata.org/entity/Q216943",
+      "quoteOrFact": "Jacobo Árbenz"
+    }
+  ]
+}

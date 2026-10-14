@@ -1,0 +1,52 @@
+{
+  "code": "CB-1912-STEERAGE",
+  "eraId": "ERA-06-1910",
+  "yearStart": 1912,
+  "yearEnd": 1912,
+  "title": "Locked Gates and Steerage Deaths: How White Star Priced Third-Class Passengers as Ballast",
+  "primaryTab": "carbon-class",
+  "secondaryTabs": [
+    "consent",
+    "crash-conduits"
+  ],
+  "mechanism": "MERSEY_LIABILITY_WHITEWASH",
+  "tier": "TIER_3_PRIMARY_LEDGER",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "White Star Line",
+    "J. Bruce Ismay",
+    "United States Senate Smith Committee",
+    "Lord Mersey (British Wreck Commissioner)",
+    "International Convention for the Safety of Life at Sea (SOLAS)"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "Steerage fares collected from roughly 2,200 passengers, including masses of third-class emigrants, funded a luxury vessel whose lifeboat capacity was calculated for a fraction of those aboard — the skim was structural, priced into the ticket.",
+    "stage2_structuralCompromise": "Passenger safety law of the era tied lifeboat requirements to tonnage rather than souls carried, allowing White Star to run a legally compliant vessel that could not evacuate its own manifest; physical barriers and gate arrangements between steerage and the boat deck compounded the deficit.",
+    "stage3_informationFog": "Third-class passengers, many of them immigrants with limited English, were left without guidance or accessible routes upward as the ship foundered; the ship's navigation at speed through a known ice field was normalized in company testimony as routine seamanship.",
+    "stage4_monopolyWindfall": "The transatlantic emigrant trade's dominant carriers captured fares on the promise of speed and grandeur while externalizing death risk onto the cheapest-fare class; Ismay's survival preserved the managing director who embodied that cost-transfer model.",
+    "stage5_merseyWhitewash": "The Mersey inquiry focused its findings on crew conduct and seamanship rather than company policy, declined to censure Ismay, and closed the liability loop for the parent company; the US Smith Committee pressed harder but the British verdict became the operative record."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "White Star inherited the tonnage-based lifeboat regulatory regime and the transatlantic shipping cartel's immunity from soul-based capacity mandates, both established machinery of cost externalization.",
+    "newFrameworkCreated": "The 1913-1914 SOLAS convention created the first binding international maritime safety framework, mandating lifeboat capacity for all aboard and institutionalizing state enforcement of carrier obligations.",
+    "closedLoopRecirculation": "Because SOLAS framed the remedy as equipment mandates and procedural rules rather than liability for the corporate gate-and-fare architecture, the carriers kept their fare structures and reputations; Ismay retired un-censured and the company escaped structural indictment.",
+    "enablesNextDossier": "The Mersey model — a state-commissioned inquiry that indicts operational staff while absolving corporate policy — became the template for later disaster tribunals across extraction industries, deferring liability indefinitely."
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "The iceberg-as-villain narrative, amplified by the legend of the doomed unsinkable ship, cast the sinking as an act of nature and bad luck rather than a costed business decision.",
+    "whyDecoyFails": "Icebergs do not lock steerage gates, under-stock lifeboats to tonnage rules, or run at speed through a reported ice field; the class-gradient death toll — proportionally far higher in third class than first — is the ledger entry the iceberg story erases.",
+    "documentedLedger": "Contemporary reports and the 1912-1913 US Senate Smith Committee inquiry documented locked gates and passageway arrangements hindering third-class access to the boat deck; the British Wreck Commissioner (Mersey) inquiry investigated the loss and has been criticized as a whitewash for its focus on crew conduct over company policy; the SOLAS convention followed."
+  },
+  "citationIds": [
+    "CIT-1912-WD-Q25173"
+  ],
+  "citations": [
+    {
+      "id": "CIT-1912-WD-Q25173",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Corporate Lineage Entity: Titanic (Q25173)",
+      "url": "https://www.wikidata.org/entity/Q25173",
+      "quoteOrFact": "Titanic"
+    }
+  ]
+}

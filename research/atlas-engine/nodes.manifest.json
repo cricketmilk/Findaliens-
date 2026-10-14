@@ -1,0 +1,1235 @@
+{
+  "manifestVersion": "2.0.0",
+  "nodeTypes": {
+    "ERA": {
+      "requiredFields": [
+        "id",
+        "yearStart",
+        "yearEnd",
+        "title",
+        "ratchet"
+      ],
+      "template": {
+        "id": "ERA-XX-YYYY",
+        "yearStart": 1900,
+        "yearEnd": 1920,
+        "title": "",
+        "ratchet": {
+          "inheritsFromEra": "ERA-XX-PREV",
+          "precedentInherited": "",
+          "frameworkCreated": "",
+          "closedLoopMechanics": "",
+          "seedsNextEra": "ERA-XX-NEXT"
+        }
+      }
+    },
+    "DOSSIER": {
+      "requiredFields": [
+        "code",
+        "eraId",
+        "yearStart",
+        "yearEnd",
+        "title",
+        "primaryTab",
+        "mechanism",
+        "tier",
+        "auditDisposition",
+        "participants",
+        "extractionLoop",
+        "closedLoopRatchet",
+        "decoyVsLedger",
+        "citationIds"
+      ],
+      "template": {
+        "code": "CC-YYYY-SLUG",
+        "eraId": "ERA-XX-YYYY",
+        "yearStart": 1900,
+        "yearEnd": 1901,
+        "title": "",
+        "primaryTab": "crash-conduits",
+        "secondaryTabs": [
+          "deep-state"
+        ],
+        "mechanism": "CENTRAL_BANK_LIQUIDITY",
+        "tier": "TIER_1_STATUTE_COURT",
+        "auditDisposition": "DOCUMENTED",
+        "participants": [],
+        "extractionLoop": {
+          "stage1_upfrontSkim": "",
+          "stage2_structuralCompromise": "",
+          "stage3_informationFog": "",
+          "stage4_monopolyWindfall": "",
+          "stage5_merseyWhitewash": ""
+        },
+        "closedLoopRatchet": {
+          "inheritedFramework": "",
+          "newFrameworkCreated": "",
+          "closedLoopRecirculation": "",
+          "enablesNextDossier": ""
+        },
+        "decoyVsLedger": {
+          "viralDecoy": "",
+          "whyDecoyFails": "",
+          "documentedLedger": ""
+        },
+        "citationIds": []
+      }
+    }
+  },
+  "plannedQueue": [
+    {
+      "code": "CC-1720-SOUTHSEA",
+      "era": "ERA-01-1694",
+      "providers": [
+        "hansard"
+      ],
+      "status": "DONE"
+    },
+    {
+      "code": "CC-1773-EIC",
+      "era": "ERA-02-1769",
+      "providers": [
+        "hansard"
+      ],
+      "status": "DONE"
+    },
+    {
+      "code": "CC-1815-WATERLOO",
+      "era": "ERA-03-1815",
+      "providers": [
+        "hansard"
+      ],
+      "status": "DONE"
+    },
+    {
+      "code": "CB-1845-COFFIN",
+      "era": "ERA-04-1845",
+      "providers": [
+        "hansard",
+        "courtlistener"
+      ],
+      "status": "DONE"
+    },
+    {
+      "code": "CC-1861-MORGAN",
+      "era": "ERA-05-1861",
+      "providers": [
+        "courtlistener",
+        "govinfo"
+      ],
+      "status": "DONE"
+    },
+    {
+      "code": "CC-1912-IMM",
+      "era": "ERA-06-1910",
+      "providers": [
+        "courtlistener",
+        "govinfo",
+        "loc"
+      ],
+      "status": "DONE"
+    },
+    {
+      "code": "DS-1912-TITANIC",
+      "era": "ERA-06-1910",
+      "providers": [
+        "courtlistener",
+        "hansard",
+        "govinfo"
+      ],
+      "status": "DONE"
+    },
+    {
+      "code": "CC-1914-MORGAN",
+      "era": "ERA-06-1910",
+      "providers": [
+        "govinfo",
+        "loc"
+      ],
+      "status": "DONE"
+    },
+    {
+      "code": "DS-1915-LUSITANIA",
+      "era": "ERA-06-1910",
+      "providers": [
+        "hansard",
+        "govinfo"
+      ],
+      "status": "DONE"
+    },
+    {
+      "code": "DS-1942-IGFARBEN",
+      "era": "ERA-07-1929",
+      "providers": [
+        "govinfo",
+        "courtlistener"
+      ],
+      "status": "DONE"
+    },
+    {
+      "code": "DS-1982-INSLAW",
+      "era": "ERA-08-1953",
+      "providers": [
+        "courtlistener",
+        "govinfo"
+      ],
+      "status": "DONE"
+    },
+    {
+      "code": "CC-2001-WTC7",
+      "era": "ERA-09-2001",
+      "providers": [
+        "govinfo",
+        "edgar"
+      ],
+      "status": "DONE"
+    },
+    {
+      "code": "DS-2001-911",
+      "era": "ERA-09-2001",
+      "providers": [
+        "govinfo",
+        "edgar"
+      ],
+      "status": "DONE"
+    },
+    {
+      "code": "CC-2008-TARP",
+      "era": "ERA-09-2001",
+      "providers": [
+        "govinfo",
+        "edgar"
+      ],
+      "status": "DONE"
+    },
+    {
+      "code": "DS-2025-PALANTIR",
+      "era": "ERA-10-2020",
+      "providers": [
+        "usaspending",
+        "edgar",
+        "govinfo"
+      ],
+      "status": "DONE"
+    },
+    {
+      "code": "CC-2026-ARBITRAGE",
+      "era": "ERA-10-2020",
+      "providers": [
+        "edgar",
+        "courtlistener"
+      ],
+      "status": "DONE"
+    },
+    {
+      "code": "DS-1720-WALPOLE",
+      "era": "ERA-01-1694",
+      "providers": [
+        "hansard",
+        "wikidata"
+      ],
+      "status": "DONE",
+      "topic": "South Sea Bubble Walpole",
+      "queries": [
+        {
+          "q": "South Sea Bubble",
+          "year": 1720,
+          "strong": [
+            "south sea"
+          ]
+        },
+        {
+          "q": "Walpole",
+          "year": 1721,
+          "strong": [
+            "walpole"
+          ]
+        },
+        {
+          "q": "South Sea Company",
+          "year": 1720,
+          "strong": [
+            "south sea"
+          ],
+          "providers": [
+            "wikidata"
+          ]
+        }
+      ],
+      "anchors": [
+        "South Sea Company: chartered 1711 as a public-private monopoly on trade with Spanish South America in exchange for converting government annuity debt into company shares.",
+        "The 1719-1720 debt-for-equity conversion scheme: holders of government annuities could exchange them for South Sea stock; the share price rose roughly tenfold in 1720 before the September crash.",
+        "The Bubble Act (June 1720) restricted rival joint-stock promotion, concentrating speculation in South Sea stock; the 1721 Commons inquiry documented bribery of ministers and MPs via stock ledger entries.",
+        "Robert Walpole survived the scandal; his 1721-1722 rise to lead the government was consolidated by his handling of the resolution — the episode was known as the Screen.",
+        "The citations for this dossier are the South Sea Company entity and the 1807-1820 winding-up Acts; the scandal and inquiry records are the historical context, not cited as case law."
+      ]
+    },
+    {
+      "code": "CB-1770-BENGAL",
+      "era": "ERA-02-1769",
+      "providers": [
+        "hansard",
+        "wikidata"
+      ],
+      "status": "DONE",
+      "topic": "Bengal famine East India Company",
+      "queries": [
+        {
+          "q": "Bengal famine",
+          "year": 1770,
+          "strong": [
+            "bengal",
+            "famine"
+          ]
+        },
+        {
+          "q": "East India Company",
+          "year": 1773,
+          "strong": [
+            "east india"
+          ]
+        },
+        {
+          "q": "East India Company",
+          "year": 1770,
+          "strong": [
+            "east india"
+          ],
+          "providers": [
+            "wikidata"
+          ]
+        }
+      ],
+      "anchors": [
+        "East India Company: private joint-stock company with monopoly on trade east of the Cape; after Plassey (1757) it collected the revenue (diwani) of Bengal, Bihar and Orissa.",
+        "The Bengal famine of 1770 is estimated in contemporaneous Company and Indian sources to have killed roughly a third of the population of the affected provinces.",
+        "The Company continued land-tax collection at high fixed demand during the famine years, and the price of rice and other grains rose dramatically in 1769-1770.",
+        "The 1773 Regulating Act and the Tea Act followed: Parliament tightened control over the Company, granted a 1.4 million pound loan to relieve its debts, and left its monopoly intact - the loan was repaid through continued Bengal revenue.",
+        "The 1784 India Act further subordinated the Company to a parliamentary Board of Control - the famine and the companys insolvency were cited as causes of the reform."
+      ]
+    },
+    {
+      "code": "DS-1815-COURIER",
+      "era": "ERA-03-1815",
+      "providers": [
+        "hansard",
+        "wikidata"
+      ],
+      "status": "DONE",
+      "topic": "Waterloo Rothschild couriers",
+      "queries": [
+        {
+          "q": "Waterloo",
+          "year": 1815,
+          "strong": [
+            "waterloo"
+          ]
+        },
+        {
+          "q": "Rothschild",
+          "year": 1815,
+          "strong": [
+            "rothschild"
+          ]
+        },
+        {
+          "q": "Battle of Waterloo",
+          "year": 1815,
+          "strong": [
+            "waterloo"
+          ],
+          "providers": [
+            "wikidata"
+          ]
+        },
+        {
+          "q": "N M Rothschild & Sons",
+          "year": 1815,
+          "strong": [
+            "rothschild"
+          ],
+          "providers": [
+            "wikidata"
+          ]
+        }
+      ],
+      "anchors": [
+        "Nathan Mayer Rothschild: head of the London branch of the family bank, the leading financier of the British war effort against Napoleon after 1813.",
+        "The traditional account: Rothschild had advance news of Napoleons defeat at Waterloo (June 18 1815) via courier or channel, and profited on the London Stock Exchange - the details of the exact channel and the extent of any exclusivity are disputed and were not contemporaneously documented.",
+        "The verifiable core: Rothschilds agents and correspondents gave him faster news of Napoleons return and defeat than the government had, and the Rothschild network financed the post-war adjustment of British government securities.",
+        "After Waterloo the Rothschild brothers (London and Paris) dominated government loan issuance across Europe; their first major operation was financing the French indemnity payment to the Allied powers.",
+        "The courier legend became a durable viral story about insider advantage at the heart of modern finance; the documented record is of a family bank that built a private intelligence network faster than the governments of Europe."
+      ]
+    },
+    {
+      "code": "CC-1849-ESTATES",
+      "era": "ERA-04-1845",
+      "providers": [
+        "hansard"
+      ],
+      "status": "DONE",
+      "topic": "Encumbered Estates Court Ireland",
+      "queries": [
+        {
+          "q": "Encumbered Estates Court",
+          "year": 1850,
+          "strong": [
+            "encumbered estates court"
+          ],
+          "providers": [
+            "loc"
+          ]
+        },
+        {
+          "q": "Incumbered estates Ireland",
+          "year": 1849,
+          "strong": [
+            "incumbered estates"
+          ],
+          "providers": [
+            "loc"
+          ]
+        },
+        {
+          "q": "Encumbered Estates",
+          "year": 1849,
+          "strong": [
+            "encumbered estates"
+          ],
+          "providers": [
+            "wikidata"
+          ]
+        },
+        {
+          "q": "Great Famine",
+          "year": 1849,
+          "strong": [
+            "great irish famine"
+          ],
+          "providers": [
+            "wikidata"
+          ]
+        },
+        {
+          "q": "Landed Estates Court",
+          "year": 1858,
+          "strong": [
+            "landed estates court"
+          ],
+          "providers": [
+            "wikidata"
+          ]
+        },
+        {
+          "q": "Encumbered Estates",
+          "year": 1855,
+          "strong": [
+            "encumbered estates"
+          ],
+          "providers": [
+            "hansard"
+          ]
+        },
+        {
+          "q": "Incumbered Estates",
+          "year": 1855,
+          "strong": [
+            "incumbered estates"
+          ],
+          "providers": [
+            "hansard"
+          ]
+        }
+      ],
+      "anchors": [
+        "The Great Irish Famine (1845–52) collapsed Irish rents and land values; the potato failures of 1845–49 killed on the order of a million people and drove mass emigration, while landlords’ rental income failed and their encumbrances — mortgages and judgement debts, owed largely to English and London lenders — remained fixed.",
+        "The Encumbered Estates Act 1849 (passed August 1849) established the Encumbered Estates Court with power to sell encumbered Irish estates quickly, overriding prior judicial and settlement constraints on sale, and to pay the proceeds to creditors ahead of other interests.",
+        "The court sat from 1849–50; sales began in 1850, and estates fetched famine-depression prices far below pre-famine values. On the order of three thousand estates had been sold by the time the court was superseded — a widely cited figure in the scholarship.",
+        "The Landed Estates Court (Ireland) Act 1858 (21 & 22 Vict. c. 72) replaced the Encumbered Estates Court with the Landed Estates Court, retaining and extending the same liquidation machinery; further acts in 1861 and 1866 amended it, and the court’s jurisdiction passed to the High Court of Justice in Ireland in the late 1870s.",
+        "The transfer changed the owners, not the terms of tenure: tenant farmers gained no security from the sales, eviction-driven clearance continued, and the creditors’ liquidation that sold the land while leaving tenancy untouched is documented in scholarship as presaging the land-question politics of the 1870s–80s (Land League, 1879 onward).",
+        "The 1858 parliamentary record preserves the transfer debate: an 1858 Commons supply debate records commissioners of the Encumbered Estates Court and a Land Transfer Office being accommodated in new law buildings, and the same session’s Commons committee debate on the Sale and Transfer of Land (Ireland) Bill records the parliamentary-title principle argued for encumbered estates sold under the machinery.",
+        "A parliamentary notice of the 1858 transfer states that the Transfer of Land Bill extended the powers hitherto exercised by the Incumbered Estates Commissioners and facilitated an indefeasible title for purchasers of land — contemporary record that the 1858 act carried the 1849 court’s liquidation machinery forward under its period spelling.",
+        "In the 11 May 1858 Lords third-reading debate on the bill, Lord Cranworth framed the measure as following the Royal Commission’s report on the Irish encumbered estates courts, and Lord St Leonards stated on the record that Sir Robert Peel had authored the original Incumbered Estates Act — speakers’ claims preserved in Hansard, not census figures."
+      ]
+    },
+    {
+      "code": "DS-1873-PLIMSOLL",
+      "era": "ERA-04-1845",
+      "providers": [
+        "hansard",
+        "wikidata"
+      ],
+      "status": "DONE",
+      "topic": "Plimsoll load line shipping",
+      "queries": [
+        {
+          "q": "Plimsoll load line",
+          "year": 1873,
+          "strong": [
+            "plimsoll"
+          ]
+        },
+        {
+          "q": "Samuel Plimsoll",
+          "year": 1873,
+          "strong": [
+            "plimsoll"
+          ],
+          "providers": [
+            "wikidata"
+          ]
+        }
+      ],
+      "anchors": [
+        "Samuel Plimsoll (1824-1898): English coal merchant turned MP for Derby, campaigner against overloaded ships.",
+        "The British Merchant Shipping (Load Line) Act 1876 mandated a load line marking the maximum safe draught - the Plimsoll line - on British vessels.",
+        "Plimsoll exposed shipowners who overloaded, insured heavily, and collected on sinkings; the phrase coffin ships was used for the practice.",
+        "Plimsoll was briefly suspended from the Commons for disorderly protest against the watered-down bills before the 1876 Act passed.",
+        "The load line became universal standard practice in merchant shipping; the mechanism is the industry profiting from loss of life (coffin ships) versus the marking that limited it."
+      ]
+    },
+    {
+      "code": "CC-1893-RAILROADS",
+      "era": "ERA-05-1861",
+      "providers": [
+        "courtlistener",
+        "loc"
+      ],
+      "status": "DONE",
+      "topic": "railroad receivership 1893",
+      "queries": [
+        {
+          "q": "railroad receivership",
+          "year": 1893,
+          "strong": [
+            "railroad",
+            "receivership"
+          ]
+        }
+      ],
+      "anchors": [
+        "The panic of May 1893 forced receiverships on a wave of American railroads; contemporary counts put more than 70 roads in receivership by 1895, among them Atchison Topeka & Santa Fe, Union Pacific, Northern Pacific, Philadelphia & Reading and the Erie.",
+        "Receivers were appointed by courts of equity, typically on application of creditors or friendly interests; the same financial houses that had underwritten the roads' securities supplied the receivers and dominated the reorganization committees.",
+        "The receivership kept the road operating and routed income to fixed charges, while reorganization committees marshalled junior security holders into depositing securities under threat of exclusion from the reorganized company — a practice contemporaries called \"friendly receivership\".",
+        "Reorganizations closed via foreclosure sales conveying the properties to new companies organized by the same interests; the wave drew sustained criticism and helped drive later railroad reorganization reform (culminating in Section 77, 1933).",
+        "The citations for this dossier are CourtListener records of a later (1912) Washington Supreme Court receivership opinion; the 1893-95 wave is the historical context, not the litigated case."
+      ]
+    },
+    {
+      "code": "PH-1901-WARDENCLYFFE",
+      "era": "ERA-06-1910",
+      "providers": [
+        "courtlistener",
+        "loc"
+      ],
+      "status": "DONE",
+      "topic": "Tesla Wardenclyffe Morgan",
+      "queries": [
+        {
+          "q": "Tesla Marconi",
+          "year": 1901,
+          "strong": [
+            "tesla"
+          ],
+          "weak": [
+            "marconi",
+            "wireless",
+            "patent"
+          ]
+        },
+        {
+          "q": "Wardenclyffe",
+          "year": 1901,
+          "strong": [
+            "tesla"
+          ],
+          "weak": [
+            "wardenclyffe",
+            "morgan"
+          ]
+        }
+      ],
+      "anchors": [
+        "Nikola Tesla, financed by J. P. Morgan, began in 1901 to build a plant at Wardenclyffe (Shoreham, Long Island) intended for transatlantic wireless communication and, per Tesla's plans, ultimately global power transmission.",
+        "Morgan had committed $150,000; the plant was unfinished when Marconi's transatlantic signal (December 1901) demonstrated wireless telegraphy on far less capital.",
+        "Morgan declined further funding; Tesla mortgaged and lost the property, and the tower was demolished in 1917.",
+        "The lore — Morgan withdrawing upon asking \"where do we put the meter?\" — is not documented; the documented record is the withdrawal of funding after a competitor's success and the loss of the plant.",
+        "The United States Supreme Court in 1943 (Marconi Wireless Telegraph Co. v. United States, 320 U.S. 1) held that Tesla's prior patents anticipated parts of Marconi's patent."
+      ]
+    },
+    {
+      "code": "DS-1910-JEKYLL",
+      "era": "ERA-06-1910",
+      "providers": [
+        "govinfo",
+        "loc"
+      ],
+      "status": "DONE",
+      "topic": "Aldrich plan national reserve",
+      "queries": [
+        {
+          "q": "Aldrich plan national reserve",
+          "year": 1910,
+          "strong": [
+            "aldrich"
+          ],
+          "weak": [
+            "national reserve",
+            "currency"
+          ],
+          "providers": [
+            "govinfo"
+          ]
+        },
+        {
+          "q": "Aldrich–Vreeland Act",
+          "year": 1908,
+          "strong": [
+            "aldrich"
+          ],
+          "providers": [
+            "wikidata"
+          ]
+        },
+        {
+          "q": "National Monetary Commission",
+          "year": 1908,
+          "strong": [
+            "national monetary commission"
+          ],
+          "providers": [
+            "wikidata"
+          ]
+        },
+        {
+          "q": "Nelson W. Aldrich",
+          "year": 1910,
+          "strong": [
+            "aldrich"
+          ],
+          "providers": [
+            "wikidata"
+          ]
+        }
+      ],
+      "anchors": [
+        "The Aldrich–Vreeland Act of May 1908, passed after the Panic of 1907, created the National Monetary Commission chaired by Senator Nelson W. Aldrich of Rhode Island.",
+        "The commission toured Europe and issued its reports 1910–1912; its findings informed the Aldrich Plan for a National Reserve Association with 15 district associations under banker-dominated boards.",
+        "In November 1910 Aldrich met a small group of banking figures at the Jekyll Island Club, Georgia, to draft the reserve plan — established by later accounts of participants, later itself framed by conspiracy writing as a secret cabal.",
+        "The Aldrich Plan was rejected in Congress and attacked in the 1912 campaign as a \"money trust\" instrument; Woodrow Wilson ran against it.",
+        "The Federal Reserve Act of December 1913 created the Federal Reserve System — a compromise adopting the reserve-association architecture but placing a public presidentially appointed Board over it."
+      ]
+    },
+    {
+      "code": "CB-1912-STEERAGE",
+      "era": "ERA-06-1910",
+      "providers": [
+        "govinfo",
+        "hansard",
+        "wikidata"
+      ],
+      "status": "DONE",
+      "topic": "Titanic steerage passengers inquiry",
+      "queries": [
+        {
+          "q": "Titanic steerage passengers",
+          "year": 1912,
+          "strong": [
+            "titanic"
+          ],
+          "weak": [
+            "steerage",
+            "passengers"
+          ]
+        },
+        {
+          "q": "Titanic",
+          "year": 1912,
+          "strong": [
+            "titanic"
+          ],
+          "providers": [
+            "wikidata"
+          ]
+        }
+      ],
+      "anchors": [
+        "Titanic: White Star Line steamer, sank April 15 1912 after striking an iceberg on her maiden voyage; about 1,500 of roughly 2,200 aboard died.",
+        "The steerage/third-class passenger death toll was proportionally far higher than first class; contemporary reports and later inquiries cited locked gates and passageway arrangements that hindered third-class access to the boat deck.",
+        "The 1912-1913 US Senate inquiry (Smith Committee) and the British Wreck Commissioner inquiry (Mersey) investigated the loss; the Mersey inquiry has been criticized as a whitewash for its focus on crew conduct over company policy.",
+        "J. Bruce Ismay, managing director of the White Star Lines parent company, survived the sinking and was widely condemned for leaving in a collapsible boat; the British inquiry declined to censure him.",
+        "The disaster produced the 1913-1914 SOLAS convention mandating lifeboat capacity for all aboard - the first major international maritime safety treaty."
+      ]
+    },
+    {
+      "code": "MC-1912-HALIFAXFOG",
+      "era": "ERA-06-1910",
+      "providers": [
+        "loc",
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Titanic wireless press",
+      "queries": [
+        {
+          "q": "Titanic wireless",
+          "year": 1912,
+          "strong": [
+            "titanic",
+            "wireless"
+          ]
+        }
+      ],
+      "anchors": [
+        "On April 15, 1912, the first wireless bulletins relayed via shore stations and press associations reported the Titanic safe, in tow, all passengers saved; Halifax papers ran the false report the morning of April 16.",
+        "The false dispatches traced to garbled relay traffic: wireless was a private commercial service (Marconi Company operators aboard ships) whose messages outran official confirmation; neither the White Star Line nor the government had a faster channel of its own.",
+        "The fog persisted for hours; the first accurate passenger lists came only when the Carpathia docked in New York (April 18).",
+        "The episode is a founding case of information fog in a mass-market event: the private information infrastructure produced the news, and the error corrected only when slower official channels caught up."
+      ]
+    },
+    {
+      "code": "DS-1913-MARCONISCANDAL",
+      "era": "ERA-06-1910",
+      "providers": [
+        "hansard",
+        "wikidata"
+      ],
+      "status": "DONE",
+      "topic": "Marconi scandal",
+      "queries": [
+        {
+          "q": "Marconi scandal",
+          "year": 1913,
+          "strong": [
+            "marconi"
+          ]
+        },
+        {
+          "q": "Marconi scandal",
+          "year": 1913,
+          "strong": [
+            "marconi"
+          ],
+          "providers": [
+            "wikidata"
+          ]
+        }
+      ],
+      "anchors": [
+        "The Marconi scandal (1912-1913): British political scandal over insider dealing in shares of the Marconi Wireless Telegraph Company.",
+        "In March 1912 the British Post Office awarded the Marconi Company a contract for the Imperial wireless chain - the contract was awarded without competitive tender and was criticized in Parliament.",
+        "Postmaster-General Herbert Samuel and other senior Liberal ministers or their associates had purchased Marconi shares before or during the award; the accusation of insider dealing drove a major parliamentary investigation.",
+        "Godfrey Isaacs (Marconi managing director, brother of Rufus Isaacs the Attorney-General who also bought shares) was central; the Isaacs family share purchases were documented by the inquiry.",
+        "The parliamentary inquiry (1913) cleared the ministers of corruption but the scandal damaged the Liberal government; the affair became a durable precedent in British political discourse for the appearance of insider dealing."
+      ]
+    },
+    {
+      "code": "CC-1929-CALLMONEY",
+      "era": "ERA-07-1929",
+      "providers": [
+        "govinfo",
+        "loc"
+      ],
+      "status": "DONE",
+      "topic": "call money market 1929",
+      "queries": [
+        {
+          "q": "broker loans",
+          "year": 1929,
+          "strong": [
+            "broker",
+            "loans"
+          ],
+          "providers": [
+            "loc",
+            "govinfo"
+          ]
+        },
+        {
+          "q": "call money",
+          "year": 1929,
+          "strong": [
+            "call",
+            "money"
+          ],
+          "providers": [
+            "loc"
+          ]
+        },
+        {
+          "q": "Benjamin Strong",
+          "year": 1929,
+          "strong": [
+            "benjamin strong"
+          ],
+          "providers": [
+            "wikidata"
+          ]
+        },
+        {
+          "q": "Montagu Norman",
+          "year": 1929,
+          "strong": [
+            "montagu norman"
+          ],
+          "providers": [
+            "wikidata"
+          ]
+        }
+      ],
+      "anchors": [
+        "Benjamin Strong was Governor (then styled Governor, later President) of the Federal Reserve Bank of New York from its founding in November 1914 until his death in October 1928.",
+        "Montagu Norman was Governor of the Bank of England 1920–1944; the Strong–Norman working partnership, including shared views on gold-sterilisation and market management, is documented in scholarship and the FRBNY archives.",
+        "At the July 1927 conference on Long Island, Strong, Norman, Rist and Schacht agreed to ease — a decision later identified (contested) as feeding the late-1920s speculation.",
+        "The New York call-loan market financed stock margin purchases; broker loans roughly doubled 1927–1929 and non-bank lenders (\"others\") supplied most of the growth — all documented in Federal Reserve and NYSE data of the period.",
+        "Strong’s death in October 1928 removed the transatlantic coordination; whether the NY Fed alone could manage the call-rate structure was the live question through the 1929 break."
+      ]
+    },
+    {
+      "code": "CC-1930-BIS",
+      "era": "ERA-07-1929",
+      "providers": [
+        "govinfo",
+        "wikidata"
+      ],
+      "status": "DONE",
+      "topic": "Bank for International Settlements"
+    },
+    {
+      "code": "DS-1953-AJAX",
+      "era": "ERA-08-1953",
+      "providers": [
+        "govinfo",
+        "wikidata"
+      ],
+      "status": "DONE",
+      "topic": "Operation Ajax Iran",
+      "queries": [
+        {
+          "q": "Operation Ajax Iran",
+          "year": 1953,
+          "strong": [
+            "iran"
+          ],
+          "weak": [
+            "ajax",
+            "mossadegh",
+            "cia"
+          ]
+        },
+        {
+          "q": "1953 Iranian coup d'etat",
+          "year": 1953,
+          "strong": [
+            "iran"
+          ],
+          "weak": [
+            "coup",
+            "mossadegh"
+          ]
+        }
+      ],
+      "anchors": [
+        "Operation Ajax (TPAJAX): the CIA/MI6-organized coup of August 19, 1953 that deposed Iranian Prime Minister Mohammad Mossadegh and restored the Shah to full authority.",
+        "Context: the Anglo-Iranian Oil Company refinery at Abadan — Britain's single largest overseas asset — was nationalized by Iran in March 1951; a British embargo and closure of the refinery followed, and Mossadegh moved toward the Soviet bloc as negotiations failed.",
+        "The coup plan used hired crowds, staged disorder and a royal decree dismissing Mossadegh; the first attempt failed on August 16 and the operation succeeded on August 19.",
+        "The CIA's own internal history of the operation, released in part since 2000, and the Agency's 2013 acknowledgment, document the Agency's organizing role: regime change as a remedy for the nationalization of an extraction concession."
+      ]
+    },
+    {
+      "code": "DS-1954-PBSUCCESS",
+      "era": "ERA-08-1953",
+      "providers": [
+        "govinfo",
+        "opencorporates"
+      ],
+      "status": "DONE",
+      "topic": "PBSuccess Guatemala United Fruit",
+      "queries": [
+        {
+          "q": "PBSuccess Guatemala",
+          "year": 1954,
+          "strong": [
+            "guatemala"
+          ],
+          "weak": [
+            "pbsuccess",
+            "united fruit",
+            "arbenz"
+          ],
+          "providers": [
+            "govinfo"
+          ]
+        },
+        {
+          "q": "1954 Guatemalan coup d’état",
+          "year": 1954,
+          "strong": [
+            "guatemalan coup"
+          ],
+          "providers": [
+            "wikidata"
+          ]
+        },
+        {
+          "q": "United Fruit",
+          "year": 1954,
+          "strong": [
+            "united fruit"
+          ],
+          "providers": [
+            "wikidata"
+          ]
+        },
+        {
+          "q": "United Fruit Company",
+          "year": 1954,
+          "strong": [
+            "united fruit"
+          ],
+          "providers": [
+            "wikidata"
+          ]
+        },
+        {
+          "q": "Jacobo Árbenz",
+          "year": 1954,
+          "strong": [
+            "árbenz"
+          ],
+          "providers": [
+            "wikidata"
+          ]
+        }
+      ],
+      "anchors": [
+        "Operation PBSuccess, the CIA-directed operation that overthrew Guatemala’s elected president Jacobo Árbenz in June 1954, is officially documented in the CIA’s own declassified history (Nick Cullather, 1994).",
+        "Árbenz’s Decree 900 (1952) redistributed unused land, including United Fruit Company holdings, with compensation pegged to the company’s own declared tax valuations — far below market — which became the core dispute.",
+        "United Fruit Company lobbied Washington intensively; the Dulles brothers’ connections to the company (Sullivan & Cromwell had represented UFC, and both brothers held UFC-linked interests) are documented in scholarship.",
+        "The March 1953 arms purchase from Czechoslovakia, and the resulting \"communist penetration\" framing, supplied the immediate justification used in PBSuccess planning (1952–53).",
+        "Carlos Castillo Armas became president after the coup; UFC lands were largely returned, and decades of civil conflict followed — the ledger outcome the operation purchased."
+      ]
+    },
+    {
+      "code": "CC-1974-PETRODOLLAR",
+      "era": "ERA-08-1953",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "petrodollar Saudi Treasury",
+      "queries": [
+        {
+          "q": "petrodollar Saudi Treasury",
+          "year": 1974,
+          "strong": [
+            "petrodollar",
+            "saudi"
+          ],
+          "weak": [
+            "treasury",
+            "oil"
+          ],
+          "providers": [
+            "govinfo"
+          ]
+        },
+        {
+          "q": "petrodollar recycling",
+          "year": 1974,
+          "strong": [
+            "petrodollar recycling"
+          ],
+          "providers": [
+            "wikidata"
+          ]
+        },
+        {
+          "q": "William E. Simon",
+          "year": 1974,
+          "strong": [
+            "william e. simon"
+          ],
+          "providers": [
+            "wikidata"
+          ]
+        }
+      ],
+      "anchors": [
+        "The 1973–74 oil embargo roughly quadrupled the oil price; Saudi Arabia and other OPEC members accumulated large dollar surpluses with nowhere established to put them.",
+        "Treasury Secretary William E. Simon led the 1974 Saudi negotiations that opened US Treasury purchases to the Saudis; the arrangement was secret at the time and reconstructed decades later from released official files and Simon’s own memoirs.",
+        "The US-Saudi Joint Commission on Economic Cooperation (June 1974) institutionalised the financial and military relationship.",
+        "The documented mechanism is surplus recycling through Treasuries and oil priced in dollars; the strong \"secret treaty binding oil to the dollar\" version is unsupported and must be separated from the documented recycling.",
+        "The result locked in structural US fiscal capacity through the decade — OPEC surpluses became a standing bid under US debt, the ledger line the mechanism belongs on."
+      ]
+    },
+    {
+      "code": "CC-1982-AMBROSIANO",
+      "era": "ERA-08-1953",
+      "providers": [
+        "hansard",
+        "wikidata"
+      ],
+      "status": "DONE",
+      "topic": "Banco Ambrosiano Calvi",
+      "mechanism": "OFFSHORE_BLACK_LEDGER",
+      "queries": [
+        {
+          "q": "Banco Ambrosiano",
+          "year": 1982,
+          "strong": [
+            "ambrosiano"
+          ]
+        },
+        {
+          "q": "Roberto Calvi",
+          "year": 1982,
+          "strong": [
+            "calvi"
+          ]
+        },
+        {
+          "q": "Propaganda Due",
+          "year": 1982,
+          "strong": [
+            "propaganda due"
+          ]
+        }
+      ],
+      "anchors": [
+        "Banco Ambrosiano: Milan private bank known as the bankers' bank of the Vatican; its 1982 collapse (roughly $1.2-1.4bn in missing/phantom loans) was then Italy's largest banking failure.",
+        "Roberto Calvi: chairman of Banco Ambrosiano, nicknamed 'God's Banker' for the Vatican's IOR shareholding and shell-company network; found dead, hanging under Blackfriars Bridge, London, June 18 1982 — days after fleeing a conviction for currency violations.",
+        "Propaganda Due (P2): covert Masonic lodge led by Licio Gelli whose member list (discovered in 1981 raids) included politicians, bankers and officials; Gelli was a fugitive in South America in 1982.",
+        "The Vatican's IOR (Institute for the Works of Religion) held an interest in Ambrosiano and was pressured into a settlement of roughly $250m for creditors after Calvi's death.",
+        "Calvi's death was first ruled suicide by a London coroner's inquest; later Italian investigations and a second inquest concluded murder, and in 2005-2007 defendants including Giuseppe Calo and Flavio Carboni were acquitted of the murder at Rome trials."
+      ]
+    },
+    {
+      "code": "CC-1991-BCCI",
+      "era": "ERA-08-1953",
+      "providers": [
+        "govinfo",
+        "courtlistener"
+      ],
+      "status": "DONE",
+      "topic": "BCCI bank fraud"
+    },
+    {
+      "code": "PH-2001-ESPEED",
+      "era": "ERA-09-2001",
+      "providers": [
+        "edgar",
+        "courtlistener"
+      ],
+      "status": "DONE",
+      "topic": "Cantor Fitzgerald eSpeed"
+    },
+    {
+      "code": "CC-2002-LOGCAP",
+      "era": "ERA-09-2001",
+      "providers": [
+        "usaspending",
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Halliburton LOGCAP contract",
+      "queries": [
+        {
+          "q": "Halliburton",
+          "year": 2002,
+          "strong": [
+            "halliburton"
+          ],
+          "weak": [
+            "logcap",
+            "contract",
+            "kbr"
+          ],
+          "providers": [
+            "usaspending"
+          ]
+        },
+        {
+          "q": "LOGCAP",
+          "year": 2002,
+          "strong": [
+            "logcap"
+          ],
+          "providers": [
+            "govinfo"
+          ]
+        },
+        {
+          "q": "Halliburton",
+          "year": 2002,
+          "strong": [
+            "halliburton"
+          ],
+          "providers": [
+            "wikidata"
+          ]
+        },
+        {
+          "q": "KBR Inc",
+          "year": 2002,
+          "strong": [
+            "kbr"
+          ],
+          "providers": [
+            "wikidata"
+          ]
+        },
+        {
+          "q": "Brown & Root",
+          "year": 2002,
+          "strong": [
+            "brown & root"
+          ],
+          "providers": [
+            "wikidata"
+          ]
+        }
+      ],
+      "anchors": [
+        "LOGCAP (Logistics Civil Augmentation Program), launched by the US Army in 1985, pre-awards contingency logistics contracts so contractors support military operations without new wartime procurement.",
+        "Brown & Root (later Halliburton subsidiary KBR; separated as KBR Inc in 2007) won LOGCAP I (1992, Balkans support) and LOGCAP III (December 2001, covering Kuwait, Afghanistan and Iraq).",
+        "LOGCAP III work was awarded on a cost-plus award-fee basis — the fee structure congressional investigators later scrutinised.",
+        "Documented in GAO and DoD-IG reports and congressional hearings: KBR fuel-import pricing (2003–04), dining-facility cost claims (2004–05), and the electrocution deaths of US soldiers in KBR-built showers (DoD-IG 2009).",
+        "Dick Cheney was Halliburton CEO 1995–2000; his deferred compensation from the company continued into his vice presidency — publicly documented, and publicly attacked as a conflict of interest, the framing this node must keep exact."
+      ]
+    },
+    {
+      "code": "PH-2003-INQTEL",
+      "era": "ERA-09-2001",
+      "providers": [
+        "edgar",
+        "usaspending"
+      ],
+      "status": "DONE",
+      "topic": "In-Q-Tel Palantir",
+      "queries": [
+        {
+          "q": "\"In-Q-Tel\" \"Palantir Technologies\"",
+          "year": 2020,
+          "strong": [
+            "palantir technologies"
+          ],
+          "weak": [
+            "in-q-tel"
+          ],
+          "providers": [
+            "edgar"
+          ]
+        },
+        {
+          "q": "Palantir Technologies",
+          "year": 2003,
+          "strong": [
+            "palantir technologies"
+          ],
+          "providers": [
+            "wikidata"
+          ]
+        },
+        {
+          "q": "In-Q-Tel",
+          "year": 2003,
+          "strong": [
+            "in-q-tel"
+          ],
+          "providers": [
+            "wikidata"
+          ]
+        }
+      ],
+      "anchors": [
+        "In-Q-Tel: a non-profit strategic investment vehicle chartered in 1999 by the CIA to fund commercial data technologies useful to the intelligence community.",
+        "Palantir Technologies was founded in 2003 by Peter Thiel, Alex Karp and others, with early investment from Thiel's Founders Fund and, as widely reported, In-Q-Tel; its first customers were intelligence and defense agencies.",
+        "Palantir's Gotham platform was built for government integration of fragmented data; documented early contracts include FBI, CIA and Department of Defense entities.",
+        "The structure: public-purpose venture capital incubates a private data-integration champion; the intelligence community is the first customer, then the product rolls out to immigration enforcement, police and commercial clients."
+      ]
+    },
+    {
+      "code": "DS-2011-THEMIS",
+      "era": "ERA-09-2001",
+      "providers": [
+        "edgar",
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "HBGary Palantir",
+      "queries": [
+        {
+          "q": "HBGary",
+          "year": 2011,
+          "strong": [
+            "hbgary"
+          ],
+          "weak": [
+            "palantir",
+            "themis"
+          ]
+        },
+        {
+          "q": "Palantir",
+          "year": 2011,
+          "strong": [
+            "palantir"
+          ]
+        }
+      ],
+      "anchors": [
+        "Team Themis: a contractor group — Palantir, Berico Technologies and HBGary Federal — assembled late 2010 by the law firm Hunton & Williams (counsel to the U.S. Chamber of Commerce and Bank of America) to propose counter-campaigns against the Chamber's and the bank's perceived opponents.",
+        "The proposals (exposed February 2011 after Anonymous compromised HBGary Federal) suggested infiltration, surveillance and disinformation targeting critics of the Chamber and supporters of WikiLeaks, including named journalists and a union.",
+        "Palantir and Berico severed ties with HBGary; Palantir suspended the employee involved, its CEO apologized publicly, and no contracts were pursued; members of Congress sent letters of inquiry.",
+        "The mechanism the dossier documents: the same data-integration platform sold to the security state proposed, in writing, for domestic counter-surveillance of political opponents — the proposal that surfaced is evidence of the intent, not of any executed operation."
+      ]
+    },
+    {
+      "code": "CC-2012-LIBOR",
+      "era": "ERA-09-2001",
+      "providers": [
+        "courtlistener",
+        "edgar"
+      ],
+      "status": "DONE",
+      "topic": "LIBOR manipulation"
+    },
+    {
+      "code": "PH-2025-IMMIGRATIONOS",
+      "era": "ERA-10-2020",
+      "providers": [
+        "usaspending",
+        "edgar"
+      ],
+      "status": "DONE",
+      "topic": "Palantir ICE contract",
+      "queries": [
+        {
+          "q": "Palantir",
+          "year": 2025,
+          "strong": [
+            "palantir"
+          ],
+          "weak": [
+            "immigrationos",
+            "ice"
+          ]
+        },
+        {
+          "q": "ImmigrationOS",
+          "year": 2025,
+          "strong": [
+            "immigrationos"
+          ]
+        }
+      ],
+      "anchors": [
+        "Palantir USG holds a Department of Defense enterprise agreement (IDIQ W519TC-25-D-0039); the cited 2025-26 task orders (field service representatives, Maven Smart System, SETAF combat assessment, APAS renewal) are drawn from that ledger.",
+        "Public reporting (2022-2025) documents Palantir's Immigration Operating System contract with ICE — reported near $30 million — and ICE's growing dependence on Palantir tools since the 2014 ICANTS system.",
+        "The citations for this dossier document Palantir's federal award ledger and SEC filings; the ICE ImmigrationOS contract is established by public reporting, NOT by these ledger rows — the dossier must say so.",
+        "Conservative language is mandatory for the ICE relationship; the documented mechanism is a data-integration vendor rolling the same platform across defense and immigration enforcement, so one side of the house funds the capabilities the other side deploys."
+      ]
+    }
+  ]
+}

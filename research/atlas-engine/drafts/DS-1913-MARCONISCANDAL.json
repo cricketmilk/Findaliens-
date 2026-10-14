@@ -1,0 +1,53 @@
+{
+  "code": "DS-1913-MARCONISCANDAL",
+  "eraId": "ERA-06-1910",
+  "yearStart": 1913,
+  "yearEnd": 1913,
+  "title": "Ministers Buy the Stock, Then Award the Contract: The Marconi Wireless Insider Chain",
+  "primaryTab": "deep-state",
+  "secondaryTabs": [
+    "crash-conduits",
+    "consent"
+  ],
+  "mechanism": "REGULATORY_REVOLVING_DOOR",
+  "tier": "TIER_3_PRIMARY_LEDGER",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "Marconi Wireless Telegraph Company",
+    "Godfrey Isaacs",
+    "Rufus Isaacs",
+    "Herbert Samuel",
+    "British Post Office",
+    "UK Parliament Select Committee"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "Senior Liberal ministers and their close associates, including Attorney-General Rufus Isaacs through his brother Godfrey Isaacs, Marconi's managing director, purchased Marconi shares ahead of and during the contract award, converting privileged political knowledge into private paper.",
+    "stage2_structuralCompromise": "In March 1912 the Post Office awarded Marconi the Imperial wireless chain contract without competitive tender, collapsing the boundary between the ministers who controlled the award and the insiders who profited from it.",
+    "stage3_informationFog": "Share purchases were concealed from Parliament and the public until opposition questioning forced disclosure, with the American-listed Marconi shares (bought in Godfrey Isaacs' brothers' names) surfacing in the inquiry only after the contract had been let.",
+    "stage4_monopolyWindfall": "The Imperial chain contract was a monopoly of a strategically vital infrastructure to a single firm with insiders holding its paper — the tenderless award concentrated both the national communications franchise and its speculative upside in the same hands.",
+    "stage5_merseyWhitewash": "The 1913 parliamentary select committee cleared the ministers of corruption while the contract stood, a resolution that preserved the award, the monopoly, and the ministers' careers while registering the affair as scandal rather than crime."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "The scandal inherited the Victorian pattern of infrastructure concessions granted to insiders through the state's own tendering machinery, and the older tradition of ministers profiting from the crown's contracts through nominees.",
+    "newFrameworkCreated": "The Marconi inquiry established the parliamentary insider-dealing inquiry as a standing instrument — a formal mechanism by which such affairs could be examined, dramatized, and closed without prosecution or contract forfeiture.",
+    "closedLoopRecirculation": "The contract stood, the monopoly was preserved, and the ministers (Isaacs rising to the Lord Chief Justiceship) were restored to office; the Imperial chain was built by the same company, its insiders enriched and its critics scandalized but powerless.",
+    "enablesNextDossier": "The precedent — a government telecommunications franchise awarded without tender to insiders holding its stock — stands directly behind every later state-to-monopoly infrastructure concession in this atlas, from broadcasting to the computer age."
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "The partisan-gossip framing that reduces the affair to a storm over a few thousand pounds of Liberal ministers' shares — a minor political embarrassment that a select committee resolved as much ado about nothing.",
+    "whyDecoyFails": "The trivializing frame erases the structure: a tenderless national-infrastructure monopoly awarded to a firm whose paper was held by the awarding ministers and their families, at the birth of the state-telecommunications franchise that defined the century.",
+    "documentedLedger": "The documented ledger: the March 1912 tenderless Imperial chain award, the Isaacs family share purchases documented by the 1913 parliamentary inquiry, the select committee's clearance of the ministers of corruption, and the contract's survival — a documented chain from insider purchase to monopoly award to closed investigation."
+  },
+  "citationIds": [
+    "CIT-1913-WD-Q1894011"
+  ],
+  "citations": [
+    {
+      "id": "CIT-1913-WD-Q1894011",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Corporate Lineage Entity: Marconi scandal (Q1894011)",
+      "url": "https://www.wikidata.org/entity/Q1894011",
+      "quoteOrFact": "Marconi scandal"
+    }
+  ]
+}

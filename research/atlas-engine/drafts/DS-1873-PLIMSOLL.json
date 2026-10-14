@@ -1,0 +1,52 @@
+{
+  "code": "DS-1873-PLIMSOLL",
+  "eraId": "ERA-04-1845",
+  "yearStart": 1873,
+  "yearEnd": 1873,
+  "title": "Coffin Ships: How British Shipowners Monetized Drowned Crews Until One MP Drew the Line",
+  "primaryTab": "deep-state",
+  "secondaryTabs": [
+    "crash-conduits",
+    "consent"
+  ],
+  "mechanism": "MERSEY_LIABILITY_WHITEWASH",
+  "tier": "TIER_3_PRIMARY_LEDGER",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "Samuel Plimsoll",
+    "British Parliament",
+    "British shipowners",
+    "marine insurers",
+    "Merchant Shipping (Load Line) Act 1876 drafters"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "Shipowners pocketed freight revenue from vessels loaded past any safe draught, knowing that over-insured hulls would pay out on loss — the freight skim was underwritten by the coffins the crews sailed in.",
+    "stage2_structuralCompromise": "The law of the sea put no load-line duty on owners: freeboard was a matter of contract and custom, and the marine insurance market priced the practice in rather than refusing it, structurally normalizing the coffin-ship economy.",
+    "stage3_informationFog": "Casualty statistics were scattered across registries and Lloyd's listings, and wreck inquests were local and brief; the systematic pattern — overloaded, over-insured, lost with all hands — was invisible until Plimsoll assembled it in Parliament.",
+    "stage4_monopolyWindfall": "The windfall was the freight-and-payout duality: owners whose ships sank often collected more than owners whose ships arrived, making mass death a rational business model sustained by the insurance market's pricing.",
+    "stage5_merseyWhitewash": "The shipowners' bloc in Parliament fought every load-line bill to a compromise, and the Merchant Shipping (Load Line) Act 1876 passed only softened — owner-empowered enforcement, diluted penalties, and Plimsoll briefly suspended from the Commons for refusing to accept the watering-down."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "Plimsoll's campaign inherited the Victorian liberal-reform machinery of Royal Commissions and Commons select committees, and ran it against an owners' interest seated in both Houses.",
+    "newFrameworkCreated": "The 1876 Act created the load-line obligation itself — the state marking on every hull of the maximum safe draught — a permanent, visible, inspection-based safety framework where none had existed.",
+    "closedLoopRecirculation": "The diluted enforcement left owners collecting on pre-load-line losses while the new marking re-valued survivors' freight rates upward; the industry absorbed the reform as a cost, not a forfeiture, with no liability reopened for the drowned.",
+    "enablesNextDossier": "The load line became universal standard practice in merchant shipping, and the pattern — a safety marking fought to a compromised first law — stands behind every later maritime safety regime, including the SOLAS convention after the Titanic."
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "The cozy Victorian image of Plimsoll the saintly MP versus a few wicked greedy owners — a morality tale with one hero and some villains.",
+    "whyDecoyFails": "The decoy personalizes a structural machine: the profits flowed from the insurance market's pricing of loss, from Parliamentary representation of the owning class, and from the absence of any marking duty at all — not from a handful of rogue characters.",
+    "documentedLedger": "The ledger is the coffin-ship economics: overload, heavy overinsurance, payout on sinking, and a legislative fight recorded in Hansard against owners who profited when crews drowned; the 1876 Merchant Shipping (Load Line) Act and its load line are the surviving framework, and Plimsoll's Commons suspension for disorderly protest is on the record."
+  },
+  "citationIds": [
+    "CIT-1873-WD-Q333611"
+  ],
+  "citations": [
+    {
+      "id": "CIT-1873-WD-Q333611",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Corporate Lineage Entity: Samuel Plimsoll (Q333611)",
+      "url": "https://www.wikidata.org/entity/Q333611",
+      "quoteOrFact": "Samuel Plimsoll"
+    }
+  ]
+}

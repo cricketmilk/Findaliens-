@@ -229,7 +229,35 @@
      legacy entries predate the serializer and are never cut), proven
      idempotent: re-running the merge on the same draft is byte-identical.
      Gates: tests 26/26, check-links 735 URLs 0 dead. Hansard is now a fully
-     unlocked provider for all future nodes. -->
+     unlocked provider for all future nodes.
+     ACTUAL 2026-10-15: ATLAS PAGE WIRED (Phase 3.5 — the wiring Phase 3 deferred).
+     The operator could SEE nothing of the atlas because the blueprint's Phase 3
+     extracted atlas-ui.css + atlas-ui.js with, per its own acceptance note,
+     'no page wiring in Phase 3' — the [data-atlas-*] hooks existed in no page,
+     and the shell loads this app as kind:"static" = file://, where Chromium
+     blocks both ES modules and fetch (so even a wired page stays empty in the
+     in-app view; the atlas data needs http). New public/atlas.html: Gazette
+     house boilerhead (fonts, :root tokens copied verbatim from
+     crash-conduits.html, masthead nav with Atlas marked aria-current) + the
+     three mount hooks (aside[aria-label="Dossier"] with .atlas-dossier-body
+     as its last child div per the div:last-child mount contract,
+     [data-atlas-lineages], [data-atlas-mechanisms]) + atlas-ui.css + module
+     js/atlas-ui.js, plus two additions of its own: a dossier index (the one
+     piece atlas-ui.js renders nowhere — all 108 public dossiers sorted by year,
+     LEAD_ANOMALY excluded, links riding the same #code hash routing) and a
+     file:// fallback note (classic script: no .atlas-lineage-grid after 2s ->
+     reveal the http/server note, which the module path can never show).
+     Legacy pages NOT touched: index.html/deep-state.html/crash-finance-data.js
+     carry pre-existing unstaged changes (ownership), and crash-conduits.html
+     pins its inline atlas script in tests. VERIFIED END-TO-END (throwaway
+     Playwright probe driving a tmp static server rooted at public/, deleted
+     after): 17/17 — pills ALL+10, 8 lineage cards, inspector auto-opens
+     dossier[0] CC-1720-SOUTHSEA w/ tier stamp, fetch hits /data/atlas-public.json,
+     index 108 rows, #CC-1849-ESTATES hash routing + active marking, mechanism
+     pill + index link clicks swap the inspector, file:// mounts nothing and
+     reveals the fallback note. Gates: crash-conduits tests 26/26, wrangler
+     dry-run exit 0. Live at /atlas.html after `npx wrangler deploy`, which
+     stays the operator's call. -->
 
 # THE CORNFIELD GAZETTE — MASTER NODE STATUS LEDGER
 

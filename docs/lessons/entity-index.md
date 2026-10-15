@@ -228,3 +228,42 @@ CourtListener's API found `Stevens v. United States` (1866) by name, date and
 court — and its record carries **no text**, so whether it is the Hall carbine
 case is unconfirmed and it was left unused. Hansard answers a bot with 403.
 Metadata agreeing is not the document saying so.
+
+
+## Resolving an archival citation: what counts as having found it
+
+Seven of the thirteen stub citations now point at the document. The six that do
+not are recorded as unresolved rather than filled with something plausible, and
+the difference between those two piles was decided the same way every time: the
+page itself has to say it is the document.
+
+**A 200 is not confirmation.** `fraser.stlouisfed.org/title/from-farm-boy-to-financier-5744`
+returns 200, and it is FRASER's generic "Browse by Title" listing — the item does
+not exist and the site falls back rather than 404ing. The slug named the Vanderlip
+memoir the citation wants; the page was an alphabetical index. Fetch the page and
+look for the document's own words before believing a URL.
+
+**Metadata agreeing is not the document saying so.** CourtListener has
+`Stevens v. United States` at the right name, the right court and the right year
+(1866), and its record carries **no text at all** — so whether it is the Hall
+carbine case is unverified, and it was left as a stub. A citation that is right
+by coincidence is indistinguishable from one that is right.
+
+**An official title can differ from the one everybody uses.** legislation.gov.uk
+files 13 Geo. 3 c. 63 as the *East India Company Act 1772*, because the session
+opened in 1772; it is the act universally cited as the Regulating Act 1773. The
+discrepancy belongs in `quoteOrFact`, not hidden by picking whichever name makes
+the citation look tidier.
+
+**A description of a document is worth more than a domain root, and less than the
+document.** GovInfo's feature page on the Titanic names the thing exactly —
+"Senate Report No. 806, 62nd Congress, 2nd Session … pursuant to S. Res. 283" —
+so it was used, with `quoteOrFact` saying plainly that it describes the report
+rather than being it.
+
+**What the archives answer to.** CourtListener and GovInfo both have usable
+APIs — GovInfo's `/search` worked where its `/packages/{id}/summary` rate-limited
+on DEMO_KEY, and its package ids are discoverable by search, not guessable
+(`SERIALSET-14137_00_00-003-0857-0000` is House Report 102-857). legislation.gov.uk
+answers plain GETs. Hansard returns **403** to anything scripted, which is why
+both Hansard citations are still stubs.

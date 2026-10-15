@@ -66,9 +66,9 @@
   "eras": [
     {
       "id": "ERA-01-1694",
-      "yearStart": 1694,
+      "yearStart": 1636,
       "yearEnd": 1721,
-      "title": "The Genesis: Bank of England & The South Sea Bubble",
+      "title": "The Genesis: Tulip Forwards, the Bank of England & The South Sea Bubble",
       "ratchet": {
         "inheritsFromEra": null,
         "precedentInherited": "Royal charter monopolies (Asiento slave-trade contract) and fragmented Stuart war debt.",
@@ -170,9 +170,9 @@
     },
     {
       "id": "ERA-09-2001",
-      "yearStart": 1999,
-      "yearEnd": 2011,
-      "title": "9/11, WTC 7 Enforcement Purge, PATRIOT/In-Q-Tel & The 2008 Bailout",
+      "yearStart": 1993,
+      "yearEnd": 2019,
+      "title": "Private Blowups, Public Backstops: LTCM and the Asian Crisis, 9/11, WTC 7, PATRIOT/In-Q-Tel, the 2008 Bailout and its Sequels",
       "ratchet": {
         "inheritsFromEra": "ERA-08-1953",
         "precedentInherited": "1912 Mersey/Liability Cap blueprint + 1980s PROMIS relational surveillance + 1999 Deutsche Bank acquisition of Morgan's Bankers Trust & Alex. Brown.",
@@ -2495,7 +2495,7 @@
     },
     {
       "code": "CC-1994-MEXICO_TEQUILAZO_1994",
-      "eraId": "ERA-08-1953",
+      "eraId": "ERA-09-2001",
       "yearStart": 1994,
       "yearEnd": 1994,
       "title": "Mexican Peso Tequilazo & The Fobaproa Debt Bailout",
@@ -2540,7 +2540,7 @@
     },
     {
       "code": "CC-1994-ORANGE_COUNTY_1994",
-      "eraId": "ERA-08-1953",
+      "eraId": "ERA-09-2001",
       "yearStart": 1994,
       "yearEnd": 1994,
       "title": "Orange County Bankruptcy & Wall Street Inverse Floater Gambles",
@@ -2585,7 +2585,7 @@
     },
     {
       "code": "CC-1995-BARINGS_LEESON_1995",
-      "eraId": "ERA-08-1953",
+      "eraId": "ERA-09-2001",
       "yearStart": 1995,
       "yearEnd": 1995,
       "title": "The Collapse of Barings Bank & The Account 88888 Concealment",
@@ -2630,7 +2630,7 @@
     },
     {
       "code": "CC-1996-SUMITOMO_COPPER_1996",
-      "eraId": "ERA-08-1953",
+      "eraId": "ERA-09-2001",
       "yearStart": 1996,
       "yearEnd": 1996,
       "title": "The Sumitomo Copper Corner & 'Mr. Copper's' Decade of Hidden Trades",
@@ -2675,7 +2675,7 @@
     },
     {
       "code": "CC-1997-ASIAN_FINANCIAL_CRISIS_1997",
-      "eraId": "ERA-08-1953",
+      "eraId": "ERA-09-2001",
       "yearStart": 1997,
       "yearEnd": 1997,
       "title": "The Asian Financial Crisis & IMF Structural Adjustment Extraction",
@@ -2720,7 +2720,7 @@
     },
     {
       "code": "CC-1998-RUSSIA_BONY_1998",
-      "eraId": "ERA-08-1953",
+      "eraId": "ERA-09-2001",
       "yearStart": 1998,
       "yearEnd": 1998,
       "title": "1998 Ruble Default, GKO Crash & BoNY Capital Flight",
@@ -2765,7 +2765,7 @@
     },
     {
       "code": "CC-1998-LTCM_BAILOUT_1998",
-      "eraId": "ERA-08-1953",
+      "eraId": "ERA-09-2001",
       "yearStart": 1998,
       "yearEnd": 1998,
       "title": "Long-Term Capital Management (LTCM) & The Fed-Engineered Bailout",
@@ -8659,7 +8659,7 @@
       },
       {
         "code": "CC-1994-MEXICO_TEQUILAZO_1994",
-        "eraId": "ERA-08-1953",
+        "eraId": "ERA-09-2001",
         "yearStart": 1994,
         "yearEnd": 1994,
         "title": "Mexican Peso Tequilazo & The Fobaproa Debt Bailout",
@@ -8704,7 +8704,7 @@
       },
       {
         "code": "CC-1994-ORANGE_COUNTY_1994",
-        "eraId": "ERA-08-1953",
+        "eraId": "ERA-09-2001",
         "yearStart": 1994,
         "yearEnd": 1994,
         "title": "Orange County Bankruptcy & Wall Street Inverse Floater Gambles",
@@ -8749,7 +8749,7 @@
       },
       {
         "code": "CC-1995-BARINGS_LEESON_1995",
-        "eraId": "ERA-08-1953",
+        "eraId": "ERA-09-2001",
         "yearStart": 1995,
         "yearEnd": 1995,
         "title": "The Collapse of Barings Bank & The Account 88888 Concealment",
@@ -8794,7 +8794,7 @@
       },
       {
         "code": "CC-1996-SUMITOMO_COPPER_1996",
-        "eraId": "ERA-08-1953",
+        "eraId": "ERA-09-2001",
         "yearStart": 1996,
         "yearEnd": 1996,
         "title": "The Sumitomo Copper Corner & 'Mr. Copper's' Decade of Hidden Trades",
@@ -8839,7 +8839,7 @@
       },
       {
         "code": "CC-1997-ASIAN_FINANCIAL_CRISIS_1997",
-        "eraId": "ERA-08-1953",
+        "eraId": "ERA-09-2001",
         "yearStart": 1997,
         "yearEnd": 1997,
         "title": "The Asian Financial Crisis & IMF Structural Adjustment Extraction",
@@ -8884,7 +8884,7 @@
       },
       {
         "code": "CC-1998-RUSSIA_BONY_1998",
-        "eraId": "ERA-08-1953",
+        "eraId": "ERA-09-2001",
         "yearStart": 1998,
         "yearEnd": 1998,
         "title": "1998 Ruble Default, GKO Crash & BoNY Capital Flight",
@@ -8929,7 +8929,7 @@
       },
       {
         "code": "CC-1998-LTCM_BAILOUT_1998",
-        "eraId": "ERA-08-1953",
+        "eraId": "ERA-09-2001",
         "yearStart": 1998,
         "yearEnd": 1998,
         "title": "Long-Term Capital Management (LTCM) & The Fed-Engineered Bailout",

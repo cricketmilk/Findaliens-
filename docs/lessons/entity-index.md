@@ -146,7 +146,8 @@ anything starting with a year or carrying a semicolon is skipped.
 With the atlas in, The Web draws 221 names against 158, and entities on more than
 one page — the ones it threads together — go from 54 to 124. Labels now run off
 both edges of the stage and one collides with the `DEMYSTIFY` spoke name. The
-clipping is not new (the shipped index already cut off "Federal Deposit Insurance
-Corporation"), but the density makes it plain. `fitK()`'s 150px side margin and
-the greedy four-spot label placement were tuned for a sparser web; they need
-revisiting, which is a layout decision rather than a data one and was left alone.
+clipping was not new (the shipped index already cut off "Federal Deposit Insurance
+Corporation"), but the density made it plain. Fixed in
+[page-redesigns-and-recheck.md](page-redesigns-and-recheck.md): the fit measures
+the spoke names instead of assuming a margin, label spots are tested against the
+canvas, and the spokes reserve their own boxes so nothing lands on them.

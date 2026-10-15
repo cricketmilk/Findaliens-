@@ -71,9 +71,17 @@ function pageData(name) {
         + "\napplyLegacyAudits(nodes); nodes.push(...financialEngineeringNodes); nodes.sort((a, b) => a.year - b.year || a.id.localeCompare(b.id)); lineages.push(...financialEngineeringLineages);";
     }
   }
-  const names = [...code.matchAll(/^\s*(?:const|let)\s+([A-Za-z_$][\w$]*)\s*=/gm)].map((m) => m[1]);
+  // A data section may hand an array to the browser global instead of declaring
+  // it: blind-pool.html closes its data with `window.LEASES = [...]`. So give
+  // the sandbox a `window` that is the sandbox itself, the way a browser does,
+  // and that assignment becomes a readable global rather than a ReferenceError.
+  // Nothing else is stubbed, on purpose: a data section that reaches for
+  // `document` still throws, and that is a thing we want to hear about.
+  const sandbox = {};
+  sandbox.window = sandbox;
+  const names = [...code.matchAll(/^\s*(?:(?:const|let)\s+|window\.)([A-Za-z_$][\w$]*)\s*=/gm)].map((m) => m[1]);
   const ret = "\n;({" + names.map((n) => `${n}: typeof ${n} === "undefined" ? undefined : ${n}`).join(",") + "})";
-  return vm.runInNewContext(code + ret, {}, { timeout: 2000 });
+  return vm.runInNewContext(code + ret, sandbox, { timeout: 2000 });
 }
 
 function htmlSections(name) {

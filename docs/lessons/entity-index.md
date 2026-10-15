@@ -302,3 +302,30 @@ real 11-page PDF that extracts cleanly — to a bibliography line, "N.Y.
 Appleton-Century. 1935 307p illus.". It is a page listing the book, not the book,
 and contains neither Jekyll Island nor the Saturday Evening Post. Extract the
 text and look for the content, not the title.
+
+
+## The era model had holes, and the index was showing them
+
+**Ten eras did not cover the timeline.** `ERA-08` ended in 1992 and `ERA-09`
+began in 1999; `ERA-09` ended in 2011 and `ERA-10` began in 2020. Eleven dossiers
+fell into those two holes — Mexico 1994, Orange County 1994, Barings 1995,
+Sumitomo 1996, the Asian crisis 1997, Russia/BoNY 1998, LTCM 1998, the London
+Whale 2012, Bezos/C2S 2013, Handshake 2018, FTX — and Tulip Mania (1636) sat
+before `ERA-01` opened in 1694. Re-deriving an era from a dossier's year can only
+put it on the nearest window when no window contains it.
+
+**One era closed both holes.** The 1990s dossiers and the 2010s ones are the same
+story `ERA-09` already told: LTCM is the rehearsal for the 2008 backstop and the
+London Whale and FTX are its sequel. `ERA-09` now runs 1993–2019 and is retitled
+for what it holds; `ERA-01` opens at 1636, because the tulip forwards are the
+proto-derivative the Genesis is built on. No new era ids, no dossier re-pointing,
+and the schema's `eras.length >= 10` still holds — adding eras was allowed, but
+renumbering would have broken the `eraId` on all 108 dossiers.
+
+**The index was visibly fragmenting because of it.** `atlas.html` walks the
+dossiers in year order and emits an era header whenever the era changes, so a
+mis-tagged dossier makes the era flip back and forth and the same header render
+again further down. A previous round measured **35 sticky era headers** for ten
+eras. With every dossier inside a window that contains it, that is **10 headers,
+each era exactly once, in chronological order**. The wall of repeated headers was
+never a layout bug; it was the data showing through.

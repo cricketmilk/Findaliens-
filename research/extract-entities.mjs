@@ -104,7 +104,11 @@ function pageData(name) {
         // A chain link names the step, not one body: "Nikola Tesla (Wardenclyffe)
         // -> Guglielmo Marconi" is two, and "J.S. Morgan & Co. / J.P. Morgan &
         // Co." is two more. Split them, or each arrow becomes its own "entity".
-        who: (l.chain || []).flatMap((c) => str(c && c.entity).split(/\s*(?:->|→|\/)\s*/)).map((s) => s.trim()).filter(nameable),
+        //
+        // The slash only separates when it is spaced. A bare one is part of the
+        // name: splitting on it cut "ATSSSA Liability Shield & 9/11 Monograph"
+        // into "...& 9" and "11 Monograph", two entities that are not things.
+        who: (l.chain || []).flatMap((c) => str(c && c.entity).split(/\s*(?:->|→)\s*|\s+\/\s+/)).map((s) => s.trim()).filter(nameable),
         body: [l.name, l.closedLoopSummary, ...(l.chain || []).map((c) => c && c.role)].map(str).filter(Boolean).join(" \n "),
       })),
     };
@@ -251,7 +255,11 @@ function buildEntities(items) {
       parsed.push({ it, id });
       for (const p of parens) {
         const org = p.replace(/,.*$/, "").trim();
-        if (!org || ROLE_WORDS.test(org) || org.length < 2) continue;
+        // A parenthetical holding a count is not an organisation. "Madoff Victim
+        // Fund recipients (40,930 compensated victims in 127 countries...)" loses
+        // everything after the first comma and became an entity called "40",
+        // which then matched every bare 40 on the site, Room 40 included.
+        if (!org || ROLE_WORDS.test(org) || org.length < 2 || /^\d/.test(org)) continue;
         const orgId = aliasToId.get(org.toLowerCase()) || ensure(org)?.id;
         if (orgId && orgId !== id) byId.get(id).affiliations.add(orgId);
       }

@@ -151,3 +151,42 @@ Corporation"), but the density made it plain. Fixed in
 [page-redesigns-and-recheck.md](page-redesigns-and-recheck.md): the fit measures
 the spoke names instead of assuming a margin, label spots are tested against the
 canvas, and the spokes reserve their own boxes so nothing lands on them.
+
+
+## Three defects the crowd filter's own diff turned up
+
+**Restoring a filter is a change to measure, not to assert.** `GENERIC` dropped 34
+labels, and calling them all junk was too quick. The filter removes the *whole*
+string, so the institution inside one goes with it. Nine of eleven checked
+survived anyway, because the body exists independently and the alias matcher
+re-finds it — `Bank of Japan Leadership` keeps Bank of Japan, `Enron investors`
+keeps Enron. Two did not: `Bank of New York Executives` and `Ministry of Finance
+Officials` were the only mention of those bodies on their dossiers, and dropping
+the label dropped the body. Check what a filter takes with it, per item, not just
+what it removed.
+
+**The seed's own rule is load-bearing: only add an alias that is unambiguous on
+this site.** The obvious repair was to seed the two missing bodies, and measuring
+it showed why not. Aliases match as whole words with no precedence between
+entities, so `Bank of New York` also matches inside **Federal Reserve** Bank of
+New York: 10 mentions, 9 of them false, across LTCM, Enron, AIG, Maiden Lane and
+the 2019 repo squeeze. `Ministry of Finance` likewise matched the *Saudi*
+Ministry of Finance and Economy. Seeded `BoNY` instead, which appears only in the
+1998 dossier's own title: 2 mentions, both right. The Japanese Ministry of
+Finance has no string on this site that is not also another country's, so it
+stays unindexed rather than wrong.
+
+**A parenthetical holding a count is not an organisation.**
+`explicitNames()` reads `Name (Org)` and files the parenthetical as an
+affiliation, cutting it at the first comma. `Madoff Victim Fund recipients
+(40,930 compensated victims in 127 countries as reported in December 2024)`
+therefore created an entity called **`40`**, which then matched every bare 40 on
+the site — in Madoff, the Flash Crash, "life expectancy at age 40", and Room 40,
+the naval intelligence unit on the Lusitania dossier. It had been in the shipped
+index all along. A parenthetical starting with a digit is now skipped.
+
+**And the slash in a date is not a separator.** Splitting lineage chain links on
+`/` to break up `J.S. Morgan & Co. / J.P. Morgan & Co.` also cut `ATSSSA
+Liability Shield & 9/11 Monograph` into `...& 9` and `11 Monograph`, two entities
+that are not things — introduced while removing junk entities, and shipped. The
+slash now only separates when it is spaced. Arrows still split unconditionally.

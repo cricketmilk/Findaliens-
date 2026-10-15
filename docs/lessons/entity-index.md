@@ -267,3 +267,38 @@ on DEMO_KEY, and its package ids are discoverable by search, not guessable
 (`SERIALSET-14137_00_00-003-0857-0000` is House Report 102-857). legislation.gov.uk
 answers plain GETs. Hansard returns **403** to anything scripted, which is why
 both Hansard citations are still stubs.
+
+
+## Two more found, and why a found document can still not be the fix
+
+**hansard.parliament.uk is unusable to a script, and Parliament's historic archive
+is not.** The live site answers curl with 403 and a browser with a Cloudflare
+interstitial that does not clear. `api.parliament.uk/historic-hansard` serves the
+same debates as plain HTML with no challenge, covering 1803–2005, and its day
+pages list each sitting's sections. The 1913 Marconi debate is at
+`/historic-hansard/commons/1913/jun/18/marconis-wireless-telegraph-company`, and
+its 299,000 characters name Marconi, the Select Committee, Isaacs, Lloyd George,
+American Marconi and the Attorney-General.
+
+**Hansard begins in 1803, so a 1721 report was never going to be there.** The
+stub's URL was not merely unresolved, it was impossible: `CIT-1720-HANSARD` cited
+the Commons Committee of Secrecy on the South Sea Company and pointed at a site
+whose record starts eighty years later. The document itself is on the Internet
+Archive, catalogued to creator "Great Britain. Parliament. House of Commons" and
+date 1721. When a citation will not resolve, check whether the archive could ever
+have held it before hunting for the right path inside it.
+
+**Finding the document is not the same as fixing the citation.** That 1721 report
+was the placeholder on 50 dossiers. Pointing `CIT-1720-HANSARD` at the archive
+scan would have made all 50 look sourced by a real document that is right for two
+of them, which is the failure the placeholder was protecting against — a worse
+outcome than before, reached by doing the obviously good thing. The scan got its
+own id, attached to the two South Sea dossiers, and the other 48 keep an
+obviously broken URL until someone sources them.
+
+**A PDF can be a catalogue entry.** FRASER's `17606_01_0004.pdf` is titled
+"Vanderlip, Frank A., with Boyden Sparkes From Farm Boy to Financier" and is a
+real 11-page PDF that extracts cleanly — to a bibliography line, "N.Y.
+Appleton-Century. 1935 307p illus.". It is a page listing the book, not the book,
+and contains neither Jekyll Island nor the Saturday Evening Post. Extract the
+text and look for the content, not the title.

@@ -4,58 +4,142 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Digging Up the Deep State — The Cornfield Gazette</title>
-<meta name="description" content="Four places where public power is passing into private hands: the civil service, surveillance contracts, the money itself and autonomous machines. What is documented, and what is argued.">
+<meta name="description" content="Four places where public power is passing into private hands: the civil service, the surveillance contracts, the money itself and autonomous machines. Nineteen claims, every one with the quote from the record that carries it.">
 <meta name="theme-color" content="#050505">
+<meta property="og:title" content="Digging Up the Deep State — The Cornfield Gazette">
+<meta property="og:description" content="The civil service, the surveillance contracts, the money itself and the machines. Nineteen sourced claims, and under each one the verified quote from the record it rests on.">
+<meta property="og:image" content="https://findaliens.net/img/deep-state-og.png">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌽</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
+  /* THE CLEARING's ink: paper white, black-and-white stipple, and the glitch
+     colours that leak through. The same palette the atlas borrows.
+     This page is deliberately self-contained — it does not link atlas-ui.css,
+     whose --paper is a dark panel colour and would fight the paper white here. */
   :root {
     --ink: #050505;
     --well: #0e0e0e;
     --panel: #121212;
+    --panel-2: #171717;
     --line: #2a2a2a;
+    --line-2: #383838;
     --paper: #ffffff;
     --text: #f2f2f2;
     --read: #d9d9d9;
     --dim: #a3a3a3;
     --mute: #767676;
     --cyan: #00f0ff;
+    --cyan-dim: #0b8b9b;
     --magenta: #ff2fd0;
     --blue: #3b4bff;
     --pixel: "Press Start 2P", monospace;
+    --term: "VT323", "IBM Plex Mono", monospace;
     --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
     --mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+    --wrap: 1120px;
   }
   * { box-sizing: border-box; }
-  body { margin: 0; background: var(--ink); color: var(--text); font-family: var(--sans); font-size: 16.5px; line-height: 1.62; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--ink); color: var(--text); font-family: var(--sans); font-size: 16.5px; line-height: 1.62; -webkit-font-smoothing: antialiased; }
   canvas { display: block; image-rendering: pixelated; image-rendering: crisp-edges; }
   a { color: var(--paper); text-decoration-color: var(--mute); text-underline-offset: 3px; }
   a:hover { color: var(--cyan); text-decoration-color: var(--cyan); }
-  .page { max-width: 1120px; margin: 0 auto; padding: 22px 28px 90px; }
+  button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
+  :focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
+  .wrap { max-width: var(--wrap); margin: 0 auto; padding: 0 28px; }
+  .page { max-width: var(--wrap); margin: 0 auto; padding: 0 28px 90px; }
   .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
-  .nav { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px; }
-  .nav a { font-family: var(--pixel); font-size: 8.5px; line-height: 1.3; color: var(--paper); text-decoration: none; border: 1.5px solid #444; padding: 7px 10px; }
-  .nav a:hover { border-color: var(--paper); background: var(--paper); color: var(--ink); }
+  /* ---------- masthead (house pattern, crash-conduits.html) ---------- */
+  .masthead { border-bottom: 1px solid var(--line); }
+  .masthead .wrap { display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 64px; flex-wrap: wrap; }
+  .back { font-family: var(--mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--dim); white-space: nowrap; text-decoration: none; }
+  .back:hover { color: var(--paper); }
+  .back b { font-family: var(--pixel); font-size: 9px; font-weight: 400; letter-spacing: 0.02em; color: var(--cyan); margin-left: 4px; }
+  .sections { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 2px 20px; font-family: var(--mono); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; }
+  .sections a { color: var(--mute); padding: 4px 0; border-bottom: 1px solid transparent; text-decoration: none; }
+  .sections a:hover { color: var(--read); }
+  .sections a[aria-current] { color: var(--paper); border-bottom-color: var(--paper); }
+
+  /* ---------- the register running under the masthead ---------- */
+  .ticker-bar { overflow: hidden; border-bottom: 1px solid var(--line); background: var(--well); }
+  .ticker-inner { display: flex; width: max-content; padding: 7px 0; white-space: nowrap; animation: ticker 96s linear infinite; }
+  .ticker-inner span { font-family: var(--mono); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--mute); padding: 0 26px; }
+  .ticker-inner span b { font-weight: 500; color: var(--cyan-dim); }
+  @keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 
   /* ---------- the picture, framed like a print ---------- */
-  .print { border: 2px solid var(--paper); padding: 8px; background: var(--paper); box-shadow: 8px 8px 0 #1c1c1c; }
-  .print canvas { cursor: crosshair; }
-  .print-cap { display: flex; justify-content: space-between; gap: 12px; padding: 7px 2px 0; font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; color: #111; }
+  .print { border: 2px solid var(--paper); padding: 8px; background: var(--paper); box-shadow: 8px 8px 0 #1c1c1c; margin: 26px 0 0; }
+  .print canvas { cursor: crosshair; width: 100%; }
+  .print-cap { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding: 8px 2px 0; margin-top: 8px; border-top: 2px solid #111;
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: #111; }
 
   /* ---------- title ---------- */
-  .head { margin: 40px 0 34px; }
-  .kicker { font-family: var(--mono); font-size: 12px; letter-spacing: 0.16em; color: var(--dim); margin: 0 0 14px; }
+  .head { margin: 40px 0 30px; }
+  .kicker { font-family: var(--mono); font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--cyan-dim); margin: 0 0 14px; }
   h1 { margin: 0; font-family: var(--pixel); font-weight: 400; font-size: clamp(26px, 5.4vw, 58px); line-height: 1.12; color: var(--paper); text-shadow: -3px 0 var(--cyan), 3px 0 var(--magenta); }
   h1 span { display: block; }
-  .dek { max-width: 760px; margin: 22px 0 0; font-size: 19px; line-height: 1.55; color: var(--read); }
+  .dek { max-width: 760px; margin: 24px 0 0; font-size: 19px; line-height: 1.55; color: var(--read); }
   .dek b { color: var(--paper); font-weight: 600; }
 
-  .legend { display: flex; flex-wrap: wrap; gap: 10px 22px; margin: 0 0 54px; padding: 16px 20px; border: 1px solid var(--line); background: var(--well); }
-  .legend > span { display: inline-flex; align-items: center; gap: 8px; font-size: 13.5px; color: var(--dim); }
-  .badge { display: inline-block; font-family: var(--mono); font-size: 10.5px; font-weight: 600; letter-spacing: 0.07em; padding: 1px 6px; margin-right: 8px; vertical-align: 1px; line-height: 1.5; border: 1.5px solid currentColor; text-transform: uppercase; }
+  /* the standfirst tallies: what the page is made of, counted not asserted */
+  .tallies { display: flex; flex-wrap: wrap; gap: 0; margin: 30px 0 0; border: 1px solid var(--line); background: var(--well); }
+  .tally { flex: 1 1 128px; padding: 14px 18px 15px; border-right: 1px solid var(--line); }
+  .tally:last-child { border-right: 0; }
+  .tally b { display: block; font-family: var(--term); font-size: 32px; line-height: 1; color: var(--paper); }
+  .tally span { display: block; margin-top: 5px; font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--mute); }
+
+  /* ---------- THE CUT: the trench, and the way into each dossier ---------- */
+  .cut-wrap { margin: 54px 0 0; }
+  .cut { position: relative; border: 2px solid var(--paper); padding: 8px; background: var(--paper); box-shadow: 8px 8px 0 #1c1c1c; }
+  .cut-stage { position: relative; }
+  .cut-stage canvas { width: 100%; }
+  /* the bands sit over the strata the canvas draws: a surface strip, then four
+     equal layers. The canvas uses the same fractions (SURFACE / BANDS). */
+  /* one row per dossier — the count is set from the data, and js/deep-state.js
+     reads the band count back off the DOM so the canvas draws the same strata */
+  .cut-bands { position: absolute; left: 0; right: 0; top: 18%; bottom: 0; display: grid; grid-template-rows: repeat(var(--cut-layers, 4), 1fr); }
+  .cut-band { display: flex; align-items: center; gap: 14px; padding: 0 14px 0 54px; text-decoration: none; color: #111;
+    border-top: 1px solid rgba(5, 5, 5, 0.55); transition: background 0.15s; }
+  .cut-band:hover, .cut-band:focus-visible { background: rgba(0, 240, 255, 0.22); color: #050505; }
+  .cut-band[aria-current] { background: rgba(255, 47, 208, 0.18); }
+  .cut-n { font-family: var(--pixel); font-size: 11px; color: #050505; background: var(--paper); padding: 5px 6px 4px; box-shadow: 0 0 0 1.5px #050505; }
+  .cut-t { font-family: var(--mono); font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #050505;
+    background: rgba(255, 255, 255, 0.82); padding: 2px 7px; box-shadow: 0 0 0 1px rgba(5, 5, 5, 0.3); }
+  .cut-c { margin-left: auto; font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; color: #050505;
+    background: rgba(255, 255, 255, 0.82); padding: 2px 7px; white-space: nowrap; }
+  .cut-cap { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding-top: 8px; margin-top: 8px; border-top: 2px solid #111;
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: #111; }
+
+  /* ---------- section heads ---------- */
+  .sh { display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap; margin: 0 0 16px; padding-bottom: 12px; border-bottom: 2px solid var(--paper); }
+  .sh h2 { margin: 0; font-family: var(--pixel); font-weight: 400; font-size: clamp(15px, 2.6vw, 22px); line-height: 1.4; color: var(--paper); text-shadow: -2px 0 var(--cyan), 2px 0 var(--magenta); }
+  .sh h2 .num { color: var(--cyan-dim); margin-right: 0.8em; text-shadow: none; }
+  .sh p { margin: 0; font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--mute); }
+  .sec { padding: 60px 0 0; }
+
+  /* ---------- the evidence console: filter by what carries a claim ---------- */
+  .console { border: 1px solid var(--line); background: var(--well); padding: 18px 20px 20px; }
+  .console-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+  .console-lab { font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--mute); margin-right: 6px; }
+  .pill { display: inline-flex; align-items: baseline; gap: 7px; padding: 6px 11px; border: 1.5px solid var(--line-2); background: var(--panel);
+    font-family: var(--mono); font-size: 11px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--dim);
+    cursor: pointer; transition: border-color 0.15s, color 0.15s, background 0.15s; }
+  .pill:hover { color: var(--text); border-color: var(--read); }
+  .pill[aria-pressed="true"] { color: var(--ink); background: var(--paper); border-color: var(--paper); }
+  .pill i { font-style: normal; font-family: var(--term); font-size: 15px; letter-spacing: 0; opacity: 0.75; }
+  .pill[aria-pressed="true"] i { opacity: 1; }
+  .console-note { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px 20px; margin-top: 15px; padding-top: 14px; border-top: 1px dashed var(--line-2);
+    font-family: var(--mono); font-size: 11.5px; color: var(--mute); }
+  .console-note b { color: var(--cyan); font-weight: 500; }
+  .legend { display: flex; flex-wrap: wrap; gap: 8px 22px; margin: 14px 0 0; }
+  .legend > span { display: inline-flex; align-items: baseline; gap: 8px; font-size: 13px; color: var(--mute); }
+  .badge { display: inline-block; font-family: var(--mono); font-size: 10.5px; font-weight: 600; letter-spacing: 0.07em; padding: 1px 6px; margin-right: 8px;
+    vertical-align: 1px; line-height: 1.5; border: 1.5px solid currentColor; text-transform: uppercase; white-space: nowrap; }
   .st-law { color: var(--ink); background: var(--paper); border-color: var(--paper); }
   .st-documented { color: var(--paper); }
   .st-reported { color: var(--cyan); }
@@ -63,434 +147,433 @@
   .st-argument { color: var(--dim); border-style: dashed; }
 
   /* ---------- the dossiers ---------- */
-  .dossier { display: grid; grid-template-columns: 132px minmax(0, 1fr); gap: 0 32px; padding: 0 0 56px; margin: 0 0 56px; border-bottom: 1px solid var(--line); }
+  .dossier { display: grid; grid-template-columns: 132px minmax(0, 1fr); gap: 0 32px; padding: 0 0 56px; margin: 48px 0 0; border-bottom: 1px solid var(--line); scroll-margin-top: 20px; }
   .dossier:last-of-type { border-bottom: 0; }
   .side { position: relative; }
   .side .n { font-family: var(--pixel); font-size: 11px; color: var(--ink); background: var(--paper); display: inline-block; padding: 7px 8px 6px; margin-bottom: 14px; }
   .side canvas { width: 132px; height: 132px; border: 1.5px solid #333; background: var(--paper); }
   .side .cmd { margin-top: 10px; font-family: var(--mono); font-size: 11px; line-height: 1.5; color: var(--mute); word-break: break-word; }
+  .side .tier { margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--line); font-family: var(--mono); font-size: 10.5px; line-height: 1.7; color: var(--mute); }
+  .side .tier b { color: var(--read); font-weight: 500; }
   .dossier h2 { margin: 2px 0 10px; font-family: var(--pixel); font-weight: 400; font-size: clamp(16px, 2.4vw, 24px); line-height: 1.4; color: var(--paper); }
-  .dossier .what { margin: 0 0 22px; font-size: 18px; line-height: 1.55; color: var(--read); max-width: 760px; }
+  .dossier .what { margin: 0 0 24px; font-size: 18px; line-height: 1.55; color: var(--read); max-width: 760px; }
   .facts { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
-  .facts li { padding: 16px 0 17px; border-bottom: 1px dashed #2f2f2f; font-size: 16px; line-height: 1.62; color: var(--text); }
-  .src { display: block; margin-top: 6px; font-family: var(--mono); font-size: 12px; line-height: 1.5; color: var(--mute); }
+  .facts li { padding: 17px 0 18px; border-bottom: 1px dashed #2f2f2f; font-size: 16px; line-height: 1.62; color: var(--text); scroll-margin-top: 20px; }
+  .facts li[hidden] { display: none; }
+  .facts li.lit { background: linear-gradient(90deg, rgba(0, 240, 255, 0.09), transparent 72%); box-shadow: -14px 0 0 rgba(0, 240, 255, 0.09); }
+  .claim-id { float: right; margin: 2px 0 0 14px; font-family: var(--mono); font-size: 10px; letter-spacing: 0.08em; color: var(--mute); text-decoration: none; }
+  .claim-id:hover { color: var(--cyan); }
+  .src { display: block; margin-top: 7px; font-family: var(--mono); font-size: 12px; line-height: 1.6; color: var(--mute); }
   .src a { color: var(--dim); }
   .src a + a::before { content: " · "; color: var(--mute); }
-  .argue { margin-top: 18px; padding: 15px 18px 16px; border-left: 3px solid var(--magenta); background: linear-gradient(90deg, rgba(255, 47, 208, 0.08), transparent 70%); font-size: 15.5px; line-height: 1.6; color: var(--read); }
-  .argue b { display: block; margin-bottom: 4px; font-family: var(--mono); font-size: 11px; letter-spacing: 0.12em; color: var(--magenta); font-weight: 600; }
+  .argue { margin-top: 20px; padding: 15px 18px 16px; border-left: 3px solid var(--magenta); background: linear-gradient(90deg, rgba(255, 47, 208, 0.08), transparent 70%); font-size: 15.5px; line-height: 1.6; color: var(--read); }
+  .argue > b { display: block; margin-bottom: 4px; font-family: var(--mono); font-size: 11px; letter-spacing: 0.12em; color: var(--magenta); font-weight: 600; }
+
+  /* ---------- the record: the quotes the re-check found on the page ---------- */
+  .record { margin-top: 12px; }
+  .record > summary { display: inline-flex; align-items: center; gap: 9px; padding: 4px 9px 4px 7px; border: 1px solid var(--line-2); background: var(--panel);
+    font-family: var(--mono); font-size: 10.5px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--dim); cursor: pointer; list-style: none; }
+  .record > summary::-webkit-details-marker { display: none; }
+  .record > summary::before { content: "▸"; color: var(--cyan); font-size: 11px; }
+  .record[open] > summary::before { content: "▾"; }
+  .record > summary:hover { color: var(--text); border-color: var(--read); }
+  .record[open] > summary { color: var(--text); border-color: var(--read); background: var(--panel-2); }
+  .record-body { margin-top: 0; border-left: 1px solid var(--line-2); }
+  .prov { padding: 16px 0 16px 18px; border-bottom: 1px dashed var(--line); }
+  .prov:last-child { border-bottom: 0; padding-bottom: 4px; }
+  .prov-head { font-family: var(--mono); font-size: 11.5px; line-height: 1.6; color: var(--read); }
+  .prov-head a { color: var(--read); }
+  .prov-head em { font-style: normal; color: var(--mute); }
+  .quote { margin: 11px 0 0; padding: 0 0 0 16px; border-left: 2px solid var(--cyan-dim); font-size: 15px; line-height: 1.6; color: var(--read); }
+  .quote + .quote { margin-top: 9px; }
+  .quote::before { content: "“"; }
+  .quote::after { content: "”"; }
+  .quote.bare::before, .quote.bare::after { content: none; }
+  .hand { margin: 14px 0 0 18px; padding: 12px 15px 13px; border: 1px solid var(--line-2); border-left: 3px solid var(--magenta); background: var(--panel);
+    font-size: 14.5px; line-height: 1.6; color: var(--read); }
+  .hand b { display: block; margin-bottom: 3px; font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--magenta); font-weight: 600; }
+  .no-record { padding: 14px 0 4px 18px; font-family: var(--mono); font-size: 12px; color: var(--mute); }
+
+  /* ---------- chain of custody ---------- */
+  /* two by two: with auto-fit the fourth panel orphans onto a row of its own */
+  .custody { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; border: 1px solid var(--line); border-width: 1px 0 0 1px; background: var(--well); }
+  .custody > div { padding: 20px 22px 22px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .custody h3 { margin: 0 0 12px; font-family: var(--mono); font-size: 11px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--cyan); }
+  .custody p { margin: 0 0 11px; font-size: 14.5px; line-height: 1.62; color: var(--read); }
+  .custody p:last-child { margin-bottom: 0; }
+  .custody ul { margin: 0; padding: 0; list-style: none; }
+  .custody li { padding: 10px 0; border-top: 1px dashed var(--line-2); font-size: 14px; line-height: 1.6; color: var(--read); }
+  .custody li:first-child { border-top: 0; padding-top: 0; }
+  .custody li a { font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.08em; color: var(--cyan); text-decoration: none; margin-right: 8px; }
+  .custody li a:hover { text-decoration: underline; }
+  .mix { display: flex; height: 10px; margin: 0 0 14px; border: 1px solid var(--line-2); overflow: hidden; }
+  .mix i { display: block; }
 
   /* ---------- how to check ---------- */
-  .sh { display: flex; align-items: baseline; gap: 16px; margin: 0 0 16px; padding-bottom: 12px; border-bottom: 2px solid var(--paper); }
-  .sh h2 { margin: 0; font-family: var(--pixel); font-weight: 400; font-size: clamp(16px, 2.6vw, 24px); color: var(--paper); text-shadow: -2px 0 var(--cyan), 2px 0 var(--magenta); }
-  .howto { list-style: none; margin: 0 0 40px; padding: 0; }
-  .howto li { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 4px 24px; padding: 14px 0; border-bottom: 1px dashed #2f2f2f; }
+  .howto { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+  .howto li { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 4px 24px; padding: 15px 0; border-bottom: 1px dashed #2f2f2f; }
   .howto code { font-family: var(--mono); font-size: 14px; color: var(--cyan); }
   .howto span { color: var(--read); font-size: 15.5px; }
-  .note { font-size: 14px; line-height: 1.6; color: var(--mute); max-width: 820px; }
-  .footer { margin-top: 30px; padding-top: 20px; border-top: 1px solid var(--line); font-family: var(--mono); font-size: 12px; color: var(--mute); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px; }
+  .note { margin: 22px 0 0; font-size: 14px; line-height: 1.65; color: var(--mute); max-width: 820px; }
+  .note b { color: var(--read); font-weight: 500; }
+  .footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line); font-family: var(--mono); font-size: 12px; color: var(--mute); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px; }
 
+  @media (prefers-reduced-motion: reduce) { .ticker-inner { animation: none; } }
+
+  @media (max-width: 900px) {
+    .howto li { grid-template-columns: 1fr; }
+  }
   @media (max-width: 760px) {
-    .page { padding: 16px 16px 70px; }
-    .print { padding: 5px; box-shadow: 5px 5px 0 #1c1c1c; }
-    .print-cap span:first-child { display: none; }
-    .head { margin: 30px 0 26px; }
+    body { font-size: 16px; }
+    .wrap, .page { padding-left: 16px; padding-right: 16px; }
+    .page { padding-bottom: 70px; }
+    .masthead .wrap { padding-top: 10px; padding-bottom: 10px; }
+    .sections { justify-content: flex-start; gap: 2px 14px; font-size: 11px; }
+    .print, .cut { padding: 5px; box-shadow: 5px 5px 0 #1c1c1c; }
+    .print-cap span:first-child, .cut-cap span:first-child { display: none; }
+    .head { margin: 28px 0 24px; }
     .dek { font-size: 17px; }
-    .dossier { grid-template-columns: 1fr; gap: 14px; }
-    .side { display: flex; align-items: center; gap: 14px; }
+    .tally b { font-size: 26px; }
+    .cut-wrap { margin-top: 40px; }
+    .cut-band { padding: 0 8px 0 20px; gap: 8px; }
+    .cut-n { font-size: 9px; padding: 4px 5px 3px; }
+    .cut-t { font-size: 9.5px; letter-spacing: 0.08em; padding: 1px 5px; }
+    .cut-c { display: none; }
+    .sec { padding-top: 46px; }
+    .dossier { grid-template-columns: 1fr; gap: 16px; }
+    .side { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
     .side .n { margin: 0; }
     .side canvas { width: 72px; height: 72px; }
     .side .cmd { margin: 0; }
-    .howto li { grid-template-columns: 1fr; }
+    .side .tier { width: 100%; margin-top: 0; padding-top: 10px; }
+    .facts li.lit { box-shadow: -16px 0 0 rgba(0, 240, 255, 0.09); }
+    .custody { grid-template-columns: minmax(0, 1fr); }
   }
 </style>
 </head>
 <body>
-<div class="page" id="top">
-  <nav class="nav" aria-label="The Gazette">
-    <a href="index.html">◂ GAZETTE</a>
-    <a href="demystification.html">DEMYSTIFICATION</a>
-    <a href="consent.html">CONSENT</a>
-    <a href="transhumanism.html">POST-HUMAN</a>
-    <a href="blind-pool.html">BLIND POOL</a>
-    <a href="crash-conduits.html">CRASH CONDUITS</a>
-    <a href="handoffs.html">HANDOFF LEDGER</a>
-    <a href="web.html">THE WEB</a>
-  </nav>
 
-  <figure class="print" style="margin:0">
+<header class="masthead">
+  <div class="wrap">
+    <a class="back" href="index.html">← The Cornfield Gazette<b>◆</b></a>
+    <nav class="sections" aria-label="Gazette investigations">
+      <a href="deep-state.html" aria-current="page">Deep State</a>
+      <a href="demystification.html">Demystification</a>
+      <a href="consent.html">Consent</a>
+      <a href="transhumanism.html">Post-Human</a>
+      <a href="carbon-class.html">Carbon Class</a>
+      <a href="blind-pool.html">Blind Pool</a>
+      <a href="crash-conduits.html">Crash Conduits</a>
+      <a href="handoffs.html">Handoffs</a>
+      <a href="web.html">The Web</a>
+      <a href="atlas.html">Atlas</a>
+    </nav>
+  </div>
+</header>
+
+<div class="ticker-bar" aria-hidden="true">
+  <div class="ticker-inner" id="ds-ticker">
+    <span><b>THE CORNFIELD GAZETTE</b>&nbsp;·&nbsp;DEEP STATE DESK&nbsp;·&nbsp;THE RECORD, AS FETCHED</span>
+  </div>
+</div>
+
+<div class="page" id="top">
+
+  <figure class="print" style="margin-top:26px">
     <canvas id="eye" role="img" aria-label="Pixel art: a clearing in a black-and-white forest, an eye inside a black pyramid that drips ink, the forest's edge breaking into squares, and a road of glitching colour. The eye's spiral iris turns and follows the pointer."></canvas>
     <figcaption class="print-cap"><span>THE CLEARING</span><span>it watches the pointer · tap the road</span></figcaption>
   </figure>
 
   <header class="head">
-    <p class="kicker">THE CORNFIELD GAZETTE · INVESTIGATIONS</p>
+    <p class="kicker">The Cornfield Gazette · Investigations</p>
     <h1><span>DIGGING UP</span><span>THE DEEP STATE</span></h1>
-    <p class="dek">“Deep state” usually means a hidden government. The record shows something plainer: <b>four places where public power is being handed to private hands</b> — the civil service, the surveillance contracts, the money itself, and the machines. Here is what is documented, and what is only argued.</p>
+    <p class="dek">“Deep state” usually means a hidden government. The record shows something plainer: <b>four places where public power is being handed to private hands</b> — the civil service, the surveillance contracts, the money itself, and the machines. Every claim below carries its status, and under each one you can open <b>the quote from the source that actually says it</b>.</p>
+    <div class="tallies" id="tallies"></div>
   </header>
 
-  <aside class="legend" id="legend" aria-label="How each item is sourced"></aside>
+  <section class="cut-wrap" aria-labelledby="cut-h">
+    <h2 id="cut-h" class="sr-only">The cut: the four strata</h2>
+    <figure class="cut" style="margin:0">
+      <div class="cut-stage">
+        <canvas id="cut" role="img" aria-label="Pixel art: a trench cut side-on through four strata of ground, each layer a different grain of black-and-white stipple with buried artefacts in it — broken columns, lenses, coins and rotors — a depth rod ticking down the left edge, and the pyramid's buried base showing in the cut face."></canvas>
+        <nav class="cut-bands" id="cut-bands" aria-label="The four strata"></nav>
+      </div>
+      <figcaption class="cut-cap"><span>THE CUT · FOUR STRATA</span><span>pick a layer to go down</span></figcaption>
+    </figure>
+  </section>
 
-  <main id="dossiers"></main>
+  <section class="sec" aria-labelledby="console-h">
+    <div class="sh">
+      <h2 id="console-h"><span class="num">01</span>THE EVIDENCE CONSOLE</h2>
+      <p>What carries each claim</p>
+    </div>
+    <div class="console">
+      <div class="console-row" id="pills" role="group" aria-label="Filter claims by what carries them"></div>
+      <div class="legend" id="legend"></div>
+      <div class="console-note">
+        <span id="showing"></span>
+        <span><button type="button" class="pill" id="open-all" aria-pressed="false">Open every record</button></span>
+      </div>
+    </div>
+  </section>
 
-  <section aria-labelledby="howto-h">
-    <div class="sh"><h2 id="howto-h">HOW TO CHECK</h2></div>
+  <section class="sec" aria-labelledby="dossiers-h">
+    <div class="sh">
+      <h2 id="dossiers-h"><span class="num">02</span>THE FOUR DOSSIERS</h2>
+      <p>Claim, status, source, quote</p>
+    </div>
+    <main id="dossiers"></main>
+  </section>
+
+  <section class="sec" aria-labelledby="custody-h">
+    <div class="sh">
+      <h2 id="custody-h"><span class="num">03</span>CHAIN OF CUSTODY</h2>
+      <p>How this page knows</p>
+    </div>
+    <div class="custody" id="custody"></div>
+  </section>
+
+  <section class="sec" aria-labelledby="howto-h">
+    <div class="sh">
+      <h2 id="howto-h"><span class="num">04</span>HOW TO CHECK</h2>
+      <p>Dig it up yourself</p>
+    </div>
     <ul class="howto" id="howto"></ul>
-    <p class="note">Every item on this page was checked in October 2026 against the page it cites: the passage stating it was found on the source, and its figures were checked against that passage. All 19 items researched were confirmed.</p>
+    <p class="note" id="howto-note"></p>
   </section>
 
   <div class="footer"><span>© 2026 THE CORNFIELD GAZETTE · DEEP STATE DESK</span><a href="#top">TOP ▲</a></div>
 </div>
 
+<script src="js/deep-state-data.js"></script>
 <script>
-const STATUS = {
-  law: { label: "LAW", desc: "the text of a statute, regulation or executive order" },
-  documented: { label: "DOCUMENTED", desc: "official records, filings or the organisation’s own statements" },
-  reported: { label: "REPORTED", desc: "investigative or financial journalism" },
-  words: { label: "IN THEIR WORDS", desc: "the person’s own published writing or speech" },
-  argument: { label: "ARGUMENT", desc: "an interpretation, with whose it is" },
-};
-const DOSSIERS = [
- {
-  "key": "civil-service",
-  "n": "01",
-  "glyph": "columns",
-  "cmd": "C:\\OPM> RECLASS /ALL",
-  "title": "THE CIVIL SERVICE",
-  "what": "Who can be fired for the advice they give. A reclassification turns career experts into employees who can be dismissed like political appointees.",
-  "facts": [
-   {
-    "status": "law",
-    "text": "Schedule F was created by an executive order in October 2020, revoked in 2021, and restored by executive order on January 20, 2025. It lets career federal employees in policy-influencing jobs be reclassified so they can be dismissed like political appointees.",
-    "sources": [
-     {
-      "url": "https://www.federalregister.gov/documents/2020/10/26/2020-23780/creating-schedule-f-in-the-excepted-service",
-      "publisher": "Federal Register",
-      "date": "2020-10"
-     },
-     {
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/01/restoring-accountability-to-policy-influencing-positions-within-the-federal-workforce/",
-      "publisher": "The White House",
-      "date": "2025-01"
-     },
-     {
-      "url": "https://www.govinfo.gov/content/pkg/DCPD-202000792/pdf/DCPD-202000792.pdf",
-      "publisher": "U.S. Government Publishing Office",
-      "date": "2020-10"
-     },
-     {
-      "url": "https://trumpwhitehouse.archives.gov/presidential-actions/executive-order-creating-schedule-f-excepted-service/",
-      "publisher": "Trump White House Archives",
-      "date": "2020-10"
-     },
-     {
-      "url": "https://www.govinfo.gov/content/pkg/DCPD-202500138/pdf/DCPD-202500138.pdf",
-      "publisher": "U.S. Government Publishing Office",
-      "date": "2025-01"
-     }
-    ]
-   },
-   {
-    "status": "documented",
-    "text": "The Office of Personnel Management estimated that about 50,000 positions, roughly 2% of the federal workforce, would be moved into the new category, renamed Schedule Policy/Career.",
-    "sources": [
-     {
-      "url": "https://federalnewsnetwork.com/workforce/2026/03/federal-employees-face-looming-finalization-of-schedule-policy-career/",
-      "publisher": "Federal News Network",
-      "date": "2026-03"
-     }
-    ]
-   },
-   {
-    "status": "law",
-    "text": "Employees moved into the category are excepted from the adverse action procedures of Chapter 75 of Title 5, which require agencies to follow extensive procedures before taking adverse action against an employee.",
-    "sources": [
-     {
-      "url": "https://www.federalregister.gov/documents/2020/10/26/2020-23780/creating-schedule-f-in-the-excepted-service",
-      "publisher": "Federal Register",
-      "date": "2020-10"
-     },
-     {
-      "url": "https://www.govinfo.gov/content/pkg/DCPD-202600378/pdf/DCPD-202600378.pdf",
-      "publisher": "U.S. Government Publishing Office",
-      "date": "2026-06"
-     }
-    ]
-   },
-   {
-    "status": "words",
-    "text": "Curtis Yarvin coined the acronym “RAGE,” for Retire All Government Employees: once in power, send the old regime’s civil servants off with pensions and replace them. In 2021 JD Vance cited Yarvin while saying Trump should fire every mid-level civil servant and replace them with “our people.”",
-    "sources": [
-     {
-      "url": "https://theconversation.com/an-antidemocratic-philosophy-called-neoreaction-is-creeping-into-gop-politics-182581",
-      "publisher": "The Conversation",
-      "date": "2022-05"
-     },
-     {
-      "url": "https://www.vox.com/policy-and-politics/23373795/curtis-yarvin-mencius-moldbug-conservative",
-      "publisher": "Vox",
-      "date": "2022-10"
-     },
-     {
-      "url": "https://www.wbur.org/onpoint/2025/04/05/jd-vance-new-right-curtis-yarvin",
-      "publisher": "WBUR",
-      "date": "2025-04"
-     }
-    ]
-   }
-  ],
-  "argument": {
-   "status": "argument",
-   "text": "Critics argue that removing job protections from scientists, inspectors and enforcement staff exposes safety and enforcement decisions to political pressure.",
-   "sources": [
-    {
-     "url": "https://www.scientificamerican.com/article/white-house-reclassifies-federal-epidemiologists-and-other-scientists-from-civil-servants-to-at-will-hires/",
-     "publisher": "Scientific American",
-     "date": "2026-06"
-    },
-    {
-     "url": "https://www.statnews.com/2026/02/06/nih-grant-reviewers-schedule-f-designation-politicizes-science/",
-     "publisher": "STAT",
-     "date": "2026-02"
-    }
-   ]
+(function () {
+  "use strict";
+  var D = window.DS_DATA;
+  if (!D) return; // the generated data file did not load; the page stays as marked up
+  var STATUS = D.status, DOSSIERS = D.dossiers, EV = D.evidence, META = D.meta;
+
+  var esc = function (s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); };
+  var plural = function (n, one, many) { return n + " " + (n === 1 ? one : (many || one + "s")); };
+  var badge = function (s) { return '<span class="badge st-' + s + '" title="' + esc(STATUS[s].desc) + '">' + esc(STATUS[s].label) + "</span>"; };
+  var chips = function (item) {
+    var ss = item.sources || [];
+    if (!ss.length) return "";
+    return '<span class="src">' + ss.map(function (x) {
+      return '<a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.publisher) + (x.date ? ", " + esc(x.date) : "") + " ↗</a>";
+    }).join("") + "</span>";
+  };
+
+  // ---- the record drawer: the quotes glm-recheck found on the page as fetched
+  var record = function (item) {
+    var ev = EV[item.id];
+    if (!ev) return "";
+    var withQuotes = ev.sources.filter(function (s) { return s.quotes.length; });
+    var label = ev.quotes
+      ? "The record · " + plural(ev.quotes, "quote") + " from " + plural(withQuotes.length, "source")
+      : "The record · sources only";
+    var body = withQuotes.map(function (s) {
+      var head = '<div class="prov-head"><a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.publisherFull || s.publisher) + " ↗</a>"
+        + (s.dateText ? " <em>· " + esc(s.dateText) + "</em>" : "") + "</div>";
+      // A passage that is itself a quotation arrives with the source's own
+      // marks around it; the page must not add a second pair.
+      return '<div class="prov">' + head + s.quotes.map(function (q) {
+        var own = /^["'“‘«]/.test(String(q).trim());
+        return '<p class="quote' + (own ? " bare" : "") + '">' + esc(q) + "</p>";
+      }).join("") + "</div>";
+    }).join("");
+    if (!body) body = '<p class="no-record">No quotation was recorded for this line — the sources above are linked, and the wording here is the desk’s.</p>';
+    if (ev.accepted) body += '<div class="hand"><b>Vouched by hand</b>' + esc(ev.accepted) + "</div>";
+    if (ev.edited) body += '<div class="hand"><b>Edited after the re-check</b>' + esc(ev.edited) + "</div>";
+    return '<details class="record" id="rec-' + esc(item.id) + '"><summary>' + esc(label) + '</summary><div class="record-body">' + body + "</div></details>";
+  };
+
+  var claimRow = function (f) {
+    return '<li id="' + esc(f.id) + '" data-status="' + esc(f.status) + '">'
+      + '<a class="claim-id" href="#' + esc(f.id) + '" title="Link to this claim">' + esc(f.id) + "</a>"
+      + badge(f.status) + esc(f.text) + chips(f) + record(f) + "</li>";
+  };
+
+  // ---------------------------------------------------------------- tallies
+  var set = function (id, html) { var el = document.getElementById(id); if (el) el.innerHTML = html; };
+  set("tallies", [
+    [META.claims, "sourced claims"],
+    [META.dossiers, "dossiers"],
+    [META.sources, "sources opened"],
+    [META.hosts, "publishers"],
+    [META.quotes, "verified quotes"],
+  ].map(function (t) { return '<div class="tally"><b>' + t[0] + "</b><span>" + t[1] + "</span></div>"; }).join(""));
+
+  // ---------------------------------------------------------------- the cut
+  var bandsEl = document.getElementById("cut-bands");
+  if (bandsEl) bandsEl.style.setProperty("--cut-layers", DOSSIERS.length);
+  set("cut-bands", DOSSIERS.map(function (d) {
+    var n = d.facts.length + (d.argument ? 1 : 0);
+    return '<a class="cut-band" href="#' + esc(d.key) + '" data-key="' + esc(d.key) + '">'
+      + '<span class="cut-n">' + esc(d.n) + "</span>"
+      + '<span class="cut-t">' + esc(d.title.replace(/^THE\s+/, "")) + "</span>"
+      + '<span class="cut-c">' + plural(n, "claim") + "</span></a>";
+  }).join(""));
+
+  // ------------------------------------------------------------- the legend
+  set("legend", Object.keys(STATUS).map(function (k) { return "<span>" + badge(k) + esc(STATUS[k].desc) + "</span>"; }).join(""));
+
+  // -------------------------------------------------------------- dossiers
+  set("dossiers", DOSSIERS.map(function (d) {
+    var all = d.facts.concat(d.argument ? [d.argument] : []);
+    var quotes = all.reduce(function (n, f) { return n + ((EV[f.id] && EV[f.id].quotes) || 0); }, 0);
+    var srcs = {};
+    all.forEach(function (f) { (EV[f.id] ? EV[f.id].sources : []).forEach(function (s) { srcs[s.url] = 1; }); });
+    return '<article class="dossier" id="' + esc(d.key) + '">'
+      + '<div class="side"><span class="n">' + esc(d.n) + "</span>"
+      + '<canvas class="glyph" data-glyph="' + esc(d.glyph) + '" aria-hidden="true"></canvas>'
+      + '<div class="cmd">' + esc(d.cmd) + "</div>"
+      + '<div class="tier"><b>' + plural(all.length, "claim") + "</b><br>" + plural(Object.keys(srcs).length, "source") + "<br>" + plural(quotes, "verified quote") + "</div></div>"
+      + "<div><h2>" + esc(d.title) + "</h2>"
+      + '<p class="what">' + esc(d.what) + "</p>"
+      + '<ul class="facts">' + d.facts.map(claimRow).join("") + "</ul>"
+      + (d.argument
+        ? '<div class="argue" id="' + esc(d.argument.id) + '" data-status="' + esc(d.argument.status) + '">'
+          + '<a class="claim-id" href="#' + esc(d.argument.id) + '" title="Link to this claim">' + esc(d.argument.id) + "</a>"
+          + "<b>ARGUMENT ▸</b>" + esc(d.argument.text) + chips(d.argument) + record(d.argument) + "</div>"
+        : "")
+      + "</div></article>";
+  }).join(""));
+
+  // ------------------------------------------------------- chain of custody
+  var mix = Object.keys(STATUS).map(function (k) {
+    var n = META.byStatus[k] || 0;
+    var col = { law: "#ffffff", documented: "#a3a3a3", reported: "#00f0ff", words: "#ff2fd0", argument: "#3a3a3a" }[k];
+    return n ? '<i style="width:' + (n / META.claims * 100).toFixed(2) + "%;background:" + col + '" title="' + esc(STATUS[k].label) + ": " + n + '"></i>' : "";
+  }).join("");
+  var ledger = function (rows, none) {
+    return rows.length
+      ? "<ul>" + rows.map(function (r) { return "<li><a href=\"#" + esc(r.id) + '">' + esc(r.id) + "</a>" + esc(r.why) + "</li>"; }).join("") + "</ul>"
+      : "<p>" + none + "</p>";
+  };
+  set("custody", ""
+    + "<div><h3>What is on the page</h3>"
+    + '<div class="mix" aria-hidden="true">' + mix + "</div>"
+    + "<p>" + Object.keys(STATUS).filter(function (k) { return META.byStatus[k]; })
+        .map(function (k) { return "<b>" + (META.byStatus[k]) + "</b> " + esc(STATUS[k].label.toLowerCase()); }).join(", ")
+    + ". A claim's status is what carries it, not how sure the desk is: an <em>argument</em> is somebody's reading, and it is labelled with whose.</p></div>"
+
+    + "<div><h3>What “verified” means here</h3>"
+    + "<p>A cheap model proposes the sources, the quotes and the wording. A quote counts only when nine of every ten five-word runs in it are found on the page <em>as fetched</em>, and a sentence counts only when every figure in it sits inside a quote that passed. The model's word that a page “supports” a claim is never evidence.</p>"
+    + "<p>Content farms are excluded: a source must be a government, court, university or international site, a newsroom or watchdog on the rated list, or the subject's own page. Every wiki host is refused.</p></div>"
+
+    + "<div><h3>" + plural(META.vouched.length, "line") + " vouched by hand</h3>"
+    + "<p>Where the mechanical check failed a line that was in fact correct, a person accepted it and wrote down why.</p>"
+    + ledger(META.vouched, "Nothing on this page needed a hand.") + "</div>"
+
+    + "<div><h3>" + plural(META.edited.length, "line") + " edited after the re-check</h3>"
+    + "<p>Where the re-check found the wording went further than the source did, the line was changed to what the source carries.</p>"
+    + ledger(META.edited, "No line needed changing.") + "</div>");
+
+  // ------------------------------------------------------------ how to check
+  set("howto", D.howto.map(function (h) { return "<li><code>" + esc(h.source) + "</code><span>" + esc(h.what) + "</span></li>"; }).join(""));
+  set("howto-note", "Every claim on this page was checked in October 2026 against the page it cites: the passage stating it was found on the source, and its figures were checked against that passage. "
+    + "All <b>" + META.claims + "</b> were confirmed, across <b>" + META.sources + "</b> sources from <b>" + META.hosts + "</b> publishers, on <b>" + META.quotes + "</b> quotations. "
+    + "A linked source does not mean every underlying primary record has been independently verified.");
+
+  // ---------------------------------------------------------------- ticker
+  var ticker = document.getElementById("ds-ticker");
+  if (ticker && META.ticker && META.ticker.length) {
+    var items = ['<span><b>THE RECORD, AS FETCHED</b>&nbsp;·&nbsp;' + META.quotes + " VERIFIED QUOTATIONS</span>"]
+      .concat(META.ticker.map(function (t) {
+        var p = String(t).split(" ");
+        return "<span><b>" + esc(p[1] || "") + "</b>&nbsp; " + esc(p[0]) + "</span>";
+      }));
+    ticker.innerHTML = items.join("") + items.join("");
   }
- },
- {
-  "key": "surveillance",
-  "n": "02",
-  "glyph": "eye",
-  "cmd": "C:\\ICE> TRACK /PRIORITIZE",
-  "title": "THE SURVEILLANCE CONTRACTS",
-  "what": "A system to find and sort people for deportation, built by a company whose co-founder funds the politicians around it.",
-  "facts": [
-   {
-    "status": "documented",
-    "text": "Immigration and Customs Enforcement is paying Palantir $30 million to build “ImmigrationOS,” a system to watch people leaving the country and help choose who to deport, according to ICE’s own contract justification.",
-    "sources": [
-     {
-      "url": "https://www.wired.com/story/ice-palantir-immigrationos/",
-      "publisher": "WIRED",
-      "date": "2025-04"
-     }
-    ]
-   },
-   {
-    "status": "documented",
-    "text": "ICE awarded the ImmigrationOS work to Palantir without competitive bidding, as a sole-source modification of an existing contract.",
-    "sources": [
-     {
-      "url": "https://www.wired.com/story/ice-palantir-immigrationos/",
-      "publisher": "WIRED",
-      "date": "2025-04"
-     }
-    ]
-   },
-   {
-    "status": "documented",
-    "text": "Federal Election Commission records show Peter Thiel gave $15 million to Protect Ohio Values, the super PAC behind JD Vance’s 2022 Senate run: $10 million in March 2021 and $5 million in April 2022.",
-    "sources": [
-     {
-      "url": "https://www.fec.gov/data/receipts/?committee_id=C00770495&contributor_name=thiel",
-      "publisher": "FEC",
-      "date": "2022-04"
-     },
-     {
-      "url": "https://www.wbur.org/onpoint/2025/04/05/jd-vance-new-right-curtis-yarvin",
-      "publisher": "WBUR",
-      "date": "2025-04"
-     }
-    ]
-   },
-   {
-    "status": "reported",
-    "text": "Stephen Miller’s financial disclosure, released by the White House, listed from $100,001 up to a quarter of a million dollars in Palantir stock.",
-    "sources": [
-     {
-      "url": "https://www.pogo.org/investigates/stephen-miller-conflicts-of-interest",
-      "publisher": "POGO",
-      "date": "2025-06"
-     }
-    ]
-   }
-  ],
-  "argument": {
-   "status": "argument",
-   "text": "Civil-liberties groups warn that combining government and commercial data lets agencies track people’s movements and associations without a warrant.",
-   "sources": [
-    {
-     "url": "https://www.aclu.org/issues/privacy-technology/location-tracking",
-     "publisher": "American Civil Liberties Union",
-     "date": ""
-    },
-    {
-     "url": "https://www.npr.org/2026/03/25/nx-s1-5752369/ice-surveillance-data-brokers-congress-anthropic",
-     "publisher": "NPR",
-     "date": "2026-03"
-    }
-   ]
+
+  // ------------------------------------------------------------- filtering
+  var pillbar = document.getElementById("pills");
+  var showing = document.getElementById("showing");
+  var on = {};
+  Object.keys(STATUS).forEach(function (k) { on[k] = true; });
+
+  if (pillbar) {
+    pillbar.innerHTML = '<span class="console-lab">Carried by</span>' + Object.keys(STATUS).map(function (k) {
+      return '<button type="button" class="pill" data-status="' + k + '" aria-pressed="true">' + esc(STATUS[k].label) + " <i>" + (META.byStatus[k] || 0) + "</i></button>";
+    }).join("") + '<button type="button" class="pill" data-status="*" aria-pressed="false">All</button>';
   }
- },
- {
-  "key": "money",
-  "n": "03",
-  "glyph": "coin",
-  "cmd": "C:\\TREASURY> MINT /PRIVATE",
-  "title": "THE MONEY ITSELF",
-  "what": "Private dollars under a new federal law: who may issue them, what must back them, and what does not protect the people who hold them.",
-  "facts": [
-   {
-    "status": "law",
-    "text": "The GENIUS Act creates a federal framework for permitted issuers to issue dollar-pegged \"payment stablecoins.\"",
-    "sources": [
-     {
-      "url": "https://www.cbsnews.com/news/trump-signs-genius-act-crypto-bill",
-      "publisher": "CBS News",
-      "date": "2025-07"
-     },
-     {
-      "url": "https://www.govinfo.gov/content/pkg/BILLS-119s1582enr/html/BILLS-119s1582enr.htm",
-      "publisher": "U.S. Government Publishing Office",
-      "date": ""
-     }
-    ]
-   },
-   {
-    "status": "law",
-    "text": "Issuers must hold reserves of at least one dollar for every coin, in cash, bank deposits or short-term Treasury bills.",
-    "sources": [
-     {
-      "url": "https://www.govinfo.gov/content/pkg/BILLS-119s1582enr/html/BILLS-119s1582enr.htm",
-      "publisher": "U.S. Government Publishing Office",
-      "date": ""
-     }
-    ]
-   },
-   {
-    "status": "law",
-    "text": "Payment stablecoins are not backed by the full faith and credit of the United States, are not guaranteed by the government, and are not covered by Federal Deposit Insurance Corporation deposit insurance.",
-    "sources": [
-     {
-      "url": "https://www.govinfo.gov/content/pkg/BILLS-119s1582enr/html/BILLS-119s1582enr.htm",
-      "publisher": "U.S. Government Publishing Office",
-      "date": ""
-     }
-    ]
-   },
-   {
-    "status": "reported",
-    "text": "World Liberty Financial, a crypto venture backed by President Donald Trump and his family, launched its own dollar stablecoin, USD1, in March 2025.",
-    "sources": [
-     {
-      "url": "https://www.cnbc.com/2025/03/25/trumps-world-liberty-financial-jumps-into-stablecoin-game-with-usd1-reveal.html",
-      "publisher": "CNBC",
-      "date": "2025-03"
-     }
-    ]
-   }
-  ],
-  "argument": {
-   "status": "argument",
-   "text": "With no deposit insurance, holders would bear the loss if an issuer failed. The FDIC’s chairman has said stablecoin users will get no government guarantee of their money.",
-   "sources": [
-    {
-     "url": "https://www.coindesk.com/policy/2026/03/11/stablecoins-won-t-get-any-kind-of-deposit-insurance-under-genius-rules-says-fdic-chief",
-     "publisher": "CoinDesk",
-     "date": "2026-03"
-    }
-   ]
+
+  function apply() {
+    var shown = 0;
+    document.querySelectorAll("[data-status]").forEach(function (el) {
+      if (el.classList.contains("pill")) return;
+      var vis = !!on[el.dataset.status];
+      el.hidden = !vis;
+      if (vis) shown++;
+    });
+    // a dossier with nothing left to show steps aside
+    DOSSIERS.forEach(function (d) {
+      var art = document.getElementById(d.key);
+      if (!art) return;
+      var any = art.querySelectorAll("[data-status]:not([hidden])").length;
+      art.hidden = !any;
+      var band = document.querySelector('.cut-band[data-key="' + d.key + '"]');
+      if (band) band.style.opacity = any ? "" : "0.35";
+    });
+    if (pillbar) pillbar.querySelectorAll(".pill").forEach(function (b) {
+      if (b.dataset.status === "*") b.setAttribute("aria-pressed", String(Object.keys(on).every(function (k) { return on[k]; })));
+      else b.setAttribute("aria-pressed", String(!!on[b.dataset.status]));
+    });
+    if (showing) showing.innerHTML = shown === META.claims
+      ? "Showing all <b>" + META.claims + "</b> claims."
+      : "Showing <b>" + shown + "</b> of " + META.claims + " claims.";
   }
- },
- {
-  "key": "machines",
-  "n": "04",
-  "glyph": "drone",
-  "cmd": "C:\\DOD> REPLICATE /THOUSANDS",
-  "title": "THE MACHINES",
-  "what": "Autonomous systems bought by the thousand for the battlefield and the border, and what was really flying over New Jersey.",
-  "facts": [
-   {
-    "status": "documented",
-    "text": "In August 2023 the Pentagon unveiled Replicator, a plan to field thousands of uncrewed systems by August 2025. By then, a former defense official noted, it had fielded only hundreds.",
-    "sources": [
-     {
-      "url": "https://www.congress.gov/crs_external_products/IF/PDF/IF12611/IF12611.10.pdf",
-      "publisher": "Congress.gov",
-      "date": "2025-09"
-     },
-     {
-      "url": "https://www.diu.mil/latest/implementing-the-department-of-defense-replicator-initiative-to-accelerate",
-      "publisher": "Defense Innovation Unit, U.S. Department of…",
-      "date": "2023-11"
-     }
-    ]
-   },
-   {
-    "status": "documented",
-    "text": "Customs and Border Protection uses Anduril's Autonomous Surveillance Towers, solar-powered towers that use AI to detect and track people and vehicles near the border.",
-    "sources": [
-     {
-      "url": "https://www.cbp.gov/document/foia-record/anduril-surveillance-towers",
-      "publisher": "U.S. Customs and Border Protection",
-      "date": "2021-10"
-     },
-     {
-      "url": "https://www.cbp.gov/frontline/watchful-eye",
-      "publisher": "U.S. Customs and Border Protection",
-      "date": "2022-01"
-     },
-     {
-      "url": "https://www.cbp.gov/newsroom/national-media-release/cbp-s-autonomous-surveillance-towers-declared-program-record-along",
-      "publisher": "U.S. Customs and Border Protection",
-      "date": "2020-07"
-     }
-    ]
-   },
-   {
-    "status": "documented",
-    "text": "In January 2025 the White House said the drones reported over New Jersey had been authorized by the FAA to fly for research and other reasons.",
-    "sources": [
-     {
-      "url": "https://www.nbcnews.com/news/us-news/white-house-says-new-jersey-drones-authorized-faa-was-not-enemy-rcna189646",
-      "publisher": "NBC News",
-      "date": "2025-01"
-     },
-     {
-      "url": "https://www.nytimes.com/2025/01/28/nyregion/new-jersey-drones-faa.html",
-      "publisher": "The New York Times",
-      "date": "2025-01"
-     }
-    ]
-   }
-  ],
-  "argument": {
-   "status": "argument",
-   "text": "Critics say these systems invade privacy and violate civil rights, and researchers note that battlefield technologies such as drones and biometric surveillance are increasingly migrating into domestic policing.",
-   "sources": [
-    {
-     "url": "https://www.cbsnews.com/pittsburgh/news/surveillance-technology-flock-debate/",
-     "publisher": "CBS News / KDKA-TV",
-     "date": "2026-09"
+
+  if (pillbar) pillbar.addEventListener("click", function (e) {
+    var b = e.target.closest(".pill");
+    if (!b) return;
+    if (b.dataset.status === "*") Object.keys(on).forEach(function (k) { on[k] = true; });
+    else on[b.dataset.status] = !on[b.dataset.status];
+    // never filter everything away — the last one off turns them all back on
+    if (!Object.keys(on).some(function (k) { return on[k]; })) Object.keys(on).forEach(function (k) { on[k] = true; });
+    apply();
+  });
+
+  // --------------------------------------------------- open every record
+  var openAll = document.getElementById("open-all");
+  if (openAll) openAll.addEventListener("click", function () {
+    var want = openAll.getAttribute("aria-pressed") !== "true";
+    document.querySelectorAll("details.record").forEach(function (d) { d.open = want; });
+    openAll.setAttribute("aria-pressed", String(want));
+    openAll.textContent = want ? "Close every record" : "Open every record";
+  });
+
+  // ------------------------------------------------------------- routing
+  // #civil-service lands on a dossier; #DS-2-0 opens that claim's record and
+  // lights the row, so a single line can be linked to and arrive open.
+  function route() {
+    var id = decodeURIComponent(window.location.hash.replace(/^#/, ""));
+    document.querySelectorAll(".facts li.lit, .argue.lit").forEach(function (el) { el.classList.remove("lit"); });
+    document.querySelectorAll(".cut-band[aria-current]").forEach(function (a) { a.removeAttribute("aria-current"); });
+    if (!id) return;
+    var band = document.querySelector('.cut-band[data-key="' + id.replace(/"/g, "") + '"]');
+    if (band) band.setAttribute("aria-current", "true");
+    if (!/^DS-\d+-\d+$/.test(id)) return;
+    var row = document.getElementById(id);
+    if (!row) return;
+    // a claim hidden by the filter must come back before it can be read
+    if (row.hidden && row.dataset.status) { on[row.dataset.status] = true; apply(); }
+    var rec = document.getElementById("rec-" + id);
+    if (rec) rec.open = true;
+    row.classList.add("lit");
+    row.scrollIntoView({ block: "center", behavior: "smooth" });
+    var art = row.closest(".dossier");
+    if (art) {
+      var b = document.querySelector('.cut-band[data-key="' + art.id + '"]');
+      if (b) b.setAttribute("aria-current", "true");
     }
-   ]
   }
- }
-];
-const HOWTO = [["Federal Register","Executive orders and agency rules, with the public comments on them. Search “Schedule F” or “Schedule Policy/Career”."],["USAspending.gov","Federal contract awards by company: what each agency paid, and whether the award was competed."],["FEC.gov","Who gave to which campaign or super PAC, by name and amount."],["OGE disclosures","Senior officials’ financial disclosures, released by the Office of Government Ethics on request."],["Congress.gov","Bill text and history. The GENIUS Act is S.1582 of the 119th Congress."]];
-const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-const badge = (s) => `<span class="badge st-${s}" title="${STATUS[s].desc}">${STATUS[s].label}</span>`;
-const srcHtml = (i) => (i.sources || []).length ? `<span class="src">${i.sources.map((x) => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.publisher)}${x.date ? ", " + esc(x.date) : ""} ↗</a>`).join("")}</span>` : "";
-document.getElementById("legend").innerHTML = Object.entries(STATUS).map(([k, s]) => `<span>${badge(k)} ${s.desc}</span>`).join("");
-document.getElementById("dossiers").innerHTML = DOSSIERS.map((d) => `
-  <article class="dossier" id="${d.key}">
-    <div class="side"><span class="n">${d.n}</span><canvas class="glyph" data-glyph="${d.glyph}" aria-hidden="true"></canvas><div class="cmd">${d.cmd}</div></div>
-    <div>
-      <h2>${d.title}</h2>
-      <p class="what">${d.what}</p>
-      <ul class="facts">${d.facts.map((f) => `<li>${badge(f.status)}${f.text}${srcHtml(f)}</li>`).join("")}</ul>
-      ${d.argument ? `<div class="argue"><b>ARGUMENT ▸</b>${d.argument.text}${srcHtml(d.argument)}</div>` : ""}
-    </div>
-  </article>`).join("");
-document.getElementById("howto").innerHTML = HOWTO.map(([k, v]) => `<li><code>${k}</code><span>${v}</span></li>`).join("");
+  window.addEventListener("hashchange", route);
+
+  apply();
+  route();
+})();
 </script>
 <script src="js/deep-state.js" defer></script>
 </body>

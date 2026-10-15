@@ -98,3 +98,126 @@ aspect left a dark band under the hand; it is positioned to fill the box and
 reads the box's height. The kanji come from Noto Serif JP loaded with the
 Google Fonts `text=` parameter, which ships only the nine glyphs used instead
 of a CJK font of several megabytes.
+
+## The October 2026 Deep State rebuild: the page shows its own dig
+
+**`research/build-deep-state.mjs` joins each claim to the quotes verified for it, and refuses to build when they have drifted apart.**
+The claims and their source chips live in `research/deep-state-dossiers.json`;
+the quotes `glm-recheck.mjs` found on each page as fetched live in
+`research/deep-state-sources.json`. The build joins them on the claim id
+(`DS-<dossier>-<item>`, the argument last within its dossier) and writes
+`public/js/deep-state-data.js`. It exits non-zero if an id is on one side only,
+if the two disagree about a claim's status, if a claim cites a URL the record
+never opened, or — the one that matters — if the claim's wording has changed
+since it was checked. Quotes are evidence for the sentence that was verified,
+not for whatever that sentence later became. `--check` asserts the generated
+file is current without writing it.
+
+**The output is a classic script, not JSON fetched at runtime.**
+`atlas.html` needs an HTTP server and carries a note explaining why, because
+`file://` blocks both module scripts and `fetch`. The Deep State page uses
+neither, so it should survive being opened straight off disk, which is how the
+in-app file view opens it. That was reasoned from the atlas's note rather than
+re-tested: the in-app browser pane renders a `file://` URL as a static snapshot
+and will not drive it as a live page, so the claim is unverified here — open it
+off disk in a real browser if it ever matters. Inlined data at this size
+(97 quotes, 160 KB) costs nothing a fetch would have saved.
+
+**`public/deep-state.html` deliberately does not link `atlas-ui.css`.**
+That stylesheet's `--paper` is a dark panel colour declared as
+`var(--paper, #161813)`; this page's `--paper` is the print's actual paper
+white. Linking it and then overriding would make every `.atlas-*` class resolve
+its background to white. `atlas.html` solves this by scoping `--paper` to its
+mount containers and writing the inverted states as literals; a page that only
+wants pills and stamps is better off writing twenty lines of its own CSS than
+inheriting that collision.
+
+**`SURFACE` in `public/js/deep-state.js` and `.cut-bands { top }` are the same
+number in two files.** THE CUT draws a surface strip and four strata; the page
+lays four real `<a>` elements over the same four bands, so the links are
+keyboard-reachable, selectable and routable, and the labels are crisp text
+rather than canvas glyphs (this file has no bitmap font — `blind-pool.js` is the
+one that carries its own). Change the fraction in one place and the labels slide
+off the layers they name.
+
+**A pyramid drawn wide and shallow reads as a brick wall.**
+The buried pyramid first spanned the bottom two layers at `Wd * 0.165` either
+side and looked like masonry coursing, not a structure. Its half-width is now
+derived from its own height (`(H - apexY) * 0.62`), so it stays steep at every
+canvas size. Its apex sits two layers down on purpose: the trench has to come
+through the civil service and the surveillance contracts to reach it, which is
+the page's argument, drawn.
+
+**Cut the trench before laying the pyramid in, and stop the bedding planes at
+its edge.** The trench is drawn as white over the strata; drawing it after the
+pyramid whited out the apex it was supposed to have exposed. The bedding planes
+are drawn last and skipped where `digAt(y)` says the cut removed them — which is
+what makes the void read as excavated rather than as a blank rectangle.
+
+**The share card is composed in the page and scaled by an integer.**
+`public/img/deep-state-og.png` is THE CLEARING's own canvas drawn into a
+1200×630 buffer at exactly 5×, with the title and the page's counted tallies
+typeset under it. A screenshot would have been resampled by the window's device
+pixel ratio and broken the pixel grid, the same rule the README states for
+Maizey. Quantised to 64 colours it is 9.6 KB, against 39 KB for the atlas's.
+
+**`research/extract-entities.mjs` cannot run: `public/blind-pool.html` throws
+`window is not defined` in its sandbox.** `pageData()` evaluates the page's last
+inline script in a bare `vm` context, and Blind Pool's now touches `window`
+before the `// ---------- helpers` marker that bounds the slice. This predates
+the Deep State rebuild and blocks regenerating `public/data/entities.json` for
+every page, not just that one. Deep State is a `html: true` page and contributes
+nothing to the index either way, because `htmlSections()` looks for
+`id="dossier-…"` and the dossiers are rendered by script into `<main
+id="dossiers">`, where that regex never matches.
+
+## Dossier 05, and what the re-check caught on the way in
+
+**The re-check's value showed up as three corrections a person would have shipped.**
+Drafting "the dual hat" — In-Q-Tel, JPMorgan's Palantir programme, Signac, Team
+Themis — `research/glm-recheck.mjs --strict-sources` passed two of five on the
+first run, for three cents, and every failure was real. It struck **"apologised"**
+out of the Team Themis line: the quotes have Palantir's chief executive calling
+the plans reprehensible and saying "I have directed the company to sever any and
+all contacts with HB Gary," and no apology anywhere. It corrected the Team Themis
+date from 2011 to late 2010 and then failed the line anyway, because no quote
+carried "2010" — the fix was to drop the bare year and let the source chips carry
+the dates. And it moved an argument's attribution from "civil-liberties groups"
+to **Glenn Greenwald**, because the quotes show him making it and not them.
+
+**A claim that names an agency needs a page that spells the agency that way.**
+"the Central Intelligence Agency set up In-Q-Tel" failed on `namesNotOnPages:
+['central intelligence']` — the source says "the CIA's investment arm". The claim
+was reworded to the source's words rather than hunting for a page that happened
+to spell it out, which is the right direction to move in anyway.
+
+**The machine's rewrite can still put the Gazette's gloss in someone's mouth.**
+It wrote that Greenwald "argued that a private contractor's proposal ... shows what
+intelligence tradecraft becomes once it is available for hire" — a sentence he
+never said; that framing was the draft's, and the rewrite kept it while swapping
+the subject. The mechanical checks cannot catch this: there is no figure or name
+to fail on. It was restated on his quoted words ("quite possibly constitutes
+serious crimes", "possibly extortion") and marked `edited`. This is exactly the
+case the lesson about reading every rewrite exists for.
+
+**A quote that arrives with the source's own quotation marks must not get a second pair.**
+`.quote::before/::after` add typographic marks, and eight of the quotes are
+themselves quotations inside the source's prose, so they rendered as `""I have
+directed...`. The render now tags those `.quote.bare` and the pseudo-elements are
+suppressed for them. Note that `textContent` does not include pseudo-element
+content, so a check for doubled marks written against `textContent` reports
+clean no matter how broken the page looks.
+
+**THE CUT takes its band count from the dossiers, not from a number in two files.**
+Adding the fifth dossier would have meant editing a hardcoded 4 in five places in
+`public/js/deep-state.js` plus the CSS grid. Instead `.cut-bands` gets
+`--cut-layers` from `DOSSIERS.length` and the canvas reads `.cut-band` back off
+the DOM; the canvas height is `0.1 × LAYERS` of its width (0.195 on a phone), so a
+band stays 52px tall at 375px however many there are. The pyramid's apex is a
+fraction of the ground's depth, not a count of bands, so it does not move when a
+layer is added. A new dossier does still need a `glyph` that exists in `GLYPHS`.
+
+**`python -m http.server` caches, and it will hand you a stale page mid-verify.**
+An edit to the inline script appeared not to work; the page in the browser was the
+previous one. A cache-busting query (`?v=…`) on reload is the quickest way to be
+sure you are testing what you just wrote.

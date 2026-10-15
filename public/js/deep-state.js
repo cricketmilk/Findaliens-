@@ -230,6 +230,248 @@
     onResize(() => { layout(); draw(); });
   })();
 
+  // ======================= THE CUT: the trench =======================
+  // A section through the ground, drawn side-on the way a dig is recorded: the
+  // surface and its spoil heap, then four strata — the civil service, the
+  // surveillance contracts, the money, the machines — each a different grain of
+  // stipple with its own finds buried in it, outlined the way a find is drawn
+  // in section. A stepped trench is cut down the middle to the pyramid's apex;
+  // the pyramid itself shows in section, courses and all, because a section
+  // shows what is in the cut plane whether anyone has reached it yet or not.
+  // A survey staff ticks off the layers at the left edge.
+  //
+  // deep-state.html lays its four links over the same four bands, so SURFACE
+  // here and `.cut-bands { top }` there must stay the same fraction.
+  const SURFACE = 0.18;
+  (function cut() {
+    const cv = document.getElementById("cut");
+    if (!cv) return;
+    // One band per dossier. deep-state.html lays that many links over this
+    // canvas, so the count is read from the DOM rather than written down twice,
+    // and the canvas grows taller as dossiers are added so a band keeps its
+    // height (and stays tappable on a phone).
+    const LAYERS = Math.max(1, document.querySelectorAll(".cut-band").length || 4);
+    const st = pixels(cv, (w) => (w < 520 ? 3 : 4), (Wb, cssW) => Math.round(Wb * (cssW < 520 ? 0.195 : 0.1) * LAYERS));
+    let base, t = 0, L = {}, motes = [], spall = [];
+
+    // The grain of each layer, 0 (empty) to 1 (solid ink). Kept well under
+    // solid: a layer that fills in swallows the finds buried in it.
+    const GRAIN = [
+      // the civil service: a colonnade's worth of vertical hatching, thinning
+      (x, y) => (x % 3 === 0 ? 0.66 : 0.08) + (fbm(x * 0.12, y * 0.12) - 0.5) * 0.4,
+      // the surveillance contracts: a fine, even stipple — a held image
+      (x, y) => 0.34 + fbm(x * 0.21, y * 0.21) * 0.34,
+      // the money: laminations, laid down a year at a time
+      (x, y) => (y % 4 < 2 ? 0.58 : 0.1) + (fbm(x * 0.07, y * 0.3) - 0.5) * 0.36,
+      // the machines: coarse rubble, nothing bedded
+      (x, y) => 0.18 + Math.pow(fbm(x * 0.07, y * 0.07), 1.6) * 0.92,
+      // the dual hat: two hatchings laid across each other, neither on top
+      (x, y) => ((x + y) % 5 < 2 ? 0.52 : 0.06) + ((x - y + 500) % 5 < 2 ? 0.34 : 0) + (fbm(x * 0.1, y * 0.1) - 0.5) * 0.3,
+    ];
+    const grainFor = (i) => GRAIN[i % GRAIN.length];
+
+    function layout() {
+      st.size();
+      const { W: Wd, H } = st;
+      const rod = Math.max(4, Math.round(Wd * 0.045));
+      const y0 = Math.round(H * SURFACE), bandH = (H - y0) / LAYERS;
+      // The apex sits a little under half the depth, so the trench always has
+      // to come down through the upper layers to reach it — which is the whole
+      // argument of the page, drawn. Taken as a fraction of the ground rather
+      // than a count of bands, so adding a dossier does not move it. A steep
+      // pyramid reads as one; a wide shallow one reads as a brick wall.
+      const cx = Math.round(Wd * 0.6), apexY = Math.round(y0 + (H - y0) * 0.45);
+      L = { Wd, H, rod, y0, bandH, cx, apexY, half: (H - apexY) * 0.62, tTop: Wd * 0.085, tBot: Wd * 0.03 };
+      base = new Uint32Array(Wd * H);
+      base.fill(W);
+
+      // ---- the strata
+      for (let i = 0; i < LAYERS; i++) {
+        const top = Math.round(y0 + bandH * i), bot = Math.round(y0 + bandH * (i + 1));
+        const grain = grainFor(i);
+        for (let y = top; y < bot; y++) for (let x = 0; x < Wd; x++) {
+          const d = Math.max(0, Math.min(0.98, grain(x, y)));
+          base[y * Wd + x] = d > bayer(x, y) * 0.94 + hash(x, y, i) * 0.06 ? K : W;
+        }
+      }
+      // colour leaking out of the deeper half, as it does in the clearing
+      for (let y = Math.round(y0 + (H - y0) * 0.5); y < H; y++) for (let x = 0; x < Wd; x++) {
+        if (base[y * Wd + x] === K && hash(x, y, 13) < 0.045) base[y * Wd + x] = GLITCH[(hash(x, y, 17) * GLITCH.length) | 0];
+      }
+
+      const halo = (x, y, w, h) => { for (let j = y - 1; j <= y + h; j++) for (let i = x - 1; i <= x + w; i++) if (i >= 0 && j >= 0 && i < Wd && j < H) base[j * Wd + i] = W; };
+      const ink = (x, y, w, h) => { for (let j = y; j < y + h; j++) for (let i = x; i < x + w; i++) if (i >= 0 && j >= 0 && i < Wd && j < H) base[j * Wd + i] = K; };
+      const ring = (cxp, cyp, r, c) => { for (let a = 0; a < 360; a += 4) { const x = Math.round(cxp + Math.cos(a / 57.3) * r), y = Math.round(cyp + Math.sin(a / 57.3) * r * 0.9); if (x >= 0 && y >= 0 && x < Wd && y < H) base[y * Wd + x] = c; } };
+
+      // ---- the finds, one kind to a layer, haloed so they read against the grain.
+      // They sit in the two clear columns: deep-state.html's band links put a
+      // number and a name down the left and a claim count at the right edge,
+      // and the trench and the pyramid take the middle.
+      const SPOT = [0.3, 0.385, 0.47, 0.745, 0.825];
+      const at = (k) => Math.round(Wd * SPOT[k % SPOT.length]);
+      const bandMid = (i) => Math.round(y0 + bandH * (i + 0.55));
+      const span = () => bandH * 0.3;
+      // 01 broken columns, one of them toppled
+      for (let k = 0; k < 4; k++) {
+        const x = at(k), y = bandMid(0), h = Math.max(3, Math.round(span() * (k === 2 ? 0.5 : 1.4)));
+        if (k === 2) { halo(x - 5, y, 11, 3); ink(x - 5, y + 1, 11, 2); ink(x - 6, y, 2, 4); }
+        else { halo(x - 1, y - h, 4, h + 3); ink(x - 1, y - h, 1, h); ink(x + 1, y - h, 1, h); ink(x - 2, y - h - 1, 5, 1); ink(x - 2, y + h * 0.2, 5, 1); }
+      }
+      // 02 lenses, and the stump of a tower
+      for (let k = 0; k < 3; k++) {
+        const x = at(k === 2 ? 3 : k), y = bandMid(1), r = Math.max(2, Math.round(span() * 0.75));
+        halo(x - r - 1, y - r - 1, r * 2 + 3, r * 2 + 3);
+        ring(x, y, r, K); ring(x, y, Math.max(1, r * 0.45), K); base[y * Wd + x] = K;
+      }
+      {
+        const x = at(4), y = Math.round(y0 + bandH * 2) - 1, h = Math.max(4, Math.round(bandH * 0.6));
+        halo(x - 3, y - h, 7, h + 2); ink(x - 1, y - h, 2, h); ink(x - 3, y - h - 1, 6, 2);
+      }
+      // 03 coins, some flat, some on edge
+      for (let k = 0; k < 5; k++) {
+        const x = at(k), y = bandMid(2), r = Math.max(2, Math.round(span() * 0.7));
+        halo(x - r - 1, y - r - 1, r * 2 + 3, r * 2 + 3);
+        if (k % 3 === 1) { ink(x - 1, y - r, 2, r * 2); }
+        else { ring(x, y, r, K); base[y * Wd + x] = K; base[y * Wd + x - 1] = K; }
+      }
+      // 04 rotors in the rubble
+      for (let k = 0; k < 3; k++) {
+        const x = at(k === 2 ? 4 : k), y = bandMid(3), r = Math.max(3, Math.round(span() * 0.95));
+        halo(x - r - 1, y - r - 1, r * 2 + 3, r * 2 + 3);
+        ink(x - 1, y - 1, 3, 3);
+        for (const [dx, dy] of [[1, 0.45], [-1, 0.45], [1, -0.45], [-1, -0.45]]) for (let s = 1; s <= r; s++) {
+          const px = Math.round(x + dx * s), py = Math.round(y + dy * s);
+          if (px >= 0 && py >= 0 && px < Wd && py < H) base[py * Wd + px] = K;
+        }
+      }
+      // 05 badges in overlapping pairs: one object, worn twice
+      if (LAYERS > 4) for (let k = 0; k < 3; k++) {
+        const x = at(k === 2 ? 4 : k), y = bandMid(4), r = Math.max(2, Math.round(span() * 0.62));
+        halo(x - r * 2 - 1, y - r - 1, r * 4 + 3, r * 2 + 3);
+        ring(x - r, y, r, K); ring(x + r, y, r, K);
+        base[y * Wd + x - r] = K; base[y * Wd + x + r] = K;
+      }
+
+      // ---- the trench: earth taken out in steps, dug just past the apex.
+      // Cut before the pyramid is laid in, so the masonry it has reached shows
+      // through the void instead of being whited out by it.
+      const steps = 4, tBottom = Math.round(L.apexY + bandH * 0.3);
+      L.trench = [];
+      for (let s = 0; s < steps; s++) {
+        const yA = Math.round(y0 + (tBottom - y0) * (s / steps)), yB = Math.round(y0 + (tBottom - y0) * ((s + 1) / steps));
+        const hw = L.tTop + (L.tBot - L.tTop) * (s / (steps - 1 || 1));
+        L.trench.push({ yA, yB, hw });
+        for (let y = yA; y < yB; y++) for (let x = Math.round(cx - hw); x <= cx + hw; x++) if (x >= 0 && x < Wd) base[y * Wd + x] = W;
+      }
+      const digAt = (y) => { for (const sg of L.trench) if (y >= sg.yA && y < sg.yB) return sg.hw; return null; };
+
+      // ---- the pyramid in section: courses of masonry, and the eye still in it
+      for (let y = L.apexY; y < H; y++) {
+        const w = ((y - L.apexY) / (H - L.apexY)) * L.half;
+        for (let x = Math.round(cx - w); x <= cx + w; x++) {
+          if (x < 0 || x >= Wd) continue;
+          const course = (y - L.apexY) % 3 === 2;                       // the bed joints
+          const riser = course ? false : ((x + (((y - L.apexY) / 3) | 0) * 3) % 7 === 0); // staggered uprights
+          base[y * Wd + x] = course || riser ? G : K;
+        }
+      }
+      {
+        const ey = Math.round(L.apexY + (H - L.apexY) * 0.42), ew = Math.max(3, Math.round(L.half * 0.32)), eh = Math.max(2, Math.round(ew * 0.5));
+        for (let y = ey - eh; y <= ey + eh; y++) for (let x = cx - ew; x <= cx + ew; x++) {
+          if (x < 0 || y < 0 || x >= Wd || y >= H) continue;
+          const u = (x - cx) / ew, v = (y - ey) / eh, lid = Math.pow(Math.max(0, 1 - u * u), 0.8);
+          if (Math.abs(v) > lid) continue;
+          base[y * Wd + x] = Math.hypot(x - cx, (y - ey) * 1.6) < eh * 0.7 ? K : W;
+        }
+      }
+
+      // the cut's own edge, dashed, the way a section marks a modern intrusion
+      for (const sg of L.trench) {
+        for (let y = sg.yA; y < sg.yB; y++) if ((y & 1) === 0) { const a = Math.round(cx - sg.hw), b = Math.round(cx + sg.hw); if (a >= 0) base[y * Wd + a] = K; if (b < Wd) base[y * Wd + b] = K; }
+        for (let x = Math.round(cx - sg.hw); x <= cx + sg.hw; x++) if ((x & 1) === 0 && x >= 0 && x < Wd && sg.yA >= 0) base[sg.yA * Wd + x] = K;
+      }
+
+      // ---- bedding planes, drawn last so nothing crosses them — but stopped
+      // at the trench, because the cut took those layers away
+      for (let i = 0; i <= LAYERS; i++) {
+        const y = Math.round(y0 + bandH * i);
+        const hw = digAt(y);
+        for (let x = 0; x < Wd; x++) {
+          if (hw !== null && Math.abs(x - cx) < hw) continue;
+          if (y >= 0 && y < H) base[y * Wd + x] = K;
+        }
+        if (i && i < LAYERS) for (let x = 0; x < Wd; x++) if (x % 4 === 0 && y + 1 < H && !(hw !== null && Math.abs(x - cx) < hw)) base[(y + 1) * Wd + x] = W;
+      }
+
+      // ---- the surface: spoil from the trench, and the corn it came out of
+      for (let x = 0; x < Wd; x++) {
+        const heap = Math.max(0, 1 - Math.abs(x - (cx - L.tTop * 2.6)) / (Wd * 0.1));
+        const h = Math.round(Math.pow(heap, 1.6) * y0 * 0.72);
+        for (let y = y0 - h; y < y0; y++) if (y >= 0 && (0.42 + fbm(x * 0.25, y * 0.25) * 0.75) > bayer(x, y)) base[y * Wd + x] = K;
+      }
+      // corn, not telegraph poles: a tassel on top and two leaves that leave the
+      // stalk at different heights and droop as they go out
+      for (let k = 0; k < 7; k++) {
+        const x = Math.round(Wd * (0.045 + k * 0.142)), h = Math.round(y0 * (0.52 + hash(k, 3) * 0.4));
+        if (Math.abs(x - cx) < L.tTop + 2) continue;         // nothing grows over the cut
+        const topY = y0 - h;
+        for (let y = topY; y < y0; y++) if (x >= 0 && x < Wd && y >= 0) base[y * Wd + x] = K;
+        for (let b = 0; b < 2; b++) {
+          const py = topY - 1 - b;
+          if (py >= 0) { base[py * Wd + x] = K; if (b === 0 && x + 1 < Wd) base[py * Wd + x + 1] = K; }
+        }
+        [[-1, 0.34], [1, 0.6]].forEach(([s, f], li) => {
+          const len = 2 + ((hash(k, li + 11) * 2.4) | 0);
+          for (let b = 1; b <= len; b++) {
+            const px = x + s * b, py = Math.round(topY + h * f) + ((b * b) >> 1);
+            if (px >= 0 && px < Wd && py >= 0 && py < y0) base[py * Wd + px] = K;
+          }
+        });
+      }
+
+      // ---- the survey staff, in alternating blocks, ticked at every plane
+      const blk = Math.max(2, Math.round(bandH / 4));
+      for (let y = 0; y < H; y++) for (let x = 0; x < L.rod; x++) {
+        base[y * Wd + x] = y < L.y0 ? W : (((y - L.y0) / blk) | 0) % 2 === 0 ? K : W;
+      }
+      for (let y = 0; y < H; y++) { base[y * Wd] = K; base[y * Wd + L.rod] = K; }
+      for (let i = 0; i <= LAYERS; i++) {
+        const y = Math.round(y0 + bandH * i);
+        for (let x = 0; x <= Math.round(L.rod * 1.9); x++) if (y >= 0 && y < H && x < Wd) base[y * Wd + x] = K;
+      }
+      motes = []; spall = [];
+    }
+
+    function draw() {
+      const { W: Wd } = st;
+      st.buf.set(base);
+      for (const m of motes) st.px(m.x, m.y, K);
+      for (const s of spall) st.rect(s.x, s.y, s.s, s.s, K);
+      st.show();
+    }
+
+    function step() {
+      t++;
+      // dust lifting out of the cut
+      if (motes.length < 16 && Math.random() < 0.5) motes.push({ x: L.cx + (Math.random() - 0.5) * L.tTop * 2, y: L.y0 + Math.random() * 3, v: 0.1 + Math.random() * 0.25, d: (Math.random() - 0.5) * 0.4 });
+      for (const m of motes) { m.y -= m.v; m.x += m.d; }
+      motes = motes.filter((m) => m.y > 0);
+      // and grit letting go of the pyramid's flank
+      if (spall.length < 7 && Math.random() < 0.09) {
+        const y = L.apexY + Math.random() * (st.H - L.apexY) * 0.7;
+        const w = ((y - L.apexY) / (st.H - L.apexY)) * L.half;
+        spall.push({ x: L.cx + (Math.random() < 0.5 ? -w : w), y, v: 0.2, s: Math.random() < 0.3 ? 2 : 1 });
+      }
+      for (const s of spall) { s.v = Math.min(1.1, s.v + 0.045); s.y += s.v; }
+      spall = spall.filter((s) => s.y < st.H - 1);
+    }
+
+    layout();
+    draw();
+    ticker(() => { step(); draw(); }, 70);
+    onResize(() => { layout(); draw(); });
+  })();
+
   // ======================= the dossiers' emblems =======================
   // Each 44 pixels square, ink on paper, one small motion apiece: a column of
   // the civil service coming apart, an eye scanning, a coin splitting into
@@ -277,6 +519,25 @@
       if (split) { ring(-split, GLITCH[0]); ring(split, GLITCH[1]); }
       ring(0, K);
       if (split) for (let y = 6; y < 38; y += 5) if (hash(y, t) < 0.4) { const dx = ((hash(y, t, 1) - 0.5) * 6) | 0; for (let x = 4; x < 40; x++) { const c = st.buf[y * N + x]; st.px(x + dx, y, c); } }
+    },
+    // a badge split down the middle: a state star on one side, a dollar on the
+    // other, the two trading places every few seconds through one glitched frame
+    hats(st, t) {
+      const cx = 22, cycle = t % 90, flip = cycle > 45, tear = cycle === 46 || cycle === 1;
+      const hw = (y) => (y < 28 ? 15 : Math.max(1, Math.round(15 * (1 - (y - 28) / 11))));
+      for (let y = 6; y < 39; y++) {
+        const w = hw(y);
+        st.rect(cx - w, y, w * 2, 1, W);
+        st.px(cx - w, y, K); st.px(cx + w - 1, y, K);
+      }
+      st.rect(cx - 15, 6, 30, 1, K);
+      for (let y = 7; y < 37; y++) if ((y & 1) === 0) st.px(cx, y, K);
+      const STAR = ["00100", "01110", "11111", "01110", "10001"];
+      const CASH = ["00100", "01111", "10100", "01110", "00101", "11110", "00100"];
+      const stamp = (pat, ox, oy) => pat.forEach((row, j) => [...row].forEach((c, i) => { if (c === "1") st.rect(ox + i * 2, oy + j * 2, 2, 2, K); }));
+      stamp(STAR, flip ? cx + 4 : cx - 14, 16);
+      stamp(CASH, flip ? cx - 14 : cx + 4, 13);
+      if (tear) for (let y = 10; y < 34; y += 3) { const dx = ((hash(y, t) - 0.5) * 7) | 0; for (let x = 4; x < 40; x++) st.px(x + dx, y, st.buf[y * N + x]); }
     },
     drone(st, t) {
       for (let y = 30; y < 44; y += 3) for (let x = (y >> 1) % 3; x < 44; x += 3) st.px(x, y, K);

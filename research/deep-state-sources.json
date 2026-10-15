@@ -540,5 +540,125 @@
    }
   ],
   "accepted": "checked by hand against the FEC API: three receipts totalling $15,000,000"
+ },
+ {
+  "id": "DS-5-0",
+  "text": "In-Q-Tel, the CIA's investment arm, was a seed investor in Palantir Technologies.",
+  "status": "documented",
+  "src_label": "Bloomberg (Bloomberg Businessweek) (April 19, 2018)",
+  "sources": [
+   {
+    "url": "https://www.bloomberg.com/features/2018-palantir-peter-thiel/",
+    "publisher": "Bloomberg",
+    "date": "2018-04",
+    "publisherFull": "Bloomberg (Bloomberg Businessweek)",
+    "dateText": "April 19, 2018",
+    "quotes": [
+     "The CIA’s investment arm, In-Q-Tel, was a seed investor."
+    ]
+   }
+  ],
+  "edited": "“venture capital arm” narrowed to the source's own words, “investment arm”"
+ },
+ {
+  "id": "DS-5-1",
+  "text": "JPMorgan Chase ran an internal surveillance programme built on Palantir software that collected employees' emails, browser histories, GPS locations from company-issued smartphones, printer and download activity, and transcripts of digitally recorded phone conversations. It ended when the bank's senior executives learned that they, too, were being watched.",
+  "status": "reported",
+  "src_label": "Bloomberg (Bloomberg Businessweek) (April 19, 2018)",
+  "sources": [
+   {
+    "url": "https://www.bloomberg.com/features/2018-palantir-peter-thiel/",
+    "publisher": "Bloomberg",
+    "date": "2018-04",
+    "publisherFull": "Bloomberg (Bloomberg Businessweek)",
+    "dateText": "April 19, 2018",
+    "quotes": [
+     "Aided by as many as 120 “forward-deployed engineers” from the data mining company Palantir Technologies Inc., which JPMorgan engaged in 2009, Cavicchia’s group vacuumed up emails and browser histories, GPS locations from company-issued smartphones, printer and download activity, and transcripts of digitally recorded phone conversations.",
+     "Palantir’s software aggregated, searched, sorted, and analyzed these records, surfacing keywords and patterns of behavior that Cavicchia’s team had flagged for potential abuse of corporate assets.",
+     "It all ended when the bank’s senior executives learned that they, too, were being watched, and what began as a promising marriage of masters of big data and global finance descended into a spying scandal.",
+     "After their departures, JPMorgan drastically curtailed its Palantir use, in part because “it never lived up to its promised potential,” says one JPMorgan executive who insisted on anonymity to discuss the decision."
+    ]
+   }
+  ],
+  "edited": "rewritten to the quoted inventory of what was collected; “wound down” dropped, because the source says the programme ended when the executives found out and that the bank curtailed its Palantir use only after their departures"
+ },
+ {
+  "id": "DS-5-2",
+  "text": "Credit Suisse and Palantir Technologies formed a 50-50 joint venture named Signac to detect unauthorized trading at the bank; its operations were terminated in 2017.",
+  "status": "documented",
+  "src_label": "Palantir Technologies Inc. (SEC Form S-1 registration statement) (August 25, 2020); Palantir Technologies Inc. (SEC Form S-1/A filing) (September 3, 2020); Palantir Technologies Inc. (SEC Form S-1/A filing) (September 17, 2020)",
+  "sources": [
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000119312520230013/d904406ds1.htm",
+    "publisher": "Palantir Technologies Inc.",
+    "date": "2020-08",
+    "publisherFull": "Palantir Technologies Inc. (SEC Form S-1 registration statement)",
+    "dateText": "August 25, 2020",
+    "quotes": [
+     "During 2016, the Company and a subsidiary of Credit Suisse AG created a limited liability company, Signac, LLC (Signac), of which the Company owns 50% of the voting interest.",
+     "During 2017, all business operations of Signac were terminated and the entity is in the process of being legally dissolved.",
+     "Credit Suisse, a leading provider of financial services based in Zurich, Switzerland, began using Foundry in 2013 to analyze risks emerging from compliance and financial markets."
+    ]
+   }
+  ],
+  "edited": "the record keeps Palantir's original Form S-1; the two S-1/A amendments carry the same passage word for word"
+ },
+ {
+  "id": "DS-5-3",
+  "text": "Palantir Technologies, HBGary Federal and Berico Technologies, working together as Team Themis, prepared proposals for the law firm Hunton & Williams to attack WikiLeaks and its supporters, including the journalist Glenn Greenwald. The proposals became public when hackers stole and published HBGary Federal's email, and Palantir's chief executive said the company was severing all ties to HBGary Federal.",
+  "status": "documented",
+  "src_label": "Ars Technica (Feb 14, 2011); The New York Times (Feb. 11, 2011)",
+  "sources": [
+   {
+    "url": "https://arstechnica.com/tech-policy/2011/02/the-ridiculous-plan-to-attack-wikileaks/",
+    "publisher": "Ars Technica",
+    "date": "2011-02",
+    "publisherFull": "Ars Technica",
+    "dateText": "Feb 14, 2011",
+    "quotes": [
+     "That law firm was DC-based powerhouse Hunton & Williams, which boasted 1,000 attorneys and terrific contacts. They had a client who wanted to do a little corporate investigative work, and three small security firms thought they might band together to win the deal.",
+     "Eventually, a sexier name was chosen: Team Themis.",
+     "“I think we need to highlight people like Glenn Greenwald. Glenn was critical in the Amazon to OVH [data center] transition and helped WikiLeaks provide access to information during the transition. It is this level of support we need to attack.",
+     "when Barr went public with his findings, Anonymous took down his website, stole his e-mails, deleted the company’s backup data, trashed Barr’s Twitter account, and remotely wiped his iPad.",
+     "“I have directed the company to sever any and all contacts with HB Gary,” said the CEO of Palantir."
+    ]
+   },
+   {
+    "url": "https://www.nytimes.com/2011/02/12/us/politics/12hackers.html",
+    "publisher": "The New York Times",
+    "date": "2011-02",
+    "publisherFull": "The New York Times",
+    "dateText": "Feb. 11, 2011",
+    "quotes": [
+     "One document that has received particular attention is a PowerPoint presentation that said a trio of data-related companies — HBGary Federal, Palantir Technologies and Berico Technologies — could help attack WikiLeaks",
+     "It also suggested pressuring WikiLeaks’ supporters — notably Glenn Greenwald of Salon.com — by threatening their careers.",
+     "This week, hackers said they had penetrated the computers of HBGary Federal, a security company that sells investigative services to corporations, and posted tens of thousands of what appear to be its internal company e-mails on the Internet.",
+     "They called efforts to target people “reprehensible” and said they were breaking all ties to HBGary Federal, a move that Palantir executives also said they were making."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "DS-5-4",
+  "text": "Glenn Greenwald, whom the proposals named as a target, said that what they set out “quite possibly constitutes serious crimes,” and that threatening the careers of journalists and activists in order to force them to be silent is possibly extortion.",
+  "status": "argument",
+  "src_label": "Ars Technica (Feb 14, 2011)",
+  "sources": [
+   {
+    "url": "https://arstechnica.com/tech-policy/2011/02/the-ridiculous-plan-to-attack-wikileaks/",
+    "publisher": "Ars Technica",
+    "date": "2011-02",
+    "publisherFull": "Ars Technica",
+    "dateText": "Feb 14, 2011",
+    "quotes": [
+     "Glenn Greenwald unleashed both barrels of his own, claiming that “what is set forth in these proposal... quite possibly constitutes serious crimes.",
+     "Threatening the careers of journalists and activists in order to force them to be silent is possibly extortion and, depending on the specific means to be used, constitutes other crimes as well.",
+     "Barr was now suggesting that a major US corporation find ways to lean on a civil liberties lawyer who held a particular view of WikiLeaks, pressuring him into silence on the topic.",
+     "In November, when a major US bank wanted a strategy for taking down WikiLeaks, Barr immediately drafted a presentation",
+     "And Barr wanted to go further, pushing on people like civil liberties Salon.com columnist Glenn Greenwald—apparently hoping to threaten their livelihoods."
+    ]
+   }
+  ],
+  "edited": "the re-check's wording put the Gazette's gloss in Greenwald's mouth; restated on his own quoted words"
  }
 ]

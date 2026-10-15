@@ -190,3 +190,41 @@ index all along. A parenthetical starting with a digit is now skipped.
 Liability Shield & 9/11 Monograph` into `...& 9` and `11 Monograph`, two entities
 that are not things — introduced while removing junk entities, and shipped. The
 slash now only separates when it is spaced. Arrows still split unconditionally.
+
+
+## The atlas's citations, and why the re-check cannot fix them
+
+**"85 stub citations" was 13.** The master shares citations across dossiers, so the
+compiled file counts the same stub once per dossier that references it. Count
+`master/atlas.json`'s `citations`, not `atlas-public.json`'s.
+
+**One citation was a scaffolding default on 70 dossiers, and it was their only one.**
+`CIT-1720-HANSARD`, the 1721 Commons report on the South Sea Company, was cited
+by Tulip Mania (1636), the Haiti indemnity (1825), the Baring Crisis (1890) and
+67 others. Giving it a real URL would have been the worst available outcome: 70
+visibly unsourced dossiers would have become 70 that look sourced, with a
+citation wrong for 69 of them. A placeholder is safer than a plausible lie.
+
+**The sources were already in the repo.** Those dossiers were migrated from the
+legacy crash-conduits nodes, which still carry 63 resolvable source URLs across
+48 nodes; the migration dropped them. `research/atlas-engine/repair-citations.mjs`
+carries them back (20 dossiers, 25 citations) and re-derives the era from the
+dossier's own year — 45 dossiers were in the wrong one, Tulip Mania filed under
+ERA-09-2001. Before researching anything, check whether the answer was thrown
+away upstream.
+
+**`research/glm-recheck.mjs` cannot resolve an archival citation: 0 of 11, for
+3.5 cents.** It verifies a *claim about the world* against a page it can fetch,
+and it is very good at that. A citation is a different shape — a document's name
+and what it contains — and these documents are pre-digital: an 1849 Act, the 1912
+Senate Titanic report, 1913 Hansard, the Nye and Truman committees. They live
+behind search interfaces or in scanned PDFs over the fetcher's size cap. Nothing
+about the failure was the tool misbehaving; it was the wrong tool.
+
+**What does work is each archive's own interface, one at a time, with the match
+checked.** legislation.gov.uk resolved the Encumbered Estates (Ireland) Act 1849
+and its own text confirmed the period spelling, "Incumbered Estates in Ireland".
+CourtListener's API found `Stevens v. United States` (1866) by name, date and
+court — and its record carries **no text**, so whether it is the Hall carbine
+case is unconfirmed and it was left unused. Hansard answers a bot with 403.
+Metadata agreeing is not the document saying so.

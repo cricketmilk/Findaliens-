@@ -83,3 +83,29 @@ Her idle visits first reused the reader's focus, which greys every other name;
 a page that keeps going dark on its own reads as broken. A visit now lights
 only that name's label and threads. Dimming belongs to a reader's hover or
 click.
+
+**`fitK()` measures the spoke names rather than guessing a margin for them.**
+The margin was a pair of numbers, 150px on a desktop and 46px on a phone, and
+46 was chosen when every short name was a stacked pair like DEEP / STATE. It
+broke the first time a one-word name was wider than it: `DEMYSTIFY` is 63px at
+7px Press Start 2P, so the Demystification spoke started at x=46 and ran to
+x=-17, off the left edge. `widestSpoke()` now measures every spoke's lines at
+the size they will be drawn and the fit keeps `max(fixed, widest + 12)`, cached
+per canvas width. A desktop is unchanged (the widest is 128px, still under 150);
+a phone gets the room it actually needs. Adding a page can now only cost a
+little zoom, never a clipped name.
+
+**A label spot off the edge of the stage is not a spot.**
+`label()` offers each name four places — outward, inward, above, below — and
+took the first that did not overlap another label, without ever asking whether
+it was on the canvas. Names at the rim ran off it ("...osit Insurance
+Corporation"). The spots are now also tested against the canvas, which mostly
+just makes a rim node take the inward spot it already had; the focused name is
+slid back inside instead of dropped, because the one name the reader asked for
+should never vanish.
+
+**The spoke names have to reserve their space, or labels land on them.**
+`drawSpokeLabels()` drew straight to the canvas and pushed nothing to
+`labelRects`, and `labelRects` was cleared *after* it ran, so node labels could
+not see the spokes at all — "HBGary-Federal" sat on top of "DEMYSTIFY". The
+reset moved ahead of the spokes and each spoke now pushes its own box.

@@ -40,12 +40,25 @@ const PAGES = {
   "blind-pool": { title: "Blind Pool", color: "#f4b6f1", collections: {
     FLOW: () => "#money", MONEY_STATS: () => "#money", LPS: () => "#money", VENTURES: () => "#ventures",
     TOOLKIT: () => "#hidden", INFRA: () => "#untouchable", URBIT: () => "#feudal", FEUDAL: () => "#feudal" } },
-  "deep-state": { title: "Deep State Dossiers", color: "#39ff14", html: true },
+  // Not html: true — its dossiers are rendered from script into <main id="dossiers">,
+  // where htmlSections()'s id="dossier-…" never matched. pageData() reads the
+  // generated data file instead, and each claim anchors on its own id.
+  "deep-state": { title: "Deep State Dossiers", color: "#39ff14", collections: {
+    CLAIMS: (item) => "#" + item.id } },
   "demystification": { title: "Demystification Desk", color: "#4de8ff", html: true },
+  // The compiled atlas — 108 dossiers over 1636–2026 and the eight lineages.
+  // None of it is duplicated from the tab pages: not one atlas code appears as an
+  // id in crash-conduits' data, and the lineage names (Mersey, Benjamin Strong,
+  // the Dulles brothers, Lutnick, Tesla, Marconi) appear nowhere else on the site.
+  "atlas": { title: "The Atlas", color: "#d4a657", collections: {
+    DOSSIERS: (item) => "#" + item.code, LINEAGES: () => "#lineage-title" } },
 };
 
-// Labels in the old lists that describe a crowd, not a nameable entity.
-const GENERIC = /(claimants|unidentified|architects|elite|officials|leadership|networks|desks|executives|oligarchs|merchants|notaries|regents|hyperscalers|institutional|managers|families|investors|users)/i;
+// Labels in the old lists that describe a crowd, not a nameable entity. The
+// last six came from the atlas's participant slots: "Abu Dhabi ruling family
+// shareholders", "London and Irish encumbrance holders" and "Merchant Shipping
+// Act 1876 drafters" are each a class of people, not a body to look up.
+const GENERIC = /\b(claimants|unidentified|architects|elite|officials|leadership|networks|desks|executives|oligarchs|merchants|notaries|regents|hyperscalers|institutional|managers|families|investors|users|shareholders|holders|drafters|creditors|depositors|subscribers)\b/i;
 
 // Parentheticals that describe a role, not an organization.
 const ROLE_WORDS = /\b(director|chairman|chair|chief|secretary|comptroller|regent|leadership|financier|operating|board|officials|elite|ceo|president|founder|minister|governor|treasury|senate|executive|desk|seed facilitator|venture arm|first secretary|ex-|former)\b/i;
@@ -57,6 +70,63 @@ const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 // ---------- read each page's data ----------
 
 function pageData(name) {
+  // The atlas is compiled to public/data/atlas-public.json rather than written
+  // into its page, so it is read straight from there. Each dossier already lists
+  // its `participants`, which become the item's `who`: names the compiler put
+  // there on purpose, not names guessed out of prose.
+  //
+  // Two fields are deliberately left out of the text entities are matched on.
+  // `citations`, for the reason Deep State's sources are left out — a publisher
+  // is not a subject. And `decoyVsLedger.viralDecoy`, which holds the claim the
+  // dossier exists to refute: indexing it would file a name under a story the
+  // atlas says is false. `whyDecoyFails` and `documentedLedger`, which are what
+  // the atlas actually asserts, are kept.
+  if (name === "atlas") {
+    const atlas = JSON.parse(fs.readFileSync(path.join(PUBLIC, "data", "atlas-public.json"), "utf8"));
+    const str = (x) => (typeof x === "string" ? x : "");
+    // A participant slot sometimes holds the record a claim rests on rather than
+    // a body: "1858 Commons and Lords record; Landed Estates Court Acts 1861 and
+    // 1866". A citation is not an entity, so anything starting with a year or
+    // carrying a semicolon is left out.
+    const nameable = (n) => typeof n === "string" && n.trim().length > 1 && !/;/.test(n) && !/^\d{4}\b/.test(n.trim());
+    const prose = (d) => [
+      d.title,
+      ...Object.values(d.extractionLoop || {}),
+      ...["inheritedFramework", "newFrameworkCreated", "closedLoopRecirculation"].map((k) => (d.closedLoopRatchet || {})[k]),
+      (d.decoyVsLedger || {}).whyDecoyFails, (d.decoyVsLedger || {}).documentedLedger,
+    ].map(str).filter(Boolean).join(" \n ");
+    return {
+      // LEAD_ANOMALY entries stay out of the public DOM; they stay out of the index too
+      DOSSIERS: (atlas.dossiers || []).filter((d) => d && d.code && d.tier !== "LEAD_ANOMALY")
+        .map((d) => ({ code: d.code, title: str(d.title), year: d.yearStart, who: (d.participants || []).filter(nameable), body: prose(d) })),
+      LINEAGES: (atlas.lineages || []).filter((l) => l && l.name).map((l) => ({
+        name: l.name,
+        // A chain link names the step, not one body: "Nikola Tesla (Wardenclyffe)
+        // -> Guglielmo Marconi" is two, and "J.S. Morgan & Co. / J.P. Morgan &
+        // Co." is two more. Split them, or each arrow becomes its own "entity".
+        who: (l.chain || []).flatMap((c) => str(c && c.entity).split(/\s*(?:->|→|\/)\s*/)).map((s) => s.trim()).filter(nameable),
+        body: [l.name, l.closedLoopSummary, ...(l.chain || []).map((c) => c && c.role)].map(str).filter(Boolean).join(" \n "),
+      })),
+    };
+  }
+  // Deep State keeps no data in its page at all: research/build-deep-state.mjs
+  // generates public/js/deep-state-data.js, the way Crash Conduits keeps its
+  // source-linked additions in crash-finance-data.js. Read that file and flatten
+  // the dossiers into one item per CLAIM, so a mention links to the claim it came
+  // from — deep-state.html routes #DS-2-0 to that claim and opens its record.
+  //
+  // Each claim's sources are deliberately left behind. `strings()` would sweep
+  // every publisher name and URL into the text an entity is matched against, and
+  // an entity belongs to the claim, not to the masthead of the paper that
+  // reported it: WIRED reporting on Palantir must not make WIRED a subject.
+  if (name === "deep-state") {
+    const code = fs.readFileSync(path.join(PUBLIC, "js", "deep-state-data.js"), "utf8")
+      + "\nconst CLAIMS = DS_DATA.dossiers.flatMap((d) => [...d.facts, ...(d.argument ? [d.argument] : [])]"
+      + ".map((c) => ({ id: c.id, title: d.title, text: c.text })));";
+    const sandbox = {};
+    sandbox.window = sandbox;                       // the file is `window.DS_DATA = {...}`
+    return vm.runInNewContext(code + "\n;({ CLAIMS })", sandbox, { timeout: 2000 });
+  }
   const html = fs.readFileSync(path.join(PUBLIC, name + ".html"), "utf8");
   const js = html.slice(html.lastIndexOf("<script>") + 8, html.lastIndexOf("</script>"));
   let code;

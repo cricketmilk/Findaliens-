@@ -387,6 +387,12 @@ function drawSpokeLabels(p) {
     ctx.fillStyle = visiblePages.has(pg) ? DATA.pages[pg].color : "#4a4670";
     const y0 = s.y + (sn < -0.6 ? -(lines.length - 0.5) * lh : sn > 0.6 ? lh / 2 : -((lines.length - 1) * lh) / 2);
     lines.forEach((l, i) => ctx.fillText(l, s.x, y0 + i * lh));
+    // Reserve the spoke's name. It is drawn before the node labels and used to
+    // be invisible to them, so a name could land straight on top of it
+    // ("MYSTIFY-HBGary-Federal" over the DEMYSTIFY spoke).
+    const wMax = Math.max(...lines.map((l) => ctx.measureText(l).width));
+    const bx = ctx.textAlign === "center" ? s.x - wMax / 2 : ctx.textAlign === "left" ? s.x : s.x - wMax;
+    labelRects.push({ x: bx - 4, y: y0 - lh / 2 - 2, w: wMax + 8, h: lines.length * lh + 4 });
   }
   ctx.restore();
 }
@@ -417,8 +423,21 @@ function label(n, text, color, force, bold) {
     spots.push({ left, top, box: { x: left - 3, y: top - 2, w: w + 6, h: h + 4 } });
   }
   const clear = (box) => !labelRects.some((b) => b.x < box.x + box.w && box.x < b.x + b.w && b.y < box.y + box.h && box.y < b.y + b.h);
-  const spot = force ? spots[0] : spots.find((sp) => clear(sp.box));
+  // A spot off the edge of the stage is not a spot — the name renders half cut
+  // off ("...osit Insurance Corporation"). The four candidates already run
+  // outward, inward and both ways across, so a node at the rim takes the one
+  // pointing back into the web instead of the one leaving it.
+  const SW = canvas.clientWidth, SH = canvas.clientHeight, M = 4;
+  const inStage = (b) => b.x >= M && b.y >= M && b.x + b.w <= SW - M && b.y + b.h <= SH - M;
+  let spot = force ? spots[0] : spots.find((sp) => inStage(sp.box) && clear(sp.box));
   if (!spot) return;
+  if (force && !inStage(spot.box)) {
+    // the name the reader asked for is never dropped; slide it inside instead
+    const b = spot.box;
+    const dx = Math.max(M, Math.min(b.x, SW - M - b.w)) - b.x;
+    const dy = Math.max(M, Math.min(b.y, SH - M - b.h)) - b.y;
+    spot = { left: spot.left + dx, top: spot.top + dy, box: { x: b.x + dx, y: b.y + dy, w: b.w, h: b.h } };
+  }
   const { left, top } = spot;
   labelRects.push(spot.box);
   ctx.textAlign = "left"; ctx.textBaseline = "top";
@@ -541,9 +560,9 @@ function frame(now) {
 
   // labels, in screen space: the focus and its neighbours first, then the
   // names nearest the centre, each only where it does not cover another
+  labelRects = [];
   drawSpokeLabels(p);
   if (show > 0.6) {
-    labelRects = [];
     ctx.globalAlpha = ease((show - 0.6) / 0.4);
     const f = (focus || visit) && byId.get(focus || visit);
     if (f) label(f, f.name, "#ffd84d", true, true);
@@ -555,7 +574,29 @@ function frame(now) {
   drawSpider(now);
   requestAnimationFrame(frame);
 }
-const fitK = () => { const W = canvas.clientWidth, H = canvas.clientHeight, mx = W < 600 ? 46 : 150; return Math.max(0.15, Math.min((W - 2 * mx) / (2 * 1.13 * R), (H - 84) / (2 * 1.13 * R))); };
+// The spoke names sit outside the web and are drawn away from it, so the fit has
+// to leave room for the widest one. A fixed margin broke the moment a one-word
+// name was wider than the number someone picked: DEMYSTIFY is 63px on a phone
+// where the margin was 46, tuned for stacked pairs like DEEP / STATE, and it
+// hung off the left edge. Measured instead, and cached per canvas width.
+let spokeMx = -1, spokeMxW = -1;
+function widestSpoke() {
+  const W = canvas.clientWidth;
+  if (spokeMxW === W) return spokeMx;
+  const small = W < 600;
+  ctx.save();
+  ctx.font = `${small ? 7 : 8.5}px "Press Start 2P", monospace`;
+  let m = 0;
+  for (const pg of PAGES) for (const l of spokeLines(pg, small)) m = Math.max(m, ctx.measureText(l).width);
+  ctx.restore();
+  spokeMxW = W; spokeMx = m;
+  return m;
+}
+const fitK = () => {
+  const W = canvas.clientWidth, H = canvas.clientHeight;
+  const mx = Math.max(W < 600 ? 46 : 150, widestSpoke() + 12);
+  return Math.max(0.15, Math.min((W - 2 * mx) / (2 * 1.13 * R), (H - 84) / (2 * 1.13 * R)));
+};
 
 // ---------- interaction ----------
 function hit(p) {

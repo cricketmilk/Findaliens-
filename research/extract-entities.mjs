@@ -40,7 +40,11 @@ const PAGES = {
   "blind-pool": { title: "Blind Pool", color: "#f4b6f1", collections: {
     FLOW: () => "#money", MONEY_STATS: () => "#money", LPS: () => "#money", VENTURES: () => "#ventures",
     TOOLKIT: () => "#hidden", INFRA: () => "#untouchable", URBIT: () => "#feudal", FEUDAL: () => "#feudal" } },
-  "deep-state": { title: "Deep State Dossiers", color: "#39ff14", html: true },
+  // Not html: true — its dossiers are rendered from script into <main id="dossiers">,
+  // where htmlSections()'s id="dossier-…" never matched. pageData() reads the
+  // generated data file instead, and each claim anchors on its own id.
+  "deep-state": { title: "Deep State Dossiers", color: "#39ff14", collections: {
+    CLAIMS: (item) => "#" + item.id } },
   "demystification": { title: "Demystification Desk", color: "#4de8ff", html: true },
 };
 
@@ -57,6 +61,24 @@ const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 // ---------- read each page's data ----------
 
 function pageData(name) {
+  // Deep State keeps no data in its page at all: research/build-deep-state.mjs
+  // generates public/js/deep-state-data.js, the way Crash Conduits keeps its
+  // source-linked additions in crash-finance-data.js. Read that file and flatten
+  // the dossiers into one item per CLAIM, so a mention links to the claim it came
+  // from — deep-state.html routes #DS-2-0 to that claim and opens its record.
+  //
+  // Each claim's sources are deliberately left behind. `strings()` would sweep
+  // every publisher name and URL into the text an entity is matched against, and
+  // an entity belongs to the claim, not to the masthead of the paper that
+  // reported it: WIRED reporting on Palantir must not make WIRED a subject.
+  if (name === "deep-state") {
+    const code = fs.readFileSync(path.join(PUBLIC, "js", "deep-state-data.js"), "utf8")
+      + "\nconst CLAIMS = DS_DATA.dossiers.flatMap((d) => [...d.facts, ...(d.argument ? [d.argument] : [])]"
+      + ".map((c) => ({ id: c.id, title: d.title, text: c.text })));";
+    const sandbox = {};
+    sandbox.window = sandbox;                       // the file is `window.DS_DATA = {...}`
+    return vm.runInNewContext(code + "\n;({ CLAIMS })", sandbox, { timeout: 2000 });
+  }
   const html = fs.readFileSync(path.join(PUBLIC, name + ".html"), "utf8");
   const js = html.slice(html.lastIndexOf("<script>") + 8, html.lastIndexOf("</script>"));
   let code;

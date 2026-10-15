@@ -1,0 +1,30 @@
+{
+ "file": "nih-mrna-moderna.json",
+ "kind": "handoff",
+ "at": "2026-10-11T18:12:38.141Z",
+ "kept": 4,
+ "removed": [
+  {
+   "where": "links[1]",
+   "claim": "NIH states mRNA-1273 'was developed by NIAID scientists and their collaborators' at Moderna; Moderna states the VRC and its team finalized the vaccine sequence on January 13, 2020, and that the first ",
+   "why": "the cited pages do not contain the claim's figures and names; missing: spikevax, graham"
+  },
+  {
+   "where": "links[2]",
+   "claim": "The peer-reviewed paper describing mRNA-1273's design lists authors affiliated with both the NIAID Vaccine Research Center and Moderna, and states the vaccine applies prefusion-stabilizing spike mutat",
+   "why": "the cited pages do not contain the claim's figures and names; missing: niaid vaccine research center, moderna"
+  },
+  {
+   "where": "links[3]",
+   "claim": "BARDA, an HHS agency, funded Moderna's mRNA-1273 development; a July 2020 contract modification added up to $472 million, bringing the award to approximately $955 million.",
+   "why": "the cited pages do not contain the claim's figures and names; missing: (subject) hhs, hhs"
+  }
+ ],
+ "unchecked": [],
+ "resourced": [],
+ "wikiSourcesDropped": 0,
+ "notes": [],
+ "pagesOpened": 8,
+ "pagesRefused": 0,
+ "empty": false
+}

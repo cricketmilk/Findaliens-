@@ -134,6 +134,75 @@ account id one glob away from going with them. A directory allowlist cannot
 regress the way an `.assetsignore` blocklist can — anything not in `public/` is
 unreachable by construction.
 
+## Crash Conduits
+
+`public/crash-conduits.html` keeps the legacy atlas and loads seventeen source-linked
+financial-engineering entries from `public/js/crash-finance-data.js` (85 entries total).
+These include petrodollar recycling, U.S.–Saudi economic cooperation, the end of gold
+convertibility, offshore dollar funding, benchmark manipulation, leveraged lending,
+BEPS, repo stress, AIG, municipal swaps, sovereign holdouts, trade finance and backstops.
+Each addition includes exact source links and limits on what those sources establish.
+The same data file holds whole-object legacy replacements in `auditedLegacyNodes`,
+including historical bubbles, bank rescues, sovereign debt crises and enforcement cases.
+Corrections identify source-supported participant roles and distinguish dated charging
+accounts, settlements, supervisory findings, sentencing reports and historical synthesis.
+Run `node research/audit-crash.mjs` for current coverage or add `--pending` for the
+remaining queue; its schema checks are not factual verification. `applyLegacyAudits(nodes)` runs before indexing
+in both the browser and extractor, preserving IDs while removing unsupported narratives.
+Sources include historical research and explicitly labeled secondary references; a linked
+source does not mean every underlying primary record has been independently verified.
+Older entries without item-level citations are marked **source audit pending**;
+recurring participant counts measure mentions, not culpability. Coverage is not exhaustive.
+
+After changing atlas data, run `node research/extract-entities.mjs` to regenerate
+The Web's entity/co-mention index; this does not approve researched connections.
+Run `node --test crash-conduits.test.mjs from-trove.test.mjs` for offline regression
+checks. For repeat audit passes, read `research/CRASH-AUDIT.md`. Preview by serving `public/`, not the repository root. No deploy is automatic.
+
+## Digging Up the Deep State
+
+`public/deep-state.html` carries five dossiers and twenty-four claims, and under
+every claim it will open **the quote from the source that actually says it** —
+119 of them, across 33 sources from 26 publishers. That is not prose on the page;
+it is the record `research/glm-recheck.mjs` wrote when it checked the claims,
+joined back to the claims it checked:
+
+```
+node research/build-deep-state.mjs           # write public/js/deep-state-data.js
+node research/build-deep-state.mjs --check   # assert it is current, write nothing
+```
+
+The editorial side (the claim, its status, its source chips) lives in
+`research/deep-state-dossiers.json`; the verified quotes live in
+`research/deep-state-sources.json`. The build joins them on the claim id
+(`DS-<dossier>-<item>`, the argument last) and **fails loudly** rather than
+shipping a mismatch: an id on one side only, a status the two disagree about, a
+cited URL the record never opened, or a claim whose wording has drifted since it
+was checked. Edit either file, then run the build; it is the only way the page's
+counts and quotes change.
+
+Two things on the page are counted rather than asserted — the tallies under the
+headline and the chain-of-custody panel, which also names the lines a person
+vouched for by hand and the ones that were edited after the re-check, each with
+its reason. Claims deep-link: `deep-state.html#DS-2-2` opens that claim's record
+and lights the row, bringing it back if a filter had hidden it.
+
+To add a dossier: draft its claims as `[{id, status, text}]`, run them through
+`research/glm-recheck.mjs --strict-sources` (it proposes the sources and quotes;
+the mechanical check does the trusting), **read every rewrite** in the digest,
+then append the entries of its `verified.json` to `research/deep-state-sources.json`
+and the dossier itself to `research/deep-state-dossiers.json` and rebuild.
+THE CUT grows a stratum on its own: the band count comes from the dossiers, and
+`public/js/deep-state.js` reads it back off the DOM — but the dossier needs a
+`glyph` that exists in that file's `GLYPHS`.
+
+The output is a classic `<script src>`, not JSON fetched at runtime: the page
+uses neither a module script nor `fetch`, which are the two things `atlas.html`'s
+own note records as blocked over `file://`. It is built that way so it survives
+being opened straight off disk, rather than needing the server note the atlas
+carries. Do not link `atlas-ui.css` from this page: its `--paper` is a dark panel
+colour and would turn every pill and stamp white.
+
 ## Verifying
 
 `check.py` asserts the site serves, the sprite is the pixel one rather than the

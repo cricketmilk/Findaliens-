@@ -88,47 +88,6 @@
       ]
     },
     {
-      "claim": "Eric M. Jackson, a former PayPal marketing employee, wrote that after the March 2000 merger, X.com CEO Bill Harris told staff the company had realized immediate cost savings by eliminating X.com's $20 new-user bonus and cutting PayPal's bonus in half to $5. The book presents the cuts as cost control, not as a response to abuse. Elsewhere Jackson says X.com had offered new customers a $20 deposit and paid $10 per referral.",
-      "status": "reported",
-      "date": "2000",
-      "sources": [
-        {
-          "url": "https://archive.org/details/paypalwarsbattle0000jack",
-          "publisher": "World Ahead Publishing (Eric M. Jackson; text via Internet Archive full-text search)",
-          "title": "The PayPal Wars: Battles with eBay, the Media, the Mafia, and the Rest of Planet Earth",
-          "date": "2004"
-        }
-      ]
-    },
-    {
-      "claim": "Jackson wrote that one fraud ring opened fraudulent PayPal accounts and used them to take nearly $6 million out of the system in mid-2000. He describes Russian and Nigerian groups running up online card charges for which X.com/PayPal, as the merchant, was liable. The passages found describe stolen-card fraud, not bonus collection.",
-      "status": "reported",
-      "date": "2000",
-      "quote": "opened fraudulent PayPal accounts and used them to siphon nearly $6 million out of the system in mid-2000",
-      "sources": [
-        {
-          "url": "https://archive.org/details/paypalwarsbattle0000jack",
-          "publisher": "World Ahead Publishing (Eric M. Jackson; text via Internet Archive full-text search)",
-          "title": "The PayPal Wars: Battles with eBay, the Media, the Mafia, and the Rest of Planet Earth",
-          "date": "2004"
-        }
-      ]
-    },
-    {
-      "claim": "Jackson describes the Gausebeck-Levchin test, an addition to the sign-up process built by Levchin and engineer David Gausebeck, as making the automated opening of accounts linked to stolen credit cards effectively impossible. He links the test to stolen cards, not to bonus collection.",
-      "status": "reported",
-      "date": "2000",
-      "quote": "accounts linked to stolen credit cards was now effectively impossible",
-      "sources": [
-        {
-          "url": "https://archive.org/details/paypalwarsbattle0000jack",
-          "publisher": "World Ahead Publishing (Eric M. Jackson; text via Internet Archive full-text search)",
-          "title": "The PayPal Wars: Battles with eBay, the Media, the Mafia, and the Rest of Planet Earth",
-          "date": "2004"
-        }
-      ]
-    },
-    {
       "claim": "In a 2023 Sequoia podcast, author Jimmy Soni said that one kind of fraud PayPal faced was bots creating fake accounts by the hundreds to collect its bonus payments. This was the only source found that names bonus collection as a purpose of the automated accounts. He gave no figure for bonus losses. He said overall fraud at one point exceeded $10 million a month.",
       "status": "words",
       "date": "2000",
@@ -195,55 +154,16 @@
       "date": "2000",
       "sources": [
         {
-          "url": "https://www.americanbanker.com/news/how-a-scam-artist-helped-the-art-of-monitoring",
-          "publisher": "American Banker",
-          "title": "How a Scam Artist Helped the Art of Monitoring",
-          "date": "2006-08-28"
-        },
-        {
           "url": "https://www.technologyreview.com/innovator/max-levchin/",
           "publisher": "MIT Technology Review",
           "title": "Max Levchin (2002 Innovators Under 35 / Innovator of the Year)",
           "date": "2002-06-01"
-        }
-      ]
-    },
-    {
-      "claim": "Adam Penenberg's 2009 book Viral Loop says one of Levchin's fraud adversaries was a Russian who had set up thousands of PayPal accounts under the name 'Gregory Stivinson'. The passages found do not say whether those accounts were used for stolen cards or for bonuses.",
-      "status": "reported",
-      "date": "2000",
-      "quote": "a Russian who had set up thousands of accounts under the name Gregory Stivinson",
-      "sources": [
-        {
-          "url": "https://archive.org/details/virallooppowerof0000pene",
-          "publisher": "Sceptre (Adam L. Penenberg; text via Internet Archive full-text search)",
-          "title": "Viral Loop: The Power of Pass-It-On",
-          "date": "2009"
-        }
-      ]
-    },
-    {
-      "claim": "Contemporary coverage of PayPal's fraud work does not describe abuse of sign-up or referral bonuses. Newsweek (July 2001) and MIT Technology Review (December 2001) describe stolen-card fraud, the Igor system and arrests; InfoWorld (December 2002) describes the Igor system. Technology Review noted only that the $10 sign-up incentive had been cut to $5.",
-      "status": "reported",
-      "date": "2001-12-01",
-      "sources": [
-        {
-          "url": "https://www.technologyreview.com/2001/12/01/235339/digital-cash-payoff/",
-          "publisher": "MIT Technology Review",
-          "title": "Digital Cash Payoff",
-          "date": "2001-12-01"
         },
         {
-          "url": "https://www.paypalobjects.com/html/newsweek-071601.html",
-          "publisher": "Newsweek (reprint hosted by PayPal)",
-          "title": "Busting the Web Bandits",
-          "date": "2001-07-16"
-        },
-        {
-          "url": "https://www.infoworld.com/article/2232386/max-levchin-paypal.html",
-          "publisher": "InfoWorld",
-          "title": "Max Levchin, PayPal",
-          "date": "2002-12-06"
+          "url": "https://www.americanbanker.com/news/how-a-scam-artist-helped-the-art-of-monitoring",
+          "publisher": "American Banker",
+          "title": "How a Scam Artist Helped the Art of Monitoring",
+          "date": "2006-08-28"
         }
       ]
     },
@@ -343,23 +263,6 @@
           "date": "2001-10-10"
         }
       ]
-    },
-    {
-      "to": "x-com",
-      "toName": "X.com",
-      "toType": "company",
-      "relation": "other",
-      "claim": "According to Eric Jackson's book, X.com CEO Bill Harris told staff after the March 2000 merger with Confinity that eliminating X.com's $20 new-user bonus had been an immediate cost saving.",
-      "status": "reported",
-      "date": "2000",
-      "sources": [
-        {
-          "url": "https://archive.org/details/paypalwarsbattle0000jack",
-          "publisher": "World Ahead Publishing (Eric M. Jackson; text via Internet Archive full-text search)",
-          "title": "The PayPal Wars: Battles with eBay, the Media, the Mafia, and the Rest of Planet Earth",
-          "date": "2004"
-        }
-      ]
     }
   ],
   "openQuestions": [
@@ -369,6 +272,12 @@
     "Exact dates of the bonus cut from $10 to $5 and of the bank-verification requirement are not pinned down; evidence brackets them between March 2000 (merger, per Jackson) and September 2000 (customer-service reply).",
     "Jackson's text was searchable only as Internet Archive snippets (the book is lending-restricted). Passages about bonus changes ('mandating ...') and the full Gausebeck-Levchin test account (pp. 198–199) were seen only in fragments.",
     "Whether 'Igor' was apprehended (MIT Technology Review 2002) or never caught (American Banker 2006) is unresolved; the 'Gregory Stivinson' accounts (Viral Loop) have no stated purpose in the passages seen.",
-    "No contemporaneous 1999–2001 news report (Wired, CNET, Industry Standard, WSJ, NYT) on PayPal bonus farming was found in web searches."
+    "No contemporaneous 1999–2001 news report (Wired, CNET, Industry Standard, WSJ, NYT) on PayPal bonus farming was found in web searches.",
+    "Removed in audit (the cited pages do not contain the claim's figures and names; missing: 2000, x.com, bill harris): Eric M. Jackson, a former PayPal marketing employee, wrote that after the March 2000 merger, X.com CEO Bill Harris told staff the company had realized immediate cost savings by eliminating X.com's $20 new-user bonus and cutting PayPal's bonus in half to $5. The book presents the cuts as cost control",
+    "Removed in audit (the quoted passage is not on the cited pages; missing: 2000, russian, nigerian, x.com): Jackson wrote that one fraud ring opened fraudulent PayPal accounts and used them to take nearly $6 million out of the system in mid-2000. He describes Russian and Nigerian groups running up online card charges for which X.com/PayPal, as the merchant, was liable. The passages found describe stolen-c",
+    "Removed in audit (the quoted passage is not on the cited pages; missing: gausebeck-levchin, levchin, david gausebeck): Jackson describes the Gausebeck-Levchin test, an addition to the sign-up process built by Levchin and engineer David Gausebeck, as making the automated opening of accounts linked to stolen credit cards effectively impossible. He links the test to stolen cards, not to bonus collection.",
+    "Removed in audit (the quoted passage is not on the cited pages; missing: levchin, russian, paypal, gregory stivinson): Adam Penenberg's 2009 book Viral Loop says one of Levchin's fraud adversaries was a Russian who had set up thousands of PayPal accounts under the name 'Gregory Stivinson'. The passages found do not say whether those accounts were used for stolen cards or for bonuses.",
+    "Removed in audit (the cited pages do not contain the claim's figures and names; missing: 2002, contemporary, infoworld): Contemporary coverage of PayPal's fraud work does not describe abuse of sign-up or referral bonuses. Newsweek (July 2001) and MIT Technology Review (December 2001) describe stolen-card fraud, the Igor system and arrests; InfoWorld (December 2002) describes the Igor system. Technology Review noted on",
+    "Removed in audit (the cited pages do not contain the claim's figures and names; missing: 2000, x.com, bill harris, confinity): According to Eric Jackson's book, X.com CEO Bill Harris told staff after the March 2000 merger with Confinity that eliminating X.com's $20 new-user bonus had been an immediate cost saving."
   ]
 }

@@ -1,0 +1,25 @@
+{
+ "file": "elon-musk.json",
+ "kind": "finding",
+ "at": "2026-10-11T18:09:46.900Z",
+ "kept": 29,
+ "removed": [
+  {
+   "where": "facts[10]",
+   "claim": "Musk received about $22 million from the Zip2 sale for his roughly 7% stake, according to Ashlee Vance's biography as cited by Wikipedia.",
+   "why": "only Wikipedia cited; needs the primary source it points to"
+  },
+  {
+   "where": "connections[3]",
+   "claim": "Greg Kouri co-founded Zip2 with Elon and Kimbal Musk in 1995. Musk tweeted in 2019 that Kouri contributed about $8,000 in early funding.",
+   "why": "only Wikipedia cited; needs the primary source it points to"
+  }
+ ],
+ "unchecked": [],
+ "resourced": [],
+ "wikiSourcesDropped": 8,
+ "notes": [],
+ "pagesOpened": 21,
+ "pagesRefused": 0,
+ "empty": false
+}

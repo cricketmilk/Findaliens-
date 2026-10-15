@@ -8,7 +8,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌽</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Silkscreen:wght@400;700&family=VT323&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Silkscreen:wght@400;700&family=VT323&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
     --black: #050102;
@@ -154,72 +154,6 @@
   .st-argument { color: var(--red); border-style: dashed; }
   .st-speculative { color: var(--cream-dim); border-style: dotted; }
 
-  /* ---------- Origins timeline ---------- */
-  .timeline { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 10px; }
-  .t-card { border: 2px solid var(--red-dim); background: var(--black); padding: 0; display: flex; flex-direction: column; }
-  .t-year {
-    font-family: var(--big);
-    font-size: 34px;
-    color: var(--black);
-    background: var(--red);
-    padding: 2px 10px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    line-height: 1;
-  }
-  .t-year .x { font-family: var(--label); font-size: 11px; }
-  .t-body { padding: 10px 12px 12px; flex: 1; }
-  .t-body h3 { margin: 0 0 4px; font-family: var(--label); font-size: 13px; color: var(--cream); line-height: 1.35; }
-  .t-body p { margin: 0 0 8px; font-size: 19px; }
-  .src { font-size: 16px; color: var(--cream-dim); }
-  .src a { color: var(--cream-dim); }
-
-  /* ---------- The stack (modules) ---------- */
-  .stack { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px; }
-  .module { border: 2px solid var(--red-dim); padding: 12px; background: var(--black); }
-  .module h3 { margin: 0 0 6px; font-family: var(--big); font-weight: 400; font-size: 30px; color: var(--red); line-height: 0.9; }
-  .module p { margin: 0 0 10px; font-size: 18px; }
-  .reality { display: flex; align-items: center; gap: 8px; font-family: var(--label); font-size: 10px; color: var(--cream-dim); }
-  .reality .cells { display: flex; gap: 3px; }
-  .reality .cells i { width: 12px; height: 12px; border: 2px solid var(--red-dim); display: block; }
-  .reality .cells i.on { background: var(--red); border-color: var(--red); }
-
-  /* ---------- Funders ---------- */
-  .funders { width: 100%; border-collapse: collapse; font-size: 19px; }
-  .funders th { font-family: var(--label); font-size: 10px; color: var(--red); text-align: left; padding: 6px 8px; border-bottom: 2px solid var(--red); }
-  .funders td { padding: 8px; border-bottom: 1px dashed var(--red-dim); vertical-align: top; }
-  .funders td:first-child { color: var(--cream); white-space: nowrap; }
-  .table-wrap { overflow-x: auto; }
-
-  /* ---------- Charges ---------- */
-  .charges { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
-  .charge { border: 2px solid var(--red); background: var(--black); display: flex; flex-direction: column; }
-  .charge-head { display: flex; gap: 10px; align-items: stretch; border-bottom: 2px solid var(--red); }
-  .charge-letter { font-family: var(--big); font-size: 46px; line-height: 1; background: var(--red); color: var(--black); padding: 4px 12px 0; }
-  .charge-title { font-family: var(--big); font-size: 30px; line-height: 0.95; color: var(--cream); padding: 8px 10px 6px 0; align-self: center; }
-  .charge-body { padding: 10px 14px 14px; }
-  .claim { font-size: 20px; margin: 0 0 10px; color: var(--cream); }
-  .evidence { list-style: none; margin: 0; padding: 0; }
-  .evidence li { padding: 7px 0; border-top: 1px dashed var(--red-dim); font-size: 18px; }
-  .evidence li .badge { margin-right: 6px; }
-  .evidence .src { display: block; margin-top: 2px; }
-  .quote { color: var(--cream); }
-
-  /* ---------- Stat strip ---------- */
-  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 10px; margin-bottom: 18px; }
-  .stat { border: 2px solid var(--red-dim); padding: 10px 12px; background: var(--black); }
-  .stat .n { font-family: var(--big); font-size: 52px; color: var(--red); line-height: 0.9; }
-  .stat .t { font-size: 18px; }
-  .stat .src { font-size: 15px; }
-
-  /* ---------- Counter panel ---------- */
-  .checklist { list-style: none; margin: 0; padding: 0; }
-  .checklist li { display: grid; grid-template-columns: 26px 1fr; gap: 8px; padding: 8px 0; border-top: 1px dashed var(--red-dim); font-size: 19px; }
-  .checklist li::before { content: "▣"; color: var(--red); font-size: 18px; }
-  .checklist li.open::before { content: "□"; color: var(--cream-dim); }
-  .checklist b { color: var(--cream); font-weight: 400; }
-
   /* ---------- Footer ---------- */
   .continue {
     display: flex;
@@ -248,6 +182,217 @@
     .charges { grid-template-columns: 1fr; }
     .panel { padding: 16px; }
   }
+  /* ===================================================================
+     BELOW THE HERO: set for reading
+     The top keeps its terminal face; everything a person reads at length
+     below it is set in a text face, with the pixel faces kept for numbers,
+     years, letters and headlines. Each section gets the layout its content
+     wants instead of the same red-headed card.
+     =================================================================== */
+  :root {
+    --read: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+    --ink-text: #ecd9c8;
+    --soft: #c7a68c;
+  }
+  .read { font-family: var(--read); font-size: 16.5px; line-height: 1.62; color: var(--ink-text); }
+  .read .sec-dek { font-size: 18px; line-height: 1.55; color: var(--soft); max-width: 46em; margin: 10px 0 26px; }
+  .read .src, .read .src a { font-family: var(--mono); font-size: 12.5px; line-height: 1.5; color: var(--cream-dim); }
+  .read .src a { text-decoration-color: rgba(184, 141, 108, 0.45); text-underline-offset: 3px; }
+  .read .src a:hover { color: var(--red); }
+  .badge { font-size: 10px; padding: 3px 7px 2px; border-width: 2px; line-height: 1.2; }
+
+  /* ---------- the tag key ---------- */
+  .key { display: grid; grid-template-columns: auto 1fr; gap: 14px 26px; align-items: start; }
+  .key .label { padding-top: 4px; }
+  .key-tags { display: flex; flex-wrap: wrap; gap: 10px 22px; }
+  .key-tags > span { display: inline-flex; align-items: center; gap: 9px; font-size: 14.5px; color: var(--soft); }
+  .key .method { grid-column: 2; margin: 0; font-size: 15px; line-height: 1.6; color: var(--soft); max-width: 62em; }
+
+  /* ---------- 01 origins: eras, each pinned beside its entries ---------- */
+  .era { display: grid; grid-template-columns: 290px minmax(0, 1fr); gap: 0 44px; padding: 34px 0 10px; border-top: 2px solid var(--maroon); }
+  .era:first-child { border-top: 0; padding-top: 6px; }
+  .era-head { position: sticky; top: 18px; align-self: start; }
+  .era-range { display: block; font-family: var(--big); font-size: 64px; line-height: 0.82; color: var(--red); }
+  .era-title { display: block; margin-top: 10px; font-family: var(--big); font-size: 34px; line-height: 0.9; color: var(--cream); }
+  .era-count { display: block; margin-top: 12px; font-family: var(--label); font-size: 10px; color: var(--cream-dim); letter-spacing: 0.06em; }
+  .tl { list-style: none; margin: 0; padding: 0; position: relative; }
+  .tl::before { content: ""; position: absolute; left: 103px; top: 10px; bottom: 10px; width: 2px; background: repeating-linear-gradient(180deg, var(--red-dim) 0 6px, transparent 6px 10px); }
+  .tl-item { position: relative; display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 0 34px; padding: 0 0 30px; }
+  .tl-year { font-family: var(--big); font-size: 38px; line-height: 0.85; color: var(--cream); text-align: right; padding-top: 2px; }
+  .tl-item::before { content: ""; position: absolute; left: 98px; top: 8px; width: 12px; height: 12px; background: var(--red); box-shadow: 0 0 0 3px var(--panel), 0 0 14px rgba(216, 40, 60, 0.55); }
+  .tl-year.long { font-size: 27px; padding-top: 5px; }
+  .tl-body h4 { margin: 0; font-family: var(--read); font-weight: 600; font-size: 19px; line-height: 1.3; color: var(--cream); }
+  .tl-body p { margin: 6px 0 10px; max-width: 40em; }
+  .tl-src { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px; }
+
+  /* ---------- 02 the reality board ---------- */
+  .board { border-top: 2px solid var(--red); }
+  .board-row { display: grid; grid-template-columns: 250px 190px minmax(0, 1fr); gap: 0 28px; align-items: center; padding: 18px 6px; border-bottom: 1px dashed var(--red-dim); }
+  .board-row.head { padding: 10px 6px; border-bottom: 2px solid var(--red-dim); font-family: var(--label); font-size: 10px; color: var(--red); letter-spacing: 0.06em; }
+  .board-row:not(.head):hover { background: rgba(216, 40, 60, 0.06); }
+  .board-name { font-family: var(--big); font-size: 32px; line-height: 0.92; color: var(--cream); }
+  .meter { display: flex; flex-direction: column; gap: 8px; }
+  .cells { display: flex; gap: 4px; }
+  .cells i { width: 24px; height: 18px; border: 2px solid var(--red-dim); display: block; }
+  .cells i.on { background: var(--red); border-color: var(--red); box-shadow: 0 0 10px rgba(216, 40, 60, 0.6); }
+  .verdict { font-family: var(--label); font-size: 10px; letter-spacing: 0.06em; color: var(--cream-dim); }
+  .verdict.v0 { color: #8a5a4c; }
+  .verdict.v3 { color: var(--cream); }
+  .board-row p { margin: 0; }
+  .board.fill .cells i.on { animation: cell-on 0.18s steps(1) both; }
+  .board.fill .cells i:nth-child(2).on { animation-delay: 0.12s; }
+  .board.fill .cells i:nth-child(3).on { animation-delay: 0.24s; }
+  .board.fill .cells i:nth-child(4).on { animation-delay: 0.36s; }
+  @keyframes cell-on { from { background: transparent; border-color: var(--red-dim); box-shadow: none; } }
+
+  /* ---------- 03 the payroll ---------- */
+  .payroll { list-style: none; margin: 0; padding: 0; counter-reset: pay; border-top: 2px solid var(--red); }
+  .payroll li { counter-increment: pay; display: grid; grid-template-columns: 34px minmax(0, 1fr); gap: 2px 14px; padding: 14px 0 15px; border-bottom: 1px dashed var(--red-dim); }
+  .payroll li::before { content: counter(pay, decimal-leading-zero); grid-row: span 2; font-family: var(--label); font-size: 11px; color: var(--red); padding-top: 7px; }
+  .payroll .who { font-family: var(--big); font-size: 30px; line-height: 0.95; color: var(--cream); }
+  .payroll .what { font-size: 15.5px; color: var(--ink-text); }
+
+  /* ---------- !! the gap, and the work numbers ---------- */
+  .figure-big { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 4px 22px; align-items: end; padding: 4px 0 22px; border-bottom: 2px solid var(--red); }
+  .figure-big .n { font-family: var(--big); font-size: clamp(96px, 12vw, 150px); line-height: 0.78; color: var(--red); text-shadow: 4px 4px 0 var(--maroon); }
+  .figure-big .unit { font-family: var(--big); font-size: 40px; line-height: 0.9; color: var(--cream); padding-bottom: 6px; }
+  .figure-big .t { grid-column: 1 / -1; margin-top: 14px; font-size: 18px; line-height: 1.5; color: var(--ink-text); max-width: 34em; }
+  .figure-big .tag { grid-column: 1 / -1; }
+  .figure-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border-bottom: 2px solid var(--red); }
+  .figure-pair > div { padding: 18px 18px 20px 0; }
+  .figure-pair > div + div { padding-left: 18px; border-left: 1px dashed var(--red-dim); }
+  .fig .n { font-family: var(--big); font-size: 64px; line-height: 0.85; color: var(--red); }
+  .fig .t { margin: 8px 0 8px; font-size: 15.5px; }
+  .tag { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px; }
+  .gap-close { margin: 18px 0 0 !important; }
+  .figure-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 2px solid var(--red); border-bottom: 2px solid var(--red); margin-bottom: 34px; }
+  .figure-row .fig { padding: 18px 22px 20px; }
+  .figure-row .fig + .fig { border-left: 1px dashed var(--red-dim); }
+  .figure-row .fig:first-child { padding-left: 0; }
+  .figure-row .fig .n { font-size: 76px; }
+
+  /* ---------- 04 the case ---------- */
+  .charge-index { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin-bottom: 30px; }
+  .charge-index a { display: grid; grid-template-columns: 40px minmax(0, 1fr); align-items: stretch; text-decoration: none; border: 2px solid var(--red-dim); background: var(--black); min-height: 58px; }
+  .charge-index a b { display: grid; place-items: center; font-family: var(--big); font-weight: 400; font-size: 32px; background: var(--red-dim); color: var(--cream); }
+  .charge-index a span { padding: 8px 10px; font-size: 13.5px; line-height: 1.35; color: var(--soft); align-self: center; }
+  .charge-index a:hover { border-color: var(--red); }
+  .charge-index a:hover b { background: var(--red); color: var(--black); }
+  .charge-index a:hover span { color: var(--cream); }
+  .charges { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .charge { border: 2px solid var(--red-dim); background: var(--black); scroll-margin-top: 20px; }
+  .charge:target { border-color: var(--red); box-shadow: 0 0 0 2px var(--red), 0 0 30px rgba(216, 40, 60, 0.35); }
+  .charge-head { display: grid; grid-template-columns: 64px minmax(0, 1fr); border-bottom: 2px solid var(--red-dim); }
+  .charge-letter { display: grid; place-items: center; font-family: var(--big); font-size: 54px; line-height: 1; background: var(--red); color: var(--black); padding: 4px 0 0; }
+  .charge-title { margin: 0; font-weight: 400; font-family: var(--big); font-size: 31px; line-height: 0.95; color: var(--cream); padding: 12px 16px 10px; align-self: center; }
+  .charge-body { padding: 16px 18px 18px; }
+  .claim { margin: 0 0 14px; font-size: 18px; line-height: 1.5; color: var(--cream); }
+  .claim .badge { margin-right: 8px; vertical-align: 2px; }
+  .evidence { list-style: none; margin: 0; padding: 0; }
+  .evidence li { display: grid; grid-template-columns: 118px minmax(0, 1fr); gap: 0 12px; padding: 12px 0; border-top: 1px dashed var(--red-dim); font-size: 15.5px; line-height: 1.58; }
+  .evidence li .badge { justify-self: start; align-self: start; margin-top: 3px; }
+  .evidence .src { display: block; margin-top: 4px; }
+  .evidence .quote { color: var(--cream); font-style: italic; }
+
+  /* ---------- 05 / 06 ---------- */
+  .checklist { list-style: none; margin: 0; padding: 0; border-top: 2px solid var(--red); }
+  .checklist li { display: grid; grid-template-columns: 30px minmax(0, 1fr); gap: 10px; padding: 14px 0; border-bottom: 1px dashed var(--red-dim); font-size: 16px; }
+  .checklist li::before { content: "▣"; color: var(--red); font-size: 20px; line-height: 1.2; }
+  .checklist li.open::before { content: "□"; color: var(--cream-dim); }
+  .checklist b { display: block; font-family: var(--big); font-weight: 400; font-size: 26px; line-height: 1; color: var(--cream); margin-bottom: 4px; }
+  .checklist .src { display: block; margin-top: 6px; }
+
+  /* ---------- the text art ---------- */
+  .strip { padding: 16px 24px 14px; }
+  .strip canvas, #upload { display: block; width: 100%; }
+  .end-grid { display: grid; grid-template-columns: minmax(0, 1fr) 440px; gap: 30px; align-items: center; }
+  .end-grid .continue { flex-direction: column; align-items: flex-start; gap: 18px; }
+  .end-grid .continue .big { font-size: clamp(44px, 5.4vw, 72px); line-height: 0.9; }
+  @media (max-width: 860px) {
+    .end-grid { grid-template-columns: 1fr; }
+    #upload { max-width: 360px; justify-self: center; }
+  }
+
+  /* ---------- the footer line ---------- */
+  .read .method { font-family: var(--read); font-size: 15px; color: var(--soft); max-width: 60em; }
+
+  @media (max-width: 1000px) {
+    .era { grid-template-columns: 1fr; gap: 18px; }
+    .era-head { position: static; display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 16px; }
+    .era-range { font-size: 48px; }
+    .era-title { margin-top: 0; font-size: 30px; }
+    .era-count { margin-top: 0; }
+    .board-row { grid-template-columns: 1fr 170px; gap: 10px 20px; }
+    .board-row p { grid-column: 1 / -1; }
+    .board-row.head span:last-child { display: none; }
+    .charge-index { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (max-width: 860px) {
+    .key { grid-template-columns: 1fr; }
+    .key .method { grid-column: 1; }
+    .figure-row { grid-template-columns: 1fr; }
+    .figure-row .fig { padding-left: 0; }
+    .figure-row .fig + .fig { border-left: 0; border-top: 1px dashed var(--red-dim); }
+    .figure-pair { grid-template-columns: 1fr; }
+    .figure-pair > div + div { padding-left: 0; border-left: 0; border-top: 1px dashed var(--red-dim); }
+  }
+  @media (max-width: 560px) {
+    .read { font-size: 16px; }
+    .tl::before { left: 63px; }
+    .tl-item { grid-template-columns: 52px minmax(0, 1fr); gap: 0 26px; }
+    .tl-item::before { left: 58px; }
+    .tl-year { font-size: 26px; }
+    .board-name { font-size: 26px; }
+    .cells i { width: 18px; height: 14px; }
+    .charge-index { grid-template-columns: 1fr; }
+    .charge-title { font-size: 26px; }
+    .evidence li { grid-template-columns: 1fr; gap: 6px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .board.fill .cells i.on { animation: none; }
+  }
+
+  /* ===================================================================
+     SYS.MAIZEY: the Gazette's ear of corn, transhuman build. She keeps
+     to her corner and says one line per section, each one already on
+     the page; she never adds a claim of her own.
+     =================================================================== */
+  .sysm { position: fixed; right: 16px; bottom: 10px; z-index: 50; display: flex; flex-direction: column; align-items: flex-end; pointer-events: none; }
+  .sysm > * { pointer-events: auto; }
+  .sysm-body { position: relative; padding: 0; border: 0; background: none; cursor: pointer; line-height: 0; }
+  .sysm-body img { display: block; width: 104px; height: auto; image-rendering: pixelated; filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.6)); }
+  .sysm-body::after { content: "error"; position: absolute; left: -26px; top: 46%; font-family: var(--label); font-size: 9px; line-height: 1; color: var(--cream-dim); opacity: 0; }
+  .sysm-body:focus-visible { outline: 2px solid var(--cream); outline-offset: 4px; }
+  @media (prefers-reduced-motion: no-preference) {
+    .sysm-body img { animation: sysm-bob 3.2s steps(6) infinite; }
+    .sysm-body::after { animation: sysm-err 9s steps(1) infinite; }
+    .sysm.flicker .sysm-body img { animation: sysm-glitch 0.32s steps(2) 1; }
+  }
+  @keyframes sysm-bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+  @keyframes sysm-err { 0%, 81%, 89%, 100% { opacity: 0; } 82%, 88% { opacity: 0.85; } }
+  @keyframes sysm-glitch {
+    0% { transform: translateX(3px); filter: drop-shadow(3px 0 0 var(--cream)) drop-shadow(-3px 0 0 var(--red)); clip-path: inset(0 0 55% 0); }
+    50% { transform: translateX(-4px); filter: drop-shadow(-3px 0 0 var(--cream)) drop-shadow(3px 0 0 var(--red)); clip-path: inset(40% 0 0 0); }
+    100% { transform: none; }
+  }
+  .sysm-bubble { width: min(300px, calc(100vw - 24px)); margin-bottom: 8px; background: var(--black); border: 2px solid var(--red); box-shadow: 5px 5px 0 var(--maroon), 0 18px 40px rgba(0, 0, 0, 0.6); font-family: var(--read); }
+  .sysm-bubble[hidden] { display: none; }
+  .sysm-head { display: flex; align-items: center; gap: 10px; padding: 7px 8px 6px 12px; background: var(--red); color: var(--black); font-family: var(--label); font-size: 10px; letter-spacing: 0.06em; }
+  .sysm-head .where { margin-left: auto; opacity: 0.75; }
+  .sysm-head button { border: 0; background: none; cursor: pointer; font-family: var(--label); font-size: 12px; color: var(--black); padding: 0 4px; }
+  .sysm-text { margin: 0; padding: 11px 13px 4px; font-size: 14.5px; line-height: 1.55; color: var(--ink-text); }
+  .sysm-foot { display: flex; justify-content: flex-end; gap: 8px; padding: 6px 10px 10px; }
+  .sysm-foot button, .sysm-foot a { border: 2px solid var(--red-dim); background: none; color: var(--cream); font-family: var(--label); font-size: 10px; padding: 4px 8px; cursor: pointer; text-decoration: none; }
+  .sysm-foot button:hover, .sysm-foot a:hover { border-color: var(--red); background: var(--red); color: var(--black); }
+  .sysm.off .sysm-body img { width: 64px; opacity: 0.55; }
+  /* on a phone she waits to be asked; a waiting line shows as a "!" */
+  .sysm.has-line .sysm-body::before { content: "!"; position: absolute; z-index: 1; top: 26%; right: -2px; width: 20px; height: 20px; display: grid; place-items: center; background: var(--red); color: var(--black); font-family: var(--label); font-size: 12px; line-height: 1; box-shadow: 2px 2px 0 var(--maroon); }
+  @media (prefers-reduced-motion: no-preference) { .sysm.has-line .sysm-body::before { animation: blink 1s steps(1) infinite; } }
+  @media (max-width: 560px) {
+    .sysm { right: 8px; bottom: 6px; }
+    .sysm-body img { width: 78px; }
+  }
 </style>
 </head>
 <body>
@@ -258,7 +403,7 @@
     <nav class="nav">
       <a href="index.html">◀ GAZETTE</a>
       <a href="deep-state.html">DEEP STATE</a>
-      <a href="climate.html">CARBON LEDGER</a>
+      <a href="carbon-class.html">CARBON CLASS</a>
       <a href="consent.html">MANUFACTURING CONSENT</a>
       <a href="blind-pool.html">BLIND POOL</a>
     </nav>
@@ -286,62 +431,68 @@
     </div>
   </header>
 
+  <!-- The vital sign: a heartbeat going into the converter, a clock signal coming out -->
+  <div class="panel wide strip" aria-hidden="true"><canvas id="ekg"></canvas></div>
+
   <!-- Legend -->
-  <div class="panel wide">
-    <div class="label" style="margin-bottom:8px;">HOW TO READ THE TAGS</div>
-    <div class="legend" id="legend"></div>
-    <p class="method" style="margin:10px 0 0;">Facts are tagged by how firmly they are established. <span class="badge st-argument">ARGUMENT</span> marks critics’ interpretation, kept separate from the evidence it rests on. Transhumanists disagree among themselves, and some support strong worker protections; see section 05.</p>
+  <div class="panel wide read">
+    <div class="key">
+      <div class="label">HOW TO READ THE TAGS</div>
+      <div class="key-tags" id="legend"></div>
+      <p class="method">Facts are tagged by how firmly they are established. <span class="badge st-argument">ARGUMENT</span> marks critics’ interpretation, kept separate from the evidence it rests on. Transhumanists disagree among themselves, and some support strong worker protections; see section 05.</p>
+    </div>
   </div>
 
   <!-- 01 ORIGINS -->
-  <section class="panel wide" id="origins">
+  <section class="panel wide read" id="origins">
     <div class="sec-head"><span class="sec-num">01</span><h2>ORIGINS</h2></div>
     <div class="rule"></div>
     <p class="sec-dek">From Russian mystics who wanted to resurrect the dead, to a eugenicist biologist who named the movement, to the Silicon Valley billionaires funding it today.</p>
-    <div class="timeline" id="timeline"></div>
+    <div id="timeline"></div>
   </section>
 
   <!-- 02 THE STACK -->
-  <section class="panel wide" id="stack">
+  <section class="panel wide read" id="stack">
     <div class="sec-head"><span class="sec-num">02</span><h2>WHAT IT ENTAILS</h2></div>
     <div class="rule"></div>
     <p class="sec-dek">The main projects under the transhumanist banner, with a reality check on how far each has actually got.</p>
-    <div class="stack" id="stack-grid"></div>
+    <div class="board" id="stack-grid"></div>
   </section>
 
   <!-- 03 FUNDERS -->
-  <section class="panel" id="funders">
+  <section class="panel read" id="funders">
     <div class="sec-head"><span class="sec-num">03</span><h2>WHO PAYS</h2></div>
     <div class="rule"></div>
     <p class="sec-dek">The movement moved from mailing lists to billion-dollar labs when tech fortunes arrived.</p>
-    <div class="table-wrap"><table class="funders" id="funders-table"></table></div>
+    <ol class="payroll" id="funders-table"></ol>
   </section>
 
-  <section class="panel" id="gap">
+  <section class="panel read" id="gap">
     <div class="sec-head"><span class="sec-num">!!</span><h2>WHO GETS TO LIVE LONGER</h2></div>
     <div class="rule"></div>
-    <div class="stats" id="gap-stats"></div>
-    <p class="sec-dek" style="margin-bottom:0;">Longevity research is mostly paid for and pursued by the very rich, in a country where money already buys more than a decade of life.</p>
+    <div id="gap-stats"></div>
+    <p class="sec-dek gap-close">Longevity research is mostly paid for and pursued by the very rich, in a country where money already buys more than a decade of life.</p>
   </section>
 
   <!-- 04 CHARGES -->
-  <section class="panel wide" id="workers">
+  <section class="panel wide read" id="workers">
     <div class="sec-head"><span class="sec-num">04</span><h2>HOSTILE TO WORKERS: THE CASE</h2></div>
     <div class="rule"></div>
     <p class="sec-dek">Eight charges. Each starts with the critics’ argument, followed by the evidence it rests on.</p>
-    <div class="stats" id="work-stats"></div>
+    <div class="figure-row" id="work-stats"></div>
+    <nav class="charge-index" id="charge-index" aria-label="The eight charges"></nav>
     <div class="charges" id="charges"></div>
   </section>
 
   <!-- 05 COUNTERPOINT -->
-  <section class="panel" id="counter">
+  <section class="panel read" id="counter">
     <div class="sec-head"><span class="sec-num">05</span><h2>THE OTHER SIDE</h2></div>
     <div class="rule"></div>
     <p class="sec-dek">Not every transhumanist shares the billionaire vision.</p>
     <ul class="checklist" id="counter-list"></ul>
   </section>
 
-  <section class="panel" id="resist">
+  <section class="panel read" id="resist">
     <div class="sec-head"><span class="sec-num">06</span><h2>WORKERS PUSH BACK</h2></div>
     <div class="rule"></div>
     <p class="sec-dek">Contracts and laws that have already drawn lines around AI and body-and-brain monitoring.</p>
@@ -349,14 +500,30 @@
   </section>
 
   <!-- Footer -->
-  <footer class="panel wide">
-    <div class="continue">
-      <div class="big">YOU ARE NOT A LEGACY SYSTEM</div>
-      <a class="btn" href="index.html">CONTINUE <span class="blink">▶▌</span></a>
+  <footer class="panel wide read" id="end">
+    <div class="end-grid">
+      <div>
+        <div class="continue">
+          <div class="big">YOU ARE NOT A LEGACY SYSTEM</div>
+          <a class="btn" href="index.html">CONTINUE <span class="blink">▶▌</span></a>
+        </div>
+        <p class="method">Compiled from books, papers, court and government records, company statements and investigative reporting. Quotes are reproduced exactly from their sources. Every entry was fact-checked against its sources in October 2026.</p>
+      </div>
+      <canvas id="upload" data-src="img/maizey-sys.png" aria-hidden="true"></canvas>
     </div>
-    <p class="method">Compiled from books, papers, court and government records, company statements and investigative reporting. Quotes are reproduced exactly from their sources. Every entry was fact-checked against its sources in October 2026.</p>
   </footer>
 </main>
+
+<aside class="sysm" id="sysm" aria-label="Maizey, transhuman build">
+  <div class="sysm-bubble" id="sysm-bubble" role="status" aria-live="polite" hidden>
+    <div class="sysm-head"><span>SYS.MAIZEY</span><span class="where" id="sysm-where"></span><button type="button" id="sysm-close" aria-label="Close Maizey's message">✕</button></div>
+    <p class="sysm-text" id="sysm-text"></p>
+    <div class="sysm-foot" id="sysm-foot"></div>
+  </div>
+  <button type="button" class="sysm-body" id="sysm-body" aria-label="Maizey, transhuman build: a pointer for the section you are reading">
+    <img src="img/maizey-sys.png" width="292" height="400" alt="">
+  </button>
+</aside>
 
 <script>
 const STATUS = {
@@ -380,31 +547,45 @@ const TIMELINE = [
     status: "documented", src: "Bernal, The World, the Flesh and the Devil (1929)" },
   { y: "1951/57", title: "A eugenicist names the movement",
     body: "Biologist Julian Huxley, Aldous’s brother, uses the word “transhumanism” in a 1951 lecture and popularizes it in a 1957 essay, for humanity transcending itself through science. Huxley was a prominent eugenicist and later president of Britain’s Eugenics Society (1959–62).",
-    status: "documented", src: "Huxley, “Transhumanism,” in New Bottles for New Wine (1957); Harrison & Wolyniak, Notes and Queries (2015)", url: "https://en.wikipedia.org/wiki/Julian_Huxley" },
+    status: "documented", links: [
+      { t: "Huxley, “Transhumanism” (1957), reprinted in Ethics in Progress", url: "https://pressto.amu.edu.pl/index.php/eip/article/download/9303/9014" },
+      { t: "Bostrom, “A History of Transhumanist Thought” (2005)", url: "https://nickbostrom.com/papers/history.pdf" },
+      { t: "Futuribles (2016, in French) on the 1951 lecture, after Harrison & Wolyniak", url: "https://halshs.archives-ouvertes.fr/halshs-01618448v1/file/Aux%20origines%20du%20mot%20transhumanisme-2016-Futuribles-VersionAuteur.pdf" },
+      { t: "ZSL archive: President, British Eugenics Society 1959–62", url: "https://zsl-archive.maxarchiveservices.co.uk/index.php/huxley-julian-sorell-1887-1975-zsl-secretary-1935-1942" }] },
   { y: "1962", title: "Cryonics begins",
     body: "Robert Ettinger’s The Prospect of Immortality proposes freezing the dead for future revival. The Alcor Life Extension Foundation follows in 1972.",
-    status: "documented", src: "Ettinger (1962/1964); Alcor", url: "https://en.wikipedia.org/wiki/Alcor_Life_Extension_Foundation" },
+    status: "documented", links: [
+      { t: "Best, “A History of Cryonics”", url: "https://benbest.com/cryonics/history.html" },
+      { t: "Alcor: incorporated 1972", url: "https://www.alcor.org/about/" }] },
   { y: "1986–88", title: "Nanobots and mind uploading",
     body: "Eric Drexler’s Engines of Creation popularizes nanotechnology; Hans Moravec’s Mind Children argues minds could be transferred into robots.",
     status: "documented", src: "Drexler (1986); Moravec (1988)" },
   { y: "1988", title: "Extropians: transhumanism goes libertarian",
-    body: "Max More and Tom Bell (writing as T.O. Morrow) launch Extropy magazine, later the Extropy Institute, pairing human enhancement with free-market, anti-state politics.",
-    status: "documented", src: "Extropy magazine (1988); More, Principles of Extropy", url: "https://en.wikipedia.org/wiki/Extropianism" },
+    body: "Max More and Tom Morrow publish the first issue of Extropy magazine and in 1992 found the Extropy Institute. Early extropianism had what Bostrom calls “a clear libertarian flavor,” pairing human enhancement with free-market, anti-state politics; More later distanced himself from it.",
+    status: "documented", links: [{ t: "Bostrom, “A History of Transhumanist Thought” (2005)", url: "https://nickbostrom.com/papers/history.pdf" }] },
   { y: "1989", title: "FM-2030: “Are You a Transhuman?”",
-    body: "Futurist FM-2030 (born Fereidoun Esfandiary), who taught at The New School, publishes a manifesto on becoming post-human. He was cryopreserved in 2000.",
-    status: "documented", src: "FM-2030, Are You a Transhuman? (1989)", url: "https://en.wikipedia.org/wiki/FM-2030" },
+    body: "Futurist FM-2030 (born F.M. Esfandiary), who taught future studies at the New School for Social Research in the 1960s, publishes Are You a Transhuman?, on the signs of an emerging “transhuman.” When he dies in 2000, his body is vitrified and stored at Alcor.",
+    status: "documented", links: [{ t: "Bostrom, “A History of Transhumanist Thought” (2005)", url: "https://nickbostrom.com/papers/history.pdf" },
+      { t: "Bidoun, “The Future Takes Forever”", url: "https://bidoun.org/articles/the-future-takes-forever" },
+      { t: "NPR (July 2000)", url: "https://www.npr.org/2000/07/11/1076532/fm-2030" }] },
   { y: "1993", title: "The Singularity",
     body: "Mathematician and author Vernor Vinge predicts that within 30 years humans will have the means to create superhuman intelligence, and that “shortly after, the human era will be ended.”",
     status: "documented", src: "Vinge, “The Coming Technological Singularity” (1993)", url: "https://edoras.sdsu.edu/~vinge/misc/singularity.html" },
   { y: "1998", title: "An organized movement",
-    body: "Nick Bostrom and David Pearce found the World Transhumanist Association and publish the Transhumanist Declaration. It is renamed Humanity+ in 2008.",
-    status: "documented", src: "Transhumanist Declaration (1998); Humanity+", url: "https://en.wikipedia.org/wiki/Humanity%2B" },
+    body: "Nick Bostrom and David Pearce found the World Transhumanist Association; its founding documents include the Transhumanist Declaration. By 2008 it has been renamed Humanity+.",
+    status: "documented", links: [{ t: "Bostrom, “A History of Transhumanist Thought” (2005)", url: "https://nickbostrom.com/papers/history.pdf" },
+      { t: "Boing Boing (Oct 2008): “Humanity Plus (formerly the World Transhumanist Association)”", url: "https://boingboing.net/2008/10/16/new-online-magazine.html" }] },
   { y: "2000", title: "A singularity institute, later funded by Thiel",
-    body: "Eliezer Yudkowsky co-founds the Singularity Institute (now MIRI), first aiming to accelerate superhuman AI; by 2005 it pivots to AI risk. From 2006 Peter Thiel becomes a major donor.",
-    status: "documented", src: "MIRI history; Thiel Foundation", url: "https://en.wikipedia.org/wiki/Machine_Intelligence_Research_Institute" },
+    body: "Eliezer Yudkowsky co-founds the Singularity Institute (now MIRI) “with the goal of accelerating progress towards smarter-than-human AI.” By its own account, between 2000 and 2003 it turns to the problem of aligning such AI with human values. The Thiel Foundation is among its largest past donors, at $1,627,000.",
+    status: "documented", links: [
+      { t: "MIRI, history", url: "https://intelligence.org/about/" },
+      { t: "MIRI, top contributors", url: "https://intelligence.org/topcontributors/" }] },
   { y: "2005", title: "Kurzweil sets a date: 2045",
     body: "Ray Kurzweil’s The Singularity Is Near predicts humans merging with AI by 2045. Bostrom founds Oxford’s Future of Humanity Institute the same year; Oxford closed it in 2024.",
-    status: "documented", src: "Kurzweil (2005); Future of Humanity Institute (2005–2024)", url: "https://en.wikipedia.org/wiki/Future_of_Humanity_Institute" },
+    status: "documented", links: [
+      { t: "Kurzweil, The Singularity Is Near (2005)" },
+      { t: "Future of Humanity Institute (2005–2024)", url: "https://www.futureofhumanityinstitute.org/" },
+      { t: "404 Media (Apr 2024)", url: "https://404media.co/institute-that-pioneered-ai-existential-risk-research-shuts-down/" }] },
   { y: "2008", title: "Singularity University",
     body: "Kurzweil and Peter Diamandis found Singularity University at NASA’s Ames campus (public launch 2009), with Google as a founding sponsor, selling executive courses on exponential technology.",
     status: "documented", src: "TechCrunch (Feb 2009)", url: "https://techcrunch.com/2009/02/02/world-renowned-scientists-team-with-google-and-nasa-to-launch-singularity-university/" },
@@ -437,7 +618,7 @@ const STACK = [
 ];
 
 const FUNDERS = [
-  { who: "Peter Thiel", what: "Early major donor to MIRI; backed the Methuselah Foundation and SENS anti-aging research; funded seasteading; has said he signed up for cryonics." },
+  { who: "Peter Thiel", what: "Major donor to MIRI ($1.6M through the Thiel Foundation); backed the Methuselah Foundation and SENS anti-aging research; funded seasteading; has said he signed up for cryonics." },
   { who: "Elon Musk", what: "Neuralink and xAI; argues humans must merge with machines to stay relevant." },
   { who: "Sam Altman", what: "$180M into Retro Biosciences; CEO of OpenAI, whose stated mission is artificial general intelligence." },
   { who: "Larry Page / Google", what: "Calico longevity company (2013); early backer of Singularity University." },
@@ -490,7 +671,7 @@ const CHARGES = [
   { letter: "E", title: "The uploaded worker at subsistence wages",
     claim: "In the most detailed transhumanist vision of a post-biological economy, digital copies of people work almost constantly for bare survival.",
     evidence: [
-      { status: "documented", text: "Economist Robin Hanson forecasts a world of brain “emulations” copied from a few highly productive people, with most copies working long hours at near-subsistence wages.", src: "Hanson, The Age of Em (2016)", url: "https://en.wikipedia.org/wiki/The_Age_of_Em" },
+      { status: "documented", text: "Economist Robin Hanson forecasts a world of brain “emulations” copied from a few highly productive people, with most copies working long hours at near-subsistence wages.", src: "Hanson, The Age of Em (2016)", url: "https://ageofem.com/" },
       { status: "speculative", text: "Mind uploading does not exist; the book is a forecast, not a plan anyone is carrying out.", src: "See section 02" }
     ] },
   { letter: "F", title: "Longer lives for owners, not workers",
@@ -517,7 +698,10 @@ const CHARGES = [
 
 const COUNTER = [
   { text: "<b>Democratic transhumanism.</b> Sociologist James Hughes argues enhancement must be publicly funded and available to all, alongside a strong welfare state.", src: "Hughes, Citizen Cyborg (2004)" },
-  { text: "<b>Support for basic income.</b> Transhumanist Party founder Zoltan Istvan has repeatedly campaigned on basic-income ideas, including a “Federal Land Dividend.”", src: "Istvan campaigns (2016–2026)", url: "https://en.wikipedia.org/wiki/Zoltan_Istvan" },
+  { text: "<b>Support for basic income.</b> Zoltan Istvan, head of the Transhumanist Party, added a universal basic income to his 2016 presidential platform, then ran for California governor on a basic income paid from federal land, which he called a “Federal Land Dividend.”", links: [
+      { t: "Engadget (Nov 2016)", url: "https://www.engadget.com/2016-11-01-zoltan-istvan-transhumanist-party.html" },
+      { t: "Basic Income Earth Network interview (May 2017)", url: "https://basicincome.org/news/2017/05/interview-california-gubernatorial-candidate-proposes-state-wide-basic-income/" },
+      { t: "Istvan on the name (May 2017)", url: "https://lifeboat.com/blog/2017/05/interview-california-gubernatorial-candidate-proposes-state-wide-basic-income" }] },
   { text: "<b>Medical good.</b> Brain implants are restoring speech and movement to paralyzed people. The technology itself is not the problem; who controls it is.", src: "BrainGate; peer-reviewed trials" },
   { text: "<b>Diverse movement.</b> Many transhumanists reject libertarian politics, and some disability advocates embrace assistive technology while criticizing “fixing” people.", src: "Humanity+; disability studies literature", open: true }
 ];
@@ -537,64 +721,184 @@ function badge(s) {
   return `<span class="badge st-${s}" title="${st.desc}">${st.label}</span>`;
 }
 function srcHtml(item) {
+  // an entry resting on several sources lists each one, linked
+  if (item.links) return item.links.map(l => l.url ? `<a href="${l.url}" target="_blank" rel="noopener">${l.t} ↗</a>` : l.t).join("; ");
   return item.url ? `<a href="${item.url}" target="_blank" rel="noopener">${item.src} ↗</a>` : item.src;
+}
+function tagLine(item) {
+  return `<div class="tag">${badge(item.status)} <span class="src">${srcHtml(item)}</span></div>`;
 }
 
 document.getElementById("legend").innerHTML = Object.entries(STATUS)
-  .map(([k, s]) => `<span>${badge(k)} <span class="src">${s.desc}</span></span>`).join(" ");
+  .map(([k, s]) => `<span>${badge(k)} ${s.desc}</span>`).join("");
 
-document.getElementById("timeline").innerHTML = TIMELINE.map(t => `
-  <article class="t-card">
-    <div class="t-year">${t.y}<span class="x">▣ □ □</span></div>
-    <div class="t-body">
-      <h3>${t.title}</h3>
-      <p>${t.body}</p>
-      <div>${badge(t.status)} <span class="src">${srcHtml(t)}</span></div>
-    </div>
-  </article>`).join("");
+// 01: the timeline in four eras, each pinned beside its entries
+const ERAS = [
+  { range: "1880s–1929", title: "BEFORE THE WORD", until: 1950 },
+  { range: "1951–1993", title: "THE WORD AND ITS PROPHETS", until: 1995 },
+  { range: "1998–2008", title: "THE MOVEMENT ORGANIZES", until: 2010 },
+  { range: "2013–2024", title: "THE MONEY, AND ITS CRITICS", until: Infinity },
+];
+const startYear = (t) => parseInt(t.y, 10);
+document.getElementById("timeline").innerHTML = ERAS.map((era, i) => {
+  const from = i ? ERAS[i - 1].until : -Infinity;
+  const items = TIMELINE.filter(t => startYear(t) >= from && startYear(t) < era.until);
+  return `
+  <div class="era">
+    <div class="era-head"><span class="era-range">${era.range}</span><span class="era-title">${era.title}</span><span class="era-count">${items.length} ENTRIES</span></div>
+    <ol class="tl">${items.map(t => `
+      <li class="tl-item">
+        <div class="tl-year${t.y.length > 5 ? " long" : ""}">${t.y}</div>
+        <div class="tl-body">
+          <h4>${t.title}</h4>
+          <p>${t.body}</p>
+          ${tagLine(t)}
+        </div>
+      </li>`).join("")}
+    </ol>
+  </div>`;
+}).join("");
 
-document.getElementById("stack-grid").innerHTML = STACK.map(m => `
-  <div class="module">
-    <h3>${m.name}</h3>
-    <p>${m.body}</p>
-    <div class="reality">REALITY
+// 02: a reality board, from what works to what does not exist
+const VERDICT = ["NOT REAL", "HYPE", "EARLY", "WORKS (MEDICAL)", "MATURE", "EVERYWHERE"];
+const board = document.getElementById("stack-grid");
+board.innerHTML = `<div class="board-row head"><span>PROJECT</span><span>REALITY</span><span>WHERE IT STANDS</span></div>` +
+  [...STACK].sort((a, b) => b.reality - a.reality).map(m => `
+  <div class="board-row">
+    <div class="board-name">${m.name}</div>
+    <div class="meter" role="img" aria-label="Reality ${m.reality} of 5: ${VERDICT[m.reality]}">
       <span class="cells">${[0, 1, 2, 3, 4].map(i => `<i class="${i < m.reality ? "on" : ""}"></i>`).join("")}</span>
-      ${["NOT REAL", "HYPE", "EARLY", "WORKS (MEDICAL)", "MATURE", "EVERYWHERE"][m.reality]}
+      <span class="verdict v${m.reality}">${VERDICT[m.reality]}</span>
     </div>
+    <p>${m.body}</p>
   </div>`).join("");
-
-document.getElementById("funders-table").innerHTML =
-  `<tr><th>WHO</th><th>WHAT THEY FUND</th></tr>` +
-  FUNDERS.map(f => `<tr><td>${f.who}</td><td>${f.what}</td></tr>`).join("");
-
-function stats(id, list) {
-  document.getElementById(id).innerHTML = list.map(s => `
-    <div class="stat">
-      <div class="n">${s.n}</div>
-      <div class="t">${s.t}</div>
-      <div>${badge(s.status)} <span class="src">${srcHtml(s)}</span></div>
-    </div>`).join("");
+if ("IntersectionObserver" in window) {
+  const io = new IntersectionObserver((es) => { if (es[0].isIntersecting) { board.classList.add("fill"); io.disconnect(); } }, { threshold: 0.3 });
+  io.observe(board);
 }
-stats("gap-stats", GAP_STATS);
-stats("work-stats", WORK_STATS);
 
+// 03: the payroll
+document.getElementById("funders-table").innerHTML =
+  FUNDERS.map(f => `<li><span class="who">${f.who}</span><span class="what">${f.what}</span></li>`).join("");
+
+// !!: the lifespan gap as one figure, the money beneath it
+const [lead, ...rest] = GAP_STATS;
+document.getElementById("gap-stats").innerHTML = `
+  <div class="figure-big">
+    <span class="n">${lead.n}</span><span class="unit">YEARS</span>
+    <p class="t">${lead.t}</p>
+    ${tagLine(lead)}
+  </div>
+  <div class="figure-pair">${rest.map(s => `
+    <div class="fig"><div class="n">${s.n}</div><p class="t">${s.t}</p>${tagLine(s)}</div>`).join("")}
+  </div>`;
+
+// 04: the work numbers, an index of the charges, then the charges
+document.getElementById("work-stats").innerHTML = WORK_STATS.map(s => `
+  <div class="fig"><div class="n">${s.n}</div><p class="t">${s.t}</p>${tagLine(s)}</div>`).join("");
+document.getElementById("charge-index").innerHTML = CHARGES.map(c =>
+  `<a href="#charge-${c.letter}"><b>${c.letter}</b><span>${c.title}</span></a>`).join("");
 document.getElementById("charges").innerHTML = CHARGES.map(c => `
-  <article class="charge">
-    <div class="charge-head"><div class="charge-letter">${c.letter}</div><div class="charge-title">${c.title}</div></div>
+  <article class="charge" id="charge-${c.letter}">
+    <div class="charge-head"><div class="charge-letter">${c.letter}</div><h3 class="charge-title">${c.title}</h3></div>
     <div class="charge-body">
-      <p class="claim">${badge("argument")} ${c.claim}</p>
+      <p class="claim">${badge("argument")}${c.claim}</p>
       <ul class="evidence">
-        ${c.evidence.map(e => `<li>${badge(e.status)}<span class="${e.status === "words" ? "quote" : ""}">${e.text}</span><span class="src">${srcHtml(e)}</span></li>`).join("")}
+        ${c.evidence.map(e => `<li>${badge(e.status)}<div><span class="${e.status === "words" ? "quote" : ""}">${e.text}</span><span class="src">${srcHtml(e)}</span></div></li>`).join("")}
       </ul>
     </div>
   </article>`).join("");
 
+// 05 / 06
 function checklist(id, list) {
   document.getElementById(id).innerHTML = list.map(i =>
-    `<li class="${i.open ? "open" : ""}"><span>${i.text} <span class="src">— ${srcHtml(i)}</span></span></li>`).join("");
+    `<li class="${i.open ? "open" : ""}"><span>${i.text} <span class="src">${srcHtml(i)}</span></span></li>`).join("");
 }
 checklist("counter-list", COUNTER);
 checklist("resist-list", RESIST);
+
+// ---------- SYS.MAIZEY ----------
+// One line per section, each one a fact already printed in that section, so
+// she points the reader at the page rather than adding to it. She speaks
+// when a section comes into view, once; clicking her repeats the line for
+// where you are; closing her bubble twice stops her speaking unasked.
+(function sysMaizey() {
+  const root = document.getElementById("sysm");
+  const bubble = document.getElementById("sysm-bubble");
+  const text = document.getElementById("sysm-text");
+  const where = document.getElementById("sysm-where");
+  const foot = document.getElementById("sysm-foot");
+  if (!root || !bubble) return;
+  const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const LINES = {
+    top: { where: "BOOT", text: "SYS.MAIZEY online, transhuman build. I took the upgrade so you can read about it instead. I'll flag one thing per section as you scroll." },
+    origins: { where: "01 ORIGINS", text: "The word was popularized by Julian Huxley in 1957, and Huxley later presided over Britain's Eugenics Society (1959–62). Charge H picks up that thread.", go: ["CHARGE H ▸", "#charge-H"] },
+    stack: { where: "02 WHAT IT ENTAILS", text: "Reality check: of these eight projects, only brain–computer interfaces work, and only as medicine. Cryonics and mind uploading score zero." },
+    funders: { where: "03 WHO PAYS", text: "Follow the payroll: Thiel, Musk, Altman, Page, Bezos, Milner. The movement went from mailing lists to billion-dollar labs when tech fortunes arrived." },
+    gap: { where: "!! WHO LIVES LONGER", text: "At 40, the richest 1% of American men can expect 14.6 more years than the poorest 1%. Money already buys more than a decade of life." },
+    workers: { where: "04 THE CASE", text: "Each charge opens with the critics' argument (the dashed tag), then the evidence under it. Weigh the evidence, not the headline." },
+    counter: { where: "05 THE OTHER SIDE", text: "Not every transhumanist wants this. Democratic transhumanists argue enhancement must be publicly funded and available to all." },
+    resist: { where: "06 PUSH BACK", text: "Lines already drawn: writers, actors and game performers won AI terms; Colorado and California protect brain data; the EU bans emotion-reading AI at work." },
+    end: { where: "EOF", text: "You are not a legacy system. I'm only mostly one." },
+  };
+  const said = new Set();
+  // a bubble over a phone screen covers a third of the text, so there she
+  // speaks only when tapped
+  const onPhone = () => window.matchMedia("(max-width: 700px)").matches;
+  let current = "top", hideT = null, closes = 0, last = 0;
+
+  function say(key) {
+    const l = LINES[key];
+    if (!l) return;
+    current = key;
+    said.add(key);
+    root.classList.remove("has-line");
+    last = Date.now();
+    where.textContent = l.where;
+    text.textContent = l.text;
+    foot.innerHTML = l.go ? `<a href="${l.go[1]}">${l.go[0]}</a>` : "";
+    bubble.hidden = false;
+    glitch();
+    clearTimeout(hideT);
+    hideT = setTimeout(() => { bubble.hidden = true; }, 9000);
+  }
+  function glitch() {
+    if (reduced) return;
+    root.classList.remove("flicker");
+    void root.offsetWidth;
+    root.classList.add("flicker");
+  }
+  document.getElementById("sysm-close").addEventListener("click", () => {
+    bubble.hidden = true;
+    closes++;
+    if (closes >= 2) root.classList.add("off");
+  });
+  document.getElementById("sysm-body").addEventListener("click", () => {
+    if (!bubble.hidden && text.textContent === LINES[current].text) { bubble.hidden = true; return; }
+    say(current);
+  });
+  // the section in view decides what she says
+  const ids = ["origins", "stack", "funders", "gap", "workers", "counter", "resist", "end"];
+  let waitT = null;
+  const consider = () => {
+    clearTimeout(waitT);
+    if (closes >= 2 || said.has(current)) return;
+    const quiet = 7000 - (Date.now() - last);
+    if (quiet > 0) { waitT = setTimeout(consider, quiet + 50); return; }
+    if (onPhone()) { root.classList.add("has-line"); return; }
+    say(current);
+  };
+  if ("IntersectionObserver" in window) {
+    const io = new IntersectionObserver((es) => {
+      for (const e of es) if (e.isIntersecting) current = e.target.id;
+      consider();
+    }, { rootMargin: "-35% 0px -45% 0px" });
+    ids.forEach((id) => { const el = document.getElementById(id); if (el) io.observe(el); });
+  }
+  setTimeout(() => { if (!said.size && !onPhone()) say("top"); }, 2200);
+  // now and then the build flickers, as builds do
+  if (!reduced) setInterval(() => { if (!document.hidden && Math.random() < 0.5) glitch(); }, 9000);
+})();
 
 // ---------- pixel monitor wall with blinking eyes ----------
 (function monitors() {
@@ -662,5 +966,6 @@ checklist("resist-list", RESIST);
   }
 })();
 </script>
+<script src="js/sys-ascii.js" defer></script>
 </body>
 </html>

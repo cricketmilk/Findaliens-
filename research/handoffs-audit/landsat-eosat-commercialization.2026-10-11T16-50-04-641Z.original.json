@@ -1,0 +1,77 @@
+{
+  "id": "landsat-eosat-commercialization",
+  "title": "Landsat commercialized to EOSAT (1985), then returned to government (1992)",
+  "pattern": "privatization",
+  "country": "United States",
+  "summary": "Landsat, the civilian Earth-observation satellite program pioneered by NASA in 1972 and run by NOAA from 1983, was transferred to the private sector under the Land Remote-Sensing Commercialization Act of 1984 (Public Law 98-365). On 27 September 1985 the Commerce Department announced a contract with Earth Observation Satellite Co. (EOSAT), a joint venture of RCA and Hughes Aircraft, to operate Landsats 4 and 5, market their data and build two new satellites with up to $250 million in phased-out federal funding. NASA later described the commercial model as unworkable: data prices rose sharply and in 1989 NOAA ordered the satellites prepared for shutdown before funding was restored. The Land Remote Sensing Policy Act of 1992 repealed the 1984 Act, found full commercialization unachievable in the foreseeable future, and authorized a government-owned Landsat 7.",
+  "public": {
+    "name": "Landsat civilian land remote-sensing satellite program",
+    "funder": "NASA and the Department of Commerce (NOAA)",
+    "budget": "The Commerce Secretary said in 1985 that the American people had invested more than $1 billion in the system",
+    "start": { "date": "1972", "precision": "year" },
+    "end": { "date": "1985-09-27", "precision": "day", "kind": "privatized" },
+    "sources": [
+      { "url": "https://d9-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/atoms/files/1985%20Department%20of%20Commerce%20Commercial%20Landsat%20News%20Release.pdf", "publisher": "U.S. Department of Commerce (archived by USGS EROS History Project)", "title": "Commerce Transfers Landsat to Private Sector", "date": "1985-09-27" },
+      { "url": "https://science.nasa.gov/earth/earth-observatory/landsat-looks-and-sees-forty-years-of-observations-reveal-a-changing-planet-and-society", "publisher": "NASA Earth Observatory", "title": "Landsat Looks and Sees: Forty Years of Observations Reveal a Changing Planet and Society", "date": "2012-07-23" }
+    ]
+  },
+  "private": {
+    "name": "Earth Observation Satellite Co. (EOSAT)",
+    "founded": { "date": "1985-09-27", "precision": "day" },
+    "founders": ["RCA Corp.", "Hughes Aircraft Co."],
+    "funders": ["RCA Corp.", "Hughes Aircraft Co.", "U.S. Department of Commerce (contract funding of up to $250 million, phased out over five years)"],
+    "outcome": "Operated Landsats 4 and 5 and held exclusive data-marketing rights; the 1992 Land Remote Sensing Policy Act moved program management to NASA and the Defense Department and authorized a government-owned Landsat 7. By 1995 EOSAT was reported as a Martin Marietta–Hughes joint venture still marketing Landsat 4/5 data and disputing renewal of its exclusive contract.",
+    "sources": [
+      { "url": "https://d9-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/atoms/files/1985%20Department%20of%20Commerce%20Commercial%20Landsat%20News%20Release.pdf", "publisher": "U.S. Department of Commerce (archived by USGS EROS History Project)", "title": "Commerce Transfers Landsat to Private Sector", "date": "1985-09-27" },
+      { "url": "https://washingtontechnology.com/1995/01/commerce-defers-to-court-on-eosat-decision/332445/", "publisher": "Washington Technology", "title": "Commerce Defers to Court on Eosat Decision", "date": "1995-01-12" }
+    ]
+  },
+  "links": [
+    {
+      "type": "contract",
+      "claim": "Commerce Secretary Malcolm Baldrige announced that the department had signed a contract with EOSAT, a joint venture of RCA and Hughes Aircraft, to transfer Landsat to the private sector: EOSAT would operate the two existing satellites and receive up to $250 million over five years to build and operate two new ones.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://d9-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/atoms/files/1985%20Department%20of%20Commerce%20Commercial%20Landsat%20News%20Release.pdf", "publisher": "U.S. Department of Commerce (archived by USGS EROS History Project)", "title": "Commerce Transfers Landsat to Private Sector", "date": "1985-09-27" }
+      ]
+    },
+    {
+      "type": "stated-successor",
+      "claim": "EOSAT described itself in 1989 as the operator of the Landsat system under NOAA, stating that the transition of Landsat from public to private operation began in 1985 under Public Law 98-365, with Commerce oversight until 1994.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://d9-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/atoms/files/1989%20Shutdown%20of%20US%20Landsat%20System%20Halted%20News%20Release.pdf", "publisher": "Earth Observation Satellite Company (archived by USGS EROS History Project)", "title": "Shutdown of U.S. Landsat System Halted", "date": "1989-03-15" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "NASA's Earth Observatory says that a year after the 1984 commercialization law, the newly created EOSAT took over operations of Landsats 4 and 5, and that cost recovery forced Landsat data prices up by as much as 600 per cent for some products.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://science.nasa.gov/earth/earth-observatory/landsat-looks-and-sees-forty-years-of-observations-reveal-a-changing-planet-and-society", "publisher": "NASA Earth Observatory", "title": "Landsat Looks and Sees: Forty Years of Observations Reveal a Changing Planet and Society", "date": "2012-07-23" }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "The Land Remote Sensing Policy Act of 1992 returned Landsat to government control.",
+      "assessment": "partly-true",
+      "explanation": "The Act repealed the 1984 Commercialization Act, found that full commercialization could not be achieved in the foreseeable future, placed program management under NASA and the Defense Department, and led to a government-owned Landsat 7; NASA says it returned operation of the program to the government. However, it kept provisions protecting the 'Landsat 6 contractor', and EOSAT continued operating Landsats 4 and 5 and marketing their data into at least 1995.",
+      "sources": [
+        { "url": "https://www.jaxa.jp/library/space_law/chapter_4/4-1-2-5/4-1-2-5a_e.html", "publisher": "JAXA Space Law Library (text of Public Law 102-555)", "title": "Land Remote Sensing Policy Act of 1992" },
+        { "url": "https://science.nasa.gov/earth/earth-observatory/landsat-looks-and-sees-forty-years-of-observations-reveal-a-changing-planet-and-society", "publisher": "NASA Earth Observatory", "title": "Landsat Looks and Sees: Forty Years of Observations Reveal a Changing Planet and Society", "date": "2012-07-23" },
+        { "url": "https://washingtontechnology.com/1995/01/commerce-defers-to-court-on-eosat-decision/332445/", "publisher": "Washington Technology", "title": "Commerce Defers to Court on Eosat Decision", "date": "1995-01-12" }
+      ]
+    },
+    {
+      "claim": "EOSAT would provide later Landsat satellites without further government subsidy.",
+      "assessment": "false",
+      "explanation": "The 1985 Commerce release said EOSAT would provide succeeding satellites without further subsidy. In 1989 NOAA ordered EOSAT to prepare to turn off Landsats 4 and 5 for lack of funds until government funding was pledged, and the 1992 Act authorized Landsat 7 as a government-owned satellite.",
+      "sources": [
+        { "url": "https://d9-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/atoms/files/1985%20Department%20of%20Commerce%20Commercial%20Landsat%20News%20Release.pdf", "publisher": "U.S. Department of Commerce (archived by USGS EROS History Project)", "title": "Commerce Transfers Landsat to Private Sector", "date": "1985-09-27" },
+        { "url": "https://d9-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/atoms/files/1989%20Shutdown%20of%20US%20Landsat%20System%20Halted%20News%20Release.pdf", "publisher": "Earth Observation Satellite Company (archived by USGS EROS History Project)", "title": "Shutdown of U.S. Landsat System Halted", "date": "1989-03-15" },
+        { "url": "https://science.nasa.gov/earth/earth-observatory/landsat-looks-and-sees-forty-years-of-observations-reveal-a-changing-planet-and-society", "publisher": "NASA Earth Observatory", "title": "Landsat Looks and Sees: Forty Years of Observations Reveal a Changing Planet and Society", "date": "2012-07-23" }
+      ]
+    }
+  ]
+}

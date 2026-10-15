@@ -1,0 +1,105 @@
+{
+  "id": "nsfnet-commercial-backbone",
+  "title": "NSFNET backbone → commercial Internet backbones",
+  "pattern": "privatization",
+  "country": "United States",
+  "summary": "NSFNET, which NSF launched in 1986 to link researchers to its supercomputer centers, became the de facto U.S. Internet backbone. From 1990 it was run by Advanced Network & Services (ANS), a nonprofit formed by NSF's awardee Merit Network and its partners IBM and MCI. Under solicitation NSF 93-52, NSF replaced the backbone with a new design: Network Access Points run by Sprint, MFS Datanet, Ameritech and Pacific Bell where commercial networks interconnect, a research-only vBNS run by MCI, and a routing arbiter run by Merit and USC. It also paid regional networks, on a declining scale, to buy service from commercial providers. The NSFNET backbone was shut down at midnight on April 30, 1995. Congress had authorized NSF in 1992 to support networks that also carry non-research traffic.",
+  "public": {
+    "name": "NSFNET Backbone Service",
+    "funder": "National Science Foundation",
+    "start": { "date": "1986", "precision": "year" },
+    "end": { "date": "1995-04-30", "precision": "day", "kind": "privatized" },
+    "sources": [
+      { "url": "https://www.nsf.gov/impacts/internet", "publisher": "National Science Foundation", "title": "Birth of the Commercial Internet" },
+      { "url": "https://lists.simplelists.com/serialst/msg/11726787/", "publisher": "National Science Foundation and Merit Network (press release PR 95-37, mailing-list copy)", "title": "GONE: NSFnet decommissioned (fwd) — NSF PR 95-37", "date": "1995-05-15" },
+      { "url": "https://www.ripe.net/ripe/mail/archives/ripe-org-closed/1995/msg00059.html", "publisher": "RIPE NCC mailing-list archive (Merit NSFNET notices)", "title": "news about the NSFNET Backbone Service", "date": "1995-03-31" }
+    ]
+  },
+  "private": {
+    "name": "Commercial Internet backbone providers (e.g. internetMCI, SprintLink, ANS) interconnecting at NSF-designated Network Access Points",
+    "founded": { "date": "1994-07", "precision": "month" },
+    "funders": ["National Science Foundation (NAP, vBNS and routing arbiter cooperative agreements; transitional regional-network subsidies)"],
+    "outcome": "NAP cooperative agreements began July 1994; NSFNET backbone retired April 30, 1995; regional networks moved to commercial providers such as internetMCI and SprintLink; AOL announced it would buy ANS for $35 million in November 1994",
+    "sources": [
+      { "url": "https://api.nsf.gov/services/v1/awards/9321072.json", "publisher": "National Science Foundation", "title": "Award 9321072: National Virtual Network Access Point (U S Sprint Communications Company)" },
+      { "url": "https://www.merit.edu/research/projects/the-routing-arbiter-project/", "publisher": "Merit Network", "title": "The Routing Arbiter Project" },
+      { "url": "https://www.ripe.net/ripe/mail/archives/ripe-org-closed/1995/msg00059.html", "publisher": "RIPE NCC mailing-list archive (Merit NSFNET notices)", "title": "news about the NSFNET Backbone Service", "date": "1995-03-31" },
+      { "url": "https://tidbits.com/1994/11/28/america-online-buys-ans/", "publisher": "TidBITS", "title": "America Online buys ANS", "date": "1994-11-28" }
+    ]
+  },
+  "links": [
+    {
+      "type": "stated-successor",
+      "claim": "NSF describes shutting down its backbone in 1995 as 'the decommissioning of NSFNET and privatization of the internet', and Merit, the backbone's awardee, says the NSFNET Backbone was retired in April 1995 and replaced by a set of commercial providers.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.nsf.gov/impacts/internet", "publisher": "National Science Foundation", "title": "Birth of the Commercial Internet" },
+        { "url": "https://www.merit.edu/research/projects/the-routing-arbiter-project/", "publisher": "Merit Network", "title": "The Routing Arbiter Project" }
+      ]
+    },
+    {
+      "type": "contract",
+      "claim": "Through Program Solicitation NSF 93-52, NSF selected MFS Datanet (Washington, DC), Sprint (New York) and Bellcore (for NAPs in California run by PacBell and Chicago run by Ameritech) to operate Network Access Points; Sprint's NAP cooperative agreement began July 1, 1994, with $573,577 obligated.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://diswww.mit.edu/menelaus/com-priv/10630", "publisher": "com-priv mailing list archive (MIT), post by NSF's Stephen Wolff", "title": "NAP selections under Program Solicitation 93-52", "date": "1994-03-02" },
+        { "url": "https://api.nsf.gov/services/v1/awards/9321072.json", "publisher": "National Science Foundation", "title": "Award 9321072: National Virtual Network Access Point" }
+      ]
+    },
+    {
+      "type": "contract",
+      "claim": "NSF awarded MCI a cooperative agreement (9321047, starting February 1995, about $53.5 million obligated) to provide the very high speed Backbone Network Service (vBNS) linking the supercomputer centers and the NAPs, operated on MCI's production telecommunications network.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://api.nsf.gov/services/v1/awards/9321047.json", "publisher": "National Science Foundation", "title": "Award 9321047: Very High Speed Backbone Network Services Provider for NSFNET and the NREN Program" },
+        { "url": "https://lists.simplelists.com/serialst/msg/11726787/", "publisher": "National Science Foundation and Merit Network (press release PR 95-37, mailing-list copy)", "title": "GONE: NSFnet decommissioned (fwd) — NSF PR 95-37", "date": "1995-05-15" }
+      ]
+    },
+    {
+      "type": "contract",
+      "claim": "NSF funded Merit Network (award 9321060) and the University of Southern California (award 9321043) from July 1994 to act as the Routing Arbiter, coordinating routing among the network service providers that replaced the NSFNET backbone.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://api.nsf.gov/services/v1/awards/9321060.json", "publisher": "National Science Foundation", "title": "Award 9321060: Routing Arbiter for NSFNET and the NREN Program" },
+        { "url": "https://www.merit.edu/research/projects/the-routing-arbiter-project/", "publisher": "Merit Network", "title": "The Routing Arbiter Project" }
+      ]
+    },
+    {
+      "type": "contract",
+      "claim": "The NSFNET backbone was managed from 1987 by Merit Network in partnership with IBM and MCI; in 1990 the partners formed Advanced Networking Services, Inc. (ANS), which operated the backbone under a subagreement from Merit.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://lists.simplelists.com/serialst/msg/11726787/", "publisher": "National Science Foundation and Merit Network (press release PR 95-37, mailing-list copy)", "title": "GONE: NSFnet decommissioned (fwd) — NSF PR 95-37", "date": "1995-05-15" }
+      ]
+    },
+    {
+      "type": "funding",
+      "claim": "NSF paid the regional networks a declining share of their costs during the transition (100% in year one, then 75%, 50% and 25%) while they bought service from competing commercial providers; Merit reported that SURAnet and NYSERnet had become fully dependent on internetMCI and SprintLink.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://lists.simplelists.com/serialst/msg/11726787/", "publisher": "National Science Foundation and Merit Network (press release PR 95-37, mailing-list copy)", "title": "GONE: NSFnet decommissioned (fwd) — NSF PR 95-37", "date": "1995-05-15" },
+        { "url": "https://www.ripe.net/ripe/mail/archives/ripe-org-closed/1995/msg00059.html", "publisher": "RIPE NCC mailing-list archive (Merit NSFNET notices)", "title": "news about the NSFNET Backbone Service", "date": "1995-03-31" }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "The government sold the Internet backbone to private companies in 1995.",
+      "assessment": "partly-true",
+      "explanation": "No government sale of the backbone was found. NSF shut its backbone service down and paid for a new design in which commercial carriers interconnect at NSF-funded Network Access Points, while a separate research network (vBNS) was contracted to MCI. The network that had carried NSFNET was run by ANS, a nonprofit formed by IBM, MCI and Merit. AOL, not the government, announced in November 1994 that it would buy ANS for $35 million.",
+      "sources": [
+        { "url": "https://lists.simplelists.com/serialst/msg/11726787/", "publisher": "National Science Foundation and Merit Network (press release PR 95-37, mailing-list copy)", "title": "GONE: NSFnet decommissioned (fwd) — NSF PR 95-37", "date": "1995-05-15" },
+        { "url": "https://tidbits.com/1994/11/28/america-online-buys-ans/", "publisher": "TidBITS", "title": "America Online buys ANS", "date": "1994-11-28" }
+      ]
+    },
+    {
+      "claim": "NSF let commercial traffic onto the taxpayer-funded backbone without legal authority or oversight.",
+      "assessment": "partly-true",
+      "explanation": "The NSF Office of Inspector General reviewed the NSFNET program and recommended fixes for deficiencies. NSF then wrote the acceptable use policy into the award to ensure commercial use did not impair research and education use. In October 1992 Congress (Pub. L. 102-476) authorized NSF to support access to networks used for other purposes as well, provided this increased their overall capacity to support research and education.",
+      "sources": [
+        { "url": "https://nsf-gov-resources.nsf.gov/pubs/stis1995/oig10/oig10.txt", "publisher": "NSF Office of Inspector General", "title": "Semiannual Report to the Congress, Number 10 (October 1, 1993 – March 31, 1994)" },
+        { "url": "https://www.law.cornell.edu/uscode/text/42/1862", "publisher": "Legal Information Institute, Cornell Law School", "title": "42 U.S. Code § 1862 - Functions" }
+      ]
+    }
+  ]
+}

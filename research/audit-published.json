@@ -1,0 +1,284 @@
+{
+ "at": "2026-10-11T18:13:37.878Z",
+ "published": {
+  "facts": 370,
+  "connections": 231
+ },
+ "removedByAudit": [
+  {
+   "kind": "fact",
+   "index": 2,
+   "entity": "andreessen-horowitz",
+   "claim": "FEC filings show that AH Capital Management, Andreessen Horowitz's management company, contributed $67 million to the Fairshake super PAC between October 2023 and November 2024, attributed in memo entries equally to Marc Andreessen and Ben Horowitz. It contributed a further $23.8 million in December",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 67, 23.8, capital management, andreessen horowitz, fairshake, marc andreessen, ben horowitz",
+   "file": "andreessen-horowitz.json"
+  },
+  {
+   "kind": "fact",
+   "index": 45,
+   "entity": "david-sacks",
+   "claim": "Sacks founded the genealogy site Geni in June 2006. It raised $16.5 million from Founders Fund and Charles River Ventures. Yammer was developed inside Geni. Sacks stepped down as Geni CEO in 2011, and MyHeritage bought Geni in November 2012 in what TechCrunch, citing MyHeritage investor Index, calle",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 16.5, 2011, founders fund, charles river ventures",
+   "file": "david-sacks.json"
+  },
+  {
+   "kind": "fact",
+   "index": 63,
+   "entity": "david-sacks",
+   "claim": "The waiver memo lists the divestments: he and Craft sold all liquid cryptocurrency, including Bitcoin, Ethereum and Solana, before January 20, 2025, and he sold his Bitwise 10 Crypto Index Fund position on January 22. He sold his Coinbase and Robinhood stock and sold, or began selling, his shares in",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 2025, craft, bitcoin, ethereum, solana, bitwise, crypto index, coinbase",
+   "file": "david-sacks.json"
+  },
+  {
+   "kind": "fact",
+   "index": 80,
+   "entity": "elon-musk",
+   "claim": "Musk received about $22 million from the Zip2 sale for his roughly 7% stake, according to Ashlee Vance's biography as cited by Wikipedia.",
+   "why": "only Wikipedia cited; needs the primary source it points to",
+   "file": "elon-musk.json"
+  },
+  {
+   "kind": "fact",
+   "index": 212,
+   "entity": "paypal-bonus-abuse",
+   "claim": "Eric M. Jackson, a former PayPal marketing employee, wrote that after the March 2000 merger, X.com CEO Bill Harris told staff the company had realized immediate cost savings by eliminating X.com's $20 new-user bonus and cutting PayPal's bonus in half to $5. The book presents the cuts as cost control",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 2000, x.com, bill harris",
+   "file": "paypal-bonus-abuse.json"
+  },
+  {
+   "kind": "fact",
+   "index": 213,
+   "entity": "paypal-bonus-abuse",
+   "claim": "Jackson wrote that one fraud ring opened fraudulent PayPal accounts and used them to take nearly $6 million out of the system in mid-2000. He describes Russian and Nigerian groups running up online card charges for which X.com/PayPal, as the merchant, was liable. The passages found describe stolen-c",
+   "why": "the quoted passage is not on the cited pages; missing: 2000, russian, nigerian, x.com",
+   "file": "paypal-bonus-abuse.json"
+  },
+  {
+   "kind": "fact",
+   "index": 214,
+   "entity": "paypal-bonus-abuse",
+   "claim": "Jackson describes the Gausebeck-Levchin test, an addition to the sign-up process built by Levchin and engineer David Gausebeck, as making the automated opening of accounts linked to stolen credit cards effectively impossible. He links the test to stolen cards, not to bonus collection.",
+   "why": "the quoted passage is not on the cited pages; missing: gausebeck-levchin, levchin, david gausebeck",
+   "file": "paypal-bonus-abuse.json"
+  },
+  {
+   "kind": "fact",
+   "index": 220,
+   "entity": "paypal-bonus-abuse",
+   "claim": "Adam Penenberg's 2009 book Viral Loop says one of Levchin's fraud adversaries was a Russian who had set up thousands of PayPal accounts under the name 'Gregory Stivinson'. The passages found do not say whether those accounts were used for stolen cards or for bonuses.",
+   "why": "the quoted passage is not on the cited pages; missing: levchin, russian, paypal, gregory stivinson",
+   "file": "paypal-bonus-abuse.json"
+  },
+  {
+   "kind": "fact",
+   "index": 221,
+   "entity": "paypal-bonus-abuse",
+   "claim": "Contemporary coverage of PayPal's fraud work does not describe abuse of sign-up or referral bonuses. Newsweek (July 2001) and MIT Technology Review (December 2001) describe stolen-card fraud, the Igor system and arrests; InfoWorld (December 2002) describes the Igor system. Technology Review noted on",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 2002, contemporary, infoworld",
+   "file": "paypal-bonus-abuse.json"
+  },
+  {
+   "kind": "fact",
+   "index": 273,
+   "entity": "peter-thiel",
+   "claim": "Founders Fund, where Thiel is a partner, invested $20 million in SpaceX in 2008. Separately, in 2006 Thiel pledged $3.5 million to the Methuselah Foundation, a nonprofit, for anti-aging research.",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 2006, 3.5, thiel, methuselah foundation, separately",
+   "file": "peter-thiel.json"
+  },
+  {
+   "kind": "fact",
+   "index": 280,
+   "entity": "peter-thiel",
+   "claim": "Thiel has been managing member of Thiel Capital Management, LLC since September 1996. Bloomberg Markets reports that he started it as a macro fund with $1 million raised from friends and family, struggled to attract investors without a track record, and had more than $4 million under management by e",
+   "why": "the cited pages do not contain the claim's figures and names; missing: asian, ltcm",
+   "file": "peter-thiel.json"
+  },
+  {
+   "kind": "fact",
+   "index": 293,
+   "entity": "reid-hoffman",
+   "claim": "In 2004, Sean Parker contacted Hoffman about investing in Facebook. Hoffman has said he chose not to lead the round because of how his roles at LinkedIn and Friendster might look, suggested that Peter Thiel lead it instead, and invested himself. TechCrunch reported his stake as $37,500.",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 2004, sean parker, friendster, peter thiel",
+   "file": "reid-hoffman.json"
+  },
+  {
+   "kind": "fact",
+   "index": 359,
+   "entity": "sequoia-capital",
+   "claim": "Sequoia's lobbying reports list $360,000 in fees for 2024, $240,000 for 2025 and $120,000 for the first half of 2026, a total of $720,000. The federal lobbying database shows no filings for a client named Sequoia Capital before 2024.",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 360,000, 240,000, 120,000, 720,000",
+   "file": "sequoia-capital.json"
+  },
+  {
+   "kind": "connection",
+   "index": 32,
+   "entity": "david-sacks -> bitgo",
+   "claim": "Invested in BitGo's December 2017 round and joined its board. BitGo was still a Craft holding in March 2025, at under 2.5% of his assets.",
+   "why": "the cited pages do not contain the claim's figures and names; missing: craft",
+   "file": "david-sacks.json"
+  },
+  {
+   "kind": "connection",
+   "index": 40,
+   "entity": "david-sacks -> sriram-krishnan",
+   "claim": "Krishnan, an Andreessen Horowitz general partner from 2021, joined Sacks in the informal Twitter advisory group in 2022. Trump named him White House senior AI policy adviser in December 2024 to work closely with Sacks.",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 2022, 2024, trump, white house",
+   "file": "david-sacks.json"
+  },
+  {
+   "kind": "connection",
+   "index": 46,
+   "entity": "elon-musk -> greg-kouri",
+   "claim": "Greg Kouri co-founded Zip2 with Elon and Kimbal Musk in 1995. Musk tweeted in 2019 that Kouri contributed about $8,000 in early funding.",
+   "why": "only Wikipedia cited; needs the primary source it points to",
+   "file": "elon-musk.json"
+  },
+  {
+   "kind": "connection",
+   "index": 74,
+   "entity": "keith-rabois -> khosla-ventures",
+   "claim": "Rabois joined Khosla Ventures in 2013, left in 2019, and returned in January 2024; Opendoor identified him as a Khosla Managing Director in 2025.",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 2024, 2025, opendoor",
+   "file": "keith-rabois.json"
+  },
+  {
+   "kind": "connection",
+   "index": 85,
+   "entity": "keith-rabois -> jacob-helberg",
+   "claim": "Rabois's husband Jacob Helberg, described in 2024 as a Trump evangelist who watched the Republican National Convention from a private box, was nominated as Under Secretary of State for Economic Growth, Energy, and the Environment and had his Senate Foreign Relations hearing on June 10, 2025.",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 2024, state, economic growth, energy, environment",
+   "file": "keith-rabois.json"
+  },
+  {
+   "kind": "connection",
+   "index": 113,
+   "entity": "reid-hoffman -> meta",
+   "claim": "Reid Hoffman invested in Facebook's first outside funding round in 2004. TechCrunch reported his stake as $37,500 at a $5 million valuation. Hoffman has said he declined to lead the round because of his other social-networking roles and suggested that Peter Thiel lead it instead.",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 2004, peter thiel",
+   "file": "meta.json"
+  },
+  {
+   "kind": "connection",
+   "index": 137,
+   "entity": "paypal-bonus-abuse -> x-com",
+   "claim": "According to Eric Jackson's book, X.com CEO Bill Harris told staff after the March 2000 merger with Confinity that eliminating X.com's $20 new-user bonus had been an immediate cost saving.",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 2000, x.com, bill harris, confinity",
+   "file": "paypal-bonus-abuse.json"
+  },
+  {
+   "kind": "connection",
+   "index": 165,
+   "entity": "peter-thiel -> reid-hoffman",
+   "claim": "Thiel and Reid Hoffman were both PayPal executives, Thiel as CEO and Hoffman as executive vice president. Both invested in Facebook's first outside round in 2004, which Thiel led after Hoffman, by his own account, suggested Thiel lead it.",
+   "why": "the cited pages do not contain the claim's figures and names; missing: (subject) thiel, 2004, thiel",
+   "file": "peter-thiel.json"
+  },
+  {
+   "kind": "connection",
+   "index": 177,
+   "entity": "reid-hoffman -> peter-thiel",
+   "claim": "Hoffman (executive vice president) and Thiel (CEO) worked together at PayPal. Both invested in Facebook's 2004 first outside round, which Thiel led after Hoffman, by his own account, suggested he lead it.",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 2004, thiel",
+   "file": "reid-hoffman.json"
+  },
+  {
+   "kind": "connection",
+   "index": 178,
+   "entity": "reid-hoffman -> meta",
+   "claim": "Hoffman invested $37,500 in Facebook's first outside round in 2004, which Peter Thiel led.",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 2004, peter thiel",
+   "file": "reid-hoffman.json"
+  },
+  {
+   "kind": "connection",
+   "index": 191,
+   "entity": "reid-hoffman -> founders-fund",
+   "claim": "Greylock XIII funds (Hoffman's firm), Founders Fund II–IV (co-founded by Peter Thiel) and Andreessen Horowitz Fund II were all investor parties to Airbnb's April 2020 investors' rights agreement.",
+   "why": "the cited pages do not contain the claim's figures and names; missing: hoffman, peter thiel",
+   "file": "reid-hoffman.json"
+  }
+ ],
+ "citesWikipedia": [
+  {
+   "kind": "fact",
+   "index": 74,
+   "entity": "elon-musk",
+   "claim": "Ashlee Vance's biography says Errol Musk gave the brothers $28,000 while they were starting Zip2. Elon Musk told Rolling Stone in 2017 that this was not true and that the first funding came from angel investors. He then tweeted in December 2019 that his father provided 10% of a roughly $200,000 ange",
+   "wikipedia": [
+    "https://en.wikipedia.org/wiki/Zip2"
+   ],
+   "otherSources": 1
+  },
+  {
+   "kind": "fact",
+   "index": 79,
+   "entity": "elon-musk",
+   "claim": "Compaq completed its acquisition of Zip2 Corporation in April 1999 for total consideration of about $307 million in cash, plus employee stock options and acquisition costs. Zip2 was folded into Compaq's AltaVista business. Secondary sources date the announcement to February 1999.",
+   "wikipedia": [
+    "https://en.wikipedia.org/wiki/Zip2"
+   ],
+   "otherSources": 2
+  },
+  {
+   "kind": "fact",
+   "index": 80,
+   "entity": "elon-musk",
+   "claim": "Musk received about $22 million from the Zip2 sale for his roughly 7% stake, according to Ashlee Vance's biography as cited by Wikipedia.",
+   "wikipedia": [
+    "https://en.wikipedia.org/wiki/Business_career_of_Elon_Musk"
+   ],
+   "otherSources": 0
+  },
+  {
+   "kind": "fact",
+   "index": 84,
+   "entity": "elon-musk",
+   "claim": "X.com merged with Confinity on March 30, 2000, with X.com as the surviving company. Musk was CEO of the combined company from May to September 2000. Isaacson's and Vance's biographies say the board removed him in September 2000 while he was away on a delayed honeymoon and installed Peter Thiel as CE",
+   "wikipedia": [
+    "https://en.wikipedia.org/wiki/Business_career_of_Elon_Musk"
+   ],
+   "otherSources": 2
+  },
+  {
+   "kind": "fact",
+   "index": 87,
+   "entity": "elon-musk",
+   "claim": "Musk was one of the PayPal insiders and investors, together holding about 28.1% of PayPal's stock, who signed a July 7, 2002 agreement to vote for the eBay merger. eBay completed the purchase on October 3, 2002, in a stock deal valued at about $1.5 billion at 0.39 eBay shares per PayPal share. Musk'",
+   "wikipedia": [
+    "https://en.wikipedia.org/wiki/Business_career_of_Elon_Musk"
+   ],
+   "otherSources": 2
+  },
+  {
+   "kind": "connection",
+   "index": 45,
+   "entity": "elon-musk -> kimbal-musk",
+   "claim": "Elon Musk co-founded Global Link Information Network (renamed Zip2 in 1996) with his brother Kimbal Musk and Greg Kouri in 1995. Kimbal bought 300,000 X.com Series A preferred shares for $100,000 in June 1999.",
+   "wikipedia": [
+    "https://en.wikipedia.org/wiki/Zip2"
+   ],
+   "otherSources": 1
+  },
+  {
+   "kind": "connection",
+   "index": 46,
+   "entity": "elon-musk -> greg-kouri",
+   "claim": "Greg Kouri co-founded Zip2 with Elon and Kimbal Musk in 1995. Musk tweeted in 2019 that Kouri contributed about $8,000 in early funding.",
+   "wikipedia": [
+    "https://en.wikipedia.org/wiki/Zip2"
+   ],
+   "otherSources": 0
+  },
+  {
+   "kind": "connection",
+   "index": 55,
+   "entity": "elon-musk -> errol-musk",
+   "claim": "Errol Musk, Elon Musk's father, has said he became half-owner of a Zambian emerald mine in the 1980s. Walter Isaacson's biography instead says Errol traded a plane in 1986 for emeralds from a mine owned by another businessman. Elon Musk has denied that his father owned a mine. Elon has said Errol pr",
+   "wikipedia": [
+    "https://en.wikipedia.org/wiki/Zip2"
+   ],
+   "otherSources": 3
+  }
+ ],
+ "notInFindings": 0
+}

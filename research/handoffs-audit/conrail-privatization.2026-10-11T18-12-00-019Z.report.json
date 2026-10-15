@@ -1,0 +1,25 @@
+{
+ "file": "conrail-privatization.json",
+ "kind": "handoff",
+ "at": "2026-10-11T18:12:00.019Z",
+ "kept": 2,
+ "removed": [
+  {
+   "where": "links[1]",
+   "claim": "At a White House ceremony on 3 April 1987, Transportation Secretary Elizabeth Dole presented a check of $1,575,087,500 payable to the U.S. Treasury 'for the sale of Conrail to the public', saying Conr",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 1987, 1,575,087,500, elizabeth dole, treasury, conrail"
+  },
+  {
+   "where": "claims[0]",
+   "claim": "A 1985 CRS brief says about $3 billion of Treasury money went into new track and equipment in 1976–1980 and roughly another $3 billion was used to buy the bankrupt railroads' property, besides payment",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 1,575,087,500, 300, 1.875"
+  }
+ ],
+ "unchecked": [],
+ "resourced": [],
+ "wikiSourcesDropped": 0,
+ "notes": [],
+ "pagesOpened": 4,
+ "pagesRefused": 0,
+ "empty": false
+}

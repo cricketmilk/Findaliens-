@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T23:12:18.265Z",
+  "updated": "2026-10-11T22:51:51.988Z",
   "note": "Grades are computed from approved, typed evidence; timing alone never counts as a link.",
   "records": [
     {
@@ -376,19 +376,6 @@
         },
         {
           "type": "asset-transfer",
-          "claim": "At a White House ceremony on 3 April 1987, Transportation Secretary Elizabeth Dole presented a check of $1,575,087,500 payable to the U.S. Treasury 'for the sale of Conrail to the public', saying Conrail was 'no longer a ward of the state'.",
-          "status": "documented",
-          "sources": [
-            {
-              "url": "https://rosap.ntl.bts.gov/view/dot/80196/dot_80196_DS1.pdf",
-              "publisher": "U.S. Department of Transportation (ROSA P)",
-              "title": "Talking Points Prepared for Secretary Dole, White House Privatization Ceremony",
-              "date": "1987-04-03"
-            }
-          ]
-        },
-        {
-          "type": "asset-transfer",
           "claim": "CSX's SEC filing reports that CSX and Norfolk Southern acquired Conrail's outstanding shares for approximately $9.8 billion (CSX 42%, about $4.1 billion; NS 58%, about $5.7 billion), with STB approval on 23 July 1998 and joint control from 22 August 1998.",
           "status": "documented",
           "sources": [
@@ -401,27 +388,7 @@
           ]
         }
       ],
-      "claims": [
-        {
-          "claim": "The 1987 sale recovered what the federal government had put into Conrail.",
-          "assessment": "false",
-          "explanation": "A 1985 CRS brief says about $3 billion of Treasury money went into new track and equipment in 1976–1980 and roughly another $3 billion was used to buy the bankrupt railroads' property, besides payments to displaced employees. DOT's own figures put the government's receipts at $1,575,087,500 from the offering plus $300 million received earlier, a total of just over $1.875 billion.",
-          "sources": [
-            {
-              "url": "https://digital.library.unt.edu/ark:/67531/metacrs9056/m2/1/high_res_d/IB84142_1985Jul18.pdf",
-              "publisher": "Congressional Research Service (UNT Digital Library)",
-              "title": "Issue Brief IB84142: sale of Conrail (Stephen J. Thompson, Economics Division), update",
-              "date": "1985-07-18"
-            },
-            {
-              "url": "https://rosap.ntl.bts.gov/view/dot/80196/dot_80196_DS1.pdf",
-              "publisher": "U.S. Department of Transportation (ROSA P)",
-              "title": "Talking Points Prepared for Secretary Dole, White House Privatization Ceremony",
-              "date": "1987-04-03"
-            }
-          ]
-        }
-      ],
+      "claims": [],
       "grade": "A",
       "gap": {
         "days": 0,
@@ -1163,32 +1130,6 @@
         },
         {
           "type": "asset-transfer",
-          "claim": "The Bundestag's Treuhand inquiry recorded that by May 1994 the Treuhandanstalt had carried out 14,160 privatisations of enterprises and parts of enterprises and still held 649. It started from about 8,000 combines and state enterprises, which splits turned into a portfolio of 13,661 companies.",
-          "status": "documented",
-          "sources": [
-            {
-              "url": "https://dserver.bundestag.de/btd/12/084/1208404.pdf",
-              "publisher": "Deutscher Bundestag",
-              "title": "Beschlußempfehlung und Bericht des 2. Untersuchungsausschusses \"Treuhandanstalt\" (Drucksache 12/8404)",
-              "date": "1994-08-31"
-            }
-          ]
-        },
-        {
-          "type": "contract",
-          "claim": "The Treuhand told the Bundestag inquiry that by end-1993 buyers had pledged 1,469,056 jobs (981,253 contractually guaranteed, 759,883 with penalties) and DM 204.2 billion of investment (DM 141.6 billion contractually guaranteed) in their purchase contracts.",
-          "status": "documented",
-          "sources": [
-            {
-              "url": "https://dserver.bundestag.de/btd/12/084/1208404.pdf",
-              "publisher": "Deutscher Bundestag",
-              "title": "Beschlußempfehlung und Bericht des 2. Untersuchungsausschusses \"Treuhandanstalt\" (Drucksache 12/8404)",
-              "date": "1994-08-31"
-            }
-          ]
-        },
-        {
-          "type": "asset-transfer",
           "claim": "Of the roughly 8,500 enterprises with over four million employees that the Treuhand took over, 53% were privatised, 13% returned to former owners and 30% closed; about 80% of the new investors came from West Germany, and sales raised only about DM 70 billion because of heavy discounts and 'negative purchase prices'.",
           "status": "reported",
           "sources": [
@@ -1220,6 +1161,12 @@
           "explanation": "About 80% of buyers were West German, and proceeds were only about DM 67–70 billion against a deficit of about DM 256–260 billion, partly because of heavy discounts and 'negative purchase prices'. But buyers also took on contractual job and investment pledges (DM 141.6 billion of investment contractually guaranteed by end-1993).",
           "sources": [
             {
+              "url": "https://dserver.bundestag.de/btd/12/084/1208404.pdf",
+              "publisher": "Deutscher Bundestag",
+              "title": "Beschlußempfehlung und Bericht des 2. Untersuchungsausschusses \"Treuhandanstalt\" (Drucksache 12/8404)",
+              "date": "1994-08-31"
+            },
+            {
               "url": "https://www.bpb.de/kurz-knapp/lexika/handwoerterbuch-politisches-system/202195/treuhandanstalt/",
               "publisher": "Bundeszentrale für politische Bildung",
               "title": "Treuhandanstalt (Marcus Böick, Handwörterbuch des politischen Systems)"
@@ -1229,12 +1176,6 @@
               "publisher": "German History in Documents and Images (German Historical Institute Washington)",
               "title": "Closing the Treuhandanstalt [Trusteeship Agency] (December 30, 1994)",
               "date": "1994-12-30"
-            },
-            {
-              "url": "https://dserver.bundestag.de/btd/12/084/1208404.pdf",
-              "publisher": "Deutscher Bundestag",
-              "title": "Beschlußempfehlung und Bericht des 2. Untersuchungsausschusses \"Treuhandanstalt\" (Drucksache 12/8404)",
-              "date": "1994-08-31"
             }
           ]
         },
@@ -1256,16 +1197,16 @@
           "explanation": "The Treuhand told the Bundestag that the penalty-backed pledges were being exceeded, but only 759,883 of 1,469,056 pledged jobs carried penalties. Per GHDI, Breuel estimated in 1992 that 20–30% of promised jobs never materialised, because early contracts had no penalties.",
           "sources": [
             {
-              "url": "https://dserver.bundestag.de/btd/12/084/1208404.pdf",
-              "publisher": "Deutscher Bundestag",
-              "title": "Beschlußempfehlung und Bericht des 2. Untersuchungsausschusses \"Treuhandanstalt\" (Drucksache 12/8404)",
-              "date": "1994-08-31"
-            },
-            {
               "url": "https://germanhistorydocs.org/en/a-new-germany-1990-2023/closing-the-treuhandanstalt-trusteeship-agency-december-30-1994",
               "publisher": "German History in Documents and Images (German Historical Institute Washington)",
               "title": "Closing the Treuhandanstalt [Trusteeship Agency] (December 30, 1994)",
               "date": "1994-12-30"
+            },
+            {
+              "url": "https://dserver.bundestag.de/btd/12/084/1208404.pdf",
+              "publisher": "Deutscher Bundestag",
+              "title": "Beschlußempfehlung und Bericht des 2. Untersuchungsausschusses \"Treuhandanstalt\" (Drucksache 12/8404)",
+              "date": "1994-08-31"
             }
           ]
         }
@@ -1409,14 +1350,14 @@
           "status": "documented",
           "sources": [
             {
-              "url": "https://api.nsf.gov/services/v1/awards/9321060.json",
-              "publisher": "National Science Foundation",
-              "title": "Award 9321060: Routing Arbiter for NSFNET and the NREN Program"
-            },
-            {
               "url": "https://www.merit.edu/research/projects/the-routing-arbiter-project/",
               "publisher": "Merit Network",
               "title": "The Routing Arbiter Project"
+            },
+            {
+              "url": "https://api.nsf.gov/services/v1/awards/9321060.json",
+              "publisher": "National Science Foundation",
+              "title": "Award 9321060: Routing Arbiter for NSFNET and the NREN Program"
             }
           ]
         },
@@ -1439,40 +1380,21 @@
           "status": "documented",
           "sources": [
             {
-              "url": "https://lists.simplelists.com/serialst/msg/11726787/",
-              "publisher": "National Science Foundation and Merit Network (press release PR 95-37, mailing-list copy)",
-              "title": "GONE: NSFnet decommissioned (fwd) — NSF PR 95-37",
-              "date": "1995-05-15"
-            },
-            {
               "url": "https://www.ripe.net/ripe/mail/archives/ripe-org-closed/1995/msg00059.html",
               "publisher": "RIPE NCC mailing-list archive (Merit NSFNET notices)",
               "title": "news about the NSFNET Backbone Service",
               "date": "1995-03-31"
+            },
+            {
+              "url": "https://lists.simplelists.com/serialst/msg/11726787/",
+              "publisher": "National Science Foundation and Merit Network (press release PR 95-37, mailing-list copy)",
+              "title": "GONE: NSFnet decommissioned (fwd) — NSF PR 95-37",
+              "date": "1995-05-15"
             }
           ]
         }
       ],
       "claims": [
-        {
-          "claim": "The government sold the Internet backbone to private companies in 1995.",
-          "assessment": "partly-true",
-          "explanation": "No government sale of the backbone was found. NSF shut its backbone service down and paid for a new design in which commercial carriers interconnect at NSF-funded Network Access Points, while a separate research network (vBNS) was contracted to MCI. The network that had carried NSFNET was run by ANS, a nonprofit formed by IBM, MCI and Merit. AOL, not the government, announced in November 1994 that it would buy ANS for $35 million.",
-          "sources": [
-            {
-              "url": "https://lists.simplelists.com/serialst/msg/11726787/",
-              "publisher": "National Science Foundation and Merit Network (press release PR 95-37, mailing-list copy)",
-              "title": "GONE: NSFnet decommissioned (fwd) — NSF PR 95-37",
-              "date": "1995-05-15"
-            },
-            {
-              "url": "https://tidbits.com/1994/11/28/america-online-buys-ans/",
-              "publisher": "TidBITS",
-              "title": "America Online buys ANS",
-              "date": "1994-11-28"
-            }
-          ]
-        },
         {
           "claim": "NSF let commercial traffic onto the taxpayer-funded backbone without legal authority or oversight.",
           "assessment": "partly-true",
@@ -1947,30 +1869,6 @@
               "date": "2006-03-03"
             }
           ]
-        },
-        {
-          "type": "personnel",
-          "claim": "CAT says it was established in 1990 by David Chiswell and leading MRC scientists. The Gairdner Foundation describes Greg Winter, a member of the MRC LMB who invented antibody humanization techniques in 1986, as a founder of CAT (1989); BioSpace reports his phage display technology was the company's foundation.",
-          "status": "documented",
-          "sources": [
-            {
-              "url": "https://www.sec.gov/Archives/edgar/data/1067386/000119312506045124/d20f.htm",
-              "publisher": "U.S. Securities and Exchange Commission",
-              "title": "Cambridge Antibody Technology Group plc, Form 20-F for fiscal year ended September 30, 2005",
-              "date": "2006-03-03"
-            },
-            {
-              "url": "https://www.gairdner.org/winner/sir-gregory-winter",
-              "publisher": "Gairdner Foundation",
-              "title": "Sir Gregory Winter"
-            },
-            {
-              "url": "https://www.biospace.com/cambridge-antibody-technology-the-history-behind-uk-s-best-biotech",
-              "publisher": "BioSpace",
-              "title": "Cambridge Antibody Technology: The History Behind UK's Best Biotech",
-              "date": "2017-06-08"
-            }
-          ]
         }
       ],
       "claims": [
@@ -2006,7 +1904,7 @@
           ]
         }
       ],
-      "grade": "A",
+      "grade": "C",
       "gap": {
         "days": -2557,
         "precision": "year"
@@ -2040,11 +1938,6 @@
             "url": "https://archives.library.illinois.edu/collections/topic-guides/history-of-science-and-technology-resources/mosaic-a-guide-to-archival-holdings/",
             "publisher": "University of Illinois Archives",
             "title": "Mosaic: A Guide to Archival Holdings"
-          },
-          {
-            "url": "https://en.wikipedia.org/wiki/NCSA_Mosaic",
-            "publisher": "Wikipedia",
-            "title": "NCSA Mosaic"
           }
         ]
       },
@@ -2153,14 +2046,14 @@
           "explanation": "The university claimed Andreessen had taken Mosaic and demanded a name change. The dispute was settled on December 21, 1994: the company became Netscape and the university received a financial settlement, which with legal costs cost Netscape close to $3 million. No court ruled on the claim, and the settlement is not an admission.",
           "sources": [
             {
-              "url": "https://lemelson.mit.edu/resources/marc-andreesen-and-eric-bina",
-              "publisher": "Lemelson-MIT Program",
-              "title": "Marc Andreesen and Eric Bina"
-            },
-            {
               "url": "https://www.computerhistory.org/revolution/story/389",
               "publisher": "Computer History Museum",
               "title": "Browser Wars"
+            },
+            {
+              "url": "https://lemelson.mit.edu/resources/marc-andreesen-and-eric-bina",
+              "publisher": "Lemelson-MIT Program",
+              "title": "Marc Andreesen and Eric Bina"
             }
           ]
         }
@@ -2680,20 +2573,15 @@
           "explanation": "Advocacy groups and secondary accounts report that the Bank tied earlier water lending to privatizing the La Paz and Cochabamba utilities. They cite a 2002 World Bank evaluation précis that could not be opened for this record. PBS reports that a June 1999 Bank review said no subsidies should offset Cochabamba tariff rises. In a 2000 letter reproduced by the Democracy Center, however, the Bank said it had advised the government against the privatization plan and the tariff increases and had favored a different project. No primary document opened here shows that the Bank required the specific Aguas del Tunari contract.",
           "sources": [
             {
-              "url": "https://www.democracyctr.org/the-world-bank-letters",
-              "publisher": "The Democracy Center",
-              "title": "The World Bank letters (Christopher Neal letter and Shultz/Kruse reply, June 2000)"
-            },
-            {
               "url": "https://www.pbs.org/frontlineworld/stories/bolivia/timeline.html",
               "publisher": "PBS Frontline/World",
               "title": "Timeline: Cochabamba Water Revolt",
               "date": "2002-06"
             },
             {
-              "url": "https://en.wikipedia.org/wiki/Cochabamba_Water_War",
-              "publisher": "Wikipedia",
-              "title": "Cochabamba Water War (cites World Bank OED Précis No. 222, 'Bolivia Water Management: A Tale of Three Cities', 2002)"
+              "url": "https://www.democracyctr.org/the-world-bank-letters",
+              "publisher": "The Democracy Center",
+              "title": "The World Bank letters (Christopher Neal letter and Shultz/Kruse reply, June 2000)"
             }
           ]
         },
@@ -2799,25 +2687,6 @@
       },
       "links": [
         {
-          "type": "asset-transfer",
-          "claim": "The sale of ZCCM's core mine packages (Konkola, Nchanga, Nampundwe and a contract to run the Nkana smelter) to Anglo American was concluded at the end of March 2000, and Nkana and Mufulira went to First Quantum and Glencore. Zambia's Finance Minister told the IMF that 'at end-March the ZCCM privatization was finally completed'.",
-          "status": "documented",
-          "sources": [
-            {
-              "url": "https://zccm-ih.com.zm/cool_timeline/2000-feb-to-mar-sale-of-zccm-core-mine-packages-to-anglo-american",
-              "publisher": "ZCCM Investments Holdings plc",
-              "title": "2000 Feb to Mar - Sale of ZCCM core mine packages to Anglo American",
-              "date": "2019-11-01"
-            },
-            {
-              "url": "https://www.imf.org/external/np/loi/2000/zmb/01/",
-              "publisher": "International Monetary Fund",
-              "title": "Zambia Letter of Intent",
-              "date": "2000-06-30"
-            }
-          ]
-        },
-        {
           "type": "stated-successor",
           "claim": "Zambia's IMF programme table of Structural Performance Criteria and Benchmarks for 1999 listed 'the transfer of ownership of the major asset packages of the ZCCM' (Nchanga and Nkana Divisions and the Konkola deep mining project) as a performance criterion due 31 March 1999. It was marked not observed, then completed in March 2000.",
           "status": "documented",
@@ -2862,6 +2731,11 @@
           "explanation": "In the IMF's own programme table, transferring ownership of ZCCM's major asset packages was a structural performance criterion, and the 30 June 2000 letter of intent says delays in ZCCM's privatization held up the first programme review. ZCCM-IH's history says new World Bank and IMF lending in late 1998 was released only on condition that the deal closed and ownership transferred. But by September 1998 privatization had already been announced more than two years earlier, so the lenders' conditions enforced and set deadlines for a sale the government had already chosen. They did not start it.",
           "sources": [
             {
+              "url": "https://www.zccm-ih.com.zm/cool_timeline",
+              "publisher": "ZCCM Investments Holdings plc",
+              "title": "ZCCM-IH history timeline (1998 entries)"
+            },
+            {
               "url": "https://www.imf.org/external/np/loi/2000/zmb/01/063000.pdf",
               "publisher": "International Monetary Fund",
               "title": "Zambia: Structural Performance Criteria and Benchmarks (tables to June 2000 Letter of Intent)",
@@ -2872,11 +2746,6 @@
               "publisher": "International Monetary Fund",
               "title": "Zambia Letter of Intent",
               "date": "2000-06-30"
-            },
-            {
-              "url": "https://www.zccm-ih.com.zm/cool_timeline",
-              "publisher": "ZCCM Investments Holdings plc",
-              "title": "ZCCM-IH history timeline (1998 entries)"
             }
           ]
         },
@@ -3162,16 +3031,16 @@
           "status": "documented",
           "sources": [
             {
-              "url": "https://api.parliament.uk/historic-hansard/written-answers/2003/feb/20/defence-information-technology-systems",
-              "publisher": "UK Parliament (Hansard)",
-              "title": "HL Deb 20 February 2003: Defence Information Technology Systems (written answer, Lord Bach)",
-              "date": "2003-02-20"
-            },
-            {
               "url": "https://beta.nationalarchives.gov.uk/catalogue/id/C16166",
               "publisher": "The National Archives (UK)",
               "title": "Defence Evaluation and Research Agency (DERA) and its immediate predecessors: Reports and Files 1991-2001 (DEFE 75)",
               "date": "2001"
+            },
+            {
+              "url": "https://api.parliament.uk/historic-hansard/written-answers/2003/feb/20/defence-information-technology-systems",
+              "publisher": "UK Parliament (Hansard)",
+              "title": "HL Deb 20 February 2003: Defence Information Technology Systems (written answer, Lord Bach)",
+              "date": "2003-02-20"
             },
             {
               "url": "https://www.qinetiq.com/en-au/our-company/our-history",
@@ -3206,16 +3075,16 @@
           "status": "documented",
           "sources": [
             {
-              "url": "https://www.theregister.com/2006/02/10/qinetiq/",
-              "publisher": "The Register",
-              "title": "Qinetiq kicks off £1.3bn IPO",
-              "date": "2006-02-10"
-            },
-            {
               "url": "https://www.nao.org.uk/reports/the-privatisation-of-qinetiq/",
               "publisher": "National Audit Office",
               "title": "The privatisation of QinetiQ (HC 52, 2007-08)",
               "date": "2007-11-23"
+            },
+            {
+              "url": "https://www.theregister.com/2006/02/10/qinetiq/",
+              "publisher": "The Register",
+              "title": "Qinetiq kicks off £1.3bn IPO",
+              "date": "2006-02-10"
             }
           ]
         },
@@ -3233,27 +3102,7 @@
           ]
         }
       ],
-      "claims": [
-        {
-          "claim": "Taxpayers were short-changed in the privatisation of QinetiQ while Carlyle and managers profited.",
-          "assessment": "partly-true",
-          "explanation": "The NAO found the process well managed and the 2006 flotation well executed, but believed the taxpayer could have received more money from the deal; it found the top ten managers' shares were worth £107 million at flotation from an investment of just over £500,000. The Register reported Carlyle made about £300m profit on a £42m investment, a press figure rather than an audited one.",
-          "sources": [
-            {
-              "url": "https://www.nao.org.uk/reports/the-privatisation-of-qinetiq/",
-              "publisher": "National Audit Office",
-              "title": "The privatisation of QinetiQ (HC 52, 2007-08)",
-              "date": "2007-11-23"
-            },
-            {
-              "url": "https://www.theregister.com/2007/11/23/qinetiq_stealth_piracy_pillow_bite_deal/",
-              "publisher": "The Register",
-              "title": "Watchdog raps MoD over Qinetiq sell-off bonanza",
-              "date": "2007-11-23"
-            }
-          ]
-        }
-      ],
+      "claims": [],
       "grade": "A",
       "gap": {
         "days": 0,
@@ -3541,27 +3390,14 @@
           "explanation": "Section 6(1) of Order 39 states that foreign direct and indirect ownership of the natural resources sector involving primary extraction and initial processing 'remains prohibited', and that the order does not apply to banks and insurance companies. Iraq's 2006 Investment Law likewise excludes oil and gas extraction and production. Later oil-sector contracts were a separate matter from Order 39.",
           "sources": [
             {
-              "url": "https://permanent.fdlp.gov/lps46879/20030919_CPAORD_39_Foreign_Investment_.pdf",
-              "publisher": "Coalition Provisional Authority (archived by US GPO Federal Depository Library Program)",
-              "title": "CPA Order Number 39, Section 6",
-              "date": "2003-09-19"
-            },
-            {
               "url": "https://faolex.fao.org/docs/pdf/irq201855E.pdf",
               "publisher": "National Investment Commission of Iraq (via FAO FAOLEX)",
               "title": "Investment Law No. 13 of 2006 as amended, art. 29"
-            }
-          ]
-        },
-        {
-          "claim": "Order 39 allowed 100% foreign ownership of Iraqi businesses.",
-          "assessment": "true",
-          "explanation": "Under Section 4(2), foreign participation in new or existing business entities 'shall not be limited' unless expressly provided. Section 7 allowed wholly foreign-owned entities. The exceptions were natural-resource extraction and initial processing, banks and insurers, a deposit requirement for retail sales, and a bar on buying private real property (with use licences of up to 40 years, renewable).",
-          "sources": [
+            },
             {
               "url": "https://permanent.fdlp.gov/lps46879/20030919_CPAORD_39_Foreign_Investment_.pdf",
               "publisher": "Coalition Provisional Authority (archived by US GPO Federal Depository Library Program)",
-              "title": "CPA Order Number 39, Sections 4, 6, 7, 8",
+              "title": "CPA Order Number 39, Section 6",
               "date": "2003-09-19"
             }
           ]
@@ -4243,24 +4079,6 @@
       },
       "links": [
         {
-          "type": "asset-transfer",
-          "claim": "Section 602 of the Student Loan Marketing Association Reorganization Act of 1996 (Pub. L. 104-208, title VI, enacted 30 September 1996) provided for reorganizing the GSE under a private holding company, with a trust to extinguish its remaining obligations and repeal of its charter section afterwards.",
-          "status": "documented",
-          "sources": [
-            {
-              "url": "https://www.govinfo.gov/content/pkg/USCODE-2020-title20/html/USCODE-2020-title20-chap28-subchapIV-partB-sec1087-2.htm",
-              "publisher": "U.S. Government Publishing Office (govinfo)",
-              "title": "20 U.S.C. 1087-2, Student Loan Marketing Association (notes: prior provisions, Pub. L. 92-318, June 23, 1972; Pub. L. 104-208, title VI, §602)"
-            },
-            {
-              "url": "https://home.treasury.gov/news/press-releases/js2173",
-              "publisher": "U.S. Department of the Treasury",
-              "title": "Treasury Announces Successful Privatization of Sallie Mae",
-              "date": "2004-12-29"
-            }
-          ]
-        },
-        {
           "type": "stated-successor",
           "claim": "Treasury Assistant Secretary Wayne A. Abernathy signed the final documents on 29 December 2004 that Treasury said effectively dissolved Sallie Mae as a GSE and ended the government's ties to it; SLM Corporation said the same day it had completed a seven-year privatization and dissolved SLMA's federal charter.",
           "status": "documented",
@@ -4669,15 +4487,15 @@
           "status": "documented",
           "sources": [
             {
-              "url": "https://www.braingate.org/about-braingate/",
-              "publisher": "BrainGate (academic consortium)",
-              "title": "About BrainGate: Administrative History of BrainGate"
-            },
-            {
               "url": "https://usinfo.org/wf-archive/2004/041229/epf315.htm",
               "publisher": "U.S. Department of State, Washington File (University of Utah press release)",
               "title": "NIH Awards $6.7 Million for Bionic War on Disabilities",
               "date": "2004-12-29"
+            },
+            {
+              "url": "https://www.braingate.org/about-braingate/",
+              "publisher": "BrainGate (academic consortium)",
+              "title": "About BrainGate: Administrative History of BrainGate"
             }
           ]
         },
@@ -4687,6 +4505,12 @@
           "status": "documented",
           "sources": [
             {
+              "url": "https://www.neurotechreports.com/pages/cyberkinetics-braingate-winddown.html",
+              "publisher": "Neurotech Business Report",
+              "title": "Researchers and Entrepreneurs Move to Revive BrainGate",
+              "date": "2010-07-31"
+            },
+            {
               "url": "https://www.braingate.org/about-braingate/",
               "publisher": "BrainGate (academic consortium)",
               "title": "About BrainGate: Administrative History of BrainGate"
@@ -4695,12 +4519,6 @@
               "url": "https://blackrockneurotech.com/our-story/",
               "publisher": "Blackrock Neurotech",
               "title": "Our Story"
-            },
-            {
-              "url": "https://www.neurotechreports.com/pages/cyberkinetics-braingate-winddown.html",
-              "publisher": "Neurotech Business Report",
-              "title": "Researchers and Entrepreneurs Move to Revive BrainGate",
-              "date": "2010-07-31"
             }
           ]
         },
@@ -4719,23 +4537,6 @@
               "url": "https://blackrockneurotech.com/our-story/",
               "publisher": "Blackrock Neurotech",
               "title": "Our Story"
-            }
-          ]
-        },
-        {
-          "type": "funding",
-          "claim": "NIH RePORTER shows NIH small-business grants to Bionic Technologies continuing under Cyberkinetics after 2002 (e.g., R44DC004261), and 25 NIH and FDA awards to Blackrock Microsystems from FY2010 to FY2024 totaling about $10 million, including 'Revolutionizing Utah Array using Nanotechnology.'",
-          "status": "documented",
-          "sources": [
-            {
-              "url": "https://reporter.nih.gov/project-details/6681823",
-              "publisher": "NIH RePORTER",
-              "title": "Multielectrode Arrays for Olfactory Investigations (6R44DC004261-04, Cyberkinetics)"
-            },
-            {
-              "url": "https://reporter.nih.gov/project-details/8523542",
-              "publisher": "NIH RePORTER",
-              "title": "Revolutionizing Utah Array using Nanotechnology to Enhance Efficacy and Longevity (1R43NS082036-01A1, Blackrock Microsystems)"
             }
           ]
         },
@@ -4777,15 +4578,15 @@
           "explanation": "The University of Utah announced four NIH grants worth about $6.7 million in 2004 to advance the Utah Electrode Array, and BrainGate states the underlying research was funded almost entirely by NIH, the VA and the Department of Defense. Blackrock has also received NIH small-business grants for array development.",
           "sources": [
             {
+              "url": "https://www.braingate.org/about-braingate/",
+              "publisher": "BrainGate (academic consortium)",
+              "title": "About BrainGate: Administrative History of BrainGate"
+            },
+            {
               "url": "https://usinfo.org/wf-archive/2004/041229/epf315.htm",
               "publisher": "U.S. Department of State, Washington File (University of Utah press release)",
               "title": "NIH Awards $6.7 Million for Bionic War on Disabilities",
               "date": "2004-12-29"
-            },
-            {
-              "url": "https://www.braingate.org/about-braingate/",
-              "publisher": "BrainGate (academic consortium)",
-              "title": "About BrainGate: Administrative History of BrainGate"
             }
           ]
         },
@@ -4838,11 +4639,6 @@
             "url": "https://www.darpa.mil/about/innovation-timeline/personal-assistant-that-learns",
             "publisher": "DARPA",
             "title": "Personal Assistant That Learns (PAL)"
-          },
-          {
-            "url": "https://en.wikipedia.org/wiki/CALO",
-            "publisher": "Wikipedia",
-            "title": "CALO"
           },
           {
             "url": "https://www.cmu.edu/homepage/computing/2011/fall/siris-origins.shtml",
@@ -4943,15 +4739,15 @@
           "status": "reported",
           "sources": [
             {
-              "url": "https://ontologforum.org/index.php/AdamCheyer",
-              "publisher": "Ontolog Forum",
-              "title": "AdamCheyer (speaker bio)"
-            },
-            {
               "url": "https://readwrite.com/?p=73347",
               "publisher": "ReadWrite",
               "title": "Semantic Stealth Startup Siri Raises $8.5 Million",
               "date": "2008-10-13"
+            },
+            {
+              "url": "https://ontologforum.org/index.php/AdamCheyer",
+              "publisher": "Ontolog Forum",
+              "title": "AdamCheyer (speaker bio)"
             }
           ]
         },
@@ -4995,15 +4791,15 @@
           "explanation": "The underlying research came from CALO, SRI's part of DARPA's PAL program, and DARPA itself credits PAL with leading to Siri Inc. But Siri Inc. was a separate venture-backed startup founded in 2007 that turned the research into a consumer product; DARPA's PAL program was aimed at military command staffs, and DARPA still described PAL as an active military program in 2011.",
           "sources": [
             {
-              "url": "https://www.darpa.mil/about/innovation-timeline/personal-assistant-that-learns",
-              "publisher": "DARPA",
-              "title": "Personal Assistant That Learns (PAL)"
-            },
-            {
               "url": "https://readwrite.com/?p=73347",
               "publisher": "ReadWrite",
               "title": "Semantic Stealth Startup Siri Raises $8.5 Million",
               "date": "2008-10-13"
+            },
+            {
+              "url": "https://www.darpa.mil/about/innovation-timeline/personal-assistant-that-learns",
+              "publisher": "DARPA",
+              "title": "Personal Assistant That Learns (PAL)"
             }
           ]
         },
@@ -5451,32 +5247,6 @@
       "links": [
         {
           "type": "contract",
-          "claim": "NPfIT's local care-records systems were contracted to private suppliers from 2003-04: the NAO reports five 10-year contracts worth some £5 billion to Accenture, BT, CSC and Fujitsu. By 2011 only BT (London and South) and CSC (North, Midlands and East) remained, delivering Cerner Millennium, RiO, iSoft Lorenzo and TPP SystmOne systems.",
-          "status": "documented",
-          "sources": [
-            {
-              "url": "https://www.nao.org.uk/wp-content/uploads/2011/05/1012888es.pdf",
-              "publisher": "National Audit Office",
-              "title": "The National Programme for IT in the NHS: an update on the delivery of detailed care records systems (HC 888, summary)",
-              "date": "2011-05-18"
-            }
-          ]
-        },
-        {
-          "type": "stated-successor",
-          "claim": "Announcing the dismantling, the Department of Health said central decision-making on behalf of local organisations would end so local NHS bodies could exercise choice, that it would keep working with existing suppliers, and that national infrastructure and applications would be maintained.",
-          "status": "documented",
-          "sources": [
-            {
-              "url": "https://www.gov.uk/government/news/dismantling-the-nhs-national-programme-for-it",
-              "publisher": "Department of Health",
-              "title": "Dismantling the NHS National Programme for IT",
-              "date": "2011-09-22"
-            }
-          ]
-        },
-        {
-          "type": "contract",
           "claim": "The Department of Health's 2012 agreement with CSC, which it said would save over £1 billion, removed CSC's exclusive rights to be the only provider of clinical IT systems in the North, Midlands and East, giving local NHS organisations the power to choose their own IT systems.",
           "status": "documented",
           "sources": [
@@ -5529,7 +5299,7 @@
           ]
         }
       ],
-      "grade": "A",
+      "grade": "C",
       "gap": {
         "days": 345,
         "precision": "month"
@@ -5987,19 +5757,6 @@
               "publisher": "Dharmendra S. Modha (IBM SyNAPSE principal investigator)",
               "title": "Breaking News: One Giant Leap for the SyNAPSE Team, One Small Step for Mankind",
               "date": "2014-08-07"
-            }
-          ]
-        },
-        {
-          "type": "contract",
-          "claim": "After the DARPA milestone, IBM sold its TrueNorth technology back to government: Lawrence Livermore National Laboratory signed a contract for a 16-chip TrueNorth-based system, with a programming language and curriculum, for NNSA Advanced Simulation and Computing research.",
-          "status": "reported",
-          "sources": [
-            {
-              "url": "https://nextgov.com/emerging-tech/2016/04/livermore-lab-buys-brain-inspired-chip/127378",
-              "publisher": "Nextgov",
-              "title": "Nuclear Lab Buys Brain-Inspired Computing Technology",
-              "date": "2016-04-11"
             }
           ]
         }
@@ -6570,56 +6327,6 @@
               "date": "2023-02-24"
             }
           ]
-        },
-        {
-          "type": "funding",
-          "claim": "NIH states mRNA-1273 'was developed by NIAID scientists and their collaborators' at Moderna; Moderna states the VRC and its team finalized the vaccine sequence on January 13, 2020, and that the first trial ran under NIH's own IND. NIH's tech-transfer office lists Spikevax (ModernaTX) as a product of NIAID research, inventors 'Graham, B. et al.'",
-          "status": "documented",
-          "sources": [
-            {
-              "url": "https://www.nih.gov/news-events/news-releases/nih-clinical-trial-investigational-vaccine-covid-19-begins",
-              "publisher": "National Institutes of Health",
-              "title": "NIH clinical trial of investigational vaccine for COVID-19 begins",
-              "date": "2020-03-16"
-            },
-            {
-              "url": "https://www.sec.gov/Archives/edgar/data/1682852/000119312520074867/d884510dex992.htm",
-              "publisher": "Moderna, Inc. (SEC exhibit)",
-              "title": "Moderna Announces First Participant Dosed in NIH-led Phase 1 Study of mRNA Vaccine (mRNA-1273) Against Novel Coronavirus",
-              "date": "2020-03-16"
-            },
-            {
-              "url": "https://www.techtransfer.nih.gov/showcase/spikevax-r",
-              "publisher": "NIH Office of Technology Transfer",
-              "title": "Spikevax®"
-            }
-          ]
-        },
-        {
-          "type": "personnel",
-          "claim": "The peer-reviewed paper describing mRNA-1273's design lists authors affiliated with both the NIAID Vaccine Research Center and Moderna, and states the vaccine applies prefusion-stabilizing spike mutations developed in earlier structural work.",
-          "status": "peer",
-          "sources": [
-            {
-              "url": "https://europepmc.org/article/MED/32756549",
-              "publisher": "Nature (via Europe PMC)",
-              "title": "SARS-CoV-2 mRNA vaccine design enabled by prototype pathogen preparedness",
-              "date": "2020-08-05"
-            }
-          ]
-        },
-        {
-          "type": "funding",
-          "claim": "BARDA, an HHS agency, funded Moderna's mRNA-1273 development; a July 2020 contract modification added up to $472 million, bringing the award to approximately $955 million.",
-          "status": "reported",
-          "sources": [
-            {
-              "url": "https://pharmamanufacturing.com/industrynews/2020/barda-adds-472m-to-moderna-contract",
-              "publisher": "Pharma Manufacturing",
-              "title": "BARDA adds $472M to Moderna contract",
-              "date": "2020-07-27"
-            }
-          ]
         }
       ],
       "claims": [
@@ -6667,21 +6374,21 @@
           "explanation": "Moderna's 10-K reports COVID-19 vaccine product sales of $17.7 billion in 2021 and $18.4 billion in 2022 (about $36.1 billion), so the $400 million catch-up royalty was roughly 1.1% of those two years' sales. Public Citizen, an advocacy group, made the same comparison. Ongoing royalties are described only as low single digits.",
           "sources": [
             {
-              "url": "https://www.citizen.org/news/moderna-nih-agreement-on-publicly-funded-discovery-will-be-dwarfed-by-modernas-unconscionable-price-spike/",
-              "publisher": "Public Citizen",
-              "title": "Moderna-NIH Agreement on Publicly-Funded Discovery Will Be Dwarfed by Moderna's Unconscionable Price Spike",
-              "date": "2023-02-24"
-            },
-            {
               "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285223000011/mrna-20221231.htm",
               "publisher": "U.S. Securities and Exchange Commission",
               "title": "Moderna, Inc. Form 10-K for fiscal year 2022",
+              "date": "2023-02-24"
+            },
+            {
+              "url": "https://www.citizen.org/news/moderna-nih-agreement-on-publicly-funded-discovery-will-be-dwarfed-by-modernas-unconscionable-price-spike/",
+              "publisher": "Public Citizen",
+              "title": "Moderna-NIH Agreement on Publicly-Funded Discovery Will Be Dwarfed by Moderna's Unconscionable Price Spike",
               "date": "2023-02-24"
             }
           ]
         }
       ],
-      "grade": "A",
+      "grade": "C",
       "gap": {
         "days": -5082,
         "precision": "year"

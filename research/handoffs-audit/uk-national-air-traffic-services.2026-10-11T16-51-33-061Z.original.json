@@ -1,0 +1,76 @@
+{
+  "id": "uk-national-air-traffic-services",
+  "title": "National Air Traffic Services → Airline Group public-private partnership",
+  "pattern": "privatization",
+  "country": "United Kingdom",
+  "summary": "National Air Traffic Services (NATS), the UK's civil air traffic control provider, was formed in 1962 as National Air Traffic Control Services and renamed NATS in 1972 when it became part of the Civil Aviation Authority. Under the Transport Act 2000 the government sold a 46% stake and operational control to the Airline Group, a consortium of seven UK airlines, in July 2001; the NAO said the sale raised some £800 million, partly by increasing NATS' bank debt. After the post-September 2001 traffic downturn, a 2003 refinancing added £130 million from the government and BAA. As of 2026 the state holds 49% plus a golden share, the Airline Group about 42%, LHR Airports 4% and employees 5%.",
+  "public": {
+    "name": "National Air Traffic Services (NATS), originally National Air Traffic Control Services",
+    "funder": "UK government (Ministry of Aviation and successors; from 1972 the Civil Aviation Authority)",
+    "start": { "date": "1962", "precision": "year" },
+    "end": { "date": "2001-07", "precision": "month", "kind": "privatized" },
+    "sources": [
+      { "url": "https://beta.nationalarchives.gov.uk/catalogue/id/C1109", "publisher": "The National Archives (UK)", "title": "Records of National Air Traffic Services" },
+      { "url": "https://www.nao.org.uk/reports/the-public-private-partnership-for-national-air-traffic-services-ltd/", "publisher": "National Audit Office", "title": "The Public Private Partnership for National Air Traffic Services Ltd (HC 1096, 2001-02)", "date": "2002-07-24" },
+      { "url": "https://european-services-strategy.org.uk/?p=2063", "publisher": "European Services Strategy Unit", "title": "National Air Traffic Control PPP has to be refinanced", "date": "2008-11-15" }
+    ]
+  },
+  "private": {
+    "name": "The Airline Group",
+    "founded": { "date": "2001-07", "precision": "month" },
+    "founders": ["Airtours International Airways", "British Airways", "Britannia Airways", "bmi British Midland", "easyJet", "Monarch Airlines", "Virgin Atlantic Airways"],
+    "funders": ["Member airlines", "Bank lenders", "Universities Superannuation Scheme (49.9% of the Airline Group from 2013)"],
+    "outcome": "Holds about 42% of NATS (41.9% in 2013) and appoints 5 of NATS' 9 non-executive directors; the state keeps 49% and a golden share, LHR Airports Limited 4% and NATS employees 5%. Eurocontrol's 2026 factsheet lists the Airline Group as five airlines (BA, Virgin Atlantic, Lufthansa, easyJet, TUI Airways) and two pension funds.",
+    "sources": [
+      { "url": "https://investegate.co.uk/announcement/rns/easyjet--ezj/stmnt-re-the-airline-group-/263325", "publisher": "easyJet plc (RNS via Investegate)", "title": "Stmnt re - The Airline Group", "date": "2001-03-27" },
+      { "url": "https://www.eurocontrol.int/ACE/ANSP-Factsheets/NATS%20(Continental).pdf", "publisher": "Eurocontrol", "title": "ANSP factsheet: NATS, United Kingdom (status 2026)" },
+      { "url": "https://professionalpensions.com/news/2307813/uss-buys-stake-airline", "publisher": "Professional Pensions", "title": "USS buys stake in Airline Group for £143m", "date": "2013-11-19" }
+    ]
+  },
+  "links": [
+    {
+      "type": "asset-transfer",
+      "claim": "The National Audit Office reports that the taxpayer raised some £800 million from selling a 46 per cent stake in NATS to the Airline Group, a consortium of seven UK-based airlines, and that the high proceeds were partly achieved by increasing NATS' bank debt.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.nao.org.uk/reports/the-public-private-partnership-for-national-air-traffic-services-ltd/", "publisher": "National Audit Office", "title": "The Public Private Partnership for National Air Traffic Services Ltd (HC 1096, 2001-02)", "date": "2002-07-24" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "Part I of the Transport Act 2000 set the statutory framework: licensing of air traffic services, 'transfer schemes' for moving property into transferee companies (Chapter II, ss. 41–65) and provisions on 'Crown shareholding' (s. 51).",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.legislation.gov.uk/ukpga/2000/38/contents", "publisher": "legislation.gov.uk", "title": "Transport Act 2000 (contents)" }
+      ]
+    },
+    {
+      "type": "contract",
+      "claim": "easyJet's stock-exchange statement of 27 March 2001 said the government had named the Airline Group to run UK air traffic control under a 30-year public-private partnership, paying around £800m on completion, with the government keeping 49% of NATS and a golden share.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://investegate.co.uk/announcement/rns/easyjet--ezj/stmnt-re-the-airline-group-/263325", "publisher": "easyJet plc (RNS via Investegate)", "title": "Stmnt re - The Airline Group", "date": "2001-03-27" }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "UK air traffic control was fully privatised in 2001.",
+      "assessment": "false",
+      "explanation": "The 2001 deal was a part-privatisation: the government kept 49% and a golden share. Eurocontrol's 2026 factsheet still lists NATS as 49% state-owned with a golden share, with 51% held privately by the Airline Group, LHR Airports Limited and employees.",
+      "sources": [
+        { "url": "https://www.eurocontrol.int/ACE/ANSP-Factsheets/NATS%20(Continental).pdf", "publisher": "Eurocontrol", "title": "ANSP factsheet: NATS, United Kingdom (status 2026)" },
+        { "url": "https://investegate.co.uk/announcement/rns/easyjet--ezj/stmnt-re-the-airline-group-/263325", "publisher": "easyJet plc (RNS via Investegate)", "title": "Stmnt re - The Airline Group", "date": "2001-03-27" }
+      ]
+    },
+    {
+      "claim": "The public-private partnership required public money to rescue NATS within two years.",
+      "assessment": "true",
+      "explanation": "The NAO's 2004 report describes a refinancing completed in late 2003 in which NATS' bank debt was cut, partly replaced by a £130 million injection of funds, half from the government and half from new investor BAA plc, and partly by a bond issue. The NAO had warned in 2002 that the debt-heavy structure left NATS vulnerable to traffic downturns such as the one after September 2001.",
+      "sources": [
+        { "url": "https://www.nao.org.uk/reports/refinancing-the-public-private-partnership-for-national-air-traffic-services/", "publisher": "National Audit Office", "title": "Refinancing the Public Private Partnership for National Air Traffic Services", "date": "2004-01-07" },
+        { "url": "https://www.nao.org.uk/reports/the-public-private-partnership-for-national-air-traffic-services-ltd/", "publisher": "National Audit Office", "title": "The Public Private Partnership for National Air Traffic Services Ltd (HC 1096, 2001-02)", "date": "2002-07-24" }
+      ]
+    }
+  ]
+}

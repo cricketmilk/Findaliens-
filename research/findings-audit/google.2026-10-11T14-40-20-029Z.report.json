@@ -1,0 +1,31 @@
+{
+ "file": "google.json",
+ "at": "2026-10-11T14:40:20.029Z",
+ "kept": 18,
+ "removed": [
+  {
+   "where": "facts[9]",
+   "claim": "The European Commission fined Google 2.42 billion euros in June 2017 for giving its own comparison shopping service an illegal advantage in search results; on September 10, 2024, the Court of Justice ",
+   "why": "could not re-open any cited page to confirm it: https://curia.europa.eu/jcms/upload/docs/application/pdf/2024-09/cp240135en.pdf (not text: application/pdf); https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_17_1784/IP_17_1784_EN.pdf (not text: application/pdf)"
+  },
+  {
+   "where": "facts[10]",
+   "claim": "The European Commission fined Google 4.34 billion euros in July 2018 for abusing its dominance in Android mobile operating systems, the largest fine the Commission had ever imposed on a single underta",
+   "why": "could not re-open any cited page to confirm it: https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_18_4581/IP_18_4581_EN.pdf (not text: application/pdf); https://curia.europa.eu/site/upload/docs/application/pdf/2025-06/cp250072en.pdf (not text: application/pdf)"
+  },
+  {
+   "where": "facts[11]",
+   "claim": "The European Commission fined Google 1.49 billion euros in March 2019 for abusive clauses in its contracts for brokering online search advertisements; on September 18, 2024, the General Court annulled",
+   "why": "could not re-open any cited page to confirm it: https://curia.europa.eu/jcms/upload/docs/application/pdf/2024-09/cp240143en.pdf (not text: application/pdf); https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_19_1770/IP_19_1770_EN.pdf (not text: application/pdf)"
+  },
+  {
+   "where": "connections[7]",
+   "claim": "Google's Google Earth product descends from Keyhole, the geospatial software company in which the CIA's venture arm In-Q-Tel invested in 2003 (on behalf of the National Imagery and Mapping Agency); Go",
+   "why": "the quoted passage is not on the cited page"
+  }
+ ],
+ "wikiSourcesDropped": 0,
+ "pagesOpened": 17,
+ "pagesRefused": 6,
+ "empty": false
+}

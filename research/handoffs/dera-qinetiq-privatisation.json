@@ -71,16 +71,16 @@
       "status": "documented",
       "sources": [
         {
-          "url": "https://api.parliament.uk/historic-hansard/written-answers/2003/feb/20/defence-information-technology-systems",
-          "publisher": "UK Parliament (Hansard)",
-          "title": "HL Deb 20 February 2003: Defence Information Technology Systems (written answer, Lord Bach)",
-          "date": "2003-02-20"
-        },
-        {
           "url": "https://beta.nationalarchives.gov.uk/catalogue/id/C16166",
           "publisher": "The National Archives (UK)",
           "title": "Defence Evaluation and Research Agency (DERA) and its immediate predecessors: Reports and Files 1991-2001 (DEFE 75)",
           "date": "2001"
+        },
+        {
+          "url": "https://api.parliament.uk/historic-hansard/written-answers/2003/feb/20/defence-information-technology-systems",
+          "publisher": "UK Parliament (Hansard)",
+          "title": "HL Deb 20 February 2003: Defence Information Technology Systems (written answer, Lord Bach)",
+          "date": "2003-02-20"
         },
         {
           "url": "https://www.qinetiq.com/en-au/our-company/our-history",
@@ -115,16 +115,16 @@
       "status": "documented",
       "sources": [
         {
-          "url": "https://www.theregister.com/2006/02/10/qinetiq/",
-          "publisher": "The Register",
-          "title": "Qinetiq kicks off £1.3bn IPO",
-          "date": "2006-02-10"
-        },
-        {
           "url": "https://www.nao.org.uk/reports/the-privatisation-of-qinetiq/",
           "publisher": "National Audit Office",
           "title": "The privatisation of QinetiQ (HC 52, 2007-08)",
           "date": "2007-11-23"
+        },
+        {
+          "url": "https://www.theregister.com/2006/02/10/qinetiq/",
+          "publisher": "The Register",
+          "title": "Qinetiq kicks off £1.3bn IPO",
+          "date": "2006-02-10"
         }
       ]
     },
@@ -142,25 +142,8 @@
       ]
     }
   ],
-  "claims": [
-    {
-      "claim": "Taxpayers were short-changed in the privatisation of QinetiQ while Carlyle and managers profited.",
-      "assessment": "partly-true",
-      "explanation": "The NAO found the process well managed and the 2006 flotation well executed, but believed the taxpayer could have received more money from the deal; it found the top ten managers' shares were worth £107 million at flotation from an investment of just over £500,000. The Register reported Carlyle made about £300m profit on a £42m investment, a press figure rather than an audited one.",
-      "sources": [
-        {
-          "url": "https://www.nao.org.uk/reports/the-privatisation-of-qinetiq/",
-          "publisher": "National Audit Office",
-          "title": "The privatisation of QinetiQ (HC 52, 2007-08)",
-          "date": "2007-11-23"
-        },
-        {
-          "url": "https://www.theregister.com/2007/11/23/qinetiq_stealth_piracy_pillow_bite_deal/",
-          "publisher": "The Register",
-          "title": "Watchdog raps MoD over Qinetiq sell-off bonanza",
-          "date": "2007-11-23"
-        }
-      ]
-    }
+  "claims": [],
+  "openQuestions": [
+    "Removed in audit (the cited pages do not contain the claim's figures and names; missing: 300, 42): The NAO found the process well managed and the 2006 flotation well executed, but believed the taxpayer could have received more money from the deal; it found the top ten managers' shares were worth £107 million at flotation from an investment of just over £500,000. The Register reported Carlyle made"
   ]
 }

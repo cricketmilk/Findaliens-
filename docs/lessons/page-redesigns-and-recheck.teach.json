@@ -1,0 +1,14 @@
+{
+ "_why": "Fed to Goblin Brain with `node \"C:/Goblin Brain/scripts/teach.mjs\" \"C:/Find Aliens/docs/lessons/page-redesigns-and-recheck.teach.json\"` from C:\\xixoxis. lessons -> per-file rules Kenoma reads with the file; lore -> facts brain_lore serves.",
+ "app": "findaliens",
+ "model": "claude-opus-5-5",
+ "tier": "strong",
+ "lessons": ["C:/Find Aliens/docs/lessons/page-redesigns-and-recheck.md"],
+ "lore": [
+  { "subject": "research/glm-recheck.mjs", "fact": "research/glm-recheck.mjs re-checks a page's facts with z-ai/glm-5.3-flash: the model proposes URLs, quotes and a rewrite, and a quote counts only if research-audit's quoteFound finds 90% of it on the fetched page; --retry redoes failures, --rejudge re-runs only the checks.", "confidence": 0.95 },
+  { "subject": "research/glm-recheck.mjs", "fact": "A figure that a source itself mistypes (Al Jazeera's '$4.3m' for Binance's $4.3 billion) passes glm-recheck's mechanical checks, so a person reads every rewrite and primary sources go in --hints.", "confidence": 0.95 },
+  { "subject": "public/web.html", "fact": "The Web (public/web.html) is a fixed radial layout: spokes are the seven investigations, a name's ring is how many investigations name it, its angle the circular mean of their spokes; documented connections are the silk threads.", "confidence": 0.95 },
+  { "subject": "public/js/blind-pool.js", "fact": "Blind Pool's pictures are pixel art drawn by public/js/blind-pool.js into low-resolution buffers: #pool (the pool and its caustics), #flowart (a dollar's route by pipe), #leases (the 75-year lease clocks) and #feud (Urbit's pyramid).", "confidence": 0.95 },
+  { "subject": "research/blind-pool-sources.json", "fact": "Blind Pool's re-checked facts and their verified quotes are kept in research/blind-pool-sources.json; items the October 2026 re-check could not confirm are marked 'not re-checked' on the page.", "confidence": 0.9 }
+ ]
+}

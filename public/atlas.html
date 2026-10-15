@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<title>Atlas · The Cornfield Gazette</title>
+<meta name="description" content="The compiled public atlas: every dossier in the Gazette's five investigations, 1636–2026, with its mechanism, five-stage extraction loop, closed-loop ratchet, adversarial audit and primary citations.">
+<meta name="theme-color" content="#050505">
+<meta property="og:title" content="The Atlas — The Cornfield Gazette">
+<meta property="og:description" content="Every dossier 1636–2026: the ten machinery classes, the eight cross-generational lineages, and all 108 entries with their extraction loops, ratchets, decoy audits and primary citations.">
+<meta property="og:image" content="https://findaliens.net/img/atlas-og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="atlas-ui.css">
+<style>
+  :root {
+    /* THE CLEARING's ink (deep-state.html): paper white, black-and-white
+       stipple, and the glitch colours that leak through the corn. */
+    --ink: #050505; --well: #0e0e0e; --panel: #141414;
+    --line: #262626; --line-2: #333333;
+    --cyan: #00f0ff; --cyan-dim: #0b8b9b;
+    --magenta: #ff2fd0; --blue: #2b3bff;
+    --red: #ff3355;
+    --paper: #ffffff; --read: #d9d9d9;
+    --text: #e6e6e6; --dim: #a3a3a3; --mute: #767676;
+    --pixel: "Press Start 2P", "VT323", monospace;
+    --term: "VT323", "IBM Plex Mono", monospace;
+    --mono: "IBM Plex Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+    --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --wrap: 1280px; --gutter: 32px;
+  }
+  canvas { display: block; image-rendering: pixelated; image-rendering: crisp-edges; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    background-color: var(--ink);
+    color: var(--text);
+    font-family: var(--sans);
+    font-size: 16px;
+    line-height: 1.6;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--cyan); text-decoration: none; }
+  a:hover { color: var(--paper); }
+  button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
+  :focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
+  .wrap { max-width: var(--wrap); margin: 0 auto; padding: 0 var(--gutter); }
+  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+  /* ---- masthead (house pattern, crash-conduits.html) ---- */
+  .masthead { border-bottom: 1px solid var(--line); }
+  .masthead .wrap { display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 64px; }
+  .back { font-family: var(--mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--dim); white-space: nowrap; }
+  .back b { font-family: var(--pixel); font-size: 9px; font-weight: 400; letter-spacing: 0.02em; color: var(--cyan); margin-left: 4px; }
+  .sections { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 4px 22px; font-family: var(--mono); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; }
+  .sections a { color: var(--mute); padding: 4px 0; border-bottom: 1px solid transparent; }
+  .sections a:hover { color: var(--read); }
+  .sections a[aria-current] { color: var(--paper); border-bottom-color: var(--paper); }
+
+  /* ---- the ticker: the running register under the masthead ---- */
+  .ticker-bar { overflow: hidden; border-bottom: 1px solid var(--line); background: var(--well); }
+  .ticker-inner { display: flex; width: max-content; padding: 7px 0; white-space: nowrap; animation: ticker 64s linear infinite; }
+  .ticker-inner span { font-family: var(--mono); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--mute); padding: 0 30px; }
+  .ticker-inner span b { font-weight: 500; color: var(--cyan-dim); }
+  @keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  @media (prefers-reduced-motion: reduce) { .ticker-inner { animation: none; } }
+
+  /* ---- the picture, framed like a print (THE CLEARING's, deep-state.html) ---- */
+  .print { border: 2px solid var(--paper); padding: 8px; background: var(--paper); box-shadow: 8px 8px 0 #1c1c1c; margin: 26px 0 10px; }
+  .print canvas { width: 100%; cursor: crosshair; }
+  .print-cap { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-top: 8px; padding-top: 8px;
+    border-top: 2px solid #111; font-family: var(--mono); font-size: 11px; line-height: 1.5; letter-spacing: 0.06em;
+    text-transform: uppercase; color: #111; }
+  .atlas-head { text-align: center; margin: 30px 0 8px; }
+
+  /* ---- page title ---- */
+  .kicker { font-family: var(--mono); font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--cyan-dim); }
+  h1.page-title { margin-top: 18px; font-family: var(--pixel); font-weight: 400; font-size: clamp(26px, 4.2vw, 54px); line-height: 1.14; letter-spacing: 0.02em;
+    color: var(--paper); text-shadow: -3px 0 var(--cyan), 3px 0 var(--magenta); }
+  .page-dek { margin: 22px auto 0; max-width: 40em; font-size: 18px; line-height: 1.55; color: var(--read); }
+
+  /* ---- sections ---- */
+  section.sec { padding: 34px 0 6px; }
+  .sec-head { border-top: 1px solid var(--line); padding-top: 22px; margin-bottom: 12px; }
+  .sec-head h2 { font-family: var(--pixel); font-weight: 400; font-size: 14px; letter-spacing: 0.05em; color: var(--paper); }
+  .sec-head h2 .num { color: var(--cyan-dim); margin-right: 0.8em; }
+  .sec-head p { margin-top: 8px; max-width: 52em; font-size: 14px; color: var(--dim); }
+
+  /* ---- dossier index + inspector two-column ---- */
+  .atlas-grid { display: grid; grid-template-columns: minmax(320px, 1fr) minmax(420px, 1.25fr); gap: 40px; align-items: start; padding-bottom: 60px; }
+  @media (max-width: 1080px) { .atlas-grid { grid-template-columns: minmax(0, 1fr); } }
+
+  /* ---- the index: a compact era-grouped ledger, not a 7,739px wall ---- */
+  .atlas-index-container { margin-top: 14px; max-height: 720px; overflow-y: auto;
+    border-top: 1px solid var(--line); scrollbar-width: thin; scrollbar-color: var(--line-2) transparent; }
+  .atlas-index-container::-webkit-scrollbar { width: 8px; }
+  .atlas-index-container::-webkit-scrollbar-thumb { background: var(--line-2); }
+  @media (max-width: 1080px) { .atlas-index-container { max-height: 480px; } }
+  .atlas-index { list-style: none; }
+  .atlas-index li { border-bottom: 1px solid var(--line); }
+  .atlas-index a { display: grid; grid-template-columns: 46px 128px minmax(0, 1fr) 32px; gap: 12px; align-items: baseline; padding: 7px 12px; font-size: 13px; line-height: 1.4; color: var(--read); }
+  .atlas-index a:hover { background: var(--panel); }
+  .idx-era { position: sticky; top: 0; z-index: 1; background: var(--well); border-bottom: 1px solid var(--line-2); padding: 8px 12px;
+    font-family: var(--mono); font-size: 10.5px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--cyan-dim); }
+  .idx-year { font-family: var(--term); font-size: 18px; font-weight: 400; color: var(--paper); }
+  .idx-code { font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.04em; color: var(--mute); }
+  .idx-title { color: var(--read); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .idx-tier { font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em; color: var(--dim); text-align: right; }
+  .idx-tier[data-tier="TIER_1_STATUTE_COURT"] { color: var(--cyan); }
+  .idx-tier[data-tier="TIER_2_INQUIRY"] { color: var(--magenta); }
+  .idx-tier[data-tier="TIER_3_PRIMARY_LEDGER"] { color: var(--read); }
+  .idx-tier[data-tier="TIER_4_CONTEMPORARY_PRESS"] { color: var(--mute); }
+  .atlas-index a[aria-current] .idx-title { color: var(--cyan); }
+  .atlas-index a[aria-current] .idx-year { color: var(--paper); }
+
+  /* ---- the dossier inspector column ---- */
+  .atlas-dossier-col { position: sticky; top: 16px; }
+  @media (max-width: 1080px) { .atlas-dossier-col { position: static; } }
+  .atlas-dossier-frame { position: relative; border: 1.5px solid var(--line-2); background: var(--panel); padding: 24px 26px 28px;
+    box-shadow: 8px 8px 0 #1c1c1c; }
+  .atlas-dossier-body { margin-top: 10px; font-size: 14px; }
+  .atlas-dossier-body .dek { font-size: 14px; color: var(--mute); }
+
+  /* ---- the clearing's skin for the mounted atlas-ui regions (page-local) ----
+     atlas-ui.css's --paper is a dark PANEL colour with a light-house-name collision;
+     scope the panel value to the mount containers, then dress the shared classes
+     in the print's ink. */
+  [data-atlas-mechanisms], [data-atlas-lineages], .atlas-dossier-frame { --paper: #141414; }
+  [data-atlas-mechanisms] { display: flex; flex-wrap: wrap; gap: 8px; }
+  .atlas-mech-pill { background: var(--panel); border: 1.5px solid #444; color: var(--read);
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase;
+    transition: border-color 0.15s, color 0.15s, background 0.15s; }
+  .atlas-mech-pill:hover, .atlas-mech-pill[aria-pressed="true"] {
+    /* literals — --paper is scoped dark on the mounts above, so the invert
+       must not reach for var(--paper) or var(--ink) here */
+    border-color: #ffffff; background: #ffffff; color: #050505; }
+  .atlas-lineage-card { background: var(--panel); border: 1.5px solid #333; border-top: 2px solid #ffffff;
+    box-shadow: 5px 5px 0 #1c1c1c; }
+  .atlas-lineage-title { font-family: var(--pixel); font-size: 11px; line-height: 1.7; color: #ffffff; }
+  .atlas-ratchet-box { background: var(--panel); border: 1px solid #333; border-left: 3px solid var(--magenta); }
+  .stamp { border-color: var(--red); color: var(--red); }
+
+  /* ---- file:// fallback note ---- */
+  .atlas-file-note { margin: 6px 0 60px; padding: 16px 20px; border: 1.5px solid var(--line-2); background: rgba(0, 240, 255, 0.05); font-size: 14px; color: var(--read); }
+  .atlas-file-note b { color: var(--cyan); font-family: var(--pixel); font-size: 10px; letter-spacing: 0.06em; }
+  .atlas-file-note code { font-family: var(--mono); font-size: 12.5px; color: var(--cyan); background: var(--well); padding: 1px 6px; border: 1px solid var(--line); }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="back" href="index.html">← The Cornfield Gazette<b>◆</b></a>
+    <nav class="sections" aria-label="Gazette investigations">
+      <a href="crash-conduits.html">Crash Conduits</a>
+      <a href="deep-state.html">Deep State Dossiers</a>
+      <a href="carbon-class.html">Carbon Class</a>
+      <a href="transhumanism.html">Post-Human Resources</a>
+      <a href="consent.html">Manufacturing Consent</a>
+      <a href="atlas.html" aria-current="page">Atlas</a>
+    </nav>
+  </div>
+</header>
+
+<div class="ticker-bar" aria-hidden="true">
+  <div class="ticker-inner" id="atlas-ticker">
+    <span><b>THE CORNFIELD GAZETTE</b>&nbsp;·&nbsp;THE 330-YEAR EXTRACTION LEDGER</span>
+  </div>
+</div>
+
+<main class="wrap">
+  <figure class="print">
+    <canvas id="atlas-hero" role="img" aria-label="Pixel art: a clearing in a black-and-white cornfield, the eye in a black pyramid weeping ink over planted rows, coins of glitch colour in the corn, and a road of corrupted money running in. The eye's spiral iris turns to watch the reader."></canvas>
+    <figcaption class="print-cap"><span>THE LEDGER · 108 ENTRIES</span><span>it counts the years · tap the road</span></figcaption>
+  </figure>
+
+  <header class="atlas-head" aria-labelledby="atlas-title">
+    <p class="kicker">The Cornfield Gazette — the compiled atlas</p>
+    <h1 class="page-title" id="atlas-title">THE&nbsp;ATLAS</h1>
+    <p class="page-dek">Every dossier in the Gazette's investigations on one page — the ten machinery classes, the eight cross-generational lineages, and all 108 entries with their five-stage extraction loops, closed-loop ratchets, decoy-versus-ledger audits and primary citations.</p>
+  </header>
+
+  <section class="sec" aria-labelledby="mech-title">
+    <div class="sec-head">
+      <h2 id="mech-title"><span class="num">01</span>The mechanisms</h2>
+      <p>Ten machinery classes run through every investigation. Pick one to open its first dossier.</p>
+    </div>
+    <div data-atlas-mechanisms></div>
+  </section>
+
+  <section class="sec" aria-labelledby="lineage-title">
+    <div class="sec-head">
+      <h2 id="lineage-title"><span class="num">02</span>Cross-generational lineages</h2>
+      <p>How each era's operator inherited the last one's framework — Peabody → Morgan, Mersey → Tesla/PROMIS → Palantir, Dulles and the rest.</p>
+    </div>
+    <div data-atlas-lineages></div>
+  </section>
+
+  <div class="atlas-grid">
+    <section class="sec" aria-labelledby="idx-title">
+      <div class="sec-head">
+        <h2 id="idx-title"><span class="num">03</span>The dossier index</h2>
+        <p>Every entry by year. Click one to open it in the dossier inspector.</p>
+      </div>
+      <div class="atlas-index-container">
+        <ol id="atlas-index-list" class="atlas-index" aria-label="All dossiers by year"></ol>
+      </div>
+    </section>
+
+    <section class="sec atlas-dossier-col" aria-labelledby="dossier-title">
+      <div class="sec-head">
+        <h2 id="dossier-title"><span class="num">04</span>The dossier inspector</h2>
+        <p>Pick an entry — its extraction loop, ratchet, decoy audit and citations open here.</p>
+      </div>
+      <aside class="atlas-dossier-frame" aria-label="Dossier">
+        <div class="atlas-dossier-body">
+          <p class="dek">Loading the compiled atlas…</p>
+        </div>
+      </aside>
+    </section>
+  </div>
+</main>
+
+<p id="atlas-file-note" class="atlas-file-note wrap" hidden>
+  <b>THE ATLAS NEEDS AN HTTP SERVER.</b><br>
+  This page is open over <code>file://</code> (the in-app view), where the browser blocks
+  the module script and the fetch of <code>/data/atlas-public.json</code> that the atlas
+  rides on — so the data cannot load. Serve the <code>public/</code> folder locally
+  (from the repo root: <code>npx wrangler dev</code>, or any static server rooted at
+  <code>public/</code>) and open <code>atlas.html</code> over <code>http://127.0.0.1</code>,
+  or read it live at <code>https://findaliens.net/atlas.html</code>.
+</p>
+
+<script>
+  // Classic script: file:// fallback. Modules and fetch are both blocked on file://,
+  // so if the mounted lineage grid never appears, reveal the server note above.
+  window.addEventListener('load', () => setTimeout(() => {
+    if (!document.querySelector('.atlas-lineage-grid')) {
+      const note = document.getElementById('atlas-file-note');
+      if (note) note.hidden = false;
+    }
+  }, 2000));
+</script>
+
+<script src="js/atlas-art.js" defer></script>
+
+<script type="module">
+  // Dossier index: the one piece atlas-ui.js does not render — a flat, sortable
+  // list of every public dossier. LEAD_ANOMALY entries are excluded (they stay
+  // out of the public DOM). Links ride the same #code hash routing the mounted
+  // atlas-ui already listens to, so no mount logic is duplicated here.
+  try {
+    const res = await fetch('/data/atlas-public.json');
+    if (!res.ok) throw new Error('atlas fetch failed');
+    const atlas = await res.json();
+    const list = document.getElementById('atlas-index-list');
+    const dossiers = (atlas.dossiers || []).filter((d) => d && d.code && d.tier !== 'LEAD_ANOMALY')
+      .sort((a, b) => (a.yearStart || 0) - (b.yearStart || 0));
+    const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    const TIER_SHORT = { TIER_1_STATUTE_COURT: 'T1', TIER_2_INQUIRY: 'T2', TIER_3_PRIMARY_LEDGER: 'T3', TIER_4_CONTEMPORARY_PRESS: 'T4' };
+    if (list) {
+      let era = null;
+      list.innerHTML = dossiers.map((d) => {
+        let out = '';
+        if (d.eraId && d.eraId !== era) {
+          era = d.eraId;
+          out += `<li class="idx-era" aria-hidden="true">${esc(String(d.eraId).replace(/_/g, ' '))}</li>`;
+        }
+        out += `
+        <li>
+          <a href="#${esc(d.code)}">
+            <b class="idx-year">${esc(d.yearStart ?? d.eraId)}</b>
+            <span class="idx-code">${esc(d.code)}</span>
+            <span class="idx-title">${esc(d.title)}</span>
+            <span class="idx-tier" data-tier="${esc(d.tier)}">${esc(TIER_SHORT[d.tier] || '')}</span>
+          </a>
+        </li>`;
+        return out;
+      }).join('');
+      const ticker = document.getElementById('atlas-ticker');
+      if (ticker) {
+        const seen = new Set();
+        const items = ['<span><b>THE CORNFIELD GAZETTE</b>&nbsp;·&nbsp;THE 330-YEAR EXTRACTION LEDGER</span>'];
+        for (const d of dossiers) {
+          const k = d.eraId || '—';
+          if (seen.has(k)) continue;
+          seen.add(k);
+          items.push(`<span><b>${esc(d.yearStart ?? '')}</b>&nbsp; ${esc(d.code)}</span>`);
+        }
+        ticker.innerHTML = items.join('') + items.join('');
+      }
+      // The index is sorted by year, so its first row is not atlas-ui's default dossier.
+      // Sync the hash so the inspector and the marked row agree from the first paint.
+      if (!window.location.hash && dossiers[0]?.code) window.location.hash = '#' + dossiers[0].code;
+      const markActive = () => {
+        const code = window.location.hash.replace(/^#/, '') || dossiers[0]?.code;
+        list.querySelectorAll('a').forEach((a) => {
+          if (a.getAttribute('href') === `#${code}`) a.setAttribute('aria-current', 'true');
+          else a.removeAttribute('aria-current');
+        });
+      };
+      window.addEventListener('hashchange', markActive);
+      markActive();
+    }
+  } catch { /* file:// or a dead server: the classic fallback note explains. */ }
+</script>
+
+<script type="module" src="js/atlas-ui.js"></script>
+
+</body>
+</html>

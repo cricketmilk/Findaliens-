@@ -1,0 +1,70 @@
+{
+  "code": "CC-2002-LOGCAP",
+  "eraId": "ERA-09-2001",
+  "yearStart": 2002,
+  "yearEnd": 2002,
+  "title": "Cheney's Old Firm Wins Cost-Plus War Logistics: Halliburton's LOGCAP III Rakes Fees From Iraq Occupancy",
+  "primaryTab": "crash-conduits",
+  "secondaryTabs": [
+    "deep-state"
+  ],
+  "mechanism": "COST_PLUS_RECONSTRUCTION",
+  "tier": "TIER_3_PRIMARY_LEDGER",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "Brown & Root",
+    "Halliburton",
+    "KBR",
+    "Dick Cheney",
+    "US Army",
+    "U.S. Congress",
+    "Government Accountability Office",
+    "Department of Defense Inspector General"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "Before any fog settled, Brown & Root — the Halliburton subsidiary later operating as KBR — stood to profit directly from a pre-awarded contingency logistics contract. LOGCAP III, won in December 2001 to cover Kuwait, Afghanistan and Iraq, guaranteed revenue on a cost-plus award-fee basis: every dollar of cost incurred generated fee on top. The revenue asset was war itself, locked in before the wars fully began.",
+    "stage2_structuralCompromise": "The structural arrangement was LOGCAP itself, launched by the US Army in 1985 to pre-award contingency logistics so military operations would not require new wartime procurement. By 2001 the incumbent from LOGCAP I (1992, Balkans support) was the same firm, giving it an entrenched position no competitor could dislodge once troops deployed. Dick Cheney had been Halliburton CEO from 1995 to 2000, and his deferred compensation from the company continued into his vice presidency — publicly documented, and publicly attacked as a conflict of interest, the framing this node keeps exact.",
+    "stage3_informationFog": "Cost-plus award-fee structure meant the public could not see what a 'fair' price for fuel or a meal was; every cost was reimbursed, so scrutiny had to come after the fact through GAO and DoD-IG reports and congressional hearings. KBR fuel-import pricing (2003–04) and dining-facility cost claims (2004–05) only surfaced through those investigations, not through contract oversight at the point of spending.",
+    "stage4_monopolyWindfall": "The windfall accrued to KBR/Halliburton as sole incumbent across Kuwait, Afghanistan and Iraq simultaneously, with fees scaled to costs rather than outcomes. Congressional investigators later scrutinised the fee structure itself. The positions — and the liabilities, including the electrocution deaths of US soldiers in KBR-built showers documented by DoD-IG in 2009 — stayed with the contractor while the fees flowed the other way.",
+    "stage5_merseyWhitewash": "The arrangement was normalized as procurement policy: LOGCAP was a 1985 program, the award was lawful, and the conflict-of-interest attack on Cheney was public and openly litigated rather than hidden. GAO and DoD-IG findings on fuel pricing, dining facilities, and shower electrocutions were published, but the cost-plus structure that generated them was never dismantled — KBR separated as KBR Inc in 2007 and carried the model forward."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "LOGCAP, the US Army's 1985 contingency logistics program, and Brown & Root's incumbent position from LOGCAP I (1992, Balkans).",
+    "newFrameworkCreated": "LOGCAP III (December 2001) as a rolling cost-plus award-fee occupation-logistics contract spanning Kuwait, Afghanistan and Iraq.",
+    "closedLoopRecirculation": "Fees proportional to costs meant higher wartime spending directly enlarged contractor revenue, incentivizing cost expansion rather than restraint, and insulating the incumbent across successive task orders.",
+    "enablesNextDossier": "The entrenched cost-plus occupation-logistics position establishes the template of fee-on-spend war contracting that later reconstruction and contingency dossiers inherit."
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "The pop-culture version is 'Cheney got rich off the Iraq War' — a personal-corruption story about deferred compensation and one man's greed.",
+    "whyDecoyFails": "That frame erases the documented mechanism: the deferred compensation was publicly documented and publicly attacked, but the extraction ran through LOGCAP III's cost-plus award-fee structure — a pre-awarded 1985 program that guaranteed fees on every cost incurred, regardless of who held office.",
+    "documentedLedger": "The US Army launched LOGCAP in 1985 to pre-award contingency logistics contracts. Brown & Root — later a Halliburton subsidiary operating as KBR, separated as KBR Inc in 2007 — won LOGCAP I in 1992 for Balkans support and LOGCAP III in December 2001, covering Kuwait, Afghanistan and Iraq, on a cost-plus award-fee basis. Dick Cheney, Halliburton CEO from 1995 to 2000, retained deferred compensation into his vice presidency — publicly documented and publicly attacked as a conflict of interest. GAO and DoD-IG reports and congressional hearings documented KBR fuel-import pricing (2003–04), dining-facility cost claims (2004–05), and the electrocution deaths of US soldiers in KBR-built showers (DoD-IG 2009)."
+  },
+  "citationIds": [
+    "CIT-2002-WD-Q656165",
+    "CIT-2002-WD-Q596499",
+    "CIT-2002-WD-Q31999888"
+  ],
+  "citations": [
+    {
+      "id": "CIT-2002-WD-Q656165",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Corporate Lineage Entity: Halliburton (Q656165)",
+      "url": "https://www.wikidata.org/entity/Q656165",
+      "quoteOrFact": "Halliburton"
+    },
+    {
+      "id": "CIT-2002-WD-Q596499",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Corporate Lineage Entity: KBR, Inc. (Q596499)",
+      "url": "https://www.wikidata.org/entity/Q596499",
+      "quoteOrFact": "KBR, Inc."
+    },
+    {
+      "id": "CIT-2002-WD-Q31999888",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Corporate Lineage Entity: Brown & Root (Q31999888)",
+      "url": "https://www.wikidata.org/entity/Q31999888",
+      "quoteOrFact": "Brown & Root"
+    }
+  ]
+}

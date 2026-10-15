@@ -69,18 +69,6 @@
   },
   "facts": [
     {
-      "claim": "FEC filings show that AH Capital Management, Andreessen Horowitz's management company, contributed $67 million to the Fairshake super PAC between October 2023 and November 2024, attributed in memo entries equally to Marc Andreessen and Ben Horowitz. It contributed a further $23.8 million in December 2025.",
-      "status": "documented",
-      "sources": [
-        {
-          "url": "https://www.fec.gov/data/receipts/?committee_id=C00835959&contributor_name=AH+Capital+Management",
-          "publisher": "Federal Election Commission",
-          "title": "Individual contributions to Fairshake from AH Capital Management",
-          "date": ""
-        }
-      ]
-    },
-    {
       "claim": "On October 16, 2023, Marc Andreessen published 'The Techno-Optimist Manifesto' on a16z's website. It states that 'any deceleration of AI will cost lives' and that 'Deaths that were preventable by the AI that was prevented from existing is a form of murder.' It also names ideas including 'existential risk', 'trust and safety', 'tech ethics' and the 'Precautionary Principle' as 'enemies', and states 'Our enemy is deceleration'.",
       "status": "words",
       "sources": [
@@ -326,16 +314,16 @@
       "date": "2015-05-06; 2016-04-12",
       "sources": [
         {
-          "url": "https://fortune.com/2015/05/06/affirm-raises-275-million",
-          "publisher": "Fortune",
-          "title": "PayPal co-founder raises $275 million to reinvent credit",
-          "date": "2015-05-06"
-        },
-        {
           "url": "https://fortune.com/2016/04/12/affirm-funding",
           "publisher": "Fortune",
           "title": "PayPal Co-Founder’s Affirm Raises $100 Million To Reinvent Credit",
           "date": "2016-04-12"
+        },
+        {
+          "url": "https://fortune.com/2015/05/06/affirm-raises-275-million",
+          "publisher": "Fortune",
+          "title": "PayPal co-founder raises $275 million to reinvent credit",
+          "date": "2015-05-06"
         }
       ]
     },
@@ -409,6 +397,7 @@
     "Leading the Future's combined figure with affiliates ($125 million in 2025 per NOTUS) includes commitments and its 501(c)(4); only the super PAC's own FEC receipts were verified.",
     "Full-year 2025 lobbying by outside firms (Miller Strategies, BGR and others) was not totalled; only in-house LD-2 expenses were summed.",
     "Reports of a 2026 Anduril round led by a16z with a large Founders Fund check came only from aggregators and were not verified.",
-    "The CJR-cited Andreessen text to Musk is from secondary coverage of Delaware Chancery exhibits, not the exhibit itself."
+    "The CJR-cited Andreessen text to Musk is from secondary coverage of Delaware Chancery exhibits, not the exhibit itself.",
+    "Removed in audit (the cited pages do not contain the claim's figures and names; missing: 67, 23.8, capital management, andreessen horowitz, fairshake, marc andreessen, ben horowitz): FEC filings show that AH Capital Management, Andreessen Horowitz's management company, contributed $67 million to the Fairshake super PAC between October 2023 and November 2024, attributed in memo entries equally to Marc Andreessen and Ben Horowitz. It contributed a further $23.8 million in December"
   ]
 }

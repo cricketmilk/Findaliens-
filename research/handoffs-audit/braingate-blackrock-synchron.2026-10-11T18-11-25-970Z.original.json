@@ -1,0 +1,203 @@
+{
+  "id": "braingate-blackrock-synchron",
+  "title": "BrainGate and the Utah array → Cyberkinetics → Blackrock (and Synchron's public funding)",
+  "pattern": "spinout",
+  "country": "United States",
+  "summary": "The Utah Electrode Array was invented at the University of Utah in 1989 and developed with NIH grants; BrainGate grew from federally funded brain-computer interface research at Brown University. Utah spin-off Bionic Technologies was sold to Brown spin-off Cyberkinetics in 2002, which ran the first BrainGate trial from 2004. When Cyberkinetics withdrew, its device manufacturing went to the new company Blackrock Microsystems in 2008, and an academic consortium led by Massachusetts General Hospital took over the trials under a 2009 FDA exemption, funded by federal and philanthropic sources. Blackrock has since received NIH small-business grants. Synchron, a separate company whose Stentrode came from University of Melbourne research, received DARPA/DoD support, and NIH funds a Stentrode trial at Carnegie Mellon. Public BCI research did not end.",
+  "public": {
+    "name": "Federally funded brain-computer interface research at the University of Utah (Utah Electrode Array) and Brown University (BrainGate)",
+    "funder": "National Institutes of Health, Department of Veterans Affairs, Department of Defense",
+    "start": {
+      "date": "1989",
+      "precision": "year"
+    },
+    "end": {
+      "date": "2008",
+      "precision": "year",
+      "kind": "ongoing"
+    },
+    "sources": [
+      {
+        "url": "https://www.braingate.org/about-braingate/",
+        "publisher": "BrainGate (academic consortium)",
+        "title": "About BrainGate: Administrative History of BrainGate"
+      },
+      {
+        "url": "https://usinfo.org/wf-archive/2004/041229/epf315.htm",
+        "publisher": "U.S. Department of State, Washington File (University of Utah press release)",
+        "title": "NIH Awards $6.7 Million for Bionic War on Disabilities",
+        "date": "2004-12-29"
+      }
+    ]
+  },
+  "private": {
+    "name": "Blackrock Microsystems (now Blackrock Neurotech)",
+    "founded": {
+      "date": "2008",
+      "precision": "year"
+    },
+    "founders": [
+      "Florian Solzbacher",
+      "Marcus Gerhardt"
+    ],
+    "funders": [
+      "NIH small-business (SBIR/STTR) grants",
+      "FDA grant"
+    ],
+    "outcome": "Took over Cyberkinetics' microelectrode arrays (including the Utah array) and acquisition systems in 2008; makes the NeuroPort system and supplies implantable arrays used in BCI research",
+    "sources": [
+      {
+        "url": "https://blackrockneurotech.com/our-story/",
+        "publisher": "Blackrock Neurotech",
+        "title": "Our Story"
+      },
+      {
+        "url": "https://www.neurotechreports.com/pages/cyberkinetics-braingate-winddown.html",
+        "publisher": "Neurotech Business Report",
+        "title": "Researchers and Entrepreneurs Move to Revive BrainGate",
+        "date": "2010-07-31"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "ip-license",
+      "claim": "BrainGate's official history says Cyberkinetics was formed in 2002 as a Brown University spin-off to translate preclinical Brown research into the first BrainGate device. A University of Utah release says Normann's spin-off Bionic Technologies, built on the Utah array, was sold to Cyberkinetics in 2002 and the array was incorporated into BrainGate. License terms were not found.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.braingate.org/about-braingate/",
+          "publisher": "BrainGate (academic consortium)",
+          "title": "About BrainGate: Administrative History of BrainGate"
+        },
+        {
+          "url": "https://usinfo.org/wf-archive/2004/041229/epf315.htm",
+          "publisher": "U.S. Department of State, Washington File (University of Utah press release)",
+          "title": "NIH Awards $6.7 Million for Bionic War on Disabilities",
+          "date": "2004-12-29"
+        }
+      ]
+    },
+    {
+      "type": "ip-license",
+      "claim": "In 2008 Cyberkinetics spun off its device manufacturing, including the Utah array, to new owner Blackrock Microsystems (per BrainGate and Blackrock). This passed the publicly funded technology on through a private sale, not a government transfer; the BrainGate patents went separately to Jeffrey Stibel in 2009.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.braingate.org/about-braingate/",
+          "publisher": "BrainGate (academic consortium)",
+          "title": "About BrainGate: Administrative History of BrainGate"
+        },
+        {
+          "url": "https://blackrockneurotech.com/our-story/",
+          "publisher": "Blackrock Neurotech",
+          "title": "Our Story"
+        },
+        {
+          "url": "https://www.neurotechreports.com/pages/cyberkinetics-braingate-winddown.html",
+          "publisher": "Neurotech Business Report",
+          "title": "Researchers and Entrepreneurs Move to Revive BrainGate",
+          "date": "2010-07-31"
+        }
+      ]
+    },
+    {
+      "type": "personnel",
+      "claim": "Blackrock co-founder Florian Solzbacher was a University of Utah researcher named in 2004 as a recipient, with Utah array inventor Richard Normann, of a $2.8 million NIH grant to develop the array technology.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://usinfo.org/wf-archive/2004/041229/epf315.htm",
+          "publisher": "U.S. Department of State, Washington File (University of Utah press release)",
+          "title": "NIH Awards $6.7 Million for Bionic War on Disabilities",
+          "date": "2004-12-29"
+        },
+        {
+          "url": "https://blackrockneurotech.com/our-story/",
+          "publisher": "Blackrock Neurotech",
+          "title": "Our Story"
+        }
+      ]
+    },
+    {
+      "type": "funding",
+      "claim": "NIH RePORTER shows NIH small-business grants to Bionic Technologies continuing under Cyberkinetics after 2002 (e.g., R44DC004261), and 25 NIH and FDA awards to Blackrock Microsystems from FY2010 to FY2024 totaling about $10 million, including 'Revolutionizing Utah Array using Nanotechnology.'",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://reporter.nih.gov/project-details/6681823",
+          "publisher": "NIH RePORTER",
+          "title": "Multielectrode Arrays for Olfactory Investigations (6R44DC004261-04, Cyberkinetics)"
+        },
+        {
+          "url": "https://reporter.nih.gov/project-details/8523542",
+          "publisher": "NIH RePORTER",
+          "title": "Revolutionizing Utah Array using Nanotechnology to Enhance Efficacy and Longevity (1R43NS082036-01A1, Blackrock Microsystems)"
+        }
+      ]
+    },
+    {
+      "type": "funding",
+      "claim": "Synchron (not part of the BrainGate chain): Global Venturing reported in 2017 that its Stentrode was developed partly with grants from DoD, DARPA and the Office of Naval Research Global, and that DoD including DARPA took part in its $10 million Series A. NIH (NINDS) funds a Carnegie Mellon early-feasibility trial of the Stentrode BCI (UG3/UH3 NS120191, from 2021).",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://globalventuring.com/university/darpa-helps-implant-10m-in-synchron/",
+          "publisher": "Global Venturing",
+          "title": "Darpa helps implant $10m in Synchron",
+          "date": "2017-04-06"
+        },
+        {
+          "url": "https://reporter.nih.gov/project-details/10123759",
+          "publisher": "NIH RePORTER",
+          "title": "SWITCH trial: Early feasibility study of Stentrode BCI for augmentative communication (1UG3NS120191-01)"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Public brain-computer interface research was handed over to private companies.",
+      "assessment": "partly-true",
+      "explanation": "Federally funded university technology did pass into private spin-offs (Bionic Technologies, Cyberkinetics) and then to Blackrock. But the flow also ran the other way: when Cyberkinetics withdrew, an academic consortium took over the BrainGate trials in 2009, and BrainGate says its research is now funded entirely by federal and philanthropic sources.",
+      "sources": [
+        {
+          "url": "https://www.braingate.org/about-braingate/",
+          "publisher": "BrainGate (academic consortium)",
+          "title": "About BrainGate: Administrative History of BrainGate"
+        }
+      ]
+    },
+    {
+      "claim": "Taxpayers funded the development of the Utah array used in BrainGate.",
+      "assessment": "true",
+      "explanation": "The University of Utah announced four NIH grants worth about $6.7 million in 2004 to advance the Utah Electrode Array, and BrainGate states the underlying research was funded almost entirely by NIH, the VA and the Department of Defense. Blackrock has also received NIH small-business grants for array development.",
+      "sources": [
+        {
+          "url": "https://usinfo.org/wf-archive/2004/041229/epf315.htm",
+          "publisher": "U.S. Department of State, Washington File (University of Utah press release)",
+          "title": "NIH Awards $6.7 Million for Bionic War on Disabilities",
+          "date": "2004-12-29"
+        },
+        {
+          "url": "https://www.braingate.org/about-braingate/",
+          "publisher": "BrainGate (academic consortium)",
+          "title": "About BrainGate: Administrative History of BrainGate"
+        }
+      ]
+    },
+    {
+      "claim": "Synchron is a DARPA creation.",
+      "assessment": "partly-true",
+      "explanation": "Reporting says DARPA and other DoD grants helped fund the Stentrode's development and that DoD, including DARPA, took part in Synchron's 2017 Series A. But the technology came from University of Melbourne research, also funded by Australia's NHMRC, and the round was led by a private investor group.",
+      "sources": [
+        {
+          "url": "https://globalventuring.com/university/darpa-helps-implant-10m-in-synchron/",
+          "publisher": "Global Venturing",
+          "title": "Darpa helps implant $10m in Synchron",
+          "date": "2017-04-06"
+        }
+      ]
+    }
+  ]
+}

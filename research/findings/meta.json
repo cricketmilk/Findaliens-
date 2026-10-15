@@ -49,16 +49,16 @@
           "date": "2020-12-09"
         },
         {
-          "url": "https://ag.ny.gov/press-release/2020/attorney-general-james-leads-multistate-lawsuit-seeking-end-facebooks-illegal",
-          "publisher": "New York State Attorney General",
-          "title": "Attorney General James Leads Multistate Lawsuit Seeking to End Facebook's Illegal Monopoly",
-          "date": "2020-12-09"
-        },
-        {
           "url": "https://siliconangle.com/2025/11/18/judge-rules-whatsapp-instagram-acquisitions-arent-monopolization/",
           "publisher": "SiliconANGLE",
           "title": "Judge rules WhatsApp, Instagram acquisitions aren't monopolization",
           "date": "2025-11-18"
+        },
+        {
+          "url": "https://ag.ny.gov/press-release/2020/attorney-general-james-leads-multistate-lawsuit-seeking-end-facebooks-illegal",
+          "publisher": "New York State Attorney General",
+          "title": "Attorney General James Leads Multistate Lawsuit Seeking to End Facebook's Illegal Monopoly",
+          "date": "2020-12-09"
         }
       ]
     },
@@ -89,12 +89,6 @@
       "status": "documented",
       "sources": [
         {
-          "url": "https://foundersfund.com/team/peter-thiel/",
-          "publisher": "Founders Fund",
-          "title": "Peter Thiel (team biography)",
-          "date": ""
-        },
-        {
           "url": "https://foxbusiness.com/markets/peter-thiel-sells-most-of-remaining-facebook-stake",
           "publisher": "Reuters (via Fox Business)",
           "title": "Peter Thiel sells most of remaining Facebook stake",
@@ -105,30 +99,18 @@
           "publisher": "Meta Platforms",
           "title": "Peter Thiel to Retire from Meta Board of Directors at 2022 Annual Shareholder Meeting",
           "date": "2022-02-07"
-        }
-      ],
-      "reverse": true
-    },
-    {
-      "to": "reid-hoffman",
-      "relation": "invested in",
-      "claim": "Reid Hoffman invested in Facebook's first outside funding round in 2004. TechCrunch reported his stake as $37,500 at a $5 million valuation. Hoffman has said he declined to lead the round because of his other social-networking roles and suggested that Peter Thiel lead it instead.",
-      "status": "reported",
-      "sources": [
-        {
-          "url": "https://achievement.org/video/reid-hoffman-31/",
-          "publisher": "Academy of Achievement",
-          "title": "Reid Hoffman interview (on the 2004 Facebook round)",
-          "date": ""
         },
         {
-          "url": "https://techcrunch.com/2012/09/10/reid-hoffman-invested-37500-into-facebook-at-a-5m-valuation/",
-          "publisher": "TechCrunch",
-          "title": "Reid Hoffman Invested $37,500 Into Facebook At A $5M Valuation",
-          "date": "2012-09-10"
+          "url": "https://foundersfund.com/team/peter-thiel/",
+          "publisher": "Founders Fund",
+          "title": "Peter Thiel (team biography)",
+          "date": ""
         }
       ],
       "reverse": true
     }
+  ],
+  "openQuestions": [
+    "Removed in audit (the cited pages do not contain the claim's figures and names; missing: 2004, peter thiel): Reid Hoffman invested in Facebook's first outside funding round in 2004. TechCrunch reported his stake as $37,500 at a $5 million valuation. Hoffman has said he declined to lead the round because of his other social-networking roles and suggested that Peter Thiel lead it instead."
   ]
 }

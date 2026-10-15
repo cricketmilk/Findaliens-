@@ -1,0 +1,875 @@
+{
+  "entity": "carbon-class-impacts",
+  "name": "Carbon Class: impacts",
+  "researchedAt": "2026-10-11",
+  "facts": [
+    {
+      "claim": "Chancel finds that in 2019 the top 10% of the world population emitted 48% of global emissions, while the bottom 50% emitted 12%.",
+      "quote": "In my benchmark estimates, I find that the bottom 50% of the world population emitted 12% of global emissions in 2019, whereas the top 10% emitted 48% of the total.",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41893-022-00955-z",
+          "publisher": "Nature Sustainability (Lucas Chancel)",
+          "title": "Global carbon inequality over 1990–2019"
+        }
+      ],
+      "id": "chancel-2019-top10-bottom50",
+      "section": "shares",
+      "big": "48%",
+      "date": "2022-09-29",
+      "notes": "Greenhouse-gas basket in CO2e. Emissions include household consumption, government consumption and investment emissions (capital formation attributed to owners). Other datasets give different splits: Oxfam/SEI consumption-only CO2 gives the bottom 50% 8% (2019 and 2023); IPCC AR6 gives 13–15%. Only the abstract is open; the article body is paywalled."
+    },
+    {
+      "claim": "The World Inequality Report finds that one hundredth of the world population (77 million people) emits about 50% more than the entire bottom half of the population (3.8 billion people).",
+      "quote": "close to half of all emissions are due to one tenth of the global population, and just one hundredth of the world population (77 million individuals) emits about 50% more than the entire bottom half of the population (3.8 billion individuals).",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://wir2022.wid.world/chapter-6/",
+          "publisher": "World Inequality Lab",
+          "title": "World Inequality Report 2022, Chapter 6: Global carbon inequality"
+        }
+      ],
+      "id": "wir2022-top1-vs-bottom-half",
+      "section": "shares",
+      "big": "77M > 3.8B",
+      "date": "2021 (World Inequality Report 2022; web chapter dated 20 Oct 2021, updated 14 Apr 2022)",
+      "notes": "Data year 2019 (the chapter's per-capita tables are labelled 2019). CO2e including investment emissions. Same chapter: top 1% = 16.8% of the total, bottom 50% = 12%."
+    },
+    {
+      "claim": "Oxfam's analysis of SEI data finds the poorest 50% emitted 8% of global consumption-based emissions in 2023, while the richest 10% emitted 48%.",
+      "quote": "The poorest 50% emitted 8% of global consumption-based emissions in 2023, while the richest 10% emitted 48% of emissions.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://oxfamilibrary.openrepository.com/bitstreams/988b978c-3868-41c7-b17a-6e334a824693/download",
+          "publisher": "Oxfam International (with SEI data)",
+          "title": "Climate Plunder: How a powerful few are locking the world into disaster"
+        }
+      ],
+      "id": "oxfam-2023-top10-48-bottom50-8",
+      "section": "shares",
+      "big": "48% vs 8%",
+      "date": "2025-10-29",
+      "notes": "Oxfam analysis of Stockholm Environment Institute (SEI) data: consumption-based CO2 only (territorial plus imported, minus exported; excludes non-CO2 gases and land use), allocated within countries by income using WID distributions. The 2025 analysis raised the assumed per-person emissions ceiling from 300 to 3,000 tCO2 (methodology note), which raises top-group figures relative to earlier Oxfam editions. The report's Table 1 gives 2023 shares of 8.4% (poorest 50%), 44% (middle 40%), 48% (richest 10%), 17% (richest 1%) and 6.5% (richest 0.1%). This is the most recent Oxfam/SEI edition."
+    },
+    {
+      "claim": "Oxfam estimates that in 2019 the richest 1% were responsible for 16% of global carbon emissions, the same as the poorest 66% of humanity (5 billion people).",
+      "quote": "In 2019, the richest 1% were responsible for 16% of global carbon emissions, the same as the emissions of the poorest 66% of humanity (5 billion people).",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://oxfamilibrary.openrepository.com/bitstreams/0c48ba57-b91f-4268-9095-663587b2e674/download",
+          "publisher": "Oxfam International (with SEI data)",
+          "title": "Climate Equality: A planet for the 99%"
+        }
+      ],
+      "id": "oxfam-2019-top1-equals-poorest-66",
+      "section": "shares",
+      "big": "1% = 66%",
+      "date": "2023-11-20",
+      "notes": "Consumption-based CO2 (SEI model). The 2025 update (Climate Plunder) puts the richest 1% at 17% in 2023."
+    },
+    {
+      "claim": "The IPCC assesses that the 10% of households with the highest per capita emissions contribute 34–45% of global consumption-based household GHG emissions, while the bottom 50% contribute 13–15%.",
+      "quote": "The 10% of households with the highest per capita emissions contribute 34–45% of global consumption-based household GHG emissions, while the bottom 50% contribute 13–15%.",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf",
+          "publisher": "IPCC",
+          "title": "Climate Change 2023: Synthesis Report, Summary for Policymakers (statement A.1.5)"
+        }
+      ],
+      "id": "ipcc-household-top10-34-45",
+      "section": "shares",
+      "big": "34–45%",
+      "date": "2023-03",
+      "notes": "Assessed literature range, high confidence. Covers household consumption only (no investment emissions), which is one reason the top-10% share is lower than in Chancel or Oxfam. Same statement appears in the WGIII SPM (B.3.4, 2022), which adds the middle 40% at 40–53%."
+    },
+    {
+      "claim": "The latest World Inequality Report finds the global top 1% account for 41% of greenhouse gas emissions under ownership-based accounting, compared with 15% under consumption-based accounting; the bottom 50%'s share drops from 10% to 3%.",
+      "quote": "The top 1% accounts for 41% of all greenhouse gas emissions under ownership-based accounting, compared with 15% under the consumption approach. Conversely, the contribution of the bottom 50% drops from 10% to 3% ( Figure 6.2 ).",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://wir2026.wid.world/insight/climate-a-capital-problem/",
+          "publisher": "World Inequality Lab",
+          "title": "World Inequality Report 2026, Chapter 6: Climate, a Capital Problem"
+        }
+      ],
+      "id": "wir2026-ownership-top1-41",
+      "section": "shares",
+      "big": "41%",
+      "date": "December 2025 (World Inequality Report 2026; launch date from press coverage, not printed on the page)",
+      "notes": "Ownership-based accounting assigns firms' production emissions to their owners in proportion to equity (Chancel and Rehm 2025a) and excludes direct household and government emissions; the chapter says it covers nearly 60% of global emissions. Data year not stated in the passage."
+    },
+    {
+      "claim": "Chancel finds that, contrary to 1990, 63% of global inequality in individual emissions is now due to gaps between low and high emitters within countries rather than between countries.",
+      "quote": "Contrary to the situation in 1990, 63% of the global inequality in individual emissions is now due to a gap between low and high emitters within countries rather than between countries.",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41893-022-00955-z",
+          "publisher": "Nature Sustainability (Lucas Chancel)",
+          "title": "Global carbon inequality over 1990–2019"
+        }
+      ],
+      "id": "within-country-63pct",
+      "section": "shares",
+      "big": "63%",
+      "date": "2022-09-29",
+      "notes": "\"Now\" = 2019. WIR 2022 adds that in 1990, 63% of global carbon inequality was due to differences between countries, i.e. the split has reversed."
+    },
+    {
+      "claim": "Oxfam finds that since 1990 the share of emissions of the richest 1% has increased by 13% and that of the richest 0.1% by 32%, while the share of the poorest 50% has fallen by 3%.",
+      "quote": "Since 1990, the share of emissions of the richest 1% has increased by 13% and the share of the richest 0.1% has increased by 32%, while the share of the poorest 50% has fallen by 3%.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://oxfamilibrary.openrepository.com/bitstreams/988b978c-3868-41c7-b17a-6e334a824693/download",
+          "publisher": "Oxfam International (with SEI data)",
+          "title": "Climate Plunder: How a powerful few are locking the world into disaster"
+        }
+      ],
+      "id": "oxfam-share-change-since-1990",
+      "section": "shares",
+      "big": "+32%",
+      "date": "2025-10-29",
+      "notes": "Period 1990–2023. These are RELATIVE changes in share (e.g. richest 0.1% from 5% in 1990 to 6.5% in 2023 per the report's Table 1; the methodology note rounds 2023 to 7%), not percentage-point changes.Oxfam analysis of Stockholm Environment Institute (SEI) data: consumption-based CO2 only (territorial plus imported, minus exported; excludes non-CO2 gases and land use), allocated within countries by income using WID distributions. The 2025 analysis raised the assumed per-person emissions ceiling from 300 to 3,000 tCO2 (methodology note), which raises top-group figures relative to earlier Oxfam editions."
+    },
+    {
+      "claim": "Oxfam estimates that since the Paris Agreement in 2015, the richest 1% have used more than twice as much of the remaining carbon budget as the poorest half of humanity combined.",
+      "quote": "Since the Paris Agreement in 2015, the richest 1% of people in the world have burned through more than twice as much of the remaining carbon budget than the poorest half of humanity combined.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://oxfamilibrary.openrepository.com/bitstreams/988b978c-3868-41c7-b17a-6e334a824693/download",
+          "publisher": "Oxfam International (with SEI data)",
+          "title": "Climate Plunder: How a powerful few are locking the world into disaster"
+        }
+      ],
+      "id": "oxfam-since-paris-twice-poorest-half",
+      "section": "shares",
+      "big": "2x",
+      "date": "2025-10-29",
+      "notes": "Carbon budget = 1.5°C (50% chance). Note the report's prose attributes a 1,149 GtCO2 budget to the IPCC's 1990 report, but its methodology note shows Oxfam computed that figure (130 Gt remaining from 2025 + 1990–2024 emissions). Oxfam analysis of Stockholm Environment Institute (SEI) data: consumption-based CO2 only (territorial plus imported, minus exported; excludes non-CO2 gases and land use), allocated within countries by income using WID distributions. The 2025 analysis raised the assumed per-person emissions ceiling from 300 to 3,000 tCO2 (methodology note), which raises top-group figures relative to earlier Oxfam editions."
+    },
+    {
+      "claim": "Oxfam's analysis of SEI data puts per capita consumption emissions in 2023 at 298 tonnes of CO2 a year for the top 0.1%, against 0.8 tonnes for the bottom 50%.",
+      "quote": "Figure 5. Per capita emissions, 2023. Source: Oxfam analysis of Stockholm Environment Institute data. See Methodology Note. Note: Bar graph showing annual per capita emissions by income group: the bottom 50% emit 0.8 tonnes of CO2 per person per year, while the top 0.1% emit 298 tonnes of CO2 per person per year.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://oxfamilibrary.openrepository.com/bitstreams/988b978c-3868-41c7-b17a-6e334a824693/download",
+          "publisher": "Oxfam International (with SEI data)",
+          "title": "Climate Plunder: How a powerful few are locking the world into disaster"
+        }
+      ],
+      "id": "oxfam-percap-2023-298-vs-0.8",
+      "section": "percap",
+      "big": "298 t vs 0.8 t",
+      "date": "2025-10-29",
+      "notes": "Same chart/table: poorest 10% 0.2 t, middle 40% 5.1 t, richest 10% 22 t, richest 1% 75 t. Oxfam analysis of Stockholm Environment Institute (SEI) data: consumption-based CO2 only (territorial plus imported, minus exported; excludes non-CO2 gases and land use), allocated within countries by income using WID distributions. The 2025 analysis raised the assumed per-person emissions ceiling from 300 to 3,000 tCO2 (methodology note), which raises top-group figures relative to earlier Oxfam editions."
+    },
+    {
+      "claim": "Oxfam calculates that a person in the world's richest 0.1% emits over 800kg of CO2 every day, while someone in the poorest 50% emits an average of 2kg per day.",
+      "quote": "A person from the world’s richest 0.1% emits over 800kg of CO2 every day. Even the strongest person on earth could not lift this much. In contrast, someone from the poorest 50% of the world emits an average of just 2kg of CO2 per day, which even a small child could lift.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://oxfamilibrary.openrepository.com/bitstreams/988b978c-3868-41c7-b17a-6e334a824693/download",
+          "publisher": "Oxfam International (with SEI data)",
+          "title": "Climate Plunder: How a powerful few are locking the world into disaster"
+        }
+      ],
+      "id": "oxfam-800kg-a-day",
+      "section": "percap",
+      "big": "800kg / day",
+      "date": "2025-10-29",
+      "notes": "Daily rate derived from the 2023 annual per-capita figures (298 t and 0.8 t). Oxfam analysis of Stockholm Environment Institute (SEI) data: consumption-based CO2 only (territorial plus imported, minus exported; excludes non-CO2 gases and land use), allocated within countries by income using WID distributions. The 2025 analysis raised the assumed per-person emissions ceiling from 300 to 3,000 tCO2 (methodology note), which raises top-group figures relative to earlier Oxfam editions."
+    },
+    {
+      "claim": "The World Inequality Report finds the global bottom 50% emit on average 1.6 tonnes per person per year, the middle 40% 6.6 tonnes, the top 10% 31 tonnes and the top 1% 110 tonnes.",
+      "quote": "The global bottom 50% emit on average 1.6 tonnes per annum and contribute 12% of the total. The middle 40% emit 6.6 tonnes on average, making up 40.4% of the total. The top 10% emit 31 tonnes (47.6% of the total). The top 1% emits 110 tonnes (16.8% of the total).",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://wir2022.wid.world/chapter-6/",
+          "publisher": "World Inequality Lab",
+          "title": "World Inequality Report 2022, Chapter 6: Global carbon inequality"
+        }
+      ],
+      "id": "wir2022-percap-by-group",
+      "section": "percap",
+      "big": "110 t vs 1.6 t",
+      "date": "2021 (World Inequality Report 2022; web chapter dated 20 Oct 2021, updated 14 Apr 2022)",
+      "notes": "Data year 2019. Tonnes of CO2e per person per year, including emissions from investments; the report uses \"CO2\" for CO2e."
+    },
+    {
+      "claim": "The World Inequality Report estimates the global top 0.1% emit 467 tonnes and the top 0.01% 2,530 tonnes per person per year, from both consumption and investments.",
+      "quote": "Our estimates show that emissions can reach extreme levels: the global top 1% of individuals emits around 110 tonnes on average, the top 0.1% 467 tonnes, the top 0.01% 2,530 tonnes per person per annum. These emissions stem both from individual consumption and from the investments they make.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://wir2022.wid.world/chapter-6/",
+          "publisher": "World Inequality Lab",
+          "title": "World Inequality Report 2022, Chapter 6: Global carbon inequality (Box 6.2)"
+        }
+      ],
+      "id": "wir2022-very-top-percap",
+      "section": "percap",
+      "big": "2,530 t",
+      "date": "2021 (World Inequality Report 2022)",
+      "notes": "Data year 2019; CO2e. The report calls its approach conservative (it tends to underestimate top footprints)."
+    },
+    {
+      "claim": "The World Inequality Report calculates that sharing the remaining budget equally between now and 2050 gives 1.1 tonne of CO2 per person per year for the 1.5°C limit (about six times less than the current global average) and 3.4 tonnes for the 2°C limit.",
+      "quote": "This implies a sustainable per capita budget, compatible with the +2°C temperature limit, of 3.4 tonnes per person per annum between now and 2050. This value is about half of the current global average. The per capita sustainable budget compatible with the 1.5°C limit is 1.1 tonne of CO2 per annum per person, i.e. about six times less than the current global average",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://wir2022.wid.world/chapter-6/",
+          "publisher": "World Inequality Lab",
+          "title": "World Inequality Report 2022, Chapter 6: Global carbon inequality"
+        }
+      ],
+      "id": "wir2022-1.5C-budget-1.1t",
+      "section": "percap",
+      "big": "1.1 t",
+      "date": "2021 (World Inequality Report 2022)",
+      "notes": "Based on the IPCC AR6 remaining budgets (300 GtCO2 for 1.5°C at 83%). Oxfam (2025) uses a different benchmark: 2.1 tCO2 per person in 2030, from UNEP Emissions Gap 2024. The two benchmarks are not interchangeable."
+    },
+    {
+      "claim": "The World Inequality Report finds that since 1990 per capita emissions of the global bottom 50% grew 32%, the middle 40% 4%, the top 1% 26% and the top 0.001% more than 110%, while some percentiles saw reductions of between five and 25%.",
+      "quote": "Since 1990, average global emissions per capita grew by about 7% (and overall emissions grew by 58%). The per capita emissions of the bottom 50% grew faster than the average (32%), while those of the middle 40% as a whole grew more slowly than the average (4%), and some percentiles of the distribution actually saw a reduction in their emissions of between five and 25%. Per capita emissions of the top 1% emissions grew by 26% and top 0.001% emissions by more than 110%.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://wir2022.wid.world/chapter-6/",
+          "publisher": "World Inequality Lab",
+          "title": "World Inequality Report 2022, Chapter 6: Global carbon inequality"
+        }
+      ],
+      "id": "wir2022-percap-growth-since-1990",
+      "section": "percap",
+      "big": "+110%",
+      "date": "2021 (World Inequality Report 2022)",
+      "notes": "Period 1990–2019. In percentage terms the bottom 50% grew faster than the top 1%, from a very low base; the groups that cut emissions were largely lower and middle income groups in rich countries (same chapter)."
+    },
+    {
+      "claim": "Chancel finds that since 1990 the bottom 50% of the world population has been responsible for only 16% of all emissions growth, whereas the top 1% has been responsible for 23%.",
+      "quote": "Since 1990, the bottom 50% of the world population has been responsible for only 16% of all emissions growth, whereas the top 1% has been responsible for 23% of the total.",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41893-022-00955-z",
+          "publisher": "Nature Sustainability (Lucas Chancel)",
+          "title": "Global carbon inequality over 1990–2019"
+        }
+      ],
+      "id": "chancel-growth-share-top1-23",
+      "section": "percap",
+      "big": "23% vs 16%",
+      "date": "2022-09-29",
+      "notes": "Period 1990–2019. DISAGREEMENT: the World Inequality Report 2022 chapter, built on the same author's data, says the top 1% \"was responsible for 21% of emissions growth\" (bottom half 16%). The peer-reviewed 23% is used here."
+    },
+    {
+      "claim": "Oxfam finds the per capita emissions of the richest 0.1% increased by 92 tonnes between 1990 and 2023, compared with a 0.1 tonne increase for the poorest half of humanity.",
+      "quote": "The per capita emissions of the richest 0.1% have increased by 92 tonnes between 1990 and 2023, compared to just a 0.1-tonne increase for the poorest half of humanity.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://oxfamilibrary.openrepository.com/bitstreams/988b978c-3868-41c7-b17a-6e334a824693/download",
+          "publisher": "Oxfam International (with SEI data)",
+          "title": "Climate Plunder: How a powerful few are locking the world into disaster"
+        }
+      ],
+      "id": "oxfam-top01-plus-92t",
+      "section": "percap",
+      "big": "+92 t",
+      "date": "2025-10-29",
+      "notes": "Methodology note: richest 0.1% from 206 t (1990) to 298 t (2023); poorest 50% from 0.7 t to 0.8 t. Oxfam analysis of Stockholm Environment Institute (SEI) data: consumption-based CO2 only (territorial plus imported, minus exported; excludes non-CO2 gases and land use), allocated within countries by income using WID distributions. The 2025 analysis raised the assumed per-person emissions ceiling from 300 to 3,000 tCO2 (methodology note), which raises top-group figures relative to earlier Oxfam editions."
+    },
+    {
+      "claim": "Oxfam projects that to stay within the 1.5°C threshold the richest 1% and 0.1% would need to cut their per capita emissions by 97% and 99%, respectively, by 2030.",
+      "quote": "To stay within the 1.5°C maximum threshold, Oxfam projects that the richest 1% and 0.1% would need to cut their per capita emissions by 97% and 99%, respectively, by 2030.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://oxfamilibrary.openrepository.com/bitstreams/988b978c-3868-41c7-b17a-6e334a824693/download",
+          "publisher": "Oxfam International (with SEI data)",
+          "title": "Climate Plunder: How a powerful few are locking the world into disaster"
+        }
+      ],
+      "id": "oxfam-cuts-97-99",
+      "section": "percap",
+      "big": "-97%",
+      "date": "2025-10-29",
+      "notes": "Benchmark: 2.1 tCO2 per person per year in 2030 (UNEP Emissions Gap 2024 1.5°C level divided by projected population; methodology note). The same note says the poorest 50% could increase emissions 63% and stay within it."
+    },
+    {
+      "claim": "The latest World Inequality Report states that the consumption-based carbon footprint of the top 10% in the United States is more than forty times that of the top 10% in Nigeria and over 500 times that of Nigeria's bottom 10%.",
+      "quote": "At the international level, the average carbon footprint of the top 10% income group in the United States—measured by emissions linked to their consumption—is more than forty times greater than that of the top 10% in Nigeria, and over 500 times greater than that of Nigeria’s bottom 10%.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://wir2026.wid.world/insight/climate-a-capital-problem/",
+          "publisher": "World Inequality Lab",
+          "title": "World Inequality Report 2026, Chapter 6: Climate, a Capital Problem"
+        }
+      ],
+      "id": "wir2026-us-top10-vs-nigeria",
+      "section": "percap",
+      "big": "500x",
+      "date": "December 2025 (World Inequality Report 2026; launch date from press coverage, not printed on the page)",
+      "notes": "Consumption-based. Data year not stated in the passage. The same chapter cites Bruckner et al. (2022): a global top-1% earner emits around seventy-five times more per year than someone in the bottom 50%."
+    },
+    {
+      "claim": "Schöngart et al. find that two-thirds of warming over 1990–2020 is attributable to the wealthiest 10% and one-fifth to the wealthiest 1%, meaning individual contributions 6.5 and 20 times the average per capita contribution.",
+      "quote": "We link emissions inequality over the period 1990–2020 to regional climate extremes using an emulator-based framework. We find that two-thirds (one-fifth) of warming is attributable to the wealthiest 10% (1%), meaning that individual contributions are 6.5 (20) times the average per capita contribution.",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41558-025-02325-x",
+          "publisher": "Nature Climate Change (Schöngart, Nicholls, Hoffmann, Pelz & Schleussner)",
+          "title": "High-income groups disproportionately contribute to climate extremes worldwide"
+        }
+      ],
+      "id": "schongart-two-thirds-warming",
+      "section": "warming",
+      "big": "2/3",
+      "date": "2025-05-07",
+      "notes": "Wealth groups are global; emissions (from Chancel 2022) include consumption and investments. The paper gives the top 0.1% a factor of 77 in Results and 76 in Discussion (internal inconsistency). The authors state they do not assign direct responsibility or define fair emissions."
+    },
+    {
+      "claim": "Schöngart et al. estimate global mean temperature in 2020 was 0.61 °C higher than in 1990; about 65% (0.40 °C) of this increase is attributable to the global top 10%, 20% (0.12 °C) to the top 1% and 8% (0.05 °C) to the top 0.1%.",
+      "quote": "GMT in 2020 is 0.61 °C (0.45–0.83 °C) higher than in 1990. We found that about 65% (0.40 °C (0.27–0.56 °C)) of this increase is attributable to the global top 10%, 20% (0.12 °C (0.09–0.17 °C)) to the top 1% and 8% (0.05 °C (0.03–0.07 °C)) to the top 0.1%",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41558-025-02325-x",
+          "publisher": "Nature Climate Change (Schöngart, Nicholls, Hoffmann, Pelz & Schleussner)",
+          "title": "High-income groups disproportionately contribute to climate extremes worldwide"
+        }
+      ],
+      "id": "schongart-degrees-attributed",
+      "section": "warming",
+      "big": "0.40 °C",
+      "date": "2025-05-07",
+      "notes": "Medians with 5th–95th ranges in brackets. Warming shares are about one-fifth higher than the groups' shares of GHG basket emissions, because of methane and other non-CO2 gases."
+    },
+    {
+      "claim": "Schöngart et al. calculate that if the whole world had emitted like the top 10%, 1% or 0.1%, warming since 1990 would have been 2.9 °C, 6.7 °C or 12.2 °C; emitting like the bottom 50% would have caused minimal additional warming.",
+      "quote": "If the entire world population had emitted like the bottom 50%, there would have been minimal additional warming since 1990. However, if the entire world population had emitted like the top 10%, 1% or 0.1%, the GMT increase since 1990 would have been 2.9 °C, 6.7 °C or 12.2 °C.",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41558-025-02325-x",
+          "publisher": "Nature Climate Change (Schöngart, Nicholls, Hoffmann, Pelz & Schleussner)",
+          "title": "High-income groups disproportionately contribute to climate extremes worldwide"
+        }
+      ],
+      "id": "schongart-if-everyone",
+      "section": "warming",
+      "big": "6.7 °C",
+      "date": "2025-05-07",
+      "notes": "Hypothetical rescaling of global emissions to each group's per capita profile, for illustration; compare actual 0.61 °C over 1990–2020."
+    },
+    {
+      "claim": "Schöngart et al. find the top 10% (1%) contributed 7 (26) times the average to increases in monthly 1-in-100-year heat extremes globally, and 6 (17) times more to Amazon droughts.",
+      "quote": "For extreme events, the top 10% (1%) contributed 7 (26) times the average to increases in monthly 1-in-100-year heat extremes globally and 6 (17) times more to Amazon droughts.",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41558-025-02325-x",
+          "publisher": "Nature Climate Change (Schöngart, Nicholls, Hoffmann, Pelz & Schleussner)",
+          "title": "High-income groups disproportionately contribute to climate extremes worldwide"
+        }
+      ],
+      "id": "schongart-heat-drought-extremes",
+      "section": "warming",
+      "big": "26x",
+      "date": "2025-05-07",
+      "notes": "Extremes defined as months at least as hot (dry) as the hottest (driest) 1% of months in a pre-industrial climate; 1990–2020 emissions."
+    },
+    {
+      "claim": "Schöngart et al. find the contributions of the wealthiest 10% within the United States and China led to a two- to threefold increase in heat extremes across vulnerable regions such as the Amazon, Southeast Asia and southeast Africa.",
+      "quote": "the contributions of the wealthiest 10% within the United States and China led to a two- to threefold increase in heat extremes across vulnerable regions such as the Amazon, Southeast Asia and southeast Africa.",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41558-025-02325-x",
+          "publisher": "Nature Climate Change (Schöngart, Nicholls, Hoffmann, Pelz & Schleussner)",
+          "title": "High-income groups disproportionately contribute to climate extremes worldwide"
+        }
+      ],
+      "id": "schongart-us-china-transboundary",
+      "section": "warming",
+      "big": "2–3x",
+      "date": "2025-05-07",
+      "notes": "From the Discussion. The paper also notes that regions contributing most to top-10% emissions (e.g. EU27, US) face smaller increases in extremes than regions that contributed very little."
+    },
+    {
+      "claim": "Schöngart et al. find the top 1% in the United States contribute 53 times their equal share to global warming, and the US top 0.1% 190 times.",
+      "quote": "This relative inequality increases with increasing wealth: the top 1% in the United States (EU27) contribute 53 (21) times their equal shares, and the top 0.1% contribute 190 (64) times their equal shares.",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41558-025-02325-x",
+          "publisher": "Nature Climate Change (Schöngart, Nicholls, Hoffmann, Pelz & Schleussner)",
+          "title": "High-income groups disproportionately contribute to climate extremes worldwide"
+        }
+      ],
+      "id": "schongart-us-top1-53x",
+      "section": "warming",
+      "big": "190x",
+      "date": "2025-05-07",
+      "notes": "EU27 figures in brackets: 21 (top 1%) and 64 (top 0.1%). \"Equal share\" = the warming a group would cause if its per capita contribution matched the global average."
+    },
+    {
+      "claim": "Bressler estimates that adding 4,434 metric tons of CO2 in 2020, equivalent to the lifetime emissions of 3.5 average Americans, causes one excess death globally in expectation between 2020 and 2100.",
+      "quote": "This implies that adding 4,434 metric tons of carbon dioxide in 2020—equivalent to the lifetime emissions of 3.5 average Americans—causes one excess death globally in expectation between 2020-2100.",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41467-021-24487-w",
+          "publisher": "Nature Communications (R. Daniel Bressler)",
+          "title": "The mortality cost of carbon"
+        }
+      ],
+      "id": "bressler-mortality-cost-of-carbon",
+      "section": "impacts",
+      "big": "4,434 t = 1 death",
+      "date": "2021-07-29",
+      "notes": "Central estimate, DICE baseline scenario (4.1 °C by 2100); 2.26 × 10^-4 deaths per tonne, range -1.71 × 10^-4 to 6.78 × 10^-4. The same paper: 4,434 t equals the lifetime emissions of 146.2 Nigerians; 83 million cumulative excess deaths 2020–2100 in the baseline. Temperature-related mortality only; all lives valued equally. Oxfam's death estimates are built on this metric."
+    },
+    {
+      "claim": "Oxfam estimates that four years (2015–2019) of consumption emissions by the world's richest 1% are enough to cause 1.5 million excess deaths between 2020 and 2120.",
+      "quote": "Just four years (2015–2019) of the consumption emissions of the world’s super-rich 1% are enough to cause 1.5 million excess deaths between 2020 and 2120.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://oxfamilibrary.openrepository.com/bitstreams/a0554458-7498-4caf-ac4d-c46207c5deb1/download",
+          "publisher": "Oxfam International",
+          "title": "Carbon Inequality Kills: Why curbing the excessive emissions of an elite few can create a sustainable planet for all"
+        }
+      ],
+      "id": "oxfam-top1-1.5m-heat-deaths",
+      "section": "impacts",
+      "big": "1.5M",
+      "date": "2024-10-28",
+      "notes": "Heat-related deaths only, \"even in an optimistic climate change scenario\", using country-level mortality cost of carbon provided by D. Bressler; assumes rising incomes fund adaptation. DISAGREEMENT within Oxfam: Climate Equality (2023) methodology gave 1.3 million deaths (2020–2100) from 2019 emissions alone and 5.2 million from 2015–2019 emissions using the global MCC; Climate Plunder (2025) repeats \"1.3 million\" but cites this 2024 report."
+    },
+    {
+      "claim": "Oxfam finds that of the 1.5 million excess deaths caused by the emissions of the richest 1%, 1.18 million, or 78%, will occur in low- and lower-middle-income countries.",
+      "quote": "For example, of the 1.5 million excess deaths caused by the emissions of the world’s super-rich 1%, Oxfam’s analysis finds that 1.18 million or 78% of excess deaths due to heat will occur in low- and lower-middle-income countries, while the number of deaths in high-income countries will not be as severe.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://oxfamilibrary.openrepository.com/bitstreams/a0554458-7498-4caf-ac4d-c46207c5deb1/download",
+          "publisher": "Oxfam International",
+          "title": "Carbon Inequality Kills: Why curbing the excessive emissions of an elite few can create a sustainable planet for all"
+        }
+      ],
+      "id": "oxfam-78pct-deaths-in-poorer-countries",
+      "section": "impacts",
+      "big": "78%",
+      "date": "2024-10-28",
+      "notes": "Same model as the 1.5 million estimate (2015–2019 consumption emissions of the top 1%, deaths 2020–2120)."
+    },
+    {
+      "claim": "Oxfam estimates that the richest 1%'s consumption emissions over 1990–2030 will cause low- and lower-middle-income countries $44 trillion of economic damage between 1990 and 2050, while high-income countries accrue gains of $5.8 trillion.",
+      "quote": "The outsized consumption emissions of the world’s super-rich 1% over four decades (1990–2030) alone are causing significant net economic damage, with low- and lower-middle-income countries being most affected. Between 1990 and 2050, low- and lower-middle-income countries will accrue economic damage totalling $44 trillion. By contrast, high-income countries are benefiting economically, accruing economic gains totalling $5.8 trillion (Figure 5).",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://oxfamilibrary.openrepository.com/bitstreams/a0554458-7498-4caf-ac4d-c46207c5deb1/download",
+          "publisher": "Oxfam International",
+          "title": "Carbon Inequality Kills: Why curbing the excessive emissions of an elite few can create a sustainable planet for all"
+        }
+      ],
+      "id": "oxfam-44tn-damage-poorer-countries",
+      "section": "impacts",
+      "big": "$44tn",
+      "date": "2024-10-28",
+      "notes": "International dollars (PPP), temperature-driven output changes only (Box 3). Climate Plunder (2025) restates this as \"US$44 trillion\", a unit mislabel. Same report: low- and lower-middle-income countries lose about 2.5% of cumulative GDP 1990–2050; Southern Asia 3.0%, South-East Asia and sub-Saharan Africa 2.4%."
+    },
+    {
+      "claim": "Oxfam estimates that three decades (1990–2019) of consumption emissions by the richest 1% have caused crop losses that could have fed 14.5 million people a year between 1990 and 2023.",
+      "quote": "Three decades of the consumption emissions (1990–2019) of the world’s super-rich 1% have already caused crop losses that could have provided enough calories to feed 14.5 million people a year between 1990 and 2023 (for maize, wheat and soy combined).",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://oxfamilibrary.openrepository.com/bitstreams/a0554458-7498-4caf-ac4d-c46207c5deb1/download",
+          "publisher": "Oxfam International",
+          "title": "Carbon Inequality Kills: Why curbing the excessive emissions of an elite few can create a sustainable planet for all"
+        }
+      ],
+      "id": "oxfam-crop-losses-14.5m",
+      "section": "impacts",
+      "big": "14.5M fed",
+      "date": "2024-10-28",
+      "notes": "Temperature-driven yield changes in maize, wheat and soy only (calculations by C. Lesk). Same report: 48.2 million people a year for the richest 10%; rising to 46 million a year (2023–2050) for four decades of top-1% emissions."
+    },
+    {
+      "claim": "Callahan & Mankin estimate cumulative 1992–2013 losses from human-caused extreme heat of $16 trillion to $50 trillion; losses equal 8% of GDP per capita per year in the poorest income decile of regions, against 3.5% in the richest.",
+      "quote": "Cumulative 1992–2013 losses from anthropogenic extreme heat likely fall between $16 trillion and $50 trillion globally. Losses amount to 8% of Gross Domestic Product per capita per year for regions in the bottom income decile, but only 3.5% for regions in the top income decile.",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9616493/",
+          "publisher": "Science Advances (Christopher W. Callahan & Justin S. Mankin)",
+          "title": "Globally unequal effect of extreme heat on economic growth"
+        }
+      ],
+      "id": "callahan-heat-losses-8-vs-3.5",
+      "section": "impacts",
+      "big": "8% vs 3.5%",
+      "date": "2022-10-28 (corrected 2023-10-27)",
+      "notes": "CORRECTED FIGURES: an erratum (Sci. Adv. 9, eadl1082, 2023) changed the abstract from $5–29.3 trillion and 6.7% vs 1.5% to $16–50 trillion and 8% vs 3.5%. Anyone quoting the original numbers is using superseded values. Publisher page science.org returned HTTP 403; quote taken from the PMC copy, which carries the corrected text."
+    },
+    {
+      "claim": "Diffenbaugh & Burke estimate that anthropogenic warming reduced per capita GDP by 17–31% at the poorest four deciles of the country distribution, making the ratio between the top and bottom deciles 25% larger than in a world without warming.",
+      "quote": "For example, per capita gross domestic product (GDP) has been reduced 17–31% at the poorest four deciles of the population-weighted country-level per capita GDP distribution, yielding a ratio between the top and bottom deciles that is 25% larger than in a world without global warming.",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6525504/",
+          "publisher": "PNAS (Noah S. Diffenbaugh & Marshall Burke)",
+          "title": "Global warming has increased global economic inequality"
+        }
+      ],
+      "id": "diffenbaugh-burke-17-31pct",
+      "section": "impacts",
+      "big": "-17–31%",
+      "date": "2019-04-22",
+      "notes": "Period 1961–2010. Between-country inequality, not within-country. The method was challenged in a published PNAS letter (Rosen 2019). pnas.org returned HTTP 403; quote from the PMC copy."
+    },
+    {
+      "claim": "The World Inequality Lab's Climate Inequality Report estimates the bottom 50% of the world population contributes 12% of global emissions but is exposed to 75% of relative income losses due to climate change.",
+      "quote": "Notes: The graph shows that the bottom 50% of the world population contributes to 12% of global emissions but is exposed to 75% of relative income losses due to climate change.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://wid.world/wp-content/uploads/2023/01/CBV2023-ClimateInequalityReport-2.pdf",
+          "publisher": "World Inequality Lab (Chancel, Bothe & Voituriez)",
+          "title": "Climate Inequality Report 2023"
+        }
+      ],
+      "id": "cir2023-bottom50-75pct-losses",
+      "section": "impacts",
+      "big": "75%",
+      "date": "2023-01",
+      "notes": "Stylized estimate (Figure 29): country GDP losses in 2030 from Burke, Hsiang & Miguel (2015), distributed to emitter groups within countries; the authors say it \"should be interpreted with great care\". Same passage: the top 10% faces 3% of relative losses. The World Inequality Report 2026 restates an updated figure: the bottom 50% \"could bear up to 75% of total relative climate damages by 2050 (Bothe et al. (2025))\"."
+    },
+    {
+      "claim": "The IPCC finds that between 2010 and 2020, human mortality from floods, droughts and storms was 15 times higher in highly vulnerable regions than in regions with very low vulnerability.",
+      "quote": "Between 2010 and 2020, human mortality from floods, droughts and storms was 15 times higher in highly vulnerable regions, compared to regions with very low vulnerability. (high confidence)",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf",
+          "publisher": "IPCC",
+          "title": "Climate Change 2023: Synthesis Report, Summary for Policymakers (statement A.2.2)"
+        }
+      ],
+      "id": "ipcc-mortality-15x-vulnerable",
+      "section": "impacts",
+      "big": "15x",
+      "date": "2023-03",
+      "notes": "Same statement (A.2.2): approximately 3.3 to 3.6 billion people live in contexts highly vulnerable to climate change. Section A.2 headline: vulnerable communities who have historically contributed the least to current climate change are disproportionately affected (high confidence)."
+    },
+    {
+      "claim": "The World Meteorological Organization reports that over 90% of reported deaths from weather-, climate- and water-related disasters worldwide occurred in developing countries.",
+      "quote": "Over 90% of reported deaths worldwide occurred in developing countries.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://wmo.int/news/media-centre/economic-costs-of-weather-related-disasters-soars-early-warnings-save-lives",
+          "publisher": "World Meteorological Organization",
+          "title": "Economic costs of weather-related disasters soars but early warnings save lives (Atlas of Mortality and Economic Losses update)"
+        }
+      ],
+      "id": "wmo-90pct-deaths-developing",
+      "section": "impacts",
+      "big": "90%",
+      "date": "2023-05-22",
+      "notes": "Period 1970–2021: 11,778 reported disasters, just over 2 million deaths, US$4.3 trillion losses (same release; CRED EM-DAT data). Reported deaths only."
+    },
+    {
+      "claim": "WMO reports that in developed economies disaster losses were under 0.1% of GDP in more than four fifths of disasters, while in Least Developed Countries 7%, and in Small Island Developing States 20%, of disasters with reported losses cost more than 5% of GDP.",
+      "quote": "Over sixty percent of economic losses due to weather-, climate- and water-related disasters were reported for developed economies. However, the economic losses were equivalent to less than 0.1% of the gross domestic product (GDP) in respective economies in more than four fifths of these disasters. No disasters were reported with economic losses greater than 3.5% of the respective GDPs. In Least Developed Countries, 7% of disasters for which economic losses were reported had an impact equivalent to more than 5% of the respective GDPs, with several disasters causing economic losses up to nearly 30%. In Small Island Developing States, 20% of disasters with reported economic losses led to an impact equivalent to more than 5% of the respective GDPs, with some disasters causing economic losses above 100%.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://wmo.int/news/media-centre/economic-costs-of-weather-related-disasters-soars-early-warnings-save-lives",
+          "publisher": "World Meteorological Organization",
+          "title": "Economic costs of weather-related disasters soars but early warnings save lives (Atlas of Mortality and Economic Losses update)"
+        }
+      ],
+      "id": "wmo-gdp-losses-ldc-sids",
+      "section": "impacts",
+      "big": "7% / 20%",
+      "date": "2023-05-22",
+      "notes": "Period 1970–2021. The first sentence refers to disasters in developed economies, which reported over sixty percent of absolute economic losses."
+    },
+    {
+      "claim": "Rentschler et al. find low- and middle-income countries are home to 89% of the world's flood-exposed people, and that 170 million people face both high flood risk and extreme poverty, 44% of them in Sub-Saharan Africa.",
+      "quote": "Low- and middle-income countries are home to 89% of the world’s flood-exposed people. Of the 170 million facing high flood risk and extreme poverty (living on under $1.90 per day), 44% are in Sub-Saharan Africa.",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41467-022-30727-4",
+          "publisher": "Nature Communications (Jun Rentschler, Melda Salhab & Bramka Arga Jafino)",
+          "title": "Flood exposure and poverty in 188 countries"
+        }
+      ],
+      "id": "rentschler-89pct-flood-exposed",
+      "section": "impacts",
+      "big": "89%",
+      "date": "2022-06-28",
+      "notes": "Exposure to 1-in-100-year floods (1.81 billion people, 23% of world population). Exposure, not climate-attributed losses."
+    },
+    {
+      "claim": "World Bank researchers estimate climate change will push 32 million to 132 million additional people into extreme poverty by 2030.",
+      "quote": "This study shows that the likely short-term impacts of climate change on poverty (32 million to 132 million additional people in extreme poverty by 2030) are of the same orders of magnitude as the impacts of COVID-19 (71 million to 100 million additional people in extreme poverty).",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://openknowledge.worldbank.org/bitstreams/a26e0262-7118-5f23-85a8-e63502d54440/download",
+          "publisher": "World Bank (Jafino, Walsh, Rozenberg & Hallegatte)",
+          "title": "Revised Estimates of the Impact of Climate Change on Extreme Poverty by 2030 (Policy Research Working Paper 9417)"
+        }
+      ],
+      "id": "worldbank-32-132m-poverty",
+      "section": "impacts",
+      "big": "32–132M",
+      "date": "2020-09",
+      "notes": "Range across thousands of scenarios; optimistic development baselines halve the impact. Health effects (malaria, diarrhea, stunting) and food prices drive most of it; food prices dominate in Sub-Saharan Africa."
+    },
+    {
+      "claim": "The World Bank's Groundswell report finds climate change could force 216 million people across six world regions to move within their countries by 2050, including as many as 86 million in Sub-Saharan Africa.",
+      "quote": "The World Bank’s updated Groundswell report released today finds that climate change, an increasingly potent driver of migration, could force 216 million people across six world regions to move within their countries by 2050. Hotspots of internal climate migration could emerge as early as 2030 and continue to spread and intensify by 2050. The report also finds that immediate and concerted action to reduce global emissions, and support green, inclusive, and resilient development, could reduce the scale of climate migration by as much as 80 percent. Climate change is a powerful driver of internal migration because of its impacts on people’s livelihoods and loss of livability in highly exposed locations. By 2050, Sub-Saharan Africa could see as many as 86 million internal climate migrants",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.worldbank.org/en/news/press-release/2021/09/13/climate-change-could-force-216-million-people-to-migrate-within-their-own-countries-by-2050",
+          "publisher": "World Bank",
+          "title": "Climate Change Could Force 216 Million People to Migrate Within Their Own Countries by 2050 (Groundswell press release)"
+        }
+      ],
+      "id": "groundswell-216m-migrants",
+      "section": "impacts",
+      "big": "216M",
+      "date": "2021-09-13",
+      "notes": "Projection under a pessimistic scenario, internal migration only. Other regions: East Asia and the Pacific 49 million, South Asia 40 million, North Africa 19 million, Latin America 17 million, Eastern Europe and Central Asia 5 million."
+    },
+    {
+      "claim": "The latest Lancet Countdown report finds that heat-related mortality per 100,000 has risen 23 per cent since the 1990s, with heat-related deaths averaging 546,000 a year between 2012 and 2021.",
+      "quote": "It reveals that heat-related mortality per 100,000 has risen 23 per cent since the 1990s, with total heat-related deaths reaching an average of 546,000 annually between 2012 and 2021.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.ucl.ac.uk/news/2025/oct/climate-change-inaction-costing-life-minute-excessive-heat-globally",
+          "publisher": "University College London (host institution of the Lancet Countdown)",
+          "title": "Climate change inaction costing a life a minute from excessive heat globally (on the 2025 report of the Lancet Countdown on health and climate change)"
+        }
+      ],
+      "id": "lancet-heat-deaths-546k",
+      "section": "impacts",
+      "big": "546,000 / yr",
+      "date": "2025-10-29",
+      "notes": "Global figure, not broken down by income here. The report itself (The Lancet, DOI 10.1016/S0140-6736(25)01919-1) returned HTTP 403, so the wording is the Countdown host institution's release. lancetcountdown.org words it \"the rate of heat-related deaths surge 23% since the 1990s, to 546,000 a year\" (indicator 1.1.5)."
+    },
+    {
+      "claim": "Chancel's World Inequality Lab working paper finds that investments represent 70% of emissions from the global top 1% in 2019, up from 58% in 1990.",
+      "quote": "Most of emissions of top global emitters come from their investments, rather than from their consumption: investments represent 70% of emissions from the global top 1% in 2019, vs. 58% in 1990.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://wid.world/www-site/uploads/2021/10/Chancel2022-20Feb22-14h25.pdf",
+          "publisher": "World Inequality Lab (Lucas Chancel)",
+          "title": "Global Carbon Inequality, 1990-2019 (WID.world working paper)"
+        }
+      ],
+      "id": "chancel-investments-70pct-top1",
+      "section": "investments",
+      "big": "70%",
+      "date": "2022-02-20 (working-paper version)",
+      "notes": "Working-paper version; the peer-reviewed Nature Sustainability abstract says only that \"the bulk\" of top-1% emissions comes from investments. Another version (28 Feb 2022) says investments are around 50% of global top-10% emissions and slightly above 70% of top-1% emissions in 2019, and under 10% for the bottom 50%. Oxfam (2022) cites this as \"50% to 70%\"."
+    },
+    {
+      "claim": "The latest World Inequality Report finds the poorest half of the global population accounts for only 3% of carbon emissions associated with private capital ownership, while the top 10% account for 77% and the top 1% alone for 41%.",
+      "quote": "Figure 4 shows that the poorest half of the global population accounts for only 3% of carbon emissions associated with private capital ownership, while the top 10% account for 77% of emissions. The wealthiest 1% alone account for 41% of private capital ownership emissions, almost double the amount of the entire bottom 90% combined.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://wir2026.wid.world/insight/executive-summary/",
+          "publisher": "World Inequality Lab",
+          "title": "World Inequality Report 2026: Executive Summary"
+        }
+      ],
+      "id": "wir2026-capital-ownership-77pct",
+      "section": "investments",
+      "big": "77%",
+      "date": "December 2025 (World Inequality Report 2026; launch date from press coverage, not printed on the page)",
+      "notes": "Ownership-based emissions: emissions of privately owned firms and assets allocated to individuals by ownership share; excludes direct household and public-asset emissions (Chancel and Mohren 2025)."
+    },
+    {
+      "claim": "The latest World Inequality Report finds that for the top 10%, and especially the top 1%, emissions from capital ownership account for 75–95% of their total footprint in France, Germany and the United States.",
+      "quote": "For the top 10%, and especially for the top 1%, emissions from capital ownership dominate, accounting for 75–95% of their total footprint in France, Germany, and the United States.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://wir2026.wid.world/insight/climate-a-capital-problem/",
+          "publisher": "World Inequality Lab",
+          "title": "World Inequality Report 2026, Chapter 6: Climate, a Capital Problem"
+        }
+      ],
+      "id": "wir2026-capital-75-95pct-of-footprint",
+      "section": "investments",
+      "big": "75–95%",
+      "date": "December 2025 (World Inequality Report 2026; launch date from press coverage, not printed on the page)",
+      "notes": "Country studies (Chancel and Rehm 2025a). Same chapter: in the US the top 10% account for 24% of consumption-based but 72% of ownership-based emissions; the top 1% from 6% to nearly 43%."
+    },
+    {
+      "claim": "Oxfam finds the investment emissions of 308 billionaires totalled 586 million tonnes of CO2e in 2024, more than the combined emissions of 118 countries.",
+      "quote": "The investment emissions of the 308 billionaires totalled 586 million tonnes of CO2e in 2024, more than the combined emissions of 118 countries; if they were a country, they would rank as the fifteenth-most polluting country in the world, ahead of South Africa.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://oxfamilibrary.openrepository.com/bitstreams/988b978c-3868-41c7-b17a-6e334a824693/download",
+          "publisher": "Oxfam International",
+          "title": "Climate Plunder: How a powerful few are locking the world into disaster"
+        }
+      ],
+      "id": "oxfam-308-billionaires-586mt",
+      "section": "investments",
+      "big": "586 Mt",
+      "date": "2025-10-29",
+      "notes": "Scope 1 and 2 emissions of companies in which a billionaire holds at least 10%, allocated in proportion to the stake. Earlier Oxfam estimates used different samples: 125 billionaires, 393 Mt, average 3 Mt (Carbon Billionaires, 2022); 50 billionaires, average ~2.6 Mt (Carbon Inequality Kills, 2024)."
+    },
+    {
+      "claim": "Oxfam calculates the average billionaire's annual investment emissions at 1.9 million tonnes of CO2e, 346,000 times more than the average person.",
+      "quote": "The average billionaire’s annual per capita investment emissions are 1.9 million tonnes of CO2e, which is 346,000 times more than the average person.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://oxfamilibrary.openrepository.com/bitstreams/988b978c-3868-41c7-b17a-6e334a824693/download",
+          "publisher": "Oxfam International",
+          "title": "Climate Plunder: How a powerful few are locking the world into disaster"
+        }
+      ],
+      "id": "oxfam-average-billionaire-1.9mt",
+      "section": "investments",
+      "big": "1.9 Mt",
+      "date": "2025-10-29",
+      "notes": "Sample of 308 billionaires, 2024, Scope 1 and 2 only. DISAGREEMENT across Oxfam editions (different samples): 3 Mt average (2022, 125 billionaires) and ~2.6 Mt (2024, 50 billionaires)."
+    },
+    {
+      "claim": "Oxfam finds that counting Scope 3 (value-chain) emissions for 222 billionaires, their total investment emissions in 2024 were 1.85 billion tonnes, equivalent to 4% of global emissions.",
+      "quote": "Oxfam also identified the Scope 3 emissions – accounting for the whole value chain – of 222 individuals, showing that their total investment emissions in 2024 were 1.85 billion tonnes. This is equivalent to 4% of global emissions and would rank as the fifth-most polluting country in the world.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://oxfamilibrary.openrepository.com/bitstreams/988b978c-3868-41c7-b17a-6e334a824693/download",
+          "publisher": "Oxfam International",
+          "title": "Climate Plunder: How a powerful few are locking the world into disaster"
+        }
+      ],
+      "id": "oxfam-scope3-222-billionaires",
+      "section": "investments",
+      "big": "1.85 Gt",
+      "date": "2025-10-29",
+      "notes": "Scope 3 includes emissions from the use of products sold (e.g. burning extracted oil), so it overlaps with other actors' emissions and should not be summed with consumption-based figures."
+    },
+    {
+      "claim": "Oxfam found the average investment emissions of 50 of the world's richest billionaires were around 2.6 million tonnes of CO2e each, around 340 times their emissions from private jets and superyachts combined.",
+      "quote": "The average investment emissions of 50 of the world's richest billionaires were around 2.6 million tonnes of CO2 equivalents (CO2e) each. That is around 340 times their emissions from private jets and superyachts combined.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://oxfamilibrary.openrepository.com/bitstreams/a0554458-7498-4caf-ac4d-c46207c5deb1/download",
+          "publisher": "Oxfam International",
+          "title": "Carbon Inequality Kills: Why curbing the excessive emissions of an elite few can create a sustainable planet for all"
+        }
+      ],
+      "id": "oxfam-50-billionaires-2.6mt",
+      "section": "investments",
+      "big": "340x",
+      "date": "2024-10-28",
+      "notes": "Same report: the private jets of 23 of these billionaires emitted 2,074 tonnes a year on average. Oxfam issued a correction to this report: \"In less than a fortnight\" (yachts + jets exceed a lifetime of average emissions) should read \"In twenty-three days\". Do not use the uncorrected line."
+    },
+    {
+      "claim": "Carbon Brief analysis finds the US is responsible for more than a fifth of the 2,651GtCO2 emitted between 1850 and 2025, China for 13% and the 27 EU nations for 12%.",
+      "quote": "The US is responsible for more than a fifth of the 2,651GtCO2 that humans have pumped into the atmosphere between 1850 and 2025 as a result of fossil fuels, cement and land-use change. China is responsible for another 13% , with the 27 nations of the EU making up another 12%.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.carbonbrief.org/analysis-worlds-biggest-historic-polluter-the-us-is-pulling-out-of-un-climate-treaty",
+          "publisher": "Carbon Brief (Simon Evans)",
+          "title": "Analysis: World’s biggest historic polluter – the US – is pulling out of UN climate treaty"
+        }
+      ],
+      "id": "carbonbrief-us-fifth-of-cumulative",
+      "section": "history",
+      "big": ">1/5",
+      "date": "2026-01-08",
+      "notes": "Carbon Brief's own analysis (sources: Jones et al. 2023, Lamboll et al. 2023, Global Carbon Project, CDIAC, OWID, IEA, Carbon Monitor). US total 542 GtCO2, China 336, Russia 185. Territorial (production) CO2 incl. land use; country-level, not income-group."
+    },
+    {
+      "claim": "Carbon Brief notes the US population of around 350 million makes up just 4% of the global total, and US per-capita cumulative emissions are around 7 times China's and 25 times India's.",
+      "quote": "The US share of global warming is even more disproportionate when considering that its population of around 350 million people makes up just 4% of the global total. On the basis of current populations, the US’s per-capita cumulative historical emissions are around 7 times higher than those for China, more than double the EU’s and 25 times those for India.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.carbonbrief.org/analysis-worlds-biggest-historic-polluter-the-us-is-pulling-out-of-un-climate-treaty",
+          "publisher": "Carbon Brief (Simon Evans)",
+          "title": "Analysis: World’s biggest historic polluter – the US – is pulling out of UN climate treaty"
+        }
+      ],
+      "id": "carbonbrief-us-4pct-population",
+      "section": "history",
+      "big": "4% of people",
+      "date": "2026-01-08",
+      "notes": "Same article: US historical emissions (542 GtCO2) exceed the combined total of the 133 lowest-emitting countries, home to more than 3 billion people."
+    },
+    {
+      "claim": "The IPCC finds Least Developed Countries contributed less than 0.4% of historical cumulative fossil-fuel and industry CO2 emissions between 1850 and 2019, while Small Island Developing States contributed 0.5%.",
+      "quote": "LDCs contributed less than 0.4% of historical cumulative CO2-FFI emissions between 1850 and 2019, while SIDS contributed 0.5%. (high confidence)",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_SPM.pdf",
+          "publisher": "IPCC Working Group III",
+          "title": "Climate Change 2022: Mitigation of Climate Change, Summary for Policymakers (statement B.3.2)"
+        }
+      ],
+      "id": "ipcc-ldcs-under-0.4pct",
+      "section": "history",
+      "big": "<0.4%",
+      "date": "2022-04",
+      "notes": "CO2-FFI = fossil fuel and industry CO2 (excludes land use). Same report: total historical net CO2 1850–2019 = 2400 ± 240 GtCO2."
+    },
+    {
+      "claim": "Callahan & Mankin estimate the top five emitters (the United States, China, Russia, Brazil and India) have collectively caused US$6 trillion in income losses from warming since 1990, comparable to 11% of annual global GDP.",
+      "quote": "We find that the top five emitters (the United States, China, Russia, Brazil, and India) have collectively caused US$6 trillion in income losses from warming since 1990, comparable to 11% of annual global gross domestic product; many other countries are responsible for billions in losses. Yet the distribution of warming impacts from emitters is highly unequal: high-income, high-emitting countries have benefited themselves while harming low-income, low-emitting countries",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://link.springer.com/article/10.1007/s10584-022-03387-y",
+          "publisher": "Climatic Change (Christopher W. Callahan & Justin S. Mankin)",
+          "title": "National attribution of historical climate damages"
+        }
+      ],
+      "id": "callahan-mankin-top5-6tn",
+      "section": "history",
+      "big": "$6tn",
+      "date": "2022-07-12",
+      "notes": "Country-level attribution (territorial emissions) of temperature-driven income changes, 1990 onward; links historical responsibility to measured damages."
+    }
+  ],
+  "connections": []
+}

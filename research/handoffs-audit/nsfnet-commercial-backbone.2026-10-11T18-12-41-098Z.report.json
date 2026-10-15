@@ -1,0 +1,26 @@
+{
+ "file": "nsfnet-commercial-backbone.json",
+ "kind": "handoff",
+ "at": "2026-10-11T18:12:41.098Z",
+ "kept": 7,
+ "removed": [
+  {
+   "where": "claims[0]",
+   "claim": "No government sale of the backbone was found. NSF shut its backbone service down and paid for a new design in which commercial carriers interconnect at NSF-funded Network Access Points, while a separa",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 1994, 35, aol"
+  }
+ ],
+ "unchecked": [
+  {
+   "where": "links[1]",
+   "claim": "Through Program Solicitation NSF 93-52, NSF selected MFS Datanet (Washington, DC), Sprint (New York) and Bellcore (for NAPs in California run by PacBell and Chicago run by Ameritech) to operate Networ",
+   "why": "could not re-open any cited page to confirm it: https://diswww.mit.edu/menelaus/com-priv/10630 (page came back nearly empty); https://api.nsf.gov/services/v1/awards/9321072.json (page came back nearly empty)"
+  }
+ ],
+ "resourced": [],
+ "wikiSourcesDropped": 0,
+ "notes": [],
+ "pagesOpened": 11,
+ "pagesRefused": 0,
+ "empty": false
+}

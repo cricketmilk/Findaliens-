@@ -1,0 +1,51 @@
+{
+ "file": "xai.json",
+ "at": "2026-10-11T14:35:11.070Z",
+ "kept": 15,
+ "removed": [
+  {
+   "where": "facts[0]",
+   "claim": "SpaceX acquired X.AI Holdings Corp. effective February 2, 2026 in what SpaceX's filing calls the 'xAI Merger'; each outstanding xAI common share converted into 0.1433 SpaceX shares.",
+   "why": "the quoted passage is not on the cited page"
+  },
+  {
+   "where": "facts[3]",
+   "claim": "Under the xAI Merger, SpaceX's registration statement says xAI's Series E preferred purchase by Tesla ($2,000 million, agreed January 2026) was converted into a right to acquire SpaceX Class A common ",
+   "why": "the quoted passage is not on the cited page"
+  },
+  {
+   "where": "facts[4]",
+   "claim": "SpaceX's registration statement reports carrying values for xAI redeemable convertible preferred stock of $7,001 million for Series B and $6,000 million for Series C (not the announced round sizes).",
+   "why": "the quoted passage is not on the cited page"
+  },
+  {
+   "where": "facts[5]",
+   "claim": "Subsidiaries of xAI lease computing equipment from Valor under agreements with aggregate cash payments of $6,986 million, $6,633 million and $6,587 million over the lives of the leases; xAI subsidiari",
+   "why": "the quoted passage is not on the cited page"
+  },
+  {
+   "where": "facts[6]",
+   "claim": "Antonio J. Gracias, a member of SpaceX's board, is founder, CEO and Chief Investment Officer of Valor Equity Partners.",
+   "why": "the quoted passage is not on the cited page"
+  },
+  {
+   "where": "connections[0]",
+   "claim": "SpaceX acquired X.AI Holdings Corp. (xAI) effective February 2, 2026 in the xAI Merger, a share exchange.",
+   "why": "the quoted passage is not on the cited page"
+  },
+  {
+   "where": "connections[1]",
+   "claim": "Subsidiaries of xAI lease computing equipment from Valor Equity Partners and its affiliates under agreements totalling billions of dollars in aggregate payments.",
+   "why": "the quoted passage is not on the cited page"
+  },
+  {
+   "where": "connections[2]",
+   "claim": "Tesla agreed in January 2026 to invest $2,000 million in xAI's Series E preferred stock.",
+   "why": "the quoted passage is not on the cited page"
+  }
+ ],
+ "wikiSourcesDropped": 0,
+ "pagesOpened": 9,
+ "pagesRefused": 0,
+ "empty": false
+}

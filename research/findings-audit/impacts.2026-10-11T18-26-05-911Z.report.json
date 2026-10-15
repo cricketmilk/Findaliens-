@@ -1,0 +1,26 @@
+{
+ "file": "impacts.json",
+ "kind": "finding",
+ "at": "2026-10-11T18:26:05.911Z",
+ "kept": 51,
+ "removed": [],
+ "unchecked": [],
+ "resourced": [
+  {
+   "where": "facts[37]",
+   "claim": "World Bank researchers estimate climate change will push 32 million to 132 million additional people into extreme poverty by 2030.",
+   "url": "https://www.worldbank.org/en/brief/2025/11/12/health-and-climate-change",
+   "publisher": "World Bank Group",
+   "score": 1,
+   "quote": "A recent World Bank study estimates that climate change may push an additional 132 million people (more than half of whom live in Sub-Saharan Africa and South Asia), into extreme poverty by 2030, with 44 million of these driven by health impacts.",
+   "was": [
+    "https://openknowledge.worldbank.org/bitstreams/a26e0262-7118-5f23-85a8-e63502d54440/download"
+   ]
+  }
+ ],
+ "wikiSourcesDropped": 0,
+ "notes": [],
+ "pagesOpened": 22,
+ "pagesRefused": 0,
+ "empty": false
+}

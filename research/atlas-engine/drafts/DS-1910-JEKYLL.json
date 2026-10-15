@@ -1,0 +1,70 @@
+{
+  "code": "DS-1910-JEKYLL",
+  "eraId": "ERA-06-1910",
+  "yearStart": 1908,
+  "yearEnd": 1910,
+  "title": "Senator Aldrich and Wall Street Bankers Draft a National Reserve Association in Secret at Jekyll Island",
+  "primaryTab": "deep-state",
+  "secondaryTabs": [
+    "crash-conduits"
+  ],
+  "mechanism": "CENTRAL_BANK_LIQUIDITY",
+  "tier": "TIER_3_PRIMARY_LEDGER",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "Nelson W. Aldrich",
+    "National Monetary Commission",
+    "Jekyll Island Club",
+    "Aldrich–Vreeland Act",
+    "Woodrow Wilson",
+    "United States Congress",
+    "Federal Reserve System",
+    "National Reserve Association"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "The Panic of 1907 left the banking system without a lender of last resort, and the bankers who had privately organized the rescue stood to profit from institutionalizing that role. A legislated national reserve mechanism, with banker-dominated district boards as proposed in the Aldrich Plan, would give the large New York banks standing access to emergency liquidity and a central clearing of credit.",
+    "stage2_structuralCompromise": "The Aldrich–Vreeland Act of May 1908 created the National Monetary Commission, chaired by Senator Nelson W. Aldrich, putting the writing of banking reform in the hands of the very interests to be regulated. The commission's tour of Europe and its 1910–1912 reports produced the Aldrich Plan for a National Reserve Association with 15 district associations under banker-dominated boards, embedding private control in the institutional architecture.",
+    "stage3_informationFog": "In November 1910 Aldrich met a small group of banking figures at the Jekyll Island Club, Georgia, to draft the reserve plan — established by later accounts of participants, and only later itself framed by conspiracy writing as a secret cabal. The drafting was removed from public view, and the mechanism of who would control the new liquidity spigot was buried inside technical commission reports issued between 1910 and 1912.",
+    "stage4_monopolyWindfall": "The windfall was structural rather than a one-time sum: the drafters of the plan stood to hold the governance boards of the proposed National Reserve Association, the institutional heart of national credit allocation. Banker-dominated district associations would have given the drafters a durable grip on liquidity creation.",
+    "stage5_merseyWhitewash": "The Aldrich Plan was rejected in Congress and attacked in the 1912 campaign as a 'money trust' instrument, with Woodrow Wilson running against it. Yet the Federal Reserve Act of December 1913 adopted the reserve-association architecture as a compromise, placing a presidentially appointed public Board over it — normalizing the Jekyll Island design while the original secret drafting was absorbed into founding mythology, later distorted further by conspiracy framing that obscured the documented mechanism."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "The Panic of 1907 response and the Aldrich–Vreeland Act of May 1908, which created the National Monetary Commission as the official vehicle for banking reform.",
+    "newFrameworkCreated": "The Aldrich Plan's National Reserve Association with 15 district associations under banker-dominated boards — the architectural template later carried into the Federal Reserve System.",
+    "closedLoopRecirculation": "The commission's 1910–1912 findings and the Jekyll Island draft circulated as an official reform blueprint, converting private banking priorities into legislative text despite the plan's rejection in Congress.",
+    "enablesNextDossier": "The Federal Reserve Act of December 1913, which adopted the reserve-association architecture under a public Board, establishes the central-bank liquidity machinery that subsequent dossiers in this lineage trace through the twentieth century."
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "The pop-culture version is the secret cabal myth: a shadowy cabal of bankers scheming in total secrecy at a private island club to seize the nation's money, as later conspiracy writing framed the Jekyll Island meeting.",
+    "whyDecoyFails": "The cabal frame erases the documented mechanism: a legally constituted body, the National Monetary Commission chaired by Senator Nelson W. Aldrich under the Aldrich–Vreeland Act of May 1908, openly touring Europe and issuing reports from 1910 to 1912, whose plan was in fact rejected in Congress and attacked by Woodrow Wilson in 1912. The capture attempt was contested and partially defeated — a fact the conspiracy story flattens into inevitability.",
+    "documentedLedger": "After the Panic of 1907, the Aldrich–Vreeland Act of May 1908 created the National Monetary Commission chaired by Senator Nelson W. Aldrich of Rhode Island, which toured Europe and issued reports in 1910–1912. In November 1910, Aldrich met a small group of banking figures at the Jekyll Island Club, Georgia, to draft what became the Aldrich Plan for a National Reserve Association with 15 district associations under banker-dominated boards, as established by later accounts of participants. The plan was rejected in Congress and attacked in the 1912 campaign as a 'money trust' instrument, with Woodrow Wilson running against it. The Federal Reserve Act of December 1913 then created the Federal Reserve System as a compromise, adopting the reserve-association architecture while placing a presidentially appointed public Board over it."
+  },
+  "citationIds": [
+    "CIT-1908-WD-Q4713997",
+    "CIT-1908-WD-Q3873169",
+    "CIT-1910-WD-Q927573"
+  ],
+  "citations": [
+    {
+      "id": "CIT-1908-WD-Q4713997",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Corporate Lineage Entity: Aldrich–Vreeland Act (Q4713997)",
+      "url": "https://www.wikidata.org/entity/Q4713997",
+      "quoteOrFact": "Aldrich–Vreeland Act"
+    },
+    {
+      "id": "CIT-1908-WD-Q3873169",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Corporate Lineage Entity: National Monetary Commission (Q3873169)",
+      "url": "https://www.wikidata.org/entity/Q3873169",
+      "quoteOrFact": "National Monetary Commission"
+    },
+    {
+      "id": "CIT-1910-WD-Q927573",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Corporate Lineage Entity: Nelson W. Aldrich (Q927573)",
+      "url": "https://www.wikidata.org/entity/Q927573",
+      "quoteOrFact": "Nelson W. Aldrich"
+    }
+  ]
+}

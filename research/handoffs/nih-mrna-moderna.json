@@ -85,56 +85,6 @@
           "date": "2023-02-24"
         }
       ]
-    },
-    {
-      "type": "funding",
-      "claim": "NIH states mRNA-1273 'was developed by NIAID scientists and their collaborators' at Moderna; Moderna states the VRC and its team finalized the vaccine sequence on January 13, 2020, and that the first trial ran under NIH's own IND. NIH's tech-transfer office lists Spikevax (ModernaTX) as a product of NIAID research, inventors 'Graham, B. et al.'",
-      "status": "documented",
-      "sources": [
-        {
-          "url": "https://www.nih.gov/news-events/news-releases/nih-clinical-trial-investigational-vaccine-covid-19-begins",
-          "publisher": "National Institutes of Health",
-          "title": "NIH clinical trial of investigational vaccine for COVID-19 begins",
-          "date": "2020-03-16"
-        },
-        {
-          "url": "https://www.sec.gov/Archives/edgar/data/1682852/000119312520074867/d884510dex992.htm",
-          "publisher": "Moderna, Inc. (SEC exhibit)",
-          "title": "Moderna Announces First Participant Dosed in NIH-led Phase 1 Study of mRNA Vaccine (mRNA-1273) Against Novel Coronavirus",
-          "date": "2020-03-16"
-        },
-        {
-          "url": "https://www.techtransfer.nih.gov/showcase/spikevax-r",
-          "publisher": "NIH Office of Technology Transfer",
-          "title": "Spikevax®"
-        }
-      ]
-    },
-    {
-      "type": "personnel",
-      "claim": "The peer-reviewed paper describing mRNA-1273's design lists authors affiliated with both the NIAID Vaccine Research Center and Moderna, and states the vaccine applies prefusion-stabilizing spike mutations developed in earlier structural work.",
-      "status": "peer",
-      "sources": [
-        {
-          "url": "https://europepmc.org/article/MED/32756549",
-          "publisher": "Nature (via Europe PMC)",
-          "title": "SARS-CoV-2 mRNA vaccine design enabled by prototype pathogen preparedness",
-          "date": "2020-08-05"
-        }
-      ]
-    },
-    {
-      "type": "funding",
-      "claim": "BARDA, an HHS agency, funded Moderna's mRNA-1273 development; a July 2020 contract modification added up to $472 million, bringing the award to approximately $955 million.",
-      "status": "reported",
-      "sources": [
-        {
-          "url": "https://pharmamanufacturing.com/industrynews/2020/barda-adds-472m-to-moderna-contract",
-          "publisher": "Pharma Manufacturing",
-          "title": "BARDA adds $472M to Moderna contract",
-          "date": "2020-07-27"
-        }
-      ]
     }
   ],
   "claims": [
@@ -182,18 +132,23 @@
       "explanation": "Moderna's 10-K reports COVID-19 vaccine product sales of $17.7 billion in 2021 and $18.4 billion in 2022 (about $36.1 billion), so the $400 million catch-up royalty was roughly 1.1% of those two years' sales. Public Citizen, an advocacy group, made the same comparison. Ongoing royalties are described only as low single digits.",
       "sources": [
         {
-          "url": "https://www.citizen.org/news/moderna-nih-agreement-on-publicly-funded-discovery-will-be-dwarfed-by-modernas-unconscionable-price-spike/",
-          "publisher": "Public Citizen",
-          "title": "Moderna-NIH Agreement on Publicly-Funded Discovery Will Be Dwarfed by Moderna's Unconscionable Price Spike",
-          "date": "2023-02-24"
-        },
-        {
           "url": "https://www.sec.gov/Archives/edgar/data/1682852/000168285223000011/mrna-20221231.htm",
           "publisher": "U.S. Securities and Exchange Commission",
           "title": "Moderna, Inc. Form 10-K for fiscal year 2022",
           "date": "2023-02-24"
+        },
+        {
+          "url": "https://www.citizen.org/news/moderna-nih-agreement-on-publicly-funded-discovery-will-be-dwarfed-by-modernas-unconscionable-price-spike/",
+          "publisher": "Public Citizen",
+          "title": "Moderna-NIH Agreement on Publicly-Funded Discovery Will Be Dwarfed by Moderna's Unconscionable Price Spike",
+          "date": "2023-02-24"
         }
       ]
     }
+  ],
+  "openQuestions": [
+    "Removed in audit (the cited pages do not contain the claim's figures and names; missing: spikevax, graham): NIH states mRNA-1273 'was developed by NIAID scientists and their collaborators' at Moderna; Moderna states the VRC and its team finalized the vaccine sequence on January 13, 2020, and that the first trial ran under NIH's own IND. NIH's tech-transfer office lists Spikevax (ModernaTX) as a product of",
+    "Removed in audit (the cited pages do not contain the claim's figures and names; missing: niaid vaccine research center, moderna): The peer-reviewed paper describing mRNA-1273's design lists authors affiliated with both the NIAID Vaccine Research Center and Moderna, and states the vaccine applies prefusion-stabilizing spike mutations developed in earlier structural work.",
+    "Removed in audit (the cited pages do not contain the claim's figures and names; missing: (subject) hhs, hhs): BARDA, an HHS agency, funded Moderna's mRNA-1273 development; a July 2020 contract modification added up to $472 million, bringing the award to approximately $955 million."
   ]
 }

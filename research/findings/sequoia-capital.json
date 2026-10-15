@@ -110,15 +110,15 @@
       "date": "2026-02-05",
       "sources": [
         {
-          "url": "https://www.sec.gov/Archives/edgar/data/1906948/000206235726000016/xslFormDX01/primary_doc.xml",
-          "publisher": "SEC",
-          "title": "Form D/A: Sequoia Capital Fund, L.P.",
-          "date": "2026-02-05"
-        },
-        {
           "url": "https://www.sec.gov/Archives/edgar/data/1906966/000206235726000018/xslFormDX01/primary_doc.xml",
           "publisher": "SEC",
           "title": "Form D/A: Sequoia Capital Fund Feeder, L.P.",
+          "date": "2026-02-05"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1906948/000206235726000016/xslFormDX01/primary_doc.xml",
+          "publisher": "SEC",
+          "title": "Form D/A: Sequoia Capital Fund, L.P.",
           "date": "2026-02-05"
         }
       ]
@@ -148,6 +148,12 @@
       "date": "2018-04",
       "sources": [
         {
+          "url": "https://www.sib.wa.gov/docs/reports/annual/ar23.pdf",
+          "publisher": "Washington State Investment Board",
+          "title": "Forty-Second Annual Report, fiscal year ended June 30, 2023",
+          "date": "2023"
+        },
+        {
           "url": "https://www.buyoutsinsider.com/to-reach-lofty-fund-goal-sequoia-needs-big-lps-it-once-shunned-public-pensions/",
           "publisher": "Buyouts / PE Hub",
           "title": "To reach lofty fund goal, Sequoia needs big LPs it once-shunned: public pensions",
@@ -158,12 +164,6 @@
           "publisher": "Buyouts",
           "title": "Washington looks to be first public pension LP to back Sequoia's megafund",
           "date": "2018-04-23"
-        },
-        {
-          "url": "https://www.sib.wa.gov/docs/reports/annual/ar23.pdf",
-          "publisher": "Washington State Investment Board",
-          "title": "Forty-Second Annual Report, fiscal year ended June 30, 2023",
-          "date": "2023"
         }
       ]
     },
@@ -277,18 +277,6 @@
       ]
     },
     {
-      "claim": "Sequoia's lobbying reports list $360,000 in fees for 2024, $240,000 for 2025 and $120,000 for the first half of 2026, a total of $720,000. The federal lobbying database shows no filings for a client named Sequoia Capital before 2024.",
-      "status": "documented",
-      "date": "2026-07-16",
-      "sources": [
-        {
-          "url": "https://lda.gov/api/v1/filings/?client_name=Sequoia%20Capital",
-          "publisher": "Lobbying Disclosure Act database (lda.gov)",
-          "title": "Filings with client name 'Sequoia Capital' (11 filings, 2024 Q1 to 2026 Q2)"
-        }
-      ]
-    },
-    {
       "claim": "Sequoia told its limited partners in November 2022 that it was marking its $214 million FTX investment, made in July 2021, down to $0. About $150 million was in Global Growth Fund III and $63.5 million in its SCGE public-equities fund. The letter said the loss was offset by about $7.5 billion in gains in the same growth fund.",
       "status": "reported",
       "date": "2022-11-10",
@@ -367,16 +355,16 @@
       "date": "2024-05-31",
       "sources": [
         {
-          "url": "https://www.timeslive.co.za/news/world/2024-05-31-trump-guilty-verdict-fires-up-republican-donors-who-pledge-millions/",
-          "publisher": "Reuters (via TimesLIVE)",
-          "title": "Trump guilty verdict fires up Republican donors, who pledge millions",
-          "date": "2024-05-31"
-        },
-        {
           "url": "https://www.yahoo.com/news/shaun-maguire-vc-partner-facing-205941199.html",
           "publisher": "Business Insider (via Yahoo News)",
           "title": "Who is Shaun Maguire, the VC partner facing backlash over his remarks about Zohran Mamdani",
           "date": "2025-07-08"
+        },
+        {
+          "url": "https://www.timeslive.co.za/news/world/2024-05-31-trump-guilty-verdict-fires-up-republican-donors-who-pledge-millions/",
+          "publisher": "Reuters (via TimesLIVE)",
+          "title": "Trump guilty verdict fires up Republican donors, who pledge millions",
+          "date": "2024-05-31"
         }
       ]
     },
@@ -495,15 +483,15 @@
       "date": "2025-11-04",
       "sources": [
         {
-          "url": "https://www.gsb.stanford.edu/index%2Ephp/programs/mba/life-community/alumni/voices/roelof-botha",
-          "publisher": "Stanford Graduate School of Business",
-          "title": "Alumni Voices: Roelof Botha"
-        },
-        {
           "url": "https://fortune.com/2025/11/04/roelof-botha-steps-aside-as-sequoias-steward-passing-the-role-to-alfred-lin-and-pat-grady",
           "publisher": "Fortune",
           "title": "Roelof Botha steps aside as Sequoia's steward, passing the role to Alfred Lin and Pat Grady",
           "date": "2025-11-04"
+        },
+        {
+          "url": "https://www.gsb.stanford.edu/index%2Ephp/programs/mba/life-community/alumni/voices/roelof-botha",
+          "publisher": "Stanford Graduate School of Business",
+          "title": "Alumni Voices: Roelof Botha"
         }
       ]
     },
@@ -552,15 +540,15 @@
       "date": "2022-07",
       "sources": [
         {
+          "url": "https://www.calpers.ca.gov/page/investments/about-investment-office/investment-organization/pep-fund-performance",
+          "publisher": "CalPERS",
+          "title": "Private Equity Program (PEP) Fund Performance Review (data as of March 31, 2026)"
+        },
+        {
           "url": "https://www.calpers.ca.gov/docs/board-agendas/202211/invest/item04d-01_a.pdf",
           "publisher": "CalPERS",
           "title": "Quarterly Update: Investment Controls, quarter ended September 30, 2022 (Investment Committee item 4d, attachment 1)",
           "date": "2022-11"
-        },
-        {
-          "url": "https://www.calpers.ca.gov/page/investments/about-investment-office/investment-organization/pep-fund-performance",
-          "publisher": "CalPERS",
-          "title": "Private Equity Program (PEP) Fund Performance Review (data as of March 31, 2026)"
         }
       ]
     },
@@ -575,16 +563,16 @@
       "date": "2018-04",
       "sources": [
         {
-          "url": "https://www.buyoutsinsider.com/washington-looks-first-public-pension-lp-back-sequoias-megafund/",
-          "publisher": "Buyouts",
-          "title": "Washington looks to be first public pension LP to back Sequoia's megafund",
-          "date": "2018-04-23"
-        },
-        {
           "url": "https://www.sib.wa.gov/docs/reports/annual/ar23.pdf",
           "publisher": "Washington State Investment Board",
           "title": "Forty-Second Annual Report, fiscal year ended June 30, 2023",
           "date": "2023"
+        },
+        {
+          "url": "https://www.buyoutsinsider.com/washington-looks-first-public-pension-lp-back-sequoias-megafund/",
+          "publisher": "Buyouts",
+          "title": "Washington looks to be first public pension LP to back Sequoia's megafund",
+          "date": "2018-04-23"
         }
       ]
     },
@@ -697,15 +685,15 @@
       "date": "2024-01-12",
       "sources": [
         {
+          "url": "https://lda.gov/api/v1/filings/?client_name=Sequoia%20Capital",
+          "publisher": "Lobbying Disclosure Act database (lda.gov)",
+          "title": "Filings with client name 'Sequoia Capital' (11 filings, 2024 Q1 to 2026 Q2)"
+        },
+        {
           "url": "https://lda.gov/filings/public/filing/aee59be0-67c9-4054-868e-aa89fc619add/print/",
           "publisher": "Lobbying Disclosure Act database (lda.gov)",
           "title": "LD-1 registration: Brownstein Hyatt Farber Schreck for Sequoia Capital Operations LLC",
           "date": "2024-02-22"
-        },
-        {
-          "url": "https://lda.gov/api/v1/filings/?client_name=Sequoia%20Capital",
-          "publisher": "Lobbying Disclosure Act database (lda.gov)",
-          "title": "Filings with client name 'Sequoia Capital' (11 filings, 2024 Q1 to 2026 Q2)"
         }
       ]
     },
@@ -734,6 +722,7 @@
     "FEC itemized records for Leone, Maguire and Moritz could not be pulled (API rate-limited). The amounts above come from news reports; which committee received Maguire's $300,000 is not confirmed.",
     "Sequoia's lobbying registration took effect about three months after the Select Committee's October 2023 letter and was filed two weeks after its February 2024 findings. No public record states why Sequoia hired them or which bills they worked on beyond 'AI, emerging technologies, and the VC sector'.",
     "Whether Alaska Permanent Fund's reported $200 million (2018) went to a Sequoia China fund or a US global growth fund is unclear from the headline-only source.",
-    "Whether Sequoia or HongShan still hold ByteDance stakes after the split, and their size, was not verified."
+    "Whether Sequoia or HongShan still hold ByteDance stakes after the split, and their size, was not verified.",
+    "Removed in audit (the cited pages do not contain the claim's figures and names; missing: 360,000, 240,000, 120,000, 720,000): Sequoia's lobbying reports list $360,000 in fees for 2024, $240,000 for 2025 and $120,000 for the first half of 2026, a total of $720,000. The federal lobbying database shows no filings for a client named Sequoia Capital before 2024."
   ]
 }

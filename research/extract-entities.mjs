@@ -64,8 +64,12 @@ function pageData(name) {
   if (helpers > 0) {
     code = js.slice(0, helpers);
   } else {
-    // Crash Conduits keeps its data on single const lines.
+    // Crash Conduits retains its legacy arrays and loads source-linked additions.
     code = (js.match(/^\s*const\s+(nodes|lineages)\s*=.*$/gm) || []).join("\n");
+    if (name === "crash-conduits") {
+      code = fs.readFileSync(path.join(PUBLIC, "js", "crash-finance-data.js"), "utf8") + "\n" + code
+        + "\napplyLegacyAudits(nodes); nodes.push(...financialEngineeringNodes); nodes.sort((a, b) => a.year - b.year || a.id.localeCompare(b.id)); lineages.push(...financialEngineeringLineages);";
+    }
   }
   const names = [...code.matchAll(/^\s*(?:const|let)\s+([A-Za-z_$][\w$]*)\s*=/gm)].map((m) => m[1]);
   const ret = "\n;({" + names.map((n) => `${n}: typeof ${n} === "undefined" ? undefined : ${n}`).join(",") + "})";

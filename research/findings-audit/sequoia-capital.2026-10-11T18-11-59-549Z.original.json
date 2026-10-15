@@ -1,0 +1,739 @@
+{
+  "entity": "sequoia-capital",
+  "name": "Sequoia Capital",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "Sequoia Capital, founded in 1972 by Don Valentine, says it invests primarily on behalf of nonprofits and schools; public pensions in Washington, California, Massachusetts and Alaska have also committed money to its funds. In 2021 it moved its US and European funds into one open-ended vehicle, the Sequoia Capital Fund, which reported $22.7 billion sold to 396 investors by February 2026. In 2023–24 it separated from its China arm (HongShan) and India/Southeast Asia arm (Peak XV). Sequoia-affiliated funds bought X.com shares from Elon Musk in 1999, it committed $800 million to Musk's 2022 Twitter buyout, it wrote its $214 million FTX stake down to zero in 2022, and it has hired federal lobbyists since January 2024.",
+    "sources": [
+      {
+        "url": "https://sequoiacap.com/our-history",
+        "publisher": "Sequoia Capital",
+        "title": "Our history"
+      },
+      {
+        "url": "https://www.geekwire.com/2018/sequoia-capital-will-accept-350m-washington-state-investment-board-reports-say/",
+        "publisher": "GeekWire",
+        "title": "Sequoia Capital will accept $350M from Washington State Investment Board, reports say",
+        "date": "2018-04"
+      },
+      {
+        "url": "https://www.calpers.ca.gov/docs/board-agendas/202211/invest/item04d-01_a.pdf",
+        "publisher": "CalPERS",
+        "title": "Quarterly Update: Investment Controls, quarter ended September 30, 2022 (Investment Committee item 4d, attachment 1)",
+        "date": "2022-11"
+      },
+      {
+        "url": "https://www.privateequitywire.co.uk/mass-prim-allocates-150m-sequoia-china-funds/",
+        "publisher": "Private Equity Wire",
+        "title": "Mass PRIM allocates $150m to Sequoia China funds",
+        "date": "2022-07-04"
+      },
+      {
+        "url": "https://dealstreetasia.com/stories/sequoia-china-alaska-permanent-107669",
+        "publisher": "DealStreetAsia",
+        "title": "Sequoia's $8b China, US-focused vehicle snags $200m from Alaska fund",
+        "date": "2018-10-01"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1906948/000206235726000016/xslFormDX01/primary_doc.xml",
+        "publisher": "SEC",
+        "title": "Form D/A: Sequoia Capital Fund, L.P.",
+        "date": "2026-02-05"
+      },
+      {
+        "url": "https://techcrunch.com/2023/06/06/sequoia-rebrands-china-india-and-southeast-asia-units/",
+        "publisher": "TechCrunch",
+        "title": "Sequoia splits China and India arms from US mothership to avoid 'portfolio conflict' and 'market confusion'",
+        "date": "2023-06-06"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205701537924/a2060419zs-1a.htm",
+        "publisher": "SEC",
+        "title": "PayPal, Inc. Form S-1/A",
+        "date": "2001-11-07"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1418091/000110465922056055/tm2214608-1_sc13da.htm",
+        "publisher": "SEC",
+        "title": "Schedule 13D/A filed by Elon Musk regarding Twitter, Inc.",
+        "date": "2022-05-05"
+      },
+      {
+        "url": "https://fortune.com/2022/11/10/ftx-sam-bankman-fried-sequoia-writes-down-214-million-investment-to-zero-venture-capital-crypto/",
+        "publisher": "Fortune",
+        "title": "VC giant Sequoia writes down $214 million investment in FTX to zero: 'We are in the business of taking risk'",
+        "date": "2022-11-10"
+      },
+      {
+        "url": "https://lda.gov/filings/public/filing/aee59be0-67c9-4054-868e-aa89fc619add/print/",
+        "publisher": "Lobbying Disclosure Act database (lda.gov)",
+        "title": "LD-1 registration: Brownstein Hyatt Farber Schreck for Sequoia Capital Operations LLC",
+        "date": "2024-02-22"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Sequoia says Don Valentine founded the firm in 1972, and that it \"invests primarily on behalf of nonprofits and schools, with organizations such as the Ford Foundation and Boston Children's Hospital forming most of our limited partner base.\" The firm does not publish a full list of its limited partners.",
+      "status": "documented",
+      "date": "1972",
+      "sources": [
+        {
+          "url": "https://sequoiacap.com/our-history",
+          "publisher": "Sequoia Capital",
+          "title": "Our history"
+        }
+      ]
+    },
+    {
+      "claim": "On October 26, 2021, Roelof Botha announced that Sequoia's US and European funds would move to a single permanent structure, the Sequoia Capital Fund: an open-ended portfolio of public stakes that feeds closed-end venture sub-funds, with no fixed 10-year return cycle. Sequoia also registered as an investment adviser. Botha wrote that the majority of returns to its limited partners go to nonprofits and endowments. The China and India funds were not included.",
+      "status": "documented",
+      "date": "2021-10-26",
+      "sources": [
+        {
+          "url": "https://sequoiacap.com/article/the-sequoia-fund-patient-capital-for-building-enduring-companies",
+          "publisher": "Sequoia Capital",
+          "title": "The Sequoia Capital Fund: Patient Capital for Building Enduring Companies (Roelof Botha)",
+          "date": "2021-10-26"
+        },
+        {
+          "url": "https://techcrunch.com/2021/10/26/sequoia-dramatically-revamps-its-fund-structure-as-it-looks-to-rethink-venture-capital-model",
+          "publisher": "TechCrunch",
+          "title": "Sequoia dramatically revamps its fund structure as it looks to rethink venture capital model",
+          "date": "2021-10-26"
+        }
+      ]
+    },
+    {
+      "claim": "In its Form D amendment filed February 5, 2026, Sequoia Capital Fund, L.P. reported $22,722,245,832 sold to 396 investors since its first sale on February 8, 2022, with an indefinite offering size. A separate vehicle, Sequoia Capital Fund Feeder, L.P., reported $7,022,169,009 sold to 51 investors. The filings do not name the investors.",
+      "status": "documented",
+      "date": "2026-02-05",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1906948/000206235726000016/xslFormDX01/primary_doc.xml",
+          "publisher": "SEC",
+          "title": "Form D/A: Sequoia Capital Fund, L.P.",
+          "date": "2026-02-05"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1906966/000206235726000018/xslFormDX01/primary_doc.xml",
+          "publisher": "SEC",
+          "title": "Form D/A: Sequoia Capital Fund Feeder, L.P.",
+          "date": "2026-02-05"
+        }
+      ]
+    },
+    {
+      "claim": "The University of California endowment invested in a fund managed by Sequoia. In 2012 Reuters sued under the California Public Records Act for UC's returns from Sequoia and Kleiner Perkins funds; UC said the firms treated the data as confidential. A trial court ordered UC to make reasonable efforts to obtain it, and a 2015 Assembly analysis records that the ruling was overturned on appeal.",
+      "status": "documented",
+      "date": "2012-10",
+      "sources": [
+        {
+          "url": "https://www.philanthropy.com/news/court-orders-u-of-california-to-reveal-endowment-investment-returns/",
+          "publisher": "The Chronicle of Philanthropy",
+          "title": "Court Orders U. of California to Reveal Endowment Investment Returns",
+          "date": "2012-10-26"
+        },
+        {
+          "url": "https://www.leginfo.ca.gov/pub/15-16/bill/sen/sb_0551-0600/sb_574_cfa_20150713_165612_asm_comm.html",
+          "publisher": "California State Assembly",
+          "title": "SB 574 bill analysis, Assembly Committee on Appropriations",
+          "date": "2015-07-15"
+        }
+      ]
+    },
+    {
+      "claim": "Trade press reported in early 2018 that Sequoia was courting public pensions, which it had \"once shunned,\" for a large global growth fund, and in April 2018 that the Washington State Investment Board looked set to be the first public pension limited partner in that fund. WSIB's annual report for the fiscal year ended June 30, 2023 lists Sequoia Capital among its private equity partners.",
+      "status": "documented",
+      "date": "2018-04",
+      "sources": [
+        {
+          "url": "https://www.buyoutsinsider.com/to-reach-lofty-fund-goal-sequoia-needs-big-lps-it-once-shunned-public-pensions/",
+          "publisher": "Buyouts / PE Hub",
+          "title": "To reach lofty fund goal, Sequoia needs big LPs it once-shunned: public pensions",
+          "date": "2018-02-15"
+        },
+        {
+          "url": "https://www.buyoutsinsider.com/washington-looks-first-public-pension-lp-back-sequoias-megafund/",
+          "publisher": "Buyouts",
+          "title": "Washington looks to be first public pension LP to back Sequoia's megafund",
+          "date": "2018-04-23"
+        },
+        {
+          "url": "https://www.sib.wa.gov/docs/reports/annual/ar23.pdf",
+          "publisher": "Washington State Investment Board",
+          "title": "Forty-Second Annual Report, fiscal year ended June 30, 2023",
+          "date": "2023"
+        }
+      ]
+    },
+    {
+      "claim": "DealStreetAsia reported in October 2018 that the Alaska Permanent Fund Corporation committed $200 million to an $8 billion Sequoia vehicle focused on China and the US.",
+      "status": "reported",
+      "date": "2018-10-01",
+      "sources": [
+        {
+          "url": "https://dealstreetasia.com/stories/sequoia-china-alaska-permanent-107669",
+          "publisher": "DealStreetAsia",
+          "title": "Sequoia's $8b China, US-focused vehicle snags $200m from Alaska fund",
+          "date": "2018-10-01"
+        }
+      ]
+    },
+    {
+      "claim": "CalPERS, the California public employees' pension fund, made new commitments in July 2022 to four Sequoia Capital China funds: Seed Fund III ($12 million), Venture Fund IX ($32 million), Growth Fund VII ($104 million) and Expansion Fund I ($134 million), a total of $282 million.",
+      "status": "documented",
+      "date": "2022-07",
+      "sources": [
+        {
+          "url": "https://www.calpers.ca.gov/docs/board-agendas/202211/invest/item04d-01_a.pdf",
+          "publisher": "CalPERS",
+          "title": "Quarterly Update: Investment Controls, quarter ended September 30, 2022 (Investment Committee item 4d, attachment 1)",
+          "date": "2022-11"
+        }
+      ]
+    },
+    {
+      "claim": "As of March 31, 2026, CalPERS listed the same four funds under the HongShan name, with $282 million committed, about $104 million paid in and about $2.8 million distributed back. The US Sequoia funds do not appear in CalPERS's list of active private equity funds.",
+      "status": "documented",
+      "date": "2026-03-31",
+      "sources": [
+        {
+          "url": "https://www.calpers.ca.gov/page/investments/about-investment-office/investment-organization/pep-fund-performance",
+          "publisher": "CalPERS",
+          "title": "Private Equity Program (PEP) Fund Performance Review (data as of March 31, 2026)"
+        }
+      ]
+    },
+    {
+      "claim": "The Massachusetts Pension Reserves Investment Trust committed up to $150 million to four Sequoia Capital China funds in mid-2022, according to Private Equity Wire.",
+      "status": "reported",
+      "date": "2022-07-04",
+      "sources": [
+        {
+          "url": "https://www.privateequitywire.co.uk/mass-prim-allocates-150m-sequoia-china-funds/",
+          "publisher": "Private Equity Wire",
+          "title": "Mass PRIM allocates $150m to Sequoia China funds",
+          "date": "2022-07-04"
+        }
+      ]
+    },
+    {
+      "claim": "On June 6, 2023, Sequoia said it would split into three independent firms by March 2024: Sequoia Capital (US and Europe), HongShan (China, formerly Sequoia Capital China) and Peak XV Partners (India and Southeast Asia). Its leaders cited complexity, brand confusion and portfolio conflicts; TechCrunch noted rising US–China tension and planned US limits on investment in China.",
+      "status": "reported",
+      "date": "2023-06-06",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2023/06/06/sequoia-rebrands-china-india-and-southeast-asia-units/",
+          "publisher": "TechCrunch",
+          "title": "Sequoia splits China and India arms from US mothership to avoid 'portfolio conflict' and 'market confusion'",
+          "date": "2023-06-06"
+        }
+      ]
+    },
+    {
+      "claim": "On October 18, 2023, the House Select Committee on the CCP wrote to Sequoia about its Chinese AI, chip and quantum investments, naming EverSec, 4Paradigm, DJI, DeepGlint and ByteDance. It said US investors had been 60 to 70 percent of Sequoia China's limited partners (now about 50 percent) and \"remain the single largest source of capital.\" It asked how decisions were communicated to limited partners and whether any were based in China.",
+      "status": "documented",
+      "date": "2023-10-18",
+      "sources": [
+        {
+          "url": "https://chinaselectcommittee.house.gov/media/investigations/gallagher-krishnamoorthi-probe-sequoias-prc-high-tech-investments-examine",
+          "publisher": "House Select Committee on the CCP",
+          "title": "Gallagher, Krishnamoorthi Probe Sequoia's PRC High-Tech Investments, Examine Implications of Announced Split",
+          "date": "2023-10-18"
+        }
+      ]
+    },
+    {
+      "claim": "The Select Committee's February 8, 2024 findings named Sequoia among five US venture firms that together invested at least $3 billion in Chinese companies it said supported China's military, rights abuses or chip industry. It said Sequoia put over $1 billion into helping ByteDance expand overseas, and that these firms' limited partners include university endowments, family offices and pension funds.",
+      "status": "documented",
+      "date": "2024-02-08",
+      "sources": [
+        {
+          "url": "https://chinaselectcommittee.house.gov/sites/evo-subsites/selectcommitteeontheccp.house.gov/files/evo-media-document/2.8.24%20SCC%20Venture%20Capital%20Report%20Summary.pdf",
+          "publisher": "House Select Committee on the CCP",
+          "title": "Summary of Select Committee Investigation Findings on American Venture Capital Fueling the PRC Military and Human Rights Abuses",
+          "date": "2024-02-08"
+        }
+      ]
+    },
+    {
+      "claim": "Brownstein Hyatt Farber Schreck registered to lobby for Sequoia Capital Operations LLC, effective January 12, 2024 (registration signed February 22, 2024), on \"issues related to AI, emerging technologies, and the VC sector.\" Lobbyists listed on its filings include former staff of Kevin McCarthy (when he was House Republican leader), Nancy Pelosi, Dick Durbin, and Senators Bob Casey and Kirsten Gillibrand. Its first-quarter 2024 report lists contacts with the Senate and House.",
+      "status": "documented",
+      "date": "2024-01-12",
+      "sources": [
+        {
+          "url": "https://lda.gov/filings/public/filing/aee59be0-67c9-4054-868e-aa89fc619add/print/",
+          "publisher": "Lobbying Disclosure Act database (lda.gov)",
+          "title": "LD-1 registration: Brownstein Hyatt Farber Schreck for Sequoia Capital Operations LLC",
+          "date": "2024-02-22"
+        },
+        {
+          "url": "https://lda.gov/filings/public/filing/7ad516b4-dabd-4e77-9b23-380cdc8e2d25/print/",
+          "publisher": "Lobbying Disclosure Act database (lda.gov)",
+          "title": "LD-2 report Q1 2024: Brownstein Hyatt Farber Schreck for Sequoia Capital Operations LLC",
+          "date": "2024-04-18"
+        }
+      ]
+    },
+    {
+      "claim": "Sequoia's lobbying reports list $360,000 in fees for 2024, $240,000 for 2025 and $120,000 for the first half of 2026, a total of $720,000. The federal lobbying database shows no filings for a client named Sequoia Capital before 2024.",
+      "status": "documented",
+      "date": "2026-07-16",
+      "sources": [
+        {
+          "url": "https://lda.gov/api/v1/filings/?client_name=Sequoia%20Capital",
+          "publisher": "Lobbying Disclosure Act database (lda.gov)",
+          "title": "Filings with client name 'Sequoia Capital' (11 filings, 2024 Q1 to 2026 Q2)"
+        }
+      ]
+    },
+    {
+      "claim": "Sequoia told its limited partners in November 2022 that it was marking its $214 million FTX investment, made in July 2021, down to $0. About $150 million was in Global Growth Fund III and $63.5 million in its SCGE public-equities fund. The letter said the loss was offset by about $7.5 billion in gains in the same growth fund.",
+      "status": "reported",
+      "date": "2022-11-10",
+      "quote": "We are in the business of taking risk.",
+      "sources": [
+        {
+          "url": "https://fortune.com/2022/11/10/ftx-sam-bankman-fried-sequoia-writes-down-214-million-investment-to-zero-venture-capital-crypto/",
+          "publisher": "Fortune",
+          "title": "VC giant Sequoia writes down $214 million investment in FTX to zero: 'We are in the business of taking risk'",
+          "date": "2022-11-10"
+        }
+      ]
+    },
+    {
+      "claim": "In February 2023, Sequoia, Thoma Bravo and Paradigm were named as defendants in a proposed class action by FTX investors. It claims the firms promoted FTX in 2021 and gave it \"an air of legitimacy.\" No public record was found of a ruling on these claims against Sequoia.",
+      "status": "reported",
+      "date": "2023-02-14",
+      "sources": [
+        {
+          "url": "https://www.pymnts.com/cryptocurrency/2023/investment-firms-sued-for-adding-legitimacy-to-ftx/",
+          "publisher": "PYMNTS",
+          "title": "Sequoia Named in Lawsuit for Adding 'Legitimacy' to FTX",
+          "date": "2023-02-15"
+        }
+      ]
+    },
+    {
+      "claim": "Sequoia Capital Fund, L.P. made an $800 million equity commitment to Elon Musk's 2022 acquisition of Twitter. In the same filing, AH Capital Management (Andreessen Horowitz) committed $400 million and Binance $500 million.",
+      "status": "documented",
+      "date": "2022-05-05",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1418091/000110465922056055/tm2214608-1_sc13da.htm",
+          "publisher": "SEC",
+          "title": "Schedule 13D/A filed by Elon Musk regarding Twitter, Inc.",
+          "date": "2022-05-05"
+        },
+        {
+          "url": "https://techcrunch.com/2022/05/05/sequoia-binance-and-fidelity-back-elon-musks-bid-for-twitter/",
+          "publisher": "TechCrunch",
+          "title": "Sequoia, Binance and Fidelity back Elon Musk's bid for Twitter",
+          "date": "2022-05-05"
+        }
+      ]
+    },
+    {
+      "claim": "Asked about the 2024 election, Sequoia leader Roelof Botha said the firm takes no political position and lets partners express their own views.",
+      "status": "words",
+      "date": "2024-07-16",
+      "quote": "At Sequoia as a partnership, we don't take a political point of view.",
+      "sources": [
+        {
+          "url": "https://fortune.com/2024/07/16/sequoia-roelof-botha-vc-firm-wont-take-sides-election-unhealthy-partisan-divide-brainstorm-tech",
+          "publisher": "Fortune",
+          "title": "Sequoia's Roelof Botha says VC firm won't take sides in election",
+          "date": "2024-07-16"
+        }
+      ]
+    },
+    {
+      "claim": "Two longtime Sequoia leaders have backed opposing political causes. Doug Leone, who led the firm until 2022 and remains a partner, gave $50,000 to a pro-Trump super PAC in 2020, $2 million to a super PAC backing Ron DeSantis in 2023, and $250,000 against California's Prop. 50 in 2025. Michael Moritz, who left Sequoia in 2023, gave more than $15 million to Democratic candidates in 2024 and $2.5 million for Prop. 50 in 2025. (Moritz is chairman of The San Francisco Standard, which reported these figures.)",
+      "status": "reported",
+      "date": "2025-10-23",
+      "sources": [
+        {
+          "url": "https://sfstandard.com/2025/10/23/led-sequoia-capital-decades-now-re-opposite-sides-prop-50/",
+          "publisher": "The San Francisco Standard",
+          "title": "They led Sequoia Capital for decades. Now they're on opposite sides of Prop. 50.",
+          "date": "2025-10-23"
+        }
+      ]
+    },
+    {
+      "claim": "Sequoia partner Shaun Maguire posted on X after Donald Trump's May 30, 2024 New York conviction that he had donated $300,000 to support Trump.",
+      "status": "reported",
+      "date": "2024-05-31",
+      "sources": [
+        {
+          "url": "https://www.timeslive.co.za/news/world/2024-05-31-trump-guilty-verdict-fires-up-republican-donors-who-pledge-millions/",
+          "publisher": "Reuters (via TimesLIVE)",
+          "title": "Trump guilty verdict fires up Republican donors, who pledge millions",
+          "date": "2024-05-31"
+        },
+        {
+          "url": "https://www.yahoo.com/news/shaun-maguire-vc-partner-facing-205941199.html",
+          "publisher": "Business Insider (via Yahoo News)",
+          "title": "Who is Shaun Maguire, the VC partner facing backlash over his remarks about Zohran Mamdani",
+          "date": "2025-07-08"
+        }
+      ]
+    },
+    {
+      "claim": "Fortune wrote in January 2021 that Doug Leone had given hundreds of thousands of dollars to Trump re-election efforts and had reportedly sought to use his ties to help keep ByteDance, a Sequoia portfolio company, from being banned in the US. After the January 6 Capitol attack, Leone said Trump had \"lost many of his supporters, including me.\" The San Francisco Standard reported that he renewed his support for Trump during the 2024 race.",
+      "status": "reported",
+      "date": "2021-01-13",
+      "sources": [
+        {
+          "url": "https://fortune.com/2021/01/14/why-investors-are-excited-to-see-the-plaid-and-visa-merger-die-2",
+          "publisher": "Fortune",
+          "title": "Sequoia's Doug Leone turns on Trump (Term Sheet)",
+          "date": "2021-01-14"
+        },
+        {
+          "url": "https://sfstandard.com/2025/10/23/led-sequoia-capital-decades-now-re-opposite-sides-prop-50/",
+          "publisher": "The San Francisco Standard",
+          "title": "They led Sequoia Capital for decades. Now they're on opposite sides of Prop. 50.",
+          "date": "2025-10-23"
+        }
+      ]
+    },
+    {
+      "claim": "Sequoia Capital China was co-founded in 2005 by Neil Shen and Zhang Fan. In 2009 TechCrunch described it as a franchise in which local partners used the Sequoia name while keeping the funds separate.",
+      "status": "reported",
+      "date": "2005",
+      "sources": [
+        {
+          "url": "https://privateequityinternational.com/sequoias-founding-member-in-china-resigns",
+          "publisher": "Private Equity International",
+          "title": "Sequoia's founding member in China resigns",
+          "date": "2009-02-03"
+        },
+        {
+          "url": "https://techcrunch.com/2009/05/15/is-sequoia-china-in-trouble/",
+          "publisher": "TechCrunch",
+          "title": "Is Sequoia China in Trouble?",
+          "date": "2009-05-15"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "paypal",
+      "toName": "PayPal (X.com)",
+      "toType": "company",
+      "relation": "invested in",
+      "claim": "In August 1999, Sequoia funds bought 15,000,000 X.com Series A preferred shares from Elon Musk (not from the company) for $5.0 million. They later bought 6,000,000 Series B and 363,636 Series C shares, and held 9.9% of PayPal before its 2002 IPO. Sequoia partner Michael Moritz was a director from August 1999.",
+      "status": "documented",
+      "date": "1999-08",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205701537924/a2060419zs-1a.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form S-1/A",
+          "date": "2001-11-07"
+        }
+      ]
+    },
+    {
+      "to": "elon-musk",
+      "toName": "Elon Musk",
+      "toType": "person",
+      "relation": "other",
+      "claim": "Sequoia's first X.com stake was bought from Musk himself in 1999 for $5.0 million. In 2022, Sequoia Capital Fund pledged $800 million in equity to Musk's purchase of Twitter.",
+      "status": "documented",
+      "date": "2022-05-05",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205701537924/a2060419zs-1a.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form S-1/A",
+          "date": "2001-11-07"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1418091/000110465922056055/tm2214608-1_sc13da.htm",
+          "publisher": "SEC",
+          "title": "Schedule 13D/A filed by Elon Musk regarding Twitter, Inc.",
+          "date": "2022-05-05"
+        }
+      ]
+    },
+    {
+      "to": "michael-moritz",
+      "toName": "Michael Moritz",
+      "toType": "person",
+      "relation": "employed by",
+      "reverse": true,
+      "claim": "Michael Moritz was a Sequoia partner from 1986, gave up a management role about a decade before leaving the firm in 2023, and later became a senior adviser to Sequoia's wealth-management arm.",
+      "status": "reported",
+      "date": "1986",
+      "sources": [
+        {
+          "url": "https://www.nbcnewyork.com/news/business/money-report/trumps-tech-backers-are-making-a-big-mistake-sequoias-mike-moritz-says/5672876/",
+          "publisher": "CNBC (via NBC New York)",
+          "title": "Trump's tech backers are 'making a big mistake,' Sequoia's Mike Moritz says",
+          "date": "2024-08-05"
+        },
+        {
+          "url": "https://sfstandard.com/2025/10/23/led-sequoia-capital-decades-now-re-opposite-sides-prop-50/",
+          "publisher": "The San Francisco Standard",
+          "title": "They led Sequoia Capital for decades. Now they're on opposite sides of Prop. 50.",
+          "date": "2025-10-23"
+        }
+      ]
+    },
+    {
+      "to": "roelof-botha",
+      "toName": "Roelof Botha",
+      "toType": "person",
+      "relation": "employed by",
+      "reverse": true,
+      "claim": "Roelof Botha, PayPal's CFO who led its 2002 IPO, joined Sequoia after the eBay sale. He was the firm's steward from 2017 and handed the role to Alfred Lin and Pat Grady in November 2025.",
+      "status": "reported",
+      "date": "2025-11-04",
+      "sources": [
+        {
+          "url": "https://www.gsb.stanford.edu/index%2Ephp/programs/mba/life-community/alumni/voices/roelof-botha",
+          "publisher": "Stanford Graduate School of Business",
+          "title": "Alumni Voices: Roelof Botha"
+        },
+        {
+          "url": "https://fortune.com/2025/11/04/roelof-botha-steps-aside-as-sequoias-steward-passing-the-role-to-alfred-lin-and-pat-grady",
+          "publisher": "Fortune",
+          "title": "Roelof Botha steps aside as Sequoia's steward, passing the role to Alfred Lin and Pat Grady",
+          "date": "2025-11-04"
+        }
+      ]
+    },
+    {
+      "to": "andreessen-horowitz",
+      "toName": "Andreessen Horowitz",
+      "toType": "company",
+      "relation": "partnered with",
+      "claim": "Sequoia ($800 million) and Andreessen Horowitz ($400 million) were both equity co-investors in Elon Musk's 2022 take-private of Twitter.",
+      "status": "documented",
+      "date": "2022-05-05",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1418091/000110465922056055/tm2214608-1_sc13da.htm",
+          "publisher": "SEC",
+          "title": "Schedule 13D/A filed by Elon Musk regarding Twitter, Inc.",
+          "date": "2022-05-05"
+        }
+      ]
+    },
+    {
+      "to": "ftx",
+      "toName": "FTX",
+      "toType": "company",
+      "relation": "invested in",
+      "claim": "Sequoia invested $214 million in FTX and FTX US in July 2021 and wrote the stake down to $0 in November 2022.",
+      "status": "reported",
+      "date": "2021-07",
+      "sources": [
+        {
+          "url": "https://fortune.com/2022/11/10/ftx-sam-bankman-fried-sequoia-writes-down-214-million-investment-to-zero-venture-capital-crypto/",
+          "publisher": "Fortune",
+          "title": "VC giant Sequoia writes down $214 million investment in FTX to zero: 'We are in the business of taking risk'",
+          "date": "2022-11-10"
+        }
+      ]
+    },
+    {
+      "to": "calpers",
+      "toName": "CalPERS",
+      "toType": "organization",
+      "relation": "invested in",
+      "reverse": true,
+      "claim": "CalPERS committed $282 million to four Sequoia Capital China funds in July 2022 and still held them under the HongShan name in March 2026.",
+      "status": "documented",
+      "date": "2022-07",
+      "sources": [
+        {
+          "url": "https://www.calpers.ca.gov/docs/board-agendas/202211/invest/item04d-01_a.pdf",
+          "publisher": "CalPERS",
+          "title": "Quarterly Update: Investment Controls, quarter ended September 30, 2022 (Investment Committee item 4d, attachment 1)",
+          "date": "2022-11"
+        },
+        {
+          "url": "https://www.calpers.ca.gov/page/investments/about-investment-office/investment-organization/pep-fund-performance",
+          "publisher": "CalPERS",
+          "title": "Private Equity Program (PEP) Fund Performance Review (data as of March 31, 2026)"
+        }
+      ]
+    },
+    {
+      "to": "washington-state-investment-board",
+      "toName": "Washington State Investment Board",
+      "toType": "organization",
+      "relation": "invested in",
+      "reverse": true,
+      "claim": "Trade press reported in 2018 that WSIB looked set to be the first public pension limited partner in Sequoia's growth fund. WSIB's 2023 annual report lists Sequoia Capital among its private equity partners.",
+      "status": "documented",
+      "date": "2018-04",
+      "sources": [
+        {
+          "url": "https://www.buyoutsinsider.com/washington-looks-first-public-pension-lp-back-sequoias-megafund/",
+          "publisher": "Buyouts",
+          "title": "Washington looks to be first public pension LP to back Sequoia's megafund",
+          "date": "2018-04-23"
+        },
+        {
+          "url": "https://www.sib.wa.gov/docs/reports/annual/ar23.pdf",
+          "publisher": "Washington State Investment Board",
+          "title": "Forty-Second Annual Report, fiscal year ended June 30, 2023",
+          "date": "2023"
+        }
+      ]
+    },
+    {
+      "to": "massachusetts-prim",
+      "toName": "Massachusetts Pension Reserves Investment Trust",
+      "toType": "organization",
+      "relation": "invested in",
+      "reverse": true,
+      "claim": "Mass PRIM committed up to $150 million to four Sequoia Capital China funds in 2022.",
+      "status": "reported",
+      "date": "2022-07-04",
+      "sources": [
+        {
+          "url": "https://www.privateequitywire.co.uk/mass-prim-allocates-150m-sequoia-china-funds/",
+          "publisher": "Private Equity Wire",
+          "title": "Mass PRIM allocates $150m to Sequoia China funds",
+          "date": "2022-07-04"
+        }
+      ]
+    },
+    {
+      "to": "hongshan",
+      "toName": "HongShan (formerly Sequoia Capital China)",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Sequoia Capital China, co-founded in 2005, was separated from Sequoia under the plan announced June 6, 2023, to be completed by March 2024, and renamed HongShan in English.",
+      "status": "reported",
+      "date": "2023-06-06",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2023/06/06/sequoia-rebrands-china-india-and-southeast-asia-units/",
+          "publisher": "TechCrunch",
+          "title": "Sequoia splits China and India arms from US mothership to avoid 'portfolio conflict' and 'market confusion'",
+          "date": "2023-06-06"
+        },
+        {
+          "url": "https://privateequityinternational.com/sequoias-founding-member-in-china-resigns",
+          "publisher": "Private Equity International",
+          "title": "Sequoia's founding member in China resigns",
+          "date": "2009-02-03"
+        }
+      ]
+    },
+    {
+      "to": "peak-xv-partners",
+      "toName": "Peak XV Partners",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Sequoia's India and Southeast Asia arm was spun off as Peak XV Partners under the June 2023 plan. It had raised $9.2 billion across 13 funds under the Sequoia name.",
+      "status": "reported",
+      "date": "2023-06-06",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2023/06/06/sequoia-rebrands-china-india-and-southeast-asia-units/",
+          "publisher": "TechCrunch",
+          "title": "Sequoia splits China and India arms from US mothership to avoid 'portfolio conflict' and 'market confusion'",
+          "date": "2023-06-06"
+        }
+      ]
+    },
+    {
+      "to": "house-select-committee-on-the-ccp",
+      "toName": "House Select Committee on the CCP",
+      "toType": "organization",
+      "relation": "investigated",
+      "reverse": true,
+      "claim": "The House Select Committee on the CCP investigated Sequoia's China investments: a letter in October 2023, then findings in February 2024 that named Sequoia among five firms.",
+      "status": "documented",
+      "date": "2023-10-18",
+      "sources": [
+        {
+          "url": "https://chinaselectcommittee.house.gov/media/investigations/gallagher-krishnamoorthi-probe-sequoias-prc-high-tech-investments-examine",
+          "publisher": "House Select Committee on the CCP",
+          "title": "Gallagher, Krishnamoorthi Probe Sequoia's PRC High-Tech Investments, Examine Implications of Announced Split",
+          "date": "2023-10-18"
+        },
+        {
+          "url": "https://chinaselectcommittee.house.gov/sites/evo-subsites/selectcommitteeontheccp.house.gov/files/evo-media-document/2.8.24%20SCC%20Venture%20Capital%20Report%20Summary.pdf",
+          "publisher": "House Select Committee on the CCP",
+          "title": "Summary of Select Committee Investigation Findings on American Venture Capital Fueling the PRC Military and Human Rights Abuses",
+          "date": "2024-02-08"
+        }
+      ]
+    },
+    {
+      "to": "bytedance",
+      "toName": "ByteDance",
+      "toType": "company",
+      "relation": "invested in",
+      "claim": "The House Select Committee said Sequoia put over $1 billion into helping ByteDance, TikTok's parent, expand overseas.",
+      "status": "documented",
+      "date": "2024-02-08",
+      "sources": [
+        {
+          "url": "https://chinaselectcommittee.house.gov/sites/evo-subsites/selectcommitteeontheccp.house.gov/files/evo-media-document/2.8.24%20SCC%20Venture%20Capital%20Report%20Summary.pdf",
+          "publisher": "House Select Committee on the CCP",
+          "title": "Summary of Select Committee Investigation Findings on American Venture Capital Fueling the PRC Military and Human Rights Abuses",
+          "date": "2024-02-08"
+        }
+      ]
+    },
+    {
+      "to": "brownstein-hyatt-farber-schreck",
+      "toName": "Brownstein Hyatt Farber Schreck",
+      "toType": "company",
+      "relation": "contracted with",
+      "claim": "Sequoia Capital Operations LLC hired Brownstein Hyatt Farber Schreck to lobby Congress from January 2024, paying $720,000 through mid-2026.",
+      "status": "documented",
+      "date": "2024-01-12",
+      "sources": [
+        {
+          "url": "https://lda.gov/filings/public/filing/aee59be0-67c9-4054-868e-aa89fc619add/print/",
+          "publisher": "Lobbying Disclosure Act database (lda.gov)",
+          "title": "LD-1 registration: Brownstein Hyatt Farber Schreck for Sequoia Capital Operations LLC",
+          "date": "2024-02-22"
+        },
+        {
+          "url": "https://lda.gov/api/v1/filings/?client_name=Sequoia%20Capital",
+          "publisher": "Lobbying Disclosure Act database (lda.gov)",
+          "title": "Filings with client name 'Sequoia Capital' (11 filings, 2024 Q1 to 2026 Q2)"
+        }
+      ]
+    },
+    {
+      "to": "twitter",
+      "toName": "Twitter (X)",
+      "toType": "company",
+      "relation": "invested in",
+      "claim": "Sequoia Capital Fund, L.P. made an $800 million equity commitment to Elon Musk's 2022 acquisition of Twitter.",
+      "status": "documented",
+      "date": "2022-05-05",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1418091/000110465922056055/tm2214608-1_sc13da.htm",
+          "publisher": "SEC",
+          "title": "Schedule 13D/A filed by Elon Musk regarding Twitter, Inc.",
+          "date": "2022-05-05"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "No full list of Sequoia's US limited partners was found. The $350 million WSIB commitment to 'Sequoia Global Growth Fund III – Endurance Partners' (April 2018) appears only in reports that could not be opened (GeekWire, Pensions & Investments). If confirmed, it would mean a public pension was in the same Global Growth Fund III that held $150 million of FTX.",
+    "Sequoia's reported 2003 removal of the University of California from Fund XI, and its earlier request that the University of Michigan leave, citing public-records disclosures, appear only in PlanSponsor and Buyouts reports that could not be opened.",
+    "No ruling was found on the FTX investor claims against Sequoia in MDL No. 3076 (S.D. Fla.); its status after the August 2025 amended complaint is unknown.",
+    "FEC itemized records for Leone, Maguire and Moritz could not be pulled (API rate-limited). The amounts above come from news reports; which committee received Maguire's $300,000 is not confirmed.",
+    "Sequoia's lobbying registration took effect about three months after the Select Committee's October 2023 letter and was filed two weeks after its February 2024 findings. No public record states why Sequoia hired them or which bills they worked on beyond 'AI, emerging technologies, and the VC sector'.",
+    "Whether Alaska Permanent Fund's reported $200 million (2018) went to a Sequoia China fund or a US global growth fund is unclear from the headline-only source.",
+    "Whether Sequoia or HongShan still hold ByteDance stakes after the split, and their size, was not verified."
+  ]
+}

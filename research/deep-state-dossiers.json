@@ -1,0 +1,466 @@
+{
+ "status": {
+  "law": {
+   "label": "LAW",
+   "desc": "the text of a statute, regulation or executive order"
+  },
+  "documented": {
+   "label": "DOCUMENTED",
+   "desc": "official records, filings or the organisation’s own statements"
+  },
+  "reported": {
+   "label": "REPORTED",
+   "desc": "investigative or financial journalism"
+  },
+  "words": {
+   "label": "IN THEIR WORDS",
+   "desc": "the person’s own published writing or speech"
+  },
+  "argument": {
+   "label": "ARGUMENT",
+   "desc": "an interpretation, with whose it is"
+  }
+ },
+ "dossiers": [
+  {
+   "key": "civil-service",
+   "n": "01",
+   "glyph": "columns",
+   "cmd": "C:\\OPM> RECLASS /ALL",
+   "title": "THE CIVIL SERVICE",
+   "what": "Who can be fired for the advice they give. A reclassification turns career experts into employees who can be dismissed like political appointees.",
+   "facts": [
+    {
+     "status": "law",
+     "text": "Schedule F was created by an executive order in October 2020, revoked in 2021, and restored by executive order on January 20, 2025. It lets career federal employees in policy-influencing jobs be reclassified so they can be dismissed like political appointees.",
+     "sources": [
+      {
+       "url": "https://www.federalregister.gov/documents/2020/10/26/2020-23780/creating-schedule-f-in-the-excepted-service",
+       "publisher": "Federal Register",
+       "date": "2020-10"
+      },
+      {
+       "url": "https://www.whitehouse.gov/presidential-actions/2025/01/restoring-accountability-to-policy-influencing-positions-within-the-federal-workforce/",
+       "publisher": "The White House",
+       "date": "2025-01"
+      },
+      {
+       "url": "https://www.govinfo.gov/content/pkg/DCPD-202000792/pdf/DCPD-202000792.pdf",
+       "publisher": "U.S. Government Publishing Office",
+       "date": "2020-10"
+      },
+      {
+       "url": "https://trumpwhitehouse.archives.gov/presidential-actions/executive-order-creating-schedule-f-excepted-service/",
+       "publisher": "Trump White House Archives",
+       "date": "2020-10"
+      },
+      {
+       "url": "https://www.govinfo.gov/content/pkg/DCPD-202500138/pdf/DCPD-202500138.pdf",
+       "publisher": "U.S. Government Publishing Office",
+       "date": "2025-01"
+      }
+     ],
+     "id": "DS-1-0"
+    },
+    {
+     "status": "documented",
+     "text": "The Office of Personnel Management estimated that about 50,000 positions, roughly 2% of the federal workforce, would be moved into the new category, renamed Schedule Policy/Career.",
+     "sources": [
+      {
+       "url": "https://federalnewsnetwork.com/workforce/2026/03/federal-employees-face-looming-finalization-of-schedule-policy-career/",
+       "publisher": "Federal News Network",
+       "date": "2026-03"
+      }
+     ],
+     "id": "DS-1-1"
+    },
+    {
+     "status": "law",
+     "text": "Employees moved into the category are excepted from the adverse action procedures of Chapter 75 of Title 5, which require agencies to follow extensive procedures before taking adverse action against an employee.",
+     "sources": [
+      {
+       "url": "https://www.federalregister.gov/documents/2020/10/26/2020-23780/creating-schedule-f-in-the-excepted-service",
+       "publisher": "Federal Register",
+       "date": "2020-10"
+      },
+      {
+       "url": "https://www.govinfo.gov/content/pkg/DCPD-202600378/pdf/DCPD-202600378.pdf",
+       "publisher": "U.S. Government Publishing Office",
+       "date": "2026-06"
+      }
+     ],
+     "id": "DS-1-2"
+    },
+    {
+     "status": "words",
+     "text": "Curtis Yarvin coined the acronym “RAGE,” for Retire All Government Employees: once in power, send the old regime’s civil servants off with pensions and replace them. In 2021 JD Vance cited Yarvin while saying Trump should fire every mid-level civil servant and replace them with “our people.”",
+     "sources": [
+      {
+       "url": "https://theconversation.com/an-antidemocratic-philosophy-called-neoreaction-is-creeping-into-gop-politics-182581",
+       "publisher": "The Conversation",
+       "date": "2022-05"
+      },
+      {
+       "url": "https://www.vox.com/policy-and-politics/23373795/curtis-yarvin-mencius-moldbug-conservative",
+       "publisher": "Vox",
+       "date": "2022-10"
+      },
+      {
+       "url": "https://www.wbur.org/onpoint/2025/04/05/jd-vance-new-right-curtis-yarvin",
+       "publisher": "WBUR",
+       "date": "2025-04"
+      }
+     ],
+     "id": "DS-1-3"
+    }
+   ],
+   "argument": {
+    "status": "argument",
+    "text": "Critics argue that removing job protections from scientists, inspectors and enforcement staff exposes safety and enforcement decisions to political pressure.",
+    "sources": [
+     {
+      "url": "https://www.scientificamerican.com/article/white-house-reclassifies-federal-epidemiologists-and-other-scientists-from-civil-servants-to-at-will-hires/",
+      "publisher": "Scientific American",
+      "date": "2026-06"
+     },
+     {
+      "url": "https://www.statnews.com/2026/02/06/nih-grant-reviewers-schedule-f-designation-politicizes-science/",
+      "publisher": "STAT",
+      "date": "2026-02"
+     }
+    ],
+    "id": "DS-1-4"
+   }
+  },
+  {
+   "key": "surveillance",
+   "n": "02",
+   "glyph": "eye",
+   "cmd": "C:\\ICE> TRACK /PRIORITIZE",
+   "title": "THE SURVEILLANCE CONTRACTS",
+   "what": "A system to find and sort people for deportation, built by a company whose co-founder funds the politicians around it.",
+   "facts": [
+    {
+     "status": "documented",
+     "text": "Immigration and Customs Enforcement is paying Palantir $30 million to build “ImmigrationOS,” a system to watch people leaving the country and help choose who to deport, according to ICE’s own contract justification.",
+     "sources": [
+      {
+       "url": "https://www.wired.com/story/ice-palantir-immigrationos/",
+       "publisher": "WIRED",
+       "date": "2025-04"
+      }
+     ],
+     "id": "DS-2-0"
+    },
+    {
+     "status": "documented",
+     "text": "ICE awarded the ImmigrationOS work to Palantir without competitive bidding, as a sole-source modification of an existing contract.",
+     "sources": [
+      {
+       "url": "https://www.wired.com/story/ice-palantir-immigrationos/",
+       "publisher": "WIRED",
+       "date": "2025-04"
+      }
+     ],
+     "id": "DS-2-1"
+    },
+    {
+     "status": "documented",
+     "text": "Federal Election Commission records show Peter Thiel gave $15 million to Protect Ohio Values, the super PAC behind JD Vance’s 2022 Senate run: $10 million in March 2021 and $5 million in April 2022.",
+     "sources": [
+      {
+       "url": "https://www.fec.gov/data/receipts/?committee_id=C00770495&contributor_name=thiel",
+       "publisher": "FEC",
+       "date": "2022-04"
+      },
+      {
+       "url": "https://www.wbur.org/onpoint/2025/04/05/jd-vance-new-right-curtis-yarvin",
+       "publisher": "WBUR",
+       "date": "2025-04"
+      }
+     ],
+     "id": "DS-2-2"
+    },
+    {
+     "status": "reported",
+     "text": "Stephen Miller’s financial disclosure, released by the White House, listed from $100,001 up to a quarter of a million dollars in Palantir stock.",
+     "sources": [
+      {
+       "url": "https://www.pogo.org/investigates/stephen-miller-conflicts-of-interest",
+       "publisher": "POGO",
+       "date": "2025-06"
+      }
+     ],
+     "id": "DS-2-3"
+    }
+   ],
+   "argument": {
+    "status": "argument",
+    "text": "Civil-liberties groups warn that combining government and commercial data lets agencies track people’s movements and associations without a warrant.",
+    "sources": [
+     {
+      "url": "https://www.aclu.org/issues/privacy-technology/location-tracking",
+      "publisher": "American Civil Liberties Union",
+      "date": ""
+     },
+     {
+      "url": "https://www.npr.org/2026/03/25/nx-s1-5752369/ice-surveillance-data-brokers-congress-anthropic",
+      "publisher": "NPR",
+      "date": "2026-03"
+     }
+    ],
+    "id": "DS-2-4"
+   }
+  },
+  {
+   "key": "money",
+   "n": "03",
+   "glyph": "coin",
+   "cmd": "C:\\TREASURY> MINT /PRIVATE",
+   "title": "THE MONEY ITSELF",
+   "what": "Private dollars under a new federal law: who may issue them, what must back them, and what does not protect the people who hold them.",
+   "facts": [
+    {
+     "status": "law",
+     "text": "The GENIUS Act creates a federal framework for permitted issuers to issue dollar-pegged \"payment stablecoins.\"",
+     "sources": [
+      {
+       "url": "https://www.cbsnews.com/news/trump-signs-genius-act-crypto-bill",
+       "publisher": "CBS News",
+       "date": "2025-07"
+      },
+      {
+       "url": "https://www.govinfo.gov/content/pkg/BILLS-119s1582enr/html/BILLS-119s1582enr.htm",
+       "publisher": "U.S. Government Publishing Office",
+       "date": ""
+      }
+     ],
+     "id": "DS-3-0"
+    },
+    {
+     "status": "law",
+     "text": "Issuers must hold reserves of at least one dollar for every coin, in cash, bank deposits or short-term Treasury bills.",
+     "sources": [
+      {
+       "url": "https://www.govinfo.gov/content/pkg/BILLS-119s1582enr/html/BILLS-119s1582enr.htm",
+       "publisher": "U.S. Government Publishing Office",
+       "date": ""
+      }
+     ],
+     "id": "DS-3-1"
+    },
+    {
+     "status": "law",
+     "text": "Payment stablecoins are not backed by the full faith and credit of the United States, are not guaranteed by the government, and are not covered by Federal Deposit Insurance Corporation deposit insurance.",
+     "sources": [
+      {
+       "url": "https://www.govinfo.gov/content/pkg/BILLS-119s1582enr/html/BILLS-119s1582enr.htm",
+       "publisher": "U.S. Government Publishing Office",
+       "date": ""
+      }
+     ],
+     "id": "DS-3-2"
+    },
+    {
+     "status": "reported",
+     "text": "World Liberty Financial, a crypto venture backed by President Donald Trump and his family, launched its own dollar stablecoin, USD1, in March 2025.",
+     "sources": [
+      {
+       "url": "https://www.cnbc.com/2025/03/25/trumps-world-liberty-financial-jumps-into-stablecoin-game-with-usd1-reveal.html",
+       "publisher": "CNBC",
+       "date": "2025-03"
+      }
+     ],
+     "id": "DS-3-3"
+    }
+   ],
+   "argument": {
+    "status": "argument",
+    "text": "With no deposit insurance, holders would bear the loss if an issuer failed. The FDIC’s chairman has said stablecoin users will get no government guarantee of their money.",
+    "sources": [
+     {
+      "url": "https://www.coindesk.com/policy/2026/03/11/stablecoins-won-t-get-any-kind-of-deposit-insurance-under-genius-rules-says-fdic-chief",
+      "publisher": "CoinDesk",
+      "date": "2026-03"
+     }
+    ],
+    "id": "DS-3-4"
+   }
+  },
+  {
+   "key": "machines",
+   "n": "04",
+   "glyph": "drone",
+   "cmd": "C:\\DOD> REPLICATE /THOUSANDS",
+   "title": "THE MACHINES",
+   "what": "Autonomous systems bought by the thousand for the battlefield and the border, and what was really flying over New Jersey.",
+   "facts": [
+    {
+     "status": "documented",
+     "text": "In August 2023 the Pentagon unveiled Replicator, a plan to field thousands of uncrewed systems by August 2025. By then, a former defense official noted, it had fielded only hundreds.",
+     "sources": [
+      {
+       "url": "https://www.congress.gov/crs_external_products/IF/PDF/IF12611/IF12611.10.pdf",
+       "publisher": "Congress.gov",
+       "date": "2025-09"
+      },
+      {
+       "url": "https://www.diu.mil/latest/implementing-the-department-of-defense-replicator-initiative-to-accelerate",
+       "publisher": "Defense Innovation Unit, U.S. Department of…",
+       "date": "2023-11"
+      }
+     ],
+     "id": "DS-4-0"
+    },
+    {
+     "status": "documented",
+     "text": "Customs and Border Protection uses Anduril's Autonomous Surveillance Towers, solar-powered towers that use AI to detect and track people and vehicles near the border.",
+     "sources": [
+      {
+       "url": "https://www.cbp.gov/document/foia-record/anduril-surveillance-towers",
+       "publisher": "U.S. Customs and Border Protection",
+       "date": "2021-10"
+      },
+      {
+       "url": "https://www.cbp.gov/frontline/watchful-eye",
+       "publisher": "U.S. Customs and Border Protection",
+       "date": "2022-01"
+      },
+      {
+       "url": "https://www.cbp.gov/newsroom/national-media-release/cbp-s-autonomous-surveillance-towers-declared-program-record-along",
+       "publisher": "U.S. Customs and Border Protection",
+       "date": "2020-07"
+      }
+     ],
+     "id": "DS-4-1"
+    },
+    {
+     "status": "documented",
+     "text": "In January 2025 the White House said the drones reported over New Jersey had been authorized by the FAA to fly for research and other reasons.",
+     "sources": [
+      {
+       "url": "https://www.nbcnews.com/news/us-news/white-house-says-new-jersey-drones-authorized-faa-was-not-enemy-rcna189646",
+       "publisher": "NBC News",
+       "date": "2025-01"
+      },
+      {
+       "url": "https://www.nytimes.com/2025/01/28/nyregion/new-jersey-drones-faa.html",
+       "publisher": "The New York Times",
+       "date": "2025-01"
+      }
+     ],
+     "id": "DS-4-2"
+    }
+   ],
+   "argument": {
+    "status": "argument",
+    "text": "Critics say these systems invade privacy and violate civil rights, and researchers note that battlefield technologies such as drones and biometric surveillance are increasingly migrating into domestic policing.",
+    "sources": [
+     {
+      "url": "https://www.cbsnews.com/pittsburgh/news/surveillance-technology-flock-debate/",
+      "publisher": "CBS News / KDKA-TV",
+      "date": "2026-09"
+     }
+    ],
+    "id": "DS-4-3"
+   }
+  },
+  {
+   "key": "dual-hat",
+   "n": "05",
+   "glyph": "hats",
+   "cmd": "C:\\IQT> SEED /THEN-SELL",
+   "title": "THE DUAL HAT",
+   "what": "Analytic tools seeded by the intelligence budget, sold on to banks and to a law firm's clients, and pointed back at employees, critics and reporters.",
+   "facts": [
+    {
+     "status": "documented",
+     "text": "In-Q-Tel, the CIA's investment arm, was a seed investor in Palantir Technologies.",
+     "sources": [
+      {
+       "url": "https://www.bloomberg.com/features/2018-palantir-peter-thiel/",
+       "publisher": "Bloomberg",
+       "date": "2018-04"
+      }
+     ],
+     "id": "DS-5-0"
+    },
+    {
+     "status": "reported",
+     "text": "JPMorgan Chase ran an internal surveillance programme built on Palantir software that collected employees' emails, browser histories, GPS locations from company-issued smartphones, printer and download activity, and transcripts of digitally recorded phone conversations. It ended when the bank's senior executives learned that they, too, were being watched.",
+     "sources": [
+      {
+       "url": "https://www.bloomberg.com/features/2018-palantir-peter-thiel/",
+       "publisher": "Bloomberg",
+       "date": "2018-04"
+      }
+     ],
+     "id": "DS-5-1"
+    },
+    {
+     "status": "documented",
+     "text": "Credit Suisse and Palantir Technologies formed a 50-50 joint venture named Signac to detect unauthorized trading at the bank; its operations were terminated in 2017.",
+     "sources": [
+      {
+       "url": "https://www.sec.gov/Archives/edgar/data/1321655/000119312520230013/d904406ds1.htm",
+       "publisher": "Palantir Technologies Inc.",
+       "date": "2020-08"
+      }
+     ],
+     "id": "DS-5-2"
+    },
+    {
+     "status": "documented",
+     "text": "Palantir Technologies, HBGary Federal and Berico Technologies, working together as Team Themis, prepared proposals for the law firm Hunton & Williams to attack WikiLeaks and its supporters, including the journalist Glenn Greenwald. The proposals became public when hackers stole and published HBGary Federal's email, and Palantir's chief executive said the company was severing all ties to HBGary Federal.",
+     "sources": [
+      {
+       "url": "https://arstechnica.com/tech-policy/2011/02/the-ridiculous-plan-to-attack-wikileaks/",
+       "publisher": "Ars Technica",
+       "date": "2011-02"
+      },
+      {
+       "url": "https://www.nytimes.com/2011/02/12/us/politics/12hackers.html",
+       "publisher": "The New York Times",
+       "date": "2011-02"
+      }
+     ],
+     "id": "DS-5-3"
+    }
+   ],
+   "argument": {
+    "status": "argument",
+    "text": "Glenn Greenwald, whom the proposals named as a target, said that what they set out “quite possibly constitutes serious crimes,” and that threatening the careers of journalists and activists in order to force them to be silent is possibly extortion.",
+    "sources": [
+     {
+      "url": "https://arstechnica.com/tech-policy/2011/02/the-ridiculous-plan-to-attack-wikileaks/",
+      "publisher": "Ars Technica",
+      "date": "2011-02"
+     }
+    ],
+    "id": "DS-5-4"
+   }
+  }
+ ],
+ "howto": [
+  {
+   "source": "Federal Register",
+   "what": "Executive orders and agency rules, with the public comments on them. Search “Schedule F” or “Schedule Policy/Career”."
+  },
+  {
+   "source": "USAspending.gov",
+   "what": "Federal contract awards by company: what each agency paid, and whether the award was competed."
+  },
+  {
+   "source": "FEC.gov",
+   "what": "Who gave to which campaign or super PAC, by name and amount."
+  },
+  {
+   "source": "OGE disclosures",
+   "what": "Senior officials’ financial disclosures, released by the Office of Government Ethics on request."
+  },
+  {
+   "source": "Congress.gov",
+   "what": "Bill text and history. The GENIUS Act is S.1582 of the 119th Congress."
+  }
+ ]
+}

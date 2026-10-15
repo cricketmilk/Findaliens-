@@ -1,0 +1,31 @@
+{
+ "file": "sequoia-capital.json",
+ "kind": "finding",
+ "at": "2026-10-11T16:49:02.293Z",
+ "kept": 35,
+ "removed": [
+  {
+   "where": "facts[13]",
+   "claim": "Sequoia's lobbying reports list $360,000 in fees for 2024, $240,000 for 2025 and $120,000 for the first half of 2026, a total of $720,000. The federal lobbying database shows no filings for a client n",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 360,000, 240,000, 120,000, 720,000"
+  },
+  {
+   "where": "connections[13]",
+   "claim": "Sequoia Capital Operations LLC hired Brownstein Hyatt Farber Schreck to lobby Congress from January 2024, paying $720,000 through mid-2026.",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 720,000, congress"
+  }
+ ],
+ "unchecked": [
+  {
+   "where": "facts[0]",
+   "claim": "Sequoia says Don Valentine founded the firm in 1972, and that it \"invests primarily on behalf of nonprofits and schools, with organizations such as the Ford Foundation and Boston Children's Hospital f",
+   "why": "could not re-open any cited page to confirm it: https://sequoiacap.com/our-history (page came back nearly empty)"
+  }
+ ],
+ "resourced": [],
+ "wikiSourcesDropped": 0,
+ "notes": [],
+ "pagesOpened": 35,
+ "pagesRefused": 0,
+ "empty": false
+}

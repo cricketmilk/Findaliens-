@@ -1,0 +1,79 @@
+{
+  "code": "PH-2003-INQTEL",
+  "eraId": "ERA-09-2001",
+  "yearStart": 2003,
+  "yearEnd": 2020,
+  "title": "In-Q-Tel's Seed Round: How the CIA's Venture Arm Incubated Palantir Technologies",
+  "primaryTab": "transhumanism",
+  "secondaryTabs": [
+    "deep-state",
+    "consent"
+  ],
+  "mechanism": "REGULATORY_REVOLVING_DOOR",
+  "tier": "TIER_3_PRIMARY_LEDGER",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "In-Q-Tel",
+    "Palantir Technologies",
+    "Peter Thiel",
+    "Alex Karp",
+    "Founders Fund",
+    "FBI",
+    "CIA",
+    "U.S. Department of Defense"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "In-Q-Tel, a non-profit strategic investment vehicle chartered in 1999 by the CIA, put public-purpose capital into Palantir Technologies, a 2003 startup founded by Peter Thiel, Alex Karp and others alongside Thiel's Founders Fund. The upside was skimming the intelligence community's unmet demand for data integration into a private company's equity before any commercial market existed.",
+    "stage2_structuralCompromise": "The intelligence community was both the incubator and the first customer: Palantir's Gotham platform was built for government integration of fragmented data, with documented early contracts including FBI, CIA and Department of Defense entities. A venture fund chartered to serve the agencies held equity in the vendor those agencies bought from — the buyer, the builder and the investor sharing one institutional nest.",
+    "stage3_informationFog": "The investment was a private placement: no SEC document connected In-Q-Tel and Palantir until Palantir itself went public — its September 2020 S-1 filing exhibits an Amended and Restated Investors' Rights Agreement with In-Q-Tel, Inc. as a signatory investor. For seventeen years the arrangement lived in trade-press shorthand, structurally invisible to any public ledger.",
+    "stage4_monopolyWindfall": "The first customers were intelligence and defense agencies, whose paid deployments validated the platform; the product then rolled out to immigration enforcement, police and commercial clients, converting a taxpayer-adjacent seed round into one of the decade's most valuable private data companies.",
+    "stage5_merseyWhitewash": "The incubation is now recounted as founder myth — genius founders, a visionary agency — rather than as a structural question: a government-chartered investor equity-stake in a contractor that sells back to the same government, a pattern no regulator is positioned to audit because the investment vehicle itself sits outside the procurement ledger."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "The CIA's post-1999 practice of outsourcing frontier technology to venture-funded startups rather than building in-house",
+    "newFrameworkCreated": "A repeatable template: public-purpose venture capital incubates a private data-integration champion whose first customers are the chartering agencies",
+    "closedLoopRecirculation": "Government contracts validate the platform and fund expansion into adjacent markets; the platform's growth raises the value of the early equity held by the public-purpose vehicle and its private co-investors",
+    "enablesNextDossier": "The 2020 S-1 that finally discloses the In-Q-Tel stake also documents the intelligence-first customer base that carries Palantir onward into the surveillance of civilians — the ImmigrationOS decade"
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "Palantir the shadowy all-seeing conspiracy box, or alternatively Palantir the rags-to-riches Silicon Valley success story the government merely happened to fund",
+    "whyDecoyFails": "Both frames erase the mechanism: not a secret cabal and not luck, but a chartered venture vehicle placing public-purpose capital inside a private company that sells back to its chartering agencies, with the relationship absent from every public filing until the company itself chose to disclose it",
+    "documentedLedger": "In-Q-Tel, a non-profit strategic investment vehicle chartered in 1999 by the CIA to fund commercial data technologies useful to the intelligence community, invested in Palantir Technologies — founded in 2003 by Peter Thiel, Alex Karp and others, with early investment from Thiel's Founders Fund and, as widely reported, In-Q-Tel — whose first customers were intelligence and defense agencies. Palantir's S-1 filing, accession 0001193125-20-244936 filed 2020-09-14 by Palantir Technologies Inc. (CIK 1321655), exhibits an Amended and Restated Investors' Rights Agreement with In-Q-Tel, Inc. as a signatory investor."
+  },
+  "citations": [
+    {
+      "id": "CIT-2020-SEC-0001193125-20-244936",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "SEC Form S-1/A — Palantir Technologies Inc.  (PLTR)  (CIK 0001321655) (2020-09-14)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000119312520244936/0001193125-20-244936-index.htm",
+      "quoteOrFact": "SEC EDGAR Accession 0001193125-20-244936 filed 2020-09-14 by Palantir Technologies Inc.  (PLTR)  (CIK 0001321655)."
+    },
+    {
+      "id": "CIT-2003-WD-Q2047336",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Corporate Lineage Entity: Palantir Technologies (Q2047336)",
+      "url": "https://www.wikidata.org/entity/Q2047336",
+      "quoteOrFact": "Palantir Technologies"
+    },
+    {
+      "id": "CIT-2003-WD-Q63380917",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Corporate Lineage Entity: Palantir Technologies France (Q63380917)",
+      "url": "https://www.wikidata.org/entity/Q63380917",
+      "quoteOrFact": "Palantir Technologies France (parent: Palantir Technologies)"
+    },
+    {
+      "id": "CIT-2003-WD-Q3109467",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Corporate Lineage Entity: In-Q-Tel (Q3109467)",
+      "url": "https://www.wikidata.org/entity/Q3109467",
+      "quoteOrFact": "In-Q-Tel"
+    }
+  ],
+  "citationIds": [
+    "CIT-2020-SEC-0001193125-20-244936",
+    "CIT-2003-WD-Q2047336",
+    "CIT-2003-WD-Q63380917",
+    "CIT-2003-WD-Q3109467"
+  ]
+}

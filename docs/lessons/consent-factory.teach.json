@@ -1,0 +1,27 @@
+{
+ "_why": "Fed to Goblin Brain with `node \"C:/Goblin Brain/scripts/teach.mjs\" \"C:/Find Aliens/docs/lessons/consent-factory.teach.json\"` from C:\\xixoxis. lessons -> per-file rules Kenoma reads with the file; lore -> facts brain_lore serves; traces -> playbooks handed to later turns with a matching goal.",
+ "app": "findaliens",
+ "model": "claude-opus-5-5",
+ "tier": "strong",
+ "lessons": ["C:/Find Aliens/docs/lessons/consent-factory.md"],
+ "lore": [
+  { "subject": "public/consent.html", "fact": "Manufacturing Consent (public/consent.html) is a pixel factory hero (js/consent-factory.js) above eight production lines: Media, War & Money, Bought Movements, Faith Weaponized, Faith With Workers, The Dream Factory (Hollywood), Paid to Post (influencers, with a J.P. Morgan/Titanic myth-versus-record panel) and How To Spot It.", "confidence": 0.95 },
+  { "subject": "public/js/consent-factory.js", "fact": "js/consent-factory.js crawls window.FACTORY_LINES on its billboard; consent.html sets that list from each case's tv field, so adding a tv line to a case adds it to the billboard.", "confidence": 0.95 },
+  { "subject": "research/consent-hollywood-influencers-sources.json", "fact": "research/consent-hollywood-influencers-sources.json holds the verified Hollywood and influencer facts for consent.html with their quotes, plus each accepted near-miss and edited line with its reason.", "confidence": 0.95 }
+ ],
+ "traces": [
+  {
+   "ref": "findaliens:redesign-page:2026-10-12",
+   "prompt": "Redesign a Find Aliens page whose layout the user hates, keeping every verified case",
+   "outcome": "verified",
+   "steps": [
+    { "tool": "read_file", "args": "path=<scratch>/template.html", "result": "list every block the page carries (data arrays, stat tiles, quote bands, panels, filters, checklists) so the new layout drops none of it", "ok": true },
+    { "tool": "write_file", "args": "path=public/js/<page>-hero.js", "result": "one pixel-art hero that states the page's idea in a picture, prototyped on its own page and judged from screenshots before the layout is touched", "ok": true },
+    { "tool": "write_file", "args": "path=<scratch>/template.html", "result": "a fresh stylesheet, not overrides on the old one: an index of sections, a sticky rail on desktop, two-up cards with a status bar, a single list on phones; same data placeholders", "ok": true },
+    { "tool": "run_command", "args": "node shot.js <page> at 1440 and 390, sections via --eval with scrollBehavior auto", "result": "found a pixel title overrunning its grid column, a cramped phone legend and odd-card holes; fixed each and shot again", "ok": true },
+    { "tool": "run_command", "args": "git rm the retired hero script; delete the prototype page", "result": "nothing dead ships", "ok": true }
+   ],
+   "receipt": { "filesChanged": ["public/consent.html", "public/js/consent-factory.js", "research/consent-hollywood-influencers-sources.json"], "testsResult": { "command": "screenshots at 1440 and 390 wide, no console errors from the page", "passed": true } }
+  }
+ ]
+}

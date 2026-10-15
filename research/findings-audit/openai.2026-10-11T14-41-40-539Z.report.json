@@ -1,0 +1,51 @@
+{
+ "file": "openai.json",
+ "at": "2026-10-11T14:41:40.539Z",
+ "kept": 13,
+ "removed": [
+  {
+   "where": "facts[0]",
+   "claim": "OpenAI completed a restructuring in October 2025 in which its for-profit branch became OpenAI Group PBC and the nonprofit was renamed the OpenAI Foundation; the Foundation holds about 26% of the PBC, ",
+   "why": "only Wikipedia cited; needs the primary source it points to"
+  },
+  {
+   "where": "facts[1]",
+   "claim": "OpenAI's largest funding rounds reported in 2025–2026 were a $40 billion round led by SoftBank in April 2025 at a $300 billion post-money valuation, a $110 billion round in February 2026 led by Amazon",
+   "why": "only Wikipedia cited; needs the primary source it points to"
+  },
+  {
+   "where": "facts[2]",
+   "claim": "Under the October 2025 Microsoft agreement, OpenAI agreed to purchase $250 billion of Azure services, Microsoft ceded its right of first refusal over OpenAI's future cloud purchases, and OpenAI contin",
+   "why": "only Wikipedia cited; needs the primary source it points to"
+  },
+  {
+   "where": "facts[4]",
+   "claim": "In 2025 OpenAI was named a partner of the Stargate Project, a joint venture announced January 21, 2025 with Oracle, SoftBank and MGX to build AI infrastructure in conjunction with the US government.",
+   "why": "only Wikipedia cited; needs the primary source it points to"
+  },
+  {
+   "where": "facts[5]",
+   "claim": "Co-founder Elon Musk revised his lawsuit against OpenAI and Sam Altman in April 2026 to seek reversal of the restructuring, and lost the case in May 2026, with the jury concluding he waited beyond the",
+   "why": "only Wikipedia cited; needs the primary source it points to"
+  },
+  {
+   "where": "facts[6]",
+   "claim": "Sam Altman is OpenAI's chief executive officer; Bret Taylor is listed as chairman and Sarah Friar as chief financial officer, and Greg Brockman as president and CEO of Applications, per Wikipedia's in",
+   "why": "only Wikipedia cited; needs the primary source it points to"
+  },
+  {
+   "where": "connections[0]",
+   "claim": "SoftBank invested in OpenAI in 2024 and led the April 2025 $40 billion round at a $300 billion post-money valuation, and invested $30 billion in the February 2026 round.",
+   "why": "only Wikipedia cited; needs the primary source it points to"
+  },
+  {
+   "where": "connections[1]",
+   "claim": "Nvidia was among the investors in OpenAI's October 2024 $6.6 billion raise, and committed $30 billion in the February 2026 round.",
+   "why": "only Wikipedia cited; needs the primary source it points to"
+  }
+ ],
+ "wikiSourcesDropped": 8,
+ "pagesOpened": 5,
+ "pagesRefused": 0,
+ "empty": false
+}

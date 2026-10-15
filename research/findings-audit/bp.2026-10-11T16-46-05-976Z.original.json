@@ -1,0 +1,88 @@
+{
+  "entity": "bp",
+  "name": "BP",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "BP was founded in 1909 as the Anglo-Persian Oil Company, renamed Anglo-Iranian Oil Company (AIOC) in 1935 and British Petroleum in 1954. Iran nationalized AIOC's operations in 1951. In August 1953, a coup planned and executed with the CIA and British intelligence overthrew Prime Minister Mohammad Mosaddeq. Under a 1954 agreement, AIOC took a 40% share in a new consortium that ran Iran's oil operations. In 2004, as part of an Ogilvy & Mather advertising campaign, BP launched a personal 'carbon footprint calculator', which critics say shifted attention from producers to consumers.",
+    "sources": [
+      {
+        "url": "https://www.bp.com/en/global/corporate/who-we-are/our-history.html",
+        "publisher": "BP",
+        "title": "Our history",
+        "date": ""
+      },
+      {
+        "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB435/",
+        "publisher": "National Security Archive",
+        "title": "CIA Confirms Role in 1953 Iran Coup",
+        "date": "2013-08-19"
+      },
+      {
+        "url": "https://mashable.com/feature/carbon-footprint-pr-campaign-sham",
+        "publisher": "Mashable",
+        "title": "The Carbon Footprint Sham",
+        "date": ""
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "After Iran nationalized the assets of the Anglo-Iranian Oil Company in 1951, the CIA and British intelligence (SIS) planned and carried out Operation TPAJAX, the coup that overthrew Prime Minister Mohammad Mosaddeq on August 19, 1953.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://history.state.gov/historicaldocuments/frus1951-54Iran/preface",
+          "publisher": "U.S. Department of State, Office of the Historian",
+          "title": "Foreign Relations of the United States, 1952-1954, Iran, 1951-1954 (Retrospective Volume): Preface",
+          "date": "2017"
+        },
+        {
+          "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB435/",
+          "publisher": "National Security Archive",
+          "title": "CIA Confirms Role in 1953 Iran Coup",
+          "date": "2013-08-19"
+        }
+      ]
+    },
+    {
+      "claim": "BP, which hired the public relations firm Ogilvy & Mather for its 'Beyond Petroleum' campaign, unveiled a personal 'carbon footprint calculator' in 2004 and promoted the term 'carbon footprint'. Critics, including historian Benjamin Franta, describe the campaign as shifting attention from oil companies to individual consumers.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://mashable.com/feature/carbon-footprint-pr-campaign-sham",
+          "publisher": "Mashable",
+          "title": "The Carbon Footprint Sham",
+          "date": ""
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "cia",
+      "relation": "other",
+      "claim": "After Iran nationalized the Anglo-Iranian Oil Company (BP's predecessor) in 1951, the CIA and British intelligence organized the August 1953 coup that removed Prime Minister Mosaddeq. Under a 1954 agreement with the post-coup government, AIOC took a 40% interest in the consortium operating Iran's oil industry and received compensation.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB435/",
+          "publisher": "National Security Archive",
+          "title": "CIA Confirms Role in 1953 Iran Coup",
+          "date": "2013-08-19"
+        },
+        {
+          "url": "https://api.parliament.uk/historic-hansard/commons/1954/nov/01/persian-oil-agreement",
+          "publisher": "UK Parliament (Hansard)",
+          "title": "Persian Oil Agreement",
+          "date": "1954-11-01"
+        },
+        {
+          "url": "https://www.bp.com/en/global/corporate/who-we-are/our-history.html",
+          "publisher": "BP",
+          "title": "Our history",
+          "date": ""
+        }
+      ]
+    }
+  ]
+}

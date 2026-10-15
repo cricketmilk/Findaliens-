@@ -1,0 +1,1603 @@
+[
+ {
+  "id": "MEDIA-0",
+  "verdict": "supported",
+  "title": "“Doubt is our product”: the template",
+  "body": "An internal Brown & Williamson tobacco memo, quoted by a federal judge in 2006, says: “Doubt is our product since it is the best means of competing with the ‘body of fact’ that exists in the mind of the general public.” A 2007 Union of Concerned Scientists report found ExxonMobil drew on the same tactics, and some of the same groups, to cast doubt on climate science.",
+  "year": "1969",
+  "status": "documented",
+  "src_label": "US v. Philip Morris, Amended Final Opinion (D.D.C. 2006); Union of Concerned Scientists (2007)",
+  "sources": [
+   {
+    "url": "https://www.justice.gov/sites/default/files/civil/legacy/2014/09/11/amended%20opinion_0.pdf",
+    "publisher": "U.S. District Court for the District of Columbia (hosted by the U.S. Department of Justice)",
+    "title": "United States v. Philip Morris USA, Inc., Civil Action No. 99-2496 (GK), Amended Final Opinion",
+    "date": "2006-09-08",
+    "quotes": [
+     "At the same time, an internal B&W document titled \"Smoking and Health Proposal\" explained: \"Doubt is our product since it is the best means of competing with the 'body of fact' that exists in the mind of the general public. It is also a means of establishing a controversy.\" 690010951-0959 at 0954 (US 21040)."
+    ]
+   },
+   {
+    "url": "https://www.ucsusa.org/sites/default/files/2019-09/exxon_report.pdf",
+    "publisher": "Union of Concerned Scientists",
+    "title": "Smoke, Mirrors & Hot Air: How ExxonMobil Uses Big Tobacco's Tactics to Manufacture Uncertainty on Climate Science",
+    "date": "2007-01",
+    "quotes": [
+     "As one famous internal memo from the Brown & Williamson tobacco company put it: “Doubt is our product, since it is the best means of competing with the ‘body of fact’ that exists in the minds of the general public. It is also the means of establishing a controversy.”",
+     "Brown & Williamson (B&W), 1969, Smoking and health proposal",
+     "ExxonMobil has drawn upon the tactics and even some of the organizations and actors involved in the callous disinformation campaign the tobacco industry waged for 40 years."
+    ]
+   }
+  ],
+  "changes": "Quoted the memo exactly instead of paraphrasing it, and named who documented the climate link (UCS). Replaced the SourceWatch URL with the federal court opinion that quotes the memo and the UCS report.",
+  "notes": "The court quotes the memo twice. In one place it calls it 'an undated internal B&W document' and gives slightly different wording ('It is also the means of...'). The 1969 date comes from UCS, which cites the same Bates range (690010951-0959). The memo's 'body of fact' is what the public believed about smoking and health. It does not literally say 'linking smoking to cancer', so the body now quotes it.",
+  "numbersNotQuoted": [
+   "2006",
+   "2007"
+  ]
+ },
+ {
+  "id": "MEDIA-1",
+  "verdict": "corrected",
+  "title": "Oil company “advertorials” on the opinion page",
+  "body": "Mobil (later ExxonMobil) bought an advertorial on the New York Times op-ed page every Thursday from 1972 to 2001. A peer-reviewed analysis found 81% of its climate advertorials expressed doubt, while 80% of its internal documents and 83% of its peer-reviewed papers acknowledged that climate change is real and human-caused.",
+  "year": "1972–2004",
+  "status": "peer",
+  "src_label": "Supran & Oreskes, Environmental Research Letters (Aug 2017)",
+  "sources": [
+   {
+    "url": "https://iopscience.iop.org/article/10.1088/1748-9326/aa815f",
+    "publisher": "Environmental Research Letters (IOP Publishing)",
+    "title": "Assessing ExxonMobil's climate change communications (1977–2014), Supran & Oreskes, Environ. Res. Lett. 12 084019",
+    "date": "2017-08-23",
+    "quotes": [
+     "For example, accounting for expressions of reasonable doubt, 83% of peer-reviewed papers and 80% of internal documents acknowledge that climate change is real and human-caused, yet only 12% of advertorials do so, with 81% instead expressing doubt.",
+     "The company took out an advertorial every Thursday between 1972 and 2001 [29].",
+     "bought one-quarter of all advertorials on the Op-Ed page",
+     "36 Mobil/ExxonMobil advertorials related to climate change in the NYT",
+     "of the 72% (26/36) of climate change advertorials that take a position, 81% (21/26) take the position of ‘Doubt’"
+    ],
+    "via": "archive"
+   }
+  ],
+  "changes": "Start year 1970 -> 1972: the paper says the weekly advertorials ran 'every Thursday between 1972 and 2001'. Changed 'its scientists' papers' to 'its peer-reviewed papers', the paper's term, and dropped 'about' from the 80%. Year label 1970– -> 1972–2004, because the climate advertorials analysed run 1989–2004.",
+  "notes": "IOP's site sits behind a bot check (Radware captcha), so I did not read it directly. I checked the text against the CC-BY PDF of the same article mirrored at reteclima.it, and checked the 'every Thursday' sentence against the IOP HTML through a fetch. In the PDF that sentence is split by footnote 3. The 81% is the share of the 26 position-taking advertorials (21/26); the sample is 36 climate advertorials, 1989–2004.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "MEDIA-2",
+  "verdict": "supported",
+  "title": "False balance in the prestige press",
+  "body": "A study of global-warming coverage in the New York Times, Washington Post, Los Angeles Times and Wall Street Journal from 1988 to 2002 found that most articles (52.65%) gave “roughly equal attention” to the view that humans were warming the planet and the view that natural fluctuations could explain it. The authors concluded this “balance” was itself a bias that pulled public discussion away from the science.",
+  "year": "1988–2002",
+  "status": "peer",
+  "src_label": "Boykoff & Boykoff, “Balance as bias,” Global Environmental Change (2004)",
+  "sources": [
+   {
+    "url": "https://sciencepolicy.colorado.edu/admin/publication_files/2004.33.pdf",
+    "publisher": "Global Environmental Change 14 (2004) 125–136 (PDF hosted by the University of Colorado Center for Science and Technology Policy Research)",
+    "title": "Balance as bias: global warming and the US prestige press, Maxwell T. Boykoff and Jules M. Boykoff",
+    "date": "2004",
+    "quotes": [
+     "This paper demonstrates that US prestige-press coverage of global warming from 1988 to 2002 has contributed to a significant divergence of popular discourse from scientific discourse.",
+     "Through content analysis of US prestige press— meaning the New York Times, the Washington Post, the Los Angeles Times, and the Wall Street Journal—this paper focuses on the norm of balanced reporting, and shows that the prestige press's adherence to balance actually leads to biased coverage of both anthropogenic contributions to global warming and resultant action.",
+     "We found that in the majority (52.65%) of coverage in the US prestige press, balanced accounts prevailed; these accounts gave ‘‘roughly equal attention’’ to the view that humans were contributing to global warming, and the other view that exclusively natural fluctuations could explain the earth's temperature increase.",
+     "Our sample contained 636 articles, which is 18.4% of the population."
+    ]
+   }
+  ],
+  "changes": "Added the study's figure (52.65%) and quoted its definition of 'balanced'. Replaced the MediaWell (SSRC) citation page with the paper itself.",
+  "notes": "The 52.65% is of the 340 sampled articles that addressed whether humans contribute to warming (Fig. 1, n = 340); the full random sample was 636 of 3,543 articles. The PDF is the publisher's typeset version ('ARTICLE IN PRESS'), hosted at the University of Colorado. The DOI is 10.1016/j.gloenvcha.2003.10.001.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "MEDIA-3",
+  "verdict": "supported",
+  "title": "Enron, “America’s Most Innovative Company”",
+  "body": "Fortune magazine named Enron “America’s Most Innovative Company” six years running, a line Enron was still printing on its press releases in August 2001, months before it went bankrupt. The SEC later charged its chairman, Kenneth Lay, with a scheme to defraud that included falsifying its reported financial results.",
+  "year": "1996–2001",
+  "status": "documented",
+  "src_label": "Enron press release (Aug 2001), US v. Skilling & Lay trial exhibit; SEC press release (July 2004)",
+  "sources": [
+   {
+    "url": "https://www.justice.gov/archive/enron/exhibit/02-02/BBC-0001/ocr/EXH023-00160^FullText.TXT",
+    "publisher": "U.S. Department of Justice, Enron Task Force trial exhibits (Government Exhibit 959, Crim. No. H-04-25)",
+    "title": "Enron news release: Enron Announces Skilling Resignation; Lay Assumes President and CEO Duties",
+    "date": "2001-08-14",
+    "quotes": [
+     "Fortune magazine has named Enron \"America's Most Innovative Company\" for six consecutive years.",
+     "FOR IMMEDIATE RELEASE: Tuesday, August 14, 2001"
+    ]
+   },
+   {
+    "url": "https://www.sec.gov/news/press/2004-94.htm",
+    "publisher": "U.S. Securities and Exchange Commission",
+    "title": "SEC Charges Kenneth L. Lay, Enron's Former Chairman and Chief Executive Officer, with Fraud and Insider Trading",
+    "date": "2004-07-08",
+    "quotes": [
+     "The Securities and Exchange Commission today initiated civil charges against Kenneth L. Lay, former Chairman and Chief Executive Officer of Enron Corp., for his role in a wide-ranging scheme to defraud by falsifying Enron's publicly reported financial results and making false and misleading public representations about Enron's business performance and financial condition.",
+     "did not learn of Lay's sales of Enron stock back to the company until February 2002, over two months after Enron filed for bankruptcy protection."
+    ]
+   }
+  ],
+  "changes": "No factual change. Added URLs: Enron's own boilerplate, as entered in evidence by the Justice Department, and the SEC's fraud charges against Lay. Slightly reworded so each claim maps to a source.",
+  "notes": "I did not read Fortune's own rankings archive. The 'six consecutive years' claim is Enron's, as printed on its August 2001 release. Read with the 2001 ranking, that gives 1996–2001. The source is the DOJ's OCR text of the exhibit, so the quotes are OCR text, which here reads cleanly.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "MEDIA-4",
+  "verdict": "corrected",
+  "title": "“Bear Stearns is fine!”",
+  "body": "On March 11, 2008, CNBC’s Jim Cramer answered a viewer asking whether to pull his money out of Bear Stearns: “No, no, no. Bear Stearns is fine. Do not take your money… Don’t move your money from Bear.” Five days later JPMorgan agreed to buy the bank for about $2 a share, later raised to about $10. Cramer said afterwards he had meant money held at Bear, not its stock.",
+  "year": "2008",
+  "status": "words",
+  "src_label": "CNBC Mad Money transcript via Columbia Journalism Review (Mar 2008); JPMorgan Chase releases filed with the SEC (Mar 16 & 24, 2008)",
+  "sources": [
+   {
+    "url": "https://www.cjr.org/the_audit/let_cramer_make_this_perfect_c.php",
+    "publisher": "Columbia Journalism Review (Dean Starkman, The Audit)",
+    "title": "In the Mad Money Swamp",
+    "date": "2008-03-24",
+    "quotes": [
+     "Peter writes: Should I be worried about Bear Stearns in terms of liquidity and get my money out of there? No, no, no. Bear Stearns is fine. Do not take your money…if there's one take away other than (unintelligible) … Bear Stearns is not in trouble. It's more likely to be taken over. Don't move your money from Bear. That's just being silly. Don't be silly.",
+     "The questioner was an e-mail, directly asked whether his money was safe at bear Stearns. He did not ask me about Bear Stearns stock."
+    ]
+   },
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/0000019617/000089882208000285/pressrelease.htm",
+    "publisher": "JPMorgan Chase & Co., Form 8-K exhibit (SEC EDGAR)",
+    "title": "JPMorgan Chase To Acquire Bear Stearns",
+    "date": "2008-03-16",
+    "quotes": [
+     "New York, March 16, 2008 -- JPMorgan Chase & Co. (NYSE: JPM) announced it is acquiring The Bear Stearns Companies Inc. (NYSE: BSC).",
+     "Based on the closing price of March 15, 2008, the transaction would have a value of approximately $2 per share."
+    ]
+   },
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/0000019617/000089882208000319/pressrelease.htm",
+    "publisher": "JPMorgan Chase & Co., Form 8-K exhibit (SEC EDGAR)",
+    "title": "JPMorgan Chase and Bear Stearns Announce Amended Merger Agreement",
+    "date": "2008-03-24",
+    "quotes": [
+     "reflecting an implied value of approximately $10 per share of Bear Stearns common stock based on the closing price of JPMorgan Chase common stock on the New York Stock Exchange on March 20, 2008."
+    ]
+   },
+   {
+    "url": "https://abcnews.go.com/Business/PersonalFinance/story?id=4524010",
+    "publisher": "ABC News",
+    "title": "Should You Stay Away From Jim Cramer?",
+    "date": "2008-03-25",
+    "quotes": [
+     "Cramer and CNBC have defended his statements, arguing that Cramer's assertions on the bank were in reference to a viewer's question on Bear Stearns' liquidity, not its stock prices."
+    ]
+   }
+  ],
+  "changes": "Replaced the composite quote ('Bear Stearns is fine! Do not move your money from Bear.') with the words as transcribed. 'Sold for $2 a share' -> 'agreed to buy for about $2 a share, later raised to about $10': the $2 was the first offer, and JPMorgan raised it on March 24. Dropped 'a fraction of its value', which none of these sources states as such. Added Cramer's defence (he meant money held at Bear), which CNBC and ABC report.",
+  "notes": "CJR prints the transcript excerpt inside a sarcastic column, but the quoted words are the broadcast's. ABC prints a shorter version ('Don't move your money from Bear! That's just being silly! Don't be silly!'). If a value comparison is wanted, CJR says the shares 'crashed from $35 to $2' within days, and Cramer himself said Bear was 'then trading at $35' on Friday, March 14.",
+  "numbersNotQuoted": [
+   "11"
+  ]
+ },
+ {
+  "id": "MEDIA-5",
+  "verdict": "supported",
+  "title": "Celebrity crypto promotions",
+  "body": "Kim Kardashian paid $1.26 million to settle SEC charges that she promoted EthereumMax’s EMAX token on Instagram without disclosing that she was paid $250,000 for the post. FTX, one of the biggest advertisers in the 2022 Super Bowl, was bankrupt within 10 months.",
+  "year": "2022",
+  "status": "court",
+  "src_label": "SEC press release (Oct 3, 2022); Associated Press (Feb 2023)",
+  "sources": [
+   {
+    "url": "https://www.sec.gov/news/press-release/2022-183",
+    "publisher": "U.S. Securities and Exchange Commission",
+    "title": "SEC Charges Kim Kardashian for Unlawfully Touting Crypto Security",
+    "date": "2022-10-03",
+    "quotes": [
+     "The Securities and Exchange Commission today announced charges against Kim Kardashian for touting on social media a crypto asset security offered and sold by EthereumMax without disclosing the payment she received for the promotion. Kardashian agreed to settle the charges, pay $1.26 million in penalties, disgorgement, and interest, and cooperate with the Commission's ongoing investigation.",
+     "The SEC's order finds that Kardashian failed to disclose that she was paid $250,000 to publish a post on her Instagram account about EMAX tokens, the crypto asset security being offered by EthereumMax."
+    ]
+   },
+   {
+    "url": "https://www.ksat.com/business/2023/02/10/year-after-crypto-bowl-crypto-ads-vanish-from-big-game/",
+    "publisher": "Associated Press (Ken Sweet and Mae Anderson), as syndicated by KSAT",
+    "title": "Year after 'Crypto Bowl,' crypto ads vanish from big game",
+    "date": "2023-02-10",
+    "quotes": [
+     "Cryptocurrency exchange FTX was one of biggest advertisers in last year's Super Bowl, featuring ads that included celebrity comedian Larry David.",
+     "Within 10 months of the Super Bowl, FTX was bankrupt.",
+     "The company filed for Chapter 11 bankruptcy protection on November 11."
+    ]
+   }
+  ],
+  "changes": "No factual change. Added the token's name, the $250,000 payment and 'within 10 months' from the sources, and added URLs.",
+  "notes": "The FTX sentence rests on AP reporting, not on a ruling. The 'court' tag fits the Kardashian half (an SEC settled order). Kardashian settled without admitting or denying the findings. I read the AP story on a syndicating station's site because apnews.com was not fetched; the byline and text are AP's.",
+  "numbersNotQuoted": [
+   "2022"
+  ]
+ },
+ {
+  "id": "MEDIA-6",
+  "verdict": "corrected",
+  "title": "Facebook secretly manipulates users’ moods",
+  "body": "For one week in January 2012, Facebook altered the News Feeds of 689,003 users to test whether emotions spread: those shown fewer positive posts wrote fewer positive posts and more negative ones. The only consent was Facebook’s general Data Use Policy, and the journal that published the study issued an “expression of concern” about informed consent.",
+  "year": "2014",
+  "status": "peer",
+  "src_label": "Kramer, Guillory & Hancock, PNAS (June 2014); PNAS Editorial Expression of Concern (July 2014)",
+  "sources": [
+   {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4066473/",
+    "publisher": "Proceedings of the National Academy of Sciences (PubMed Central copy)",
+    "title": "Experimental evidence of massive-scale emotional contagion through social networks, Kramer, Guillory & Hancock, PNAS 111(24):8788–8790, doi:10.1073/pnas.1320040111",
+    "date": "2014-06-17",
+    "quotes": [
+     "The experiment manipulated the extent to which people (N = 689,003) were exposed to emotional expressions in their News Feed.",
+     "The experiments took place for 1 wk (January 11–18, 2012).",
+     "When positive expressions were reduced, people produced fewer positive posts and more negative posts; when negative expressions were reduced, the opposite pattern occurred.",
+     "As such, it was consistent with Facebook's Data Use Policy, to which all users agree prior to creating an account on Facebook, constituting informed consent for this research."
+    ]
+   },
+   {
+    "url": "https://www.pnas.org/doi/10.1073/pnas.1412469111",
+    "publisher": "Proceedings of the National Academy of Sciences (Inder M. Verma, Editor-in-Chief)",
+    "title": "Editorial Expression of Concern: Experimental evidence of massive-scale emotional contagion through social networks, PNAS 111(29):10779",
+    "date": "2014-07-22",
+    "quotes": [
+     "Questions have been raised about the principles of informed consent and opportunity to opt out in connection with the research in this paper.",
+     "It is nevertheless a matter of concern that the collection of the data by Facebook may have involved practices that were not fully consistent with the principles of obtaining informed consent and allowing participants to opt out."
+    ],
+    "via": "archive"
+   }
+  ],
+  "changes": "'About 689,000' -> 689,003, with the dates (Jan 11–18, 2012). 'Without their knowledge' -> what the record shows: the only consent was the Data Use Policy, and PNAS published an expression of concern. Neither source says users were told nothing in so many words. 'Happier or sadder' -> what was measured, which was users' own posts. Added URLs.",
+  "notes": "pnas.org is behind a Cloudflare check. I read the expression of concern from a Wayback Machine capture of its original PNAS URL. The paper itself is on PubMed Central. The title word 'secretly' is fair given the consent finding, but the editor may prefer 'quietly'.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "MEDIA-7",
+  "verdict": "supported",
+  "title": "Cambridge Analytica",
+  "body": "Facebook data on up to 87 million people, by Facebook’s own estimate, reached the data firm Cambridge Analytica, which the FTC says used it for voter profiling and targeted advertising. The FTC fined Facebook a record $5 billion for deceiving users about their ability to control their privacy.",
+  "year": "2018–19",
+  "status": "court",
+  "src_label": "FTC press releases (July 24, 2019); Facebook newsroom (Apr 4, 2018)",
+  "sources": [
+   {
+    "url": "https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions-facebook",
+    "publisher": "U.S. Federal Trade Commission",
+    "title": "FTC Imposes $5 Billion Penalty and Sweeping New Privacy Restrictions on Facebook",
+    "date": "2019-07-24",
+    "quotes": [
+     "Facebook, Inc. will pay a record-breaking $5 billion penalty, and submit to new restrictions and a modified corporate structure that will hold the company accountable for the decisions it makes about its users' privacy, to settle Federal Trade Commission charges that the company violated a 2012 FTC order by deceiving users about their ability to control the privacy of their personal information."
+    ],
+    "via": "archive"
+   },
+   {
+    "url": "https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-sues-cambridge-analytica-settles-former-ceo-app-developer",
+    "publisher": "U.S. Federal Trade Commission",
+    "title": "FTC Sues Cambridge Analytica, Settles with Former CEO and App Developer",
+    "date": "2019-07-24",
+    "quotes": [
+     "alleging they employed deceptive tactics to harvest personal information from tens of millions of Facebook users for voter profiling and targeting.",
+     "Cambridge Analytica, Kogan, and Nix then matched these personality scores with U.S. voter records. The company used these matched personality scores for its voter profiling and targeted advertising services.",
+     "as well as 50 million to 65 million of those users' Facebook friends, including at least 30 million identifiable U.S. consumers."
+    ],
+    "via": "archive"
+   },
+   {
+    "url": "https://about.fb.com/news/2018/04/restricting-data-access/",
+    "publisher": "Facebook (Meta) Newsroom, Mike Schroepfer, Chief Technology Officer",
+    "title": "An Update on Our Plans to Restrict Data Access on Facebook",
+    "date": "2018-04-04",
+    "quotes": [
+     "In total, we believe the Facebook information of up to 87 million people — mostly in the US — may have been improperly shared with Cambridge Analytica."
+    ]
+   }
+  ],
+  "changes": "No factual change. Said where the 87 million comes from (Facebook), quoted the FTC's description of the voter targeting, and added URLs.",
+  "notes": "The $5 billion settled Facebook's violation of its 2012 FTC order. The Cambridge Analytica sharing was one part of a wider privacy case, not the only basis. The FTC's own count is 50–65 million friends plus 250,000–270,000 app users. 'Up to 87 million' is Facebook's figure. ftc.gov blocks scripted fetches, so I read the two FTC releases in a browser and copied the quotes from the page text.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "MEDIA-8",
+  "verdict": "supported",
+  "title": "Sinclair’s must-run scripts",
+  "body": "Sinclair Broadcast Group, which owned more than 190 local TV stations, more than any other company, had its anchors read an identical script warning about “biased and false news.” A 98-second Deadspin montage of dozens of them reciting it went viral.",
+  "year": "2018",
+  "status": "documented",
+  "src_label": "NPR (Apr 2, 2018); NBC News (Apr 2, 2018)",
+  "sources": [
+   {
+    "url": "https://www.npr.org/sections/thetwo-way/2018/04/02/598794433/video-reveals-power-of-sinclair-as-local-news-anchors-recite-script-in-unison",
+    "publisher": "NPR (Camila Domonoske)",
+    "title": "Video Reveals Power Of Sinclair, As Local News Anchors Recite Script In Unison",
+    "date": "2018-04-02",
+    "quotes": [
+     "A video published by sports news site Deadspin over the weekend revealed dozens of TV anchors from Sinclair Broadcast Group reciting the same speech warning against \"biased and false news.\"",
+     "Sinclair owns more than 190 TV stations across the country, more than any other media company, and is seeking to acquire dozens more by purchasing Tribune Media.",
+     "The company recently began instructing local anchors to read a script denouncing \"fake\" news."
+    ]
+   },
+   {
+    "url": "https://www.nbcnews.com/politics/donald-trump/tv-anchors-decrying-fake-news-put-spotlight-sinclair-broadcast-company-n862016",
+    "publisher": "NBC News",
+    "title": "TV anchors decrying \"fake\" news put spotlight on Sinclair",
+    "date": "2018-04-02",
+    "quotes": [
+     "In March, TV anchors at broadcast stations across the U.S. began reading from an identical script passed down to them by their owner — Sinclair Broadcast Group.",
+     "But the segments didn't receive widespread attention until Saturday, when the website Deadspin published a 98-second video montage of the TV segments that went viral."
+    ]
+   }
+  ],
+  "changes": "No factual change. Added the station count, the script's words and the montage's length from the sources, and added NPR.",
+  "notes": "The 'documented' tag rests on the broadcasts themselves, which are public. The sources here are news reports. NBC notes that it 'was not immediately clear how many Sinclair stations aired a version of the script'. 'Dozens' is what the montage showed.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "MEDIA-9",
+  "verdict": "supported",
+  "title": "The CIA and the press",
+  "body": "The Senate’s Church Committee reported in 1976 that about 50 of the CIA’s assets were American journalists or employees of US media organizations, and that about half of these relationships were paid.",
+  "year": "1975–76",
+  "status": "court",
+  "src_label": "Church Committee final report, Book I: Foreign and Military Intelligence (1976), pp. 195, 455",
+  "sources": [
+   {
+    "url": "https://www.intelligence.senate.gov/sites/default/files/94755_I.pdf",
+    "publisher": "U.S. Senate Select Committee to Study Governmental Operations with Respect to Intelligence Activities (Church Committee), Report No. 94-755",
+    "title": "Final Report, Book I: Foreign and Military Intelligence",
+    "date": "1976-04-26",
+    "quotes": [
+     "About half of the some 50 CIA relationships with the U.S. media were paid relationships"
+    ]
+   }
+  ],
+  "changes": "No factual change. Added that about half the relationships were paid (p. 195). Replaced the CIA reading-room link: that document ID now redirects to the reading room's home page.",
+  "notes": "The Senate's PDF is a scan with no text layer. I checked the quotes against the OCR text of the same report on the Internet Archive (identifier pdfy-UM4X5C4pdvn8FqLd). The 'approximately 50' sentence is on p. 455; the 'paid relationships' sentence is on p. 195. The CIA's own copy is in its reading room as CIA-RDP05S00620R000601470021-1. The count is as of the CIA's February 11, 1976 announcement of new media guidelines.",
+  "numbersNotQuoted": [
+   "1976"
+  ]
+ },
+ {
+  "id": "WAR_STATS-0",
+  "verdict": "corrected",
+  "n": "$39.5B",
+  "t": "at least, in Iraq war-related federal contracts over a decade to one company, KBR, a former subsidiary of Halliburton, which Dick Cheney ran as chief executive from 1995 to 2000, before he became vice president.",
+  "year": "2003–2013",
+  "status": "reported",
+  "src_label": "Financial Times analysis (Mar 18, 2013); Halliburton SEC filings",
+  "sources": [
+   {
+    "url": "https://www.iraq-businessnews.com/2013/03/21/contractors-get-138bn-from-iraq-war/",
+    "publisher": "Iraq Business News (reprinting the Financial Times analysis)",
+    "title": "Contractors Get $138bn from Iraq War",
+    "date": "2013-03-21",
+    "quotes": [
+     "was awarded at least $39.5bn in federal contracts related to the Iraq war over the past decade"
+    ]
+   },
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/45012/0000045012-00-000011.txt",
+    "publisher": "Halliburton Co., Form 10-K for 1999 (SEC EDGAR)",
+    "title": "Halliburton Company annual report on Form 10-K, executive officers of the registrant",
+    "date": "2000-03-14",
+    "quotes": [
+     "Richard B. Cheney Chairman of the Board, since February 2000",
+     "Chief Executive Officer, since October 1995"
+    ]
+   },
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/45012/000004501201000009/0000045012-01-000009.txt",
+    "publisher": "Halliburton Co., Form 10-K for 2000 (SEC EDGAR)",
+    "title": "Halliburton Company annual report on Form 10-K, executive officers of the registrant",
+    "date": "2001",
+    "quotes": [
+     "David J. Lesar Chairman of the Board, President and Chief",
+     "Executive Officer, since August 2000"
+    ]
+   }
+  ],
+  "changes": "'Then a subsidiary of Halliburton' -> 'a former subsidiary', the FT's words: the contracts span a decade, and KBR was no longer Halliburton's by 2013. Added 'at least' and 'over a decade', since the FT gives a floor. 'Ran from 1995 to 2000' is now sourced to Halliburton's own filings: Cheney was CEO 'since October 1995', and his successor took over in August 2000. Replaced the Iraq Business News aggregator with the FT original.",
+  "notes": "FT.com blocks scripted fetches. I read the article from a March 21, 2013 Wayback Machine capture of its original URL (ft.com/cms/s/0/7f435f04-8c05-11e2-b001-00144feabdc0.html). Iraq Business News repeats the FT's error that KBR 'was once run by Dick Cheney'. It was Halliburton he ran. The 10-K quotes are from fixed-width tables, so each quote is one table line. Not sourced here: the 2007 KBR spin-off date. If the editor wants it, Halliburton's April 2007 8-K would carry it.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "WAR_STATS-1",
+  "verdict": "supported",
+  "n": "935",
+  "t": "false statements about Iraq’s threat by President Bush and seven top officials in the two years after 9/11, by one count.",
+  "year": "2001–03",
+  "status": "reported",
+  "src_label": "Center for Public Integrity, “False Pretenses” (Jan 2008)",
+  "sources": [
+   {
+    "url": "https://publicintegrity.org/2008/01/23/5641/false-pretenses",
+    "publisher": "Center for Public Integrity (archived by the Project On Government Oversight)",
+    "title": "False Pretenses",
+    "date": "2008-01-23",
+    "quotes": [
+     "President George W. Bush and seven of his administration's top officials, including Vice President Dick Cheney, National Security Adviser Condoleezza Rice, and Defense Secretary Donald Rumsfeld, made at least 935 false statements in the two years following September 11, 2001, about the national security threat posed by Saddam Hussein's Iraq.",
+     "President Bush, for example, made 232 false statements about weapons of mass destruction in Iraq and another 28 false statements about Iraq's links to Al Qaeda."
+    ]
+   },
+   {
+    "url": "https://publicintegrity.org/politics/search-the-935-iraq-war-false-statements/",
+    "publisher": "Center for Public Integrity",
+    "title": "Search the 935 Iraq War false statements",
+    "date": "2014-06-24",
+    "quotes": [
+     "In a widely-reported study of orchestrated deception, the Center found that President Bush and seven top officials made 935 false statements leading up to the Iraq war"
+    ]
+   }
+  ],
+  "changes": "'Top Bush administration officials' -> 'President Bush and seven top officials', the study's own scope. Added the 2008 study itself as the main source.",
+  "notes": "CPI closed in 2025, and POGO keeps its site as an archive. The study says 'at least 935'. The underlying database is on GitHub (PublicI/iraq-war-card).",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "WAR_STATS-2",
+  "verdict": "supported",
+  "n": "$1B+",
+  "t": "from the US government and defense contractors to the top 50 US think tanks, 2014–2019. About 95% of it, $1.029 billion, went to RAND, nearly all from government agencies.",
+  "year": "2014–19",
+  "status": "reported",
+  "src_label": "Center for International Policy, Foreign Influence Transparency Initiative (Oct 2020)",
+  "sources": [
+   {
+    "url": "https://responsiblestatecraft.org/2020/10/14/new-report-shows-more-than-1b-from-war-industry-and-govt-going-to-top-50-think-tanks",
+    "publisher": "Responsible Statecraft (Cassandra Stimpson, Center for International Policy)",
+    "title": "New report shows more than $1B from war industry and govt. going to top 50 think tanks",
+    "date": "2020-10-14",
+    "quotes": [
+     "A report released today from the Foreign Influence Transparency Initiative, or FITI, at the Center for International Policy, where I work, reveals more than $1 billion in defense contractor and U.S. government funds flowing to the top 50 most influential U.S. think tanks from 2014-2019."
+    ]
+   },
+   {
+    "url": "https://s3.documentcloud.org/documents/21104483/think-tank-dod-funding.pdf",
+    "publisher": "Center for International Policy report pages (DocumentCloud copy)",
+    "title": "U.S. Government and Defense Contractor Funding of America's Top 50 Think Tanks (excerpt)",
+    "date": "2020-10",
+    "quotes": [
+     "This analysis identified more than $1.078 billion in U.S. government and defense contractor funding going to the top 50 think tanks in America.",
+     "raking in a whopping $1.029 billion between 2014-2019"
+    ]
+   },
+   {
+    "url": "https://www.theamericanconservative.com/swamp-report-top-50-u-s-think-tanks-receive-over-1b-from-gov-defense-contractors/",
+    "publisher": "The American Conservative (Barbara Boland)",
+    "title": "Top 50 U.S. Think Tanks Receive Over $1B from Gov, Defense Contractors",
+    "date": "2020-10-14",
+    "quotes": [
+     "The RAND Corporation alone received over $1 billion between 2014-2019, accounting for approximately 95 percent of its funding that the report tracked."
+    ]
+   }
+  ],
+  "changes": "No factual change. Replaced 'most of it' with the report's figure, about 95% ($1.029 billion), and noted that RAND's money came almost entirely from government sources rather than contractors.",
+  "notes": "The DocumentCloud copy is a scan of report pages. I read it from a Wayback Machine capture, because DocumentCloud blocked direct access, and its OCR has small errors, so only clean phrases are quoted. That copy's table prints RAND as $1,209,100,000, but its text and TAC give $1.029 billion, so the table is a typo. The report itself says the totals are minimums. Worth knowing for the framing: RAND's share was nearly all from DoD, the Air Force, the Army and DHS, so the 'defense contractor' money to the other 49 think tanks is a few tens of millions.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "WAR-0",
+  "verdict": "corrected",
+  "title": "The Senate investigates the “merchants of death”",
+  "body": "The Senate’s Nye Committee held 93 hearings on the munitions industry and the economic circumstances of US entry into World War I, questioning J. P. Morgan Jr. and Pierre du Pont. It found little hard evidence of a conspiracy to drag the country into war, but reported that arms makers opposed almost every disarmament proposal, profited when they failed, and that national defense had not been kept separate from their lobbying.",
+  "year": "1934–36",
+  "status": "court",
+  "src_label": "U.S. Senate Historical Office; Senate Report No. 944, Special Committee Investigating the Munitions Industry (1936)",
+  "sources": [
+   {
+    "url": "https://www.senate.gov/about/powers-procedures/investigations/merchants-of-death.htm",
+    "publisher": "U.S. Senate (Senate Historical Office)",
+    "title": "\"Merchants of Death\"",
+    "date": "",
+    "quotes": [
+     "The so-called Senate Munitions Committee came into being because of widespread reports that manufacturers of armaments had unduly influenced the American decision to enter the war in 1917. These weapons suppliers had reaped enormous profits at the cost of more than 53,000 American battle deaths.",
+     "Over the next 18 months, the Nye Committee held 93 hearings, questioning more than 200 witnesses, including J. P. Morgan, Jr., and Pierre du Pont. Committee members found little hard evidence of an active conspiracy among arms makers, yet the panel's reports did little to weaken the popular prejudice against “greedy munitions interests.”"
+    ]
+   },
+   {
+    "url": "https://www.senate.gov/artandhistory/history/resources/pdf/Investigations.pdf",
+    "publisher": "U.S. Senate Historical Office",
+    "title": "Senate investigations (list)",
+    "date": "",
+    "quotes": [
+     "1934-1936 Special Committee Investigating the Munitions Industry (The Nye Munitions Committee)",
+     "Investigation of the manufacturing and sale of munitions and the economic circumstances of U.S. entry into World War I."
+    ]
+   },
+   {
+    "url": "https://www.ruhr-uni-bochum.de/gna/Quellensammlung/09/09_nyecommitteereport_1936.html",
+    "publisher": "Ruhr-Universität Bochum source collection, reproducing the committee's 1936 report (74th Congress, 2d session)",
+    "title": "Report of the Special Committee on Investigation of the Munitions Industry: Findings (excerpts)",
+    "date": "1936",
+    "quotes": [
+     "the committee finds that the matter of national defense should be above and separated from lobbying and the use of political influence by self-interested groups and that it has not been above or separated from either of them.",
+     "there is a record of their active opposition by some to almost all such proposals, of resentment toward them, of contempt for those responsible for them, and of violation of such controls whenever established, and of rich profiting whenever such proposals failed."
+    ]
+   }
+  ],
+  "changes": "Narrowed and sourced. The Senate's own history says the committee 'found little hard evidence of an active conspiracy', so the body now says so. 'Lobbied for military buildup' -> what the report found: arms makers opposed disarmament proposals and profited when they failed, and defense policy was not kept separate from their lobbying. Bankers are represented by J. P. Morgan Jr. among the witnesses. Added URLs.",
+  "notes": "The 'court' tag here means a congressional investigation. The Bochum page is a German university's source collection reproducing the report's findings. Its citation is to the official Senate report. The Senate's 'Merchants of Death' page carries no date.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "WAR-1",
+  "verdict": "supported",
+  "title": "“War is a racket”",
+  "body": "Smedley Butler, a retired Marine major general with two Medals of Honor, wrote in 1935 that during his 33 years in the Marine Corps he had spent most of his time being “a high-class muscle man for Big Business, for Wall Street and for the bankers.”",
+  "year": "1935",
+  "status": "words",
+  "src_label": "Butler, Common Sense magazine (Nov 1935); Naval History and Heritage Command",
+  "sources": [
+   {
+    "url": "https://msuweb.montclair.edu/~furrg/vietnam/butler.pdf",
+    "publisher": "Montclair State University (course reading by Prof. Grover Furr, transcribing Common Sense)",
+    "title": "Smedley D. Butler, \"America's Armed Forces: 2. 'In Time of Peace': The Army\", Common Sense, Vol. 4, No. 11 (November 1935), pp. 8–12",
+    "date": "1935-11",
+    "quotes": [
+     "[Originally published in Common Sense, Vol. 4, No. 11 (November, 1935), pp. 8-12]",
+     "I spent 33 years and 4 months In active service as a member of our country's most agile military force -- the Marine Corps.",
+     "And during that period I spent most of my time being a high-class muscle man for Big Business, for Wall Street and for the bankers."
+    ]
+   },
+   {
+    "url": "https://www.history.navy.mil/our-collections/photography/us-people/b/butler-smedley-d.html",
+    "publisher": "Naval History and Heritage Command (U.S. Navy)",
+    "title": "Butler, Smedley D.",
+    "date": "",
+    "quotes": [
+     "For his \"distinguished conduct in battle\" on this occasion, Butler was awarded the Medal of Honor.",
+     "For his \"bravery and forceful leadership,\" Butler was awarded his second Medal of Honor.",
+     "In November, Butler was promoted to Major General.",
+     "After two years at Quantico, he retired in October 1931 and was placed on the retired list."
+    ],
+    "via": "archive"
+   }
+  ],
+  "changes": "No factual change. 'Spent his career as' -> 'spent most of his time being', his own words, with the 33 years. Replaced Wikipedia with a transcription of the Common Sense article and the Navy's biography.",
+  "notes": "The transcription is a university-hosted course reading, not a scan of the magazine. It notes that the editor omitted some sections, but the quoted sentence is in the transcribed text. The Federation of American Scientists prints a near-identical passage as 'an excerpt from a speech delivered in 1933' ('a high class muscle- man for Big Business, for Wall Street and for the Bankers'). The words may first have been spoken in 1933 and printed in 1935. The Marine Corps University biography (usmcu.edu) was blocked to scripted fetches.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "WAR-2",
+  "verdict": "supported",
+  "title": "Iran: a coup after oil was nationalized",
+  "body": "After Iran nationalized the Anglo-Iranian Oil Company (later BP), the CIA, with British help, engineered a coup against Prime Minister Mohammad Mosaddeq. Its efforts included planting “damaging innuendo in local Iranian media.” A CIA history released in 2013 says the coup was carried out “under CIA direction.”",
+  "year": "1953",
+  "status": "documented",
+  "src_label": "Declassified CIA history, The Battle for Iran (released 2013); National Security Archive EBB 435; The Guardian (Aug 2013)",
+  "sources": [
+   {
+    "url": "https://nsarchive.gwu.edu/NSAEBB/NSAEBB435/",
+    "publisher": "National Security Archive, Electronic Briefing Book No. 435 (ed. Malcolm Byrne)",
+    "title": "CIA Confirms Role in 1953 Iran Coup",
+    "date": "2013-08-19",
+    "quotes": [
+     "today's posting includes what is believed to be the CIA's first formal acknowledgement that the agency helped to plan and execute the coup.",
+     "This appears to be an example of CIA propaganda aimed at undermining Mosaddeq's public standing, presumably prepared during Summer 1953.",
+     "It certainly fits the pattern of what Donald Wilber and others after him have described about the nature of the CIA's efforts to plant damaging innuendo in local Iranian media."
+    ]
+   },
+   {
+    "url": "https://www.theguardian.com/world/2013/aug/19/cia-admits-role-1953-iranian-coup",
+    "publisher": "The Guardian (Saeed Kamali Dehghan and Richard Norton-Taylor)",
+    "title": "CIA admits role in 1953 Iranian coup",
+    "date": "2013-08-19",
+    "quotes": [
+     "The documents, published on the archive's website under freedom of information laws, describe in detail how the US – with British help – engineered the coup, codenamed TPAJAX by the CIA and Operation Boot by Britain's MI6.",
+     "after the Iranian leader nationalised the British Anglo-Iranian Oil Company, latterly known as BP."
+    ]
+   }
+  ],
+  "changes": "No factual change. 'Planted press stories' now quotes the National Security Archive's description. 'Formally acknowledged in 2013' -> a CIA history released in 2013, since the archive calls it what is 'believed to be' the first formal acknowledgement. Fixed the URL: the old nsarchive.gwu.edu/media/... link redirects to the Guardian article. Both are now cited directly.",
+  "notes": "The CIA history (The Battle for Iran) dates from the mid-1970s. A heavily excised version came out in 1981, and the TPAJAX references were released in 2013. The planted media items in the archive are Iranian-press propaganda, not US press.",
+  "numbersNotQuoted": [
+   "2013"
+  ]
+ },
+ {
+  "id": "WAR-3",
+  "verdict": "supported",
+  "title": "Guatemala: a fruit company’s PR war",
+  "body": "Guatemala’s land reform confiscated a quarter of a million acres of United Fruit land in 1953. The CIA’s own history says the company’s PR adviser, Edward Bernays, “laid down a PR barrage” that sent US reporters to cover “Communist activities in Guatemala.” President Eisenhower authorized the CIA operation that ended with elected president Jacobo Árbenz resigning in June 1954.",
+  "year": "1954",
+  "status": "documented",
+  "src_label": "CIA History Staff, Operation PBSUCCESS (Cullather, 1994; declassified 1997); National Security Archive EBB 4",
+  "sources": [
+   {
+    "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB4/",
+    "publisher": "National Security Archive, Electronic Briefing Book No. 4 (eds. Kate Doyle and Peter Kornbluh)",
+    "title": "CIA and Assassinations: The Guatemala 1954 Documents",
+    "date": "1997",
+    "quotes": [
+     "Arbenz was elected President of Guatemala in 1950",
+     "PBSUCCESS, authorized by President Eisenhower in August 1953,",
+     "after the CIA installed Castillo Armas in power",
+     "up until the day Arbenz resigned on June 27, 1954"
+    ]
+   }
+  ],
+  "changes": "No factual change. Quoted the CIA history's own description of Bernays's campaign. Added the size of the land confiscation (1953) without claiming which came first. 'The CIA then backed a coup' -> Eisenhower authorized the CIA operation, which ended with Arbenz's resignation (June 27, 1954) and Castillo Armas installed. Added URLs (the item had none).",
+  "notes": "The CIA reading-room PDF did not load for a scripted fetch, so I checked the quotes against the Internet Archive's OCR of the same CIA document (DOC_0000134974). The CIA's sentence says Bernays sent correspondents to report on 'Communist activities'. A nearby OCR-garbled passage says he campaigned to persuade Congress and officials that attacks on the company were proof of Communist complicity. 'Painting the government as communist' is a fair summary, and the body now quotes instead. Bitter Fruit (Schlesinger & Kinzer) is cited inside the CIA history but was not read here.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "WAR-4",
+  "verdict": "supported",
+  "title": "Gulf of Tonkin: an attack that didn’t happen",
+  "body": "President Johnson cited a reported second North Vietnamese attack on US ships, on August 4, 1964, to back his request for a congressional resolution giving the White House freedom of action in Vietnam. An NSA historian’s study, declassified in 2005, concluded that the second attack did not occur.",
+  "year": "1964",
+  "status": "documented",
+  "src_label": "Hanyok, NSA Cryptologic Quarterly, declassified 2005; National Security Archive",
+  "sources": [
+   {
+    "url": "https://nsarchive.gwu.edu/NSAEBB/NSAEBB132/press20051201.htm",
+    "publisher": "National Security Archive, Electronic Briefing Book No. 132 (update)",
+    "title": "Tonkin Gulf Intelligence \"Skewed\" According to Official History and Intercepts",
+    "date": "2005-12-01",
+    "quotes": [
+     "Included in the release is a controversial article by Agency historian Robert J. Hanyok on SIGINT and the Tonkin Gulf which confirms what historians have long argued: that there was no second attack on U.S. ships in Tonkin on August 4, 1964.",
+     "President Johnson and Secretary of Defense McNamara treated Agency SIGINT reports as vital evidence of a second attack and used this claim to support retaliatory air strikes and to buttress the administration's request for a Congressional resolution that would give the White House freedom of action in Vietnam.",
+     "\"The overwhelming body of reports, if used, would have told the story that no attack occurred.\""
+    ]
+   }
+  ],
+  "changes": "No factual change. Added the date and the White House's use of the claim, as the archive describes it.",
+  "notes": "Hanyok's article first appeared in NSA's classified Cryptologic Quarterly in early 2001 and was declassified on December 1, 2005, with over 140 other documents. The NSA's own release page was not fetched. The Gulf of Tonkin Resolution itself (Aug 7, 1964) is not quoted here, but the archive page covers the resolution request.",
+  "numbersNotQuoted": [
+   "2005"
+  ]
+ },
+ {
+  "id": "WAR-5",
+  "verdict": "corrected",
+  "title": "Nayirah: invented testimony sells a war",
+  "body": "A 15-year-old girl told the Congressional Human Rights Caucus in October 1990 that she had watched Iraqi soldiers take babies from incubators in Kuwait and leave them to die. She was the daughter of Kuwait’s ambassador to the US, presented by Hill & Knowlton, the PR firm the Kuwaiti-financed group Citizens for a Free Kuwait had hired for a roughly $10 million campaign for war. ABC found the story almost certainly false, and Amnesty International later retracted its support for it.",
+  "year": "1990",
+  "status": "reported",
+  "src_label": "MacArthur, New York Times op-ed (Jan 6, 1992); Middle East Report (1992)",
+  "sources": [
+   {
+    "url": "https://www.nytimes.com/1992/01/06/opinion/remember-nayirah-witness-for-kuwait.html",
+    "publisher": "The New York Times (John R. MacArthur, op-ed)",
+    "title": "Remember Nayirah, Witness for Kuwait?",
+    "date": "1992-01-06",
+    "quotes": [
+     "the most sensational one -- that Iraqi soldiers removed hundreds of Kuwaiti babies from incubators and left them to die on hospital floors -- was shown to be almost certainly false by an ABC reporter, John Martin, in March 1991",
+     "(Amnesty International later retracted its support of the story.)",
+     "the 15-year-old Kuwaiti girl who shocked the Congressional Human Rights Caucus on Oct. 10, 1990, when she tearfully asserted that she had watched 15 infants being taken from incubators in Al-Adan Hospital in Kuwait City by Iraqi soldiers who \"left the babies on the cold floor to die.\"",
+     "Nayirah, her real name, is the daughter of the Kuwaiti Ambassador to the U.S., Saud Nasir al-Sabah.",
+     "Hill and Knowlton, the public relations firm hired by Citizens for a Free Kuwait, the Kuwaiti-financed group that lobbied Congress for military intervention.",
+     "Mr. Hymel presented the witnesses, including Nayirah."
+    ],
+    "via": "archive"
+   },
+   {
+    "url": "https://merip.org/1992/07/the-news-industry/",
+    "publisher": "Middle East Report (MERIP), Issue 177",
+    "title": "The News Industry",
+    "date": "1992-07",
+    "quotes": [
+     "ran a $10 million advertising campaign to build public support for the US war against Iraq.",
+     "They coached Nayirah and other purportedly credible “eyewitnesses” to Iraqi atrocities, and made sure their accounts reached every possible media outlet."
+    ]
+   }
+  ],
+  "changes": "'Paid about $10.8 million' -> 'a roughly $10 million campaign': no source I could read gives $10.8 million, and published figures range from $10 million to $11.9 million. 'Never substantiated' -> ABC's finding as the NYT reports it ('almost certainly false'). Kept 'coached', which rests on MERIP. Added her age and the date. Status documented -> reported, since the key facts come from journalism. Replaced Wikipedia.",
+  "notes": "nytimes.com cannot be fetched here, so I read the op-ed from a Wayback Machine capture of its nytimes.com URL. The MERIP piece is a column under a pen name ('Al Miskin'). It cites Middle East Watch's February 6, 1992 report 'Kuwait's Stolen Incubators', which would be a stronger source for the falsity finding if it can be found. MacArthur's book Second Front and the ABC 20/20 segment were not read. Hill & Knowlton denied wrongdoing. If the editor wants 'coached' on firmer ground, the CBC/ABC 1992 broadcasts are the usual citation.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "WAR-6",
+  "verdict": "supported",
+  "title": "Iraq’s missing weapons and the press that repeated them",
+  "body": "A presidential commission concluded that US intelligence was “dead wrong in almost all of its pre-war judgments about Iraq’s weapons of mass destruction.” The New York Times later published an editors’ note saying it had found “a number of instances of coverage that was not as rigorous as it should have been.”",
+  "year": "2002–04",
+  "status": "documented",
+  "src_label": "New York Times, “From the Editors” (May 26, 2004); Commission on the Intelligence Capabilities of the US Regarding WMD (Mar 2005)",
+  "sources": [
+   {
+    "url": "https://www.nytimes.com/2004/05/26/world/from-the-editors-the-times-and-iraq.html",
+    "publisher": "The New York Times",
+    "title": "FROM THE EDITORS; The Times and Iraq",
+    "date": "2004-05-26",
+    "quotes": [
+     "But we have found a number of instances of coverage that was not as rigorous as it should have been.",
+     "Administration officials now acknowledge that they sometimes fell for misinformation from these exile sources. So did many news organizations -- in particular, this one."
+    ],
+    "via": "archive"
+   },
+   {
+    "url": "https://www.govinfo.gov/content/pkg/GPO-WMD/pdf/GPO-WMD.pdf",
+    "publisher": "Commission on the Intelligence Capabilities of the United States Regarding Weapons of Mass Destruction (U.S. Government Publishing Office)",
+    "title": "Report to the President of the United States",
+    "date": "2005-03-31",
+    "quotes": [
+     "We conclude that the Intelligence Community was dead wrong in almost all of its pre-war judgments about Iraq's weapons of mass destruction. This was a major intelligence failure."
+    ]
+   }
+  ],
+  "changes": "No factual change. 'Claims proved false' is now sourced to the WMD Commission's finding, and the Times quote is given in its full sentence. Added URLs.",
+  "notes": "nytimes.com cannot be fetched here, so I read the editors' note from a Wayback Machine capture of its nytimes.com URL. CPI's 'False Pretenses' (WAR_STATS-1) also says 'It is now beyond dispute that Iraq did not possess any weapons of mass destruction'.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "MEDIA-new-1",
+  "verdict": "new",
+  "title": "Paid to praise a law",
+  "body": "The Department of Education, through the PR firm Ketchum, paid commentator Armstrong Williams’s company $186,000 for him to comment regularly on the No Child Left Behind Act on his shows, and took no steps to tell his audiences who was paying. The Government Accountability Office ruled it illegal “covert propaganda.”",
+  "year": "2004–05",
+  "status": "court",
+  "src_label": "GAO decision B-305368 (Sept 30, 2005)",
+  "sources": [
+   {
+    "url": "https://www.gao.gov/products/b-305368",
+    "publisher": "U.S. Government Accountability Office",
+    "title": "B-305368, Department of Education--Contract to Obtain Services of Armstrong Williams",
+    "date": "2005-09-30",
+    "quotes": [
+     "The Department of Education contracted to obtain commentary on the No Child Left Behind Act by Mr. Armstrong Williams, but took no steps to assure that its role in sponsoring that commentary was disclosed to the targeted audiences. This constituted covert propaganda in violation of the fiscal year 2004 publicity or propaganda prohibition",
+     "The Department told us that it has paid Ketchum a total of $188,543.48 for Task Order Nos. 9 and 16. Of that amount, $186,000 covered amounts that Ketchum paid GWG."
+    ],
+    "via": "archive"
+   }
+  ],
+  "changes": "",
+  "notes": "GWG is the Graham Williams Group, Williams's company. The press at the time reported a $240,000 contract. The GAO's figure for money actually paid to his firm is $186,000, which is what the body uses. The GAO also found an Antideficiency Act violation. gao.gov blocks scripted fetches, so I read the decision in a browser and copied the quotes from the page text.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "MEDIA-new-2",
+  "verdict": "new",
+  "title": "“In Washington, I’m Karen Ryan reporting”",
+  "body": "The Medicare agency paid for ready-made TV news segments about the new Medicare drug law, narrated by “Karen Ryan” and made by a firm hired by its PR contractor Ketchum, that local stations aired without saying the government made them. The GAO ruled that the unattributed story packages broke the ban on federal publicity or propaganda.",
+  "year": "2004",
+  "status": "court",
+  "src_label": "GAO decision B-302710 (May 19, 2004)",
+  "sources": [
+   {
+    "url": "https://www.gao.gov/products/b-302710",
+    "publisher": "U.S. Government Accountability Office",
+    "title": "B-302710, Department of Health and Human Services, Centers for Medicare & Medicaid Services--Video News Releases",
+    "date": "2004-05-19",
+    "quotes": [
+     "The Centers for Medicare & Medicaid Services's (CMS) use of appropriated funds to pay for the production and distribution of story packages that were not attributed to CMS violated the restriction on using appropriated funds for publicity or propaganda purposes",
+     "Although the English story packages contain several of the same B-roll video clips and the same narrator, identified as Karen Ryan, the contents of the two story packages vary.",
+     "In Washington, I'm Karen Ryan reporting.",
+     "Ketchum hired Home Front Communications (HFC) to create the VNR materials.",
+     "CMS provided us a list of television stations that aired at least some portion of the VNRs between January 22, 2004, and February 12, 2004."
+    ],
+    "via": "archive"
+   }
+  ],
+  "changes": "",
+  "notes": "The GAO quotes the sign-off with quotation marks, and they drop out of the page's text layer. The words are as quoted. 'Aired without saying the government made them' rests on the GAO's 'story packages that were not attributed to CMS'. The GAO does not list the stations here, beyond naming WBRZ Baton Rouge as one that aired it. gao.gov blocks scripted fetches, so I read the decision in a browser and copied the quotes from the page text.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "WAR-new-1",
+  "verdict": "new",
+  "title": "A propaganda office for the Great War",
+  "body": "Executive Order 2594 of April 13, 1917 created the Committee on Public Information, chaired by George Creel. The National Archives lists its jobs as releasing government news during World War I, sustaining morale and administering “voluntary press censorship.” Its files include “propaganda records” and the work of the “four minute men.”",
+  "year": "1917–19",
+  "status": "documented",
+  "src_label": "National Archives, Records of the Committee on Public Information (Record Group 63)",
+  "sources": [
+   {
+    "url": "https://www.archives.gov/research/guide-fed-records/groups/063.html",
+    "publisher": "U.S. National Archives and Records Administration",
+    "title": "Records of the Committee on Public Information (Record Group 63)",
+    "date": "",
+    "quotes": [
+     "Established: As an independent agency by EO 2594, April 13, 1917. Consisted of George Creel (Chairman) and Secretaries of State, War, and the Navy as ex officio members.",
+     "Functions: Released government news during World War I. Sustained morale. Administered voluntary press censorship.",
+     "Propaganda records, 1917-21.",
+     "Reports and correspondence relating to the preparation and distribution of information, the use of motion picture film and photographs, the work of the \"four minute men,\" and the war work of women, 1917-19."
+    ]
+   }
+  ],
+  "changes": "",
+  "notes": "This fills a gap: the WAR section has no case about the US government's own wartime propaganda machinery before the Cold War. NARA also names Carl Byoir as an associate chairman. Byoir and Edward Bernays (WAR-3) both went on to found PR firms, a link worth a separate source if the editor wants it. Counts of the Four Minute Men (often given as 75,000) were not sourced here. archives.gov blocks scripted fetches, so I read the page in a browser and copied the quotes from the page text.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "MOVE_STATS-0",
+  "verdict": "supported",
+  "n": "$433M",
+  "t": "an estimated yearly spend by US employers on consultants to fight unionization, likely an undercount.",
+  "status": "reported",
+  "src_label": "Economic Policy Institute (March 2023)",
+  "sources": [
+   {
+    "url": "https://files.epi.org/uploads/265149.pdf",
+    "publisher": "Economic Policy Institute",
+    "title": "Employers spend more than $400 million per year on ‘union-avoidance’ consultants to bolster their union-busting efforts (fact sheet; McNicholas, Poydock, Sanders, Zipperer)",
+    "date": "2023-03-29",
+    "quotes": [
+     "EPI estimates employers spend $433 million per year on union-avoidance consultants.",
+     "This estimate is just a drop in the bucket because there is not enough data to reveal the true scope of what employers spend.",
+     "To arrive at the $433 million figure, we take the $338 million dollar estimate from McNicholas et al. 2019, which covered the four-year period"
+    ]
+   }
+  ],
+  "changes": "",
+  "notes": "The fact sheet's HTML page (epi.org/publication/union-avoidance/) sits behind a Cloudflare check for automated fetches; the quotes come from EPI's own PDF of the same fact sheet, which is a stable link to use instead. The $433M is EPI's earlier 2014-2017 estimate ($338M) restated in 2023 dollars, not a new count.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "MOVE_STATS-1",
+  "verdict": "supported",
+  "n": "$14.2M",
+  "t": "paid by Amazon to anti-union consultants in 2022 alone, roughly triple the year before.",
+  "status": "documented",
+  "src_label": "US Department of Labor filings; HuffPost (March 2023)",
+  "sources": [
+   {
+    "url": "https://www.huffpost.com/entry/amazon-anti-union-spending-2022_n_6426fd1fe4b02a8d518e7010",
+    "publisher": "HuffPost",
+    "title": "Amazon Spent $14 Million On Anti-Union Consultants In 2022 (Dave Jamieson)",
+    "date": "2023-03-31",
+    "quotes": [
+     "Amazon spent more than $14.2 million last year on outside consultants whose job was to convince workers not to unionize, according to new disclosures filed Friday with the Labor Department.",
+     "Amazon spent $4.3 million on anti-union consultants in 2021, HuffPost reported."
+    ]
+   }
+  ],
+  "changes": "",
+  "notes": "$14.2M / $4.3M = 3.3x, so 'more than triple' would be equally accurate. The figure comes from Amazon's disclosures to the Labor Department as reported by HuffPost; the filing itself was not fetched.",
+  "numbersNotQuoted": [
+   "2022"
+  ]
+ },
+ {
+  "id": "MOVEMENTS-0",
+  "verdict": "corrected",
+  "title": "The Powell Memo",
+  "body": "Corporate lawyer Lewis Powell, two months before his Supreme Court nomination, sent the US Chamber of Commerce a confidential memo urging business to organize and fund a long-range campaign on campuses, in the media, in the courts and in politics. It is often called the blueprint for the think tanks and business law groups that followed; the clearest direct line runs to the Pacific Legal Foundation (1973), and some writers argue its influence is overstated.",
+  "year": "1971",
+  "status": "documented",
+  "src_label": "Powell, “Attack on American Free Enterprise System” (Aug 23, 1971), Washington and Lee University School of Law; Schmitt, “The Legend of the Powell Memo,” The American Prospect (2005)",
+  "sources": [
+   {
+    "url": "https://scholarlycommons.law.wlu.edu/powellmemo/",
+    "publisher": "Washington and Lee University School of Law, Powell Archives",
+    "title": "Powell Memorandum: Attack On American Free Enterprise System",
+    "date": "1971-08-23",
+    "quotes": [
+     "On August 23, 1971, less than two months before he was nominated to serve as an Associate Justice of the Supreme Court of the United States, Lewis F. Powell, Jr. mailed a confidential memorandum to his friend Eugene B. Sydnor, Jr., Chair of the Education Committee of the U.S. Chamber of Commerce.",
+     "The memo was titled Attack On American Free Enterprise System and outlined ways in which business should defend and counter attack against a \"broad attack\" from \"disquieting voices.\""
+    ]
+   },
+   {
+    "url": "https://reclaimdemocracy.org/powell_memo_lewis/",
+    "publisher": "Reclaim Democracy (full transcription of the memo)",
+    "title": "Powell Memo (text of the Aug. 23, 1971 memorandum)",
+    "date": "1971-08-23",
+    "quotes": [
+     "Strength lies in organization, in careful long-range planning and implementation, in consistency of action over an indefinite period of years, in the scale of financing available only through joint effort, and in the political power available only through united action and national organizations.",
+     "The Chamber should consider establishing a staff of highly qualified scholars in the social sciences who do believe in the system.",
+     "The national television networks should be monitored in the same way that textbooks should be kept under constant surveillance.",
+     "This is a vast area of opportunity for the Chamber, if it is willing to undertake the role of spokesman for American business and if, in turn, business is willing to provide the funds.",
+     "As unwelcome as it may be to the Chamber, it should consider assuming a broader and more vigorous role in the political arena."
+    ]
+   },
+   {
+    "url": "https://prospect.org/2005/04/27/legend-powell-memo/",
+    "publisher": "The American Prospect",
+    "title": "The Legend of the Powell Memo (Mark Schmitt)",
+    "date": "2005-04-27",
+    "quotes": [
+     "Today, though, the Powell Memo is routinely invoked as the blueprint for virtually all of the conservative intellectual infrastructure built in the 1970s and 1980s",
+     "and then to the 1973 establishment of the Pacific Legal Foundation",
+     "Other than the Pacific Legal Foundation and the tenuous Coors-Heritage connection, it’s hard to find much evidence that the memo served as a direct blueprint for the institutions that followed."
+    ]
+   }
+  ],
+  "changes": "Replaced 'Think tanks and legal groups followed' with a sourced, hedged version: the memo's influence on later think tanks is widely asserted but contested (Schmitt finds a documented line only to the Pacific Legal Foundation). Added that the memo went to the Chamber via its education committee chair and was confidential.",
+  "notes": "The original typescript PDF on scholarlycommons.law.wlu.edu is behind a Cloudflare check for automated fetches, so memo quotes are taken from Reclaim Democracy's transcription (an advocacy site, but a verbatim copy of the document). An editor can confirm them against the W&L scan by hand. W&L's landing page itself was fetched and quoted.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "MOVEMENTS-1",
+  "verdict": "corrected",
+  "title": "Big Tobacco’s fake smokers’ movement",
+  "body": "PR firm Burson-Marsteller created the National Smokers Alliance for Philip Morris in 1993 to look like a grassroots smokers’ rights group, with a Burson-Marsteller vice president as its president. Philip Morris supplied its start-up grant, and a peer-reviewed study calls it a front group funded by the tobacco industry.",
+  "year": "1993",
+  "status": "documented",
+  "src_label": "Tobacco Tactics, University of Bath; Givel, Journal of Health Communication (2007); NSA fact sheet, UCSF Industry Documents Library",
+  "sources": [
+   {
+    "url": "https://www.tobaccotactics.org/article/astroturfing/",
+    "publisher": "Tobacco Tactics, University of Bath",
+    "title": "Astroturfing",
+    "date": "2022-03-11",
+    "quotes": [
+     "The following year, in 1993, this team created the National Smokers Alliance on behalf of Philip Morris.",
+     "There was also an overlap of staff: The Alliance’s president was the vice president of Burson-Marsteller, and other Burson-Marsteller executives were actively involved in the organisation.",
+     "However, the names of the NSA’s corporate funders and organisers were kept off the group’s materials, according to PR Watch."
+    ]
+   },
+   {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17558787/",
+    "publisher": "Journal of Health Communication (via PubMed)",
+    "title": "Consent and counter-mobilization: the case of the national smokers alliance (Michael Givel)",
+    "date": "2007-06",
+    "quotes": [
+     "In 1993, the tobacco industry counter-mobilized through the National Smokers Alliance (NSA), a public relations created front group funded by the tobacco industry, which operated nationally from 1994 to 1999"
+    ],
+    "via": "archive"
+   }
+  ],
+  "changes": "Removed '$42 million raised in its first four years': it is not on the cited Tobacco Tactics page. The only trace found was a 1990s wire story (reportedly citing California Attorney General filings) in a newspaper archive behind a bot wall, so it could not be read or quoted. Replaced it with the founding grant and staff overlap, which the sources state.",
+  "notes": "If the editor wants the dollar figure back, it needs the original news story or the California AG charity filings in hand. Date of the UCSF document is approximate (the fact sheet describes the group as newly organizing).",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "MOVEMENTS-2",
+  "verdict": "supported",
+  "title": "Oil industry “Energy Citizens” rallies",
+  "body": "The American Petroleum Institute organized rallies against climate legislation, presented as citizen events. An email from API’s president, leaked by Greenpeace, asked member companies to recruit employees, retirees, vendors and contractors.",
+  "year": "2009",
+  "status": "documented",
+  "src_label": "API email to members, published by Greenpeace (Aug 12, 2009); DeSmog (Aug 13, 2009)",
+  "sources": [
+   {
+    "url": "https://www.desmog.com/wp-content/uploads/files/GP%20API%20letter%20August%202009-1.pdf",
+    "publisher": "Greenpeace USA (letter to API, with the leaked API email attached)",
+    "title": "Letter from Phil Radford to Jack Gerard, with copy of email from American Petroleum Institute to its membership",
+    "date": "2009-08-12",
+    "quotes": [
+     "API is coordinating a series of \"Energy Citizen\" rallies in about 20 states across the country during the last two weeks of Congress's August recess.",
+     "The objective of these rallies is to put a human face on the impacts of unsound energy policy and to aim a loud message at those states' U.S. Senators to avoid the mistakes embodied in the House climate bill",
+     "In addition, please include all vendors, suppliers, contractors, retirees and others who have an interest in our success.",
+     "we don't want critics to know our game plan."
+    ]
+   }
+  ],
+  "changes": "Body unchanged. Source label: The Guardian (Aug 2009) was not checked (our fetch tools cannot reach theguardian.com), so it is replaced by the leaked email itself as published with Greenpeace's letter.",
+  "notes": "The email asks member CEOs for each facility manager's 'commitment to provide significant attendance' and to include vendors, suppliers, contractors and retirees; 'employees' is DeSmog's summary of the facility-attendance ask.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "MOVEMENTS-3",
+  "verdict": "supported",
+  "title": "Billionaire fuel for the Tea Party",
+  "body": "Groups funded by Charles and David Koch, including Americans for Prosperity, provided money, training and organization to the Tea Party movement. The Kochs denied funding the Tea Party directly.",
+  "year": "2009–10",
+  "status": "reported",
+  "src_label": "Mayer, “Covert Operations,” The New Yorker (2010)",
+  "sources": [
+   {
+    "url": "https://www.newyorker.com/magazine/2010/08/30/covert-operations",
+    "publisher": "The New Yorker",
+    "title": "Covert Operations (Jane Mayer)",
+    "date": "2010-08-23",
+    "quotes": [
+     "the advocacy wing of the Americans for Prosperity Foundation—an organization that David Koch started, in 2004—held a different kind of gathering.",
+     "She explained that the role of Americans for Prosperity was to help “educate” Tea Party activists on policy details, and to give them “next-step training” after their rallies, so that their political energy could be channelled “more effectively.”",
+     "By giving money to “educate,” fund, and organize Tea Party protesters, they have helped turn their private agenda into a mass movement.",
+     "“No funding has been provided by Koch companies, the Koch foundations, or Charles Koch or David Koch specifically to support the tea parties.”"
+    ]
+   }
+  ],
+  "changes": "Added the URL.",
+  "notes": "Posted online Aug 23, 2010; print issue dated Aug 30, 2010.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "MOVEMENTS-4",
+  "verdict": "corrected",
+  "title": "Foreign trolls stage both sides of a protest",
+  "body": "Russia’s Internet Research Agency used a fake “Heart of Texas” Facebook page to promote a “Stop Islamization of Texas” protest at a Houston Islamic center on May 21, 2016, and a second fake page to promote a counter-rally at the same place and time. The two crowds faced off; the ads cost about $200.",
+  "year": "2016",
+  "status": "court",
+  "src_label": "Senate Intelligence Committee report, Vol. 2 (2019); NPR (Nov 2017)",
+  "sources": [
+   {
+    "url": "https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-documents-report-volume2.pdf",
+    "publisher": "US Senate Select Committee on Intelligence",
+    "title": "Russian Active Measures Campaigns and Interference in the 2016 U.S. Election, Volume 2: Russia's Use of Social Media",
+    "date": "2019-10",
+    "quotes": [
+     "IRA influence operatives used the Facebook page, \"Heart of Texas\" to promote a protest in opposition to Islam, to occur in front of the Islamic Da'wah Center in Houston, Texas.",
+     "\"Heart of Texas,\" which eventually attracted over 250,000 followers, used targeted advertisements to implore its supporters to attend a \"Stop Islamization of Texas\" event, slated for noon, May 21, 2016.",
+     "to promote a second event, to be held at the same time, at exactly the same Islamic Da'wah Center in Houston."
+    ]
+   },
+   {
+    "url": "https://www.npr.org/2017/11/01/561427876/how-russia-used-facebook-to-organize-two-sets-of-protesters",
+    "publisher": "NPR",
+    "title": "How Russia Used Facebook To Organize 2 Sets Of Protesters (Ryan Lucas)",
+    "date": "2017-11-01",
+    "quotes": [
+     "In May of last year, two groups of demonstrators faced off outside the Islamic Center in Houston Texas.",
+     "Russian operatives had established both Facebook groups.",
+     "The price tag on all this - it set Russia back a grand total of around $200."
+    ]
+   }
+  ],
+  "changes": "'organized a Houston protest against a mosque' -> 'promote a Stop Islamization of Texas protest at a Houston Islamic center': the Senate report says the IRA promoted the event, outside the Islamic Da'wah Center, through targeted ads. Added the date, the page names, the face-off and the ~$200 cost.",
+  "notes": "The Senate report names the second page \"United Muslims for America\" in one place and NPR calls it \"United Muslims of America\"; the body avoids the name.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "MOVEMENTS-5",
+  "verdict": "supported",
+  "title": "Culture war as a substitute for wages",
+  "body": "Writer Thomas Frank argued that political campaigns rally working-class voters around cultural grievances while delivering economic policies that favor the wealthy.",
+  "year": "2004",
+  "status": "argument",
+  "src_label": "Frank, What’s the Matter with Kansas? (2004)",
+  "sources": [
+   {
+    "url": "https://us.macmillan.com/books/9780805077742/whatsthematterwithkansas/",
+    "publisher": "Metropolitan Books / Macmillan (excerpt of the introduction)",
+    "title": "What's the Matter with Kansas? How Conservatives Won the Heart of America (Thomas Frank)",
+    "date": "2004",
+    "quotes": [
+     "While earlier forms of conservatism emphasized fiscal sobriety, the backlash mobilizes voters with explosive social issues—summoning public outrage over everything from busing to un-Christian art—which it then marries to pro-business economic policies.",
+     "Cultural anger is marshaled to achieve economic ends.",
+     "Vote to stop abortion; receive a rollback in capital gains taxes."
+    ]
+   }
+  ],
+  "changes": "Added the URL (publisher's excerpt of Frank's introduction, in his own words).",
+  "notes": "The Macmillan listing is the paperback with a new afterword; the book first appeared in 2004.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "FAITH-0",
+  "verdict": "corrected",
+  "title": "“Right to work” was born in a racist, “Christian” front group",
+  "body": "Texas lobbyist Vance Muse’s Christian American Association, which raised money from wealthy Southern planters and industrialists, led the 1944 campaign that made Arkansas, with Florida, one of the first two states to pass a “right to work” law, selling it with racist and antisemitic propaganda.",
+  "year": "1936–44",
+  "status": "reported",
+  "src_label": "Pierce, “The Origins of Right-to-Work,” LAWCHA (2017)",
+  "sources": [
+   {
+    "url": "https://www.lawcha.org/2017/01/12/origins-right-work-vance-muse-anti-semitism-maintenance-jim-crow-labor-relations/",
+    "publisher": "Labor and Working-Class History Association (LAWCHA)",
+    "title": "The Origins of Right-to-Work: Vance Muse, Anti-Semitism, and the Maintenance of Jim Crow Labor Relations (Michael Pierce)",
+    "date": "2017-01-12",
+    "quotes": [
+     "In 1936, on the heels of the Southern Committee’s failure to deny Roosevelt’s nomination, Muse incorporated the Christian American Association to continue the fight against the New Deal, offering up a toxic mix of anti-Semitism, racism, anti-Communism, and anti-unionism.",
+     "The Christian Americans solicited wealthy southern planters and industrialists for funds",
+     "The Arkansas Farm Bureau Federation and allied industrialists were so pleased with the Christian American Association’s success in passing the anti-strike measure that they agreed to underwrite a campaign in 1944 to secure a Right-to-Work amendment for the Arkansas constitution.",
+     "While Muse and the Christian Americans consulted with the campaigns in California and Florida, they led the one in Arkansas.",
+     "In November 1944, Arkansas and Florida became the first states to enact Right-to-Work laws (California voters rejected the measure)."
+    ]
+   }
+  ],
+  "changes": "Narrowed 'pushed the first right to work laws (Arkansas and Florida, 1944)': Pierce says Muse's group led the Arkansas campaign and only consulted on Florida's. 'Funded by' became 'raised money from', which is how Pierce puts it. Year label 1936-40s -> 1936-44 (incorporation to the 1944 votes).",
+  "notes": "Dixon, Journal of Policy History (2007) (\"Limiting Labor\", doi 10.1353/jph.2007.0015) exists, but its text was not read, so it is dropped from the label. Michael Pierce is a historian at the University of Arkansas. A 1907 aside worth knowing: Rauschenbusch already wrote that the cry of 'the right to work' had been 'raised mainly by the employers' (see RECLAIM-1).",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "FAITH-1",
+  "verdict": "corrected",
+  "title": "Prayer breakfasts born from anti-union organizing",
+  "body": "In April 1935, Norwegian-born preacher Abraham Vereide gathered Seattle business executives into weekly prayer breakfasts; journalist Jeff Sharlet, working from the group’s own archive, writes that they prayed to “crush the radical unions.” His network, the Fellowship (or “the Family”), established the National Prayer Breakfast in 1953.",
+  "year": "1935–",
+  "status": "reported",
+  "src_label": "Sharlet, “Jesus Plus Nothing,” Harper’s (March 2003); Pacific Lutheran University Archives",
+  "sources": [
+   {
+    "url": "https://harpers.org/archive/2003/03/jesus-plus-nothing/",
+    "publisher": "Harper’s Magazine",
+    "title": "Jesus Plus Nothing (Jeff Sharlet)",
+    "date": "2003-03",
+    "quotes": [
+     "Between 1984 and 1992 the Fellowship Foundation consigned 592 boxes—decades of the Family’s letters, sermons, minutes, Christmas cards, travel itineraries, and lists of members—to an archive at the Billy Graham Center of Wheaton College in Illinois.",
+     "The Family was founded in April 1935 by Abraham Vereide, a Norwegian immigrant who made his living as a traveling preacher.",
+     "They enlisted nineteen business executives in a weekly breakfast meeting and together they prayed, convinced that Jesus alone could redeem Seattle and crush the radical unions.",
+     "The Family’s only publicized gathering is the National Prayer Breakfast, which it established in 1953"
+    ]
+   },
+   {
+    "url": "https://archives.plu.edu/index.php/abraham-vereide",
+    "publisher": "Pacific Lutheran University Archives",
+    "title": "Abraham Vereide (biographical note)",
+    "date": "",
+    "quotes": [
+     "In 1935, Vereide founded the prayer breakfast movement in the United States.",
+     "In 1953, Vereide started the Presidential Prayer Breakfast, later called the National Prayer Breakfast or the International Prayer Breakfast."
+    ]
+   }
+  ],
+  "changes": "'Methodist minister' -> 'Norwegian-born preacher': no fetched source names his denomination. 'Fighting organized labor among their stated concerns' -> Sharlet's own words ('crush the radical unions'), attributed to him. Added April 1935.",
+  "notes": "Sharlet's book The Family (2008) expands this article but was not checked here, so the label cites the article. Wheaton's finding aid for the Fellowship Foundation Records (archives.wheaton.edu) sits behind a human check and was not read.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "FAITH-2",
+  "verdict": "corrected",
+  "title": "Industrialists fund “Freedom Under God”",
+  "body": "Corporate leaders including Sun Oil president J. Howard Pew and GM’s Alfred Sloan, along with the heads of the US Chamber of Commerce and the National Association of Manufacturers, bankrolled minister James Fifield’s Spiritual Mobilization, which recruited clergy to preach that the New Deal was “pagan stateism” under the slogan “Freedom Under God.” Historian Kevin Kruse traces how that pairing of faith and free enterprise moved to center stage in the 1950s, when “under God” entered the Pledge (1954) and “In God We Trust” became the national motto (1956).",
+  "year": "1930s–50s",
+  "status": "reported",
+  "src_label": "Kruse, One Nation Under God (2015), interviewed on NPR’s Fresh Air (March 2015); Eisenhower signing statement (June 14, 1954)",
+  "sources": [
+   {
+    "url": "https://www.npr.org/2015/03/30/396365659/how-one-nation-didnt-become-under-god-until-the-50s-religious-revival",
+    "publisher": "NPR (Fresh Air)",
+    "title": "How 'One Nation' Didn't Become 'Under God' Until The '50s Religious Revival",
+    "date": "2015-03-30",
+    "quotes": [
+     "So they argue that the New Deal is not a manifestation of God's will, but rather, a form of pagan stateism and is inherently sinful.",
+     "\"Spiritual mobilization\" is his effort to recruit other ministers to the cause.",
+     "His main sponsors are Sun Oil President J. Howard Pew, Alfred Sloan of General Motors, the heads of the U.S. Chamber of Commerce, the National Association of Manufacturers, they all heavily fund this organization.",
+     "He comes up with the phrase that reduces this Christian libertarian ideology down to a catchy slogan and that slogan is \"Freedom Under God,\" as opposed to the slavery of the state.",
+     "He says this conflation of Christianity and capitalism moved to center stage in the '50s under Eisenhower's watch.",
+     "And in 1956, they move to make it the country's first official national motto."
+    ]
+   },
+   {
+    "url": "https://www.presidency.ucsb.edu/documents/statement-the-president-upon-signing-bill-include-the-words-under-god-the-pledge-the-flag",
+    "publisher": "The American Presidency Project, UC Santa Barbara",
+    "title": "Statement by the President Upon Signing Bill To Include the Words \"Under God\" in the Pledge to the Flag",
+    "date": "1954-06-14",
+    "quotes": [
+     "Statement by the President Upon Signing Bill To Include the Words \"Under God\" in the Pledge to the Flag. June 14, 1954"
+    ]
+   }
+  ],
+  "changes": "Removed Harvey Firestone: Kruse names Pew, Sloan and the heads of the Chamber and NAM as the main sponsors, not Firestone. Added Fifield's slogan in Kruse's words, and the 1954 Pledge date from Eisenhower's signing statement (the NPR piece only says 'the 1950s'). Year label 1940s-50s -> 1930s-50s (NPR: the campaign ran through the 1930s and '40s).",
+  "notes": "Firestone may well appear in Kruse's book, but that was not checked; restore him only with a page cite.",
+  "numbersNotQuoted": [
+   "1950"
+  ]
+ },
+ {
+  "id": "FAITH-3",
+  "verdict": "corrected",
+  "title": "The religious right’s real starting point",
+  "body": "Historian Randall Balmer argues the religious right first organized not around abortion but around federal moves to deny tax exemptions to racially segregated Christian schools, with strategist Paul Weyrich using the issue to mobilize preachers like Jerry Falwell.",
+  "year": "1971–79",
+  "status": "argument",
+  "src_label": "Balmer, “The Historian’s Pickaxe” (essay); Bad Faith (2021). Critics dispute this account.",
+  "sources": [
+   {
+    "url": "https://www.sas.upenn.edu/andrea-mitchell-center/sites/www.sas.upenn.edu.andrea-mitchell-center/files/Balmer%20-%20Historian's%20Pickaxe.pdf",
+    "publisher": "Andrea Mitchell Center, University of Pennsylvania",
+    "title": "The Historian's Pickaxe: Uncovering the Racist Origins of the Religious Right (Randall Balmer)",
+    "date": "",
+    "quotes": [
+     "Weyrich forcefully disputed that assumption, recounting that ever since Barry Goldwater's run for the presidency in 1964, he had been trying to enlist evangelicals in conservative political causes, but it was the tax exemption for religious schools that finally caught the attention of evangelical leaders.",
+     "Green v. Connally served as the catalyst, not Roe v. Wade.",
+     "prompted preachers like Jerry Falwell to mobilize against him."
+    ],
+    "via": "archive"
+   },
+   {
+    "url": "https://religion.dartmouth.edu/news/2022/05/good-faith",
+    "publisher": "Dartmouth College, Department of Religion",
+    "title": "In Good Faith",
+    "date": "2022-05-03",
+    "quotes": [
+     "In his latest book, Bad Faith: Race and the Rise of the Religious Right (2021), Balmer calls the widely accepted view that the 1973 Roe v. Wade decision drove evangelicals into the political arena a myth.",
+     "Rather, he argues, what galvanized religious right leaders was the threat that their racially discriminatory schools would lose their tax-exempt status."
+    ]
+   },
+   {
+    "url": "https://www.thegospelcoalition.org/blogs/evangelical-history/fact-checking-randall-balmers-urban-legend-on-the-real-origin-of-the-religious-right/",
+    "publisher": "The Gospel Coalition (guest post by attorney Jonathan Whitehead)",
+    "title": "Fact-Checking Randall Balmer’s Urban Legend on the Real Origin of the Religious Right",
+    "date": "2022-08-08",
+    "quotes": [
+     "So the core allegations of the Balmer story are wrong."
+    ]
+   }
+  ],
+  "changes": "'Paul Weyrich recruiting Jerry Falwell' -> Weyrich used the schools issue to mobilize preachers like Falwell, which is how Balmer puts it. 'IRS stripping tax exemptions' -> 'federal moves to deny tax exemptions' (Balmer's catalyst is the 1971 Green v. Connally ruling, then IRS actions). Year 1979 -> 1971-79. 'Some historians dispute' -> 'Critics dispute': the critique found is by an attorney, not a historian.",
+  "notes": "Balmer's Politico Magazine piece (May 2014) could not be fetched (politico.com is blocked to our tools), so it is dropped from the label in favour of his essay hosted by UPenn, which makes the same argument in his own words. Wording in the essay that the PDF splits across a line ('tax-exempt') was avoided in quotes.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "FAITH-4",
+  "verdict": "corrected",
+  "title": "Climate action as a “false religion”",
+  "body": "The Cornwall Alliance, an evangelical group that co-sponsored the Heartland Institute’s 2009 conference on climate change and shares a fundraising firm with the group CFACT, released “Resisting the Green Dragon,” a 12-part DVD series casting environmentalism as a rival faith with “its own doctrines of God, creation, humanity, sin, and salvation.”",
+  "year": "2010",
+  "status": "documented",
+  "src_label": "Cornwall Alliance press release, via Mother Jones (Dec 2010); DeSmog",
+  "sources": [
+   {
+    "url": "https://www.motherjones.com/politics/2010/12/beware-treehuggers/",
+    "publisher": "Mother Jones",
+    "title": "Beware the Treehuggers! (Kate Sheppard)",
+    "date": "2010-12-17",
+    "quotes": [
+     "Just in time for the holidays, a coalition of Christian conservative groups has issued an “explosive new 12-part DVD series” detailing the dangers of environmentalism.",
+     "“Today’s environmentalism isn’t a neutral set of ideas that can be tacked onto the Christian faith without theological compromise,” Beisner said.",
+     "“Instead, it promotes its own worldview and its own doctrines of God, creation, humanity, sin, and salvation. And those doctrines aren’t Biblical.”"
+    ]
+   },
+   {
+    "url": "https://www.desmog.com/cornwall-alliance-stewardship-creation",
+    "publisher": "DeSmog",
+    "title": "Cornwall Alliance for the Stewardship of Creation (profile)",
+    "date": "",
+    "quotes": [
+     "The DVD series portrays the entire green movement as a “false religion,” and part of a conspiracy to create a “global government.”",
+     "The Cornwall Alliance was a co-sponsor of the Heartland Institute’s 2009 International Conference on Climate Change."
+    ]
+   }
+  ],
+  "changes": "Replaced 'whose leaders have worked with fossil-funded climate-skeptic groups such as CFACT and the Heartland Institute' with the two ties the sources document (co-sponsoring Heartland's 2009 conference; a shared fundraising firm with CFACT). 'Fossil-funded' was dropped because no fetched source states the funding of those two groups. Added Beisner's own words.",
+  "notes": "Cornwall Alliance's own site returned 403 to our fetch; its press release is quoted through Mother Jones. Cornwall denies any relationship with CFACT, so if the editor shortens the body, keep that hedge in mind. Restoring 'fossil-funded' would need a separate source for Heartland's and CFACT's industry funding.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "FAITH-5",
+  "verdict": "corrected",
+  "title": "Televangelists’ jets and mansions",
+  "body": "A Senate Finance Committee inquiry launched by Sen. Chuck Grassley in 2007 examined six TV ministries over high salaries, private jets, luxury cars and homes. Four would not fully cooperate. It ended in 2011 with no penalties, and Grassley asked an evangelical accountability group to study “self-reform.”",
+  "year": "2007–11",
+  "status": "court",
+  "src_label": "Senate Finance Committee staff review (Jan 6, 2011); Christianity Today; Religion News Service via The Christian Century (2011)",
+  "sources": [
+   {
+    "url": "https://www.finance.senate.gov/imo/media/doc/SFC%20Staff%20Memo%20to%20Grassley%20re%20Ministries%2001-06-11%20FINAL.pdf",
+    "publisher": "US Senate Committee on Finance",
+    "title": "Review of Media-Based Ministries (staff memo to Senator Grassley)",
+    "date": "2011-01-06",
+    "quotes": [
+     "The other four either did not provide a response or provided incomplete responses.",
+     "Charitable organizations are frequently criticized for the compensation packages they provide to their officers, directors, trustees and key employees, especially when the package includes luxury vehicles and private jets.",
+     "The six media-based ministries were also subject to these criticisms and our reviews of each confirm that such criticisms are warranted.",
+     "The value of the houses owned by the churches reviewed by the Committee dwarf that of the house provided to Jim Bakker when he was head of PTL."
+    ]
+   },
+   {
+    "url": "https://www.christianitytoday.com/news/2011/january/grassley-investigation-ends-with-no-penalty-for.html",
+    "publisher": "Christianity Today",
+    "title": "Grassley Investigation Ends with No Penalty for Televangelists (Sarah Pulliam Bailey)",
+    "date": "2011-01-06",
+    "quotes": [
+     "Sen. Chuck Grassley's investigation of televangelists finished with no penalties for the pastors who did not cooperate and found no definitive instances of wrongdoing, the Associated Press reports.",
+     "Grassley (R-Iowa), who launched the investigation in 2007, released the report at the end of his tenure as the ranking member of the Senate Finance Committee."
+    ]
+   },
+   {
+    "url": "https://www.christiancentury.org/article/2011-01/senator-concludes-probe-ministry-finances",
+    "publisher": "The Christian Century (Religion News Service)",
+    "title": "Senator ends probe of ministries, calls for ‘self-reform’ (Adelle M. Banks)",
+    "date": "2011-02-08",
+    "quotes": [
+     "Sen. Charles Grassley of Iowa, having concluded a three-year probe into alleged lavish spending at six major broadcast ministries, has asked a prominent evangelical group to study ways to spur \"self-reform\" among religious groups.",
+     "The senator asked the Evangelical Council on Financial Accountability to conduct a formal study of issues raised by his staff"
+    ]
+   }
+  ],
+  "changes": "'Six prosperity-gospel ministries' -> 'six TV ministries': none of the sources uses the prosperity-gospel label (they say media-based, broadcast or televangelist). 'Referring reforms to an evangelical self-regulation body' -> Grassley asked the Evangelical Council for Financial Accountability to study self-reform. Added the 2007 start and that four would not fully cooperate.",
+  "notes": "Christianity Today says the probe 'found no definitive instances of wrongdoing', while the staff memo says its reviews 'confirm that such criticisms are warranted' about jets and pay. Both are true to their sources; the body avoids claiming wrongdoing was proven. The fetched sources name Benny Hinn, Joyce Meyer, Kenneth Copeland and Creflo Dollar among the six; the other two were not checked here.",
+  "numbersNotQuoted": [
+   "2011"
+  ]
+ },
+ {
+  "id": "FAITH-6",
+  "verdict": "supported",
+  "title": "An employer’s faith limits workers’ benefits",
+  "body": "In Burwell v. Hobby Lobby, the Supreme Court ruled 5–4 that closely held companies can be exempted from covering contraceptives their owners object to on religious grounds.",
+  "year": "2014",
+  "status": "court",
+  "src_label": "Burwell v. Hobby Lobby, US Supreme Court (2014)",
+  "sources": [
+   {
+    "url": "https://www.law.cornell.edu/supremecourt/text/13-354",
+    "publisher": "Legal Information Institute, Cornell Law School",
+    "title": "Burwell v. Hobby Lobby Stores, Inc., 573 U.S. 682 (2014)",
+    "date": "2014-06-30",
+    "quotes": [
+     "In these cases, the owners of three closely held for-profit corporations have sincere Christian beliefs that life begins at conception and that it would violate their religion to facilitate access to contraceptive drugs or devices that operate after that point.",
+     "Held: As applied to closely held corporations, the HHS regulations imposing the contraceptive mandate violate RFRA.",
+     "Alito, J., delivered the opinion of the Court, in which Roberts, C. J., and Scalia, Kennedy, and Thomas, JJ., joined.",
+     "Ginsburg, J., filed a dissenting opinion, in which Sotomayor, J., joined, and in which Breyer and Kagan, JJ., joined as to all but Part III–C–1."
+    ]
+   }
+  ],
+  "changes": "Added the URL.",
+  "notes": "5-4 = Alito, Roberts, Scalia, Kennedy, Thomas against Ginsburg, Sotomayor, Breyer, Kagan. The ruling was under the Religious Freedom Restoration Act, not the Constitution.",
+  "numbersNotQuoted": [
+   "5",
+   "4"
+  ]
+ },
+ {
+  "id": "FAITH-7",
+  "verdict": "supported",
+  "title": "Religious employers exempt from discrimination suits",
+  "body": "In Our Lady of Guadalupe v. Morrissey-Berru, the Supreme Court extended the “ministerial exception,” barring religious-school teachers who teach the faith from suing over age or disability discrimination.",
+  "year": "2020",
+  "status": "court",
+  "src_label": "Our Lady of Guadalupe School v. Morrissey-Berru, US Supreme Court (2020)",
+  "sources": [
+   {
+    "url": "https://www.supremecourt.gov/opinions/19pdf/19-267_1an2.pdf",
+    "publisher": "Supreme Court of the United States",
+    "title": "Our Lady of Guadalupe School v. Morrissey-Berru, 591 U.S. ___ (2020) (slip opinion)",
+    "date": "2020-07-08",
+    "quotes": [
+     "Morrissey-Berru claimed that OLG had demoted her and had failed to renew her contract in order to replace her with a younger teacher in violation of the Age Discrimination in Employment Act of 1967.",
+     "Biel alleged that St. James discharged her because she had requested a leave of absence to obtain breast cancer treatment.",
+     "What matters, at bottom, is what an employee does."
+    ]
+   }
+  ],
+  "changes": "Swapped the law-firm URL for the Court's own slip opinion as the main source (the law-firm summary is kept for the 'disability' wording and the 7-2 vote).",
+  "notes": "The vote was 7-2 (Sotomayor and Ginsburg dissenting); the editor may want it in the body to match FAITH-6. The opinion describes Biel's claim (fired after asking for leave for breast-cancer treatment) without naming the statute in the passages quoted; Holland & Knight states it was a disability claim.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "FAITH-8",
+  "verdict": "supported",
+  "title": "Foreign trolls pose as Christians",
+  "body": "Russia’s Internet Research Agency ran pages like “Army of Jesus,” with more than 216,000 followers, using religious memes to win followers and push election content.",
+  "year": "2016",
+  "status": "court",
+  "src_label": "Senate Intelligence Committee report, Vol. 2 (Oct 2019)",
+  "sources": [
+   {
+    "url": "https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-documents-report-volume2.pdf",
+    "publisher": "US Senate Select Committee on Intelligence",
+    "title": "Russian Active Measures Campaigns and Interference in the 2016 U.S. Election, Volume 2: Russia's Use of Social Media",
+    "date": "2019-10",
+    "quotes": [
+     "The tactic of using select payload messages among a large volume of innocuous content to attract and cultivate an online following is reflected in the posts made to the IRA's \"Army of Jesus\" Facebook page.",
+     "The page, which had attracted over 216,000 followers by the time it was taken down by Facebook for violating the platform's terms of service, purported to be devoted to Christian themes and Bible passages.",
+     "November 1, 2016: \"HILLARY APPROVES REMOVAL OF GOD FROM THE PLEDGE OF ALLEGIANCE.\""
+    ]
+   }
+  ],
+  "changes": "",
+  "notes": "The report's example: Bible-verse posts on Oct 26-31 and Nov 2, 2016, around a single Nov 1 'payload' post about Clinton and the Pledge.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "RECLAIM-0",
+  "verdict": "supported",
+  "title": "The Pope backs unions",
+  "body": "Pope Leo XIII’s encyclical Rerum Novarum defends workers’ right to form unions and earn a just wage.",
+  "year": "1891",
+  "status": "documented",
+  "src_label": "Rerum Novarum (1891)",
+  "sources": [
+   {
+    "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
+    "publisher": "The Holy See",
+    "title": "Rerum Novarum: Encyclical of Pope Leo XIII on Capital and Labor",
+    "date": "1891-05-15",
+    "quotes": [
+     "The most important of all are workingmen's unions, for these virtually include all the rest.",
+     "For, to enter into a \"society\" of this kind is the natural right of man",
+     "there underlies a dictate of natural justice more imperious and ancient than any bargain between man and man, namely, that wages ought not to be insufficient to support a frugal and well-behaved wage-earner.",
+     "Given at St. Peter's in Rome, the fifteenth day of May, 1891"
+    ]
+   }
+  ],
+  "changes": "Added the URL.",
+  "notes": "",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "RECLAIM-1",
+  "verdict": "corrected",
+  "title": "The Social Gospel",
+  "body": "Baptist minister Walter Rauschenbusch’s Christianity and the Social Crisis calls on churches to take up the social crisis of industrial capitalism and backs the labor movement’s fight to win unions a recognized place in law.",
+  "year": "1907",
+  "status": "documented",
+  "src_label": "Rauschenbusch, Christianity and the Social Crisis (1907)",
+  "sources": [
+   {
+    "url": "https://www.americanyawp.com/reader/20-the-progressive-era/walter-rauschenbusch-christianity-and-the-social-crisis-1907/",
+    "publisher": "The American Yawp Reader (Stanford University Press)",
+    "title": "Walter Rauschenbusch, Christianity and the Social Crisis (1907)",
+    "date": "1907",
+    "quotes": [
+     "Walter Rauschenbusch, a Baptist minister and theologian, advocated for a “social gospel.”",
+     "It follows that the relation between Christianity and the social crisis is one of the most pressing questions for all intelligent men who realize the power of religion, and most of all for the religious leaders of the people who give direction to the forces of religion.",
+     "Whoever uncouples the religious and the social life has not understood Jesus."
+    ]
+   }
+  ],
+  "changes": "'Calls on churches to fight poverty and exploitation of workers' -> wording that matches what the quoted text says: churches must take up the social crisis, and the labor movement must go on until unions win a recognized position. Same claim, now resting on his own sentences.",
+  "notes": "The archive.org quotes come from the OCR of the 1907 scan; one word ('position') is split across a line in the OCR and was rejoined for checking. The 'right to work' line ties neatly to FAITH-0.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "RECLAIM-2",
+  "verdict": "supported",
+  "title": "A farmworkers’ pilgrimage",
+  "body": "César Chávez led striking grape workers on a march to Sacramento framed as a religious pilgrimage, during Lent, under a banner of the Virgin of Guadalupe.",
+  "year": "1966",
+  "status": "documented",
+  "src_label": "National Park Service",
+  "sources": [
+   {
+    "url": "https://home.nps.gov/articles/000/mobilizing-support-for-la-causa.htm",
+    "publisher": "National Park Service",
+    "title": "Mobilizing Support for La Causa (series: The Road to Sacramento)",
+    "date": "",
+    "quotes": [
+     "Cesar Chavez leads marchers across a highway bridge during the 1966 pilgrimage to Sacramento.",
+     "After six months of picketing and protest, the Delano Grape strikers remained out of work with no area grower agreeing to a contract.",
+     "The march coincided with Lent, drawing on the theme of penance and sacrifice in the Roman Catholic tradition, and was timed to conclude on Easter Sunday, a powerful metaphor for the farmworkers’ aspirations for redemption.",
+     "As the farmworkers made their way through the Central Valley, they carried a banner with the image of Our Lady of Guadalupe, the patron saint of Mexico."
+    ]
+   }
+  ],
+  "changes": "",
+  "notes": "",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "RECLAIM-3",
+  "verdict": "supported",
+  "title": "“All labor has dignity”",
+  "body": "Martin Luther King Jr. came to Memphis to support striking Black sanitation workers. He was assassinated there weeks later.",
+  "year": "1968",
+  "status": "words",
+  "src_label": "King, speech to Memphis sanitation strikers (March 18, 1968); Stanford King Institute",
+  "sources": [
+   {
+    "url": "https://beaconbroadside.com/2018/03/18/the-50th-anniversary-of-martin-luther-king-jrs-all-labor-has-dignity/",
+    "publisher": "Beacon Broadside (Beacon Press)",
+    "title": "The 50th Anniversary of Martin Luther King, Jr.’s “All Labor Has Dignity”",
+    "date": "2018-03-18",
+    "quotes": [
+     "Fifty years ago—on March 18, 1968—Martin Luther King, Jr. delivered his speech “All Labor Has Dignity” at Bishop Charles Mason Temple of the Church of God in Christ in Memphis, Tennessee.",
+     "But let me say to you tonight, that whenever you are engaged in work that serves humanity and is for the building of humanity, it has dignity, and it has worth.",
+     "All labor has dignity.",
+     "King was assassinated in Memphis, Tennessee, on April 4, 1968."
+    ]
+   },
+   {
+    "url": "https://kinginstitute.stanford.edu/memphis-sanitation-workers-strike",
+    "publisher": "Martin Luther King, Jr. Research and Education Institute, Stanford University",
+    "title": "Memphis Sanitation Workers’ Strike",
+    "date": "",
+    "quotes": [
+     "Eleven days later, frustrated by the city’s response to the latest event in a long pattern of neglect and abuse of its black employees, 1,300 black men from the Memphis Department of Public Works went on strike.",
+     "King himself arrived on 18 March to address a crowd of about 25,000—the largest indoor gathering the civil rights movement had ever seen."
+    ]
+   }
+  ],
+  "changes": "Added the Stanford King Institute as the source that the strikers were Black (the Beacon page does not say so).",
+  "notes": "",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "RECLAIM-4",
+  "verdict": "supported",
+  "title": "Climate as a moral issue for the poor",
+  "body": "Pope Francis’s Laudato si’ calls climate change a threat that falls hardest on the poor and criticizes an economy that treats people and nature as disposable.",
+  "year": "2015",
+  "status": "documented",
+  "src_label": "Laudato si’ (2015)",
+  "sources": [
+   {
+    "url": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html",
+    "publisher": "The Holy See",
+    "title": "Laudato si’: Encyclical Letter of the Holy Father Francis on Care for Our Common Home",
+    "date": "2015-05-24",
+    "quotes": [
+     "Climate change is a global problem with grave implications: environmental, social, economic, political and for the distribution of goods.",
+     "Its worst impact will probably be felt by developing countries in coming decades.",
+     "Many of the poor live in areas particularly affected by phenomena related to warming",
+     "These problems are closely linked to a throwaway culture which affects the excluded just as it quickly reduces things to rubbish.",
+     "Given in Rome at Saint Peter’s on 24 May, the Solemnity of Pentecost, in the year 2015"
+    ]
+   }
+  ],
+  "changes": "Added the URL.",
+  "notes": "",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "MOVEMENTS-new-1",
+  "verdict": "new",
+  "title": "Millions of fake voices for the FCC",
+  "body": "New York’s attorney general found that the nation’s largest broadband companies secretly funded a campaign to flood the FCC with comments backing its 2017 repeal of net neutrality. The firms they hired fabricated responses, filing more than 8.5 million fake comments in real people’s names; another 9.3 million fakes on the other side came mostly from one college student.",
+  "year": "2017",
+  "status": "court",
+  "src_label": "New York Attorney General, report and press release (May 6, 2021)",
+  "sources": [
+   {
+    "url": "https://ag.ny.gov/press-release/2021/attorney-general-james-issues-report-detailing-millions-fake-comments-revealing",
+    "publisher": "Office of the New York State Attorney General",
+    "title": "Attorney General James Issues Report Detailing Millions of Fake Comments, Revealing Secret Campaign to Influence FCC’s 2017 Repeal of Net Neutrality Rules",
+    "date": "2021-05-06",
+    "quotes": [
+     "Through its investigation, the Office of the Attorney General (OAG) found that, in 2017, the nation’s largest broadband companies funded a secret campaign to generate millions of comments to the FCC.",
+     "However, nearly every lead generator that was hired to enroll consumers in the campaign, instead, simply fabricated consumers’ responses.",
+     "As a result, more than 8.5 million fake comments that impersonated real people were submitted to the FCC, and more than half a million fake letters were sent to Congress.",
+     "The OAG also found that the FCC received another 9.3 million fake comments supporting net neutrality that used fictitious identities.",
+     "Most of these comments were submitted by a single person — a 19-year old college student using automated software.",
+     "In all, the OAG confirmed that nearly 18 million of the more than 22 million comments the FCC received in its 2017 proceeding to repeal net neutrality rules were fake."
+    ]
+   }
+  ],
+  "changes": "",
+  "notes": "A state attorney general's investigation, so tagged court (government inquiry). The release names the practice astroturfing in its own words. The body keeps the pro-net-neutrality fakes in, so the case cannot be read as one-sided.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "MOVEMENTS-new-2",
+  "verdict": "new",
+  "title": "Amazon’s mailbox voids a union vote",
+  "body": "After workers at Amazon’s Bessemer, Alabama warehouse voted down a union 1,798 to 738, the National Labor Relations Board’s regional director threw out the result and ordered a new election. She found that a postal mailbox Amazon installed at the main employee entrance “essentially highjacked the process.”",
+  "year": "2021",
+  "status": "court",
+  "src_label": "NLRB Region 10 decision (Nov 2021), as reported by the Associated Press / PBS NewsHour",
+  "sources": [
+   {
+    "url": "https://www.pbs.org/newshour/economy/amazon-workers-in-alabama-get-a-do-over-union-election",
+    "publisher": "PBS NewsHour (Associated Press)",
+    "title": "Amazon workers in Alabama get a do-over union election (Anne D'Innocenzio)",
+    "date": "2021-11-29",
+    "quotes": [
+     "The National Labor Relations Board has ordered a new union election for Amazon workers in Bessemer, Alabama based on objections to the first vote that took place in April.",
+     "In a 20-page decision, the regional director for the NLRB Lisa Henderson focused much attention on Amazon's installation of a U.S. Postal Service mail box at the main employee entrance",
+     "\"The employer's flagrant disregard for the board's typical mail-ballot procedure compromised the authority of the board and made a free and fair election impossible,\" Henderson said in her decision.",
+     "\"By installing a postal mailbox at the main employee entrance, the employer essentially highjacked the process and gave a strong impression that it controlled the process.",
+     "Last time around, 1,798 workers rejected the union and 738 voted in favor of it."
+    ]
+   }
+  ],
+  "changes": "",
+  "notes": "'Highjacked' is the decision's spelling as quoted by AP. The NLRB Region 10 decision itself was not fetched (the union said it could only be released by the NLRB); nlrb.gov's case search should hold it. The source does not cover the 2022 rerun, so the body stops at the order.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "RECLAIM-new-1",
+  "verdict": "new",
+  "title": "A pope defends the right to strike",
+  "body": "Pope John Paul II’s encyclical Laborem Exercens calls workers’ unions “an indispensable element of social life” and says workers should be assured the right to strike without facing penal sanctions for taking part.",
+  "year": "1981",
+  "status": "documented",
+  "src_label": "Laborem Exercens (1981)",
+  "sources": [
+   {
+    "url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_14091981_laborem-exercens.html",
+    "publisher": "The Holy See",
+    "title": "Laborem Exercens: Encyclical of Pope John Paul II on Human Work",
+    "date": "1981-09-14",
+    "quotes": [
+     "The experience of history teaches that organizations of this type are an indispensable element of social life, especially in modern industrialized societies.",
+     "This method is recognized by Catholic social teaching as legitimate in the proper conditions and within just limits.",
+     "In this connection workers should be assured the right to strike, without being subjected to personal penal sanctions for taking part in a strike.",
+     "Given at Castel Gandolfo, on the fourteenth day of September, the Feast of the Triumph of the Cross, in the year 1981"
+    ]
+   }
+  ],
+  "changes": "",
+  "notes": "The same section warns that a strike 'remains, in a sense, an extreme means' and must not be abused for political purposes; the body does not overstate it.",
+  "numbersNotQuoted": []
+ },
+ {
+  "id": "WAR-7",
+  "verdict": "supported",
+  "title": "Pentagon’s hidden TV analysts",
+  "body": "Retired military officers presented on TV as independent analysts were part of a Pentagon campaign to generate favorable coverage of the Iraq war. They echoed administration talking points, and most had ties to military contractors, which was rarely disclosed.",
+  "year": "2008",
+  "status": "reported",
+  "src_label": "Barstow, New York Times (Apr 20, 2008); 2009 Pulitzer Prize for Investigative Reporting",
+  "sources": [
+   {
+    "url": "https://www.nytimes.com/2008/04/20/us/20generals.html",
+    "publisher": "The New York Times (David Barstow)",
+    "title": "Behind TV Analysts, Pentagon's Hidden Hand",
+    "date": "2008-04-20",
+    "quotes": [
+     "Hidden behind that appearance of objectivity, though, is a Pentagon information apparatus that has used those analysts in a campaign to generate favorable news coverage of the administration's wartime performance, an examination by The New York Times has found.",
+     "Most of the analysts have ties to military contractors vested in the very war policies they are asked to assess on air. Those business relationships are hardly ever disclosed to the viewers, and sometimes not even to the networks themselves.",
+     "In turn, members of this group have echoed administration talking points, sometimes even when they suspected the information was false or inflated."
+    ],
+    "via": "archive"
+   }
+  ],
+  "changes": "No factual change. Brought the wording close to the reporting ('campaign to generate favorable news coverage', 'most' had contractor ties), and dated the Pulitzer (2009). Added URLs.",
+  "notes": "Both pages were read from Wayback Machine captures of their original URLs, because nytimes.com is not fetchable here and pulitzer.org shows a Cloudflare check. Barstow also reports the Pentagon recruited 'more than 75 retired officers'. The Defense Department inspector general reviewed the program in January 2009 and later withdrew that report. Neither is quoted here.",
+  "numbersNotQuoted": []
+ }
+]

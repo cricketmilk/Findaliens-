@@ -1,0 +1,154 @@
+{
+  "id": "darpa-synapse-ibm-truenorth",
+  "title": "DARPA SyNAPSE → IBM TrueNorth chip",
+  "pattern": "parallel-successor",
+  "country": "United States",
+  "summary": "DARPA's SyNAPSE program, started in 2008, paid outside performers including IBM and university partners to build low-power, brain-inspired neuromorphic chips; DARPA did not run the hardware work itself, so this is a contracted research program whose result stayed with the contractor rather than a government function handed over after it ended. In August 2014 DARPA announced a one-million-neuron chip designed by IBM under SyNAPSE, which IBM's team named TrueNorth and described in Science; trade press reported DARPA had invested $53 million in the project. IBM later sold a TrueNorth-based system to Lawrence Livermore National Laboratory (2016). DARPA's program page says only that the program is complete, without an end date.",
+  "public": {
+    "name": "Systems of Neuromorphic Adaptive Plastic Scalable Electronics (SyNAPSE)",
+    "funder": "Defense Advanced Research Projects Agency (DARPA)",
+    "start": {
+      "date": "2008",
+      "precision": "year"
+    },
+    "end": {
+      "date": "2014-08-07",
+      "precision": "day",
+      "kind": "completed"
+    },
+    "sources": [
+      {
+        "url": "https://www.darpa.mil/research/programs/systems-of-neuromorphic-adaptive-plastic-scalable-electronics",
+        "publisher": "DARPA",
+        "title": "Systems of Neuromorphic Adaptive Plastic Scalable Electronics (SyNAPSE)",
+        "date": "2014"
+      },
+      {
+        "url": "https://www.darpa.mil/news-events/2014-08-07",
+        "publisher": "DARPA",
+        "title": "SyNAPSE Program Develops Advanced Brain-Inspired Chip",
+        "date": "2014-08-07"
+      },
+      {
+        "url": "https://www.washingtontechnology.com/2008/11/ibm-gets-funding-for-cognitive-computing-research/319817",
+        "publisher": "Washington Technology",
+        "title": "IBM gets funding for cognitive computing research",
+        "date": "2008-11-21"
+      }
+    ]
+  },
+  "private": {
+    "name": "IBM Research (TrueNorth neurosynaptic chip)",
+    "founded": {
+      "date": "2014-08-07",
+      "precision": "day"
+    },
+    "founders": [],
+    "funders": [
+      "DARPA (SyNAPSE)",
+      "IBM"
+    ],
+    "outcome": "The date above is the public unveiling of the chip, not IBM's founding. The chip, described by IBM in Science (Merolla et al., vol. 345, pp. 668-73), has 4,096 cores, one million neurons, 256 million synapses and 5.4 billion transistors, built on Samsung's 28nm process. The program end date used here is the DARPA announcement of this final chip milestone; DARPA's archived program page gives no end date. In 2016 Lawrence Livermore National Laboratory contracted for a 16-chip TrueNorth system for NNSA research.",
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25104385/",
+        "publisher": "PubMed (record of Science, vol. 345, no. 6197)",
+        "title": "Artificial brains. A million spiking-neuron integrated circuit with a scalable communication network and interface (Merolla et al.)",
+        "date": "2014-08-08"
+      },
+      {
+        "url": "https://modha.org/2014/08/breaking-news-one-giant-leap-for-the-synapse-team-one-small-step-for-mankind/",
+        "publisher": "Dharmendra S. Modha (IBM SyNAPSE principal investigator)",
+        "title": "Breaking News: One Giant Leap for the SyNAPSE Team, One Small Step for Mankind",
+        "date": "2014-08-07"
+      },
+      {
+        "url": "https://nextgov.com/emerging-tech/2016/04/livermore-lab-buys-brain-inspired-chip/127378",
+        "publisher": "Nextgov",
+        "title": "Nuclear Lab Buys Brain-Inspired Computing Technology",
+        "date": "2016-04-11"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "contract",
+      "claim": "In November 2008 IBM and university partners (Stanford, Wisconsin-Madison, Cornell, Columbia University Medical Center, UC Merced) won $4.9 million from DARPA for the first phase of SyNAPSE.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.washingtontechnology.com/2008/11/ibm-gets-funding-for-cognitive-computing-research/319817",
+          "publisher": "Washington Technology",
+          "title": "IBM gets funding for cognitive computing research",
+          "date": "2008-11-21"
+        }
+      ]
+    },
+    {
+      "type": "contract",
+      "claim": "DARPA announced on 7 August 2014 that a chip with one million electronic neurons and more than 250 million synapses, designed by IBM researchers in San Jose, had been developed under its SyNAPSE program, naming defense uses such as mobile robots and remote sensors.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.darpa.mil/news-events/2014-08-07",
+          "publisher": "DARPA",
+          "title": "SyNAPSE Program Develops Advanced Brain-Inspired Chip",
+          "date": "2014-08-07"
+        }
+      ]
+    },
+    {
+      "type": "funding",
+      "claim": "InformationWeek reported in August 2014 that DARPA had invested $53 million in IBM's SyNAPSE project to date, funding it since 2008; IBM's lead researcher wrote that DARPA's mandate, metrics and investment were vital to the chip.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.informationweek.com/machine-learning-ai/ibm-chip-mimics-the-brain",
+          "publisher": "InformationWeek",
+          "title": "IBM Chip Mimics The Brain",
+          "date": "2014-08-08"
+        },
+        {
+          "url": "https://modha.org/2014/08/breaking-news-one-giant-leap-for-the-synapse-team-one-small-step-for-mankind/",
+          "publisher": "Dharmendra S. Modha (IBM SyNAPSE principal investigator)",
+          "title": "Breaking News: One Giant Leap for the SyNAPSE Team, One Small Step for Mankind",
+          "date": "2014-08-07"
+        }
+      ]
+    },
+    {
+      "type": "contract",
+      "claim": "After the DARPA milestone, IBM sold its TrueNorth technology back to government: Lawrence Livermore National Laboratory signed a contract for a 16-chip TrueNorth-based system, with a programming language and curriculum, for NNSA Advanced Simulation and Computing research.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://nextgov.com/emerging-tech/2016/04/livermore-lab-buys-brain-inspired-chip/127378",
+          "publisher": "Nextgov",
+          "title": "Nuclear Lab Buys Brain-Inspired Computing Technology",
+          "date": "2016-04-11"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "IBM's TrueNorth chip was paid for by DARPA.",
+      "assessment": "partly-true",
+      "explanation": "DARPA states the chip was developed under its SyNAPSE program and IBM's lead researcher calls DARPA's investment vital; trade press put DARPA's investment at $53 million. The records opened do not show what IBM itself spent, so it cannot be said DARPA paid the whole cost.",
+      "sources": [
+        {
+          "url": "https://www.darpa.mil/news-events/2014-08-07",
+          "publisher": "DARPA",
+          "title": "SyNAPSE Program Develops Advanced Brain-Inspired Chip",
+          "date": "2014-08-07"
+        },
+        {
+          "url": "https://www.informationweek.com/machine-learning-ai/ibm-chip-mimics-the-brain",
+          "publisher": "InformationWeek",
+          "title": "IBM Chip Mimics The Brain",
+          "date": "2014-08-08"
+        }
+      ]
+    }
+  ]
+}

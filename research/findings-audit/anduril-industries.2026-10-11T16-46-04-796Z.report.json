@@ -1,0 +1,52 @@
+{
+ "file": "anduril-industries.json",
+ "kind": "finding",
+ "at": "2026-10-11T16:46:04.796Z",
+ "kept": 1,
+ "removed": [
+  {
+   "where": "facts[0]",
+   "claim": "In March 2026, the U.S. Army awarded Anduril Industries a 10-year enterprise contract with a ceiling of up to $20B consolidating over 120 prior procurement actions.",
+   "why": "cites no page that could say it (only a site's front page)"
+  },
+  {
+   "where": "facts[1]",
+   "claim": "In January 2022, U.S. Special Operations Command awarded Anduril a 10-year counter-unmanned systems integration contract with a ceiling of ~$967.6M.",
+   "why": "cites no page that could say it (only a site's front page)"
+  },
+  {
+   "where": "facts[2]",
+   "claim": "In-Q-Tel took a strategic equity position in Anduril in August 2017 alongside its initial seed round.",
+   "why": "cites no page that could say it (only a site's front page)"
+  },
+  {
+   "where": "connections[0]",
+   "claim": "Founders Fund led Anduril's 2017 seed round, Series A, and Series G ($1B commitment). Partner Trae Stephens serves as chairman.",
+   "why": "cites no page that could say it (only a site's front page)"
+  },
+  {
+   "where": "connections[1]",
+   "claim": "In-Q-Tel holds a strategic equity stake in Anduril dating to 2017.",
+   "why": "cites no page that could say it (only a site's front page)"
+  }
+ ],
+ "unchecked": [],
+ "resourced": [
+  {
+   "where": "connections[2]",
+   "claim": "DIU awarded Anduril a 5-year Production Other Transaction (P-OT) agreement for counter-UAS with a $99M ceiling in 2021.",
+   "url": "https://fedscoop.com/anduril-counter-drone-tech-diu/",
+   "publisher": "fedscoop.com",
+   "score": 1,
+   "quote": "By Jackson Barnett July 27, 2021 (Getty Images) The Department of Defense has awarded technology startup Anduril a $99 million contract to provide a new automated counter-unmanned aerial system (C-UAS) capability. The Production Other Transaction (P-OT) Agreement was struck between the company and t",
+   "was": [
+    "https://www.diu.mil"
+   ]
+  }
+ ],
+ "wikiSourcesDropped": 0,
+ "notes": [],
+ "pagesOpened": 0,
+ "pagesRefused": 0,
+ "empty": false
+}

@@ -1,0 +1,40 @@
+{
+  "code": "CC-2012-LIBOR",
+  "eraId": "ERA-09-2001",
+  "yearStart": 2005,
+  "yearEnd": 2016,
+  "title": "The Rigged Compass: Panel Banks Bent the World's Reference Rate to Profit Their Own Swap Books",
+  "primaryTab": "crash-conduits",
+  "secondaryTabs": ["consent", "deep-state"],
+  "mechanism": "DERIVATIVE_CLEARING_CAPTURE",
+  "tier": "TIER_1_STATUTE_COURT",
+  "auditDisposition": "DOCUMENTED",
+  "participants": ["Barclays", "UBS", "Royal Bank of Scotland", "British Bankers' Association", "Tom Hayes", "Financial Services Authority", "CFTC", "US Department of Justice", "ICE Benchmark Administration"],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "Daily basis-point shifts in LIBOR fixings, requested by derivatives traders at panel banks, moved payouts on interest-rate-swap and other positions priced off the benchmark — a continuous skim across hundreds of trillions in notional instruments.",
+    "stage2_structuralCompromise": "LIBOR was set not from actual transactions but from submissions by the very banks that traded against it, administered by the British Bankers' Association — a self-polled benchmark with no independent verification, constructed for capture.",
+    "stage3_informationFog": "Rigging ran through chat rooms, broker intermediaries and oral requests off any transaction record; the absence of an observable market rate meant the manipulation left no direct pricing trail for counterparties to detect.",
+    "stage4_monopolyWindfall": "Panel banks held privileged knowledge of their own submissions and positions, harvesting gains on swap books and — during 2008 — lower perceived funding costs by lowballing submissions to appear healthier.",
+    "stage5_merseyWhitewash": "Regulators collected fines (Barclays ~£290m, UBS $1.5bn, RBS ~$612m), a single trader (Tom Hayes) was convicted, and the consolidated private antitrust suit was dismissed at the pleading stage with the Second Circuit affirming in May 2016 — no bank-level criminal conviction on the rate rigging, and the benchmark was quietly re-homed to ICE in 2014."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "The Thatcher-era Big Bang architecture left benchmark construction to the British Bankers' Association and a submission panel of the same banks that traded on the rate — self-regulation inherited from the 1986 settlement of LIBOR administration.",
+    "newFrameworkCreated": "The Financial Services (Banking Reform) Act 2013 criminalised benchmark manipulation and transferred LIBOR to ICE Benchmark Administration — formalising the benchmark while leaving the dealer-panel structure and derivative pricing power intact.",
+    "closedLoopRecirculation": "Fines and settlement payments flowed to treasuries and regulators, not to the counterparties, municipalities, and borrowers whose student loans, mortgages and municipal swaps were priced off the rigged rate; the derivative gains stayed on bank books.",
+    "enablesNextDossier": "The dismissal of antitrust injury claims pushed benchmark-rigging claims into commodity and fraud theories, narrowing private enforcement and hardening the pleading-stage shield later deployed across FX-rigging and other benchmark scandals."
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "Regulators (the Fed / Bank of England) ordered the low submissions in 2008, so the whole scandal was official policy and no one was defrauded.",
+    "whyDecoyFails": "The pre-2008 profit-driven rigging is documented independently in DOJ settlement statements and the court record; regulator awareness of crisis-period lowballing is a separate, narrower fact that cannot explain seven years of trader-directed fixings.",
+    "documentedLedger": "Extraction ran through the derivative books — panel banks moved the world's reference rate to win their own swaps, with UBS, RBS and Barclays settlements and the Tom Hayes conviction on the record."
+  },
+  "citationIds": ["CIT-2012-CL-2147688", "CIT-2012-CL-8724049", "CIT-2012-CL-3205849", "CIT-2012-SEC-0001193125-13-106100", "CIT-2012-SEC-0001191638-14-001065", "CIT-2012-SEC-0000950103-13-000897"],
+  "citations": [
+    { "id": "CIT-2012-CL-2147688", "tier": "TIER_1_STATUTE_COURT", "title": "In Re Libor-Based Financial Instruments Antitrust Litigation (802 F. Supp. 2d 1380, 2011-08-12)", "url": "https://www.courtlistener.com/opinion/2147688/in-re-libor-based-financial-instruments-antitrust-litigation/", "quoteOrFact": "Filed 2011-08-12 in United States Judicial Panel on Multidistrict Litigation" },
+    { "id": "CIT-2012-CL-8724049", "tier": "TIER_1_STATUTE_COURT", "title": "In re Libor-Based Financial Instruments Antitrust Litigation (935 F. Supp. 2d 666, 2013-03-29)", "url": "https://www.courtlistener.com/opinion/8724049/in-re-libor-based-financial-instruments-antitrust-litigation/", "quoteOrFact": "Filed 2013-03-29 in District Court, S.D. New York" },
+    { "id": "CIT-2012-CL-3205849", "tier": "TIER_1_STATUTE_COURT", "title": "In re: LIBOR-Based Financial Instruments Antitrust Litigation (Court of Appeals for the Second Circuit, 2016-05-23)", "url": "https://www.courtlistener.com/opinion/3205849/in-re-libor-based-financial-instruments-antitrust-litigation/", "quoteOrFact": "Filed 2016-05-23 in Court of Appeals for the Second Circuit" },
+    { "id": "CIT-2012-SEC-0001193125-13-106100", "tier": "TIER_3_PRIMARY_LEDGER", "title": "SEC Form 20-F — UBS AG (CIK 0001114446) (2013-03-14)", "url": "https://www.sec.gov/Archives/edgar/data/1114446/000119312513106100/0001193125-13-106100-index.htm", "quoteOrFact": "SEC EDGAR Accession 0001193125-13-106100 filed 2013-03-14 by UBS AG (CIK 0001114446)." },
+    { "id": "CIT-2012-SEC-0001191638-14-001065", "tier": "TIER_3_PRIMARY_LEDGER", "title": "SEC Form 6-K — Lloyds Banking Group plc (CIK 0001160106) (2014-07-28)", "url": "https://www.sec.gov/Archives/edgar/data/1160106/000119163814001065/0001191638-14-001065-index.htm", "quoteOrFact": "SEC EDGAR Accession 0001191638-14-001065 filed 2014-07-28 by Lloyds Banking Group plc (CIK 0001160106)." },
+    { "id": "CIT-2012-SEC-0000950103-13-000897", "tier": "TIER_3_PRIMARY_LEDGER", "title": "SEC Form 6-K — ROYAL BANK OF SCOTLAND GROUP PLC (CIK 0000844150) (2013-02-06)", "url": "https://www.sec.gov/Archives/edgar/data/844150/000095010313000897/0000950103-13-000897-index.htm", "quoteOrFact": "SEC EDGAR Accession 0000950103-13-000897 filed 2013-02-06 by ROYAL BANK OF SCOTLAND GROUP PLC (CIK 0000844150)." }
+  ]
+}

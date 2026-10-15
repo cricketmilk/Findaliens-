@@ -1,0 +1,120 @@
+{
+  "entity": "stanford",
+  "name": "Stanford University",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "Stanford University is a private research university in California closely tied to the growth of Silicon Valley. Frederick Terman, its dean of engineering and later provost, developed the university-owned industrial park where companies such as Hewlett-Packard located. The Stanford Research Institute (SRI), founded by Stanford in 1946 and independent since 1970, was the second node of ARPANET in 1969. From 2002 to 2019 Stanford ran the Global Climate and Energy Project, funded by corporate sponsors led by ExxonMobil.",
+    "sources": [
+      {
+        "url": "https://www.pbs.org/transistor/album1/addlbios/terman.html",
+        "publisher": "PBS",
+        "title": "Frederick Terman (Transistorized! biography)",
+        "date": ""
+      },
+      {
+        "url": "https://sri.com/timeline-of-innovation/",
+        "publisher": "SRI International",
+        "title": "Timeline of innovation",
+        "date": ""
+      },
+      {
+        "url": "https://www.computerhistory.org/internethistory/1960s/",
+        "publisher": "Computer History Museum",
+        "title": "Internet History of 1960s",
+        "date": ""
+      },
+      {
+        "url": "https://www.nytimes.com/2002/11/21/us/exxon-led-group-is-giving-a-climate-grant-to-stanford.html",
+        "publisher": "The New York Times",
+        "title": "Exxon-Led Group Is Giving a Climate Grant to Stanford",
+        "date": "2002-11-21"
+      },
+      {
+        "url": "https://energy.stanford.edu/research/gcep",
+        "publisher": "Stanford University (Precourt Institute for Energy)",
+        "title": "Global Climate & Energy Project",
+        "date": ""
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On October 29, 1969, the first host-to-host ARPANET connection was made from UCLA, the first node, to the Stanford Research Institute (SRI), the second node, which had been founded by Stanford and became independent in 1970.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.computerhistory.org/internethistory/1960s/",
+          "publisher": "Computer History Museum",
+          "title": "Internet History of 1960s",
+          "date": ""
+        },
+        {
+          "url": "https://www.sri.com/hoi/arpanet/",
+          "publisher": "SRI International",
+          "title": "ARPANET (SRI history of innovation)",
+          "date": ""
+        },
+        {
+          "url": "https://sri.com/timeline-of-innovation/",
+          "publisher": "SRI International",
+          "title": "Timeline of innovation",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "claim": "In November 2002, Stanford announced the Global Climate and Energy Project, with corporate sponsors pledging $225 million over 10 years, including up to $100 million from ExxonMobil. The New York Times reported that the project would be an independent research group controlled by the university, with patents belonging to Stanford. It ran until August 2019.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.nytimes.com/2002/11/21/us/exxon-led-group-is-giving-a-climate-grant-to-stanford.html",
+          "publisher": "The New York Times",
+          "title": "Exxon-Led Group Is Giving a Climate Grant to Stanford",
+          "date": "2002-11-21"
+        },
+        {
+          "url": "https://energy.stanford.edu/research/gcep",
+          "publisher": "Stanford University (Precourt Institute for Energy)",
+          "title": "Global Climate & Energy Project",
+          "date": ""
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "exxonmobil",
+      "relation": "partnered with",
+      "claim": "ExxonMobil was the largest sponsor of Stanford's Global Climate and Energy Project, pledging up to $100 million when it launched in 2002. The project ran until 2019.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.nytimes.com/2002/11/21/us/exxon-led-group-is-giving-a-climate-grant-to-stanford.html",
+          "publisher": "The New York Times",
+          "title": "Exxon-Led Group Is Giving a Climate Grant to Stanford",
+          "date": "2002-11-21"
+        },
+        {
+          "url": "https://energy.stanford.edu/research/gcep",
+          "publisher": "Stanford University (Precourt Institute for Energy)",
+          "title": "Global Climate & Energy Project",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "to": "peter-thiel",
+      "relation": "other",
+      "claim": "As a Stanford undergraduate, Peter Thiel helped found The Stanford Review in 1987 and was its first editor-in-chief. David Sacks, a later editor-in-chief, went on to become PayPal's COO.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://stanfordreview.org/a-brief-and-non-exhaustive-history-of-the-stanford-review/",
+          "publisher": "The Stanford Review",
+          "title": "A Brief and Non-Exhaustive History of The Stanford Review",
+          "date": ""
+        }
+      ]
+    }
+  ]
+}

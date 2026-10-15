@@ -1,0 +1,89 @@
+{
+  "id": "zambia-copper-privatization",
+  "title": "Zambia Consolidated Copper Mines unbundled and sold; Konkola Copper Mines passes to Anglo American, then Vedanta",
+  "pattern": "privatization",
+  "country": "Zambia",
+  "summary": "Zambia Consolidated Copper Mines (ZCCM), the state-controlled copper conglomerate formed in 1981, was broken into asset packages and sold off in the late 1990s. The core packages (Konkola, Nchanga and Nampundwe, plus a contract to run the Nkana smelter) went to an Anglo American-led group at the end of March 2000, forming Konkola Copper Mines (KCM). Nkana and Mufulira went to First Quantum and Glencore. The IMF listed the transfer of ownership of ZCCM's major asset packages as a structural performance criterion of Zambia's programme. Anglo American withdrew in 2002, and Vedanta took 51% of KCM in 2004 and 79.4% in 2008. A state-backed liquidation put KCM under a provisional liquidator from 2019 until a court ended it in July 2024 and Vedanta's board was reinstated.",
+  "public": {
+    "name": "Zambia Consolidated Copper Mines (ZCCM)",
+    "funder": "Government of Zambia (majority shareholder via ZIMCO)",
+    "start": { "date": "1981-04", "precision": "month" },
+    "end": { "date": "2000-03-31", "precision": "day", "kind": "privatized" },
+    "sources": [
+      { "url": "https://www.ide.go.jp/English/Data/Africa_file/Company/zambia06.html", "publisher": "Institute of Developing Economies (IDE-JETRO)", "title": "Zambia company profile: Vedanta Resources / Konkola Copper Mines (history of NCCM, RCM and ZCCM)" },
+      { "url": "https://zccm-ih.com.zm/cool_timeline/2000-feb-to-mar-sale-of-zccm-core-mine-packages-to-anglo-american", "publisher": "ZCCM Investments Holdings plc", "title": "2000 Feb to Mar - Sale of ZCCM core mine packages to Anglo American", "date": "2019-11-01" }
+    ]
+  },
+  "private": {
+    "name": "Konkola Copper Mines plc (Anglo American-led 2000-2002; Vedanta Resources from 2004)",
+    "founded": { "date": "2000-03-31", "precision": "day" },
+    "founders": ["Anglo American (via Zambia Copper Investments)", "International Finance Corporation", "CDC"],
+    "funders": ["Anglo American", "Zambia Copper Investments", "Vedanta Resources (from 2004)"],
+    "outcome": "Anglo American, the IFC and CDC withdrew as KCM shareholders in September 2002. On 5 November 2004 Vedanta acquired 51% through new shares, diluting ZCI to 28.4% and ZCCM to 20.6%, and in April 2008 it bought ZCI's 28.4% to reach 79.4%. On ZCCM-IH's petition, KCM was placed under a provisional liquidator by a court order dated 21 May 2019. In July 2024 the Lusaka High Court ended the winding-up, discharged the liquidator and reinstated the board, after the government agreed to return control to Vedanta. ZCCM-IH, which is state-controlled, keeps about a 20% stake. Not renationalized; state control was contested from 2019 to 2024.",
+    "sources": [
+      { "url": "https://www.ide.go.jp/English/Data/Africa_file/Company/zambia06.html", "publisher": "Institute of Developing Economies (IDE-JETRO)", "title": "Zambia company profile: Vedanta Resources / Konkola Copper Mines" },
+      { "url": "https://www.lexpert.ca/big-deals/vedanta-acquires-interest-in-konkola-copper-mines/345606", "publisher": "Lexpert", "title": "Vedanta Acquires Interest in Konkola Copper Mines", "date": "2005-05-01" },
+      { "url": "https://www.zccm-ih.com.zm/?p=9745", "publisher": "ZCCM Investments Holdings plc", "title": "KCM statement: KCM remains under the management of the Provisional Liquidator (court order dated 21 May 2019)", "date": "2022-01-20" },
+      { "url": "https://zambiamonitor.com/?p=46075", "publisher": "Zambia Monitor", "title": "KCM exits liquidation, as court terminates proceedings, reinstates board", "date": "2024-07-26" }
+    ]
+  },
+  "links": [
+    {
+      "type": "asset-transfer",
+      "claim": "The sale of ZCCM's core mine packages (Konkola, Nchanga, Nampundwe and a contract to run the Nkana smelter) to Anglo American was concluded at the end of March 2000, and Nkana and Mufulira went to First Quantum and Glencore. Zambia's Finance Minister told the IMF that 'at end-March the ZCCM privatization was finally completed'.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://zccm-ih.com.zm/cool_timeline/2000-feb-to-mar-sale-of-zccm-core-mine-packages-to-anglo-american", "publisher": "ZCCM Investments Holdings plc", "title": "2000 Feb to Mar - Sale of ZCCM core mine packages to Anglo American", "date": "2019-11-01" },
+        { "url": "https://www.imf.org/external/np/loi/2000/zmb/01/", "publisher": "International Monetary Fund", "title": "Zambia Letter of Intent", "date": "2000-06-30" }
+      ]
+    },
+    {
+      "type": "stated-successor",
+      "claim": "Zambia's IMF programme table of Structural Performance Criteria and Benchmarks for 1999 listed 'the transfer of ownership of the major asset packages of the ZCCM' (Nchanga and Nkana Divisions and the Konkola deep mining project) as a performance criterion due 31 March 1999. It was marked not observed, then completed in March 2000.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.imf.org/external/np/loi/2000/zmb/01/063000.pdf", "publisher": "International Monetary Fund", "title": "Zambia: tables attached to the Letter of Intent of June 30, 2000 (Table 2. Structural Performance Criteria and Benchmarks, 1999)", "date": "2000-06-30" },
+        { "url": "https://www.zccm-ih.com.zm/cool_timeline/1998-oct-to-nov-anglo-american-agrees-to-relinquish-mufulira-purchase-rights/", "publisher": "ZCCM Investments Holdings plc", "title": "1998 Oct to Nov - Anglo American agrees to relinquish Mufulira purchase rights (World Bank and IMF funds conditional on transfer of ownership)", "date": "2019-11-01" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "On 5 November 2004 Vedanta Resources completed the acquisition of 51% of KCM through new shares, with US$48.2 million in cash plus funding commitments, for an aggregate value of about US$270 million. ZCI was diluted to 28.4% and ZCCM to 20.6%.",
+      "status": "reported",
+      "sources": [
+        { "url": "https://www.lexpert.ca/big-deals/vedanta-acquires-interest-in-konkola-copper-mines/345606", "publisher": "Lexpert", "title": "Vedanta Acquires Interest in Konkola Copper Mines", "date": "2005-05-01" },
+        { "url": "https://www.ide.go.jp/English/Data/Africa_file/Company/zambia06.html", "publisher": "Institute of Developing Economies (IDE-JETRO)", "title": "Zambia company profile: Vedanta Resources / Konkola Copper Mines" }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "The IMF and World Bank forced Zambia to sell its copper mines.",
+      "assessment": "partly-true",
+      "explanation": "In the IMF's own programme table, transferring ownership of ZCCM's major asset packages was a structural performance criterion, and the 30 June 2000 letter of intent says delays in ZCCM's privatization held up the first programme review. ZCCM-IH's history says new World Bank and IMF lending in late 1998 was released only on condition that the deal closed and ownership transferred. But by September 1998 privatization had already been announced more than two years earlier, so the lenders' conditions enforced and set deadlines for a sale the government had already chosen. They did not start it.",
+      "sources": [
+        { "url": "https://www.imf.org/external/np/loi/2000/zmb/01/063000.pdf", "publisher": "International Monetary Fund", "title": "Zambia: Structural Performance Criteria and Benchmarks (tables to June 2000 Letter of Intent)", "date": "2000-06-30" },
+        { "url": "https://www.imf.org/external/np/loi/2000/zmb/01/", "publisher": "International Monetary Fund", "title": "Zambia Letter of Intent", "date": "2000-06-30" },
+        { "url": "https://www.zccm-ih.com.zm/cool_timeline", "publisher": "ZCCM Investments Holdings plc", "title": "ZCCM-IH history timeline (1998 entries)" }
+      ]
+    },
+    {
+      "claim": "Vedanta got control of Konkola Copper Mines for a token sum.",
+      "assessment": "partly-true",
+      "explanation": "The cash price for 51% was US$48.2 million, small for Zambia's largest copper producer. The deal also committed Vedanta to fund KCM's cash flows up to US$220 million, for a reported aggregate value of about US$270 million. Whether that was a fair price is a matter of judgement that these records do not settle.",
+      "sources": [
+        { "url": "https://www.lexpert.ca/big-deals/vedanta-acquires-interest-in-konkola-copper-mines/345606", "publisher": "Lexpert", "title": "Vedanta Acquires Interest in Konkola Copper Mines", "date": "2005-05-01" }
+      ]
+    },
+    {
+      "claim": "Zambia renationalized Konkola Copper Mines in 2019.",
+      "assessment": "false",
+      "explanation": "Ownership did not change. On a petition by the state-controlled ZCCM-IH, which accused the company of mismanagement, tax evasion and insolvency, a court placed KCM under a provisional liquidator by order of 21 May 2019, and Vedanta lost operating control. In July 2024 the Lusaka High Court terminated the winding-up, discharged the liquidator and reinstated KCM's board, after the government agreed to let Vedanta resume control.",
+      "sources": [
+        { "url": "https://www.zccm-ih.com.zm/?p=9745", "publisher": "ZCCM Investments Holdings plc", "title": "KCM remains under the management of the Provisional Liquidator", "date": "2022-01-20" },
+        { "url": "https://zambiamonitor.com/?p=46075", "publisher": "Zambia Monitor", "title": "KCM exits liquidation, as court terminates proceedings, reinstates board", "date": "2024-07-26" },
+        { "url": "https://www.miningmx.com/news/base-metals/57680-vedanta-seeking-partners-for-konkola-reinvestment/", "publisher": "Miningmx (citing Bloomberg News)", "title": "Vedanta seeking partners for Konkola reinvestment", "date": "2024-07-24" }
+      ]
+    }
+  ]
+}

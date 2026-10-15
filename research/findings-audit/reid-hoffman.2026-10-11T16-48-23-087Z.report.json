@@ -1,0 +1,41 @@
+{
+ "file": "reid-hoffman.json",
+ "kind": "finding",
+ "at": "2026-10-11T16:48:23.087Z",
+ "kept": 48,
+ "removed": [
+  {
+   "where": "facts[1]",
+   "claim": "In 2004, Sean Parker contacted Hoffman about investing in Facebook. Hoffman has said he chose not to lead the round because of how his roles at LinkedIn and Friendster might look, suggested that Peter",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 2004, sean parker, friendster, peter thiel"
+  },
+  {
+   "where": "connections[0]",
+   "claim": "Hoffman (executive vice president) and Thiel (CEO) worked together at PayPal. Both invested in Facebook's 2004 first outside round, which Thiel led after Hoffman, by his own account, suggested he lead",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 2004, thiel"
+  },
+  {
+   "where": "connections[1]",
+   "claim": "Hoffman invested $37,500 in Facebook's first outside round in 2004, which Peter Thiel led.",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 2004, peter thiel"
+  },
+  {
+   "where": "connections[14]",
+   "claim": "Greylock XIII funds (Hoffman's firm), Founders Fund II–IV (co-founded by Peter Thiel) and Andreessen Horowitz Fund II were all investor parties to Airbnb's April 2020 investors' rights agreement.",
+   "why": "the cited pages do not contain the claim's figures and names; missing: hoffman, peter thiel"
+  }
+ ],
+ "unchecked": [
+  {
+   "where": "facts[3]",
+   "claim": "Hoffman studied philosophy at Oxford as a Marshall Scholar (class of 1990).",
+   "why": "could not re-open any cited page to confirm it: https://marshallscholars.org/profiles/reid-hoffman (page came back nearly empty)"
+  }
+ ],
+ "resourced": [],
+ "wikiSourcesDropped": 0,
+ "notes": [],
+ "pagesOpened": 33,
+ "pagesRefused": 0,
+ "empty": false
+}

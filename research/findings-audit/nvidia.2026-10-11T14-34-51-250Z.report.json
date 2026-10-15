@@ -1,0 +1,111 @@
+{
+ "file": "nvidia.json",
+ "at": "2026-10-11T14:34:51.250Z",
+ "kept": 7,
+ "removed": [
+  {
+   "where": "facts[0]",
+   "claim": "Jen-Hsun Huang founded NVIDIA in 1993 and has served since its inception as President, Chief Executive Officer, and a member of the Board.",
+   "why": "the quoted passage is not on the cited page"
+  },
+  {
+   "where": "facts[2]",
+   "claim": "The proxy statement reports that Huang's beneficial ownership includes 528,531,547 shares held by Jen-Hsun and Lori Huang as co-trustees of the Huang Trust, and 58,683,830 shares held by the Jen-Hsun ",
+   "why": "the quoted passage is not on the cited page"
+  },
+  {
+   "where": "facts[3]",
+   "claim": "The proxy statement reports 5% stockholders BlackRock, Inc. (1,805,935,550 shares, 7.43%) and Vanguard Capital Management (1,777,408,252 shares, 7.31%) as of the 2026 record date.",
+   "why": "the quoted passage is not on the cited page"
+  },
+  {
+   "where": "facts[5]",
+   "claim": "Nvidia's 10-K states that it is defending a securities class action brought by shareholders who allege false or misleading statements about channel inventory and the impact of cryptocurrency mining on",
+   "why": "the quoted passage is not on the cited page"
+  },
+  {
+   "where": "facts[6]",
+   "claim": "Nvidia's 10-K states that in August 2025 the U.S. government granted licenses allowing shipments of certain H20 products to certain China-based customers, generating approximately $60 million in H20 r",
+   "why": "the quoted passage is not on the cited page"
+  },
+  {
+   "where": "facts[7]",
+   "claim": "Nvidia's 10-K states that in February 2026 the U.S. government granted a license allowing small H200 shipments to specific China-based customers, and that Nvidia had not yet generated revenue under th",
+   "why": "the quoted passage is not on the cited page"
+  },
+  {
+   "where": "facts[8]",
+   "claim": "Nvidia's 10-K states that under current rules it is unable to create and deliver a competitive product for China's data center market that receives approval from both the U.S. and Chinese governments.",
+   "why": "the quoted passage is not on the cited page"
+  },
+  {
+   "where": "facts[10]",
+   "claim": "In December 2025 Nvidia entered into a non-exclusive license agreement with Groq, Inc. for its language processing unit technology; the 10-K cash-flow statement records a $13,000 million payment to Gr",
+   "why": "the quoted passage is not on the cited page"
+  },
+  {
+   "where": "facts[11]",
+   "claim": "Nvidia's 10-K states it is finalizing an investment and partnership agreement with OpenAI, and that there is no assurance it will enter into the agreement or that a transaction will be completed.",
+   "why": "the quoted passage is not on the cited page"
+  },
+  {
+   "where": "facts[12]",
+   "claim": "Nvidia's 10-K names Alibaba, Alphabet (Google), Amazon, Baidu, Huawei and Microsoft among companies that incorporate accelerated or AI computing in their own internal solutions, in its competition ris",
+   "why": "the quoted passage is not on the cited page"
+  },
+  {
+   "where": "facts[13]",
+   "claim": "Under Nvidia's agreement with Microsoft for the Xbox, Microsoft may have first and last rights of refusal to buy Nvidia stock if someone offers to purchase at least 30% of the outstanding common stock",
+   "why": "the quoted passage is not on the cited page"
+  },
+  {
+   "where": "facts[14]",
+   "claim": "The Bureau of Industry and Security published a rule on January 15, 2026 changing its license review policy for certain advanced computing chips to China and Macau from a presumption of denial to case",
+   "why": "the quoted passage is not on the cited page"
+  },
+  {
+   "where": "facts[15]",
+   "claim": "BIS issued an interim final rule on January 16, 2025 adding due-diligence measures for advanced computing integrated circuits for foundries and OSATs, amending its December 2, 2024 foreign-produced di",
+   "why": "the quoted passage is not on the cited page"
+  },
+  {
+   "where": "connections[0]",
+   "claim": "Jen-Hsun (Jensen) Huang founded NVIDIA in 1993 and serves as its President, CEO and a director.",
+   "why": "the quoted passage is not on the cited page"
+  },
+  {
+   "where": "connections[3]",
+   "claim": "Nvidia's 10-K describes an agreement with Microsoft for the Xbox that gives Microsoft first and last rights of refusal if a 30% offer is made for Nvidia stock.",
+   "why": "the quoted passage is not on the cited page"
+  },
+  {
+   "where": "connections[4]",
+   "claim": "Nvidia's 10-K names Alphabet Inc. among companies that incorporate accelerated or AI computing into their own internal solutions; Nvidia's results release names Google Cloud among providers to deploy ",
+   "why": "the quoted passage is not on the cited page"
+  },
+  {
+   "where": "connections[6]",
+   "claim": "Nvidia's 10-K says it is finalizing an investment and partnership agreement with OpenAI, with no assurance it will be completed.",
+   "why": "the quoted passage is not on the cited page"
+  },
+  {
+   "where": "connections[7]",
+   "claim": "The Bureau of Industry and Security regulates exports of Nvidia's advanced computing chips to China, including the January 2026 rule covering the Nvidia H200 and its equivalents.",
+   "why": "the quoted passage is not on the cited page"
+  },
+  {
+   "where": "connections[8]",
+   "claim": "The Department of Commerce, through BIS, issued the January 2026 license-review rule covering Nvidia's H200 chips to China.",
+   "why": "the quoted passage is not on the cited page"
+  },
+  {
+   "where": "connections[9]",
+   "claim": "Nvidia joined the U.S. Department of Energy's Genesis Mission as a private industry partner.",
+   "why": "the quoted passage is not on the cited page"
+  }
+ ],
+ "wikiSourcesDropped": 0,
+ "pagesOpened": 9,
+ "pagesRefused": 0,
+ "empty": false
+}

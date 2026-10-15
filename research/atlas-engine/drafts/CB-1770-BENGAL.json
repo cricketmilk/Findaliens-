@@ -1,0 +1,59 @@
+{
+  "code": "CB-1770-BENGAL",
+  "eraId": "ERA-02-1769",
+  "yearStart": 1770,
+  "yearEnd": 1773,
+  "title": "Famine as Fiscal Policy: How the East India Company Taxed Bengal's Dead to Repay Parliament",
+  "primaryTab": "carbon-class",
+  "secondaryTabs": [
+    "crash-conduits",
+    "deep-state"
+  ],
+  "mechanism": "SOVEREIGN_DEBT_TRAP",
+  "tier": "TIER_3_PRIMARY_LEDGER",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "East India Company",
+    "British Parliament",
+    "Board of Control",
+    "Bengal revenue administration (diwani)"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "Post-Plassey, the Company converted the Bengal diwani into a fixed land-tax annuity, seizing the revenue stream of Bengal, Bihar and Orissa before any famine pressure existed.",
+    "stage2_structuralCompromise": "Company tax collectors maintained the fixed revenue demand through 1769-1770 while grain prices soared, structurally prioritizing shareholder remittance over subsistence in the tax-yielding provinces.",
+    "stage3_informationFog": "Famine mortality — estimated at roughly a third of the affected population in contemporaneous Company and Indian sources — was reported slowly to London, where the Company's insolvency, not the dead, framed parliamentary debate.",
+    "stage4_monopolyWindfall": "Parliament answered with the 1773 Regulating and Tea Acts: a 1.4 million pound loan to the Company, its monopoly left intact, serviced by the very Bengal revenue the famine had gutted the population to collect.",
+    "stage5_merseyWhitewash": "The 1784 India Act subordinated the Company to a Board of Control, recasting insolvency and famine as an accountability problem solved by parliamentary oversight — no forfeiture, no shareholder liability, extraction machinery preserved."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "The Company inherited the joint-stock monopoly charter east of the Cape and, via Plassey, the Mughal revenue-farming apparatus of Bengal, fusing corporate trade privilege with sovereign tax power.",
+    "newFrameworkCreated": "The 1773-1784 acts created the permanent template of state-bailed monopoly: parliamentary 'regulation' that socialized the Company's debts while privatizing its monopoly rents.",
+    "closedLoopRecirculation": "Bengal land tax serviced the parliamentary loan and Company dividends, recirculating colonial extraction upward to British creditors and shareholders at the direct cost of the taxed famine population.",
+    "enablesNextDossier": "This bailout-monopoly template — cheap monopoly goods dumped to service debt, exemplified by the Tea Act — set the mechanism for the 1773 Boston Tea Party and the state-chartered extraction conduits that followed."
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "The 'wicked monopoly company' framing reduces the episode to a morality tale of Company greed, resolved once Parliament asserted control.",
+    "whyDecoyFails": "It obscures the ledger: Parliament did not break the monopoly or penalize the shareholders — it lent the Company 1.4 million pounds repaid from Bengal revenue, deepening the extraction loop it purported to reform.",
+    "documentedLedger": "Contemporaneous Company and Indian sources record fixed tax demand sustained through the famine, mortality near a third of the affected provinces, and the 1773 loan and 1784 subordination — a documented chain from tax collection to parliamentary bailout to continued monopoly."
+  },
+  "citationIds": [
+    "CIT-1770-WD-Q2477522",
+    "CIT-1770-WD-Q83164"
+  ],
+  "citations": [
+    {
+      "id": "CIT-1770-WD-Q2477522",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Corporate Lineage Entity: Great Bengal famine of 1770 (Q2477522)",
+      "url": "https://www.wikidata.org/entity/Q2477522",
+      "quoteOrFact": "Great Bengal famine of 1770"
+    },
+    {
+      "id": "CIT-1770-WD-Q83164",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Corporate Lineage Entity: East India Company (Q83164)",
+      "url": "https://www.wikidata.org/entity/Q83164",
+      "quoteOrFact": "East India Company"
+    }
+  ]
+}

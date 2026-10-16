@@ -1230,30 +1230,33 @@
       "eraId": "ERA-01-1694",
       "yearStart": 1636,
       "yearEnd": 1636,
-      "title": "Tulip Mania: The Proto-Derivative Enclosure",
+      "title": "Tulip Mania: Thirty-Seven Buyers, and a Parable Built on Top of Them",
       "primaryTab": "crash-conduits",
       "secondaryTabs": [],
       "mechanism": "CENTRAL_BANK_LIQUIDITY",
       "tier": "TIER_3_PRIMARY_LEDGER",
       "auditDisposition": "DOCUMENTED",
-      "participants": [],
+      "participants": [
+        "Anne Goldgar",
+        "Dutch merchant buyers of tulip bulbs"
+      ],
       "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
+        "stage1_upfrontSkim": "Rare bulbs changed hands at prices that genuinely were extraordinary: 'the most expensive tulips of all cost around 5,000 guilders (the price of a well-appointed house)'.",
+        "stage2_structuralCompromise": "The trade was in promises rather than cash — contracts to pay later for bulbs still in the ground — so exposure was to counterparties, not to a market price.",
+        "stage3_informationFog": "When the market broke in February 1637 the loss was therefore not realised: 'those who lost money in the February crash did so only notionally: they might not get paid later.'",
+        "stage4_monopolyWindfall": "The exposure also sat with people who could absorb it. 'Only those waiting for payment were in trouble, and they were people able to bear the loss', and 'with one or two exceptions, these top buyers came from the wealthy merchant class and were well able to afford the bulbs.'",
+        "stage5_merseyWhitewash": "What survived was not the loss but the story. The archive identifies 'only 37 people who spent more than 300 guilders on bulbs' — and the episode became the standing parable for popular financial madness, cited for four centuries against the public rather than the merchants who were in it."
       },
       "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-        "enablesNextDossier": "CC-2026-ARBITRAGE"
+        "inheritedFramework": "A forward market in a luxury good, settled between merchants on credit.",
+        "newFrameworkCreated": "A parable: the crowd as the author of its own ruin, available to be cited at every later bubble.",
+        "closedLoopRecirculation": "A small, wealthy, notional loss is retold as a mass catastrophe, and the retelling becomes the standard warning about ordinary people in markets — the one group the episode did not involve.",
+        "enablesNextDossier": "CC-1720-SOUTHSEA"
       },
       "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "Tulip Mania: The Proto-Derivative Enclosure"
+        "viralDecoy": "Dutch society was seized by a mania in which ordinary people ruined themselves over flowers and wrecked the economy.",
+        "whyDecoyFails": "The record identifies only 37 people who spent more than 300 guilders on bulbs; the February 1637 losses were notional, being unpaid promises rather than money gone; and those left waiting for payment 'were people able to bear the loss', drawn with one or two exceptions from the wealthy merchant class.",
+        "documentedLedger": "A credit market in forward contracts among a few dozen rich merchants, whose collapse left promises unpaid rather than fortunes destroyed, and which has been retold ever since as the archetype of crowd madness."
       },
       "citationIds": [
         "CIT-1636-THE-CONVERSATION-ANNE"
@@ -2134,41 +2137,54 @@
       "eraId": "ERA-08-1953",
       "yearStart": 1980,
       "yearEnd": 1980,
-      "title": "The Hunt Brothers Silver Corner & The 'Silver Thursday' Crash",
+      "title": "Silver Thursday: The Exchange Changed the Contract, Then the Price Fell",
       "primaryTab": "crash-conduits",
       "secondaryTabs": [],
       "mechanism": "CENTRAL_BANK_LIQUIDITY",
       "tier": "TIER_3_PRIMARY_LEDGER",
       "auditDisposition": "DOCUMENTED",
-      "participants": [],
+      "participants": [
+        "Nelson Bunker Hunt",
+        "William Herbert Hunt",
+        "COMEX",
+        "Commodity Futures Trading Commission"
+      ],
       "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
+        "stage1_upfrontSkim": "Through 1979 the position the CFTC's own counsel later called 'the Hunt Silver Crisis in 1979-1980' was built in the silver futures contract, where a buyer's leverage is set by the exchange rather than by the buyer.",
+        "stage2_structuralCompromise": "A corner only holds while the terms of the contract hold. Position size, margin and the right to trade at all are the exchange's to set, and they can be reset while a position is open.",
+        "stage3_informationFog": "'the COMEX under emergency authority imposed speculative position limits on the silver futures contract on January 7, 1980.' The ceiling arrived first.",
+        "stage4_monopolyWindfall": "'Then, on January 21, COMEX suspended trading in silver and announced that it would only accept liquidation orders. The price of silver began to decline.' A market in which the only permitted order is a sale has one direction left.",
+        "stage5_merseyWhitewash": "The emergency measure became the standing rule: 'On April 4, 1980, the CFTC approved speculative position limits for the silver futures contract', set at 500 contracts for the spot or next month and 2,000 otherwise."
       },
       "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
+        "inheritedFramework": "A futures contract whose size, margin and tradability are set by the exchange whose members stand on the other side of it.",
+        "newFrameworkCreated": "Permanent federal speculative position limits on silver, approved three months after the emergency ones.",
+        "closedLoopRecirculation": "An exchange restricts its own contract to stop a position held against its members, the price moves the way the restriction points, and the regulator then makes the emergency terms permanent — so the rule that ended the corner is the rule that governs the next one.",
         "enablesNextDossier": "CC-2026-ARBITRAGE"
       },
       "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "The Hunt Brothers Silver Corner & The 'Silver Thursday' Crash"
+        "viralDecoy": "The Hunt brothers were beaten by the market, which corrected their attempt to corner silver.",
+        "whyDecoyFails": "The sequence runs the other way round. COMEX imposed speculative position limits on 7 January 1980, and on 21 January suspended trading and accepted liquidation orders only — and it is at that point that 'the price of silver began to decline'. The correction followed the rule change.",
+        "documentedLedger": "Emergency position limits on 7 January 1980, trading suspended to liquidation-only on 21 January with the price declining from then, and federal position limits made permanent on 4 April 1980 at 500 and 2,000 contracts."
       },
       "citationIds": [
-        "CIT-1720-HANSARD"
+        "CIT-1980-CFTC-SILVER-LIMITS",
+        "CIT-1980-CFTC-SILVER-HALT"
       ],
       "citations": [
         {
-          "id": "CIT-1720-HANSARD",
-          "tier": "TIER_2_INQUIRY",
-          "title": "UK House of Commons Secret Committee Report on the South Sea Company (1721)",
-          "url": "https://hansard.parliament.uk/",
-          "quoteOrFact": "Parliamentary inquiry documented fictitious stock ledger entries used to bribe MPs and Cabinet ministers prior to the 1720 crash."
+          "id": "CIT-1980-CFTC-SILVER-LIMITS",
+          "tier": "TIER_3_PRIMARY_LEDGER",
+          "title": "Testimony of Dan Berkovitz, General Counsel, on metals markets — U.S. Commodity Futures Trading Commission",
+          "url": "https://www.cftc.gov/PressRoom/SpeechesTestimony/metalmarkets032510_berkovitz",
+          "quoteOrFact": "Verified quotes: 'As a result of the Hunt Silver Crisis in 1979-1980, the COMEX under emergency authority imposed speculative position limits on the silver futures contract on January 7, 1980.' and 'On April 4, 1980, the CFTC approved speculative position limits for the silver futures contract. These limits at the COMEX were set at 500 contracts for the spot/next month and 2,000 contracts' otherwise."
+        },
+        {
+          "id": "CIT-1980-CFTC-SILVER-HALT",
+          "tier": "TIER_3_PRIMARY_LEDGER",
+          "title": "Position Limits for Derivatives, 78 Fed. Reg. — U.S. Commodity Futures Trading Commission",
+          "url": "https://www.cftc.gov/sites/default/files/idc/groups/public/@lrfederalregister/documents/file/2013-27200a.pdf",
+          "quoteOrFact": "Verified quote: 'Then, on January 21, COMEX suspended trading in silver and announced that it would only accept liquidation orders. The price of silver began to decline.'"
         }
       ],
       "pairedEvent": null,
@@ -7480,30 +7496,33 @@
         "eraId": "ERA-01-1694",
         "yearStart": 1636,
         "yearEnd": 1636,
-        "title": "Tulip Mania: The Proto-Derivative Enclosure",
+        "title": "Tulip Mania: Thirty-Seven Buyers, and a Parable Built on Top of Them",
         "primaryTab": "crash-conduits",
         "secondaryTabs": [],
         "mechanism": "CENTRAL_BANK_LIQUIDITY",
         "tier": "TIER_3_PRIMARY_LEDGER",
         "auditDisposition": "DOCUMENTED",
-        "participants": [],
+        "participants": [
+          "Anne Goldgar",
+          "Dutch merchant buyers of tulip bulbs"
+        ],
         "extractionLoop": {
-          "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-          "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-          "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-          "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-          "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
+          "stage1_upfrontSkim": "Rare bulbs changed hands at prices that genuinely were extraordinary: 'the most expensive tulips of all cost around 5,000 guilders (the price of a well-appointed house)'.",
+          "stage2_structuralCompromise": "The trade was in promises rather than cash — contracts to pay later for bulbs still in the ground — so exposure was to counterparties, not to a market price.",
+          "stage3_informationFog": "When the market broke in February 1637 the loss was therefore not realised: 'those who lost money in the February crash did so only notionally: they might not get paid later.'",
+          "stage4_monopolyWindfall": "The exposure also sat with people who could absorb it. 'Only those waiting for payment were in trouble, and they were people able to bear the loss', and 'with one or two exceptions, these top buyers came from the wealthy merchant class and were well able to afford the bulbs.'",
+          "stage5_merseyWhitewash": "What survived was not the loss but the story. The archive identifies 'only 37 people who spent more than 300 guilders on bulbs' — and the episode became the standing parable for popular financial madness, cited for four centuries against the public rather than the merchants who were in it."
         },
         "closedLoopRatchet": {
-          "inheritedFramework": "Prior credit and clearing architecture.",
-          "newFrameworkCreated": "Expanded institutional backstop.",
-          "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-          "enablesNextDossier": "CC-2026-ARBITRAGE"
+          "inheritedFramework": "A forward market in a luxury good, settled between merchants on credit.",
+          "newFrameworkCreated": "A parable: the crowd as the author of its own ruin, available to be cited at every later bubble.",
+          "closedLoopRecirculation": "A small, wealthy, notional loss is retold as a mass catastrophe, and the retelling becomes the standard warning about ordinary people in markets — the one group the episode did not involve.",
+          "enablesNextDossier": "CC-1720-SOUTHSEA"
         },
         "decoyVsLedger": {
-          "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-          "whyDecoyFails": "Fails primary ledger cross-examination.",
-          "documentedLedger": "Tulip Mania: The Proto-Derivative Enclosure"
+          "viralDecoy": "Dutch society was seized by a mania in which ordinary people ruined themselves over flowers and wrecked the economy.",
+          "whyDecoyFails": "The record identifies only 37 people who spent more than 300 guilders on bulbs; the February 1637 losses were notional, being unpaid promises rather than money gone; and those left waiting for payment 'were people able to bear the loss', drawn with one or two exceptions from the wealthy merchant class.",
+          "documentedLedger": "A credit market in forward contracts among a few dozen rich merchants, whose collapse left promises unpaid rather than fortunes destroyed, and which has been retold ever since as the archetype of crowd madness."
         },
         "citationIds": [
           "CIT-1636-THE-CONVERSATION-ANNE"
@@ -8384,41 +8403,54 @@
         "eraId": "ERA-08-1953",
         "yearStart": 1980,
         "yearEnd": 1980,
-        "title": "The Hunt Brothers Silver Corner & The 'Silver Thursday' Crash",
+        "title": "Silver Thursday: The Exchange Changed the Contract, Then the Price Fell",
         "primaryTab": "crash-conduits",
         "secondaryTabs": [],
         "mechanism": "CENTRAL_BANK_LIQUIDITY",
         "tier": "TIER_3_PRIMARY_LEDGER",
         "auditDisposition": "DOCUMENTED",
-        "participants": [],
+        "participants": [
+          "Nelson Bunker Hunt",
+          "William Herbert Hunt",
+          "COMEX",
+          "Commodity Futures Trading Commission"
+        ],
         "extractionLoop": {
-          "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-          "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-          "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-          "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-          "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
+          "stage1_upfrontSkim": "Through 1979 the position the CFTC's own counsel later called 'the Hunt Silver Crisis in 1979-1980' was built in the silver futures contract, where a buyer's leverage is set by the exchange rather than by the buyer.",
+          "stage2_structuralCompromise": "A corner only holds while the terms of the contract hold. Position size, margin and the right to trade at all are the exchange's to set, and they can be reset while a position is open.",
+          "stage3_informationFog": "'the COMEX under emergency authority imposed speculative position limits on the silver futures contract on January 7, 1980.' The ceiling arrived first.",
+          "stage4_monopolyWindfall": "'Then, on January 21, COMEX suspended trading in silver and announced that it would only accept liquidation orders. The price of silver began to decline.' A market in which the only permitted order is a sale has one direction left.",
+          "stage5_merseyWhitewash": "The emergency measure became the standing rule: 'On April 4, 1980, the CFTC approved speculative position limits for the silver futures contract', set at 500 contracts for the spot or next month and 2,000 otherwise."
         },
         "closedLoopRatchet": {
-          "inheritedFramework": "Prior credit and clearing architecture.",
-          "newFrameworkCreated": "Expanded institutional backstop.",
-          "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
+          "inheritedFramework": "A futures contract whose size, margin and tradability are set by the exchange whose members stand on the other side of it.",
+          "newFrameworkCreated": "Permanent federal speculative position limits on silver, approved three months after the emergency ones.",
+          "closedLoopRecirculation": "An exchange restricts its own contract to stop a position held against its members, the price moves the way the restriction points, and the regulator then makes the emergency terms permanent — so the rule that ended the corner is the rule that governs the next one.",
           "enablesNextDossier": "CC-2026-ARBITRAGE"
         },
         "decoyVsLedger": {
-          "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-          "whyDecoyFails": "Fails primary ledger cross-examination.",
-          "documentedLedger": "The Hunt Brothers Silver Corner & The 'Silver Thursday' Crash"
+          "viralDecoy": "The Hunt brothers were beaten by the market, which corrected their attempt to corner silver.",
+          "whyDecoyFails": "The sequence runs the other way round. COMEX imposed speculative position limits on 7 January 1980, and on 21 January suspended trading and accepted liquidation orders only — and it is at that point that 'the price of silver began to decline'. The correction followed the rule change.",
+          "documentedLedger": "Emergency position limits on 7 January 1980, trading suspended to liquidation-only on 21 January with the price declining from then, and federal position limits made permanent on 4 April 1980 at 500 and 2,000 contracts."
         },
         "citationIds": [
-          "CIT-1720-HANSARD"
+          "CIT-1980-CFTC-SILVER-LIMITS",
+          "CIT-1980-CFTC-SILVER-HALT"
         ],
         "citations": [
           {
-            "id": "CIT-1720-HANSARD",
-            "tier": "TIER_2_INQUIRY",
-            "title": "UK House of Commons Secret Committee Report on the South Sea Company (1721)",
-            "url": "https://hansard.parliament.uk/",
-            "quoteOrFact": "Parliamentary inquiry documented fictitious stock ledger entries used to bribe MPs and Cabinet ministers prior to the 1720 crash."
+            "id": "CIT-1980-CFTC-SILVER-LIMITS",
+            "tier": "TIER_3_PRIMARY_LEDGER",
+            "title": "Testimony of Dan Berkovitz, General Counsel, on metals markets — U.S. Commodity Futures Trading Commission",
+            "url": "https://www.cftc.gov/PressRoom/SpeechesTestimony/metalmarkets032510_berkovitz",
+            "quoteOrFact": "Verified quotes: 'As a result of the Hunt Silver Crisis in 1979-1980, the COMEX under emergency authority imposed speculative position limits on the silver futures contract on January 7, 1980.' and 'On April 4, 1980, the CFTC approved speculative position limits for the silver futures contract. These limits at the COMEX were set at 500 contracts for the spot/next month and 2,000 contracts' otherwise."
+          },
+          {
+            "id": "CIT-1980-CFTC-SILVER-HALT",
+            "tier": "TIER_3_PRIMARY_LEDGER",
+            "title": "Position Limits for Derivatives, 78 Fed. Reg. — U.S. Commodity Futures Trading Commission",
+            "url": "https://www.cftc.gov/sites/default/files/idc/groups/public/@lrfederalregister/documents/file/2013-27200a.pdf",
+            "quoteOrFact": "Verified quote: 'Then, on January 21, COMEX suspended trading in silver and announced that it would only accept liquidation orders. The price of silver began to decline.'"
           }
         ],
         "pairedEvent": null,

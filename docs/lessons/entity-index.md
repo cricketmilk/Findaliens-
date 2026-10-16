@@ -360,3 +360,31 @@ Bank of England PDF. The naming is almost certainly right and it is still not in
 the dossier, because the rule is the rule. Myers's $500,000 satchel is left out
 too: the 1910 account is cited, labelled polemical, and used only for the
 sentences the committee's own finding carries.
+
+## Writing dossiers: three batches in, what decides the hit rate
+
+Six batches of claims through `glm-recheck --strict-sources`: 5/6, 6/6, then
+0/6, then 3/3 on a retry of the same facts. The facts never changed. What
+changed was the wording and the reachability of the source.
+
+**The 0/6 was my phrasing.** NBER w24016 is titled "The Gold Pool (1961-1968)"
+and never writes "London Gold Pool". The claim did, so `namesNotOnPages` fired on
+a paper that had already yielded six good quotes. Rewritten to the source's own
+name, the same three claims passed. Match the document's vocabulary before
+assuming the document is wrong.
+
+**A scanned page is not a source you can quote.** The Library of Congress holds
+the 9 May 1901 newspaper covering the Northern Pacific corner as page images; no
+fetchable text came back, and the only thing that surfaced was an unrated blog.
+That dossier stays a template rather than being written off a blog.
+
+**`federalreservehistory.org` is not on the rated list.** The Federal Reserve's
+own history essays come back `rated: false`, so a claim resting only on them
+fails `--strict-sources`. The Bank of England's PDF passes, the BIS passes, NBER
+passes. Worth widening the list rather than working around it — and worth
+knowing before blaming a claim.
+
+**Searching rated domains first tells you early when a subject is not there.**
+Ivar Kreuger returned nothing usable across sec.gov, FRASER, NBER, loc.gov and
+govinfo; the search itself said so. That dossier was dropped from the batch
+before any claim was drafted, which is cheaper than finding out after the check.

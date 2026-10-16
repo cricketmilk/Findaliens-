@@ -1811,41 +1811,61 @@
       "eraId": "ERA-08-1953",
       "yearStart": 1968,
       "yearEnd": 1968,
-      "title": "The London Gold Pool Collapse & Sovereign Gold Reserve Run",
+      "title": "The Gold Pool: Eight Central Banks Defend a Price, Then Withdraw the Offer",
       "primaryTab": "crash-conduits",
       "secondaryTabs": [],
       "mechanism": "CENTRAL_BANK_LIQUIDITY",
       "tier": "TIER_3_PRIMARY_LEDGER",
       "auditDisposition": "DOCUMENTED",
-      "participants": [],
+      "participants": [
+        "Bank of England",
+        "Bank for International Settlements",
+        "Federal Reserve Board",
+        "United States",
+        "Germany",
+        "United Kingdom",
+        "Italy",
+        "France",
+        "Switzerland",
+        "Netherlands",
+        "Belgium"
+      ],
       "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
+        "stage1_upfrontSkim": "Eight central banks pooled interventions, 'sharing profits and losses', to stabilise the dollar price of gold. The Bank of England started operations for the gold consortium on 6 November 1961, and the quotas and members were defined a few days later.",
+        "stage2_structuralCompromise": "The arrangement held a fixed price by selling the members' own metal into the London market whenever it rose. The price was defended with reserves rather than with policy, which meant the defence had a quantity limit nobody had agreed in advance.",
+        "stage3_informationFog": "From the end of 1965 to March 1968 the cumulative deficit was 3,692 million. On 15 March 1968 the Gold Pool was disbanded, and the European partners were summoned to Washington for a meeting at the Federal Reserve Board on Saturday 16 March.",
+        "stage4_monopolyWindfall": "The governors 'expressed their belief that \"henceforth officially held gold should be used only to effect transfers among monetary authorities\" and they therefore agreed \"no longer to supply gold to the London gold market\"'. The monetary authorities would continue to transact amongst themselves at the official $35 price.",
+        "stage5_merseyWhitewash": "'Thus, the gold pool arrangement for putting a ceiling on the market price was suspended; while official transfers of gold would continue to be effected at the price of $35 an ounce, the market would be left free.' The obligation to the market ended; the price between the members did not."
       },
       "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
+        "inheritedFramework": "A Bretton Woods dollar convertible into gold at $35 an ounce, defended in London by a consortium of the countries that held it.",
+        "newFrameworkCreated": "A two-tier gold market: an official price preserved among monetary authorities, and a private price left to supply and demand.",
+        "closedLoopRecirculation": "A price guaranteed with the members' own reserves is abandoned to the market at the point the reserves run short, and the guarantee is retained for the members themselves — the parties who set the price keep the old one and hand everyone else the new one.",
         "enablesNextDossier": "CC-2026-ARBITRAGE"
       },
       "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "The London Gold Pool Collapse & Sovereign Gold Reserve Run"
+        "viralDecoy": "The Gold Pool was overwhelmed by speculators who broke the central banks.",
+        "whyDecoyFails": "The arrangement was not overrun so much as withdrawn from, and in writing: the governors agreed to stop supplying gold to the London market altogether while continuing to settle among themselves at $35. A defence that is ended by its defenders at a weekend meeting is a decision, not a defeat.",
+        "documentedLedger": "Eight central banks defending a fixed dollar price of gold with their own metal, a cumulative deficit of 3,692 million from end-1965 to March 1968, the Pool disbanded on 15 March, and a Washington meeting the next day that kept the $35 price for official transfers and left the market to find its own."
       },
       "citationIds": [
-        "CIT-1968-FEDERAL-RESERVE-HISTORY"
+        "CIT-1968-BIS-ANNUAL",
+        "CIT-1968-NBER-GOLDPOOL"
       ],
       "citations": [
         {
-          "id": "CIT-1968-FEDERAL-RESERVE-HISTORY",
+          "id": "CIT-1968-BIS-ANNUAL",
+          "tier": "TIER_3_PRIMARY_LEDGER",
+          "title": "Bank for International Settlements, 38th Annual Report (1968)",
+          "url": "https://www.bis.org/publ/arpdf/archive/ar1968_en.pdf",
+          "quoteOrFact": "The governors in their own words. Verified quotes: they 'expressed their belief that \"henceforth officially held gold should be used only to effect transfers among monetary authorities\" and they therefore agreed \"no longer to supply gold to the London go[ld market]\"', and 'the gold pool arrangement for putting a ceiling on the market price was suspended; while official transfers of gold would continue to be effected at the price of $35 an ounce, the market would be left fre[e]'."
+        },
+        {
+          "id": "CIT-1968-NBER-GOLDPOOL",
           "tier": "TIER_4_CONTEMPORARY_PRESS",
-          "title": "Nixon Ends Convertibility of U.S. Dollars to Gold and Announces Wage/Price Controls — London Gold Pool section — Federal Reserve History",
-          "url": "https://www.federalreservehistory.org/essays/gold-convertibility-ends",
-          "quoteOrFact": "Source carried over from the Crash Conduits entry \"london-gold-pool-1968\" for The London Gold Pool Collapse & Sovereign Gold Reserve Run."
+          "title": "The Gold Pool (1961-1968) and the Fall of the Bretton Woods System — NBER Working Paper 24016",
+          "url": "https://www.nber.org/system/files/working_papers/w24016/w24016.pdf",
+          "quoteOrFact": "Verified quotes: 'Major central banks pooled interventions – sharing profits and losses – to stabilize the dollar price of gold.'; 'The Bank of England started operations for the gold consortium on November 6, 1961.'; 'From the end of 1965 to March 1968, the cumulative deficit was 3692 million.'; 'On March 15, 1968, the Gold Pool was disbanded and a two-tier arrangement put in its place.'"
         }
       ],
       "pairedEvent": null,
@@ -8029,41 +8049,61 @@
         "eraId": "ERA-08-1953",
         "yearStart": 1968,
         "yearEnd": 1968,
-        "title": "The London Gold Pool Collapse & Sovereign Gold Reserve Run",
+        "title": "The Gold Pool: Eight Central Banks Defend a Price, Then Withdraw the Offer",
         "primaryTab": "crash-conduits",
         "secondaryTabs": [],
         "mechanism": "CENTRAL_BANK_LIQUIDITY",
         "tier": "TIER_3_PRIMARY_LEDGER",
         "auditDisposition": "DOCUMENTED",
-        "participants": [],
+        "participants": [
+          "Bank of England",
+          "Bank for International Settlements",
+          "Federal Reserve Board",
+          "United States",
+          "Germany",
+          "United Kingdom",
+          "Italy",
+          "France",
+          "Switzerland",
+          "Netherlands",
+          "Belgium"
+        ],
         "extractionLoop": {
-          "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-          "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-          "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-          "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-          "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
+          "stage1_upfrontSkim": "Eight central banks pooled interventions, 'sharing profits and losses', to stabilise the dollar price of gold. The Bank of England started operations for the gold consortium on 6 November 1961, and the quotas and members were defined a few days later.",
+          "stage2_structuralCompromise": "The arrangement held a fixed price by selling the members' own metal into the London market whenever it rose. The price was defended with reserves rather than with policy, which meant the defence had a quantity limit nobody had agreed in advance.",
+          "stage3_informationFog": "From the end of 1965 to March 1968 the cumulative deficit was 3,692 million. On 15 March 1968 the Gold Pool was disbanded, and the European partners were summoned to Washington for a meeting at the Federal Reserve Board on Saturday 16 March.",
+          "stage4_monopolyWindfall": "The governors 'expressed their belief that \"henceforth officially held gold should be used only to effect transfers among monetary authorities\" and they therefore agreed \"no longer to supply gold to the London gold market\"'. The monetary authorities would continue to transact amongst themselves at the official $35 price.",
+          "stage5_merseyWhitewash": "'Thus, the gold pool arrangement for putting a ceiling on the market price was suspended; while official transfers of gold would continue to be effected at the price of $35 an ounce, the market would be left free.' The obligation to the market ended; the price between the members did not."
         },
         "closedLoopRatchet": {
-          "inheritedFramework": "Prior credit and clearing architecture.",
-          "newFrameworkCreated": "Expanded institutional backstop.",
-          "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
+          "inheritedFramework": "A Bretton Woods dollar convertible into gold at $35 an ounce, defended in London by a consortium of the countries that held it.",
+          "newFrameworkCreated": "A two-tier gold market: an official price preserved among monetary authorities, and a private price left to supply and demand.",
+          "closedLoopRecirculation": "A price guaranteed with the members' own reserves is abandoned to the market at the point the reserves run short, and the guarantee is retained for the members themselves — the parties who set the price keep the old one and hand everyone else the new one.",
           "enablesNextDossier": "CC-2026-ARBITRAGE"
         },
         "decoyVsLedger": {
-          "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-          "whyDecoyFails": "Fails primary ledger cross-examination.",
-          "documentedLedger": "The London Gold Pool Collapse & Sovereign Gold Reserve Run"
+          "viralDecoy": "The Gold Pool was overwhelmed by speculators who broke the central banks.",
+          "whyDecoyFails": "The arrangement was not overrun so much as withdrawn from, and in writing: the governors agreed to stop supplying gold to the London market altogether while continuing to settle among themselves at $35. A defence that is ended by its defenders at a weekend meeting is a decision, not a defeat.",
+          "documentedLedger": "Eight central banks defending a fixed dollar price of gold with their own metal, a cumulative deficit of 3,692 million from end-1965 to March 1968, the Pool disbanded on 15 March, and a Washington meeting the next day that kept the $35 price for official transfers and left the market to find its own."
         },
         "citationIds": [
-          "CIT-1968-FEDERAL-RESERVE-HISTORY"
+          "CIT-1968-BIS-ANNUAL",
+          "CIT-1968-NBER-GOLDPOOL"
         ],
         "citations": [
           {
-            "id": "CIT-1968-FEDERAL-RESERVE-HISTORY",
+            "id": "CIT-1968-BIS-ANNUAL",
+            "tier": "TIER_3_PRIMARY_LEDGER",
+            "title": "Bank for International Settlements, 38th Annual Report (1968)",
+            "url": "https://www.bis.org/publ/arpdf/archive/ar1968_en.pdf",
+            "quoteOrFact": "The governors in their own words. Verified quotes: they 'expressed their belief that \"henceforth officially held gold should be used only to effect transfers among monetary authorities\" and they therefore agreed \"no longer to supply gold to the London go[ld market]\"', and 'the gold pool arrangement for putting a ceiling on the market price was suspended; while official transfers of gold would continue to be effected at the price of $35 an ounce, the market would be left fre[e]'."
+          },
+          {
+            "id": "CIT-1968-NBER-GOLDPOOL",
             "tier": "TIER_4_CONTEMPORARY_PRESS",
-            "title": "Nixon Ends Convertibility of U.S. Dollars to Gold and Announces Wage/Price Controls — London Gold Pool section — Federal Reserve History",
-            "url": "https://www.federalreservehistory.org/essays/gold-convertibility-ends",
-            "quoteOrFact": "Source carried over from the Crash Conduits entry \"london-gold-pool-1968\" for The London Gold Pool Collapse & Sovereign Gold Reserve Run."
+            "title": "The Gold Pool (1961-1968) and the Fall of the Bretton Woods System — NBER Working Paper 24016",
+            "url": "https://www.nber.org/system/files/working_papers/w24016/w24016.pdf",
+            "quoteOrFact": "Verified quotes: 'Major central banks pooled interventions – sharing profits and losses – to stabilize the dollar price of gold.'; 'The Bank of England started operations for the gold consortium on November 6, 1961.'; 'From the end of 1965 to March 1968, the cumulative deficit was 3692 million.'; 'On March 15, 1968, the Gold Pool was disbanded and a two-tier arrangement put in its place.'"
           }
         ],
         "pairedEvent": null,

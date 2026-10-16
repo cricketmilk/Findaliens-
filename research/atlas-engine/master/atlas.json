@@ -344,6 +344,27 @@
       "quoteOrFact": "J.P. Morgan financed Simon Stevens's purchase of 5,000 condemned Hall carbines from the Army at $3.50 each and resale to Gen. Frémont at $22.00 each."
     },
     {
+      "id": "CIT-1866-BOE-OVEREND",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "The demise of Overend Gurney — Bank of England Quarterly Bulletin 2016 Q2",
+      "url": "https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/2016/the-demise-of-overend-gurney.pdf",
+      "quoteOrFact": "Verified quote: 'On 9 May 1866, Overend Gurney asked the Bank of England for assistance, which was refused on the basis of the broker's insolvency; Overend Gurney suspended payments at 15.30 on 10 May 1866.' and 'the Bank of England, a private bank at the time, extended the largest market-wide lending it had ever done and drew heavily on its own reserves.'"
+    },
+    {
+      "id": "CIT-1868-LOC-ERIE",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Robber Barons: Gould and Fisk — Library of Congress, Inside Adams",
+      "url": "https://blogs.loc.gov/inside_adams/2012/09/robber-barons-gould-and-fisk/",
+      "quoteOrFact": "Verified quote: 'Once in control of the company the men sought to curry favor and appointed Tammany Hall's William Tweed, AKA Boss Tweed, a director of the company in return for legislation favorable to the' company."
+    },
+    {
+      "id": "CIT-1873-NBER-LLR",
+      "tier": "TIER_4_CONTEMPORARY_PRESS",
+      "title": "Michael D. Bordo, 'The Lender of Last Resort: Some Historical Insights' — NBER Working Paper 3011",
+      "url": "https://www.nber.org/system/files/working_papers/w3011/w3011.pdf",
+      "quoteOrFact": "Verified quote: 'The classic prescription for LLR action is to lend freely but at a penalty rate to illiquid but solvent banks. Both Thornton and Bagehot advised strongly against bailouts — assistance to insolvent' institutions."
+    },
+    {
       "id": "CIT-1873-WD-Q333611",
       "tier": "TIER_3_PRIMARY_LEDGER",
       "title": "Corporate Lineage Entity: Samuel Plimsoll (Q333611)",
@@ -426,6 +447,13 @@
       "title": "Corporate Lineage Entity: Aldrich–Vreeland Act (Q4713997)",
       "url": "https://www.wikidata.org/entity/Q4713997",
       "quoteOrFact": "Aldrich–Vreeland Act"
+    },
+    {
+      "id": "CIT-1910-MYERS-ERIE",
+      "tier": "TIER_4_CONTEMPORARY_PRESS",
+      "title": "Gustavus Myers, History of the Great American Fortunes / Great Fortunes from Railroads (1910) — Project Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/6495/pg6495-images.html",
+      "quoteOrFact": "A labelled secondary source, polemical in tone and to be read as such. Verified quotes: 'These bonds were secretly converted into shares of stock, and then distributed among brokerage houses of which the three were members.' and the 1873 committee finding that 'large sums of money were expended for corrupt purposes by parties interested in legislation concerning railways during the session of 1868.' Myers's own figures, including the $500,000 satchel, are not relied on here."
     },
     {
       "id": "CIT-1910-WD-Q927573",
@@ -1925,33 +1953,38 @@
       "eraId": "ERA-05-1861",
       "yearStart": 1866,
       "yearEnd": 1866,
-      "title": "Overend, Gurney & Co. Collapse & The Bank of England Panic",
+      "title": "Overend, Gurney & Co.: Refused as Insolvent, and the Market Rescued Instead",
       "primaryTab": "crash-conduits",
       "secondaryTabs": [],
       "mechanism": "CENTRAL_BANK_LIQUIDITY",
       "tier": "TIER_3_PRIMARY_LEDGER",
       "auditDisposition": "DOCUMENTED",
-      "participants": [],
+      "participants": [
+        "Overend, Gurney & Co.",
+        "Bank of England",
+        "Walter Bagehot"
+      ],
       "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
+        "stage1_upfrontSkim": "Overend, Gurney & Co. operated as a London discount house, standing between the Bank of England and the market and earning on paper it did not have to hold to maturity.",
+        "stage2_structuralCompromise": "By May 1866 the firm was not illiquid but insolvent. A director, Mr Bevan, put it that 'the firm was so rotten' it effectively sealed its own fate.",
+        "stage3_informationFog": "On 9 May 1866 Overend Gurney asked the Bank of England for assistance and was refused on the basis of its insolvency. It suspended payments at 15.30 the following day, 10 May 1866.",
+        "stage4_monopolyWindfall": "To mitigate the panic that followed, the Bank of England — a private bank at the time — extended the largest market-wide lending it had ever done and drew heavily on its own reserves. The firm that was refused died; the market around it was carried.",
+        "stage5_merseyWhitewash": "The episode hardened into doctrine rather than liability. The classic prescription that followed is to lend freely but at a penalty rate to illiquid but solvent banks, and both Thornton and Bagehot advised strongly against assistance to insolvent ones."
       },
       "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-        "enablesNextDossier": "CC-2026-ARBITRAGE"
+        "inheritedFramework": "A private Bank of England already acting as the market's banker without any stated obligation to do so.",
+        "newFrameworkCreated": "A lender-of-last-resort rule that draws the line at solvency: free lending at a penalty rate to the illiquid, nothing for the insolvent.",
+        "closedLoopRecirculation": "Refusing one insolvent house while rescuing every solvent counterparty around it converts a private bank's discretion into a standing public expectation, at no cost to the firm that failed and no charge to the firm that are carried.",
+        "enablesNextDossier": "CC-1890-BARING_CRISIS_1890"
       },
       "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "Overend, Gurney & Co. Collapse & The Bank of England Panic"
+        "viralDecoy": "The Bank of England let Overend Gurney fail because it would not intervene in the market.",
+        "whyDecoyFails": "The Bank refused this one firm on the explicit ground of insolvency and then lent more to the market than it ever had, drawing heavily on its own reserves. Its restraint was aimed at a single counterparty, not at the market.",
+        "documentedLedger": "A refusal justified by insolvency, followed immediately by the largest market-wide lending the Bank had ever done, and settled afterwards into a rule that tells a central bank exactly which failures to absorb."
       },
       "citationIds": [
-        "CIT-1720-HANSARD"
+        "CIT-1866-BOE-OVEREND",
+        "CIT-1873-NBER-LLR"
       ]
     },
     {
@@ -1959,33 +1992,41 @@
       "eraId": "ERA-05-1861",
       "yearStart": 1868,
       "yearEnd": 1868,
-      "title": "The Erie Railroad War & The Counterfeit Stock Printing Press",
+      "title": "The Erie War: Bonds Converted to Stock, and a Legislature That Made It Legal",
       "primaryTab": "crash-conduits",
       "secondaryTabs": [],
       "mechanism": "CENTRAL_BANK_LIQUIDITY",
       "tier": "TIER_3_PRIMARY_LEDGER",
       "auditDisposition": "DOCUMENTED",
-      "participants": [],
+      "participants": [
+        "Daniel Drew",
+        "Jay Gould",
+        "James Fisk",
+        "Cornelius Vanderbilt",
+        "William M. Tweed",
+        "Erie Railway"
+      ],
       "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
+        "stage1_upfrontSkim": "Drew, Gould and Fisk banded together to wrest control of the Erie Railway from Cornelius Vanderbilt by flooding the market with an extra issue of bonds that could be converted into stock.",
+        "stage2_structuralCompromise": "Those bonds were secretly converted into shares of stock and then distributed among brokerage houses of which the three men were themselves members.",
+        "stage3_informationFog": "Vanderbilt's brokers bought the load of stock in million-dollar bunches, and other buyers alongside them, without knowing where the paper had come from.",
+        "stage4_monopolyWindfall": "Once in control of the company the three appointed Tammany Hall's William Tweed a director, in return for legislation favourable to the company, and the bill legalising the stock issue passed at Albany.",
+        "stage5_merseyWhitewash": "An investigating committee reported in 1873 that 'large sums of money were expended for corrupt purposes by parties interested in legislation concerning railways during the session of 1868' — a finding recorded after the stock was sold and the control had changed hands."
       },
       "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-        "enablesNextDossier": "CC-2026-ARBITRAGE"
+        "inheritedFramework": "A railway charter that let its own directors authorise convertible bonds.",
+        "newFrameworkCreated": "A statute retrospectively legalising the issue, and a company director seated inside the political machine that passed it.",
+        "closedLoopRecirculation": "Print the paper, sell it to the man trying to buy the company, then buy the law that makes the printing lawful; the inquiry arrives five years later and changes nothing about who holds the railway.",
+        "enablesNextDossier": "CC-1890-BARING_CRISIS_1890"
       },
       "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "The Erie Railroad War & The Counterfeit Stock Printing Press"
+        "viralDecoy": "The Erie War was a duel of personalities between robber barons.",
+        "whyDecoyFails": "The mechanism is documentary, not personal: convertible bonds turned into stock, routed through brokerages the issuers belonged to, and then protected by a statute passed while a company director sat in Tammany Hall.",
+        "documentedLedger": "An issue of convertible bonds converted into stock and sold to the party attempting the takeover, legalised afterwards by a legislature whose 1868 session an investigating committee found had been worked on with large sums for corrupt purposes."
       },
       "citationIds": [
-        "CIT-1720-HANSARD"
+        "CIT-1868-LOC-ERIE",
+        "CIT-1910-MYERS-ERIE"
       ]
     },
     {

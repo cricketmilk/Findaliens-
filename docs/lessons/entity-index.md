@@ -329,3 +329,34 @@ again further down. A previous round measured **35 sticky era headers** for ten
 eras. With every dossier inside a window that contains it, that is **10 headers,
 each era exactly once, in chronological order**. The wall of repeated headers was
 never a layout bug; it was the data showing through.
+
+
+## 68 of the 108 atlas dossiers are one template
+
+Not 48 missing citations — **68 sharing a single extraction loop, word for word**.
+Overend Gurney's analysis read "Upfront fee and leverage extraction. / Regulatory
+or collateral dilution prior to shock. / Asymmetric clearing and disclosure
+window." — the same five sentences that sit on the Erie Railroad War and the
+Khedivate of Egypt. 47 of them also carry no participants at all, a
+`documentedLedger` that is the title copied back, and the same `viralDecoy`,
+"Unverified monocausal rumor lacking docket citations."
+
+Only **40 of 108** had their own extraction loop. `atlas.html` meanwhile claims
+"all 108 entries with their five-stage extraction loops, closed-loop ratchets,
+decoy-versus-ledger audits and primary citations". Same failure as
+`CIT-1720-HANSARD`, one level up: a slot filled so the structure reads complete.
+Count distinct field values before trusting a count of rows.
+
+**Writing one costs about 1.5 cents and verifies first.** The order matters:
+research the event, put the claims through `research/glm-recheck.mjs
+--strict-sources`, read every rewrite, and only then write the dossier out of
+what the quotes carry. Five of six claims verified on the first pass for 2.9
+cents. Writing first and sourcing afterwards is how the template got here.
+
+What does *not* survive that order is instructive. "Black Friday" is left out of
+the Overend Gurney dossier because its check came back "only unrated sources
+state it" — while the two facts either side of it passed on quotes from the same
+Bank of England PDF. The naming is almost certainly right and it is still not in
+the dossier, because the rule is the rule. Myers's $500,000 satchel is left out
+too: the 1910 account is cited, labelled polemical, and used only for the
+sentences the committee's own finding carries.

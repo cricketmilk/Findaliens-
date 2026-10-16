@@ -372,6 +372,20 @@
       "quoteOrFact": "Samuel Plimsoll"
     },
     {
+      "id": "CIT-1890-NBER-ARGENTINA",
+      "tier": "TIER_4_CONTEMPORARY_PRESS",
+      "title": "Financial Crises, 1880–1913: The Role of Foreign Currency Debt — NBER Working Paper 11173",
+      "url": "https://www.nber.org/system/files/working_papers/w11173/w11173.pdf",
+      "quoteOrFact": "Verified quote: 'In Argentina, this crisis was a triple crisis involving a banking meltdown, a currency crisis and a suspension of payments on national debt.' and 'The government of Argentina suspended payments on its debts. The two major banks of Buenos Aires were liquidated in 1890.'"
+    },
+    {
+      "id": "CIT-1890-NBER-BARING",
+      "tier": "TIER_4_CONTEMPORARY_PRESS",
+      "title": "Economists on the Lender of Last Resort — NBER Working Paper 20832",
+      "url": "https://www.nber.org/system/files/working_papers/w20832/w20832.pdf",
+      "quoteOrFact": "Verified quote: 'Bank of England governor William Lidderdale set about assembling subscribers to a guarantee fund which would be called on if the Bank-supervised liquidation of Baring's assets was not sufficient' and 'placed the Bank of England's name at the top of the list for £1 million and set about coaxing, cajoling, and, in some cases, even threatening potential subscribers.'"
+    },
+    {
       "id": "CIT-1893-CL-4924749",
       "tier": "TIER_1_STATUTE_COURT",
       "title": "In re the Receivership of Spokane-Columbia River Railroad & Navigation Co. (70 Wash. 142, 1912-09-07)",
@@ -638,6 +652,13 @@
       "quoteOrFact": "Source carried over from the Crash Conduits entry \"london-gold-pool-1968\" for The London Gold Pool Collapse & Sovereign Gold Reserve Run."
     },
     {
+      "id": "CIT-1974-BCBS-HISTORY",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "History of the Basel Committee — Bank for International Settlements",
+      "url": "https://www.bis.org/committees/bcbs/history",
+      "quoteOrFact": "Verified quote: 'The Basel Committee - initially named the Committee on Banking Regulations and Supervisory Practices - was established by the central bank Governors of the Group of Ten countries at the end of 1974' in the aftermath of serious disturbances in international currency and banking markets, notably Herstatt's failure."
+    },
+    {
       "id": "CIT-1974-BIS-BASEL-COMMITTEE-ON-1",
       "tier": "TIER_4_CONTEMPORARY_PRESS",
       "title": "History of the Basel Committee — BIS / Basel Committee on Banking Supervision",
@@ -650,6 +671,13 @@
       "title": "Settlement risk in foreign exchange transactions — published introduction (9 March 1996) — BIS / Committee on Payment and Settlement Systems",
       "url": "https://www.bis.org/cpmi/publ/d17.htm",
       "quoteOrFact": "Source carried over from the Crash Conduits entry \"herstatt-risk-1974\" for Bankhaus Herstatt Collapse & Cross-Currency Settlement Risk."
+    },
+    {
+      "id": "CIT-1974-BIS-HERSTATT",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Uncovering FX settlement risk — BIS Quarterly Review",
+      "url": "https://www.bis.org/publ/qtrpdf/r_qt2606c.pdf",
+      "quoteOrFact": "Verified quote: 'On the afternoon of 26 June 1974, the German authorities ordered Bankhaus Herstatt into liquidation. The bank was closed at 3.30 pm Frankfurt time, after which its New York correspondent bank suspended' outgoing dollar payments, which 'left Herstatt's counterparties exposed for the full value of the Deutsche marks they had already paid in Frankfurt earlier in the day'."
     },
     {
       "id": "CIT-1974-WD-Q2006144",
@@ -776,6 +804,13 @@
       "title": "Asian Financial Crisis (written as of 22 November 2013) — Federal Reserve History / Michael Carson and John Clark",
       "url": "https://www.federalreservehistory.org/essays/asian-financial-crisis",
       "quoteOrFact": "Source carried over from the Crash Conduits entry \"asian-financial-crisis-1997\" for The Asian Financial Crisis & IMF Structural Adjustment Extraction."
+    },
+    {
+      "id": "CIT-1997-GAO-HERSTATT",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "GAO/GGD-97-73, Payments, Clearance, and Settlement — U.S. Government Accountability Office",
+      "url": "https://www.govinfo.gov/content/pkg/GAOREPORTS-GGD-97-73/pdf/GAOREPORTS-GGD-97-73.pdf",
+      "quoteOrFact": "Verified quote: 'the first entity is exposed to loss of up to the full amount that it paid. This latter risk is commonly called \"Herstatt risk,\" after the name' of the failed bank."
     },
     {
       "id": "CIT-1998-FEDERAL-RESERVE-HISTORY",
@@ -2068,33 +2103,40 @@
       "eraId": "ERA-05-1861",
       "yearStart": 1890,
       "yearEnd": 1890,
-      "title": "The Baring Crisis & The Bank of England Sovereign Guarantee",
+      "title": "The Baring Guarantee: A House Rescued by Subscription, a Country Left to Default",
       "primaryTab": "crash-conduits",
       "secondaryTabs": [],
       "mechanism": "CENTRAL_BANK_LIQUIDITY",
       "tier": "TIER_3_PRIMARY_LEDGER",
       "auditDisposition": "DOCUMENTED",
-      "participants": [],
+      "participants": [
+        "Baring Brothers",
+        "Bank of England",
+        "William Lidderdale",
+        "Bank of France",
+        "Government of Argentina"
+      ],
       "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
+        "stage1_upfrontSkim": "Baring Brothers underwrote most of Argentina's foreign debt issues, earning on paper it placed in London while the obligation stayed with Buenos Aires.",
+        "stage2_structuralCompromise": "The firm was left holding what it could not place, and when the Bank of England raised its discount rate from 2.5 to 6 per cent the position became unsustainable — Baring was overextended on Argentina's insolvency.",
+        "stage3_informationFog": "The House of Baring notified the Bank of England of its problems in early November 1890, privately and before the market knew. The fall of Barings was announced simultaneously with the guarantee scheme of assistance.",
+        "stage4_monopolyWindfall": "Governor William Lidderdale assembled subscribers to a guarantee fund, placing the Bank of England's own name at the top of the list for £1 million and 'coaxing, cajoling, and, in some cases, even threatening potential subscribers'. The Bank of France sent £3 million in gold; the Russian government left its substantial deposits at Baring in place.",
+        "stage5_merseyWhitewash": "The rescue stopped at the water's edge. In Argentina the same year brought 'a banking meltdown, a currency crisis and a suspension of payments on national debt'; the government suspended payments and the two major banks of Buenos Aires were liquidated in 1890."
       },
       "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-        "enablesNextDossier": "CC-2026-ARBITRAGE"
+        "inheritedFramework": "A London house underwriting a sovereign's debt with no mechanism for its own failure.",
+        "newFrameworkCreated": "A subscribed guarantee fund led by the central bank, assembled before the failure was public.",
+        "closedLoopRecirculation": "The underwriter is carried by a fund its own regulator organises and foreign central banks supply; the sovereign whose debt caused it defaults, and the next issue is underwritten on the same terms.",
+        "enablesNextDossier": "CC-1901-NORTHERN_PACIFIC_CORNER_1901"
       },
       "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "The Baring Crisis & The Bank of England Sovereign Guarantee"
+        "viralDecoy": "The Bank of England bailed out Barings with public money.",
+        "whyDecoyFails": "The money was subscribed, not appropriated: a guarantee fund whose contributors were London's joint-stock and commercial banks, headed by the Bank of England's own £1 million, with £3 million in gold from the Bank of France. What makes it a ledger entry is not the source of the money but who was and was not reached by it.",
+        "documentedLedger": "A private underwriter rescued by a guarantee fund assembled in secret and announced with its own failure, while the sovereign on the other side of the same paper suspended payments and lost both its major banks."
       },
       "citationIds": [
-        "CIT-1720-HANSARD"
+        "CIT-1890-NBER-BARING",
+        "CIT-1890-NBER-ARGENTINA"
       ]
     },
     {
@@ -2408,34 +2450,40 @@
       "eraId": "ERA-08-1953",
       "yearStart": 1974,
       "yearEnd": 1974,
-      "title": "Bankhaus Herstatt Collapse & Cross-Currency Settlement Risk",
+      "title": "Bankhaus Herstatt: The Afternoon Gap Between Two Payment Systems",
       "primaryTab": "crash-conduits",
       "secondaryTabs": [],
       "mechanism": "CENTRAL_BANK_LIQUIDITY",
       "tier": "TIER_3_PRIMARY_LEDGER",
       "auditDisposition": "DOCUMENTED",
-      "participants": [],
+      "participants": [
+        "Bankhaus Herstatt",
+        "Basel Committee on Banking Supervision",
+        "Bank for International Settlements",
+        "Group of Ten central bank Governors"
+      ],
       "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
+        "stage1_upfrontSkim": "A foreign exchange trade settles in two national payment systems on the same day, and the two legs do not clear at the same moment. Herstatt's counterparties paid Deutsche marks in Frankfurt earlier in the day against US dollars due in New York.",
+        "stage2_structuralCompromise": "Nothing in that arrangement required the second leg to arrive. The exposure was built into the settlement convention, not into any one contract.",
+        "stage3_informationFog": "On the afternoon of 26 June 1974 the German authorities ordered Bankhaus Herstatt into liquidation, and the bank was closed at 3.30 pm Frankfurt time — after Frankfurt's payments had gone and before New York's were due.",
+        "stage4_monopolyWindfall": "Herstatt's New York correspondent then suspended outgoing US dollar payments from its account, which left the counterparties exposed for the full value of the Deutsche marks they had already paid. The loss did not fall on the failed bank; it stopped where the clock did.",
+        "stage5_merseyWhitewash": "The exposure was named rather than removed: a counterparty that pays and does not receive is 'exposed to loss of up to the full amount that it paid. This latter risk is commonly called \"Herstatt risk\"'. The Committee on Banking Regulations and Supervisory Practices, now the Basel Committee, was established by the Group of Ten central bank Governors at the end of 1974."
       },
       "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
+        "inheritedFramework": "Two national payment systems settling the same trade on their own clocks, with no link between the legs.",
+        "newFrameworkCreated": "A permanent standing committee of G10 supervisors at the BIS, and a risk that carries a private bank's name.",
+        "closedLoopRecirculation": "A gap between settlement systems transfers a failed bank's loss to everyone who paid first; the gap is then supervised rather than closed, and the supervisory body it creates outlives the bank by fifty years.",
         "enablesNextDossier": "CC-2026-ARBITRAGE"
       },
       "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "Bankhaus Herstatt Collapse & Cross-Currency Settlement Risk"
+        "viralDecoy": "Herstatt was a rogue bank brought down by reckless currency speculation.",
+        "whyDecoyFails": "Whatever killed Herstatt, the loss its counterparties took came from the timing of two payment systems: they had paid Deutsche marks in Frankfurt before the New York leg was due, and the closure at 3.30 pm sat between the two.",
+        "documentedLedger": "A bank closed at 3.30 pm Frankfurt time, a New York correspondent that then stopped its dollar payments, counterparties left exposed for the full value of marks already paid, and a G10 supervisory committee founded at the end of the same year."
       },
       "citationIds": [
-        "CIT-1974-BIS-BASEL-COMMITTEE-ON-1",
-        "CIT-1974-BIS-COMMITTEE-ON-PAYMENT-2"
+        "CIT-1974-BIS-HERSTATT",
+        "CIT-1974-BCBS-HISTORY",
+        "CIT-1997-GAO-HERSTATT"
       ]
     },
     {

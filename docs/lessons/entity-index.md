@@ -388,3 +388,32 @@ knowing before blaming a claim.
 Ivar Kreuger returned nothing usable across sec.gov, FRASER, NBER, loc.gov and
 govinfo; the search itself said so. That dossier was dropped from the batch
 before any claim was drafted, which is cheaper than finding out after the check.
+
+## The rated-host list was blocking primary sources
+
+Three batches lost claims to `only unrated sources state it` on pages that are
+about as primary as a source gets: the Bank of England's own Quarterly Bulletin,
+FRASER (the St. Louis Fed's documentary archive, which holds the New York Fed's
+contemporary account of the 1970 commercial paper crisis), and
+`federalreservehistory.org`. None is `.gov` — the Reserve Banks use `.org` and
+the Bank of England `.co.uk` — so `RATED_TLD` misses them and they were not in
+`RATED_HOSTS`, even though `bis.org`, `imf.org` and `worldbank.org` already were.
+
+**It failed intermittently, which is worse than failing outright.** `rated()`
+has a last resort: the subject's own site, matched by a name in the claim against
+the host. A claim naming the Bank of England passes on bankofengland.co.uk; a
+claim about Overend Gurney and Black Friday, resting on the *same PDF*, does not.
+That is why one fact failed while the two either side of it passed, and why the
+cause looked like a fluke rather than a list.
+
+Added as their own line: `bankofengland.co.uk stlouisfed.org
+federalreservehistory.org newyorkfed.org bundesbank.de banque-france.fr
+ecb.europa.eu` — central banks publishing the record of their own actions, the
+same class as the `bis.org` already there. Two claims that had just failed on
+FRASER passed immediately afterwards with no other change.
+
+**Not added: `fas.org`.** It hosts the Kerry/Brown BCCI report, and GovInfo does
+not carry Senate Print 102-140 at all, so that dossier stays unwritten. A third
+party hosting a government document is a different claim from a government
+publishing its own, and widening the list that far is a judgement for a person,
+not a convenience for an unblocked batch.

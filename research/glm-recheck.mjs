@@ -185,7 +185,14 @@ const RATED_HOSTS = new Set(("nytimes.com washingtonpost.com wsj.com reuters.com
   // defence journalism and the scholarly publishers
   "twz.com thedrive.com journals.sagepub.com tandfonline.com jstor.org academic.oup.com link.springer.com muse.jhu.edu " +
   // libraries that hold the primary documents themselves
-  "archive.org gutenberg.org").split(" "));
+  "archive.org gutenberg.org " +
+  // Central banks and their documentary archives, which publish the record of
+  // their own actions the way bis.org and imf.org already do here. They are not
+  // .gov (the Reserve Banks use .org, the Bank of England .co.uk), and the
+  // "subject's own site" fallback below only fires when the claim happens to
+  // name the bank: a claim about Overend Gurney failed on the Bank of England's
+  // own PDF while the claims either side of it passed on the same page.
+  "bankofengland.co.uk stlouisfed.org federalreservehistory.org newyorkfed.org bundesbank.de banque-france.fr ecb.europa.eu").split(" "));
 function rated(url, claim) {
   let h = "";
   try { h = new URL(url).hostname.toLowerCase().replace(/^www\./, ""); } catch { return false; }

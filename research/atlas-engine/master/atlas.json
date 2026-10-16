@@ -666,6 +666,20 @@
       "quoteOrFact": "Verified quotes: 'Major central banks pooled interventions – sharing profits and losses – to stabilize the dollar price of gold.'; 'The Bank of England started operations for the gold consortium on November 6, 1961.'; 'From the end of 1965 to March 1968, the cumulative deficit was 3692 million.'; 'On March 15, 1968, the Gold Pool was disbanded and a two-tier arrangement put in its place.'"
     },
     {
+      "id": "CIT-1970-FRB-REGQ",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Near-Money Premiums, Monetary Policy, and the Integration of Money Markets — Federal Reserve Board, FEDS 2016-077",
+      "url": "https://www.federalreserve.gov/econresdata/feds/2016/files/2016077pap.pdf",
+      "quoteOrFact": "Verified quote: 'Penn Central had been a major issuer of non-financial commercial paper and the market reaction to its bankruptcy prevented other firms from issuing commercial paper. In response, the Federal Reserve s[uspended]' the Regulation Q ceiling on large time certificates of deposit of under 90 days."
+    },
+    {
+      "id": "CIT-1970-FRBNY-PAPER",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Recent Developments in the Commercial Paper Market — Federal Reserve Bank of New York Monthly Review (FRASER)",
+      "url": "https://fraser.stlouisfed.org/files/docs/publications/frbnyreview/pages/1970-1974/67552_1970-1974.pdf",
+      "quoteOrFact": "Contemporary account from the New York Fed. Verified quotes: 'in three weeks nonbank paper fell $3.0 billion, or by almost 10 percent'; 'After reaching a low point of $29.0 billion on July 15, total nonbank paper outstanding rose gradually, reaching $31.2 billion at the end of November'; 'Federal Reserve discount policy was temporarily liberalized to assure the availability of funds to banks and their customers'; 'Given the System's strong support, the commercial banks acted swiftly to assist creditworthy borrowers no longer able to secure adequate funds in the commercial paper market.'"
+    },
+    {
       "id": "CIT-1974-BCBS-HISTORY",
       "tier": "TIER_3_PRIMARY_LEDGER",
       "title": "History of the Basel Committee — Bank for International Settlements",
@@ -2375,33 +2389,38 @@
       "eraId": "ERA-08-1953",
       "yearStart": 1970,
       "yearEnd": 1970,
-      "title": "Penn Central Bankruptcy & The Commercial Paper Market Freeze",
+      "title": "Penn Central: The Borrower Was Refused, the Market That Lent to It Was Not",
       "primaryTab": "crash-conduits",
       "secondaryTabs": [],
       "mechanism": "CENTRAL_BANK_LIQUIDITY",
       "tier": "TIER_3_PRIMARY_LEDGER",
       "auditDisposition": "DOCUMENTED",
-      "participants": [],
+      "participants": [
+        "Penn Central Company",
+        "Federal Reserve Board",
+        "Federal Reserve Bank of New York"
+      ],
       "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
+        "stage1_upfrontSkim": "Penn Central had been a major issuer of non-financial commercial paper — short-term corporate borrowing placed directly with investors, bypassing banks entirely. The market it borrowed in had grown to $32.1 billion outstanding.",
+        "stage2_structuralCompromise": "Commercial paper is short-dated and has to be rolled over continuously, so the market's stability rests on every issuer being able to refinance on the day. One failure does not stay with one borrower.",
+        "stage3_informationFog": "'the market reaction to its bankruptcy prevented other firms from issuing commercial paper.' In three weeks nonbank paper fell $3.0 billion, almost 10 per cent, reaching a low point of $29.0 billion on 15 July 1970 — firms with nothing wrong with them lost access because Penn Central had.",
+        "stage4_monopolyWindfall": "'Federal Reserve discount policy was temporarily liberalized to assure the availability of funds to banks and their customers', and the Regulation Q ceiling on large time certificates of deposit of under 90 days was suspended so the banks could fund it. 'Given the System's strong support, the commercial banks acted swiftly to assist creditworthy borrowers no longer able to secure adequate funds in the commercial paper market.'",
+        "stage5_merseyWhitewash": "The market was carried back to roughly where it started — 'reaching $31.2 billion at the end of November', some $1.2 billion below the peak — while the borrower whose failure began it stayed failed. The channel was rescued; the firm was not."
       },
       "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-        "enablesNextDossier": "CC-2026-ARBITRAGE"
+        "inheritedFramework": "A corporate borrowing market built outside the banking system and outside the discount window that stands behind it.",
+        "newFrameworkCreated": "A liberalised discount policy and a suspended deposit-rate ceiling, used to route central bank support into a market the central bank does not lend to directly.",
+        "closedLoopRecirculation": "Borrowing moves outside the banks to escape their cost; when it breaks, the banks are funded by the central bank to lend into it anyway — so the market keeps the savings of being outside and gains the backstop of being inside.",
+        "enablesNextDossier": "CC-1974-HERSTATT_RISK_1974"
       },
       "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "Penn Central Bankruptcy & The Commercial Paper Market Freeze"
+        "viralDecoy": "The Federal Reserve bailed out Penn Central.",
+        "whyDecoyFails": "It did not. Penn Central went bankrupt and stayed bankrupt. What was supported was the commercial paper market around it: discount policy was liberalised and the deposit-rate ceiling suspended so that banks could lend to the other borrowers the default had locked out.",
+        "documentedLedger": "A failed railroad's default closing a $32 billion market to firms that had not failed, a three-week fall of $3.0 billion to a low of $29.0 billion, and a central bank reopening the market through the banks rather than through the borrower."
       },
       "citationIds": [
-        "CIT-1720-HANSARD"
+        "CIT-1970-FRBNY-PAPER",
+        "CIT-1970-FRB-REGQ"
       ]
     },
     {

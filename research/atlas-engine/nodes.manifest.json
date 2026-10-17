@@ -1793,6 +1793,121 @@
         "The 2005 FBI-CIA joint assessment executive summary referenced by the HPSCI release was NOT read: dni.gov returns 403 to automated requests. Do not cite or characterise it beyond the HPSCI release’s own mention of it."
       ],
       "mechanism": "MERSEY_LIABILITY_WHITEWASH"
+    },
+    {
+      "code": "CB-1996-PURDUE",
+      "era": "ERA-09-2001",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Purdue Pharma bankruptcy third-party release",
+      "queries": [
+        {
+          "q": "Purdue Pharma bankruptcy third-party release",
+          "year": null,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Every citation hand-resolved, opened and read before citing. Provider harvest not used for this node."
+      ],
+      "mechanism": "RECEIVERSHIP_MORGANIZATION"
+    },
+    {
+      "code": "CB-2011-BOEING737MAX",
+      "era": "ERA-09-2001",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Boeing 737 MAX certification and MCAS",
+      "queries": [
+        {
+          "q": "Boeing 737 MAX certification and MCAS",
+          "year": null,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Every citation hand-resolved, opened and read before citing. Provider harvest not used for this node."
+      ],
+      "mechanism": "REGULATORY_REVOLVING_DOOR"
+    },
+    {
+      "code": "CB-1999-HORIZON",
+      "era": "ERA-09-2001",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Post Office Horizon prosecutions and disclosure failures",
+      "queries": [
+        {
+          "q": "Post Office Horizon prosecutions and disclosure failures",
+          "year": null,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Every citation hand-resolved, opened and read before citing. Provider harvest not used for this node."
+      ],
+      "mechanism": "MERSEY_LIABILITY_WHITEWASH"
+    },
+    {
+      "code": "CB-2010-MACONDO",
+      "era": "ERA-09-2001",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Deepwater Horizon blowout and the OPA liability cap",
+      "queries": [
+        {
+          "q": "Deepwater Horizon blowout and the OPA liability cap",
+          "year": null,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Every citation hand-resolved, opened and read before citing. Provider harvest not used for this node."
+      ],
+      "mechanism": "MERSEY_LIABILITY_WHITEWASH"
+    },
+    {
+      "code": "CB-1970-INFECTEDBLOOD",
+      "era": "ERA-08-1953",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "UK infected blood disaster and the inquiry",
+      "queries": [
+        {
+          "q": "UK infected blood disaster and the inquiry",
+          "year": null,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Every citation hand-resolved, opened and read before citing. Provider harvest not used for this node."
+      ],
+      "mechanism": "MERSEY_LIABILITY_WHITEWASH"
     }
   ]
 }

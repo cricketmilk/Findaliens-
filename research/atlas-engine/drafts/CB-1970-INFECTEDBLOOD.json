@@ -1,0 +1,52 @@
+{
+  "code": "CB-1970-INFECTEDBLOOD",
+  "eraId": "ERA-08-1953",
+  "yearStart": 1970,
+  "yearEnd": 2024,
+  "title": "It Should Have Been Avoided: Forty Years of Defensive Lines, and the Documents That Were Destroyed",
+  "primaryTab": "carbon-class",
+  "secondaryTabs": [
+    "consent",
+    "crash-conduits"
+  ],
+  "mechanism": "MERSEY_LIABILITY_WHITEWASH",
+  "tier": "TIER_2_INQUIRY",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "Infected Blood Inquiry (Sir Brian Langstaff, chair)",
+    "National Health Service",
+    "UK Government and successive Health Departments",
+    "People with bleeding disorders treated with factor concentrates",
+    "Recipients of infected blood transfusions"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "The saving was in supply and in cost: pooled factor concentrates, convenient and commercially available, carrying the risk of every donor in the pool. The Inquiry's judgment on the whole of it is that the disaster \"could largely, though not entirely, have been avoided. And I have to report that it should have been.\"",
+    "stage2_structuralCompromise": "The Inquiry finds \"systemic, collective and individual failures to deal ethically, appropriately, and quickly, with the risk of infections being transmitted in blood, with the infections when the risk materialised, and with the consequences for thousands of families\" — three distinct failures, at three distinct moments, each of which had its own chance to stop the harm.",
+    "stage3_informationFog": "The fog fell on the patients first and then on the record. The Inquiry lists, among the harms that compounded the infections: \"Delaying informing people of their infections by weeks, months and sometimes years\"; testing samples \"which in most cases patients did not know were to be retained for the purpose\" and \"without their knowledge or consent\"; and, at the institutional level, \"A lack of openness, transparency and candour, shown by the NHS and government, such that the truth has been hidden for decades.\" Then the evidence itself: \"Failures of record-keeping, such that many people's medical records have been destroyed or lost or are materially incomplete\", and \"Deliberate destruction of some documents and the loss of others.\"",
+    "stage4_monopolyWindfall": "There is no commercial windfall at the end of this one, and the dossier does not manufacture one. What the decades of denial preserved was a position: that nothing had gone wrong. The Inquiry records the form it took — \"Repeated and ongoing failures to acknowledge that they should not have been infected\", \"Repeated use of inaccurate, misleading and defensive lines to take which cruelly told people that they had received the best treatment available\", and refusal of compensation \"on the ground there had been no fault\".",
+    "stage5_merseyWhitewash": "The containment here lasted long enough to outlive most of the people it was practised on, and the inquiry that ended it was granted only in 2017. Of around 1,250 people with bleeding disorders infected with HIV — an estimated 380 of them children — \"Three quarters of these 1,250 adults and children have died.\" The Inquiry reports findings of fact and makes recommendations; like every statutory inquiry it determines no civil or criminal liability."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "A health service purchasing a pooled blood product on commercial supply, and a culture of institutional defensiveness in which admitting avoidable harm was understood as conceding fault.",
+    "newFrameworkCreated": "The Inquiry's findings themselves, and the statutory compensation route that followed the admission they forced — redress arriving only after the denial had been examined in public and named.",
+    "closedLoopRecirculation": "Each refusal to acknowledge avoidable infection removed the ground for redress; the absence of redress was then cited as evidence that there had been no fault; and the records that would have settled it were incomplete, lost, or deliberately destroyed.",
+    "enablesNextDossier": "CB-1996-PURDUE"
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "That the infected blood disaster was a tragedy of its era — nobody could have known what was in the blood supply before the viruses were identified — and that the long delay in redress was bureaucratic slowness rather than anything deliberate.",
+    "whyDecoyFails": "The Inquiry rejects the first in a single sentence: the calamity \"could largely, though not entirely, have been avoided. And I have to report that it should have been.\" It rejects the second by naming conduct rather than inertia: \"A lack of openness, transparency and candour, shown by the NHS and government, such that the truth has been hidden for decades\", alongside \"Deliberate destruction of some documents and the loss of others\" and the \"Repeated use of inaccurate, misleading and defensive lines to take which cruelly told people that they had received the best treatment available\". What the Inquiry does not do is convict: it is a statutory inquiry, it determines no civil or criminal liability, and nothing here should be read as a finding against a named individual.",
+    "documentedLedger": "Around 4,000 to 6,000 people with bleeding disorders in the UK at any one time; around 1,250 infected with HIV, an estimated 380 of them children; almost all of those also infected with Hepatitis C; three quarters of the 1,250 now dead; and between 2,400 and 5,000 further people with bleeding disorders, not infected with HIV, who received products carrying one or more hepatitis viruses. A chair's finding that it could and should have been avoided, and of systemic, collective and individual failures at the point of risk, at the point of infection, and in the handling of the consequences. Infections disclosed to patients weeks, months or years late. Samples tested without knowledge or consent. Records destroyed, lost or materially incomplete, and some documents deliberately destroyed. Four decades of defensive lines telling infected people they had received the best treatment available, and compensation refused on the ground that there had been no fault."
+  },
+  "citationIds": [
+    "CIT-2024-INFECTEDBLOOD"
+  ],
+  "citations": [
+    {
+      "id": "CIT-2024-INFECTEDBLOOD",
+      "tier": "TIER_2_INQUIRY",
+      "title": "Infected Blood Inquiry, The Report (Sir Brian Langstaff, chair), Volume 1 (May 2024)",
+      "url": "https://www.infectedbloodinquiry.org.uk/sites/default/files/Volume_1.pdf",
+      "quoteOrFact": "Downloaded from the Inquiry's own site and read as extracted text. The chair's central conclusion: \"I have to report a catalogue of failures which caused this to happen. Each on its own is serious. Taken together they are a calamity. Lord Winston famously called these events 'the worst treatment disaster in the history of the NHS'. I have to report that it could largely, though not entirely, have been avoided. And I have to report that it should have been. I have also to report systemic, collective and individual failures to deal ethically, appropriately, and quickly, with the risk of infections being transmitted in blood, with the infections when the risk materialised, and with the consequences for thousands of families.\" On scale: \"There were around 4,000 to 6,000 people with bleeding disorders in the UK at any one time. Around 1,250 were infected with HIV. The best estimate is that this included 380 children. Almost all infected with HIV were also infected with Hepatitis C and some with Hepatitis B and Hepatitis D as well. Three quarters of these 1,250 adults and children have died. A larger number still (between 2,400 and 5,000 people with bleeding disorders) who were not infected by HIV received blood products infected with one or more hepatitis viruses\". On what followed the infections, listed by the report as harms that compounded them: \"Delaying informing people of their infections by weeks, months and sometimes years\"; \"Failures of record-keeping, such that many people's medical records have been destroyed or lost or are materially incomplete\"; \"Repeated and ongoing failures to acknowledge that they should not have been infected\"; \"Repeated use of inaccurate, misleading and defensive lines to take which cruelly told people that they had received the best treatment available\"; \"A lack of openness, transparency and candour, shown by the NHS and government, such that the truth has been hidden for decades\"; and \"Deliberate destruction of some documents and the loss of others.\" The report also records testing of samples \"which in most cases patients did not know were to be retained for the purpose\" and \"without their knowledge or consent\". A statutory public inquiry: it reports findings of fact and makes recommendations, and determines no civil or criminal liability."
+    }
+  ]
+}

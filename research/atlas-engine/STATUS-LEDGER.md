@@ -819,13 +819,104 @@
      nothing (no research/leads/ file); the 3-agent adversarial audit did not run.
      Not merged to main, not pushed to main, not deployed. -->
 
+<!-- ACTUAL 2026-10-17 (third pass): FIVE NEW NODES FROM OUTSIDE THE PHASE-0 QUEUE,
+     plus the removal of CC-1815-WATERLOO. These are not stubs being researched; they
+     are instances of the atlas's own playbook identified from scratch and then tested
+     against primary documents. Counts: 116 -> 120 public dossiers (115 after the
+     Waterloo cut, then +5), 172 -> 178 citations.
+     CC-1815-WATERLOO REMOVED. It was the one row in the ledger table claiming a verify
+     pass whose dossier cited only CIT-1720-HANSARD, the 1721 South Sea report, which
+     supports nothing in it. It was not a Phase-0 stub: it carried real written prose
+     asserting that "Private courier Rothworth crosses the Channel with news of
+     Napoleon's defeat at Waterloo 24 hours before Major Henry Percy reaches the
+     British Cabinet" — a named figure and a specific interval, with no citation behind
+     either. Its scope is already carried by DS-1815-COURIER, which is sourced and which
+     makes the more careful version of the same argument, stating in terms that the
+     deception legend "is not contemporaneously documented". Carrying both meant the
+     atlas asserted, in one node, what it refuted in another. Removed for duplication,
+     and because the stronger claim was the unsourced one. Its ledger row is struck
+     from the table below.
+     THE FIVE BUILT, and what was read for each:
+     CB-1996-PURDUE — Harrington v. Purdue Pharma L.P., No. 23-124 (U.S. 27 June 2024),
+     downloaded from supremecourt.gov and read as extracted text. The node exists
+     because this is the MERSEY MECHANISM FAILING: a nondebtor release, the instrument
+     by which solvent owners of an insolvent company buy a discharge, held unauthorised
+     by the bankruptcy code. The opinion also supplies the extraction figures in its own
+     words — distributions under 15% of revenue before the 2007 misbranding plea and "as
+     much as 70%" after it, approximately $11 billion between 2008 and 2016 "draining
+     Purdue's total assets by 75%", much of it to overseas trusts, and an offer of
+     $4.325 billion back in exchange for the release. The Court's express self-limitation
+     ("we hold only that...", and no view on already-consummated plans) is quoted in the
+     citation, because a triumphant retelling drops it.
+     CB-2011-BOEING737MAX — the House Transportation and Infrastructure Committee's
+     final report of September 2020, read as extracted text. Its five named themes carry
+     the whole dossier. The decisive pair of numbers: federal guidelines "assume pilots
+     will respond to this condition within four seconds", and Boeing's own simulator data
+     showed a Boeing test pilot taking "more than 10 seconds", a condition that pilot
+     called "catastrophic" — data the committee found Boeing concealed, adding that while
+     Boeing "was not required to share this information", withholding it was
+     "inconceivable and inexcusable".
+     CB-1999-HORIZON — Hamilton & Ors v Post Office Ltd [2021] EWCA Crim 577. NOTE ON
+     SOURCE: BAILII now serves a proof-of-work bot challenge ("Making sure you're not a
+     bot!") to scripted requests, and an earlier probe of it returned HTTP 200 for that
+     challenge page, which is exactly the trap of treating a status code as a read. The
+     judgment was taken instead from the National Archives' Find Case Law service, which
+     serves it in full. The court's finding on knowledge uses the verb four times in
+     four sentences ("POL knew that there were problems with Horizon...") against
+     "On the contrary, it consistently asserted that Horizon was robust and reliable."
+     CB-2010-MACONDO — the National Commission's report to the President (January 2011)
+     from govinfo, and 33 U.S.C. 2704. PRECISION CATCH WORTH KEEPING: the Statutes at
+     Large scan of the same provision (STATUTE-104-Pg484) is an image whose OCR renders
+     the offshore-facility cap as "for a n onshore facility", dropping the "ff" and
+     inverting the meaning, since onshore facilities are the next paragraph at
+     $350,000,000. The United States Code text was fetched and read instead, and the
+     corrupt scan is named in the citation and not cited. The dossier also records that
+     the cap does not apply to gross negligence, wilful misconduct or regulatory
+     violation, and that whether it would have held at Macondo was never adjudicated.
+     CB-1970-INFECTEDBLOOD — the Infected Blood Inquiry report, Volume 1 (May 2024),
+     from the Inquiry's own site. The chair's conclusion that it "could largely, though
+     not entirely, have been avoided. And I have to report that it should have been",
+     and the listed harms including "A lack of openness, transparency and candour, shown
+     by the NHS and government, such that the truth has been hidden for decades" and
+     "Deliberate destruction of some documents and the loss of others".
+     A UI INVARIANT THAT IS FRAGILE, FOUND THE HARD WAY. The atlas index sorts dossiers
+     by yearStart and emits an era header whenever the era changes, so a dossier whose
+     yearStart sorts it outside its own era's contiguous block SILENTLY DUPLICATES ERA
+     HEADERS. CB-2010-MACONDO was first written with yearStart 1990 (for the Oil
+     Pollution Act, its inherited framework), which placed it between the 1970s ERA-08
+     block and a 1991 ERA-08 entry and produced 12 era headers instead of 10 —
+     ERA-08-1953 and ERA-09-2001 each appearing twice. Fixed by setting yearStart to
+     2010, the year of the blowout, which is the more honest range anyway: 1990 belongs
+     in the ratchet, not in the dates. Anyone stretching a year range past an era
+     boundary (CB-1984-BHOPAL, CC-1995-BARINGS_LEESON_1995, CB-1970-INFECTEDBLOOD,
+     CB-1996-PURDUE all do) must check the rendered index afterwards. A year-sorted pass
+     over master now yields exactly 10 era switches.
+     ALSO WORTH RECORDING: the first browser check after the fix still showed 12 headers
+     because the page was cached from before the recompile. A cache-busted reload showed
+     10. A measurement taken before a recompile is not a measurement.
+     HARVEST: not used for these five. Earlier probes showed the govinfo index returning
+     bag-of-words noise for topics of this kind, so each node was hand-resolved from the
+     start; manifest entries were written with status HARVESTED and a spec saying exactly
+     that, as with the nodes earlier today.
+     COUNTS: 120 public dossiers, 178 citations, 9 lineages, 188 merged nodes, 38
+     unsourced Phase-0 stubs still standing. atlas.html's hardcoded tallies updated
+     116 -> 120. extract-entities re-run. GATES: npm test 38/38; check-links over the
+     five new drafts, 6 URLs, 6 ok / 0 blocked / 0 DEAD; schema validates; 0 duplicate
+     codes, ids or citation URLs; 0 orphan citationIds; 0 unused citations. Measured in
+     the browser after a cache-busted reload: 130 index rows (120 dossiers + 10 era
+     headers), 10 era headers each exactly once, 9 lineage cards, CB-1999-HORIZON and
+     CB-2010-MACONDO opened to confirm their citation links render with the right href.
+     VERIFY PASS: all five rows read GATE 0-QUAR. The deterministic forensic gate ran and
+     quarantined nothing (no research/leads/ file for any of them); the 3-agent
+     adversarial audit did not run.
+     Not merged to main, not pushed to main, not deployed. -->
+
 # THE CORNFIELD GAZETTE — MASTER NODE STATUS LEDGER
 
 | Node Code | Title / Scope | Era | Evidence Tier | Seeding Providers | Verify Pass | UI Wired | Done |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---: |
 | `CC-1720-SOUTHSEA` | South Sea Debt Conversion & Walpole Screen | `ERA-01-1694` | `TIER_2_INQUIRY` | `hansard` | 3/3 PASS | YES | [x] |
 | `CC-1773-EIC` | Bengal Famine Extraction & 1773 EIC Bailout | `ERA-02-1769` | `TIER_1_STATUTE_COURT` | `hansard` | 3/3 PASS | YES | [x] |
-| `CC-1815-WATERLOO` | Waterloo Courier Window & Consol Accumulation | `ERA-03-1815` | `TIER_3_PRIMARY_LEDGER` | `hansard` | 3/3 PASS | YES | [x] |
 | `CB-1845-COFFIN` | Irish Famine Exports, Coffin Ships & 1849 Estates Act | `ERA-04-1845` | `TIER_1_STATUTE_COURT` | `hansard,courtlistener` | 3/3 PASS | YES | [x] |
 | `CC-1861-MORGAN` | Hall Carbine Affair & 1893 Railroad Morganization | `ERA-05-1861` | `TIER_1_STATUTE_COURT` | `courtlistener,govinfo` | 3/3 PASS | YES | [x] |
 | `CC-1912-IMM` | IMM $170M Watered Stock, Pirrie Lock & 1915 Receivership | `ERA-06-1910` | `TIER_1_STATUTE_COURT` | `courtlistener,govinfo,loc` | 3/3 PASS | YES | [x] |
@@ -881,3 +972,8 @@
 | `CC-2008-FUKUSHIMA_TSUNAMI_2011` | Foreseeable Before 11 March: the Diet Commission and the IAEA on What TEPCO and NISA Knew | `ERA-09-2001` | `TIER_2_INQUIRY` | `warp.ndl.go.jp,iaea.org` | GATE 0-QUAR | YES | [x] |
 | `CC-1995-BARINGS_LEESON_1995` | Account ‘88888’: Cut Out of the Daily Reports in July 1992, £830M by 27 February 1995 | `ERA-09-2001` | `TIER_2_INQUIRY` | `assets.publishing.service.gov.uk,bankofengland.co.uk` | GATE 0-QUAR | YES | [x] |
 | `DS-2002-JOINTINQUIRY` | Part Four: Fourteen Years Classified, and a Section That Says of Itself That It Verified Nothing | `ERA-09-2001` | `TIER_2_INQUIRY` | `intelligence.house.gov,911commission.gov,govinfo` | GATE 0-QUAR | YES | [x] |
+| `CB-1996-PURDUE` | The Milking Program: $11B Out, $4.325B Offered Back, and the Release the Supreme Court Refused | `ERA-09-2001` | `TIER_1_STATUTE_COURT` | `supremecourt.gov` | GATE 0-QUAR | YES | [x] |
+| `CB-2011-BOEING737MAX` | Four Seconds Assumed, Ten Seconds Measured: MCAS and the Authorized Representatives | `ERA-09-2001` | `TIER_2_INQUIRY` | `house.gov` | GATE 0-QUAR | YES | [x] |
+| `CB-1999-HORIZON` | Robust and Reliable: a Prosecutor Who Owned the Evidence, and 39 Trials That Could Not Be Fair | `ERA-09-2001` | `TIER_1_STATUTE_COURT` | `caselaw.nationalarchives.gov.uk` | GATE 0-QUAR | YES | [x] |
+| `CB-2010-MACONDO` | Removal Costs Plus $75 Million: the 1990 Cap and the Blowout the Commission Called Preventable | `ERA-09-2001` | `TIER_1_STATUTE_COURT` | `govinfo` | GATE 0-QUAR | YES | [x] |
+| `CB-1970-INFECTEDBLOOD` | It Should Have Been Avoided: Forty Years of Defensive Lines, and the Documents That Were Destroyed | `ERA-08-1953` | `TIER_2_INQUIRY` | `infectedbloodinquiry.org.uk` | GATE 0-QUAR | YES | [x] |

@@ -1,0 +1,53 @@
+{
+  "code": "CB-1996-PURDUE",
+  "eraId": "ERA-09-2001",
+  "yearStart": 1996,
+  "yearEnd": 2024,
+  "title": "The Milking Program: $11 Billion Out, $4.325 Billion Offered Back, and the Release the Supreme Court Refused",
+  "primaryTab": "carbon-class",
+  "secondaryTabs": [
+    "crash-conduits",
+    "consent"
+  ],
+  "mechanism": "RECEIVERSHIP_MORGANIZATION",
+  "tier": "TIER_1_STATUTE_COURT",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "Purdue Pharma L.P.",
+    "Members of the Sackler family",
+    "United States Trustee for Region 2",
+    "U.S. Bankruptcy Court for the Southern District of New York",
+    "U.S. Court of Appeals for the Second Circuit",
+    "Supreme Court of the United States"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "The skim is dated and quantified in the Supreme Court's own opinion, and its timing is the whole point. Before the 2007 federal plea, distributions to the family \"represented less than 15% of its annual revenue\". After it, \"the Sacklers began taking as much as 70% of the company's revenue each year\". Between 2008 and 2016 those distributions \"totaled approximately $11 billion, draining Purdue's total assets by 75% and leaving it in 'a significantly weakened financial' state\", with much of it diverted \"to overseas trusts and family-owned companies\". One family member's own word for it, as recorded below and quoted by the Court, was a \"milking\" program.",
+    "stage2_structuralCompromise": "What was compromised first was the drug's description. In 2007 a Purdue affiliate \"pleaded guilty to a federal felony for misbranding OxyContin as a less-addictive\" and less abusable drug. The plea is the hinge of the sequence: it established, as a matter of record, that the company had misrepresented the product — and it is the moment after which the withdrawals accelerated from under 15% to as much as 70% of revenue.",
+    "stage3_informationFog": "The fog in this dossier is structural rather than informational, and it is made of corporate form. The money left an operating company that would later file for bankruptcy and went to individuals and entities that would not. By 2019, when Purdue entered Chapter 11, the assets that claimants might have reached were largely somewhere else, and the people who held them were not before the court as debtors.",
+    "stage4_monopolyWindfall": "The windfall sought was not money but immunity. The family \"proposed to return to Purdue's bankruptcy estate $4.325 billion of the $11 billion they had withdrawn from the company in recent years\" — roughly thirty-nine cents on their own dollar, paid over years — in exchange for a release extinguishing claims against them. As the Court put it: \"the Sacklers have not filed for bankruptcy or placed all their assets on the table for distribution to creditors, yet they seek what essentially amounts to a discharge.\"",
+    "stage5_merseyWhitewash": "And here the mechanism this atlas tracks since 1912 fails, which is why the node is worth carrying. A bankruptcy court approved the release; a divided Second Circuit panel revived it; the Supreme Court held on 27 June 2024 that \"the bankruptcy code does not authorize a release and injunction that, as part of a plan of reorganization under Chapter 11, effectively seeks to discharge claims against a nondebtor without the consent of affected claimants.\" The containment step was attempted through an ordinary, well-worn instrument, and a court said the instrument does not reach that far."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "Chapter 11 reorganisation and the practice, built up in the asbestos and mass-tort cases that preceded this one, of resolving a company's liabilities and its owners' liabilities together through a third-party release.",
+    "newFrameworkCreated": "A Supreme Court rule that the code does not authorise nonconsensual nondebtor releases — closing, for now, the route by which solvent owners of an insolvent company could buy a discharge without entering bankruptcy themselves.",
+    "closedLoopRecirculation": "The 2007 plea established the misrepresentation and set the price of it; the withdrawals that followed moved the assets beyond the reach of the claims the plea foreshadowed; and the bankruptcy was then offered as the forum in which those claims would be settled, by people who were not in it. Each step used the remedy created by the step before.",
+    "enablesNextDossier": "CC-2026-ARBITRAGE"
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "That the Sacklers were let off: that they bought their way out of the opioid epidemic for a fraction of what they took, and that the courts waved it through.",
+    "whyDecoyFails": "The courts did not wave it through. The United States Trustee objected, the Supreme Court took the case, and on 27 June 2024 it held the release unauthorised by the code. But the opposite reading fails too, and it is the one that a triumphant retelling slips into: the decision is not a judgment against anyone. The Court said expressly that it was \"Confining ourselves to the question presented\", that it \"hold[s] only\" that the code does not authorise such a release, and that because the case involved \"only a stayed reorganization plan\" it was not deciding whether already-consummated plans could be unwound. No finding of liability was made against any member of the family, no damages were awarded, and the ruling left the claims to be litigated rather than resolving them.",
+    "documentedLedger": "A 2007 federal felony guilty plea by a Purdue affiliate for misbranding OxyContin. Distributions to the family that ran under 15% of annual revenue before that plea and as much as 70% after it. Approximately $11 billion withdrawn between 2008 and 2016, draining 75% of the company's total assets, much of it moved to overseas trusts and family-owned companies. A Chapter 11 filing in 2019. An offer of $4.325 billion, paid over years, in exchange for a release of claims against people who had not filed for bankruptcy. And a Supreme Court holding that the bankruptcy code does not authorise that release — a holding about the limits of an instrument, expressly confined to the question presented."
+  },
+  "citationIds": [
+    "CIT-2024-PURDUE"
+  ],
+  "citations": [
+    {
+      "id": "CIT-2024-PURDUE",
+      "tier": "TIER_1_STATUTE_COURT",
+      "title": "Harrington, United States Trustee for Region 2 v. Purdue Pharma L.P. et al., No. 23-124 (U.S. Supreme Court, decided 27 June 2024)",
+      "url": "https://www.supremecourt.gov/opinions/23pdf/23-124_8nk0.pdf",
+      "quoteOrFact": "Downloaded from the Court's own opinions server and read as extracted text. THE HOLDING, from the syllabus and repeated verbatim in the opinion: \"the bankruptcy code does not authorize a release and injunction that, as part of a plan of reorganization under Chapter 11, effectively seeks to discharge claims against a nondebtor without the consent of affected claimants.\" The Court states the reason plainly: \"the Sacklers have not filed for bankruptcy or placed all their assets on the table for distribution to creditors, yet they seek what essentially amounts to a discharge. No provision of the code authorizes that kind of relief.\" ON WHAT CAME BEFORE: \"In 2007 one of its affiliates pleaded guilty to a federal felony for misbranding OxyContin as a less-addictive\" and less abusable drug. The opinion records what the family did next, in the words of the record below: the Sacklers began what one family member described as a \"milking\" program; \"In the years before the 2007 plea agreement, Purdue's distributions to the Sacklers represented less than 15% of its annual revenue. After the plea agreement, the Sacklers began taking as much as 70% of the company's revenue each year. Between 2008 and 2016, the family's distributions totaled approximately $11 billion, draining Purdue's total assets by 75% and leaving it in 'a significantly weakened financial' state. The Sacklers diverted much of that money to overseas trusts and family-owned companies.\" Purdue filed for Chapter 11 in 2019; the Sacklers \"proposed to return to Purdue's bankruptcy estate $4.325 billion of the $11 billion they had withdrawn from the company in recent years\", in payments spread over years, in exchange for the release. THE COURT'S OWN LIMIT ON ITS HOLDING, which matters and is usually dropped: \"because this case involves only a stayed reorganization plan, we do not address whether our reading of the bankruptcy code would justify unwinding reorganization plans that have already become effective and been substantially consummated. Confining ourselves to the question presented, we hold only that the bankruptcy code does not authorize a release and injunction...\" The decision is about what Chapter 11 permits. It makes no finding that any member of the family is liable for anything, and it awards nothing to anyone."
+    }
+  ]
+}

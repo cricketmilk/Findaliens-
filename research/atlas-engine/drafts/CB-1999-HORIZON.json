@@ -1,0 +1,53 @@
+{
+  "code": "CB-1999-HORIZON",
+  "eraId": "ERA-09-2001",
+  "yearStart": 1999,
+  "yearEnd": 2021,
+  "title": "Robust and Reliable: a Prosecutor Who Owned the Evidence, and 39 Trials That Could Not Be Fair",
+  "primaryTab": "carbon-class",
+  "secondaryTabs": [
+    "consent",
+    "crash-conduits"
+  ],
+  "mechanism": "MERSEY_LIABILITY_WHITEWASH",
+  "tier": "TIER_1_STATUTE_COURT",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "Post Office Limited",
+    "Subpostmasters prosecuted by Post Office Limited",
+    "Fujitsu (Horizon system)",
+    "Criminal Cases Review Commission",
+    "Court of Appeal (Criminal Division)",
+    "Mr Justice Fraser (High Court, Bates v Post Office)"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "The skim was the shortfall itself, recovered from the people who appeared to have caused it. The court records that the Post Office prosecuted \"against a background of asserting that SPMs were liable to make good all losses and could lose their employment if they did not do so\" — and that it did so \"despite the fact that POL itself had selected the SPMs as suitable persons to hold their position of trust\". The money came back whether or not the shortfall was real.",
+    "stage2_structuralCompromise": "The compromise was evidentiary and it was known. \"Throughout the relevant period there were significant problems with Horizon, which gave rise to a material risk that an apparent shortfall in the branch accounts did not in fact reflect missing cash or stock, but was caused by one of the bugs, errors or defects in Horizon.\" In every one of the cases the court calls \"Horizon cases\", \"there was no independent evidence of an actual shortfall, and it was essential to the prosecution case that the Horizon data was reliable.\"",
+    "stage3_informationFog": "The court's finding on knowledge is unusually flat for an appellate judgment, and it repeats the verb four times: \"POL knew that there were problems with Horizon. POL knew that SPMs around the country had complained of inexplicable discrepancies in the accounts. POL knew that different bugs, defects and errors had been detected well beyond anything which might be regarded as a period of initial teething problems. In short, POL knew that there were serious issues about the reliability of Horizon.\" And against that: \"On the contrary, it consistently asserted that Horizon was robust and reliable.\" The court offers a motive: the failure to be open \"can in our view only be explained by a strong reluctance to say or do anything which might lead to other SPMs knowing about those issues.\"",
+    "stage4_monopolyWindfall": "What the arrangement preserved was the assertion itself. \"Those concerned with prosecutions of SPMs clearly wished to be able to maintain the assertion that Horizon data was accurate, and effectively steamrolled over any SPM who sought to challenge its accuracy.\" Each successful prosecution confirmed the reliability of the system on which the next prosecution would depend, and every individual contesting it faced an organisation that was at once the complainant, the investigator, the prosecutor and the owner of the only evidence.",
+    "stage5_merseyWhitewash": "The containment ran twelve to thirteen years and ended in the Court of Appeal. Of 42 cases referred by the Criminal Cases Review Commission, the Post Office conceded in all but three \"that there were material failures of investigation and disclosure, which meant that 39 of the appellants could not have, and did not have, a fair trial\". The court went further than category 1: it held that the same acts and omissions \"may both render a fair trial impossible ... and make it an affront to the conscience of the court to prosecute at all\", because \"POL deliberately chose not to comply with its obligations in circumstances in which its prosecution of an SPM depended on the reliability of Horizon data\"."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "The private prosecution — a power retained in England and Wales by any person or body, exercised here by an organisation that was also the alleged victim, the investigator and the proprietor of the system generating the evidence.",
+    "newFrameworkCreated": "An appellate precedent that disclosure failures by a private prosecutor dependent on its own data can constitute abuse of process in both categories, and a body of quashed convictions that forced the question of statutory redress.",
+    "closedLoopRecirculation": "Shortfalls shown by the system were recovered from the subpostmaster; prosecutions founded on the system's reliability deterred challenges to it; the absence of successful challenges was then available as evidence of its reliability. The loop ran on the evidence it produced.",
+    "enablesNextDossier": "DS-2025-PALANTIR"
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "That hundreds of subpostmasters stole from the Post Office, and the convictions were only overturned later on a technicality about disclosure.",
+    "whyDecoyFails": "The Court of Appeal did not quash on a technicality; it found the trials could not have been fair and that prosecuting at all was an affront to the conscience of the court. In the cases at issue \"there was no independent evidence of an actual shortfall\" — the Horizon data was the case. And the court found the prosecutor knew its data was unreliable while asserting the opposite for more than a decade. The opposite overstatement should also be resisted: this judgment concerns the safety of convictions in 42 referred cases, of which the Post Office conceded 39; it makes no finding of criminal liability against any individual at the Post Office or at Fujitsu, and it does not purport to settle what happened in every prosecution the organisation ever brought.",
+    "documentedLedger": "Prosecutions in which the reliability of Horizon data was essential and no independent evidence of a shortfall existed. A judicial finding, in terms, that the Post Office knew of problems with Horizon, knew of complaints of inexplicable discrepancies, and knew the bugs went well beyond teething problems — while consistently asserting that Horizon was robust and reliable. Failures of investigation and disclosure spanning 12 to 13 years. Subpostmasters told they were liable to make good all losses and could lose their employment otherwise. Thirty-nine of forty-two referred appellants conceded by the Post Office to have been denied a fair trial, and a finding of second-category abuse resting on a deliberate choice not to comply with disclosure obligations."
+  },
+  "citationIds": [
+    "CIT-2021-HAMILTONPOL"
+  ],
+  "citations": [
+    {
+      "id": "CIT-2021-HAMILTONPOL",
+      "tier": "TIER_1_STATUTE_COURT",
+      "title": "Josephine Hamilton & Others v Post Office Limited [2021] EWCA Crim 577 (Court of Appeal, Criminal Division, 23 April 2021) — Holroyde LJ, Picken J and Farbey J",
+      "url": "https://caselaw.nationalarchives.gov.uk/ewca/crim/2021/577",
+      "quoteOrFact": "Read in full from the National Archives' Find Case Law service (BAILII now serves a proof-of-work bot challenge to scripted requests, so the judgment was taken from the official service instead). A reference by the Criminal Cases Review Commission of 42 linked cases. ON KNOWLEDGE, at paragraph 121: \"We accept and adopt Fraser J's findings that throughout the relevant period there were significant problems with Horizon, which gave rise to a material risk that an apparent shortfall in the branch accounts did not in fact reflect missing cash or stock, but was caused by one of the bugs, errors or defects in Horizon. POL knew that there were problems with Horizon. POL knew that SPMs around the country had complained of inexplicable discrepancies in the accounts. POL knew that different bugs, defects and errors had been detected well beyond anything which might be regarded as a period of initial teething problems. In short, POL knew that there were serious issues about the reliability of Horizon. If POL needed further information, it could have obtained it from Fujitsu. It was POL's clear duty to investigate all reasonable lines of enquiry, to consider disclosure and to make disclosure to the appellants of anything which might reasonably be considered to undermine its case. Yet it does not appear that POL adequately considered or made relevant disclosure of problems with or concerns about Horizon in any of the cases at any point during that period. On the contrary, it consistently asserted that Horizon was robust and reliable.\" The court continues: \"The consistent failure of POL to be open and honest about the issues affecting Horizon can in our view only be explained by a strong reluctance to say or do anything which might lead to other SPMs knowing about those issues. Those concerned with prosecutions of SPMs clearly wished to be able to maintain the assertion that Horizon data was accurate, and effectively steamrolled over any SPM who sought to challenge its accuracy.\" ON THE PERIOD AND THE CONCESSIONS: the failures of investigation and disclosure run \"across a period of 12-13 years\", and \"in all but three of the 42 cases, POL concedes that there were material failures of investigation and disclosure, which meant that 39 of the appellants could not have, and did not have, a fair trial.\" ON THE SECOND CATEGORY OF ABUSE, at paragraphs 127 and 129: \"the same acts and/or omissions may both render a fair trial impossible (thus, category 1) and make it an affront to the conscience of the court to prosecute at all (and thus, category 2)\", and \"we reiterate that POL deliberately chose not to comply with its obligations in circumstances in which its prosecution of an SPM depended on the reliability of Horizon data. It did so against a background of asserting that SPMs were liable to make good all losses and could lose their employment if they did not do so. It did so despite the fact that POL itself had selected the SPMs as suitable persons to hold their position of trust.\" The judgment concerns the safety of convictions. It makes no finding of criminal liability against any individual at the Post Office or at Fujitsu."
+    }
+  ]
+}

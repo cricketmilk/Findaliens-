@@ -742,6 +742,83 @@
      Not merged to main, not pushed to main, not deployed — deploy stays the
      operator's call. -->
 
+<!-- ACTUAL 2026-10-17 (later the same day): DS-2002-JOINTINQUIRY — the node the
+     foreknowledge batch left on the table, built. The removed stub
+     CC-2000-NINE_ELEVEN_2001 was a duplicate of two already-sourced nodes; the real
+     node in that area was always the Joint Inquiry's Part Four, and it is now here.
+     Counts: 115 -> 116 public dossiers, 167 -> 172 citations.
+     WHAT WAS READ. Part Four itself (intelligence.house.gov/UploadedFiles/declasspart4.pdf)
+     is a 34-page scan with no text layer; read page by page in a browser through the
+     same local pdf.js viewer used for HC 673 and the Paulson calendar — report pages
+     415 (the Finding and the start of the Discussion), 416 (the framing paragraph and
+     the first individual), 417, 418 (the remaining individuals) and 442 (the last
+     page). The centre of the dossier is the document's own sentence at page 416: the
+     Joint Inquiry "did not attempt to investigate and assess the accuracy and
+     significance of this information independently, recognizing that such a task
+     would be beyond the scope of this Joint Inquiry", and referred the compilation to
+     the FBI and CIA instead. The Finding at 415 concedes that much of the
+     Intelligence Community's information "has yet to be independently verified" and
+     that no CIA or FBI witness could say "the extent to which such support, if it
+     exists, is knowing or inadvertent in nature". Page 442 carries FBI Executive
+     Assistant Director Pasquale D'Amuro: "To date I can't sit here and tell you that
+     those ties go back, that we can prove that the Saudi royal family is sponsoring
+     terrorism. But there's enough smoke that we are conducting several investigations
+     to try to determine what other information is out there."
+     Also read: the HPSCI release of 15 July 2016, fetched raw and read in full
+     (Nunes: "not vetted conclusions, but rather unverified leads"; Schiff: hoping
+     release would "diminish speculation that they contain proof of official Saudi
+     Government or senior Saudi official involvement"); the 9/11 Commission Report
+     chapter 5 PDF at p. 171 and chapter 7 PDF at p. 218, both from the Commission's
+     own site; and JASTA, Pub. L. 114-222 s.3, from govinfo.
+     THE DECOY CUTS BOTH WAYS, and the dossier says so. The viral claim — that the
+     pages were buried because they prove official Saudi direction of 9/11 — fails on
+     the document's own text and on its 2016 publication. But the opposite decoy, the
+     one an atlas like this is likelier to slip into, also fails: "no evidence of
+     official funding" is NOT "Saudi Arabia had nothing to do with it". The same page
+     171 that carries the Commission's finding also calls Saudi Arabia "the primary
+     source of al Qaeda funding", says the conclusion "does not exclude the likelihood
+     that charities with significant Saudi government sponsorship diverted funds to al
+     Qaeda", and records charities in which al Qaeda operatives "controlled the entire
+     organization, including access to bank accounts". Both halves are in
+     whyDecoyFails.
+     NAMED INDIVIDUALS. Part Four names private individuals and summarises unverified
+     FBI reporting about them. The dossier does not repeat those allegations as claims.
+     It quotes the document's conditional language as language, names only Omar
+     al Bayoumi — the individual it treats at greatest length and the subject of a
+     published Commission assessment — and attaches that assessment: "we have seen no
+     credible evidence that he believed in violent extremism or knowingly aided
+     extremist groups", "an unlikely candidate for clandestine involvement with
+     Islamist extremists", alongside the Commission's own "We do not know whether the
+     lunch encounter occurred by chance or design."
+     ONE-URL-ONE-CITATION PRESERVED. The Commission report is already cited in this
+     atlas as CIT-2004-911REPORTN130, the govinfo full-report PDF, for note 130 on the
+     put options. Rather than cite the same URL twice, the Saudi finding and the
+     Bayoumi assessment are cited from the Commission's own per-chapter PDFs
+     (911Report_Ch5.pdf, 911Report_Ch7.pdf), which are separate files that were
+     separately downloaded and read. master/atlas.json still has 0 duplicate citation
+     URLs and 0 duplicate citation ids.
+     NOT READ: the declassified executive summary of the 2005 FBI-CIA joint assessment
+     on Saudi Government support for terrorism, which the HPSCI release links at
+     dni.gov. dni.gov returns 403 "Access Denied" to scripted requests with full
+     browser headers, and the browser pane downloads PDFs rather than rendering them.
+     It is named in the HPSCI citation as a document that exists and was released, and
+     nothing is taken from it. It is the obvious first source for whoever extends this
+     node.
+     HARVEST: govinfo returned 0 vetted citations (five unrelated USCOURTS and
+     USREPORTS packages); status set to HARVESTED by hand with a spec saying so, as
+     with three nodes in the batch earlier today.
+     COUNTS: 116 public dossiers, 172 citations, 9 lineages, 184 merged nodes.
+     atlas.html's hardcoded tallies updated 115 -> 116. extract-entities re-run:
+     971 entities. GATES: npm test 38/38; check-links over the new draft, 5 URLs,
+     5 ok / 0 blocked / 0 DEAD; schema validates; 0 duplicate codes, 0 duplicate
+     citation ids, 0 duplicate citation URLs, 0 orphan citationIds, 0 unused
+     citations. atlas.html served from public/ and measured in the browser: 116 index
+     rows, 10 era headers each exactly once, 9 lineage cards, and the node opened to
+     confirm all five citation links render with the right href.
+     VERIFY PASS: GATE 0-QUAR. The deterministic forensic gate ran and quarantined
+     nothing (no research/leads/ file); the 3-agent adversarial audit did not run.
+     Not merged to main, not pushed to main, not deployed. -->
+
 # THE CORNFIELD GAZETTE — MASTER NODE STATUS LEDGER
 
 | Node Code | Title / Scope | Era | Evidence Tier | Seeding Providers | Verify Pass | UI Wired | Done |
@@ -803,3 +880,4 @@
 | `CC-1986-CHERNOBYL_EVAC_1986` | Known at Ignalina in 1983: the Scram Defect Nobody Corrected, and the Announcement That Waited | `ERA-08-1953` | `TIER_2_INQUIRY` | `iaea.org` | GATE 0-QUAR | YES | [x] |
 | `CC-2008-FUKUSHIMA_TSUNAMI_2011` | Foreseeable Before 11 March: the Diet Commission and the IAEA on What TEPCO and NISA Knew | `ERA-09-2001` | `TIER_2_INQUIRY` | `warp.ndl.go.jp,iaea.org` | GATE 0-QUAR | YES | [x] |
 | `CC-1995-BARINGS_LEESON_1995` | Account ‘88888’: Cut Out of the Daily Reports in July 1992, £830M by 27 February 1995 | `ERA-09-2001` | `TIER_2_INQUIRY` | `assets.publishing.service.gov.uk,bankofengland.co.uk` | GATE 0-QUAR | YES | [x] |
+| `DS-2002-JOINTINQUIRY` | Part Four: Fourteen Years Classified, and a Section That Says of Itself That It Verified Nothing | `ERA-09-2001` | `TIER_2_INQUIRY` | `intelligence.house.gov,911commission.gov,govinfo` | GATE 0-QUAR | YES | [x] |

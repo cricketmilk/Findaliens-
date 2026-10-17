@@ -543,6 +543,20 @@
      browser. atlas.html served from public/ and measured in the browser: 118 index
      rows, 10 era headers each exactly once, 9 lineage cards, and CB-2023-TITAN
      opened to confirm all three citation links and the quoted findings render.
+     The default check-links run over handoffs + findings reports 735 URLs,
+     608 ok / 126 blocked / 1 DEAD: https://weforum.org/people/ken-howery, held in
+     research/findings/ken-howery.json and three findings-audit snapshots. That is
+     pre-existing and belongs to the findings system, not to this batch, and is
+     left for whoever owns that record rather than silently repaired here.
+     THREE SPECIFICS CUT ON A SECOND PASS, before the drafts were final: Union
+     Carbide's head office as "Danbury" (the opinions call UCC "a New York business
+     corporation" and Danbury was never read), the Titan's implosion depth as
+     "3,800 metres" (neither report states it), and "thirty-four successor
+     companies" for Standard Oil (221 U.S. 1 gives no count). Each had slipped in
+     from general knowledge rather than from a page, which is the exact failure the
+     hand-resolve rule exists to prevent. Re-emitted from the same one-object script
+     and re-merged: merge-drafts' replace-on-remerge cut and replaced all four
+     entries with the counts unchanged at 118/152.
      Legacy pages and crash-finance-data.js untouched; legacy surgery stays off.
      Not merged to main, not pushed to main, not deployed — deploy stays the
      operator's call. -->

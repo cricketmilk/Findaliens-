@@ -106,6 +106,24 @@ this in the first place.
 
 ## Deploying
 
+Pushes to `main` deploy themselves: `.github/workflows/ci.yml` runs the unit
+tests and a `wrangler deploy --dry-run` on every push and pull request, and on
+`main` it then runs `npx wrangler deploy` followed by `python check.py
+--no-trap`, so a deploy that serves a stale or leaking build fails the workflow
+rather than sitting there looking green.
+
+The deploy job needs one repository secret, `CLOUDFLARE_API_TOKEN`, added under
+the repo's **Settings → Secrets and variables → Actions**. It is never created
+by or stored in the repo. Make the token on the Crinkle account (the one
+`account_id` in `wrangler.jsonc` pins — a token from any other account fails
+the deploy loudly, which is the point) with **Workers Scripts: Edit** on the
+account and **Workers Routes: Edit** on the `findaliens.net` zone, since the
+Worker is bound to the zone by routes rather than a custom domain (see the
+`routes` comment in `wrangler.jsonc`). Cloudflare's "Edit Cloudflare Workers"
+token template carries both.
+
+To deploy by hand (the workflow runs the same two commands):
+
 ```
 npx wrangler deploy
 python check.py
@@ -214,4 +232,10 @@ passes, so it can gate a deploy:
 python check.py && echo ok
 ```
 
-Every assertion in it is a failure this repo actually had.
+Every assertion in it is a failure this repo actually had. The deploy job in
+`.github/workflows/ci.yml` runs it as `python check.py --no-trap` right after
+every deploy from `main`; `--no-trap` skips only the checks against the
+external maze host, so an outage over at wheattodd.com cannot block a deploy
+here. Run it without the flag locally to check the trap as well. The unit
+tests (`node --test from-trove.test.mjs`, Node 20+) run in the same workflow on
+every push and pull request.

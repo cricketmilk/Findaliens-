@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+jobs:
+  test:
+    name: Unit tests and Worker dry-run
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      # Builds the Worker and validates wrangler.jsonc without touching Cloudflare.
+      - run: npx wrangler deploy --dry-run --outdir /tmp/wrangler-dry-run
+
+  deploy:
+    name: Deploy and smoke-test findaliens.net
+    needs: test
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    concurrency: deploy-findaliens
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      # CLOUDFLARE_API_TOKEN is a repository secret (Settings → Secrets → Actions)
+      # scoped to the Crinkle account named in wrangler.jsonc, with Workers
+      # Scripts edit. account_id is pinned in wrangler.jsonc, so a token for the
+      # wrong account fails here instead of deploying somewhere useless.
+      - run: npx wrangler deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      # "It deployed" and "it works" are different claims. --no-trap skips the
+      # checks against the external maze host so its outages cannot fail ours.
+      - run: python3 check.py --no-trap

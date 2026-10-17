@@ -911,6 +911,56 @@
      adversarial audit did not run.
      Not merged to main, not pushed to main, not deployed. -->
 
+<!-- ACTUAL 2026-10-17 (fourth pass): CB-2017-GRENFELL built; ROBODEBT AND WIRECARD
+     NOT BUILT, and the reasons recorded. Counts: 120 -> 121 public dossiers,
+     178 -> 179 citations.
+     CB-2017-GRENFELL — Grenfell Tower Inquiry Phase 2 Report, Volume 1 (HC 19-I,
+     4 September 2024). ACCESS NOTE THAT MATTERS: the Inquiry's own site,
+     grenfelltowerinquiry.org.uk, now redirects to the National Archives web archive,
+     which serves a HUMAN-VERIFICATION CHALLENGE. That challenge was NOT circumvented.
+     The report was taken instead from assets.publishing.service.gov.uk, the same UK
+     government asset store that served HC 673 for the Barings node, where it is a
+     clean text-layer PDF. A guessed gov.uk publication URL returned 404 before the
+     correct asset URL was found; the guess is not cited anywhere.
+     The node rests on four findings: the Inquiry's overall conclusion that the fire
+     "was the culmination of decades of failure by central government and other bodies
+     in positions of responsibility"; that "by 2016 the department was well aware of
+     those risks, but failed to act on what it knew", having failed to heed a December
+     1999 select committee warning "that it should not take a serious fire in which
+     people were killed before steps were taken"; that there was "systematic dishonesty
+     on the part of those who made and sold the rainscreen cladding panels and
+     insulation products ... deliberate and sustained strategies to manipulate the
+     testing processes, misrepresent test data and mislead the market"; and that in the
+     Celotex test the Building Research Establishment "was complicit in that strategy",
+     the May 2014 BS 8414 test having contained "two sets of fire-resistant magnesium
+     oxide boards placed in critical positions to ensure that it passed" with the
+     resulting report omitting any reference to them.
+     ROBODEBT (Australia) — NOT BUILT. The Royal Commission into the Robodebt Scheme
+     published its report in 2023 and it is the obvious document, but
+     robodebt.royalcommission.gov.au is unreachable from here: both the report page and
+     the site root returned zero bytes after 25 and 30 second timeouts, on repeated
+     attempts, with a full browser user-agent. No alternative official host was found.
+     It remains a live candidate for anyone who can reach it.
+     WIRECARD — NOT BUILT, BUT THE DOCUMENT IS IN HAND. The Bundestag's 3rd Committee
+     of Inquiry of the 19th electoral period reported on 22 June 2021 as Drucksache
+     19/30900, and it downloads cleanly from dserver.bundestag.de (50.8 MB, text layer
+     present, first forty pages extracted and read to confirm). It is in German. Every
+     citation in this atlas so far is English-language, and building this node properly
+     means quoting German and translating it in the quoteOrFact, which is a different
+     discipline from the one the repo has used to date and should be decided
+     deliberately rather than slipped in at the end of a batch. The BaFin short-selling
+     prohibition of February 2019 — the regulator banning short sales in the shares of
+     the company whose critics were shorting it — is the other half of that node and its
+     English page was not located; a guessed URL 404'd. Left for a dedicated pass.
+     COUNTS: 121 public dossiers, 179 citations, 9 lineages, 189 merged nodes, 38
+     unsourced Phase-0 stubs still standing. atlas.html tallies updated 120 -> 121.
+     GATES: npm test 38/38; check-links over the new draft, 1 URL, 1 ok / 0 dead;
+     a year-sorted pass over the compiled atlas yields exactly 10 era switches, so the
+     era-header invariant holds with CB-2017-GRENFELL at yearStart 2017 inside
+     ERA-09-2001.
+     VERIFY PASS: GATE 0-QUAR. Gate ran, quarantined nothing.
+     Not merged to main, not pushed to main, not deployed. -->
+
 # THE CORNFIELD GAZETTE — MASTER NODE STATUS LEDGER
 
 | Node Code | Title / Scope | Era | Evidence Tier | Seeding Providers | Verify Pass | UI Wired | Done |
@@ -977,3 +1027,4 @@
 | `CB-1999-HORIZON` | Robust and Reliable: a Prosecutor Who Owned the Evidence, and 39 Trials That Could Not Be Fair | `ERA-09-2001` | `TIER_1_STATUTE_COURT` | `caselaw.nationalarchives.gov.uk` | GATE 0-QUAR | YES | [x] |
 | `CB-2010-MACONDO` | Removal Costs Plus $75 Million: the 1990 Cap and the Blowout the Commission Called Preventable | `ERA-09-2001` | `TIER_1_STATUTE_COURT` | `govinfo` | GATE 0-QUAR | YES | [x] |
 | `CB-1970-INFECTEDBLOOD` | It Should Have Been Avoided: Forty Years of Defensive Lines, and the Documents That Were Destroyed | `ERA-08-1953` | `TIER_2_INQUIRY` | `infectedbloodinquiry.org.uk` | GATE 0-QUAR | YES | [x] |
+| `CB-2017-GRENFELL` | Systematic Dishonesty: Manipulated Tests, a Complicit Testing House, and a Department That Was Well Aware | `ERA-09-2001` | `TIER_2_INQUIRY` | `assets.publishing.service.gov.uk` | GATE 0-QUAR | YES | [x] |

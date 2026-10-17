@@ -1908,6 +1908,29 @@
         "Every citation hand-resolved, opened and read before citing. Provider harvest not used for this node."
       ],
       "mechanism": "MERSEY_LIABILITY_WHITEWASH"
+    },
+    {
+      "code": "CB-2017-GRENFELL",
+      "era": "ERA-09-2001",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Grenfell Tower Inquiry Phase 2 findings",
+      "queries": [
+        {
+          "q": "Grenfell Tower Inquiry",
+          "year": 2024,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Citations hand-resolved, opened and read. The Inquiry site is behind a web-archive human-verification challenge that was NOT circumvented; the report was taken from assets.publishing.service.gov.uk."
+      ],
+      "mechanism": "REGULATORY_REVOLVING_DOOR"
     }
   ]
 }

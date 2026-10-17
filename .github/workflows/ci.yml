@@ -1,0 +1,41 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: node --test from-trove.test.mjs
+      # No credentials: a dry run only proves the Worker still bundles and
+      # wrangler.jsonc still parses.
+      - run: npx wrangler deploy --dry-run
+
+  deploy:
+    needs: test
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    concurrency: deploy-findaliens
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      # account_id is pinned in wrangler.jsonc, so a token from the wrong
+      # account fails here rather than deploying somewhere useless.
+      - run: npx wrangler deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      # "It deployed" and "it works" are different claims. --no-trap keeps an
+      # outage of the external maze host from blocking deploys.
+      - run: python check.py --no-trap

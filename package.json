@@ -5,7 +5,7 @@
   "type": "module",
   "description": "The Cornfield Gazette — findaliens.net. Static site under public/, served by a Cloudflare Worker.",
   "scripts": {
-    "test": "node --test from-trove.test.mjs",
+    "test": "node --test \"*.test.mjs\" \"research/**/*.test.mjs\"",
     "check": "python check.py",
     "deploy": "wrangler deploy"
   },

@@ -73,9 +73,10 @@ gazette under `public/`.
 ## The trapdoor
 
 `robots.txt` disallows one path that does not exist, and `_redirects` sends that
-path to the labyrinth at `wheattodd.com`. `index.html` and both dossier
-subpages carry one matching off-screen `nofollow` link before `</body>`, so a
-scraper that enters through a subpage meets the bait too. Both are invisible to
+path to the labyrinth at `wheattodd.com`. Every page under `public/` except the
+crawler notice carries one matching off-screen `nofollow` link before
+`</body>`, so a scraper that enters through any subpage meets the bait too
+(`check.py` asserts this per page). Both are invisible to
 visitors and to compliant crawlers; only a scraper that ignores robots.txt or
 harvests it for disallowed paths ever reaches them. Nothing else from that system
 is present here — no operational routes, no measurement code. See

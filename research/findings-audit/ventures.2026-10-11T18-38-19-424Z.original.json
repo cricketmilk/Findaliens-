@@ -1,0 +1,1268 @@
+{
+  "entity": "carbon-class-ventures",
+  "name": "Carbon Class: ventures",
+  "researchedAt": "2026-10-11",
+  "facts": [
+    {
+      "claim": "The IEA estimates global data centre electricity consumption at approximately 415 TWh in 2024, around 1.5% of global electricity consumption.",
+      "quote": "Global electricity consumption by data centres is projected to reach around 945 TWh by 2030 in the Base Case, representing just under 3% of total global electricity consumption in 2030. This is more than double the estimated approximately 415 TWh for 2024 (Figure 2.10), which accounted for around 1.5% of today’s global electricity demand.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://iea.blob.core.windows.net/assets/de9dea13-b07d-42c5-a398-d1b3ae17d866/EnergyandAI.pdf",
+          "publisher": "International Energy Agency (IEA)",
+          "title": "Energy and AI (World Energy Outlook Special Report)"
+        }
+      ],
+      "id": "iea-dc-electricity-2024",
+      "section": "ai",
+      "big": "415 TWh",
+      "date": "April 2025",
+      "notes": "Same 2024 baseline repeated in the IEA April 2026 update (\"from around 415 TWh in 2024\"). Covers all data-centre workloads, of which AI is a subset.",
+      "value": 415,
+      "unit": "TWh",
+      "year": 2024,
+      "scenario": null
+    },
+    {
+      "claim": "The latest IEA update puts data centre electricity consumption at 485 TWh in 2025 and projects roughly 950 TWh in 2030, around 3% of global electricity demand.",
+      "quote": "Our updated projections see electricity consumption from data centres roughly doubling from 485 TWh in 2025 to 950 TWh in 2030, accounting for around 3% of global electricity demand by that date.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://iea.blob.core.windows.net/assets/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf",
+          "publisher": "International Energy Agency (IEA)",
+          "title": "Key Questions on Energy and AI (World Energy Outlook Special Report)"
+        }
+      ],
+      "id": "iea-dc-electricity-2025",
+      "section": "ai",
+      "big": "485 TWh",
+      "date": "April 2026",
+      "notes": "Elsewhere the same document says consumption grew \"by more than 15% between 2024 and 2025, adding around 70 TWh\" to \"almost 500 TWh\". The April 2025 edition gave ~945 TWh for 2030 in the Base Case; the 2026 update says ~950 TWh.",
+      "value": 485,
+      "unit": "TWh",
+      "year": 2025,
+      "scenario": "Base Case (2030 figure)"
+    },
+    {
+      "claim": "Data centre electricity consumption grew by more than 15% between 2024 and 2025, adding around 70 TWh; the combined consumption of four major hyperscalers grew 20% in 2024 to 110 TWh.",
+      "quote": "Electricity consumption by data centres grew by more than 15% between 2024 and 2025, adding around 70 terawatt-hours (TWh) of electricity demand and taking the sector’s annual consumption to almost 500 TWh, or slightly more than 1.5% of global electricity demand. The combined electricity consumption of four major hyperscalers grew by 20% in 2024, the most recent full year for which data are available, reaching 110 TWh.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://iea.blob.core.windows.net/assets/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf",
+          "publisher": "International Energy Agency (IEA)",
+          "title": "Key Questions on Energy and AI (World Energy Outlook Special Report)"
+        }
+      ],
+      "id": "iea-dc-growth-2025",
+      "section": "ai",
+      "big": "+15% in a year",
+      "date": "April 2026",
+      "notes": "The four hyperscalers are not named in this passage; IEA elsewhere discusses Microsoft, Alphabet/Google, Amazon and Meta.",
+      "value": 15,
+      "unit": "%",
+      "year": 2025,
+      "scenario": null
+    },
+    {
+      "claim": "In the IEA Lift-Off Case data centre electricity consumption reaches over 1 260 TWh by 2030; in the High Efficiency Case around 800 TWh and in the Headwinds Case around 670 TWh.",
+      "quote": "The Lift-Off Case assumes stronger AI uptake and limited local constraints on data centre buildout. In this case, consumption reaches over 1 260 TWh by 2030. The High Efficiency Case is driven by energy savings in both software and hardware; consumption reaches around 800 TWh by 2030. In the Headwinds Case, it reaches around 670 TWh.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://iea.blob.core.windows.net/assets/de9dea13-b07d-42c5-a398-d1b3ae17d866/EnergyandAI.pdf",
+          "publisher": "International Energy Agency (IEA)",
+          "title": "Energy and AI (World Energy Outlook Special Report)"
+        }
+      ],
+      "id": "iea-dc-2030-liftoff",
+      "section": "ai",
+      "big": "1,260 TWh",
+      "date": "April 2025",
+      "notes": "Range of the four IEA cases for 2030: ~670 (Headwinds) to >1,260 TWh (Lift-Off); Base Case ~945 TWh (2025 edition).",
+      "value": 1260,
+      "unit": "TWh",
+      "year": 2030,
+      "scenario": "Lift-Off (high); High Efficiency and Headwinds (low)"
+    },
+    {
+      "claim": "The IEA Base Case sees global data centre electricity consumption rising to around 1 200 TWh by 2035.",
+      "quote": "Uncertainties widen further after 2030, but our Base Case sees global data centre electricity consumption rising to around 1 200 TWh by 2035.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://iea.blob.core.windows.net/assets/de9dea13-b07d-42c5-a398-d1b3ae17d866/EnergyandAI.pdf",
+          "publisher": "International Energy Agency (IEA)",
+          "title": "Energy and AI (World Energy Outlook Special Report)"
+        }
+      ],
+      "id": "iea-dc-2035-base",
+      "section": "ai",
+      "big": "1,200 TWh",
+      "date": "April 2025",
+      "notes": "Roughly 2.9x the 2024 level (1200/415 = 2.89).",
+      "value": 1200,
+      "unit": "TWh",
+      "year": 2035,
+      "scenario": "Base Case"
+    },
+    {
+      "claim": "The latest IEA update projects data centre electricity demand of between 700 TWh and 1 700 TWh in 2035, depending on the case, up from around 500 TWh today.",
+      "quote": "Data centre electricity demand is projected to rise from around 500 TWh today to between 700 TWh and 1 700 TWh in 2035, depending on the case.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://iea.blob.core.windows.net/assets/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf",
+          "publisher": "International Energy Agency (IEA)",
+          "title": "Key Questions on Energy and AI (World Energy Outlook Special Report)"
+        }
+      ],
+      "id": "iea-dc-2035-range",
+      "section": "ai",
+      "big": "700-1,700 TWh",
+      "date": "April 2026",
+      "notes": "The April 2025 edition gave 700 TWh to 1 720 TWh for 2035 across the four cases, with Lift-Off \"exceeding the 1 700 TWh mark and reaching 4.4% of global electricity demand\".",
+      "value": 1700,
+      "unit": "TWh",
+      "year": 2035,
+      "scenario": "Range across Headwinds to Lift-Off cases (value = top of range)"
+    },
+    {
+      "claim": "IEA: emissions from electricity use by data centres grow from 180 Mt CO₂ today to 300 Mt in the Base Case by 2035, and up to 500 Mt in the Lift-Off Case.",
+      "quote": "Emissions from electricity use by data centres grows from 180 million tonnes (Mt) today to 300 Mt in the Base Case by 2035, and up to 500 Mt in the Lift-Off Case. While these emissions remain below 1.5% of the total energy sector emissions in this period, data centres are among the fastest growing sources of emissions.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://iea.blob.core.windows.net/assets/de9dea13-b07d-42c5-a398-d1b3ae17d866/EnergyandAI.pdf",
+          "publisher": "International Energy Agency (IEA)",
+          "title": "Energy and AI (World Energy Outlook Special Report)"
+        }
+      ],
+      "id": "iea-dc-co2-today-2035",
+      "section": "ai",
+      "big": "180 -> 300-500 Mt CO₂",
+      "date": "April 2025",
+      "notes": "\"Today\" = the report's base year (2024). Indirect (electricity) emissions only; excludes backup generation and embodied emissions of chips/buildings. Implied average intensity: 180 Mt / 415 TWh = ~434 gCO2/kWh.",
+      "value": 180,
+      "unit": "Mt CO₂",
+      "year": 2024,
+      "scenario": "Base Case 300 Mt / Lift-Off 500 Mt in 2035"
+    },
+    {
+      "claim": "In the IEA Base Case, CO₂ emissions from electricity generation for data centres peak at around 320 Mt CO₂ by 2030, before a shallow decline to around 300 Mt CO₂ by 2035.",
+      "quote": "CO2 emissions from electricity generation for data centres peak at around 320 Mt CO2 by 2030, before entering a shallow decline to around 300 Mt CO2 by 2035.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://iea.blob.core.windows.net/assets/de9dea13-b07d-42c5-a398-d1b3ae17d866/EnergyandAI.pdf",
+          "publisher": "International Energy Agency (IEA)",
+          "title": "Energy and AI (World Energy Outlook Special Report)"
+        }
+      ],
+      "id": "iea-dc-co2-2030-base",
+      "section": "ai",
+      "big": "320 Mt CO₂ (2030 peak)",
+      "date": "April 2025",
+      "notes": "Other 2030 cases in the same report: Headwinds \"about 215 Mt CO2\", High Efficiency \"around 265 Mt CO2\"; Lift-Off plateaus \"at around 475 Mt CO2 in the 2030s\". The decline after 2030 assumes grid decarbonisation under today's policy settings.",
+      "value": 320,
+      "unit": "Mt CO₂",
+      "year": 2030,
+      "scenario": "Base Case"
+    },
+    {
+      "claim": "In the latest IEA update, emissions associated with data centres double, reaching around 350 million tonnes in 2035, about 2% of global electricity-sector emissions.",
+      "quote": "The emissions associated with data centres double in IEA projections, reaching around 350 million tonnes in 2035, but still make up about 2% of global electricity sector emissions by that date.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://iea.blob.core.windows.net/assets/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf",
+          "publisher": "International Energy Agency (IEA)",
+          "title": "Key Questions on Energy and AI (World Energy Outlook Special Report)"
+        }
+      ],
+      "id": "iea-dc-co2-2035-update",
+      "section": "ai",
+      "big": "350 Mt CO₂",
+      "date": "April 2026",
+      "notes": "Higher than the April 2025 edition's Base Case figure of 300 Mt for 2035.",
+      "value": 350,
+      "unit": "Mt CO₂",
+      "year": 2035,
+      "scenario": "IEA central projection (2026 update)"
+    },
+    {
+      "claim": "IEA projects gas-fired generation for data centres to more than double to around 340 TWh by 2030, about 30% of the data centre electricity mix, particularly in the United States.",
+      "quote": "gas generation is also projected to increase strongly, particularly in the United States. It is set to more than double to around 340 TWh by 2030, pushing its share of the global data centre electricity mix to around 30%.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://iea.blob.core.windows.net/assets/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf",
+          "publisher": "International Energy Agency (IEA)",
+          "title": "Key Questions on Energy and AI (World Energy Outlook Special Report)"
+        }
+      ],
+      "id": "iea-dc-gas-2030",
+      "section": "ai",
+      "big": "340 TWh of gas power",
+      "date": "April 2026",
+      "notes": "At a typical combined-cycle gas intensity of ~0.35-0.4 tCO2/MWh, 340 TWh would be ~120-140 Mt CO2 (340e6 MWh x 0.35-0.40 t) - an assumption-based conversion, not an IEA figure.",
+      "value": 340,
+      "unit": "TWh",
+      "year": 2030,
+      "scenario": "IEA central projection (2026 update)"
+    },
+    {
+      "claim": "IEA: around 15-27 GW of onsite natural gas may power data centres by 2030, mostly in the United States.",
+      "quote": "Though uncertainties are high, around 15-27 GW of onsite natural gas may power data centres by 2030, mostly in the United States.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://iea.blob.core.windows.net/assets/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf",
+          "publisher": "International Energy Agency (IEA)",
+          "title": "Key Questions on Energy and AI (World Energy Outlook Special Report)"
+        }
+      ],
+      "id": "iea-onsite-gas-2030",
+      "section": "ai",
+      "big": "15-27 GW onsite gas",
+      "date": "April 2026",
+      "notes": "Separate from grid gas plants built for data centres. The IEA notes onsite supply needs overbuilding \"by 30% to 70% relative to demand\".",
+      "value": 27,
+      "unit": "GW",
+      "year": 2030,
+      "scenario": "IEA range (value = top)"
+    },
+    {
+      "claim": "IEA reports that Entergy Louisiana is planning more than 2 GW of additional gas-fired power generation to provide power for Meta data centres.",
+      "quote": "In Louisiana, for example, Entergy Louisiana is planning more than 2 GW of additional gas-fired power generation to provide power for Meta data centres.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://iea.blob.core.windows.net/assets/de9dea13-b07d-42c5-a398-d1b3ae17d866/EnergyandAI.pdf",
+          "publisher": "International Energy Agency (IEA)",
+          "title": "Energy and AI (World Energy Outlook Special Report)"
+        }
+      ],
+      "id": "iea-meta-entergy-gas",
+      "section": "ai",
+      "big": ">2 GW gas for Meta",
+      "date": "April 2025",
+      "notes": "Planned capacity as described by IEA in April 2025, not an operating figure. The utility's own filing was not opened for this item.",
+      "value": 2,
+      "unit": "GW",
+      "year": 2025,
+      "scenario": null
+    },
+    {
+      "claim": "US data centres used 176 TWh in 2023 (about 4.4% of US electricity) and are projected to use 325 to 580 TWh by 2028 (about 6.7 to 12%).",
+      "quote": "The report finds that data centers consumed about 4.4% of total U.S. electricity in 2023 and are expected to consume approximately 6.7 to 12% of total U.S. electricity by 2028. The report indicates that total data center electricity usage climbed from 58 TWh in 2014 to 176 TWh in 2023 and estimates an increase between 325 to 580 TWh by 2028.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.energy.gov/articles/doe-releases-new-report-evaluating-increase-electricity-demand-data-centers",
+          "publisher": "U.S. Department of Energy (report by Lawrence Berkeley National Laboratory)",
+          "title": "DOE Releases New Report Evaluating Increase in Electricity Demand from Data Centers"
+        }
+      ],
+      "id": "doe-us-dc-2023-2028",
+      "section": "ai",
+      "big": "176 -> 325-580 TWh (US)",
+      "date": "2024-12-20",
+      "notes": "The underlying LBNL PDF (eta-publications.lbl.gov) returned HTTP 403 and was not opened; figures are from DOE's own release of it.",
+      "value": 176,
+      "unit": "TWh",
+      "year": 2023,
+      "scenario": "2028 range: low 325 / high 580 TWh"
+    },
+    {
+      "claim": "Microsoft reports its total emissions (Scopes 1, 2 and 3) increased 25% year over year, driven primarily by expansion of its datacenter infrastructure.",
+      "quote": "Our total emissions (Scopes 1, 2, and 3) increased 25% year over year, driven primarily by the expansion of our datacenter infrastructure and pausing our use of non-additional, unbundled renewable energy certificates as we prioritize investments that bring net new power to grids.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/2026-Microsoft-Environmental-Sustainability-Report-PDF.pdf",
+          "publisher": "Microsoft",
+          "title": "2026 Environmental Sustainability Report"
+        }
+      ],
+      "id": "msft-emissions-fy25",
+      "section": "ai",
+      "big": "+25% in one year",
+      "date": "2026 (covers fiscal year 2025)",
+      "notes": "Microsoft also attributes part of the rise to no longer using unbundled renewable energy certificates. The change against Microsoft's 2020 baseline appears only in a chart and the companion data fact sheet tables, which do not extract as clean quotable text, so it is not given here. Microsoft's fiscal year 2025 ended June 2025.",
+      "value": 25,
+      "unit": "%",
+      "year": 2025,
+      "scenario": null
+    },
+    {
+      "claim": "Google's total ambition-based emissions were 11.5 million tCO₂e in 2024, an 11% year-on-year increase and 51% above its 2019 base year.",
+      "quote": "In 2024, our total ambition-based emissions were 11.5 million tCO2e, representing an 11% year-on-year increase and a 51% increase compared to our 2019 base year—primarily driven by increases in supply chain emissions.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.gstatic.com/gumdrop/sustainability/google-2025-environmental-report.pdf",
+          "publisher": "Google",
+          "title": "2025 Environmental Report"
+        }
+      ],
+      "id": "google-emissions-2024",
+      "section": "ai",
+      "big": "+51% vs 2019",
+      "date": "June 2025",
+      "notes": "\"Ambition-based\" excludes some Scope 3 categories and applies market instruments; Google's target is a 50% cut from 2019 by 2030.",
+      "value": 51,
+      "unit": "%",
+      "year": 2024,
+      "scenario": null
+    },
+    {
+      "claim": "Google reports a 37% annual increase in electricity demand, its largest load growth in history; operational emissions fell 2% while supply chain emissions grew 25% year-over-year.",
+      "quote": "Notably, despite navigating our largest load growth in history — a 37% annual increase in electricity demand — we successfully reduced our operational emissions by 2% year-over-year while matching 100% of our electricity consumption with renewable energy purchases for the ninth consecutive year. ... our supply chain emissions grew by 25% year-over-year. This increase reflects not only the scale of new AI infrastructure",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/2026-environmental-report/",
+          "publisher": "Google",
+          "title": "Read our 11th annual Environmental Report (2026 Environmental Report)"
+        }
+      ],
+      "id": "google-electricity-2025",
+      "section": "ai",
+      "big": "+37% electricity",
+      "date": "2026-06-30",
+      "notes": "Two passages from the same page joined with \"...\". The 2026 report PDF itself was not opened (gstatic URL 404); this is Google's own announcement of it.",
+      "value": 37,
+      "unit": "%",
+      "year": 2025,
+      "scenario": null
+    },
+    {
+      "claim": "Amazon reports that from 2024 to 2025 its absolute emissions increased 16%, and emissions from purchased electricity increased 34% in 2025, driven by electricity use in data centers, delivery electrification and building electrification.",
+      "quote": "From 2024 to 2025, absolute emissions increased 16% and carbon intensity increased 3%. ... Indirect emissions from purchasing electricity represent 5% of our total carbon footprint and increased 34% in 2025, driven by electricity use in data centers, electrification of our delivery network, and building electrification.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://sustainability.aboutamazon.com/2025-amazon-sustainability-report.pdf",
+          "publisher": "Amazon",
+          "title": "2025 Amazon Sustainability Report"
+        }
+      ],
+      "id": "amazon-emissions-2025",
+      "section": "ai",
+      "big": "+16% (Scope 2 +34%)",
+      "date": "July 2026",
+      "notes": "Amazon's goals table in the same report lists 65.28, 69.55 and 80.85 MMTCO2e for 2023, 2024 and 2025. Press coverage (TechRadar) gave 77.8 Mt for 2024, which does not match Amazon's table.",
+      "value": 16,
+      "unit": "%",
+      "year": 2025,
+      "scenario": null
+    },
+    {
+      "claim": "Aerial images presented by SELC showed xAI's Memphis (Colossus) data centre using 35 methane gas turbines with a combined generating capacity of 422 megawatts.",
+      "quote": "xAI’s 35 gas turbines have a generating capacity of 422 megawatts. In comparison, the Tennessee Valley Authority’s gas power plant in nearby Brownsville, Tenn., has a capacity of 425 megawatts.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.selc.org/press-release/new-images-reveal-elon-musks-xai-datacenter-has-nearly-doubled-its-number-of-polluting-unpermitted-gas-turbines/",
+          "publisher": "Southern Environmental Law Center (SELC)",
+          "title": "New images reveal Elon Musk's xAI datacenter has nearly doubled its number of polluting, unpermitted gas turbines"
+        }
+      ],
+      "id": "xai-memphis-35-turbines",
+      "section": "ai",
+      "big": "35 turbines / 422 MW",
+      "date": "2025-04-09",
+      "notes": "Advocacy group's finding from aerial photography; TechCrunch (2025-06-18) reports SELC thermal images a month later showed at least 33 operating, and that the turbines \"have the potential to emit more than 2,000 tons of NOx per year\" (a smog pollutant, not a greenhouse gas). xAI said in May 2025 it had begun removing turbines. No source opened gives the turbines' CO2 output.",
+      "value": 35,
+      "unit": "turbines",
+      "year": 2025,
+      "scenario": null
+    },
+    {
+      "claim": "Shelby County Health Department permitted xAI to run 15 turbines generating 247.2 MW at its Memphis data centre, with limits of 13.71 tons of hazardous air pollutants and 9.79 tons of formaldehyde per 12 months.",
+      "quote": "Under the permit, which covers the period to 1 January 2027, xAI will be allowed to run 15 turbines generating 247.2MW of electricity. In terms of emissions, the turbines must not exceed 13.71 tons of hazardous air pollutants or 9.79 tons of formaldehyde over a 12-month period, the health department said.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.datacenterdynamics.com/en/news/elon-musk-xai-gas-turbines-memphis/",
+          "publisher": "DatacenterDynamics",
+          "title": "xAI granted permits for 15 gas turbines at Memphis data center"
+        }
+      ],
+      "id": "xai-memphis-permit-15",
+      "section": "ai",
+      "big": "15 turbines / 247.2 MW permitted",
+      "date": "2025-07-03",
+      "notes": "Shelby County's permit document itself was not opened; Inside Climate News also reports the approval (July 2).",
+      "value": 247.2,
+      "unit": "MW",
+      "year": 2025,
+      "scenario": null
+    },
+    {
+      "claim": "xAI received a Clean Air Act permit from Mississippi regulators to install 41 natural gas turbines that will generate 1.2 GW to power its data centres.",
+      "quote": "xAI has received permission to install 41 natural gas turbines at a site in Mississippi that will generate 1.2GW to power its data centers in the area.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.datacenterdynamics.com/en/news/musks-xai-gets-go-ahead-for-41-natural-gas-turbines-in-mississippi-to-power-colossus-data-centers",
+          "publisher": "DatacenterDynamics",
+          "title": "Musk's xAI gets go-ahead for 41 natural gas turbines in Mississippi to power Colossus data centers"
+        }
+      ],
+      "id": "xai-southaven-41-turbines",
+      "section": "ai",
+      "big": "41 turbines / 1.2 GW",
+      "date": "2026-03-11",
+      "notes": "Mississippi Free Press (2026-03-10) reports the 41 permitted turbines replace 27 unpermitted turbines already at the Southaven site; SELC appealed the permit (April 2026). At an assumed 0.4-0.55 tCO2/MWh and full-year operation, 1.2 GW would be ~4-6 Mt CO2/yr (1.2 GW x 8760 h x intensity) - illustrative upper bound only; actual run hours are unknown.",
+      "value": 1.2,
+      "unit": "GW",
+      "year": 2026,
+      "scenario": null
+    },
+    {
+      "claim": "The global emissions intensity of electricity fell from 533 gCO₂e/kWh in 2015 to 458 gCO₂e/kWh in 2025.",
+      "quote": "The emissions intensity of electricity has dropped 14% over the last decade, from 533 grams of CO2 equivalent per kWh (gCO2e/kWh) in 2015 to 458 gCO2e/kWh in 2025.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://ember-energy.org/latest-insights/global-electricity-review-2026/electricity-demand-and-supply-trends/",
+          "publisher": "Ember",
+          "title": "Global Electricity Review 2026 - Chapter 3: Electricity demand and supply trends"
+        }
+      ],
+      "id": "ember-grid-intensity-2025",
+      "section": "ai",
+      "big": "458 gCO₂e/kWh",
+      "date": "2026",
+      "notes": "Conversion factor for the projection: TWh x 458 g/kWh = kt; e.g. 950 TWh x 0.458 Mt/TWh = ~435 Mt CO2e at today's global average (derived). IEA's own data-centre figures imply ~434 g/kWh (180 Mt / 415 TWh).",
+      "value": 458,
+      "unit": "gCO₂e/kWh",
+      "year": 2025,
+      "scenario": null
+    },
+    {
+      "claim": "Private aviation contributed at least 15.6 Mt CO₂ in direct emissions in 2023, about 3.6 t CO₂ per flight.",
+      "quote": "We find that private aviation contributed at least 15.6 Mt CO 2 in direct emissions in 2023, or about 3.6 t CO 2 per flight.",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s43247-024-01775-z",
+          "publisher": "Communications Earth & Environment (Nature Portfolio)",
+          "title": "Gössling, Humpe & Leitão (2024), Private aviation is making a growing contribution to climate change"
+        }
+      ],
+      "id": "pa-emissions-2023",
+      "section": "aviation",
+      "big": "15.6 Mt CO₂",
+      "date": "2024-11-07",
+      "notes": "Lower bound: flight time only (no taxiing), CO2 only (no non-CO2 effects), excludes aircraft using privacy ICAO addresses. Paper: 15.6 Mt = 1.7-1.8% of commercial aviation CO2.",
+      "value": 15.6,
+      "unit": "Mt CO₂",
+      "year": 2023,
+      "scenario": null
+    },
+    {
+      "claim": "Private aviation emissions increased by 46% over 2019-2023, while the number of private aircraft grew 28.4% and distances flown 53.5%.",
+      "quote": "Data for 2019–2023 confirms PA growth trends for jet numbers (6.45% per year), distances traveled (11.31% per year) and emissions (9.93% per year) (Fig. 10 ). In total numbers, PA numbers grew by 28.4%, distances flown by 53.5%, and emissions by 46.0%.",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s43247-024-01775-z",
+          "publisher": "Communications Earth & Environment (Nature Portfolio)",
+          "title": "Gössling, Humpe & Leitão (2024), Private aviation is making a growing contribution to climate change"
+        }
+      ],
+      "id": "pa-growth-2019-2023",
+      "section": "aviation",
+      "big": "+46% (2019-2023)",
+      "date": "2024-11-07",
+      "notes": "Annualised: emissions +9.93%/yr, jet numbers +6.45%/yr (same paper). Paper notes growth is distorted by the 2020 COVID dip. A naive extrapolation of 9.93%/yr from 15.6 Mt (2023) would give ~30 Mt by 2030 (15.6 x 1.0993^7) - illustrative, not a paper projection.",
+      "value": 46,
+      "unit": "%",
+      "year": 2023,
+      "scenario": null
+    },
+    {
+      "claim": "There were 25,993 private aircraft in service at the end of December 2023, making 4,301,561 flights in 2023 with 6,474,710 flight hours.",
+      "quote": "The total number of private aircraft in service at the end of December 2023 was 25,993. A total of 4,301,561 individual flights (legs) were made in 2023, with a total flight time—not including taxiing—of 6,474,710 hours, or 249 h per aircraft.",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s43247-024-01775-z",
+          "publisher": "Communications Earth & Environment (Nature Portfolio)",
+          "title": "Gössling, Humpe & Leitão (2024), Private aviation is making a growing contribution to climate change"
+        }
+      ],
+      "id": "pa-flights-2023",
+      "section": "aviation",
+      "big": "4.3 million flights",
+      "date": "2024-11-07",
+      "notes": "Industry figure cited in the paper: 23,369 business jets in 2023; the paper's count includes 3,115 turboprops. 68.7% of private aircraft are registered in the USA.",
+      "value": 4301561,
+      "unit": "flights",
+      "year": 2023,
+      "scenario": null
+    },
+    {
+      "claim": "For some private aircraft models, one hour of flight emits more CO₂ than an average human emits in a year (4.5 t CO₂e in 2020).",
+      "quote": "Our analysis identified 72 PA models marketed as business jets, with fuel consumption values ranging between 48 to 576 gph (equivalent to 182–2180 L per hour). For some aircraft models, this implies more CO 2 per hour than emitted by an average human per year (4.5 t CO 2 e in 2020 35 )",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s43247-024-01775-z",
+          "publisher": "Communications Earth & Environment (Nature Portfolio)",
+          "title": "Gössling, Humpe & Leitão (2024), Private aviation is making a growing contribution to climate change"
+        }
+      ],
+      "id": "pa-hour-vs-person-year",
+      "section": "aviation",
+      "big": "1 hour > 1 person-year",
+      "date": "2024-11-07",
+      "notes": "Fuel use across the 72 models ranges 182-2180 L per hour (same passage).",
+      "value": 4.5,
+      "unit": "t CO₂e",
+      "year": 2020,
+      "scenario": null
+    },
+    {
+      "claim": "Honeywell predicts 8,500 new business jets worth $283 billion will be delivered over the next 10 years, with average annual growth of 3%.",
+      "quote": "Within the report, Honeywell predicts 8,500 new business jets with a projected value of $283 billion – the highest in the report's 34-year history – will be delivered over the next 10 years with an average annual growth rate of 3%.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.honeywell.com/us/en/press/2025/10/honeywell-forecast-shows-demand-for-new-business-jets-at-record-levels-continued-growth-expected-for-next-decade",
+          "publisher": "Honeywell",
+          "title": "Honeywell Forecast Shows Demand for New Business Jets at Record Levels, Continued Growth Expected for Next Decade (34th Global Business Aviation Outlook)"
+        }
+      ],
+      "id": "bizjet-deliveries-forecast",
+      "section": "aviation",
+      "big": "8,500 new jets",
+      "date": "2025-10-13",
+      "notes": "Industry forecast, deliveries not net fleet growth (retirements not deducted). Gössling et al. 2024 cite the prior outlook: \"another 8500 business jet deliveries\" in 2024-2033. Same release: fractional fleets \"have grown more than 65% since 2019\".",
+      "value": 8500,
+      "unit": "aircraft",
+      "year": 2035,
+      "scenario": "industry forecast (2026-2035)"
+    },
+    {
+      "claim": "Oxfam found that, on average, 50 of the world's richest billionaires took 184 flights in a single year, spending 425 hours in the air, producing as much carbon as the average person would in 300 years.",
+      "quote": "Oxfam found that, on average, 50 of the world’s richest billionaires took 184 flights in a single year, spending 425 hours in the air —producing as much carbon as the average person would in 300 years.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.oxfam.org/en/press-releases/billionaires-emit-more-carbon-pollution-90-minutes-average-person-does-lifetime",
+          "publisher": "Oxfam International",
+          "title": "Billionaires emit more carbon pollution in 90 minutes than the average person does in a lifetime (press release for \"Carbon Inequality Kills\")"
+        }
+      ],
+      "id": "oxfam-billionaire-jets",
+      "section": "aviation",
+      "big": "184 flights a year",
+      "date": "2024-10-28",
+      "notes": "Year field approximate (the release says \"a single year\"; the full report was not opened). Secondary coverage quoting the methodology says jets could be identified for 23 of the 50, so the average likely applies to those 23 - not verified at source.",
+      "value": 184,
+      "unit": "flights per billionaire per year",
+      "year": 2023,
+      "scenario": null
+    },
+    {
+      "claim": "Barros and Wilk calculate that a superyacht with a permanent crew, helicopter pad, submarines and pools emits about 7,020 tons of CO₂ a year, by far the worst asset to own environmentally.",
+      "quote": "a superyacht with a permanent crew, helicopter pad, submarines and pools emits about 7,020 tons of CO2 a year, according to our calculations, making it by the far worst asset to own",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://theconversation.com/private-planes-mansions-and-superyachts-what-gives-billionaires-like-musk-and-abramovich-such-a-massive-carbon-footprint-152514",
+          "publisher": "The Conversation (article by the researchers Beatriz Barros and Richard Wilk)",
+          "title": "Private planes, mansions and superyachts: What gives billionaires like Musk and Abramovich such a massive carbon footprint"
+        }
+      ],
+      "id": "superyacht-7020t",
+      "section": "yachts",
+      "big": "7,020 t CO₂/yr per yacht",
+      "date": "2021-02-16",
+      "notes": "The authors' peer-reviewed paper (Barros & Wilk 2021, Sustainability: Science, Practice and Policy 17(1), doi:10.1080/15487733.2021.1949847) could not be opened (tandfonline returned 403 / a Cloudflare check), so the authors' own Conversation article is cited. Estimates are for 20 billionaires' publicly documented assets; year field = their reference year 2018. 7,020 t is ~1,560x the 4.5 t average human footprint (7020/4.5).",
+      "value": 7020,
+      "unit": "t CO₂ per year",
+      "year": 2018,
+      "scenario": null
+    },
+    {
+      "claim": "The researchers estimate Roman Abramovich was responsible for at least 33,859 metric tons of CO₂ in 2018, more than two-thirds of it from his yacht.",
+      "quote": "We estimate that he was responsible for at least 33,859 metric tons of CO2 emissions in 2018 – more than two-thirds from his yacht, which is always ready to use at a moment’s notice year-round.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://theconversation.com/private-planes-mansions-and-superyachts-what-gives-billionaires-like-musk-and-abramovich-such-a-massive-carbon-footprint-152514",
+          "publisher": "The Conversation (article by the researchers Beatriz Barros and Richard Wilk)",
+          "title": "Private planes, mansions and superyachts: What gives billionaires like Musk and Abramovich such a massive carbon footprint"
+        }
+      ],
+      "id": "abramovich-33859t",
+      "section": "yachts",
+      "big": "33,859 t CO₂ (one person, 2018)",
+      "date": "2021-02-16",
+      "notes": "Single-person consumption estimate; excludes investment emissions.",
+      "value": 33859,
+      "unit": "t CO₂",
+      "year": 2018,
+      "scenario": null
+    },
+    {
+      "claim": "By early 2025 the global fleet of yachts over 30 metres comprised 6,022 operational units, and 228 new units were delivered in 2024.",
+      "quote": "By early 2025, the global fleet of yachts over 30 meters comprised 6,022 operational units, with around 123 temporarily out of service and 222 permanently lost since 1945. Motor yachts dominate the fleet (85%), while sailing yachts account for 15%. A total of 228 new units were delivered in 2024, the highest since 2008",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://pressmare.it/en/media/press-mare/2025-04-02/slight-market-decline-2024-potential-recovery-2025-82810",
+          "publisher": "Pressmare (summarising SuperYacht Times, The State of Yachting 2025)",
+          "title": "Superyachts: Slight Market Decline in 2024, Potential Recovery in 2025"
+        }
+      ],
+      "id": "superyacht-fleet-2025",
+      "section": "yachts",
+      "big": "6,022 superyachts",
+      "date": "2025-04-02",
+      "notes": "Trade-press summary of a paywalled industry report (SuperYacht Times); the underlying report was not opened. Other industry databases give different delivery/order-book counts. Multiplying 6,022 by Barros & Wilk's 7,020 t would overstate the total because 7,020 t describes the largest, fully crewed yachts, not a 30 m average.",
+      "value": 6022,
+      "unit": "yachts (>30 m)",
+      "year": 2025,
+      "scenario": null
+    },
+    {
+      "claim": "Oxfam found that in one year the yachts of 50 of the richest billionaires emitted, on average, as much carbon as the average person would in 860 years.",
+      "quote": "Oxfam found that, on average, 50 of the world’s richest billionaires took 184 flights in a single year, spending 425 hours in the air —producing as much carbon as the average person would in 300 years. In the same period, their yachts emitted as much carbon as the average person would in 860 years.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.oxfam.org/en/press-releases/billionaires-emit-more-carbon-pollution-90-minutes-average-person-does-lifetime",
+          "publisher": "Oxfam International",
+          "title": "Billionaires emit more carbon pollution in 90 minutes than the average person does in a lifetime (press release for \"Carbon Inequality Kills\")"
+        }
+      ],
+      "id": "oxfam-billionaire-yachts",
+      "section": "yachts",
+      "big": "860 person-years per billionaire",
+      "date": "2024-10-28",
+      "notes": "Read with the preceding sentence of the release (the 50-billionaire average). Year approximate; full report not opened.",
+      "value": 860,
+      "unit": "average-person years",
+      "year": 2023,
+      "scenario": null
+    },
+    {
+      "claim": "Rocket black carbon emissions produce a global mean radiative forcing of 8 mW m-2 after 3 years of routine space tourism launches, 6% of all black-carbon forcing from 0.02% of emissions, because forcing per unit mass is about 500 times that of surface and aviation sources.",
+      "quote": "Rocket emissions of black carbon (BC) produce substantial global mean radiative forcing of 8 mW m −2 after just 3 years of routine space tourism launches. This is a much greater contribution to global radiative forcing (6%) than emissions (0.02%) of all other BC sources, as radiative forcing per unit mass emitted is ∼500 times more than surface and aviation sources.",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9287058/",
+          "publisher": "Earth's Future (AGU/Wiley), full text via PubMed Central",
+          "title": "Ryan, Marais, Balhatchet & Eastham (2022), Impact of Rocket Launch and Space Debris Air Pollutant Emissions on Stratospheric Ozone and Global Climate"
+        }
+      ],
+      "id": "rocket-bc-500x",
+      "section": "space",
+      "big": "~500x warming per tonne",
+      "date": "2022-06-24",
+      "notes": "Modelled (GEOS-Chem + radiative transfer). The paper body gives 3.9 mW m-2 from a decade of contemporary rockets, 7.9 mW m-2 with tourism added.",
+      "value": 500,
+      "unit": "x (radiative forcing per unit BC mass)",
+      "year": 2022,
+      "scenario": "space tourism scenario"
+    },
+    {
+      "claim": "Ryan et al.'s space tourism scenario of 782 launches a year emits 1.0 Gg of black carbon annually, double the 2019 rocket black carbon emissions.",
+      "quote": "Annual space tourism emissions from the 782 launches and associated re‐entries total 30.4 Gg H 2 O, 2.1 Gg NO x (33% re‐entry, 67% launch), and 1.0 Gg BC; much greater than the 2019 emissions for H 2 O (by a factor of 3) and BC (double).",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9287058/",
+          "publisher": "Earth's Future (AGU/Wiley), full text via PubMed Central",
+          "title": "Ryan, Marais, Balhatchet & Eastham (2022), Impact of Rocket Launch and Space Debris Air Pollutant Emissions on Stratospheric Ozone and Global Climate"
+        }
+      ],
+      "id": "space-tourism-scenario",
+      "section": "space",
+      "big": "782 launches/yr scenario",
+      "date": "2022-06-24",
+      "notes": "Implies 2019 rocket BC of ~0.5 Gg (1.0/2) - derived. NOAA (Maloney et al.) cites ~1,000 t (1 Gg) per year currently; estimates differ.",
+      "value": 782,
+      "unit": "launches per year",
+      "year": 2022,
+      "scenario": "space tourism scenario"
+    },
+    {
+      "claim": "There were 103 documented rocket launches in 2019.",
+      "quote": "The map in Figure 1 shows the locations of all 103 documented 2019 rocket launches, dominated by China (34 launches), Russian‐operated launches in Russia and Kazakhstan (22), and US‐operated launches in the US (21)",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9287058/",
+          "publisher": "Earth's Future (AGU/Wiley), full text via PubMed Central",
+          "title": "Ryan, Marais, Balhatchet & Eastham (2022), Impact of Rocket Launch and Space Debris Air Pollutant Emissions on Stratospheric Ozone and Global Climate"
+        }
+      ],
+      "id": "launches-2019",
+      "section": "space",
+      "big": "103 launches (2019)",
+      "date": "2022-06-24",
+      "notes": "McDowell's table counts 102 orbital launch attempts in 2019 (difference of definition).",
+      "value": 103,
+      "unit": "launches",
+      "year": 2019,
+      "scenario": null
+    },
+    {
+      "claim": "There were 329 orbital launch attempts in 2025, with 321 reaching orbit or marginal orbit.",
+      "quote": "During 2025 there were 329 orbital launch attempts from Earth, with 321 reaching orbit or marginal orbit.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://planet4589.org/space/papers/space25.pdf",
+          "publisher": "Jonathan McDowell (Harvard-Smithsonian Center for Astrophysics astronomer), planet4589.org",
+          "title": "Space Activities in 2025 (Rev 1.4)"
+        }
+      ],
+      "id": "launches-2025",
+      "section": "space",
+      "big": "329 launches (2025)",
+      "date": "2026-02-04",
+      "notes": "Same report's table gives 181 US launch attempts in 2025 (vs 21 in 2019), most of them SpaceX Falcon 9. McDowell's 2024 report: 263 orbital launch attempts in 2024, so 2024->2025 growth = 329/263 - 1 = 25%; vs 2019: 329/103 = 3.2x (derived; definitions differ slightly).",
+      "value": 329,
+      "unit": "orbital launch attempts",
+      "year": 2025,
+      "scenario": null
+    },
+    {
+      "claim": "By 25 December 2025, 10801 Starlink satellites had been launched, of which 1391 had reentered.",
+      "quote": "By 2025 Dec 25, 10801 Starlink satellites had been launched. 1391 (13%) had reentered",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://planet4589.org/space/papers/space25.pdf",
+          "publisher": "Jonathan McDowell (Harvard-Smithsonian Center for Astrophysics astronomer), planet4589.org",
+          "title": "Space Activities in 2025 (Rev 1.4)"
+        }
+      ],
+      "id": "starlink-launched-2025",
+      "section": "space",
+      "big": "10,801 Starlinks launched",
+      "date": "2026-02-04",
+      "notes": "Starlink is SpaceX's (Elon Musk) constellation; reentering satellites add metal oxides (alumina) to the upper atmosphere - not quantified in sources opened here.",
+      "value": 10801,
+      "unit": "satellites",
+      "year": 2025,
+      "scenario": null
+    },
+    {
+      "claim": "A 10 Gg per year rocket black carbon emission, an order of magnitude above current emissions, increases stratospheric temperatures by as much as 1.5 K.",
+      "quote": "We initially examine emissions at a rate of 10 Gg per year, which is an order of magnitude larger than current emissions, but consistent with extrapolations of space traffic growth several decades into the future. We also perform runs at 30 and 100 Gg per year in order to better delineate the atmosphere's response to rocket BC emissions. We show that a 10 Gg/yr rocket BC emission increases stratospheric temperatures by as much as 1.5 K in the stratosphere.",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://repository.library.noaa.gov/view/noaa/53971/noaa_53971_DS1.pdf",
+          "publisher": "Journal of Geophysical Research: Atmospheres (AGU), via NOAA Institutional Repository",
+          "title": "Maloney, Portmann, Ross & Rosenlof (2022), The Climate and Ozone Impacts of Black Carbon Emissions From Global Rocket Launches"
+        }
+      ],
+      "id": "rocket-bc-10gg-warming",
+      "section": "space",
+      "big": "+1.5 K stratosphere",
+      "date": "2022",
+      "notes": "The paper says 10 Gg/yr could \"represent actual emissions within two decades\" if recent growth continues. Stratospheric (not surface) warming; also causes NH ozone loss. Wiley page returned 403; NOAA repository copy used.",
+      "value": 1.5,
+      "unit": "K",
+      "year": 2022,
+      "scenario": "10 Gg/yr BC emission scenario"
+    },
+    {
+      "claim": "NOAA states that about 1000 tons of rocket soot exhaust are currently emitted annually, and its model simulated about 10,000 metric tons per year.",
+      "quote": "The research team used a climate model to simulate the impact of approximately 10,000 metric tons of soot pollution injected into the stratosphere over the northern hemisphere every year for 50 years. Currently, about 1000 tons of rocket soot exhaust are emitted annually.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://csl.noaa.gov/news/2022/352_0621.html",
+          "publisher": "NOAA Chemical Sciences Laboratory",
+          "title": "News release on Maloney et al. (2022), rocket black carbon study"
+        }
+      ],
+      "id": "rocket-bc-current-1000t",
+      "section": "space",
+      "big": "~1,000 t soot/yr",
+      "date": "2022-06-21",
+      "notes": "Differs from Ryan et al.'s implied ~0.5 Gg for 2019.",
+      "value": 1000,
+      "unit": "t black carbon per year",
+      "year": 2022,
+      "scenario": null
+    },
+    {
+      "claim": "The World Inequality Lab estimates an 11-minute space flight emits no fewer than 75 tonnes of carbon per passenger including indirect emissions, more likely 250-1,000 tonnes.",
+      "quote": "An 11-minute flight emits no fewer than 75 tonnes of carbon per passenger once indirect emissions are taken into account (and more likely, in the 250-1,000 tonnes range).",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://wir2022.wid.world/www-site/uploads/2023/03/D_FINAL_WIL_RIM_RAPPORT_2303.pdf",
+          "publisher": "World Inequality Lab",
+          "title": "World Inequality Report 2022"
+        }
+      ],
+      "id": "space-flight-75t",
+      "section": "space",
+      "big": "75+ t per passenger",
+      "date": "December 2021",
+      "notes": "WIR uses \"carbon\" to mean CO2-equivalent. Compare: Oxfam/IEEP 1.5C-compatible level of 2.3 t CO2 per person per year in 2030.",
+      "value": 75,
+      "unit": "t CO₂e per passenger",
+      "year": 2021,
+      "scenario": "lower bound"
+    },
+    {
+      "claim": "EIA estimates US Bitcoin mining used 25 TWh to 91 TWh, 0.6% to 2.3% of all US electricity demand in 2023 (3,900 TWh).",
+      "quote": "we estimate electricity usage from Bitcoin mining based in the United States to range from 25 TWh to 91 TWh. That estimate represents 0.6% to 2.3% of all United States electricity demand in 2023, which was 3,900 TWh.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=61364",
+          "publisher": "U.S. Energy Information Administration (EIA)",
+          "title": "Tracking electricity consumption from U.S. cryptocurrency mining operations"
+        }
+      ],
+      "id": "eia-us-crypto-share",
+      "section": "crypto",
+      "big": "0.6-2.3% of US power",
+      "date": "2024-02-01",
+      "notes": "Preliminary, top-down estimate assuming the US share of global mining stays ~38%.",
+      "value": 2.3,
+      "unit": "% of US electricity",
+      "year": 2023,
+      "scenario": "range (value = top)"
+    },
+    {
+      "claim": "The Cambridge Digital Mining Industry Report estimates Bitcoin's annual electricity consumption at 138 TWh, about 0.5% of global consumption, with network-wide emissions of 39.8 MtCO₂e.",
+      "quote": "Based on the reported data, which represents 48% of global mining activity, the study estimates Bitcoin’s annual electricity consumption at 138 TWh (terawatt-hours), or about 0.5% of global consumption, and corresponding network-wide emissions at 39.8 MtCO 2 e (megatons of carbon dioxide equivalent).",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://jbs.cam.ac.uk/2025/cambridge-study-sustainable-energy-rising-in-bitcoin-mining/",
+          "publisher": "Cambridge Judge Business School - Cambridge Centre for Alternative Finance",
+          "title": "Cambridge study: sustainable energy rising in Bitcoin mining (Cambridge Digital Mining Industry Report)"
+        }
+      ],
+      "id": "cambridge-btc-2025",
+      "section": "crypto",
+      "big": "138 TWh / 39.8 MtCO₂e",
+      "date": "2025-04-28",
+      "notes": "Survey-based (48% of hashrate). Same release: natural gas, at 38.2% (up from 25.0% in 2022), has replaced coal (8.9%, down from 36.6%) as the largest single energy source. EIA (Feb 2024) cites the CBECI estimate for 2023 as 67-240 TWh with a point estimate of 120 TWh - lower than 138 TWh (different method and period). A preliminary Cambridge update (~190 TWh, ~48 Mt by Dec 2025) was seen only in an AI-written trade item and was not used.",
+      "value": 39.8,
+      "unit": "MtCO₂e",
+      "year": 2025,
+      "scenario": null
+    },
+    {
+      "claim": "The investments of 125 billionaires emit 393 million tonnes of CO₂e each year, the equivalent of France.",
+      "quote": "The investments of just 125 billionaires emit 393 million tonnes of CO2e each year – the equivalent of France.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.oxfam.org.uk/media/press-releases/billionaires-responsible-for-a-million-times-more-greenhouse-gases-than-the-average-person-oxfam/",
+          "publisher": "Oxfam GB",
+          "title": "Billionaires responsible for a million times more greenhouse gases than the average person (press release for \"Carbon Billionaires\")"
+        }
+      ],
+      "id": "oxfam-carbon-billionaires-2022",
+      "section": "investments",
+      "big": "393 MtCO₂e",
+      "date": "2022-11-07",
+      "notes": "Scope 1+2 emissions of companies where the billionaire holds >10%, allocated by ownership share. Same release: a collective $2.4 trillion stake in 183 companies, an annual average of 3m tonnes CO2e per billionaire, \"a million times higher\" than the 2.76 t average of the bottom 90%. Full report PDF not opened.",
+      "value": 393,
+      "unit": "MtCO₂e per year",
+      "year": 2022,
+      "scenario": null
+    },
+    {
+      "claim": "The investment emissions of 308 billionaires totalled 586 million tonnes of CO₂e in 2024, more than the combined emissions of 118 countries.",
+      "quote": "The investment emissions of the 308 billionaires totalled 586 million tonnes of CO2e in 2024 ... The emissions produced by their investment portfolios20 (corporates that they own at least 10% of) totalled 586 million tonnes of CO2e in 2024 – more than the combined emissions of 118 countries.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://webassets.oxfamamerica.org/media/documents/Climate_Plunder_-_Executive_Summary.pdf",
+          "publisher": "Oxfam International",
+          "title": "Climate Plunder: How a powerful few are locking the world into disaster (Executive Summary)"
+        }
+      ],
+      "id": "oxfam-308-billionaires-2024",
+      "section": "investments",
+      "big": "586 MtCO₂e",
+      "date": "October 2025",
+      "notes": "Quote joins a summary bullet and the main-text sentence of the same document with \"...\". Same document: the average billionaire's annual investment emissions are 1.9 million tonnes CO2e, \"346,000 times more than the average person\". Different sample and method year from the 2022 study (125 billionaires, 393 Mt, 3 Mt each), so the two are not a trend.",
+      "value": 586,
+      "unit": "MtCO₂e",
+      "year": 2024,
+      "scenario": null
+    },
+    {
+      "claim": "Almost 60% of billionaire investments are in high climate-impact sectors such as mining or oil and gas, compared with 49% for the S&P 1,200 Global Index.",
+      "quote": "almost 60% of billionaire investments are in ‘high climate-impact sectors’,22 such as mining or oil and gas companies (compared to 49% for the S&P 1,200 Global Index).",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://webassets.oxfamamerica.org/media/documents/Climate_Plunder_-_Executive_Summary.pdf",
+          "publisher": "Oxfam International",
+          "title": "Climate Plunder: How a powerful few are locking the world into disaster (Executive Summary)"
+        }
+      ],
+      "id": "oxfam-high-impact-60pct",
+      "section": "investments",
+      "big": "~60% high-impact",
+      "date": "October 2025",
+      "notes": "",
+      "value": 60,
+      "unit": "%",
+      "year": 2024,
+      "scenario": null
+    },
+    {
+      "claim": "Oxfam finds the average investment emissions of 50 of the richest billionaires are around 340 times their emissions from private jets and superyachts combined.",
+      "quote": "the average investment emissions of 50 of the world’s richest billionaires are around 340 times their emissions from private jets and superyachts combined.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.oxfam.org/en/press-releases/billionaires-emit-more-carbon-pollution-90-minutes-average-person-does-lifetime",
+          "publisher": "Oxfam International",
+          "title": "Billionaires emit more carbon pollution in 90 minutes than the average person does in a lifetime (press release for \"Carbon Inequality Kills\")"
+        }
+      ],
+      "id": "oxfam-investment-vs-lifestyle",
+      "section": "investments",
+      "big": "340x",
+      "date": "2024-10-28",
+      "notes": "Shows investments, not lifestyles, dominate billionaire footprints.",
+      "value": 340,
+      "unit": "x",
+      "year": 2024,
+      "scenario": null
+    },
+    {
+      "claim": "Institutional investors hold over $6.5 trillion in shares and bonds of fossil fuel companies.",
+      "quote": "Investing in Climate Chaos reveals that institutional investors currently hold over $6.5 trillion in shares and bonds of fossil fuel companies.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.urgewald.org/en/iicc-2026",
+          "publisher": "Urgewald (with 29 NGO partners)",
+          "title": "Investing in Climate Chaos 2026: Revealing the Bond between Institutional Investors and Fossil Fuels"
+        }
+      ],
+      "id": "urgewald-fossil-holdings-2026",
+      "section": "investments",
+      "big": "$6.5 trillion",
+      "date": "2026-06-23",
+      "notes": "Prior editions: $3.07 trillion (2023) and $4.3 trillion (2024) per search summaries - those editions were not opened here; changes partly reflect wider coverage and market values.",
+      "value": 6.5,
+      "unit": "USD trillion",
+      "year": 2026,
+      "scenario": null
+    },
+    {
+      "claim": "Vanguard ($659.5 billion) and BlackRock ($553.3 billion) plus Saudi Arabia's Public Investment Fund ($283.7 billion) account for nearly a quarter (23%) of institutional fossil fuel investments worldwide.",
+      "quote": "The US-based asset managers Vanguard ($659.5 billion) and BlackRock ($553.3 billion) plus Saudi Arabia’s Public Investment Fund ($283.7 billion) account for nearly a quarter (23%) of institutional fossil fuel investments worldwide.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.urgewald.org/en/iicc-2026",
+          "publisher": "Urgewald (with 29 NGO partners)",
+          "title": "Investing in Climate Chaos 2026: Revealing the Bond between Institutional Investors and Fossil Fuels"
+        }
+      ],
+      "id": "urgewald-vanguard-blackrock",
+      "section": "investments",
+      "big": "Vanguard $659.5bn, BlackRock $553.3bn",
+      "date": "2026-06-23",
+      "notes": "Much of these holdings are index funds held on behalf of clients, not the managers' own money.",
+      "value": 659.5,
+      "unit": "USD billion",
+      "year": 2026,
+      "scenario": null
+    },
+    {
+      "claim": "The richest 1% are projected to emit 70 tonnes CO₂ per person per year in 2030, 30 times the 1.5°C-consistent level of 2.3 tonnes; the richest 10% 21 tonnes (9 times).",
+      "quote": "Global income groups Richest 1% Estimated consumption emissions per person in 2030 (tonnes CO2 per year) - 70 Number of times over the level of per capita emissions consistent with 1.5°C (2.3 tonnes) x30 Richest 10% Estimated consumption emissions per person in 2030 (tonnes CO2 per year) 21 Number of times over the level of per capita emissions consistent with 1.5°C (2.3 tonnes) x9",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.oxfam.org.uk/media/press-releases/carbon-emissions-of-richest-1-set-to-be-30-times-the-15c-limit-in-2030/",
+          "publisher": "Oxfam GB (research by IEEP and SEI)",
+          "title": "Carbon emissions of richest 1% set to be 30 times the 1.5°C limit in 2030 (press release for the briefing \"Carbon inequality in 2030\")"
+        }
+      ],
+      "id": "oxfam-top1-2030-70t",
+      "section": "anchors",
+      "big": "70 t per person (2030)",
+      "date": "2021-11-05",
+      "notes": "Consumption-based emissions; the briefing PDF link (Oxfam Canada) returned 404, so the press release table is cited. 70/2.3 = 30.4.",
+      "value": 70,
+      "unit": "t CO₂ per person per year",
+      "year": 2030,
+      "scenario": "unconditional NDCs as of September 2021"
+    },
+    {
+      "claim": "The richest 1% are expected to account for 16 per cent of total global emissions by 2030, up from 13 per cent in 1990 and 15 per cent in 2015.",
+      "quote": "the richest 1% – fewer people than the population of Germany - are expected to account for 16 per cent of total global emissions by 2030, up from 13 per cent in 1990 and 15 per cent in 2015.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.oxfam.org.uk/media/press-releases/carbon-emissions-of-richest-1-set-to-be-30-times-the-15c-limit-in-2030/",
+          "publisher": "Oxfam GB (research by IEEP and SEI)",
+          "title": "Carbon emissions of richest 1% set to be 30 times the 1.5°C limit in 2030 (press release for the briefing \"Carbon inequality in 2030\")"
+        }
+      ],
+      "id": "oxfam-top1-share-2030",
+      "section": "anchors",
+      "big": "16% of global emissions (2030)",
+      "date": "2021-11-05",
+      "notes": "About 80 million people in 2030 per the same release.",
+      "value": 16,
+      "unit": "%",
+      "year": 2030,
+      "scenario": "unconditional NDCs as of September 2021"
+    },
+    {
+      "claim": "The richest 1 percent (77 million people) were responsible for 16 percent of global consumption emissions in 2019, and the richest 10 percent for half (50 percent).",
+      "quote": "The richest 1 percent (77 million people) were responsible for 16 percent of global consumption emissions in 2019 —more than all car and road transport emissions. The richest 10 percent accounted for half (50 percent) of emissions.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.oxfam.org/en/press-releases/richest-1-emit-much-planet-heating-pollution-two-thirds-humanity",
+          "publisher": "Oxfam International (research with SEI)",
+          "title": "Richest 1% emit as much planet-heating pollution as two-thirds of humanity (press release for \"Climate Equality: A planet for the 99%\")"
+        }
+      ],
+      "id": "oxfam-top1-share-2019",
+      "section": "anchors",
+      "big": "1% -> 16% of emissions",
+      "date": "2023-11-20",
+      "notes": "",
+      "value": 16,
+      "unit": "%",
+      "year": 2019,
+      "scenario": null
+    },
+    {
+      "claim": "Oxfam estimates the outsized emissions of the richest 1 percent will cause 1.3 million heat-related excess deaths, most of them between 2020 and 2030.",
+      "quote": "These outsized emissions of the richest 1 percent will cause 1.3 million heat-related excess deaths, roughly equivalent to the population of Dublin, Ireland. Most of these deaths will occur between 2020 and 2030.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.oxfam.org/en/press-releases/richest-1-emit-much-planet-heating-pollution-two-thirds-humanity",
+          "publisher": "Oxfam International (research with SEI)",
+          "title": "Richest 1% emit as much planet-heating pollution as two-thirds of humanity (press release for \"Climate Equality: A planet for the 99%\")"
+        }
+      ],
+      "id": "oxfam-top1-heat-deaths",
+      "section": "anchors",
+      "big": "1.3 million deaths",
+      "date": "2023-11-20",
+      "notes": "Oxfam's method applies a mortality cost of carbon (see Bressler 2021 items); the methodology note was not opened, and Oxfam Canada describes the timeframe differently (\"this century\").",
+      "value": 1300000,
+      "unit": "excess deaths",
+      "year": 2030,
+      "scenario": null
+    },
+    {
+      "claim": "To stay within 1.5°C, Oxfam projects the richest 1% and 0.1% would need to cut their per capita emissions by 97% and 99% respectively by 2030.",
+      "quote": "To stay within the 1.5°C maximum threshold, Oxfam projects that the richest 1% and 0.1% would need to cut their per capita emissions by 97% and 99%, respectively, by 2030.19",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://webassets.oxfamamerica.org/media/documents/Climate_Plunder_-_Executive_Summary.pdf",
+          "publisher": "Oxfam International",
+          "title": "Climate Plunder: How a powerful few are locking the world into disaster (Executive Summary)"
+        }
+      ],
+      "id": "oxfam-top-cuts-2030",
+      "section": "anchors",
+      "big": "-97% / -99% by 2030",
+      "date": "October 2025",
+      "notes": "Quote ends with footnote marker 19 as printed. Same document: a person in the richest 0.1% emits over 800 kg CO2 per day vs 2 kg for the poorest 50%.",
+      "value": 97,
+      "unit": "% cut",
+      "year": 2030,
+      "scenario": "1.5°C-consistent"
+    },
+    {
+      "claim": "Global greenhouse gas emissions grew 2.3 per cent year-on-year to 57.7 gigatons of CO₂ equivalent in 2024.",
+      "quote": "a task made harder by emissions growing 2.3 per cent year-on-year to 57.7 gigatons of CO 2 equivalent in 2024.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.unep.org/news-and-stories/press-release/new-climate-pledges-only-slightly-lower-dangerous-global-warming",
+          "publisher": "UN Environment Programme (UNEP)",
+          "title": "New climate pledges only slightly lower dangerous global warming (Emissions Gap Report 2025 press release)"
+        }
+      ],
+      "id": "unep-ghg-2024",
+      "section": "anchors",
+      "big": "57.7 GtCO₂e",
+      "date": "2025-11-04",
+      "notes": "All greenhouse gases incl. land use (GtCO2e). Differs in scope from Global Carbon Budget CO2-only totals.",
+      "value": 57.7,
+      "unit": "GtCO₂e",
+      "year": 2024,
+      "scenario": null
+    },
+    {
+      "claim": "UNEP projects warming this century of 2.3-2.5°C with full implementation of NDCs and 2.8°C under current policies.",
+      "quote": "The sixteenth edition of the Emissions Gap Report finds that global warming projections over this century, based on full implementation of Nationally Determined Contributions (NDCs), are now 2.3-2.5°C, while those based on current policies are 2.8°C. This compares to 2.6-2.8°C and 3.1°C in last year’s report.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.unep.org/resources/emissions-gap-report-2025",
+          "publisher": "UN Environment Programme (UNEP)",
+          "title": "Emissions Gap Report 2025: Off Target (report page)"
+        }
+      ],
+      "id": "unep-warming-current-policy",
+      "section": "anchors",
+      "big": "2.8°C (current policies)",
+      "date": "2025-11-04",
+      "notes": "Executive summary: current policies \"limits warming below 2.8°C (range: 2.1–3.9)\" with a 66 per cent chance.",
+      "value": 2.8,
+      "unit": "°C by 2100",
+      "year": 2100,
+      "scenario": "current policies (NDCs: 2.3-2.5°C)"
+    },
+    {
+      "claim": "The UNEP Emissions Gap Report table projects global GHG emissions under current policies of 58 GtCO₂e in 2030 (range 51-62), 54 in 2035 (52-62) and 51 in 2050 (33-71).",
+      "quote": "Table ES.1 Global total GHG emissions in 2030, 2035 and 2050, and estimation of associated emissions gaps under different scenarios Scenario 2030 Current policies Unconditional NDCs Conditional NDCs 2035 Current policies Unconditional NDCs Conditional NDCs 2050 Current policies continued Conditional NDCs and all net-zero pledges** Projected GHG emissions (GtCO2e) Median and range 58 (51–62) 53 (49–55)* 51 (48–53)* 54 (52–62) 48 (46–52)* 46 (45–49)* 51 (33–71) 19 (8–29)",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://wedocs.unep.org/bitstreams/b95235f9-ab3d-4f30-9db8-2c24065de3ad/download",
+          "publisher": "UN Environment Programme (UNEP)",
+          "title": "Emissions Gap Report 2025: Off target - Executive Summary"
+        }
+      ],
+      "id": "unep-current-policy-emissions",
+      "section": "anchors",
+      "big": "58 / 54 / 51 GtCO₂e",
+      "date": "2025-11-04",
+      "notes": "Table text as extracted from the PDF. Column order: 2030 current policies, unconditional NDCs, conditional NDCs; 2035 same three; 2050 current policies continued, conditional NDCs + net-zero pledges. So: 58 (2030 CP), 54 (2035 CP), 51 (2050 CP); 19 (2050 with all net-zero pledges).",
+      "value": 58,
+      "unit": "GtCO₂e",
+      "year": 2030,
+      "scenario": "current policies (2035 and 2050 continued)"
+    },
+    {
+      "claim": "Annual emissions must be cut 35 per cent (2°C) and 55 per cent (1.5°C) below 2019 levels by 2035.",
+      "quote": "Reductions to annual emissions of 35 per cent and 55 per cent, compared with 2019 levels, are needed in 2035 to align with the Paris Agreement 2°C and 1.5°C pathways, respectively.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.unep.org/resources/emissions-gap-report-2025",
+          "publisher": "UN Environment Programme (UNEP)",
+          "title": "Emissions Gap Report 2025: Off Target (report page)"
+        }
+      ],
+      "id": "unep-cuts-2035",
+      "section": "anchors",
+      "big": "-55% by 2035 (1.5°C)",
+      "date": "2025-11-04",
+      "notes": "The UNEP press release gives 25% (2°C) and 40% (1.5°C) for 2030.",
+      "value": 55,
+      "unit": "% below 2019",
+      "year": 2035,
+      "scenario": "1.5°C pathway (2°C: 35%)"
+    },
+    {
+      "claim": "IPCC pathways limiting warming to 1.5°C (>50%) with no or limited overshoot cut GHG emissions 43% by 2030, 60% by 2035, 69% by 2040 and 84% by 2050 from 2019 levels (medians).",
+      "quote": "Table SPM.1: Greenhouse gas and CO2 emission reductions from 2019, median and 5-95 percentiles. {3.3.1, 4.1, Table 3.1, Figure 2.5, Box SPM.1} Limit warming to1.5°C (>50%) with no or limited overshoot Limit warming to 2°C (>67%) Reductions from 2019 emission levels (%) 2030 2035 2040 2050 GHG 43 [34-60] 60 [49-77] 69 [58-90] 84 [73-98]",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf",
+          "publisher": "Intergovernmental Panel on Climate Change (IPCC)",
+          "title": "AR6 Synthesis Report: Summary for Policymakers, Table SPM.1"
+        }
+      ],
+      "id": "ipcc-cuts-2030-2035",
+      "section": "anchors",
+      "big": "-43% (2030) / -60% (2035)",
+      "date": "March 2023",
+      "notes": "Table text as extracted: the first GHG row is the 1.5°C pathway; columns 2030, 2035, 2040, 2050; brackets are 5-95 percentiles. 2°C (>67%) row: 21, 35, 46, 64%.",
+      "value": 43,
+      "unit": "% below 2019",
+      "year": 2030,
+      "scenario": "1.5°C (>50%) no or limited overshoot"
+    },
+    {
+      "claim": "Total anthropogenic CO₂ emissions (fossil and land use) were 42.4 GtCO₂ in 2024, with a preliminary 42.2 GtCO₂ for 2025.",
+      "quote": "Total anthropogenic emissions (fossil and land use, including the carbonation sink) were 11.6 GtC yr −1 (42.4 GtCO 2 yr −1 ) in 2024, with a slightly lower preliminary estimate of 11.5 GtC yr −1 (42.2 GtCO 2 yr −1 ) for 2025.",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://essd.copernicus.org/articles/18/3211/2026/",
+          "publisher": "Earth System Science Data (Copernicus) - Global Carbon Project",
+          "title": "Friedlingstein et al., Global Carbon Budget 2025"
+        }
+      ],
+      "id": "gcb-total-2025",
+      "section": "anchors",
+      "big": "42.2 GtCO₂",
+      "date": "2026-05-13 (preliminary figures first released November 2025)",
+      "notes": "Fossil CO2 alone is expected at 38.1 GtCO2 in 2025 (37.8 in 2024), same paper. Denominator for \"share of global CO2\": e.g. data centres' 180 Mt / 42,200 Mt = 0.43% (derived).",
+      "value": 42.2,
+      "unit": "GtCO₂",
+      "year": 2025,
+      "scenario": "preliminary"
+    },
+    {
+      "claim": "The remaining carbon budget from the beginning of 2026 for a 50% likelihood of limiting warming to 1.5°C is 170 GtCO₂, around 4 years at 2025 emission levels; each additional ~180 GtCO₂ adds about 0.1°C.",
+      "quote": "The remaining carbon budget from the beginning of 2026 for a 50 % likelihood to limit warming to 1.5 °C is nearly exhausted (50 GtC, 170 GtCO 2 left, equivalent to around 4 years at the 2025 emissions levels), consistent with the warming of the planet attributed to human activities, which reached 1.36 °C in 2024. Each additional cumulative emission of about 180 GtCO 2 will lead to approximately 0.1 °C of warming.",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://essd.copernicus.org/articles/18/3211/2026/",
+          "publisher": "Earth System Science Data (Copernicus) - Global Carbon Project",
+          "title": "Friedlingstein et al., Global Carbon Budget 2025"
+        }
+      ],
+      "id": "gcb-remaining-budget",
+      "section": "anchors",
+      "big": "170 GtCO₂ left",
+      "date": "2026-05-13 (preliminary figures first released November 2025)",
+      "notes": "",
+      "value": 170,
+      "unit": "GtCO₂",
+      "year": 2026,
+      "scenario": "1.5°C, 50% likelihood"
+    },
+    {
+      "claim": "Bressler estimates that emitting 1 million metric tons of CO₂ in 2020 causes 226 excess deaths in expectation from 2020 to 2100 in the baseline emissions scenario.",
+      "quote": "This implies that reducing (increasing) emissions by 1 million metric tons of carbon dioxide in 2020 saves 226 lives (causes 226 excess deaths) in expectation from 2020 to 2100 in the baseline emissions scenario.",
+      "status": "peer",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41467-021-24487-w",
+          "publisher": "Nature Communications",
+          "title": "Bressler (2021), The mortality cost of carbon"
+        }
+      ],
+      "id": "mcc-226-per-mt",
+      "section": "anchors",
+      "big": "226 deaths per MtCO₂",
+      "date": "2021-07-29",
+      "notes": "Central estimate 2.26e-4 deaths/t; range spans zero at the low end. The paper states the reciprocal directly: adding 4,434 metric tons in 2020 causes one excess death in expectation 2020-2100. Temperature-related mortality only. Conversion: deaths = Mt x 226 (e.g. 15.6 Mt private aviation in one year -> ~3,500 expected excess deaths 2020-2100; derived, applies a 2020 marginal value to later emissions).",
+      "value": 226,
+      "unit": "excess deaths per MtCO₂",
+      "year": 2020,
+      "scenario": "DICE baseline (~4.1°C by 2100); low-high range -1.71e-4 to 6.78e-4 per t"
+    }
+  ],
+  "connections": []
+}

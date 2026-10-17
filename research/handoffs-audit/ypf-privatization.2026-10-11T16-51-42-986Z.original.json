@@ -1,0 +1,186 @@
+{
+  "id": "ypf-privatization",
+  "title": "Argentina privatizes state oil company YPF (1992–1999), then expropriates 51% (2012)",
+  "pattern": "privatization",
+  "country": "Argentina",
+  "summary": "Yacimientos Petrolíferos Fiscales (YPF), created by the Argentine state on 3 June 1922, was privatized under Law 24.145 of 1992, which reorganized its capital into share classes and provided for sales on national and international stock markets. In July 1993 160 million Class D shares were sold in a worldwide offering, reducing the national government's stake from 100 per cent to about 20 per cent by the end of 1993. In 1999 Spain's Repsol bought a 14.99 per cent stake from the government at auction and then acquired most of the remaining shares by tender offer. In 2012 Law 26.741 declared 51 per cent of YPF, held by Repsol, subject to expropriation; Repsol accepted US$5 billion in Argentine bonds as compensation in 2014.",
+  "public": {
+    "name": "Yacimientos Petrolíferos Fiscales (YPF), Argentine state oil company",
+    "funder": "Government of Argentina",
+    "start": {
+      "date": "1922-06-03",
+      "precision": "day"
+    },
+    "end": {
+      "date": "1993-07",
+      "precision": "month",
+      "kind": "privatized"
+    },
+    "sources": [
+      {
+        "url": "https://www4.hcdn.gob.ar/dependencias/dcomisiones/periodo-132/132-536.pdf",
+        "publisher": "Honorable Cámara de Diputados de la Nación (Argentina)",
+        "title": "Proyecto de resolución: aniversario de la creación de Yacimientos Petrolíferos Fiscales (YPF)",
+        "date": "2014-08-26"
+      },
+      {
+        "url": "https://biblioteca.afip.gob.ar/dcp/LEY_C_024145_1992_09_24",
+        "publisher": "AFIP Biblioteca Electrónica (Argentina)",
+        "title": "Ley 24.145: Federalización de Hidrocarburos; Transformación Empresaria y Privatización del Capital de YPF Sociedad Anónima",
+        "date": "1992-09-24"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/0000904851/000119312515111986/d863353d20f.htm",
+        "publisher": "YPF S.A. (SEC filing)",
+        "title": "YPF Sociedad Anónima Form 20-F for fiscal year 2014",
+        "date": "2015"
+      }
+    ]
+  },
+  "private": {
+    "name": "YPF S.A. private shareholders (from 1993); Repsol S.A. (majority owner from 1999)",
+    "founded": {
+      "date": "1993-07",
+      "precision": "month"
+    },
+    "founders": [],
+    "funders": [
+      "International and Argentine investors",
+      "Repsol S.A."
+    ],
+    "outcome": "By the end of 1993 the government's stake had fallen to about 20%. Repsol owned about 99% from 2000 to 2008 and then sold stakes to the Petersen group. Law 26.741 (May 2012) expropriated 51% of YPF, through Repsol's Class D shares, and split it 51% to the national state and 49% to the hydrocarbon-producing provinces. Under a February 2014 agreement Repsol received US$5.0 billion in sovereign bonds and dropped its claims. Former shareholders Petersen and Eton Park won a US District Court judgment against Argentina in September 2023, but the Second Circuit reversed it on 27 March 2026. Partly reversed (state majority control restored).",
+    "sources": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/0000904851/000119312515111986/d863353d20f.htm",
+        "publisher": "YPF S.A. (SEC filing)",
+        "title": "YPF Sociedad Anónima Form 20-F for fiscal year 2014",
+        "date": "2015"
+      },
+      {
+        "url": "https://www.cnmc.es/sites/default/files/1575605_8.pdf",
+        "publisher": "Comisión Nacional de Energía (Spain), hosted by CNMC",
+        "title": "Informe de la Comisión Nacional de Energía sobre la adquisición por Repsol, S.A. del capital social de Yacimientos Petrolíferos Fiscales, S.A. (YPF)",
+        "date": "1999"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "asset-transfer",
+      "claim": "Law 24.145 (sanctioned 24 September 1992) provided for the privatization of YPF's capital: it split shares into classes, with Class D shares to be sold to private investors on national and international markets, at least 50 per cent of capital to be sold within three years and a first offering of at least 20 per cent.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://biblioteca.afip.gob.ar/dcp/LEY_C_024145_1992_09_24",
+          "publisher": "AFIP Biblioteca Electrónica (Argentina)",
+          "title": "Ley 24.145: Federalización de Hidrocarburos; Transformación Empresaria y Privatización del Capital de YPF Sociedad Anónima",
+          "date": "1992-09-24"
+        }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "YPF's own SEC annual report states that 160 million Class D shares were sold in a worldwide offering in July 1993, reducing the Argentine government's holding from 100 per cent to about 20 per cent by the end of 1993.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000904851/000119312515111986/d863353d20f.htm",
+          "publisher": "YPF S.A. (SEC filing)",
+          "title": "YPF Sociedad Anónima Form 20-F for fiscal year 2014",
+          "date": "2015"
+        }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "Oil & Gas Journal reported in June 1993 that the government had begun selling YPF stock, with a first tranche of 35 per cent expected to raise $2.1–2.5 billion and a 5 per cent cap on any single shareholder.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.ogj.com/home/article/17223224/argentina-starts-first-public-sale-of-ypf-stock",
+          "publisher": "Oil & Gas Journal",
+          "title": "Argentina Starts First Public Sale of YPF Stock",
+          "date": "1993-06-07"
+        }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "Spain's energy regulator recorded that Repsol won the Argentine government's 20 January 1999 auction of a 14.99 per cent YPF stake (52,914,700 shares at $38, about $2.011 billion) and, after its tender offer closed in June 1999, held 98.2 per cent of YPF.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.cnmc.es/sites/default/files/1575605_8.pdf",
+          "publisher": "Comisión Nacional de Energía (Spain), hosted by CNMC",
+          "title": "Informe de la Comisión Nacional de Energía sobre la adquisición por Repsol, S.A. del capital social de Yacimientos Petrolíferos Fiscales, S.A. (YPF)",
+          "date": "1999"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Argentina fully renationalized YPF in 2012.",
+      "assessment": "partly-true",
+      "explanation": "Law 26.741 (sanctioned 3 May 2012) declared 51 per cent of YPF's equity, held by Repsol, subject to expropriation, to be split 51/49 between the national state and the hydrocarbon-producing provinces. The state took a controlling 51 per cent, not the whole company; Repsol accepted US$5 billion in bonds as compensation under a 2014 agreement ratified by Law 26.932.",
+      "sources": [
+        {
+          "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/195000-199999/196894/norma.htm",
+          "publisher": "InfoLEG, Ministerio de Justicia (Argentina)",
+          "title": "Ley 26.741: Yacimientos Petrolíferos Fiscales",
+          "date": "2012-05-03"
+        },
+        {
+          "url": "https://www.repsol.com/content/dam/repsol-corporate/en_gb/sala-de-prensa/documentos-sala-de-prensa/HR_agreement_YPF25022014_tcm14-28134.pdf",
+          "publisher": "Repsol S.A.",
+          "title": "Argentina and Repsol reach a compensation agreement over the expropriation of YPF",
+          "date": "2014-02"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000904851/000119312515111986/d863353d20f.htm",
+          "publisher": "YPF S.A. (SEC filing)",
+          "title": "YPF Sociedad Anónima Form 20-F for fiscal year 2014",
+          "date": "2015"
+        }
+      ]
+    },
+    {
+      "claim": "Argentina seized Repsol's YPF stake without paying for it.",
+      "assessment": "false",
+      "explanation": "Law 26.741 declared 51% of YPF subject to expropriation in May 2012. Under the February 2014 Repsol Agreement, Repsol accepted US$5.0 billion in Argentine sovereign bonds as compensation for the 200,589,525 expropriated Class D shares and withdrew its judicial and arbitral claims.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/904851/000119312526126363/d95578d20f.htm",
+          "publisher": "YPF S.A. (SEC Form 20-F)",
+          "title": "YPF Form 20-F FY2025 (Repsol Agreement)",
+          "date": "2026-03-26"
+        },
+        {
+          "url": "https://www.argentina.gob.ar/normativa/nacional/ley-26741-196894/texto",
+          "publisher": "Argentina.gob.ar (Ministerio de Justicia, Normativa)",
+          "title": "Ley 26.741",
+          "date": "2012-05-03"
+        }
+      ]
+    },
+    {
+      "claim": "A US court ordered Argentina to pay about US$16 billion over the YPF expropriation.",
+      "assessment": "partly-true",
+      "explanation": "On 15 September 2023 the Southern District of New York entered a final judgment of more than US$16.1 billion, including interest, against the Republic (not YPF) in favor of former shareholders Petersen and Eton Park. On 27 March 2026 the Second Circuit reversed that judgment, holding the contract claim not cognizable under Argentine law. It also vacated the order to turn over the state's YPF shares and affirmed the dismissal of claims against YPF. The plaintiffs may seek further review.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000904851/000155485526000442/MainDocument.htm",
+          "publisher": "YPF S.A. (SEC Form 6-K)",
+          "title": "Relevant Fact - Judicial Proceeding in New York",
+          "date": "2026-03-27"
+        },
+        {
+          "url": "https://www.sgrlaw.com/newsroom/publications/second-circuit-vacates-us-16-1-billion-petersen-judgment-against-argentina-key-takeaways-for-sovereign-litigation-and-enforcement",
+          "publisher": "Smith, Gambrell & Russell LLP",
+          "title": "Second Circuit Vacates US$16.1 Billion Petersen Judgment Against Argentina",
+          "date": "2026-04-29"
+        }
+      ]
+    }
+  ]
+}

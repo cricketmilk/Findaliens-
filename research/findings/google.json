@@ -1,0 +1,328 @@
+{
+  "entity": "google",
+  "name": "Alphabet / Google",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Google was founded in 1998 by Stanford students Larry Page and Sergey Brin and reorganized in 2015 under a new holding company, Alphabet Inc., of which the core Google business is the largest subsidiary. Alphabet has faced the most sustained antitrust and regulatory pressure of any American technology company: the US Justice Department and states sued it over search (2020) and digital advertising technology (2023); courts found it liable in both (2024, 2025) and later issued remedies orders (2025, 2026), both appealed. In Europe, the Commission fined Google for its Shopping service (2.42 billion euros, 2017), Android practices (4.34 billion euros, 2018) and AdSense search advertising (1.49 billion euros, 2019); the EU courts upheld the Shopping fine and annulled the AdSense fine. Alphabet also paid a $22.5 million FTC penalty in 2012 over privacy claims and was fined 325 million euros by France's CNIL in 2025 over advertising cookies.",
+    "sources": [
+      {
+        "url": "https://www.theguardian.com/technology/2015/aug/10/google-alphabet-parent-company",
+        "publisher": "The Guardian",
+        "title": "Google to restructure into new holding company called Alphabet",
+        "date": "2015-08-10"
+      },
+      {
+        "url": "https://www.klobuchar.senate.gov/public/index.cfm/2024/8/google-has-an-illegal-monopoly-on-search-us-judge-finds",
+        "publisher": "Reuters (via Sen. Klobuchar)",
+        "title": "Google has an illegal monopoly on search, US judge finds",
+        "date": "2024-08-05"
+      },
+      {
+        "url": "https://curia.europa.eu/jcms/upload/docs/application/pdf/2024-09/cp240135en.pdf",
+        "publisher": "Court of Justice of the European Union",
+        "title": "The Court of Justice upholds the fine of 2.4 billion euros imposed on Google",
+        "date": "2024-09-10"
+      },
+      {
+        "url": "https://www.cnil.fr/en/cookies-and-advertisements-inserted-between-emails-google-fined-325-million-euros-cnil",
+        "publisher": "CNIL (French data protection authority)",
+        "title": "Cookies and advertisements inserted between emails: GOOGLE fined 325 million euros by the CNIL",
+        "date": "2025-09-03"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In August 2015 Google announced it would become a subsidiary of a new holding company called Alphabet, with Sundar Pichai becoming CEO of Google and co-founder Larry Page moving up to Alphabet.",
+      "status": "documented",
+      "date": "2015-08-10",
+      "quote": "The tech company announced on Monday that it would rebrand itself as Alphabet – a new holding company whose largest wholly owned subsidiary will be Google... handing control of its core search engine business to rising star Sundar Pichai.",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/technology/2015/aug/10/google-alphabet-parent-company",
+          "publisher": "The Guardian",
+          "title": "Google to restructure into new holding company called Alphabet",
+          "date": "2015-08-10"
+        }
+      ]
+    },
+    {
+      "claim": "In September 2013 Google launched Calico (California Life Company), a company focused on aging and longevity, with former Genentech CEO Art Levinson as its chief executive.",
+      "status": "documented",
+      "date": "2013-09-18",
+      "quote": "Google said today it has created a new c…ompany to take on aging… Art Levinson, chairman of Apple's board and former CEO of Genentech, will be Calico's CEO.",
+      "sources": [
+        {
+          "url": "https://www.theverge.com/2013/9/18/4744650/google-launches-calico-as-separate-company-to-improve-human-health",
+          "publisher": "The Verge",
+          "title": "Google launches Calico, a new company tasked with extending human life",
+          "date": "2013-09-18"
+        }
+      ]
+    },
+    {
+      "claim": "In January 2014 Google acquired London-based artificial intelligence company DeepMind Technologies for more than $500 million.",
+      "status": "reported",
+      "date": "2014-01-26",
+      "quote": "Google will buy London-based artificial intelligence company DeepMind. The Information reports that the acquisition price was more than $500 million, and that Facebook was also in talks to buy the startup late last year.",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2014/01/26/google-deepmind/",
+          "publisher": "TechCrunch",
+          "title": "Google Acquires Artificial Intelligence Startup DeepMind For More Than $500M",
+          "date": "2014-01-26"
+        }
+      ]
+    },
+    {
+      "claim": "On October 20, 2020, the US Department of Justice and 11 states filed a civil antitrust lawsuit alleging Google illegally maintained monopolies in search and search advertising through exclusionary agreements, the first US government monopolization case against a major company in a generation.",
+      "status": "documented",
+      "date": "2020-10-20",
+      "quote": "The Department of Justice today filed a civil antitrust lawsuit against Google for unlawfully maintaining monopolies in the markets for general search services, search advertising, and general search text advertising in the United States... Google has foreclosed any meaningful search competitor from gaining vital distribution and scale.",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260927110200/https://www.justice.gov/archives/opa/pr/justice-department-sues-monopolist-google-violating-antitrust-laws",
+          "publisher": "US Department of Justice",
+          "title": "Justice Department Sues Monopolist Google For Violating Antitrust Laws",
+          "date": "2020-10-20"
+        }
+      ]
+    },
+    {
+      "claim": "On August 5, 2024, US District Judge Amit Mehta ruled that Google violated Section 2 of the Sherman Act by illegally maintaining a monopoly in online search and search advertising, writing that 'Google is a monopolist, and it has acted as one to maintain its monopoly.' The judge noted Google paid $26.3 billion in 2021 alone to ensure its search engine is the default on smartphones and browsers.",
+      "status": "court",
+      "date": "2024-08-05",
+      "quote": "\"The court reaches the following conclusion: Google is a monopolist, and it has acted as one to maintain its monopoly,\" U.S. District Judge Amit Mehta, Washington, D.C., wrote. Google controls about 90% of the online search market and 95% on smartphones.",
+      "sources": [
+        {
+          "url": "https://www.klobuchar.senate.gov/public/index.cfm/2024/8/google-has-an-illegal-monopoly-on-search-us-judge-finds",
+          "publisher": "Reuters (via Sen. Klobuchar)",
+          "title": "Google has an illegal monopoly on search, US judge finds",
+          "date": "2024-08-05"
+        }
+      ]
+    },
+    {
+      "claim": "On September 2, 2025, Judge Mehta declined to force Google to sell Chrome or Android, but ordered Google to share data with rivals to open up online search competition; both Google and the Justice Department filed competing appeals.",
+      "status": "court",
+      "date": "2025-09-02",
+      "quote": "Google won't have to sell its Chrome browser, a judge in Washington said on Tuesday, handing a rare win to Big Tech in its battle with U.S. antitrust enforcers, but ordering Google to share data with rivals to open up competition in online search.",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250903213855/https://www.reuters.com/sustainability/boards-policy-regulation/google-keeps-chrome-apple-deal-must-share-data-big-antitrust-ruling-2025-09-02/",
+          "publisher": "Reuters",
+          "title": "Google keeps Chrome and Apple deal but must share data in big antitrust ruling",
+          "date": "2025-09-02"
+        }
+      ]
+    },
+    {
+      "claim": "On January 24, 2023, the US Department of Justice and eight states filed a civil antitrust suit alleging Google monopolized digital advertising technology markets, seeking equitable relief and treble damages for federal agencies that overpaid for web display advertising.",
+      "status": "documented",
+      "date": "2023-01-24",
+      "quote": "The Department of Justice, together with the states of…, today filed a civil antitrust suit against Google for monopolizing digital advertising technologies… This enforcement action marks the first monopolization case in approximately half a century in which the Department has sought damages for a civil antitrust violation.",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260928000227/https://www.justice.gov/archives/opa/pr/justice-department-sues-google-monopolizing-digital-advertising-technologies",
+          "publisher": "US Department of Justice",
+          "title": "Justice Department Sues Google for Monopolizing Digital Advertising Technologies",
+          "date": "2023-01-24"
+        }
+      ]
+    },
+    {
+      "claim": "On April 17, 2025, US District Judge Leonie Brinkema in Virginia ruled that Google illegally maintained monopolies in two ad-tech markets — publisher ad servers and ad exchanges — clearing the way for prosecutors to seek a breakup of its ad products.",
+      "status": "court",
+      "date": "2025-04-17",
+      "quote": "Alphabet's Google illegally dominates two markets for online advertising technology, a judge ruled on Thursday... U.S. District Judge Leonie Brinkema in Alexandria, Virginia, found Google liable for \"willfully acquiring and maintaining monopoly power\" in markets for publisher ad servers and the market for ad exchanges.",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20250426094150/https://www.reuters.com/technology/us-judge-finds-google-holds-illegal-online-ad-tech-monopolies-2025-04-17/",
+          "publisher": "Reuters",
+          "title": "Google holds illegal monopolies in ad tech, US judge finds",
+          "date": "2025-04-17"
+        }
+      ]
+    },
+    {
+      "claim": "On September 2, 2026, Judge Brinkema rejected the Justice Department's request to break up Google's advertising technology business, instead ordering Google to change auction practices and appoint an internal antitrust compliance monitor; Google was also told to relax some of its ad auction rules.",
+      "status": "court",
+      "date": "2026-09-02",
+      "quote": "A federal judge said Google should relax its rules governing its online advertising auctions and appoint an internal antitrust compliance monitor, while stopping short of demanding that the Alphabet unit break up its advertising technology monopoly.",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260918015846/https://money.usnews.com/investing/news/articles/2026-09-16/google-should-appoint-antitrust-compliance-officer-us-judge-says-in-ad-tech-case",
+          "publisher": "Reuters (via US News)",
+          "title": "Google Should Relax Ad Tech Rules, Appoint Antitrust Monitor, US Judge Finds",
+          "date": "2026-09-16"
+        }
+      ]
+    },
+    {
+      "claim": "In August 2012 Google agreed to pay a $22.5 million civil penalty to settle US Federal Trade Commission charges that it misrepresented to users of Apple's Safari browser that it would not place tracking cookies or serve targeted ads to them.",
+      "status": "court",
+      "date": "2012-08-09",
+      "quote": "Google Inc. has agreed to pay a record $22.5 million civil penalty to settle Federal Trade Commission charges that it misrepresented to users of Apple Inc.'s Safari Internet browser that it would not place tracking \"cookies\" or serve targeted ads to those users.",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260919071154/https://www.ftc.gov/news-events/news/press-releases/2012/08/google-will-pay-225-million-settle-ftc-charges-it-misrepresented-privacy-assurances-users-apples",
+          "publisher": "US Federal Trade Commission",
+          "title": "Google Will Pay $22.5 Million to Settle FTC Charges it Misrepresented Privacy Assurances to Users of Apple's Safari Internet Browser",
+          "date": "2012-08-09"
+        }
+      ]
+    },
+    {
+      "claim": "On September 1, 2025, France's data protection authority CNIL fined Google 325 million euros for displaying advertisements between Gmail users' emails without valid consent and for placing cookies during Google account creation without valid consent.",
+      "status": "court",
+      "date": "2025-09-01",
+      "quote": "On 1st September 2025, the CNIL imposed a fine of 325 million euros on Google for displaying advertisements between Gmail users' emails without their consent and for placing cookies when creating Google accounts, without valid consent of French users.",
+      "sources": [
+        {
+          "url": "https://www.cnil.fr/en/cookies-and-advertisements-inserted-between-emails-google-fined-325-million-euros-cnil",
+          "publisher": "CNIL (French data protection authority)",
+          "title": "Cookies and advertisements inserted between emails: GOOGLE fined 325 million euros by the CNIL",
+          "date": "2025-09-03"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "spacex",
+      "toName": "SpaceX",
+      "toType": "company",
+      "relation": "invested in",
+      "claim": "Google and Fidelity invested $1 billion in SpaceX in January 2015, taking an ownership stake just shy of 10%.",
+      "status": "documented",
+      "date": "2015-01-20",
+      "quote": "SpaceX, the space exploration startup helmed by ex-PayPal founder Elon Musk, has confirmed that it has raised $1 billion in new funding, in a round including Google and Fidelity... Google and Fidelity get an ownership stake just shy of 10 percent in exchange for their investment.",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2015/01/20/spacex-raises-1-billion-in-new-funding-from-google-and-fidelity/",
+          "publisher": "TechCrunch",
+          "title": "SpaceX Raises $1 Billion In New Funding From Google And Fidelity",
+          "date": "2015-01-20"
+        }
+      ]
+    },
+    {
+      "to": "nvidia",
+      "toName": "Nvidia",
+      "toType": "company",
+      "relation": "contracted with",
+      "claim": "Google is a customer of Nvidia's GPU chips for AI training while also competing with Nvidia through its in-house Tensor Processing Units (TPUs); Nvidia's CEO said Google was a customer and that Gemini can run on Nvidia's technology.",
+      "status": "documented",
+      "date": "2025-11-25",
+      "quote": "\"We are experiencing accelerating demand for both our custom TPUs and Nvidia GPUs,\" a Google spokesperson said... Nvidia CEO Jensen Huang addressed rising TPU competition on an earnings call earlier this month, noting that Google was a customer for his company's GPU chips and that Gemini can run on Nvidia's technology.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2025/11/25/nvidia-says-its-gpus-are-a-generation-ahead-of-googles-ai-chips.html",
+          "publisher": "CNBC",
+          "title": "Nvidia says its GPUs are a 'generation ahead' of Google's AI chips",
+          "date": "2025-11-25"
+        }
+      ]
+    },
+    {
+      "to": "nvidia",
+      "toName": "Nvidia",
+      "toType": "company",
+      "relation": "partnered with",
+      "claim": "In December 2025 Reuters reported that Google was building an initiative called TorchTPU, with Meta's help, to make its AI chips run PyTorch better, a move aimed at weakening Nvidia's dominance of the AI computing market.",
+      "status": "reported",
+      "date": "2025-12-17",
+      "quote": "Google is working on a new initiative to make its artificial intelligence chips better at running PyTorch, the world's most widely used AI software framework, in a move aimed at weakening Nvidia's longstanding dominance of the AI computing market, according to people familiar with the matter.",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20251217162134/https://www.reuters.com/business/google-works-erode-nvidias-software-advantage-with-metas-help-2025-12-17/",
+          "publisher": "Reuters",
+          "title": "Exclusive: Google works to erode Nvidia's software advantage with Meta's help",
+          "date": "2025-12-17"
+        }
+      ]
+    },
+    {
+      "to": "openai",
+      "toName": "OpenAI",
+      "toType": "company",
+      "relation": "contracted with",
+      "claim": "Reuters reported in June 2025 that OpenAI planned to add Alphabet's Google Cloud to meet its computing needs, a cloud infrastructure deal finalized in May 2025 between two AI competitors.",
+      "status": "reported",
+      "date": "2025-06-10",
+      "quote": "OpenAI plans to add Alphabet's Google cloud service to meet its growing needs for computing capacity, three sources told Reuters, marking a surprising collaboration between two prominent competitors in the artificial intelligence sector. The deal, which has been under discussion for a few months, was finalized in May.",
+      "sources": [
+        {
+          "url": "https://hk.marketscreener.com/quote/stock/MICROSOFT-CORPORATION-4835/news/Exclusive-OpenAI-taps-Google-in-unprecedented-cloud-deal-despite-AI-rivalry-sources-say-50202846/",
+          "publisher": "Reuters (via MarketScreener)",
+          "title": "Exclusive-OpenAI taps Google in unprecedented cloud deal despite AI rivalry, sources say",
+          "date": "2025-06-10"
+        }
+      ]
+    },
+    {
+      "to": "alec",
+      "toName": "ALEC (American Legislative Exchange Council)",
+      "toType": "organization",
+      "relation": "funded",
+      "claim": "In September 2014 Google cut ties with the American Legislative Exchange Council over its climate stance; executive chairman Eric Schmidt said the company's support was a 'mistake' and that ALEC was 'literally lying' on climate change.",
+      "status": "documented",
+      "date": "2014-09-22",
+      "quote": "Google chairman Eric Schmidt announced this week that his company would leave the American Legislative Exchange Council, saying the company's support was a \"mistake\" and it would not align with…",
+      "sources": [
+        {
+          "url": "https://www.usatoday.com/story/money/business/2014/09/26/tech-titans-bolt-conservative-alec-over-climate-flap/16233881/",
+          "publisher": "USA Today",
+          "title": "Google cites climate change as tech titans quit ALEC",
+          "date": "2014-09-26"
+        }
+      ]
+    },
+    {
+      "to": "meta",
+      "toName": "Meta Platforms",
+      "toType": "company",
+      "relation": "partnered with",
+      "claim": "Reuters reported in December 2025 that Google was working with Meta on TorchTPU, an initiative to make Google's AI chips better at running PyTorch, and that Meta was in talks to spend billions of dollars on Google's TPU chips from 2027.",
+      "status": "reported",
+      "date": "2025-12-17",
+      "quote": "Google is working on a new initiative to make its artificial intelligence chips better at running PyTorch… Meta is in talks with Google to spend billions of dollars on the Alphabet-owned company's chips for use in its data centers starting from 2027.",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20251217162134/https://www.reuters.com/business/google-works-erode-nvidias-software-advantage-with-metas-help-2025-12-17/",
+          "publisher": "Reuters",
+          "title": "Exclusive: Google works to erode Nvidia's software advantage with Meta's help",
+          "date": "2025-12-17"
+        }
+      ]
+    },
+    {
+      "to": "us-department-of-justice",
+      "toName": "US Department of Justice",
+      "toType": "government",
+      "relation": "sued by",
+      "claim": "The US Department of Justice sued Google twice: in October 2020 over search and search advertising monopolies, and in January 2023 over digital advertising technology monopolies; the DOJ also sought and won remedies orders after both liability rulings.",
+      "status": "documented",
+      "date": "2023-01-24",
+      "quote": "The Department of Justice, together with the states…, today filed a civil antitrust suit against Google for monopolizing digital advertising technologies… In 2020, the Justice Department filed a civil antitrust suit against Google for monopolizing search and search advertising.",
+      "sources": [
+        {
+          "url": "https://web.archive.org/web/20260928000227/https://www.justice.gov/archives/opa/pr/justice-department-sues-google-monopolizing-digital-advertising-technologies",
+          "publisher": "US Department of Justice",
+          "title": "Justice Department Sues Google for Monopolizing Digital Advertising Technologies",
+          "date": "2023-01-24"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "The September 2026 ad-tech remedies ruling (Brinkema) and the appeals in both US cases are still in progress; the final outcomes (including the DC Circuit's decision on the search remedies order) were unresolved as of the research date.",
+    "The Android fine (4.34 billion euros, reduced to 4.125 billion) is still under appeal at the Court of Justice as of June 2025 — the final CJEU ruling on that appeal was not confirmed in this session.",
+    "The Commission's appeal against the General Court's annulment of the 1.49 billion euro AdSense fine was pending as of this research.",
+    "Google's investment in Anthropic (reported 2023, $2 billion) could not be verified with a source opened in this session and is left out.",
+    "Removed in audit (could not re-open any cited page to confirm it: https://curia.europa.eu/jcms/upload/docs/application/pdf/2024-09/cp240135en.pdf (not text: application/pdf); https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_17_1784/IP_17_1784_EN.pdf (not text: application/pdf)): The European Commission fined Google 2.42 billion euros in June 2017 for giving its own comparison shopping service an illegal advantage in search results; on September 10, 2024, the Court of Justice of the European Union dismissed Google and Alphabet's final appeal and upheld the fine.",
+    "Removed in audit (could not re-open any cited page to confirm it: https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_18_4581/IP_18_4581_EN.pdf (not text: application/pdf); https://curia.europa.eu/site/upload/docs/application/pdf/2025-06/cp250072en.pdf (not text: application/pdf)): The European Commission fined Google 4.34 billion euros in July 2018 for abusing its dominance in Android mobile operating systems, the largest fine the Commission had ever imposed on a single undertaking; the fine was reduced to 4.125 billion euros in 2022 when the General Court annulled the revenu",
+    "Removed in audit (could not re-open any cited page to confirm it: https://curia.europa.eu/jcms/upload/docs/application/pdf/2024-09/cp240143en.pdf (not text: application/pdf); https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_19_1770/IP_19_1770_EN.pdf (not text: application/pdf)): The European Commission fined Google 1.49 billion euros in March 2019 for abusive clauses in its contracts for brokering online search advertisements; on September 18, 2024, the General Court annulled the fine even while upholding most of the Commission's findings, and the Commission appealed that a",
+    "Removed in audit (the quoted passage is not on the cited page): Google's Google Earth product descends from Keyhole, the geospatial software company in which the CIA's venture arm In-Q-Tel invested in 2003 (on behalf of the National Imagery and Mapping Agency); Google acquired Keyhole in 2004."
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "entity": "bis",
+  "name": "Bank for International Settlements",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "The Bank for International Settlements (BIS) was established in 1930 in Basel, Switzerland, under the Young Plan to manage German First World War reparation payments. It describes itself as the world's oldest international financial institution and is owned by 63 central banks. During the Second World War it continued to receive interest payments, mostly in gold, from the German Reichsbank. It also received 3.7 tonnes of gold that had been looted from the central banks of Belgium and the Netherlands, which it returned in 1948. The BIS hosts the secretariat of the Basel Committee on Banking Supervision, which sets international bank capital standards.",
+    "sources": [
+      {
+        "url": "https://www.bis.org/about/index.htm",
+        "publisher": "Bank for International Settlements",
+        "title": "About the BIS",
+        "date": ""
+      },
+      {
+        "url": "https://www.bis.org/about/history_2ww2.htm",
+        "publisher": "Bank for International Settlements",
+        "title": "History - the BIS during the Second World War",
+        "date": ""
+      },
+      {
+        "url": "https://www.bis.org/bcbs/charter.htm",
+        "publisher": "Bank for International Settlements",
+        "title": "BCBS charter",
+        "date": ""
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In March 1939, days after German troops occupied Prague, the BIS carried out an order from the Czechoslovak National Bank to transfer part of its gold reserves, held in a BIS account at the Bank of England, to a German Reichsbank account. The BIS calls this its most controversial decision of the period and says the order was later found to have been issued under duress.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.bis.org/about/history_2ww2.htm",
+          "publisher": "Bank for International Settlements",
+          "title": "History - the BIS during the Second World War",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "claim": "Under a 1936 protocol on its immunities and national implementing laws, the BIS has broad legal immunities. For example, Canada's Bank for International Settlements (Immunity) Act makes the BIS immune from the jurisdiction of Canadian courts in civil proceedings and protects its property, and property entrusted to it, from attachment and execution.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://laws-lois.justice.gc.ca/eng/acts/B-1.5/page-1.html",
+          "publisher": "Government of Canada, Justice Laws",
+          "title": "Bank for International Settlements (Immunity) Act (S.C. 2007, c. 35, s. 140)",
+          "date": "2007-12-14"
+        }
+      ]
+    }
+  ],
+  "connections": []
+}

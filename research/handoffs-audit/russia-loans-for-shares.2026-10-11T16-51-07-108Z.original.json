@@ -1,0 +1,84 @@
+{
+  "id": "russia-loans-for-shares",
+  "title": "Russian state stakes → loans-for-shares banks",
+  "pattern": "privatization",
+  "country": "Russia",
+  "summary": "In 1995 the Russian government pledged tranches of shares in 12 large state companies, including Norilsk Nickel, Yukos, Sibneft, LUKoil and Surgutneftegaz, to private lenders at auctions, in return for loans to the federal budget totalling about $800 million. The government did not repay by the September 1996 deadline, so the lenders sold the stakes, usually to themselves. The auctions were often organised by banks linked to the winners. An English court later found that the Sibneft winner had no genuine competition.",
+  "public": {
+    "name": "Federal shareholdings pledged in the 1995 loans-for-shares auctions (Norilsk Nickel, Yukos, Sibneft, Sidanko, LUKoil, Surgutneftegaz and others)",
+    "funder": "Government of the Russian Federation",
+    "budget": "Loans to the federal budget of about $800 million against the pledged stakes (Treisman 2010)",
+    "start": { "date": "1995", "precision": "year" },
+    "end": { "date": "1996-09", "precision": "month", "kind": "privatized" },
+    "sources": [
+      { "url": "https://doi.org/10.2747/1060-586X.26.3.207", "publisher": "Post-Soviet Affairs (Taylor & Francis)", "title": "\"Loans for Shares\" Revisited (Daniel Treisman), vol. 26 no. 3, pp. 207-227", "date": "2010-07" },
+      { "url": "https://www.nber.org/system/files/working_papers/w15819/w15819.pdf", "publisher": "National Bureau of Economic Research", "title": "\"Loans for Shares\" Revisited, NBER Working Paper 15819 (Daniel Treisman)", "date": "2010-03" }
+    ]
+  },
+  "private": {
+    "name": "Oneksimbank / Uneximbank (Norilsk Nickel, Sidanko); Bank Menatep-backed Laguna (Yukos); NFK with Stolichny Savings Bank, controlled in practice by Roman Abramovich (Sibneft); company managers (LUKoil, Surgutneftegaz)",
+    "founded": { "date": "1995-11", "precision": "month" },
+    "founders": ["Vladimir Potanin (Oneksimbank)", "Mikhail Khodorkovsky (Menatep)", "Roman Abramovich and Boris Berezovsky (NFK / Sibneft)"],
+    "funders": [],
+    "outcome": "The date above is the first auction, Norilsk Nickel's, in November 1995. The lenders took full ownership after the government failed to repay. Treisman's estimates: winners paid 13% (Norilsk), 16% (Sibneft) and 45% (Yukos) below late-1995 market valuations, and the biggest discounts went to the managers of LUKoil and Surgutneftegaz. Between end-1996 and end-2003 Sibneft's market capitalisation rose more than 10 times and Yukos' more than 50 times in dollar terms, against about three times for the RTS index.",
+    "sources": [
+      { "url": "https://www.nber.org/system/files/working_papers/w15819/w15819.pdf", "publisher": "National Bureau of Economic Research", "title": "\"Loans for Shares\" Revisited, NBER Working Paper 15819 (Daniel Treisman)", "date": "2010-03" },
+      { "url": "https://www.rferl.org/a/1085673.html", "publisher": "Radio Free Europe/Radio Liberty", "title": "Russia: Privatization Of Norilsk Nickel Fuels Competition", "date": "1997-07-09" }
+    ]
+  },
+  "links": [
+    {
+      "type": "asset-transfer",
+      "claim": "A London High Court judgment records that NFK, with Stolichny Savings Bank, won the Sibneft loans-for-shares auction on 28 December 1995 with a $100.3 million loan bid; NFK 'had no genuine competition', as other bidders were persuaded not to bid or to bid less, and Menatep's under-bid was pre-arranged.",
+      "status": "court",
+      "sources": [
+        { "url": "https://caselaw.nationalarchives.gov.uk/ewhc/comm/2012/2463", "publisher": "High Court of England and Wales, Commercial Court (The National Archives, Find Case Law)", "title": "Berezovsky v Abramovich [2012] EWHC 2463 (Comm)", "date": "2012-08-31" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "Peer-reviewed analysis: the state gave minority stakes in 12 large companies to lenders in return for loans of about $800 million; if not repaid by September 1996 the lenders could sell the stakes and keep 30% of any gain. The government did not repay, and the creditors sold the stakes, usually to themselves, at auctions with minimal competition.",
+      "status": "peer",
+      "sources": [
+        { "url": "https://doi.org/10.2747/1060-586X.26.3.207", "publisher": "Post-Soviet Affairs (Taylor & Francis)", "title": "\"Loans for Shares\" Revisited (Daniel Treisman), vol. 26 no. 3, pp. 207-227", "date": "2010-07" },
+        { "url": "https://www.nber.org/system/files/working_papers/w15819/w15819.pdf", "publisher": "National Bureau of Economic Research", "title": "\"Loans for Shares\" Revisited, NBER Working Paper 15819 (Daniel Treisman)", "date": "2010-03" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "Uneximbank paid $170.1 million for its 38% bloc of Norilsk Nickel in the 1995 loans-for-shares transfer. On 5 August 1997 Svift, a company affiliated with Oneksimbank, won the auction for that stake with a bid of about $250 million.",
+      "status": "reported",
+      "sources": [
+        { "url": "https://www.rferl.org/a/1085673.html", "publisher": "Radio Free Europe/Radio Liberty", "title": "Russia: Privatization Of Norilsk Nickel Fuels Competition", "date": "1997-07-09" },
+        { "url": "https://www.rferl.org/a/1141466.html", "publisher": "Radio Free Europe/Radio Liberty", "title": "Newsline - August 6, 1997", "date": "1997-08-06" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "In December 1995 AOZT Laguna, backed by Bank Menatep, the bank that organised the auction, won 78% of Yukos in two combined auctions for $309.1 million. That included the 45% loans-for-shares stake, won with a $159 million bid against a $150 million minimum; the only rival bid was guaranteed by banks that also backed Laguna.",
+      "status": "reported",
+      "sources": [
+        { "url": "https://www.themoscowtimes.com/archive/banks-buy-control-of-2-leading-oil-firms", "publisher": "The Moscow Times", "title": "Banks Buy Control of 2 Leading Oil Firms", "date": "1995-12-09" }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Oligarchs bought Russia's crown jewels for a tiny fraction of their value.",
+      "assessment": "partly-true",
+      "explanation": "The auctions were rigged in execution; a UK court found the Sibneft winner had no genuine competition. But Treisman estimates the oligarch winners paid 13–45% below late-1995 market prices for Norilsk, Sibneft and Yukos (28–53% at 1996 prices). The largest discounts, 69–89%, went to Soviet-era managers buying stakes in LUKoil and Surgutneftegaz.",
+      "sources": [
+        { "url": "https://www.nber.org/system/files/working_papers/w15819/w15819.pdf", "publisher": "National Bureau of Economic Research", "title": "\"Loans for Shares\" Revisited, NBER Working Paper 15819 (Daniel Treisman)", "date": "2010-03" },
+        { "url": "https://caselaw.nationalarchives.gov.uk/ewhc/comm/2012/2463", "publisher": "High Court of England and Wales, Commercial Court (The National Archives, Find Case Law)", "title": "Berezovsky v Abramovich [2012] EWHC 2463 (Comm)", "date": "2012-08-31" }
+      ]
+    },
+    {
+      "claim": "Courts have ruled the loans-for-shares auctions illegal.",
+      "assessment": "unsupported",
+      "explanation": "The London High Court noted that Russia's Audit Chamber criticised the Sibneft auction in December 1997 (reserve too low, outcome fixed in advance) and found as fact that NFK had no genuine competition. It expressly declined to decide whether the auction was corrupt or unlawful under Russian law at the time.",
+      "sources": [
+        { "url": "https://caselaw.nationalarchives.gov.uk/ewhc/comm/2012/2463", "publisher": "High Court of England and Wales, Commercial Court (The National Archives, Find Case Law)", "title": "Berezovsky v Abramovich [2012] EWHC 2463 (Comm)", "date": "2012-08-31" }
+      ]
+    }
+  ]
+}

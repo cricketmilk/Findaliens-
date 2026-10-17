@@ -1,0 +1,20 @@
+{
+ "file": "bis.json",
+ "kind": "finding",
+ "at": "2026-10-11T16:46:05.925Z",
+ "kept": 2,
+ "removed": [],
+ "unchecked": [
+  {
+   "where": "facts[1]",
+   "claim": "Under a 1936 protocol on its immunities and national implementing laws, the BIS has broad legal immunities. For example, Canada's Bank for International Settlements (Immunity) Act makes the BIS immune",
+   "why": "could not re-open any cited page to confirm it: https://laws-lois.justice.gc.ca/eng/acts/B-1.5/page-1.html (page came back nearly empty)"
+  }
+ ],
+ "resourced": [],
+ "wikiSourcesDropped": 0,
+ "notes": [],
+ "pagesOpened": 2,
+ "pagesRefused": 0,
+ "empty": false
+}

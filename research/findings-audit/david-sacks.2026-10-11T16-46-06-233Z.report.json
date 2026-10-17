@@ -1,0 +1,61 @@
+{
+ "file": "david-sacks.json",
+ "kind": "finding",
+ "at": "2026-10-11T16:46:06.233Z",
+ "kept": 57,
+ "removed": [
+  {
+   "where": "facts[14]",
+   "claim": "Sacks founded the genealogy site Geni in June 2006. It raised $16.5 million from Founders Fund and Charles River Ventures. Yammer was developed inside Geni. Sacks stepped down as Geni CEO in 2011, and",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 16.5, 2011, founders fund, charles river ventures"
+  },
+  {
+   "where": "facts[22]",
+   "claim": "Sacks co-hosted the All-In podcast, started in 2020, with Chamath Palihapitiya (Social Capital), Jason Calacanis and David Friedberg (The Production Board).",
+   "why": "the cited pages do not contain the claim's figures and names; missing: chamath palihapitiya, social capital, jason calacanis, david friedberg, production"
+  },
+  {
+   "where": "facts[32]",
+   "claim": "The waiver memo lists the divestments: he and Craft sold all liquid cryptocurrency, including Bitcoin, Ethereum and Solana, before January 20, 2025, and he sold his Bitwise 10 Crypto Index Fund positi",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 2025, craft, bitcoin, ethereum, solana, bitwise, crypto index, coinbase"
+  },
+  {
+   "where": "facts[38]",
+   "claim": "On March 26–27, 2026 Sacks said he was leaving the AI and crypto czar post because he had used up his 130 days as a special government employee. He became co-chair of PCAST with OSTP director Michael ",
+   "why": "the quoted passage is not on the cited pages; missing: 130, pcast, ostp, michael kratsios"
+  },
+  {
+   "where": "connections[13]",
+   "claim": "Invested in BitGo's December 2017 round and joined its board. BitGo was still a Craft holding in March 2025, at under 2.5% of his assets.",
+   "why": "the cited pages do not contain the claim's figures and names; missing: craft"
+  },
+  {
+   "where": "connections[21]",
+   "claim": "Krishnan, an Andreessen Horowitz general partner from 2021, joined Sacks in the informal Twitter advisory group in 2022. Trump named him White House senior AI policy adviser in December 2024 to work c",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 2022, 2024, trump, white house"
+  }
+ ],
+ "unchecked": [
+  {
+   "where": "facts[15]",
+   "claim": "Yammer, launched in 2008, raised an $85 million round led by DFJ Growth in February 2012. Earlier backers named in the report were Founders Fund, Charles River Ventures, Emergence Capital, Social+Capi",
+   "why": "could not re-open any cited page to confirm it: https://venturebeat.com/business/yammer-closes-85m-round-new-desktop-apps-planned (HTTP 429)"
+  },
+  {
+   "where": "connections[8]",
+   "claim": "Founded the genealogy site Geni in 2006 and was its CEO until 2011. MyHeritage bought it in 2012.",
+   "why": "could not re-open any cited page to confirm it: https://venturebeat.com/ai/myheritage-acquires-geni-and-25m-to-build-family-tree-of-the-whole-world (HTTP 429)"
+  },
+  {
+   "where": "connections[11]",
+   "claim": "Founders Fund (Thiel's firm) invested in Sacks's Geni and Yammer.",
+   "why": "could not re-open any cited page to confirm it: https://venturebeat.com/ai/myheritage-acquires-geni-and-25m-to-build-family-tree-of-the-whole-world (HTTP 429); https://venturebeat.com/business/yammer-closes-85m-round-new-desktop-apps-planned (HTTP 429)"
+  }
+ ],
+ "resourced": [],
+ "wikiSourcesDropped": 0,
+ "notes": [],
+ "pagesOpened": 43,
+ "pagesRefused": 4,
+ "empty": false
+}

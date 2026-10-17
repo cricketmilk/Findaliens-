@@ -1,0 +1,62 @@
+{
+  "id": "darpa-grand-challenge-waymo",
+  "title": "DARPA Grand Challenges → Google self-driving car project / Waymo",
+  "pattern": "parallel-successor",
+  "country": "United States",
+  "summary": "DARPA ran prize competitions for autonomous vehicles: the 2004 Grand Challenge (no finisher), the 2005 Grand Challenge (won by Stanford's 'Stanley') and the 2007 Urban Challenge (won by Carnegie Mellon's 'Boss'). The competitions ended; DARPA did not own or hand over the teams' vehicles or code as a program asset. Google started a self-driving car project in 2009, led by Sebastian Thrun and staffed by challenge veterans including Chris Urmson, Mike Montemerlo and Anthony Levandowski; it became Waymo, an Alphabet company, in 2016. The tie is people moving from university challenge teams to Google, not a transfer, license or contract.",
+  "public": {
+    "name": "DARPA Grand Challenge (2004, 2005) and Urban Challenge (2007)",
+    "funder": "DARPA",
+    "start": { "date": "2004-03-13", "precision": "day" },
+    "end": { "date": "2007-11-03", "precision": "day", "kind": "completed" },
+    "sources": [
+      { "url": "https://www.darpa.mil/about/innovation-timeline/grand-challenge", "publisher": "DARPA", "title": "Grand Challenge" },
+      { "url": "https://cs.cmu.edu/news/2007/tartan-racing-wins-2-million-prize-darpa-urban-challenge-stanford-racing-wins-1-million-second", "publisher": "Carnegie Mellon University", "title": "Tartan Racing Wins $2 Million Prize for DARPA Urban Challenge", "date": "2007-11-04" }
+    ]
+  },
+  "private": {
+    "name": "Google self-driving car project (Waymo)",
+    "founded": { "date": "2009", "precision": "year" },
+    "founders": ["Sebastian Thrun (project lead)"],
+    "funders": ["Google / Alphabet"],
+    "outcome": "Began at Google in 2009; established as Waymo, an Alphabet self-driving technology company, in 2016. No DARPA license, asset transfer or contract to Google is documented.",
+    "sources": [
+      { "url": "https://waymo.com/company/", "publisher": "Waymo", "title": "Company" },
+      { "url": "https://cs.cmu.edu/news/2010/driven-innovate", "publisher": "Carnegie Mellon University School of Computer Science", "title": "Driven to Innovate", "date": "2010-10-19" }
+    ]
+  },
+  "links": [
+    {
+      "type": "personnel",
+      "claim": "Leaders of DARPA challenge teams went on to found and staff Google's project: Sebastian Thrun led Stanford's 2005-winning team and headed Google's project; Mike Montemerlo was on Stanley's team and later at Google; Chris Urmson played key roles on Carnegie Mellon's challenge teams and became the project's tech lead; Anthony Levandowski led a Berkeley motorcycle entry in 2004 and later worked on the Google project.",
+      "status": "reported",
+      "sources": [
+        { "url": "http://robots.stanford.edu/papers/thrun.stanley05.pdf", "publisher": "Journal of Field Robotics", "title": "Stanley: The Robot that Won the DARPA Grand Challenge", "date": "2006" },
+        { "url": "https://cs.cmu.edu/news/2010/driven-innovate", "publisher": "Carnegie Mellon University School of Computer Science", "title": "Driven to Innovate", "date": "2010-10-19" },
+        { "url": "https://spectrum.ieee.org/how-google-self-driving-car-works", "publisher": "IEEE Spectrum", "title": "How Google's Self-Driving Car Works", "date": "2011-10-18" },
+        { "url": "https://www.nbcnews.com/tech/tech-news/how-u-s-ended-targeting-star-google-engineer-n1047016", "publisher": "NBC News", "title": "How U.S. ended up targeting a star Google engineer", "date": "2019-08-27" }
+      ]
+    },
+    {
+      "type": "timing",
+      "claim": "The last DARPA challenge, the Urban Challenge, was held Nov 3, 2007; Google's self-driving car project began in 2009, roughly two years later.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://cs.cmu.edu/news/2007/tartan-racing-wins-2-million-prize-darpa-urban-challenge-stanford-racing-wins-1-million-second", "publisher": "Carnegie Mellon University", "title": "Tartan Racing Wins $2 Million Prize for DARPA Urban Challenge", "date": "2007-11-04" },
+        { "url": "https://waymo.com/company/", "publisher": "Waymo", "title": "Company" }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Waymo is DARPA's self-driving car program handed to Google.",
+      "assessment": "partly-true",
+      "explanation": "The people link is real and well documented: Google's project was led by the head of Stanford's 2005-winning team and staffed by veterans of the Stanford, Carnegie Mellon and Berkeley challenge entries. But DARPA ran time-limited prize competitions, not a vehicle program it later closed and transferred; DARPA's own timeline describes prizes awarded to university teams, and no license, asset transfer or contract from DARPA to Google is documented. Google hired the people rather than receiving the program.",
+      "sources": [
+        { "url": "https://www.darpa.mil/about/innovation-timeline/grand-challenge", "publisher": "DARPA", "title": "Grand Challenge" },
+        { "url": "https://cs.cmu.edu/news/2010/driven-innovate", "publisher": "Carnegie Mellon University School of Computer Science", "title": "Driven to Innovate", "date": "2010-10-19" },
+        { "url": "https://www.nbcnews.com/tech/tech-news/how-u-s-ended-targeting-star-google-engineer-n1047016", "publisher": "NBC News", "title": "How U.S. ended up targeting a star Google engineer", "date": "2019-08-27" }
+      ]
+    }
+  ]
+}

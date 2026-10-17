@@ -1,0 +1,1723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manufacturing Consent — The Cornfield Gazette</title>
+<meta name="description" content="Paid media, war propaganda, bought movements, faith used against workers, Hollywood's borrowed carriers and paid influencers: the documented cases, each checked against its sources.">
+<meta name="theme-color" content="#0b0814">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌽</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --night: #0b0814;
+    --card: #161025;
+    --card-hi: #1c1430;
+    --line: rgba(161, 92, 240, 0.28);
+    --line-hi: rgba(161, 92, 240, 0.6);
+    --text: #ede6ff;
+    --read: #d3c8ec;
+    --dim: #a596c4;
+    --mute: #8476a3;
+    --violet: #a15cf0;
+    --lav: #cdb4ff;
+    --gold: #ffd84d;
+    --pink: #ff7ac8;
+    --mint: #9af0d5;
+    --pixel: "Press Start 2P", monospace;
+    --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body { margin: 0; background: var(--night); color: var(--text); font-family: var(--sans); font-size: 16px; line-height: 1.6; }
+  canvas { display: block; image-rendering: pixelated; image-rendering: crisp-edges; }
+  a { color: var(--lav); text-decoration-color: rgba(205, 180, 255, 0.4); text-underline-offset: 3px; }
+  a:hover { color: #fff; text-decoration-color: var(--lav); }
+  .page { max-width: 1180px; margin: 0 auto; padding: 22px 28px 90px; }
+
+  .nav { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px; }
+  .nav a { font-family: var(--pixel); font-size: 8.5px; line-height: 1.3; color: var(--lav); text-decoration: none; border: 1.5px solid var(--line-hi); padding: 7px 10px; }
+  .nav a:hover { background: var(--lav); color: var(--night); border-color: var(--lav); }
+
+  /* ---------- the factory ---------- */
+  .yard { margin: 0; border: 2px solid var(--violet); box-shadow: 8px 8px 0 #2a1d42; background: var(--night); }
+  .yard-cap { display: flex; justify-content: space-between; gap: 6px 12px; flex-wrap: wrap; padding: 8px 14px; border-top: 2px solid var(--violet); font-family: var(--mono); font-size: 11px; letter-spacing: 0.14em; color: var(--dim); }
+  .yard-cap .on { color: var(--gold); }
+
+  .head { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 44px; align-items: center; margin: 44px 0 38px; }
+  .kicker { margin: 0 0 16px; font-family: var(--mono); font-size: 12px; letter-spacing: 0.16em; color: var(--dim); }
+  h1 { margin: 0; font-family: var(--pixel); font-weight: 400; font-size: clamp(22px, 3.3vw, 40px); line-height: 1.2; color: var(--text); text-shadow: 4px 4px 0 #3b2a5c; }
+  h1 span { display: block; }
+  h1 span + span { color: var(--pink); }
+  .dek { margin: 0; font-size: 18px; line-height: 1.6; color: var(--read); }
+  .dek b { color: var(--text); font-weight: 600; }
+
+  /* ---------- the floor plan ---------- */
+  .plan { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin: 0 0 14px; }
+  .plan a { display: flex; flex-direction: column; gap: 6px; padding: 14px 14px 12px; background: var(--card); border: 1px solid var(--line); text-decoration: none; color: var(--text); }
+  .plan a:hover { border-color: var(--violet); background: var(--card-hi); }
+  .plan .no { font-family: var(--pixel); font-size: 9px; color: var(--violet); }
+  .plan .nm { font-weight: 600; font-size: 16.5px; line-height: 1.3; }
+  .plan .ct { margin-top: auto; font-family: var(--mono); font-size: 11.5px; color: var(--mute); }
+  .legend { display: flex; flex-wrap: wrap; gap: 8px 20px; padding: 12px 16px; margin: 0 0 56px; border: 1px dashed var(--line); font-size: 13px; color: var(--dim); }
+  .legend > span { display: inline-flex; align-items: center; gap: 8px; }
+  .badge { display: inline-block; font-family: var(--mono); font-size: 10px; font-weight: 600; letter-spacing: 0.08em; padding: 1px 6px; line-height: 1.55; border: 1.5px solid currentColor; white-space: nowrap; }
+  .st-court { color: var(--night); background: var(--violet); border-color: var(--violet); }
+  .st-documented { color: var(--lav); }
+  .st-peer { color: var(--mint); }
+  .st-reported { color: var(--gold); }
+  .st-words { color: var(--pink); }
+  .st-argument { color: var(--dim); border-style: dashed; }
+
+  /* ---------- the floor: a rail of lines beside the lines ---------- */
+  .floor { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 44px; align-items: start; }
+  .rail { position: sticky; top: 18px; padding-top: 14px; border-top: 2px solid var(--violet); }
+  .rail .k { font-family: var(--mono); font-size: 11px; letter-spacing: 0.16em; color: var(--mute); margin-bottom: 8px; }
+  .rail a { display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 4px; padding: 7px 0; font-size: 14px; line-height: 1.35; color: var(--dim); text-decoration: none; border-bottom: 1px solid rgba(161, 92, 240, 0.14); transition: padding 0.15s; }
+  .rail a .n { font-family: var(--mono); font-size: 11px; color: var(--mute); padding-top: 1px; }
+  .rail a:hover, .rail a.here { color: var(--text); }
+  .rail a.here { box-shadow: inset 3px 0 0 var(--gold); padding-left: 10px; }
+  .rail a.here .n { color: var(--gold); }
+
+  .line { margin: 0 0 84px; scroll-margin-top: 16px; }
+  .lh { display: flex; align-items: center; gap: 14px; padding-bottom: 12px; border-bottom: 2px solid var(--violet); margin-bottom: 14px; }
+  .lh .no { font-family: var(--pixel); font-size: 9px; color: var(--night); background: var(--gold); padding: 7px 8px 6px; white-space: nowrap; }
+  .lh h2 { margin: 0; font-family: var(--pixel); font-weight: 400; font-size: clamp(15px, 2.1vw, 21px); line-height: 1.4; color: var(--text); }
+  .lh .ct { margin-left: auto; font-family: var(--mono); font-size: 11.5px; color: var(--mute); white-space: nowrap; }
+  .ldek { margin: 0 0 22px; max-width: 780px; font-size: 16.5px; color: var(--read); }
+
+  .cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+  .case { position: relative; display: flex; flex-direction: column; padding: 16px 18px 15px 22px; background: var(--card); border: 1px solid var(--line); }
+  .case:last-child:nth-child(odd) { grid-column: 1 / -1; }
+  .case::before { content: ""; position: absolute; left: -1px; top: -1px; bottom: -1px; width: 4px; background: var(--lav); }
+  .case.court::before { background: var(--violet); }
+  .case.reported::before { background: var(--gold); }
+  .case.words::before { background: var(--pink); }
+  .case.peer::before { background: var(--mint); }
+  .case.argument::before { background: repeating-linear-gradient(180deg, var(--dim) 0 6px, transparent 6px 10px); }
+  .case .top { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; margin-bottom: 9px; }
+  .case .yr { font-family: var(--pixel); font-size: 10px; line-height: 1.5; color: var(--gold); margin-right: 4px; }
+  .topic { font-family: var(--mono); font-size: 11.5px; color: var(--dim); }
+  .topic a { color: var(--dim); }
+  .case h3 { margin: 0 0 6px; font-size: 18px; line-height: 1.32; font-weight: 600; color: var(--text); }
+  .case p { margin: 0 0 12px; font-size: 15px; line-height: 1.62; color: var(--read); }
+  .src { margin-top: auto; font-family: var(--mono); font-size: 11.5px; line-height: 1.6; color: var(--mute); overflow-wrap: anywhere; }
+  .src a { color: var(--dim); }
+  .src a + a::before { content: " · "; color: var(--mute); display: inline-block; padding: 0 2px; }
+
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 16px; }
+  .pill { font-family: var(--mono); font-size: 12px; color: var(--dim); background: none; border: 1px solid var(--line); padding: 4px 11px; cursor: pointer; }
+  .pill:hover { color: var(--text); border-color: var(--violet); }
+  .pill.active { color: var(--night); background: var(--lav); border-color: var(--lav); }
+
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; margin: 0 0 14px; }
+  .stat { display: flex; flex-direction: column; padding: 18px 20px 16px; background: var(--card-hi); border: 1px solid var(--line-hi); }
+  .stat .n { font-family: var(--pixel); font-size: clamp(20px, 2.6vw, 27px); line-height: 1.2; color: var(--gold); margin-bottom: 12px; }
+  .stat .t { font-size: 15px; line-height: 1.55; color: var(--read); margin-bottom: 10px; }
+
+  .quote { margin: 0 0 18px; padding: 18px 22px; border-left: 4px solid var(--gold); background: var(--card); }
+  .quote blockquote { margin: 0 0 8px; font-size: 18px; line-height: 1.55; font-style: italic; color: var(--text); }
+  .quote cite { font-style: normal; font-family: var(--mono); font-size: 12px; color: var(--dim); }
+
+  .myth { margin: 0 0 16px; border: 2px solid var(--violet); background: var(--card); }
+  .myth .mh { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; padding: 14px 20px 12px; border-bottom: 1px solid var(--line-hi); }
+  .myth .mh b { font-family: var(--mono); font-size: 11px; letter-spacing: 0.16em; color: var(--lav); }
+  .myth .mh h3 { margin: 0; font-size: 20px; line-height: 1.3; }
+  .myth .cols { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .myth .col { display: flex; flex-direction: column; padding: 16px 20px 18px; }
+  .myth .col + .col { border-left: 1px dashed var(--line-hi); }
+  .myth .k { align-self: flex-start; margin-bottom: 10px; font-family: var(--mono); font-size: 11px; font-weight: 700; letter-spacing: 0.14em; padding: 2px 8px; }
+  .myth .story .k { color: var(--night); background: var(--gold); }
+  .myth .record .k { color: var(--text); border: 1px solid var(--lav); }
+  .myth p { margin: 0 0 12px; font-size: 15.5px; color: var(--read); }
+
+  .spot { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 28px; }
+  .checklist { list-style: none; margin: 0; padding: 0; }
+  .checklist li { display: grid; grid-template-columns: 24px minmax(0, 1fr); padding: 11px 0; border-bottom: 1px dashed var(--line); font-size: 15px; color: var(--read); }
+  .checklist li::before { content: "▸"; color: var(--gold); }
+  .checklist b { color: var(--text); font-weight: 600; }
+  .cross { align-self: start; padding: 16px 18px; background: var(--card); border: 1px solid var(--line); }
+  .cross .k { font-family: var(--mono); font-size: 11px; letter-spacing: 0.16em; color: var(--mute); margin-bottom: 6px; }
+  .cross table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  .cross td { padding: 8px 0; border-bottom: 1px solid rgba(161, 92, 240, 0.14); vertical-align: top; }
+  .cross td + td { color: var(--dim); text-align: right; padding-left: 12px; }
+  .cross p { margin: 12px 0 0; font-size: 13.5px; color: var(--mute); }
+  .method { margin: 0; font-size: 13.5px; line-height: 1.65; color: var(--mute); max-width: 860px; }
+  footer { margin-top: 28px; padding-top: 18px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px; font-family: var(--mono); font-size: 12px; color: var(--mute); }
+
+  @media (max-width: 1000px) {
+    .floor { grid-template-columns: minmax(0, 1fr); gap: 0; }
+    .rail { display: none; }
+    .plan { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .head { grid-template-columns: minmax(0, 1fr); gap: 20px; }
+  }
+  @media (max-width: 760px) {
+    .page { padding: 16px 16px 70px; }
+    .nav a { font-size: 8px; padding: 6px 8px; }
+    .yard { box-shadow: 5px 5px 0 #2a1d42; }
+    .yard-cap { font-size: 10px; padding: 7px 10px; }
+    .head { margin: 30px 0 28px; }
+    .dek { font-size: 16.5px; }
+    .plan { grid-template-columns: minmax(0, 1fr); gap: 6px; }
+    .plan a { flex-direction: row; align-items: baseline; gap: 12px; padding: 10px 12px; }
+    .plan .nm { font-size: 15px; }
+    .plan .ct { margin: 0 0 0 auto; white-space: nowrap; }
+    .legend { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 14px; padding: 12px; margin-bottom: 44px; font-size: 12.5px; line-height: 1.4; }
+    .legend > span { flex-direction: column; align-items: flex-start; gap: 5px; }
+    .legend .badge { white-space: normal; }
+    .cards { grid-template-columns: minmax(0, 1fr); }
+    .myth .cols, .spot { grid-template-columns: minmax(0, 1fr); }
+    .myth .col + .col { border-left: 0; border-top: 1px dashed var(--line-hi); }
+    .lh { flex-wrap: wrap; gap: 10px 12px; }
+    .lh .ct { margin-left: 0; flex-basis: 100%; }
+    .line { margin-bottom: 64px; }
+  }
+</style>
+</head>
+<body>
+<div class="page" id="top">
+  <nav class="nav" aria-label="The Gazette">
+    <a href="index.html">◂ GAZETTE</a>
+    <a href="deep-state.html">DEEP STATE</a>
+    <a href="demystification.html">DEMYSTIFICATION</a>
+    <a href="transhumanism.html">POST-HUMAN</a>
+    <a href="blind-pool.html">BLIND POOL</a>
+    <a href="crash-conduits.html">CRASH CONDUITS</a>
+    <a href="carbon-class.html">CARBON CLASS</a>
+    <a href="handoffs.html">HANDOFF LEDGER</a>
+    <a href="web.html">THE WEB</a>
+  </nav>
+
+  <figure class="yard">
+    <canvas id="factory" role="img" aria-label="Pixel art: a factory at night called Consent Co. Raw events ride a conveyor in at the left; identical smiling screens come out at the right, each stamped by a press, while the stacks smoke and a billboard scrolls lines from the cases on this page."></canvas>
+    <figcaption class="yard-cap"><span>CONSENT CO. · NIGHT SHIFT</span><span class="on">● EIGHT LINES RUNNING</span></figcaption>
+  </figure>
+
+  <header class="head">
+    <div>
+      <p class="kicker">THE CORNFIELD GAZETTE · MEDIA DESK</p>
+      <h1><span>MANUFACTURING</span><span>CONSENT</span></h1>
+    </div>
+    <p class="dek">The same few forces run through every story in this project. <b>Paid media</b> tells the public a crash can’t happen, the climate isn’t changing, or a war is necessary. <b>Money</b> builds “grassroots” movements from nothing. <b>Studios and spy agencies</b> trade script notes for access, and <b>the feed</b> sells paid messages as a friend’s opinion. And again and again, people’s <b>faith</b> is enlisted to turn them against unions, wages and their own neighbors. These are the documented cases.</p>
+  </header>
+
+  <nav class="plan" id="plan" aria-label="The production lines"></nav>
+  <aside class="legend" id="legend" aria-label="How each case is sourced"></aside>
+
+  <div class="floor">
+    <nav class="rail" id="rail" aria-label="Lines"></nav>
+    <main>
+      <section class="line" id="media">
+        <div class="lh"><span class="no">LINE 01</span><h2>The Media</h2><span class="ct" data-ct="media"></span></div>
+        <p class="ldek">How news coverage, advertising and platforms shaped what the public believed about the economy, the climate and technology, often while being paid by the industries involved.</p>
+        <div class="filters" id="media-filters"></div>
+        <div class="cards" id="media-cases"></div>
+      </section>
+
+      <section class="line" id="war">
+        <div class="lh"><span class="no">LINE 02</span><h2>War &amp; Money</h2><span class="ct" data-ct="war"></span></div>
+        <p class="ldek">Cases where commercial interests, paid PR or false claims helped push countries into war, and who profited.</p>
+        <div class="quote">
+          <blockquote>“In the councils of government, we must guard against the acquisition of unwarranted influence, whether sought or unsought, by the military-industrial complex.”</blockquote>
+          <cite>President Dwight D. Eisenhower, <a href="https://www.archives.gov/milestone-documents/president-dwight-d-eisenhowers-farewell-address" target="_blank" rel="noopener">farewell address, January 17, 1961 ↗</a></cite>
+        </div>
+        <div class="stats" id="war-stats"></div>
+        <div class="cards" id="war-cases"></div>
+      </section>
+
+      <section class="line" id="movements">
+        <div class="lh"><span class="no">LINE 03</span><h2>Bought Movements</h2><span class="ct" data-ct="movements"></span></div>
+        <p class="ldek">“Grassroots” campaigns, think tanks and outrage manufactured or bankrolled by the people who stood to gain, including a whole industry paid to keep workers from organizing.</p>
+        <div class="stats" id="move-stats"></div>
+        <div class="cards" id="move-cases"></div>
+      </section>
+
+      <section class="line" id="faith">
+        <div class="lh"><span class="no">LINE 04</span><h2>Faith, Weaponized</h2><span class="ct" data-ct="faith"></span></div>
+        <p class="ldek">Religion has comforted and organized working people for centuries. These cases document employers, industrialists, political operatives and foreign trolls using faith to fight unions, block climate action, cut workers’ benefits, or simply get votes.</p>
+        <div class="cards" id="faith-cases"></div>
+      </section>
+
+      <section class="line" id="reclaim">
+        <div class="lh"><span class="no">LINE 05</span><h2>Faith With Workers</h2><span class="ct" data-ct="reclaim"></span></div>
+        <p class="ldek">The same traditions have long stood with labor.</p>
+        <div class="cards" id="reclaim-cases"></div>
+      </section>
+
+      <section class="line" id="hollywood">
+        <div class="lh"><span class="no">LINE 06</span><h2>The Dream Factory</h2><span class="ct" data-ct="hollywood"></span></div>
+        <p class="ldek">Films carry a country’s idea of itself. These cases document the military, the CIA and a foreign government trading access and markets for changes to what audiences saw, and a mogul and a tabloid paying to keep stories from being told.</p>
+        <div class="cards" id="holly-cases"></div>
+      </section>
+
+      <section class="line" id="influencers">
+        <div class="lh"><span class="no">LINE 07</span><h2>Paid to Post</h2><span class="ct" data-ct="influencers"></span></div>
+        <p class="ldek">The feed looks like people talking. Behind some of it are governments, campaigns, industries and platforms paying for the message, often without saying so. And an old story can be rewritten for it in a weekend.</p>
+        <div class="myth" id="myth"></div>
+        <div class="cards" id="infl-cases"></div>
+      </section>
+
+      <section class="line" id="spot">
+        <div class="lh"><span class="no">LINE 08</span><h2>How To Spot It</h2><span class="ct">field guide</span></div>
+        <div class="spot">
+          <ul class="checklist" id="spot-list"></ul>
+          <div class="cross">
+            <div class="k">ACROSS THIS PROJECT</div>
+            <table id="crosslinks"></table>
+            <p>Each page documents its own topic in depth. This page tracks how the public was persuaded about them.</p>
+          </div>
+        </div>
+      </section>
+
+      <p class="method">Each case is a specific, sourced event. Together they show recurring incentives: profit, power and the cheapest way to win public opinion. They are not evidence of one hidden hand, and wars and movements have many causes. Interpretation is tagged <span class="badge st-argument">ARGUMENT</span>. Compiled from court records, government documents, congressional reports, peer-reviewed research and investigative reporting; quotes are reproduced exactly from their sources. Every case was re-checked against its sources in October 2026: each source page was fetched and the passage that states the case’s facts was found on it.</p>
+      <footer><span>THE CORNFIELD GAZETTE · MEDIA DESK</span><a href="#top">BACK TO THE GATE ▲</a></footer>
+    </main>
+  </div>
+</div>
+
+<script>
+const STATUS = {
+  court: { label: "COURT / OFFICIAL FINDING", desc: "ruled by a court, regulator or government inquiry" },
+  documented: { label: "DOCUMENTED", desc: "public record, declassified files or the organization’s own materials" },
+  peer: { label: "PEER-REVIEWED", desc: "published scholarly study" },
+  reported: { label: "REPORTED", desc: "investigative journalism or history, not tested in court" },
+  words: { label: "IN THEIR WORDS", desc: "direct quote" },
+  argument: { label: "ARGUMENT", desc: "an interpretation of the evidence" }
+};
+const TOPIC_LINKS = {
+  climate: { label: "Climate", href: "carbon-class.html" },
+  finance: { label: "Finance", href: "crash-conduits.html" },
+  tech: { label: "Tech", href: "transhumanism.html" },
+  tobacco: { label: "Tobacco" },
+  government: { label: "Government", href: "deep-state.html" }
+};
+const MEDIA = [
+ {
+  "year": "1969",
+  "topic": "tobacco",
+  "status": "documented",
+  "title": "“Doubt is our product”: the template",
+  "body": "An internal Brown & Williamson tobacco memo, quoted by a federal judge in 2006, says: “Doubt is our product since it is the best means of competing with the ‘body of fact’ that exists in the mind of the general public.” A 2007 Union of Concerned Scientists report found ExxonMobil drew on the same tactics, and some of the same groups, to cast doubt on climate science.",
+  "src": "US v. Philip Morris, Amended Final Opinion (D.D.C. 2006); Union of Concerned Scientists (2007)",
+  "sources": [
+   {
+    "url": "https://www.justice.gov/sites/default/files/civil/legacy/2014/09/11/amended%20opinion_0.pdf",
+    "publisher": "U.S. District Court for the District of Columbia (hosted by the U.S. Department of Justice)",
+    "title": "United States v. Philip Morris USA, Inc., Civil Action No. 99-2496 (GK), Amended Final Opinion",
+    "date": "2006-09-08"
+   },
+   {
+    "url": "https://www.ucsusa.org/sites/default/files/2019-09/exxon_report.pdf",
+    "publisher": "Union of Concerned Scientists",
+    "title": "Smoke, Mirrors & Hot Air: How ExxonMobil Uses Big Tobacco's Tactics to Manufacture Uncertainty on Climate Science",
+    "date": "2007-01"
+   }
+  ],
+  "tv": "DOUBT IS OUR PRODUCT"
+ },
+ {
+  "year": "1972–2004",
+  "topic": "climate",
+  "status": "peer",
+  "title": "Oil company “advertorials” on the opinion page",
+  "body": "Mobil (later ExxonMobil) bought an advertorial on the New York Times op-ed page every Thursday from 1972 to 2001. A peer-reviewed analysis found 81% of its climate advertorials expressed doubt, while 80% of its internal documents and 83% of its peer-reviewed papers acknowledged that climate change is real and human-caused.",
+  "src": "Supran & Oreskes, Environmental Research Letters (Aug 2017)",
+  "sources": [
+   {
+    "url": "https://iopscience.iop.org/article/10.1088/1748-9326/aa815f",
+    "publisher": "Environmental Research Letters (IOP Publishing)",
+    "title": "Assessing ExxonMobil's climate change communications (1977–2014), Supran & Oreskes, Environ. Res. Lett. 12 084019",
+    "date": "2017-08-23"
+   }
+  ]
+ },
+ {
+  "year": "1988–2002",
+  "topic": "climate",
+  "status": "peer",
+  "title": "False balance in the prestige press",
+  "body": "A study of global-warming coverage in the New York Times, Washington Post, Los Angeles Times and Wall Street Journal from 1988 to 2002 found that most articles (52.65%) gave “roughly equal attention” to the view that humans were warming the planet and the view that natural fluctuations could explain it. The authors concluded this “balance” was itself a bias that pulled public discussion away from the science.",
+  "src": "Boykoff & Boykoff, “Balance as bias,” Global Environmental Change (2004)",
+  "sources": [
+   {
+    "url": "https://sciencepolicy.colorado.edu/admin/publication_files/2004.33.pdf",
+    "publisher": "Global Environmental Change 14 (2004) 125–136 (PDF hosted by the University of Colorado Center for Science and Technology Policy Research)",
+    "title": "Balance as bias: global warming and the US prestige press, Maxwell T. Boykoff and Jules M. Boykoff",
+    "date": "2004"
+   }
+  ]
+ },
+ {
+  "year": "1996–2001",
+  "topic": "finance",
+  "status": "documented",
+  "title": "Enron, “America’s Most Innovative Company”",
+  "body": "Fortune magazine named Enron “America’s Most Innovative Company” six years running, a line Enron was still printing on its press releases in August 2001, months before it went bankrupt. The SEC later charged its chairman, Kenneth Lay, with a scheme to defraud that included falsifying its reported financial results.",
+  "src": "Enron press release (Aug 2001), US v. Skilling & Lay trial exhibit; SEC press release (July 2004)",
+  "sources": [
+   {
+    "url": "https://www.justice.gov/archive/enron/exhibit/02-02/BBC-0001/ocr/EXH023-00160^FullText.TXT",
+    "publisher": "U.S. Department of Justice, Enron Task Force trial exhibits (Government Exhibit 959, Crim. No. H-04-25)",
+    "title": "Enron news release: Enron Announces Skilling Resignation; Lay Assumes President and CEO Duties",
+    "date": "2001-08-14"
+   },
+   {
+    "url": "https://www.sec.gov/news/press/2004-94.htm",
+    "publisher": "U.S. Securities and Exchange Commission",
+    "title": "SEC Charges Kenneth L. Lay, Enron's Former Chairman and Chief Executive Officer, with Fraud and Insider Trading",
+    "date": "2004-07-08"
+   }
+  ],
+  "tv": "AMERICA'S MOST INNOVATIVE COMPANY"
+ },
+ {
+  "year": "2008",
+  "topic": "finance",
+  "status": "words",
+  "title": "“Bear Stearns is fine!”",
+  "body": "On March 11, 2008, CNBC’s Jim Cramer answered a viewer asking whether to pull his money out of Bear Stearns: “No, no, no. Bear Stearns is fine. Do not take your money… Don’t move your money from Bear.” Five days later JPMorgan agreed to buy the bank for about $2 a share, later raised to about $10. Cramer said afterwards he had meant money held at Bear, not its stock.",
+  "src": "CNBC Mad Money transcript via Columbia Journalism Review (Mar 2008); JPMorgan Chase releases filed with the SEC (Mar 16 & 24, 2008)",
+  "sources": [
+   {
+    "url": "https://www.cjr.org/the_audit/let_cramer_make_this_perfect_c.php",
+    "publisher": "Columbia Journalism Review (Dean Starkman, The Audit)",
+    "title": "In the Mad Money Swamp",
+    "date": "2008-03-24"
+   },
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/0000019617/000089882208000285/pressrelease.htm",
+    "publisher": "JPMorgan Chase & Co., Form 8-K exhibit (SEC EDGAR)",
+    "title": "JPMorgan Chase To Acquire Bear Stearns",
+    "date": "2008-03-16"
+   },
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/0000019617/000089882208000319/pressrelease.htm",
+    "publisher": "JPMorgan Chase & Co., Form 8-K exhibit (SEC EDGAR)",
+    "title": "JPMorgan Chase and Bear Stearns Announce Amended Merger Agreement",
+    "date": "2008-03-24"
+   },
+   {
+    "url": "https://abcnews.go.com/Business/PersonalFinance/story?id=4524010",
+    "publisher": "ABC News",
+    "title": "Should You Stay Away From Jim Cramer?",
+    "date": "2008-03-25"
+   }
+  ],
+  "tv": "BEAR STEARNS IS FINE."
+ },
+ {
+  "year": "2022",
+  "topic": "finance",
+  "status": "court",
+  "title": "Celebrity crypto promotions",
+  "body": "Kim Kardashian paid $1.26 million to settle SEC charges that she promoted EthereumMax’s EMAX token on Instagram without disclosing that she was paid $250,000 for the post. FTX, one of the biggest advertisers in the 2022 Super Bowl, was bankrupt within 10 months.",
+  "src": "SEC press release (Oct 3, 2022); Associated Press (Feb 2023)",
+  "sources": [
+   {
+    "url": "https://www.sec.gov/news/press-release/2022-183",
+    "publisher": "U.S. Securities and Exchange Commission",
+    "title": "SEC Charges Kim Kardashian for Unlawfully Touting Crypto Security",
+    "date": "2022-10-03"
+   },
+   {
+    "url": "https://www.ksat.com/business/2023/02/10/year-after-crypto-bowl-crypto-ads-vanish-from-big-game/",
+    "publisher": "Associated Press (Ken Sweet and Mae Anderson), as syndicated by KSAT",
+    "title": "Year after 'Crypto Bowl,' crypto ads vanish from big game",
+    "date": "2023-02-10"
+   }
+  ]
+ },
+ {
+  "year": "2014",
+  "topic": "tech",
+  "status": "peer",
+  "title": "Facebook secretly manipulates users’ moods",
+  "body": "For one week in January 2012, Facebook altered the News Feeds of 689,003 users to test whether emotions spread: those shown fewer positive posts wrote fewer positive posts and more negative ones. The only consent was Facebook’s general Data Use Policy, and the journal that published the study issued an “expression of concern” about informed consent.",
+  "src": "Kramer, Guillory & Hancock, PNAS (June 2014); PNAS Editorial Expression of Concern (July 2014)",
+  "sources": [
+   {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4066473/",
+    "publisher": "Proceedings of the National Academy of Sciences (PubMed Central copy)",
+    "title": "Experimental evidence of massive-scale emotional contagion through social networks, Kramer, Guillory & Hancock, PNAS 111(24):8788–8790, doi:10.1073/pnas.1320040111",
+    "date": "2014-06-17"
+   },
+   {
+    "url": "https://www.pnas.org/doi/10.1073/pnas.1412469111",
+    "publisher": "Proceedings of the National Academy of Sciences (Inder M. Verma, Editor-in-Chief)",
+    "title": "Editorial Expression of Concern: Experimental evidence of massive-scale emotional contagion through social networks, PNAS 111(29):10779",
+    "date": "2014-07-22"
+   }
+  ]
+ },
+ {
+  "year": "2018–19",
+  "topic": "tech",
+  "status": "court",
+  "title": "Cambridge Analytica",
+  "body": "Facebook data on up to 87 million people, by Facebook’s own estimate, reached the data firm Cambridge Analytica, which the FTC says used it for voter profiling and targeted advertising. The FTC fined Facebook a record $5 billion for deceiving users about their ability to control their privacy.",
+  "src": "FTC press releases (July 24, 2019); Facebook newsroom (Apr 4, 2018)",
+  "sources": [
+   {
+    "url": "https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions-facebook",
+    "publisher": "U.S. Federal Trade Commission",
+    "title": "FTC Imposes $5 Billion Penalty and Sweeping New Privacy Restrictions on Facebook",
+    "date": "2019-07-24"
+   },
+   {
+    "url": "https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-sues-cambridge-analytica-settles-former-ceo-app-developer",
+    "publisher": "U.S. Federal Trade Commission",
+    "title": "FTC Sues Cambridge Analytica, Settles with Former CEO and App Developer",
+    "date": "2019-07-24"
+   },
+   {
+    "url": "https://about.fb.com/news/2018/04/restricting-data-access/",
+    "publisher": "Facebook (Meta) Newsroom, Mike Schroepfer, Chief Technology Officer",
+    "title": "An Update on Our Plans to Restrict Data Access on Facebook",
+    "date": "2018-04-04"
+   }
+  ]
+ },
+ {
+  "year": "2018",
+  "topic": "government",
+  "status": "documented",
+  "title": "Sinclair’s must-run scripts",
+  "body": "Sinclair Broadcast Group, which owned more than 190 local TV stations, more than any other company, had its anchors read an identical script warning about “biased and false news.” A 98-second Deadspin montage of dozens of them reciting it went viral.",
+  "src": "NPR (Apr 2, 2018); NBC News (Apr 2, 2018)",
+  "sources": [
+   {
+    "url": "https://www.npr.org/sections/thetwo-way/2018/04/02/598794433/video-reveals-power-of-sinclair-as-local-news-anchors-recite-script-in-unison",
+    "publisher": "NPR (Camila Domonoske)",
+    "title": "Video Reveals Power Of Sinclair, As Local News Anchors Recite Script In Unison",
+    "date": "2018-04-02"
+   },
+   {
+    "url": "https://www.nbcnews.com/politics/donald-trump/tv-anchors-decrying-fake-news-put-spotlight-sinclair-broadcast-company-n862016",
+    "publisher": "NBC News",
+    "title": "TV anchors decrying \"fake\" news put spotlight on Sinclair",
+    "date": "2018-04-02"
+   }
+  ],
+  "tv": "SAME SCRIPT ON EVERY STATION"
+ },
+ {
+  "year": "1975–76",
+  "topic": "government",
+  "status": "court",
+  "title": "The CIA and the press",
+  "body": "The Senate’s Church Committee reported in 1976 that about 50 of the CIA’s assets were American journalists or employees of US media organizations, and that about half of these relationships were paid.",
+  "src": "Church Committee final report, Book I: Foreign and Military Intelligence (1976), pp. 195, 455",
+  "sources": [
+   {
+    "url": "https://www.intelligence.senate.gov/sites/default/files/94755_I.pdf",
+    "publisher": "U.S. Senate Select Committee to Study Governmental Operations with Respect to Intelligence Activities (Church Committee), Report No. 94-755",
+    "title": "Final Report, Book I: Foreign and Military Intelligence",
+    "date": "1976-04-26"
+   }
+  ]
+ },
+ {
+  "year": "2004–05",
+  "topic": "government",
+  "status": "court",
+  "title": "Paid to praise a law",
+  "body": "The Department of Education, through the PR firm Ketchum, paid commentator Armstrong Williams’s company $186,000 for him to comment regularly on the No Child Left Behind Act on his shows, and took no steps to tell his audiences who was paying. The Government Accountability Office ruled it illegal “covert propaganda.”",
+  "src": "GAO decision B-305368 (Sept 30, 2005)",
+  "sources": [
+   {
+    "url": "https://www.gao.gov/products/b-305368",
+    "publisher": "U.S. Government Accountability Office",
+    "title": "B-305368, Department of Education--Contract to Obtain Services of Armstrong Williams",
+    "date": "2005-09-30"
+   }
+  ]
+ },
+ {
+  "year": "2004",
+  "topic": "government",
+  "status": "court",
+  "title": "“In Washington, I’m Karen Ryan reporting”",
+  "body": "The Medicare agency paid for ready-made TV news segments about the new Medicare drug law, narrated by “Karen Ryan” and made by a firm hired by its PR contractor Ketchum, that local stations aired without saying the government made them. The GAO ruled that the unattributed story packages broke the ban on federal publicity or propaganda.",
+  "src": "GAO decision B-302710 (May 19, 2004)",
+  "sources": [
+   {
+    "url": "https://www.gao.gov/products/b-302710",
+    "publisher": "U.S. Government Accountability Office",
+    "title": "B-302710, Department of Health and Human Services, Centers for Medicare & Medicaid Services--Video News Releases",
+    "date": "2004-05-19"
+   }
+  ],
+  "tv": "IN WASHINGTON, I'M KAREN RYAN REPORTING"
+ }
+];
+const WAR_STATS = [
+ {
+  "n": "$39.5B",
+  "t": "at least, in Iraq war-related federal contracts over a decade to one company, KBR, a former subsidiary of Halliburton, which Dick Cheney ran as chief executive from 1995 to 2000, before he became vice president.",
+  "status": "reported",
+  "src": "Financial Times analysis (Mar 18, 2013); Halliburton SEC filings",
+  "sources": [
+   {
+    "url": "https://www.iraq-businessnews.com/2013/03/21/contractors-get-138bn-from-iraq-war/",
+    "publisher": "Iraq Business News (reprinting the Financial Times analysis)",
+    "title": "Contractors Get $138bn from Iraq War",
+    "date": "2013-03-21"
+   },
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/45012/0000045012-00-000011.txt",
+    "publisher": "Halliburton Co., Form 10-K for 1999 (SEC EDGAR)",
+    "title": "Halliburton Company annual report on Form 10-K, executive officers of the registrant",
+    "date": "2000-03-14"
+   },
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/45012/000004501201000009/0000045012-01-000009.txt",
+    "publisher": "Halliburton Co., Form 10-K for 2000 (SEC EDGAR)",
+    "title": "Halliburton Company annual report on Form 10-K, executive officers of the registrant",
+    "date": "2001"
+   }
+  ]
+ },
+ {
+  "n": "935",
+  "t": "false statements about Iraq’s threat by President Bush and seven top officials in the two years after 9/11, by one count.",
+  "status": "reported",
+  "src": "Center for Public Integrity, “False Pretenses” (Jan 2008)",
+  "sources": [
+   {
+    "url": "https://publicintegrity.org/2008/01/23/5641/false-pretenses",
+    "publisher": "Center for Public Integrity (archived by the Project On Government Oversight)",
+    "title": "False Pretenses",
+    "date": "2008-01-23"
+   },
+   {
+    "url": "https://publicintegrity.org/politics/search-the-935-iraq-war-false-statements/",
+    "publisher": "Center for Public Integrity",
+    "title": "Search the 935 Iraq War false statements",
+    "date": "2014-06-24"
+   }
+  ]
+ },
+ {
+  "n": "$1B+",
+  "t": "from the US government and defense contractors to the top 50 US think tanks, 2014–2019. About 95% of it, $1.029 billion, went to RAND, nearly all from government agencies.",
+  "status": "reported",
+  "src": "Center for International Policy, Foreign Influence Transparency Initiative (Oct 2020)",
+  "sources": [
+   {
+    "url": "https://responsiblestatecraft.org/2020/10/14/new-report-shows-more-than-1b-from-war-industry-and-govt-going-to-top-50-think-tanks",
+    "publisher": "Responsible Statecraft (Cassandra Stimpson, Center for International Policy)",
+    "title": "New report shows more than $1B from war industry and govt. going to top 50 think tanks",
+    "date": "2020-10-14"
+   },
+   {
+    "url": "https://s3.documentcloud.org/documents/21104483/think-tank-dod-funding.pdf",
+    "publisher": "Center for International Policy report pages (DocumentCloud copy)",
+    "title": "U.S. Government and Defense Contractor Funding of America's Top 50 Think Tanks (excerpt)",
+    "date": "2020-10"
+   },
+   {
+    "url": "https://www.theamericanconservative.com/swamp-report-top-50-u-s-think-tanks-receive-over-1b-from-gov-defense-contractors/",
+    "publisher": "The American Conservative (Barbara Boland)",
+    "title": "Top 50 U.S. Think Tanks Receive Over $1B from Gov, Defense Contractors",
+    "date": "2020-10-14"
+   }
+  ]
+ }
+];
+const WAR = [
+ {
+  "year": "1934–36",
+  "status": "court",
+  "title": "The Senate investigates the “merchants of death”",
+  "body": "The Senate’s Nye Committee held 93 hearings on the munitions industry and the economic circumstances of US entry into World War I, questioning J. P. Morgan Jr. and Pierre du Pont. It found little hard evidence of a conspiracy to drag the country into war, but reported that arms makers opposed almost every disarmament proposal, profited when they failed, and that national defense had not been kept separate from their lobbying.",
+  "src": "U.S. Senate Historical Office; Senate Report No. 944, Special Committee Investigating the Munitions Industry (1936)",
+  "sources": [
+   {
+    "url": "https://www.senate.gov/about/powers-procedures/investigations/merchants-of-death.htm",
+    "publisher": "U.S. Senate (Senate Historical Office)",
+    "title": "\"Merchants of Death\""
+   },
+   {
+    "url": "https://www.senate.gov/artandhistory/history/resources/pdf/Investigations.pdf",
+    "publisher": "U.S. Senate Historical Office",
+    "title": "Senate investigations (list)"
+   },
+   {
+    "url": "https://www.ruhr-uni-bochum.de/gna/Quellensammlung/09/09_nyecommitteereport_1936.html",
+    "publisher": "Ruhr-Universität Bochum source collection, reproducing the committee's 1936 report (74th Congress, 2d session)",
+    "title": "Report of the Special Committee on Investigation of the Munitions Industry: Findings (excerpts)",
+    "date": "1936"
+   }
+  ]
+ },
+ {
+  "year": "1935",
+  "status": "words",
+  "title": "“War is a racket”",
+  "body": "Smedley Butler, a retired Marine major general with two Medals of Honor, wrote in 1935 that during his 33 years in the Marine Corps he had spent most of his time being “a high-class muscle man for Big Business, for Wall Street and for the bankers.”",
+  "src": "Butler, Common Sense magazine (Nov 1935); Naval History and Heritage Command",
+  "sources": [
+   {
+    "url": "https://msuweb.montclair.edu/~furrg/vietnam/butler.pdf",
+    "publisher": "Montclair State University (course reading by Prof. Grover Furr, transcribing Common Sense)",
+    "title": "Smedley D. Butler, \"America's Armed Forces: 2. 'In Time of Peace': The Army\", Common Sense, Vol. 4, No. 11 (November 1935), pp. 8–12",
+    "date": "1935-11"
+   },
+   {
+    "url": "https://www.history.navy.mil/our-collections/photography/us-people/b/butler-smedley-d.html",
+    "publisher": "Naval History and Heritage Command (U.S. Navy)",
+    "title": "Butler, Smedley D."
+   }
+  ]
+ },
+ {
+  "year": "1953",
+  "status": "documented",
+  "title": "Iran: a coup after oil was nationalized",
+  "body": "After Iran nationalized the Anglo-Iranian Oil Company (later BP), the CIA, with British help, engineered a coup against Prime Minister Mohammad Mosaddeq. Its efforts included planting “damaging innuendo in local Iranian media.” A CIA history released in 2013 says the coup was carried out “under CIA direction.”",
+  "src": "Declassified CIA history, The Battle for Iran (released 2013); National Security Archive EBB 435; The Guardian (Aug 2013)",
+  "sources": [
+   {
+    "url": "https://nsarchive.gwu.edu/NSAEBB/NSAEBB435/",
+    "publisher": "National Security Archive, Electronic Briefing Book No. 435 (ed. Malcolm Byrne)",
+    "title": "CIA Confirms Role in 1953 Iran Coup",
+    "date": "2013-08-19"
+   },
+   {
+    "url": "https://www.theguardian.com/world/2013/aug/19/cia-admits-role-1953-iranian-coup",
+    "publisher": "The Guardian (Saeed Kamali Dehghan and Richard Norton-Taylor)",
+    "title": "CIA admits role in 1953 Iranian coup",
+    "date": "2013-08-19"
+   }
+  ]
+ },
+ {
+  "year": "1954",
+  "status": "documented",
+  "title": "Guatemala: a fruit company’s PR war",
+  "body": "Guatemala’s land reform confiscated a quarter of a million acres of United Fruit land in 1953. The CIA’s own history says the company’s PR adviser, Edward Bernays, “laid down a PR barrage” that sent US reporters to cover “Communist activities in Guatemala.” President Eisenhower authorized the CIA operation that ended with elected president Jacobo Árbenz resigning in June 1954.",
+  "src": "CIA History Staff, Operation PBSUCCESS (Cullather, 1994; declassified 1997); National Security Archive EBB 4",
+  "sources": [
+   {
+    "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB4/",
+    "publisher": "National Security Archive, Electronic Briefing Book No. 4 (eds. Kate Doyle and Peter Kornbluh)",
+    "title": "CIA and Assassinations: The Guatemala 1954 Documents",
+    "date": "1997"
+   }
+  ]
+ },
+ {
+  "year": "1964",
+  "status": "documented",
+  "title": "Gulf of Tonkin: an attack that didn’t happen",
+  "body": "President Johnson cited a reported second North Vietnamese attack on US ships, on August 4, 1964, to back his request for a congressional resolution giving the White House freedom of action in Vietnam. An NSA historian’s study, declassified in 2005, concluded that the second attack did not occur.",
+  "src": "Hanyok, NSA Cryptologic Quarterly, declassified 2005; National Security Archive",
+  "sources": [
+   {
+    "url": "https://nsarchive.gwu.edu/NSAEBB/NSAEBB132/press20051201.htm",
+    "publisher": "National Security Archive, Electronic Briefing Book No. 132 (update)",
+    "title": "Tonkin Gulf Intelligence \"Skewed\" According to Official History and Intercepts",
+    "date": "2005-12-01"
+   }
+  ],
+  "tv": "AN ATTACK THAT DIDN'T HAPPEN"
+ },
+ {
+  "year": "1990",
+  "status": "reported",
+  "title": "Nayirah: invented testimony sells a war",
+  "body": "A 15-year-old girl told the Congressional Human Rights Caucus in October 1990 that she had watched Iraqi soldiers take babies from incubators in Kuwait and leave them to die. She was the daughter of Kuwait’s ambassador to the US, presented by Hill & Knowlton, the PR firm the Kuwaiti-financed group Citizens for a Free Kuwait had hired for a roughly $10 million campaign for war. ABC found the story almost certainly false, and Amnesty International later retracted its support for it.",
+  "src": "MacArthur, New York Times op-ed (Jan 6, 1992); Middle East Report (1992)",
+  "sources": [
+   {
+    "url": "https://www.nytimes.com/1992/01/06/opinion/remember-nayirah-witness-for-kuwait.html",
+    "publisher": "The New York Times (John R. MacArthur, op-ed)",
+    "title": "Remember Nayirah, Witness for Kuwait?",
+    "date": "1992-01-06"
+   },
+   {
+    "url": "https://merip.org/1992/07/the-news-industry/",
+    "publisher": "Middle East Report (MERIP), Issue 177",
+    "title": "The News Industry",
+    "date": "1992-07"
+   }
+  ],
+  "tv": "BABIES TAKEN FROM INCUBATORS"
+ },
+ {
+  "year": "2002–04",
+  "status": "documented",
+  "title": "Iraq’s missing weapons and the press that repeated them",
+  "body": "A presidential commission concluded that US intelligence was “dead wrong in almost all of its pre-war judgments about Iraq’s weapons of mass destruction.” The New York Times later published an editors’ note saying it had found “a number of instances of coverage that was not as rigorous as it should have been.”",
+  "src": "New York Times, “From the Editors” (May 26, 2004); Commission on the Intelligence Capabilities of the US Regarding WMD (Mar 2005)",
+  "sources": [
+   {
+    "url": "https://www.nytimes.com/2004/05/26/world/from-the-editors-the-times-and-iraq.html",
+    "publisher": "The New York Times",
+    "title": "FROM THE EDITORS; The Times and Iraq",
+    "date": "2004-05-26"
+   },
+   {
+    "url": "https://www.govinfo.gov/content/pkg/GPO-WMD/pdf/GPO-WMD.pdf",
+    "publisher": "Commission on the Intelligence Capabilities of the United States Regarding Weapons of Mass Destruction (U.S. Government Publishing Office)",
+    "title": "Report to the President of the United States",
+    "date": "2005-03-31"
+   }
+  ],
+  "tv": "IRAQ'S WEAPONS OF MASS DESTRUCTION"
+ },
+ {
+  "year": "1917–19",
+  "status": "documented",
+  "title": "A propaganda office for the Great War",
+  "body": "Executive Order 2594 of April 13, 1917 created the Committee on Public Information, chaired by George Creel. The National Archives lists its jobs as releasing government news during World War I, sustaining morale and administering “voluntary press censorship.” Its files include “propaganda records” and the work of the “four minute men.”",
+  "src": "National Archives, Records of the Committee on Public Information (Record Group 63)",
+  "sources": [
+   {
+    "url": "https://www.archives.gov/research/guide-fed-records/groups/063.html",
+    "publisher": "U.S. National Archives and Records Administration",
+    "title": "Records of the Committee on Public Information (Record Group 63)"
+   }
+  ]
+ },
+ {
+  "year": "2008",
+  "status": "reported",
+  "title": "Pentagon’s hidden TV analysts",
+  "body": "Retired military officers presented on TV as independent analysts were part of a Pentagon campaign to generate favorable coverage of the Iraq war. They echoed administration talking points, and most had ties to military contractors, which was rarely disclosed.",
+  "src": "Barstow, New York Times (Apr 20, 2008); 2009 Pulitzer Prize for Investigative Reporting",
+  "sources": [
+   {
+    "url": "https://www.nytimes.com/2008/04/20/us/20generals.html",
+    "publisher": "The New York Times (David Barstow)",
+    "title": "Behind TV Analysts, Pentagon's Hidden Hand",
+    "date": "2008-04-20"
+   }
+  ]
+ }
+];
+const MOVE_STATS = [
+ {
+  "n": "$433M",
+  "t": "an estimated yearly spend by US employers on consultants to fight unionization, likely an undercount.",
+  "status": "reported",
+  "src": "Economic Policy Institute (March 2023)",
+  "sources": [
+   {
+    "url": "https://files.epi.org/uploads/265149.pdf",
+    "publisher": "Economic Policy Institute",
+    "title": "Employers spend more than $400 million per year on ‘union-avoidance’ consultants to bolster their union-busting efforts (fact sheet; McNicholas, Poydock, Sanders, Zipperer)",
+    "date": "2023-03-29"
+   }
+  ]
+ },
+ {
+  "n": "$14.2M",
+  "t": "paid by Amazon to anti-union consultants in 2022 alone, roughly triple the year before.",
+  "status": "documented",
+  "src": "US Department of Labor filings; HuffPost (March 2023)",
+  "sources": [
+   {
+    "url": "https://www.huffpost.com/entry/amazon-anti-union-spending-2022_n_6426fd1fe4b02a8d518e7010",
+    "publisher": "HuffPost",
+    "title": "Amazon Spent $14 Million On Anti-Union Consultants In 2022 (Dave Jamieson)",
+    "date": "2023-03-31"
+   }
+  ]
+ }
+];
+const MOVEMENTS = [
+ {
+  "year": "1971",
+  "status": "documented",
+  "title": "The Powell Memo",
+  "body": "Corporate lawyer Lewis Powell, two months before his Supreme Court nomination, sent the US Chamber of Commerce a confidential memo urging business to organize and fund a long-range campaign on campuses, in the media, in the courts and in politics. It is often called the blueprint for the think tanks and business law groups that followed; the clearest direct line runs to the Pacific Legal Foundation (1973), and some writers argue its influence is overstated.",
+  "src": "Powell, “Attack on American Free Enterprise System” (Aug 23, 1971), Washington and Lee University School of Law; Schmitt, “The Legend of the Powell Memo,” The American Prospect (2005)",
+  "sources": [
+   {
+    "url": "https://scholarlycommons.law.wlu.edu/powellmemo/",
+    "publisher": "Washington and Lee University School of Law, Powell Archives",
+    "title": "Powell Memorandum: Attack On American Free Enterprise System",
+    "date": "1971-08-23"
+   },
+   {
+    "url": "https://reclaimdemocracy.org/powell_memo_lewis/",
+    "publisher": "Reclaim Democracy (full transcription of the memo)",
+    "title": "Powell Memo (text of the Aug. 23, 1971 memorandum)",
+    "date": "1971-08-23"
+   },
+   {
+    "url": "https://prospect.org/2005/04/27/legend-powell-memo/",
+    "publisher": "The American Prospect",
+    "title": "The Legend of the Powell Memo (Mark Schmitt)",
+    "date": "2005-04-27"
+   }
+  ]
+ },
+ {
+  "year": "1993",
+  "status": "documented",
+  "title": "Big Tobacco’s fake smokers’ movement",
+  "body": "PR firm Burson-Marsteller created the National Smokers Alliance for Philip Morris in 1993 to look like a grassroots smokers’ rights group, with a Burson-Marsteller vice president as its president. Philip Morris supplied its start-up grant, and a peer-reviewed study calls it a front group funded by the tobacco industry.",
+  "src": "Tobacco Tactics, University of Bath; Givel, Journal of Health Communication (2007); NSA fact sheet, UCSF Industry Documents Library",
+  "sources": [
+   {
+    "url": "https://www.tobaccotactics.org/article/astroturfing/",
+    "publisher": "Tobacco Tactics, University of Bath",
+    "title": "Astroturfing",
+    "date": "2022-03-11"
+   },
+   {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17558787/",
+    "publisher": "Journal of Health Communication (via PubMed)",
+    "title": "Consent and counter-mobilization: the case of the national smokers alliance (Michael Givel)",
+    "date": "2007-06"
+   }
+  ],
+  "tv": "A SMOKERS' MOVEMENT, PAID FOR BY TOBACCO"
+ },
+ {
+  "year": "2009",
+  "status": "documented",
+  "title": "Oil industry “Energy Citizens” rallies",
+  "body": "The American Petroleum Institute organized rallies against climate legislation, presented as citizen events. An email from API’s president, leaked by Greenpeace, asked member companies to recruit employees, retirees, vendors and contractors.",
+  "src": "API email to members, published by Greenpeace (Aug 12, 2009); DeSmog (Aug 13, 2009)",
+  "sources": [
+   {
+    "url": "https://www.desmog.com/wp-content/uploads/files/GP%20API%20letter%20August%202009-1.pdf",
+    "publisher": "Greenpeace USA (letter to API, with the leaked API email attached)",
+    "title": "Letter from Phil Radford to Jack Gerard, with copy of email from American Petroleum Institute to its membership",
+    "date": "2009-08-12"
+   }
+  ]
+ },
+ {
+  "year": "2009–10",
+  "status": "reported",
+  "title": "Billionaire fuel for the Tea Party",
+  "body": "Groups funded by Charles and David Koch, including Americans for Prosperity, provided money, training and organization to the Tea Party movement. The Kochs denied funding the Tea Party directly.",
+  "src": "Mayer, “Covert Operations,” The New Yorker (2010)",
+  "sources": [
+   {
+    "url": "https://www.newyorker.com/magazine/2010/08/30/covert-operations",
+    "publisher": "The New Yorker",
+    "title": "Covert Operations (Jane Mayer)",
+    "date": "2010-08-23"
+   }
+  ]
+ },
+ {
+  "year": "2016",
+  "status": "court",
+  "title": "Foreign trolls stage both sides of a protest",
+  "body": "Russia’s Internet Research Agency used a fake “Heart of Texas” Facebook page to promote a “Stop Islamization of Texas” protest at a Houston Islamic center on May 21, 2016, and a second fake page to promote a counter-rally at the same place and time. The two crowds faced off; the ads cost about $200.",
+  "src": "Senate Intelligence Committee report, Vol. 2 (2019); NPR (Nov 2017)",
+  "sources": [
+   {
+    "url": "https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-documents-report-volume2.pdf",
+    "publisher": "US Senate Select Committee on Intelligence",
+    "title": "Russian Active Measures Campaigns and Interference in the 2016 U.S. Election, Volume 2: Russia's Use of Social Media",
+    "date": "2019-10"
+   },
+   {
+    "url": "https://www.npr.org/2017/11/01/561427876/how-russia-used-facebook-to-organize-two-sets-of-protesters",
+    "publisher": "NPR",
+    "title": "How Russia Used Facebook To Organize 2 Sets Of Protesters (Ryan Lucas)",
+    "date": "2017-11-01"
+   }
+  ]
+ },
+ {
+  "year": "2004",
+  "status": "argument",
+  "title": "Culture war as a substitute for wages",
+  "body": "Writer Thomas Frank argued that political campaigns rally working-class voters around cultural grievances while delivering economic policies that favor the wealthy.",
+  "src": "Frank, What’s the Matter with Kansas? (2004)",
+  "sources": [
+   {
+    "url": "https://us.macmillan.com/books/9780805077742/whatsthematterwithkansas/",
+    "publisher": "Metropolitan Books / Macmillan (excerpt of the introduction)",
+    "title": "What's the Matter with Kansas? How Conservatives Won the Heart of America (Thomas Frank)",
+    "date": "2004"
+   }
+  ]
+ },
+ {
+  "year": "2017",
+  "status": "court",
+  "title": "Millions of fake voices for the FCC",
+  "body": "New York’s attorney general found that the nation’s largest broadband companies secretly funded a campaign to flood the FCC with comments backing its 2017 repeal of net neutrality. The firms they hired fabricated responses, filing more than 8.5 million fake comments in real people’s names; another 9.3 million fakes on the other side came mostly from one college student.",
+  "src": "New York Attorney General, report and press release (May 6, 2021)",
+  "sources": [
+   {
+    "url": "https://ag.ny.gov/press-release/2021/attorney-general-james-issues-report-detailing-millions-fake-comments-revealing",
+    "publisher": "Office of the New York State Attorney General",
+    "title": "Attorney General James Issues Report Detailing Millions of Fake Comments, Revealing Secret Campaign to Influence FCC’s 2017 Repeal of Net Neutrality Rules",
+    "date": "2021-05-06"
+   }
+  ]
+ },
+ {
+  "year": "2021",
+  "status": "court",
+  "title": "Amazon’s mailbox voids a union vote",
+  "body": "After workers at Amazon’s Bessemer, Alabama warehouse voted down a union 1,798 to 738, the National Labor Relations Board’s regional director threw out the result and ordered a new election. She found that a postal mailbox Amazon installed at the main employee entrance “essentially highjacked the process.”",
+  "src": "NLRB Region 10 decision (Nov 2021), as reported by the Associated Press / PBS NewsHour",
+  "sources": [
+   {
+    "url": "https://www.pbs.org/newshour/economy/amazon-workers-in-alabama-get-a-do-over-union-election",
+    "publisher": "PBS NewsHour (Associated Press)",
+    "title": "Amazon workers in Alabama get a do-over union election (Anne D'Innocenzio)",
+    "date": "2021-11-29"
+   }
+  ]
+ }
+];
+const FAITH = [
+ {
+  "year": "1936–44",
+  "status": "reported",
+  "title": "“Right to work” was born in a racist, “Christian” front group",
+  "body": "Texas lobbyist Vance Muse’s Christian American Association, which raised money from wealthy Southern planters and industrialists, led the 1944 campaign that made Arkansas, with Florida, one of the first two states to pass a “right to work” law, selling it with racist and antisemitic propaganda.",
+  "src": "Pierce, “The Origins of Right-to-Work,” LAWCHA (2017)",
+  "sources": [
+   {
+    "url": "https://www.lawcha.org/2017/01/12/origins-right-work-vance-muse-anti-semitism-maintenance-jim-crow-labor-relations/",
+    "publisher": "Labor and Working-Class History Association (LAWCHA)",
+    "title": "The Origins of Right-to-Work: Vance Muse, Anti-Semitism, and the Maintenance of Jim Crow Labor Relations (Michael Pierce)",
+    "date": "2017-01-12"
+   }
+  ]
+ },
+ {
+  "year": "1935–",
+  "status": "reported",
+  "title": "Prayer breakfasts born from anti-union organizing",
+  "body": "In April 1935, Norwegian-born preacher Abraham Vereide gathered Seattle business executives into weekly prayer breakfasts; journalist Jeff Sharlet, working from the group’s own archive, writes that they prayed to “crush the radical unions.” His network, the Fellowship (or “the Family”), established the National Prayer Breakfast in 1953.",
+  "src": "Sharlet, “Jesus Plus Nothing,” Harper’s (March 2003); Pacific Lutheran University Archives",
+  "sources": [
+   {
+    "url": "https://harpers.org/archive/2003/03/jesus-plus-nothing/",
+    "publisher": "Harper’s Magazine",
+    "title": "Jesus Plus Nothing (Jeff Sharlet)",
+    "date": "2003-03"
+   },
+   {
+    "url": "https://archives.plu.edu/index.php/abraham-vereide",
+    "publisher": "Pacific Lutheran University Archives",
+    "title": "Abraham Vereide (biographical note)"
+   }
+  ]
+ },
+ {
+  "year": "1930s–50s",
+  "status": "reported",
+  "title": "Industrialists fund “Freedom Under God”",
+  "body": "Corporate leaders including Sun Oil president J. Howard Pew and GM’s Alfred Sloan, along with the heads of the US Chamber of Commerce and the National Association of Manufacturers, bankrolled minister James Fifield’s Spiritual Mobilization, which recruited clergy to preach that the New Deal was “pagan stateism” under the slogan “Freedom Under God.” Historian Kevin Kruse traces how that pairing of faith and free enterprise moved to center stage in the 1950s, when “under God” entered the Pledge (1954) and “In God We Trust” became the national motto (1956).",
+  "src": "Kruse, One Nation Under God (2015), interviewed on NPR’s Fresh Air (March 2015); Eisenhower signing statement (June 14, 1954)",
+  "sources": [
+   {
+    "url": "https://www.npr.org/2015/03/30/396365659/how-one-nation-didnt-become-under-god-until-the-50s-religious-revival",
+    "publisher": "NPR (Fresh Air)",
+    "title": "How 'One Nation' Didn't Become 'Under God' Until The '50s Religious Revival",
+    "date": "2015-03-30"
+   },
+   {
+    "url": "https://www.presidency.ucsb.edu/documents/statement-the-president-upon-signing-bill-include-the-words-under-god-the-pledge-the-flag",
+    "publisher": "The American Presidency Project, UC Santa Barbara",
+    "title": "Statement by the President Upon Signing Bill To Include the Words \"Under God\" in the Pledge to the Flag",
+    "date": "1954-06-14"
+   }
+  ]
+ },
+ {
+  "year": "1971–79",
+  "status": "argument",
+  "title": "The religious right’s real starting point",
+  "body": "Historian Randall Balmer argues the religious right first organized not around abortion but around federal moves to deny tax exemptions to racially segregated Christian schools, with strategist Paul Weyrich using the issue to mobilize preachers like Jerry Falwell.",
+  "src": "Balmer, “The Historian’s Pickaxe” (essay); Bad Faith (2021). Critics dispute this account.",
+  "sources": [
+   {
+    "url": "https://www.sas.upenn.edu/andrea-mitchell-center/sites/www.sas.upenn.edu.andrea-mitchell-center/files/Balmer%20-%20Historian's%20Pickaxe.pdf",
+    "publisher": "Andrea Mitchell Center, University of Pennsylvania",
+    "title": "The Historian's Pickaxe: Uncovering the Racist Origins of the Religious Right (Randall Balmer)"
+   },
+   {
+    "url": "https://religion.dartmouth.edu/news/2022/05/good-faith",
+    "publisher": "Dartmouth College, Department of Religion",
+    "title": "In Good Faith",
+    "date": "2022-05-03"
+   },
+   {
+    "url": "https://www.thegospelcoalition.org/blogs/evangelical-history/fact-checking-randall-balmers-urban-legend-on-the-real-origin-of-the-religious-right/",
+    "publisher": "The Gospel Coalition (guest post by attorney Jonathan Whitehead)",
+    "title": "Fact-Checking Randall Balmer’s Urban Legend on the Real Origin of the Religious Right",
+    "date": "2022-08-08"
+   }
+  ]
+ },
+ {
+  "year": "2010",
+  "status": "documented",
+  "title": "Climate action as a “false religion”",
+  "body": "The Cornwall Alliance, an evangelical group that co-sponsored the Heartland Institute’s 2009 conference on climate change and shares a fundraising firm with the group CFACT, released “Resisting the Green Dragon,” a 12-part DVD series casting environmentalism as a rival faith with “its own doctrines of God, creation, humanity, sin, and salvation.”",
+  "src": "Cornwall Alliance press release, via Mother Jones (Dec 2010); DeSmog",
+  "sources": [
+   {
+    "url": "https://www.motherjones.com/politics/2010/12/beware-treehuggers/",
+    "publisher": "Mother Jones",
+    "title": "Beware the Treehuggers! (Kate Sheppard)",
+    "date": "2010-12-17"
+   },
+   {
+    "url": "https://www.desmog.com/cornwall-alliance-stewardship-creation",
+    "publisher": "DeSmog",
+    "title": "Cornwall Alliance for the Stewardship of Creation (profile)"
+   }
+  ]
+ },
+ {
+  "year": "2007–11",
+  "status": "court",
+  "title": "Televangelists’ jets and mansions",
+  "body": "A Senate Finance Committee inquiry launched by Sen. Chuck Grassley in 2007 examined six TV ministries over high salaries, private jets, luxury cars and homes. Four would not fully cooperate. It ended in 2011 with no penalties, and Grassley asked an evangelical accountability group to study “self-reform.”",
+  "src": "Senate Finance Committee staff review (Jan 6, 2011); Christianity Today; Religion News Service via The Christian Century (2011)",
+  "sources": [
+   {
+    "url": "https://www.finance.senate.gov/imo/media/doc/SFC%20Staff%20Memo%20to%20Grassley%20re%20Ministries%2001-06-11%20FINAL.pdf",
+    "publisher": "US Senate Committee on Finance",
+    "title": "Review of Media-Based Ministries (staff memo to Senator Grassley)",
+    "date": "2011-01-06"
+   },
+   {
+    "url": "https://www.christianitytoday.com/news/2011/january/grassley-investigation-ends-with-no-penalty-for.html",
+    "publisher": "Christianity Today",
+    "title": "Grassley Investigation Ends with No Penalty for Televangelists (Sarah Pulliam Bailey)",
+    "date": "2011-01-06"
+   },
+   {
+    "url": "https://www.christiancentury.org/article/2011-01/senator-concludes-probe-ministry-finances",
+    "publisher": "The Christian Century (Religion News Service)",
+    "title": "Senator ends probe of ministries, calls for ‘self-reform’ (Adelle M. Banks)",
+    "date": "2011-02-08"
+   }
+  ]
+ },
+ {
+  "year": "2014",
+  "status": "court",
+  "title": "An employer’s faith limits workers’ benefits",
+  "body": "In Burwell v. Hobby Lobby, the Supreme Court ruled 5–4 that closely held companies can be exempted from covering contraceptives their owners object to on religious grounds.",
+  "src": "Burwell v. Hobby Lobby, US Supreme Court (2014)",
+  "sources": [
+   {
+    "url": "https://www.law.cornell.edu/supremecourt/text/13-354",
+    "publisher": "Legal Information Institute, Cornell Law School",
+    "title": "Burwell v. Hobby Lobby Stores, Inc., 573 U.S. 682 (2014)",
+    "date": "2014-06-30"
+   }
+  ]
+ },
+ {
+  "year": "2020",
+  "status": "court",
+  "title": "Religious employers exempt from discrimination suits",
+  "body": "In Our Lady of Guadalupe v. Morrissey-Berru, the Supreme Court extended the “ministerial exception,” barring religious-school teachers who teach the faith from suing over age or disability discrimination.",
+  "src": "Our Lady of Guadalupe School v. Morrissey-Berru, US Supreme Court (2020)",
+  "sources": [
+   {
+    "url": "https://www.supremecourt.gov/opinions/19pdf/19-267_1an2.pdf",
+    "publisher": "Supreme Court of the United States",
+    "title": "Our Lady of Guadalupe School v. Morrissey-Berru, 591 U.S. ___ (2020) (slip opinion)",
+    "date": "2020-07-08"
+   }
+  ]
+ },
+ {
+  "year": "2016",
+  "status": "court",
+  "title": "Foreign trolls pose as Christians",
+  "body": "Russia’s Internet Research Agency ran pages like “Army of Jesus,” with more than 216,000 followers, using religious memes to win followers and push election content.",
+  "src": "Senate Intelligence Committee report, Vol. 2 (Oct 2019)",
+  "sources": [
+   {
+    "url": "https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-documents-report-volume2.pdf",
+    "publisher": "US Senate Select Committee on Intelligence",
+    "title": "Russian Active Measures Campaigns and Interference in the 2016 U.S. Election, Volume 2: Russia's Use of Social Media",
+    "date": "2019-10"
+   }
+  ],
+  "tv": "ARMY OF JESUS"
+ }
+];
+const RECLAIM = [
+ {
+  "year": "1891",
+  "status": "documented",
+  "title": "The Pope backs unions",
+  "body": "Pope Leo XIII’s encyclical Rerum Novarum defends workers’ right to form unions and earn a just wage.",
+  "src": "Rerum Novarum (1891)",
+  "sources": [
+   {
+    "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
+    "publisher": "The Holy See",
+    "title": "Rerum Novarum: Encyclical of Pope Leo XIII on Capital and Labor",
+    "date": "1891-05-15"
+   }
+  ]
+ },
+ {
+  "year": "1907",
+  "status": "documented",
+  "title": "The Social Gospel",
+  "body": "Baptist minister Walter Rauschenbusch’s Christianity and the Social Crisis calls on churches to take up the social crisis of industrial capitalism and backs the labor movement’s fight to win unions a recognized place in law.",
+  "src": "Rauschenbusch, Christianity and the Social Crisis (1907)",
+  "sources": [
+   {
+    "url": "https://www.americanyawp.com/reader/20-the-progressive-era/walter-rauschenbusch-christianity-and-the-social-crisis-1907/",
+    "publisher": "The American Yawp Reader (Stanford University Press)",
+    "title": "Walter Rauschenbusch, Christianity and the Social Crisis (1907)",
+    "date": "1907"
+   }
+  ]
+ },
+ {
+  "year": "1966",
+  "status": "documented",
+  "title": "A farmworkers’ pilgrimage",
+  "body": "César Chávez led striking grape workers on a march to Sacramento framed as a religious pilgrimage, during Lent, under a banner of the Virgin of Guadalupe.",
+  "src": "National Park Service",
+  "sources": [
+   {
+    "url": "https://home.nps.gov/articles/000/mobilizing-support-for-la-causa.htm",
+    "publisher": "National Park Service",
+    "title": "Mobilizing Support for La Causa (series: The Road to Sacramento)"
+   }
+  ]
+ },
+ {
+  "year": "1968",
+  "status": "words",
+  "title": "“All labor has dignity”",
+  "body": "Martin Luther King Jr. came to Memphis to support striking Black sanitation workers. He was assassinated there weeks later.",
+  "src": "King, speech to Memphis sanitation strikers (March 18, 1968); Stanford King Institute",
+  "sources": [
+   {
+    "url": "https://beaconbroadside.com/2018/03/18/the-50th-anniversary-of-martin-luther-king-jrs-all-labor-has-dignity/",
+    "publisher": "Beacon Broadside (Beacon Press)",
+    "title": "The 50th Anniversary of Martin Luther King, Jr.’s “All Labor Has Dignity”",
+    "date": "2018-03-18"
+   },
+   {
+    "url": "https://kinginstitute.stanford.edu/memphis-sanitation-workers-strike",
+    "publisher": "Martin Luther King, Jr. Research and Education Institute, Stanford University",
+    "title": "Memphis Sanitation Workers’ Strike"
+   }
+  ]
+ },
+ {
+  "year": "2015",
+  "status": "documented",
+  "title": "Climate as a moral issue for the poor",
+  "body": "Pope Francis’s Laudato si’ calls climate change a threat that falls hardest on the poor and criticizes an economy that treats people and nature as disposable.",
+  "src": "Laudato si’ (2015)",
+  "sources": [
+   {
+    "url": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html",
+    "publisher": "The Holy See",
+    "title": "Laudato si’: Encyclical Letter of the Holy Father Francis on Care for Our Common Home",
+    "date": "2015-05-24"
+   }
+  ]
+ },
+ {
+  "year": "1981",
+  "status": "documented",
+  "title": "A pope defends the right to strike",
+  "body": "Pope John Paul II’s encyclical Laborem Exercens calls workers’ unions “an indispensable element of social life” and says workers should be assured the right to strike without facing penal sanctions for taking part.",
+  "src": "Laborem Exercens (1981)",
+  "sources": [
+   {
+    "url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_14091981_laborem-exercens.html",
+    "publisher": "The Holy See",
+    "title": "Laborem Exercens: Encyclical of Pope John Paul II on Human Work",
+    "date": "1981-09-14"
+   }
+  ]
+ }
+];
+const HOLLY = [
+ {
+  "year": "1986",
+  "topic": "government",
+  "status": "reported",
+  "title": "Top Gun, courtesy of the Navy",
+  "body": "The producers paid the military $1.8 million for the use of four aircraft carriers and about two dozen F-14 Tomcats, F-5 Tigers and A-4 Skyhawks, some flown by real Navy pilots, and theaters in cities such as Los Angeles and Detroit set up Navy recruiting exhibits outside cinemas showing the film.",
+  "sources": [
+   {
+    "url": "https://content.time.com/time/subscriber/article/0,33009,962933-1,00.html",
+    "publisher": "Time",
+    "date": "1986-11"
+   }
+  ],
+  "tv": "TOP GUN, COURTESY OF THE NAVY"
+ },
+ {
+  "year": "2022",
+  "topic": "government",
+  "status": "documented",
+  "title": "Maverick’s talking points",
+  "body": "The Pentagon’s production agreement for Top Gun: Maverick let the Navy assign a senior officer to “review with public affairs the script’s thematics and weave in key talking points relevant to the aviation community.”",
+  "sources": [
+   {
+    "url": "https://www.spyculture.com/weave-in-key-talking-points-pentagon-contract-for-top-gun-maverick/",
+    "publisher": "Spy Culture",
+    "date": ""
+   },
+   {
+    "url": "https://shadowproof.com/2022/05/26/how-pentagon-turned-top-gun-maverick-recruitment-pr-vehicle/",
+    "publisher": "Shadowproof",
+    "date": "2022-05"
+   }
+  ],
+  "tv": "WEAVE IN KEY TALKING POINTS"
+ },
+ {
+  "year": "2015",
+  "topic": "government",
+  "status": "documented",
+  "title": "The price of a borrowed carrier",
+  "body": "Pentagon policy lends troops, bases and equipment to film and television productions only when they portray the military feasibly and help public understanding of it or its recruiting, and the department reviews the production in return.",
+  "sources": [
+   {
+    "url": "https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/541016p.pdf",
+    "publisher": "U.S. Department of Defense",
+    "date": "2015-07"
+   },
+   {
+    "url": "https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/541019_vol1.PDF?ver=Z1RFpk7KOWIH2XIzEz3T7g%3d%3d",
+    "publisher": "U.S. Department of Defense",
+    "date": "2021"
+   }
+  ]
+ },
+ {
+  "year": "2017",
+  "topic": "government",
+  "status": "reported",
+  "title": "Hundreds of films, one reviewer",
+  "body": "Researchers who obtained more than 60,000 internal Pentagon and CIA documents through Freedom of Information Act requests describe the military’s editorial control over thousands of Hollywood films and television programs.",
+  "sources": [
+   {
+    "url": "https://hass.uq.edu.au/article/2024/10/theaters-war-how-pentagon-and-cia-took-hollywood",
+    "publisher": "The University of Queensland, Faculty of…",
+    "date": "2024-10"
+   }
+  ]
+ },
+ {
+  "year": "2012",
+  "topic": "government",
+  "status": "documented",
+  "title": "Zero Dark Thirty",
+  "body": "The CIA gave the makers of Zero Dark Thirty access to its officials, and Senators Dianne Feinstein, Carl Levin and John McCain wrote to Sony that the film was \"grossly inaccurate and misleading\" in suggesting torture led to Osama bin Laden.",
+  "sources": [
+   {
+    "url": "https://deadline.com/2012/12/zero-dark-thirty-grossly-inaccurate-senators-tell-sony-392075/",
+    "publisher": "Deadline",
+    "date": "2012-12"
+   },
+   {
+    "url": "https://www.politico.com/blogs/on-congress/2012/12/3-senators-slam-zero-dark-thirty-152476",
+    "publisher": "Politico",
+    "date": "2012"
+   },
+   {
+    "url": "https://www.theguardian.com/world/2022/apr/21/zero-dark-thirty-ex-cia-agent-alfreda-scheuer",
+    "publisher": "The Guardian",
+    "date": "2022"
+   }
+  ]
+ },
+ {
+  "year": "2020",
+  "status": "reported",
+  "title": "Made for Beijing",
+  "body": "A 2020 PEN America report documented Hollywood studios changing films to keep access to China's market, such as recasting Doctor Strange's Tibetan mentor as a Celtic character.",
+  "sources": [
+   {
+    "url": "https://pen.org/report/made-in-hollywood-censored-by-beijing/",
+    "publisher": "PEN America",
+    "date": "2020-08"
+   },
+   {
+    "url": "https://pen.org/censorship-free-speech-issues-china/",
+    "publisher": "PEN America",
+    "date": "2021-07"
+   }
+  ]
+ },
+ {
+  "year": "2019",
+  "status": "reported",
+  "title": "Maverick’s jacket",
+  "body": "Top Gun: Maverick’s 2019 trailer replaced the Japan and Taiwan flags on Maverick’s jacket, a change widely seen as appeasing China’s censors; both flags appeared to be back in the cut of the film screened in Taiwan in 2022.",
+  "sources": [
+   {
+    "url": "https://www.businessinsider.com/top-gun-maverick-china-anger-taiwan-flag-jacket-cross-strait-2022-6?op=1",
+    "publisher": "Business Insider",
+    "date": "2022-06"
+   }
+  ]
+ },
+ {
+  "year": "2017",
+  "status": "reported",
+  "title": "Weinstein’s private spies",
+  "body": "Harvey Weinstein hired private investigators, including Black Cube, an agency run largely by former officers of Mossad and other Israeli intelligence agencies, to gather information on women and journalists trying to expose the allegations against him.",
+  "sources": [
+   {
+    "url": "https://www.newyorker.com/news/news-desk/harvey-weinsteins-army-of-spies",
+    "publisher": "The New Yorker",
+    "date": "2017-11"
+   },
+   {
+    "url": "https://www.newyorker.com/news/annals-of-espionage/the-black-cube-chronicles-the-double-agent",
+    "publisher": "The New Yorker",
+    "date": "2019-10"
+   }
+  ]
+ },
+ {
+  "year": "2016",
+  "status": "documented",
+  "title": "Catch and kill",
+  "body": "The National Enquirer’s publisher, American Media Inc., paid former Playboy model Karen McDougal $150,000 before the 2016 election for her story about an alleged affair with Donald Trump, so it would not be published, and admitted it in a 2018 non-prosecution agreement with federal prosecutors.",
+  "sources": [
+   {
+    "url": "https://www.cnbc.com/2018/12/12/federal-prosecutors-give-national-enquirer-publisher-immunity.html",
+    "publisher": "CNBC",
+    "date": "2018-12"
+   },
+   {
+    "url": "https://www.justice.gov/usao-sdny/pr/michael-cohen-sentenced-3-years-prison",
+    "publisher": "U.S. Attorney's Office, Southern District…",
+    "date": "2018-12"
+   }
+  ]
+ }
+];
+const INFL = [
+ {
+  "year": "2020",
+  "status": "reported",
+  "title": "Bloomberg’s memes",
+  "body": "Michael Bloomberg's 2020 presidential campaign paid popular Instagram meme accounts to post jokes promoting him.",
+  "sources": [
+   {
+    "url": "https://www.businessinsider.com/mike-bloomberg-2020-meme-accounts-parody-sponsored-memes-instagram-posts-2020-2?op=1",
+    "publisher": "Business Insider",
+    "date": "2020-02"
+   }
+  ]
+ },
+ {
+  "year": "2022",
+  "topic": "government",
+  "status": "reported",
+  "title": "The TikTok briefing",
+  "body": "On March 10, 2022, White House and National Security Council staffers briefed about 30 social media creators, including TikTok stars, on the war in Ukraine.",
+  "sources": [
+   {
+    "url": "https://www.washingtonpost.com/technology/2022/03/11/tik-tok-ukraine-white-house/",
+    "publisher": "The Washington Post",
+    "date": "2022-03"
+   },
+   {
+    "url": "https://www.cbsnews.com/news/ukraine-russia-tiktok-white-house/",
+    "publisher": "CBS News",
+    "date": "2022-03"
+   }
+  ]
+ },
+ {
+  "year": "2022",
+  "topic": "finance",
+  "status": "court",
+  "title": "A $250,000 post, undisclosed",
+  "body": "In 2022 Kim Kardashian paid $1.26 million to settle SEC charges that she promoted the crypto token EthereumMax on Instagram without disclosing that she was paid $250,000 to do it.",
+  "sources": [
+   {
+    "url": "https://www.sec.gov/newsroom/press-releases/2022-183",
+    "publisher": "U.S. Securities and Exchange Commission",
+    "date": "2022-10"
+   },
+   {
+    "url": "https://www.sec.gov/news/press-release/2022-183",
+    "publisher": "U.S. Securities and Exchange Commission",
+    "date": "2022-10"
+   }
+  ]
+ },
+ {
+  "year": "2022",
+  "topic": "finance",
+  "status": "documented",
+  "title": "Eight influencers, $100 million",
+  "body": "In December 2022 the SEC charged eight social media influencers in a $100 million stock manipulation scheme promoted on Twitter and Discord.",
+  "sources": [
+   {
+    "url": "https://www.sec.gov/newsroom/press-releases/2022-221",
+    "publisher": "U.S. Securities and Exchange Commission",
+    "date": "2022-12"
+   },
+   {
+    "url": "https://www.cnbc.com/2022/12/14/sec-charges-social-media-influencers-in-alleged-100-million-fraud-scheme.html",
+    "publisher": "CNBC",
+    "date": "2022-12"
+   }
+  ]
+ },
+ {
+  "year": "2023",
+  "status": "documented",
+  "title": "Paid posts for sugar and sweeteners",
+  "body": "In November 2023 the FTC warned a dozen health influencers and two trade groups, the American Beverage Association and the Canadian Sugar Institute, over Instagram and TikTok posts that did not disclose the groups had paid for them.",
+  "sources": [
+   {
+    "url": "https://www.ftc.gov/news-events/news/press-releases/2023/11/ftc-warns-two-trade-associations-dozen-influencers-about-social-media-posts-promoting-consumption",
+    "publisher": "Federal Trade Commission",
+    "date": "2023-11"
+   },
+   {
+    "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/warning-letter-american-bev.pdf",
+    "publisher": "Federal Trade Commission",
+    "date": "2023-11"
+   }
+  ]
+ },
+ {
+  "year": "2024",
+  "topic": "government",
+  "status": "documented",
+  "title": "Moscow’s money, American voices",
+  "body": "In September 2024 the Justice Department charged two RT employees with funneling nearly $10 million to a Tennessee company that paid American online commentators; the company never disclosed to its viewers that the funding came from RT.",
+  "sources": [
+   {
+    "url": "https://www.justice.gov/usao-sdny/pr/two-rt-employees-indicted-covertly-funding-and-directing-us-company-published",
+    "publisher": "U.S. Department of Justice, U.S. Attorney's…",
+    "date": "2024-09"
+   },
+   {
+    "url": "https://www.justice.gov/archives/opa/pr/two-rt-employees-indicted-covertly-funding-and-directing-us-company-published-thousands",
+    "publisher": "U.S. Department of Justice",
+    "date": "2024-09"
+   }
+  ]
+ },
+ {
+  "year": "2020",
+  "topic": "government",
+  "status": "reported",
+  "title": "The Pentagon’s fake accounts",
+  "body": "During the pandemic the U.S. military ran a secret campaign, using phony internet accounts meant to impersonate Filipinos, to sow doubt about China's Sinovac vaccine and other aid in the Philippines, a Reuters investigation found.",
+  "sources": [
+   {
+    "url": "https://www.usatoday.com/story/news/world/2024/06/14/pentagon-vaccine-china-covid/74096177007/",
+    "publisher": "USA TODAY",
+    "date": "2024"
+   }
+  ]
+ },
+ {
+  "year": "2025",
+  "status": "reported",
+  "title": "Paid to stay on message",
+  "body": "In 2025 Chorus, the nonprofit arm of a liberal influencer marketing agency, offered left-leaning influencers up to $8,000 a month under contracts that barred them from disclosing the arrangement or their payments.",
+  "sources": [
+   {
+    "url": "https://www.wired.com/story/dark-money-group-secret-funding-democrat-influencers/",
+    "publisher": "WIRED",
+    "date": "2025-08"
+   }
+  ]
+ },
+ {
+  "year": "2021",
+  "topic": "tech",
+  "status": "documented",
+  "title": "Instagram’s own research",
+  "body": "An internal Facebook presentation, reported in 2021, said: “We make body image issues worse for one in three teen girls.”",
+  "sources": [
+   {
+    "url": "https://www.theverge.com/2021/9/15/22675130/facebook-instagram-teens-mental-health-damage-internal-research",
+    "publisher": "The Verge",
+    "date": "2021-09"
+   }
+  ],
+  "tv": "WE MAKE BODY IMAGE ISSUES WORSE"
+ },
+ {
+  "year": "2025",
+  "topic": "tech",
+  "status": "reported",
+  "title": "Clavicular: looks for sale",
+  "body": "Clavicular (Braden Peters), the streamer who took “looksmaxxing” mainstream, earned more than $100,000 from the platform Kick in one month and sells coaching to followers. He has described years of steroid abuse and using methamphetamine to suppress his appetite, has endorsed “bone smashing” the jaw with a hammer, and says he will endorse whichever party gives him “the fattest bag.” In September 2026 Peters was charged in Massachusetts with rape, drugging a person for sex and providing alcohol to someone under the drinking age; a spokesperson called the charges “bogus.”",
+  "sources": [
+   {
+    "url": "https://www.theguardian.com/society/2026/feb/18/foid-looksmaxxer-manosphere-influencer-braden-peters-aka-clavicular",
+    "publisher": "The Guardian",
+    "date": "2026"
+   },
+   {
+    "url": "https://www.usatoday.com/story/life/health-wellness/2026/09/23/clavicular-rape-drugging-charges-looksmaxxing-manosphere/91903499007/",
+    "publisher": "USA TODAY",
+    "date": "2026-09"
+   },
+   {
+    "url": "https://www.bbc.com/news/articles/c914dyx88233o",
+    "publisher": "BBC",
+    "date": "2026-09"
+   }
+  ],
+  "tv": "THE FATTEST BAG"
+ }
+];
+const MYTH = {
+ "year": "1912 · 2018 · 2023",
+ "title": "J.P. Morgan and the Titanic: a 1912 disaster, rewritten for the feed",
+ "tv": "J.P. MORGAN SANK THE TITANIC",
+ "story": {
+  "text": "A theory that J.P. Morgan sank the Titanic to kill wealthy opponents of the Federal Reserve spread through QAnon posts in 2018 and through Instagram posts in 2023; fact-checkers found no evidence for it.",
+  "sources": [
+   {
+    "url": "https://www.washingtonpost.com/news/retropolis/wp/2018/08/04/how-j-p-morgan-didnt-sink-the-titanic-and-other-qanon-conspiracy-theories-debunked/",
+    "publisher": "The Washington Post",
+    "date": "2018-08"
+   },
+   {
+    "url": "https://www.politifact.com/factchecks/2023/jan/26/instagram-posts/titanic-sinking-was-accident-caused-over-1500-deat/",
+    "publisher": "PolitiFact",
+    "date": "2023-01"
+   }
+  ]
+ },
+ "record": {
+  "text": "J.P. Morgan owned the companies that managed the Titanic and cancelled his passage, and John Jacob Astor, Benjamin Guggenheim and Isidor Straus died in the sinking, but there is no record that they opposed creating the Federal Reserve, and the ship sank after striking an iceberg.",
+  "sources": [
+   {
+    "url": "https://www.snopes.com/fact-check/titanic-inside-job/",
+    "publisher": "Snopes",
+    "date": "2022-09"
+   }
+  ]
+ }
+};
+
+const SPOT = [
+  "<b>Who paid?</b> Look for the funder behind a study, ad, “citizens’ group” or expert. Undisclosed money is the most common red flag.",
+  "<b>Is the expert independent?</b> Pundits and analysts often have ties to the companies they talk about.",
+  "<b>Is “both sides” really balanced?</b> Giving equal time to a fringe view can mislead as much as a lie.",
+  "<b>Who benefits from the outrage?</b> Ask whether a fight pits workers against each other instead of against the people setting their wages.",
+  "<b>Is faith being invoked to sell a policy?</b> Check what the tradition itself teaches about workers and the poor.",
+  "<b>Is it an ad?</b> Look for #ad, “paid partnership” or a sponsor tag. Their absence proves little: regulators fine people for leaving them off.",
+  "<b>Who pays the creator?</b> A platform payout, a sponsor, a campaign or a foreign government can all sit behind a voice that sounds independent.",
+  "<b>Was the film made with help?</b> Check the end credits: productions that borrowed equipment or advice from the Defense Department, the CIA or a branch of the military often thank them there.",
+  "<b>Go to the source.</b> Court rulings, filings and original documents beat summaries of them."
+];
+const CROSS = [
+  ["Crash Conduits", "crash-conduits.html", "financial engineering, 1636–2026"],
+  ["Carbon Class", "carbon-class.html", "climate, the top 10% & fossil money"],
+  ["Post-Human Resources", "transhumanism.html", "tech & labor"],
+  ["The Handoff Ledger", "handoffs.html", "public money, private hands"],
+  ["Deep State Dossiers", "deep-state.html", "government capture"],
+  ["Demystification Desk", "demystification.html", "UFO legends and their paperwork"],
+  ["Blind Pool", "blind-pool.html", "venture capital & infrastructure"],
+  ["The Web", "web.html", "every name, connected"]
+];
+
+// ---------- helpers ----------
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const badge = (s) => `<span class="badge st-${s}" title="${STATUS[s].desc}">${STATUS[s].label}</span>`;
+function srcHtml(i) {
+  const list = (i.sources || []).map((x) => x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.publisher)}${x.date ? ", " + esc(String(x.date).slice(0, 7)) : ""} ↗</a>` : `<span>${esc(x.publisher)}</span>`);
+  return list.length ? list.join("") : `<span>${esc(i.src || "")}</span>`;
+}
+function topicTag(t) {
+  const tp = TOPIC_LINKS[t];
+  return tp ? `<span class="topic">${tp.href ? `<a href="${tp.href}">${tp.label}</a>` : tp.label}</span>` : "";
+}
+const startYear = (y) => parseInt(String(y), 10) || 0;
+const byYear = (list) => list.slice().sort((a, b) => startYear(a.year) - startYear(b.year));
+const card = (c) => `<article class="case ${c.status}">
+  <div class="top"><span class="yr">${esc(c.year)}</span>${badge(c.status)}${c.topic ? topicTag(c.topic) : ""}</div>
+  <h3>${c.title}</h3>
+  <p>${c.body}</p>
+  <div class="src">↳ ${srcHtml(c)}</div>
+</article>`;
+const stat = (s) => `<div class="stat"><div class="n">${s.n}</div><div class="t">${s.t}</div><div class="src">${badge(s.status)} ↳ ${srcHtml(s)}</div></div>`;
+
+// ---------- the floor plan, the rail and the counts all read one list ----------
+const LINES = [
+  ["01", "The Media", "media", MEDIA.length],
+  ["02", "War & Money", "war", WAR.length + WAR_STATS.length],
+  ["03", "Bought Movements", "movements", MOVEMENTS.length + MOVE_STATS.length],
+  ["04", "Faith, Weaponized", "faith", FAITH.length],
+  ["05", "Faith With Workers", "reclaim", RECLAIM.length],
+  ["06", "The Dream Factory", "hollywood", HOLLY.length],
+  ["07", "Paid to Post", "influencers", INFL.length + (MYTH ? 1 : 0)],
+  ["08", "How To Spot It", "spot", 0]
+];
+const ct = (n) => (n ? `${n} case${n === 1 ? "" : "s"}` : "field guide");
+document.getElementById("plan").innerHTML = LINES.map(([n, name, id, k]) => `<a href="#${id}"><span class="no">LINE ${n}</span><span class="nm">${esc(name)}</span><span class="ct">${ct(k)}</span></a>`).join("");
+document.getElementById("rail").innerHTML = `<div class="k">THE FLOOR</div>` + LINES.map(([n, name, id]) => `<a href="#${id}" data-line="${id}"><span class="n">${n}</span><span>${esc(name)}</span></a>`).join("");
+for (const [, , id, k] of LINES) { const el = document.querySelector(`[data-ct="${id}"]`); if (el) el.textContent = ct(k); }
+document.getElementById("legend").innerHTML = Object.entries(STATUS).map(([k, s]) => `<span>${badge(k)} ${s.desc}</span>`).join("");
+
+let mediaTopic = "all";
+function renderMedia() {
+  const topics = ["all", ...new Set(MEDIA.map((m) => m.topic).filter(Boolean))];
+  document.getElementById("media-filters").innerHTML = topics.map((t) => `<button class="pill${t === mediaTopic ? " active" : ""}" data-t="${t}">${t === "all" ? "All" : TOPIC_LINKS[t].label}</button>`).join("");
+  document.getElementById("media-cases").innerHTML = byYear(MEDIA.filter((m) => mediaTopic === "all" || m.topic === mediaTopic)).map(card).join("");
+}
+document.getElementById("media-filters").addEventListener("click", (e) => {
+  const b = e.target.closest("button[data-t]");
+  if (!b) return;
+  mediaTopic = b.dataset.t;
+  renderMedia();
+});
+renderMedia();
+document.getElementById("war-stats").innerHTML = WAR_STATS.map(stat).join("");
+document.getElementById("war-cases").innerHTML = byYear(WAR).map(card).join("");
+document.getElementById("move-stats").innerHTML = MOVE_STATS.map(stat).join("");
+document.getElementById("move-cases").innerHTML = byYear(MOVEMENTS).map(card).join("");
+document.getElementById("faith-cases").innerHTML = byYear(FAITH).map(card).join("");
+document.getElementById("reclaim-cases").innerHTML = byYear(RECLAIM).map(card).join("");
+document.getElementById("holly-cases").innerHTML = byYear(HOLLY).map(card).join("");
+document.getElementById("infl-cases").innerHTML = byYear(INFL).map(card).join("");
+// the Titanic: what the feed says, beside what the record shows
+if (MYTH) document.getElementById("myth").innerHTML = `<div class="mh"><b>MYTH ANATOMY · ${esc(MYTH.year)}</b><h3>${MYTH.title}</h3></div>
+  <div class="cols"><div class="col story"><span class="k">THE STORY</span><p>${MYTH.story.text}</p><div class="src">↳ ${srcHtml(MYTH.story)}</div></div>
+  <div class="col record"><span class="k">THE RECORD</span><p>${MYTH.record.text}</p><div class="src">↳ ${srcHtml(MYTH.record)}</div></div></div>`;
+else document.getElementById("myth").remove();
+document.getElementById("spot-list").innerHTML = SPOT.map((s) => `<li><span>${s}</span></li>`).join("");
+document.getElementById("crosslinks").innerHTML = CROSS.map(([n, h, d]) => `<tr><td><a href="${h}">${n}</a></td><td>${d}</td></tr>`).join("");
+
+// the rail lights the line you are reading
+if ("IntersectionObserver" in window) {
+  const links = new Map([...document.querySelectorAll("#rail a[data-line]")].map((a) => [a.dataset.line, a]));
+  const io = new IntersectionObserver((entries) => {
+    for (const e of entries) if (e.isIntersecting) { links.forEach((a) => a.classList.remove("here")); links.get(e.target.id)?.classList.add("here"); }
+  }, { rootMargin: "-35% 0px -60% 0px" });
+  document.querySelectorAll("main .line").forEach((s) => io.observe(s));
+}
+// the billboard runs the cases' own lines
+window.FACTORY_LINES = [...MEDIA, ...WAR, ...MOVEMENTS, ...FAITH, ...HOLLY, ...INFL, ...(MYTH && MYTH.tv ? [MYTH] : [])].filter((c) => c.tv).map((c) => c.tv);
+</script>
+<script src="js/consent-factory.js" defer></script>
+</body>
+</html>

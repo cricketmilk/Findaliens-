@@ -1,0 +1,45 @@
+{
+ "file": "paypal-bonus-abuse.json",
+ "kind": "finding",
+ "at": "2026-10-11T16:48:05.636Z",
+ "kept": 14,
+ "removed": [
+  {
+   "where": "facts[4]",
+   "claim": "Eric M. Jackson, a former PayPal marketing employee, wrote that after the March 2000 merger, X.com CEO Bill Harris told staff the company had realized immediate cost savings by eliminating X.com's $20",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 2000, x.com, bill harris"
+  },
+  {
+   "where": "facts[5]",
+   "claim": "Jackson wrote that one fraud ring opened fraudulent PayPal accounts and used them to take nearly $6 million out of the system in mid-2000. He describes Russian and Nigerian groups running up online ca",
+   "why": "the quoted passage is not on the cited pages; missing: 2000, russian, nigerian, x.com"
+  },
+  {
+   "where": "facts[6]",
+   "claim": "Jackson describes the Gausebeck-Levchin test, an addition to the sign-up process built by Levchin and engineer David Gausebeck, as making the automated opening of accounts linked to stolen credit card",
+   "why": "the quoted passage is not on the cited pages; missing: gausebeck-levchin, levchin, david gausebeck"
+  },
+  {
+   "where": "facts[12]",
+   "claim": "Adam Penenberg's 2009 book Viral Loop says one of Levchin's fraud adversaries was a Russian who had set up thousands of PayPal accounts under the name 'Gregory Stivinson'. The passages found do not sa",
+   "why": "the quoted passage is not on the cited pages; missing: levchin, russian, paypal, gregory stivinson"
+  },
+  {
+   "where": "facts[13]",
+   "claim": "Contemporary coverage of PayPal's fraud work does not describe abuse of sign-up or referral bonuses. Newsweek (July 2001) and MIT Technology Review (December 2001) describe stolen-card fraud, the Igor",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 2002, contemporary, infoworld"
+  },
+  {
+   "where": "connections[4]",
+   "claim": "According to Eric Jackson's book, X.com CEO Bill Harris told staff after the March 2000 merger with Confinity that eliminating X.com's $20 new-user bonus had been an immediate cost saving.",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 2000, x.com, bill harris, confinity"
+  }
+ ],
+ "unchecked": [],
+ "resourced": [],
+ "wikiSourcesDropped": 0,
+ "notes": [],
+ "pagesOpened": 13,
+ "pagesRefused": 0,
+ "empty": false
+}

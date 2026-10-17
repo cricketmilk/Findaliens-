@@ -1,0 +1,30 @@
+{
+ "at": "2026-10-11T18:57:44.051Z",
+ "dryRun": false,
+ "strict": true,
+ "files": 1,
+ "kept": 9,
+ "removed": 0,
+ "unchecked": 0,
+ "resourced": 0,
+ "searches": {
+  "used": 0,
+  "stopped": null
+ },
+ "wikiSourcesDropped": 0,
+ "quarantined": [],
+ "pagesInCache": 7,
+ "minutes": 0.1,
+ "reasons": {},
+ "reports": [
+  {
+   "file": "absorb.json",
+   "kind": "finding",
+   "kept": 9,
+   "removed": [],
+   "resourced": [],
+   "unchecked": [],
+   "notes": []
+  }
+ ]
+}

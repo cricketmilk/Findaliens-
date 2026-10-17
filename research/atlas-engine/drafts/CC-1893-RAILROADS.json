@@ -1,0 +1,53 @@
+{
+  "code": "CC-1893-RAILROADS",
+  "eraId": "ERA-05-1861",
+  "yearStart": 1893,
+  "yearEnd": 1895,
+  "title": "The Friendly Receivership: Wall Street Forecloses on Its Own Railroads and Rebuys Them at the Courthouse Steps",
+  "primaryTab": "crash-conduits",
+  "secondaryTabs": [
+    "deep-state",
+    "carbon-class"
+  ],
+  "mechanism": "RECEIVERSHIP_MORGANIZATION",
+  "tier": "TIER_1_STATUTE_COURT",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "Atchison, Topeka & Santa Fe Railway",
+    "Union Pacific Railroad",
+    "Northern Pacific Railway",
+    "Philadelphia & Reading Railroad",
+    "Erie Railroad",
+    "equity courts of the United States"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "Underwriting houses had already taken their profits floating railroad securities on watered capital; when the roads buckled under those fixed charges in the May 1893 panic, the skim had been banked and the losses socialized onto bondholders.",
+    "stage2_structuralCompromise": "Courts of equity appointed receivers on application of creditors or friendly interests, installing the very financial houses that had underwritten the roads as receivers and masters of the reorganization committees — a structure contemporaries flatly labeled 'friendly receivership'.",
+    "stage3_informationFog": "Receivership proceedings, foreclosure mechanics, and committee deposit agreements were opaque to scattered junior security holders, who could not see that the same interests sat on both sides of the table.",
+    "stage4_monopolyWindfall": "Reorganization committees marshalled junior holders into depositing securities under threat of exclusion, then closed via foreclosure sales that conveyed the properties to new companies organized by the same interests — wiping old claims and re-concentrating the assets.",
+    "stage5_merseyWhitewash": "The wave was defended as necessary continuity of operation and drew only belated legislative criticism, with reform not arriving until railroad reorganization law was rebuilt decades later in Section 77 (1933)."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "The panic-era machinery inherited federal equity receivership doctrine and the Gilded Age pattern of banker-controlled corporate reorganization perfected in earlier railroad collapses.",
+    "newFrameworkCreated": "The 1893-95 wave institutionalized the banker-dominated reorganization committee — deposit agreements, foreclosure sale, and recapitalization by the incumbents — as the standard template for American railroad receivership.",
+    "closedLoopRecirculation": "Operating income was routed to fixed charges during receivership, while the same underwriters recaptured the properties cheaply at foreclosure and reissued securities at the top of the new capital structures.",
+    "enablesNextDossier": "The Morganization template consolidated transcontinental finance under a handful of houses and set the railroads' capital structure and banker control up as fuel for the 1907 panic-era consolidations and subsequent reform battles."
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "The popular decoy frames the 1893 receiverships as heroic rescue — selfless financiers stepping in to keep the trains running through a national depression.",
+    "whyDecoyFails": "The rescue narrative collapses on the structural fact that receivers and reorganizers were drawn from the same houses that underwrote the failed securities, profiting at issuance, controlling the receivership, and reacquiring the roads through foreclosure sales they themselves conducted.",
+    "documentedLedger": "The documented ledger shows more than 70 roads in receivership by 1895 — including the Atchison, Union Pacific, Northern Pacific, Philadelphia & Reading, and Erie — processed through equity courts by friendly application, with court records such as the 1912 Spokane-Columbia River receivership opinion preserved in Tier 1 archives."
+  },
+  "citationIds": [
+    "CIT-1893-CL-4924749"
+  ],
+  "citations": [
+    {
+      "id": "CIT-1893-CL-4924749",
+      "tier": "TIER_1_STATUTE_COURT",
+      "title": "In re the Receivership of Spokane-Columbia River Railroad & Navigation Co. (70 Wash. 142, 1912-09-07)",
+      "url": "https://www.courtlistener.com/opinion/4924749/in-re-the-receivership-of-spokane-columbia-river-railroad-navigation-co/",
+      "quoteOrFact": "Filed 1912-09-07 in Washington Supreme Court"
+    }
+  ]
+}

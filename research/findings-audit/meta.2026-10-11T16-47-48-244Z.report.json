@@ -1,0 +1,20 @@
+{
+ "file": "meta.json",
+ "kind": "finding",
+ "at": "2026-10-11T16:47:48.244Z",
+ "kept": 3,
+ "removed": [
+  {
+   "where": "connections[1]",
+   "claim": "Reid Hoffman invested in Facebook's first outside funding round in 2004. TechCrunch reported his stake as $37,500 at a $5 million valuation. Hoffman has said he declined to lead the round because of h",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 2004, peter thiel"
+  }
+ ],
+ "unchecked": [],
+ "resourced": [],
+ "wikiSourcesDropped": 0,
+ "notes": [],
+ "pagesOpened": 10,
+ "pagesRefused": 0,
+ "empty": false
+}

@@ -1,0 +1,20 @@
+{
+ "file": "human-genome-celera.json",
+ "kind": "handoff",
+ "at": "2026-10-11T16:49:58.703Z",
+ "kept": 6,
+ "removed": [],
+ "unchecked": [
+  {
+   "where": "links[1]",
+   "claim": "Celera's founder J. Craig Venter was a government scientist at NIH's National Institute of Neurological Disorders and Stroke until 1992, when he left to found TIGR. No source reviewed shows him moving",
+   "why": "could not re-open any cited page to confirm it: https://www.gairdner.org/winner/j-craig-venter (page came back nearly empty)"
+  }
+ ],
+ "resourced": [],
+ "wikiSourcesDropped": 0,
+ "notes": [],
+ "pagesOpened": 9,
+ "pagesRefused": 0,
+ "empty": false
+}

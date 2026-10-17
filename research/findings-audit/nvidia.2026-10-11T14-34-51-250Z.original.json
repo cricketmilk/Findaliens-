@@ -1,0 +1,476 @@
+{
+  "entity": "nvidia",
+  "name": "Nvidia",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Nvidia Corporation (NASDAQ: NVDA) designs graphics processors and AI accelerated-computing platforms for data centers, gaming, professional visualization and automotive. Jen-Hsun (Jensen) Huang founded it in 1993 and is its President, CEO and a director. Its FY2026 revenue was $215.9 billion. Its sales of advanced chips to China depend on U.S. government licenses and Commerce Department rules.",
+    "sources": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+        "publisher": "SEC (Nvidia 2026 proxy statement, DEF 14A)",
+        "title": "NVIDIA Corporation Proxy Statement, filed 2026-05-12",
+        "date": "2026-05-12"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+        "publisher": "SEC (Nvidia FY2026 annual report, Form 10-K)",
+        "title": "NVIDIA Corporation Form 10-K for fiscal year ended January 25, 2026, filed 2026-02-25",
+        "date": "2026-02-25"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Jen-Hsun Huang founded NVIDIA in 1993 and has served since its inception as President, Chief Executive Officer, and a member of the Board.",
+      "status": "documented",
+      "date": "2026-05-12",
+      "quote": "Jen-Hsun Huang founded NVIDIA in 1993 and has served since its inception as President, Chief Executive Officer, and a member of the Board.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+          "publisher": "SEC (Nvidia 2026 proxy statement, DEF 14A)",
+          "title": "NVIDIA Corporation Proxy Statement, filed 2026-05-12",
+          "date": "2026-05-12"
+        }
+      ]
+    },
+    {
+      "claim": "As of the April 27, 2026 record date, Jen-Hsun Huang was reported as beneficially owning 870,604,104 shares of Nvidia common stock, or 3.58% of the outstanding shares; 24,220,525,225 shares were outstanding on that date.",
+      "status": "documented",
+      "date": "2026-04-27",
+      "quote": "Jen-Hsun Huang 870,604,104 (1) - 870,604,104 3.58%; On April 27, 2026, there were 24,220,525,225 shares of common stock outstanding and entitled to vote",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+          "publisher": "SEC (Nvidia 2026 proxy statement, DEF 14A)",
+          "title": "NVIDIA Corporation Proxy Statement, filed 2026-05-12",
+          "date": "2026-05-12"
+        }
+      ]
+    },
+    {
+      "claim": "The proxy statement reports that Huang's beneficial ownership includes 528,531,547 shares held by Jen-Hsun and Lori Huang as co-trustees of the Huang Trust, and 58,683,830 shares held by the Jen-Hsun & Lori Huang Foundation, of which Mr. Huang and his wife are board members.",
+      "status": "documented",
+      "date": "2026-05-12",
+      "quote": "(a) 528,531,547 shares of common stock held by Jen-Hsun Huang and Lori Huang, as co-trustees of the Jen-Hsun and Lori Huang Living Trust ... (h) 58,683,830 shares of common stock held by The Jen-Hsun & Lori Huang Foundation",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+          "publisher": "SEC (Nvidia 2026 proxy statement, DEF 14A)",
+          "title": "NVIDIA Corporation Proxy Statement, filed 2026-05-12",
+          "date": "2026-05-12"
+        }
+      ]
+    },
+    {
+      "claim": "The proxy statement reports 5% stockholders BlackRock, Inc. (1,805,935,550 shares, 7.43%) and Vanguard Capital Management (1,777,408,252 shares, 7.31%) as of the 2026 record date.",
+      "status": "documented",
+      "date": "2026-04-27",
+      "quote": "5% Stockholders: BlackRock, Inc. 1,805,935,550 (14) 7.43% Vanguard Capital Management 1,777,408,252 (15) 7.31%",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+          "publisher": "SEC (Nvidia 2026 proxy statement, DEF 14A)",
+          "title": "NVIDIA Corporation Proxy Statement, filed 2026-05-12",
+          "date": "2026-05-12"
+        }
+      ]
+    },
+    {
+      "claim": "Nvidia nominates ten directors for election at its 2026 annual meeting: Tench Coxe, John O. Dabiri, Jen-Hsun Huang, Dawn Hudson, Harvey C. Jones, Melissa B. Lora, Stephen C. Neal (Lead Director), A. Brooke Seawell, Aarti Shah and Mark A. Stevens.",
+      "status": "documented",
+      "date": "2026-05-12",
+      "quote": "Election of ten directors nominated by the Board of Directors",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+          "publisher": "SEC (Nvidia 2026 proxy statement, DEF 14A)",
+          "title": "NVIDIA Corporation Proxy Statement, filed 2026-05-12",
+          "date": "2026-05-12"
+        }
+      ]
+    },
+    {
+      "claim": "Nvidia's 10-K states that it is defending a securities class action brought by shareholders who allege false or misleading statements about channel inventory and the impact of cryptocurrency mining on GPU demand in 2017 and 2018.",
+      "status": "reported",
+      "date": "2026-02-25",
+      "quote": "we are defending a securities class action lawsuit from multiple shareholders asserting claims that we and certain of our officers made false and/or misleading statements related to channel inventory and the impact of cryptocurrency mining on GPU demand in 2017 and 2018.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "SEC (Nvidia FY2026 annual report, Form 10-K)",
+          "title": "NVIDIA Corporation Form 10-K for fiscal year ended January 25, 2026, filed 2026-02-25",
+          "date": "2026-02-25"
+        }
+      ]
+    },
+    {
+      "claim": "Nvidia's 10-K states that in August 2025 the U.S. government granted licenses allowing shipments of certain H20 products to certain China-based customers, generating approximately $60 million in H20 revenue, and that U.S. officials expected the government to receive 15% or more of licensed sales revenue, which was not published as a regulation.",
+      "status": "documented",
+      "date": "2026-02-25",
+      "quote": "In August 2025, the USG granted licenses that would allow us to ship certain H20 products to certain China-based customers. We generated approximately $60 million in H20 revenue under those licenses. USG officials expressed an expectation that the USG will receive 15% or more of the revenue generated from licensed sales of our products, but the USG did not publish a regulation codifying such requirement.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "SEC (Nvidia FY2026 annual report, Form 10-K)",
+          "title": "NVIDIA Corporation Form 10-K for fiscal year ended January 25, 2026, filed 2026-02-25",
+          "date": "2026-02-25"
+        }
+      ]
+    },
+    {
+      "claim": "Nvidia's 10-K states that in February 2026 the U.S. government granted a license allowing small H200 shipments to specific China-based customers, and that Nvidia had not yet generated revenue under the H200 licensing program.",
+      "status": "documented",
+      "date": "2026-02-25",
+      "quote": "In February 2026, the USG granted a license that would allow us to ship small amounts of H200 products to specific China-based customers. To date, we have not generated any revenue under the H200 licensing program",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "SEC (Nvidia FY2026 annual report, Form 10-K)",
+          "title": "NVIDIA Corporation Form 10-K for fiscal year ended January 25, 2026, filed 2026-02-25",
+          "date": "2026-02-25"
+        }
+      ]
+    },
+    {
+      "claim": "Nvidia's 10-K states that under current rules it is unable to create and deliver a competitive product for China's data center market that receives approval from both the U.S. and Chinese governments.",
+      "status": "documented",
+      "date": "2026-02-25",
+      "quote": "Under the current rules and geopolitical landscape, we are unable to create and deliver a competitive product for China s data center market that receives approval from both the USG and the Chinese government.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "SEC (Nvidia FY2026 annual report, Form 10-K)",
+          "title": "NVIDIA Corporation Form 10-K for fiscal year ended January 25, 2026, filed 2026-02-25",
+          "date": "2026-02-25"
+        }
+      ]
+    },
+    {
+      "claim": "Nvidia reported full-year fiscal 2026 revenue of $215.9 billion, up 65%, and stated that it is not assuming any Data Center compute revenue from China in its outlook.",
+      "status": "documented",
+      "date": "2026-02-25",
+      "quote": "Record full-year revenue of $215.9 billion, up 65%. NVIDIA is not assuming any Data Center compute revenue from China in its outlook.",
+      "sources": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026",
+          "publisher": "NVIDIA",
+          "title": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026",
+          "date": "2026-02-25"
+        }
+      ]
+    },
+    {
+      "claim": "In December 2025 Nvidia entered into a non-exclusive license agreement with Groq, Inc. for its language processing unit technology; the 10-K cash-flow statement records a $13,000 million payment to Groq, Inc.",
+      "status": "documented",
+      "date": "2025-12-31",
+      "quote": "In December 2025, we entered into a non-exclusive license agreement with Groq, Inc., or Groq, for its language processing unit technology ... Groq, Inc. ( 13,000 )",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "SEC (Nvidia FY2026 annual report, Form 10-K)",
+          "title": "NVIDIA Corporation Form 10-K for fiscal year ended January 25, 2026, filed 2026-02-25",
+          "date": "2026-02-25"
+        }
+      ]
+    },
+    {
+      "claim": "Nvidia's 10-K states it is finalizing an investment and partnership agreement with OpenAI, and that there is no assurance it will enter into the agreement or that a transaction will be completed.",
+      "status": "documented",
+      "date": "2026-02-25",
+      "quote": "We are finalizing an investment and partnership agreement with OpenAI. There is no assurance that we will enter into an investment and partnership agreement with OpenAI or that a transaction will be completed.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "SEC (Nvidia FY2026 annual report, Form 10-K)",
+          "title": "NVIDIA Corporation Form 10-K for fiscal year ended January 25, 2026, filed 2026-02-25",
+          "date": "2026-02-25"
+        }
+      ]
+    },
+    {
+      "claim": "Nvidia's 10-K names Alibaba, Alphabet (Google), Amazon, Baidu, Huawei and Microsoft among companies that incorporate accelerated or AI computing in their own internal solutions, in its competition risk disclosures.",
+      "status": "documented",
+      "date": "2026-02-25",
+      "quote": "companies that incorporate accelerated or AI computing functionality as part of their internal solutions or platforms, such as Alibaba Group, Alphabet Inc., Amazon, Inc., or Amazon, Baidu, Inc., Huawei, and Microsoft Corporation, or Microsoft",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "SEC (Nvidia FY2026 annual report, Form 10-K)",
+          "title": "NVIDIA Corporation Form 10-K for fiscal year ended January 25, 2026, filed 2026-02-25",
+          "date": "2026-02-25"
+        }
+      ]
+    },
+    {
+      "claim": "Under Nvidia's agreement with Microsoft for the Xbox, Microsoft may have first and last rights of refusal to buy Nvidia stock if someone offers to purchase at least 30% of the outstanding common stock.",
+      "status": "documented",
+      "date": "2026-02-25",
+      "quote": "Under our agreement with Microsoft for the Xbox, if someone makes an offer to purchase at least 30% of our outstanding common stock, Microsoft may have first and last rights of refusal to purchase the stock.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "SEC (Nvidia FY2026 annual report, Form 10-K)",
+          "title": "NVIDIA Corporation Form 10-K for fiscal year ended January 25, 2026, filed 2026-02-25",
+          "date": "2026-02-25"
+        }
+      ]
+    },
+    {
+      "claim": "The Bureau of Industry and Security published a rule on January 15, 2026 changing its license review policy for certain advanced computing chips to China and Macau from a presumption of denial to case-by-case review; the rule names the Nvidia H200 and its equivalents, subject to conditions.",
+      "status": "documented",
+      "date": "2026-01-15",
+      "quote": "changing it from a presumption of denial to a case-by-case review. The semiconductors covered by this rule are the Nvidia H200 and its equivalents",
+      "sources": [
+        {
+          "url": "https://www.federalregister.gov/documents/2026/01/15/2026-00789/revision-to-license-review-policy-for-advanced-computing-commodities",
+          "publisher": "Federal Register (Bureau of Industry and Security)",
+          "title": "Revision to License Review Policy for Advanced Computing Commodities (Doc. 2026-00789)",
+          "date": "2026-01-15"
+        }
+      ]
+    },
+    {
+      "claim": "BIS issued an interim final rule on January 16, 2025 adding due-diligence measures for advanced computing integrated circuits for foundries and OSATs, amending its December 2, 2024 foreign-produced direct product rule.",
+      "status": "documented",
+      "date": "2025-01-16",
+      "quote": "assist foundries and Outsourced Semiconductor Assembly and Test (\"OSATs\") companies in complying with provisions of the EAR pertaining to advanced computing ICs in the supply chain",
+      "sources": [
+        {
+          "url": "https://www.federalregister.gov/documents/2025/01/16/2025-00711/implementation-of-additional-due-diligence-measures-for-advanced-computing-integrated-circuits",
+          "publisher": "Federal Register (Bureau of Industry and Security)",
+          "title": "Implementation of Additional Due Diligence Measures for Advanced Computing Integrated Circuits (Doc. 2025-00711)",
+          "date": "2025-01-16"
+        }
+      ]
+    },
+    {
+      "claim": "Nvidia's own LD-2 lobbying disclosures report expenses of $940,000 (Q1 2025), $620,000 (Q2 2025), $1,900,000 (Q3 2025) and $1,440,000 (Q4 2025).",
+      "status": "documented",
+      "date": "2026-01-18",
+      "quote": "EXPENSE relating to lobbying activities for this reporting period were: 940,000.00 / 620,000.00 / 1,900,000.00 / 1,440,000.00",
+      "sources": [
+        {
+          "url": "https://lda.gov/filings/public/filing/ded7018b-7ab1-48f6-a144-fe1f88924dfe/print/",
+          "publisher": "U.S. Senate Office of Public Records (LDA)",
+          "title": "LD-2 Lobbying Disclosure, NVIDIA Corporation, Q1 2025",
+          "date": "2025-04-25"
+        },
+        {
+          "url": "https://lda.gov/filings/public/filing/65879724-313e-4683-a5e5-95c3dbc310e0/print/",
+          "publisher": "U.S. Senate Office of Public Records (LDA)",
+          "title": "LD-2 Lobbying Disclosure, NVIDIA Corporation, Q2 2025",
+          "date": "2025-07-18"
+        },
+        {
+          "url": "https://lda.gov/filings/public/filing/5970151e-1f21-4cec-a20a-4596046aec34/print/",
+          "publisher": "U.S. Senate Office of Public Records (LDA)",
+          "title": "LD-2 Lobbying Disclosure, NVIDIA Corporation, Q3 2025",
+          "date": "2025-10-20"
+        },
+        {
+          "url": "https://lda.gov/filings/public/filing/ade7c6b4-395e-472b-8eae-224087b0eed8/print/",
+          "publisher": "U.S. Senate Office of Public Records (LDA)",
+          "title": "LD-2 Lobbying Disclosure, NVIDIA Corporation, Q4 2025",
+          "date": "2026-01-18"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "jensen-huang",
+      "toName": "Jensen Huang",
+      "toType": "person",
+      "relation": "founded",
+      "claim": "Jen-Hsun (Jensen) Huang founded NVIDIA in 1993 and serves as its President, CEO and a director.",
+      "status": "documented",
+      "date": "2026-05-12",
+      "quote": "Jen-Hsun Huang founded NVIDIA in 1993 and has served since its inception as President, Chief Executive Officer, and a member of the Board.",
+      "reverse": true,
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000036/nvda-20260512.htm",
+          "publisher": "SEC (Nvidia 2026 proxy statement, DEF 14A)",
+          "title": "NVIDIA Corporation Proxy Statement, filed 2026-05-12",
+          "date": "2026-05-12"
+        }
+      ]
+    },
+    {
+      "to": "meta",
+      "toName": "Meta",
+      "toType": "company",
+      "relation": "partnered with",
+      "claim": "Nvidia announced a multiyear, multigenerational strategic partnership with Meta.",
+      "status": "documented",
+      "date": "2026-02-25",
+      "quote": "Announced a multiyear, multigenerational strategic partnership with Meta spanning on-premises, cloud and AI infrastructure",
+      "sources": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026",
+          "publisher": "NVIDIA",
+          "title": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026",
+          "date": "2026-02-25"
+        }
+      ]
+    },
+    {
+      "to": "anthropic",
+      "toName": "Anthropic",
+      "toType": "company",
+      "relation": "invested in",
+      "claim": "Nvidia announced an investment in Anthropic and a deep technology partnership with it.",
+      "status": "documented",
+      "date": "2026-02-25",
+      "quote": "Announced an investment and deep technology partnership with Anthropic",
+      "sources": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026",
+          "publisher": "NVIDIA",
+          "title": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026",
+          "date": "2026-02-25"
+        }
+      ]
+    },
+    {
+      "to": "microsoft",
+      "toName": "Microsoft",
+      "toType": "company",
+      "relation": "partnered with",
+      "claim": "Nvidia's 10-K describes an agreement with Microsoft for the Xbox that gives Microsoft first and last rights of refusal if a 30% offer is made for Nvidia stock.",
+      "status": "documented",
+      "date": "2026-02-25",
+      "quote": "Under our agreement with Microsoft for the Xbox, if someone makes an offer to purchase at least 30% of our outstanding common stock, Microsoft may have first and last rights of refusal to purchase the stock.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "SEC (Nvidia FY2026 annual report, Form 10-K)",
+          "title": "NVIDIA Corporation Form 10-K for fiscal year ended January 25, 2026, filed 2026-02-25",
+          "date": "2026-02-25"
+        }
+      ]
+    },
+    {
+      "to": "google",
+      "toName": "Google",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Nvidia's 10-K names Alphabet Inc. among companies that incorporate accelerated or AI computing into their own internal solutions; Nvidia's results release names Google Cloud among providers to deploy Vera Rubin-based instances.",
+      "status": "documented",
+      "date": "2026-02-25",
+      "quote": "such as Alibaba Group, Alphabet Inc., Amazon, Inc., or Amazon, Baidu, Inc., Huawei, and Microsoft Corporation",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "SEC (Nvidia FY2026 annual report, Form 10-K)",
+          "title": "NVIDIA Corporation Form 10-K for fiscal year ended January 25, 2026, filed 2026-02-25",
+          "date": "2026-02-25"
+        }
+      ]
+    },
+    {
+      "to": "amazon",
+      "toName": "Amazon",
+      "toType": "company",
+      "relation": "partnered with",
+      "claim": "Nvidia's results release states that it expanded its AWS partnership with new technology integrations.",
+      "status": "documented",
+      "date": "2026-02-25",
+      "quote": "Expanded AWS partnership with new technology integrations across interconnect technology, cloud infrastructure, open models and physical AI.",
+      "sources": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026",
+          "publisher": "NVIDIA",
+          "title": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026",
+          "date": "2026-02-25"
+        }
+      ]
+    },
+    {
+      "to": "openai",
+      "toName": "OpenAI",
+      "toType": "company",
+      "relation": "other",
+      "claim": "Nvidia's 10-K says it is finalizing an investment and partnership agreement with OpenAI, with no assurance it will be completed.",
+      "status": "reported",
+      "date": "2026-02-25",
+      "quote": "We are finalizing an investment and partnership agreement with OpenAI. There is no assurance that we will enter into an investment and partnership agreement with OpenAI or that a transaction will be completed.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "publisher": "SEC (Nvidia FY2026 annual report, Form 10-K)",
+          "title": "NVIDIA Corporation Form 10-K for fiscal year ended January 25, 2026, filed 2026-02-25",
+          "date": "2026-02-25"
+        }
+      ]
+    },
+    {
+      "to": "bis",
+      "toName": "Bureau of Industry and Security",
+      "toType": "agency",
+      "relation": "regulated",
+      "claim": "The Bureau of Industry and Security regulates exports of Nvidia's advanced computing chips to China, including the January 2026 rule covering the Nvidia H200 and its equivalents.",
+      "status": "documented",
+      "date": "2026-01-15",
+      "quote": "BIS is revising its license review policy for exports of certain semiconductors to China and Macau",
+      "sources": [
+        {
+          "url": "https://www.federalregister.gov/documents/2026/01/15/2026-00789/revision-to-license-review-policy-for-advanced-computing-commodities",
+          "publisher": "Federal Register (Bureau of Industry and Security)",
+          "title": "Revision to License Review Policy for Advanced Computing Commodities (Doc. 2026-00789)",
+          "date": "2026-01-15"
+        }
+      ]
+    },
+    {
+      "to": "department-of-commerce",
+      "toName": "U.S. Department of Commerce",
+      "toType": "agency",
+      "relation": "regulated",
+      "claim": "The Department of Commerce, through BIS, issued the January 2026 license-review rule covering Nvidia's H200 chips to China.",
+      "status": "documented",
+      "date": "2026-01-15",
+      "quote": "Bureau of Industry and Security (BIS) is revising its license review policy",
+      "sources": [
+        {
+          "url": "https://www.federalregister.gov/documents/2026/01/15/2026-00789/revision-to-license-review-policy-for-advanced-computing-commodities",
+          "publisher": "Federal Register (Bureau of Industry and Security)",
+          "title": "Revision to License Review Policy for Advanced Computing Commodities (Doc. 2026-00789)",
+          "date": "2026-01-15"
+        }
+      ]
+    },
+    {
+      "to": "department-of-energy",
+      "toName": "U.S. Department of Energy",
+      "toType": "agency",
+      "relation": "partnered with",
+      "claim": "Nvidia joined the U.S. Department of Energy's Genesis Mission as a private industry partner.",
+      "status": "documented",
+      "date": "2026-02-25",
+      "quote": "Joined the U.S. Department of Energy's Genesis Mission as a private industry partner",
+      "sources": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026",
+          "publisher": "NVIDIA",
+          "title": "NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2026",
+          "date": "2026-02-25"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Share classes: the 2026 proxy and 10-K report a single class of common stock (24,220,525,225 shares outstanding). No dual-class structure is recorded because no source opened states one.",
+    "Institutional holders beyond the 5% holders: only BlackRock and Vanguard appear in the proxy table; other holders were not verified.",
+    "Individual director backgrounds and committee roles were not separately verified beyond the nominee list.",
+    "15% China revenue-share: the 10-K attributes this to U.S. officials' expectation, not a codified regulation. The reported August 2025 Nvidia-AMD arrangement via Reuters was NOT verified (Reuters returns 401 to fetch and browser).",
+    "Export-license revenue exposure in dollar terms beyond the approximately $60 million H20 figure, and government contract awards: USAspending GET rejected; sam.gov unreachable.",
+    "BIS enforcement actions or penalties against Nvidia: none found in the Federal Register API search; not recorded.",
+    "Outside lobbying firms (The Nickles Group, Tiber Creek Group, Brownstein Hyatt Farber Schreck, BGR Government Affairs) appear in LDA filings; totals were not summed and are not recorded.",
+    "China antitrust: the 10-K describes a preliminary regulator finding; not verified in a primary Chinese regulator source and NOT recorded as a fact.",
+    "U.S. and EU antitrust: no DOJ, FTC or European Commission proceeding against Nvidia was confirmed (justice.gov 404, ftc.gov 403, EC press page renders empty).",
+    "Groq: the 10-K describes a non-exclusive license; no second source confirmed the characterization.",
+    "Co-founders Chris Malachowsky and Curtis Priem are not named in any source opened; not recorded."
+  ]
+}

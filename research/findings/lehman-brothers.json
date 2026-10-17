@@ -1,0 +1,61 @@
+{
+  "entity": "lehman-brothers",
+  "name": "Lehman Brothers",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "Lehman Brothers filed for bankruptcy on September 15, 2008. With $639 billion in consolidated assets, it was the largest financial bankruptcy in U.S. history and a central event of the 2008 financial crisis. The court-appointed examiner, Anton Valukas, issued a roughly 2,200-page report in 2010. It found that Lehman used 'Repo 105' transactions to temporarily remove up to about $50 billion of securities from its balance sheet at quarter-ends to lower its reported net leverage, without disclosing the practice, and that there were colorable claims against senior executives and its auditor.",
+    "sources": [
+      {
+        "url": "https://web.stanford.edu/~jbulow/lehmandocs/VOLUME%203.pdf",
+        "publisher": "U.S. Bankruptcy Court SDNY, Report of Examiner Anton R. Valukas (Vol. 3)",
+        "title": "In re Lehman Brothers Holdings Inc., Examiner's Report, Section III.A.4: Repo 105",
+        "date": "2010-03-11"
+      },
+      {
+        "url": "https://www.fdic.gov/analysis/quarterly-banking-profile/fdic-quarterly/2011-vol5-2/lehman.pdf",
+        "publisher": "Federal Deposit Insurance Corporation",
+        "title": "The Orderly Liquidation of Lehman Brothers Holdings Inc. under the Dodd-Frank Act",
+        "date": "2011"
+      },
+      {
+        "url": "https://www.abajournal.com/news/article/jenner_block_report_chronicles_accounting_manipulation_at_lehman/",
+        "publisher": "ABA Journal",
+        "title": "Lehman Used Linklaters Opinion to Justify Aggressive Accounting, Report Says",
+        "date": "2010-03-12"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "According to the bankruptcy examiner's report, Lehman Brothers undertook $38.6 billion, $49.1 billion and $50.38 billion of 'Repo 105' transactions at the quarter-ends of Q4 2007, Q1 2008 and Q2 2008. Using an English-law 'true sale' opinion from Linklaters obtained for its London affiliate, it accounted for these temporary repos as sales, reducing its reported net leverage, and did not disclose the practice in its SEC filings.",
+      "status": "court",
+      "sources": [
+        {
+          "url": "https://web.stanford.edu/~jbulow/lehmandocs/VOLUME%203.pdf",
+          "publisher": "U.S. Bankruptcy Court SDNY, Report of Examiner Anton R. Valukas (Vol. 3)",
+          "title": "In re Lehman Brothers Holdings Inc., Examiner's Report, Section III.A.4: Repo 105",
+          "date": "2010-03-11"
+        }
+      ]
+    },
+    {
+      "claim": "On September 17, 2008, Barclays agreed to buy Lehman's North American investment banking and capital markets businesses for $250 million in cash, plus Lehman's New York headquarters and two New Jersey data centers for about $1.5 billion, roughly $1.75 billion in total. It also assumed about $72 billion of trading assets and $68 billion of trading liabilities. Bankruptcy Judge James Peck approved a revised version of the sale on September 20, 2008, reported to be worth closer to $1.35 billion.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000312069/000119163808001637/barc200809176k.htm",
+          "publisher": "Barclays PLC (SEC Form 6-K)",
+          "title": "Barclays announcement on acquisition of Lehman Brothers North American businesses",
+          "date": "2008-09-17"
+        },
+        {
+          "url": "https://www.cbsnews.com/news/judge-oks-lehman-brothers-sale-to-barclays/",
+          "publisher": "CBS News / AP",
+          "title": "Judge OKs Lehman Brothers sale to Barclays",
+          "date": "2008-09-20"
+        }
+      ]
+    }
+  ],
+  "connections": []
+}

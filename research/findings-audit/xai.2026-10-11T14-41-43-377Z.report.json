@@ -1,0 +1,21 @@
+{
+ "file": "xai.json",
+ "at": "2026-10-11T14:41:43.377Z",
+ "kept": 21,
+ "removed": [
+  {
+   "where": "facts[9]",
+   "claim": "EDGAR lists Form D notices filed by X.AI Corp. (CIK 0002002695, state of incorporation NV) on 2023-12-05, 2024-05-28, 2024-12-05 and 2025-02-25; the filing documents themselves were not retrievable.",
+   "why": "could not re-open any cited page to confirm it: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002002695&type=D&dateb=&owner=include&count=40 (page came back nearly empty)"
+  },
+  {
+   "where": "facts[10]",
+   "claim": "xAI announced on May 26, 2024 that it had completed a $6 billion Series B round, valuing the company at $18 billion pre-money and $24 billion post-money.",
+   "why": "could not re-open any cited page to confirm it: https://www.houdao.com/d/6386-xAI-Secures-6-Billion-in-Series-B-Funding-to-Accelerate-AI-Infrastructure-Development (page came back nearly empty)"
+  }
+ ],
+ "wikiSourcesDropped": 0,
+ "pagesOpened": 9,
+ "pagesRefused": 0,
+ "empty": false
+}

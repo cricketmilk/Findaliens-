@@ -1,0 +1,265 @@
+{
+  "entity": "openai",
+  "name": "OpenAI",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "OpenAI is a California-based artificial intelligence company that develops ChatGPT and other AI models. Public records checked here show it lobbies Congress through an outside firm, Miller Strategies, LLC, and holds a federal OneGov agreement with the General Services Administration (GSA) offering discounted ChatGPT access to government agencies. Microsoft announced in October 2025 a recapitalization of OpenAI into a public benefit corporation, with Microsoft holding an investment valued at about $135 billion, roughly 27 percent on an as-converted diluted basis.",
+    "sources": [
+      {
+        "url": "https://congress.wiki/map/money/lobbying/clients/openai",
+        "publisher": "Congress.wiki",
+        "title": "OpenAI — Lobbying Disclosures ($900K disclosed through 2026)",
+        "date": "2026-07-20"
+      },
+      {
+        "url": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-expands-onegov-ai-offerings-with-discounted-openais-chatgpt-09102026",
+        "publisher": "GSA",
+        "title": "GSA Expands OneGov AI Offerings with Discounted, Consumption-Based Access to OpenAI's ChatGPT",
+        "date": "2026-09-10"
+      },
+      {
+        "url": "https://news.microsoft.com/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/",
+        "publisher": "Microsoft",
+        "title": "The next chapter of the Microsoft–OpenAI partnership",
+        "date": "2025-10-28"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "The Department of Defense's Chief Digital and Artificial Intelligence Office awarded OpenAI a one-year, up to $200 million contract for frontier AI prototype work, with the contract held by OpenAI Public Sector LLC and most work in the National Capital Region.",
+      "status": "documented",
+      "date": "2025-06-16",
+      "quote": "The Defense Department has awarded a one-year $200 million contract to OpenAI for the use of its artificial intelligence models. Most of the work will take place in the Washington, D.C. area.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2025/06/16/openai-wins-200-million-us-defense-contract.html",
+          "publisher": "CNBC",
+          "title": "OpenAI wins $200 million U.S. defense contract",
+          "date": "2025-06-16"
+        },
+        {
+          "url": "https://www.govconwire.com/articles/openai-dod-ota-frontier-ai-prototyping-work",
+          "publisher": "GovConWire",
+          "title": "OpenAI Books $200M DOD OTA for Frontier AI Prototyping Work",
+          "date": "2025-06-17"
+        }
+      ]
+    },
+    {
+      "claim": "GSA announced a new OneGov agreement with OpenAI making its ChatGPT models available to the federal government through discounted, consumption-based pricing.",
+      "status": "documented",
+      "date": "2026-09-10",
+      "quote": "GSA announced a new OneGov agreement with OpenAI that will make its ChatGPT models available to the federal government through discounted, consumption-based pricing.",
+      "sources": [
+        {
+          "url": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-expands-onegov-ai-offerings-with-discounted-openais-chatgpt-09102026",
+          "publisher": "GSA",
+          "title": "GSA Expands OneGov AI Offerings with Discounted, Consumption-Based Access to OpenAI's ChatGPT",
+          "date": "2026-09-10"
+        }
+      ]
+    },
+    {
+      "claim": "The GSA–OpenAI agreement gives federal agencies a 50% discount on token-based usage across ChatGPT models, including those in FedRAMP-authorized environments, with no platform-access fee, no minimum orders and no spend commitment.",
+      "status": "documented",
+      "date": "2026-09-10",
+      "quote": "a 50% discount on token-based usage across ChatGPT models, including those in FedRAMP -authorized environments.",
+      "sources": [
+        {
+          "url": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-expands-onegov-ai-offerings-with-discounted-openais-chatgpt-09102026",
+          "publisher": "GSA",
+          "title": "GSA Expands OneGov AI Offerings with Discounted, Consumption-Based Access to OpenAI's ChatGPT",
+          "date": "2026-09-10"
+        }
+      ]
+    },
+    {
+      "claim": "The first agreement under the next phase of GSA's OneGov AI strategy with OpenAI is a 27-month offer expected to take effect October 1, 2026, and agencies can procure it through GSA's Multiple Award Schedule once it takes effect.",
+      "status": "documented",
+      "date": "2026-10-01",
+      "quote": "The first agreement under the next phase of GSA's OneGov AI strategy is a 27-month offer expected to take effect Oct. 1, 2026",
+      "sources": [
+        {
+          "url": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-expands-onegov-ai-offerings-with-discounted-openais-chatgpt-09102026",
+          "publisher": "GSA",
+          "title": "GSA Expands OneGov AI Offerings with Discounted, Consumption-Based Access to OpenAI's ChatGPT",
+          "date": "2026-09-10"
+        }
+      ]
+    },
+    {
+      "claim": "OpenAI CEO Sam Altman said OpenAI is honored to continue collaborating with GSA to advance key goals of America's AI Action Plan.",
+      "status": "words",
+      "date": "2026-09-10",
+      "quote": "We are honored to continue collaborating with GSA to advance key goals of America's AI Action Plan.",
+      "sources": [
+        {
+          "url": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-expands-onegov-ai-offerings-with-discounted-openais-chatgpt-09102026",
+          "publisher": "GSA",
+          "title": "GSA Expands OneGov AI Offerings with Discounted, Consumption-Based Access to OpenAI's ChatGPT",
+          "date": "2026-09-10"
+        }
+      ]
+    },
+    {
+      "claim": "Miller Strategies, LLC is the lobbying firm that OpenAI's disclosures list as leading by reported spend; the page reports about $900K in total disclosed lobbying spend, $450K in 2025 and $450K in 2026.",
+      "status": "documented",
+      "date": "2026-07-20",
+      "quote": "MILLER STRATEGIES, LLC leads by reported spend",
+      "sources": [
+        {
+          "url": "https://congress.wiki/map/money/lobbying/clients/openai",
+          "publisher": "Congress.wiki",
+          "title": "OpenAI — Lobbying Disclosures ($900K disclosed through 2026)",
+          "date": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "claim": "OpenAI's lobbying disclosures name the House of Representatives, the Department of Commerce and the Executive Office of the President among the government entities in its reported activity, on issues including Computer Industry, Copyright/Patent/Trademark, Energy/Nuclear and Science/Technology.",
+      "status": "documented",
+      "date": "2026-07-20",
+      "quote": "HOUSE OF REPRESENTATIVES 12 mentions 02 Commerce, Dept of (DOC) 8 mentions 03 Executive Office of the President (EOP) 8 mentions",
+      "sources": [
+        {
+          "url": "https://congress.wiki/map/money/lobbying/clients/openai",
+          "publisher": "Congress.wiki",
+          "title": "OpenAI — Lobbying Disclosures ($900K disclosed through 2026)",
+          "date": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "claim": "Microsoft announced that, following OpenAI's recapitalization into a public benefit corporation, Microsoft holds an investment in OpenAI Group PBC valued at approximately $135 billion, roughly 27 percent on an as-converted diluted basis.",
+      "status": "documented",
+      "date": "2025-10-28",
+      "quote": "Following the recapitalization, Microsoft holds an investment in OpenAI Group PBC valued at approximately $135 billion, representing roughly 27 percent on an as-converted diluted basis, inclusive of all owners – employees, investors, and the OpenAI Foundation.",
+      "sources": [
+        {
+          "url": "https://news.microsoft.com/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/",
+          "publisher": "Microsoft",
+          "title": "The next chapter of the Microsoft–OpenAI partnership",
+          "date": "2025-10-28"
+        }
+      ]
+    },
+    {
+      "claim": "Under the restructured Microsoft–OpenAI agreement, OpenAI contracted to purchase an incremental $250 billion of Azure services, and Microsoft no longer has a right of first refusal to be OpenAI's compute provider.",
+      "status": "documented",
+      "date": "2025-10-28",
+      "quote": "OpenAI has contracted to purchase an incremental $250B of Azure services, and Microsoft will no longer have a right of first refusal to be OpenAI's compute provider.",
+      "sources": [
+        {
+          "url": "https://news.microsoft.com/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/",
+          "publisher": "Microsoft",
+          "title": "The next chapter of the Microsoft–OpenAI partnership",
+          "date": "2025-10-28"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "microsoft",
+      "toName": "Microsoft",
+      "toType": "company",
+      "relation": "invested in",
+      "claim": "Microsoft holds an investment in OpenAI Group PBC valued at approximately $135 billion, about 27 percent on an as-converted diluted basis, after OpenAI's recapitalization.",
+      "status": "documented",
+      "date": "2025-10-28",
+      "quote": "Following the recapitalization, Microsoft holds an investment in OpenAI Group PBC valued at approximately $135 billion, representing roughly 27 percent on an as-converted diluted basis",
+      "sources": [
+        {
+          "url": "https://news.microsoft.com/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/",
+          "publisher": "Microsoft",
+          "title": "The next chapter of the Microsoft–OpenAI partnership",
+          "date": "2025-10-28"
+        }
+      ]
+    },
+    {
+      "to": "microsoft",
+      "toName": "Microsoft",
+      "toType": "company",
+      "relation": "partnered with",
+      "claim": "Microsoft and OpenAI's October 2025 agreement keeps OpenAI as Microsoft's frontier model partner and keeps Microsoft's exclusive IP rights and Azure API exclusivity until AGI, with Microsoft's IP rights extended through 2032.",
+      "status": "documented",
+      "date": "2025-10-28",
+      "quote": "OpenAI remains Microsoft's frontier model partner and Microsoft continues to have exclusive IP rights and Azure API exclusivity until Artificial General Intelligence (AGI).",
+      "sources": [
+        {
+          "url": "https://news.microsoft.com/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/",
+          "publisher": "Microsoft",
+          "title": "The next chapter of the Microsoft–OpenAI partnership",
+          "date": "2025-10-28"
+        }
+      ]
+    },
+    {
+      "to": "miller-strategies",
+      "toName": "Miller Strategies, LLC",
+      "toType": "firm",
+      "relation": "lobbied for",
+      "claim": "Miller Strategies, LLC filed quarterly lobbying reports on behalf of OpenAI, with each quarterly report listed at $150K; Jeffrey Miller is the lobbyist who appears most prominently on OpenAI's filings.",
+      "status": "documented",
+      "date": "2026-07-20",
+      "quote": "MILLER STRATEGIES, LLC Q1 2025 first quarter 4 issues 2 lobbyists Science/Technology Computer Industry Copyright/Patent/Trademark $150K Apr 21, 2025",
+      "sources": [
+        {
+          "url": "https://congress.wiki/map/money/lobbying/clients/openai",
+          "publisher": "Congress.wiki",
+          "title": "OpenAI — Lobbying Disclosures ($900K disclosed through 2026)",
+          "date": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "to": "gsa",
+      "toName": "General Services Administration (GSA)",
+      "toType": "agency",
+      "relation": "contracted with",
+      "claim": "The General Services Administration announced a OneGov agreement with OpenAI for discounted, consumption-based federal access to ChatGPT models.",
+      "status": "documented",
+      "date": "2026-09-10",
+      "quote": "GSA announced a new OneGov agreement with OpenAI that will make its ChatGPT models available to the federal government through discounted, consumption-based pricing.",
+      "sources": [
+        {
+          "url": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-expands-onegov-ai-offerings-with-discounted-openais-chatgpt-09102026",
+          "publisher": "GSA",
+          "title": "GSA Expands OneGov AI Offerings with Discounted, Consumption-Based Access to OpenAI's ChatGPT",
+          "date": "2026-09-10"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Ownership: OpenAI's own recapitalization announcement and leadership page could not be opened (live site and Wayback returned fetch failures or 404). The 26% Foundation / 27% Microsoft / 47% employee-investor split comes from Wikipedia and secondary coverage (MediaPost, mlq.ai) and has not been checked against a primary filing. The Microsoft 27% figure is confirmed from Microsoft's own post.",
+    "Board and leadership: beyond Bret Taylor as chair (confirmed in a search snippet of Taylor's own statement, not a primary board page) and the July 2026 appointments of David Velez and Robin Vince, no current board list was verified. Sam Altman's formal board seat is not confirmed; he appears as CEO in the GSA release and in secondary coverage.",
+    "Funding: the February 2026 $110B round (SoftBank $30B, Nvidia $30B, Amazon $50B) is confirmed from OpenAI's post and CNBC. The April 2025 SoftBank-led round, the October 2024 round and the April 2026 $122B close are not confirmed from a primary source. The SoftBank October 1, 2026 completion and 13% stake come from secondary coverage; SoftBank's release page was seen only as a search snippet.",
+    "Defense: the CNBC and GovConWire pages confirm the $200M CDAO award. The DoD release of July 14, 2025 returned 403 and was not opened.",
+    "Federal lobbying: the Senate LDA search page confirms the OPENAI OPCO, LLC client and the Miller Strategies filings, but individual amounts were read from aggregators (Congress.wiki, receipts.report). Check the LDA filing PDFs before publishing. CNBC reports OpenAI's Q2 2026 federal lobbying at $1.2M, a record.",
+    "State lobbying: the California figures (about $140K in 2024, over $155K in 2025) come from CalMatters, not a Cal-Access record. No other state was searched. State government contracts were not searched.",
+    "Political spending: OpenSecrets and the FEC returned 403 or an unrelated committee page; no FEC committee record for OpenAI was identified, so no federal political contribution is recorded.",
+    "Litigation and regulatory action: the Musk lawsuit outcome was not verified (CourtListener and justice.gov not reachable). A July 2025 OpenAI complaint to California's Fair Political Practices Commission about the nonprofit CANI appears in search snippets only and is not recorded as a fact.",
+    "Facts sourced to the Wikipedia article 'OpenAI_Group_PBC' (ownership split, funding rounds, the Microsoft April 2026 change, the DoD $200M contract, Stargate, the Musk lawsuit outcome, and the leadership infobox) are secondary: I read only the first ~24,000 characters of that article and could not open the primary documents (OpenAI's announcements, Microsoft's April 2026 release, the DoD release, court records) to confirm them. Verify each against the primary source before approval; none has an exact quote on file.",
+    "The Musk lawsuit outcome is recorded only as a Wikipedia summary; the court docket and the jury verdict were not opened.",
+    "Could not open openai.com (company site, charter, recapitalization and leadership pages) — fetch failed or returned 403 — so OpenAI's own account of its ownership structure, board and executive leadership is not recorded here.",
+    "Could not open Wikipedia's OpenAI article, so funding totals and lead investors (SoftBank, Nvidia, others) are not recorded; the SoftBank and Nvidia links need a fetched source before they are added.",
+    "Sam Altman's role as CEO is confirmed only by the GSA release quoting him as 'OpenAI CEO'; his board seat and any other roles are unverified.",
+    "The SEC Schedule 13D/A cited on the existing a16z/Sequoia connection page could not be re-fetched here, so the a16z/Sequoia–Twitter link is not part of this entity's findings.",
+    "The Congress.wiki page is an aggregator of LDA filings; the owner should check the amounts and the Miller Strategies relationship against the primary Senate LDA database (lobbyingdisclosure.senate.gov) before publishing.",
+    "The Congress.wiki page's 'Computer Industry' sector label and total spend figures were not checked against the underlying filings.",
+    "State-level lobbying and political spending, federal/defense contracts beyond the GSA OneGov agreement, and pending or resolved lawsuits and regulatory actions were not researched in this run; the sources reachable here did not cover them.",
+    "Connections to Nvidia, Google, Amazon, Anthropic, xAI and Elon Musk were not recorded: no source opened in this run states those relationships with OpenAI.",
+    "The GSA release mentions 'Anthropic' only indirectly through a separate GSA AI page alert; that page does not state a relationship with OpenAI and was not used.",
+    "Removed in audit (only Wikipedia cited; needs the primary source it points to): OpenAI completed a restructuring in October 2025 in which its for-profit branch became OpenAI Group PBC and the nonprofit was renamed the OpenAI Foundation; the Foundation holds about 26% of the PBC, Microsoft about 27%, and employees and other investors the remaining 47%. All OpenAI Group PBC board",
+    "Removed in audit (only Wikipedia cited; needs the primary source it points to): OpenAI's largest funding rounds reported in 2025–2026 were a $40 billion round led by SoftBank in April 2025 at a $300 billion post-money valuation, a $110 billion round in February 2026 led by Amazon ($50 billion), SoftBank ($30 billion) and Nvidia ($30 billion), and a round closed in April 2026 of",
+    "Removed in audit (only Wikipedia cited; needs the primary source it points to): Under the October 2025 Microsoft agreement, OpenAI agreed to purchase $250 billion of Azure services, Microsoft ceded its right of first refusal over OpenAI's future cloud purchases, and OpenAI continues to share 20% of revenue with Microsoft until AGI, which must be verified by an independent exper",
+    "Removed in audit (only Wikipedia cited; needs the primary source it points to): In 2025 OpenAI was named a partner of the Stargate Project, a joint venture announced January 21, 2025 with Oracle, SoftBank and MGX to build AI infrastructure in conjunction with the US government.",
+    "Removed in audit (only Wikipedia cited; needs the primary source it points to): Co-founder Elon Musk revised his lawsuit against OpenAI and Sam Altman in April 2026 to seek reversal of the restructuring, and lost the case in May 2026, with the jury concluding he waited beyond the three-year statute of limitations.",
+    "Removed in audit (only Wikipedia cited; needs the primary source it points to): Sam Altman is OpenAI's chief executive officer; Bret Taylor is listed as chairman and Sarah Friar as chief financial officer, and Greg Brockman as president and CEO of Applications, per Wikipedia's infobox.",
+    "Removed in audit (only Wikipedia cited; needs the primary source it points to): SoftBank invested in OpenAI in 2024 and led the April 2025 $40 billion round at a $300 billion post-money valuation, and invested $30 billion in the February 2026 round.",
+    "Removed in audit (only Wikipedia cited; needs the primary source it points to): Nvidia was among the investors in OpenAI's October 2024 $6.6 billion raise, and committed $30 billion in the February 2026 round."
+  ]
+}

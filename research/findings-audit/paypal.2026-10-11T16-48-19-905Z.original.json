@@ -1,0 +1,845 @@
+{
+  "entity": "paypal",
+  "name": "PayPal",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "PayPal, Inc. formed when X.com (incorporated March 1999; Elon Musk its main early investor) merged with Confinity (Peter Thiel, Max Levchin, December 1998) in March 2000. It raised about $210 million in private equity, including a $100 million round led by Madison Dearborn announced April 5, 2000. It listed on Nasdaq in February 2002 at $13 a share and was bought by eBay for about $1.5 billion in October 2002. It processed payments for online gambling merchants (about 6% of 2002 revenue) until November 2002, settling with New York's Attorney General ($200,000, 2002) and federal prosecutors in Missouri ($10 million, 2003).",
+    "sources": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205701533855/a2059025zs-1.htm",
+        "publisher": "SEC",
+        "title": "PayPal, Inc. Form S-1 registration statement",
+        "date": "2001-09-28"
+      },
+      {
+        "url": "https://www.paypalobjects.com/html/pr-040500.html",
+        "publisher": "X.com (press release)",
+        "title": "X.com $100 million equity financing round",
+        "date": "2000-04-05"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205702009834/a2073071z10-k405.htm",
+        "publisher": "SEC",
+        "title": "PayPal, Inc. Annual Report on Form 10-K405 for fiscal 2001",
+        "date": "2002"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205702037693/a2090698zex-99_1.htm",
+        "publisher": "SEC (PayPal Form 8-K, Exhibit 99.1)",
+        "title": "eBay press release: eBay completes acquisition of PayPal",
+        "date": "2002-10-03"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/0001065088/000089161803004232/f92035e10vq.htm",
+        "publisher": "SEC",
+        "title": "eBay Inc. Form 10-Q for the quarter ended June 30, 2003",
+        "date": "2003"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Confinity, Inc. (the creator of PayPal, co-founded in December 1998) sold 2,500,000 shares of Series A preferred stock in February 1999 for $0.5 million, according to PayPal's 2001 S-1. A January 2000 company release describes this as a seed round in January [1999].",
+      "status": "documented",
+      "date": "1999-02",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        },
+        {
+          "url": "https://www.paypalobjects.com/html/pr-012000.html",
+          "publisher": "PayPal.com (Confinity, Inc.) via PR Newswire",
+          "title": "PayPal.com Lands $23 Million Investment From idealab Capital Partners And Goldman Sachs",
+          "date": "2000-01-20"
+        }
+      ]
+    },
+    {
+      "claim": "Confinity sold 12,000,000 shares of Series B preferred stock in June and August 1999 for $4.5 million. The company said Nokia Ventures and Deutsche Bank led this first venture round.",
+      "status": "documented",
+      "date": "1999-06",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        },
+        {
+          "url": "https://www.paypalobjects.com/html/pr-012000.html",
+          "publisher": "PayPal.com (Confinity, Inc.) via PR Newswire",
+          "title": "PayPal.com Lands $23 Million Investment From idealab Capital Partners And Goldman Sachs",
+          "date": "2000-01-20"
+        }
+      ]
+    },
+    {
+      "claim": "On January 20, 2000, PayPal.com (Confinity) announced a '$23 million second round of equity financing' from idealab Capital Partners and the Goldman Sachs Group. PayPal's 2001 S-1 records Confinity's Series C (January–February 2000) as 9,166,664 shares for $11.0 million; the filings opened do not explain the difference.",
+      "status": "documented",
+      "date": "2000-01-20",
+      "sources": [
+        {
+          "url": "https://www.paypalobjects.com/html/pr-012000.html",
+          "publisher": "PayPal.com (Confinity, Inc.) via PR Newswire",
+          "title": "PayPal.com Lands $23 Million Investment From idealab Capital Partners And Goldman Sachs",
+          "date": "2000-01-20"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        }
+      ]
+    },
+    {
+      "claim": "X.com was incorporated in March 1999. In May and June 1999 it sold 38,850,000 shares of Series A preferred stock for $12.5 million plus the 'X.com' domain name valued at $0.5 million; Elon Musk is listed as buying 36,000,000 of those shares.",
+      "status": "documented",
+      "date": "1999-05",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        }
+      ]
+    },
+    {
+      "claim": "In December 1999 and January 2000 X.com sold 27,104,970 Series B preferred shares for $12.9 million. The S-1's table of insider and 5% purchasers lists Sequoia Capital affiliates (6,000,000 shares) and Bill H. Harris (21,000,000 shares). The financial-statement notes say 21,000,000 Series B shares were issued at $0.47633 per share to 'a principal stockholder and officer' under a restricted stock purchase agreement, and that the company repurchased 18,812,500 of them at the issuance price in August 2000.",
+      "status": "documented",
+      "date": "1999-12",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        }
+      ]
+    },
+    {
+      "claim": "X.com merged with Confinity in March 2000; the combined company later took the name PayPal, Inc.",
+      "status": "documented",
+      "date": "2000-03",
+      "quote": "In March 2000, we merged with Confinity, Inc., the creator of PayPal.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        }
+      ]
+    },
+    {
+      "claim": "X.com sold 36,363,367 Series C preferred shares in March and April 2000 for $100.0 million. Its April 5, 2000 release named Madison Dearborn Partners as lead investor (MDP's Tim Hurd joined the board), with Temasek, Vertex, Development Bank of Singapore, Compass Partners, Hikari Tsushin, TAMC, QUALCOMM, Singapore Telecommunications, LabMorgan, Capital Research and Management and others; prior investors Sequoia, Deutsche Bank, Goldman Sachs, idealab Capital Partners and Elon Musk also took part.",
+      "status": "documented",
+      "date": "2000-04-05",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        },
+        {
+          "url": "https://www.paypalobjects.com/html/pr-040500.html",
+          "publisher": "X.com (press release)",
+          "title": "X.com $100 million equity financing round",
+          "date": "2000-04-05"
+        }
+      ]
+    },
+    {
+      "claim": "Timing: the Nasdaq Composite hit its record close on March 10, 2000. PayPal's S-1 dates the $100 million Series C sales to March and April 2000, and the round was announced on April 5, 2000, after the peak. Thiel said in the release that the round was 'substantially oversubscribed'. The record opened gives no closing dates for individual tranches.",
+      "status": "documented",
+      "date": "2000-03-10",
+      "sources": [
+        {
+          "url": "https://www.fool.com/investing/general/2013/03/10/the-death-of-the-dot-com-era.aspx",
+          "publisher": "The Motley Fool",
+          "title": "The Death of the Dot-Com Era",
+          "date": "2013-03-10"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        },
+        {
+          "url": "https://www.paypalobjects.com/html/pr-040500.html",
+          "publisher": "X.com (press release)",
+          "title": "X.com $100 million equity financing round",
+          "date": "2000-04-05"
+        }
+      ]
+    },
+    {
+      "claim": "PayPal sold 28,747,828 Series D preferred shares between August 2000 and February 2001 for $86.2 million, including 3,333,333 shares bought by Providian Bancorp Services for $10 million in February 2001. As of June 30, 2001 the company had raised $210.7 million, net of issuance costs, from equity sales.",
+      "status": "documented",
+      "date": "2001-02",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        }
+      ]
+    },
+    {
+      "claim": "PayPal's S-1 reported $8.9 million in gross unauthorized credit-card charge-backs (before reversals and recoveries) for 2000, including $5.7 million during a July–October 2000 fraud episode, and a 2000 provision for transaction losses of $11.0 million (0.87% of payment volume). Its fiscal 2001 10-K405 reported a $14.8 million provision (0.42%) on $3.5 billion of payment volume and $104.8 million in revenue.",
+      "status": "documented",
+      "date": "2000",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205702009834/a2073071z10-k405.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Annual Report on Form 10-K405 for fiscal 2001",
+          "date": "2002"
+        }
+      ]
+    },
+    {
+      "claim": "Principal holders before the IPO (S-1, September 21, 2001 data): Elon Musk 14.2%, Sequoia Capital affiliates 10.7%, Nokia Ventures 9.6%, Clearstone Venture Partners affiliates 6.9%, Peter Thiel 5.6%, Madison Dearborn affiliates 5.5%, Max Levchin 2.6%.",
+      "status": "documented",
+      "date": "2001-09-21",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        }
+      ]
+    },
+    {
+      "claim": "PayPal's common stock began trading on the Nasdaq National Market as 'PYPL' on February 15, 2002. The IPO of 6,210,000 shares at $13.00 per share (about $80.7 million gross, $70.6 million net to PayPal) was completed on February 21, 2002. The first-quarter 2002 trading range was $12.00–$20.50.",
+      "status": "documented",
+      "date": "2002-02-15",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205702009834/a2073071z10-k405.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Annual Report on Form 10-K405 for fiscal 2001",
+          "date": "2002"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205702024992/a2082506zs-1a.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form S-1/A",
+          "date": "2002"
+        }
+      ]
+    },
+    {
+      "claim": "As of May 31, 2002, the largest holders were Elon Musk (11.7%), Sequoia Capital affiliates (8.8%), Nokia Ventures (7.9%), Clearstone affiliates (5.6%), Peter Thiel (4.6%) and Madison Dearborn affiliates (4.5%); Goldman Sachs held 1.5%. A June 2002 S-1 registered 6,000,000 shares for sale by stockholders, including 1,000,000 from Musk.",
+      "status": "documented",
+      "date": "2002-05-31",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205702023923/a2082068zs-1.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form S-1 (secondary offering by selling stockholders)",
+          "date": "2002-06-12"
+        }
+      ]
+    },
+    {
+      "claim": "State regulators questioned PayPal's model. In a July 18, 2000 letter, New York's Banking Department said that keeping payment money on account for future use 'constitutes illegal banking'; Louisiana took a similar view; California and Idaho (in writing in January 2001) questioned whether PayPal was engaged in a banking business. While its California money-transmitter licence application was pending, PayPal suspended money transfers to international accounts after discussions with California's Department of Financial Institutions.",
+      "status": "documented",
+      "date": "2000-07-18",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205702009834/a2073071z10-k405.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Annual Report on Form 10-K405 for fiscal 2001",
+          "date": "2002"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        }
+      ]
+    },
+    {
+      "claim": "On February 7, 2002, a week before its IPO registration became effective, Louisiana's Office of Financial Institutions sent PayPal a letter directing it to cease money transmission services for Louisiana consumers and businesses; on February 13 staff said PayPal could continue on an interim basis. As of its March 2002 annual report, PayPal held money-transmitter licenses in three states (Oregon, West Virginia, Maryland) and had applied in 18 jurisdictions.",
+      "status": "documented",
+      "date": "2002-02-07",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205702009834/a2073071z10-k405.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Annual Report on Form 10-K405 for fiscal 2001",
+          "date": "2002"
+        }
+      ]
+    },
+    {
+      "claim": "PayPal's fiscal 2001 10-K405 said FinCEN regulations require money services businesses to register with the Treasury Department and report suspicious transactions of $2,000 or more; PayPal said it had filed for registration and begun filing suspicious activity reports. It also said the International Money Laundering Abatement and Financial Anti-Terrorism Act of 2001 (the 'IML Act') required financial institutions to adopt anti-money-laundering programs by April 24, 2002.",
+      "status": "documented",
+      "date": "2002",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205702009834/a2073071z10-k405.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Annual Report on Form 10-K405 for fiscal 2001",
+          "date": "2002"
+        }
+      ]
+    },
+    {
+      "claim": "PayPal's 2001 S-1 disclosed that some online casinos used its service and that, if they were operating illegally (which it called uncertain), PayPal could face civil or criminal prosecution.",
+      "status": "documented",
+      "date": "2001-09-28",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        }
+      ]
+    },
+    {
+      "claim": "PayPal's filings report that 'higher risk' accounts, 'primarily online gaming-related service providers and online gaming merchants', received 3.9% of the dollar volume of payments through PayPal in 2001 and 8.0% in the first quarter of 2002 (1.7% and 3.9% of the number of payments).",
+      "status": "documented",
+      "date": "2002-03-31",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205702023923/a2082068zs-1.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form S-1 (secondary offering by selling stockholders)",
+          "date": "2002-06-12"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205702009834/a2073071z10-k405.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Annual Report on Form 10-K405 for fiscal 2001",
+          "date": "2002"
+        }
+      ]
+    },
+    {
+      "claim": "PayPal was served on July 9, 2002 with a New York Attorney General subpoena (dated July 5) seeking documents related in part to transactions with online gambling merchants.",
+      "status": "documented",
+      "date": "2002-07-09",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205702028727/a2085403z8-k.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form 8-K (stockholder suits; New York Attorney General subpoena)",
+          "date": "2002-07-26"
+        }
+      ]
+    },
+    {
+      "claim": "On August 21, 2002 PayPal announced an Assurance of Discontinuance with the New York Attorney General: it agreed to stop processing payments from New York members to online gambling merchants by September 1, 2002, and to pay $200,000 in penalties to cover the Attorney General's investigation costs (eBay later described the payment as penalties, disgorged profits and investigation costs). PayPal said it was not admitting a violation of law.",
+      "status": "court",
+      "date": "2002-08-21",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205702033059/a2087861zex-99_2.htm",
+          "publisher": "SEC (PayPal Form 8-K, Exhibit 99.2)",
+          "title": "PayPal press release on agreement with New York State Attorney General",
+          "date": "2002-08-21"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001065088/000089161803004232/f92035e10vq.htm",
+          "publisher": "SEC",
+          "title": "eBay Inc. Form 10-Q for the quarter ended June 30, 2003",
+          "date": "2003"
+        }
+      ]
+    },
+    {
+      "claim": "eBay and PayPal announced on July 8, 2002 that eBay would acquire PayPal at 0.39 eBay shares per PayPal share, valued at $1.5 billion on eBay's July 5 price; eBay said it planned to phase out PayPal's gaming business after closing.",
+      "status": "documented",
+      "date": "2002-07-08",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205702026650/a2084015zex-99_1.htm",
+          "publisher": "SEC (PayPal Form 8-K, Exhibit 99.1)",
+          "title": "eBay and PayPal joint press release announcing merger agreement",
+          "date": "2002-07-08"
+        }
+      ]
+    },
+    {
+      "claim": "Five purported stockholder class actions (three in Delaware Chancery Court, two in Santa Clara County Superior Court) were filed July 8–23, 2002, alleging that PayPal's directors breached fiduciary duties by agreeing to the 0.39 exchange ratio; PayPal called them without merit.",
+      "status": "documented",
+      "date": "2002-07-08",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205702028727/a2085403z8-k.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form 8-K (stockholder suits; New York Attorney General subpoena)",
+          "date": "2002-07-26"
+        }
+      ]
+    },
+    {
+      "claim": "eBay completed the acquisition on October 3, 2002 (valued at about $1.5 billion); Peter Thiel resigned as CEO that day. PayPal completed its exit from processing payments for online gambling merchants in November 2002; about 6% of PayPal's 2002 revenues came from that business.",
+      "status": "documented",
+      "date": "2002-10-03",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205702037693/a2090698zex-99_1.htm",
+          "publisher": "SEC (PayPal Form 8-K, Exhibit 99.1)",
+          "title": "eBay press release: eBay completes acquisition of PayPal",
+          "date": "2002-10-03"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001065088/000089161803002565/f90120e10vq.htm",
+          "publisher": "SEC",
+          "title": "eBay Inc. Form 10-Q for the quarter ended March 31, 2003",
+          "date": "2003"
+        }
+      ]
+    },
+    {
+      "claim": "From July 2002 PayPal provided documents in response to a federal grand jury subpoena issued at the request of the U.S. Attorney for the Eastern District of Missouri. In a March 28, 2003 letter, that office contended that PayPal's services to online gambling merchants violated 18 U.S.C. § 1960 and offered to settle if PayPal paid its purported earnings from such merchants for October 26, 2001–July 31, 2002, plus interest. PayPal said it had acted in the good-faith belief that its conduct did not violate the statute.",
+      "status": "documented",
+      "date": "2003-03-28",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001065088/000089161803002565/f90120e10vq.htm",
+          "publisher": "SEC",
+          "title": "eBay Inc. Form 10-Q for the quarter ended March 31, 2003",
+          "date": "2003"
+        }
+      ]
+    },
+    {
+      "claim": "In July 2003 PayPal agreed with the U.S. Attorney for the Eastern District of Missouri to pay $10 million as a civil forfeiture to resolve the online-gambling allegations, and to have its compliance program supervised by an outside auditing firm; eBay booked it as a purchase-price adjustment, not a charge against earnings.",
+      "status": "court",
+      "date": "2003-07",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001065088/000089161803004232/f92035e10vq.htm",
+          "publisher": "SEC",
+          "title": "eBay Inc. Form 10-Q for the quarter ended June 30, 2003",
+          "date": "2003"
+        }
+      ]
+    },
+    {
+      "claim": "Purported class actions over PayPal's restriction ('freezing') of customer accounts were filed in California state court (February 2002, Kamdar et al.) and federal court in San Jose (March 12, 2002, Fawcett et al.). A settlement announced in June 2004 created a $9.25 million fund and was approved by the federal court on November 2, 2004.",
+      "status": "court",
+      "date": "2004-11-02",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205702009834/a2073071z10-k405.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Annual Report on Form 10-K405 for fiscal 2001",
+          "date": "2002"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001065088/000089161804000676/f96707ore10vk.htm",
+          "publisher": "SEC",
+          "title": "eBay Inc. Annual Report on Form 10-K for 2003",
+          "date": "2004"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001065088/000089161805000803/f13552e10vq.htm",
+          "publisher": "SEC",
+          "title": "eBay Inc. Form 10-Q for the quarter ended September 30, 2005",
+          "date": "2005"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "elon-musk",
+      "toName": "Elon Musk",
+      "toType": "person",
+      "relation": "invested in",
+      "claim": "Elon Musk bought 36,000,000 of the 38,850,000 Series A shares sold by X.com (incorporated March 1999) in May–June 1999, invested again in the 2000–2001 rounds, and was PayPal's largest holder before the IPO (14.2%).",
+      "status": "documented",
+      "date": "1999-03",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "peter-thiel",
+      "toName": "Peter Thiel",
+      "toType": "person",
+      "relation": "co-founded",
+      "claim": "Peter Thiel co-founded Confinity in December 1998 and was PayPal's CEO at the 2001 S-1; he resigned as CEO when eBay completed the acquisition on October 3, 2002.",
+      "status": "documented",
+      "date": "1998-12",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205702037693/a2090698zex-99_1.htm",
+          "publisher": "SEC (PayPal Form 8-K, Exhibit 99.1)",
+          "title": "eBay press release: eBay completes acquisition of PayPal",
+          "date": "2002-10-03"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "max-levchin",
+      "toName": "Max Levchin",
+      "toType": "person",
+      "relation": "co-founded",
+      "claim": "Max Levchin co-founded Confinity in December 1998 and held 2.6% of PayPal before the IPO.",
+      "status": "documented",
+      "date": "1998-12",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "nokia",
+      "toName": "Nokia Ventures",
+      "toType": "company",
+      "relation": "invested in",
+      "claim": "Nokia Ventures co-led Confinity's first venture round (June 1999) and held 9.6% of PayPal before the IPO.",
+      "status": "documented",
+      "date": "1999-06",
+      "sources": [
+        {
+          "url": "https://www.paypalobjects.com/html/pr-012000.html",
+          "publisher": "PayPal.com (Confinity, Inc.) via PR Newswire",
+          "title": "PayPal.com Lands $23 Million Investment From idealab Capital Partners And Goldman Sachs",
+          "date": "2000-01-20"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "deutsche-bank",
+      "toName": "Deutsche Bank",
+      "toType": "company",
+      "relation": "invested in",
+      "claim": "Deutsche Bank co-led Confinity's June 1999 venture round and participated as a prior investor in X.com's $100 million April 2000 round.",
+      "status": "documented",
+      "date": "1999-06",
+      "sources": [
+        {
+          "url": "https://www.paypalobjects.com/html/pr-012000.html",
+          "publisher": "PayPal.com (Confinity, Inc.) via PR Newswire",
+          "title": "PayPal.com Lands $23 Million Investment From idealab Capital Partners And Goldman Sachs",
+          "date": "2000-01-20"
+        },
+        {
+          "url": "https://www.paypalobjects.com/html/pr-040500.html",
+          "publisher": "X.com (press release)",
+          "title": "X.com $100 million equity financing round",
+          "date": "2000-04-05"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "goldman-sachs",
+      "toName": "Goldman Sachs",
+      "toType": "company",
+      "relation": "invested in",
+      "claim": "The Goldman Sachs Group invested in Confinity's January 2000 round, took part in the April 2000 round, and held 1.5% of PayPal on May 31, 2002.",
+      "status": "documented",
+      "date": "2000-01-20",
+      "sources": [
+        {
+          "url": "https://www.paypalobjects.com/html/pr-012000.html",
+          "publisher": "PayPal.com (Confinity, Inc.) via PR Newswire",
+          "title": "PayPal.com Lands $23 Million Investment From idealab Capital Partners And Goldman Sachs",
+          "date": "2000-01-20"
+        },
+        {
+          "url": "https://www.paypalobjects.com/html/pr-040500.html",
+          "publisher": "X.com (press release)",
+          "title": "X.com $100 million equity financing round",
+          "date": "2000-04-05"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205702023923/a2082068zs-1.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form S-1 (secondary offering by selling stockholders)",
+          "date": "2002-06-12"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "sequoia-capital",
+      "toName": "Sequoia Capital",
+      "toType": "company",
+      "relation": "invested in",
+      "claim": "Sequoia Capital affiliates bought X.com Series B shares (December 1999–January 2000), joined the April 2000 round, and held 10.7% of PayPal before the IPO.",
+      "status": "documented",
+      "date": "1999-12",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        },
+        {
+          "url": "https://www.paypalobjects.com/html/pr-040500.html",
+          "publisher": "X.com (press release)",
+          "title": "X.com $100 million equity financing round",
+          "date": "2000-04-05"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "madison-dearborn-partners",
+      "toName": "Madison Dearborn Partners",
+      "toType": "company",
+      "relation": "invested in",
+      "claim": "Madison Dearborn Partners led X.com's $100 million April 2000 round; its Tim Hurd joined the board, and its affiliates held 5.5% before the IPO.",
+      "status": "documented",
+      "date": "2000-04-05",
+      "sources": [
+        {
+          "url": "https://www.paypalobjects.com/html/pr-040500.html",
+          "publisher": "X.com (press release)",
+          "title": "X.com $100 million equity financing round",
+          "date": "2000-04-05"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "clearstone-venture-partners",
+      "toName": "Clearstone Venture Partners (idealab Capital Partners)",
+      "toType": "company",
+      "relation": "invested in",
+      "claim": "idealab Capital Partners invested in Confinity's January 2000 round; Clearstone Venture Partners affiliates held 6.9% of PayPal before the IPO.",
+      "status": "documented",
+      "date": "2000-01-20",
+      "sources": [
+        {
+          "url": "https://www.paypalobjects.com/html/pr-012000.html",
+          "publisher": "PayPal.com (Confinity, Inc.) via PR Newswire",
+          "title": "PayPal.com Lands $23 Million Investment From idealab Capital Partners And Goldman Sachs",
+          "date": "2000-01-20"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "temasek",
+      "toName": "Temasek",
+      "toType": "company",
+      "relation": "invested in",
+      "claim": "Singapore-based Temasek was named among investors in X.com's $100 million April 2000 round.",
+      "status": "documented",
+      "date": "2000-04-05",
+      "sources": [
+        {
+          "url": "https://www.paypalobjects.com/html/pr-040500.html",
+          "publisher": "X.com (press release)",
+          "title": "X.com $100 million equity financing round",
+          "date": "2000-04-05"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "providian",
+      "toName": "Providian Bancorp Services",
+      "toType": "company",
+      "relation": "invested in",
+      "claim": "Providian bought 3,333,333 Series D shares for $10 million in February 2001.",
+      "status": "documented",
+      "date": "2001-02",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205701533855/a2059025zs-1.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form S-1 registration statement",
+          "date": "2001-09-28"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "ebay",
+      "toName": "eBay",
+      "toType": "company",
+      "relation": "owns",
+      "claim": "eBay agreed on July 7–8, 2002 to buy PayPal for 0.39 eBay shares per PayPal share (about $1.5 billion) and completed the deal on October 3, 2002.",
+      "status": "documented",
+      "date": "2002-10-03",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205702026650/a2084015zex-99_1.htm",
+          "publisher": "SEC (PayPal Form 8-K, Exhibit 99.1)",
+          "title": "eBay and PayPal joint press release announcing merger agreement",
+          "date": "2002-07-08"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205702037693/a2090698zex-99_1.htm",
+          "publisher": "SEC (PayPal Form 8-K, Exhibit 99.1)",
+          "title": "eBay press release: eBay completes acquisition of PayPal",
+          "date": "2002-10-03"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "new-york-attorney-general",
+      "toName": "New York State Attorney General",
+      "toType": "organization",
+      "relation": "settled with",
+      "claim": "PayPal agreed in August 2002 to stop New York members' payments to online gambling merchants and pay $200,000, without admitting a violation.",
+      "status": "court",
+      "date": "2002-08-21",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001103415/000091205702033059/a2087861zex-99_2.htm",
+          "publisher": "SEC (PayPal Form 8-K, Exhibit 99.2)",
+          "title": "PayPal press release on agreement with New York State Attorney General",
+          "date": "2002-08-21"
+        }
+      ]
+    },
+    {
+      "to": "us-attorney-ed-missouri",
+      "toName": "U.S. Attorney, Eastern District of Missouri",
+      "toType": "organization",
+      "relation": "settled with",
+      "claim": "In July 2003 PayPal agreed to pay $10 million as a civil forfeiture to settle the U.S. Attorney's allegations that its online-gambling payment services violated 18 U.S.C. § 1960.",
+      "status": "court",
+      "date": "2003-07",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001065088/000089161803004232/f92035e10vq.htm",
+          "publisher": "SEC",
+          "title": "eBay Inc. Form 10-Q for the quarter ended June 30, 2003",
+          "date": "2003"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0001065088/000089161803002565/f90120e10vq.htm",
+          "publisher": "SEC",
+          "title": "eBay Inc. Form 10-Q for the quarter ended March 31, 2003",
+          "date": "2003"
+        }
+      ]
+    },
+    {
+      "to": "louisiana-office-of-financial-institutions",
+      "toName": "Louisiana Office of Financial Institutions",
+      "toType": "organization",
+      "relation": "regulated",
+      "claim": "On February 7, 2002 the Louisiana OFI directed PayPal to cease money transmission for Louisiana customers, later allowing interim operation.",
+      "status": "documented",
+      "date": "2002-02-07",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205702009834/a2073071z10-k405.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Annual Report on Form 10-K405 for fiscal 2001",
+          "date": "2002"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "new-york-banking-department",
+      "toName": "New York State Banking Department",
+      "toType": "organization",
+      "relation": "regulated",
+      "claim": "On July 18, 2000 the New York Banking Department said PayPal's stored-balance feature constituted illegal banking; later it said PayPal was not currently engaged in illegal banking.",
+      "status": "documented",
+      "date": "2000-07-18",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205702009834/a2073071z10-k405.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Annual Report on Form 10-K405 for fiscal 2001",
+          "date": "2002"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205702023923/a2082068zs-1.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Form S-1 (secondary offering by selling stockholders)",
+          "date": "2002-06-12"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "certco",
+      "toName": "CertCo, Inc.",
+      "toType": "company",
+      "relation": "sued by",
+      "claim": "CertCo sued PayPal for patent infringement in the District of Delaware on February 4, 2002, ten days before PayPal's IPO registration became effective.",
+      "status": "documented",
+      "date": "2002-02-04",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1103415/000091205702009834/a2073071z10-k405.htm",
+          "publisher": "SEC",
+          "title": "PayPal, Inc. Annual Report on Form 10-K405 for fiscal 2001",
+          "date": "2002"
+        }
+      ]
+    }
+  ],
+  "openQuestions": [
+    "Confinity's January 2000 round: the company announced $23 million from idealab Capital Partners and Goldman Sachs, but the 2001 S-1 records Confinity's Series C as $11.0 million. The filings opened do not reconcile the two figures.",
+    "Exact closing dates of the March–April 2000 Series C tranches compared with the Nasdaq peak on March 10, 2000 were not found.",
+    "No DOJ press release or court docket for the July 2003 Eastern District of Missouri forfeiture settlement was located; the details come from eBay's SEC filings.",
+    "A New York Attorney General release reportedly said PayPal had 260 online gambling merchants. Only a secondary source was seen, so it is not included.",
+    "No record found of a final Louisiana order, or of California or New York enforcement orders against PayPal in 2001–2002, beyond the letters and views described in PayPal's filings.",
+    "Whether the June 2002 secondary offering was completed before the eBay deal was not established.",
+    "No public record found of PayPal or its investors profiting from the 2000–2002 market crash, or of hot-money flows through PayPal other than the documented online-gambling payments."
+  ]
+}

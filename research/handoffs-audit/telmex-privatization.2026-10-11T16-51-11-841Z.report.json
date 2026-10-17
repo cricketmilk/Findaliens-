@@ -1,0 +1,30 @@
+{
+ "file": "telmex-privatization.json",
+ "kind": "handoff",
+ "at": "2026-10-11T16:51:11.841Z",
+ "kept": 6,
+ "removed": [],
+ "unchecked": [
+  {
+   "where": "links[1]",
+   "claim": "ITU data record that in 1990 a 20.4% stake was sold to a consortium of Grupo Carso, France Telecom and SBC for US$1,757 million and 4.4% to employees for US$325 million, with total Telmex privatizatio",
+   "why": "could not re-open any cited page to confirm it: https://training.itcilo.org/actrav_cdrom1/english/global/frame/itu5bi.htm (page came back nearly empty)"
+  },
+  {
+   "where": "links[2]",
+   "claim": "Contemporary reporting: a U.S.-Mexican-French consortium won controlling interest in Telmex with a $1.76 billion bid.",
+   "why": "could not re-open any cited page to confirm it: https://digitalrepository.unm.edu/sourcemex/183 (page came back nearly empty)"
+  },
+  {
+   "where": "claims[0]",
+   "claim": "The figure usually cited, about US$1.76 billion, paid for a 20.4% control stake, not the whole company. Slim's own site says the bid implied a company value of 8.615 billion dollars, 16.6% above the m",
+   "why": "could not re-open any cited page to confirm it: https://carlosslim.com/07_ing.html (page came back nearly empty); https://training.itcilo.org/actrav_cdrom1/english/global/frame/itu5bi.htm (page came back nearly empty)"
+  }
+ ],
+ "resourced": [],
+ "wikiSourcesDropped": 0,
+ "notes": [],
+ "pagesOpened": 7,
+ "pagesRefused": 0,
+ "empty": false
+}

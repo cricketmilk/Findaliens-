@@ -1,0 +1,134 @@
+{
+  "entity": "meta",
+  "name": "Meta Platforms",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "Meta Platforms (formerly Facebook, Inc.) owns Facebook, Instagram and WhatsApp. Founder Mark Zuckerberg controls a majority of shareholder voting power through high-vote Class B stock. In 2019 the FTC imposed a $5 billion penalty on Facebook over privacy violations. In December 2020 the FTC and a coalition of 48 state and territorial attorneys general filed separate antitrust suits over its acquisitions of Instagram and WhatsApp. In November 2025 a federal judge ruled that the FTC had not shown Meta currently holds monopoly power; the FTC has appealed.",
+    "sources": [
+      {
+        "url": "https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions-facebook",
+        "publisher": "Federal Trade Commission",
+        "title": "FTC Imposes $5 Billion Penalty and Sweeping New Privacy Restrictions on Facebook",
+        "date": "2019-07-24"
+      },
+      {
+        "url": "https://www.ftc.gov/news-events/news/press-releases/2020/12/ftc-sues-facebook-illegal-monopolization",
+        "publisher": "Federal Trade Commission",
+        "title": "FTC Sues Facebook for Illegal Monopolization",
+        "date": "2020-12-09"
+      },
+      {
+        "url": "https://ag.ny.gov/press-release/2020/attorney-general-james-leads-multistate-lawsuit-seeking-end-facebooks-illegal",
+        "publisher": "New York State Attorney General",
+        "title": "Attorney General James Leads Multistate Lawsuit Seeking to End Facebook's Illegal Monopoly",
+        "date": "2020-12-09"
+      },
+      {
+        "url": "https://siliconangle.com/2025/11/18/judge-rules-whatsapp-instagram-acquisitions-arent-monopolization/",
+        "publisher": "SiliconANGLE",
+        "title": "Judge rules WhatsApp, Instagram acquisitions aren't monopolization",
+        "date": "2025-11-18"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+        "publisher": "U.S. Securities and Exchange Commission (Meta Platforms filing)",
+        "title": "Meta Platforms, Inc. Form 10-K for fiscal year 2025",
+        "date": "2026"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "On December 9, 2020, the FTC sued Facebook, alleging it illegally maintained a monopoly in personal social networking, partly by acquiring Instagram (2012) and WhatsApp (2014). That same day a bipartisan coalition of 48 attorneys general, led by New York, filed a separate antitrust suit. In November 2025, Judge James Boasberg ruled that the FTC had not shown Meta currently holds monopoly power.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2020/12/ftc-sues-facebook-illegal-monopolization",
+          "publisher": "Federal Trade Commission",
+          "title": "FTC Sues Facebook for Illegal Monopolization",
+          "date": "2020-12-09"
+        },
+        {
+          "url": "https://ag.ny.gov/press-release/2020/attorney-general-james-leads-multistate-lawsuit-seeking-end-facebooks-illegal",
+          "publisher": "New York State Attorney General",
+          "title": "Attorney General James Leads Multistate Lawsuit Seeking to End Facebook's Illegal Monopoly",
+          "date": "2020-12-09"
+        },
+        {
+          "url": "https://siliconangle.com/2025/11/18/judge-rules-whatsapp-instagram-acquisitions-arent-monopolization/",
+          "publisher": "SiliconANGLE",
+          "title": "Judge rules WhatsApp, Instagram acquisitions aren't monopolization",
+          "date": "2025-11-18"
+        }
+      ]
+    },
+    {
+      "claim": "Each share of Meta's Class B common stock carries ten votes and each Class A share carries one. Meta's 10-K describes founder Mark Zuckerberg as controlling a majority of the voting power of its outstanding capital stock.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Meta Platforms filing)",
+          "title": "Meta Platforms, Inc. Form 10-K for fiscal year 2025",
+          "date": "2026"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312522041598/d296088dsc13ga.htm",
+          "publisher": "U.S. Securities and Exchange Commission (Mark Zuckerberg filing)",
+          "title": "Schedule 13G/A, Meta Platforms, Inc. (Mark Zuckerberg)",
+          "date": "2022-02"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "peter-thiel",
+      "relation": "invested in",
+      "claim": "Peter Thiel made Facebook's first outside investment, putting in $500,000 in 2004 at a $5 million valuation. He served on its board from April 2005 until Meta's 2022 annual meeting.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://foundersfund.com/team/peter-thiel/",
+          "publisher": "Founders Fund",
+          "title": "Peter Thiel (team biography)",
+          "date": ""
+        },
+        {
+          "url": "https://foxbusiness.com/markets/peter-thiel-sells-most-of-remaining-facebook-stake",
+          "publisher": "Reuters (via Fox Business)",
+          "title": "Peter Thiel sells most of remaining Facebook stake",
+          "date": "2017-11-22"
+        },
+        {
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2022/Peter-Thiel-to-Retire-from-Meta-Board-of-Directors-at-2022-Annual-Shareholder-Meeting/default.aspx",
+          "publisher": "Meta Platforms",
+          "title": "Peter Thiel to Retire from Meta Board of Directors at 2022 Annual Shareholder Meeting",
+          "date": "2022-02-07"
+        }
+      ],
+      "reverse": true
+    },
+    {
+      "to": "reid-hoffman",
+      "relation": "invested in",
+      "claim": "Reid Hoffman invested in Facebook's first outside funding round in 2004. TechCrunch reported his stake as $37,500 at a $5 million valuation. Hoffman has said he declined to lead the round because of his other social-networking roles and suggested that Peter Thiel lead it instead.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://achievement.org/video/reid-hoffman-31/",
+          "publisher": "Academy of Achievement",
+          "title": "Reid Hoffman interview (on the 2004 Facebook round)",
+          "date": ""
+        },
+        {
+          "url": "https://techcrunch.com/2012/09/10/reid-hoffman-invested-37500-into-facebook-at-a-5m-valuation/",
+          "publisher": "TechCrunch",
+          "title": "Reid Hoffman Invested $37,500 Into Facebook At A $5M Valuation",
+          "date": "2012-09-10"
+        }
+      ],
+      "reverse": true
+    }
+  ]
+}

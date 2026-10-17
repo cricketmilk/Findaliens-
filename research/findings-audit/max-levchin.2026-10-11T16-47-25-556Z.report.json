@@ -1,0 +1,25 @@
+{
+ "file": "max-levchin.json",
+ "kind": "finding",
+ "at": "2026-10-11T16:47:25.556Z",
+ "kept": 29,
+ "removed": [],
+ "unchecked": [
+  {
+   "where": "facts[11]",
+   "claim": "Levchin and Thiel described staging a public money transfer between two PalmPilots to mark Confinity's first major funding round, which they called mainly a publicity stunt.",
+   "why": "could not re-open any cited page to confirm it: https://stvp.stanford.edu/av/selling-investors-beaming-bucks (page came back nearly empty)"
+  },
+  {
+   "where": "facts[14]",
+   "claim": "InfoWorld reported that, to build Igor, Levchin first let internet fraudsters steal money so he could observe their methods and design countermeasures. It called the strategy risky because it involved",
+   "why": "could not re-open any cited page to confirm it: https://www.infoworld.com/article/2232386/max-levchin-paypal.html (page came back nearly empty)"
+  }
+ ],
+ "resourced": [],
+ "wikiSourcesDropped": 0,
+ "notes": [],
+ "pagesOpened": 15,
+ "pagesRefused": 0,
+ "empty": false
+}

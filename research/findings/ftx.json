@@ -1,0 +1,77 @@
+{
+  "entity": "ftx",
+  "name": "FTX",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "FTX was a cryptocurrency exchange co-founded by Sam Bankman-Fried and founded in 2019. It filed for bankruptcy in November 2022. The SEC alleged that Bankman-Fried diverted FTX customers' funds to his trading firm Alameda Research. A New York jury convicted him of seven fraud-related counts in 2023, and he was sentenced to 25 years in prison in March 2024.",
+    "sources": [
+      {
+        "url": "https://www.sec.gov/newsroom/press-releases/2022-219",
+        "publisher": "U.S. Securities and Exchange Commission",
+        "title": "SEC Charges Samuel Bankman-Fried with Defrauding Investors in Crypto Asset Trading Platform FTX",
+        "date": "2022-12-13"
+      },
+      {
+        "url": "https://www.nbcnews.com/tech/crypto/crypto-giant-ftx-file-bankruptcy-ceo-sam-bankman-fried-steps-rcna56749",
+        "publisher": "NBC News",
+        "title": "Crypto giant FTX to file for bankruptcy, CEO Sam Bankman-Fried steps down",
+        "date": "2022-11-11"
+      },
+      {
+        "url": "https://www.npr.org/2024/03/28/1241210300/sam-bankman-fried-ftx-sentencing-crimes-crypto-mogul-greed",
+        "publisher": "NPR",
+        "title": "Sam Bankman-Fried sentenced to 25 years in prison for his FTX crimes",
+        "date": "2024-03-28"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In November 2023 a federal jury in Manhattan convicted FTX founder Sam Bankman-Fried on all seven counts of fraud and conspiracy. On March 28, 2024 he was sentenced to 25 years in prison.",
+      "status": "court",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2024/03/28/1241210300/sam-bankman-fried-ftx-sentencing-crimes-crypto-mogul-greed",
+          "publisher": "NPR",
+          "title": "Sam Bankman-Fried sentenced to 25 years in prison for his FTX crimes",
+          "date": "2024-03-28"
+        }
+      ]
+    },
+    {
+      "claim": "Bankman-Fried's philanthropic group, the FTX Future Fund, saw its team resign in November 2022 as FTX collapsed. The team said in a letter that FTX's leadership may have engaged in deception or dishonesty.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/tech/crypto/crypto-giant-ftx-file-bankruptcy-ceo-sam-bankman-fried-steps-rcna56749",
+          "publisher": "NBC News",
+          "title": "Crypto giant FTX to file for bankruptcy, CEO Sam Bankman-Fried steps down",
+          "date": "2022-11-11"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "sec",
+      "relation": "investigated",
+      "claim": "On December 13, 2022 the SEC charged Sam Bankman-Fried with defrauding FTX's equity investors. The CFTC filed a parallel complaint charging Bankman-Fried, FTX Trading and Alameda Research with fraud.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/newsroom/press-releases/2022-219",
+          "publisher": "U.S. Securities and Exchange Commission",
+          "title": "SEC Charges Samuel Bankman-Fried with Defrauding Investors in Crypto Asset Trading Platform FTX",
+          "date": "2022-12-13"
+        },
+        {
+          "url": "https://www.cftc.gov/PressRoom/PressReleases/8638-22",
+          "publisher": "Commodity Futures Trading Commission",
+          "title": "CFTC Charges Sam Bankman-Fried, FTX Trading and Alameda with Fraud and Material Misrepresentations",
+          "date": "2022-12-13"
+        }
+      ],
+      "reverse": true
+    }
+  ]
+}

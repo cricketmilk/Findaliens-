@@ -1,0 +1,77 @@
+{
+  "id": "ncsa-mosaic-netscape",
+  "title": "NCSA Mosaic → Netscape",
+  "pattern": "parallel-successor",
+  "country": "United States",
+  "summary": "NCSA Mosaic was a graphical web browser built in 1993 by students and staff at the National Center for Supercomputing Applications (NCSA) at the University of Illinois, which NSF says grew out of NSF-funded research. In April 1994 Jim Clark and Marc Andreessen, one of Mosaic's developers, incorporated Mosaic Communications, which hired much of the Mosaic team and was renamed Netscape after the university objected; the dispute was settled in December 1994. The university licensed the exclusive commercial rights to NCSA Mosaic to a different company, Spyglass, not to Netscape. NCSA kept developing Mosaic until January 1997, so the tie between the public program and Netscape is people, not a transfer of code or rights.",
+  "public": {
+    "name": "NCSA Mosaic web browser (National Center for Supercomputing Applications, University of Illinois)",
+    "funder": "National Science Foundation",
+    "start": { "date": "1993-01", "precision": "month" },
+    "end": { "date": "1997-01", "precision": "month", "kind": "completed" },
+    "sources": [
+      { "url": "https://www.nsf.gov/impacts/internet", "publisher": "National Science Foundation", "title": "Birth of the Commercial Internet" },
+      { "url": "https://archives.library.illinois.edu/collections/topic-guides/history-of-science-and-technology-resources/mosaic-a-guide-to-archival-holdings/", "publisher": "University of Illinois Archives", "title": "Mosaic: A Guide to Archival Holdings" },
+      { "url": "https://en.wikipedia.org/wiki/NCSA_Mosaic", "publisher": "Wikipedia", "title": "NCSA Mosaic" }
+    ]
+  },
+  "private": {
+    "name": "Mosaic Communications Corporation, renamed Netscape Communications Corporation",
+    "founded": { "date": "1994-04", "precision": "month" },
+    "founders": ["Jim Clark", "Marc Andreessen"],
+    "outcome": "Renamed Netscape Communications in 1994; public company (SEC filer) by 1995; Navigator browser later lost share to Microsoft Internet Explorer",
+    "sources": [
+      { "url": "https://www.sec.gov/Archives/edgar/data/944458/0000912057-96-024168.txt", "publisher": "U.S. Securities and Exchange Commission", "title": "Netscape Communications Corp, Form 10-K405/A for fiscal 1995 (Amendment No. 2)", "date": "1996-10-30" },
+      { "url": "https://www.computerhistory.org/tdih/april/4/", "publisher": "Computer History Museum", "title": "What Happened on April 4th" },
+      { "url": "https://www.computerhistory.org/revolution/story/389", "publisher": "Computer History Museum", "title": "Browser Wars" }
+    ]
+  },
+  "links": [
+    {
+      "type": "personnel",
+      "claim": "Netscape's own SEC filing states that its team 'includes key members of the engineering teams which developed the original Mosaic Web client at NCSA.'",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/944458/0000912057-96-024168.txt", "publisher": "U.S. Securities and Exchange Commission", "title": "Netscape Communications Corp, Form 10-K405/A for fiscal 1995 (Amendment No. 2)", "date": "1996-10-30" }
+      ]
+    },
+    {
+      "type": "personnel",
+      "claim": "Marc Andreessen developed web-browsing software while working at NCSA at the University of Illinois, then co-founded Mosaic Communications (later Netscape) with Jim Clark in 1994.",
+      "status": "reported",
+      "sources": [
+        { "url": "https://www.computerhistory.org/tdih/april/4/", "publisher": "Computer History Museum", "title": "What Happened on April 4th" },
+        { "url": "https://lemelson.mit.edu/resources/marc-andreesen-and-eric-bina", "publisher": "Lemelson-MIT Program", "title": "Marc Andreesen and Eric Bina" }
+      ]
+    },
+    {
+      "type": "personnel",
+      "claim": "Eric Bina, an NCSA programmer who developed the first working version of Mosaic with Andreessen in 1993, co-founded Netscape; the new company hired Bina and much of the Mosaic team.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://grainger.illinois.edu/alumni/hall-of-fame/eric-bina", "publisher": "University of Illinois Grainger College of Engineering", "title": "Eric J. Bina (Alumni Hall of Fame)" },
+        { "url": "https://www.computerhistory.org/revolution/story/389", "publisher": "Computer History Museum", "title": "Browser Wars" }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Netscape was NCSA Mosaic commercialized under license from the University of Illinois.",
+      "assessment": "false",
+      "explanation": "Spyglass's annual report states that in May 1994 the University of Illinois granted Spyglass the exclusive right to develop, distribute and sublicense commercial products based on NCSA Mosaic, in exchange for royalties. Netscape's own 10-K lists NCSA Mosaic, distributed free for noncommercial use, as a competing product. The tie to Netscape is the developers who moved, not a license.",
+      "sources": [
+        { "url": "https://www.sec.gov/Archives/edgar/data/945256/0000950137-96-002659.txt", "publisher": "U.S. Securities and Exchange Commission", "title": "Spyglass, Inc., Form 10-K for fiscal year ended September 30, 1996", "date": "1996-12-24" },
+        { "url": "https://www.sec.gov/Archives/edgar/data/944458/0000912057-96-024168.txt", "publisher": "U.S. Securities and Exchange Commission", "title": "Netscape Communications Corp, Form 10-K405/A for fiscal 1995 (Amendment No. 2)", "date": "1996-10-30" }
+      ]
+    },
+    {
+      "claim": "Netscape's founders took Mosaic from the University of Illinois.",
+      "assessment": "unsupported",
+      "explanation": "The university claimed Andreessen had taken Mosaic and demanded a name change. The dispute was settled on December 21, 1994: the company became Netscape and the university received a financial settlement, which with legal costs cost Netscape close to $3 million. No court ruled on the claim, and the settlement is not an admission.",
+      "sources": [
+        { "url": "https://lemelson.mit.edu/resources/marc-andreesen-and-eric-bina", "publisher": "Lemelson-MIT Program", "title": "Marc Andreesen and Eric Bina" },
+        { "url": "https://www.computerhistory.org/revolution/story/389", "publisher": "Computer History Museum", "title": "Browser Wars" }
+      ]
+    }
+  ]
+}

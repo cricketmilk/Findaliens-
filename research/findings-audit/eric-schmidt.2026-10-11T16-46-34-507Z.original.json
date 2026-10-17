@@ -1,0 +1,78 @@
+{
+  "entity": "eric-schmidt",
+  "name": "Eric Schmidt",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Eric Schmidt is the former CEO and executive chairman of Google/Alphabet who transitioned into defense-tech venture capital and federal advisory leadership. Between 2016 and 2021, he chaired the Defense Innovation Board (DIB) and the National Security Commission on Artificial Intelligence (NSCAI), shaping federal AI procurement priorities and software acquisition standards. Concurrently, his investment arms (Schmidt Futures, Innovation Endeavors) and personal equity funded defense and dual-use software startups including Rebellion Defense.",
+    "sources": [
+      {
+        "url": "https://prospect.org/power/silicon-valley-takes-battlespace-eric-schmidt-rebellion/",
+        "publisher": "The American Prospect",
+        "title": "Silicon Valley Takes the Battlespace",
+        "date": "2021-03-01"
+      },
+      {
+        "url": "https://www.techtransparencyproject.org/articles/eric-schmidts-unseen-influence-over-us-defense-spending",
+        "publisher": "Tech Transparency Project",
+        "title": "Eric Schmidt's Hidden Influence Over US Defense Spending",
+        "date": "2021-04-15"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "Schmidt served as Chair of the Defense Innovation Board from 2016 to 2020 and Chair of the National Security Commission on AI (NSCAI) from 2018 to 2021.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.techtransparencyproject.org/articles/eric-schmidts-unseen-influence-over-us-defense-spending",
+          "publisher": "Tech Transparency Project",
+          "title": "Eric Schmidt's Hidden Influence Over US Defense Spending",
+          "date": "2021-04-15"
+        }
+      ]
+    },
+    {
+      "claim": "While chairing NSCAI, Schmidt served on the board and as an early investor in Rebellion Defense, which raised $63M in Series A funding.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://prospect.org/power/silicon-valley-takes-battlespace-eric-schmidt-rebellion/",
+          "publisher": "The American Prospect",
+          "title": "Silicon Valley Takes the Battlespace",
+          "date": "2021-03-01"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "google",
+      "relation": "executive of",
+      "claim": "CEO of Google from 2001 to 2011 and Executive Chairman of Alphabet until 2018.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.techtransparencyproject.org/articles/eric-schmidts-unseen-influence-over-us-defense-spending",
+          "publisher": "Tech Transparency Project",
+          "title": "Eric Schmidt's Hidden Influence Over US Defense Spending",
+          "date": "2021-04-15"
+        }
+      ]
+    },
+    {
+      "to": "defense-innovation-unit",
+      "relation": "advised",
+      "claim": "Chaired the Defense Innovation Board advising the Secretary of Defense on software acquisition and AI deployment.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.techtransparencyproject.org/articles/eric-schmidts-unseen-influence-over-us-defense-spending",
+          "publisher": "Tech Transparency Project",
+          "title": "Eric Schmidt's Hidden Influence Over US Defense Spending",
+          "date": "2021-04-15"
+        }
+      ]
+    }
+  ]
+}

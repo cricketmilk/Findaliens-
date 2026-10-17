@@ -1,3 +1,12 @@
 node_modules/
-data/
+/data/
 .env
+*.bak
+*.jpg
+.claude/
+.forge/*
+!.forge/skills/
+
+# Research drafts kept local: rejected items and raw unreviewed data
+research/rejected.json
+research/archive/

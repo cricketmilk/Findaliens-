@@ -1,0 +1,116 @@
+{
+  "entity": "anduril-industries",
+  "name": "Anduril Industries, Inc.",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Anduril Industries is a defense technology contractor specializing in autonomous systems, counter-UAS (Lattice OS), and maritime robotics. Founded in 2017 by Palmer Luckey and Trae Stephens (Founders Fund), it scaled rapidly via venture syndicates and defense procurement awards, surpassing a $30B valuation by 2025. Its relationship with sovereign capital bridges early strategic investment from In-Q-Tel with multi-billion-dollar enterprise contracts across the U.S. Army, SOCOM, and the Defense Innovation Unit (DIU).",
+    "sources": [
+      {
+        "url": "https://www.defense.gov",
+        "publisher": "U.S. Department of Defense",
+        "title": "DoD Contract Award Notices",
+        "date": "2026-03-13"
+      },
+      {
+        "url": "https://www.reuters.com",
+        "publisher": "Reuters",
+        "title": "Anduril Valuation and Funding Rounds",
+        "date": "2025-06-05"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In March 2026, the U.S. Army awarded Anduril Industries a 10-year enterprise contract with a ceiling of up to $20B consolidating over 120 prior procurement actions.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.defense.gov",
+          "publisher": "U.S. Department of Defense",
+          "title": "Army Enterprise Contract Announcement",
+          "date": "2026-03-13"
+        }
+      ]
+    },
+    {
+      "claim": "In January 2022, U.S. Special Operations Command awarded Anduril a 10-year counter-unmanned systems integration contract with a ceiling of ~$967.6M.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.defense.gov",
+          "publisher": "U.S. Department of Defense",
+          "title": "SOCOM Counter-UAS Contract Award",
+          "date": "2022-01-24"
+        }
+      ]
+    },
+    {
+      "claim": "In-Q-Tel took a strategic equity position in Anduril in August 2017 alongside its initial seed round.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.iqt.org",
+          "publisher": "In-Q-Tel",
+          "title": "IQT Portfolio Companies",
+          "date": "2017-08-01"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "founders-fund",
+      "relation": "invested in",
+      "claim": "Founders Fund led Anduril's 2017 seed round, Series A, and Series G ($1B commitment). Partner Trae Stephens serves as chairman.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com",
+          "publisher": "Bloomberg",
+          "title": "Founders Fund Backs Anduril",
+          "date": "2025-06-05"
+        }
+      ]
+    },
+    {
+      "to": "in-q-tel",
+      "relation": "invested in",
+      "claim": "In-Q-Tel holds a strategic equity stake in Anduril dating to 2017.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.iqt.org",
+          "publisher": "In-Q-Tel",
+          "title": "Portfolio Listing",
+          "date": "2017-08-01"
+        }
+      ]
+    },
+    {
+      "to": "defense-innovation-unit",
+      "relation": "contracted with",
+      "claim": "DIU awarded Anduril a 5-year Production Other Transaction (P-OT) agreement for counter-UAS with a $99M ceiling in 2021.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.diu.mil",
+          "publisher": "Defense Innovation Unit",
+          "title": "Production OTA Counter-UAS Award",
+          "date": "2021-07-01"
+        }
+      ]
+    }
+  ],
+  "branching_entities": [
+    {
+      "slug": "area-i",
+      "name": "Area-I",
+      "relationship": "subsidiary"
+    },
+    {
+      "slug": "blue-force-technologies",
+      "name": "Blue Force Technologies",
+      "relationship": "subsidiary"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "entity": "anduril-industries",
+  "name": "Anduril Industries, Inc.",
+  "researchedAt": "2026-10-10",
+  "summary": {
+    "text": "Anduril Industries is a defense technology contractor specializing in autonomous systems, counter-UAS (Lattice OS), and maritime robotics. Founded in 2017 by Palmer Luckey and Trae Stephens (Founders Fund), it scaled rapidly via venture syndicates and defense procurement awards, surpassing a $30B valuation by 2025. Its relationship with sovereign capital bridges early strategic investment from In-Q-Tel with multi-billion-dollar enterprise contracts across the U.S. Army, SOCOM, and the Defense Innovation Unit (DIU).",
+    "sources": [
+      {
+        "url": "https://www.defense.gov",
+        "publisher": "U.S. Department of Defense",
+        "title": "DoD Contract Award Notices",
+        "date": "2026-03-13"
+      },
+      {
+        "url": "https://www.reuters.com",
+        "publisher": "Reuters",
+        "title": "Anduril Valuation and Funding Rounds",
+        "date": "2025-06-05"
+      }
+    ]
+  },
+  "facts": [],
+  "connections": [
+    {
+      "to": "defense-innovation-unit",
+      "relation": "contracted with",
+      "claim": "DIU awarded Anduril a 5-year Production Other Transaction (P-OT) agreement for counter-UAS with a $99M ceiling in 2021.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://fedscoop.com/anduril-counter-drone-tech-diu/",
+          "publisher": "fedscoop.com",
+          "title": "Anduril scores $99M contract with DIU for counter-drone tech",
+          "accessed": "2026-10-11",
+          "addedBy": "audit: found when the cited page did not carry the claim"
+        }
+      ],
+      "quote": "By Jackson Barnett July 27, 2021 (Getty Images) The Department of Defense has awarded technology startup Anduril a $99 million contract to provide a new automated counter-unmanned aerial system (C-UAS) capability. The Production Other Transaction (P-OT) Agreement was struck between the company and the Defense Innovation Unit , the DOD's Silicon Valley outpost that uses non-traditional contracts to work with start ups."
+    }
+  ],
+  "branching_entities": [
+    {
+      "slug": "area-i",
+      "name": "Area-I",
+      "relationship": "subsidiary"
+    },
+    {
+      "slug": "blue-force-technologies",
+      "name": "Blue Force Technologies",
+      "relationship": "subsidiary"
+    }
+  ],
+  "openQuestions": [
+    "Removed in audit (cites no page that could say it (only a site's front page)): In March 2026, the U.S. Army awarded Anduril Industries a 10-year enterprise contract with a ceiling of up to $20B consolidating over 120 prior procurement actions.",
+    "Removed in audit (cites no page that could say it (only a site's front page)): In January 2022, U.S. Special Operations Command awarded Anduril a 10-year counter-unmanned systems integration contract with a ceiling of ~$967.6M.",
+    "Removed in audit (cites no page that could say it (only a site's front page)): In-Q-Tel took a strategic equity position in Anduril in August 2017 alongside its initial seed round.",
+    "Removed in audit (cites no page that could say it (only a site's front page)): Founders Fund led Anduril's 2017 seed round, Series A, and Series G ($1B commitment). Partner Trae Stephens serves as chairman.",
+    "Removed in audit (cites no page that could say it (only a site's front page)): In-Q-Tel holds a strategic equity stake in Anduril dating to 2017."
+  ]
+}

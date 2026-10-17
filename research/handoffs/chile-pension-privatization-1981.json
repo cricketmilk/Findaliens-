@@ -1,0 +1,67 @@
+{
+  "id": "chile-pension-privatization-1981",
+  "title": "Chile's public pension funds (cajas de previsión) → private pension fund administrators (AFPs)",
+  "pattern": "outsourced-successor",
+  "country": "Chile",
+  "summary": "Chile's mandatory social insurance began with Law 4.054 of 1924 and grew into a set of state pay-as-you-go pension funds (cajas de previsión). Decree Law 3.500, dictated by the military junta on 4 November 1980 and signed by Augusto Pinochet, created a system of individual capitalization accounts administered by private Administradoras de Fondos de Pensiones (AFPs), starting 1 May 1981. Existing contributors could choose to switch, receiving state-backed recognition bonds for past contributions; workers entering the labour force after 31 December 1982 had to join an AFP. Armed forces and Carabineros kept their own schemes. The state kept the old system's obligations and guaranteed minimum pensions.",
+  "public": {
+    "name": "Chilean public pay-as-you-go pension system (cajas de previsión of the 'régimen antiguo')",
+    "funder": "Government of Chile and payroll contributions",
+    "start": { "date": "1924-09-08", "precision": "day" },
+    "end": { "date": "1983-01-01", "precision": "day", "kind": "transferred" },
+    "sources": [
+      { "url": "https://previsionsocial.gob.cl/wp-content/uploads/2024/10/Libro-100-anos-Seguridad-Social.pdf", "publisher": "Subsecretaría de Previsión Social, Ministerio del Trabajo y Previsión Social (Chile)", "title": "100 años de Seguridad Social en Chile (ed. Sergio Durán)", "date": "2024-09" },
+      { "url": "https://www.bcn.cl/leychile/navegar?idNorma=7147", "publisher": "Biblioteca del Congreso Nacional de Chile (LeyChile)", "title": "Decreto Ley 3.500: Establece nuevo sistema de pensiones", "date": "1980-11-04" }
+    ]
+  },
+  "private": {
+    "name": "Administradoras de Fondos de Pensiones (AFPs), private pension fund managers",
+    "founded": { "date": "1981-05-01", "precision": "day" },
+    "founders": [],
+    "funders": ["Mandatory worker contributions (10% of gross wage)"],
+    "outcome": "The government's centenary history reports that about 500,000 workers joined AFPs in the first month and more than 1.4 million during 1981, helped by recognition bonds and heavy advertising; nine of the first eleven AFPs were linked to Chile's main economic groups. It also records that transition costs (old-system obligations, recognition bonds, state-guaranteed minimum pensions) fell on the state, citing an estimated fiscal deficit of 3.8% of GDP in 1981 and 6.1% in 2000. By 1986, 45.9% of the employed contributed to AFPs and 11% remained in the old system.",
+    "sources": [
+      { "url": "https://previsionsocial.gob.cl/wp-content/uploads/2024/10/Libro-100-anos-Seguridad-Social.pdf", "publisher": "Subsecretaría de Previsión Social, Ministerio del Trabajo y Previsión Social (Chile)", "title": "100 años de Seguridad Social en Chile (ed. Sergio Durán)", "date": "2024-09" },
+      { "url": "https://www.spensiones.cl/portal/institucional/594/w3-article-13994.html", "publisher": "Superintendencia de Pensiones (Chile)", "title": "Superintendencia de Pensiones elabora documento que analiza la veracidad de afirmaciones que circulan sobre el sistema de pensiones chileno", "date": "2020-06-26" }
+    ]
+  },
+  "links": [
+    {
+      "type": "stated-successor",
+      "claim": "Decree Law 3.500 (4 November 1980) creates an old-age, disability and survivors' pension system based on individual capitalization carried out by Administradoras de Fondos de Pensiones; workers first joining after 31 December 1982 must enter the new system, and the switch option for existing contributors runs from 1 May 1981.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.bcn.cl/leychile/navegar?idNorma=7147", "publisher": "Biblioteca del Congreso Nacional de Chile (LeyChile)", "title": "Decreto Ley 3.500: Establece nuevo sistema de pensiones", "date": "1980-11-04" },
+        { "url": "https://previsionsocial.gob.cl/wp-content/uploads/2024/10/Libro-100-anos-Seguridad-Social.pdf", "publisher": "Subsecretaría de Previsión Social, Ministerio del Trabajo y Previsión Social (Chile)", "title": "100 años de Seguridad Social en Chile (ed. Sergio Durán)", "date": "2024-09" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "Under the decree's transitional articles, old-system pension institutions issue a 'Bono de Reconocimiento' representing a switching worker's past contributions; it is delivered to the worker's AFP, indexed to consumer prices, and credited to the individual account at retirement age.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://www.bcn.cl/leychile/navegar?idNorma=7147", "publisher": "Biblioteca del Congreso Nacional de Chile (LeyChile)", "title": "Decreto Ley 3.500: Establece nuevo sistema de pensiones", "date": "1980-11-04" },
+        { "url": "https://www.spensiones.cl/portal/institucional/594/w3-article-13994.html", "publisher": "Superintendencia de Pensiones (Chile)", "title": "Superintendencia de Pensiones elabora documento que analiza la veracidad de afirmaciones que circulan sobre el sistema de pensiones chileno", "date": "2020-06-26" }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "When the AFP system began in 1981, it guaranteed savers a minimum return of UF + 4% a year.",
+      "assessment": "false",
+      "explanation": "Chile's pension regulator says no guaranteed minimum return ever existed; the 4% real figure belongs to the recognition bond paid for contributions made under the old system, not to AFP fund returns.",
+      "sources": [
+        { "url": "https://www.spensiones.cl/portal/institucional/594/w3-article-13994.html", "publisher": "Superintendencia de Pensiones (Chile)", "title": "Superintendencia de Pensiones elabora documento que analiza la veracidad de afirmaciones que circulan sobre el sistema de pensiones chileno", "date": "2020-06-26" }
+      ]
+    },
+    {
+      "claim": "Chile's 1981 reform was the start of a wave of pension privatizations that many countries later reversed.",
+      "assessment": "true",
+      "explanation": "An ILO study reports that from 1981 to 2014 thirty countries fully or partially privatized their public mandatory pensions, and that eighteen had reversed privatization by 2018. Chile's own system was amended (for example in 2008) rather than reversed in that period.",
+      "sources": [
+        { "url": "https://www.ilo.org/secsoc/information-resources/publications-and-tools/books-and-reports/WCMS_648574/lang--en/index.htm", "publisher": "International Labour Organization", "title": "Reversing Pension Privatizations: Rebuilding public pension systems in Eastern Europe and Latin America (Ortiz, Durán-Valverde, Urban, Wodsak)", "date": "2019-03-31" },
+        { "url": "https://previsionsocial.gob.cl/wp-content/uploads/2024/10/Libro-100-anos-Seguridad-Social.pdf", "publisher": "Subsecretaría de Previsión Social, Ministerio del Trabajo y Previsión Social (Chile)", "title": "100 años de Seguridad Social en Chile (ed. Sergio Durán)", "date": "2024-09" }
+      ]
+    }
+  ]
+}

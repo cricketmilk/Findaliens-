@@ -1,0 +1,20 @@
+{
+ "file": "ventures.json",
+ "kind": "finding",
+ "at": "2026-10-11T18:38:19.424Z",
+ "kept": 59,
+ "removed": [
+  {
+   "where": "facts[54]",
+   "claim": "The UNEP Emissions Gap Report table projects global GHG emissions under current policies of 58 GtCO₂e in 2030 (range 51-62), 54 in 2035 (52-62) and 51 in 2050 (33-71).",
+   "why": "could not re-open any cited page to confirm it: https://wedocs.unep.org/bitstreams/b95235f9-ab3d-4f30-9db8-2c24065de3ad/download (page came back nearly empty)"
+  }
+ ],
+ "unchecked": [],
+ "resourced": [],
+ "wikiSourcesDropped": 0,
+ "notes": [],
+ "pagesOpened": 34,
+ "pagesRefused": 0,
+ "empty": false
+}

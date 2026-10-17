@@ -1,0 +1,63 @@
+{
+  "code": "CC-1929-CALLMONEY",
+  "eraId": "ERA-07-1929",
+  "yearStart": 1929,
+  "yearEnd": 1929,
+  "title": "Strong, Norman, and the Call-Money Machine: How a Transatlantic Gold Pact Fueled Wall Street's Margin Bubble",
+  "primaryTab": "crash-conduits",
+  "secondaryTabs": [
+    "deep-state",
+    "consent"
+  ],
+  "mechanism": "LEVERAGED_WATERED_CAPITAL",
+  "tier": "TIER_3_PRIMARY_LEDGER",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "Benjamin Strong",
+    "Montagu Norman",
+    "Charles Rist",
+    "Hjalmar Schacht",
+    "Federal Reserve Bank of New York",
+    "Bank of England",
+    "New York Stock Exchange",
+    "non-bank call-loan lenders (\"others\")"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "Before the fog, the profit sat in the New York call-loan market, where lenders charged call rates on collateralized broker loans financing stock margin purchases. Non-bank lenders — \"others\" in the Federal Reserve data — supplied most of the growth as broker loans roughly doubled between 1927 and 1929, standing to collect interest on an expanding leveraged book.",
+    "stage2_structuralCompromise": "The structural arrangement was transatlantic and personal: Benjamin Strong at the Federal Reserve Bank of New York, from the bank's founding in November 1914 until his death in October 1928, maintained a working partnership with Bank of England Governor Montagu Norman (1920–1944), including shared views on gold-sterilisation and market management. The July 1927 Long Island conference — Strong, Norman, Rist, Schacht — produced an agreement to ease.",
+    "stage3_informationFog": "The mechanism stayed invisible because the easing decision was made privately among central-bank chiefs, not through any public legislative or regulatory channel, and its transmission ran through the call-rate structure of the NYSE rather than through visible policy announcements. That the 1927 ease fed the late-1920s speculation was identified only later, and even then contested.",
+    "stage4_monopolyWindfall": "The windfall accrued to holders of the call-loan book and to leveraged equity positions financed on margin: broker loans roughly doubled 1927–1929, with non-bank lenders capturing most of that growth in interest income while stock collateral kept rising. The rate structure sat atop a market the Fed managed rather than constrained.",
+    "stage5_merseyWhitewash": "Strong's death in October 1928 removed the transatlantic coordination, and the story was subsequently framed around whether the NY Fed alone could manage the call-rate structure — a technical question that launders the prior arrangement. The 1927 ease's role in feeding speculation remains contested in the historiography rather than plainly accounted for."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "The post-1914 Federal Reserve Bank of New York, and the gold-exchange management partnership between Strong and Norman documented in FRBNY archives and scholarship, including their shared gold-sterilisation and market-management views.",
+    "newFrameworkCreated": "The July 1927 Long Island agreement — Strong, Norman, Rist, and Schacht easing in concert — established a precedent for privately coordinated cross-border monetary easing without public mandate.",
+    "closedLoopRecirculation": "Eased conditions rolled into the New York call-loan market: broker loans roughly doubled 1927–1929, with non-bank lenders recycling interest income into a still-larger margin book.",
+    "enablesNextDossier": "The leveraged call-money structure and the post-Strong coordination vacuum set up the 1929 break as the live question of whether the NY Fed alone could manage rates — the machinery through which the crash and subsequent receivership organization proceeded."
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "The pop version of 1929: speculators jumping from windows, shoeshine-boy stock tips, and a single mad market day — a story of irrational exuberance and crowd mania.",
+    "whyDecoyFails": "The crowd-mania frame erases the documented mechanism: broker loans roughly doubling 1927–1929 with non-bank lenders supplying most of the growth, and a contested but documented central-bank ease — Strong, Norman, Rist, Schacht agreeing at the July 1927 Long Island conference — that fed the speculation. The bubble was structurally financed and centrally coordinated, not merely hysterical.",
+    "documentedLedger": "Benjamin Strong led the Federal Reserve Bank of New York from November 1914 until his death in October 1928; Montagu Norman led the Bank of England from 1920 to 1944, and their partnership on gold-sterilisation and market management is documented in scholarship and the FRBNY archives. In July 1927 on Long Island, Strong, Norman, Rist, and Schacht agreed to ease — later identified, though contested, as feeding the late-1920s speculation. New York call loans financed stock margin purchases; broker loans roughly doubled from 1927 to 1929, with non-bank lenders (\"others\") supplying most of the growth in Federal Reserve and NYSE data of the period. After Strong's death in October 1928, whether the NY Fed alone could manage the call-rate structure was the live question through the 1929 break."
+  },
+  "citationIds": [
+    "CIT-1929-WD-Q3277708",
+    "CIT-1929-WD-Q709899"
+  ],
+  "citations": [
+    {
+      "id": "CIT-1929-WD-Q3277708",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Corporate Lineage Entity: Benjamin Strong (Q3277708)",
+      "url": "https://www.wikidata.org/entity/Q3277708",
+      "quoteOrFact": "Benjamin Strong"
+    },
+    {
+      "id": "CIT-1929-WD-Q709899",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Corporate Lineage Entity: Montagu Norman, 1st Baron Norman (Q709899)",
+      "url": "https://www.wikidata.org/entity/Q709899",
+      "quoteOrFact": "Montagu Norman, 1st Baron Norman"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carbon Class — The Cornfield Gazette</title>
+<!-- The Carbon Ledger is now Part II of Carbon Class. This page only sends
+     old links on, keeping the section they pointed at (#top10 and #future
+     became The Split and The Forecast). _redirects does the same on the
+     live site; this covers anywhere it does not run. -->
+<link rel="canonical" href="carbon-class.html">
+<meta http-equiv="refresh" content="0; url=carbon-class.html">
+<script>
+  (function () {
+    var map = { "#top10": "#split", "#future": "#forecast" };
+    var h = location.hash || "";
+    location.replace("carbon-class.html" + (map[h] || h));
+  })();
+</script>
+<style>body { background: #100e13; color: #ddd7e8; font-family: "Courier New", monospace; padding: 40px; } a { color: #ff8fb8; }</style>
+</head>
+<body>
+  <p>The Carbon Ledger is now part of <a href="carbon-class.html">Carbon Class</a>.</p>
+</body>
+</html>

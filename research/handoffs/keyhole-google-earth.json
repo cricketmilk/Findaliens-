@@ -1,0 +1,128 @@
+{
+  "id": "keyhole-google-earth",
+  "title": "In-Q-Tel / NIMA and Keyhole → Google Earth",
+  "pattern": "parallel-successor",
+  "country": "United States",
+  "summary": "Keyhole Corp. was a private company throughout, founded in 2001; nothing here was a government program that was handed over. The public side is the funding and customer relationship: in February 2003 In-Q-Tel, the CIA-backed venture firm, invested in Keyhole on behalf of the National Imagery and Mapping Agency (NIMA, now NGA), which used Keyhole's 3-D earth visualization software to support U.S. operations in Iraq. Google acquired Keyhole in October 2004 for undisclosed terms and launched Google Earth in 2005; In-Q-Tel describes its Keyhole investment as the foundation for Google Earth.",
+  "public": {
+    "name": "In-Q-Tel investment in Keyhole on behalf of NIMA, and NIMA's operational use of Keyhole EarthViewer",
+    "funder": "National Imagery and Mapping Agency (NIMA, now the National Geospatial-Intelligence Agency), through In-Q-Tel",
+    "start": {
+      "date": "2003-02",
+      "precision": "month"
+    },
+    "end": {
+      "date": "2004-10-27",
+      "precision": "day",
+      "kind": "completed"
+    },
+    "sources": [
+      {
+        "url": "https://www.iqt.org/library/in-q-tel-announces-strategic-investment-in-keyhole",
+        "publisher": "In-Q-Tel",
+        "title": "In-Q-Tel Announces Strategic Investment in Keyhole: NIMA Uses Technology to Support the Conflict in Iraq",
+        "date": "2003-06-25"
+      },
+      {
+        "url": "https://route-fifty.com/digital-government/2003/06/in-q-tel-investment-proves-its-worth-in-iraq/312603",
+        "publisher": "GCN (Route Fifty)",
+        "title": "In-Q-Tel investment proves its worth in Iraq",
+        "date": "2003-06-27"
+      }
+    ]
+  },
+  "private": {
+    "name": "Keyhole Corp. / Google Earth (Google Inc.)",
+    "founded": {
+      "date": "2001",
+      "precision": "year"
+    },
+    "founders": [],
+    "funders": [
+      "In-Q-Tel (2003 strategic investment, on behalf of NIMA)",
+      "Google Inc. (acquirer, October 2004)"
+    ],
+    "outcome": "The founding year above is Keyhole's, as stated in Google's acquisition release. The end date of the public side is the Google acquisition; the records opened do not state when or how In-Q-Tel's stake was exited. Google cut the price of the consumer Keyhole 2 LT product and launched Google Earth in 2005; Google says it was downloaded 100 million times in its first week.",
+    "sources": [
+      {
+        "url": "https://www.iqt.org/library/google-acquires-keyhole-corporation",
+        "publisher": "Google Inc. (release reproduced by In-Q-Tel)",
+        "title": "Google Acquires Keyhole Corporation",
+        "date": "2004-10-27"
+      },
+      {
+        "url": "https://blog.google/products/earth/google-earth-20-years-timeline/",
+        "publisher": "Google",
+        "title": "Our favorite moments from 20 years of Google Earth",
+        "date": "2025-06-24"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "funding",
+      "claim": "In-Q-Tel made an equity investment in Keyhole in February 2003, its first engagement on behalf of NIMA, and partnered with Keyhole on GIS data standards for government datasets. NIMA's InnoVision director said the agency put the technology to use within the Pentagon within two weeks; In-Q-Tel said NIMA used it to support U.S. troops in Iraq.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.iqt.org/library/in-q-tel-announces-strategic-investment-in-keyhole",
+          "publisher": "In-Q-Tel",
+          "title": "In-Q-Tel Announces Strategic Investment in Keyhole: NIMA Uses Technology to Support the Conflict in Iraq",
+          "date": "2003-06-25"
+        },
+        {
+          "url": "https://route-fifty.com/digital-government/2003/06/in-q-tel-investment-proves-its-worth-in-iraq/312603",
+          "publisher": "GCN (Route Fifty)",
+          "title": "In-Q-Tel investment proves its worth in Iraq",
+          "date": "2003-06-27"
+        }
+      ]
+    },
+    {
+      "type": "funding",
+      "claim": "In-Q-Tel's own milestones page says Keyhole, in which it invested in 2003, became the foundation for Google Earth; Google announced its acquisition of Keyhole on 27 October 2004 without disclosing terms.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.iqt.org/about/our-milestones",
+          "publisher": "In-Q-Tel",
+          "title": "Our Milestones",
+          "date": "2003"
+        },
+        {
+          "url": "https://www.iqt.org/library/google-acquires-keyhole-corporation",
+          "publisher": "Google Inc. (release reproduced by In-Q-Tel)",
+          "title": "Google Acquires Keyhole Corporation",
+          "date": "2004-10-27"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Google Earth was created by the CIA.",
+      "assessment": "false",
+      "explanation": "Keyhole was a private company founded in 2001; In-Q-Tel, described by GCN as the CIA's technology incubation arm, invested in it in February 2003 on behalf of NIMA, which used the software. The government was an investor and customer, not the developer. Google bought Keyhole in 2004 and launched Google Earth in 2005, though In-Q-Tel describes its investment as the foundation for Google Earth.",
+      "sources": [
+        {
+          "url": "https://www.iqt.org/library/in-q-tel-announces-strategic-investment-in-keyhole",
+          "publisher": "In-Q-Tel",
+          "title": "In-Q-Tel Announces Strategic Investment in Keyhole: NIMA Uses Technology to Support the Conflict in Iraq",
+          "date": "2003-06-25"
+        },
+        {
+          "url": "https://www.iqt.org/library/google-acquires-keyhole-corporation",
+          "publisher": "Google Inc. (release reproduced by In-Q-Tel)",
+          "title": "Google Acquires Keyhole Corporation",
+          "date": "2004-10-27"
+        },
+        {
+          "url": "https://route-fifty.com/digital-government/2003/06/in-q-tel-investment-proves-its-worth-in-iraq/312603",
+          "publisher": "GCN (Route Fifty)",
+          "title": "In-Q-Tel investment proves its worth in Iraq",
+          "date": "2003-06-27"
+        }
+      ]
+    }
+  ]
+}

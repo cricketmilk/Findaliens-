@@ -1,0 +1,64 @@
+{
+  "entity": "blackrock",
+  "name": "BlackRock",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "BlackRock is an asset manager founded in 1988 by Larry Fink, Rob Kapito, Sue Wagner, Barbara Novick, Ben Golub, Hugh Frater, Ralph Schlosstein and Keith Anderson. During the 2008 financial crisis, the Federal Reserve Bank of New York retained BlackRock Financial Management as investment manager for the Maiden Lane LLC vehicles, which held assets acquired in the Bear Stearns and AIG rescues.",
+    "sources": [
+      {
+        "url": "https://www.blackrock.com/corporate/about-us/blackrock-history",
+        "publisher": "BlackRock",
+        "title": "BlackRock history",
+        "date": ""
+      },
+      {
+        "url": "https://www.newyorkfed.org/markets/maidenlane",
+        "publisher": "Federal Reserve Bank of New York",
+        "title": "Maiden Lane Transactions",
+        "date": ""
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In 2008 the Federal Reserve Bank of New York retained BlackRock Financial Management as investment manager for Maiden Lane LLC (about $30 billion of Bear Stearns assets), Maiden Lane II LLC ($20.5 billion of AIG residential mortgage-backed securities) and Maiden Lane III LLC ($29.3 billion of CDOs bought from AIG Financial Products counterparties).",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.newyorkfed.org/markets/maidenlane",
+          "publisher": "Federal Reserve Bank of New York",
+          "title": "Maiden Lane Transactions",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "claim": "BlackRock developed and sells Aladdin, an investment and risk-management technology platform used by institutions including asset managers, banks, insurers and pension funds.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.blackrock.com/aladdin",
+          "publisher": "BlackRock",
+          "title": "Aladdin by BlackRock",
+          "date": ""
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "ftx",
+      "relation": "invested in",
+      "claim": "BlackRock CEO Larry Fink said in November 2022 that BlackRock had invested $24 million in the crypto exchange FTX before its collapse.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://malaysia.news.yahoo.com/blackrock-ceo-says-firm-had-160338247.html",
+          "publisher": "CoinDesk (via Yahoo News), citing Reuters",
+          "title": "BlackRock CEO Larry Fink Says Firm Invested $24M in FTX: Reuters",
+          "date": "2022-11-30"
+        }
+      ]
+    }
+  ]
+}

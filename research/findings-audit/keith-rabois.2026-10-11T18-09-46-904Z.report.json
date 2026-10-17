@@ -1,0 +1,25 @@
+{
+ "file": "keith-rabois.json",
+ "kind": "finding",
+ "at": "2026-10-11T18:09:46.904Z",
+ "kept": 39,
+ "removed": [
+  {
+   "where": "connections[6]",
+   "claim": "Rabois joined Khosla Ventures in 2013, left in 2019, and returned in January 2024; Opendoor identified him as a Khosla Managing Director in 2025.",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 2024, 2025, opendoor"
+  },
+  {
+   "where": "connections[17]",
+   "claim": "Rabois's husband Jacob Helberg, described in 2024 as a Trump evangelist who watched the Republican National Convention from a private box, was nominated as Under Secretary of State for Economic Growth",
+   "why": "the cited pages do not contain the claim's figures and names; missing: 2024, state, economic growth, energy, environment"
+  }
+ ],
+ "unchecked": [],
+ "resourced": [],
+ "wikiSourcesDropped": 0,
+ "notes": [],
+ "pagesOpened": 23,
+ "pagesRefused": 0,
+ "empty": false
+}

@@ -1,0 +1,110 @@
+{
+  "code": "CC-1849-ESTATES",
+  "eraId": "ERA-04-1845",
+  "yearStart": 1849,
+  "yearEnd": 1858,
+  "title": "Famine-Price Land: The Encumbered Estates Court Liquidates Ireland for Its London Creditors",
+  "primaryTab": "crash-conduits",
+  "secondaryTabs": [
+    "carbon-class"
+  ],
+  "mechanism": "RECEIVERSHIP_MORGANIZATION",
+  "tier": "TIER_2_INQUIRY",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "Encumbered Estates Court",
+    "Encumbered Estates Act 1849",
+    "Great Irish Famine",
+    "London and Irish encumbrance holders (mortgage and judgement creditors)",
+    "new commercial estate buyers",
+    "Irish tenant farmers",
+    "Landed Estates Court (Ireland) Act 1858",
+    "UK Parliament (1858 Commons and Lords record; Landed Estates Court Acts 1861 and 1866)"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "The up-front profit sat with two parties: the encumbrance holders — largely English and London lenders whose mortgages and judgement debts against Irish land were fixed while famine collapsed the rents that serviced them — and the new buyers waiting to acquire estates at famine-depression prices. Only a forced sale could turn those frozen claims into cash.",
+    "stage2_structuralCompromise": "The Encumbered Estates Act 1849, passed in August 1849, built the machine: a statutory court empowered to sell encumbered Irish estates quickly, overriding prior judicial and settlement constraints on sale, and to pay proceeds to creditors ahead of other interests. Generations of lending against land had built the claim structure; the Act made it executable at depression prices.",
+    "stage3_informationFog": "The fog was legal by design: the sales ran through a specialized court whose overriding of prior constraints was exactly its mandate, so no rule was visibly broken. The parliamentary record shows the machinery as routine business — an 1858 Commons supply debate budgeting accommodation for the new commissioners of the Encumbered Estates Court and a Land Transfer Office, and the same session's committee debate on the Sale and Transfer of Land (Ireland) Bill arguing the parliamentary-title principle for encumbered estates sold under the machinery. The mortgagees who collected stayed offstage in the record.",
+    "stage4_monopolyWindfall": "Estates fetched famine-depression prices far below pre-famine values; on the order of three thousand estates had been sold by the time the court was superseded. The windfall was split between the creditors cleared — paid ahead of other interests out of Irish land — and the new commercial buyers who acquired land cheap under titles the court had made unchallengeable.",
+    "stage5_merseyWhitewash": "The liquidation was laundered as reform: 'inefficient' indebted landlords replaced by 'improving' solvent owners, a free-market upgrade rather than a creditors' execution. The 1858 bill was presented to the Lords as the fruit of the Royal Commission on the Irish encumbered estates courts — with Lord St Leonards recalling on the record that Sir Robert Peel had authored the original measure — and the Landed Estates Court (Ireland) Act 1858 retained and extended the same machinery under a neutral name; the Lords Commissioners' prorogation speech announced the Transfer of Land Bill as extending the powers hitherto exercised by the Incumbered Estates Commissioners. The court's jurisdiction passed quietly to the High Court of Justice in Ireland in the late 1870s. What was never accounted for was the term left untouched: tenancy."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "The post-famine debt structure: fixed mortgages and judgement debts against Irish land whose rental income had collapsed in the Great Irish Famine of 1845-52.",
+    "newFrameworkCreated": "The statutory liquidation court — quick-sale machinery overriding prior judicial and settlement constraints, created by the Encumbered Estates Act 1849 and retained and extended by the Landed Estates Court (Ireland) Act 1858.",
+    "closedLoopRecirculation": "Creditor claims paid out of Irish land at depression prices flowed back to English and London lenders, while the new commercial owners' capital rolled into further estate purchase in the same depressed market.",
+    "enablesNextDossier": "The post-liquidation structure — solvent commercial landlords over unchanged and insecure tenancies — is the arrangement that presages the land-question politics of the 1870s-80s, from the Land League of 1879 onward."
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "The pop-culture version is the Victorian melodrama of the idle absentee landlord — and its modern descendant, the framing of the famine period as simple villainy or deliberate intent — a morality tale of bad masters and suffering tenants.",
+    "whyDecoyFails": "The melodrama erases the mechanism: a creditors' liquidation court that sold the land to clear mortgage debts, welcomed at the time as reform. The decoy names no creditors, no court, no statute, and misses the term that mattered to millions — tenancy — which was never for sale.",
+    "documentedLedger": "The Great Irish Famine of 1845-52 killed on the order of a million people, drove mass emigration, and collapsed the rents that serviced landlords' fixed mortgages and judgement debts, owed largely to English and London lenders. The Encumbered Estates Act 1849, passed August 1849, established the Encumbered Estates Court with power to sell encumbered estates quickly, overriding prior judicial and settlement constraints, paying proceeds to creditors ahead of other interests. The court sat from 1849-50; sales began in 1850 at famine-depression prices, and on the order of three thousand estates — a widely cited figure — had been sold by supersession. The Landed Estates Court (Ireland) Act 1858 (21 & 22 Vict. c. 72) replaced the court, retaining and extending the machinery; further acts in 1861 and 1866 amended it, and its jurisdiction passed to the High Court of Justice in Ireland in the late 1870s. Tenant farmers gained no security from any of it; the creditors' liquidation that sold the land while leaving tenancy untouched is documented in scholarship as presaging the land-question politics of the 1870s-80s. The transfer ran through the parliamentary record as routine business: an 1858 Commons supply debate budgeted accommodation for the court's new commissioners and a Land Transfer Office, and the Lords Commissioners' prorogation speech announced the Transfer of Land Bill as extending the powers hitherto exercised by the Incumbered Estates Commissioners."
+  },
+  "citationIds": [
+    "CIT-1855-HANS-249144",
+    "CIT-1855-HANS-247603",
+    "CIT-1855-HANS-15492723",
+    "CIT-1849-WD-Q5375634",
+    "CIT-1849-WD-Q188371",
+    "CIT-1858-WD-Q106363655",
+    "CIT-1858-WD-Q106374868",
+    "CIT-1858-WD-Q106406833"
+  ],
+  "citations": [
+    {
+      "id": "CIT-1855-HANS-249144",
+      "tier": "TIER_2_INQUIRY",
+      "title": "UK Parliament Hansard (Commons, 1858-07-13): Supply—Civil Service Estimates",
+      "url": "https://hansard.parliament.uk/Commons/1858-07-13/debates/bd0d3cc8-e511-45e4-91cb-1b333eb76f51/Supply%E2%80%94CivilServiceEstimates?highlight=Encumbered%20Estates#contribution-1add4e86-1de9-4559-9e66-18270b414e0e",
+      "quoteOrFact": "MR. VANCE, Commons, 1858-07-13: \"asked, whether the proposed extension of those law buildings was for the accommodation of the new commissioners of the Encumbered Estates Court, and the Land Transfer Offices, and whether it was intended in the meantime to furnish any accommodation to those Commissioners before the new buildings were completed?\""
+    },
+    {
+      "id": "CIT-1855-HANS-247603",
+      "tier": "TIER_2_INQUIRY",
+      "title": "UK Parliament Hansard (Commons, 1858-06-24): Sale And Transfer Of Land (Ireland Bill—Committee",
+      "url": "https://hansard.parliament.uk/Commons/1858-06-24/debates/346a3a81-282e-4b25-bf86-2354211e32c0/SaleAndTransferOfLand(IrelandBill%E2%80%94Committee?highlight=Encumbered%20Estates#contribution-640b5494-b45e-4db2-b659-7bb4ff7a219a",
+      "quoteOrFact": "MR. MALINS, Commons, 1858-06-24: \"said, that the principle embodied in the clause was quite a novel one. They had already affirmed the principle, that unencumbered as well as encumbered estates might be brought within the operation of the new court for the purposes of sale; but this clause went much further. It proposed to confer upon any owner of an u\""
+    },
+    {
+      "id": "CIT-1855-HANS-15492723",
+      "tier": "TIER_2_INQUIRY",
+      "title": "UK Parliament Hansard (Lords, 1858-08-02): Speech Of The Lords Commissioners",
+      "url": "https://hansard.parliament.uk/Lords/1858-08-02/debates/b1cd4431-8c09-4842-9179-e70ad660b698/SpeechOfTheLordsCommissioners?highlight=Incumbered%20Estates#contribution-6b48d07d-efce-45a8-8707-96354cf91a7e",
+      "quoteOrFact": "A Member, Lords, 1858-08-02: \"\"THE Transfer of Land Bill, which extends the Powers hitherto exercised by the Incumbered Estates Commissioners, and facilitates the Acquisition of an indefeasible Title by Purchasers of Land in Ireland, cannot fail to be highly beneficial to the Landed Proprietors, and to advance the Pros- perity of that Part of Her M\""
+    },
+    {
+      "id": "CIT-1849-WD-Q5375634",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Corporate Lineage Entity: Encumbered Estates' Court (Q5375634)",
+      "url": "https://www.wikidata.org/entity/Q5375634",
+      "quoteOrFact": "Encumbered Estates' Court"
+    },
+    {
+      "id": "CIT-1849-WD-Q188371",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Corporate Lineage Entity: Great Irish Famine (Q188371)",
+      "url": "https://www.wikidata.org/entity/Q188371",
+      "quoteOrFact": "Great Irish Famine"
+    },
+    {
+      "id": "CIT-1858-WD-Q106363655",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Corporate Lineage Entity: Landed Estates Court (Ireland) Act 1858 (Q106363655)",
+      "url": "https://www.wikidata.org/entity/Q106363655",
+      "quoteOrFact": "Landed Estates Court (Ireland) Act 1858"
+    },
+    {
+      "id": "CIT-1858-WD-Q106374868",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Corporate Lineage Entity: Landed Estates Court (Ireland) Act 1861 (Q106374868)",
+      "url": "https://www.wikidata.org/entity/Q106374868",
+      "quoteOrFact": "Landed Estates Court (Ireland) Act 1861"
+    },
+    {
+      "id": "CIT-1858-WD-Q106406833",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Corporate Lineage Entity: Landed Estates Court Act 1866 (Q106406833)",
+      "url": "https://www.wikidata.org/entity/Q106406833",
+      "quoteOrFact": "Landed Estates Court Act 1866"
+    }
+  ]
+}

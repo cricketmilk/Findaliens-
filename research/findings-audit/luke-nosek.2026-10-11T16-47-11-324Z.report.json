@@ -1,0 +1,45 @@
+{
+ "file": "luke-nosek.json",
+ "kind": "finding",
+ "at": "2026-10-11T16:47:11.324Z",
+ "kept": 15,
+ "removed": [],
+ "unchecked": [
+  {
+   "where": "facts[0]",
+   "claim": "Nosek received a B.S. in Computer Engineering from the University of Illinois at Urbana-Champaign in 1996.",
+   "why": "could not re-open any cited page to confirm it: https://grainger.illinois.edu/alumni/hall-of-fame/luke-nosek (page came back nearly empty); https://ece.illinois.edu/alumni/awards/yaaa/11-nosek (page came back nearly empty)"
+  },
+  {
+   "where": "facts[2]",
+   "claim": "After graduating, Nosek worked as an evangelist at Netscape.",
+   "why": "could not re-open any cited page to confirm it: https://grainger.illinois.edu/alumni/hall-of-fame/luke-nosek (page came back nearly empty)"
+  },
+  {
+   "where": "facts[3]",
+   "claim": "The University of Illinois says Nosek co-founded PayPal in 1998 and served as its vice president of marketing; it credits him with launch marketing that reached 1 million customers in six months and w",
+   "why": "could not re-open any cited page to confirm it: https://ece.illinois.edu/alumni/awards/yaaa/11-nosek (page came back nearly empty)"
+  },
+  {
+   "where": "facts[6]",
+   "claim": "Nosek helped lead a Founders Fund investment in SpaceX and, by 2011, served as a SpaceX director.",
+   "why": "could not re-open any cited page to confirm it: https://grainger.illinois.edu/alumni/hall-of-fame/luke-nosek (page came back nearly empty); https://ece.illinois.edu/alumni/awards/yaaa/11-nosek (page came back nearly empty)"
+  },
+  {
+   "where": "facts[7]",
+   "claim": "Nosek co-founded genome-sequencing company Halcyon Molecular (2008 per one University of Illinois page) and joined it as president (2009 per another), a Founders Fund portfolio company.",
+   "why": "could not re-open any cited page to confirm it: https://grainger.illinois.edu/alumni/hall-of-fame/luke-nosek (page came back nearly empty); https://ece.illinois.edu/alumni/awards/yaaa/11-nosek (page came back nearly empty)"
+  },
+  {
+   "where": "connections[1]",
+   "claim": "Nosek is described by the University of Illinois as a 1998 co-founder of PayPal and its vice president of marketing.",
+   "why": "could not re-open any cited page to confirm it: https://ece.illinois.edu/alumni/awards/yaaa/11-nosek (page came back nearly empty)"
+  }
+ ],
+ "resourced": [],
+ "wikiSourcesDropped": 0,
+ "notes": [],
+ "pagesOpened": 6,
+ "pagesRefused": 0,
+ "empty": false
+}

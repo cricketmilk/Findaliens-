@@ -1,0 +1,85 @@
+{
+  "code": "MC-1912-HALIFAXFOG",
+  "eraId": "ERA-06-1910",
+  "yearStart": 1912,
+  "yearEnd": 1912,
+  "title": "All Passengers Saved: The Night a Private Wire Outran Every Official Channel and Printed a Lie",
+  "primaryTab": "consent",
+  "secondaryTabs": [
+    "crash-conduits",
+    "deep-state"
+  ],
+  "mechanism": "MERSEY_LIABILITY_WHITEWASH",
+  "tier": "TIER_4_CONTEMPORARY_PRESS",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "White Star Line",
+    "Marconi Wireless Telegraph Company",
+    "Associated Press",
+    "press associations of the North Atlantic ports",
+    "Halifax Morning Chronicle",
+    "Carpathia (Cunard Line)"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "Wireless telegraphy was a private commercial service — Marconi Company operators aboard ships, paid by message and by contract, whose bulletins were the product sold to a hungry press within hours of the disaster.",
+    "stage2_structuralCompromise": "No government or company channel existed to verify or suppress wireless traffic; the Marconi operators' relayed dispatches moved directly from the ether to front pages, and the press associations ran them without source discipline.",
+    "stage3_informationFog": "The first bulletins — Titanic safe, in tow, all passengers saved, Halifax the destination of the towed liner — ran the morning of April 16 in Halifax and across the North Atlantic press; the garbled relay chain and the operators' commercial incentives structured the fog.",
+    "stage4_monopolyWindfall": "The wireless companies' monopoly on fast news was the windfall: speed sold papers and messages, and the error was corrected only when slower official channels caught up — when the Carpathia docked in New York on April 18 and the first accurate lists replaced the fiction.",
+    "stage5_merseyWhitewash": "The fog closed as a story of technology's teething pains rather than a structural account of a private information infrastructure printing unverified disaster news; the falsified casualty reports were left to folklore, not to any accounting."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "The fog inherited the Marconi Company's monopoly on ship-to-shore traffic and the press associations' competitive wire economy, both built on speed as the salable product.",
+    "newFrameworkCreated": "The April 1912 fog established the standard crisis-information pattern of the twentieth century: private infrastructure first, official confirmation last, with the gap between filled by whoever owns the fastest channel.",
+    "closedLoopRecirculation": "The error cost the press nothing that mattered to the wire companies: the same channels that printed the false safety of the morning sold the corrected horror of the evening, and speed — not accuracy — remained the priced good.",
+    "enablesNextDossier": "The pattern of private-speed, official-silence information gaps became the standard fog of every later market crash and disaster in this atlas, priced and sold by whoever owned the wire."
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "The romantic image of the wireless operators as heroes whose brave Morse saved hundreds — the story of Jack Phillips and Harold Bride holding the key to the end.",
+    "whyDecoyFails": "The hero story erases the opposite ledger: the same commercial wire that transmitted the distress calls also transmitted the false dispatches that Halifax printed as truth, and its owners sold speed with no verification duty at all.",
+    "documentedLedger": "The documented record: April 15-16 bulletins reporting the Titanic safe and in tow, Halifax papers running the false report the morning of April 16, and the correction arriving only with the Carpathia's April 18 landing — preserved in the Library of Congress's contemporary press record."
+  },
+  "citationIds": [
+    "CIT-1912-LOC-sn9906203419120417ed1",
+    "CIT-1912-LOC-sn8201424819120417ed1",
+    "CIT-1912-LOC-sn9906203419120419ed1",
+    "CIT-1912-LOC-sn8201424819120420ed1",
+    "CIT-1912-LOC-sn8505330819120419ed1"
+  ],
+  "citations": [
+    {
+      "id": "CIT-1912-LOC-sn9906203419120417ed1",
+      "tier": "TIER_4_CONTEMPORARY_PRESS",
+      "title": "The Madison daily leader (Madison, S.D.), April 17, 1912 (1912-04-17)",
+      "url": "https://www.loc.gov/item/sn99062034/1912-04-17/ed-1/",
+      "quoteOrFact": "Contemporaneous press record published 1912-04-17 in Madison, S.D. matching \"Titanic wireless\"."
+    },
+    {
+      "id": "CIT-1912-LOC-sn8201424819120417ed1",
+      "tier": "TIER_4_CONTEMPORARY_PRESS",
+      "title": "Daily Kennebec journal (Augusta, Me.), April 17, 1912 (1912-04-17)",
+      "url": "https://www.loc.gov/item/sn82014248/1912-04-17/ed-1/",
+      "quoteOrFact": "Contemporaneous press record published 1912-04-17 in Augusta, Me. matching \"Titanic wireless\"."
+    },
+    {
+      "id": "CIT-1912-LOC-sn9906203419120419ed1",
+      "tier": "TIER_4_CONTEMPORARY_PRESS",
+      "title": "The Madison daily leader (Madison, S.D.), April 19, 1912 (1912-04-19)",
+      "url": "https://www.loc.gov/item/sn99062034/1912-04-19/ed-1/",
+      "quoteOrFact": "Contemporaneous press record published 1912-04-19 in Madison, S.D. matching \"Titanic wireless\"."
+    },
+    {
+      "id": "CIT-1912-LOC-sn8201424819120420ed1",
+      "tier": "TIER_4_CONTEMPORARY_PRESS",
+      "title": "Daily Kennebec journal (Augusta, Me.), April 20, 1912 (1912-04-20)",
+      "url": "https://www.loc.gov/item/sn82014248/1912-04-20/ed-1/",
+      "quoteOrFact": "Contemporaneous press record published 1912-04-20 in Augusta, Me. matching \"Titanic wireless\"."
+    },
+    {
+      "id": "CIT-1912-LOC-sn8505330819120419ed1",
+      "tier": "TIER_4_CONTEMPORARY_PRESS",
+      "title": "The Wibaux pioneer (Wibaux, Mont.), April 19, 1912 (1912-04-19)",
+      "url": "https://www.loc.gov/item/sn85053308/1912-04-19/ed-1/",
+      "quoteOrFact": "Contemporaneous press record published 1912-04-19 in Wibaux, Mont. matching \"Titanic wireless\"."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "mrc-lmb-cambridge-antibody-technology",
+  "title": "MRC Laboratory of Molecular Biology antibody research → Cambridge Antibody Technology",
+  "pattern": "spinout",
+  "country": "United Kingdom",
+  "summary": "Monoclonal antibodies were invented at the UK Medical Research Council's Laboratory of Molecular Biology (LMB) in 1975 and were not patented after Britain's National Research Development Corporation declined. Later LMB antibody-engineering work by Greg Winter's group was patented: Cambridge Antibody Technology (CAT), founded around 1989–1990 by David Chiswell and MRC scientists including Winter, took an exclusive MRC license to phage-antibody library technology and paid the MRC royalties. CAT discovered the antibody that Abbott developed as Humira; after royalty litigation, Abbott paid $255 million in 2005 that CAT passed to the MRC and other licensors. AstraZeneca acquired CAT in 2006. LMB research continued.",
+  "public": {
+    "name": "MRC Laboratory of Molecular Biology monoclonal and engineered-antibody research",
+    "funder": "Medical Research Council (UK)",
+    "start": {
+      "date": "1975-08",
+      "precision": "month"
+    },
+    "end": {
+      "date": "1997-01",
+      "precision": "month",
+      "kind": "ongoing"
+    },
+    "sources": [
+      {
+        "url": "https://historyandpolicy.org/opinion-articles/articles/overlooked-scientific-innovation-reaps-rewards-40-years-on/",
+        "publisher": "History & Policy",
+        "title": "Overlooked scientific innovation reaps rewards 40 years on"
+      },
+      {
+        "url": "https://www.gairdner.org/winner/sir-gregory-winter",
+        "publisher": "Gairdner Foundation",
+        "title": "Sir Gregory Winter"
+      }
+    ]
+  },
+  "private": {
+    "name": "Cambridge Antibody Technology Group plc (CAT)",
+    "founded": {
+      "date": "1990",
+      "precision": "year"
+    },
+    "founders": [
+      "David Chiswell",
+      "Greg Winter",
+      "other MRC scientists (per CAT)"
+    ],
+    "funders": [],
+    "outcome": "Listed on the London Stock Exchange in March 1997 and NASDAQ (ADRs) in June 2001; discovered the antibody developed by Abbott as Humira; acquired by AstraZeneca in 2006",
+    "sources": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1067386/000119312506045124/d20f.htm",
+        "publisher": "U.S. Securities and Exchange Commission",
+        "title": "Cambridge Antibody Technology Group plc, Form 20-F for fiscal year ended September 30, 2005",
+        "date": "2006-03-03"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/901832/000095010307000768/dp04982_ex1501.htm",
+        "publisher": "U.S. Securities and Exchange Commission",
+        "title": "AstraZeneca PLC Annual Report and Form 20-F Information 2006 (Exhibit 15.1)",
+        "date": "2007-03-27"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "ip-license",
+      "claim": "CAT's 20-F states it initially developed its technology in cooperation with the MRC and holds an exclusive license (agreement of January 7, 1997, subject to rights retained by the MRC) to MRC intellectual property on phage antibody libraries, including the Winter II, McCafferty and Griffiths patent families, paying the MRC 3% royalties on its own sales and 1%–2.3% on sub-licensees' sales.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1067386/000119312506045124/d20f.htm",
+          "publisher": "U.S. Securities and Exchange Commission",
+          "title": "Cambridge Antibody Technology Group plc, Form 20-F for fiscal year ended September 30, 2005",
+          "date": "2006-03-03"
+        }
+      ]
+    },
+    {
+      "type": "ip-license",
+      "claim": "Under a 2005 settlement of the Humira royalty litigation, Abbott paid CAT $255 million, which CAT immediately paid to its licensors (the MRC, the Scripps Institute and Stratagene) in lieu of their royalties on Humira sales from January 1, 2005.",
+      "status": "court",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1067386/000119312506045124/d20f.htm",
+          "publisher": "U.S. Securities and Exchange Commission",
+          "title": "Cambridge Antibody Technology Group plc, Form 20-F for fiscal year ended September 30, 2005",
+          "date": "2006-03-03"
+        }
+      ]
+    },
+    {
+      "type": "personnel",
+      "claim": "CAT says it was established in 1990 by David Chiswell and leading MRC scientists. The Gairdner Foundation describes Greg Winter, a member of the MRC LMB who invented antibody humanization techniques in 1986, as a founder of CAT (1989); BioSpace reports his phage display technology was the company's foundation.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1067386/000119312506045124/d20f.htm",
+          "publisher": "U.S. Securities and Exchange Commission",
+          "title": "Cambridge Antibody Technology Group plc, Form 20-F for fiscal year ended September 30, 2005",
+          "date": "2006-03-03"
+        },
+        {
+          "url": "https://www.gairdner.org/winner/sir-gregory-winter",
+          "publisher": "Gairdner Foundation",
+          "title": "Sir Gregory Winter"
+        },
+        {
+          "url": "https://www.biospace.com/cambridge-antibody-technology-the-history-behind-uk-s-best-biotech",
+          "publisher": "BioSpace",
+          "title": "Cambridge Antibody Technology: The History Behind UK's Best Biotech",
+          "date": "2017-06-08"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Britain gave away monoclonal antibodies by failing to patent them.",
+      "assessment": "partly-true",
+      "explanation": "The 1975 Köhler–Milstein hybridoma technique was not patented: the National Research Development Corporation said it could not identify immediate commercial applications. But later LMB antibody-engineering inventions were patented and licensed; History & Policy reports the MRC has earned more than £486 million in royalties from them, including through CAT.",
+      "sources": [
+        {
+          "url": "https://historyandpolicy.org/opinion-articles/articles/overlooked-scientific-innovation-reaps-rewards-40-years-on/",
+          "publisher": "History & Policy",
+          "title": "Overlooked scientific innovation reaps rewards 40 years on"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1067386/000119312506045124/d20f.htm",
+          "publisher": "U.S. Securities and Exchange Commission",
+          "title": "Cambridge Antibody Technology Group plc, Form 20-F for fiscal year ended September 30, 2005",
+          "date": "2006-03-03"
+        }
+      ]
+    },
+    {
+      "claim": "Humira came out of publicly funded UK research.",
+      "assessment": "partly-true",
+      "explanation": "CAT, built on MRC-licensed phage antibody technology, isolated and optimized Humira's antibody in collaboration with Abbott, and the MRC was among the licensors paid in lieu of Humira royalties. Abbott, a private company, carried out its development and marketing.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1067386/000119312506045124/d20f.htm",
+          "publisher": "U.S. Securities and Exchange Commission",
+          "title": "Cambridge Antibody Technology Group plc, Form 20-F for fiscal year ended September 30, 2005",
+          "date": "2006-03-03"
+        }
+      ]
+    }
+  ]
+}

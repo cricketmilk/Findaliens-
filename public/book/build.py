@@ -1,11 +1,18 @@
 """
 Rebuild landing + chapter templates using SVG ornamental assets.
 """
-import markdown, re, json, shutil
+import markdown, os, re, json, shutil, sys
 from pathlib import Path
 
-MANUSCRIPT = r'C:\Users\Xairi\Demiurgent\demiurgent-manuscript.md'
-OUT_DIR = Path(r'C:\Find Aliens\public\book')
+if sys.platform == 'win32':
+    MANUSCRIPT = r'C:\Users\Xairi\Demiurgent\demiurgent-manuscript.md'
+    OUT_DIR = Path(r'C:\Find Aliens\public\book')
+else:
+    # Off Windows: the novel lives at ~/Demiurgent (as the shell registry has
+    # it) and the output is this folder. DEMIURGENT_MANUSCRIPT overrides.
+    MANUSCRIPT = os.environ.get('DEMIURGENT_MANUSCRIPT') or str(
+        Path.home() / 'Demiurgent' / 'demiurgent-manuscript.md')
+    OUT_DIR = Path(__file__).resolve().parent
 IMG_DIR = OUT_DIR / 'img'
 IMG_DIR.mkdir(parents=True, exist_ok=True)
 

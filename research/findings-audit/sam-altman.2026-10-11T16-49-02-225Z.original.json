@@ -1,0 +1,121 @@
+{
+  "entity": "sam-altman",
+  "name": "Sam Altman",
+  "researchedAt": "2026-10-08",
+  "summary": {
+    "text": "Sam Altman is an American technology executive and investor. He became president of Y Combinator around 2014 and stepped down in March 2019 to focus on OpenAI, which he co-founded and leads as CEO. He provided the entire $180 million first round of longevity startup Retro Biosciences and has invested more than $375 million in fusion company Helion. In 2019 he co-founded Tools for Humanity, the company behind the Worldcoin iris-scanning project, and he chaired nuclear startup Oklo until April 2025.",
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2019/03/09/did-sam-altman-make-yc-better-or-worse/",
+        "publisher": "TechCrunch",
+        "title": "Did Sam Altman make YC better or worse?",
+        "date": "2019-03-09"
+      },
+      {
+        "url": "https://www.technologyreview.com/2023/03/08/1069523/sam-altman-investment-180-million-retro-biosciences-longevity-death/",
+        "publisher": "MIT Technology Review",
+        "title": "Sam Altman invested $180 million into a company trying to delay death",
+        "date": "2023-03-08"
+      },
+      {
+        "url": "https://www.toolsforhumanity.com",
+        "publisher": "Tools for Humanity",
+        "title": "Tools for Humanity (company site)",
+        "date": ""
+      },
+      {
+        "url": "https://finance.yahoo.com/news/sam-altman-stepping-down-oklo-200809646.html",
+        "publisher": "Reuters (via Yahoo Finance)",
+        "title": "Sam Altman to step down as Oklo chairman",
+        "date": "2025-04-22"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "claim": "In 2019, Altman co-founded Tools for Humanity, which runs the Worldcoin project and verifies people by scanning their irises. Regulators have halted its operations in several places: Kenya suspended it in August 2023, Spain's data protection agency ordered it to stop collecting iris data in March 2024, Portugal's regulator imposed a 90-day suspension in March 2024, and Hong Kong's privacy commissioner ordered it to cease operations in May 2024.",
+      "status": "documented",
+      "sources": [
+        {
+          "url": "https://www.toolsforhumanity.com",
+          "publisher": "Tools for Humanity",
+          "title": "Tools for Humanity (company site)",
+          "date": ""
+        },
+        {
+          "url": "https://decrypt.co/150942/kenya-suspends-worldcoin-operations-privacy-concerns",
+          "publisher": "Decrypt",
+          "title": "Kenya Suspends Worldcoin Operations Amid Privacy Concerns",
+          "date": "2023-08-02"
+        },
+        {
+          "url": "https://maldita.es/malditatecnologia/20240311/worldcoin-prohibicion-aepd-espana/",
+          "publisher": "Maldita.es",
+          "title": "La AEPD prohíbe a Worldcoin seguir recopilando datos del iris en España",
+          "date": "2024-03-11"
+        },
+        {
+          "url": "https://observador.pt/2024/06/18/worldcoin-nao-vai-retomar-atividade-de-digitalizacao-da-iris-em-portugal-em-2024/",
+          "publisher": "Observador",
+          "title": "Worldcoin não vai retomar atividade de digitalização da íris em Portugal em 2024",
+          "date": "2024-06-18"
+        },
+        {
+          "url": "https://www.theblock.co/post/295910/hong-kong-orders-worldcoin-halt-operations",
+          "publisher": "The Block",
+          "title": "Hong Kong orders Worldcoin to cease local operations",
+          "date": "2024-05-22"
+        }
+      ]
+    },
+    {
+      "claim": "Altman provided the entire $180 million first funding round of longevity startup Retro Biosciences, MIT Technology Review reported in 2023. He has also put more than $375 million into fusion company Helion.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://www.technologyreview.com/2023/03/08/1069523/sam-altman-investment-180-million-retro-biosciences-longevity-death/",
+          "publisher": "MIT Technology Review",
+          "title": "Sam Altman invested $180 million into a company trying to delay death",
+          "date": "2023-03-08"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "to": "elon-musk",
+      "relation": "sued by",
+      "claim": "Musk, an OpenAI co-founder, sued Altman and OpenAI in 2024, alleging they abandoned OpenAI's founding nonprofit mission. In May 2026, after a three-week trial, a federal judge in Oakland adopted an advisory jury's finding that Musk had filed too late and dismissed his claims. Musk said he would appeal.",
+      "status": "court",
+      "sources": [
+        {
+          "url": "https://freemalaysiatoday.com/category/business/2024/03/01/musk-sues-openai-and-ceo-altman-for-breach-of-contract",
+          "publisher": "Reuters (via Free Malaysia Today)",
+          "title": "Musk sues OpenAI and CEO Altman for breach of contract",
+          "date": "2024-03-01"
+        },
+        {
+          "url": "https://wtop.com/national/2026/05/federal-jury-sides-with-openai-in-feud-with-elon-musk/",
+          "publisher": "Associated Press (via WTOP)",
+          "title": "Federal court rejects Elon Musk's claims against OpenAI, saying he filed his lawsuit too late",
+          "date": "2026-05-18"
+        }
+      ]
+    },
+    {
+      "to": "peter-thiel",
+      "relation": "funded",
+      "claim": "Peter Thiel was the largest outside investor in Hydrazine Capital, the venture fund Altman launched in 2012, and Altman credits Thiel with shaping his investing approach.",
+      "status": "reported",
+      "sources": [
+        {
+          "url": "https://fortune.com/2026/08/03/openai-ceo-sam-altman-investment-advice-from-peter-thiel-paul-graham-built-billionaire-wealth-no-equity/",
+          "publisher": "Fortune",
+          "title": "Sam Altman reveals the investing advice Peter Thiel gave him",
+          "date": "2026-08-03"
+        }
+      ],
+      "reverse": true
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "treuhand-east-germany",
+  "title": "East German state enterprises → Treuhand privatisation",
+  "pattern": "privatization",
+  "country": "Germany",
+  "summary": "The Treuhandanstalt was set up on 1 March 1990 by the last GDR government to hold East Germany's state-owned enterprises. The Treuhand Act of 17 June 1990 gave it the job of returning state enterprise to private hands 'as quickly and as far as possible'. By May 1994 it had carried out 14,160 privatisations of enterprises and parts of enterprises, mostly to West German buyers, in exchange for job and investment pledges. It closed on 31 December 1994 with privatisation proceeds of about DM 70 billion against a deficit of roughly DM 256–260 billion.",
+  "public": {
+    "name": "Treuhandanstalt and the East German state-owned enterprises (Volkseigene Betriebe) it held",
+    "funder": "GDR Council of Ministers, then the Federal Government of Germany",
+    "budget": "Closed with a deficit of about DM 256–260 billion against about DM 67–70 billion in privatisation proceeds",
+    "start": { "date": "1990-03-01", "precision": "day" },
+    "end": { "date": "1994-12-31", "precision": "day", "kind": "privatized" },
+    "sources": [
+      { "url": "https://dserver.bundestag.de/btd/12/084/1208404.pdf", "publisher": "Deutscher Bundestag", "title": "Beschlußempfehlung und Bericht des 2. Untersuchungsausschusses \"Treuhandanstalt\" (Drucksache 12/8404)", "date": "1994-08-31" },
+      { "url": "https://www.bpb.de/kurz-knapp/lexika/handwoerterbuch-politisches-system/202195/treuhandanstalt/", "publisher": "Bundeszentrale für politische Bildung", "title": "Treuhandanstalt (Marcus Böick, Handwörterbuch des politischen Systems)" }
+    ]
+  },
+  "private": {
+    "name": "About 14,000 private buyers of former East German enterprises, roughly 80% from West Germany, plus restitution to former owners",
+    "founded": { "date": "1990-06-17", "precision": "day" },
+    "founders": [],
+    "funders": [],
+    "outcome": "The date above is the passage of the Treuhand Act, which made privatisation the agency's mandate; sales then ran until 1994. bpb puts the end result at 53% of enterprises privatised, 13% returned to former owners and 30% closed. Buyers pledged about one million jobs and DM 170 billion in investment (other tallies give 1.5 million jobs and DM 211 billion). The Bundestag inquiry majority concluded in August 1994 that the Treuhand had fulfilled its privatisation mandate.",
+    "sources": [
+      { "url": "https://www.bpb.de/kurz-knapp/lexika/handwoerterbuch-politisches-system/202195/treuhandanstalt/", "publisher": "Bundeszentrale für politische Bildung", "title": "Treuhandanstalt (Marcus Böick, Handwörterbuch des politischen Systems)" },
+      { "url": "https://dserver.bundestag.de/btd/12/084/1208404.pdf", "publisher": "Deutscher Bundestag", "title": "Beschlußempfehlung und Bericht des 2. Untersuchungsausschusses \"Treuhandanstalt\" (Drucksache 12/8404)", "date": "1994-08-31" }
+    ]
+  },
+  "links": [
+    {
+      "type": "asset-transfer",
+      "claim": "The preamble of the Treuhand Act of 17 June 1990 (GBl. I S. 300), quoted by the Bundestag inquiry, tasks the Treuhandanstalt with reducing the state's entrepreneurial activity through privatisation 'so rasch und so weit wie möglich' (as quickly and as far as possible).",
+      "status": "documented",
+      "sources": [
+        { "url": "https://dserver.bundestag.de/btd/12/084/1208404.pdf", "publisher": "Deutscher Bundestag", "title": "Beschlußempfehlung und Bericht des 2. Untersuchungsausschusses \"Treuhandanstalt\" (Drucksache 12/8404)", "date": "1994-08-31" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "The Bundestag's Treuhand inquiry recorded that by May 1994 the Treuhandanstalt had carried out 14,160 privatisations of enterprises and parts of enterprises and still held 649. It started from about 8,000 combines and state enterprises, which splits turned into a portfolio of 13,661 companies.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://dserver.bundestag.de/btd/12/084/1208404.pdf", "publisher": "Deutscher Bundestag", "title": "Beschlußempfehlung und Bericht des 2. Untersuchungsausschusses \"Treuhandanstalt\" (Drucksache 12/8404)", "date": "1994-08-31" }
+      ]
+    },
+    {
+      "type": "contract",
+      "claim": "The Treuhand told the Bundestag inquiry that by end-1993 buyers had pledged 1,469,056 jobs (981,253 contractually guaranteed, 759,883 with penalties) and DM 204.2 billion of investment (DM 141.6 billion contractually guaranteed) in their purchase contracts.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://dserver.bundestag.de/btd/12/084/1208404.pdf", "publisher": "Deutscher Bundestag", "title": "Beschlußempfehlung und Bericht des 2. Untersuchungsausschusses \"Treuhandanstalt\" (Drucksache 12/8404)", "date": "1994-08-31" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "Of the roughly 8,500 enterprises with over four million employees that the Treuhand took over, 53% were privatised, 13% returned to former owners and 30% closed; about 80% of the new investors came from West Germany, and sales raised only about DM 70 billion because of heavy discounts and 'negative purchase prices'.",
+      "status": "reported",
+      "sources": [
+        { "url": "https://www.bpb.de/kurz-knapp/lexika/handwoerterbuch-politisches-system/202195/treuhandanstalt/", "publisher": "Bundeszentrale für politische Bildung", "title": "Treuhandanstalt (Marcus Böick, Handwörterbuch des politischen Systems)" }
+      ]
+    },
+    {
+      "type": "asset-transfer",
+      "claim": "The Bundestag inquiry found that a KPMG audit (23 February 1993) showed the Treuhand's Halle branch had broken key privatisation rules in sales to Dr. Greiner and his companies (22 purchase contracts, mid-1991 to end-1992). The Treuhand board decided to reclaim four firms and withdraw from three contracts, and criminal proceedings were opened against Greiner.",
+      "status": "documented",
+      "sources": [
+        { "url": "https://dserver.bundestag.de/btd/12/084/1208404.pdf", "publisher": "Deutscher Bundestag", "title": "Beschlußempfehlung und Bericht des 2. Untersuchungsausschusses \"Treuhandanstalt\" (Drucksache 12/8404)", "date": "1994-08-31" }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "The Treuhand sold off East German industry to West Germans for next to nothing.",
+      "assessment": "partly-true",
+      "explanation": "About 80% of buyers were West German, and proceeds were only about DM 67–70 billion against a deficit of about DM 256–260 billion, partly because of heavy discounts and 'negative purchase prices'. But buyers also took on contractual job and investment pledges (DM 141.6 billion of investment contractually guaranteed by end-1993).",
+      "sources": [
+        { "url": "https://www.bpb.de/kurz-knapp/lexika/handwoerterbuch-politisches-system/202195/treuhandanstalt/", "publisher": "Bundeszentrale für politische Bildung", "title": "Treuhandanstalt (Marcus Böick, Handwörterbuch des politischen Systems)" },
+        { "url": "https://germanhistorydocs.org/en/a-new-germany-1990-2023/closing-the-treuhandanstalt-trusteeship-agency-december-30-1994", "publisher": "German History in Documents and Images (German Historical Institute Washington)", "title": "Closing the Treuhandanstalt [Trusteeship Agency] (December 30, 1994)", "date": "1994-12-30" },
+        { "url": "https://dserver.bundestag.de/btd/12/084/1208404.pdf", "publisher": "Deutscher Bundestag", "title": "Beschlußempfehlung und Bericht des 2. Untersuchungsausschusses \"Treuhandanstalt\" (Drucksache 12/8404)", "date": "1994-08-31" }
+      ]
+    },
+    {
+      "claim": "The Treuhand simply shut down most East German firms.",
+      "assessment": "false",
+      "explanation": "bpb's summary is that 30% of enterprises were closed, while 53% were privatised and 13% returned to former owners. Most firms were sold or returned rather than liquidated.",
+      "sources": [
+        { "url": "https://www.bpb.de/kurz-knapp/lexika/handwoerterbuch-politisches-system/202195/treuhandanstalt/", "publisher": "Bundeszentrale für politische Bildung", "title": "Treuhandanstalt (Marcus Böick, Handwörterbuch des politischen Systems)" }
+      ]
+    },
+    {
+      "claim": "Investors' job promises were binding and kept.",
+      "assessment": "partly-true",
+      "explanation": "The Treuhand told the Bundestag that the penalty-backed pledges were being exceeded, but only 759,883 of 1,469,056 pledged jobs carried penalties. Per GHDI, Breuel estimated in 1992 that 20–30% of promised jobs never materialised, because early contracts had no penalties.",
+      "sources": [
+        { "url": "https://dserver.bundestag.de/btd/12/084/1208404.pdf", "publisher": "Deutscher Bundestag", "title": "Beschlußempfehlung und Bericht des 2. Untersuchungsausschusses \"Treuhandanstalt\" (Drucksache 12/8404)", "date": "1994-08-31" },
+        { "url": "https://germanhistorydocs.org/en/a-new-germany-1990-2023/closing-the-treuhandanstalt-trusteeship-agency-december-30-1994", "publisher": "German History in Documents and Images (German Historical Institute Washington)", "title": "Closing the Treuhandanstalt [Trusteeship Agency] (December 30, 1994)", "date": "1994-12-30" }
+      ]
+    }
+  ]
+}

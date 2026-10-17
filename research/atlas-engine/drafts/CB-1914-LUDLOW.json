@@ -1,0 +1,63 @@
+{
+  "code": "CB-1914-LUDLOW",
+  "eraId": "ERA-06-1910",
+  "yearStart": 1913,
+  "yearEnd": 1916,
+  "title": "The Tent Colony and the Company Union: Ludlow, and the Plan That Answered It",
+  "primaryTab": "carbon-class",
+  "secondaryTabs": [
+    "deep-state",
+    "consent"
+  ],
+  "mechanism": "MERSEY_LIABILITY_WHITEWASH",
+  "tier": "TIER_2_INQUIRY",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "Colorado Fuel & Iron Company",
+    "John D. Rockefeller Jr.",
+    "United Mine Workers of America",
+    "Colorado National Guard",
+    "U.S. Commission on Industrial Relations",
+    "George P. West",
+    "Ivy Lee",
+    "W. L. Mackenzie King"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "Colorado Fuel & Iron runs closed camps — company housing, company stores, company scrip, company-appointed officials — so the wage is recaptured on the way out of the miner’s hand, and the September 1913 strike threatens that whole arrangement at once.",
+    "stage2_structuralCompromise": "Evicted families move into tent colonies on leased ground. Company-paid guards and, from October 1913, the Colorado National Guard surround them through the winter; the armoured car and the searchlight at Ludlow are part of the siege.",
+    "stage3_informationFog": "Ivy Lee’s bulletins carry the operators’ account of the strike to the national press. The Commission on Industrial Relations later takes evidence on their accuracy, and the ownership question — who was directing the refusal to meet the miners — is argued as a local Colorado dispute.",
+    "stage4_monopolyWindfall": "The strike is broken and the union kept out; the camps and their scrip economy continue.",
+    "stage5_merseyWhitewash": "Militia officers tried by court-martial are acquitted and no one is convicted over the deaths. The company’s answer is the Colorado Industrial Plan — an employee-representation scheme drafted with W. L. Mackenzie King — which replaces the union with a body the company itself convenes."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "The private-force arrangement left intact after Homestead: guards on the corporate payroll, state militia at the operators’ call, and inquiry as the public settlement.",
+    "newFrameworkCreated": "The company union plus the professional publicity bureau — a structure that answers a massacre with representation the employer controls and a narrative the employer supplies.",
+    "closedLoopRecirculation": "The costs of the siege are borne by the company and recovered through the broken strike; the Commission’s findings carry no penalty; the industrial-relations plan becomes a model exported to other Rockefeller properties.",
+    "enablesNextDossier": "DS-1928-BANANA"
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "A distant absentee owner who knew nothing of Colorado — a local quarrel between a state militia and an armed camp of strikers, in which a stray fire destroyed the tents.",
+    "whyDecoyFails": "The Commission on Industrial Relations’ own Report on the Colorado Strike places the ownership and the policy together: the executives’ acts \"had the hearty support and endorsement of the greatest and most powerful financial interest in America, that of John D. Rockefeller, and his son, John D. Rockefeller, Jr., who controlled the company through ownership of approximately 40 per cent of its stocks and bonds\", with letters from Rockefeller Jr. \"heartily approving\" the refusal to meet the miners’ representatives.",
+    "documentedLedger": "A strike against a company held through roughly 40 per cent of its stocks and bonds; tent colonies besieged by company guards and state militia; about twenty dead at Ludlow on 20 April 1914, including two women and eleven children; two federal inquiries, including the Commission whose final report was filed as H. Rept. 64-31 on 11 January 1916; no convictions; and a company-convened representation plan in place of the union."
+  },
+  "citationIds": [
+    "CIT-1915-COLOWEST",
+    "CIT-1916-CIRFINAL"
+  ],
+  "citations": [
+    {
+      "id": "CIT-1915-COLOWEST",
+      "tier": "TIER_2_INQUIRY",
+      "title": "George P. West, Report on the Colorado Strike (United States Commission on Industrial Relations, 1915)",
+      "url": "https://archive.org/details/reportoncolorado00unit",
+      "quoteOrFact": "The Commission’s own report on the strike. Its text states that the acts of the executive officials of the Colorado Fuel & Iron Company \"had the hearty support and endorsement of the greatest and most powerful financial interest in America, that of John D. Rockefeller, and his son, John D. Rockefeller, Jr., who controlled the company through ownership of approximately 40 per cent of its stocks and bonds\", with \"Letters from Mr. Rockefeller, Jr., heartily approving of his company’s refusal to meet representatives of\" the miners, and that his support \"contributed largely to the unyielding and lawless policy that finally resulted in the horrors of the Ludlow massacre and the intervention of the federal government\". Read from the Internet Archive full text."
+    },
+    {
+      "id": "CIT-1916-CIRFINAL",
+      "tier": "TIER_2_INQUIRY",
+      "title": "H. Rept. 64-31, Final report of the Commission on Industrial Relations (11 January 1916; Serial Set 6907)",
+      "url": "https://www.govinfo.gov/app/details/SERIALSET-06907_00_00-011-0031-0000",
+      "quoteOrFact": "GovInfo record for the final report of the Commission on Industrial Relations, filed as H. Rept. 64-31, 64th Congress 1st Session, issued 11 January 1916, Serial Set 6907. The page is the catalogue record for the Commission’s final report; the Colorado testimony is in the Commission’s separate testimony volumes."
+    }
+  ]
+}

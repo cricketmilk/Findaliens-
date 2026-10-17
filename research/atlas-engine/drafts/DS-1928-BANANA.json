@@ -1,0 +1,62 @@
+{
+  "code": "DS-1928-BANANA",
+  "eraId": "ERA-07-1929",
+  "yearStart": 1928,
+  "yearEnd": 1928,
+  "title": "Good Offices: The State Department’s Standing Brief for United Fruit and the Ciénaga Station Square",
+  "primaryTab": "deep-state",
+  "secondaryTabs": [
+    "carbon-class",
+    "crash-conduits"
+  ],
+  "mechanism": "REGULATORY_REVOLVING_DOOR",
+  "tier": "TIER_3_PRIMARY_LEDGER",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "United Fruit Company",
+    "U.S. Department of State (Secretary Frank B. Kellogg)",
+    "Samuel Piles (U.S. Minister in Colombia)",
+    "Government of Colombia",
+    "General Carlos Cortés Vargas",
+    "Magdalena banana-zone workers",
+    "Jorge Eliécer Gaitán"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "United Fruit holds the Magdalena banana zone on terms that keep the workforce off the company’s books: men engaged through contractors rather than hired, paid in scrip spendable at company stores, housed and doctored at the company’s discretion.",
+    "stage2_structuralCompromise": "The arrangement runs on a host state that will not test it. Months before the strike, Washington is already intervening on the company’s behalf: the Foreign Relations volume for 1928 carries a chapter of telegrams titled \"Good offices of the Department of State to protect the interests of the United Fruit Company in Colombia\", in which the Secretary of State instructs the Minister in Bogotá to press the Colombian government to hold off until a company dispute can be judicially determined.",
+    "stage3_informationFog": "When roughly 25,000 workers strike in November 1928 for written contracts, a six-day week and an end to scrip, the demands are recast as subversion rather than contract terms, and the foreign-interest framing is already in place in Bogotá.",
+    "stage4_monopolyWindfall": "Colombian troops under General Carlos Cortés Vargas fire on a crowd at the railway station square in Ciénaga on 6 December 1928. The strike ends; the labour terms do not change; the company’s position in the zone is restored without the company firing a shot.",
+    "stage5_merseyWhitewash": "The death toll is never settled — official Colombian figures in the dozens, legation dispatches far higher, estimates from under fifty to more than a thousand. Jorge Eliécer Gaitán’s 1929 debates in the Chamber of Representatives are the principal public reckoning; no company or United States officer faces any proceeding."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "The private-force template of Homestead and Ludlow, carried abroad: by 1928 the armed force is the host nation’s army, and the corporation’s part is the diplomatic brief.",
+    "newFrameworkCreated": "Proxy suppression through good offices — the lobbying of a foreign ministry becomes the mechanism, the host state supplies the troops, and the company keeps clean hands and an unchanged payroll.",
+    "closedLoopRecirculation": "The zone’s export revenue continues to flow north; the diplomatic relationship that protected it is unaffected; the company faces no liability in either country.",
+    "enablesNextDossier": "DS-1954-PBSUCCESS"
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "A purely Colombian affair — a communist-led strike put down by a nervous government — or, in the other direction, a massacre ordered outright from Washington on the company’s instruction.",
+    "whyDecoyFails": "Neither survives the record. The published telegrams show the State Department acting as the company’s standing advocate in Bogotá months before the strike, which disposes of the purely local account; and those same telegrams carry no instruction to use force, which is why this dossier does not claim one.",
+    "documentedLedger": "Foreign Relations of the United States 1928, volume II, chapter \"Good offices of the Department of State to protect the interests of the United Fruit Company in Colombia\": four telegrams, March to June 1928, in which Washington presses Colombia on the company’s behalf. In November 1928 some 25,000 workers struck over contracts, hours and scrip; on 6 December Colombian troops fired on the crowd at Ciénaga; the toll remains disputed and no one was prosecuted."
+  },
+  "citationIds": [
+    "CIT-1928-FRUSUFCO",
+    "CIT-1928-BANANAPRESS"
+  ],
+  "citations": [
+    {
+      "id": "CIT-1928-FRUSUFCO",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "The Secretary of State (Kellogg) to the Minister in Colombia (Piles), telegram, 12 March 1928, file 321.1154 United Fruit Company/1 — Foreign Relations of the United States 1928, Volume II, Document 655",
+      "url": "https://history.state.gov/historicaldocuments/frus1928v02/d655",
+      "quoteOrFact": "Published State Department telegram instructing the Minister in Colombia to take the United Fruit Company’s complaint up informally with the Colombian authorities and, if the facts are as the company states, to request formally that the Colombian Government \"postpone further action in the matter until the controversy can be judicially determined\". It sits in the volume’s chapter \"Good offices of the Department of State to protect the interests of the United Fruit Company in Colombia\" (documents 655–658, March–June 1928). The chapter concerns an irrigation and land dispute; it does not cover the December 1928 strike."
+    },
+    {
+      "id": "CIT-1928-BANANAPRESS",
+      "tier": "TIER_4_CONTEMPORARY_PRESS",
+      "title": "The Washington Daily News (Washington, D.C.), 14 December 1928 — Chronicling America issue page",
+      "url": "https://www.loc.gov/item/sn82016181/1928-12-14/ed-1/",
+      "quoteOrFact": "Issue returned by a Library of Congress newspaper full-text search for the phrase \"banana strike\" limited to 1928–1929, which returns nineteen United States newspaper issues from December 1928 onward. The citation is the issue page: loc.gov serves the page OCR only to browsers (403 to scripts), so the text itself was not read here."
+    }
+  ]
+}

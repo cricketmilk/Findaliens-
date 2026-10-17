@@ -1,0 +1,61 @@
+{
+  "code": "CB-1865-SULTANA",
+  "eraId": "ERA-05-1861",
+  "yearStart": 1865,
+  "yearEnd": 1865,
+  "title": "Ten Dollars a Head: The Bounty That Filled the Sultana and the Verdict That Was Annulled",
+  "primaryTab": "carbon-class",
+  "secondaryTabs": [
+    "crash-conduits",
+    "consent"
+  ],
+  "mechanism": "COST_PLUS_RECONSTRUCTION",
+  "tier": "TIER_4_CONTEMPORARY_PRESS",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "U.S. War Department (Quartermaster Department, Vicksburg)",
+    "Captain J. Cass Mason",
+    "Captain Frederic Speed",
+    "Lieutenant Colonel Reuben Hatch",
+    "Brigadier General William Hoffman",
+    "Released prisoners of Cahaba and Andersonville"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "The War Department pays steamboat operators by the body to move released prisoners north from Vicksburg in the spring of 1865 — five dollars an officer, ten dollars an enlisted man — so a boat’s earnings rise with every man crowded onto her deck.",
+    "stage2_structuralCompromise": "The Sultana is licensed for 376 passengers. She leaves Vicksburg with roughly 2,100 to 2,400 aboard — a survivor’s count puts it at 2,141, \"over six times her capacity\" — and with a bulged boiler sheet patched rather than replaced, because the days a proper repair would take would hand the payload to a rival boat.",
+    "stage3_informationFog": "The explosion above Memphis on 27 April 1865 lands in a news cycle already filled: Lincoln had been shot on 14 April and Booth killed on 26 April. The deadliest maritime disaster in American history is reported and then dropped.",
+    "stage4_monopolyWindfall": "The contract value had already been captured at Vicksburg, where the payload was assigned. The boat is gone, her master is dead, and the bounty has been earned.",
+    "stage5_merseyWhitewash": "Captain Frederic Speed is court-martialled and convicted; the Judge Advocate General disapproves the finding and it is annulled. Reuben Hatch, the quartermaster suspected of taking a share, is never brought to account. Nobody is punished for a loss of roughly 1,100 to 1,800 lives."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "Wartime transport contracting by the head, and the practice of settling military transport disasters inside the army’s own disciplinary machinery rather than in court.",
+    "newFrameworkCreated": "A per-capita bounty that prices human cargo above the vessel’s rated capacity, paired with a court-martial record that convicts an officer and then annuls the conviction.",
+    "closedLoopRecirculation": "The bounty money stays with the operators and the officers who assigned the payload; the loss falls on parolees already held one to twenty-three months in Confederate prisons, and their families receive effectively nothing.",
+    "enablesNextDossier": "DS-1892-PINKERTON"
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "A tragic accident of early steam engineering — a bad boiler on a crowded river in a chaotic month — and a disaster the public simply forgot because the war had exhausted it.",
+    "whyDecoyFails": "The overloading was not an accident of the river: it followed a bounty paid by the head, and the boiler was patched rather than re-sheeted while the boat held the contract. The contemporaneous engineers’ statement reprinted by Berry is careful on causation — \"nothing has been discovered to show that the disaster was attributable to the imperfect patching\" — and the loading and the patch are documented independently of it.",
+    "documentedLedger": "A boat rated for 376 carried roughly six times that number under a War Department bounty of ten dollars an enlisted man; her boiler was patched at Vicksburg while she held the payload; she exploded on 27 April 1865; the one conviction that followed was annulled, and no one was held to account."
+  },
+  "citationIds": [
+    "CIT-1865-SULTANABERRY",
+    "CIT-1865-SULTANAPRESS"
+  ],
+  "citations": [
+    {
+      "id": "CIT-1865-SULTANABERRY",
+      "tier": "TIER_4_CONTEMPORARY_PRESS",
+      "title": "Chester D. Berry (ed.), Loss of the Sultana and Reminiscences of Survivors (Lansing, Michigan, 1892)",
+      "url": "https://archive.org/details/lossofsultanarem00berr",
+      "quoteOrFact": "Survivor compilation of 1892. Its introduction records that the Sultana reached Vicksburg with about two hundred passengers and crew and \"remained here little more than one day; among other things repairing one of her boilers, at the same time receiving on board 1,965 federal soldiers and 35 officers just released from the rebel prisons at Cahaba, Ala., Macon and Andersonville, Ga.\"; a survivor’s account in the same volume puts the number aboard at 2,141, \"over six times her capacity\". A contemporaneous engineers’ statement reprinted there also says that, pending examination of the boilers, \"nothing has been discovered to show that the disaster was attributable to the imperfect patching\". Read from the Internet Archive full text."
+    },
+    {
+      "id": "CIT-1865-SULTANAPRESS",
+      "tier": "TIER_4_CONTEMPORARY_PRESS",
+      "title": "Daily National Intelligencer (Washington, D.C.), 5 May 1865 — Chronicling America issue page",
+      "url": "https://www.loc.gov/item/sn83026172/1865-05-05/ed-1/",
+      "quoteOrFact": "Issue returned by a Library of Congress newspaper full-text search for \"Sultana steamer explosion\" limited to 1864–1866. The citation is the issue page: loc.gov serves the page OCR only to browsers (403 to scripts), so the text itself was not read here."
+    }
+  ]
+}

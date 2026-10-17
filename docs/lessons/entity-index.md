@@ -116,8 +116,8 @@ from a script on disk rather than a heredoc, and read the bytes back before
 believing the edit landed.
 
 **The atlas is indexed, and it duplicates nothing.**
-`public/data/atlas-public.json` holds 108 dossiers over 1636–2026 and the eight
-lineages, and **not one of its 108 codes appears as an id in crash-conduits'
+`public/data/atlas-public.json` holds 114 dossiers over 1636–2026 and the nine
+lineages, and **not one of its 114 codes appears as an id in crash-conduits'
 data**, nor do the lineage names (Mersey, Benjamin Strong, the Dulles brothers,
 Lutnick, Tesla, Marconi, Walpole, Ismay) appear anywhere else on the site. It is
 a parallel body of work the tab pages never absorbed, so indexing it is new
@@ -329,3 +329,51 @@ again further down. A previous round measured **35 sticky era headers** for ten
 eras. With every dossier inside a window that contains it, that is **10 headers,
 each era exactly once, in chronological order**. The wall of repeated headers was
 never a layout bug; it was the data showing through.
+## Six nodes from a side chat, and the two eras they did not fit
+
+**A research chat is a source list, not a batch.** The 2026-10-16 Gemini thread
+ran Titanic → the IMM trust → the Sultana → the East India Company → United
+Fruit → Blackwater, Halliburton and Palantir, and most of it was already in the
+atlas: Bengal/EIC, IMM/Titanic, PBSuccess, LOGCAP III, In-Q-Tel and the Business
+Plot all have codes. Checking the chat's cases against `master/atlas.json`
+first is what turned fourteen topics into six nodes — the Canton opium
+indemnity, the Sultana, Homestead's Pinkertons, Ludlow, the Ciénaga volley and
+Blackwater — and the six share the shape the atlas was thinnest on: who holds
+the gun, and who pays for it. They chain into one new lineage,
+`LIN-05-PRIVATE-FORCE`, which runs through two dossiers that were already here.
+
+**The chat's own schemas were not used.** It offered Drizzle/Postgres tables per
+case; the atlas already has a schema, and a dossier is a 5-stage extraction loop,
+a ratchet, a decoy-versus-ledger audit and citations. The research was worth
+taking. The data model was not.
+
+**Hand-resolve the citations when the harvest cannot.** `govinfo`'s DEMO_KEY
+rate-limits at roughly 40 requests an hour, loc.gov serves page OCR only to
+browsers (403 to scripts), and `hansard.parliament.uk` sits behind a challenge.
+So the providers were used as a search index and each URL was then opened and
+read: the Treaty of Nanking's Articles IV–VII in Mayers 1877, Historic Hansard's
+7 April 1840 sitting, Berry's 1892 Sultana volume, three Serial Set records on
+the Pinkertons, West's 1915 Colorado report, FRUS 1928 II d655, the 2007
+"Blackwater USA" hearing, and two CourtListener dockets. Where a page could not
+be read, the `quoteOrFact` says so — both loc.gov issue pages state that their
+OCR was not read here. A citation that admits its limit is worth more than one
+that implies a reading nobody did.
+
+**Widen the era, do not bend the year.** Two of the six fell in holes the era
+model still had: the Opium War (1839–42) between `ERA-03` ending 1825 and
+`ERA-04` opening 1845, and the Ciénaga volley (1928) between `ERA-06` ending 1917
+and `ERA-07` opening 1929. The rule from the last round — every dossier inside
+the era it is tagged with — decides it: `ERA-04` now opens at 1826 and
+`ERA-07` at 1918, both retitled for what they hold. `ERA-07` needed no new
+argument at all; its own `closedLoopMechanics` already began with the NY Fed and
+the Bank of England inflating 1920s credit. The index still renders 10 era
+headers, each exactly once.
+
+**`merge-drafts.mjs` could not read its own master on a fresh checkout.**
+`core.autocrlf=true` checks `master/atlas.json` out with CRLF; every splice
+anchor and cut target in that script is written with `\n`. The anchors match
+nothing, and the merge aborts at *citations array anchor not found* — or, for a
+cut, finds nothing and throws REPLACE-ON-REMERGE FAIL. It now normalizes CRLF on
+read and writes LF back, which is what the index already holds, so the fix
+carries no diff of its own. Any other tool that string-splices a tracked file on
+Windows has the same bug waiting in it.

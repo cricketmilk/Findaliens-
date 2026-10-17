@@ -352,7 +352,73 @@
      Legacy pages NOT touched (pre-existing unstaged changes elsewhere
      left unstaged). Commit by filename only: public/atlas.html,
      public/js/atlas-art.js, public/img/atlas-og.png, this ledger.
-     Deploy stays the operator's call. -->
+     Deploy stays the operator's call.
+     ACTUAL 2026-10-17: SIX-NODE PRIVATE-FORCE / FORCED-TRADE BATCH MERGED —
+     CC-1842-OPIUM, CB-1865-SULTANA, DS-1892-PINKERTON, CB-1914-LUDLOW,
+     DS-1928-BANANA, DS-2007-BLACKWATER, taken from the operator's Gemini thread
+     of 2026-10-15/16 (Titanic -> the IMM trust -> the Sultana -> the East India
+     Company -> United Fruit -> Blackwater / Halliburton / Palantir). The cases in
+     that thread the atlas already held — Bengal/EIC, IMM/Titanic, PBSuccess,
+     LOGCAP, In-Q-Tel, the Business Plot — were NOT re-added; only the six gaps
+     were, and the shape they share is the one the atlas was thinnest on: who
+     holds the gun, and who pays for it.
+     CITATIONS HAND-RESOLVED, not swarm-harvested. govinfo's DEMO_KEY rate-limits
+     at roughly 40 requests an hour and loc.gov serves page OCR only to browsers
+     (403 to scripts), so the providers were used as a search index and every URL
+     was then opened and read before use — the ac8d030 standard. Each quoteOrFact
+     records what its page shows AND what it does not: the two loc.gov issue pages
+     say outright that their OCR was not read here. Sources: Treaty of Nanking
+     Arts. IV-VII in Mayers 1877 on archive.org (read: "Six Millions of Dollars,
+     as the value of the Opium which was delivered up at Canton"), Historic
+     Hansard HC Deb 07 April 1840 vol 53 cc669-748, Berry's 1892 Sultana survivor
+     volume (read: 2,141 aboard, "over six times her capacity", and the engineers'
+     own caution that nothing yet showed the explosion "attributable to the
+     imperfect patching"), H. Misc. Doc. 52-335 + H. Rept. 52-2447 + S. Rept.
+     52-1105 from the govinfo Serial Set, West's Report on the Colorado Strike
+     1915 (read: CF&I controlled "through ownership of approximately 40 per cent
+     of its stocks and bonds") + H. Rept. 64-31, FRUS 1928 vol. II d655 (read:
+     "postpone further action in the matter until the controversy can be
+     judicially determined"), CHRG-110hhrg45219 "Blackwater USA" of 2 October
+     2007, and CourtListener's Slough (31 December 2009) and Abtan (611 F. Supp.
+     2d 1). Specs and drafts were emitted by one script from one object, so every
+     draft's citations are byte-identical to its spec by construction rather than
+     by a later inject pass. populate.mjs --finish gated all six with 0
+     quarantined citations, merged and compiled.
+     VERIFY PASS COLUMN: these six rows read GATE 0-QUAR, not 3/3 PASS. The
+     deterministic forensic gate ran and quarantined nothing; the 3-agent
+     adversarial audit did not run, and the row says so rather than inheriting the
+     --finish template's wording.
+     ERA MODEL WIDENED, by the rule set on 2026-10-15: a dossier sits inside the
+     era it is tagged with, so the two holes the new years fell into were closed
+     rather than the years bent. ERA-04 opens at 1826 and is retitled "Forced
+     Trade & Famine Export: The Opium War Indemnity, the Irish Famine, Coffin
+     Ships & Encumbered Estates", with the 1842 gunboat indemnity added to
+     frameworkCreated. ERA-07 opens at 1918 and is retitled "Dollar Diplomacy,
+     The 1929 Liquidity Plug, The BIS & The Standard Oil-IG Farben Cartel" — its
+     own closedLoopMechanics already narrated the 1920s credit expansion, so the
+     window now matches the story. No new era ids and no dossier re-pointing. The
+     index still renders 10 sticky era headers, each era exactly once, in
+     chronological order; the two new era-opening dossiers are CC-1842-OPIUM
+     (1839) and DS-1928-BANANA (1928).
+     NEW LINEAGE LIN-05-PRIVATE-FORCE — Pinkerton 1892 -> Ludlow 1914 -> United
+     Fruit 1928 -> PBSuccess 1954 -> Blackwater 2007, five steps, spliced into
+     master the same way drafts are. The atlas now carries 9 lineages (4 inline +
+     5 master).
+     TOOL FIX, merge-drafts.mjs normalizes CRLF on read. core.autocrlf=true checks
+     master/atlas.json out with CRLF while every splice anchor and cut target in
+     that script is written with \n, so on a fresh Windows checkout the merge
+     aborts at "citations array anchor not found". It writes LF back, which is
+     what the index already holds, so the fix carries no diff of its own.
+     COUNTS: 114 public dossiers, 141 citations, 9 lineages, 182 merged nodes.
+     atlas.html's three hardcoded tallies updated (108 -> 114 entries, eight ->
+     nine lineages, and the print caption). extract-entities re-run: 389 entries,
+     892 entities. Gates: node --test crash-conduits + audit-crash + from-trove
+     38/38; check-links across the six drafts, 14 URLs, 12 ok / 2 blocked
+     (loc.gov bot wall) / 0 dead; atlas.html served from public/ and measured in
+     the browser — 114 index rows, 10 era headers each exactly once, 9 lineage
+     cards, all six new dossiers rendering with their citations. Legacy pages and
+     crash-finance-data.js untouched; legacy surgery stays off. Deploy stays the
+     operator's call. -->
 
 # THE CORNFIELD GAZETTE — MASTER NODE STATUS LEDGER
 
@@ -399,3 +465,9 @@
 | `CC-2012-LIBOR` | Interdealer LIBOR Rigging & Wash-Trade Settlements | `ERA-09-2001` | `TIER_1_STATUTE_COURT` | `courtlistener,edgar` | 3/3 PASS | YES | [x] |
 | `PH-2025-IMMIGRATIONOS` | ICE Sole-Source Palantir 'ImmigrationOS' Architecture | `ERA-10-2020` | `TIER_3_PRIMARY_LEDGER` | `usaspending,edgar` | 3/3 PASS | YES | [x] |
 | `FINDINGS-01..52` | Existing 52 Entity Dossiers in `research/findings/*.json` | `ALL` | `INHERITED` | `migrate.mjs` | MIGRATED | YES | [x] |
+| `CC-1842-OPIUM` | Canton Opium Seizure, the 1840 Commons Debate & the Nanking Indemnity | `ERA-04-1845` | `TIER_1_STATUTE_COURT` | `archive.org,hansard` | GATE 0-QUAR | YES | [x] |
+| `CB-1865-SULTANA` | War Department Head-Bounty, the Patched Boiler & the Annulled Verdict | `ERA-05-1861` | `TIER_4_CONTEMPORARY_PRESS` | `archive.org,loc` | GATE 0-QUAR | YES | [x] |
+| `DS-1892-PINKERTON` | Homestead's Hired Barge, Three Inquiries & the 1893 Federal-Only Proviso | `ERA-05-1861` | `TIER_2_INQUIRY` | `govinfo` | GATE 0-QUAR | YES | [x] |
+| `CB-1914-LUDLOW` | CF&I Tent Colonies, Ludlow & the Colorado Industrial Plan | `ERA-06-1910` | `TIER_2_INQUIRY` | `archive.org,govinfo` | GATE 0-QUAR | YES | [x] |
+| `DS-1928-BANANA` | State Department 'Good Offices' for United Fruit & the Cienaga Volley | `ERA-07-1929` | `TIER_3_PRIMARY_LEDGER` | `history.state.gov,loc` | GATE 0-QUAR | YES | [x] |
+| `DS-2007-BLACKWATER` | WPPS Cost-Reimbursement Guards, CPA Order 17 & the 2020 Pardons | `ERA-09-2001` | `TIER_1_STATUTE_COURT` | `govinfo,courtlistener` | GATE 0-QUAR | YES | [x] |

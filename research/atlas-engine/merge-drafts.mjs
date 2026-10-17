@@ -21,7 +21,13 @@ if (draftPaths.length === 0) {
   process.exit(1);
 }
 
-let master = fs.readFileSync(MASTER, 'utf8');
+// CRLF: git is configured core.autocrlf=true on Windows, so master/atlas.json is LF
+// in the index and CRLF in the working tree. Every anchor and every cut target below
+// is written with \n, so a CRLF checkout matches none of them and the merge dies on
+// "citations array anchor not found" (or, worse, on a cut that silently finds nothing).
+// Normalize on read and write LF back: that is what the index already holds, so it
+// produces no diff of its own.
+let master = fs.readFileSync(MASTER, 'utf8').replace(/\r\n/g, '\n');
 
 const indent = (json2spaced) => json2spaced.split('\n').map((l) => (l.length ? '  ' + l : l)).join('\n');
 

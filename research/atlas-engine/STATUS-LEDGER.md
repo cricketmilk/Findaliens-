@@ -1008,6 +1008,31 @@
      VERIFY PASS: both rows GATE 0-QUAR. Gate ran, quarantined nothing.
      Not merged to main, not pushed to main, not deployed. -->
 
+<!-- ACTUAL 2026-10-17 (fifth pass, addendum): THE ERA-HEADER INVARIANT NOW HAS A
+     CHECKER, research/atlas-engine/check-era-headers.mjs, because it bit twice in one
+     day and is invisible to every existing gate.
+     WHAT I HAD WRONG. I twice "verified" this invariant by simulating the page sort in
+     a one-liner that sorted by yearStart AND tiebroke on code. public/atlas.html does
+     not tiebreak: it is .sort((a, b) => (a.yearStart || 0) - (b.yearStart || 0)), a
+     STABLE sort, so dossiers sharing a yearStart keep the order they have in
+     atlas-public.json, which is MERGE order. My simulation said 10 switches while the
+     rendered page showed 12, and the first time I attributed the gap to a stale cache.
+     It was genuinely the cache once; the second time it was not, and reading the page
+     source settled it in one look. Simulating a renderer is not verifying it.
+     THE TWO FAILURE MODES, both now caught: (1) a dossier whose yearStart sorts it
+     outside its own era block splits that block — CB-2010-MACONDO at yearStart 1990,
+     fixed earlier today by setting it to 2010; (2) two dossiers in DIFFERENT eras
+     sharing one yearStart, where merge order decides which comes first —
+     CC-1970-MADOFF_2008 (ERA-08-1953) and CC-1995-BARINGS_LEESON_1995 (ERA-09-2001),
+     both at 1992.
+     FIX APPLIED: CC-1970-MADOFF_2008 moved from ERA-08-1953 to ERA-09-2001. This is not
+     a workaround. The node runs 1992 to 2009, its subject is a 2008 collapse and a 2009
+     report, ERA-09-2001 covers 1993-2019 and ERA-08 ends in 1992: the era it inherited
+     from its Phase-0 stub was simply the wrong one. The checker now reports
+     "121 dossiers, 10 era headers emitted, 10 distinct eras. OK".
+     RUN IT after every merge that adds or re-dates a dossier. npm test does not cover
+     this, the schema does not cover it, and check-links does not cover it. -->
+
 # THE CORNFIELD GAZETTE — MASTER NODE STATUS LEDGER
 
 | Node Code | Title / Scope | Era | Evidence Tier | Seeding Providers | Verify Pass | UI Wired | Done |

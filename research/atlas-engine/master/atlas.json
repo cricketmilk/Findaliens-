@@ -105,13 +105,13 @@
     },
     {
       "id": "ERA-04-1845",
-      "yearStart": 1845,
+      "yearStart": 1826,
       "yearEnd": 1852,
-      "title": "The Irish Famine, Coffin Ships & Encumbered Estates",
+      "title": "Forced Trade & Famine Export: The Opium War Indemnity, the Irish Famine, Coffin Ships & Encumbered Estates",
       "ratchet": {
         "inheritsFromEra": "ERA-03-1815",
         "precedentInherited": "Bengal Malthusian tax-and-export doctrine + Lloyd's of London marine hull insurance underwriting.",
-        "frameworkCreated": "Insured 'Coffin Ships' for demographic clearance + The Encumbered Estates Act of 1849 (statutory distressed-land seizure by London creditors) + 1851 U.S. Limitation of Liability Act.",
+        "frameworkCreated": "The gunboat indemnity (Treaty of Nanking 1842: a private trading loss settled on a foreign state as sovereign debt, with ceded territory and treaty ports attached) + insured 'Coffin Ships' for demographic clearance + The Encumbered Estates Act of 1849 (statutory distressed-land seizure by London creditors) + 1851 U.S. Limitation of Liability Act.",
         "closedLoopMechanics": "Landlords export food under military guard, clear starving tenants onto insured rotting timber ships, and London creditors use the 1849 Act to buy distressed estates for pennies—while maritime lobbyists pass the exact 1851 Liability Act later used by J.P. Morgan on the Titanic.",
         "seedsNextEra": "ERA-05-1861"
       }
@@ -144,13 +144,13 @@
     },
     {
       "id": "ERA-07-1929",
-      "yearStart": 1929,
+      "yearStart": 1918,
       "yearEnd": 1945,
-      "title": "The 1929 Liquidity Plug, The BIS & The Standard Oil–IG Farben Cartel",
+      "title": "Dollar Diplomacy, The 1929 Liquidity Plug, The BIS & The Standard Oil–IG Farben Cartel",
       "ratchet": {
         "inheritsFromEra": "ERA-06-1910",
         "precedentInherited": "Federal Reserve Bank of New York (Benjamin Strong) + Bank of England (Montagu Norman) interest-rate coordination.",
-        "frameworkCreated": "Bank for International Settlements (1930 Basel treaty immunity) + Sullivan & Cromwell cross-border patent cartels (Standard Oil / IG Farben) + post-WWII absorption of intelligence networks into the CIA (1947).",
+        "frameworkCreated": "Proxy suppression abroad through diplomatic good offices (United Fruit in Colombia, 1928) + Bank for International Settlements (1930 Basel treaty immunity) + Sullivan & Cromwell cross-border patent cartels (Standard Oil / IG Farben) + post-WWII absorption of intelligence networks into the CIA (1947).",
         "closedLoopMechanics": "NY Fed and Bank of England inflate 1920s credit, pull call-loan liquidity in 1929 to consolidate assets, erect the sovereign-immune BIS in 1930 to clear transnational payments through WWII, and rotate cartel lawyers (Allen & John Foster Dulles) directly into command of the CIA and State Department.",
         "seedsNextEra": "ERA-08-1953"
       }
@@ -1084,7 +1084,105 @@
       "title": "Federal Award W91QVN26FA191 to PALANTIR USG INC ($1,301,476.8)",
       "url": "https://www.usaspending.gov/award/CONT_AWD_W91QVN26FA191_9700_W519TC25D0039_9700",
       "quoteOrFact": "Department of Defense awarded $1,301,476.8 to PALANTIR USG INC: TWO (2) FIELD SERVICE REPRESENTATIVES (FSR) - OCONUS (PT-SUP-FSROCO) IAW THE ARMY PALANTIR ENTERPRISE AGREEMENT IDIQ CONTRACT W519TC-25-D-0039, PWS TASK A.2.10.4. THE PERIOD OF PERFORMANCE FOR THIS ORDER IS 01 JAN 2026 TO 31 DEC 2026."
-    }
+    },
+      {
+    "id": "CIT-1842-NANKING",
+    "tier": "TIER_1_STATUTE_COURT",
+    "title": "Treaty of Nanking (29 August 1842), Articles IV–VII, in W. F. Mayers (ed.), Treaties Between the Empire of China and Foreign Powers (Shanghai, 1877), p. 1",
+    "url": "https://archive.org/details/treatiesbetween01mayegoog",
+    "quoteOrFact": "Art. IV: \"The Emperor of China agrees to pay the sum of Six Millions of Dollars, as the value of the Opium which was delivered up at Canton in the month of March, 1839, as a ransom for the lives of Her Britannic Majesty’s Superintendent and Subjects\". Art. V adds three millions for insolvent Hong-merchants’ debts, Art. VI twelve millions for the expedition’s expenses, and Art. VII fixes the total at \"Twenty-one Millions of Dollars\" payable by the end of 1845. Read from the Internet Archive full text of the 1877 Mayers compilation, whose table of contents files the Nanking treaty of 1842 at page 1."
+  },
+      {
+    "id": "CIT-1840-CHINADEBATE",
+    "tier": "TIER_3_PRIMARY_LEDGER",
+    "title": "War With China, HC Deb 07 April 1840 vol 53 cc669–748 (Historic Hansard)",
+    "url": "https://api.parliament.uk/historic-hansard/commons/1840/apr/07/war-with-china",
+    "quoteOrFact": "Historic Hansard’s transcript of the first night of the Commons debate on the China war, opened by Sir James Graham, who moves that the interruption of relations with China was owing mainly to the \"want of foresight and precaution\" of the Government’s advisers. The page is the debate itself; the division that defeated the motion falls on the sitting of 9 April and is not on this page."
+  },
+      {
+    "id": "CIT-1865-SULTANABERRY",
+    "tier": "TIER_4_CONTEMPORARY_PRESS",
+    "title": "Chester D. Berry (ed.), Loss of the Sultana and Reminiscences of Survivors (Lansing, Michigan, 1892)",
+    "url": "https://archive.org/details/lossofsultanarem00berr",
+    "quoteOrFact": "Survivor compilation of 1892. Its introduction records that the Sultana reached Vicksburg with about two hundred passengers and crew and \"remained here little more than one day; among other things repairing one of her boilers, at the same time receiving on board 1,965 federal soldiers and 35 officers just released from the rebel prisons at Cahaba, Ala., Macon and Andersonville, Ga.\"; a survivor’s account in the same volume puts the number aboard at 2,141, \"over six times her capacity\". A contemporaneous engineers’ statement reprinted there also says that, pending examination of the boilers, \"nothing has been discovered to show that the disaster was attributable to the imperfect patching\". Read from the Internet Archive full text."
+  },
+      {
+    "id": "CIT-1865-SULTANAPRESS",
+    "tier": "TIER_4_CONTEMPORARY_PRESS",
+    "title": "Daily National Intelligencer (Washington, D.C.), 5 May 1865 — Chronicling America issue page",
+    "url": "https://www.loc.gov/item/sn83026172/1865-05-05/ed-1/",
+    "quoteOrFact": "Issue returned by a Library of Congress newspaper full-text search for \"Sultana steamer explosion\" limited to 1864–1866. The citation is the issue page: loc.gov serves the page OCR only to browsers (403 to scripts), so the text itself was not read here."
+  },
+      {
+    "id": "CIT-1892-PINKERTONDOC",
+    "tier": "TIER_2_INQUIRY",
+    "title": "H. Misc. Doc. 52-335, Investigation of the employment of Pinkerton detectives in connection with the labor troubles at Homestead, Pa (52nd Congress, 1st Session, 1892; Serial Set 2959)",
+    "url": "https://www.govinfo.gov/app/details/SERIALSET-02959_00_00-303-0335-0000",
+    "quoteOrFact": "GovInfo record for the House Committee on the Judiciary’s Homestead investigation volume, filed as H. Misc. Doc. 52-335, 52nd Congress 1st Session, 1892, U.S. Congressional Serial Set 2959. The page is the catalogue record for the document; the testimony is in the scanned volume it links."
+  },
+      {
+    "id": "CIT-1893-PINKERTONRPT",
+    "tier": "TIER_2_INQUIRY",
+    "title": "H. Rept. 52-2447, Employment of Pinkerton detectives (Committee on the Judiciary, 7 February 1893; Serial Set 3142-1)",
+    "url": "https://www.govinfo.gov/app/details/SERIALSET-03142_01_00-002-2447-0000",
+    "quoteOrFact": "GovInfo record for the House Judiciary Committee’s report on the employment of Pinkerton detectives, 52nd Congress 2nd Session, dated 7 February 1893, \"Laid on the table and ordered to be printed\", Serial Set 3142-1."
+  },
+      {
+    "id": "CIT-1892-PINKERTONSEN",
+    "tier": "TIER_2_INQUIRY",
+    "title": "S. Rept. 52-1105 (Mr. Hansbrough, Committee on Education and Labor, 1 August 1892; Serial Set 2915)",
+    "url": "https://www.govinfo.gov/app/details/SERIALSET-02915_00_00-256-1105-0000",
+    "quoteOrFact": "GovInfo record for the Senate report submitted by Mr. Hansbrough from the Committee on Education and Labor, 1 August 1892, accompanying a substitute resolution for a select committee to investigate the employment of \"Pinkerton men\" or \"Pinkerton detectives\"; the record’s own subject headings are the Homestead Strike, Homestead, Pa., 1892 and Detectives."
+  },
+      {
+    "id": "CIT-1915-COLOWEST",
+    "tier": "TIER_2_INQUIRY",
+    "title": "George P. West, Report on the Colorado Strike (United States Commission on Industrial Relations, 1915)",
+    "url": "https://archive.org/details/reportoncolorado00unit",
+    "quoteOrFact": "The Commission’s own report on the strike. Its text states that the acts of the executive officials of the Colorado Fuel & Iron Company \"had the hearty support and endorsement of the greatest and most powerful financial interest in America, that of John D. Rockefeller, and his son, John D. Rockefeller, Jr., who controlled the company through ownership of approximately 40 per cent of its stocks and bonds\", with \"Letters from Mr. Rockefeller, Jr., heartily approving of his company’s refusal to meet representatives of\" the miners, and that his support \"contributed largely to the unyielding and lawless policy that finally resulted in the horrors of the Ludlow massacre and the intervention of the federal government\". Read from the Internet Archive full text."
+  },
+      {
+    "id": "CIT-1916-CIRFINAL",
+    "tier": "TIER_2_INQUIRY",
+    "title": "H. Rept. 64-31, Final report of the Commission on Industrial Relations (11 January 1916; Serial Set 6907)",
+    "url": "https://www.govinfo.gov/app/details/SERIALSET-06907_00_00-011-0031-0000",
+    "quoteOrFact": "GovInfo record for the final report of the Commission on Industrial Relations, filed as H. Rept. 64-31, 64th Congress 1st Session, issued 11 January 1916, Serial Set 6907. The page is the catalogue record for the Commission’s final report; the Colorado testimony is in the Commission’s separate testimony volumes."
+  },
+      {
+    "id": "CIT-1928-FRUSUFCO",
+    "tier": "TIER_3_PRIMARY_LEDGER",
+    "title": "The Secretary of State (Kellogg) to the Minister in Colombia (Piles), telegram, 12 March 1928, file 321.1154 United Fruit Company/1 — Foreign Relations of the United States 1928, Volume II, Document 655",
+    "url": "https://history.state.gov/historicaldocuments/frus1928v02/d655",
+    "quoteOrFact": "Published State Department telegram instructing the Minister in Colombia to take the United Fruit Company’s complaint up informally with the Colombian authorities and, if the facts are as the company states, to request formally that the Colombian Government \"postpone further action in the matter until the controversy can be judicially determined\". It sits in the volume’s chapter \"Good offices of the Department of State to protect the interests of the United Fruit Company in Colombia\" (documents 655–658, March–June 1928). The chapter concerns an irrigation and land dispute; it does not cover the December 1928 strike."
+  },
+      {
+    "id": "CIT-1928-BANANAPRESS",
+    "tier": "TIER_4_CONTEMPORARY_PRESS",
+    "title": "The Washington Daily News (Washington, D.C.), 14 December 1928 — Chronicling America issue page",
+    "url": "https://www.loc.gov/item/sn82016181/1928-12-14/ed-1/",
+    "quoteOrFact": "Issue returned by a Library of Congress newspaper full-text search for the phrase \"banana strike\" limited to 1928–1929, which returns nineteen United States newspaper issues from December 1928 onward. The citation is the issue page: loc.gov serves the page OCR only to browsers (403 to scripts), so the text itself was not read here."
+  },
+      {
+    "id": "CIT-2007-BLACKWATERHRG",
+    "tier": "TIER_2_INQUIRY",
+    "title": "Blackwater USA, House hearing, 110th Congress, 2 October 2007 (CHRG-110hhrg45219)",
+    "url": "https://www.govinfo.gov/app/details/CHRG-110hhrg45219",
+    "quoteOrFact": "GovInfo record for the House hearing titled \"BLACKWATER USA\", 110th Congress, dated 2 October 2007. The catalogue page gives the title, chamber and date; it does not name the committee or summarise the subject, and the transcript is in the linked document."
+  },
+      {
+    "id": "CIT-2009-SLOUGH",
+    "tier": "TIER_1_STATUTE_COURT",
+    "title": "United States v. Slough, U.S. District Court for the District of Columbia, 31 December 2009 (CourtListener)",
+    "url": "https://www.courtlistener.com/opinion/2658849/united-states-v-slough/",
+    "quoteOrFact": "CourtListener record of the criminal case against the Blackwater guards charged over the Nisour Square shooting, filed in the District Court for the District of Columbia and dated 31 December 2009 — the date the indictment was dismissed over the government’s use of the defendants’ compelled statements. The record is the docketed opinion entry."
+  },
+      {
+    "id": "CIT-2009-ABTAN",
+    "tier": "TIER_1_STATUTE_COURT",
+    "title": "Estate of Abtan v. Blackwater Lodge & Training Center, 611 F. Supp. 2d 1 (D.D.C. 2009)",
+    "url": "https://www.courtlistener.com/opinion/2299276/estate-of-abtan-v-blackwater-lodge-training-center/",
+    "quoteOrFact": "CourtListener record of the civil action brought against the Blackwater entities by Iraqi victims and estates, reported at 611 F. Supp. 2d 1 and filed 27 April 2009 in the District Court for the District of Columbia."
+  }
   ],
   "dossiers": [
     {
@@ -5224,7 +5322,285 @@
         "CIT-1858-WD-Q106374868",
         "CIT-1858-WD-Q106406833"
       ]
-    }
+    },
+      {
+    "code": "CC-1842-OPIUM",
+    "eraId": "ERA-04-1845",
+    "yearStart": 1839,
+    "yearEnd": 1842,
+    "title": "Twenty-One Million Dollars for Burnt Contraband: The Opium Traders’ Loss Becomes China’s Sovereign Debt",
+    "primaryTab": "crash-conduits",
+    "secondaryTabs": [
+      "deep-state",
+      "carbon-class"
+    ],
+    "mechanism": "SOVEREIGN_DEBT_TRAP",
+    "tier": "TIER_1_STATUTE_COURT",
+    "auditDisposition": "DOCUMENTED",
+    "participants": [
+      "Jardine, Matheson & Co.",
+      "Dent & Co.",
+      "Charles Elliot (Chief Superintendent of Trade)",
+      "Lin Zexu",
+      "Lord Palmerston",
+      "Sir James Graham",
+      "East India Company (Bengal opium monopoly)"
+    ],
+    "extractionLoop": {
+      "stage1_upfrontSkim": "The Bengal opium monopoly the East India Company built after the Diwani is sold at Calcutta auction and carried to Canton by private firms — Jardine, Matheson & Co. and Dent & Co. the largest — who take the margin on a trade Chinese law prohibits and British law does not reach.",
+      "stage2_structuralCompromise": "When Commissioner Lin Zexu confiscates the 20,283 chests at Canton in March 1839, Superintendent Charles Elliot takes them into Crown hands first and promises the holders that the British government will make the loss good. A private stock of contraband becomes, in a single administrative act, a claim on the Treasury.",
+      "stage3_informationFog": "The claim is argued in London as a question of national honour and the liberty of British subjects, not as compensation for a drug cargo. Sir James Graham’s censure motion of 7 April 1840 keeps the Commons three nights on the imprudence of ministers; the expedition sails either way.",
+      "stage4_monopolyWindfall": "The Treaty of Nanking charges the whole bill to the Chinese state: six million dollars for the destroyed opium, three million for Hong-merchant debts, twelve million for the expedition itself, twenty-one million in all on a schedule to 1845, plus Hong Kong in perpetuity and five ports opened to British trade.",
+      "stage5_merseyWhitewash": "No British party pays. The indemnity is settled on China as sovereign debt, the traders are made whole for a cargo their own government had surrendered, and the treaty-port system becomes the template for the next century of forced-trade settlements."
+    },
+    "closedLoopRatchet": {
+      "inheritedFramework": "The East India Company’s Bengal revenue and opium monoculture, and the Crown’s habit of standing behind chartered traders’ losses.",
+      "newFrameworkCreated": "The gunboat indemnity: a state-to-state treaty that converts a private trading loss into sovereign debt with a payment schedule, secured by ceded territory and treaty ports.",
+      "closedLoopRecirculation": "The firms whose stock was surrendered are paid out of the indemnity; the indemnity is collected from Chinese customs revenue; the ports opened to collect it carry the next decade of the same trade.",
+      "enablesNextDossier": "CB-1845-COFFIN"
+    },
+    "decoyVsLedger": {
+      "viralDecoy": "A clash of civilisations over free trade and diplomatic protocol — an arrogant empire refusing to open its ports, met by a Britain defending the rights of its merchants abroad.",
+      "whyDecoyFails": "The treaty itself names the consideration. Article IV pays six million dollars ‘as the value of the Opium which was delivered up at Canton in the month of March, 1839’ — the destroyed contraband is written into the settlement as a priced item, before the war costs in Article VI.",
+      "documentedLedger": "Elliot took the traders’ opium into government hands against a promise of compensation; the Commons debated and narrowly declined to censure the ministry on 7 April 1840; and the Treaty of Nanking recovered the whole sum — twenty-one million dollars under Articles IV to VII — from the Chinese state, with Hong Kong and five treaty ports attached."
+    },
+    "citationIds": [
+      "CIT-1842-NANKING",
+      "CIT-1840-CHINADEBATE"
+    ]
+  },
+      {
+    "code": "CB-1865-SULTANA",
+    "eraId": "ERA-05-1861",
+    "yearStart": 1865,
+    "yearEnd": 1865,
+    "title": "Ten Dollars a Head: The Bounty That Filled the Sultana and the Verdict That Was Annulled",
+    "primaryTab": "carbon-class",
+    "secondaryTabs": [
+      "crash-conduits",
+      "consent"
+    ],
+    "mechanism": "COST_PLUS_RECONSTRUCTION",
+    "tier": "TIER_4_CONTEMPORARY_PRESS",
+    "auditDisposition": "DOCUMENTED",
+    "participants": [
+      "U.S. War Department (Quartermaster Department, Vicksburg)",
+      "Captain J. Cass Mason",
+      "Captain Frederic Speed",
+      "Lieutenant Colonel Reuben Hatch",
+      "Brigadier General William Hoffman",
+      "Released prisoners of Cahaba and Andersonville"
+    ],
+    "extractionLoop": {
+      "stage1_upfrontSkim": "The War Department pays steamboat operators by the body to move released prisoners north from Vicksburg in the spring of 1865 — five dollars an officer, ten dollars an enlisted man — so a boat’s earnings rise with every man crowded onto her deck.",
+      "stage2_structuralCompromise": "The Sultana is licensed for 376 passengers. She leaves Vicksburg with roughly 2,100 to 2,400 aboard — a survivor’s count puts it at 2,141, \"over six times her capacity\" — and with a bulged boiler sheet patched rather than replaced, because the days a proper repair would take would hand the payload to a rival boat.",
+      "stage3_informationFog": "The explosion above Memphis on 27 April 1865 lands in a news cycle already filled: Lincoln had been shot on 14 April and Booth killed on 26 April. The deadliest maritime disaster in American history is reported and then dropped.",
+      "stage4_monopolyWindfall": "The contract value had already been captured at Vicksburg, where the payload was assigned. The boat is gone, her master is dead, and the bounty has been earned.",
+      "stage5_merseyWhitewash": "Captain Frederic Speed is court-martialled and convicted; the Judge Advocate General disapproves the finding and it is annulled. Reuben Hatch, the quartermaster suspected of taking a share, is never brought to account. Nobody is punished for a loss of roughly 1,100 to 1,800 lives."
+    },
+    "closedLoopRatchet": {
+      "inheritedFramework": "Wartime transport contracting by the head, and the practice of settling military transport disasters inside the army’s own disciplinary machinery rather than in court.",
+      "newFrameworkCreated": "A per-capita bounty that prices human cargo above the vessel’s rated capacity, paired with a court-martial record that convicts an officer and then annuls the conviction.",
+      "closedLoopRecirculation": "The bounty money stays with the operators and the officers who assigned the payload; the loss falls on parolees already held one to twenty-three months in Confederate prisons, and their families receive effectively nothing.",
+      "enablesNextDossier": "DS-1892-PINKERTON"
+    },
+    "decoyVsLedger": {
+      "viralDecoy": "A tragic accident of early steam engineering — a bad boiler on a crowded river in a chaotic month — and a disaster the public simply forgot because the war had exhausted it.",
+      "whyDecoyFails": "The overloading was not an accident of the river: it followed a bounty paid by the head, and the boiler was patched rather than re-sheeted while the boat held the contract. The contemporaneous engineers’ statement reprinted by Berry is careful on causation — \"nothing has been discovered to show that the disaster was attributable to the imperfect patching\" — and the loading and the patch are documented independently of it.",
+      "documentedLedger": "A boat rated for 376 carried roughly six times that number under a War Department bounty of ten dollars an enlisted man; her boiler was patched at Vicksburg while she held the payload; she exploded on 27 April 1865; the one conviction that followed was annulled, and no one was held to account."
+    },
+    "citationIds": [
+      "CIT-1865-SULTANABERRY",
+      "CIT-1865-SULTANAPRESS"
+    ]
+  },
+      {
+    "code": "DS-1892-PINKERTON",
+    "eraId": "ERA-05-1861",
+    "yearStart": 1892,
+    "yearEnd": 1893,
+    "title": "A Private Army by Barge: Homestead, Three Congressional Inquiries, and a Statute That Bound Only the Government",
+    "primaryTab": "deep-state",
+    "secondaryTabs": [
+      "carbon-class",
+      "crash-conduits"
+    ],
+    "mechanism": "MERSEY_LIABILITY_WHITEWASH",
+    "tier": "TIER_2_INQUIRY",
+    "auditDisposition": "DOCUMENTED",
+    "participants": [
+      "Carnegie Steel Company",
+      "Henry Clay Frick",
+      "Pinkerton National Detective Agency",
+      "Amalgamated Association of Iron and Steel Workers",
+      "House Committee on the Judiciary",
+      "Senate Committee on Education and Labor",
+      "Pennsylvania National Guard"
+    ],
+    "extractionLoop": {
+      "stage1_upfrontSkim": "Carnegie Steel’s chairman Henry Clay Frick moves to break the Amalgamated Association’s contract at Homestead in 1892; the wage scale the lockout replaces is the standing cost the company means to remove.",
+      "stage2_structuralCompromise": "Rather than municipal or state police, the company contracts a private firm. About three hundred armed Pinkerton men are brought up the Monongahela by barge on 6 July 1892, and the landing becomes a gun battle that kills men on both sides.",
+      "stage3_informationFog": "The fight is argued as a riot by workmen rather than as a corporation deploying a private armed force, and the Pennsylvania militia occupies the town, which settles the plant’s operation long before any inquiry reports.",
+      "stage4_monopolyWindfall": "The union is driven out of Homestead and out of the steel industry for a generation; the labour cost the lockout targeted stays removed.",
+      "stage5_merseyWhitewash": "Three congressional investigations take evidence — the House Judiciary Committee’s hearings, its report of 7 February 1893, and a Senate select committee resolution — and the statutory answer, the Anti-Pinkerton proviso of 3 March 1893, forbids the federal government from employing such an agency. It says nothing about a corporation hiring one against its own workforce. Prosecutions on both sides, including treason charges against strike leaders, end in no convictions."
+    },
+    "closedLoopRatchet": {
+      "inheritedFramework": "The nineteenth-century practice of corporations retaining private detective agencies as guards, strikebreakers and informants, with no statute addressing the arrangement.",
+      "newFrameworkCreated": "The congressional-inquiry-plus-narrow-statute pattern: a public investigation of a private armed force, answered by a rule that binds only federal hiring and leaves the private market for armed contractors intact.",
+      "closedLoopRecirculation": "The agency keeps the contract market; the company keeps the wage reduction; the record of the inquiry becomes the public settlement of the matter, and the next corporation hires guards under the same law.",
+      "enablesNextDossier": "CB-1914-LUDLOW"
+    },
+    "decoyVsLedger": {
+      "viralDecoy": "Homestead as a spontaneous riot — a mob of armed strikers attacking watchmen hired to protect a mill — or, in the other telling, as a one-off outrage already answered by the Anti-Pinkerton Act.",
+      "whyDecoyFails": "Congress investigated the arrangement itself, three times in seven months: a House Judiciary hearing volume, a House report, and a Senate resolution for a select committee on the employment of \"Pinkerton men\". The statute that followed reaches federal hiring only, so the practice it is said to have ended continued in private hands.",
+      "documentedLedger": "A corporation contracted roughly three hundred armed men and landed them by barge at its own plant; the state then supplied the militia; three congressional records (H. Misc. Doc. 52-335, H. Rept. 52-2447, S. Rept. 52-1105) document the employment of the agency; and the resulting proviso of 3 March 1893 restricted only the government’s own use of it."
+    },
+    "citationIds": [
+      "CIT-1892-PINKERTONDOC",
+      "CIT-1893-PINKERTONRPT",
+      "CIT-1892-PINKERTONSEN"
+    ]
+  },
+      {
+    "code": "CB-1914-LUDLOW",
+    "eraId": "ERA-06-1910",
+    "yearStart": 1913,
+    "yearEnd": 1916,
+    "title": "The Tent Colony and the Company Union: Ludlow, and the Plan That Answered It",
+    "primaryTab": "carbon-class",
+    "secondaryTabs": [
+      "deep-state",
+      "consent"
+    ],
+    "mechanism": "MERSEY_LIABILITY_WHITEWASH",
+    "tier": "TIER_2_INQUIRY",
+    "auditDisposition": "DOCUMENTED",
+    "participants": [
+      "Colorado Fuel & Iron Company",
+      "John D. Rockefeller Jr.",
+      "United Mine Workers of America",
+      "Colorado National Guard",
+      "U.S. Commission on Industrial Relations",
+      "George P. West",
+      "Ivy Lee",
+      "W. L. Mackenzie King"
+    ],
+    "extractionLoop": {
+      "stage1_upfrontSkim": "Colorado Fuel & Iron runs closed camps — company housing, company stores, company scrip, company-appointed officials — so the wage is recaptured on the way out of the miner’s hand, and the September 1913 strike threatens that whole arrangement at once.",
+      "stage2_structuralCompromise": "Evicted families move into tent colonies on leased ground. Company-paid guards and, from October 1913, the Colorado National Guard surround them through the winter; the armoured car and the searchlight at Ludlow are part of the siege.",
+      "stage3_informationFog": "Ivy Lee’s bulletins carry the operators’ account of the strike to the national press. The Commission on Industrial Relations later takes evidence on their accuracy, and the ownership question — who was directing the refusal to meet the miners — is argued as a local Colorado dispute.",
+      "stage4_monopolyWindfall": "The strike is broken and the union kept out; the camps and their scrip economy continue.",
+      "stage5_merseyWhitewash": "Militia officers tried by court-martial are acquitted and no one is convicted over the deaths. The company’s answer is the Colorado Industrial Plan — an employee-representation scheme drafted with W. L. Mackenzie King — which replaces the union with a body the company itself convenes."
+    },
+    "closedLoopRatchet": {
+      "inheritedFramework": "The private-force arrangement left intact after Homestead: guards on the corporate payroll, state militia at the operators’ call, and inquiry as the public settlement.",
+      "newFrameworkCreated": "The company union plus the professional publicity bureau — a structure that answers a massacre with representation the employer controls and a narrative the employer supplies.",
+      "closedLoopRecirculation": "The costs of the siege are borne by the company and recovered through the broken strike; the Commission’s findings carry no penalty; the industrial-relations plan becomes a model exported to other Rockefeller properties.",
+      "enablesNextDossier": "DS-1928-BANANA"
+    },
+    "decoyVsLedger": {
+      "viralDecoy": "A distant absentee owner who knew nothing of Colorado — a local quarrel between a state militia and an armed camp of strikers, in which a stray fire destroyed the tents.",
+      "whyDecoyFails": "The Commission on Industrial Relations’ own Report on the Colorado Strike places the ownership and the policy together: the executives’ acts \"had the hearty support and endorsement of the greatest and most powerful financial interest in America, that of John D. Rockefeller, and his son, John D. Rockefeller, Jr., who controlled the company through ownership of approximately 40 per cent of its stocks and bonds\", with letters from Rockefeller Jr. \"heartily approving\" the refusal to meet the miners’ representatives.",
+      "documentedLedger": "A strike against a company held through roughly 40 per cent of its stocks and bonds; tent colonies besieged by company guards and state militia; about twenty dead at Ludlow on 20 April 1914, including two women and eleven children; two federal inquiries, including the Commission whose final report was filed as H. Rept. 64-31 on 11 January 1916; no convictions; and a company-convened representation plan in place of the union."
+    },
+    "citationIds": [
+      "CIT-1915-COLOWEST",
+      "CIT-1916-CIRFINAL"
+    ]
+  },
+      {
+    "code": "DS-1928-BANANA",
+    "eraId": "ERA-07-1929",
+    "yearStart": 1928,
+    "yearEnd": 1928,
+    "title": "Good Offices: The State Department’s Standing Brief for United Fruit and the Ciénaga Station Square",
+    "primaryTab": "deep-state",
+    "secondaryTabs": [
+      "carbon-class",
+      "crash-conduits"
+    ],
+    "mechanism": "REGULATORY_REVOLVING_DOOR",
+    "tier": "TIER_3_PRIMARY_LEDGER",
+    "auditDisposition": "DOCUMENTED",
+    "participants": [
+      "United Fruit Company",
+      "U.S. Department of State (Secretary Frank B. Kellogg)",
+      "Samuel Piles (U.S. Minister in Colombia)",
+      "Government of Colombia",
+      "General Carlos Cortés Vargas",
+      "Magdalena banana-zone workers",
+      "Jorge Eliécer Gaitán"
+    ],
+    "extractionLoop": {
+      "stage1_upfrontSkim": "United Fruit holds the Magdalena banana zone on terms that keep the workforce off the company’s books: men engaged through contractors rather than hired, paid in scrip spendable at company stores, housed and doctored at the company’s discretion.",
+      "stage2_structuralCompromise": "The arrangement runs on a host state that will not test it. Months before the strike, Washington is already intervening on the company’s behalf: the Foreign Relations volume for 1928 carries a chapter of telegrams titled \"Good offices of the Department of State to protect the interests of the United Fruit Company in Colombia\", in which the Secretary of State instructs the Minister in Bogotá to press the Colombian government to hold off until a company dispute can be judicially determined.",
+      "stage3_informationFog": "When roughly 25,000 workers strike in November 1928 for written contracts, a six-day week and an end to scrip, the demands are recast as subversion rather than contract terms, and the foreign-interest framing is already in place in Bogotá.",
+      "stage4_monopolyWindfall": "Colombian troops under General Carlos Cortés Vargas fire on a crowd at the railway station square in Ciénaga on 6 December 1928. The strike ends; the labour terms do not change; the company’s position in the zone is restored without the company firing a shot.",
+      "stage5_merseyWhitewash": "The death toll is never settled — official Colombian figures in the dozens, legation dispatches far higher, estimates from under fifty to more than a thousand. Jorge Eliécer Gaitán’s 1929 debates in the Chamber of Representatives are the principal public reckoning; no company or United States officer faces any proceeding."
+    },
+    "closedLoopRatchet": {
+      "inheritedFramework": "The private-force template of Homestead and Ludlow, carried abroad: by 1928 the armed force is the host nation’s army, and the corporation’s part is the diplomatic brief.",
+      "newFrameworkCreated": "Proxy suppression through good offices — the lobbying of a foreign ministry becomes the mechanism, the host state supplies the troops, and the company keeps clean hands and an unchanged payroll.",
+      "closedLoopRecirculation": "The zone’s export revenue continues to flow north; the diplomatic relationship that protected it is unaffected; the company faces no liability in either country.",
+      "enablesNextDossier": "DS-1954-PBSUCCESS"
+    },
+    "decoyVsLedger": {
+      "viralDecoy": "A purely Colombian affair — a communist-led strike put down by a nervous government — or, in the other direction, a massacre ordered outright from Washington on the company’s instruction.",
+      "whyDecoyFails": "Neither survives the record. The published telegrams show the State Department acting as the company’s standing advocate in Bogotá months before the strike, which disposes of the purely local account; and those same telegrams carry no instruction to use force, which is why this dossier does not claim one.",
+      "documentedLedger": "Foreign Relations of the United States 1928, volume II, chapter \"Good offices of the Department of State to protect the interests of the United Fruit Company in Colombia\": four telegrams, March to June 1928, in which Washington presses Colombia on the company’s behalf. In November 1928 some 25,000 workers struck over contracts, hours and scrip; on 6 December Colombian troops fired on the crowd at Ciénaga; the toll remains disputed and no one was prosecuted."
+    },
+    "citationIds": [
+      "CIT-1928-FRUSUFCO",
+      "CIT-1928-BANANAPRESS"
+    ]
+  },
+      {
+    "code": "DS-2007-BLACKWATER",
+    "eraId": "ERA-09-2001",
+    "yearStart": 2007,
+    "yearEnd": 2020,
+    "title": "Immunity by Order 17: Nisour Square, a Dismissed Indictment, and a Pardon",
+    "primaryTab": "deep-state",
+    "secondaryTabs": [
+      "crash-conduits",
+      "consent"
+    ],
+    "mechanism": "COST_PLUS_RECONSTRUCTION",
+    "tier": "TIER_1_STATUTE_COURT",
+    "auditDisposition": "DOCUMENTED",
+    "participants": [
+      "Blackwater USA / Blackwater Lodge & Training Center",
+      "Erik Prince",
+      "U.S. Department of State (Worldwide Personal Protective Services)",
+      "Coalition Provisional Authority",
+      "House Committee on Oversight and Government Reform",
+      "U.S. District Court for the District of Columbia",
+      "Families of the Nisour Square dead"
+    ],
+    "extractionLoop": {
+      "stage1_upfrontSkim": "Diplomatic protection in Iraq is bought as a service under the State Department’s Worldwide Personal Protective Services contract, a cost-reimbursement vehicle whose task orders run into the hundreds of millions, with the per-guard day rate billed through the contractor.",
+      "stage2_structuralCompromise": "The force that results is armed, foreign and outside both military discipline and Iraqi process: Coalition Provisional Authority Order 17 had placed contractors beyond Iraqi legal reach, leaving no local forum at all.",
+      "stage3_informationFog": "On 16 September 2007 Blackwater guards fire into traffic at Nisour Square in Baghdad, killing seventeen civilians. The incident is first handled as a protective-detail shooting and investigated by the agency that employed the detail, and the guards’ compelled statements become the evidentiary problem that later sinks the prosecution.",
+      "stage4_monopolyWindfall": "The contract work continues through the hearing cycle and beyond under successor arrangements; the company is restructured and renamed rather than excluded.",
+      "stage5_merseyWhitewash": "Congress holds a hearing on 2 October 2007; the criminal case is dismissed on 31 December 2009 over the use of the compelled statements; the D.C. Circuit revives it and convictions follow years later; the civil suits by victims’ families settle; and in December 2020 the four convicted men are pardoned."
+    },
+    "closedLoopRatchet": {
+      "inheritedFramework": "The cost-plus war-logistics vehicle of LOGCAP III and the post-9/11 liability shields — contractor immunity by occupation order rather than by statute.",
+      "newFrameworkCreated": "A private armed force operating under a civilian agency’s contract with no host-state jurisdiction, where the accountability path runs only through a distant criminal court and ends at the pardon power.",
+      "closedLoopRecirculation": "The protective-services market keeps the revenue through the litigation; the principals move on to successor entities and new contracts; the families’ claims are settled privately and the convictions are erased.",
+      "enablesNextDossier": "DS-2025-PALANTIR"
+    },
+    "decoyVsLedger": {
+      "viralDecoy": "Rogue contractors — a few trigger-happy men who disgraced an otherwise ordinary security company, dealt with by the courts in the end.",
+      "whyDecoyFails": "The structure, not the men, is what the record documents: an occupation order that removed Iraqi jurisdiction, a hearing that examined the contract and the company rather than the shooters, a dismissal in 2009 on the handling of compelled statements, and a pardon in 2020 that undid the convictions the system eventually produced.",
+      "documentedLedger": "A State Department protective-services contract; seventeen civilians killed at Nisour Square on 16 September 2007; a House Oversight hearing titled \"Blackwater USA\" on 2 October 2007; United States v. Slough dismissed in the District of Columbia on 31 December 2009; Estate of Abtan v. Blackwater Lodge & Training Center litigated and settled; convictions in United States v. Slatten; presidential pardons in December 2020."
+    },
+    "citationIds": [
+      "CIT-2007-BLACKWATERHRG",
+      "CIT-2009-SLOUGH",
+      "CIT-2009-ABTAN"
+    ]
+  }
   ],
   "entities": [
     {
@@ -6481,7 +6857,39 @@
         }
       ],
       "closedLoopSummary": "Private monopolists rotate into state command, purge career civil-service oversight, and wire sovereign procurement and trade policy back to their private balance sheets."
-    }
+    },
+    {
+    "id": "LIN-05-PRIVATE-FORCE",
+    "name": "The Private Force Lineage (Pinkerton -> Ludlow -> United Fruit -> PBSuccess -> Blackwater)",
+    "chain": [
+      {
+        "year": 1892,
+        "entity": "Pinkerton National Detective Agency / Carnegie Steel",
+        "role": "A corporation lands ~300 armed men at its own plant by barge; three congressional inquiries follow and the 1893 statute restricts only federal hiring"
+      },
+      {
+        "year": 1914,
+        "entity": "Colorado Fuel & Iron / Colorado National Guard",
+        "role": "Company guards plus state militia besiege the tent colonies; after Ludlow the answer is a company-convened representation plan and a publicity bureau, with no convictions"
+      },
+      {
+        "year": 1928,
+        "entity": "United Fruit Company / U.S. State Department / Colombian army",
+        "role": "The armed force becomes the host nation’s: Washington’s standing \"good offices\" for the company in Bogotá, and troops firing on the strikers at Ciénaga"
+      },
+      {
+        "year": 1954,
+        "entity": "United Fruit / Dulles brothers / CIA (PBSuccess)",
+        "role": "The same company converts a land-and-tax dispute into a covert operation run by the state intelligence service"
+      },
+      {
+        "year": 2007,
+        "entity": "Blackwater USA / State Department Worldwide Personal Protective Services",
+        "role": "The force is contracted back into private hands under a civilian agency, immune from host-state process by occupation order; the criminal case is dismissed, revived, won, and pardoned"
+      }
+    ],
+    "closedLoopSummary": "Armed force is bought by the firm whose margin it protects, and the public answer never reaches the arrangement: a hired agency becomes a state militia, becomes a foreign army acting on a diplomatic brief, becomes an intelligence operation, becomes a contractor outside every jurisdiction. Each round ends in an inquiry, a narrow rule, or a pardon, and the next round hires under the rule that was written for the last one."
+  }
   ],
   "bridges": [
     {

@@ -10,3 +10,6 @@ node_modules/
 # Research drafts kept local: rejected items and raw unreviewed data
 research/rejected.json
 research/archive/
+
+# Provider response cache: regenerated on demand, never reviewed
+research/ingest/cache/

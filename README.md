@@ -66,14 +66,17 @@ npm install
 npm start        # Express on :3000
 ```
 
-It is excluded from the Cloudflare deployment by `.assetsignore` — the live
-site at findaliens.net is the static gazette in the repo root.
+It is never deployed: `wrangler.jsonc` publishes only `public/`, so nothing
+outside that directory can reach findaliens.net. The live site is the static
+gazette under `public/`.
 
 ## The trapdoor
 
 `robots.txt` disallows one path that does not exist, and `_redirects` sends that
-path to the labyrinth at `wheattodd.com`. `index.html` carries one
-matching off-screen `nofollow` link before `</body>`. Both are invisible to
+path to the labyrinth at `wheattodd.com`. Every page under `public/` except the
+crawler notice carries one matching off-screen `nofollow` link before
+`</body>`, so a scraper that enters through any subpage meets the bait too
+(`check.py` asserts this per page). Both are invisible to
 visitors and to compliant crawlers; only a scraper that ignores robots.txt or
 harvests it for disallowed paths ever reaches them. Nothing else from that system
 is present here — no operational routes, no measurement code. See
@@ -110,6 +113,14 @@ this in the first place.
 npx wrangler deploy
 python check.py
 ```
+
+GitHub Actions (`.github/workflows/ci.yml`) runs the trove tests and a
+`wrangler deploy --dry-run` on every push, and on `main` it deploys and then
+runs `check.py --no-trap` against the live site, so a push that deploys a
+stale or leaking build fails visibly. The deploy job needs a
+`CLOUDFLARE_API_TOKEN` repository secret for the Crinkle account with
+Workers Scripts edit scope; with no secret set, only the test job runs green
+and the deploy job fails at the deploy step.
 
 The wire needs its token once per account (it is a Wrangler secret, never a
 file in the repo). Write `{"MUT_WIRE_TOKEN": "…"}` to a file outside the repo

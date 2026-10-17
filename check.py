@@ -23,6 +23,13 @@ import urllib.request
 SITE = "https://findaliens.net"
 TRAP = "https://wheattodd.com"
 UA = "findaliens-check/1.0 (+repo smoke test)"
+# Every public page except crawler-rules.html, which is the notice that
+# explains the trap and is noindex anyway.
+PAGES = [
+    "atlas.html", "blind-pool.html", "carbon-class.html", "climate.html",
+    "consent.html", "crash-conduits.html", "deep-state.html",
+    "demystification.html", "handoffs.html", "transhumanism.html", "web.html",
+]
 
 _fails = []
 
@@ -76,6 +83,12 @@ def main():
 
     print("\nthe trapdoor")
     check("hidden nofollow link present", "wheattodd.com/maze/root" in body)
+    # Every page is an entrance. For a while only the homepage carried the
+    # link, so a scraper that arrived on a dossier never met the bait.
+    for page in PAGES:
+        pst, pbody, _ = get(base + "/" + page)
+        check("bait on %s" % page, pst == 200 and "wheattodd.com/maze/root" in pbody,
+              "status=%s" % pst)
     rst, robots, _ = get(base + "/robots.txt")
     # Cloudflare's Managed robots.txt silently replaces this file if it is on
     # for the zone, which disables the honeytoken without any error anywhere.

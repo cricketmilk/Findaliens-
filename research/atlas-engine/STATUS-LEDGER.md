@@ -561,6 +561,187 @@
      Not merged to main, not pushed to main, not deployed — deploy stays the
      operator's call. -->
 
+<!-- ACTUAL 2026-10-17: THE FOREKNOWLEDGE NINE — nine Phase-0 stubs about parties
+     acting on advance knowledge of a catastrophe, researched against primary
+     documents. SIX SURVIVED WITH READ CITATIONS; THREE WERE REMOVED FROM
+     master/atlas.json. All nine carried identical boilerplate in decoyVsLedger,
+     auditDisposition "DOCUMENTED", and CIT-1720-HANSARD (the 1721 South Sea report)
+     as their only citation. Counts: 118 -> 115 public dossiers, 152 -> 167 citations.
+     THE SIX THAT SURVIVED, and what was actually read for each:
+     CC-2001-WTC7_PUT_OPTIONS_2001 — retitled away from "WTC 7 Evidence Destruction",
+     because the record does not support that half and CC-2001-WTC7 already carries the
+     SEC-file story with read citations. Read: the 9/11 Commission's Terrorist Financing
+     Staff Monograph, Appendix B "Securities Trading" (pp. 145-151), downloaded from
+     911commission.gov and read as extracted text; and note 130 to chapter 5 of the
+     Commission report (p. 499) from the govinfo PDF. The dossier's ledger is the
+     investigation's own scale and method — 103 companies, 32 funds, 9.5 million
+     transactions, Large Option Position Reports, the OCC auto-exercise point that kills
+     the "uncollected profits" claim — and its finding that every profitable trade
+     resolved to a lawful strategy. It also records what is NOT public: no trader, fund
+     or newsletter is named anywhere in the documents, and the SEC memorandum the
+     finding rests on ("Pre-September 11, 2001 Trading Review", 15 May 2002) has never
+     been released. The monograph's own disclaimer — the Commissioners "have not
+     approved this text" — is quoted in the citation rather than glossed over.
+     CC-2020-SENATE_COVID_DUMP_2020 — retitled from "The January 2020 Senate COVID-19
+     Stock Dump": the court record read here is about Senator Burr and about trades
+     dated 13 February 2020, not January, and not about the other senators named in
+     2020 coverage, whose filings were not read and about whom the dossier asserts
+     nothing. Read: the D.D.C. memorandum opinion and order of 29 August 2022 (Chief
+     Judge Howell, Misc. No. 21-16), read in full in a browser on CourtListener; the
+     D.C. Circuit opinion 28 F.4th 292 (18 March 2022) from media.cadc.uscourts.gov;
+     and sections 4 and 6 of the STOCK Act, Pub. L. 112-105, from govinfo. The ledger
+     is the disclosed sale ($628,000-$1.72m), the sealed warrant of 13 May 2020, the
+     closed criminal review, the parallel SEC matter, and the partial unsealing ordered
+     over DOJ's objection.
+     CC-2008-PAULSON_ETON_PARK_2008 — the calendar decided this one. Secretary
+     Paulson's official July 2008 calendar (a 60-page scan with no text layer, served
+     from Treasury's electronic reading room) was read page by page in a browser, and
+     page 10 records, for Monday 21 July 2008, 12:00-2:00 PM: "Lunch Roundtable with
+     Hedge Fund and Private Equity Firm Managers, Eton Park Capital Management,
+     Boardroom 823 3rd Avenue". That is the whole of the primary record for the
+     meeting: no attendee is named, no agenda, not one word of what was said. Also
+     read: Treasury press release HP-1079 of 13 July 2008 (the GSEs "must continue to
+     do so in their current form as shareholder-owned companies"), HERA s.1117 from
+     govinfo, and the FHFA Director's statement of 7 September 2008. TWO PRECISION
+     CATCHES: the FHFA statement eliminated the dividends but left "the common and all
+     preferred stocks ... outstanding" — the equity was not formally wiped out, which
+     the popular retelling gets wrong; and a rescue plan was not secret on 21 July,
+     having been announced publicly eight days earlier with the legislation then before
+     Congress. The dossier says plainly that what was said at that table is not in the
+     record and that it does not supply it.
+     CC-1986-CHERNOBYL_EVAC_1986 — retitled away from "Nomenklatura Evacuation",
+     because nothing read here records one. Read: IAEA Safety Series No. 75-INSAG-7
+     (1992) and the Chernobyl Forum's "Chernobyl's Legacy", both from the IAEA's own
+     servers. INSAG-7 supplies the real foreknowledge in this file and it is
+     engineering foreknowledge: the positive scram effect was identified at Ignalina in
+     1983, the Chief Design Engineer circulated it and promised design changes, "he
+     made no such changes", the recommended procedural measures "were not adopted", the
+     announced restrictions on full rod withdrawal "were never imposed and apparently
+     the matter was forgotten" — and the defect was not disclosed to the IAEA's own
+     1986 post-accident review ("Certainly the account in INSAG-1 would have been
+     different had the features of the control and safety rods been revealed at the
+     Post-Accident Review Meeting in 1986"). Chernobyl's Legacy supplies the public
+     side: the delayed announcement, information "selective and restrictive", the
+     measurable cost in radioiodine countermeasures, Pripyat's ~50,000 evacuated within
+     40 hours. It records no separate evacuation of officials or their families and
+     does not mention the May Day observances at all, and the dossier says so in terms.
+     CC-2008-FUKUSHIMA_TSUNAMI_2011 — read: the NAIIC executive summary (Global
+     edition, 2012) from the National Diet Library web archive, the Commission's own
+     site being gone; and the IAEA Director General's 2015 report. The two are cited
+     together because they differ: the Diet commission finds collusion and measures
+     "intentionally postponed", the IAEA finds an absence of regulatory requirement and
+     a 2002 JSCE source model that assumed no tsunami-generating earthquake off the
+     site. PRECISION CATCH: the viral 15.7-metre in-house TEPCO estimate of 2008
+     appears in NEITHER document. It is not stated anywhere in the dossier, and both
+     citations say so; what the IAEA gives is a 2009 estimate of 6.1 m against a 3.1 m
+     design basis, producing one change (raised pump motors) and no other flood
+     protection.
+     CC-1995-BARINGS_LEESON_1995 — read: HC 673, the Board of Banking Supervision
+     report, a 354-page scan with NO TEXT LAYER served from assets.publishing.service.gov.uk;
+     pdftotext returns zero lines on it, so it was read page by page in a browser
+     through a local pdf.js viewer (title page, covering letter of 13 July 1995, and
+     report pages 3, 78 and 232-233). Account '88888' set up July 1992 and excluded
+     from every daily report to London but the margin file on instructions of on or
+     around 8 July 1992; losses of some GBP 208 million by 31 December 1994 and some
+     GBP 830 million by 27 February 1995; the three summary conclusions at 13.4; Peter
+     Baring's "absolute" at 13.10. The Board's own caveat at 13.1 is quoted in the
+     citation — very limited access to documents in Singapore, no formal interviews
+     with BFS management or auditors, and nothing at all from Leeson — so the report is
+     not presented as a finding against people it could not question. Second citation:
+     the Bank of England's Banking Act Report 1995/96 (OCR'd scan, used for dates,
+     sequence and the Board's own summary rather than fine wording).
+     THE THREE REMOVED, with reasons:
+     CC-2023-OCT7_SHORT_SELLING_2023 (Pre-October 7 Terror Short-Selling Anomalies) —
+     REMOVED. There is no primary document to cite. The underlying study, Jackson and
+     Mitts, "Trading on Terror?", sits on SSRN behind a Cloudflare bot wall that was
+     not bypassed; the Israel Securities Authority's own statement could not be located
+     on isa.gov.il (the site 301s to www.new.isa.gov.il and nothing matching was
+     found); everything else available is press summary. On the substance, the headline
+     profit figure was corrected by a factor of 100 after a shekels/agorot unit error,
+     the ISA said its surveillance found no significant trading abnormalities requiring
+     investigation, no trader has been identified, and no enforcement action or inquiry
+     finding exists. A dossier here would have had nothing to put in documentedLedger
+     and no honest way to fill the five-stage extraction loop.
+     CC-1990-HARKEN_ENERGY_1990 (Harken Energy Insider Sale & BCCI Financing Nexus) —
+     REMOVED, and the BCCI half is affirmatively contradicted. The Senate Foreign
+     Relations Committee's BCCI report (the Kerry Committee's full 23-chapter report,
+     all chapters downloaded from irp.fas.org and searched) contains ZERO occurrences
+     of "Harken"; Khalid bin Mahfouz and Sheikh Bakhsh appear there as BCCI figures
+     with no Harken link stated. The insider-sale half has no readable primary: the
+     1990 Form 144 and Form 4 and the SEC's 1991-92 enforcement memoranda predate
+     EDGAR (EDGAR's earliest Harken Energy filing, CIK 0000313478, is the 10-K of
+     29 March 1994); the Center for Public Integrity's "Harken documents" page lists
+     the SEC memoranda but every href on it is the literal template variable
+     "{filedir_2}", four guessed paths return 404/403, and the Wayback availability API
+     has no snapshot of any of them. CourtListener and govinfo return bag-of-words
+     noise only. The node would have stood on journalism alone.
+     CC-2000-NINE_ELEVEN_2001 (9/11 Intelligence Asset Withholding & Petrodollar
+     Shield) — REMOVED as a Phase-0 duplicate. Both halves are already carried by
+     nodes with read citations: the intelligence-withholding half by DS-2001-911 (Alec
+     Station silos, 3/3 PASS) and the petrodollar half by CC-1974-PETRODOLLAR (3/3
+     PASS). Rebuilding it would have meant writing a different node, not rescuing this
+     one. LEFT ON THE TABLE for a future session, and NOT built here: the Joint
+     Inquiry's declassified Part Four (the "28 pages",
+     https://intelligence.house.gov/UploadedFiles/declasspart4.pdf — downloaded, 34
+     pages, no text layer, NOT read) against the Commission report's own chapter 5
+     finding, which WAS read here, that "we have found no evidence that the Saudi
+     government as an institution or senior Saudi officials individually funded the
+     organization. (This conclusion does not exclude the likelihood that charities with
+     significant Saudi government sponsorship diverted funds to al Qaeda.)" That is a
+     real decoy-versus-ledger node and it needs its own batch.
+     PROCESS NOTE — HARVEST AND HAND-RESOLUTION. Of six harvests, three returned
+     vetted citations and three returned none. The three that blocked
+     (CC-2001-WTC7_PUT_OPTIONS_2001, CC-2008-PAULSON_ETON_PARK_2008,
+     CC-1986-CHERNOBYL_EVAC_1986) were set to HARVESTED BY HAND in
+     nodes.manifest.json, with a spec-<code>.md written saying exactly that, so that
+     --finish would gate and merge the hand-written drafts. Of the three that did
+     return rows, the courtlistener harvest for CC-2020-SENATE_COVID_DUMP_2020 was the
+     only one that earned its keep: it surfaced CourtListener opinion 7860643, which
+     was then opened and read in a browser and is cited under a hand-written id. The
+     Barings harvest returned two modern "Barings LLC" asset-management cases with no
+     connection to the 1995 collapse (dropped); the Fukushima harvest returned the NRC
+     Near-Term Task Force report, which was not read and is not cited. Nothing was
+     transcribed from a provider row.
+     MERGE NOTE — replace-on-remerge could not cut any of the nine stubs byte-exact
+     ("REPLACE-ON-REMERGE FAIL ... existing block not found byte-exact"), because
+     migrate.mjs wrote the Phase-0 entries with a different indentation than
+     merge-drafts' own serializer produces. All nine were therefore cut first by a
+     brace-matching script that verifies, before writing, that the file still parses,
+     that exactly the named dossiers are gone, that no other dossier moved, and that
+     the citations array is untouched; --finish then merged the six as clean appends.
+     SOURCES OPENED AND THEN REJECTED OR NOT READ (the part worth keeping): SSRN and
+     the ISA, as above. The Senate eFD portal (efdsearch.senate.gov) gates its filings
+     behind a prohibition-agreement form; Burr's periodic transaction reports are
+     scanned images behind it and were NOT read, so no eFD record is cited and the
+     disclosed sale is taken from the D.C. Circuit's own recital of it instead. The
+     Center for Public Integrity Harken archive, as above. CourtListener's API returns
+     401 unauthenticated and its plain pages return an empty 202 to scripts, so the
+     Burr opinion was read in a browser. The Chernobyl Forum PDF carries a font-
+     encoding fault that shifts some runs by three letters; nothing garbled is quoted,
+     and where the garbled run contained a number — the hours over which stable iodine
+     was distributed in Pripyat — the number is omitted and the citation says why.
+     NO NEW ERAS AND ONE DELIBERATE EDGE: CC-1995-BARINGS_LEESON_1995 carries
+     yearStart 1992, one year before ERA-09-2001's 1993 start, because account '88888'
+     opening in July 1992 is the point of the node — the same licence CB-1984-BHOPAL
+     takes at the other end of ERA-08. Every other yearStart falls inside its era.
+     COUNTS: 115 public dossiers, 167 citations, 9 lineages, 183 merged nodes.
+     atlas.html's hardcoded entry tallies updated (118 -> 115 in the og:description,
+     the print caption and the page dek); lineages stay at nine. extract-entities
+     re-run: 390 entries, 967 entities. GATES: npm test 38/38 pass; check-links over
+     the six new drafts, 15 URLs, 15 ok / 0 blocked / 0 DEAD. atlas.html served from
+     public/ and measured in the browser: 115 index rows, 10 era headers each exactly
+     once, 9 lineage cards, and CC-1995-BARINGS_LEESON_1995 and
+     CC-2008-PAULSON_ETON_PARK_2008 both opened to confirm every citation link renders
+     with the right href.
+     VERIFY PASS COLUMN: these six rows read GATE 0-QUAR, not 3/3 PASS. The
+     deterministic forensic gate ran on all six and quarantined nothing — no
+     research/leads/ file was written for any of them — but the 3-agent adversarial
+     audit did not run, and the rows say so rather than inheriting the --finish
+     template's wording.
+     Legacy pages and crash-finance-data.js untouched; legacy surgery stays off.
+     Not merged to main, not pushed to main, not deployed — deploy stays the
+     operator's call. -->
+
 # THE CORNFIELD GAZETTE — MASTER NODE STATUS LEDGER
 
 | Node Code | Title / Scope | Era | Evidence Tier | Seeding Providers | Verify Pass | UI Wired | Done |
@@ -616,3 +797,9 @@
 | `DS-1935-RACKET` | Vinson-Trammell's 10% Profit Cap & the Nye Committee That Called It Unenforceable | `ERA-07-1929` | `TIER_1_STATUTE_COURT` | `govinfo,archive.org` | GATE 0-QUAR | YES | [x] |
 | `CB-1984-BHOPAL` | The Bhopal Act's Exclusive Standing, Forum Non Conveniens & the $470M Discharge | `ERA-08-1953` | `TIER_1_STATUTE_COURT` | `courtlistener` | GATE 0-QUAR | YES | [x] |
 | `CB-2023-TITAN` | OceanGate's 'Mission Specialists', an Unflagged Submersible & Two 2025 Federal Boards | `ERA-10-2020` | `TIER_2_INQUIRY` | `ntsb.gov,news.uscg.mil` | GATE 0-QUAR | YES | [x] |
+| `CC-2001-WTC7_PUT_OPTIONS_2001` | The Pre-9/11 Put Options: 9.5M Transactions, One Bearish Adviser and a Newsletter Faxed on a Sunday | `ERA-09-2001` | `TIER_2_INQUIRY` | `911commission.gov,govinfo` | GATE 0-QUAR | YES | [x] |
+| `CC-2020-SENATE_COVID_DUMP_2020` | A Disclosed Sale, a Sealed Warrant and a Closed File: the February 2020 Senate Stock Sales | `ERA-10-2020` | `TIER_1_STATUTE_COURT` | `courtlistener,govinfo,cadc.uscourts.gov` | GATE 0-QUAR | YES | [x] |
+| `CC-2008-PAULSON_ETON_PARK_2008` | The Eton Park Lunch: Two Hours in the Secretary’s Calendar, and What It Does Not Record | `ERA-09-2001` | `TIER_1_STATUTE_COURT` | `home.treasury.gov,govinfo,fhfa.gov` | GATE 0-QUAR | YES | [x] |
+| `CC-1986-CHERNOBYL_EVAC_1986` | Known at Ignalina in 1983: the Scram Defect Nobody Corrected, and the Announcement That Waited | `ERA-08-1953` | `TIER_2_INQUIRY` | `iaea.org` | GATE 0-QUAR | YES | [x] |
+| `CC-2008-FUKUSHIMA_TSUNAMI_2011` | Foreseeable Before 11 March: the Diet Commission and the IAEA on What TEPCO and NISA Knew | `ERA-09-2001` | `TIER_2_INQUIRY` | `warp.ndl.go.jp,iaea.org` | GATE 0-QUAR | YES | [x] |
+| `CC-1995-BARINGS_LEESON_1995` | Account ‘88888’: Cut Out of the Daily Reports in July 1992, £830M by 27 February 1995 | `ERA-09-2001` | `TIER_2_INQUIRY` | `assets.publishing.service.gov.uk,bankofengland.co.uk` | GATE 0-QUAR | YES | [x] |

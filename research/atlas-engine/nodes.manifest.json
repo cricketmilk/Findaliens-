@@ -1587,6 +1587,181 @@
         "The ROI PDF itself is served behind a bot wall and was not read; the Coast Guard citation is the official press release. Neither board determines liability, and no finding of liability should be implied."
       ],
       "mechanism": "MERSEY_LIABILITY_WHITEWASH"
+    },
+    {
+      "code": "CC-2001-WTC7_PUT_OPTIONS_2001",
+      "era": "ERA-09-2001",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "pre-9/11 put option trading investigation",
+      "queries": [
+        {
+          "q": "National Commission on Terrorist Attacks Upon the United States",
+          "year": 2004,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": [
+            "terrorist attacks"
+          ]
+        }
+      ],
+      "anchors": [
+        "The question is whether anyone traded on foreknowledge of 9/11. The answer on the record read here is no, and the dossier says so.",
+        "Source: 9/11 Commission Terrorist Financing Staff Monograph, Appendix B \"Securities Trading\", pp. 145-151, read from the official PDF.",
+        "Source: 9/11 Commission Report, note 130 to chapter 5, p. 499, read from the govinfo PDF.",
+        "Do not claim the SEC files destroyed in WTC 7 contained the pre-9/11 trading evidence: the monograph records that the investigation ran on exchange, SRO, broker-dealer and Options Clearing Corporation records from 12 September 2001."
+      ],
+      "mechanism": "DERIVATIVE_CLEARING_CAPTURE"
+    },
+    {
+      "code": "CC-2020-SENATE_COVID_DUMP_2020",
+      "era": "ERA-10-2020",
+      "providers": [
+        "govinfo",
+        "courtlistener"
+      ],
+      "status": "DONE",
+      "topic": "Senate stock sales February 2020 and the sealed warrant",
+      "queries": [
+        {
+          "q": "Stop Trading on Congressional Knowledge Act",
+          "year": 2012,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": [
+            "congressional knowledge"
+          ]
+        },
+        {
+          "q": "Los Angeles Times Communications unseal court records",
+          "year": 2022,
+          "providers": [
+            "courtlistener"
+          ],
+          "strong": [
+            "los angeles times"
+          ]
+        }
+      ],
+      "anchors": [
+        "The record read here is about Senator Richard Burr, not about every senator named in the 2020 coverage. Do not extend it to Loeffler, Feinstein, Inhofe, Perdue or Hoeven: their filings were not read.",
+        "Source: In re Application of Los Angeles Times Communications LLC to Unseal Court Records, No. 21-5128 (D.C. Cir., decided 18 March 2022), read from the court PDF.",
+        "Source: STOCK Act, Pub. L. 112-105, 126 Stat. 291 (4 April 2012), sections 4 and 6, read from the govinfo PDF.",
+        "The Senate eFD portal gates its filings behind a prohibition-agreement form; the periodic transaction reports themselves were NOT read and are not cited."
+      ],
+      "mechanism": "REGULATORY_REVOLVING_DOOR"
+    },
+    {
+      "code": "CC-2008-PAULSON_ETON_PARK_2008",
+      "era": "ERA-09-2001",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Treasury Secretary calendar Eton Park July 2008 and the GSE conservatorship",
+      "queries": [
+        {
+          "q": "Housing and Economic Recovery Act of 2008",
+          "year": 2008,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": [
+            "housing and economic recovery"
+          ]
+        }
+      ],
+      "anchors": [
+        "The calendar entry is the whole of the primary record for the meeting. What was said inside it is not in any document read here, and the dossier must not assert it.",
+        "Source: Secretary Paulson calendar, July 2008, read page by page in a browser from the Treasury electronic reading room scan.",
+        "Source: Treasury press release HP-1079, 13 July 2008; FHFA Director Lockhart statement, 7 September 2008; HERA, Pub. L. 110-289, section 1117."
+      ],
+      "mechanism": "REGULATORY_REVOLVING_DOOR"
+    },
+    {
+      "code": "CC-1986-CHERNOBYL_EVAC_1986",
+      "era": "ERA-08-1953",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Chernobyl known design defect and delayed public announcement",
+      "queries": [
+        {
+          "q": "Chernobyl nuclear accident",
+          "year": 1986,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": [
+            "chernobyl"
+          ]
+        }
+      ],
+      "anchors": [
+        "No document read here records a separate evacuation of officials or their families, and none records the Kyiv May Day parade. Do not assert either.",
+        "Source: IAEA Safety Series No. 75-INSAG-7, The Chernobyl Accident: Updating of INSAG-1 (1992), read from the official PDF.",
+        "Source: Chernobyl’s Legacy, The Chernobyl Forum 2003-2005, second revised version (IAEA), read from the official PDF."
+      ],
+      "mechanism": "MERSEY_LIABILITY_WHITEWASH"
+    },
+    {
+      "code": "CC-2008-FUKUSHIMA_TSUNAMI_2011",
+      "era": "ERA-09-2001",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Fukushima Daiichi foreseeability and regulatory capture",
+      "queries": [
+        {
+          "q": "Fukushima nuclear accident",
+          "year": 2011,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": [
+            "fukushima"
+          ]
+        }
+      ],
+      "anchors": [
+        "The viral figure of a 15.7 metre in-house TEPCO tsunami estimate in 2008 does NOT appear in either document read here. Do not state it. The IAEA report gives a 2009 TEPCO estimate of 6.1 m.",
+        "Source: The National Diet of Japan, The official report of the Fukushima Nuclear Accident Independent Investigation Commission, Executive summary (Global edition, 2012), read from the National Diet Library web archive PDF.",
+        "Source: The Fukushima Daiichi Accident, Report by the Director General (IAEA, 2015), read from the official PDF."
+      ],
+      "mechanism": "REGULATORY_REVOLVING_DOOR"
+    },
+    {
+      "code": "CC-1995-BARINGS_LEESON_1995",
+      "era": "ERA-09-2001",
+      "providers": [
+        "courtlistener"
+      ],
+      "status": "DONE",
+      "topic": "Barings collapse account 88888 and the Board of Banking Supervision inquiry",
+      "queries": [
+        {
+          "q": "Barings",
+          "year": 1995,
+          "providers": [
+            "courtlistener"
+          ],
+          "strong": [
+            "barings"
+          ]
+        }
+      ],
+      "anchors": [
+        "Source: Report of the Board of Banking Supervision Inquiry into the Circumstances of the Collapse of Barings, HC 673, ordered to be printed 18 July 1995 — a scanned PDF with no text layer, read page by page in a browser (title page, cover letter, pp. 3, 78, 232-233).",
+        "Source: Bank of England Banking Act Report 1995/96, Board of Banking Supervision annual statement, read from the official PDF (OCR text of a scan).",
+        "The Board could not interview Leeson or BFS management and said so; do not present its account as a finding against individuals it could not question."
+      ],
+      "mechanism": "DERIVATIVE_CLEARING_CAPTURE"
     }
   ]
 }

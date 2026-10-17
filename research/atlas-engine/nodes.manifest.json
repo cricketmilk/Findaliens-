@@ -1931,6 +1931,52 @@
         "Citations hand-resolved, opened and read. The Inquiry site is behind a web-archive human-verification challenge that was NOT circumvented; the report was taken from assets.publishing.service.gov.uk."
       ],
       "mechanism": "REGULATORY_REVOLVING_DOOR"
+    },
+    {
+      "code": "CC-1970-MADOFF_2008",
+      "era": "ERA-08-1953",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Phase-0 stub researched from primary documents",
+      "queries": [
+        {
+          "q": "CC-1970-MADOFF_2008",
+          "year": null,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Phase-0 stub replaced. Citations hand-resolved, opened and read."
+      ],
+      "mechanism": "REGULATORY_REVOLVING_DOOR"
+    },
+    {
+      "code": "CC-2007-SUBPRIME_CONVEYOR_2007",
+      "era": "ERA-09-2001",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Phase-0 stub researched from primary documents",
+      "queries": [
+        {
+          "q": "CC-2007-SUBPRIME_CONVEYOR_2007",
+          "year": null,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Phase-0 stub replaced. Citations hand-resolved, opened and read."
+      ],
+      "mechanism": "DERIVATIVE_CLEARING_CAPTURE"
     }
   ]
 }

@@ -961,6 +961,53 @@
      VERIFY PASS: GATE 0-QUAR. Gate ran, quarantined nothing.
      Not merged to main, not pushed to main, not deployed. -->
 
+<!-- ACTUAL 2026-10-17 (fifth pass): THE FIRST TWO PHASE-0 STUBS REPLACED BY RESEARCHED
+     NODES. Dossier count unchanged at 121 (two stubs cut, two researched nodes merged);
+     citations 179 -> 181. Unsourced Phase-0 stubs: 38 -> 36.
+     CC-1970-MADOFF_2008 — the SEC Office of Inspector General's Report of Investigation
+     OIG-509, public version, 31 August 2009, read as extracted text. ACCESS NOTE:
+     sec.gov returns 403 to a generic browser user-agent and serves the file to a
+     request that declares an identity and contact address, which is what the agency
+     asks for; check-links, which uses a generic Chrome user-agent, accordingly reports
+     this URL as "blocked (403)" rather than ok. It is not dead and it was read in full.
+     This is the cleanest decoy-versus-ledger in the batch: the OIG investigated the
+     corruption theory — including the Swanson/Shana Madoff relationship, which it
+     found "did not begin until March of 2006, nearly a year after the OCIE examination
+     he had conducted had been completed in June of 2005" — and rejected it on evidence,
+     while documenting something worse: "despite three examinations and two
+     investigations being conducted, a thorough and competent investigation or
+     examination was never performed", six substantive complaints between June 1992 and
+     December 2008, and "perhaps the most egregious failure ... that they never verified
+     Madoff's purported trading with any independent third parties." The OIG then ran
+     the check itself: a January 2005 feeder-fund statement claiming "approximately
+     $2.5 billion of S&P 100 equities" against DTC records showing "less than $18
+     million" held that day. Madoff's own words are in the report: he thought the DTC
+     request was "the end game, over ... and it never happened", and "was astonished".
+     CC-2007-SUBPRIME_CONVEYOR_2007 — the Financial Crisis Inquiry Commission's final
+     report (January 2011) from govinfo. TEXT CAUTION RECORDED IN THE CITATION: the
+     extraction DROPS NUMERALS in several sentences of the conclusions (for example
+     "nearly , mortgage-related securities", "of  were interest-only loans"), so NO
+     figure is quoted from this document anywhere in the dossier and only sentences that
+     survive extraction intact are reproduced. The dossier also carries, in
+     whyDecoyFails, the fact the report carries on its own contents page: the Commission
+     SPLIT, with dissenting views by Keith Hennessey, Douglas Holtz-Eakin and Bill
+     Thomas and a separate dissent by Peter J. Wallison. "Avoidable" is a majority
+     conclusion, not a unanimous one, and a dossier that quoted it as a settled national
+     verdict would be overstating its own source.
+     NOT BUILT THIS PASS, and why: the Lehman Repo 105 node wants the Valukas examiner's
+     report, whose URL on jenner.com was guessed and 404'd; the Greece node wants the
+     IMF's 2013 ex post evaluation of the 2010 Stand-By Arrangement, and imf.org returns
+     403 to scripted requests including with a Referer header; the Enron node wants the
+     Powers Report, whose findlaw copy returns HTML rather than the PDF. All three are
+     live candidates with a known target document and a solvable access problem.
+     COUNTS: 121 public dossiers, 181 citations, 9 lineages, 189 merged nodes, 36
+     unsourced Phase-0 stubs still standing. GATES: npm test 38/38; check-links over the
+     two new drafts, 2 URLs, 1 ok / 1 blocked (sec.gov, read by hand) / 0 DEAD; schema
+     validates; 0 duplicate codes, ids or citation URLs; a year-sorted pass yields
+     exactly 10 era switches.
+     VERIFY PASS: both rows GATE 0-QUAR. Gate ran, quarantined nothing.
+     Not merged to main, not pushed to main, not deployed. -->
+
 # THE CORNFIELD GAZETTE — MASTER NODE STATUS LEDGER
 
 | Node Code | Title / Scope | Era | Evidence Tier | Seeding Providers | Verify Pass | UI Wired | Done |
@@ -1028,3 +1075,5 @@
 | `CB-2010-MACONDO` | Removal Costs Plus $75 Million: the 1990 Cap and the Blowout the Commission Called Preventable | `ERA-09-2001` | `TIER_1_STATUTE_COURT` | `govinfo` | GATE 0-QUAR | YES | [x] |
 | `CB-1970-INFECTEDBLOOD` | It Should Have Been Avoided: Forty Years of Defensive Lines, and the Documents That Were Destroyed | `ERA-08-1953` | `TIER_2_INQUIRY` | `infectedbloodinquiry.org.uk` | GATE 0-QUAR | YES | [x] |
 | `CB-2017-GRENFELL` | Systematic Dishonesty: Manipulated Tests, a Complicit Testing House, and a Department That Was Well Aware | `ERA-09-2001` | `TIER_2_INQUIRY` | `assets.publishing.service.gov.uk` | GATE 0-QUAR | YES | [x] |
+| `CC-1970-MADOFF_2008` | Six Complaints, Five Examinations, One Phone Call Never Made | `ERA-08-1953` | `TIER_2_INQUIRY` | `sec.gov` | GATE 0-QUAR | YES | [x] |
+| `CC-2007-SUBPRIME_CONVEYOR_2007` | Avoidable: the Commission’s Own Conclusions, and the Two Dissents | `ERA-09-2001` | `TIER_2_INQUIRY` | `govinfo` | GATE 0-QUAR | YES | [x] |

@@ -1,0 +1,53 @@
+{
+  "code": "CC-2007-SUBPRIME_CONVEYOR_2007",
+  "eraId": "ERA-09-2001",
+  "yearStart": 2000,
+  "yearEnd": 2011,
+  "title": "Avoidable: the Commission’s Own Conclusions on the Securitization Pipeline, and the Two Dissents",
+  "primaryTab": "crash-conduits",
+  "secondaryTabs": [
+    "carbon-class",
+    "deep-state"
+  ],
+  "mechanism": "DERIVATIVE_CLEARING_CAPTURE",
+  "tier": "TIER_2_INQUIRY",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "Financial Crisis Inquiry Commission",
+    "Federal Reserve",
+    "Office of the Comptroller of the Currency",
+    "Office of Thrift Supervision",
+    "Moody’s Investors Service",
+    "Mortgage originators and securitizers"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "The fee came at origination and travelled on. The Commission describes the standard: \"Many mortgage lenders set the bar so low that lenders simply took eager borrowers’ qualifications on faith, often with a willful disregard for a borrower’s ability to pay.\" The loan was the product; whether it could be repaid was someone else’s exposure by the time it was sold.",
+    "stage2_structuralCompromise": "The pipeline is the Commission’s own metaphor and its own finding: \"We conclude collapsing mortgage-lending standards and the mortgage securitization pipeline lit and spread the flame of contagion and crisis.\" The report, it says, \"catalogues the corrosion of mortgage-lending standards and the securitization pipeline that transported toxic mortgages from neighborhoods across America to investors around the globe.\"",
+    "stage3_informationFog": "The fog was supplied by the ratings, and the Commission is blunt about their function: \"The mortgage-related securities at the heart of the crisis could not have been marketed and sold without their seal of approval. Investors relied on them, often blindly. In some cases, they were obligated to use them, or regulatory capital standards were hinged on them ... This crisis could not have happened without the rating agencies.\" Its conclusion on them is that their failures \"were essential cogs in the wheel of financial destruction\".",
+    "stage4_monopolyWindfall": "What the arrangement bought was regulatory room, and the Commission names who gave it: \"the Federal Reserve neglected its mission ‘to ensure the safety and soundness of the nation’s banking and financial system and to protect the credit rights of consumers.’ It failed to build the retaining wall before it was too late. And the Office of the Comptroller of the Currency and the Office of Thrift Supervision, caught up in turf wars, preempted state regulators from reining in abuses.\" The preemption is the windfall: it removed the one layer of supervision that was trying to act.",
+    "stage5_merseyWhitewash": "The Commission refuses the exculpatory account in its first conclusion — \"We conclude this financial crisis was avoidable ... Theirs was a big miss, not a stumble\" — and refuses the claim that nobody could have seen it: \"Despite the expressed view of many on Wall Street and in Washington that the crisis could not have been foreseen or avoided, there were warning signs.\" But it was a divided body. Its report carries dissenting views by Keith Hennessey, Douglas Holtz-Eakin and Bill Thomas, and a separate dissent by Peter J. Wallison; the conclusions above are the majority’s. It determined no liability and brought no proceedings."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "Originate-to-distribute mortgage finance, nationally chartered lenders able to preempt state consumer-protection enforcement, and capital rules that deferred to private credit ratings.",
+    "newFrameworkCreated": "The post-crisis supervisory architecture — a consolidated consumer regulator, the abolition of the Office of Thrift Supervision, and rating-agency provisions — built on the Commission’s diagnosis but not on any finding of liability.",
+    "closedLoopRecirculation": "Loose underwriting produced volume; volume produced securities; ratings made the securities saleable and capital rules made them attractive to hold; demand for securities fed back as demand for loans, which pushed underwriting looser still. The supervisor that might have interrupted it had preempted the supervisors who were trying.",
+    "enablesNextDossier": "CC-2008-TARP"
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "That the crisis was a hundred-year storm nobody could have predicted — or, from the other direction, that it was a single conspiracy run from a few desks in New York.",
+    "whyDecoyFails": "The Commission’s first conclusion rejects the storm: \"We conclude this financial crisis was avoidable. The crisis was the result of human action and inaction, not of Mother Nature or computer models gone haywire ... Theirs was a big miss, not a stumble.\" And it rejects the idea that the signals were absent: \"These trends were not secret.\" But its own account is not a conspiracy either; it is a list of systems failing in parallel — regulation, corporate governance, leverage, ethics, origination, derivatives, ratings — each with its own conclusion. The dossier should also carry what the report itself carries: the Commission split, and two sets of dissenting commissioners rejected the majority’s framing. A reader who takes \"avoidable\" as a settled national verdict is quoting a majority, not a unanimity.",
+    "documentedLedger": "A congressionally chartered commission concluding that the crisis was avoidable and that the warning signs existed. That collapsing mortgage-lending standards and the securitization pipeline \"lit and spread the flame of contagion and crisis\", with lenders taking borrowers’ qualifications \"on faith, often with a willful disregard for a borrower’s ability to pay\". That the Federal Reserve \"neglected its mission\" and \"failed to build the retaining wall\", and that the OCC and OTS, \"caught up in turf wars, preempted state regulators from reining in abuses\". That the rating agencies’ failures were \"essential cogs in the wheel of financial destruction\" and that the crisis \"could not have happened without\" them. And that the Commission reached these conclusions over the dissent of Hennessey, Holtz-Eakin and Thomas, and of Wallison separately."
+  },
+  "citationIds": [
+    "CIT-2011-FCIC"
+  ],
+  "citations": [
+    {
+      "id": "CIT-2011-FCIC",
+      "tier": "TIER_2_INQUIRY",
+      "title": "Financial Crisis Inquiry Commission, The Financial Crisis Inquiry Report: Final Report of the National Commission on the Causes of the Financial and Economic Crisis in the United States (January 2011)",
+      "url": "https://www.govinfo.gov/content/pkg/GPO-FCIC/pdf/GPO-FCIC.pdf",
+      "quoteOrFact": "Downloaded from govinfo and read as extracted text. A TEXT CAUTION: the extraction drops numerals in a number of sentences in the conclusions (for example \"nearly , mortgage-related securities\"), so no figure is quoted from this document here and only sentences that survive extraction intact are reproduced. THE COMMISSION’S CONCLUSIONS, in its own enumerated form: \"We conclude this financial crisis was avoidable. The crisis was the result of human action and inaction, not of Mother Nature or computer models gone haywire. The captains of finance and the public stewards of our financial system ignored warnings and failed to question, understand, and manage evolving risks within a system essential to the well-being of the American public. Theirs was a big miss, not a stumble. While the business cycle cannot be repealed, a crisis of this magnitude need not have occurred.\" It adds: \"Despite the expressed view of many on Wall Street and in Washington that the crisis could not have been foreseen or avoided, there were warning signs.\" Further conclusions, each stated in the same form: \"We conclude widespread failures in financial regulation and supervision\"; \"We conclude dramatic failures of corporate governance and risk management\"; \"We conclude a combination of excessive borrowing, risky investments, and lack\" of transparency; \"We conclude the government was ill prepared for the crisis, and its inconsistent\" response added to uncertainty; \"We conclude there was a systemic breakdown in accountability and ethics\"; \"We conclude collapsing mortgage-lending standards and the mortgage securitization pipeline lit and spread the flame of contagion and crisis\"; \"We conclude over-the-counter derivatives contributed significantly to this\" crisis; and \"We conclude the failures of credit rating agencies were essential cogs in the wheel of financial destruction.\" On origination: \"Many mortgage lenders set the bar so low that lenders simply took eager borrowers’ qualifications on faith, often with a willful disregard for a borrower’s ability to pay.\" On whether this was visible at the time: \"These trends were not secret. As irresponsible lending, including predatory and fraudulent practices, became more prevalent, the Federal Reserve and other regulators and authorities heard warnings from many quarters. Yet the Federal Reserve neglected its mission ‘to ensure the safety and soundness of the nation’s banking and financial system and to protect the credit rights of consumers.’ It failed to build the retaining wall before it was too late. And the Office of the Comptroller of the Currency and the Office of Thrift Supervision, caught up in turf wars, preempted state regulators from reining in abuses.\" On ratings: \"The mortgage-related securities at the heart of the crisis could not have been marketed and sold without their seal of approval ... This crisis could not have happened without the rating agencies.\" THE COMMISSION WAS DIVIDED, and the report says so on its own contents page: it carries DISSENTING VIEWS \"By Keith Hennessey, Douglas Holtz-Eakin, and Bill Thomas\" and, separately, \"By Peter J. Wallison\". The conclusions above are the majority’s. The Commission determined no liability and brought no proceedings."
+    }
+  ]
+}

@@ -116,8 +116,8 @@ from a script on disk rather than a heredoc, and read the bytes back before
 believing the edit landed.
 
 **The atlas is indexed, and it duplicates nothing.**
-`public/data/atlas-public.json` holds 114 dossiers over 1636–2026 and the nine
-lineages, and **not one of its 114 codes appears as an id in crash-conduits'
+`public/data/atlas-public.json` holds 118 dossiers over 1636–2026 and the nine
+lineages, and **not one of its 118 codes appears as an id in crash-conduits'
 data**, nor do the lineage names (Mersey, Benjamin Strong, the Dulles brothers,
 Lutnick, Tesla, Marconi, Walpole, Ismay) appear anywhere else on the site. It is
 a parallel body of work the tab pages never absorbed, so indexing it is new
@@ -377,3 +377,78 @@ cut, finds nothing and throws REPLACE-ON-REMERGE FAIL. It now normalizes CRLF on
 read and writes LF back, which is what the index already holds, so the fix
 carries no diff of its own. Any other tool that string-splices a tracked file on
 Windows has the same bug waiting in it.
+
+## Four gaps the same chat left behind, and the sources that did not survive opening
+
+**A gap is only a gap once you have checked the master file.** The 2026-10-16
+Gemini thread raised four things the six-node batch never built: Bhopal, the
+"war is a racket" thesis, Standard Oil on its own footing, and OceanGate. Each
+was confirmed absent from `master/atlas.json` before any harvesting — Bhopal and
+Union Carbide appeared nowhere in the repo at all, Butler existed only as a
+passing entity mention, and Standard Oil lived exclusively inside
+`DS-1942-IGFARBEN`. The check is the cheap step, and it is what decides whether
+a topic is a node or a duplicate.
+
+**A node that already has a cousin in the atlas must be scoped against it, not
+beside it.** The atlas holds the 1933 Business Plot as `CC-1914-DUPONT_GM_1934`,
+so `DS-1935-RACKET` is the racket *thesis* — the Vinson-Trammell profit cap and
+the Nye Committee's own naval-shipbuilding findings — and the decoy box names the
+plot explicitly as the thing this dossier is not. Scoping by exclusion is what
+keeps a second node from becoming a second telling.
+
+**The harvest's top hits are the ones most likely to be wrong.** `govinfo` and
+`courtlistener` returned five opinions captioned *Standard Oil Co. of New Jersey
+v. United States* — customs and patent appeals from 1928, 1941 and 1945, and a
+1940 South Carolina tax case. Not one was 221 U.S. 1. A caption match on a
+famous party name is the purest form of bag-of-words, and the auto-vet layer
+cannot see it: only opening the case can.
+
+**Metadata lies about provenance more often than about content.** The
+archive.org item `WarIsARacket` is dated 1935 and credited to Round Table Press,
+Butler's actual publisher — and its text is a later retyping, betrayed by a
+contents list, a bullet biography and Butler's 1940 death date. Two other
+candidates were an audio-collection entry with no text files and a community
+upload. No verifiable 1935 scan was found, so the book is not cited or quoted
+anywhere in the dossier that is *about* the book's argument. The argument is
+instead carried by the statute and by the Senate committee that tested it.
+
+**Prove the negative before you assert the positive.** Two claims were killed
+by searching for them. Butler is routinely said to have testified to the Nye
+Committee: two of that committee's hearings volumes, 7.5 MB of OCR, contain zero
+occurrences of "Smedley", and the "Chairman Butler" who does appear in the naval
+report is a shipbuilding officer. Standard Oil is routinely tied to gunboat
+diplomacy in Mexico: FRUS 1915's *Protection of American oil interests* file has
+zero occurrences of "Standard Oil" across the whole 1.4 MB papers index. Both
+dossiers say only what the record supports — Butler's testimony is to the Senate
+Naval Affairs Committee about El Tejar, and Standard Oil's in-era approach to the
+State Department is a 1914 request to re-flag its tankers.
+
+**Two numbers that disagree are often one number stated twice.**
+Vinson-Trammell s.3(b) caps profit at "10 per centum of the total contract
+price"; the Nye Committee describes the same cap as "11.1 percent of cost". Both
+are right — 10/90 = 11.1% — and a draft that quoted only one source would have
+looked wrong against the other. Reading both is what turns an apparent
+contradiction into the dossier's sharpest detail.
+
+**A finding against your own thesis belongs in the citation.** The 2004 Bano
+opinion, read for the Bhopal plant history, also records a 1990 NEERI report
+concluding that "no contamination of soils and ground water was observed due to
+the impoundment of wastewater in solar evaporation ponds". It is written into the
+`quoteOrFact` rather than left out. The same discipline that makes a citation say
+what its page does *not* show requires it to say what the page shows against you.
+
+**Emit the spec and the draft from one object.** The citations in each
+`spec-<code>.md` and each `<code>.json` are the same JavaScript objects, written
+by one script, with an assertion at the end that every `title`, `url` and
+`quoteOrFact` appears byte-identically in both files. Byte-identity by
+construction, checked by the machine — not by rereading two files and hoping.
+
+**An unreadable primary source is a fact about the citation.** The Coast Guard
+Marine Board's Report of Investigation is served from `media.defense.gov`, which
+answers scripted requests with 403 and makes a browser offer a download instead
+of rendering it. So the Coast Guard citation is the official press release, and
+its `quoteOrFact` says the ROI itself was not read and that nothing is taken from
+it beyond what the release states. `indiacode.nic.in` returned an edge error for
+the Bhopal Act, so the Act is described only as two federal appellate opinions
+describe it, and is not cited directly. `check-links` reports that 403 as
+**blocked, not dead** — which is the distinction the script exists to draw.

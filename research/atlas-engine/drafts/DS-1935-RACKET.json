@@ -1,0 +1,71 @@
+{
+  "code": "DS-1935-RACKET",
+  "eraId": "ERA-07-1929",
+  "yearStart": 1934,
+  "yearEnd": 1935,
+  "title": "War Is a Racket: The Profit Cap of 1934 and the Senate Committee That Reported It Unenforceable",
+  "primaryTab": "deep-state",
+  "secondaryTabs": [
+    "crash-conduits",
+    "consent"
+  ],
+  "mechanism": "COST_PLUS_RECONSTRUCTION",
+  "tier": "TIER_1_STATUTE_COURT",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "Maj. Gen. Smedley D. Butler",
+    "Senate Special Committee on Investigation of the Munitions Industry (Nye Committee)",
+    "Sen. Gerald P. Nye",
+    "Sen. Park Trammell",
+    "Rep. Carl Vinson",
+    "U.S. Navy Department",
+    "U.S. Treasury Department",
+    "Private naval shipbuilders"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "Naval construction is let to private yards on bids the Navy is in no position to price. The evidence before the Senate munitions committee covers 1933 contracts worth $130,000,000 to the private shipbuilders, awarded by a department that takes the low bid and, in the committee's phrase, leaves the taxpayers \"to hope and pray that the low one is somewhere within a few million dollars of being reasonable and proper\".",
+    "stage2_structuralCompromise": "The one instrument that could have priced the work is left unused. The committee finds that the Navy's failure \"to turn the navy yards into effective yardsticks by which the charges of private shipyards could be measured and kept down has resulted in leaving the profits of the shipbuilders practically uncontrolled\". The government yard that would have shown what a destroyer costs is not made to do it.",
+    "stage3_informationFog": "The buyer cannot see the price. The Navy \"has never examined the underlying costs or profits of the private builders\", \"makes no pretense of doing this\", has no staff for it, and the figures the committee studied \"were all news to it\"; enforcement of the profit limit is left \"to the Treasury to do after 3 years, after a job is done\". In the same season the Senate is weighing the word of the officer who called war a racket: on 5 March 1935 it debates Butler's own testimony to the Committee on Naval Affairs that at the waterworks of El Tejar outside Veracruz in 1914 his troops made a reconnaissance and \"could find no enemy\", against General Russell's sworn account of five or six hundred Mexicans and some twenty shots fired at him. The committee's chairman is Park Trammell, co-author of the profit cap.",
+    "stage4_monopolyWindfall": "The contracting form does the rest. The committee finds that the Navy's grant of adjusted-price contracts in 1933 with limits on the risk the Government assumed, and in 1934 \"without any limitation on the Government burden for increased costs\", \"resulted, in effect, in cost-plus contracts\" — and that these cost-plus contracts are \"more profitable than the war-time contracts when only a 10-percent profit over cost was allowed\". On the 1934 light cruiser, destroyer leader, destroyer and submarine contracts the Government \"has assumed all the risk of increasing prices, and has lowered the risk for which the companies received 11.1-percent profit by an enormous amount\".",
+    "stage5_merseyWhitewash": "The answer to war profiteering is a cap that the same Senate reports cannot be collected. The Vinson-Trammell Act of 27 March 1934 makes every naval vessel and aircraft contract conditional on the contractor's sworn report and on paying into the Treasury any profit \"in excess of 10 per centum of the total contract price\", and opens its books to the Navy, the Treasury \"and/or ... a duly authorized committee of Congress\". The munitions committee then reports that the cap \"cannot be enforced without a huge police force of accountants\", that interpretation disputes \"similar to those which delayed the payment of war-time taxes by the companies for 12 years may confidently be expected\", and that the Navy — which has \"no responsibility for enforcing the act\" and no reliable figures on private costs — is in a position to allow, and according to one company has allowed, increased overhead charges that \"can invalidate the whole attempt by Congress to limit profits\"."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "The naval contracting of 1917-18 and the twelve-year fight over the wartime taxes owed on it, which the munitions committee names as the precedent for what the new cap would meet; and the wartime practice of allowing a fixed percentage profit over cost, which the committee uses as its comparison and finds was the less generous arrangement.",
+    "newFrameworkCreated": "The statutory profit cap in place of enforcement. Vinson-Trammell writes a ceiling, a sworn report and an audit right into every naval contract, and assigns the Navy no duty to enforce any of it — leaving a Treasury computation three years after delivery as the whole machinery, on costs the buyer has never examined.",
+    "closedLoopRecirculation": "The yards keep the adjusted-price margin while the Government keeps the risk of rising costs; the cap is reckoned by a department that sees the numbers years later, on overheads the Navy may itself have allowed; and the profit the statute was written to recover is computed from books nobody has yet looked at.",
+    "enablesNextDossier": "CC-2002-LOGCAP"
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "That Butler's significance is the 1933 plot he reported to a House committee — a coup story that either happened or did not — and that \"war is a racket\" is a slogan rather than a claim about contracts that can be checked.",
+    "whyDecoyFails": "The plot is a separate matter and is dossiered separately. The racket claim, unlike the plot, is testable on the Senate's own paper, and in 1935 the Senate tested it: its munitions committee reported that the shipbuilders' profits were \"practically uncontrolled\", that the Navy had never examined their costs and made \"no pretense of doing this\", that the 1933-34 adjusted-price contracts were \"in effect\" cost-plus and more profitable than wartime terms, and that Congress's own brand-new profit cap could not be enforced \"without a huge police force of accountants\".",
+    "documentedLedger": "The Vinson-Trammell Act of 27 March 1934 (48 Stat. 503), conditioning naval contracts on a sworn report and on paying into the Treasury profit above 10 per centum of the total contract price, with books open to the Navy, the Treasury and any duly authorized committee of Congress; and the Senate munitions committee's own 1935 preliminary report on naval shipbuilding finding that cap unenforceable, the Navy incapable of pricing the work, and the contracts cost-plus in effect. Butler's own sworn testimony in the same window, debated in the Senate on 5 March 1935, is that a celebrated 1914 engagement at El Tejar had no enemy in it."
+  },
+  "citationIds": [
+    "CIT-1934-VINSONTRAMMELL",
+    "CIT-1935-NYENAVAL",
+    "CIT-1935-BUTLERELTEJAR"
+  ],
+  "citations": [
+    {
+      "id": "CIT-1934-VINSONTRAMMELL",
+      "tier": "TIER_1_STATUTE_COURT",
+      "title": "An Act to establish the composition of the United States Navy ... and to authorize the construction of certain naval vessels (Vinson-Trammell Act), Act of March 27, 1934, ch. 95, 48 Stat. 503, Public No. 135, H.R. 6604 — United States Statutes at Large, volume 48",
+      "url": "https://www.govinfo.gov/content/pkg/STATUTE-48/pdf/STATUTE-48-Pg503.pdf",
+      "quoteOrFact": "Read from the downloaded govinfo granule (3 pages, running head \"73d CONGRESS. SESS. II. CHS. 94, 95. MARCH 27, 1934\"). Section 3 provides \"That no contract shall be made by the Secretary of the Navy for the construction and/or manufacture of any complete naval vessel or aircraft, or any portion thereof ... unless the contractor agrees--\" then (a) \"To make a report, as hereinafter described, under oath, to the Secretary of the Navy upon the completion of the contract\"; (b) \"To pay into the Treasury profit, as hereinafter provided shall be determined by the Treasury Department, in excess of 10 per centum of the total contract price, such amount to become the property of the United States\", collectible by the Secretary of the Treasury \"under the usual methods employed under the internal revenue laws to collect Federal income taxes\" if not voluntarily paid; (c) \"To make no subdivisions of any contract or subcontract for the same article or articles for the purpose of evading the provisions of this Act\", with any subdivision over $10,000 subject to the same conditions; (d) that the contractor's \"manufacturing spaces and books of its own plant, affiliates, and subdivisions shall at all times be subject to inspection and audit by any person designated by the Secretary of the Navy, the Secretary of the Treasury, and/or by a duly authorized committee of Congress\"; and (e) that no subcontract be made unless the subcontractor assents to the same terms. The report must state the total contract price, the cost of performing the contract, the net income and the percentage the net income bears to the contract price, with a copy to the Secretary of the Treasury. The statute caps profit at 10 per centum of the contract price; it is the munitions committee, not the statute, that expresses the same cap as 11.1 percent of cost. The Act assigns the Navy no duty to enforce the cap."
+    },
+    {
+      "id": "CIT-1935-NYENAVAL",
+      "tier": "TIER_2_INQUIRY",
+      "title": "Munitions Industry: Naval Shipbuilding — Preliminary Report of the Special Committee on Investigation of the Munitions Industry pursuant to S. Res. 206 (73d Congress), Senate Committee Print, 74th Congress (Washington: U.S. Government Printing Office, 1935)",
+      "url": "https://archive.org/details/munitionsindustr00unit",
+      "quoteOrFact": "Read from the item's full text. A Senate committee print of the Nye Committee, GPO 1935, scanned from the Boston Public Library government documents collection. Under the heading \"VII. ATTEMPTS TO LIMIT PROFITS\" the committee finds \"that the failure of the Navy Department to turn the navy yards into effective yardsticks by which the charges of private shipyards could be measured and kept down has resulted in leaving the profits of the shipbuilders practically uncontrolled\"; \"that the Vinson-Trammell bill of 1934 limiting profits to 11.1 percent of cost cannot be enforced without a huge police force of accountants and that disputes concerning its interpretation, similar to those which delayed the payment of war-time taxes by the companies for 12 years may confidently be expected\"; and that the Navy's adjusted-price contracts of 1933 and 1934 \"resulted, in effect, in cost-plus contracts\", which it finds \"more profitable than the war-time contracts when only a 10-percent profit over cost was allowed\". On the 1934 light cruiser, destroyer leader, destroyer and submarine contracts it finds the Government \"has assumed all the risk of increasing prices, and has lowered the risk for which the companies received 11.1-percent profit by an enormous amount\". Elsewhere it records that \"The Navy has never examined the underlying costs or profits of the private builders. It makes no pretense of doing this. It has no staff for it. The figures studied by the Munitions Committee were all news to it\"; that the Navy \"makes no attempt to examine the costs of the private companies to determine whether the profit limitation of 11.1 percent in the Vinson-Trammell Act is enforced or evaded. That is left to the Treasury to do after 3 years, after a job is done\"; and that the evidence showed 1933 contracts worth $130,000,000 to the private shipbuilders. A \"Chairman Butler\" who appears in the hearing extracts is a shipbuilding officer, not Smedley Butler; the report contains no testimony by Smedley Butler, and two of the committee's hearings volumes contain no occurrence of \"Smedley\"."
+    },
+    {
+      "id": "CIT-1935-BUTLERELTEJAR",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Congressional Record — Senate, 5 March 1935, pp. 2921-2926 (74th Congress, 1st Session; bound volume 79, part 3)",
+      "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1935-pt3-v79/pdf/GPO-CRECB-1935-pt3-v79-9-1.pdf",
+      "quoteOrFact": "Read from the downloaded govinfo bound-volume granule (43 pages). In a Senate debate on Marine Corps promotions, a Senator recounts the conflicting testimony on the 1914 \"so-called 'battle of El Tejar'\" near Veracruz: \"Gen. Smedley Butler testified that he was present; that he rushed up there one Sunday morning; that he was met by General Lejeune; that after his troops had run a part of the distance they boarded a train and then went to the waterworks; that they made a reconnaissance in order to determine where the enemy which had been reported was to be found; and that they could find no enemy.\" Against that, \"General Russell testified, as I recall, that there had been 500 or 600 Mexicans there; that he had been riding on his horse down the line; that he had been shot at about 20 times.\" The testimony referred to was given before the Committee on Naval Affairs, whose chairman is addressed in the debate as \"the chairman of the committee [Mr. TRAMMELL]\" — Senator Park Trammell, co-author of the 1934 profit cap. The debate also quotes General Lejeune's published reminiscences (Doran & Co., copyrighted 1930) describing the threatened attack on El Tejar as \"one of the insoluble mysteries\" and probably \"a piece of bravado\", and reproduces a letter of 2 March 1935 to Butler from a former bugler who swears \"we did not find a single rebel that was supposed to attack us.\" This page concerns a valour and promotion dispute and Butler's credibility as a witness against the official account; it says nothing about war profits or the munitions inquiry, and is cited only for Butler's own testimony as the Senate recorded it. The OCR of this two-column page interleaves the columns, so passages were reassembled by reading, not transcribed mechanically."
+    }
+  ]
+}

@@ -1431,6 +1431,162 @@
         "The civil suits brought by victims’ families (Estate of Abtan v. Blackwater Lodge & Training Center) were settled; the four men convicted were pardoned by President Trump in December 2020.",
         "Keep the sequence exact — dismissal, revival, conviction, pardon — and do not state a settlement figure."
       ]
+    },
+    {
+      "code": "CB-1984-BHOPAL",
+      "era": "ERA-08-1953",
+      "providers": [
+        "courtlistener",
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Union Carbide Bhopal gas leak litigation",
+      "queries": [
+        {
+          "q": "Union Carbide gas plant disaster Bhopal",
+          "year": 1987,
+          "providers": [
+            "courtlistener"
+          ],
+          "strong": [
+            "bhopal"
+          ]
+        },
+        {
+          "q": "Union Carbide Bhopal",
+          "year": 1985,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": [
+            "bhopal"
+          ]
+        }
+      ],
+      "anchors": [
+        "On the night of 2-3 December 1984 methyl isocyanate escaped from a plant operated by Union Carbide India Limited (UCIL) at Bhopal. The Second Circuit described it as \"the most devastating industrial disaster in history--the deaths of over 2,000 persons and injuries of over 200,000\".",
+        "UCIL was an Indian company: 50.9% of its stock was owned by Union Carbide Corporation (UCC), 22% was owned or controlled by the government of India, and the balance was held by roughly 23,500 Indian citizens. It ran 14 plants in India, employed over 9,000 Indian citizens, and was \"managed and operated entirely by Indians in India\".",
+        "Some 145 purported class actions were filed in US federal courts and assigned to the Southern District of New York. On 29 March 1985 India enacted the Bhopal Gas Leak Disaster (Processing of Claims) Act, giving the Union of India the exclusive right to represent the victims \"in India or elsewhere\".",
+        "Judge Keenan dismissed on forum non conveniens on 12 May 1986 (634 F. Supp. 842) on three conditions. The Second Circuit deleted two of them — the consent to enforcement of a final Indian judgment and the submission to Federal Rules discovery — and affirmed as modified.",
+        "By orders of 14 and 15 February 1989 the Supreme Court of India approved a settlement of \"all litigations, claims, rights and liabilities related to and arising out of the [Bhopal] disaster\", under which UCC and UCIL agreed to pay $470 million. On 22 December 1989, in Charan Lal Sahu v. Union of India, that Court upheld the constitutional validity of the Bhopal Act and the Indian Government's exclusive authority to compromise all claims.",
+        "In 1993 the Second Circuit held in Bi v. Union Carbide that individual victims lacked standing to challenge the settlement negotiated between Union Carbide and India. Keep the claimants' grounds labelled as contentions, not findings, and do not state a per-victim figure: none was read.",
+        "The India Code page for the 1985 Act could not be opened (edge error), so the Act is described only as the two federal opinions describe it."
+      ],
+      "mechanism": "MERSEY_LIABILITY_WHITEWASH"
+    },
+    {
+      "code": "DS-1935-RACKET",
+      "era": "ERA-07-1929",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Smedley Butler war is a racket munitions profits",
+      "queries": [
+        {
+          "q": "Munitions industry investigation",
+          "year": 1935,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": [
+            "munitions"
+          ]
+        },
+        {
+          "q": "Smedley Butler",
+          "year": 1935,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": [
+            "butler"
+          ]
+        }
+      ],
+      "anchors": [
+        "This node is the racket thesis and Butler's own testimony. The 1933 Business Plot is a different matter and is already dossiered as \"DuPont, General Motors & The Business Plot Axis\" (CC-1914-DUPONT_GM_1934). Do not re-narrate the plot here.",
+        "The Vinson-Trammell Act (Act of 27 March 1934, ch. 95, 48 Stat. 503, Public No. 135, H.R. 6604) required, as a condition of any naval vessel or aircraft contract, that the contractor agree to make a sworn report to the Secretary of the Navy on completion and \"To pay into the Treasury profit ... in excess of 10 per centum of the total contract price\". It also forbade subdividing contracts to evade the Act, opened the contractor's books to the Secretary of the Navy, the Secretary of the Treasury \"and/or by a duly authorized committee of Congress\", and required subcontractors to assent.",
+        "The Senate Special Committee on Investigation of the Munitions Industry (the Nye Committee) reported in 1935 on naval shipbuilding that the Navy's failure to use its own yards as a yardstick \"has resulted in leaving the profits of the shipbuilders practically uncontrolled\"; that the Vinson-Trammell bill \"limiting profits to 11.1 percent of cost cannot be enforced without a huge police force of accountants\"; and that the Navy's 1933 and 1934 adjusted-price contracts \"resulted, in effect, in cost-plus contracts\", found \"more profitable than the war-time contracts when only a 10-percent profit over cost was allowed\".",
+        "The two percentages are the same cap stated two ways: 10 percent of the contract price is 11.1 percent of the cost that makes up the other 90 percent. Say so rather than letting them look like a contradiction.",
+        "The committee also found the Navy \"has never examined the underlying costs or profits of the private builders\", \"makes no pretense of doing this\", has no staff for it, and that the figures the committee studied \"were all news to it\"; enforcement was left \"to the Treasury to do after 3 years, after a job is done\". Evidence before it showed 1933 contracts worth $130,000,000 to private shipbuilders.",
+        "Butler did not testify to the Nye Committee — two of its hearings volumes contain no occurrence of \"Smedley\". His own testimony that is on the record in this window is to the Senate Committee on Naval Affairs, on the 1914 \"battle of El Tejar\" near Veracruz: as recounted in the Senate on 5 March 1935, Butler testified that his troops reached the waterworks, made a reconnaissance and \"could find no enemy\", against General Russell's testimony of five or six hundred Mexicans and being shot at about twenty times. The chairman of that committee was Senator Park Trammell, whose name is on the 1934 profit cap. Do not stretch this into testimony about war profits; it is not.",
+        "No verifiable 1935 scan of the book \"War Is a Racket\" was found, so do not quote the book."
+      ],
+      "mechanism": "COST_PLUS_RECONSTRUCTION"
+    },
+    {
+      "code": "DS-1911-STANDARDOIL",
+      "era": "ERA-06-1910",
+      "providers": [
+        "courtlistener",
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Standard Oil dissolution decree and oil-property diplomacy",
+      "queries": [
+        {
+          "q": "Standard Oil Company of New Jersey v United States",
+          "year": 1911,
+          "providers": [
+            "courtlistener"
+          ],
+          "strong": [
+            "standard oil"
+          ]
+        },
+        {
+          "q": "Standard Oil",
+          "year": 1911,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": [
+            "standard oil"
+          ]
+        }
+      ],
+      "anchors": [
+        "Standard Oil Co. of New Jersey v. United States, 221 U.S. 1 (1911), on appeal from the Circuit Court for the Eastern District of Missouri: argued 14-16 March 1910, restored to the docket for reargument 11 April 1910, reargued 12-17 January 1911, decided 15 May 1911. The Court construed the Sherman Act \"in the light of reason\" so that it prohibits only unreasonable or undue restraints, and held the combination an unreasonable restraint of trade in petroleum.",
+        "Paragraph 5 of the Circuit Court decree permitted \"the distribution among the shareholders of the Standard Oil Company of New Jersey of the stocks held by that company\" — the holding company was unwound into the hands of its own shareholders. This is recorded in the appellants' assignment of errors, which complained that the court then went on to limit the method of that distribution.",
+        "The Supreme Court modified the decree in two respects that matter: it held \"the delay of thirty days allowed for executing the decree was too short and should be extended so as to embrace a period of at least six months\", and it held that the paragraph 7 injunction — which would have enjoined the New Jersey corporation and all the subsidiaries from carrying on interstate commerce until the stocks were transferred — \"should not have been awarded\".",
+        "It construed paragraph 6 not as depriving the stockholders or corporations of the power \"to make normal and lawful contracts or agreements\", but \"as restraining them from, by any device whatever, recreating directly or indirectly the illegal combination which the decree dissolved\".",
+        "Justice Harlan concurred in the general affirmance but dissented from the modification and from the rule of reason, writing that the Court had \"read into the act of Congress words which are not to be found there\".",
+        "On 18 August 1914 William H. Libby, for the Standard Oil Company of New Jersey, wrote to the Secretary of State asking that the Government \"secure the assent of the powers engaged in the present conflict to the exemption from seizure and inquiry of vessels transferred to the American flag which were actually owned in this country before the war began\", citing the protection already accorded \"the six American steamers of the International Mercantile Marine Company\".",
+        "Do not assert post-1911 ownership percentages or that any particular person retained control: the record read here shows what the decree permitted, not who ended up holding what. There is no documented Standard Oil gunboat episode in 1914-15 Mexico — the FRUS 1915 \"Protection of American oil interests\" file contains no occurrence of \"Standard Oil\" — so make no such claim."
+      ],
+      "mechanism": "RECEIVERSHIP_MORGANIZATION"
+    },
+    {
+      "code": "CB-2023-TITAN",
+      "era": "ERA-10-2020",
+      "providers": [
+        "courtlistener"
+      ],
+      "status": "DONE",
+      "topic": "OceanGate Titan submersible implosion",
+      "queries": [
+        {
+          "q": "OceanGate",
+          "year": 2023,
+          "providers": [
+            "courtlistener"
+          ],
+          "strong": [
+            "oceangate"
+          ]
+        }
+      ],
+      "anchors": [
+        "On 18 June 2023, about 1047 local time, while diving to the wreck of the Titanic about 372 miles southeast of St. John's, Newfoundland and Labrador, the submersible Titan's pressure hull failed and the vessel imploded. All five persons on board died.",
+        "The NTSB's Marine Investigation Report MIR-25-36 (investigation DCA23FM036) determines the probable cause to be \"OceanGate's inadequate engineering process, which failed to establish the actual strength and durability of the Titan pressure vessel\", with the hull having sustained delamination damage after dive 80 and further damage of unknown origin after dive 82, leading to a local buckling failure on dive 88. Contributing were \"US and international voluntary guidance and US small passenger vessel regulations that were insufficient to ensure OceanGate adhered to established industry standards\", and OceanGate's flawed analysis of its own pressure-vessel monitoring data.",
+        "Titan was owned by Cyclops II Inc and operated by OceanGate Expeditions, based in The Bahamas, both affiliates of OceanGate Inc. The NTSB records that \"The Titan was not registered in any US state, documented by the US National Vessel Documentation Center, nor inspected by any flag state\", with flag, port of registry, IMO number and classification society all recorded as not applicable. Built 2020.",
+        "OceanGate called its paying clients \"mission specialists\" — in the 2023 expedition's Project Execution Plan, \"guests who help fund OceanGate\" who were assigned tasks. A former operations technician told the chief executive \"... you can't just change the title of a person when you're receiving compensation\", and resigned citing \"the legality of how it [OceanGate] was operating\"; he also reported the CEO saying that \"if the [US] Coast Guard became a problem ... he would buy himself a congressman and make it go away.\" The NTSB notes \"OceanGate's intent to avoid safety oversight by assigning tasks to those paying to ride\", while stating that it does not determine whether conduct violated statutory or regulatory requirements.",
+        "When the Coast Guard published NVIC 05-93 in 1993, submersibles carrying six or fewer passengers were treated as \"uninspected\" vessels rather than small passenger vessels; after the Passenger Vessel Safety Act of 1993 the definition changed to include any submersible carrying at least one passenger for hire. OceanGate did not register or document the Titan in the United States or arrange Coast Guard inspection. NVIC 05-93 recommended keeping submersible operations within the depth at which rescue assistance is effective; the Titan regularly dove far beyond it, generally without rescue assistance standing by.",
+        "The US Coast Guard Marine Board of Investigation released its Report of Investigation on 5 August 2025: more than 300 pages, 17 safety recommendations; chair Jason Neubauer said \"This marine casualty and the loss of five lives was preventable.\" It found the primary contributing factors to be OceanGate's inadequate design, certification, maintenance and inspection process, and cited a toxic workplace culture, an inadequate regulatory framework and an ineffective whistleblower process under the Seaman's Protection Act. Its report was still under review by the Commandant, pending a Final Action Memorandum.",
+        "The ROI PDF itself is served behind a bot wall and was not read; the Coast Guard citation is the official press release. Neither board determines liability, and no finding of liability should be implied."
+      ],
+      "mechanism": "MERSEY_LIABILITY_WHITEWASH"
     }
   ]
 }

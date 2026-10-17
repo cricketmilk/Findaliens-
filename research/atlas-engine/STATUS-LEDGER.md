@@ -418,6 +418,133 @@
      the browser — 114 index rows, 10 era headers each exactly once, 9 lineage
      cards, all six new dossiers rendering with their citations. Legacy pages and
      crash-finance-data.js untouched; legacy surgery stays off. Deploy stays the
+     operator's call.
+     ACTUAL 2026-10-17 (second batch the same day): THE FOUR GAPS THE GEMINI
+     THREAD RAISED AND NOBODY BUILT — Bhopal, the racket thesis, Standard Oil on
+     its own, and OceanGate. Built on a branch cut from the six-node private-force
+     batch; that batch was NOT in this worktree's base (it was cut from b60f43a
+     plus the Express-app cleanup), so claude/gemini-share-continuation-c721ba was
+     merged in first. The merge was clean and kept this branch's deletion of the
+     duplicate Express app, because that branch never touched src/.
+     SAME STANDARD AS ac8d030 AND THE EARLIER 2026-10-17 ENTRY: providers are a
+     search index only; every URL below was opened and read before it was cited;
+     each quoteOrFact records what the page shows AND what it does not. Specs and
+     drafts were emitted by one scratch script from one object per node, so the
+     citations in each spec and each draft are the same objects — byte-identical by
+     construction, verified by an assertion in that script rather than by eye.
+     `CB-1984-BHOPAL` (ERA-08-1953, MERSEY_LIABILITY_WHITEWASH, TIER_1). Read three
+     Second Circuit opinions in full on CourtListener: 809 F.2d 195 (1987), which
+     sent the 145 consolidated actions to India on forum non conveniens and DELETED
+     TWO of Keenan's three conditions — the consent to enforcement of a final Indian
+     judgment and the Federal Rules discovery condition — then affirmed as modified;
+     984 F.2d 582 (1993), which holds the individual victims lacked standing to
+     challenge the settlement and which is the source for the Bhopal Act of
+     29 March 1985, the Supreme Court of India's orders of 14-15 February 1989
+     approving $470 million for "all litigations, claims, rights and liabilities",
+     and Charan Lal Sahu (22 December 1989) upholding the Act; and 361 F.3d 696
+     (2004) for the plant history and the 1982 UCIL pond-leakage documents. That
+     2004 opinion also records a 1990 NEERI finding of NO soil or groundwater
+     contamination from the ponds — a finding against the plaintiffs, written into
+     the citation rather than dropped. indiacode.nic.in returns an Akamai edge error,
+     so the 1985 Act is NOT cited directly; its operative effect is taken only as the
+     two federal opinions state it. No per-victim figure is claimed: none was read.
+     `DS-1935-RACKET` (ERA-07-1929, COST_PLUS_RECONSTRUCTION, TIER_1). The racket
+     thesis and Butler's own testimony, deliberately NOT a second Business Plot —
+     that stays at CC-1914-DUPONT_GM_1934 and is named in the decoy box as the thing
+     this node is not. Read the Vinson-Trammell Act from the govinfo Statutes at
+     Large granule (48 Stat. 503, ch. 95, 27 March 1934): s.3(b) caps profit at
+     "10 per centum of the total contract price", with sworn contractor reports and
+     books open to the Navy, the Treasury "and/or by a duly authorized committee of
+     Congress". Read the Nye Committee's own 1935 naval-shipbuilding preliminary
+     report (Senate committee print, GPO, archive.org scan of the Boston Public
+     Library copy): profits "practically uncontrolled", the 1933-34 adjusted-price
+     contracts "in effect, cost-plus contracts" and more profitable than wartime
+     terms, the Navy never having examined private costs and making "no pretense of
+     doing this", and the cap itself unenforceable "without a huge police force of
+     accountants". PRECISION NOTE: the statute says 10 percent of contract price and
+     the committee says 11.1 percent of cost; these are the same cap (10/90 = 11.1%)
+     and the dossier says so rather than leaving them looking inconsistent.
+     `DS-1911-STANDARDOIL` (ERA-06-1910, RECEIVERSHIP_MORGANIZATION, TIER_1).
+     Standard Oil out of DS-1942-IGFARBEN and onto its own file. Read 221 U.S. 1
+     (1911) on CourtListener through Harlan's separate opinion: the Sherman Act read
+     "in the light of reason"; decree para.5 permitting distribution of the subsidiary
+     stocks "among the shareholders of the Standard Oil Company of New Jersey"; the
+     thirty-day compliance window held "too short" and extended to "at least six
+     months"; the para.7 injunction that would have halted the subsidiaries'
+     interstate commerce held wrongly awarded; para.6 construed to bar recreating the
+     combination "by any device whatever" while preserving normal contracting; and
+     Harlan concurring in the affirmance but dissenting from the rule of reason.
+     Paired with FRUS 1914 Supplement d767, read in full: William H. Libby for the
+     company asking the Secretary of State to "secure the assent of the powers
+     engaged in the present conflict to the exemption from seizure and inquiry of
+     vessels transferred to the American flag", on the precedent of the six American
+     steamers of the International Mercantile Marine Company — which is CC-1912-IMM.
+     No post-decree ownership percentage is asserted: the record read shows what the
+     decree permitted, not who ended up holding what.
+     `CB-2023-TITAN` (ERA-10-2020, MERSEY_LIABILITY_WHITEWASH, TIER_2). JUDGED AND
+     BUILT, not padded: the node exists because two formal federal investigations
+     closed in 2025 and both are readable. Downloaded and read the NTSB's Marine
+     Investigation Report MIR-25-36 (DCA23FM036) for the probable cause verbatim, for
+     the vessel particulars recording flag, port of registry, IMO number and
+     classification society all "N/A" and the Titan "not registered in any US state,
+     documented by the US National Vessel Documentation Center, nor inspected by any
+     flag state", for the "mission specialist" framing out of OceanGate's own Project
+     Execution Plan, and for the Board's footnote noting "OceanGate's intent to avoid
+     safety oversight by assigning tasks to those paying to ride". Read the NTSB
+     investigation summary page and the Coast Guard MBI press release of 5 August
+     2025 (300-plus pages, 17 recommendations, chair Jason Neubauer: "This marine
+     casualty and the loss of five lives was preventable"). Witness statements in the
+     NTSB report — including the technician's "you can't just change the title of a
+     person when you're receiving compensation" and the CEO's reported "buy himself a
+     congressman" remark — are cited as statements the report records, not as Board
+     findings. The MBI's Report of Investigation PDF on media.defense.gov is 403 to
+     scripts and fires a download rather than rendering, so it was NOT read: the Coast
+     Guard citation is the press release and its quoteOrFact says exactly that.
+     Neither board determines liability and the dossier claims none.
+     SOURCES OPENED AND THEN REJECTED (the part worth keeping): the govinfo harvest
+     for Standard Oil returned five `Standard Oil Co. of New Jersey v. United States`
+     hits that are customs and patent appeals (1928, 1941, 1945) plus a 1940 South
+     Carolina tax case — none is 221 U.S. 1, pure bag-of-words, all dropped. The
+     govinfo Congressional Record hit for 1935 is NOT about war profiteering; it is
+     the Senate debating the Veracruz 1914 "battle of El Tejar" valour dispute. It is
+     still cited, but only for what it actually shows: Butler's own sworn testimony to
+     the Committee on Naval Affairs that his troops "could find no enemy" there,
+     against General Russell's testimony of five or six hundred Mexicans — and the
+     chairman of that committee was Park Trammell, whose name is on the profit cap.
+     The citation says in terms that the page says nothing about war profits. The
+     archive.org item `WarIsARacket` is metadata-dated 1935 / Round Table Press but
+     its text is a later retyping (contents list, bullet biography, Butler's 1940
+     death), and the other two candidates are an audio-collection entry with no text
+     and a community upload, so NO verifiable 1935 scan of the book was found and the
+     book is not cited or quoted anywhere. "Chairman Butler" in the Nye report is a
+     shipbuilding officer, not Smedley Butler; two Nye hearings volumes (7.5 MB of
+     OCR) contain zero occurrences of "Smedley", so the dossier does not claim he
+     testified there. FRUS 1915's "Protection of American oil interests" file
+     (documents 1228-1262) contains zero occurrences of "Standard Oil" across the
+     whole 1.4 MB papers index, so no Standard Oil gunboat claim is made for Mexico
+     in 1914-15 — the company's in-era request to the State Department is about its
+     re-flagged tankers, and that is all the dossier says.
+     VERIFY PASS COLUMN: these four rows read GATE 0-QUAR, not 3/3 PASS. The
+     deterministic forensic gate ran on all four and quarantined nothing — no
+     research/leads/ file was written for any of them — but the 3-agent adversarial
+     audit did not run, and the rows say so rather than inheriting the --finish
+     template's wording.
+     NO NEW ERAS AND NO ERA WIDENING NEEDED: every yearStart falls inside its tagged
+     era (1984 in ERA-08, 1934 in ERA-07, 1909 in ERA-06, 2023 in ERA-10).
+     CB-1984-BHOPAL's yearEnd of 2004 reaches past ERA-08 the way DS-2007-BLACKWATER's
+     2020 reaches past ERA-09, and for the same reason: the closure is the point of
+     the node. The index still renders 10 era headers, each exactly once, in order.
+     COUNTS: 118 public dossiers, 152 citations, 9 lineages, 186 merged nodes.
+     atlas.html's hardcoded entry tallies updated (114 -> 118 in the og:description,
+     the print caption and the page dek); lineages stay at nine. extract-entities
+     re-run: 393 entries, 922 entities. Gates: npm test 38/38 pass; check-links over
+     the four new drafts, 11 URLs, 10 ok / 1 blocked / 0 DEAD — the block is
+     news.uscg.mil returning 403 to automated requests, a page read by hand in the
+     browser. atlas.html served from public/ and measured in the browser: 118 index
+     rows, 10 era headers each exactly once, 9 lineage cards, and CB-2023-TITAN
+     opened to confirm all three citation links and the quoted findings render.
+     Legacy pages and crash-finance-data.js untouched; legacy surgery stays off.
+     Not merged to main, not pushed to main, not deployed — deploy stays the
      operator's call. -->
 
 # THE CORNFIELD GAZETTE — MASTER NODE STATUS LEDGER
@@ -471,3 +598,7 @@
 | `CB-1914-LUDLOW` | CF&I Tent Colonies, Ludlow & the Colorado Industrial Plan | `ERA-06-1910` | `TIER_2_INQUIRY` | `archive.org,govinfo` | GATE 0-QUAR | YES | [x] |
 | `DS-1928-BANANA` | State Department 'Good Offices' for United Fruit & the Cienaga Volley | `ERA-07-1929` | `TIER_3_PRIMARY_LEDGER` | `history.state.gov,loc` | GATE 0-QUAR | YES | [x] |
 | `DS-2007-BLACKWATER` | WPPS Cost-Reimbursement Guards, CPA Order 17 & the 2020 Pardons | `ERA-09-2001` | `TIER_1_STATUTE_COURT` | `govinfo,courtlistener` | GATE 0-QUAR | YES | [x] |
+| `DS-1911-STANDARDOIL` | The 1911 Dissolution Decree, Six Months to Comply & the 1914 Flag Request | `ERA-06-1910` | `TIER_1_STATUTE_COURT` | `courtlistener,history.state.gov` | GATE 0-QUAR | YES | [x] |
+| `DS-1935-RACKET` | Vinson-Trammell's 10% Profit Cap & the Nye Committee That Called It Unenforceable | `ERA-07-1929` | `TIER_1_STATUTE_COURT` | `govinfo,archive.org` | GATE 0-QUAR | YES | [x] |
+| `CB-1984-BHOPAL` | The Bhopal Act's Exclusive Standing, Forum Non Conveniens & the $470M Discharge | `ERA-08-1953` | `TIER_1_STATUTE_COURT` | `courtlistener` | GATE 0-QUAR | YES | [x] |
+| `CB-2023-TITAN` | OceanGate's 'Mission Specialists', an Unflagged Submersible & Two 2025 Federal Boards | `ERA-10-2020` | `TIER_2_INQUIRY` | `ntsb.gov,news.uscg.mil` | GATE 0-QUAR | YES | [x] |

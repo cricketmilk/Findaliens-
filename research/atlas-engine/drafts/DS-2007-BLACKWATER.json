@@ -1,0 +1,70 @@
+{
+  "code": "DS-2007-BLACKWATER",
+  "eraId": "ERA-09-2001",
+  "yearStart": 2007,
+  "yearEnd": 2020,
+  "title": "Immunity by Order 17: Nisour Square, a Dismissed Indictment, and a Pardon",
+  "primaryTab": "deep-state",
+  "secondaryTabs": [
+    "crash-conduits",
+    "consent"
+  ],
+  "mechanism": "COST_PLUS_RECONSTRUCTION",
+  "tier": "TIER_1_STATUTE_COURT",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "Blackwater USA / Blackwater Lodge & Training Center",
+    "Erik Prince",
+    "U.S. Department of State (Worldwide Personal Protective Services)",
+    "Coalition Provisional Authority",
+    "House Committee on Oversight and Government Reform",
+    "U.S. District Court for the District of Columbia",
+    "Families of the Nisour Square dead"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "Diplomatic protection in Iraq is bought as a service under the State Department’s Worldwide Personal Protective Services contract, a cost-reimbursement vehicle whose task orders run into the hundreds of millions, with the per-guard day rate billed through the contractor.",
+    "stage2_structuralCompromise": "The force that results is armed, foreign and outside both military discipline and Iraqi process: Coalition Provisional Authority Order 17 had placed contractors beyond Iraqi legal reach, leaving no local forum at all.",
+    "stage3_informationFog": "On 16 September 2007 Blackwater guards fire into traffic at Nisour Square in Baghdad, killing seventeen civilians. The incident is first handled as a protective-detail shooting and investigated by the agency that employed the detail, and the guards’ compelled statements become the evidentiary problem that later sinks the prosecution.",
+    "stage4_monopolyWindfall": "The contract work continues through the hearing cycle and beyond under successor arrangements; the company is restructured and renamed rather than excluded.",
+    "stage5_merseyWhitewash": "Congress holds a hearing on 2 October 2007; the criminal case is dismissed on 31 December 2009 over the use of the compelled statements; the D.C. Circuit revives it and convictions follow years later; the civil suits by victims’ families settle; and in December 2020 the four convicted men are pardoned."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "The cost-plus war-logistics vehicle of LOGCAP III and the post-9/11 liability shields — contractor immunity by occupation order rather than by statute.",
+    "newFrameworkCreated": "A private armed force operating under a civilian agency’s contract with no host-state jurisdiction, where the accountability path runs only through a distant criminal court and ends at the pardon power.",
+    "closedLoopRecirculation": "The protective-services market keeps the revenue through the litigation; the principals move on to successor entities and new contracts; the families’ claims are settled privately and the convictions are erased.",
+    "enablesNextDossier": "DS-2025-PALANTIR"
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "Rogue contractors — a few trigger-happy men who disgraced an otherwise ordinary security company, dealt with by the courts in the end.",
+    "whyDecoyFails": "The structure, not the men, is what the record documents: an occupation order that removed Iraqi jurisdiction, a hearing that examined the contract and the company rather than the shooters, a dismissal in 2009 on the handling of compelled statements, and a pardon in 2020 that undid the convictions the system eventually produced.",
+    "documentedLedger": "A State Department protective-services contract; seventeen civilians killed at Nisour Square on 16 September 2007; a House Oversight hearing titled \"Blackwater USA\" on 2 October 2007; United States v. Slough dismissed in the District of Columbia on 31 December 2009; Estate of Abtan v. Blackwater Lodge & Training Center litigated and settled; convictions in United States v. Slatten; presidential pardons in December 2020."
+  },
+  "citationIds": [
+    "CIT-2007-BLACKWATERHRG",
+    "CIT-2009-SLOUGH",
+    "CIT-2009-ABTAN"
+  ],
+  "citations": [
+    {
+      "id": "CIT-2007-BLACKWATERHRG",
+      "tier": "TIER_2_INQUIRY",
+      "title": "Blackwater USA, House hearing, 110th Congress, 2 October 2007 (CHRG-110hhrg45219)",
+      "url": "https://www.govinfo.gov/app/details/CHRG-110hhrg45219",
+      "quoteOrFact": "GovInfo record for the House hearing titled \"BLACKWATER USA\", 110th Congress, dated 2 October 2007. The catalogue page gives the title, chamber and date; it does not name the committee or summarise the subject, and the transcript is in the linked document."
+    },
+    {
+      "id": "CIT-2009-SLOUGH",
+      "tier": "TIER_1_STATUTE_COURT",
+      "title": "United States v. Slough, U.S. District Court for the District of Columbia, 31 December 2009 (CourtListener)",
+      "url": "https://www.courtlistener.com/opinion/2658849/united-states-v-slough/",
+      "quoteOrFact": "CourtListener record of the criminal case against the Blackwater guards charged over the Nisour Square shooting, filed in the District Court for the District of Columbia and dated 31 December 2009 — the date the indictment was dismissed over the government’s use of the defendants’ compelled statements. The record is the docketed opinion entry."
+    },
+    {
+      "id": "CIT-2009-ABTAN",
+      "tier": "TIER_1_STATUTE_COURT",
+      "title": "Estate of Abtan v. Blackwater Lodge & Training Center, 611 F. Supp. 2d 1 (D.D.C. 2009)",
+      "url": "https://www.courtlistener.com/opinion/2299276/estate-of-abtan-v-blackwater-lodge-training-center/",
+      "quoteOrFact": "CourtListener record of the civil action brought against the Blackwater entities by Iraqi victims and estates, reported at 611 F. Supp. 2d 1 and filed 27 April 2009 in the District Court for the District of Columbia."
+    }
+  ]
+}

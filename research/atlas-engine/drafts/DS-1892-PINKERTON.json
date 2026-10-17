@@ -1,0 +1,70 @@
+{
+  "code": "DS-1892-PINKERTON",
+  "eraId": "ERA-05-1861",
+  "yearStart": 1892,
+  "yearEnd": 1893,
+  "title": "A Private Army by Barge: Homestead, Three Congressional Inquiries, and a Statute That Bound Only the Government",
+  "primaryTab": "deep-state",
+  "secondaryTabs": [
+    "carbon-class",
+    "crash-conduits"
+  ],
+  "mechanism": "MERSEY_LIABILITY_WHITEWASH",
+  "tier": "TIER_2_INQUIRY",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "Carnegie Steel Company",
+    "Henry Clay Frick",
+    "Pinkerton National Detective Agency",
+    "Amalgamated Association of Iron and Steel Workers",
+    "House Committee on the Judiciary",
+    "Senate Committee on Education and Labor",
+    "Pennsylvania National Guard"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "Carnegie Steel’s chairman Henry Clay Frick moves to break the Amalgamated Association’s contract at Homestead in 1892; the wage scale the lockout replaces is the standing cost the company means to remove.",
+    "stage2_structuralCompromise": "Rather than municipal or state police, the company contracts a private firm. About three hundred armed Pinkerton men are brought up the Monongahela by barge on 6 July 1892, and the landing becomes a gun battle that kills men on both sides.",
+    "stage3_informationFog": "The fight is argued as a riot by workmen rather than as a corporation deploying a private armed force, and the Pennsylvania militia occupies the town, which settles the plant’s operation long before any inquiry reports.",
+    "stage4_monopolyWindfall": "The union is driven out of Homestead and out of the steel industry for a generation; the labour cost the lockout targeted stays removed.",
+    "stage5_merseyWhitewash": "Three congressional investigations take evidence — the House Judiciary Committee’s hearings, its report of 7 February 1893, and a Senate select committee resolution — and the statutory answer, the Anti-Pinkerton proviso of 3 March 1893, forbids the federal government from employing such an agency. It says nothing about a corporation hiring one against its own workforce. Prosecutions on both sides, including treason charges against strike leaders, end in no convictions."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "The nineteenth-century practice of corporations retaining private detective agencies as guards, strikebreakers and informants, with no statute addressing the arrangement.",
+    "newFrameworkCreated": "The congressional-inquiry-plus-narrow-statute pattern: a public investigation of a private armed force, answered by a rule that binds only federal hiring and leaves the private market for armed contractors intact.",
+    "closedLoopRecirculation": "The agency keeps the contract market; the company keeps the wage reduction; the record of the inquiry becomes the public settlement of the matter, and the next corporation hires guards under the same law.",
+    "enablesNextDossier": "CB-1914-LUDLOW"
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "Homestead as a spontaneous riot — a mob of armed strikers attacking watchmen hired to protect a mill — or, in the other telling, as a one-off outrage already answered by the Anti-Pinkerton Act.",
+    "whyDecoyFails": "Congress investigated the arrangement itself, three times in seven months: a House Judiciary hearing volume, a House report, and a Senate resolution for a select committee on the employment of \"Pinkerton men\". The statute that followed reaches federal hiring only, so the practice it is said to have ended continued in private hands.",
+    "documentedLedger": "A corporation contracted roughly three hundred armed men and landed them by barge at its own plant; the state then supplied the militia; three congressional records (H. Misc. Doc. 52-335, H. Rept. 52-2447, S. Rept. 52-1105) document the employment of the agency; and the resulting proviso of 3 March 1893 restricted only the government’s own use of it."
+  },
+  "citationIds": [
+    "CIT-1892-PINKERTONDOC",
+    "CIT-1893-PINKERTONRPT",
+    "CIT-1892-PINKERTONSEN"
+  ],
+  "citations": [
+    {
+      "id": "CIT-1892-PINKERTONDOC",
+      "tier": "TIER_2_INQUIRY",
+      "title": "H. Misc. Doc. 52-335, Investigation of the employment of Pinkerton detectives in connection with the labor troubles at Homestead, Pa (52nd Congress, 1st Session, 1892; Serial Set 2959)",
+      "url": "https://www.govinfo.gov/app/details/SERIALSET-02959_00_00-303-0335-0000",
+      "quoteOrFact": "GovInfo record for the House Committee on the Judiciary’s Homestead investigation volume, filed as H. Misc. Doc. 52-335, 52nd Congress 1st Session, 1892, U.S. Congressional Serial Set 2959. The page is the catalogue record for the document; the testimony is in the scanned volume it links."
+    },
+    {
+      "id": "CIT-1893-PINKERTONRPT",
+      "tier": "TIER_2_INQUIRY",
+      "title": "H. Rept. 52-2447, Employment of Pinkerton detectives (Committee on the Judiciary, 7 February 1893; Serial Set 3142-1)",
+      "url": "https://www.govinfo.gov/app/details/SERIALSET-03142_01_00-002-2447-0000",
+      "quoteOrFact": "GovInfo record for the House Judiciary Committee’s report on the employment of Pinkerton detectives, 52nd Congress 2nd Session, dated 7 February 1893, \"Laid on the table and ordered to be printed\", Serial Set 3142-1."
+    },
+    {
+      "id": "CIT-1892-PINKERTONSEN",
+      "tier": "TIER_2_INQUIRY",
+      "title": "S. Rept. 52-1105 (Mr. Hansbrough, Committee on Education and Labor, 1 August 1892; Serial Set 2915)",
+      "url": "https://www.govinfo.gov/app/details/SERIALSET-02915_00_00-256-1105-0000",
+      "quoteOrFact": "GovInfo record for the Senate report submitted by Mr. Hansbrough from the Committee on Education and Labor, 1 August 1892, accompanying a substitute resolution for a select committee to investigate the employment of \"Pinkerton men\" or \"Pinkerton detectives\"; the record’s own subject headings are the Homestead Strike, Homestead, Pa., 1892 and Detectives."
+    }
+  ]
+}

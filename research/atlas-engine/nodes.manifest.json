@@ -1230,6 +1230,207 @@
         "The citations for this dossier document Palantir's federal award ledger and SEC filings; the ICE ImmigrationOS contract is established by public reporting, NOT by these ledger rows — the dossier must say so.",
         "Conservative language is mandatory for the ICE relationship; the documented mechanism is a data-integration vendor rolling the same platform across defense and immigration enforcement, so one side of the house funds the capabilities the other side deploys."
       ]
+    },
+    {
+      "code": "CC-1842-OPIUM",
+      "era": "ERA-04-1845",
+      "providers": [
+        "hansard",
+        "wikidata"
+      ],
+      "status": "DONE",
+      "topic": "First Opium War indemnity",
+      "queries": [
+        {
+          "q": "War with China",
+          "year": 1840,
+          "providers": [
+            "hansard"
+          ],
+          "strong": [
+            "china"
+          ]
+        },
+        {
+          "q": "Jardine Matheson",
+          "year": 1842,
+          "providers": [
+            "wikidata"
+          ],
+          "strong": [
+            "jardine"
+          ]
+        }
+      ],
+      "anchors": [
+        "Commissioner Lin Zexu confiscated and destroyed 20,283 chests of British-owned opium at Canton in 1839; Superintendent Charles Elliot had told the traders the Crown would make good their loss, converting a private contraband stock into a claim on the British Treasury.",
+        "The Treaty of Nanking (29 August 1842) made the Chinese state pay that claim: Art. IV, six million dollars for the surrendered opium; Art. V, three million for Hong-merchant debts; Art. VI, twelve million for the expedition’s costs; Art. VII, twenty-one million dollars in all, on a schedule running to 1845, plus the cession of Hong Kong and five treaty ports.",
+        "Sir James Graham’s censure motion of 7 April 1840 put the war to a three-night Commons debate (HC Deb 07 April 1840 vol 53 cc669-748); it was defeated 271 to 262, and the expedition sailed.",
+        "Jardine, Matheson & Co. and Dent & Co. were the largest holders of the surrendered opium; William Jardine lobbied Palmerston in London through 1839-40 and supplied the war plan and the indemnity demand that the treaty substantially followed.",
+        "Be conservative about attributions of motive to named individuals; the documented ledger is the treaty text and the Commons division, not private intent."
+      ]
+    },
+    {
+      "code": "CB-1865-SULTANA",
+      "era": "ERA-05-1861",
+      "providers": [
+        "loc"
+      ],
+      "status": "DONE",
+      "topic": "Sultana steamboat disaster",
+      "queries": [
+        {
+          "q": "Sultana steamer explosion",
+          "year": 1865,
+          "providers": [
+            "loc"
+          ],
+          "strong": [
+            "sultana"
+          ]
+        }
+      ],
+      "anchors": [
+        "The War Department paid steamboat operators a per-head bounty to carry released Union prisoners north from Vicksburg in spring 1865 — five dollars an officer, ten dollars an enlisted man — which made a human payload the most valuable freight on the river.",
+        "The Sultana was licensed for 376 passengers and left Vicksburg with roughly 2,100-2,400 aboard, most of them parolees from Cahaba and Andersonville.",
+        "A boiler sprang a leak at Vicksburg; the boilermaker advised replacing the bulged sheets, and the repair actually made was a patch, because a days-long repair would have handed the payload to a rival boat.",
+        "The boilers exploded above Memphis about 2 a.m. on 27 April 1865. Estimates of the dead run from about 1,100 to 1,800; it remains the deadliest maritime disaster in United States history.",
+        "Captain J. Cass Mason died in the explosion. Captain Frederic Speed was court-martialled and convicted; the Judge Advocate General disapproved the verdict and it was annulled. Chief quartermaster Reuben Hatch, the officer suspected of the kickback, never appeared. Nobody was punished.",
+        "The disaster competed for news with Lincoln’s assassination (14 April) and the killing of John Wilkes Booth (26 April) and was effectively buried."
+      ]
+    },
+    {
+      "code": "DS-1892-PINKERTON",
+      "era": "ERA-05-1861",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Employment of Pinkerton detectives",
+      "queries": [
+        {
+          "q": "Employment of Pinkerton detectives",
+          "year": 1893,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": [
+            "pinkerton"
+          ]
+        },
+        {
+          "q": "Pinkerton detectives Homestead",
+          "year": 1892,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": [
+            "pinkerton"
+          ]
+        }
+      ],
+      "anchors": [
+        "Carnegie Steel’s chairman Henry Clay Frick locked out the Amalgamated Association at Homestead in July 1892 and contracted the Pinkerton National Detective Agency to deliver about 300 armed men by barge; the 6 July landing became a gun battle that killed men on both sides, and the Pennsylvania militia then occupied the town.",
+        "Three congressional investigations followed: the House Judiciary Committee’s hearings (H. Misc. Doc. 52-335), its report of 7 February 1893 (H. Rept. 52-2447), and a Senate select committee moved by Senator Hansbrough from the Committee on Education and Labor (S. Rept. 52-1105, 1 August 1892).",
+        "The statutory answer was the Anti-Pinkerton proviso carried in the sundry civil appropriations act of 3 March 1893 (27 Stat. 591, now 5 U.S.C. 3108): the federal government may not employ a Pinkerton employee or a similar organization. It binds federal hiring only — it says nothing about a private corporation hiring an armed agency against its own workforce.",
+        "Prosecutions arising from Homestead — including treason charges against strike leaders — produced no convictions on either side.",
+        "Be precise that the congressional records are investigations and a report, not a judgment of liability."
+      ]
+    },
+    {
+      "code": "CB-1914-LUDLOW",
+      "era": "ERA-06-1910",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Colorado coal strike Ludlow",
+      "queries": [
+        {
+          "q": "Final report of the Commission on Industrial Relations",
+          "year": 1916,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": [
+            "industrial relations"
+          ]
+        }
+      ],
+      "anchors": [
+        "The United Mine Workers struck Colorado Fuel & Iron — controlled by the Rockefeller interests — in September 1913; evicted miners and their families moved into tent colonies on leased ground, the largest at Ludlow.",
+        "Company-paid guards and the Colorado National Guard faced the colonies through the winter. On 20 April 1914 the Ludlow colony was fired on and burned; about twenty people died, including two women and eleven children who suffocated in a pit dug beneath a tent.",
+        "Two federal inquiries took evidence: the House Committee on Mines and Mining under House Resolution 387, and the U.S. Commission on Industrial Relations, which examined John D. Rockefeller Jr. in 1915 and published George P. West’s Report on the Colorado Strike; the Commission’s final report was filed as H. Rept. 64-31 on 11 January 1916.",
+        "Militia officers tried by court-martial were acquitted; no one was convicted over the deaths.",
+        "The company’s answer was the Colorado Industrial Plan — an employee-representation scheme drafted with W. L. Mackenzie King — and a publicity campaign run by Ivy Lee, whose bulletins were later shown to the Commission to be inaccurate."
+      ]
+    },
+    {
+      "code": "DS-1928-BANANA",
+      "era": "ERA-07-1929",
+      "providers": [
+        "loc"
+      ],
+      "status": "DONE",
+      "topic": "United Fruit Company Colombia strike",
+      "queries": [
+        {
+          "q": "Colombia banana strike",
+          "year": 1928,
+          "providers": [
+            "loc"
+          ],
+          "strong": [
+            "banana"
+          ]
+        }
+      ],
+      "anchors": [
+        "Foreign Relations of the United States 1928, volume II, carries a chapter titled \"Good offices of the Department of State to protect the interests of the United Fruit Company in Colombia\" — four telegrams between the Secretary of State and the Minister in Colombia, March to June 1928, months before the strike.",
+        "Roughly 25,000 workers in the Magdalena banana zone struck in November 1928. The demands were written contracts, a six-day week, an end to payment in company scrip, and medical care.",
+        "On 6 December 1928 Colombian troops under General Carlos Cortés Vargas fired on a crowd gathered at the railway station square in Ciénaga. The death toll has never been settled: official Colombian figures were in the dozens, U.S. legation dispatches reported far higher numbers, and estimates range from under fifty to more than a thousand.",
+        "Jorge Eliécer Gaitán’s 1929 debates in the Colombian Chamber of Representatives are the principal public reckoning; no U.S. or company officer faced any proceeding.",
+        "The U.S. telegrams establish that the State Department acted as the company’s standing advocate in Bogotá. They do not themselves prove a U.S. instruction to fire — say so plainly rather than implying it."
+      ]
+    },
+    {
+      "code": "DS-2007-BLACKWATER",
+      "era": "ERA-09-2001",
+      "providers": [
+        "govinfo",
+        "courtlistener"
+      ],
+      "status": "DONE",
+      "topic": "Blackwater USA Nisour Square",
+      "queries": [
+        {
+          "q": "Blackwater USA",
+          "year": 2007,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": [
+            "blackwater"
+          ]
+        },
+        {
+          "q": "Blackwater Nisour Square",
+          "year": 2007,
+          "providers": [
+            "courtlistener"
+          ],
+          "strong": [
+            "blackwater"
+          ]
+        }
+      ],
+      "anchors": [
+        "Blackwater guarded State Department personnel in Iraq under the Worldwide Personal Protective Services contract, a cost-reimbursement vehicle whose task orders ran to hundreds of millions of dollars; the House Committee on Oversight and Government Reform took testimony from Erik Prince at a hearing titled \"Blackwater USA\" on 2 October 2007.",
+        "On 16 September 2007 Blackwater guards fired into traffic at Nisour Square in Baghdad, killing seventeen Iraqi civilians and wounding more.",
+        "Coalition Provisional Authority Order 17 had placed contractors outside Iraqi legal process, so the only available forum was American. The criminal case was dismissed by the District Court for the District of Columbia on 31 December 2009 (United States v. Slough) over the use of the guards’ compelled statements; the D.C. Circuit revived it, and convictions followed years later in United States v. Slatten.",
+        "The civil suits brought by victims’ families (Estate of Abtan v. Blackwater Lodge & Training Center) were settled; the four men convicted were pardoned by President Trump in December 2020.",
+        "Keep the sequence exact — dismissal, revival, conviction, pardon — and do not state a settlement figure."
+      ]
     }
   ]
 }

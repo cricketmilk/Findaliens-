@@ -1782,6 +1782,129 @@
      max yearStart per era before choosing any new yearStart.
      Not merged to main, not pushed to main, not deployed. -->
 
+<!-- ACTUAL 2026-10-17 (fifteenth pass): THE HANSARD-ONLY CATEGORY IS CLEARED.
+     TWO BUILT, ELEVEN REMOVED, AND THE PLACEHOLDER CITATION ITSELF DELETED.
+     107 dossiers, 210 citations, 106 researched, ONE boilerplate node left —
+     CC-1825-HAITI_INDEMNITY_1825, whose citation says in its own text that it has
+     not been read. Down from 51 unresearched when the detector was corrected.
+     THE PLACEHOLDER IS GONE. CIT-1720-HANSARD no longer exists in master. It is
+     worth recording exactly what it was, because it is the clearest example in
+     this repository of a citation that looked real and was not: its title read
+     "UK House of Commons Secret Committee Report on the South Sea Company (1721)"
+     and its url was "https://hansard.parliament.uk/" — the front page of a
+     website, carrying the name of an eighteenth-century document. Thirty-one
+     dossiers were attached to it by migrate.mjs. Every one of them has now been
+     either rebuilt from documents that were opened and read, or removed.
+     BUILT THIS PASS:
+     CC-2021-MICROSOFT_PRISM_IVAS_MALPRACTICE_2024 — the Cyber Safety Review
+     Board's "Review of the Summer 2023 Microsoft Exchange Online Intrusion",
+     20 March 2024, from cisa.gov. THE NODE'S THREE-CLAIM TITLE COLLAPSED TO ONE.
+     The report does not mention PRISM, does not mention the Integrated Visual
+     Augmentation System, and makes no finding about any contract or price; the
+     $22B IVAS figure in the old title is gone. A readable IVAS primary was looked
+     for and not found — dodig.mil returns 403 to scripts, its own keyword search
+     did not filter when driven in a browser, and the GAO product URLs tried
+     404'd. What the Board does give is the whole fifth stage refusing to be a
+     whitewash: "The Board finds that this intrusion was preventable and should
+     never have occurred. The Board also concludes that Microsoft's security
+     culture was inadequate and requires an overhaul". Seven grounds, including
+     "the cascade of Microsoft's avoidable errors", failure "to detect the
+     compromise of its cryptographic crown jewels on its own, relying instead on a
+     customer", and other providers maintaining "security controls that Microsoft
+     did not". The timing finding is the sharpest: Microsoft "acknowledged to the
+     Board in November 2023 that its September 6, 2023 blog post about the root
+     cause was inaccurate", and "did not update that post until March 12, 2024, as
+     the Board was concluding its review and only after the Board's repeated
+     questioning". 22 organizations, over 500 individuals, ~60,000 State Department
+     emails over at least six weeks, one key created in 2016, and "As of the date
+     of this report, Microsoft does not know how or when Storm-0558 obtained the
+     signing key."
+     CC-2026-NVIDIA_GPU_CARTEL_2026 — Nvidia's own Form 10-Q for the quarter ended
+     26 July 2026, filed 26 August 2026, from EDGAR. THE REVENUE-SHARE CLAIM IS NOT
+     IN IT, and the full text was searched: no payment, remittance or revenue share
+     to the United States government or any government; "remit", "payment to the
+     U.S", "to the USG" and "equity stake" all absent; the only "15%" is a
+     customer-concentration figure; and the only revenue share disclosed runs the
+     other way — the company receives a share from AI cloud partners. The old
+     title's "Sovereign Revenue" is gone. What the filing does establish, against
+     the company's own interest and under securities law, is the gatekeeping: "the
+     USG already imposed license conditions that limit the ability of foreign firms
+     to create and offer as a service large-scale GPU clusters". Controls keyed to
+     "total processing performance", "performance density", "interconnect bandwidth"
+     and "memory bandwidth". Licences granted in August 2025 (H20) and February 2026
+     (H200) then blocked by the PRC, $4.5 billion of H20 inventory provisions. And
+     the shape of the market: Data Center revenue $89.0 billion up 117%, gross
+     margin 75.0%, and "three direct customers represented 16%, 15%, and 13% of
+     total revenue".
+     ELEVEN REMOVED, AND WHY EACH ONE. All eleven carried ONLY CIT-1720-HANSARD and
+     Phase-0 boilerplate; none had ever been researched. In each case a primary was
+     looked for and either did not exist in a readable form or did not bear on the
+     node's actual claim. They are recorded here so the removals are auditable.
+     CC-1868-ERIE_RAILROAD_WAR_1868 — the obvious source is Charles Francis Adams's
+     "A Chapter of Erie" (1869). Project Gutenberg was searched twice and returns
+     "No records found"; archive.org was 503 earlier in this session; no 1868 New
+     York court or legislative record was found on a reachable host.
+     CC-1892-PANAMA_CANAL_SCANDAL_1892 — a French parliamentary scandal. No French
+     official record was reachable, and the UK Hansard sitting indexes for February
+     1892 and February 1893 were searched by debate title for "panama" with zero
+     hits.
+     CC-1932-MATCH_KING_SWINDLE_1932 — the Kreuger & Toll material is in the Senate
+     Banking Committee's "Stock Exchange Practices" (Pecora) hearings, which predate
+     govinfo's CHRG coverage. FRASER holds them but four different FRASER search and
+     item URL patterns all returned 404, and no item page was reached.
+     CC-1971-DARPA_IPTO_1971 — "The Enclosure of the Digital Commons" is a thesis,
+     not an event. No document was identified that could establish an enclosure in
+     1971, and nothing was invented to fill the gap.
+     CC-1980-GATES_IBM_QDOS_MONOPOLY_1980 — out of scope. This atlas is about
+     parties acting on advance knowledge of a CATASTROPHE; a software licensing deal
+     is not one, and the 1999 US v. Microsoft findings do not cover the 1980 QDOS
+     purchase in any event.
+     CC-1984-MUSK_APARTHEID_ZIP2 — no primary document of any kind was identified
+     for a claim about one family's capital.
+     CC-1985-JAPAN_BUBBLE_VULTURES_1989 — Bank of Japan and BIS were both probed;
+     the BoJ working-paper URLs tried 404'd and the BIS paper that resolved was
+     about 2007, not Japan. A 2001 academic working paper would in any case not
+     document the "vulture buyouts" half of the node.
+     CC-1987-EPSTEIN_BLACKMAIL_CARBYNE — out of scope on the atlas's own terms, and
+     the specific claim the node makes is the surveillance conduit, for which no
+     primary exists. The crimes are documented elsewhere; this node was not about
+     them.
+     CC-2002-PAYPAL_MAFIA_2002 — out of scope. No catastrophe, no advance knowledge
+     of one. S-1 and 10-K filings exist and would document a company, not a
+     conduit.
+     CC-2008-CLARIUM_ANVIL_2008 — EDGAR does hold 13F-HR filings for Clarium
+     Capital Management LLC (CIK 0001282816), including a 5 KB filing in November
+     2010. BUT A 13F REPORTS ONLY SECTION 13(f) SECURITIES, so a thin filing by a
+     macro fund proves nothing about a collapse. Building a node on that would have
+     been inference dressed as evidence. Removed instead.
+     CC-2018-HANDSHAKE_HNS_2018 — no official record. ICANN's IANA transition is
+     documented; a private naming project's "attempted privatization of the DNS
+     root" is not an act any institution recorded.
+     WHAT THE REMOVALS COST AND WHAT THEY BUY. The atlas lost eleven entries, about
+     a tenth of it, and the hardcoded tallies in public/atlas.html went 118 -> 107
+     in three places. What it gains is that every remaining dossier except one now
+     rests on a document a person opened. Six of the eleven failed for want of a
+     reachable source; five failed because the claim in the title was not the kind
+     of thing a document can establish. That second group is the more useful lesson:
+     a node whose title asserts a lineage, a pipeline or a conduit cannot be
+     sourced, because no institution ever files a record of one.
+     GATES: npm test 38/38; check-links over the two drafts, 2 URLs, 1 ok /
+     1 blocked (sec.gov EDGAR, UA policy, read by hand) / 0 DEAD. Schema validates;
+     0 duplicate codes, ids or citation URLs; 0 orphan citationIds; 0 unused
+     citations; 0 dangling node codes in the nine compiled lineages; no reference to
+     any removed code or to CIT-1720-HANSARD survives in master, in
+     public/data/atlas-public.json or in public/atlas.html. check-era-headers OK at
+     10 headers for 10 eras AFTER removing eleven dossiers — the removals did not
+     disturb any era block. Browser-verified at 10 era headers in correct order, the
+     new titles rendering, no removed title present, and the page reading 107.
+     VERIFY PASS: both built rows GATE 0-QUAR; eleven rows marked REMOVED.
+     WHAT IS LEFT OF THE WHOLE JOB: one node. CC-1825-HAITI_INDEMNITY_1825 still
+     carries Phase-0 boilerplate and a citation whose quoteOrFact opens "NOT READ,
+     and this citation says so rather than implying otherwise." It needs a readable
+     source for the Haitian indemnity; SSRN serves a bot challenge and the one
+     alternative tried returned a different paper under a 200.
+     Not merged to main, not pushed to main, not deployed. -->
+
 # THE CORNFIELD GAZETTE — MASTER NODE STATUS LEDGER
 
 | Node Code | Title / Scope | Era | Evidence Tier | Seeding Providers | Verify Pass | UI Wired | Done |
@@ -1891,3 +2014,16 @@
 | `CC-2004-HFT_LATENCY_2004` | The Best Offer Currently Available in the Marketplace: What Citadel Securities Saw and What It Filled | `ERA-09-2001` | TIER_1_STATUTE_COURT | `read-by-hand` | 3/3 PASS | YES | [x] |
 | `CC-2008-REPO_105_LEHMAN_2008` | They Gathered Information, They Monitored: the Examiner on Repo 105 and the Regulators Who Watched | `ERA-09-2001` | TIER_2_INQUIRY | `read-by-hand` | 3/3 PASS | YES | [x] |
 | `CC-2013-BEZOS_ARPA_CIA_C2S_CLOUD_2013` | $148,061,628, Not $600 Million: the CIA Cloud Contract as the Court of Federal Claims Recorded It | `ERA-09-2001` | TIER_1_STATUTE_COURT | `read-by-hand` | 3/3 PASS | YES | [x] |
+| `CC-2021-MICROSOFT_PRISM_IVAS_MALPRACTICE_2024` | A Cascade of Avoidable Errors: the Cyber Safety Review Board on the Stolen Signing Key | `ERA-10-2020` | TIER_2_INQUIRY | `read-by-hand` | 3/3 PASS | YES | [x] |
+| `CC-2026-NVIDIA_GPU_CARTEL_2026` | License Conditions That Limit the Ability of Foreign Firms: Export Gatekeeping in Nvidia's Own Filing | `ERA-10-2020` | TIER_3_PRIMARY_LEDGER | `read-by-hand` | 3/3 PASS | YES | [x] |
+| `CC-1868-ERIE_RAILROAD_WAR_1868` | REMOVED — no readable primary: Gutenberg has no Chapter of Erie, archive.org 503 | — | — | `none` | n/a | n/a | [x] |
+| `CC-1892-PANAMA_CANAL_SCANDAL_1892` | REMOVED — French record unreachable; Hansard Feb 1892 and Feb 1893 title search for "panama": 0 hits | — | — | `none` | n/a | n/a | [x] |
+| `CC-1932-MATCH_KING_SWINDLE_1932` | REMOVED — Pecora hearings predate govinfo CHRG; four FRASER URL patterns 404 | — | — | `none` | n/a | n/a | [x] |
+| `CC-1971-DARPA_IPTO_1971` | REMOVED — claim is a thesis, not an event; no document can establish it | — | — | `none` | n/a | n/a | [x] |
+| `CC-1980-GATES_IBM_QDOS_MONOPOLY_1980` | REMOVED — out of scope: no catastrophe, no advance knowledge of one | — | — | `none` | n/a | n/a | [x] |
+| `CC-1984-MUSK_APARTHEID_ZIP2` | REMOVED — no primary document of any kind identified | — | — | `none` | n/a | n/a | [x] |
+| `CC-1985-JAPAN_BUBBLE_VULTURES_1989` | REMOVED — BoJ URLs 404; the BIS paper that resolved is about 2007, not Japan | — | — | `none` | n/a | n/a | [x] |
+| `CC-1987-EPSTEIN_BLACKMAIL_CARBYNE` | REMOVED — out of scope; the surveillance-conduit claim has no primary | — | — | `none` | n/a | n/a | [x] |
+| `CC-2002-PAYPAL_MAFIA_2002` | REMOVED — out of scope: no catastrophe | — | — | `none` | n/a | n/a | [x] |
+| `CC-2008-CLARIUM_ANVIL_2008` | REMOVED — 13F reports only s.13(f) securities; a thin filing proves nothing about a collapse | — | — | `none` | n/a | n/a | [x] |
+| `CC-2018-HANDSHAKE_HNS_2018` | REMOVED — no institution recorded the claimed act | — | — | `none` | n/a | n/a | [x] |

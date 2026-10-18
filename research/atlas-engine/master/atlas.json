@@ -197,13 +197,6 @@
   ],
   "citations": [
     {
-      "id": "CIT-1720-HANSARD",
-      "tier": "TIER_2_INQUIRY",
-      "title": "UK House of Commons Secret Committee Report on the South Sea Company (1721)",
-      "url": "https://hansard.parliament.uk/",
-      "quoteOrFact": "Parliamentary inquiry documented fictitious stock ledger entries used to bribe MPs and Cabinet ministers prior to the 1720 crash."
-    },
-    {
       "id": "CIT-1721-SOUTHSEA-SECRECY",
       "tier": "TIER_2_INQUIRY",
       "title": "The several reports of the Committee of Secrecy to the Honourable House of Commons, relating to the late South-Sea directors, &c. (London, printed for A. Moore, 1721)",
@@ -1658,6 +1651,20 @@
     "title": "Amazon Web Services, Inc. v. The United States, and IBM U.S. Federal, Defendant-Intervenor, 113 Fed. Cl. 102, No. 13-506C (U.S. Court of Federal Claims; filed under seal 31 October 2013, reissued for publication 8 November 2013) (Wheeler, J.)",
     "url": "https://www.courtlistener.com/opinion/2641658/amazon-web-services-inc-v-united-states/",
     "quoteOrFact": "Read in full on CourtListener in a browser (courtlistener.com returns an empty HTTP 202 for opinion URLs to scripted requests, so link checks may report this blocked). The opinion is the published, redacted version: \"Redactions are indicated by [¶]... ].\" THE PROCUREMENT: \"This post-award bid protest arises from a competitive acquisition by the Central Intelligence Agency ('the agency') for cloud computing services ('C2S').\" The RFP issued 15 June 2012 and \"called for an established cloud service provider to build a custom clone of its public cloud for the agency\", as \"a single indefinite delivery, indefinite quantity ('IDIQ') cloud computing contract\" with \"ten years\" of potential performance — \"an initial five-year ordering period, a three-year option, and a two-year option\". Award was on a \"best value\" basis across technical/management, past performance, security, price and (added by amendment) risk. THE NUMBERS, WHICH ARE IN THE PUBLISHED OPINION: \"AWS's total evaluated price was $148,061,628 and IBM's total evaluated price was $93,917,785.\" The Source Selection Authority's trade-off, quoted by the court: \"Amazon's price is $148,061,628, while IBM's is $93,917,785 ... I do not believe that the $54 million difference, over five years, outweighs Amazon's strengths — specifically their superior technical solution.\" Also: \"IBM proposed a guaranteed minimum of $39 million, as compared to AWS's guaranteed minimum of $25 million\", IBM's figure being \"nearly double the anticipated Year 1 amount for IBM's services\". The agency \"deemed Amazon's proposal superior to IBM's proposal in every category except management, and except for 'security' where each proposal received a 'pass' rating\", and rated overall proposal risk \"low\" for Amazon and \"high\" for IBM. The contract was awarded to AWS on 14 February 2013. THE PROTEST AND WHAT THE COURT MADE OF IT: IBM protested at the GAO on 26 February 2013; the agency overrode the CICA automatic stay; the GAO sustained the protest in part on 6 June 2013 and recommended corrective action (IBM U.S. Federal, B-407073.3 et al., 2013 CPD ¶ 142 (Comp. Gen. June 6, 2013)); AWS sued on 24 July 2013. The administrative record ran to \"14 volumes and 13,048 pages\". The court held \"that the GAO's decision recommending corrective action lacks a rational basis, and therefore that the agency's decision to follow the GAO's recommendation also lacks a rational basis\", because \"the GAO completely overlooked the question of whether IBM suffered any prejudice and had standing to bring the protest in the first place\". THE FINDING ABOUT THE PROTESTOR, stated by the court in its own voice: \"the GAO failed to address the way in which IBM manipulated its pricing to create a bid protest issue. IBM appears to have intentionally manufactured a protest argument relating to the Scenario 5 pricing requirement, which it hoped to pursue if it lost the C2S competition with AWS. Knowing full well from its pre-proposal questions what the Scenario 5 requirements were, IBM drastically departed from the approach followed in its initial proposal when it came to submitting its final proposal revision. If it did not win the award, IBM could argue that the agency did not evaluate Scenario 5 prices on a common basis. IBM was the only offeror who appeared to 'misunderstand' the Scenario 5 pricing requirements, as the other offerors all interpreted Scenario 5 in the same way. IBM strongly disagrees that it manipulated the procurement in this manner, but the Court does not see any other explanation for IBM's final pricing strategy.\" THE CONCLUSION: \"There is no such thing as a perfect procurement\"; \"IBM never met that burden, and the GAO neglected to address it\"; \"AWS's offer was superior, and the outcome of the competition was not even close\"; and on the remedy sought, \"The unfairness inherent in such an action is that the winner must resubmit a new proposal with the information from its original offer already disclosed. In effect, AWS would have to bid against its own winning proposal. This Court will not allow such an unjust result.\" Declaratory relief was granted; no injunction was entered. WHAT THE FULL TEXT DOES NOT CONTAIN, CHECKED BY SEARCH: the figure \"600\" appears nowhere in it, and neither does \"Bezos\" nor \"Gise\". There is no reference to any family connection, to ARPA or DARPA, or to anyone's lineage. The $600 million figure attached to this contract in public discussion is not a number in this record; the evaluated price before the court was $148,061,628. The GAO's own 6 June 2013 decision was not read — only the court's account of it."
+  },
+      {
+    "id": "CIT-2024-CSRB-MICROSOFT-MEO",
+    "tier": "TIER_2_INQUIRY",
+    "title": "Cyber Safety Review Board, \"Review of the Summer 2023 Microsoft Exchange Online Intrusion\", 20 March 2024 (published by the Cybersecurity and Infrastructure Security Agency)",
+    "url": "https://www.cisa.gov/sites/default/files/2025-03/CSRBReviewOfTheSummer2023MEOIntrusion508.pdf",
+    "quoteOrFact": "Downloaded from cisa.gov (2.5 MB) and read as extracted text; executive summary and findings read in full, the facts chapter selectively. THE BOARD AND ITS MANDATE: on 11 August 2023 the Secretary of Homeland Security announced the Board would \"assess the recent Microsoft Exchange Online intrusion . . . and conduct a broader review of issues relating to cloud-based identity and authentication infrastructure affecting applicable cloud service providers and their customers.\" The Board interviewed 20 organizations; \"Microsoft fully cooperated with the Board and provided extensive in-person and virtual briefings, as well as written submissions.\" WHAT HAPPENED: \"In May and June 2023, a threat actor compromised the Microsoft Exchange Online mailboxes of 22 organizations and over 500 individuals around the world. The actor—known as Storm-0558 and assessed to be affiliated with the People's Republic of China in pursuit of espionage objectives—accessed the accounts using authentication tokens that were signed by a key Microsoft had created in 2016. This intrusion compromised senior United States government representatives working on national security matters, including the email accounts of Commerce Secretary Gina Raimondo, United States Ambassador to the People's Republic of China R. Nicholas Burns, and Congressman Don Bacon.\" The actor had access \"for at least six weeks\" and \"downloaded approximately 60,000 emails from State\". ON THE SCALE OF THE KEY: \"Signing keys, used for secure authentication into remote systems, are the cryptographic equivalent of crown jewels for any cloud service provider ... A single key's reach can be enormous, and in this case the stolen key had extraordinary power. In fact, when combined with another flaw in Microsoft's authentication system, the key permitted Storm-0558 to gain full access to essentially any Exchange Online account anywhere in the world. As of the date of this report, Microsoft does not know how or when Storm-0558 obtained the signing key.\" WHO FOUND IT: \"State Department was the first victim to discover the intrusion when, on June 15, 2023, State's security operations\" centre identified the anomalies — the customer, not the provider. THE BOARD'S CONCLUSION: \"The Board finds that this intrusion was preventable and should never have occurred. The Board also concludes that Microsoft's security culture was inadequate and requires an overhaul, particularly in light of the company's centrality in the technology ecosystem and the level of trust customers place in the company to protect their data and operations.\" Its seven stated grounds include: \"the cascade of Microsoft's avoidable errors that allowed this intrusion to succeed\"; \"Microsoft's failure to detect the compromise of its cryptographic crown jewels on its own, relying instead on a customer to reach out to identify anomalies the customer had observed\"; \"the Board's assessment of security practices at other cloud service providers, which maintained security controls that Microsoft did not\"; \"Microsoft's failure to detect a compromise of an employee's laptop from a recently acquired company prior to allowing it to connect to Microsoft's corporate network in 2021\"; and the public-statements finding, quoted in full because of what it records about timing — \"Microsoft's decision not to correct, in a timely manner, its inaccurate public statements about this incident, including a corporate statement that Microsoft believed it had determined the likely root cause of the intrusion when in fact, it still has not; even though Microsoft acknowledged to the Board in November 2023 that its September 6, 2023 blog post about the root cause was inaccurate, it did not update that post until March 12, 2024, as the Board was concluding its review and only after the Board's repeated questioning about Microsoft's plans to issue a correction\". The Board also noted \"a separate incident, disclosed by Microsoft in January 2024 ... which revealed a compromise that allowed a different nation-state actor to access highly-sensitive Microsoft corporate email accounts, source code repositories, and internal systems\", and that Microsoft's products \"underpin essential services that support national security, the foundations of our economy, and public health and safety\". Its summary judgement: \"the Board identified a series of Microsoft operational and strategic decisions that collectively point to a corporate culture that deprioritized both enterprise security investments and rigorous risk management.\" ON THE ACTOR'S HISTORY: \"This was not the first intrusion perpetrated by Storm-0558 ... Industry links Storm-0558 to the 2009 Operation Aurora campaign that targeted over two dozen companies, including Google, and the 2011 RSA SecurID incident, in which the actor stole secret keys used to generate authentication codes for SecurID tokens ... security researchers have tracked Storm-0558's activities for over 20 years.\" WHAT THIS REPORT IS NOT ABOUT: it does not mention PRISM, the Integrated Visual Augmentation System, or any defence procurement. It makes no finding about any contract, any price, or any programme of surveillance. It is a review of one intrusion and of cloud identity practice, and nothing beyond that is asserted from it."
+  },
+      {
+    "id": "CIT-2026-NVIDIA-10Q",
+    "tier": "TIER_3_PRIMARY_LEDGER",
+    "title": "NVIDIA Corporation, Quarterly Report on Form 10-Q for the quarterly period ended 26 July 2026, filed with the Securities and Exchange Commission 26 August 2026 (Accession No. 0001045810-26-000075)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+    "quoteOrFact": "Downloaded from sec.gov EDGAR (1.5 MB) and read as extracted text; the filing was located through the Commission's own submissions index for CIK 0001045810. (sec.gov serves files to a request declaring an identity and contact address, so automated link checks report sec.gov URLs as blocked.) This is the company's own sworn disclosure, not commentary about it. THE GATEKEEPING, IN THE COMPANY'S WORDS: \"We continue to be subject to a series of shifting and expanding export control restrictions, impacting our ability to serve customers outside the United States.\" The milestones it records: \"In August 2022, the USG announced export restrictions and export licensing requirements targeting China's semiconductor and supercomputing industries\"; \"In October 2023, the USG announced new and updated licensing requirements for exports to China and Country Groups D:1, D:4, and D:5 (including but not limited to, Saudi Arabia, the United Arab Emirates, and Vietnam, but excluding Israel)\"; \"In April 2025, the USG informed us that it requires a license for export to China (including Hong Kong and Macau) and D:5 countries, or to companies headquartered or with an ultimate parent therein, of our H20 integrated circuits\" and other circuits above stated thresholds; and \"In May 2025, the USG announced that it would rescind the AI Diffusion IFR and implement a replacement rule. The scope, timing, and requirements of the forthcoming rule remain uncertain.\" THE TECHNICAL PARAMETERS OF THE GATE: \"The export controls applicable to China are complex and address a variety of parameters, including the total processing performance of a chip, the 'performance density' of a chip, the interconnect bandwidth of a chip, and the memory bandwidth of a chip.\" THE CONDITION THAT REACHES PAST THE CHIP TO THE SERVICE: \"the USG already imposed license conditions that limit the ability of foreign firms to create and offer as a service large-scale GPU clusters, such as imposing license conditions on the use of products to be exported to certain countries\". LICENCES GRANTED AND THEN BLOCKED FROM THE OTHER SIDE: \"Beginning in August 2025, the USG granted licenses that would have allowed us to ship certain H20 products to certain China-based customers, but such sales were restricted by the PRC government, and we were unable to sell our H20 inventory.\" And: \"Beginning in February 2026, the USG granted licenses that would allow us to ship small amounts of H200 products to specific China-based customers, but such sales were restricted by the PRC government, and we have been unable to sell all the products for which we have\" licences. The cost of that is booked: provisions for inventory and excess inventory purchase obligations \"totaled $1.0 billion and $6.3 billion for the second quarter and first half of fiscal year 2026, respectively, including $4.5 billion associated with H20 excess inventory\". THE COMPANY'S OWN VIEW OF WHO THE CONTROLS HURT: \"Our competitive position has been harmed by export controls, and our competitive position and future results will be further harmed, over the long term, if the restrictions remain in place or are expanded\"; \"Export controls have and are likely in the future to have a disproportionate impact on NVIDIA and may disadvantage us against certain of our competitors that sell chips that are outside the scope of such control\"; and the effects reach \"not only in China, but also in other markets, such as Europe, Latin America, and Southeast Asia.\" On diversion: \"We have provided and will continue to provide assistance to authorities regarding attempted diversion\". THE SCALE AND THE CONCENTRATION: \"Data Center revenue was $89.0 billion, up 117% from a year ago and up 18% sequentially, driven by the ramp of our Blackwell Ultra infrastructure.\" Gross margin \"increased to 75.0% for the second quarter of fiscal year 2027 compared to 72.4% for the second quarter of fiscal year 2026\". On customer concentration: \"For the first half of fiscal year 2027, three direct customers represented 16%, 15%, and 13% of total revenue\"; for the second quarter of fiscal 2026, \"two direct customers represented 23% and 16% of total revenue\". THE REVENUE SHARE, AND EXACTLY WHO IT IS WITH: in the second quarter of fiscal 2027 the company \"introduced a new business model with certain select AI cloud partners, to enable broader access to our data center infrastructure products to serve AI startups, model builders, enterprises, research organizations\" and \"sovereign customers\". \"Under these agreements, AI clouds procure our data center infrastructure products and we commit to cloud service agreements, which the AI clouds can unilaterally stop providing to us and sell to third-party customers at more advantageous rates.\" Those commitments \"are typically six years in duration, totaled $36 billion as of July 26, 2026\". And: \"If certain criteria are met, we will participate in revenue share generated by the AI clouds from third-party customers, which may contribute to revenue in the future.\" WHAT THE FULL TEXT DOES NOT CONTAIN, CHECKED BY SEARCH: there is no mention of any payment, remittance or revenue share to the United States government or to any government. The strings \"remit\", \"payment to the U.S\", \"to the USG\" and \"equity stake\" do not appear. The only \"15%\" in the filing is a customer-concentration figure. The only revenue share disclosed is with AI cloud partners. Any claim that the company pays a percentage of its China revenue to the United States government is not in this filing, and nothing of the kind is asserted here. Nor does the filing use the word cartel, describe any agreement with competitors, or disclose any antitrust proceeding in the passages read."
   }
   ],
   "dossiers": [
@@ -2350,448 +2357,6 @@
       },
       "citationIds": [
         "CIT-1825-OOSTERLINCK-PANIZZA"
-      ]
-    },
-    {
-      "code": "CC-1868-ERIE_RAILROAD_WAR_1868",
-      "eraId": "ERA-05-1861",
-      "yearStart": 1868,
-      "yearEnd": 1868,
-      "title": "The Erie Railroad War & The Counterfeit Stock Printing Press",
-      "primaryTab": "crash-conduits",
-      "secondaryTabs": [],
-      "mechanism": "CENTRAL_BANK_LIQUIDITY",
-      "tier": "TIER_3_PRIMARY_LEDGER",
-      "auditDisposition": "DOCUMENTED",
-      "participants": [],
-      "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
-      },
-      "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-        "enablesNextDossier": "CC-2026-ARBITRAGE"
-      },
-      "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "The Erie Railroad War & The Counterfeit Stock Printing Press"
-      },
-      "citationIds": [
-        "CIT-1720-HANSARD"
-      ]
-    },
-    {
-      "code": "CC-1892-PANAMA_CANAL_SCANDAL_1892",
-      "eraId": "ERA-05-1861",
-      "yearStart": 1892,
-      "yearEnd": 1892,
-      "title": "The Panama Canal Scandal & French Parliamentary Slush Fund",
-      "primaryTab": "crash-conduits",
-      "secondaryTabs": [],
-      "mechanism": "CENTRAL_BANK_LIQUIDITY",
-      "tier": "TIER_3_PRIMARY_LEDGER",
-      "auditDisposition": "DOCUMENTED",
-      "participants": [],
-      "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
-      },
-      "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-        "enablesNextDossier": "CC-2026-ARBITRAGE"
-      },
-      "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "The Panama Canal Scandal & French Parliamentary Slush Fund"
-      },
-      "citationIds": [
-        "CIT-1720-HANSARD"
-      ]
-    },
-    {
-      "code": "CC-1932-MATCH_KING_SWINDLE_1932",
-      "eraId": "ERA-07-1929",
-      "yearStart": 1932,
-      "yearEnd": 1932,
-      "title": "The Kreuger & Toll 'Match King' Swindle & Forged Sovereign Bonds",
-      "primaryTab": "crash-conduits",
-      "secondaryTabs": [],
-      "mechanism": "CENTRAL_BANK_LIQUIDITY",
-      "tier": "TIER_3_PRIMARY_LEDGER",
-      "auditDisposition": "DOCUMENTED",
-      "participants": [],
-      "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
-      },
-      "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-        "enablesNextDossier": "CC-2026-ARBITRAGE"
-      },
-      "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "The Kreuger & Toll 'Match King' Swindle & Forged Sovereign Bonds"
-      },
-      "citationIds": [
-        "CIT-1720-HANSARD"
-      ]
-    },
-    {
-      "code": "CC-1971-DARPA_IPTO_1971",
-      "eraId": "ERA-08-1953",
-      "yearStart": 1971,
-      "yearEnd": 1971,
-      "title": "DARPA Node 0: The Enclosure of the Digital Commons",
-      "primaryTab": "crash-conduits",
-      "secondaryTabs": [],
-      "mechanism": "CENTRAL_BANK_LIQUIDITY",
-      "tier": "TIER_3_PRIMARY_LEDGER",
-      "auditDisposition": "DOCUMENTED",
-      "participants": [],
-      "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
-      },
-      "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-        "enablesNextDossier": "CC-2026-ARBITRAGE"
-      },
-      "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "DARPA Node 0: The Enclosure of the Digital Commons"
-      },
-      "citationIds": [
-        "CIT-1720-HANSARD"
-      ]
-    },
-    {
-      "code": "CC-1980-GATES_IBM_QDOS_MONOPOLY_1980",
-      "eraId": "ERA-08-1953",
-      "yearStart": 1980,
-      "yearEnd": 1980,
-      "title": "The IBM PC Deal & The $50,000 QDOS Enclosure",
-      "primaryTab": "crash-conduits",
-      "secondaryTabs": [],
-      "mechanism": "CENTRAL_BANK_LIQUIDITY",
-      "tier": "TIER_3_PRIMARY_LEDGER",
-      "auditDisposition": "DOCUMENTED",
-      "participants": [],
-      "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
-      },
-      "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-        "enablesNextDossier": "CC-2026-ARBITRAGE"
-      },
-      "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "The IBM PC Deal & The $50,000 QDOS Enclosure"
-      },
-      "citationIds": [
-        "CIT-1720-HANSARD"
-      ]
-    },
-    {
-      "code": "CC-1984-MUSK_APARTHEID_ZIP2",
-      "eraId": "ERA-08-1953",
-      "yearStart": 1984,
-      "yearEnd": 1984,
-      "title": "Apartheid Capital Flight to Dot-Com Monopoly Pipeline",
-      "primaryTab": "crash-conduits",
-      "secondaryTabs": [],
-      "mechanism": "CENTRAL_BANK_LIQUIDITY",
-      "tier": "TIER_3_PRIMARY_LEDGER",
-      "auditDisposition": "DOCUMENTED",
-      "participants": [],
-      "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
-      },
-      "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-        "enablesNextDossier": "CC-2026-ARBITRAGE"
-      },
-      "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "Apartheid Capital Flight to Dot-Com Monopoly Pipeline"
-      },
-      "citationIds": [
-        "CIT-1720-HANSARD"
-      ]
-    },
-    {
-      "code": "CC-1985-JAPAN_BUBBLE_VULTURES_1989",
-      "eraId": "ERA-08-1953",
-      "yearStart": 1985,
-      "yearEnd": 1985,
-      "title": "Bank of Japan Window Guidance & Vulture Buyouts",
-      "primaryTab": "crash-conduits",
-      "secondaryTabs": [],
-      "mechanism": "CENTRAL_BANK_LIQUIDITY",
-      "tier": "TIER_3_PRIMARY_LEDGER",
-      "auditDisposition": "DOCUMENTED",
-      "participants": [],
-      "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
-      },
-      "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-        "enablesNextDossier": "CC-2026-ARBITRAGE"
-      },
-      "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "Bank of Japan Window Guidance & Vulture Buyouts"
-      },
-      "citationIds": [
-        "CIT-1720-HANSARD"
-      ]
-    },
-    {
-      "code": "CC-1987-EPSTEIN_BLACKMAIL_CARBYNE",
-      "eraId": "ERA-08-1953",
-      "yearStart": 1987,
-      "yearEnd": 1987,
-      "title": "The Epstein Blackmail Vault & Surveillance Conduit",
-      "primaryTab": "crash-conduits",
-      "secondaryTabs": [],
-      "mechanism": "CENTRAL_BANK_LIQUIDITY",
-      "tier": "TIER_3_PRIMARY_LEDGER",
-      "auditDisposition": "DOCUMENTED",
-      "participants": [],
-      "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
-      },
-      "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-        "enablesNextDossier": "CC-2026-ARBITRAGE"
-      },
-      "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "The Epstein Blackmail Vault & Surveillance Conduit"
-      },
-      "citationIds": [
-        "CIT-1720-HANSARD"
-      ]
-    },
-    {
-      "code": "CC-2002-PAYPAL_MAFIA_2002",
-      "eraId": "ERA-09-2001",
-      "yearStart": 2002,
-      "yearEnd": 2002,
-      "title": "Dot-Com Crash & The 'PayPal Mafia'",
-      "primaryTab": "crash-conduits",
-      "secondaryTabs": [],
-      "mechanism": "CENTRAL_BANK_LIQUIDITY",
-      "tier": "TIER_3_PRIMARY_LEDGER",
-      "auditDisposition": "DOCUMENTED",
-      "participants": [],
-      "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
-      },
-      "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-        "enablesNextDossier": "CC-2026-ARBITRAGE"
-      },
-      "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "Dot-Com Crash & The 'PayPal Mafia'"
-      },
-      "citationIds": [
-        "CIT-1720-HANSARD"
-      ]
-    },
-    {
-      "code": "CC-2008-CLARIUM_ANVIL_2008",
-      "eraId": "ERA-09-2001",
-      "yearStart": 2008,
-      "yearEnd": 2008,
-      "title": "Clarium Capital Collapse: The Leveraged Macro Anvil",
-      "primaryTab": "crash-conduits",
-      "secondaryTabs": [],
-      "mechanism": "CENTRAL_BANK_LIQUIDITY",
-      "tier": "TIER_3_PRIMARY_LEDGER",
-      "auditDisposition": "DOCUMENTED",
-      "participants": [],
-      "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
-      },
-      "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-        "enablesNextDossier": "CC-2026-ARBITRAGE"
-      },
-      "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "Clarium Capital Collapse: The Leveraged Macro Anvil"
-      },
-      "citationIds": [
-        "CIT-1720-HANSARD"
-      ]
-    },
-    {
-      "code": "CC-2018-HANDSHAKE_HNS_2018",
-      "eraId": "ERA-09-2001",
-      "yearStart": 2018,
-      "yearEnd": 2018,
-      "title": "Handshake (HNS): Attempted Privatization of the DNS Root",
-      "primaryTab": "crash-conduits",
-      "secondaryTabs": [],
-      "mechanism": "CENTRAL_BANK_LIQUIDITY",
-      "tier": "TIER_3_PRIMARY_LEDGER",
-      "auditDisposition": "DOCUMENTED",
-      "participants": [],
-      "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
-      },
-      "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-        "enablesNextDossier": "CC-2026-ARBITRAGE"
-      },
-      "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "Handshake (HNS): Attempted Privatization of the DNS Root"
-      },
-      "citationIds": [
-        "CIT-1720-HANSARD"
-      ]
-    },
-    {
-      "code": "CC-2021-MICROSOFT_PRISM_IVAS_MALPRACTICE_2024",
-      "eraId": "ERA-10-2020",
-      "yearStart": 2021,
-      "yearEnd": 2021,
-      "title": "Microsoft Defense Transformation: PRISM, $22B IVAS & Storm-0558 Security Failures",
-      "primaryTab": "crash-conduits",
-      "secondaryTabs": [],
-      "mechanism": "CENTRAL_BANK_LIQUIDITY",
-      "tier": "TIER_3_PRIMARY_LEDGER",
-      "auditDisposition": "DOCUMENTED",
-      "participants": [],
-      "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
-      },
-      "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-        "enablesNextDossier": "CC-2026-ARBITRAGE"
-      },
-      "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "Microsoft Defense Transformation: PRISM, $22B IVAS & Storm-0558 Security Failures"
-      },
-      "citationIds": [
-        "CIT-1720-HANSARD"
-      ]
-    },
-    {
-      "code": "CC-2026-NVIDIA_GPU_CARTEL_2026",
-      "eraId": "ERA-10-2020",
-      "yearStart": 2026,
-      "yearEnd": 2026,
-      "title": "The GPU Compute Cartel: Export Gatekeeping & Sovereign Revenue Share",
-      "primaryTab": "crash-conduits",
-      "secondaryTabs": [],
-      "mechanism": "CENTRAL_BANK_LIQUIDITY",
-      "tier": "TIER_3_PRIMARY_LEDGER",
-      "auditDisposition": "DOCUMENTED",
-      "participants": [],
-      "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
-      },
-      "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-        "enablesNextDossier": "CC-2026-ARBITRAGE"
-      },
-      "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "The GPU Compute Cartel: Export Gatekeeping & Sovereign Revenue Share"
-      },
-      "citationIds": [
-        "CIT-1720-HANSARD"
       ]
     },
     {
@@ -6802,6 +6367,92 @@
     },
     "citationIds": [
       "CIT-2013-AWS-V-UNITED-STATES"
+    ]
+  },
+      {
+    "code": "CC-2021-MICROSOFT_PRISM_IVAS_MALPRACTICE_2024",
+    "eraId": "ERA-10-2020",
+    "yearStart": 2023,
+    "yearEnd": 2024,
+    "title": "A Cascade of Avoidable Errors: the Cyber Safety Review Board on the Stolen Signing Key",
+    "primaryTab": "deep-state",
+    "secondaryTabs": [
+      "consent"
+    ],
+    "mechanism": "PATENT_CHOKE_POINT",
+    "tier": "TIER_2_INQUIRY",
+    "auditDisposition": "DOCUMENTED",
+    "participants": [
+      "Microsoft Corporation",
+      "Cyber Safety Review Board",
+      "Cybersecurity and Infrastructure Security Agency",
+      "U.S. Department of Homeland Security",
+      "U.S. Department of State",
+      "U.S. Department of Commerce",
+      "Storm-0558"
+    ],
+    "extractionLoop": {
+      "stage1_upfrontSkim": "Not a financial skim and the dossier does not invent one. What the Board quantifies is the asymmetry of effort: one 2016 signing key, against \"the Microsoft Exchange Online mailboxes of 22 organizations and over 500 individuals around the world\" and \"approximately 60,000 emails\" taken from the State Department over \"at least six weeks\".",
+      "stage2_structuralCompromise": "The compromise is the architecture of trust itself, and the Board states it in the plainest terms available: \"Signing keys, used for secure authentication into remote systems, are the cryptographic equivalent of crown jewels for any cloud service provider ... A single key's reach can be enormous, and in this case the stolen key had extraordinary power. In fact, when combined with another flaw in Microsoft's authentication system, the key permitted Storm-0558 to gain full access to essentially any Exchange Online account anywhere in the world.\"",
+      "stage3_informationFog": "Two kinds of fog, and the Board finds both. The first is the provider's own ignorance: \"As of the date of this report, Microsoft does not know how or when Storm-0558 obtained the signing key.\" The second is a public statement left standing after it was known to be wrong — the Board faults \"Microsoft's decision not to correct, in a timely manner, its inaccurate public statements about this incident, including a corporate statement that Microsoft believed it had determined the likely root cause of the intrusion when in fact, it still has not; even though Microsoft acknowledged to the Board in November 2023 that its September 6, 2023 blog post about the root cause was inaccurate, it did not update that post until March 12, 2024, as the Board was concluding its review and only after the Board's repeated questioning\".",
+      "stage4_monopolyWindfall": "The windfall here is the adversary's, and it was taken against the most senior targets available: the intrusion \"compromised senior United States government representatives working on national security matters, including the email accounts of Commerce Secretary Gina Raimondo, United States Ambassador to the People's Republic of China R. Nicholas Burns, and Congressman Don Bacon.\" The Board also records that this actor was not new — \"security researchers have tracked Storm-0558's activities for over 20 years\", and industry links it to \"the 2009 Operation Aurora campaign\" and \"the 2011 RSA SecurID incident, in which the actor stole secret keys\".",
+      "stage5_merseyWhitewash": "This is the stage the Board refuses to perform, which is why the report is worth citing. It did not find an unforeseeable sophisticated attack: \"The Board finds that this intrusion was preventable and should never have occurred. The Board also concludes that Microsoft's security culture was inadequate and requires an overhaul, particularly in light of the company's centrality in the technology ecosystem and the level of trust customers place in the company to protect their data and operations.\" Among its grounds: \"the Board's assessment of security practices at other cloud service providers, which maintained security controls that Microsoft did not\". Its summary of the pattern: \"a series of Microsoft operational and strategic decisions that collectively point to a corporate culture that deprioritized both enterprise security investments and rigorous risk management.\""
+    },
+    "closedLoopRatchet": {
+      "inheritedFramework": "A single commercial identity and authentication layer underneath the federal government's email, which the Board treats as a systemic condition rather than a vendor choice: Microsoft's products \"underpin essential services that support national security, the foundations of our economy, and public health and safety\", which \"require the company to demonstrate the highest standards of security, accountability, and transparency.\"",
+      "newFrameworkCreated": "A public federal review board report recommending that the provider's \"CEO and Board of Directors directly focus\" on security culture and \"develop, and share publicly, a plan with specific timelines\" for reform — and a precedent for reviewing cloud identity practice across providers rather than one incident at one vendor.",
+      "closedLoopRecirculation": "Centrality creates the trust; the trust means the key's reach is enormous; the enormous reach means a single theft is a national-security event; and centrality is also what makes the provider hard to replace afterwards, so the finding of inadequate security culture is addressed to a vendor nobody can stop using. The Board's seventh ground is exactly this observation.",
+      "enablesNextDossier": "CC-2026-ARBITRAGE"
+    },
+    "decoyVsLedger": {
+      "viralDecoy": "That Microsoft is a surveillance arm of the state — PRISM, a $22 billion Army headset contract, and a Chinese breach of government email being three faces of one arrangement in which the company is paid to hold everyone's data and is never held to account for losing it.",
+      "whyDecoyFails": "THE THREE CLAIMS DO NOT SHARE A DOCUMENT, AND ONLY ONE OF THEM IS SOURCED HERE. What was read is the Cyber Safety Review Board's review of the Summer 2023 Exchange Online intrusion. It does not mention PRISM. It does not mention the Integrated Visual Augmentation System, any headset, or any defence procurement; it makes no finding about any contract or any price. Searches were made for a readable primary on the IVAS programme — dodig.mil returns HTTP 403 to scripted requests and its own keyword search did not filter, and the GAO product URLs tried returned 404 — and none was found, so nothing about IVAS is asserted and the node's original title claiming a $22 billion figure has been replaced. The accountability half of the decoy also fails, and fails specifically: the company was held to account, in public, by a federal board, in terms a critic could not improve on. \"The Board finds that this intrusion was preventable and should never have occurred\" and \"Microsoft's security culture was inadequate and requires an overhaul\". The Board found a \"cascade of Microsoft's avoidable errors\", found that other cloud providers \"maintained security controls that Microsoft did not\", found that the company failed \"to detect the compromise of its cryptographic crown jewels on its own, relying instead on a customer\", and found that a blog post it had admitted was inaccurate in November 2023 was not corrected until 12 March 2024 and only after repeated questioning. WHAT THE RECORD SUPPORTS, THEN, IS NOT COMPLICITY BUT CONCENTRATION. The failure that mattered was one 2016 key whose reach, combined with an authentication flaw, extended to \"essentially any Exchange Online account anywhere in the world\" — and the reason that is a national-security problem is the Board's own seventh ground: the products \"underpin essential services that support national security, the foundations of our economy, and public health and safety\". No conspiracy is required for a single key to do that; a market structure is enough.",
+      "documentedLedger": "The Cyber Safety Review Board's \"Review of the Summer 2023 Microsoft Exchange Online Intrusion\", 20 March 2024, published by CISA. It records: a mandate announced by the Secretary of Homeland Security on 11 August 2023; fact-finding across 20 organizations with Microsoft's full cooperation; the compromise in May and June 2023 of Exchange Online mailboxes of 22 organizations and over 500 individuals by Storm-0558, assessed as affiliated with the People's Republic of China in pursuit of espionage, using tokens signed by a key Microsoft created in 2016; compromised accounts including those of the Commerce Secretary, the U.S. Ambassador to the PRC and a Member of Congress; access for at least six weeks and approximately 60,000 emails downloaded from the State Department; the State Department as the first victim to discover the intrusion, on 15 June 2023; the key's reach, combined with another authentication flaw, extending to essentially any Exchange Online account anywhere in the world; Microsoft still not knowing how or when the key was obtained as of the report date; a finding that the intrusion was preventable and should never have occurred and that Microsoft's security culture was inadequate and requires an overhaul, on seven stated grounds including a cascade of avoidable errors, failure to detect the key compromise without a customer's help, security controls other cloud providers maintained and Microsoft did not, failure to detect a compromised laptop from an acquired company before connecting it to the corporate network in 2021, and the uncorrected root-cause statement acknowledged inaccurate in November 2023 and not updated until 12 March 2024; a separate January 2024 disclosure of a different nation-state actor accessing corporate email, source code repositories and internal systems; the actor's history linked by industry to Operation Aurora in 2009 and the RSA SecurID theft in 2011, with over 20 years of tracked activity; and a conclusion that a series of operational and strategic decisions point to a corporate culture that deprioritized enterprise security investment and rigorous risk management."
+    },
+    "citationIds": [
+      "CIT-2024-CSRB-MICROSOFT-MEO"
+    ]
+  },
+      {
+    "code": "CC-2026-NVIDIA_GPU_CARTEL_2026",
+    "eraId": "ERA-10-2020",
+    "yearStart": 2022,
+    "yearEnd": 2026,
+    "title": "License Conditions That Limit the Ability of Foreign Firms: Export Gatekeeping in Nvidia's Own Filing",
+    "primaryTab": "crash-conduits",
+    "secondaryTabs": [
+      "deep-state"
+    ],
+    "mechanism": "PATENT_CHOKE_POINT",
+    "tier": "TIER_3_PRIMARY_LEDGER",
+    "auditDisposition": "DOCUMENTED",
+    "participants": [
+      "NVIDIA Corporation",
+      "United States Government (export licensing authorities)",
+      "Government of the People's Republic of China",
+      "Select AI cloud partners",
+      "U.S. Securities and Exchange Commission"
+    ],
+    "extractionLoop": {
+      "stage1_upfrontSkim": "The skim is the margin and the disclosure is the company's own: \"Data Center revenue was $89.0 billion, up 117% from a year ago and up 18% sequentially\", and gross margin \"increased to 75.0% for the second quarter of fiscal year 2027 compared to 72.4% for the second quarter of fiscal year 2026\". Seventy-five cents of gross margin on the dollar, in a quarter when the market for the same products in the largest competing economy was closed in both directions.",
+      "stage2_structuralCompromise": "The compromise is a licence regime written in the physics of the product. \"The export controls applicable to China are complex and address a variety of parameters, including the total processing performance of a chip, the 'performance density' of a chip, the interconnect bandwidth of a chip, and the memory bandwidth of a chip.\" A threshold expressed in bandwidth and processing density is a line that only the designer can be sure of standing on, which makes the compliance boundary and the product roadmap the same document.",
+      "stage3_informationFog": "The company discloses the fog rather than resolving it: of the replacement for the rescinded AI Diffusion rule, \"The scope, timing, and requirements of the forthcoming rule remain uncertain\", and the government \"has changed and may again change the export control rules at any time\". Meanwhile licences granted on one side were blocked on the other: \"Beginning in August 2025, the USG granted licenses that would have allowed us to ship certain H20 products to certain China-based customers, but such sales were restricted by the PRC government, and we were unable to sell our H20 inventory.\" The same thing happened again with H200 from February 2026.",
+      "stage4_monopolyWindfall": "The condition worth reading twice is not about chips at all; it is about who may run a cluster. In the company's words: \"the USG already imposed license conditions that limit the ability of foreign firms to create and offer as a service large-scale GPU clusters, such as imposing license conditions on the use of products to be exported to certain countries\". An export licence that reaches past the sale and into the buyer's business model is the gatekeeping the node is named for. Alongside it, the concentration on the demand side is disclosed too: \"For the first half of fiscal year 2027, three direct customers represented 16%, 15%, and 13% of total revenue\".",
+      "stage5_merseyWhitewash": "There is no inquiry in this record and no proceeding; what there is, is a cost booked and a position stated. The H20 episode produced provisions \"including $4.5 billion associated with H20 excess inventory\", and the company's filed position is that it is the party harmed: \"Export controls have and are likely in the future to have a disproportionate impact on NVIDIA and may disadvantage us against certain of our competitors that sell chips that are outside the scope of such control.\""
+    },
+    "closedLoopRatchet": {
+      "inheritedFramework": "Four years of accreting export restrictions, dated in the filing: August 2022 restrictions targeting China's semiconductor and supercomputing industries; October 2023 licensing requirements extended to Country Groups D:1, D:4 and D:5 — \"including but not limited to, Saudi Arabia, the United Arab Emirates, and Vietnam, but excluding Israel\"; and April 2025 licensing for H20 and anything above the stated thresholds to China, Hong Kong, Macau and D:5 countries or companies ultimately parented there.",
+      "newFrameworkCreated": "A new commercial structure disclosed in the same filing: \"a new business model with certain select AI cloud partners\" under which \"AI clouds procure our data center infrastructure products and we commit to cloud service agreements\", commitments \"typically six years in duration\" totalling \"$36 billion as of July 26, 2026\", with the company participating in \"revenue share generated by the AI clouds from third-party customers\" if criteria are met. Compute sold, then rented back, then shared in.",
+      "closedLoopRecirculation": "Licensing thresholds defined by chip performance make the vendor the arbiter of what is exportable; the vendor designs to the threshold; licences then condition what foreign buyers may do with what they bought, including offering clusters as a service; the restricted market's own government blocks the licensed sales anyway; the unsold inventory is written down; and the same quarter's margin rises to 75% because the unrestricted demand is concentrated in three customers who have nowhere else to go.",
+      "enablesNextDossier": "CC-2026-ARBITRAGE"
+    },
+    "decoyVsLedger": {
+      "viralDecoy": "That Nvidia operates a GPU cartel with the United States government's blessing, and pays for the privilege by handing Washington a cut — fifteen percent of its China revenue — making export control a revenue-sharing agreement between a monopolist and a state.",
+      "whyDecoyFails": "THE REVENUE-SHARE CLAIM IS NOT IN THE COMPANY'S OWN FILING, AND THE FULL TEXT WAS SEARCHED FOR IT. There is no mention of any payment, remittance or revenue share to the United States government or to any government. The strings \"remit\", \"payment to the U.S\", \"to the USG\" and \"equity stake\" do not appear anywhere in the document. The only \"15%\" in the filing is a customer-concentration figure — \"three direct customers represented 16%, 15%, and 13% of total revenue\". And the only revenue share disclosed is with commercial counterparties: \"If certain criteria are met, we will participate in revenue share generated by the AI clouds from third-party customers\" — the company receiving a share from AI cloud partners, not paying one to a state. The word \"cartel\" does not appear either, no agreement with any competitor is disclosed, and no antitrust proceeding appears in the passages read. The node's original title asserted sovereign revenue; that has been replaced, because nothing read supports it. WHAT THE FILING DOES ESTABLISH IS THE GATEKEEPING, and it is stronger evidence than the rumour because the company says it against its own interest, under securities law. Export licences have conditioned not just the sale but the use: \"the USG already imposed license conditions that limit the ability of foreign firms to create and offer as a service large-scale GPU clusters\". The thresholds are written in the product's own physics — total processing performance, performance density, interconnect bandwidth, memory bandwidth. The rules \"have changed and may again change ... at any time\" and the replacement for the rescinded AI Diffusion rule is of \"uncertain\" scope. And the gate closes from both ends: licences granted in August 2025 for H20 and in February 2026 for H200 were made worthless by PRC restrictions, costing $4.5 billion in H20 inventory provisions. The company's filed position is that it is the loser — export controls \"have and are likely in the future to have a disproportionate impact on NVIDIA\" — which may be true and still leave intact the thing this dossier records: a market in which one firm's product specifications define a national licensing boundary, three customers account for 44% of revenue, and gross margin is 75%.",
+      "documentedLedger": "NVIDIA Corporation's Form 10-Q for the quarter ended 26 July 2026, filed 26 August 2026. It discloses: export restrictions announced by the US government in August 2022 targeting China's semiconductor and supercomputing industries; October 2023 licensing requirements for exports to China and Country Groups D:1, D:4 and D:5 including Saudi Arabia, the United Arab Emirates and Vietnam but excluding Israel; an April 2025 licence requirement for H20 and other circuits above stated thresholds to China, Hong Kong, Macau and D:5 countries or companies ultimately parented there; a May 2025 announcement that the AI Diffusion interim final rule would be rescinded and replaced, with scope, timing and requirements uncertain; controls addressing total processing performance, performance density, interconnect bandwidth and memory bandwidth; licence conditions already imposed that limit foreign firms' ability to create and offer large-scale GPU clusters as a service; licences granted from August 2025 for H20 and from February 2026 for H200 to specified China-based customers whose sales were then restricted by the PRC government, leaving inventory unsold; inventory and purchase-obligation provisions of $1.0 billion for the quarter and $6.3 billion for the half of fiscal 2026, including $4.5 billion for H20 excess inventory; the company's position that export controls have harmed and will further harm its competitive position and have a disproportionate impact on it relative to competitors selling chips outside the controls' scope, with effects in Europe, Latin America and Southeast Asia as well as China; assistance provided to authorities on attempted diversion; Data Center revenue of $89.0 billion, up 117% year on year and 18% sequentially; gross margin of 75.0% against 72.4% a year earlier; three direct customers at 16%, 15% and 13% of first-half fiscal 2027 revenue, and two at 23% and 16% in the second quarter of fiscal 2026; and a new business model with select AI cloud partners involving six-year cloud service commitments totalling $36 billion as of 26 July 2026 and a revenue share receivable from those partners if criteria are met."
+    },
+    "citationIds": [
+      "CIT-2026-NVIDIA-10Q"
     ]
   }
   ],

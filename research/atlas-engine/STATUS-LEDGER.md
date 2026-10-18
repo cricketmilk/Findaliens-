@@ -1621,6 +1621,167 @@
      render-and-screenshot route used earlier in this session.
      Not merged to main, not pushed to main, not deployed. -->
 
+<!-- ACTUAL 2026-10-17 (fourteenth pass): EIGHT MORE HANSARD-ONLY STUBS BUILT.
+     118 dossiers, 209 citations, 104 researched, 14 boilerplate — THIRTEEN
+     Hansard-only left, plus CC-1825-HAITI_INDEMNITY_1825.
+     TWO MORE TITLES REPLACED BECAUSE THEY ASSERTED WHAT NO DOCUMENT SUPPORTS.
+     CC-1876-KHEDIVATE_EGYPT_1876 — FIVE Hansard debates, February to May 1876,
+     and together they are a timeline of a government buying an asset before
+     reading its own report on the seller's books. On 11 February the Chancellor
+     told the House "the mission of Mr. Cave is not yet completed" while the vote
+     of £4,080,000 stood for the following Monday; he offered the INSTRUCTIONS and
+     covering correspondence, not the findings. On 29 February the question whether
+     the Khedive "paid a commission to agents in Egypt on the sale of the Canal
+     shares" was answered: "he had no information on that subject; but he would be
+     exceedingly surprised if anything of the kind stated in the Question had
+     occurred." On 13 March Disraeli had not seen the Report. On 23 March he had,
+     and refused publication because "the Khedive has expressed a strong objection
+     to this Report being made public in the present unsettled condition of
+     Egyptian finance" — withheld for the reason that made it worth reading. FIVE
+     DAYS LATER THE GROUND CHANGED: on 28 March Disraeli said the Khedive did not
+     yet have the text and had made no such request, while the Chancellor said the
+     Report "was not founded solely upon information given by the Khedive" and that
+     "It was no part of the duty of my right hon. Friend ... to prepare a Report
+     for the purpose of being published." Both answers are in the record. On 12 May
+     Cave answered for his own figures and gave away where the money went: the
+     conversion would cost £7,000,000 against his own plan's £2,000,000, "by far
+     the larger portion of which is given in the form of a bonus to the holders of
+     Treasury bonds—for the purpose, I suppose, of floating the Debt", with
+     "between £2,000,000 and £3,000,000 unaccounted for" that he could not
+     attribute between being misinformed and later spending. NO BANK, FINANCIER OR
+     AGENT IS NAMED in any of the five debates, so the Rothschild half of the
+     popular account is not evidenced and is not asserted.
+     CC-1890-BARING_CRISIS_1890 — THIS NODE IS THIN AND SAYS SO. The sitting
+     indexes for November and December 1890 and January and February 1891 were
+     searched by debate title for "Baring", "Argentine", "Bank of England", "Bank
+     Act", "gold reserve", "money market" and "financial", and the episode reaches
+     the floor ONCE, unnamed, as "the recent serious crisis in the City". What that
+     one exchange of 27 November 1890 does give is the containment stage clean:
+     asked for a Royal Commission on the working of the Bank Act of 1844, Goschen
+     answered "No, Sir; we have no such intention. If at any time it should appear
+     to Her Majesty's Government that the arrangements made in 1844 should be
+     altered in any particulars, they would prefer to deal with the matter on their
+     own initiative and responsibility rather than to relegate the matter to a
+     Royal Commission." An inquiry refused in the first week the House sat. The
+     node asserts nothing about the rescue itself; no Bank record was read.
+     CC-1980-SILVER_THURSDAY_1980 — the CFTC's own dated chronology, 1970s and
+     1980s pages, read in a browser because cftc.gov returns 403 with a Cloudflare
+     interstitial to scripts. The decoy says regulators broke the corner. The
+     agency's own record says the opposite: "March 28, 1980—After careful
+     consideration of a host of market factors, the CFTC votes not to use its
+     emergency powers to order a suspension of trading in silver futures as prices
+     plummet." And it declined having just proved it could — it closed the CBOT
+     March wheat contract in March 1979, "the first time the Commission orders a
+     market closed in the interest of preventing a price manipulation"; the Seventh
+     Circuit affirmed the emergency power in September 1979; and it had suspended
+     five grain markets for two days on 6 January 1980 over the Soviet grain
+     embargo. IT HAD ALSO ALREADY SUED THIS FAMILY: "April 28, 1977—The CFTC asks
+     the U.S. District Court in Chicago to order seven members of the Hunt family
+     of Dallas ... to liquidate positions that exceed the three million bushel
+     speculative position limit for soybean futures". Then the ratchet: report to
+     Congress 29 May 1981; Regulation 1.61 requiring position limits in ALL futures
+     contracts, 16 October 1981; and the charge on 28 February 1985, "ALLEGING"
+     manipulation — the agency's own word, left as a word.
+     CC-1991-RUSSIA_HIID_LOOTING_1993 — US v. President and Fellows of Harvard
+     College, 323 F. Supp. 2d 151 (D. Mass. 2004), read on CourtListener in a
+     browser. THE CASE DECIDES NOTHING ABOUT LOANS-FOR-SHARES OR RUSSIAN
+     PRIVATIZATION and the node says so. What it does contain is Harvard's own
+     written statement of this atlas's whole subject, in the HIID Overseas Manual:
+     the investment ban exists "because each HIID overseas group examines under
+     official or semi-official auspices a wide range of local economic matters,
+     knowledge of which at least presents the actual possibility or appearance of
+     exploitation for personal gain." Then: the Project Director "did not consider
+     himself bound by the policy ... because it applied to employees and he did not
+     consider himself an employee"; and the Moscow General Director, whose project
+     had in May 1996 developed "the framework for unit investment funds activity on
+     GKO/OFZ ... market" together with the Central Bank and Arthur Andersen,
+     invested $50,000 in GKOs in July 1996 through the Project Director's wife's
+     fund, making $3,000. DISPOSITIONS REPORTED WHOLE, half against the government:
+     Harvard lost on contract but WON all three False Claims Act counts because it
+     "did not have knowledge", and ALL defendants won on fraud and fraudulent
+     inducement.
+     CC-1998-RUSSIA_BONY_1998 — "Corruption in Russia", Senate Foreign Relations,
+     23 and 30 September 1999. THE TWO FAMOUS CLAIMS ARE BOTH IN THIS HEARING AND
+     NEITHER IS A FINDING: the "$3.9 billion of $4.8 billion never entered Russia"
+     figure was put by Chairman Helms as Skuratov's press-reported assertion, and
+     Talbott answered "I certainly cannot vouch for that"; the "Rubin and Summers
+     knew" claim was Senator Wellstone reading the New York Times of 8 September
+     1999, and Talbott said "you would have to ask Treasury." What Talbott DID say
+     on his own knowledge is the node: "we, the Department, originally found out
+     about the Bank of New York case in the spring", the matter was referred to
+     Justice as the rules require, Justice briefs State "when the facts and the case
+     are developed to the point where they are felt to have some kind of foreign
+     policy relevance", "that happened in August", and on whether it should have
+     affected the July IMF loan — "my impression is that it would not have had any
+     effect on that." Spring, July, August: the procedure places the information
+     where it cannot reach the decision until after the decision, and the official
+     calls the handling "absolutely appropriately", citing "the sanctity of the
+     grand jury process". A design, not a plot.
+     CC-2004-HFT_LATENCY_2004 — the SEC's settled order against Citadel Securities
+     LLC, 13 January 2017. JANE STREET IS NOT IN THE DOCUMENT and the old title
+     naming it is gone. Nor is the finding front-running: it is a §17(a)(2)
+     misstatement case about telling retail clients a market order buys at "the best
+     offer (bid) currently available in the marketplace" while FastFill filled at the
+     public SIP price when its own depth-of-book feeds showed better — the
+     Commission's own example being a fill at $10.01 with $10.00 visible.
+     Disgorgement $5,200,000, interest $1,465,268, penalty $16,000,000, censure,
+     no admission. The Commission's own limiting figures are in the node too: the
+     two algorithms were about 2.6% of the algorithmic engine's retail orders and
+     0.6% of overall flow, and SmartProvide improved on the public quote for ~18%
+     of shares. yearStart moved 2004 -> 2007 because the conduct period is "late
+     2007 through January 2010" and 2004 was supported by nothing read.
+     CC-2008-REPO_105_LEHMAN_2008 — THE EXAMINER'S REPORT WAS NOT READ: jenner.com
+     serves a bot-verification interstitial, NOT circumvented. What was read is the
+     House Financial Services hearing of 20 April 2010, which carries Valukas's
+     sworn testimony and verbatim quotations from the Report with page numbers
+     (732, 733, 735, 738, 739, 742-743, 746, 853, 1482-1483), and every quotation
+     in the node is marked as one or the other. The testimony is better than the
+     Report for this atlas: "although the public had a right to expect that firms
+     like Lehman were being regulated in a meaningful way, in reality, they were
+     not"; "Governing agencies gathered information, they monitored, but no agency
+     effectively regulated"; the New York Fed "viewed its role as a potential lender
+     and not as a regulator, and it deferred to the SEC"; the SEC knew of persistent
+     risk-limit breaches in 2007 and never required disclosure "to rating agencies
+     or anyone else"; it knew by June 2008 that encumbered assets sat in the
+     liquidity pool and made no public disclosure; it missed Repo 105 "because it
+     did not ask the right questions. Its failure to ask about off-balance sheet
+     transactions in this post-Enron era is hard to understand." AND THE EXAMINER
+     REFUSES THE MONOCAUSAL READING HIMSELF: "There is no single cause or actor
+     involved here ... It is far from clear that the most engaged regulator could
+     have saved Lehman from its fate."
+     CC-2013-BEZOS_ARPA_CIA_C2S_CLOUD_2013 — Amazon Web Services, Inc. v. United
+     States, 113 Fed. Cl. 102 (8 November 2013), read on CourtListener in a browser.
+     THE FULL TEXT WAS SEARCHED: "Bezos" does not appear, "Gise" does not appear,
+     there is no ARPA or DARPA reference, and the string "600" appears NOWHERE. The
+     price in the record is "AWS's total evaluated price was $148,061,628 and IBM's
+     total evaluated price was $93,917,785", with the Source Selection Authority
+     writing that the "$54 million difference, over five years" did not outweigh
+     Amazon's "superior technical solution". So the famous $600 million is not this
+     record's number and the node does not repeat it; the title now carries the
+     correction. THE MORAL ALSO INVERTS: the court found, in its own voice, that
+     "IBM appears to have intentionally manufactured a protest argument relating to
+     the Scenario 5 pricing requirement, which it hoped to pursue if it lost", that
+     "IBM was the only offeror who appeared to 'misunderstand'" it, and that the
+     GAO's decision "lacks a rational basis" for overlooking prejudice and standing.
+     "AWS's offer was superior, and the outcome of the competition was not even
+     close."
+     GATES: npm test 38/38; check-links over the eight drafts, 13 URLs, 10 ok /
+     3 blocked / 0 DEAD — the three blocked are the two cftc.gov pages and the
+     sec.gov order, all read by hand and all three citations say so. Schema
+     validates; 0 duplicate codes, ids or citation URLs; 0 orphan citationIds;
+     0 unused citations; check-era-headers OK at 10 headers for 10 eras.
+     VERIFY PASS: all eight rows GATE 0-QUAR.
+     AN ERA-INVARIANT NEAR MISS WORTH RECORDING. CC-1991-RUSSIA_HIID_LOOTING_1993
+     was drafted with yearStart 1992 to match the first Cooperative Agreement. The
+     era year ranges were computed before merging — ERA-08-1953 spans 1953-1991 and
+     ERA-09-2001 spans 1992-2019 — and 1992 would have put an ERA-08 node at the
+     first year of ERA-09, splitting the block and producing an eleventh header.
+     This is the SAME failure mode that broke the index twice earlier in this
+     session. It was caught by computing the ranges FIRST rather than by running
+     check-era-headers afterwards, which is the cheaper order: compute the min and
+     max yearStart per era before choosing any new yearStart.
+     Not merged to main, not pushed to main, not deployed. -->
+
 # THE CORNFIELD GAZETTE — MASTER NODE STATUS LEDGER
 
 | Node Code | Title / Scope | Era | Evidence Tier | Seeding Providers | Verify Pass | UI Wired | Done |
@@ -1722,3 +1883,11 @@
 | `CC-2011-DEUTSCHE_MIRROR_TRUMP_2011` | Highly Suggestive of Financial Crime: 2,400 Mirror Trades, USD 6 Billion, and a Penalty for Systems and Controls | `ERA-09-2001` | TIER_1_STATUTE_COURT | `read-by-hand` | 3/3 PASS | YES | [x] |
 | `CC-2022-LME_NICKEL_SHORT_SQUEEZE_2022` | Twenty Minutes From Waking Up: the Court's Finding on the $12 Billion Nickel Cancellation | `ERA-10-2020` | TIER_1_STATUTE_COURT | `read-by-hand` | 3/3 PASS | YES | [x] |
 | `CC-2024-FAIRSHAKE_PAC_2024` | $260 Million Raised, $40.7 Million Spent on Independent Expenditures: Fairshake in the FEC's Own Totals | `ERA-10-2020` | TIER_3_PRIMARY_LEDGER | `read-by-hand` | 3/3 PASS | YES | [x] |
+| `CC-1876-KHEDIVATE_EGYPT_1876` | The Mission Is Not Yet Completed: Buying the Khedive's Shares Before Reading the Report on His Books | `ERA-05-1861` | TIER_3_PRIMARY_LEDGER | `read-by-hand` | 3/3 PASS | YES | [x] |
+| `CC-1890-BARING_CRISIS_1890` | No, Sir; We Have No Such Intention: the One Question Parliament Asked After November 1890 | `ERA-05-1861` | TIER_3_PRIMARY_LEDGER | `read-by-hand` | 3/3 PASS | YES | [x] |
+| `CC-1980-SILVER_THURSDAY_1980` | Votes Not To Use Its Emergency Powers: the CFTC's Own Chronology of the Silver Corner | `ERA-08-1953` | TIER_2_INQUIRY | `read-by-hand` | 3/3 PASS | YES | [x] |
+| `CC-1991-RUSSIA_HIID_LOOTING_1993` | Knowledge of Which Presents the Possibility of Exploitation for Personal Gain: Harvard's Own Rule, and the GKO Trade That Broke It | `ERA-08-1953` | TIER_1_STATUTE_COURT | `read-by-hand` | 3/3 PASS | YES | [x] |
+| `CC-1998-RUSSIA_BONY_1998` | Originally Found Out in the Spring, Briefed in August: the Deputy Secretary's Own Timeline | `ERA-09-2001` | TIER_2_INQUIRY | `read-by-hand` | 3/3 PASS | YES | [x] |
+| `CC-2004-HFT_LATENCY_2004` | The Best Offer Currently Available in the Marketplace: What Citadel Securities Saw and What It Filled | `ERA-09-2001` | TIER_1_STATUTE_COURT | `read-by-hand` | 3/3 PASS | YES | [x] |
+| `CC-2008-REPO_105_LEHMAN_2008` | They Gathered Information, They Monitored: the Examiner on Repo 105 and the Regulators Who Watched | `ERA-09-2001` | TIER_2_INQUIRY | `read-by-hand` | 3/3 PASS | YES | [x] |
+| `CC-2013-BEZOS_ARPA_CIA_C2S_CLOUD_2013` | $148,061,628, Not $600 Million: the CIA Cloud Contract as the Court of Federal Claims Recorded It | `ERA-09-2001` | TIER_1_STATUTE_COURT | `read-by-hand` | 3/3 PASS | YES | [x] |

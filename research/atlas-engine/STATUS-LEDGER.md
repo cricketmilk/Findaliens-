@@ -1081,6 +1081,38 @@
      VERIFY PASS: both rows GATE 0-QUAR.
      Not merged to main, not pushed to main, not deployed. -->
 
+<!-- ACTUAL 2026-10-17 (seventh pass): TWO PHASE-0 STUBS REMOVED AS SCOPE DUPLICATES OF
+     NODES THE ATLAS ALREADY SOURCES. 121 -> 119 public dossiers, citations unchanged
+     at 183, unsourced stubs 34 -> 32.
+     A CHEAP CHECK WORTH REPEATING. Before researching more stubs, every remaining stub
+     was compared against every sourced dossier. Title similarity alone found nothing
+     (the Phase-0 titles were written independently of the researched ones), but two
+     stubs are plainly the same SUBJECT as an existing sourced node:
+     CC-1972-BCCI_1991 "BCCI: Global Black-Budget Intelligence & Slush Fund Conduit",
+     dated 1972-1972, boilerplate ledger, one citation to the 1721 South Sea report —
+     against CC-1991-BCCI, "The Licensed Criminal Bank That Chartered Fraud Offshore
+     and Bought Washington Through Front Men", dated 1972-1999 and carrying FIVE
+     CourtListener citations to adjudicated federal litigation. The sourced node covers
+     the stub's entire span and subject with court records.
+     CC-2010-PALANTIR_INQTEL_2010 "Palantir & In-Q-Tel: The Intelligence-Industrial
+     Surveillance Pipeline", dated 2010-2010, boilerplate — against PH-2003-INQTEL,
+     "In-Q-Tel's Seed Round: How the CIA's Venture Arm Incubated Palantir
+     Technologies", dated 2003-2020 with four citations including an SEC filing. Same
+     subject, better sourced, wider span.
+     Carrying both members of each pair meant the atlas asserted, in a boilerplate
+     node, a version of something it documents properly elsewhere. Same disposition as
+     CC-2000-NINE_ELEVEN_2001 and CC-1815-WATERLOO earlier today: the duplicate goes,
+     the sourced node stays.
+     WHAT THIS LEAVES. 32 unsourced Phase-0 stubs. They are not all researchable at the
+     same cost: some have a single large openable primary (the pattern that worked for
+     Madoff, Enron, the FCIC and Theranos), some will turn out to be duplicates like
+     these two, and some will turn out to be unsourceable and should go the way of the
+     Oct 7 and Harken nodes. The three dispositions are all legitimate and the ledger
+     should say which one each stub received.
+     GATES: npm test 38/38; schema validates; check-era-headers OK at 10/10;
+     atlas.html tallies updated 121 -> 119.
+     Not merged to main, not pushed to main, not deployed. -->
+
 # THE CORNFIELD GAZETTE — MASTER NODE STATUS LEDGER
 
 | Node Code | Title / Scope | Era | Evidence Tier | Seeding Providers | Verify Pass | UI Wired | Done |

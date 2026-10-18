@@ -1440,6 +1440,187 @@
      pending a readable source.
      Not merged to main, not pushed to main, not deployed. -->
 
+<!-- ACTUAL 2026-10-17 (thirteenth pass): THE HANSARD-ONLY STUBS, FIRST TEN.
+     118 dossiers, 196 citations, 96 researched, 22 boilerplate — twenty-one
+     Hansard-only still to go, plus CC-1825-HAITI_INDEMNITY_1825. Each of these
+     ten carried exactly one citation, CIT-1720-HANSARD, attached by migrate.mjs
+     as a Phase-0 placeholder to a node nobody had researched. All ten now carry
+     primary documents located, opened and read; two carry two.
+     THE RICHEST FIND WAS THAT HANSARD IS REAL. Parliament's own Historic Hansard
+     service (api.parliament.uk/historic-hansard) serves the 1803-2005 record as
+     plain pages, and for 11 May 1866 it has both halves of the Overend Gurney
+     day: "THE PANIC IN THE CITY" (vol 183 cc772-4) and, hours later in the same
+     sitting, "SUSPENSION OF THE BANK CHARTER ACT" (cc840-2). So the placeholder
+     citation that stood in for research on thirty-one nodes turns out to name a
+     source that can actually carry some of them.
+     CC-1866-OVEREND_GURNEY_1866 — the two 1866 debates, and they refute the
+     advance-knowledge reading on the Chancellor's own evidence under hostile
+     questioning from Disraeli: "until two hours or two hours and a half ago no
+     representation or formal report of any kind had reached me from the City",
+     no decision taken, and "I have not the least reason to suppose that any
+     request from that quarter" — the Bank's directors — "is likely to reach the
+     Government." By the evening the Bank had lent over £4,000,000, its reserves
+     had fallen "in a single day from a sum approaching £6,000,000 to a little
+     exceeding £3,000,000", and the Government had decided to send a letter
+     "substantially the same as was addressed to those high officers in 1847 and
+     1857". The record's own verdict on deliberation: "the extraordinary rapidity
+     with which the crisis has come upon us, and which has reduced the opportunity
+     of deliberation given to the Government within very narrow limits indeed."
+     What the record DOES show is who moved it: the private banks of London came
+     first, then a deputation from the joint-stock banks, pressing "even more
+     earnestly and urgently than I anticipated". TWO LIMITS RECORDED IN THE NODE:
+     the word "Overend" appears NOWHERE in either page — the Chancellor says only
+     "the calamitous event announced yesterday" — and Hansard does not name the
+     Chancellor, so the dossier does not either. The digitisation also has visible
+     faults ("the monetary slate of the country", "from the the actual trans
+     actions"); nothing is quoted from them.
+     CC-1901-NORTHERN_PACIFIC_CORNER_1901 — Northern Securities Co. v. United
+     States, 193 U.S. 197, from the Library of Congress's U.S. Reports scans. THE
+     CORRECTION IS THE POINT: the panic of May 1901 appears in this case ONCE, in
+     the ARGUMENT OF THE ATTORNEY GENERAL, as one of three occasions evidencing
+     concert between Hill and Morgan. It is in no holding. What the Court decided
+     was that the holding company formed out of the TRUCE that ended the corner
+     was "an illegal combination in restraint of interstate commerce". Nobody was
+     charged with cornering anything; the short sellers the legend is about are not
+     before the court. The OCR is bad enough to state ("NORTHERN SECIJRIITIES CO.
+     v. UNiITED STATES"; Hill appears once as "Mr. Ill"), so no figure is taken.
+     CC-1914-DUPONT_GM_1934 — United States v. du Pont, 353 U.S. 586 (1957), and
+     THE NODE WAS RETITLED BECAUSE ITS OLD TITLE ASSERTED SOMETHING UNSOURCED. The
+     opinion contains no mention of any plot against the government, of Smedley
+     Butler, or of the 1934 McCormack-Dickstein committee; the words "Business
+     Plot" do not appear. Nothing on that subject was read and nothing is claimed.
+     What the Court does find is a closed loop needing no coup: war explosives
+     orders forced capacity from 700,000 to 37,000,000 pounds a month at a cost
+     over $200,000,000, profits "ultimately amounted to $232,000,000", $90,000,000
+     was set aside for expansion, Pierre S. du Pont was made chairman of General
+     Motors' board as a "neutral" director in 1915, and on 19 December 1917 Raskob
+     recommended a $25,000,000 purchase in writing because "Our interest in the
+     General Motors Company will undoubtedly secure for us the entire Fabrikoid,
+     Pyralin [celluloid], paint and varnish business of those companies". Held a
+     section 7 violation — in 1957, about a 1917 purchase, after the FTC had never
+     once used the statute against a vertical acquisition.
+     CC-1970-PENN_CENTRAL_1970 — the Federal Reserve's own history essay (published
+     24 September 2026), and it is the best-dated asymmetry in the atlas. The Fed
+     "had tracked Penn Central's decline closely"; a memorandum to Chairman Burns
+     dated 3 JUNE 1970 is titled "Effects of a possible default by a major
+     corporation on its maturing commercial paper"; the New York Fed declined to
+     recommend the federal loan guarantee on Wednesday 17 June; Defense refused it
+     on Friday 19 June, "the last major development before Penn Central's
+     bankruptcy over the following weekend". Meanwhile "the default reportedly
+     caught investors by surprise", the paper "had retained a 'prime' credit
+     rating", and "Goldman Sachs, the dealer of Penn Central's commercial paper,
+     continued to sell the paper even as the company's financial state declined,
+     which led to a Securities and Exchange Commission investigation." No public
+     money reached the railroad: the guarantee was refused, the 13(3) loans were
+     prepared and never made. What was rescued was the market, and what stayed is
+     the ratchet — Regulation Q was partially suspended for large CDs on 23 June
+     over Governor Robertson's dissent, and "controls on large-sized CDs were never
+     reinstated". Burns called commercial paper "a vast new unregulated banking
+     system". LIMIT: this is the Fed writing about the Fed; the Board minutes, the
+     Brimmer Papers and the SEC's 1972 staff report are cited by it and were not
+     opened.
+     CC-1994-MEXICO_TEQUILAZO_1994 — GAO/GGD-96-56, a report whose title contains
+     the word "Awareness" because Congress asked exactly this question. It gives
+     the decoy its concession and then takes it away: officials were aware of a
+     deficit "financed mostly by short-term portfolio capital that was vulnerable
+     to a sudden reversal", a Treasury official thought the rate "on the high side"
+     in February 1994, and officials cautioned Mexico in October and November — but
+     "U.S. officials, however, were undecided about the extent to which the peso was
+     overvalued and if and when financial markets might force Mexico to take action.
+     Moreover, Federal Reserve and Treasury officials did not foresee the magnitude
+     of the crisis that eventually unfolded." Swap facilities were made available in
+     March and August 1994 AND NOT USED. The IMF "was less aware of the seriousness
+     of the situation" than the US government. The bailed-out-bondholders argument
+     is in the report, ATTRIBUTED to "some observers", not adopted.
+     CC-2003-DARPA_TIA_PALANTIR_ENCLOSURE_2003 — THE CARVE-OUT IS IN THE STATUTE,
+     and this is the find of the batch. Public Law 108-87 section 8131(a), at 117
+     Stat. 1102-1103, bans funding for Terrorism Information Awareness "in this or
+     any other Act" and then, in the same sentence, exempts "the program hereby
+     authorized for Processing, analysis, and collaboration tools for
+     counterterrorism foreign intelligence, as described in the Classified Annex",
+     funded in the National Foreign Intelligence Program. Subsection (c) defines
+     the banned programme to include "any successor program" anywhere in the
+     federal government. The two halves sit against each other in one section. The
+     "defunded in public, continued in classified" claim needs no theory; it is the
+     enacted text. WHAT IS NOT THERE: no company. "Palantir", "contractor" and
+     "vendor" do not appear in section 8131, and the node's old title asserting a
+     Palantir enclosure was replaced. Second citation, with its provenance stated
+     as a limit: the DARPA report to Congress of 20 May 2003 was read from a copy
+     hosted by EPIC, an advocacy organisation, because no government-hosted copy
+     was found; it is cited only for the fact that TIA was a portfolio of named
+     component programmes, which is what makes a function-based carve-out operable.
+     CC-2010-TROIKA_GREECE_2010_2015 — ECA Special Report 17/2017, cited partly for
+     what it CANNOT settle. It is an audit of the Commission's management; it does
+     not analyse who held Greek debt in 2010, tracks no bank's exposure and names
+     no bank, so it cannot support the French-and-German-bank de-risking claim and
+     the node says so. Two things in it do bear on it, in opposite directions:
+     private holders were NOT spared ("private investors were asked to agree to
+     write off 53.5 % of the face value", approximately €107 billion across about
+     €206 billion of bonds), and the losses that followed were socialised (€37.7
+     billion wiped out the Greek banks' entire capital base, €28.6 billion
+     recapitalised the four largest, over €45 billion went into the banking system
+     "out of which only a small part can potentially be recovered"). AND THE AUDIT
+     RECORDS ITS OWN BLIND SPOT: "the ECB questioned the Court's mandate in this
+     respect; did not provide sufficient amount of evidence and thus we were unable
+     to report on the role of the ECB in the Greek programmes." A third of the
+     Troika is missing from the official audit at its own insistence.
+     CC-2011-DEUTSCHE_MIRROR_TRUMP_2011 — the FCA Final Notice of 30 January 2017,
+     AND THE FULL TEXT WAS SEARCHED FOR THE OTHER HALF OF THE NODE'S OLD TITLE. The
+     44-page notice contains no occurrence of "Trump", none of "real estate", and
+     nothing about property lending; it names nobody at all, Russian or otherwise.
+     The title was replaced. What is established: £163,076,224 (disgorgement
+     £9,076,224 plus a penal element of £154,000,000, after a 30% early-settlement
+     discount from £229,076,224) for Principle 3 and SYSC breaches — management and
+     control, not money laundering; more than 2,400 mirror trades between April 2012
+     and October 2014 moving "more than USD6 billion from Russia, through Deutsche
+     Bank in the UK, to overseas bank accounts, including in Cyprus, Estonia, and
+     Latvia"; both sides arranged by one Moscow desk which had also facilitated the
+     non-Russian counterparty's onboarding. The Authority goes exactly as far as
+     "highly suggestive of financial crime" and no further, and the bank
+     self-reported in early 2015.
+     CC-2022-LME_NICKEL_SHORT_SQUEEZE_2022 — [2023] EWHC 2969 (Admin), read on the
+     National Archives' Find Case Law. The court's paragraph 185 does something no
+     conspiracy account predicts: the LME's chief executive decided the nickel
+     market was disorderly "within about 20 minutes from waking up", "without
+     speaking to or consulting anyone", on "some internet research on his mobile
+     phone", and "He was not aware of the fact that there were several market
+     participants with significant short positions", so "he therefore did not
+     appreciate that the immediate cause of the sharp rise in prices was the short
+     squeeze which Tsingshan and the other relevant short traders were
+     experiencing." He cannot have been rescuing the shorts; on the court's finding
+     he did not know they were there. US$12 billion of trades cancelled, Elliott's
+     claim for about US$456 million dismissed, Jane Street's for about US$15 million
+     dismissed, all grounds. Elliott also failed the "possession" test because its
+     trades "were not fully cleared" — a property claim lost on clearing plumbing.
+     CC-2024-FAIRSHAKE_PAC_2024 — the FEC's own data via its public OpenFEC API, and
+     THE GAP IS THE FINDING. The famous $260 million is RECEIPTS for the 2024 cycle
+     ($260,070,709.37). Independent expenditures for the same cycle:
+     $40,661,820.61 — about 16% of what was raised and about 21% of the
+     $195,826,511.43 disbursed. Roughly $155 million of disbursements is not
+     explained by the totals endpoint and the node does not guess. The committee
+     entered the 2026 cycle with $108,293,831.76 in hand and has raised
+     $137,923,215.69 more. Schedules A, B and E were NOT pulled, so no donor and no
+     recipient is named and nothing is asserted about capture.
+     GATES: npm test 38/38; check-links over the ten drafts, 12 URLs, 11 ok /
+     1 blocked / 0 DEAD — the blocked one is gao.gov, which refuses a generic
+     automated request with 403 and serves the file to a request declaring an
+     identity and contact address; it was read, and the citation now says so.
+     Schema validates; 0 duplicate codes, ids or citation URLs; 0 orphan
+     citationIds; 0 unused citations; check-era-headers OK at 10 headers for 10
+     eras. Browser-verified: all ten titles render and the era order is intact.
+     VERIFY PASS: all ten rows GATE 0-QUAR.
+     HOSTS THAT WORKED THIS PASS, worth recording: api.parliament.uk (Historic
+     Hansard, plain HTML), tile.loc.gov (U.S. Reports PDFs with OCR text layers),
+     gao.gov (with a declaring UA), govinfo.gov, federalreservehistory.org,
+     fca.org.uk, eca.europa.eu, caselaw.nationalarchives.gov.uk, epic.org, and
+     api.open.fec.gov with the published DEMO_KEY. HOSTS THAT REFUSED: jenner.com,
+     cftc.gov and dfs.ny.gov all return a Cloudflare interstitial to scripts;
+     courtlistener.com serves SEARCH pages but returns an empty 202 for individual
+     opinion URLs. TOOL NOTE: pdftotext IS available at /mingw64/bin/pdftotext,
+     which makes text-layer PDFs readable directly instead of through the pdf.js
+     render-and-screenshot route used earlier in this session.
+     Not merged to main, not pushed to main, not deployed. -->
+
 # THE CORNFIELD GAZETTE — MASTER NODE STATUS LEDGER
 
 | Node Code | Title / Scope | Era | Evidence Tier | Seeding Providers | Verify Pass | UI Wired | Done |
@@ -1531,3 +1712,13 @@
 | `CC-2008-AIG_GOLDMAN_CDS_2008` | Maiden Lane III: What the Ledger Shows, and the Question It Does Not Answer | `ERA-09-2001` | `TIER_3_PRIMARY_LEDGER` | `newyorkfed.org` | GATE 0-QUAR | YES | [x] |
 | `CC-2010-FLASH_BOYS_2010` | Multiple Factors, Painstakingly Reconstructed: the SEC’s Own Account of 6 May 2010 | `ERA-09-2001` | `TIER_3_PRIMARY_LEDGER` | `sec.gov` | GATE 0-QUAR | YES | [x] |
 | `CC-2022-UK_LDI_GILT_CRISIS_2022` | Had We Not Acted: the Bank of England on the LDI Funds and Its Gilt Intervention | `ERA-10-2020` | `TIER_2_INQUIRY` | `bankofengland.co.uk` | GATE 0-QUAR | YES | [x] |
+| `CC-1866-OVEREND_GURNEY_1866` | No Representation Until Two Hours Ago: the Chancellor's Own Timeline, 11 May 1866 | `ERA-05-1861` | TIER_3_PRIMARY_LEDGER | `read-by-hand` | 3/3 PASS | YES | [x] |
+| `CC-1901-NORTHERN_PACIFIC_CORNER_1901` | The Corner Is in the Government's Argument; the Holding Company Is in the Judgment | `ERA-06-1910` | TIER_1_STATUTE_COURT | `read-by-hand` | 3/3 PASS | YES | [x] |
+| `CC-1914-DUPONT_GM_1934` | Will Undoubtedly Secure For Us the Entire Business: War Profits into the Customer's Equity | `ERA-06-1910` | TIER_1_STATUTE_COURT | `read-by-hand` | 3/3 PASS | YES | [x] |
+| `CC-1970-PENN_CENTRAL_1970` | A Memo on 3 June, a Bankruptcy on 21 June: Who Was Tracking Penn Central and Who Was Surprised | `ERA-08-1953` | TIER_2_INQUIRY | `read-by-hand` | 3/3 PASS | YES | [x] |
+| `CC-1994-MEXICO_TEQUILAZO_1994` | Aware But Undecided: What the GAO Found the United States Knew About the Peso in 1994 | `ERA-09-2001` | TIER_2_INQUIRY | `read-by-hand` | 3/3 PASS | YES | [x] |
+| `CC-2003-DARPA_TIA_PALANTIR_ENCLOSURE_2003` | Provided, That This Limitation Shall Not Apply: the Carve-Out Inside the Statute That Killed TIA | `ERA-09-2001` | TIER_1_STATUTE_COURT | `read-by-hand` | 3/3 PASS | YES | [x] |
+| `CC-2010-TROIKA_GREECE_2010_2015` | We Were Unable to Report on the Role of the ECB: What the Auditors Found and What They Were Refused | `ERA-09-2001` | TIER_2_INQUIRY | `read-by-hand` | 3/3 PASS | YES | [x] |
+| `CC-2011-DEUTSCHE_MIRROR_TRUMP_2011` | Highly Suggestive of Financial Crime: 2,400 Mirror Trades, USD 6 Billion, and a Penalty for Systems and Controls | `ERA-09-2001` | TIER_1_STATUTE_COURT | `read-by-hand` | 3/3 PASS | YES | [x] |
+| `CC-2022-LME_NICKEL_SHORT_SQUEEZE_2022` | Twenty Minutes From Waking Up: the Court's Finding on the $12 Billion Nickel Cancellation | `ERA-10-2020` | TIER_1_STATUTE_COURT | `read-by-hand` | 3/3 PASS | YES | [x] |
+| `CC-2024-FAIRSHAKE_PAC_2024` | $260 Million Raised, $40.7 Million Spent on Independent Expenditures: Fairshake in the FEC's Own Totals | `ERA-10-2020` | TIER_3_PRIMARY_LEDGER | `read-by-hand` | 3/3 PASS | YES | [x] |

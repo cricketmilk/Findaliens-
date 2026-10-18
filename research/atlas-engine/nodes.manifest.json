@@ -2352,7 +2352,7 @@
       "providers": [
         "govinfo"
       ],
-      "status": "HARVESTED",
+      "status": "DONE",
       "topic": "Carried-over citation upgraded: URL opened and read, boilerplate prose replaced",
       "queries": [
         {
@@ -2375,7 +2375,7 @@
       "providers": [
         "govinfo"
       ],
-      "status": "HARVESTED",
+      "status": "DONE",
       "topic": "Carried-over citation upgraded: URL opened and read, boilerplate prose replaced",
       "queries": [
         {
@@ -2398,7 +2398,7 @@
       "providers": [
         "govinfo"
       ],
-      "status": "HARVESTED",
+      "status": "DONE",
       "topic": "Carried-over citation upgraded: URL opened and read, boilerplate prose replaced",
       "queries": [
         {
@@ -2421,7 +2421,7 @@
       "providers": [
         "govinfo"
       ],
-      "status": "HARVESTED",
+      "status": "DONE",
       "topic": "Carried-over citation upgraded: URL opened and read, boilerplate prose replaced",
       "queries": [
         {
@@ -2444,7 +2444,7 @@
       "providers": [
         "govinfo"
       ],
-      "status": "HARVESTED",
+      "status": "DONE",
       "topic": "Carried-over citation upgraded: URL opened and read, boilerplate prose replaced",
       "queries": [
         {
@@ -2467,7 +2467,7 @@
       "providers": [
         "govinfo"
       ],
-      "status": "HARVESTED",
+      "status": "DONE",
       "topic": "Carried-over citation upgraded: URL opened and read, boilerplate prose replaced",
       "queries": [
         {
@@ -2483,6 +2483,236 @@
         "Citation URL inherited with a placeholder quoteOrFact and never opened; now read."
       ],
       "mechanism": "CENTRAL_BANK_LIQUIDITY"
+    },
+    {
+      "code": "CC-1866-OVEREND_GURNEY_1866",
+      "era": "ERA-05-1861",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Hansard-only Phase-0 stub rebuilt from primary documents opened and read",
+      "queries": [
+        {
+          "q": "CC-1866-OVEREND_GURNEY_1866",
+          "year": null,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Stub carried only the placeholder Hansard citation; real sources located, opened and read."
+      ],
+      "mechanism": "CENTRAL_BANK_LIQUIDITY"
+    },
+    {
+      "code": "CC-1901-NORTHERN_PACIFIC_CORNER_1901",
+      "era": "ERA-06-1910",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Hansard-only Phase-0 stub rebuilt from primary documents opened and read",
+      "queries": [
+        {
+          "q": "CC-1901-NORTHERN_PACIFIC_CORNER_1901",
+          "year": null,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Stub carried only the placeholder Hansard citation; real sources located, opened and read."
+      ],
+      "mechanism": "RECEIVERSHIP_MORGANIZATION"
+    },
+    {
+      "code": "CC-1914-DUPONT_GM_1934",
+      "era": "ERA-06-1910",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Hansard-only Phase-0 stub rebuilt from primary documents opened and read",
+      "queries": [
+        {
+          "q": "CC-1914-DUPONT_GM_1934",
+          "year": null,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Stub carried only the placeholder Hansard citation; real sources located, opened and read."
+      ],
+      "mechanism": "RECEIVERSHIP_MORGANIZATION"
+    },
+    {
+      "code": "CC-1970-PENN_CENTRAL_1970",
+      "era": "ERA-08-1953",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Hansard-only Phase-0 stub rebuilt from primary documents opened and read",
+      "queries": [
+        {
+          "q": "CC-1970-PENN_CENTRAL_1970",
+          "year": null,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Stub carried only the placeholder Hansard citation; real sources located, opened and read."
+      ],
+      "mechanism": "CENTRAL_BANK_LIQUIDITY"
+    },
+    {
+      "code": "CC-1994-MEXICO_TEQUILAZO_1994",
+      "era": "ERA-09-2001",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Hansard-only Phase-0 stub rebuilt from primary documents opened and read",
+      "queries": [
+        {
+          "q": "CC-1994-MEXICO_TEQUILAZO_1994",
+          "year": null,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Stub carried only the placeholder Hansard citation; real sources located, opened and read."
+      ],
+      "mechanism": "SOVEREIGN_DEBT_TRAP"
+    },
+    {
+      "code": "CC-2003-DARPA_TIA_PALANTIR_ENCLOSURE_2003",
+      "era": "ERA-09-2001",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Hansard-only Phase-0 stub rebuilt from primary documents opened and read",
+      "queries": [
+        {
+          "q": "CC-2003-DARPA_TIA_PALANTIR_ENCLOSURE_2003",
+          "year": null,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Stub carried only the placeholder Hansard citation; real sources located, opened and read."
+      ],
+      "mechanism": "OFFSHORE_BLACK_LEDGER"
+    },
+    {
+      "code": "CC-2010-TROIKA_GREECE_2010_2015",
+      "era": "ERA-09-2001",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Hansard-only Phase-0 stub rebuilt from primary documents opened and read",
+      "queries": [
+        {
+          "q": "CC-2010-TROIKA_GREECE_2010_2015",
+          "year": null,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Stub carried only the placeholder Hansard citation; real sources located, opened and read."
+      ],
+      "mechanism": "SOVEREIGN_DEBT_TRAP"
+    },
+    {
+      "code": "CC-2011-DEUTSCHE_MIRROR_TRUMP_2011",
+      "era": "ERA-09-2001",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Hansard-only Phase-0 stub rebuilt from primary documents opened and read",
+      "queries": [
+        {
+          "q": "CC-2011-DEUTSCHE_MIRROR_TRUMP_2011",
+          "year": null,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Stub carried only the placeholder Hansard citation; real sources located, opened and read."
+      ],
+      "mechanism": "OFFSHORE_BLACK_LEDGER"
+    },
+    {
+      "code": "CC-2022-LME_NICKEL_SHORT_SQUEEZE_2022",
+      "era": "ERA-10-2020",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Hansard-only Phase-0 stub rebuilt from primary documents opened and read",
+      "queries": [
+        {
+          "q": "CC-2022-LME_NICKEL_SHORT_SQUEEZE_2022",
+          "year": null,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Stub carried only the placeholder Hansard citation; real sources located, opened and read."
+      ],
+      "mechanism": "DERIVATIVE_CLEARING_CAPTURE"
+    },
+    {
+      "code": "CC-2024-FAIRSHAKE_PAC_2024",
+      "era": "ERA-10-2020",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Hansard-only Phase-0 stub rebuilt from primary documents opened and read",
+      "queries": [
+        {
+          "q": "CC-2024-FAIRSHAKE_PAC_2024",
+          "year": null,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Stub carried only the placeholder Hansard citation; real sources located, opened and read."
+      ],
+      "mechanism": "REGULATORY_REVOLVING_DOOR"
     }
   ]
 }

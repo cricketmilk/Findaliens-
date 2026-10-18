@@ -1,0 +1,49 @@
+{
+  "code": "CC-2024-FAIRSHAKE_PAC_2024",
+  "eraId": "ERA-10-2020",
+  "yearStart": 2024,
+  "yearEnd": 2026,
+  "title": "$260 Million Raised, $40.7 Million Spent on Independent Expenditures: Fairshake in the FEC's Own Totals",
+  "primaryTab": "consent",
+  "secondaryTabs": [
+    "crash-conduits"
+  ],
+  "mechanism": "REGULATORY_REVOLVING_DOOR",
+  "tier": "TIER_3_PRIMARY_LEDGER",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "Fairshake (FEC committee C00835959)",
+    "Protect Progress (affiliated committee)",
+    "Federal Election Commission"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "The skim is the receipts line, and it is the number the committee is known by: $260,070,709.37 raised in the 2024 cycle, over coverage from 1 January 2023 to 31 December 2024. The 2026 cycle is already at $137,923,215.69 through 31 August 2026.",
+    "stage2_structuralCompromise": "The structure is the vehicle itself, in the Commission's own classification: committee type \"Super PAC (Independent Expenditure-Only)\", designation \"Unauthorized\", with no candidate IDs associated. An entity that may raise without limit on condition that it does not coordinate, registered in Minnesota, filing monthly since 23 March 2023, with \"PROTECT PROGRESS\" recorded as an affiliated committee.",
+    "stage3_informationFog": "The fog is in the shape of the disclosure rather than its absence. The Commission publishes aggregate totals and itemised schedules separately, so the single figure that circulates — $260 million — is a receipts total, while the thing it is usually taken to mean, money spent on electioneering, sits in a different line that is an order of magnitude smaller. Both are public; only one is quoted.",
+    "stage4_monopolyWindfall": "No windfall is documented here and this dossier claims none. What the record shows is retained capacity: cash on hand at the end of the 2024 cycle of $64,244,197.94, and at 31 August 2026 of $108,293,831.76 — more money in hand going into the next cycle than at the close of the one it is famous for.",
+    "stage5_merseyWhitewash": "There is nothing to whitewash in this record because there is no proceeding in it. The Commission publishes what committees file; these are reported totals, not audited ones; and no enforcement matter, audit or finding appears in what was read."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "The independent-expenditure-only committee, which may accept unlimited contributions provided it does not coordinate with candidates — the vehicle, not the industry, is what makes a nine-figure single-issue committee possible.",
+    "newFrameworkCreated": "Nothing in this record. No rule, statute or regulatory decision appears in the Commission's committee data, and this dossier does not assert that any followed.",
+    "closedLoopRecirculation": "Not established by what was read. The totals endpoint reports aggregates; it does not connect any contribution to any expenditure, race or outcome, and no loop is traced here from donors to policy.",
+    "enablesNextDossier": "CC-2026-ARBITRAGE"
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "That a $260 million super PAC bought the 2024 congressional elections for the crypto industry and captured the agencies that regulate it.",
+    "whyDecoyFails": "The headline number is real and it is not the number people think it is. $260,070,709.37 is the committee's RECEIPTS for the 2024 cycle in the Commission's own data. Its INDEPENDENT EXPENDITURES for the same cycle are $40,661,820.61 — about 16 percent of what it raised, and about 21 percent of the $195,826,511.43 it disbursed. Roughly $155 million of disbursements went somewhere the totals endpoint does not say, and this dossier does not guess. Nor does the record support the second half of the claim: the Commission's committee data names no donor and no recipient, identifies no race, candidate or advertisement, and says nothing about coordination, about any regulatory decision, or about any effect on any election or any agency. Schedule A, Schedule B and Schedule E were NOT pulled for this dossier, so nothing is asserted here about who funded the committee or whom it supported or opposed. What the record does establish is a specific and checkable discrepancy between the figure in circulation and the figure for the activity the figure is used to describe — plus the fact that the committee entered the 2026 cycle with $108 million in hand and $137.9 million more raised, which makes it an ongoing structure rather than a single election's event. WHAT WOULD BE NEEDED to test the decoy properly: the itemised schedules, and some document from a regulator or legislature. Neither was read.",
+    "documentedLedger": "Federal Election Commission records for FAIRSHAKE, committee ID C00835959, read via the Commission's public OpenFEC API on 17 October 2026. Committee type: Super PAC (Independent Expenditure-Only); designation Unauthorized; filing frequency monthly; state Minnesota; treasurer Philipczyk, Brandon; affiliated committee name PROTECT PROGRESS; first Form 1 filed 23 March 2023; cycles 2024 and 2026; last filing 8 October 2026; no candidate IDs associated. Reported totals for the 2024 cycle (coverage 1 January 2023 to 31 December 2024): receipts $260,070,709.37; disbursements $195,826,511.43; independent expenditures $40,661,820.61; cash on hand at end of period $64,244,197.94. For the 2026 cycle (coverage 1 January 2025 to 31 August 2026): receipts $137,923,215.69; disbursements $93,873,581.87; independent expenditures $13,296,611.79; cash on hand at end of period $108,293,831.76. These are totals as filed, not audited figures."
+  },
+  "citationIds": [
+    "CIT-2026-FEC-FAIRSHAKE"
+  ],
+  "citations": [
+    {
+      "id": "CIT-2026-FEC-FAIRSHAKE",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Federal Election Commission, committee record and reported financial totals for FAIRSHAKE (committee ID C00835959), read via the FEC's public OpenFEC API, 17 October 2026",
+      "url": "https://api.open.fec.gov/v1/committee/C00835959/totals/?api_key=DEMO_KEY",
+      "quoteOrFact": "Read as JSON from the Federal Election Commission's own public API. The URL above uses DEMO_KEY, the published shared demonstration key for api.data.gov, so the exact request is reproducible by anyone; the committee was located first by searching /v1/committees/?q=Fairshake, which returned exactly one result. THE COMMITTEE RECORD: name \"FAIRSHAKE\", committee_id \"C00835959\", committee_type_full \"Super PAC (Independent Expenditure-Only)\", designation \"Unauthorized\", filing frequency monthly, state \"MN\", treasurer \"PHILIPCZYK, BRANDON\", affiliated_committee_name \"PROTECT PROGRESS\", first Form 1 filed 2023-03-23, cycles [2024, 2026], last filing 2026-10-08. No candidate IDs are associated with it. THE REPORTED TOTALS, which are the committee's own filings as the Commission holds them. 2024 cycle, coverage 1 January 2023 to 31 December 2024: receipts $260,070,709.37; disbursements $195,826,511.43; INDEPENDENT EXPENDITURES $40,661,820.61; cash on hand at end of period $64,244,197.94. 2026 cycle, coverage 1 January 2025 to 31 August 2026: receipts $137,923,215.69; disbursements $93,873,581.87; independent expenditures $13,296,611.79; cash on hand at end of period $108,293,831.76. THE GAP IS THE FINDING. The $260 million figure that attaches to this committee in public argument is its RECEIPTS for the 2024 cycle, and the Commission's own data puts its independent expenditures for that cycle at $40.7 million — about 16% of what it raised, and about 21% of what it disbursed. Where the other roughly $155 million of disbursements went is not answered by the totals endpoint, which reports aggregates only. WHAT THIS CITATION DOES NOT ESTABLISH: it names no donor and no recipient; it identifies no race, candidate or advertisement; it says nothing about coordination, about any regulatory decision, or about any effect on any election or any agency. Schedule A (receipts), Schedule B (disbursements) and Schedule E (independent expenditures by candidate) were NOT pulled, so no claim is made here about who funded this committee or whom it supported or opposed. The figures above are reported totals, not audited ones; the Commission publishes what committees file."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "code": "CC-2010-FLASH_BOYS_2010",
+  "eraId": "ERA-09-2001",
+  "yearStart": 2010,
+  "yearEnd": 2011,
+  "title": "Multiple Factors, Painstakingly Reconstructed: the SEC’s Own Account of 6 May 2010",
+  "primaryTab": "crash-conduits",
+  "secondaryTabs": [
+    "deep-state"
+  ],
+  "mechanism": "DERIVATIVE_CLEARING_CAPTURE",
+  "tier": "TIER_3_PRIMARY_LEDGER",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "U.S. Securities and Exchange Commission",
+    "Mary L. Schapiro",
+    "Commodity Futures Trading Commission",
+    "U.S. equity market participants"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "The benefit claimed for the structure is recorded in the testimony itself, in the words of its defenders: investors pointed to \"liquidity providers that has lowered spreads and brokerage commissions\" and \"cautioned against regulatory changes that might lead to unintended consequences\". That is the upside the arrangement is defended by.",
+    "stage2_structuralCompromise": "The compromise is the one the other commenters raise in the same testimony: they \"raised concerns about the quality of price discovery and questioned whether the current market structure continues to offer a level playing field to investors in which all can participate meaningfully and fairly.\"",
+    "stage3_informationFog": "The fog was in the regulator’s own data, and the Chairman says so. Producing the joint report \"required an extraordinary amount of staff resources\", with much of the effort \"devoted to collecting and then painstakingly sifting through the data necessary to reconstruct trading\", and these efforts \"highlighted the pressing need for enhanced data functionalities in the securities markets\". The supervisor could not readily reconstruct a day in its own market.",
+    "stage4_monopolyWindfall": "The windfall in this file is the structural advantage of speed, which the testimony does not quantify and this dossier therefore does not either. What it records is a regulator weighing competing accounts of whether that advantage is paid for in liquidity or taken out of price discovery.",
+    "stage5_merseyWhitewash": "The response was two joint SEC-CFTC reports, the second published in September. The Chairman’s framing is multi-causal and the dossier keeps it that way: \"The joint report lays out the multiple factors that in our view significantly contri[buted]\" to the event. The event itself she describes as \"one of the most significant price declines and reversals since 1929\"."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "A fragmented, automated equity market in which the regulator’s view of trading was assembled after the fact from participants’ own records.",
+    "newFrameworkCreated": "The consolidated audit trail and the limit up-limit down and market-wide circuit breaker regimes — the data and volatility machinery built because reconstructing one afternoon took extraordinary staff resources.",
+    "closedLoopRecirculation": "Speed and fragmentation produced the liquidity the market relied on; the same speed and fragmentation made the market hard to reconstruct; and the difficulty of reconstruction delayed the rules that might have constrained it.",
+    "enablesNextDossier": "CC-2012-LONDON_WHALE_2012"
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "That the flash crash was one spoofer in a bedroom in Hounslow who crashed the American stock market — or, from the other direction, that it was a glitch with no cause worth investigating.",
+    "whyDecoyFails": "The SEC’s own account is multi-causal: the joint report \"lays out the multiple factors that in our view significantly contri[buted]\" to the disruption — plural, in the Chairman’s own framing. Nor was it dismissed as a glitch: it is described as \"one of the most significant price declines and reversals since 1929\", and it produced two joint SEC-CFTC reports. A NOTE ON WHAT IS NOT HERE, because this node previously implied it: a justice.gov page about a futures trader’s guilty plea in connection with the 2010 flash crash was attached to this dossier without being opened. That page is served behind a bot-verification interstitial and could not be read, so it has been removed rather than carried unread, and nothing about any criminal case, plea or individual is asserted in this dossier.",
+    "documentedLedger": "Testimony of the SEC Chairman on 12 May 2011 describing 6 May 2010 as \"one of the most significant price declines and reversals since 1929\". Two joint SEC-CFTC staff reports into the day’s events, the second published in September 2010, laying out multiple contributing factors. An investigation that required extraordinary staff resources, with much of the effort devoted to collecting and painstakingly sifting the data needed to reconstruct trading, and which highlighted the pressing need for enhanced data functionalities in the securities markets. And a market-structure debate recorded in the same testimony between investors citing narrower spreads and lower commissions and commenters questioning price discovery and whether all participants can participate meaningfully and fairly."
+  },
+  "citationIds": [
+    "CIT-2010-SEC-1"
+  ],
+  "citations": [
+    {
+      "id": "CIT-2010-SEC-1",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Mary L. Schapiro, Chairman, U.S. Securities and Exchange Commission, Testimony on Monitoring Systemic Risk and Promoting Financial Stability, 12 May 2011",
+      "url": "https://www.sec.gov/newsroom/speeches-statements/ts051211mls-testimony-monitoring-systemic-risk-promoting-financial-stability",
+      "quoteOrFact": "Read from sec.gov. (sec.gov refuses a generic browser user-agent, which is why automated link checks report it blocked.) ON THE EVENT: \"Just over one year ago, the U.S. equity markets experienced one of the most significant price declines and reversals since 1929.\" ON THE INVESTIGATION: \"In September, the staffs of the SEC and the Commodity Futures Trading Commission (CFTC) published their second joint report on their inquiry into the day’s events. Producing the report required an extraordinary amount of staff resources. On the securities side in particular, much of the time and effort was devoted to collecting and then painstakingly sifting through the data necessary to reconstruct trading. These efforts highlighted the pressing need for enhanced data functionalities in the securities markets.\" The Chairman states that \"The joint report lays out the multiple factors that in our view significantly contri[buted]\" to the disruption — note the plural: the agencies’ own framing is multi-causal. On the wider market-structure debate the testimony records both sides: investors who pointed to \"liquidity providers that has lowered spreads and brokerage commissions\" and \"cautioned against regulatory changes that might lead to unintended consequences\", and other commenters who \"raised concerns about the quality of price discovery and questioned whether the current market structure continues to offer a level playing field to investors in which all can participate meaningfully and fairly.\" WHAT WAS NOT READ: this dossier previously also carried a justice.gov page about a futures trader’s guilty plea in connection with the 2010 flash crash. That page is served behind a bot-verification interstitial and was NOT readable; it has been removed from this node rather than carried unread, and nothing about any criminal case is asserted here. The SEC/CFTC joint report itself was also not downloaded; what is cited is the Chairman’s characterisation of it. THIS CITATION WAS INHERITED WITH A PLACEHOLDER quoteOrFact reading only \"Source carried over from the Crash Conduits entry\" — a URL attached to the node without being opened. It has now been opened and read."
+    }
+  ]
+}

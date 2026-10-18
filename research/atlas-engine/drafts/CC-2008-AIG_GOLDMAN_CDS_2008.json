@@ -1,0 +1,50 @@
+{
+  "code": "CC-2008-AIG_GOLDMAN_CDS_2008",
+  "eraId": "ERA-09-2001",
+  "yearStart": 2008,
+  "yearEnd": 2014,
+  "title": "Maiden Lane III: What the New York Fed’s Ledger Shows, and the Question It Does Not Answer",
+  "primaryTab": "crash-conduits",
+  "secondaryTabs": [
+    "deep-state"
+  ],
+  "mechanism": "DERIVATIVE_CLEARING_CAPTURE",
+  "tier": "TIER_3_PRIMARY_LEDGER",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "American International Group (AIG)",
+    "Federal Reserve Bank of New York",
+    "Maiden Lane III LLC",
+    "AIG credit default swap counterparties"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "The vehicle existed to take the contested contracts off AIG’s book. Maiden Lane III LLC was funded by a New York Fed loan alongside an AIG equity contribution, and the Bank’s ledger records both being repaid in order: \"Net proceeds from additional sales of securities in Maiden Lane III LLC enabled the full repayment of AIG’s equity contribution plus accrued interest and provided residual profits to the New York Fed.\"",
+    "stage2_structuralCompromise": "The compromise was upstream of the vehicle and is not documented on this page: credit protection written on mortgage collateral whose collateral calls AIG could not meet. What the page documents is the remedy, not the exposure.",
+    "stage3_informationFog": "And here the dossier has to be explicit about its own limits. The identities of the counterparties and the prices at which ML III bought their CDOs are the heart of the public controversy, and the page read for this node does not contain them. Nothing in this dossier establishes what any counterparty received.",
+    "stage4_monopolyWindfall": "What the ledger does show is the public outcome: on 23 August 2012 \"Maiden Lane III LLC sold all remaining securities\", and after repaying its liabilities to the New York Fed and AIG, \"net proceeds from sales of the securities, as well as cash flow the securities generated while held by ML III LLC, provided a net gain of approximately $6.6 billion for the benefit of the U.S. public.\" The Fed continued to take \"67 percent of residual profits\" from later sales.",
+    "stage5_merseyWhitewash": "The vehicle was wound up rather than examined: \"November 12, 2014: The legal existence of Maiden Lane II LLC and Maiden Lane III LLC was formally terminated\", with residual cash paid to the New York Fed and AIG \"in accordance with their respective interests\". The structure closed; the question of what the counterparties were paid was settled elsewhere, in documents not read here."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "Credit default swaps written without the capital to meet collateral calls, and a counterparty network in which one insurer’s failure would have crystallised losses across several large banks at once.",
+    "newFrameworkCreated": "Central clearing and margin requirements for standardised derivatives, built on the proposition that bilateral CDS exposure of this kind should not again be invisible until it is unpayable.",
+    "closedLoopRecirculation": "Protection sold cheaply because the seller never expected to pay; the cheapness made the protection ubiquitous; the ubiquity made the seller systemic; and being systemic is what produced the public vehicle that settled the contracts.",
+    "enablesNextDossier": "CC-2012-LONDON_WHALE_2012"
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "That the AIG rescue was a back-door bailout of Goldman Sachs and other counterparties, paid out at one hundred cents on the dollar with public money that was never recovered.",
+    "whyDecoyFails": "The last clause is wrong on the Bank’s own ledger: Maiden Lane III repaid the New York Fed’s loan with interest, repaid AIG’s equity contribution with accrued interest, and on final liquidation in August 2012 produced \"a net gain of approximately $6.6 billion for the benefit of the U.S. public\", with the vehicle formally terminated in November 2014. BUT THE DOSSIER DOES NOT CLAIM THE REST IS WRONG, because the source read here cannot speak to it. The page records the vehicle’s structure, its repayments and its profit; it does not record the prices at which ML III acquired the CDOs from AIG’s counterparties, and it names none of them. The par-payment question is the substance of the controversy and it is unresolved in this dossier: no SIGTARP report, congressional report or counterparty schedule was read. A profit on the eventual sale of assets does not establish that they were bought at the right price.",
+    "documentedLedger": "Maiden Lane III LLC funded by a New York Fed loan and an AIG equity contribution. Full repayment of AIG’s equity contribution plus accrued interest on 16 July 2012, with residual profits to the New York Fed and a continuing 67 percent share of residual profits from later sales. Repayment of the New York Fed’s loans with interest on 14 June 2012. Sale of all remaining securities on 23 August 2012, producing a net gain of approximately $6.6 billion for the public after repayment of liabilities to the New York Fed and AIG. Formal termination of Maiden Lane II LLC and Maiden Lane III LLC on 12 November 2014, with reserve cash paid to the New York Fed and AIG according to their respective interests. And, not established here: who the counterparties were, and what they were paid."
+  },
+  "citationIds": [
+    "CIT-2008-FEDERAL-RESERVE-BANK-OF-NEW"
+  ],
+  "citations": [
+    {
+      "id": "CIT-2008-FEDERAL-RESERVE-BANK-OF-NEW",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Federal Reserve Bank of New York, \"Maiden Lane Transactions\" — programme page, milestones and eligibility criteria",
+      "url": "https://www.newyorkfed.org/markets/maidenlane",
+      "quoteOrFact": "Read from the New York Fed's own site. This page is the Bank's own ledger of the three Maiden Lane vehicles. ON BLACKROCK’S ROLE, stated directly: for Maiden Lane LLC, \"All the assets purchased originated from the Mortgage Desk of Bear Stearns. Under the terms of the agreement with the New York Fed, the assets purchased by ML LLC from Bear Stearns had to meet certain eligibility requirements. The due diligence review of the assets for adherence to the eligibility criteria was conducted by the New York Fed’s advisors, which included its investment manager, BlackRock Financial Management Inc. and Ernst & Young.\" The criteria are specified: securities \"had to be U.S. domiciled and issued and U.S. dollar-denominated\", \"rated investment grade, which was defined as rated BBB- or higher\", and whole loans \"had to be performing\". ON THE OUTCOMES, from the milestones: \"September 18, 2018: Maiden Lane LLC sold all remaining securities. Net proceeds from sales of the assets, as well as cash flow generated by ML LLC, provided a net gain of approximately $2.5 billion for the benefit of the U.S. public.\" \"August 23, 2012: Maiden Lane III LLC sold all remaining securities. Subsequent to the repayment of ML III LLC’s liabilities to the New York Fed and AIG, net proceeds from sales of the securities, as well as cash flow the securities generated while held by ML III LLC, provided a net gain of approximately $6.6 billion for the benefit of the U.S. public.\" \"July 16, 2012: Net proceeds from additional sales of securities in Maiden Lane III LLC enabled the full repayment of AIG’s equity contribution plus accrued interest and provided residual profits to the New York Fed. The New York Fed will continue to receive 67 percent of residual profits generated by future sales of ML III LLC assets.\" \"June 14, 2012: Maiden Lane LLC and Maiden Lane III LLC repaid the loans made by the New York Fed, with interest. The successful repayment of the loans marks the retirement of the last remaining debts owed to the New York Fed from the cris[is].\" \"November 15, 2012: Net proceeds from additional sales of securities in Maiden Lane LLC enabled the full repayment of the subordinate loan made by JPMorgan Chase & Co. plus accrued interest.\" \"November 12, 2014: The legal existence of Maiden Lane II LLC and Maiden Lane III LLC was formally terminated.\" WHAT THIS PAGE DOES NOT ESTABLISH, and it matters: it is a record of the vehicles’ structure, eligibility criteria and eventual financial outcome. It does not address the prices at which ML III acquired CDOs from AIG’s counterparties, and therefore neither supports nor refutes the contested claim that those counterparties were made whole at or near par. No SIGTARP report, congressional report or AIG counterparty schedule was read for this dossier. THIS CITATION WAS INHERITED WITH A PLACEHOLDER quoteOrFact reading only \"Source carried over from the Crash Conduits entry\" — a URL attached to the node without being opened. It has now been opened and read."
+    }
+  ]
+}

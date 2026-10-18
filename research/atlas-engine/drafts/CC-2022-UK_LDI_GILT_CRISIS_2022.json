@@ -1,0 +1,52 @@
+{
+  "code": "CC-2022-UK_LDI_GILT_CRISIS_2022",
+  "eraId": "ERA-10-2020",
+  "yearStart": 2022,
+  "yearEnd": 2023,
+  "title": "Had We Not Acted: the Bank of England on the LDI Funds and Its Own Gilt Intervention",
+  "primaryTab": "crash-conduits",
+  "secondaryTabs": [
+    "deep-state",
+    "carbon-class"
+  ],
+  "mechanism": "CENTRAL_BANK_LIQUIDITY",
+  "tier": "TIER_2_INQUIRY",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "Bank of England",
+    "Financial Policy Committee",
+    "Liability driven investment (LDI) funds",
+    "UK pension schemes",
+    "UK government debt markets"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "The leverage was the product. LDI funds are, in the Bank’s description, vehicles \"which are used by UK pension schemes\" to match long-dated liabilities — an arrangement that works while rates move slowly and requires collateral when they do not.",
+    "stage2_structuralCompromise": "The weakness was pre-existing and the Bank says the rate move exposed rather than created it: \"At the end of September 2022, rapid and large moves in the interest rates on UK government debt exposed weaknesses in liability driven investment – LDI – funds which are used by UK pension schemes.\"",
+    "stage3_informationFog": "The Bank locates the episode within a sector it had already flagged: \"Today, more business lending and other financial services come from financial institutions other than banks (ie non-bank financial institutions). This sector includes different types of firms, operating from many countries other than the UK. We have previously highlighted the need to strengthen the resilience of this sector.\" The exposure was in a part of the system the central bank does not supervise directly.",
+    "stage4_monopolyWindfall": "What the intervention bought was time for the funds to recapitalise, and the Bank is explicit about the counterfactual: \"This weakness threatened UK financial stability and the Bank of England had to intervene temporarily in government debt markets so that the funds could increase their resilience. Had we not acted, the stress would have significantly affected households’ and businesses’ ability to access credit.\"",
+    "stage5_merseyWhitewash": "The follow-through is stated as unfinished rather than concluded: \"The resilience of this sector needs to be improved in a number of ways to make it more robust. This includes the need for regulatory action to ensure LDI funds keep their higher levels of resilience. Some steps have already been taken, and further work will be done next year\", alongside a call for \"urgent international action to reduce risks in non-bank finance\" and an exploratory scenario exercise."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "Defined benefit pension schemes matching long-dated liabilities through leveraged gilt exposure held in pooled funds outside the banking perimeter.",
+    "newFrameworkCreated": "A resilience standard for LDI funds and an explicit supervisory programme for non-bank financial institutions, including the Bank’s exploratory scenario exercise.",
+    "closedLoopRecirculation": "Falling yields made leverage the way to match liabilities; the leverage required collateral when yields rose; posting collateral meant selling gilts; selling gilts raised yields further and increased the collateral required.",
+    "enablesNextDossier": "CC-2026-ARBITRAGE"
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "That a single fiscal statement blew up the pension system, or alternatively that the Bank of England bailed out hedge funds with money printing and called it financial stability.",
+    "whyDecoyFails": "The Bank attributes the rate environment broadly rather than to one event: \"Monetary authorities have been responding to high levels of inflation, driven by higher and more volatile energy prices, domestic inflationary pressures and global supply chain issues following the pandemic. Higher central bank policy rates, alongside expectations of further rises, have led to very material and rapid increases in yields on long-term government bonds globally\" — globally, not only in the UK. And it describes the September move as having \"exposed weaknesses\" in the funds, which is a statement about a pre-existing fragility. On the bailout reading: the Bank describes an intervention that was \"temporary\", in government debt markets, undertaken \"so that the funds could increase their resilience\", with a stated counterfactual about household and business access to credit. What this dossier rests on is the Bank’s own summary of its own action, published two months later; no independent review of the intervention was read.",
+    "documentedLedger": "The Bank of England’s December 2022 Financial Stability Report recording that at the end of September 2022 rapid and large moves in UK government debt interest rates exposed weaknesses in LDI funds used by UK pension schemes; that the weakness threatened UK financial stability; that the Bank had to intervene temporarily in government debt markets so the funds could increase their resilience; and that had it not acted, the stress would have significantly affected households’ and businesses’ ability to access credit. A stated need for regulatory action to ensure LDI funds keep higher resilience, with some steps taken and further work to follow. A call for urgent international action on non-bank finance in 2023 and an exploratory scenario exercise focused on non-bank financial institutions. And the UK countercyclical capital buffer maintained at 2% with effect from July 2023."
+  },
+  "citationIds": [
+    "CIT-2022-BANK-OF-ENGLAND-FINANCIAL"
+  ],
+  "citations": [
+    {
+      "id": "CIT-2022-BANK-OF-ENGLAND-FINANCIAL",
+      "tier": "TIER_2_INQUIRY",
+      "title": "Bank of England, Financial Stability Report, December 2022 — Financial Policy Summary and overview",
+      "url": "https://www.bankofengland.co.uk/financial-stability-report/2022/december-2022",
+      "quoteOrFact": "Read from the Bank's own site. THE BANK’S OWN ACCOUNT OF SEPTEMBER 2022: \"At the end of September 2022, rapid and large moves in the interest rates on UK government debt exposed weaknesses in liability driven investment – LDI – funds which are used by UK pension schemes. This weakness threatened UK financial stability and the Bank of England had to intervene temporarily in government debt markets so that the funds could increase their resilience. Had we not acted, the stress would have significantly affected households’ and businesses’ ability to access credit.\" ON WHAT FOLLOWS: \"The resilience of this sector needs to be improved in a number of ways to make it more robust. This includes the need for regulatory action to ensure LDI funds keep their higher levels of resilience. Some steps have already been taken, and further work will be done next year.\" ON THE SECTOR GENERALLY: \"Today, more business lending and other financial services come from financial institutions other than banks (ie non-bank financial institutions). This sector includes different types of firms, operating from many countries other than the UK. We have previously highlighted the need to strengthen the resilience of this sector. In 2023, there is a need for urgent international action to reduce risks in non-bank finance\", together with \"an exploratory scenario exercise focused on non-bank financial institutions\". ON THE WIDER RATE MOVE, which the Report attributes broadly rather than to any single event: \"Monetary authorities have been responding to high levels of inflation, driven by higher and more volatile energy prices, domestic inflationary pressures and global supply chain issues following the pandemic. Higher central bank policy rates, alongside expectations of further rises, have led to very material and rapid increases in yields on long-term government bonds globally.\" The countercyclical capital buffer rate was maintained at 2% with effect from July 2023. The full Report is a 3MB PDF linked from this page; it was not downloaded, and what is cited here is the summary text on the page itself. THIS CITATION WAS INHERITED WITH A PLACEHOLDER quoteOrFact reading only \"Source carried over from the Crash Conduits entry\" — a URL attached to the node without being opened. It has now been opened and read."
+    }
+  ]
+}

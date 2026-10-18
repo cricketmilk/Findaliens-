@@ -197,20 +197,6 @@
   ],
   "citations": [
     {
-      "id": "CIT-1636-THE-CONVERSATION-ANNE",
-      "tier": "TIER_4_CONTEMPORARY_PRESS",
-      "title": "Tulip mania: the classic story of a Dutch financial bubble is mostly wrong (February 12, 2018) — The Conversation / Anne Goldgar",
-      "url": "https://theconversation.com/tulip-mania-the-classic-story-of-a-dutch-financial-bubble-is-mostly-wrong-91413",
-      "quoteOrFact": "Source carried over from the Crash Conduits entry \"tulip-1636\" for Tulip Mania: The Proto-Derivative Enclosure."
-    },
-    {
-      "id": "CIT-1720-FEDERAL-RESERVE-BANK-OF",
-      "tier": "TIER_4_CONTEMPORARY_PRESS",
-      "title": "What We Learn from a Sovereign Debt Restructuring in France in 1721 (Economic Perspectives, 2016) — Federal Reserve Bank of Chicago / François Velde",
-      "url": "https://www.chicagofed.org/publications/economic-perspectives/2016/5-velde",
-      "quoteOrFact": "Source carried over from the Crash Conduits entry \"mississippi-1720\" for Mississippi Bubble: Central Bank Fiat Enclosure."
-    },
-    {
       "id": "CIT-1720-HANSARD",
       "tier": "TIER_2_INQUIRY",
       "title": "UK House of Commons Secret Committee Report on the South Sea Company (1721)",
@@ -271,7 +257,7 @@
       "tier": "TIER_4_CONTEMPORARY_PRESS",
       "title": "The Odious Haitian Independence Debt (SSRN abstract) — Oosterlinck, Panizza, Weidemaier & Gulati",
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3894623",
-      "quoteOrFact": "Source carried over from the Crash Conduits entry \"haiti-indemnity-1825\" for The Haiti Sovereign Gunboat Indemnity & French Bank Refinance."
+      "quoteOrFact": "NOT READ, and this citation says so rather than implying otherwise. The URL was attached to this dossier by an earlier pass carrying only the placeholder text \"Source carried over from the Crash Conduits entry\" — that is, it was never opened by anyone. On attempting to open it: papers.ssrn.com returns HTTP 403 to scripted requests and serves a bot-verification challenge in a browser, which was not circumvented. One alternative was tried — a Graduate Institute working-paper URL inferred from the repository numbering — and it returned HTTP 200 and a valid 2.2 MB PDF which turned out, on reading, to be an entirely different paper (Pozo and Rojas, on unconventional credit policy at the zero lower bound). That is recorded here because it is the instructive failure: a 200 response and a plausible file type are not verification; only reading the document is. No source for this dossier has been read, so its Phase-0 boilerplate has deliberately NOT been replaced with prose that would have no basis behind it. This node remains unresearched and should be counted as such."
     },
     {
       "id": "CIT-1849-ESTATES",
@@ -806,27 +792,6 @@
       "quoteOrFact": "Palantir Technologies France (parent: Palantir Technologies)"
     },
     {
-      "id": "CIT-2008-FEDERAL-RESERVE-BANK-OF-NEW",
-      "tier": "TIER_4_CONTEMPORARY_PRESS",
-      "title": "Maiden Lane Transactions — oversight, eligibility review and repayment milestones — Federal Reserve Bank of New York",
-      "url": "https://www.newyorkfed.org/markets/maidenlane",
-      "quoteOrFact": "Source carried over from the Crash Conduits entry \"blackrock-maidenlane-2008\" for BlackRock & Maiden Lane: The Sovereign Bailout Enclosure."
-    },
-    {
-      "id": "CIT-2010-SEC-1",
-      "tier": "TIER_3_PRIMARY_LEDGER",
-      "title": "Testimony on Monitoring Systemic Risk and Promoting Financial Stability — May 12, 2011 — SEC",
-      "url": "https://www.sec.gov/newsroom/speeches-statements/ts051211mls-testimony-monitoring-systemic-risk-promoting-financial-stability",
-      "quoteOrFact": "Source carried over from the Crash Conduits entry \"flash-boys-2010\" for The Flash Crash of May 6, 2010 & The High-Frequency Trading Meltdown."
-    },
-    {
-      "id": "CIT-2010-US-DEPARTMENT-OF-JUSTICE-2",
-      "tier": "TIER_3_PRIMARY_LEDGER",
-      "title": "Futures Trader Pleads Guilty to Illegally Manipulating the Futures Market in Connection With 2010 Flash Crash — November 9, 2016 — US Department of Justice",
-      "url": "https://www.justice.gov/archives/opa/pr/futures-trader-pleads-guilty-illegally-manipulating-futures-market-connection-2010-flash",
-      "quoteOrFact": "Source carried over from the Crash Conduits entry \"flash-boys-2010\" for The Flash Crash of May 6, 2010 & The High-Frequency Trading Meltdown."
-    },
-    {
       "id": "CIT-2011-GAO-FED",
       "tier": "TIER_2_INQUIRY",
       "title": "U.S. Government Accountability Office, 'Federal Reserve System: Opportunities Exist to Strengthen Policies and Processes for Managing Emergency Assistance', GAO-11-696 (July 2011)",
@@ -895,13 +860,6 @@
       "title": "SEC Form S-1/A — Palantir Technologies Inc.  (PLTR)  (CIK 0001321655) (2020-09-14)",
       "url": "https://www.sec.gov/Archives/edgar/data/1321655/000119312520244936/0001193125-20-244936-index.htm",
       "quoteOrFact": "SEC EDGAR Accession 0001193125-20-244936 filed 2020-09-14 by Palantir Technologies Inc.  (PLTR)  (CIK 0001321655)."
-    },
-    {
-      "id": "CIT-2022-BANK-OF-ENGLAND-FINANCIAL",
-      "tier": "TIER_4_CONTEMPORARY_PRESS",
-      "title": "Financial Stability Report — December 2022 (13 December 2022) — Bank of England / Financial Policy Committee",
-      "url": "https://www.bankofengland.co.uk/financial-stability-report/2022/december-2022",
-      "quoteOrFact": "Source carried over from the Crash Conduits entry \"uk-ldi-gilt-crisis-2022\" for The UK LDI Pension Gilt Crisis & the Bank of England's Emergency Gilt Purchases."
     },
     {
       "id": "CIT-2025-PALANTIR-ICE",
@@ -1490,6 +1448,41 @@
     "title": "Bank for International Settlements, Committee on Payment and Settlement Systems, Settlement risk in foreign exchange transactions (the Allsopp Report), publication d17 — landing page and foreword",
     "url": "https://www.bis.org/cpmi/publ/d17.htm",
     "quoteOrFact": "Read from the BIS's own site. IMPORTANT LIMITATION, recorded because it bears on how this citation may be used: THE PAGE DOES NOT MENTION HERSTATT. The word does not appear on it at all. \"Herstatt risk\" is the market's name for foreign exchange settlement risk, but this document does not make that link, and nothing in this dossier attributes the link to it — the Basel Committee history page is cited separately for that. What this page does establish is that the risk was still a live supervisory problem two decades after 1974. From the foreword by William J. McDonough, Chairman of the Committee on Payment and Settlement Systems and President of the Federal Reserve Bank of New York: \"Although the probability of a major disruption in the foreign exchange settlement process is low, its potential consequences in a market of this size and complexity are considerable. This report, which was prepared on behalf of the Committee on Payment and Settlement Systems by its Steering Group on Settlement Risk in Foreign Exchange Transactions, offers a practical approach to dealing with this risk. The report analyses existing arrangements for settling foreign exchange trades and makes recommendations grounded in market realities. It calls upon individual banks and industry groups alike to improve current practices and devise safe mechanisms for addressing settlement risk. For their part, central banks have identified several avenues for cooperating with the private sector and for providing inducements to push this effort forward. I believe the report makes a compelling case that the private sector can, with a relatively modest expenditure of resources, make important progress in containing settlement risk.\" The landing page records the report as 74 pages; the report itself was not downloaded or read, and nothing is taken from beyond this page. THIS CITATION WAS INHERITED WITH A PLACEHOLDER quoteOrFact reading only \"Source carried over from the Crash Conduits entry\" — a URL attached to the node without being opened. It has now been opened and read."
+  },
+      {
+    "id": "CIT-1636-THE-CONVERSATION-ANNE",
+    "tier": "TIER_4_CONTEMPORARY_PRESS",
+    "title": "Anne Goldgar, \"Tulip mania: the classic story of a Dutch financial bubble is mostly wrong\", The Conversation, 12 February 2018",
+    "url": "https://theconversation.com/tulip-mania-the-classic-story-of-a-dutch-financial-bubble-is-mostly-wrong-91413",
+    "quoteOrFact": "Read in full. SOURCE CHARACTER: a signed article by a historian summarising her own archival research (the author states \"My years of research in Dutch archives while working on a book, Tulipmania: Money, Honor and Knowledge in the Dutch Golden Age\"). It is journalism reporting scholarship, not a primary record, and is tiered and attributed as such. It is cited here because it is an unusually direct statement of the gap between the popular story and the archives. The author sets out the received version — that tulip mania \"was irrational\", \"was a frenzy\", that \"Everyone in the Netherlands was involved, from chimney-sweeps to aristocrats\", that bulbs were \"traded sometimes 10 times a day\", that \"Tulips were sold for crazy prices – the price of houses\", that \"Desperate bankrupts threw themselves in canals\", and that \"the economy of Holland was ruined\" — and answers: \"The trouble is, most of it is untrue.\" THE CORRECTIONS, each with its archival basis: on rationality, tulips were \"a newish luxury product in a country rapidly expanding its wealth and trade networks\", and \"it wasn’t irrational to pay a high price for something that was generally considered valuable, and for which the next person might pay even more\". On frenzy: \"for much of the period trading was relatively calm, located in taverns and neighbourhoods rather than on the stock exchange\", becoming \"increasingly organised, with companies set up in various towns to grow, buy, and sell, and committees of experts emerged to oversee the trade\"; and \"Far from bulbs being traded hundreds of times, I never found a chain of buyers longer than five, and most were far shorter.\" On the plague explanation: \"this seems not to have existed. Despite an epidemic going on during 1636, the biggest price rises occurred in January 1637, when plague (mainly a summer disease) was on the wane.\" On prices and participation: \"Although it’s true that the most expensive tulips of all cost around 5,000 guilders (the price of a well-appointed house), I was able to identify only 37 people who spent more than 300 guilders on bulbs, around the yearly wage of a master craftsman. Many tulips were far cheaper\", and those top buyers \"came from the wealthy merchant class and were well able to afford the bulbs\"; participants were \"relatively small\" in number, \"mainly from the merchant and skilled artisan class\", with many \"connected to each other by family, religion, or neighbourhood. Sellers mainly sold to people they knew.\" On the crash: it came \"not because of naive and uninformed people entering the market, but probably through fears of oversupply and the unsustainability of the great price rise in the first five weeks of 1637\", and because the bulbs were in the ground with no money due until May or June, \"those who lost money in the February crash did so only notionally: they might not get paid later. Anyone who had both bought and sold a tulip on paper since the summer of 1636 had lost nothing.\" On the human and economic damage: \"No one drowned themselves in canals. I found not a single bankrupt in these years who could be identified as someone dealt the fatal financial blow by tulip mania\", and \"The Dutch economy was left completely unaffected.\" On the state: \"The ‘government’ ... did not shut down the trade, and indeed reacted slowly and hesitantly\", with the provincial court of Holland suggesting \"that people talk it out among themselves and try to stay out of the courts: no government regulation here.\" THIS CITATION WAS INHERITED WITH A PLACEHOLDER quoteOrFact reading only \"Source carried over from the Crash Conduits entry\" — a URL attached to the node without being opened. It has now been opened and read."
+  },
+      {
+    "id": "CIT-1720-FEDERAL-RESERVE-BANK-OF",
+    "tier": "TIER_4_CONTEMPORARY_PRESS",
+    "title": "François R. Velde, \"What We Learn from a Sovereign Debt Restructuring in France in 1721\", Federal Reserve Bank of Chicago, Economic Perspectives (2016)",
+    "url": "https://www.chicagofed.org/publications/economic-perspectives/2016/5-velde",
+    "quoteOrFact": "Read from the Chicago Fed's own site. SOURCE CHARACTER: a signed economist's article in a Reserve Bank research publication — secondary scholarship, not a primary record, tiered and attributed as such. ON WHAT LAW’S SYSTEM ACTUALLY WAS, which is the part the popular account flattens: \"Part of John Law’s plan was to replace the existing monetary system based on gold and silver coin with a paper standard, which he thought could be used to stabilize prices, lower interest rates, and stimulate the economy. To achieve this goal, he received a charter for a note-issuing bank, the first of its kind in France, and similar in many respects to the Bank of England, founded in 1694.\" The bank’s \"initial shareholders were holders of the State bills issued in 1716 to consolidate the unsecured war debts. In effect, the bondholders traded their bonds for shares in a company whose assets were a government annuity (replacing the bonds) and a (hopefully profitable) banking license.\" The company grew \"by a series of mergers and acquisitions, financed by equity issues, and became in 1719 the Indies Company, with a monopoly on most overseas trade, as well as other activities such as running the mints and the tobacco monopoly\", then expanded into tax collection. In summer 1719 it proposed \"to refinance the whole national debt at a favorable interest rate\", financed by issuing \"large amounts of equity\" — \"once again an exchange of debt owed by the State for equity in a private company\". THE EXPLICIT COMPARISON: \"This was the same model of debt securitization employed in the case of the Bank of England or the English South Sea Company (founded in 1711), but on a vast scale.\" THE DIAGNOSIS: \"The critical mistake made by Law was to link the two instruments. The debt conversion relied on bondholders’ willingness to trade in their bonds for shares, and since they were given lengthy installments to do so, it became necessary to maintain the price of shares at a high level to entice them. Ultimately, Law was led to peg the price of shares at too high a level; and the bank found itself buying large quantities of shares, resulting in excessive money creation.\" Law, by then finance minister, made the currency sole legal tender and required conversion of gold and silver into notes; a May 1720 devaluation of shares and notes \"precipitat[ed] a run on the bank and a suspension of payments\"; the subsequent operations \"left the bank and the company bankrupt, and Law was forced to leave the country in December 1720.\" ON THE SCALE OF WHAT WAS LEFT: in January 1721 there were \"two kinds of debt outstanding: the debt owed by the king, about 1.2 billion livres ... and the debt owed by the company and the bank, about 1 billion livres\", together \"roughly 50 percent of France’s gross\" domestic product. THIS CITATION WAS INHERITED WITH A PLACEHOLDER quoteOrFact reading only \"Source carried over from the Crash Conduits entry\" — a URL attached to the node without being opened. It has now been opened and read."
+  },
+      {
+    "id": "CIT-2008-FEDERAL-RESERVE-BANK-OF-NEW",
+    "tier": "TIER_3_PRIMARY_LEDGER",
+    "title": "Federal Reserve Bank of New York, \"Maiden Lane Transactions\" — programme page, milestones and eligibility criteria",
+    "url": "https://www.newyorkfed.org/markets/maidenlane",
+    "quoteOrFact": "Read from the New York Fed's own site. This page is the Bank's own ledger of the three Maiden Lane vehicles. ON BLACKROCK’S ROLE, stated directly: for Maiden Lane LLC, \"All the assets purchased originated from the Mortgage Desk of Bear Stearns. Under the terms of the agreement with the New York Fed, the assets purchased by ML LLC from Bear Stearns had to meet certain eligibility requirements. The due diligence review of the assets for adherence to the eligibility criteria was conducted by the New York Fed’s advisors, which included its investment manager, BlackRock Financial Management Inc. and Ernst & Young.\" The criteria are specified: securities \"had to be U.S. domiciled and issued and U.S. dollar-denominated\", \"rated investment grade, which was defined as rated BBB- or higher\", and whole loans \"had to be performing\". ON THE OUTCOMES, from the milestones: \"September 18, 2018: Maiden Lane LLC sold all remaining securities. Net proceeds from sales of the assets, as well as cash flow generated by ML LLC, provided a net gain of approximately $2.5 billion for the benefit of the U.S. public.\" \"August 23, 2012: Maiden Lane III LLC sold all remaining securities. Subsequent to the repayment of ML III LLC’s liabilities to the New York Fed and AIG, net proceeds from sales of the securities, as well as cash flow the securities generated while held by ML III LLC, provided a net gain of approximately $6.6 billion for the benefit of the U.S. public.\" \"July 16, 2012: Net proceeds from additional sales of securities in Maiden Lane III LLC enabled the full repayment of AIG’s equity contribution plus accrued interest and provided residual profits to the New York Fed. The New York Fed will continue to receive 67 percent of residual profits generated by future sales of ML III LLC assets.\" \"June 14, 2012: Maiden Lane LLC and Maiden Lane III LLC repaid the loans made by the New York Fed, with interest. The successful repayment of the loans marks the retirement of the last remaining debts owed to the New York Fed from the cris[is].\" \"November 15, 2012: Net proceeds from additional sales of securities in Maiden Lane LLC enabled the full repayment of the subordinate loan made by JPMorgan Chase & Co. plus accrued interest.\" \"November 12, 2014: The legal existence of Maiden Lane II LLC and Maiden Lane III LLC was formally terminated.\" WHAT THIS PAGE DOES NOT ESTABLISH, and it matters: it is a record of the vehicles’ structure, eligibility criteria and eventual financial outcome. It does not address the prices at which ML III acquired CDOs from AIG’s counterparties, and therefore neither supports nor refutes the contested claim that those counterparties were made whole at or near par. No SIGTARP report, congressional report or AIG counterparty schedule was read for this dossier. THIS CITATION WAS INHERITED WITH A PLACEHOLDER quoteOrFact reading only \"Source carried over from the Crash Conduits entry\" — a URL attached to the node without being opened. It has now been opened and read."
+  },
+      {
+    "id": "CIT-2010-SEC-1",
+    "tier": "TIER_3_PRIMARY_LEDGER",
+    "title": "Mary L. Schapiro, Chairman, U.S. Securities and Exchange Commission, Testimony on Monitoring Systemic Risk and Promoting Financial Stability, 12 May 2011",
+    "url": "https://www.sec.gov/newsroom/speeches-statements/ts051211mls-testimony-monitoring-systemic-risk-promoting-financial-stability",
+    "quoteOrFact": "Read from sec.gov. (sec.gov refuses a generic browser user-agent, which is why automated link checks report it blocked.) ON THE EVENT: \"Just over one year ago, the U.S. equity markets experienced one of the most significant price declines and reversals since 1929.\" ON THE INVESTIGATION: \"In September, the staffs of the SEC and the Commodity Futures Trading Commission (CFTC) published their second joint report on their inquiry into the day’s events. Producing the report required an extraordinary amount of staff resources. On the securities side in particular, much of the time and effort was devoted to collecting and then painstakingly sifting through the data necessary to reconstruct trading. These efforts highlighted the pressing need for enhanced data functionalities in the securities markets.\" The Chairman states that \"The joint report lays out the multiple factors that in our view significantly contri[buted]\" to the disruption — note the plural: the agencies’ own framing is multi-causal. On the wider market-structure debate the testimony records both sides: investors who pointed to \"liquidity providers that has lowered spreads and brokerage commissions\" and \"cautioned against regulatory changes that might lead to unintended consequences\", and other commenters who \"raised concerns about the quality of price discovery and questioned whether the current market structure continues to offer a level playing field to investors in which all can participate meaningfully and fairly.\" WHAT WAS NOT READ: this dossier previously also carried a justice.gov page about a futures trader’s guilty plea in connection with the 2010 flash crash. That page is served behind a bot-verification interstitial and was NOT readable; it has been removed from this node rather than carried unread, and nothing about any criminal case is asserted here. The SEC/CFTC joint report itself was also not downloaded; what is cited is the Chairman’s characterisation of it. THIS CITATION WAS INHERITED WITH A PLACEHOLDER quoteOrFact reading only \"Source carried over from the Crash Conduits entry\" — a URL attached to the node without being opened. It has now been opened and read."
+  },
+      {
+    "id": "CIT-2022-BANK-OF-ENGLAND-FINANCIAL",
+    "tier": "TIER_2_INQUIRY",
+    "title": "Bank of England, Financial Stability Report, December 2022 — Financial Policy Summary and overview",
+    "url": "https://www.bankofengland.co.uk/financial-stability-report/2022/december-2022",
+    "quoteOrFact": "Read from the Bank's own site. THE BANK’S OWN ACCOUNT OF SEPTEMBER 2022: \"At the end of September 2022, rapid and large moves in the interest rates on UK government debt exposed weaknesses in liability driven investment – LDI – funds which are used by UK pension schemes. This weakness threatened UK financial stability and the Bank of England had to intervene temporarily in government debt markets so that the funds could increase their resilience. Had we not acted, the stress would have significantly affected households’ and businesses’ ability to access credit.\" ON WHAT FOLLOWS: \"The resilience of this sector needs to be improved in a number of ways to make it more robust. This includes the need for regulatory action to ensure LDI funds keep their higher levels of resilience. Some steps have already been taken, and further work will be done next year.\" ON THE SECTOR GENERALLY: \"Today, more business lending and other financial services come from financial institutions other than banks (ie non-bank financial institutions). This sector includes different types of firms, operating from many countries other than the UK. We have previously highlighted the need to strengthen the resilience of this sector. In 2023, there is a need for urgent international action to reduce risks in non-bank finance\", together with \"an exploratory scenario exercise focused on non-bank financial institutions\". ON THE WIDER RATE MOVE, which the Report attributes broadly rather than to any single event: \"Monetary authorities have been responding to high levels of inflation, driven by higher and more volatile energy prices, domestic inflationary pressures and global supply chain issues following the pandemic. Higher central bank policy rates, alongside expectations of further rises, have led to very material and rapid increases in yields on long-term government bonds globally.\" The countercyclical capital buffer rate was maintained at 2% with effect from July 2023. The full Report is a 3MB PDF linked from this page; it was not downloaded, and what is cited here is the summary text on the page itself. THIS CITATION WAS INHERITED WITH A PLACEHOLDER quoteOrFact reading only \"Source carried over from the Crash Conduits entry\" — a URL attached to the node without being opened. It has now been opened and read."
   }
   ],
   "dossiers": [
@@ -2148,74 +2141,6 @@
       "citationIds": [
         "CIT-2001-AUDIT-911",
         "CIT-2025-PALANTIR-ICE"
-      ]
-    },
-    {
-      "code": "CC-1636-TULIP_1636",
-      "eraId": "ERA-01-1694",
-      "yearStart": 1636,
-      "yearEnd": 1636,
-      "title": "Tulip Mania: The Proto-Derivative Enclosure",
-      "primaryTab": "crash-conduits",
-      "secondaryTabs": [],
-      "mechanism": "CENTRAL_BANK_LIQUIDITY",
-      "tier": "TIER_3_PRIMARY_LEDGER",
-      "auditDisposition": "DOCUMENTED",
-      "participants": [],
-      "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
-      },
-      "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-        "enablesNextDossier": "CC-2026-ARBITRAGE"
-      },
-      "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "Tulip Mania: The Proto-Derivative Enclosure"
-      },
-      "citationIds": [
-        "CIT-1636-THE-CONVERSATION-ANNE"
-      ]
-    },
-    {
-      "code": "CC-1720-MISSISSIPPI_1720",
-      "eraId": "ERA-01-1694",
-      "yearStart": 1720,
-      "yearEnd": 1720,
-      "title": "Mississippi Bubble: Central Bank Fiat Enclosure",
-      "primaryTab": "crash-conduits",
-      "secondaryTabs": [],
-      "mechanism": "CENTRAL_BANK_LIQUIDITY",
-      "tier": "TIER_3_PRIMARY_LEDGER",
-      "auditDisposition": "DOCUMENTED",
-      "participants": [],
-      "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
-      },
-      "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-        "enablesNextDossier": "CC-2026-ARBITRAGE"
-      },
-      "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "Mississippi Bubble: Central Bank Fiat Enclosure"
-      },
-      "citationIds": [
-        "CIT-1720-FEDERAL-RESERVE-BANK-OF"
       ]
     },
     {
@@ -3001,74 +2926,6 @@
       ]
     },
     {
-      "code": "CC-2008-BLACKROCK_MAIDENLANE_2008",
-      "eraId": "ERA-09-2001",
-      "yearStart": 2008,
-      "yearEnd": 2008,
-      "title": "BlackRock & Maiden Lane: The Sovereign Bailout Enclosure",
-      "primaryTab": "crash-conduits",
-      "secondaryTabs": [],
-      "mechanism": "CENTRAL_BANK_LIQUIDITY",
-      "tier": "TIER_3_PRIMARY_LEDGER",
-      "auditDisposition": "DOCUMENTED",
-      "participants": [],
-      "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
-      },
-      "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-        "enablesNextDossier": "CC-2026-ARBITRAGE"
-      },
-      "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "BlackRock & Maiden Lane: The Sovereign Bailout Enclosure"
-      },
-      "citationIds": [
-        "CIT-2008-FEDERAL-RESERVE-BANK-OF-NEW"
-      ]
-    },
-    {
-      "code": "CC-2008-AIG_GOLDMAN_CDS_2008",
-      "eraId": "ERA-09-2001",
-      "yearStart": 2008,
-      "yearEnd": 2008,
-      "title": "AIG Financial Products & The 100-Cents Goldman Sachs CDS Funnel",
-      "primaryTab": "crash-conduits",
-      "secondaryTabs": [],
-      "mechanism": "CENTRAL_BANK_LIQUIDITY",
-      "tier": "TIER_3_PRIMARY_LEDGER",
-      "auditDisposition": "DOCUMENTED",
-      "participants": [],
-      "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
-      },
-      "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-        "enablesNextDossier": "CC-2026-ARBITRAGE"
-      },
-      "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "AIG Financial Products & The 100-Cents Goldman Sachs CDS Funnel"
-      },
-      "citationIds": [
-        "CIT-2008-FEDERAL-RESERVE-BANK-OF-NEW"
-      ]
-    },
-    {
       "code": "CC-2008-REPO_105_LEHMAN_2008",
       "eraId": "ERA-09-2001",
       "yearStart": 2008,
@@ -3134,41 +2991,6 @@
       },
       "citationIds": [
         "CIT-1720-HANSARD"
-      ]
-    },
-    {
-      "code": "CC-2010-FLASH_BOYS_2010",
-      "eraId": "ERA-09-2001",
-      "yearStart": 2010,
-      "yearEnd": 2010,
-      "title": "The Flash Crash of May 6, 2010 & The High-Frequency Trading Meltdown",
-      "primaryTab": "crash-conduits",
-      "secondaryTabs": [],
-      "mechanism": "CENTRAL_BANK_LIQUIDITY",
-      "tier": "TIER_3_PRIMARY_LEDGER",
-      "auditDisposition": "DOCUMENTED",
-      "participants": [],
-      "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
-      },
-      "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-        "enablesNextDossier": "CC-2026-ARBITRAGE"
-      },
-      "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "The Flash Crash of May 6, 2010 & The High-Frequency Trading Meltdown"
-      },
-      "citationIds": [
-        "CIT-2010-SEC-1",
-        "CIT-2010-US-DEPARTMENT-OF-JUSTICE-2"
       ]
     },
     {
@@ -3339,40 +3161,6 @@
       },
       "citationIds": [
         "CIT-1720-HANSARD"
-      ]
-    },
-    {
-      "code": "CC-2022-UK_LDI_GILT_CRISIS_2022",
-      "eraId": "ERA-10-2020",
-      "yearStart": 2022,
-      "yearEnd": 2022,
-      "title": "The UK LDI Pension Gilt Crisis & the Bank of England's Emergency Gilt Purchases",
-      "primaryTab": "crash-conduits",
-      "secondaryTabs": [],
-      "mechanism": "CENTRAL_BANK_LIQUIDITY",
-      "tier": "TIER_3_PRIMARY_LEDGER",
-      "auditDisposition": "DOCUMENTED",
-      "participants": [],
-      "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
-      },
-      "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-        "enablesNextDossier": "CC-2026-ARBITRAGE"
-      },
-      "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "The UK LDI Pension Gilt Crisis & the Bank of England's Emergency Gilt Purchases"
-      },
-      "citationIds": [
-        "CIT-2022-BANK-OF-ENGLAND-FINANCIAL"
       ]
     },
     {
@@ -6415,6 +6203,256 @@
     "citationIds": [
       "CIT-1974-BIS-BASEL-COMMITTEE-ON-1",
       "CIT-1974-BIS-COMMITTEE-ON-PAYMENT-2"
+    ]
+  },
+      {
+    "code": "CC-1636-TULIP_1636",
+    "eraId": "ERA-01-1694",
+    "yearStart": 1636,
+    "yearEnd": 1637,
+    "title": "Thirty-Seven Buyers Above 300 Guilders: the Bubble Whose Popular Version Is Mostly Wrong",
+    "primaryTab": "crash-conduits",
+    "secondaryTabs": [
+      "consent"
+    ],
+    "mechanism": "LEVERAGED_WATERED_CAPITAL",
+    "tier": "TIER_4_CONTEMPORARY_PRESS",
+    "auditDisposition": "DOCUMENTED",
+    "participants": [
+      "Dutch merchant and skilled artisan buyers of tulip bulbs",
+      "Tulip trading companies and committees in Dutch towns",
+      "Provincial court of Holland"
+    ],
+    "extractionLoop": {
+      "stage1_upfrontSkim": "There was a trade and there were high prices, and the dossier keeps both: \"the most expensive tulips of all cost around 5,000 guilders (the price of a well-appointed house)\". What there was not was breadth — the historian \"was able to identify only 37 people who spent more than 300 guilders on bulbs, around the yearly wage of a master craftsman. Many tulips were far cheaper.\"",
+      "stage2_structuralCompromise": "The structure was a forward market in goods that physically did not exist yet: \"None of the bulbs were actually available – they were all planted in the ground – and no money would be exchanged until the bulbs could be handed over in May or June.\" Paper changed hands; nothing else could.",
+      "stage3_informationFog": "The fog in this dossier is retrospective, and it is the reason the node is worth carrying. The story that circulates — irrational frenzy, chimney-sweeps and aristocrats alike, bulbs traded ten times a day, bankrupts in the canals, a ruined economy — is repeated \"whether by casual tweeters or in widely read economics textbooks by luminaries such as John Kenneth Galbraith\". The archives say otherwise.",
+      "stage4_monopolyWindfall": "There was no windfall to speak of, and no ruin either. Because settlement was months away, \"those who lost money in the February crash did so only notionally: they might not get paid later. Anyone who had both bought and sold a tulip on paper since the summer of 1636 had lost nothing. Only those waiting for payment were in trouble, and they were people able to bear the loss.\"",
+      "stage5_merseyWhitewash": "There was no official containment because there was no official intervention: the \"government\" of the federal Dutch Republic \"did not shut down the trade, and indeed reacted slowly and hesitantly to demands from some traders and city councils to resolve disputes. The provincial court of Holland suggested that people talk it out among themselves and try to stay out of the courts: no government regulation here.\""
+    },
+    "closedLoopRatchet": {
+      "inheritedFramework": "A wealthy trading republic with a taste for collectable rarities, and a seasonal product whose prized striped and speckled forms were hard to cultivate and therefore genuinely scarce.",
+      "newFrameworkCreated": "The story itself — the standing comparison that every later episode is measured against, from the South Sea Bubble to railways to dotcom stocks to Bitcoin, which the article opens by listing.",
+      "closedLoopRecirculation": "The legend is self-renewing: each new boom is explained by reference to tulip mania, and each retelling reinforces a version of tulip mania that the archives do not support, which is then available to explain the next boom.",
+      "enablesNextDossier": "CC-1720-SOUTHSEA"
+    },
+    "decoyVsLedger": {
+      "viralDecoy": "That tulip mania was mass irrationality — everyone from chimney-sweeps to aristocrats trading the same bulb ten times a day at the price of houses, ruined bankrupts drowning themselves in canals, and the Dutch economy wrecked until the government stepped in.",
+      "whyDecoyFails": "Every element of that is contradicted by the archival work this article reports. Participation was narrow: only 37 people identified as spending more than 300 guilders, mostly wealthy merchants, with buyers and sellers \"connected to each other by family, religion, or neighbourhood\". Turnover was modest: \"I never found a chain of buyers longer than five, and most were far shorter\". The trading was \"relatively calm, located in taverns and neighbourhoods rather than on the stock exchange\", and increasingly organised through companies and expert committees. The plague explanation fails on timing, the biggest rises coming in January 1637 as plague waned. Losses were largely notional because settlement had not arrived, and \"No one drowned themselves in canals. I found not a single bankrupt in these years who could be identified as someone dealt the fatal financial blow by tulip mania.\" The economy \"was left completely unaffected\", and the state did not shut the trade down. The one thing that survives is that the most expensive bulbs really did cost about 5,000 guilders.",
+      "documentedLedger": "A luxury market in a rapidly enriching trading republic, in bulbs that were genuinely scarce and hard to cultivate in their prized forms. Peak prices around 5,000 guilders for the most expensive bulbs, against only 37 identified buyers spending more than 300 guilders — roughly a master craftsman’s annual wage. Trading conducted in taverns and neighbourhoods, increasingly organised through town companies and committees of experts, with sellers mainly selling to people they knew and no observed chain of buyers longer than five. A crash in February 1637 attributed to fears of oversupply and unsustainable rises in the first five weeks of the year, not to naive entrants. Losses largely notional because no bulbs or money had yet changed hands. No identified bankruptcy caused by it, no effect on the Dutch economy, and no government suppression of the trade — the provincial court of Holland told the parties to settle it among themselves."
+    },
+    "citationIds": [
+      "CIT-1636-THE-CONVERSATION-ANNE"
+    ]
+  },
+      {
+    "code": "CC-1720-MISSISSIPPI_1720",
+    "eraId": "ERA-01-1694",
+    "yearStart": 1716,
+    "yearEnd": 1721,
+    "title": "The Same Model on a Vast Scale: Law’s Debt-for-Equity Swap, and the Peg That Broke It",
+    "primaryTab": "crash-conduits",
+    "secondaryTabs": [
+      "deep-state"
+    ],
+    "mechanism": "SOVEREIGN_DEBT_TRAP",
+    "tier": "TIER_4_CONTEMPORARY_PRESS",
+    "auditDisposition": "DOCUMENTED",
+    "participants": [
+      "John Law",
+      "The Indies Company (Compagnie des Indes)",
+      "The Banque Royale",
+      "The French Crown and the Regency",
+      "Holders of State bills"
+    ],
+    "extractionLoop": {
+      "stage1_upfrontSkim": "The skim was the conversion itself. Bondholders \"traded their bonds for shares in a company whose assets were a government annuity (replacing the bonds) and a (hopefully profitable) banking license\", and in summer 1719 the company proposed \"to refinance the whole national debt at a favorable interest rate\", financed \"by issuing large amounts of equity\" — again \"an exchange of debt owed by the State for equity in a private company\", now with tax revenues among the assets.",
+      "stage2_structuralCompromise": "The compromise was the merger of monetary and fiscal machinery into one private balance sheet. The Indies Company held \"a monopoly on most overseas trade, as well as other activities such as running the mints and the tobacco monopoly\", then \"acquired most of the contracts for tax col[lection]\"; the bank, nationalised in 1718 but still headed by Law, issued the notes. The state’s revenues, its debt and its currency ended up inside the same structure.",
+      "stage3_informationFog": "The price of the shares became the instrument of policy rather than a signal. \"The debt conversion relied on bondholders’ willingness to trade in their bonds for shares, and since they were given lengthy installments to do so, it became necessary to maintain the price of shares at a high level to entice them. Ultimately, Law was led to peg the price of shares at too high a level; and the bank found itself buying large quantities of shares, resulting in excessive money creation.\"",
+      "stage4_monopolyWindfall": "The windfall was meant to be the state’s: \"If successful, it would solve France’s financial problems permanently.\" Instead the attempt to hold the peg required ever more note issue, and the attempts to unwind it — legal-tender decrees, forced conversion of gold and silver into notes, a May 1720 devaluation of shares and notes — produced \"a run on the bank and a suspension of payments\".",
+      "stage5_merseyWhitewash": "The containment was a restructuring and the scale is the point. The operations \"left the bank and the company bankrupt, and Law was forced to leave the country in December 1720.\" By January 1721 there were \"two kinds of debt outstanding: the debt owed by the king, about 1.2 billion livres ... and the debt owed by the company and the bank, about 1 billion livres\", together \"roughly 50 percent of France’s gross\" domestic product — which is what the 1721 restructuring had to deal with."
+    },
+    "closedLoopRatchet": {
+      "inheritedFramework": "Debt securitisation as practised across the Channel: as the article states, \"the same model of debt securitization employed in the case of the Bank of England or the English South Sea Company (founded in 1711), but on a vast scale.\"",
+      "newFrameworkCreated": "The 1721 French sovereign debt restructuring, and a lasting French aversion to note-issuing banks — the negative lesson drawn from an experiment that had been explicitly modelled on the English one.",
+      "closedLoopRecirculation": "Bonds became shares; the shares had to stay high for the conversion to continue; keeping them high required the bank to buy them; buying them required issuing notes; the notes devalued the currency the shares were priced in.",
+      "enablesNextDossier": "CC-1720-SOUTHSEA"
+    },
+    "decoyVsLedger": {
+      "viralDecoy": "That John Law was a charlatan gambler who invented paper money out of nothing to swindle France, and that the Mississippi Bubble was a confidence trick with no connection to how real states finance themselves.",
+      "whyDecoyFails": "The scheme was not sui generis and the source says so plainly: it was \"the same model of debt securitization employed in the case of the Bank of England or the English South Sea Company (founded in 1711), but on a vast scale.\" The bank was chartered as \"the first of its kind in France, and similar in many respects to the Bank of England\", and the aims stated — to \"stabilize prices, lower interest rates, and stimulate the economy\" — are recognisable central-banking objectives. The diagnosis offered is a specific design error rather than fraud: \"The critical mistake made by Law was to link the two instruments\", which forced him to peg the share price too high and the bank to print to defend it. That is a harsher verdict in one way and a fairer one in another: it means the failure is repeatable by honest people, which a swindle would not be.",
+      "documentedLedger": "A note-issuing bank chartered in France on the Bank of England model, whose initial shareholders were holders of State bills issued in 1716 to consolidate unsecured war debts. A parallel company funded with government bonds, holding the colony of Louisiana, which grew by merger and equity issue into the Indies Company of 1719 with a monopoly on most overseas trade, the mints, the tobacco monopoly and most tax-collection contracts. A summer 1719 proposal to refinance the entire national debt, funded by large equity issues — the same debt-securitisation model as the Bank of England and the South Sea Company, on a vastly larger scale. A share price pegged too high to keep the conversion going, a bank buying shares and creating money to hold it, legal-tender decrees and forced conversion of specie, a May 1720 devaluation of shares and notes, a run and a suspension of payments. Bank and company bankrupt; Law out of the country in December 1720; and, in January 1721, about 1.2 billion livres owed by the king and about 1 billion by the company and bank, together roughly half of French output."
+    },
+    "citationIds": [
+      "CIT-1720-FEDERAL-RESERVE-BANK-OF"
+    ]
+  },
+      {
+    "code": "CC-2008-BLACKROCK_MAIDENLANE_2008",
+    "eraId": "ERA-09-2001",
+    "yearStart": 2008,
+    "yearEnd": 2018,
+    "title": "The Manager Who Marked the Collateral: BlackRock’s Due Diligence, and a $2.5 Billion Gain to the Public",
+    "primaryTab": "crash-conduits",
+    "secondaryTabs": [
+      "deep-state"
+    ],
+    "mechanism": "CENTRAL_BANK_LIQUIDITY",
+    "tier": "TIER_3_PRIMARY_LEDGER",
+    "auditDisposition": "DOCUMENTED",
+    "participants": [
+      "Federal Reserve Bank of New York",
+      "BlackRock Financial Management Inc.",
+      "Ernst & Young",
+      "Bear Stearns (Mortgage Desk)",
+      "JPMorgan Chase & Co.",
+      "Maiden Lane LLC"
+    ],
+    "extractionLoop": {
+      "stage1_upfrontSkim": "The mandate is the thing being extracted here, and the New York Fed names the holder: the due diligence on the assets taken from Bear Stearns \"was conducted by the New York Fed’s advisors, which included its investment manager, BlackRock Financial Management Inc. and Ernst & Young.\"",
+      "stage2_structuralCompromise": "The structural feature is that a private asset manager was placed between the central bank and the collateral it was accepting. \"All the assets purchased originated from the Mortgage Desk of Bear Stearns\", and whether they qualified was assessed against criteria — US-domiciled, dollar-denominated, \"rated investment grade, which was defined as rated BBB- or higher\", whole loans \"performing\" — by the Fed’s own appointed advisors rather than by the Fed itself.",
+      "stage3_informationFog": "The ratings doing the gatekeeping were the same instrument the crisis had discredited: eligibility turned on an investment-grade rating of BBB- or higher, applied to mortgage assets in March 2008. The page records the criteria and the reviewer; it does not record the marks.",
+      "stage4_monopolyWindfall": "The position was durable and lucrative in reputational terms, and the public outcome was positive in financial ones: Maiden Lane LLC ran until 18 September 2018, when it \"sold all remaining securities\", with net proceeds and cash flow providing \"a net gain of approximately $2.5 billion for the benefit of the U.S. public\". The New York Fed’s loans were repaid with interest on 14 June 2012, and JPMorgan’s subordinate loan plus accrued interest by 15 November 2012.",
+      "stage5_merseyWhitewash": "There is no inquiry here and no finding against anyone. What exists is the Bank’s own ledger of its vehicle, published by the Bank, recording the terms it set, the advisors it hired and the money it made back. The absence of an independent valuation record is the gap the dossier names rather than fills."
+    },
+    "closedLoopRatchet": {
+      "inheritedFramework": "Section 13(3) emergency lending through a special purpose vehicle, and a central bank without in-house capacity to value complex mortgage assets at speed.",
+      "newFrameworkCreated": "The crisis-vehicle template — a limited liability company funded by a Federal Reserve loan, managed by a private investment manager, holding assets to maturity rather than selling into a falling market.",
+      "closedLoopRecirculation": "The firm that assessed whether assets met the Fed’s eligibility criteria was also the firm managing them for the Fed afterwards, and the expertise that made it indispensable in 2008 was built on the same markets whose assets it was now marking.",
+      "enablesNextDossier": "CC-2008-AIG_GOLDMAN_CDS_2008"
+    },
+    "decoyVsLedger": {
+      "viralDecoy": "That the Maiden Lane vehicles were a disguised gift — public money handed to Wall Street through a shell company, with BlackRock paid to bless the valuations and the taxpayer left holding the loss.",
+      "whyDecoyFails": "The loss did not happen, on the Bank’s own published ledger. The New York Fed’s loans to Maiden Lane LLC and Maiden Lane III LLC were repaid with interest on 14 June 2012, \"the retirement of the last remaining debts owed to the New York Fed from the cris[is]\"; JPMorgan’s subordinate loan was repaid with accrued interest; and when the final securities were sold in September 2018 the vehicle had produced \"a net gain of approximately $2.5 billion for the benefit of the U.S. public\". The BlackRock role is real and is worth naming — the Fed says so itself — but it was due diligence against stated eligibility criteria, conducted alongside Ernst & Young. What the dossier cannot do from this source is test the valuations: the page records the criteria, the reviewers and the outcome, not the marks, and no independent valuation review was read.",
+      "documentedLedger": "Maiden Lane LLC holding assets originated by the Mortgage Desk of Bear Stearns, purchased subject to eligibility criteria as at 14 March 2008: US-domiciled and dollar-denominated securities rated BBB- or higher, and performing whole loans. Due diligence on adherence to those criteria conducted by the New York Fed’s advisors, \"which included its investment manager, BlackRock Financial Management Inc. and Ernst & Young\". Repayment of the New York Fed’s loans with interest on 14 June 2012; repayment of JPMorgan’s subordinate loan plus accrued interest by 15 November 2012; and, on 18 September 2018, sale of all remaining securities producing a net gain of approximately $2.5 billion for the public."
+    },
+    "citationIds": [
+      "CIT-2008-FEDERAL-RESERVE-BANK-OF-NEW"
+    ]
+  },
+      {
+    "code": "CC-2008-AIG_GOLDMAN_CDS_2008",
+    "eraId": "ERA-09-2001",
+    "yearStart": 2008,
+    "yearEnd": 2014,
+    "title": "Maiden Lane III: What the New York Fed’s Ledger Shows, and the Question It Does Not Answer",
+    "primaryTab": "crash-conduits",
+    "secondaryTabs": [
+      "deep-state"
+    ],
+    "mechanism": "DERIVATIVE_CLEARING_CAPTURE",
+    "tier": "TIER_3_PRIMARY_LEDGER",
+    "auditDisposition": "DOCUMENTED",
+    "participants": [
+      "American International Group (AIG)",
+      "Federal Reserve Bank of New York",
+      "Maiden Lane III LLC",
+      "AIG credit default swap counterparties"
+    ],
+    "extractionLoop": {
+      "stage1_upfrontSkim": "The vehicle existed to take the contested contracts off AIG’s book. Maiden Lane III LLC was funded by a New York Fed loan alongside an AIG equity contribution, and the Bank’s ledger records both being repaid in order: \"Net proceeds from additional sales of securities in Maiden Lane III LLC enabled the full repayment of AIG’s equity contribution plus accrued interest and provided residual profits to the New York Fed.\"",
+      "stage2_structuralCompromise": "The compromise was upstream of the vehicle and is not documented on this page: credit protection written on mortgage collateral whose collateral calls AIG could not meet. What the page documents is the remedy, not the exposure.",
+      "stage3_informationFog": "And here the dossier has to be explicit about its own limits. The identities of the counterparties and the prices at which ML III bought their CDOs are the heart of the public controversy, and the page read for this node does not contain them. Nothing in this dossier establishes what any counterparty received.",
+      "stage4_monopolyWindfall": "What the ledger does show is the public outcome: on 23 August 2012 \"Maiden Lane III LLC sold all remaining securities\", and after repaying its liabilities to the New York Fed and AIG, \"net proceeds from sales of the securities, as well as cash flow the securities generated while held by ML III LLC, provided a net gain of approximately $6.6 billion for the benefit of the U.S. public.\" The Fed continued to take \"67 percent of residual profits\" from later sales.",
+      "stage5_merseyWhitewash": "The vehicle was wound up rather than examined: \"November 12, 2014: The legal existence of Maiden Lane II LLC and Maiden Lane III LLC was formally terminated\", with residual cash paid to the New York Fed and AIG \"in accordance with their respective interests\". The structure closed; the question of what the counterparties were paid was settled elsewhere, in documents not read here."
+    },
+    "closedLoopRatchet": {
+      "inheritedFramework": "Credit default swaps written without the capital to meet collateral calls, and a counterparty network in which one insurer’s failure would have crystallised losses across several large banks at once.",
+      "newFrameworkCreated": "Central clearing and margin requirements for standardised derivatives, built on the proposition that bilateral CDS exposure of this kind should not again be invisible until it is unpayable.",
+      "closedLoopRecirculation": "Protection sold cheaply because the seller never expected to pay; the cheapness made the protection ubiquitous; the ubiquity made the seller systemic; and being systemic is what produced the public vehicle that settled the contracts.",
+      "enablesNextDossier": "CC-2012-LONDON_WHALE_2012"
+    },
+    "decoyVsLedger": {
+      "viralDecoy": "That the AIG rescue was a back-door bailout of Goldman Sachs and other counterparties, paid out at one hundred cents on the dollar with public money that was never recovered.",
+      "whyDecoyFails": "The last clause is wrong on the Bank’s own ledger: Maiden Lane III repaid the New York Fed’s loan with interest, repaid AIG’s equity contribution with accrued interest, and on final liquidation in August 2012 produced \"a net gain of approximately $6.6 billion for the benefit of the U.S. public\", with the vehicle formally terminated in November 2014. BUT THE DOSSIER DOES NOT CLAIM THE REST IS WRONG, because the source read here cannot speak to it. The page records the vehicle’s structure, its repayments and its profit; it does not record the prices at which ML III acquired the CDOs from AIG’s counterparties, and it names none of them. The par-payment question is the substance of the controversy and it is unresolved in this dossier: no SIGTARP report, congressional report or counterparty schedule was read. A profit on the eventual sale of assets does not establish that they were bought at the right price.",
+      "documentedLedger": "Maiden Lane III LLC funded by a New York Fed loan and an AIG equity contribution. Full repayment of AIG’s equity contribution plus accrued interest on 16 July 2012, with residual profits to the New York Fed and a continuing 67 percent share of residual profits from later sales. Repayment of the New York Fed’s loans with interest on 14 June 2012. Sale of all remaining securities on 23 August 2012, producing a net gain of approximately $6.6 billion for the public after repayment of liabilities to the New York Fed and AIG. Formal termination of Maiden Lane II LLC and Maiden Lane III LLC on 12 November 2014, with reserve cash paid to the New York Fed and AIG according to their respective interests. And, not established here: who the counterparties were, and what they were paid."
+    },
+    "citationIds": [
+      "CIT-2008-FEDERAL-RESERVE-BANK-OF-NEW"
+    ]
+  },
+      {
+    "code": "CC-2010-FLASH_BOYS_2010",
+    "eraId": "ERA-09-2001",
+    "yearStart": 2010,
+    "yearEnd": 2011,
+    "title": "Multiple Factors, Painstakingly Reconstructed: the SEC’s Own Account of 6 May 2010",
+    "primaryTab": "crash-conduits",
+    "secondaryTabs": [
+      "deep-state"
+    ],
+    "mechanism": "DERIVATIVE_CLEARING_CAPTURE",
+    "tier": "TIER_3_PRIMARY_LEDGER",
+    "auditDisposition": "DOCUMENTED",
+    "participants": [
+      "U.S. Securities and Exchange Commission",
+      "Mary L. Schapiro",
+      "Commodity Futures Trading Commission",
+      "U.S. equity market participants"
+    ],
+    "extractionLoop": {
+      "stage1_upfrontSkim": "The benefit claimed for the structure is recorded in the testimony itself, in the words of its defenders: investors pointed to \"liquidity providers that has lowered spreads and brokerage commissions\" and \"cautioned against regulatory changes that might lead to unintended consequences\". That is the upside the arrangement is defended by.",
+      "stage2_structuralCompromise": "The compromise is the one the other commenters raise in the same testimony: they \"raised concerns about the quality of price discovery and questioned whether the current market structure continues to offer a level playing field to investors in which all can participate meaningfully and fairly.\"",
+      "stage3_informationFog": "The fog was in the regulator’s own data, and the Chairman says so. Producing the joint report \"required an extraordinary amount of staff resources\", with much of the effort \"devoted to collecting and then painstakingly sifting through the data necessary to reconstruct trading\", and these efforts \"highlighted the pressing need for enhanced data functionalities in the securities markets\". The supervisor could not readily reconstruct a day in its own market.",
+      "stage4_monopolyWindfall": "The windfall in this file is the structural advantage of speed, which the testimony does not quantify and this dossier therefore does not either. What it records is a regulator weighing competing accounts of whether that advantage is paid for in liquidity or taken out of price discovery.",
+      "stage5_merseyWhitewash": "The response was two joint SEC-CFTC reports, the second published in September. The Chairman’s framing is multi-causal and the dossier keeps it that way: \"The joint report lays out the multiple factors that in our view significantly contri[buted]\" to the event. The event itself she describes as \"one of the most significant price declines and reversals since 1929\"."
+    },
+    "closedLoopRatchet": {
+      "inheritedFramework": "A fragmented, automated equity market in which the regulator’s view of trading was assembled after the fact from participants’ own records.",
+      "newFrameworkCreated": "The consolidated audit trail and the limit up-limit down and market-wide circuit breaker regimes — the data and volatility machinery built because reconstructing one afternoon took extraordinary staff resources.",
+      "closedLoopRecirculation": "Speed and fragmentation produced the liquidity the market relied on; the same speed and fragmentation made the market hard to reconstruct; and the difficulty of reconstruction delayed the rules that might have constrained it.",
+      "enablesNextDossier": "CC-2012-LONDON_WHALE_2012"
+    },
+    "decoyVsLedger": {
+      "viralDecoy": "That the flash crash was one spoofer in a bedroom in Hounslow who crashed the American stock market — or, from the other direction, that it was a glitch with no cause worth investigating.",
+      "whyDecoyFails": "The SEC’s own account is multi-causal: the joint report \"lays out the multiple factors that in our view significantly contri[buted]\" to the disruption — plural, in the Chairman’s own framing. Nor was it dismissed as a glitch: it is described as \"one of the most significant price declines and reversals since 1929\", and it produced two joint SEC-CFTC reports. A NOTE ON WHAT IS NOT HERE, because this node previously implied it: a justice.gov page about a futures trader’s guilty plea in connection with the 2010 flash crash was attached to this dossier without being opened. That page is served behind a bot-verification interstitial and could not be read, so it has been removed rather than carried unread, and nothing about any criminal case, plea or individual is asserted in this dossier.",
+      "documentedLedger": "Testimony of the SEC Chairman on 12 May 2011 describing 6 May 2010 as \"one of the most significant price declines and reversals since 1929\". Two joint SEC-CFTC staff reports into the day’s events, the second published in September 2010, laying out multiple contributing factors. An investigation that required extraordinary staff resources, with much of the effort devoted to collecting and painstakingly sifting the data needed to reconstruct trading, and which highlighted the pressing need for enhanced data functionalities in the securities markets. And a market-structure debate recorded in the same testimony between investors citing narrower spreads and lower commissions and commenters questioning price discovery and whether all participants can participate meaningfully and fairly."
+    },
+    "citationIds": [
+      "CIT-2010-SEC-1"
+    ]
+  },
+      {
+    "code": "CC-2022-UK_LDI_GILT_CRISIS_2022",
+    "eraId": "ERA-10-2020",
+    "yearStart": 2022,
+    "yearEnd": 2023,
+    "title": "Had We Not Acted: the Bank of England on the LDI Funds and Its Own Gilt Intervention",
+    "primaryTab": "crash-conduits",
+    "secondaryTabs": [
+      "deep-state",
+      "carbon-class"
+    ],
+    "mechanism": "CENTRAL_BANK_LIQUIDITY",
+    "tier": "TIER_2_INQUIRY",
+    "auditDisposition": "DOCUMENTED",
+    "participants": [
+      "Bank of England",
+      "Financial Policy Committee",
+      "Liability driven investment (LDI) funds",
+      "UK pension schemes",
+      "UK government debt markets"
+    ],
+    "extractionLoop": {
+      "stage1_upfrontSkim": "The leverage was the product. LDI funds are, in the Bank’s description, vehicles \"which are used by UK pension schemes\" to match long-dated liabilities — an arrangement that works while rates move slowly and requires collateral when they do not.",
+      "stage2_structuralCompromise": "The weakness was pre-existing and the Bank says the rate move exposed rather than created it: \"At the end of September 2022, rapid and large moves in the interest rates on UK government debt exposed weaknesses in liability driven investment – LDI – funds which are used by UK pension schemes.\"",
+      "stage3_informationFog": "The Bank locates the episode within a sector it had already flagged: \"Today, more business lending and other financial services come from financial institutions other than banks (ie non-bank financial institutions). This sector includes different types of firms, operating from many countries other than the UK. We have previously highlighted the need to strengthen the resilience of this sector.\" The exposure was in a part of the system the central bank does not supervise directly.",
+      "stage4_monopolyWindfall": "What the intervention bought was time for the funds to recapitalise, and the Bank is explicit about the counterfactual: \"This weakness threatened UK financial stability and the Bank of England had to intervene temporarily in government debt markets so that the funds could increase their resilience. Had we not acted, the stress would have significantly affected households’ and businesses’ ability to access credit.\"",
+      "stage5_merseyWhitewash": "The follow-through is stated as unfinished rather than concluded: \"The resilience of this sector needs to be improved in a number of ways to make it more robust. This includes the need for regulatory action to ensure LDI funds keep their higher levels of resilience. Some steps have already been taken, and further work will be done next year\", alongside a call for \"urgent international action to reduce risks in non-bank finance\" and an exploratory scenario exercise."
+    },
+    "closedLoopRatchet": {
+      "inheritedFramework": "Defined benefit pension schemes matching long-dated liabilities through leveraged gilt exposure held in pooled funds outside the banking perimeter.",
+      "newFrameworkCreated": "A resilience standard for LDI funds and an explicit supervisory programme for non-bank financial institutions, including the Bank’s exploratory scenario exercise.",
+      "closedLoopRecirculation": "Falling yields made leverage the way to match liabilities; the leverage required collateral when yields rose; posting collateral meant selling gilts; selling gilts raised yields further and increased the collateral required.",
+      "enablesNextDossier": "CC-2026-ARBITRAGE"
+    },
+    "decoyVsLedger": {
+      "viralDecoy": "That a single fiscal statement blew up the pension system, or alternatively that the Bank of England bailed out hedge funds with money printing and called it financial stability.",
+      "whyDecoyFails": "The Bank attributes the rate environment broadly rather than to one event: \"Monetary authorities have been responding to high levels of inflation, driven by higher and more volatile energy prices, domestic inflationary pressures and global supply chain issues following the pandemic. Higher central bank policy rates, alongside expectations of further rises, have led to very material and rapid increases in yields on long-term government bonds globally\" — globally, not only in the UK. And it describes the September move as having \"exposed weaknesses\" in the funds, which is a statement about a pre-existing fragility. On the bailout reading: the Bank describes an intervention that was \"temporary\", in government debt markets, undertaken \"so that the funds could increase their resilience\", with a stated counterfactual about household and business access to credit. What this dossier rests on is the Bank’s own summary of its own action, published two months later; no independent review of the intervention was read.",
+      "documentedLedger": "The Bank of England’s December 2022 Financial Stability Report recording that at the end of September 2022 rapid and large moves in UK government debt interest rates exposed weaknesses in LDI funds used by UK pension schemes; that the weakness threatened UK financial stability; that the Bank had to intervene temporarily in government debt markets so the funds could increase their resilience; and that had it not acted, the stress would have significantly affected households’ and businesses’ ability to access credit. A stated need for regulatory action to ensure LDI funds keep higher resilience, with some steps taken and further work to follow. A call for urgent international action on non-bank finance in 2023 and an exploratory scenario exercise focused on non-bank financial institutions. And the UK countercyclical capital buffer maintained at 2% with effect from July 2023."
+    },
+    "citationIds": [
+      "CIT-2022-BANK-OF-ENGLAND-FINANCIAL"
     ]
   }
   ],

@@ -1366,6 +1366,80 @@
      (bankofengland.co.uk, fetched, 2.2 MB).
      Not merged to main, not pushed to main, not deployed. -->
 
+<!-- ACTUAL 2026-10-17 (twelfth pass): THE CARRIED-OVER CATEGORY IS CLEARED.
+     ZERO citations in master now carry the "Source carried over from the Crash Conduits
+     entry" placeholder, down from 24. 118 dossiers, 184 citations, 86 researched,
+     32 boilerplate — thirty-one Hansard-only and one (Haiti) that could not be sourced.
+     SIX MORE REBUILT FROM NEWLY-READ URLS:
+     CC-1636-TULIP_1636 — Anne Goldgar in The Conversation, summarising her own Dutch
+     archival research. The best decoy-versus-ledger source in the whole atlas, because
+     the article exists to correct the legend: only 37 people identified as spending
+     more than 300 guilders, no chain of buyers longer than five, trading "relatively
+     calm, located in taverns and neighbourhoods rather than on the stock exchange", the
+     plague explanation defeated by timing, losses largely notional because settlement
+     was months away, "No one drowned themselves in canals", "not a single bankrupt",
+     the economy "left completely unaffected", and no government suppression.
+     CC-1720-MISSISSIPPI_1720 — Velde in Chicago Fed Economic Perspectives. The node now
+     carries the article's central comparison, which the swindle framing erases: Law's
+     scheme was "the same model of debt securitization employed in the case of the Bank
+     of England or the English South Sea Company (founded in 1711), but on a vast
+     scale", and the failure is diagnosed as a design error — "The critical mistake made
+     by Law was to link the two instruments" — not as fraud. A harsher verdict in one
+     way: it means honest people can repeat it.
+     CC-2008-BLACKROCK_MAIDENLANE_2008 — the New York Fed's own Maiden Lane page states
+     BlackRock's role directly ("the due diligence review ... was conducted by the New
+     York Fed's advisors, which included its investment manager, BlackRock Financial
+     Management Inc. and Ernst & Young") and records a net gain of approximately
+     $2.5 billion for the public and repayment of all loans with interest.
+     CC-2008-AIG_GOLDMAN_CDS_2008 — THE SAME PAGE, AND THE DOSSIER STATES WHAT IT CANNOT
+     SETTLE. Maiden Lane III returned a net gain of approximately $6.6 billion for the
+     public and repaid both the New York Fed and AIG with interest, which defeats the
+     "never recovered" half of the viral account. But the page does NOT record the
+     prices at which ML III bought CDOs from AIG's counterparties, and names none of
+     them, so the par-payment question — the actual substance of the controversy — is
+     left expressly unresolved: "A profit on the eventual sale of assets does not
+     establish that they were bought at the right price." No SIGTARP or congressional
+     report was read.
+     CC-2010-FLASH_BOYS_2010 — SEC Chairman Schapiro's testimony of 12 May 2011. A
+     CITATION WAS REMOVED RATHER THAN CARRIED: this node also held a justice.gov page
+     about a futures trader's guilty plea, attached unread. That page sits behind a
+     bot-verification interstitial and could not be read, so it was deleted from the
+     node and the dossier asserts nothing about any criminal case or individual.
+     CC-2022-UK_LDI_GILT_CRISIS_2022 — the Bank of England's own December 2022 Financial
+     Stability Report summary, including the counterfactual in the Bank's words: "Had we
+     not acted, the stress would have significantly affected households' and businesses'
+     ability to access credit."
+     THE ONE THAT COULD NOT BE SOURCED, AND WHAT WAS DONE ABOUT IT:
+     CC-1825-HAITI_INDEMNITY_1825. Its only citation is an SSRN abstract page that
+     returns 403 to scripts and a bot challenge in a browser, not circumvented. An
+     alternative was attempted — a Graduate Institute working-paper URL inferred from
+     the repository numbering — and IT RETURNED HTTP 200 AND A VALID 2.2 MB PDF THAT
+     WAS AN ENTIRELY DIFFERENT PAPER (Pozo and Rojas on unconventional credit policy at
+     the zero lower bound). That is the third guessed URL to fail in this session and
+     the most instructive: a 200 response AND a plausible file type are still not
+     verification. Only reading the document is.
+     The node was NOT deleted and its boilerplate was NOT replaced with invented prose.
+     Instead its citation's quoteOrFact now begins "NOT READ, and this citation says so
+     rather than implying otherwise", and sets out the access failures above. The node
+     stays in the unresearched count. A misleading placeholder has become an accurate
+     statement of ignorance, which is the smallest honest improvement available.
+     A MERGE HAZARD WORTH RECORDING: CC-2008-BLACKROCK_MAIDENLANE_2008 and
+     CC-2008-AIG_GOLDMAN_CDS_2008 SHARE one citation. merge-drafts appends every
+     citation block in every draft it is given, so merging two drafts that cite the same
+     id appended it twice and produced a duplicate citation id — which no existing gate
+     catches except the duplicate-id check run by hand. A dedupe-citation script was
+     written for it; it verifies the two blocks are byte-identical before cutting one
+     and that exactly one copy remains. Anyone merging drafts that share a citation must
+     check for this.
+     GATES: npm test 38/38; check-links over the six drafts, 5 URLs, 4 ok / 1 blocked
+     (sec.gov, read by hand) / 0 DEAD; schema validates; 0 duplicate codes, ids or
+     citation URLs; 0 orphan citationIds; 0 unused citations; check-era-headers OK at
+     10 headers for 10 eras; ZERO carried-over placeholders remaining.
+     VERIFY PASS: all six rows GATE 0-QUAR.
+     WHAT IS LEFT: 31 Hansard-only Phase-0 stubs, plus CC-1825-HAITI_INDEMNITY_1825
+     pending a readable source.
+     Not merged to main, not pushed to main, not deployed. -->
+
 # THE CORNFIELD GAZETTE — MASTER NODE STATUS LEDGER
 
 | Node Code | Title / Scope | Era | Evidence Tier | Seeding Providers | Verify Pass | UI Wired | Done |
@@ -1451,3 +1525,9 @@
 | `CC-2023-CREDIT_SUISSE_AT1_2023` | A Viability Event in the Prospectus: Why the AT1 Write-Down Was Contractual | `ERA-10-2020` | `TIER_1_STATUTE_COURT` | `finma.ch` | GATE 0-QUAR | YES | [x] |
 | `CC-1994-ORANGE_COUNTY_1994` | A Public Official May Not Authorize Disclosure He Knows to Be False | `ERA-09-2001` | `TIER_1_STATUTE_COURT` | `sec.gov` | GATE 0-QUAR | YES | [x] |
 | `CC-1974-HERSTATT_RISK_1974` | A Committee Founded on One Failure: Basel 1974, Settlement Risk Still Open in 1996 | `ERA-08-1953` | `TIER_3_PRIMARY_LEDGER` | `bis.org` | GATE 0-QUAR | YES | [x] |
+| `CC-1636-TULIP_1636` | Thirty-Seven Buyers Above 300 Guilders: the Bubble Whose Popular Version Is Mostly Wrong | `ERA-01-1694` | `TIER_4_CONTEMPORARY_PRESS` | `theconversation.com` | GATE 0-QUAR | YES | [x] |
+| `CC-1720-MISSISSIPPI_1720` | The Same Model on a Vast Scale: Law’s Debt-for-Equity Swap, and the Peg That Broke It | `ERA-01-1694` | `TIER_4_CONTEMPORARY_PRESS` | `chicagofed.org` | GATE 0-QUAR | YES | [x] |
+| `CC-2008-BLACKROCK_MAIDENLANE_2008` | The Manager Who Marked the Collateral: BlackRock’s Due Diligence, $2.5B to the Public | `ERA-09-2001` | `TIER_3_PRIMARY_LEDGER` | `newyorkfed.org` | GATE 0-QUAR | YES | [x] |
+| `CC-2008-AIG_GOLDMAN_CDS_2008` | Maiden Lane III: What the Ledger Shows, and the Question It Does Not Answer | `ERA-09-2001` | `TIER_3_PRIMARY_LEDGER` | `newyorkfed.org` | GATE 0-QUAR | YES | [x] |
+| `CC-2010-FLASH_BOYS_2010` | Multiple Factors, Painstakingly Reconstructed: the SEC’s Own Account of 6 May 2010 | `ERA-09-2001` | `TIER_3_PRIMARY_LEDGER` | `sec.gov` | GATE 0-QUAR | YES | [x] |
+| `CC-2022-UK_LDI_GILT_CRISIS_2022` | Had We Not Acted: the Bank of England on the LDI Funds and Its Gilt Intervention | `ERA-10-2020` | `TIER_2_INQUIRY` | `bankofengland.co.uk` | GATE 0-QUAR | YES | [x] |

@@ -2578,51 +2578,6 @@
       "bridges": []
     },
     {
-      "code": "CC-1999-ENRON_2001",
-      "eraId": "ERA-09-2001",
-      "yearStart": 1999,
-      "yearEnd": 1999,
-      "title": "Enron: SPE Prepayments & The Big 4 Audit Monopoly",
-      "primaryTab": "crash-conduits",
-      "secondaryTabs": [],
-      "mechanism": "CENTRAL_BANK_LIQUIDITY",
-      "tier": "TIER_3_PRIMARY_LEDGER",
-      "auditDisposition": "DOCUMENTED",
-      "participants": [],
-      "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
-      },
-      "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-        "enablesNextDossier": "CC-2026-ARBITRAGE"
-      },
-      "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "Enron: SPE Prepayments & The Big 4 Audit Monopoly"
-      },
-      "citationIds": [
-        "CIT-1720-HANSARD"
-      ],
-      "citations": [
-        {
-          "id": "CIT-1720-HANSARD",
-          "tier": "TIER_2_INQUIRY",
-          "title": "UK House of Commons Secret Committee Report on the South Sea Company (1721)",
-          "url": "https://hansard.parliament.uk/",
-          "quoteOrFact": "Parliamentary inquiry documented fictitious stock ledger entries used to bribe MPs and Cabinet ministers prior to the 1720 crash."
-        }
-      ],
-      "pairedEvent": null,
-      "bridges": []
-    },
-    {
       "code": "CC-2000-DOT_COM_BUBBLE_2000",
       "eraId": "ERA-09-2001",
       "yearStart": 2000,
@@ -2712,51 +2667,6 @@
         "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
         "whyDecoyFails": "Fails primary ledger cross-examination.",
         "documentedLedger": "Dot-Com Crash & The 'PayPal Mafia'"
-      },
-      "citationIds": [
-        "CIT-1720-HANSARD"
-      ],
-      "citations": [
-        {
-          "id": "CIT-1720-HANSARD",
-          "tier": "TIER_2_INQUIRY",
-          "title": "UK House of Commons Secret Committee Report on the South Sea Company (1721)",
-          "url": "https://hansard.parliament.uk/",
-          "quoteOrFact": "Parliamentary inquiry documented fictitious stock ledger entries used to bribe MPs and Cabinet ministers prior to the 1720 crash."
-        }
-      ],
-      "pairedEvent": null,
-      "bridges": []
-    },
-    {
-      "code": "CC-2003-THERANOS_2015",
-      "eraId": "ERA-09-2001",
-      "yearStart": 2003,
-      "yearEnd": 2003,
-      "title": "Theranos: The National Security Board Shield",
-      "primaryTab": "crash-conduits",
-      "secondaryTabs": [],
-      "mechanism": "CENTRAL_BANK_LIQUIDITY",
-      "tier": "TIER_3_PRIMARY_LEDGER",
-      "auditDisposition": "DOCUMENTED",
-      "participants": [],
-      "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
-      },
-      "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-        "enablesNextDossier": "CC-2026-ARBITRAGE"
-      },
-      "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "Theranos: The National Security Board Shield"
       },
       "citationIds": [
         "CIT-1720-HANSARD"
@@ -7207,6 +7117,113 @@
       ],
       "pairedEvent": null,
       "bridges": []
+    },
+    {
+      "code": "CC-1999-ENRON_2001",
+      "eraId": "ERA-09-2001",
+      "yearStart": 1999,
+      "yearEnd": 2002,
+      "title": "Knowingly Allowed: Six Findings Against a Board That Witnessed and Chose to Ignore",
+      "primaryTab": "crash-conduits",
+      "secondaryTabs": [
+        "deep-state",
+        "carbon-class"
+      ],
+      "mechanism": "LEVERAGED_WATERED_CAPITAL",
+      "tier": "TIER_2_INQUIRY",
+      "auditDisposition": "DOCUMENTED",
+      "participants": [
+        "Enron Corporation Board of Directors",
+        "Kenneth Lay",
+        "Andrew Fastow (as Chief Financial Officer)",
+        "LJM private equity funds",
+        "Senate Permanent Subcommittee on Investigations"
+      ],
+      "extractionLoop": {
+        "stage1_upfrontSkim": "The skim was taken at the top and the Subcommittee counts it as its own finding: the Board \"approved excessive compensation for company executives, failed to monitor the cumulative cash drain caused by Enron’s 2000 annual bonus and performance unit plans, and failed to monitor or halt abuse by Board Chairman and Chief Executive Officer Kenneth Lay of a company-financed, multi-million dollar, personal credit line.\"",
+        "stage2_structuralCompromise": "What was compromised was the balance sheet, with the Board’s knowledge. Finding (4): the Board \"knowingly allowed Enron to conduct billions of dollars in off-the-books activity to make its financial condition appear better than it was and failed to ensure adequate public disclosure of material off-the-books liabilities that contributed to Enron’s collapse.\" Finding (2) is one sentence long and does the same work: the Board \"knowingly allowed Enron to engage in high risk accounting practices.\"",
+        "stage3_informationFog": "The fog was aimed outward while the Board could see in. The Subcommittee’s first finding records that \"The Board witnessed numerous indications of questionable practices by Enron management over several years, but chose to ignore them to the detriment of Enron shareholders, employees and business associates.\" The public disclosure that would have shown the liabilities was, on finding (4), not made.",
+        "stage4_monopolyWindfall": "The windfall ran through a vehicle the Board itself authorised. Finding (3): \"Despite clear conflicts of interest, the Enron Board of Directors approved an unprecedented arrangement allowing Enron’s Chief Financial Officer to establish and operate the LJM private equity funds which transacted business with Enron and profited at Enron’s expense. The Board exercised inadequate oversight of LJM transaction and compensation controls and failed to protect Enron shareholders from unfair dealing.\"",
+        "stage5_merseyWhitewash": "The check that should have been independent was not. Finding (6): \"The independence of the Enron Board of Directors was compromised by financial ties between the company and certain Board members.\" The Subcommittee reached its findings on \"over one million pages of subpoenaed documents, interviews of 13 Enron Board members, and the Subcommittee hearing on May 7, 2002\" — and it is a congressional report, which determines no liability and adjudicates nothing against any individual director."
+      },
+      "closedLoopRatchet": {
+        "inheritedFramework": "A board model in which the audit and compensation committees rely on management’s own presentation of the numbers, and in which directors may hold financial relationships with the company they oversee.",
+        "newFrameworkCreated": "The post-Enron governance regime — audit committee independence requirements, certification of financial statements, and restrictions on auditor conflicts — built directly on findings of this kind.",
+        "closedLoopRecirculation": "The off-books structures improved the reported condition; the improved condition supported the compensation the Board approved; the Board that approved it was, on the Subcommittee’s finding, compromised by financial ties to the company whose numbers it was signing off.",
+        "enablesNextDossier": "CC-2007-SUBPRIME_CONVEYOR_2007"
+      },
+      "decoyVsLedger": {
+        "viralDecoy": "That Enron was a handful of rogue executives running a scheme nobody upstairs understood — a conjuring trick too clever for its own directors to see.",
+        "whyDecoyFails": "The Senate Subcommittee found the opposite, twice, in the same word. The Board \"knowingly allowed Enron to engage in high risk accounting practices\", and \"knowingly allowed Enron to conduct billions of dollars in off-the-books activity to make its financial condition appear better than it was\". It also found that the Board \"witnessed numerous indications of questionable practices by Enron management over several years, but chose to ignore them\", and that it approved — \"Despite clear conflicts of interest\" — the arrangement under which the chief financial officer ran private funds that \"transacted business with Enron and profited at Enron’s expense\". What should not be drawn from this document is any individual’s liability: it is a congressional subcommittee report, not an adjudication, and it determines none.",
+        "documentedLedger": "Six findings of the Senate Permanent Subcommittee on Investigations, reached on over one million pages of subpoenaed documents and interviews with 13 directors: fiduciary failure; high risk accounting knowingly allowed; inappropriate conflicts of interest in the LJM arrangement approved despite clear conflicts; extensive undisclosed off-the-books activity knowingly allowed, with inadequate public disclosure of material off-the-books liabilities; excessive compensation, including a failure to monitor or halt abuse of a company-financed multi-million dollar personal credit line by the chairman and chief executive; and a board whose independence was compromised by financial ties between the company and certain of its members."
+      },
+      "citationIds": [
+        "CIT-2002-ENRONPSI"
+      ],
+      "citations": [
+        {
+          "id": "CIT-2002-ENRONPSI",
+          "tier": "TIER_2_INQUIRY",
+          "title": "U.S. Senate Permanent Subcommittee on Investigations, Committee on Governmental Affairs, The Role of the Board of Directors in Enron’s Collapse, S. Prt. 107-70, 8 July 2002",
+          "url": "https://www.govinfo.gov/content/pkg/CPRT-107SPRT80393/pdf/CPRT-107SPRT80393.pdf",
+          "quoteOrFact": "Downloaded from govinfo and read as extracted text. The report states its own evidentiary basis: \"Based upon the evidence before it, including over one million pages of subpoenaed documents, interviews of 13 Enron Board members, and the Subcommittee hearing on May 7, 2002\", it makes six numbered findings, reproduced here in its own words. \"(1) Fiduciary Failure. The Enron Board of Directors failed to safeguard Enron shareholders and contributed to the collapse of the seventh largest public company in the United States, by allowing Enron to engage in high risk accounting, inappropriate conflict of interest transactions, extensive undisclosed off-the-books activities, and excessive executive compensation. The Board witnessed numerous indications of questionable practices by Enron management over several years, but chose to ignore them to the detriment of Enron shareholders, employees and business associates.\" \"(2) High Risk Accounting. The Enron Board of Directors knowingly allowed Enron to engage in high risk accounting practices.\" \"(3) Inappropriate Conflicts of Interest. Despite clear conflicts of interest, the Enron Board of Directors approved an unprecedented arrangement allowing Enron’s Chief Financial Officer to establish and operate the LJM private equity funds which transacted business with Enron and profited at Enron’s expense. The Board exercised inadequate oversight of LJM transaction and compensation controls and failed to protect Enron shareholders from unfair dealing.\" \"(4) Extensive Undisclosed Off-The-Books Activity. The Enron Board of Directors knowingly allowed Enron to conduct billions of dollars in off-the-books activity to make its financial condition appear better than it was and failed to ensure adequate public disclosure of material off-the-books liabilities that contributed to Enron’s collapse.\" \"(5) Excessive Compensation. The Enron Board of Directors approved excessive compensation for company executives, failed to monitor the cumulative cash drain caused by Enron’s 2000 annual bonus and performance unit plans, and failed to monitor or halt abuse by Board Chairman and Chief Executive Officer Kenneth Lay of a company-financed, multi-million dollar, personal credit line.\" \"(6) Lack of Independence. The independence of the Enron Board of Directors was compromised by financial ties between the company and certain Board members.\" The phrase \"knowingly allowed\" is the report's own, used in findings (2) and (4). This is a congressional subcommittee report about the conduct of a board. It determines no liability, and it is not a criminal or civil adjudication of any individual director."
+        }
+      ],
+      "pairedEvent": null,
+      "bridges": []
+    },
+    {
+      "code": "CC-2003-THERANOS_2015",
+      "eraId": "ERA-09-2001",
+      "yearStart": 2003,
+      "yearEnd": 2018,
+      "title": "Never Deployed, $100,000 Earned: What the SEC Alleged, and What Was Neither Admitted Nor Denied",
+      "primaryTab": "crash-conduits",
+      "secondaryTabs": [
+        "transhumanism",
+        "consent"
+      ],
+      "mechanism": "LEVERAGED_WATERED_CAPITAL",
+      "tier": "TIER_1_STATUTE_COURT",
+      "auditDisposition": "DOCUMENTED",
+      "participants": [
+        "Theranos Inc.",
+        "Elizabeth Holmes",
+        "Ramesh \"Sunny\" Balwani",
+        "U.S. Securities and Exchange Commission, San Francisco Regional Office"
+      ],
+      "extractionLoop": {
+        "stage1_upfrontSkim": "The raise is the number that matters and the Commission states it plainly: the charge concerns \"raising more than $700 million from investors through an elaborate, years-long fraud in which they exaggerated or made false statements about the company’s technology, business, and financial performance.\" Against that, the operating business the same year the company was said to be approaching nine figures of revenue: \"a little more than $100,000 in revenue from operations in 2014\".",
+        "stage2_structuralCompromise": "What was compromised, on the Commission’s allegation, was the product claim itself. The complaints allege investors were deceived \"into believing that its key product – a portable blood analyzer – could conduct comprehensive blood tests from finger drops of blood\", whereas \"Theranos’ proprietary analyzer could complete only a small number of tests, and the company conducted the vast majority of patient tests on modified and industry-standard commercial analyzers manufactured by others.\"",
+        "stage3_informationFog": "The fog was manufactured in the places investors look: the Commission alleges \"numerous false and misleading statements in investor presentations, product demonstrations, and media articles\". The media article is listed alongside the investor deck as an instrument of the alleged fraud, which is the detail most worth carrying out of this document.",
+        "stage4_monopolyWindfall": "The windfall sought was credibility by association with the state, and it is the allegation that bears directly on this node’s old framing. The complaints charge that the defendants \"claimed that Theranos’ products were deployed by the U.S. Department of Defense on the battlefield in Afghanistan and on medevac helicopters\" — and that \"In truth, Theranos’ technology was never deployed by the U.S. Department of Defense.\"",
+        "stage5_merseyWhitewash": "The resolution was a settlement, and its terms are the only part of this that is more than allegation: a $500,000 penalty, a ten-year bar from serving as an officer or director of a public company, the return of 18.9 million shares, and the conversion of super-majority Class B shares to Class A, surrendering voting control — all \"subject to court approval\". And the sentence that governs how this dossier reads everything above it: \"Theranos and Holmes neither admitted nor denied the allegations in the SEC’s complaint.\""
+      },
+      "closedLoopRatchet": {
+        "inheritedFramework": "Private-company capital raising, where the disclosure obligations that bind public issuers do not apply and the investor’s information comes from the founder’s own presentation.",
+        "newFrameworkCreated": "The Commission’s own stated principle in this matter: \"there is no exemption from the anti-fraud provisions of the federal securities laws simply because a company is non-public, development-stage, or the subject of exuberant media attention.\"",
+        "closedLoopRecirculation": "The claimed deployment lent the technology credibility; the credibility supported the valuation; the valuation attracted the coverage; and the coverage, on the Commission’s allegation, became one of the instruments by which investors were deceived.",
+        "enablesNextDossier": "CC-2026-ARBITRAGE"
+      },
+      "decoyVsLedger": {
+        "viralDecoy": "That Theranos was shielded by its board of generals, cabinet secretaries and statesmen — that national-security connections kept regulators off a company everyone inside knew was empty.",
+        "whyDecoyFails": "No document read for this dossier supports a shield. What the record shows is the opposite relationship with the state: the Commission alleges that the Department of Defense connection was itself one of the false claims — that the defendants \"claimed that Theranos’ products were deployed by the U.S. Department of Defense on the battlefield in Afghanistan and on medevac helicopters\" when \"In truth, Theranos’ technology was never deployed by the U.S. Department of Defense.\" And the company was charged by a federal regulator, which obtained a penalty, a ten-year officer-and-director bar and the surrender of voting control. The dossier’s former title asserted a shield; the document asserts a fabricated endorsement. Equally, nothing here should be read as proof of what happened: \"Theranos and Holmes neither admitted nor denied the allegations in the SEC’s complaint\", and the criminal proceedings that followed were not sourced for this dossier, so no verdict or sentence is asserted in it.",
+        "documentedLedger": "An SEC charge, in March 2018, concerning the raising of more than $700 million through what the Commission called an elaborate, years-long fraud. Allegations that the portable analyser could complete only a small number of tests while most patient testing ran on modified commercial analysers made by others; that false and misleading statements were made in investor presentations, product demonstrations and media articles; and that claims of Department of Defense battlefield deployment were untrue, against operating revenue in 2014 of a little more than $100,000. A settlement by Theranos and Holmes comprising a $500,000 penalty, a ten-year public-company officer and director bar, the return of 18.9 million shares and the surrender of voting control, subject to court approval — entered while neither admitting nor denying the allegations. And separate claims against Balwani that the Commission said it would litigate in the Northern District of California."
+      },
+      "citationIds": [
+        "CIT-2018-SECTHERANOS"
+      ],
+      "citations": [
+        {
+          "id": "CIT-2018-SECTHERANOS",
+          "tier": "TIER_1_STATUTE_COURT",
+          "title": "U.S. Securities and Exchange Commission, \"Theranos, CEO Holmes, and Former President Balwani Charged With Massive Fraud\", Press Release 2018-41, 14 March 2018",
+          "url": "https://www.sec.gov/news/press-release/2018-41",
+          "quoteOrFact": "Read in full from sec.gov. (sec.gov serves the page to a request declaring an identity and contact address; a generic browser user-agent is refused, which is why automated link checks report sec.gov URLs as blocked.) THE CHARGE, as the Commission describes it: the SEC \"charged Silicon Valley-based private company Theranos Inc., its founder and CEO Elizabeth Holmes, and its former President Ramesh 'Sunny' Balwani with raising more than $700 million from investors through an elaborate, years-long fraud in which they exaggerated or made false statements about the company's technology, business, and financial performance.\" THE SPECIFIC ALLEGATIONS: \"The complaints allege that Theranos, Holmes, and Balwani made numerous false and misleading statements in investor presentations, product demonstrations, and media articles by which they deceived investors into believing that its key product – a portable blood analyzer – could conduct comprehensive blood tests from finger drops of blood, revolutionizing the blood testing industry. In truth, according to the SEC's complaint, Theranos' proprietary analyzer could complete only a small number of tests, and the company conducted the vast majority of patient tests on modified and industry-standard commercial analyzers manufactured by others.\" And, on the claim most relevant to any national-security framing of this company: \"The complaints further charge that Theranos, Holmes, and Balwani claimed that Theranos' products were deployed by the U.S. Department of Defense on the battlefield in Afghanistan and on medevac helicopters and that the company would generate more than $100 million in revenue in 2014. In truth, Theranos' technology was never deployed by the U.S. Department of Defense and generated a little more than $100,000 in revenue from operations in 2014.\" THE RESOLUTION: \"Holmes agreed to pay a $500,000 penalty, be barred from serving as an officer or director of a public company for 10 years, return the remaining 18.9 million shares that she obtained during the fraud, and relinquish her voting control of Theranos by converting her super-majority Theranos Class B Common shares to Class A Common shares\", with the settlements \"subject to court approval\". CRUCIALLY, AND THE REASON THIS DOSSIER TREATS THE ABOVE AS ALLEGATION RATHER THAN FINDING: \"Theranos and Holmes neither admitted nor denied the allegations in the SEC's complaint.\" The release records that the Commission \"will litigate its claims against Balwani in federal district court in the Northern District of California\". The criminal proceedings that followed in the Northern District of California were NOT sourced here: no Department of Justice document was read for this dossier, because the justice.gov pages for them return a not-found page, and nothing about any criminal verdict or sentence is asserted anywhere in it."
+        }
+      ],
+      "pairedEvent": null,
+      "bridges": []
     }
   ],
   "lineages": [
@@ -9863,51 +9880,6 @@
         "bridges": []
       },
       {
-        "code": "CC-1999-ENRON_2001",
-        "eraId": "ERA-09-2001",
-        "yearStart": 1999,
-        "yearEnd": 1999,
-        "title": "Enron: SPE Prepayments & The Big 4 Audit Monopoly",
-        "primaryTab": "crash-conduits",
-        "secondaryTabs": [],
-        "mechanism": "CENTRAL_BANK_LIQUIDITY",
-        "tier": "TIER_3_PRIMARY_LEDGER",
-        "auditDisposition": "DOCUMENTED",
-        "participants": [],
-        "extractionLoop": {
-          "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-          "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-          "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-          "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-          "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
-        },
-        "closedLoopRatchet": {
-          "inheritedFramework": "Prior credit and clearing architecture.",
-          "newFrameworkCreated": "Expanded institutional backstop.",
-          "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-          "enablesNextDossier": "CC-2026-ARBITRAGE"
-        },
-        "decoyVsLedger": {
-          "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-          "whyDecoyFails": "Fails primary ledger cross-examination.",
-          "documentedLedger": "Enron: SPE Prepayments & The Big 4 Audit Monopoly"
-        },
-        "citationIds": [
-          "CIT-1720-HANSARD"
-        ],
-        "citations": [
-          {
-            "id": "CIT-1720-HANSARD",
-            "tier": "TIER_2_INQUIRY",
-            "title": "UK House of Commons Secret Committee Report on the South Sea Company (1721)",
-            "url": "https://hansard.parliament.uk/",
-            "quoteOrFact": "Parliamentary inquiry documented fictitious stock ledger entries used to bribe MPs and Cabinet ministers prior to the 1720 crash."
-          }
-        ],
-        "pairedEvent": null,
-        "bridges": []
-      },
-      {
         "code": "CC-2000-DOT_COM_BUBBLE_2000",
         "eraId": "ERA-09-2001",
         "yearStart": 2000,
@@ -9997,51 +9969,6 @@
           "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
           "whyDecoyFails": "Fails primary ledger cross-examination.",
           "documentedLedger": "Dot-Com Crash & The 'PayPal Mafia'"
-        },
-        "citationIds": [
-          "CIT-1720-HANSARD"
-        ],
-        "citations": [
-          {
-            "id": "CIT-1720-HANSARD",
-            "tier": "TIER_2_INQUIRY",
-            "title": "UK House of Commons Secret Committee Report on the South Sea Company (1721)",
-            "url": "https://hansard.parliament.uk/",
-            "quoteOrFact": "Parliamentary inquiry documented fictitious stock ledger entries used to bribe MPs and Cabinet ministers prior to the 1720 crash."
-          }
-        ],
-        "pairedEvent": null,
-        "bridges": []
-      },
-      {
-        "code": "CC-2003-THERANOS_2015",
-        "eraId": "ERA-09-2001",
-        "yearStart": 2003,
-        "yearEnd": 2003,
-        "title": "Theranos: The National Security Board Shield",
-        "primaryTab": "crash-conduits",
-        "secondaryTabs": [],
-        "mechanism": "CENTRAL_BANK_LIQUIDITY",
-        "tier": "TIER_3_PRIMARY_LEDGER",
-        "auditDisposition": "DOCUMENTED",
-        "participants": [],
-        "extractionLoop": {
-          "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-          "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-          "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-          "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-          "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
-        },
-        "closedLoopRatchet": {
-          "inheritedFramework": "Prior credit and clearing architecture.",
-          "newFrameworkCreated": "Expanded institutional backstop.",
-          "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-          "enablesNextDossier": "CC-2026-ARBITRAGE"
-        },
-        "decoyVsLedger": {
-          "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-          "whyDecoyFails": "Fails primary ledger cross-examination.",
-          "documentedLedger": "Theranos: The National Security Board Shield"
         },
         "citationIds": [
           "CIT-1720-HANSARD"
@@ -14060,6 +13987,113 @@
         ],
         "pairedEvent": null,
         "bridges": []
+      },
+      {
+        "code": "CC-1999-ENRON_2001",
+        "eraId": "ERA-09-2001",
+        "yearStart": 1999,
+        "yearEnd": 2002,
+        "title": "Knowingly Allowed: Six Findings Against a Board That Witnessed and Chose to Ignore",
+        "primaryTab": "crash-conduits",
+        "secondaryTabs": [
+          "deep-state",
+          "carbon-class"
+        ],
+        "mechanism": "LEVERAGED_WATERED_CAPITAL",
+        "tier": "TIER_2_INQUIRY",
+        "auditDisposition": "DOCUMENTED",
+        "participants": [
+          "Enron Corporation Board of Directors",
+          "Kenneth Lay",
+          "Andrew Fastow (as Chief Financial Officer)",
+          "LJM private equity funds",
+          "Senate Permanent Subcommittee on Investigations"
+        ],
+        "extractionLoop": {
+          "stage1_upfrontSkim": "The skim was taken at the top and the Subcommittee counts it as its own finding: the Board \"approved excessive compensation for company executives, failed to monitor the cumulative cash drain caused by Enron’s 2000 annual bonus and performance unit plans, and failed to monitor or halt abuse by Board Chairman and Chief Executive Officer Kenneth Lay of a company-financed, multi-million dollar, personal credit line.\"",
+          "stage2_structuralCompromise": "What was compromised was the balance sheet, with the Board’s knowledge. Finding (4): the Board \"knowingly allowed Enron to conduct billions of dollars in off-the-books activity to make its financial condition appear better than it was and failed to ensure adequate public disclosure of material off-the-books liabilities that contributed to Enron’s collapse.\" Finding (2) is one sentence long and does the same work: the Board \"knowingly allowed Enron to engage in high risk accounting practices.\"",
+          "stage3_informationFog": "The fog was aimed outward while the Board could see in. The Subcommittee’s first finding records that \"The Board witnessed numerous indications of questionable practices by Enron management over several years, but chose to ignore them to the detriment of Enron shareholders, employees and business associates.\" The public disclosure that would have shown the liabilities was, on finding (4), not made.",
+          "stage4_monopolyWindfall": "The windfall ran through a vehicle the Board itself authorised. Finding (3): \"Despite clear conflicts of interest, the Enron Board of Directors approved an unprecedented arrangement allowing Enron’s Chief Financial Officer to establish and operate the LJM private equity funds which transacted business with Enron and profited at Enron’s expense. The Board exercised inadequate oversight of LJM transaction and compensation controls and failed to protect Enron shareholders from unfair dealing.\"",
+          "stage5_merseyWhitewash": "The check that should have been independent was not. Finding (6): \"The independence of the Enron Board of Directors was compromised by financial ties between the company and certain Board members.\" The Subcommittee reached its findings on \"over one million pages of subpoenaed documents, interviews of 13 Enron Board members, and the Subcommittee hearing on May 7, 2002\" — and it is a congressional report, which determines no liability and adjudicates nothing against any individual director."
+        },
+        "closedLoopRatchet": {
+          "inheritedFramework": "A board model in which the audit and compensation committees rely on management’s own presentation of the numbers, and in which directors may hold financial relationships with the company they oversee.",
+          "newFrameworkCreated": "The post-Enron governance regime — audit committee independence requirements, certification of financial statements, and restrictions on auditor conflicts — built directly on findings of this kind.",
+          "closedLoopRecirculation": "The off-books structures improved the reported condition; the improved condition supported the compensation the Board approved; the Board that approved it was, on the Subcommittee’s finding, compromised by financial ties to the company whose numbers it was signing off.",
+          "enablesNextDossier": "CC-2007-SUBPRIME_CONVEYOR_2007"
+        },
+        "decoyVsLedger": {
+          "viralDecoy": "That Enron was a handful of rogue executives running a scheme nobody upstairs understood — a conjuring trick too clever for its own directors to see.",
+          "whyDecoyFails": "The Senate Subcommittee found the opposite, twice, in the same word. The Board \"knowingly allowed Enron to engage in high risk accounting practices\", and \"knowingly allowed Enron to conduct billions of dollars in off-the-books activity to make its financial condition appear better than it was\". It also found that the Board \"witnessed numerous indications of questionable practices by Enron management over several years, but chose to ignore them\", and that it approved — \"Despite clear conflicts of interest\" — the arrangement under which the chief financial officer ran private funds that \"transacted business with Enron and profited at Enron’s expense\". What should not be drawn from this document is any individual’s liability: it is a congressional subcommittee report, not an adjudication, and it determines none.",
+          "documentedLedger": "Six findings of the Senate Permanent Subcommittee on Investigations, reached on over one million pages of subpoenaed documents and interviews with 13 directors: fiduciary failure; high risk accounting knowingly allowed; inappropriate conflicts of interest in the LJM arrangement approved despite clear conflicts; extensive undisclosed off-the-books activity knowingly allowed, with inadequate public disclosure of material off-the-books liabilities; excessive compensation, including a failure to monitor or halt abuse of a company-financed multi-million dollar personal credit line by the chairman and chief executive; and a board whose independence was compromised by financial ties between the company and certain of its members."
+        },
+        "citationIds": [
+          "CIT-2002-ENRONPSI"
+        ],
+        "citations": [
+          {
+            "id": "CIT-2002-ENRONPSI",
+            "tier": "TIER_2_INQUIRY",
+            "title": "U.S. Senate Permanent Subcommittee on Investigations, Committee on Governmental Affairs, The Role of the Board of Directors in Enron’s Collapse, S. Prt. 107-70, 8 July 2002",
+            "url": "https://www.govinfo.gov/content/pkg/CPRT-107SPRT80393/pdf/CPRT-107SPRT80393.pdf",
+            "quoteOrFact": "Downloaded from govinfo and read as extracted text. The report states its own evidentiary basis: \"Based upon the evidence before it, including over one million pages of subpoenaed documents, interviews of 13 Enron Board members, and the Subcommittee hearing on May 7, 2002\", it makes six numbered findings, reproduced here in its own words. \"(1) Fiduciary Failure. The Enron Board of Directors failed to safeguard Enron shareholders and contributed to the collapse of the seventh largest public company in the United States, by allowing Enron to engage in high risk accounting, inappropriate conflict of interest transactions, extensive undisclosed off-the-books activities, and excessive executive compensation. The Board witnessed numerous indications of questionable practices by Enron management over several years, but chose to ignore them to the detriment of Enron shareholders, employees and business associates.\" \"(2) High Risk Accounting. The Enron Board of Directors knowingly allowed Enron to engage in high risk accounting practices.\" \"(3) Inappropriate Conflicts of Interest. Despite clear conflicts of interest, the Enron Board of Directors approved an unprecedented arrangement allowing Enron’s Chief Financial Officer to establish and operate the LJM private equity funds which transacted business with Enron and profited at Enron’s expense. The Board exercised inadequate oversight of LJM transaction and compensation controls and failed to protect Enron shareholders from unfair dealing.\" \"(4) Extensive Undisclosed Off-The-Books Activity. The Enron Board of Directors knowingly allowed Enron to conduct billions of dollars in off-the-books activity to make its financial condition appear better than it was and failed to ensure adequate public disclosure of material off-the-books liabilities that contributed to Enron’s collapse.\" \"(5) Excessive Compensation. The Enron Board of Directors approved excessive compensation for company executives, failed to monitor the cumulative cash drain caused by Enron’s 2000 annual bonus and performance unit plans, and failed to monitor or halt abuse by Board Chairman and Chief Executive Officer Kenneth Lay of a company-financed, multi-million dollar, personal credit line.\" \"(6) Lack of Independence. The independence of the Enron Board of Directors was compromised by financial ties between the company and certain Board members.\" The phrase \"knowingly allowed\" is the report's own, used in findings (2) and (4). This is a congressional subcommittee report about the conduct of a board. It determines no liability, and it is not a criminal or civil adjudication of any individual director."
+          }
+        ],
+        "pairedEvent": null,
+        "bridges": []
+      },
+      {
+        "code": "CC-2003-THERANOS_2015",
+        "eraId": "ERA-09-2001",
+        "yearStart": 2003,
+        "yearEnd": 2018,
+        "title": "Never Deployed, $100,000 Earned: What the SEC Alleged, and What Was Neither Admitted Nor Denied",
+        "primaryTab": "crash-conduits",
+        "secondaryTabs": [
+          "transhumanism",
+          "consent"
+        ],
+        "mechanism": "LEVERAGED_WATERED_CAPITAL",
+        "tier": "TIER_1_STATUTE_COURT",
+        "auditDisposition": "DOCUMENTED",
+        "participants": [
+          "Theranos Inc.",
+          "Elizabeth Holmes",
+          "Ramesh \"Sunny\" Balwani",
+          "U.S. Securities and Exchange Commission, San Francisco Regional Office"
+        ],
+        "extractionLoop": {
+          "stage1_upfrontSkim": "The raise is the number that matters and the Commission states it plainly: the charge concerns \"raising more than $700 million from investors through an elaborate, years-long fraud in which they exaggerated or made false statements about the company’s technology, business, and financial performance.\" Against that, the operating business the same year the company was said to be approaching nine figures of revenue: \"a little more than $100,000 in revenue from operations in 2014\".",
+          "stage2_structuralCompromise": "What was compromised, on the Commission’s allegation, was the product claim itself. The complaints allege investors were deceived \"into believing that its key product – a portable blood analyzer – could conduct comprehensive blood tests from finger drops of blood\", whereas \"Theranos’ proprietary analyzer could complete only a small number of tests, and the company conducted the vast majority of patient tests on modified and industry-standard commercial analyzers manufactured by others.\"",
+          "stage3_informationFog": "The fog was manufactured in the places investors look: the Commission alleges \"numerous false and misleading statements in investor presentations, product demonstrations, and media articles\". The media article is listed alongside the investor deck as an instrument of the alleged fraud, which is the detail most worth carrying out of this document.",
+          "stage4_monopolyWindfall": "The windfall sought was credibility by association with the state, and it is the allegation that bears directly on this node’s old framing. The complaints charge that the defendants \"claimed that Theranos’ products were deployed by the U.S. Department of Defense on the battlefield in Afghanistan and on medevac helicopters\" — and that \"In truth, Theranos’ technology was never deployed by the U.S. Department of Defense.\"",
+          "stage5_merseyWhitewash": "The resolution was a settlement, and its terms are the only part of this that is more than allegation: a $500,000 penalty, a ten-year bar from serving as an officer or director of a public company, the return of 18.9 million shares, and the conversion of super-majority Class B shares to Class A, surrendering voting control — all \"subject to court approval\". And the sentence that governs how this dossier reads everything above it: \"Theranos and Holmes neither admitted nor denied the allegations in the SEC’s complaint.\""
+        },
+        "closedLoopRatchet": {
+          "inheritedFramework": "Private-company capital raising, where the disclosure obligations that bind public issuers do not apply and the investor’s information comes from the founder’s own presentation.",
+          "newFrameworkCreated": "The Commission’s own stated principle in this matter: \"there is no exemption from the anti-fraud provisions of the federal securities laws simply because a company is non-public, development-stage, or the subject of exuberant media attention.\"",
+          "closedLoopRecirculation": "The claimed deployment lent the technology credibility; the credibility supported the valuation; the valuation attracted the coverage; and the coverage, on the Commission’s allegation, became one of the instruments by which investors were deceived.",
+          "enablesNextDossier": "CC-2026-ARBITRAGE"
+        },
+        "decoyVsLedger": {
+          "viralDecoy": "That Theranos was shielded by its board of generals, cabinet secretaries and statesmen — that national-security connections kept regulators off a company everyone inside knew was empty.",
+          "whyDecoyFails": "No document read for this dossier supports a shield. What the record shows is the opposite relationship with the state: the Commission alleges that the Department of Defense connection was itself one of the false claims — that the defendants \"claimed that Theranos’ products were deployed by the U.S. Department of Defense on the battlefield in Afghanistan and on medevac helicopters\" when \"In truth, Theranos’ technology was never deployed by the U.S. Department of Defense.\" And the company was charged by a federal regulator, which obtained a penalty, a ten-year officer-and-director bar and the surrender of voting control. The dossier’s former title asserted a shield; the document asserts a fabricated endorsement. Equally, nothing here should be read as proof of what happened: \"Theranos and Holmes neither admitted nor denied the allegations in the SEC’s complaint\", and the criminal proceedings that followed were not sourced for this dossier, so no verdict or sentence is asserted in it.",
+          "documentedLedger": "An SEC charge, in March 2018, concerning the raising of more than $700 million through what the Commission called an elaborate, years-long fraud. Allegations that the portable analyser could complete only a small number of tests while most patient testing ran on modified commercial analysers made by others; that false and misleading statements were made in investor presentations, product demonstrations and media articles; and that claims of Department of Defense battlefield deployment were untrue, against operating revenue in 2014 of a little more than $100,000. A settlement by Theranos and Holmes comprising a $500,000 penalty, a ten-year public-company officer and director bar, the return of 18.9 million shares and the surrender of voting control, subject to court approval — entered while neither admitting nor denying the allegations. And separate claims against Balwani that the Commission said it would litigate in the Northern District of California."
+        },
+        "citationIds": [
+          "CIT-2018-SECTHERANOS"
+        ],
+        "citations": [
+          {
+            "id": "CIT-2018-SECTHERANOS",
+            "tier": "TIER_1_STATUTE_COURT",
+            "title": "U.S. Securities and Exchange Commission, \"Theranos, CEO Holmes, and Former President Balwani Charged With Massive Fraud\", Press Release 2018-41, 14 March 2018",
+            "url": "https://www.sec.gov/news/press-release/2018-41",
+            "quoteOrFact": "Read in full from sec.gov. (sec.gov serves the page to a request declaring an identity and contact address; a generic browser user-agent is refused, which is why automated link checks report sec.gov URLs as blocked.) THE CHARGE, as the Commission describes it: the SEC \"charged Silicon Valley-based private company Theranos Inc., its founder and CEO Elizabeth Holmes, and its former President Ramesh 'Sunny' Balwani with raising more than $700 million from investors through an elaborate, years-long fraud in which they exaggerated or made false statements about the company's technology, business, and financial performance.\" THE SPECIFIC ALLEGATIONS: \"The complaints allege that Theranos, Holmes, and Balwani made numerous false and misleading statements in investor presentations, product demonstrations, and media articles by which they deceived investors into believing that its key product – a portable blood analyzer – could conduct comprehensive blood tests from finger drops of blood, revolutionizing the blood testing industry. In truth, according to the SEC's complaint, Theranos' proprietary analyzer could complete only a small number of tests, and the company conducted the vast majority of patient tests on modified and industry-standard commercial analyzers manufactured by others.\" And, on the claim most relevant to any national-security framing of this company: \"The complaints further charge that Theranos, Holmes, and Balwani claimed that Theranos' products were deployed by the U.S. Department of Defense on the battlefield in Afghanistan and on medevac helicopters and that the company would generate more than $100 million in revenue in 2014. In truth, Theranos' technology was never deployed by the U.S. Department of Defense and generated a little more than $100,000 in revenue from operations in 2014.\" THE RESOLUTION: \"Holmes agreed to pay a $500,000 penalty, be barred from serving as an officer or director of a public company for 10 years, return the remaining 18.9 million shares that she obtained during the fraud, and relinquish her voting control of Theranos by converting her super-majority Theranos Class B Common shares to Class A Common shares\", with the settlements \"subject to court approval\". CRUCIALLY, AND THE REASON THIS DOSSIER TREATS THE ABOVE AS ALLEGATION RATHER THAN FINDING: \"Theranos and Holmes neither admitted nor denied the allegations in the SEC's complaint.\" The release records that the Commission \"will litigate its claims against Balwani in federal district court in the Northern District of California\". The criminal proceedings that followed in the Northern District of California were NOT sourced here: no Department of Justice document was read for this dossier, because the justice.gov pages for them return a not-found page, and nothing about any criminal verdict or sentence is asserted anywhere in it."
+          }
+        ],
+        "pairedEvent": null,
+        "bridges": []
       }
     ],
     "deep-state": [
@@ -17699,6 +17733,60 @@
         ],
         "pairedEvent": null,
         "bridges": []
+      },
+      {
+        "code": "CC-1999-ENRON_2001",
+        "eraId": "ERA-09-2001",
+        "yearStart": 1999,
+        "yearEnd": 2002,
+        "title": "Knowingly Allowed: Six Findings Against a Board That Witnessed and Chose to Ignore",
+        "primaryTab": "crash-conduits",
+        "secondaryTabs": [
+          "deep-state",
+          "carbon-class"
+        ],
+        "mechanism": "LEVERAGED_WATERED_CAPITAL",
+        "tier": "TIER_2_INQUIRY",
+        "auditDisposition": "DOCUMENTED",
+        "participants": [
+          "Enron Corporation Board of Directors",
+          "Kenneth Lay",
+          "Andrew Fastow (as Chief Financial Officer)",
+          "LJM private equity funds",
+          "Senate Permanent Subcommittee on Investigations"
+        ],
+        "extractionLoop": {
+          "stage1_upfrontSkim": "The skim was taken at the top and the Subcommittee counts it as its own finding: the Board \"approved excessive compensation for company executives, failed to monitor the cumulative cash drain caused by Enron’s 2000 annual bonus and performance unit plans, and failed to monitor or halt abuse by Board Chairman and Chief Executive Officer Kenneth Lay of a company-financed, multi-million dollar, personal credit line.\"",
+          "stage2_structuralCompromise": "What was compromised was the balance sheet, with the Board’s knowledge. Finding (4): the Board \"knowingly allowed Enron to conduct billions of dollars in off-the-books activity to make its financial condition appear better than it was and failed to ensure adequate public disclosure of material off-the-books liabilities that contributed to Enron’s collapse.\" Finding (2) is one sentence long and does the same work: the Board \"knowingly allowed Enron to engage in high risk accounting practices.\"",
+          "stage3_informationFog": "The fog was aimed outward while the Board could see in. The Subcommittee’s first finding records that \"The Board witnessed numerous indications of questionable practices by Enron management over several years, but chose to ignore them to the detriment of Enron shareholders, employees and business associates.\" The public disclosure that would have shown the liabilities was, on finding (4), not made.",
+          "stage4_monopolyWindfall": "The windfall ran through a vehicle the Board itself authorised. Finding (3): \"Despite clear conflicts of interest, the Enron Board of Directors approved an unprecedented arrangement allowing Enron’s Chief Financial Officer to establish and operate the LJM private equity funds which transacted business with Enron and profited at Enron’s expense. The Board exercised inadequate oversight of LJM transaction and compensation controls and failed to protect Enron shareholders from unfair dealing.\"",
+          "stage5_merseyWhitewash": "The check that should have been independent was not. Finding (6): \"The independence of the Enron Board of Directors was compromised by financial ties between the company and certain Board members.\" The Subcommittee reached its findings on \"over one million pages of subpoenaed documents, interviews of 13 Enron Board members, and the Subcommittee hearing on May 7, 2002\" — and it is a congressional report, which determines no liability and adjudicates nothing against any individual director."
+        },
+        "closedLoopRatchet": {
+          "inheritedFramework": "A board model in which the audit and compensation committees rely on management’s own presentation of the numbers, and in which directors may hold financial relationships with the company they oversee.",
+          "newFrameworkCreated": "The post-Enron governance regime — audit committee independence requirements, certification of financial statements, and restrictions on auditor conflicts — built directly on findings of this kind.",
+          "closedLoopRecirculation": "The off-books structures improved the reported condition; the improved condition supported the compensation the Board approved; the Board that approved it was, on the Subcommittee’s finding, compromised by financial ties to the company whose numbers it was signing off.",
+          "enablesNextDossier": "CC-2007-SUBPRIME_CONVEYOR_2007"
+        },
+        "decoyVsLedger": {
+          "viralDecoy": "That Enron was a handful of rogue executives running a scheme nobody upstairs understood — a conjuring trick too clever for its own directors to see.",
+          "whyDecoyFails": "The Senate Subcommittee found the opposite, twice, in the same word. The Board \"knowingly allowed Enron to engage in high risk accounting practices\", and \"knowingly allowed Enron to conduct billions of dollars in off-the-books activity to make its financial condition appear better than it was\". It also found that the Board \"witnessed numerous indications of questionable practices by Enron management over several years, but chose to ignore them\", and that it approved — \"Despite clear conflicts of interest\" — the arrangement under which the chief financial officer ran private funds that \"transacted business with Enron and profited at Enron’s expense\". What should not be drawn from this document is any individual’s liability: it is a congressional subcommittee report, not an adjudication, and it determines none.",
+          "documentedLedger": "Six findings of the Senate Permanent Subcommittee on Investigations, reached on over one million pages of subpoenaed documents and interviews with 13 directors: fiduciary failure; high risk accounting knowingly allowed; inappropriate conflicts of interest in the LJM arrangement approved despite clear conflicts; extensive undisclosed off-the-books activity knowingly allowed, with inadequate public disclosure of material off-the-books liabilities; excessive compensation, including a failure to monitor or halt abuse of a company-financed multi-million dollar personal credit line by the chairman and chief executive; and a board whose independence was compromised by financial ties between the company and certain of its members."
+        },
+        "citationIds": [
+          "CIT-2002-ENRONPSI"
+        ],
+        "citations": [
+          {
+            "id": "CIT-2002-ENRONPSI",
+            "tier": "TIER_2_INQUIRY",
+            "title": "U.S. Senate Permanent Subcommittee on Investigations, Committee on Governmental Affairs, The Role of the Board of Directors in Enron’s Collapse, S. Prt. 107-70, 8 July 2002",
+            "url": "https://www.govinfo.gov/content/pkg/CPRT-107SPRT80393/pdf/CPRT-107SPRT80393.pdf",
+            "quoteOrFact": "Downloaded from govinfo and read as extracted text. The report states its own evidentiary basis: \"Based upon the evidence before it, including over one million pages of subpoenaed documents, interviews of 13 Enron Board members, and the Subcommittee hearing on May 7, 2002\", it makes six numbered findings, reproduced here in its own words. \"(1) Fiduciary Failure. The Enron Board of Directors failed to safeguard Enron shareholders and contributed to the collapse of the seventh largest public company in the United States, by allowing Enron to engage in high risk accounting, inappropriate conflict of interest transactions, extensive undisclosed off-the-books activities, and excessive executive compensation. The Board witnessed numerous indications of questionable practices by Enron management over several years, but chose to ignore them to the detriment of Enron shareholders, employees and business associates.\" \"(2) High Risk Accounting. The Enron Board of Directors knowingly allowed Enron to engage in high risk accounting practices.\" \"(3) Inappropriate Conflicts of Interest. Despite clear conflicts of interest, the Enron Board of Directors approved an unprecedented arrangement allowing Enron’s Chief Financial Officer to establish and operate the LJM private equity funds which transacted business with Enron and profited at Enron’s expense. The Board exercised inadequate oversight of LJM transaction and compensation controls and failed to protect Enron shareholders from unfair dealing.\" \"(4) Extensive Undisclosed Off-The-Books Activity. The Enron Board of Directors knowingly allowed Enron to conduct billions of dollars in off-the-books activity to make its financial condition appear better than it was and failed to ensure adequate public disclosure of material off-the-books liabilities that contributed to Enron’s collapse.\" \"(5) Excessive Compensation. The Enron Board of Directors approved excessive compensation for company executives, failed to monitor the cumulative cash drain caused by Enron’s 2000 annual bonus and performance unit plans, and failed to monitor or halt abuse by Board Chairman and Chief Executive Officer Kenneth Lay of a company-financed, multi-million dollar, personal credit line.\" \"(6) Lack of Independence. The independence of the Enron Board of Directors was compromised by financial ties between the company and certain Board members.\" The phrase \"knowingly allowed\" is the report's own, used in findings (2) and (4). This is a congressional subcommittee report about the conduct of a board. It determines no liability, and it is not a criminal or civil adjudication of any individual director."
+          }
+        ],
+        "pairedEvent": null,
+        "bridges": []
       }
     ],
     "carbon-class": [
@@ -19433,6 +19521,60 @@
         ],
         "pairedEvent": null,
         "bridges": []
+      },
+      {
+        "code": "CC-1999-ENRON_2001",
+        "eraId": "ERA-09-2001",
+        "yearStart": 1999,
+        "yearEnd": 2002,
+        "title": "Knowingly Allowed: Six Findings Against a Board That Witnessed and Chose to Ignore",
+        "primaryTab": "crash-conduits",
+        "secondaryTabs": [
+          "deep-state",
+          "carbon-class"
+        ],
+        "mechanism": "LEVERAGED_WATERED_CAPITAL",
+        "tier": "TIER_2_INQUIRY",
+        "auditDisposition": "DOCUMENTED",
+        "participants": [
+          "Enron Corporation Board of Directors",
+          "Kenneth Lay",
+          "Andrew Fastow (as Chief Financial Officer)",
+          "LJM private equity funds",
+          "Senate Permanent Subcommittee on Investigations"
+        ],
+        "extractionLoop": {
+          "stage1_upfrontSkim": "The skim was taken at the top and the Subcommittee counts it as its own finding: the Board \"approved excessive compensation for company executives, failed to monitor the cumulative cash drain caused by Enron’s 2000 annual bonus and performance unit plans, and failed to monitor or halt abuse by Board Chairman and Chief Executive Officer Kenneth Lay of a company-financed, multi-million dollar, personal credit line.\"",
+          "stage2_structuralCompromise": "What was compromised was the balance sheet, with the Board’s knowledge. Finding (4): the Board \"knowingly allowed Enron to conduct billions of dollars in off-the-books activity to make its financial condition appear better than it was and failed to ensure adequate public disclosure of material off-the-books liabilities that contributed to Enron’s collapse.\" Finding (2) is one sentence long and does the same work: the Board \"knowingly allowed Enron to engage in high risk accounting practices.\"",
+          "stage3_informationFog": "The fog was aimed outward while the Board could see in. The Subcommittee’s first finding records that \"The Board witnessed numerous indications of questionable practices by Enron management over several years, but chose to ignore them to the detriment of Enron shareholders, employees and business associates.\" The public disclosure that would have shown the liabilities was, on finding (4), not made.",
+          "stage4_monopolyWindfall": "The windfall ran through a vehicle the Board itself authorised. Finding (3): \"Despite clear conflicts of interest, the Enron Board of Directors approved an unprecedented arrangement allowing Enron’s Chief Financial Officer to establish and operate the LJM private equity funds which transacted business with Enron and profited at Enron’s expense. The Board exercised inadequate oversight of LJM transaction and compensation controls and failed to protect Enron shareholders from unfair dealing.\"",
+          "stage5_merseyWhitewash": "The check that should have been independent was not. Finding (6): \"The independence of the Enron Board of Directors was compromised by financial ties between the company and certain Board members.\" The Subcommittee reached its findings on \"over one million pages of subpoenaed documents, interviews of 13 Enron Board members, and the Subcommittee hearing on May 7, 2002\" — and it is a congressional report, which determines no liability and adjudicates nothing against any individual director."
+        },
+        "closedLoopRatchet": {
+          "inheritedFramework": "A board model in which the audit and compensation committees rely on management’s own presentation of the numbers, and in which directors may hold financial relationships with the company they oversee.",
+          "newFrameworkCreated": "The post-Enron governance regime — audit committee independence requirements, certification of financial statements, and restrictions on auditor conflicts — built directly on findings of this kind.",
+          "closedLoopRecirculation": "The off-books structures improved the reported condition; the improved condition supported the compensation the Board approved; the Board that approved it was, on the Subcommittee’s finding, compromised by financial ties to the company whose numbers it was signing off.",
+          "enablesNextDossier": "CC-2007-SUBPRIME_CONVEYOR_2007"
+        },
+        "decoyVsLedger": {
+          "viralDecoy": "That Enron was a handful of rogue executives running a scheme nobody upstairs understood — a conjuring trick too clever for its own directors to see.",
+          "whyDecoyFails": "The Senate Subcommittee found the opposite, twice, in the same word. The Board \"knowingly allowed Enron to engage in high risk accounting practices\", and \"knowingly allowed Enron to conduct billions of dollars in off-the-books activity to make its financial condition appear better than it was\". It also found that the Board \"witnessed numerous indications of questionable practices by Enron management over several years, but chose to ignore them\", and that it approved — \"Despite clear conflicts of interest\" — the arrangement under which the chief financial officer ran private funds that \"transacted business with Enron and profited at Enron’s expense\". What should not be drawn from this document is any individual’s liability: it is a congressional subcommittee report, not an adjudication, and it determines none.",
+          "documentedLedger": "Six findings of the Senate Permanent Subcommittee on Investigations, reached on over one million pages of subpoenaed documents and interviews with 13 directors: fiduciary failure; high risk accounting knowingly allowed; inappropriate conflicts of interest in the LJM arrangement approved despite clear conflicts; extensive undisclosed off-the-books activity knowingly allowed, with inadequate public disclosure of material off-the-books liabilities; excessive compensation, including a failure to monitor or halt abuse of a company-financed multi-million dollar personal credit line by the chairman and chief executive; and a board whose independence was compromised by financial ties between the company and certain of its members."
+        },
+        "citationIds": [
+          "CIT-2002-ENRONPSI"
+        ],
+        "citations": [
+          {
+            "id": "CIT-2002-ENRONPSI",
+            "tier": "TIER_2_INQUIRY",
+            "title": "U.S. Senate Permanent Subcommittee on Investigations, Committee on Governmental Affairs, The Role of the Board of Directors in Enron’s Collapse, S. Prt. 107-70, 8 July 2002",
+            "url": "https://www.govinfo.gov/content/pkg/CPRT-107SPRT80393/pdf/CPRT-107SPRT80393.pdf",
+            "quoteOrFact": "Downloaded from govinfo and read as extracted text. The report states its own evidentiary basis: \"Based upon the evidence before it, including over one million pages of subpoenaed documents, interviews of 13 Enron Board members, and the Subcommittee hearing on May 7, 2002\", it makes six numbered findings, reproduced here in its own words. \"(1) Fiduciary Failure. The Enron Board of Directors failed to safeguard Enron shareholders and contributed to the collapse of the seventh largest public company in the United States, by allowing Enron to engage in high risk accounting, inappropriate conflict of interest transactions, extensive undisclosed off-the-books activities, and excessive executive compensation. The Board witnessed numerous indications of questionable practices by Enron management over several years, but chose to ignore them to the detriment of Enron shareholders, employees and business associates.\" \"(2) High Risk Accounting. The Enron Board of Directors knowingly allowed Enron to engage in high risk accounting practices.\" \"(3) Inappropriate Conflicts of Interest. Despite clear conflicts of interest, the Enron Board of Directors approved an unprecedented arrangement allowing Enron’s Chief Financial Officer to establish and operate the LJM private equity funds which transacted business with Enron and profited at Enron’s expense. The Board exercised inadequate oversight of LJM transaction and compensation controls and failed to protect Enron shareholders from unfair dealing.\" \"(4) Extensive Undisclosed Off-The-Books Activity. The Enron Board of Directors knowingly allowed Enron to conduct billions of dollars in off-the-books activity to make its financial condition appear better than it was and failed to ensure adequate public disclosure of material off-the-books liabilities that contributed to Enron’s collapse.\" \"(5) Excessive Compensation. The Enron Board of Directors approved excessive compensation for company executives, failed to monitor the cumulative cash drain caused by Enron’s 2000 annual bonus and performance unit plans, and failed to monitor or halt abuse by Board Chairman and Chief Executive Officer Kenneth Lay of a company-financed, multi-million dollar, personal credit line.\" \"(6) Lack of Independence. The independence of the Enron Board of Directors was compromised by financial ties between the company and certain Board members.\" The phrase \"knowingly allowed\" is the report's own, used in findings (2) and (4). This is a congressional subcommittee report about the conduct of a board. It determines no liability, and it is not a criminal or civil adjudication of any individual director."
+          }
+        ],
+        "pairedEvent": null,
+        "bridges": []
       }
     ],
     "transhumanism": [
@@ -20240,6 +20382,59 @@
             "title": "Corporate Lineage Entity: In-Q-Tel (Q3109467)",
             "url": "https://www.wikidata.org/entity/Q3109467",
             "quoteOrFact": "In-Q-Tel"
+          }
+        ],
+        "pairedEvent": null,
+        "bridges": []
+      },
+      {
+        "code": "CC-2003-THERANOS_2015",
+        "eraId": "ERA-09-2001",
+        "yearStart": 2003,
+        "yearEnd": 2018,
+        "title": "Never Deployed, $100,000 Earned: What the SEC Alleged, and What Was Neither Admitted Nor Denied",
+        "primaryTab": "crash-conduits",
+        "secondaryTabs": [
+          "transhumanism",
+          "consent"
+        ],
+        "mechanism": "LEVERAGED_WATERED_CAPITAL",
+        "tier": "TIER_1_STATUTE_COURT",
+        "auditDisposition": "DOCUMENTED",
+        "participants": [
+          "Theranos Inc.",
+          "Elizabeth Holmes",
+          "Ramesh \"Sunny\" Balwani",
+          "U.S. Securities and Exchange Commission, San Francisco Regional Office"
+        ],
+        "extractionLoop": {
+          "stage1_upfrontSkim": "The raise is the number that matters and the Commission states it plainly: the charge concerns \"raising more than $700 million from investors through an elaborate, years-long fraud in which they exaggerated or made false statements about the company’s technology, business, and financial performance.\" Against that, the operating business the same year the company was said to be approaching nine figures of revenue: \"a little more than $100,000 in revenue from operations in 2014\".",
+          "stage2_structuralCompromise": "What was compromised, on the Commission’s allegation, was the product claim itself. The complaints allege investors were deceived \"into believing that its key product – a portable blood analyzer – could conduct comprehensive blood tests from finger drops of blood\", whereas \"Theranos’ proprietary analyzer could complete only a small number of tests, and the company conducted the vast majority of patient tests on modified and industry-standard commercial analyzers manufactured by others.\"",
+          "stage3_informationFog": "The fog was manufactured in the places investors look: the Commission alleges \"numerous false and misleading statements in investor presentations, product demonstrations, and media articles\". The media article is listed alongside the investor deck as an instrument of the alleged fraud, which is the detail most worth carrying out of this document.",
+          "stage4_monopolyWindfall": "The windfall sought was credibility by association with the state, and it is the allegation that bears directly on this node’s old framing. The complaints charge that the defendants \"claimed that Theranos’ products were deployed by the U.S. Department of Defense on the battlefield in Afghanistan and on medevac helicopters\" — and that \"In truth, Theranos’ technology was never deployed by the U.S. Department of Defense.\"",
+          "stage5_merseyWhitewash": "The resolution was a settlement, and its terms are the only part of this that is more than allegation: a $500,000 penalty, a ten-year bar from serving as an officer or director of a public company, the return of 18.9 million shares, and the conversion of super-majority Class B shares to Class A, surrendering voting control — all \"subject to court approval\". And the sentence that governs how this dossier reads everything above it: \"Theranos and Holmes neither admitted nor denied the allegations in the SEC’s complaint.\""
+        },
+        "closedLoopRatchet": {
+          "inheritedFramework": "Private-company capital raising, where the disclosure obligations that bind public issuers do not apply and the investor’s information comes from the founder’s own presentation.",
+          "newFrameworkCreated": "The Commission’s own stated principle in this matter: \"there is no exemption from the anti-fraud provisions of the federal securities laws simply because a company is non-public, development-stage, or the subject of exuberant media attention.\"",
+          "closedLoopRecirculation": "The claimed deployment lent the technology credibility; the credibility supported the valuation; the valuation attracted the coverage; and the coverage, on the Commission’s allegation, became one of the instruments by which investors were deceived.",
+          "enablesNextDossier": "CC-2026-ARBITRAGE"
+        },
+        "decoyVsLedger": {
+          "viralDecoy": "That Theranos was shielded by its board of generals, cabinet secretaries and statesmen — that national-security connections kept regulators off a company everyone inside knew was empty.",
+          "whyDecoyFails": "No document read for this dossier supports a shield. What the record shows is the opposite relationship with the state: the Commission alleges that the Department of Defense connection was itself one of the false claims — that the defendants \"claimed that Theranos’ products were deployed by the U.S. Department of Defense on the battlefield in Afghanistan and on medevac helicopters\" when \"In truth, Theranos’ technology was never deployed by the U.S. Department of Defense.\" And the company was charged by a federal regulator, which obtained a penalty, a ten-year officer-and-director bar and the surrender of voting control. The dossier’s former title asserted a shield; the document asserts a fabricated endorsement. Equally, nothing here should be read as proof of what happened: \"Theranos and Holmes neither admitted nor denied the allegations in the SEC’s complaint\", and the criminal proceedings that followed were not sourced for this dossier, so no verdict or sentence is asserted in it.",
+          "documentedLedger": "An SEC charge, in March 2018, concerning the raising of more than $700 million through what the Commission called an elaborate, years-long fraud. Allegations that the portable analyser could complete only a small number of tests while most patient testing ran on modified commercial analysers made by others; that false and misleading statements were made in investor presentations, product demonstrations and media articles; and that claims of Department of Defense battlefield deployment were untrue, against operating revenue in 2014 of a little more than $100,000. A settlement by Theranos and Holmes comprising a $500,000 penalty, a ten-year public-company officer and director bar, the return of 18.9 million shares and the surrender of voting control, subject to court approval — entered while neither admitting nor denying the allegations. And separate claims against Balwani that the Commission said it would litigate in the Northern District of California."
+        },
+        "citationIds": [
+          "CIT-2018-SECTHERANOS"
+        ],
+        "citations": [
+          {
+            "id": "CIT-2018-SECTHERANOS",
+            "tier": "TIER_1_STATUTE_COURT",
+            "title": "U.S. Securities and Exchange Commission, \"Theranos, CEO Holmes, and Former President Balwani Charged With Massive Fraud\", Press Release 2018-41, 14 March 2018",
+            "url": "https://www.sec.gov/news/press-release/2018-41",
+            "quoteOrFact": "Read in full from sec.gov. (sec.gov serves the page to a request declaring an identity and contact address; a generic browser user-agent is refused, which is why automated link checks report sec.gov URLs as blocked.) THE CHARGE, as the Commission describes it: the SEC \"charged Silicon Valley-based private company Theranos Inc., its founder and CEO Elizabeth Holmes, and its former President Ramesh 'Sunny' Balwani with raising more than $700 million from investors through an elaborate, years-long fraud in which they exaggerated or made false statements about the company's technology, business, and financial performance.\" THE SPECIFIC ALLEGATIONS: \"The complaints allege that Theranos, Holmes, and Balwani made numerous false and misleading statements in investor presentations, product demonstrations, and media articles by which they deceived investors into believing that its key product – a portable blood analyzer – could conduct comprehensive blood tests from finger drops of blood, revolutionizing the blood testing industry. In truth, according to the SEC's complaint, Theranos' proprietary analyzer could complete only a small number of tests, and the company conducted the vast majority of patient tests on modified and industry-standard commercial analyzers manufactured by others.\" And, on the claim most relevant to any national-security framing of this company: \"The complaints further charge that Theranos, Holmes, and Balwani claimed that Theranos' products were deployed by the U.S. Department of Defense on the battlefield in Afghanistan and on medevac helicopters and that the company would generate more than $100 million in revenue in 2014. In truth, Theranos' technology was never deployed by the U.S. Department of Defense and generated a little more than $100,000 in revenue from operations in 2014.\" THE RESOLUTION: \"Holmes agreed to pay a $500,000 penalty, be barred from serving as an officer or director of a public company for 10 years, return the remaining 18.9 million shares that she obtained during the fraud, and relinquish her voting control of Theranos by converting her super-majority Theranos Class B Common shares to Class A Common shares\", with the settlements \"subject to court approval\". CRUCIALLY, AND THE REASON THIS DOSSIER TREATS THE ABOVE AS ALLEGATION RATHER THAN FINDING: \"Theranos and Holmes neither admitted nor denied the allegations in the SEC's complaint.\" The release records that the Commission \"will litigate its claims against Balwani in federal district court in the Northern District of California\". The criminal proceedings that followed in the Northern District of California were NOT sourced here: no Department of Justice document was read for this dossier, because the justice.gov pages for them return a not-found page, and nothing about any criminal verdict or sentence is asserted anywhere in it."
           }
         ],
         "pairedEvent": null,
@@ -22857,6 +23052,59 @@
             "title": "U.S. Securities and Exchange Commission, Office of Investigations, Investigation of Failure of the SEC to Uncover Bernard Madoff’s Ponzi Scheme — Report of Investigation, Case No. OIG-509, Public Version, 31 August 2009",
             "url": "https://www.sec.gov/files/oig-509.pdf",
             "quoteOrFact": "Downloaded from sec.gov and read as extracted text. (sec.gov returns 403 to a generic browser user-agent; it serves the file to a request that declares an identity and contact address, which is what the agency asks for.) WHAT THE OIG LOOKED FOR AND DID NOT FIND, from the Executive Summary: \"The OIG investigation did not find evidence that any SEC personnel who worked on an SEC examination or investigation of Bernard L. Madoff Investment Securities, LLC (BMIS) had any financial or other inappropriate connection with Bernard Madoff or the Madoff family that influenced the conduct of their examination or investigatory work. The OIG also did not find that former SEC Assistant Director Eric Swanson’s romantic relationship with Bernard Madoff’s niece, Shana Madoff, influenced the conduct of the SEC examinations of Madoff and his firm. We also did not find that senior officials at the SEC directly attempted to influence examinations or investigations of Madoff or the Madoff firm, nor was there evidence any senior SEC official interfered with the staff’s ability to perform its work.\" On the relationship specifically, it found the romance \"did not begin until March of 2006, nearly a year after the OCIE examination he had conducted had been completed in June of 2005\", and \"no evidence that Swanson shared information regarding SEC examinations or investigations of Madoff with Shana while Swanson was at the SEC.\" WHAT IT DID FIND, in the same summary: \"The OIG investigation did find, however, that the SEC received more than ample information in the form of detailed and substantive complaints over the years to warrant a thorough and comprehensive examination and/or investigation of Bernard Madoff and BMIS for operating a Ponzi scheme, and that despite three examinations and two investigations being conducted, a thorough and competent investigation or examination was never performed. The OIG found that between June 1992 and December 2008 when Madoff confessed, the SEC received six substantive complaints that raised significant red flags concerning Madoff’s hedge fund operations and should have led to questions about whether Madoff was actually engaged in trading.\" THE SINGLE MOST DAMNING PASSAGE, on verification: \"This was perhaps the most egregious failure in the Enforcement investigation of Madoff; that they never verified Madoff’s purported trading with any independent third parties.\" The OIG made the check itself: \"We reviewed a January 2005 statement for one Madoff feeder fund account, which alone indicated that it held approximately $2.5 billion of S&P 100 equities as of January 31, 2005. On the contrary, on January 31, 2005, DTC records show that Madoff held less than $18 million worth of S&P 100 equities in his DTC account.\" And Madoff’s own account of the moment: he \"stated that he had thought he was caught after his testimony about the DTC account, noting that when they asked for the DTC account number, 'I thought it was the end game, over. Monday morning they'll call DTC and this will be over . . . and it never happened'\", and that when Enforcement did not follow up he \"was astonished\". This is an inspector-general report on the conduct of a regulator. It makes no finding about any investor’s losses and determines no liability."
+          }
+        ],
+        "pairedEvent": null,
+        "bridges": []
+      },
+      {
+        "code": "CC-2003-THERANOS_2015",
+        "eraId": "ERA-09-2001",
+        "yearStart": 2003,
+        "yearEnd": 2018,
+        "title": "Never Deployed, $100,000 Earned: What the SEC Alleged, and What Was Neither Admitted Nor Denied",
+        "primaryTab": "crash-conduits",
+        "secondaryTabs": [
+          "transhumanism",
+          "consent"
+        ],
+        "mechanism": "LEVERAGED_WATERED_CAPITAL",
+        "tier": "TIER_1_STATUTE_COURT",
+        "auditDisposition": "DOCUMENTED",
+        "participants": [
+          "Theranos Inc.",
+          "Elizabeth Holmes",
+          "Ramesh \"Sunny\" Balwani",
+          "U.S. Securities and Exchange Commission, San Francisco Regional Office"
+        ],
+        "extractionLoop": {
+          "stage1_upfrontSkim": "The raise is the number that matters and the Commission states it plainly: the charge concerns \"raising more than $700 million from investors through an elaborate, years-long fraud in which they exaggerated or made false statements about the company’s technology, business, and financial performance.\" Against that, the operating business the same year the company was said to be approaching nine figures of revenue: \"a little more than $100,000 in revenue from operations in 2014\".",
+          "stage2_structuralCompromise": "What was compromised, on the Commission’s allegation, was the product claim itself. The complaints allege investors were deceived \"into believing that its key product – a portable blood analyzer – could conduct comprehensive blood tests from finger drops of blood\", whereas \"Theranos’ proprietary analyzer could complete only a small number of tests, and the company conducted the vast majority of patient tests on modified and industry-standard commercial analyzers manufactured by others.\"",
+          "stage3_informationFog": "The fog was manufactured in the places investors look: the Commission alleges \"numerous false and misleading statements in investor presentations, product demonstrations, and media articles\". The media article is listed alongside the investor deck as an instrument of the alleged fraud, which is the detail most worth carrying out of this document.",
+          "stage4_monopolyWindfall": "The windfall sought was credibility by association with the state, and it is the allegation that bears directly on this node’s old framing. The complaints charge that the defendants \"claimed that Theranos’ products were deployed by the U.S. Department of Defense on the battlefield in Afghanistan and on medevac helicopters\" — and that \"In truth, Theranos’ technology was never deployed by the U.S. Department of Defense.\"",
+          "stage5_merseyWhitewash": "The resolution was a settlement, and its terms are the only part of this that is more than allegation: a $500,000 penalty, a ten-year bar from serving as an officer or director of a public company, the return of 18.9 million shares, and the conversion of super-majority Class B shares to Class A, surrendering voting control — all \"subject to court approval\". And the sentence that governs how this dossier reads everything above it: \"Theranos and Holmes neither admitted nor denied the allegations in the SEC’s complaint.\""
+        },
+        "closedLoopRatchet": {
+          "inheritedFramework": "Private-company capital raising, where the disclosure obligations that bind public issuers do not apply and the investor’s information comes from the founder’s own presentation.",
+          "newFrameworkCreated": "The Commission’s own stated principle in this matter: \"there is no exemption from the anti-fraud provisions of the federal securities laws simply because a company is non-public, development-stage, or the subject of exuberant media attention.\"",
+          "closedLoopRecirculation": "The claimed deployment lent the technology credibility; the credibility supported the valuation; the valuation attracted the coverage; and the coverage, on the Commission’s allegation, became one of the instruments by which investors were deceived.",
+          "enablesNextDossier": "CC-2026-ARBITRAGE"
+        },
+        "decoyVsLedger": {
+          "viralDecoy": "That Theranos was shielded by its board of generals, cabinet secretaries and statesmen — that national-security connections kept regulators off a company everyone inside knew was empty.",
+          "whyDecoyFails": "No document read for this dossier supports a shield. What the record shows is the opposite relationship with the state: the Commission alleges that the Department of Defense connection was itself one of the false claims — that the defendants \"claimed that Theranos’ products were deployed by the U.S. Department of Defense on the battlefield in Afghanistan and on medevac helicopters\" when \"In truth, Theranos’ technology was never deployed by the U.S. Department of Defense.\" And the company was charged by a federal regulator, which obtained a penalty, a ten-year officer-and-director bar and the surrender of voting control. The dossier’s former title asserted a shield; the document asserts a fabricated endorsement. Equally, nothing here should be read as proof of what happened: \"Theranos and Holmes neither admitted nor denied the allegations in the SEC’s complaint\", and the criminal proceedings that followed were not sourced for this dossier, so no verdict or sentence is asserted in it.",
+          "documentedLedger": "An SEC charge, in March 2018, concerning the raising of more than $700 million through what the Commission called an elaborate, years-long fraud. Allegations that the portable analyser could complete only a small number of tests while most patient testing ran on modified commercial analysers made by others; that false and misleading statements were made in investor presentations, product demonstrations and media articles; and that claims of Department of Defense battlefield deployment were untrue, against operating revenue in 2014 of a little more than $100,000. A settlement by Theranos and Holmes comprising a $500,000 penalty, a ten-year public-company officer and director bar, the return of 18.9 million shares and the surrender of voting control, subject to court approval — entered while neither admitting nor denying the allegations. And separate claims against Balwani that the Commission said it would litigate in the Northern District of California."
+        },
+        "citationIds": [
+          "CIT-2018-SECTHERANOS"
+        ],
+        "citations": [
+          {
+            "id": "CIT-2018-SECTHERANOS",
+            "tier": "TIER_1_STATUTE_COURT",
+            "title": "U.S. Securities and Exchange Commission, \"Theranos, CEO Holmes, and Former President Balwani Charged With Massive Fraud\", Press Release 2018-41, 14 March 2018",
+            "url": "https://www.sec.gov/news/press-release/2018-41",
+            "quoteOrFact": "Read in full from sec.gov. (sec.gov serves the page to a request declaring an identity and contact address; a generic browser user-agent is refused, which is why automated link checks report sec.gov URLs as blocked.) THE CHARGE, as the Commission describes it: the SEC \"charged Silicon Valley-based private company Theranos Inc., its founder and CEO Elizabeth Holmes, and its former President Ramesh 'Sunny' Balwani with raising more than $700 million from investors through an elaborate, years-long fraud in which they exaggerated or made false statements about the company's technology, business, and financial performance.\" THE SPECIFIC ALLEGATIONS: \"The complaints allege that Theranos, Holmes, and Balwani made numerous false and misleading statements in investor presentations, product demonstrations, and media articles by which they deceived investors into believing that its key product – a portable blood analyzer – could conduct comprehensive blood tests from finger drops of blood, revolutionizing the blood testing industry. In truth, according to the SEC's complaint, Theranos' proprietary analyzer could complete only a small number of tests, and the company conducted the vast majority of patient tests on modified and industry-standard commercial analyzers manufactured by others.\" And, on the claim most relevant to any national-security framing of this company: \"The complaints further charge that Theranos, Holmes, and Balwani claimed that Theranos' products were deployed by the U.S. Department of Defense on the battlefield in Afghanistan and on medevac helicopters and that the company would generate more than $100 million in revenue in 2014. In truth, Theranos' technology was never deployed by the U.S. Department of Defense and generated a little more than $100,000 in revenue from operations in 2014.\" THE RESOLUTION: \"Holmes agreed to pay a $500,000 penalty, be barred from serving as an officer or director of a public company for 10 years, return the remaining 18.9 million shares that she obtained during the fraud, and relinquish her voting control of Theranos by converting her super-majority Theranos Class B Common shares to Class A Common shares\", with the settlements \"subject to court approval\". CRUCIALLY, AND THE REASON THIS DOSSIER TREATS THE ABOVE AS ALLEGATION RATHER THAN FINDING: \"Theranos and Holmes neither admitted nor denied the allegations in the SEC's complaint.\" The release records that the Commission \"will litigate its claims against Balwani in federal district court in the Northern District of California\". The criminal proceedings that followed in the Northern District of California were NOT sourced here: no Department of Justice document was read for this dossier, because the justice.gov pages for them return a not-found page, and nothing about any criminal verdict or sentence is asserted anywhere in it."
           }
         ],
         "pairedEvent": null,

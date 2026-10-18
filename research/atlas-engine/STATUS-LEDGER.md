@@ -1033,6 +1033,54 @@
      RUN IT after every merge that adds or re-dates a dossier. npm test does not cover
      this, the schema does not cover it, and check-links does not cover it. -->
 
+<!-- ACTUAL 2026-10-17 (sixth pass): TWO MORE PHASE-0 STUBS REPLACED. Dossiers stay at
+     121 (two cut, two merged); citations 181 -> 183. Unsourced stubs 36 -> 34.
+     CC-1999-ENRON_2001 — the Senate Permanent Subcommittee on Investigations report
+     "The Role of the Board of Directors in Enron's Collapse", S. Prt. 107-70,
+     8 July 2002, from govinfo. The node is built on the six numbered findings and on
+     the Subcommittee's own statement of its evidentiary basis: "over one million pages
+     of subpoenaed documents, interviews of 13 Enron Board members, and the
+     Subcommittee hearing on May 7, 2002". The decisive word is the Subcommittee's own,
+     used twice: the Board "knowingly allowed" the high risk accounting, and
+     "knowingly allowed" billions of dollars of off-the-books activity "to make its
+     financial condition appear better than it was". The old stub framed this as SPE
+     prepayments and audit-firm concentration; the document in hand is about the board,
+     so the node is about the board.
+     CC-2003-THERANOS_2015 — SEC Press Release 2018-41, read in full from sec.gov.
+     THE OLD STUB'S FRAMING IS CONTRADICTED BY THE DOCUMENT, which is the most useful
+     thing in this pass. The stub was titled "Theranos: The National Security Board
+     Shield", implying that national-security connections kept regulators away. The SEC
+     alleges the reverse relationship: that the claim of Department of Defense
+     deployment was itself one of the falsehoods — defendants "claimed that Theranos'
+     products were deployed by the U.S. Department of Defense on the battlefield in
+     Afghanistan and on medevac helicopters" when "In truth, Theranos' technology was
+     never deployed by the U.S. Department of Defense" — and the company was in fact
+     charged, penalised, and stripped of its founder's voting control. A fabricated
+     endorsement is not a shield.
+     DISCIPLINE NOTE: an SEC complaint is an ALLEGATION. The dossier says so repeatedly
+     and quotes the release's own sentence: "Theranos and Holmes neither admitted nor
+     denied the allegations in the SEC's complaint." The criminal proceedings that
+     followed in the Northern District of California are NOT sourced anywhere in it,
+     and no verdict or sentence is asserted — see the access note below.
+     TWO URLS GUESSED FROM MEMORY THIS PASS, BOTH WRONG, both caught before citing:
+     a justice.gov press-release path for the Holmes verdict, and a
+     sechistorical.org path for the 1972 SEC staff report on Penn Central. THE
+     JUSTICE.GOV ONE IS THE INSTRUCTIVE FAILURE: curl returned HTTP 200 and 2,400 bytes,
+     because justice.gov is a single-page app that serves 200 for a not-found route;
+     opening it in a browser showed "Department of Justice | Page not found". That is
+     the second time in this session a 200 has masked a non-read (BAILII's bot
+     challenge was the first). A status code is not a read, and a small body is a tell.
+     ALSO BLOCKED THIS PASS: caselaw.nationalarchives.gov.uk timed out twice (30s and
+     45s) on Elliott Associates v LME [2023] EWHC 2969 (Admin), having served the Post
+     Office judgment earlier the same day — so the service is intermittent rather than
+     closed. archive.org returned 503. The LME nickel stub remains a live candidate.
+     COUNTS: 121 public dossiers, 183 citations, 34 unsourced Phase-0 stubs. GATES:
+     npm test 38/38; check-links over the two drafts, 2 URLs, 1 ok / 1 blocked
+     (sec.gov, read by hand) / 0 DEAD; schema validates; 0 duplicates of any kind;
+     check-era-headers OK at 10 headers for 10 eras.
+     VERIFY PASS: both rows GATE 0-QUAR.
+     Not merged to main, not pushed to main, not deployed. -->
+
 # THE CORNFIELD GAZETTE — MASTER NODE STATUS LEDGER
 
 | Node Code | Title / Scope | Era | Evidence Tier | Seeding Providers | Verify Pass | UI Wired | Done |
@@ -1102,3 +1150,5 @@
 | `CB-2017-GRENFELL` | Systematic Dishonesty: Manipulated Tests, a Complicit Testing House, and a Department That Was Well Aware | `ERA-09-2001` | `TIER_2_INQUIRY` | `assets.publishing.service.gov.uk` | GATE 0-QUAR | YES | [x] |
 | `CC-1970-MADOFF_2008` | Six Complaints, Five Examinations, One Phone Call Never Made | `ERA-08-1953` | `TIER_2_INQUIRY` | `sec.gov` | GATE 0-QUAR | YES | [x] |
 | `CC-2007-SUBPRIME_CONVEYOR_2007` | Avoidable: the Commission’s Own Conclusions, and the Two Dissents | `ERA-09-2001` | `TIER_2_INQUIRY` | `govinfo` | GATE 0-QUAR | YES | [x] |
+| `CC-1999-ENRON_2001` | Knowingly Allowed: Six Findings Against a Board That Witnessed and Chose to Ignore | `ERA-09-2001` | `TIER_2_INQUIRY` | `govinfo` | GATE 0-QUAR | YES | [x] |
+| `CC-2003-THERANOS_2015` | Never Deployed, $100,000 Earned: What the SEC Alleged, Neither Admitted Nor Denied | `ERA-09-2001` | `TIER_1_STATUTE_COURT` | `sec.gov` | GATE 0-QUAR | YES | [x] |

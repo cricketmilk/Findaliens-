@@ -1977,6 +1977,52 @@
         "Phase-0 stub replaced. Citations hand-resolved, opened and read."
       ],
       "mechanism": "DERIVATIVE_CLEARING_CAPTURE"
+    },
+    {
+      "code": "CC-1999-ENRON_2001",
+      "era": "ERA-09-2001",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Phase-0 stub researched from primary documents",
+      "queries": [
+        {
+          "q": "CC-1999-ENRON_2001",
+          "year": null,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Phase-0 stub replaced. Citations hand-resolved, opened and read."
+      ],
+      "mechanism": "LEVERAGED_WATERED_CAPITAL"
+    },
+    {
+      "code": "CC-2003-THERANOS_2015",
+      "era": "ERA-09-2001",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Phase-0 stub researched from primary documents",
+      "queries": [
+        {
+          "q": "CC-2003-THERANOS_2015",
+          "year": null,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Phase-0 stub replaced. Citations hand-resolved, opened and read."
+      ],
+      "mechanism": "LEVERAGED_WATERED_CAPITAL"
     }
   ]
 }

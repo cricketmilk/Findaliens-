@@ -1,0 +1,51 @@
+{
+  "code": "CC-2003-THERANOS_2015",
+  "eraId": "ERA-09-2001",
+  "yearStart": 2003,
+  "yearEnd": 2018,
+  "title": "Never Deployed, $100,000 Earned: What the SEC Alleged, and What Was Neither Admitted Nor Denied",
+  "primaryTab": "crash-conduits",
+  "secondaryTabs": [
+    "transhumanism",
+    "consent"
+  ],
+  "mechanism": "LEVERAGED_WATERED_CAPITAL",
+  "tier": "TIER_1_STATUTE_COURT",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "Theranos Inc.",
+    "Elizabeth Holmes",
+    "Ramesh \"Sunny\" Balwani",
+    "U.S. Securities and Exchange Commission, San Francisco Regional Office"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "The raise is the number that matters and the Commission states it plainly: the charge concerns \"raising more than $700 million from investors through an elaborate, years-long fraud in which they exaggerated or made false statements about the company’s technology, business, and financial performance.\" Against that, the operating business the same year the company was said to be approaching nine figures of revenue: \"a little more than $100,000 in revenue from operations in 2014\".",
+    "stage2_structuralCompromise": "What was compromised, on the Commission’s allegation, was the product claim itself. The complaints allege investors were deceived \"into believing that its key product – a portable blood analyzer – could conduct comprehensive blood tests from finger drops of blood\", whereas \"Theranos’ proprietary analyzer could complete only a small number of tests, and the company conducted the vast majority of patient tests on modified and industry-standard commercial analyzers manufactured by others.\"",
+    "stage3_informationFog": "The fog was manufactured in the places investors look: the Commission alleges \"numerous false and misleading statements in investor presentations, product demonstrations, and media articles\". The media article is listed alongside the investor deck as an instrument of the alleged fraud, which is the detail most worth carrying out of this document.",
+    "stage4_monopolyWindfall": "The windfall sought was credibility by association with the state, and it is the allegation that bears directly on this node’s old framing. The complaints charge that the defendants \"claimed that Theranos’ products were deployed by the U.S. Department of Defense on the battlefield in Afghanistan and on medevac helicopters\" — and that \"In truth, Theranos’ technology was never deployed by the U.S. Department of Defense.\"",
+    "stage5_merseyWhitewash": "The resolution was a settlement, and its terms are the only part of this that is more than allegation: a $500,000 penalty, a ten-year bar from serving as an officer or director of a public company, the return of 18.9 million shares, and the conversion of super-majority Class B shares to Class A, surrendering voting control — all \"subject to court approval\". And the sentence that governs how this dossier reads everything above it: \"Theranos and Holmes neither admitted nor denied the allegations in the SEC’s complaint.\""
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "Private-company capital raising, where the disclosure obligations that bind public issuers do not apply and the investor’s information comes from the founder’s own presentation.",
+    "newFrameworkCreated": "The Commission’s own stated principle in this matter: \"there is no exemption from the anti-fraud provisions of the federal securities laws simply because a company is non-public, development-stage, or the subject of exuberant media attention.\"",
+    "closedLoopRecirculation": "The claimed deployment lent the technology credibility; the credibility supported the valuation; the valuation attracted the coverage; and the coverage, on the Commission’s allegation, became one of the instruments by which investors were deceived.",
+    "enablesNextDossier": "CC-2026-ARBITRAGE"
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "That Theranos was shielded by its board of generals, cabinet secretaries and statesmen — that national-security connections kept regulators off a company everyone inside knew was empty.",
+    "whyDecoyFails": "No document read for this dossier supports a shield. What the record shows is the opposite relationship with the state: the Commission alleges that the Department of Defense connection was itself one of the false claims — that the defendants \"claimed that Theranos’ products were deployed by the U.S. Department of Defense on the battlefield in Afghanistan and on medevac helicopters\" when \"In truth, Theranos’ technology was never deployed by the U.S. Department of Defense.\" And the company was charged by a federal regulator, which obtained a penalty, a ten-year officer-and-director bar and the surrender of voting control. The dossier’s former title asserted a shield; the document asserts a fabricated endorsement. Equally, nothing here should be read as proof of what happened: \"Theranos and Holmes neither admitted nor denied the allegations in the SEC’s complaint\", and the criminal proceedings that followed were not sourced for this dossier, so no verdict or sentence is asserted in it.",
+    "documentedLedger": "An SEC charge, in March 2018, concerning the raising of more than $700 million through what the Commission called an elaborate, years-long fraud. Allegations that the portable analyser could complete only a small number of tests while most patient testing ran on modified commercial analysers made by others; that false and misleading statements were made in investor presentations, product demonstrations and media articles; and that claims of Department of Defense battlefield deployment were untrue, against operating revenue in 2014 of a little more than $100,000. A settlement by Theranos and Holmes comprising a $500,000 penalty, a ten-year public-company officer and director bar, the return of 18.9 million shares and the surrender of voting control, subject to court approval — entered while neither admitting nor denying the allegations. And separate claims against Balwani that the Commission said it would litigate in the Northern District of California."
+  },
+  "citationIds": [
+    "CIT-2018-SECTHERANOS"
+  ],
+  "citations": [
+    {
+      "id": "CIT-2018-SECTHERANOS",
+      "tier": "TIER_1_STATUTE_COURT",
+      "title": "U.S. Securities and Exchange Commission, \"Theranos, CEO Holmes, and Former President Balwani Charged With Massive Fraud\", Press Release 2018-41, 14 March 2018",
+      "url": "https://www.sec.gov/news/press-release/2018-41",
+      "quoteOrFact": "Read in full from sec.gov. (sec.gov serves the page to a request declaring an identity and contact address; a generic browser user-agent is refused, which is why automated link checks report sec.gov URLs as blocked.) THE CHARGE, as the Commission describes it: the SEC \"charged Silicon Valley-based private company Theranos Inc., its founder and CEO Elizabeth Holmes, and its former President Ramesh 'Sunny' Balwani with raising more than $700 million from investors through an elaborate, years-long fraud in which they exaggerated or made false statements about the company's technology, business, and financial performance.\" THE SPECIFIC ALLEGATIONS: \"The complaints allege that Theranos, Holmes, and Balwani made numerous false and misleading statements in investor presentations, product demonstrations, and media articles by which they deceived investors into believing that its key product – a portable blood analyzer – could conduct comprehensive blood tests from finger drops of blood, revolutionizing the blood testing industry. In truth, according to the SEC's complaint, Theranos' proprietary analyzer could complete only a small number of tests, and the company conducted the vast majority of patient tests on modified and industry-standard commercial analyzers manufactured by others.\" And, on the claim most relevant to any national-security framing of this company: \"The complaints further charge that Theranos, Holmes, and Balwani claimed that Theranos' products were deployed by the U.S. Department of Defense on the battlefield in Afghanistan and on medevac helicopters and that the company would generate more than $100 million in revenue in 2014. In truth, Theranos' technology was never deployed by the U.S. Department of Defense and generated a little more than $100,000 in revenue from operations in 2014.\" THE RESOLUTION: \"Holmes agreed to pay a $500,000 penalty, be barred from serving as an officer or director of a public company for 10 years, return the remaining 18.9 million shares that she obtained during the fraud, and relinquish her voting control of Theranos by converting her super-majority Theranos Class B Common shares to Class A Common shares\", with the settlements \"subject to court approval\". CRUCIALLY, AND THE REASON THIS DOSSIER TREATS THE ABOVE AS ALLEGATION RATHER THAN FINDING: \"Theranos and Holmes neither admitted nor denied the allegations in the SEC's complaint.\" The release records that the Commission \"will litigate its claims against Balwani in federal district court in the Northern District of California\". The criminal proceedings that followed in the Northern District of California were NOT sourced here: no Department of Justice document was read for this dossier, because the justice.gov pages for them return a not-found page, and nothing about any criminal verdict or sentence is asserted anywhere in it."
+    }
+  ]
+}

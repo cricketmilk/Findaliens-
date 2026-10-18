@@ -2946,15 +2946,17 @@
     },
     {
       "code": "CC-1868-ERIE_RAILROAD_WAR_1868",
-      "era": "(removed)",
-      "providers": [],
-      "status": "REMOVED:unsourceable",
-      "topic": "Hansard-only Phase-0 stub removed: no primary document located and read",
+      "era": "ERA-05-1861",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Restored at the 2026-10-18 merge from a parallel session's sourcing (Myers 1910 on Gutenberg; Library of Congress)",
       "queries": [],
       "anchors": [
-        "Removed rather than left carrying a placeholder citation."
+        "Removed as unsourceable on 2026-10-17; the parallel branch had found sources; restored."
       ],
-      "mechanism": null
+      "mechanism": "LEVERAGED_WATERED_CAPITAL"
     },
     {
       "code": "CC-1892-PANAMA_CANAL_SCANDAL_1892",

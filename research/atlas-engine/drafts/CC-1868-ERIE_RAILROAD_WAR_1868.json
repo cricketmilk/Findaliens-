@@ -1,0 +1,61 @@
+{
+  "code": "CC-1868-ERIE_RAILROAD_WAR_1868",
+  "eraId": "ERA-05-1861",
+  "yearStart": 1868,
+  "yearEnd": 1873,
+  "title": "Bonds Secretly Converted to Stock, Sold to the Man Buying the Company, and Made Legal Afterwards at Albany",
+  "primaryTab": "crash-conduits",
+  "secondaryTabs": [
+    "consent"
+  ],
+  "mechanism": "LEVERAGED_WATERED_CAPITAL",
+  "tier": "TIER_4_CONTEMPORARY_PRESS",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "Daniel Drew",
+    "Jay Gould",
+    "James Fisk",
+    "Cornelius Vanderbilt",
+    "William M. Tweed",
+    "Erie Railway",
+    "New York State Legislature"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "Drew, Gould and Fisk set out to wrest control of the Erie Railway from Cornelius Vanderbilt by flooding the market with an extra issue of bonds that could be converted into stock — paper created by the directors of the company whose control was being contested.",
+    "stage2_structuralCompromise": "The conversion was the device, and it was concealed. In Myers's account, verified against his text on a parallel branch: \"These bonds were secretly converted into shares of stock, and then distributed among brokerage houses of which the three were members.\" The issuers were also the distributors.",
+    "stage3_informationFog": "Vanderbilt's brokers bought the stock as it came, and other buyers alongside them, without knowing where the paper had come from or how much more of it there was. A corner cannot be completed against a float that the other side is printing.",
+    "stage4_monopolyWindfall": "Once in control, the three bought the law to match. In the Library of Congress's account: \"Once in control of the company the men sought to curry favor and appointed Tammany Hall's William Tweed, AKA Boss Tweed, a director of the company in return for legislation favorable to the\" company. The statute legalising the stock issue passed at Albany.",
+    "stage5_merseyWhitewash": "An investigating committee reported in 1873 — five years after the session it examined — that \"large sums of money were expended for corrupt purposes by parties interested in legislation concerning railways during the session of 1868\". The finding was recorded after the stock had been sold and the control had changed hands, and changed nothing about who held the railway."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "A railway charter that let its own directors authorise convertible bonds, and a legislature that could be reached by seating a political boss on the board.",
+    "newFrameworkCreated": "A statute retrospectively legalising the issue, and a company director seated inside the political machine that passed it — the template for watered stock defended by purchased law.",
+    "closedLoopRecirculation": "Print the paper, sell it to the man trying to buy the company, then buy the law that makes the printing lawful; the inquiry arrives five years later and changes nothing about who holds the railway.",
+    "enablesNextDossier": "CC-1890-BARING_CRISIS_1890"
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "That the Erie War was a duel of personalities between robber barons — Vanderbilt against Drew, Gould and Fisk — won by cunning.",
+    "whyDecoyFails": "The mechanism is documentary, not personal: convertible bonds turned into stock, routed through brokerages the issuers belonged to, sold into the buying of the man attempting the takeover, and then protected by a statute passed while a company director sat in Tammany Hall. The 1873 committee's finding about \"large sums of money ... expended for corrupt purposes\" during the 1868 session is a finding about the legislature, not about anyone's cleverness. A NOTE ON THIS DOSSIER'S HISTORY, because it bears on how far to trust it. An earlier pass in this session REMOVED this node as unsourceable after Project Gutenberg's catalogue returned no record for Charles Francis Adams's \"A Chapter of Erie\" and no 1868 court or legislative record was found on a reachable host. A parallel session, working from an older base, found two sources this pass did not — Gustavus Myers's 1910 history on Gutenberg under its own title, and a Library of Congress blog account — and built the node from them. It is restored at this merge on those two sources, both re-checked as resolving on 18 October 2026, with their quotations carried as that session verified them and not re-read here. Both are secondary: Myers is, in the parallel session's own words, \"polemical in tone and to be read as such\", and his own figures — including the famous $500,000 satchel — are not relied on; the Library of Congress piece is a 2012 staff blog post. The tier has been set to contemporary press rather than primary ledger to say so, and the mechanism to watered capital, which is what a secret conversion of bonds to stock is. No 1868 document has been read.",
+    "documentedLedger": "Gustavus Myers, History of the Great American Fortunes (1910), as verified on a parallel branch: that the convertible bonds \"were secretly converted into shares of stock, and then distributed among brokerage houses of which the three were members\", and that a committee reported in 1873 that \"large sums of money were expended for corrupt purposes by parties interested in legislation concerning railways during the session of 1868\". The Library of Congress, \"Robber Barons: Gould and Fisk\" (Inside Adams, September 2012), as verified on the same branch: that \"Once in control of the company the men sought to curry favor and appointed Tammany Hall's William Tweed, AKA Boss Tweed, a director of the company in return for legislation favorable to the\" company. Myers's own figures are not relied on. The 1873 committee report itself, the 1868 statute, and the contemporaneous New York court proceedings were not read."
+  },
+  "citationIds": [
+    "CIT-1868-LOC-ERIE",
+    "CIT-1910-MYERS-ERIE"
+  ],
+  "citations": [
+    {
+      "id": "CIT-1868-LOC-ERIE",
+      "tier": "TIER_4_CONTEMPORARY_PRESS",
+      "title": "\"Robber Barons: Gould and Fisk\" — Library of Congress, Inside Adams blog, September 2012",
+      "url": "https://blogs.loc.gov/inside_adams/2012/09/robber-barons-gould-and-fisk/",
+      "quoteOrFact": "IMPORTED FROM A PARALLEL SESSION'S WORK (branch claude/extractor-reads-deep-state, commit f807bad, 17 October 2026; verified there through glm-recheck --strict-sources; URL re-checked live on 18 October 2026, status 200; not re-read in this session). Their verified quotation: \"Once in control of the company the men sought to curry favor and appointed Tammany Hall's William Tweed, AKA Boss Tweed, a director of the company in return for legislation favorable to the\" company. TIER NOTE: the parallel session recorded this as TIER_3_PRIMARY_LEDGER. It is a Library of Congress staff blog post, not a document of 1868, and is carried here at TIER_4_CONTEMPORARY_PRESS — an institutional secondary account on a reliable host, which is what it is."
+    },
+    {
+      "id": "CIT-1910-MYERS-ERIE",
+      "tier": "TIER_4_CONTEMPORARY_PRESS",
+      "title": "Gustavus Myers, History of the Great American Fortunes, Part III: Great Fortunes from Railroads (1910) — Project Gutenberg ebook 6495",
+      "url": "https://www.gutenberg.org/cache/epub/6495/pg6495-images.html",
+      "quoteOrFact": "IMPORTED FROM A PARALLEL SESSION'S WORK (branch claude/extractor-reads-deep-state, commit f807bad, 17 October 2026; verified there through glm-recheck --strict-sources; URL re-checked live on 18 October 2026, status 200; not re-read in this session). In the parallel session's own words: \"A labelled secondary source, polemical in tone and to be read as such.\" Their verified quotations: \"These bonds were secretly converted into shares of stock, and then distributed among brokerage houses of which the three were members.\" And the 1873 committee finding that \"large sums of money were expended for corrupt purposes by parties interested in legislation concerning railways during the session of 1868.\" They record that \"Myers's own figures, including the $500,000 satchel, are not relied on here\", and they are not relied on in this dossier either. A NOTE ON WHAT THIS CORRECTS: an earlier pass in this session removed the Erie dossier as unsourceable after Project Gutenberg's catalogue search returned no record for Charles Francis Adams's \"A Chapter of Erie\". Myers's 1910 history, which quotes the committee's finding, is on Gutenberg under a different title and the parallel session found it. The removal was premature and this merge reverses it."
+    }
+  ]
+}

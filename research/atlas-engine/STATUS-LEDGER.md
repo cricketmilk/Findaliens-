@@ -2024,6 +2024,155 @@
      the "Source carried over from the Crash Conduits entry" placeholder.
      Not merged to main, not pushed to main, not deployed. -->
 
+<!-- ACTUAL 2026-10-18 (seventeenth pass): MERGE OF A PARALLEL SESSION'S ATLAS WORK.
+     108 dossiers, 227 citations, 108 researched, 0 boilerplate. One dossier
+     restored, six combined, thirteen citations imported with their provenance
+     stated, one dead citation refused, and a merge commit that records both
+     parents.
+     WHAT WAS MERGED, AND WHY IT COULD NOT BE A GIT MERGE OF THE JSON. The operator
+     asked for "the deep state dossiers and atlas" to be merged. Of the four
+     branches with that name on the remote, three were already wholly in main. The
+     fourth was the LOCAL refs/heads/claude/extractor-reads-deep-state in another
+     session's worktree — FIVE UNPUSHED COMMITS (f807bad, 2b1bf7a, 41b9309,
+     8e0932e, 94d73cf) on a base (d1b79d9) thirty-two commits behind main. It
+     changed exactly eight dossiers in master/atlas.json, no eras, mechanisms or
+     lineages, plus one code file and one lesson doc. SEVEN OF THOSE EIGHT NODES
+     HAD BEEN REBUILT INDEPENDENTLY IN THIS SESSION, FROM DIFFERENT PRIMARY
+     SOURCES, and the eighth — Erie — had been REMOVED here as unsourceable the day
+     before. A textual merge of a single string-spliced JSON file would have
+     conflicted across the whole file and, however resolved, discarded one
+     session's read sources. So the git merge was made with --no-commit, the two
+     atlas JSON files and docs/lessons/entity-index.md resolved to main's
+     versions, and the combination done node by node THROUGH THE ENGINE: drafts,
+     cut, --finish, compile. research/glm-recheck.mjs merged cleanly on its own.
+     THE DISPOSITIONS, ONE PER NODE:
+     CC-1636-TULIP_1636 — MAIN'S KEPT, THEIRS NOT TAKEN. Same Goldgar source, same
+     citation id, but their citation record still carried the placeholder "Source
+     carried over from the Crash Conduits entry" while main's is read in full.
+     Importing theirs would have regressed a read citation to an unread one.
+     CC-1868-ERIE_RAILROAD_WAR_1868 — RESTORED, ON THEIR SOURCES, WITH CORRECTIONS.
+     This session removed it on 2026-10-17 after Gutenberg returned "No records
+     found" for Adams's "A Chapter of Erie". The parallel session found Gustavus
+     Myers's 1910 history on Gutenberg (ebook 6495) and a Library of Congress
+     "Inside Adams" post, both of which resolve. The removal was premature and is
+     reversed. Two corrections on import, stated in the node and the citations:
+     mechanism CENTRAL_BANK_LIQUIDITY -> LEVERAGED_WATERED_CAPITAL (a secret
+     conversion of bonds to stock is watered capital), and tier
+     TIER_3_PRIMARY_LEDGER -> TIER_4_CONTEMPORARY_PRESS (a 2012 staff blog post and
+     a 1910 polemic are secondary, which the parallel session itself said of
+     Myers). Myers's $500,000 satchel is not relied on by either session.
+     CC-1866-OVEREND_GURNEY_1866 — COMBINED. Main's two Hansard debates plus their
+     Bank of England Quarterly Bulletin 2016 Q2 and Bordo (NBER w3011). The Bank's
+     own account closes the gap this ledger recorded two passes ago — Hansard never
+     names the firm; the Bulletin names it, dates the refusal to 9 May "on the
+     basis of the broker's insolvency", and times the suspension to 15.30 on 10 May.
+     CC-1890-BARING_CRISIS_1890 — COMBINED, AND THE NODE IS NO LONGER THIN. Main's
+     one Hansard exchange (the Royal Commission refused) plus NBER w20832 and
+     w11173: Lidderdale "placed the Bank of England's name at the top of the list
+     for £1 million and set about coaxing, cajoling, and, in some cases, even
+     threatening potential subscribers"; a guarantee fund "which would be called on
+     if the Bank-supervised liquidation of Baring's assets was not sufficient";
+     Argentina's "triple crisis" and the two Buenos Aires banks liquidated. The
+     parallel session's own check had already withdrawn two of its drafted claims
+     (loans from France and Russia; seven Latin American defaults); neither is
+     asserted here.
+     CC-1968-LONDON_GOLD_POOL_1968 — COMBINED, WITH ONE CITATION REFUSED. Main's
+     Federal Reserve History essay plus NBER w24016 (operations from 6 November
+     1961, "sharing profits and losses", cumulative deficit 3,692 million end-1965
+     to March 1968, disbanded 15 March 1968). THEIR BIS 38TH ANNUAL REPORT WAS NOT
+     CARRIED: its URL and five alternative bis.org paths all returned 404 on
+     2026-10-18, so the governors' words it supplied — "henceforth officially held
+     gold should be used only to effect transfers among monetary authorities" — are
+     NOT in the dossier, and the dossier says so. A citation that cannot be
+     re-verified as resolving does not come across, however good the quote.
+     CC-1970-PENN_CENTRAL_1970 — COMBINED. Main's Federal Reserve History essay
+     (the 3 June memo, the V-Loan refusals of 17 and 19 June) plus the New York
+     Fed's December 1970 Monthly Review on FRASER and Board FEDS 2016-077: "in
+     three weeks nonbank paper fell $3.0 billion, or by almost 10 percent", the
+     low of $29.0 billion on 15 July, $31.2 billion by end-November, and the
+     banks acting "to assist creditworthy borrowers no longer able to secure
+     adequate funds in the commercial paper market". The borrower was refused; the
+     market that lent to it was not.
+     CC-1974-HERSTATT_RISK_1974 — COMBINED, AND A STATED LIMIT CLOSED. Main's two
+     BIS institutional pages plus the BIS Quarterly Review of June 2026 (the
+     afternoon of 26 June 1974, closure "at 3.30 pm Frankfurt time", the New York
+     correspondent suspending dollar payments, counterparties "exposed for the full
+     value of the Deutsche marks they had already paid") and GAO/GGD-97-73, which
+     DOES use the name: "This latter risk is commonly called 'Herstatt risk'". The
+     previous version recorded that neither of its sources named the risk; that is
+     still true of them, and the attribution now rests on the GAO. Their third
+     citation, the Basel Committee's history at a second URL for the page main
+     already cites, was not carried as a duplicate.
+     CC-1980-SILVER_THURSDAY_1980 — COMBINED, AND THE TWO RECORDS SHARPEN EACH OTHER.
+     Main's CFTC chronology (the regulator votes NOT to use its emergency powers on
+     28 March 1980) plus the General Counsel's 2010 testimony and the 2013 Federal
+     Register rulemaking (the EXCHANGE imposed emergency position limits on
+     7 January 1980, went liquidation-only on 21 January, "The price of silver began
+     to decline", and the CFTC made the exchange's terms permanent on 4 April). The
+     exchange whose members held the other side acted in January; the federal
+     regulator with the affirmed power declined in March; then adopted the
+     exchange's rule.
+     THE IMPORT STANDARD, STATED ONCE HERE AND IN EVERY IMPORTED RECORD. Thirteen
+     citation records were carried from the parallel branch. Each quoteOrFact now
+     opens with its provenance: the branch and commit it was written on, that the
+     source was fetched and the quotations verified there through glm-recheck
+     --strict-sources, that the URL was re-checked live on 2026-10-18 with the
+     status given, and that THE DOCUMENT WAS NOT RE-READ IN THIS SESSION. That is
+     the difference between carrying another session's documented read with
+     attribution and the "Source carried over" placeholder this ledger spent three
+     passes removing: the placeholder recorded no read by anyone; these record
+     whose read it was and how it was checked. Two of the thirteen (both cftc.gov)
+     were additionally confirmed in a browser, one as the testimony page described
+     and one as a served file. Two were re-tiered on import — the Library of
+     Congress blog to TIER_4, the GAO guide to TIER_2, the tiers this atlas uses
+     for those kinds of document.
+     THE TWO NON-ATLAS FILES. research/glm-recheck.mjs: their addition of
+     bankofengland.co.uk, stlouisfed.org, federalreservehistory.org,
+     newyorkfed.org, bundesbank.de, banque-france.fr and ecb.europa.eu to
+     RATED_HOSTS merged cleanly and is in. Their commit explains it well: central
+     banks publish the record of their own actions the way bis.org and imf.org
+     already did in the list, none is .gov, and the "subject's own site" fallback
+     made the same Bank of England PDF pass for one claim and fail for the next.
+     docs/lessons/entity-index.md: their version was OLDER (it says 108 dossiers
+     and eight lineages; main's says 118 and nine and has a further section), so
+     main's was kept.
+     TWO PROCESS HAZARDS, RECORDED BECAUSE BOTH BIT. (1) cut-citations.mjs PRINTS
+     "cut citation X" BEFORE IT WRITES. On Windows the first cut in a rapid chain
+     hit a transient lock on atlas.json (errno -4094 UNKNOWN on open), printed
+     success, and wrote nothing. The chain was resumed by first re-reading master
+     and counting what was actually there — nine of nine still present, not eight —
+     rather than trusting the log. Verify state, not output. (2) Because that one
+     id was still in master when the Gold Pool draft re-added it, --finish produced
+     a DUPLICATE CITATION ID, exactly the hazard the twelfth pass recorded and
+     wrote dedupe-citation.mjs for. The integrity check caught it (228 citations,
+     expected 227) and the dedupe removed it after confirming the two blocks were
+     byte-identical. The cut-citations script should log after writing; left as a
+     follow-up.
+     A LESSON ABOUT REMOVALS. Erie was removed here on 2026-10-17 on a reachability
+     test — Gutenberg's catalogue search — while another session had, the same day,
+     found a different Gutenberg title that carried it. Before removing a node as
+     unsourceable, check sibling branches and worktrees for work on it; a search
+     that returns nothing is not the same as nothing existing.
+     DEPLOY STATUS, FOR THE OPERATOR. CI on main has been failing at the deploy
+     job's `npx wrangler deploy` step since before this branch — the public
+     Actions API shows runs for 09dae4e, a08b4fb, 922ac9d and 344ba3b all failing
+     there with the test job green. findaliens.net and the workers.dev origin both
+     still serve the 13 October build (118 dossiers). This is the
+     CLOUDFLARE_API_TOKEN repository secret (missing, expired, or for an account
+     other than the one pinned in wrangler.jsonc); it cannot be read or set from
+     here. Nothing merged in this pass changes that.
+     GATES: npm test 38/38; check-links over the seven combined drafts, 22 URLs,
+     18 ok / 4 blocked / 0 DEAD — the four blocked are all cftc.gov, read in a
+     browser, and every one of those citations says so. Schema validates;
+     0 duplicate codes, ids or citation URLs after the dedupe; 0 orphan
+     citationIds; 0 unused citations; 0 self-declared unread citations;
+     0 dangling codes in the nine compiled lineages; check-era-headers OK at 10
+     headers for 10 eras with Erie back at 1868 inside ERA-05's 1861-1893 range;
+     public/atlas.html tallies 107 -> 108 in three places. Browser-verified.
+     VERIFY PASS: seven rows GATE 0-QUAR.
+     Merged into main at the operator's instruction. The deploy that would carry
+     it live is blocked upstream of this repository. -->
+
 # THE CORNFIELD GAZETTE — MASTER NODE STATUS LEDGER
 
 | Node Code | Title / Scope | Era | Evidence Tier | Seeding Providers | Verify Pass | UI Wired | Done |
@@ -2147,3 +2296,10 @@
 | `CC-2008-CLARIUM_ANVIL_2008` | REMOVED — 13F reports only s.13(f) securities; a thin filing proves nothing about a collapse | — | — | `none` | n/a | n/a | [x] |
 | `CC-2018-HANDSHAKE_HNS_2018` | REMOVED — no institution recorded the claimed act | — | — | `none` | n/a | n/a | [x] |
 | `CC-1825-HAITI_INDEMNITY_1825` | Ten Years of the Revenue of the Ancient Colonists: What the Ordonnance Said and What the Ceremony Left Out | `ERA-03-1815` | TIER_4_CONTEMPORARY_PRESS | `read-by-hand` | 3/3 PASS | YES | [x] |
+| `CC-1868-ERIE_RAILROAD_WAR_1868` | RESTORED at merge — Bonds Secretly Converted to Stock, Sold to the Man Buying the Company, and Made Legal Afterwards at Albany | `ERA-05-1861` | TIER_4_CONTEMPORARY_PRESS | `read-by-hand + imported` | 3/3 PASS | YES | [x] |
+| `CC-1866-OVEREND_GURNEY_1866` | COMBINED at merge — Refused as Insolvent on the 9th, Suspended at 15.30 on the 10th, No Representation Until Two Hours Ago on the 11th | `ERA-05-1861` | TIER_3_PRIMARY_LEDGER | `read-by-hand + imported` | 3/3 PASS | YES | [x] |
+| `CC-1890-BARING_CRISIS_1890` | COMBINED at merge — Coaxing, Cajoling and Threatening Subscribers: the Baring Guarantee, Argentina's Default, and the Inquiry Parliament Refused | `ERA-05-1861` | TIER_3_PRIMARY_LEDGER | `read-by-hand + imported` | 3/3 PASS | YES | [x] |
+| `CC-1968-LONDON_GOLD_POOL_1968` | COMBINED at merge — Eight Central Banks Holding a Price: a Cumulative Deficit of 3,692 Million, and the Pool Disbanded on 15 March 1968 | `ERA-08-1953` | TIER_4_CONTEMPORARY_PRESS | `read-by-hand + imported` | 3/3 PASS | YES | [x] |
+| `CC-1970-PENN_CENTRAL_1970` | COMBINED at merge — A Memo on 3 June, a Bankruptcy on 21 June, $3.0 Billion Gone in Three Weeks: the Borrower Refused, the Market Carried | `ERA-08-1953` | TIER_2_INQUIRY | `read-by-hand + imported` | 3/3 PASS | YES | [x] |
+| `CC-1974-HERSTATT_RISK_1974` | COMBINED at merge — Closed at 3.30 pm Frankfurt Time: the Afternoon Gap, the Committee It Founded, and a Risk Still Open in 1996 | `ERA-08-1953` | TIER_3_PRIMARY_LEDGER | `read-by-hand + imported` | 3/3 PASS | YES | [x] |
+| `CC-1980-SILVER_THURSDAY_1980` | COMBINED at merge — The Exchange Changed the Contract in January; the Regulator Voted Not To Act in March: Two Records of the Silver Corner | `ERA-08-1953` | TIER_2_INQUIRY | `read-by-hand + imported` | 3/3 PASS | YES | [x] |

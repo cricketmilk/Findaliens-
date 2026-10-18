@@ -1760,59 +1760,6 @@
       "bridges": []
     },
     {
-      "code": "CC-1974-HERSTATT_RISK_1974",
-      "eraId": "ERA-08-1953",
-      "yearStart": 1974,
-      "yearEnd": 1974,
-      "title": "Bankhaus Herstatt Collapse & Cross-Currency Settlement Risk",
-      "primaryTab": "crash-conduits",
-      "secondaryTabs": [],
-      "mechanism": "CENTRAL_BANK_LIQUIDITY",
-      "tier": "TIER_3_PRIMARY_LEDGER",
-      "auditDisposition": "DOCUMENTED",
-      "participants": [],
-      "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
-      },
-      "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-        "enablesNextDossier": "CC-2026-ARBITRAGE"
-      },
-      "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "Bankhaus Herstatt Collapse & Cross-Currency Settlement Risk"
-      },
-      "citationIds": [
-        "CIT-1974-BIS-BASEL-COMMITTEE-ON-1",
-        "CIT-1974-BIS-COMMITTEE-ON-PAYMENT-2"
-      ],
-      "citations": [
-        {
-          "id": "CIT-1974-BIS-BASEL-COMMITTEE-ON-1",
-          "tier": "TIER_4_CONTEMPORARY_PRESS",
-          "title": "History of the Basel Committee — BIS / Basel Committee on Banking Supervision",
-          "url": "https://www.bis.org/bcbs/history.htm",
-          "quoteOrFact": "Source carried over from the Crash Conduits entry \"herstatt-risk-1974\" for Bankhaus Herstatt Collapse & Cross-Currency Settlement Risk."
-        },
-        {
-          "id": "CIT-1974-BIS-COMMITTEE-ON-PAYMENT-2",
-          "tier": "TIER_4_CONTEMPORARY_PRESS",
-          "title": "Settlement risk in foreign exchange transactions — published introduction (9 March 1996) — BIS / Committee on Payment and Settlement Systems",
-          "url": "https://www.bis.org/cpmi/publ/d17.htm",
-          "quoteOrFact": "Source carried over from the Crash Conduits entry \"herstatt-risk-1974\" for Bankhaus Herstatt Collapse & Cross-Currency Settlement Risk."
-        }
-      ],
-      "pairedEvent": null,
-      "bridges": []
-    },
-    {
       "code": "CC-1980-SILVER_THURSDAY_1980",
       "eraId": "ERA-08-1953",
       "yearStart": 1980,
@@ -2122,51 +2069,6 @@
           "title": "UK House of Commons Secret Committee Report on the South Sea Company (1721)",
           "url": "https://hansard.parliament.uk/",
           "quoteOrFact": "Parliamentary inquiry documented fictitious stock ledger entries used to bribe MPs and Cabinet ministers prior to the 1720 crash."
-        }
-      ],
-      "pairedEvent": null,
-      "bridges": []
-    },
-    {
-      "code": "CC-1994-ORANGE_COUNTY_1994",
-      "eraId": "ERA-09-2001",
-      "yearStart": 1994,
-      "yearEnd": 1994,
-      "title": "Orange County Bankruptcy & Wall Street Inverse Floater Gambles",
-      "primaryTab": "crash-conduits",
-      "secondaryTabs": [],
-      "mechanism": "CENTRAL_BANK_LIQUIDITY",
-      "tier": "TIER_3_PRIMARY_LEDGER",
-      "auditDisposition": "DOCUMENTED",
-      "participants": [],
-      "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
-      },
-      "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-        "enablesNextDossier": "CC-2026-ARBITRAGE"
-      },
-      "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "Orange County Bankruptcy & Wall Street Inverse Floater Gambles"
-      },
-      "citationIds": [
-        "CIT-1994-SEC"
-      ],
-      "citations": [
-        {
-          "id": "CIT-1994-SEC",
-          "tier": "TIER_3_PRIMARY_LEDGER",
-          "title": "Municipal Bond Participants: Public Officials — Orange County Section 21(a) Report, January 24, 1996 — SEC",
-          "url": "https://www.sec.gov/enforcement-litigation/reports-investigations/municipal-bond-participants-public-officials",
-          "quoteOrFact": "Source carried over from the Crash Conduits entry \"orange-county-1994\" for Orange County Bankruptcy & Wall Street Inverse Floater Gambles."
         }
       ],
       "pairedEvent": null,
@@ -2895,51 +2797,6 @@
           "title": "Financial Stability Report — December 2022 (13 December 2022) — Bank of England / Financial Policy Committee",
           "url": "https://www.bankofengland.co.uk/financial-stability-report/2022/december-2022",
           "quoteOrFact": "Source carried over from the Crash Conduits entry \"uk-ldi-gilt-crisis-2022\" for The UK LDI Pension Gilt Crisis & the Bank of England's Emergency Gilt Purchases."
-        }
-      ],
-      "pairedEvent": null,
-      "bridges": []
-    },
-    {
-      "code": "CC-2023-CREDIT_SUISSE_AT1_2023",
-      "eraId": "ERA-10-2020",
-      "yearStart": 2023,
-      "yearEnd": 2023,
-      "title": "The Fall of Credit Suisse & The $17 Billion AT1 Capital Wipeout",
-      "primaryTab": "crash-conduits",
-      "secondaryTabs": [],
-      "mechanism": "CENTRAL_BANK_LIQUIDITY",
-      "tier": "TIER_3_PRIMARY_LEDGER",
-      "auditDisposition": "DOCUMENTED",
-      "participants": [],
-      "extractionLoop": {
-        "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-        "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-        "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-        "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-        "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
-      },
-      "closedLoopRatchet": {
-        "inheritedFramework": "Prior credit and clearing architecture.",
-        "newFrameworkCreated": "Expanded institutional backstop.",
-        "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-        "enablesNextDossier": "CC-2026-ARBITRAGE"
-      },
-      "decoyVsLedger": {
-        "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-        "whyDecoyFails": "Fails primary ledger cross-examination.",
-        "documentedLedger": "The Fall of Credit Suisse & The $17 Billion AT1 Capital Wipeout"
-      },
-      "citationIds": [
-        "CIT-2023-SWISS-FINANCIAL-MARKET"
-      ],
-      "citations": [
-        {
-          "id": "CIT-2023-SWISS-FINANCIAL-MARKET",
-          "tier": "TIER_4_CONTEMPORARY_PRESS",
-          "title": "FINMA provides information about the basis for writing down AT1 capital instruments (23 March 2023) — Swiss Financial Market Supervisory Authority FINMA",
-          "url": "https://www.finma.ch/en/news/2023/03/20230323-mm-at1-kapitalinstrumente/",
-          "quoteOrFact": "Source carried over from the Crash Conduits entry \"credit-suisse-at1-2023\" for The Fall of Credit Suisse & The $17 Billion AT1 Capital Wipeout."
         }
       ],
       "pairedEvent": null,
@@ -7198,6 +7055,175 @@
       ],
       "pairedEvent": null,
       "bridges": []
+    },
+    {
+      "code": "CC-2023-CREDIT_SUISSE_AT1_2023",
+      "eraId": "ERA-10-2020",
+      "yearStart": 2023,
+      "yearEnd": 2023,
+      "title": "A Viability Event in the Prospectus: Why the AT1 Write-Down Was Contractual, and What That Does Not Settle",
+      "primaryTab": "crash-conduits",
+      "secondaryTabs": [
+        "deep-state"
+      ],
+      "mechanism": "MERSEY_LIABILITY_WHITEWASH",
+      "tier": "TIER_1_STATUTE_COURT",
+      "auditDisposition": "DOCUMENTED",
+      "participants": [
+        "Credit Suisse",
+        "Swiss Financial Market Supervisory Authority (FINMA)",
+        "Swiss Federal Council",
+        "Swiss National Bank",
+        "AT1 bondholders"
+      ],
+      "extractionLoop": {
+        "stage1_upfrontSkim": "The yield was the compensation for exactly this. FINMA describes what the instruments are: AT1 capital \"designed in such a way that they are written down or converted into Common Equity Tier 1 capital before the equity capital of the bank concerned is completely used up or written down\", and \"mainly held by institutional investors due to their risk profile and large denominations\". The release lists thirteen publicly issued instruments by ISIN, running from a 7.500% note issued in December 2013 to a 9.750% issue of June 2022 — coupons that were the price of the clause that destroyed them.",
+        "stage2_structuralCompromise": "The trigger was written in before the crisis and it was broad. The instruments \"contractually provide that they will be completely written down in a ‘Viability Event’, in particular if extraordinary government support is granted.\" A clause triggered by rescue is a clause that fires precisely when the holder most expects protection.",
+        "stage3_informationFog": "The fog here was not in the documents but in the expectation around them. FINMA had to publish this release at all because of \"numerous enquiries\", four days after the event, to explain a basis that was already in the prospectuses the holders had bought. The hierarchy people believed they held was not the hierarchy the contract described.",
+        "stage4_monopolyWindfall": "The write-down removed a class of liability from the balance sheet being handed to the acquirer. FINMA records the date the condition was met: \"Credit Suisse was granted extraordinary liquidity assistance loans secured by a federal default guarantee on 19 March 2023\", and that the Federal Council enacted its Emergency Ordinance the same day, which \"also authorises FINMA to order the borrower and the financial group to write down Additional Tier 1 capital.\"",
+        "stage5_merseyWhitewash": "The containment was an emergency ordinance enacted on the day it was needed, layered on top of a contractual clause — belt and braces for a decision taken over a weekend. FINMA's own account cites both: it \"relies on the issuance prospectuses for the bonds and the Federal Council’s Emergency Ordinance\". Tier 2 bonds were not written down. What this document is not is a court ruling; bondholder litigation is not addressed in it and no outcome is asserted here."
+      },
+      "closedLoopRatchet": {
+        "inheritedFramework": "The post-2008 bail-in architecture: loss-absorbing capital sold to institutional investors on the premise that it converts or writes down before taxpayers are touched.",
+        "newFrameworkCreated": "A worked precedent that a viability clause can fire on the granting of state liquidity support, and an emergency ordinance giving the supervisor express power to order the write-down — enacted the same day the support was granted.",
+        "closedLoopRecirculation": "The instruments paid a high coupon because of the write-down clause; the clause existed so that the state would not have to pay; the state support was itself the event that triggered the clause.",
+        "enablesNextDossier": "CC-2026-ARBITRAGE"
+      },
+      "decoyVsLedger": {
+        "viralDecoy": "That Switzerland tore up the capital hierarchy overnight — wiping out $17 billion of bondholders while shareholders got paid — and invented the legal basis for it afterwards.",
+        "whyDecoyFails": "The basis was in the documents the bondholders bought. FINMA states that the instruments \"contractually provide that they will be completely written down in a ‘Viability Event’, in particular if extraordinary government support is granted\", and that the condition was met when Credit Suisse received \"extraordinary liquidity assistance loans secured by a federal default guarantee on 19 March 2023\". The Emergency Ordinance of the same day was additional authority, not the sole basis: FINMA says it relies on both \"the issuance prospectuses for the bonds and the Federal Council’s Emergency Ordinance\". AT1 is also designed to absorb loss ahead of equity being fully written down, which the release states expressly. But this dossier should not take the regulator's account as the last word either: the document read here is FINMA explaining its own decision four days afterwards, not a court testing it, and bondholder litigation is outside what was read. The precise, defensible statement is that the write-down had a stated contractual and statutory basis, not that its lawfulness was adjudicated.",
+        "documentedLedger": "A FINMA release of 23 March 2023 explaining the basis for the complete write-down of Credit Suisse AT1 instruments, resting on the issuance prospectuses and the Federal Council’s Emergency Ordinance. The contractual trigger: complete write-down in a Viability Event, in particular where extraordinary government support is granted. The triggering fact: extraordinary liquidity assistance loans secured by a federal default guarantee on 19 March 2023. The Emergency Ordinance of 19 March 2023 authorising FINMA to order the write-down. Tier 2 bonds not written down. Thirteen affected publicly issued instruments listed by ISIN, issue date, currency and coupon. And the design principle stated by the regulator: AT1 is written down or converted before the bank’s equity capital is completely used up."
+      },
+      "citationIds": [
+        "CIT-2023-SWISS-FINANCIAL-MARKET"
+      ],
+      "citations": [
+        {
+          "id": "CIT-2023-SWISS-FINANCIAL-MARKET",
+          "tier": "TIER_1_STATUTE_COURT",
+          "title": "Swiss Financial Market Supervisory Authority (FINMA), \"FINMA provides information about the basis for writing down AT1 capital instruments\", press release, 23 March 2023",
+          "url": "https://www.finma.ch/en/news/2023/03/20230323-mm-at1-kapitalinstrumente/",
+          "quoteOrFact": "Read in full from FINMA's own site. The release exists to answer the objection: \"The Swiss Financial Market Supervisory Authority FINMA hereby explains the basis for the complete write-down of the nominal value of AT1 capital instruments issued by Credit Suisse. For this, FINMA relies on the issuance prospectuses for the bonds and the Federal Council’s Emergency Ordinance.\" And: \"FINMA has instructed Credit Suisse to completely write down its AT1 instruments and to inform the bondholders concerned without delay. Tier 2 bonds are not written down.\" THE CONTRACTUAL BASIS, which is the answer to the claim that the hierarchy was inverted lawlessly: \"The AT1 instruments issued by Credit Suisse contractually provide that they will be completely written down in a ‘Viability Event’, in particular if extraordinary government support is granted. As Credit Suisse was granted extraordinary liquidity assistance loans secured by a federal default guarantee on 19 March 2023, these contractual conditions were met for the AT1 instruments issued by the bank.\" THE ORDINANCE: \"On 19 March 2023, the Federal Council enacted the Emergency Ordinance on Additional Liquidity Assistance Loans and the Granting of Federal Default Guarantees for Liquidity Assistance Loans by the Swiss National Bank to Systemically Important Banks. The Ordinance also authorises FINMA to order the borrower and the financial group to write down Additional Tier 1 capital.\" ON WHAT THE INSTRUMENTS ARE FOR: \"AT1 instruments in Switzerland are designed in such a way that they are written down or converted into Common Equity Tier 1 capital before the equity capital of the bank concerned is completely used up or written down. The instruments publicly issued by large banks are mainly held by institutional investors due to their risk profile and large denominations.\" The release then lists every affected publicly issued instrument by ISIN, issue date, currency and coupon — thirteen entries beginning with 7.500% Tier 1 Capital Notes issued 11 December 2013 and running to a 9.750% issue of 23 June 2022. FINMA CEO Urban Angehrn is quoted on the wider resolution: \"On Sunday, a solution could be found to protect clients, the financial centre and the markets.\" This is the regulator's own statement of its legal basis, published four days after the event. It is not a court ruling, and litigation by bondholders is not addressed in it. THIS CITATION WAS INHERITED WITH A PLACEHOLDER quoteOrFact reading only \"Source carried over from the Crash Conduits entry\" — a URL attached to the node without being opened. It has now been opened and read."
+        }
+      ],
+      "pairedEvent": null,
+      "bridges": []
+    },
+    {
+      "code": "CC-1994-ORANGE_COUNTY_1994",
+      "eraId": "ERA-09-2001",
+      "yearStart": 1993,
+      "yearEnd": 1996,
+      "title": "A Public Official May Not Authorize Disclosure He Knows to Be False: $1.3 Billion and a 21(a) Report",
+      "primaryTab": "crash-conduits",
+      "secondaryTabs": [
+        "carbon-class",
+        "deep-state"
+      ],
+      "mechanism": "DERIVATIVE_CLEARING_CAPTURE",
+      "tier": "TIER_1_STATUTE_COURT",
+      "auditDisposition": "DOCUMENTED",
+      "participants": [
+        "County of Orange, California",
+        "Orange County Board of Supervisors",
+        "Robert L. Citron (former Treasurer-Tax Collector)",
+        "Matthew R. Raabe (former Assistant Treasurer)",
+        "Orange County Flood Control District",
+        "U.S. Securities and Exchange Commission"
+      ],
+      "extractionLoop": {
+        "stage1_upfrontSkim": "The money was raised from the public market on documents the Commission found defective: \"Six of these municipal offerings by the County collectively raised approximately $1.3 billion and are the subject of this report.\"",
+        "stage2_structuralCompromise": "The compromise was the dependence of the securities on the pools. The report sets out four ways the offerings were tied to the County Pools — proceeds reinvested in them for interest earnings, funds pledged to repay securities invested in them, the Pools agreeing to repurchase or repay certain securities, and \"the County’s economic reliance on the County Pools materially affected its ability to repay the securities.\"",
+        "stage3_informationFog": "The fog was in the Official Statements, and the finding is flat: they \"contained material misstatements and omissions concerning the risks relating to, among other things, the County Pools and the financial condition of Orange County, including its ability to repay the securities.\"",
+        "stage4_monopolyWindfall": "What the omissions preserved was continued market access on terms that did not price the risk — six offerings over 1993 and 1994, the period the investigation covers, raising approximately $1.3 billion from investors who were not told what the report says they should have been told.",
+        "stage5_merseyWhitewash": "The disposition is the interesting part and it is a choice the Commission explains. Against the officers, action: a settled civil injunctive action against the former Treasurer-Tax Collector and the former Assistant Treasurer, enjoining future antifraud violations, and a settled cease and desist proceeding against the County, the Flood Control District and the Board of Supervisors. Against the individual Supervisors, no charges — instead a Section 21(a) report \"to emphasize the responsibilities under the federal securities laws of local government officials who authorize the issuance of municipal securities\". A report that states a duty in place of charging the people who owed it."
+      },
+      "closedLoopRatchet": {
+        "inheritedFramework": "A municipal securities market in which the issuer is primarily liable for its own disclosure and no regulator reviews an Official Statement before it is used.",
+        "newFrameworkCreated": "The duty this report announces for public officials personally: \"a public official may not authorize disclosure that the official knows to be false\", applied to those \"who have ultimate authority to approve the issuance of securities and related disclosure documents\".",
+        "closedLoopRecirculation": "The pools’ reported earnings supported the county’s finances; the county’s finances supported the offerings; the offerings fed proceeds back into the pools. Each leg depended on the others being described accurately, and the report found they were not.",
+        "enablesNextDossier": "CC-1998-LTCM_BAILOUT_1998"
+      },
+      "decoyVsLedger": {
+        "viralDecoy": "That one county treasurer gambled on exotic derivatives and bankrupted Orange County while the elected board knew nothing about it.",
+        "whyDecoyFails": "The Commission did act against the treasurer and his assistant — both were enjoined from future antifraud violations by settled civil action. But it declined the knew-nothing framing for the board, and it said so by issuing a Section 21(a) report specifically \"in the Matter of County of Orange, California as it Relates to the Conduct of the Members of the Board of Supervisors\", addressed to \"the conduct of the individual members of the Board of Supervisors ... in authorizing the issuance of these municipal securities\". It also settled a cease and desist proceeding against the Board of Supervisors as a body. The report's stated purpose is to set out what officials who authorise offerings are responsible for. What should not be read into it is a finding of individual liability: a 21(a) report states the Commission's views and charges no one, the Supervisors were not charged, and the Commission recorded that its investigation was ongoing.",
+        "documentedLedger": "An SEC Report of Investigation under Section 21(a), Exchange Act Release No. 36761, dated 24 January 1996, into events of 1993 and 1994. Six County offerings raising approximately $1.3 billion. Official Statements containing material misstatements and omissions about the County Pools and the County’s financial condition and its ability to repay. Four specified links between the securities and the pools. A settled civil injunctive action against former Treasurer-Tax Collector Robert L. Citron and former Assistant Treasurer Matthew R. Raabe. A settled cease and desist proceeding against the County, the Flood Control District and the Board of Supervisors. No charges against individual Supervisors, and instead a published statement of the duty: public entities \"are primarily liable for the content of their disclosure documents\", and an official with ultimate authority to approve them \"may not authorize disclosure that the official knows to be false\"."
+      },
+      "citationIds": [
+        "CIT-1994-SEC"
+      ],
+      "citations": [
+        {
+          "id": "CIT-1994-SEC",
+          "tier": "TIER_1_STATUTE_COURT",
+          "title": "U.S. Securities and Exchange Commission, Report of Investigation in the Matter of County of Orange, California as it Relates to the Conduct of the Members of the Board of Supervisors, Exchange Act Release No. 36761 (24 January 1996), Section 21(a) of the Exchange Act",
+          "url": "https://www.sec.gov/enforcement-litigation/reports-investigations/municipal-bond-participants-public-officials",
+          "quoteOrFact": "Read from sec.gov, where the full text of the Section 21(a) report is published on the Commission's \"Municipal Bond Participants: Public Officials and Obligated Persons\" page. (The page is a collection of reports of investigation; the Orange County report is reproduced on it in full and is what is cited here.) THE SUBJECT: \"The staff of the Division of Enforcement has conducted an investigation into various events in 1993 and 1994 involving material misrepresentations and omissions in connection with the offer and sale of certain municipal securities, including those issued by the County of Orange, California ... Six of these municipal offerings by the County collectively raised approximately $1.3 billion and are the subject of this report.\" THE FINDING ON THE DOCUMENTS: \"The Official Statements for these municipal securities offerings contained material misstatements and omissions concerning the risks relating to, among other things, the County Pools and the financial condition of Orange County, including its ability to repay the securities.\" WHAT ELSE THE COMMISSION DID THE SAME DAY: it \"filed and settled a related civil injunctive action against the former County Treasurer-Tax Collector, Robert L. Citron ... and the former Assistant Treasurer, Matthew R. Raabe ... pursuant to which they will be enjoined from future violations of the antifraud provisions\", and \"instituted and settled a related cease and desist proceeding ... against Orange County, the Orange County Flood Control District and the Board of Supervisors of Orange County\". THE POINT OF ISSUING A 21(a) REPORT RATHER THAN CHARGING THE SUPERVISORS, stated by the Commission: it is \"issuing this Report to emphasize the responsibilities under the federal securities laws of local government officials who authorize the issuance of municipal securities and related disclosure documents and the critical role such officials play with respect to the representations contained in the Official Statements for those securities.\" And the standard it sets out: \"Public entities that issue securities are primarily liable for the content of their disclosure documents\"; and \"public officials of the issuer who have ultimate authority to approve the issuance of securities and related disclosure documents have responsibilities under the federal securities laws as well. In authorizing the issuance of securities and related disclosure documents, a public official may not authorize disclosure that the official knows to be false\". The report records that \"The Commission's investigation is ongoing\" as at its date. A Section 21(a) report states the Commission's views; it is not an adjudication and it charges no one. THIS CITATION WAS INHERITED WITH A PLACEHOLDER quoteOrFact reading only \"Source carried over from the Crash Conduits entry\" — a URL attached to the node without being opened. It has now been opened and read."
+        }
+      ],
+      "pairedEvent": null,
+      "bridges": []
+    },
+    {
+      "code": "CC-1974-HERSTATT_RISK_1974",
+      "eraId": "ERA-08-1953",
+      "yearStart": 1974,
+      "yearEnd": 1996,
+      "title": "A Committee Founded on One Failure: Basel in 1974, and Settlement Risk Still Open in 1996",
+      "primaryTab": "crash-conduits",
+      "secondaryTabs": [
+        "deep-state"
+      ],
+      "mechanism": "DERIVATIVE_CLEARING_CAPTURE",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "auditDisposition": "DOCUMENTED",
+      "participants": [
+        "Bankhaus Herstatt",
+        "Central bank Governors of the Group of Ten",
+        "Basel Committee on Banking Supervision",
+        "Bank for International Settlements",
+        "Committee on Payment and Settlement Systems"
+      ],
+      "extractionLoop": {
+        "stage1_upfrontSkim": "Nothing was skimmed here in the usual sense, and the dossier does not invent one. What the sources establish is a cost borne by counterparties when a bank is closed mid-settlement, and the institutional response to it.",
+        "stage2_structuralCompromise": "The structural flaw is the one the 1996 report still describes: foreign exchange settlement in which the two legs of a trade are paid at different times in different jurisdictions, so that a counterparty can deliver and not receive. The Committee on Payment and Settlement Systems reports on \"existing arrangements for settling foreign exchange trades\" and makes recommendations \"grounded in market realities\".",
+        "stage3_informationFog": "The gap the Basel Committee was created to close is a supervisory one and the BIS states it: \"one important aim of the Committee’s work was to close gaps in international supervisory coverage so that (i) no banking establishment would escape supervision; and (ii) supervision would be adequate and consistent\" across jurisdictions. Before that, a bank could be supervised nowhere in particular.",
+        "stage4_monopolyWindfall": "The windfall in this file is institutional rather than financial: a permanent standard-setting body at the BIS, which from the Basel Concordat of 1975 onward produced \"a series of international standards for bank regulation, most notably its landmark publications of the accords on capital adequacy which are commonly known as Basel I, Basel II and, most recently, Basel III\", and grew \"from the G10 to 45 institutions from 28 jurisdictions\".",
+        "stage5_merseyWhitewash": "The thing worth noticing is how long the underlying risk outlived the committee founded because of it. Twenty-two years after 1974, the CPSS still had a Steering Group on Settlement Risk in Foreign Exchange Transactions producing a 74-page report, whose chairman wrote that \"the probability of a major disruption in the foreign exchange settlement process is low\" but \"its potential consequences in a market of this size and complexity are considerable\", and which \"calls upon individual banks and industry groups alike to improve current practices and devise safe mechanisms for addressing settlement risk.\""
+      },
+      "closedLoopRatchet": {
+        "inheritedFramework": "Cross-border banking without a supervisor of the whole, and a foreign exchange market settling across time zones with no simultaneous exchange of value.",
+        "newFrameworkCreated": "The Basel Committee itself, established by the G10 central bank Governors at the end of 1974, first meeting February 1975; the Basel Concordat of 1975; and the capital accords that followed.",
+        "closedLoopRecirculation": "The failure exposed a gap; the gap produced a committee; the committee produced standards; and the specific risk that caused the failure remained on the committee system’s agenda for decades, which is the honest shape of this one.",
+        "enablesNextDossier": "CC-1982-LATIN_AMERICAN_DEBT_1982"
+      },
+      "decoyVsLedger": {
+        "viralDecoy": "That \"Herstatt risk\" names a deliberate stitch-up — a bank closed at the moment that maximised losses for its counterparties — and that Basel was set up to protect banks rather than to supervise them.",
+        "whyDecoyFails": "Neither source read here supports a stitch-up, and this dossier asserts none. What the BIS does state is the causal link: the Basel Committee \"was established by the central bank Governors of the Group of Ten countries at the end of 1974 in the aftermath of serious disturbances in international currency and banking markets (notably the failure of Bankhaus Herstatt in West Germany)\", and that its aim was to close gaps \"so that ... no banking establishment would escape supervision\". A LIMITATION THE DOSSIER STATES RATHER THAN HIDES: the second source cited here, the 1996 CPSS report page on settlement risk in foreign exchange transactions, DOES NOT MENTION HERSTATT at all. \"Herstatt risk\" is the market’s name for settlement risk, not that document’s, and nothing in this dossier attributes the link to it. Nor was the 1974 failure itself examined here: no contemporaneous record of it was read, and no claim is made about how or why the bank was closed.",
+        "documentedLedger": "The Basel Committee on Banking Supervision, initially the Committee on Banking Regulations and Supervisory Practices, established by the G10 central bank Governors at the end of 1974 in the aftermath of serious disturbances in international currency and banking markets, notably the failure of Bankhaus Herstatt in West Germany. Headquartered at the BIS; first meeting February 1975; the Basel Concordat first issued in 1975; the capital accords Basel I, II and III; membership grown from the G10 to 45 institutions from 28 jurisdictions. And, in 1996, a Committee on Payment and Settlement Systems report of 74 pages by a Steering Group on Settlement Risk in Foreign Exchange Transactions, analysing existing settlement arrangements and calling on banks and industry groups \"to improve current practices and devise safe mechanisms for addressing settlement risk\"."
+      },
+      "citationIds": [
+        "CIT-1974-BIS-BASEL-COMMITTEE-ON-1",
+        "CIT-1974-BIS-COMMITTEE-ON-PAYMENT-2"
+      ],
+      "citations": [
+        {
+          "id": "CIT-1974-BIS-BASEL-COMMITTEE-ON-1",
+          "tier": "TIER_3_PRIMARY_LEDGER",
+          "title": "Bank for International Settlements, Basel Committee on Banking Supervision — \"History of the Basel Committee\"",
+          "url": "https://www.bis.org/bcbs/history.htm",
+          "quoteOrFact": "Read from the BIS's own site. THE FOUNDING, and the cause it names: \"The Basel Committee - initially named the Committee on Banking Regulations and Supervisory Practices - was established by the central bank Governors of the Group of Ten countries at the end of 1974 in the aftermath of serious disturbances in international currency and banking markets (notably the failure of Bankhaus Herstatt in West Germany). The Committee, headquartered at the Bank for International Settlements in Basel, was established to enhance financial stability by improving the quality of banking supervision worldwide, and to serve as a forum for regular cooperation between its member countries on banking supervisory matters.\" On what followed: \"The Committee's first meeting took place in February 1975, and meetings have been held regularly three or four times a year since. Since its inception, the Basel Committee has expanded its membership from the G10 to 45 institutions from 28 jurisdictions. Starting with the Basel Concordat, first issued in 1975 and revised several times since, the Committee has established a series of international standards for bank regulation, most notably its landmark publications of the accords on capital adequacy which are commonly known as Basel I, Basel II and, most recently, Basel III.\" On the original objective: \"one important aim of the Committee's work was to close gaps in international supervisory coverage so that (i) no banking establishment would escape supervision; and (ii) supervision would be adequate and consistent\" across jurisdictions. This is an institutional history page, not a contemporaneous record of the 1974 failure itself. THIS CITATION WAS INHERITED WITH A PLACEHOLDER quoteOrFact reading only \"Source carried over from the Crash Conduits entry\" — a URL attached to the node without being opened. It has now been opened and read."
+        },
+        {
+          "id": "CIT-1974-BIS-COMMITTEE-ON-PAYMENT-2",
+          "tier": "TIER_3_PRIMARY_LEDGER",
+          "title": "Bank for International Settlements, Committee on Payment and Settlement Systems, Settlement risk in foreign exchange transactions (the Allsopp Report), publication d17 — landing page and foreword",
+          "url": "https://www.bis.org/cpmi/publ/d17.htm",
+          "quoteOrFact": "Read from the BIS's own site. IMPORTANT LIMITATION, recorded because it bears on how this citation may be used: THE PAGE DOES NOT MENTION HERSTATT. The word does not appear on it at all. \"Herstatt risk\" is the market's name for foreign exchange settlement risk, but this document does not make that link, and nothing in this dossier attributes the link to it — the Basel Committee history page is cited separately for that. What this page does establish is that the risk was still a live supervisory problem two decades after 1974. From the foreword by William J. McDonough, Chairman of the Committee on Payment and Settlement Systems and President of the Federal Reserve Bank of New York: \"Although the probability of a major disruption in the foreign exchange settlement process is low, its potential consequences in a market of this size and complexity are considerable. This report, which was prepared on behalf of the Committee on Payment and Settlement Systems by its Steering Group on Settlement Risk in Foreign Exchange Transactions, offers a practical approach to dealing with this risk. The report analyses existing arrangements for settling foreign exchange trades and makes recommendations grounded in market realities. It calls upon individual banks and industry groups alike to improve current practices and devise safe mechanisms for addressing settlement risk. For their part, central banks have identified several avenues for cooperating with the private sector and for providing inducements to push this effort forward. I believe the report makes a compelling case that the private sector can, with a relatively modest expenditure of resources, make important progress in containing settlement risk.\" The landing page records the report as 74 pages; the report itself was not downloaded or read, and nothing is taken from beyond this page. THIS CITATION WAS INHERITED WITH A PLACEHOLDER quoteOrFact reading only \"Source carried over from the Crash Conduits entry\" — a URL attached to the node without being opened. It has now been opened and read."
+        }
+      ],
+      "pairedEvent": null,
+      "bridges": []
     }
   ],
   "lineages": [
@@ -9036,59 +9062,6 @@
         "bridges": []
       },
       {
-        "code": "CC-1974-HERSTATT_RISK_1974",
-        "eraId": "ERA-08-1953",
-        "yearStart": 1974,
-        "yearEnd": 1974,
-        "title": "Bankhaus Herstatt Collapse & Cross-Currency Settlement Risk",
-        "primaryTab": "crash-conduits",
-        "secondaryTabs": [],
-        "mechanism": "CENTRAL_BANK_LIQUIDITY",
-        "tier": "TIER_3_PRIMARY_LEDGER",
-        "auditDisposition": "DOCUMENTED",
-        "participants": [],
-        "extractionLoop": {
-          "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-          "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-          "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-          "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-          "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
-        },
-        "closedLoopRatchet": {
-          "inheritedFramework": "Prior credit and clearing architecture.",
-          "newFrameworkCreated": "Expanded institutional backstop.",
-          "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-          "enablesNextDossier": "CC-2026-ARBITRAGE"
-        },
-        "decoyVsLedger": {
-          "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-          "whyDecoyFails": "Fails primary ledger cross-examination.",
-          "documentedLedger": "Bankhaus Herstatt Collapse & Cross-Currency Settlement Risk"
-        },
-        "citationIds": [
-          "CIT-1974-BIS-BASEL-COMMITTEE-ON-1",
-          "CIT-1974-BIS-COMMITTEE-ON-PAYMENT-2"
-        ],
-        "citations": [
-          {
-            "id": "CIT-1974-BIS-BASEL-COMMITTEE-ON-1",
-            "tier": "TIER_4_CONTEMPORARY_PRESS",
-            "title": "History of the Basel Committee — BIS / Basel Committee on Banking Supervision",
-            "url": "https://www.bis.org/bcbs/history.htm",
-            "quoteOrFact": "Source carried over from the Crash Conduits entry \"herstatt-risk-1974\" for Bankhaus Herstatt Collapse & Cross-Currency Settlement Risk."
-          },
-          {
-            "id": "CIT-1974-BIS-COMMITTEE-ON-PAYMENT-2",
-            "tier": "TIER_4_CONTEMPORARY_PRESS",
-            "title": "Settlement risk in foreign exchange transactions — published introduction (9 March 1996) — BIS / Committee on Payment and Settlement Systems",
-            "url": "https://www.bis.org/cpmi/publ/d17.htm",
-            "quoteOrFact": "Source carried over from the Crash Conduits entry \"herstatt-risk-1974\" for Bankhaus Herstatt Collapse & Cross-Currency Settlement Risk."
-          }
-        ],
-        "pairedEvent": null,
-        "bridges": []
-      },
-      {
         "code": "CC-1980-SILVER_THURSDAY_1980",
         "eraId": "ERA-08-1953",
         "yearStart": 1980,
@@ -9398,51 +9371,6 @@
             "title": "UK House of Commons Secret Committee Report on the South Sea Company (1721)",
             "url": "https://hansard.parliament.uk/",
             "quoteOrFact": "Parliamentary inquiry documented fictitious stock ledger entries used to bribe MPs and Cabinet ministers prior to the 1720 crash."
-          }
-        ],
-        "pairedEvent": null,
-        "bridges": []
-      },
-      {
-        "code": "CC-1994-ORANGE_COUNTY_1994",
-        "eraId": "ERA-09-2001",
-        "yearStart": 1994,
-        "yearEnd": 1994,
-        "title": "Orange County Bankruptcy & Wall Street Inverse Floater Gambles",
-        "primaryTab": "crash-conduits",
-        "secondaryTabs": [],
-        "mechanism": "CENTRAL_BANK_LIQUIDITY",
-        "tier": "TIER_3_PRIMARY_LEDGER",
-        "auditDisposition": "DOCUMENTED",
-        "participants": [],
-        "extractionLoop": {
-          "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-          "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-          "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-          "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-          "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
-        },
-        "closedLoopRatchet": {
-          "inheritedFramework": "Prior credit and clearing architecture.",
-          "newFrameworkCreated": "Expanded institutional backstop.",
-          "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-          "enablesNextDossier": "CC-2026-ARBITRAGE"
-        },
-        "decoyVsLedger": {
-          "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-          "whyDecoyFails": "Fails primary ledger cross-examination.",
-          "documentedLedger": "Orange County Bankruptcy & Wall Street Inverse Floater Gambles"
-        },
-        "citationIds": [
-          "CIT-1994-SEC"
-        ],
-        "citations": [
-          {
-            "id": "CIT-1994-SEC",
-            "tier": "TIER_3_PRIMARY_LEDGER",
-            "title": "Municipal Bond Participants: Public Officials — Orange County Section 21(a) Report, January 24, 1996 — SEC",
-            "url": "https://www.sec.gov/enforcement-litigation/reports-investigations/municipal-bond-participants-public-officials",
-            "quoteOrFact": "Source carried over from the Crash Conduits entry \"orange-county-1994\" for Orange County Bankruptcy & Wall Street Inverse Floater Gambles."
           }
         ],
         "pairedEvent": null,
@@ -10171,51 +10099,6 @@
             "title": "Financial Stability Report — December 2022 (13 December 2022) — Bank of England / Financial Policy Committee",
             "url": "https://www.bankofengland.co.uk/financial-stability-report/2022/december-2022",
             "quoteOrFact": "Source carried over from the Crash Conduits entry \"uk-ldi-gilt-crisis-2022\" for The UK LDI Pension Gilt Crisis & the Bank of England's Emergency Gilt Purchases."
-          }
-        ],
-        "pairedEvent": null,
-        "bridges": []
-      },
-      {
-        "code": "CC-2023-CREDIT_SUISSE_AT1_2023",
-        "eraId": "ERA-10-2020",
-        "yearStart": 2023,
-        "yearEnd": 2023,
-        "title": "The Fall of Credit Suisse & The $17 Billion AT1 Capital Wipeout",
-        "primaryTab": "crash-conduits",
-        "secondaryTabs": [],
-        "mechanism": "CENTRAL_BANK_LIQUIDITY",
-        "tier": "TIER_3_PRIMARY_LEDGER",
-        "auditDisposition": "DOCUMENTED",
-        "participants": [],
-        "extractionLoop": {
-          "stage1_upfrontSkim": "Upfront fee and leverage extraction.",
-          "stage2_structuralCompromise": "Regulatory or collateral dilution prior to shock.",
-          "stage3_informationFog": "Asymmetric clearing and disclosure window.",
-          "stage4_monopolyWindfall": "Emergency backstop or market-share consolidation.",
-          "stage5_merseyWhitewash": "Supervisory settlement without structural clawback."
-        },
-        "closedLoopRatchet": {
-          "inheritedFramework": "Prior credit and clearing architecture.",
-          "newFrameworkCreated": "Expanded institutional backstop.",
-          "closedLoopRecirculation": "Crisis intervention consolidates market share among primary dealers.",
-          "enablesNextDossier": "CC-2026-ARBITRAGE"
-        },
-        "decoyVsLedger": {
-          "viralDecoy": "Unverified monocausal rumor lacking docket citations.",
-          "whyDecoyFails": "Fails primary ledger cross-examination.",
-          "documentedLedger": "The Fall of Credit Suisse & The $17 Billion AT1 Capital Wipeout"
-        },
-        "citationIds": [
-          "CIT-2023-SWISS-FINANCIAL-MARKET"
-        ],
-        "citations": [
-          {
-            "id": "CIT-2023-SWISS-FINANCIAL-MARKET",
-            "tier": "TIER_4_CONTEMPORARY_PRESS",
-            "title": "FINMA provides information about the basis for writing down AT1 capital instruments (23 March 2023) — Swiss Financial Market Supervisory Authority FINMA",
-            "url": "https://www.finma.ch/en/news/2023/03/20230323-mm-at1-kapitalinstrumente/",
-            "quoteOrFact": "Source carried over from the Crash Conduits entry \"credit-suisse-at1-2023\" for The Fall of Credit Suisse & The $17 Billion AT1 Capital Wipeout."
           }
         ],
         "pairedEvent": null,
@@ -14038,6 +13921,175 @@
             "title": "U.S. Securities and Exchange Commission, New York Attorney General’s Office, NASD and NYSE, \"Permanently Bar Jack Grubman and Require $15 Million Payment\", Release 2003-55, 28 April 2003",
             "url": "https://www.sec.gov/newsroom/press-releases/2003-55-securities-exchange-commission-new-york-attorney-generals-office-nasd-new-york-stock-exchange",
             "quoteOrFact": "Read in full from sec.gov. Jack Grubman \"will be censured and permanently barred from the securities industry, and will pay a total of $15 million to settle their charges against him.\" The regulators charged that Grubman, \"a former managing director of Salomon Smith Barney Inc. (SSB), the lead research analyst for SSB's telecommunications (telecom) sector and the linchpin for SSB's investment banking efforts in the telecom sector, issued fraudulent, misleading, and otherwise flawed research reports under SSB's name. As a result, Grubman aided and abetted SSB's violations of antifraud provisions of the federal securities laws and violated NASD and NYSE rules as well as New York State law.\" The phrase \"the linchpin for SSB's investment banking efforts in the telecom sector\" is the regulators’, and it is the conflict stated as a job description. Specifically, during 1999-2001 he \"issued several fraudulent research reports on two telecom stocks (Focal Communications and Metromedia Fiber) that contained misstatements and omissions of material facts about the companies, contained recommendations contrary to the actual views regarding the companies, overlooked or minimized the risk of investing in these companies, and predicted substantial growth in the companies' revenues and earnings without a reasonable basis\", and issued reports on six telecom stocks including RCN, Level 3, XO, Adelphia Business Solutions and Williams Communications \"that were not based on principles of fair dealing and good faith\". A settlement of charges, not an adjudicated verdict. THIS CITATION WAS INHERITED WITH A PLACEHOLDER quoteOrFact reading only \"Source carried over from the Crash Conduits entry\" — a URL attached to the node without being opened. It has now been opened and read in full."
+          }
+        ],
+        "pairedEvent": null,
+        "bridges": []
+      },
+      {
+        "code": "CC-2023-CREDIT_SUISSE_AT1_2023",
+        "eraId": "ERA-10-2020",
+        "yearStart": 2023,
+        "yearEnd": 2023,
+        "title": "A Viability Event in the Prospectus: Why the AT1 Write-Down Was Contractual, and What That Does Not Settle",
+        "primaryTab": "crash-conduits",
+        "secondaryTabs": [
+          "deep-state"
+        ],
+        "mechanism": "MERSEY_LIABILITY_WHITEWASH",
+        "tier": "TIER_1_STATUTE_COURT",
+        "auditDisposition": "DOCUMENTED",
+        "participants": [
+          "Credit Suisse",
+          "Swiss Financial Market Supervisory Authority (FINMA)",
+          "Swiss Federal Council",
+          "Swiss National Bank",
+          "AT1 bondholders"
+        ],
+        "extractionLoop": {
+          "stage1_upfrontSkim": "The yield was the compensation for exactly this. FINMA describes what the instruments are: AT1 capital \"designed in such a way that they are written down or converted into Common Equity Tier 1 capital before the equity capital of the bank concerned is completely used up or written down\", and \"mainly held by institutional investors due to their risk profile and large denominations\". The release lists thirteen publicly issued instruments by ISIN, running from a 7.500% note issued in December 2013 to a 9.750% issue of June 2022 — coupons that were the price of the clause that destroyed them.",
+          "stage2_structuralCompromise": "The trigger was written in before the crisis and it was broad. The instruments \"contractually provide that they will be completely written down in a ‘Viability Event’, in particular if extraordinary government support is granted.\" A clause triggered by rescue is a clause that fires precisely when the holder most expects protection.",
+          "stage3_informationFog": "The fog here was not in the documents but in the expectation around them. FINMA had to publish this release at all because of \"numerous enquiries\", four days after the event, to explain a basis that was already in the prospectuses the holders had bought. The hierarchy people believed they held was not the hierarchy the contract described.",
+          "stage4_monopolyWindfall": "The write-down removed a class of liability from the balance sheet being handed to the acquirer. FINMA records the date the condition was met: \"Credit Suisse was granted extraordinary liquidity assistance loans secured by a federal default guarantee on 19 March 2023\", and that the Federal Council enacted its Emergency Ordinance the same day, which \"also authorises FINMA to order the borrower and the financial group to write down Additional Tier 1 capital.\"",
+          "stage5_merseyWhitewash": "The containment was an emergency ordinance enacted on the day it was needed, layered on top of a contractual clause — belt and braces for a decision taken over a weekend. FINMA's own account cites both: it \"relies on the issuance prospectuses for the bonds and the Federal Council’s Emergency Ordinance\". Tier 2 bonds were not written down. What this document is not is a court ruling; bondholder litigation is not addressed in it and no outcome is asserted here."
+        },
+        "closedLoopRatchet": {
+          "inheritedFramework": "The post-2008 bail-in architecture: loss-absorbing capital sold to institutional investors on the premise that it converts or writes down before taxpayers are touched.",
+          "newFrameworkCreated": "A worked precedent that a viability clause can fire on the granting of state liquidity support, and an emergency ordinance giving the supervisor express power to order the write-down — enacted the same day the support was granted.",
+          "closedLoopRecirculation": "The instruments paid a high coupon because of the write-down clause; the clause existed so that the state would not have to pay; the state support was itself the event that triggered the clause.",
+          "enablesNextDossier": "CC-2026-ARBITRAGE"
+        },
+        "decoyVsLedger": {
+          "viralDecoy": "That Switzerland tore up the capital hierarchy overnight — wiping out $17 billion of bondholders while shareholders got paid — and invented the legal basis for it afterwards.",
+          "whyDecoyFails": "The basis was in the documents the bondholders bought. FINMA states that the instruments \"contractually provide that they will be completely written down in a ‘Viability Event’, in particular if extraordinary government support is granted\", and that the condition was met when Credit Suisse received \"extraordinary liquidity assistance loans secured by a federal default guarantee on 19 March 2023\". The Emergency Ordinance of the same day was additional authority, not the sole basis: FINMA says it relies on both \"the issuance prospectuses for the bonds and the Federal Council’s Emergency Ordinance\". AT1 is also designed to absorb loss ahead of equity being fully written down, which the release states expressly. But this dossier should not take the regulator's account as the last word either: the document read here is FINMA explaining its own decision four days afterwards, not a court testing it, and bondholder litigation is outside what was read. The precise, defensible statement is that the write-down had a stated contractual and statutory basis, not that its lawfulness was adjudicated.",
+          "documentedLedger": "A FINMA release of 23 March 2023 explaining the basis for the complete write-down of Credit Suisse AT1 instruments, resting on the issuance prospectuses and the Federal Council’s Emergency Ordinance. The contractual trigger: complete write-down in a Viability Event, in particular where extraordinary government support is granted. The triggering fact: extraordinary liquidity assistance loans secured by a federal default guarantee on 19 March 2023. The Emergency Ordinance of 19 March 2023 authorising FINMA to order the write-down. Tier 2 bonds not written down. Thirteen affected publicly issued instruments listed by ISIN, issue date, currency and coupon. And the design principle stated by the regulator: AT1 is written down or converted before the bank’s equity capital is completely used up."
+        },
+        "citationIds": [
+          "CIT-2023-SWISS-FINANCIAL-MARKET"
+        ],
+        "citations": [
+          {
+            "id": "CIT-2023-SWISS-FINANCIAL-MARKET",
+            "tier": "TIER_1_STATUTE_COURT",
+            "title": "Swiss Financial Market Supervisory Authority (FINMA), \"FINMA provides information about the basis for writing down AT1 capital instruments\", press release, 23 March 2023",
+            "url": "https://www.finma.ch/en/news/2023/03/20230323-mm-at1-kapitalinstrumente/",
+            "quoteOrFact": "Read in full from FINMA's own site. The release exists to answer the objection: \"The Swiss Financial Market Supervisory Authority FINMA hereby explains the basis for the complete write-down of the nominal value of AT1 capital instruments issued by Credit Suisse. For this, FINMA relies on the issuance prospectuses for the bonds and the Federal Council’s Emergency Ordinance.\" And: \"FINMA has instructed Credit Suisse to completely write down its AT1 instruments and to inform the bondholders concerned without delay. Tier 2 bonds are not written down.\" THE CONTRACTUAL BASIS, which is the answer to the claim that the hierarchy was inverted lawlessly: \"The AT1 instruments issued by Credit Suisse contractually provide that they will be completely written down in a ‘Viability Event’, in particular if extraordinary government support is granted. As Credit Suisse was granted extraordinary liquidity assistance loans secured by a federal default guarantee on 19 March 2023, these contractual conditions were met for the AT1 instruments issued by the bank.\" THE ORDINANCE: \"On 19 March 2023, the Federal Council enacted the Emergency Ordinance on Additional Liquidity Assistance Loans and the Granting of Federal Default Guarantees for Liquidity Assistance Loans by the Swiss National Bank to Systemically Important Banks. The Ordinance also authorises FINMA to order the borrower and the financial group to write down Additional Tier 1 capital.\" ON WHAT THE INSTRUMENTS ARE FOR: \"AT1 instruments in Switzerland are designed in such a way that they are written down or converted into Common Equity Tier 1 capital before the equity capital of the bank concerned is completely used up or written down. The instruments publicly issued by large banks are mainly held by institutional investors due to their risk profile and large denominations.\" The release then lists every affected publicly issued instrument by ISIN, issue date, currency and coupon — thirteen entries beginning with 7.500% Tier 1 Capital Notes issued 11 December 2013 and running to a 9.750% issue of 23 June 2022. FINMA CEO Urban Angehrn is quoted on the wider resolution: \"On Sunday, a solution could be found to protect clients, the financial centre and the markets.\" This is the regulator's own statement of its legal basis, published four days after the event. It is not a court ruling, and litigation by bondholders is not addressed in it. THIS CITATION WAS INHERITED WITH A PLACEHOLDER quoteOrFact reading only \"Source carried over from the Crash Conduits entry\" — a URL attached to the node without being opened. It has now been opened and read."
+          }
+        ],
+        "pairedEvent": null,
+        "bridges": []
+      },
+      {
+        "code": "CC-1994-ORANGE_COUNTY_1994",
+        "eraId": "ERA-09-2001",
+        "yearStart": 1993,
+        "yearEnd": 1996,
+        "title": "A Public Official May Not Authorize Disclosure He Knows to Be False: $1.3 Billion and a 21(a) Report",
+        "primaryTab": "crash-conduits",
+        "secondaryTabs": [
+          "carbon-class",
+          "deep-state"
+        ],
+        "mechanism": "DERIVATIVE_CLEARING_CAPTURE",
+        "tier": "TIER_1_STATUTE_COURT",
+        "auditDisposition": "DOCUMENTED",
+        "participants": [
+          "County of Orange, California",
+          "Orange County Board of Supervisors",
+          "Robert L. Citron (former Treasurer-Tax Collector)",
+          "Matthew R. Raabe (former Assistant Treasurer)",
+          "Orange County Flood Control District",
+          "U.S. Securities and Exchange Commission"
+        ],
+        "extractionLoop": {
+          "stage1_upfrontSkim": "The money was raised from the public market on documents the Commission found defective: \"Six of these municipal offerings by the County collectively raised approximately $1.3 billion and are the subject of this report.\"",
+          "stage2_structuralCompromise": "The compromise was the dependence of the securities on the pools. The report sets out four ways the offerings were tied to the County Pools — proceeds reinvested in them for interest earnings, funds pledged to repay securities invested in them, the Pools agreeing to repurchase or repay certain securities, and \"the County’s economic reliance on the County Pools materially affected its ability to repay the securities.\"",
+          "stage3_informationFog": "The fog was in the Official Statements, and the finding is flat: they \"contained material misstatements and omissions concerning the risks relating to, among other things, the County Pools and the financial condition of Orange County, including its ability to repay the securities.\"",
+          "stage4_monopolyWindfall": "What the omissions preserved was continued market access on terms that did not price the risk — six offerings over 1993 and 1994, the period the investigation covers, raising approximately $1.3 billion from investors who were not told what the report says they should have been told.",
+          "stage5_merseyWhitewash": "The disposition is the interesting part and it is a choice the Commission explains. Against the officers, action: a settled civil injunctive action against the former Treasurer-Tax Collector and the former Assistant Treasurer, enjoining future antifraud violations, and a settled cease and desist proceeding against the County, the Flood Control District and the Board of Supervisors. Against the individual Supervisors, no charges — instead a Section 21(a) report \"to emphasize the responsibilities under the federal securities laws of local government officials who authorize the issuance of municipal securities\". A report that states a duty in place of charging the people who owed it."
+        },
+        "closedLoopRatchet": {
+          "inheritedFramework": "A municipal securities market in which the issuer is primarily liable for its own disclosure and no regulator reviews an Official Statement before it is used.",
+          "newFrameworkCreated": "The duty this report announces for public officials personally: \"a public official may not authorize disclosure that the official knows to be false\", applied to those \"who have ultimate authority to approve the issuance of securities and related disclosure documents\".",
+          "closedLoopRecirculation": "The pools’ reported earnings supported the county’s finances; the county’s finances supported the offerings; the offerings fed proceeds back into the pools. Each leg depended on the others being described accurately, and the report found they were not.",
+          "enablesNextDossier": "CC-1998-LTCM_BAILOUT_1998"
+        },
+        "decoyVsLedger": {
+          "viralDecoy": "That one county treasurer gambled on exotic derivatives and bankrupted Orange County while the elected board knew nothing about it.",
+          "whyDecoyFails": "The Commission did act against the treasurer and his assistant — both were enjoined from future antifraud violations by settled civil action. But it declined the knew-nothing framing for the board, and it said so by issuing a Section 21(a) report specifically \"in the Matter of County of Orange, California as it Relates to the Conduct of the Members of the Board of Supervisors\", addressed to \"the conduct of the individual members of the Board of Supervisors ... in authorizing the issuance of these municipal securities\". It also settled a cease and desist proceeding against the Board of Supervisors as a body. The report's stated purpose is to set out what officials who authorise offerings are responsible for. What should not be read into it is a finding of individual liability: a 21(a) report states the Commission's views and charges no one, the Supervisors were not charged, and the Commission recorded that its investigation was ongoing.",
+          "documentedLedger": "An SEC Report of Investigation under Section 21(a), Exchange Act Release No. 36761, dated 24 January 1996, into events of 1993 and 1994. Six County offerings raising approximately $1.3 billion. Official Statements containing material misstatements and omissions about the County Pools and the County’s financial condition and its ability to repay. Four specified links between the securities and the pools. A settled civil injunctive action against former Treasurer-Tax Collector Robert L. Citron and former Assistant Treasurer Matthew R. Raabe. A settled cease and desist proceeding against the County, the Flood Control District and the Board of Supervisors. No charges against individual Supervisors, and instead a published statement of the duty: public entities \"are primarily liable for the content of their disclosure documents\", and an official with ultimate authority to approve them \"may not authorize disclosure that the official knows to be false\"."
+        },
+        "citationIds": [
+          "CIT-1994-SEC"
+        ],
+        "citations": [
+          {
+            "id": "CIT-1994-SEC",
+            "tier": "TIER_1_STATUTE_COURT",
+            "title": "U.S. Securities and Exchange Commission, Report of Investigation in the Matter of County of Orange, California as it Relates to the Conduct of the Members of the Board of Supervisors, Exchange Act Release No. 36761 (24 January 1996), Section 21(a) of the Exchange Act",
+            "url": "https://www.sec.gov/enforcement-litigation/reports-investigations/municipal-bond-participants-public-officials",
+            "quoteOrFact": "Read from sec.gov, where the full text of the Section 21(a) report is published on the Commission's \"Municipal Bond Participants: Public Officials and Obligated Persons\" page. (The page is a collection of reports of investigation; the Orange County report is reproduced on it in full and is what is cited here.) THE SUBJECT: \"The staff of the Division of Enforcement has conducted an investigation into various events in 1993 and 1994 involving material misrepresentations and omissions in connection with the offer and sale of certain municipal securities, including those issued by the County of Orange, California ... Six of these municipal offerings by the County collectively raised approximately $1.3 billion and are the subject of this report.\" THE FINDING ON THE DOCUMENTS: \"The Official Statements for these municipal securities offerings contained material misstatements and omissions concerning the risks relating to, among other things, the County Pools and the financial condition of Orange County, including its ability to repay the securities.\" WHAT ELSE THE COMMISSION DID THE SAME DAY: it \"filed and settled a related civil injunctive action against the former County Treasurer-Tax Collector, Robert L. Citron ... and the former Assistant Treasurer, Matthew R. Raabe ... pursuant to which they will be enjoined from future violations of the antifraud provisions\", and \"instituted and settled a related cease and desist proceeding ... against Orange County, the Orange County Flood Control District and the Board of Supervisors of Orange County\". THE POINT OF ISSUING A 21(a) REPORT RATHER THAN CHARGING THE SUPERVISORS, stated by the Commission: it is \"issuing this Report to emphasize the responsibilities under the federal securities laws of local government officials who authorize the issuance of municipal securities and related disclosure documents and the critical role such officials play with respect to the representations contained in the Official Statements for those securities.\" And the standard it sets out: \"Public entities that issue securities are primarily liable for the content of their disclosure documents\"; and \"public officials of the issuer who have ultimate authority to approve the issuance of securities and related disclosure documents have responsibilities under the federal securities laws as well. In authorizing the issuance of securities and related disclosure documents, a public official may not authorize disclosure that the official knows to be false\". The report records that \"The Commission's investigation is ongoing\" as at its date. A Section 21(a) report states the Commission's views; it is not an adjudication and it charges no one. THIS CITATION WAS INHERITED WITH A PLACEHOLDER quoteOrFact reading only \"Source carried over from the Crash Conduits entry\" — a URL attached to the node without being opened. It has now been opened and read."
+          }
+        ],
+        "pairedEvent": null,
+        "bridges": []
+      },
+      {
+        "code": "CC-1974-HERSTATT_RISK_1974",
+        "eraId": "ERA-08-1953",
+        "yearStart": 1974,
+        "yearEnd": 1996,
+        "title": "A Committee Founded on One Failure: Basel in 1974, and Settlement Risk Still Open in 1996",
+        "primaryTab": "crash-conduits",
+        "secondaryTabs": [
+          "deep-state"
+        ],
+        "mechanism": "DERIVATIVE_CLEARING_CAPTURE",
+        "tier": "TIER_3_PRIMARY_LEDGER",
+        "auditDisposition": "DOCUMENTED",
+        "participants": [
+          "Bankhaus Herstatt",
+          "Central bank Governors of the Group of Ten",
+          "Basel Committee on Banking Supervision",
+          "Bank for International Settlements",
+          "Committee on Payment and Settlement Systems"
+        ],
+        "extractionLoop": {
+          "stage1_upfrontSkim": "Nothing was skimmed here in the usual sense, and the dossier does not invent one. What the sources establish is a cost borne by counterparties when a bank is closed mid-settlement, and the institutional response to it.",
+          "stage2_structuralCompromise": "The structural flaw is the one the 1996 report still describes: foreign exchange settlement in which the two legs of a trade are paid at different times in different jurisdictions, so that a counterparty can deliver and not receive. The Committee on Payment and Settlement Systems reports on \"existing arrangements for settling foreign exchange trades\" and makes recommendations \"grounded in market realities\".",
+          "stage3_informationFog": "The gap the Basel Committee was created to close is a supervisory one and the BIS states it: \"one important aim of the Committee’s work was to close gaps in international supervisory coverage so that (i) no banking establishment would escape supervision; and (ii) supervision would be adequate and consistent\" across jurisdictions. Before that, a bank could be supervised nowhere in particular.",
+          "stage4_monopolyWindfall": "The windfall in this file is institutional rather than financial: a permanent standard-setting body at the BIS, which from the Basel Concordat of 1975 onward produced \"a series of international standards for bank regulation, most notably its landmark publications of the accords on capital adequacy which are commonly known as Basel I, Basel II and, most recently, Basel III\", and grew \"from the G10 to 45 institutions from 28 jurisdictions\".",
+          "stage5_merseyWhitewash": "The thing worth noticing is how long the underlying risk outlived the committee founded because of it. Twenty-two years after 1974, the CPSS still had a Steering Group on Settlement Risk in Foreign Exchange Transactions producing a 74-page report, whose chairman wrote that \"the probability of a major disruption in the foreign exchange settlement process is low\" but \"its potential consequences in a market of this size and complexity are considerable\", and which \"calls upon individual banks and industry groups alike to improve current practices and devise safe mechanisms for addressing settlement risk.\""
+        },
+        "closedLoopRatchet": {
+          "inheritedFramework": "Cross-border banking without a supervisor of the whole, and a foreign exchange market settling across time zones with no simultaneous exchange of value.",
+          "newFrameworkCreated": "The Basel Committee itself, established by the G10 central bank Governors at the end of 1974, first meeting February 1975; the Basel Concordat of 1975; and the capital accords that followed.",
+          "closedLoopRecirculation": "The failure exposed a gap; the gap produced a committee; the committee produced standards; and the specific risk that caused the failure remained on the committee system’s agenda for decades, which is the honest shape of this one.",
+          "enablesNextDossier": "CC-1982-LATIN_AMERICAN_DEBT_1982"
+        },
+        "decoyVsLedger": {
+          "viralDecoy": "That \"Herstatt risk\" names a deliberate stitch-up — a bank closed at the moment that maximised losses for its counterparties — and that Basel was set up to protect banks rather than to supervise them.",
+          "whyDecoyFails": "Neither source read here supports a stitch-up, and this dossier asserts none. What the BIS does state is the causal link: the Basel Committee \"was established by the central bank Governors of the Group of Ten countries at the end of 1974 in the aftermath of serious disturbances in international currency and banking markets (notably the failure of Bankhaus Herstatt in West Germany)\", and that its aim was to close gaps \"so that ... no banking establishment would escape supervision\". A LIMITATION THE DOSSIER STATES RATHER THAN HIDES: the second source cited here, the 1996 CPSS report page on settlement risk in foreign exchange transactions, DOES NOT MENTION HERSTATT at all. \"Herstatt risk\" is the market’s name for settlement risk, not that document’s, and nothing in this dossier attributes the link to it. Nor was the 1974 failure itself examined here: no contemporaneous record of it was read, and no claim is made about how or why the bank was closed.",
+          "documentedLedger": "The Basel Committee on Banking Supervision, initially the Committee on Banking Regulations and Supervisory Practices, established by the G10 central bank Governors at the end of 1974 in the aftermath of serious disturbances in international currency and banking markets, notably the failure of Bankhaus Herstatt in West Germany. Headquartered at the BIS; first meeting February 1975; the Basel Concordat first issued in 1975; the capital accords Basel I, II and III; membership grown from the G10 to 45 institutions from 28 jurisdictions. And, in 1996, a Committee on Payment and Settlement Systems report of 74 pages by a Steering Group on Settlement Risk in Foreign Exchange Transactions, analysing existing settlement arrangements and calling on banks and industry groups \"to improve current practices and devise safe mechanisms for addressing settlement risk\"."
+        },
+        "citationIds": [
+          "CIT-1974-BIS-BASEL-COMMITTEE-ON-1",
+          "CIT-1974-BIS-COMMITTEE-ON-PAYMENT-2"
+        ],
+        "citations": [
+          {
+            "id": "CIT-1974-BIS-BASEL-COMMITTEE-ON-1",
+            "tier": "TIER_3_PRIMARY_LEDGER",
+            "title": "Bank for International Settlements, Basel Committee on Banking Supervision — \"History of the Basel Committee\"",
+            "url": "https://www.bis.org/bcbs/history.htm",
+            "quoteOrFact": "Read from the BIS's own site. THE FOUNDING, and the cause it names: \"The Basel Committee - initially named the Committee on Banking Regulations and Supervisory Practices - was established by the central bank Governors of the Group of Ten countries at the end of 1974 in the aftermath of serious disturbances in international currency and banking markets (notably the failure of Bankhaus Herstatt in West Germany). The Committee, headquartered at the Bank for International Settlements in Basel, was established to enhance financial stability by improving the quality of banking supervision worldwide, and to serve as a forum for regular cooperation between its member countries on banking supervisory matters.\" On what followed: \"The Committee's first meeting took place in February 1975, and meetings have been held regularly three or four times a year since. Since its inception, the Basel Committee has expanded its membership from the G10 to 45 institutions from 28 jurisdictions. Starting with the Basel Concordat, first issued in 1975 and revised several times since, the Committee has established a series of international standards for bank regulation, most notably its landmark publications of the accords on capital adequacy which are commonly known as Basel I, Basel II and, most recently, Basel III.\" On the original objective: \"one important aim of the Committee's work was to close gaps in international supervisory coverage so that (i) no banking establishment would escape supervision; and (ii) supervision would be adequate and consistent\" across jurisdictions. This is an institutional history page, not a contemporaneous record of the 1974 failure itself. THIS CITATION WAS INHERITED WITH A PLACEHOLDER quoteOrFact reading only \"Source carried over from the Crash Conduits entry\" — a URL attached to the node without being opened. It has now been opened and read."
+          },
+          {
+            "id": "CIT-1974-BIS-COMMITTEE-ON-PAYMENT-2",
+            "tier": "TIER_3_PRIMARY_LEDGER",
+            "title": "Bank for International Settlements, Committee on Payment and Settlement Systems, Settlement risk in foreign exchange transactions (the Allsopp Report), publication d17 — landing page and foreword",
+            "url": "https://www.bis.org/cpmi/publ/d17.htm",
+            "quoteOrFact": "Read from the BIS's own site. IMPORTANT LIMITATION, recorded because it bears on how this citation may be used: THE PAGE DOES NOT MENTION HERSTATT. The word does not appear on it at all. \"Herstatt risk\" is the market's name for foreign exchange settlement risk, but this document does not make that link, and nothing in this dossier attributes the link to it — the Basel Committee history page is cited separately for that. What this page does establish is that the risk was still a live supervisory problem two decades after 1974. From the foreword by William J. McDonough, Chairman of the Committee on Payment and Settlement Systems and President of the Federal Reserve Bank of New York: \"Although the probability of a major disruption in the foreign exchange settlement process is low, its potential consequences in a market of this size and complexity are considerable. This report, which was prepared on behalf of the Committee on Payment and Settlement Systems by its Steering Group on Settlement Risk in Foreign Exchange Transactions, offers a practical approach to dealing with this risk. The report analyses existing arrangements for settling foreign exchange trades and makes recommendations grounded in market realities. It calls upon individual banks and industry groups alike to improve current practices and devise safe mechanisms for addressing settlement risk. For their part, central banks have identified several avenues for cooperating with the private sector and for providing inducements to push this effort forward. I believe the report makes a compelling case that the private sector can, with a relatively modest expenditure of resources, make important progress in containing settlement risk.\" The landing page records the report as 74 pages; the report itself was not downloaded or read, and nothing is taken from beyond this page. THIS CITATION WAS INHERITED WITH A PLACEHOLDER quoteOrFact reading only \"Source carried over from the Crash Conduits entry\" — a URL attached to the node without being opened. It has now been opened and read."
           }
         ],
         "pairedEvent": null,
@@ -18316,6 +18368,175 @@
         ],
         "pairedEvent": null,
         "bridges": []
+      },
+      {
+        "code": "CC-2023-CREDIT_SUISSE_AT1_2023",
+        "eraId": "ERA-10-2020",
+        "yearStart": 2023,
+        "yearEnd": 2023,
+        "title": "A Viability Event in the Prospectus: Why the AT1 Write-Down Was Contractual, and What That Does Not Settle",
+        "primaryTab": "crash-conduits",
+        "secondaryTabs": [
+          "deep-state"
+        ],
+        "mechanism": "MERSEY_LIABILITY_WHITEWASH",
+        "tier": "TIER_1_STATUTE_COURT",
+        "auditDisposition": "DOCUMENTED",
+        "participants": [
+          "Credit Suisse",
+          "Swiss Financial Market Supervisory Authority (FINMA)",
+          "Swiss Federal Council",
+          "Swiss National Bank",
+          "AT1 bondholders"
+        ],
+        "extractionLoop": {
+          "stage1_upfrontSkim": "The yield was the compensation for exactly this. FINMA describes what the instruments are: AT1 capital \"designed in such a way that they are written down or converted into Common Equity Tier 1 capital before the equity capital of the bank concerned is completely used up or written down\", and \"mainly held by institutional investors due to their risk profile and large denominations\". The release lists thirteen publicly issued instruments by ISIN, running from a 7.500% note issued in December 2013 to a 9.750% issue of June 2022 — coupons that were the price of the clause that destroyed them.",
+          "stage2_structuralCompromise": "The trigger was written in before the crisis and it was broad. The instruments \"contractually provide that they will be completely written down in a ‘Viability Event’, in particular if extraordinary government support is granted.\" A clause triggered by rescue is a clause that fires precisely when the holder most expects protection.",
+          "stage3_informationFog": "The fog here was not in the documents but in the expectation around them. FINMA had to publish this release at all because of \"numerous enquiries\", four days after the event, to explain a basis that was already in the prospectuses the holders had bought. The hierarchy people believed they held was not the hierarchy the contract described.",
+          "stage4_monopolyWindfall": "The write-down removed a class of liability from the balance sheet being handed to the acquirer. FINMA records the date the condition was met: \"Credit Suisse was granted extraordinary liquidity assistance loans secured by a federal default guarantee on 19 March 2023\", and that the Federal Council enacted its Emergency Ordinance the same day, which \"also authorises FINMA to order the borrower and the financial group to write down Additional Tier 1 capital.\"",
+          "stage5_merseyWhitewash": "The containment was an emergency ordinance enacted on the day it was needed, layered on top of a contractual clause — belt and braces for a decision taken over a weekend. FINMA's own account cites both: it \"relies on the issuance prospectuses for the bonds and the Federal Council’s Emergency Ordinance\". Tier 2 bonds were not written down. What this document is not is a court ruling; bondholder litigation is not addressed in it and no outcome is asserted here."
+        },
+        "closedLoopRatchet": {
+          "inheritedFramework": "The post-2008 bail-in architecture: loss-absorbing capital sold to institutional investors on the premise that it converts or writes down before taxpayers are touched.",
+          "newFrameworkCreated": "A worked precedent that a viability clause can fire on the granting of state liquidity support, and an emergency ordinance giving the supervisor express power to order the write-down — enacted the same day the support was granted.",
+          "closedLoopRecirculation": "The instruments paid a high coupon because of the write-down clause; the clause existed so that the state would not have to pay; the state support was itself the event that triggered the clause.",
+          "enablesNextDossier": "CC-2026-ARBITRAGE"
+        },
+        "decoyVsLedger": {
+          "viralDecoy": "That Switzerland tore up the capital hierarchy overnight — wiping out $17 billion of bondholders while shareholders got paid — and invented the legal basis for it afterwards.",
+          "whyDecoyFails": "The basis was in the documents the bondholders bought. FINMA states that the instruments \"contractually provide that they will be completely written down in a ‘Viability Event’, in particular if extraordinary government support is granted\", and that the condition was met when Credit Suisse received \"extraordinary liquidity assistance loans secured by a federal default guarantee on 19 March 2023\". The Emergency Ordinance of the same day was additional authority, not the sole basis: FINMA says it relies on both \"the issuance prospectuses for the bonds and the Federal Council’s Emergency Ordinance\". AT1 is also designed to absorb loss ahead of equity being fully written down, which the release states expressly. But this dossier should not take the regulator's account as the last word either: the document read here is FINMA explaining its own decision four days afterwards, not a court testing it, and bondholder litigation is outside what was read. The precise, defensible statement is that the write-down had a stated contractual and statutory basis, not that its lawfulness was adjudicated.",
+          "documentedLedger": "A FINMA release of 23 March 2023 explaining the basis for the complete write-down of Credit Suisse AT1 instruments, resting on the issuance prospectuses and the Federal Council’s Emergency Ordinance. The contractual trigger: complete write-down in a Viability Event, in particular where extraordinary government support is granted. The triggering fact: extraordinary liquidity assistance loans secured by a federal default guarantee on 19 March 2023. The Emergency Ordinance of 19 March 2023 authorising FINMA to order the write-down. Tier 2 bonds not written down. Thirteen affected publicly issued instruments listed by ISIN, issue date, currency and coupon. And the design principle stated by the regulator: AT1 is written down or converted before the bank’s equity capital is completely used up."
+        },
+        "citationIds": [
+          "CIT-2023-SWISS-FINANCIAL-MARKET"
+        ],
+        "citations": [
+          {
+            "id": "CIT-2023-SWISS-FINANCIAL-MARKET",
+            "tier": "TIER_1_STATUTE_COURT",
+            "title": "Swiss Financial Market Supervisory Authority (FINMA), \"FINMA provides information about the basis for writing down AT1 capital instruments\", press release, 23 March 2023",
+            "url": "https://www.finma.ch/en/news/2023/03/20230323-mm-at1-kapitalinstrumente/",
+            "quoteOrFact": "Read in full from FINMA's own site. The release exists to answer the objection: \"The Swiss Financial Market Supervisory Authority FINMA hereby explains the basis for the complete write-down of the nominal value of AT1 capital instruments issued by Credit Suisse. For this, FINMA relies on the issuance prospectuses for the bonds and the Federal Council’s Emergency Ordinance.\" And: \"FINMA has instructed Credit Suisse to completely write down its AT1 instruments and to inform the bondholders concerned without delay. Tier 2 bonds are not written down.\" THE CONTRACTUAL BASIS, which is the answer to the claim that the hierarchy was inverted lawlessly: \"The AT1 instruments issued by Credit Suisse contractually provide that they will be completely written down in a ‘Viability Event’, in particular if extraordinary government support is granted. As Credit Suisse was granted extraordinary liquidity assistance loans secured by a federal default guarantee on 19 March 2023, these contractual conditions were met for the AT1 instruments issued by the bank.\" THE ORDINANCE: \"On 19 March 2023, the Federal Council enacted the Emergency Ordinance on Additional Liquidity Assistance Loans and the Granting of Federal Default Guarantees for Liquidity Assistance Loans by the Swiss National Bank to Systemically Important Banks. The Ordinance also authorises FINMA to order the borrower and the financial group to write down Additional Tier 1 capital.\" ON WHAT THE INSTRUMENTS ARE FOR: \"AT1 instruments in Switzerland are designed in such a way that they are written down or converted into Common Equity Tier 1 capital before the equity capital of the bank concerned is completely used up or written down. The instruments publicly issued by large banks are mainly held by institutional investors due to their risk profile and large denominations.\" The release then lists every affected publicly issued instrument by ISIN, issue date, currency and coupon — thirteen entries beginning with 7.500% Tier 1 Capital Notes issued 11 December 2013 and running to a 9.750% issue of 23 June 2022. FINMA CEO Urban Angehrn is quoted on the wider resolution: \"On Sunday, a solution could be found to protect clients, the financial centre and the markets.\" This is the regulator's own statement of its legal basis, published four days after the event. It is not a court ruling, and litigation by bondholders is not addressed in it. THIS CITATION WAS INHERITED WITH A PLACEHOLDER quoteOrFact reading only \"Source carried over from the Crash Conduits entry\" — a URL attached to the node without being opened. It has now been opened and read."
+          }
+        ],
+        "pairedEvent": null,
+        "bridges": []
+      },
+      {
+        "code": "CC-1994-ORANGE_COUNTY_1994",
+        "eraId": "ERA-09-2001",
+        "yearStart": 1993,
+        "yearEnd": 1996,
+        "title": "A Public Official May Not Authorize Disclosure He Knows to Be False: $1.3 Billion and a 21(a) Report",
+        "primaryTab": "crash-conduits",
+        "secondaryTabs": [
+          "carbon-class",
+          "deep-state"
+        ],
+        "mechanism": "DERIVATIVE_CLEARING_CAPTURE",
+        "tier": "TIER_1_STATUTE_COURT",
+        "auditDisposition": "DOCUMENTED",
+        "participants": [
+          "County of Orange, California",
+          "Orange County Board of Supervisors",
+          "Robert L. Citron (former Treasurer-Tax Collector)",
+          "Matthew R. Raabe (former Assistant Treasurer)",
+          "Orange County Flood Control District",
+          "U.S. Securities and Exchange Commission"
+        ],
+        "extractionLoop": {
+          "stage1_upfrontSkim": "The money was raised from the public market on documents the Commission found defective: \"Six of these municipal offerings by the County collectively raised approximately $1.3 billion and are the subject of this report.\"",
+          "stage2_structuralCompromise": "The compromise was the dependence of the securities on the pools. The report sets out four ways the offerings were tied to the County Pools — proceeds reinvested in them for interest earnings, funds pledged to repay securities invested in them, the Pools agreeing to repurchase or repay certain securities, and \"the County’s economic reliance on the County Pools materially affected its ability to repay the securities.\"",
+          "stage3_informationFog": "The fog was in the Official Statements, and the finding is flat: they \"contained material misstatements and omissions concerning the risks relating to, among other things, the County Pools and the financial condition of Orange County, including its ability to repay the securities.\"",
+          "stage4_monopolyWindfall": "What the omissions preserved was continued market access on terms that did not price the risk — six offerings over 1993 and 1994, the period the investigation covers, raising approximately $1.3 billion from investors who were not told what the report says they should have been told.",
+          "stage5_merseyWhitewash": "The disposition is the interesting part and it is a choice the Commission explains. Against the officers, action: a settled civil injunctive action against the former Treasurer-Tax Collector and the former Assistant Treasurer, enjoining future antifraud violations, and a settled cease and desist proceeding against the County, the Flood Control District and the Board of Supervisors. Against the individual Supervisors, no charges — instead a Section 21(a) report \"to emphasize the responsibilities under the federal securities laws of local government officials who authorize the issuance of municipal securities\". A report that states a duty in place of charging the people who owed it."
+        },
+        "closedLoopRatchet": {
+          "inheritedFramework": "A municipal securities market in which the issuer is primarily liable for its own disclosure and no regulator reviews an Official Statement before it is used.",
+          "newFrameworkCreated": "The duty this report announces for public officials personally: \"a public official may not authorize disclosure that the official knows to be false\", applied to those \"who have ultimate authority to approve the issuance of securities and related disclosure documents\".",
+          "closedLoopRecirculation": "The pools’ reported earnings supported the county’s finances; the county’s finances supported the offerings; the offerings fed proceeds back into the pools. Each leg depended on the others being described accurately, and the report found they were not.",
+          "enablesNextDossier": "CC-1998-LTCM_BAILOUT_1998"
+        },
+        "decoyVsLedger": {
+          "viralDecoy": "That one county treasurer gambled on exotic derivatives and bankrupted Orange County while the elected board knew nothing about it.",
+          "whyDecoyFails": "The Commission did act against the treasurer and his assistant — both were enjoined from future antifraud violations by settled civil action. But it declined the knew-nothing framing for the board, and it said so by issuing a Section 21(a) report specifically \"in the Matter of County of Orange, California as it Relates to the Conduct of the Members of the Board of Supervisors\", addressed to \"the conduct of the individual members of the Board of Supervisors ... in authorizing the issuance of these municipal securities\". It also settled a cease and desist proceeding against the Board of Supervisors as a body. The report's stated purpose is to set out what officials who authorise offerings are responsible for. What should not be read into it is a finding of individual liability: a 21(a) report states the Commission's views and charges no one, the Supervisors were not charged, and the Commission recorded that its investigation was ongoing.",
+          "documentedLedger": "An SEC Report of Investigation under Section 21(a), Exchange Act Release No. 36761, dated 24 January 1996, into events of 1993 and 1994. Six County offerings raising approximately $1.3 billion. Official Statements containing material misstatements and omissions about the County Pools and the County’s financial condition and its ability to repay. Four specified links between the securities and the pools. A settled civil injunctive action against former Treasurer-Tax Collector Robert L. Citron and former Assistant Treasurer Matthew R. Raabe. A settled cease and desist proceeding against the County, the Flood Control District and the Board of Supervisors. No charges against individual Supervisors, and instead a published statement of the duty: public entities \"are primarily liable for the content of their disclosure documents\", and an official with ultimate authority to approve them \"may not authorize disclosure that the official knows to be false\"."
+        },
+        "citationIds": [
+          "CIT-1994-SEC"
+        ],
+        "citations": [
+          {
+            "id": "CIT-1994-SEC",
+            "tier": "TIER_1_STATUTE_COURT",
+            "title": "U.S. Securities and Exchange Commission, Report of Investigation in the Matter of County of Orange, California as it Relates to the Conduct of the Members of the Board of Supervisors, Exchange Act Release No. 36761 (24 January 1996), Section 21(a) of the Exchange Act",
+            "url": "https://www.sec.gov/enforcement-litigation/reports-investigations/municipal-bond-participants-public-officials",
+            "quoteOrFact": "Read from sec.gov, where the full text of the Section 21(a) report is published on the Commission's \"Municipal Bond Participants: Public Officials and Obligated Persons\" page. (The page is a collection of reports of investigation; the Orange County report is reproduced on it in full and is what is cited here.) THE SUBJECT: \"The staff of the Division of Enforcement has conducted an investigation into various events in 1993 and 1994 involving material misrepresentations and omissions in connection with the offer and sale of certain municipal securities, including those issued by the County of Orange, California ... Six of these municipal offerings by the County collectively raised approximately $1.3 billion and are the subject of this report.\" THE FINDING ON THE DOCUMENTS: \"The Official Statements for these municipal securities offerings contained material misstatements and omissions concerning the risks relating to, among other things, the County Pools and the financial condition of Orange County, including its ability to repay the securities.\" WHAT ELSE THE COMMISSION DID THE SAME DAY: it \"filed and settled a related civil injunctive action against the former County Treasurer-Tax Collector, Robert L. Citron ... and the former Assistant Treasurer, Matthew R. Raabe ... pursuant to which they will be enjoined from future violations of the antifraud provisions\", and \"instituted and settled a related cease and desist proceeding ... against Orange County, the Orange County Flood Control District and the Board of Supervisors of Orange County\". THE POINT OF ISSUING A 21(a) REPORT RATHER THAN CHARGING THE SUPERVISORS, stated by the Commission: it is \"issuing this Report to emphasize the responsibilities under the federal securities laws of local government officials who authorize the issuance of municipal securities and related disclosure documents and the critical role such officials play with respect to the representations contained in the Official Statements for those securities.\" And the standard it sets out: \"Public entities that issue securities are primarily liable for the content of their disclosure documents\"; and \"public officials of the issuer who have ultimate authority to approve the issuance of securities and related disclosure documents have responsibilities under the federal securities laws as well. In authorizing the issuance of securities and related disclosure documents, a public official may not authorize disclosure that the official knows to be false\". The report records that \"The Commission's investigation is ongoing\" as at its date. A Section 21(a) report states the Commission's views; it is not an adjudication and it charges no one. THIS CITATION WAS INHERITED WITH A PLACEHOLDER quoteOrFact reading only \"Source carried over from the Crash Conduits entry\" — a URL attached to the node without being opened. It has now been opened and read."
+          }
+        ],
+        "pairedEvent": null,
+        "bridges": []
+      },
+      {
+        "code": "CC-1974-HERSTATT_RISK_1974",
+        "eraId": "ERA-08-1953",
+        "yearStart": 1974,
+        "yearEnd": 1996,
+        "title": "A Committee Founded on One Failure: Basel in 1974, and Settlement Risk Still Open in 1996",
+        "primaryTab": "crash-conduits",
+        "secondaryTabs": [
+          "deep-state"
+        ],
+        "mechanism": "DERIVATIVE_CLEARING_CAPTURE",
+        "tier": "TIER_3_PRIMARY_LEDGER",
+        "auditDisposition": "DOCUMENTED",
+        "participants": [
+          "Bankhaus Herstatt",
+          "Central bank Governors of the Group of Ten",
+          "Basel Committee on Banking Supervision",
+          "Bank for International Settlements",
+          "Committee on Payment and Settlement Systems"
+        ],
+        "extractionLoop": {
+          "stage1_upfrontSkim": "Nothing was skimmed here in the usual sense, and the dossier does not invent one. What the sources establish is a cost borne by counterparties when a bank is closed mid-settlement, and the institutional response to it.",
+          "stage2_structuralCompromise": "The structural flaw is the one the 1996 report still describes: foreign exchange settlement in which the two legs of a trade are paid at different times in different jurisdictions, so that a counterparty can deliver and not receive. The Committee on Payment and Settlement Systems reports on \"existing arrangements for settling foreign exchange trades\" and makes recommendations \"grounded in market realities\".",
+          "stage3_informationFog": "The gap the Basel Committee was created to close is a supervisory one and the BIS states it: \"one important aim of the Committee’s work was to close gaps in international supervisory coverage so that (i) no banking establishment would escape supervision; and (ii) supervision would be adequate and consistent\" across jurisdictions. Before that, a bank could be supervised nowhere in particular.",
+          "stage4_monopolyWindfall": "The windfall in this file is institutional rather than financial: a permanent standard-setting body at the BIS, which from the Basel Concordat of 1975 onward produced \"a series of international standards for bank regulation, most notably its landmark publications of the accords on capital adequacy which are commonly known as Basel I, Basel II and, most recently, Basel III\", and grew \"from the G10 to 45 institutions from 28 jurisdictions\".",
+          "stage5_merseyWhitewash": "The thing worth noticing is how long the underlying risk outlived the committee founded because of it. Twenty-two years after 1974, the CPSS still had a Steering Group on Settlement Risk in Foreign Exchange Transactions producing a 74-page report, whose chairman wrote that \"the probability of a major disruption in the foreign exchange settlement process is low\" but \"its potential consequences in a market of this size and complexity are considerable\", and which \"calls upon individual banks and industry groups alike to improve current practices and devise safe mechanisms for addressing settlement risk.\""
+        },
+        "closedLoopRatchet": {
+          "inheritedFramework": "Cross-border banking without a supervisor of the whole, and a foreign exchange market settling across time zones with no simultaneous exchange of value.",
+          "newFrameworkCreated": "The Basel Committee itself, established by the G10 central bank Governors at the end of 1974, first meeting February 1975; the Basel Concordat of 1975; and the capital accords that followed.",
+          "closedLoopRecirculation": "The failure exposed a gap; the gap produced a committee; the committee produced standards; and the specific risk that caused the failure remained on the committee system’s agenda for decades, which is the honest shape of this one.",
+          "enablesNextDossier": "CC-1982-LATIN_AMERICAN_DEBT_1982"
+        },
+        "decoyVsLedger": {
+          "viralDecoy": "That \"Herstatt risk\" names a deliberate stitch-up — a bank closed at the moment that maximised losses for its counterparties — and that Basel was set up to protect banks rather than to supervise them.",
+          "whyDecoyFails": "Neither source read here supports a stitch-up, and this dossier asserts none. What the BIS does state is the causal link: the Basel Committee \"was established by the central bank Governors of the Group of Ten countries at the end of 1974 in the aftermath of serious disturbances in international currency and banking markets (notably the failure of Bankhaus Herstatt in West Germany)\", and that its aim was to close gaps \"so that ... no banking establishment would escape supervision\". A LIMITATION THE DOSSIER STATES RATHER THAN HIDES: the second source cited here, the 1996 CPSS report page on settlement risk in foreign exchange transactions, DOES NOT MENTION HERSTATT at all. \"Herstatt risk\" is the market’s name for settlement risk, not that document’s, and nothing in this dossier attributes the link to it. Nor was the 1974 failure itself examined here: no contemporaneous record of it was read, and no claim is made about how or why the bank was closed.",
+          "documentedLedger": "The Basel Committee on Banking Supervision, initially the Committee on Banking Regulations and Supervisory Practices, established by the G10 central bank Governors at the end of 1974 in the aftermath of serious disturbances in international currency and banking markets, notably the failure of Bankhaus Herstatt in West Germany. Headquartered at the BIS; first meeting February 1975; the Basel Concordat first issued in 1975; the capital accords Basel I, II and III; membership grown from the G10 to 45 institutions from 28 jurisdictions. And, in 1996, a Committee on Payment and Settlement Systems report of 74 pages by a Steering Group on Settlement Risk in Foreign Exchange Transactions, analysing existing settlement arrangements and calling on banks and industry groups \"to improve current practices and devise safe mechanisms for addressing settlement risk\"."
+        },
+        "citationIds": [
+          "CIT-1974-BIS-BASEL-COMMITTEE-ON-1",
+          "CIT-1974-BIS-COMMITTEE-ON-PAYMENT-2"
+        ],
+        "citations": [
+          {
+            "id": "CIT-1974-BIS-BASEL-COMMITTEE-ON-1",
+            "tier": "TIER_3_PRIMARY_LEDGER",
+            "title": "Bank for International Settlements, Basel Committee on Banking Supervision — \"History of the Basel Committee\"",
+            "url": "https://www.bis.org/bcbs/history.htm",
+            "quoteOrFact": "Read from the BIS's own site. THE FOUNDING, and the cause it names: \"The Basel Committee - initially named the Committee on Banking Regulations and Supervisory Practices - was established by the central bank Governors of the Group of Ten countries at the end of 1974 in the aftermath of serious disturbances in international currency and banking markets (notably the failure of Bankhaus Herstatt in West Germany). The Committee, headquartered at the Bank for International Settlements in Basel, was established to enhance financial stability by improving the quality of banking supervision worldwide, and to serve as a forum for regular cooperation between its member countries on banking supervisory matters.\" On what followed: \"The Committee's first meeting took place in February 1975, and meetings have been held regularly three or four times a year since. Since its inception, the Basel Committee has expanded its membership from the G10 to 45 institutions from 28 jurisdictions. Starting with the Basel Concordat, first issued in 1975 and revised several times since, the Committee has established a series of international standards for bank regulation, most notably its landmark publications of the accords on capital adequacy which are commonly known as Basel I, Basel II and, most recently, Basel III.\" On the original objective: \"one important aim of the Committee's work was to close gaps in international supervisory coverage so that (i) no banking establishment would escape supervision; and (ii) supervision would be adequate and consistent\" across jurisdictions. This is an institutional history page, not a contemporaneous record of the 1974 failure itself. THIS CITATION WAS INHERITED WITH A PLACEHOLDER quoteOrFact reading only \"Source carried over from the Crash Conduits entry\" — a URL attached to the node without being opened. It has now been opened and read."
+          },
+          {
+            "id": "CIT-1974-BIS-COMMITTEE-ON-PAYMENT-2",
+            "tier": "TIER_3_PRIMARY_LEDGER",
+            "title": "Bank for International Settlements, Committee on Payment and Settlement Systems, Settlement risk in foreign exchange transactions (the Allsopp Report), publication d17 — landing page and foreword",
+            "url": "https://www.bis.org/cpmi/publ/d17.htm",
+            "quoteOrFact": "Read from the BIS's own site. IMPORTANT LIMITATION, recorded because it bears on how this citation may be used: THE PAGE DOES NOT MENTION HERSTATT. The word does not appear on it at all. \"Herstatt risk\" is the market's name for foreign exchange settlement risk, but this document does not make that link, and nothing in this dossier attributes the link to it — the Basel Committee history page is cited separately for that. What this page does establish is that the risk was still a live supervisory problem two decades after 1974. From the foreword by William J. McDonough, Chairman of the Committee on Payment and Settlement Systems and President of the Federal Reserve Bank of New York: \"Although the probability of a major disruption in the foreign exchange settlement process is low, its potential consequences in a market of this size and complexity are considerable. This report, which was prepared on behalf of the Committee on Payment and Settlement Systems by its Steering Group on Settlement Risk in Foreign Exchange Transactions, offers a practical approach to dealing with this risk. The report analyses existing arrangements for settling foreign exchange trades and makes recommendations grounded in market realities. It calls upon individual banks and industry groups alike to improve current practices and devise safe mechanisms for addressing settlement risk. For their part, central banks have identified several avenues for cooperating with the private sector and for providing inducements to push this effort forward. I believe the report makes a compelling case that the private sector can, with a relatively modest expenditure of resources, make important progress in containing settlement risk.\" The landing page records the report as 74 pages; the report itself was not downloaded or read, and nothing is taken from beyond this page. THIS CITATION WAS INHERITED WITH A PLACEHOLDER quoteOrFact reading only \"Source carried over from the Crash Conduits entry\" — a URL attached to the node without being opened. It has now been opened and read."
+          }
+        ],
+        "pairedEvent": null,
+        "bridges": []
       }
     ],
     "carbon-class": [
@@ -20209,6 +20430,61 @@
             "title": "Federal Reserve History, \"Asian Financial Crisis, July 1997-December 1998\", by Michael Carson and John Clark",
             "url": "https://www.federalreservehistory.org/essays/asian-financial-crisis",
             "quoteOrFact": "Read from federalreservehistory.org. On the trigger and spread: \"On July 2, 1997, Thailand devalued its currency relative to the U.S. dollar. This development, which followed months of speculative pressures that had substantially depleted Thailand's official foreign exchange reserves, marked the beginning of a deep financial crisis across much of East Asia. In subsequent months, Thailand's currency, equity, and property markets weakened further as its difficulties evolved into a twin balance-of-payments and banking crisis.\" It records that \"Malaysia, the Philippines, and Indonesia also allowed their currencies to weaken substantially in the face of market pressures, with Indonesia gradually falling into a multifaceted financial and political crisis\"; that Hong Kong \"faced several large but unsuccessful speculative attacks on its currency peg to the dollar, the first of which triggered short-term stock market sell-offs across the globe\"; and that \"severe balance-of-payments pressures in South Korea brought the country to the brink of default.\" On the consequences: \"Across East Asia, capital inflows slowed or reversed direction, and growth slowed sharply. Banks came under significant pressures, investment rates plunged, and some Asian countries entered deep recessions, producing important spillovers to trading partners across the globe.\" ON FORESEEABILITY, which the dossier must not overstate in either direction: \"The events that came to be known as the Asian Financial Crisis generally caught market participants and policymakers by surprise\", while some vulnerabilities were recognised beforehand. SOURCE CHARACTER: Federal Reserve History is an educational project of the Federal Reserve System. This is a signed secondary essay with its own bibliography, not a primary record, and it is tiered and attributed accordingly: the dossier says what the essay states, not what a contemporaneous document shows. THIS CITATION WAS INHERITED WITH A PLACEHOLDER quoteOrFact reading only \"Source carried over from the Crash Conduits entry\" — a URL attached to this node without anyone opening it. It has now been opened and read."
+          }
+        ],
+        "pairedEvent": null,
+        "bridges": []
+      },
+      {
+        "code": "CC-1994-ORANGE_COUNTY_1994",
+        "eraId": "ERA-09-2001",
+        "yearStart": 1993,
+        "yearEnd": 1996,
+        "title": "A Public Official May Not Authorize Disclosure He Knows to Be False: $1.3 Billion and a 21(a) Report",
+        "primaryTab": "crash-conduits",
+        "secondaryTabs": [
+          "carbon-class",
+          "deep-state"
+        ],
+        "mechanism": "DERIVATIVE_CLEARING_CAPTURE",
+        "tier": "TIER_1_STATUTE_COURT",
+        "auditDisposition": "DOCUMENTED",
+        "participants": [
+          "County of Orange, California",
+          "Orange County Board of Supervisors",
+          "Robert L. Citron (former Treasurer-Tax Collector)",
+          "Matthew R. Raabe (former Assistant Treasurer)",
+          "Orange County Flood Control District",
+          "U.S. Securities and Exchange Commission"
+        ],
+        "extractionLoop": {
+          "stage1_upfrontSkim": "The money was raised from the public market on documents the Commission found defective: \"Six of these municipal offerings by the County collectively raised approximately $1.3 billion and are the subject of this report.\"",
+          "stage2_structuralCompromise": "The compromise was the dependence of the securities on the pools. The report sets out four ways the offerings were tied to the County Pools — proceeds reinvested in them for interest earnings, funds pledged to repay securities invested in them, the Pools agreeing to repurchase or repay certain securities, and \"the County’s economic reliance on the County Pools materially affected its ability to repay the securities.\"",
+          "stage3_informationFog": "The fog was in the Official Statements, and the finding is flat: they \"contained material misstatements and omissions concerning the risks relating to, among other things, the County Pools and the financial condition of Orange County, including its ability to repay the securities.\"",
+          "stage4_monopolyWindfall": "What the omissions preserved was continued market access on terms that did not price the risk — six offerings over 1993 and 1994, the period the investigation covers, raising approximately $1.3 billion from investors who were not told what the report says they should have been told.",
+          "stage5_merseyWhitewash": "The disposition is the interesting part and it is a choice the Commission explains. Against the officers, action: a settled civil injunctive action against the former Treasurer-Tax Collector and the former Assistant Treasurer, enjoining future antifraud violations, and a settled cease and desist proceeding against the County, the Flood Control District and the Board of Supervisors. Against the individual Supervisors, no charges — instead a Section 21(a) report \"to emphasize the responsibilities under the federal securities laws of local government officials who authorize the issuance of municipal securities\". A report that states a duty in place of charging the people who owed it."
+        },
+        "closedLoopRatchet": {
+          "inheritedFramework": "A municipal securities market in which the issuer is primarily liable for its own disclosure and no regulator reviews an Official Statement before it is used.",
+          "newFrameworkCreated": "The duty this report announces for public officials personally: \"a public official may not authorize disclosure that the official knows to be false\", applied to those \"who have ultimate authority to approve the issuance of securities and related disclosure documents\".",
+          "closedLoopRecirculation": "The pools’ reported earnings supported the county’s finances; the county’s finances supported the offerings; the offerings fed proceeds back into the pools. Each leg depended on the others being described accurately, and the report found they were not.",
+          "enablesNextDossier": "CC-1998-LTCM_BAILOUT_1998"
+        },
+        "decoyVsLedger": {
+          "viralDecoy": "That one county treasurer gambled on exotic derivatives and bankrupted Orange County while the elected board knew nothing about it.",
+          "whyDecoyFails": "The Commission did act against the treasurer and his assistant — both were enjoined from future antifraud violations by settled civil action. But it declined the knew-nothing framing for the board, and it said so by issuing a Section 21(a) report specifically \"in the Matter of County of Orange, California as it Relates to the Conduct of the Members of the Board of Supervisors\", addressed to \"the conduct of the individual members of the Board of Supervisors ... in authorizing the issuance of these municipal securities\". It also settled a cease and desist proceeding against the Board of Supervisors as a body. The report's stated purpose is to set out what officials who authorise offerings are responsible for. What should not be read into it is a finding of individual liability: a 21(a) report states the Commission's views and charges no one, the Supervisors were not charged, and the Commission recorded that its investigation was ongoing.",
+          "documentedLedger": "An SEC Report of Investigation under Section 21(a), Exchange Act Release No. 36761, dated 24 January 1996, into events of 1993 and 1994. Six County offerings raising approximately $1.3 billion. Official Statements containing material misstatements and omissions about the County Pools and the County’s financial condition and its ability to repay. Four specified links between the securities and the pools. A settled civil injunctive action against former Treasurer-Tax Collector Robert L. Citron and former Assistant Treasurer Matthew R. Raabe. A settled cease and desist proceeding against the County, the Flood Control District and the Board of Supervisors. No charges against individual Supervisors, and instead a published statement of the duty: public entities \"are primarily liable for the content of their disclosure documents\", and an official with ultimate authority to approve them \"may not authorize disclosure that the official knows to be false\"."
+        },
+        "citationIds": [
+          "CIT-1994-SEC"
+        ],
+        "citations": [
+          {
+            "id": "CIT-1994-SEC",
+            "tier": "TIER_1_STATUTE_COURT",
+            "title": "U.S. Securities and Exchange Commission, Report of Investigation in the Matter of County of Orange, California as it Relates to the Conduct of the Members of the Board of Supervisors, Exchange Act Release No. 36761 (24 January 1996), Section 21(a) of the Exchange Act",
+            "url": "https://www.sec.gov/enforcement-litigation/reports-investigations/municipal-bond-participants-public-officials",
+            "quoteOrFact": "Read from sec.gov, where the full text of the Section 21(a) report is published on the Commission's \"Municipal Bond Participants: Public Officials and Obligated Persons\" page. (The page is a collection of reports of investigation; the Orange County report is reproduced on it in full and is what is cited here.) THE SUBJECT: \"The staff of the Division of Enforcement has conducted an investigation into various events in 1993 and 1994 involving material misrepresentations and omissions in connection with the offer and sale of certain municipal securities, including those issued by the County of Orange, California ... Six of these municipal offerings by the County collectively raised approximately $1.3 billion and are the subject of this report.\" THE FINDING ON THE DOCUMENTS: \"The Official Statements for these municipal securities offerings contained material misstatements and omissions concerning the risks relating to, among other things, the County Pools and the financial condition of Orange County, including its ability to repay the securities.\" WHAT ELSE THE COMMISSION DID THE SAME DAY: it \"filed and settled a related civil injunctive action against the former County Treasurer-Tax Collector, Robert L. Citron ... and the former Assistant Treasurer, Matthew R. Raabe ... pursuant to which they will be enjoined from future violations of the antifraud provisions\", and \"instituted and settled a related cease and desist proceeding ... against Orange County, the Orange County Flood Control District and the Board of Supervisors of Orange County\". THE POINT OF ISSUING A 21(a) REPORT RATHER THAN CHARGING THE SUPERVISORS, stated by the Commission: it is \"issuing this Report to emphasize the responsibilities under the federal securities laws of local government officials who authorize the issuance of municipal securities and related disclosure documents and the critical role such officials play with respect to the representations contained in the Official Statements for those securities.\" And the standard it sets out: \"Public entities that issue securities are primarily liable for the content of their disclosure documents\"; and \"public officials of the issuer who have ultimate authority to approve the issuance of securities and related disclosure documents have responsibilities under the federal securities laws as well. In authorizing the issuance of securities and related disclosure documents, a public official may not authorize disclosure that the official knows to be false\". The report records that \"The Commission's investigation is ongoing\" as at its date. A Section 21(a) report states the Commission's views; it is not an adjudication and it charges no one. THIS CITATION WAS INHERITED WITH A PLACEHOLDER quoteOrFact reading only \"Source carried over from the Crash Conduits entry\" — a URL attached to the node without being opened. It has now been opened and read."
           }
         ],
         "pairedEvent": null,

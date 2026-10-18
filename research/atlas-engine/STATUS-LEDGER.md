@@ -1311,6 +1311,61 @@
      CC-2023-CREDIT_SUISSE_AT1_2023 (finma.ch).
      Not merged to main, not pushed to main, not deployed. -->
 
+<!-- ACTUAL 2026-10-17 (eleventh pass): THREE MORE CARRIED-OVER CITATIONS OPENED.
+     118 dossiers, 185 citations. Boilerplate 41 -> 38: thirty-one Hansard-only and
+     SEVEN carried-over-URL still to go.
+     CC-2023-CREDIT_SUISSE_AT1_2023 — FINMA release of 23 March 2023. The node answers
+     the "they tore up the hierarchy overnight" reading with the contract: the AT1
+     instruments "contractually provide that they will be completely written down in a
+     'Viability Event', in particular if extraordinary government support is granted",
+     and that condition was met when Credit Suisse received "extraordinary liquidity
+     assistance loans secured by a federal default guarantee on 19 March 2023". The
+     Federal Council's Emergency Ordinance of the same day was ADDITIONAL authority, not
+     the sole basis — FINMA says it relies on "the issuance prospectuses for the bonds
+     and the Federal Council's Emergency Ordinance". Tier 2 bonds were not written down.
+     THE DOSSIER DOES NOT TREAT THE REGULATOR'S ACCOUNT AS THE LAST WORD: what was read
+     is FINMA explaining its own decision four days afterwards, not a court testing it,
+     and bondholder litigation is outside what was read and is not asserted.
+     CC-1994-ORANGE_COUNTY_1994 — the attached sec.gov URL turned out to carry the full
+     text of the Commission's Section 21(a) Report of Investigation, Exchange Act
+     Release No. 36761 (24 January 1996), which is a genuine primary document and not
+     the commentary the placeholder suggested. Six offerings raising approximately
+     $1.3 billion; Official Statements with "material misstatements and omissions". THE
+     DISPOSITION IS THE POINT: settled civil injunctive action against the former
+     Treasurer-Tax Collector and Assistant Treasurer, a settled cease and desist
+     proceeding against the County and the Board of Supervisors as a body, and against
+     the individual Supervisors NO CHARGES — instead a 21(a) report issued "to emphasize
+     the responsibilities under the federal securities laws of local government
+     officials who authorize the issuance of municipal securities", stating that "a
+     public official may not authorize disclosure that the official knows to be false".
+     A report that states a duty in place of charging the people who owed it.
+     CC-1974-HERSTATT_RISK_1974 — two BIS pages, and THE SECOND ONE DOES NOT SUPPORT
+     WHAT ITS PRESENCE IMPLIED. The Basel Committee history page gives the causal link
+     plainly: the Committee "was established by the central bank Governors of the Group
+     of Ten countries at the end of 1974 in the aftermath of serious disturbances in
+     international currency and banking markets (notably the failure of Bankhaus
+     Herstatt in West Germany)". But the CPSS settlement-risk page (publication d17)
+     CONTAINS NO OCCURRENCE OF "HERSTATT" AT ALL. "Herstatt risk" is the market's name
+     for settlement risk, not that document's, and the citation and the dossier both say
+     so rather than letting the juxtaposition imply otherwise. The 1974 failure itself
+     was not examined: no contemporaneous record of it was read and no claim is made
+     about how or why the bank was closed. What the pair does establish is the shape
+     worth keeping — a failure produced a permanent committee, and the specific risk
+     that caused the failure was still generating a 74-page report twenty-two years later.
+     GATES: npm test 38/38; check-links over the three drafts, 4 URLs, 3 ok / 1 blocked
+     (sec.gov, read by hand) / 0 DEAD; schema validates; 0 duplicates of any kind;
+     0 orphan citationIds; 0 unused citations; check-era-headers OK at 10/10.
+     VERIFY PASS: all three rows GATE 0-QUAR.
+     SEVEN CARRIED-OVER NODES REMAIN, and their access problems are known:
+     CC-1636-TULIP_1636 (theconversation.com, fetched), CC-1720-MISSISSIPPI_1720
+     (chicagofed.org, fetched), CC-1825-HAITI_INDEMNITY_1825 (SSRN, 403, NOT readable),
+     CC-2008-BLACKROCK_MAIDENLANE_2008 and CC-2008-AIG_GOLDMAN_CDS_2008 (which SHARE one
+     newyorkfed.org citation between two dossiers and need separating or merging),
+     CC-2010-FLASH_BOYS_2010 (sec.gov testimony plus a justice.gov page behind a
+     bot-verification interstitial) and CC-2022-UK_LDI_GILT_CRISIS_2022
+     (bankofengland.co.uk, fetched, 2.2 MB).
+     Not merged to main, not pushed to main, not deployed. -->
+
 # THE CORNFIELD GAZETTE — MASTER NODE STATUS LEDGER
 
 | Node Code | Title / Scope | Era | Evidence Tier | Seeding Providers | Verify Pass | UI Wired | Done |
@@ -1393,3 +1448,6 @@
 | `CC-2011-MF_GLOBAL_REHYPOTHECATION_2011` | One Hundred Percent Restitution: $1.212B Back, and an Admission of Liability | `ERA-09-2001` | `TIER_1_STATUTE_COURT` | `cftc.gov` | GATE 0-QUAR | YES | [x] |
 | `CC-2012-LONDON_WHALE_2012` | Identified by Management: the Risk-System Deficiencies the Board Was Not Told About | `ERA-09-2001` | `TIER_1_STATUTE_COURT` | `federalreserve.gov` | GATE 0-QUAR | YES | [x] |
 | `CC-2000-DOT_COM_BUBBLE_2000` | Contrary to Privately Expressed Negative Views: Ten Firms and $1.4 Billion | `ERA-09-2001` | `TIER_1_STATUTE_COURT` | `sec.gov` | GATE 0-QUAR | YES | [x] |
+| `CC-2023-CREDIT_SUISSE_AT1_2023` | A Viability Event in the Prospectus: Why the AT1 Write-Down Was Contractual | `ERA-10-2020` | `TIER_1_STATUTE_COURT` | `finma.ch` | GATE 0-QUAR | YES | [x] |
+| `CC-1994-ORANGE_COUNTY_1994` | A Public Official May Not Authorize Disclosure He Knows to Be False | `ERA-09-2001` | `TIER_1_STATUTE_COURT` | `sec.gov` | GATE 0-QUAR | YES | [x] |
+| `CC-1974-HERSTATT_RISK_1974` | A Committee Founded on One Failure: Basel 1974, Settlement Risk Still Open in 1996 | `ERA-08-1953` | `TIER_3_PRIMARY_LEDGER` | `bis.org` | GATE 0-QUAR | YES | [x] |

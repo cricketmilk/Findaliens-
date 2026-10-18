@@ -2276,6 +2276,75 @@
         "Citation URL inherited with a placeholder quoteOrFact and never opened; now read in full."
       ],
       "mechanism": "LEVERAGED_WATERED_CAPITAL"
+    },
+    {
+      "code": "CC-2023-CREDIT_SUISSE_AT1_2023",
+      "era": "ERA-10-2020",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Carried-over citation upgraded: URL opened and read, boilerplate prose replaced",
+      "queries": [
+        {
+          "q": "CC-2023-CREDIT_SUISSE_AT1_2023",
+          "year": null,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Citation URL inherited with a placeholder quoteOrFact and never opened; now read."
+      ],
+      "mechanism": "MERSEY_LIABILITY_WHITEWASH"
+    },
+    {
+      "code": "CC-1994-ORANGE_COUNTY_1994",
+      "era": "ERA-09-2001",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Carried-over citation upgraded: URL opened and read, boilerplate prose replaced",
+      "queries": [
+        {
+          "q": "CC-1994-ORANGE_COUNTY_1994",
+          "year": null,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Citation URL inherited with a placeholder quoteOrFact and never opened; now read."
+      ],
+      "mechanism": "DERIVATIVE_CLEARING_CAPTURE"
+    },
+    {
+      "code": "CC-1974-HERSTATT_RISK_1974",
+      "era": "ERA-08-1953",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Carried-over citation upgraded: URL opened and read, boilerplate prose replaced",
+      "queries": [
+        {
+          "q": "CC-1974-HERSTATT_RISK_1974",
+          "year": null,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Citation URL inherited with a placeholder quoteOrFact and never opened; now read."
+      ],
+      "mechanism": "DERIVATIVE_CLEARING_CAPTURE"
     }
   ]
 }

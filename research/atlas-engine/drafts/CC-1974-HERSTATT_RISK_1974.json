@@ -1,0 +1,59 @@
+{
+  "code": "CC-1974-HERSTATT_RISK_1974",
+  "eraId": "ERA-08-1953",
+  "yearStart": 1974,
+  "yearEnd": 1996,
+  "title": "A Committee Founded on One Failure: Basel in 1974, and Settlement Risk Still Open in 1996",
+  "primaryTab": "crash-conduits",
+  "secondaryTabs": [
+    "deep-state"
+  ],
+  "mechanism": "DERIVATIVE_CLEARING_CAPTURE",
+  "tier": "TIER_3_PRIMARY_LEDGER",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "Bankhaus Herstatt",
+    "Central bank Governors of the Group of Ten",
+    "Basel Committee on Banking Supervision",
+    "Bank for International Settlements",
+    "Committee on Payment and Settlement Systems"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "Nothing was skimmed here in the usual sense, and the dossier does not invent one. What the sources establish is a cost borne by counterparties when a bank is closed mid-settlement, and the institutional response to it.",
+    "stage2_structuralCompromise": "The structural flaw is the one the 1996 report still describes: foreign exchange settlement in which the two legs of a trade are paid at different times in different jurisdictions, so that a counterparty can deliver and not receive. The Committee on Payment and Settlement Systems reports on \"existing arrangements for settling foreign exchange trades\" and makes recommendations \"grounded in market realities\".",
+    "stage3_informationFog": "The gap the Basel Committee was created to close is a supervisory one and the BIS states it: \"one important aim of the Committee’s work was to close gaps in international supervisory coverage so that (i) no banking establishment would escape supervision; and (ii) supervision would be adequate and consistent\" across jurisdictions. Before that, a bank could be supervised nowhere in particular.",
+    "stage4_monopolyWindfall": "The windfall in this file is institutional rather than financial: a permanent standard-setting body at the BIS, which from the Basel Concordat of 1975 onward produced \"a series of international standards for bank regulation, most notably its landmark publications of the accords on capital adequacy which are commonly known as Basel I, Basel II and, most recently, Basel III\", and grew \"from the G10 to 45 institutions from 28 jurisdictions\".",
+    "stage5_merseyWhitewash": "The thing worth noticing is how long the underlying risk outlived the committee founded because of it. Twenty-two years after 1974, the CPSS still had a Steering Group on Settlement Risk in Foreign Exchange Transactions producing a 74-page report, whose chairman wrote that \"the probability of a major disruption in the foreign exchange settlement process is low\" but \"its potential consequences in a market of this size and complexity are considerable\", and which \"calls upon individual banks and industry groups alike to improve current practices and devise safe mechanisms for addressing settlement risk.\""
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "Cross-border banking without a supervisor of the whole, and a foreign exchange market settling across time zones with no simultaneous exchange of value.",
+    "newFrameworkCreated": "The Basel Committee itself, established by the G10 central bank Governors at the end of 1974, first meeting February 1975; the Basel Concordat of 1975; and the capital accords that followed.",
+    "closedLoopRecirculation": "The failure exposed a gap; the gap produced a committee; the committee produced standards; and the specific risk that caused the failure remained on the committee system’s agenda for decades, which is the honest shape of this one.",
+    "enablesNextDossier": "CC-1982-LATIN_AMERICAN_DEBT_1982"
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "That \"Herstatt risk\" names a deliberate stitch-up — a bank closed at the moment that maximised losses for its counterparties — and that Basel was set up to protect banks rather than to supervise them.",
+    "whyDecoyFails": "Neither source read here supports a stitch-up, and this dossier asserts none. What the BIS does state is the causal link: the Basel Committee \"was established by the central bank Governors of the Group of Ten countries at the end of 1974 in the aftermath of serious disturbances in international currency and banking markets (notably the failure of Bankhaus Herstatt in West Germany)\", and that its aim was to close gaps \"so that ... no banking establishment would escape supervision\". A LIMITATION THE DOSSIER STATES RATHER THAN HIDES: the second source cited here, the 1996 CPSS report page on settlement risk in foreign exchange transactions, DOES NOT MENTION HERSTATT at all. \"Herstatt risk\" is the market’s name for settlement risk, not that document’s, and nothing in this dossier attributes the link to it. Nor was the 1974 failure itself examined here: no contemporaneous record of it was read, and no claim is made about how or why the bank was closed.",
+    "documentedLedger": "The Basel Committee on Banking Supervision, initially the Committee on Banking Regulations and Supervisory Practices, established by the G10 central bank Governors at the end of 1974 in the aftermath of serious disturbances in international currency and banking markets, notably the failure of Bankhaus Herstatt in West Germany. Headquartered at the BIS; first meeting February 1975; the Basel Concordat first issued in 1975; the capital accords Basel I, II and III; membership grown from the G10 to 45 institutions from 28 jurisdictions. And, in 1996, a Committee on Payment and Settlement Systems report of 74 pages by a Steering Group on Settlement Risk in Foreign Exchange Transactions, analysing existing settlement arrangements and calling on banks and industry groups \"to improve current practices and devise safe mechanisms for addressing settlement risk\"."
+  },
+  "citationIds": [
+    "CIT-1974-BIS-BASEL-COMMITTEE-ON-1",
+    "CIT-1974-BIS-COMMITTEE-ON-PAYMENT-2"
+  ],
+  "citations": [
+    {
+      "id": "CIT-1974-BIS-BASEL-COMMITTEE-ON-1",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Bank for International Settlements, Basel Committee on Banking Supervision — \"History of the Basel Committee\"",
+      "url": "https://www.bis.org/bcbs/history.htm",
+      "quoteOrFact": "Read from the BIS's own site. THE FOUNDING, and the cause it names: \"The Basel Committee - initially named the Committee on Banking Regulations and Supervisory Practices - was established by the central bank Governors of the Group of Ten countries at the end of 1974 in the aftermath of serious disturbances in international currency and banking markets (notably the failure of Bankhaus Herstatt in West Germany). The Committee, headquartered at the Bank for International Settlements in Basel, was established to enhance financial stability by improving the quality of banking supervision worldwide, and to serve as a forum for regular cooperation between its member countries on banking supervisory matters.\" On what followed: \"The Committee's first meeting took place in February 1975, and meetings have been held regularly three or four times a year since. Since its inception, the Basel Committee has expanded its membership from the G10 to 45 institutions from 28 jurisdictions. Starting with the Basel Concordat, first issued in 1975 and revised several times since, the Committee has established a series of international standards for bank regulation, most notably its landmark publications of the accords on capital adequacy which are commonly known as Basel I, Basel II and, most recently, Basel III.\" On the original objective: \"one important aim of the Committee's work was to close gaps in international supervisory coverage so that (i) no banking establishment would escape supervision; and (ii) supervision would be adequate and consistent\" across jurisdictions. This is an institutional history page, not a contemporaneous record of the 1974 failure itself. THIS CITATION WAS INHERITED WITH A PLACEHOLDER quoteOrFact reading only \"Source carried over from the Crash Conduits entry\" — a URL attached to the node without being opened. It has now been opened and read."
+    },
+    {
+      "id": "CIT-1974-BIS-COMMITTEE-ON-PAYMENT-2",
+      "tier": "TIER_3_PRIMARY_LEDGER",
+      "title": "Bank for International Settlements, Committee on Payment and Settlement Systems, Settlement risk in foreign exchange transactions (the Allsopp Report), publication d17 — landing page and foreword",
+      "url": "https://www.bis.org/cpmi/publ/d17.htm",
+      "quoteOrFact": "Read from the BIS's own site. IMPORTANT LIMITATION, recorded because it bears on how this citation may be used: THE PAGE DOES NOT MENTION HERSTATT. The word does not appear on it at all. \"Herstatt risk\" is the market's name for foreign exchange settlement risk, but this document does not make that link, and nothing in this dossier attributes the link to it — the Basel Committee history page is cited separately for that. What this page does establish is that the risk was still a live supervisory problem two decades after 1974. From the foreword by William J. McDonough, Chairman of the Committee on Payment and Settlement Systems and President of the Federal Reserve Bank of New York: \"Although the probability of a major disruption in the foreign exchange settlement process is low, its potential consequences in a market of this size and complexity are considerable. This report, which was prepared on behalf of the Committee on Payment and Settlement Systems by its Steering Group on Settlement Risk in Foreign Exchange Transactions, offers a practical approach to dealing with this risk. The report analyses existing arrangements for settling foreign exchange trades and makes recommendations grounded in market realities. It calls upon individual banks and industry groups alike to improve current practices and devise safe mechanisms for addressing settlement risk. For their part, central banks have identified several avenues for cooperating with the private sector and for providing inducements to push this effort forward. I believe the report makes a compelling case that the private sector can, with a relatively modest expenditure of resources, make important progress in containing settlement risk.\" The landing page records the report as 74 pages; the report itself was not downloaded or read, and nothing is taken from beyond this page. THIS CITATION WAS INHERITED WITH A PLACEHOLDER quoteOrFact reading only \"Source carried over from the Crash Conduits entry\" — a URL attached to the node without being opened. It has now been opened and read."
+    }
+  ]
+}

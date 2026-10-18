@@ -1905,6 +1905,125 @@
      alternative tried returned a different paper under a 200.
      Not merged to main, not pushed to main, not deployed. -->
 
+<!-- ACTUAL 2026-10-17 (sixteenth pass): ZERO PHASE-0 BOILERPLATE REMAINS.
+     107 dossiers, 214 citations, 107 RESEARCHED, 0 boilerplate. Every dossier in
+     the atlas now rests on at least one document that a person opened and read.
+     No citation anywhere declares itself unread.
+     CC-1825-HAITI_INDEMNITY_1825 WAS THE LAST ONE, AND IT IS BUILT. The previous
+     pass left it carrying a citation whose quoteOrFact opened "NOT READ, and this
+     citation says so rather than implying otherwise", because SSRN serves a bot
+     challenge and one guessed alternative returned HTTP 200 with an entirely
+     different paper. That citation, CIT-1825-OOSTERLINCK-PANIZZA, has now been
+     deleted from master. The node is rebuilt on FIVE sources, and the text of the
+     Ordonnance itself is among them.
+     HOW IT WAS FOUND, because the route is reusable. Gallica was tried first and
+     is unusable: gallica.bnf.fr serves a Cloudflare bot-verification challenge to
+     scripts AND to the browser pane, for both its SRU API and its ark pages, and
+     it was NOT circumvented. Hansard was tried next: the sitting indexes for
+     February-July 1825 and February-May 1826 were swept by debate title for
+     "hayti|haiti|domingo|indemnit|slave trade" and produced ZERO hits, so the
+     Haitian indemnity never reached a Commons debate heading. The Elysee site is a
+     JS app and its search returned nothing to a script. What worked was the
+     LIBRARY OF CONGRESS: its Chronicling America HTML pages are bot-walled (403 to
+     scripts, and the browser pane gets the interstitial too), but its OWN machine
+     interfaces serve to a request declaring an identity and contact address — the
+     collection search at /collections/chronicling-america/?fo=json&q=...&dates=
+     1825/1826, the per-page resource JSON at /resource/<lccn>/<date>/ed-1/?sp=N&
+     fo=json, and the full-text endpoint that JSON names at tile.loc.gov
+     (text-services/word-coordinates-service ... &format=alto_xml&full_text=1).
+     NOTE: tile.loc.gov served the U.S. Reports PDFs earlier in this session but
+     returns 403 for the newspaper print PDFs; the full-text service works.
+     THE FIND: the Phenix Gazette (Alexandria, D.C.) of 17 September 1825, page 2,
+     reprints from the OFFICIAL PART of the Paris Moniteur of 12 August 1825 the
+     complete text of the Ordonnance of Charles X of 17 April 1825, all three
+     articles. Article 1 opens the ports with duties "equal and uniform for all
+     flags except for the French flag, in favor of which these duties shall be
+     reduced one half". Article 2: payment "into the Caisse [generale des Depots
+     et] des Consignations of France, in five equal instalments, from year to year,
+     the first of which will become due on the 31st of December, 1825, the sum of
+     150,000,000 of francs, destined to indemnify the ancient colonists who shall
+     claim an indemnity." Article 3: "We grant, ON THESE CONDITIONS, by the present
+     ordinance ... the full and entire independence of their Government."
+     Independence is the THIRD article, conditional on the first two.
+     THE FIGURE WAS CROSS-CHECKED RATHER THAN TRUSTED, because a single OCR of a
+     single number is not evidence. Four pages across three papers print it in
+     francs — Phenix Gazette 17 Sep 1825, Constitutional Whig 20 Sep 1825, Phenix
+     Gazette 27 Feb 1826, Richmond Enquirer 2 Mar 1826 — and the Edwardsville
+     Spectator of 3 Sep 1825 prints the dollar equivalent, "Thirty Millions of
+     dollars—one fifth part to be paid on the 31st December next, and the other
+     four parts in annual instalments". Two units in different papers agreeing at
+     about five francs to the dollar, and a fifth part matching five instalments.
+     THE BEST SENTENCE IN THE WHOLE RECORD IS THE FRENCH ROYALIST PRESS PRICING IT.
+     The Etoile of 13 August 1825, reprinted on the same page as the ordonnance:
+     "It was calculated that the revenue of the colonists was thirty millions.—
+     Deducting the half for the expenses of cultivation, there remain fifteen
+     millions. The one hundred and fifty millions which the King has de[cree]d that
+     the inhabitants of St. Domingo shall pay into the Caisse des Depots, make
+     therefore, ten years of the revenue of the ancient colonists; and landed
+     property sells at no higher price throughout the Antilles." The indemnity was
+     ten years' capitalisation of the net income stream taken from enslaved labour,
+     calculated and defended in print. The Etoile also calls Haiti's acceptance
+     "this act of submission, this recognition of the sovereignty of France".
+     AND THE OBJECTION WAS MADE IN 1825, ON THE SAME PAGE. The New-York American:
+     the decree "purports to open, in virtue of the sovereign authority of the King
+     of France, the ports and harbors of the French part of St. Domingo, to the
+     trade of all nations ... without ever referring to the existing government of
+     Hayti", and concedes "privileges to what is still called a colony, and over
+     which the ultimate dominion is in no wise renounced", so it "cannot be urged
+     to any foreign nation by way of precedent, as a full and free recognition of
+     independence. It is in cases like these, that forms become substance". THAT
+     OBJECTION WAS VINDICATED: the Richmond Enquirer of 4 March 1826 reports that
+     the ensuing Convention's first article "explains the ambiguity in the first
+     paragraph of the first article of the Ordinance", while retaining a reserve —
+     and adds that "no Haytien citizen or vessel shall visit French colonies" and
+     that "Hayti shall remain neutral in all maritime wars".
+     THE CONTAINMENT STAGE IS A SILENCE, PROVED BY TWO INDEPENDENT TRANSLATIONS.
+     The Concord Register of 20 August 1825 and the Richmond Enquirer of 19 August
+     1825 each report the reception at Port-au-Prince in full — the shore
+     reception, the march to the Senate with two rear-admirals and martial music,
+     the admission of the act, Mackau's address, M. Guyot's reply, the ratification
+     dinner, a second dinner by the Government, a fete aboard the Eylau, a ball by
+     the French residents, and the toasts to Charles X and the Dauphin. NOT ONE
+     FRANC APPEARS IN ANY OF IT. Mackau called it "the most generous treaty of
+     which the age affords an example" (and, in the other translation, "the most
+     generous compact of which the present era offers an example"). President
+     Boyer's own proclamation of 11 July 1825 to the Haitian people announces the
+     ordonnance, promises that "Commerce and agriculture will now be greatly
+     extended", closes "Live forever, Liberty, Liberty" — and contains no sum, no
+     instalment, no creditor and no Caisse.
+     ONE MORE DETAIL THAT MAKES THE TRANSACTION LEGIBLE, from the Edwardsville
+     Spectator: fifty millions of dollars had first been asked; the sum was to pay
+     the colonists' claims "IN PART" only; and "a very large part of the alienated
+     estates of the Ex-Colonists is now owned by the Hay[ti]en government" — Haiti
+     was to pay for property its own state already held.
+     LIMITS, STATED IN EVERY CITATION. Each source is an American newspaper
+     reprint, read as the Library of Congress's OCR TRANSCRIPTION and not as a page
+     image — the images were not inspected — and not as a French archival original,
+     because Gallica was unusable. So this is a newspaper reprint of an official
+     gazette, two removes from the sealed instrument. The OCR is visibly imperfect
+     (the signature prints as "Joun PierrE BovEßr"; the ministers as "Count
+     deC1IARROL" and "M. UP YILLELE"), every reconstruction is marked in square
+     brackets, and nothing is quoted that turns on a doubtful character. AND THE
+     DOSSIER STILL CANNOT FOLLOW THE MONEY: nothing read establishes what was
+     actually paid, when, or through what borrowing. The 1826 loan, the later
+     reductions and the long service of the debt are all outside it.
+     GATES: npm test 38/38; check-links over the draft, 5 URLs, 0 ok / 5 BLOCKED /
+     0 DEAD — all five are loc.gov HTML pages behind the bot wall, and all five
+     citations say so. THE URLS WERE VERIFIED ANOTHER WAY, which matters after
+     three guessed-URL failures earlier in this session: each of the five was
+     fetched as `&fo=json` and the returned newspaper title and date_issued were
+     checked against what the citation claims. All five matched. Schema validates;
+     0 duplicate codes, ids or citation URLs; 0 orphan citationIds; 0 unused
+     citations; check-era-headers OK at 10 headers for 10 eras. Browser-verified:
+     the dossier renders with the 150,000,000 figure, the ten-years arithmetic and
+     the not-a-franc finding, the era order is intact, the page reads 107, and the
+     Phase-0 boilerplate string appears NOWHERE on the page.
+     VERIFY PASS: the row is GATE 0-QUAR.
+     THE JOB THE ORIGINATING SESSION SET IS COMPLETE. 0 of 107 dossiers carry
+     Phase-0 boilerplate. 0 citations declare themselves unread. 0 citations carry
+     the "Source carried over from the Crash Conduits entry" placeholder.
+     Not merged to main, not pushed to main, not deployed. -->
+
 # THE CORNFIELD GAZETTE — MASTER NODE STATUS LEDGER
 
 | Node Code | Title / Scope | Era | Evidence Tier | Seeding Providers | Verify Pass | UI Wired | Done |
@@ -2027,3 +2146,4 @@
 | `CC-2002-PAYPAL_MAFIA_2002` | REMOVED — out of scope: no catastrophe | — | — | `none` | n/a | n/a | [x] |
 | `CC-2008-CLARIUM_ANVIL_2008` | REMOVED — 13F reports only s.13(f) securities; a thin filing proves nothing about a collapse | — | — | `none` | n/a | n/a | [x] |
 | `CC-2018-HANDSHAKE_HNS_2018` | REMOVED — no institution recorded the claimed act | — | — | `none` | n/a | n/a | [x] |
+| `CC-1825-HAITI_INDEMNITY_1825` | Ten Years of the Revenue of the Ancient Colonists: What the Ordonnance Said and What the Ceremony Left Out | `ERA-03-1815` | TIER_4_CONTEMPORARY_PRESS | `read-by-hand` | 3/3 PASS | YES | [x] |

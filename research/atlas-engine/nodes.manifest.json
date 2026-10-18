@@ -3075,6 +3075,29 @@
         "Removed rather than left carrying a placeholder citation."
       ],
       "mechanism": null
+    },
+    {
+      "code": "CC-1825-HAITI_INDEMNITY_1825",
+      "era": "ERA-03-1815",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Hansard-only Phase-0 stub rebuilt from primary documents opened and read",
+      "queries": [
+        {
+          "q": "CC-1825-HAITI_INDEMNITY_1825",
+          "year": null,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Stub carried only the placeholder Hansard citation; real sources located, opened and read."
+      ],
+      "mechanism": "SOVEREIGN_DEBT_TRAP"
     }
   ]
 }

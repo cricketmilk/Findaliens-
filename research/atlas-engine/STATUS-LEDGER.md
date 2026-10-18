@@ -1248,6 +1248,69 @@
      VERIFY PASS: all five rows GATE 0-QUAR.
      Not merged to main, not pushed to main, not deployed. -->
 
+<!-- ACTUAL 2026-10-17 (tenth pass): THE ENFORCEMENT-DOCUMENT BATCH. Four more
+     carried-over citations opened and read, boilerplate prose replaced in place.
+     118 public dossiers unchanged; citations 185 -> 185; boilerplate 45 -> 41
+     (31 Hansard-only, 10 carried-over-URL).
+     These four are the strongest group in the carried-over set, because the attached
+     URLs turned out to be actual enforcement records rather than commentary.
+     CC-1996-SUMITOMO_COPPER_1996 — CFTC Release 4144-98 (11 May 1998). The order finds
+     corporate liability, not a rogue trader: it finds "that Sumitomo Corporation of
+     Japan (Sumitomo) manipulated the copper market in 1995 and 1996", acting "through
+     its agent or agents". It also records the motive as loss rather than greed: "In the
+     wake of accumulating large losses from speculative trading, the principal copper
+     trader for Sumitomo engaged in a scheme ... with the intent of manipulating the
+     price of copper." Settled by consent; findings "neither admitted nor denied";
+     $150 million, split $125 million immediate penalty and $25 million escrowed up to
+     four years for restitution.
+     CC-2011-MF_GLOBAL_REHYPOTHECATION_2011 — CFTC Release 6776-13 (18 November 2013).
+     TWO FACTS THAT KILL THE USUAL RETELLING: customers were made whole ($1.212 billion
+     restitution, with the trustee permitted to pay in full from the general estate, and
+     the enforcement division describing the aim as "100 percent restitution"), and the
+     firm ADMITTED liability — "In the consent Order, MF Global admits to the allegations
+     pertaining to its liability based on the acts and omissions of its employees" —
+     which is rarer than neither-admit-nor-deny and is reported as such. Litigation
+     against MF Global Holdings, Jon S. Corzine and Edith O'Brien was continuing as at
+     that release; no outcome is sourced here or asserted.
+     CC-2012-LONDON_WHALE_2012 — Federal Reserve enforcement release of 19 September
+     2013. THE PENALTY IS NOT FOR THE TRADING LOSS. It is $200 million against the
+     holding company "for deficiencies in the bank holding company's oversight,
+     management, and controls governing its Chief Investment Office", citing "the
+     failure by JPMC to appropriately inform its board of directors and the Federal
+     Reserve of deficiencies in risk-management systems identified by management." The
+     words "identified by management" are the Board's, and they are the whole node:
+     somebody inside knew before the board or the supervisor did. Four-regulator
+     penalties totalled approximately $920 million.
+     CC-2000-DOT_COM_BUBBLE_2000 — the global research settlement of 28 April 2003,
+     built from three SEC releases (2003-54, 2003-56 and 2003-55), all three read. Ten
+     firms named; $875 million in penalties and disgorgement, $432.5 million for
+     independent research, $80 million for investor education, roughly $1.4 billion in
+     all. TWO SETTLEMENT TERMS WORTH KEEPING because they cut against the usual pattern:
+     the firms "will not seek reimbursement or indemnification for any penalties that
+     they pay" and "will not seek a tax deduction or tax credit ... for any penalty
+     amounts". The charge against the individuals is divergence rather than error —
+     research "inconsistent with privately expressed negative views" (Blodget, barred,
+     $4 million) and "recommendations contrary to the actual views regarding the
+     companies" (Grubman, barred, $15 million) — which is what defeats the
+     everyone-was-just-wrong reading. Allegations against the firms were neither
+     admitted nor denied and nothing was tried.
+     GATES: npm test 38/38; check-links over the four drafts, 6 URLs, 1 ok / 5 blocked /
+     0 DEAD — the blocks are sec.gov, cftc.gov and federalreserve.gov refusing a generic
+     user-agent, all five read by hand; schema validates; 0 duplicate codes, ids or
+     citation URLs; 0 orphan citationIds; 0 unused citations; check-era-headers OK at
+     10 headers for 10 eras.
+     VERIFY PASS: all four rows GATE 0-QUAR.
+     REMAINING IN THE CARRIED-OVER GROUP: ten. CC-1636-TULIP_1636 (theconversation.com),
+     CC-1720-MISSISSIPPI_1720 (chicagofed.org), CC-1825-HAITI_INDEMNITY_1825 (SSRN, 403
+     and not readable), CC-1974-HERSTATT_RISK_1974 (two bis.org pages),
+     CC-1994-ORANGE_COUNTY_1994 (sec.gov), CC-2008-BLACKROCK_MAIDENLANE_2008 and
+     CC-2008-AIG_GOLDMAN_CDS_2008 (which SHARE a single newyorkfed.org citation between
+     two different dossiers and will need separating), CC-2010-FLASH_BOYS_2010 (sec.gov
+     plus a justice.gov page behind a bot-verification interstitial),
+     CC-2022-UK_LDI_GILT_CRISIS_2022 (bankofengland.co.uk) and
+     CC-2023-CREDIT_SUISSE_AT1_2023 (finma.ch).
+     Not merged to main, not pushed to main, not deployed. -->
+
 # THE CORNFIELD GAZETTE — MASTER NODE STATUS LEDGER
 
 | Node Code | Title / Scope | Era | Evidence Tier | Seeding Providers | Verify Pass | UI Wired | Done |
@@ -1326,3 +1389,7 @@
 | `CC-1982-LATIN_AMERICAN_DEBT_1982` | With the Encouragement of the US Government: Petrodollars Lent Out, and a Warning from 1977 | `ERA-08-1953` | `TIER_4_CONTEMPORARY_PRESS` | `federalreservehistory.org` | GATE 0-QUAR | YES | [x] |
 | `CC-1997-ASIAN_FINANCIAL_CRISIS_1997` | Caught By Surprise: a Devaluation in Thailand and the Reversal of the Flows | `ERA-09-2001` | `TIER_4_CONTEMPORARY_PRESS` | `federalreservehistory.org` | GATE 0-QUAR | YES | [x] |
 | `CC-1968-LONDON_GOLD_POOL_1968` | Eight Central Banks Holding a Price: the Pool That Collapsed in March 1968 | `ERA-08-1953` | `TIER_4_CONTEMPORARY_PRESS` | `federalreservehistory.org` | GATE 0-QUAR | YES | [x] |
+| `CC-1996-SUMITOMO_COPPER_1996` | Standing for Delivery: a Dominant Copper Position, and $150M Neither Admitted Nor Denied | `ERA-09-2001` | `TIER_3_PRIMARY_LEDGER` | `cftc.gov` | GATE 0-QUAR | YES | [x] |
+| `CC-2011-MF_GLOBAL_REHYPOTHECATION_2011` | One Hundred Percent Restitution: $1.212B Back, and an Admission of Liability | `ERA-09-2001` | `TIER_1_STATUTE_COURT` | `cftc.gov` | GATE 0-QUAR | YES | [x] |
+| `CC-2012-LONDON_WHALE_2012` | Identified by Management: the Risk-System Deficiencies the Board Was Not Told About | `ERA-09-2001` | `TIER_1_STATUTE_COURT` | `federalreserve.gov` | GATE 0-QUAR | YES | [x] |
+| `CC-2000-DOT_COM_BUBBLE_2000` | Contrary to Privately Expressed Negative Views: Ten Firms and $1.4 Billion | `ERA-09-2001` | `TIER_1_STATUTE_COURT` | `sec.gov` | GATE 0-QUAR | YES | [x] |

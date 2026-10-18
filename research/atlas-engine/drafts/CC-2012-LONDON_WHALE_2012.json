@@ -1,0 +1,52 @@
+{
+  "code": "CC-2012-LONDON_WHALE_2012",
+  "eraId": "ERA-09-2001",
+  "yearStart": 2012,
+  "yearEnd": 2013,
+  "title": "Identified by Management: the Risk-System Deficiencies the Board and the Fed Were Not Told About",
+  "primaryTab": "crash-conduits",
+  "secondaryTabs": [
+    "deep-state"
+  ],
+  "mechanism": "DERIVATIVE_CLEARING_CAPTURE",
+  "tier": "TIER_1_STATUTE_COURT",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "JPMorgan Chase & Co.",
+    "JPMorgan Chief Investment Office",
+    "Board of Governors of the Federal Reserve System",
+    "Office of the Comptroller of the Currency",
+    "U.S. Securities and Exchange Commission",
+    "UK Financial Conduct Authority"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "The position was built inside a unit meant to manage the bank’s own balance sheet: the Board’s earlier order \"followed the disclosure of significant losses in a large synthetic credit portfolio that was managed by the CIO\". The trading loss is the part everybody remembers; it is not what the penalty is for.",
+    "stage2_structuralCompromise": "The compromise was the risk apparatus around that portfolio, and the Board characterises it as unsafe: its January 2013 cease and desist order required prompt corrective action on deficiencies \"which represented unsafe or unsound practices at JPMC\".",
+    "stage3_informationFog": "This is the sentence the node exists for, and the key words are \"identified by management\": the September 2013 consent order \"cites the failure by JPMC to appropriately inform its board of directors and the Federal Reserve of deficiencies in risk-management systems identified by management.\" The deficiencies were known inside the firm before the board or the supervisor were told. The fog was internal and directed upward.",
+    "stage4_monopolyWindfall": "What the silence bought was time for the position and for the people running it — and the cost of it was later assessed across four regulators: the Board’s action \"was taken in coordination with the Office of the Comptroller of the Currency, the Securities and Exchange Commission, and the Financial Conduct Authority of the United Kingdom\", and \"The penalties issued by the agencies total approximately $920 million.\"",
+    "stage5_merseyWhitewash": "The containment is a consent order: a $200 million penalty assessed against the holding company \"for deficiencies in the bank holding company's oversight, management, and controls governing its Chief Investment Office\", with no individual named in this document and no admission recorded in it. The structural requirement had already been imposed eight months earlier by the cease and desist order."
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "A chief investment office managing a bank’s own excess deposits in instruments whose risk was measured by models the same institution built and reported on.",
+    "newFrameworkCreated": "A coordinated four-regulator penalty across two countries for a single episode, and an enforcement theory aimed at the reporting failure rather than the loss.",
+    "closedLoopRecirculation": "Management identified deficiencies in the systems measuring the portfolio; not reporting them kept the portfolio inside its stated limits; the portfolio continued to grow inside limits that the unreported deficiencies had made meaningless.",
+    "enablesNextDossier": "CC-2021-ARCHEGOS_SWAP_IMPLOSION_2021"
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "That the London Whale was one trader in a foreign office losing billions on a bet nobody at the top knew about.",
+    "whyDecoyFails": "The Federal Reserve’s penalty is not for the bet and not against a trader. It is a $200 million civil money penalty against the holding company \"for deficiencies in the bank holding company's oversight, management, and controls governing its Chief Investment Office\", and the conduct it cites is a failure \"to appropriately inform its board of directors and the Federal Reserve of deficiencies in risk-management systems identified by management.\" The phrase \"identified by management\" is the Board's: somebody knew. The loss was the occasion of the enforcement, not its subject. What this document does not do is name or sanction any individual, or record any admission.",
+    "documentedLedger": "A Federal Reserve consent Order of Assessment of a Civil Money Penalty announced on 19 September 2013, assessing $200 million against JPMorgan Chase & Co. for deficiencies in oversight, management and controls governing the Chief Investment Office, and citing the failure to appropriately inform its own board and the Federal Reserve of risk-management system deficiencies that management had identified. A prior consent Cease and Desist Order of 14 January 2013 requiring prompt corrective action on deficiencies representing unsafe or unsound practices, issued after the disclosure of significant losses in a large synthetic credit portfolio managed by the CIO. And coordinated action with the OCC, the SEC and the UK Financial Conduct Authority, with penalties across the agencies totalling approximately $920 million."
+  },
+  "citationIds": [
+    "CIT-2012-FEDERAL-RESERVE-BOARD"
+  ],
+  "citations": [
+    {
+      "id": "CIT-2012-FEDERAL-RESERVE-BOARD",
+      "tier": "TIER_1_STATUTE_COURT",
+      "title": "Board of Governors of the Federal Reserve System, $200 million penalty and consent Order against JPMorgan Chase & Co. for deficiencies in oversight of the Chief Investment Office, press release, 19 September 2013",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20130919a.htm",
+      "quoteOrFact": "Read in full from federalreserve.gov. \"The Federal Reserve Board on Thursday announced that JPMorgan Chase & Co., New York, New York (JPMC), a registered bank holding company, will pay a $200 million penalty for deficiencies in the bank holding company's oversight, management, and controls governing its Chief Investment Office (CIO).\" THE CONDUCT THE ORDER CITES, and it is a reporting failure rather than a trading loss: \"The consent Order of Assessment of a Civil Money Penalty against JPMC cites the failure by JPMC to appropriately inform its board of directors and the Federal Reserve of deficiencies in risk-management systems identified by management.\" The deficiencies had already been the subject of an earlier order: \"On January 14, 2013, the Board issued a consent Cease and Desist Order requiring JPMC to take prompt action to correct these deficiencies, which represented unsafe or unsound practices at JPMC. The Board's Cease and Desist Order followed the disclosure of significant losses in a large synthetic credit portfolio that was managed by the CIO.\" On the coordinated total: the action \"was taken in coordination with the Office of the Comptroller of the Currency, the Securities and Exchange Commission, and the Financial Conduct Authority of the United Kingdom\", and \"The penalties issued by the agencies total approximately $920 million.\" The phrase \"deficiencies in risk-management systems identified by management\" is the Board's: the deficiencies were known internally before they were reported upward. THIS CITATION WAS INHERITED WITH A PLACEHOLDER quoteOrFact reading only \"Source carried over from the Crash Conduits entry\" — a URL attached to the node without being opened. It has now been opened and read in full."
+    }
+  ]
+}

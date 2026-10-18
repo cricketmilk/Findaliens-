@@ -2184,6 +2184,98 @@
         "The citation URL was inherited with a placeholder quoteOrFact and never opened. It has now been read and the dossier written from it."
       ],
       "mechanism": "CENTRAL_BANK_LIQUIDITY"
+    },
+    {
+      "code": "CC-1996-SUMITOMO_COPPER_1996",
+      "era": "ERA-09-2001",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Carried-over citation upgraded: URL opened and read, boilerplate prose replaced",
+      "queries": [
+        {
+          "q": "CC-1996-SUMITOMO_COPPER_1996",
+          "year": null,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Citation URL inherited with a placeholder quoteOrFact and never opened; now read in full."
+      ],
+      "mechanism": "DERIVATIVE_CLEARING_CAPTURE"
+    },
+    {
+      "code": "CC-2011-MF_GLOBAL_REHYPOTHECATION_2011",
+      "era": "ERA-09-2001",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Carried-over citation upgraded: URL opened and read, boilerplate prose replaced",
+      "queries": [
+        {
+          "q": "CC-2011-MF_GLOBAL_REHYPOTHECATION_2011",
+          "year": null,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Citation URL inherited with a placeholder quoteOrFact and never opened; now read in full."
+      ],
+      "mechanism": "DERIVATIVE_CLEARING_CAPTURE"
+    },
+    {
+      "code": "CC-2012-LONDON_WHALE_2012",
+      "era": "ERA-09-2001",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Carried-over citation upgraded: URL opened and read, boilerplate prose replaced",
+      "queries": [
+        {
+          "q": "CC-2012-LONDON_WHALE_2012",
+          "year": null,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Citation URL inherited with a placeholder quoteOrFact and never opened; now read in full."
+      ],
+      "mechanism": "DERIVATIVE_CLEARING_CAPTURE"
+    },
+    {
+      "code": "CC-2000-DOT_COM_BUBBLE_2000",
+      "era": "ERA-09-2001",
+      "providers": [
+        "govinfo"
+      ],
+      "status": "DONE",
+      "topic": "Carried-over citation upgraded: URL opened and read, boilerplate prose replaced",
+      "queries": [
+        {
+          "q": "CC-2000-DOT_COM_BUBBLE_2000",
+          "year": null,
+          "providers": [
+            "govinfo"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Citation URL inherited with a placeholder quoteOrFact and never opened; now read in full."
+      ],
+      "mechanism": "LEVERAGED_WATERED_CAPITAL"
     }
   ]
 }

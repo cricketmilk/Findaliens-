@@ -1178,6 +1178,76 @@
      VERIFY PASS: both rows GATE 0-QUAR.
      Not merged to main, not pushed to main, not deployed. -->
 
+<!-- ACTUAL 2026-10-17 (ninth pass): THE CARRIED-OVER-CITATION GROUP, FIRST FIVE; AND A
+     CORRECTED COUNT OF WHAT IS ACTUALLY UNRESEARCHED.
+     119 -> 118 public dossiers (one duplicate removed, five rebuilt in place);
+     citations 185 -> 185. Boilerplate dossiers 51 -> 45.
+     THE DETECTOR WAS WRONG ALL ALONG, AND THIS IS THE CORRECTION. Everything in this
+     ledger up to now has counted "unsourced stubs" by testing whether a dossier cites
+     only CIT-1720-HANSARD. That is a test for one Phase-0 variant. The real marker of
+     an unresearched node is the BOILERPLATE decoyVsLedger that migrate.mjs wrote:
+     viralDecoy "Unverified monocausal rumor lacking docket citations", whyDecoyFails
+     "Fails primary ledger cross-examination", documentedLedger identical to the title.
+     Counting that way: 51 of 119 dossiers were unresearched, not 31. Thirty-one cite
+     the Hansard placeholder, nineteen cite real URLs that nobody ever opened, and one
+     (CC-1720-SOUTH_SEA_1720) carries a real read citation and boilerplate prose.
+     CC-1720-SOUTH_SEA_1720 REMOVED as a duplicate: it carries the same citation as
+     CC-1720-SOUTHSEA, which has real prose and a wider span (1711-1721). Same
+     disposition as the BCCI and In-Q-Tel duplicates.
+     FIVE REBUILT, all Federal Reserve History essays whose URLs had been attached to
+     these nodes without being opened. Each URL has now been read in full and the
+     boilerplate prose replaced.
+     CC-1998-LTCM_BAILOUT_1998 — THE SOURCE CONTRADICTS THE NODE'S OWN TITLE, which was
+     "Long-Term Capital Management (LTCM) & The Fed-Engineered Bailout". The essay says
+     twice that no public money was lent: "While the Federal Reserve brought the market
+     participants together and oversaw the refinancing, it did not put its own funds at
+     risk. Rather, creditors of LTCM - who had the most to lose from its bankruptcy -
+     arranged and financed the rescue", and the episode "represents an instance where
+     the Federal Reserve was able to facilitate the rescue of a failing financial
+     institution without lending its own funds." Retitled, and the mechanism changed
+     from CENTRAL_BANK_LIQUIDITY (which asserted the thing the source denies) to
+     DERIVATIVE_CLEARING_CAPTURE. The real extraction is earlier and is in the essay:
+     "At the end of 1997, LTCM returned capital to its investors, without reducing the
+     scale of its investments, thereby further increasing its already high leverage",
+     reaching "about $30 in debt for every $1 of capital".
+     CC-1984-CONTINENTAL_ILLINOIS_1984 — the node now turns on the internal memo the
+     essay quotes: an employee in the oil and gas division warned that "potential credit
+     problems could be going unnoticed" and that "corrective action should be instigated
+     quickly", and "Her warnings, largely ignored, proved prescient when Penn Square
+     failed in 1982". The decoy is "nobody suffered": shareholders were wiped out,
+     management fired, and the FDIC lost about $1.1 billion. What was rescued was the
+     creditor class - insured deposits were only about 15 percent of liabilities and the
+     FDIC guaranteed all creditors.
+     CC-1982-LATIN_AMERICAN_DEBT_1982 — built on two things the essay states and that
+     the viral framings on both sides leave out: the recycling was done "With the
+     encouragement of the US government", and the risk was named publicly by the Fed
+     chairman in 1977, five years before the default, after which the exposure roughly
+     doubled again to 176 percent of the nine largest banks' capital.
+     CC-1997-ASIAN_FINANCIAL_CRISIS_1997 — DELIBERATELY THIN, and the dossier says so.
+     The essay states that the crisis "generally caught market participants and
+     policymakers by surprise", which is an awkward fact for an atlas about foreknowledge
+     and is therefore the thing the node leads with. The rescue terms, IMF conditionality
+     and the question of who profited are NOT sourced here and are not asserted.
+     CC-1968-LONDON_GOLD_POOL_1968 — A FIT PROBLEM RECORDED RATHER THAN HIDDEN: the
+     essay's subject is August 1971, not March 1968. It is cited because it contains the
+     London Gold Pool passage, and the citation says so in terms. The decoy is the
+     secret-cartel reading; the answer is that the Pool's membership, date, mechanism and
+     purpose are published by one of its own members, so it is a policy rather than a
+     conspiracy - while conceding the thing the decoy gestures at, that the observable
+     price was an administered one.
+     SOURCE-CHARACTER NOTE CARRIED IN ALL FIVE CITATIONS: Federal Reserve History is an
+     educational project of the Federal Reserve System. These are signed secondary
+     essays with bibliographies, not primary records. They are tiered
+     TIER_4_CONTEMPORARY_PRESS and every claim is attributed to the essay rather than
+     asserted as a documentary finding. This is an upgrade from an unopened URL, not an
+     arrival at the ac8d030 standard, and the ledger should not pretend otherwise.
+     GATES: npm test 38/38; check-links over the five drafts, 5 URLs, 5 ok / 0 blocked /
+     0 DEAD; schema validates; 0 duplicate codes, ids or citation URLs; 0 orphan
+     citationIds; 0 unused citations; check-era-headers OK at 10 headers for 10 eras;
+     atlas.html tallies updated 119 -> 118.
+     VERIFY PASS: all five rows GATE 0-QUAR.
+     Not merged to main, not pushed to main, not deployed. -->
+
 # THE CORNFIELD GAZETTE — MASTER NODE STATUS LEDGER
 
 | Node Code | Title / Scope | Era | Evidence Tier | Seeding Providers | Verify Pass | UI Wired | Done |
@@ -1251,3 +1321,8 @@
 | `CC-2003-THERANOS_2015` | Never Deployed, $100,000 Earned: What the SEC Alleged, Neither Admitted Nor Denied | `ERA-09-2001` | `TIER_1_STATUTE_COURT` | `sec.gov` | GATE 0-QUAR | YES | [x] |
 | `CC-2019-FTX_2022` | A Virtually Unlimited Line of Credit, Funded by the Customers | `ERA-09-2001` | `TIER_1_STATUTE_COURT` | `sec.gov` | GATE 0-QUAR | YES | [x] |
 | `CC-2021-ARCHEGOS_SWAP_IMPLOSION_2021` | From 4 to 36 Billion in Six Months: Swaps, Marking the Close, and Counterparties Who Had Started Asking | `ERA-10-2020` | `TIER_1_STATUTE_COURT` | `sec.gov,finma.ch,federalreserve.gov` | GATE 0-QUAR | YES | [x] |
+| `CC-1998-LTCM_BAILOUT_1998` | Thirty Dollars of Debt to One of Capital: the Rescue the Fed Convened and Did Not Fund | `ERA-09-2001` | `TIER_4_CONTEMPORARY_PRESS` | `federalreservehistory.org` | GATE 0-QUAR | YES | [x] |
+| `CC-1984-CONTINENTAL_ILLINOIS_1984` | Corrective Action Should Be Instigated Quickly: the Memo That Was Ignored | `ERA-08-1953` | `TIER_4_CONTEMPORARY_PRESS` | `federalreservehistory.org` | GATE 0-QUAR | YES | [x] |
+| `CC-1982-LATIN_AMERICAN_DEBT_1982` | With the Encouragement of the US Government: Petrodollars Lent Out, and a Warning from 1977 | `ERA-08-1953` | `TIER_4_CONTEMPORARY_PRESS` | `federalreservehistory.org` | GATE 0-QUAR | YES | [x] |
+| `CC-1997-ASIAN_FINANCIAL_CRISIS_1997` | Caught By Surprise: a Devaluation in Thailand and the Reversal of the Flows | `ERA-09-2001` | `TIER_4_CONTEMPORARY_PRESS` | `federalreservehistory.org` | GATE 0-QUAR | YES | [x] |
+| `CC-1968-LONDON_GOLD_POOL_1968` | Eight Central Banks Holding a Price: the Pool That Collapsed in March 1968 | `ERA-08-1953` | `TIER_4_CONTEMPORARY_PRESS` | `federalreservehistory.org` | GATE 0-QUAR | YES | [x] |

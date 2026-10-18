@@ -1,0 +1,51 @@
+{
+  "code": "CC-1998-LTCM_BAILOUT_1998",
+  "eraId": "ERA-09-2001",
+  "yearStart": 1994,
+  "yearEnd": 1999,
+  "title": "Thirty Dollars of Debt to One of Capital: the Rescue the Fed Convened and Did Not Fund",
+  "primaryTab": "crash-conduits",
+  "secondaryTabs": [
+    "deep-state"
+  ],
+  "mechanism": "DERIVATIVE_CLEARING_CAPTURE",
+  "tier": "TIER_4_CONTEMPORARY_PRESS",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "Long-Term Capital Management L.P.",
+    "John Meriwether",
+    "Federal Reserve Bank of New York",
+    "William McDonough",
+    "The fourteen consortium firms"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "The skim was taken before the loss, and it is the detail most often left out: \"At the end of 1997, LTCM returned capital to its investors, without reducing the scale of its investments, thereby further increasing its already high leverage.\" Money went out of the fund while the positions stayed on. By the end of that year \"LTCM was holding about $30 in debt for every $1 of capital\", after reported returns of 20, 43, 41 and 17 percent across 1994 to 1997.",
+    "stage2_structuralCompromise": "The structure was leverage applied to convergence: a strategy that \"exploited temporary price differences between similar types of securities\" and was described as market-neutral, which earns little per dollar and therefore must borrow heavily to earn much at all. The fund extended the same approach across government bonds, mortgage-backed securities and equities, and \"entered into derivatives contracts extensively, including those for swaps, forwards, and options\".",
+    "stage3_informationFog": "The fog was on the supervisor's side, and the essay is explicit about when it lifted: \"While the Fed had been aware of LTCM's situation through its usual market monitoring activities, the dangerous scale and scope of LTCM's positions became apparent only upon closer inspection\" — an inspection that happened on 20 September 1998, two days after the fund itself telephoned the New York Fed, and after it had already lost 44 percent of its value in a single month.",
+    "stage4_monopolyWindfall": "What was rescued was the orderly unwind, not the owners. Fourteen firms put up $3.625 billion \"in exchange for 90 percent of the fund's ownership\"; the partners were left running day-to-day operations \"with no bonuses and limited salaries\", reporting to an oversight committee of the consortium; and \"LTCM's partners and other investors suffered substantial losses when their claim was reduced to 10 percent\". The consortium had its $3.6 billion back by the end of 1999.",
+    "stage5_merseyWhitewash": "The containment was a room at the New York Fed and a deadline, and the essay names what it avoided as well as what it did: creditors funded the rescue, \"thereby mitigating the moral hazard concerns that might have arisen had public funds been used\". Its closing criticism is structural rather than exculpatory — the episode \"suggests the need for an established mechanism to address the risks of fire sales arising from failing financial firms, rather than relying on the Fed to coordinate ad hoc private sector solutions at the last minute.\""
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "A hedge fund outside the prudential perimeter, financed by regulated dealers whose individual exposures were each tolerable and whose aggregate was not visible to any of them.",
+    "newFrameworkCreated": "The convening precedent itself: a central bank assembling a private consortium in its own building, which the essay treats as an ad hoc solution standing in for a mechanism that did not exist.",
+    "closedLoopRecirculation": "Returns attracted leverage; leverage required ever-finer spreads; the capital return of 1997 raised leverage again without reducing the book; and when the spreads diverged, the counterparties who had supplied the leverage were the only parties with enough at stake to fund the unwind.",
+    "enablesNextDossier": "CC-2008-TARP"
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "That the Federal Reserve bailed out a hedge fund run by Nobel laureates with public money — the first and clearest case of Wall Street being rescued at the taxpayer's expense.",
+    "whyDecoyFails": "No public money was lent. The Federal Reserve History account states it twice: \"While the Federal Reserve brought the market participants together and oversaw the refinancing, it did not put its own funds at risk. Rather, creditors of LTCM—who had the most to lose from its bankruptcy—arranged and financed the rescue\", and the episode \"represents an instance where the Federal Reserve was able to facilitate the rescue of a failing financial institution without lending its own funds.\" The avoidance of public funds was the point, \"mitigating long-term moral hazard concerns\". Nor did the owners walk away whole: the partners' claim was cut to 10 percent, they ran the wind-down on limited salaries and no bonuses under a creditors' oversight committee, and they had already lost 44 percent of the fund's value in August alone. What the record does support is a different and narrower criticism, which the essay makes itself: that a central bank had to convene an ad hoc private solution at the last minute because no established mechanism existed.",
+    "documentedLedger": "Reported returns of 20 percent in 1994, 43 in 1995, 41 in 1996 and 17 in 1997. Capital returned to investors at the end of 1997 without reducing the scale of the investments, raising leverage to about $30 of debt for every $1 of capital. A 44 percent loss of value in August 1998 after Russia devalued and defaulted. The fund's own call to the New York Fed on 18 September 1998, a Fed team on site on 20 September, and the scale of the positions becoming apparent to the supervisor only then. A Buffett-led offer of $250 million for the partners plus $3.75 billion of capital that was not accepted. And, on 23 September 1998, fourteen firms putting up $3.625 billion for 90 percent of the fund, with no Federal Reserve money at risk, the money returned by the end of 1999, and the partners reduced to a tenth."
+  },
+  "citationIds": [
+    "CIT-1998-FEDERAL-RESERVE-HISTORY"
+  ],
+  "citations": [
+    {
+      "id": "CIT-1998-FEDERAL-RESERVE-HISTORY",
+      "tier": "TIER_4_CONTEMPORARY_PRESS",
+      "title": "Federal Reserve History, \"Near Failure of Long-Term Capital Management, September 1998\", by Michael Fleming and Weiling Liu",
+      "url": "https://www.federalreservehistory.org/essays/ltcm-near-failure",
+      "quoteOrFact": "Read in full from federalreservehistory.org. THE ESSAY CONTRADICTS THE \"FED BAILOUT\" FRAMING DIRECTLY: \"On September 23, 1998, a group of fourteen banks and brokerage firms invested $3.6 billion in Long-Term Capital Management L.P. (LTCM) to prevent the firm's imminent collapse ... While the Federal Reserve brought the market participants together and oversaw the refinancing, it did not put its own funds at risk. Rather, creditors of LTCM—who had the most to lose from its bankruptcy—arranged and financed the rescue. The effort thereby addressed the near-term concerns of a possible fire sale of LTCM assets, while mitigating long-term moral hazard concerns that might have arisen from the use of public funds.\" On the leverage: \"At the end of 1997, LTCM returned capital to its investors, without reducing the scale of its investments, thereby further increasing its already high leverage\", and \"As of the end of 1997, LTCM was holding about $30 in debt for every $1 of capital\". On the returns that preceded it: \"LTCM generated above-normal returns of 20 percent in 1994, 43 percent in 1995, 41 percent in 1996, and 17 percent in 1997\". On the collapse: after Russia devalued and defaulted in August 1998, \"LTCM had largely been betting on the spreads in its portfolios to converge, but in almost every case, they diverged. The fund lost 44 percent of its value in August alone.\" On what the Fed actually did: LTCM contacted the New York Fed president on 18 September; a Fed team visited two days later; \"While the Fed had been aware of LTCM's situation through its usual market monitoring activities, the dangerous scale and scope of LTCM's positions became apparent only upon closer inspection\"; the Fed convened firms on 22 and 23 September. A Warren Buffett-led offer to buy out the partners for $250 million and inject $3.75 billion was not accepted \"due to reported legal issues\". The consortium agreed about 6:00 p.m. on 23 September: \"fourteen firms put up $3.625 billion in capital in exchange for 90 percent of the fund's ownership (two firms included in the talks declined to participate).\" LTCM's partners ran day-to-day operations \"with no bonuses and limited salaries\", reporting to an oversight committee; the consortium's $3.6 billion was returned by the end of 1999; and \"LTCM's partners and other investors suffered substantial losses when their claim was reduced to 10 percent\". The essay's own closing judgement: the episode \"represents an instance where the Federal Reserve was able to facilitate the rescue of a failing financial institution without lending its own funds\", while suggesting \"the need for an established mechanism to address the risks of fire sales arising from failing financial firms, rather than relying on the Fed to coordinate ad hoc private sector solutions at the last minute.\" SOURCE CHARACTER: Federal Reserve History is an educational project of the Federal Reserve System. This is a signed secondary essay with its own bibliography, not a primary record, and it is tiered and attributed accordingly: the dossier says what the essay states, not what a contemporaneous document shows. THIS CITATION WAS INHERITED WITH A PLACEHOLDER quoteOrFact reading only \"Source carried over from the Crash Conduits entry\" — a URL attached to this node without anyone opening it. It has now been opened and read."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "code": "CC-1997-ASIAN_FINANCIAL_CRISIS_1997",
+  "eraId": "ERA-09-2001",
+  "yearStart": 1997,
+  "yearEnd": 1998,
+  "title": "Caught By Surprise: a Devaluation in Thailand and the Reversal of the Flows",
+  "primaryTab": "crash-conduits",
+  "secondaryTabs": [
+    "carbon-class"
+  ],
+  "mechanism": "SOVEREIGN_DEBT_TRAP",
+  "tier": "TIER_4_CONTEMPORARY_PRESS",
+  "auditDisposition": "DOCUMENTED",
+  "participants": [
+    "Thailand",
+    "Indonesia",
+    "South Korea",
+    "Malaysia",
+    "The Philippines",
+    "Hong Kong",
+    "International Monetary Fund"
+  ],
+  "extractionLoop": {
+    "stage1_upfrontSkim": "The inflow came first and the essay treats its reversal as the mechanism: \"Across East Asia, capital inflows slowed or reversed direction, and growth slowed sharply.\" What had been invested on the way in was withdrawn on the way out, and the currencies carried the difference.",
+    "stage2_structuralCompromise": "The compromise was the peg, defended until the reserves ran down. Thailand devalued on 2 July 1997 after \"months of speculative pressures that had substantially depleted Thailand's official foreign exchange reserves\". Hong Kong \"faced several large but unsuccessful speculative attacks on its currency peg to the dollar\".",
+    "stage3_informationFog": "The honest finding here is an absence, and the dossier says so rather than inventing foreknowledge: \"The events that came to be known as the Asian Financial Crisis generally caught market participants and policymakers by surprise\", though some vulnerabilities were recognised beforehand. This node sits in an atlas about things that were known in advance; this one, on the source read here, largely was not.",
+    "stage4_monopolyWindfall": "What spread was contagion rather than a windfall. Thailand's difficulties \"evolved into a twin balance-of-payments and banking crisis\"; Malaysia, the Philippines and Indonesia let their currencies weaken, \"with Indonesia gradually falling into a multifaceted financial and political crisis\"; and \"severe balance-of-payments pressures in South Korea brought the country to the brink of default\". The first Hong Kong attack \"triggered short-term stock market sell-offs across the globe\".",
+    "stage5_merseyWhitewash": "The essay read here describes the crisis and its spread; it does not adjudicate the rescue terms, and this dossier does not either. What it records is the cost: \"Banks came under significant pressures, investment rates plunged, and some Asian countries entered deep recessions, producing important spillovers to trading partners across the globe.\""
+  },
+  "closedLoopRatchet": {
+    "inheritedFramework": "Dollar-pegged currencies in open capital accounts, where a fixed rate invites foreign borrowing and the reserves backing it can be tested by anyone.",
+    "newFrameworkCreated": "The post-1998 reserve accumulation by East Asian states — self-insurance against ever needing the rescue again — and the lasting political argument about the terms on which it was offered.",
+    "closedLoopRecirculation": "The peg encouraged unhedged foreign-currency borrowing; the borrowing raised the cost of defending the peg; the defence depleted the reserves that made the peg credible; and the devaluation that followed multiplied the local-currency value of the debt.",
+    "enablesNextDossier": "CC-1998-LTCM_BAILOUT_1998"
+  },
+  "decoyVsLedger": {
+    "viralDecoy": "That the Asian crisis was engineered — a deliberate raid by Western speculators and the IMF to force open the region's economies — or, from the other side, that it was simply crony capitalism getting what it deserved.",
+    "whyDecoyFails": "The source read here supports neither as a single explanation, and it says something that cuts against the engineered reading in particular: the crisis \"generally caught market participants and policymakers by surprise\". A raid that surprises its beneficiaries is a poor raid. The crony-capitalism reading is equally incomplete against an account in which the proximate mechanism is a balance-of-payments one — depleted reserves, a devaluation, then capital inflows that \"slowed or reversed direction\" across an entire region including economies with very different domestic arrangements. This dossier is deliberately thin where the evidence is thin: the essay cited is a secondary account of what happened, and the rescue terms, the IMF conditionality and the question of who profited are not sourced here and are not asserted.",
+    "documentedLedger": "Thailand's devaluation on 2 July 1997, following months of speculative pressure that had substantially depleted its official reserves. Its difficulties evolving into a twin balance-of-payments and banking crisis. Malaysia, the Philippines and Indonesia allowing substantial currency weakening, with Indonesia falling into a multifaceted financial and political crisis. Unsuccessful speculative attacks on Hong Kong's dollar peg, the first triggering short-term stock market sell-offs globally. South Korea brought to the brink of default. Capital inflows across East Asia slowing or reversing, banks under significant pressure, investment rates plunging, deep recessions in some countries and spillovers to trading partners. And the fact that it generally caught market participants and policymakers by surprise."
+  },
+  "citationIds": [
+    "CIT-1997-FEDERAL-RESERVE-HISTORY"
+  ],
+  "citations": [
+    {
+      "id": "CIT-1997-FEDERAL-RESERVE-HISTORY",
+      "tier": "TIER_4_CONTEMPORARY_PRESS",
+      "title": "Federal Reserve History, \"Asian Financial Crisis, July 1997-December 1998\", by Michael Carson and John Clark",
+      "url": "https://www.federalreservehistory.org/essays/asian-financial-crisis",
+      "quoteOrFact": "Read from federalreservehistory.org. On the trigger and spread: \"On July 2, 1997, Thailand devalued its currency relative to the U.S. dollar. This development, which followed months of speculative pressures that had substantially depleted Thailand's official foreign exchange reserves, marked the beginning of a deep financial crisis across much of East Asia. In subsequent months, Thailand's currency, equity, and property markets weakened further as its difficulties evolved into a twin balance-of-payments and banking crisis.\" It records that \"Malaysia, the Philippines, and Indonesia also allowed their currencies to weaken substantially in the face of market pressures, with Indonesia gradually falling into a multifaceted financial and political crisis\"; that Hong Kong \"faced several large but unsuccessful speculative attacks on its currency peg to the dollar, the first of which triggered short-term stock market sell-offs across the globe\"; and that \"severe balance-of-payments pressures in South Korea brought the country to the brink of default.\" On the consequences: \"Across East Asia, capital inflows slowed or reversed direction, and growth slowed sharply. Banks came under significant pressures, investment rates plunged, and some Asian countries entered deep recessions, producing important spillovers to trading partners across the globe.\" ON FORESEEABILITY, which the dossier must not overstate in either direction: \"The events that came to be known as the Asian Financial Crisis generally caught market participants and policymakers by surprise\", while some vulnerabilities were recognised beforehand. SOURCE CHARACTER: Federal Reserve History is an educational project of the Federal Reserve System. This is a signed secondary essay with its own bibliography, not a primary record, and it is tiered and attributed accordingly: the dossier says what the essay states, not what a contemporaneous document shows. THIS CITATION WAS INHERITED WITH A PLACEHOLDER quoteOrFact reading only \"Source carried over from the Crash Conduits entry\" — a URL attached to this node without anyone opening it. It has now been opened and read."
+    }
+  ]
+}

@@ -2023,6 +2023,52 @@
         "Phase-0 stub replaced. Citations hand-resolved, opened and read."
       ],
       "mechanism": "LEVERAGED_WATERED_CAPITAL"
+    },
+    {
+      "code": "CC-2019-FTX_2022",
+      "era": "ERA-09-2001",
+      "providers": [
+        "edgar"
+      ],
+      "status": "DONE",
+      "topic": "Phase-0 stub researched from primary documents",
+      "queries": [
+        {
+          "q": "CC-2019-FTX_2022",
+          "year": null,
+          "providers": [
+            "edgar"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Phase-0 stub replaced. SEC complaint read in full; treated strictly as allegation."
+      ],
+      "mechanism": "OFFSHORE_BLACK_LEDGER"
+    },
+    {
+      "code": "CC-2021-ARCHEGOS_SWAP_IMPLOSION_2021",
+      "era": "ERA-10-2020",
+      "providers": [
+        "edgar"
+      ],
+      "status": "DONE",
+      "topic": "Phase-0 stub researched from primary documents",
+      "queries": [
+        {
+          "q": "CC-2021-ARCHEGOS_SWAP_IMPLOSION_2021",
+          "year": null,
+          "providers": [
+            "edgar"
+          ],
+          "strong": []
+        }
+      ],
+      "anchors": [
+        "Phase-0 stub replaced. SEC complaint read in full; treated strictly as allegation."
+      ],
+      "mechanism": "DERIVATIVE_CLEARING_CAPTURE"
     }
   ]
 }

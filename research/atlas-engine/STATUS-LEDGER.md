@@ -1113,6 +1113,71 @@
      atlas.html tallies updated 121 -> 119.
      Not merged to main, not pushed to main, not deployed. -->
 
+<!-- ACTUAL 2026-10-17 (eighth pass): FTX AND ARCHEGOS; A MISTAKE OF MINE AND ITS
+     REPAIR; AND A LARGER SOURCING PROBLEM FOUND IN THE PROCESS.
+     Counts: 119 public dossiers, 183 -> 185 citations, stubs 32 -> 31.
+     CC-2019-FTX_2022 — SEC v. Samuel Bankman-Fried, complaint, No. 1:22-cv-10501
+     (S.D.N.Y., 13 December 2022), read in full from sec.gov. Framed throughout as
+     ALLEGATION, which the dossier says repeatedly. The criminal case was not sourced
+     (justice.gov serves a not-found page for the press releases) and no verdict is
+     asserted.
+     MY MISTAKE, AND IT IS WORTH WRITING DOWN. I treated
+     CC-2021-ARCHEGOS_SWAP_IMPLOSION_2021 as a Phase-0 stub and replaced it wholesale
+     with a one-citation node built on the SEC complaint. IT WAS NOT A STUB. It already
+     carried three citations — CIT-2021-SEC-1, CIT-2021-FINMA-2 and
+     CIT-2021-FEDERAL-RESERVE-BOARD-3 — and my replacement left all three ORPHANED in
+     master, referenced by nothing. The error was in my stub test, which was
+     "citationIds.length === 1 && citationIds[0] === CIT-1720-HANSARD". That is a test
+     for one particular kind of stub, and I used it as though it were a test for
+     "unsourced". It caught FTX correctly and said nothing about Archegos, and I did
+     not check before cutting. Caught because the stub count fell by one when two nodes
+     had been replaced — arithmetic, not vigilance.
+     THE REPAIR, which made the node better than either version. The three displaced
+     citations were real and valuable, but their quoteOrFact read only "Source carried
+     over from the Crash Conduits entry archegos-swap-implosion-2021" — URLs migrated
+     from a legacy page and NEVER OPENED. All three have now been opened and read and
+     their quoteOrFact replaced with what the pages actually say, and the node carries
+     four citations. The two concluded regulatory actions are what the dossier most
+     needed, because they answer the banks-as-victims reading with findings rather than
+     allegations: the Federal Reserve consent order of 24 July 2023, a $268.5 million
+     fine on UBS for Credit Suisse unsafe and unsound counterparty credit risk
+     management practices, stating that Credit Suisse "failed to adequately manage the
+     risk posed by Archegos despite repeated warnings" against approximately $5.5
+     billion of losses; and FINMA finding the same day that Credit Suisse "had
+     seriously and systematically violated financial market law" in the relationship.
+     The SEC press release also gives fuller scale figures than the complaint summary:
+     "approximately $1.5 billion with $10 billion in exposure in March 2020 to a value
+     of more than $36 billion with $160 billion in exposure at its peak in March 2021."
+     A citation-level cutter was written to do this safely (it refuses to cut any
+     citation a dossier still references) and master now reports 0 orphan citationIds
+     and 0 unused citations.
+     THE LARGER PROBLEM THIS EXPOSED. Searching for other citations with the same
+     placeholder found 24 of them, and NINETEEN DOSSIERS WHOSE ONLY CITATIONS ARE
+     NEVER-OPENED CARRIED-OVER URLS: CC-1636-TULIP_1636, CC-1720-MISSISSIPPI_1720,
+     CC-1825-HAITI_INDEMNITY_1825, CC-1968-LONDON_GOLD_POOL_1968,
+     CC-1974-HERSTATT_RISK_1974, CC-1982-LATIN_AMERICAN_DEBT_1982,
+     CC-1984-CONTINENTAL_ILLINOIS_1984, CC-1994-ORANGE_COUNTY_1994,
+     CC-1996-SUMITOMO_COPPER_1996, CC-1997-ASIAN_FINANCIAL_CRISIS_1997,
+     CC-1998-LTCM_BAILOUT_1998, CC-2000-DOT_COM_BUBBLE_2000,
+     CC-2008-BLACKROCK_MAIDENLANE_2008, CC-2008-AIG_GOLDMAN_CDS_2008,
+     CC-2010-FLASH_BOYS_2010, CC-2011-MF_GLOBAL_REHYPOTHECATION_2011,
+     CC-2012-LONDON_WHALE_2012, CC-2022-UK_LDI_GILT_CRISIS_2022 and
+     CC-2023-CREDIT_SUISSE_AT1_2023.
+     SO THE TRUE SCALE OF UNVERIFIED CONTENT IS 50 OF 119 NODES, not 31: thirty-one
+     citing only the 1721 South Sea report, and nineteen citing only URLs no one has
+     opened. The second group is in some ways worse, because it LOOKS sourced — real
+     URLs to real regulators — and only the quoteOrFact gives it away. Any future count
+     of unsourced stubs should test for the placeholder as well as for the Hansard
+     citation. (Note: the Archegos node now trips a naive placeholder search because
+     its new quoteOrFact QUOTES the old placeholder text while explaining the repair.
+     It is a false positive; its three citations have been read.)
+     GATES: npm test 38/38; schema validates; 0 duplicate codes, ids or citation URLs;
+     0 orphan citationIds; 0 unused citations; check-era-headers OK at 10/10;
+     check-links over the Archegos draft, 4 URLs, 2 ok / 2 blocked (sec.gov, read by
+     hand) / 0 DEAD.
+     VERIFY PASS: both rows GATE 0-QUAR.
+     Not merged to main, not pushed to main, not deployed. -->
+
 # THE CORNFIELD GAZETTE — MASTER NODE STATUS LEDGER
 
 | Node Code | Title / Scope | Era | Evidence Tier | Seeding Providers | Verify Pass | UI Wired | Done |
@@ -1184,3 +1249,5 @@
 | `CC-2007-SUBPRIME_CONVEYOR_2007` | Avoidable: the Commission’s Own Conclusions, and the Two Dissents | `ERA-09-2001` | `TIER_2_INQUIRY` | `govinfo` | GATE 0-QUAR | YES | [x] |
 | `CC-1999-ENRON_2001` | Knowingly Allowed: Six Findings Against a Board That Witnessed and Chose to Ignore | `ERA-09-2001` | `TIER_2_INQUIRY` | `govinfo` | GATE 0-QUAR | YES | [x] |
 | `CC-2003-THERANOS_2015` | Never Deployed, $100,000 Earned: What the SEC Alleged, Neither Admitted Nor Denied | `ERA-09-2001` | `TIER_1_STATUTE_COURT` | `sec.gov` | GATE 0-QUAR | YES | [x] |
+| `CC-2019-FTX_2022` | A Virtually Unlimited Line of Credit, Funded by the Customers | `ERA-09-2001` | `TIER_1_STATUTE_COURT` | `sec.gov` | GATE 0-QUAR | YES | [x] |
+| `CC-2021-ARCHEGOS_SWAP_IMPLOSION_2021` | From 4 to 36 Billion in Six Months: Swaps, Marking the Close, and Counterparties Who Had Started Asking | `ERA-10-2020` | `TIER_1_STATUTE_COURT` | `sec.gov,finma.ch,federalreserve.gov` | GATE 0-QUAR | YES | [x] |
